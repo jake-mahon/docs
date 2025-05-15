@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Logo_RGB.svg',
       navbar: {
         title: 'Documentation',
         logo: {
@@ -126,6 +126,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    stylesheets: [
+      'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
+    ],
 };
 
 export default config;
