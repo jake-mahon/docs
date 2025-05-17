@@ -1,0 +1,20 @@
+---
+sidebar_position: 6371
+title: Multifactor Authentication
+---
+
+# Multifactor Authentication
+
+## What is multifactor authentication?
+
+Multifactor authentication is used to secure the logon to the by an additional factor. The actual setup takes place in the client. The configured en can then be used by any user
+
+Activation of different factors
+
+In the Databases module, select a database and open its settings via the ribbon...
+
+![Database settings](../../../../../../../../static/images/PasswordSecure_9.2/Content/Resources/Images/MFA-de.png "Database settings")
+
+In the settings you define which second factors can be used.
+
+NOTE: If you want to use "Encipherment" for PKI certificates without KeyUsageFlag, uncheck the corresponding checkbox.

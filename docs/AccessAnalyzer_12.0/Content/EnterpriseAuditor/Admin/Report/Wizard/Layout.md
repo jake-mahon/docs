@@ -1,0 +1,28 @@
+---
+sidebar_position: 5712
+title: Layout Page
+---
+
+# Layout Page
+
+The Layout page allows you to configure the layout of the report's content.
+
+![](../../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Report/Wizard/Layout.png)
+
+Follow the steps to select the layout:
+
+**Step 1 –** Click the **Select the number of rows** drop-down menu and select an option from: 1 row, 2 rows, or 3 rows.
+
+**Step 2 –** Click on the layout tile you want for the report.
+
+The layout for the report has been selected. Each box on the selected tile corresponds to a separate widget that you next need to configure on the [Widgets Page](Widgets "Widgets") page of the Report Configuration wizard.
+
+## Element Downgrade Editor
+
+If you are editing an existing report and you select a layout that has fewer elements than the number of already configured widgets, then the Element Downgrade Editor automatically displays.
+
+![Element Downgrade Editor](../../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Report/Wizard/ElementDowngradeEditor.png "Element Downgrade Editor")
+
+The maximum number of elements allowed by the correctly selected layout is specified at the top of the editor. Select the checkboxes next to the title of all the configured widgets you want to keep up to this limit, then click **OK**. Any widgets not selected will be removed from the report.
+
+**NOTE:** You can click **Cancel** to return to the layout page to select a different layout with more elements.

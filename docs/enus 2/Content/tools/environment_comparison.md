@@ -1,0 +1,116 @@
+---
+sidebar_position: 2826
+title: Environment Comparison
+---
+
+# Environment Comparison
+
+Administrators use this tool to compare environments and generate an Excel report file with the results. This report can be used to troubleshoot processes or data causing errors in a particular account, compare preferences between accounts, or determine if data needs to migrate between accounts. An [Environment Compare Log](../reports/deployment_logs_environment_compare#sample_env_compare_log) is generated. The comparison can handle up to 10,000 items. You receive an email with a link to the [Export Object Attachment](export_object_attachment_records "Open Export Object Attachment record") record, where you can download your file. Here is the basic process:
+
+Open **Netwrix Dashboard** > **Tools** > **Environment Comparison**
+
+[Select the Environments to Compare](#Select)
+
+[Add Filters for the Comparison](#Add)
+
+[Select Export Options](#Select2 "Select Export Options")
+
+[Run the Comparison](#Run)
+
+[View the Report](#View)
+
+## Select the Environments to Compare
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_environments.png)
+
+For both the **Source** and **Target** Environments:
+
+Select your credentials from the drop down lists. Create credentials with the Credentials Handler.
+
+The **Click here to proceed** link opens the Credentials Handler where you can add, edit and sync your credentials.
+
+## Add Filters for the Comparison
+
+Filters determine what is included in the comparison. There are four options to add filters:
+
+* Option 1: Select All Customizations of the Specified Metadata Type
+* Option 2: Import All Customizations from a Selected Change Request
+* Option 3: Select Specific Customizations
+* Option 4: Packages to Exclude (All Options)
+
+**NOTE:** Filters are cumulative. Use a single filter (1 through 3) to avoid overlapping selections. **Packages to Exclude** can be used in conjunction with options 1 through 3.
+
+### Set a Metadata Type
+
+**Metadata Type**
+  
+ Select a **All** or a specific metadata type to compare from the list. If you select **Report**, only tabular and summary reports are compared. Metric and joined reports are not compared.
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_filters.png)
+
+### Import Customizations from a Change Request
+
+**Change Request**
+  
+Enter a Change Request ID, or use the drop down to scroll through a list of available Change Requests.
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_filters3.png "Import Customizations from a Change Request")
+
+### Select Specific Customizations
+
+1. Scroll through the **Search Customizations**, or enter all or part of a name to filter the list. You can **Select a Salesforce Type** to limit this list. If you select **Report**, only tabular and summary reports are compared. Metric and joined reports are not compared.
+2. Select one or more customizations in the **Select Customizations** scroll box. Use **Shift** or **Ctrl** to select multiple customizations .
+3. Click the right arrow to move the items to the **Selected Customizations** list. To remove an item from the **Selected Customizations** list, select it and click the left arrow.
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_filters2.png "Add Filters with Individual Customizations")
+
+### Packages to Exclude
+
+1. Enter the package name in **Search Packages**.
+2. Select one or more **Packages** in the Select Packages to exclude scroll box.
+3. Click the right arrow to move the items to the **Selected** list. To remove an item from the **Selected** list, select it and click the left arrow.
+
+![Select packages to exclude](../../../../static/images/enus 2/Content/Resources/Images/compare_env_filters4.png "Select packages to exclude")
+
+## Select Export Options
+
+Click **Export to Excel** if you want to view the report in Excel. You receive an email when the Excel file is complete.
+
+## Run the Comparison
+
+Click **Compare**. The process is run in the background. You receive an email when the compare is complete.
+
+## View the Report
+
+1. Open the **Export Attachments** tab. Change the Export Attachments from **Recently Viewed** to **All** if necessary to see your report. Refer to [Export Object Attachment](export_object_attachment_records "Open Export Object Attachment record") for details on adding the tab to your tool bar if needed.
+2. Click on the **Environment Comparison** report in the list. The Export Attachment **Details** are displayed, and your Excel report is downloaded by your browser.
+3. Open the *Environment\_Compare\_export.xls* file. When you open an exported file, this message may be displayed, as the exported file is in XML instead of the Excel format. Click **Yes** to load the file.  
+   ![](../../../../static/images/enus 2/Content/Resources/Images/export_excel_error_msg.png "Excel error message - Click Yes to continue.")
+
+### Environment\_Compare\_export.xls
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_results_excel.png "The Only In Source tab of the Environment_Compare_Export.xls file")
+
+The *Environment\_Compare\_export.xls* file contains a **Summary** tab and individual tabs for each comparison type:
+
+**Summary**: details about this Environment Comparison
+
+**Only in Source**: items only present in the **Source** Environment
+
+**Only in Target**: items only present in the **Target** Environment
+
+**In Both Same**: items present in both Environments without differences
+
+**In Both Different**: items present in both Environments with differences. Here is an example:
+
+![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_results_excel_diffs.png "Example of Environment Comparison differences")
+
+## Create a Change Request
+
+You can use the link in your Environment Compare complete email to directly open a Salesforce form and create a Change Request based on the differences.
+
+1. Open **Netwrix Dashboard** > **Tools** > **Environment Comparison**
+2. **Select Customization(s)** contains all of the Customizations with Differences. Select one or more and click **Add** to move them to the **Selected Customization(s)** pane.
+
+   ![](../../../../static/images/enus 2/Content/Resources/Images/compare_env_create_cr.png "Select Customizations with Differences and create a Change Request")
+3. Click **Create Change Request** to continue.

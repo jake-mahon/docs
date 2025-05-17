@@ -1,0 +1,23 @@
+---
+sidebar_position: 6021
+title: "ExchangePS:\_Mailbox Logons"
+---
+
+# ExchangePS: Mailbox Logons
+
+The Mailbox Logons page is used to define the type of mailbox logon events to return, as well as the date range to be returned. It is a wizard page for the category of Mailbox Information > Mailbox Access Logons.
+
+![ExchangePS Data Collector Wizard Mailbox Logons page](../../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/DataCollector/ExchangePS/MailboxLogons.png "ExchangePS Data Collector Wizard Mailbox Logons page")
+
+Select the desired checkboxes to indicate which logons to audit:
+
+* Delegate
+* Admin
+* Owner
+
+Specify the date range for the logons:
+
+* Last – Select the number and time units
+
+  **NOTE:** Available units are **Days**, **Months**, or **Years**.
+* Between (Date) – Use the drop-down menus to open calendars to select the start and end dates

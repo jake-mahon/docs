@@ -1,0 +1,31 @@
+---
+sidebar_position: 7334
+title: ISmsGateway.ProxyHostName
+---
+
+# ISmsGateway.ProxyHostName
+
+Gets or sets the host name of the proxy server.
+
+**Namespace:** Imanami.PublicInterfaces
+
+**Assembly:** Imanami.PublicInterfaces.dll
+
+**Syntax**
+
+```
+string ProxyHostName { get; set; }
+```
+**Return Value**
+
+Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx "System.String")
+
+The host name of the proxy server.
+
+**Remarks**
+
+If communication with the SMS gateway is through a proxy server, you can use this property to provide the host name of the proxy server.
+
+**See Also**
+
+* [Implement and Deploy a Custom SMS Gateway](../ImplementCustom "Implement and Deploy a Custom SMS Gateway")

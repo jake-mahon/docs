@@ -1,0 +1,14 @@
+---
+sidebar_position: 3552
+title: Modify
+---
+
+# Modify
+
+If you attempt to edit an XML data file that Endpoint Policy Manager Cloud has an in-cloud editor for, you will be able to immediately edit the item.
+
+![](../../../../../../../static/images/PolicyPak/Content/Resources/Images/Cloud/Web Interface and Controls_6_624x329.png)
+
+However, since Endpoint Policy Manager Cloud doesn't have in-cloud editors for all items, some items will not be available for editing, but will be available for updating. In these cases, you would take an existing Endpoint Policy Manager XML export from the MMC console and enter it into the box. .
+
+![](../../../../../../../static/images/PolicyPak/Content/Resources/Images/Cloud/Web Interface and Controls_7_624x431.png)

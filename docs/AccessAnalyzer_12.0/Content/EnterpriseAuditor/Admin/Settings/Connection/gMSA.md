@@ -1,0 +1,19 @@
+---
+sidebar_position: 5881
+title: Group Managed Service Accounts (gMSA) Configuration
+---
+
+# Group Managed Service Accounts (gMSA) Configuration
+
+Access Analyzer can use a previously-configured Group Managed Service Accounts (gMSA/MSA) account. Make sure that Managed Service Account is selected in the User Credentials window. See the [Create a Connection Profile](Profile/Create "Create a Connection Profile") or [Create a Schedule Service Account](../Schedule#_Create_a_Schedule_1 "Create a Schedule Service Account") topic for additional information.
+
+To run a job or scheduled task with a gMSA/MSA account, the following prerequisites must be met:
+
+* The account that Access Analyzer is run with must have permissions to retrieve the gMSA account password
+* The gMSA account must be a Local Admin in the target hosts
+* The gMSA account does not have to be a local admin in the Access Analyzer Console
+* The Data Collector used must support unicode characters in the Connection Profile's credential password to retrieve the gMSA account password
+
+**NOTE:**  For FSAA, remote scans using gMSA credentials need to use the Windows Service launch mechanism in the query configuration.
+
+See the Microsoft [Group Managed Service Accounts](https://learn.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview "Group Managed Service Accounts") article for additional information.

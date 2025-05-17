@@ -1,0 +1,83 @@
+---
+sidebar_position: 1245
+title: Schedule a Certification Campaign
+---
+
+# Schedule a Certification Campaign
+
+How to create and schedule access certification campaigns, defining their scope.
+
+## Overview
+
+The aim of an access certification campaign is to review specific access and entitlements for specific identities, in order to certify them and express an audit opinion that justifies their necessity.
+
+Here, you will learn how to create and schedule a certification campaign, defining its scope, via the filters specifying the reviewers and items to be reviewed.
+
+## Participants and Artifacts
+
+This operation should be performed in cooperation with the staff in charge of auditing because they know what entitlements need to be reviewed.
+
+| Input | Output |
+| --- | --- |
+| [Create the Workforce Repository](../../../set-up/initial-identities-loading/index "Create the Workforce Repository") (required) [Create Roles in the Role Catalog](../../../set-up/single-roles-catalog-creation/index "Create Roles in the Role Catalog") (optional) [Manage Risks](../../../optimize/risk-management/index) (optional) | Scheduled certification campaign(s) |
+
+## Create a Certification Campaign
+
+Create an access certification campaign by proceeding as follows:
+
+1. Click on **Access Certification Campaigns** in the **Administration** section on the home page.
+
+   ![Home - Access Certification Campaigns](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/Home_accessCertificationCampaigns_V602.png)
+2. Click on the addition button at the top right and fill in the fields.
+
+   ![Addition Icon](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/iconAdd_V602.svg)
+
+   ![New Certification Campaign](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_newCertificationCampaign_V602.png)
+
+   * `Identifier`: must be unique among certification campaigns and without any whitespace.
+   * `Name`: will be displayed in the UI to identify the campaign.
+   * `Start Date`: date for the campaign beginning and display on the reviewers' **Access Certification** screen. The access reviewed during the campaign are those existing at the start date. Any change in the permissions after the start date won't be reviewed in the campaign.
+   * `End Date`: date for the campaign deadline.
+   * `Target Entity Type`: entity type targeted by the campaign.
+   * `Target Reviewers`: set of identities in charge of the access review. Available target reviewers are configured via the [Access Certification](../../../../integration-guide/governance/accesscertification/index "Access Certification") policies.
+   * `Target Specificities`:[AccessCertificationDataFilter](../../../../integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index "Access Certification Data Filter")that specify the campaign scope, i.e. the permissions to include by object type, category, approval state, etc. A campaign is based on the union of all specificities. See the detailed fields below.
+
+     ![Target Specificities](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_targetSpecificities_V602.png)
+
+     :::note
+The certification campaign will target the permissions that meet the intersection (AND) of all criteria.
+     When giving a list of role tags, the targeted roles will be those having at least one of the tags (OR).
+     :::
+   * `Target Owners`: owner filters on the dimensions of the identities that are subject to the certification campaign. A campaign is based on the intersection of all filters. See the detailed fields below.
+
+     ![Target Owner Filters](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_targetOwners_V602.png)
+
+     According to the target entity type, additional filters can be available.
+
+     ![Target Owner Additional Filters](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_targetOwnersAdditional_V603.png)
+
+     * `Individual Owner`: single identity whose accesses are to be certified by the campaign.
+     * `Active Target`: the identities to be certified will be those for which a given property (here from `Directory_UserRecord`) was modified since a given date.
+
+       Only properties that are not calculated by Identity Manager can be used here to filter the target owners of the certification campaign.
+   > The following campaign creates certification orders aimed at all the assigned single roles of two specific users.
+   >
+   > ![Campaign Example](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_example_V602.png)
+3. Click on **Create** and see a line added on the campaigns page.
+
+   ![Campaigns Page](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_newlyCreated_V603.png)
+4. Apply the changes by clicking on **Launch**, thus running the access certification job.
+
+   This job's logs are accessible from the **Job Results** button.
+
+   > For example:
+   >
+   > ![Execute Access Reviews Job](../../../../../../../../static/images/Usercube_6.2/Content/Resources/Images/CertifCampaign_job_V522.png)
+
+## Impact of Modifications
+
+Any field of a certification campaign can be changed before its start date. Once a given certification campaign has started, it is possible to modify only its name, identifier and end date. It can be deleted at any time.
+
+## Verify Campaign Scheduling
+
+In order to verify the process, check on the **Access Certification Campaigns** page that the created certification campaign has the right parameters.

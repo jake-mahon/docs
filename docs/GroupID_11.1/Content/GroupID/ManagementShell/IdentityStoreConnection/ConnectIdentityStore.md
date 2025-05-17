@@ -1,0 +1,32 @@
+---
+sidebar_position: 7019
+title: Connect-IdentityStore
+---
+
+# Connect-IdentityStore
+
+If an identity store of the connected domain is available, then Directory Manager Management Shell gets connected to that identity store upon its launch. In case it does not exist the Connect-IdentityStore commandlet establishes a connection with the required identity store.
+
+After a connection is established with the identity store you can then perform functions in directory as per your role and permissions.
+
+## Syntax
+
+```
+Connect-IdentityStore  
+[-AuthenticationMode ]  
+[-IdentityStoreId ]  
+[-SecurityToken ]  
+[-Credential ]  
+[]
+```
+## Required Parameter
+
+* None
+
+Example:
+
+The following command connects you to the identity store specified by the IdentityStoreId parameter using the specified authentication mode and credentials that you set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](../Parameters/SettheCredential "Set the $Credentials Environment Variable") topic for setting credentials in an environment variable.
+
+```
+Connect-IdentityStore -AuthenticationMode 2 -IdentityStoreId 2 -Credential $Cred
+```

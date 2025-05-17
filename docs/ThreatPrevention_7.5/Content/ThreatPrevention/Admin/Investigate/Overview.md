@@ -1,0 +1,18 @@
+---
+sidebar_position: 6758
+title: Investigate Interface
+---
+
+# Investigate Interface
+
+The Investigate interface allows you to quickly view recent events in a centralized location. You can investigate either Production events or Archive events. The data is limited by any protection applied at the Policy folder-level. See the [Policies Interface](../Policies/Overview "Policies Interface") topic for additional information on the protection feature.
+
+Click **Investigate** in the left pane to launch the Investigate interface.
+
+![Investigate Interface](../../../../../../static/images/ThreatPrevention_7.5/Content/Resources/Images/ThreatPrevention/Investigate/InvestigateInterface.png "Investigate Interface")
+
+Next to the Investigate title, use the drop-down menu to select LDAP Policies or All Other Policies to be shown in the data grid. Select the Show Deleted Policies checkbox to view deleted policies too.
+
+The top section of the window provides filtering options. See the [Investigate Filters](Filters "Investigate Filters") topic for additional information. The recent events are displayed in the bottom section.
+
+For an understanding of the data displayed in the grid, see the [Investigate Data Grid](DataGrid "Investigate Data Grid") topic.

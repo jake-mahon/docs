@@ -1,0 +1,27 @@
+---
+sidebar_position: 6070
+title: VBScript Editor
+---
+
+# VBScript Editor
+
+The VBScript Editor window provides the means to add a script. The window is ideal for editing small scripts and for pasting larger scripts from external scripting tools.
+
+![VBScript Editor window](../../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/DataCollector/Script/VBScriptEditor.png "VBScript Editor window")
+
+The options in the VBScript Editor are:
+
+* Save and Close – Use this option to save the script and close the window
+* Syntax Check – Use this option to check the syntax of your script. This does not identify logic errors, only cases where the script syntax is incorrect. It helps reduce the overhead of debugging a script. When selected, a Script Errors window opens and a syntax check is performed. Any syntactical errors are displayed within the window.
+* Load from file – Use this option to load a VB script from a .vbs file
+* Save to file – Use this option to save the current script in the Editor
+* Undo – Undo previous changes made to the script (Shortcut is Ctrl+Z)
+* Redo – Redo previous changes made to the script (Shortcut is Shift+Ctrl+Z)
+* Cut – Cut the highlighted text
+* Copy – Copy the highlighted text
+* Paste – Paste cut or copied text into the VB Script Editor
+* Online VBScript Language Reference – Opens internet browser to the Microsoft Technical Documentation website from where documentation for Visual Basic Script can be navigated to
+
+After adding or modifying a script, click **Save and close**.
+
+See the [Script Example 1: Conversion of Data](Example1 "Script Example 1: Conversion of Data") and [Script Example 2: Command Query](Example2 "Script Example 2: Command Query") topics for additional information.

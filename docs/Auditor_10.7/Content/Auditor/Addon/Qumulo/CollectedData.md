@@ -1,0 +1,26 @@
+---
+sidebar_position: 1552
+title: Working with Collected Data
+---
+
+Filter: 
+
+* All Files
+
+Submit Search
+
+# Working with Collected Data
+
+To leverage data collected with the add-on, you can do the following in Netwrix Auditor:
+
+* Search for required data. For that, start Netwrix Auditor client and navigate to **Search**. After specifying the criteria you need, click **Search**. You will get a list of activity records with detailed information on who did what in the reported time period.
+
+You might want to apply a filter to narrow down your search results to the Netwrix API data source only.
+
+[![Qumulo screen](../../../../../../static/images/Auditor_10.7/Content/Resources/Images/Auditor/Search/AddonData/Qumulo_thumb_0_0.png "Qumulo screen")](../../../Resources/Images/Auditor/Search/AddonData/Qumulo.png)
+
+* Also, you can click **Tools** in the upper-right corner and select the command you need. For example:
+  * If you want to periodically receive the report on the results of search with the specified criteria, click **Subscribe**. Then specify how you want the report to be delivered – as an email or as a file stored to the file share.
+  * To create an alert on the specific occurrences, click **Create alert**.
+  * To export filtered data to PDF or CSV, click **Export data**.
+* You can also configure and receive alerts on the events you are interested in.

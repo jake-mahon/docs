@@ -1,0 +1,21 @@
+---
+sidebar_position: 1323
+title: Approving Policy Changes
+---
+
+# Approving Policy Changes
+
+1. Open **Strongpoint** > **Change Management Tools** > **Policy Change Approval (Beta)  
+     
+   ![](../../../../static/images/enus/Content/Resources/Images/policy_approval_new.png)**
+2. Enter information into the required **Name**, **Change Overview** and **Policies** fields. **Change Type** is preset to **Policy Change Approval**.
+3. Click **In Progress** on the status bar.
+4. Click **Save**.
+5. Review the approvers. Click **Edit** to add or change approvers. An administrator can add themselves as an additional approver and set the Approval Status to Approved to immediately approve the request. The status bar shows **Approved (Override)**.
+
+   ![](../../../../static/images/enus/Content/Resources/Images/change_request_bar_approved_override.png)
+6. Click **Pending Approval** to begin the normal approval process. Approvers must be [licensed](../installing_strongpoint/license_manager "Open the License Manager topic") Platform Governance for NetSuite users and have the correct [role permissions](../installing_strongpoint/setting_permissions "Open the Setting Role Permissions topic") if they are using a custom (non-Strongpoint) role.
+7. Approvers can use the link in the email notification to **Approve** or **Reject** the Policy Change.
+
+   * Rejected changes can be edited and resubmitted. Click **In Progress** (hover over the status bar), make your changes, and click **Pending Approval**.
+   * Click **Deploy** to deploy approved changes. When finished, click **Complete**.

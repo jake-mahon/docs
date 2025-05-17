@@ -1,0 +1,18 @@
+---
+sidebar_position: 6065
+title: "FSAA:\_FSAA Update Service Setting"
+---
+
+# FSAA: FSAA Update Service Setting
+
+The FSAA Update Service Setting page is where the File System Proxy Service can be automatically updated on hosts where the service has already been installed. It requires the File System Proxy Service to be v8.0 or later prior to using this feature. It is a wizard page for the category of Update Proxy Service.
+
+![FSAA Data Collector Wizard FSAA Update Service Setting page](../../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/DataCollector/FSAA/UpdateService.png "FSAA Data Collector Wizard FSAA Update Service Setting page")
+
+Configure the settings for the targeted File System Proxy Service:
+
+* Port number – The default port number is 8766
+* Applet communication timeout: [number] minute(s) – This option determines the length of time (in minutes) the Access Analyzer Console attempts to reach the proxy before giving up. Depending on the job configuration, the data collector behaves in one of three ways after the timeout value has been exceeded.
+* Scan cancellation timeout: [number] minute(s) – When selected, this option will timeout the applet if there is an attempt to pause the scan and the applet does not respond
+
+See the [FSAA: Applet Settings](AppletSettings#_FSAA:_Applet_Settings "FSAA: Applet Settings") topic for additional information.

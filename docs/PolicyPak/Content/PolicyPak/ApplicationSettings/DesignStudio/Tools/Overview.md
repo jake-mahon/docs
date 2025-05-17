@@ -1,0 +1,21 @@
+---
+sidebar_position: 3680
+title: Using DesignStudio Tools
+---
+
+# Using DesignStudio Tools
+
+In this section, you'll learn how to do the following with Netwrix Endpoint Policy Manager (formerly PolicyPak) DesignStudio:
+
+* Set up and configure Endpoint Policy Manager DesignStudio options (`Tools|Options`)
+* Find unconfigured elements in our AppSet (`Tools|Show Elements List`)
+* Perform a global search and replace for elements and text within our AppSet (`Tools|Global Search and Replace`)
+* Merge AppSets (`Tools|PXML Merge Wizard`)
+* Compile multiple AppSets at once (`Tools|Batch Compile`)
+* Preview an existing AppSet (`Tools|Pak Preview`)
+
+You can see the list of items from the Endpoint Policy Manager DesignStudio Tools menu in Figure 164.
+
+![](../../../../../../../static/images/PolicyPak/Content/Resources/Images/DesignStudio/Using DesignStudio Tools.png)
+
+Figure 164. DesignStudio Tools menu.

@@ -1,0 +1,43 @@
+---
+sidebar_position: 5623
+title: Exchange
+---
+
+# Exchange
+
+The Exchange node is for configuring the settings needed to query Microsoft® Exchange Servers. These settings are exclusive to the Access Analyzer for Exchange Solution.
+
+![Exchange - Set up the connection](../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Settings/Exchange/Exchange_1.png "Exchange - Set up the connection")
+
+The Exchange node is grayed-out by default. In order for these settings to be enabled, it is necessary to install both Access Analyzer MAPI CDO and Microsoft Exchange MAPI CDO on the Access Analyzer Console server. See the [StealthAUDIT MAPI CDO Installation](../../../StealthAUDIT/Install Guides/MAPI CDO Install/StealthAUDIT MAPI CDO Installation "StealthAUDIT MAPI CDO Installation") topic for additional information.
+
+Once the requirements have been met, the Exchange node is enabled for configuration. These settings are utilized to make MAPI connections to the Exchange Server for the Mailbox, PublicFolder, Exchange2K, and ExchangePS Data Collectors. The Client Access Server field, or CAS, is also utilized by the ExchangePS Data Collector in order to make Remote PowerShell connections for Exchange 2010 or newer. The data collectors apply these settings unless modified inside the job query.
+
+![Set up the connection](../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Settings/Exchange/Exchange_3.png "Set up the connection")
+
+The three options in the Exchange Connection Setting section at the top of the window are dependent on which version of Exchange is audited.
+
+* For Auditing Microsoft Exchange 2007 or Older Versions:
+  * Select the radio button for System Attendant (2003 & 2007) – The System Attendant Account is built into Exchange 2007 and older versions and allows Access Analyzer to make the necessary MAPI connections.
+* For Auditing Microsoft Exchange 2010 or Newer Versions:
+  * Select either of the other two options:
+    * Use the mailbox associated with the Windows account that Access Analyzer is run with – This option uses either the account logged into the Access Analyzer Console server or the account set to run the Access Analyzer application.
+    * Exchange Mailbox (2010 and newer) – This option allows an Exchange Mailbox Alias to be specified for MAPI connections.
+
+      * Enter the Alias name in the textbox. The Alias needs to be an Exchange 2010 or newer mailbox, not a mail-enabled service account. However, this mailbox does not need rights on the Exchange Organization; it only needs to reside within it.
+    * Enter the name of the physical CAS in the Client Access Server textbox. This server can be part of an array, but do not enter the name of a CAS Array. This should also be the Exchange CAS where both Remote PowerShell and Windows Authentication on the PowerShell Virtual Directory have been enabled.
+
+***RECOMMENDED:*** Once the Exchange Connection Settings have been properly configured for the version of Exchange to be audited, it is strongly recommended that the settings be tested.
+
+In the Test Exchange Connection Settings section:
+
+* Enter a Mailbox Server with mailboxes to be audited in the Exchange Server textbox.
+* Click the Test Exchange settings link.
+
+  ![Test Exchange Connection Setting](../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Settings/Exchange/Exchange_4.png "Test Exchange Connection Setting")
+
+If the Exchange Connection Settings are correct, an output field opens. At the bottom of the output field, a mailbox count is stated and a message appears which says, “You have successfully connected to this Exchange Server.” Click OK.
+
+![](../../../../../../static/images/AccessAnalyzer_12.0/Content/Resources/Images/EnterpriseAuditor/Admin/Settings/Exchange/Exchange_6.png)
+
+The Cancel and Save buttons are in the lower-right corner of the Exchange view. These buttons become enabled when modifications are made to the Exchange global setting. Whenever changes are made at the global level, click Save and then OK to confirm the changes. Otherwise, click Cancel if no changes were intended.

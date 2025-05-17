@@ -1,0 +1,19 @@
+---
+sidebar_position: 2734
+title: Nutanix Tab
+---
+
+# Nutanix Tab
+
+The Nutanix tab provides features to configure settings for monitoring Nutanix devices.
+
+![Agent Properties - Nutanix](../../../../../../../static/images/ActivityMonitor_8.0/Content/Resources/Images/ActivityMonitor/Properties/AgentProperties/Nutanix.png "Agent Properties - Nutanix")
+
+The available Agent server settings for Nutanix are:
+
+* Agent server port (TCP) – Enter the TCP port that Nutanix will use to connect to the agent. The agent will add the port to the firewall exclusions automatically. The default is 4501.
+* IPv4 or IPv6 allowlist – Specify the IP addresses of the Nutanix nodes, which are allowed to connect to the agent server port. Multiple addresses can be entered separated by space, comma (,), semicolon (;), or as a multi-line list. Leave the box blank to accept connections from any hosts.
+
+  **NOTE:** This setting is optional and it allows you to improve security by limiting the number of IP addresses allowed to connect.
+
+Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The Agent Properties window closes.

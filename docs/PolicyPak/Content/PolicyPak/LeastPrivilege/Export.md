@@ -1,0 +1,16 @@
+---
+sidebar_position: 3138
+title: Exporting Policies and Collections
+---
+
+# Exporting Policies and Collections
+
+The [MDM & UEM Tools](../MDM/Overview "MDM & UEM Tools") topics explain how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud. To export a policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud, right-click the collection or the policy and select **Export to XML**. This will enable you to save an XML file, which you can use later.
+
+**NOTE:** For more information on how to use Endpoint Policy Manager Least Privilege Manager and Endpoint Policy Manager Cloud, please see the [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](../Video/LeastPrivilege/CloudRules "Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules") and the [Using Least Privilege Manager with your MDM service](../Video/LeastPrivilege/MDM "Using Least Privilege Manager with your MDM service") videos,
+
+![A screenshot of a computer
+
+Description automatically generated](../../../../../static/images/PolicyPak/Content/Resources/Images/Book4/SecureCopy/Exporting Policies and Collections.png)
+
+**NOTE:** Exported collections or policies maintain any Item-Level Targeting set within them.

@@ -1,0 +1,51 @@
+---
+sidebar_position: 3315
+title: How to Create a Local Scheduled Task to Reboot a PC every day at 9 AM
+---
+
+# How to Create a Local Scheduled Task to Reboot a PC every day at 9 AM
+
+**Step 1 –** Create a Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts policy on the computer side.
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_1_image-20220916231626-1.png)
+
+**Step 2 –** When creating the Policy choose the option to Apply this policy to computer (default).
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_2_image-20220916231626-2.png)
+
+**Step 3 –** Choose PowerShell from the dropdown.
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_3_image-20220916231626-3.png)
+
+**Step 4 –** Then paste in the following script to the text field.
+
+```
+# Create task action  
+$taskAction = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument 'Restart-Computer -Force'  
+# Create a trigger (Daily at 9 AM)  
+$taskTrigger = New-ScheduledTaskTrigger -Daily -At 9am  
+# The user to run the task  
+$taskUser = New-ScheduledTaskPrincipal -UserID "NT AUTHORITY\SYSTEM" -LogonType ServiceAccount -RunLevel Highest  
+$settings = New-ScheduledTaskSettingsSet -MultipleInstances Parallel  
+# The name of the scheduled task.  
+$taskName = "Daily 9AM Reboot"  
+# Describe the scheduled task.  
+$description = "Forcibly reboot the computer at 9 AM Daily"  
+# Register the scheduled task  
+Register-ScheduledTask -TaskName $taskName -Action $taskAction -Trigger $taskTrigger -Settings $settings -Principal $taskUser -Description $description
+```
+Your policy should look similar to the one below:
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_4_image-20220916231626-4_950x517.png)
+
+**Step 5 –** Skip the on revert action screen by clicking next.
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_5_image-20220916231626-5.png)
+
+**Step 6 –** At the Specify process mode screen choose "Once or when forced" and then click next to continue.
+
+![](../../../../../static/images/PolicyPak/Content/Resources/Images/ScriptsTriggers/879_6_image-20220916231626-6.png)
+
+**Step 7 –** You're done, lastly, test your policy to ensure it runs as expected.
+
+**NOTE:**  This policy will create a local scheduled task that will reboot the PC daily at 9 AM even if no one is logged into the PC.

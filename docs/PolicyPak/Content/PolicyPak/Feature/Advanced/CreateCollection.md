@@ -1,0 +1,10 @@
+---
+sidebar_position: 3412
+title: Creating a Collection within the Wizard
+---
+
+# Creating a Collection within the Wizard
+
+As you work through the Feature Manager for Windows wizard, you will be asked to **Add policies to the existing collection**, or **Create a new collection**. If you create a new collection, you see the screen shown below. This process is the same as creating a collection manually, and the same options are available.
+
+![](../../../../../../static/images/PolicyPak/Content/Resources/Images/Feature/Advanced Manipulations of_6.png)
