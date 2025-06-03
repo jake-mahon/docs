@@ -18,3 +18,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# MDX Test Reports
+mdx-test-report.json
+pre-conversion-report.json
+post-conversion-report.json
+*.test-report.json
