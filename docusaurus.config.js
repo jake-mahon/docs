@@ -42,10 +42,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // Main/landing documentation
+          path: 'docs/main',
+          routeBasePath: 'docs',
+          sidebarPath: './sidebars/main.js',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -55,6 +55,61 @@ const config = {
         },
       }),
     ],
+  ],
+
+  plugins: [
+    // ActivityMonitor Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'activitymonitor',
+        path: 'docs/ActivityMonitor',
+        routeBasePath: 'docs/activitymonitor',
+        sidebarPath: './sidebars/activitymonitor.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // Enable versioning
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // ChangeTracker Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changetracker',
+        path: 'docs/ChangeTracker',
+        routeBasePath: 'docs/changetracker',
+        sidebarPath: './sidebars/changetracker.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // Enable versioning
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Add more product documentation instances here as needed
+    // Example for another product:
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'auditor',
+    //     path: 'docs/Auditor',
+    //     routeBasePath: 'docs/auditor',
+    //     sidebarPath: './sidebars/auditor.js',
+    //     versions: {
+    //       current: {
+    //         label: 'Current',
+    //       },
+    //     },
+    //   },
+    // ],
   ],
 
   themeConfig:
@@ -69,12 +124,36 @@ const config = {
         },
       },
       navbar: {
-        title: 'Documentation',
         logo: {
           alt: 'Netwrix Logo',
-          src: 'img/Logo_RGB.svg',
+          src: 'img/branding/logo.svg',
+          href: '/docs',
         },
         items: [
+          {
+            type: 'dropdown',
+            label: 'Products',
+            position: 'left',
+            items: [
+              {
+                label: 'Activity Monitor',
+                to: '/docs/activitymonitor',
+              },
+              {
+                label: 'Change Tracker',
+                to: '/docs/changetracker',
+              },
+              // Add more products as they are added
+              // {
+              //   label: 'Auditor',
+              //   to: '/docs/auditor',
+              // },
+              // {
+              //   label: 'Policy Manager',
+              //   to: '/docs/policymanager',
+              // },
+            ],
+          },
           {
             href: 'http://github.com/netwrix',
             label: 'GitHub',
