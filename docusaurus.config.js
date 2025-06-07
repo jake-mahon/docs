@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.yourcompany.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,7 +63,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'activitymonitor',
-        path: 'docs/ActivityMonitor',
+        path: 'docs/activitymonitor',
         routeBasePath: 'docs/activitymonitor',
         sidebarPath: './sidebars/activitymonitor.js',
         editUrl:
@@ -81,7 +81,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'changetracker',
-        path: 'docs/ChangeTracker',
+        path: 'docs/changetracker',
         routeBasePath: 'docs/changetracker',
         sidebarPath: './sidebars/changetracker.js',
         editUrl:
@@ -95,21 +95,6 @@ const config = {
       },
     ],
     // Add more product documentation instances here as needed
-    // Example for another product:
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'auditor',
-    //     path: 'docs/Auditor',
-    //     routeBasePath: 'docs/auditor',
-    //     sidebarPath: './sidebars/auditor.js',
-    //     versions: {
-    //       current: {
-    //         label: 'Current',
-    //       },
-    //     },
-    //   },
-    // ],
   ],
 
   themeConfig:
@@ -136,22 +121,93 @@ const config = {
             position: 'left',
             items: [
               {
+                label: '1Secure',
+                to: '/docs/1secure',
+              },
+              {
+                label: 'Access Analyzer',
+                to: '/docs/accessanalyzer',
+              },
+              {
+                label: 'Access Information Center',
+                to: '/docs/accessinformationcenter',
+              },
+              {
                 label: 'Activity Monitor',
                 to: '/docs/activitymonitor',
+              },
+              {
+                label: 'Auditor',
+                to: '/docs/auditor',
               },
               {
                 label: 'Change Tracker',
                 to: '/docs/changetracker',
               },
-              // Add more products as they are added
-              // {
-              //   label: 'Auditor',
-              //   to: '/docs/auditor',
-              // },
-              // {
-              //   label: 'Policy Manager',
-              //   to: '/docs/policymanager',
-              // },
+              {
+                label: 'Data Classification',
+                to: '/docs/dataclassification',
+              },
+              {
+                label: 'Group ID',
+                to: '/docs/groupid',
+              },
+              {
+                label: 'Password Policy Enforcer',
+                to: '/docs/passwordpolicyenforcer',
+              },
+              {
+                label: 'Password Reset',
+                to: '/docs/passwordreset',
+              },
+              {
+                label: 'Password Secure',
+                to: '/docs/passwordsecure',
+              },
+              {
+                label: 'PolicyPak',
+                to: '/docs/policypak',
+              },
+              {
+                label: 'Privilege Secure',
+                to: '/docs/privilegesecure',
+              },
+              {
+                label: 'Recovery for Active Directory',
+                to: '/docs/recoveryforactivedirectory',
+              },
+              {
+                label: 'StrongPoint for NetSuite',
+                to: '/docs/strongpointfornetsuite',
+              },
+              {
+                label: 'StrongPoint for Salesforce',
+                to: '/docs/strongpointforsalesforce',
+              },
+              {
+                label: 'StrongPoint NetSuite Flashlight',
+                to: '/docs/strongpointnetsuiteflashlight',
+              },
+              {
+                label: 'StrongPoint Salesforce Flashlight',
+                to: '/docs/strongpointsalesforceflashlight',
+              },
+              {
+                label: 'Threat Manager',
+                to: '/docs/threatmanager',
+              },
+              {
+                label: 'Threat Prevention',
+                to: '/docs/threatprevention',
+              },
+              {
+                label: 'UserCube',
+                to: '/docs/usercube',
+              },
+              {
+                label: 'UserCube SaaS',
+                to: '/docs/usercube_saas',
+              },
             ],
           },
           {

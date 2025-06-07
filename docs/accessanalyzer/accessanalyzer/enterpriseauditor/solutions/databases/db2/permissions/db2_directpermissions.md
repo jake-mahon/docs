@@ -1,0 +1,24 @@
+# Db2\_DirectPermissions Job
+
+This job provides insight into direct user and role permissions to all the database objects in the targeted Db2 database servers.
+
+## Analysis Tasks for the Db2\_DirectPermissions Job
+
+Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Permissions__ > __Db2\_DirectPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+
+__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+
+![Analysis Tasks for the Db2_DirectPermissions Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/directpermissionsanalysis.png)
+
+The default analysis tasks are:
+
+- Direct Permissions – Highlights permissions directly assigned to Db2 objects
+- Database Summary – Summarizes Db2 direct permissions by database
+
+## Report for the Db2\_DirectPermissions Job
+
+In addition to the tables and views created the analysis task, the Db2\_DirectPermissions job produces the following preconfigured report.
+
+| Report | Description | Default Tags | Report Elements |
+| --- | --- | --- | --- |
+| Direct Permissions | This report shows details on the direct permissions in the audited Db2 environment. | None | This report is comprised of three elements:   - Bar Chart – Displays Database Summary - Table – Displays Database Summary - Table – Displays permissions details |

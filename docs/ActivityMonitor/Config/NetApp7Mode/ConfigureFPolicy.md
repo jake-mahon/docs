@@ -1,16 +1,11 @@
----
-id: configurefpolicy
-title: Configure FPolicy
----
-
 # Configure FPolicy
 
 Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:
 
-***RECOMMENDED:***  [Manually Configure FPolicy (Recommended Option)](#manually-configure-fpolicy-recommended-option "Manually Configure FPolicy (Recommended Option)") – A tailored FPolicy
+___RECOMMENDED:___  [Manually Configure FPolicy (Recommended Option)](#Manually-Configure-FPolicy-Recommended-Option) – A tailored FPolicy
 
 - If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing these commands on a vFiler, the commands must be run from a vFiler context (e.g. via the vFiler run command).
-- Allow the Activity Monitor to create an FPolicy automatically. See the [Automatic Configuration of FPolicy](#automatic-configuration-of-fpolicy "Automatic Configuration of FPolicy") topic for additional information.
+- Allow the Activity Monitor to create an FPolicy automatically. See the [Automatic Configuration of FPolicy](#Automatic-Configuration-of-FPolicy) topic for additional information.
 
   - This option is enabled when the Activity Monitor Activity Agent is configured to monitor the NetApp device on the NetApp FPolicy Configuration page of the Add New Hosts window.
   - It monitors all file system activity.
@@ -19,17 +14,17 @@ Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:
 
 This section describes how to manually configure FPolicy. Manual configuration of the FPolicy is recommended so that the policy can be scoped. It is necessary to create six FPolicy components and then enable the FPolicy. See the sections corresponding to each part of this list:
 
-- [Part 1: Create FPolicy](#part-1-create-fpolicy "Part 1: Create FPolicy")
-- [Part 2: Set FPolicy Required to Off](#part-2-set-fpolicy-required-to-off "Part 2: Set FPolicy Required to Off")
-- [Part 3: Set FPolicy to Collect Permission Changes](#part-3-set-fpolicy-to-collect-permission-changes "Part 3: Set FPolicy to Collect Permission Changes")
-- [Part 4: Set FPolicy to Monitor Alternate Data Streams](#part-4-set-fpolicy-to-monitor-alternate-data-streams "Part 4: Set FPolicy to Monitor Alternate Data Streams")
-- [Part 5: Set FPolicy to Monitor Disconnected Sessions](#part-5-set-fpolicy-to-monitor-disconnected-sessions "Part 5: Set FPolicy to Monitor Disconnected Sessions")
-- [Part 6: Scope FPolicy for Specific Volumes](#part-6-scope-fpolicy-for-specific-volumes "Part 6: Scope FPolicy for Specific Volumes")
-- [Part 7: Enable FPolicy](#part-7-enable-fpolicy "Part 7: Enable FPolicy")
+- [Part 1: Create FPolicy](#Part-1-Create-FPolicy)
+- [Part 2: Set FPolicy Required to Off](#Part-2-Set-FPolicy-Required-to-Off)
+- [Part 3: Set FPolicy to Collect Permission Changes](#Part-3-Set-FPolicy-to-Collect-Permission-Changes)
+- [Part 4: Set FPolicy to Monitor Alternate Data Streams](#Part-4-Set-FPolicy-to-Monitor-Alternate-Data-Streams)
+- [Part 5: Set FPolicy to Monitor Disconnected Sessions](#Part-5-Set-FPolicy-to-Monitor-Disconnected-Sessions)
+- [Part 6: Scope FPolicy for Specific Volumes](#Part-6-Scope-FPolicy-for-Specific-Volumes)
+- [Part 7: Enable FPolicy](#Part-7-Enable-FPolicy)
 
 If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing these commands on a vFiler, the commands must be run from a vFiler context (e.g. via the vFiler run command).
 
-Relevant NetApp Documentation: To learn more about configuring file policies, please visit the NetApp website and read [na_fpolicy – configure file policies](https://library.netapp.com/ecmdocs/ECMP1196890/html/man1/na_fpolicy.1.html) article.
+Relevant NetApp Documentation: To learn more about configuring file policies, please visit the NetApp website and read [na\_fpolicy – configure file policies](https://library.netapp.com/ecmdocs/ECMP1196890/html/man1/na_fpolicy.1.html) article.
 
 ### Part 1: Create FPolicy
 
@@ -48,13 +43,13 @@ fpolicy create StealthAUDIT screen
 
 ### Part 2: Set FPolicy Required to Off
 
-If the `FPolicy Required` value is set to on, user requests are denied if an FPolicy server is not available to implement the policy. If it is set to off, user requests are allowed when it is not possible to apply the policy to the file because no FPolicy server is available.
+If the ```FPolicy Required``` value is set to on, user requests are denied if an FPolicy server is not available to implement the policy. If it is set to off, user requests are allowed when it is not possible to apply the policy to the file because no FPolicy server is available.
 
 IMPORTANT:
 
-- The `FPolicy Required` value should be set to **off**
+- The ```FPolicy Required``` value should be set to __off__
 
-Use the following command to set the `FPolicy Required` value to off:
+Use the following command to set the ```FPolicy Required``` value to off:
 
 ```
 fpolicy options StealthAUDIT required off
@@ -62,11 +57,11 @@ fpolicy options StealthAUDIT required off
 
 ### Part 3: Set FPolicy to Collect Permission Changes
 
-The cifs_setattr value must be set to on in order for CIFS requests to change file security descriptors to be screened by the policy.
+The cifs\_setattr value must be set to on in order for CIFS requests to change file security descriptors to be screened by the policy.
 
 IMPORTANT:
 
-- The `cifs_setattr` value must be set to **on**
+- The ```cifs_setattr``` value must be set to __on__
 
 Use the following command to enable the FPolicy to collect permission changes:
 
@@ -76,11 +71,11 @@ fpolicy options StealthAUDIT cifs_setattr on
 
 ### Part 4: Set FPolicy to Monitor Alternate Data Streams
 
-The monitor_ads value must be set to on in order for CIFS requests for alternate data streams (ADS) to be monitored by the policy.
+The monitor\_ads value must be set to on in order for CIFS requests for alternate data streams (ADS) to be monitored by the policy.
 
 IMPORTANT:
 
-- The `monitor_ads` value must be set to **on**
+- The ```monitor_ads``` value must be set to __on__
 
 Use the following command to enable the FPolicy to monitor ADS:
 
@@ -90,11 +85,11 @@ fpolicy options StealthAUDIT monitor_ads on
 
 ### Part 5: Set FPolicy to Monitor Disconnected Sessions
 
-The cifs_disconnect_check value must be set to on in order for CIFS requests associated with disconnected sessions to be monitored by the policy.
+The cifs\_disconnect\_check value must be set to on in order for CIFS requests associated with disconnected sessions to be monitored by the policy.
 
 IMPORTANT:
 
-- The `cifs_disconnect_check` value must be set to **on**
+- The ```cifs_disconnect_check``` value must be set to __on__
 
 Use the following command to enable the FPolicy to monitor disconnected sessions:
 
@@ -134,7 +129,7 @@ The FPolicy must be enabled before the Activity Monitor Activity Agent can be co
 
 IMPORTANT:
 
-- The Activity Monitor must register with the NetApp device as an FPolicy server. By default, it looks for a policy named `StealthAUDIT`. See the [Customize FPolicy Policy Name](CustomizeFPolicy.md "Customize FPolicy Policy Name") section for information on using a different policy name.
+- The Activity Monitor must register with the NetApp device as an FPolicy server. By default, it looks for a policy named ```StealthAUDIT```. See the [Customize FPolicy Policy Name](/docs/product_docs/activitymonitor/config/netapp7mode/customizefpolicy.md) section for information on using a different policy name.
 
 Use the following command to enable the FPolicy to monitor disconnected sessions:
 

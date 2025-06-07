@@ -1,8 +1,3 @@
----
-id: activity
-title: Dell PowerStore Activity Auditing Configuration
----
-
 # Dell PowerStore Activity Auditing Configuration
 
 A Dell PowerStore device can be configured to audit Server Message Block (SMB) protocol access events. All audit data can be forwarded to the Dell Common Event Enabler (CEE). The Netwrix Activity Monitor listens for all events coming through the Dell CEE and translates all relevant information into entries in the TSV files or syslog messages.
@@ -19,16 +14,16 @@ Checklist Item 1: Plan Deployment
 
 - Prior to beginning the deployment
 
-  - See the [Dell PowerStore: File Capabilities](https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18155-dell-powerstore-file-capabilities.pdf "Dell PowerStore: File Capabilities") white paper for additional information.
+  - See the [Dell PowerStore: File Capabilities](https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18155-dell-powerstore-file-capabilities.pdf) white paper for additional information.
   - Download the Dell CEE from:
 
     - [http://support.emc.com](http://support.emc.com/)
 
-Checklist Item 2: [Install Dell CEE](InstallCEE.md "Install Dell CEE")
+Checklist Item 2: [Install Dell CEE](/docs/product_docs/activitymonitor/config/dellpowerstore/installcee.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity agent will be deployed
 
-  ***RECOMMENDED:*** The latest version of Dell CEE is the recommended version to use with the asynchronous bulk delivery (VCAPS) feature.
+  ___RECOMMENDED:___ The latest version of Dell CEE is the recommended version to use with the asynchronous bulk delivery (VCAPS) feature.
 - Important:
 
   Open MS-RPC ports between the Dell device and the Windows proxy server(s) where the Dell CEE is installed
@@ -37,7 +32,7 @@ Checklist Item 3: Dell PowerStore Device Configuration
 
 - Enable auditing on the PowerStore device
 
-  - See the [Enable Auditing for Dell PowerStore](Auditing.md "Enable Auditing on Dell PowerStore") topic for additional information.
+  - See the [Enable Auditing for Dell PowerStore](/docs/product_docs/activitymonitor/config/dellpowerstore/auditing.md) topic for additional information.
 
 Checklist Item 4: Activity Monitor Configuration
 
@@ -45,9 +40,11 @@ Checklist Item 4: Activity Monitor Configuration
 
   - After activity agent deployment, configure the Dell CEE Options tab of the agent’s Properties window within the Activity Monitor Console
 
+    - Automatically sets the Dell registry key settings
+
 Checklist Item 5: Configure Dell CEE to Forward Events to the Activity Agent
 
-**NOTE:** When Dell CEE is installed on Windows proxy server(s) where the Activity Monitor activity agent will be deployed, the following steps are not needed.
+__NOTE:__ When Dell CEE is installed on Windows proxy server(s) where the Activity Monitor activity agent will be deployed, the following steps are not needed.
 
 - Ensure the Dell CEE registry key has enabled set to 1 and has an EndPoint set to StealthAUDIT.
 - Ensure the Dell CAVA service and the Dell CEE Monitor service are running.

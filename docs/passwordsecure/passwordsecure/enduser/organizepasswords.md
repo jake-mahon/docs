@@ -1,0 +1,53 @@
+# Organize Your Passwords
+
+## Add a Team Tab
+
+The tab system is used to structure all your passwords: Tabs help you to make them easier to manage and find. You can create several tabs and switch between them within one click.
+
+Follow the steps to add a team tab.
+
+Step 1 – Click on the __Plus__ sign and a form will open.
+
+![newform](/static/img/product_docs/passwordsecure/passwordsecure/enduser/newform.png)
+
+Step 2 – You can now search for a specific organizational unit by clicking on the tree on the left or use the search field to find the unit you need.
+
+![search](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+
+Step 3 – Click __OK__ to close the form and your new team tab will open automatically.
+
+## Search with Tags
+
+With a growing number of managed passwords, it becomes even more important to maintain a structure and overview. Therefore, Netwrix Password Secure works with tags instead of a folder system: You can assign any number of tags to your passwords to categorize and find them again quickly.
+
+![assigntags](/static/img/product_docs/passwordsecure/passwordsecure/enduser/assigntags.png)
+
+To find a password, just use the search field and enter a tag like the department or position you are in (i.e., "Marketing"). Netwrix Password Secure now not only is searching for tags, but also for “Marketing” in all Netwrix Password Secure fields (i.e., Content Marketing).
+
+![searchresults](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.png)
+
+NOTE: Optimize your search results by using the __minus sign (-)__ to exclude terms: Only results in which this word does not appear will be displayed (i.e., all social media accounts that are used outside of marketing = "-social media marketing").
+
+## Choose Your View
+
+Netwrix Password Secure offers two different views - the list and tile view. Just __switch the button__ on the upper right to change views!
+
+List View
+
+The screenshot below shows the list view.
+
+![listview](/static/img/product_docs/passwordsecure/passwordsecure/enduser/listview.png)
+
+Tile View
+
+The screenshot below shows the title view.
+
+![switchbutton](/static/img/product_docs/passwordsecure/passwordsecure/enduser/switchbutton.png)
+
+When in __tile view__, you can also drag and drop the buttons on another position. By hovering over them with the mouse, you will see more information like the username, and you can login with one click.
+
+![titleview](/static/img/product_docs/passwordsecure/passwordsecure/enduser/titleview.png)
+
+NOTE: The __list view__ is suitable for many data sets while the tile view is particularly favorable for the most frequently used secrets.
+
+RECOMMENDED: Use the list view for all shared secrets and the tile view for personal accounts.

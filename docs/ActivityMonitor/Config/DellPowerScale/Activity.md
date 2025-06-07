@@ -1,8 +1,3 @@
----
-id: activity
-title: Dell Isilon/PowerScale Activity Auditing Configuration
----
-
 # Dell Isilon/PowerScale Activity Auditing Configuration
 
 Dell Isilon/PowerScale can be configured to audit Server Message Block (SMB) and NFS protocol access events on the Dell Isilon/PowerScale cluster. All audit data can be forwarded to the Dell Common Event Enabler (CEE). The Activity Monitor listens for all events coming through the Dell CEE and translates all relevant information into entries in the log files or syslog messages.
@@ -19,17 +14,18 @@ Checklist Item 1: Plan Deployment
 
   - DNS name of Isilon/PowerScale CIFS share(s) to be monitored
   - Access Zone(s) containing the CIFS shares to be monitored
+  - Account with access to the OneFS UI or CLI
   - Download the Dell CEE from:
 
-    - [https://www.dell.com/support/home/en-us/](https://www.dell.com/support/home/en-us/ "Dell Technologies Support")
+    - [https://www.dell.com/support/home/en-us/](https://www.dell.com/support/home/en-us/)
 
-***RECOMMENDED:*** You can achieve higher throughput and fault tolerance by monitoring the Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monitor Agent. The activity will be evenly distributed between the pairs.
+___RECOMMENDED:___ You can achieve higher throughput and fault tolerance by monitoring the Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monitor Agent. The activity will be evenly distributed between the pairs.
 
-Checklist Item 2: [Install Dell CEE](InstallCEE.md "Install Dell CEE")
+Checklist Item 2: [Install Dell CEE](/docs/product_docs/activitymonitor/config/dellpowerscale/installcee.md)
 
 - Dell CEE should be installed on a Windows or a Linux server.
 
-  ***RECOMMENDED:*** Dell CEE can be installed on the same server as the Activity Agent, or on a different Windows or Linux server. If CEE is installed on the same server, the Activity Agent can configure it automatically.
+  ___RECOMMENDED:___ Dell CEE can be installed on the same server as the Activity Agent, or on a different Windows or Linux server. If CEE is installed on the same server, the Activity Agent can configure it automatically.
 - Important:
 
   - Dell CEE 8.8 is the minimum supported version. It is recommended to use the latest available version.
@@ -39,18 +35,18 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
 
 - Select method:
 
-  - ***RECOMMENDED:*** Allow the Activity Monitor to configure auditing automatically.
+  - ___RECOMMENDED:___ Allow the Activity Monitor to configure auditing automatically.
 
     - Automation completed while the Activity Monitor is configured to monitor the Isilon/PowerScale device
     - Automatically sets CEE Server with the IP Address of the server where CEE is installed
     - Automatically sets Storage Cluster Name to exactly match the name known to the Activity Monitor
     - Choose between monitoring all Access Zones or scoping to specific Access Zones
-  - [Manually Configure Auditing in OneFS](ManualConfiguration.md "Manually Configure Auditing in OneFS")
+  - [Manually Configure Auditing in OneFS](/docs/product_docs/activitymonitor/config/dellpowerscale/manualconfiguration.md)
 
     - After configuration, add the Isilon/PowerScale device to be monitored by the Activity Monitor
 - Important:
 
-  - Value of the **Storage Cluster Name** field must exactly match the name entered for the monitored host in the Activity Monitor Console. If the Storage Cluster Name cannot be modified (for example, another 3rd party depends on it), you need to set the Host Aliases parameter in the Activity Monitor Console. Otherwise, if for some reason the Storage Cluster Name must be left empty, one can list OneFS cluster node names in the Host Aliases.
+  - Value of the __Storage Cluster Name__ field must exactly match the name entered for the monitored host in the Activity Monitor Console. If the Storage Cluster Name cannot be modified (for example, another 3rd party depends on it), you need to set the Host Aliases parameter in the Activity Monitor Console. Otherwise, if for some reason the Storage Cluster Name must be left empty, one can list OneFS cluster node names in the Host Aliases.
 
     - If the Storage Cluster Name is not empty, set the Host Aliases parameter to its value
     - If the Storage Cluster Name is empty, set the Host Aliases to a semicolon-separated list of OneFS node names
@@ -60,12 +56,13 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
     - Start time command:
 
       ```
+      isi audit settings global modify --cee-log-time [Protocol@2021-04-23 14:00:00]
       ```
     - View progress:
 
       ```
       isi_for_array isi audit progress view
       ```
-    - See the Audit log time adjustment section of the Dell [File System Auditing with Dell PowerScale and Dell Common Event Enabler](https://www.dellemc.com/resources/en-us/asset/white-papers/products/storage/h12428-wp-best-practice-guide-isilon-file-system-auditing.pdf "File System Auditing with Dell PowerScale and Dell Common Event Enabler") documentation for additional information.
+    - See the Audit log time adjustment section of the Dell [File System Auditing with Dell PowerScale and Dell Common Event Enabler](https://www.dellemc.com/resources/en-us/asset/white-papers/products/storage/h12428-wp-best-practice-guide-isilon-file-system-auditing.pdf) documentation for additional information.
 
-Checklist Item 4: Configure Dell CEE to Forward Events to the Activity Agent. See the [Validate Setup](Validate.md "Validate Setup") topic for additional information.
+Checklist Item 4: Configure Dell CEE to Forward Events to the Activity Agent. See the [Validate Setup](/docs/product_docs/activitymonitor/config/dellpowerscale/validate.md) topic for additional information.

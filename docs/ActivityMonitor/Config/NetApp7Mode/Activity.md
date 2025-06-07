@@ -1,11 +1,6 @@
----
-id: activity
-title: 'NetApp Data ONTAP 7-Mode Activity Auditing Configuration'
----
-
 # NetApp Data ONTAP 7-Mode Activity Auditing Configuration
 
-The Activity Monitor agent employed to monitor NetApp leverages 128-bit encrypted Remote Procedure Calls (RPC), NetApp ONTAP-API, and NetApp FPolicy to monitor file system events. This includes both NetApp 7-Mode and Cluster-Mode configurations. To learn more about FPolicy please visit the NetApp website and read the [What FPolicy is](https://library.netapp.com/ecmdocs/ECMP1401220/html/GUID-54FE1A84-6CF0-447E-9AAE-F43B61CA2138.html "What FPolicy is") article.
+The Activity Monitor agent employed to monitor NetApp leverages 128-bit encrypted Remote Procedure Calls (RPC), NetApp ONTAP-API, and NetApp FPolicy to monitor file system events. This includes both NetApp 7-Mode and Cluster-Mode configurations. To learn more about FPolicy please visit the NetApp website and read the [What FPolicy is](https://library.netapp.com/ecmdocs/ECMP1401220/html/GUID-54FE1A84-6CF0-447E-9AAE-F43B61CA2138.html) article.
 
 If the activity agent is stopped, a notification will be sent to the NetApp device to disconnect and disable the associated FPolicy policy, but it will not be removed.
 
@@ -23,13 +18,15 @@ Checklist Item 1: Plan Deployment
   - Names of the vFiler™(s) to be monitored
   - DNS name of the CIFS shares(s) to be monitored
 
+Checklist Item 2: [Provision FPolicy Account](/docs/product_docs/activitymonitor/config/netapp7mode/provisionactivity.md)
+
 - Group membership with a role granting access to the following commands:
 
   ```
-  login-http-admin
-  api-system-api-list
-  api-system-get-version
-  api-cifs-share-list-iter-*
+  login-http-admin  
+  api-system-api-list  
+  api-system-get-version  
+  api-cifs-share-list-iter-*  
   api-volume-list-info-iter-*
   ```
 - For Automatic FPolicy creation (Checklist Item 4), group membership with a role granting access to the following command:
@@ -54,18 +51,18 @@ Checklist Item 3: Firewall Configuration
 - TCP 135
 - TCP 445
 - Dynamic port range: TCP/UDP 137-139
-- See the [Enable HTTP or HTTPS](EnableHTTP.md "Enable HTTP or HTTPS") topic for instructions.
+- See the [Enable HTTP or HTTPS](/docs/product_docs/activitymonitor/config/netapp7mode/enablehttp.md) topic for instructions.
 
-Checklist Item 4: [Configure FPolicy](ConfigureFPolicy.md "Configure FPolicy")
+Checklist Item 4: [Configure FPolicy](/docs/product_docs/activitymonitor/config/netapp7mode/configurefpolicy.md)
 
 - If using vFilers:
 
   - FPolicy operates on the vFiler so the FPolicy must be created on the vFiler
 
-    **NOTE:** Activity Monitor must target the vFiler
+    __NOTE:__ Activity Monitor must target the vFiler
 - Select method:
 
-  ***RECOMMENDED:*** Configure FPolicy Manually – A tailored FPolicy
+  ___RECOMMENDED:___ Configure FPolicy Manually – A tailored FPolicy
 
   - Allow the Activity Monitor to create an FPolicy automatically
     - This option is enabled when the Activity Monitor agent is configured to monitor the NetApp device on the NetApp FPolicy Configuration page of the Add New Hosts window.

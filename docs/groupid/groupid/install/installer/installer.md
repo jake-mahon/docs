@@ -1,0 +1,42 @@
+# Installer
+
+To install Directory Manager, you have to run the following tools in the given order:
+
+- __[Preparation Tool](/docs/product_docs/groupid/groupid/install/installer/preparationtool.md)__ - Detects and instals the prerequisite software and Windows features that Directory Manager requires.
+
+- __[Installation Tool](/docs/product_docs/groupid/groupid/install/installer/install.md)__ - Installs Directory Manager.
+
+- __[Configuration Tool](/docs/product_docs/groupid/groupid/install/configure/configure.md)__ - Configures Directory Manager services, database, and other components.
+
+## Installation Package
+
+The Directory Manager installation package consists of:
+
+- Directory Manager 11 Prerequisites Tool (file folder)
+- Directory Manager <_version #_> (file folder)
+
+## Who can install
+
+Before installing Directory Manager, make sure that the logged-in user is a member of the local Administrators group on that machine.
+
+NOTE: (1) There should be a dedicated server for Directory Manager.  
+(2) Do not install Directory Manager on the domain controller.  
+(3) Do not install Directory Manager and Microsoft Exchange Server on the same machine.
+
+## Installation Cases
+
+Choose one of the four installation cases for Directory Manager 11:
+
+- __Case # 1__: Directory ManagerID 11 to co-exist with Directory Manager 10 on the same machine
+
+- __Case # 2__: Directory Manager 11 to co-exist with Directory Manager 10.0 / 9.0 in the same environment
+- __Case # 3__: In-place installation of Directory Manager 11 on the same machine
+- __Case # 4__: In-place installation of Directory Manager 11 in the environment
+
+The Directory Manager 11 installation and configuration process is the same for all four cases. You must create a copy of the database being used with the previous Directory Manager version and bind the copy with Directory Manager 11.
+
+Next, run the Upgrade wizard to make the copied database compatible with Directory Manager 11. Once upgraded, the database schema changes, making it incompatible with the previous Directory Manager version.
+
+NOTE: When Directory Manager 11 co-exists with a previous Directory Manager version (case # 1 and 2), the two must have separate databases. Data is not replicated between these databases.
+
+NOTE: This section does not apply to a fresh Directory Manager installation.

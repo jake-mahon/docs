@@ -1,0 +1,25 @@
+# Passphrase
+
+Passphrases have gained popularity in recent years as they can be more difficult to crack and easier to remember than passwords. The difference between passwords and passphrases is their length. Passwords are rarely longer than 15 characters, but passphrases commonly contain 20 or more characters.
+
+Complexity and dictionary rules are less important for passphrases as passphrases rely primarily on length for security. You may want to relax some password policy requirements for passphrases.
+
+__Step 1 –__ Open the Configuration Console:
+
+Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__  
+or   
+Double click the __PPE Configuration__ desktop shortcut.
+
+__Step 2 –__ Click on a policy name to open the policy configuration page.
+
+__Step 3 –__ Open the __Passphrase__ tab.
+
+![Enable Passphrases](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrase.png)
+
+__Step 4 –__ Select the number of characters the password must contain before the selected rules are disabled.
+
+__Step 5 –__ Select the rules to be disabled.
+
+Disabled rules are not counted when calculating the compliance level, but Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
+
+__NOTE:__ Opinions differ on how long a passphrase needs to be. Even a 30 character passphrase can be weaker than a well-chosen password. Do not disable too many rules under the assumption that length alone makes up for the reduced complexity.

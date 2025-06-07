@@ -1,0 +1,19 @@
+# Select Active Directory Trustees Window
+
+The Select Active Directory Trustees window provides a list of available Exchange trustees to either include or exclude. Selected objects are added to the filter from where you clicked the __Add__ (+) button to open this window.
+
+Trustees are the objects that rights are assigned to, e.g. Exchange mailboxes or Exchange distribution lists.
+
+![Select Active Directory Trustees Window](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adtrustees.png)
+
+- Select either Browse Mode or Search Mode.
+
+- Select an Agent from the drop-down menu and click __Connect__.
+- Navigate through the domain tree and check the desired item(s) in the __Results__ pane on the right.
+- Then click __OK__ to close the window.
+
+See the [Selection Windows](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
+
+The selection is displayed in the appropriate box of the Exchange Trustees filter.
+
+__NOTE:__ For information on the well-known SID types, see the Microsoft article [Well-known SIDs](https://learn.microsoft.com/en-us/windows/win32/secauthz/well-known-sids).

@@ -1,6 +1,11 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
 /* Hero Section */
 .heroBanner {
-  padding: 6rem 0;
+  padding: 4rem 0;
   text-align: center;
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
@@ -28,7 +33,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 /* Section Titles */
@@ -232,7 +237,7 @@
 /* Responsive */
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 4rem 1rem;
+    padding: 2rem;
   }
   
   .heroTitle {
