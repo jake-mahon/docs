@@ -15,7 +15,7 @@ Prior to the Netwrix Auditor for SharePoint Core Service installation, review th
 
 Follow the steps to install Netwrix Auditor for SharePoint Core Service manually.
 
-__Step 1 –__ On the computer where Auditor Server resides,navigate to _%Netwrix Auditor installation folder%\SharePoint Auditing__\SharePointPackage_ and copy SpaPackage\_<version>.msi to the computer where Central Administration is installed.
+__Step 1 –__ On the computer where Auditor Server resides,navigate to _%Netwrix Auditor installation folder%\SharePoint Auditing__\SharePointPackage_ and copy SpaPackage\_`<version>`.msi to the computer where Central Administration is installed.
 
 __Step 2 –__ Run the installation package.
 

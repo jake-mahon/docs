@@ -16,7 +16,7 @@ The Database name column contains the list of Netwrix Auditor databases hosted b
   - internal event records—_Netwrix\_Auditor\_EventLog_ database
   - data collected by Netwrix Auditor self-audit—_Netwrix\_Self\_Audit_ database
   - data needed for overview reports generation—_Netwrix\_OverviewReportsDB_
-- To store data from the data sources included in the monitoring plan, dedicated Audit databases are created and named by user (default name format is _Netwrix\_Auditor\_<monitoring\_plan\_name>_)
+- To store data from the data sources included in the monitoring plan, dedicated Audit databases are created and named by user (default name format is _Netwrix\_Auditor\_`<monitoring_plan_name>`_)
 
 The following capacity metrics are displayed for each database:
 
@@ -32,14 +32,14 @@ These properties are as follows:
 
 | Property | Possible Values | Description |
 | --- | --- | --- |
-| Size limit | _<size\_limit>_ | For SQL Server Express Edition–shows database size limitations |
+| Size limit | _`<size_limit>`_ | For SQL Server Express Edition–shows database size limitations |
 | Unlimited |  |  |
 | State description | OK | Database is operating properly. |
 | Capacity error | Database is running low on disk space.  -OR-  Size limit for SQL Server Express Edition will be reached soon (threshold is 500 MB, i.e. 5% of 10 GB limit remaining). |  |
 | Failed to store data | Failed to store data to the database due to some issues. |  |
 | Unavailable | Failed to connect to the database. |  |
 | Upgrade in progress | Database is being upgraded. |  |
-| Monitoring plans | _<monitoring\_plan>_ | All monitoring plans for which this database is a target.  Usually it is recommended to configure a dedicated database for each plan. |
+| Monitoring plans | _`<monitoring_plan>`_ | All monitoring plans for which this database is a target.  Usually it is recommended to configure a dedicated database for each plan. |
 
 You can use the Search field, or apply a filter to display the information you need. For example, in the Apply Filters dialog you can select the Show only plans with issues to display only the monitoring plans that require attention and corrective actions.
 

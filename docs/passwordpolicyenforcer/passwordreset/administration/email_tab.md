@@ -19,8 +19,8 @@ Click the name of an enabled trigger to edit the trigger's e-mail template.
 
 ![configuring_npr_4](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_4.png)
 
-Type the name and e-mail address you wish to appear in the e-mail's From field in the __From__ text box. The correct format is "Display Name" <mailbox@domain.com>  
-Type the recipient's e-mail address in the __To__ text box. The correct format is "Display Name" <[mailbox@domain.com](mailto:mailbox@domain.com)>. Separate multiple recipients with a semicolon. You can also use these macros.
+Type the name and e-mail address you wish to appear in the e-mail's From field in the __From__ text box. The correct format is "Display Name" `<mailbox@domain.com>`  
+Type the recipient's e-mail address in the __To__ text box. The correct format is "Display Name" `<mailbox@domain.com>`. Separate multiple recipients with a semicolon. You can also use these macros.
 
 | Macro | Replace with |
 | --- | --- |
@@ -35,7 +35,7 @@ Type additional recipient e-mail addresses in the __Bcc__ text box if you want t
 
 Type the e-mail's subject in the __Subject__ text box.
 
-Type the e-mail's body in the large text box. The e-mail is sent as plain text unless the body contains the <html> tag. Include the entire HTML document when sending e-mail as HTML. You can also use these macros.
+Type the e-mail's body in the large text box. The e-mail is sent as plain text unless the body contains the `<html>` tag. Include the entire HTML document when sending e-mail as HTML. You can also use these macros.
 
 | Macro | Replaced with |
 | --- | --- |

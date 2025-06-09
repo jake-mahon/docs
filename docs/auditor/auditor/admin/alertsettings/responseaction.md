@@ -51,7 +51,7 @@ __Step 7 –__ Write data to CSV file — select this option if you want Auditor
 
 After the upgrade, all alerts with previously configured response action will have this option cleared.
 
-__Step 8 –__ Limit row count in a file to <N> — limit the number of rows (activity records) to be written to a single ._csv_ file. Enter a value from _1_ to _1000_.
+__Step 8 –__ Limit row count in a file to `<N>` — limit the number of rows (activity records) to be written to a single ._csv_ file. Enter a value from _1_ to _1000_.
 
 Learn more about how these options work in the [Configure a Response Action for Alert](#Configure-a-Response-Action-for-Alert) section.
 
@@ -59,7 +59,7 @@ By default, the executable file will be launched under the _LocalSystem_ account
 
 The resulting command line including executable file name and execution parameters will appear in the Command line preview.
 
-If you selected to __Write data to CSV file__, the command line will include _{CsvFile_}, i.e. the file path. Alternatively, the command line will include _{AlertID}_ and _{RecordID}_, i.e. related IDs
+If you selected to __Write data to CSV file__, the command line will include _`{CsvFile_}`_, i.e. the file path. Alternatively, the command line will include _`{AlertID}`_ and _`{RecordID}`_, i.e. related IDs
 
 __Step 9 –__ Test run — if you click this button, the executable file will be run with the specified parameters on Netwrix Auditor server. This can be helpful, for example, if you want to ensure script operability before the related alert is triggered.
 

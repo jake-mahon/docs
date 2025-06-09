@@ -22,15 +22,15 @@ Follow the steps to configure Object-level access auditing on Windows Server 201
 
 __Step 1 –__ Navigate to the target file share, right-click it and select __Properties__.
 
-__Step 2 –__ In the <Share\_Name> Properties dialog box, select the Security tab and click __Advanced__.
+__Step 2 –__ In the `<Share_Name>` Properties dialog box, select the Security tab and click __Advanced__.
 
-__Step 3 –__ In the Advanced Security Settings for <Share\_Name> dialog box, navigate to the Auditing tab.
+__Step 3 –__ In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the Auditing tab.
 
-![Advanced Security Settings for <Share_Name> dialog box](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
+![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
 
 __Step 4 –__ Click __Add__ to add a new principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 
-__Step 5 –__ In the Auditing Entry for <Folder\_Name> dialog box, click the __Select a principal__ link and specify __Everyone__.
+__Step 5 –__ In the Auditing Entry for `<Folder_Name>` dialog box, click the __Select a principal__ link and specify __Everyone__.
 
 __NOTE:__ You can specify any other user group, but in this case the emails will be sent with warnings on incorrect audit configuration. The product will audit only user accounts that belong to the selected group.
 
@@ -53,11 +53,11 @@ Review the following for additional information:
 
 __Step 1 –__ Navigate to the target file share, right-click it and select __Properties__.
 
-__Step 2 –__ In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 2 –__ In the __`<Share_Name>` Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
-__Step 3 –__ In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Auditing__ tab, click Edit.
+__Step 3 –__ In the __Advanced Security Settings for `<Share_Name>`__ dialog, navigate to the __Auditing__ tab, click Edit.
 
-__Step 4 –__ In a separate __Advanced Security Settings for <Share\_Name>__ dialog, click Add to add a principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
+__Step 4 –__ In a separate __Advanced Security Settings for `<Share_Name>`__ dialog, click Add to add a principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 
 __Step 5 –__  You can specify any other user group, but in this case Netwrix Auditor will send emails with errors on incorrect audit configuration. This will not affect the reports or data searches performed in the Auditor client and the product will only audit user accounts that belong to the selected group.
 

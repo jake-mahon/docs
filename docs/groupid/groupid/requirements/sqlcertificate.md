@@ -16,7 +16,7 @@ Follow the steps to bind the generated SQL certificate with SQL server machine.
 
 Step 1 – In SQL Server Configuration Manager, expand __SQL Server Network Configuration__ in the left pane.
 
-Step 2 – Right-click __Protocols for <instance Name>__, and then select __Properties__.
+Step 2 – Right-click __Protocols for `<instance Name>`__, and then select __Properties__.
 
 ![SQL Configuration Manager Properties dialog box](/img/product_docs/groupid/groupid/requirements/sqlconfigmgr.jpg)
 

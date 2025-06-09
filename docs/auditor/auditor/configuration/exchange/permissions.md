@@ -34,7 +34,7 @@ Follow the steps to add account to the Organization Management group.
 
 __Step 1 –__  Navigate to __Start > Active Directory Users and Computers__ on any domain controller in the root domain of the forest where Microsoft Exchange 2019, 2016, or 2013 is installed.
 
-__Step 2 –__ In the left pane, navigate to __<domain\_name> > Microsoft Exchange Security Groups__.
+__Step 2 –__ In the left pane, navigate to __`<domain_name>` > Microsoft Exchange Security Groups__.
 
 __Step 3 –__ On the right, locate the __Organization Management__ group and double-click it.
 
@@ -54,11 +54,11 @@ __Step 1 –__ On the computer where Microsoft Exchange 2019, 2016, 2013 or is i
 
 __Step 2 –__ Use the following syntax to assign the required management role to a user:
 
-New-ManagementRoleAssignment -Name <assignment name> -User <UserName> -Role <role name>
+New-ManagementRoleAssignment -Name `<assignment name>` -User `<UserName>` -Role `<role name>`
 
 For example:
 
-New-ManagementRoleAssignment -Name "AuditLogsNetwrixRole" -User Corp\jsmith -Role "Audit Logs"
+New-ManagementRoleAssignment -Name "AuditLogsNetwrixRole" -User Corp\\jsmith -Role "Audit Logs"
 
 In this example, the user _CORP\jsmith_ has been assigned the __Audit Logs__ role.
 
@@ -92,7 +92,7 @@ Follow the steps to assign permission using the Group Policy Management console.
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) > Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> > Domains > <domain name> > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` > Domains > `<domain name>` > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies > Windows Settings > Security Settings > Registry.
 

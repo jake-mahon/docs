@@ -4,7 +4,7 @@ The Repetition rule rejects passwords that contain excessive character or patter
 
 - Enable the __Repetition__ button to enable the repetition rule.
 
-- Reject repetition <_character_> and more consecutive characters like "aaaA" – Select the option and set the maximum number of consecutive repeating characters that passwords can contain.
+- Reject repetition `<_character_>` and more consecutive characters like "aaaA" – Select the option and set the maximum number of consecutive repeating characters that passwords can contain.
 
 - Reject repetition like "wordword" or "p@$s\_p@$s" – Select the option to enable pattern repetition.
 

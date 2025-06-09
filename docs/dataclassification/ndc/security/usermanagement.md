@@ -39,7 +39,7 @@ If these lines are present then users will be required to login using their Wind
 
 ## Configure Microsoft Entra ID Authentication
 
-To configure Microsoft Entra ID you need to create aclient application and add two new appSettings to the "<appsettings>" section of the web.config file in the QS directory:
+To configure Microsoft Entra ID you need to create aclient application and add two new appSettings to the "`<appsettings>`" section of the web.config file in the QS directory:
 
 - ```<add key="ida:AzureClientId" value="NewAzureADClientID (GUID)" />```
 - ```<add key="ida:AzureAuthority" value="AzureADAuthorityValue such as: https://login.windows.net/mytenant.onmicrosoft.com" />```

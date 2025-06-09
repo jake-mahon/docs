@@ -15,7 +15,7 @@ The summary section shows:
   - Windows Account
   - Login SQL Authentication
   - DB SQL User with password
-- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _<not set>_ is reported.
+- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _`<not set>`_ is reported.
 - __Total objects count__ — total number of objects that this account has access to.
 
 The detailed information under summary includes:

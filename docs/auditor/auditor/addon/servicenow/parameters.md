@@ -48,7 +48,7 @@ __Step 2 –__ Define parameters such as ServiceNow connection parameters inside
 
 __Step 3 –__ Provide new values as follows: ```<paramenter>value</parameter>```.
 
-| <Connection> parameter | Default value | Description |
+| `<Connection>` parameter | Default value | Description |
 | --- | --- | --- |
 | URL | — | Provide a link to your ServiceNow system (e.g., _https://enterprise.service-now.com_). |
 | UserName | — | Specify a user account. Make sure the user has sufficient permissions to create tickets and update them. The __itil__ role is recommended.  __NOTE:__ If you want to reopen closed tickets, you must be granted the right to perform __Write__ operations on inactive incidents. |

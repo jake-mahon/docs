@@ -27,7 +27,7 @@ __Step 4 –__ Go to C:\Windows\Policy Definitions\en-US and paste the .adml fil
 
 __Step 5 –__ Open __Group Policy Management__ console and check if you have a GPO created for Client. If not, see the topic's section for additional information.
 
-__Step 6 –__ In the left pane, navigate to __Forest: <forest\_name>__ > __Domain__ > __<domain\_name>__, right-click __<OU\_name>__ and select __Create a GPO__ in this domain and Link it here.
+__Step 6 –__ In the left pane, navigate to __Forest: `<forest_name>`__ > __Domain__ > __`<domain_name>`__, right-click __`<OU_name>`__ and select __Create a GPO__ in this domain and Link it here.
 
 Once the GPO is configured, this view is available:
 

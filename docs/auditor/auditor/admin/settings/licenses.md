@@ -47,8 +47,8 @@ ___RECOMMENDED:___ Netwrix recommends avoiding special characters since some we
 | &  e.g., Ally & Sons | &amp;  e.g., Ally &amp; Sons |
 | "  e.g., Domain1\Users\"Stars" | &quot;  e.g., Domain1\Users\&quot;Stars&quot; |
 | ' e.g., Domain1\Users\O'Hara | &apos;  e.g., Domain1\Users\O&apos;Hara |
-| <  e.g., Company<1 | &lt;  e.g., Company&lt;1 |
-| > e.g., ID>500 | &gt;  e.g., ID&gt;500 |
+| <  e.g., `Company<1` | &lt;  e.g., `Company&lt;1` |
+| > e.g., `ID>500` | &gt;  e.g., `ID&gt;500` |
 
 __Step 4 –__ Navigate to _Netwrix Auditor installation folder\Netwrix Auditor\Administrative Console_ and start __Netwrix.CallHome.MSPTool.exe__. The tool transfers information on service accounts to Netwrix Auditor. Netwrix Auditor uses this information to exclude service accounts from license count so that only heartbeat users will be calculated.
 

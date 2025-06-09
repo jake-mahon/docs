@@ -6,9 +6,9 @@ The History rule rejects passwords that are identical to recently used passwords
 
 - Select one of the options:
 
-- One of the last <_number_> of password – stop passwords from being reused for a specified number of password changes. Choose the number of password changes from the drop-down list.
+- One of the last `<_number_>` of password – stop passwords from being reused for a specified number of password changes. Choose the number of password changes from the drop-down list.
 
-- A password used in the last <_number_> of days – stop passwords from being reused for a specified number of days. Type the number of days in the text box.
+- A password used in the last `<_number_>` of days – stop passwords from being reused for a specified number of days. Type the number of days in the text box.
 
 - Hash function – Choose an item from the drop-down list.
 

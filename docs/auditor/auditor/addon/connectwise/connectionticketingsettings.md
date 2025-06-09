@@ -8,7 +8,7 @@ Specify how data arriving from Auditor should be used to fill in ConnectWise tic
 
 Each ```<TicketParameter>``` includes the ```<Name></Name>``` and ```<Value></Value>``` pair that defines a ConnectWise ticket field and a value that will be assigned to it. For most parameters, default values are provided. Add more ticket parameters or update values if necessary.
 
-| <Name> | <Value> | Description |
+| `<Name>` | `<Value>` | Description |
 | --- | --- | --- |
 | Summary | [Netwrix Auditor]    %AlertName% | Instructs the system to fill in the Summary ticket field with the Auditor alert name (e.g., _[Netwrix Auditor] Password Reset)_. |
 | InitialDescription | Alert Details:  Who: %Who%  Action: %Action%  Object type: %ObjectType%  What: %What%  When: %When%  Where: %Where%  Workstation: %Workstation%  Details: %Details%  Data source: %DataSource%  Monitoring plan: %MonitoringPlanName%  Item: %Item%  Sent by Netwrix Auditor from %Computer% | Instructs the system to fill in the InitialDescription ticket field with the Auditor activity record data. To read more about activity records, see the [Reference for Creating Activity Records](/docs/auditor/auditor/api/activityrecordreference.md) topic for additional information.  You may need to fill in the internal description intended for use by MSP only (this description will not be visible to managed clients), perform the following steps:  __Step 1 –__ Run the configuration wizard (or modify _ConnectWiseSettings.xml_) to specify the settings you need.  __Step 2 –__ Then open _ConnectWiseSettings.xml_ for edit.  __Step 3 –__ Locate the __InitialDescription__ parameter and change the Name attribute to _initialInternalAnalysis_. |
@@ -41,92 +41,56 @@ You can update other parameters with your own values if necessary; however, it i
 
 | Name | Description |
 | --- | --- |
-| IgnoreUploadAttachmentError | Instructs the add on to ignore the attachment upload errors.   - If false, a corresponding error message will be displayed. - If true, the file that failed to upload will be stored to the __MissingAttachments__ subfolder in the add-on folder. Error message will not appear on the screen; instead, the following record will be written to the add-on log: _Attached files for ticket id: {0} dumped: '{attachmentPath}'_   Default parameter value is __true__. |
+| IgnoreUploadAttachmentError | Instructs the add on to ignore the attachment upload errors.   - If false, a corresponding error message will be displayed. - If true, the file that failed to upload will be stored to the __MissingAttachments__ subfolder in the add-on folder. Error message will not appear on the screen; instead, the following record will be written to the add-on log: _Attached files for ticket id: `{0}` dumped: '`{attachmentPath}`'_   Default parameter value is __true__. |
 
 You can also review the ```<TicketParameterRefs>``` section. It shows information related to ConnectWise Manage objects.
 
 Example:
 
+```xml
 <TicketParameterRefs>
-
-<TicketParameterRef>
-
-<Name>company</Name>
-
-<TicketParameters>
-
-<TicketParameter>
-
-<Name>id</Name>
-
-<!--My.Sample.Company-->
-
-<Value>42</Value> - enter ID of the company-ticket originator
-
-</TicketParameter>
-
-</TicketParameters>
-
-</TicketParameterRef>
-
-<TicketParameterRef>
-
-<Name>board</Name>
-
-<TicketParameters>
-
-<TicketParameter>
-
-<Name>id</Name>
-
-<!--Professional Services-->
-
-<Value>1</Value> - enter ID of the service board for the tickets
-
-</TicketParameter>
-
-</TicketParameters>
-
-</TicketParameterRef>
-
-<TicketParameterRef>
-
-<Name>priority</Name>
-
-<TicketParameters>
-
-<TicketParameter>
-
-<Name>id</Name>
-
-<!--Priority 3 - Normal Response-->
-
-<Value>4</Value>
-
-</TicketParameter>
-
-</TicketParameters>
-
-</TicketParameterRef>
-
-<TicketParameterRef>
-
-<Name>team</Name>
-
-<TicketParameters>
-
-<TicketParameter>
-
-<Name>id</Name>
-
-<!--Service Team-->
-
-<Value>25</Value> - enter ID of the service team responsible for resolution
-
-</TicketParameter>
-
-</TicketParameters>
-
-</TicketParameterRef>
-
+  <TicketParameterRef>
+    <Name>company</Name>
+    <TicketParameters>
+      <TicketParameter>
+        <Name>id</Name>
+        <!--My.Sample.Company-->
+        <Value>42</Value> <!-- enter ID of the company-ticket originator -->
+      </TicketParameter>
+    </TicketParameters>
+  </TicketParameterRef>
+  
+  <TicketParameterRef>
+    <Name>board</Name>
+    <TicketParameters>
+      <TicketParameter>
+        <Name>id</Name>
+        <!--Professional Services-->
+        <Value>1</Value> <!-- enter ID of the service board for the tickets -->
+      </TicketParameter>
+    </TicketParameters>
+  </TicketParameterRef>
+  
+  <TicketParameterRef>
+    <Name>priority</Name>
+    <TicketParameters>
+      <TicketParameter>
+        <Name>id</Name>
+        <!--Priority 3 - Normal Response-->
+        <Value>4</Value>
+      </TicketParameter>
+    </TicketParameters>
+  </TicketParameterRef>
+  
+  <TicketParameterRef>
+    <Name>team</Name>
+    <TicketParameters>
+      <TicketParameter>
+        <Name>id</Name>
+        <!--Service Team-->
+        <Value>25</Value> <!-- enter ID of the service team responsible for resolution -->
+      </TicketParameter>
+    </TicketParameters>
+  </TicketParameterRef>
 </TicketParameterRefs>
+```

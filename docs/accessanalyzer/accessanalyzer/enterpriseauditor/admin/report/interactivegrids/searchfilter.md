@@ -22,7 +22,7 @@ To change the enumeration in the report, select an option from the enumerated co
 
 ## Filtering on Dates & Times
 
-Data can also be filtered on dates and times. Expanding the column’s width activates hyperlinks to filter on specific time periods.
+Data can also be filtered on dates and times. Expanding the column's width activates hyperlinks to filter on specific time periods.
 
 ![Date column filter](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/datefilter.png)
 
@@ -36,9 +36,9 @@ Comparison operators can also be used for filtering. Comparison operators which 
 | --- | --- |
 | Equal to | = |
 | Greater than | > |
-| Less than | < |
-| Less than or equal to | <= |
-| Greater than or equal to | >= |
+| Less than | &lt; |
+| Less than or equal to | &lt;= |
+| Greater than or equal to | &gt;= |
 | A range of values | n1..n2 |
 
 ## Adding & Removing Columns

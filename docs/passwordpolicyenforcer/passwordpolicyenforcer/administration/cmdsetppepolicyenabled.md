@@ -4,19 +4,19 @@ The __Set-PPEPolicyEnabled__ cmdlet sets the enabled/disabled status for a Passw
 
 SYNTAX
 
-__Set-PPEPolicyEnabled____-PolicyName__ <_string_> __-Enable__] <_int_> [<_CommonParameters_>]
+__Set-PPEPolicyEnabled____-PolicyName__ `<_string_>` __-Enable__] `<_int_>` [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-PolicyName__ <_string_>
+__-PolicyName__ `<_string_>`
 
 The policy name.
 
-__-Enable__ <_int_>
+__-Enable__ `<_int_>`
 
 Specify __1__ to enable the policy, specify __0__ to dis -Poliable the policy. Can also use __-E__ or __-e__.
 
-<_CommonParameters_>
+`<_CommonParameters_>`
 
 This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](/docs/password_policy_enforcer/administration/https:/go.microsoft.com/fwlink?linkid=113216).
 

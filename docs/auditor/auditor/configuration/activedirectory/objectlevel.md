@@ -17,7 +17,7 @@ __Step 2 –__ In the __Active Directory Users and Computers__ dialog, click __V
 
 ![manualconfig_aduc_advsecwinserver2016](/img/product_docs/1secure/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.png)
 
-__Step 3 –__ Right-click the __<domain\_name>__ node and select __Properties.__ Select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for <domain\_name>__ dialog, select the __Auditing__ tab.
+__Step 3 –__ Right-click the __`<domain_name>`__ node and select __Properties.__ Select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for `<domain_name>`__ dialog, select the __Auditing__ tab.
 
 ![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/1secure/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.png)
 
@@ -33,7 +33,7 @@ __Step 4 –__ Perform the following actions on the Windows Server 2012 and abov
 
 ## Enabling object-level auditing for the Configuration and Schema partitions
 
-To perform this procedure, you will need the [ADSI Edit](http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx) utility.utility. Follow the steps to enable object-level auditing for the Configuration and Schema partitions.
+To perform this procedure, you will need the [ADSI Edit](http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx) utility. Follow the steps to enable object-level auditing for the Configuration and Schema partitions.
 
 __Step 1 –__ On any domain controller in the target domain, navigate to Start > Windows Administrative Tools __> ADSI Edit__.
 
@@ -41,9 +41,9 @@ __Step 2 –__ Right-click the __ADSI Edit__ node and select __Connect To__. In 
 
 ![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.png)
 
-__Step 3 –__ Expand the __Configuration <Your\_Root\_Domain\_Name>__ node. Right-click the __CN=Configuration, DC=<name>,DC=<name>…__ node and select __Properties.__
+__Step 3 –__ Expand the __Configuration `<Your_Root_Domain_Name>`__ node. Right-click the __CN=Configuration, DC=`<name>`,DC=`<name>`…__ node and select __Properties.__
 
-__Step 4 –__ In the __CN=Configuration, DC=<name>, DC=<name> Properties__ dialog select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for Configuration__ dialog, open the __Auditing__ tab.
+__Step 4 –__ In the __CN=Configuration, DC=`<name>`, DC=`<name>` Properties__ dialog select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for Configuration__ dialog, open the __Auditing__ tab.
 
 __Step 5 –__ Perform the following actions on the Windows Server 2012 and above:
 

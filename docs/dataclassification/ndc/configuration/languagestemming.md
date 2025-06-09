@@ -1,6 +1,6 @@
 # Language Stemming
 
-Language stemming is a morphological process that converts words to their root form so that most inflected forms are considered equal. For example, an English language search for the word “baby” will also locate documents containing the word “babies”.
+Language stemming is a morphological process that converts words to their root form so that most inflected forms are considered equal. For example, an English language search for the word "baby" will also locate documents containing the word "babies".
 
 Note that the stemming process is highly language specific and so one word may stem differently in different languages.
 
@@ -10,7 +10,7 @@ If all searches are filtered by language then it may make sense to use a differe
 
 The reason that automatic language detection is important during the indexing process is so that the correct stoplist is used when extracting terms and concepts. By excluding words in the stoplist the index size can be significantly reduced. More importantly, the stoplists play an integral part of the concept identification process.
 
-The stemmer should be selected based on the dominant language for a given index. The default stemmer is English but this may be configured via the “StemLang” field in the “Config” table in the SQL Database.
+The stemmer should be selected based on the dominant language for a given index. The default stemmer is English but this may be configured via the "StemLang" field in the "Config" table in the SQL Database.
 
 Netwrix Data Classification uses the stemming algorithms published as part of the Snowball project (see [http://snowball.tartarus.org](http://snowball.tartarus.org/) for details).
 
@@ -18,49 +18,49 @@ Netwrix Data Classification uses the stemming algorithms published as part of th
 
 By default, the NDC database will index words containing the following characters:
 
-- “a–z”
-- “A–Z”
-- “0–9”
-- “’” (single apostrophe)
-- “@”
-- “#”
-- “$”
-- “%”
-- “&”
+- "a–z"
+- "A–Z"
+- "0–9"
+- "’" (single apostrophe)
+- "@"
+- "#"
+- "$"
+- "%"
+- "&"
 
-- “-” (hyphen)
-- “=”
-- “\_” (underscore)
+- "-" (hyphen)
+- "="
+- "\_" (underscore)
 
 Indexing of these characters can be stopped by removing the relevant entries from the CustomTermCharacters table:
 
-- “@”
+- "@"
 
-- “#”
-- “$”
-- “%”
-- “&”
-- “-” (hyphen)
-- “=”
-- “\_” (underscore)
+- "#"
+- "$"
+- "%"
+- "&"
+- "-" (hyphen)
+- "="
+- "\_" (underscore)
 
 Any of the following characters can be included in the list of indexed characters by adding them to the CustomTermCharacters table:
 
-- “(”
-- “)”
-- “+”
-- “/”
-- “<”
-- “>”
-- “[”
-- “\”
-- “]”
-- “^”
-- “{”
-- “|”
-- “}”
-- “<”
-- “~”
+- "("
+- ")"
+- "+"
+- "/"
+- "`<`"
+- "`>`"
+- "["
+- "\"
+- "]"
+- "^"
+- "`{`"
+- "|"
+- "`}`"
+- "`<`"
+- "~"
 
 All other characters are mapped to spaces.
 
@@ -68,11 +68,11 @@ Words containing characters in the CustomTermCharacters table are always index w
 
 Therefore, a search for:
 
-“fleur de lys”
+"fleur de lys"
 
 will always match with a document containing:
 
-“fleur-de-lys”
+"fleur-de-lys"
 
 but not vice versa.
 
@@ -80,15 +80,15 @@ Documents containing text in other alphabets will not be indexed correctly. In g
 
 ## Supported for Diacritics (accented characters)
 
-Netwrix Data Classification provides full support for diacritics (aka accented characters) such as: “á”, “â”, “ä”, “æ” and “ç”.
+Netwrix Data Classification provides full support for diacritics (aka accented characters) such as: "á", "â", "ä", "æ" and "ç".
 
 In all cases the accented characters are mapped to their closest standard letter and searches are always insensitive to diacritics, so that a search for:
 
-“fitchée”
+"fitchée"
 
 will match with:
 
-“fitchee”
+"fitchee"
 
 and vice versa.
 

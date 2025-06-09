@@ -62,7 +62,7 @@ __Step 2 –__ Click __Settings__ at the bottom.
 
 __Step 3 –__ In the Manage recommendations dialog, do the following:
 
-- Keep completed recommendations: <30> days – Specify time period in days to keep the completed recommendations visible. The default period is set to 30 days.
+- Keep completed recommendations: `<30>` days – Specify time period in days to keep the completed recommendations visible. The default period is set to 30 days.
 - Select the recommendations to fine-tune product configuration – Select recommendations types you want to be displayed. When checked, the recommendations of the selected type appear once your Auditor configuration meets the recommendation conditions.
 
   For example, if you selected the 'Enable State-in-Time data collection', this recommendation appears for each new monitoring plan with disabled state-in-time option.

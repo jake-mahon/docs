@@ -4,5 +4,5 @@ One of the following ports must be open for communication between Access Analyze
 
 | Port | Protocol | Source | Direction | Target | Purpose |
 | --- | --- | --- | --- | --- | --- |
-| 80 | TCP | Access Analyzer Console server | <--> | SharePoint Online Environment | HTTP Communication |
-| 443 | TCP | Access Analyzer Console server | <--> | SharePoint Online Environment | HTTPS Communication |
+| 80 | TCP | Access Analyzer Console server | ↔ | SharePoint Online Environment | HTTP Communication |
+| 443 | TCP | Access Analyzer Console server | ↔ | SharePoint Online Environment | HTTPS Communication |

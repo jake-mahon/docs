@@ -28,5 +28,5 @@ The file must be formatted in accordance with XML standard. The following symbol
 | &  e.g., Ally & Sons | &amp;  e.g., Ally &amp; Sons |
 | "  e.g., Domain1\Users\"Stars" | &quot;  e.g., Domain1\Users\&quot;Stars&quot; |
 | ' e.g., Domain1\Users\O'Hara | &apos;  e.g., Domain1\Users\O&apos;Hara |
-| <  e.g., CompanyDC<100 | &lt;  e.g., CompanyDC&lt;100 |
-| >  e.g., ID>500 | &gt;  e.g., ID&gt;500 |
+| <  e.g., CompanyDC`<100` | &lt;  e.g., CompanyDC&lt;100 |
+| >  e.g., ID`>500` | &gt;  e.g., ID&gt;500 |

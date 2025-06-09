@@ -66,5 +66,3 @@ GET
     "updateMsFlowToken": false  
 }
 ```
-
-{

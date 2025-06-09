@@ -4,23 +4,23 @@ The __Get-PPEPasswordTest__ cmdlet runs the Password Policy Enforcer password te
 
 SYNTAX
 
-__Get-PPEPasswordTest__ __-Password__ <_string_> __-Username__ <_string_> [__-OldPassword__ <_string_>] [<_CommonParameters_>]
+__Get-PPEPasswordTest__ __-Password__ `<_string_>` __-Username__ `<_string_>` [__-OldPassword__ `<_string_>`] [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-Password__ <_string_>
+__-Password__ `<_string_>`
 
 The password to test.
 
-__-User__ <_string_>
+__-User__ `<_string_>`
 
 The username to test. Can also use __-U__ or __-u__.
 
-__-OldPassword__ <_string_>
+__-OldPassword__ `<_string_>`
 
 The old password to test.
 
-<_CommonParameters_>
+`<_CommonParameters_>`
 
 This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](/docs/password_policy_enforcer/administration/https:/go.microsoft.com/fwlink?linkid=113216).
 

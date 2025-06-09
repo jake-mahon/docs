@@ -77,7 +77,7 @@ __NOTE:__ You can also assign application permissions by editing Microsoft Entra
 
 ### Granting Admin consent to a tenant
 
-Go back to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _<tenant name>_.
+Go back to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm, click __Yes__.
 
 __NOTE:__ For Office 365 permissions, go to __Request API Permissions__ > __APIs my organization users__ and type "Office 365" in the search bar.

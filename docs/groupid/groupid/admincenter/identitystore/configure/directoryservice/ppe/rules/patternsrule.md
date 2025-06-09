@@ -13,7 +13,7 @@ The Patterns rule rejects passwords that contain character patterns such as "abc
 
 - Enable the __Reject keyboard patterns like "qwerty"__ button to enable check for keyboard patterns.
 
-  - Detect <_keyboard type_> keyboard patterns – Select keyboard layouts to set the keyboard type, Horizontal, Vertical or Horizontal and Vertical.
+  - Detect `<_keyboard type_>` keyboard patterns – Select keyboard layouts to set the keyboard type, Horizontal, Vertical or Horizontal and Vertical.
   - Detect direction change – Select this check box for entries that change direction. For example, qweewq.
   - Detect key repeat – Select the check box for repeated keys, based on the Tolerance value. If Tolerance is 4, aaaa is accepted and aaaaa is rejected.
   - Detect key skip – Select this check box for skipped keys, such as qetuo.

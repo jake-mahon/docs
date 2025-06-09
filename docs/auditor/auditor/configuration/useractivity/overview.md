@@ -55,8 +55,8 @@ Netwrix Auditor for User Activity can monitor programs executed under different 
 | Object type | Details | Description |
 | --- | --- | --- |
 | Window | None | User runs the application. |
-| Window | Application Run As: <account\_name> | Standard user runs an application under credentials of another standard user. |
-| Elevated Window | Application Run As: <account\_name> | User runs program through Run As Administrator or Accepts UAC (User Account Control) elevation prompts. |
+| Window | Application Run As: `<account_name>` | Standard user runs an application under credentials of another standard user. |
+| Elevated Window | Application Run As: `<account_name>` | User runs program through Run As Administrator or Accepts UAC (User Account Control) elevation prompts. |
 | Elevated Window | None | Administrator needs to run the program with Run as Administrator enabled. Server Manager is one of the main examples for this case. |
 
 ## Install Netwrix Auditor Agent to Audit User Activity

@@ -21,4 +21,4 @@ __Step 7 –__ In Auditor, go to Alerts, select the required alerts, click Edit,
 
 ## Enabling TLS 1.2 Usage
 
-The add-on supports Transport Layer Security (TLS) 1.2 security protocol. By default, this capability is disabled. To enable it, in the __ConnectWiseSettings.xml__, locate the __<EnableTls12>__ parameter and set its value to _TRUE_.
+The add-on supports Transport Layer Security (TLS) 1.2 security protocol. By default, this capability is disabled. To enable it, in the __ConnectWiseSettings.xml__, locate the __`<EnableTls12>`__ parameter and set its value to _TRUE_.

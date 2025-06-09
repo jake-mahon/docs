@@ -12,7 +12,7 @@ To configure removable storage media monitoring on the local server
 
    After environment variable substitution, the path shall be as follows:
 
-   _C:\ProgramData\Netwrix Auditor\Windows Server Audit\ETS_
+   `C:\ProgramData\Netwrix Auditor\Windows Server Audit\ETS`
 
    If your environment variable accesses another directory, update the path.
 2. Run the Command Prompt as Administrator.
@@ -38,7 +38,7 @@ To configure removable storage media monitoring remotely
 
    After environment variable substitution, the path shall be as follows:
 
-   _\\<target\_server\_name>\c$\ProgramData\Netwrix Auditor\Windows Server Audit\ETS_
+   `\\<target_server_name>\c$\ProgramData\Netwrix Auditor\Windows Server Audit\ETS`
 
    If your environment variable accesses another directory, update the path.
 2. Run the Command Prompt under the target server Administrator's account.

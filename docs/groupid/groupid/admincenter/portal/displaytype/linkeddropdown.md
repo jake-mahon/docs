@@ -3,7 +3,7 @@
 A linked field drop-down list is displayed in the portal as a drop-down list with multiple values. When a user selects a value, all fields linked to that value are auto populated. Since these fields remain isolated, they are not displayed to the user.
 
 Use a linked field drop-down list, for example, when you want the _Office Address, Business Phone Number, Fax Number_ and _Email_ fields to be auto populated when a user selects
-his or her office name from a drop-down list. Here, <office name> is the key value while Office Address, Business Phone Number, Fax Number and Email are its linked (isolated) fields.
+his or her office name from a drop-down list. Here, `<office name>` is the key value while Office Address, Business Phone Number, Fax Number and Email are its linked (isolated) fields.
 
 To define a linked field drop-down list:
 

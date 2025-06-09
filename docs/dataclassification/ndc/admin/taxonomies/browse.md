@@ -10,8 +10,8 @@ __NOTE:__ If a new class is selected in the treeview menu, the view will remain 
 
 You can use the Browse function to:
 
-- Identify documents that are receiving a score, but are "missing" being classified because they do not quite reach the terms threshold. For example, changing the mode to "Near Misses <20%" for a term with a threshold of 50, will find any documents that scored 40 or more, but did not reach the threshold.
-- Identify low scoring documents that are only just reaching the classification threshold. For example, changing the mode to "Low Scoring Documents <20%" for a term with a threshold of 50 will find any documents that scored between 50 and 60.
+- Identify documents that are receiving a score, but are "missing" being classified because they do not quite reach the terms threshold. For example, changing the mode to "Near Misses `<20%`" for a term with a threshold of 50, will find any documents that scored 40 or more, but did not reach the threshold.
+- Identify low scoring documents that are only just reaching the classification threshold. For example, changing the mode to "Low Scoring Documents `<20%`" for a term with a threshold of 50 will find any documents that scored between 50 and 60.
 
 [![browsetab_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/browsetab_thumb_0_0.png)](/docs/dataclassification/resources/images/browsetab.png)
 

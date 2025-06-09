@@ -25,7 +25,7 @@ By default, activity records are written to _Netwrix\_Auditor\_API_ database whi
 
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
 
-In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the _<AcceptList> ® <Address>_ configuration parameters. See the [Add-On Parameters](/docs/auditor/auditor/addon/cyberark/parameters.md) topic for additional information.
+In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the _`<AcceptList>` ® `<Address>`_ configuration parameters. See the [Add-On Parameters](/docs/auditor/auditor/addon/cyberark/parameters.md) topic for additional information.
 
 ## Configure Syslog Message Forwarding in CyberArk
 

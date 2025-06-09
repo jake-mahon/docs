@@ -21,7 +21,7 @@ The summary section shows:
   - Windows Account
   - Login SQL Authentication
   - DB SQL User with password
-- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _<not set>_ is reported.
+- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _`<not set>`_ is reported.
 - __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, when reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database\_name_.
 - __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md).
 

@@ -4,7 +4,7 @@ Long-Term Archive is a file-based repository for keeping activity records collec
 
 ## Location
 
-Long-Term Archive can be located on the same computer with Auditor Server, or separately - in this case ensure that the Auditor Server can access the remote machine. By default, the Long-Term Archive (repository) and Auditor working folder are stored on the system drive. Default path to the Long-Term Archive is _%ProgramData%\NetwrixAuditor\Data_.
+Long-Term Archive can be located on the same computer with Auditor Server, or separately - in this case ensure that the Auditor Server can access the remote machine. By default, the Long-Term Archive (repository) and Auditor working folder are stored on the system drive. Default path to the Long-Term Archive is `%ProgramData%\NetwrixAuditor\Data`.
 
 To reduce the impact on the system drive in large and extra-large environments, it is recommended to move Long-Term Archive to another disk. For that, you should estimate the required capacity using recommendations in the next section.
 
@@ -83,11 +83,11 @@ Follow the steps to assign permissions on the Long-Term Archive folder:
 
 __Step 1 –__ Navigate to a folder where the Long-Term Archive will be stored, right-click it and select Properties.
 
-__Step 2 –__ In the __<Folder\_name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 2 –__ In the __`<Folder_name>` Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
 __Step 3 –__ In the Advanced Security dialog, select the Permissions tab and click Add.
 
-__Step 4 –__ In the Permission Entry for <Folder\_Name> dialog, apply the following settings:
+__Step 4 –__ In the Permission Entry for `<Folder_Name>` dialog, apply the following settings:
 
 - Specify an account as principal.
 - Set Type to _"Allow"_.
@@ -112,17 +112,17 @@ Follow the steps to assign the __Change__ and __Create Files/Write Data__ permis
 
 __Step 1 –__ Navigate to a folder where report subscriptions will be stored, right-click it and select Properties.
 
-__Step 2 –__ In the __<Share\_Name> Properties__ dialog, select the __Sharing__ tab and click __Advanced Sharing__.
+__Step 2 –__ In the __`<Share_Name>` Properties__ dialog, select the __Sharing__ tab and click __Advanced Sharing__.
 
 __Step 3 –__ In the Advanced Sharing dialog, click Permissions.
 
-__Step 4 –__ In the Permissions for <Share\_Name> dialog, select a principal or add a new, then check the Allow flag next to Change.
+__Step 4 –__ In the Permissions for `<Share_Name>` dialog, select a principal or add a new, then check the Allow flag next to Change.
 
-__Step 5 –__ Apply settings and return to the __<Share\_Name> Properties__ dialog.
+__Step 5 –__ Apply settings and return to the __`<Share_Name>` Properties__ dialog.
 
-__Step 6 –__ In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 6 –__ In the __`<Share_Name>` Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
-__Step 7 –__ In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Permissions__ tab, select a principal and click Edit, or click Add to add a new one.
+__Step 7 –__ In the __Advanced Security Settings for `<Share_Name>`__ dialog, navigate to the __Permissions__ tab, select a principal and click Edit, or click Add to add a new one.
 
 __Step 8 –__ Apply the following settings to your Permission Entry.
 
@@ -135,6 +135,6 @@ The users who are going to access report subscriptions must be granted read acce
 
 ## System Health
 
-Long-Term Archive is a file-based storage where Auditor saves the collected activity records. By default, it is located on the system drive at _%PROGRAMDATA%\Netwrix Auditor\Data_ and keeps data for 120 months. You may want to modify these settings, for example, move the storage from the system drive to another location. The Long-Term Archive widget will help you to monitor the Long-Term Archive capacity. The widget displays the current size and daily increase of the Long-Term Archive, and the remaining free space on the target drive.
+Long-Term Archive is a file-based storage where Auditor saves the collected activity records. By default, it is located on the system drive at `%PROGRAMDATA%\Netwrix Auditor\Data` and keeps data for 120 months. You may want to modify these settings, for example, move the storage from the system drive to another location. The Long-Term Archive widget will help you to monitor the Long-Term Archive capacity. The widget displays the current size and daily increase of the Long-Term Archive, and the remaining free space on the target drive.
 
 To open the Long-Term Archive settings, click the corresponding link. Then you will be able to adjust the settings as necessary. See the [Long-Term Archive](/docs/auditor/auditor/admin/settings/longtermarchive.md) topic for additional information.

@@ -11,7 +11,7 @@ The file must be formatted in accordance with XML standard. The following symbol
 | &  e.g., Ally & Sons | &amp;  e.g., Ally &amp; Sons |
 | "  e.g., Domain1\Users\"Stars" | &quot;  e.g., Domain1\Users\&quot;Stars&quot; |
 | ' e.g., Domain1\Users\O'Hara | &apos;  e.g., Domain1\Users\O&apos;Hara |
-| <  e.g., CompanyDC<100 | &lt;  e.g., CompanyDC&lt;100 |
+| <  e.g., CompanyDC`<100` | &lt;  e.g., CompanyDC&lt;100 |
 | >  e.g., ID>500 | &gt;  e.g., ID&gt;500 |
 
 Also, Netwrix allows transferring data in JSON format (organized as name and value pairs). JSON file must be formatted in accordance with JSON specification. Special characters in JSON strings must be preceded with the \ character: " (double quotes), / (slash), \ (backslash). E.g., "\\local\\enterprise\\Users\\Jason Smith". Trailing comma is not supported.

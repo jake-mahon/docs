@@ -32,7 +32,7 @@ Follow the steps to create a Group Policy
 
 __Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
 
-__Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> → Domain →__ __<domain\_name>, right-click <OU\_name>__ and select __Create a GPO in this domain and Link it here__.
+__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` → Domain →__ __`<domain_name>`, right-click `<OU_name>`__ and select __Create a GPO in this domain and Link it here__.
 
 ![winserver2016_ou_gpo_for_deploy](/img/product_docs/auditor/auditor/install/winserver2016_ou_gpo_for_deploy.png)
 

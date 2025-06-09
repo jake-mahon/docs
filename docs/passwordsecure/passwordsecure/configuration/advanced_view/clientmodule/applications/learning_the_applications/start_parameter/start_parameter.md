@@ -31,7 +31,7 @@ The application is then linked with the following password:
 
 When the Salamander application is started, the placeholder is replaced by the field names. Therefore, instead of
 
-__-L {field:Left Path} -R {field:Right Path}__
+__-L `{field:Left Path}` -R `{field:Right Path}`__
 
 the following start parameters are transferred:
 

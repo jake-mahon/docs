@@ -20,21 +20,16 @@ __NOTE:__ If Auditor ITSM Integration Service is running, stop it before modifyi
 
 __Step 4 –__ Open this XML file for edit and add the following section:
 
+```xml
 <system.net>
-
-<defaultProxy>
-
-<proxy
-
-proxyaddress="http://<ip\_address>:<port>"
-
-usesystemdefault="True"
-
-autoDetect="False" />
-
-</defaultProxy>
-
+  <defaultProxy>
+    <proxy
+      proxyaddress="http://<ip_address>:<port>"
+      usesystemdefault="True"
+      autoDetect="False" />
+  </defaultProxy>
 </system.net>
+```
 
 Here:
 

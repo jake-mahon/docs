@@ -18,21 +18,21 @@ To configure you Juniper devices, do the following:
 
    # configure
 
-   # set system syslog host <host address> any info
+   # set system syslog host `<host address>` any info
 
-   where ```<host address>``` is the IP address of the computer where Netwrix Auditor Server is installed.
+   where `<host address>` is the IP address of the computer where Netwrix Auditor Server is installed.
 
-   # set system syslog host <host address> port <port name>
+   # set system syslog host `<host address>` port `<port name>`
 
    where
 
-   ```<host address>``` is the IP address of the computer where Netwrix Auditor Server is installed
+   `<host address>` is the IP address of the computer where Netwrix Auditor Server is installed
 
    AND
 
-   ```<port number>``` is the name of the UDP port used to listen to network devices (514 port used by default). [Network Devices](/docs/auditor/auditor/admin/monitoringplans/networkdevices.md)
+   `<port number>` is the name of the UDP port used to listen to network devices (514 port used by default). [Network Devices](/docs/auditor/auditor/admin/monitoringplans/networkdevices.md)
 
-   # set system syslog time-format <current year>
+   # set system syslog time-format `<current year>`
 
    # commit
 

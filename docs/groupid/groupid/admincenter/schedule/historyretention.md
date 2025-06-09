@@ -37,7 +37,7 @@ Step 3 – Click __Schedules__ under Settings in the left pane.
 Step 4 – On the Schedules page, click the plus sign next to __History Retention__. Then click the ellipsis button for the schedule and select __Edit__.
 
 Step 5 – On the Edit Schedule page, the schedule name is displayed in the Schedule Name box as read-only.  
-The default name format is: _HistoryRetention\_<identity store ID>\_<identity store name>_.
+The default name format is: _HistoryRetention\_`<identity store ID>`\_`<identity store name>`_.
 
 Step 6 – The Name Preview box displays the schedule name as HistoryRetention; the schedule is displayed with this name in email notifications.
 

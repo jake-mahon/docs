@@ -19,13 +19,13 @@ Do one of the following depending on the OS:
 ## To configure audit settings for the CIFS file shares from computers running pre-Windows Server 2012 versions
 
 1. Navigate to the root share folder, right-click it and select __Properties__.
-2. In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+2. In the __`<Share_Name>` Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
    If there is no such tab, it means a wrong security style has been specified for the volume holding this file share.
-3. In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Auditing__ tab, click Edit.
+3. In the __Advanced Security Settings for `<Share_Name>`__ dialog, navigate to the __Auditing__ tab, click Edit.
 
    ![auditing_entries_netapp](/img/product_docs/auditor/auditor/configuration/fileservers/netappcmode/auditing_entries_netapp.png)
-4. In a separate __Advanced Security Settings for <Share\_Name>__ dialog, click Add to add a principal. You can also select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
+4. In a separate __Advanced Security Settings for `<Share_Name>`__ dialog, click Add to add a principal. You can also select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 
    You can specify any other user group, but in this case Netwrix Auditor will send emails with warnings on incorrect audit configuration. This will not affect the Reports functionality and the product will only audit user accounts that belong to the selected group.
 5. Apply settings to your Auditing Entries depending on actions that you want to audit. If you want to audit all actions (successful reads and changes as well as failed read and change attempts), you need to add three separate Auditing Entries for each file share. Otherwise, reports will contain limited data and warning messages.
@@ -44,14 +44,14 @@ Do one of the following depending on the OS:
 ## To configure audit settings for the CIFS file shares from computers running Windows Server 2012 and above
 
 1. Navigate to the root shared folder, right-click it and select Properties.
-2. In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+2. In the __`<Share_Name>` Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
    If there is no such tab, it means a wrong security style has been specified for the volume holding this file share.
-3. In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Auditing__ tab, click Edit.
+3. In the __Advanced Security Settings for `<Share_Name>`__ dialog, navigate to the __Auditing__ tab, click Edit.
 
    ![auditing_entries_netapp_2016](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
 4. Click Add to add a new principal. You can also select Everyone (or another user-defined group containing users that are granted special permissions) and click Edit.
-5. In the Auditing Entry for <Folder\_Name> dialog, click the Select a principal link and specify Everyone.
+5. In the Auditing Entry for `<Folder_Name>` dialog, click the Select a principal link and specify Everyone.
 
    You can specify any other user group, but in this case Netwrix Auditor will send emails with warnings on incorrect audit configuration. In this case, the product will only monitor user accounts that belong to the selected group.
 6. Apply settings to your Auditing Entries depending on actions that you want to audit. If you want to audit all actions (successful reads and changes as well as failed read and change attempts), you need to add three separate Auditing Entries for each file share. Otherwise, reports will contain limited data and warning messages. Review the following for additional information:

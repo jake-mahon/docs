@@ -27,7 +27,7 @@ __Step 3 –__ Navigate to __Relying Party Trusts__ and click __Add Relying Part
 
 ![Add an Endpoint window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/addanendpointwindow.png)
 
-__Step 4 –__ Double-click on the newly added relying party trust to open it's Properties window. Navigate to the Endpoints tab and click __Add WS-Federation__. On the Add an Endpoint window, add ```https://<FQDN of the web server>:<port number>/federation``` as the Trusted URL, then click __OK__.
+__Step 4 –__ Double-click on the newly added relying party trust to open it's Properties window. Navigate to the Endpoints tab and click __Add WS-Federation__. On the Add an Endpoint window, add ```https://`<FQDN of the web server>`:`<port number>`/federation``` as the Trusted URL, then click __OK__.
 
 - For example, ```https://app0190.train90.local:8082/federation```
 

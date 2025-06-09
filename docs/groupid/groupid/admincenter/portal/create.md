@@ -105,18 +105,18 @@ __To create a portal:__
     If you are upgrading to Directory Manager 11 from GroupID 9 or GroupID 10, you can import the design settings for an identity store from a Self-Service portal in a previous version - as an alternate to defining these settings from scratch. Following are the details of the file containing identity store design settings for a Self-Service portal in GroupID
     9 and 10:
 
-    __Design file name:__ <Identity store name>..xml.
+    __Design file name:__ `<Identity store name>`..xml.
       
     For example: ADStore.xml   
      A separate design file exists for each identity store linked with a Self-Service portal.
       
-    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Design\  
+    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\Design\  
      For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\
 
     Similarly, a separate file exists for each linked combo created in the Self-Service portal.   
     __Linked combo file name:__ The file has the same name as that of the linked combo in the portal.for example, Country-State.xml  
     __File location in GroupID 9/10:__ All linked combo files, regardless of the identity store they are used for, are available at the following path:  
-    [GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Web\LinkedCombo\  
+    [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\Web\LinkedCombo\  
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Web\LinkedCombo\
 
     __To import the design file and linked combo file(s), do the following:__
@@ -132,7 +132,7 @@ __To create a portal:__
     9 and 10:
 
     __File name:__ server.xml. A separate file exists for each Self-Service portal.  
-    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\  
+    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\  
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\
 
     __To import the file, do the following:__

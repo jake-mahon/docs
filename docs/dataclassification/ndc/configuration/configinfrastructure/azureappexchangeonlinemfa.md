@@ -66,7 +66,7 @@ Finally, you need to grant admin consent to the tenant (that is, for Exchange or
 
 Do the following:
 
-1. Go to the new app settings > __API permissions__ and click __Grant admin consent for _<tenant name>___.
+1. Go to the new app settings > __API permissions__ and click __Grant admin consent for _`<tenant name>`___.
 2. When prompted to confirm granting, click __Yes.__
 
 ## Step 4: Configure Certificates & secrets

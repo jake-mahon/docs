@@ -12,10 +12,11 @@ The account configured in the storage profile to be used by Access Analyzer to a
 
 ___RECOMMENDED:___ The account used by Access Analyzer should have database owner (DBO) level access to the database.
 
-If database owner rights cannot be obtained, the following SQL script can be executed by a database administrator (DBA) against the Access Analyzer database to grant the necessary permissions to the appropriate users (replacing ```<SA User ID>``` and ```<SA Database>``` with the appropriate values):
+If database owner rights cannot be obtained, the following SQL script can be executed by a database administrator (DBA) against the Access Analyzer database to grant the necessary permissions to the appropriate users (replacing `<SA User ID>` and `<SA Database>` with the appropriate values):
 
-```
-USE [master]GRANT VIEW ANY DEFINITION TO [<SA User ID>]  
+```sql
+USE [master]
+GRANT VIEW ANY DEFINITION TO [<SA User ID>]  
 GO  
 USE [<SA Database>]  
 GO  

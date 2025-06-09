@@ -29,10 +29,12 @@ __On the target SharePoint farm:__
 
 The account that runs Netwrix Auditor for SharePoint Core Service installation must be granted the SharePoint\_Shell\_Access role on SharePoint SQL Server configuration database. If you select to deploy the Netwrix Auditor for SharePoint Core Service automatically when configuring auditing in Netwrix Auditor, the installation will be performed under the account specified for data collection.
 
-1. In your SharePoint server, click Start → Microsoft SharePoint Products <version> SharePoint Management Shell.
+1. In your SharePoint server, click Start → Microsoft SharePoint Products `<version>` SharePoint Management Shell.
 2. Execute the following command:
 
-    ```Add-SPShellAdmin –UserName <domain\user>```
+    ```
+    Add-SPShellAdmin –UserName <domain\user>
+    ```
 
 ## Define Log On As a Service Policy
 

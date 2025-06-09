@@ -57,7 +57,7 @@ __Step 7 –__ You need to manually export the Netwrix Auditor server certificat
 2. __Click File > Add/Remove Snap-in...__ and locate Certificates icon.
 3. In the pop-up window, select the __Computer account__ and click __Next__.
 4. Make sure that the __Local Computer__ option is selected in the next window, then click __Finish__. The Certificates menu will appear.
-5. Go to __Certificates (Local Computer) > Personal > Certificates > {Certificate Name}__ and click __Export__.
+5. Go to __Certificates (Local Computer) > Personal > Certificates > `{Certificate Name}`__ and click __Export__.
 6. After successful export, copy the certificate to the machine where Netwrix Privilege Secure is installed.
 
 __Step 8 –__ Install the certificate on the machine where Netwrix Privilege Secure is installed. To do so, follow the steps below:

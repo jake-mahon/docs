@@ -6,7 +6,7 @@ __Step 1 –__ On your file server, create a new file system where the security 
 
 __Step 2 –__ Mount this file system on a mount point, e.g., __/events__.
 
-__Step 3 –__ Make sure that it is accessible via the __\\<file\_server\_name>\C$\events__ UNC path.
+__Step 3 –__ Make sure that it is accessible via the __\\`<file_server_name>`\C$\events__ UNC path.
 
 __Step 4 –__ On the computer where Auditor Server is installed, open __Registry Editor__: navigate to __Start → Run__ and type _"regedit"_.
 

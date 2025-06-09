@@ -94,7 +94,7 @@ Read access is reported for documents and lists and displays "Not applicable" in
 | List | - Permissions\*\*\* - Permission Inheritance\*\*\* |
 | List Item | - Attachments  - Permissions\*\*\* - Permission Inheritance\*\*\* - List Item Properties\* |
 | Document | - Document URL  - Permissions\*\*\* - Permission Inheritance\*\*\* - Document Properties\* - Content Modifications\* |
-| Farm\*\* | - Configuration Database - Configuration Database Server - Version - Managed Account for "Web Application Pool - {name}" - Managed Account for "Service Application Pool - {name}" - Managed Account for "Windows Service - {name}" - Managed Account for "Farm Account" - Managed Accounts |
+| Farm\*\* | - Configuration Database - Configuration Database Server - Version - Managed Account for "Web Application Pool - `{name}`" - Managed Account for "Service Application Pool - `{name}`" - Managed Account for "Windows Service - `{name}`" - Managed Account for "Farm Account" - Managed Accounts |
 | Web Application \*\* | - Web Application URL - Name - Port - User Permissions - Alternate Access Mappings - Content Database - Blocked File Extensions |
 | Site Collection\*\* | - Site Collection URL - Content Database - Content Database Server - Site Storage Maximum Limit - Site Storage Warning Limit - Sandboxed Solutions Resource Maximum Quota - Sandboxed Solutions Resource Warning Quota - Quota Template - Lock Status |
 | Server\*\* | - Name |

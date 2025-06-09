@@ -23,19 +23,19 @@ You run a PowerShell command to create an SSL binding. The binding command has s
 
 If you need to find the ```$certHash``` value of a certificate that was already created, run the PowerShell ```dir``` command below on the certificate's drive. This will output the Thumbprint (Hash) value and the certificate name:
 
+```powershell
 dir cert:\localmachine\my
+```
 
 Replace the environmental variables in the example script below. Then Run the PowerShell command to create an SSL binding:
 
+```powershell
 $guid = "1be32670-7644-4dce-9a5d-01643022074e"
-
 $certHash = "03CFD5D51A0DAA2F3DCDA9407486B220449D0E92"
-
 $ip = "0.0.0.0"
-
 $port = "481"
-
 "http add sslcert ipport=$($ip):$port certhash=$certHash appid={$guid}" | netsh
+```
 
 The next step is to modify the ```AccessInformationCenter.Service.exe.Config``` file.
 

@@ -49,7 +49,7 @@ By default, the add-on will run under the _Local System_ account. The add-on and
 ### Considerations and Limitations
 
 - The Add-On must be deployed in the same subnet as Nasuni NAS & File Server Silo Consolidation and Auditor.
-- If the monitoring plan name in the _<NetwrixAuditorPlan>_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
+- If the monitoring plan name in the _`<NetwrixAuditorPlan>`_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
 - If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and you should specify another port when configuring the add-on settings (see the [Install Add-On](/docs/auditor/auditor/addon/nasuni/install.md) and [Define Parameters](/docs/auditor/auditor/addon/nasuni/parameters.md) topics for additional information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice

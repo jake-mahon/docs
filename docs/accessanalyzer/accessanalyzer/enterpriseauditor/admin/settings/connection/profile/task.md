@@ -9,7 +9,7 @@ The information in this section applies to Select Account Type > Task (Local) or
 The required credentials for Task (Local) and Task (Domain) are:
 
 - Domain
-  - Local – Not a field for this type of credential, defaults to <TASK>
+  - Local – Not a field for this type of credential, defaults to `<TASK>`
   - Domain – Drop-down menu with available trusted domains displays. Either type the short domain name in the textbox or select a domain from the menu.
 - User name – Type the user name
 - Password Storage: Application – Uses the configured Profile Security setting as selected at the __Settings > Application__ node

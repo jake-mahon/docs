@@ -23,12 +23,12 @@ __Step 4 –__ In your application, go to __Manage__ > __Single sign-on__. Selec
 
 __Step 5 –__ On the Set up Single Sign-On with SAML page, click __Edit__ on the Basic SAML Configuration section. Add your Identifier and Reply URL, and then click __Save__.
 
-- As the Identifier, enter ```https://<FQDN of web server>:<port number>```, for example:
+- As the Identifier, enter ```https://`<FQDN of web server>`:`<port number>` ```, for example:
 
   ```
   https://app0190.train90.local:8082
   ```
-- As the Reply URL, enter ```https://<FQDN of web server>:<port number>/federation```, for example:
+- As the Reply URL, enter ```https://`<FQDN of web server>`:`<port number>`/federation```, for example:
 
   ```
   https://app0190.train90.local:8082/federation

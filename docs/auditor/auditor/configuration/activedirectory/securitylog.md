@@ -11,7 +11,7 @@ To read about event log settings recommended by Microsoft, refer to the followin
 To increase the maximum size of the Security event log and set its retention method
 
 1. Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
-2. In the left pane, navigate to __Forest: <forest\_name> > Domains > <domain\_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+2. In the left pane, navigate to __Forest: `<forest_name>` > Domains > `<domain_name>`__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 3. Navigate to __Computer Configuration > Policies > Windows Settings > Security Settings > Event Log__ and double-click the __Maximum security log size__ policy.
 
    ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.png)

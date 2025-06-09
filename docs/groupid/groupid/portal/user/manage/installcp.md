@@ -19,13 +19,13 @@ Browse to the folder where you have copied the package:
 
    Let’s have a look at the settings which are available in the _CPsettings.xml_ file:
 
-   - <ForgetPasswordText value="Forget Password?" />
+   - `<ForgetPasswordText value="Forget Password?" />`
 
      Provide the text for the ForgotPasswordText key. This text will appear on the Windows logon screen for the Forgot Password option.
-   - <UnlockAccountText value="Unlock Account" />
+   - `<UnlockAccountText value="Unlock Account" />`
 
      Provide the text for the UnlockAccountText key. This text will appear on the Windows logon screen for Unlock Account option.
-   - <ResetMyPasswordUrl value="https://MachineName:port/Portalname" />
+   - `<ResetMyPasswordUrl value="https://MachineName:port/Portalname" />`
 
      Provide the URL to which you want to redirect the user to reset his/her forgotten password.
 
@@ -33,7 +33,7 @@ Browse to the folder where you have copied the package:
        https://MachineName:port/portalname
      - __For GroupID 11__:  
        https://Machniename:port/portalname/Home/PasswordReset
-4. <UnlockMyAccountUrl value="https://MachineName:port/Portalname" />
+4. `<UnlockMyAccountUrl value="https://MachineName:port/Portalname" />`
 
    Provide the URL to which you want to redirect the user to unlock his/her locked account.
 
@@ -43,7 +43,7 @@ Browse to the folder where you have copied the package:
    - __For GroupID 11:__
        
      https://Machinename:port/portalname/Home/UnlockAccount
-5. <CPTitle value="Log on to: Netwrix GroupID" />
+5. `<CPTitle value="Log on to: Netwrix GroupID" />`
 
    Provide the text for the CPTitle key. This text will appear as title under the Netwrix logo on the Windows logon screen.
 

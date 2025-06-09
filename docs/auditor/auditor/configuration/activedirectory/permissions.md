@@ -41,7 +41,7 @@ The following is required if auto-backup is enabled for the domain controller ev
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange\_server\_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with _`domain\Exchange_server_name$`_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ### Target Domain
 
@@ -74,7 +74,7 @@ You will also need to configure Exchange Administrator Audit Logging (AAL) setti
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange\_server\_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with _`domain\Exchange_server_name$`_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ## Configure the Manage Auditing and Security Log Policy
 
@@ -84,7 +84,7 @@ Follow the steps to configure the Manage Auditing and Security Log Policy.
 
 __Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
 
-__Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> > Domains > <domain\_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` > Domains > `<domain_name>`__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 
 __Step 3 –__ In the __Group Policy Management Editor__ dialog, expand the __Computer Configuration__ node on the left and navigate to __Policies > Windows Settings > Security Settings > Local Policies.__
 
@@ -166,7 +166,7 @@ Follow the steps to configure the Log On As a Batch Job policy using the Group P
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) > Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> > Domains > <domain name> > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the Default Domain Controllers Policy), and select Edit.
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` > Domains > `<domain name>` > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the Default Domain Controllers Policy), and select Edit.
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies > Windows Settings > Security Settings > Local Policies.
 

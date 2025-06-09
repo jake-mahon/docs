@@ -15,7 +15,7 @@ To configure your SonicWall devices, do the following:
 
 To configure SonicWall Web Application Firewall
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:84443_, where IP address is the IP of the device and 84443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:84443_, where IP address is the IP of the device and 84443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate to Log → Settings and configure the following:
 
@@ -38,7 +38,7 @@ To configure SonicWall Web Application Firewall
 
 To configure SonicWall SMA
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:8443_, where IP address is the IP of the device and 8443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:8443_, where IP address is the IP of the device and 8443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate Log → Settings and configure the following:
 
@@ -61,7 +61,7 @@ To configure SonicWall SMA
 
 To configure SonicWall NS series
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:443_, where IP address is the IP of the device and 443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:443_, where IP address is the IP of the device and 443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate to Manage → Log Settings → Base Setup.
 4. Select all checkboxes in the Syslog column.

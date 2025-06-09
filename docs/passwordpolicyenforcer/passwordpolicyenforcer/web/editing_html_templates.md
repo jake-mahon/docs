@@ -23,7 +23,7 @@ The en\_default.htm contains static HTML, but the other .htm files contain speci
 
 Password Policy Enforcer Web deletes ranges (and the text inside them) when they are not needed. Some ranges span only one word, while others span several lines. The other type of comment tag is called a field.
 
-<!--USERNAME-->
+`<!--USERNAME-->`
 
 Fields are replaced by some other information. For example, the field above is replaced with a username.
 
@@ -37,7 +37,7 @@ Templates end with a resource string section.
 
 @RES\_EMPTY\_FIELD\_DOMAIN:    Enter your domain name in the Domain box.
 
---><!--/RESOURCE\_STRINGS-->
+`--><!--/RESOURCE_STRINGS-->`
 
 Resource strings are mostly validation error messages, but they can contain any text Password Policy Enforcer Web may need to build the page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Policy Enforcer Web deletes this range before sending the page to the user's web browser.
 
@@ -61,17 +61,17 @@ Instructions appear at the top of the Password Change page in the white section 
 
 Instructions are inside ranges called SECTION\_A and SECTION\_B. Each section contains the instructions for a page in the template. Make sure you edit the instructions in the correct section, or they may be displayed on the wrong page.
 
-<!--SECTION\_A-->
+`<!--SECTION_A-->`
 
-<p>Enter your username and domain, and then click Next to continue…
+`<p>Enter your username and domain, and then click Next to continue…`
 
-<!--/SECTION\_A-->
+`<!--/SECTION_A-->`
 
-<!--SECTION\_B-->
+`<!--SECTION_B-->`
 
-<p>Enter your old and new passwords in the text boxes below.</p>
+`<p>Enter your old and new passwords in the text boxes below.</p>`
 
-<!--/SECTION\_B-->
+`<!--/SECTION_B-->`
 
 ### Edit Validation Error Messages
 
@@ -101,11 +101,13 @@ You may see placeholders like %1 and %2 in some error messages. These are replac
 | @RES\_ACCOUNT\_LOCKED\_OUT | Your account is currently locked out. Try aga… |
 | @RES\_LICENSE\_MISSING | License reminder. Your password was not chang… |
 
-If you want to display some text for all error messages, then insert your text above or below the ```<p><!--ERROR--></p>``` line. For example:
+If you want to display some text for all error messages, then insert your text above or below the `<p>{/*ERROR*/}</p>` line. For example:
 
-<p><!--ERROR--></p>
+```html
+`<p>{/*ERROR*/}</p>`
 
-<p>The help desk phone number is 555-555-5555.</p>
+`<p>The help desk phone number is 555-555-5555.</p>`
+```
 
 ### Edit Finished Message
 
@@ -113,9 +115,9 @@ The finished message is shown after users successfully change their password. Th
 
 ![editing_the_html_templates_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/editing_the_html_templates_1.png)
 
-<h1>Finished</h1>
+`<h1>Finished</h1>`
 
-<p>Your password has been changed. You can now logon with your new pass…
+`<p>Your password has been changed. You can now logon with your new pass…`
 
 ### Change Font Sizes and Colors
 

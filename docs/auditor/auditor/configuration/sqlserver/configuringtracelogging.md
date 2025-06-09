@@ -22,7 +22,7 @@ Each entry must be a separate line. Lines that start with the # sign are treated
 With trace logging disabled, the "Who", "Workstation" and "When" values will be not reported correctly by Netwrix Auditor (except for content changes).
 
 By default, SQL Server trace logs will be stored in the predefined location (depending on the SQL Server version).
-For example, SQL Server 2019 error logs are located at _<drive>:\Program Files\Microsoft SQL Server\MSSQL13.<InstanceName>\MSSQL\Log_.
+For example, SQL Server 2019 error logs are located at _`<drive>`:\Program Files\Microsoft SQL Server\MSSQL13.`<InstanceName>`\MSSQL\Log_.
 
 You can change this default location, using the _pathstotracelogs.txt_ file.
 
