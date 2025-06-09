@@ -4,7 +4,7 @@ The Complexity rule rejects passwords that do not contain characters from a vari
 
 - Enable the __Characters (Complexity)__ button to enable the Character Complexity rule.
 
-- Must contain characters from at least <number> of character sets – Select the number of required character sets. Passwords are rejected if they do not contain characters from at least the specified number of character sets.
+- Must contain characters from at least `number` of character sets – Select the number of required character sets. Passwords are rejected if they do not contain characters from at least the specified number of character sets.
 
 - Select the available character sets. The number of available character sets must be equal to or greater than the number of required character sets.
 

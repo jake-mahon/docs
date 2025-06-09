@@ -33,7 +33,7 @@ __To configure a Power Automate client for an identity store:__
    - __Organization Code__ - the unique name for the environment that stores your flows in Power Automate.
    - __Region__ - the location of your environment.
    - __Directory Manager Data Service URL__ - the URL of the Data service. Requests from Power Automate will communicate with the Data service endpoint. The URL is as:  
-     https://<GroupID server name>/<Data service name>  
+     `https://<GroupID server name>/<Data service name>`
      For example:  
      https://powerautomate-netwrix1.msappproxy.net/groupiddataservice
    - __Tenant ID__ - the tenant ID assigned to the Directory Manager application when you registered it in Microsoft Entra Admin Center.

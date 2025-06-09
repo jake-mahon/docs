@@ -18,6 +18,4 @@ __Step 3 –__ On the final page select __Scope__ > __User and System Processes_
 
 Tip: It's also possible to use Scope Filter = SERVICES to make the rule apply to all services that run from the specified .exe, regardless of the user.
 
-[![A screenshot of a computer
-
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/7f83c3a3-6e8a-49b6-80a9-0ef07ab2882f/faq-img-15.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.png)

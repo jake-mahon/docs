@@ -4,7 +4,7 @@ Netwrix Data Classification identifies and classifies sensitive and business-cri
 
 You can view the app architecture and components in the figure below.
 
-[![how_it_works_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/how_it_works_thumb_0_0.png)](/docs/dataclassification/resources/images/style/how_it_works.png)
+![how_it_works_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/how_it_works_thumb_0_0.png)
 
 1. The user adds data sources using the NDC Management web console (Netwrix Data Classification program).
 

@@ -41,6 +41,6 @@ __Step 4 –__ If you are using a PowerShell-based add-on, run it from a command
 
 __Step 5 –__ Review the add-on operation results. For example, if you are using the add-on that imports data to Netwrix Auditor, you can search Activity Records in the Netwrix Auditor client.
 
-[![api_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_thumb_0_0.png)](/docs/auditor/resources/images/auditor/search/api.png)
+![api_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_thumb_0_0.png)
 
 __Step 6 –__ (optional) For PowerShell based add-ons, you can schedule a daily task to ensure your audit data is always up-to-date.

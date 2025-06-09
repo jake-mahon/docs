@@ -24,7 +24,7 @@ Netwrix recommends limiting the input Activity Records file to 50MB and maximum 
 | Request Status | Response |
 | --- | --- |
 | Success | The HTTP status code in the response header is 200 OK and the body is empty. ``` HTTP/1.1 200 OK `````` Server: Microsoft-HTTPAPI/2.0 `````` Content-Length: 0 `````` Content-Type: text/plain `````` Date: Fri, 08 Apr 2017 13:56:22 GMT ``` |
-| Error | The header status code is an error code. Depending on the error code, the response body may contain an error object. [See Response Status Codes for more information.](/docs/auditor/auditor/api/responsecodes.md) |
+| Error | The header status code is an error code. Depending on the error code, the response body may contain an error object. [See Response Status Codes for more information.](/docs/auditor/auditor/api/responsestatuscodes.md) |
 
 ## Usage Example—Write Data
 
@@ -59,7 +59,7 @@ __Step 3 –__ Send more POST requests containing Activity Records if necessary.
 
 __Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity\_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
 
-[![apiactivity_thumb_0_0](/img/product_docs/auditor/auditor/api/apiactivity_thumb_0_0.png)](/docs/auditor/resources/images/auditor/search/apiactivity.png)
+![apiactivity_thumb_0_0](/img/product_docs/auditor/auditor/api/apiactivity_thumb_0_0.png)
 
 __Step 5 –__ For input Activity Records, the data source is set to Netwrix API.
 

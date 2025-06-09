@@ -4,7 +4,7 @@ Consider a situation when a password is reset for a user, computer, or __inetOrg
 
 After deploying and configuring the add-on as described in this guide, the MSP (Managed Service Providers) staff member enabled Auditor integration feature:
 
-[![Integration API Settings](/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.png)](/docs/auditor/resources/images/auditor/settings/integrations.png)
+![Integration API Settings](/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.png)
 
 Also, she enabled the ‘__Password Reset__’ alert from the Auditor predefined set of alerts and specified the add-on launch as response action.
 

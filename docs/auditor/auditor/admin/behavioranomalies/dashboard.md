@@ -8,7 +8,7 @@ To review the Behavior Anomalies dashboard:
 
 On the main Auditor page, click ![ba_tile](/img/product_docs/auditor/auditor/admin/behavioranomalies/ba_tile.png) on the left.
 
-[![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/auditor/resources/images/auditor/behavioranomalies/dashboard.png)
+![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)
 
 The dashboards includes the following sections:
 

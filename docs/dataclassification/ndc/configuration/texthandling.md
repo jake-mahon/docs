@@ -15,7 +15,7 @@ This section contains information on how to configure text processing. Related o
 
 Sometimes an application may wish to push selected documents to the top of a hitlist for specific queries. This may be implemented by specifying Best Bets for specific query text.
 
-[![configbestbets_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configbestbets_thumb_0_0.png)](/docs/dataclassification/resources/images/configbestbets.png)
+![configbestbets_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configbestbets_thumb_0_0.png)
 
 First, enter the search term that you wish to match and then click the Add button.
 
@@ -37,13 +37,13 @@ The methods can be easily altered by clicking Edit and then selecting the prefer
 
 If you have updated the extraction method we recommend re-processing any documents that have already been processed to ensure consistency. Selecting Re-index from the grid for the affected content type will re-process the necessary records.
 
-[![configcontenttypeextractionmethods_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextractionmethods_thumb_0_0.png)](/docs/dataclassification/resources/images/configcontenttypeextractionmethods.png)
+![configcontenttypeextractionmethods_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextractionmethods_thumb_0_0.png)
 
 [](#)[Language Detection](#Language-Detection)
 
 The language detection list specifies which languages will be considered for auto-detection.
 
-[![configlanguages_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configlanguages_thumb_0_0.png)](/docs/dataclassification/resources/images/configlanguages.png)
+![configlanguages_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configlanguages_thumb_0_0.png)
 
 If a language is excluded then it cannot be used to identify the language of a document and it will be removed from the language options in Taxonomy Manager.
 
@@ -53,7 +53,7 @@ __TIP:__ You can also OCR recognition for non-English images. Refer to the follo
 
 The No Stem list offers the ability to disable language stemming for a particular word or phrase, this supports the ability to always apply a phrasematch when a particular term is used as either a clue – or a search term.
 
-[![confignostem_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/confignostem_thumb_0_0.png)](/docs/dataclassification/resources/images/confignostem.png)
+![confignostem_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/confignostem_thumb_0_0.png)
 
 [](#)[OCR Language Mapping](#OCR-Language-Mapping)
 
@@ -73,7 +73,7 @@ Many HTML web pages contain navigation information and other extraneous informat
 
 The Text Patterns feature is provided to assist with the cleanup of HTML documents. TextPatterns can also be used to index terms that would normally be discarded.
 
-[![configtextpatterns_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configtextpatterns_thumb_0_0.png)](/docs/dataclassification/resources/images/configtextpatterns.png)
+![configtextpatterns_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configtextpatterns_thumb_0_0.png)
 
 The StartTag and EndTag values are case sensitive strings used to identify the content to be managed, the content is then managed based on the filter type.
 

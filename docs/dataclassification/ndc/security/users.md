@@ -6,7 +6,7 @@ By default, no user roles are defined, and usage of the administrative functions
 
 The following types of authentication mechanisms are supported: Windows, ADFS, Azure AD and Forms.
 
-[![users_main_page_thumb_0_0](/img/product_docs/dataclassification/ndc/security/users_main_page_thumb_0_0.png)](/docs/dataclassification/resources/images/users_main_page.png)
+![users_main_page_thumb_0_0](/img/product_docs/dataclassification/ndc/security/users_main_page_thumb_0_0.png)
 
 Review the following for additional information:
 

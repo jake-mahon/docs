@@ -10,10 +10,10 @@ To deploy Remote Event Receivers:
 
 1. Navigate to __Sources__→SharePoint→Settings→Deploy Remote Event Receivers.
 
-   [![deployingremoteevents__thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/deployingremoteevents__thumb_0_0.png)](/docs/dataclassification/resources/images/sources/source_groups/deployingremoteevents_.png)
+   ![deployingremoteevents__thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/deployingremoteevents__thumb_0_0.png)
 2. Select __Add__ to add the path. The __Details__ panel displays.
 
-   [![deployingremoteevents_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/deployingremoteevents_2_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/source_groups/deployingremoteevents_2.png)
+   ![deployingremoteevents_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/deployingremoteevents_2_thumb_0_0.png)
 3. Select __Save__.
 
 __NOTE:__ You can select __Test__ to validate and compare the correctness of the path you enter.

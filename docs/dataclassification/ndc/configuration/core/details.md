@@ -2,7 +2,7 @@
 
 This __Details__ tab provides a complete list of the Config settings, as well as an indication of the values that have been changed from the default settings. The list of properties is provided from the SQL database.
 
-[![core_details_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_details_thumb_0_0.png)](/docs/dataclassification/resources/images/config_system/core_details.png)
+![core_details_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_details_thumb_0_0.png)
 
 To look for a particular property or value, use the search field.
 

@@ -16,7 +16,7 @@ __Step 1 –__ In Auditor client, click Settings > Long-Term Archive; alternativ
 
 __Step 2 –__ Click Modify.
 
-[![archive_modify_settings_thumb_0_0](/img/product_docs/auditor/auditor/requirements/archive_modify_settings_thumb_0_0.png)](/docs/auditor/resources/images/auditor/deploymentplan/archive_modify_settings.png)
+![archive_modify_settings_thumb_0_0](/img/product_docs/auditor/auditor/requirements/archive_modify_settings_thumb_0_0.png)
 
 __Step 3 –__ Enter new path or browse for the required folder.
 
@@ -40,7 +40,7 @@ If the retention period is set to __0__, the following logic will be applied:
 
 To examine the repository capacity and daily growth, use the Long-Term Archive Capacity of the Health Status dashboard.
 
-[![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.png)](/docs/auditor/resources/images/auditor/health/healthstatusdashboard.png)
+![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.png)
 
 To estimate the amount of activity records collected and stored to the repository day by day, use the [Activity Records Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) widget. Click View details to see how many activity records were produced by each data source, collected and saved to the Long-Term Archive and to the database.
 

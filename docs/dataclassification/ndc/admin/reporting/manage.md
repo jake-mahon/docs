@@ -13,7 +13,7 @@ This section contains information on how to generate reports, use report templat
    - __Source__
 4. Finally, click __Generate__.
 
-[![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_48.png)](/docs/dataclassification/resources/images/reports/reports_doctagging.png)
+![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_48.png)
 
 The report will be displayed in the preview pane.
 
@@ -27,7 +27,7 @@ __NOTE:__ This capability is supported for built-in reports (Classification, Clu
 
 To view all templates available to you, open the Reports tab and select __Report Templates__ on the left.
 
-[![report_templates_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/report_templates_thumb_0_0.png)](/docs/dataclassification/resources/images/reports/report_templates.png)
+![report_templates_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/report_templates_thumb_0_0.png)
 
 To save a report configuration template
 

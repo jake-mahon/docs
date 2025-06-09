@@ -76,7 +76,7 @@ It is strongly recommended to target each monitoring plan at a separate database
 
 You can use default settings for your SQL Server instance or modify them (e.g., use a different authentication method or user). You can also change these settings later. See the [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topic for additional information.
 
-[![mp_wizard_step_db_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_wizard_step_db_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/mp_wizard_step_db.png)
+![mp_wizard_step_db_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_wizard_step_db_thumb_0_0.png)
 
 Configure the following:
 

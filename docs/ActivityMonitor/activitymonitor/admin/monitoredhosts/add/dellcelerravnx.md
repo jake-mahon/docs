@@ -17,7 +17,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-Prior to adding a Dell Celerra or VNX host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/config/dellcelerravnx/activity.md) topic for additional information.
+Prior to adding a Dell Celerra or VNX host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/config/dellcelerravnx/Activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for monitoring the target environment.
 
@@ -51,14 +51,14 @@ Click __Next__.
 
 ![Configure Basic Options Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
 
-__Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
+__Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The "Log files" are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
 - Report account names – Adds an __Account Name__ column in the generated TSV files
-- Add C:\ to the beginning of the reported file paths – Adds ‘C:\” to file paths to be displayed like a Windows file path:
+- Add C:\ to the beginning of the reported file paths – Adds 'C:\" to file paths to be displayed like a Windows file path:
   - Display example if checked – C:\Folder\file.txt
   - Display example if unchecked – /Folder/file.text
 - Resolve UNC paths – Adds a __UNC Path__ column and a __Rename UNC Path__ column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
     - For NFS activity – [HOST]:/[VOLUME]/[PATH]
@@ -76,9 +76,9 @@ __Step 7 –__ On the Where To Log The Activity page, select whether to send the
 
 ![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
 
-__Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
+__Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
-- Specify output file path – Specify the file path where log files are saved. Click the ellipses button (__...__) to open the Windows Explorer to navigate to a folder destination. Click __Test__ to test if the path works.
+- Specify output file path – Specify the file path where log files are saved. Click the ellipses button (__...__) to open the Windows Explorer to navigate to a folder destination. Click __Test__ to test if the path works.
 - Period to keep Log files – Log files will be deleted after the period entered number of days entered. The default is 10 days. Use the dropdown to specify whether to keep the Log files for a set amount of Minutes, Hours, or Days.
 - This log file is for Access Analyzer – Enable this option to have Access Analyzer collect this monitored host configuration
 
@@ -87,14 +87,14 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
   - While the Activity Monitor can have multiple configurations per host, Access Analyzer can only read one of them.
 - Add header to Log files – Adds headers to TSV files. This is used to feed data into Splunk.
 
-Click __Next__.
+Click __Next__.
 
 ![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
 - Syslog server in SERVER[:PORT] format – Type the __Syslog server name__ with a SERVER:Port format in the text box.
-  - The server name can be short name, fully qualified name (FQDN), or IP Address, as long as the organization’s environment can resolve the name format used. The Event stream is the activity being monitored according to this configuration for the monitored host.
+  - The server name can be short name, fully qualified name (FQDN), or IP Address, as long as the organization's environment can resolve the name format used. The Event stream is the activity being monitored according to this configuration for the monitored host.
 - Syslog Protocol – Identify the __Syslog protocol__ to be used for the Event stream. The drop-down menu includes:
   - UDP
   - TCP
@@ -112,11 +112,11 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - Splunk – Use this template for Splunk integration
   - Threat Manager – Use this template for Threat Manager integration. This is the only supported template for Threat Manager. See the [Netwrix Threat Manager Documentation](https://helpcenter.netwrix.com/category/stealthdefend) for additional information.
   - Custom templates can be created. Select the desired template or create a new template by modifying an existing template within the Syslog Message Template window. The new message template will be named Custom.
-- Add C:\ to the beginning of the reported file paths – Adds ‘C:\” to file paths to be displayed like a Windows file path:
+- Add C:\ to the beginning of the reported file paths – Adds 'C:\" to file paths to be displayed like a Windows file path:
   - Display example if checked – C:\Folder\file.txt
   - Display example if unchecked – /Folder/file.text
 - Resolve UNC paths – Adds a __UNC Path__ column and a __Rename UNC Path__ column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
     - For NFS activity – [HOST]:/[VOLUME]/[PATH]
@@ -139,7 +139,7 @@ The added Dell Celerra or VNX host is displayed in the Monitored Hosts table. On
 
 ## Host Properties for Dell Celerra or VNX
 
-Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
+Configuration settings can be edited through the tabs in the host's Properties window. The configurable host properties are:
 
 - [Dell Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/dell.md)
 - [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)

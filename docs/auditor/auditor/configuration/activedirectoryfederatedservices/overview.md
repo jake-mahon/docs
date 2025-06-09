@@ -44,11 +44,11 @@ Audit settings can be applied automatically if your monitoring plan has the prim
 
 __Step 1 –__ Select the AD FS data source in this monitoring plan (top row under the header), click __Edit data source__ to open its settings.
 
-[![mp_adfs_listing_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/mp_adfs_listing.png)
+![mp_adfs_listing_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.png)
 
 __Step 2 –__ In the __Configure audit settings__ section, select __Adjust audit settings automatically__ check box.
 
-[![mp_data_source_ad_fs_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/mp_data_source_ad_fs.png)
+![mp_data_source_ad_fs_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.png)
 
 __Step 3 –__ Save the settings.
 

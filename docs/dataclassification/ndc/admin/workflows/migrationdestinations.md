@@ -43,7 +43,7 @@ Under the __Workflows__ menu click __Configs__, then click __Migration Configs__
 
 Migration providers that already have contain configured destinations are indicated with the three-gears icon in the tab header:
 
-[![migration_destination_ready_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/workflows/migration_destination_ready_thumb_0_48.png)](/docs/dataclassification/resources/images/workflows/migration_destination_ready.png)
+![migration_destination_ready_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/workflows/migration_destination_ready_thumb_0_48.png)
 
 Click the tab for the migration destination you need.
 

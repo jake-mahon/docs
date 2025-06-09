@@ -67,9 +67,9 @@ __NOTE:__ For monitoring NAS devices, the Activity Agent must be deployed to a W
 CTERA Edge Filter
 
 - CTERA Portal 7.5.x+
-- CTERA Edge Filer 7.5.x+
+- CTERA Edge Filer 7.5.x+
 
-See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/activity.md) topic for target environment requirements.
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/Activity.md) topic for target environment requirements.
 
 Dell Celerra® & VNX
 
@@ -77,7 +77,7 @@ Dell Celerra® & VNX
 - VNX 7.1
 - VNX 8.1
 
-See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/config/dellcelerravnx/activity.md) topic for target environment requirements.
+See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/config/dellcelerravnx/Activity.md) topic for target environment requirements.
 
 Dell Isilon/PowerScale
 
@@ -133,7 +133,7 @@ See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/config/qu
 
 The Activity Monitor provides the ability to monitor SharePoint farms:
 
-__NOTE:__ For monitoring a SharePoint farm, the Activity Agent must be deployed to the SharePoint Application server that hosts the “Central Administration” component of the SharePoint farm.
+__NOTE:__ For monitoring a SharePoint farm, the Activity Agent must be deployed to the SharePoint Application server that hosts the "Central Administration" component of the SharePoint farm.
 
 - SharePoint® 2019
 - SharePoint® 2016
@@ -161,7 +161,7 @@ __NOTE:__ For monitoring SQL Server, it is recommended to install the Activity A
 
 - SQL Server 2022
 
-- SQL Server 2022
+- SQL Server 2022
 - SQL Server 2019
 - SQL Server 2017
 - SQL Server 2016

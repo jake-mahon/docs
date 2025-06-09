@@ -23,8 +23,6 @@ DELETE
 
 #### Sample Response Syntax
 
-{
-
 ```
 {  
     "name": null,  

@@ -14,7 +14,7 @@ This section contains information on how to generate reports, use report templat
    - __Source__
 4. Finally, click __Generate__.
 
-[![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.png)](/docs/dataclassification/resources/images/reports/reports_doctagging.png)
+![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.png)
 
 The report will be displayed in the preview pane.
 

@@ -4,7 +4,7 @@ A Dell Unity device can be configured to audit Server Message Block (SMB) protoc
 
 If the service is turned off, a notification will be sent to the Dell CEE framework to turn off the associated Activity Monitor filter, but the policy will not be removed.
 
-The Dell CEE Framework uses a “push” mechanism so a notification is sent only to the activity agent when a transaction occurs. Daily activity log files are created only if activity is performed. No activity log file is created if there is no activity for the day.
+The Dell CEE Framework uses a "push" mechanism so a notification is sent only to the activity agent when a transaction occurs. Daily activity log files are created only if activity is performed. No activity log file is created if there is no activity for the day.
 
 Configuration Checklist
 
@@ -20,7 +20,7 @@ Checklist Item 1: Plan Deployment
 
     - [http://support.emc.com](http://support.emc.com/)
 
-Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/config/dellunity/installcee.md)
+Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/config/dellunity/InstallCEE.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity agent will be deployed
 
@@ -41,7 +41,7 @@ Checklist Item 4: Activity Monitor Configuration
 
 - Deploy the Activity Monitor activity agent to a Windows proxy server where Dell CEE was installed
 
-  - After activity agent deployment, configure the Dell CEE Options tab of the agent’s Properties window within the Activity Monitor Console
+  - After activity agent deployment, configure the Dell CEE Options tab of the agent's Properties window within the Activity Monitor Console
 
     - Automatically sets the Dell registry key settings
 
@@ -51,4 +51,4 @@ __NOTE:__ When Dell CEE is installed on Windows proxy server(s) where the Activi
 
 - Ensure the Dell CEE registry key has enabled set to 1 and has an EndPoint set to StealthAUDIT.
 - Ensure the Dell CAVA service and the Dell CEE Monitor service are running.
-- See the [Validate Setup](/docs/activitymonitor/config/dellunity/validate.md) topic for instructions.
+- See the [Validate Setup](/docs/activitymonitor/config/dellunity/Validate.md) topic for instructions.

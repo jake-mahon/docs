@@ -20,7 +20,7 @@ Follow these steps to install Netwrix Auditor
 
 __Step 1 –__ Download Netwrix Auditor 10.7 from [Netwrix website](https://www.netwrix.com/auditor.html).
 
-NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If you use a third-party firewall, see [Protocols and Ports Required](/docs/auditor/auditor/requirements/ports2.md). Also, you must be a member of the local Administrators group to run the Netwrix Auditor installation.
+NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If you use a third-party firewall, see [Protocols and Ports Required](/docs/auditor/auditor/requirements/ports.md). Also, you must be a member of the local Administrators group to run the Netwrix Auditor installation.
 
 __Step 2 –__ Unpack the installation package. The following window will be displayed on successful operation completion:
 

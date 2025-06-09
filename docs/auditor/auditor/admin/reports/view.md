@@ -17,7 +17,7 @@ You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor
 
 To speed up the process, you can use the __Search__ field, entering the keyword to search by.
 
-[![searchreports_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.png)](/docs/auditor/resources/images/auditor/report/searchreports.png)
+![searchreports_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.png)
 
 2. Click View button in the right pane.
 

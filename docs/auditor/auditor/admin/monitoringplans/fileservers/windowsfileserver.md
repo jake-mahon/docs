@@ -47,7 +47,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -112,7 +112,7 @@ Complete the following fields:
 
 By default, both user activity and state-in-time data will be collected for the monitored item. However, you can narrow your monitoring scope by specifying certain locations, user accounts or actions to exclude .
 
-[![Add Item (Computer)](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclusions.png)
+![Add Item (Computer)](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.png)
 
 Click Add Exclusion, then follow the steps in the Specify Filters dialog:
 

@@ -45,7 +45,7 @@ Its Summary field will contain _[Netwrix Auditor] Test Alert_; its Initial Descr
 
 __Step 5 –__  Finally, at the __Summary__ step, review the location of configuration file with the settings you specified: _C:\Addon\ITSM\_CW\ConnectWiseSettings.xml_.
 
-[![summary_thumb_0_0](/img/product_docs/auditor/auditor/addon/connectwise/summary_thumb_0_0.png)](/docs/auditor/resources/images/auditor/addon/connectwise/summary.png)
+![summary_thumb_0_0](/img/product_docs/auditor/auditor/addon/connectwise/summary_thumb_0_0.png)
 
 If needed, you can edit the configuration file manually. See the [Connection and Ticketing Settings](/docs/auditor/auditor/addon/connectwise/connectionticketingsettings.md) topic for additional information.
 

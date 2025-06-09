@@ -12,7 +12,7 @@ const FeatureList = [
         Monitor Active Directory, file servers, Exchange, and more.
       </>
     ),
-    link: '/docs/activitymonitor',
+    link: '/',
     Svg: require('@site/static/img/branding/logo.svg').default,
   },
   {
@@ -23,7 +23,7 @@ const FeatureList = [
         Ensure compliance and security with real-time change monitoring.
       </>
     ),
-    link: '/docs/changetracker',
+    link: '/',
     Svg: require('@site/static/img/branding/logo.svg').default,
   },
   {
@@ -34,7 +34,7 @@ const FeatureList = [
         Reduce helpdesk load while maintaining security.
       </>
     ),
-    link: '/docs/passwordreset',
+    link: '/',
     Svg: require('@site/static/img/branding/logo.svg').default,
   },
 ];

@@ -10,7 +10,7 @@ You can also create a Self-Service Password Reset portal (SSPR), which is a kind
 
 A portal is hosted on a web server, with native IIS, remote IIS, and Docker as the supported servers.
 
-- IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
+- IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
   ![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.png)
 - Docker Deployment - For a Docker deployment, make sure you have a running instance of Docker daemon in your environment. A portal runs within a container in Docker.
@@ -40,7 +40,7 @@ What do you want to do?
 
 When you create a portal in native IIS, Directory Manager does the following:
 
-- It creates a directory with the portal’s name at the following physical path on the Directory Manager server, and copies the portal files from its template directory to the new portal directory:  
+- It creates a directory with the portal's name at the following physical path on the Directory Manager server, and copies the portal files from its template directory to the new portal directory:  
   X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\  
   (X represents the Directory Manager installation drive)
 - It also creates a virtual directory for the portal in your desired IIS site.
@@ -62,11 +62,11 @@ __To create a portal:__
    ![portal_card](/img/product_docs/groupid/groupid/admincenter/portal/portal_card.png)
 7. In the __IIS Application Name__ box, enter an IIS deployment name for the portal. This name should be unique for each portal deployed in IIS.
 
-   - The IIS application name is used to name the portal’s directory in IIS and its physical directory under __X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\__ on the Directory Manager server.  
+   - The IIS application name is used to name the portal's directory in IIS and its physical directory under __X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\__ on the Directory Manager server.  
      (X represents
      the Directory Manager installation drive)
    - This IIS application name is also appended to the web server address to construct the URL that users click to access this deployment instance of the portal. For example:  
-     https://web-server-name:port/IIS-application-name  
+     ``https://web-server-name:port/IIS-application-name``  
      Hence, a different URL is constructed for each deployment of a portal in IIS.
 8. In the __IIS Site__ drop-down list, select a website to host the portal files. The list displays the websites defined on the native IIS server. _GroupIDSite11_ is the
    default selection.
@@ -79,9 +79,9 @@ __To create a portal:__
     to send an email to a user or helpdesk for inquiries or support. The __Help__ icon launches the online help for the portal in a new browser window. Both links are customizable, and their target email address
     or web address is specified in the __Support Information__ area.
 
-    1. In the __Support group or administrator’s email address__ box, enter the email address of a group or user to redirect user queries to. This email address is mapped to the __Contact__ link in the portal.
-    2. In the __Help URL__ box, specify the address of your company's internal support website or the portal’s help page, where portal users can find support material or report a problem. By default, this box
-       displays the URL of the portal’s help published by Netwrix.  
+    1. In the __Support group or administrator's email address__ box, enter the email address of a group or user to redirect user queries to. This email address is mapped to the __Contact__ link in the portal.
+    2. In the __Help URL__ box, specify the address of your company's internal support website or the portal's help page, where portal users can find support material or report a problem. By default, this box
+       displays the URL of the portal's help published by Netwrix.  
        This URL is mapped to the __Help__ icon in the portal.
 11. (Optional) Select the __Password Center Mode__ check box to create this portal as a Self-Service Password Reset portal (SSPR). A SSPR portal does not offer the standard functions of a Directory Manager portal, such as group management, user management, or entitlement management, but is exclusively dedicated to password-relation activities. This portal enables users to manage their directory account passwords, i.e., the password for the account they use to access their workstations and other Microsoft services. Users can change and reset their passwords, as well as unlock their accounts. They can also enroll their accounts in Directory Manager and link accounts in different identity stores.
 
@@ -110,13 +110,13 @@ __To create a portal:__
     For example: ADStore.xml   
      A separate design file exists for each identity store linked with a Self-Service portal.
       
-    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\Design\  
+    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID `version`\SelfService\Inetpub\&lt;portal name&gt;\Design\  
      For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\
 
     Similarly, a separate file exists for each linked combo created in the Self-Service portal.   
     __Linked combo file name:__ The file has the same name as that of the linked combo in the portal.for example, Country-State.xml  
     __File location in GroupID 9/10:__ All linked combo files, regardless of the identity store they are used for, are available at the following path:  
-    [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\Web\LinkedCombo\  
+    [GroupID installation drive]:\Program Files\Imanami\GroupID `version`\SelfService\Inetpub\&lt;portal name&gt;\Web\LinkedCombo\  
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Web\LinkedCombo\
 
     __To import the design file and linked combo file(s), do the following:__
@@ -132,7 +132,7 @@ __To create a portal:__
     9 and 10:
 
     __File name:__ server.xml. A separate file exists for each Self-Service portal.  
-    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID &lt;version&gt;\SelfService\Inetpub\&lt;portal name&gt;\  
+    __File location in GroupID 9/10:__ [GroupID installation drive]:\Program Files\Imanami\GroupID `version`\SelfService\Inetpub\&lt;portal name&gt;\  
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\
 
     __To import the file, do the following:__
@@ -169,14 +169,14 @@ __To create a portal:__
 7. In the __API URL__ box, enter the URL of the API to use for communicating with the remote IIS server.  
    Make sure the [Microsoft IIS Administration API](https://learn.microsoft.com/en-us/iis-administration/) is installed as a Windows
    service on the remote IIS machine. Fetch the URL of this API from remote IIS and provide it here to enable communication.
-8. In the __Access Token__ box, enter the access token to allow Admin Center to access the Microsoft IIS Administration API. This access token is generated from the Microsoft IIS Administration API’s interface.
+8. In the __Access Token__ box, enter the access token to allow Admin Center to access the Microsoft IIS Administration API. This access token is generated from the Microsoft IIS Administration API's interface.
 9. In the __Username__ and __Password__ boxes, enter the credentials of a Windows account to communicate with the API. This account must have access to the remote IIS machine, with
    sufficient permissions to enable you to create and manipulate objects in IIS.
 10. In the __IIS Application Name__ box, enter an IIS deployment name for the portal. This name should be unique for each portal deployed within the same site in remote IIS.
 
-    - The IIS application name is used to name the portal’s directory in the IIS site and its physical directory on the remote IIS machine. The physical directory is created within the folder that is mapped to the preconfigured site, and portal files are copied to it.
+    - The IIS application name is used to name the portal's directory in the IIS site and its physical directory on the remote IIS machine. The physical directory is created within the folder that is mapped to the preconfigured site, and portal files are copied to it.
     - This IIS application name is also appended to the web server address to construct the URL that users click to access this deployment instance of the portal. For example:  
-      https://web-server-name:port/IIS-application-name  
+      ``https://web-server-name:port/IIS-application-name``  
       Hence, a different URL is constructed for each deployment of a portal in remote IIS.
 11. On providing the above information, the __Website__ drop-down list displays the sites defined on the remote IIS server. Select the site that you have configured with the appropriate permissions for Directory Manager.
 12. To enter information in the __Service Endpoints__, __Support Information__, __Password Center Mode__, __Select Identity Stores__, and __Advanced Settings__ areas and create the portal, follow the steps in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic, starting at step 9.
@@ -237,7 +237,7 @@ __To deploy an instance:__
    - To deploy an instance in remote IIS, follow steps 6-12 in the [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS) topic.
    - To deploy an instance in Docker, follow steps 6-10 in the [Create a Portal in Docker](#Create-a-Portal-in-Docker) topic.
 5. After entering the required information, click __Deploy Instance__.  
-   The new instance is displayed on the portal’s card.
+   The new instance is displayed on the portal's card.
 
 ## Create a Portal by Copying an Existing Portal
 
@@ -254,7 +254,7 @@ __To create a portal:__
    The __Copy GroupID Application__ page is displayed; populated with the following settings of the copied portal:
 
    - The Data service and Security service linked to the portal
-   - The support information for the portal, i.e., the admin/helpdesk contact email address and the portal’s help URL
+   - The support information for the portal, i.e., the admin/helpdesk contact email address and the portal's help URL
    - The identity store(s) associated with the portal
 3. You can deploy the new portal in native IIS, remote IIS, or Docker.
 
@@ -275,9 +275,9 @@ __To create a portal:__
    | Deployment Instances | Displays the deployment instance(s) of the portal as tiles. A tile shows the deployment name of the instance and the web server where it is deployed. |
    | Status | A portal has one of the following statuses:  - __Running:__ Indicates that the portal is up and running. - __Stopped:__ Indicates that Directory Manager is unable to communicate with the portal.  To troubleshoot, go to the web server where the portal is deployed and make sure the portal is running. - __Error:__ Any issue other than _stopped_ is categorized as _error_. In this case, contact your system administrator. |
    | Launch Application | Click this link to launch the portal.  When multiple deployments of a portal are available, select the tile for a deployment instance and click this link to launch that instance. |
-   | Ellipsis | Click it to launch a shortcut menu with the following options:  - __Settings:__ Launches the portal settings page, where you can manage server and design settings.    - __Server Settings:__ Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more.   - __Design settings:__ These settings relate to the portal’s user interface. - __Deploy Another Instance:__ Enables you to deploy another instance of the portal. - __Copy:__ Enables you to create a new portal by copying the settings of this portal. - __Delete:__ Deletes the portal. |
+   | Ellipsis | Click it to launch a shortcut menu with the following options:  - __Settings:__ Launches the portal settings page, where you can manage server and design settings.    - __Server Settings:__ Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more.   - __Design settings:__ These settings relate to the portal's user interface. - __Deploy Another Instance:__ Enables you to deploy another instance of the portal. - __Copy:__ Enables you to create a new portal by copying the settings of this portal. - __Delete:__ Deletes the portal. |
 
-You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse over the icon, the tooltip says that _linked mode will not be allowed_.
+You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse over the icon, the tooltip says that _linked mode will not be allowed_.
 This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when two
 identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, the portal card appears in orange. It informs you to associate the second identity store in the linked pair (dentityStoreB) with the portal
 too, in order to benefit from the linking.
@@ -285,7 +285,7 @@ too, in order to benefit from the linking.
 ## Launch a Portal
 
 1. In Admin Center, select __Applications__ in the left pane.
-2. On the __GroupID Portal__ tab, click __Launch Application__ on a portal’s card to launch it.
+2. On the __GroupID Portal__ tab, click __Launch Application__ on a portal's card to launch it.
      
    When multiple deployments of a portal are available, select a deployment instance on the card and click __Launch Application__ to launch that instance.
 

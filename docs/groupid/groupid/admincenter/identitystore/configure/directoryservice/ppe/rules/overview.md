@@ -29,19 +29,20 @@ Character substitution is a technique used by some users to improve password qua
 
 Some Password Policy Enforcer rules have a Detect Character Substitution check box. When this check box is selected, Password Policy Enforcer tests passwords with, and without character substitution. This stops users from circumventing the rule by substituting some characters. Password Policy Enforcer detects these common character substitutions:
 
-| Original |  | Substituted |
-| --- | --- | --- |
-| A | a | ^ @ |
-| B | b | 8 |
-| C | c |  |  |  |  |  | --- | --- | --- |  | ( or { | < | [ |  |
-| D | d |  |  |  |  |  | --- | --- | --- |  | ) or } | > | ] |  |
-| E | e | 3 |
-| G | g | 6 or 9 |
-| I | i |  |  |  |  | --- | --- |  | ! or |  | 1 |  |
-| O | o | 0 or (zero) |
-| S | s | $ or 5 |
-| T | t | + or 7 |
-| Z | z | 2 |
+| Original | Substituted        |
+|----------|--------------------|
+| A a      | `^ @`                |
+| B b      | `8`                  |
+| C c      | `( or {  <  [`       |
+| D d      | `) or }  >  ]`       |
+| E e      | `3`                  |
+| G g      | `6 or 9`             |
+| I i      | `! or 1`          |
+| O o      | `0 or (zero)`        |
+| S s      | `$ or 5`             |
+| T t      | `+ or 7`             |
+| Z z      | `2`                  |
+
 
 ## Tolerance
 

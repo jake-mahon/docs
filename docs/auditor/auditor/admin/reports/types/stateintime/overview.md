@@ -40,7 +40,7 @@ When auditing file servers, changes to both access and audit permissions are tra
 
 Most reports in Windows Server—State-in-Time folder allow you to specify baselines. A _baseline_ defines a certain safe level or state. If a server parameter falls below it, it is a considered a threat or at least merits your special attention. With baselines specified right in report filters, you can easily identify servers that are different from your corporate policies or best practices. Risks are marked with red color and are easy to spot in the report.
 
-[![windowsserverinventory_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.png)](/docs/auditor/resources/images/auditor/report/windowsserver/windowsserverinventory.png)
+![windowsserverinventory_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.png)
 
 You can specify baseline values specific to your organization in one of the following ways:
 

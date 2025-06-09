@@ -20,7 +20,7 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
     `POST /partner_servers`
 
-[![api_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_thumb_0_0.png)](/docs/auditor/resources/images/auditor/nutanix/api.png)
+![api_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_thumb_0_0.png)
 
 5. In the request body, enter the following JSON-formatted structure:
 
@@ -82,6 +82,6 @@ This address must be visible from the Nutanix File Server network.
 
 The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ```{ }```
 
-[![api_partner_server_resquest_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_partner_server_resquest_thumb_0_0.png)](/docs/auditor/resources/images/auditor/nutanix/api_partner_server_resquest.png)
+![api_partner_server_resquest_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_partner_server_resquest_thumb_0_0.png)
 
 9. The response body should contain the list of servers, including new partner server name and other settings.

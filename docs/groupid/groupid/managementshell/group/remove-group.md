@@ -8,12 +8,14 @@ You can view events related to this commandlet in Directory Manager portal, agai
 
 ## Required Parameter
 
+```
 Remove-Group
 -Identity <string[]>
 [-IdentityStoreId <int>]
 [-SecurityToken <CustomClaimsPrincipal>]
 [-Credential <pscredential>]
 [<CommonParameters>]
+```
 
 - Identity
 

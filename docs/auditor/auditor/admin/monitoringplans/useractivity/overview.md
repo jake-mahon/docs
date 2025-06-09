@@ -61,7 +61,7 @@ To exclude the Notepad application window with "_Document1_" open, add the follo
   ![uavr_source_example_1](/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_1.png)
 - In the Description filter, enter the corresponding value, here it will be "_Notepad_".
 
-[![uavr_source_example_2_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_2_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/uavr_source_example_2.png)
+![uavr_source_example_2_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_2_thumb_0_0.png)
 
 ## Computer
 

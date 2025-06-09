@@ -16,7 +16,7 @@ __Step 1 –__  Navigate to __Settings__ > __Audit Database__.
 
 __Step 2 –__ Click __Modify__  to edit the settings.
 
-[![audit_db_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/settings/audit_db_settings_thumb_0_0.png)](/docs/auditor/resources/images/auditor/deploymentplan/audit_db_settings.png)
+![audit_db_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/settings/audit_db_settings_thumb_0_0.png)
 
 __Step 3 –__  Specify the following database storage settings:
 

@@ -15,7 +15,7 @@ __Step 1 –__ Select the monitoring plan you need and click __Edit__.
 
 __Step 2 –__ Within the monitoring plan window, highlight the data source (the first one is the row right under the blue table header) and click Edit data source on the right:
 
-[![Data source settings](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_edit_data_source_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/mp_edit_data_source.png)
+![Data source settings](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_edit_data_source_thumb_0_0.png)
 
 __Step 3 –__ Modify data source settings as you need.
 
@@ -102,7 +102,7 @@ In addition to the restrictions for a monitoring plan, you can use the \*.txt fi
 | --- | --- |
 | __Active Directory__ |  |
 | I want to omit all activity by a specific service account or service accounts with specific naming pattern. | [Active Directory](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md) |
-| If Netwrix user is responsible just for a limited scope within corporate AD, s/he needs to omit everything else. | [Active Directory](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md)   - Always both activity and state in time data are omitted. - In group/Not in group filters don’t not process groups from omitted OUs. |
+| If Netwrix user is responsible just for a limited scope within corporate AD, s/he needs to omit everything else. | [Active Directory](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md)   - Always both activity and state in time data are omitted. - In group/Not in group filters don't not process groups from omitted OUs. |
 | __Logon Activity__ |  |
 | I want to omit domain logons by a specific service account or service accounts with specific naming pattern. | [Logon Activity](/docs/auditor/auditor/admin/monitoringplans/logonactivity/overview.md) |
 | __File Servers__  (including Windows file server, Dell, NetApp, Nutanix File server) |  |
@@ -117,7 +117,7 @@ In addition to the restrictions for a monitoring plan, you can use the \*.txt fi
 | As a Auditor administrator I want to exclude all changes performed by _MyCustomTool_. | [SQL Server Instance](/docs/auditor/auditor/admin/monitoringplans/sqlserver/items.md#sql-server-instance) |
 | __SharePoint__ |  |
 | I want to exclude the _domain\nwxserviceaccount_ account from data collection as it produces standard activity that doesn't require monitoring. | [SharePoint Farm](/docs/auditor/auditor/admin/monitoringplans/sharepoint/overview.md#sharepoint-farm) |
-| As a Auditor Administrator I want to exclude shared _PublicList_ from read audit. | [](/docs/auditor/auditor/solutions/items/sharepointfarm.md)[SharePoint Farm](/docs/auditor/auditor/admin/monitoringplans/sharepoint/overview.md#sharepoint-farm) |
+| As a Auditor Administrator I want to exclude shared _PublicList_ from read audit. | [SharePoint Farm](/docs/auditor/auditor/admin/monitoringplans/sharepoint/overview.md#sharepoint-farm) |
 | Windows Server |  |
 | I have a server named StationWin16 where I can't install .Net 4.5 in OU where I keep all member servers. I want to suppress errors from this server by excluding it from the Netwrix auditing scope. | [AD Container](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#ad-container) |
 | I want to exclude specific computers within an IP range from the Netwrix auditing scope. | [File Servers](/docs/auditor/auditor/admin/monitoringplans/fileservers/overview.md) |

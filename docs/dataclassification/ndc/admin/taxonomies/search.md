@@ -21,4 +21,4 @@ You can search for documents based on the class clues. For that, click on the na
 
 OR
 
-[![documentmovements_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.png)](/docs/dataclassification/resources/images/documentmovements.png)
+![documentmovements_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.png)

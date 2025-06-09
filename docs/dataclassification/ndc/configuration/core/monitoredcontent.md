@@ -2,7 +2,7 @@
 
 You can decrease the Classifier load, targeting it at _monitored content_ only. This means that you can schedule content to be automatically re-classified only when a specific condition or set of conditions are met, or with a minimum time period between runs.
 
-[![core_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.png)](/docs/dataclassification/resources/images/config_system/core.png)
+![core_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.png)
 
 __NOTE:__ Each option in this section has an associated “__i__” which describes the nature of the setting.
 
@@ -16,7 +16,7 @@ To re-classify content that meets specific conditions:
 1. Use tagging. Content will be marked for automatic re-classification if it is tagged with a particular term.
 2. In the __Monitored Content__ section of __System Configuration > Core > Classifier__ locate __Monitored Document Indicator__.
 3. Click on the tag icon, and in the __Select Term__ dialog specify the term that should be used to identify monitored content:
-[![core_classifier_mc_terms_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_classifier_mc_terms_thumb_0_0.png)](/docs/dataclassification/resources/images/config_system/core_classifier_mc_terms.png)4. When finished, click __Select__, then in the Classifier settings window click __Save__,
+![core_classifier_mc_terms_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_classifier_mc_terms_thumb_0_0.png)4. When finished, click __Select__, then in the Classifier settings window click __Save__,
 
 To re-classify content with a minimum time period between runs:
 

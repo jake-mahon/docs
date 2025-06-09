@@ -4,6 +4,6 @@ After you select the required type of content source, you will be offered the nu
 
 Click the action you need and configure the necessary settings. For details, see [Available Actions](/docs/dataclassification/ndc/admin/workflows/actions/availableactions.md).
 
-[![workflow_step2_action_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step2_action_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/workflow_step2_action.png)
+![workflow_step2_action_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step2_action_thumb_0_0.png)
 
 When finished, proceed to the next step.

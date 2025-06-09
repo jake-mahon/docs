@@ -37,7 +37,7 @@ Get-UserRole -Identity testingaccount@pucit.local -IdentityStoreName AdStore1
 
 Example 3:
 
-This example displays role information of the _testingaccount@pucit.local_ user in the _ManagementShell <machine name>_ client of the connected identity store.
+This example displays role information of the `_testingaccount@pucit.local_` user in the _ManagementShell `<machine name>`_ client of the connected identity store.
 
 ```
 Get-UserRole -Identity testingaccount@pucit.local -ClientName 'ManagementShell <machine name>'

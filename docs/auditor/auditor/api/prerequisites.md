@@ -17,7 +17,7 @@ __Step 3 –__  Click Modify under the API settings section and specify a port 
 
 __Step 4 –__ If you use a third-party firewall, you must create a rule for inbound connections manually.
 
-[![Integration API Settings](/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.png)](/docs/auditor/resources/images/auditor/settings/integrations.png)
+![Integration API Settings](/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.png)
 
 ## Configure Audit Database Settings
 

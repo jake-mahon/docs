@@ -2,7 +2,7 @@
 
 This configuration tab contains the settings related to system health, operation and logging. Each configuration option has an associated “i” which describes the nature of the setting.
 
-[![core_system_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_system_thumb_0_0.png)](/docs/dataclassification/resources/images/config_system/core_system.png)
+![core_system_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_system_thumb_0_0.png)
 
 ## Health
 

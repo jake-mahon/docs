@@ -107,4 +107,4 @@ Do the following:
 
 See also:
 
-- [Oracle Wallet](/docs/auditor/plans/items/items_oracle_wallet.md)
+- For information about using Oracle Wallet with monitoring plans, see the [Oracle monitoring plan documentation](/docs/auditor/auditor/admin/monitoringplans/oracle/overview.md).

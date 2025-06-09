@@ -16,11 +16,11 @@ SQL taxonomies also be easily merged / updated from the Global Settings page. Se
 
 Predefined taxonomies can be updated from the latest built-in definition or from an XML file in the standard taxonomy format:
 
-[![mergesqltaxonomystage1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage1_thumb_0_0.png)](/docs/dataclassification/resources/images/mergesqltaxonomystage1.png)
+![mergesqltaxonomystage1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage1_thumb_0_0.png)
 
 The merge operation will automatically add any new terms, update the clues of existing terms, and when enabled delete terms that no longer exist in the new taxonomy definition.
 
-[![mergesqltaxonomystage2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage2_thumb_0_0.png)](/docs/dataclassification/resources/images/mergesqltaxonomystage2.png)
+![mergesqltaxonomystage2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage2_thumb_0_0.png)
 
 Custom clues can be retained by selecting the option Retain custom clues. When enabled any clues not defined as Predefined will be retained. The Predefined flag can be viewed by selecting the "i" icon for a clue to display the following dialog:
 
@@ -40,7 +40,7 @@ SharePoint taxonomies can be merged with the use of the TermStoreManager tool (p
 
 Existing taxonomies can be managed via the Global Settings tab:
 
-[![taxonomyglobalsettings_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyglobalsettings_thumb_0_0.png)](/docs/dataclassification/resources/images/taxonomyglobalsettings.png)
+![taxonomyglobalsettings_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyglobalsettings_thumb_0_0.png)
 
 Taxonomies can be exported as XML regardless of the taxonomy type, as well as removed. When removing SharePoint Term Set registrations the source Term Set remains intact - all that is removed is a link to the Term Store.
 
@@ -76,7 +76,7 @@ The wizard will then walk you through performing the update. Each update will al
 
 The update can either be performed immediately or in "report-only" mode. When report-only mode is used the scope of changes will be specified to the end-user—the end-user can then choose to commit the update which will perform the changes (or, leave the update if the scope was incorrect).
 
-[![bulkupdate_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdate_thumb_0_0.png)](/docs/dataclassification/resources/images/bulkupdate.png)
+![bulkupdate_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdate_thumb_0_0.png)
 
 All updates, report-only or otherwise, can be found under the "Bulk Updates" tab. Updates are queued and processed in the background with the results exposed through this interface.
 
@@ -84,7 +84,7 @@ All updates, report-only or otherwise, can be found under the "Bulk Updates" tab
 
 To manage the term set, select the taxonomy you need, then in the taxonomy tree browse to the required term set and click the __Term Management__ tab on the right.
 
-[![term_management_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/term_management_thumb_0_0.png)](/docs/dataclassification/resources/images/taxonomies/term_management.png)
+![term_management_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/term_management_thumb_0_0.png)
 
 Then you can work with the tabs you need, including Search, Browse and Working Set tabs.
 

@@ -8,7 +8,7 @@ For your convenience, you can create additional folders for your custom reports.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-[![customreport_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.png)](/docs/auditor/resources/images/auditor/search/customreport.png)
+![customreport_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.png)
 
 Review the following for additional information:
 

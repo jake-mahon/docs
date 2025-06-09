@@ -53,11 +53,11 @@ __Step 2 –__ Select authentication method that will be used when accessing Off
 
 __Step 3 –__ Click the __Add__ button.
 
-[![Add Office 365 Item window](/img/product_docs/auditor/auditor/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_o365_basic_auth.png)
+![Add Office 365 Item window](/img/product_docs/auditor/auditor/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.png)
 
 You can use a single account to collect audit data for different Office 365 services (Microsoft Entra ID, Exchange Online, SharePoint Online); however, Netwrix recommends that you specify individual credentials for each of them.
 
-If you plan to collect and report on the audit data for Exchange Online non-owner mailbox access, consider that the value shown in the “_Who_” field in reports and search results will be displayed in UPN format (unlike the earlier Netwrix Auditor versions). This refers to the following scenarios:
+If you plan to collect and report on the audit data for Exchange Online non-owner mailbox access, consider that the value shown in the "_Who_" field in reports and search results will be displayed in UPN format (unlike the earlier Netwrix Auditor versions). This refers to the following scenarios:
 
 - All new installations
 - Upgrade from the previous versions if:
@@ -78,4 +78,4 @@ __Step 4 –__ Complete the following fields:
 
 Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
-See the [Office 365 Tenant](/docs/auditor/auditor/solutions/items/overview.md) topic for additional information.
+See the [Microsoft 365](/docs/auditor/auditor/configuration/microsoft365/overview.md) topic for additional information.

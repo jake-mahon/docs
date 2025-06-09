@@ -8,7 +8,7 @@ The __Type__ column shows whether a Dynasty is a parent, middle, or leaf Dynasty
 Dynasty names help you group a parent Dynasty with its respective child Dynasties.
 
 - For a Geographical/Organizational/Custom Dynasty - The name of a child Dynasty starts with the name of its parent Dynasty (unless you change the naming template for Dynasty children).
-- For a Managerial Dynasty - By default, the naming template for its child Dynasties starts with "Direct reports of <manager>".
+- For a Managerial Dynasty - By default, the naming template for its child Dynasties starts with "Direct reports of `manager`".
 
 You can [Modify Search Directory](/docs/groupid/groupid/portal/group/allgroups.md#modify-search-directory) to search dynasties and add [Filter All Groups](/docs/groupid/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __Dynasties Grid Filters__.
 All the dynasties matching the filters will be displayed.

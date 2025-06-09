@@ -18,6 +18,7 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'ignore',
 
   i18n: {
     defaultLocale: 'en',

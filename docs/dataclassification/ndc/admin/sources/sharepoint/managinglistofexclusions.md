@@ -29,7 +29,7 @@ __NOTE:__ Exclusions are case-insensitive.
    | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify __Field Name__. |
    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify __Field Name__. |
 
-   [![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/gdrive_exclusion_condition_2.png)
+   ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)
 
    When finished, click __Add__.
 4. Finally, click __Save__ and close the window.

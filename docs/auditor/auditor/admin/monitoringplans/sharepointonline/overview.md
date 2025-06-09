@@ -53,7 +53,7 @@ __Step 2 –__ Select authentication method that will be used when accessing Off
 
 __Step 3 –__ Click the __Add__ button.
 
-[![Add Office 365 Item window](/img/product_docs/auditor/auditor/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_o365_basic_auth.png)
+![Add Office 365 Item window](/img/product_docs/auditor/auditor/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.png)
 
 You can use a single account to collect audit data for different Office 365 services (Microsoft Entra ID, Exchange Online, SharePoint Online); however, Netwrix recommends that you specify individual credentials for each of them.
 

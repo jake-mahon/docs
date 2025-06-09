@@ -7,78 +7,78 @@ The information includes identity store name, description, connection string, no
 ## Syntax
 
 ```
-Get-IdentityStore   
-  -IdentityStoreName <String>  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]    
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
-  [<CommonParameters>]
+Get-IdentityStore  
+  -IdentityStoreName <String>  
+  [-IdentityStoreId <Int32>]  
+  [-SecurityToken <CustomClaimsPrincipal>]  
+  [-Credential <PSCredential>]  
+  [-WarningAction <ActionPreference>]  
+  [-InformationAction <ActionPreference>]  
+  [-WarningVariable <String>]  
+  [-InformationVariable <String>]  
+  [-PipelineVariable <String>]  
+  [<CommonParameters>]
 ```
 
 ```
 Get-IdentityStore  
-  -All   
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
- [<CommonParameters>] 
+  -All  
+  [-IdentityStoreId <Int32>]  
+  [-SecurityToken <CustomClaimsPrincipal>]  
+  [-Credential <PSCredential>]  
+  [-WarningAction <ActionPreference>]  
+  [-InformationAction <ActionPreference>]  
+  [-WarningVariable <String>]  
+  [-InformationVariable <String>]  
+  [-PipelineVariable <String>]  
+  [<CommonParameters>]
 ```
 
 ```
 Get-IdentityStore  
-  -Connected   
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
-  [<CommonParameters>]
+  -Connected  
+  [-IdentityStoreId <Int32>]  
+  [-SecurityToken <CustomClaimsPrincipal>]  
+  [-Credential <PSCredential>]  
+  [-WarningAction <ActionPreference>]  
+  [-InformationAction <ActionPreference>]  
+  [-WarningVariable <String>]  
+  [-InformationVariable <String>]  
+  [-PipelineVariable <String>]  
+  [<CommonParameters>]
 ```
 
 ```
 Get-IdentityStore  
-  -Enabled   
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
-  [<CommonParameters>]
+  -Enabled  
+  [-IdentityStoreId <Int32>]  
+  [-SecurityToken <CustomClaimsPrincipal>]  
+  [-Credential <PSCredential>]  
+  [-WarningAction <ActionPreference>]  
+  [-InformationAction <ActionPreference>]  
+  [-WarningVariable <String>]  
+  [-InformationVariable <String>]  
+  [-PipelineVariable <String>]  
+  [<CommonParameters>]
 ```
 
 ```
 Get-IdentityStore  
-  -Disabled   
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
-  [<CommonParameters>]
+  -Disabled  
+  [-IdentityStoreId <Int32>]  
+  [-SecurityToken <CustomClaimsPrincipal>]  
+  [-Credential <PSCredential>]  
+  [-WarningAction <ActionPreference>]  
+  [-InformationAction <ActionPreference>]  
+  [-WarningVariable <String>]  
+  [-InformationVariable <String>]  
+  [-PipelineVariable <String>]  
+  [<CommonParameters>]
 ```
 
 ## Required Parameter
 
-- IdentityStoreName or a switch { All | Connected | Enabled | Disabled}
+- IdentityStoreName or a switch `{ All | Connected | Enabled | Disabled}`
 
 Example 1:
 

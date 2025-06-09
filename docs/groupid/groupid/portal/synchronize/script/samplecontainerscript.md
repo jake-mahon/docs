@@ -26,7 +26,7 @@ __Assumptions:__
 
 - Source data contains a __DeptCode__ field.
 - Each department has a container to which new user objects should be directed.
-- XML file __DeptCodes.xml__ contains root element with __<Department>__ child elements, each of which contains __<DeptCode>__ and __<Container>__ attributes specifying desired location for user objects belonging to each department.
+- XML file __DeptCodes.xml__ contains root element with __`Department`__ child elements, each of which contains __`<DeptCode>`__ and __`<Container>`__ attributes specifying desired location for user objects belonging to each department.
 
   ```
   Dim dsDeptCodes As System.Data.DataSet = New System.Data.DataSet  

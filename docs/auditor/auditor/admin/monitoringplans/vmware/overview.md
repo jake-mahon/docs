@@ -23,7 +23,7 @@ Review your data source settings and click __Add__ to go back to your plan. The 
 
 On a high level, data collection process for VMware servers works as follows:
 
-[![hiw_diagram_vma_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/vmware/hiw_diagram_vma_thumb_0_0.png)](/docs/auditor/resources/images/auditor/howitworks/hiw_diagram_vma.png)
+![hiw_diagram_vma_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/vmware/hiw_diagram_vma_thumb_0_0.png)
 
 VMware administrator prepares a dedicated service account with sufficient permissions to collect data from VMware servers. This account must have at least __Read Only role__ on those servers. For more information on VMware vSphere roles and permissions assignment, refer to [this VMware article](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.security.doc/GUID-18071E9A-EED1-4968-8D51-E0B4F526FDA3.html).
 

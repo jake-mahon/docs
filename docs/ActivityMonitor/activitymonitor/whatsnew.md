@@ -12,7 +12,7 @@ New: Platform Support for CTERA
 - Automatic Auditing Configuration — Streamlines auditing setup with automated configurations to ensure consistency, minimize manual errors, and enhance security across platforms.
 - Multitenant Configuration Support — Enables efficient security management for multiple tenants with scalable, flexible monitoring tailored to diverse organizational needs.
 
-See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/activity.md) topic for additional information.
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/Activity.md) topic for additional information.
 
 __NOTE:__ For Netwrix Access Analyzer (formerly Enterprise Auditor) users, these capabilities will be integrated in a future release.
 

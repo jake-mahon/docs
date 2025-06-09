@@ -17,7 +17,7 @@ Within each category there are several key metrics identified by Netwrix indust
 - Medium — yellow
 - Low — green
 
-[![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/auditor/resources/images/auditor/riskassessment/dashboard.png)
+![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)
 
 After reviewing general risks assessment results in each category, you can drill-down to details covered in the underlying report. To do so, double-click the selected metric or use the View Report button.
 
@@ -31,7 +31,7 @@ __Step 2 –__ In the displayed dialog, specify new threshold values for risk le
 
 __Step 3 –__ Click OK to save the settings and close the dialog.
 
-[![modify_thresholds_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/modify_thresholds_thumb_0_0.png)](/docs/auditor/resources/images/auditor/riskassessment/modify_thresholds.png)
+![modify_thresholds_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/modify_thresholds_thumb_0_0.png)
 
 Also, for several metrics the Customize risk indicators command is available.
 

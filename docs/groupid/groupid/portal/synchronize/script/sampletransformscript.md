@@ -1,6 +1,6 @@
 # Sample Transform Scripts
 
-## Assembling a Full Name: <last name>, <first name>
+## Assembling a Full Name: `<last name>`, `<first name>`
 
 __Assumptions:__
 
@@ -15,7 +15,7 @@ DTM.Result = DTM.Source("sn")
 End If
 ```
 
-## Assembling a Full Name: <last name>, <middle initial>. <first name>
+## Assembling a Full Name: `<last name>`, `<middle initial>`. `<first name>`
 
 __Assumptions:__
 

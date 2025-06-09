@@ -57,7 +57,7 @@ Users can easily extend the out-of-the-box classification rules by adding releva
 
 In addition, there are predefined classification rules for various national identification and registration numbers. These rules typically look for ID patterns supplemented by related keywords for better classification precision.
 
-[![clues_1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1_thumb_0_0.png)](/docs/dataclassification/resources/images/clues_1.png)
+![clues_1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1_thumb_0_0.png)
 
 The rules are provided for the following countries (coverage varies):
 

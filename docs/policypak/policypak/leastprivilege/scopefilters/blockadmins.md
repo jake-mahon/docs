@@ -15,18 +15,12 @@ If you want to block only local admins (but not domain admins), then Rule #1 ne
 
 __NOTE:__ This group is not available when editing a GPO from a DC, and only available when creating the GPO from a Windows endpoint computer.)
 
-[![A screenshot of a computer
-
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/ce88d965-2aff-401b-a047-2d2c69524baa/faq-img-12.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.png)
 
 If you want toblock both local admins and domain administrators, then Rule #1 needs to look like this.
 
-[![A screenshot of a computer
-
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/9a934a56-093e-469e-a219-8ad7d55db212/faq-img-13.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.png)
 
 Again, rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be done on the user or computer side.
 
-[![A screenshot of a computer
-
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/e00cf7ba-90b8-451a-9e47-a895e08e3bd9/faq-img-14.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.png)

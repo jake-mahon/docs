@@ -4,13 +4,13 @@
 // Set to true to enable a product, false to disable
 const PRODUCTS = {
   '1secure': false,
-  'accessanalyzer': true,
+  'accessanalyzer': false,
   'accessinformationcenter': false,
   'activitymonitor': false,
   'auditor': false,
   'changetracker': false,
   'dataclassification': false,
-  'groupid': false,
+  'groupid': true,
   'passwordpolicyenforcer': false,
   'passwordreset': false,
   'passwordsecure': false,

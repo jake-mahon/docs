@@ -173,7 +173,7 @@ Auditor supports monitoring the following versions:
 
   __NOTE:__ DoD tenant types are not supported.
 
-See the [Microsoft Entra ID (formerly Azure AD)](/docs/auditor/auditor/requirements/microsoft365/azureactivedirectory/overview.md) topic for additional information.
+See the [Microsoft Entra ID (formerly Azure AD)](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/overview.md) topic for additional information.
 
 Microsoft Teams (MS Teams)
 

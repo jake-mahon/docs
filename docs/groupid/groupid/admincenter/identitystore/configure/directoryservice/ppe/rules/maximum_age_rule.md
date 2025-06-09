@@ -26,7 +26,7 @@ The Maximum Age rule forces users to change their passwords regularly. This decr
 
 Click the __Set up email__ to configure the e-mail message options.
 
-Type the _name_ and _email address_ you wish to appear in the email's From field in the From text box. The correct format is "Display Name" <mailbox@domain.com>
+Type the _name_ and _email address_ you wish to appear in the email's From field in the From text box. The correct format is "Display Name" `<mailbox@domain.com>`
 
 Type the text for the email's __Subject__ field in the Subject text box.
 

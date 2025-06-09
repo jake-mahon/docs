@@ -7,7 +7,7 @@ See the [Create a Job Collection
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJob s/Collections/{jobCollectionId}/Details
+`https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections/{jobCollectionId}/Details`
 
 ## HTTP Method
 

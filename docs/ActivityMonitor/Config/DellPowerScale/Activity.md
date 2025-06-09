@@ -21,7 +21,7 @@ Checklist Item 1: Plan Deployment
 
 ___RECOMMENDED:___ You can achieve higher throughput and fault tolerance by monitoring the Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monitor Agent. The activity will be evenly distributed between the pairs.
 
-Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/config/dellpowerscale/installcee.md)
+Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/config/dellpowerscale/InstallCEE.md)
 
 - Dell CEE should be installed on a Windows or a Linux server.
 

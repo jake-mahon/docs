@@ -13,7 +13,7 @@ To install Directory Manager, you have to run the following tools in the given o
 The Directory Manager installation package consists of:
 
 - Directory Manager 11 Prerequisites Tool (file folder)
-- Directory Manager <_version #_> (file folder)
+- Directory Manager `<_version #_>` (file folder)
 
 ## Who can install
 

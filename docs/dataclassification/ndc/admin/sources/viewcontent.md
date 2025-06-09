@@ -10,7 +10,7 @@ Click on a source row in the list of sources on the __General__ tab to view the 
 
 To browse the whole structure of the crawled content, click on the items in the list. It is also possible to filter the list by any field.
 
-[![pages_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/pages_thumb_0_0.png)](/docs/dataclassification/resources/images/pages.png)
+![pages_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/pages_thumb_0_0.png)
 
 - Each document has an associated status (shown as the ID). Click the numeric ID to read the status description:
 

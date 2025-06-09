@@ -17,20 +17,20 @@ The following table lists the Directory Manager Management Shell commandlet para
 | AcceptMessagesOnlyFromGroups | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users that the group is allowed to accept messages from. Separate multiple objects with commas (,).  (Applies to Distribution groups only.) |
 | AccidentalDeletion | If the value is set as True, user will be prompted before container deletion. |
 | Add | __Set-User, Set-contact, Set-Mailbox__  Add will append the values of multi-value attributes and replace the value of single-value attributes. |
-|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you add one or more additional owners for this group. The syntax in which the value is entered for this setting is:  -Add @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Add @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Add @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Add @{ RejectMessagesFrom = "User1","User2","User3"} -Add @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}  As the value of objects to be added, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
+|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you add one or more additional owners for this group. The syntax in which the value is entered for this setting is:  `-Add @{ AdditionalOwners = "Owner1","Owner2","Owner3"}`  `-Add @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}`  `-Add @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}`  `-Add @{ RejectMessagesFrom = "User1","User2","User3"}` `-Add @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}`  As the value of objects to be added, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you add one or more values to these parameters. Parameters and the syntax for their values follows: |
 |  | Parameter |
 |  | __SearchContainers__  (StartPaths can be used as an alternative name of this parameter for this setting) |
 |  | __IncludeRecipients__  (Includes can be used as an alternative name of this parameter for this setting) |
 |  | __ExcludeRecipients__  (Excludes can be used as an alternative name of this parameter for this setting) |
-|  | __AdditionalOwners__ |
+|  | __`AdditionalOwners`__ |
 | _Only Set-Dynasty has this attribute._ | __GroupBy__ |
 |  | __AcceptMessagesOnlyFrom__  (AuthOrig can be used as an alternative name of this parameter for this setting) |
 |  | __AcceptMessagesOnlyFromGroups__  (DLMemSubmitPerms can be used as an alternative name of this parameter for this setting) |
 |  | __RejectMessagesFrom__  (UnauthOrig can be used as an alternative name of this parameter for this setting) |
 |  | __RejectMessagesFromGroup__  (DLMemRejectPerms can be used as an alternative name of this parameter for this setting) |
 |  | The setting accepts all the identities supported by the parameter as the value of objects for each parameter. For example, for the SearchContainer parameter, the setting can accept the DN and GUID of the domains or containers being searched for group members. |
-| AdditionalOwners | The distinguished name (DN), globally unique identifier (GUID), or samAccountName of one or more users, contacts, or groups (security groups only) to set as the additional owners for the group. Passing a blank value for this parameter will remove additional owners. |
+| `AdditionalOwners` | The distinguished name (DN), globally unique identifier (GUID), or samAccountName of one or more users, contacts, or groups (security groups only) to set as the additional owners for the group. Passing a blank value for this parameter will remove additional owners. |
 | Address | Home address of a user, contact or mailbox. |
 | AdministrativeNotes | Any information about the group that is useful for its maintenance or administration. It appears on the Exchange Advanced tab of Group Properties dialog box. |
 | AdminUserName | The admin username for the Google based providers and messaging systems. This parameter becomes available depending on the value of other parameters - _IdentityStoreType_ and _Provider_. |
@@ -53,14 +53,14 @@ The following table lists the Directory Manager Management Shell commandlet para
 | ChildContainer | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create the child groups. If you have selected multiple group-by attributes, you can specify a different child container for every attribute in the same sequence as the group-by attributes are specified, separating each with a comma (,). For Managerial Dynasty, passing a blank value creates child groups in the container where the top manager resides. |
 | City | The city of a user, contact or mailbox. |
 | Clear | __Set-User, Set-Contact, Set-Mailbox__  It will clear the values of multi-value and single-value attributes. |
-|  | Set-Group  This setting applies to the AdditionalOwners parameter and lets you clear the additional owners list.  The syntax for entering the value for this setting is:  -Clear @{ AdditionalOwners}  -Clear @{ AcceptMessagesOnlyFrom }  -Clear @{ AcceptMessagesOnlyFromGroups }  -Clear @{ RejectMessagesFrom }  -Clear @{ AcceptMessagesOnlyFrom } |
+|  | Set-Group  This setting applies to the AdditionalOwners parameter and lets you clear the additional owners list.  The syntax for entering the value for this setting is:  `-Clear @{ AdditionalOwners}`  `-Clear @{ AcceptMessagesOnlyFrom }`  `-Clear @{ AcceptMessagesOnlyFromGroups }`  `-Clear @{ RejectMessagesFrom }`  `-Clear @{ AcceptMessagesOnlyFrom }` |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting works for the following multi-valued parameters and lets you clear all their existing values. Parameters and the syntax for their values follows: |
 |  | Parameters |
 |  | SearchContainers  (StartPaths can be used as an alternative name of this parameter for this setting) |
 |  | IncludeRecipients  (Includes can be used as an alternative name of this parameter for this setting) |
 |  | ExcludeRecipients  (Excludes can be used as an alternative name of this parameter for this setting) |
-|  | AdditionalOwners |
-| Only Set-Dynasty has this attribute | GroupBy |
+|  | `AdditionalOwners` |
+| Only Set-Dynasty has this attribute | __GroupBy__ |
 |  | AcceptMessagesOnlyFrom  (AuthOrig can be used as an alternative name of this parameter for this setting) |
 |  | AcceptMessagesOnlyFromGroups  (DLMemSubmitPerms can be used as an alternative name of this parameter for this setting) |
 |  | RejectMessagesFrom  (UnauthOrig can be used as an alternative name of this parameter for this setting) |
@@ -73,7 +73,7 @@ The following table lists the Directory Manager Management Shell commandlet para
 | Connected | Used to request connected identity store to the current instance of Directory Manager Management Shell. |
 | Container | The distinguished name (DN) or globally unique identifier (GUID) of one or more containers where you want to search for a user, contact or group. Separate multiple values with commas. |
 | Country | Country of a user, contact or mailbox, represented as the 2-character country code based on ISO-3166. |
-| CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager’s direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
+| CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager's direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
 | CriteriaFilters | Same as [RoleCriteriaFilters](#RoleCriteriaFilters) |
 | CriteriaScope | Same as [RoleCriteriaScope](#RoleCriteriaScope) |
 | Credential | The $Credentials environment variable holds the user's authentication information. Use this variable to execute the commandlet using the credentials of a user account other than the one you are logged on to the connected identity store. |
@@ -126,14 +126,14 @@ The following table lists the Directory Manager Management Shell commandlet para
 | DisplayName | Display name while   - creating a user, contact, group (managed & unmanaged), dynasty or mailbox.  - modifying a user, contact, group (managed & unmanaged), dynasty or mailbox.  - converting a static group to a smart group.  - retrieving a tombstone object. |
 | DisplayNameTemplate | Specifies the pattern for generating display names for Dynasty children. For the Managerial Dynasty, the template must contain the %MANAGER% keyword in the input string. This keyword is replaced with the respective manager. For all other Dynasties, the value must contain the %GROUPBY% keyword in input string for replacement with the respective GroupBy value. |
 | DistinguishedName | Distinguished name of an object in directory. |
-| Domain | Domain name of the provider mentioned in a commandlet. The domain name can be of an Active Directory domain, Microsoft Entra ID domain or messaging provider’s domain. This parameter becomes available depending on the value of other parameters. |
+| Domain | Domain name of the provider mentioned in a commandlet. The domain name can be of an Active Directory domain, Microsoft Entra ID domain or messaging provider's domain. This parameter becomes available depending on the value of other parameters. |
 | DomainExpiration | (Applies to Password Expiry group.) The domain expiration policy for the group. This policy allows you to specify maximum password age. The default value is 42 days. |
 | DynastyManagerAsMember | Set its value to True to add the manager of direct reports to the membership of the direct reports group so that the manager receives a copy of any e-mail sent to the group. The default value is False. |
 | __E__ |  |
 | EmailAddress | A valid email address of a user, contact, mailbox or group (if mail-enabled) |
 | EmailProviderDomain | This setting applies if the ConfiguredExchange setting is set to 2.  Its value is the domain name of the external e-mail provider. For example, googlegroups.com. |
 | EmailTemplatePath | Location of the email template that will be used while sending an email notification to a user or group. |
-| EnableAttributeUpdation | Enables attribute update when a user is expired in Profile Validation cycle. It sets the given string as the attribute’s value for the user. |
+| EnableAttributeUpdation | Enables attribute update when a user is expired in Profile Validation cycle. It sets the given string as the attribute's value for the user. |
 | Enabled | In some commandlet this parameter is used to retrieve enabled entities such as enabled schedules or identity stores and in some it enables an entity. |
 | EnableExpiredGroupsDeletion | Enables the deletion of expired groups. |
 | EnableGroupAttestation | Enables the group attestation i.e. to review and validate the attributes and membership of an expiring group before renewing it. |
@@ -151,7 +151,7 @@ The following table lists the Directory Manager Management Shell commandlet para
 | EndDate | Date on which membership will end or restore.  Or  Date on which membership will end/restore, or a schedule will end. |
 | EnforceOutOfBounds | Enables / Disables enrollment on an identity store. |
 | EnrollmentType | Possible values are:   - None - Mobile - SecurityQuestions - Email - Authenticator - LinkAccount - Yubikey - WindowsHello - All - Any |
-| ExcludeNestedLists | Setting a True value excludes child Dynasties from the membership of the parent Dynasty. The default structure of Managerial Dynasty adds the Smart Group of sub-level manager in the membership list of the top-level manager’s Smart Groups.  (Applies to Managerial Dynasty) |
+| ExcludeNestedLists | Setting a True value excludes child Dynasties from the membership of the parent Dynasty. The default structure of Managerial Dynasty adds the Smart Group of sub-level manager in the membership list of the top-level manager's Smart Groups.  (Applies to Managerial Dynasty) |
 | ExcludeOUs | The default value True excludes from exploration the organizational units specified in the IncludeExcludeOUs parameter. Setting its value to False applies the expiration only on the organizational units specified in the IncludeExcludeOUs parameter and excludes the rest. |
 | ExcludeRecipients | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more objects that you want to exclude statically from the group membership regardless of whether they are returned by the query. |
 | ExpansionServer | The name of the Expansion server. The Expansion server is the Exchange server responsible for expanding a distribution list and creating a message for each of the members. |
@@ -165,7 +165,7 @@ The following table lists the Directory Manager Management Shell commandlet para
 | FileLoggingEvent | Set the event for which file logs are generated. |
 | FilePath | The path of the text file, if the value of the DataSourceType parameter is Microsoft Text Driver. |
 | FilterOperation | Operation to perform on role criteria filters |
-| Filters | Specifies how the values of group-by attributes are stripped out for creating the child groups. This parameter allows you to collapse several different values into one. Use any of the following as a value of this parameter:   - <Blank value> - Do not use any filter and create a group for each distinct value of the attribute.  - Left <Number of characters> - Selects the specified number of characters from the attribute starting from the left-end of the string. Each distinct set of selected characters from the group-by attribute is then used to create a group.  - Right <Number of characters> - Selects the specified number of characters from the attribute starting from the right-end of the string. Each distinct set of selected characters from the group-by attribute is then used to create a group.  - %GROUPBY%/<the part of the value to leave out> - Use this filter when you have a character separator. Specifying this filter creates a group for each distinct value of the portion of the attribute selected. %GROUPBY% represents the significant portion of the value. After the slash, you can specify the portion you want to leave out of the attribute's value. Specifying \* after the slash leaves out any portion of the value that occurs after the slash.   For multiple group-by attributes, provide a filter values for each attribute separated by a comma (,). |
+| Filters | Specifies how the values of group-by attributes are stripped out for creating the child groups. This parameter allows you to collapse several different values into one. Use any of the following as a value of this parameter:   - `<Blank value>` - Do not use any filter and create a group for each distinct value of the attribute.  - Left `<Number of characters>` - Selects the specified number of characters from the attribute starting from the left-end of the string. Each distinct set of selected characters from the group-by attribute is then used to create a group.  - Right `<Number of characters>` - Selects the specified number of characters from the attribute starting from the right-end of the string. Each distinct set of selected characters from the group-by attribute is then used to create a group.  - `%GROUPBY%/<the part of the value to leave out>` - Use this filter when you have a character separator. Specifying this filter creates a group for each distinct value of the portion of the attribute selected. %GROUPBY% represents the significant portion of the value. After the slash, you can specify the portion you want to leave out of the attribute's value. Specifying \* after the slash leaves out any portion of the value that occurs after the slash.   For multiple group-by attributes, provide a filter values for each attribute separated by a comma (,). |
 | FirstName | The first name of a user, contact or mailbox. |
 | FromEmail | Email address that SMTP uses to send emails from. |
 | FromEmailAddress | The e-mail address to use for sending notifications |
@@ -193,7 +193,7 @@ The following table lists the Directory Manager Management Shell commandlet para
 | HistoryTrackingOption | Specifies what the history will keep track of. Possible values are:   - Nothing  - All\_Actions  - Selected\_Actions |
 | Home | First home phone number of a user, contact or mailbox. |
 | Home2 | Second home phone number of a user, contact or mailbox. |
-| HomePage | The link of a user, contact, group or mailbox’s profile or home page. |
+| HomePage | The link of a user, contact, group or mailbox's profile or home page. |
 | __I__ |  |
 | Identity | Supported identities are:   - Distinguished name (DN) - Globally unique identifier (GUID) - Comman-name (Cn) - Name - SamAccountName |
 | IdentityStoreId | Unique identifier of identity store. |
@@ -302,13 +302,13 @@ The following table lists the Directory Manager Management Shell commandlet para
 | RejectMessagesFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who are not allowed to send e-mail messages to the group.  (Applies to Distribution groups only) |
 | RejectMessagesFromGroup | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users, the group is restricted to accept messages from. Separate multiple 0bjects with commas (,).  (Applies to Distribution groups only.) |
 | Remove | __Set-User, Set-Contact, Set-Mailbox__  It will remove the values of specified attributes. |
-|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you remove one or more additional owners for this group.  The syntax in which the value is entered for this setting is:  -Remove @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Remove @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Remove @{ RejectMessagesFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}  As the value of objects to be removed, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user contact, or security group. |
+|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you remove one or more additional owners for this group.  The syntax in which the value is entered for this setting is:  `-Remove @{ AdditionalOwners = "Owner1","Owner2","Owner3"}`  `-Remove @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}`  `-Remove @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}`  `-Remove @{ RejectMessagesFrom = "User1","User2","User3"}`  `-Remove @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}`  As the value of objects to be removed, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you remove one or more values from these parameters. Parameters and the syntax for their values follows: |
 |  | __Parameter__ |
 |  | __SearchContainers__  (StartPaths can be used as an alternative name of this parameter for this setting) |
 |  | __IncludeRecipients__  (Includes can be used as an alternative name of this parameter for this setting) |
 |  | __ExcludeRecipients__  (Excludes can be used as an alternative name of this parameter for this setting) |
-|  | __AdditionalOwners__ |
+|  | __`AdditionalOwners`__ |
 | Only Set-Dynasty has this attribute. | __GroupBy__ |
 |  | AcceptMessagesOnlyFrom  (AuthOrig can be used as an alternative name of this parameter for this setting) |
 |  | AcceptMessagesOnlyFromGroups  (DLMemSubmitPerms can be used as an alternative name of this parameter for this setting) |
@@ -319,14 +319,14 @@ The following table lists the Directory Manager Management Shell commandlet para
 | RepeatDuration | Applicable only when the Repeat parameter is applied. It specifies the duration in minutes during which the trigger will repeat. |
 | RepeatInterval | Applicable only when the Repeat parameter is applied. It specifies the interval in minutes after which the trigger will start again. |
 | Replace | __Set-User, Set-Contact, Set-Mailbox__  It will replace the old value of attribute with newly specified value. |
-|  | - Set-Group   This setting applies to the AdditionalOwners parameter and lets you entirely overwrite its existing values.  The syntax in which the value is entered for this setting is:  -Replace @{ AdditionalOwners = "Owner4","Owner5"}  -Replace @{ AcceptMessagesOnlyFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFromGroups = "Group4","Group5"}  -Replace @{ RejectMessagesFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFrom = "Group4","Group5"}  As the value of replacing objects, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
+|  | - Set-Group   This setting applies to the AdditionalOwners parameter and lets you entirely overwrite its existing values.  The syntax in which the value is entered for this setting is:  `-Replace @{ AdditionalOwners = "Owner4","Owner5"}`  `-Replace @{ AcceptMessagesOnlyFrom = "User4","User5"}`  `-Replace @{ AcceptMessagesOnlyFromGroups = "Group4","Group5"}`  `-Replace @{ RejectMessagesFrom = "User4","User5"}`  `-Replace @{ AcceptMessagesOnlyFrom = "Group4","Group5"}`  As the value of replacing objects, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you entirely overwrite all of their existing values. Parameters and the syntax of their values follows: |
 |  | Parameter |
 |  | SearchContainers  (StartPaths can be used as an alternative name of this parameter for this setting) |
 |  | IncludeRecipients  (Includes can be used as an alternative name of this parameter for this setting) |
 |  | ExcludeRecipients  (Excludes can be used as an alternative name of this parameter for this setting) |
-|  | AdditionalOwners |
-| Only Set-Dynasty has this attribute. | GroupBy |
+|  | `AdditionalOwners` |
+| Only Set-Dynasty has this attribute. | __GroupBy__ |
 |  | AcceptMessagesOnlyFrom  (AuthOrig can be used as an alternative name of this parameter for this setting) |
 |  | AcceptMessagesOnlyFromGroups  (DLMemSubmitPerms can be used as an alternative name of this parameter for this setting) |
 |  | RejectMessagesFrom  (UnauthOrig can be used as an alternative name of this parameter for this setting) |

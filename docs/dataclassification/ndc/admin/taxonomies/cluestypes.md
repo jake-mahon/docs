@@ -282,7 +282,7 @@ At classification time if the referenced node or any of its descendants (up to t
 
 Select the Exclude Not Available for Tagging check box, if you want to exclude the terms, which are not available for tagging. This feature lets you select the grayed-out terms and exclude them for tagging for your taxonomy. For example, you have UK ZIP code, which was tagged as __Available for Tagging__ before. It doesn't qualify as sensitive for your Confidential term. Therefore, you can apply this feature.
 
-[![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.png)](/docs/dataclassification/resources/images/taxonomies/termboostclue_exludenotavailablefortagging.png)
+![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.png)
 
 ## Language Clues
 

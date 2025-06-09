@@ -2,7 +2,7 @@
 
 Auditor allows you to audit Office 365 organizations that have established modern authentication as their identity management approach, including support for [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks). To learn more about modern authentication, refer to the following Microsoft article: [What is modern authentication](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#what-is-modern-authentication).
 
-In this scenario, Netwrix Auditor will access the cloud-based infrastructure via Microsoft Graph and other modern APIs, being authenticated through a pre-configured Microsoft Entra ID (formerly Azure AD) application with appropriate access permissions. So, you should register an Microsoft Entra ID app and provide its settings to Auditor  when configuring a monitored item.
+In this scenario, Netwrix Auditor will access the cloud-based infrastructure via Microsoft Graph and other modern APIs, being authenticated through a pre-configured Microsoft Entra ID (formerly Azure AD) application with appropriate access permissions. So, you should register an Microsoft Entra ID app and provide its settings to Auditor when configuring a monitored item.
 
 ## Configure the Microsoft Entra ID App for Auditing Exchange Online
 
@@ -50,7 +50,7 @@ __Step 8 –__ Download the PowerShell script for certificate creation, as provi
 __Step 9 –__ To create a self-signed certificate to be used by the app, run the following command:
 
 ```
- .\Create-SelfSignedCertificate.ps1 -CommonName "MyCompanyName" -StartDate 2020-04-01 -EndDate 2022-04-01
+.\Create-SelfSignedCertificate.ps1 -CommonName "MyCompanyName" -StartDate 2020-04-01 -EndDate 2022-04-01
 ```
 
 where:
@@ -65,23 +65,23 @@ __Step 10 –__ When prompted to specify a password, click __Enter__.
 
 __Step 11 –__ Go to __Manage > Certificates & secrets__, click __Upload certificate__ and upload the_.crt_ file you have just created.
 
-[](/docs/auditor/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)[![certificates_secrets_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.png)](/docs/auditor/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)
+![certificates_secrets_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.png)
 
 __Step 12 –__ To create Exchange Online connection session, you can provide certificate file path or thumbprint. If you want to use a file path, run the following command:
 
 ```
-Connect-ExchangeOnline -CertificateFilePath "full_path_to_certificate"   
+Connect-ExchangeOnline -CertificateFilePath "full_path_to_certificate"   
 -AppID "yourAppId" -Organization "Office365_tenant_name"
 ```
 
 Application (client ID) can be found in the __Overview__ page.
 
-[](/docs/auditor/resources/images/auditor/configuration/azureadapp/tenant_id.png)[![tenant_id_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.png)](/docs/auditor/resources/images/auditor/configuration/azureadapp/tenant_id.png)
+![tenant_id_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.png)
 
 For example:
 
 ```
-Connect-ExchangeOnline -CertificateFilePath "C:\Path\MyCompanyName1.pfx"   
+Connect-ExchangeOnline -CertificateFilePath "C:\Path\MyCompanyName1.pfx"   
 -AppId "402b12a2-fb2b-4222-8f54-5596def1" -Organization "myorganization123.onmicrosoft.com"
 ```
 
@@ -94,7 +94,7 @@ Import-PfxCertificate -FilePath "path_to_pfx_certificate" -CertStoreLocation Cer
 Then run the command like following:
 
 ```
-Connect-ExchangeOnline -CertificateThumbprint 6AEА5A82911ААА3F76FEE149B7B52А70DDFD88 -AppId a14a 822d-f228-412b-9222-281de23   
+Connect-ExchangeOnline -CertificateThumbprint 6AEА5A82911ААА3F76FEE149B7B52А70DDFD88 -AppId a14a 822d-f228-412b-9222-281de23   
 -Organization myorganization123.onmicrosoft.com
 ```
 
@@ -121,4 +121,4 @@ __Step 3 –__ Run the cmdlet, depending on the mailboxes you plan to audit (all
 | For | Command |
 | --- | --- |
 | All | Execute the following cmdlet:  Get-ExoMailbox -PropertySets Minimum -RecipientTypeDetails UserMailbox,SharedMailbox,EquipmentMailbox,LinkedMailbox,RoomMailbox | Set-Mailbox -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create |
-| Selected | Execute the following cmdlet:  Set-Mailbox -Identity `{0}` -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create  Where the _`{0}`_ character must be replaced with any of the following:   - Display Name. Example: "Michael Jones" - Domain\User. Example: enterprise.local\MJones - Email address. Example: analyst@enterprise.onmicrosoft.com - GUID. Example: `{c43a7694-ba06-46d2-ac9b-205f25dfb32d}` - LegacyExchangeDN. Example: /o=EnterpriseDev/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=97da560450c942aba     81b2da46c60858a-analyst - SamAccountName. Example: MANAG58792-1758064122 - (DN) Distinguished name. Example: CN=MJones,CN=Users,DC=enterprisedc1,DC=enterprise,DC=local - User ID or User Principal Name. Example: MJones@enterprise.onmicrosoft.com   If you are going to audit multiple individual mailboxes, run the cmdlet for each mailbox you need. |
+| Selected | Execute the following cmdlet:  Set-Mailbox -Identity `{0}` -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create  Where the _`{0}`_ character must be replaced with any of the following:   - Display Name. Example: "Michael Jones" - Domain\User. Example: enterprise.local\MJones - Email address. Example: analyst@enterprise.onmicrosoft.com - GUID. Example: `{c43a7694-ba06-46d2-ac9b-205f25dfb32d}` - LegacyExchangeDN. Example: /o=EnterpriseDev/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=97da560450c942aba     81b2da46c60858a-analyst - SamAccountName. Example: MANAG58792-1758064122 - (DN) Distinguished name. Example: CN=MJones,CN=Users,DC=enterprisedc1,DC=enterprise,DC=local - User ID or User Principal Name. Example: MJones@enterprise.onmicrosoft.com   If you are going to audit multiple individual mailboxes, run the cmdlet for each mailbox you need.

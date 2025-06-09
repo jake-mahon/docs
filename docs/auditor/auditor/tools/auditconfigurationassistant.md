@@ -80,7 +80,7 @@ At this step, you will be presented the results of the environment readiness ass
 - the list of current and required settings for each entity
 - the list of issues (if any) that occurred during the assessment
 
-[![assessment_results_thumb_0_0](/img/product_docs/auditor/auditor/tools/assessment_results_thumb_0_0.png)](/docs/auditor/resources/images/auditor/other/assessment_results.png)
+![assessment_results_thumb_0_0](/img/product_docs/auditor/auditor/tools/assessment_results_thumb_0_0.png)
 
 Follow the steps to view results.
 

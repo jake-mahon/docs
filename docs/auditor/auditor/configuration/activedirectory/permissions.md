@@ -17,7 +17,7 @@ The account used for data collection must meet the following requirements:
   - If you plan to process the Active Directory Deleted Objects container, Read permission on
     this container are required. See the [Grant Permissions for the Deleted Objects Container](#Grant-Permissions-for-the-Deleted-Objects-Container) topic for additional information.
 
-If the account selected for data collection is not a member of the Domain Admins group, see the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic.
+If the account selected for data collection is not a member of the Domain Admins group, see the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md) topic.
 
 ## Additional Configuration to Review Changes Made via Exchange Server
 
@@ -25,7 +25,7 @@ If you have an on-premises Exchange server in your Active Directory domain, cons
 
 - Membership in the __Organization Management__ or __Records Management__ group.
 
-- The __Audit Logs__ management role (see the [Assign Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information).
+- The __Audit Logs__ management role (see the [Assigning Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic for additional information.
 
@@ -33,7 +33,7 @@ You will also need to configure Exchange Administrator Audit Logging (AAL) setti
 
 The following is required if auto-backup is enabled for the domain controller event logs:
 
-- Permissions to access the HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic for additional information.
+- Permissions to access the HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md) topic for additional information.
 - Membership in one of the following groups: __Administrators__, __Print Operators__, __Server Operators__.
 - Read/Write share permission and Full control security permission on the logs backup folder.
 
@@ -59,7 +59,7 @@ If you need to process Active Directory __Deleted Objects__ container, consider 
 
 If auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissionsregistrykeys.md) topic for additional information.
+- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md) topic for additional information.
 - Membership in any of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder.
 
@@ -68,7 +68,7 @@ __NOTE:__ Grant these permissions only if the account you plan to use for data c
 If you have an on-premises Exchange server in your Active Directory domain, consider that some changes can be made via that Exchange server. To be able to audit and report who made those changes, you should make sure that the account used for data collection has any of the following:
 
 - Membership in the __Organization Management__ or __Records Management__ group.
-- The __Audit Logs__ management role (see the [Assigning Management Roles](/docs/auditor/auditor/configuration/exchange/auditlogsrole.md) topic for additional information).
+- The __Audit Logs__ management role (see the [Assigning Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic for additional information.
 
@@ -82,7 +82,7 @@ Perform this procedure only if the account selected for data collection is not a
 
 Follow the steps to configure the Manage Auditing and Security Log Policy.
 
-__Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
+__Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
 
 __Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` > Domains > `<domain_name>`__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 
