@@ -16,7 +16,7 @@ The filters are separated into the following categories:
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#export) option.
 
 Filter Value Entry
 

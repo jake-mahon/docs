@@ -39,7 +39,7 @@ See the [Add-On Parameters](/docs/auditor/auditor/addon/hyperv/parameters.md)top
 | Parameter | Default value | Description |
 | --- | --- | --- |
 | DataCollectionServer | (empty) | Specify SCVMM server to collect data from. You can use IP address, FQDN or NETBIOS name.  For _localhost_, leave this parameter empty. |
-| DataCollectionUserName | (empty) | Specify user account that will be used for data collection from SCVMM server. To use the account currently logged in, leave this parameter empty.s  Make sure the account has administrative rights on that server (see the [Accounts and Rights](/docs/auditor/auditor/addon/hyperv/overview.md#Accounts-and-Rights) topic for additional information). |
+| DataCollectionUserName | (empty) | Specify user account that will be used for data collection from SCVMM server. To use the account currently logged in, leave this parameter empty.s  Make sure the account has administrative rights on that server (see the [Accounts and Rights](/docs/auditor/auditor/addon/hyperv/overview.md#accounts-and-rights) topic for additional information). |
 | DataCollectionPassword |  | Specify user account password. |
 | ShortTermFolder | ShortTerm | Specify path to the short-term archive (Netwrix Auditor working folder). You can use full or relative path. |
 

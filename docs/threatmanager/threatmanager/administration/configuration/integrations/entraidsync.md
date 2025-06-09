@@ -1,6 +1,6 @@
 # Entra ID Sync Page
 
-The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](/docs/threatmanager/threatmanager/requirements/permissions/entraidsync.md#Application-Permissions-for-Entra-IDSync)topic for additional information about the permissions required for Microsoft Entra ID syncing.
+The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](/docs/threatmanager/threatmanager/requirements/permissions/entraidsync.md#application-permissions-for-entra-idsync)topic for additional information about the permissions required for Microsoft Entra ID syncing.
 
 ![Entra ID Sync Page](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.png)
 

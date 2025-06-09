@@ -37,9 +37,9 @@ __Step 3 –__ Enter the account username [DOMAIN\USERNAME] to be used for backu
 
 __Step 4 –__ Enter the password for the account in the Password field.
 
-__NOTE:__ The account must have Domain Admin privileged access to read and write object data in order to back up, rollback, and restore objects in Active Directory. If the account has read rights only, it will be able to back up the domain but unable to rollback and restore objects. In this case, alternate credentials with read and write access to objects will have to be provided on the Credentials page of the Object Rollback and Object Restore wizards. See the [Rollback Objects](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/rollback.md) and [Recover an Object](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recover.md#Recover-an-Object) topics for information on the wizards.
+__NOTE:__ The account must have Domain Admin privileged access to read and write object data in order to back up, rollback, and restore objects in Active Directory. If the account has read rights only, it will be able to back up the domain but unable to rollback and restore objects. In this case, alternate credentials with read and write access to objects will have to be provided on the Credentials page of the Object Rollback and Object Restore wizards. See the [Rollback Objects](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/rollback.md) and [Recover an Object](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recover.md#recover-an-object) topics for information on the wizards.
 
-For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#Least-Privilege-Access-Model) topic.
+For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
 __Step 5 –__ Click __Next__.
 
@@ -53,7 +53,7 @@ __Step 8 –__ In the Repeat every field, enter a frequency, in minutes, to set 
 
 __NOTE:__ If the start time is changed from the default and a frequency is selected (in minutes), the backups will run at the desired frequency but will skip from midnight until the selected start time.
 
-![Add Domain Configuration wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Add Domain Configuration wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 9 –__ (_Optional_) Select the __Collect GPOs__ checkbox to enable GPO rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip to Step 9.
 
@@ -63,7 +63,7 @@ __NOTE:__ The path must be a network share. Do not provide the path to a local d
 
 __Step 11 –__ Click __Next__.
 
-![Add Domain Configuration wizard - Notification page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.png)
+![Add Domain Configuration wizard - Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.png)
 
 __Step 12 –__ To set notifications, select the Send email notifications check box and enter the email address of one or more users and/or groups to receive the job start and end notifications. Use a semicolon (;) to separate multiple recipients. See the [Notifications Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/notifications.md) topic for additional information.
 
@@ -107,7 +107,7 @@ __NOTE:__ If the start time is changed from the default and a frequency is selec
 
 __Step 9 –__ Click __Next__.
 
-![Edit Domain Configuration wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Edit Domain Configuration wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 10 –__ (_Optional_) Select or deselect the __Collect GPOs__ checkbox to enable or disable GPO rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip to Step 12.
 
@@ -117,7 +117,7 @@ __NOTE:__ The path must be a network share. Do not provide the path to a local d
 
 __Step 12 –__ Click __Next__.
 
-![Edit Domain Configuration wizard - Notification page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.png)
+![Edit Domain Configuration wizard - Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.png)
 
 __Step 13 –__ To set notifications, select the Send email notifications check box and enter the email address of one or more users and/or groups to receive the job start and end notifications. Use a semicolon (;) to separate multiple recipients. See the [Notifications Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/notifications.md) topic for additional information.
 

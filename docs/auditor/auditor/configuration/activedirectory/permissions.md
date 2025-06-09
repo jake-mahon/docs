@@ -25,7 +25,7 @@ If you have an on-premises Exchange server in your Active Directory domain, cons
 
 - Membership in the __Organization Management__ or __Records Management__ group.
 
-- The __Audit Logs__ management role (see the [Assign Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#Assign-Management-Roles) topic for additional information).
+- The __Audit Logs__ management role (see the [Assign Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic for additional information.
 

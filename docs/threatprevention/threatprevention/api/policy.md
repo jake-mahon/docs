@@ -44,7 +44,7 @@ Remove-SIPolicy -PolicyID "255"
 
 ## Add or Modify Policies
 
-The ```Export-SIPolicy``` and``` Import-SIPolicy``` commands can be used to export and edit the XML file of an existing policy, and then import (add or replace) the edited policy. See the [Not a Policy XML Expert](/docs/threatprevention/threatprevention/api/overview.md#Not-a-Policy-XML-Expert) topic for additional information on policy layout and how to make changes to the XML.
+The ```Export-SIPolicy``` and``` Import-SIPolicy``` commands can be used to export and edit the XML file of an existing policy, and then import (add or replace) the edited policy. See the [Not a Policy XML Expert](/docs/threatprevention/threatprevention/api/overview.md#not-a-policy-xml-expert) topic for additional information on policy layout and how to make changes to the XML.
 
 ### Export Policies to an XML File
 

@@ -15,7 +15,7 @@ Step 1 – In Admin Center, click __Applications__ in the left pane.
 Step 2 – On the __Applications__ page, click the __Email Service__ tab.  
 The tab displays the default Email service(s) hosted in native IIS. The number of services displayed on the tab depend on the number of nodes in all Elasticsearch clusters in your environment, as each node has its own Email service. On each Directory Manager instance, notifications will be generated for Directory Manager operations and will be queued in Notification queue. All the deployed services on each Directory Manager instance will check notification queue every 100 second and will send 10 notifications in Notification queue for processing.
 
-See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-Directory-Manager) topic for additional information. For details displayed on a service card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic.
+See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic for additional information. For details displayed on a service card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 You cannot create a new Email service or delete the existing one.
 
@@ -23,7 +23,7 @@ You cannot create a new Email service or delete the existing one.
 
 You can manage the following settings for the Email service:
 
-- [Change a Service’s Display Name](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#Change-a-Services-Display-Name)
-- [Start or Stop a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#Start-or-Stop-a-Service)
-- [View the Deployment Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#View-the-Deployment-Settings-for-a-Service)
-- [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service)
+- [Change a Service’s Display Name](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
+- [Start or Stop a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
+- [View the Deployment Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
+- [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)

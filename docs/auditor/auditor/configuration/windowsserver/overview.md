@@ -213,7 +213,7 @@ The below is the full list of keys (and subkeys) involved in Windows Server audi
 
 Consider that audit data for the registry keys themselves will not appear in Netwrix Auditor reports, alerts or search results, as it is only used as one of the sources for the Activity Records formation.
 
-- You can configure these settings automatically using Netwrix Auditor, as described in the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic. Corresponding audit settings will be also applied automatically after you select a checkbox under __Monitor changes to system components__ on the __General__ tab in the Windows Server data source properties.
+- You can configure these settings automatically using Netwrix Auditor, as described in the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic. Corresponding audit settings will be also applied automatically after you select a checkbox under __Monitor changes to system components__ on the __General__ tab in the Windows Server data source properties.
 
 Audit settings will be automatically adjusted only for the keys/subkeys involved in the monitoring of selected components (granular adjustment). For example, if you selected __Services__, the program will adjust the audit settings for the following subkeys:
 

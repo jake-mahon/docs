@@ -72,7 +72,7 @@ Create a resource type by proceeding as follows:
 
    ![New Resource Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/resourcetype_newresourcet_v603.png)
 
-   - ```Identifier```: must be unique among resource types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure).
+   - ```Identifier```: must be unique among resource types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
    - ```Name```: will be displayed in the UI to identify the resource type.
    - ```Policy```: [policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) in which the resource type exists.
    - ```Source Entity Type```: entity type (from any existing connector) used to fill the target entity type.

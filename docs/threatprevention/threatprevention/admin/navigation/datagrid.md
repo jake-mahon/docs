@@ -76,7 +76,7 @@ Click the __pin icon__ to open additional filtration options in a filter window.
 
 ## Search Data
 
-The Find Panel enables you to search for data in the data grid. It is represented with a magnifying glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide Find Panel option on the [Data Grid Right-Click Menu](/docs/threatprevention/threatprevention/admin/navigation/rightclickmenus.md#Data-Grid-Right-Click-Menu).
+The Find Panel enables you to search for data in the data grid. It is represented with a magnifying glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide Find Panel option on the [Data Grid Right-Click Menu](/docs/threatprevention/threatprevention/admin/navigation/rightclickmenus.md#data-grid-right-click-menu).
 
 On clicking the magnifying glass icon, the Find box appears as:
 

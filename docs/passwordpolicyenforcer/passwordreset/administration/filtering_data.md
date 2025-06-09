@@ -2,7 +2,7 @@
 
 The Data Console can show thousands of records, but only some of them will be of interest to you at any time. Filters let you focus on the important information.
 
-You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#Filtering-by-Column-Values). More complex filters are created with the [Custom Filters](#Custom-Filters) and [Filter Editor](/docs/passwordpolicyenforcer/passwordreset/administration/filter_editor.md#Filter-Editor) windows.
+You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#Filtering-by-Column-Values). More complex filters are created with the [Custom Filters](#Custom-Filters) and [Filter Editor](/docs/passwordpolicyenforcer/passwordreset/administration/filter_editor.md) windows.
 
 ### The Filter Row
 

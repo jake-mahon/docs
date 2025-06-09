@@ -21,4 +21,4 @@ Note the SoD Bundle ID has been updated due to NetSuite changes.
 
    ![Install the Strongpoint SoD Library Bundle](/img/product_docs/strongpointfornetsuite/sod/sod_install_lib1.png)
 5. Install the Bundle as usual.
-6. Review the [Default SoD Custom Record Types and Permission Lists](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md#Default-SoD-Custom-Record-Types-and-Permission-Lists) table and add any permissions needed to your Custom Roles.
+6. Review the [Default SoD Custom Record Types and Permission Lists](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md#default-sod-custom-record-types-and-permission-lists) table and add any permissions needed to your Custom Roles.

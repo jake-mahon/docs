@@ -10,7 +10,7 @@ Use this icon to launch the Access Reviews Console for the first time.
 
 The Access Reviews application is installed with a Builtin Administrator account; "admin" is the User Name. You will be prompted to set the account's password. It must be eight or more characters long. After setting the password, you will need to login with the "admin" account.
 
-Using the Configuration interface, the Builtin Administrator account can be disabled once a domain account has been granted the Administrator role. You can also change the password for the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
+Using the Configuration interface, the Builtin Administrator account can be disabled once a domain account has been granted the Administrator role. You can also change the password for the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account) topic for additional information.
 
 ![firstlaunchlandingpage](/img/product_docs/auditor/access/reviews/admin/firstlaunchlandingpage.png)
 

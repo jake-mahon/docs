@@ -16,5 +16,5 @@ The Group Lifecycle job is responsible for logically deleting expired groups, bu
 
 By default, the __My Expired Groups__ tab lists the groups that you are the primary owner for. To include the groups for which you are an additional owner, select the __Display additional group ownership in My Expired Groups__ check box on the [Portal Settings](/docs/groupid/groupid/portal/setting/portal.md) panel.
 
-You can [Modify Search Directory](/docs/groupid/groupid/portal/group/allgroups.md#Modify-Search-Directory) to search expired groups and add [Filter All Groups](/docs/groupid/groupid/portal/group/allgroups.md#Filter-All-Groups)by clicking __My Expired Group Grid Filters__.
+You can [Modify Search Directory](/docs/groupid/groupid/portal/group/allgroups.md#modify-search-directory) to search expired groups and add [Filter All Groups](/docs/groupid/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __My Expired Group Grid Filters__.
 All the expired groups matching the filters will be displayed.

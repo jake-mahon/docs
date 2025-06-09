@@ -46,7 +46,7 @@ Robot Framework needs two spaces between two different instructions to parse the
 For example, ```Open Connection``` consists of only one instruction. Only one space is thus needed between the two words. But, ```Open Connection ${IPADDRESS}``` consists of two instructions, the function and the parameter. Two spaces are then required to separate ```Connection``` from ```${IPADDRESS}```.  
 To read your script more easily, you could also use the pipe character (```|```) between instructions, like this: ```Open Connection | ${IPADDRESS}```.
 
-See the [Robot Framework Libraries](https://robotframework.org/#Robot-Framework-Libraries) for additional information.
+See the [Robot Framework Libraries](https://robotframework.org/#robot-framework-libraries) for additional information.
 
 ### Define specific functions
 

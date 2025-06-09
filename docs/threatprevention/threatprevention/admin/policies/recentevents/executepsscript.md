@@ -14,4 +14,4 @@ __NOTE:__ For a PowerShell script to reference the selected event data, it is ne
 $sw.WriteLine(("EventName: " + $helper.EventName))
 ```
 
-See the [Default PowerShell 4.0 Script](/docs/threatprevention/threatprevention/admin/policies/actions/powershell.md#Default-PowerShell-40-Script) topic for the full example script.
+See the [Default PowerShell 4.0 Script](/docs/threatprevention/threatprevention/admin/policies/actions/powershell.md#default-powershell-40-script) topic for the full example script.

@@ -8,7 +8,7 @@ User reports identify the following information as scanned from the targeted env
 - What is that user doing with the access
 - What Active Directory or Entra ID (formerly Azure Active Directory) permissions are applied to the user object
 
-Activity reports display information for a selected date range. Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on selecting a date range and filtering the trend graphs. Activity reports display local time stamps. Activity information is represented in two ways:
+Activity reports display information for a selected date range. Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features) topic for instructions on selecting a date range and filtering the trend graphs. Activity reports display local time stamps. Activity information is represented in two ways:
 
 - Activity Statistics – Statistics reports show the count of operation events performed for the selected resource within the selected date range. These events are normalized into the operations of Reads, Writes, Deletes, and Manages.
 - Activity Details – Details reports show the specific operation events that occurred for the selected resource within the selected date range

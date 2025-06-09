@@ -9,7 +9,7 @@ Licensing ](/docs/groupid/groupid/admincenter/general/licensing.md) topic.
 
 You can designate a recipient as the default approver for workflow requests. Requests are routed to this recipient based on the following rules:
 
-- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/docs/groupid/groupid/admincenter/workflow/overview.md#Workflow-Approval-Scenarios) topic.
+- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/docs/groupid/groupid/admincenter/workflow/overview.md#workflow-approval-scenarios) topic.
 - When approver acceleration is enabled:
 
   - A request is sent to the default approver when the last approver in the acceleration chain does not approve or deny it within the specific number of days.

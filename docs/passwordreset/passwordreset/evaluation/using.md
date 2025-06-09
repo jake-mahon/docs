@@ -16,4 +16,4 @@ Select the __Password Policy Enforcer integration__ check box in the General tab
 
 An Password Reset license does not include a Password Policy Enforcer license. See [Administration](/docs/passwordreset/passwordpolicyenforcer/administration/administration_overview.md) in Password Policy Enforcer topic for additional information.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

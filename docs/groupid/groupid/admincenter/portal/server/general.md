@@ -37,7 +37,7 @@ NOTE: You may observe the following message on the __Server Settings – General
 
 ![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.png)
 
-It relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-Directory-Manager-Portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
+It relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
 the portal too, in order to benefit from the linking.
 
 ## View the Deployment(s) for a Portal

@@ -26,4 +26,4 @@ Please do not enable this option if you are using Netwrix Password Reset v3.3 wi
 
 See the Netwrix Password Reset v3.3 [Bug Fix List PDF](https://helpcenter.netwrix.com/bundle/PasswordReset_3.3_ReleaseNotes/resource/Netwrix_PasswordReset_3.3_BugFixList.pdf) for a list of bugs fixed in this version.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

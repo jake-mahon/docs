@@ -4,7 +4,7 @@ The Threat Prevention Agent is updated from the Agents interface.
 
 __NOTE:__ If you are using an Endpoint Detection and Response (EDR) solution to protect LSASS, you must create an exclusion for Threat Prevention using any of these methods:
 
-- Add the path or names of the files listed under Agent Server in the [Installation](/docs/threatprevention/threatprevention/install/overview.md#Installation) topic in the EDR.
+- Add the path or names of the files listed under Agent Server in the [Installation](/docs/threatprevention/threatprevention/install/overview.md) topic in the EDR.
 - Add the hash of the individual files in the EDR. In this case, every time a new Agent version is deployed, the hashes change and will have to be updated. If this is not done prior to upgrade, the Agent will not be able to hook into LSASS as the executable hash will be different.
 
 In most cases, only the SIWindowsAgent.exe and SI.ActiveDirectoryMonitor.dll files need to be white-listed.

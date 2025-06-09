@@ -69,7 +69,7 @@ NOTE: When a Smart Group, created with a custom attribute in a previous Director
 
 By default, the Replication service runs every 10 minutes. However, you can force run it any time for an identity store to replicate object attributes to Elasticsearch.
 
-Force-starting the service has no impact on the interval set for triggering the service on the Replication page. See the [Specify a Replication Interval for Objects](/docs/groupid/groupid/admincenter/replication/settings.md#Specify-a-Replication-Interval-for-Objects)topic.
+Force-starting the service has no impact on the interval set for triggering the service on the Replication page. See the [Specify a Replication Interval for Objects](/docs/groupid/groupid/admincenter/replication/settings.md#specify-a-replication-interval-for-objects)topic.
 
 You can force run the Replication service for an identity store in any of the following ways:
 
@@ -98,7 +98,7 @@ The card also displays the last run date and time of the service.
 Objects that are deleted from the directory must also be removed from Elasticsearch. By default, the interval for removing deleted objects from Elasticsearch is set to 60 minutes. You can, however, force run the Replication service for an identity store
 any time to remove deleted objects.
 
-Force-starting the service has no impact on the interval set for triggering the service on the __Replication__ page. See the [Specify Interval for Deleting Tombstone Objects](/docs/groupid/groupid/admincenter/replication/settings.md#Specify-Interval-for-Deleting-Tombstone-Objects) topic.
+Force-starting the service has no impact on the interval set for triggering the service on the __Replication__ page. See the [Specify Interval for Deleting Tombstone Objects](/docs/groupid/groupid/admincenter/replication/settings.md#specify-interval-for-deleting-tombstone-objects) topic.
 
 For an identity store, you can force run the Replication service (for deleting objects) in any of the following ways:
 

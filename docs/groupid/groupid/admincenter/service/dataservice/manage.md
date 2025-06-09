@@ -17,7 +17,7 @@ Step 1 – In Admin Center, click __Applications__ in the left pane.
 
 Step 2 – On the Applications page, click the __Data Service__ tab. The Data Service tab page is displayed, that lists the default Data service created while configuring Directory Manager and any other Data service that you have created.
 
-When multiple Directory Manager instances have been deployed, you will find multiple default Data services on this tab page, as each instance has its own default Data service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-Directory-Manager) topic.
+When multiple Directory Manager instances have been deployed, you will find multiple default Data services on this tab page, as each instance has its own default Data service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic.
 
 Step 3 – The card for a Data service displays the following information:
 
@@ -110,7 +110,7 @@ Step 5 – On the Deployment Configurations tab:
 
 Directory Manager uses file logging and Windows logging to monitor events from a service. You can set the logging level for a service to track a specific set of information for it.
 
-For details on file logging and Windows logging, see the [File Logging](/docs/groupid/groupid/admincenter/portal/server/log.md#File-Logging) and [Windows Logging](/docs/groupid/groupid/admincenter/portal/server/log.md#Windows-Logging) topics. Replace references to the portal with the respective service.
+For details on file logging and Windows logging, see the [File Logging](/docs/groupid/groupid/admincenter/portal/server/log.md#file-logging) and [Windows Logging](/docs/groupid/groupid/admincenter/portal/server/log.md#windows-logging) topics. Replace references to the portal with the respective service.
 
 NOTE: Windows logging is not available for Data service and Security service.
 
@@ -131,7 +131,7 @@ IIS, or Docker) where the service is deployed. The Select Application Deployment
 Step 5 – Click the __Logging__ tab.
 
 Step 6 – In the File Logging area, select a logging level for the service in the Log Events drop-down list.  
-File logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/docs/groupid/groupid/admincenter/portal/server/log.md#Change-the-File-Logging-Level-for-a-Portal-Instance)topic for information on the logging levels. Replace references to the portal with the respective service.
+File logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/docs/groupid/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic for information on the logging levels. Replace references to the portal with the respective service.
 
 Step 7 – Click __Save__.
 
@@ -172,7 +172,7 @@ IIS, or Docker) where the service is deployed. The Select Application Deployment
 Step 5 – Click the __Logging__ tab.
 
 Step 6 – In the Windows Logging area, select a logging level for the service in the __Log Events__ drop-down list.  
-Windows logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/docs/groupid/groupid/admincenter/portal/server/log.md#Change-the-File-Logging-Level-for-a-Portal-Instance)topic for information on the logging levels. Replace references to the portal with the respective service.
+Windows logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/docs/groupid/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic for information on the logging levels. Replace references to the portal with the respective service.
 
 Step 7 – Click __Save__.
 

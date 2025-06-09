@@ -7,7 +7,7 @@ In the Netwrix Auditor client, go to the Integrations section and verify Integra
 1. Make sure the Leverage Integration API is switched to ON.
 2. Check the TCP communication port number – default is 9699.
 
-See the [Configure Integration API Settings](/docs/auditor/auditor/api/prerequisites.md#Configure-Integration-API-Settings)[Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md)topic for additional information.
+See the [Configure Integration API Settings](/docs/auditor/auditor/api/prerequisites.md#configure-integration-api-settings)[Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md)topic for additional information.
 
 ## Download the Add-on
 

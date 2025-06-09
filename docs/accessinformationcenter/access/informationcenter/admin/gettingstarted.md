@@ -8,7 +8,7 @@ Next, configure the Access Information Center for your environment:
 
 - Console Users — Grant users access to the application starting with an Administrator account. There are five levels of access: Administrator, Security Team, Reader, Data Privacy, and User Access Administrator. See the [Console Access Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md) topic for information.
 
-  - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
+  - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account) topic for additional information.
 - Active Directory Service Account — Provide the service account to be used for accessing Active Directory. Optionally, enable the application to make group membership changes. See the [Active Directory Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/activedirectory.md) topic for information.
 - Notification — Configure the Notification settings required in order for the application to send email. See the [Notifications Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/notifications.md) topic for information.
 
@@ -39,7 +39,7 @@ You should also provide links to the appropriate topics based on the user's role
 It is possible to enable business owners and data custodians to manage their resources through the application. Also, ownership of resources must be assigned in order to use the Resource Reviews and Access Requests workflows.
 
 - Resource Ownership — Assign ownership for resources to be managed through the application. See the [Resource Owners Interface](/docs/accessinformationcenter/access/informationcenter/resourceowners/interface.md) topic for additional information.
-- Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/accessinformationcenter/access/informationcenter/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
+- Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/accessinformationcenter/access/informationcenter/resourceowners/overview.md#notification-to-owners) topic for additional information.
 
 ## Resource Review Workflow
 
@@ -57,7 +57,7 @@ Reviews can be run multiple times, maintaining a historical record for each inst
 
 The Access Information Center can be configured for access request by domain users. All resources to be available for requests must be assigned owners on the Resource Owners interface. The workflow consists of:
 
-- Enable Domain Users — Send a notification to your domain users about access requests with the Access Information Center. See the [Notification to Domain Users](/docs/accessinformationcenter/access/informationcenter/accessrequests/overview.md#Notification-to-Domain-Users) topic for additional information.
+- Enable Domain Users — Send a notification to your domain users about access requests with the Access Information Center. See the [Notification to Domain Users](/docs/accessinformationcenter/access/informationcenter/accessrequests/overview.md#notification-to-domain-users) topic for additional information.
 - Owner Response — Set expectations for response time from owners
 
 See the [Access Requests Overview](/docs/accessinformationcenter/access/informationcenter/accessrequests/overview.md) topic for additional information.

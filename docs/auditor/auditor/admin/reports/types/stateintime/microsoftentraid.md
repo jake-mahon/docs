@@ -8,7 +8,7 @@ __NOTE:__ For Microsoft Entra ID, only the current date snapshot can be used for
 
 The report shows specific AD attributes for the Microsoft Entra ID (formerly Azure AD) accounts that meet the specified filtering criteria. Use this report to discover Microsoft Entra ID accounts with settings that violate company policies or applicable compliance standards.
 
-For this report to function properly, you must enable the Collect data for state-in-time reports option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection)[ topic for more information.](/docs/auditor/auditor/solutions/manageplans/accounts.md)
+For this report to function properly, you must enable the Collect data for state-in-time reports option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection)[ topic for more information.](/docs/auditor/auditor/solutions/manageplans/accounts.md)
 
 ### Tips to Work with Report
 

@@ -11,4 +11,4 @@ Documents can be added to the Working Set from the Search or Browse tabs by usin
 The following facilities are available:
 
 - [Classifications](/docs/dataclassification/ndc/admin/taxonomies/classifications.md)
-- [Calculations](/docs/dataclassification/ndc/admin/taxonomies/calculations.md#Calculations)
+- [Calculations](/docs/dataclassification/ndc/admin/taxonomies/calculations.md)

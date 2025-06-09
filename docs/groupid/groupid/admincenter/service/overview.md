@@ -73,4 +73,4 @@ When you have multiple Elasticsearch clusters in your environment and each clust
 
 Cluster syncing
 
-To sync data between clusters, Directory Manager uses the Replication service. You have to enable data sync for at least one Replication service within a cluster to sync the cluster's data to other clusters. See the [Enable Elastic Cluster Syncing](/docs/groupid/groupid/admincenter/service/replicationservice.md#Enable-Elastic-Cluster-Syncing) topic for additional information.
+To sync data between clusters, Directory Manager uses the Replication service. You have to enable data sync for at least one Replication service within a cluster to sync the cluster's data to other clusters. See the [Enable Elastic Cluster Syncing](/docs/groupid/groupid/admincenter/service/replicationservice.md#enable-elastic-cluster-syncing) topic for additional information.

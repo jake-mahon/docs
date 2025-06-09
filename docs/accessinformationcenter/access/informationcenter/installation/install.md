@@ -2,7 +2,7 @@
 
 Once the prerequisites have been met, follow the steps to install the Access Information Center.
 
-__NOTE:__ To enable SSL during the installation, a password-enabled certificate with a private key is required. See the [SSL Certificate](/docs/accessinformationcenter/access/informationcenter/installation/overview.md#SSL-Certificate) topic for additional information.
+__NOTE:__ To enable SSL during the installation, a password-enabled certificate with a private key is required. See the [SSL Certificate](/docs/accessinformationcenter/access/informationcenter/installation/overview.md#ssl-certificate) topic for additional information.
 
 __Step 1 –__ Run the ```AccessInformationCenter.exe``` executable and the Netwrix Access Information Center Setup wizard opens.
 
@@ -20,7 +20,7 @@ __Step 4 –__ On the Destination Folder page, you can choose between the defaul
 
 __NOTE:__ The default location is ```C:\Program Files\STEALTHbits\Access Information Center\```. There are no specific requirements for changing the path.
 
-![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/sqlserver.png)
+![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/sqlserver.png)
 
 __Step 5 –__ On the SQL Server Connection page, provide the required database information. Click __Next__ to test the connection to the SQL Server. If there are no errors, the next wizard page opens.
 
@@ -37,7 +37,7 @@ __Step 5 –__ On the SQL Server Connection page, provide the required database 
 
 __NOTE:__ The Server and Database information are available in the Access Analyzer Console in the __Settings__ > __Storage__ node, and will be auto-populated if installing the Access Information Center on the same server as Access Analyzer. The Database settings can be modified after installation. See the [Database Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/database.md) topic for additional information.
 
-![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.png)
+![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.png)
 
 __Step 6 –__  On the Configure Web Server page, select the URL protocol and port on which the application will be accessible.
 

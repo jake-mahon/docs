@@ -16,6 +16,6 @@ There are up to three tabs at the top left of the window:
 In the Status bar at the bottom of the console is the following information:
 
 - Version – Version number for the Activity Monitor
-- License information – Identifies the organization associated with the license. See the [Install Application](/docs/activitymonitor/activitymonitor/install/application.md#Install-Application) topic for additional information.
-- Trace Level – Creates Trace Logs to provide troubleshooting information. See the [Trace Logs](/docs/activitymonitor/activitymonitor/troubleshooting/tracelogs.md#Trace-Logs) topic for additional information.
+- License information – Identifies the organization associated with the license. See the [Install Application](/docs/activitymonitor/activitymonitor/install/application.md) topic for additional information.
+- Trace Level – Creates Trace Logs to provide troubleshooting information. See the [Trace Logs](/docs/activitymonitor/activitymonitor/troubleshooting/tracelogs.md) topic for additional information.
 - Collect Logs – Collects Trace Logs produced by Trace level

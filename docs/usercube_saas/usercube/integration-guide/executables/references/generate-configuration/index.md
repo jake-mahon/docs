@@ -64,7 +64,7 @@ __The subcommand_____complexconnector_____must precede the arguments.__
 | --- | --- |
 | --generated-file (-g)   required | __Type__    String   __Description__ Path to the generated file. |
 | --csv-path (-h)   optional | __Type__    String   __Description__ Path to the CSV file.   __Note:__ used only for a simple connector. |
-| --encoding (-e)   optional | __Type__    String   __Description__ Encoding of the CSV file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings).   __Note:__ used only for a simple connector. |
+| --encoding (-e)   optional | __Type__    String   __Description__ Encoding of the CSV file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).   __Note:__ used only for a simple connector. |
 | --csv-separator (-t)   optional | __Type__    String   __Description__ Column separator of the CSV file.   __Note:__ used only for a simple connector. |
 | --generated-connector (-r)   optional | __Type__    String   __Description__ Name of the generated connector.   __Note:__ used only for a simple connector. |
 | --keep-all-columns (-k)   optional | __Type__    No Value   __Description__ Keeps all the columns. |

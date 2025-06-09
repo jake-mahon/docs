@@ -35,11 +35,11 @@ _Remember,_ the first owner in the list is the primary owner. The table has seve
 - Owner Department — Trustee's department as read from Active Directory
 - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
+![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
 
 __Step 3 –__  The Description page displays any description that has been provided by either the Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in the textbox. Then click __Next__ to continue.
 
-![Update resource wizard showing 3. Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Update resource wizard showing 3. Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 4 –__ On the Summary page, review the settings and click Finish. The Access Reviews application begins to process the ownership changes.
 

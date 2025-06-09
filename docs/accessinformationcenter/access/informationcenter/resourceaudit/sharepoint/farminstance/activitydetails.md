@@ -33,4 +33,4 @@ There is one line graph at the bottom displaying Active Users Trend for the sele
 
 The Active Users Trend line graph provides a visual representation of the number of active users over the selected date range. It indicates how many users are performing activity per day.
 
-See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on filtering the trend graph.
+See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features) topic for instructions on filtering the trend graph.

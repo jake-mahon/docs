@@ -50,7 +50,7 @@ For each workflow, an approving authority is also specified. The following scena
 
 - If the object specified as an approver in a workflow route is not available (such as if it is disabled or not specified), the workflow request would be routed to the default approver. If the default approver is not specified or disabled, the request is auto approved.
 
-  See the [Specify a Default Approver](/docs/groupid/groupid/admincenter/workflow/advancedsettings.md#Specify-a-Default-Approver) topic.
+  See the [Specify a Default Approver](/docs/groupid/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver) topic.
 - If the requester is also the approver for that workflow, the request is auto-approved.
 - When a Synchronize job runs to set the manager for a user who does not already have a manager, the following happens:
 

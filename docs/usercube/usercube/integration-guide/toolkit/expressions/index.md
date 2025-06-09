@@ -6,7 +6,7 @@ Expressions are a way to define the attributes whose values must be computed bas
 
 In Identity Manager's XML configuration, some attributes are defined with expressions. Expression attributes do not take a plain string value, but rather an expression that computes a value based on a given input. See the [
 Entity Property Expression
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#Resource-Type) topics for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional information.
 
 Every expression must be passed at least one argument and return at least one value.
 

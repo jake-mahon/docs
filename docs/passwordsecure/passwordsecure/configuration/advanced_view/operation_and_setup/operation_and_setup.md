@@ -48,14 +48,14 @@ Independently of the module chosen, various information is displayed in the foot
 
 ![installation_with_parameters_4](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.png)
 
-- [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Ribbon)
-- [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Filter)
-- [List view](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#List-view)
-- [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Reading-pane)
-- [Tags](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Tags)
-- [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Search)
-- [Dashboard and widgets](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Dashboard-and-widgets)
-- [Shortcut key](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Shortcut-key)
+- [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#ribbon)
+- [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#filter)
+- [List view](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#list-view)
+- [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#reading-pane)
+- [Tags](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#tags)
+- [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#search)
+- [Dashboard and widgets](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#dashboard-and-widgets)
+- [Shortcut key](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#shortcut-key)
 
 ## Orientation
 

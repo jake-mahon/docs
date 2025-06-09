@@ -29,7 +29,7 @@ __Step 2 –__ On the Agents interface, click the __Deploy Agent__ (__+__) butto
 
 __Step 3 –__ On the Select Computers window, add the host or IP addresses of the target machines to the Deploy Agents to These Computers box. Use any of the three methods, as represented by the three tabs on the window. See the [Select Computers Window](/docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.md) topic for additional information. Click __Next__.
 
-If you open this window through the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#Right-Click-Menu) action, the list is auto-populated with the computer(s) selected on the Agents interface.
+If you open this window through the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#right-click-menu) action, the list is auto-populated with the computer(s) selected on the Agents interface.
 
 ![Deploy Agents wizard – Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.png)
 
@@ -49,7 +49,7 @@ __Step 8 –__ When the task is successfully completed, click __Finish__ to clos
 
 The Agent will be listed in the table on the Agents interface.
 
-__NOTE:__ If the server where the Agent is deployed has multiple network adapters (multi-homed), then it is necessary to bind the Agent to an adapter that can communicate with the Enterprise Manager. See the [Bind To](/docs/threatprevention/threatprevention/troubleshooting/agentcommunication.md#Bind-To) topic for additional information.
+__NOTE:__ If the server where the Agent is deployed has multiple network adapters (multi-homed), then it is necessary to bind the Agent to an adapter that can communicate with the Enterprise Manager. See the [Bind To](/docs/threatprevention/threatprevention/troubleshooting/agentcommunication.md#bind-to) topic for additional information.
 
 ## Update Agent Settings
 
@@ -57,7 +57,7 @@ Follow the steps to update the settings for a deployed Agent through the Agents 
 
 __Step 1 –__ Click Agents in the left pane to launch the Agents interface.
 
-__Step 2 –__ On the Agents interface, right-click the Agent and select Update Agent Settings on the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#Right-Click-Menu). The Select Computers window opens.
+__Step 2 –__ On the Agents interface, right-click the Agent and select Update Agent Settings on the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#right-click-menu). The Select Computers window opens.
 
 __Step 3 –__ On the Select Computers window, the computer where the Agent is deployed is automatically added to the Update Agent settings on These Computers box. See the [Select Computers Window](/docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.md) topic for additional information. Click __Next__.
 

@@ -169,9 +169,9 @@ Passwords Section
 
 These settings authenticate passwords against a default ```dictionary.dat``` file of known weak and/or compromised passwords. Additional passwords can be manually added or uploaded via a TXT file.
 
-In order for the password to be rejected, the pending user password must match exactly to a listed password in the Password Dictionary list. See the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Password-Dictionary-Window) and the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Substitutions-Editor-Window) topics for additional information.
+In order for the password to be rejected, the pending user password must match exactly to a listed password in the Password Dictionary list. See the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) and the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topics for additional information.
 
-_Remember,_ the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Password-Dictionary-Window) is always used to validate the password, so there is no 'check box' for it on the Password Rules filter. Hence, matched passwords will always be blocked. You must have at least one line in the dictionary but you can remove all others if you do not want the default entries to be used.
+_Remember,_ the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) is always used to validate the password, so there is no 'check box' for it on the Password Rules filter. Hence, matched passwords will always be blocked. You must have at least one line in the dictionary but you can remove all others if you do not want the default entries to be used.
 
 - Capture Rejected Password – Collects the password value which triggered the event. You can view the rejected password values in the Attributes section of the data grids on the Recent Events tab and the Investigate interface.
 
@@ -195,7 +195,7 @@ Character Substitution Section
 
 These settings prevent the use of character substitutions in passwords. They ignore or monitor/block certain types of characters substitutions from being included in a password string. Additional scoping can be enabled:
 
-- Block if exact match substituted password – Blocks a password if it contains a substituted character in a password string listed in the Words List Dictionary. See the [Words List Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Words-List-Dictionary-Window) topic for additional information.
+- Block if exact match substituted password – Blocks a password if it contains a substituted character in a password string listed in the Words List Dictionary. See the [Words List Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window) topic for additional information.
 
   _Remember,_ the substitutions themselves are kept in the Character Substitution list.
 
@@ -219,7 +219,7 @@ When a username format is chosen, additional scoping options are available:
 
 - Case sensitive – Differentiates between lowercase and capital text
 - Reversed name also – First name, last name, Pre-Windows 2000 Logon Name and User Principle Name (UPN) typed in backwards are blocked
-- Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Substitutions-Editor-Window) topic for additional information.
+- Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Repeating Patterns Section
 
@@ -232,7 +232,7 @@ These settings prevent individual repeating character patterns. Any passwords th
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Reversed text also – Password patterns typed in backwards is blocked
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Substitutions-Editor-Window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Sequential Characters Section
 
@@ -245,13 +245,13 @@ These settings prevent passwords with numbers or characters that follow each oth
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Descending order – Standard order is blocked if reversed, e.g. “321” and “CBA” are blocked
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Substitutions-Editor-Window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Defined Text Section
 
 These settings block passwords that contain the string(s) specified in the text box. For multiple strings, add one entry per line.
 
-__NOTE:__ This filter blocks passwords that contain the text box content anywhere within the password length. The list in the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Password-Dictionary-Window) blocks the entire password as entered or uploaded.
+__NOTE:__ This filter blocks passwords that contain the text box content anywhere within the password length. The list in the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) blocks the entire password as entered or uploaded.
 
 Additional scoping can be enabled:
 
@@ -261,7 +261,7 @@ Additional scoping can be enabled:
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Reverse order also – Blocks the reversed order of characters typed in the text box, e.g. “74yadn0M”
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#Substitutions-Editor-Window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Keyboard Layout Sequence Section
 

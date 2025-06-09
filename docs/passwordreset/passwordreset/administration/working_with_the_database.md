@@ -17,7 +17,7 @@ Despite these benefits, there are some disadvantages to using an embedded databa
 - Improved availability if SQL Server is configured for high availability.
 - Increased security.
 
-See solutions to these disadvantages in the [Moving to SQL Server](/docs/passwordreset/passwordreset/administration/moving_to_sql_server.md#Moving-to-SQL-Server) topic.
+See solutions to these disadvantages in the [Moving to SQL Server](/docs/passwordreset/passwordreset/administration/moving_to_sql_server.md) topic.
 
 ## Backing up the Database
 
@@ -45,7 +45,7 @@ copy /Y "c:\program files\netwrix password reset\aprlog.sdf" "c:\program files\n
 
 net start "Netwrix Password Reset"
 
-__NOTE:__ Change the paths above if the database files are in a different folder. See the [Database](/docs/passwordreset/passwordreset/administration/general_tab.md#Database) topic for more information.
+__NOTE:__ Change the paths above if the database files are in a different folder. See the [Database](/docs/passwordreset/passwordreset/administration/general_tab.md#database) topic for more information.
 
 __Restoring database from backup__
 
@@ -63,4 +63,4 @@ __Step 5 –__ Start .
 
 __CAUTION:__ apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to protect them from attack, but you should still ensure that this file and all backup copies are stored securely.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

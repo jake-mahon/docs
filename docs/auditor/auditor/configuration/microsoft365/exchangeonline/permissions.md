@@ -1,6 +1,6 @@
 # Permissions for Exchange Online Auditing
 
-Auditor allows you to audit Office 365 organizations that have established modern authentication as their identity management approach, including support for [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks). To learn more about modern authentication, refer to the following Microsoft article: [What is modern authentication](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#What-is-modern-authentication).
+Auditor allows you to audit Office 365 organizations that have established modern authentication as their identity management approach, including support for [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks). To learn more about modern authentication, refer to the following Microsoft article: [What is modern authentication](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#what-is-modern-authentication).
 
 In this scenario, Netwrix Auditor will access the cloud-based infrastructure via Microsoft Graph and other modern APIs, being authenticated through a pre-configured Microsoft Entra ID (formerly Azure AD) application with appropriate access permissions. So, you should register an Microsoft Entra ID app and provide its settings to Auditor  when configuring a monitored item.
 
@@ -8,17 +8,17 @@ In this scenario, Netwrix Auditor will access the cloud-based infrastructure via
 
 Follow the steps to use a data collecting account with modern authentication.
 
-__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Create-and-Register-a-New-App-in-Microsoft-Entra-ID) topic for additional information.
+__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id) topic for additional information.
 
 __NOTE:__ After you start a new monitoring plan and select a data source in the first step, you will be asked to enter a default data collection account. However, this step is not needed for Exchange Online as it cannot be used. Thus, there is no need to grant any permissions to this account. Instead, you will need to configure a modern authentication app and give the necessary permissions there.
 
-__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Grant-Required-Permissions) topic for additional information.
+__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-permissions) topic for additional information.
 
-__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Grant-Required-Roles) topic for additional information.
+__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-roles) topic for additional information.
 
-__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Configure-Client-Secret) topic for additional information.
+__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#configure-client-secret) topic for additional information.
 
-__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Obtain-the-Tenant-Name) topic for additional information.
+__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#obtain-the-tenant-name) topic for additional information.
 
 ## Non-owner Mailbox Access Audit Configuration
 
@@ -45,7 +45,7 @@ When prompted to confirm granting, click __Yes__.
 
 __Step 7 –__ Go to __Azure Active Directory__ — __Roles and administrators__ and assign __Exchange Administrator__ role.
 
-__Step 8 –__ Download the PowerShell script for certificate creation, as provided in the [Generate a self-signed certificate ](https://docs.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps#Generate-a-self-signed-certificate)Microsoft article.
+__Step 8 –__ Download the PowerShell script for certificate creation, as provided in the [Generate a self-signed certificate ](https://docs.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps#generate-a-self-signed-certificate)Microsoft article.
 
 __Step 9 –__ To create a self-signed certificate to be used by the app, run the following command:
 

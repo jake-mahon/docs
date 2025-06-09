@@ -1,8 +1,8 @@
 # Changes Window
 
-Select the desired request on the [Request History Tab](/docs/accessinformationcenter/access/informationcenter/accessrequests/interface.md#Request-History-Tab) of the Access Requests interface and click __View Changes__. The Changes window opens.
+Select the desired request on the [Request History Tab](/docs/accessinformationcenter/access/informationcenter/accessrequests/interface.md#request-history-tab) of the Access Requests interface and click __View Changes__. The Changes window opens.
 
-![Changes window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/changes.png)
+![Changes window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/changes.png)
 
 The table displays the following information for selected trustee:
 

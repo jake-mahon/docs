@@ -124,7 +124,7 @@ This guide will show you how to perform these operations using SQL Server Manage
 
 __Step 1 –__ Open SQL Server Management Studio (SSMS) and log in to access the server on which runs the Identity Manager Database with an account member of the __sysadmin__ or __securityadmin__ server-level role.
 
-![New Login](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/newlogin.png)
+![New Login](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/newlogin.png)
 
 __Step 2 –__ Expand the __Security__ and __Login__ nodes, and look for the Identity Manager service account in the list.
 
@@ -285,7 +285,7 @@ appsettings.json
 
 Now that the Identity Manager Server has been provided with a service account with the right permissions, let's finalize the setup.
 
-The connection between the Server and the Database requires choosing an authentication method: [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#Windows-Authentication) or SQL Server authentication. See the [
+The connection between the Server and the Database requires choosing an authentication method: [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication) or SQL Server authentication. See the [
 Connection to the Database
 ](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md) and [
 Usercube-Protect-CertificatePassword

@@ -1,6 +1,6 @@
 # Activity Report
 
-The Activity report at the Databases node displays activity across the databases logged during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
+The Activity report at the Databases node displays activity across the databases logged during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
 ![Activity report at the Databases node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databases/databasesactivity.png)
 

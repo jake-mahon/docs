@@ -14,9 +14,9 @@ The Host Investigation dashboard contains the following cards:
   - The graph values can be toggled on an off by clicking on individual elements in the legend.
 - Details of File Activity – Tabular format of all file activity events associated with the host which occurred over the specified time interval
 
-  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#Table-Card-Features) topic for additional information.
+  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional information.
 - Destination Host Offenses – QRadar offenses associated with the host which occurred over the specified time interval
 
-  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#Table-Card-Features) topic for additional information.
+  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set by default to the “past day,” or 24 hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click Search to refresh the card data.

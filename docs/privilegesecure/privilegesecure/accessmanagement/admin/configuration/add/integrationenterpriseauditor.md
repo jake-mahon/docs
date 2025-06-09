@@ -117,4 +117,4 @@ __Step 2 –__ In the Integration Connector list, select the previously created 
 
 __Step 3 –__ Click __Sync__ __StealthAUDIT__ to begin the data collection. This may take some time.
 
-To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md#Action-Service) topic for additional information.
+To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.

@@ -19,7 +19,7 @@ Upload this certificate while registering the Microsoft Entra ID application. Se
 
 The generated certificate in .pfx format will be used:
 
-- While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new identity store creation wizard). See the point # 6 the [Create an Identity Store for Microsoft Entra ID](/docs/groupid/groupid/admincenter/identitystore/create.md#Create-an-Identity-Store-for-Microsoft-Entra-ID) section of the [Create an Identity Store](/docs/groupid/groupid/admincenter/identitystore/create.md) topic.
+- While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new identity store creation wizard). See the point # 6 the [Create an Identity Store for Microsoft Entra ID](/docs/groupid/groupid/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id) section of the [Create an Identity Store](/docs/groupid/groupid/admincenter/identitystore/create.md) topic.
 - On the Messaging System page in identity store properties when Exchange Online/Office 365 is set as a messaging provider.
 
 Run the following command on the Windows PowerShell prompt to export the certificate into .pfx format.

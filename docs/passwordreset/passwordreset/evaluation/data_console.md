@@ -18,4 +18,4 @@ The Audit Log tab contains all the events recorded by Password Reset. You can cr
 
 The Users tab contains information about each user. You can export the data in the Audit Log and Users tabs from the File menu.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

@@ -4,7 +4,7 @@ Admin Center provides a variety of options to helpdesk users for resetting passw
 
 NOTE: You can reset passwords of unenrolled users if (a) the __Reset Any Password__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
-Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/docs/groupid/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/docs/groupid/groupid/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
 What do you want to do?
 

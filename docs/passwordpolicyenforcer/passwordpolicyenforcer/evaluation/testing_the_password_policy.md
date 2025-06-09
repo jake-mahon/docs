@@ -22,7 +22,7 @@ __mypassword__ fails two requirements. You can hover over the requirements to vi
 
 Click __View log__ to expand Password Policy Enforcer's internal event log. The information in the event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
 
-__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
+__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#policy-testing-vs-password-changes) topic for additional information.
 
 ## Windows Change Password Screen
 

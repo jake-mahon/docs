@@ -2,7 +2,7 @@
 
 The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and authorization information. It provides functions to describe and transmit security-related information. This means that you can use one set of credentials to log in to many different websites. It is much easier to manage one login per user than separate logins for email, Customer Relationship Management (CRM) software, Active Directory, and more.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#Add-an-Authentication-Provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 

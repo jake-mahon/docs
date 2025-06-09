@@ -1,6 +1,6 @@
 # Edit Review Wizard
 
-The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
 ![Edit Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
@@ -27,7 +27,7 @@ __Step 2 –__ On the Review Type page, configure the notify review creator opti
 
 __NOTE:__ If creating a Sensitive Data review, continue to Step 3. For all other review types, skip to Step 5.
 
-![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
 
 __Step 3 –__ On the Criteria page, you can modify the selected types of sensitive criteria to include in the Sensitive Data review if no responses have been received. If responses for one or more resources have already been submitted you can not add or remove criteria.
 
@@ -65,7 +65,7 @@ __NOTE:__ If the include child resources option was enabled during the review cr
   - Distribution lists: ```Name@domain.com```
 - Once the desired resources have been selected, click __Next__.
 
-![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 6 –__ On the Summary page, review the updated settings and click __Next__. The Access Information Center begins to update the review.
 

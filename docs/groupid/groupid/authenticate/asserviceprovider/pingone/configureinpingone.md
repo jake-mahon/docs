@@ -19,7 +19,7 @@ To configure Directory Manager in PingOne, follow these steps:
 7. You can choose to upload an image for the Directory Manager app. This image will be displayed on the PingOne dashboard. When a user signs into PingOne, he or she will be redirected to the dashboard that has Directory Manager and other applications listed for single sign-on.
 8. Click the __Continue to Next Step__ button.
 9. On the next page, make sure the __I have the SAML configuration__ tile is selected.
-10. Use the metadata file you generated for the _Wizard_ portal in Directory Manager to configure certain settings on this page. See the [Generate the Metadata File](/docs/groupid/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#Generate-the-Metadata-File) topic.  
+10. Use the metadata file you generated for the _Wizard_ portal in Directory Manager to configure certain settings on this page. See the [Generate the Metadata File](/docs/groupid/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#generate-the-metadata-file) topic.  
     Click the __Select File__ button next to __Upload Metadata__. Simply select the metadata file and it will be uploaded, thereby bringing in the required settings to configure the Directory Manager client _Wizard_ within PingOne. For example, the __Entity ID__ box is populated with the required URL.
 11. In the __Application URL__ box, copy the same URL as displayed in the __Assertion Consumer Service (ACS)__ box.
 12. Select the _Post_ option button for __Single Logout Binding Type__.

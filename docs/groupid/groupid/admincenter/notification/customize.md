@@ -1,6 +1,6 @@
 # Customize Notifications
 
-Directory Manager generates a variety of notifications for different events, such as when changes are made to a group, when workflows are triggered, and when profile validation is due for users. Supported languages for notifications are listed in the [Localization](/docs/groupid/groupid/gettingstarted.md#Localization) topic.
+Directory Manager generates a variety of notifications for different events, such as when changes are made to a group, when workflows are triggered, and when profile validation is due for users. Supported languages for notifications are listed in the [Localization](/docs/groupid/groupid/gettingstarted.md#localization) topic.
 
 Templates for all Directory Manager notifications are available in these languages. You can customize a notification template for the following in each of the supported languages:
 

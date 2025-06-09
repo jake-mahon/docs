@@ -12,12 +12,12 @@ Complete the following fields:
 | Option | Description |
 | --- | --- |
 | Monitor this data source and collect activity data | Enable monitoring of the selected data source and configure Auditor to collect and store audit data. |
-| Prerequisites | Netwrix Auditor will automatically look up additional system components and prompt you to install those that are missing. In case all required components have been already installed, this section will be omitted. See the [Other Components](/docs/auditor/auditor/requirements/software.md#Other-Components) topic for additional information. |
+| Prerequisites | Netwrix Auditor will automatically look up additional system components and prompt you to install those that are missing. In case all required components have been already installed, this section will be omitted. See the [Other Components](/docs/auditor/auditor/requirements/software.md#other-components) topic for additional information. |
 | Detect additional details | Specify additional information to include in reports and activity summaries. Select Group membershipif you want to include Group membership of the account under which the change was made. |
 | Specify data collection method | You can enable __network traffic compression.__ If enabled, a Compression Service will be automatically launched on the audited computer, collecting and prefiltering data. This significantly improves data transfer and minimizes the impact on the target computer performance. |
 | Configure audit settings | You can adjust audit settings automatically. Your current audit settings will be checked on each data collection and adjusted if necessary.  This method is recommended for evaluation purposes in test environments. If any conflicts are detected with your current audit settings, automatic audit configuration will not be performed.  Do not select the checkbox if you want to configure audit settings manually.  See the [Group Policy](/docs/auditor/auditor/configuration/grouppolicy/overview.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them. |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Domain
 

@@ -2,7 +2,7 @@
 
 In addition to the __Email Alert__, __Migrate Document__ and additional classification, the following actions are available for the __SharePoint__ content source type:
 
-- [Migrate Document](/docs/dataclassification/ndc/admin/workflows/actions/migratedocument.md#Migrate-Document) including copy and move operations
+- [Migrate Document](/docs/dataclassification/ndc/admin/workflows/actions/migratedocument.md) including copy and move operations
 - Document property field (metadata) update, including:
   - __Send fixed value__, __send crawled value__ — these actions apply new metadata value entered by user or retrieved from the related NDC database field, respectively.
   - __Send classification value__ — this action writes classification metadata (__Taxonomy__) into the selected property field (__Field Name__). If multiple classification values are applied, they will be written using delimiters.

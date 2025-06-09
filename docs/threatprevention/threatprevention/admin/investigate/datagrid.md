@@ -83,4 +83,4 @@ The following information (as applicable to the event) is displayed:
 
 This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
 
-To export the data displayed in the grid to a CSV file, see the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic.
+To export the data displayed in the grid to a CSV file, see the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#export-data) topic.

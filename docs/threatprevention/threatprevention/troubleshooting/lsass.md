@@ -26,13 +26,13 @@ The Agent can be enabled with a safe mode, which would prevent the Active Direct
 
 Follow the steps to enable email notifications for the _LSASS process terminated_ alert under Operations.
 
-__NOTE:__ These steps require the Threat Prevention administrator user role. They also assume that the SMTP host information has been configured and email alerts have been enabled. See the [Configure SMTP Host Information](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Configure-SMTP-Host-Information) topic for additional information
+__NOTE:__ These steps require the Threat Prevention administrator user role. They also assume that the SMTP host information has been configured and email alerts have been enabled. See the [Configure SMTP Host Information](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#configure-smtp-host-information) topic for additional information
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu to open the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
 __Step 2 –__ On the Email tab, click __Configure__.
 
-__Step 3 –__ Create a Message Profile for the LSASS notification with the recipient(s) to be notified when the LSASS process terminates. See the [Create Message Profiles](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Create-Message-Profiles) topic for additional information.
+__Step 3 –__ Create a Message Profile for the LSASS notification with the recipient(s) to be notified when the LSASS process terminates. See the [Create Message Profiles](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles) topic for additional information.
 
 ![System Alerting window - LSASS Process Terminated alert](/img/product_docs/threatprevention/threatprevention/troubleshooting/lsassprocessterminated.png)
 

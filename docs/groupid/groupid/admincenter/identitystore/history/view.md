@@ -103,7 +103,7 @@ __To annotate history items:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __History__ under __Settings__ in the left pane.
 4. On the __Identity Store History__ page, click a history item.
-5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](/docs/groupid/groupid/admincenter/identitystore/history/details.md#Annotate-History-Items) topic.
+5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](/docs/groupid/groupid/admincenter/identitystore/history/details.md#annotate-history-items) topic.
 
 ## Export History Data
 

@@ -58,10 +58,10 @@ NOTE: You can only add reports that have been generated in the Directory Manager
    To remove a report , click __Remove__ for it.
 
 Step 9 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to add triggers.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
 
 Step 10 – Click __Add Authentication__ in the __Authentication__ area to specify an account for running the schedule in the identity store. Follow step 12 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic for additional information.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
 
 Step 11 – To set up notifications for the schedule, click __Notifications__.
 
@@ -71,4 +71,4 @@ Step 11 – To set up notifications for the schedule, click __Notifications__.
 Step 12 – On the Create Schedule page, click __Create Schedule__.
 
 Step 13 – On the Schedules page, click __Save__.   
-The schedule is displayed under __Reports__. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store)topic for details.
+The schedule is displayed under __Reports__. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic for details.

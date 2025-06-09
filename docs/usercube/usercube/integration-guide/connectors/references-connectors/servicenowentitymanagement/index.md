@@ -102,7 +102,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
@@ -110,7 +110,7 @@ The identifier of the connection and thus the name of the subsection must:
 | OAuth2Url   optional | __Type__    String   __Description__ Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
 |  |  |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
@@ -208,7 +208,7 @@ This connector writes to ServiceNow to create, update, and/or delete any data.
 
 | Name | Details |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |

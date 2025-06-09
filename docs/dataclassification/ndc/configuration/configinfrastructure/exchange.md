@@ -16,7 +16,7 @@ Review the related procedure that corresponds to your Exchange deployment:
 
 ### Exchange Online
 
-__Step 1 –__ Login to the [Office 365 Exchange Admin Portal](https://admin.microsoft.com/Adminportal/Home?source=applauncher#Office-365-Exchange-Admin-Portal)[.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#)
+__Step 1 –__ Login to the [Office 365 Exchange Admin Portal](https://admin.microsoft.com/Adminportal/Home?source=applauncher#office-365-exchange-admin-portal)[.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#)
 
 __Step 2 –__ Go to Roles > __Role Assignments__ > __Exchange__.
 

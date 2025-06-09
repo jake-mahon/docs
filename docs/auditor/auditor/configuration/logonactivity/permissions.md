@@ -24,9 +24,9 @@ Follow the steps to configure non-administrative account to collect logon activi
 
 __Step 1 –__ Create a domain user with the following privileges:
 
-- Back up files and directories. See the  [Configure the Back up Files and Directories Policy](/docs/auditor/auditor/configuration/fileservers/windows/configuration.md#Configure-the-Back-up-Files-and-Directories-Policy) topic for additional information.
-- Log on as a batch job. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md#Permissions-for-Active-Directory-Auditing) topic for additional information.
-- Manage auditing and security log. See the [Configure the Manage Auditing and Security Log Policy](/docs/auditor/auditor/configuration/activedirectory/permissions.md#Configure-the-Manage-Auditing-and-Security-Log-Policy) topic for additional information.
+- Back up files and directories. See the  [Configure the Back up Files and Directories Policy](/docs/auditor/auditor/configuration/fileservers/windows/configuration.md) topic for additional information.
+- Log on as a batch job. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
+- Manage auditing and security log. See the [Configure the Manage Auditing and Security Log Policy](/docs/auditor/auditor/configuration/activedirectory/permissions.md#configure-the-manage-auditing-and-security-log-policy) topic for additional information.
 
 __Step 2 –__ Grant the _Read_ permission on the following registry keys to this user:
 
@@ -34,4 +34,4 @@ __Step 2 –__ Grant the _Read_ permission on the following registry keys to thi
 - ```HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg```
 - ```HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security```
 
-See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md#Assign-Permission-To-Read-the-Registry-Key) topic for additional information on how to do it using Registry Editor.
+See the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md#assign-permission-to-read-the-registry-key) topic for additional information on how to do it using Registry Editor.

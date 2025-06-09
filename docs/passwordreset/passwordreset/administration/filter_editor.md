@@ -22,4 +22,4 @@ Some columns are hidden in the Data Console. You can use the Filter Editor to cr
 
 ![using_the_data_console_10](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_10.png)
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

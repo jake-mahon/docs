@@ -4,7 +4,7 @@ An Identity store is built on an identity provider, that could be Active Directo
 
 Unlike other schedules that exist separately for each identity store, Directory Manager has only one Schema Replication schedule that serves all identity stores. While the schedule is displayed separately for each identity store, it does not represent separate schedules. So when you run the Schema Replication schedule for an identity store, it replicates the schema for all identity stores in Directory Manager. And if you terminate it, the process is terminated for all identity stores. Moreover, the schedule runs every time it is triggered from any of the identity stores, be it manually or according to its triggers.
 
-When the Schema Replication schedule runs for the first time, it replicates schema from scratch. In all subsequent runs, it replicates any changes made to the schema. Of this replicated schema, you can choose the object attributes you actually want to use in an identity store. See the [Specify Object Attributes to Replicate](/docs/groupid/groupid/admincenter/identitystore/replication.md#Specify-Object-Attributes-to-Replicate) topic for details.
+When the Schema Replication schedule runs for the first time, it replicates schema from scratch. In all subsequent runs, it replicates any changes made to the schema. Of this replicated schema, you can choose the object attributes you actually want to use in an identity store. See the [Specify Object Attributes to Replicate](/docs/groupid/groupid/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate) topic for details.
 
 NOTE: For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
 
@@ -42,9 +42,9 @@ Step 7 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click __Add Trigger__.
 
 Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 
 Step 8 – Click __Update Schedule__.
 
 Step 9 – On the Schedules page, click __Save__.   
- For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for additional information.
+ For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for additional information.

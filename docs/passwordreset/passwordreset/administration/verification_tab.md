@@ -66,4 +66,4 @@ __NOTE:__ Use a script to perform additional processing before sending the SMS. 
 
 ![configuring_npr_7](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_7.png)
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

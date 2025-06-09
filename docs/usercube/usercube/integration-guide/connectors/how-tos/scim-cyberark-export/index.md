@@ -536,7 +536,7 @@ The scalar properties don't need to be configured: they are automatically displa
 
 The [DisplayTable](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [DisplayTable](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md#DisplayTableColumn) elements that identify which properties should be included in the list display.
+The [DisplayTable](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md#displaytablecolumn) elements that identify which properties should be included in the list display.
 
 ##### Example
 

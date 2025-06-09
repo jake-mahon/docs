@@ -16,7 +16,7 @@ The Group Life Cycle schedule defined for the identity store is responsible for 
 groups. This schedule runs on containers you specify as its targets, to process the groups that reside therein. Groups that reside outside of the target containers will not be processed by the schedule; hence, the group life cycle policy is not applied to
 them. See the [Group Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/grouplifecycle.md) topic.
 
-NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the [Group Expiration Policy](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md#Group-Expiration-Policy) section in the [Microsoft Entra ID vs. Active Directory Identity Stores](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md) topic.
+NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the [Group Expiration Policy](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md#group-expiration-policy) section in the [Microsoft Entra ID vs. Active Directory Identity Stores](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md) topic.
 
 What do you want to do?
 
@@ -140,7 +140,7 @@ __To enable group usage lifecycle:__
      in the last x number of days.
 
      By default, this setting works for groups that are idle for 60 days since their creation, last renewal, or last usage. You can change the number of days anywhere from 1 to 360. The Group Life Cycle schedule will reduce the life of such
-     groups to 7 days and send an email notification to the group owner or the default approver (for groups without owners), informing them of the approaching expiry. See the [Specify a Default Approver](/docs/groupid/groupid/admincenter/workflow/advancedsettings.md#Specify-a-Default-Approver) topic.
+     groups to 7 days and send an email notification to the group owner or the default approver (for groups without owners), informing them of the approaching expiry. See the [Specify a Default Approver](/docs/groupid/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver) topic.
 6. Click __Save__.
 
 ## Enable Group Attestation

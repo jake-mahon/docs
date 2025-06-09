@@ -2,7 +2,7 @@
 
 The Application Details page provides information about an application registered in Microsoft Entra ID.
 
-![Entra ID Application Page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/application.png)
+![Entra ID Application Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/application/application.png)
 
 The top of the page displays a profile card which may contain the following information about the application:
 

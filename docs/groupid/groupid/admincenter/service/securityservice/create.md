@@ -64,7 +64,7 @@ __To create a Security service:__
 4. On the __Create GroupID Application__ page, select the __Remote IIS__ tile.
 5. In the __Application Name__ box, enter a name for the service or use the default name. The Security service is displayed in Directory Manager with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Security service.
+7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic. Replace any reference to the portal with the Security service.
 8. In the __Data Service__ drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service
    to perform various tasks, such as authentication and multifactor authentication.
@@ -89,7 +89,7 @@ __To create a Security service:__
 4. On the __Create GroupID Application__ page, select the __Docker__ tile.
 5. In the __Application Name__ box, enter a name for the Security service or use the default name. The service is displayed in Directory Manager with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Security service.
+7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/docs/groupid/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace any reference to the portal with the Security service.
 8. In the __Data Service__ drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service
    to perform various tasks, such as authentication and multifactor authentication.

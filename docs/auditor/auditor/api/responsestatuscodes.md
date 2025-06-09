@@ -3,7 +3,7 @@
 | Code | Status | Write Activity Records | Retrieve, search Activity Records |
 | --- | --- | --- | --- |
 | 200 OK | Success | Success. The body is empty.  Activity Records were written to the Audit Database and the Long-Term Archive. | Success. The body contains Activity Records.  Activity Records were retrieved from the Audit Database. |
-| 400 Bad Request | Error | Error validating Activity Records.  Make sure the Activity Records are compatible with the [Schema](/docs/auditor/auditor/api/postdata/activityrecords.md#Schema). | Error validating request parameters or post data.  Make sure the post data files (Continuation mark, Search parameters) are compatible with their schemas and the ```?count=``` parameter is valid. |
+| 400 Bad Request | Error | Error validating Activity Records.  Make sure the Activity Records are compatible with the [Schema](/docs/auditor/auditor/api/postdata/activityrecords.md#schema). | Error validating request parameters or post data.  Make sure the post data files (Continuation mark, Search parameters) are compatible with their schemas and the ```?count=``` parameter is valid. |
 | 401 Unauthorized | Error | The request is unauthorized and the body is empty. See for [API Endpoints](/docs/auditor/auditor/api/endpoints.md) more information. |  |
 | 404 Not Found | Error | Error addressing the endpoint. The body is empty. The requested endpoint does not exist (e.g., /netwrix/api/v1/mynewendpoint/). |  |
 | 405 Method Not Allowed | Error | Error addressing the endpoint. The body is empty. Wrong HTTP request was sent (any except POST). | Error addressing the endpoint. The body is empty. Wrong HTTP request was sent (any except GET or POST). |

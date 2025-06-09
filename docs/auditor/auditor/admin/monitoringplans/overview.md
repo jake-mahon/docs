@@ -19,7 +19,7 @@ __Step 1 –__ Create a monitoring plan with the wizard. Select the data source 
 
 __Step 2 –__ Fine-tune data source settings, if necessary: use the data source properties to modify data collection settings, customize the monitoring scope, and more.
 
-__Step 3 –__ Add items to be monitored. An item is a specific object you want to audit, e.g., a VMware server or a SharePoint farm. As soon as the item is added, to the monitoring plan, Auditor starts collecting data from it. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+__Step 3 –__ Add items to be monitored. An item is a specific object you want to audit, e.g., a VMware server or a SharePoint farm. As soon as the item is added, to the monitoring plan, Auditor starts collecting data from it. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 __Step 4 –__  To view and modify your plans, in the main Auditor window click the Monitoring Plans tile, then expand the All Monitoring Plans tree.
 

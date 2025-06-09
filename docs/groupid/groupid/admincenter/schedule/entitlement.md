@@ -16,8 +16,8 @@ The scope schedule changes are replicated after the new index is done replicatin
 
 The GroupID Entitlement schedule runs in the context of the following accounts:
 
-- For file servers, the schedule runs in the context of the service account defined for the identity store. In case you specify a different account for a file server, the schedule runs in the context of the changed account. See the [Connect to a File Server Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Connect-to-a-File-Server-Using-a-Different-Account) topic.
-- For a SharePoint site, the schedule runs in the context of the account you specified to connect to the SharePoint admin site. In case you specify a different account for a site, the schedule runs in the context of the changed account. See the [Connect to a Site Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md#Connect-to-a-Site-Using-a-Different-Account) topic.
+- For file servers, the schedule runs in the context of the service account defined for the identity store. In case you specify a different account for a file server, the schedule runs in the context of the changed account. See the [Connect to a File Server Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#connect-to-a-file-server-using-a-different-account) topic.
+- For a SharePoint site, the schedule runs in the context of the account you specified to connect to the SharePoint admin site. In case you specify a different account for a site, the schedule runs in the context of the changed account. See the [Connect to a Site Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md#connect-to-a-site-using-a-different-account) topic.
 
 You cannot create or delete a GroupID Entitlement schedule; only edit the existing schedule.
 
@@ -53,9 +53,9 @@ Step 7 – The __Triggers__ area displays the default triggering frequency for t
 - To add a new trigger, click __Add Trigger__.
 
 Step 8 – Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 
 Step 9 – After making the changes, click __Update Schedule__.
 
 Step 10 – On the Schedules page, click __Save__.  
-For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for additional information.
+For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for additional information.

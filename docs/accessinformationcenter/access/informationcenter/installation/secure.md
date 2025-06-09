@@ -124,15 +124,15 @@ Follow the steps to configure local intranet settings.
 
 __Step 1 –__ Open Windows Internet Properties (__Control Panel__ > __Network and Internet__ > __Internet Options__).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.png)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.png)
 
 __Step 2 –__ Go to the Security tab, and select the __Local Intranet__ option. Then, click the __Sites__ button.
 
-![localintranet](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.png)
+![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.png)
 
 __Step 3 –__ Click the __Advanced__ button.
 
-![localintranetadvanced](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.png)
+![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.png)
 
 __Step 4 –__ Enter a domain in the __Add this website in the zone__ field. Ensure the fully qualified domain name is in the following format: ```https://<server>.<domain>.com```
 

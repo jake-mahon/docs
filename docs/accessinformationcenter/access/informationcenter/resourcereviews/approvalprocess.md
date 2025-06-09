@@ -6,7 +6,7 @@ After all owners assigned to a specific review have submitted their review, its 
 
 In the approval process, the Review Administrator looks at the owner-recommended changes and chooses to approve, deny, or defer the changes.
 
-The Review Administrator may choose to model the requested changes to see how the user's overall access will be impacted. Change modeling is conducted through the Resource Audit interface. You can access this interface via the __Resource Audit__ button on the [Review Details Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Review-Details-Page). See the [Model Changes in the AIC](/docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/model.md) topic for additional information.
+The Review Administrator may choose to model the requested changes to see how the user's overall access will be impacted. Change modeling is conducted through the Resource Audit interface. You can access this interface via the __Resource Audit__ button on the [Review Details Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#review-details-page). See the [Model Changes in the AIC](/docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/model.md) topic for additional information.
 
 __CAUTION:__  If the Access Information Center has been configured to commit changes to Active Directory and the automation prerequisites have been met for this type of review, this change will be committed when the review is complete.
 
@@ -38,7 +38,7 @@ __Step 5 –__ Repeat Steps 2-4 for each resource included in the review.
 
 __Step 6 –__ Remediation of the accepted changes can be done one of two ways:
 
-- Automatic — If the Access Information Center has been configured to commit AD changes, accepted changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you may need to export the approved changes and send those to your IT department. See the [Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#Automation-Prerequisites) topic for additional information.
+- Automatic — If the Access Information Center has been configured to commit AD changes, accepted changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you may need to export the approved changes and send those to your IT department. See the [Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department. Use the __Export Excel__ or __Export CSV__ buttons to generate and download an export of accepted changes.
 
 __Step 7 –__ When remediation is complete, return to the Mange Reviews page (click on the breadcrumb). Select the review in the list and click __Mark Completed__.
@@ -67,7 +67,7 @@ __Step 4 –__ Repeat Steps 2-3 for each resource included in the review.
 
 __Step 5 –__ Remediation of the accepted changes can be done one of two ways:
 
-- Automatic — If the Access Information Center has been configured to commit AD changes, accepted changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you may need to export the approved changes and send those to your IT department. See the [Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#Automation-Prerequisites) topic for additional information.
+- Automatic — If the Access Information Center has been configured to commit AD changes, accepted changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you may need to export the approved changes and send those to your IT department. See the [Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department. Use the __Export Excel__ or __Export CSV__ buttons to generate and download an export of accepted changes.
 
 __Step 6 –__ When remediation is complete, return to the Mange Reviews page (click on the breadcrumb). Select the review in the list and click __Mark Completed__.

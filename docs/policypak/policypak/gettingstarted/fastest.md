@@ -25,7 +25,7 @@ Endpoint Policy Manager has two login areas, both of which are accessible from t
 
 - If you are unable to logon as expected during a trial, contact your Endpoint Policy Manager Sales person for credentials.
 
-- If you are unable to logon as expected as a customer, open a ticket to contact [Netwrix Support](https://www.netwrix.com/tickets.html#Netwrix-Support).
+- If you are unable to logon as expected as a customer, open a ticket to contact [Netwrix Support](https://www.netwrix.com/tickets.html#netwrix-support).
 
 __NOTE:__ The credentials are not shared or single sign on between Portal and Cloud service.
 
@@ -70,7 +70,7 @@ Finding what youare looking for comes down to Knowledge Base & Videos and User 
 
 __CAUTION:__ Email is no longer monitored at the old support @policypak.com email address.
 
-To get help during a Trial or as a customer, it is the same motion. Open a ticket to contact [Netwrix Support](https://www.netwrix.com/tickets.html#Netwrix-Support).
+To get help during a Trial or as a customer, it is the same motion. Open a ticket to contact [Netwrix Support](https://www.netwrix.com/tickets.html#netwrix-support).
 
 __NOTE:__ The Netwrix ticket portal is another set of credentials and is not related to Endpoint Policy Manager Portal or Endpoint Policy Manager Cloud.
 

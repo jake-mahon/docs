@@ -41,7 +41,7 @@ The Select… window opens. Select a server/Agent from the drop-down menu and cl
 
 Use the __Remove__ (x) button to remove Items from the list on the Add New Collection window.
 
-Some collection can be configured to be dynamic collections. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md#Dynamic-Collections) topic for additional information. The Perpetrators and Lockdown Perpetrators collections also have the option to expand group membership. See the [Expand Groups Option for Perpetrators & Objects Collection](#Expand-Groups-Option-for-Perpetrators-Objects-Collection) topic for additional information.
+Some collection can be configured to be dynamic collections. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information. The Perpetrators and Lockdown Perpetrators collections also have the option to expand group membership. See the [Expand Groups Option for Perpetrators & Objects Collection](#Expand-Groups-Option-for-Perpetrators-Objects-Collection) topic for additional information.
 
 __Step 7 –__ When the configuration is set as desired, click __OK__ to save the collection.
 

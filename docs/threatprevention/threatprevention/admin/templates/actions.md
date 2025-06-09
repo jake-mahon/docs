@@ -43,7 +43,7 @@ __NOTE:__ To enable this feature, a Threat Prevention administrator must first e
 
 This action can be checked to send event data for the policy to Netwrix Threat Manager. This is specific to integration with a full version deployment of Netwrix Threat Manager. The Netwrix Threat Manager Reporting Module uses the NVMonitorData database (Send to Events DB option) for reporting purposes.
 
-__NOTE:__ To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be created and configured by a Threat Prevention administrator through the [Event Sink Tab](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md#Event-Sink-Tab) on the Netwrix Threat Manager Configuration window.
+__NOTE:__ To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be created and configured by a Threat Prevention administrator through the [Event Sink Tab](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md#event-sink-tab) on the Netwrix Threat Manager Configuration window.
 
 ## Email Notifications
 
@@ -91,4 +91,4 @@ See the following topics for additional information:
 
   - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
-__NOTE:__ There are custom scripts created by Netwrix Engineers that execute the notification emails. See the [Custom Scripts](/docs/threatprevention/threatprevention/admin/templates/folder/actions.md#Custom-Scripts) topic for additional information.
+__NOTE:__ There are custom scripts created by Netwrix Engineers that execute the notification emails. See the [Custom Scripts](/docs/threatprevention/threatprevention/admin/templates/folder/actions.md#custom-scripts) topic for additional information.

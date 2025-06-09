@@ -31,14 +31,14 @@ Review your data source settings and click __Add__ to go back to your plan. The 
 
 By default, Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). If you want to monitor user-defined hidden shares, select the related option in the monitored item settings.
 
-Administrative hidden shares like default system root or Windows directory (_ADMIN$_), default drive shares (_D$, E$_), etc. will not be monitored. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Administrative hidden shares like default system root or Windows directory (_ADMIN$_), default drive shares (_D$, E$_), etc. will not be monitored. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 _Remember,_ before adding your monitored items, examine the considerations, limitations and recommendations provided in the following sections:
 
-- [DFS-Related Constraints](/docs/auditor/auditor/configuration/fileservers/windows/overview.md#DFS-Related-Constraints)
-- [Supported File Servers and Devices](/docs/auditor/auditor/configuration/fileservers/overview.md#Supported-File-Servers-and-Devices)
-- [State-in-Time Data](/docs/auditor/auditor/configuration/fileservers/overview.md#State-in-Time-Data)
-- [Sensitive Data](/docs/auditor/auditor/configuration/fileservers/overview.md#Sensitive-Data)
+- [DFS-Related Constraints](/docs/auditor/auditor/configuration/fileservers/windows/overview.md#dfs-related-constraints)
+- [Supported File Servers and Devices](/docs/auditor/auditor/configuration/fileservers/overview.md#supported-file-servers-and-devices)
+- [State-in-Time Data](/docs/auditor/auditor/configuration/fileservers/overview.md#state-in-time-data)
+- [Sensitive Data](/docs/auditor/auditor/configuration/fileservers/overview.md#sensitive-data)
 
 ## Dell VNX VNXe
 
@@ -262,7 +262,7 @@ Complete the following fields:
 | Configure audit settings | You can adjust audit settings automatically. Your current audit settings will be checked on each data collection and adjusted if necessary.  This method is recommended for evaluation purposes in test environments. If any conflicts are detected with your current audit settings, automatic audit configuration will not be performed.  Do not select the checkbox if you want to configure audit settings manually.  See the [Supported Data Sources](/docs/auditor/auditor/requirements/supporteddatasources.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them.  Netwrix Auditor can configure the following settings:   - Policy Check - Policy Adjust |
 | Collect data for state-in-time reports | Configure Auditor to store daily snapshots of your system configuration required for further state-in-time reports generation. See the [State–In–Time Reports](/docs/auditor/auditor/admin/reports/types/stateintime/overview.md) topic for additional information.  When auditing file servers, changes to effective access permissions can be tracked in addition to audit permissions. By default, Combination of file and share permissions is tracked. File permissions define who has access to local files and folders. Share permissions provide or deny access to the same resources over the network. The combination of both determines the final access permissions for a shared folder—the more restrictive permissions are applied. Upon selecting Combination of file and share permissions only the resultant set will be written to the Audit Database. Select File permissions option too if you want to see difference between permissions applied locally and the effective file and share permissions set. To disable auditing of effective access, unselect all checkboxes under Include details on effective permissions.  In the Schedule state-in-time data collection section, you can select a custom weekly interval for snapshots collection. Click Modify and select day(s) of week you want your snapshot to be collected.  In the Manage historical snapshots section, you can click __Manage__ and select the snapshots that you want to import to the Audit Database to generate a report on the data source's state at the specific moment in the past.  You must be assigned the Global administrator or the Global reviewer role to import snapshots.  Move the selected snapshots to the Snapshots available for reporting list using the arrow button.  The product updates the latest snapshot on the regular basis to keep users up to date on actual system state. Users can also configure Only the latest snapshot is available for reporting in Auditor. If you want to generate reports based on different snapshots, you must import snapshots to the Audit Database. |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Nutanix SMB Shares
 

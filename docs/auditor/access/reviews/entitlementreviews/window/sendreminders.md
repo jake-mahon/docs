@@ -1,6 +1,6 @@
 # Send Reminders Window
 
-The Send Reminders window opens from the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#Manage-Reviews-Page) of the Entitlement Reviews interface. Select the desired active review(s) and click __Send Reminders__ to send immediate reminder notifications. The Send Reminders window opens to display an action status.
+The Send Reminders window opens from the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#manage-reviews-page) of the Entitlement Reviews interface. Select the desired active review(s) and click __Send Reminders__ to send immediate reminder notifications. The Send Reminders window opens to display an action status.
 
 ![Send Reminders window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/sendreminders.png)
 

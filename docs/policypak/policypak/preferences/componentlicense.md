@@ -9,7 +9,7 @@ Here are the scenarios for which you should request a PPPrefs license:
 - You want to deliver user-side-only Microsoft's GPPreferences items to computers, that is, [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/methods/exporterutility.md)
 - You want to deliver GPPrefs items using SCCM or some other non-GP method.
 
-In those cases, or if you think you have another rason why you need it, open a support ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-Support) and we can get it to you.
+In those cases, or if you think you have another rason why you need it, open a support ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support) and we can get it to you.
 
 In your email please let us know the circumstance in which you plan to use PPPrefs.
 

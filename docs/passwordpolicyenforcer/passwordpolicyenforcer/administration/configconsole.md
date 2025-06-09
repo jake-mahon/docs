@@ -21,9 +21,9 @@ The Configuration Console dashboard has all the tools you need to set up and man
 
 In addition, there are tiles to access Password Policy Enforcer major features:
 
-- [Manage Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Manage-Policies)
-- [Compromised Password Check](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordcheck.md#Compromised-Password-Check)
-- [System Audit and Support](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.md#System-Audit-and-Support) - Version Tracker, Support Tools, Property Editor
+- [Manage Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md)
+- [Compromised Password Check](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordcheck.md)
+- [System Audit and Support](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.md) - Version Tracker, Support Tools, Property Editor
 
 See the specific topics for details.
 

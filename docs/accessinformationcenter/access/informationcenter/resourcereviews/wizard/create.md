@@ -1,6 +1,6 @@
 # Create Review Wizard
 
-The Create Review wizard is opened with the __Create__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Create Review wizard is opened with the __Create__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
 ![Create Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
@@ -53,7 +53,7 @@ __Step 2 –__ On the Review Type page, provide the following information and cl
 
 __NOTE:__ If creating a Sensitive Data review, continue to Step 3. For all other review types, skip to Step 5.
 
-![Create Review wizard Criteria page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Create Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
 
 __Step 3 –__ On the Criteria page, select the types of sensitive criteria to include in the Sensitive Data review from the list on the left and click __Add__. Multiple items can be selected together by using the __Ctrl__ or __Shift__ key with mouse click combinations. The selected criteria is added to the Selected Criteria list. Repeat this until you have all required criteria selected. To remove a criteria, select it in the Selected Criteria list and click __Remove__.
 
@@ -86,7 +86,7 @@ __Step 5 –__ On the Resources page, select the resources to be included in the
   - Distribution lists: ```Name@domain.com```
 - Once the desired resources have been selected, click __Next__.
 
-![Create Review wizard Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Create Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 6 –__ On the Summary page, review the settings and click __Next__. The Access Information Center begins to create the review.
 

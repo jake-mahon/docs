@@ -40,7 +40,7 @@ Define the entity type's scalar properties by proceeding as follows:
 
    - __APPLICATION METADATA__: fields about the future display of the properties inside Identity Manager.
 
-     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure).
+     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
      - ```Name```: will be displayed in the UI to indicate the property.
 
        Entity properties' names and identifiers cannot be "Id".

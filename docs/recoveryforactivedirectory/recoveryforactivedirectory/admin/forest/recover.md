@@ -63,11 +63,11 @@ In the Target Server section:
 - In the __Server__ field, enter the IP address of the target server where you want to restore the domain controller from the backup.
 - Provide the credentials of an account in the Account and Password fields. This must be an administrator account for the target server.
 
-See the [Target Server and Operating System Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md#Target-Server-and-Operating-System-Requirements) topic for additional information.
+See the [Target Server and Operating System Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md#target-server-and-operating-system-requirements) topic for additional information.
 
 __Step 5 –__ Click __Next__.
 
-![Add to Recovery Playbook wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Add to Recovery Playbook wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 6 –__ From the __Backup__ drop-down menu, select the backup to use for restoring the domain controller. The drop-down menu lists the backups available for the domain controller.
 

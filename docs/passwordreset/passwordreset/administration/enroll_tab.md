@@ -46,4 +46,4 @@ The number of questions that users must answer to enroll is configurable, and is
 
 You can also set a minimum length for each answer. Only alphanumeric characters are counted because Password Reset only checks alphanumeric characters. Select the minimum number of alphanumeric characters in each answer from the __Answers must contain at least...__ drop-down list.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

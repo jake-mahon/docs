@@ -35,7 +35,7 @@ Interface Icons
 | ![users](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.png) | Users & Groups |
 | ![resources](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png) | Resources |
 | ![credentials](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png) | Credentials |
-| ![activities](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/activities.png) | Activities |
+| ![activities](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/activities.png) | Activities |
 | ![configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.png) | Configuration |
 | ![servicenodes](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/servicenodes.png) | Service Nodes |
 | ![auditreporting](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/auditreporting.png) | Audit and Reporting |

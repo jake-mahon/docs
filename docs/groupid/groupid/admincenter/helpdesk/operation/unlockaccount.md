@@ -5,7 +5,7 @@ users may also get locked out; typically because of a typo or they could not rec
 
 In such a situation as this, helpdesk users can unlock user accounts in an identity store.
 
-Helpdesk may have to authenticate users before unlocking their accounts. See the [Helpdesk Policy ](/docs/groupid/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+Helpdesk may have to authenticate users before unlocking their accounts. See the [Helpdesk Policy ](/docs/groupid/groupid/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
 NOTE: You can unlock the account of unenrolled users if (a) the __Unlock Any Account__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
@@ -31,7 +31,7 @@ Step 2 – The Helpdesk page opens to the Helpdesk Operations tab. Locate your r
 Step 3 – Click the ellipsis button for the user and select __Unlock Account__. The Unlock Account dialog box has two pages: Authenticate and Unlock.   
 Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
 
-Step 4 – The Authenticate page displays the authentication type(s) the user's account is enrolled with. to authenticate the user, follow step 4 in the [Reset Passwords in Restricted Mode](/docs/groupid/groupid/admincenter/helpdesk/operation/resetpassword.md#Reset-Passwords-in-Restricted-Mode) topic.
+Step 4 – The Authenticate page displays the authentication type(s) the user's account is enrolled with. to authenticate the user, follow step 4 in the [Reset Passwords in Restricted Mode](/docs/groupid/groupid/admincenter/helpdesk/operation/resetpassword.md#reset-passwords-in-restricted-mode) topic.
 
 Step 5 – After authenticating the user, click __Next__.
 

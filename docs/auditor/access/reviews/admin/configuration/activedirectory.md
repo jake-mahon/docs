@@ -7,7 +7,7 @@ The Active Directory service account is configured during installation based on 
 - SQL Server authentication credentials — Active Directory service account is configured to use the Local System, or computer account, which typically has Read rights to the domain
 - Windows authentication credentials — The same domain credentials are also used for the Active Directory service account
 
-![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
+![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
 
 There are two options for the type of Active Directory service account:
 

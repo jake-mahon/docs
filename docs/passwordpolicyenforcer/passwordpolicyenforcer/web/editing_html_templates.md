@@ -9,9 +9,9 @@ Password Policy Enforcer Web installs four .htm files for every language. Each f
 | Filename | Content |
 | --- | --- |
 | en\_default.htm | Static HTML for the Welcome page. See the [Launch Password Policy Enforcer Web](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md) topic for additional information. |
-| en\_ppeweb.htm | Template for the Password Change page. See the [Change Password](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Change-Password) topic for additional information. |
+| en\_ppeweb.htm | Template for the Password Change page. See the [Change Password](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#change-password) topic for additional information. |
 | en\_finished.htm | Template for the Finished page. |
-| en\_error.htm | Template for the Password Critical Error page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. |
+| en\_error.htm | Template for the Password Critical Error page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#error-messages) topic for additional information. |
 
 The other user interface files are language independent. Most of the formatting is in ppeweb.css, and some additional CSS for Internet Explorer is in ppeweb\_ie.css. The image files are in the images folder. These files are installed into the ```\Inetpub\wwwroot\ppeweb\``` folder by default.
 
@@ -39,7 +39,7 @@ Templates end with a resource string section.
 
 `--><!--/RESOURCE_STRINGS-->`
 
-Resource strings are mostly validation error messages, but they can contain any text Password Policy Enforcer Web may need to build the page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Policy Enforcer Web deletes this range before sending the page to the user's web browser.
+Resource strings are mostly validation error messages, but they can contain any text Password Policy Enforcer Web may need to build the page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#error-messages) topic for additional information. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Policy Enforcer Web deletes this range before sending the page to the user's web browser.
 
 __CAUTION:__ You may rebrand the Password Policy Enforcer Web user interface, but it is a violation of the License Agreement to modify, remove or obscure any copyright notice. See the [License Agreement](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/license_agreement.md) topic for additional information.
 

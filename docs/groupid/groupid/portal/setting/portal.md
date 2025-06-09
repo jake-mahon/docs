@@ -24,7 +24,7 @@ Step 3 – Click __Save__.
 
 GroupID generates a number of notifications that are, by default, sent to users in the English language. However, a user can opt to receive notifications in a different language by personalizing the language settings from the __User Settings__ panel in the portal.
 
-However, there are a few exceptions to it. See the [Notifications](/docs/groupid/groupid/admincenter/notification/overview.md#Notifications) topic for more information.
+However, there are a few exceptions to it. See the [Notifications](/docs/groupid/groupid/admincenter/notification/overview.md) topic for more information.
 
 Step 1 – Click the __Settings__ icon at the top of the page.
 

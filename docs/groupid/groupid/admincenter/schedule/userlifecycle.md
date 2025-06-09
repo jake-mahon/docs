@@ -37,13 +37,13 @@ Please note the following while selecting a Scheduler service:
 
 - If a schedule is run manually on the Admin Center, then the Scheduler service of that instance will be used.
 
-Step 9 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to add triggers.
+Step 9 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
 
 Step 10 – Click __Add Authentication__ in the Authentication area to specify an account for running the schedule in the identity store. Follow step 12 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic for additional information.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
 
 Step 11 – On the Create Schedule page, click __Create Schedule__.
 
 Step 12 – On the Schedules page, click __Save__.  
 The schedule is displayed under __User Life Cycle__.
-See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store)topic for additional information.
+See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic for additional information.

@@ -25,7 +25,7 @@ ___RECOMMENDED:___ For most analytics, configure at least one filter before enab
 
 The Refresh button on the Analytics ribbon repopulates both the graphical display and the analytic list.
 
-The Permissions section at the bottom of the interface allows you to protect Analytic policies at the Analytics node. Once a user is assigned permission, all analytic policies, configurations, and data are protected from any user not included in the permissions list. See the [Protect Policies](/docs/threatprevention/threatprevention/admin/policies/dataprotection.md#Protect-Policies) topic for instructions on how to protect analytic policies.
+The Permissions section at the bottom of the interface allows you to protect Analytic policies at the Analytics node. Once a user is assigned permission, all analytic policies, configurations, and data are protected from any user not included in the permissions list. See the [Protect Policies](/docs/threatprevention/threatprevention/admin/policies/dataprotection.md#protect-policies) topic for instructions on how to protect analytic policies.
 
 ![Analytics node](/img/product_docs/threatprevention/threatprevention/admin/analytics/analyticslist.png)
 

@@ -24,7 +24,7 @@ Below you will find instructions on how to connect Entra ID to Netwrix Password 
 
 ### New enterprise application
 
-Login to the [Azure portal](https://portal.azure.com/#Azure-portal) and go to the management page of your Microsoft Entra ID.
+Login to the [Azure portal](https://portal.azure.com/#azure-portal) and go to the management page of your Microsoft Entra ID.
 
 NOTE: You need an account with administrative permissions
 

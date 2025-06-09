@@ -23,7 +23,7 @@ __Step 1 –__ Select the desired resource in the Owner portal and click __Chang
 
 __Step 2 –__ On the Select Change page, select the __Add access for a new user__ option. If selected, the __Notify users about their change in access__ option will send an email to the users who have been granted access to the resource. Click __Next__.
 
-![Change Resource Access wizard showing 2. Add Access page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.png)
+![Change Resource Access wizard showing 2. Add Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.png)
 
 __Step 3 –__ On the Add Access page, indicate the new users. Entering a name or email address in the search field to find and select users from Active Directory, which populate in a drop-down menu as you type. You can also import a list of users by clicking __Import__, navigating to the CSV file, and clicking __Open__ to select the file. See the [Import Users CSV File](#Import-Users-CSV-File) topic for additional information.
 

@@ -179,7 +179,7 @@ The filter ```?filter=active eq \"true\"``` retrieves active Users from the exte
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Filter   optional | String | Filters applied in the SCIM request retrieving the entities. You should write the filters as you would write them in the URL (including the "?"). For more details on the syntax, see the [RFC document](https://tools.ietf.org/html/rfc7644#RFC-document).  Syntax:EntityNameInSCIM1&#124;scimFilter1&#42;EntityNameInSCIM2&#124;scimFilter2&#42;EntityNameInSCIM3&#124;scimFilter3 |
+| Filter   optional | String | Filters applied in the SCIM request retrieving the entities. You should write the filters as you would write them in the URL (including the "?"). For more details on the syntax, see the [RFC document](https://tools.ietf.org/html/rfc7644#rfc-document).  Syntax:EntityNameInSCIM1&#124;scimFilter1&#42;EntityNameInSCIM2&#124;scimFilter2&#42;EntityNameInSCIM3&#124;scimFilter3 |
 | OAuth2Url   optional | String | URL which get tokens for the requests.   The system can usually find this information, but sometimes the system gets it wrong, like Salesforce for example. |
 | PageSize   default value: 200 | String | Maximum number of elements returned by one request. |
 | Server   required | String | URL of the SCIM endpoints of your application, excluding /v2. |
@@ -265,7 +265,7 @@ Same as for export, fulfill is configured through connections.
 | Name | Type | Description |
 | --- | --- | --- |
 | BulkMaxOperation   optional | Int32 | Maximum number of operations which can be sent in one bulk request. |
-| ServiceSupportBulk   optional | Boolean | True to allow bulk requests.  depends on the web application's SCIM implementation. See the [RFC document](https://tools.ietf.org/html/rfc7644#RFC-document) for additional information. |
+| ServiceSupportBulk   optional | Boolean | True to allow bulk requests.  depends on the web application's SCIM implementation. See the [RFC document](https://tools.ietf.org/html/rfc7644#rfc-document) for additional information. |
 | Server   required | String | URL of the SCIM endpoints of your application, excluding /v2. |
 | ApplicationId   optional | String | Login of the application or of the application's Id provider. |
 | ApplicationKey   optional | String | Password of the application or of the application's Id provider. |

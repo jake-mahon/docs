@@ -12,7 +12,7 @@ These roles are highly customizable. You can modify their display name, priority
 
 __View security role info__
 
-To view information about a security role, see the [View Security Roles](/docs/groupid/groupid/admincenter/securityrole/manage.md#View-Security-Roles) topic.
+To view information about a security role, see the [View Security Roles](/docs/groupid/groupid/admincenter/securityrole/manage.md#view-security-roles) topic.
 
 __User policies and permissions__
 
@@ -37,6 +37,6 @@ Consider the following scenario:
 
 As a result, User A has two different roles in two Directory Manager clients.
 
-Not only that, a user can also have multiple roles in a Directory Manager client, in which case role priority is used to determine the access level of the user on the specific client. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#Priority).
+Not only that, a user can also have multiple roles in a Directory Manager client, in which case role priority is used to determine the access level of the user on the specific client. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).
 
 To view the highest priority role of a user with respect to a Directory Manager client, see the [Check the Roles of a User](/docs/groupid/groupid/admincenter/securityrole/checkrole.md) topic.

@@ -12,9 +12,9 @@ __Step 2 –__ On the Forest page, select a forest to view the domain controller
 
 __Step 3 –__ Click the __Edit__ button for a domain controller, which is available in the far right of the domain controller row. The Server Backup Configuration wizard opens.
 
-![Server Backup Configuration Wizard - Server page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/server.png)
+![Server Backup Configuration Wizard - Server page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.png)
 
-__Step 4 –__ On the Server page, the fields are populated with the information you provided when configuring the domain controller backup. See the [Add Backup Configurations for a Domain Controller](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.md#Add-Backup-Configurations-for-a-Domain-Controller) topic for additional information.
+__Step 4 –__ On the Server page, the fields are populated with the information you provided when configuring the domain controller backup. See the [Add Backup Configurations for a Domain Controller](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.md#add-backup-configurations-for-a-domain-controller) topic for additional information.
 
 Enter the new password in the Password field and click __Next__. The next server backup will take into account the new password.
 
@@ -22,7 +22,7 @@ Enter the new password in the Password field and click __Next__. The next server
 
 __Step 5 –__ Modify the schedule if needed, then click __Next__.
 
-![Server Backup Configuration wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Server Backup Configuration wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 6 –__ Modify the options if needed, then click __Next__.
 

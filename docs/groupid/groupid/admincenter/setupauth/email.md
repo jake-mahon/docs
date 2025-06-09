@@ -4,7 +4,7 @@ Users can enroll and authenticate their identity store accounts using Email. An 
 
 Directory Manager provides a default notification template for enrollment/authentication via email in various languages. You can change the subject line and the body text in the template for any of these languages.
 
-NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the identity store. See the [Configure an SMTP Server](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md#Configure-an-SMTP-Server) topic.
+NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the identity store. See the [Configure an SMTP Server](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 What do you want to do?
 
@@ -47,7 +47,7 @@ __To modify the subject line and body of the email:__
 
 ## Enforce Email Authentication for a Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 

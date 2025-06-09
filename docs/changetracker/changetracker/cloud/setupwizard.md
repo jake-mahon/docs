@@ -52,7 +52,7 @@ You may experience a failure message after the Credentials Test has run: "Cannot
 
 In this case it will be necessary to run the following PowerShell setup on the host running the Gen7Agent NETCore being used for Cloud Tracker work:
 
-__Step 1 –__ Install PowerShell NETCore version 7.x (NB this is not the old PowerShell that is packaged with Windows, but a new cross-platform version based on NETCore). See the Microsoft [Installing the MIS package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows#Installing-the-MIS-package) article for additional information.
+__Step 1 –__ Install PowerShell NETCore version 7.x (NB this is not the old PowerShell that is packaged with Windows, but a new cross-platform version based on NETCore). See the Microsoft [Installing the MIS package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows#installing-the-mis-package) article for additional information.
 
 Although the agent provides its own PowerShell scripting, this NETCore version of PowerShell must be installed in order that the various AWS/Azure etc. PowerShell core support libraries can be installed. These are used by some Change Tracker reports to collect data from the cloud environments.
 
@@ -81,7 +81,7 @@ You may experience a failure message after the Credentials Test has run: "Cannot
 
 In this case it will be necessary to run the following PowerShell setup on the host running the Gen7Agent NETCore being used for Cloud Tracker work:
 
-__Step 1 –__ Install PowerShell NETCore version 7.x (NB this is not the old PowerShell that is packaged with windows, but a new cross-platform version based on netcore). See the Microsoft [Installing the MIS package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows#Installing-the-MIS-package) article for additional information.
+__Step 1 –__ Install PowerShell NETCore version 7.x (NB this is not the old PowerShell that is packaged with windows, but a new cross-platform version based on netcore). See the Microsoft [Installing the MIS package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows#installing-the-mis-package) article for additional information.
 
 Although the agent provides its own PowerShell scripting, this NETCore version of PowerShell must be installed in order that the various AWS/Azure etc. PowerShell core support libraries can be installed. These are used by some Change Tracker reports to collect data from the cloud environments.
 

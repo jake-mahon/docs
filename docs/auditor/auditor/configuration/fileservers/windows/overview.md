@@ -75,7 +75,7 @@ Consider the following:
 - To collect data from 32-bit operating systems, network traffic compression must be disabled.
 - To collect data from Windows Failover Cluster, network traffic compression must be enabled.
 - Scale-Out File Server (SOFS) cluster is not supported.
-- Auditing of files and folders placed directly into the DFS namespace root is not supported, as such configuration is not recommended by Microsoft. (See the Microsoft [Placing files directly in the namespace share](https://learn.microsoft.com/en-us/archive/blogs/askds/common-dfsn-configuration-mistakes-and-oversights#Placing-files-directly-in-the-namespace-share) article for additional information.) Make sure the UNC path of a shared folder is placed within a share targeted by a DFS folder.
+- Auditing of files and folders placed directly into the DFS namespace root is not supported, as such configuration is not recommended by Microsoft. (See the Microsoft [Placing files directly in the namespace share](https://learn.microsoft.com/en-us/archive/blogs/askds/common-dfsn-configuration-mistakes-and-oversights#placing-files-directly-in-the-namespace-share) article for additional information.) Make sure the UNC path of a shared folder is placed within a share targeted by a DFS folder.
 
 ## Configuration Steps
 
@@ -156,7 +156,7 @@ __Step 3 –__  When adding a DFS file share for auditing, specify a Windows fil
 - _"\\domain\dfsnamespace\"_ (domain-based namespace)
 - _"\\server\dfsnamespace\"_ (in case of stand-alone namespace);
 
-Auditing of files and folders placed directly into the DFS namespace root is not supported, as such configuration is not recommended by Microsoft. See the [Placing files directly in the namespace share](https://docs.microsoft.com/en-us/archive/blogs/askds/common-dfsn-configuration-mistakes-and-oversights#Placing-files-directly-in-the-namespace-share) section of the Microsoft article for additional information. Make sure the UNC path of a shared folder is placed within a share targeted by a DFS folder.
+Auditing of files and folders placed directly into the DFS namespace root is not supported, as such configuration is not recommended by Microsoft. See the [Placing files directly in the namespace share](https://docs.microsoft.com/en-us/archive/blogs/askds/common-dfsn-configuration-mistakes-and-oversights#placing-files-directly-in-the-namespace-share) section of the Microsoft article for additional information. Make sure the UNC path of a shared folder is placed within a share targeted by a DFS folder.
 
 For recommendations on configuring DFS replication, refer to the following Netwrix knowledge base article: [Why did loss of performance occur when configuring audit settings for Windows File Servers?](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA00g000000H9SyCAK.html). Remember that replication of namespace roots is not supported.
 

@@ -8,7 +8,7 @@ Depending on your company requirements you may need to investigate past incident
 
 To import audit data with the Archive Data Investigation wizard
 
-__NOTE:__ You must be assigned the Global administrator role to import investigation data. To view investigation data, you must be assigned the Global administrator or Global reviewer role. See [Assign Roles](/docs/auditor/auditor/admin/monitoringplans/delegation.md#Assign-Roles) topic for more information.
+__NOTE:__ You must be assigned the Global administrator role to import investigation data. To view investigation data, you must be assigned the Global administrator or Global reviewer role. See [Assign Roles](/docs/auditor/auditor/admin/monitoringplans/delegation.md#assign-roles) topic for more information.
 
 1. Navigate to Settings →  Investigations.
 2. Complete your SQL Server settings.

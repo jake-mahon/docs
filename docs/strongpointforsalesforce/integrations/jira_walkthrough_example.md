@@ -1,6 +1,6 @@
 # Jira Walkthrough Example
 
-This walkthrough is one example based on our test account. You must [install and configure](/docs/strongpointforsalesforce/integrations/jira_integration.md) the Platform Governance for Salesforce Salesforce Jira integration, including setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#Jira-Statuses)__ prior to using this walkthrough.
+This walkthrough is one example based on our test account. You must [install and configure](/docs/strongpointforsalesforce/integrations/jira_integration.md) the Platform Governance for Salesforce Salesforce Jira integration, including setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#jira-statuses)__ prior to using this walkthrough.
 
 The walkthrough demonstrates these steps:
 
@@ -38,7 +38,7 @@ The walkthrough demonstrates these steps:
 
 ### Connected App
 
-Use the __Connected App__ tab if you set up the connected app using the procedure: [Access Data with API Integration](/docs/strongpointforsalesforce/integrations/jira_integration.md#Access-Data-with-APIIntegration)
+Use the __Connected App__ tab if you set up the connected app using the procedure: [Access Data with API Integration](/docs/strongpointforsalesforce/integrations/jira_integration.md#access-data-with-apiintegration)
 
 1. Open the __Connected App__ tab.
 
@@ -52,7 +52,7 @@ If the configuration fails, an error message is displayed. For example,
 > __error=redirect\_uri\_mismatch__
 >
 > - The 10 minutes timing slot from Salesforce is not completed yet. Please wait
-> - If the error persists, check the [Callback URL](/docs/strongpointforsalesforce/integrations/jira_integration.md#Callback-URL).
+> - If the error persists, check the [Callback URL](/docs/strongpointforsalesforce/integrations/jira_integration.md#callback-url).
 >
 >   - You may have left a space between the two Callback URLs
 >   - You may have an error in the newly added Callback URL it should be:  
@@ -89,7 +89,7 @@ Once you have logged in, the form is displayed.
 - __Change Level Req__ is blank until Customizations have been added. If there are multiple change levels, the most stringent one is applied.
 - __Select Customizations__ is where you specify the Customizations you are changing or adding. If the Customization exists in your account, it is added to the __Select Customizations__ list. __Add Proposed Customizations__ are added to the __Proposed Customizations__ list. You can delete added Customizations with the ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.png) icon.
 - __View DRD__ and __Impact Analysis__ are tools to [Perform Risk Assessment](#Perform-Risk-Assessment).
-- __Push__ creates the Change Request in Salesforce. __Push__ is also used to manually update your Change Request if you are not using the [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#Automatic-Synchronization) feature.
+- __Push__ creates the Change Request in Salesforce. __Push__ is also used to manually update your Change Request if you are not using the [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#automatic-synchronization) feature.
 
 ### Add Existing Customizations by Name or API Name
 
@@ -117,10 +117,10 @@ In this procedure, we are adding a new Customization.
 
 ### Create the Change Request
 
-Using the Platform Governance for Salesforce Jira integration, your Change Requests are created automatically when you add a Customization. To setup or update the status mapping, refer to setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#Jira-Statuses)__ procedure.
+Using the Platform Governance for Salesforce Jira integration, your Change Requests are created automatically when you add a Customization. To setup or update the status mapping, refer to setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#jira-statuses)__ procedure.
 
-1. Change the Jira status of your ticket to match the status set up for __CR In Progress__. For example, __In Progress__. Refer to setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#Jira-Statuses)__ procedure.
-2. Click __Push__ to create the Change Request if you are not using the [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#Automatic-Synchronization) feature. The change request is created in Salesforce with the __In Progress__ status.
+1. Change the Jira status of your ticket to match the status set up for __CR In Progress__. For example, __In Progress__. Refer to setting up the __[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md#jira-statuses)__ procedure.
+2. Click __Push__ to create the Change Request if you are not using the [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#automatic-synchronization) feature. The change request is created in Salesforce with the __In Progress__ status.
 3. Expand the __Change Request__ field on the right. The status is now __None/In Progress__. There is a link to open the Change Request in Salesforce.
 
    ![Change Request is In Progress](/img/product_docs/strongpointforsalesforce/integrations/jira_example_in_progress_status.png)
@@ -153,7 +153,7 @@ The [Dependency Relationship Diagram](/docs/strongpointforsalesforce/tools/viewi
 Once you have resolved any risk or conflicts, your changes are ready for development:
 
 1. Change the Jira status of your ticket to match the status set up for __CR Pending Approval__. For example, __Selected for Development__.
-2. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#Automatic-Synchronization) to push status changes.
+2. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#automatic-synchronization) to push status changes.
 3. Expand the __Change Request__ field on the right. The status is now __Pending Approval / In Progress__. There is a link to open the Change Request in Salesforce.
 
    ![Change Request in Pending Approval](/img/product_docs/strongpointforsalesforce/integrations/jira_example_pending_approval_status.png)
@@ -169,7 +169,7 @@ When development is done, and the Change Request is approved according to your p
 
    ![Change Request is approved](/img/product_docs/strongpointforsalesforce/integrations/jira_example_approved_status.png)
 2. Change the Jira status of your ticket to match the status set up for __CR Approved__. For example, __Ready for Deployment__.
-3. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#Automatic-Synchronization) to push status changes.
+3. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md#automatic-synchronization) to push status changes.
 4. Once your deployment and verification activities are complete, change the Jira status of your ticket to match the status set up __CR Complete__. For example, __Done__.
 
 If you open the Change Request in Salesforce:

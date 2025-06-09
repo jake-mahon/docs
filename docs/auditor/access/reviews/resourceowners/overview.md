@@ -8,7 +8,7 @@ _Remember,_  a “resource” refers to the file system shared folders, SharePoi
 
 “Owners” are the users who are responsible for reviewing access to the resources to which they are assigned.
 
-The My Reviews interface provides owners with access to historical and pending reviews. The My Reviews interface is only accessible to users who have been assigned ownership of at least one resource. Owners without a console user role are directed to the My Reviews interface at login. Owners with a console user role access the pending and historical reviews for their resources by clicking the My Reviews tab. See the [Pending Reviews](/docs/auditor/access/reviews/entitlementreviews/pendingreviews.md#Pending-Reviews) topic for additional information.
+The My Reviews interface provides owners with access to historical and pending reviews. The My Reviews interface is only accessible to users who have been assigned ownership of at least one resource. Owners without a console user role are directed to the My Reviews interface at login. Owners with a console user role access the pending and historical reviews for their resources by clicking the My Reviews tab. See the [Pending Reviews](/docs/auditor/access/reviews/entitlementreviews/pendingreviews.md) topic for additional information.
 
 Who Can Assign Ownership (Ownership Administrators)?
 

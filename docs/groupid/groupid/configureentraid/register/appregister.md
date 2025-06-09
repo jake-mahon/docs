@@ -22,7 +22,7 @@ Step 5 – Go to the __Authentication__ node and set it as follows:
 
 Step 6 – Click __Save__.
 
-Step 7 – Select the __Certificates & secrets__ node in the left pane to uploaded a certificate for secure authentication in Microsoft Entra ID. See the [Generate a certificate](/docs/groupid/groupid/configureentraid/register/modauth.md#Generate-a-certificate) section of the [Certificate for Entra ID Authentication ](/docs/groupid/groupid/configureentraid/register/modauth.md)topic for additional information.
+Step 7 – Select the __Certificates & secrets__ node in the left pane to uploaded a certificate for secure authentication in Microsoft Entra ID. See the [Generate a certificate](/docs/groupid/groupid/configureentraid/register/modauth.md#generate-a-certificate) section of the [Certificate for Entra ID Authentication ](/docs/groupid/groupid/configureentraid/register/modauth.md)topic for additional information.
 
 ![Certificate & secrets page](/img/product_docs/groupid/groupid/configureentraid/register/pfxcertifupload.png)
 
@@ -85,6 +85,6 @@ Step 17 – Select the __Delegated permissions__ tab:
 
 ![SharePoint Delegated permissions](/img/product_docs/groupid/groupid/configureentraid/register/sharepoint_delegated_permissions.png)
 
-See [SharePoint Delegated Permissions](/docs/groupid/groupid/configureentraid/register/apppermissions.md#SharePoint-Delegated-Permissions) section of the [Microsoft Entra ID Permissions](/docs/groupid/groupid/configureentraid/register/apppermissions.md) topic for the required permission name.
+See [SharePoint Delegated Permissions](/docs/groupid/groupid/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions) section of the [Microsoft Entra ID Permissions](/docs/groupid/groupid/configureentraid/register/apppermissions.md) topic for the required permission name.
 
 This completes the registration process of Directory Manager in Microsoft Entra ID.

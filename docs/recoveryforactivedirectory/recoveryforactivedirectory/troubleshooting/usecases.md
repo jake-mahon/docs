@@ -12,7 +12,7 @@ Restoring a deleted object can be accomplished through the following interface i
 
 - [Active Directory Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md)
   - Locate the desired object in the Recycle Bin.
-  - Recover the object by following the steps in the [Recover an Object](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recover.md#Recover-an-Object) topic.
+  - Recover the object by following the steps in the [Recover an Object](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recover.md#recover-an-object) topic.
 
 ## Rollback Changes to an Object
 
@@ -43,7 +43,7 @@ Rolling back attribute changes can be accomplished through the following interfa
 
 ## Rollback Group Policy Object Changes
 
-Group Policy Objects (GPOs) control many aspects of operations, security, and software deployment. Recovery for Active Directory can rollback GPOs to any state captured within a backup. For this, Group Policy Management Console must be installed on the Recovery for Active Directory server. See Steps 9 and 10 in the [Add a Domain](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#Add-a-Domain) topic for additional information. An example of when a GPO change may need to be rolled back is:
+Group Policy Objects (GPOs) control many aspects of operations, security, and software deployment. Recovery for Active Directory can rollback GPOs to any state captured within a backup. For this, Group Policy Management Console must be installed on the Recovery for Active Directory server. See Steps 9 and 10 in the [Add a Domain](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#add-a-domain) topic for additional information. An example of when a GPO change may need to be rolled back is:
 
 - A GPO change caused users to lose access to a server or application
 
@@ -65,4 +65,4 @@ Server backup and restore can be accomplished through the following interfaces:
 
 - [Forest Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.md)
   - Configure backup settings for domain controllers
-  - Restore one or more domain controllers in a forest by following the steps in the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md#Create-a-Recovery-Playbook) topic
+  - Restore one or more domain controllers in a forest by following the steps in the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md#create-a-recovery-playbook) topic

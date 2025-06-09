@@ -11,7 +11,7 @@ __NOTE:__ Prior to configuring your monitoring plan, please read and complete th
 
 This instruction shows how to collect audit data from the Microsoft 365 tenant.
 
-If you plan to use modern authentication, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#Configuring-Microsoft-Entra-ID-App-for-Auditing-Microsoft-Entra-ID) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
+If you plan to use modern authentication, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
 
 - Tenant name
 - For modern authentication: Application (client) ID
@@ -76,6 +76,6 @@ __Step 4 –__ Complete the following fields:
 | Collect data for state-in-time reports | Configure Netwrix Auditor to store daily snapshots of your system configuration required for further state-in-time reports generation. See the [State–In–Time Reports](/docs/auditor/auditor/admin/reports/types/stateintime/overview.md) topic for additional information. |
 | Collect data on non-owner access to mailboxes |  |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 See the [Office 365 Tenant](/docs/auditor/auditor/solutions/items/overview.md) topic for additional information.

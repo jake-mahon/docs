@@ -29,7 +29,7 @@ __Step 5 –__ Recovery for Active Directory users do not have access to audit d
   ![Add Account Access wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
 - The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
-The added account is displayed under Account on the Netwrix Integrations page. See the [Integration with Threat Prevention](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md#Integration-with-Threat-Prevention) topic for additional information.
+The added account is displayed under Account on the Netwrix Integrations page. See the [Integration with Threat Prevention](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md#integration-with-threat-prevention) topic for additional information.
 
 __Step 6 –__ Click __Save__.
 

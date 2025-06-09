@@ -94,7 +94,7 @@ Set the required Change Level for each Metadata Type. The Default is shown in th
 
 ![Control Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new9.png)
 
-Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md#Health-Settings) tab for the specific records on the customization record.
+Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md#health-settings) tab for the specific records on the customization record.
 
 ### Application Configuration Changes (Data)
 

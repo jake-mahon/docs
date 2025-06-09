@@ -11,7 +11,7 @@ __NOTE:__ Prior to configuring your monitoring plan, please read and complete th
 
 This instruction shows how to collect audit data from the Microsoft 365 tenant.
 
-If you plan to use modern authentication, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#Configuring-Microsoft-Entra-ID-App-for-Auditing-Microsoft-Entra-ID) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
+If you plan to use modern authentication, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
 
 - Tenant name
 - For modern authentication: Application (client) ID

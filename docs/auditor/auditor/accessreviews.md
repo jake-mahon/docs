@@ -60,7 +60,7 @@ Review the following considerations:
 
    - Console Users — Grant users access to the application starting with an Administrator account. There are two levels of access: Administrator and Security Team. See the [Console Access Page](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md) topic for information.
 
-     - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
+     - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account) topic for additional information.
    - Notification — Configure the Notification settings required in order for the application to send email. See the [Notifications Page](/docs/auditor/access/reviews/admin/configuration/notifications.md) topic for information.
 
    ## Enable Console Users
@@ -86,7 +86,7 @@ Review the following considerations:
    Ownership of resources must be assigned in order to use the Access Reviews workflow:
 
    - Resource Ownership — Assign ownership for resources to be managed through the application. See the [Resource Owners Interface](/docs/auditor/access/reviews/resourceowners/interface.md) topic for additional information.
-   - Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/auditor/access/reviews/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
+   - Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/auditor/access/reviews/resourceowners/overview.md#notification-to-owners) topic for additional information.
 
    ## Access Reviews Workflow
 

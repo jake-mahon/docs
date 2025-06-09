@@ -28,6 +28,6 @@ The table has the following columns:
   - Completed — Activity either reached the end of its scheduled end time or was canceled early by the requestor
   - Canceled — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
   - Failed — Pre-Session stage of the Activity has encountered an error
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#Lock-Session) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -4,7 +4,7 @@ Password Policy Enforcer server should be installed on every domain controller t
 
 If your domain contains some read-only domain controllers, then installation of Password Policy Enforcer on these servers is only necessary if you are using the following features:
 
-- [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md#Rules)
+- [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md)
 - [Password Policy Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
 - [](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/web_overview.md)[Password Policy Enforcer Web](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/web_overview.md)
@@ -17,7 +17,7 @@ The Server installation package includes multiple features selected during insta
 
 __Step 1 –__ Download the installation package from Netwrix.
 
-__Step 2 –__ Extract the installers from the compressed file. If you are going to use Group Policy Manager to install Netwrix Password Policy Enforcer, copy the __msi__ files to a distribution folder. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationgpm.md) topic for additional details. You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#Silent-Installation).
+__Step 2 –__ Extract the installers from the compressed file. If you are going to use Group Policy Manager to install Netwrix Password Policy Enforcer, copy the __msi__ files to a distribution folder. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationgpm.md) topic for additional details. You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#silent-installation).
 
 __NOTE:__ Continue with these steps to install one or more features on your current server or domain controller. You must repeat these steps for each server where the features are installed.
 

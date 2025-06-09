@@ -21,7 +21,7 @@ __NOTE:__
 
 The local agent installed on the Netwrix Change Tracker host server will already be running and will have registered with the __Change Tracker Hub__. See the [Netwrix Change Tracker v8.1 Documentation](/docs/changetracker/changetracker/overview.md) topic for additional information.
 
-The auto-enrollment, or registration, process is described in more depth in the [Agent Updates](/docs/changetracker/changetracker/admin/settings/agentupdates.md#Agent-Updates) topic. but depending on server speed the Local Agent may be found in an ‘Awaiting Registration’ state or already registered in the system.
+The auto-enrollment, or registration, process is described in more depth in the [Agent Updates](/docs/changetracker/changetracker/admin/settings/agentupdates.md) topic. but depending on server speed the Local Agent may be found in an ‘Awaiting Registration’ state or already registered in the system.
 
 If you do not see an Agent at all then please contact [Netwrix Support](https://www.netwrix.com/support.html) for further help or use the Agent Troubleshooting of the Admin Guide.
 

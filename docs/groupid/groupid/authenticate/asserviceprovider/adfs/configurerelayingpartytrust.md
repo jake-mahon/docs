@@ -20,11 +20,11 @@ Step 5 – To use the SAML 2.0 protocol as profile, select the __AD FS profile__
 
 Step 6 – On the Configure Certificate page, click __Next__.
 
-Step 7 – On the Configure URL page, select the __Enable support for the SAML 2.0 Web SSO protocol__ option button. Then in the Relying party SAML 2.0 SSL service URL box, provide the consumer URL you generated for the Directory Manager client. See the [Generate the Consumer URL for a Directory Manager Client](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md#Generate-the-Consumer-URL-for-a-Directory-Manager-Client) topic.  
+Step 7 – On the Configure URL page, select the __Enable support for the SAML 2.0 Web SSO protocol__ option button. Then in the Relying party SAML 2.0 SSL service URL box, provide the consumer URL you generated for the Directory Manager client. See the [Generate the Consumer URL for a Directory Manager Client](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-the-consumer-url-for-a-directory-manager-client) topic.  
 The consumer URL is the relying party trust URL, used by AD FS to authenticate. Click __Next__.
 
 Step 8 – On the Configure Identifiers page, use the Relying party trust identifier box to provide the audience URL you generated for the Directory Manager client. Click __Add__ next to this box and then click __Next__.  
-See the [Generate Entity ID/Audience URL](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md#Generate-Entity-IDAudience-URL) topic.
+See the [Generate Entity ID/Audience URL](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-entity-idaudience-url) topic.
 
 Step 9 – Use the Configure Multi-factor Authentication Now? page to configure multi-factor authentication. At present, we will not configure it, so select the __I do not want to configure multi-factor authentications settings for this relying party trust at this time__ option button and click __Next__.
 

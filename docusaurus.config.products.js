@@ -3,8 +3,8 @@
 
 // Set to true to enable a product, false to disable
 const PRODUCTS = {
-  '1secure': true,
-  'accessanalyzer': false,
+  '1secure': false,
+  'accessanalyzer': true,
   'accessinformationcenter': false,
   'activitymonitor': false,
   'auditor': false,

@@ -19,7 +19,7 @@ The Object Rollback wizard opens.
 
 __Step 4 –__ In the Backup Date section, select a backup to use for the rollback operation. Then select the checkbox(es) for the attributes you want to roll back. Click __Next__.
 
-![Object Rollback wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Object Rollback wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 5 –__ Select a domain controller where the rollback changes will get affected. Options are:
 
@@ -35,7 +35,7 @@ __Step 7 –__ The account preforming the operation must have Domain Admin privi
 - If the account specified during domain configuration has Domain Admin privileges, click __Next__.
 - If the domain account does not have Domain Admin privileges, select the __Use alternate credentials to perform the object rollback__ checkbox and enter an account with Domain Admin privileges, then click __Next__.
 
-For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#Least-Privilege-Access-Model) topic.
+For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
 ![Object Rollback wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
 

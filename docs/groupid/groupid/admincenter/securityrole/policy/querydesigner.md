@@ -208,7 +208,7 @@ __To specify a default filter criteria:__
    - Enter a value for the attribute in the third box (for example, _Manager_).
 
    With this filter, the query would fetch users whose job titles are set to Manager. Role members can change it as required.
-8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#Advanced-Filter) section of the [Designate a Criterion for the Search Scope](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#Designate-a-Criterion-for-the-Search-Scope) topic.   
+8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#advanced-filter) section of the [Designate a Criterion for the Search Scope](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope) topic.   
    After creating a query, you can:
 
    - Click __Preview__ to get a list of the objects fetched by the query created by the current settings on the __Query Designer__ tab, namely the start-in container, objects, and default filter criteria.

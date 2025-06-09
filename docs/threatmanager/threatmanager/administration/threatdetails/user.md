@@ -70,7 +70,7 @@ Use the Search icon to search for data contained in any column. Click the Export
 
 The Group Membership tab displays groups in which the user is a member.
 
-![groupmembership](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
+![groupmembership](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
 
 ![Group Membership Indirect Member of Page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/groupmembershipindirect.png)
 

@@ -42,24 +42,24 @@ Please note the following while selecting a Scheduler service:
 - If a schedule is run manually on the Admin Center, then the Scheduler service of that instance will be used.
 
 Step 9 – You can specify containers as targets for the schedule. To do so, follow step 9 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic.
 The schedule will process all groups in the containers and their sub-containers listed in the Target(s) area in keeping with the Group Lifecycle settings for the identity store.
 
-NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively applying or not applying the Group Life cycle policy. See the [Apply Policy on Specific Containers](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Apply-Policy-on-Specific-Containers) topic. With containers specified in the Target(s) area, there may be a conflict or overlapping of containers, in which case, the Group Lifecycle settings take precedence.
+NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively applying or not applying the Group Life cycle policy. See the [Apply Policy on Specific Containers](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#apply-policy-on-specific-containers) topic. With containers specified in the Target(s) area, there may be a conflict or overlapping of containers, in which case, the Group Lifecycle settings take precedence.
 
 Step 10 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 
 Step 11 – Click __Add Authentication__ in the Authentication area to specify an account for running the schedule in the identity store. Follow step 12 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic for additional information.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
 
 Step 12 – To set notifications for the schedule, click __Notifications__.
 
 1. On the Notifications dialog box, select the __Send group life extension notification__ check box to send email notifications to a group’s primary and additional owners when the job extends
-   the life of a group, based on group usage settings in the Group Lifecycle policy. For group usage settings, see the [Enable Group Usage Lifecycle](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Enable-Group-Usage-Lifecycle) topic for additional information.
+   the life of a group, based on group usage settings in the Group Lifecycle policy. For group usage settings, see the [Enable Group Usage Lifecycle](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle) topic for additional information.
 2. Click __Save__.
 
 Step 13 – On the Create Schedule page, click __Create Schedule__.
 
 Step 14 – On the Schedules page, click __Save__.   
-The schedule is displayed under Group Life Cycle. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for additional information.
+The schedule is displayed under Group Life Cycle. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for additional information.

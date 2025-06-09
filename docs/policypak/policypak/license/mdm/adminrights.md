@@ -15,7 +15,7 @@ Get-Organization. This command requires one of the following permissions:
 - ```DeviceManagementServiceConfig.Read.All```
 - ```DeviceManagementConfiguration.Read.All```
 
-See the [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference#Microsoft-Graph-permissions-reference) article for additional information on the Get-Organization command and the permissions it needs (we need this command to get the number of
+See the [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference#microsoft-graph-permissions-reference) article for additional information on the Get-Organization command and the permissions it needs (we need this command to get the number of
 devices).
 
 The table below is taken from the link above, where we can see that both of the commands used in LT require admin

@@ -10,7 +10,7 @@ References: Logs
 
 Serilog configuration is written to both _Agent_'s and _Server_'s ```appsettings``` sets. The relevant top-level section is ```Serilog```.
 
-A full description of Serilog's configuration capabilities is available in [Serilog's official documentation](https://github.com/serilog/serilog-settings-configuration#Serilogs-official-documentation).
+A full description of Serilog's configuration capabilities is available in [Serilog's official documentation](https://github.com/serilog/serilog-settings-configuration#serilogs-official-documentation).
 
 Identity Manager-specific configuration is detailed here.
 
@@ -74,7 +74,7 @@ Here is a table giving some namespace that you could add in the ```Override``` s
 
 ## Log Properties
 
-Each log has a specific set of log properties, defined using the context of the server when generating the log (see [Formatting](https://github.com/serilog/serilog/wiki/Formatting-Output#Formatting)).
+Each log has a specific set of log properties, defined using the context of the server when generating the log (see [Formatting](https://github.com/serilog/serilog/wiki/Formatting-Output#formatting)).
 
 It is possible to modify the format message of the log displayed by overriding the ```outputTemplate``` of the logs:
 

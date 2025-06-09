@@ -31,7 +31,7 @@ Each data collecting accounts should meet the requirements from the table below,
 | SQL Server | [Permissions for SQL Server Auditing ](/docs/auditor/auditor/configuration/sqlserver/permissions.md) |
 | VMware | [Permissions for VMware Server Auditing ](/docs/auditor/auditor/configuration/vmware/permissions.md) |
 | Windows Server (including DNS and DHCP) | [Permissions for Windows Server Auditing ](/docs/auditor/auditor/configuration/windowsserver/permissions.md) |
-| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](/docs/auditor/auditor/configuration/windowsserver/permissions.md#Permissions-for-Windows-Server-Auditing) |
+| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](/docs/auditor/auditor/configuration/windowsserver/permissions.md) |
 | Group Policy | [Permissions for Group Policy Auditing ](/docs/auditor/auditor/configuration/grouppolicy/permissions.md) |
 | Logon Activity | [Permissions for Logon Activity Auditing ](/docs/auditor/auditor/configuration/logonactivity/permissions.md) |
 | Inactive Users in Active Directory—collected with Inactive User Tracker | In the target domain   - A member of the Domain Admins group |

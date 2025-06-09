@@ -48,7 +48,7 @@ Second way authentication is disabled by default for an identity store. To facil
 3. Click __Configurations under Settings__ in the left pane. Then click __Second Way Authentication__.
 4. On the __Second Way Authentication__ page, use the toggle button for __Enable Second Way Authentication via Mobile__ to enable it.
 
-   NOTE: If an SMS gateway account is not linked with the identity store, __Configure Now__ is displayed in place of the toggle button. Click it to go to the __SMS Authentication__ page, where you can link an SMS gateway account with the identity store. See the [Link an SMS Gateway Account to an Identity Store](/docs/groupid/groupid/admincenter/identitystore/configure/security/smsauthentication.md#Link-an-SMS-Gateway-Account-to-an-Identity-Store) topic.
+   NOTE: If an SMS gateway account is not linked with the identity store, __Configure Now__ is displayed in place of the toggle button. Click it to go to the __SMS Authentication__ page, where you can link an SMS gateway account with the identity store. See the [Link an SMS Gateway Account to an Identity Store](/docs/groupid/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store) topic.
 5. In the __Mobile Attribute__ drop-down list, select an attribute that stores mobile numbers in the directory.  
    For authentication via mobile, a verification code is sent to the user’s mobile number. The user
    has to enter the code in Directory Manager for authentication.

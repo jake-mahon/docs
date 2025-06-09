@@ -154,7 +154,7 @@ Export logs to a log management system by proceeding as follows:
    >
    > ```
 
-   > For example, to produce an RFC5424 output for QRadar ([see more information about UdpSyslog attributes](https://github.com/IonxSolutions/serilog-sinks-syslog#see-more-information-about-UdpSyslog-attributes)):
+   > For example, to produce an RFC5424 output for QRadar ([see more information about UdpSyslog attributes](https://github.com/IonxSolutions/serilog-sinks-syslog#see-more-information-about-udpsyslog-attributes)):
    >
    > ```
    >

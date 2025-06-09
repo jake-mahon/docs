@@ -142,27 +142,27 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Customi
 
 These reports are available from __Netwrix Dashboard__ > __Reports__ > __Clean Up__.
 
-> [Default Clean Up List View](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Default-Clean-Up-List-View)
+> [Default Clean Up List View](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#default-clean-up-list-view)
 >
-> [Open Clean Up Status](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Open-Clean-Up-Status)
+> [Open Clean Up Status](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#open-clean-up-status)
 >
-> [Clean Up Waiting for Info](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Clean-Up-Waiting-for-Info)
+> [Clean Up Waiting for Info](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#clean-up-waiting-for-info)
 >
-> [Customizations Excluded from Clean Up](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-Excluded-from-Clean-Up)
+> [Customizations Excluded from Clean Up](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
 >
-> [Unused Fields](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Fields)
+> [Unused Fields](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-fields)
 >
-> [Unused Apex Code](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Apex-Code)
+> [Unused Apex Code](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-apex-code)
 >
-> [Unused Reports](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Reports)
+> [Unused Reports](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-reports)
 >
-> [Customizations with Inactive Owners](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-with-Inactive-Owners)
+> [Customizations with Inactive Owners](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-with-inactive-owners)
 >
-> [Customizations without Related Processes](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-without-Related-Processes)
+> [Customizations without Related Processes](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-without-related-processes)
 >
-> [Custom Fields without Help Text](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Help-Text)
+> [Custom Fields without Help Text](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#custom-fields-without-help-text)
 >
-> [Custom Fields without Description](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Description)
+> [Custom Fields without Description](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#custom-fields-without-description)
 
 ## Change Enablement
 

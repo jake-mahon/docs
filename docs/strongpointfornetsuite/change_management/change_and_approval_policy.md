@@ -26,7 +26,7 @@ You can create a custom change request form for a Policy Approval. Refer to [Usi
 
 ## Non-Material Changes
 
-Non-material changes are changes detected in objects that are not performed by a human and do not have functional impact. You can review these changes on the [Non-Material Changes report](/docs/strongpointfornetsuite/change_management/change_management_reports.md#Non-Material-Changes-report).
+Non-material changes are changes detected in objects that are not performed by a human and do not have functional impact. You can review these changes on the [Non-Material Changes report](/docs/strongpointfornetsuite/change_management/change_management_reports.md#non-material-changes-report).
 
 Here is the criteria for non-material changes:
 

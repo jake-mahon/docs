@@ -22,7 +22,7 @@ The Administration Console has the following components:
 
 There are also right-click commands available within different sections of the [Policy Center](#Policy-Center).
 
-If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](/docs/threatprevention/threatprevention/troubleshooting/overview.md#Troubleshooting-FAQs) topic for information.
+If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](/docs/threatprevention/threatprevention/troubleshooting/overview.md#troubleshooting-faqs) topic for information.
 
 ## Menu
 

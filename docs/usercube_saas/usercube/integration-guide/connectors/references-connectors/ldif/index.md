@@ -74,7 +74,7 @@ The identifier of the connection and thus the name of the subsection must:
 | FilterAttribute   required | __Type__    String   __Description__ Property from the connector's configuration whose value is to be compared with the values from ```FilterValues```, in order to filter the entries to export. |
 | FilterValues   required | __Type__    String   __Description__ List of values to be compared with the value of ```FilterAttribute```, in order to filter the entries to export. Identity Manager will export only the entries matching the filter.   __Note:__ multiple values must be separated by white spaces. |
 | Attributes   required | __Type__    String List   __Description__ List of properties from the connector's configuration to be exported. |
-| LdifEncoding   default value: UTF-8 | Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| LdifEncoding   default value: UTF-8 | Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 
 ### Output details
 

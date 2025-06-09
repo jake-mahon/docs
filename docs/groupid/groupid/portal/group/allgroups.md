@@ -20,12 +20,12 @@ __You can:__
 
   If you click __Background__, the update runs in the background and will show in the __Background Tasks__ tab.
 - View and modify the [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) of a group.
-- [Expire a group manually ](/docs/groupid/groupid/portal/group/manage/groupexpiryfunction.md#Expire-a-group-manually). After expiring the group, it will be listed in __Expired Group__ list.
+- [Expire a group manually ](/docs/groupid/groupid/portal/group/manage/groupexpiryfunction.md#expire-a-group-manually). After expiring the group, it will be listed in __Expired Group__ list.
 - Select a smart group and click __Renew__ on the toolbar; this re-applies the expiry policy of the group starting from today, thus renewing the group.
-- Join a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-permanently)
+- Join a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
 
   Select __Other__ to add other users to the group.
-- Leave a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-permanently).
+- Leave a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
 
   Select __Other__ to
   remove other users from the group.
@@ -58,7 +58,7 @@ __You can:__
 - Add a group’s email to your email contact list using the vCard.
 
   Select a group and click __Add to Contacts__ on the toolbar. The portal creates the group's vCard and prompts you to save it on your machine. You can then use it to add the group's email address to your email contact list.
-- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#Add-a-group-to-the-membership-of-another-group-nesting)).
+- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click __Send Email__ on the toolbar. This launches the default Windows email application for sending an email to group members.
 - Click __Export Results__ on the toolbar to export the group list to a Microsoft Excel file.
 - In the __Results__ box, select the number of search results to display on a page.

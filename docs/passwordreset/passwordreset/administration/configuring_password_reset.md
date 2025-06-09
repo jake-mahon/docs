@@ -18,4 +18,4 @@ Information about the configuration console tabs can be found in the following t
 - [Permissions Tab](/docs/passwordreset/passwordreset/administration/permissions_tab.md)
 - [About Tab](/docs/passwordreset/passwordreset/administration/about_tab.md)
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

@@ -6,7 +6,7 @@ If your users get this message, this means that the Netwrix Endpoint Policy Mana
 
 That being said, that message is old, and has been replaced in more recent CSEs. The first order of business is to update the Client Side Extension to the LATEST version.
 
-If the problem still occurs, you would see a message similar to this. Note in this version, users are instructed to contact you, and not [Netwrix Support.](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-Support)
+If the problem still occurs, you would see a message similar to this. Note in this version, users are instructed to contact you, and not [Netwrix Support.](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support)
 
 ![378_3_img-02-image004](/img/product_docs/policypak/policypak/troubleshooting/378_3_img-02-image004.jpg)
 

@@ -30,7 +30,7 @@ In Admin Center, you can specify settings for the Replication service at the glo
 - At the global level, you can schedule the service to run every x minutes to replicate object attributes to Elasticsearch. You can also manually restore object data to Elasticsearch. See the [Manage Global Replication Settings](/docs/groupid/groupid/admincenter/replication/settings.md) topic.
 - For an identity store, you can specify the object attributes the service should replicate to Elasticsearch. See the [Manage Local Replication Settings](/docs/groupid/groupid/admincenter/identitystore/replication.md) topic.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#Exclude-an-Active-Directory-Domain-from-Replication) topic.
+NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ## Replication Service Logs
 

@@ -23,7 +23,7 @@ The top right corner of the application displays:
 | --- | --- |
 | Background jobs icon | View the status of jobs and job collections that are running in the background.  It displays:   - Jobs    - Completed Jobs: Jobs that have been completed.   - In Progress Jobs: Jobs that are still in running. - Job Collections    - Completed Jobs: Job collections that have been completed.   - In Progress Jobs: Job collections that are still in running. |
 | Help icon | Launch the synchronize portal help. |
-| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/docs/groupid/groupid/portal/login.md#Sign-Out) of the portal. |
+| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/docs/groupid/groupid/portal/login.md#sign-out) of the portal. |
 
 ## Menu Pane
 

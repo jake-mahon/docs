@@ -2,7 +2,7 @@
 
 The Password Policy Client helps users to choose a compliant password. Detailed information is provided if their new password is rejected.
 
-The Password Policy Client is optional. If it is not installed, the [Similarity Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/similarity_rule.md#Similarity-Rule) can not be enforced. Users only see the default Windows error message if their password is rejected, not the detailed help they receive from the Password Policy Client.
+The Password Policy Client is optional. If it is not installed, the [Similarity Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/similarity_rule.md) can not be enforced. Users only see the default Windows error message if their password is rejected, not the detailed help they receive from the Password Policy Client.
 
 ![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client.jpg)
   

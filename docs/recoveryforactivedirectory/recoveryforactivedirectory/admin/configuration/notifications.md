@@ -29,4 +29,4 @@ __Step 6 –__ Click the __Save__ button to save the configurations.
 
 Notifications have been configured in the system.
 
-__NOTE:__ The recipients of the notification can be added from the Domains page. See the [Add a Domain](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#Add-a-Domain) topic for additional information.
+__NOTE:__ The recipients of the notification can be added from the Domains page. See the [Add a Domain](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#add-a-domain) topic for additional information.

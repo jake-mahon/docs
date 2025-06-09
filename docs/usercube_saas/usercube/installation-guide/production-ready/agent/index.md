@@ -24,7 +24,7 @@ Agent ](/docs/usercube_saas/usercube/installation-guide/requirements/agent-requi
 
 Adding Identity Manager's agent as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net/) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 
-The Microsoft Documentation provides the [prerequisites](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0) and the procedure to [create a new IIS site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#create-a-new-IIS-site).
+The Microsoft Documentation provides the [prerequisites](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0) and the procedure to [create a new IIS site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#create-a-new-iis-site).
 
 The information needed to go through the creation process are the following:
 

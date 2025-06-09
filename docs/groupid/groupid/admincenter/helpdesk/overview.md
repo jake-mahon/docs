@@ -18,7 +18,7 @@ A security role must have the following permissions in an identity store to perf
 - Unlock Any Account
 - Unenroll
 
-See [Password Management](/docs/groupid/groupid/admincenter/securityrole/permissions.md#Password-Management) in the [Security Role – Permissions](/docs/groupid/groupid/admincenter/securityrole/permissions.md) topic.
+See [Password Management](/docs/groupid/groupid/admincenter/securityrole/permissions.md#password-management) in the [Security Role – Permissions](/docs/groupid/groupid/admincenter/securityrole/permissions.md) topic.
 
 ## Helpdesk Policy
 
@@ -34,9 +34,9 @@ The dashboard in Admin Center offers insightful information to the administrator
 
 The dashboard displays the following helpdesk-specific cards:
 
-- [Enrollment Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#Enrollment-Summary): displays the number of enrolled users in an identity store.
-- [Auth Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#Auth-Summary): displays information about failed and successful authentication attempts for each authentication type.
-- [Activity Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#Activity-Summary): displays a summary of users' activities related to password change, password reset, account unlock, and enrollment.
+- [Enrollment Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#enrollment-summary): displays the number of enrolled users in an identity store.
+- [Auth Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#auth-summary): displays information about failed and successful authentication attempts for each authentication type.
+- [Activity Summary](/docs/groupid/groupid/admincenter/general/dashboard.md#activity-summary): displays a summary of users' activities related to password change, password reset, account unlock, and enrollment.
 
 ## Desktop Notifications
 

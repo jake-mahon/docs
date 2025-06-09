@@ -4,7 +4,7 @@ The Users and Roles page displays the accounts with access to Recovery for Activ
 
 Click __Configuration__ in the left pane. Then click the __Users and Roles tab__ on the Configuration page to open the Users and Roles page.
 
-![Users and Roles page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
+![Users and Roles page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
 
 The table displays the following information:
 

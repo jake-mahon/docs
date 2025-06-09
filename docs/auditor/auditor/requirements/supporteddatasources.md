@@ -291,7 +291,7 @@ Auditor supports monitoring the following versions:
 - Database 12c On-Premise (12.1, 12.2)
 - Database 11g, limited support
 
-  __NOTE:__  See the [Considerations for Oracle Database 11g](/docs/auditor/auditor/configuration/oracle/overview.md#Considerations-for-Oracle-Database-11g) topic for additional information.
+  __NOTE:__  See the [Considerations for Oracle Database 11g](/docs/auditor/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g) topic for additional information.
 - Oracle Database Cloud Service (Enterprise Edition)
 
 See the [Oracle Database](/docs/auditor/auditor/configuration/oracle/overview.md) topic for additional information.

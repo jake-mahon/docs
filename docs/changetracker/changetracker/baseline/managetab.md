@@ -35,7 +35,7 @@ In this example we are using the default operation of only including changes ori
 
 Rule Operations:
 
-There are three choices for modifying a Baseline Policy, Extend, Add and Delete. You can also use the [Rule Edit function](/docs/changetracker/changetracker/baseline/policywizard.md#Rule-Edit-function) back in the Setup tab if you want to remove an existing rule entirely. The functions are largely self-explanatory, but tips are provided if you hover over each button.
+There are three choices for modifying a Baseline Policy, Extend, Add and Delete. You can also use the [Rule Edit function](/docs/changetracker/changetracker/baseline/policywizard.md#rule-edit-function) back in the Setup tab if you want to remove an existing rule entirely. The functions are largely self-explanatory, but tips are provided if you hover over each button.
 
 ![baselineruleoperations](/img/product_docs/changetracker/changetracker/baseline/baselineruleoperations.png)
 

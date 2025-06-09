@@ -42,7 +42,7 @@ Password Policy Enforcer first tries to resolve a policy assignment conflict by 
 
 If all the policies are assigned to the user by container, then Password Policy Enforcer enforces the policy that is assigned to the nearest parent container. For example, if Policy A is assigned to the Users OU, and Policy B is assigned to the Users\Students OU, then Password Policy Enforcer enforces Policy B for all users in the Users\Students and Users\Students\Science OUs because it is the policy assigned to the nearest parent container.
 
-If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Policy-Selection-Flowchart) topic for a diagrammatic representation of this algorithm.
+If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#policy-selection-flowchart) topic for a diagrammatic representation of this algorithm.
 
 Click __Test Policy__ and expand the __View log__ to see which policy Password Policy Enforcer enforces for a particular user.
 

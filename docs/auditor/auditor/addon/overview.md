@@ -27,7 +27,7 @@ Refer to [Security](/docs/auditor/auditor/api/security.md) for detailed instruct
 
 ## Use Add-Ons
 
-Before your start working with the add-on, go through its quick-start guide at [Netwrix Documentation page](https://www.netwrix.com/documentation.html#Netwrix-Documentation-page). Each guide contains detailed instructions for deploying and running the add-on, as well as prerequisites and configuration settings. Generic steps are described below.
+Before your start working with the add-on, go through its quick-start guide at [Netwrix Documentation page](https://www.netwrix.com/documentation.html#netwrix-documentation-page). Each guide contains detailed instructions for deploying and running the add-on, as well as prerequisites and configuration settings. Generic steps are described below.
 
 Follow the steps to use the add-on.
 

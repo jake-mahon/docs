@@ -35,7 +35,7 @@ The following information is displayed for a domain controller:
 
   - Start Backup – Starts a backup of the server on demand
   - Edit Configuration – Launches the Server Backup Configuration wizard, enabling you to modify the backup configurations for the domain controller
-  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md#Create-a-Recovery-Playbook) topic for additional information.
+  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md#create-a-recovery-playbook) topic for additional information.
 
     This is the only action displayed for a domain controller that has not been backed up.
 
@@ -73,7 +73,7 @@ __Step 1 –__ On the Forest page, select a forest to view the domain controller
 
 __Step 1 –__ Enable the Backup toggle button for a domain controller to launch the Server Backup Configuration wizard.
 
-![Server Backup Configuration wizard - Server page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/server.png)
+![Server Backup Configuration wizard - Server page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.png)
 
 __Step 2 –__ In the Server field, the domain controller to be backed up is displayed as read-only in the following format: server.domain.com.
 
@@ -94,7 +94,7 @@ __Step 6 –__ Select a start time (UTC) in the Start the backup at field to beg
 
 __Step 7 –__ Click __Next__.
 
-![Server Backup Configuration wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Server Backup Configuration wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 8 –__ In the Specify where you would like to store the backup data field, enter a path to a network share on the domain controller to store the backup data.
 

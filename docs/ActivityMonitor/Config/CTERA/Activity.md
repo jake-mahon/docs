@@ -77,7 +77,7 @@ See the [Managing the CTERA Messaging Service](https://kb.ctera.com/docs/managin
 __Step 4 –__ Deploying the messaging service takes a few minutes. The status will change to STARTING and then to ACTIVE. Wait until the status is ACTIVE before proceeding to the next step.
 
 __NOTE:__ If the status does not change to ACTIVE, the log files need to be collected from ```/usr/local/lib/ctera/work/logs/services``` directory.   
-See the [CTERA Messaging Service Logs](https://kb.ctera.com/docs/setting-up-the-ctera-messaging-service-2#CTERA-Messaging-Service-Logs) article for additional information.
+See the [CTERA Messaging Service Logs](https://kb.ctera.com/docs/setting-up-the-ctera-messaging-service-2#ctera-messaging-service-logs) article for additional information.
 
 ### Enable the Edge Filer Syslog Service
 

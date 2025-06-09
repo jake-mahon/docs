@@ -18,7 +18,7 @@ This functionality is currently available for the following data sources:
 
 __NOTE:__ The State-in-Time functionality is not available for SQL Server Availability Groups.
 
-To provide data for state-in-time reports, remember to select the __Collect data for state-in-time reports__ option when you configure a monitoring plan for the selected data source. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+To provide data for state-in-time reports, remember to select the __Collect data for state-in-time reports__ option when you configure a monitoring plan for the selected data source. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 
 The state-in-time reports are available under the Reports node. Depending on the data source, navigate to the corresponding subfolder, for example, __Predefined____>____Active Directory____>____Active Directory____>____State-in-Time__.
 

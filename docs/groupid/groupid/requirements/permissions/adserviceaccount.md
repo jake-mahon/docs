@@ -113,7 +113,7 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](/docs/groupid/groupid/requirements/setupauthentication.md) topic for information about the roles and permissions the SQL server and database accounts must have for [SQL Server Authentication](/docs/groupid/groupid/requirements/setupauthentication.md#SQL-Server-Authentication) mode and for [Windows Authentication](/docs/groupid/groupid/requirements/setupauthentication.md#Windows-Authentication) mode.
+See the [Authentication Modes](/docs/groupid/groupid/requirements/setupauthentication.md) topic for information about the roles and permissions the SQL server and database accounts must have for [SQL Server Authentication](/docs/groupid/groupid/requirements/setupauthentication.md#sql-server-authentication) mode and for [Windows Authentication](/docs/groupid/groupid/requirements/setupauthentication.md#windows-authentication) mode.
 
 __See Also__
 

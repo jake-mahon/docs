@@ -13,9 +13,9 @@ Configure the following:
 | Setting | Description |
 | --- | --- |
 | __Basic settings__ |  |
-| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#Step-1-Create-the-App) (see #12). The program then parses this file so that many settings are filled in automatically. |
+| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#step-1-create-the-app) (see #12). The program then parses this file so that many settings are filled in automatically. |
 | Enterprise ID | Specifies the internal unique identifier for your Box account (filled in automatically). |
-| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#Step-1-Create-the-App)(Filled in automatically.) |
+| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#step-1-create-the-app)(Filled in automatically.) |
 | Client Secret | Will be generated when allowing access to the Netwrix Data Classification app. Is also known as the “App Key”. |
 | Public Key ID  Private Key  Private Key Password | Created when generating the trust between your Box account, and the Netwrix Data Classification app – these should be kept secret and secure. |
 | Write Classifications | Identifies whether classifications should be written back to the Box source documents. Classification results can either be written to classification templates or to the generic ‘tags’ property. This is specified using the __Write Configuration__ setting of the source. For more information, see [Use Tagging](/docs/dataclassification/ndc/admin/sources/tagging.md) |

@@ -4,7 +4,7 @@ On the Active Directory page, you can access all the domains that you have confi
 
 Click __Active Directory__ in the left pane to open the Active Directory page.
 
-![Active Directory page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
+![Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
 
 Select a domain from the drop-down menu and expand it to view the domain tree and container structure, which is exactly the same as you get in Active Directory Users and Computers. Objects in the domain are also available in the same hierarchical structure.
 

@@ -29,7 +29,7 @@ The Agent server has the following requirement:
 
 When executing any of the right-click commands on the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md) (with the exception of Harden Agent, Soften Agent, and Remove Server from list), the Administration Console uses WMI to remotely query the registry on the target Agent machine(s) to understand where the Agent configuration files are located (install path). Next, WMI is used to stop the Agent service, modify the configuration files, and restart the Agent.
 
-Remember to check [Agent Server Requirements](/docs/threatprevention/threatprevention/requirements/agent.md) before deploying an Agent, including the [Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/threatprevention/requirements/agent.md#Agent-Compatibility-with-Non-Netwrix-Security-Products) list.
+Remember to check [Agent Server Requirements](/docs/threatprevention/threatprevention/requirements/agent.md) before deploying an Agent, including the [Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/threatprevention/requirements/agent.md#agent-compatibility-with-non-netwrix-security-products) list.
 
 ## Domain Controllers
 

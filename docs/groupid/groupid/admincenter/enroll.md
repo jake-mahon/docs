@@ -6,7 +6,7 @@ To enroll, a user must register his or her identity store account in Directory M
 authentication, and vice versa. See the [Authentication Policy](/docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md) topic for a list of supported authentication types.
 
 - For second factor authentication, a user must enroll his or her account with any one authentication type.
-- For multifactor authentication, a user may have to enroll with more than one authentication type, depending on what the administrator has configured for the respective user's security role. See the[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+- For multifactor authentication, a user may have to enroll with more than one authentication type, depending on what the administrator has configured for the respective user's security role. See the[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Account enrollment is a one-time process. Enrolled users must authenticate their identity store accounts every time they have to pass multifactor or second factor authentication.
 
@@ -15,7 +15,7 @@ Account enrollment is a one-time process. Enrolled users must authenticate their
 Step 1 – When you access Admin Center or the Directory Manager portal to sign in, the __GroupID Authenticate__ page is displayed.
 
 Step 2 – On signing in, unenrolled users are redirected to the __Your Enrollments__ page. Tabs on this page represent the different authentication types the administrator has enabled for enrollment.  
-You can also launch the __Your Enrollments__ page from Admin Center and the portal. See the [Enroll your Account](/docs/groupid/groupid/admincenter/general/accessapplications.md#Enroll-your-Account) topic for additional information.
+You can also launch the __Your Enrollments__ page from Admin Center and the portal. See the [Enroll your Account](/docs/groupid/groupid/admincenter/general/accessapplications.md#enroll-your-account) topic for additional information.
 
 Step 3 – Select an authentication type to enroll your account with.
 

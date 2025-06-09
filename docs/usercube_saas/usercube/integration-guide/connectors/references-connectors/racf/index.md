@@ -78,7 +78,7 @@ The identifier of the connection and thus the name of the subsection must:
 | Path   required | __Type__    String   __Description__ Path of the RACF file to be exported. |
 |  |  |
 | --- | --- |
-| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 
 ### Output details
 

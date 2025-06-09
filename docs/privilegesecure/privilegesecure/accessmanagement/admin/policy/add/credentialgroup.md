@@ -21,6 +21,6 @@ __Step 5 –__ With the new credential group selected, click the __+ Add Credent
 
 ![addcredentials](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.png)
 
-__Step 6 –__ Select the checkbox for the credential and click __Add__ to save the credential to the Credential Group. See the [Add Credentials to a Credential Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#Add-Credentials-to-a-Credential-Group) topic for additional information.
+__Step 6 –__ Select the checkbox for the credential and click __Add__ to save the credential to the Credential Group. See the [Add Credentials to a Credential Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#add-credentials-to-a-credential-group) topic for additional information.
 
 The new credential group is added to the console and is shown in the Credential Groups list.

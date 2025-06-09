@@ -30,4 +30,4 @@ The EPE Rest Site offers multi-language support, ensuring users receive clear an
 - Spanish
 - Thai
 
-The EPE Rest Site uses the password rejection messages provided/translated on the Custom Messages Editor window. To access it, click the __Modify Messages__ button on the EPE Settings window. See the [User Feedback Module ](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#User-Feedback-Module) topic for additional information.
+The EPE Rest Site uses the password rejection messages provided/translated on the Custom Messages Editor window. To access it, click the __Modify Messages__ button on the EPE Settings window. See the [User Feedback Module ](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#user-feedback-module) topic for additional information.

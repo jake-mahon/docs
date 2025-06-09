@@ -44,7 +44,7 @@ The Access Information Center login page displays the Netwrix Access Analyzer (f
 
 ## Web Console Login Page
 
-![Web Console Login page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.png)
+![Web Console Login page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.png)
 
 The Access Analyzer Web Console login page displays the Netwrix Access Analyzer (formerly Enterprise Auditor) logo at the top and the browser tab is named Netwrix Access Analyzer (formerly Enterprise Auditor). In order for a user to log into the Web Console, the user’s account must have the User Principal Name (UPN) attribute populated within Active Directory. Logging in here will take all users to the Access Analyzer Reports home page.
 

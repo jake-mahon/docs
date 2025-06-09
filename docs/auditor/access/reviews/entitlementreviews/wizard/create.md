@@ -1,6 +1,6 @@
 # Create Review Wizard
 
-The Create Review wizard is opened with the __Create__ button on the Entitlement Reviews interface. See the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Create Review wizard is opened with the __Create__ button on the Entitlement Reviews interface. See the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#manage-reviews-page) topic for additional information.
 
 ![Create Review wizard](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
 

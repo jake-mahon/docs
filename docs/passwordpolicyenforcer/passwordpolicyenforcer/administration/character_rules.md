@@ -4,7 +4,7 @@ Password Policy Enforcer has seven Character rules that reject passwords if they
 
 ![Character (Granular) Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranular.png)
 
-All the Character rules work identically, but each has their own default character set. A character set is the collection of characters that each rule searches for when checking a password. You can use the Character rules with their default character sets, or define your own. By default, the Password Policy Enforcer selects the Password Policy Enforcer character on the [Set Priorities](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Set-Priorities) page.
+All the Character rules work identically, but each has their own default character set. A character set is the collection of characters that each rule searches for when checking a password. You can use the Character rules with their default character sets, or define your own. By default, the Password Policy Enforcer selects the Password Policy Enforcer character on the [Set Priorities](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#set-priorities) page.
 
 __NOTE:__ Only Password Policy Enforcer 11 and higher will contain the Windows character set. Password Policy Enforcer 9, Netwrix Password Reset3 and Password Policy Enforcer Web 7 (and older for all products) use the Password Policy Enforcer character set.
 

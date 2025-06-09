@@ -10,7 +10,7 @@ On the Manage Reviews page in the Resource Reviews interface, a review with a Co
 
 ![Instance drop-down on Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewinstances.png)
 
-Previous instances for a review can be viewed on the Review Details page. Select the instance from the drop-down menu to show the details for it. See the [Review Details Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Review-Details-Page) topic for additional information.
+Previous instances for a review can be viewed on the Review Details page. Select the instance from the drop-down menu to show the details for it. See the [Review Details Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#review-details-page) topic for additional information.
 
 ## Sensitive Data Review Instances
 

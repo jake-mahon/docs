@@ -2,8 +2,8 @@
 
 To create a security role for an identity store, you have to specify the following:
 
-- Criteria - See [Criteria ](/docs/groupid/groupid/admincenter/securityrole/manage.md#Criteria).
-- Priority - See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#Priority).
+- Criteria - See [Criteria ](/docs/groupid/groupid/admincenter/securityrole/manage.md#criteria).
+- Priority - See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).
 - Permissions - Permissions refer to the different actions that role members can perform using Directory Manager, for example, creating directory objects, managing groups, managing scheduled jobs, managing user profiles,
   and more.
 - Policies - Policies refer to settings that apply to role members. For example, the search policy limits role members to search for objects in a particular container.

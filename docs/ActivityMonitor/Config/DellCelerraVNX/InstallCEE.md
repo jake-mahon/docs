@@ -17,7 +17,7 @@ __Step 2 –__ Follow the instructions in the Dell [Using the Common Event Enabl
 
 ___RECOMMENDED:___ The latest version of .NET Framework and Dell CEE is recommended to use with the asynchronous bulk delivery (VCAPS) feature.
 
-See the [CEE Debug Logs](/docs/activitymonitor/config/dellunity/validate.md#CEE-Debug-Logs) section for information on troubleshooting issues related to Dell CEE.
+See the [CEE Debug Logs](/docs/activitymonitor/config/dellunity/validate.md#cee-debug-logs) section for information on troubleshooting issues related to Dell CEE.
 
 After Dell CEE installation is complete, it is necessary to [Connect Data Movers to the Dell CEE Server](#Connect-Data-Movers-to-the-Dell-CEE-Server).
 

@@ -4,7 +4,7 @@ The Exceptions report at the share and subfolder levels provides a list of all t
 
 ![Exceptions report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareexceptions.png)
 
-An exception is defined as a problem or risk to data governance security. Exceptions include open shares and permissions granted to stale or disabled users. This table is blank unless an Exception icon is attached to the resource in the Resources pane, indicating exceptions were found. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) topic for additional information.
+An exception is defined as a problem or risk to data governance security. Exceptions include open shares and permissions granted to stale or disabled users. This table is blank unless an Exception icon is attached to the resource in the Resources pane, indicating exceptions were found. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information.
 
 This report is comprised of the following columns:
 

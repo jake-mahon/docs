@@ -215,7 +215,7 @@ This guide should give you the framework for getting your Endpoint Policy Manage
 
 The next sections have three appendices with project rollout steps (referring to videos and documentation we’ve mentioned here: one for Active Directory/Group Policy, one for Endpoint Policy Manager Cloud, and one for Endpoint Policy Manager with an MDM service like Intune.
 
-If you need any help along the way, simply open a ticket at [Netwrix Support](https://www.netwrix.com/tickets.html#Netwrix-Support) and we’ll be happy to give you one-on-one attention to help you out.
+If you need any help along the way, simply open a ticket at [Netwrix Support](https://www.netwrix.com/tickets.html#netwrix-support) and we’ll be happy to give you one-on-one attention to help you out.
 
 ## Appendix A: Sample Endpoint Privilege Manager Project POC Plan for Endpoint Policy Manager with Active Directory / GPOs; removing local admin rights for 30 Developers
 

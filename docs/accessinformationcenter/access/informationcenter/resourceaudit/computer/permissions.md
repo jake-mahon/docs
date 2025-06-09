@@ -1,6 +1,6 @@
 # Permissions Report
 
-The Permissions report for a computer object provides a list of all resources where the audited computer has been assigned permissions. The __Include Inherited__ filter option is active by default, which means the report displays both direct and inherited permissions unless modified by the Access Information Center user. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on filter options.
+The Permissions report for a computer object provides a list of all resources where the audited computer has been assigned permissions. The __Include Inherited__ filter option is active by default, which means the report displays both direct and inherited permissions unless modified by the Access Information Center user. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on filter options.
 
 ![Permissions report](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
 

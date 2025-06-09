@@ -53,7 +53,7 @@ __Step 3 –__ A preview of the resources and owners appears in the table. The S
 
 __NOTE:__ If a problem is indicated, additional information is displayed by hovering over the red exclamation icon. You can not continue with the import if any row contains an invalid resource or owner. To remove a resource from the table, select the row and click __Remove__. The row is removed from the table.
 
-![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 4 –__ On the Options page, configure the available options as required.
 

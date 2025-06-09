@@ -7,7 +7,7 @@ The Credential Policy Overrides page is accessible from the Policy Navigation pa
 The pane on the left side of the page displays a list of the configured Credential Policy Overrides. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Blue + button — Create a new credential group. See the [Add Credential Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/credentialpolicyoverrides.md#Add-Credential-Policy-Override) topic for additional information.
+- Blue + button — Create a new credential group. See the [Add Credential Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/credentialpolicyoverrides.md) topic for additional information.
 - Trashcan icon — Deletes the policy. Icon appears when policy is hovered over. A confirmation window will display.
 
 The selected access policy details display at the top of the main pane:

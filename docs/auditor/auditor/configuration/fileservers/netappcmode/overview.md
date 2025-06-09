@@ -85,10 +85,10 @@ Actions marked with an asterisks (\*) are reported for NetApp Clustered Data ONT
 To configure Clustered Data ONTAP 8 and ONTAP 9 for monitoring, perform the following procedures:
 
 - [Prerequisites ](#Prerequisites)
-- [Configure ONTAPI\RESTAPI Web Access](/docs/auditor/auditor/configuration/fileservers/netappcmode/webaccess.md#Configure-ONTAPIRESTAPI-Web-Access)
-- [Configure System Service Firewall Policies](/docs/auditor/auditor/configuration/fileservers/netappcmode/ports.md#Configure-System-Service-Firewall-Policies)
-- [Configure Service Policy](/docs/auditor/auditor/configuration/fileservers/netappcmode/servicepolicy.md#Configure-Service-Policy)
-- [Configure Event Categories and Log](/docs/auditor/auditor/configuration/fileservers/netappcmode/eventcategories.md#Configure-Event-Categories-and-Log)
+- [Configure ONTAPI\RESTAPI Web Access](/docs/auditor/auditor/configuration/fileservers/netappcmode/webaccess.md)
+- [Configure System Service Firewall Policies](/docs/auditor/auditor/configuration/fileservers/netappcmode/ports.md)
+- [Configure Service Policy](/docs/auditor/auditor/configuration/fileservers/netappcmode/servicepolicy.md)
+- [Configure Event Categories and Log](/docs/auditor/auditor/configuration/fileservers/netappcmode/eventcategories.md)
 
 ### Prerequisites
 

@@ -1,6 +1,6 @@
 # Active Directory Sync Page
 
-The Active Directory Sync page within the Integrations interface lists the domains that are synced to theThreat Manager database. The sync operation gets all information about an Active Directory environment (users, groups, hosts, etc).See the [Permissions for Active Directory Sync ](/docs/threatmanager/threatmanager/requirements/permissions/adsync.md#Permissions-for-Active-Directory-Sync) topic for additional information about the permissions required for Active Directory syncing.
+The Active Directory Sync page within the Integrations interface lists the domains that are synced to theThreat Manager database. The sync operation gets all information about an Active Directory environment (users, groups, hosts, etc).See the [Permissions for Active Directory Sync ](/docs/threatmanager/threatmanager/requirements/permissions/adsync.md) topic for additional information about the permissions required for Active Directory syncing.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
@@ -42,7 +42,7 @@ __Step 4 –__ Enter the following information:
 - Enabled / Disabled – Toggle indicates if the policy is enabled to run the sync service. By default it is set to Enabled.
 - Max Renew Ticket Age (days) – The value indicates the maximum number of days of the Renew Ticket Age for the domain. This value must match the domain configuration. See the Microsoft [Max-Renew-Age attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-maxrenewage) article for additional information. The default value is 7 days; modify the value by typing in the textbox.
 - Max Ticket Age (hours) – The value indicates the maximum number of hours of the Ticket Age for the domain. This value must match the domain configuration. See the Microsoft [Max-Ticket-Age attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-maxticketage) article for additional information. The default value is 10 hours; modify the value by typing in the textbox.
-- Use SSL – Check the box to enable SSL for secure communication with the domain. See the Microsoft [5.1.1.2 Using SSL/TLS](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/8e73932f-70cf-46d6-88b1-8d9f86235e81#5112-Using-SSLTLS) article for additional information.
+- Use SSL – Check the box to enable SSL for secure communication with the domain. See the Microsoft [5.1.1.2 Using SSL/TLS](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/8e73932f-70cf-46d6-88b1-8d9f86235e81#5112-using-ssltls) article for additional information.
 
 __Step 5 –__  Click __Test Connection__ to ensure connection to the domain. This will take a moment. Then a message will appear in the upper right corner of the console indicating a successful or failed connection.If successful, move on to the next step. If failed, recheck your entries for error and repeat this step until a successful connection is established.
 
@@ -87,7 +87,7 @@ The Domain Configuration tab displays the following settings:
 - Max Ticket Age (hours) – Displays the value indicates the maximum number of hours of the Ticket Age for the domain. This value must match the domain configuration. See the Microsoft [Max-Ticket-Age attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-maxticketage) article for additional information.
 
   __NOTE:__ This value is required to accurately evaluate the Golden Ticket threat.
-- Use SSL – Indicates whether you have enabled SSL for secure communication with the domain. See the Microsoft [5.1.1.2 Using SSL/TLS](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/8e73932f-70cf-46d6-88b1-8d9f86235e81#5112-Using-SSLTLS) article for additional information.
+- Use SSL – Indicates whether you have enabled SSL for secure communication with the domain. See the Microsoft [5.1.1.2 Using SSL/TLS](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/8e73932f-70cf-46d6-88b1-8d9f86235e81#5112-using-ssltls) article for additional information.
 - Perform a full scan on next run – Indicates whether the next sync will only look for domain changes or run a full scan of the domain. By default, this option is enabled for the first sync executed when a new domain is added; however, it is disabled automatically after the first sync. This can be used to fully refresh domain information, but is typically not needed for normal operation.
 - Test Connection – Click __Test Connection__ to ensure connection to the domain. This will take a moment. Then a message will appear in the upper right corner of the console indicating a successful or failed connection.
 

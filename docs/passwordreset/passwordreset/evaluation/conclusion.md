@@ -18,4 +18,4 @@ You can learn more about Password Reset and Password Policy Enforcer at [www.net
 
 Please [contact Netwrix support](mailto:support@netwrix.com) if you have any questions.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

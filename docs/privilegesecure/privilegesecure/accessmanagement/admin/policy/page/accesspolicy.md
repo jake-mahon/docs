@@ -26,7 +26,7 @@ The tabs at the bottom of the main pane are for associating Users, Activities, R
 
   - Users Tab for Resource Based Access Policies
   - [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md)
-  - [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md#Resources-Tab-for-Resource-Based-Access-Policies)
+  - [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md)
 - Credential Based Policy:
 
   - [Users Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/users.md)

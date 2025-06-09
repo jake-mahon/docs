@@ -8,10 +8,10 @@ __On the group's properties page, you can:__
 
 1. Save the changes made in the properties by clicking __Save__.
 2. Click __Delete__ to delete the group.
-3. __Join__ a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-permanently)
+3. __Join__ a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
 
    Select __Other__ to add other users to the group.
-4. __Leave__ a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-permanently).
+4. __Leave__ a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
 
    Select __Other__ to remove other users from the group.
 5. To __Join/Leave__ the group, you can also click on __Want to write reason to group owner?__ and state the the reason for joining or leaving the group for the group owner.

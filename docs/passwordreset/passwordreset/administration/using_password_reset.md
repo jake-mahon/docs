@@ -15,11 +15,11 @@ Where [server] is the name or IP address of the server hosting the Web Interface
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are explained on the following pages.
 
-__CAUTION:__ The connection between the Web Interface and Password Reset Server is always encrypted. Install an SSL certificate on the web server and use HTTPS to encrypt connections from the browser to the web server. See the [Installing and Using an SSL Certificate](/docs/passwordreset/passwordreset/administration/securing_password_reset.md#Installing-and-Using-an-SSL-Certificate) topic for more information.
+__CAUTION:__ The connection between the Web Interface and Password Reset Server is always encrypted. Install an SSL certificate on the web server and use HTTPS to encrypt connections from the browser to the web server. See the [Installing and Using an SSL Certificate](/docs/passwordreset/passwordreset/administration/securing_password_reset.md#installing-and-using-an-ssl-certificate) topic for more information.
 
 ## Enroll
 
-Only enrolled users can reset their password and unlock their account. Users can enroll manually by answering some questions about themselves, or they can be enrolled automatically if automatic enrollment is enabled. Users only need to enroll once, but they can enroll again if they are locked out of Password Reset, or if they want to change their questions or answers. See the [Verification Codes](/docs/passwordreset/passwordreset/administration/verification_tab.md#Verification-Codes) and [Verification Tab](/docs/passwordreset/passwordreset/administration/verification_tab.md#Verification-Tab) topics for more information.
+Only enrolled users can reset their password and unlock their account. Users can enroll manually by answering some questions about themselves, or they can be enrolled automatically if automatic enrollment is enabled. Users only need to enroll once, but they can enroll again if they are locked out of Password Reset, or if they want to change their questions or answers. See the [Verification Codes](/docs/passwordreset/passwordreset/administration/verification_tab.md#verification-codes) and [Verification Tab](/docs/passwordreset/passwordreset/administration/verification_tab.md) topics for more information.
 
 Follow the steps below to manually enroll into Password Reset.
 
@@ -29,7 +29,7 @@ __Step 1 –__ Click the __Enroll__ item in the menu.
 
 __Step 2 –__ Type a __Username__, __Domain__, and __Password__.
 
-__Step 3 –__ Type an e-mail address if the __E-mail__ text box is visible. See the [Options](/docs/passwordreset/passwordreset/administration/enroll_tab.md#Options) topic for more information.
+__Step 3 –__ Type an e-mail address if the __E-mail__ text box is visible. See the [Options](/docs/passwordreset/passwordreset/administration/enroll_tab.md#options) topic for more information.
 
 __Step 4 –__ Select a question from each of the __Question__ drop-down lists, and type an answer to each question in the __Answer__ text boxes.
 
@@ -89,7 +89,7 @@ __Step 4 –__ You may be asked to enter a verification code. The verification c
 
 __Step 5 –__ Click __OK__ to return to the menu.
 
-__NOTE:__ The Unlock feature unlocks accounts in Active Directory. Users who are locked out of Password Reset should re-enroll to gain access to Password Reset. See the [Verification Codes](/docs/passwordreset/passwordreset/administration/verification_tab.md#Verification-Codes) topic for more information.
+__NOTE:__ The Unlock feature unlocks accounts in Active Directory. Users who are locked out of Password Reset should re-enroll to gain access to Password Reset. See the [Verification Codes](/docs/passwordreset/passwordreset/administration/verification_tab.md#verification-codes) topic for more information.
 
 ## Change
 
@@ -121,6 +121,6 @@ Critical errors are shown on their own page. These errors are mostly a result of
 
 ![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.png)
 
-Validation and critical error messages are stored in the HTML templates. You can modify the default messages by editing the templates. See the [Resource Strings](/docs/passwordreset/passwordreset/administration/editing_the_html_templates.md#Resource-Strings) topic for more information.
+Validation and critical error messages are stored in the HTML templates. You can modify the default messages by editing the templates. See the [Resource Strings](/docs/passwordreset/passwordreset/administration/editing_the_html_templates.md#resource-strings) topic for more information.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

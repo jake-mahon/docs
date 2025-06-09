@@ -7,7 +7,7 @@ When you launch the SSPR portal, the Welcome to GroupID page lists the following
 - Reset Password
 - Unlock
 
-You can either click a function and then sign in to perform that function or first sign in and then select a function. See the [Launch the Portal](/docs/groupid/groupid/ssprportal/overview.md#Launch-the-Portal) topic for additional information.
+You can either click a function and then sign in to perform that function or first sign in and then select a function. See the [Launch the Portal](/docs/groupid/groupid/ssprportal/overview.md#launch-the-portal) topic for additional information.
 
 When you sign in (without selecting any function), the main portal page is displayed. It lists the following functions:
 
@@ -25,7 +25,7 @@ Remember:
 
 Click the __Enroll__ tile to enroll an unenrolled account. Then sign into the portal, if not signed in.
 
-The Your Enrollments page opens, where you can enroll the identity store account you used to sign into the portal. Tabs on this page represent the different authentication types the administrator has enabled for enrollment. See the [Enroll your identity store account](/docs/groupid/groupid/admincenter/enroll.md#Enroll-your-identity-store-account) topic for enrollment details, starting at step 3.
+The Your Enrollments page opens, where you can enroll the identity store account you used to sign into the portal. Tabs on this page represent the different authentication types the administrator has enabled for enrollment. See the [Enroll your identity store account](/docs/groupid/groupid/admincenter/enroll.md) topic for enrollment details, starting at step 3.
 
 ## Unlock your Account
 

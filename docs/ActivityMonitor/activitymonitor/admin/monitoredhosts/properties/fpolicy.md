@@ -12,7 +12,7 @@ At the bottom are two additional tabs with setting options. On this tab, specify
 
 ![Privileged Access section in the FPolicy Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/privilegedaccess.png)
 
-The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data ONTAP Cluster-Mode devices is used. See the [Configure Privileged Access](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/netapp.md#Configure-Privileged-Access) topic for additional information.
+The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data ONTAP Cluster-Mode devices is used. See the [Configure Privileged Access](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/netapp.md#configure-privileged-access) topic for additional information.
 
 ## Enable and Connect settings Tab
 

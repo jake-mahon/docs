@@ -2,7 +2,7 @@
 
 Every investigation has the following options at the top of the page:
 
-![Investigation interface showing the options at the top of an investigation](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Investigation interface showing the options at the top of an investigation](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 - Edit – The Edit option opens the Save Investigation window in edit mode. You can modify the name, description, and folder of the saved investigation. If you save the investigation to a different folder, it will be moved from the original location to the new folder. You can also update the user roles granted ownership and access to the investigation report. A My Investigation can also be saved as a new Threat in the Investigation Settings page. See the [Edit or Duplicate an Investigation](/docs/threatmanager/threatmanager/administration/investigations/options/edit.md) topic for additional information.
 - Create threat – In addition to preconfigured threats, a user can create a custom threat when certain events are considered to be dangerous in the environment, for example, when one of the privileged users makes file changes. See the [Custom Threats](/docs/threatmanager/threatmanager/threats/custom.md)topic for additional information.

@@ -8,7 +8,7 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-Click the __System Audit and Support__ tile on the Configuration Console dashboard. This feature is only available when __domain__ is selected with the [Connected To](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md#Connected-To) configuration setting. System Audit and Support opens on the __Version Tracker__ tab.
+Click the __System Audit and Support__ tile on the Configuration Console dashboard. This feature is only available when __domain__ is selected with the [Connected To](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md#connected-to) configuration setting. System Audit and Support opens on the __Version Tracker__ tab.
 
 ## Version Tracker
 

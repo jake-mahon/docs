@@ -44,7 +44,7 @@ Gain deeper visibility into privileged file transfer activities for a more compr
 
 New: Granular AD Authentication Control
 
-Enable or disable "Other Login" (AD authentication) for more granular access control, minimizing potential security risks. See the [Set Authentication as Default Login](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authentication.md#Set-Authentication-as-Default-Login) topic for additional information.
+Enable or disable "Other Login" (AD authentication) for more granular access control, minimizing potential security risks. See the [Set Authentication as Default Login](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authentication.md#set-authentication-as-default-login) topic for additional information.
 
 Enhancement: Expanded SIEM Integration
 
@@ -54,15 +54,15 @@ Leverage improved SIEM templates with additional variables for richer security d
 
 New: Customizable Login Formats
 
-Create login account templates with custom formats, streamlining user provisioning and access management. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md#Activities-Page) and [Login Account Templates](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md#Login-Account-Templates) topics for additional information.
+Create login account templates with custom formats, streamlining user provisioning and access management. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) and [Login Account Templates](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md) topics for additional information.
 
 New: "Delete Permanently" Option
 
-Provides a clear confirmation step when removing resources, preventing accidental data loss. See the [Remove Resource Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/removeresource.md#Remove-Resource-Window) topic for additional information.
+Provides a clear confirmation step when removing resources, preventing accidental data loss. See the [Remove Resource Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/removeresource.md) topic for additional information.
 
 New: Advanced Login Account Templates
 
-Expanded string manipulation functions and a name field increase to 20 characters offer greater flexibility in user provisioning. See the [Login Account Templates](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md#Login-Account-Templates) topic for additional information.
+Expanded string manipulation functions and a name field increase to 20 characters offer greater flexibility in user provisioning. See the [Login Account Templates](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md) topic for additional information.
 
 New: Optional Linux Software Scans
 
@@ -70,11 +70,11 @@ Disable "Installed Software" functionality by default to optimize scans for spec
 
 New: Connect Account for Interactive App Launch
 
-Simplifies application launching by pre-configuring connection accounts. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md#Activities-Page) topic for additional information.
+Simplifies application launching by pre-configuring connection accounts. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
 New: View Password on Set Password
 
-Allows users to confirm password entries during credential creation, reducing errors. See the [Manage Internal Service Accounts](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md#Manage-Internal-Service-Accounts) topic for additional information.
+Allows users to confirm password entries during credential creation, reducing errors. See the [Manage Internal Service Accounts](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) topic for additional information.
 
 New: Customizable Connection Profiles
 
@@ -92,4 +92,4 @@ Automates a common administrative task for improved efficiency.
 
 New: Credential Policy Overrides
 
-Enable credential groups to override platform-level credential schedules for more granular control over privileged credential life cycles. See the [Credential Policy Overrides Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverrides.md#Credential-Policy-Overrides-Page) topic for additional information.
+Enable credential groups to override platform-level credential schedules for more granular control over privileged credential life cycles. See the [Credential Policy Overrides Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverrides.md) topic for additional information.

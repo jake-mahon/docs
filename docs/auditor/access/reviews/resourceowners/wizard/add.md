@@ -47,11 +47,11 @@ __Step 4 –__ When only one owner is assigned, the owner will be the Primary by
 - Owner Department — Trustee's department as read from Active Directory
 - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
+![Add new resource wizard showing 3. Description page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
 
 __Step 5 –__ On the Description page, optionally add a description for the resource in the textbox. Then click __Next__.
 
-![Add new resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Add new resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 6 –__ On the Summary page, review the settings and click Finish. The Access Reviews application begins to process the ownership configuration.
 

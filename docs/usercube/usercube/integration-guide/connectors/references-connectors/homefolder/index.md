@@ -80,7 +80,7 @@ The identifier of the connection and thus the name of the subsection must:
 | --- | --- |
 | InputDirectories   required | __Type__    String List   __Description__ List of the directories that contain the home folders to be exported. |
 | Domain   optional | __Type__    String   __Description__ Domain of the account used to access the home folders. |
-| Interactive   default value: False | __Type__    Boolean   __Description__ ```True``` to set the authentication as interactive. ```False``` to set it batch. [See Microsoft's documentation for more details](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonusera#See-Microsofts-documentation-for-more-details). |
+| Interactive   default value: False | __Type__    Boolean   __Description__ ```True``` to set the authentication as interactive. ```False``` to set it batch. [See Microsoft's documentation for more details](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonusera#see-microsofts-documentation-for-more-details). |
 |  |  |
 | --- | --- |
 | Login   optional | __Type__    String   __Description__ Login of the account used to access the files and folders.   __Note:__ when not specified and ```Password``` neither, then the account running Identity Manager will be used.   __Note:__ if ```Domain``` is null, then ```Login``` must be set in the User Principal Name (UPN) format. |

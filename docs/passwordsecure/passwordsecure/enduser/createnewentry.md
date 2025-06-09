@@ -22,7 +22,7 @@ Step 3 – Let`s fill out the website form in this example.
 
 - Set a description for your stored password.
 
-![description](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
+![description](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
 
 - Enter the username or email address needed for login.
 
@@ -38,7 +38,7 @@ NOTE:  By clicking on the __lock icon__ right to the password generator, you can
 
 - Enter the website URL that leads to the login.
 
-![websiteurl](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.png)
+![websiteurl](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.png)
 
 - Add one or more tags to categorize your password and find it easier (i.e., "HR" or "Internet").
 

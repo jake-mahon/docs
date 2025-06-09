@@ -14,7 +14,7 @@ __Step 1 –__ In the Recovery Console, click your profile icon in the top right
 
 __Step 2 –__ Click the __Add authenticator app__ button. The Configure authenticator app page is displayed, showing the instructions for setting up the app.
 
-![Configure authenticator app page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
+![Configure authenticator app page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
 
 __Step 3 –__ Open the authenticator app on your phone and scan the QR code with it. A new account is created in the app for the Recovery application and a verification code is displayed under the account name.
 
@@ -24,7 +24,7 @@ The authenticator app generates a new code every 30 seconds, with each code expi
 
 __Step 5 –__ Click __Close__.
 
-MFA has been enabled for your account. Now you must authenticate your account using the Authenticator app every time you sign into Recovery for Active Directory. See the [Sign In](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/login.md#Sign-In) topic for additional information.
+MFA has been enabled for your account. Now you must authenticate your account using the Authenticator app every time you sign into Recovery for Active Directory. See the [Sign In](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/login.md#sign-in) topic for additional information.
 
 ## Disable Authenticator for MFA
 

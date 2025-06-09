@@ -6,7 +6,7 @@ The Rollback feature in the Active Directory Users and Computers (ADUC) console 
 
 The following prerequisites must be met before you can rollback or recover an object using ADUC:
 
-- You must register the RSAT Extension on the Recovery Application Server to add the Rollback and Restore options to the ADUC console. See the [Register/Unregister the RSAT Extension](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.md#RegisterUnregister-the-RSAT-Extension) topic for additional information.
+- You must register the RSAT Extension on the Recovery Application Server to add the Rollback and Restore options to the ADUC console. See the [Register/Unregister the RSAT Extension](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.md#registerunregister-the-rsat-extension) topic for additional information.
 - At least one backup of the domain must be available in the Recovery for Active Directory Console. See the [Domains Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md) topic for additional information.
 
 ## Rollback an Object Using ADUC
@@ -56,7 +56,7 @@ __Step 4 –__ The account preforming the operation must have Domain Admin privi
 - If the account specified during domain configuration has Domain Admin privileges, click __Next__.
 - If the domain account does not have Domain Admin privileges, select the __Use alternate credentials for the rollback operation__ checkbox and enter an account with Domain Admin privileges, then click __Next__.
 
-For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#Least-Privilege-Access-Model) topic.
+For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
 ![Object Rollback wizard - Confirm Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
 

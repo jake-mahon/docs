@@ -2,7 +2,7 @@
 
 A Dynasty is a Smart Group that creates and manages other Smart Groups using information in the directory. The Smart Groups that a Dynasty creates are called child groups that become members of their respective parent Dynasties.
 
-A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/docs/groupid/groupid/admincenter/general/concepts.md#Dynasties) topic.
+A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/docs/groupid/groupid/admincenter/general/concepts.md#dynasties) topic.
 
 You can control how Directory Manager processes Dynasties through the following settings:
 

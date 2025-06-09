@@ -18,7 +18,7 @@ The list of supported operations is provided in the table below. Your notificati
 
 ## Configuration Procedure
 
-Notification policy creation procedure involves API requests usage. It is assumed that you have a good understanding of REST API concepts, as well as enough experience in working with JSON-formatted requests in any API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#Nutanix-documentation).
+Notification policy creation procedure involves API requests usage. It is assumed that you have a good understanding of REST API concepts, as well as enough experience in working with JSON-formatted requests in any API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#nutanix-documentation).
 
 To create a notification policy for Nutanix File Server via API:
 

@@ -22,8 +22,8 @@ The server can be run as:
 
 It is recommended to enable the following [Internet Information Services (IIS)](https://www.iis.net/) features to host Identity Manager:
 
-- [Windows Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#Windows-Authentication)
-- [Anonymous Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/anonymousauthentication#Anonymous-Authentication)
+- [Windows Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#windows-authentication)
+- [Anonymous Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/anonymousauthentication#anonymous-authentication)
 
 ## Service Accounts
 

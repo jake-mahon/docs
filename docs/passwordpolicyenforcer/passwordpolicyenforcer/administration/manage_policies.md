@@ -1,6 +1,6 @@
 # Manage Policies
 
-Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md#Assign-Policies-to-Users-Groups) topic for additional information.
+Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md#assign-policies-to-users-groups) topic for additional information.
 
 Open the Configuration Console:
 

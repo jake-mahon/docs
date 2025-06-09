@@ -6,7 +6,7 @@ Filtering Data
 
 The Data Console can show thousands of records, but only some of them will be of interest to you at any time. Filters let you focus on the important information.
 
-You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#Filtering-by-Column-Values). More complex filters are created with the [Custom Filters](#Custom-Filters) and [Filter Editor](/docs/passwordreset/passwordreset/administration/filter_editor.md#Filter-Editor) windows.
+You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#Filtering-by-Column-Values). More complex filters are created with the [Custom Filters](#Custom-Filters) and [Filter Editor](/docs/passwordreset/passwordreset/administration/filter_editor.md) windows.
 
 ### The Filter Row
 
@@ -102,4 +102,4 @@ __Step 3 –__ Press the __DELETE__ key, and then click __OK__.
 
 __NOTE:__ You can still view a user's event history in the __Audit Log__ tab after they are deleted from the __Users__ tab.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

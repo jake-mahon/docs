@@ -19,7 +19,7 @@ Your certificate authority will have instructions to guide you through the certi
 - [http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis](http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis)
 - [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx)
 
-__NOTE:__ Ensure that users only access Password Reset over an encrypted connection after the SSL certificate is installed. The Start address and Restricted path in the Password Reset Client configuration should start with https://. Web browsers can be redirected to the secure URL. See the [Configuring the PRC](/docs/passwordreset/passwordreset/administration/password_reset_client.md#Configuring-the-PRC) topic for more information.
+__NOTE:__ Ensure that users only access Password Reset over an encrypted connection after the SSL certificate is installed. The Start address and Restricted path in the Password Reset Client configuration should start with https://. Web browsers can be redirected to the secure URL. See the [Configuring the PRC](/docs/passwordreset/passwordreset/administration/password_reset_client.md#configuring-the-prc) topic for more information.
 
 ## Delegating Permissions to the Netwrix Password Reset Server Service
 
@@ -41,7 +41,7 @@ For example, the following command grants the axs\apr account permission to rese
 
 dsacls "dc=axs,dc=net" /I:S /G "axs\apr:CA;Reset Password;user"
 
-If Password Reset is configured to use an SQL Server Compact database, then give the service account read and write permissions to the database files. See the [Moving to SQL Server](/docs/passwordreset/passwordreset/administration/moving_to_sql_server.md#Moving-to-SQL-Server) topic for more information.
+If Password Reset is configured to use an SQL Server Compact database, then give the service account read and write permissions to the database files. See the [Moving to SQL Server](/docs/passwordreset/passwordreset/administration/moving_to_sql_server.md) topic for more information.
 
 Remove the service account from the Domain Admins group and restart the Password Reset service after executing these commands. Check the Windows Application event log if the service does not start.
 
@@ -66,4 +66,4 @@ The DN of the AdminSDHolder container for the netwrix.com domain is CN=AdminSDHo
 
 __NOTE:__ Changes to the AdminSDHolder container are not applied to accounts immediately. You may need to wait up to an hour for Windows to update the DACL for these accounts. You can also start the process manually. Search for runProtectAdminGroupsTask or FixUpInheritance in Microsoft's documentation or more information.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

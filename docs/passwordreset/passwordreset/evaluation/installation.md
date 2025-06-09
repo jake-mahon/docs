@@ -32,4 +32,4 @@ __Step 8 –__ Wait for Password Reset to install, then click __Finish__.
 
 __NOTE:__ The Setup wizard creates the aprsvc account and adds it to the Domain Admins group. You can remove the account from the Domain Admins group and grant the required permissions later. See the [Securing Password Reset](/docs/passwordreset/passwordreset/administration/securing_password_reset.md) topic of the Password Reset Administrator's Guide for additional information.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

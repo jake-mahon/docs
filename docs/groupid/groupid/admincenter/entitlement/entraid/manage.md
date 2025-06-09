@@ -49,12 +49,12 @@ Step 5 – Click __Save__.
 #### SharePoint Site Details
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed for a file server in an Active Directory identity store. Refer to the [File Server Details
-](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#File-Server-Details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
+](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#file-server-details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
 
 #### Search SharePoint Sites
 
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the listing. The filters are the same as displayed for a file server
-in an Active Directory identity store. Refer to the [Search File Servers ](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Search-File-Servers) topic for performing a search.
+in an Active Directory identity store. Refer to the [Search File Servers ](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#search-file-servers) topic for performing a search.
 
 ## Include Future Sites for Entitlement Management
 

@@ -22,4 +22,4 @@ To remove a group from the list, select it and then click __Remove__. Enrolled u
 
 These settings specify which users can change their password with Password Reset.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

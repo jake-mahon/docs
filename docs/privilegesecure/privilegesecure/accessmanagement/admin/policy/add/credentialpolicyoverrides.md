@@ -12,14 +12,14 @@ __Step 3 –__ Enter or select the following information:
 
 - Name — Displays the name of the credential
 - Description — Description of the policy
-- Scheduled Change Policy — Select a previously added schedule policy from the drop-down list. How often the credentials for a managed account are changed (credential rotation). See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md#Credentials-Dashboard) and [Schedule Policies Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for additional information.
-- Verification Schedule — How often to verify the credentials for managed accounts on the resources defined by the selected platform. See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md#Credentials-Dashboard) topic for additional information on managed accounts.
+- Scheduled Change Policy — Select a previously added schedule policy from the drop-down list. How often the credentials for a managed account are changed (credential rotation). See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md) and [Schedule Policies Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for additional information.
+- Verification Schedule — How often to verify the credentials for managed accounts on the resources defined by the selected platform. See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md) topic for additional information on managed accounts.
 
 __Step 4 –__ Click Save to create the new credential policy override.
 
 ![cpopageaddcredentials](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/cpopageaddcredentials.png)
 
-__Step 5 –__ With the new Credential Policy Override selected, click the __Add Credentials__ button to open the Add Credentials window. See the [Add Credentials to a Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#Add-Credentials-to-a-Policy-Override) topic for additional information.
+__Step 5 –__ With the new Credential Policy Override selected, click the __Add Credentials__ button to open the Add Credentials window. See the [Add Credentials to a Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#add-credentials-to-a-policy-override) topic for additional information.
 
 ![Add credential to Credential Policy Override Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentialtocpowindow.png)
 

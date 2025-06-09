@@ -14,6 +14,6 @@ The File System Activity Home dashboard contains the following cards:
 - Top Servers – Displays up-to the top five servers (destination IP Addresses) associated with file activity over the specified time interval
 - Latest Events – Tabular format of all file activity events which occurred over the specified time interval
 
-  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#Table-Card-Features) topic for additional information.
+  - See the [Table Card Features ](/docs/activitymonitor/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set by default to the “past day,” or 24 hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click Search to refresh the card data.

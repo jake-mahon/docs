@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > __Access Policies__ > Connection Profile
 
 __Step 2 –__ In the Connection Profiles list, click the __Plus__ icon.
 
-![Add Connection Profile](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/addconnectionprofile.png)
+![Add Connection Profile](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/addconnectionprofile.png)
 
 __Step 3 –__ Enter the desired information to configure a new connection profile.
 
@@ -24,6 +24,6 @@ __Step 3 –__ Enter the desired information to configure a new connection profi
 
 __Step 4 –__ Click Save to create the new connection profile.
 
-__Step 5 –__ The new connection profile is created. To add an Approval Workflow, see the [Add Approval Workflow](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md#Add-Approval-Workflow) topic for additional information.
+__Step 5 –__ The new connection profile is created. To add an Approval Workflow, see the [Add Approval Workflow](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md) topic for additional information.
 
 The new connection profile is added to the Connection Profiles list.

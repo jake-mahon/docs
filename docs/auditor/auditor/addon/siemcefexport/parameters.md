@@ -1,7 +1,7 @@
 # Define Parameters
 
 Before running or scheduling the add-on, you must define connection details: Auditor Server host, user credentials, etc. Most parameters are optional, the script uses the default values unless parameters are explicitly defined. You can skip or define parameters depending on your execution scenario and security policies.
-See the [Choose Appropriate Execution Scenario](/docs/auditor/auditor/addon/siemcefexport/deployment.md#Choose-Appropriate-Execution-Scenario) topic for additional information.
+See the [Choose Appropriate Execution Scenario](/docs/auditor/auditor/addon/siemcefexport/deployment.md#choose-appropriate-execution-scenario) topic for additional information.
 
 First, provide a path to your add-on followed by script parameters with their values. Each parameter is preceded with a dash; a space separates a parameter name from its value. You can skip some parameters—the script uses a default value unless a parameter is explicitly defined. If necessary, modify the parameters as required.
 

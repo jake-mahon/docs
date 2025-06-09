@@ -25,7 +25,7 @@ __Step 2 –__ Open a port for inbound connections. See the [Nutanix Ports](/doc
 
 In addition, configure the Auditor console server as a partner server for Nutanix Files, and create a notification policy to make Netwrix Auditor aware of the Nutanix events. These operations can be performed in any of the following ways:
 
-- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 - Manually, as described in the corresponding topics:
   - [Configure Partner Server](/docs/auditor/auditor/configuration/fileservers/nutanix/partnerserver.md)
   - [Create a Notification Policy](/docs/auditor/auditor/configuration/fileservers/nutanix/notificationpolicy.md)

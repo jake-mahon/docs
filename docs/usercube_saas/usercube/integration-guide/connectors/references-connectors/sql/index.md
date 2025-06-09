@@ -1,6 +1,6 @@
 # Sql
 
-This connector exports data from one of various [Database Management Systems](https://en.wikipedia.org/wiki/Database#Database-Management-Systems).
+This connector exports data from one of various [Database Management Systems](https://en.wikipedia.org/wiki/Database#database-management-systems).
 
 This page is about:
 
@@ -115,7 +115,7 @@ The identifier of the connection and thus the name of the subsection must:
 | --- | --- |
 | SqlCommand   optional | __Type__    String   __Description__ SQL request to be executed.   __Note:__ when not specified and ```SqlFile``` neither, then all the[ Entity Type Mapping ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
 | SqlFile   optional | __Type__    String   __Description__ Path of the file containing the SQL request to be executed.   __Note:__ ignored when ```SqlCommand``` is specified.   __Note:__ when not specified and ```SqlFile``` neither, then all the [ Entity Type Mapping ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
-| CsvEncoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| CsvEncoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 | ProviderClassFullName   optional | __Type__    String   __Description__ Invariant name to register the provider.   __Note:__ required when querying a DBMS other than Microsoft SQL Server. |
 | ProviderDllName   optional | __Type__    String   __Description__ DLL, i.e. name and extension, to be loaded by the connector.   __Note:__ the DLL must be in the ```Runtime``` folder.   __Note:__ required when querying a DBMS other than Microsoft SQL Server. |
 | IsolationLevel   default value: ReadUncommitted | __Type__    String   __Description__ Locking behavior of the transaction:   ```ReadUncommitted```;   ```ReadCommitted``` - used for the databases that do not support the ReadUncommitted level, like Oracle databases. |

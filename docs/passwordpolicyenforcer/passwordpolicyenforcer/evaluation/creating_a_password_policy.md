@@ -16,7 +16,7 @@ __Step 2 –__ Click __Add policy__.
 
 __Step 3 –__ Enter a unique policy name. Maximum is 32 characters. __Eval Policy__ is used for this example.
 
-__Step 4 –__ Select a Policy template or __None__ if you are creating your own. For a list of policies see [Policy Templates ](/docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/policy_templates.md#Policy-Templates).
+__Step 4 –__ Select a Policy template or __None__ if you are creating your own. For a list of policies see [Policy Templates ](/docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/policy_templates.md).
 
 __Step 5 –__ Click __Create policy__.
 

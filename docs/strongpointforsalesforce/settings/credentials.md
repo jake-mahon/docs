@@ -4,7 +4,7 @@ Credentials organizes your user credentials across all environments It is availa
 
 ![credentials_handler](/img/product_docs/strongpointforsalesforce/settings/credentials_handler.png)
 
-You must create a Connected App to run the scanner. Refer to [Install Platform Governance for Salesforce](/docs/strongpointforsalesforce/installing_strongpoint/installing_strongpoint.md#Install-Platform-Governance-for-Salesforce) for instructions.
+You must create a Connected App to run the scanner. Refer to [Install Platform Governance for Salesforce](/docs/strongpointforsalesforce/installing_strongpoint/installing_strongpoint.md) for instructions.
 
 Click __New__ to add a new credential or __Edit__ and existing credential. __Search__ finds and filters information from the current credentials list.
 

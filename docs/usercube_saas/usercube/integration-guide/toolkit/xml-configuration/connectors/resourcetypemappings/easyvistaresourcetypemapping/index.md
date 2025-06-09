@@ -18,8 +18,8 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 | Connection   required | String | Identifier of the corresponding connection. |
 | RecipientId   required | String | Identifier of the ticket's recipient. |
 | Description   optional | String | File path of the template used for the generation of the ticket description. |
-| ImpactId   optional | String | [Impact](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#Impact) of the ticket. |
-| SeverityId   optional | String | [Severity level](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#Severity-level) of the ticket. |
+| ImpactId   optional | String | [Impact](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#impact) of the ticket. |
+| SeverityId   optional | String | [Severity level](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#severity-level) of the ticket. |
 | TicketSynchroIsNotAvailable   default value: false | Boolean | True to set synchronization as unavailable for this resource type. Once the ticket is closed and the resource is created, updated or deleted, then the assignment's status is directly set to Verified.  Only used with the package for tickets. See the [ ServiceNow Ticket ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md) topic for additional information. |
 | Title   optional | String | File path of the template used for the generation of the ticket title. |
-| UrgencyId   optional | String | [Urgency level](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#Urgency-level) of the ticket. |
+| UrgencyId   optional | String | [Urgency level](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Service%20Manager%20-%20All%20Menus/References%20Tables/#urgency-level) of the ticket. |

@@ -97,7 +97,7 @@ __To create a portal:__
 
     ![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.png)
 
-    This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-Directory-Manager-Portal) topic. Hence, when
+    This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when
     two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with the
     portal too, in order to benefit from the linking.
 13. Each identity store associated with a portal has its own set of design settings, as listed in the [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md) topic.
@@ -278,7 +278,7 @@ __To create a portal:__
    | Ellipsis | Click it to launch a shortcut menu with the following options:  - __Settings:__ Launches the portal settings page, where you can manage server and design settings.    - __Server Settings:__ Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more.   - __Design settings:__ These settings relate to the portal’s user interface. - __Deploy Another Instance:__ Enables you to deploy another instance of the portal. - __Copy:__ Enables you to create a new portal by copying the settings of this portal. - __Delete:__ Deletes the portal. |
 
 You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse over the icon, the tooltip says that _linked mode will not be allowed_.
-This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-Directory-Manager-Portal) topic. Hence, when two
+This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when two
 identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, the portal card appears in orange. It informs you to associate the second identity store in the linked pair (dentityStoreB) with the portal
 too, in order to benefit from the linking.
 
@@ -289,7 +289,7 @@ too, in order to benefit from the linking.
      
    When multiple deployments of a portal are available, select a deployment instance on the card and click __Launch Application__ to launch that instance.
 
-   Provide the URL of an instance to your users so they can access the portal. You can either copy the URL from the address bar or from a portal's deployment settings. See the [View the Launch URL for an Instance](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md#View-the-Launch-URL-for-an-Instance) topic.
+   Provide the URL of an instance to your users so they can access the portal. You can either copy the URL from the address bar or from a portal's deployment settings. See the [View the Launch URL for an Instance](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md#view-the-launch-url-for-an-instance) topic.
 
 __See Also__
 

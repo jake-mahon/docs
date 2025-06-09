@@ -21,7 +21,7 @@ Once you create a job, you can either run it manually or schedule it to run peri
 
 You can create templates from existing jobs on-the-fly and reuse their settings in new jobs.
 
-To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/docs/groupid/groupid/admincenter/workflow/overview.md#Synchronize-Jobs-and-Workflows) topic.
+To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/docs/groupid/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows) topic.
 
 ## Create a new job
 

@@ -47,7 +47,7 @@ Each template ends with a resource string section.
 
 `*/}{/*/RESOURCE_STRINGS*/}`
 
-Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/passwordreset/passwordreset/administration/using_password_reset.md#Error-Messages) topic for additional information.
+Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/passwordreset/passwordreset/administration/using_password_reset.md#error-messages) topic for additional information.
 
 ### Responsive Content
 
@@ -138,7 +138,7 @@ Finished messages are shown after users successfully complete an enroll, reset, 
 
 ### Replace Enroll Question Lists with Text Boxes
 
-When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/passwordreset/passwordreset/administration/enroll_tab.md#Question-List) topic for additional information.
+When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/passwordreset/passwordreset/administration/enroll_tab.md#question-list) topic for additional information.
 
 The lines you need to edit in en\_enroll.htm look like this:
 
@@ -177,4 +177,4 @@ Replace the hexadecimal color code with your desired color code. You can use a c
 
 __NOTE:__ Some old web browsers with basic HTML5 support cannot display SVG images. Password Reset works with these browsers, but the SVG images are not shown. You can convert the icons to GIF or PNG format if you want them shown on these older browsers.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

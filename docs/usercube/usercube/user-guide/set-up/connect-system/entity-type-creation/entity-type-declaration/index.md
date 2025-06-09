@@ -24,7 +24,7 @@ Create the entity type by proceeding as follows:
 
    ![Entity type creation](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_entitytypecreation_v602.png)
 
-   - ```Identifier```: must be unique among entity types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure). NETWRIX recommends using ```<connector>_<notion>``` in the singular.
+   - ```Identifier```: must be unique among entity types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure). NETWRIX recommends using ```<connector>_<notion>``` in the singular.
    - ```Name```: will be displayed in the UI to identify the entity type.
    - ```Icon```: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and will be displayed with the entity type in the left menu of the home page.
    - ```Auto Complete in Pickers```: can be set once properties are created (and saved) so that, when using a searchbar for selected properties, Identity Manager suggests existing entries.

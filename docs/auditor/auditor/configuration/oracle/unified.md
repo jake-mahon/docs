@@ -1,16 +1,16 @@
 # Migrate to Unified Audit
 
-Starting with 10.5 version, Netwrix Auditor provides limited support of Oracle Database 11g and trail auditing mode accordingly. See [Considerations for Oracle Database Auditing for more information.](/docs/auditor/auditor/requirements/supported_environment.md#Considerations-for-Oracle-Database-Auditing-for-more-information)
+Starting with 10.5 version, Netwrix Auditor provides limited support of Oracle Database 11g and trail auditing mode accordingly. See [Considerations for Oracle Database Auditing for more information.](/docs/auditor/auditor/requirements/supported_environment.md#considerations-for-oracle-database-auditing-for-more-information)
 
 When planning your migration, consider that you can select the following scenario:
 
-- Migration to pure unified auditing. See the corresponding Oracle documentation article: [Migrating to Unified Auditing for Oracle Database](https://docs.oracle.com/database/121/UPGRD/afterup.htm#Migrating-to-Unified-Auditing-for-Oracle-Database).
+- Migration to pure unified auditing. See the corresponding Oracle documentation article: [Migrating to Unified Auditing for Oracle Database](https://docs.oracle.com/database/121/UPGRD/afterup.htm#migrating-to-unified-auditing-for-oracle-database).
 - Use a mixed-mode audit facility (not recommended).
 
 Perform the following steps according to official Oracle documentation:
 
 1. [To migrate to Unified Auditing for Oracle Database](#To-migrate-to-Unified-Auditing-for-Oracle-Database)
-2. [Manage Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#Manage-Earlier-Audit-Records-After-You-Migrate-to-Unified-Auditing)
+2. [Manage Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#manage-earlier-audit-records-after-you-migrate-to-unified-auditing)
 
 To migrate to Unified Auditing for Oracle Database
 
@@ -28,7 +28,7 @@ The procedure contains basic migration steps. Refer to [Oracle\_Database\_Upgrad
 
    If the ```value``` is ```true```, unified auditing mode is already enabled in your database.
 
-   In this case, you can ignore further steps and start managing your earlier audit records. Refer to Oracle documentation for more information: [Managing Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#Managing-Earlier-Audit-Records-After-You-Migrate-to-Unified-Auditing).
+   In this case, you can ignore further steps and start managing your earlier audit records. Refer to Oracle documentation for more information: [Managing Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#managing-earlier-audit-records-after-you-migrate-to-unified-auditing).
 
    If the ```value``` is ```false```, proceed with the steps below.
 4. Stop the database. Do the following, depending on your environment:
@@ -67,5 +67,5 @@ The procedure contains basic migration steps. Refer to [Oracle\_Database\_Upgrad
 
 See also:
 
-1. [Manage Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#Manage-Earlier-Audit-Records-After-You-Migrate-to-Unified-Auditing)
-2. [Remove the Unified Auditing Functionality](https://docs.oracle.com/database/121/UPGRD/afterup.htm#Remove-the-Unified-Auditing-Functionality)
+1. [Manage Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#manage-earlier-audit-records-after-you-migrate-to-unified-auditing)
+2. [Remove the Unified Auditing Functionality](https://docs.oracle.com/database/121/UPGRD/afterup.htm#remove-the-unified-auditing-functionality)

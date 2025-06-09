@@ -5,7 +5,7 @@
 First, Identity Manager recommends reading:
 
 - [Azure Key Vault's overview documentation](https://docs.microsoft.com/en-us/azure/key-vault/general/overview) and [Basic concepts](https://docs.microsoft.com/azure/key-vault/general/basic-concepts);
-- How to [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-Azure-and-create-a-vault);
+- How to [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-azure-and-create-a-vault);
 - About [Azure Key Vault's secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets) because secrets are the data that Identity Manager needs to collect.
 
 ## Compatible Settings

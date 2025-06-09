@@ -4,7 +4,7 @@ The Exceptions report at the site collection, site, list, library, and folder le
 
 ![Exceptions report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteexceptions.png)
 
-An exception is defined as a problem or risk to data governance security. Exceptions include open access and permissions granted to stale or disabled users. This table is blank unless an Exception icon is attached to the resource in the Resources pane, indicating exceptions were found. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) topic for additional information.
+An exception is defined as a problem or risk to data governance security. Exceptions include open access and permissions granted to stale or disabled users. This table is blank unless an Exception icon is attached to the resource in the Resources pane, indicating exceptions were found. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information.
 
 This report is comprised of the following columns:
 

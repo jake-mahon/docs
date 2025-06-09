@@ -43,7 +43,7 @@ There is one table at the bottom displaying Compared to Parent permissions for t
 
 ![Compared to Parent table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.png)
 
-This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) topic for additional information. This table is comprised of the same columns as the primary report.
+This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report.
 
 ## Stale Permissions
 

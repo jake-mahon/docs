@@ -21,7 +21,7 @@ The table has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Type — Provides options to filter results based on a chosen criterion: Internal, Standard, and Service
-- Add Credentials — Opens the Add Credentials window. See the [Add Credentials to a Credential Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#Add-Credentials-to-a-Credential-Group) topic for additional information.
+- Add Credentials — Opens the Add Credentials window. See the [Add Credentials to a Credential Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#add-credentials-to-a-credential-group) topic for additional information.
 - Remove — Removes the selected item
 - Refresh — Reload the information displayed
 

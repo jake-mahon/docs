@@ -19,7 +19,7 @@ Implementing this connector requires:
 - reading first the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account impersonating the following permission scopes: [https://www.googleapis.com/auth/admin.directory. user](https://www.googleapis.com/auth/admin.directory.user) and [https://www.googleapis.com/auth/admin.directory.group](https://www.googleapis.com/auth/admin.directory.group).
 
-  See [Google's documentation](https://developers.google.com/workspace/guides/create-credentials#Googles-documentation) Google's documentation to create the service account with the right impersonation.
+  See [Google's documentation](https://developers.google.com/workspace/guides/create-credentials#googles-documentation) Google's documentation to create the service account with the right impersonation.
 
   _Remember,_ Google's documentation describes this procedure as optional, while the Google Workspace connector requires it.
 
@@ -77,7 +77,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#See-Googles-documentation-to-create-these-credentials). |
+| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-these-credentials). |
 | User   required | __Type__    String   __Description__ Email address of the service account mentioned in the prerequisites section. |
 |  |  |
 | --- | --- |
@@ -134,7 +134,7 @@ Same as for export, fulfill is configured through connections.
 
 | Name | Details |
 | --- | --- |
-| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#See-Googles-documentation-to-create-these-credentials). |
+| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-these-credentials). |
 | User   required | __Type__    String   __Description__ Email address of the service account mentioned in the prerequisites section. |
 
 ## Authentication

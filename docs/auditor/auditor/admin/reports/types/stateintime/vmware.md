@@ -6,7 +6,7 @@ These are reports on the VMware vCenter state-in-time data, including account pe
 - [Detailed Account Permissions in vCenter](#Detailed-Account-Permissions-in-vCenter)
 - [Object Permissions in vCenter](#Object-Permissions-in-vCenter)
 
-To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ## Account Permissions in vCenter
 
@@ -14,7 +14,7 @@ Shows vCenter objects that user or group has explicit or inherited permissions o
 
 Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 
@@ -40,7 +40,7 @@ Shows detailed list of privileges that the specified account has on the VMware o
 
 Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 
@@ -61,7 +61,7 @@ Shows accounts with explicit or inherited permissions on a specific object in yo
 
 Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 

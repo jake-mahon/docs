@@ -38,7 +38,7 @@ _Remember,_ the first owner in the list is the primary owner. The table has seve
 - Owner Department — Trustee's department as read from Active Directory
 - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
+![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.png)
 
 __Step 3 –__ The Description page displays any description that has been provided by either the Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in the textbox. Then click __Next__ to continue.
 
@@ -51,7 +51,7 @@ __Step 4 –__ The Access Groups page indicates whether or not the resource is a
 
 __NOTE:__ File System and SharePoint resources must have resource based groups configured for each level of access: Read, Modify, and Full Control. If either option is selected for this resource, it is necessary to set a group for at least one access level. Select the desired access level and click __Change__. The Select Group Window opens. Select the desired group and click __OK__. The Select Group window closes and the group appears in the table. Repeat this step for each access level desired. See the [Select Group Window](/docs/accessinformationcenter/access/informationcenter/resourceowners/window/selectgroup.md) topic for additional information.
 
-![Update resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Update resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 5 –__ On the Summary page, review the settings and click __Next__. The Access Information Center begins to process the ownership configuration.
 

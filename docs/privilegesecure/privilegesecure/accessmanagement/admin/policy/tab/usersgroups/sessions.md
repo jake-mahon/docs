@@ -28,7 +28,7 @@ The table has the following columns:
   - Approval Failed — Approval request has encountered an error
   - Logged In — User is successfully logged in to the Resource either directly or via the Proxy. Direct log-in is detected by polling the Resource at regular intervals and may not update immediately.
   - Canceling — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#Lock-Session) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 - Activity — Displays the name of the activity. Click the link to view additional details. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

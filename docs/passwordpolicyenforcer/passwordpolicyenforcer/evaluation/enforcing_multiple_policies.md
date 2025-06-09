@@ -52,4 +52,4 @@ __Step 6 –__ Select the __PPETestAdmin__ user. The results pane shows the __Ad
 
 Use the Password Policy Enforcer configuration console, the Windows Change Password screen, the Active Directory Users and Computers console, or the Local Users and Groups console to test password changes and resets for the __PPETestUser__ and __PPETestAdmin__ accounts. Password Policy Enforcer should enforce the Eval policy for __PPETestUser__, and the Admins policy for __PPETestAdmin__.
 
-__NOTE:__ The [Set Priorities](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Set-Priorities) topic contains more information about policy assignments, and how Password Policy Enforcer resolves policy assignment conflicts that occur when more than one policy is assigned to a user.
+__NOTE:__ The [Set Priorities](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#set-priorities) topic contains more information about policy assignments, and how Password Policy Enforcer resolves policy assignment conflicts that occur when more than one policy is assigned to a user.

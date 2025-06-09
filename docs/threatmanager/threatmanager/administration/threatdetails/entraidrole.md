@@ -2,7 +2,7 @@
 
 The Role Details page provides information about a role including its description and role membership.
 
-![Roles Page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
+![Roles Page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
 
 The top of the page displays a profile card which may contain the following information about the role:
 

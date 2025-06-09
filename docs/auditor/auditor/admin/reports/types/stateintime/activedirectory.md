@@ -4,7 +4,7 @@ Examine the Active Directory state-in-time data on the user account attributes:
 
 - [User Accounts - Attributes](#User-Accounts-Attributes)
 
-To instruct Netwrix Auditor to collect data needed for the report, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+To instruct Netwrix Auditor to collect data needed for the report, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 
 ## User Accounts - Attributes
 
@@ -12,7 +12,7 @@ This report shows specific AD attributes for the accounts that meet the specifie
 
 Supported object types and attributes are listed in the [Active Directory](/docs/auditor/auditor/configuration/activedirectory/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 
 ### Tips to Work with Report
 
@@ -54,7 +54,7 @@ The following account attributes are reported:
 | Account locked | Shows whether an account locked or not. | Yes  No | + |
 | Canonical name | Equals the Canonical-Name attribute. See the corresponding Microsoft article for more information: [Canonical-Name attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-canonicalname). | Example:  _USRegion.OrgName.com/Finance/JDoe_ | + |
 | Display name | Equals the Display-Name attribute. See the corresponding Microsoft article for more information: [Display-Name attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-displayname). | Example:  _John Smith_ | + |
-| Logon name (sAMAccountName) | Equals the sAMAccountName attribute. See the corresponding Microsoft article for more information: [sAMAccountName](https://docs.microsoft.com/en-us/windows/win32/ad/naming-properties#sAMAccountName). | Example:  _JSmith_ | + |
+| Logon name (sAMAccountName) | Equals the sAMAccountName attribute. See the corresponding Microsoft article for more information: [sAMAccountName](https://docs.microsoft.com/en-us/windows/win32/ad/naming-properties#samaccountname). | Example:  _JSmith_ | + |
 | Logon name (UPN) | Equals the userPrincipalName attribute. See the corresponding Microsoft article for more information: [User-Principal-Name attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-userprincipalname). | Example:  _JSmith@domain.com_ | + |
 | Parent OU/container | Shows the path to account's parent object (OU or container) | Example:  _test.corp.local/UserAccounts/user with all properties_ | + |
 | Member of | Shows direct AD group membership for the account.  The report is limited to 10 groups. To view all groups the account is member of, export the report to .CSV file. | Example:  _Domain Admins, Backup Operators_  Clicking the Expand group membership link opens a detailed report on the user’s effective group membership. | + |

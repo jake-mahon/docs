@@ -20,7 +20,7 @@ __NOTE:__ The database Identifier attribute has a specific location where the co
 | Agent   optional | String | Identifier of the agent on which the job will be launched.  __NOTE:__ When not specified, the task is to be launched on the server.  _Remember,_  all jobs containing the task must be launched on the same agent or on the server. |
 | ContinueOnError   default value: false | Boolean | True if the execution of the Task returning an error should not stop the job machine state. |
 | DatabaseIdentifier   optional | String | Identifier of the Database to connect to |
-| Encoding   optional | String | Encoding for the output files. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| Encoding   optional | String | Encoding for the output files. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 | Identifier   optional | String | Unique identifier of the task. |
 | IsNotAQuery   default value: false | Boolean | To know if the SQL command is a query or not. |
 | IsolationLevel   optional | String | Specifies the transaction locking behavior for the database connection. |

@@ -6,22 +6,22 @@ The integration can be configured for the following Auditor data sources:
 
 - Active Directory.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#Use-Netwrix-Privilege-Secure-as-a-Data-Collecting-Account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Group Policy.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/grouppolicy/overview.md#Use-Netwrix-Privilege-Secure-as-a-Data-Collecting-Account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/grouppolicy/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Logon Activity.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/logonactivity/overview.md#Use-Netwrix-Privilege-Secure-as-a-Data-Collecting-Account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/logonactivity/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Microsoft Entra ID.
 
-  See the [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md#How-to-Add-Microsoft-Entra-ID-Monitoring-Plan-Using-Netwrix-Privilege-Secure) topic for additional information.
+  See the [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md#how-to-add-microsoft-entra-id-monitoring-plan-using-netwrix-privilege-secure) topic for additional information.
 - Windows File Server.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/fileservers/windowsfileserver.md#Use-Netwrix-Privilege-Secure-as-a-Data-Collecting-Account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/fileservers/windowsfileserver.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Windows Server.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/windows/overview.md#Use-Netwrix-Privilege-Secure-as-a-Data-Collecting-Account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/windows/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 
 ## Software Requirements
 

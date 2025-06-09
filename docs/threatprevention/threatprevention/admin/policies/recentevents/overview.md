@@ -11,7 +11,7 @@ The Recent Events tab has the following options on the toolbar:
 - Range From/To – Displays the events that occurred within the given timeframe
 - Refresh button – Updates the grid with any new events
 - Show All Columns – Resets hidden columns to their default location on the data grid
-- Export Data– Opens the Export Data window with export actions and options. See the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic for additional information.
+- Export Data– Opens the Export Data window with export actions and options. See the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#export-data) topic for additional information.
 
 Example for the Events for Last [number] Hours Option
 

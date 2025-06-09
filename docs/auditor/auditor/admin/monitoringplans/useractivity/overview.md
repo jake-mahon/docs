@@ -24,9 +24,9 @@ Complete the following fields:
 | Applications |  |
 | Specify applications you want to track | Select the applications that you want to monitor. You can select All applications or create a list of Specific applications. Certain applications can also be added to Exceptions list. |
 | Monitored Computers |  |
-| For a newly created monitoring plan for User Activity, the list of monitored computers is empty. Add items to your monitoring plan and wait until Netwrix Auditor retrieves all computers within these items. See [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring)for more information. The list contains computer name, its current status and last activity time. |  |
+| For a newly created monitoring plan for User Activity, the list of monitored computers is empty. Add items to your monitoring plan and wait until Netwrix Auditor retrieves all computers within these items. See [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)for more information. The list contains computer name, its current status and last activity time. |  |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## How to Include/Exclude Applications
 

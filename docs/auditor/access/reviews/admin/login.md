@@ -19,7 +19,7 @@ Since Access Reviews is a browser-based application, it is possible to access th
 
 Depending on your network environment, you may need to use the NetBIOS name, FQDN, or IP Address of the hosting server in the browser. Also, additional configurations by network and system administrators may be necessary to make the web server accessible to remote users (firewall configurations, DNS settings, etc.).
 
-The server name in the URL can be replaced with an alias. See the [Notification Options](/docs/auditor/access/reviews/admin/configuration/notifications.md#Notification-Options) topic for additional information.
+The server name in the URL can be replaced with an alias. See the [Notification Options](/docs/auditor/access/reviews/admin/configuration/notifications.md#notification-options) topic for additional information.
 
 ## Login Page
 
@@ -35,7 +35,7 @@ The interface a user arrives at depends upon the assigned role or lack of assign
 
 Role based access controls what interfaces users can see and where each user is directed upon login.
 
-___RECOMMENDED:___ Send an email to your users. Let them know why you are implementing use of the application, provide the URL, and explain how to login with their domain credentials and the username format. See the [Enable Console Users](/docs/auditor/auditor/accessreviews.md#Enable-Console-Users) topic for additional information.
+___RECOMMENDED:___ Send an email to your users. Let them know why you are implementing use of the application, provide the URL, and explain how to login with their domain credentials and the username format. See the [Enable Console Users](/docs/auditor/auditor/accessreviews.md#enable-console-users) topic for additional information.
 
 ### Administrator Role
 

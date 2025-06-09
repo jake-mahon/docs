@@ -4,7 +4,7 @@ Once the Activity Monitor agent is configured to monitor the Dell device, the au
 
 ## Validate CEE Registry Key Settings
 
-__NOTE:__ See the [Configure Dell Registry Key Settings](/docs/activitymonitor/config/dellcelerravnx/installcee.md#Configure-Dell-Registry-Key-Settings) topic for information on manually setting the registry key.
+__NOTE:__ See the [Configure Dell Registry Key Settings](/docs/activitymonitor/config/dellcelerravnx/installcee.md#configure-dell-registry-key-settings) topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will configure the Dell CEE automatically if it is installed on the same server as the agent. This needs to be set manually in the rare situations where it is necessary for the Dell CEE to be installed on a different server than the Windows proxy server(s) where the Activity Monitor activity agent is deployed.
 

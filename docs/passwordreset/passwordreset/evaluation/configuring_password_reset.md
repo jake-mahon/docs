@@ -14,4 +14,4 @@ Configuration changes are applied when you click __Apply__ or __OK__. Clicking _
 
 __NOTE:__ Password Reset includes a 30-day evaluation license for up to 50 users. Please[ contact Netwrix support](mailto:support@netwrix.com) if you would like to evaluate Netwrix Password Reset with more than 50 users.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

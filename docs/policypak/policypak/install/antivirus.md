@@ -118,7 +118,7 @@ If when installing the Endpoint Policy Manager Cloud client, you get the experie
 
 Follow the steps to resolve Netskope errors.
 
-__Step 1 –__ Create a ```certpinned``` app bypass including the 3 processes``` ppcloudsvc.exe```, ```ppcloud.exe```, ```rundll32.exe```. See Netskope's article [Creating a Custom Certificate Pinned Application](https://docs.netskope.com/en/creating-a-custom-certificate-pinned-application/#Creating-a-Custom-Certificate-Pinned-Application) for additional information.
+__Step 1 –__ Create a ```certpinned``` app bypass including the 3 processes``` ppcloudsvc.exe```, ```ppcloud.exe```, ```rundll32.exe```. See Netskope's article [Creating a Custom Certificate Pinned Application](https://docs.netskope.com/en/creating-a-custom-certificate-pinned-application/#creating-a-custom-certificate-pinned-application) for additional information.
 
 __Step 2 –__ Create a local domain bypass for ```cloud-agent.policypak.com```.
 

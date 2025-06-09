@@ -48,7 +48,7 @@ When the Enable DNS Host Name Resolution option is enabled, the Agent looks up t
 
 ## Set Options Window for Update Agent Settings
 
-On the Agents interface, when you open the Set Options window through the Update Agent Settings option on the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#Right-Click-Menu), the window appears as follows:
+On the Agents interface, when you open the Set Options window through the Update Agent Settings option on the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#right-click-menu), the window appears as follows:
 
 ![Update Agent Settings > Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/updatesetoptions.png)
 

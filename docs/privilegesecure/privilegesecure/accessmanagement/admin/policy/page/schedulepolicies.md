@@ -6,7 +6,7 @@ Schedules can be applied:
 
 - Platforms — Configure schedules used by resources on a given platform type. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information.
 - Protection Policy — See the [Protection Policies Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md) topic for additional information.
-- Change Policy (credential rotation) — How often the password of a managed account is changed. See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md#Credentials-Dashboard) topic for additional information on managed accounts.
+- Change Policy (credential rotation) — How often the password of a managed account is changed. See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md) topic for additional information on managed accounts.
 - Host scan — Scan a host resources for local users, groups, windows services and scheduled tasks
 - Verification — Check that the passwords for managed accounts match the credentials set by Privilege Secure
 

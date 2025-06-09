@@ -22,7 +22,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Messages__ tab.
 
-![Set up messages](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/messages.png)
+![Set up messages](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/messages.png)
 
 __Step 4 –__ Select the message language from the drop-down list. You can set messages for multiple languages. You do not have to create a Password Policy Enforcer policy for each language. To set multiple languages, pick one, edit the message templates. Select another language, and edit the message templates. Repeat for each language you want to implement. The correct message is displayed to users based on their selected language.
 

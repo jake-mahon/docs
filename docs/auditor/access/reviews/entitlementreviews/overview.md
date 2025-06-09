@@ -42,10 +42,10 @@ Prerequisite:
 
 Workflow:
 
-___RECOMMENDED:___ When deploying the Access Reviews application in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](/docs/auditor/access/reviews/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
+___RECOMMENDED:___ When deploying the Access Reviews application in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](/docs/auditor/access/reviews/resourceowners/overview.md#notification-to-owners) topic for additional information.
 
 1. Review Administrator creates a review or starts a new review instance. See the [Create Review Wizard](/docs/auditor/access/reviews/entitlementreviews/wizard/create.md) topic for additional information.
-2. Owner performs a review. See the [Pending Reviews](/docs/auditor/access/reviews/entitlementreviews/pendingreviews.md#Pending-Reviews) topic for additional information.
+2. Owner performs a review. See the [Pending Reviews](/docs/auditor/access/reviews/entitlementreviews/pendingreviews.md) topic for additional information.
 3. Review Administrator approves owner recommendations. See the [Approval Process](/docs/auditor/access/reviews/entitlementreviews/approvalprocess.md) topic for additional information.
 4. Implement approved changes in your organization. Manually, export a list of approved changes and deliver it to your IT department.
 

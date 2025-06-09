@@ -69,7 +69,7 @@ __Step 3 –__ From the Run SQL Agent job on drop-down menu, select an option to
 
 __Step 4 –__ On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of the options. See the [Enable Database Maintenance](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/enable.md) topic for additional information.
 
-The [Event Type Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#Event-Type-Tab), [Analytics Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#Analytics-Tab), and [Policy Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#Policy-Tab) on the Archive DB Maintenance window are the same as on the Database Maintenance window, except that only the 'Delete' operation is available for the archive database.
+The [Event Type Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#event-type-tab), [Analytics Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#analytics-tab), and [Policy Tab](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md#policy-tab) on the Archive DB Maintenance window are the same as on the Database Maintenance window, except that only the 'Delete' operation is available for the archive database.
 
 __Step 5 –__ On the Schedule tab, set the frequency and time when the database maintenance job runs. See the [Schedule Database Maintenance](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.md) topic for additional information.
 

@@ -55,7 +55,7 @@ Specify a Bundle to use a bundle for the scope of change. This is optional.
 
    ![Specify an optional Bundle ID](/img/product_docs/strongpointfornetsuite/integrations/zendesk_bundleid.png)
 
-Once you have made a change, the __Request Approval__ button is available if you are a member of a group with the [Set up Approvals](/docs/strongpointfornetsuite/integrations/zendesk_integration.md#Set-up-Approvals) permission.
+Once you have made a change, the __Request Approval__ button is available if you are a member of a group with the [Set up Approvals](/docs/strongpointfornetsuite/integrations/zendesk_integration.md#set-up-approvals) permission.
 
 ![Request Approval button appears when a change has been made.](/img/product_docs/strongpointfornetsuite/integrations/zendesk_request_approval.png)
 

@@ -43,7 +43,7 @@ Each template ends with a resource string section.
 
 `--><!--/RESOURCE_STRINGS-->`
 
-Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/passwordpolicyenforcer/passwordreset/administration/using_password_reset.md#Error-Messages) topic for additional information.
+Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/passwordpolicyenforcer/passwordreset/administration/using_password_reset.md#error-messages) topic for additional information.
 
 ### Responsive Content
 
@@ -134,7 +134,7 @@ Finished messages are shown after users successfully complete an enroll, reset, 
 
 ### Replace Enroll Question Lists with Text Boxes
 
-When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/passwordpolicyenforcer/passwordreset/administration/enroll_tab.md#Question-List) topic for additional information.
+When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/passwordpolicyenforcer/passwordreset/administration/enroll_tab.md#question-list) topic for additional information.
 
 The lines you need to edit in en\_enroll.htm look like this:
 

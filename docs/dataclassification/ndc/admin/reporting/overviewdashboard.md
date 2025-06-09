@@ -4,7 +4,7 @@ The dashboard provides a top-level overview of the security classifications tagg
 
 __NOTE:__ To review the dashboard a user requires the Access Reports permission and must have at least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
-- [User Management](/docs/dataclassification/ndc/security/usermanagement.md#User-Management)
+- [User Management](/docs/dataclassification/ndc/security/usermanagement.md)
 - [Built-in Taxonomies Overview
   ](/docs/dataclassification/ndc/admin/taxonomies/builtintaxonomies.md)
 

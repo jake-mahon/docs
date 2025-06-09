@@ -3,7 +3,7 @@
 With Directory Manager, you can:
 
 - Automate user provisioning and deprovisioning in bulk. See the [Synchronize](/docs/groupid/groupid/portal/synchronize/overview.md) section.
-- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md#Dotted-line-management) section of the [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) topic.
+- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md#dotted-line-management) section of the [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) topic.
 - Delegate user management to end users by enabling them to:
 
   - Create and manage users, contacts, and mailboxes in the directory. See the [ Create User Objects](/docs/groupid/groupid/portal/user/create/overview.md) topic.

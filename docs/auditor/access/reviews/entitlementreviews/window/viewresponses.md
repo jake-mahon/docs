@@ -1,6 +1,6 @@
 # View Responses Window
 
-The View Responses window opens from the __View Response__ button on the [Review Details Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#Review-Details-Page) of the Entitlement Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
+The View Responses window opens from the __View Response__ button on the [Review Details Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#review-details-page) of the Entitlement Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
 
 ![View Responses window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.png)
 

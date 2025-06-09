@@ -13,7 +13,7 @@ active groups:
 
 By default, the __My Groups__ tab displays the groups that you are the primary owner for. To include the groups for which you are an additional owner, select the __Display additional group ownership in My Groups__ check box on the [Portal Settings](/docs/groupid/groupid/portal/setting/portal.md) panel. This tab lists active groups only; expired and deleted groups are not displayed.
 
-You can [Modify Search Directory](/docs/groupid/groupid/portal/group/allgroups.md#Modify-Search-Directory) to search your groups and add [Filter All Groups](/docs/groupid/groupid/portal/group/allgroups.md#Filter-All-Groups)by clicking __My Groups Grid Filters__.
+You can [Modify Search Directory](/docs/groupid/groupid/portal/group/allgroups.md#modify-search-directory) to search your groups and add [Filter All Groups](/docs/groupid/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __My Groups Grid Filters__.
 All your groups matching the filters will be displayed.
 
 __You can:__
@@ -23,9 +23,9 @@ __You can:__
 - View and modify the [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) of a group.
 - Manually expire your groups. After expiring the group, it will be listed in __My Expired Groups__ list.
 - Select a smart group and click __Renew__ on the toolbar; this re-applies the expiry policy of the group starting from today, thus renewing the group.
-- Join a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-a-group-permanently)
-- Leave a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Leave-a-group-permanently).
-- Join / leave a group [Join or leave a group on behalf of a direct report or peer](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#Join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a direct report or peer.
+- Join a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
+- Leave a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
+- Join / leave a group [Join or leave a group on behalf of a direct report or peer](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a direct report or peer.
 - To Join/Leave the group, you can also click on __Want to write reason to group owner?__ and state the the reason for joining or leaving the group for the group owner.
 - Update the security type of your group using __Set Security Type__ option. You can select one of the following security types:
 
@@ -35,7 +35,7 @@ __You can:__
 - Select a group and click __Move Group__ from the toolbar. You can specify a new container from __Select Container__ box where you want to move the group.
 - Select a group and click __Add to Contacts__ on the toolbar to add a group’s email to your email contact list using the vCard. The portal creates the group's vCard and prompts you to save it on your machine. You can then use it
   to add the group's email address to your email contact list.
-- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#Add-a-group-to-the-membership-of-another-group-nesting)).
+- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click __Send Email__ on the toolbar to send an email to the group. This launches the default Windows email application for sending an email to group members.
 - Click __Export Results__ on the toolbar to export the group list to a Microsoft Excel file.
 - Update the expiration policy of your group using __Set Expiration Policy__ option.

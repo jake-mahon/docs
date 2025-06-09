@@ -65,7 +65,7 @@ Define the entity type's navigation properties by proceeding as follows:
 
    - __APPLICATION METADATA__: fields about the display of the properties inside Identity Manager.
 
-     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure).
+     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
      - ```Entity Type```: always the entity type for the second property, but the first property can be mapped from any existing entity type in the application.
      - ```Storage Indicator```: describes the association that can be __mono-valued__ (meaning 1-to-1 or many-to-1) or __multi-valued__ (meaning 1-to-many or many-to-many).
 

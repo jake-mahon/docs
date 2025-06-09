@@ -58,7 +58,7 @@ __Step 8 –__ Start the Password Reset service.
 
 __Step 9 –__ Update the backup script to copy from the new folder. See the [Working with the Database](/docs/passwordreset/passwordreset/administration/working_with_the_database.md) topic for additional information.
 
-You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](/docs/passwordreset/passwordreset/administration/working_with_the_database.md#Working-with-the-Database) topic for more information.
+You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](/docs/passwordreset/passwordreset/administration/working_with_the_database.md) topic for more information.
 
 ### Netwrix Password Policy Enforcer
 
@@ -73,7 +73,7 @@ Password Reset locates and queries a domain controller in the user's domain when
 __NOTE:__ Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or later).
 
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the more detailed Rejection message when this registry value is set. Users may also have the wrong policy, or no policy enforced if the queried server is not a domain controller in the user's domain.  
-Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](/docs/passwordreset/passwordpolicyenforcer/administration/password_policy_client.md#Password-Policy-Client) topic for more information.
+Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](/docs/passwordreset/passwordpolicyenforcer/administration/password_policy_client.md) topic for more information.
 
 __NOTE:__ Due to a protocol upgrade, it is now recommended to enable protocol encryption for clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer server configuration, and enable "Only accept encrypted client request".
 
@@ -83,4 +83,4 @@ Please do not enable this option if you are using Netwrix Password Reset v3.3 wi
 
 __NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
 
-[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#open-topic-with-navigation)

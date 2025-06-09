@@ -59,4 +59,4 @@ __Step 2 –__ In the Administration Console, edit the same policy settings and 
 
 __Step 3 –__ Open both XML files and compare the XML to see how policies are altered.
 
-Once you identify how Threat Prevention modifies XML files, you can apply that to the [Add or Modify Policies](/docs/threatprevention/threatprevention/api/policy.md#Add-or-Modify-Policies) instructions.
+Once you identify how Threat Prevention modifies XML files, you can apply that to the [Add or Modify Policies](/docs/threatprevention/threatprevention/api/policy.md#add-or-modify-policies) instructions.

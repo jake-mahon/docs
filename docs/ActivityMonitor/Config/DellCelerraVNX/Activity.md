@@ -30,7 +30,7 @@ Checklist Item 2: Install Dell CEE
 Checklist Item 3: Dell Device Configuration
 
 - Configure the ```cepp.conf``` file on the Celerra VNX Cluster
-- See the [Connect Data Movers to the Dell CEE Server](/docs/activitymonitor/config/dellcelerravnx/installcee.md#Connect-Data-Movers-to-the-Dell-CEE-Server) topic for instructions.
+- See the [Connect Data Movers to the Dell CEE Server](/docs/activitymonitor/config/dellcelerravnx/installcee.md#connect-data-movers-to-the-dell-cee-server) topic for instructions.
 
 Checklist Item 4: Activity Monitor Configuration
 

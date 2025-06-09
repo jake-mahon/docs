@@ -2,7 +2,7 @@
 
 Console access to the is configured through the __Configuration__ > __Console Access__ page. Adding users to the Access Information Center requires data to be collected by the Access Analyzer .Active Directory Inventory Solution.
 
-![Console Access Configuration page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
+![Console Access Configuration page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
 
 There are five levels of access, or Roles, which can be granted to domain users or groups:
 
@@ -28,7 +28,7 @@ Once users have been granted console access, they can login with their domain cr
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Configuration page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
+![Console Access Configuration page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
 
 __Step 1 –__ In the Configuration interface on the Console Access page, click Add. The Console Access wizard opens.
 

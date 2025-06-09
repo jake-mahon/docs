@@ -167,7 +167,7 @@ __Step 2 –__ On the __General__ tab, under __Specify account for collecting da
 
 ![Monitored Item Properties page](/img/product_docs/auditor/auditor/requirements/gmsa.png)
 
-See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ### Apply gMSA to Access Long-Term Archive
 

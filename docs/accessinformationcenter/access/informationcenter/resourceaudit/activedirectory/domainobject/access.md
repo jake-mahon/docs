@@ -2,7 +2,7 @@
 
 The Access report at the domain object level provides information on the level of access trustees have at the domain object level. This report includes a Permission Source table.
 
-![Access report at the domain object level](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/access.png)
+![Access report at the domain object level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/access.png)
 
 This report is comprised of the following columns:
 

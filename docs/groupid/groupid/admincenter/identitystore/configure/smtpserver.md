@@ -102,7 +102,7 @@ Step 5 – You can also select other recipients to send email notifications for 
 - Manager(s) for their direct reports – To send email notifications to managers about changes made to their respective direct reports.
 - Newly added group members on addition – To send email notifications to objects when they are added to the membership of a group.
 - Removed group member on removal – To send email notifications to objects when they are removed from the membership of a group.
-- Public group owner for membership – To send email notifications to the primary and additional owners of a public group on membership change. See the [Group Security Types](/docs/groupid/groupid/admincenter/general/concepts.md#Group-Security-Types) topic.
+- Public group owner for membership – To send email notifications to the primary and additional owners of a public group on membership change. See the [Group Security Types](/docs/groupid/groupid/admincenter/general/concepts.md#group-security-types) topic.
 
 Step 6 – Click __Save__ on the __Notifications__ page.
 
@@ -154,7 +154,7 @@ Step 4 – In the Membership Lifecycle Notifications section, select your desire
 - On joining group – Sends email notifications to users when the Membership Life Cycle schedule temporarily adds them to group membership.
 - On leaving group – ends email notifications to users when the Membership Life Cycle schedule temporarily removes them from group membership.
 - X days before user is going to leave the group – Select this check box and specify a certain number of days, say 2. The user receives a notification 2 days before he or she is removed from group membership by the Membership Life Cycle schedule. This setting also applies to users who have
-  been marked for removal from group membership in the group attestation process. (See the __Specify member inactive period__ setting in the [Enable Group Attestation](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Enable-Group-Attestation) topic.
+  been marked for removal from group membership in the group attestation process. (See the __Specify member inactive period__ setting in the [Enable Group Attestation](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation) topic.
 
 Step 5 – Click __Save__ on the __Notifications__ page.
 

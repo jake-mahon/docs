@@ -10,10 +10,10 @@ For single sign-on using OneLogin, we can choose any of the following ways:
 ### SP-Initiated Single Sign-On
 
 1. Launch the Directory Manager portal _Wizard_.  
-   The availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 11 in the [Configure the Provider in Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/configureoneloginingroupid.md#Configure-the-Provider-in-Directory-Manager) topic).
+   The availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 11 in the [Configure the Provider in Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/configureoneloginingroupid.md#configure-the-provider-in-directory-manager) topic).
 2. Click the button or image for OneLogin; the OneLogin sign in page is displayed.
 3. Enter Leo Ferguson’s login name and password, and click __Login__. The user is successfully logged into the _Wizard_ portal using the OneLogin single sign on option.  
-   Only users defined for our app in OneLogin can log in by entering their user names and passwords. See the [Define Users in OneLogin](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/configureinonelogin.md#Define-Users-in-OneLogin) topic.
+   Only users defined for our app in OneLogin can log in by entering their user names and passwords. See the [Define Users in OneLogin](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/configureinonelogin.md#define-users-in-onelogin) topic.
 
 With single sign-on, you can now launch any Directory Manager client without having to sign in again.
 

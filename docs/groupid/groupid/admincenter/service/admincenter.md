@@ -11,8 +11,8 @@ Follow the steps to view Admin Center Hosting details.
 Step 1 – In Admin Center, click __Applications__ in the left pane.
 
 Step 2 – On the Applications page, click the __Admin Center__ tab.  
-The tab displays Admin Center hosted in native IIS. When multiple Directory Manager instances have been deployed, you will find multiple Admin Center cards on this tab page, each card representing a separate instance. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-Directory-Manager) topic.  
-For details displayed on an Admin Center card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic for additional information.
+The tab displays Admin Center hosted in native IIS. When multiple Directory Manager instances have been deployed, you will find multiple Admin Center cards on this tab page, each card representing a separate instance. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic.  
+For details displayed on an Admin Center card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic for additional information.
 
 You cannot create an Admin Center application or delete an existing one from Admin Center tab.
 
@@ -25,11 +25,11 @@ Step 1 – In Admin Center, click __Applications__ in the left pane.
 Step 2 – On the Admin Center tab, click __Launch Application__ on an Admin Center card.  
 Provide the Admin Center URL to admin and helpdesk users so they can access
 it. You can either copy the URL from the address bar or from Admin Center deployment settings. See the See
-the [View the Launch URL for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#View-the-Launch-URL-for-a-Service) topic.
+the [View the Launch URL for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service) topic.
 
 ## Change the Application Display Name
 
-To change the display name of the Admin Center application, see the [Change a Service’s Display Name](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#Change-a-Services-Display-Name) topic. Replace references to the service with Admin Center.
+To change the display name of the Admin Center application, see the [Change a Service’s Display Name](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name) topic. Replace references to the service with Admin Center.
 
 ## View Deployment Settings
 
@@ -45,4 +45,4 @@ Step 3 – Click __Deployments__ under Server Settings. The Deployment Settings 
 
 ## Configure Event Logging
 
-To configure file logging and Windows logging for Admin Center, see the [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service) topic for additional information.
+To configure file logging and Windows logging for Admin Center, see the [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic for additional information.

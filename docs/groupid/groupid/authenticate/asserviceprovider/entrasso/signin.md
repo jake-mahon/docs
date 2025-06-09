@@ -9,12 +9,12 @@ We configured Microsoft Entra ID SSO with a Directory Manager client, that is th
 
 Step 1 – Launch the Directory Manager portal _Wizard_.  
 On the Login page, notice the Microsoft Entra ID SSO button. You can login using your Directory Manager credentials or click this button to log in.  
-The availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 10 in the [Configure the Provider in Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md#Configure-the-Provider-in-Directory-Manager) topic).
+The availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 10 in the [Configure the Provider in Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md#configure-the-provider-in-directory-manager) topic).
 
 Step 2 – Click the button or image for Microsoft Entra ID SSO; the Microsoft Sign In page is displayed.
 
 Step 3 – Enter your credentials and click __Sign In__. You will be routed to the main page of the Directory Manager portal _Wizard_.  
-Only users defined for our app in Microsoft Entra Admin Center can log in by entering their user names and passwords. See step 11 in the [Configure Directory Manager in Microsoft Entra ID](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md#Configure-Directory-Manager-in-Microsoft-Entra-ID) topic.
+Only users defined for our app in Microsoft Entra Admin Center can log in by entering their user names and passwords. See step 11 in the [Configure Directory Manager in Microsoft Entra ID](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md#configure-directory-manager-in-microsoft-entra-id) topic.
 
 With single sign-on, you can now launch any Directory Manager client without having to sign in again.
 

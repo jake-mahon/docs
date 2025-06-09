@@ -7,11 +7,11 @@ The Administrator Auditing dashboard contains the following cards:
 ![Administrator Auditing Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.png)
 
 - Top Clint IPs – Displays up to the top five (5) client IP addresses related to events that have been recorded in the specified timeframe
-- Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
+- Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Most Active Administrators – Displays up to the top five (5) usernames related to change events that have been recorded in the specified timeframe
-- All Administrator Activity – Tabular format of all events that have been recorded in the specified timeframe. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
-- Administrator Offenses – Tabular format of all offenses related to Administrators. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
-- Administrator Group Changes – Tabular format of all group changes to the Domain, Schema, and Enterprise Admin groups that have been recorded in the specified timeframe. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
+- All Administrator Activity – Tabular format of all events that have been recorded in the specified timeframe. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
+- Administrator Offenses – Tabular format of all offenses related to Administrators. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
+- Administrator Group Changes – Tabular format of all group changes to the Domain, Schema, and Enterprise Admin groups that have been recorded in the specified timeframe. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is set by default to the past three (3) hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click __Search__ to refresh the card data.
 

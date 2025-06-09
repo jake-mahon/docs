@@ -169,7 +169,7 @@ Some planning is needed to ensure a smooth upgrade from NPR V3.x. A trial run on
 
 ### Before You Begin
 
-The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 __The Web Interface files are overwritten during an upgrade. You must backup any customized Web Interface files before upgrading__. The Web Interface files are installed in the ```\Inetpub\wwwroot\pwreset\``` folder by default.
 
@@ -200,7 +200,7 @@ __Step 1 –__ Backup the NPR V2.x server(s).
 
 __Step 2 –__ Close the Data Console if it is open.
 
-__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 ### Upgrading to V3.23
 
@@ -240,7 +240,7 @@ __Step 8 –__ Click __OK__ twice, and then click __Apply__.
 
 __Step 9 –__ Start the Netwrix Password Reset service.
 
-__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 Configure Password Reset Client to use IE11 emulation mode
 

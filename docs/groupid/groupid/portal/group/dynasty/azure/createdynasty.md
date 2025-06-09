@@ -26,7 +26,7 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
 
   By default, the naming template for its child Dynasties starts with "Direct reports of <manager>".
 
-To modify the display name template for child Dynasties, see [Modify alias and display name templates](/docs/groupid/groupid/portal/group/manage/dynastyfunction.md#Modify-alias-and-display-name-templates)topic for additional information.
+To modify the display name template for child Dynasties, see [Modify alias and display name templates](/docs/groupid/groupid/portal/group/manage/dynastyfunction.md#modify-alias-and-display-name-templates)topic for additional information.
 
 NOTE: In the Dynasty creation/update process, a child Dynasty will not be created if it bears the same name as that of an existing object in the directory. For example, when you create a custom Dynasty, test1, on one attribute, SamAccountName, it’s child
 Dynasties would be named as test1-Robert, test1-John, and so on. However, if test1-Robert already exists as a user object, Directory Manager will skip the test1-Robert child Dynasty and continue to create the rest of the Dynasty.

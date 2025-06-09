@@ -6,7 +6,7 @@ If a user needs to change their profile info, that can be accomplished from the 
 
 ## Updating Portal e-mail addresses
 
-If the user designated as Primary needs to change their email address, they will need to open a support ticket at [Netwrix Support.](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-Support)
+If the user designated as Primary needs to change their email address, they will need to open a support ticket at [Netwrix Support.](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support)
 
 The Primary has the ability to change the email address for all other users in the portal. Here's how:
 

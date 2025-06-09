@@ -10,7 +10,7 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-Click the __Compromised Passwords__ tile on the Configuration Console dashboard. This feature is only available when __domain__ is selected with the [Connected To](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md#Connected-To) configuration setting. The Compromised Password Check is disabled by default, and the schedule is set to __None__.
+Click the __Compromised Passwords__ tile on the Configuration Console dashboard. This feature is only available when __domain__ is selected with the [Connected To](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md#connected-to) configuration setting. The Compromised Password Check is disabled by default, and the schedule is set to __None__.
 
 Click the __Compromised Password Check__ toggle to enable/disable the feature.
 

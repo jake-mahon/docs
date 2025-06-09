@@ -26,7 +26,7 @@ The ```NPS.zip``` file that can be downloaded from the Netwrix Customer portal c
     - NPS Scheduler Service
     - Web Service
 
-    __NOTE:__ Use this installer if you are not using the Netwrix Setup Launcher. Run the installer as an administrator and follow the [Install Application](/docs/privilegesecure/privilegesecure/accessmanagement/install/setuplauncher.md#Install-Application) instructions, starting with Step 2.
+    __NOTE:__ Use this installer if you are not using the Netwrix Setup Launcher. Run the installer as an administrator and follow the [Install Application](/docs/privilegesecure/privilegesecure/accessmanagement/install/setuplauncher.md#install-application) instructions, starting with Step 2.
   - NPS.HaMgr.exe – Installs the High Availability Management tool. If high availability setup is desired, please coordinate with [Netwrix Support](https://www.netwrix.com/support.html) and consult the [How to Configure High Availability (HA) Using SbPAM.HaMgr.exe (now NPS.HaMgr.exe)](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000HfOCAU.html) knowledge base article.
   - NPS.ProxyService – Installs the NPS Proxy Service nodes. It is available as both an EXE and MSI format. By default, this service is installed on the application server. This executable can be copied to other servers to install the service. The MSI can be used with a software deployment tool. See the [Proxy Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for additional information.
   - NPS.SchedulerService.exe – Installs the NPS Scheduler Service nodes. By default, this service is installed on the application server. This executable can be copied to other servers to install the service. See the [Scheduler Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/schedulerservice.md) topic for additional information.
@@ -41,7 +41,7 @@ The ```NPS.zip``` file that can be downloaded from the Netwrix Customer portal c
     - postgresql-x64-16 service
     - PostgreSQL directory and database
 
-    __NOTE:__ Use this installer if you are not using the Netwrix Setup Launcher. Run the installer as an administrator and follow the [Install PostgreSQL Database](/docs/privilegesecure/privilegesecure/accessmanagement/install/setuplauncher.md#Install-PostgreSQL-Database) instructions, starting with Step 2.
+    __NOTE:__ Use this installer if you are not using the Netwrix Setup Launcher. Run the installer as an administrator and follow the [Install PostgreSQL Database](/docs/privilegesecure/privilegesecure/accessmanagement/install/setuplauncher.md#install-postgresql-database) instructions, starting with Step 2.
 
 ___RECOMMENDED:___ Antivirus software should be disabled during the component installation.
 

@@ -48,7 +48,7 @@
 
 - There are a few strategies you can pursue to keep Endpoint Policy Manager working as expected.
 - BEST:
-  - Import the Universal license and make sure it hits your endpoints. If you do not have a universal license, you may request one by opening a case at [Netwrix support](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-support). Please do not wait until the last minute to get your license as we could have many requests to field.
+  - Import the Universal license and make sure it hits your endpoints. If you do not have a universal license, you may request one by opening a case at [Netwrix support](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support). Please do not wait until the last minute to get your license as we could have many requests to field.
   - Upgrade the CSE to something recent; hopefully the latest version.
 - GOOD, but not as good as BEST:
   - Keep using your Legacy licenses which will  naturally expire Feb 28, 2023.

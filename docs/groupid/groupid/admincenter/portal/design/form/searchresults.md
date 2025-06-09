@@ -39,7 +39,7 @@ The following table lists the search results pages that you can customize:
    results page.
 8. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the search results page.
 9. In the __Tooltip__ box, enter the text to appear when a user hovers the mouse over the field.
-10. In the __Display Type__ drop-down list, select the display type to use to render this field in the portal. Available options are limited to textbox, DN, DNs, and Link, which are basic display Types. See the [Basic Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md#Basic-Display-Types) topic.
+10. In the __Display Type__ drop-down list, select the display type to use to render this field in the portal. Available options are limited to textbox, DN, DNs, and Link, which are basic display Types. See the [Basic Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md#basic-display-types) topic.
 11. Click __OK.__ The field is displayed in the __Fields__ area on the __Edit Search Results__ pane.  
     To rearrange the fields on the search form, click the equal sign for a field and drag to change its position.
 12. Click __OK__.

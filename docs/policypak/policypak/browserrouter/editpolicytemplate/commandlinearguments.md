@@ -16,6 +16,6 @@ __NOTE:__ Please note that the syntax ```%url%``` is case sensitive.
 
 __NOTE:__ Please note that Chromium often removes a flag's support or replaces it with ADMX settings.
 
-For example, a command-line to disable Google Translate ```--disable-translate``` is not supported anymore and it is replaced with [https://chromeenterprise.google/policies/#TranslateEnabled](https://chromeenterprise.google/policies/#httpschromeenterprisegooglepoliciesTranslateEnabled).
+For example, a command-line to disable Google Translate ```--disable-translate``` is not supported anymore and it is replaced with [https://chromeenterprise.google/policies/#TranslateEnabled](https://chromeenterprise.google/policies/#httpschromeenterprisegooglepoliciestranslateenabled).
 
 __CAUTION:__  Command line arguments don't work when the source and target browsers are the same.

@@ -25,7 +25,7 @@ When performing profile validation, a user can:
 - Terminate his or her direct reports - When a user terminates his or her direct report, it takes effect immediately when the _terminate a user_ workflow is disabled. If enabled, a request is sent to the approver. If the approver accepts
   it, the direct report is terminated and if the approver rejects it, the direct report remains with the manager.
 
-For workflows in an identity store, see the [System Workflows](/docs/groupid/groupid/admincenter/workflow/overview.md#System-Workflows) topic.
+For workflows in an identity store, see the [System Workflows](/docs/groupid/groupid/admincenter/workflow/overview.md#system-workflows) topic.
 
 ## What Happens When Users do not Validate their Profiles?
 

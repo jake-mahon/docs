@@ -47,7 +47,7 @@ __Step 6 –__ Next, click __Edit__ on the Attributes & Claims section. The four
 
 Once configured they should show under Additional claims as below:
 
-![Claims configured](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.png)
+![Claims configured](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.png)
 
 __Step 7 –__ In the __Manage__ > __Users and groups__ section for your application, add any required users or groups to give permission to access the application.
 

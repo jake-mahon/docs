@@ -79,7 +79,7 @@ The identifier of the connection and thus the name of the subsection must:
 | PathIncremental   Required if Path is not defined. | __Type__    String   __Description__ Path of the input file to be used for incremental synchronization. |
 | IsFileNameRegex   optional | __Type__    Boolean   __Description__ ```True``` to enter a regex instead of a normal string for ```Path``` and ```PathIncremental```.    __Note:__ if several files correspond to the regex, then the export will use the last created file.   __Info:__ useful when the filename is only partially known, for example when using a generated file. |
 | ValuesToTrim   optional | __Type__    String List   __Description__ Ordered list of the characters to trim at the beginning and at the end of the headers and values of the input file.   __Note:__ the second value will be trimmed after the first, the order is important. __Example__ When writing ```$``` first and then ```%``` in ```ValuesToTrim```, then "$%I am an example$%" becomes "I am an example$". |
-| Encoding   default value: UTF-8 | __Type__    String   __Description__  Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| Encoding   default value: UTF-8 | __Type__    String   __Description__  Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 | NumberOfLinesToSkip   default value: 0 | __Type__    Int32   __Description__  Number of lines to skip in order to reach the line used as data header. |
 
 ### Output details

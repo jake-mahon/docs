@@ -22,4 +22,4 @@ When finished, slick __Save__ to close the dialog and return to email action set
 | Email Subject | Specify the template for email subject.  The template can contain dynamic values that will be obtained from the crawled content (e.g. _[cs:PageUrl]_).  __TIP:__ You can select the corresponding fields from __Add a Merge Field__ list on the right. |
 | Email Body Template | Specify the template for email body.  The template can contain dynamic values that will be obtained from the crawled content (e.g. _[cs:PageUrl]_).  __TIP:__ You can select the corresponding fields from __Add a Merge Field__ list on the right. |
 
-To modify action settings for the certain workflow, select the workflow and use the Advanced UI window, as described in the [Modify Email Alert action settings](/docs/dataclassification/ndc/admin/workflows/advancedwindow/modifyemailalertaction.md#Modify-Email-Alert-action-settings) section.
+To modify action settings for the certain workflow, select the workflow and use the Advanced UI window, as described in the [Modify Email Alert action settings](/docs/dataclassification/ndc/admin/workflows/advancedwindow/modifyemailalertaction.md) section.

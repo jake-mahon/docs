@@ -51,7 +51,7 @@ The General tab has the following configuration options:
 
 ### Actions Tab
 
-Once a playbook is created or imported, add steps to the playbook using the Actions tab. Steps are actions that are taken in response to a threat. See the [Preconfigured Actions](/docs/threatmanager/threatmanager/administration/configuration/threatresponse.md#Preconfigured-Actions) topic for additional information.
+Once a playbook is created or imported, add steps to the playbook using the Actions tab. Steps are actions that are taken in response to a threat. See the [Preconfigured Actions](/docs/threatmanager/threatmanager/administration/configuration/threatresponse.md#preconfigured-actions) topic for additional information.
 
 Follow the instructions to add steps to a Playbook.
 

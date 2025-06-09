@@ -108,7 +108,7 @@ To connect to the API, an access key is required. Follow the steps below to gene
    Note that this is the default URL. It may change for reasons such as when a different port is used.
 2. Click __ACCESS KEYS__.
 
-   ![Access Keys](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
+   ![Access Keys](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
 3. Click __Create Access Key__ to generate an access key and provide the following information:
 
    ![Access Key Purpose window](/img/product_docs/groupid/groupid/admincenter/portal/accesskeyspurpose.png)

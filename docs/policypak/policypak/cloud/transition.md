@@ -136,7 +136,7 @@ Additionally, you may wish to investigate the idea of having computers automatic
 - [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/policypak/policypak/video/cloud/jointoken.md)
 - [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/policypak/policypak/video/cloud/mdm.md)
 
-__NOTE:__ There are some other KB topicswith advanced scenarios on installing the Endpoint Policy Manager Cloud client for Azure Virtual Desktops, VDI and other scenarios. Please open a ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-Support), if you have trouble locating those articles.
+__NOTE:__ There are some other KB topicswith advanced scenarios on installing the Endpoint Policy Manager Cloud client for Azure Virtual Desktops, VDI and other scenarios. Please open a ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support), if you have trouble locating those articles.
 
 __NOTE:__  Here's some command line examples to help install the Endpoint Policy Manager Cloud client silently. See the [How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/policypak/policypak/install/cloud/clientsilent.md) topic for additional information.
 
@@ -157,7 +157,7 @@ Method one is akin to GP update and you simply run ```PPCLOUD /sync``` (performs
 
 ![941_14_image-20230521113923-14_950x823](/img/product_docs/policypak/policypak/cloud/941_14_image-20230521113923-14_950x823.png)
 
-See the [Manually Syncing with PolicyPak Cloud](/docs/policypak/policypak/cloud/verify.md#Manually-Syncing-with-PolicyPak-Cloud) topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy Manager_AppendixE/page/Manually_Syncing_with_Endpoint Policy Manager_Cloud.html)
+See the [Manually Syncing with PolicyPak Cloud](/docs/policypak/policypak/cloud/verify.md#manually-syncing-with-policypak-cloud) topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy Manager_AppendixE/page/Manually_Syncing_with_Endpoint Policy Manager_Cloud.html)
 
 On the server
 

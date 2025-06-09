@@ -30,7 +30,7 @@ based on the Group Life Cycle policy for the identity store.
 Logically deleted groups are moved to the [My Deleted Groups](/docs/groupid/groupid/portal/group/mydeletedgroups.md) page with the 'Deleted\_' prefix added to their names. Such groups have all their attributes intact. As a result, a logically deleted
 group, when renewed, returns to the state it had at the time of deletion.
 
-See the [What Happens When a Group is Deleted](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#What-Happens-When-a-Group-is-Deleted) topic for additional information on group deletion.
+See the [What Happens When a Group is Deleted](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#what-happens-when-a-group-is-deleted) topic for additional information on group deletion.
 
 ## Group Deletion Notifications
 

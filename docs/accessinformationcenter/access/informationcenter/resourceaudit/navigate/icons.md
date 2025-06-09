@@ -10,8 +10,8 @@ The following table contains icons for resource types:
 | --- | --- |
 | ![File System icon](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.png) | File System |
 | ![Windows Server icon](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.png) | Windows Server |
-| ![Server icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/server.png) | Server |
-| ![Policies icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/policies.png) | Policies |
+| ![Server icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.png) | Server |
+| ![Policies icon](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.png) | Policies |
 | ![Shares icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/shares.png) | Shares |
 | ![Share icon](/img/product_docs/activitymonitor/config/activedirectory/share.png) | Share |
 | ![Folder icon](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/folder.png) | Folder |
@@ -27,11 +27,11 @@ The following table contains icons for resource types:
 | ![Library icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/library.png) | Library |
 | ![List icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/list.png) | List |
 | ![Unknown custom node icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/unknowncustom.png) | Unknown, custom node |
-| ![Active Directory icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png) | Active Directory |
+| ![Active Directory icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png) | Active Directory |
 | ![Domain icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.png) | Domain |
 | ![Box icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/box.png) | Box |
 | ![Google Drive icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/googledrive.png) | Google Drive |
-| ![Exchange icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.png) | Exchange |
+| ![Exchange icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.png) | Exchange |
 | ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sql.png) | SQL Server or Azure SQL |
 | ![Microsoft Teams icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/teams.png) | Microsoft Teams |
 | ![MongoDB icon](/img/product_docs/changetracker/changetracker/install/mongodb.png) | MongoDB |
@@ -40,10 +40,10 @@ The following table contains icons for resource types:
 | ![VMware icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/vmware.png) | VMware |
 | ![Hyper-V icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/hyperv.png) | Hyper-V |
 | ![Amazon icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/amazon.png) | Amazon |
-| ![Dropbox icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/dropbox.png) | Dropbox |
+| ![Dropbox icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/dropbox.png) | Dropbox |
 | ![PostgreSQL icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/postgresql.png) | PostgreSQL |
 | ![MySQL icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/mysql.png) | MySQL |
-| ![Oracle SQL icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.png) | Oracle SQL |
+| ![Oracle SQL icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.png) | Oracle SQL |
 | ![GitHub icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/github.png) | GitHub |
 | ![Snowflake icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/snowflake.png) | Snowflake |
 | ![Administrative icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/administrative.png) | Administrative |
@@ -51,7 +51,7 @@ The following table contains icons for resource types:
 | ![Group icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/groupresource.png) | Group |
 | ![Server/Virtual Machine icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/servervm.png) | Server or Virtual Machine |
 | ![Instance/Database icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/instancedatabase.png) | Instance or Database |
-| ![Table icon](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/table.png) | Table |
+| ![Table icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/table.png) | Table |
 | ![Function/Procedure icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/functionprocedure.png) | Function or Procedure |
 | ![View icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/view.png) | View |
 | ![Index icon](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/index.png) | Index |

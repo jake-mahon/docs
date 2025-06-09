@@ -90,7 +90,7 @@ __Step 11 –__ The account preforming the operation must have Domain Admin priv
 - If the account specified during domain configuration has Domain Admin privileges, click __Next__.
 - If the domain account does not have Domain Admin privileges, select the __Use alternate credentials to perform the object restore__ checkbox and enter an account with Domain Admin privileges, then click __Next__.
 
-For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#Least-Privilege-Access-Model) topic.
+For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
 ![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
 

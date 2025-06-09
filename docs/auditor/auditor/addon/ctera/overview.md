@@ -23,7 +23,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 ### Configure Logging for CTERA Edge Filer
 
-Prior to start using the Add-On, configure syslog logging settings on your CTERA Edge Filers. See the [Configuring Syslog Settings](https://kb.ctera.com/docs/configuring-logging#Configuring-Syslog-Settings) article on the CTERA product documentation portal for detailed instructions.
+Prior to start using the Add-On, configure syslog logging settings on your CTERA Edge Filers. See the [Configuring Syslog Settings](https://kb.ctera.com/docs/configuring-logging#configuring-syslog-settings) article on the CTERA product documentation portal for detailed instructions.
 
 ### Accounts and Rights
 

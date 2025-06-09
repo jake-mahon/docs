@@ -72,7 +72,7 @@ __To add a node:__
 5. Click __Navigation Bar Categories__ to define a new node.
 6. On the __Navigation Bar Categories__ tab, click __Add__. The __Add Navigation Category__ pane is displayed.
 7. Enter a name for the node in the __Title__ box. The node will be displayed with this name on the navigation bar.
-8. In the __Access Level__ drop-down list, select a security role. The node would be visible to users of this role and roles with a priority value higher than this role. For all other users, the node would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#Priority).  
+8. In the __Access Level__ drop-down list, select a security role. The node would be visible to users of this role and roles with a priority value higher than this role. For all other users, the node would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
    Select _Never_ to hide the node for all users.
 9. In the __Tooltip Text__ box, enter the text to appear when a user hovers the mouse over the node.
 10. Use the __Icon Class__ box to upload the image (icon) to be displayed with the node name.
@@ -167,7 +167,7 @@ __To define a sub-node:__
     Click __View in Browser__ to preview the webpage.
 12. Select the __Open in new tab__ check box to open the linked page in a new tab in the browser.   
     If you do not select it, users will directly navigate to the linked page. They will have to use the browser’s back button to return to the previous page.
-13. In the __Access Level__ drop-down list, select a security role. The sub-node would be visible for users of this role and roles with a priority value higher than this role. For all other users, the sub-node would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#Priority).  
+13. In the __Access Level__ drop-down list, select a security role. The sub-node would be visible for users of this role and roles with a priority value higher than this role. For all other users, the sub-node would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
     Select _Never_ to hide the sub-node for all users.
 14. Click __OK__.
 15. Click __Save__ on the __Navigation Bar__ page.
@@ -246,7 +246,7 @@ __To update tab properties:__
    2. __Display Text__ – The text displayed as the tab name in the portal.
    3. __Tooltip Text__ – The text that appears when a user hovers the mouse over the tab.
    4. __URL__ – The address of the webpage to display when a user clicks the tab.
-   5. __Access Level__ – Select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. For all other users, the tab would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#Priority).  
+   5. __Access Level__ – Select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. For all other users, the tab would be hidden. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
       Select _Never_ to hide the tab for all users.
 9. Click __OK__ twice on the __Edit Link__ pane.
 10. Click __Save__ on the __Navigation Bar__ page.

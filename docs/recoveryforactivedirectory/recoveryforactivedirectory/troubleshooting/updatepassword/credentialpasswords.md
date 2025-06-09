@@ -12,7 +12,7 @@ The SQL Server service account grants access to the SQL Server database. It can 
 
 ## Recovry Service Account
 
-The Recovery service account is used to run the Recovery Console service and preform the domain backups. It can be updated on the Domains page in the Recovery Console. See the [Edit Domain Configuration](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#Edit-Domain-Configuration) topic for additional information.
+The Recovery service account is used to run the Recovery Console service and preform the domain backups. It can be updated on the Domains page in the Recovery Console. See the [Edit Domain Configuration](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#edit-domain-configuration) topic for additional information.
 
 ## Domain Controller Backup Service Account
 

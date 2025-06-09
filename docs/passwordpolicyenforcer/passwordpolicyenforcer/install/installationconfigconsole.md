@@ -12,4 +12,4 @@ The Configuration Console is a feature package included in the server installati
 
 Follow the procedure in [Install Password Policy Enforcer on a Server](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationserver.md), selecting the __Configuration Console__ feature. You can select the other features if appropriate for the server.
 
-You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#Silent-Installation).
+You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#silent-installation).

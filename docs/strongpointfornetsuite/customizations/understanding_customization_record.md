@@ -52,7 +52,7 @@ The tabs provide detailed information about the customization:
 
 #### Bundle / SuiteApp Information
 
-This information is available on the Detailed Metadata tab for all customization types. They appear on the [Managed Bundle/App Updates](/docs/strongpointfornetsuite/change_management/change_management_reports.md#Managed-BundleApp-Updates) report.
+This information is available on the Detailed Metadata tab for all customization types. They appear on the [Managed Bundle/App Updates](/docs/strongpointfornetsuite/change_management/change_management_reports.md#managed-bundleapp-updates) report.
 
 - _Managed Bundle/SuiteApps_ are pushed to target accounts by a third-party provider.
 - _Third-Party Bundle/SuiteApps_ are third-party products that can be updated on demand for target accounts. These components have the same change evaluation as managed bundle/apps. Unmanaged third-party bundles or apps must meet these conditions:

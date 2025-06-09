@@ -48,7 +48,7 @@ Database maintenance is essential to manage the size of the event database. The 
 Prerequisites
 
 - See the [Reporting Module Server Requirements](/docs/threatprevention/threatprevention/requirements/reportingserver.md) topic for details on prerequisites.
-- See the [Netwrix Threat Manager Reporting Module Ports](/docs/threatprevention/threatprevention/requirements/ports.md#Netwrix-Threat-Manager-Reporting-Module-Ports) topic for a list of firewall ports used.
+- See the [Netwrix Threat Manager Reporting Module Ports](/docs/threatprevention/threatprevention/requirements/ports.md#netwrix-threat-manager-reporting-module-ports) topic for a list of firewall ports used.
 
 Installation
 

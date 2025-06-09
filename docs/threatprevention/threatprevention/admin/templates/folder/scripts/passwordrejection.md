@@ -1,6 +1,6 @@
 # Password Rejection Custom Script
 
-The following C# script sends an email notification to the specified perpetrator when their Active Directory password is rejected by the active [Password Rules Filter](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md#Password-Rules-Filter) criteria.
+The following C# script sends an email notification to the specified perpetrator when their Active Directory password is rejected by the active [Password Rules Filter](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter) criteria.
 
 The following environmental variables must be added to the script prior to execution:
 

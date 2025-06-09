@@ -17,7 +17,7 @@ The main section of the audit interface is the Results pane. On the right-side o
 - [Reports Pane](#Reports-Pane) – Lists available reports for the resource type
 - [Results Pane](#Results-Pane) – Displays the report content
 - [Group Membership Pane](#Group-Membership-Pane) – Displays group membership for group trustees selected in the Results pane
-- [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) – Navigation tree for the selected resource (only present in the Resource Audit interface)
+- [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) – Navigation tree for the selected resource (only present in the Resource Audit interface)
 
 ### Reports Pane
 
@@ -31,7 +31,7 @@ The report for the selected resource displays in the Results pane.
 
 The Results pane displays report data based on the selections in both the Resources pane and the Reports pane. Reports may consist of multiple tables and graphs.
 
-![Results pane](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/resultspane.png)
+![Results pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/resultspane.png)
 
 Tables and graphs that display at the bottom of the pane vary according to the selected report. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information on table options. See the individual report topics for specific information on columns and displayed data for a report.
 
@@ -40,7 +40,7 @@ Tables and graphs that display at the bottom of the pane vary according to the s
 There are two checkbox options depending on the report selected:
 
 - Include Subfolders – Select to include subfolders of the selected share or folder in the report
-- Highlight Active Permissions – Select to show permissions that are in use. When a user or effective member of a group that has permissions to a resource also has activity on the resource, a yellow icon is displayed for the permission type to indicate the access level used to perform the activity. Therefore, access level cells not highlighted when activity is being monitored represent permissions that are identified as stale. See the [Stale Permissions](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#Stale-Permissions) topic for additional information.
+- Highlight Active Permissions – Select to show permissions that are in use. When a user or effective member of a group that has permissions to a resource also has activity on the resource, a yellow icon is displayed for the permission type to indicate the access level used to perform the activity. Therefore, access level cells not highlighted when activity is being monitored represent permissions that are identified as stale. See the [Stale Permissions](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#stale-permissions) topic for additional information.
 
 #### Activity Report Results Pane Features
 
@@ -66,7 +66,7 @@ For example, if the __Writes__ operation is deselected, only the operations of _
 
 The Group Membership pane list members for an Active Directory or Entra ID group selected in the Results pane. Groups can also be searched for using the textbox at the top of the pane.
 
-![Group Membership pane](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
+![Group Membership pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
 
 All group members are listed, including any nested group membership. The __Change Group Membership__ button displays any access changes being modeled. This is a primary component of change modeling. See the [Change Modeling](/docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/overview.md) topic for additional information.
 
