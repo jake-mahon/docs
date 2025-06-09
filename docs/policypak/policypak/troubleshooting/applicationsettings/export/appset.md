@@ -9,11 +9,11 @@ There are two ways to export AppSet settings.
 
 Here is what to do:
 
-![358_1_image004](/static/img/product_docs/policypak/policypak/troubleshooting/128_4_image002.jpg)
+![358_1_image004](/img/product_docs/policypak/policypak/troubleshooting/128_4_image002.jpg)
 
 ## Way #2 use when:
 
 - Exporting to be used with PPExporter (then on to SCCM, Intune, etc.)
 - Exporting to be used with Endpoint Policy Manager Cloud.
 
-![358_2_image0022](/static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/export/358_2_image0022.png)
+![358_2_image0022](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/export/358_2_image0022.png)

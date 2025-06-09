@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_PermissionChanges Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.png)
+![Analysis Tasks for the FS_PermissionChanges Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -26,7 +26,7 @@ The Notification analysis task is an optional analysis task which requires confi
 - 5. Alert on Permission Changes – Alerts when permission changes have occurred
 
   - Add recipients, notification subject, and email content
-  - See the [Configure the Notification Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#Configure-the-Notification-Analysis-Task) topic for additional information
+  - See the [Configure the Notification Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#Configure-the-Notification-Analysis-Task) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the FS\_PermissionChanges job produces the following pre-configured reports:
 

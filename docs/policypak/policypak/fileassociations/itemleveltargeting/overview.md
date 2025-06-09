@@ -4,17 +4,17 @@ Item-Level Targeting is used in Microsoft Group Policy Preferences and other are
 
 A collection enables you to group together Endpoint Policy Manager File Associations Manager policies so they can act together. For instance, you might want to create one collection that targets only your East Sales computers, and another collection that targets your West Sales computers. Or you might want to create a collection for Windows 10 machines and one for Windows Server 2016 RDS.
 
-![using_item_level_targeting](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
+![using_item_level_targeting](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
 
-![using_item_level_targeting_1](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
+![using_item_level_targeting_1](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
 
 Below you can see the two collections that we have created that can hold other collections or policies. It also shows how you can apply Item-Level Targeting for a collection.
 
-![using_item_level_targeting_2](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
+![using_item_level_targeting_2](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
 
 To change the Item-Level Targeting, right-click any Endpoint Policy Manager File Associations Manager policy, and select __Edit Item Level Targeting__.
 
-![using_item_level_targeting_3](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
+![using_item_level_targeting_3](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
 
 The Edit Item Level Targeting menu item brings up the Targeting Editor. You can select any combination of characteristics you want to test for. Administrators familiar with Group Policy Preferences' Item-Level Targeting will be at home in this interface as it is functionally equivalent.
 
@@ -22,7 +22,7 @@ You can apply one or more targeting items to a policy, which enables targeting i
 
 The screenshot below demonstrates the basic capabilities of the Targeting Editor. Also, note that Endpoint Policy Manager File Associations Manager cannot filter by user group since the node is only available on the Computer side, and Endpoint Policy Manager File Associations Manager is only valid for Windows 8.1 and later.
 
-![using_item_level_targeting_4](/static/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_4.png)
+![using_item_level_targeting_4](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_4.png)
 
 In this example, the Pak would only apply to Windows 10 machines when the machine is portable, and the user is in the FABRIKAM\Traveling Sales Users group.
 
@@ -36,6 +36,6 @@ Below are some real-world examples of how you can use Item-Level Targeting.
 
 Close the editor when you are done. Note that the icon for the policy or collection has changed to orange, which shows that it now has Item-Level Targeting.
 
-![using_item_level_targeting_5](/static/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_5.png)
+![using_item_level_targeting_5](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_5.png)
 
 When Item-Level Targeting is on, the policy won't apply unless the conditions evaluate to True, and if Item-Level Targeting is on for a collection, then none of the items in the collection will apply unless the Item-Level Targeting on the collection evaluates to True.

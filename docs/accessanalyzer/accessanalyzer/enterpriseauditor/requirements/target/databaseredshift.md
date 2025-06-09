@@ -23,8 +23,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [SQL Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [SQL Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md)
 
 ## Permissions
 

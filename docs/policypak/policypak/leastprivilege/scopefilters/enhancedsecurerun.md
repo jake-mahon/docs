@@ -1,18 +1,18 @@
 # Scenario 1: Enhanced SecureRun / Prevent Untrusted Executables and Scripts from Running Even by LOCAL SYSTEM
 
-__NOTE:__  For an overview of this scenario, see the [SecureRun to block User AND System executables](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/securerun/usersystemexecutables.md) video demo.
+__NOTE:__  For an overview of this scenario, see the [SecureRun to block User AND System executables](/docs/policypak/policypak/video/leastprivilege/bestpractices/securerun/usersystemexecutables.md) video demo.
 
 When you apply SecureRun on the user or computer side, you’re saying “Block all untrusted executables started by users.” This doesn’t (by default) block the attack vector of the System performing the attack. You can see the example below where the Standard User is blocked from an executable attempt, but System is still allowed.
 
 [![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/8840af7d-4ee7-435f-b181-ca534fc9a305/faq-img-04.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/8840af7d-4ee7-435f-b181-ca534fc9a305/faq-img-04.png)
 
 However, you can switch SecureRun on the computer side to now say “Block all untrusted executables started by users or LOCAL SYSTEM.” You would do this on the Computer side, and specify User and System Processes.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.png)
 
 The result is that both User and System attempts to run un-trusted executables will be prevented.
 

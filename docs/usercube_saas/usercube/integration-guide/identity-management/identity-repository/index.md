@@ -8,13 +8,13 @@ The identity repository is supposed to contain the list of all kinds of identiti
 
 > For example, a user can be represented by an identifier and linked to their position which includes the user's employee id, last name and first name, email, user type, organization, etc.
 >
-> ![Identity Repository Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.png)
+> ![Identity Repository Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.png)
 
 > In Identity Manager, the identity repository can look like the following:
 >
-> ![Identity Repository Result](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.png)
+> ![Identity Repository Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.png)
 >
-> ![Identity Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.png)
+> ![Identity Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.png)
 
 The identity repository can be created and updated by:
 
@@ -24,13 +24,13 @@ The identity repository can be created and updated by:
 
 Netwrix Identity Manager (formerly Usercube) recommends creating the identity repository by downloading the provided Excel file, filling it with HR information, and uploading it back. See the [
 Create the Workforce Repository
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) topic to learn how to create the workforce repository.
+](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) topic to learn how to create the workforce repository.
   
 Then perform mass updates with the same kind of process, and update an Individual Identity via Identity Manager's workflows. See the [
 Update Identities in Bulk
-](/docs/product_docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md) and [
+](/docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md) and [
 Update an Individual Identity
-](/docs/product_docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)topics for additional information.
 
 ### Useful data
 

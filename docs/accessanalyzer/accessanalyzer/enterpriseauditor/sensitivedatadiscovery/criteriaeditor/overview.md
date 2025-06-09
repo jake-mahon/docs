@@ -1,25 +1,25 @@
 # Sensitive Data Criteria Editor
 
-The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the __Settings__ > __Sensitive Data__ node. Use the Sensitive Data Criteria Editor to view pre-defined criteria and to customize or create user-defined criteria. Sensitive Data Criteria can be configured in individual data collectors that use Sensitive Data Discovery or can be configured to inherit Sensitive Data Criteria settings from the __Settings__ > __Sensitive Data__ node. See the [Sensitive Data](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
+The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the __Settings__ > __Sensitive Data__ node. Use the Sensitive Data Criteria Editor to view pre-defined criteria and to customize or create user-defined criteria. Sensitive Data Criteria can be configured in individual data collectors that use Sensitive Data Discovery or can be configured to inherit Sensitive Data Criteria settings from the __Settings__ > __Sensitive Data__ node. See the [Sensitive Data](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
 
-![Sensitive Data Criteria Editor](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.png)
+![Sensitive Data Criteria Editor](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.png)
 
 The Sensitive Data Criteria Editor contains two sections:
 
 - Navigation pane – User-configured criteria can be added and removed in the navigation pane using the Add or Remove options. See the [Navigation Pane](#Navigation-Pane) topic for additional information.
-- Configuration pane – Displays configured settings for the currently selected criteria in the navigation pane. See the [Configuration Pane](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md) topic for additional information.
+- Configuration pane – Displays configured settings for the currently selected criteria in the navigation pane. See the [Configuration Pane](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md) topic for additional information.
 
 ## Navigation Pane
 
 The navigation pane lists all user-created and pre-configured Sensitive Data criteria.
 
-![Navigation Pane](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.png)
+![Navigation Pane](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.png)
 
 The options in the Navigation Pane are:
 
 - Add Criteria – Adds a new criteria under the User Criteria list
 - Remove Criteria – Removes a user-created criteria from the User Criteria list
 - User Criteria – Lists all user-created criteria
-- System Criteria – Lists all pre-configured criteria. For a list of pre-configured System Criteria, see the [Sensitive Data System Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md) topic for additional information.
+- System Criteria – Lists all pre-configured criteria. For a list of pre-configured System Criteria, see the [Sensitive Data System Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md) topic for additional information.
 
   - System Criteria cannot be modified or removed. To use existing System Criteria configurations in a User Criteria, right-click on a System Criteria and select __Duplicate__ from the right-click menu. A configurable copy of the System Criteria appears under User Criteria.

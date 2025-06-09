@@ -14,7 +14,7 @@ The scaffolding generates the following scaffoldings:
 
 - [
   View Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
 
 ## Examples
 

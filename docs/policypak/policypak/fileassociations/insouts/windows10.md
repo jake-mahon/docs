@@ -20,11 +20,11 @@ __Step 4 –__ Use Group Policy to ensure that specific computers use this XML f
 
 The exported file from this process might look something like this:
 
-![about_policypak_file_associations_2](/static/img/product_docs/policypak/policypak/fileassociations/insouts/about_policypak_file_associations_2.png)
+![about_policypak_file_associations_2](/img/product_docs/policypak/policypak/fileassociations/insouts/about_policypak_file_associations_2.png)
 
 __Step 5 –__ Next, you would use the Group Policy setting called __Set a default associations configuration file__.
 
-![about_policypak_file_associations_3](/static/img/product_docs/policypak/policypak/fileassociations/insouts/about_policypak_file_associations_3.png)
+![about_policypak_file_associations_3](/img/product_docs/policypak/policypak/fileassociations/insouts/about_policypak_file_associations_3.png)
 
 The disadvantages of using the in-box method for Windows 10 are as follows:
 

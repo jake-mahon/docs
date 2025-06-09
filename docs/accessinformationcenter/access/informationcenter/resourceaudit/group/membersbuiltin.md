@@ -4,7 +4,7 @@ The Members report for a built-in group provides a list of all trustees, users, 
 
 _Remember,_ the Members report for a built-in group contains different information than the other group types.
 
-![Members report for a built-in group](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/membersbuiltin.png)
+![Members report for a built-in group](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/membersbuiltin.png)
 
 This report is comprised of the following columns:
 

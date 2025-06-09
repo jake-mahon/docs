@@ -8,7 +8,7 @@ __Step 2 –__ Make sure the ‘__Device Group__’ selector, found in the top l
 
 __Step 3 –__ Click __Filter__ to precisely focus on events of interest – specify time range, attribute type, change type and keywords.
 
-__Step 4 –__ The __Query/Report__ button can be used to specify events to include in a scheduled report or re-useable query for users. See the [Reports Tab](/docs/product_docs/changetracker/changetracker/admin/tabs/reportstab.md) topic for additional information.
+__Step 4 –__ The __Query/Report__ button can be used to specify events to include in a scheduled report or re-useable query for users. See the [Reports Tab](/docs/changetracker/changetracker/admin/tabs/reportstab.md) topic for additional information.
 
 __Step 5 –__ Select __Events__ of interest then use __Actions__ to either acknowledge or create/expand a Planned Change definition – use Resubmit to then review other previous events automatically for inclusion within the Planned Change ID.
 

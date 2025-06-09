@@ -2,14 +2,14 @@
 
 The Authentication page is accessible from the Navigation pane under Configuration. It shows the configured multi-factor authentication (MFA) or other third-party authentication connectors such as OpenID Connect and SAML.
 
-Once configured, an authentication method may be assigned to any users who will use the method for accessing the application. See the [Authentication Connector Tab](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md) topic for additional information.
+Once configured, an authentication method may be assigned to any users who will use the method for accessing the application. See the [Authentication Connector Tab](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md) topic for additional information.
 
-![Authentication Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.png)
+![Authentication Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.png)
 
 The pane on the left side of the page displays a list of the configured authentication connectors. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- + button — Create a new connector. See the [Add Authentication Connector](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/authenticationconnector.md) topic for additional information.
+- + button — Create a new connector. See the [Add Authentication Connector](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/authenticationconnector.md) topic for additional information.
 - Default icon — Indicates if connector is set as default. Icon appears when activity is hovered over. Click the icon to change or clear the default.
 - Exclusive icon — Indicates if connector is set as exclusive. Icon appears when activity is hovered over. Click the icon to change or clear the default.
 - Trashcan icon — Deletes the connector. Icon appears when activity is hovered over. A confirmation window will display.
@@ -44,7 +44,7 @@ The following fields apply to the MFA Connector Type:
 
 The following fields apply to the OpenID Connect Connector Type:
 
-- Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector. See the [OpenID Connect Configuration Wizard](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/openidconnectconfiguration.md) topic for additional information.
+- Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector. See the [OpenID Connect Configuration Wizard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/openidconnectconfiguration.md) topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Issuer — Displays the OpenID Connect provider issuer URI
 - Client Id — Displays the OpenID Connect provider application Id for Privilege Secure
@@ -56,7 +56,7 @@ The following fields apply to the OpenID Connect Connector Type:
 
 The following fields apply to the SAML Connector Type:
 
-- Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector. See the [SAML Configuration Wizard](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfiguration.md) topic for additional information.
+- Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector. See the [SAML Configuration Wizard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfiguration.md) topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Login URI — Displays the SAML provider issuer URI
 - Name ID Policy — Displays the name of the ID Policy
@@ -70,13 +70,13 @@ The following fields apply to the SAML Connector Type:
 
 Once a third-party authentication connector is configured, it can be set as the default form of authentication, or it can be set as the exclusive form of authentication. Hover over the authentication connector to display the configuration options.
 
-![Authentication Connector Options](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationoptions.png)
+![Authentication Connector Options](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationoptions.png)
 
 There are two options that can be configured for the authentication connector, Set as Default and Set as Exclusive.
 
 | Description | Option | Login Screen |
 | --- | --- | --- |
-| Set as Default — Sets the authentication connector as the default login option and includes the option to login with Active Directory credentials | ![Set authentication connector as Default](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefault.png) | ![Set authentication connector as Default Login Screen](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefaultlogin.png) |
-| Set as Exclusive — Sets the authentication connector as the only option to login and the option to login with Active Directory credentials is removed | ![Set authentication connector as Exclusive](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusive.png) | ![Set authentication connector as Exclusive Login Screen](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusivelogin.png) |
+| Set as Default — Sets the authentication connector as the default login option and includes the option to login with Active Directory credentials | ![Set authentication connector as Default](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefault.png) | ![Set authentication connector as Default Login Screen](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefaultlogin.png) |
+| Set as Exclusive — Sets the authentication connector as the only option to login and the option to login with Active Directory credentials is removed | ![Set authentication connector as Exclusive](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusive.png) | ![Set authentication connector as Exclusive Login Screen](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusivelogin.png) |
 
 Once the authentication connector is set to Default or Exclusive, the login will be updated to reflect the configuration selected.

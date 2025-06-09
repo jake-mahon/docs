@@ -12,4 +12,4 @@ creating
 jointokens:
 
 - Manual: [https://helpcenter.netwrix.com/bundle/PolicyPak\_AppendixE/page/Tools.html](https://helpcenter.netwrix.com/bundle/PolicyPak_AppendixE/page/Tools.html) and
-- Video: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/product_docs/policypak/policypak/video/cloud/jointoken.md)
+- Video: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/policypak/policypak/video/cloud/jointoken.md)

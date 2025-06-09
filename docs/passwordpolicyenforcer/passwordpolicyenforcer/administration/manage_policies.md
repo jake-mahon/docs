@@ -1,6 +1,6 @@
 # Manage Policies
 
-Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md#Assign-Policies-to-Users-Groups) topic for additional information.
+Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md#Assign-Policies-to-Users-Groups) topic for additional information.
 
 Open the Configuration Console:
 
@@ -8,11 +8,11 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-![Configuration Console Dashboard](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
 
 The Configuration Console dashboard shows __No password policies have been set up__ when you are getting started with Password Policy Enforcer. Once you __Add a policy__, the dashboard shows the defined policies and tool links. In this example, the Default Password Policy and CIS Password Policy Guide have been added.
 
-![Dashboard with Policies](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppedashboardpolicies.png)
+![Dashboard with Policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppedashboardpolicies.png)
 
 The policy management links are all on the Password Policies tile:
 
@@ -64,27 +64,27 @@ Password Policy Enforcer contains Out-of-the-box Policy Templates based on the r
 
 Once you add a policy, it needs to be set up or reviewed if you used a template. Click on the policy name to edit the policy. For each policy:
 
-- Set up [Rules](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md).
-- [Assign Policies to Users & Groups](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md).
-- Enable the use of an optional [Passphrase](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrases.md).
-- Set up [Policy Properties](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policy_properties.md).
-- Set up [Messages](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/messages.md) for your users.
+- Set up [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md).
+- [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md).
+- Enable the use of an optional [Passphrase](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrases.md).
+- Set up [Policy Properties](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policy_properties.md).
+- Set up [Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/messages.md) for your users.
 
 ## Test Policy
 
-Launches the Test policy tool in a separate window. You can test __By user__ and by __Password bulk test__. See the [Test Policy](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md) topic for additional information.
+Launches the Test policy tool in a separate window. You can test __By user__ and by __Password bulk test__. See the [Test Policy](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md) topic for additional information.
 
 ## Set Priorities
 
 Set priorities determines which policy to enforce if users have more than one policy. Click __Apply priorities__ to save the new order.
 
-![Set priorities](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policypriority.png)
+![Set priorities](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policypriority.png)
 
 ### Policy Selection Flowchart
 
-This flowchart shows how Password Policy Enforcer determines a policy for each user. Use the [Test Policy](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is enforced for a particular user.
+This flowchart shows how Password Policy Enforcer determines a policy for each user. Use the [Test Policy](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is enforced for a particular user.
 
-![managing_policies](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies.jpg)
+![managing_policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies.jpg)
 
 ## Export
 

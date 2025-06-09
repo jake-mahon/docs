@@ -4,7 +4,7 @@ The Audit Logs page provides an audit trail of the actions performed by users in
 
 Click __Audit Logs__ in the left pane to open the Audit Logs page.
 
-![Audit Logs Page](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/auditlog.png)
+![Audit Logs Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/auditlog.png)
 
 The following information is displayed for an event:
 
@@ -15,4 +15,4 @@ The following information is displayed for an event:
 
 To view the details of an event, click the arrow next to it to expand it.
 
-![Audit Event Details](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/auditeventdetails.png)
+![Audit Event Details](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/auditeventdetails.png)

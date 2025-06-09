@@ -4,7 +4,7 @@ The Time Frames page is used to configure message delivery time frames for which
 
 - Delivery Time Custom.
 
-![Exchange Metrics Data Collector Wizard Time Frames page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/timeframes.png)
+![Exchange Metrics Data Collector Wizard Time Frames page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/timeframes.png)
 
 Configure the desired time frames using the following options:
 

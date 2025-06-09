@@ -4,15 +4,15 @@ Examine the Active Directory state-in-time data on the user account attributes:
 
 - [User Accounts - Attributes](#User-Accounts-Attributes)
 
-To instruct Netwrix Auditor to collect data needed for the report, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+To instruct Netwrix Auditor to collect data needed for the report, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
 
 ## User Accounts - Attributes
 
 This report shows specific AD attributes for the accounts that meet the specified filtering criteria. Use this report to discover user accounts with settings that violate company policies or applicable compliance standards.
 
-Supported object types and attributes are listed in the [Active Directory](/docs/product_docs/auditor/auditor/configuration/activedirectory/overview.md) topic.
+Supported object types and attributes are listed in the [Active Directory](/docs/auditor/auditor/configuration/activedirectory/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
 
 ### Tips to Work with Report
 

@@ -2,7 +2,7 @@
 
 The Replication tab on a domain’s Configuration window monitors domain controller syncing and replication.
 
-![Servers Tab in the Replication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
+![Servers Tab in the Replication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
 
 After checking the Enable Replication box, the following event filters can be modified on the sub-tabs:
 
@@ -18,7 +18,7 @@ Windows cannot detect if a sync request is coming from a legitimate domain contr
 
 The Hosts (From) option is where the policy can be scoped to only monitor specific hosts as originators of an authentication event or to exclude specific hosts from being monitored for authentication events.
 
-![Host (From) Tab in the Replication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
+![Host (From) Tab in the Replication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
 
 Underneath each section, there are additional Host details:
 
@@ -34,7 +34,7 @@ The Threat Manager DC Sync threat is sourced by the Activity Monitor's Replicati
 
 The Servers option targets servers to be included or excluded when filtering for replication.
 
-![Servers Tab in the Replication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
+![Servers Tab in the Replication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
 
 In both cases, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain name and SERVER is NetBIOS server name.
 
@@ -44,7 +44,7 @@ Double-click the text box beneath Name to enter the desired servers to include o
 
 The Users option is where the policy can be scoped to only monitor specific security principals committing changes within Active Directory or to exclude specific users committing changes from being monitored
 
-![Users Tab in the Replication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
+![Users Tab in the Replication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
 
 The following details appear beneath both sections:
 

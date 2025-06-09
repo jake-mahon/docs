@@ -2,7 +2,7 @@
 
 There are two ways to change the credentials that agents use to authenticate with the Hub. If it is suspected that agents have been compromised, it is recommended to take the out of band process described in this document.
 
-If authentication details are being rotated as part of a routine process, then the in band alternative is to set all agents to use new credentials from within the Hub's web console. See the [Agent Configuration](/docs/product_docs/changetracker/changetracker/admin/settings/agentconfiguration.md) topic for additional information.
+If authentication details are being rotated as part of a routine process, then the in band alternative is to set all agents to use new credentials from within the Hub's web console. See the [Agent Configuration](/docs/changetracker/changetracker/admin/settings/agentconfiguration.md) topic for additional information.
 
 The scripts at the bottom of this page can be used to update authentication details on devices. These scripts can be rolled out to all devices with an IT automation system. These scripts stop the agent, set the new authentication details in the agent's configuration file, and then restart the agent, which on start-up will encrypt the password. An encrypted password with have E1 tags in the configuration file.
 
@@ -14,7 +14,7 @@ During installation of the Hub, an account named __Agent__ is created with just 
 
 The existing agent account can be seen in the Users section of the Hub.
 
-![agentaccountmanagement](/static/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.png)
+![agentaccountmanagement](/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.png)
 
 __CAUTION:__ Changing the password of an account used by agents to authenticate will cause the agents to go offline as they will be attempting to authenticate with the old password.
 
@@ -24,7 +24,7 @@ Follow the steps to create the new agent account.
 
 __Step 1 –__ Click __Create New User__, give it a user name and just the Agent role.
 
-![newpassword](/static/img/product_docs/changetracker/changetracker/admin/settings/newpassword.png)
+![newpassword](/img/product_docs/changetracker/changetracker/admin/settings/newpassword.png)
 
 __Step 2 –__ Click __Update__, and the User Password dialog opens with a complex password. This is only shown once. It is recommended that this be saved in a password management system for future use.
 
@@ -36,7 +36,7 @@ The two variables, ```$newUsername``` and ```$newPassword```, near the top of th
 
 Running the script will set the new authentication details and restart the agent while producing the output below.
 
-![newagentscript_1049x168](/static/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.png)
+![newagentscript_1049x168](/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.png)
 
 ChangePasswordOOB.ps1
 
@@ -92,7 +92,7 @@ The two variables ```newUsername``` and ```newPassword``` near the top of the sc
 
 Running the script will set the password and restart the agent while producing the output below.
 
-![agentpasswordscript_1028x217](/static/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.png)
+![agentpasswordscript_1028x217](/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.png)
 
 UpdatePasswordOOB.sh
 

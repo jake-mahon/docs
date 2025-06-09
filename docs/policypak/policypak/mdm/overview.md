@@ -14,7 +14,7 @@ If you're reading this section, you're likely interested in using Netwrix Endpoi
 
 Therefore, you can deliver your settings to any machine with all the Endpoint Policy Manager components (Endpoint Policy Manager Least Privilege Manager, Endpoint Policy Manager Application Settings Manager, Endpoint Policy Manager Browser Router, Endpoint Policy Manager File Associations Manager, Endpoint Policy Manager Preferences Manager, Endpoint Policy Manager Security Settings Manager, and all the others) without using Group Policy as the delivery mechanism.
 
-__NOTE:__  For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager components, please see the following video: [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/product_docs/policypak/policypak/video/methods/exporterutility.md).
+__NOTE:__  For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager components, please see the following video: [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/methods/exporterutility.md).
 
 __CAUTION:__  Note that non-domain-joined machines are not supported with Endpoint Policy Manager products, unless you are using the MDM method. That is, the machine must have been previously domain-joined and be in an organizational unit (OU) that is licensed (or will be licensed from a licensing file). To deliver settings to non-domain-joined machines, you must use Endpoint Policy Manager Cloud.
 

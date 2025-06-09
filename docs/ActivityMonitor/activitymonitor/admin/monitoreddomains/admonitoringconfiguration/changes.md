@@ -2,7 +2,7 @@
 
 The Changes tab for AD Monitoring Configuration window provides additional options to monitor changes made to the domain.
 
-![Operations Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationtab.png)
+![Operations Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationtab.png)
 
 After checking the Enable AD Changes box, the following event filters can be modified on the sub-tabs:
 
@@ -20,7 +20,7 @@ After checking the Enable AD Changes box, the following event filters can be mod
 
 The Attributes Tab is where monitoring can be scoped to include events with specific attributes within Active Directory. Further scoping of attributes can enable monitoring to only capture events based on the new value.
 
-![Attributes Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/attributestab.png)
+![Attributes Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/attributestab.png)
 
 Double-click the text box beneath Name to enter the desired attribute to include or exclude. Double-click the text box beneath Value to enter the desired attribute value to reference. Choose the Operation to relate the Name and Value with. Press the __Enter__ or __Tab__ key to add another textbox.
 
@@ -42,7 +42,7 @@ Scoping the filter captures events when the new value matches with the supplied 
 
 The Classes Tab is where the policy can be scoped to only monitor specific classes within Active Directory or to exclude specific classes from being monitored.
 
-![Classes Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/classestab.png)
+![Classes Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/classestab.png)
 
 Double-click the text box beneath Name to enter the desired classes to include or exclude. Press the __Enter__ or __Tab__ key to add another text box.
 
@@ -52,7 +52,7 @@ __NOTE:__ Class must be specified in the form of ```objectClass``` attribute syn
 
 The Context Tab is where the policy can be scoped to only monitor specific contexts (e.g. Containers and Organizational Units) within Active Directory or to exclude specific contexts from being monitored.
 
-![Context Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/contexttab.png)
+![Context Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/contexttab.png)
 
 Underneath each section, there are additional Context details:
 
@@ -65,7 +65,7 @@ Double-click the text box beneath Distinguished Name to enter the desired contex
 
 The Hosts (from) Tab is where the policy can be scoped to only monitor specific hosts as originators of an authentication event or to exclude specific hosts from being monitored for authentication events.
 
-![Host (From) Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
+![Host (From) Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
 
 Underneath each section, there are additional Host details.
 
@@ -79,7 +79,7 @@ Double-click the text boxes within the column, then enter all three methods of i
 
 The IP Addresses (from) Tab is where the policy can be scoped to only monitor specific IP Addresses as originators of an authentication event or to exclude specific IP Addresses from being monitored for authentication events.
 
-![IP Addresses (From) Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.png)
+![IP Addresses (From) Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.png)
 
 Underneath each section, there is an additional Address detail.
 
@@ -91,7 +91,7 @@ Double-click the text box beneath __Value__ to enter the desired IP addresses to
 
 The Objects Tab is where the policy can be scoped to only monitor specific objects within Active Directory or to exclude specific objects from being monitored.
 
-![Objects Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/objectstab.png)
+![Objects Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/objectstab.png)
 
 Underneath each section, there is an additional Object detail.
 
@@ -103,7 +103,7 @@ Double-click the text box beneath Distinguished Name to enter the desired object
 
 The Operations Tab provides additional configuration filters for AD event collection.
 
-![Operations Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationtab.png)
+![Operations Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationtab.png)
 
 Monitor These Attempts – Filter for successful events, failed events, or both can be selected.
 
@@ -121,7 +121,7 @@ Operations – Filter for Active Directory events to be monitored.
 
 The Servers Tab targets servers to be included or excluded when filtering for changes.
 
-![Servers Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
+![Servers Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain name and SERVER is NetBIOS server name.
 
@@ -131,7 +131,7 @@ Double-click the text box beneath Name to enter the desired servers to include o
 
 The Users Tab is where the policy can be scoped to only monitor specific security principals committing changes within Active Directory or to exclude specific users committing changes from being monitored.
 
-![Users Tab in the Changes Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
+![Users Tab in the Changes Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
 
 The following details appear beneath both sections.
 

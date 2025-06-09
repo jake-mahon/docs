@@ -2,14 +2,14 @@
 
 With Directory Manager, you can:
 
-- Automate user provisioning and deprovisioning in bulk. See the [Synchronize](/docs/product_docs/groupid/groupid/portal/synchronize/overview.md) section.
-- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/organization.md#Dotted-line-management) section of the [Object properties - Organization tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) topic.
+- Automate user provisioning and deprovisioning in bulk. See the [Synchronize](/docs/groupid/groupid/portal/synchronize/overview.md) section.
+- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md#Dotted-line-management) section of the [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) topic.
 - Delegate user management to end users by enabling them to:
 
-  - Create and manage users, contacts, and mailboxes in the directory. See the [ Create User Objects](/docs/product_docs/groupid/groupid/portal/user/create/overview.md) topic.
-  - Manage their direct reports. See the [Update your Direct Reports](/docs/product_docs/groupid/groupid/portal/user/manage/directreport.md) topic.
-  - Update their profiles in the directory. See the [Validate your profile](/docs/product_docs/groupid/groupid/portal/user/manage/validateprofile.md) topic.
-- Link identical users in different directory services, such as Active Directory and Microsoft Entra ID. See the [Linked Accounts](/docs/product_docs/groupid/groupid/portal/user/linkedaccounts.md) topic.
+  - Create and manage users, contacts, and mailboxes in the directory. See the [ Create User Objects](/docs/groupid/groupid/portal/user/create/overview.md) topic.
+  - Manage their direct reports. See the [Update your Direct Reports](/docs/groupid/groupid/portal/user/manage/directreport.md) topic.
+  - Update their profiles in the directory. See the [Validate your profile](/docs/groupid/groupid/portal/user/manage/validateprofile.md) topic.
+- Link identical users in different directory services, such as Active Directory and Microsoft Entra ID. See the [Linked Accounts](/docs/groupid/groupid/portal/user/linkedaccounts.md) topic.
 
 The table below displays the major functions that users can perform in Directory Manager portal.
 

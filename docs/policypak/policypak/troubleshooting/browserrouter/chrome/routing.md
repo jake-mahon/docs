@@ -19,7 +19,7 @@ There are a few scenarios where you could notice that routing from Chrome or Edg
 3. If you bring up a brand new machine and then users log on, then the older Endpoint Policy Manager Browser Router CSE will not be able to re-download the old Chrome Extension.
 
 How would I know if I'm affected by Endpoint Policy Manager being forced to take down some older Endpoint Policy Manager Browser Router Chrome Extensions?
-We have the list of extensions which ARE and WERE valid on this list [What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)
+We have the list of extensions which ARE and WERE valid on this list [What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)
 
 What should you do now?
 

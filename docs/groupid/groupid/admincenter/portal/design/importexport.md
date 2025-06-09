@@ -69,4 +69,4 @@ What do you want to do?
 
 See Also
 
-- [Design a Portal with Display Types](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)

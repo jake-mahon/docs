@@ -2,7 +2,7 @@
 
 The Sync Errors tab displays the synchronization error log for the selected resource.
 
-![Sync Errors Tab for Domain Recource](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.png)
+![Sync Errors Tab for Domain Recource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.png)
 
 The table has the following columns:
 

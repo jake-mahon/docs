@@ -40,10 +40,10 @@ The working directory structure should now resemble the following:
 
 - ```Usercube-Server.exe```: the Identity Manager Server executable, which also contains an Agent.
 - ```Usercube-Agent.exe```: the separate Identity Manager Agent executable, that will be used only if you choose to install a separate agent.
-- ```appsettings.*.json```: [Network Configuration](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/index.md).
+- ```appsettings.*.json```: [Network Configuration](/docs/usercube/usercube/integration-guide/network-configuration/index.md).
 
 ## What's Next?
 
 Next section shows how to install the Identity Manager Database. See the [
 Install the Database
-](/docs/product_docs/usercube/usercube/installation-guide/production-ready/database/index.md)topic for additional information.
+](/docs/usercube/usercube/installation-guide/production-ready/database/index.md)topic for additional information.

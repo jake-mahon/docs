@@ -10,8 +10,8 @@ __NOTE:__ Agent-based scans can only target on-premise environments.
 
 See the following topics for additional information:
 
-- [SharePoint Agent Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
-- [SharePoint Agent Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentports.md)
+- [SharePoint Agent Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
+- [SharePoint Agent Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentports.md)
 
 ## Agent-Less Type
 
@@ -25,9 +25,9 @@ See the following topics for additional information:
 
 - SharePoint Online
 
-  - [SharePoint Online Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlinepermissions.md)
-  - [SharePoint Online Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlineports.md)
+  - [SharePoint Online Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlinepermissions.md)
+  - [SharePoint Online Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlineports.md)
 - SharePoint On-Premise
 
-  - [SharePoint Agent-Less Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlesspermissions.md)
-  - [SharePoint Agent-Less Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlessports.md)
+  - [SharePoint Agent-Less Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlesspermissions.md)
+  - [SharePoint Agent-Less Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlessports.md)

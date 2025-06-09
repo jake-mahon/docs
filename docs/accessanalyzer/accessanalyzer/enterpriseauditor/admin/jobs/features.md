@@ -16,23 +16,23 @@ Reports that have been generated but not published can be sent to the Web Consol
 
 Job Configuration Change Tracking
 
-Jobs configuration changes can be tracked using the __Changes__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/overview.md#Changes-Window) topic for additional information.
+Jobs configuration changes can be tracked using the __Changes__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/overview.md#Changes-Window) topic for additional information.
 
 Job Export
 
 Jobs can be exported to a ZIP file using the __Export__ option in the right-click menu from the selected job group or job node. See the [Export Job to Zip Archive Window](#Export-Job-to-Zip-Archive-Window) topic for additional information.
 
-See the [Jobs Tree Right-click Menus](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/pane.md#Jobs-Tree-Right-click-Menus) section for additional features.
+See the [Jobs Tree Right-click Menus](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/pane.md#Jobs-Tree-Right-click-Menus) section for additional features.
 
 ## Export Job to Zip Archive Window
 
 The Export Job to Zip Archive window opens from the __Export__ option in the right-click menu from the selected job group or job node.
 
-![Export from Jobs Tree menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
+![Export from Jobs Tree menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
 
 Select __Export__ from the right-click menu to open the Export Group to Zip Archive window.
 
-![Export Group to Zip Archive window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/exportgrouptoziparchive.png)
+![Export Group to Zip Archive window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/exportgrouptoziparchive.png)
 
 The __Include all job components__ option will zip the job’s directory, the reports, the job log, and the SA\_Debug log. The __Select specific components to export__ option allows Access Analyzer users to select which components to include in the ZIP file.
 
@@ -43,7 +43,7 @@ There are two options for where to save the ZIP file:
 
 The __Email this archive__checkbox provides the opportunity to send an email notification with the attached ZIP file.
 
-![Support Email window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/supportemail.png)
+![Support Email window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/supportemail.png)
 
 When the archive has been created, the Access Analyzer Support Email window opens. By default, the recipient is set to [Netwrix Support](https://www.netwrix.com/support.html) but it can be modified prior to sending. Additional recipients can be added, and the Subject and email body can be modified.
 
@@ -57,17 +57,17 @@ Follow the steps to publish the reports.
 
 __Step 1 –__ Right-click on a job group or job and select __Publish__ from the drop-down list.
 
-![Publish Reports wizard Action Type page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/publishreportsactiontype.png)
+![Publish Reports wizard Action Type page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/publishreportsactiontype.png)
 
 __Step 2 –__ On the Action Type page, select the type of action to be performed on the reports and click __Next__:
 
 - Publish Reports
 - Delete Reports
 
-![Publish Reports wizard Report Tree page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/publishreportsreporttree.png)
+![Publish Reports wizard Report Tree page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/publishreportsreporttree.png)
 
 __Step 3 –__ On the Report Tree page, select the reports to be published or removed (depending on the Action Type selected in the previous step). Click __Next__ to proceed with the action.
 
 __Step 4 –__ The Progress page shows you the status of the action. When it has completed, click __Finish__ to exit the wizard.
 
-Published reports can be viewed under the __[Job]__ > __Results__ node or through the Web Console. See the [Reporting](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/overview.md) topic for additional information.
+Published reports can be viewed under the __[Job]__ > __Results__ node or through the Web Console. See the [Reporting](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/overview.md) topic for additional information.

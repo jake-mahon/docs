@@ -24,4 +24,4 @@ Use this property if your proxy server requires a user name and password for con
 
 __See Also__
 
-- [Implement and Deploy a Custom SMS Gateway](/docs/product_docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)

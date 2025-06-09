@@ -8,14 +8,14 @@ December 22, 2023
 
 __New:__ __Strongpoint Integration API__
 
-Strongpoint is excited to release an [Integration API](/docs/product_docs/strongpointfornetsuite/api/api_overview.md) to enable your developers to support your ticketing systems! Customers enthusiastically embraced our Strongpoint pre-built integrations for Jira, ServiceNow and Zendesk. The API makes this integration functionality available to everyone. Integrating your systems with your Strongpoint account helps you make the most of your change management and ticketing strategies.
+Strongpoint is excited to release an [Integration API](/docs/strongpointfornetsuite/api/api_overview.md) to enable your developers to support your ticketing systems! Customers enthusiastically embraced our Strongpoint pre-built integrations for Jira, ServiceNow and Zendesk. The API makes this integration functionality available to everyone. Integrating your systems with your Strongpoint account helps you make the most of your change management and ticketing strategies.
 
 Here are the API highlights:
 
 - __Customizations__ can be retrieved from your NetSuite account and can be added and removed from your Change Requests.
 - __Change Requests__ can be created, updated, retrieved and deleted.
 - __ERD__ and __Impact Analysis__ tools are available.
-- API commands are documented in the [Integration API](/docs/product_docs/strongpointfornetsuite/api/api_overview.md) section of this guide.
+- API commands are documented in the [Integration API](/docs/strongpointfornetsuite/api/api_overview.md) section of this guide.
 - API commands are available in [Postman](http://postman.com/), where you can try them out and test them. There are Postman links in this guide.
 
 __New: Strongpoint Reset Schedule Deployments Suitelet for Sandbox Refresh__
@@ -26,15 +26,15 @@ NetSuite has removed the scheduled status on scripts after a sandbox is refreshe
 2. Open __Customization__ > __Scripting__ > __Scripts__.
 3. Set the Filter __Type__ to __Suitelet__ and the __Bundle ID__ to __294336__.
 
-   ![Find the Suitelet](/static/img/product_docs/strongpointfornetsuite/release_notes/scripts.png)
+   ![Find the Suitelet](/img/product_docs/strongpointfornetsuite/release_notes/scripts.png)
 4. Click __View__ by the __Strongpoint Reset Schedule Deployments__ suitelet.
 5. Open the __Deployments__ tab.
 
-   ![Open the Deployment tab](/static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.png)
+   ![Open the Deployment tab](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.png)
 6. Click the Suitelet name: __Strongpoint Reset Schedule Deployments__.
 7. Click on the Script __URL__.
 
-   ![Click the Script URL](/static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.png)
+   ![Click the Script URL](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.png)
 
 ## SoD 1.6.3
 
@@ -50,4 +50,4 @@ The Strongpoint Searches have been updated to support NetSuite's change of __For
 If you have custom searches, you must update them to support the NetSuite change. To view the list of saved searches in your account that contain code in __Formula(Text)__ fields, open:   
 __Lists__ > __Search__ > __Saved Searches with HTML in Formula(Text)__
 
-![Run the Saved Search to view changes](/static/img/product_docs/strongpointfornetsuite/release_notes/formulahtml.png)
+![Run the Saved Search to view changes](/img/product_docs/strongpointfornetsuite/release_notes/formulahtml.png)

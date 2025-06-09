@@ -11,9 +11,9 @@ Enter the following details about the linked combo on the __Details__ page of th
      The list displays all the data source files previously used to create linked combos for this portal. To export a file, select it and click __Export__. The file is saved to the download location set in your browser settings.
    - To upload a new file, click __Browse__ next to the __File Name__ box and select the XML or Microsoft Excel file containing the data to populate the linked combo and the display types linked to it.
 
-   If the source file is a Microsoft Excel (.xls or .xlsx) file, Directory Manager automatically creates its XML version to process it. To learn about the Excel file format, see the [Excel Data File Format](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/fileformat.md) topic.
+   If the source file is a Microsoft Excel (.xls or .xlsx) file, Directory Manager automatically creates its XML version to process it. To learn about the Excel file format, see the [Excel Data File Format](/docs/groupid/groupid/admincenter/portal/linkedcombo/fileformat.md) topic.
 3. Click __Next__.
 
 See Also
 
-- [Linked Combo Display Type](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Linked Combo Display Type](/docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)

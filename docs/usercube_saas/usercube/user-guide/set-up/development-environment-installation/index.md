@@ -3,7 +3,7 @@
 How to connect to Identity Manager's SaaS environment to set up the development environment.
 
 When using Identity Manager's on-premise option, follow the procedure of installation of the bootstrap version. See the [
-Quick Start Guide](/docs/product_docs/usercube_saas/usercube/installation-guide/quick-start/index.md) topic or additional information.
+Quick Start Guide](/docs/usercube_saas/usercube/installation-guide/quick-start/index.md) topic or additional information.
 
 ## Overview
 
@@ -31,4 +31,4 @@ In order to verify the process, try to authenticate to Identity Manager server,
 
 Once the development environment is ready, integrators can start to [
 Create the Workforce Repository
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md).

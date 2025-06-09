@@ -4,6 +4,6 @@ Identity Manager is able to send notification emails when a job ends with an err
 
 See the [
 Native Notifications
-](/docs/product_docs/usercube/usercube/integration-guide/notifications/native/index.md) and [
+](/docs/usercube/usercube/integration-guide/notifications/native/index.md) and [
 Profiles & Permissions
-](/docs/product_docs/usercube/usercube/integration-guide/profiles-permissions/index.md) topics for additional information.
+](/docs/usercube/usercube/integration-guide/profiles-permissions/index.md) topics for additional information.

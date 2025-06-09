@@ -8,6 +8,6 @@ There is also a SharePoint Online integration which you can use for report subsc
 
 See the following topics for additional information:
 
-- [ConnectWise](/docs/product_docs/1secure/1secure/integration/connectwise.md)
-- [ServiceNow](/docs/product_docs/1secure/1secure/integration/servicenow.md)
-- [SharePoint Online](/docs/product_docs/1secure/1secure/integration/sharepointonline.md)
+- [ConnectWise](/docs/1secure/1secure/integration/connectwise.md)
+- [ServiceNow](/docs/1secure/1secure/integration/servicenow.md)
+- [SharePoint Online](/docs/1secure/1secure/integration/sharepointonline.md)

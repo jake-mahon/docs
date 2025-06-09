@@ -5,25 +5,25 @@ The feature is helpful for Managed Service Providers with clients in multiple of
 
 | Icon | Description |
 | --- | --- |
-| ![alerts_editicon](/static/img/product_docs/1secure/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the site details. |
-| [![addicon](/static/img/product_docs/1secure/1secure/admin/organizations/addicon.png)](/docs/product_docs/1secure/resources/images/1secure/addicon.png) | Add Icon. Click the Add Icon to add a site. |
-| ![deletebutton](/static/img/product_docs/1secure/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin Icon to delete a site. |
+| ![alerts_editicon](/img/product_docs/1secure/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the site details. |
+| [![addicon](/img/product_docs/1secure/1secure/admin/organizations/addicon.png)](/docs/1secure/resources/images/1secure/addicon.png) | Add Icon. Click the Add Icon to add a site. |
+| ![deletebutton](/img/product_docs/1secure/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin Icon to delete a site. |
 
 ## Add a New Site
 
 Follow the steps to add a site to your organization.
 
-__Step 1 –__ Add your organization or add a source to the created organization. See the [Add Organizations](/docs/product_docs/1secure/1secure/admin/organizations/addorganizations.md) topic for additional information.
+__Step 1 –__ Add your organization or add a source to the created organization. See the [Add Organizations](/docs/1secure/1secure/admin/organizations/addorganizations.md) topic for additional information.
 
-__NOTE:__ You can add sites only for on-prem sources - Active Directory and Computer. These sources require an installation of the agent. See the [Add a Source and Connectors for Active Directory](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
+__NOTE:__ You can add sites only for on-prem sources - Active Directory and Computer. These sources require an installation of the agent. See the [Add a Source and Connectors for Active Directory](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
 
-![addsourcessite](/static/img/product_docs/1secure/1secure/admin/organizations/addsourcessite.png)
+![addsourcessite](/img/product_docs/1secure/1secure/admin/organizations/addsourcessite.png)
 
 __Step 2 –__ On the Configure source details window (Step 2 of 3) window, add a new site. In the "New site name" field, specify the name for your site. This could be a geographical location like 'Barcelona' or a cluster of servers from which a single agent collects data. Click __Next__.
 
 __NOTE:__ You can add multiple sites and then add it to your source. A managed organization can have multiple sites and each site can be associated with multiple sources.
 
-__Step 3 –__ Finish adding a source for your organization. See the [Add a Source and Connectors for Active Directory](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md) topic for additional information.
+__Step 3 –__ Finish adding a source for your organization. See the [Add a Source and Connectors for Active Directory](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md) topic for additional information.
 
 The site is now added.
 
@@ -33,9 +33,9 @@ __Step 1 –__ Add a source to the your organization.
 
 __Step 2 –__ Select your site from the drop-down list or click the __Add__ icon, if your want to add a new site. Click __Next__.
 
-![sitesdropdown](/static/img/product_docs/1secure/1secure/admin/organizations/sitesdropdown.png)
+![sitesdropdown](/img/product_docs/1secure/1secure/admin/organizations/sitesdropdown.png)
 
-__Step 3 –__ Finish adding the source. Screens will vary depending on the source added. See the [Add a Source and Connectors for Active Directory](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
+__Step 3 –__ Finish adding the source. Screens will vary depending on the source added. See the [Add a Source and Connectors for Active Directory](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
 
 ## View Sites and Agent Status
 
@@ -45,11 +45,11 @@ Follow the steps to view the site for the organization.
 
 __Step 1 –__ Navigate to Managed Organizations > "your organization" > Sites.
 
-![updateagents2](/static/img/product_docs/1secure/1secure/admin/updateagents2.png)
+![updateagents2](/img/product_docs/1secure/1secure/admin/updateagents2.png)
 
 __Step 2 –__ View the following details:
 
-- Agent status – Agent status in color. See the [Statuses ](/docs/product_docs/1secure/1secure/admin/statuses.md)topic for additional information
+- Agent status – Agent status in color. See the [Statuses ](/docs/1secure/1secure/admin/statuses.md)topic for additional information
 - Server name – Server from which the data is collected
 - Last Connected – Last connection time with your agent in UTC
 - Last Updated – Last time for the agent update in UTC

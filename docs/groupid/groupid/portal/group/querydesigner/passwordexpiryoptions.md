@@ -38,7 +38,7 @@ This email contains a URL that redirects users to a Password Center portal for c
 The __Send email after update__ options is enabled after the group is created.
 
 Warning emails are not sent to group members (users) whose passwords are set to 'never expire'. Such users are included in group membership when you select the __Include users whose password never expires__ check box or add such users
-to the __Include__ list on the [Query Designer - Include/Exclude tab](/docs/product_docs/groupid/groupid/portal/group/querydesigner/includeexclude.md).
+to the __Include__ list on the [Query Designer - Include/Exclude tab](/docs/groupid/groupid/portal/group/querydesigner/includeexclude.md).
 
 For warning emails to be sent, you must have an SMTP server configured for the identity store.
 

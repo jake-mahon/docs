@@ -2,7 +2,7 @@
 
 The Dictionaries page provides configuration settings for storing passwords to be used as a reference for the scan.
 
-![Password Security Data Collection Wizard Dictionary options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.png)
+![Password Security Data Collection Wizard Dictionary options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.png)
 
 The configurable dictionary options are:
 
@@ -64,7 +64,7 @@ __Step 4 –__ Run the following command:
 dotnet tool install --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_0](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_0.png)
+![hibp_installation_0](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_0.png)
 
 __Step 5 –__ Close the command prompt.
 
@@ -80,7 +80,7 @@ __Step 2 –__ Run the following command:
 dotnet tool update --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_1](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_1.png)
+![hibp_installation_1](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_1.png)
 
 ### Download NTML Hashes with the Pwnd Passwords Downloader
 
@@ -96,7 +96,7 @@ Run:
 haveibeenpwned-downloader.exe -n pwnedpasswords_ntlm
 ```
 
-![hibp_installation_3](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_3.png)
+![hibp_installation_3](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_3.png)
 
 This screenshot shows the completed download.
 

@@ -2,7 +2,7 @@
 
 The Account Dependencies window shows all of the dependent services and scheduled tasks for the selected service account.
 
-![Account Dependencies Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/accountdependencies.png)
+![Account Dependencies Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/accountdependencies.png)
 
 The window has the following details displayed at the top:
 
@@ -11,7 +11,7 @@ The window has the following details displayed at the top:
 - Platform — Displays the type of platform, which defines the resource
 - Last Changed — Date timestamp for the last time the password was changed
 - Age — Number of days since the last credential rotation or from when the password was first created
-- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
+- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
 
   - Unspecified — Verification check has not run
   - Verified — Confirmed the credentials match the value stored in Privilege Secure
@@ -43,7 +43,7 @@ The window has the following columns:
 - Name — Displays the short name of the service
 - Last Scan — Date timestamp for the last time the resource was scanned
 - Last Change — Date timestamp for the last time the password was changed
-- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
+- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
 
   - Unspecified — Verification check has not run
   - Verified — Confirmed the credentials match the value stored in Privilege Secure

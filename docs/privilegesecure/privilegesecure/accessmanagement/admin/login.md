@@ -24,11 +24,11 @@ __Step 1 –__ Open Privilege Secure in a browser window. The Login screen will
 
 __NOTE:__ Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator, DUO, Symantec VIP, etc) for all user accounts unless otherwise configured in the Initial Set Up Wizard. If required, first time users must register with an MFA to use with their login credentials.
 
-![Default Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.png)
+![Default Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.png)
 
 __Step 2 –__ Either click the default authentication connector button, or click __Log In with a Different Account__ to display all of the authentication connectors that are registered with Privilege Secure.
 
-![Alternate Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.png)
+![Alternate Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.png)
 
 __Step 3 –__ Login to the Privilege Secure Console with a configured authentication connector, or enter the user credentials.
 
@@ -36,12 +36,12 @@ __Step 4 –__ Click Login to proceed.
 
 __Step 5 –__ Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.png)
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.png)
 
 __Step 6 –__ Click MFA Login. The Privilege Secure Console opens on the Dashboard Interface.
 
-![Dashboard Interface](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
+![Dashboard Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
 
-__NOTE:__ After five incorrect login attempts, the user will be locked out of the account for five minutes. Additional incorrect login attempts will extend this time by five minutes for each failed login. See the [User, Group, & Application Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information on how to unlock an account.
+__NOTE:__ After five incorrect login attempts, the user will be locked out of the account for five minutes. Additional incorrect login attempts will extend this time by five minutes for each failed login. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information on how to unlock an account.
 
 The Privilege Secure Console is ready to use. Note that the option to view the recovery codes is no longer available after the initial login. From here, create Sessions and Access Policies, manage Users and Resources, and review usage data.

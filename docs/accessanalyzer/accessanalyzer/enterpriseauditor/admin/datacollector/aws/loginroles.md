@@ -6,9 +6,9 @@ The Login Roles page is where the previously created AWS Roles are added. It is 
 - Collect IAM data
 - Collect S3
 
-![AWS Query Login Roles](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/loginroles.png)
+![AWS Query Login Roles](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/loginroles.png)
 
-Add the login roles that will allow Access Analyzer to scan the AWS accounts. See the [Configure AWS for Scans](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/aws.md) topic for additional information. The page has the following options:
+Add the login roles that will allow Access Analyzer to scan the AWS accounts. See the [Configure AWS for Scans](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/aws.md) topic for additional information. The page has the following options:
 
 - Import From File – Browse to the location of a CSV file from which to import the roles
 - Role Name – Enter the name of the role

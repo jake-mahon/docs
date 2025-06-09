@@ -4,4 +4,4 @@ __NOTE:__ For script debugging and advanced scripting requirements, you may find
 
 The sample scripts provided in this section all include a Main Script and a Logon Script dialogue, however, for Production Agentless Tracker’s, the Logon script only is used within the Credentials key with the Main Script commands being configured with the relevant Configuration Template.
 
-![AgentlessScriptSamples.](/static/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptsamples.png)
+![AgentlessScriptSamples.](/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptsamples.png)

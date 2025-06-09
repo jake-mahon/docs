@@ -4,9 +4,9 @@ This connector exports users and permissions from Windows shared folders.
 
 This page is about [
 Shared Folders
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
 
-![Package: Storage/Shared Folders](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.png)
+![Package: Storage/Shared Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.png)
 
 ## Overview
 
@@ -19,7 +19,7 @@ Implementing this connector requires an account with the permissions:
 - to access all relevant folders and files and read their entitlements;
 - __Log on as a batch job__ in the local group policy, when the connector's authentication mode is batch.
 
-  ![SharedFolder - Permission for Batch Authentication](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.png)
+  ![SharedFolder - Permission for Batch Authentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.png)
 
 ## Export
 
@@ -29,7 +29,7 @@ This connector scans shared folders in order to export their content to CSV file
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -91,7 +91,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
+This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
 
 - ```<connectionIdentifier>_ACE.csv```, with the following columns:
   - __key__: concatenation of ```Right```, ```Path``` and ```OwnerSID```;
@@ -123,10 +123,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -141,7 +141,7 @@ Data protection can be ensured through:
 
 - A [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login``` and ```Password```.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login``` and ```Password```.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

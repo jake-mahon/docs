@@ -4,18 +4,18 @@ When creating a PATH rule in LPM you can use wildcards at almost any level for t
 
 For example, all of the PATHs below are valid:
 
-![667_1_image-20210312232539-1](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_1_image-20210312232539-1.png)
+![667_1_image-20210312232539-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_1_image-20210312232539-1.png)
 
 The same thing applies to using wildcards in Command-line arguments, all of the command-line argument examples below are valid.
 
 Syntax when you know the file name starts with a 2:
 
-![667_2_image-20210316100826-1_942x394](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_2_image-20210316100826-1_942x394.png)
+![667_2_image-20210316100826-1_942x394](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_2_image-20210316100826-1_942x394.png)
 
 Syntax to substitute the name of any folder directly after %LocalAppData% and the file name starts with a 2:
 
-![667_3_image-20210316101015-2_944x398](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_3_image-20210316101015-2_944x398.png)
+![667_3_image-20210316101015-2_944x398](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_3_image-20210316101015-2_944x398.png)
 
 Syntax to substitute the name of any folder after Microsoft and the file name starts with a 2:
 
-![667_4_image-20210316101118-3_940x391](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_4_image-20210316101118-3_940x391.png)
+![667_4_image-20210316101118-3_940x391](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/667_4_image-20210316101118-3_940x391.png)

@@ -22,7 +22,7 @@ Complete the following fields:
 | Allow anonymous access | This option is used to disable security filtering for selected sources. If unselected, the indexing processes will collect Windows Access Control Lists (ACLs) for the files and search results will be filtered based upon the end user's Windows identity. |
 | Enable duplicate detection | Select to exclude documents that contain the same text content from the index. |
 | Write classifications | Select if you wish to write classifications directly into the document properties (DOC/DOCX/XLS/XLSX/PPT/PPTX/PDF).  The configuration of which classifications are to be written, as well as the write format, is detailed in the Manage File System section. |
-| Text patterns | [See Text Processing for more information.](/docs/product_docs/dataclassification/ndc/configuration/texthandling.md) |
+| Text patterns | [See Text Processing for more information.](/docs/dataclassification/ndc/configuration/texthandling.md) |
 | Re-Index Period | Specifies how often the source should be checked for changes. Netwrix recommends using default values. |
 | Priority | Netwrix recommends using default values. |
 | Max Collector Retries | Specify how many retries are attempted before automatically removing items from the index when incremental collection indicates that the file has been deleted. |
@@ -33,6 +33,6 @@ Complete the following fields:
 
 Alternatively, individual files can be added by using the Files section:
 
-![addfile](/static/img/product_docs/dataclassification/ndc/admin/sources/filesystem/addfile.png)
+![addfile](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/addfile.png)
 
 When Upload Files is selected the file will be uploaded into the SQL database. This allows an application to present the file to users even if they do not have access to the original file location.

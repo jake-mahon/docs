@@ -7,7 +7,7 @@ When the SMTP server for an identity store is down and notifications in the queu
 
 The Email service is responsible for queuing and sending notifications. You can also manually send notifications as well as delete notifications. Both actions are tracked in Admin Center history.
 
-Directory Manager also features a Notification Editor that lists the notification templates for all notifications that Directory Manager generates on various events. See the [Customize Notifications](/docs/product_docs/groupid/groupid/admincenter/notification/customize.md) topic for details.
+Directory Manager also features a Notification Editor that lists the notification templates for all notifications that Directory Manager generates on various events. See the [Customize Notifications](/docs/groupid/groupid/admincenter/notification/customize.md) topic for details.
 
 What do you want to do?
 
@@ -49,7 +49,7 @@ In the __Categories__ list on the __Filter__ dialog box, select one of the follo
 - Click __Delete__ for a notification in the __Actions__ column to delete it.
 - Click __Refresh__ to refresh the notification queue.
 - Click __Notification Editor__ to launch the Notification Editor, where you can
-  view and modify notification templates. See the [Customize Notifications](/docs/product_docs/groupid/groupid/admincenter/notification/customize.md) topic for details.
+  view and modify notification templates. See the [Customize Notifications](/docs/groupid/groupid/admincenter/notification/customize.md) topic for details.
 
 ## Send a Notification Urgently
 
@@ -60,7 +60,7 @@ In the __Categories__ list on the __Filter__ dialog box, select one of the follo
    - Click __Send__ for a notification in the __Actions__ column to send it urgently.
    - To send multiple notifications, select the check boxes for those notifications. To select all notifications, select the check box in the header row. This displays the following icons:
 
-     ![send_refresh](/static/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
+     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
 
      Click the __Send__ icon to send the selected notifications urgently.
 
@@ -77,12 +77,12 @@ To delete a notification:
    - Click __Delete__ for a notification in the __Actions__ column to delete it.
    - To delete multiple notifications, select the check boxes for those notifications. To select all notifications, select the check box in the header row. This displays the following icons:
 
-     ![send_refresh](/static/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
+     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
 
      Click the __Delete__ icon to delete the selected notifications.
 
 __See Also__
 
-- [Notifications](/docs/product_docs/groupid/groupid/admincenter/notification/overview.md)
-- [Email Service](/docs/product_docs/groupid/groupid/admincenter/service/emailservice.md)
-- [Admin Center History](/docs/product_docs/groupid/groupid/admincenter/general/history.md)
+- [Notifications](/docs/groupid/groupid/admincenter/notification/overview.md)
+- [Email Service](/docs/groupid/groupid/admincenter/service/emailservice.md)
+- [Admin Center History](/docs/groupid/groupid/admincenter/general/history.md)

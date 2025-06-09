@@ -6,13 +6,13 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Entity Type Display Name
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
 - [
   Entity Type Display Table Adaptable
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytableadaptable/index.md): Creates an adaptable display table for a given entity type.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytableadaptable/index.md): Creates an adaptable display table for a given entity type.
 - [
   View Access Control Rules
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
 
 ## Examples
 

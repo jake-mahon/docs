@@ -5,7 +5,7 @@
 Before you execute the migration, you must ensure that the following preparations have been made:
 
 - Installation of the latest Netwrix Password Secure-Server, Native Client and Web Client
-- Check in the [Database properties](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/database_properties.md) if the __offline access__ and the __mobile synchronization__ are allowed  
+- Check in the [Database properties](/docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/database_properties.md) if the __offline access__ and the __mobile synchronization__ are allowed  
   If that should be the case, __contact your users and make sure that they have to synchronize the Offline Add-on and the mobile app__.
 
 __CAUTION:__ If the OfflineClient or App does have not yet synchronized items, they are lost after the migration mode is enabled!
@@ -14,9 +14,9 @@ __CAUTION:__ If the OfflineClient or App does have not yet synchronized items, t
 
 __CAUTION:__ Only certificate backups made through the Server Manager are valid!
 
-![Certificates](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.png)
+![Certificates](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.png)
 
-![Export certificates](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.png)
+![Export certificates](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.png)
 
 - Delete or restore all non “permanent deleted” users  
   If you have deactivated or non “permanent deleted“ users it would make sense to delete them permanently, otherwise the migration would never finalize. Keep in mind, that every E2EE User must log in, before you can complete the migration.
@@ -32,17 +32,17 @@ NOTE: During the migration, the database is in read-only mode. So it is possible
 
 Clicking on the icon __“Start migration”__ in the databases' module to start the migration process
 
-![start migration](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.png)
+![start migration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.png)
 
 Select the database you want to migrate and enter the code-word.
 
 Remember, The code word is “Start”. Please make sure that you have read the whole documentation. Otherwise, data loss might occur!
 
-![select database](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.png)
+![select database](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.png)
 
 You should see the message, that the selected databases are now in migration mode:
 
-![start migration](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.png)
+![start migration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.png)
 
 As written in the message, export all required certificates via the Netwrix Password Secure Server Manager. If you have multiple servers in use import the certificates via the Server Manager at the end of the migration process.
 
@@ -52,8 +52,8 @@ __CAUTION:__ If certificates are missing the migration cannot be continued.
 
 In the migration process you find all information about the current process, what is already migrated and what still needs to be migrated
 
-![migration progress](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.png)
+![migration progress](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.png)
 
 After each user has logged into the database and has been successfully migrated, the migration is complete.
 
-![migration finished](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.png)
+![migration finished](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.png)

@@ -10,7 +10,7 @@ Navigate to __Box__ > __2.Content__ > __Box\_FileMetrics__ > __Configure__ node 
 
 __CAUTION:__ Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FileMetrics Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/content/filemetricsanalysis.png)
+![Analysis Tasks for the Box_FileMetrics Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/content/filemetricsanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,4 @@ The default values for parameters that can be customized are:
 | --- | --- | --- | --- |
 | File Metrics Details | @STALE\_THRESHOLD | 30 | Consider content stale after 30 days |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
+See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.

@@ -4,7 +4,7 @@ The Favorites page in the Investigations interface lists all saved investigation
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Favorites__ in the navigation pane. This expands the menu to display a list of your favorite investigations. To get this list in the adjacent pane, hover your mouse over the Favorites option and click the icon that is displayed.
 
-![Investigation interface on the Favorites page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favorites.png)
+![Investigation interface on the Favorites page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favorites.png)
 
 The table displays the list of favorite investigations with the following columns:
 
@@ -17,7 +17,7 @@ Click an investigation to open it.
 
 There is an empty star icon beside the name of an investigation not identified as a favorite.
 
-![Empty star showing that investigation is not a favorite](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favoriteselectedtm.png)
+![Empty star showing that investigation is not a favorite](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favoriteselectedtm.png)
 
 Click the star to add the investigation to your Favorites list.
 
@@ -25,6 +25,6 @@ Click the star to add the investigation to your Favorites list.
 
 There is a yellow star icon beside the name of an investigation identified as a favorite.
 
-![Favorite investigation star icon selected](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favoriteselectedtm.png)
+![Favorite investigation star icon selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favoriteselectedtm.png)
 
 Click the yellow star to remove the investigation from your Favorites list.

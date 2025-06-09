@@ -4,8 +4,8 @@ The Events Database Configuration window manages the NVMonitorData database, als
 
 This window is only available to Threat Prevention administrators.
 
-![Events Database Configuration Window](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfig.png)
+![Events Database Configuration Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfig.png)
 
-The Event database is originally configured when installing the Threat Prevention Enterprise Manager package. See the [Application Server Install](/docs/product_docs/threatprevention/threatprevention/install/application.md) topic for additional information. This window displays the current connection settings for the Event database.
+The Event database is originally configured when installing the Threat Prevention Enterprise Manager package. See the [Application Server Install](/docs/threatprevention/threatprevention/install/application.md) topic for additional information. This window displays the current connection settings for the Event database.
 
-Credentials and/or SQL Server host information can be changed in the DB Connection Manager application. See the [DB Connection Manager Wizard](/docs/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.md) topic for additional information.
+Credentials and/or SQL Server host information can be changed in the DB Connection Manager application. See the [DB Connection Manager Wizard](/docs/threatprevention/threatprevention/install/dbconnectionmanager.md) topic for additional information.

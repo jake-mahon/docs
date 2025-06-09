@@ -8,9 +8,9 @@ The AD\_TimeSync Job uses the Registry Data Collector for the following query:
 
 __CAUTION:__ Do not modify this query. The query is preconfigured for this job.
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.png)
 
 The queries for this job are:
 
 - Check LSA registry keys – Targets all domain controllers check LSA registry keys
-  - See the [Registry Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/registry.md) topic for additional information.
+  - See the [Registry Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/registry.md) topic for additional information.

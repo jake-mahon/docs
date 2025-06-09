@@ -2,7 +2,7 @@
 
 The Members tab shows information about the members for the selected group.
 
-![Group Members Tab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/usergroupsmemberstab.png)
+![Group Members Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/usergroupsmemberstab.png)
 
 The Members tab has the following features:
 
@@ -12,7 +12,7 @@ The Members tab has the following features:
 The table has the following columns:
 
 - Type — Icon indicates the type of object
-- Name — Displays the name of the account. See the [User, Group, & Application Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
+- Name — Displays the name of the account. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 - User Principal Name — Displays the UPN value for the account
 - SID — Security identifier for the user or group
 - Email — Displays the associated email address, if available

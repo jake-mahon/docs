@@ -2,7 +2,7 @@
 
 The PF\_FolderOwnership job is comprised of data collection that focuses on collecting each public folder’s owner and identifying the Most Probable Owner. The Most Probable Owner is a unique algorithm built into the public folder data collector that is determined based on folder ownership, content posted, and size of content posted. Modifications can be made to the data collector to change the way the Most Probable Owner is determined.
 
-![Collection > PF_FolderOwnership Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_FolderOwnership Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
 The PF\_FolderOwnership job is located in the Collection job group.
 
@@ -10,7 +10,7 @@ The PF\_FolderOwnership job is located in the Collection job group.
 
 The PF\_FolderOwnership job uses the ExchangePublicFolder Data Collector.
 
-![Queries for the PF_FolderOwnership Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipquery.png)
+![Queries for the PF_FolderOwnership Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipquery.png)
 
 The following queries are included in the PF\_FolderOwnership job:
 
@@ -38,7 +38,7 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Public Folder Data Collector Wizard Scope page](/static/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
 
 __Step 4 –__ To modify the scope of the search, navigate to the Scope page. The scope is configured using the following settings:
 
@@ -54,9 +54,9 @@ __Step 4 –__ To modify the scope of the search, navigate to the Scope page. Th
 
   _Remember,_ the scoping options available vary based on the pre-defined query configurations.
 
-See the [ExchangePublicFolder: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md) topic for additional information.
+See the [ExchangePublicFolder: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md) topic for additional information.
 
-![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.png)
+![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.png)
 
 __Step 5 –__ To modify the probable owner calculation, navigate to the Probable Owner page. The calculation is configured with the following defaults:
 
@@ -64,7 +64,7 @@ __Step 5 –__ To modify the probable owner calculation, navigate to the Probabl
 - Result weights – Customized when Use Custom Weights is selected under Determine Owner
 - Output options – Configures the number of returned probable owners
 
-See the [ExchangePublicFolder: Probable Owner](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md) topic for additional information.
+See the [ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md) topic for additional information.
 
 __Step 6 –__ Navigate to the Summary page. Click __Finish__.
 
@@ -76,7 +76,7 @@ View the analysis task by navigating to the __Exchange__ > __5. Public Folders__
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the PF_FolderOwnership Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipanalysis.png)
+![Analysis Tasks for the PF_FolderOwnership Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipanalysis.png)
 
 The following analysis task is selected by default:
 

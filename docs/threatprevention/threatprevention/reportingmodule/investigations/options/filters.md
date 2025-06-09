@@ -4,13 +4,13 @@ The Filters section provides options to build a filter statement by selecting th
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then create a new investigation or click a folder in the navigation pane to access a saved investigation. An investigation is located in the folder where it was saved.
 
-![Filters section of an investigation](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filters.png)
+![Filters section of an investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filters.png)
 
 Click the arrow on the right side to expand or collapse the Filters section.
 
 The following options are available for configuring a filter statement:
 
-- Source – This menu provides a list of all integrations with the application. If there is only one data source configured, the Source menudisplays that only. See the [Netwrix Integrations Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md) topic for additional information.
+- Source – This menu provides a list of all integrations with the application. If there is only one data source configured, the Source menudisplays that only. See the [Netwrix Integrations Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md) topic for additional information.
 - Timeframe – This menu provides several timeframe options as well as a clock and a calendar for setting a custom range. You must set the timeframe for the data to be returned in the report. If your report is blank, it is likely due to the timeframe setting. See the [Timeframe](#Timeframe) topic for additional information.
 - Attribute – This menu provides a list of attributes that are available on events in the data source. See the [Filter Attribute Menu](#Filter-Attribute-Menu) topic for additional information.
 - Operator – This menu controls how the rule is evaluated by specifying the comparison between the Attribute and the Filter value. Options vary based on the selected attribute. See the [Filter Operator Menu](#Filter-Operator-Menu) topic for additional information.
@@ -24,7 +24,7 @@ See the [Build a Filter Statement](#Build-a-Filter-Statement) topic for addition
 
 You must set a timeframe for an investigation query. When you run a query, the application scans the available data for activity events that match the set filters for the specified timeframe. By default, the timeframe is set for the "Last Hour" of activity.
 
-![Investigations Interface showing the Timeframe drop-down menu](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.png)
+![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.png)
 
 Click the displayed timeframeto open a window, which provides several timeframe options as well as a clock and a calendar for setting a custom range:
 
@@ -66,7 +66,7 @@ The Timeframe window closes and the custom range is visible in the Filters secti
 
 The Attribute menu in the Filters sectionhas the following options grouped by the type of attribute:
 
-![Attribute drop-down menu in the Filters section](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.png)
+![Attribute drop-down menu in the Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.png)
 
 - Event (grayed-out category group header in the menu):
 
@@ -111,7 +111,7 @@ The Attribute menu in the Filters sectionhas the following options grouped by th
 
 The options available for the Operator menu in the Filters section change to match the selected Attribute. The following is a list of all possible operator options:
 
-![Operator Menu in the investigations Filters section](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.png)
+![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.png)
 
 - Equals
 - Not Equal To
@@ -126,7 +126,7 @@ You can create a filter for a new investigation or modify a filter for a saved i
 
 __Step 1 –__ Navigate to the desired investigation's Filters section.
 
-![filtersimple](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.png)
+![filtersimple](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.png)
 
 __Step 2 –__ If multiple data sources are configure, select a source from the __Source__ drop-down menu.
 
@@ -159,4 +159,4 @@ __NOTE:__ Click the X at the end of a row to remove it from the statement.
 
 Once the filter is set, you can generate the report ad hoc by clicking __Run Query__. The allows you to test if your filter statement is working as desired. Save the investigation for reuse. You can also add subscriptions or export the report data using the options above the Filters section.
 
-See the [Investigation Reports](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic for additional information.
+See the [Investigation Reports](/docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic for additional information.

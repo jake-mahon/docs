@@ -16,7 +16,7 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [NoSQL Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/overview.md)
+- [NoSQL Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/overview.md)
 
 ## Permissions
 

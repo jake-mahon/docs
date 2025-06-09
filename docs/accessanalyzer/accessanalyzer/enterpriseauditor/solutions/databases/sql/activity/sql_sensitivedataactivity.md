@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 2.Activity > SQL\_SensitiveDataActivity > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup34.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup34.png)
 
 The default analysis tasks are:
 

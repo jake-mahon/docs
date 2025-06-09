@@ -7,13 +7,13 @@ The Active Directory service account is configured during installation based on 
 - SQL Server authentication credentials — Active Directory service account is configured to use the Local System, or computer account, which typically has Read rights to the domain
 - Windows authentication credentials — The same domain credentials are also used for the Active Directory service account
 
-![Configuration interface showing the Active Directory page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
+![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
 
 There are two options for the type of Active Directory service account:
 
 - Use the account running this service — Local System, or computer account (NT AUTHORITY\SYSTEM)
 
-  - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access Information Center service. See the [Group Managed Service Account (gMSA) Configuration](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsa.md) topic for additional information.
+  - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access Information Center service. See the [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsa.md) topic for additional information.
 - Use the following Active Directory account – Uses a domain account with the required permissions to Active Directory. The supplied User Name [DOMAIN\USERNAME] and Password are used as the Active Directory service account.
 
 ## Multiple Domains
@@ -32,7 +32,7 @@ __NOTE:__ All domains enabled to access the Access Information Center must also 
 
 The Access Information Center can optionally be configured to commit Active Directory group membership changes via the change modeling feature, by resource owners via ad hoc changes, or as part of the Resource Reviews and Self-Service Access Requests workflows. This option require more permissions and setup. Once the prerequisites are in place, it can be enabled on this page.
 
-When checked, the __Allow this account to make changes to group membership__ option uses the Active Directory service account to commit group membership changes. See the [Commit Active Directory Changes](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for additional information on provisioning the Active Directory service account and best practices for group and resource management through the Access Information Center
+When checked, the __Allow this account to make changes to group membership__ option uses the Active Directory service account to commit group membership changes. See the [Commit Active Directory Changes](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for additional information on provisioning the Active Directory service account and best practices for group and resource management through the Access Information Center
 
 _Remember,_ click __Save__ when any changes are made to this page.
 
@@ -42,7 +42,7 @@ Follow the steps to update the Active Directory service account password. These 
 
 __Step 1 –__ On the Active Directory page, enter the new password in the correct field.
 
-![Saving configuration window](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.png)
+![Saving configuration window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.png)
 
 __Step 2 –__ Click __Save__. Then click __OK__ to confirm. After the settings are saved, a re-authentication is required to continue using the Access Information Center.
 

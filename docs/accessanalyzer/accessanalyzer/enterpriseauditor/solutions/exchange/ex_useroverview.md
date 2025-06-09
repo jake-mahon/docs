@@ -2,7 +2,7 @@
 
 The EX\_UserOverview job provides correlation from multiple data collection points to show information for each user about their mailbox size, mailbox access rights, mail flow metrics and remote connectivity to the Exchange environment. These reports provide user impact analysis on the environment.
 
-![EX_UserOverview Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailflowuseroverviewjobstree.png)
+![EX_UserOverview Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailflowuseroverviewjobstree.png)
 
 Dependencies
 
@@ -26,7 +26,7 @@ View the analysis task by navigating to the __Exchange__ > __EX\_UserOverview__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow_UserOverview Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailflowuseroverviewanalysis.png)
+![Analysis Tasks for the EX_Mailflow_UserOverview Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailflowuseroverviewanalysis.png)
 
 The following analysis tasks are selected by default:
 

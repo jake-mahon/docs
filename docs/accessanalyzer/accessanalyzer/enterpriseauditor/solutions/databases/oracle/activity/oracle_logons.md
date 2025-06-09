@@ -8,7 +8,7 @@ Navigate to the __Oracle__ > __2.Activity__ > __Oracle\_Logons__ > __Configure__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/oracle/activity/jobgroup27.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/oracle/activity/jobgroup27.png)
 
 The default analysis tasks are:
 

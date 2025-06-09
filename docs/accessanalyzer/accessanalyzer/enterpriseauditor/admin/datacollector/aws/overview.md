@@ -1,6 +1,6 @@
 # AWS Data Collector
 
-The AWS Data Collector collects IAM users, groups, roles, and policies, as well as S3 permissions, content, and sensitive data from the target Amazon Web Services (AWS) accounts. The AWS Data Collector has been preconfigured for the AWS Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [AWS Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/overview.md) topic for additional information.
+The AWS Data Collector collects IAM users, groups, roles, and policies, as well as S3 permissions, content, and sensitive data from the target Amazon Web Services (AWS) accounts. The AWS Data Collector has been preconfigured for the AWS Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [AWS Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/overview.md) topic for additional information.
 
 Protocols
 
@@ -38,10 +38,10 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 
 The AWS Data Collector is configured through the Amazon Web Services Data Collector Wizard. The wizard contains the following pages, which change based up on the query category selected:
 
-- [AWS: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/category.md)
-- [AWS: Login Roles](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/loginroles.md)
-- [AWS: Filter S3 Objects](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/filters3objects.md)
-- [AWS: Sensitive Data Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/sensitivedata.md)
-- [AWS: Criteria ](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/criteria.md)
-- [AWS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/results.md)
-- [AWS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/summary.md)
+- [AWS: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/category.md)
+- [AWS: Login Roles](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/loginroles.md)
+- [AWS: Filter S3 Objects](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/filters3objects.md)
+- [AWS: Sensitive Data Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/sensitivedata.md)
+- [AWS: Criteria ](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/criteria.md)
+- [AWS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/results.md)
+- [AWS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/summary.md)

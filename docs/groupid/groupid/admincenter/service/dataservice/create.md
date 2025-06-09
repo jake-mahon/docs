@@ -30,7 +30,7 @@ Step 5 – In the Application Name box, enter a unique name for the service or u
 Step 6 – In the Deployment Name box, enter a deployment name for the service.  
 The application name and deployment name are displayed on the service card. It is as:
 
-![Data Service Card](/static/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.png)
+![Data Service Card](/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.png)
 
 Step 7 – In the IIS Application Name box, enter an IIS deployment name for the service. The name should be unique for each Data service deployed in IIS.   
 The IIS application name is used to name the service’s directory in IIS and its physical directory under ```X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\``` on the Directory Manager server.  
@@ -64,7 +64,7 @@ When you create a Data service in remote IIS, Directory Manager does the followi
 The Data service runs within a virtual directory in remote IIS while the service files are physically located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](/docs/product_docs/groupid/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
 
 Follow the steps to create a Data service.
 
@@ -80,7 +80,7 @@ Step 5 – In the Application Name box, enter a unique name for the Data service
 
 Step 6 – In the Deployment Name box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
 
-Step 7 – To enter information for API URL, Access Token, Username, Password, IIS Application Name, and Website, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Data service.
+Step 7 – To enter information for API URL, Access Token, Username, Password, IIS Application Name, and Website, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Data service.
 
 Step 8 – For entering information in the Service Endpoints area, follow steps 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
 
@@ -92,7 +92,7 @@ The new Data service is displayed on the Data Service tab.
 Directory Manager enables you to deploy a Data service in Docker. For this, you need to connect with the API running on a Docker deamon in your environment, so that Directory Manager can create a container for the service there and run the service from within that container.
 
 For an overview on application deployment in Docker, see
-the [Prerequisites for Deployments in Docker](/docs/product_docs/groupid/groupid/admincenter/portal/dockerprerequisites.md) topic.
+the [Prerequisites for Deployments in Docker](/docs/groupid/groupid/admincenter/portal/dockerprerequisites.md) topic.
 
 NOTE: 
 To host the Data service, Docker daemon should be configured to run Windows containers.
@@ -111,7 +111,7 @@ Step 5 – In the Application Name box, enter a unique name for the Data service
 
 Step 6 – In the Deployment Name box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
 
-Step 7 – To enter information for Port, Service URL, and Container Name, refer to steps 7-9 in the [Create a Portal in Docker](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Data service.
+Step 7 – To enter information for Port, Service URL, and Container Name, refer to steps 7-9 in the [Create a Portal in Docker](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Data service.
 
 Step 8 – For entering information in the Service Endpoints area, follow step 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
 

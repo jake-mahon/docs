@@ -2,12 +2,12 @@
 
 Endpoint Policy Manager Start Screen Manager for Windows 10 settings can be exported as an XML file. You can export a single policy, a collection, or the whole node. For example, right-click ```Computer Configuration | PolicyPak | Start Screen Manager``` for Windows 10 or ```User Configuration | PolicyPak | Start Screen Manager``` for Windows 10, and pick the root node or collection you wish to export, as shown in Figure 22.
 
-![deploying_policypak_directives_22](/static/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_22.png)
+![deploying_policypak_directives_22](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_22.png)
 
 Figure 22. Exporting a whole collection using Endpoint Policy Manager Start Screen Manager.
 
 You can export a single Endpoint Policy Manager Start Screen Manager entry, as shown in Figure 23.
 
-![deploying_policypak_directives_23](/static/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_23.png)
+![deploying_policypak_directives_23](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_23.png)
 
 Figure 23. Exporting a single Endpoint Policy Manager Start Screen Manager entry.

@@ -21,8 +21,8 @@ The following example allows the user to connect to Identity Manager server at 
 | --progress-use-api   optional | __Type__    String   __Description__ Update progress with the API. |
 |  |  |
 | --- | --- |
-| --api-client-id   required | __Type__    String   __Description__ Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
-| --api-secret   required | __Type__    String   __Description__ Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id   required | __Type__    String   __Description__ Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
+| --api-secret   required | __Type__    String   __Description__ Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url   required | __Type__    String   __Description__ URL of Identity Manager server. |
 |  |  |
 | --- | --- |
@@ -30,4 +30,4 @@ The following example allows the user to connect to Identity Manager server at 
 
 You can explore created views in the Identity Manager database's Views folder in SQL Server Management Studio
 
-![SSMS Views](/static/img/product_docs/usercube/usercube/integration-guide/executables/references/create-databaseviews/usercube-create-databaseviews_ssms.png)
+![SSMS Views](/img/product_docs/usercube/usercube/integration-guide/executables/references/create-databaseviews/usercube-create-databaseviews_ssms.png)

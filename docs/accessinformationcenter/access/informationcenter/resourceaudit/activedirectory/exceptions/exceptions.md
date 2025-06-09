@@ -2,7 +2,7 @@
 
 The Exceptions report at the __Exceptions__ node provides a list of exceptions found on the domain. This report includes a Details table.
 
-![Exceptions report](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsexceptions.png)
+![Exceptions report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsexceptions.png)
 
 An exception is defined as a problem or risk to Active Directory security. Exceptions include deeply nested groups and stale membership. This report is comprised of the following columns:
 

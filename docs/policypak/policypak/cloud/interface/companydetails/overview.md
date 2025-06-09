@@ -2,9 +2,9 @@
 
 The __Company Details__ tab has several sections. Some sections involve settings related to the look and feel of things, but many others are security related.
 
-For an overview of the major Endpoint Policy Manager Cloud security features (2FA, admin roles, notifications, IP block restrictions, etc.) check out this video: [Endpoint Policy Manager Cloud: Security Features](/docs/product_docs/policypak/policypak/video/cloud/security/features.md).
+For an overview of the major Endpoint Policy Manager Cloud security features (2FA, admin roles, notifications, IP block restrictions, etc.) check out this video: [Endpoint Policy Manager Cloud: Security Features](/docs/policypak/policypak/video/cloud/security/features.md).
 
-![web_interface_and_controls_70_624x296](/static/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_70_624x296.png)
+![web_interface_and_controls_70_624x296](/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_70_624x296.png)
 
 In the sections that follow,we cover the following items:
 
@@ -26,11 +26,11 @@ Additionally, we'll explore the actions available to us in the __Company Details
 
 ## Company Details Section
 
-Video: For an overview of this section, see this video: [Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode](/docs/product_docs/policypak/policypak/video/cloud/registrationmode.md).
+Video: For an overview of this section, see this video: [Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode](/docs/policypak/policypak/video/cloud/registrationmode.md).
 
 The __Company Details__ section under the __Company Details__ tab allows you to change your company display name and time zone, which is used for reporting on log files. However, the most important setting in this section is the __Computer registration mode__, which has four options.
 
-![web_interface_and_controls_71_624x518](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.png)
+![web_interface_and_controls_71_624x518](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.png)
 
 This setting directs Endpoint Policy Manager Cloud on how to act when an endpoint computer is already joined to Endpoint Policy Manager Cloud and attempts to re-register or claim another license. This can occur when the client machine is wiped and reloaded with another operating system, or when the Endpoint Policy Manager Cloud client is unloaded and then re-loaded.
 

@@ -15,13 +15,13 @@ It is necessary to enter the directory in which the certificate will be saved he
 
 Finally, it is necessary to enter where the certificate key is located here.
 
-![apache-en](/static/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/apache-en.png)
+![apache-en](/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/apache-en.png)
 
 Once all of the settings have been entered, the Web Application can be created via the button in the ribbon. The folder in which the ZIP file is located will then open automatically. The archive is now unzipped and the contents copied to the document directory on the web server.
 
 The configuration for the Apache server has now also been created and can be viewed on the Server Manager.
 
-![apache-en-2](/static/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/apache-en-2.png)
+![apache-en-2](/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/apache-en-2.png)
 
 The configuration can be selected using CTRL+A and copied. It is then directly integrated onto the Apache server.
 

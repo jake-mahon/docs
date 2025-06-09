@@ -4,14 +4,14 @@ The User Investigation dashboard only appears when a search is conducted. This c
 
 The User Investigation dashboard contains the following cards:
 
-![User Investigation Dashboard](/static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/userinvestigation.png)
+![User Investigation Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/userinvestigation.png)
 
 - Total Actions – Number of all events associated with the user over the specified time interval
 - Source Hosts – Number of source IP addresses associated with the user over the specified time interval
 - Destination Hosts – Number of destination IP addresses associated with the user over the specified time interval
-- Activity – Timeline of all events associated with the user over the specified time interval. See the [Graph Card Features](/docs/product_docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
-- Latest Events – Tabular format of all events associated with the user over the specified time interval. See the [Table Card Features](/docs/product_docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
-- Offenses Related to User – QRadar offenses associated with the user during the specified time interval. See the [Table Card Features](/docs/product_docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
+- Activity – Timeline of all events associated with the user over the specified time interval. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
+- Latest Events – Tabular format of all events associated with the user over the specified time interval. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
+- Offenses Related to User – QRadar offenses associated with the user during the specified time interval. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is set by default to the past three (3) hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click __Search__ to refresh the card data.
 

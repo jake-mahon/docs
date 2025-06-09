@@ -2,7 +2,7 @@
 
 Use the Message Conditions page to apply filters to the message category part of the search.
 
-![Filter Wizard Message Conditions page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageconditions.png)
+![Filter Wizard Message Conditions page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageconditions.png)
 
 Customize message search filter conditions using the following options:
 
@@ -48,7 +48,7 @@ Customize message search filter conditions using the following options:
 
 Use the MessageClasses window to alter criteria related to message class. The Message Classes window opens if __specific__ is clicked in the Edit Conditions box on the Message Conditions page.
 
-![MessagesClasses window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassesmessage.png)
+![MessagesClasses window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassesmessage.png)
 
 Determine MessageClass-related criteria using the following options:
 
@@ -66,7 +66,7 @@ Determine MessageClass-related criteria using the following options:
 
 Use the Date Range Selection window to select a time period or range for the search. The Date Range Selection window opens if __in specific date__ is clicked in the Edit Conditions box on the Message Conditions page.
 
-![Date Range Selection window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionmessage.png)
+![Date Range Selection window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionmessage.png)
 
 Determine the time period or range of the search using the following options:
 
@@ -80,7 +80,7 @@ Determine the time period or range of the search using the following options:
 
 Use the Search Terms window to determine terms for the search. The Search Terms window opens if __search terms__ is selected in the Edit Conditions box.
 
-![Search Terms window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.png)
+![Search Terms window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.png)
 
 Determine terms for the search using the following options:
 

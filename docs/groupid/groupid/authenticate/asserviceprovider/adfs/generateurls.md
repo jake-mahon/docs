@@ -16,7 +16,7 @@ With multiple instances of Directory Manager, multiple Admin Centers and Managem
 Follow the steps to generate the consumer URL for a Directory Managerclient.
 
 Step 1 – In Authenticate, click the __Generate URL's__ tab. The Generate URL's page is displayed.   
-See the [Launch Authenticate](/docs/product_docs/groupid/groupid/authenticate/overview.md#Launch-Authenticate) section of the [Authenticate](/docs/product_docs/groupid/groupid/authenticate/overview.md) topic for additional information.
+See the [Launch Authenticate](/docs/groupid/groupid/authenticate/overview.md#Launch-Authenticate) section of the [Authenticate](/docs/groupid/groupid/authenticate/overview.md) topic for additional information.
 
 Step 2 – In the Select Client to Generate Consumer URL drop-down list, select a Directory Manager client to set up AD FS with it. Let’s suppose you select the Directory Manager portal named _Wizard_.
 
@@ -29,7 +29,7 @@ NOTE: On upgrade to Directory Manager 11, you must generate the consumer URL aga
 Follow the steps to generate Entity ID/Audience URL.
 
 Step 1 – In Authenticate, click the __SAML Providers__ tab. The SAML Providers page is displayed.  
-See the [Launch Authenticate](/docs/product_docs/groupid/groupid/authenticate/overview.md#Launch-Authenticate) section of the [Authenticate](/docs/product_docs/groupid/groupid/authenticate/overview.md) topic for additional information.
+See the [Launch Authenticate](/docs/groupid/groupid/authenticate/overview.md#Launch-Authenticate) section of the [Authenticate](/docs/groupid/groupid/authenticate/overview.md) topic for additional information.
 
 Step 2 – Click __New Provider__.
 

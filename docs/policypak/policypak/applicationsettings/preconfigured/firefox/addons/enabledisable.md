@@ -9,7 +9,7 @@ Firefox has four categories of add-ons, as shown in Figure 16.
 - Themes
 - Plugins
 
-![add_ons_1](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_1.png)
+![add_ons_1](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_1.png)
 
 Figure 16. The Add-ons Manager.
 
@@ -20,6 +20,6 @@ Endpoint Policy Manager can enable or disable add-ons in these categories. In th
 
 You can see the "Add-Ons" tab, and the "Enable or Disable" section within the Firefox AppSet as seen in Figure 17.
 
-![add_ons_2](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_2.png)
+![add_ons_2](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_2.png)
 
 Figure 17. The Add-Ons tab within Endpoint Policy Manager Application Settings Manager.

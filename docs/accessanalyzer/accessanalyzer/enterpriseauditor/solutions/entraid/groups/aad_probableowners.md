@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD\_ProbableOwners__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis tasks for AAD_ProbableOwners Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraid/groups/probableownersanalysis.png)
+![Analysis tasks for AAD_ProbableOwners Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraid/groups/probableownersanalysis.png)
 
 The default analysis tasks are:
 

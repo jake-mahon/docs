@@ -4,6 +4,6 @@ The classifications help to analyze the document, providing information about th
 
 To see the current classifications for a selected document click the Classification link:
 
-[![classifications_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/classifications_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/classifications.png)
+[![classifications_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/classifications_thumb_0_0.png)](/docs/dataclassification/resources/images/classifications.png)
 
 Classifications are clickable – clicking the link will select the relevant term in the taxonomy tree view.

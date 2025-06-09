@@ -11,11 +11,11 @@ __Step 2 –__ To expand the grid view, do either of the following:
 - Collapse the individual filter category sections
 - Use the arrow between the filter categories and the grid view to collapse the entire filter category section
 
-![Investigate interface - Data Grid](/static/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.png)
+![Investigate interface - Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.png)
 
 __Step 3 –__ Select the __Production__ or __Archive__ option button to view events from the respective database.
 
-The archive database is part of the Threat Prevention Database Maintenance feature and it can only be queried from the Administration Console. See the [Archive Data](/docs/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
+The archive database is part of the Threat Prevention Database Maintenance feature and it can only be queried from the Administration Console. See the [Archive Data](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
 
 __Step 4 –__ Use the __Get Top [number] Events__ box to specify the number of events to be displayed.
 
@@ -25,7 +25,7 @@ __Step 6 –__ Use the Refresh button to repopulate the data grid with the curre
 
 The Show All Columns link automatically adds any columns to the data grid that are currently hidden from view.
 
-Each column in the data grid has a prefix identifying the type of information displayed. Double-click a populated grid column to access the [Event Viewer Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventviewer.md) with detailed information on the event. The columns display the following information for each event:
+Each column in the data grid has a prefix identifying the type of information displayed. Double-click a populated grid column to access the [Event Viewer Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventviewer.md) with detailed information on the event. The columns display the following information for each event:
 
 - Event: Policy Name – Policy which monitored or blocked the event
 - Event: Time Logged – Timestamp for when the event was monitored/blocked. The specified time is the local time for the server where the Agent is deployed.Hover over the data in this column to view the local time (of the Enterprise Manager) and UTC time simultaneously.
@@ -72,7 +72,7 @@ Each column in the data grid has a prefix identifying the type of information di
 
 Select an event in the data grid to view additional information for it at the bottom of the Investigate interface.
 
-![Investigate Interface - Attributes area](/static/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.png)
+![Investigate Interface - Attributes area](/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.png)
 
 The following information (as applicable to the event) is displayed:
 
@@ -81,6 +81,6 @@ The following information (as applicable to the event) is displayed:
 - Old Value – Value prior to the monitored change
 - New Value – Value after the monitored change
 
-This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
+This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
 
-To export the data displayed in the grid to a CSV file, see the [Export Data](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic.
+To export the data displayed in the grid to a CSV file, see the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic.

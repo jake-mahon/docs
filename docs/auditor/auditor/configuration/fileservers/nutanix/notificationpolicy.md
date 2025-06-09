@@ -30,7 +30,7 @@ To create a notification policy for Nutanix File Server via API:
 
 If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI Explorer for Prism__ client will be opened.
 
-2. In the __username__ and __password__ fields, enter the credentials of the [Create User Account to Access Nutanix REST API](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/useraccount.md) you have created.
+2. In the __username__ and __password__ fields, enter the credentials of the [Create User Account to Access Nutanix REST API](/docs/auditor/auditor/configuration/fileservers/nutanix/useraccount.md) you have created.
 3. Click __Explore__.
 4. In the __File Server REST API Explorer__ REST API client, locate the POST request for ```notification_policies``` :
 
@@ -84,7 +84,7 @@ _"protocol\_type\_list" : ["SMB"]_ - instructs to track SMB shares (the only cur
 
 _<NAME\_OF\_NOTIFICATION\_POLICY>_ – enter the name of notification policy you want to create
 
-_<UUID\_OF\_PARTNER\_SERVER>_ - enter the ```uuid``` of [Configure Partner Server](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/partnerserver.md)
+_<UUID\_OF\_PARTNER\_SERVER>_ - enter the ```uuid``` of [Configure Partner Server](/docs/auditor/auditor/configuration/fileservers/nutanix/partnerserver.md)
 
 _<LIST\_OF\_FILE\_OPERATIONS>_ - enter the list of operations to be audited.
 

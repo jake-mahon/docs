@@ -2,7 +2,7 @@
 
 The Scope page is used to define which folders will be included will be searched by this query. It is a wizard page for all of the categories.
 
-![Exchange Public Folder Data Collector Wizard Scope page](/static/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
 
 In the Choose Type of Public Folders to be queried section, select either:
 
@@ -23,7 +23,7 @@ In the Choose Scope of Public Folders to be queried section, select one of the f
 
 When Scope to __Selected Public Folders__ is selected on the Scope page, the options to specify the desired folders are enabled.
 
-![Scope page with Selected Public Folders option selected](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedpublicfolders.png)
+![Scope page with Selected Public Folders option selected](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedpublicfolders.png)
 
 Configure the scope of the selected public folders to be queried:
 
@@ -38,7 +38,7 @@ The selected public folders are added in the table at the bottom. Click __Remove
 
 When Scope to __Selected Table__ is selected on the Scope page, the options to specify the desired tables are enabled.
 
-![Scope page with Selected Table option selected](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedtable.png)
+![Scope page with Selected Table option selected](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedtable.png)
 
 Configure the selected tables to be queried:
 

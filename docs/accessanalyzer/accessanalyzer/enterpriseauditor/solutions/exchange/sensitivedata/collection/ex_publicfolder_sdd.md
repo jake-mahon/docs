@@ -6,7 +6,7 @@ The EX\_PublicFolder\_SDD job locates sensitive data found in public folders in 
 
 The EX\_PublicFolder\_SDD job uses the EWSPublicFolder Data Collector.
 
-![Queries for the EX_PublicFolder_SDD Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfoldersddquery.png)
+![Queries for the EX_PublicFolder_SDD Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfoldersddquery.png)
 
 The following query is included in the EX\_PublicFolder\_SDD job:
 
@@ -34,28 +34,28 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The EWS 
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![EWS Public Folder Data Collector Wizard SDD Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.png)
+![EWS Public Folder Data Collector Wizard SDD Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.png)
 
-__Step 4 –__ To enable storage of discovered sensitive data, navigate to the SDD Options page. Sensitive data matches can be limited to reduce storage space. See the [EWSPublicFolder: SDD Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md) topic for additional information.
+__Step 4 –__ To enable storage of discovered sensitive data, navigate to the SDD Options page. Sensitive data matches can be limited to reduce storage space. See the [EWSPublicFolder: SDD Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md) topic for additional information.
 
 __NOTE:__ By default, discovered sensitive data strings are not stored in the Access Analyzer database.
 
-![EWS Public Folder Data Collector Wizard Criteria page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![EWS Public Folder Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
 
-__Step 5 –__ To modify criteria, navigate to the Criteria page. Add or remove criteria as desired. See the [EWSPublicFolder: Critieria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md) topic for additional information.
+__Step 5 –__ To modify criteria, navigate to the Criteria page. Add or remove criteria as desired. See the [EWSPublicFolder: Critieria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md) topic for additional information.
 
-- (Optional) To create custom criteria, see the [Sensitive Data Criteria Editor](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information
+- (Optional) To create custom criteria, see the [Sensitive Data Criteria Editor](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information
 
-![EWS Public Folder Data Collector Wizard Filter Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfolderfiltersettings.png)
+![EWS Public Folder Data Collector Wizard Filter Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfolderfiltersettings.png)
 
-__Step 6 –__ To filter the scan to specific mailbox folders, navigate to the Filter page. Include or exclude folders and attachments as desired. See the [EWSPublicFolder: Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md) topic for additional information.
+__Step 6 –__ To filter the scan to specific mailbox folders, navigate to the Filter page. Include or exclude folders and attachments as desired. See the [EWSPublicFolder: Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md) topic for additional information.
 
 - To modify the threshold for message size, set the __Limit message size to__ value as desired. The default is 2000 KB.
 - To modify the threshold for large attachment size, set the __Limit attachment size to__ value as desired. The default is 2000 KB.
 
-![EWS Public Folder Data Collector Wizard Results page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfolderresults.png)
+![EWS Public Folder Data Collector Wizard Results page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfolderresults.png)
 
-__Step 7 –__ To select which properties are gathered based on category, navigate to the Results page.  See the [EWSPublicFolder: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md) topic for additional information.
+__Step 7 –__ To select which properties are gathered based on category, navigate to the Results page.  See the [EWSPublicFolder: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md) topic for additional information.
 
 __NOTE:__ By default, all categories are selected under sensitive data.
 

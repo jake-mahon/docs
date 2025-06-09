@@ -6,7 +6,7 @@ The 1–AzureSQL\_PermissionScan Job is designed to collect Azure SQL instance a
 
 The 1–AzureSQL\_PermissionsScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/permissionjob.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/permissionjob.png)
 
 - PermissionScan — Collects permissions from the targeted instances
 
@@ -22,15 +22,15 @@ __Step 3 –__ Select the Data Source tab and click Configure. The SQL Data Coll
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![Filters](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.png)
+![Filters](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.png)
 
-__Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md#SQL-Data-Collector) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
+__Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md#SQL-Data-Collector) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
 
 - Select the desired database objects and click Add.
 - Use the Import CSV button to import a list from a CSV file, if desired.
 - Optionally, use the Add Custom Filter button to create and apply a custom filter.
 
-![Managed Connection Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/managedconnections.png)
+![Managed Connection Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/managedconnections.png)
 
 __Step 5 –__ To view all managed connections discovered during the 1-AzureSQL\_PermissionScan Job run, click Connections within the Filter page. This screen will list the following items retrieved during the job run:
 
@@ -49,7 +49,7 @@ Navigate to the Databases > 0.Collection > __AzureSQL__ > 1-AzureSQL\_Permission
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/jobanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/jobanalysis.png)
 
 The default analysis tasks are:
 

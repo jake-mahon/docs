@@ -9,10 +9,10 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
-  - Configure the domain for auditing. See the [Audit Configuration Assistant](/docs/product_docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for information on configuring the domain.
+  - Configure the domain for auditing. See the [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for information on configuring the domain.
   - On the Auditor console computer:
 
-    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/registrykey.md) topic.
+    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/docs/auditor/auditor/configuration/activedirectory/registrykey.md) topic.
 
-      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/docs/product_docs/auditor/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
+      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/docs/auditor/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
     - To provide for event data collection, the Secondary Logon service must be up and running . Open __Administrative Tools__ > __Services__, right-click the __Secondary Logon__ service and on the __General__ tab make sure that Startup type for this service is other than _Disabled_.

@@ -43,7 +43,7 @@ Event data collected by the policies with this event type are also available for
 
 Use the File System filter for lockdown to select the types of file system events to be locked down by the policy. It is also where the policy is scoped to only lockdown specific file system paths or to exclude specific file system paths from being locked down.
 
-![Policy window - File System filter for lockdown](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.png)
+![Policy window - File System filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.png)
 
 Access Operations area
 
@@ -76,15 +76,15 @@ Paths and Path Collections areas
 
 The Paths section defines the top level folder or individual files for lockdown. Use the buttons in the Paths and Path Collections areas to edit the lists.
 
-- The Path __Add__ (+) button opens the [Select File System Objects Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
-- The Collection button opens the [List of Collections Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The Path __Add__ (+) button opens the [Select File System Objects Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
+- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.png)
+![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.png)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the parent and all child content (files and folders). If unchecked, the filter is only applied to the listed folder and its first-level contents.
 
@@ -92,7 +92,7 @@ When paths are added, a Sub-Folder checkbox displays. If checked, the filter is 
 
 Use the Additional Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - Additional Agents filter](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.png)
+![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.png)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected Agents/Domains list on the right displays Agents and domains included in the policy.
 
@@ -110,24 +110,24 @@ When a domain is added to the Selected Agents\Domains list, all Agents deployed 
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
-__NOTE:__ For the [Password Enforcement Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
+__NOTE:__ For the [Password Enforcement Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
-- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
-- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## Rule Preview Filter
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

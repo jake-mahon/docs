@@ -18,7 +18,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target PostgreSQL Requirements, Permissions, and Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasepostgresql.md) topic for additional information.
+See the [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasepostgresql.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -40,10 +40,10 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer PosgreSQL Solution Set is a set of pre-configured audit jobs and reports that provides visibility into PostgreSQL Sensitive Data.
 
-![PostgreSQL Job Group](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/postgresqljobgroup.png)
+![PostgreSQL Job Group](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/postgresqljobgroup.png)
 
 The job groups in the PostgreSQL Solution are:
 
-- [0.Collection Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/overview.md) - Designed to collect high level summary information from targeted PostgreSQL Servers. This information is used by other jobs in the PostgreSQL Solution Set for further analysis and producing respective reports
-- [Configuration > PgSQL\_DatabaseSizing Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) - Designed to provide insight into details about the PostgreSQL environment and potential vulnerabilities related to instance configuration settings
-- [Sensitive Data Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/overview.md) - Designed to provide insight into where sensitive data exists and who has access to it across all the targeted PostgreSQL databases
+- [0.Collection Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/overview.md) - Designed to collect high level summary information from targeted PostgreSQL Servers. This information is used by other jobs in the PostgreSQL Solution Set for further analysis and producing respective reports
+- [Configuration > PgSQL\_DatabaseSizing Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) - Designed to provide insight into details about the PostgreSQL environment and potential vulnerabilities related to instance configuration settings
+- [Sensitive Data Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/overview.md) - Designed to provide insight into where sensitive data exists and who has access to it across all the targeted PostgreSQL databases

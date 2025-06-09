@@ -14,11 +14,11 @@ The Mailflow job group uses Remote PowerShell through the ExchangePS Data Collec
 - Local Host
 - Custom Host List for Exchange Online
 
-  - The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online. See the [Exchange Online Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md#Exchange-Online-Host-List) topic for additional information.
+  - The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online. See the [Exchange Online Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md#Exchange-Online-Host-List) topic for additional information.
 
 Connection Profile
 
-See the [Exchange PowerShell Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX\_Mailflow job requirements.
+See the [Exchange PowerShell Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX\_Mailflow job requirements.
 
 Additionally, the Exchange Online job group needs access to the following Exchange Online URLs to perform collection:
 
@@ -26,7 +26,7 @@ Additionally, the Exchange Online job group needs access to the following Exchan
 - Autodiscover – https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc
 - EWS – https://outlook.office365.com/EWS/Exchange.asmx
 
-See the [Exchange Custom Connection Profile & Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md) topic for additional information.
+See the [Exchange Custom Connection Profile & Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md) topic for additional information.
 
 Schedule Frequency
 

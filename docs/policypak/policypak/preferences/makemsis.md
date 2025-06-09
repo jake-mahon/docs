@@ -1,6 +1,6 @@
 # Using the Endpoint Policy Manager Exporter to Make MSIs
 
-__NOTE:__ For an overview of the Endpoint Policy Manager Exporter utility, please watch this video: [](http://www.policypak.com/video/policypak-preferences-with-policypak-exporter.html)[Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/product_docs/policypak/policypak/archive/preferencesexporter.md)l.
+__NOTE:__ For an overview of the Endpoint Policy Manager Exporter utility, please watch this video: [](http://www.policypak.com/video/policypak-preferences-with-policypak-exporter.html)[Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/policypak/policypak/archive/preferencesexporter.md)l.
 
 Endpoint Policy Manager Exporter's job is to take Microsoft or Endpoint Policy Manager items and wrap them up into an MSI. This MSI can then be deployed using whatever technique you want: Microsoft Endpoint Manager (SCCM and Intune), LANDesk, KACE, PDQ Deploy, etc. You can also manually install it if you like.
 
@@ -15,22 +15,22 @@ __NOTE:__ Non-domain-joined machines are never supported via the Endpoint Policy
 
 __Step 1 –__ Run the Endpoint Policy Manager Exporter utility on your management station. You can find it on the Start Menu (for pre-Windows 8 systems).
 
-![quickstart_using_policypak_4](/static/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_4.png)
+![quickstart_using_policypak_4](/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_4.png)
 
 __Step 2 –__ In the Endpoint Policy Manager Exporter tool, select __Create a new MSI installer__ and click __Next__.
 
-![quickstart_using_policypak_5](/static/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_5.png)
+![quickstart_using_policypak_5](/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_5.png)
 
 __Step 3 –__ Click __Add Existing Files__. Then select the Group Policy Preferences XML file from the downloadable example, or the one you created. It will look similar to what is seen below.
 
-![quickstart_using_policypak_6](/static/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_6.png)
+![quickstart_using_policypak_6](/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_6.png)
 
 __Step 4 –__ At this point, leave all other options and settings the same as shown in Figure 10 and then click __Next__. Once you've done this, look for the informational screen about the Windows Installer package that was just created, and click __Next__.
 
-![quickstart_using_policypak_7](/static/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_7.png)
+![quickstart_using_policypak_7](/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_7.png)
 
 __Step 5 –__ Click __Next__ and save the MSI file to a location of your choosing. In this example we've saved it to the desktop as Deploy GPP MSI.msi.
 
-![quickstart_using_policypak_8](/static/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_8.png)
+![quickstart_using_policypak_8](/img/product_docs/policypak/policypak/preferences/quickstart_using_policypak_8.png)
 
-See Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/product_docs/policypak/policypak/mdm/uemtools.md) for additional information on the Endpoint Policy Manager Exporter utility
+See Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) for additional information on the Endpoint Policy Manager Exporter utility

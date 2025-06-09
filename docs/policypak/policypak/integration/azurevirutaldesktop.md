@@ -16,7 +16,7 @@ __Step 2 –__ Download the required Endpoint Policy Manager Cloud Client MSI pa
 
 The required PPC client version (20.5.2449.838 or higher) can be found within your PPC Portal at the following page [https://cloud.policypak.com/ManageCustomer/UserList](https://cloud.policypak.com/ManageCustomer/UserList) under the Downloads section, by clicking on the Download other versions link at the bottom of the page.
 
-![332_1_image-20210529214259-1](/static/img/product_docs/policypak/policypak/integration/555_1_image-20200603123515-1.png)
+![332_1_image-20210529214259-1](/img/product_docs/policypak/policypak/integration/555_1_image-20200603123515-1.png)
 
 __Step 3 –__ On the Master Desktop Image, while logged in as a local administrator, install the Endpoint Policy Manager Cloud Client MSI that you saved under ```C:\PPC Client```, by using MSIEXEC and including the relevant JOINTOKEN string for your environment.
 
@@ -24,7 +24,7 @@ For Example:
 
 ```msiexec /i "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" JOINTOKEN=" AZAEllLPLTY9XKUA3CYO+ths=" /qn```
 
-For more information on creating and using a JOINTOKEN to automatically assign computers to computer groups in PPC please see this video KB: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/product_docs/policypak/policypak/video/cloud/jointoken.md)
+For more information on creating and using a JOINTOKEN to automatically assign computers to computer groups in PPC please see this video KB: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/policypak/policypak/video/cloud/jointoken.md)
 
 __NOTE:__  For Persistent VMs skip steps 4-7 below.
 
@@ -40,11 +40,11 @@ __Step 5 –__ Run PowerShell ISE as Administrator and then edit the ```C:\PPC C
 
 __NOTE:__  To see details on PPCloud.exe switches run "```PPCloud /?```" from CMD.
 
-![332_2_image-20210529214259-2_950x215](/static/img/product_docs/policypak/policypak/integration/332_2_image-20210529214259-2_950x215.png)
+![332_2_image-20210529214259-2_950x215](/img/product_docs/policypak/policypak/integration/332_2_image-20210529214259-2_950x215.png)
 
 __Step 6 –__ Run ```GPEDIT.MSC``` and add an entry under __Computer Configuration__ > __Windows Settings__ > __Scripts (Startup/Shutdown)__. Select the ```shutdown.ps1``` file for the PowerShell Shutdown script, then click __OK__ to save the settings.
 
-![332_3_image-20210529214259-3](/static/img/product_docs/policypak/policypak/integration/332_3_image-20210529214259-3.png)
+![332_3_image-20210529214259-3](/img/product_docs/policypak/policypak/integration/332_3_image-20210529214259-3.png)
 
 __Step 7 –__ If you like you can reboot the Master Desktop image machine at this point and log in as a regular user account to verify that everything works, that is,the computer is unregistered at shutdown from the PPC portal and then re-registered at login, and also shows up under the correct computer groups.
 
@@ -60,7 +60,7 @@ __Step 2 –__ Download the required Endpoint Policy Manager Cloud Client MSI pa
 
 The required PPC client version (20.5.2449.838 or higher) can be found within your PPC Portal on the following page [https://cloud.policypak.com/ManageCustomer/UserList](https://cloud.policypak.com/ManageCustomer/UserList) under the __Downloads__ section, by clicking on the Download other versions link at the bottom of the page.
 
-![332_4_image-20210529214259-4](/static/img/product_docs/policypak/policypak/integration/555_1_image-20200603123515-1.png)
+![332_4_image-20210529214259-4](/img/product_docs/policypak/policypak/integration/555_1_image-20200603123515-1.png)
 
 __Step 3 –__ On the Master Desktop Image, while logged in as a local administrator, install the Endpoint Policy Manager Cloud Client MSI that you saved under ```C:\PPC Client```, by using MSIEXEC and including the relevant JOINTOKEN string for your environment.
 
@@ -68,11 +68,11 @@ For Example:
 
 ```msiexec /i "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" JOINTOKEN="AZAEllLPLTY9XKUA3CYO+ths=" /qn```
 
-For more information on creating and using a JOINTOKEN to automatically assign computers to computer groups in PPC please see this video: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/product_docs/policypak/policypak/video/cloud/jointoken.md)
+For more information on creating and using a JOINTOKEN to automatically assign computers to computer groups in PPC please see this video: [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/policypak/policypak/video/cloud/jointoken.md)
 
 OPTIONAL: Run ```PPCloud /sync``` from a command prompt to verify that you see the correct groups assigned. In my example I am using a JOINTOKEN for a computer group called Testing so I see the following when I run ```PPCloud /sync```.
 
-![332_5_image-20210529214259-5](/static/img/product_docs/policypak/policypak/integration/332_5_image-20210529214259-5.png)
+![332_5_image-20210529214259-5](/img/product_docs/policypak/policypak/integration/332_5_image-20210529214259-5.png)
 
 __NOTE:__  All Computers in PPC will be members of the __All__ group in addition to any other groups they are added to.
 
@@ -82,19 +82,19 @@ __Step 5 –__ Edit ```startup.bat``` using notepad and add the command line bel
 
 ```msiexec /i "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" JOINTOKEN="AZAEllLPLTY9XKUA3CYO+ths=" /qn```
 
-![332_6_image-20210529214259-6_950x107](/static/img/product_docs/policypak/policypak/integration/332_6_image-20210529214259-6_950x107.png)
+![332_6_image-20210529214259-6_950x107](/img/product_docs/policypak/policypak/integration/332_6_image-20210529214259-6_950x107.png)
 
 __Step 6 –__ Edit the``` shutdown.bat``` file adding the command line below, remembering to substitute the MSI name in the example below with the corresponding value needed for your environment before saving and closing the file.
 
 ```msiexec /x "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" ```
 
-![332_7_image-20210529214259-7](/static/img/product_docs/policypak/policypak/integration/332_7_image-20210529214259-7.png)
+![332_7_image-20210529214259-7](/img/product_docs/policypak/policypak/integration/332_7_image-20210529214259-7.png)
 
 __Step 7 –__ Run ```GPEDIT.MSC```  and add an entry under __Computer Configuration__ > __Windows Settings__ > __Scripts (Startup/Shutdown)__. Select the ```startup.bat``` file for Startup script and select the ```shutdown.bat``` for the Shutdown script, then click __OK__ to save the settings.
 
-![332_8_image-20210529214259-8](/static/img/product_docs/policypak/policypak/integration/332_8_image-20210529214259-8.png)
+![332_8_image-20210529214259-8](/img/product_docs/policypak/policypak/integration/332_8_image-20210529214259-8.png)
 
-![332_9_image-20210529214259-9](/static/img/product_docs/policypak/policypak/integration/332_9_image-20210529214259-9.png)
+![332_9_image-20210529214259-9](/img/product_docs/policypak/policypak/integration/332_9_image-20210529214259-9.png)
 
 __Step 8 –__ At this point the Master Desktop image should already be registered in the PPC Portal. As a best practice, launch the PPC portal to verify that the machine is listed under the correct computer groups.
 
@@ -115,10 +115,10 @@ Could not sync with the cloud. 
 A network error occurred during sending RegisterComputer to https://cloudsvc.policypak.com/Services/Registration: Keyset does not exist
 ```
 
-![332_10_image-20210529214259-11](/static/img/product_docs/policypak/policypak/integration/332_10_image-20210529214259-11.png)
+![332_10_image-20210529214259-11](/img/product_docs/policypak/policypak/integration/332_10_image-20210529214259-11.png)
 
 If you receive a blank screen at login on the Master image machine or VDI, you can try logging out and back in, or you can try the following to see if it resolves the issue.
 
 Using ```GPEDIT.MSC```, verify that the following setting __Run startup scripts asynchronously__ is enabled under __Local Computer Policy__ > __Administrative Templates__ > __System__.
 
-![332_11_image-20210529214259-10](/static/img/product_docs/policypak/policypak/integration/332_11_image-20210529214259-10.png)
+![332_11_image-20210529214259-10](/img/product_docs/policypak/policypak/integration/332_11_image-20210529214259-10.png)

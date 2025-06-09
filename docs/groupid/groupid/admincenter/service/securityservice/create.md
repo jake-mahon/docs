@@ -29,7 +29,7 @@ __To create a Security service:__
 5. In the __Application Name__ box, enter a name for the service or use the default name. The Security service is displayed with this name in Directory Manager.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card, as shown below:
 
-   ![securityservicecard](/static/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.png)
+   ![securityservicecard](/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.png)
 7. In the __IIS Application Name__ box, enter an IIS deployment name for the service. This name is used to name the service’s directory in IIS and its physical directory under X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the Directory Manager server.  
    (X represents the Directory Manager installation drive)  
    The IIS application name should be unique for each Security service deployed in IIS.
@@ -54,7 +54,7 @@ When you create a Data service in remote IIS, Directory Manager does the followi
 The Security service runs within a virtual directory in remote IIS while the service files are physically located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](/docs/product_docs/groupid/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
 
 __To create a Security service:__
 
@@ -64,7 +64,7 @@ __To create a Security service:__
 4. On the __Create GroupID Application__ page, select the __Remote IIS__ tile.
 5. In the __Application Name__ box, enter a name for the service or use the default name. The Security service is displayed in Directory Manager with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Security service.
+7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Security service.
 8. In the __Data Service__ drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service
    to perform various tasks, such as authentication and multifactor authentication.
@@ -77,7 +77,7 @@ Directory Manager enables you to deploy a Security service in Docker. For this, 
 container.
 
 For an overview on application deployment in Docker, see
-the [Prerequisites for Deployments in Docker](/docs/product_docs/groupid/groupid/admincenter/portal/dockerprerequisites.md) topic.
+the [Prerequisites for Deployments in Docker](/docs/groupid/groupid/admincenter/portal/dockerprerequisites.md) topic.
 
 NOTE: To host the Security service, Docker daemon should be configured to run Windows containers.
 
@@ -89,7 +89,7 @@ __To create a Security service:__
 4. On the __Create GroupID Application__ page, select the __Docker__ tile.
 5. In the __Application Name__ box, enter a name for the Security service or use the default name. The service is displayed in Directory Manager with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Security service.
+7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Security service.
 8. In the __Data Service__ drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service
    to perform various tasks, such as authentication and multifactor authentication.
@@ -99,10 +99,10 @@ __To create a Security service:__
 ## Launch a Security Service
 
 1. In Admin Center, select __Applications__ in the left pane.
-2. On the __Security Service__ tab, click __Launch Application__ for a service. The __GroupID Applications__ page is displayed. Options on this page are discussed in the [Access your Applications](/docs/product_docs/groupid/groupid/admincenter/general/accessapplications.md) topic. Any actions you perform will be carried out through the respective Security service.
+2. On the __Security Service__ tab, click __Launch Application__ for a service. The __GroupID Applications__ page is displayed. Options on this page are discussed in the [Access your Applications](/docs/groupid/groupid/admincenter/general/accessapplications.md) topic. Any actions you perform will be carried out through the respective Security service.
 
 __See Also__
 
-- [Directory Manage Applications](/docs/product_docs/groupid/groupid/admincenter/portal/applications.md)
-- [Services](/docs/product_docs/groupid/groupid/admincenter/service/overview.md)
-- [Manage Security Service Settings](/docs/product_docs/groupid/groupid/admincenter/service/securityservice/manage.md)
+- [Directory Manage Applications](/docs/groupid/groupid/admincenter/portal/applications.md)
+- [Services](/docs/groupid/groupid/admincenter/service/overview.md)
+- [Manage Security Service Settings](/docs/groupid/groupid/admincenter/service/securityservice/manage.md)

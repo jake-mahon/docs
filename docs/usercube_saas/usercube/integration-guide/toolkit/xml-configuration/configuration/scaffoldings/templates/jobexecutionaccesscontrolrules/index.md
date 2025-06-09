@@ -6,19 +6,19 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Job View Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md): Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md): Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
 - [
   RunJobAdministrationAccessControlRules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobadministrationaccesscontrolrules/index.md): Generates the permissions to launch jobs from UI for a given profile.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobadministrationaccesscontrolrules/index.md): Generates the permissions to launch jobs from UI for a given profile.
 - [
   RunJobNotificationAccessControlRules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobnotificationaccesscontrolrules/index.md): Generates access control to send notification when job finish with an error state.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobnotificationaccesscontrolrules/index.md): Generates access control to send notification when job finish with an error state.
 - [
   RunJobRepairAdministrationAccessControlRules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md): Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or a synchronization for a given profile.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md): Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or a synchronization for a given profile.
 - [
   RunJobRepairNotificationAccessControlRules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairnotificationaccesscontrolrules/index.md): Generates access control to send notification when a relaunch job finish with an error state.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairnotificationaccesscontrolrules/index.md): Generates access control to send notification when a relaunch job finish with an error state.
 
 ## Examples
 

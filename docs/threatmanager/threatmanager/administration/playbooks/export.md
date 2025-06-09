@@ -4,7 +4,7 @@ Playbooks can be exported from the Threat Manager Console.
 
 Follow the steps to export a playbook.
 
-![exportplaybook](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/exportplaybook.png)
+![exportplaybook](/img/product_docs/threatmanager/threatmanager/administration/playbooks/exportplaybook.png)
 
 __Step 1 –__ Select the playbook to export.
 

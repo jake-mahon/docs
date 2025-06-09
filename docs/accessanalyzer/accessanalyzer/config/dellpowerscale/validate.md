@@ -12,7 +12,7 @@ __Step 1 –__ Navigate to the following windows registry key:
 
 HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
 
-![registryeditorendpoint](/static/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.png)
+![registryeditorendpoint](/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.png)
 
 __Step 2 –__ Ensure that the Enabled parameter is set to 1.
 
@@ -58,7 +58,7 @@ If this is configured correctly, validate that the Dell CEE services are running
 
 After the Activity Monitor Activity Agent has been configured to monitor the Dell device, the Dell CEE services should be running. If the Activity Agent is not registering events and the EndPoint is set accurately, validate that the Dell CEE services are running. Open the Services (run ```services.msc```).
 
-![services](/static/img/product_docs/activitymonitor/config/dellpowerstore/services.png)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.png)
 
 The following services laid down by the Dell CEE installer should have Running as their status:
 
@@ -114,42 +114,26 @@ __NOTE:__ Debug logs should only be used for troubleshooting purposes. It's reco
 
 ...
 
+```xml
+<CEEConfig>
 <Configuration>
-
 <CacheSize>100</CacheSize>
-
 <Debug>255</Debug>
-
 <HeartBeatIntervalSecs>10</HeartBeatIntervalSecs>
-
 <InstrIntervalSecs>10</InstrIntervalSecs>
-
 <NumberOfThreads>20</NumberOfThreads>
-
 <Verbose>255</Verbose>
-
 <HttpPort>12228</HttpPort>
-
 <WatchDog>
-
 <RestartCount>2</RestartCount>
-
 <RestartDelay>5</RestartDelay>
-
 <ResetRestartCountAfter>86400</ResetRestartCountAfter>
-
 </WatchDog>
-
 <LogFile>
-
 <Path>/opt/CEEPack/</Path>
-
 <MaxSize>100</MaxSize>
-
 </LogFile>
-
 </Configuration>
-
 </CEEConfig>
 
 __NOTE:__ All protocol strings are case sensitive.

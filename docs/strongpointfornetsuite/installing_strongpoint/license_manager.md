@@ -11,11 +11,11 @@ __Strongpoint__ > __Strongpoint Support__ > __License Manager__ > __Get Lic. Num
 1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
 2. Depending on your account settings, you may have to click __View__ to see the account record.
 
-   ![Add a New License.](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.png)
+   ![Add a New License.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.png)
 3. Click __Get Lic. Number__ if the __License Number__ is blank. If the License Number is not blank, continue with the next step.
 4. Click __New Licensed User__.
 
-   ![Add a licensed user](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.png)
+   ![Add a licensed user](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.png)
 5. Select a __User__.
 6. Set __License Type__ to __Full__.
 7. Click __Save__.
@@ -23,7 +23,7 @@ __Strongpoint__ > __Strongpoint Support__ > __License Manager__ > __Get Lic. Num
 ## Edit or View an Existing License
 
 1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
-2. Click __Edit__ if you need to modify your __Weekly Reports Recipients__ or your __License Number__ or click __View__ to [Manage Users](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/managing_users.md).
+2. Click __Edit__ if you need to modify your __Weekly Reports Recipients__ or your __License Number__ or click __View__ to [Manage Users](/docs/strongpointfornetsuite/installing_strongpoint/managing_users.md).
 3. Click __Save__ if you make changes.
 
 ## License Manager Buttons and Fields
@@ -35,7 +35,7 @@ Some buttons and fields are only visible when you __Edit__ the License.
 - __Full License End Date__: displays the end date of the current subscription.
 - __Full License Count__: displays the number of __Full__ licenses active in your account.
 - __License Number__: displays your license.
-- __License Type__: displays your purchased License Type, controlling what [Features](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/features_by_license_type.md) you can access. License Types are __Documentation and Optimization__, __Intelligent Change Management__ and __Enterprise__.
+- __License Type__: displays your purchased License Type, controlling what [Features](/docs/strongpointfornetsuite/installing_strongpoint/features_by_license_type.md) you can access. License Types are __Documentation and Optimization__, __Intelligent Change Management__ and __Enterprise__.
 - __Edition__: displays your NetSuite Edition.
 - __Subsidiaries__: displays the number of operating subsidiaries you have in your OneWorld account. Platform Governance for NetSuite does not count subsidiaries that are only used for financial transactions or as an elimination subsidiary.
 - __View__: select __Strongpoint Licensed Users__ to filter the view and see the user information.

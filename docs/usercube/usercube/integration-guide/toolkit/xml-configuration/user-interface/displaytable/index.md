@@ -2,7 +2,7 @@
 
 A table displays a collections of entity type data grouped into rows.
 
-See the [Customize Display Tables](/docs/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/index.md)topic for additional information.
+See the [Customize Display Tables](/docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/index.md)topic for additional information.
 
 ## Examples
 
@@ -18,7 +18,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <DisplayTable Identifier="Directory_Site" EntityType="Directory_Site" DisplayTableDesignElement="table" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="Region.Country.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="Country" />    <Column DefaultSortPriority="2" DisplayBinding="Region.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="State" />    <Column DefaultSortPriority="3" DisplayBinding="DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="8" /></DisplayTable>
 ```
 
-![Example - DisplayTableDesignElement Set to Table](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_table_v602.png)
+![Example - DisplayTableDesignElement Set to Table](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_table_v602.png)
 
 DisplayTableDesignElement list
 
@@ -30,7 +30,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <DisplayTable Identifier="Directory_User" EntityType="Directory_User" DisplayTableDesignElement="list" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" ColumnSize="6" IsDisplayInSummaryView="true" SortBinding="MainRecord.LastName" Tile="Directory_User_Tile1" />    <Column ColumnSize="3" IsDisplayInSummaryView="true" Tile="Directory_User_Tile2" SortBinding="MainRecord.FirstName" />    <Column ColumnSize="3" Tile="Directory_User_Tile3" /></DisplayTable>
 ```
 
-![Example - DisplayTableDesignElement Set to List](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.png)
+![Example - DisplayTableDesignElement Set to List](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.png)
 
 _Remember,_ for resources to be displayed as a list, the display table must also be configured with tiles.
 
@@ -44,7 +44,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <DisplayTable Identifier="AD_Entry" EntityType="AD_Entry" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="5" />    <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" />    <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" /></DisplayTable>
 ```
 
-![Example - DisplayTableDesignElement Set to ResourceTable](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_resourcetable_v602.png)
+![Example - DisplayTableDesignElement Set to ResourceTable](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_resourcetable_v602.png)
 
 ## Properties
 

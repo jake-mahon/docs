@@ -12,8 +12,8 @@ In the sections that follow, we'll explain how to use Endpoint Policy Manager wi
 
 You can use Endpoint Policy Manager with any UEM tool you already have like SCCM, LANDesk, KACE, etc. Figure 30 shows a systems flow when using Endpoint Policy Manager with any UEM or systems management utility, like Microsoft Endpoint Configuration Manager (MEMCM) (formerly known as SCCM), KACE, etc.
 
-![using_policypak_with_mdm_and](/static/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.png)
+![using_policypak_with_mdm_and](/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.png)
 
 Figure 30. The correlation between applications and systems when using Endpoint Policy Manager with any systems management utility.
 
-__NOTE:__  For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like SCCM, KACE, etc., see the following link: Getting Started with Endpoint Policy Manager (Misc) > [Knowledge Base](/docs/product_docs/policypak/policypak/gettingstarted/overview/knowledgebase.md).
+__NOTE:__  For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like SCCM, KACE, etc., see the following link: Getting Started with Endpoint Policy Manager (Misc) > [Knowledge Base](/docs/policypak/policypak/gettingstarted/overview/knowledgebase.md).

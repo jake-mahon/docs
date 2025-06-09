@@ -2,18 +2,18 @@
 
 First, check to see if you're creating your Windows security settings on your local machine.
 
-![617_1_ppsec-kb-01-img-01](/static/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_1_ppsec-kb-01-img-01.png)
+![617_1_ppsec-kb-01-img-01](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_1_ppsec-kb-01-img-01.png)
 
 If you are working with your local group policy editor, and then you try to export your settings using Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager, you're going to get this error message:
 
-![617_2_ppsec-kb-01-img-02](/static/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_2_ppsec-kb-01-img-02.png)
+![617_2_ppsec-kb-01-img-02](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_2_ppsec-kb-01-img-02.png)
 
 Instead, manage your Windows security settings using the GPMC within a domain-based GPO as seen here:
 
-![617_3_ppsec-kb-01-img-03](/static/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_3_ppsec-kb-01-img-03.png)
+![617_3_ppsec-kb-01-img-03](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_3_ppsec-kb-01-img-03.png)
 
 Then use Endpoint Policy Manager Security Settings Manager to export your settings as XML for use with the cloud or MDM service, as seen here.
 
-![617_4_ppsec-kb-01-img-04](/static/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_4_ppsec-kb-01-img-04.png)
+![617_4_ppsec-kb-01-img-04](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/617_4_ppsec-kb-01-img-04.png)
 
 You'll be managing your Windows Security Settings through the cloud or MDM service in no time!

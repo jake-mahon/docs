@@ -4,4 +4,4 @@ Chrome uses the underlying certificates that Internet Explorer does. As such we 
 
 Here's the how-to video in using the IE + Certs features (again, which should also set Chrome too):
 
-[Manage IE Certificates](/docs/product_docs/policypak/policypak/video/applicationsettings/internetexplorer/certificates.md)
+[Manage IE Certificates](/docs/policypak/policypak/video/applicationsettings/internetexplorer/certificates.md)

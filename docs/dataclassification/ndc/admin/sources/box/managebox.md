@@ -9,7 +9,7 @@ You can define the list of file locations that will be ignored when indexing fil
 1. In the management console, click __Sources__ → __Box__, then in the left pane click Collection Exclusions.
 2. Click __Add__.
 
-![boxexclusions](/static/img/product_docs/dataclassification/ndc/admin/sources/database/boxexclusions.png)
+![boxexclusions](/img/product_docs/dataclassification/ndc/admin/sources/database/boxexclusions.png)
 
 3. Click __Filter__ and in the __Filter__ field specify the objects (files or folders) to exclude:
 
@@ -37,7 +37,7 @@ __NOTE:__ Exclusions are case-insensitive.
    | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify __Field Name__. |
    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify __Field Name__. |
 
-   [![gdrive_exclusion_condition_2_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/gdrive_exclusion_condition_2.png)
+   [![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/gdrive_exclusion_condition_2.png)
 
    When finished, click __Add__.
 6. To verify the settings, click __Test__.
@@ -71,6 +71,6 @@ To configure tagging
 | __Name/ID__ or __Class__ | Depending on the format, take the term labels, IDs or a combination of both | The corresponding Delimiter must be a string or array type with a maximum length of 3. |
 | __Prefix/__  __Suffix__ | Will be appended to the formatted string of classifications. |  |
 
-[![box_tagging_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/box/box_tagging_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/box_tagging.png)
+[![box_tagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/box_tagging_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/box_tagging.png)
 
 Finally, click __Save__.

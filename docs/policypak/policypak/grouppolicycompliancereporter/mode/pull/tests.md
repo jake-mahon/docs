@@ -15,7 +15,7 @@ Tests may be simple or complex. We recommend that tests be as simple as possible
 
 Begin a test by creating a root folder to contain your tests. Then, create a new test by right-clicking on the "All tests" container and selecting "Create test," as shown in Figure 19.
 
-![gpcr_concepts_and_quickstart_20](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_20.png)
+![gpcr_concepts_and_quickstart_20](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_20.png)
 
 Figure 19. Creating a root folder to contain tests.
 
@@ -29,7 +29,7 @@ As you create tests, decide which settings you want to ensure are actually deliv
 
 When you create or edit a test, a temporary GPO is created in the domain, and the Group Policy Management Editor appears, as shown in Figure 20.
 
-![gpcr_concepts_and_quickstart_21](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_21.png)
+![gpcr_concepts_and_quickstart_21](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_21.png)
 
 Figure 20. A temporary Group Policy Object is created.
 
@@ -37,13 +37,13 @@ At this point you can test for thousands of possible conditions. In Figure 19, w
 
 When you're done editing your test, click "OK" and close the GPO. Note, you may receive a "Waiting…" dialog box (seen in Figure 21) flash by as the data inside the GPO (which is saved locally to your machine or the Endpoint Policy Manager GPCR server) and the temporary GPO are deleted from the domain. If the Group Policy Management Editor is closed but fails to tell Endpoint Policy Manager GPCR that it has closed, you have the option to select "Force save" using the "Waiting..." dialog box.
 
-![gpcr_concepts_and_quickstart_22](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_22.png)
+![gpcr_concepts_and_quickstart_22](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_22.png)
 
 Figure 21. The option to force save.
 
 Once the editor is closed, the test is saved, and you can see the test contents, as shown in Figure 22.
 
-![gpcr_concepts_and_quickstart_23](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_23.png)
+![gpcr_concepts_and_quickstart_23](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_23.png)
 
 Figure 22. Viewing the test contents once the test is saved.
 
@@ -51,7 +51,7 @@ The test contents show what you did within the Group Policy Management Editor an
 
 __NOTE:__  If a test contains supported and unsupported data, the supported data will work and the unsupported data is will be ignored during testing.
 
-![gpcr_concepts_and_quickstart_24](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_24.png)
+![gpcr_concepts_and_quickstart_24](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_24.png)
 
 Figure 23. Unsupported data within tests show up within the test contents reports.
 

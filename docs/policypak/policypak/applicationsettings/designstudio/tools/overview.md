@@ -11,6 +11,6 @@ In this section, you'll learn how to do the following with Netwrix Endpoint Poli
 
 You can see the list of items from the Endpoint Policy Manager DesignStudio Tools menu in Figure 164.
 
-![using_designstudio_tools](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools.png)
+![using_designstudio_tools](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools.png)
 
 Figure 164. DesignStudio Tools menu.

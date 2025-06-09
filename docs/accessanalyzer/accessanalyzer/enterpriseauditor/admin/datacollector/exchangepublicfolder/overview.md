@@ -1,8 +1,8 @@
 # ExchangePublicFolder Data Collector
 
-The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents, permissions, ownership, and replicas. This is a MAPI-based data collector which requires the __Settings > Exchange__ node to be enabled and configured. See the [Exchange](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.
+The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents, permissions, ownership, and replicas. This is a MAPI-based data collector which requires the __Settings > Exchange__ node to be enabled and configured. See the [Exchange](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.
 
-The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -28,16 +28,16 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 The ExchangePublicFolder Data Collector is configured through the Exchange Public Folder Data Collector Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ExchangePublicFolder: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/category.md)
-- [ExchangePublicFolder: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
-- [ExchangePublicFolder: Properties](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md)
-- [ExchangePublicFolder: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/options.md)
-- [ExchangePublicFolder: Probable Owner](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
-- [ExchangePublicFolder: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/summary.md)
+- [ExchangePublicFolder: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/category.md)
+- [ExchangePublicFolder: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
+- [ExchangePublicFolder: Properties](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md)
+- [ExchangePublicFolder: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/options.md)
+- [ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
+- [ExchangePublicFolder: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/summary.md)
 
 The query requires special permissions to connect to target Exchange servers. Configure these permissions on the Welcome page.
 
-![Exchange Public Folder Data Collector Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Exchange Public Folder Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 In the Connection Setting section, choose to either maintain the global inheritance, or configure query specific settings.
 
@@ -48,6 +48,6 @@ The __Use Global setting__ option specifies what setting is being inherited. Cle
 - Exchange Mailbox (2010 and newer) – Enter the Exchange mailbox
 - Client Access Server – Enter the CAS
 
-See the [Exchange](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.
+See the [Exchange](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.
 
 In the Sampling server section, enter the Exchange server in the textbox to be used to test the connection settings. Click __Test sampling server__ to ensure there is access to the server. The box at the bottom of the page displays information regarding the test connection in progress.

@@ -7,7 +7,7 @@ This guide focuses on the initial installation of the Web Application and is not
 
 ### System requirements
 
-Please ensured that all [Webserver](/docs/product_docs/passwordsecure/passwordsecure/installation/requirements/webserver.md)r requirements have been met.
+Please ensured that all [Webserver](/docs/passwordsecure/passwordsecure/installation/requirements/webserver.md)r requirements have been met.
 
 ### SSL certificate
 
@@ -50,7 +50,7 @@ A button for the so-called CORS configuration can be found on the ribbon. It is 
 
 In order to add a domain, simply enter it at the bottom of the dialogue. Clicking on :material-plus-circle-outline: will add the entry to the list at the top.
 
-![cors-en-new](/static/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/cors-en-new.png)
+![cors-en-new](/img/product_docs/passwordsecure/passwordsecure/installation/installation_web_application/cors-en-new.png)
 
 NOTE: 
 In general, it is sufficient to add the IP address which was also saved as the Web server host address.

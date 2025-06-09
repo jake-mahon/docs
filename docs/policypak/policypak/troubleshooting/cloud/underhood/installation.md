@@ -2,11 +2,11 @@
 
 If you choose an interactive installation of the Endpoint Policy Manager Cloud client, then any success or failure messages that occur when connecting to Endpoint Policy Manager Cloud will be shown on the final window during installation, as shown in Figure 156.
 
-![underneath_the_hood_and_troubleshooting_2_624x343](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_2_624x343.png)
+![underneath_the_hood_and_troubleshooting_2_624x343](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_2_624x343.png)
 
 Figure 156. The final window of the installation process.
 
-There are some common issues that occur during installation, and these client troubleshooting errors are documented in one place: Getting Started with Cloud > [Knowledge Base](/docs/product_docs/policypak/policypak/cloud/overview/knowledgebase.md). However, three of our most common errors are presented in the next few pages.
+There are some common issues that occur during installation, and these client troubleshooting errors are documented in one place: Getting Started with Cloud > [Knowledge Base](/docs/policypak/policypak/cloud/overview/knowledgebase.md). However, three of our most common errors are presented in the next few pages.
 
 ## No Internet Connection During Installation
 
@@ -16,13 +16,13 @@ __NOTE:__  If you always use a proxy, and the Endpoint Policy Manager Cloud clie
 
 During installation, the Endpoint Policy Manager Cloud client will try to connect with Endpoint Policy Manager Cloud for a maximum of 60 seconds. If it is able to make a connection and acquire a license within 60 seconds, you'll get a success message. If the Endpoint Policy Manager Cloud client cannot locate Endpoint Policy Manager Cloud you'll get an error message, as shown in Figure 157.
 
-![underneath_the_hood_and_troubleshooting_3_406x302](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_3_406x302.png)
+![underneath_the_hood_and_troubleshooting_3_406x302](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_3_406x302.png)
 
 Figure 157. The error message when the Endpoint Policy Manager Cloud client cannot connect to Endpoint Policy Manager Cloud.
 
 If you click "Continue," you'll see a success message, but no results of the connection to Endpoint Policy Manager Cloud, as shown in Figure 158.
 
-![underneath_the_hood_and_troubleshooting_4_406x336](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_4_406x336.png)
+![underneath_the_hood_and_troubleshooting_4_406x336](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_4_406x336.png)
 
 Figure 158. The success message indicating installation is complete.
 
@@ -32,7 +32,7 @@ Therefore, if the Endpoint Policy Manager Cloud is contacted and/or the license 
 
 A common error occurs when the system time is off. If you get the error shown in Figure 159, ensure that the system time on the client system is correct. If the time significantly off, the cloud client cannot talk with the cloud server.
 
-![underneath_the_hood_and_troubleshooting_5](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.png)
+![underneath_the_hood_and_troubleshooting_5](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.png)
 
 Figure 159. System time error message.
 
@@ -40,7 +40,7 @@ To check the time, do the following:
 
 __Step 1 –__ Change the time zone to UTC, as shown in Figure 160.
 
-![underneath_the_hood_and_troubleshooting_6](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_6.png)
+![underneath_the_hood_and_troubleshooting_6](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_6.png)
 
 Figure 160. Selecting UTC as the time zone.
 
@@ -58,12 +58,12 @@ __Step 6 –__ Verify Endpoint Policy Manager Cloud still works with commandline
 
 If you attempt to destroy and re-create a computer, for instance, after re-installing the whole OS, then the computer will, by default, be seen as unique (see Figure 161). This is expected because of the computer registration modes, and it can typically happen when the computer is a VDI machine that gets destroyed and rebuilt often. To compensate for this, refer to the section "Company Details."
 
-![underneath_the_hood_and_troubleshooting_7_624x277](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_7_624x277.png)
+![underneath_the_hood_and_troubleshooting_7_624x277](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_7_624x277.png)
 
 Figure 161. A computer is seen as being unique after the OS is re-installed.
 
 The registration mode you likely want to use is "Loose (allow computers to recovery access by UUID or MAC Address)" for normal machines (as shown in Figure 162), and "Advanced (always register a new computer and keep existing records)" for VDI machines.
 
-![web_interface_and_controls_71_624x518](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.png)
+![web_interface_and_controls_71_624x518](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.png)
 
 Figure 162. Selecting the registration mode.

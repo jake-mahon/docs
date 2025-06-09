@@ -49,12 +49,12 @@ Step 5 – Click __Save__.
 #### SharePoint Site Details
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed for a file server in an Active Directory identity store. Refer to the [File Server Details
-](/docs/product_docs/groupid/groupid/admincenter/entitlement/ad/manage.md#File-Server-Details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
+](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#File-Server-Details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
 
 #### Search SharePoint Sites
 
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the listing. The filters are the same as displayed for a file server
-in an Active Directory identity store. Refer to the [Search File Servers ](/docs/product_docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Search-File-Servers) topic for performing a search.
+in an Active Directory identity store. Refer to the [Search File Servers ](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Search-File-Servers) topic for performing a search.
 
 ## Include Future Sites for Entitlement Management
 
@@ -84,7 +84,7 @@ Step 3 – Click __Entitlement__ under Settings in the left pane.
 Step 4 – In the Included SharePoint Sites area on the __Entitlement__ page, click the ellipsis button for a site and select __Edit__. On the __Edit Site__ dialog box:
 
 - The Site Libraries area displays the document libraries in the site.
-- The name of the [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md) that computes the permissions on document libraries in the site and replicates them to Elasticsearch, is displayed next to __Job__.
+- The name of the [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md) that computes the permissions on document libraries in the site and replicates them to Elasticsearch, is displayed next to __Job__.
 
 ## Exclude a Document Library from Replication
 
@@ -120,7 +120,7 @@ Step 3 – Click __Entitlement__ under __Settings__ in the left pane.
 
 Step 4 – In the __Included SharePoint Sites__ area on the __Entitlement__ page, click the ellipsis button for a site and select __Edit__.
 
-Step 5 – On the __Edit Site__ dialog box, you can change the service account used to connect to the site for reading and updating permissions. The [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md), [Entitlement Scope Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlementscope.md), and [Entitlement Temporary Permissions Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlementtemporarypermissions.md) run in the context of the account specified here.
+Step 5 – On the __Edit Site__ dialog box, you can change the service account used to connect to the site for reading and updating permissions. The [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md), [Entitlement Scope Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementscope.md), and [Entitlement Temporary Permissions Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementtemporarypermissions.md) run in the context of the account specified here.
 
 - The User name and Password boxes display the credentials of the account used to connect to the site. You can connect using a different account by providing the credentials
   of that account.
@@ -139,7 +139,7 @@ Step 2 – Click __Save__ on the Entitlement page.
 
 After adding the SharePoint admin URL to manage entitlements for document libraries in the sites, it is essential to replicate object permissions from the SharePoint server to Elasticsearch.
 
-The [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to replicate the effective permissions on document libraries in the sites. You can also run this schedule any time manually for a site
+The [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to replicate the effective permissions on document libraries in the sites. You can also run this schedule any time manually for a site
 listed in the Included SharePoint sites area on the Entitlementpage.
 
 Follow the steps to replicate permissions manually.
@@ -155,7 +155,7 @@ Step 4 – On the Entitlement page, you can manually replicate permissions for o
 - To replicate permissions for a site – Select a site in the __Included SharePoint Sites__ area and click __Replicate__.
 - To replicate permissions for multiple sites – Select the check boxes for the sites you want to replicate. To replicate all sites, select the check box in the header row. This displays the following icons:
 
-  ![replicate_permissions](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
 
   Either click the __Replicate__ icon or the __Replicate__ button.
 
@@ -183,7 +183,7 @@ Step 4 – On the __Entitlement__ page, you can exclude one or more sites.
 
   Select the check boxes for the sites you do not want to replicate. To exclude all sites, select the check box in the header row. This displays the following icons:
 
-  ![replicate_permissions](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
 
   Click __Remove__. The sites are moved to the __Excluded SharePoint Sites__ area.
 
@@ -208,5 +208,5 @@ Step 5 – Click __Save__.
 
 See Also
 
-- [Entitlement](/docs/product_docs/groupid/groupid/admincenter/entitlement/overview.md)
-- [Manage File Servers](/docs/product_docs/groupid/groupid/admincenter/entitlement/ad/manage.md)
+- [Entitlement](/docs/groupid/groupid/admincenter/entitlement/overview.md)
+- [Manage File Servers](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md)

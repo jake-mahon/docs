@@ -1,12 +1,12 @@
 # Denying UWP Applications
 
-__NOTE:__ For an overview of how to manage UWP applications, see the [Manage, block and allow Windows Universal (UWP) applications](/docs/product_docs/policypak/policypak/video/leastprivilege/windowsuniversalapplications.md) video.
+__NOTE:__ For an overview of how to manage UWP applications, see the [Manage, block and allow Windows Universal (UWP) applications](/docs/policypak/policypak/video/leastprivilege/windowsuniversalapplications.md) video.
 
 Endpoint Policy Manager can be used to manage Universal Windows Platform (UWP) applications, allowing you to block one or more applications. To do this, select __Add__ > __New UWP Policy__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications.png)
 
 There are several options for managing UWP apps:
 
@@ -18,31 +18,31 @@ Here we have chosen the option for __All UWP apps__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_1.png)
 
 Next, you can deny execution for all of the apps at one time, or allow and log them, as shown here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_2.png)
 
 If you choose to deny the apps, you must select your desired deny action. In this example, the default Windows block message will pop up when a user attempts to open any UWP application.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_3.png)
 
 Using the other options for managing apps, you can block all Microsoft Store apps, or all Enterprise UWP apps at one time in a similar fashion. You can also allow or block specific UWP apps as well. You might want to create one policy that blocks all UWP apps and then supplement it with other rules that allow specific UWP apps. You also might want to create rules that only block designated apps. To choose to block only designated apps, select the __Specific UWP apps__ option.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_4.png)
 
 Next, you will need to provide some information about the app, such as the Package Name and Publisher. You can retrieve this information by either pointing to it using the __Select an installed app__ button, or by running the Get-AppxPackage command in an elevated PowerShell session. This command will list all of the installed UWP apps on a given machine. Then you can populate the required information to manage the Microsoft Xbox app has been entered.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_5.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_5.png)
 
 Next, finish creating the policy by selecting the block/allow action and further targeting the policy.
 
@@ -50,4 +50,4 @@ In general, most people will want to use this option to block all UWP applicatio
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_6.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_6.png)

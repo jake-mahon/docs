@@ -1,6 +1,6 @@
 # ADPermissions Data Collector
 
-The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is preconfigured within the Active Directory Permissions Analyzer Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Active Directory Permissions Analyzer Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md) topic for additional information.
+The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is preconfigured within the Active Directory Permissions Analyzer Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Active Directory Permissions Analyzer Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md) topic for additional information.
 
 Protocols
 
@@ -24,9 +24,9 @@ Permissions
 
 The ADPermissions Data Collector is configured through the Active Directory Permissions Data Collector Wizard. The wizard contains the following pages, which change based upon the query category selected:
 
-- [ADPermissions: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/category.md)
-- [ADPermissions: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/scope.md)
-- [ADPermissions: Custom Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/customfilter.md)
-- [ADPermissions: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/options.md)
-- [ADPermissions: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/results.md)
-- [ADPermissions: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/summary.md)
+- [ADPermissions: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/category.md)
+- [ADPermissions: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/scope.md)
+- [ADPermissions: Custom Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/customfilter.md)
+- [ADPermissions: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/options.md)
+- [ADPermissions: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/results.md)
+- [ADPermissions: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/summary.md)

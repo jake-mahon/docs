@@ -2,7 +2,7 @@
 
 The Scheduled Tasks tab shows information about the tasks that are scheduled to run on the selected resource.
 
-![Scheduled Tasks Tab for Host Resource](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/scheduledtaskshost.png)
+![Scheduled Tasks Tab for Host Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/scheduledtaskshost.png)
 
 The Scheduled Tasks tab has the following features:
 
@@ -14,7 +14,7 @@ The table has the following columns:
 
 - Task Name — Displays the name of the task
 - Run As Account — Account used to run the task
-- Managed — Indicates if the account is managed by Privilege Secure. See the [Credentials Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for additional information.
+- Managed — Indicates if the account is managed by Privilege Secure. See the [Credentials Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for additional information.
 - Description — Description of the policy
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -22,7 +22,7 @@ To implement the solution, Managed Service Provider does the following on the cl
 
 On a high level, the workflow is as follows:
 
-[![CW_workflow](/static/img/product_docs/auditor/auditor/addon/connectwise/diagramworkflow_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/addon/connectwise/diagramworkflow.png)
+[![CW_workflow](/img/product_docs/auditor/auditor/addon/connectwise/diagramworkflow_thumb_0_0.png)](/docs/auditor/resources/images/auditor/addon/connectwise/diagramworkflow.png)
 
 1. Managed Service Provider installs and configures the add-on on AuditorServer. MSP also enables the necessary alerts in Netwrix Auditor, specifying add-on launch as the response action in the alert settings.
 2. Whenever the alert is triggered, the add-on uses the Integration API to retrieve activity record for the original event from the audit store. An activity record contains the user account, action, time, and other details. The add-on creates a service ticket in ConnectWise Manage, populates it with data from the activity record, and assigns Impact, Priority and SLA status to the ticket.
@@ -31,13 +31,13 @@ On a high level, the workflow is as follows:
 
 Solution architecture and key components are shown in the figure below:
 
-![diagram](/static/img/product_docs/auditor/auditor/addon/splunk/diagram.png)
+![diagram](/img/product_docs/auditor/auditor/addon/splunk/diagram.png)
 
 - __Alert Handler (Netwrix.ITSM.AlertResponseAction.exe)__ — the executable that is specified in the Auditor alerts as the response action. Alert Handler:
   1. Receives the IDs of the alert and associated activity record.
   2. Forwards them to the Netwrix AuditorConnectWise Manage Integration Service over RPC, putting the alert into the service queue.
 
-For details on the alert response action, see the [Configure a Response Action for Alert](/docs/product_docs/auditor/auditor/admin/alertsettings/responseaction.md) topic for additional information.
+For details on the alert response action, see the [Configure a Response Action for Alert](/docs/auditor/auditor/admin/alertsettings/responseaction.md) topic for additional information.
 
 - __Netwrix Auditor ConnectWise Manage Integration Service (Netwrix.ITSM.IntegrationServiceCW.exe)__ — the main component of the solution, implemented as Windows service. It does the following:
   1. Interacts with Auditor via its Integration API to retrieve the activity records from the Audit Database by record ID.
@@ -49,5 +49,5 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | Location | Prerequisites |
 | --- | --- |
-| Auditor Server | - The add-on supports Auditor version 9.96. - The add-on will run on the computer where Auditor Server works, so the add-on package should be copied to that machine. - For add-on operation, __NET 4.5__ framework is required on Auditor Server. - Starting with add-on build 1.0.12.0, __TLS 1.2__ protocol is supported. By default, this capability is disabled. For detailed information on enabling it, see the [Deploy the Add-On](/docs/product_docs/auditor/auditor/addon/connectwise/deployment.md) topic for additional information.   __Auditor settings__   - The Audit Database settings should be configured in Auditor Server. - Monitoring plans should be configured to store data to the Audit Database. - The __TCP 9699__ port (default Integration API port) should be open for inbound connections.   __Required permissions__   - Unless specified, the __Netwrix.ITSM.IntegrationServiceCW.exe__ Windows service (main add-on co mponent) will run under the __LocalSystem__ account. - The account that will be used by Netwrix.ITSM.IntegrationServiceCW.exe component to access Auditor Server must be granted the Global administrator role in Auditor. -OR-  be a member of the Netwrix Auditor __Administrators__ group. |
+| Auditor Server | - The add-on supports Auditor version 9.96. - The add-on will run on the computer where Auditor Server works, so the add-on package should be copied to that machine. - For add-on operation, __NET 4.5__ framework is required on Auditor Server. - Starting with add-on build 1.0.12.0, __TLS 1.2__ protocol is supported. By default, this capability is disabled. For detailed information on enabling it, see the [Deploy the Add-On](/docs/auditor/auditor/addon/connectwise/deployment.md) topic for additional information.   __Auditor settings__   - The Audit Database settings should be configured in Auditor Server. - Monitoring plans should be configured to store data to the Audit Database. - The __TCP 9699__ port (default Integration API port) should be open for inbound connections.   __Required permissions__   - Unless specified, the __Netwrix.ITSM.IntegrationServiceCW.exe__ Windows service (main add-on co mponent) will run under the __LocalSystem__ account. - The account that will be used by Netwrix.ITSM.IntegrationServiceCW.exe component to access Auditor Server must be granted the Global administrator role in Auditor. -OR-  be a member of the Netwrix Auditor __Administrators__ group. |
 | ConnectWise Manage | - By default, the add-on connects to the latest version of the ConnectWise Manage application (v4\_6\_release).  __Required permissions__ - To connect to ConnectWise Manage via its REST API, you will require an API Member account — it is needed to log in to ConnectWise Manage. See [this article](https://docs.connectwise.com/ConnectWise_Documentation/090/040/010/040) for details. - It is recommended to assign the __API Member__ account to a limited security role with the following permissions:   - __System__ – __Table Setup__ – __Inquire Level__ = __All__   - __Companies__ – __Company Maintenance__ – __Add(all)__, __Inquire(all)__   - __Companies__ – __Manage Attachments__ – __Add(all)__, __Inquire(all)__   - __Service Desk__ – __Service Tickets__ – __Add(all)__, __Inquire(all)__ |

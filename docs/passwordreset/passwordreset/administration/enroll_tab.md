@@ -6,7 +6,7 @@ Enroll Tab
 
 Use the __Enroll__ tab to maintain the list of enrollment questions and options.
 
-![configuring_npr_2](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_2.png)
+![configuring_npr_2](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_2.png)
 
 ### Question List
 
@@ -36,7 +36,7 @@ __Step 3 –__ Click __Remove__, and then click __Yes__ when asked to confirm.
 
 __Step 4 –__ Click __Apply__.
 
-__NOTE:__ You can rearrange questions by dragging them. You can also replace question lists with text boxes so users can enter their own questions. See the [Editing the HTML Templates](/docs/product_docs/passwordreset/passwordreset/administration/editing_the_html_templates.md) document for more information
+__NOTE:__ You can rearrange questions by dragging them. You can also replace question lists with text boxes so users can enter their own questions. See the [Editing the HTML Templates](/docs/passwordreset/passwordreset/administration/editing_the_html_templates.md) document for more information
 
 ### Options
 
@@ -46,4 +46,4 @@ The number of questions that users must answer to enroll is configurable, and is
 
 You can also set a minimum length for each answer. Only alphanumeric characters are counted because Password Reset only checks alphanumeric characters. Select the minimum number of alphanumeric characters in each answer from the __Answers must contain at least...__ drop-down list.
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

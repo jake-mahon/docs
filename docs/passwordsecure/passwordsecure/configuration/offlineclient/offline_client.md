@@ -2,7 +2,7 @@
 
 ## What is the Offline Add-on?
 
-The Offline Add-on enables you to work without an active connection to the Netwrix Password Secure server. If the corresponding setting has been configured ([Setup and sync](/docs/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/setup/setup_and_sync.md)), the local copy of the server database will be automatically synchronized according to freely definable cycles. This ensures that you can always use a (relatively) up-to-date version of the database offline.
+The Offline Add-on enables you to work without an active connection to the Netwrix Password Secure server. If the corresponding setting has been configured ([Setup and sync](/docs/passwordsecure/passwordsecure/configuration/offlineclient/setup/setup_and_sync.md)), the local copy of the server database will be automatically synchronized according to freely definable cycles. This ensures that you can always use a (relatively) up-to-date version of the database offline.
 
 Facts
 
@@ -17,18 +17,18 @@ The Offline Add-on is automatically installed together with the main client. No 
 
 #### Operation
 
-Operation of the Offline Add-on is generally based on the [Operation and setup](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/operation_and_setup_admin_client.md). Since the Offline Add-on only has a limited range of functions, the following must be taken into account with regards to its operation:
+Operation of the Offline Add-on is generally based on the [Operation and setup](/docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/operation_and_setup_admin_client.md). Since the Offline Add-on only has a limited range of functions, the following must be taken into account with regards to its operation:
 
 - There is no dashboard
 - Only the password module is available
-- The filter is not available. Records are found using the [Search](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
-- The automatic login data entry can be performed via the [Autofill Add-on](/docs/product_docs/passwordsecure/passwordsecure/configuration/autofill_add-on/autofill_add-on.md), independently of the Offline Add-on
+- The filter is not available. Records are found using the [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
+- The automatic login data entry can be performed via the [Autofill Add-on](/docs/passwordsecure/passwordsecure/configuration/autofill_add-on/autofill_add-on.md), independently of the Offline Add-on
 
-![Offline Client](/static/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.png)
+![Offline Client](/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.png)
 
 #### What data is synchronised?
 
-[Seals](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md) enhance the security concept in Netwrix Password Secure to include a double-check principle that can be defined in fine detail. This means that releases for protected information are linked to the positive authentication of one or more users. Naturally, it is not possible to issue these releases when the server is not connected. For this reason, sealed records are not synchronized and thus do not form part of offline databases.
+[Seals](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md) enhance the security concept in Netwrix Password Secure to include a double-check principle that can be defined in fine detail. This means that releases for protected information are linked to the positive authentication of one or more users. Naturally, it is not possible to issue these releases when the server is not connected. For this reason, sealed records are not synchronized and thus do not form part of offline databases.
 
 Otherwise, all records for which the user has the __export right__ are synchronised.
 

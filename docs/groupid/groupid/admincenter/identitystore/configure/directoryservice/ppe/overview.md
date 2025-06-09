@@ -11,7 +11,7 @@ The PPE policies use rules to decide if it should accept or reject a password. Y
 - Select a template based on the requirements of the most popular regulatory frameworks
 - provide the name of an executable you want to execute upon change and reset password functions in Directory Manager.
 
-Directory Manager also has its Password policy which can be defined at an identity store level and for a particular security role in that identity store. At one point in time, you can either apply Directory Manager Password policy or PPE policies. See the [Directory Manage Password Policy ](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/password.md)for additional information.
+Directory Manager also has its Password policy which can be defined at an identity store level and for a particular security role in that identity store. At one point in time, you can either apply Directory Manager Password policy or PPE policies. See the [Directory Manage Password Policy ](/docs/groupid/groupid/admincenter/securityrole/policy/password.md)for additional information.
 
 In Directory Manager, you can
 
@@ -50,7 +50,7 @@ After the selection of a policy template, the Add Policy page is displayed.
 
 Step 7 – 
 Click __Add__.  
-The policy gets listed on PPE Policies page by the name of the template selected while adding the policy. See the [Set up policy properties](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/policyproperties.md) topic for additional information on renaming a policy.
+The policy gets listed on PPE Policies page by the name of the template selected while adding the policy. See the [Set up policy properties](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/policyproperties.md) topic for additional information on renaming a policy.
 
 ## Edit a PPE Policy
 
@@ -69,11 +69,11 @@ Step 4 – Click the __three vertical dots__ icon next to the policy , you want 
 
 Step 5 – The Edit Policy page displays, while editing you can
 
-- [Set up Rules](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/overview.md)
-- [Assign Policies to Users, Groups & Containers](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/usersgroups.md)
-- [Enable the use of an optional passphrase](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/passphrases.md)
-- [Set up policy properties](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/policyproperties.md)
-- [Set up messages for your users](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/messages.md)
+- [Set up Rules](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/overview.md)
+- [Assign Policies to Users, Groups & Containers](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/usersgroups.md)
+- [Enable the use of an optional passphrase](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/passphrases.md)
+- [Set up policy properties](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/policyproperties.md)
+- [Set up messages for your users](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/ppe/messages.md)
 
 Step 6 – After setting up the policy, click __Update__.
 

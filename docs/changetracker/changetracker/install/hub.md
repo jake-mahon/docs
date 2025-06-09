@@ -1,6 +1,6 @@
 # Hub
 
-__NOTE:__ Ensure the Hub's requirements are met and that the server has had any OS updates applied and has been restarted. See the [Hub Installation for Windows](/docs/product_docs/changetracker/changetracker/requirements/windowsserver.md) topic for additional information.
+__NOTE:__ Ensure the Hub's requirements are met and that the server has had any OS updates applied and has been restarted. See the [Hub Installation for Windows](/docs/changetracker/changetracker/requirements/windowsserver.md) topic for additional information.
 
 A crucial decision to make before installing Change Tracker is how to have Change Tracker store it's data. Change Tracker uses the MongoDB database to store all of it's event data and configuration. The most common approach (and the default) is to run the installer and allow it to install the version of MongoDB that is shipped with it. This will be the latest patch to the latest Long Term Support (LTS) version of the community edition of MongoDB. This edition of MongoDB lacks many of the features available in the Enterprise edition as described in MongoDB's [Upgrade MongoDB Community to MongoDB Enterprise](https://www.mongodb.com/docs/manual/administration/upgrade-community-to-enterprise/) article.
 
@@ -16,37 +16,37 @@ __CAUTION:__ No matter the edition of MongoDB or where it is installed, regular 
 
 The installer can be downloaded from the customer portal. The installer employes a wizard to enable configuration of the installation. Running a later version of the installer on a server that already has a Change Tracker Hub installed will update the installation.
 
-![eula](/static/img/product_docs/activitymonitor/activitymonitor/install/eula.png)
+![eula](/img/product_docs/activitymonitor/activitymonitor/install/eula.png)
 
 __Step 1 –__ Accept the End User License Agreement to start the installation.
 
-![ports](/static/img/product_docs/changetracker/changetracker/install/ports.png)
+![ports](/img/product_docs/changetracker/changetracker/install/ports.png)
 
 __Step 2 –__ Enter the web server ports.
 
-![sslcertificate](/static/img/product_docs/changetracker/changetracker/install/sslcertificate.png)
+![sslcertificate](/img/product_docs/changetracker/changetracker/install/sslcertificate.png)
 
 __Step 3 –__ Enter a password for the SSL certificate's private key.
 
-![mongodb](/static/img/product_docs/changetracker/changetracker/install/mongodb.png)
+![mongodb](/img/product_docs/changetracker/changetracker/install/mongodb.png)
 
 __Step 4 –__ Define an existing MongoDB instance to use or leave the MongoDB server field as localhost to have the installer deploy it's built-in version of MongoDB Community edition.
 
-![mongodblogpath](/static/img/product_docs/changetracker/changetracker/install/mongodblogpath.png)
+![mongodblogpath](/img/product_docs/changetracker/changetracker/install/mongodblogpath.png)
 
 __Step 5 –__ Define the path to store the MongoDB log.
 
-![redis](/static/img/product_docs/changetracker/changetracker/install/redis.png)
+![redis](/img/product_docs/changetracker/changetracker/install/redis.png)
 
 __Step 6 –__ Most installations can leave this blank, but if a clustered installation is planned, enter the address of the required Redis server.
 
-![installationpath](/static/img/product_docs/changetracker/changetracker/install/installationpath.png)
+![installationpath](/img/product_docs/changetracker/changetracker/install/installationpath.png)
 
 __Step 7 –__ Select the installation path for Change Tracker.
 
 __CAUTION:__ Changing this is only recommended for advanced installations.
 
-![adminuserpassword](/static/img/product_docs/changetracker/changetracker/install/adminuserpassword.png)
+![adminuserpassword](/img/product_docs/changetracker/changetracker/install/adminuserpassword.png)
 
 __Step 8 –__ Once the installation is complete set a strong password for the Admin user.
 

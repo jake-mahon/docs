@@ -4,7 +4,7 @@ The 3-FSAC Exceptions job is designed to analyze collected access information fo
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The 3-FSAC Exceptions job has many customizable parameters. See the [Customizable Analysis Tasks for the 3-FSAC Exceptions Job](#Customizable-Analysis-Tasks-for-the-3-FSAC-Exceptions-Job) topic for information on these.
 
@@ -14,7 +14,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __0.Collection__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the 3-FSAC Exceptions Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacexceptionsanalysis.png)
+![Analysis Tasks for the 3-FSAC Exceptions Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacexceptionsanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -97,4 +97,4 @@ Customizable parameters enable users to set the values used for classification d
 | Unusual user stale data activity | @FILESTDDEVS | 3 | Multiples of standard deviation required to be a resource count exception |
 | Unusual user stale data activity | @STALETHRESHOLD | 365 | Number of days after which resources are considered stale |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information on modifying analysis parameters.
+See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information on modifying analysis parameters.

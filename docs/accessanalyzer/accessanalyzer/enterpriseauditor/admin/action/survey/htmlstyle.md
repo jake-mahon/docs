@@ -2,7 +2,7 @@
 
 Choose an HTML style from the HTML Styles list. The Sample pane displays a preview of the style.
 
-![Survey Action Module Wizard HTML Style page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/htmlstyle.png)
+![Survey Action Module Wizard HTML Style page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/htmlstyle.png)
 
 The configurable options are:
 

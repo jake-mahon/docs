@@ -12,5 +12,5 @@ Before you start creating a monitoring plan to audit your Active Directory, plan
 
 Refer to the following topics to access Microsoft teams:
 
-- [Using Basic Authentication with MS Teams](/docs/product_docs/auditor/auditor/configuration/microsoft365/teams/basicauth.md)
-- [Using Modern Authentication with MS Teams](/docs/product_docs/auditor/auditor/configuration/microsoft365/teams/modernauth.md)
+- [Using Basic Authentication with MS Teams](/docs/auditor/auditor/configuration/microsoft365/teams/basicauth.md)
+- [Using Modern Authentication with MS Teams](/docs/auditor/auditor/configuration/microsoft365/teams/modernauth.md)

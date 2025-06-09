@@ -2,7 +2,7 @@
 
 The 2-AD\_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active Directory changes which have occurred since the last time the .Active Directory Inventory Job Group was run. It is dependent on the running of the 1-AD\_Scan Job, also located in the .Active Directory Inventory Job Group.
 
-The 1-AD\_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD\_Changes Job to work. See Step 4 of the [Customize the 1-AD\_Scan Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#Customize-the-1-AD_Scan-Query) topic for additional information.
+The 1-AD\_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD\_Changes Job to work. See Step 4 of the [Customize the 1-AD\_Scan Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#Customize-the-1-AD_Scan-Query) topic for additional information.
 
 ## Analysis Tasks for the 2-AD\_Changes Job
 
@@ -10,7 +10,7 @@ View the analysis tasks by navigating to the __.Active Directory Inventory__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the 2-AD_Changes Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysis.png)
+![Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -87,21 +87,21 @@ In addition to the tables and views created by the analysis tasks, the 2-AD\_Cha
 
 ### Notification Analysis Tasks for the 2-AD\_Changes Job
 
-In order for Access Analyzer to send email notifications, it is necessary for the __Settings__ > __Notification__ node to be properly configured. See the [Notification](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for instructions on enabling the Access Analyzer Console to send email notifications. Once email notifications have been enabled, the individual notification analysis tasks can be configured and enabled. Follow the steps to configure a notification analysis task.
+In order for Access Analyzer to send email notifications, it is necessary for the __Settings__ > __Notification__ node to be properly configured. See the [Notification](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for instructions on enabling the Access Analyzer Console to send email notifications. Once email notifications have been enabled, the individual notification analysis tasks can be configured and enabled. Follow the steps to configure a notification analysis task.
 
 __Step 1 –__ Navigate to the __.Active Directory Inventory__ > __2-AD\_Changes__ > __Configure__ node and select __Analysis__.
 
-![Notification Analysis Tasks for the 2-AD_Changes Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysisnotification.png)
+![Notification Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysisnotification.png)
 
 __Step 2 –__ In the Analysis Selection view, select the desired notification analysis task and click __Analysis Configuration__. The Notification Data Analysis Module opens.
 
-![Notification Data Analysis Module SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtp.png)
+![Notification Data Analysis Module SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtp.png)
 
 __CAUTION:__ Do not make changes to the pages preceding the SMTP page.
 
 __Step 3 –__ Use the __Next__ button to navigate to the email configuration SMTP page.
 
-![Recipients section of SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtprecipients.png)
+![Recipients section of SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtprecipients.png)
 
 __Step 4 –__ In the Recipients section, provide the email addresses or distribution lists (fully qualified address) for those who are to receive this notification. Multiple addresses can be provided. You can use the following options:
 
@@ -109,7 +109,7 @@ __Step 4 –__ In the Recipients section, provide the email addresses or distrib
 - Remove – Remove an email address from the Recipients list
 - Combine multiple messages into single message – Sends one email for all objects in the record set instead of one email per object to all recipients
 
-![Message section of SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtpmessage.png)
+![Message section of SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtpmessage.png)
 
 __Step 5 –__ In the Message section, edit the __Subject__. It is not recommended to remove any parameters. Then, customize the email content in the textbox to provide an explanation of the notification to the recipients.
 

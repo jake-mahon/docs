@@ -11,6 +11,6 @@ Netwrix Auditor Integration API is enabled by default and communicates through p
 
 Netwrix recommends adding a special data source to your monitoring plan—Netwrix API.
 
-In Netwrix Auditor 9.0, Netwrix has updated API schemas. See the [Compatibility Notice](/docs/product_docs/auditor/auditor/api/compatibility.md) topic for additional information.
+In Netwrix Auditor 9.0, Netwrix has updated API schemas. See the [Compatibility Notice](/docs/auditor/auditor/api/compatibility.md) topic for additional information.
 
-To learn more about Integration API capabilities, refer to the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md).
+To learn more about Integration API capabilities, refer to the [Integration API](/docs/auditor/auditor/api/overview.md).

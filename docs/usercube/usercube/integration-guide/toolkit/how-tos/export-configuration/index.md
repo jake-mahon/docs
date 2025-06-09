@@ -15,13 +15,13 @@ The process for configuration export varies according to the situation:
 
 See the [
 Usercube-Export-Configuration
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) topic for additional information.
 
 ## Export the Configuration Locally
 
 Export your configuration by using the [
 Usercube-Export-Configuration
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) executable and declaring at least:
+](/docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) executable and declaring at least:
 
 - the directory where the configuration is to be exported to;
 - the connection string of the database.
@@ -38,7 +38,7 @@ Export a SaaS configuration by proceeding as follows:
 
 1. Log in for configuration deployment/export with the [
    Usercube-Login
-   ](/docs/product_docs/usercube/usercube/integration-guide/executables/references/login/index.md).
+   ](/docs/usercube/usercube/integration-guide/executables/references/login/index.md).
 
    Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure strong security, visibility and ease of use.
      
@@ -71,7 +71,7 @@ Export a SaaS configuration by proceeding as follows:
    However, if, since then, there has been a change in the identity deploying/exporting the configuration or in the Identity Provider used to log in at step 1, then go through the whole process again.
 2. Log in to the IDP to be redirected back to this screen:
 
-   ![Usercube-Login.exe Success Screen](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.png)
+   ![Usercube-Login.exe Success Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.png)
 
    Once authenticated, an identification token is stored on your local machine for the authentication to Identity Manager's deployment and export processes.
 3. Copy the entire text within the blue square and send it to your Identity Manager administrator.
@@ -80,7 +80,7 @@ Export a SaaS configuration by proceeding as follows:
 
 4. Export the configuration by using the [
    Usercube-Export-Configuration
-   ](/docs/product_docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) and declaring at least:
+   ](/docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) and declaring at least:
 
    - the configuration directory;
    - the API URL of your Identity Manager instance.

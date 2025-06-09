@@ -28,4 +28,4 @@ to Elasticsearch, enabling users to view, manage and update these permissions in
 You can grant permissions to security roles on the Entitlement section in the Directory Manager portal. Based on these permissions, role members can performs different actions in the Entitlement section, such as navigate file servers and SharePoint sites, grant
 permissions to objects on shared resources, revoke permissions, and more.
 
-Entitlement-related permissions for a security role in an identity store are discussed in the [Entitlement](/docs/product_docs/groupid/groupid/admincenter/securityrole/permissions.md#Entitlement) section.
+Entitlement-related permissions for a security role in an identity store are discussed in the [Entitlement](/docs/groupid/groupid/admincenter/securityrole/permissions.md#Entitlement) section.

@@ -12,7 +12,7 @@ __Step 3 –__ Do the following:
 
 - To add a new URL, click __Add__.
 
-![addwebsiteurl](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.png)
+![addwebsiteurl](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.png)
 
 __Step 4 –__ Enter the following information:
 

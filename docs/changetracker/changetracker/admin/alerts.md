@@ -6,4 +6,4 @@ Each Netwrix Change Tracker user can be assigned a personalized alerting profile
 
 Access the __User Notification Email__ page via __Settings__ -> __User Notification Emails__ and select a user, then dial in __Notification Types__ for the selected Device Group.
 
-__NOTE:__ Core system settings such as the Syslog Server and SMTP details will also need to be defined via __Settings__ -> __System Settings__ in the Change Tracker . See the [System Settings](/docs/product_docs/changetracker/changetracker/admin/settings/systemsettings.md) topic for additional information.
+__NOTE:__ Core system settings such as the Syslog Server and SMTP details will also need to be defined via __Settings__ -> __System Settings__ in the Change Tracker . See the [System Settings](/docs/changetracker/changetracker/admin/settings/systemsettings.md) topic for additional information.

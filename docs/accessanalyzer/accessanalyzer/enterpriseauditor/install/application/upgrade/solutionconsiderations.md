@@ -24,12 +24,12 @@ Active Directory Solution Considerations
 
 File System Solution Considerations
 
-- For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers. See the [Upgrade Proxy Service Procedure](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/upgrade.md) topic for instructions.
+- For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers. See the [Upgrade Proxy Service Procedure](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/upgrade.md) topic for instructions.
 - For Activity – Ensure the Netwrix Activity Monitor is a compatible version. See the Upgrade Instructions in the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for additional information.
 
 SharePoint Solution Considerations
 
-- For SharePoint Agent – Access Analyzer SharePoint Agent needs to be updated on the SharePoint server where it was installed. See the [Upgrade SharePoint Agent](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/sharepointagent/upgrade.md) section for instructions.
+- For SharePoint Agent – Access Analyzer SharePoint Agent needs to be updated on the SharePoint server where it was installed. See the [Upgrade SharePoint Agent](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/sharepointagent/upgrade.md) section for instructions.
 - For Activity – Ensure the Stealthbits Activity Monitor is a compatible version. See the Upgrade Instructions in the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for additional information.
 
 The following binary component versions are required for Access Analyzer v12.0:
@@ -47,7 +47,7 @@ After upgrading to Access Analyzer 12.0, run the latest version of the __File Sy
 
 This database schema migration should be performed before running other jobs in the File System Solution after upgrading to Access Analyzer 12.0.
 
-See the [File System Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information.
+See the [File System Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information.
 
 ## Configure Global Sensitive Data Settings
 
@@ -55,15 +55,15 @@ __CAUTION:__ The new global Settings will overwrite any previously configured cr
 
 If Sensitive Data Criteria are configured differently for each solution, re-configure the criteria selection at the solution level. See the topic for the applicable solution for additional information.
 
-If the same Sensitive Data Criteria are used for all solutions, configure the criteria selection at the global __Settings__ > __Sensitive Data__ node, which will then be used by default in all solutions. The Sensitive Data node provides configuration options to manage Sensitive Data Criteria and false positive exclusion filters. See the [Sensitive Data](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
+If the same Sensitive Data Criteria are used for all solutions, configure the criteria selection at the global __Settings__ > __Sensitive Data__ node, which will then be used by default in all solutions. The Sensitive Data node provides configuration options to manage Sensitive Data Criteria and false positive exclusion filters. See the [Sensitive Data](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
 
 Follow the steps to configure Sensitive Data Criteria at the global level.
 
-![Global Settings Sensitive Data node](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
+![Global Settings Sensitive Data node](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
 
 __Step 1 –__  If the same Sensitive Data Criteria are used for all solutions, configure the criteria selection at the global Settings level, which will then be used by default in all solution sets. Navigate to the __Settings__ > __Sensitive Data__ node and click __Add__ to open the Select Criteria window.
 
-![Sensitive Data Select Criteria window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/selectcriteria.png)
+![Sensitive Data Select Criteria window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/selectcriteria.png)
 
 __Step 2 –__ Select the desired criteria. Use the __Search Criteria__ text field to filter the list using keywords or expand each category to view and select individual Sensitive Data search criteria, then click __OK__.
 

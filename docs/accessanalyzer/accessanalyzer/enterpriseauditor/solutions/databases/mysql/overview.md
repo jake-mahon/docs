@@ -23,7 +23,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target MySQL Requirements, Permissions, and Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasemysql.md) topic for additional information.
+See the [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasemysql.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -43,10 +43,10 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer MySQL Solution Set is a set of pre-configured audit jobs and reports that provides visibility into MySQL Sensitive Data.
 
-![MySQL Job Group Overview](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.png)
+![MySQL Job Group Overview](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.png)
 
 The job groups in the MySQL Solution are:
 
-- [0.Collection Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/overview.md) – Designed to collect high level summary information from targeted MySQL Servers. This information is used by other jobs in the MySQL Solution Set for further analysis and producing respective reports.
-- [Configuration > MySQL\_DatabaseSizing Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysql_databasesizing.md) – Designed to provide insight into MySQL server configuration settings
-- [MySQL\_SensitiveData Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/sensitivedata/mysql_sensitivedata.md) – Designed to provide insight into where sensitive data exists and who has access to it across all the targeted MySQL databases.
+- [0.Collection Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/overview.md) – Designed to collect high level summary information from targeted MySQL Servers. This information is used by other jobs in the MySQL Solution Set for further analysis and producing respective reports.
+- [Configuration > MySQL\_DatabaseSizing Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysql_databasesizing.md) – Designed to provide insight into MySQL server configuration settings
+- [MySQL\_SensitiveData Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/sensitivedata/mysql_sensitivedata.md) – Designed to provide insight into where sensitive data exists and who has access to it across all the targeted MySQL databases.

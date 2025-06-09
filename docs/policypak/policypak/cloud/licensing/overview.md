@@ -15,7 +15,7 @@ You can license Endpoint Policy Manager Cloud by the following methods:
 
 If you are a Endpoint Policy Manager Cloud Edition customer (also known as Legacy), then your model is a maximum number of licenses that you could possibly consume. In this model you have pre-paid for proposed usage, and if you go over your usage you need to contact us at Endpoint Policy Manager for more licenses. For this reason, we strongly advise you to work with our team to transition to the SaaS Edition, Professional Edition, or Enterprise Edition licenses, where you will enjoy post-pay billing instead of having to work with a ceiling for the number of licenses you can use.
 
-![licensing_with_policypak_cloud_623x164](/static/img/product_docs/policypak/policypak/cloud/licensing/licensing_with_policypak_cloud_623x164.png)
+![licensing_with_policypak_cloud_623x164](/img/product_docs/policypak/policypak/cloud/licensing/licensing_with_policypak_cloud_623x164.png)
 
 ### SaaS Edition (Monthly Post-Pay Licenses)
 

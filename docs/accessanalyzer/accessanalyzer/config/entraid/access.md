@@ -8,7 +8,7 @@ __NOTE:__ A user account with the Global Administrator role is required to regis
 
 Data Collector
 
-- [AzureADInventory Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
+- [AzureADInventory Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
 
 Configuration Settings from the Registered Application
 
@@ -94,7 +94,7 @@ __Step 6 –__ Click __Grant Admin Consent for [tenant]__. Then click __Yes__ in
 
 Now that the permissions have been granted to it, the Connection Profile and host settings for Access Analyzer need to be collected.
 
-__NOTE:__ Additional permissions need to be configured to collect Microsoft Entra roles information. See the [Microsoft Entra Roles Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/entraid/entraroles.md) topic for additional information.
+__NOTE:__ Additional permissions need to be configured to collect Microsoft Entra roles information. See the [Microsoft Entra Roles Auditing Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/entraid/entraroles.md) topic for additional information.
 
 ## Identify the Client ID
 
@@ -108,7 +108,7 @@ __Step 2 –__ Copy the __Application (client) ID__ value.
 
 __Step 3 –__ Save this value in a text file.
 
-This Application (client) ID value is needed for the Access Analyzer Connection Profile and the Custom Attributes page of the AzureADInventory Data Collector. See the [Azure Active Directory for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.md) topic and the [AzureADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topic for additional information. Next generate the application’s Client Secret Key.
+This Application (client) ID value is needed for the Access Analyzer Connection Profile and the Custom Attributes page of the AzureADInventory Data Collector. See the [Azure Active Directory for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.md) topic and the [AzureADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topic for additional information. Next generate the application’s Client Secret Key.
 
 ## Generate the Client Secret Key
 
@@ -139,7 +139,7 @@ __Step 6 –__ The Client Secret will be displayed in the Value column of the ta
 
 __Step 7 –__ Save this value in a text file.
 
-This Client Secret value is needed for the Access Analyzer Connection Profile and the Custom Attributes page of the AzureADInventory Data Collector. See the [Azure Active Directory for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.md) topic and the [AzureADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topic for additional information.
+This Client Secret value is needed for the Access Analyzer Connection Profile and the Custom Attributes page of the AzureADInventory Data Collector. See the [Azure Active Directory for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.md) topic and the [AzureADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topic for additional information.
 
 ## Identify the Tenant Name
 
@@ -155,4 +155,4 @@ __Step 3 –__ Copy the domain name from the list of domains.
 
 __Step 4 –__ Save this value in a text file.
 
-This is needed for the Host List and the Custom Attributes page of the AzureADInventory Data Collector. See the [Microsoft Entra ID Connection Profile & Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md) and [AzureADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topics for additional information.
+This is needed for the Host List and the Custom Attributes page of the AzureADInventory Data Collector. See the [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md) and [AzureADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md) topics for additional information.

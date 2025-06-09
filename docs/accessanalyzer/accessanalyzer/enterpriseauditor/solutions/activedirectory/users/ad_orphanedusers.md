@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_OrphanedUsers__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_OrphanedUsers Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/orphanedusersanalysis.png)
+![Analysis Tasks for the AD_OrphanedUsers Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/orphanedusersanalysis.png)
 
 The default analysis tasks are:
 

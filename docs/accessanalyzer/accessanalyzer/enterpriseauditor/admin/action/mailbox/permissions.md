@@ -2,7 +2,7 @@
 
 Use the Permissions page to determine which permissions to remove. It is a wizard page for the __Add/Change Permissions__ and __Remove Permissions__ operations.
 
-![New Mailbox Action Wizard Permissions page](/static/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
+![New Mailbox Action Wizard Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
 
 Use the following options to add, change or remove Permissions:
 
@@ -17,7 +17,7 @@ Use the following options to add, change or remove Permissions:
 
 Use the User window to select a user. The User window opens when the __User__ down-arrow is selected on the Permissions page.
 
-![User Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/userwindow.png)
+![User Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/userwindow.png)
 
 Select a user using the following options:
 
@@ -47,7 +47,7 @@ Select a user using the following options:
 
 Use the Folder window to select folders. The Folder window opens when the __Folder__ down-arrow is selected on the Permissions page.
 
-![Folder Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderwindow.png)
+![Folder Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderwindow.png)
 
 Select a folder using the following options:
 
@@ -67,7 +67,7 @@ Select a folder using the following options:
 
 Use the Permission window to specify permissions. The Permission window opens when the __Permission__ down-arrow is selected on the Permissions page.
 
-![Permission Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/permissionwindow.png)
+![Permission Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/permissionwindow.png)
 
 Specify permissions using the following options:
 

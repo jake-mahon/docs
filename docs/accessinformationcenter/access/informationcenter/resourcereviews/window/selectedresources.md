@@ -1,8 +1,8 @@
 # Selected Resources Window
 
-The Selected Resources window opens from the __View Selections__ button in the [Create Review Wizard](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/create.md).
+The Selected Resources window opens from the __View Selections__ button in the [Create Review Wizard](/docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/create.md).
 
-![Selected Resources windwo](/static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.png)
+![Selected Resources windwo](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.png)
 
 The table displays:
 

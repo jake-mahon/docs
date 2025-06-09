@@ -38,7 +38,7 @@ Recipient
 
 An email address or mailbox object that should receive the emails sent to the particular mailbox.
 
-Enter a search string to locate the object to add as a recipient, or click the ellipsis button to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+Enter a search string to locate the object to add as a recipient, or click the ellipsis button to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
 Deliver messages to both forwarding address and mailbox
 

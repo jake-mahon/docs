@@ -1,6 +1,6 @@
 # Configuring the Password Policy Client
 
-The Password Policy Client is self-configuring and does not require manual configuration in most cases. See the [Install Password Policy Enforcer Client](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationclient.md) topic for additional details. You may need to manually configure the Password Policy Client if:
+The Password Policy Client is self-configuring and does not require manual configuration in most cases. See the [Install Password Policy Enforcer Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationclient.md) topic for additional details. You may need to manually configure the Password Policy Client if:
 
 - You want to install it in a disabled state to be enabled later.
 - You want to change the display settings for small screens.
@@ -15,15 +15,15 @@ __Step 1 –__ Connect to any Domain Controller where you have Password Policy E
 
 __Step 2 –__ Go to Password Policy Enforcer install directory (C:\Program Files or C:\Program Files (x86)\Password Policy Enforcer) and copy the __PPEClt.adml__ and __PPEClt.admx__ files (highlighted in yellow):
 
-![ppc_configuration](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration.png)
+![ppc_configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration.png)
 
 __Step 3 –__ Go to C:\Windows\Policy Definitions and paste the .admx file in the root of this folder.
 
-![ppc_configuration2](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration2.png)
+![ppc_configuration2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration2.png)
 
 __Step 4 –__ Go to C:\Windows\Policy Definitions\en-US and paste the .adml file in the root of this folder.
 
-![ppc_configuration1](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration1.png)
+![ppc_configuration1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration1.png)
 
 __Step 5 –__ Open __Group Policy Management__ console and check if you have a GPO created for Client. If not, see the topic's section for additional information.
 
@@ -31,17 +31,17 @@ __Step 6 –__ In the left pane, navigate to __Forest: <forest\_name>__ > __Doma
 
 Once the GPO is configured, this view is available:
 
-![ppc_configuration3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration3.png)
+![ppc_configuration3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration3.png)
 
 __Step 7 –__ Right-click the newly created GPO and select __Edit__ from the pop-up menu.
 
 __Step 8 –__ Expand __Computer Configuration__ > __Policies__ > __Administrative Templates__ > __Netwrix Password Policy Enforcer__
 
-![ppc_configuration4](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration4.png)
+![ppc_configuration4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration4.png)
 
 __Step 9 –__ Click on __Netwrix Password Policy Client__ to open a list of modification settings.
 
-![ppc_configuration5](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration5.png)
+![ppc_configuration5](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration5.png)
 
 __Step 10 –__ Select the one you need, then modify and save it.
 
@@ -51,7 +51,7 @@ The Windows 10 and 11 Change Password screen has less space for the Password Pol
 
 The Password Policy Client for Windows 10 and 11 maximizes the available screen space by hiding non-essential user interface elements on small screens. It can also display the Password Policy message in a message box to draw attention to the password policy.
 
-![the_password_policy_client_3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client_3.jpg)
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client_3.jpg)
 
 You can change the default display settings to control which user interface elements are hidden, and the point at which they are hidden. The display of the Password Policy message box is also configurable.
 

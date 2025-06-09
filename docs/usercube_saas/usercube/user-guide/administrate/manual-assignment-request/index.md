@@ -19,9 +19,9 @@ An assignment can be requested for a user sometimes by said user themselves, mos
 
 See the [
 Create the Workforce Repository
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) and [
+](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) and [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
 
 ## View Identity's Entitlements
 
@@ -29,13 +29,13 @@ View the identity's entitlements by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-   ![Home Page - Directory User](/static/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
 2. Click on the user to be checked.
 
-   ![Workflow - User](/static/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
+   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
 3. Click on __View Permissions__ to access the entitlement list.
 
-   ![View Permissions Tab](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+   ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
 
 ## Modify Identity's Entitlements
 
@@ -43,13 +43,13 @@ Act on an existing identity by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-   ![Home Page - Directory User](/static/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
 2. Click on the user to be modified.
 
-   ![Workflow - User](/static/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
+   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
 3. Click on __Actions__ > __Modify Permissions__ to launch the workflow for a manual entitlement request.
 
-   ![Workflow - Modify Permissions](/static/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.png)
+   ![Workflow - Modify Permissions](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.png)
 4. Follow the workflow's instructions to select entitlements and the action to be performed. You can:
 
    - select entitlements to add;
@@ -70,6 +70,6 @@ Act on an existing identity by proceeding as follows:
 
 In order to verify the process, check that the change you made in the user's entitlements is displayed in their __View Permissions__ tab in the directory.
 
-![Home Page - Directory User](/static/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
 
-![View Permissions Tab](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)

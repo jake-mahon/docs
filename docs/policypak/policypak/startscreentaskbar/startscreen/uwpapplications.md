@@ -7,7 +7,7 @@ __Step 1 –__ First, you'll add a UWP application, Windows Calculator. To do th
 
 __Step 2 –__ An example of the UWP applications picker can be seen in Figure 14. If you are on a server with few UWP applications, click "Include common apps" to see many Windows 10 built-in apps. For this Quickstart example, select Calculator, as seen in Figure 14.
 
-![quickstart_start_screen_manager_9](/static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_9.png)
+![quickstart_start_screen_manager_9](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_9.png)
 
 Figure 14. Picking UWP applications from a common list or from your machine.
 
@@ -15,18 +15,18 @@ __NOTE:__ Optionally, if you don't have the application installed on your manage
 
 __Step 3 –__ Next, in the tile settings window, you'll see that UWP applications have four possible sizes. For this Quickstart, select the largest tile size, as shown in Figure 15, and click "Next."
 
-![quickstart_start_screen_manager_10](/static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_10.png)
+![quickstart_start_screen_manager_10](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_10.png)
 
 Figure 15. UWP applications have four icon tile sizes.
 
 __Step 4 –__ Next, type a policy name, as seen in Figure 16, and click "Finish."
 
-![quickstart_start_screen_manager_11](/static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_11.png)
+![quickstart_start_screen_manager_11](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_11.png)
 
 Figure 16. Specifying the UWP policy name.
 
 __Step 5 –__ You'll see the UWP application icon entry, as shown in Figure 17.
 
-![quickstart_start_screen_manager_12](/static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_12.png)
+![quickstart_start_screen_manager_12](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_12.png)
 
 Figure 17. The UWP application icon entry.

@@ -5,7 +5,7 @@ A Group Usage Service schedule monitors expansion events and timestamps affected
 An expansion event occurs when an Exchange Server expands a distribution list for sending messages. The event is recorded in the Exchange Server's message tracking log, which the Group Usage Service schedule reads, parsing for the timestamp that indicates
 when the distribution list was last used.
 
-The timestamp is then used by the [Group Life Cycle Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/grouplifecycle.md) to extend or reduce the life of mail-enabled distribution groups based on their usage. See the [Enable Group Usage Lifecycle](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Enable-Group-Usage-Lifecycle) topic.
+The timestamp is then used by the [Group Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/grouplifecycle.md) to extend or reduce the life of mail-enabled distribution groups based on their usage. See the [Enable Group Usage Lifecycle](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Enable-Group-Usage-Lifecycle) topic.
 
 While creating a Group Usage Service schedule, you have to specify a job triggering criterion, the containers the job will process, and the messaging servers for reading expansion logs.
 
@@ -26,7 +26,7 @@ Step 6 – The Name Preview box displays the schedule name prefixed with _GUS\__
 
 Step 7 – Select a Directory Manager portal URL in the __Portal URL__ drop-down list to include it in notifications generated for the schedule. Users are redirected to this portal to perform any necessary action.
 
-Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/product_docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
+Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
 
 Please note the following while selecting a Scheduler service:
 
@@ -58,7 +58,7 @@ Step 10 – You can also specify one or more messaging servers. The job reads ex
    Select the Server Name check box if you want this job to read the expansion logs of all messaging servers in the identity store.
 3. Click __Add__. The messaging server(s) are displayed in the Messaging Server area.
 
-Step 11 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. See the [Triggers](/docs/product_docs/groupid/groupid/admincenter/schedule/triggers.md) topic for information on the triggering criterion setting.
+Step 11 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. See the [Triggers](/docs/groupid/groupid/admincenter/schedule/triggers.md) topic for information on the triggering criterion setting.
 
 Step 12 – After specifying the settings for triggers, click __Add__. The trigger is displayed in the Triggers area.
 
@@ -72,9 +72,9 @@ The Authentication dialog box displays your accounts in the respective identity 
 
 NOTE: Make sure this account falls under a high priority security role that has elevated permissions in the identity store (for example, Administrator).
 
-NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify the logged-in user's account. See the [Schedules for Microsoft Entra ID Identity Store](/docs/product_docs/groupid/groupid/admincenter/schedule/overview.md#Schedules-for-Microsoft-Entra-ID-Identity-Store) section of the [Schedules](/docs/product_docs/groupid/groupid/admincenter/schedule/overview.md) topic for additional information.
+NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify the logged-in user's account. See the [Schedules for Microsoft Entra ID Identity Store](/docs/groupid/groupid/admincenter/schedule/overview.md#Schedules-for-Microsoft-Entra-ID-Identity-Store) section of the [Schedules](/docs/groupid/groupid/admincenter/schedule/overview.md) topic for additional information.
 
 Step 14 – On the Create Schedule page, click __Create Schedule__.
 
 Step 15 – On the Schedules page, click __Save__.  
- The schedule is displayed under Group Usage Service. See the [View the Schedules in an Identity Store ](/docs/product_docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for additional information.
+ The schedule is displayed under Group Usage Service. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for additional information.

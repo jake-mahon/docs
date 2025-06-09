@@ -6,7 +6,7 @@ CEE supports two protocols to deliver events to Activity Monitor: RPC and HTTP. 
 
 __NOTE:__ Dell CEE can be installed on the same host as the activity agent, or on a different host. If it is installed on the same host, the activity agent can configure it automatically.
 
-![EMC CEE Options  Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/emcceeoptionstab.png)
+![EMC CEE Options  Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/emcceeoptionstab.png)
 
 The options are:
 
@@ -89,6 +89,7 @@ For the Activity Monitor use the following strings:
 
 Here's an example for the synchronous delivery (Audit):
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 
 <CEEConfig version="8.8.1.0">
@@ -126,9 +127,11 @@ Here's an example for the synchronous delivery (Audit):
 </VCAPS>
 
 </CEPP>
+```
 
 Here's an example for the asynchronous delivery (VCAPS):
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 
 <CEEConfig version="8.8.1.0">
@@ -166,11 +169,13 @@ Here's an example for the asynchronous delivery (VCAPS):
 </VCAPS>
 
 </CEPP>
+```
 
 Make sure to set ```Enabled``` to ```1``` only in ```Audit``` or ```VCAPS``` if Activity Monitor is the only product receiving activity from CEE. Otherwise, enable the modes according to all product requirements.
 
 If you want to send activity to several 3rd party applications, separate them with semicolons.
 
+```xml
 <Audit>
 
 <Configuration>
@@ -182,5 +187,6 @@ If you want to send activity to several 3rd party applications, separate them wi
 </Configuration>
 
 </Audit>
+```
 
 __NOTE:__ All protocol strings are case sensitive.

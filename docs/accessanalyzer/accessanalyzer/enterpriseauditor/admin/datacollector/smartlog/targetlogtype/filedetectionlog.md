@@ -2,7 +2,7 @@
 
 The Target Log page is where logs are selected to be collected. This version is a wizard page for the File Change Detection log type.
 
-![SMART Log DC Wizard Target Log page for File Change Detection Log](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/targetlogfiledetection.png)
+![SMART Log DC Wizard Target Log page for File Change Detection Log](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/targetlogfiledetection.png)
 
 In the Exec server section, identify the server that will run the data collection by selecting one of the following options:
 

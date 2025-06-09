@@ -8,4 +8,4 @@ To enable development mode:
 2. Click __Settings__
 3. Click __Enable development mode__
 
-![Jira Enable Development Mode](/static/img/product_docs/strongpointfornetsuite/integrations/jira_enable_dev_mode.png)
+![Jira Enable Development Mode](/img/product_docs/strongpointfornetsuite/integrations/jira_enable_dev_mode.png)

@@ -6,24 +6,24 @@ Follow the steps to install the Administration Console on a remote machine.
 
 __Step 1 –__ From the Threat Prevention Installer package, run the server executable (threatprevention-server-7.5.x.xxx.msi). The Netwrix Threat Prevention Server Setup wizard opens.
 
-![Threat Prevention Server Setup wizard - Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 __Step 2 –__ On the Welcome page, click __Next__ to begin the installation. One of the following happens:
 
 - If the installer detects .NET Framework 4.7.2 or later version installed on the machine, it proceeds with the installation.
 - If it does not detect .NET Framework 4.7.2 or later version, a message is displayed to inform you to install it.
 
-  ![.NET Framework Required](/static/img/product_docs/threatprevention/threatprevention/install/netrequired.png)
+  ![.NET Framework Required](/img/product_docs/threatprevention/threatprevention/install/netrequired.png)
 
   You can either exit the wizard and install it manually or walk through the wizard until its last page and install it as part of the Threat Prevention installation process.
 
 On clicking Next, the End-User License Agreement page is displayed.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
 
 __Step 3 –__ On the End-User License Agreement page, select the __I accept the terms in the License Agreement__ checkbox and click __Next__.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/static/img/product_docs/threatprevention/threatprevention/install/customsetup.png)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/threatprevention/install/customsetup.png)
 
 __Step 4 –__ The Custom Setup page displays the Threat Prevention components that are available to install.
 
@@ -40,14 +40,14 @@ __Step 5 –__ On selecting the Win Console option, the page displays the locati
 
 _(Optional)_ Click __Browse…__ to change the installation location. The Change destination folder page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/static/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.png)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.png)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click __OK__.
 
 The wizard returns to the Custom Setup page. You can use the __Reset__ button to revert to the default settings on the Custom Setup page. Click __Next__ to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/static/img/product_docs/threatprevention/threatprevention/install/emlocationforremoteconsole.png)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/emlocationforremoteconsole.png)
 
 __Step 6 –__ On the Enterprise Manager Location Information page, the host name or IP address for the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service to communicate with the other Threat Prevention components.
 
@@ -59,27 +59,27 @@ __NOTE:__ As a requirement for using custom managed certificates, you must provi
 - Remote instance of the Administration Console
 - Agent
 
-See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/product_docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics for additional information.
+See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics for additional information.
 
-Checking the __Create Windows Firewall Rules__ box automatically sets the Windows firewall rules needed to open these ports on the server during the installation process. If using a third party firewall, uncheck this option and manually create the necessary firewall rules. See the [Firewall Ports](/docs/product_docs/threatprevention/threatprevention/requirements/ports.md) topic for additional information.
+Checking the __Create Windows Firewall Rules__ box automatically sets the Windows firewall rules needed to open these ports on the server during the installation process. If using a third party firewall, uncheck this option and manually create the necessary firewall rules. See the [Firewall Ports](/docs/threatprevention/threatprevention/requirements/ports.md) topic for additional information.
 
 When the settings are configured, click __Next__.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
 
 __Step 7 –__ On the Ready to Install Netwrix Threat Prevention Server page, click __Install__. When finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/static/img/product_docs/activitymonitor/activitymonitor/install/complete.png)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/activitymonitor/install/complete.png)
 
 If .NET Framework 4.7.2 is not installed, the Completed the Netwrix Threat Prevention Server Setup Wizard page displays the __Run .NET installation package__ checkbox. Check it and click __Finish__ to install it.
 
-![Option to install .Net Framework on Complete page](/static/img/product_docs/threatprevention/threatprevention/install/installnet.png)
+![Option to install .Net Framework on Complete page](/img/product_docs/threatprevention/threatprevention/install/installnet.png)
 
 You can also choose to skip the built-in download of .NET Framework 4.7.2 and install it manually.
 
 __Step 8 –__ Click Finish on the Completed the Netwrix Threat Prevention Server Setup Wizard page.
 
-![Threat Prevention Admin Console desktop icon](/static/img/product_docs/threatprevention/threatprevention/install/winconsoleicon.png)
+![Threat Prevention Admin Console desktop icon](/img/product_docs/threatprevention/threatprevention/install/winconsoleicon.png)
 
 The Administration Console has been installed, and the Windows Console icon is now on the desktop.
 

@@ -8,10 +8,10 @@ Select an output from the Monitored Hosts tab and click __Edit__ to open the out
 
 The tab contains the following settings:
 
-![Account Exclusions tab for Exchange Online](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/accountexclusions_exchangeonline.png)
+![Account Exclusions tab for Exchange Online](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/accountexclusions_exchangeonline.png)
 
-- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
-- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
+- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.
@@ -25,10 +25,10 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![linux](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.png)
+![linux](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.png)
 
-- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
-- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
+- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.
@@ -42,10 +42,10 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Account Exclusions tab for NAS Hosts](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/nasdevices.png)
+![Account Exclusions tab for NAS Hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/nasdevices.png)
 
-- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
-- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
+- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+- Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the [Specify Unix Account Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.
@@ -59,10 +59,10 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Account Exclusions tab for SharePoint hosts](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sharepoint.png)
+![Account Exclusions tab for SharePoint hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sharepoint.png)
 
-- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
-- Add SharePoint Account – Opens the Specify account window to add an account for exclusion. See the [Specify Account Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifysharepointaccount.md) topic for additional information.
+- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+- Add SharePoint Account – Opens the Specify account window to add an account for exclusion. See the [Specify Account Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifysharepointaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.
@@ -76,9 +76,9 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![sqlhosts](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sqlhosts.png)
+![sqlhosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sqlhosts.png)
 
-- Add Sql User – Opens the Specify Sql User name window to add an account for exclusion. See the [Specify Sql User Name Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifysqluser.md) topic for additional information.
+- Add Sql User – Opens the Specify Sql User name window to add an account for exclusion. See the [Specify Sql User Name Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifysqluser.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.
@@ -92,9 +92,9 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Account Exlcusions tab for Windows Hosts](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.png)
+![Account Exlcusions tab for Windows Hosts](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.png)
 
-- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+- Add Windows Account – Opens the Specify account or group window to add an account for exclusion. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
   __CAUTION:__ If an account is removed by accident, use the __Cancel__ button to discard the change.

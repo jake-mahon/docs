@@ -20,7 +20,7 @@ When used separated from the server, the agent can be run as:
 
 Some installations require multiple separate agents, but most of them use a single integrated agent that runs within the Identity Manager server process. In that case, the server executable contains the agents and no agent executable needs to be executed. It means that if a Identity Manager server is already installed, no further installation is required.
 
-In this case, the agent working directory is the same as the server working directory, and both the agent's and server's ```appsettings``` share the same configuration. The ```appsettings.agent``` configuration set is still configured through environment variables or via a separate ```appsettings.agent.json``` file stored next to the ```Usercube-Server.exe``` executable, in the common working directory. See the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topics for additional information.
+In this case, the agent working directory is the same as the server working directory, and both the agent's and server's ```appsettings``` share the same configuration. The ```appsettings.agent``` configuration set is still configured through environment variables or via a separate ```appsettings.agent.json``` file stored next to the ```Usercube-Server.exe``` executable, in the common working directory. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topics for additional information.
 
 ## Service Accounts
 
@@ -34,7 +34,7 @@ It can be either the IIS built-in [application pool identity](https://support.mi
 
 The agent's service account needs specific permissions presented in the [
 Create a Working Directory
-](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) topic as:
+](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_, _Modify_, and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the ```Runtime``` directory, usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
@@ -43,11 +43,11 @@ Create a Working Directory
 
 See the [
 Create a Working Directory
-](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 Other permissions should be denied.
 
-> __FAQ__: How to set up directory permissions in Windows Server? See the [Install the Server](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
+> __FAQ__: How to set up directory permissions in Windows Server? See the [Install the Server](/docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
 
 ### Managed systems' permissions
 
@@ -58,12 +58,12 @@ Every Identity Manager agent needs one or several service accounts on the targe
 Before going further, make sure the integration team has provided:
 
 - The list of all managed systems
-- Service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_ operations on the systems associated with a connector allowing respectively synchronization and/or provisioning; See the [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md) topic for additional information.
+- Service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_ operations on the systems associated with a connector allowing respectively synchronization and/or provisioning; See the [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md) topic for additional information.
 - service accounts' credentials
 
-Managed systems credentials are stored in the ```appsettings.agent``` configuration set and can be protected. See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and [
+Managed systems credentials are stored in the ```appsettings.agent``` configuration set and can be protected. See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and [
 Modules
-](/docs/product_docs/usercube_saas/usercube/integration-guide/modules/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/integration-guide/modules/index.md) topics for additional information.
 
 ### Database permissions
 
@@ -85,7 +85,7 @@ The agent requires the use of HTTPS ports and an SSL certificate in order to per
 
 The agent needs access to an SMTP server to [
 Send Notifications
-](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/email-server/index.md).
+](/docs/usercube_saas/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption Key Pair
 
@@ -103,4 +103,4 @@ The key pair can be generated with tools such as [OpenSSL](https://www.openssl.o
 ## What's Next?
 
 To start the installation, follow either the [
-Quick Start Guide](/docs/product_docs/usercube_saas/usercube/installation-guide/quick-start/index.md) or the [Production-Ready Installation](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/index.md).
+Quick Start Guide](/docs/usercube_saas/usercube/installation-guide/quick-start/index.md) or the [Production-Ready Installation](/docs/usercube_saas/usercube/installation-guide/production-ready/index.md).

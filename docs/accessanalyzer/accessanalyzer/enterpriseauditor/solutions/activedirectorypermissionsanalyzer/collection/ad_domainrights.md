@@ -8,11 +8,11 @@ The AD\_DomainRights Job uses the ADPermissions Data Collector for the following
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_DomainRights Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.png)
+![Query for the AD_DomainRights Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.png)
 
 - Domain Access Permissions – Returns domain access permissions
 
-  - See the [ADPermissions Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/overview.md) topic for additional information
+  - See the [ADPermissions Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/overview.md) topic for additional information
 
 ## Analysis Tasks for the AD\_DomainRights Job
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_DomainRights Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.png)
+![Analysis Tasks for the AD_DomainRights Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.png)
 
 The default analysis tasks are:
 

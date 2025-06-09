@@ -4,9 +4,9 @@ This connector exports datasheets from a [Microsoft Excel](https://www.microsoft
 
 This page is about [
 Excel
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/excel/index.md).
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.png)
+![Package: File/Microsoft Excel](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.png)
 
 ## Overview
 
@@ -24,7 +24,7 @@ This connector copies the information from an XLSX file into CSV files, one per 
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -100,7 +100,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder a CSV file per spreadsheet included in the export, named ```<connectionIdentifier>_<index>.csv``` where ```<index>``` is the spreadsheet's index.
+This connector is meant to generate to the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder a CSV file per spreadsheet included in the export, named ```<connectionIdentifier>_<index>.csv``` where ```<index>``` is the spreadsheet's index.
 
 Note that ```0``` is the first index, not ```1```.
 
@@ -124,7 +124,7 @@ This connector does not reset passwords.
 
 This connector has no credential attributes, and therefore does not use [
 RSA Encryption
-](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor a [CyberArk's AAM Credential Providers
-](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
+](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor a [CyberArk's AAM Credential Providers
+](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 
-Still, data protection can be ensured through an [Azure Key Vault](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+Still, data protection can be ensured through an [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.

@@ -10,8 +10,8 @@ You can delete a single workflow or a group of workflows within the scope (Globa
 
   2. Click the link in the __Name__ column for the required workflow (Global for Google Drive in the figure below):
 
-  [![workflow_delete_single_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_delete_single_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/workflows/workflow_delete_single.png)
+  [![workflow_delete_single_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_delete_single_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/workflow_delete_single.png)
 
   3. This will open the list of workflows for selected scope. Select the workflow you need and click __Delete__.
 
-  [![workflows_category_list_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/workflows/workflows_category_list_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/workflows/workflows_category_list.png)
+  [![workflows_category_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflows_category_list_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/workflows_category_list.png)

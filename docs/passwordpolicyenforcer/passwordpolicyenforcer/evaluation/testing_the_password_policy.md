@@ -10,7 +10,7 @@ __Step 1 –__ Click __Test policy__.
 
 __Step 2 –__ Select the __PPETestUser__ you created. The details pane displays the policy applied to the selected user.
 
-![Enter user name for the test](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuser.png)
+![Enter user name for the test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuser.png)
 
 __Step 3 –__ Enter a password to test.
 
@@ -18,11 +18,11 @@ The Password Policy Enforcer configuration console tests the password by simulat
 
 __mypassword__ fails two requirements. You can hover over the requirements to view the associated rule.
 
-![mypassword fails](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuserfail.png)
+![mypassword fails](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuserfail.png)
 
 Click __View log__ to expand Password Policy Enforcer's internal event log. The information in the event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
 
-__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Policy Testing vs. Password Changes](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
+__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
 
 ## Windows Change Password Screen
 
@@ -42,9 +42,9 @@ __Step 5 –__ Click the __submit arrow__.
 
 You may have noticed that the Change Password screen looks different after installing Password Policy Enforcer. The Password Policy Enforcer password policy is shown during password changes if the Password Policy Client is installed. This helps users to choose a compliant password. The Password Policy Client also changes the message that users see when their password is rejected. Both these messages are customizable.
 
-![introduction_3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/introduction_3.jpg)
+![introduction_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/introduction_3.jpg)
 
-The Password Policy Client does not modify any Windows system files, and you do not have to install it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password Policy Enforcer Client are also available. See the [Administration](/docs/product_docs/passwordpolicyenforcer/passwordreset/administration/administration_overview.md) and [](http://www.anixis.com/products/ppeweb/)[Password Policy Enforcer Web](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/web_overview.md) topics for more information. Password Reset and Password Policy Enforcer/Web are licensed separately.
+The Password Policy Client does not modify any Windows system files, and you do not have to install it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password Policy Enforcer Client are also available. See the [Administration](/docs/passwordpolicyenforcer/passwordreset/administration/administration_overview.md) and [](http://www.anixis.com/products/ppeweb/)[Password Policy Enforcer Web](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/web_overview.md) topics for more information. Password Reset and Password Policy Enforcer/Web are licensed separately.
 
 ## Active Directory Users / Computers Console and local Users and Groups Console
 

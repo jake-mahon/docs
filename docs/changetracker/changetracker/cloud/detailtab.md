@@ -1,6 +1,6 @@
 # Detail Tab
 
-![clouddetailtab](/static/img/product_docs/changetracker/changetracker/cloud/clouddetailtab.png)
+![clouddetailtab](/img/product_docs/changetracker/changetracker/cloud/clouddetailtab.png)
 
 Compliance Score Report:
 

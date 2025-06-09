@@ -24,7 +24,7 @@ Add the information for the following:
 
   It is displayed only if you select Private from the Privacy drop-down list.
 
-  Click __Add__ and enter a search string to locate the user to add as a member, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+  Click __Add__ and enter a search string to locate the user to add as a member, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
   Click __Remove__ if you want to remove any member.
 

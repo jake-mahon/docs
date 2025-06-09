@@ -4,7 +4,7 @@ Administrators can use this feature to only scan specified objects on a daily sc
 
 Open __Netwrix Dashboard__ > __Scanners__ > __Daily Scan Configuration__
 
-![Daily Scan configuration](/static/img/product_docs/strongpointforsalesforce/scanners/daily_scan.png)
+![Daily Scan configuration](/img/product_docs/strongpointforsalesforce/scanners/daily_scan.png)
 
 1. Select an optional __Category filter__.
 2. Select an optional __Sub-Category filter__.

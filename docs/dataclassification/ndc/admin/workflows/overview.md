@@ -16,5 +16,5 @@ Looking for real-life use cases and walk through examples? Check out Netwrix tra
 
 See next:
 
-- [Managing Workflows](/docs/product_docs/dataclassification/ndc/admin/workflows/manage.md)
-- [Workflow Actions](/docs/product_docs/dataclassification/ndc/admin/workflows/actions/actions.md)
+- [Managing Workflows](/docs/dataclassification/ndc/admin/workflows/manage.md)
+- [Workflow Actions](/docs/dataclassification/ndc/admin/workflows/actions/actions.md)

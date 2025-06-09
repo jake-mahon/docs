@@ -1,6 +1,6 @@
 # EWSMailbox Data Collector
 
-The EWSMailbox Data Collector provides configuration options to scan mailbox contents, permissions, and sensitive data, and is preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The EWSMailbox Data Collector provides configuration options to scan mailbox contents, permissions, and sensitive data, and is preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -30,13 +30,13 @@ The EWSMailbox Data Collector is configured through the Exchange Mailbox Data Co
 
 __NOTE:__ The Category selected may alter the subsequent steps displayed by the wizard.
 
-- [EWSMailbox: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/category.md)
-- [EWSMailbox: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/options.md)
-- [EWSMailbox: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md)
-- [EWSMailbox: Scope Select](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.md)
-- [EWSMailbox: SDD Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.md)
-- [EWSMailbox: Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.md)
-- [EWSMailbox: Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.md)
-- [EWSMailbox: Search Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.md)
-- [EWSMailbox: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/results.md)
-- [EWSMailbox: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/summary.md)
+- [EWSMailbox: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/category.md)
+- [EWSMailbox: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/options.md)
+- [EWSMailbox: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md)
+- [EWSMailbox: Scope Select](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.md)
+- [EWSMailbox: SDD Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.md)
+- [EWSMailbox: Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.md)
+- [EWSMailbox: Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.md)
+- [EWSMailbox: Search Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.md)
+- [EWSMailbox: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/results.md)
+- [EWSMailbox: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/summary.md)

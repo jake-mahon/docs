@@ -2,31 +2,31 @@
 
 The FPolicy tab allows users to modify FPolicy settings for NetApp devices, privileged access, and enabling/connecting to cluster nodes.
 
-![FPolicy Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/fpolicytab.png)
+![FPolicy Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/fpolicytab.png)
 
-On the __FPolicy__ tab, the agent can configure and/or enable FPolicy automatically. The recommended setting is dependent on the type of NetApp device being targeted. The permissions required for each option are listed. See the [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/netapp7mode/activity.md) topic or the [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/netappcmode/activity.md) topic for additional information.
+On the __FPolicy__ tab, the agent can configure and/or enable FPolicy automatically. The recommended setting is dependent on the type of NetApp device being targeted. The permissions required for each option are listed. See the [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/config/netapp7mode/activity.md) topic or the [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/config/netappcmode/activity.md) topic for additional information.
 
 At the bottom are two additional tabs with setting options. On this tab, specify the protocols to monitor by selecting the radio buttons.
 
 ## Privileged Access Tab
 
-![Privileged Access section in the FPolicy Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/privilegedaccess.png)
+![Privileged Access section in the FPolicy Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/privilegedaccess.png)
 
-The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data ONTAP Cluster-Mode devices is used. See the [Configure Privileged Access](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/netapp.md#Configure-Privileged-Access) topic for additional information.
+The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data ONTAP Cluster-Mode devices is used. See the [Configure Privileged Access](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/netapp.md#Configure-Privileged-Access) topic for additional information.
 
 ## Enable and Connect settings Tab
 
-![Enable and Connect Settings - FPolicy Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettings.png)
+![Enable and Connect Settings - FPolicy Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettings.png)
 
 The Enable and Connect settings tab is enabled when the Enable and connect FPolicy checkbox is selected.
 
 __NOTE:__ Adding nodes are not needed if set user is using a role that has Network Interface permissions.
 
-![Add or Edit Cluster Node popup window](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.png)
+![Add or Edit Cluster Node popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.png)
 
 Add a list of cluster nodes to connect to FPolicy by clicking Add, which opens the Add or Edit Cluster Node window. Enter at least one cluster node in the textbox. Separate multiple nodes with either commas (,), semicolons (;), or spaces. Click OK and the node(s) is displayed in the __Node name__ list.
 
-![Connect to Cluster popup window](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettingsconnecttocluster.png)
+![Connect to Cluster popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/enableorconnectsettingsconnecttocluster.png)
 
 Click Discover to open the Connect to cluster window and retrieve nodes from the cluster.
 

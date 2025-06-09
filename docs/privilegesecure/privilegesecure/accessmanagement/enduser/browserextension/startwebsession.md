@@ -8,7 +8,7 @@ __Step 2 –__ Click a __Resource__ to expand it and show associated Activities.
 
 __Step 3 –__ Click an __Activity__ in the list to start an Activity Session.
 
-![Browser Extension Activity Session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionactivitysession.png)
+![Browser Extension Activity Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionactivitysession.png)
 
 __Step 4 –__ When the session icons are enabled to the right of the Activity, the session is ready:
 
@@ -17,6 +17,6 @@ __Step 4 –__ When the session icons are enabled to the right of the Activity, 
 
 __Step 5 –__ Click the green icon to launch the web session in the current browser tab.
 
-![Browser Extension Starting a Web Session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionstartsession.png)
+![Browser Extension Starting a Web Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionstartsession.png)
 
 A count-down timer indicates how much time is remaining for the web session. A REC icon will be overlayed on the extension if the current page is being recorded.

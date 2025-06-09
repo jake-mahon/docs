@@ -37,13 +37,13 @@ Step 2 – Run the ```NDM11-ADV-2025-014-Utility.exe AddIpSecurity``` cmdlet. Th
 
 In case of multiple machines, use a comma to separate the IP addresses with no space after the comma.
 
-![Restrict IP Addresses](/static/img/product_docs/groupid/groupid/install/iprestrict.png)
+![Restrict IP Addresses](/img/product_docs/groupid/groupid/install/iprestrict.png)
 
 RECOMMENDED: Use a static IP address for the Directory Manager server and the additional IP addresses you specify here to include in the IP security rules.
 
 Step 3 – After successful configuration, the following message is displayed.
 
-![Success message](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/success.png)
+![Success message](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.png)
 
 In the event of a Directory Manager multi-instance deployment, execute the above steps on each Directory Manager server in your environment.
 
@@ -63,7 +63,7 @@ Step 3 – After that, provide the database configurations in the following cmdl
 
 Step 4 – You will be asked to provide the database connection password. On doing so, the password for the GroupID user account will be updated with the generated password.
 
-![Password generation and update message](/static/img/product_docs/groupid/groupid/install/passwordgeneration.png)
+![Password generation and update message](/img/product_docs/groupid/groupid/install/passwordgeneration.png)
 
 ## Export/Import the New Password
 
@@ -91,4 +91,4 @@ Repeat Steps 3-6 on all Directory Manager servers to eliminate the hard-coded pa
 
 You must delete the GroupIDSSUser account from each Directory Manager server. Go to the Computer Management console to delete the account.
 
-![Computer Management console](/static/img/product_docs/groupid/groupid/install/computermanagement.png)
+![Computer Management console](/img/product_docs/groupid/groupid/install/computermanagement.png)

@@ -34,13 +34,13 @@ Bundle components that do not have relationships outside the bundle or customiza
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/product_docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
+6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File
 
 1. Export as a CSV file.
 
-   ![Export to a CSV file](/static/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.png)
+   ![Export to a CSV file](/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.png)
 2. Open the CSV file and delete the __Overall Total row__.
 3. __Save__ the CSV.
 4. Open __Setup__ > __Import/Export__ > __Import CSV Records__
@@ -92,7 +92,7 @@ Bundle components that do not have relationships outside the bundle or customiza
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_wflws},0)) < 1 THEN 0 ELSE 1 END |
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_list},0)) < 1 THEN 0 ELSE 1 END |
 | Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_searches},0)) < 1 THEN 0 ELSE 1 END |
-6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/product_docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
+6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File
 
@@ -118,4 +118,4 @@ Bundle components that do not have relationships outside the bundle or customiza
 11. Click __Next__ and __Start the Import.__
 12. Choose __Save & Run__.
 
-__Next Step:__ [](/docs/product_docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)[Creating Four Mass Updates](/docs/product_docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)
+__Next Step:__ [](/docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)[Creating Four Mass Updates](/docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)

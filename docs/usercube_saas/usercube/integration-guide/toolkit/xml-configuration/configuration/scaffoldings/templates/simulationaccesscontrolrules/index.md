@@ -6,10 +6,10 @@ It also gives access to a shortcut on the dashboard allowing to enter the simula
 
 The scaffolding generates the following scaffoldings:
 
-- [Policy Simulation Control Rules](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/policysimulationcontrolrules/index.md):
+- [Policy Simulation Control Rules](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/policysimulationcontrolrules/index.md):
 - [
   Role And Simulation Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/roleandsimulationcontrolrules/index.md):
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/roleandsimulationcontrolrules/index.md):
 
 ## Examples
 

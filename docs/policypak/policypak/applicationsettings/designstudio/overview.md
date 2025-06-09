@@ -6,4 +6,4 @@ Application Settings Manager. We assume in this manual that you have already rea
 
 This document is a reference guide for the rest of the DesignStudio utility and addresses some advanced scenarios. We won't be using this guide to build any one specific AppSet. Rather, we will move from application to application pointing out some tips, tricks, and quirks which might be applicable to many scenarios while building AppSets.
 
-Video: You may also wish to watch our DesignStudio videos, which cover some higher level details of Endpoint Policy Manager: Application Manager > [DesignStudio How-To](/docs/product_docs/policypak/policypak/applicationsettings/overview/videolearningcenter.md#DesignStudio-How-To).
+Video: You may also wish to watch our DesignStudio videos, which cover some higher level details of Endpoint Policy Manager: Application Manager > [DesignStudio How-To](/docs/policypak/policypak/applicationsettings/overview/videolearningcenter.md#DesignStudio-How-To).

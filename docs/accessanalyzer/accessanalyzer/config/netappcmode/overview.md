@@ -20,13 +20,13 @@ The credentials used by the Access Analyzer scans must have the following permis
 
   - IP Address of scanning server in the export policy for each volume
 
-These permissions grant the credential the ability to enumerate shares, access the remote registry, and bypass NTFS security on folders. The credential used within the assigned Connection Profile for these target hosts requires these permissions. See the [NetApp Data ONTAP Cluster-Mode Access & Sensitive Data Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/netappcmode/access.md) topic for instructions.
+These permissions grant the credential the ability to enumerate shares, access the remote registry, and bypass NTFS security on folders. The credential used within the assigned Connection Profile for these target hosts requires these permissions. See the [NetApp Data ONTAP Cluster-Mode Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/netappcmode/access.md) topic for instructions.
 
-__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
@@ -73,7 +73,7 @@ An FPolicy must be configured on the target device for Activity Auditing (FSAC) 
 
   - ```security login role show-ontapi``` – Readonly access
 
-See the [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/netappcmode/activity.md) topic for instructions.
+See the [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/netappcmode/activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 

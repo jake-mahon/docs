@@ -1,6 +1,6 @@
 # Overcoming Common UAC Prompts with Helper Tools
 
-__NOTE:__ See the [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/product_docs/policypak/policypak/video/leastprivilege/uacprompts.md) video for an overview of using Endpoint Policy Manager Least Privilege Manager Helper Tools in action.
+__NOTE:__ See the [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/policypak/policypak/video/leastprivilege/uacprompts.md) video for an overview of using Endpoint Policy Manager Least Privilege Manager Helper Tools in action.
 
 Three common areas where users need to overcome admin prompts are:
 
@@ -14,7 +14,7 @@ If Standard Users try to manage their own Network settings, they can take a few 
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.png)
 
 __NOTE:__ We used COM / CSLID rules earlier to overcome this concern, but this section and solution gives you another option.
 
@@ -22,12 +22,12 @@ Similarly, if a Standard User attempts to add a printer, they will receive anoth
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.jpg)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.jpg)
 
 Finally, if Standard Users try to manage their own Apps and Features by uninstalling an application that they no longer need, they will also be prevented by a UAC prompt, seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.jpg)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.jpg)
 
 After setting up Endpoint Policy Manager’s Helper Tools, you can overcome all three of these issues.

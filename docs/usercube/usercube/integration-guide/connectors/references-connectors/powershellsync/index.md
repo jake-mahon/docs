@@ -4,9 +4,9 @@ This connector exports data from an external system via a [PowerShell](https://l
 
 This page is about [
 PowerShellSync
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
 
-![Package: Custom/PowerShellSync](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.png)
+![Package: Custom/PowerShellSync](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.png)
 
 ## Overview
 
@@ -38,7 +38,7 @@ The export is executed by a job from the UI, or via ```Usercube-Export-Powershel
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -88,7 +88,7 @@ Identity Manager provides a few variables to be used in the PowerShell script.
 
 | Name | Details |
 | --- | --- |
-| OutputPath | __Type__    String   __Description__ Prefix of the path of the generated CSV file.   __Info:__ the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. __Value__ [```<TempFolderPath>```](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#TempFolderPath)```/ExportOutput/<connectionIdentifier>_``` __Example__ In this example, if the temp folder is named ```Temp``` and the connection ```PowerShellExport```, then the generated file is: ```Temp/ExportOutput/PowerShellExport_users.csv```.  ```generateCSV | Export-CSV ($OutputPath + "users.csv")```  where ```generateCSV``` is a generic PowerShell method that generates CSV files. |
+| OutputPath | __Type__    String   __Description__ Prefix of the path of the generated CSV file.   __Info:__ the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. __Value__ [```<TempFolderPath>```](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#TempFolderPath)```/ExportOutput/<connectionIdentifier>_``` __Example__ In this example, if the temp folder is named ```Temp``` and the connection ```PowerShellExport```, then the generated file is: ```Temp/ExportOutput/PowerShellExport_users.csv```.  ```generateCSV | Export-CSV ($OutputPath + "users.csv")```  where ```generateCSV``` is a generic PowerShell method that generates CSV files. |
 | IsIncremental | __Type__    Boolean   __Description__ Variable to be used to provide a different behavior for complete and incremental synchronization. |
 
 ## Fulfill

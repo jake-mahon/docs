@@ -7,7 +7,7 @@ example, 90 days), so that each member must validate his or her profile once dur
 
 Additionally, you can choose to specify a different profile validation period for new users. Once a new user validates his or her profile within this period, the regular profile validation cycle applies.
 
-By default, a few attributes (fields) are available in the Directory Manager portal for profile validation. You can add and remove fields as required. See the [Manage Property Validation Attributes](/docs/product_docs/groupid/groupid/admincenter/portal/design/propertyvalidation.md) topic.
+By default, a few attributes (fields) are available in the Directory Manager portal for profile validation. You can add and remove fields as required. See the [Manage Property Validation Attributes](/docs/groupid/groupid/admincenter/portal/design/propertyvalidation.md) topic.
 
 ## What can Users do While Validating their Profiles?
 
@@ -25,7 +25,7 @@ When performing profile validation, a user can:
 - Terminate his or her direct reports - When a user terminates his or her direct report, it takes effect immediately when the _terminate a user_ workflow is disabled. If enabled, a request is sent to the approver. If the approver accepts
   it, the direct report is terminated and if the approver rejects it, the direct report remains with the manager.
 
-For workflows in an identity store, see the [System Workflows](/docs/product_docs/groupid/groupid/admincenter/workflow/overview.md#System-Workflows) topic.
+For workflows in an identity store, see the [System Workflows](/docs/groupid/groupid/admincenter/workflow/overview.md#System-Workflows) topic.
 
 ## What Happens When Users do not Validate their Profiles?
 
@@ -38,7 +38,7 @@ To identify user accounts that are disabled for not validating their profiles, s
 
 ## The User Life Cycle Schedule
 
-The [User Life Cycle Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/userlifecycle.md) monitors the profile validation function in Directory Manager. It:
+The [User Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/userlifecycle.md) monitors the profile validation function in Directory Manager. It:
 
 - Monitors the profile validation dates for users.
 - Generates reminder emails, if reminder notifications settings are applied.
@@ -144,7 +144,7 @@ user and the user’s manager.
 You can change the number of reminders to be sent along with their _Before # of Days_ value. The User Life Cycle schedule sends reminder notifications to users according
 to the specified settings.
 
-For email notifications, an SMTP Server must be configured for the identity store. See the an [Configure an SMTP Server](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
+For email notifications, an SMTP Server must be configured for the identity store. See the an [Configure an SMTP Server](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 __To set a new reminder:__
 

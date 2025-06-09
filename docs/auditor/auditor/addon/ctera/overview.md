@@ -10,7 +10,7 @@ On a high level, the add-on works as follows:
 2. The add-on processes these events into Netwrix Auditor-compatible format (Activity Records). Each Activity Record contains the user account, action, time, and other details.
 3. Using the Integration API, the add-on sends the activity records to the Netwrix Auditor Server, which writes them to the Long-Term Archive and the Audit Database.
 
-See the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
+See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | On... | Ensure that... |
 | --- | --- |
-| The Auditor Server side | - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/product_docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/product_docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information.  - The TCP __9699__ port (default Integration API port) is open for inbound connections.  - The user writing data to the Audit Database is granted the __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](/docs/product_docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.  Alternatively, you can grant the __Global administrator__ role or add the user to the __Netwrix Auditor Administrators__ group. In this case, this user will have the most extended permissions in the product. |
+| The Auditor Server side | - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information.  - The TCP __9699__ port (default Integration API port) is open for inbound connections.  - The user writing data to the Audit Database is granted the __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.  Alternatively, you can grant the __Global administrator__ role or add the user to the __Netwrix Auditor Administrators__ group. In this case, this user will have the most extended permissions in the product. |
 | The computer where the add-on will be installed | - The UDP 514 port is open for inbound connections.  - .Net Framework 4.7.2 and above is installed. Review the following Microsoft technical article for additional information on how to install .Net Framework 4.7.2: [Microsoft .NET Framework 4.7.2 offline installer for Windows](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2). |
 
 ### Configure Logging for CTERA Edge Filer
@@ -33,7 +33,7 @@ By default, the add-on will run under the _Local System_ account. The add-on and
 
 - The Add-On must be deployed in the same subnet as CTERA Edge Filer and Auditor.
 - If the monitoring plan name in the _<NetwrixAuditorPlan>_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
-- If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and you should specify another port when configuring the add-on settings (see the [Install Add-On](/docs/product_docs/auditor/auditor/addon/ctera/install.md) and [Define Parameters](/docs/product_docs/auditor/auditor/addon/ctera/parameters.md) topics for additional information). Another option is to install the add-on and Auditor Server on different machines.
+- If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and you should specify another port when configuring the add-on settings (see the [Install Add-On](/docs/auditor/auditor/addon/ctera/install.md) and [Define Parameters](/docs/auditor/auditor/addon/ctera/parameters.md) topics for additional information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice
 

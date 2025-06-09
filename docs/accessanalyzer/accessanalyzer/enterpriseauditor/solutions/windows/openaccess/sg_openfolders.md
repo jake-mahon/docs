@@ -6,7 +6,7 @@ The SG\_OpenFolders job enumerates folders with open access across the audited e
 
 The SG\_OpenFolders job uses the SystemInfo Data Collector for the following query:
 
-![Queries for the SG_OpenFolders Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersquery.png)
+![Queries for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersquery.png)
 
 The query for the SG\_OpenFolders job is:
 
@@ -16,7 +16,7 @@ The query for the SG\_OpenFolders job is:
 
 ### Configure the OpenAccess Query
 
-The OpenAccess query has been preconfigured to run with the default settings. However, the subfolder depth can optionally be increased on the Options page in the System Info Data Collector Wizard. Follow the steps to customize the query. See the [SystemInfo Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/overview.md) topic for additional information.
+The OpenAccess query has been preconfigured to run with the default settings. However, the subfolder depth can optionally be increased on the Options page in the System Info Data Collector Wizard. Follow the steps to customize the query. See the [SystemInfo Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/overview.md) topic for additional information.
 
 __Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Open Access__ > __SG\_OpenFolders__ > __Configure__ node and select __Queries__.
 
@@ -24,7 +24,7 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__. The Quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The System Info Data Collector Wizard opens.
 
-![System Info Data Collector Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/configuresubfolderdepth.png)
+![System Info Data Collector Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/configuresubfolderdepth.png)
 
 __Step 4 –__ Navigate to the Options page and select the __Enumerate subfolders within shared folder__ checkbox and then the __Limit returned subfolders depth to__ checkbox.
 
@@ -40,7 +40,7 @@ Navigate to the __Windows__ > __OpenAccess__ > __SG\_OpenFolders__ > __Configure
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_OpenFolders Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersanalysis.png)
+![Analysis Tasks for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersanalysis.png)
 
 The default analysis tasks are:
 

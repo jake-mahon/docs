@@ -2,7 +2,7 @@
 
 Use the Custom Attributes wizard page to define custom attributes that will be used in the Microsoft Entra ID scan.
 
-![Entra ID Inventory Data Collector Wizard Custom Attributes page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.png)
+![Entra ID Inventory Data Collector Wizard Custom Attributes page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.png)
 
 Configuration options for Custom Attributes include:
 
@@ -22,7 +22,7 @@ Use the __Add__, __Edit__, and __Remove__ buttons at the bottom of the window to
 
 Input custom attributes from Microsoft Entra ID environments using the Custom Attribute pop-up window.
 
-![Custom Attribute Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributewindow.png)
+![Custom Attribute Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributewindow.png)
 
 The options on the Custom Attributes window are:
 
@@ -43,7 +43,7 @@ The Custom Attributes Import wizard adds a list of custom schema and application
 
 __Step 1 –__ On the Custom Attributes page of the Entra Inventory DC wizard, click __Import__. The Custom Attributes Import Wizard opens.
 
-![Custom Attributes Import Wizard](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizard.png)
+![Custom Attributes Import Wizard](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizard.png)
 
 __Step 2 –__ On the Connection page, enter the Tenant Name of the instance of Microsoft Entra ID to be targeted, and then select the method of supplying credentials for the specified tenant instance:
 
@@ -54,13 +54,13 @@ __Step 2 –__ On the Connection page, enter the Tenant Name of the instance of 
 
 ___RECOMMENDED:___ Add a valid Azure Connection Profile to the __Jobs__ > __.Entra ID Inventory__ > __Settings__ > __Connection__ settings as a user defined profile. This ensures the connection profile displays in the dropdown menu.
 
-See the [Microsoft Entra ID Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/entraid/access.md) or the [Microsoft Entra ID Connection Profile & Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md) topics for additional information.
+See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/entraid/access.md) or the [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md) topics for additional information.
 
 __Step 3 –__ Click __Test Connection__ in order to connect to the tenant with the supplied credentials. If they are correct, the Schema Attributes and Application Attributes pages become available. Click __Next__ to navigate to them.
 
 |  |  |
 | --- | --- |
-| ![customattributesimportwizardschema](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizardschema.png) | ![customattributesimportwizardapplication](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizardapplication.png) |
+| ![customattributesimportwizardschema](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizardschema.png) | ![customattributesimportwizardapplication](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributesimportwizardapplication.png) |
 | Schema Extended Attributes page | Application Extended Attributes page |
 
 __Step 4 –__ On the Schema and Application Attributes pages, the wizard populates with the available attributes from the Azure tenant. Expand the object classes and select the checkboxes next to the required attributes to import the custom attributes. Click Next to continue.

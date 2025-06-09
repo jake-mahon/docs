@@ -6,11 +6,11 @@ When you use Endpoint Policy Manager Browser Router you might have multiple poli
 
 Within a particular GPO (Computer or User side), the processing order is counted in numerical order. So, lower-numbered collections attempt to process first, and higher-numbered collections attempt to process last.
 
-![about_policypak_browser_router_42](/static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_42.png)
+![about_policypak_browser_router_42](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_42.png)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 
-![about_policypak_browser_router_43](/static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_43.png)
+![about_policypak_browser_router_43](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_43.png)
 
 ## Precedence
 
@@ -34,7 +34,7 @@ If policies have the same precedence (e.g., we have two patterns in the same GPO
 
 Endpoint Policy Manager Browser Router has four rule types.
 
-![about_policypak_browser_router_14](/static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.png)
+![about_policypak_browser_router_14](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.png)
 
 The following precedence order applies to these rule types.
 

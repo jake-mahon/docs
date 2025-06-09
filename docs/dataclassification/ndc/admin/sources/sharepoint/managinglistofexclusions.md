@@ -6,7 +6,7 @@ When indexing SharePoint files, you can specify the list of file locations that 
 
    To exclude a certain document, enter the page URL with no wildcard indicators (e.g. _http://test.sharepoint.com/sites/documents/excluded%20document.docx_
 
-   ![manage_managing_list_of_exclusions](/static/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/manage_managing_list_of_exclusions.png)
+   ![manage_managing_list_of_exclusions](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/manage_managing_list_of_exclusions.png)
 
    You can use wildcards anywhere in the exclusion pattern definition as follows:
 
@@ -29,7 +29,7 @@ __NOTE:__ Exclusions are case-insensitive.
    | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify __Field Name__. |
    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify __Field Name__. |
 
-   [![gdrive_exclusion_condition_2_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/gdrive_exclusion_condition_2.png)
+   [![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/gdrive_exclusion_condition_2.png)
 
    When finished, click __Add__.
 4. Finally, click __Save__ and close the window.

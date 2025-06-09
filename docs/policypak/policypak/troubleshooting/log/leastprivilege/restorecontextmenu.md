@@ -4,7 +4,7 @@ The Endpoint Policy Manager team is working to fix a known bug that occurs when 
 
 The workaround is to run as Admin or System (or using Endpoint Policy Manager Scripts Manager). Only perform this workaround once. It will restore the Windows 11 Start Menu for the Least Privilege Manager.
 
-![Restoring the Right-Click Context Menu](/static/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/restorecontextmenu.png)
+![Restoring the Right-Click Context Menu](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/restorecontextmenu.png)
 
 Use Endpoint Policy Manager Scripts Manager to perform this action, one time, on the computer side.
 

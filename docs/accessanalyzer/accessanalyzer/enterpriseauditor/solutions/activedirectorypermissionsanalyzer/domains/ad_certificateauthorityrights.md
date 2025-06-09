@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __8.Domains__ > __AD
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateAuthorityRights Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/certificateauthorityrightsanalysis.png)
+![Analysis Tasks for the AD_CertificateAuthorityRights Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/certificateauthorityrightsanalysis.png)
 
 The default analysis tasks are:
 

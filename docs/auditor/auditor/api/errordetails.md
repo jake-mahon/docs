@@ -1,6 +1,6 @@
 # Error Details
 
-On error, most requests contain an error description in the response body (except some requests with empty body, e.g., 404, 405). [Response Status Codes](/docs/product_docs/auditor/auditor/api/responsestatuscodes.md)
+On error, most requests contain an error description in the response body (except some requests with empty body, e.g., 404, 405). [Response Status Codes](/docs/auditor/auditor/api/responsestatuscodes.md)
 
 The error details include:
 

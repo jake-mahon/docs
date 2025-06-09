@@ -40,4 +40,4 @@ NOTE: Restart the Directory Manager server if you apply any of the above.
 
 __See Also__
 
-- [Manage an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/manage.md)
+- [Manage an Identity Store](/docs/groupid/groupid/admincenter/identitystore/manage.md)

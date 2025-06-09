@@ -107,4 +107,4 @@ Do the following:
 
 See also:
 
-- [Oracle Wallet](/docs/product_docs/auditor/plans/items/items_oracle_wallet.md)
+- [Oracle Wallet](/docs/auditor/plans/items/items_oracle_wallet.md)

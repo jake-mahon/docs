@@ -2,7 +2,7 @@
 
 This section describes how the add-on fills in the Netwrix Auditor __Integration__ event log fields with data retrieved from Activity Records.
 
-The Activity Record structure is described in the [Reference for Creating Activity Records](/docs/product_docs/auditor/auditor/api/activityrecordreference.md)topic.
+The Activity Record structure is described in the [Reference for Creating Activity Records](/docs/auditor/auditor/api/activityrecordreference.md)topic.
 
 | Event log field name | Filled in with value | Details |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ The Activity Record structure is described in the [Reference for Creating Activ
 | EventID | __{Calculated by add-on}__  -OR-  __0__ | Depending on _GenerateEventId_ in-script parameter (calculation result also depends on _IncludeDataSourceToMakeEventId_ parameter — if _GenerateEventId_ = _True_). |
 | Task Category | __{DataSource ID}__  -OR-  __1__ | Depending on _SetDataSourceAsEventCategory_ in-script parameter. |
 
-See the [Define Parameters](/docs/product_docs/auditor/auditor/addon/solarwinds/parameters.md) topic for additional information.
+See the [Define Parameters](/docs/auditor/auditor/addon/solarwinds/parameters.md) topic for additional information.
 
 EventData is filled in with data from the Activity Record fields as follows:
 
@@ -29,4 +29,4 @@ EventData is filled in with data from the Activity Record fields as follows:
 
 Details are filled in only if this Activity Record field is not empty.
 
-[![eventlogexample_thumb_0_0](/static/img/product_docs/auditor/auditor/addon/solarwinds/eventlogexample_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/addon/eventlogexample.png)
+[![eventlogexample_thumb_0_0](/img/product_docs/auditor/auditor/addon/solarwinds/eventlogexample_thumb_0_0.png)](/docs/auditor/resources/images/auditor/addon/eventlogexample.png)

@@ -4,7 +4,7 @@ The Threat Response box contains an Import button which provides the ability to 
 
 Follow the steps to import an action.
 
-![importbutton](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.png)
+![importbutton](/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.png)
 
 __Step 1 –__ In the Threat Response box, click Import.
 

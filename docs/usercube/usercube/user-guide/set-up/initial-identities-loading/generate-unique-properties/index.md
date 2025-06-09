@@ -13,7 +13,7 @@ All users need to:
 For each unique property, Identity Manager provides a set of generation rules. You are free to choose the most adequate method regarding your actual approach.
 
 An identifier/email/login suffix can be specified later according to users' contract types, when loading identities through an Excel template.
-See the [Load Identities to Identity Manager](/docs/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) topic for additional information.  
+See the [Load Identities to Identity Manager](/docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) topic for additional information.  
 For example, contractors can get ```-ext``` added automatically to their email addresses.  
 The unicity checks performed for identifiers/emails/logins do not consider prefixes nor suffixes.
   
@@ -27,7 +27,7 @@ Integrators may need the help of the HR department to understand the actual appr
 | --- | --- |
 | Identity Manager Server (required) | Generation rules for unique properties |
 
-See the [Install the Development Environment](/docs/product_docs/usercube/usercube/user-guide/set-up/development-environment-installation/index.md) topic for additional information.
+See the [Install the Development Environment](/docs/usercube/usercube/user-guide/set-up/development-environment-installation/index.md) topic for additional information.
 
 ## Configure Unique Property Generation
 
@@ -35,10 +35,10 @@ Configure the generation of unique properties by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section.
 
-   ![Home Page - Configuration](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
 2. On the __Workforce__ > __Identifiers, Mails & Logins__ page, you can follow Identity Manager's instructions to configure the generation of a unique identifier for new workers (if needed), based on one of the available options.
 
-   ![Unique Identifier Generation](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueidentifier_v602.png)
+   ![Unique Identifier Generation](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueidentifier_v602.png)
 
    - ```Based on Full Name```: replaces all diacritics by the non-accentuated variants; removes all special characters; can add a separator between the first name and the last name if needed (such as ```.``` most often); in case of homonyms, appends a sequence number to the full name.
    - ```Based on Last Name```: uses the first letter of the first name; in case of homonyms, uses more letters of the first name up to the whole first name; in case of homonyms still, appends a sequence number to the full name.
@@ -48,7 +48,7 @@ Configure the generation of unique properties by proceeding as follows:
    - ```Sequence```: uses a sequence with a default prefix which is used when no specific prefix is configured on the user's contract type.
 3. Follow Identity Manager's instructions to configure the generation of a unique email address for all users (who do not have one), based on one of the available options.
 
-   ![Unique Email Generation](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueemail_v602.png)
+   ![Unique Email Generation](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueemail_v602.png)
 
    - ```Based on Full Name```: replaces all diacritics by the non-accentuated variants; removes all special characters; can add a separator between the first name and the last name if needed (such as ```.``` most often); in case of homonyms, appends a sequence number to the full name.
    - ```Based on Last Name```: uses the first letter of the first name; in case of homonyms, uses more letters of the first name up to the whole first name; in case of homonyms still, appends a sequence number to the full name.
@@ -61,24 +61,24 @@ Configure the generation of unique properties by proceeding as follows:
      - emails are generated in a way that lets users keep their email address, even if they move from contractors to employees, or change to another subsidiary.
 4. Follow Identity Manager's instructions to configure the generation of a unique login for new workers (who do not have one), based on one of the available options.
 
-   ![Unique Login Generation](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniquelogin_v602.png)
+   ![Unique Login Generation](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniquelogin_v602.png)
 
    - ```Based on Email```: uses the local part of the email, i.e. before ```@```.
    - ```Based on Full Email```: uses the full email.
    - ```Based on Unique Identifier```: uses the unique identifier (defined on the same page) prepended with the default prefix when no specific prefix is specified on the user's contract type.
 5. Click on the Save icon at the top.
 
-   ![Save Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+   ![Save Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 6. Click on the __Reload__ button to apply the recent changes to the application.
 
-   ![Reload Button](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.png)
+   ![Reload Button](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.png)
 
 ## Verify Property Generation
 
 In order to verify the process, add a fictitious employee through the workflows from the UI.
 
-![Home - New Employee](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/home_newemployee_v600.png)
+![Home - New Employee](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/home_newemployee_v600.png)
 
 Verify in the directory that the employee's sheet displays the expected values for the configured unique properties.
 
-![Home - Directory User](/static/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+![Home - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)

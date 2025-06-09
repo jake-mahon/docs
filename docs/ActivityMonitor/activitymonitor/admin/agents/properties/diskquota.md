@@ -2,7 +2,7 @@
 
 The __Disk Quota Tab__ is used to limit the size of logs to save disk space.
 
-![diskquotatab](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/diskquotatab.png)
+![diskquotatab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/diskquotatab.png)
 
 The configurable options are:
 

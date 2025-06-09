@@ -8,7 +8,7 @@ The Redshift\_Configuration Job uses the SQL Data Collector for queries.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![0](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/0.collectionconfiguration.png)
+![0](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/0.collectionconfiguration.png)
 
 The query is:
 

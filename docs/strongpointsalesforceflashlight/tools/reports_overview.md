@@ -23,22 +23,22 @@ These reports are available from __Flashlight__ > __Reports / List Views__ > __C
 
 These reports are available from __Flashlight__ > __Reports / List Views__ > __Clean Up__.
 
-> [Default Clean Up List View](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Default-Clean-Up-List-View)
+> [Default Clean Up List View](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Default-Clean-Up-List-View)
 >
-> [Open Clean Up Status](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Open-Clean-Up-Status)
+> [Open Clean Up Status](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Open-Clean-Up-Status)
 >
-> [Clean Up Waiting for Info](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Clean-Up-Waiting-for-Info)
+> [Clean Up Waiting for Info](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Clean-Up-Waiting-for-Info)
 >
-> [Customizations Excluded from Clean Up](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Customizations-Excluded-from-Clean-Up)
+> [Customizations Excluded from Clean Up](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Customizations-Excluded-from-Clean-Up)
 >
-> [Unused Fields](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Fields)
+> [Unused Fields](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Fields)
 >
-> [Unused Scripts](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Scripts)
+> [Unused Scripts](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Scripts)
 >
-> [Unused Reports](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Reports)
+> [Unused Reports](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Unused-Reports)
 >
-> [Customizations with Inactive Owners](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Customizations-with-Inactive-Owners)
+> [Customizations with Inactive Owners](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Customizations-with-Inactive-Owners)
 >
-> [Custom Fields without Help Text](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Custom-Fields-without-Help-Text)
+> [Custom Fields without Help Text](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Custom-Fields-without-Help-Text)
 >
-> [Custom Fields without Description](/docs/product_docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Custom-Fields-without-Description)
+> [Custom Fields without Description](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#Custom-Fields-without-Description)

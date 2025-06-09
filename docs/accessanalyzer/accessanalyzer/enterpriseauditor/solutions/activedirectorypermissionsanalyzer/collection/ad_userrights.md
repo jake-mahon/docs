@@ -8,11 +8,11 @@ The AD\_UserRights Job uses the ADPermissions Data Collector for the following q
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_UserRights Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/userrightsquery.png)
+![Query for the AD_UserRights Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/userrightsquery.png)
 
 - User Access Permissions – Returns user permissions
 
-  - See the [ADPermissions Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/overview.md) topic for additional information
+  - See the [ADPermissions Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/overview.md) topic for additional information
 
 ## Analysis Tasks for the AD\_UserRights Job
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_UserRights Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.png)
+![Analysis Tasks for the AD_UserRights Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.png)
 
 The default analysis tasks are:
 

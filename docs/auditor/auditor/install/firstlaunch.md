@@ -15,10 +15,10 @@ To start using Netwrix Auditor
 
 After logging into Netwrix Auditor, you will see the following window:
 
-[![welcome_screen_thumb_0_0](/static/img/product_docs/auditor/auditor/install/welcome_screen_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/welcome_screen.png)
+[![welcome_screen_thumb_0_0](/img/product_docs/auditor/auditor/install/welcome_screen_thumb_0_0.png)](/docs/auditor/resources/images/auditor/welcome_screen.png)
 
 Take a closer look at the Home page. It contains everything you need to enable complete visibility in your environment.
 
 See next:
 
-- [Navigation](/docs/product_docs/auditor/auditor/admin/navigation/overview.md)
+- [Navigation](/docs/auditor/auditor/admin/navigation/overview.md)

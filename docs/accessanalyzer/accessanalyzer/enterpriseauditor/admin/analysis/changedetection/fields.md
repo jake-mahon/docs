@@ -2,7 +2,7 @@
 
 Use the Change Detection Fields page to select the columns on which to report changes.
 
-![Change Detection Data Analysis Module wizard Fields page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/changedetection/fields.png)
+![Change Detection Data Analysis Module wizard Fields page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/changedetection/fields.png)
 
 Choose which fields change detection analyzes using the following options:
 

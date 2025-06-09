@@ -1,6 +1,6 @@
 # Elevating COM / CSLID Class Items
 
-__NOTE:__ For an overview of COM Class Policies, see the [COM Support](/docs/product_docs/policypak/policypak/video/leastprivilege/comsupport.md) video.
+__NOTE:__ For an overview of COM Class Policies, see the [COM Support](/docs/policypak/policypak/video/leastprivilege/comsupport.md) video.
 
 COM items are a special type of Windows process and Endpoint Policy Manager can typically elevate them if needed. Start out by understanding the CSLID value you need to overcome. For instance the properties of Settings > Ethernet > Properties shows a UAC prompt for a COM / CSLID ID.
 
@@ -8,13 +8,13 @@ Carefully take note of the CSLID ID before proceeding.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class.png)
 
 Then create the policy to overcome the UAC prompt by using New > COM Class Policy.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_1.png)
 
 You can then use three methods to provide the CSLID number:
 
@@ -26,12 +26,12 @@ Those choices can be seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_2.png)
 
 In this example we will __Add well-known COM class__. Be sure to select the exact match or the function will not work as expected.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_com_cslid_class_3.png)
 
 After the policy applies, the COM item will have its UAC prompt overcome.

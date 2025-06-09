@@ -12,7 +12,7 @@ __Step 2 –__ Create a PPLPM policy, by right-clicking on that node and select 
 
 __Step 3 –__ Select __Use Simple Rule__ and click on __Next__
 
-![467_1_img-1](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_1_img-1.png)
+![467_1_img-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_1_img-1.png)
 
 __NOTE:__ Consider choosing __Use combo rule__ option for extra security.
 
@@ -20,7 +20,7 @@ __Step 4 –__ Choose condition as Path, click the __Add__ button and select __A
 
 __Step 5 –__ Click on the __Browse__ button and specify the path of the fontview.exe application, as shown below.
 
-__Step 6 –__ Run ```GPUPDATE ```on the client machine and verify the results. You can also view theabove steps in this video: [Enable end-users to install their own fonts](/docs/product_docs/policypak/policypak/video/leastprivilege/elevate/installfonts.md)
+__Step 6 –__ Run ```GPUPDATE ```on the client machine and verify the results. You can also view theabove steps in this video: [Enable end-users to install their own fonts](/docs/policypak/policypak/video/leastprivilege/elevate/installfonts.md)
 
 ## Installing fonts for end-users (FOR ADMINS)
 
@@ -38,7 +38,7 @@ __Step 3 –__ Leave the default option checked __Apply this policy to computer 
 
 __Step 4 –__ Select PowerShell Script from the drop-down and paste the script to install fonts.
 
-![467_5_img-3](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_5_img-3.png)
+![467_5_img-3](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_5_img-3.png)
 
 This script to Add Fonts from PowerShell is acquired from Microsoft Doc website. For more information see the Microsoft article on [Adding and Removing Fonts with Windows PowerShell](https://learn.microsoft.com/en-us/archive/blogs/deploymentguys/adding-and-removing-fonts-with-windows-powershell).[](https://learn.microsoft.com/en-us/archive/blogs/deploymentguys/adding-and-removing-fonts-with-windows-powershell)
 
@@ -217,15 +217,15 @@ $fontsFolderPath = Get-SpecialFolder($CSIDL_FONTS)    Process-Arguments
 
 __Step 5 –__ Insert the folder path for the required fonts and click __Next__.
 
-![467_7_img-5](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_7_img-5.png)
+![467_7_img-5](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_7_img-5.png)
 
 __Step 6 –__ Select __Once or when forced__ and click __Next__ .
 
-![467_9_img-6](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_9_img-6.png)
+![467_9_img-6](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_9_img-6.png)
 
 __Step 7 –__ Name the policy and click __Finish__.
 
-![467_11_img-7](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_11_img-7.png)
+![467_11_img-7](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_11_img-7.png)
 
 __Step 8 –__ Run ```GPUPDATE /FORCE``` on theclient machine.
 
@@ -235,15 +235,15 @@ __Step 8 –__ Run ```GPUPDATE /FORCE``` on theclient machine.
 
    Select __PowerShell Script__ from the drop-down and paste the script to install fonts.
 
-   ![467_5_img-3](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_5_img-3.png)
+   ![467_5_img-3](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_5_img-3.png)
 4. This script to Add Fonts from PowerShell is acquired from Microsoft Doc website. For more information see the Microsoft article on [Adding and Removing Fonts with Windows PowerShell](https://learn.microsoft.com/en-us/archive/blogs/deploymentguys/adding-and-removing-fonts-with-windows-powershell).
 5. Insert the folder path for the required fonts and click __Next__.
 
-   ![467_7_img-5](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_7_img-5.png)
+   ![467_7_img-5](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_7_img-5.png)
 6. Select __Once or when forced__ radio button and click __Next__ .
 
-   ![467_9_img-6](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_9_img-6.png)
+   ![467_9_img-6](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_9_img-6.png)
 7. Name the policy and click __Finish__.
 
-   ![467_11_img-7](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/467_11_img-7.png)
+   ![467_11_img-7](/img/product_docs/policypak/policypak/leastprivilege/elevate/467_11_img-7.png)
 8. Run ```GPUPDATE /FORCE``` on the client machine.

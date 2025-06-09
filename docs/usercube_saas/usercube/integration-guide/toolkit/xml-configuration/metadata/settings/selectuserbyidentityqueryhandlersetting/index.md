@@ -18,7 +18,7 @@ After modifying the authentication mode via ```SelectUserByIdentityQueryHandlerS
 The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory\_User__.
 
 In this example, authentication has been set up using [
-End-User Authentication](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
+End-User Authentication](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
 
 The __AfterToken__ attribute parses the ```DOMAIN/userName``` string into ```userName```.
 

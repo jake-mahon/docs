@@ -17,25 +17,25 @@ This workflow assumes you already have Netwrix Auditor installed with configured
 
 __NOTE:__ Access Reviews is a separately licensed product and is not included with Netwrix Auditor. Make sure that you have the Access Reviews license enabled in Auditor.
 
-See the [Licenses](/docs/product_docs/auditor/auditor/admin/settings/licenses.md) topic for additional information.
+See the [Licenses](/docs/auditor/auditor/admin/settings/licenses.md) topic for additional information.
 
 _Remember,_ there is one single Access Review license for all data sources that can send data to the application.
 
 Follow the steps to use Netwrix Auditor Access Reviews in conjuction with Auditor.
 
-__Step 1 –__ Install Access Reviews on the same computer where Netwrix Auditor is installed. See the [Installation Overview](/docs/product_docs/auditor/access/reviews/installation/overview.md) topic for prerequisites and additional information.
+__Step 1 –__ Install Access Reviews on the same computer where Netwrix Auditor is installed. See the [Installation Overview](/docs/auditor/access/reviews/installation/overview.md) topic for prerequisites and additional information.
 
-__Step 2 –__ Configure Access Reviews. The Configuration interface is only available to users with the Administrator role. See the [Administrator Overview](/docs/product_docs/auditor/access/reviews/admin/overview.md) topic for configuration settings and enabling user access.
+__Step 2 –__ Configure Access Reviews. The Configuration interface is only available to users with the Administrator role. See the [Administrator Overview](/docs/auditor/access/reviews/admin/overview.md) topic for configuration settings and enabling user access.
 
-__Step 3 –__ Use the Access reviews configuration tool to setup the data flow from the Auditor database to the Access Reviews database. See the [Select Data Sources](/docs/product_docs/auditor/auditor/accessreviewsconfiguration.md) topic for additional information.
+__Step 3 –__ Use the Access reviews configuration tool to setup the data flow from the Auditor database to the Access Reviews database. See the [Select Data Sources](/docs/auditor/auditor/accessreviewsconfiguration.md) topic for additional information.
 
 __NOTE:__ Data upload speed depends on the amount of collected data and Auditor collectors configuration.
 
-__Step 4 –__ Configure resource ownership through the Access Reviews Console. The Resource Owners interface is available to users with either the Security Team or Administrator role. Managing ownership is core component for the Access Reviews workflow. See the [Resource Owners Overview](/docs/product_docs/auditor/access/reviews/resourceowners/overview.md) topic for additional information.
+__Step 4 –__ Configure resource ownership through the Access Reviews Console. The Resource Owners interface is available to users with either the Security Team or Administrator role. Managing ownership is core component for the Access Reviews workflow. See the [Resource Owners Overview](/docs/auditor/access/reviews/resourceowners/overview.md) topic for additional information.
 
-__NOTE:__ The [Owners & Access Reviews](/docs/product_docs/auditor/access/reviews/resourceowners/owneroverview.md) topic and subtopics are written for the assigned owners. You can distribute the URL to this topic or download a PDF to be distributed to your assigned resource owners.
+__NOTE:__ The [Owners & Access Reviews](/docs/auditor/access/reviews/resourceowners/owneroverview.md) topic and subtopics are written for the assigned owners. You can distribute the URL to this topic or download a PDF to be distributed to your assigned resource owners.
 
-__Step 5 –__ Configure and run reviews. The Entitlement Reviews interface is available to users with either the Security Team or Administrator role. See the [Reviews Overview](/docs/product_docs/auditor/access/reviews/entitlementreviews/overview.md) topic for additional information.
+__Step 5 –__ Configure and run reviews. The Entitlement Reviews interface is available to users with either the Security Team or Administrator role. See the [Reviews Overview](/docs/auditor/access/reviews/entitlementreviews/overview.md) topic for additional information.
 
 Netwrix Auditor Access Reviews is now configured and ready to use.
 
@@ -58,10 +58,10 @@ Review the following considerations:
 
    Next, configure the Access Reviews for your environment:
 
-   - Console Users — Grant users access to the application starting with an Administrator account. There are two levels of access: Administrator and Security Team. See the [Console Access Page](/docs/product_docs/auditor/access/reviews/admin/configuration/consoleaccess.md) topic for information.
+   - Console Users — Grant users access to the application starting with an Administrator account. There are two levels of access: Administrator and Security Team. See the [Console Access Page](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md) topic for information.
 
-     - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/product_docs/auditor/access/reviews/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
-   - Notification — Configure the Notification settings required in order for the application to send email. See the [Notifications Page](/docs/product_docs/auditor/access/reviews/admin/configuration/notifications.md) topic for information.
+     - Optionally, disable the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/auditor/access/reviews/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
+   - Notification — Configure the Notification settings required in order for the application to send email. See the [Notifications Page](/docs/auditor/access/reviews/admin/configuration/notifications.md) topic for information.
 
    ## Enable Console Users
 
@@ -77,16 +77,16 @@ Review the following considerations:
 
    - Security Team — Need topics that align to the work the will be doing in the Access Reviews Console:
 
-     - Ownership Administrator — Send the URL link for the [Resource Owners Overview](/docs/product_docs/auditor/access/reviews/resourceowners/overview.md) topic.
-     - Review Administrator — Send the URL link for the [Reviews Overview](/docs/product_docs/auditor/access/reviews/entitlementreviews/overview.md) topic.
-   - Administrator — Send the URL link for the [Administrator Overview](/docs/product_docs/auditor/access/reviews/admin/overview.md) topic.
+     - Ownership Administrator — Send the URL link for the [Resource Owners Overview](/docs/auditor/access/reviews/resourceowners/overview.md) topic.
+     - Review Administrator — Send the URL link for the [Reviews Overview](/docs/auditor/access/reviews/entitlementreviews/overview.md) topic.
+   - Administrator — Send the URL link for the [Administrator Overview](/docs/auditor/access/reviews/admin/overview.md) topic.
 
    ## Resource Ownership Configuration
 
    Ownership of resources must be assigned in order to use the Access Reviews workflow:
 
-   - Resource Ownership — Assign ownership for resources to be managed through the application. See the [Resource Owners Interface](/docs/product_docs/auditor/access/reviews/resourceowners/interface.md) topic for additional information.
-   - Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/product_docs/auditor/access/reviews/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
+   - Resource Ownership — Assign ownership for resources to be managed through the application. See the [Resource Owners Interface](/docs/auditor/access/reviews/resourceowners/interface.md) topic for additional information.
+   - Enable Owners — Send a notification to your owners about resource ownership with the application. See the [Notification to Owners](/docs/auditor/access/reviews/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
 
    ## Access Reviews Workflow
 
@@ -98,4 +98,4 @@ Review the following considerations:
 
    ___RECOMMENDED:___ Set expectations for response time from owners.
 
-   Reviews can be run multiple times, maintaining a historical record for each instance. See the [Reviews Overview](/docs/product_docs/auditor/access/reviews/entitlementreviews/overview.md) topic for additional information.
+   Reviews can be run multiple times, maintaining a historical record for each instance. See the [Reviews Overview](/docs/auditor/access/reviews/entitlementreviews/overview.md) topic for additional information.

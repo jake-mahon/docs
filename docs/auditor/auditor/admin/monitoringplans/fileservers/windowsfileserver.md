@@ -2,8 +2,8 @@
 
 __NOTE:__ Prior to configuring your monitoring plan, please read and complete the instructions in the following topics:
 
-- [Protocols and Ports Required](/docs/product_docs/auditor/auditor/requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
-- [Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
+- [Protocols and Ports Required](/docs/auditor/auditor/requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
+- [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
 
 ## Windows File Share
 
@@ -13,9 +13,9 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify Windows file share | Provide UNC path to a shared resource. See the section below for special considerations.  Do not specify a default file share mapped to a local drive (e.g., \\Server\e$). |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information.  Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/product_docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information.  Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information. |
 | Scope |  |
-| Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic.  See the [Configure Scope](#Configure-Scope) topic for additional information on how to narrow your monitoring scope.  By default, Netwrix Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). If you want to monitor user-defined hidden shares, select the related option in the monitored item settings.  Remember that administrative hidden shares like default system root or Windows directory (ADMIN$), default drive shares (D$, E$), etc. will not be monitored. See the topics on the monitored items for details.  In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/docs/product_docs/auditor/auditor/admin/monitoringplans/overview.md)topic for additional information. |
+| Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic.  See the [Configure Scope](#Configure-Scope) topic for additional information on how to narrow your monitoring scope.  By default, Netwrix Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). If you want to monitor user-defined hidden shares, select the related option in the monitored item settings.  Remember that administrative hidden shares like default system root or Windows directory (ADMIN$), default drive shares (D$, E$), etc. will not be monitored. See the topics on the monitored items for details.  In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/docs/auditor/auditor/admin/monitoringplans/overview.md)topic for additional information. |
 
 ### Configure Scope
 
@@ -47,7 +47,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/static/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+[![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -76,10 +76,10 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify AD container | Specify a whole AD domain, OU or container. Click __Browse__ to select from the list of containers in your network. You can also:   - Select a particular computer type to be audited within the chosen AD container: __Domain controllers, Servers (excluding domain controllers)__, or __Workstations__. - Click __Exclude__ to specify AD domains, OUs, and containers you do not want to audit. In the Exclude Containers dialog, click Add and specify an object.   The list of containers does not include child domains of trusted domains. Use other options __(Computer, IP range__ to specify the target computers. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  If using a group Managed Service Account (gMSA), you can specify only the account name in the _domain\account$_ format. Password field can be empty.  Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/product_docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information.  Refer to the [Permissions for Active Directory Auditing](/docs/product_docs/auditor/auditor/configuration/activedirectory/permissions.md#Permissions-for-Active-Directory-Auditing) topic for more information on using Netwrix Privilege Secure as an account for data collection.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the[Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  If using a group Managed Service Account (gMSA), you can specify only the account name in the _domain\account$_ format. Password field can be empty.  Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information.  Refer to the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md#Permissions-for-Active-Directory-Auditing) topic for more information on using Netwrix Privilege Secure as an account for data collection.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the[Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 | Containers and Computers |  |
 | Monitor hidden shares | By default, Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). Select __Monitor user-defined hidden shares__ if necessary.  Even when this option is selected, the product will not collect data from administrative hidden shares such as: default system root or Windows directory (ADMIN$), default drive shares (D$, E$, etc.), shares used by printers to enable remote administration (PRINT$), etc. |
-| Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic.  Depending on the type of the object you want to exclude, select one of the following:   - Add AD Container – Browse for a container to be excluded from being audited. You can select a whole AD domain, OU or container. - Add Computer – Provide the name of the computer you want to exclude as shown in the "_Where_" column of reports and Activity Summaries. For example, _backupsrv01.mydomain.local_.  Wildcards (\*) are not supported.   In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/docs/product_docs/auditor/auditor/admin/monitoringplans/overview.md)topic for additional information. |
+| Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic.  Depending on the type of the object you want to exclude, select one of the following:   - Add AD Container – Browse for a container to be excluded from being audited. You can select a whole AD domain, OU or container. - Add Computer – Provide the name of the computer you want to exclude as shown in the "_Where_" column of reports and Activity Summaries. For example, _backupsrv01.mydomain.local_.  Wildcards (\*) are not supported.   In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/docs/auditor/auditor/admin/monitoringplans/overview.md)topic for additional information. |
 
 ## IP Range
 
@@ -89,7 +89,7 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify IP range | Specify an IP range for the audited computers.  To exclude computers from within the specified range, click __Exclude__. Enter the IP subrange you want to exclude, and click __Add__. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 | Scope |  |
 | Monitor hidden shares | By default, Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). Select __Monitor user-defined hidden shares__ if necessary.  Even when this option is selected, the product will not collect data from administrative hidden shares such as: default system root or Windows directory (ADMIN$), default drive shares (D$, E$, etc.), shares used by printers to enable remote administration (PRINT$), etc. |
 
@@ -103,7 +103,7 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify a computer | Provide a server name by entering its FQDN, NETBIOS or IPv4 address. You can click Browse to select a computer from the list of computers in your network. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:   - User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. - Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](/docs/product_docs/auditor/auditor/requirements/gmsa.md) topic for additional information. - Netwrix Privilege Secure. Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/product_docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:   - User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. - Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md) topic for additional information. - Netwrix Privilege Secure. Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information. |
 | Scope |  |
 | Monitor hidden shares | By default, Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). Select __Monitor user-defined hidden shares__ if necessary.  Even when this option is selected, the product will not collect data from administrative hidden shares such as: default system root or Windows directory (ADMIN$), default drive shares (D$, E$, etc.), shares used by printers to enable remote administration (PRINT$), etc. |
 | Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic. |
@@ -112,7 +112,7 @@ Complete the following fields:
 
 By default, both user activity and state-in-time data will be collected for the monitored item. However, you can narrow your monitoring scope by specifying certain locations, user accounts or actions to exclude .
 
-[![Add Item (Computer)](/static/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclusions.png)
+[![Add Item (Computer)](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclusions.png)
 
 Click Add Exclusion, then follow the steps in the Specify Filters dialog:
 
@@ -140,13 +140,13 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_
 
-![Specify Filters](/static/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
+![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 After configuring all filters, click __Add__ to save them and return to the item settings.
 
 ## Use Netwrix Privilege Secure as a Data Collecting Account
 
-Starting with version 10.7, you can use Netwrix Privilege Secure to manage the account for collecting data, after configuring the integration. See the [Netwrix Privilege Secure](/docs/product_docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information about integration and supported data sources. In this case, the credentials will not be stored by Netwrix Auditor. Instead, they will be managed by Netwrix Privilege Secure and provided on demand, ensuring password rotation or using temporary accounts for data collection.
+Starting with version 10.7, you can use Netwrix Privilege Secure to manage the account for collecting data, after configuring the integration. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information about integration and supported data sources. In this case, the credentials will not be stored by Netwrix Auditor. Instead, they will be managed by Netwrix Privilege Secure and provided on demand, ensuring password rotation or using temporary accounts for data collection.
 
 Follow the steps to use Netwrix Privilege Secure as an account for data collection.
 
@@ -154,7 +154,7 @@ __Step 1 –__ Select the desired item.
 
 __Step 2 –__ In the item configuration menu, select Netwrix Privilege Secure as an option for data collection.
 
-![npsdatacollectingaccount](/static/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.png)
+![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.png)
 
 __Step 3 –__ Select the type of the Access Policy you want to use in Netwrix Privilege Secure. Credential-based is the default option. Refer to the [Netwrix Privilege Secure](https://helpcenter.netwrix.com/category/privilegesecure_accessmanagement) documentation to learn more about Access Policies.
 
@@ -162,7 +162,7 @@ In this case, you need to provide the username of the account managed by Netwrix
 
 __NOTE:__ Netwrix recommends using different credentials for different monitoring plans and data sources.
 
-![npsdatacollectingaccountresourced](/static/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.png)
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.png)
 
 The second option is Resource-based. To use this option, you need to provide the Activity and Resource names, assigned to Netwrix Auditor in the corresponding Resource-based policy. Make sure that you specified the same names as in Netwrix Privilege Secure.
 

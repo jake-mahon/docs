@@ -43,9 +43,9 @@ Follow the steps to change a group's primary owner.
    The Groups page is displayed with the __My Groups__ tab in view.
 2. Select the required group and click __Properties__ on the toolbar.
 3. The group's properties page is displayed.
-4. On the [Group properties - Owner tab](/docs/product_docs/groupid/groupid/portal/group/properties/owner.md), the __Owner__ box displays the group's primary owner.
+4. On the [Group properties - Owner tab](/docs/groupid/groupid/portal/group/properties/owner.md), the __Owner__ box displays the group's primary owner.
 
-   To change the primary owner, click __Browse__ to launch the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md), where you can search and select another owner.
+   To change the primary owner, click __Browse__ to launch the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md), where you can search and select another owner.
 5. Save the changes.
 
 ## Set additional owners for a group
@@ -66,9 +66,9 @@ owners the group can have.
 
    The Groups page is displayed with the __My Groups__ tab in view.
 2. Select the required group and click __Properties__ on the toolbar.
-3. The group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
-4. On the [Group properties - Owner tab](/docs/product_docs/groupid/groupid/portal/group/properties/owner.md), click __Add__ in the __Additional Owners__ area.
-5. Enter a search string to locate the object to add as an additional owner, or click __Advanced__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+3. The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+4. On the [Group properties - Owner tab](/docs/groupid/groupid/portal/group/properties/owner.md), click __Add__ in the __Additional Owners__ area.
+5. Enter a search string to locate the object to add as an additional owner, or click __Advanced__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 6. By default, all group-related notifications (such as group expiry, deletion, and renewal notifications) are sent to the primary owner and all additional owners. To exclude an additional owner from receiving notifications, select the __Do not notify__ check box.
 
    NOTE: When a Smart Group Update job runs on a group, the notification behavior is as follows:
@@ -86,12 +86,12 @@ Follow the steps to import additional owners for a group.
 
    Or
 
-   [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) a group to import its additional owners from an external file.
+   [Directory Search](/docs/groupid/groupid/portal/search/search.md) a group to import its additional owners from an external file.
 2. Select the required from the list. and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
-3. On the [Group properties - Owner tab](/docs/product_docs/groupid/groupid/portal/group/properties/owner.md), click __Import__ to launch the __Import Additional Owners__ wizard.
-4. See [Import Additional Owners](/docs/product_docs/groupid/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
+   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+3. On the [Group properties - Owner tab](/docs/groupid/groupid/portal/group/properties/owner.md), click __Import__ to launch the __Import Additional Owners__ wizard.
+4. See [Import Additional Owners](/docs/groupid/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
 5. Save the changes.
 
 ## Export additional owners
@@ -104,10 +104,10 @@ You can export additional owners of a group to an external file.
 
    Or
 
-   [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) a group to export its additional owners to an external file.
+   [Directory Search](/docs/groupid/groupid/portal/search/search.md) a group to export its additional owners to an external file.
 2. Select the group and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
 3. On the __Owner__ tab, click __Export__ to launch the __Export Additional Owners__ wizard.
 4. On the __Attributes__ page:
 
@@ -128,9 +128,9 @@ You can export additional owners of a group to an external file.
 
 Ownership type indicates whether an object is a temporary or permanent additional owner of a group. You can change the ownership type of an additional owner from temporary to permanent and vice versa.
 
-1. [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) a group to change the ownership type of its additional owner(s).
+1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) a group to change the ownership type of its additional owner(s).
 2. Select this group on the Search Results page and click __Properties__ on the toolbar.
-3. On the group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page, click the __Owner__ tab.
+3. On the group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page, click the __Owner__ tab.
 4. To change the ownership type of an additional owner, click anywhere in the respective row to make it editable, and select an option from the __Ownership__ list:
 
    - Perpetual - To make the object a permanent additional owner of the group.
@@ -183,9 +183,9 @@ Microsoft Exchange 2013/2016/2019 offers the co-managed by feature that enables 
 
    The Groups page is displayed with the __My Groups__ tab in view.
 2. Select the required group and click __Properties__ on the toolbar.
-3. The group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+3. The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
 4. On the __Email__ tab, click __Add__ in the __Managed By__ area.
-5. Enter a search string to locate the object to add as an Exchange additional owner, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+5. Enter a search string to locate the object to add as an Exchange additional owner, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
    NOTE: Only mail-enabled users can be set as Exchange additional owners.
 6. Save the changes on the __Email__ tab.

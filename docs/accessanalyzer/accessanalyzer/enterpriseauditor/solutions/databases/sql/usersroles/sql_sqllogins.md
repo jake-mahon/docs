@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL\_SQLLogins > Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup28.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup28.png)
 
 The default analysis tasks are:
 

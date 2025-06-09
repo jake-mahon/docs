@@ -2,7 +2,7 @@
 
 The Custom Query page for a Custom Oracle Query contains the same options as the Custom Query page for a custom SQL query, with the addition of the __Convert CDB to DBA on non-container databases__ checkbox. It is a wizard page for the Custom Oracle Query category.
 
-![SQL Data Collector Wizard Custom Query page for a Custom Oracle Query](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customqueryoracle.png)
+![SQL Data Collector Wizard Custom Query page for a Custom Oracle Query](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customqueryoracle.png)
 
 The configurable options are:
 

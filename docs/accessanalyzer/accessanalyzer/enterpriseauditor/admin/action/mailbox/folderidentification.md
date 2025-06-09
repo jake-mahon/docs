@@ -2,7 +2,7 @@
 
 Use the Folder Identification page to specify folders to target. It is a wizard page for the Delete Mailbox Contents operation.
 
-![New Mailbox Action Wizard Folder Identification page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderidentification.png)
+![New Mailbox Action Wizard Folder Identification page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderidentification.png)
 
 Select whether the query results contain a mailbox identification column using the following options:
 
@@ -13,4 +13,4 @@ Select whether the query results contain a mailbox identification column using t
 
     - Folder Path and Name – Select this option if the specified field contains a fully qualified path
     - Entry ID – Select this option if the selected field is an EntryID that is a unique identifier for a folder
-- No, the query results do not contain a mailbox folder identification column – Selecting this enables the Folder Conditions page, used to identify specific folders to target. See the [Mailbox: Folder Conditions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderconditions.md) topic for additional information.
+- No, the query results do not contain a mailbox folder identification column – Selecting this enables the Folder Conditions page, used to identify specific folders to target. See the [Mailbox: Folder Conditions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderconditions.md) topic for additional information.

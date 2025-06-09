@@ -36,6 +36,6 @@ C:\ProgramData\Netwrix\Activity Monitor\Agent\ActivityLogs
 
 __NOTE:__ Keep in mind that``` C:\ProgramData``` folder may be hidden. Navigate to it by typing ```%ALLUSERSPROFILE%``` in the File Explorer.
 
-The location of the files depend on the configuration and whether the archiving is enabled. See the [Archiving Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
+The location of the files depend on the configuration and whether the archiving is enabled. See the [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
 
 All key components necessary for data recovery have now been backed up for the agents.

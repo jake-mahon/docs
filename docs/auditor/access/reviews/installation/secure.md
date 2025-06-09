@@ -47,7 +47,7 @@ __Step 1 –__ Open the ```AccessInformationCenter.Service.exe.Config``` file in
 
 ...\Netwrix\Access Reviews
 
-![AccessInformationCenter.Service.exe.Config file showing the BindingUrl key](/static/img/product_docs/auditor/access/reviews/installation/securebindingurlparameter.png)
+![AccessInformationCenter.Service.exe.Config file showing the BindingUrl key](/img/product_docs/auditor/access/reviews/installation/securebindingurlparameter.png)
 
 __Step 2 –__ Change the ```BindingUrl``` key value to ```"https://+:481"``` (ensure the port number matches the port number used in the PowerShell command run to create the SSL Binding.
 

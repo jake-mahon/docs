@@ -2,7 +2,7 @@
 
 The Access Reviews application must have access to the SQL Server hosting the database. It is configured during installation. If it is necessary to modify these setting after installation, that is done on the Database Page of the Configuration interface.
 
-![Configuration interface showing the Database page](/static/img/product_docs/threatprevention/threatprevention/install/database.png)
+![Configuration interface showing the Database page](/img/product_docs/threatprevention/threatprevention/install/database.png)
 
 SQL Server database information:
 

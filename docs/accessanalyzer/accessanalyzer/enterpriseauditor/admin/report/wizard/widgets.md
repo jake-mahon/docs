@@ -2,11 +2,11 @@
 
 The Widgets page of the Report Configuration wizard allows you to configure the tables, charts, and text that form the report.
 
-![Widgets page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgets.png)
+![Widgets page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgets.png)
 
 At the top of the page the selected layout is described. The table contains the available element locations where widgets need to be configured.
 
-![Configure widgets](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetsconfigure.png)
+![Configure widgets](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetsconfigure.png)
 
 To add a new widget to an empty element, click __Configure__ and select the desired widget type from the drop-down menu. The following widgets are available:
 
@@ -16,7 +16,7 @@ To add a new widget to an empty element, click __Configure__ and select the desi
 
 The editor or wizard for the selected widget opens. See the relevant section below for information about configuring it.
 
-![Table with configured widgets](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetsconfigured.png)
+![Table with configured widgets](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetsconfigured.png)
 
 For configured widgets the table shows the title, type, and data source. You can perform the following actions by selecting a row and clicking the relevant button:
 
@@ -28,13 +28,13 @@ For configured widgets the table shows the title, type, and data source. You can
 
 The Grid widget type allows you to configure a table to be displayed on generated reports.
 
-![Grid configuration window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgrid.png)
+![Grid configuration window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgrid.png)
 
 ### Options
 
 The Options section allows you to configure the title and data source for the Grid element.
 
-![Options section](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgridoptions.png)
+![Options section](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgridoptions.png)
 
 The section contains the following options:
 
@@ -57,7 +57,7 @@ Export CSV Options
 You can configure the table to allow the data to be exported as a CSV file.
 
 - Export table data as CSV – Select this option to enable a report’s table section to be exportable as a CSV file from the generated report
-  - When it is configured, you can click the __All Data__ button on the table section of the report to save the report as a CSV file. See the [Interactive Grids](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/overview.md) topic for more information.
+  - When it is configured, you can click the __All Data__ button on the table section of the report to save the report as a CSV file. See the [Interactive Grids](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/overview.md) topic for more information.
 - Rows – Limits the amount of rows exported to the CSV file. The default is __Visible__.
   - Visible – Only includes the amount of rows set by the __Limit Maximum number of displayed rows to__ option in the DataSource Options section
   - All – Includes all rows of the data set
@@ -69,11 +69,11 @@ You can configure the table to allow the data to be exported as a CSV file.
 
 The Table Properties section allows you to configure the display features of the grid.
 
-![Table Properties section](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgridtableproperties.png)
+![Table Properties section](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgridtableproperties.png)
 
 There are two types of grid displays:
 
-- Interactive grid – Allows the viewer to interact with the table in the generated report. See the [Interactive Grids](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/overview.md) topic for additional information.
+- Interactive grid – Allows the viewer to interact with the table in the generated report. See the [Interactive Grids](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/overview.md) topic for additional information.
 - Non Interactive grid – Creates a report with fixed settings and stationary elements. This option disables all the fields within the Table Properties section.
 
   __NOTE:__ In order to view user configured Grouping in emailed reports, the report must be emailed as a __Non Interactive Grid__.
@@ -83,7 +83,7 @@ The following settings are available when Interactive grid is selected:
 Grid Properties
 
 - Treat interactive grid contents as plain text (not HTML) – Enables interactive grid functionality. This option is selected by default.
-- Enable Paging – Enables Paging in reports. Paging allows users to interact with large sets of data more efficiently when viewing, filtering, and sorting generated report tables by limiting the amount of data being displayed at a given time. Paging is enabled by default. See the [Paging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/paging.md) topic for additional information.
+- Enable Paging – Enables Paging in reports. Paging allows users to interact with large sets of data more efficiently when viewing, filtering, and sorting generated report tables by limiting the amount of data being displayed at a given time. Paging is enabled by default. See the [Paging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/paging.md) topic for additional information.
 
 Column Properties
 
@@ -99,7 +99,7 @@ Column Properties
 
 The selected data for the table is shown in the section at the bottom of the window. This section allows you to configure the data to be displayed in the table.
 
-![Data display](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgriddata.png)
+![Data display](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/widgetgriddata.png)
 
 The buttons above the column names provide you options for configuring the table arrangement.
 
@@ -110,7 +110,7 @@ The buttons above the column names provide you options for configuring the table
 
 ## Chart
 
-Chart widgets allow you to create various chart types to represent data. A Chart Section can only display one chart type at a time. Charts are configured using the Chart Configuration wizard. See the [Chart Configuration Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/chartwizard/overview.md) topic for additional information.
+Chart widgets allow you to create various chart types to represent data. A Chart Section can only display one chart type at a time. Charts are configured using the Chart Configuration wizard. See the [Chart Configuration Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/chartwizard/overview.md) topic for additional information.
 
 ## Text
 
@@ -119,7 +119,7 @@ There are two types of text editor that allow you to configure a text element on
 - Basic Text Editor – Provides basic functionality like font size and style. Works with HTML script.
 - Advanced Text Editor – Provides advanced functionality like document formatting, inserting tables, and adding hyperlinks
 
-![Text Editor selection window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/texteditorselection.png)
+![Text Editor selection window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/texteditorselection.png)
 
 When you first configure a new text element, a dialog displays allowing you to select the type of Text Editor. On this dialog, select either the Basic or Advanced Text Editor and click __Open Editor__. The selected editor then opens.
 
@@ -127,7 +127,7 @@ __NOTE:__ Once a Text Editor is selected for a Text element, it cannot be change
 
 ### Basic Text Editor
 
-![Basic Text Editor](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/basictexteditor.png)
+![Basic Text Editor](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/basictexteditor.png)
 
 The Basic Text Editor has the following options:
 
@@ -139,18 +139,18 @@ The icons listed in the table below are available in the Basic Editor (and Advan
 
 | Icon | Description |
 | --- | --- |
-| ![Undo](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/undo.png) | Undo a change to the text |
-| ![Redo](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/redo.png) | Redo a change to the text |
-| ![Paste](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/paste.png) | Paste the contents of the clipboard |
-| ![Paste Special](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/pastespecial.png) | Paste as either formatted text, unformatted text, or metafile |
-| ![Cut](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/cut.png) | Cut the selected text and put it on the clipboard |
-| ![Find](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/find.png) | Find and replace specified text |
-| ![Font](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/font.png) | Change the font face |
-| ![Font Size](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/fontsize.png) | Change the font size |
+| ![Undo](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/undo.png) | Undo a change to the text |
+| ![Redo](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/redo.png) | Redo a change to the text |
+| ![Paste](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/paste.png) | Paste the contents of the clipboard |
+| ![Paste Special](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/pastespecial.png) | Paste as either formatted text, unformatted text, or metafile |
+| ![Cut](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/cut.png) | Cut the selected text and put it on the clipboard |
+| ![Find](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/find.png) | Find and replace specified text |
+| ![Font](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/font.png) | Change the font face |
+| ![Font Size](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/fontsize.png) | Change the font size |
 
 ### Advanced Text Editor
 
-![Advanced Text Editor](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/advancedtexteditor.png)
+![Advanced Text Editor](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/advancedtexteditor.png)
 
 The Advanced Text Editor has the following options:
 
@@ -161,12 +161,12 @@ The Advanced Editor contains all the icons from the Basic Editor, see above. In 
 
 | Icon | Description |
 | --- | --- |
-| ![Bold](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/bold.png) | Makes the selected text bold |
-| ![Italic](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/italic.png) | Italicize the selected text |
-| ![Decrease Indent](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/decreaseindent.png) | Decrease the indent level of the paragraph |
-| ![Increase Indent](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/increaseindent.png) | Increase the indent level of the paragraph |
-| ![Hyperlink](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/hyperlink.png) | Create a link to a Web page, picture, email address, or program |
-| ![Multilevel List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/multilevel.png) | Start a multilevel list |
-| ![Numbering](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/numbering.png) | Start a numbered list |
-| ![Bullets](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/bullets.png) | Start a bulleted list |
-| ![Table](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/table.png) | Insert a table |
+| ![Bold](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/bold.png) | Makes the selected text bold |
+| ![Italic](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/italic.png) | Italicize the selected text |
+| ![Decrease Indent](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/decreaseindent.png) | Decrease the indent level of the paragraph |
+| ![Increase Indent](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/increaseindent.png) | Increase the indent level of the paragraph |
+| ![Hyperlink](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/hyperlink.png) | Create a link to a Web page, picture, email address, or program |
+| ![Multilevel List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/multilevel.png) | Start a multilevel list |
+| ![Numbering](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/numbering.png) | Start a numbered list |
+| ![Bullets](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/bullets.png) | Start a bulleted list |
+| ![Table](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/table.png) | Insert a table |

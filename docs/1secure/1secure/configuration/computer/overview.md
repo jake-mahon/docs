@@ -4,7 +4,7 @@ This topic provides the requirements, limitations, protocols, and other consider
 
 ## Check requirements
 
-Make sure the Windows File Servers you want to monitor meet the requirements listed in the [Prerequisites for Data Sources](/docs/product_docs/1secure/1secure/requirements/prerequisitesfordatasources.md) section.
+Make sure the Windows File Servers you want to monitor meet the requirements listed in the [Prerequisites for Data Sources](/docs/1secure/1secure/requirements/prerequisitesfordatasources.md) section.
 
 ## Decide on audit data to collect
 
@@ -55,7 +55,7 @@ For that, object-level audit settings and appropriate audit policies should be s
 
 You can apply the required audit settings to your Windows file servers in one of the following ways:
 
-- Automatically - The current audit settings will be applied automatically. They will be periodically checked and adjusted if necessary. See[ Data Collecting Account](/docs/product_docs/1secure/1secure/admin/datacollection/datacollectingaccount/overview.md) for additional information.
+- Automatically - The current audit settings will be applied automatically. They will be periodically checked and adjusted if necessary. See[ Data Collecting Account](/docs/1secure/1secure/admin/datacollection/datacollectingaccount/overview.md) for additional information.
 
 - Manually - Perform the following action to manually apply audit settings to Windows File Servers:
 
@@ -63,8 +63,8 @@ You can apply the required audit settings to your Windows file servers in one of
 
 ## Configure Data Collecting Account
 
-Follow the instructions in the [ Data Collecting Account](/docs/product_docs/1secure/1secure/admin/datacollection/datacollectingaccount/overview.md) section.
+Follow the instructions in the [ Data Collecting Account](/docs/1secure/1secure/admin/datacollection/datacollectingaccount/overview.md) section.
 
 ## Configure required protocols and ports
 
-Set up protocols and ports as described in the [Protocols and Ports Required for Monitoring File Servers](/docs/product_docs/1secure/1secure/configuration/computer/protocolsandports.md) section.
+Set up protocols and ports as described in the [Protocols and Ports Required for Monitoring File Servers](/docs/1secure/1secure/configuration/computer/protocolsandports.md) section.

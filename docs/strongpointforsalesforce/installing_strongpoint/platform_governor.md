@@ -4,7 +4,7 @@ This is a live status update of the Usage of SFDC Governor Limit. Access it from
 
 When Platform Governance for Salesforce reaches the threshold, executions are reschedule for the next day so the organization limit is not reached.
 
-![governor](/static/img/product_docs/strongpointforsalesforce/installing_strongpoint/governor.png)
+![governor](/img/product_docs/strongpointforsalesforce/installing_strongpoint/governor.png)
 
 ## Set a Threshold
 

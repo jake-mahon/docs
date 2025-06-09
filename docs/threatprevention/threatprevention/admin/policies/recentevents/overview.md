@@ -1,8 +1,8 @@
 # Recent Events Tab
 
-The Recent Events tab provides information on the events that have been recently monitored or blocked by the selected policy. See the [Investigate Interface](/docs/product_docs/threatprevention/threatprevention/admin/investigate/overview.md) for recent events monitored or blocked by all policies. You can also view event data configured to be sent to syslog (SIEM) on the [SIEM Output Viewer](/docs/product_docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.md) window.
+The Recent Events tab provides information on the events that have been recently monitored or blocked by the selected policy. See the [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md) for recent events monitored or blocked by all policies. You can also view event data configured to be sent to syslog (SIEM) on the [SIEM Output Viewer](/docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.md) window.
 
-![Policy - Recent Events tab](/static/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventstab.png)
+![Policy - Recent Events tab](/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventstab.png)
 
 The Recent Events tab has the following options on the toolbar:
 
@@ -11,7 +11,7 @@ The Recent Events tab has the following options on the toolbar:
 - Range From/To – Displays the events that occurred within the given timeframe
 - Refresh button – Updates the grid with any new events
 - Show All Columns – Resets hidden columns to their default location on the data grid
-- Export Data– Opens the Export Data window with export actions and options. See the [Export Data](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic for additional information.
+- Export Data– Opens the Export Data window with export actions and options. See the [Export Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Export-Data) topic for additional information.
 
 Example for the Events for Last [number] Hours Option
 
@@ -31,7 +31,7 @@ The data grid can be filtered according to the Event Tracker Status:
 - New
 - Reviewed
 
-See the [Event Tracker Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
+See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 
 ## Recent Events Data Grid
 
@@ -81,7 +81,7 @@ The data grid on the Recent Events tab includes the following information for ea
 
 Select an event to view additional information about it.
 
-![Recent Events tab - Additional Information for an event](/static/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventdetails.png)
+![Recent Events tab - Additional Information for an event](/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventdetails.png)
 
 The following information (as applicable to the event) is displayed:
 
@@ -90,15 +90,15 @@ The following information (as applicable to the event) is displayed:
 - Old Value – Value prior to the monitored change
 - New Value – Value after the monitored change
 
-This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
+This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
 
 ## Recent Events Right-Click Menu
 
 Right-click on a row in the data grid to open the right-click menu.
 
-![Recent Events tab - Right-Click menu](/static/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
+![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
 
 - Copy – Copies the selected data cell to clipboard
-- Event Viewer – Opens the [Event Viewer Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventviewer.md) for the selected event/data row
-- Event Tracker – Opens the [Event Tracker Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) for the selected event/data row
-- [Execute PS Script](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/executepsscript.md) – Opens a Windows Explorer window to the scripts folder. Enables users to run a PowerShell script for the selected event/data row.
+- Event Viewer – Opens the [Event Viewer Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventviewer.md) for the selected event/data row
+- Event Tracker – Opens the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) for the selected event/data row
+- [Execute PS Script](/docs/threatprevention/threatprevention/admin/policies/recentevents/executepsscript.md) – Opens a Windows Explorer window to the scripts folder. Enables users to run a PowerShell script for the selected event/data row.

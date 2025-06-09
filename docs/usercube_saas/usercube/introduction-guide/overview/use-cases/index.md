@@ -39,4 +39,4 @@ Once the role model is well underway, Identity Manager can compare existing acce
 
 Let's learn about Identity Manager [
 Architecture
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/architecture/index.md).
+](/docs/usercube_saas/usercube/introduction-guide/architecture/index.md).

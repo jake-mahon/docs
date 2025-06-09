@@ -2,7 +2,7 @@
 
 Netwrix 1Secure can be configured to audit all the access types mentioned below:
 
-![Advanced Activity Selection options](/static/img/product_docs/1secure/1secure/configuration/computer/objectlevelaccessaudit.png)
+![Advanced Activity Selection options](/img/product_docs/1secure/1secure/configuration/computer/objectlevelaccessaudit.png)
 
 ## Configure Object-level Access Auditing on Windows Server 2012 and Above
 
@@ -10,15 +10,15 @@ Follow the steps to configure Object-level access auditing on Windows Server 201
 
 __Step 1 –__ Navigate to the target file share, right-click it and select __Properties__.
 
-__Step 2 –__ In the <Share\_Name> Properties dialog box, select the Security tab and click __Advanced__.
+__Step 2 –__ In the `<Share_Name>` Properties dialog box, select the Security tab and click __Advanced__.
 
-__Step 3 –__ In the Advanced Security Settings for <Share\_Name> dialog box, navigate to the Auditing tab.
+__Step 3 –__ In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the Auditing tab.
 
-![Advanced Security Settings for <Share_Name> dialog box](/static/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
+![Advanced Security Settings for `<Share_Name>` dialog box](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
 
 __Step 4 –__ Click __Add__ to add a new principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 
-__Step 5 –__ In the Auditing Entry for <Folder\_Name> dialog box, click the __Select a principal__ link and specify __Everyone__.
+__Step 5 –__ In the Auditing Entry for `<Folder_Name>` dialog box, click the __Select a principal__ link and specify __Everyone__.
 
 __NOTE:__ You can specify any other group as needed. The product will audit only user accounts that are members of the selected group.
 

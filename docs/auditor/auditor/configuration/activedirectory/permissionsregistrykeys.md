@@ -1,7 +1,7 @@
 # Assign Permission To Read the Registry Key
 
-This permission is required only if the account selected for data collection is not a member of the Domain Admins group. This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](/docs/product_docs/auditor/auditor/tools/auditconfigurationassistant.md). To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management console. See the [Permissions for Group Policy Auditing
-](/docs/product_docs/auditor/auditor/configuration/grouppolicy/permissions.md)topic for additional information.
+This permission is required only if the account selected for data collection is not a member of the Domain Admins group. This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md). To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management console. See the [Permissions for Group Policy Auditing
+](/docs/auditor/auditor/configuration/grouppolicy/permissions.md)topic for additional information.
 
 ## Assign Permission Via the Registry Editor Snap-in
 

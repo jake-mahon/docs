@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS\_OpenBuckets__ > __Config
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AWS_OpenBuckets Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/s3permissions/openbucketsanalysis.png)
+![Analysis Task for the AWS_OpenBuckets Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/s3permissions/openbucketsanalysis.png)
 
 The following analysis task is selected by default:
 

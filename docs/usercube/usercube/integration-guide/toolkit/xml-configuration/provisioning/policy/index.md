@@ -10,13 +10,13 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <Policy Identifier="Default" DisplayName_L1="Default Policy" IsProvisioningEnabled="true" />
 ```
 
-All ```ResourceType```, ```SingleRole```, ```CompositeRole``` and ```Category``` must belong to a Policy. This is done by specifying the ```Policy``` attribute. See the [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md), [
+All ```ResourceType```, ```SingleRole```, ```CompositeRole``` and ```Category``` must belong to a Policy. This is done by specifying the ```Policy``` attribute. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md), [
 Single Role
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md), [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md), [
 Composite Role
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and [
 Category
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md) topics for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md) topics for additional information.
 
 ```
 <Category Policy="Default" Identifier="AD" DisplayName_L1="Active Directory" />

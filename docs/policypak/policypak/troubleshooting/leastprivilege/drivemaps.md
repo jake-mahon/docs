@@ -43,7 +43,7 @@ CSE 24.7 and later:
 
   - __CAUTION:__ Do not use the DFS checkbox if the path is not a DFS share.
 
-![pathconditiondfs](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/pathconditiondfs.png)
+![pathconditiondfs](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/pathconditiondfs.png)
 
 CSE Pre 24.7:
 
@@ -63,7 +63,7 @@ And also for all Non-EXE rules as of version 2340 and higher:
   - You don't need to have a Endpoint Policy Manager Least Privilege Manager rule to "Elevate S:".
   - You DO need to have a Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager rule to "```Elevate\\fabrikam.com\share```" and select Folder or Folder (Recursive) as shown here.
 
-    ![502_1_image-20200121124504-1](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_1_image-20200121124504-1.jpeg)
+    ![502_1_image-20200121124504-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_1_image-20200121124504-1.jpeg)
 
 For Non-EXE rules created in version 2339 and lower:
 
@@ -71,16 +71,16 @@ For Non-EXE rules created in version 2339 and lower:
 - So, for instance, if all of your Non-EXE applications reside in a folder normally accessed via the drive letter S: and you want to elevate all the Non-EXE files in S:
 - You should create a Endpoint Policy Manager Least Privilege Manager rule to Elevate the path to the folder using the S: drive and then select Folder or Folder (Recursive) as shown below.
 
-![502_3_image](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_3_image.png)
+![502_3_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_3_image.png)
 
 To cover all bases you can also create the rule with all possible paths:
 
-![502_4_image](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_4_image.png)
+![502_4_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_4_image.png)
 
 Troubleshooting Non-EXE rules:
 
 - If an elevation rule does NOT work, you can create a simple path rule for any of the Non-EXE files, (ie. MSI) using a wildcard, for example: ```*\SkypeSetup.msi``` then launch the MSI after running``` gpupdate``` on the target machine and then check the Endpoint Policy Manager event log to see which path was shown for the MSI (see screenshot below). Lastly, use that path for your Non-EXE rule:
 
-![502_5_image-20200121124504-4](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_5_image-20200121124504-4.png)
+![502_5_image-20200121124504-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_5_image-20200121124504-4.png)
 
-![502_7_image-20200121124504-5](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_7_image-20200121124504-5.png)
+![502_7_image-20200121124504-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_7_image-20200121124504-5.png)

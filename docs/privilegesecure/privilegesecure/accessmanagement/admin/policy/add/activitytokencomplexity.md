@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Policy__ > __Access Policies__ > __Activity To
 
 __Step 2 –__ In the Activity Token Complexity list, click the __Plus__ icon.
 
-![Add Activity Token](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.png)
+![Add Activity Token](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.png)
 
 __Step 3 –__ Enter the desired information to determine the complexity of the connection profile.
 

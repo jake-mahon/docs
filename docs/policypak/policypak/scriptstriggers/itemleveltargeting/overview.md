@@ -4,13 +4,13 @@ Item-Level Targeting is used in Microsoft Group Policy Preferences and other are
 
 A collection enables you to group together Endpoint Policy Manager Scripts & Triggers Manager policies so they can act together. For instance, you might create a collection for only East Sales computers and another for West Sales computers. Or you might create a collection for Windows 10 machines and one for Windows Server 2016 RDS, as seen in Figure 24.
 
-![using_item_level_targeting](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
+![using_item_level_targeting](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
 
 Figure 24. Scripts & Triggers Manger allows the user to create collections and then set Item-Level Targeting upon the collections.
 
 Right-click any Endpoint Policy Manager Scripts & Triggers Manager policy, and select "Edit Item Level Targeting," as demonstrated in Figure 25.
 
-![using_item_level_targeting_1](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
+![using_item_level_targeting_1](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
 
 Figure 25. Setting Item-Level Targeting for policy entries themselves.
 
@@ -18,7 +18,7 @@ The "Edit Item Level Targeting" menu item brings up the Targeting Editor, which 
 
 You can apply one or more targeting items to a policy, which enables targeting items to be joined logically, also shown in Figure 26. You can also add targeting collections, which group together targeting items in much the same way parentheses are used in an equation. In this way, you can create a complex determination about where a policy will be applied. Collections may be set to "And", "Or", "Is", or "Is Not."
 
-![using_item_level_targeting_2](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
+![using_item_level_targeting_2](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
 
 Figure 26. In this example, the Pak would only apply to Windows 10 machines when the machine is portable and the user is in the FABRIKAM\Traveling Sales Users group.
 
@@ -32,7 +32,7 @@ Below are some real-world examples of of how you can use Item-Level Targeting.
 
 After editing is completed, close the editor. Note that the icon for the policy or collection has changed to orange, which shows that it now has Item-Level Targeting, as seen in Figure 27.
 
-![using_item_level_targeting_3](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
+![using_item_level_targeting_3](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
 
 Figure 27. When the policy or collection's icon is orange, the entry has Item-Level Targeting.
 

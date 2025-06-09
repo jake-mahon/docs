@@ -20,11 +20,11 @@ NOTE: On changing some of these settings, the portal’s session ends and all co
 
 __See Also__
 
-- [Create a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/create.md)
-- [Manage General Server Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/general.md)
-- [Manage Settings for a Native IIS Deployment](/docs/product_docs/groupid/groupid/admincenter/portal/server/nativeiis.md)
-- [Manage Settings for a Remote IIS Deployment](/docs/product_docs/groupid/groupid/admincenter/portal/server/remoteiis.md)
-- [Manage Settings for a Docker Deployment](/docs/product_docs/groupid/groupid/admincenter/portal/server/docker.md)
-- [Manage Log Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/log.md)
-- [Add Support for a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/server/support.md)
-- [Manage Advanced Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/advanced.md)
+- [Create a Portal](/docs/groupid/groupid/admincenter/portal/create.md)
+- [Manage General Server Settings](/docs/groupid/groupid/admincenter/portal/server/general.md)
+- [Manage Settings for a Native IIS Deployment](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md)
+- [Manage Settings for a Remote IIS Deployment](/docs/groupid/groupid/admincenter/portal/server/remoteiis.md)
+- [Manage Settings for a Docker Deployment](/docs/groupid/groupid/admincenter/portal/server/docker.md)
+- [Manage Log Settings](/docs/groupid/groupid/admincenter/portal/server/log.md)
+- [Add Support for a Portal](/docs/groupid/groupid/admincenter/portal/server/support.md)
+- [Manage Advanced Settings](/docs/groupid/groupid/admincenter/portal/server/advanced.md)

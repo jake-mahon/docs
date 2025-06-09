@@ -8,18 +8,18 @@ When SecureRun is turned on, the typical action needed is Allow and Log through 
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.jpg)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.jpg)
 
 The example below show a Combo rule enabling OneDriveSetup.exe to keep running (__Path Condition__ and __Command-line Condition__) with the Allow and Log action.
 
-For more information on Combo rules, see [Creating and Using Executable Combo Rules](/docs/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/executablecombo.md)
+For more information on Combo rules, see [Creating and Using Executable Combo Rules](/docs/policypak/policypak/leastprivilege/bestpractices/rules/executablecombo.md)
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.png)
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac_1.jpg)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac_1.jpg)
 
 After the rules are created, you should not see pop-ups from installers with rules in place.

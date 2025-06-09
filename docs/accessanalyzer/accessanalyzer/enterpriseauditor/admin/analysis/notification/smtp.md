@@ -2,7 +2,7 @@
 
 The SMTP properties page is available when the Email notification type is selected on the Type page. Use this page to specify SMTP notification properties, including recipients, subject line, and email body.
 
-![Notification Data Analysis Module wizard SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/smtp.png)
+![Notification Data Analysis Module wizard SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/smtp.png)
 
 The following options are available:
 

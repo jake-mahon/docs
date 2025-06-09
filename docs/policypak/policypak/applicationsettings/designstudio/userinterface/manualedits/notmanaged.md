@@ -6,7 +6,7 @@ Endpoint Policy Manager Application Settings Manager can control a lot of items;
 - Right-click the element and uncheck "Enabled" (shown in Figure 74), which will make the item gray and unclickable when it is used within the Group Policy editor.
 - Leave the element as it is.
 
-![crafting_the_user_interface_15_624x362](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_15_624x362.png)
+![crafting_the_user_interface_15_624x362](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_15_624x362.png)
 
 Figure 74. Dealing with elements that cannot be controlled with Application Settings Manager.
 

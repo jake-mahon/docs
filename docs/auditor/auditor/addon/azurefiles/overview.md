@@ -6,19 +6,19 @@ The Netwrix Auditor Add-On for Azure Files works in collaboration with Netwrix A
 
 To get the add-on up and running, please read the following topics:
 
-- [Deployment Procedure](/docs/product_docs/auditor/auditor/addon/azurefiles/deployment.md)
-- [Work with Collected Data](/docs/product_docs/auditor/auditor/addon/azurefiles/collecteddata.md)
+- [Deployment Procedure](/docs/auditor/auditor/addon/azurefiles/deployment.md)
+- [Work with Collected Data](/docs/auditor/auditor/addon/azurefiles/collecteddata.md)
 
 ## Prerequisites
 
 Before running the add-on, ensure that all the necessary components and policies are configured as follows:
 
-- The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/product_docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/product_docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information.
+- The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information.
 - The TCP 9699 port (default Integration API port) is open for inbound connections.
-- The user writing data to the Audit Database is granted the Contributor role in Auditor. See the [Role-Based Access and Delegation](/docs/product_docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.
+- The user writing data to the Audit Database is granted the Contributor role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.
 - Alternatively, you can grant the Global administrator role or add the user to the Netwrix Auditor Administrators group. In this case, this user will have the most extended permissions in the product.
-- Azure Files environment is configured for auditing. The connection of Azure file share to Windows should be configured with authentication through Active Directory or Entra ID (as opposed to the account key). See the [Deployment Procedure](/docs/product_docs/auditor/auditor/addon/azurefiles/deployment.md)topic for more information.
-- Active Directory Domain Services or Microsoft Entra Kerberos is used as an Identity source. See the [Deployment Procedure](/docs/product_docs/auditor/auditor/addon/azurefiles/deployment.md) topic for additional information.
+- Azure Files environment is configured for auditing. The connection of Azure file share to Windows should be configured with authentication through Active Directory or Entra ID (as opposed to the account key). See the [Deployment Procedure](/docs/auditor/auditor/addon/azurefiles/deployment.md)topic for more information.
+- Active Directory Domain Services or Microsoft Entra Kerberos is used as an Identity source. See the [Deployment Procedure](/docs/auditor/auditor/addon/azurefiles/deployment.md) topic for additional information.
 
 ## How It Works
 

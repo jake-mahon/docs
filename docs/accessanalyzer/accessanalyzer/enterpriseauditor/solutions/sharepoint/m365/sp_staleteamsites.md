@@ -4,7 +4,7 @@ The SP\_StaleTeamSites Job identifies Teams that have not had activity for a num
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The SP\_StaleTeamSites page has the following configurable parameters:
 
@@ -16,7 +16,7 @@ See the [Customizable Analysis Tasks for the SP\_StaleTeamSites Job](#Customizab
 
 Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_StaleTeamSites__ >__Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the SP_StaleTeamSites Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.png)
+![Analysis Tasks for the SP_StaleTeamSites Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.png)
 
 The default analysis task is:
 
@@ -38,4 +38,4 @@ The default values for customizable parameters are:
 | --- | --- | --- | --- |
 | Find Stale Teams | @days | 30 | Desired number of days since last activity to determine staleness. |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on customizing the analysis parameters.
+See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on customizing the analysis parameters.

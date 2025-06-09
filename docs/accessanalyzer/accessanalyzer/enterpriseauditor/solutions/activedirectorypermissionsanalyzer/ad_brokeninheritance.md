@@ -2,7 +2,7 @@
 
 The AD\_BrokenInheritance Job reports on all locations within Active Directory where inheritance is broken within the targeted domains.
 
-![6.Broken Inheritance Job Group in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.png)
+![6.Broken Inheritance Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.png)
 
 The AD\_BrokenInheritance Job is located in the 6.Broken Inheritance Job Group.
 
@@ -12,7 +12,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __6.BrokenInheritanc
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_BrokenInheritance Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.png)
+![Analysis Tasks for the AD_BrokenInheritance Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.png)
 
 The default analysis tasks are:
 

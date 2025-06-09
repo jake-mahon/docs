@@ -46,7 +46,7 @@ Registering a Microsoft Entra ID application and provisioning it to grant permis
     Install-Module Microsoft.Graph
     ```
 
-See the [EX\_RegisterAzureAppAuth Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md) topic for additional information.
+See the [EX\_RegisterAzureAppAuth Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md) topic for additional information.
 
 ## Prerequisites
 
@@ -155,7 +155,7 @@ __Step 5 –__ Navigate to the to PrivateAssemblies folder and select the ```exc
 
 __Step 6 –__ Click __Add__.
 
-The Certificate Thumbprint of this uploaded certificate is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.
+The Certificate Thumbprint of this uploaded certificate is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.
 
 ## Grant Permissions to the Registered Application
 
@@ -197,7 +197,7 @@ __Step 3 –__ Copy the domain name from the list of domains.
 
 __Step 4 –__ Save this value in a text file.
 
-This is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information. Next identify the application’s Client ID.
+This is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information. Next identify the application’s Client ID.
 
 ## Identify the Client ID
 
@@ -211,4 +211,4 @@ __Step 2 –__ Copy the __Application (client) ID__ value.
 
 __Step 3 –__ Save this value in a text file.
 
-This is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.
+This is needed for the Access Analyzer Connection Profile. See the [Exchange Modern Authentication for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.

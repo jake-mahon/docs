@@ -14,7 +14,7 @@ To increase the maximum size of the Security event log and set its retention met
 2. In the left pane, navigate to __Forest: <forest\_name> > Domains > <domain\_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 3. Navigate to __Computer Configuration > Policies > Windows Settings > Security Settings > Event Log__ and double-click the __Maximum security log size__ policy.
 
-   ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/static/img/product_docs/1secure/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.png)
+   ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.png)
 4. In the Maximum security log size Properties dialog, select __Define this policy setting__ and set maximum security log size to __4194240__ kilobytes (4GB).
 5. Select the __Retention method for security log__ policy. In the Retention method for security log Properties dialog, check __Define this policy__ and select __Overwrite events as needed__.
 6. Run the following command to update group policy:

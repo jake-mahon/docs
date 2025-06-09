@@ -2,7 +2,7 @@
 
 The Exchange Mailbox Data Collector contains the following Exchange Mailbox categories for searching:
 
-![Exchange Mailbox Data Collector Wizard Category page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Exchange Mailbox Data Collector Wizard Category page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
 
 The Category page contains a list of objects the query searches for:
 

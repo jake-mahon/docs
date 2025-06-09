@@ -18,7 +18,7 @@ Customization record fields include:
 - __Related Objects__: Links to related objects.
 - __Details__: Tabs to access details about the customization. Tabs include __Metadata__, __Improvement__, __Permissions__, __Control__, __DRD__, __Raw Data__ and __Related Lists__.
 
-![customization_record_800x315](/static/img/product_docs/strongpointsalesforceflashlight/customizations/customization_record_800x315.png)
+![customization_record_800x315](/img/product_docs/strongpointsalesforceflashlight/customizations/customization_record_800x315.png)
 
 ## Customization Record Tabs
 
@@ -40,7 +40,7 @@ These are the tabs inside a customization record:
 
 The metadata tab provides the metadata information about the customization, including:
 
-- __Date Last Used__: date the customization was last used. Refer to [DLU](/docs/product_docs/strongpointsalesforceflashlight/clean_up/date_last_used.md) for more information.
+- __Date Last Used__: date the customization was last used. Refer to [DLU](/docs/strongpointsalesforceflashlight/clean_up/date_last_used.md) for more information.
 - __Data type__: data type of the custom field.
 - __Last Modified Date__: last date the customization was modified.
 - __Active__: indicates whether the customization is a active.
@@ -92,7 +92,7 @@ The control tab describes assigned controls on a customization record for exampl
 
 ### DRD
 
-Dependency Relationship Diagram ([DRD](/docs/product_docs/strongpointsalesforceflashlight/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
+Dependency Relationship Diagram ([DRD](/docs/strongpointsalesforceflashlight/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
 
 ### Raw Data
 

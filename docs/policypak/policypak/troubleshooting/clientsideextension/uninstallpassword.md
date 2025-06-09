@@ -28,7 +28,7 @@ Example Password
 
 If you use the password “HelloWorld” and Base64 encrypt it, you will get ```SGVsbG9Xb3JsZA==``` as the result. You can use an encoder like [Base64 Encode](https://www.base64encode.org/), shown below.
 
-![base64format](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/base64format.png)
+![base64format](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/base64format.png)
 
 Example Use of the Feature
 
@@ -38,11 +38,11 @@ Example Use of the Feature
 
 See the interactive example shown in the screenshot.
 
-![csewizard](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/csewizard.png)
+![csewizard](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/csewizard.png)
 
 If you try to uninstall the CSE by hand without a password, the following error message is displayed.
 
-![cseuninstallpw](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/cseuninstallpw.png)
+![cseuninstallpw](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/cseuninstallpw.png)
 
 ## Uninstall CSE When a Password Is Set
 
@@ -52,7 +52,7 @@ Example Command
 
 ```msiexec /x "PolicyPak Client-Side Extension x64.msi" UNPASSWORD=SGVsbG9Xb3JsZA==```
 
-![csepassword](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/csepassword.png)
+![csepassword](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/csepassword.png)
 
 Uninstallation Rules
 
@@ -91,7 +91,7 @@ Registry value details
 
 The password is encrypted with the Windows Data Protection API (DAPI) and not in plain text.
 
-![editbinary](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/editbinary.png)
+![editbinary](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/editbinary.png)
 
 This registry key is protected and accessible only by Administrators and the Local System account. The password cannot be copied to another machine. If the registry value is transferred, CSE will not recognize it on a different system.
 
@@ -99,11 +99,11 @@ This registry key is protected and accessible only by Administrators and the Loc
 
 As an emergency method of uninstallation, you may use the Endpoint Policy Manager ADMX Troubleshooting files which contains a policy named “Force disable uninstall password”.
 
-See the [Troubleshooting with ADMX files](/docs/product_docs/policypak/policypak/video/troubleshooting/admxfiles.md) topic for additional information about the ADMX troubleshooting files.
+See the [Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md) topic for additional information about the ADMX troubleshooting files.
 
 When this ADMX setting is set locally or targeted to a machine, the CSE will uninstall without a password.
 
-![disableuninstallpw](/static/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/disableuninstallpw.png)
+![disableuninstallpw](/img/product_docs/policypak/policypak/troubleshooting/clientsideextension/disableuninstallpw.png)
 
 __CAUTION:__ Again as stated in the introduction of this document, someone with access rights to change the KHLM part of the registry or use the Endpoint Policy Manager ADMX files could circumvent the password previously set earlier.
 

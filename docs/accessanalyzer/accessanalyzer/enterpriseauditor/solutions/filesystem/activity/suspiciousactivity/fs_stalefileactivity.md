@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_StaleFileActivity Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/stalefileactivityanalysis.png)
+![Analysis Tasks for the FS_StaleFileActivity Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/stalefileactivityanalysis.png)
 
 - Summarize Hourly Norms and Deviations – Creates the SA\_FS\_StaleFileActivity\_Details table accessible under the job’s Results node
 

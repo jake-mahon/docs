@@ -2,9 +2,9 @@
 
 The About page is accessed by selecting About from the User Options menu (icon beside the logged in user name).
 
-![About page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutpage.png)
+![About page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutpage.png)
 
-It displays your license information and details about the third party components used by the application. It also allows you to upload a new license file. See the [Import the License File](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/importlicense.md) topic for additional information.
+It displays your license information and details about the third party components used by the application. It also allows you to upload a new license file. See the [Import the License File](/docs/privilegesecure/privilegesecure/accessmanagement/admin/importlicense.md) topic for additional information.
 
 ## License Information
 
@@ -19,7 +19,7 @@ At the top of the About page, the following license information is displayed:
 
   __NOTE:__ Licensing is done according to user count. Any user who has provisioned access will consume a license after their first login. This is true for all users, regardless of role.
 
-![About page showing additional Customer Info details](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutcustomerdetails.png)
+![About page showing additional Customer Info details](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutcustomerdetails.png)
 
 Click the arrow icon beside the Customer Info information to view additional customer details:
 
@@ -33,6 +33,6 @@ Click the arrow icon beside the Customer Info information to view additional cus
 
 Click About third party components to open the About third party components window.
 
-![About third party components window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/thirdpartycomponents.png)
+![About third party components window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/thirdpartycomponents.png)
 
 This window displays detailed information about all third party components used by the application.

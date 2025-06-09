@@ -31,7 +31,7 @@ Move-Group -Identity "CN=Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Destina
 
 Example 2:
 
-The following command moves the group _Training_ to the _OffShore Recruiting_ organizational unit. The command uses the credentials set in the $Credentials environment variable for moving a group. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command moves the group _Training_ to the _OffShore Recruiting_ organizational unit. The command uses the credentials set in the $Credentials environment variable for moving a group. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Move-Group -Identity "CN=Training,OU=Local Recruiting,DC=HR,DC=Imanami,DC=US" -DestinationContainer "OU=OffShore Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Credential $Cred

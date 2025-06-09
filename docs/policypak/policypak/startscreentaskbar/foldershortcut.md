@@ -4,4 +4,4 @@ Create the Tile as shown below screenshot. The string to make the Folder shortcu
 
 ```%systemroot%\explorer.exe "%userprofile%\Desktop\New Folder"```
 
-![824_1_image-20210304053215-1](/static/img/product_docs/policypak/policypak/startscreentaskbar/824_1_image-20210304053215-1.png)
+![824_1_image-20210304053215-1](/img/product_docs/policypak/policypak/startscreentaskbar/824_1_image-20210304053215-1.png)

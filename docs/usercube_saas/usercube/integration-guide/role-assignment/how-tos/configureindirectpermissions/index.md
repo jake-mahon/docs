@@ -2,7 +2,7 @@
 
 The following how-to assumes that you have already read the topic on [
 Indirect Permissions
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/indirectpermissions/index.md).
+](/docs/usercube_saas/usercube/integration-guide/role-assignment/indirectpermissions/index.md).
 
 ## Configure Indirect Permissions in an Active Directory
 
@@ -33,7 +33,7 @@ After adding this rule to the Configuration, do not forget to deploy the configu
 
 The aim of this section is to give you a step-by-step guide for setting up a test user. It will also cover what is displayed in Identity Manager. In this example, we will assign a ```Test Group A``` directly to the test user and the ```Test Group A``` will also be a member of the ```Test Group B```. This way, the test user will also have an indirect assignment to the ```Test Group B```. We will also create the corresponding roles.
 
-![Group Membership Schema](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/indirectpermissionsadexample.png)
+![Group Membership Schema](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/indirectpermissionsadexample.png)
 
 A running Active Directory instance is required to reproduce these steps yourself.
 
@@ -46,19 +46,19 @@ Create two groups in your Active Directory, ```TestGroupA``` and ```TestGroupB``
 Since we have manually edited the Active Directory, we first need to run an AD synchronization job.
 Then we create one Single Role for each group in the Active Directory. We will name them ```TestRoleA``` and ```TestRoleB``` for ```Directory > User```, :
 
-![Single Role Configuration Example](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/srconf_5.2.1.png)
+![Single Role Configuration Example](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/srconf_5.2.1.png)
 
 We will also create a test Composite Role to showcase indirect Composite Roles. We will name it ```TestCRoleAB```:
 
-![Composite Role Configuration](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/crconf_5.2.1.png)
+![Composite Role Configuration](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/crconf_5.2.1.png)
 
 Then we will also need to add some rules. We first need to add one Navigation Rule for each group to link them with their respective Single Role:
 
-![Navigation Rule Example](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/navrule_5.2.1.png)
+![Navigation Rule Example](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/navrule_5.2.1.png)
 
 And finally, we need to add Single Role Rules to link our two previously created Single Roles to the new Composite Role:
 
-![Single Role Rule Example](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/srrule_5.2.1.png)
+![Single Role Rule Example](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/srrule_5.2.1.png)
 
 Even if two rules of a kind are needed, only one is pictured. Do not forget the other one.
 
@@ -66,21 +66,21 @@ Even if two rules of a kind are needed, only one is pictured. Do not forget the 
 
 After running a [
 Compute Role Model Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), Indirect Permissions should now appear for your test user.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), Indirect Permissions should now appear for your test user.
 
 The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as ```Non-conforming```.
 
 If you first go on the ```View permissions``` tab of your test user, the only new role that appears in the ```Simplified view``` is the indirect Composite Role ```TestCRoleAB```:
 
-![View Permissions Simplified](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionssimplified_5.2.1.png)
+![View Permissions Simplified](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionssimplified_5.2.1.png)
 
 To display Indirect Permissions, you need to switch over to the ```Advanced view```. ```TestRoleA``` and ```TestRoleB``` should then appear:
 
-![View Permissions Advanced](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionsadvanced_5.2.1.png)
+![View Permissions Advanced](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionsadvanced_5.2.1.png)
 
 You can also directly display the Assigned Resource Navigations by clicking on ```AD User (nominative)```. The ```memberOf``` properties will appear in the list:
 
-![AD Assigned Resource Navigations](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/adassignednavigations_5.2.1.png)
+![AD Assigned Resource Navigations](/img/product_docs/usercube/usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/adassignednavigations_5.2.1.png)
 
 ## Configure Indirect Permissions in an Microsoft Entra ID
 

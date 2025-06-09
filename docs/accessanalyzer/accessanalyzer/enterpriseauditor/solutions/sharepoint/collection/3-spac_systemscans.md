@@ -8,7 +8,7 @@ The 3-SPAC\_SystemScans Job has been preconfigured to run with the default setti
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spacsystemscansquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spacsystemscansquery.png)
 
 The query for the 3-SPAC\_SystemScans Job is:
 

@@ -1,8 +1,8 @@
 # Active Directory Monitoring Scope
 
-You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Active Directory monitoring scope. You can apply restrictions to monitoring scope via the UI. See the [Objects](/docs/product_docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#Objects) topic for additional information.
+You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Active Directory monitoring scope. You can apply restrictions to monitoring scope via the UI. See the [Objects](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#Objects) topic for additional information.
 
-___RECOMMENDED:___ Configure monitoring scope restrictions on the Active Directory monitoring plan page. See the [Active Directory](/docs/product_docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md) topic for additional information.
+___RECOMMENDED:___ Configure monitoring scope restrictions on the Active Directory monitoring plan page. See the [Active Directory](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md) topic for additional information.
 
 Follow the steps to exclude data from the Active Directory monitoring scope:
 

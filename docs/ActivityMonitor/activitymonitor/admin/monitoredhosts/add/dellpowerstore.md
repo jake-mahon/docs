@@ -8,15 +8,15 @@ The Activity Monitor can be configured to monitor the following:
 
 It provides the ability to feed activity data to SIEM products. The following dashboards have been specifically created for Activity Monitor event data:
 
-- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/product_docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/product_docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
+- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
 
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-Prior to adding a Dell PowerStore host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell PowerStore Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellpowerstore/activity.md) topic for additional information.
+Prior to adding a Dell PowerStore host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/config/dellpowerstore/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for monitoring the target environment.
 
@@ -26,21 +26,21 @@ Follow the steps to add a Dell PowerStore host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click __Add__. The Add New Host window opens.
 
-![addagent01](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.png)
+![addagent01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.png)
 
 __Step 2 –__ On the __Choose Agent__ page, select the Agent to monitor the file server. Click__Next__.
 
-![powerstoreaddhost01](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost01.png)
+![powerstoreaddhost01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost01.png)
 
 __Step 3 –__ On the Add Host page, select the Dell PowerStore radio button and enter the file server name. Click __Next__.
 
-__NOTE:__ All Dell event source types must have the CEE Monitor Service installed on the agent in order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and display a warning to install the service. If the CEE Monitor service is installed on a remote machine, manual configuration is required. See the [Dell CEE Options Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
+__NOTE:__ All Dell event source types must have the CEE Monitor Service installed on the agent in order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and display a warning to install the service. If the CEE Monitor service is installed on a remote machine, manual configuration is required. See the [Dell CEE Options Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
 
-![powerstoreaddhost02](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost02.png)
+![powerstoreaddhost02](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost02.png)
 
 __Step 4 –__ On the Protocols page, specify the protocols to monitor. The list of protocols that can be monitored are, All, CIFS, or NFS. Once a protocol is selected, click __Next__.
 
-![powerstoreaddhost03](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost03.png)
+![powerstoreaddhost03](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost03.png)
 
 __Step 5 –__ On the Configure Operations page, select the File Operations and Directory Operations to be monitored.
 
@@ -48,7 +48,7 @@ __Step 5 –__ On the Configure Operations page, select the File Operations and 
 
 Click __Next__.
 
-![powerstoreaddhost04](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost04.png)
+![powerstoreaddhost04](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost04.png)
 
 __Step 6 –__ On the Configure Basic Operations page, choose which settings to enable. Select one of the following options:
 
@@ -67,13 +67,13 @@ __Step 6 –__ On the Configure Basic Operations page, choose which settings to 
 
 Click __Next__.
 
-![powerstoreaddhost05](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost05.png)
+![powerstoreaddhost05](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost05.png)
 
 __Step 7 –__ On the Where to log the activity page, select whether to send the activity to either a Log File or Syslog Server. Click __Next__.
 
 __NOTE:__ An option must be selected before moving to the next step.
 
-![powerstoreaddhost06](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost06.png)
+![powerstoreaddhost06](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost06.png)
 
 __Step 8 –__ If Log File is selected on the Where To Log The Activity page, the File Output page can be configured.
 
@@ -90,7 +90,7 @@ __Step 8 –__ If Log File is selected on the Where To Log The Activity page, t
 
 Click __Next__.
 
-![powerstoreaddhost07](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost07.png)
+![powerstoreaddhost07](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost07.png)
 
 __Step 9 –__ If Syslog Server is selected on the Where To Log The Activity page, the Syslog Output page can be configured.
 
@@ -101,25 +101,25 @@ __Step 9 –__ If Syslog Server is selected on the Where To Log The Activity pag
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the __Message framing__ drop-down menu. See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the __Message framing__ drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 - The Test button sends a test message to the Syslog server to check the connection. A green check mark or red will determine whether the test message has been sent or failed to send. Messages vary by Syslog protocol:
   - UDP – Sends a test message and does not verify connection
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click __Finish__.
 
-![powerstoreaddhost08](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost08.png)
+![powerstoreaddhost08](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost08.png)
 
-The added Dell PowerStore host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added Dell PowerStore host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Dell PowerStore
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [Dell Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/dell.md)
-- [Inactivity Alerts Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Dell Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/dell.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

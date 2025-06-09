@@ -14,7 +14,7 @@ __Step 3 –__ Click __Manage roles__.
 
 __Step 4 –__ In the Manage roles dialog box locate the REST API access user section and click __+New user__.
 
-![Manage Roles - File Server](/static/img/product_docs/activitymonitor/config/nutanix/activitynutanix.png)
+![Manage Roles - File Server](/img/product_docs/activitymonitor/config/nutanix/activitynutanix.png)
 
 __Step 5 –__ Enter local user account name and password, then click __Save__ to save the settings.
 

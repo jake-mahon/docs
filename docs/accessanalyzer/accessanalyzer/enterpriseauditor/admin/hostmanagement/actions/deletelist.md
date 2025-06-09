@@ -6,7 +6,7 @@ ___RECOMMENDED:___ Before deleting a host list, first ensure it is not assigned 
 
 __Step 1 –__ In the Navigation pane, select the host list to delete and click __Delete List__.
 
-![Confirm dialog box](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/confirmdeletelist.png)
+![Confirm dialog box](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/confirmdeletelist.png)
 
 __CAUTION:__ This action cannot be undone. Click __Cancel__ to stop the deletion.
 
@@ -14,7 +14,7 @@ __Step 2 –__ On the Confirm dialog box, click __OK__ to continue with the dele
 
 Access Analyzer checks to see if any hosts within the host list are found in any other static host lists.
 
-![Confirm deletion of orphaned hosts from master host table dialog box](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/confirmdeletelistmaster.png)
+![Confirm deletion of orphaned hosts from master host table dialog box](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/confirmdeletelistmaster.png)
 
 __Step 3 –__  If no hosts are found in any other host list, then Access Analyzer asks if you want to remove the host from the master host table. On the Confirm dialog box, select the desired option.
 

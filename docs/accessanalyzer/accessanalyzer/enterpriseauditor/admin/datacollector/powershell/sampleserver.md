@@ -2,7 +2,7 @@
 
 The Sample Server page provides a box to select a server to generate the result columns.
 
-![PowerShell Data Collector Wizard Select Server page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/selectserver.png)
+![PowerShell Data Collector Wizard Select Server page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/selectserver.png)
 
 The Select Server page options are:
 

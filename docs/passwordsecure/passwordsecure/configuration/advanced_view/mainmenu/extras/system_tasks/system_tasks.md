@@ -4,7 +4,7 @@
 
 Netwrix Password Secure supports administrators and users by automating repetitive tasks. These are represented as system tasks. Predefined tasks can thus be carried out at freely defined intervals.
 
-![System Tasks](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_85-en.png)
+![System Tasks](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_85-en.png)
 
 ## Relevant rights
 
@@ -31,7 +31,7 @@ There are currently four different work processes that can be automated using sy
 
 System tasks can be initiated as usual via the ribbon or also the context menu that is accessed using the right mouse button. The desired process to be automated using system tasks is then selected from the four above-mentioned work processes.
 
-![installation_with_parameters_86](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_86.png)
+![installation_with_parameters_86](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_86.png)
 
 Naturally, the four work processes also share some similarities in their configuration.
 
@@ -41,7 +41,7 @@ Naturally, the four work processes also share some similarities in their configu
 
 The differences between the four work processes to be automated are described below. These differences are always part of the task settings within the system task form – the example here shows an HTML WebViewer export to be configured.
 
-![installation_with_parameters_87](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.png)
+![installation_with_parameters_87](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.png)
 
 WebViewer generator
 
@@ -70,4 +70,4 @@ Status
 
 A corresponding note will be displayed to indicate if a task is currently being executed.
 
-![installation_with_parameters_88](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_88.png)
+![installation_with_parameters_88](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_88.png)

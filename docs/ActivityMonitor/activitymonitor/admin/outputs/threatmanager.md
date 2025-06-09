@@ -6,7 +6,7 @@ An App Token created by Netwrix Threat Manager is used to authenticate connectio
 
 Select a Threat Manager output from the Monitored Domains tab and click __Edit__ to open the output Properties window.
 
-![threatmanager](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/threatmanager.png)
+![threatmanager](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/threatmanager.png)
 
 The tab contains the following settings:
 

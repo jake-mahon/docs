@@ -1,8 +1,8 @@
 # SharePoint Solution
 
-The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
+The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
 
-The SharePoint solution can be configured to run without an agent or to use the Access Analyzer SharePoint Agent. See the [SharePoint Agent Installation](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/sharepointagent/overview.md) topic for additional information.
+The SharePoint solution can be configured to run without an agent or to use the Access Analyzer SharePoint Agent. See the [SharePoint Agent Installation](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/sharepointagent/overview.md) topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor is required for event activity data to be scanned. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for installation requirements and information on collecting activity data.
 
@@ -12,10 +12,10 @@ ___RECOMMENDED:___ When configuring the Netwrix Activity Monitor, select all eve
 
 See the following topics for the SharePoint Agent and the target environment requirements:
 
-- [SharePoint Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
-- [SharePoint Support](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/sharepoint.md)
+- [SharePoint Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+- [SharePoint Support](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/sharepoint.md)
 
-__NOTE:__ You can use the __SP\_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP\_RegisterAzureAppAuth Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+__NOTE:__ You can use the __SP\_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP\_RegisterAzureAppAuth Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## SharePoint Solution Requirements on the Access Analyzer Console
 

@@ -2,12 +2,12 @@
 
 The Credential Policy Overrides page is accessible from the Policy Navigation pane under Credentials and displays the configured Credential Policy Overrides. If a credential is added to a Credential Policy Override, that credential's scheduled change policy and verification schedule will be inherited from the Credential Policy Override, rather than being inherited from the credential's platform.
 
-![Credential Policy Overrides Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverridepage.png)
+![Credential Policy Overrides Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverridepage.png)
 
 The pane on the left side of the page displays a list of the configured Credential Policy Overrides. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Blue + button — Create a new credential group. See the [Add Credential Policy Override](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/credentialpolicyoverrides.md#Add-Credential-Policy-Override) topic for additional information.
+- Blue + button — Create a new credential group. See the [Add Credential Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/credentialpolicyoverrides.md#Add-Credential-Policy-Override) topic for additional information.
 - Trashcan icon — Deletes the policy. Icon appears when policy is hovered over. A confirmation window will display.
 
 The selected access policy details display at the top of the main pane:
@@ -20,7 +20,7 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 The table has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Add Credentials — Opens the Add Credentials window. See the [Add Credentials Window](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md) topic for additional information.
+- Add Credentials — Opens the Add Credentials window. See the [Add Credentials Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md) topic for additional information.
 - Remove — Removes the selected item
 - Refresh — Reload the information displayed
 
@@ -34,7 +34,7 @@ The table has the following columns:
 - Resource — Name of the resource that the account is on
 - Password Changed — Date timestamp for the last time the password was rotated
 - Age — Number of days since the last credential rotation or from when the password was first created
-- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
+- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
 
   - Unspecified — Verification check has not run
   - Verified — Confirmed the credentials match the value stored in Privilege Secure

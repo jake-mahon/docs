@@ -8,7 +8,7 @@ You can validate data by checking the status report. The status report is availa
 
 Open __Flashlight__> __Support__ > __Status Report.__
 
-![statusreport_800x419](/static/img/product_docs/strongpointsalesforceflashlight/tools/statusreport_800x419.png)
+![statusreport_800x419](/img/product_docs/strongpointsalesforceflashlight/tools/statusreport_800x419.png)
 
 ## Strongpoint Dependency Relationship Diagram
 
@@ -20,7 +20,7 @@ To validate data with the DRD:
 2. Select an __Object__ from the pull-down menu.
 3. Click on a field and validate the data.
 
-![entity_diagram_800x309](/static/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.png)
+![entity_diagram_800x309](/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.png)
 
 ## Strongpoint Customization Quick Search
 
@@ -32,4 +32,4 @@ To validate data with the Customization Quick Search:
 2. Scroll, __Search__ or add __Filter(s)__ to locate the customization.
 3. Click on the __Customization__ and validate the data.
 
-![custquicksearch_800x200](/static/img/product_docs/strongpointsalesforceflashlight/tools/custquicksearch_800x200.png)
+![custquicksearch_800x200](/img/product_docs/strongpointsalesforceflashlight/tools/custquicksearch_800x200.png)

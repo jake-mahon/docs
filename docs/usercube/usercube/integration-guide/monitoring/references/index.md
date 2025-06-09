@@ -20,7 +20,7 @@ Arguments:
 
 The EventId id must be unique so we could use it to filter the logs we send. See the [
 Monitoring
-](/docs/product_docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
 
 #### 500
 

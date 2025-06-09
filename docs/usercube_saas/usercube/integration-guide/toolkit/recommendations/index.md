@@ -15,7 +15,7 @@
 
 RedHat's XML extension provides auto-completion based on an XSD file. It opens an auto-completion popup when you start to edit an element or attribute name. You can open the popup by typing ```Ctrl-Space```.
 
-![Auto-complete](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/recommendations/autocomplete.png)
+![Auto-complete](/img/product_docs/usercube/usercube/integration-guide/toolkit/recommendations/autocomplete.png)
 
 Configure auto-completion by proceeding as follows:
 
@@ -56,4 +56,4 @@ For the configuration to be more readable it is recommended to classify configur
 - ___Jobs.xml___ file containing the jobs configuration.
 - ___Workflows.xml___ file containing the Workflows configuration for the given connector.
 
-![Recommendation](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/recommendations/recommendation.png)
+![Recommendation](/img/product_docs/usercube/usercube/integration-guide/toolkit/recommendations/recommendation.png)

@@ -45,15 +45,15 @@ The Source Configuration screen allows you to define which tables / views / quer
 - Edit Connection—Amend the connection details of the currently selected source
 - Add Query—Add a custom method for crawling content (custom SELECT statements), Templates are provided for Hummingbird, Worksite and Documentum.
 
-You can access the Source Configuration screen by selecting the multi-cog (Advanced Configuration) icon from the sources grid:![advancedsourceconfiguration](/static/img/product_docs/dataclassification/ndc/admin/sources/database/advancedsourceconfiguration.png).
+You can access the Source Configuration screen by selecting the multi-cog (Advanced Configuration) icon from the sources grid:![advancedsourceconfiguration](/img/product_docs/dataclassification/ndc/admin/sources/database/advancedsourceconfiguration.png).
 
 Selecting Edit for one of the tables / queries on the list will redirect you to the entity level configuration, which identifies how content will be mapped into the core index.
 
-[![sqlsourceconfiguration_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/database/sqlsourceconfiguration_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sqlsourceconfiguration.png)
+[![sqlsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/database/sqlsourceconfiguration_thumb_0_0.png)](/docs/dataclassification/resources/images/sqlsourceconfiguration.png)
 
 Selecting the Add Query option will present a popup allowing you to select a unique name for the query, as well as the queries to be used for crawling:
 
-![addsqlquery](/static/img/product_docs/dataclassification/ndc/admin/sources/database/addsqlquery.png)
+![addsqlquery](/img/product_docs/dataclassification/ndc/admin/sources/database/addsqlquery.png)
 
 ### Primary Key Query
 
@@ -73,7 +73,7 @@ __NOTE:__ Stored procedures are currently not supported
 
 Adding the query will take you to the custom query configuration. Here you can update the primary key query and the content query, all other configuration options are described in the Table Configuration section:
 
-![setsqlquery](/static/img/product_docs/dataclassification/ndc/admin/sources/database/setsqlquery.png)
+![setsqlquery](/img/product_docs/dataclassification/ndc/admin/sources/database/setsqlquery.png)
 
 ### Table Configuration
 
@@ -90,4 +90,4 @@ The table configuration allows you to choose how each specific entity will be cr
 | Modified Filter (Incremental Crawls) | This should be set to a field that defines when a row has changed (the modified date for the row). When set the collection process will automatically filter the re-indexing process to rows that have a modified date that is larger than the last crawl time. |
 | Re-Index Period | This value is the number of days/hours/minutes that will pass between Re-Indexing. The Re-Indexing process involves querying the table(s) to find new and changed records. |
 
-[![sqltableconfiguration_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/database/sqltableconfiguration_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sqltableconfiguration.png)
+[![sqltableconfiguration_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/database/sqltableconfiguration_thumb_0_0.png)](/docs/dataclassification/resources/images/sqltableconfiguration.png)

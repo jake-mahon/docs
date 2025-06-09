@@ -12,7 +12,7 @@ The scaffolding generates the following scaffoldings:
 
 - ReconciliateResourcesAccessControlRules: Generates the permissions to access the resource reconciliation pages for a given entity type and profile. See the [
   Reconciliate Resources Access Control Rules
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md) topic for additional information.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md) topic for additional information.
 
 ## Properties
 

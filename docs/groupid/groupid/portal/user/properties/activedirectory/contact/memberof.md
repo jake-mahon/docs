@@ -10,7 +10,7 @@ Add
 
 Click it to add the contact to the memberships of one or more groups.
 
-Enter a search string to locate the required group, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+Enter a search string to locate the required group, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
 Remove
 

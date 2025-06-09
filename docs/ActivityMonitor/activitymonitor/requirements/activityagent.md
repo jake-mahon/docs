@@ -16,7 +16,7 @@ RAM, Processor, and Disk Space
 
 __NOTE:__  Disk usage depends on the monitoring scope, user activity, types of client applications, and the retention settings. Number of events per user per day may vary from tens to millions. A single file system event is roughly 300 bytes.
 
-Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the server to a network share. See the [Archiving Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
+Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the server to a network share. See the [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
 
 Additional Server Requirements
 
@@ -36,7 +36,7 @@ The following permission is required to install and manage the agent:
 
 Activity Agent Ports
 
-See the [Activity Agent Ports](/docs/product_docs/activitymonitor/activitymonitor/requirements/activityagentports.md) topic for firewall port requirements.
+See the [Activity Agent Ports](/docs/activitymonitor/activitymonitor/requirements/activityagentports.md) topic for firewall port requirements.
 
 ## Supported Exchange Online
 
@@ -46,7 +46,7 @@ __NOTE:__ For monitoring Exchange Online, the Activity Agent must be deployed to
 
 - Exchange Online
 
-See the [Exchange Online Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/exchangeonline/activity.md) topic for target environment requirements.
+See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/config/exchangeonline/activity.md) topic for target environment requirements.
 
 ## Supported Microsoft Entra ID
 
@@ -56,7 +56,7 @@ __NOTE:__ For monitoring Microsoft Entra ID, the Activity Agent must be deployed
 
 - Microsoft Entra ID (formerly Azure AD)
 
-See the [Microsoft Entra ID Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/entraid/activity.md) topic for target environment requirements.
+See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/config/entraid/activity.md) topic for target environment requirements.
 
 ## Supported Network Attached Storage Devices
 
@@ -69,7 +69,7 @@ CTERA Edge Filter
 - CTERA Portal 7.5.x+
 - CTERA Edge Filer 7.5.x+
 
-See the [CTERA Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/ctera/activity.md) topic for target environment requirements.
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/activity.md) topic for target environment requirements.
 
 Dell Celerra® & VNX
 
@@ -77,33 +77,33 @@ Dell Celerra® & VNX
 - VNX 7.1
 - VNX 8.1
 
-See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellcelerravnx/activity.md) topic for target environment requirements.
+See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/config/dellcelerravnx/activity.md) topic for target environment requirements.
 
 Dell Isilon/PowerScale
 
 - 7.0+
 
-See the [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellpowerscale/activity.md) topic for target environment requirements.
+See the [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/config/dellpowerscale/activity.md) topic for target environment requirements.
 
 Dell PowerStore®
 
-See the [Dell PowerStore Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellpowerstore/activity.md) topic for target environment requirements.
+See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/config/dellpowerstore/activity.md) topic for target environment requirements.
 
 Dell Unity
 
-See the [Dell Unity Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellunity/activity.md) topic for target environment requirements.
+See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/config/dellunity/activity.md) topic for target environment requirements.
 
 Hitachi
 
 - 11.2+
 
-See the [Hitachi Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/hitachi/activity.md) topic for target environment requirements.
+See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/config/hitachi/activity.md) topic for target environment requirements.
 
 Nasuni Nasuni Edge Appliances
 
 - 8.0+
 
-See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/nasuni/activity.md) topic for target environment requirements.
+See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/config/nasuni/activity.md) topic for target environment requirements.
 
 NetApp Data ONTAP
 
@@ -112,22 +112,22 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/netapp7mode/activity.md)
-- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/netappcmode/activity.md)
+- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/config/netapp7mode/activity.md)
+- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/config/netappcmode/activity.md)
 
 Nutanix
 
-See the [Nutanix Files Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/nutanix/activity.md) topic for target environment requirements.
+See the [Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/config/nutanix/activity.md) topic for target environment requirements.
 
 Panzura
 
-See the [Panzura CloudFS Monitoring](/docs/product_docs/activitymonitor/config/panzura/activity.md) topic for target environment requirements.
+See the [Panzura CloudFS Monitoring](/docs/activitymonitor/config/panzura/activity.md) topic for target environment requirements.
 
 Qumulo
 
 - Qumulo Core 5.0.0.1B+
 
-See the [Qumulo Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/qumulo/activity.md) topic for target environment requirements.
+See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/config/qumulo/activity.md) topic for target environment requirements.
 
 ## Supported SharePoint Farms Platforms
 
@@ -141,7 +141,7 @@ __NOTE:__ For monitoring a SharePoint farm, the Activity Agent must be deployed 
 
 - SharePoint® Server Subscription Edition
 
-See the [SharePoint On-Premise Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/sharepoint/activity.md) topic for target environment requirements.
+See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/config/sharepoint/activity.md) topic for target environment requirements.
 
 ## Supported SharePoint Online
 
@@ -151,7 +151,7 @@ __NOTE:__ For monitoring SharePoint Online, the Activity Agent must be deployed 
 
 - SharePoint Online®
 
-See the [SharePoint Online Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/sharepointonline/activity.md) topic for target environment requirements.
+See the [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/config/sharepointonline/activity.md) topic for target environment requirements.
 
 ## Supported SQL Server Platforms
 
@@ -166,7 +166,7 @@ __NOTE:__ For monitoring SQL Server, it is recommended to install the Activity A
 - SQL Server 2017
 - SQL Server 2016
 
-See the [SQL Server Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/sqlserver/activity.md) topic for target environment requirements.
+See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/config/sqlserver/activity.md) topic for target environment requirements.
 
 ## Supported Windows File Servers Platforms
 
@@ -178,4 +178,4 @@ __NOTE:__ For monitoring a Windows file server, the Activity Agent must be deplo
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Windows File Server Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/windowsfile/activity.md) topic for target environment requirements.
+See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/config/windowsfile/activity.md) topic for target environment requirements.

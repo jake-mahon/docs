@@ -4,7 +4,7 @@ This topic and its subtopics are written for users who have been assigned as a P
 
 New users added to the Console will need to go through the MFA registration process before they can log in. Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator, DUO, Symantec VIP etc) for all user accounts. Upon initial login, the user must complete MFA registration in order to proceed with using Privilege Secure. It is recommended to check with the organization's Administrators for login requirements.
 
-There is also a Browser Extension that can be installed for Privilege Secure users. See the [Browser Extension App](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md) topic for additional information.
+There is also a Browser Extension that can be installed for Privilege Secure users. See the [Browser Extension App](/docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md) topic for additional information.
 
 ## First Time Login
 
@@ -24,17 +24,17 @@ __Step 1 –__ Open Privilege Secure in a browser window. The Login screen will
 
 __NOTE:__ Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator, DUO, Symantec VIP, etc) for all user accounts unless otherwise configured by an Administrator. If required, first time users must register with an MFA to use with their login credentials.
 
-![Default Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.png)
+![Default Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.png)
 
 __Step 2 –__ Either click the default authentication connector button, or click __Log In with a Different Account__ to display all of the authentication connectors that are registered with Privilege Secure.
 
-![Alternate Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.png)
+![Alternate Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.png)
 
 __Step 3 –__ Login to Privilege Secure with a configured authentication connector, or enter the user credentials.
 
 - When using an authentication connector, there's no 'username' or 'password' field for the user to enter. Instead there's just a single button to login.
 
-![Okta authentication connector](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.png)
+![Okta authentication connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.png)
 
 - Clicking the authentication connector will redirect the user to the IdP login screen, which will log the user in (with whatever MFA is set up in the IdP) and then revert the user back to the Privilege Secure dashboard once authenticated. Steps 4-7 will be skipped when using an IdP login.
 
@@ -44,10 +44,10 @@ __Step 5 –__ A QR code will be displayed to register with an authenticator app
 
 __Step 6 –__ Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.png)
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.png)
 
 __Step 7 –__ Click MFA Login. Privilege Secure opens on the Dashboard Interface.
 
-![Dashboard Interface](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
+![Dashboard Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
 
 Privilege Secure is ready to use.

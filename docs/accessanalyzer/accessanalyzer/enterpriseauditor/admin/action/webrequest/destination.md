@@ -2,7 +2,7 @@
 
 Use the Destination page to specify all settings for the destination of the web request.
 
-![Web Request Action Module Wizard Destination page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/destination.png)
+![Web Request Action Module Wizard Destination page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/destination.png)
 
 Use the following categories to establish the location of the web request:
 

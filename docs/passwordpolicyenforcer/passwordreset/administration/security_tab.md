@@ -2,7 +2,7 @@
 
 Use the __Security__ tab to configure the inactivity timeout, password reset policies, and the lockout threshold.
 
-![configuring_npr_8](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.png)
+![configuring_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.png)
 
 ### Inactivity Timeout
 

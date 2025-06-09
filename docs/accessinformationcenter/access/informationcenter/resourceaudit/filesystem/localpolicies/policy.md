@@ -2,7 +2,7 @@
 
 The Policy report at the local policy level provides a list of policies assigned for the selected local policy.
 
-![Policy report](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.png)
+![Policy report](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.png)
 
 This report is comprised of the following columns:
 

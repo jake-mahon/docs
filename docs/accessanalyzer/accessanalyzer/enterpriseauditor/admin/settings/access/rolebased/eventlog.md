@@ -17,4 +17,4 @@ The Access Analyzer Event Log includes a list of the following activities relate
 - Job/Group Executions
 - Access Analyzer Console launches and exits
 
-See the [Application Maintenance and Best Practices](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/overview.md) topic for additional information.
+See the [Application Maintenance and Best Practices](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/overview.md) topic for additional information.

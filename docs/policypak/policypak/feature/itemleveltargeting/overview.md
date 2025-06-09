@@ -4,11 +4,11 @@ Item-Level Targeting is used in Microsoft Group Policy Preferences and other are
 
 A collection enables you to group together Endpoint Policy Manager Feature Manager for Windows policies so they can act together. For instance, you might create a collection for only East Sales Computers and another for West Sales Computers. Or you might create one for Windows Server 2016 servers with Exchange, and one for Windows 10 laptops in Sales.
 
-![using_item_level_targeting](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
+![using_item_level_targeting](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.png)
 
 You can also right-click any Endpoint Policy Manager Feature Manager for Windows policy, and select __Edit Item Level Targeting__.
 
-![using_item_level_targeting_1](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
+![using_item_level_targeting_1](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.png)
 
 You can also select Item-Level Targeting when a policy is created using the wizard.
 
@@ -16,7 +16,7 @@ The __Edit Item Level Targeting__ menu item brings up the __Targeting Editor__. 
 
 You can apply one or more targeting items to a policy, which enables targeting items to be joined logically. You can also add targeting collections, which group together targeting items in much the same way parentheses are used in an equation. In this way, you can create a complex determination about where a policy will be applied. Collections may be set to __And__, __Or__ __Is__, or __Is Not__.
 
-![using_item_level_targeting_2](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
+![using_item_level_targeting_2](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.png)
 
 Below are some real-world examples of how you can use Item-Level Targeting.
 
@@ -28,6 +28,6 @@ Below are some real-world examples of how you can use Item-Level Targeting.
 
 After you're done editing, close the editor. Note that the icon of the policy or collection has changed to orange, which shows that it now has Item-Level Targeting.
 
-![using_item_level_targeting_3](/static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
+![using_item_level_targeting_3](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.png)
 
 When Item-Level Targeting is on, the policy won't apply unless the conditions are __True__. If Item-Level Targeting is on a collection, then none of the items in the collection will apply unless the Item-Level Targeting on the collection evaluates to __True__.

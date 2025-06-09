@@ -20,4 +20,4 @@ The exception details.
 
 See Also
 
-- [SendSmsMessageResult class](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md)
+- [SendSmsMessageResult class](/docs/groupid/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md)

@@ -10,7 +10,7 @@ __Step 3 –__ Navigate to __Computers__ tab and select the required computer in
 
 __Step 4 –__ Click the __Add as NPS Managed Resource__ button.
 
-![enrollhostsinmanagement](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.png)
+![enrollhostsinmanagement](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.png)
 
 __Step 5 –__ Provide the Service Account in the __Use Service Account__ field.
 

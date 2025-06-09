@@ -30,11 +30,11 @@ The notification will be sent to all email addresses defined by ```Directory_Gue
 
 ## Child Element: PointCut
 
-A pointcut is a mechanism telling Identity Manager when to execute the linked [Aspects](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md).
+A pointcut is a mechanism telling Identity Manager when to execute the linked [Aspects](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md).
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 
-![pointcut Schema](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.png)
+![pointcut Schema](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.png)
 
 | Property | Details |
 | --- | --- |
@@ -108,6 +108,6 @@ Knowing that we also have:
 | ActivityState   optional | __Type__    Enumeration   __Description__   Identifier of the activity state whose last performers are to be notified, when ```Type``` is set to ```Performer```.   __Note:__ must be set together with ```Activity```. |
 | Binding   optional | __Type__    Int64   __Description__   Binding of the property that represents the notification's recipients, when ```Type``` is set to ```Binding```. |
 | EmailAddresses   optional | __Type__    String   __Description__   Email addresses of the notification's recipients, when ```Type``` is set to ```Hardcoded```. |
-| Expression   optional | __Type__    String   __Description__   C# expression that returns the email addresses of the notification's recipients, as strings or IEnumerable<string>, when ```Type``` is set to ```Expression```. The expression's variable type is defined in ```ExpressionBinding``` in the associated ```NotificationAspect```. See the [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| Expression   optional | __Type__    String   __Description__   C# expression that returns the email addresses of the notification's recipients, as strings or IEnumerable<string>, when ```Type``` is set to ```Expression```. The expression's variable type is defined in ```ExpressionBinding``` in the associated ```NotificationAspect```. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
 | IsCC   default value: false | __Type__    Boolean   __Description__   ```true``` to send the notification email to the recipient(s) as a carbon copy (CC). |
 | Type   required | __Type__    RecipientType   __Description__   Type of recipients for the email notification.   __Actor__: the identities with the permissions to act on the next step of the workflow specified in the pointcut.   __Performer__: the actors of a past workflow step specified in ```Activity``` and ```ActivityState```.   __Binding__: the identities whose email addresses are designated by the property specified in ```Binding```.   __Hardcoded__: the identities whose email addresses are specified explicitly in ```EmailAddresses```.   __Expression__: the identities whose email addresses match the C# expression specified in ```Expression```.   __Profile__: the identities with the permission ```/Custom/WorkflowsNotifications/{workflow_identifier}/```   ```{activity_identifier}/{activityTemplateState_shortIdentifier}```. |

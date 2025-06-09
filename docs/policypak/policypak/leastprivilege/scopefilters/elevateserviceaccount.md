@@ -1,10 +1,10 @@
 # Scenario 4: Elevating a Service Account
 
-__NOTE:__ For an overview of this scenario see the [Reduce or specify Service Account Rights](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md) video.
+__NOTE:__ For an overview of this scenario see the [Reduce or specify Service Account Rights](/docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md) video.
 
 You might have a service which requires specific privileges. Maybe your service, by default, uses Local System, and you want to give it lessrights.
 
-With Endpoint Policy Manager [Reduce or specify Service Account Rights](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md), you can remove the powerful privileges of the service account and strip out LOCAL SYSTEM and grant a specific user the permissions required.
+With Endpoint Policy Manager [Reduce or specify Service Account Rights](/docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md), you can remove the powerful privileges of the service account and strip out LOCAL SYSTEM and grant a specific user the permissions required.
 
 If you want a process to be run via special user account, you need to do the following:
 
@@ -20,4 +20,4 @@ Tip: It's also possible to use Scope Filter = SERVICES to make the rule apply to
 
 [![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/7f83c3a3-6e8a-49b6-80a9-0ef07ab2882f/faq-img-15.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.png)](https://hf-files-oregon.s3-us-west-2.amazonaws.com/hdppolicypak_kb_attachments/2019/06-26/7f83c3a3-6e8a-49b6-80a9-0ef07ab2882f/faq-img-15.png)

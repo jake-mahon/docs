@@ -4,7 +4,7 @@ This guide shows how to protect sensitive data by connecting Identity Manager t
 
 ## Data Protection
 
-Identity Manager often needs to connect to [Connectors](/docs/product_docs/usercube/usercube/integration-guide/connectors/index.md) with credentials that need protection.
+Identity Manager often needs to connect to [Connectors](/docs/usercube/usercube/integration-guide/connectors/index.md) with credentials that need protection.
 
 By default, the data used to connect to external systems is stored in plain text in the __Connections__ section of the ```appsettings.agent.json``` file. This is not a secure option.
 
@@ -41,9 +41,9 @@ The following table sums up which keys from ```appsettings.agent.json```'s __Con
 | Password | ```Password / ApplicationKey / ClientSecret``` |
 | Address | ```Server / MicrosoftGraphPathApi / ResponseUri``` |
 
-Any [Connectors](/docs/product_docs/usercube/usercube/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the associated value from CyberArk.
+Any [Connectors](/docs/usercube/usercube/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the associated value from CyberArk.
 
-> For example, [Active Directory](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md) can retrieve: ```Login```; ```Password```; ```Server```.
+> For example, [Active Directory](/docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md) can retrieve: ```Login```; ```Password```; ```Server```.
 
 ## Set Authorization Details
 
@@ -93,7 +93,7 @@ Create a CyberArk account by [adding it to the PVWA](https://docs.cyberark.com/P
 Netwrix Identity Manager (formerly Usercube) recommends customizing the account's name because it will be used in [
               
               Connection
-              ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to retrieve this account from the vault.
+              ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to retrieve this account from the vault.
 
 ```
 
@@ -140,7 +140,7 @@ Connect Identity Manager to CyberArk by adding to the agent's ```appsettings.jso
 | Name | Details |
 | --- | --- |
 | UseCyberArkSetting   default value: False | __Type__    Boolean   __Description__ ```True``` to enable the CyberArk Provider for Identity Manager. |
-| SafeName   required | __Type__    String   __Description__ Name of the safe containing the [ Connection ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) used by Identity Manager. |
+| SafeName   required | __Type__    String   __Description__ Name of the safe containing the [ Connection ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) used by Identity Manager. |
 | ApplicationId   required | __Type__    String   __Description__ [CyberArk's AAM Credential Providers ](#CyberArks-AAM-Credential-Providers) of the application that can access the safe. |
 | Server   required | __Type__    String   __Description__ URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes.   __Note:__ the ```Server``` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
@@ -185,7 +185,7 @@ The archive is set using the following attributes:
 | Name | Details |
 | --- | --- |
 | File   required | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system. |
-| Password   optional | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.   __Info:__ storing a ```.pfx``` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [ Usercube-Protect-CertificatePassword ](/docs/product_docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) tool. |
+| Password   optional | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.   __Info:__ storing a ```.pfx``` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [ Usercube-Protect-CertificatePassword ](/docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) tool. |
 
 #### As a Certificate in the Windows Store
 

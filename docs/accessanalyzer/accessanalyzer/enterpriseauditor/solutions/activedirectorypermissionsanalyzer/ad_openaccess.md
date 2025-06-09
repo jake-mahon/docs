@@ -2,7 +2,7 @@
 
 The AD\_OpenAccess Job reports on all Active Directory permissions granting open access within the targeted domains. Open Access can be defined as access granted to security principals such as: Domain Users, Authenticated Users, and Everyone.
 
-![5.Open Access Job Group in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.png)
+![5.Open Access Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.png)
 
 The AD\_OpenAccess Job is located in the 5.Open Access Job Group.
 
@@ -12,7 +12,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __5.Open Access__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_OpenAccess Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.png)
+![Analysis Tasks for the AD_OpenAccess Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.png)
 
 The default analysis tasks are:
 

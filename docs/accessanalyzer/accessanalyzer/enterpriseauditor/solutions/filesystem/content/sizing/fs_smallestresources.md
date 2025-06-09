@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_SmallestResources Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/sizing/smallestresourcesanalysis.png)
+![Analysis Tasks for the FS_SmallestResources Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/sizing/smallestresourcesanalysis.png)
 
 The following analysis tasks are selected by default:
 

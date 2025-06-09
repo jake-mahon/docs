@@ -36,7 +36,7 @@ Get-Group -SearchContainer "OU=Recuriting,DC=HR,DC=Imanami,DC=US"
 
 Example 2:
 
-The following command retrieves all groups with a display name beginning with S in the base containers specified by the SearchContainer parameter including sub-containers of the first base container and excluding sub-containers of the second one using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command retrieves all groups with a display name beginning with S in the base containers specified by the SearchContainer parameter including sub-containers of the first base container and excluding sub-containers of the second one using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Get-Group -SearchContainer "OU=Recuriting,DC=HR,DC=Imanami,DC=US","OU=OutSourcing,DC=HR,DC=Imanami,DC=US" -SearchContainersScopeList "2","1" -LdapFilter "(DisplayName = S*)" -Credential $Cred

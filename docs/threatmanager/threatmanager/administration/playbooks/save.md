@@ -4,7 +4,7 @@ Sometimes it may be convenient to save a step so that it can be added to multipl
 
 Follow the steps to save a step to the My Steps list.
 
-![playbookstep](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.png)
+![playbookstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.png)
 
 __Step 1 –__ Click the step in the playbook to expand it.
 

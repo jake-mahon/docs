@@ -1,6 +1,6 @@
 # Old Customization Record
 
-This topic details the old-style customization record. Refer to [Understanding the Customization Record](/docs/product_docs/strongpointforsalesforce/customizations/understanding_customization_record.md) for the updated Platform Governance for Salesforce Lightning customization record.
+This topic details the old-style customization record. Refer to [Understanding the Customization Record](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md) for the updated Platform Governance for Salesforce Lightning customization record.
 
 The customization detail contains general information about the customization record. The customization name appears in the banner with function buttons:
 
@@ -20,7 +20,7 @@ Customization record fields include:
 - __Related Objects__: Links to related objects.
 - __Details__: Tabs to access details about the customization. Tabs include __Metadata__, __Improvement__, __Permissions__, __Control__, __DRD__, __Raw Data__ and __Related Lists__.
 
-![customization_record](/static/img/product_docs/strongpointforsalesforce/customizations/customization_record.png)
+![customization_record](/img/product_docs/strongpointforsalesforce/customizations/customization_record.png)
 
 ## Customization Record Tabs
 
@@ -48,7 +48,7 @@ These are the tabs inside a customization record:
 
 The metadata tab provides the metadata information about the customization, including:
 
-- __Date Last Used__: date the customization was last used. Refer to [DLU](/docs/product_docs/strongpointforsalesforce/clean_up/date_last_used.md) for more information.
+- __Date Last Used__: date the customization was last used. Refer to [DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) for more information.
 - __Data type__: data type of the custom field.
 - __Last Modified Date__: last date the customization was modified.
 - __Active__: indicates whether the customization is a active.
@@ -87,7 +87,7 @@ There are new customization records for each Health Check group (session setting
 
 The Health Settings tab is located on the customization pages for the Salesforce Health Check, such as Session Settings, Password Policies and Certificates. This example shows the __Health Settings__ tab for the __PasswordPolicies__ customization.
 
-![Example of the PasswordPolicies Health Settings tab](/static/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.png)
+![Example of the PasswordPolicies Health Settings tab](/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.png)
 
 ### Data Classification
 
@@ -115,7 +115,7 @@ The control tab describes assigned controls on a customization record for exampl
 
 ### DRD
 
-Dependency Relationship Diagram ([DRD](/docs/product_docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
+Dependency Relationship Diagram ([DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
 
 ### Raw Data
 

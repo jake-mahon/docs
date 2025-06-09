@@ -20,7 +20,7 @@ GRANT CREATE SESSION TO %USERNAME% CONTAINER=ALL;         
 
 ## User Credentials Role
 
-When using a least privileged model for Oracle, __SYSDBA__ must be selected for the Role in the User Credentials window for the Oracle Connection Profile. See the [Oracle for User Credentials](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.md) topic for additional information.
+When using a least privileged model for Oracle, __SYSDBA__ must be selected for the Role in the User Credentials window for the Oracle Connection Profile. See the [Oracle for User Credentials](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.md) topic for additional information.
 
 ## Oracle Server Discovery
 
@@ -36,7 +36,7 @@ __NOTE:__ The plink utility in the Access Analyzer installation directory has to
 
 The syntax is as follows:
 
-![administratorcommandprompt](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/administratorcommandprompt.png)
+![administratorcommandprompt](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/administratorcommandprompt.png)
 
 Run the following on the command prompt:
 

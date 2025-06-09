@@ -2,29 +2,29 @@
 
 ## SAML Configuration Example for Dropbox
 
-This chapter explains how to configure the SAML application for __Dropbox__. It is assumed that [Configuration of SAML](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/configuration_of_saml/configuration_of_saml.md) has already been activated in the Server Manager.
+This chapter explains how to configure the SAML application for __Dropbox__. It is assumed that [Configuration of SAML](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/configuration_of_saml/configuration_of_saml.md) has already been activated in the Server Manager.
 
 - Log in as administrator at the __Dropbox__
 - Open the Admin Console
 
-![Admin Console](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_1-en.png)s
+![Admin Console](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_1-en.png)s
 
 - Open Settings
 
-![settings dropbox](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_2-en.png)
+![settings dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_2-en.png)
 
 - Single Sign On
 
-![SSO dropbox](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_3-en.png)
+![SSO dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_3-en.png)
 
 - This is where the data SSO URL and the certificate from the Server Manager must be deposited.
 
-![database settings](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_4-en.png)
+![database settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_4-en.png)
 
 - In the Advanced view, a new SAML application must be created in the Applications module.
 - Then the target page (login URL) and the XML file must be stored in the application.
 
-![login with SAML](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_5-en.png)
+![login with SAML](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_5-en.png)
 
 The XML file must look like [this](https://cdn.manula.com/user/3511/docs/dropbox.xml).
 

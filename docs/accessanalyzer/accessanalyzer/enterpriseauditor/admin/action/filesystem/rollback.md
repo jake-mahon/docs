@@ -4,7 +4,7 @@ Use the Rollback page to apply rollback support to the action. This option provi
 
 __NOTE:__ Not all actions support Rollback.
 
-![File System Action Module Wizard Rollback page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/rollback.png)
+![File System Action Module Wizard Rollback page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/rollback.png)
 
 Use the following options:
 

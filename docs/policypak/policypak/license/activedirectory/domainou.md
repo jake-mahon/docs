@@ -8,4 +8,4 @@ Endpoint Policy Manager can be licensed per OU and sub-OU. So, if you manage a p
 
 You don not need approval of domain or enterprise admins; you can get started right away.
 
-__NOTE:__ See [Using Shares to Store Your Paks (Share-Based Storage)](/docs/product_docs/policypak/policypak/video/applicationsettings/shares.md) how PP Application Manager Paks can be stored in a share.
+__NOTE:__ See [Using Shares to Store Your Paks (Share-Based Storage)](/docs/policypak/policypak/video/applicationsettings/shares.md) how PP Application Manager Paks can be stored in a share.

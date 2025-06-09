@@ -4,7 +4,7 @@ When a Smart Group or Dynasty is updated using a scheduled job, it involves the 
 
 - Each Smart Group and Dynasty has a query defined for it. On update, the query retrieves records from the directory and group membership is updated with these records.
 
-  If the administrator has defined a Query Designer policy for your role, group membership is updated as per the defined policy. See the [ Query Designer Policy](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md)topic for additional information.
+  If the administrator has defined a Query Designer policy for your role, group membership is updated as per the defined policy. See the [ Query Designer Policy](/docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md)topic for additional information.
 
   NOTE: Whatever the records returned by the query, the membership of an Office 365 group is updated with user objects only.
 - The values of certain attribute(s) is updated.
@@ -33,9 +33,9 @@ In Directory Manager portal, you can perform the following functions for Smart G
 
    Or
 
-   [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) the group you want to modify the query for.
+   [Directory Search](/docs/groupid/groupid/portal/search/search.md) the group you want to modify the query for.
 2. Select the required Smart Group or Dynasty and click __Properties__ on the toolbar.
-3. Use the [Group properties - Smart Group/Query Designer tab](/docs/product_docs/groupid/groupid/portal/group/properties/smartgroup.md) to view the query defined for the group.
+3. Use the [Group properties - Smart Group/Query Designer tab](/docs/groupid/groupid/portal/group/properties/smartgroup.md) to view the query defined for the group.
 
    Click the __Query Designer__ button to launch the __Query Designer__ dialog box, where you can modify the query.
 4. Save the changes.
@@ -55,10 +55,10 @@ Membership update settings defined for the identity store also impact Smart Grou
 
    Or
 
-   [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) the group you want to associate a Smart Group Update job with.
+   [Directory Search](/docs/groupid/groupid/portal/search/search.md) the group you want to associate a Smart Group Update job with.
 2. Select the required Smart Group or Dynasty and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/product_docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
 3. On the __Smart Group/Query Designer__ tab, select a Smart Group Update job from the __Scheduled Job__ list.
 
    When this job runs, it updates the group's membership.

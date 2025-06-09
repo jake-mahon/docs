@@ -11,7 +11,7 @@ On the Risk Assessment dashboard, you can check:
 - How has the risk posture changed over time? Has the organization’s security position improved or worsened compared to the previous week, month, or quarter?
 - Does your organization's security posture aligns with security frameworks like NIST?
 
-_Remember,_ each organization has a risk profile associated with it and the risk analysis of an organization is based on the metrics included in the risk profile. See the [Manage Risk Profiles](/docs/product_docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
+_Remember,_ each organization has a risk profile associated with it and the risk analysis of an organization is based on the metrics included in the risk profile. See the [Manage Risk Profiles](/docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
 
 ## View the Risk Assessment Dashboard
 
@@ -21,7 +21,7 @@ To access the Risk Assessment dashboard, click __Home__ at the top. On the 1Secu
 - In the organizations list, click the risk value for an organization. It opens the Risk Assessment dashboard that displays risk-related data for the organization.
 - In the organizations list, click an organization name to navigate to the Organization Statistics page, then click the Risk Assessment card. It opens the Risk Assessment dashboard that displays risk-related data for the organization.
 
-![Risk Assessment Dashboard](/static/img/product_docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.png)
+![Risk Assessment Dashboard](/img/product_docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.png)
 
 ## Filter Data
 
@@ -42,17 +42,17 @@ The following cards are available for filtering data:
 - High – This card displays the number of high severity risks detected for the organization. Click it to view only the high severity risks on this page.
 - Medium – This card displays the number of medium severity risks detected for the organization. Click it to view only the medium severity risks on this page.
 - Low – This card displays the number of low severity risks detected for the organization. Click it to view only the low severity risks on this page.
-- Since <time period> (upward red arrow) – This card displays the following statistics for the risks that have increased during the time period selected in the Trend since drop-down menu.
+- Since `<time period>` (upward red arrow) – This card displays the following statistics for the risks that have increased during the time period selected in the Trend since drop-down menu.
 
-  - <number> risks rising – Displays the number of risks that have increased during the time period selected in the Trend since drop-down menu
-  - <number> more high – Displays the number of risks that have escalated to high severity during the time period selected in the Trend since drop-down menu
-  - <number> more medium – Displays the number of risks that have escalated to medium severity during the time period selected in the Trend since drop-down menu
+  - `<number>` risks rising – Displays the number of risks that have increased during the time period selected in the Trend since drop-down menu
+  - `<number>` more high – Displays the number of risks that have escalated to high severity during the time period selected in the Trend since drop-down menu
+  - `<number>` more medium – Displays the number of risks that have escalated to medium severity during the time period selected in the Trend since drop-down menu
   - No change so far – Indicates that there has been no change to the risk data during the time period selected in the Trend since drop-down menu
-- Since <time period> (downward green arrow) – This card displays the following statistics for the risks that have decreased during the time period selected in the Trend since drop-down menu.
+- Since `<time period>` (downward green arrow) – This card displays the following statistics for the risks that have decreased during the time period selected in the Trend since drop-down menu.
 
-  - <number> risks falling – Displays the number of risks that have decreased during the time period selected in the Trend since drop-down menu
-  - <number> less high – Displays the number of risks whose severity has decreased from high during the time period selected in the Trend since drop-down menu
-  - <number> less medium – Displays the number of risks whose severity has decreased from medium during the time period selected in the Trend since drop-down menu
+  - `<number>` risks falling – Displays the number of risks that have decreased during the time period selected in the Trend since drop-down menu
+  - `<number>` less high – Displays the number of risks whose severity has decreased from high during the time period selected in the Trend since drop-down menu
+  - `<number>` less medium – Displays the number of risks whose severity has decreased from medium during the time period selected in the Trend since drop-down menu
   - No change so far – Indicates that there has been no change to the risk data during the time period selected in the Trend since drop-down menu
 
 Drop-down Menu Filters
@@ -87,7 +87,7 @@ The following drop-down menus are available for filtering data:
 
 The Risk Assessment dashboard provides a list of risks detected for an organization based on the applied filters.
 
-_Remember,_ each risk is basically a metric included in the risk profile associated with the organization. See the [Risk Metrics List](/docs/product_docs/1secure/1secure/admin/riskprofiles/metrics_list.md) topic for details on each of the risk metrics.
+_Remember,_ each risk is basically a metric included in the risk profile associated with the organization. See the [Risk Metrics List](/docs/1secure/1secure/admin/riskprofiles/metrics_list.md) topic for details on each of the risk metrics.
 
 Risks are categorized into two types:
 
@@ -96,7 +96,7 @@ Risks are categorized into two types:
 
 In the Risks list, the information displayed for each risk varies depending on its type – enumerated or Boolean.
 
-![Risks List](/static/img/product_docs/1secure/1secure/admin/riskprofiles/dashboard_riskslist.png)
+![Risks List](/img/product_docs/1secure/1secure/admin/riskprofiles/dashboard_riskslist.png)
 
 Enumerated Risks
 
@@ -124,7 +124,7 @@ On the Risk Assessment dashboard, click a risk in the Risks list; its details ar
 
 Enumerated Risk Details
 
-![Enumerated Risk Details pane](/static/img/product_docs/1secure/1secure/admin/riskprofiles/dashboard_riskdetails.png)
+![Enumerated Risk Details pane](/img/product_docs/1secure/1secure/admin/riskprofiles/dashboard_riskdetails.png)
 
 The left pane displays the following details for an enumerated risk:
 
@@ -143,13 +143,13 @@ The left pane displays the following details for an enumerated risk:
   - Yellow line – Indicates the minimum value of the medium risk threshold set for the risk metric
 - Description – A description of the risk metric
 - NIST Regulations – Displays the NIST regulation names associated with the risk metric
-- Open Report – Click this button to navigate to the State In Time Risk Reports page, where you can view a detailed report for that risk metric. See the [State In Time Risks Reports](/docs/product_docs/1secure/1secure/admin/searchandreports/stateintime.md) topic for additional information.
-- Remediate – On clicking this button, the Remediate <risk name> pane is displayed, which provides AI-generated step-by-step guidance to help you remediate the risk.
-- Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage the risk profiles. See the [Manage Risk Profiles](/docs/product_docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
+- Open Report – Click this button to navigate to the State In Time Risk Reports page, where you can view a detailed report for that risk metric. See the [State In Time Risks Reports](/docs/1secure/1secure/admin/searchandreports/stateintime.md) topic for additional information.
+- Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides AI-generated step-by-step guidance to help you remediate the risk.
+- Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage the risk profiles. See the [Manage Risk Profiles](/docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
 
 Boolean Risk Details
 
-![Boolean Risk Details pane](/static/img/product_docs/1secure/1secure/admin/riskprofiles/booleanriskdetails.png)
+![Boolean Risk Details pane](/img/product_docs/1secure/1secure/admin/riskprofiles/booleanriskdetails.png)
 
 The left pane displays the following details for a Boolean risk:
 
@@ -160,8 +160,8 @@ The left pane displays the following details for a Boolean risk:
 
   Description – A description of the risk metric
 - NIST Regulations – Displays the NIST regulation names associated with the risk metric
-- Remediate – On clicking this button, the Remediate <risk name> pane is displayed, which provides AI-generated step-by-step guidance to help you remediate the risk.
-- Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage the risk profiles. See the [Manage Risk Profiles](/docs/product_docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
+- Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides AI-generated step-by-step guidance to help you remediate the risk.
+- Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage the risk profiles. See the [Manage Risk Profiles](/docs/1secure/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
 
 ## Export a Risk Assessment Report for an Organization
 
@@ -174,9 +174,9 @@ On the Risk Assessment dashboard, select an organization from the drop-down menu
 
 __Step 2 –__ Click __Export__ in the upper right corner; the Exporting Risk Assessment pane is displayed.
 
-![Exporting Risk Assessment pane](/static/img/product_docs/1secure/1secure/admin/riskprofiles/export_riskassessment.png)
+![Exporting Risk Assessment pane](/img/product_docs/1secure/1secure/admin/riskprofiles/export_riskassessment.png)
 
-__Step 3 –__ In the __File Name__ field, specify the name of the file the intended recipient(s) will receive. The default name is: Risk Assessment Report for <organization name> <Export date>. For example, Risk Assessment Report for test organization 2025-03-25
+__Step 3 –__ In the __File Name__ field, specify the name of the file the intended recipient(s) will receive. The default name is: Risk Assessment Report for `<organization name>` `<Export date>`. For example, Risk Assessment Report for test organization 2025-03-25
 
 __Step 4 –__ Select a time period from the Timeframe drop-down menu to export risk-related data starting from the selected point. For example, if you select Last 3 months, the report will include data from the past three months up to the current date.
 
@@ -188,11 +188,11 @@ __Step 6 –__ Click __Export__.
 
 ## Subscribe to a Risk Assessment Report
 
-You can subscribe to the Risk Assessment report of a managed organization. A subscription is a regularly-scheduled report, which you can send to specific email addresses automatically, or upload it to a designated folder in SharePoint Online. See the [Subscriptions](/docs/product_docs/1secure/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
+You can subscribe to the Risk Assessment report of a managed organization. A subscription is a regularly-scheduled report, which you can send to specific email addresses automatically, or upload it to a designated folder in SharePoint Online. See the [Subscriptions](/docs/1secure/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
 
 Follow the steps to subscribe to a Risk Assessment report for an organization.
 
 __Step 1 –__ 
 On the Risk Assessment dashboard, select an organization from the drop-down menu to view its risk-related data. An organization is selected by default, but you can choose a different one if needed.
 
-__Step 2 –__ Click __Subscribe__ in the upper right corner; the Subscription to <organization name> Risk Assessment pane is displayed. See the [Add a Subscription](/docs/product_docs/1secure/1secure/admin/searchandreports/subscriptions.md#Add-a-Subscription) topic for additional information on adding a subscription, starting at Step 6. Remember to select the Include Low Risks check box if you want to include low risks in the report.
+__Step 2 –__ Click __Subscribe__ in the upper right corner; the Subscription to `<organization name>` Risk Assessment pane is displayed. See the [Add a Subscription](/docs/1secure/1secure/admin/searchandreports/subscriptions.md#Add-a-Subscription) topic for additional information on adding a subscription, starting at Step 6. Remember to select the Include Low Risks check box if you want to include low risks in the report.

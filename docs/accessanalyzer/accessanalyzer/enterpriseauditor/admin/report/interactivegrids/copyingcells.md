@@ -2,7 +2,7 @@
 
 Copying an individual cell within a generated report enables easier searching for information using the AIC or other tools. The copy feature can only be used on interactive grids. Each cell listed under a column can be selected and copied to the clipboard.
 
-![Copy Cell Data](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/copycell.png)
+![Copy Cell Data](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/copycell.png)
 
 To copy a cell, select the cell, then right-click on it and select __Copy Cell Data__.
 

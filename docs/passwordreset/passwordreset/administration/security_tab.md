@@ -6,7 +6,7 @@ Security Tab
 
 Use the __Security__ tab to configure the inactivity timeout, password reset policies, and the lockout threshold.
 
-![configuring_npr_8](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.png)
+![configuring_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.png)
 
 ### Inactivity Timeout
 
@@ -32,4 +32,4 @@ Select a value from the __Lockout user after...__ drop-down list to specify how 
 
 __NOTE:__ Locked out users must re-enroll before they can use Password Reset to reset their password or unlock their account. The incorrect answer count is reset when a user enrolls, or answers all questions during a reset or unlock.
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

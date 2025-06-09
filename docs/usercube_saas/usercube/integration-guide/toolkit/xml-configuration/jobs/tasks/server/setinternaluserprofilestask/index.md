@@ -4,7 +4,7 @@ Will execute the profile rules of the different resource types given in paramete
 
 It is necessary to set up [
 Profile Context
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md) as well as [Profile Rule Context](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) to be able to use this job.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md) as well as [Profile Rule Context](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) to be able to use this job.
 
 ## Examples
 

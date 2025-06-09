@@ -1,8 +1,8 @@
 # View Responses Window
 
-The View Responses window opens from the __View Response__ button on the [Review Details Page](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Review-Details-Page) of the Resource Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
+The View Responses window opens from the __View Response__ button on the [Review Details Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Review-Details-Page) of the Resource Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
 
-![View Responses window](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.png)
+![View Responses window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.png)
 
 The information displayed in the table includes:
 
@@ -27,13 +27,13 @@ If the Access Information Center has been configured to commit Active Directory 
 - Access and Permissions — If the prerequisite of resource based groups are set up for the resources, click accept will change group membership for the trustee. If the desire is to change access, the trustee is moved to the group with the desired access or permissions and removed from the group granting the current access or permissions. If the desire is to remove access, the trustee is removed from the group granting the current access or permissions.
 - Sensitive Data — The only action that can be committed is to flag a file as a false positive for the selected criteria
 
-See the [Data Collection & Automation Prerequisites](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#Data-Collection-Automation-Prerequisites) topic for additional information.
+See the [Data Collection & Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#Data-Collection-Automation-Prerequisites) topic for additional information.
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.png)
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.png)
 
 | Button | Description |
 | --- | --- |

@@ -13,4 +13,4 @@ Then you will provide this account in the monitoring plan wizard — it will be 
 
 See also:
 
-- [Create a New Monitoring Plan](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md) step of the monitoring plan wizard
+- [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) step of the monitoring plan wizard

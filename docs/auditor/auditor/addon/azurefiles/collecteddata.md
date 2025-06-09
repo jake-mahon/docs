@@ -14,6 +14,6 @@ You might want to apply a filter to narrow down your search results to the Netwr
 
 See the following topics for additional information:
 
-- [Alerts](/docs/product_docs/auditor/auditor/admin/alertsettings/overview.md)
-- [View and Search Collected Data](/docs/product_docs/auditor/auditor/admin/search/overview.md)
-- [Subscriptions](/docs/product_docs/auditor/auditor/admin/subscriptions/overview.md)
+- [Alerts](/docs/auditor/auditor/admin/alertsettings/overview.md)
+- [View and Search Collected Data](/docs/auditor/auditor/admin/search/overview.md)
+- [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md)

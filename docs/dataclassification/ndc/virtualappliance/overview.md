@@ -15,6 +15,6 @@ Furthermore, you can register your license by phone. See [Microsoft Licensing Ac
 
 Review the following for additional information:
 
-- [Requirements to Deploy Virtual Appliance](/docs/product_docs/dataclassification/ndc/virtualappliance/systemrequirements.md)
-- [Import Virtual Machine from Image to VMware](/docs/product_docs/dataclassification/ndc/virtualappliance/importvmfromimagetovmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](/docs/product_docs/dataclassification/ndc/virtualappliance/importvmfromimagetohyperv.md)
+- [Requirements to Deploy Virtual Appliance](/docs/dataclassification/ndc/virtualappliance/systemrequirements.md)
+- [Import Virtual Machine from Image to VMware](/docs/dataclassification/ndc/virtualappliance/importvmfromimagetovmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](/docs/dataclassification/ndc/virtualappliance/importvmfromimagetohyperv.md)

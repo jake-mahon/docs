@@ -2,9 +2,9 @@
 
 How to define [
 Single Role
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) to model entitlements, and organize them in the role catalog, basis of the role model. See the [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) to model entitlements, and organize them in the role catalog, basis of the role model. See the [
 Entitlement Management
-](/docs/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 The creation of the role catalog is a time-consuming part, with an important workload concerning the description of the internal processes for all applications. Actors here need to really understand the useful permissions within managed applications.
 
@@ -12,9 +12,9 @@ The creation of the role catalog is a time-consuming part, with an important wor
 
 The aim here is to establish and create the exhaustive list of [
 Role Model
-](/docs/product_docs/usercube/usercube/integration-guide/role-model/index.md) needed by the organization. Roles are a way to represent entitlements which are assigned to identities, so that said identities are able to work with the managed systems.
+](/docs/usercube/usercube/integration-guide/role-model/index.md) needed by the organization. Roles are a way to represent entitlements which are assigned to identities, so that said identities are able to work with the managed systems.
 
-![Schema - Single Role](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.png)
+![Schema - Single Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.png)
 
 In other words, establishing the role catalog aims to list exhaustively and explicitly all the roles in the organization, hiding the technical complexity of entitlements behind the business vision of user-friendly names and categories, in order to:
 
@@ -30,7 +30,7 @@ Identity Manager's roles are all built the same way. Technically speaking:
 
 - a role is part of a policy which is a subgroup of the role model. See the [
   Entitlement Management
-  ](/docs/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+  ](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
   > Let's take the example of the unlimited Internet access, part of the default policy.
 - a role is created to be owned by users represented by a given entity type;
@@ -45,25 +45,25 @@ Identity Manager's roles are all built the same way. Technically speaking:
     
   Then single roles can be grouped together through [
   Composite Role
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) for applicative purposes, allowing users to be assigned several entitlements simultaneously. Leave composite roles for later, when the system runs as is and would benefit from an additional layer in the role model.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) for applicative purposes, allowing users to be assigned several entitlements simultaneously. Leave composite roles for later, when the system runs as is and would benefit from an additional layer in the role model.
 
   > This role is part of the previously created ```Internet``` category.
 - a role is created with a given approval workflow according to the entitlement's sensitivity;
 
-  ![Schema - Approval Workflow](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemaapprovals.png)
+  ![Schema - Approval Workflow](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemaapprovals.png)
 
   > We choose to require one manual validation from a knowledgeable user before the Internet role is assigned to a user.
 - to be effective, roles must be linked to actual entitlements in the managed systems. Technically speaking, this means that for each entitlement that you want to assign through a given role, you must create a navigation rule to build said link. A navigation rule is specific to one resource type. See the [
   Categorize Resources
-  ](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
+  ](/docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
 
-  ![Schema - Single Role with Navigation Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolerule.png)
+  ![Schema - Single Role with Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolerule.png)
 
   > We link the role to the entitlement named ```SG_APP_DL-INTERNET-ALL``` in the AD, via a navigation rule that assigns this entitlement to the ```memberOf``` property of AD nominative accounts, for all users having the role.
 
   This part is about single roles, dealing with entitlements one-to-one. The idea is to associate one single role with one fine-grained entitlement.
 
-  ![Schema - Roles and Identities](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolesidentities.png)
+  ![Schema - Roles and Identities](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolesidentities.png)
 
   > For example, an accountant needs read access to the accounting software, a project manager to their billable hours for their projects on SAP, etc.
 
@@ -77,7 +77,7 @@ Functionally speaking, the main benefit of roles is to give entitlements user-fr
 
 The strategy for role creation and structuring varies according to the [
 Model the Data
-](/docs/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) established for a given system. Here, we will take as example the common use-case that organizes and categorizes roles by application. Then, the strategy varies whether the system hosts a single application (like SAB or SAP) or several (like the AD or LDAP).
+](/docs/usercube/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) established for a given system. Here, we will take as example the common use-case that organizes and categorizes roles by application. Then, the strategy varies whether the system hosts a single application (like SAB or SAP) or several (like the AD or LDAP).
 
 In any case, role creation and maintenance are made easier by entitlements' naming conventions. Thus, no matter the kind of system that you are working with, if the system uses no naming conventions, then you should start by creating some. They will be the basis for role structure in Identity Manager, and will really simplify role creation.
 
@@ -87,7 +87,7 @@ A common and intuitive case is when a system is simply one application. Then, in
 
 > The SAP application is about entitlements only for itself. Then, we create a single role per entitlement in SAP inside a category called ```SAP```:
 >
-> ![Roles Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymono_v602.png)
+> ![Roles Example](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymono_v602.png)
 
 One system hosting several applications with existing naming conventions
 
@@ -95,7 +95,7 @@ If a given system is used to manage entitlements for several applications, then 
 
 > For example, the Active Directory usually hosts many groups used to manage entitlements in several distinct applications.
 >
-> ![AD Groups](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymulti_v522.png)
+> ![AD Groups](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymulti_v522.png)
 
 The goal here is to find a way to clarify the link between each entitlement and the corresponding application.
 
@@ -113,7 +113,7 @@ Then, the solution is to add information inside the managed system, creating a s
 
 > For example in the Active Directory, integrators can modify the field called ```description``` to specify the application name (such as Outlook in this example).
 >
-> ![Appropriated Field](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymultinoname_v522.png)
+> ![Appropriated Field](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymultinoname_v522.png)
 
 Thus, the needed information is added to the managed system. After the execution of synchronization, said data is accessible inside Identity Manager database and can be used as a naming convention.
 
@@ -121,15 +121,15 @@ In some cases, integrators are not allowed to create/modify fields in the extern
 
 ### Automation of role creation
 
-The UI provides tools to create single roles manually, working top-down from abstraction (role name) to the technical aspects (navigation rule and technical entitlement). Most projects use thousands of single roles, which makes role creation a long, tedious and repetitive process. See the [Create a Role Manually](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
+The UI provides tools to create single roles manually, working top-down from abstraction (role name) to the technical aspects (navigation rule and technical entitlement). Most projects use thousands of single roles, which makes role creation a long, tedious and repetitive process. See the [Create a Role Manually](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
 
-![Schema - Role Creation Top-Down](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schematopdown.png)
+![Schema - Role Creation Top-Down](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schematopdown.png)
 
 Roles can also be created bottom-up via role naming rules. Instead of the previous process, you can use the name of said entitlement in your managed system to create automatically the corresponding single role and rule (and category if it does not already exist). In other words, Identity Manager's naming rules are to be based on your existing naming conventions for entitlements. See the [
 Create Roles in Bulk
-](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
 
-![Schema - Role Creation Top-Down](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemabottomup.png)
+![Schema - Role Creation Top-Down](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemabottomup.png)
 
 One naming rule can generate many roles, so a few automatic rules can easily and faster create the single role catalog. Naming rules prove particularly useful when you need to add multiple new permissions in your external system. You won't have to create manually the corresponding categories, roles and rules as long as said permissions are created with properties matching the conditions from the rules.
 
@@ -141,7 +141,7 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| Connector's data [ Model the Data ](/docs/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required)   [ Create a Provisioning Rule ](/docs/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required)   [ Classify Resources ](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
+| Connector's data [ Model the Data ](/docs/usercube/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required)   [ Create a Provisioning Rule ](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required)   [ Classify Resources ](/docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
 
 ## Create the Single Role Catalog
 
@@ -149,17 +149,17 @@ Create the single role catalog by proceeding as follows:
 
 1. Create as many single roles as possible (with their navigation rules and categories) via the [
    Create Roles in Bulk
-   ](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) naming rules.
+   ](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) naming rules.
 2. Complete the role catalog if needed by creating manually additional [
    Create a Category
-   ](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) and single roles with their navigation rules.
-3. Add [Create a Composite Role](/docs/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/index.md) to the single role catalog only if the project is mature enough. Composite roles are more complex than single roles and they are not mandatory.
+   ](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) and single roles with their navigation rules.
+3. Add [Create a Composite Role](/docs/usercube/usercube/user-guide/optimize/composite-role-creation/index.md) to the single role catalog only if the project is mature enough. Composite roles are more complex than single roles and they are not mandatory.
 
 ## Impact of Modifications
 
 [
 Perform a Simulation
-](/docs/product_docs/usercube/usercube/user-guide/optimize/simulation/index.md) are available in order to anticipate the changes induced by a creation/modification/deletion in roles and navigation rules.
+](/docs/usercube/usercube/user-guide/optimize/simulation/index.md) are available in order to anticipate the changes induced by a creation/modification/deletion in roles and navigation rules.
 
 ## Next Steps
 
@@ -167,4 +167,4 @@ Once the role catalog is established, integrators can start role officer managem
 
 The role catalog is also a prerequisite for [
 Manage Risks
-](/docs/product_docs/usercube/usercube/user-guide/optimize/risk-management/index.md)management.
+](/docs/usercube/usercube/user-guide/optimize/risk-management/index.md)management.

@@ -2,7 +2,7 @@
 
 Use this page to specify the email recipients.
 
-![Survey Action Module Wizard Mail – Properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailproperties.png)
+![Survey Action Module Wizard Mail – Properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailproperties.png)
 
 Use the following fields to specify the recipient information:
 

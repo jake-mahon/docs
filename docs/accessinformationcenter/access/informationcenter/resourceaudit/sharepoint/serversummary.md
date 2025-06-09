@@ -2,7 +2,7 @@
 
 The Server Summary report at the __SharePoint__ node provides a top-level view of servers and instances that are representative of the targeted SharePoint on-premise farms and SharePoint Online instances.
 
-![Server Summary report](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.png)
+![Server Summary report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.png)
 
 This report is comprised of the following columns:
 

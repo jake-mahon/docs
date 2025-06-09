@@ -4,6 +4,6 @@ This section provides recommendations and considerations for Netwrix Data Classi
 
 In this section:
 
-- [NDC Server](/docs/product_docs/dataclassification/ndc/install/deployment/ndcserverandclient.md)
-- [Scalability and Performance](/docs/product_docs/dataclassification/ndc/install/deployment/scalabilityandperformance.md)
-- [Data Storages and Sizing](/docs/product_docs/dataclassification/ndc/install/deployment/clouddeployment.md)
+- [NDC Server](/docs/dataclassification/ndc/install/deployment/ndcserverandclient.md)
+- [Scalability and Performance](/docs/dataclassification/ndc/install/deployment/scalabilityandperformance.md)
+- [Data Storages and Sizing](/docs/dataclassification/ndc/install/deployment/clouddeployment.md)

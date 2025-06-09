@@ -6,25 +6,25 @@ How to add a new system to the solution.
 
 When connecting Identity Manager to a new system, several process paths can be taken according to your strategy. There is no option fundamentally better than the others, your decision must depend on your needs.
 
-The __option A__ leads quickly to the implementation in production environment, i.e. a new application in Identity Manager's scope. With this, you can [Review Orphaned and Unused Accounts](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/orphan-unused-account-review/index.md), [Provision](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/provisioning/index.md) the AD, [
+The __option A__ leads quickly to the implementation in production environment, i.e. a new application in Identity Manager's scope. With this, you can [Review Orphaned and Unused Accounts](/docs/usercube_saas/usercube/user-guide/administrate/orphan-unused-account-review/index.md), [Provision](/docs/usercube_saas/usercube/user-guide/administrate/provisioning/index.md) the AD, [
 Reconcile a Property
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md), and [
+](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md), and [
 Generate Reports
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of profiles assigned to users.
+](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of profiles assigned to users.
 
 The __option B__ takes more time as it goes through the creation of the role model based on the system's entitlements, but it leads to even more gain as you can also [
 Reconcile a Role
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md), [
+](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md), [
 Perform Access Certification
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/access-certification/index.md)access certification and [
+](/docs/usercube_saas/usercube/user-guide/administrate/access-certification/index.md)access certification and [
 Request Entitlement Assignment
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/manual-assignment-request/index.md), and also [
+](/docs/usercube_saas/usercube/user-guide/administrate/manual-assignment-request/index.md), and also [
 Generate Reports
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of assigned single roles.
+](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of assigned single roles.
 
 The option B is more complicated and time-consuming than the option A, but leads to more gain. Be aware that you can go through the process options simultaneously.
 
-![Process Schema - How to Implement a New System](/static/img/product_docs/usercube/usercube/user-guide/global-process/howto-newsystem/globalprocess_schemaconnectsyst.png)
+![Process Schema - How to Implement a New System](/img/product_docs/usercube/usercube/user-guide/global-process/howto-newsystem/globalprocess_schemaconnectsyst.png)
 
 ## Process Details
 
@@ -32,23 +32,23 @@ The option B is more complicated and time-consuming than the option A, but leads
 
 1. [
    Connect to a Managed System
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md): create the appropriate connector with its connections and entity types.
+   ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md): create the appropriate connector with its connections and entity types.
 2. [
    Synchronize Data
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) into Identity Manager.
+   ](/docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) into Identity Manager.
 
    Based on this, you can [
    Generate Reports
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of resources in the system. A few predefined reports are available from the start, you can generate any report from this list as soon as it makes sense according to the integration progress.
+   ](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md), for example the list of resources in the system. A few predefined reports are available from the start, you can generate any report from this list as soon as it makes sense according to the integration progress.
 3. [
    Categorize Resources
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md) in order to classify them according to their intent, and correlate these resources with their owners.
+   ](/docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md) in order to classify them according to their intent, and correlate these resources with their owners.
 4. [
    Create a Provisioning Rule
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md) to write to the system in order to update the resources' properties directly in the system.
+   ](/docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md) to write to the system in order to update the resources' properties directly in the system.
 5. Adjust the rules by [
    Reconcile a Property
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) resources, i.e. analyze the differences spotted between the reality of resources' properties and those computed by the previously established rules. Especially, verify that accounts are correlated to the right owners and that their properties have the right values.
+   ](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) resources, i.e. analyze the differences spotted between the reality of resources' properties and those computed by the previously established rules. Especially, verify that accounts are correlated to the right owners and that their properties have the right values.
 
    Either the integrator handles the customization of the rules and the review of non-conforming resources, or they can assign an application administrator profile to a given user to perform it. Assigning this profile requires profile configuration, see steps 11 and 12.
 
@@ -62,10 +62,10 @@ Go directly to the common final steps (step 8).
 
 6. [
    Create Roles in the Role Catalog
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for applications managed by the system.
+   ](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for applications managed by the system.
 7. [
    Automate Assignments
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/index.md) if needed: use Role Mining to create single role rules in bulk; adjust the generated rules individually and manually.
+   ](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/index.md) if needed: use Role Mining to create single role rules in bulk; adjust the generated rules individually and manually.
 
 ### Common final steps
 

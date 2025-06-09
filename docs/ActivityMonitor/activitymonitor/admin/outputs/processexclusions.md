@@ -6,15 +6,15 @@ __NOTE:__ Netwrix product processes are excluded by default from activity monito
 
 Select an output for a Windows file server host on the Monitored Hosts tab and click __Edit__ to open the output Properties window.
 
-![Process Exclusions Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/processexclusions.png)
+![Process Exclusions Tab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/processexclusions.png)
 
 The tab contains the following settings and features:
 
-- Add – Opens the Add or Edit Process window to add a new process to the list. See the [Add or Edit Process Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addeditprocess.md) topic for additional information.
+- Add – Opens the Add or Edit Process window to add a new process to the list. See the [Add or Edit Process Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditprocess.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
   __CAUTION:__ If a process is removed by accident, use the __Cancel__ button to discard the change.
-- Edit – Opens the Add or Edit Process window to modify the selected process. See the [Add or Edit Process Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addeditprocess.md) topic for additional information.
+- Edit – Opens the Add or Edit Process window to modify the selected process. See the [Add or Edit Process Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditprocess.md) topic for additional information.
 
 The table lists process that will be excluded, displaying columns for Process Name and Events.
 

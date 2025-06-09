@@ -13,9 +13,9 @@ The account used for data collection must meet the following requirements:
   OR
 - The combination of the following rights and permissions if you plan to disable network traffic compression for your monitoring plan or, for some reasons, do not want to add this account to the Domain Admins group:
 
-  - The Manage auditing and security log policy must be defined for this account. See the [Permissions for Active Directory Auditing](/docs/product_docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
+  - The Manage auditing and security log policy must be defined for this account. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
   - If you plan to process the Active Directory Deleted Objects container, Read permission on
-    this container is required. See the [Permissions for Active Directory Auditing](/docs/product_docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
+    this container is required. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
   - The account must belong to the Organization Management or Records Management group. See the [Add Account to the Organization Management Group](#Add-Account-to-the-Organization-Management-Group) topic for additional information.
   - Several management roles assigned: Audit Logs role, View-only Configuration role, Mail Recipients role, and Monitoring role. See the [Add Account to the Organization Management Group](#Add-Account-to-the-Organization-Management-Group) topic for additional information on how to perform role assignment.
   - Additional configuration if auto-backup is _enabled_ for the domain controller event logs (see below).
@@ -40,7 +40,7 @@ __Step 3 –__ On the right, locate the __Organization Management__ group and do
 
 __Step 4 –__ In the __Organization Management Properties__ dialog that opens, select the __Members__ tab and click __Add__.
 
-![manualconfig_orgmanagement2016](/static/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.png)
+![manualconfig_orgmanagement2016](/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.png)
 
 If for some reason you do not want this account to belong to the Organization Management group, you can add it to the Records Management group in the same way. The Records Management group is less powerful, and accounts belonging to it have fewer rights and permissions.
 
@@ -66,7 +66,7 @@ In this example, the user _CORP\jsmith_ has been assigned the __Audit Logs__ rol
 
 This permission is required only if the account selected for data collection is not a member of the Domain Admins group.
 
-This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](/docs/product_docs/auditor/auditor/tools/auditconfigurationassistant.md).
+This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management console.
 

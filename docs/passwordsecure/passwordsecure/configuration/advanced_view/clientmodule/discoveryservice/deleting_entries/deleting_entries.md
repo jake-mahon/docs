@@ -7,7 +7,7 @@ After creating an automatic __Password Reset__ via the __Conversion Wizard__, th
 The discovered data in the __Discovery Service__ cannot simply be deleted and removed from the __Discovery Service entries__. As the entries have a __link to the Discovery Service Task__, it is necessary to delete the discovered entries via the __Discovery Service Task__ that was created. If entries were discovered using a joint __Discovery Service Task__, it is not possible to simply delete them. This is the case if two different users have carried out a scan on the same area. If you delete one of the two __Discovery Service Task__, only the entries that had a single link to this __Discovery Service Task__ will be deleted. The entries for the other __Discovery Service Task__ will be retained and must be deleted via the associated __Discovery Service Task__.
 You can find out which __Discovery Service Task__ found a particular entry by selecting the entry via the __Conversion Wizard__.
 
-![Conversion Wizard.](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/deleting_entries/deleting_entries_1-en.png)
+![Conversion Wizard.](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/deleting_entries/deleting_entries_1-en.png)
 
 ## Deleting entries by changing the settings in the System Task
 

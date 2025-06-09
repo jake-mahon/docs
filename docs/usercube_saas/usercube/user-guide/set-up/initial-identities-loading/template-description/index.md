@@ -2,17 +2,17 @@
 
 Description of the MS Excel template for the creation of the identities repository.
 
-[Click here to download a template example](/docs/product_docs/usercube_saas/resources/directory_example_v602.xlsx).
+[Click here to download a template example](/docs/usercube_saas/resources/directory_example_v602.xlsx).
 
-![Template Model](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.png)
+![Template Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.png)
 
 All tabs contain a column ```Command``` only used at a later stage to modify (massively) identity data. See the [
 Update Identities in Bulk
-](/docs/product_docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md) topic for additional information.
 
 ## User - Required
 
-An identity is split into two parts, the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle. See the [Identity Management](/docs/product_docs/usercube_saas/usercube/integration-guide/identity-management/index.md) topic for additional information.
+An identity is split into two parts, the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle. See the [Identity Management](/docs/usercube_saas/usercube/integration-guide/identity-management/index.md) topic for additional information.
 
 | Attribute | Type | Description |
 | --- | --- | --- |
@@ -34,7 +34,7 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 
 | Attribute | Type | Description |
 | --- | --- | --- |
-| RecordIdentifier (recommended) | String | Identifier of the Records. See the[ Position Change via Records ](/docs/product_docs/usercube_saas/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
+| RecordIdentifier (recommended) | String | Identifier of the Records. See the[ Position Change via Records ](/docs/usercube_saas/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
 | User (required) | ForeignKey | ```Identifier``` from the ```User``` tab. |
 | EmployeeId (recommended) | String |  |
 | Gender (optional) | ForeignKey | ```Identifier``` from the ```Gender``` tab. |

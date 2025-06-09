@@ -1,14 +1,14 @@
 # Create a Policy
 
-How to define policies to organize roles and rules. See the [Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) topic for additional information.
+How to define policies to organize roles and rules. See the [Policy](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) topic for additional information.
 
 ## Overview
 
 A policy is a subgroup of the role model. It defines an ensemble of roles and assignment rules that apply to specific identities. So policies are used to handle separately several sets of identities, based on dimensions with different permissions and workflows. See the [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) and [
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) and [
 Conforming Assignments
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics for additional information.
+](/docs/usercube_saas/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics for additional information.
 
 Integrators must minimize the number of policies because it segments identities, and segmentation implies high maintenance. Netwrix recommends using one policy per population. A population is a group of people that can be managed following the same rules, role model, workflows, etc. This means, for example, one policy for workers (meaning employees and contractors), another one for partners, another one for clients. But sometimes partners are included in the same policy as workers, it depends on the organization.
 
@@ -24,21 +24,21 @@ Integrators must have the knowledge of the organization strategy towards identit
 
 See the [
 Create a Resource Type
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
 
 ## Create a Policy
 
 Create a policy by proceeding as follows:
 
-![Home - Access Policies](/static/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.png)
+![Home - Access Policies](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.png)
 
 __Step 1 –__ Access the policies screen by clicking on __Access Policies__ on the home page in the __Configuration__ section.
 
-![New Policy](/static/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.png)
+![New Policy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.png)
 
 __Step 2 –__ Click on __+ New policy__ at the top right corner.
 
-![createpolicy](/static/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/createpolicy.png)
+![createpolicy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/createpolicy.png)
 
 __Step 3 –__ Fill in the information fields.
 

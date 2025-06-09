@@ -11,7 +11,7 @@ Using the steps outlined Org Clean Up, we can proceed quickly, efficiently and w
 
 We are going to use the out-of-the-box Default Clean Up List View with these filters:
 
-![Filters](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_9.png)
+![Filters](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_9.png)
 
 - Filter on the single Record Type __Objects & Fields__ to enable editing the Customizations directly from the List View. This filter selects all Objects and their related Fields.
 - Filter for API Names starting with __Account__ (for example, __Account.___my\_custom\_field_) limits results to the __Account__ object. We could use a similar technique to focus on a specific App.
@@ -38,7 +38,7 @@ Specify the fields to show:
 
 You now have a list of unused, custom fields on the Account object. Examine the dependencies to determine what to do next. For this example, we are going to clean up fields without these complications.
 
-1. Set the __Clean Up Status__ on any field without dependencies to __To Be Cleaned Up__. In the List View, click the ![Edit icon](/static/img/product_docs/strongpointforsalesforce/tech_debt/edit_icon.png) icon and edit the __Clean Up Status__ and other Clean Up Fields. You can select multiple fields using the checkboxes to set the values for the group.
+1. Set the __Clean Up Status__ on any field without dependencies to __To Be Cleaned Up__. In the List View, click the ![Edit icon](/img/product_docs/strongpointforsalesforce/tech_debt/edit_icon.png) icon and edit the __Clean Up Status__ and other Clean Up Fields. You can select multiple fields using the checkboxes to set the values for the group.
 2. For easy reference later, set a project name in the __Clean Up Classification__ field such as _Simple Account Clean Up_. You can filter on this later when you send for approval.
 3. If you have questions, send an email or Chatter request to the owner and set the __Clean Up Status__ to _Send Request Info Email_ as a reminder you are awaiting a response.
 4. As you find unused fields with complex dependencies, such as Scripts or Workflows / Approvals, set the __Clean Up Status__ to __Under Investigation__. As an example, you can also assign the __Clean Up Classification__ to be _Scripted Account Fields_ to group them for your investigation later.
@@ -76,13 +76,13 @@ Now that you have identified what you can clean up, you can proceed with the App
 1. Click the __Change Request__ tab and click __New__.
 2. Enter the name and a brief description of the clean up project. Set the __Change Type__ to __Clean Up__. If you are using an external change approval system such as Jira or ServiceNow, you can enter the __External Change Request Number__.
 
-   ![Edit Change Request](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_3.png)
+   ![Edit Change Request](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_3.png)
 3. On your List View, set the __Add To Change Request__ field for the Customizations you are planning to clean up with this Change Request.
 
-   ![Default Clean Up List View](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_12.png)
+   ![Default Clean Up List View](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_12.png)
 4. Open your Change Request and view the Impact Analysis for the Customizations you want to clean up. You are warned if there are SOQL, code, workflow, role, profile filter report or List View dependencies or if the field affects actively used Reports.
 
-   ![Clean Up Unused Fields](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_4.png)
+   ![Clean Up Unused Fields](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_4.png)
 5. If you need to make changes to the Customizations, __Edit__ the Change Request and select __View All__ in the Customizations field. You can __Add__ or __Remove__ Customizations to the __Selected Customizations__ list. __Save__ when you are finished.
 6. When you are ready, Submit your Change Request for Approval.
 
@@ -115,6 +115,6 @@ To ensure that your change approval process is being followed, there is an __Unr
 - Diff Summary (detailed comparison of before and after)
 - Related Change Requests, if they exist
 
-The [Change Enablement Reports](/docs/product_docs/strongpointforsalesforce/change_management/change_management_reports.md) and List Views give you visibility into the changes occurring in your orgs.
+The [Change Enablement Reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md) and List Views give you visibility into the changes occurring in your orgs.
 
-__Next Technical Debt Topic:__ [Specific Clean Up Approaches](/docs/product_docs/strongpointforsalesforce/tech_debt/tech_debt_org_specific_clean_up_approaches.md)
+__Next Technical Debt Topic:__ [Specific Clean Up Approaches](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_specific_clean_up_approaches.md)

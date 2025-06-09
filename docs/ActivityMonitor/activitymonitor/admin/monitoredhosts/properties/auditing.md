@@ -2,7 +2,7 @@
 
 The Auditing tab allows users to modify to modify the Isilon Options setting which was populated with the information entered when the Dell Isilon host is added to the Monitored Hosts list.
 
-![Auditing Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/auditingtab.png)
+![Auditing Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/auditingtab.png)
 
 The __Enable Protocol Access Auditing in OneFS if it is disabled__ box allows the activity agent to automatically enable and configure auditing on the Isilon cluster. If a manual configuration has been completed, do not enable these options. This option requires credentials for an Administrator account on the Dell Isilon device and click Connect.
 

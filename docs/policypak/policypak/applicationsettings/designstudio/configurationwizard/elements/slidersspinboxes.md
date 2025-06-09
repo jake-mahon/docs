@@ -8,19 +8,19 @@ Sliders (also known as trackbars) and spinboxes (also known as up/down boxes) ar
 
 Usually, the left most value is a number that is less than the right most value. For instance, a slider labeled "Volume," as shown in Figure 130, would have a lower value when slid to the left, and a higher value when slid to the right.
 
-![configuring_elements_using_23_624x182](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_23_624x182.png)
+![configuring_elements_using_23_624x182](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_23_624x182.png)
 
 Figure 130. A typical slider.
 
 Although this is usually true, in the next example, the minimum (left most) value was 900 and the maximum (right most) value was 200 (see Figure 131). DesignStudio discovers this during the wizard process and suggests what is likely going on. In most cases, keeping the default will be the right thing to do, which will establish this as a reverse slider and correctly establish the minimum and maximum values.
 
-![configuring_elements_using_24](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_24.png)
+![configuring_elements_using_24](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_24.png)
 
 Figure 131. Discovering a reverse slider with DesignStudio.
 
 Note also that the Slider Configuration Wizard will capture the original value set in the slider when the wizard was run, and suggest that value as the default value and the revert value. The Slider Configuration Wizard might also detect a multiplier for some items. In the example in Figure 132, the slider itself goes from 0 to 100. But the recorded values are 0 to 254.
 
-![configuring_elements_using_25](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_25.png)
+![configuring_elements_using_25](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_25.png)
 
 Figure 132. Detecting a slider multiplier.
 
@@ -28,7 +28,7 @@ In these cases, the Slider Configuration Wizard will detect this and suggest a w
 
 Some applications have sliders that set a bunch of values all at once, or make major changes to the application or operating system behavior. These kinds of sliders are not supported for actions in Endpoint Policy Manager Application Settings Manager. Two examples of these kinds of unsupported sliders are items like Internet Explorer's security slider, shown in Figure 133 (left side) and User Account Control Settings, shown in Figure 133 (right side).
 
-![configuring_elements_using_26](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_26.png)
+![configuring_elements_using_26](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_26.png)
 
 Figure 133. Examples of unsupported sliders.
 

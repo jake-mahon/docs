@@ -14,7 +14,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable(Table)](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
+![DisplayTable(Table)](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed like a table) if a criterion linked to this column is already displayed in a search bar. This avoids filter duplication.
 Thus, the <CanBeFiltered> property can be deleted in the <Column> argument.
@@ -31,7 +31,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Here is the visualization of this resource table on the interface:
 
-![ResourceTable](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.png)
+![ResourceTable](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.png)
 
 ## Display Table with Tiles
 
@@ -41,7 +41,7 @@ Instead of creating a table, it is possible to create tiles to give another rend
 
 See the[
 Tile
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for additional information.
 
 _Remember,_ if the display table uses tiles, then you can't use bindings.
 
@@ -53,6 +53,6 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable with Tiles](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.png)
+![DisplayTable with Tiles](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.png)
 
-See the [Display Table](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for additional information.
+See the [Display Table](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for additional information.

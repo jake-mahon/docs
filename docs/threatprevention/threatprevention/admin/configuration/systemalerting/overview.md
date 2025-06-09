@@ -2,7 +2,7 @@
 
 The System Alerting window is only available to administrators, enabling them to configure and manage all alerting avenues. Click __Configuration__ > __Alerts__ on the menu to open it.
 
-![Netwrix Threat Prevention System Alerting window](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.png)
+![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.png)
 
 Alerts can be sent to recipients via email, to Windows Event Log, and to SIEM products. Alerts are grouped into five types:
 
@@ -21,10 +21,10 @@ Alerts can be sent to recipients via email, to Windows Event Log, and to SIEM pr
 Email and SIEM alert notifications for policy events can be enabled through:
 
 - The System Alerting window
-- The [Actions Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/actions/overview.md) of a policy
-- The [Actions Tab](/docs/product_docs/threatprevention/threatprevention/admin/templates/actions.md) of a policy template
+- The [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) of a policy
+- The [Actions Tab](/docs/threatprevention/threatprevention/admin/templates/actions.md) of a policy template
 
-In any case, configuration must first be set through the System Alerting window. The [Alerts Interface](/docs/product_docs/threatprevention/threatprevention/admin/alerts/overview.md) allows you to quickly view recent alerts in a centralized location.
+In any case, configuration must first be set through the System Alerting window. The [Alerts Interface](/docs/threatprevention/threatprevention/admin/alerts/overview.md) allows you to quickly view recent alerts in a centralized location.
 
 ## Email and SIEM Alert Notifications for Analytic Incidents
 
@@ -34,17 +34,17 @@ Email and SIEM alert notifications for Analytic incidents can be configured thro
 
 Notifications are generated for the alerts you enable on the the System Alerting window.
 
-- All Security, Configuration, and Operation alert notifications are displayed on the [Alerts Interface](/docs/product_docs/threatprevention/threatprevention/admin/alerts/overview.md).
-- All Analytics incidents are displayed on the [Analytics Interface](/docs/product_docs/threatprevention/threatprevention/admin/analytics/overview.md).
-- All Policies events are displayed on the [Investigate Interface](/docs/product_docs/threatprevention/threatprevention/admin/investigate/overview.md).
+- All Security, Configuration, and Operation alert notifications are displayed on the [Alerts Interface](/docs/threatprevention/threatprevention/admin/alerts/overview.md).
+- All Analytics incidents are displayed on the [Analytics Interface](/docs/threatprevention/threatprevention/admin/analytics/overview.md).
+- All Policies events are displayed on the [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md).
 
 ## General Considerations
 
 Below are some considerations:
 
-- Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS process termination shortly after a server reboot. The [LSASS Process Terminated](/docs/product_docs/threatprevention/threatprevention/troubleshooting/lsass.md) alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all monitoring/blocking by that Agent stops. To resolve the issue, either upgrade to the latest version of the Agent or simply upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the [Upgrade ADMonitor](/docs/product_docs/threatprevention/threatprevention/admin/agents/management/upgradeadmonitor.md)topic for additional information.
+- Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS process termination shortly after a server reboot. The [LSASS Process Terminated](/docs/threatprevention/threatprevention/troubleshooting/lsass.md) alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all monitoring/blocking by that Agent stops. To resolve the issue, either upgrade to the latest version of the Agent or simply upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the [Upgrade ADMonitor](/docs/threatprevention/threatprevention/admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
-  ___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/docs/product_docs/threatprevention/threatprevention/troubleshooting/lsass.md#Enable-the-LSASS-Process-Terminated-Email-Alert) topic for additional information.
-- In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode. In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during installation. When an Agent is restarted, it compares the DLL versions with the recorded list. If the versions do not match, the Windows AD Events monitoring module is not loaded. The Agent’s status in the Agents interface changes to Active (Modules Pending), and all Active Directory monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert (Operations alert) is triggered in this event. To resolve the issue temporarily, the Threat Prevention administrator should start the pending modules. See the [Start Pending Modules](/docs/product_docs/threatprevention/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional information. It is also recommended to upgrade SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor DLL) to resolve the issue permanently. See the [Upgrade ADMonitor](/docs/product_docs/threatprevention/threatprevention/admin/agents/management/upgradeadmonitor.md) topic for additional information.
+  ___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/threatprevention/troubleshooting/lsass.md#Enable-the-LSASS-Process-Terminated-Email-Alert) topic for additional information.
+- In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode. In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during installation. When an Agent is restarted, it compares the DLL versions with the recorded list. If the versions do not match, the Windows AD Events monitoring module is not loaded. The Agent’s status in the Agents interface changes to Active (Modules Pending), and all Active Directory monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert (Operations alert) is triggered in this event. To resolve the issue temporarily, the Threat Prevention administrator should start the pending modules. See the [Start Pending Modules](/docs/threatprevention/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional information. It is also recommended to upgrade SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor DLL) to resolve the issue permanently. See the [Upgrade ADMonitor](/docs/threatprevention/threatprevention/admin/agents/management/upgradeadmonitor.md) topic for additional information.
 
-  ___RECOMMENDED:___ Activate an email notification for this alert. See the [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/product_docs/threatprevention/threatprevention/admin/agents/safemode.md#Enable-Agent-Started-in-AD-Monitor-Pending-Mode-Email-Alert) topic and the [Agent Safe Mode](/docs/product_docs/threatprevention/threatprevention/admin/agents/safemode.md) topic for additional information.
+  ___RECOMMENDED:___ Activate an email notification for this alert. See the [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/threatprevention/admin/agents/safemode.md#Enable-Agent-Started-in-AD-Monitor-Pending-Mode-Email-Alert) topic and the [Agent Safe Mode](/docs/threatprevention/threatprevention/admin/agents/safemode.md) topic for additional information.

@@ -2,7 +2,7 @@
 
 At the bottom of the Job Properties window is the __View XML__ button. To view the XML file, click __View__ XML.
 
-| ![View XML button on Job Properties window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxmlbutton.png) | ![XML Text window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxml.png) |
+| ![View XML button on Job Properties window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxmlbutton.png) | ![XML Text window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxml.png) |
 | --- | --- |
 | Job Properties Window | Job XML File |
 

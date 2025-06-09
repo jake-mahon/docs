@@ -2,7 +2,7 @@
 
 Follow theses steps in order for support to troubleshoot most issues.
 
-__Step 1 –__ Reproduce the issue on the latest Client Side Extension (CSE). Support only tests concerns and issues on the latest CSE. If you haven’t verified your problem exists with the latest CSE (and latest MMC or with Cloud), ensure to download the latest CSE before opening a support ticket. See the [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/product_docs/policypak/policypak/install/rings.md) topic for additional information.
+__Step 1 –__ Reproduce the issue on the latest Client Side Extension (CSE). Support only tests concerns and issues on the latest CSE. If you haven’t verified your problem exists with the latest CSE (and latest MMC or with Cloud), ensure to download the latest CSE before opening a support ticket. See the [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md) topic for additional information.
 
 __Step 2 –__ After the problem is reproduced on the latest CSE, open a [support ticket](https://www.netwrix.com/sign_in.html?rf=tickets.html#support-ticket) and register for an account if necessary. Be sure to choose Endpoint Policy Manager to ensure your case is routed properly.
 
@@ -15,15 +15,15 @@ __Step 3 –__ Provide a detailed problem statement, including screenshots. Incl
 
 __Step 4 –__ Provide the logs from the affected machine.
 
-__CAUTION:__ Support cannot assist without the correctly generated logs. See the [Gathering and Uploading Logs](/docs/product_docs/policypak/policypak/video/troubleshooting/logs.md) topic on how to gather logs properly and use the ticket ID generated in Step 2.
+__CAUTION:__ Support cannot assist without the correctly generated logs. See the [Gathering and Uploading Logs](/docs/policypak/policypak/video/troubleshooting/logs.md) topic on how to gather logs properly and use the ticket ID generated in Step 2.
 
 ## Gathering and Uploading Logs
 
-This section provides a summary of the steps for gathering and uploading logs. See the [Gathering and Uploading Logs](/docs/product_docs/policypak/policypak/video/troubleshooting/logs.md) topic for additional information.
+This section provides a summary of the steps for gathering and uploading logs. See the [Gathering and Uploading Logs](/docs/policypak/policypak/video/troubleshooting/logs.md) topic for additional information.
 
 __NOTE:__ If you do not see the GUI version of pplogs, you are not using the latest CSE. Endpoint Policy Manager support only accepts logs from machines with the latest CSE and latest pplogs zip files.
 
-![Running the PPLOGS tool](/static/img/product_docs/policypak/policypak/troubleshooting/runninglogs.png)
+![Running the PPLOGS tool](/img/product_docs/policypak/policypak/troubleshooting/runninglogs.png)
 
 Follow the steps for gathering and uploading logs.
 
@@ -33,12 +33,12 @@ __Step 2 –__ Create a [support ticket](https://www.netwrix.com/sign_in.html?rf
 
 __Step 3 –__ Collect the logs.
 
-![exportonexml](/static/img/product_docs/policypak/policypak/troubleshooting/exportonexml.png)
-![exportcollectionxml](/static/img/product_docs/policypak/policypak/troubleshooting/exportcollectionxml.png)
+![exportonexml](/img/product_docs/policypak/policypak/troubleshooting/exportonexml.png)
+![exportcollectionxml](/img/product_docs/policypak/policypak/troubleshooting/exportcollectionxml.png)
 
 __Step 4 –__ If using the Group Policy Method, export policies and/or collections as XML files.
 
-![exportfromappmanager](/static/img/product_docs/policypak/policypak/troubleshooting/exportfromappmanager.png)
+![exportfromappmanager](/img/product_docs/policypak/policypak/troubleshooting/exportfromappmanager.png)
 
 __Step 5 –__ If using Application Manager, export the XML settings data of the AppSet.
 
@@ -71,11 +71,11 @@ __Step 2 –__ Specific screenshots of:
 
 __Step 3 –__ Your PPLOGS from an affected machine.
 
-__CAUTION:__  Support cannot assist without the correctly generated logs. See the [Gathering and Uploading Logs](/docs/product_docs/policypak/policypak/video/troubleshooting/logs.md) topic on how to gather logs properly.
+__CAUTION:__  Support cannot assist without the correctly generated logs. See the [Gathering and Uploading Logs](/docs/policypak/policypak/video/troubleshooting/logs.md) topic on how to gather logs properly.
 
 ## Gathering and Uploading Logs
 
-This section provides a summary of the steps for gathering and uploading logs. See the [Gathering and Uploading Logs](/docs/product_docs/policypak/policypak/video/troubleshooting/logs.md) topic for additional information.
+This section provides a summary of the steps for gathering and uploading logs. See the [Gathering and Uploading Logs](/docs/policypak/policypak/video/troubleshooting/logs.md) topic for additional information.
 
 __Step 1 –__ On an affected endpoint, run ```PPLogs``` twice.
 
@@ -84,7 +84,7 @@ Example how to:
 - Use an admin command prompt and run ```PPLOGS```. Rename to ```SRX01234-ppLogs-as-Admin.zip```
 - Use a normal command prompt and run ```PPLOGS```. Rename to ```SRX01234-ppLogs-as-USER.zip```
 
-![128_1_command-prompt](/static/img/product_docs/policypak/policypak/troubleshooting/128_1_command-prompt.png)
+![128_1_command-prompt](/img/product_docs/policypak/policypak/troubleshooting/128_1_command-prompt.png)
 
 __Step 2 –__ Run ```GPRESULT``` to get the following results:
 
@@ -96,13 +96,13 @@ __Step 3 –__ Export the XML settings:
 - Your export of any relevant settings
 - Most Endpoint Policy Manager settings are simply __right-click__ > __Export as XML__. See the examples below for exporting as a collection and an individual policy.
 
-![128_2_export-collection-as-xml](/static/img/product_docs/policypak/policypak/troubleshooting/128_2_export-collection-as-xml.png)
+![128_2_export-collection-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_2_export-collection-as-xml.png)
 
-![128_3_export-as-xml](/static/img/product_docs/policypak/policypak/troubleshooting/128_3_export-as-xml.png)
+![128_3_export-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_3_export-as-xml.png)
 
 __Step 4 –__ For Endpoint Policy Manager Application Manager (most common) this is what you want to do: There are two ways to export settings but the following is the type of export the support team requires. Select the __Options__ button within the Pak, then select __Export XML Settings Data__.
 
-![128_4_image002](/static/img/product_docs/policypak/policypak/troubleshooting/128_4_image002.jpg)
+![128_4_image002](/img/product_docs/policypak/policypak/troubleshooting/128_4_image002.jpg)
 
 __Step 5 –__ Rename your XML file(s) to not only include the SRX number but to also contain hints as to their content. For example:
 

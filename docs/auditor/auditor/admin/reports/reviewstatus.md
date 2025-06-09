@@ -6,7 +6,7 @@ This capability can supplement your organization's workflow of monitoring and re
 
 1. The reported changes to the monitored environment are assigned the New status by default.
 2. If a change seems unauthorized, or requires further analysis, you can click the Click to update status link next to the change detailed data:
-[![reviewstatus_thumb_0_0](/static/img/product_docs/auditor/auditor/admin/reports/reviewstatus_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/report/reviewstatus.png)3. In the __Review status__ dialog for selected change, set its status to In Review and provide a reason.
+[![reviewstatus_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/reviewstatus_thumb_0_0.png)](/docs/auditor/resources/images/auditor/report/reviewstatus.png)3. In the __Review status__ dialog for selected change, set its status to In Review and provide a reason.
 4. Once the change has been approved of, or rolled back, you can set its status to Resolved.
 
 This capability is supported for the following reports:
@@ -24,4 +24,4 @@ In the report filters, select a monitoring plan you want to generate a report fo
 
 They list
 
-Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/docs/product_docs/auditor/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/docs/product_docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.
+Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.

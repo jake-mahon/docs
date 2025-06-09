@@ -1,6 +1,6 @@
 # Assign Policies to Users & Groups
 
-Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user. Domain policies can be assigned to users, groups, and containers (Organizational Units). Local policies can only be assigned to users. See the [Domain and Local Policies](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
+Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user. Domain policies can be assigned to users, groups, and containers (Organizational Units). Local policies can only be assigned to users. See the [Domain and Local Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
 
 __Step 1 –__ Open the Configuration Console:
 
@@ -12,7 +12,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Users & Groups__ tab.
 
-![Assign policies to Users and Groups](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups.png)
+![Assign policies to Users and Groups](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups.png)
 
 When a domain policy is assigned to a user or group, Password Policy Enforcer stores the user or group SID in the configuration. The assignment remains valid even if the user or group is renamed. When a local policy is assigned to a user, Password Policy Enforcer stores the username in the configuration. The assignment is invalidated if the user is renamed.
 
@@ -20,13 +20,13 @@ When a policy is assigned to a group, Password Policy Enforcer enforces the poli
 
 When a policy is assigned to a container, Password Policy Enforcer enforces the policy for all users in the container as well as any child containers. For example, if the Helpdesk and Managers OUs are children of the Info Tech OU, then any policy assigned to the Info Tech OU also applies to the two child OUs. If this behavior is not desired, then you can assign a different policy to a child OU.
 
-![managing_policies_3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies_3.png)
+![managing_policies_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies_3.png)
 
 __NOTE:__ Different assignment types can be used for a single policy. For example, you may assign users to a policy by both OU and group at the same time.
 
 As you assign users and groups to the policy, they are displayed on the page.
 
-![Policy assignments](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups2.png)
+![Policy assignments](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups2.png)
 
 To remove a policy assignment:
 
@@ -42,8 +42,8 @@ Password Policy Enforcer first tries to resolve a policy assignment conflict by 
 
 If all the policies are assigned to the user by container, then Password Policy Enforcer enforces the policy that is assigned to the nearest parent container. For example, if Policy A is assigned to the Users OU, and Policy B is assigned to the Users\Students OU, then Password Policy Enforcer enforces Policy B for all users in the Users\Students and Users\Students\Science OUs because it is the policy assigned to the nearest parent container.
 
-If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Policy-Selection-Flowchart) topic for a diagrammatic representation of this algorithm.
+If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Policy-Selection-Flowchart) topic for a diagrammatic representation of this algorithm.
 
 Click __Test Policy__ and expand the __View log__ to see which policy Password Policy Enforcer enforces for a particular user.
 
-![Expand View log under Test to see which policy is enforced](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testviewlog.png)
+![Expand View log under Test to see which policy is enforced](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testviewlog.png)

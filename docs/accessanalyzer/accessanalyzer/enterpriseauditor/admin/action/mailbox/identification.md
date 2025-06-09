@@ -4,7 +4,7 @@ The Mailbox Identification page specifies the mailboxes the action targets. It i
 
 Depending on the data in the source table, users must specify a data table column containing either the Mailbox display name or email address.
 
-![New Mailbox Action Wizard Mailbox Identification page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/identification.png)
+![New Mailbox Action Wizard Mailbox Identification page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/identification.png)
 
 Select which mailboxes to target using the following options:
 

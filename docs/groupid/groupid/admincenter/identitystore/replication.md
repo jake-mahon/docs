@@ -31,7 +31,7 @@ Step 5 – Click __Add Replication Attributes__ to add an attribute to the list.
 
 Step 6 – The Select Replication Attributes dialog box displays a list of the schema attributes in the provider. Select the check boxes for the attributes you want to replicate for the identity store and click __Save__. The attributes are added to the Attribute Name column on the Replication page.
 
-NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, Directory Manager Schema Replication schedule fetches the latest schema at its next run and add the newly added extension attributes to the Select Replication Attributes list. See the [Schema Replication Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/schemareplication.md) for additional information.   
+NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, Directory Manager Schema Replication schedule fetches the latest schema at its next run and add the newly added extension attributes to the Select Replication Attributes list. See the [Schema Replication Schedule](/docs/groupid/groupid/admincenter/schedule/schemareplication.md) for additional information.   
 Select the required extension attributes from the Select Replication Attributes list and add them to the attribute to replicate list. See the [Specify Object Attributes to Replicate](#Specify-Object-Attributes-to-Replicate) section of the [Manage Local Replication Settings](#Manage-Local-Replication-Settings) topic.
 
 Step 7 – Click __Save__.
@@ -69,7 +69,7 @@ NOTE: When a Smart Group, created with a custom attribute in a previous Director
 
 By default, the Replication service runs every 10 minutes. However, you can force run it any time for an identity store to replicate object attributes to Elasticsearch.
 
-Force-starting the service has no impact on the interval set for triggering the service on the Replication page. See the [Specify a Replication Interval for Objects](/docs/product_docs/groupid/groupid/admincenter/replication/settings.md#Specify-a-Replication-Interval-for-Objects)topic.
+Force-starting the service has no impact on the interval set for triggering the service on the Replication page. See the [Specify a Replication Interval for Objects](/docs/groupid/groupid/admincenter/replication/settings.md#Specify-a-Replication-Interval-for-Objects)topic.
 
 You can force run the Replication service for an identity store in any of the following ways:
 
@@ -98,7 +98,7 @@ The card also displays the last run date and time of the service.
 Objects that are deleted from the directory must also be removed from Elasticsearch. By default, the interval for removing deleted objects from Elasticsearch is set to 60 minutes. You can, however, force run the Replication service for an identity store
 any time to remove deleted objects.
 
-Force-starting the service has no impact on the interval set for triggering the service on the __Replication__ page. See the [Specify Interval for Deleting Tombstone Objects](/docs/product_docs/groupid/groupid/admincenter/replication/settings.md#Specify-Interval-for-Deleting-Tombstone-Objects) topic.
+Force-starting the service has no impact on the interval set for triggering the service on the __Replication__ page. See the [Specify Interval for Deleting Tombstone Objects](/docs/groupid/groupid/admincenter/replication/settings.md#Specify-Interval-for-Deleting-Tombstone-Objects) topic.
 
 For an identity store, you can force run the Replication service (for deleting objects) in any of the following ways:
 

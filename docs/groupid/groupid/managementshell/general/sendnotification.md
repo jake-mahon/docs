@@ -46,7 +46,7 @@ Send-Notification -Identity "CN=UserA,CN=Users,DC=HR,DC=Imanami,DC=US" -Subject 
 
 Example 2:
 
-The following command sends a notification to the New Arrivals group. It uses a custom template with an in-line image and uses the credentials of the user set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command sends a notification to the New Arrivals group. It uses a custom template with an in-line image and uses the credentials of the user set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Send-Notification -Identity "CN=New Arrivals,CN=Users,DC=HR,DC=Imanami,DC=US" -Subject "Welcome to Imanami" -TemplateFile "C:\Welcome.html" -InlineImageFile "C:\WelcomeNote.jpg" -QueueEmail

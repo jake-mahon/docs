@@ -1,8 +1,8 @@
 # Add Reviewers Window
 
-The Add Reviewers window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+The Add Reviewers window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Add Reviews Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addreviewers.png)
+![Add Reviews Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addreviewers.png)
 
 The window has the following features:
 
@@ -24,7 +24,7 @@ The tables in both sections have the following columns:
 
 ## Select Users
 
-Follow the steps to grant users the Reviewer role. See the [Role Management Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their functions.
+Follow the steps to grant users the Reviewer role. See the [Role Management Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their functions.
 
 __Step 1 –__ Navigate to the __Users & Groups__ > Role Management page.
 

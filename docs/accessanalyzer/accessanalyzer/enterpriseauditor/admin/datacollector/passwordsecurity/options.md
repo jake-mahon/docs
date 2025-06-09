@@ -2,7 +2,7 @@
 
 The Options page provides format options for returned data.
 
-![Password Security Data Collection Wizard Scan options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The configurable scan options are:
 

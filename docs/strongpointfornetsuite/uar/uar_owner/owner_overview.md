@@ -5,23 +5,23 @@ Owners are set up by the UAR administrator to perform permission and/or members
 - __Role Permission Review__: Review Permissions and Permission Levels granted within the Role
 - __Membership Review__: Review the individuals assigned to the Role
 
-The [Owner User Access Reviews List](/docs/product_docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md) topic has details for accomplishing your reviews.
+The [Owner User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md) topic has details for accomplishing your reviews.
 
-Owners are notified with an email message when a new review has been assigned. You can click one of the links in the email, or login to NetSuite and open [User Access Review](/docs/product_docs/strongpointfornetsuite/uar/access_app.md) to access the dashboard.
+Owners are notified with an email message when a new review has been assigned. You can click one of the links in the email, or login to NetSuite and open [User Access Review](/docs/strongpointfornetsuite/uar/access_app.md) to access the dashboard.
 
 1. Open __User Access Review__ from NetSuite.
 2. Click __UAR Owner__ to log in. Your owner dashboard is displayed.
 
 Here is an example owner dashboard showing new assignments.
 
-![UAR Owner dashboard](/static/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.png)
+![UAR Owner dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.png)
 
 ## Dashboard Controls
 
 - __Home__ icon is your dashboard overview, and the default display when you log in.
-- __UAR List__ is your __[User Access Reviews List](/docs/product_docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)__.
-- __UAR History__ is your __[User Access Reviews History](/docs/product_docs/strongpointfornetsuite/uar/uar_history.md)__.
-- __My Roles__ is a list of all your assigned [Roles](/docs/product_docs/strongpointfornetsuite/uar/uar_owner/owner_uar_roles.md).
+- __UAR List__ is your __[User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)__.
+- __UAR History__ is your __[User Access Reviews History](/docs/strongpointfornetsuite/uar/uar_history.md)__.
+- __My Roles__ is a list of all your assigned [Roles](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_roles.md).
 - __Open Global Reviews__ shortcut shows the number of open reviews. Opens your __User Access Reviews List__.
 - __Open Reviews with Additional Reviewers__ shortcut shows the number of open reviews. Opens your __User Access Reviews List__.
 - __Open Change Requests__ shortcut shows the number of open change requests. Opens the __User Access Open Change Requests__ list.

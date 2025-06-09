@@ -10,14 +10,14 @@ The Add Resources window is for onboarding resources. The features within the wi
 
 When the Import from AD option is selected, the Add Resources window provides a list of resources found via Active Directory sync.
 
-![Add Resources window showing the Import from AD option](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardad.png)
+![Add Resources window showing the Import from AD option](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardad.png)
 
 The window has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Available Resources — Shows all available resources
 - Resources And Groups to Add — Shows selected resources
-- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
 
@@ -50,14 +50,14 @@ The new resource(s) have been onboarded and can be added to Access Policies.
 
 When the Import from AD option is selected, the Add Resources window provides import options.
 
-![Add Resources window showing the Import from CSV option](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardcsv.png)
+![Add Resources window showing the Import from CSV option](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardcsv.png)
 
 The window has the following features:
 
 - Import CSV — Opens Window Explore to select the file
-- Download CSV Template — Downloads the ```nps-resource-import-template.csv``` file with required columns. See the [Create Resource Import CSV File](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/resourceimportcsv.md) topic for additional information.
+- Download CSV Template — Downloads the ```nps-resource-import-template.csv``` file with required columns. See the [Create Resource Import CSV File](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/resourceimportcsv.md) topic for additional information.
 - Remove — Removes the selected item
-- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
 
@@ -102,14 +102,14 @@ The new resource(s) have been onboarded and can be added to Access Policies.
 
 When the Add Manually option is selected, the Add Resources window provides options for entering resources.
 
-![Add Resources window showing the Add Manually option](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardmanually.png)
+![Add Resources window showing the Add Manually option](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardmanually.png)
 
 The window has the following features:
 
 - Resource Name / IP Address textbox — Enter the resource name or IP Address
 - Add — Adds the resource in the textbox to the table
 - Remove — Removes the selected item
-- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+- Service Account — Provides a list of available Service Accounts. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
 

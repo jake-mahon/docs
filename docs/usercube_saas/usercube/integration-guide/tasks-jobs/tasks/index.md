@@ -12,7 +12,7 @@ Tasks are used to insert these blocks into Identity Manager's configuration, in 
 
 > For example, Identity Manager's tasks include synchronization, computation of entitlement assignments, or provisioning of varied managed systems. See the list of all available [
 > Tasks
-> ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
+> ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
 
 ## Data Consistency
 

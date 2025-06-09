@@ -2,7 +2,7 @@
 
 You can search Exchange Online activity that has been monitored and recorded to a File output. When you select __Exchange Online__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![Exchange Online - Search Quary Bar](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchquerybar.png)
+![Exchange Online - Search Quary Bar](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchquerybar.png)
 
 The filters are separated into the following categories:
 
@@ -13,7 +13,7 @@ The filters are separated into the following categories:
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
 
 Filter Value Entry
 
@@ -30,7 +30,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category scopes the query by the most common types of filters. The time frame filter must be configured for every search query.
 
-![Exchange Online - General Category](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/general.png)
+![Exchange Online - General Category](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/general.png)
 
 This section has the following filters:
 
@@ -46,7 +46,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![Exchange Online Search - User Filter](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.png)
+![Exchange Online Search - User Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.png)
 
 This section has the following filters:
 
@@ -59,7 +59,7 @@ This section has the following filters:
 
 The Target category scopes the query by the target of the file.
 
-![Exchange Online Search - Target Filter](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.png)
+![Exchange Online Search - Target Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.png)
 
 This section has the following filters:
 
@@ -71,7 +71,7 @@ This section has the following filters:
 
 The DLP category scopes the query by the DLP policy.
 
-![Exchange Online Search - DLP Filter](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/dlp.png)
+![Exchange Online Search - DLP Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/dlp.png)
 
 This section has the following filters:
 

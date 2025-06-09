@@ -37,7 +37,7 @@ To implement the idea of rings, we have added this capability to the configurabl
 - Ring Type 1: Use specific dates and times to make rings and perform a rollout. With this type, you set specific dates and times for the machines to get the updates.
 - Ring Type 2: Use a relative number of hours to make rings and perform a rollout. With this type, you separate your rings by the number of hours between updates.
 
-See the [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/product_docs/policypak/policypak/install/ringsupgrade.md) topic for additional information.
+See the [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/policypak/policypak/install/ringsupgrade.md) topic for additional information.
 
 ## Endpoint Policy Manager CSE Auto-Updater in Reverse
 
@@ -57,6 +57,6 @@ __Step 5 –__ You can automate this signal using a script, Endpoint Policy Mana
 
 The last way to use rings with Active Directory is by using Endpoint Policy Manager Remote Work Delivery Manager to specify an update. This is not strongly recommended, but could work, depending on your situation. In this process you can create the rings using Active Directory groups or any other targeting, and then sending a CSE update to specific machines as you see fit.
 
-__NOTE:__  See the [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/product_docs/policypak/policypak/remoteworkdelivery/updateclientsideextension.md) topic for additional information.
+__NOTE:__  See the [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/policypak/policypak/remoteworkdelivery/updateclientsideextension.md) topic for additional information.
 
-See the [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/product_docs/policypak/policypak/video/remoteworkdelivery/updateclientsideextension.md)video for additional information.
+See the [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/policypak/policypak/video/remoteworkdelivery/updateclientsideextension.md)video for additional information.

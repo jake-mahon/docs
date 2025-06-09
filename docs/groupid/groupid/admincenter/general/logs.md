@@ -27,6 +27,6 @@ What do you want to do?
 
 __See Also__
 
-- [Event Logging](/docs/product_docs/groupid/groupid/admincenter/identitystore/history/eventlogging.md)
+- [Event Logging](/docs/groupid/groupid/admincenter/identitystore/history/eventlogging.md)
 - For a Portal -
-  [Manage Log Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/log.md)
+  [Manage Log Settings](/docs/groupid/groupid/admincenter/portal/server/log.md)

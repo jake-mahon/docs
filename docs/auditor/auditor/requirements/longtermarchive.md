@@ -16,7 +16,7 @@ __Step 1 –__ In Auditor client, click Settings > Long-Term Archive; alternativ
 
 __Step 2 –__ Click Modify.
 
-[![archive_modify_settings_thumb_0_0](/static/img/product_docs/auditor/auditor/requirements/archive_modify_settings_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/deploymentplan/archive_modify_settings.png)
+[![archive_modify_settings_thumb_0_0](/img/product_docs/auditor/auditor/requirements/archive_modify_settings_thumb_0_0.png)](/docs/auditor/resources/images/auditor/deploymentplan/archive_modify_settings.png)
 
 __Step 3 –__ Enter new path or browse for the required folder.
 
@@ -40,9 +40,9 @@ If the retention period is set to __0__, the following logic will be applied:
 
 To examine the repository capacity and daily growth, use the Long-Term Archive Capacity of the Health Status dashboard.
 
-[![healthstatusdashboard_thumb_0_0](/static/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/health/healthstatusdashboard.png)
+[![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.png)](/docs/auditor/resources/images/auditor/health/healthstatusdashboard.png)
 
-To estimate the amount of activity records collected and stored to the repository day by day, use the [Activity Records Statistics](/docs/product_docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) widget. Click View details to see how many activity records were produced by each data source, collected and saved to the Long-Term Archive and to the database.
+To estimate the amount of activity records collected and stored to the repository day by day, use the [Activity Records Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) widget. Click View details to see how many activity records were produced by each data source, collected and saved to the Long-Term Archive and to the database.
 
 Netwrix Auditor will inform you if you are running out of space on a system disk where the repository is stored by default — you will see this information in the Health Status dashboard, in the health summary email, and also in the events in the Netwrix Auditor health log.
 
@@ -73,7 +73,7 @@ The custom account must be granted the following rights and permissions:
   - Change share permission
   - Create files / write data folder permission
 
-  Subscriptions created in the Auditor client  are uploaded to file servers under the Long-Term Archive service account as well. See the [Subscriptions](/docs/product_docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.
+  Subscriptions created in the Auditor client  are uploaded to file servers under the Long-Term Archive service account as well. See the [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.
 
 ### Assign Permissions on the Long-Term Archive Folder
 
@@ -137,4 +137,4 @@ The users who are going to access report subscriptions must be granted read acce
 
 Long-Term Archive is a file-based storage where Auditor saves the collected activity records. By default, it is located on the system drive at _%PROGRAMDATA%\Netwrix Auditor\Data_ and keeps data for 120 months. You may want to modify these settings, for example, move the storage from the system drive to another location. The Long-Term Archive widget will help you to monitor the Long-Term Archive capacity. The widget displays the current size and daily increase of the Long-Term Archive, and the remaining free space on the target drive.
 
-To open the Long-Term Archive settings, click the corresponding link. Then you will be able to adjust the settings as necessary. See the [Long-Term Archive](/docs/product_docs/auditor/auditor/admin/settings/longtermarchive.md) topic for additional information.
+To open the Long-Term Archive settings, click the corresponding link. Then you will be able to adjust the settings as necessary. See the [Long-Term Archive](/docs/auditor/auditor/admin/settings/longtermarchive.md) topic for additional information.

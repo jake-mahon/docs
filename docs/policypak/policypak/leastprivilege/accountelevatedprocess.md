@@ -6,4 +6,4 @@ The context is still the user and all activity happens in the user profile (in t
 
 But the process is elevated. Here is an example running UAC-Required PowerPointViewer.exe installer with EastSalesUser1 when a Endpoint Policy Manager Least Privilege Manager rule is in place to affect EastSalesUser1.
 
-![649_1_img-1_950x524](/static/img/product_docs/policypak/policypak/leastprivilege/649_1_img-1_950x524.jpg)
+![649_1_img-1_950x524](/img/product_docs/policypak/policypak/leastprivilege/649_1_img-1_950x524.jpg)

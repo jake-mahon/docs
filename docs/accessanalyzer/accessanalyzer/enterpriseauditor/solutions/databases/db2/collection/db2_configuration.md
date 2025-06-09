@@ -6,7 +6,7 @@ This job collects Db2 database configuration settings for use in the following a
 
 The 3-Db2\_Configuration Job uses the SQL Data Collector for queries.
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.png)
 
 The query is:
 
@@ -16,4 +16,4 @@ The query is:
 
 Prior to running an Db2 0.Collection query, you must establish a connection to the appropriate IBM Db2 server. As long as that connection is set up first, it is recommended that no configuration changes be made to the 0.Collection jobs before they run.
 
-It is also recommended that the connection only be established for the 1-Db2 SensitiveDataScan Job. Once the connection is established, it applies to all jobs in the 0.Collection job group. It does not apply to any other job groups. For additional information on establishing a database connection, see [1-Db2\_SensitiveDataScan](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/db2_sensitivedatascan.md).
+It is also recommended that the connection only be established for the 1-Db2 SensitiveDataScan Job. Once the connection is established, it applies to all jobs in the 0.Collection job group. It does not apply to any other job groups. For additional information on establishing a database connection, see [1-Db2\_SensitiveDataScan](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/db2_sensitivedatascan.md).

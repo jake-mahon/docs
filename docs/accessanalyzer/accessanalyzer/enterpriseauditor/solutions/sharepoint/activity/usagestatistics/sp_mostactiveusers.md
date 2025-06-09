@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Usage Statistics_
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SP_MostActiveUsers Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveusersanalysis.png)
+![Analysis Tasks for the SP_MostActiveUsers Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveusersanalysis.png)
 
 The default analysis task is:
 

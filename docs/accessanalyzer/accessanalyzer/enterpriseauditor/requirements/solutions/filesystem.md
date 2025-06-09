@@ -1,15 +1,15 @@
 # File System Solution
 
-The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
+The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
 
-The File System solution can be configure to use Proxy servers either an applet or as a service. See the [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The File System solution can be configure to use Proxy servers either an applet or as a service. See the [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat Prevention is required for event activity data to be scanned. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) or the [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention) for installation requirements and information on collecting activity data.
 
 See the following topics for target environment requirements:
 
-- [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
-- [File System Supported Platforms](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md)
+- [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+- [File System Supported Platforms](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md)
 
 ## File System Solution Requirements on the Access Analyzer Console
 
@@ -55,7 +55,7 @@ These permissions grant the credential the ability to create a high integrity to
 
 Additionally, the credential must have ```WRITE``` access to the ```…\StealthAUDIT\FSAA``` folder in the installation directory. This is required by either the user account running the Access Analyzer application, when manually executing jobs from the console, or the Schedule Service Account assigned within Access Analyzer, when running jobs as a scheduled tasks.
 
-See the [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for permissions required to scan the environment.
+See the [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for permissions required to scan the environment.
 
 ## File System Solution Requirements on the SQL Server
 

@@ -2,8 +2,8 @@
 
 After you select the required type of content source, you will be offered the number of automated actions available for such content, for example, send an alert by email or update document metadata, etc.
 
-Click the action you need and configure the necessary settings. For details, see [Available Actions](/docs/product_docs/dataclassification/ndc/admin/workflows/actions/availableactions.md).
+Click the action you need and configure the necessary settings. For details, see [Available Actions](/docs/dataclassification/ndc/admin/workflows/actions/availableactions.md).
 
-[![workflow_step2_action_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step2_action_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/workflows/workflow_step2_action.png)
+[![workflow_step2_action_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step2_action_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/workflow_step2_action.png)
 
 When finished, proceed to the next step.

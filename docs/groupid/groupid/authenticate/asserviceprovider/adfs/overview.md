@@ -21,8 +21,8 @@ To learn more about the AD FS console, see the [AD FS Console](https://learn.mic
 
 Follow these steps to set up AD FS as an SSO solution for Directory Manager:
 
-- Generate the consumer URL and audience URL for the Directory Manager client with which you want to configure AD FS. See the [Generate URLs](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md) topic for additional information.
-- Configure relaying party trust in AD FS. As part of the process, provide the consumer URL and audience URL in AD FS. You must also specify the claim rules for authentication. See the [Configure Relaying Party Trust in AD FS](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md) topic for additional information.
-- [Configure the AD FS Provider In Directory Manager](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
+- Generate the consumer URL and audience URL for the Directory Manager client with which you want to configure AD FS. See the [Generate URLs](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/generateurls.md) topic for additional information.
+- Configure relaying party trust in AD FS. As part of the process, provide the consumer URL and audience URL in AD FS. You must also specify the claim rules for authentication. See the [Configure Relaying Party Trust in AD FS](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md) topic for additional information.
+- [Configure the AD FS Provider In Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
 
-That done, you can sign into Directory Manager using AD FS. See the [Sign In Using AD FS](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/signin.md) topic for additional information.
+That done, you can sign into Directory Manager using AD FS. See the [Sign In Using AD FS](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/signin.md) topic for additional information.

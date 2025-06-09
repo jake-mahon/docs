@@ -49,6 +49,6 @@ select for the schema attribute you link this display type with.
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/custom.md)
+- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/custom.md)

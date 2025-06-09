@@ -18,7 +18,7 @@ In this example we will uninstall and install the following:
 
 To begin, log on as a local admin on an test computer and verify that none of the items in the bullet lists above are currently installed. Then, create and link a group policy object (GPO) to a location that contains computers. In the example below, created a GPO and linked it to the East Sales Desktops.
 
-![quickstart_adding_and_removing](/static/img/product_docs/policypak/policypak/feature/addremove/quickstart_adding_and_removing.png)
+![quickstart_adding_and_removing](/img/product_docs/policypak/policypak/feature/addremove/quickstart_adding_and_removing.png)
 
 Then click __Edit__ to edit the GPO.
 

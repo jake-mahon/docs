@@ -19,13 +19,13 @@ __Step 3 –__ Navigate to __Relying Party Trusts__ and click __Add Relying Part
 - On the Specify Display Name page, enter a display name for the relying party trust. Click __Next__.
 - On the Configure URL page, do not select any options and click __Next__.
 
-  ![Identifier added on the Configure Identifiers page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/relyingpartytrustwizardidentifier.png)
+  ![Identifier added on the Configure Identifiers page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/relyingpartytrustwizardidentifier.png)
 - On the Configure Identifiers page, add an identifier of ```https://``` followed by the fully qualified domain name (FQDN) of your ADFS server.
 
   - For example, ```https://app0290.train90.local```
 - Click __Next__ to proceed through the remaining wizard pages and complete the wizard.
 
-![Add an Endpoint window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/addanendpointwindow.png)
+![Add an Endpoint window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/addanendpointwindow.png)
 
 __Step 4 –__ Double-click on the newly added relying party trust to open it's Properties window. Navigate to the Endpoints tab and click __Add WS-Federation__. On the Add an Endpoint window, add ```https://<FQDN of the web server>:<port number>/federation``` as the Trusted URL, then click __OK__.
 
@@ -38,16 +38,16 @@ __Step 5 –__ Select the relying party trust, and click __Edit Claim Issuance P
 - On the Edit Claim Issuance Policy window, click __Add Rule__.
 - On the Choose Rule Type page of the Add Transform Claim Rule Wizard, select __Send LDAP Attributes as Claims__ as the Claim rule template. Click __Next__.
 
-  ![Configure Claim Rule page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/claimrulenameadfsconfig.png)
+  ![Configure Claim Rule page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/claimrulenameadfsconfig.png)
 - On the Configure Claim Rule page, enter a name in the __Claim rule name__ field.
 
 If the SID claim is not configured by default, add it to the Claim Description as follows:
 
-![Configure Claim Rule SID Properties](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/claimrulenamesidproperties.png)
+![Configure Claim Rule SID Properties](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/claimrulenamesidproperties.png)
 
 __Step 6 –__ Navigate to the Access Analyzer installation directory and open the ```WebServer.exe.config``` file in a text editor.
 
-![WebServer.exe.config file in Notepad](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigadfs.png)
+![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigadfs.png)
 
 __Step 7 –__  In the ```WebServer.exe.config``` file, change the following parameters:
 
@@ -62,7 +62,7 @@ __Step 7 –__  In the ```WebServer.exe.config``` file, change the following par
   <add key="WsFederationRealm" value="INSERT VALUE HERE" />
   ```
 
-  ![URL required for WsFederationRealm attribute](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/wsfederationrealmurl.png)
+  ![URL required for WsFederationRealm attribute](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/wsfederationrealmurl.png)
 
   You can retrieve the URL value from the Identifiers tab of the relying party trust properties window.
 - ```WsFederationReply``` – Replace the value text with the Trusted URL entered for the Endpoint in Step 4:
@@ -71,7 +71,7 @@ __Step 7 –__  In the ```WebServer.exe.config``` file, change the following par
   <add key="WsFederationReply" value="INSERT VALUE HERE" />
   ```
 
-  ![URL required for WsFederationReply attribute](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/wsfederationreplyurl.png)
+  ![URL required for WsFederationReply attribute](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/wsfederationreplyurl.png)
 
   You can obtain the URL required for this parameter from the Endpoints tab of the relying party trust properties window. Select the endpoint and click __Edit__ to open the Edit Endpoint window.
 
@@ -95,7 +95,7 @@ If ADFS does not accept ```http://localhost:8082/``` as an acceptable path, the
 
 __Step 1 –__ Right-click the Published Reports shortcut on the desktop and select __Properties__.
 
-![Published Reports desktop shortcut properties](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/publishedreportsproperties.png)
+![Published Reports desktop shortcut properties](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/publishedreportsproperties.png)
 
 __Step 2 –__ Replace the URL with ```https://SAWebConsole.domain.com:8082```.
 

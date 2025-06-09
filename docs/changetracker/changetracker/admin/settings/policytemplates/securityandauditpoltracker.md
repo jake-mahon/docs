@@ -8,4 +8,4 @@ The majority of critical security settings, user permissions and audit policy sp
 
 There is minimal configuration required to activate the Tracker – just check the __Track security and audit policy settings in this template__ box and define the poll period then save settings to the Template. Any changes to the initial baseline will be alerted and reported.
 
-![PolicyTemplateSecurityAuditPol](/static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesecurityauditpol.png)
+![PolicyTemplateSecurityAuditPol](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesecurityauditpol.png)

@@ -1,8 +1,8 @@
 # Approvals Dashboard
 
-The Approvals Dashboard displays requested sessions that require approval. Users and group members designated as approvers will see the pending sessions queued here. The session must be approved before the requestor can log in to the session. See the [Connection Profiles Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information on Approval Workflows.
+The Approvals Dashboard displays requested sessions that require approval. Users and group members designated as approvers will see the pending sessions queued here. The session must be approved before the requestor can log in to the session. See the [Connection Profiles Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information on Approval Workflows.
 
-![Dashboard Approvals Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.png)
+![Dashboard Approvals Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.png)
 
 The Approvals Dashboard has the following features:
 
@@ -22,7 +22,7 @@ The table has the following columns:
 - Requested By — User who requested the session
 - Host — Resource that the user will run the activity on
 - Login Account — Displays the account used to log onto the resource
-- Activity — Displays the name of the activity. Click the link to view additional details. See the [Activities Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
+- Activity — Displays the name of the activity. Click the link to view additional details. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 - Start — Indicates when the activity starts. This refers to when the activity’s actions will be executed and not when the user logs on to the resource.
 - End — Indicates when the session is scheduled to end the activity, which is determined by the start time plus the maximum session duration set by the access policy Connection Profile
 - Notes — Any notes that were entered when the session was created

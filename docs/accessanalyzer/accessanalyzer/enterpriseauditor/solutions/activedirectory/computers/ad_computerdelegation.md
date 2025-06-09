@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __3.Computers__ > __AD\_ComputerDelegatio
 
 __CAUTION:__ Do not modify or deselect the analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AD_ComputerDelegation Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/computerdelegationanalysis.png)
+![Analysis Task for the AD_ComputerDelegation Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/computerdelegationanalysis.png)
 
 The default analysis tasks are:
 

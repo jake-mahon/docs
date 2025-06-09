@@ -12,7 +12,7 @@ New: Platform Support for CTERA
 - Automatic Auditing Configuration — Streamlines auditing setup with automated configurations to ensure consistency, minimize manual errors, and enhance security across platforms.
 - Multitenant Configuration Support — Enables efficient security management for multiple tenants with scalable, flexible monitoring tailored to diverse organizational needs.
 
-See the [CTERA Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/ctera/activity.md) topic for additional information.
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/config/ctera/activity.md) topic for additional information.
 
 __NOTE:__ For Netwrix Access Analyzer (formerly Enterprise Auditor) users, these capabilities will be integrated in a future release.
 
@@ -21,7 +21,7 @@ New: FPolicy Persistent Store Enhancements
 - FPolicy Persistent Store for Performance Boost — Enhances performance and resilience by decoupling client IO from FPolicy reporting. Events are stored on disk before transmission, reducing latency and ensuring reliable event processing during network delays.
 - Simplified Persistent Store configuration —Supports the automatic creation of persistent storage volumes to reduce setup complexity and improve storage efficiency for high-volume event data, without requiring additional permissions.
 
-See the [Configure FPolicy](/docs/product_docs/activitymonitor/config/netappcmode/configurefpolicy.md) topic for additional information.
+See the [Configure FPolicy](/docs/activitymonitor/config/netappcmode/configurefpolicy.md) topic for additional information.
 
 New: Improved Microsoft Office Filtering Accuracy
 
@@ -33,4 +33,4 @@ New: REST API Enhancements
 - Expand Integration Capabilities — Unlocks enhanced integrations by leveraging access to a broader range of performance counters and statistics for hosts and outputs.
 - Tailor Security Solutions — Supports custom use cases and tailors security solutions with expanded API capabilities.
 
-See the [REST API](/docs/product_docs/activitymonitor/activitymonitor/restapi/overview.md) topic for additional information.
+See the [REST API](/docs/activitymonitor/activitymonitor/restapi/overview.md) topic for additional information.

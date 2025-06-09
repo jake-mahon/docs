@@ -6,7 +6,7 @@ The 1-AD\_Scan Job collects data from Active Directory. In most environments, th
 
 The 1-AD\_Scan Job uses the ADInventory Data Collector for the following query:
 
-![Queries for the 1-AD Scan Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scanqueries.png)
+![Queries for the 1-AD Scan Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scanqueries.png)
 
 - AD Inventory – Targets a domain controller to collect inventory data for user, group, and computer objects
 
@@ -24,18 +24,18 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Acti
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Active Directory Inventory DC Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.png)
+![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.png)
 
 __Step 4 –__ (Optional) On the Options page, you can:
 
 - Enable encrypted communication with Active Directory (SSL)
 - Configure the differential scan settings using the __Collect only updates since last scan__ settings
 
-See the [ADInventory: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/options.md) topic for more information.
+See the [ADInventory: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/options.md) topic for more information.
 
-![Active Directory Inventory DC Wizard Custom Attributes page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.png)
+![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.png)
 
-__Step 5 –__ (Optional) On the Custom Attributes page, add any desired custom attributes to be used in the Active Directory scan. See the [ADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md) topic for additional information.
+__Step 5 –__ (Optional) On the Custom Attributes page, add any desired custom attributes to be used in the Active Directory scan. See the [ADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md) topic for additional information.
 
 __Step 6 –__ Navigate to the Summary page. Click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
@@ -49,7 +49,7 @@ View the analysis tasks by navigating to the __.Active Directory Inventory__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the 1-AD_Scan Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scananalysis.png)
+![Analysis Tasks for the 1-AD_Scan Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scananalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -66,7 +66,7 @@ The following analysis tasks never need to be selected as they are only needed t
 - Bring Computers View to Console – Restores the SA\_ADInventory\_ComputersView to be visible within the Access Analyzer Console if it is hidden
 - Remove ADI Stored Procedures – Removes the built-in ADI stored procedures
 
-In addition to the tables and views explained in the [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic, the 1-AD\_Scan Job produces the following pre-configured report:
+In addition to the tables and views explained in the [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic, the 1-AD\_Scan Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -83,15 +83,15 @@ Follow the steps to add the custom attributes.
 
 __Step 1 –__ Navigate to the Active Directory Inventory DC Wizard for the AD Inventory Query within the 1-AD\_Scan Job.
 
-![Active Directory Inventory DC Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptionsnfs.png)
+![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptionsnfs.png)
 
 __Step 2 –__ Navigate to the Options page. Ensure the __Collect only updates since last scan__ option is deselected.
 
 __NOTE:__ Whenever query configurations are modified, it is necessary to do a full scan. After the first full scan, differential scanning can be re-enabled.
 
-![Active Directory Inventory DC Wizard Custom Attributes page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributesnfs.png)
+![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributesnfs.png)
 
-__Step 3 –__ Use the __Next__ button to navigate to the Custom Attributes page. Add both __uid__ and __uidNumber__ attributes to the existing list of custom attributes. See the [ADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md) topic for additional information.
+__Step 3 –__ Use the __Next__ button to navigate to the Custom Attributes page. Add both __uid__ and __uidNumber__ attributes to the existing list of custom attributes. See the [ADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md) topic for additional information.
 
 - __uid__ attribute:
 

@@ -4,11 +4,11 @@ On rare occasions you might need to change some of the attributes of a process�
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/rules/run_with_customized_token.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/run_with_customized_token.png)
 
 Here you can change a variety of functions about the token including its permissions, privileges and security, as well as Integrity level.
 
 The common use cases for needing to manage a customized token are:
 
-- Handling service accounts’ permissions.For more in formation, see the [Reduce or specify Service Account Rights](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md) video demonstration.
-- Drag-and-drop issues between applications. For ore information, see the [I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](/docs/product_docs/policypak/policypak/leastprivilege/elevate/dragdrop.md) topic.
+- Handling service accounts’ permissions.For more in formation, see the [Reduce or specify Service Account Rights](/docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md) video demonstration.
+- Drag-and-drop issues between applications. For ore information, see the [I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](/docs/policypak/policypak/leastprivilege/elevate/dragdrop.md) topic.

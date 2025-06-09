@@ -8,7 +8,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Db2 Requirements, Permissions, and Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasedb2.md) topic for additional information.
+See the [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasedb2.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -28,14 +28,14 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer Db2 Solution is a comprehensive set of preconfigured audit jobs and reports that provide visibility into various aspects of a Db2 Databases: Sensitive Data Discovery and Objects Permissions.
 
-![Db2 Overview](/static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Db2 Overview](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
 
 The following comprises the Db2 solution:
 
-- [0.Collection Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/overview.md) — Collects high level summary information from targeted Db2 Servers. This information is used by other jobs in the Db2 Solution Set for further analysis and producing respective report.
+- [0.Collection Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/overview.md) — Collects high level summary information from targeted Db2 Servers. This information is used by other jobs in the Db2 Solution Set for further analysis and producing respective report.
 
-- [Configuration > Db2\_DatabaseSizing Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/db2_databasesizing.md) — Provides insight into Db2 server configuration settings
+- [Configuration > Db2\_DatabaseSizing Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/db2_databasesizing.md) — Provides insight into Db2 server configuration settings
 
-- [Permissions Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/overview.md)— Provides insight into all types of permissions at the database and object level across all the targeted Db2 database servers
+- [Permissions Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/overview.md)— Provides insight into all types of permissions at the database and object level across all the targeted Db2 database servers
 
-- [Sensitive Data Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/overview.md) — Provides insight into where sensitive data exists and who has access to it across all the targeted Db2 databases
+- [Sensitive Data Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/overview.md) — Provides insight into where sensitive data exists and who has access to it across all the targeted Db2 databases

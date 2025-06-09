@@ -22,4 +22,4 @@ __Step 9 –__ Select the correct EVS and click details for the file system to e
 
 __Step 10 –__ In the Access via Unsupported Protocols section, select Allow Access (without auditing). In the Audit Log section, set the maximum log file size to a value of at least 8 MB. It is recommended to set it to 16 MB. In the Log roll over policy section, select New. The product does not support the Wrap policy. Click OK to close.
 
-Once access has been configured on the Hitachi device, it is necessary to configure access to the HNAS audit logs on the Windows server. See the [Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/product_docs/accessanalyzer/accessanalyzer/config/hitachi/configureaccesstologs.md) topic for additional information.
+Once access has been configured on the Hitachi device, it is necessary to configure access to the HNAS audit logs on the Windows server. See the [Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/accessanalyzer/accessanalyzer/config/hitachi/configureaccesstologs.md) topic for additional information.

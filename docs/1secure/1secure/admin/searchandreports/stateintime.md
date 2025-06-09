@@ -2,16 +2,16 @@
 
 The state-in-time reports allow you to generate reports on your environment's state at a specific point in time, helping you analyze environment configurations and permissions for a specified timeframe. For example, you can easily monitor inactive user accounts, empty security groups, and more. The state-in-time reports for an organization are generated on the basis of the risk profile assigned to the organization. A risk profile includes a set of risk metrics, each with preconfigured risk thresholds. A risk metric is a measurable security parameter that helps analyze potential vulnerabilities in an environment. You can generate a separate state-in-time report for each risk metric to get detailed information on specific security aspects of your environment.
 
-To view detailed risk-related data for your organization, see the [Risk Assessment Dashboard](/docs/product_docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic.
+To view detailed risk-related data for your organization, see the [Risk Assessment Dashboard](/docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic.
 
 State-in-time reports display data for the Active Directory, Microsoft Entra ID, and SharePoint Online platforms in your environment. You must enable the following connectors to collect data for the respective platforms:
 
 - Active Directory State (AD State)  
-  See Step 8 in the [Add a Source and Connectors for Active Directory](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) topic
+  See Step 8 in the [Add a Source and Connectors for Active Directory](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) topic
 - Azure AD State  
-  See Step 6 in the [Add a Source and Connectors for Microsoft Entra ID](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/entraid.md) topic
+  See Step 6 in the [Add a Source and Connectors for Microsoft Entra ID](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/entraid.md) topic
 - SharePoint Online State  
-  See Step 6 in the [Add a Source and Connectors for SharePoint Online](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic
+  See Step 6 in the [Add a Source and Connectors for SharePoint Online](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic
 
 ## Review a Report
 
@@ -23,9 +23,9 @@ __Step 2 –__ Select an organization from the drop-down menu at the top of the 
 
 __Step 3 –__ Click the __Risks__ tab to access the state-in-time reports. This opens the Risks page with the High Risk Permissions on Documents report displayed by default.
 
-__NOTE:__ Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk Assessment page, where you can monitor the risks for the selected organization. See the [Risk Assessment Dashboard](/docs/product_docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional information.
+__NOTE:__ Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk Assessment page, where you can monitor the risks for the selected organization. See the [Risk Assessment Dashboard](/docs/1secure/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional information.
 
-![Risk Reports page](/static/img/product_docs/1secure/1secure/admin/searchandreports/sitrisks.png)
+![Risk Reports page](/img/product_docs/1secure/1secure/admin/searchandreports/sitrisks.png)
 
 __Step 4 –__ In the left pane, click a category to view its reports. Categories are:
 
@@ -86,7 +86,7 @@ You can filter the data displayed in a report. Select a filter, operator, and va
 
 You can select more than one filter.
 
-For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/product_docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
+For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
 
 Filter Descriptions
 
@@ -101,7 +101,7 @@ This table provides a list of filters and descriptions.
 | Member through | Specify whether a group is a member of a group explicitly or inherited from another group.  For example, Group A > Admin Group (Group A is explicitly a member of Admin Group)  Group B > Group C > Admin Group (Group C is explicitly a member of Admin Group while Group B is an inherited member of Admin Group)  If you do not specify the value, it will include both. If your Value is Inherited, it will only show Group B, and if you Value is Explicit, it will show Group A and Group C |
 | Status | Filters the report based on any of the following user account statuses:   - Enabled - Disabled |
 | Source Type | Filters the report based on any of the following source types:   - AD Group - Entra ID Group - Windows Local Group - SharePoint Online Group |
-| Source | Filters the report based on the name of a data source. The data source name corresponds to the value specified in the Source Group field when adding a data source. See the [Sources and Connectors ](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/overview.md)topic for additional information. |
+| Source | Filters the report based on the name of a data source. The data source name corresponds to the value specified in the Source Group field when adding a data source. See the [Sources and Connectors ](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/overview.md)topic for additional information. |
 | Name | Filters the report based on the name of a user or computer account. |
 | Location | Filters the report based on the location of an account in the directory. For example, Guest is an account name and its location is SSA-D4.local/Users/Guest. |
 | Role | Filters the report based on a role, such as Global Administrator. |

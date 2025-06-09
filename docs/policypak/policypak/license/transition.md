@@ -10,21 +10,21 @@ Legacy licenses take the form of multiple keys, one for each component.
 
 Whenever we have a new component, we would issue your company a new legacy license for that component.
 
-![861_1_hfkb-1130-img-01](/static/img/product_docs/policypak/policypak/license/861_1_hfkb-1130-img-01.png)
+![861_1_hfkb-1130-img-01](/img/product_docs/policypak/policypak/license/861_1_hfkb-1130-img-01.png)
 
 An individual legacy license XML looks like this and contains the product (component) and the scope of where it is licensed to:
 
-![861_2_hfkb-1130-img-02_950x238](/static/img/product_docs/policypak/policypak/license/861_2_hfkb-1130-img-02_950x238.png)
+![861_2_hfkb-1130-img-02_950x238](/img/product_docs/policypak/policypak/license/861_2_hfkb-1130-img-02_950x238.png)
 
 You then use the Group Policy editor to consume the license and the result would look something like this.
 
-![861_3_hfkb-1130-img-03_950x447](/static/img/product_docs/policypak/policypak/license/861_3_hfkb-1130-img-03_950x447.png)
+![861_3_hfkb-1130-img-03_950x447](/img/product_docs/policypak/policypak/license/861_3_hfkb-1130-img-03_950x447.png)
 
 Additionally, if you wanted to use Endpoint Policy Manager with an MDM service, we needed to cut a second set of keys just for that scenario. That second set of licenses is an .MSI which also contain the XMLs which enable Endpoint Policy Manager to work with an MDM service.
 
 Tip: You can use 7zip to open an MSI and see the licenses, like this.:
 
-![861_4_hfkb-1130-img-04_950x320](/static/img/product_docs/policypak/policypak/license/861_4_hfkb-1130-img-04_950x320.png)
+![861_4_hfkb-1130-img-04_950x320](/img/product_docs/policypak/policypak/license/861_4_hfkb-1130-img-04_950x320.png)
 
 ## Understanding Universal Licenses
 
@@ -34,16 +34,16 @@ Universal licenses solve a lot of problems around key generation:
 - Administrators may select which types of policies are honored (Group Policy-based, XML-files based, or coming from MDM).
 - All components purchased can be in one XML file
 - Some components which have capabilities may be specified with those capabilities. This is not available in Legacy license type.
-- For MDM customers, we can specify EITHER Intune Company name or UPN name. [What is the difference if I license my MDM machines' CSE using COMPANY NAME vs. UPN name?](/docs/product_docs/policypak/policypak/license/mdm/name.md) This is not available for Legacy license type.
-- Administrators may disable a specifically licensed component, without having to request Endpoint Policy Manager support to re-cut the license. [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/product_docs/policypak/policypak/license/unlicense/componentsexclude.md)
-- The license may be wrapped up by the admin as a .MSI and re-deployed without contacting Endpoint Policy Manager support to make a .MSI. [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/product_docs/policypak/policypak/video/license/installuniversal.md)
+- For MDM customers, we can specify EITHER Intune Company name or UPN name. [What is the difference if I license my MDM machines' CSE using COMPANY NAME vs. UPN name?](/docs/policypak/policypak/license/mdm/name.md) This is not available for Legacy license type.
+- Administrators may disable a specifically licensed component, without having to request Endpoint Policy Manager support to re-cut the license. [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/policypak/policypak/license/unlicense/componentsexclude.md)
+- The license may be wrapped up by the admin as a .MSI and re-deployed without contacting Endpoint Policy Manager support to make a .MSI. [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
 
-![861_5_hfkb-1130-img-05_950x431](/static/img/product_docs/policypak/policypak/license/861_5_hfkb-1130-img-05_950x431.png)
+![861_5_hfkb-1130-img-05_950x431](/img/product_docs/policypak/policypak/license/861_5_hfkb-1130-img-05_950x431.png)
 
 In the Group Policy editor you can consume the Universal license and it will look like this.
 
-![861_6_hfkb-1130-img-06_950x670](/static/img/product_docs/policypak/policypak/license/861_6_hfkb-1130-img-06_950x670.png)
+![861_6_hfkb-1130-img-06_950x670](/img/product_docs/policypak/policypak/license/861_6_hfkb-1130-img-06_950x670.png)
 
 And finally using``` PPUPDATE``` command on the endpoint, you can see how you are licensed :
 
-![861_7_hfkb-1130-img-07_950x984](/static/img/product_docs/policypak/policypak/license/861_7_hfkb-1130-img-07_950x984.png)
+![861_7_hfkb-1130-img-07_950x984](/img/product_docs/policypak/policypak/license/861_7_hfkb-1130-img-07_950x984.png)

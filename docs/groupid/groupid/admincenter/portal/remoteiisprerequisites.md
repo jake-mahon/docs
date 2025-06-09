@@ -29,10 +29,10 @@ __To create a site in remote IIS:__
 1. Launch Internet Information Services (IIS) Manager (see [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90))).
 2. In the left pane, right-click __Sites__ and select __Add Website__.
 
-   ![Add a website in IIS](/static/img/product_docs/groupid/groupid/admincenter/portal/addsite.jpg)
+   ![Add a website in IIS](/img/product_docs/groupid/groupid/admincenter/portal/addsite.jpg)
 3. Enter the information as shown below and click __OK__:
 
-   ![Add Website window](/static/img/product_docs/groupid/groupid/admincenter/portal/addwebsite.jpg)
+   ![Add Website window](/img/product_docs/groupid/groupid/admincenter/portal/addwebsite.jpg)
 
    1. Enter a name for the site in the __Site name__ box.
    2. Create a new folder on the remote machine and bind this site to that folder. Provide the physical path of the newly created folder in the __Physical path__ box. When you create a Directory Manager application in the site, a sub-folder will be created within this folder and application files will be copied to it.
@@ -74,7 +74,7 @@ The next step is to assign permissions on the physical folder that binds to your
 
 3. Open the __appsettings.json__ file and add the highlighted script at the end of the file:
 
-   ![Script for appsettings.json file](/static/img/product_docs/groupid/groupid/admincenter/portal/appsettings-full.png)
+   ![Script for appsettings.json file](/img/product_docs/groupid/groupid/admincenter/portal/appsettings-full.png)
 4. The script to be added is given below:
 
     ```
@@ -108,10 +108,10 @@ To connect to the API, an access key is required. Follow the steps below to gene
    Note that this is the default URL. It may change for reasons such as when a different port is used.
 2. Click __ACCESS KEYS__.
 
-   ![Access Keys](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
+   ![Access Keys](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
 3. Click __Create Access Key__ to generate an access key and provide the following information:
 
-   ![Access Key Purpose window](/static/img/product_docs/groupid/groupid/admincenter/portal/accesskeyspurpose.png)
+   ![Access Key Purpose window](/img/product_docs/groupid/groupid/admincenter/portal/accesskeyspurpose.png)
 4. On clicking __Create__, the access key is generated.
 
-   ![Access Token window](/static/img/product_docs/groupid/groupid/admincenter/portal/accesstoken.png)
+   ![Access Token window](/img/product_docs/groupid/groupid/admincenter/portal/accesstoken.png)

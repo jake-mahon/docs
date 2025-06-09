@@ -23,7 +23,7 @@ __Step 5 –__ Select Apply action and from drop-down chose PowerShell Script op
 
 __Step 6 –__ Paste the below script in to the window
 
-![856_1_image-20211130230540-1_950x555](/static/img/product_docs/policypak/policypak/troubleshooting/nondomain/856_1_image-20211130230540-1_950x555.png)
+![856_1_image-20211130230540-1_950x555](/img/product_docs/policypak/policypak/troubleshooting/nondomain/856_1_image-20211130230540-1_950x555.png)
 
 __Step 7 –__ Wait for Policy refresh or run PPCLOUD /SYNC at endpoint
 
@@ -31,9 +31,9 @@ __Step 8 –__ Ask user to sign back in and launch Edge Chromium
 
 __Step 9 –__ Users will be presented with the following screen. Click Turn on extension
 
-![856_2_image-20211130230540-2_950x436](/static/img/product_docs/policypak/policypak/troubleshooting/nondomain/856_2_image-20211130230540-2_950x436.png)
+![856_2_image-20211130230540-2_950x436](/img/product_docs/policypak/policypak/troubleshooting/nondomain/856_2_image-20211130230540-2_950x436.png)
 
-\*\*\*\*\* PowerShell Script to apply using Scripts Manager: Scripts & Triggers Manager > [Knowledge Base](/docs/product_docs/policypak/policypak/scriptstriggers/overview/knowledgebase.md)
+\*\*\*\*\* PowerShell Script to apply using Scripts Manager: Scripts & Triggers Manager > [Knowledge Base](/docs/policypak/policypak/scriptstriggers/overview/knowledgebase.md)
 
 ```
 #Download the latest PPBR extension from shareFile/PolicyPak Support - Inbox/ppbr_crx/ppbr_21_2_0_0.crx  

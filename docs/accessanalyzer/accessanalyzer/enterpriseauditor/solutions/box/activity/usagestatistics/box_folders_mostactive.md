@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Usage Statistics__ > __Box\_Folders\_Mo
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_Folders_MostActive Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/usagestatistics/foldersmostactiveanalysis.png)
+![Analysis Tasks for the Box_Folders_MostActive Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/usagestatistics/foldersmostactiveanalysis.png)
 
 The following analysis task is selected by default:
 

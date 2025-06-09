@@ -6,7 +6,7 @@ During the update process, your activity monitoring will not be disrupted.
 
 | Icon | Description |
 | --- | --- |
-| ![selfupdate_icon](/static/img/product_docs/1secure/1secure/admin/selfupdate_icon.png) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
+| ![selfupdate_icon](/img/product_docs/1secure/1secure/admin/selfupdate_icon.png) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
 
 ## Update Agents in Bulk
 
@@ -14,7 +14,7 @@ Follow the steps to update agents in bulk.
 
 __Step 1 –__ To update selected agents, on the Managed Organizations page, select __Bulk Update Agent__.
 
-![updateagents](/static/img/product_docs/1secure/1secure/admin/updateagents.png)
+![updateagents](/img/product_docs/1secure/1secure/admin/updateagents.png)
 
 __Step 2 –__ On the Update Agents page, check the boxes next to agents you wish to update and click __Confirm__.
 
@@ -26,7 +26,7 @@ Follow the steps to update agent schedule.
 
 __Step 1 –__ To edit the agent update schedule, on the Managed Organizations page, select __Agent Update Settings__. The Edit Agent Update Schedule page displays.
 
-![editagentupdatesschedule2](/static/img/product_docs/1secure/1secure/admin/editagentupdatesschedule2.png)
+![editagentupdatesschedule2](/img/product_docs/1secure/1secure/admin/editagentupdatesschedule2.png)
 
 __Step 2 –__ In the Update Schedule section, select Enabled.
 
@@ -42,19 +42,19 @@ Follow the steps to enable the self-update function .
 
 __Step 1 –__ To look up the available updates, click the __Bell__ icon. The panel with available updates displays.
 
-![selfupdate_panel](/static/img/product_docs/1secure/1secure/admin/selfupdate_panel.png)
+![selfupdate_panel](/img/product_docs/1secure/1secure/admin/selfupdate_panel.png)
 
 __Step 2 –__ Click __Fix__ for the agents to be updated. Now you can see the list of organizations and which agents may be updated to the new version.
 
 __Step 3 –__ Click __Update available__ to update the agent to the current version. The Edit Agent Update Schedule page displays, offering you the proposed version.
 
-![editagentupdatesschedule](/static/img/product_docs/1secure/1secure/admin/editagentupdatesschedule.png)
+![editagentupdatesschedule](/img/product_docs/1secure/1secure/admin/editagentupdatesschedule.png)
 
 __Step 4 –__ Select __Confirm__. The agent shall update and upload a new .msi file of your agent.
 
 __Step 5 –__ Alternately, update the version for an organization from the Managed organizations page. Select the __organization__ and then the __Sites__ tab.
 
-![updateagents2](/static/img/product_docs/1secure/1secure/admin/updateagents2.png)
+![updateagents2](/img/product_docs/1secure/1secure/admin/updateagents2.png)
 
 __Step 6 –__ Click Update.
 
@@ -64,7 +64,7 @@ __Step 8 –__ Click Edit.
 
 __Step 9 –__ On the Edit Agent Update Schedule window, select Enabled and apply the required parameters to specify when you want the update occur.
 
-![editagentupdatesschedule2](/static/img/product_docs/1secure/1secure/admin/editagentupdatesschedule2.png)
+![editagentupdatesschedule2](/img/product_docs/1secure/1secure/admin/editagentupdatesschedule2.png)
 
 __Step 10 –__ Click __Confirm__.
 
@@ -72,4 +72,4 @@ The self-update function is now configured.
 
 See the following topic for additional information:
 
-- [Notifications ](/docs/product_docs/1secure/1secure/admin/notifications.md)
+- [Notifications ](/docs/1secure/1secure/admin/notifications.md)

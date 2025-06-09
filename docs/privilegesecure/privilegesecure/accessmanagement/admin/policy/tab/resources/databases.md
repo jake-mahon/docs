@@ -2,7 +2,7 @@
 
 The Databases tab shows information about the server database on the selected resource.
 
-![Database Details page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/databasedetailspage.png)
+![Database Details page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/databasedetailspage.png)
 
 The Databases tab has the following features:
 

@@ -1,6 +1,6 @@
 # Permissions for Active Directory Sync
 
-The following permissions are required for the credential used by Threat Manager for Active Directory Sync. See the [Entra ID Sync Page](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.md) topic for additional information about syncing the configured Active Directory domain(s) in Threat Manager.
+The following permissions are required for the credential used by Threat Manager for Active Directory Sync. See the [Entra ID Sync Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.md) topic for additional information about syncing the configured Active Directory domain(s) in Threat Manager.
 
 | Object Type | Function | Access Requirements |
 | --- | --- | --- |

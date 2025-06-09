@@ -1,6 +1,6 @@
 # Implement and Deploy a Custom SMS Gateway
 
-You can integrate with additional SMS gateways using the Custom Gateway API. After creating a gateway, you can add an account for it. See the [Create an SMS Gateway Account](/docs/product_docs/groupid/groupid/admincenter/smsgateway/manage.md#Create-an-SMS-Gateway-Account) topic.
+You can integrate with additional SMS gateways using the Custom Gateway API. After creating a gateway, you can add an account for it. See the [Create an SMS Gateway Account](/docs/groupid/groupid/admincenter/smsgateway/manage.md#Create-an-SMS-Gateway-Account) topic.
 
 What do you want to do?
 
@@ -16,20 +16,20 @@ What do you want to do?
 
    | Member | Description |
    | --- | --- |
-   | [ISmsGateway.SendShortMessage](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/sendshortmessage.md) method | Takes as input the [ShortMessage class](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md) object, which defines elements of the text message, sends messages to the target recipients, and returns the [SendSmsMessageResult class](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md) object, which contains  message delivery status and exception details |
-   | [ISmsGateway.TestCredentials](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/testcredentials.md) method | Returns a boolean value indicating whether the credentials for communicating with the SMS gateway are valid. |
-   | [ISmsGateway.TestConnection](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/testconnection.md) method | Returns a boolean value indicating whether the connection with the SMS gateway is established successfully. |
-   | [ISmsGateway.TestProxy](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/testproxy.md) method | Returns a boolean value informing whether the given proxy setting are valid. |
-   | [ISmsGateway.Clone](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/clone.md) method | Returns the member-wise clone of the ISMSGateway interface. |
-   | [ISmsGateway.AccountId](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/accountid.md) property | Gets or sets the account ID for connecting to the SMS gateway. |
-   | [ISmsGateway.Password](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/password.md) property | Gets or sets the password of the user name assigned by the SMS gateway provider. |
-   | [ISmsGateway.Url](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/url.md) property | Gets or sets the URL that the SMS gateway provides for sending messages. |
-   | [ISmsGateway.UserId](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/userid.md) property | Gets or sets the user name assigned to you by the SMS gateway provider. |
-   | [ISmsGateway.ProxyHostName](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/proxyhostname.md) property | Gets or sets the host name of the proxy server. |
-   | [ISmsGateway.ProxyPort](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/proxyport.md) property | Gets or sets the port number used by the proxy server. |
-   | [ISmsGateway.ProxyUsername](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/proxyusername.md) property | Gets or set the user name for connecting to the proxy server. |
-   | [ISmsGateway.ProxyPassword](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/proxypassword.md) property | Gets or sets the password of the user account that will be used for connecting to the proxy server. |
-   | [ISmsGateway.ProxyDomain](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/proxydomain.md) property | Gets or sets the domain name or IP address of the proxy server. |
+   | [ISmsGateway.SendShortMessage](/docs/groupid/groupid/admincenter/smsgateway/custom/sendshortmessage.md) method | Takes as input the [ShortMessage class](/docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md) object, which defines elements of the text message, sends messages to the target recipients, and returns the [SendSmsMessageResult class](/docs/groupid/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md) object, which contains  message delivery status and exception details |
+   | [ISmsGateway.TestCredentials](/docs/groupid/groupid/admincenter/smsgateway/custom/testcredentials.md) method | Returns a boolean value indicating whether the credentials for communicating with the SMS gateway are valid. |
+   | [ISmsGateway.TestConnection](/docs/groupid/groupid/admincenter/smsgateway/custom/testconnection.md) method | Returns a boolean value indicating whether the connection with the SMS gateway is established successfully. |
+   | [ISmsGateway.TestProxy](/docs/groupid/groupid/admincenter/smsgateway/custom/testproxy.md) method | Returns a boolean value informing whether the given proxy setting are valid. |
+   | [ISmsGateway.Clone](/docs/groupid/groupid/admincenter/smsgateway/custom/clone.md) method | Returns the member-wise clone of the ISMSGateway interface. |
+   | [ISmsGateway.AccountId](/docs/groupid/groupid/admincenter/smsgateway/custom/accountid.md) property | Gets or sets the account ID for connecting to the SMS gateway. |
+   | [ISmsGateway.Password](/docs/groupid/groupid/admincenter/smsgateway/custom/password.md) property | Gets or sets the password of the user name assigned by the SMS gateway provider. |
+   | [ISmsGateway.Url](/docs/groupid/groupid/admincenter/smsgateway/custom/url.md) property | Gets or sets the URL that the SMS gateway provides for sending messages. |
+   | [ISmsGateway.UserId](/docs/groupid/groupid/admincenter/smsgateway/custom/userid.md) property | Gets or sets the user name assigned to you by the SMS gateway provider. |
+   | [ISmsGateway.ProxyHostName](/docs/groupid/groupid/admincenter/smsgateway/custom/proxyhostname.md) property | Gets or sets the host name of the proxy server. |
+   | [ISmsGateway.ProxyPort](/docs/groupid/groupid/admincenter/smsgateway/custom/proxyport.md) property | Gets or sets the port number used by the proxy server. |
+   | [ISmsGateway.ProxyUsername](/docs/groupid/groupid/admincenter/smsgateway/custom/proxyusername.md) property | Gets or set the user name for connecting to the proxy server. |
+   | [ISmsGateway.ProxyPassword](/docs/groupid/groupid/admincenter/smsgateway/custom/proxypassword.md) property | Gets or sets the password of the user account that will be used for connecting to the proxy server. |
+   | [ISmsGateway.ProxyDomain](/docs/groupid/groupid/admincenter/smsgateway/custom/proxydomain.md) property | Gets or sets the domain name or IP address of the proxy server. |
 2. Reference __System.ComponentModel.Composition__  
    (_System.ComponentModel.Composition.dll_).
 
@@ -88,5 +88,5 @@ If the SMS gateway is successfully registered, it will get listed in the __Gatew
 
 __See Also__
 
-- [SMS Gateway](/docs/product_docs/groupid/groupid/admincenter/smsgateway/overview.md)
-- [ISMSGateway Members](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/overview.md)
+- [SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/overview.md)
+- [ISMSGateway Members](/docs/groupid/groupid/admincenter/smsgateway/custom/overview.md)

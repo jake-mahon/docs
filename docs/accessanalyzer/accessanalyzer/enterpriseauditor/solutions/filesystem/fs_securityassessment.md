@@ -4,21 +4,21 @@ The FS\_SecurityAssessment job is designed to provide a security assessment of a
 
 - 2.Direct Permissions Job Group
 
-  - [FS\_LocalUsersAndGroups Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_localusersandgroups.md)
-  - [FS\_NestedShares Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_nestedshares.md)
-  - [FS\_SIDHistory Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_sidhistory.md)
-- [3.Broken Inheritance > FS\_BrokenInheritance Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
+  - [FS\_LocalUsersAndGroups Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_localusersandgroups.md)
+  - [FS\_NestedShares Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_nestedshares.md)
+  - [FS\_SIDHistory Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/fs_sidhistory.md)
+- [3.Broken Inheritance > FS\_BrokenInheritance Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
 - 5.Activity Job Group
 
-  - [Least Privileged Access > FS\_LeastPrivilegedAccess Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/fs_leastprivilegedaccess.md)
-  - Security > [FS\_HighRiskActivity Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
+  - [Least Privileged Access > FS\_LeastPrivilegedAccess Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/fs_leastprivilegedaccess.md)
+  - Security > [FS\_HighRiskActivity Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
 - 7.Sensitive Data Job Group
 
-  - [7.Sensitive Data > FS\_DLPResults Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
+  - [7.Sensitive Data > FS\_DLPResults Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
 
 If only select sub-job groups have been run, there are blank sections in the overview report.
 
-![FS_SecurityAssessment Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.png)
+![FS_SecurityAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.png)
 
 The FS\_SecurityAssessment job is comprised of analysis and reports which use the data collected by the 0.Collection job group and analyzed by the jobs listed above.
 
@@ -28,7 +28,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __FS\_SecurityAsse
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the FS_SecurityAssessment Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.png)
+![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.png)
 
 The following analysis tasks are selected by default:
 

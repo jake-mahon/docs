@@ -6,7 +6,7 @@ Use the Test Access page to check access to SharePoint On-Premises environments.
 - SQL Access (for databases associated with the SharePoint farms)
 - All Web Applications in the SharePoint environment
 
-![Test Access page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccess.png)
+![Test Access page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccess.png)
 
 The options and sections on the Test Access page are:
 
@@ -19,5 +19,5 @@ The options and sections on the Test Access page are:
 
 |  |  |
 | --- | --- |
-| ![Successful test example](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccessgoodtest.png) | ![Unsuccessful test example](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccessbadtest.png) |
+| ![Successful test example](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccessgoodtest.png) | ![Unsuccessful test example](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/testaccessbadtest.png) |
 | __Successful Test (Correct Credentials)__ | __Unsuccessful Test (Incorrect Credentials)__ |

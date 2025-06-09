@@ -35,6 +35,6 @@ __Step 11 –__ In the Audit Archiving filters, select the Netwrix Auditor  Syst
 
 __Step 12 –__ Click Save to save your changes.
 
-![emailhealthstatusevent](/static/img/product_docs/auditor/auditor/admin/alertsettings/emailhealthstatusevent.png)
+![emailhealthstatusevent](/img/product_docs/auditor/auditor/admin/alertsettings/emailhealthstatusevent.png)
 
 If an event occurs that triggers an alert, an email notification will be sent immediately to the specified recipients.

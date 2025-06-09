@@ -5,10 +5,10 @@ The Default Scoping Options page is where scan settings, file details, and file 
 - File System Access/Permission Auditing Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Default Scoping Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.png)
+![FSAA Data Collector Wizard Default Scoping Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.png)
 
 See the Scoping Options tab setting topics to target individual resources for the scan:
 
-- [Scan Settings Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
-- [File Details Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
-- [File Properties (Folder Summary) Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
+- [Scan Settings Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
+- [File Details Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
+- [File Properties (Folder Summary) Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)

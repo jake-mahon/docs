@@ -2,7 +2,7 @@
 
 You can specify data that you want to include into / exclude from the Windows File Server, NetApp Filer, and Dell Data Storage (formerly EMC) monitoring scope. For that, you can configure monitoring scope in Auditor client UI, as explained in the related section:
 
-- [File Servers](/docs/product_docs/auditor/auditor/admin/monitoringplans/fileservers/overview.md)
+- [File Servers](/docs/auditor/auditor/admin/monitoringplans/fileservers/overview.md)
 - [Windows File Share](#Windows-File-Share)
 
 Besides, you can configure exclusions for file servers audit using the special txt files (omit lists), as explained below.
@@ -69,7 +69,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/static/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+[![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)](/docs/auditor/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 

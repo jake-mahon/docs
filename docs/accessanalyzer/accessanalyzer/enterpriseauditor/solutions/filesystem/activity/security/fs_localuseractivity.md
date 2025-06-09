@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the LocalUserActivity Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/security/localuseractivityanalysis.png)
+![Analysis Tasks for the LocalUserActivity Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/security/localuseractivityanalysis.png)
 
 - 1. Local User Activity Details – Creates the SA\_FS\_LocalUserActivity\_Details table accessible under the job’s Results node
 - 2. Top Local User Accounts – Creates the SA\_FS\_LocalUserActivity\_TopUsers table accessible under the job’s Results node

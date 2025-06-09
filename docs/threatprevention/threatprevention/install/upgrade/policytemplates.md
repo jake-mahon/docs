@@ -2,7 +2,7 @@
 
 When new or updated policy templates are available with a Threat Prevention upgrade, they are not automatically imported when you install the latest version. The Import feature can be used to update templates and import new templates.
 
-_Remember,_ use these steps when the Templates Update window option was selected as __No__ during the [Upgrade Procedure](/docs/product_docs/threatprevention/threatprevention/install/upgrade/overview.md) process.
+_Remember,_ use these steps when the Templates Update window option was selected as __No__ during the [Upgrade Procedure](/docs/threatprevention/threatprevention/install/upgrade/overview.md) process.
 
 Follow the steps to upgrade policy templates and import new templates.
 

@@ -2,7 +2,7 @@
 
 The information in this section applies to Select Account Type > Task (Local) or Task (Domain) in the User Credentials window.
 
-| ![User Credentials - Task (Local)](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/tasklocal.png) | ![User Credentials - Task (Domain)](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/taskdomain.png) |
+| ![User Credentials - Task (Local)](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/tasklocal.png) | ![User Credentials - Task (Domain)](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/taskdomain.png) |
 | --- | --- |
 | _Task (Local)_ | _Task (Domain)_ |
 

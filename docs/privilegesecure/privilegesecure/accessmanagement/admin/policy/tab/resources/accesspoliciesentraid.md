@@ -2,7 +2,7 @@
 
 The Access Policies tab Sessions Tab for Microsoft Entra ID shows information about the policies associated with the selected resource.
 
-![Access Policies Tab Azure AD](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspoliciesazuread.png)
+![Access Policies Tab Azure AD](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspoliciesazuread.png)
 
 The Access Policies tab has the following features:
 
@@ -11,7 +11,7 @@ The Access Policies tab has the following features:
 
 The table has the following columns:
 
-- Name — Displays the name of the policy. See the [Access Policy Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
+- Name — Displays the name of the policy. See the [Access Policy Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
 - Description — Description of the policy
 
 The table columns can be resized and sorted in ascending or descending order.

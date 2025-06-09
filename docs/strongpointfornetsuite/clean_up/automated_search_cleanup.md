@@ -2,7 +2,7 @@
 
 The Automated Search Clean Up feature runs as scheduled, or on demand, using custom rules to find and manage Saved Searches. Accumulated searches contribute to inefficiency in NetSuite accounts.
 
-Review the [Automated Search Clean Up Considerations](/docs/product_docs/strongpointfornetsuite/clean_up/automated_search_cleanup_considerations.md) prior to using this feature.
+Review the [Automated Search Clean Up Considerations](/docs/strongpointfornetsuite/clean_up/automated_search_cleanup_considerations.md) prior to using this feature.
 
 Saved Searches are powerful customizations used throughout NetSuite and interconnected to other customizations. As user-created Saved Searches proliferate, NetSuite accounts become inefficient and overall performance degrades. This rules-based tool provides administrators the ability to identify and archive Saved Searches and keep NetSuite accounts organized, easy to understand, and improve efficiency and performance. Archived searches can be restored with [limitations](#limitations).
 
@@ -36,7 +36,7 @@ Search Clean Up rules are created by the administrator and used to locate Saved 
 
 To create or edit rules, access __Strongpoint__> __Automated Search Clean Up__ > __Search Clean Up Rules__
 
-![autocleanup](/static/img/product_docs/strongpointfornetsuite/clean_up/autocleanup.png)
+![autocleanup](/img/product_docs/strongpointfornetsuite/clean_up/autocleanup.png)
 
 - __Name__ is the assigned name for the __Search Clean Up Rule Record__.
 - __Rule Owner(s)__ is the administrator or owners for the rule record.
@@ -53,7 +53,7 @@ __Schedule__
 
 This section is available when __Automatic__ is checked.
 
-![autocleanupscheduler](/static/img/product_docs/strongpointfornetsuite/clean_up/autocleanupscheduler.png)
+![autocleanupscheduler](/img/product_docs/strongpointfornetsuite/clean_up/autocleanupscheduler.png)
 
 - __Weekly Event__: check and enter the __Repeat__ frequency to schedule clean up weekly.
 - __Monthly Event__: check and enter the __Repeat__ frequency to schedule clean up monthly.
@@ -99,7 +99,7 @@ The __Preview__ function provides a quick method to mark Saved Searches to be re
 4. Click __Confirm__.
 5. After previewing, you can click __Automatic__ on the Search Clean Up Rule to include the rule for automatic searches.
 
-![cleanup_preview](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_preview.png)
+![cleanup_preview](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_preview.png)
 
 ### Run Now
 
@@ -136,7 +136,7 @@ __Automated Search Clean Up__ runs continuously comparing searches to all rules 
    - Archive notifications are sent to rule owner and all search owners/users.
    - Search is added to administrator's Archived Searches list.
 
-![cleanup_tab](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_tab.png)
+![cleanup_tab](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_tab.png)
 
 ## Search Clean Up Status
 
@@ -151,31 +151,31 @@ Open __Strongpoint__> __Search Auto Clean Up__ > __Search Clean Up Status__ to v
   __Completed__ - all identified searches have been archived, and email sent to rule owner and administrator.  
   __Canceled__ - __[Automatic](#Automatic)__ checkbox was turned off for the rule.
 
-![cleanup_status](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_status.png)
+![cleanup_status](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_status.png)
 
 Click __Notification Tracker__ on the __Notifications__ tab to launch the tracker.
 
-![cleanup_notifications_tab](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notifications_tab.png)
+![cleanup_notifications_tab](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notifications_tab.png)
 
 ### Notification Tracker
 
 Accesses all of the communications and history for search clean ups. You can list all notifications sent by rule or by the job. Provides traceability between the clean up rules, clean up jobs, and email notifications.
 
-![cleanup_notification_tracker](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notification_tracker.png)
+![cleanup_notification_tracker](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notification_tracker.png)
 
 ## Retaining a Search
 
 Notification emails contain a link to __Retain this search__ for each listed search or __Retain All__ to keep all of them. Use the __Preview__ link to view each Search.
 
-![cleanup_warning](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_warning.png)
+![cleanup_warning](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_warning.png)
 
 __Retain this search__ prevents archiving an individual search. The __Retain Search__ form is displayed so you can add the __Reason for Retaining__ the search. Click __Save and Exit__ when complete.
 
-![Provide a reason to retain an individual search](/static/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_search.png)
+![Provide a reason to retain an individual search](/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_search.png)
 
 __Retain All__ opens a page where you can provide the __Reason__ to retain each search. Check the Apply box for each search. When finished, click __Retain Search__.
 
-![Retain All dialog to provide retention Reason](/static/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_all.png)
+![Retain All dialog to provide retention Reason](/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_all.png)
 
 The Retain process:
 
@@ -201,7 +201,7 @@ A NetSuite Administrator can restore an auto archived search with some [limitati
 - Updates the __Date Last Used, Retained/Restored__ to the current date.
 - Adds the search to the __Automated Search Clean Up__ > __Retained Searches__ list.
 
-![cleanup_restore](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_restore.png)
+![cleanup_restore](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_restore.png)
 
 ### Limitations to Restoring Auto Archived Searches
 
@@ -223,4 +223,4 @@ Items from the following tabs on the Search form are not retained when an auto a
 - Email
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains entries for the new Internal ID.
 
-![Search form](/static/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.png)
+![Search form](/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.png)

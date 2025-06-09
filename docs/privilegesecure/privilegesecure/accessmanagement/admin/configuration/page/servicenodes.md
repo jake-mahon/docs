@@ -2,7 +2,7 @@
 
 On the Service Nodes page, configure the services for each installed service node.
 
-![Service Nodes Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicenodespage.png)
+![Service Nodes Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicenodespage.png)
 
 The left of the page lists the Service Nodes and the services running on them:
 
@@ -17,8 +17,8 @@ The left of the page lists the Service Nodes and the services running on them:
 
 The right of the page shows details of the selected service:
 
-- [Action Service](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md#Action-Service)
-- [Email Service](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/email.md#Email-Service)
-- [Proxy Service](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/proxy.md#Proxy-Service)
-- [Scheduler Service](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/scheduler.md#Scheduler-Service)
-- [SIEM Service](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/siem.md)
+- [Action Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md#Action-Service)
+- [Email Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/email.md#Email-Service)
+- [Proxy Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/proxy.md#Proxy-Service)
+- [Scheduler Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/scheduler.md#Scheduler-Service)
+- [SIEM Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/siem.md)

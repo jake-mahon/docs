@@ -2,15 +2,15 @@
 
 The 0.Collection Job Group, located at __Databases__ > __0.Collection__ > __AzureSQL__ collects high–level summary information from targeted Azure SQL Instances. This information is used by other jobs in the Azure SQL solution further analysis and for producing respective reports.
 
-![0.Collection Job Group - Azure SQL](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/collectionjobmenu.png)
+![0.Collection Job Group - Azure SQL](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/collectionjobmenu.png)
 
 The jobs in 0.Collection Jobs Group are:
 
 - 0-AzureSQL\_InstanceDiscovery Job — Enumerates a list of Azure SQL Server Instances from target endpoints and populates the necessary instance connection information which is used throughout the solution set
-- [1-AzureSQL\_PermissionScan Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1-azuresql_permissionscan.md) — Collects Azure SQL database level permissions from all targeted Azure SQL database servers
-- [2-AzureSQL\_SensitiveDataScan Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/2-azuresql_sensitivedatascan.md) — Discovers sensitive data in Azure SQL databases across all targeted Azure SQL database servers based on pre-defined or user-defined search criteria
-- [3-AzureSQL\_ActivityScan Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/3-azuresql_activityscan.md) — Captures user activity from all targeted Azure SQL instances and databases
-- [4-AzureSQL\_ServerSettings Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/4-azuresql_serversettings.md) — Collects Azure SQL instances and database configuration settings to evaluate them against recommended best practices
+- [1-AzureSQL\_PermissionScan Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1-azuresql_permissionscan.md) — Collects Azure SQL database level permissions from all targeted Azure SQL database servers
+- [2-AzureSQL\_SensitiveDataScan Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/2-azuresql_sensitivedatascan.md) — Discovers sensitive data in Azure SQL databases across all targeted Azure SQL database servers based on pre-defined or user-defined search criteria
+- [3-AzureSQL\_ActivityScan Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/3-azuresql_activityscan.md) — Captures user activity from all targeted Azure SQL instances and databases
+- [4-AzureSQL\_ServerSettings Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/4-azuresql_serversettings.md) — Collects Azure SQL instances and database configuration settings to evaluate them against recommended best practices
 
 Workflow
 

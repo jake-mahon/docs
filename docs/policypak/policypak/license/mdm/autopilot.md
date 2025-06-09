@@ -7,4 +7,4 @@ You can see this string by investigating ```hklm\system\currentcontrolset\contro
 
 An example, taken from [FooUser@ meets the Cosmic Autopilot@ user](https://call4cloud.nl/foouser-autopilot-preprovisoning-fake-user/), can be seen here.
 
-![1336_1_f6195331f68904f96c183fe8a7dfdd29](/static/img/product_docs/policypak/policypak/license/mdm/1336_1_f6195331f68904f96c183fe8a7dfdd29.png)
+![1336_1_f6195331f68904f96c183fe8a7dfdd29](/img/product_docs/policypak/policypak/license/mdm/1336_1_f6195331f68904f96c183fe8a7dfdd29.png)

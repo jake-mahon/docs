@@ -33,17 +33,17 @@ The __Ownership__ > __Collection__ job group needs to be set to run against the 
 
 Connection Profile
 
-A Connection Profile must be set directly on the collection jobs. See the [Exchange PowerShell Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for credential requirements and assign the Connection Profile to the following jobs:
+A Connection Profile must be set directly on the collection jobs. See the [Exchange PowerShell Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for credential requirements and assign the Connection Profile to the following jobs:
 
 - __Content__ > __Collection__ > __PF\_ContentScans__ Job
 - __Growth and Size__ > __Collection__ > __PF\_FolderScans__ Job
 - __Permissions__ > __Collection__ > __PF\_EntitlementScans__ Job
 
-See the [MAPI-Based Data Collector Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for credential requirements and assign the Connection Profile to the following job:
+See the [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for credential requirements and assign the Connection Profile to the following job:
 
 - __Ownership__ > __Collection__ > __PF\_FolderOwnership__ Job
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

@@ -16,18 +16,18 @@ Core Component
 
 See the following topics for server requirements:
 
-- [Application Server Requirements](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/server.md)
-- [SQL Server Requirements](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/sqlserver.md)
-- [RSAT Extension Requirements](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/rsatextension.md)
+- [Application Server Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/server.md)
+- [SQL Server Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/sqlserver.md)
+- [RSAT Extension Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/rsatextension.md)
 
 Target Domain Considerations
 
-The target domains include the Active Directory domains that can be added through the [Domains Page](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md). See the following topic for target domain considerations:
+The target domains include the Active Directory domains that can be added through the [Domains Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md). See the following topic for target domain considerations:
 
-- [Target Domains](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md)
+- [Target Domains](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md)
 
 Target Server Considerations
 
 Target servers include the servers and environments where you want to restore a domain controller or an entire forest. See the following topic for target server requirements:
 
-- [Target Server Considerations](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md)
+- [Target Server Considerations](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md)

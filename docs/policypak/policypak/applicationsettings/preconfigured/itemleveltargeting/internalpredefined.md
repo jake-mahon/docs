@@ -16,8 +16,8 @@ When %ProgramFiles%TechSmithSnagit 11SnagitEditor.exe FILE VERSION is between 11
 
 Way 2: Use the DesignStudio to open up a Pak and look. You can see an example of where Internal Item Level Targeting is within the DesignStudio in this example:
 
-![257_1_pp-internal-ilt-in-design-studio](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/itemleveltargeting/257_1_pp-internal-ilt-in-design-studio.png)
+![257_1_pp-internal-ilt-in-design-studio](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/itemleveltargeting/257_1_pp-internal-ilt-in-design-studio.png)
 
 Way 3: When you use MMC 603 or later, and make a Pak entry into a GPO, you'll see the column labeled "Predefined Targeting." If it says On or Off, then the Pak itself has Pre-defined Targeting. If the Column shows N/A, the Pak doesn't. You can see two entries without Internal ILT, and one entry that does in this example:
 
-![257_2_pp-predefined-targeting](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/itemleveltargeting/368_1_pp-predefined-targeting.png)
+![257_2_pp-predefined-targeting](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/itemleveltargeting/368_1_pp-predefined-targeting.png)

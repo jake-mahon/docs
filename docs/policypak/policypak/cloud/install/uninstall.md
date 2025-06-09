@@ -4,4 +4,4 @@ When the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud client is ma
 
 - All acquired licenses from Endpoint Policy Manager Cloud are returned to the pool (if the computer can make contact with Endpoint Policy Manager Cloud).
 - All XML data files that are in the Cloud folder are removed.
-- Any Endpoint Policy Manager component will become unlicensed. Different licenses have different behaviors when they become unlicensed. Check the KB article here for more information: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/product_docs/policypak/policypak/license/unlicense/components.md).
+- Any Endpoint Policy Manager component will become unlicensed. Different licenses have different behaviors when they become unlicensed. Check the KB article here for more information: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/policypak/policypak/license/unlicense/components.md).

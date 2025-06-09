@@ -2,9 +2,9 @@
 
 The Schedule node contains objects referred to as Schedule Service Accounts. A Schedule Service Account is used to run scheduled tasks on the Access Analyzer Console server.
 
-![Schedule node](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
+![Schedule node](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
 
-Jobs can be executed manually as desired or scheduled to execute at designated times. For example, you could schedule a job to run during hours when the office is closed and network traffic is low. Windows uses the Schedule Service Account to access the task folders when launching scheduled tasks. Schedule Service Accounts are configured at the global level, and this account can be used to schedule jobs in the Schedule Wizard. See the [Schedules](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/schedule/overview.md) topic for additional information.
+Jobs can be executed manually as desired or scheduled to execute at designated times. For example, you could schedule a job to run during hours when the office is closed and network traffic is low. Windows uses the Schedule Service Account to access the task folders when launching scheduled tasks. Schedule Service Accounts are configured at the global level, and this account can be used to schedule jobs in the Schedule Wizard. See the [Schedules](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/schedule/overview.md) topic for additional information.
 
 __CAUTION:__ On Windows 2016 servers, the Schedule Service Account cannot be signed into an active session when the time comes for a scheduled task to start. Windows blocks the starting or running of scheduled tasks using an account that is logged into the server.
 
@@ -12,7 +12,7 @@ Password Storage Options
 
 The password for the credential provided can be stored in the Access Analyzer application or the Access Analyzer Vault.
 
-Choosing between the Access Analyzer application and Access Analyzer Vault is a global setting configured in the __Settings__ > __Application__ node. See the [Application](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.
+Choosing between the Access Analyzer application and Access Analyzer Vault is a global setting configured in the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.
 
 Permissions
 
@@ -31,18 +31,18 @@ Regardless of the account type, any account used to schedule tasks must have cre
   - Create Folders/Append Data
   - Write Attributes
   - Write Extended Attributes
-- To configure Least Privilege Model Schedule Service Accounts when Role Based Access is enabled, see the [Role Based Access](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information
-- If using Windows authentication for the Storage Profile, the Schedule Service Account must have a sufficient level of rights to connect to and interact with the Access Analyzer database. See the [Storage](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/storage/overview.md) topic for additional information.
+- To configure Least Privilege Model Schedule Service Accounts when Role Based Access is enabled, see the [Role Based Access](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information
+- If using Windows authentication for the Storage Profile, the Schedule Service Account must have a sufficient level of rights to connect to and interact with the Access Analyzer database. See the [Storage](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/storage/overview.md) topic for additional information.
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Schedule view. These buttons become enabled when modifications are made to the Schedule global settings. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
 
-The Access Analyzer vault provides enhanced security through enhanced encryption to various credentials stored by the Access Analyzer application. See the [Vault](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/vault.md) topic for additional information.
+The Access Analyzer vault provides enhanced security through enhanced encryption to various credentials stored by the Access Analyzer application. See the [Vault](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/vault.md) topic for additional information.
 
 ## Schedule Service Account Types
 
 There are two types of accounts that can be used to configure the Schedule Service Account.
 
-![serviceaccounttypes](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/serviceaccounttypes.png)
+![serviceaccounttypes](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/serviceaccounttypes.png)
 
 Use one of the following options for the Schedule Service Account:
 
@@ -63,11 +63,11 @@ Follow the steps to create a Schedule Service Account.
 
 _Remember,_  the Schedule Service Account cannot be signed into an active session on the Access Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016 operating system.
 
-![Add User credential option in the Schedule view](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/addusercredential.png)
+![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/addusercredential.png)
 
 __Step 1 –__ Click __Add User credential__ at the top of the Schedule view. The User Credentials window opens.
 
-![User Credentials window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/usercredentialswindow.png)
+![User Credentials window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/usercredentialswindow.png)
 
 __Step 2 –__ The window options change according to the value for the __Selected Account Type__ field. Select the appropriate account type and then provide the required information. The account types are:
 
@@ -78,7 +78,7 @@ __Step 2 –__ The window options change according to the value for the __Select
   - Password Storage – Choose the option for credential password storage:
 
     - Application – Uses Access Analyzer’s configured Profile Security setting as selected at the __Settings__ > __Application__ node
-    - Managed Service Account – Use previously configured MSA and gMSAs for authentication. The password fields are not applicable when this option is selected. See the [Group Managed Service Accounts (gMSA) Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/gmsa.md) topic for additional information.
+    - Managed Service Account – Use previously configured MSA and gMSAs for authentication. The password fields are not applicable when this option is selected. See the [Group Managed Service Accounts (gMSA) Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/gmsa.md) topic for additional information.
   - Password – Type the password
   - Confirm – Re-type the password
 - Local Account – Use this option to specify a local account for the Access Analyzer Console server
@@ -94,22 +94,22 @@ __Step 3 –__ Click __OK__ and the credentials are verified. If there are no pr
 
 - Passwords Do Not Match Error
 
-  ![Passwords Do Not Match Error](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/passwordsdontmatch.png)
+  ![Passwords Do Not Match Error](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/passwordsdontmatch.png)
 
   - This error indicates the two password entries do not match. Click __OK__ and reenter the passwords.
 - Bad User Name or Password Error
 
-  ![Bad User Name or Password Error](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/incorrectlogondetails.png)
+  ![Bad User Name or Password Error](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/incorrectlogondetails.png)
 
   - This error indicates either the user account does not exist or the username and password do not match. Click __OK__ and reenter the information.
 - Insufficient Rights Error
 
-  ![Insufficient Rights Error](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/insufficientrights.png)
+  ![Insufficient Rights Error](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/insufficientrights.png)
 
   - This error indicates the account supplied does not have sufficient rights to create and run scheduled tasks. Click __OK__ and provide credentials with sufficient rights.
 - GPO Network Security Error
 
-  ![GPO Network Security Error](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/gponetworksecurity.png)
+  ![GPO Network Security Error](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/gponetworksecurity.png)
 
   - This error indicates that the GPO Network Security settings are configured to not allow storage of passwords and credentials for network authentication. Click OK. Disable the domain’s GPO Network Security settings or exempt the Access Analyzer Server from GPO.
   - This error will also appear when trying to schedule a task using the domain’s Schedule Service Account where GPO Network Security is set to not allow storage of passwords and credentials for network authentication
@@ -124,7 +124,7 @@ Follow the steps to edit a Schedule Service Account credentials.
 
 _Remember,_  the Schedule Service Account cannot be signed into an active session on the Access Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016 operating system.
 
-![Edit option in the Schedule view](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/edit.png)
+![Edit option in the Schedule view](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/edit.png)
 
 __Step 1 –__ Select a credential from the User Credentials list and click on __Edit__. The User Credentials window opens.
 
@@ -138,11 +138,11 @@ Access Analyzer can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to delete a Schedule Service Account.
 
-![Delete option in the Schedule view](/static/img/product_docs/strongpointfornetsuite/integrations/delete.png)
+![Delete option in the Schedule view](/img/product_docs/strongpointfornetsuite/integrations/delete.png)
 
 __Step 1 –__ Select the credential from the User Credentials list and click __Delete__. The Delete Credentials confirmation window appears.
 
-![Delete Credentials confirmation window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/deletecredentials.png)
+![Delete Credentials confirmation window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/deletecredentials.png)
 
 __Step 2 –__ Click __OK__ to confirm the deletion or __Cancel__ to exit the deletion process.
 

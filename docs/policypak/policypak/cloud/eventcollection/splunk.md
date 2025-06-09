@@ -27,9 +27,9 @@ go to __Company details__ > __Event Forwarder
 List__ > __Add Event Forwarder__
 .
 
-![976_1_1](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_1_1.png)
+![976_1_1](/img/product_docs/policypak/policypak/cloud/eventcollection/976_1_1.png)
 
-![976_3_3](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_3_3.png)
+![976_3_3](/img/product_docs/policypak/policypak/cloud/eventcollection/976_3_3.png)
 
 __Step 3 –__ 
 Configure and save the new __Event Forwarder__. Please be aware that you must be a
@@ -43,7 +43,7 @@ __Step 4 –__ Check the forwarding events state in the Collected Events report.
 
 __Step 5 –__ InEndpoint Policy Manager Cloud confirm that events are forwarded as expected.
 
-![976_2_2](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_2_2.png)
+![976_2_2](/img/product_docs/policypak/policypak/cloud/eventcollection/976_2_2.png)
 
 __Step 6 –__ 
 In Endpoint Policy Manager Cloud, go to __Report__ > __Computers (Collected Events)__ > __Show
@@ -58,14 +58,14 @@ password.
 __Step 9 –__  Click __Search & Reporting__ enter
 index=__history__ filter, then click the __Search__ icon.
 
-![976_4_4](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_4_4.png)
+![976_4_4](/img/product_docs/policypak/policypak/cloud/eventcollection/976_4_4.png)
 
 __Step 10 –__ Click __Datasets__.
 
-![976_5_5](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_5_5.png)
+![976_5_5](/img/product_docs/policypak/policypak/cloud/eventcollection/976_5_5.png)
 
 __Step 11 –__  Click __raw\_data__.
 
-![976_6_6](/static/img/product_docs/policypak/policypak/cloud/eventcollection/976_6_6.png)
+![976_6_6](/img/product_docs/policypak/policypak/cloud/eventcollection/976_6_6.png)
 
 __Step 12 –__ View the event data

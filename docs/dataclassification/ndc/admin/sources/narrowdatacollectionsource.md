@@ -10,8 +10,8 @@ This functionality is currently supported for the following source types:
 
 See next:
 
-[Exchange Mailbox](/docs/product_docs/dataclassification/ndc/admin/sources/database/exchangemailbox.md)
+[Exchange Mailbox](/docs/dataclassification/ndc/admin/sources/database/exchangemailbox.md)
 
-[Manage File System](/docs/product_docs/dataclassification/ndc/admin/sources/filesystem/managefilesystem.md)
+[Manage File System](/docs/dataclassification/ndc/admin/sources/filesystem/managefilesystem.md)
 
-[ Google Drive](/docs/product_docs/dataclassification/ndc/admin/sources/googledrive/managegoogledrive.md)
+[ Google Drive](/docs/dataclassification/ndc/admin/sources/googledrive/managegoogledrive.md)

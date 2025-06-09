@@ -2,11 +2,11 @@
 
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and select report specific settings for emailing the report.
 
-![Report Configuration wizard E-mail page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/email.png)
+![Report Configuration wizard E-mail page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/email.png)
 
-The default setting for new and included reports is __Use default setting__, which keeps the inheritance from the global, job group, or job settings (see the [Email Report Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/reporting.md#Email-Report-Options), [Reporting Node](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/reporting.md), and [Report Settings Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topics for additional information). If you want to keep the default, then you can skip this page of the wizard by clicking __Next__.
+The default setting for new and included reports is __Use default setting__, which keeps the inheritance from the global, job group, or job settings (see the [Email Report Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/reporting.md#Email-Report-Options), [Reporting Node](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/reporting.md), and [Report Settings Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topics for additional information). If you want to keep the default, then you can skip this page of the wizard by clicking __Next__.
 
-__NOTE:__ In order for reports to be emailed, the SMTP server information must be configured in the __Settings__ > __Notification__ node. See the [Notification](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
+__NOTE:__ In order for reports to be emailed, the SMTP server information must be configured in the __Settings__ > __Notification__ node. See the [Notification](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
 
 To configure the setting for the report, use the Settings drop-down menu to select one of the following options:
 
@@ -14,7 +14,7 @@ To configure the setting for the report, use the Settings drop-down menu to sele
 - Email this report – Select this option if you want to email the report and the inherited setting is __Do not email this report__, or if you want to configure specific email settings for the report. If it is selected, you must then configure the additional fields below.
 - Do not email this report – Select this option to not email the report
 
-![Settings configured to email the report](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/emailconfigured.png)
+![Settings configured to email the report](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/emailconfigured.png)
 
 If the __Email this report__ setting is selected, then the following fields are enabled for you to configure:
 

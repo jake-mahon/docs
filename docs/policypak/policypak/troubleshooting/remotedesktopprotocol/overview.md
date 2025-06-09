@@ -14,6 +14,6 @@ There are also several files to check in the User folder:
 
 Start troubleshooting by verifying the licensing, GPO name, and collection or policy name, as shown in Figure 18.
 
-![troubleshooting](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.png)
+![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.png)
 
 Figure 18. The ppuser log file.

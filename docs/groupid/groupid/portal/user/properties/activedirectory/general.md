@@ -72,7 +72,7 @@ Exchange Assistant
 
 The name of the Exchange assistant for the mailbox/contact. Any email sent to the mailbox/contact is also forwarded to this assistant.
 
-Enter a search string to locate the object to add as an Exchange assistant, or click __Browse__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+Enter a search string to locate the object to add as an Exchange assistant, or click __Browse__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
 This field is not available for a user.
 

@@ -58,10 +58,10 @@ The following information is displayed for a file server in the __Included File 
   - If you have designated a different account for this purpose, the username of the account is displayed here. See the [Connect to a File Server Using a Different Account](#Connect-to-a-File-Server-Using-a-Different-Account) topic.
 - __RC Status__: Displays the replication status for the server with respect to the replication performed by the GroupID Entitlement schedule. Different statuses are:
 
-  - __Request ![rc_request](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.png):__ permission data for the file server has never been replicated to Elasticsearch.
-  - __Success ![rc_success](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.png):__ permission data for the file server was successfully replicated when the GroupID Entitlement schedule last ran.
-  - __Fail ![rc_fail](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.png):__ replication failed for the server due to an error.
-  - __Running ![rc_running](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.png):__ the GroupID Entitlement schedule is running and replication is in progress.
+  - __Request ![rc_request](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.png):__ permission data for the file server has never been replicated to Elasticsearch.
+  - __Success ![rc_success](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.png):__ permission data for the file server was successfully replicated when the GroupID Entitlement schedule last ran.
+  - __Fail ![rc_fail](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.png):__ replication failed for the server due to an error.
+  - __Running ![rc_running](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.png):__ the GroupID Entitlement schedule is running and replication is in progress.
 - __Last Replicated__: the date and time the GroupID Entitlement schedule last replicated entitlement data for the file server to Elasticsearch. _N/A_ is displayed when the
   file server has never been replicated.
 - __Status__: Click __Get Status__ to check the status of the file server, represented by the following colors:
@@ -125,7 +125,7 @@ __To specify a file server outside of criteria:__
 4. In the __Included File Servers__ area on the __Entitlement__ page, click the ellipsis button for a server and select __Edit__. On the __Edit Server__ dialog box:
 
    - The __Server Shares__ area displays the shared folders on the server.
-   - The name of the [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md) that computes the permissions on shared files and folders residing on the server and replicates them to Elasticsearch, is displayed
+   - The name of the [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md) that computes the permissions on shared files and folders residing on the server and replicates them to Elasticsearch, is displayed
      next to __Job__.
 
 ## Exclude a Folder on a Server from Replication
@@ -154,7 +154,7 @@ __To change the service account for a file server:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __Entitlement__ under __Settings__ in the left pane.
 4. In the __Included File Servers__ area on the __Entitlement__ page, click the ellipsis button for a server and select __Edit__.
-5. On the __Edit Server__ dialog box, you can change the service account used to connect to the server for reading and updating permissions. The [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md), [Entitlement Scope Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlementscope.md), and [Entitlement Temporary Permissions Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlementtemporarypermissions.md) run in the context of the account specified here.
+5. On the __Edit Server__ dialog box, you can change the service account used to connect to the server for reading and updating permissions. The [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md), [Entitlement Scope Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementscope.md), and [Entitlement Temporary Permissions Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementtemporarypermissions.md) run in the context of the account specified here.
 
    - The __Use Identity Store Service Account__ check box is selected by default, indicating that the service account specified for the identity store is used to connect to the server.
    - To change the account, clear the __Use Identity Store Service Account__ check box and specify the credentials of an account in the __User name__ and __Password__ boxes. This account must have elevated permissions to manage the effective NTFS permissions for the shared resources on the server.  
@@ -167,7 +167,7 @@ __To change the service account for a file server:__
 
 After adding a file server for entitlement management, it is essential to replicate object permissions from the file server to Elasticsearch.
 
-The [GroupID Entitlement Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to replicate the effective NTFS permission for the file servers. You can also run this schedule any time manually for a specific file
+The [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to replicate the effective NTFS permission for the file servers. You can also run this schedule any time manually for a specific file
 server or all file servers listed in the __Included File Servers__ section on the __Entitlement__ page.
 
 __To replicate permissions manually:__
@@ -180,7 +180,7 @@ __To replicate permissions manually:__
    - __To replicate permissions for a server:__Select a file server in the __Included File Servers__ area and click __Replicate__.
    - __To replicate permissions for multiple servers:__In the __Included File Servers__ area, select the check boxes for the servers you want to replicate. To replicate all servers, select the check box in the header row. This displays the following icons:
 
-     __![replicate_permissions](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)__
+     __![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)__
 
      Either click the __Replicate__ icon or the
      __Replicate__ button.
@@ -205,7 +205,7 @@ __To exclude a file server:__
 
      In the __Included File Servers__ area, select the check boxes for the servers you do not want to replicate. To exclude all servers, select the check box in the header row. This displays the following icons:
 
-     ![replicate_permissions](/static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+     ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
 
      Click __Remove__. The servers are moved to the __Excluded File Servers__ area.
 5. Click __Save__.
@@ -224,5 +224,5 @@ __To restore an excluded server:__
 
 See Also
 
-- [Entitlement](/docs/product_docs/groupid/groupid/admincenter/entitlement/overview.md)
-- [Manage SharePoint Sites](/docs/product_docs/groupid/groupid/admincenter/entitlement/entraid/manage.md)
+- [Entitlement](/docs/groupid/groupid/admincenter/entitlement/overview.md)
+- [Manage SharePoint Sites](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md)

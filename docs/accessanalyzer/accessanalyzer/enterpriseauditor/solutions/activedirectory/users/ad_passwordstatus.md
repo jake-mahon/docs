@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_PasswordStatus__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigure for this job.
 
-![Analysis Tasks for the AD_PasswordStatus Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/passwordstatusanalysis.png)
+![Analysis Tasks for the AD_PasswordStatus Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/passwordstatusanalysis.png)
 
 The default analysis tasks are:
 

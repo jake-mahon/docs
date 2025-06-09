@@ -23,7 +23,7 @@ NOTE: You can define a custom identity store for non-supported identity provider
 
 __See Also__
 
-- [Create an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/create.md)
-- [Manage an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/manage.md)
-- [Configure an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure.md)
-- [Link Identity Stores](/docs/product_docs/groupid/groupid/admincenter/identitystore/link/overview.md)
+- [Create an Identity Store](/docs/groupid/groupid/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/groupid/groupid/admincenter/identitystore/manage.md)
+- [Configure an Identity Store](/docs/groupid/groupid/admincenter/identitystore/configure.md)
+- [Link Identity Stores](/docs/groupid/groupid/admincenter/identitystore/link/overview.md)

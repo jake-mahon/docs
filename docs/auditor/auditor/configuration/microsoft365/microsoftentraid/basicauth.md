@@ -11,7 +11,7 @@ Further permission assignment will depend on the data you plan to collect:
 
 | To... | Requirement | Comment |
 | --- | --- | --- |
-| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations:   - Application Administrator & Privileged Role Administrator  OR - Cloud Application Administrator & Privileged Role Administrator  OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the and [Microsoft Entra ID](/docs/product_docs/auditor/auditor/configuration/microsoft365/microsoftentraid/overview.md) topics for additional information. |
+| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations:   - Application Administrator & Privileged Role Administrator  OR - Cloud Application Administrator & Privileged Role Administrator  OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the and [Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/overview.md) topics for additional information. |
 | Collect audit data, including _Successful Logons_ and/or _Failed Logons_ | - _Security Reader_ OR - _Security Administrator_ OR - _Application Administrator_ OR - _Cloud Application Administrator_ OR - _Global Administrator_ | To assign the non-privileged role, see |
 | Collect audit data (without logons) | Any of the following roles:   - _Security Reader_ OR - _Application Administrator_ OR - _Cloud Application Administrator_ OR - _Global Admin_ | Assign the role you need, as explained above. |
 

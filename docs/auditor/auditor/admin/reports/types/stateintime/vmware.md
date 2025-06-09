@@ -6,15 +6,15 @@ These are reports on the VMware vCenter state-in-time data, including account pe
 - [Detailed Account Permissions in vCenter](#Detailed-Account-Permissions-in-vCenter)
 - [Object Permissions in vCenter](#Object-Permissions-in-vCenter)
 
-To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
 
 ## Account Permissions in vCenter
 
 Shows vCenter objects that user or group has explicit or inherited permissions on (either granted directly or through group membership). Use this report to see who has permissions to what and prevent rights elevation.
 
-Supported object types and attributes are listed in the [VMware](/docs/product_docs/auditor/auditor/configuration/vmware/overview.md) topic.
+Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
 
 ### Filters
 
@@ -22,7 +22,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 - __Monitoring plan__ — name of the monitoring plan set to collect data from the AD domain you need.
 - Time zone — is set automatically.
-- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/product_docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
+- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Inherited — select whether to show inherited permissions or not.
 - Role – select the name of the VMware role you want to see in the report.
@@ -38,9 +38,9 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 Shows detailed list of privileges that the specified account has on the VMware objects. Use this report to prevent unnecessary privileges assigned to custom roles.
 
-Supported object types and attributes are listed in the [VMware](/docs/product_docs/auditor/auditor/configuration/vmware/overview.md) topic.
+Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
 
 ### Filters
 
@@ -48,7 +48,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 - __Monitoring plan__ — name of the monitoring plan set to collect data from the AD domain you need.
 - Time zone — is set automatically.
-- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/product_docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
+- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Role – select the name of the VMware role you want to see in the report.
 - Object path — path to the monitored object, as formatted by Netwrix Auditor in the activity records.
@@ -59,9 +59,9 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 Shows accounts with explicit or inherited permissions on a specific object in your vCenter (either granted directly or through group membership). Use this report to see who has permissions to what and prevent rights elevation.
 
-Supported object types and attributes are listed in the [VMware](/docs/product_docs/auditor/auditor/configuration/vmware/overview.md) topic.
+Supported object types and attributes are listed in the [VMware](/docs/auditor/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
 
 ### Filters
 
@@ -69,7 +69,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 - __Monitoring plan__ — name of the monitoring plan set to collect data from the AD domain you need.
 - Time zone — is set automatically.
-- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/product_docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
+- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [VMware](/docs/auditor/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Role – select the name of the VMware role you want to see in the report.
 - __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records .

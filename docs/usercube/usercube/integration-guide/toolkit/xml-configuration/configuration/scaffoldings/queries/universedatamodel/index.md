@@ -39,9 +39,9 @@ The following example generates a universe ```U8_Users``` based on the entity ty
 
 ```
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (ExcludedProperty)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.png)
+![Universe (ExcludedProperty)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.png)
 
 ### Root Instance
 
@@ -59,11 +59,11 @@ The following example generates a universe ```U2_UserRecords``` based on the ent
 
 ```
 
-![Universe (RootInstance)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.png)
+![Universe (RootInstance)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.png)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (RootInstance)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.png)
+![Universe (RootInstance)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.png)
 
 #### RootInstance for several scaffoldings together
 
@@ -77,11 +77,11 @@ __The following example__ generates a universe ```U3_UserRecords``` based on the
 
 ```
 
-![Universe Schema (Several Scaffoldings with Data Duplication)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplicationschema.png)
+![Universe Schema (Several Scaffoldings with Data Duplication)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplicationschema.png)
 
-When getting Identity Manager [data in Power BI](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager [data in Power BI](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Several Scaffoldings with Data Duplication)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplication.png)
+![Universe (Several Scaffoldings with Data Duplication)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplication.png)
 
 We see that ```Directory_User_Records``` and ```Directory_UserRecords``` represent the same entity instances.
 
@@ -95,11 +95,11 @@ __The following example__ generates a better version of the universe ```U3_UserR
 
 ```
 
-![Universe (Several Scaffoldings without Data Duplication)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplicationschema.png)
+![Universe (Several Scaffoldings without Data Duplication)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplicationschema.png)
 
-When getting Identity Managerdata in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Managerdata in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Several Scaffoldings without Data Duplication)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplication.png)
+![Universe (Several Scaffoldings without Data Duplication)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplication.png)
 
 Thus we removed the duplicated data, and we understand easily the navigations of the model.
 
@@ -147,11 +147,11 @@ It generates:
 
 ```
 
-![Universe (No Template)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplateschema.png)
+![Universe (No Template)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplateschema.png)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (No Template)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplate.png)
+![Universe (No Template)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplate.png)
 
 We see here identifiers instead of display names due to ```ColumnNamesMode``` set to identifiers.
 
@@ -187,11 +187,11 @@ It generates:
 
 ```
 
-![Universe (Template Schema: Owned Resource Types)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypesschema.png)
+![Universe (Template Schema: Owned Resource Types)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypesschema.png)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Template: Owned Resource Types)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypes.png)
+![Universe (Template: Owned Resource Types)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypes.png)
 
 #### ResourceResourceTypes
 
@@ -207,11 +207,11 @@ The following example generates a universe ```U5_AD``` based on the entity type 
 
 The configuration generated by this snippet is similar to the one for ```OwnedResourceTypes```.
 
-![Universe (Template Schema: Resource Resource Types)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypesschema.png)
+![Universe (Template Schema: Resource Resource Types)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypesschema.png)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Template: Resource Resource Types)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypes.png)
+![Universe (Template: Resource Resource Types)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypes.png)
 
 #### Owned Single Roles
 
@@ -242,11 +242,11 @@ It generates:
 
 ```
 
-![Universe (Template Schema: Owned Single Roles)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsinglerolesschema.png)
+![Universe (Template Schema: Owned Single Roles)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsinglerolesschema.png)
 
-When getting Identity Managerdata in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Managerdata in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Template: Owned Single Roles)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsingleroles.png)
+![Universe (Template: Owned Single Roles)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsingleroles.png)
 
 #### Owned Composite Roles
 
@@ -262,15 +262,15 @@ The following example generates a universe ```U7_User``` based on the entity typ
 
 The configuration generated by this snippet is similar to the one for ```OwnedSingleRoles```.
 
-![Universe (Template Schema: Owned Composite Roles)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositerolesschema.png)
+![Universe (Template Schema: Owned Composite Roles)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositerolesschema.png)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Template: Owned Composite Roles)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositeroles.png)
+![Universe (Template: Owned Composite Roles)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositeroles.png)
 
 ## Mixed Example
 
-Scaffoldings can be adjusted with [universe configuration](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/index.md).
+Scaffoldings can be adjusted with [universe configuration](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/index.md).
 
 The following example generates a universe ```U9_AccessControl``` aiming to create reports displaying users and their profiles. In our situation, profiles are assigned to AD accounts based on a given context. This is why we base our universe on the entity types ```AD_Entry```, ```AssignedProfile``` and ```ProfileContext```. Plus, there are 10 dimensions in contexts, but only dimensions 0 and 1 are used, so we exclude the others. We exclude also resource types and single roles that are of no use for us here.
 
@@ -280,6 +280,6 @@ The following example generates a universe ```U9_AccessControl``` aiming to crea
 
 ```
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Mixed Example)](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_mixedexample.png)
+![Universe (Mixed Example)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_mixedexample.png)

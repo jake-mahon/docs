@@ -2,13 +2,13 @@
 
 Endpoint Policy Manager Application Settings Manager has a facility to deploy registry keys to ```HKEY_Local_Machine```. This can come in handy if you are trying to manage an application that runs as a service and has entries only in ```HKEY_Local_Machine```. You set the project up as shown in Figure 213, then define the data root with a node within ```HKEY_Local_Machine```.
 
-![special_applications_and_project_13](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_13.png)
+![special_applications_and_project_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_13.png)
 
 Figure 213. Defining the data root as ```HKEY_Local_Machine```.
 
 However, when you do, you'll be prompted with a message suggesting that this might or might not work as shown in Figure 214.
 
-![special_applications_and_project_14](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_14.png)
+![special_applications_and_project_14](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_14.png)
 
 Figure 214. The warning when defining the data root as ```HKEY_Local_Machine```.
 

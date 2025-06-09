@@ -1,6 +1,6 @@
 # Installation
 
-Prior to installing Threat Manager, please ensure that all of the prerequisites have been met in accordance with the [Requirements](/docs/product_docs/threatmanager/threatmanager/requirements/overview.md) topic. Additionally, the monitoring agents need to be deployed through either Netwrix Threat Prevention or Netwrix Activity Monitor and configured to send data to Threat Manager.
+Prior to installing Threat Manager, please ensure that all of the prerequisites have been met in accordance with the [Requirements](/docs/threatmanager/threatmanager/requirements/overview.md) topic. Additionally, the monitoring agents need to be deployed through either Netwrix Threat Prevention or Netwrix Activity Monitor and configured to send data to Threat Manager.
 
 The Threat Manager installer is packaged with four executable files.
 
@@ -61,23 +61,23 @@ Antivirus software is also likely to dramatically slow down PostgreSQL's operati
 
 Follow the steps to install the Threat Manager application on a single server.
 
-![setuplauncher](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.png)
+![setuplauncher](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.png)
 
 __Step 1 –__ Right-click on ```Netwrix_Setup.exe``` and select Run as administrator. The Netwrix Setup launcher opens. You can now install the following components on the same server:
 
-- Click PostgreSQL Setup to install the database. See the [Install the PostgreSQL Database Application](/docs/product_docs/threatmanager/threatmanager/install/database.md) topic for additional information.
-- Run the Threat Manager Setup to install the application. See the [Install the Threat Manager Application](/docs/product_docs/threatmanager/threatmanager/install/application.md) topic for additional information.
+- Click PostgreSQL Setup to install the database. See the [Install the PostgreSQL Database Application](/docs/threatmanager/threatmanager/install/database.md) topic for additional information.
+- Run the Threat Manager Setup to install the application. See the [Install the Threat Manager Application](/docs/threatmanager/threatmanager/install/application.md) topic for additional information.
 
 __Step 2 –__ Complete all post-installation tasks that apply to your configured environment:
 
-- Optional: Install the Action Service on additional servers. See the [Optionally Install the Action Service on Additional Servers](/docs/product_docs/threatmanager/threatmanager/install/actionservice.md) topic for additional information.
+- Optional: Install the Action Service on additional servers. See the [Optionally Install the Action Service on Additional Servers](/docs/threatmanager/threatmanager/install/actionservice.md) topic for additional information.
 - Configure a remote Action Service to register with Threat Manager.
 - Configure a service account to run actions.
 
-__Step 3 –__ Log into the console for the first time. See the [First Launch](/docs/product_docs/threatmanager/threatmanager/install/firstlaunch.md) topic for additional information.
+__Step 3 –__ Log into the console for the first time. See the [First Launch](/docs/threatmanager/threatmanager/install/firstlaunch.md) topic for additional information.
 
 __Step 4 –__ Configure integration with one or more Netwrix products to feed the desired type of data into Threat Manager:
 
-- [Netwrix Activity Monitor Integration](/docs/product_docs/threatmanager/threatmanager/install/integration/activitymonitor.md) – Configure Netwrix Activity Monitor to send file system data and/or Active Directory data and/or Microsoft Entra ID data to Threat Manager
-- [Netwrix Threat Prevention Integration](/docs/product_docs/threatmanager/threatmanager/install/integration/threatprevention.md) – Configure Netwrix Threat Prevention to send Active Directory data to Threat Manager
-- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/product_docs/threatmanager/threatmanager/install/integration/enterpriseauditor.md) – Configure Netwrix Access Analyzer (formerly Enterprise Auditor) to send Sensitive Data to Threat Manager
+- [Netwrix Activity Monitor Integration](/docs/threatmanager/threatmanager/install/integration/activitymonitor.md) – Configure Netwrix Activity Monitor to send file system data and/or Active Directory data and/or Microsoft Entra ID data to Threat Manager
+- [Netwrix Threat Prevention Integration](/docs/threatmanager/threatmanager/install/integration/threatprevention.md) – Configure Netwrix Threat Prevention to send Active Directory data to Threat Manager
+- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/threatmanager/install/integration/enterpriseauditor.md) – Configure Netwrix Access Analyzer (formerly Enterprise Auditor) to send Sensitive Data to Threat Manager

@@ -2,9 +2,9 @@
 
 The Collection Manager window enables you to manage all Microsoft Collections. Click __Configuration__ > __Collections__ on the menu to launch it. This window is only available to Threat Prevention administrators.
 
-![Collection Manager Window](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/collectionmanager.png)
+![Collection Manager Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/collectionmanager.png)
 
-Collections are reusable lists of policy filter settings that help streamline the task of associating filters with event types on the Event Type tab during [Policy Configuration](/docs/product_docs/threatprevention/threatprevention/admin/policies/configuration.md) or [Template Configuration](/docs/product_docs/threatprevention/threatprevention/admin/templates/configuration.md). They are configured globally and can be used in multiple policies in place of or in conjunction with individual filters. These collections are empty until you populate them with your environment information. When a collection is modified, the modifications affect all policies referencing the collection. At least one Agent must be deployed to populate Collections.
+Collections are reusable lists of policy filter settings that help streamline the task of associating filters with event types on the Event Type tab during [Policy Configuration](/docs/threatprevention/threatprevention/admin/policies/configuration.md) or [Template Configuration](/docs/threatprevention/threatprevention/admin/templates/configuration.md). They are configured globally and can be used in multiple policies in place of or in conjunction with individual filters. These collections are empty until you populate them with your environment information. When a collection is modified, the modifications affect all policies referencing the collection. At least one Agent must be deployed to populate Collections.
 
 To use policy templates to create new policies, Collections must be configured. Several templates are configured using Collections as a policy filter. If the Collection is empty, then the policy does not monitor what it was designed to monitor.
 
@@ -25,7 +25,7 @@ Collections are organized into the following categories for Microsoft Collection
 - Hosts – Any computer (by NetBIOS, DNS, and IP address)
 - File Paths – List of file paths for Windows file systems to be used with multiple agents
 
-Select a collection category and click __Manage…__ i to open the [List of Collections Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md).
+Select a collection category and click __Manage…__ i to open the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md).
 
 ## Preconfigured Collections
 

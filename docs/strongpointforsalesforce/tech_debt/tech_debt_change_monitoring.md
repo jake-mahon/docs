@@ -26,13 +26,13 @@ Policies can also be used to block unauthorized changes.
 
 Netwrix recommends our default policy as a foundational best practice. In addition, consider [Specific Monitoring](#Specific-Monitoring) for anything needing special protection.
 
-![Strongpoint Default Policy](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_5.png)
+![Strongpoint Default Policy](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_5.png)
 
 Platform Governance for Salesforce documents __Unresolved Non-Compliant Changes__ in both a List View and a Report. Both show you all the changes that should have received approval and the level of change control required for the change. The List View enables you to quickly review and manage the resolution from a single screen through the __Short Resolution Description__ and __Status__ fields.
 
 If you are not fully leveraging Platform Governance for Salesforce in your change enablement process, you can restrict your review of changes by filtering out object types or risk levels that do not concern you. Alternatively, you can create different reports for different team members to prioritize what you see.
 
-![Unresolved Non-Compliant Changes Report](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_8.png)
+![Unresolved Non-Compliant Changes Report](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_8.png)
 
 ## Specific Monitoring
 
@@ -53,7 +53,7 @@ Sometimes the behavior of certain individuals in your system is essential to mon
 Create a List View or Report against one or both:
 
 - Customization records based on the __Last Modified By__ field
-- Change Logs filtered by the __Changed By__ field showing the Customization, the date of the change, the person making the change, the resolution explanation and status (requires _Intelligent Change Enablement_ or _Enterprise Compliance_ [license](/docs/product_docs/strongpointforsalesforce/installing_strongpoint/features_by_license_type.md)). Either approach can also be very useful to monitor new hires.
+- Change Logs filtered by the __Changed By__ field showing the Customization, the date of the change, the person making the change, the resolution explanation and status (requires _Intelligent Change Enablement_ or _Enterprise Compliance_ [license](/docs/strongpointforsalesforce/installing_strongpoint/features_by_license_type.md)). Either approach can also be very useful to monitor new hires.
 
 You can filter the Unresolved Non-Compliant Changes List View by the Changed By field. This has the advantage of showing you the Non-Compliant Changes and providing an easy workflow to resolve them.
 
@@ -75,11 +75,11 @@ To apply the policy to Customizations you are concerned about:
 3. Include the __Change / Approval Policy__ field as a List View column.
 4. Select one or more Customizations and select the __Change / Approval Policy__.
 
-   ![Applying the policy to Customizations](/static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_7.png)
+   ![Applying the policy to Customizations](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_7.png)
 
 ### Specific Changes
 
-Sometimes, you are more concerned about what is being changed than who is doing it. The Technical Debt topic [Ongoing Monitoring](/docs/product_docs/strongpointforsalesforce/tech_debt/tech_debt_org_ongoing_monitoring.md) has some specific examples for watching your org to spot problems before they happen.
+Sometimes, you are more concerned about what is being changed than who is doing it. The Technical Debt topic [Ongoing Monitoring](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_ongoing_monitoring.md) has some specific examples for watching your org to spot problems before they happen.
 
 ### Adding Custom Fields and Objects to the Policy
 
@@ -88,12 +88,12 @@ When you add sensitive objects to the Policy, you may also need to add the Custo
 1. Open __Customizations__.
 2. Search for __Customizations__ __CustomObject__.
 
-   ![Search for Customizations > CustomObject](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+   ![Search for Customizations > CustomObject](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
 3. Open the Customization to add to a policy.
 4. Click __Set Policy__.
 
-   ![Set Policy is used to add Customizations to a policy](/static/img/product_docs/strongpointforsalesforce/tech_debt/policy_set_button.png)
+   ![Set Policy is used to add Customizations to a policy](/img/product_docs/strongpointforsalesforce/tech_debt/policy_set_button.png)
 5. Select individual customizations or click the check box in the heading bar to select all.
 6. Click __Save__.
 
-__Next Technical Debt Topic:__ [Org Clean Up](/docs/product_docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up.md)
+__Next Technical Debt Topic:__ [Org Clean Up](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up.md)

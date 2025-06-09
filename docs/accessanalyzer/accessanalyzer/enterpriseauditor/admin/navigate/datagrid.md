@@ -2,7 +2,7 @@
 
 All data grids within the Access Analyzer Console have functions and features that allow Access Analyzer users to group by, filter, and sort via the filtration dialog through the data.
 
-![Search Methods - Data Grid](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.png)
+![Search Methods - Data Grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.png)
 
 The different grouping, filtering, and search methods in the Data Grid are:
 
@@ -17,7 +17,7 @@ The Show maximum [value] of total [value] rows, located in the upper-right hand 
 
 The right-click menu that affects data grid functionality is accessible by right-clicking on the data grid header row.
 
-![Data Grid Functionality](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality1.png)
+![Data Grid Functionality](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality1.png)
 
 The Data Grid Right-click menu contains the following selections:
 
@@ -39,11 +39,11 @@ Some data grids include right-click menus for actions on the data. See the corre
 
 The Customization window can be used to customize the data grid to only display specific columns.
 
-![Customization Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality2.png)
+![Customization Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality2.png)
 
 To open the Customization window, select Field Chooser from the column header right-click menu.
 
-![Customization Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality3.png)
+![Customization Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality3.png)
 
 Any column that has been removed from the data grid, either by dragging it off the screen or by dropping it into this window, will be listed here. A column not currently displayed can be returned to the data grid by dragging-and-dropping it from this window onto the header row.
 
@@ -51,15 +51,15 @@ Any column that has been removed from the data grid, either by dragging it off t
 
 The footer provides a data grid summation row. The summation capabilities exist for every column on the footer either for the entire data grid or by grouped sections of the data grid.
 
-![Footer Option](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality4.png)
+![Footer Option](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality4.png)
 
 To enable the footer, right-click in a column header and select Footer from the right-click menu.
 
-![Footer display](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality5.png)
+![Footer display](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality5.png)
 
 The footer appears as a gray bar at the bottom of the grid (or grid group). Right-click on the footer under the desired column. Only the options applicable to the desired column will be valid for selection.
 
-![Footer options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality6.png)
+![Footer options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality6.png)
 
 The different footer options are:
 
@@ -74,7 +74,7 @@ The different footer options are:
 
 The data grid can be sorted in alphanumeric order by clicking on a column header.
 
-![Sort Order](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality7.png)
+![Sort Order](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality7.png)
 
 An arrow displays on the column header indicating if the sort is increasing or decreasing. This feature only works on one column at a time.
 
@@ -82,19 +82,19 @@ An arrow displays on the column header indicating if the sort is increasing or d
 
 Users can interact and search through data grids in the Results Pane.
 
-| ![Default Group By View](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality8.png) | ![Organized by Column Header](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality9.png) |
+| ![Default Group By View](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality8.png) | ![Organized by Column Header](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality9.png) |
 | --- | --- |
 | Default view | Organized by Column Header |
 
 To use this feature, drag a column header into the “Drag a column header here to group by that column” area. The data grid groups according to the data within that column. The sub-header provides a ‘count’ of records within each group. Expand the group to view the data.
 
-![Expand Group View](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality10.png)
+![Expand Group View](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality10.png)
 
 Multiple columns can be dragged into the Group By area to form tiered groupings.
 
 __NOTE:__ Sorting by the FQDN column is an easy way to see if there are two entries for the same host.
 
-![Column Header](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality11.png)
+![Column Header](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality11.png)
 
 The data grid can also be grouped by dragging a column header beneath the other column headers either to the stationary section on the left or to the mobile section on the right. Each record counts as a single row for the total rows value, but displays in two rows with the second row dedicated for the moved column.
 
@@ -104,7 +104,7 @@ Drag the column header(s) back to the table to remove the grouping or use the Cl
 
 Users can filter and search data in the Data Grid by using the dropdown arrow in the column headers to select from a list of filters, configuring a custom filter, or by using the Data Grid filtration dialog located above the Activities Pane.
 
-![Filter](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality12.png)
+![Filter](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality12.png)
 
 In the header of every column is a drop-down arrow. This provides users with the ability to filter the data grid for a particular item or items within a column. The drop-down menu has the options of (All), (Custom…), and an alphabetical listing of all items currently within that column for the data grid.
 
@@ -115,7 +115,7 @@ In the header of every column is a drop-down arrow. This provides users with the
 
 The Custom option opens a Custom Filter builder for the selected column.
 
-![Custom Filter](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality13.png)
+![Custom Filter](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality13.png)
 
 The Custom Filter window options are:
 
@@ -133,7 +133,7 @@ Follow the steps to create a Custom Filter:
 
 __Step 1 –__ Click the dropdown arrow in the column header for the column where the Custom Filter is going to be applied and select (Custom…) from the list. The Custom Filter window opens.
 
-![Creating a Custom Filter](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality14.png)
+![Creating a Custom Filter](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality14.png)
 
 __Step 2 –__ Set the desired criteria for the custom filter. Select the logical operator from the drop-down menu on the left and set the criteria in the textbox on the right.
 
@@ -143,7 +143,7 @@ __Step 4 –__ Click OK to confirm changes. The custom filter criteria is now ap
 
 In the example above, OSName is like \*2008\* AND not like \*Standard\*, the filter returns all data records with an operating system name that contains “2008” but not “Standard,” e.g. Windows Server 2008 Enterprise Edition, 64 bit and Windows Server 2008 R2 Datacenter Edition, 64-bit, etc. Complex filters can be created using the Advanced Search option in the Filtration Dialog.
 
-![Selected Filter Criteria](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality15.png)
+![Selected Filter Criteria](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality15.png)
 
 The selected filter criteria will appear at the top of the data grid. A red X appears in the filtration dialog, and the total rows value drops to the number of records that match the filter criteria. Additional filter statements can be added for other columns by repeating the process to build complex filters. The filtration dialog also provides other ways to filter and search the data set. See the [Filtration Dialog](#Filtration-Dialog) topic for additional information on this feature.
 
@@ -153,7 +153,7 @@ Filters can be cleared by clicking the red X in the filtration dialog (to clear 
 
 The filtration dialog in the upper-right corner with the magnifying glass icon provides additional filtering options.
 
-![Filtration Dialog](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality16.png)
+![Filtration Dialog](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality16.png)
 
 The magnifying glass icon opens a dropdown list of columns for the selected data grid, the Advanced Search option, and the Recent Filters list. Typing in the textbox at the top filters the data grid for the selected column (identified by the black dot). Hover over the Recent Filters menu item to open the list of the last server filters applied to this data grid.
 
@@ -161,7 +161,7 @@ The magnifying glass icon opens a dropdown list of columns for the selected data
 
 The Advanced Search option opens a Set Filter builder for users to build a filter for multiple columns using multiple logical operators.
 
-![Advanced Search](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality17.png)
+![Advanced Search](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagridfunctionality17.png)
 
 The filter options and logical operators are:
 

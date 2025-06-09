@@ -5,7 +5,7 @@ and time the permissions were last replicated.
 
 You can view all active sites as enabled and inactive sites as disabled. It is as:
 
-![disabledsites](/static/img/product_docs/groupid/groupid/portal/entitlement/disabledsites.jpg)
+![disabledsites](/img/product_docs/groupid/groupid/portal/entitlement/disabledsites.jpg)
 
 A disabled site indicates that the Insights job has not run to replicate permission data for it. Once permissions are replicated, the site is enabled.
 
@@ -30,13 +30,13 @@ On double clicking the site, a separate card for each document library in the si
 
 - You can view the files and folders within a document library till the nth level. Double-click a folder card to view its direct child files and folders. Continue till the nth level.
 
-  ![sitesfolders](/static/img/product_docs/groupid/groupid/portal/entitlement/sitesfolders.png)
+  ![sitesfolders](/img/product_docs/groupid/groupid/portal/entitlement/sitesfolders.png)
 
 ## View levels and permissions on a library
 
 On clicking a library card or even a file/folder card, all users and groups with permission on it are listed in the right pane.
 
-![sitesrightpane](/static/img/product_docs/groupid/groupid/portal/entitlement/sitesrightpane.png)
+![sitesrightpane](/img/product_docs/groupid/groupid/portal/entitlement/sitesrightpane.png)
 
 Information includes:
 
@@ -60,7 +60,7 @@ Information includes:
 
   You can update the permissions and click __Save__ icon.
 
-  ![sitespermissions](/static/img/product_docs/groupid/groupid/portal/entitlement/sitespermissions.png)
+  ![sitespermissions](/img/product_docs/groupid/groupid/portal/entitlement/sitespermissions.png)
 
   Permissions are displayed as __Explicit permissions__ which list the effective permissions set the user/group has on the file/folder.
 
@@ -69,7 +69,7 @@ Information includes:
 Use the search bar to search for specific files and folders in the site. You can also search for a file or folder in a particular folder. Click the card for that
 folder and search for the required child file/folder.
 
-![sitessearch](/static/img/product_docs/groupid/groupid/portal/entitlement/sitessearch.png)
+![sitessearch](/img/product_docs/groupid/groupid/portal/entitlement/sitessearch.png)
 
 __Search filter__
 

@@ -2,13 +2,13 @@
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) GPCR gets information about if a Group Policy setting was delivered to a specific collection of computers (also known as endpoints). It goes a step further than Microsoft's in-the-box GPMC, which can provide a Group Policy Results report (see Figure 1). The Microsoft report tells the administrator what one user on any one particular machine does. It does not describe whether that user or system is actually in compliance with an established IT baseline.
 
-![gpcr_concepts_and_quickstart](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/gpcr_concepts_and_quickstart.png)
+![gpcr_concepts_and_quickstart](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/gpcr_concepts_and_quickstart.png)
 
 Figure 1. Microsoft Group Policy Results Report targets a single user on a single machine.
 
 In order to assess compliance with the in-box Group Policy Results Report, the report (see Figure 2) must be reviewed manually. Admins must go through the reports for each machine and user combination to determine whether specific settings have been applied.
 
-![gpcr_concepts_and_quickstart_1](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_1.png)
+![gpcr_concepts_and_quickstart_1](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_1.png)
 
 Figure 2. The Group Policy Results Report.
 

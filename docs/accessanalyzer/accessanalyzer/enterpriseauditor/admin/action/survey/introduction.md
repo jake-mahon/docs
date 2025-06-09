@@ -1,8 +1,8 @@
 # Survey: Introduction
 
-Use this page to specify web page introductory text (if any) for the web page specified on the Web Server page. See the [Survey: Web Server](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.md) topic for additional information. The introductory text appears on the landing page when recipients click on the survey link in the email.
+Use this page to specify web page introductory text (if any) for the web page specified on the Web Server page. See the [Survey: Web Server](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.md) topic for additional information. The introductory text appears on the landing page when recipients click on the survey link in the email.
 
-![Survey Action Module Wizard Introduction Page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/introduction.png)
+![Survey Action Module Wizard Introduction Page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/introduction.png)
 
 The configurable options are:
 

@@ -40,7 +40,7 @@ During synchronization, the static transformation copies specified text to the d
     _Updated by GroupID 1/12/2003 10:04 AM from EX01-DTM_
 
     Environment variables may vary for different Windows releases and editions. Before using environment variables, determine that they are supported by the Windows installed on your host machine
-- [Auto-Generate Unique, Complex Passwords](/docs/product_docs/groupid/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md) based on complexity rules
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md) based on complexity rules
 
   You can assign a single password to all synced objects or generate individual passwords
   for each object.

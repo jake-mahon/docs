@@ -2,7 +2,7 @@
 
 ## Functionality
 
-Some actions can be executed very efficiently using keyboard shortcuts. These are configured in the section of the same name within the __global [User settings](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)__
+Some actions can be executed very efficiently using keyboard shortcuts. These are configured in the section of the same name within the __global [User settings](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)__
 
 The following keyboard shortcuts are available:
 

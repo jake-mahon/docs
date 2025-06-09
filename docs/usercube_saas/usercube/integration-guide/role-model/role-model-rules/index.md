@@ -6,30 +6,30 @@ The assignment policy is the set of rules enforced on the resources to compute a
 
 The Introduction Guide introduced the role model and how it influences assigning entitlements to identities. Let's sum up the key principles here. See the [
 Entitlement Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 1. Identities are resources.
 2. Assignments of entitlements are materialized by resources, their values and associations.
 3. Identity Manager uses a [role-based](https://en.wikipedia.org/wiki/Role-based_access_control) assignment policy to grant entitlements to identities, i.e. granting a role entails granting entitlements.
 4. The role model is first a catalog of available roles ([
    Single Role
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and [
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and [
    Composite Role
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)), identified by meaningful names aimed at non-technical end-users. These roles represent status of trust and privileges, to be assigned to identities, manually or automatically.
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)), identified by meaningful names aimed at non-technical end-users. These roles represent status of trust and privileges, to be assigned to identities, manually or automatically.
 5. The role model is also a set of rules aiming at assign automatically roles to identities, based on relevant criteria, namely [
    Dimension
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
 6. The role model classifies resources by security concerns thanks to resource types.
 7. The role model contains correlation rules identifying ownership of target resource by an identity.
 8. The role model contains provisioning rules describing if and how target resources and their values should be computed from source resource values.
 
 Resource types, single roles and composite roles can be grouped into [
 Category
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md). They are used in the UI to organize the Roles catalog display. Categories are organized in a hierarchical tree structure.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md). They are used in the UI to organize the Roles catalog display. Categories are organized in a hierarchical tree structure.
 
 ### Policy
 
-A [Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) is a set of assignment rules. At least one policy must be declared.
+A [Policy](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) is a set of assignment rules. At least one policy must be declared.
 
 All resource types, single roles and composite roles and categories belong to a policy.
 
@@ -43,19 +43,19 @@ Analyzing contexts in the organization allows the integration team, in collabora
 
 The integration team defines [
 Context Rule
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [
 Record Section
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the applicative configuration that assigns, for every identity, a context as a set of dimension-value pair.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the applicative configuration that assigns, for every identity, a context as a set of dimension-value pair.
 
 The details of how contexts are generated can be found in [
 Generate Contexts
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/generate-contexts/index.md).
+](/docs/usercube_saas/usercube/integration-guide/role-assignment/generate-contexts/index.md).
 
 Every dimension is associated with a finite set of possible values. That means there is a finite set of possible context. Hence, typical contexts within which an identity operates are modeled.
 
 Contexts can then be used as a filter for choosing an identity to which to assign a role.
 
-This mechanism allows the integration team to define rules to take care of the most basics and repetitive assignments. For example, a [Single Role Rule](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) assigning a specific single role to the resources that match a specific context.
+This mechanism allows the integration team to define rules to take care of the most basics and repetitive assignments. For example, a [Single Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) assigning a specific single role to the resources that match a specific context.
 
 ##### Example
 
@@ -74,7 +74,7 @@ A context rule would have been written first, defining for every resource of ent
 
 The role model takes a very important place in the applicative configuration. It's built by the integration team, in collaboration with the target organization, to match the organization's needs and rules in security.
 
-The role model is built iteratively, together with the [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md), as they closely influence one another. See the [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
+The role model is built iteratively, together with the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md), as they closely influence one another. See the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
 
 The role model evolves and lives during the whole IGA project's lifecycle. Organization rules change, roles and assignment rules are updated, deleted, added.
 
@@ -84,7 +84,7 @@ The following gives a few ideas about how a to approach the writing of a role mo
 
 The first iteration of building of the organization reference model starts to reveal the archetypal responsibilities and positions of the members of the organization. A [
 Single Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for every fine-grained organization-level responsibility or position.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for every fine-grained organization-level responsibility or position.
 
 ##### Example
 
@@ -104,7 +104,7 @@ The project manager needs access to the ```data0``` and ```data1``` servers with
 
 For every [
 Single Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned to an identity, fine-grained entitlements need to be granted. Those are the resource values in a managed system.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned to an identity, fine-grained entitlements need to be granted. Those are the resource values in a managed system.
 
 Hence, for every single role, the relevant managed systems, type of resource, and resource values to fulfill are identified.
 
@@ -113,7 +113,7 @@ They are materialized by:
 - Provisioning rules, such as Resource Type rules that decide what resources should be found in the managed systems; and navigation rules or scalar rules, that identify actual values to be fulfilled from the identity to which the single role is assigned;
 - [
   Resource Correlation Rule
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) that identify for an identity, the target resources to fulfill;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) that identify for an identity, the target resources to fulfill;
 - Resource type that organize resources and describe a source/target (or owner/resource) relationship.
 
   The resource types identified this way could be suggested to security officers for review, checking that they match their mental model of the managed system's resources.
@@ -130,15 +130,15 @@ A security officer, to grant Internet access to an employee, would in practice a
 
 To modelize that need within the role model, every identity with ```Internet Access``` single role is associated with an Active Directory account. We can find the Active Directory for an identity by comparing the identity email with the Active Directory entry e-mail. That's an example of [
 Resource Correlation Rule
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) that define the ownership of an Active Directory entry resource by an identity resource.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) that define the ownership of an Active Directory entry resource by an identity resource.
 
 ### 3. Write assignment rules
 
-[Single Role Rule](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) describe criteria for which a [
+[Single Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) describe criteria for which a [
 Single Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is assigned to a resource. The main criterion is a dimension value. For a given resource, the single role is assigned if the resource's context matches the given dimension value. The second criterion is the assignment of a specific [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is assigned to a resource. The main criterion is a dimension value. For a given resource, the single role is assigned if the resource's context matches the given dimension value. The second criterion is the assignment of a specific [
 Composite Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see further).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see further).
 
 A navigation rule describes a fine-grained entitlement in the form of resource association such as a group membership. Its enforcement is also conditioned by a single role assignment to the relevant source resource, which in turn materializes the link between a single role and a resource type.
 
@@ -154,11 +154,11 @@ The need for assignment of the ```Internet Access``` group to the Active Directo
 
 [
 Single Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged into [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged into [
 Composite Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). Assigning a composite role to an identity immediately assigns the packaged single role to that identity. Single roles assigned this way are said to be inferred.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). Assigning a composite role to an identity immediately assigns the packaged single role to that identity. Single roles assigned this way are said to be inferred.
 
-The [Composite Role Rule](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md) (see composite role rules describe criteria for which a composite role is assigned to an identity. Then, the composite role can be used as a condition in a [Single Role Rule](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md). This is how packages are built.
+The [Composite Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md) (see composite role rules describe criteria for which a composite role is assigned to an identity. Then, the composite role can be used as a condition in a [Single Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md). This is how packages are built.
 
 ### Summary - A mental model to help build a role model
 
@@ -171,12 +171,12 @@ To help build a role model, consider this mental model that captures the key eve
 5. Identity Manager's engine identifies ```Rt```'s navigation rule ```Nr``` whose condition matches ```SRa``` and/or ```Ci```, and associated scalar rules ```Sr```.
 6. Using ```Sr``` and ```Nr```'s definition, Identity Manager's engine identifies ```Tr```'s values to be provisioned to materialize ```SRa```.
 
-This series of steps is actually a very simplified version of the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
+This series of steps is actually a very simplified version of the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
-![Cascading From Dimensions To Roles To Provisioning Orders](/static/img/product_docs/usercube/usercube/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.png)
+![Cascading From Dimensions To Roles To Provisioning Orders](/img/product_docs/usercube/usercube/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.png)
 
 ---
 
 ## Evaluate Policy
 
-This chapter gives the basis of the assignments vocabulary. The next chapter enlightens the reader about the inner details of the Evaluate Policy algorithm. See the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+This chapter gives the basis of the assignments vocabulary. The next chapter enlightens the reader about the inner details of the Evaluate Policy algorithm. See the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.

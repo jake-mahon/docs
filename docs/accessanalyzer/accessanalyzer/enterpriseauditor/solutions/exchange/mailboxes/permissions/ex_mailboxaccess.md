@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailbox Access Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/mailboxaccessanalysis.png)
+![Analysis Tasks for the EX_Mailbox Access Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/mailboxaccessanalysis.png)
 
 The following analysis tasks are selected by default:
 

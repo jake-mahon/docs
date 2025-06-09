@@ -16,23 +16,23 @@ It is recommended that an incremental backup is run every hour. In addition, a f
 
 Creating a backup schedule
 
-You can create a new schedule via the ribbon. This is facilitated by a wizard. All the information entered under [Backup settings](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_settings.md) will be used by default.
+You can create a new schedule via the ribbon. This is facilitated by a wizard. All the information entered under [Backup settings](/docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_settings.md) will be used by default.
 
 A profile name is entered first. The desired databases are also selected. You also need to specify the directory for the backups.
 
-![new backup profile - base settings](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_257-en.png)
+![new backup profile - base settings](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_257-en.png)
 
 NOTE: It must be a directory on the SQL server.
 
 Now set the time interval for creating the backups. A preview on the right will show when the backups will be created in future. An end date can be optionally entered.
 
-![new backup profile - interval](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_258-en.png)
+![new backup profile - interval](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_258-en.png)
 
 In the advanced settings, you can configure whether the backup should be activated directly. It is also possible to specify whether to create incremental backups. If the date and time are added to the file name, a new backup is created with each run. If this is not done, the last backup is always overwritten. The service user can be used to create the backup or a service user can be specified with a corresponding name and password.
 
-In addition, you can enter here whether the required certificates should be saved using a backup task. Further information can be found in the section [Certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates.md).
+In addition, you can enter here whether the required certificates should be saved using a backup task. Further information can be found in the section [Certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates.md).
 
-![installation_with_parameters_259](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_259.png)
+![installation_with_parameters_259](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_259.png)
 
 Backup run
 
@@ -46,8 +46,8 @@ A selected schedule can be deleted via the ribbon. The wizard for a schedule can
 
 Restoring data from backups is performed using the database module. Data can only be restored to existing databases. Firstly, select the required database. You can now select Insert in the ribbon.
 
-![restore backup](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_260-en.png)
+![restore backup](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_260-en.png)
 
 If necessary, firstly enter login data for the user that logs in to the SQL server – although the service user is generally used here. Now select the backup file. All the backups contained in the file will then be displayed. Now simply click on Restore to restore the backup to the existing database.
 
-![Database restore](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_261-en.png)
+![Database restore](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_261-en.png)

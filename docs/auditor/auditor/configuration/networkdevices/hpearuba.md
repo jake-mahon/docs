@@ -35,7 +35,7 @@ To configure HPE Aruba devices through the Management Console
 2. Navigate to Mobility Master and select a device or a group of devices you want to monitor with Netwrix Auditor.
 3. Navigate to Configuration → System → Logging and click + to add a new Syslog Server.
 
-   ![nand_aruba_logging](/static/img/product_docs/auditor/auditor/configuration/networkdevices/nand_aruba_logging.png)
+   ![nand_aruba_logging](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_aruba_logging.png)
 4. In the Add New Syslog Servers dialog, complete the following fields:
 
    | Option | Description |
@@ -51,7 +51,7 @@ To configure HPE Aruba devices through the Management Console
 8. Click Deploy Changes.
 9. If the configuration is correct, you will see the following wizard:
 
-   ![nand_aruba_status](/static/img/product_docs/auditor/auditor/configuration/networkdevices/nand_aruba_status.png)
+   ![nand_aruba_status](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_aruba_status.png)
 10. Navigate to Configuration → System → Logging and expand the Logging Levels.
 11. Select the Informational value for the following parameters:
 

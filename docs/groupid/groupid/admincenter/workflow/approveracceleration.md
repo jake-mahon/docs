@@ -16,7 +16,7 @@ To configure approver acceleration for an identity store, you have to:
 - Set the number of days a request stays with an approver before it is accelerated to the next approver.
 - Specify the maximum number of acceleration levels.
 
-A scheduled job, Workflow Acceleration, is responsible for accelerating requests to the next level, auto approve requests, and send notifications. See the [Workflow Acceleration Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/workflowacceleration.md) topic.
+A scheduled job, Workflow Acceleration, is responsible for accelerating requests to the next level, auto approve requests, and send notifications. See the [Workflow Acceleration Schedule](/docs/groupid/groupid/admincenter/schedule/workflowacceleration.md) topic.
 
 __To apply approver acceleration:__
 
@@ -27,7 +27,7 @@ __To apply approver acceleration:__
 
    NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings are disabled and a message is displayed with a __Configure Now__ link to redirect you to the __Notifications__ page.
 5. Use the __Approver Acceleration__ toggle button to apply the approver acceleration settings and rules to all workflows defined for the identity store.  
-   To exempt a particular workflow, open it and clear the __Approver Acceleration__ check box. See the [Modify a Workflow](/docs/product_docs/groupid/groupid/admincenter/workflow/implement.md#Modify-a-Workflow) topic.
+   To exempt a particular workflow, open it and clear the __Approver Acceleration__ check box. See the [Modify a Workflow](/docs/groupid/groupid/admincenter/workflow/implement.md#Modify-a-Workflow) topic.
 6. In the __Maximum Levels__ box, specify a number, say 2. Workflow requests would be accelerated to a maximum of 2 levels for approval. Requests that are nor approved or denied at the maximum level become static.
 7. In the __Repeat Every X Days__ box, specify x number of days, say 5. When an approver does not act on a request for the specified number of days, the request is accelerated to the next approver in the acceleration
    chain.

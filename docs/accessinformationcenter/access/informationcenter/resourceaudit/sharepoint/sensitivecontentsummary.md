@@ -2,7 +2,7 @@
 
 The Sensitive Content Summary report at the __SharePoint__ node provides a count of files where criteria matches were found in the targeted SharePoint on-premise farms and SharePoint Online instances. This report includes a Details table.
 
-![Sensitive Content Summary report at the SharePoint node](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
+![Sensitive Content Summary report at the SharePoint node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
 
 This report is comprised of the following columns:
 

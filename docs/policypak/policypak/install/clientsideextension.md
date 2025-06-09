@@ -23,7 +23,7 @@ In the next section, we will discuss the following three main ideas:
 
 ## PDQ Deploy
 
-Our recommended tool of choice to get the Endpoint Policy Manager CSE deployed to multiple machines is PDQ Deploy. PDQ Deploy has a free mode and a paid mode, which is reasonably priced. You can see how to deploy a package with PDQ Deploy please see the [Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/product_docs/policypak/policypak/integration/pdqdeploy.md) topic for additional information.
+Our recommended tool of choice to get the Endpoint Policy Manager CSE deployed to multiple machines is PDQ Deploy. PDQ Deploy has a free mode and a paid mode, which is reasonably priced. You can see how to deploy a package with PDQ Deploy please see the [Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/policypak/policypak/integration/pdqdeploy.md) topic for additional information.
 
 ## MDM, UEM, or RMM Tools
 
@@ -43,31 +43,31 @@ __Step 3 –__ Create a Group Policy Object (GPO) and link it to the organizatio
 
 __Step 4 –__ Use Group Policy Software Installation to deploy that file to all target computers.
 
-__NOTE:__  To see a demonstration of this section, please watch these two tutorial videos: [Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/product_docs/policypak/policypak/archive/massdeploy.md) and [Upgrading the CSE using GPSI](/docs/product_docs/policypak/policypak/archive/upgrading.md).
+__NOTE:__  To see a demonstration of this section, please watch these two tutorial videos: [Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/policypak/policypak/archive/massdeploy.md) and [Upgrading the CSE using GPSI](/docs/policypak/policypak/archive/upgrading.md).
 In this example, we've created a GPO named Deploy PP Client and linked it to East Sales Desktops.
 
-![Deploying Client Side](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.png)
+![Deploying Client Side](/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.png)
 
 __Step 5 –__ Next, right-click the GPO and select __Edit__. Once you're inside the Group Policy Editor, scroll down to __Computer__ > __Configuration__ > __Software Settings__ > __Software Installation__. Right-click, and select __New__ > __Package__.
 
-![deploying_the_client_side_1_620x359](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.png)
+![deploying_the_client_side_1_620x359](/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.png)
 
 __Step 6 –__ Once this is complete, type in the server and share names you used. In our example, our server is ```\\DC-Computer``` and our share is Endpoint Policy Manager. Then select the Endpoint Policy Manager CSE Setup x64.msi file, and click __Open__. Next, choose __Assigned__, and select __OK__.
 
-![deploying_the_client_side_2_620x389](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.png)
+![deploying_the_client_side_2_620x389](/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.png)
 
-![deploying_the_client_side_3_550x381](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.png)
+![deploying_the_client_side_3_550x381](/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.png)
 
 When you're done, the GPO should look like this:.
 
-![deploying_the_client_side_4_1200x309](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.png)
+![deploying_the_client_side_4_1200x309](/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.png)
 
 __Step 7 –__ Repeat this process until both the x86 and x64 MSIs appear.
 
-![deploying_the_client_side_5_1200x240](/static/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.png)
+![deploying_the_client_side_5_1200x240](/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.png)
 
 __NOTE:__ Be sure that the source field is pointing to a network path (e.g., ```\\server\share```) and not a local path (e.g., ```c:\something\```).
 
 If you have an older version of the Endpoint Policy Manager CSE and wish to update it using Group Policy Software Installation, it's easy to do.
 
-For more information on how to perform an upgrade using Group Policy Software Installation. See the [Upgrading the CSE using GPSI](/docs/product_docs/policypak/policypak/archive/upgrading.md) topic for additional information.
+For more information on how to perform an upgrade using Group Policy Software Installation. See the [Upgrading the CSE using GPSI](/docs/policypak/policypak/archive/upgrading.md) topic for additional information.

@@ -6,7 +6,7 @@ Notifications on user activity and event log collection (Event Log Collection St
 
 The following Activity Summary example applies to Active Directory. Other Activity Summaries generated and delivered by Netwrix Auditor will vary slightly depending on the data source.
 
-[![ad_activitity_summary_thumb_0_0](/static/img/product_docs/auditor/auditor/admin/monitoringplans/ad_activitity_summary_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/qsg/ad_activitity_summary.png)
+[![ad_activitity_summary_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/ad_activitity_summary_thumb_0_0.png)](/docs/auditor/resources/images/auditor/qsg/ad_activitity_summary.png)
 
 The example Activity Summary provides the following information on Active Directory changes:
 
@@ -24,4 +24,4 @@ The example Activity Summary provides the following information on Active Direct
 
 To initiate an on-demand Activity Summary delivery, navigate to the Monitoring Plans section, select a plan, click Edit, and then select Update. A summary will be delivered to the specified recipient, listing all activity that occurred since the last data collection.
 
-To disable Activity Summary Emails, you need to disable notifications in the settings. See the [Notifications](/docs/product_docs/auditor/auditor/admin/settings/notifications.md) topic for additional information.
+To disable Activity Summary Emails, you need to disable notifications in the settings. See the [Notifications](/docs/auditor/auditor/admin/settings/notifications.md) topic for additional information.

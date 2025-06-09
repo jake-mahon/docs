@@ -8,8 +8,8 @@ The Activity Monitor can be configured to monitor the following:
 
 It provides the ability to feed activity data to SIEM products. The following dashboards have been specifically created for Activity Monitor event data:
 
-- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/product_docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/product_docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
+- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
 
@@ -17,7 +17,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-Prior to adding a Dell Isilon/PowerScale host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/dellpowerscale/activity.md) topic for additional information.
+Prior to adding a Dell Isilon/PowerScale host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/config/dellpowerscale/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for monitoring the target environment.
 
@@ -27,17 +27,17 @@ Follow the steps to add a Dell Isilon/PowerScale host to be monitored.
 
 __Step 1 –__ Navigate to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device. Click __Next__.
 
-![Add Host page with Dell Isilon selected](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostemcisilon.png)
+![Add Host page with Dell Isilon selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostemcisilon.png)
 
 __Step 3 –__ On the Add Host page, select the Dell Isilon radio button and enter both the __Server name or address__ and the __CIFS/NFS server name__ for the device. The CIFS/NFS server name can be left blank to collect activity from the Isilon cluster. If desired, add a __Comment__. Click __Next__.
 
-__NOTE:__ All Dell event source types must have the CEE Monitor Service installed on the agent in order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and display a warning to install the service. If the CEE Monitor service is installed on a remote machine, manual configuration is required. See the [Dell CEE Options Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
+__NOTE:__ All Dell event source types must have the CEE Monitor Service installed on the agent in order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and display a warning to install the service. If the CEE Monitor service is installed on a remote machine, manual configuration is required. See the [Dell CEE Options Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
 
-![Isilon Options page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonoptions.png)
+![Isilon Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonoptions.png)
 
 __Step 4 –__ On the Isilon Options page, choose whether or not to automatically enable and configure auditing on the Isilon cluster. If a manual configuration has been completed, do not enable these options.
 
@@ -58,11 +58,11 @@ Follow these steps to use this automated option:
 
 Click __Next__.
 
-![Protocols selection page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.png)
+![Protocols selection page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.png)
 
 __Step 5 –__ On the Protocols page, select which protocol to monitor. The list of protocols that can be monitored are All, CIFS, or NIFS. Click __Next__.
 
-![Configure Operations page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.png)
+![Configure Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.png)
 
 __Step 6 –__ On the Configure Operations page, select the __File Operations__ and __Directory Operations__ options to be monitored. Additional options include:
 
@@ -70,7 +70,7 @@ __CAUTION:__ Suppress Microsoft Office operations on temporary files – Filters
 
 Click __Next__.
 
-![Configure Basic Options](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
+![Configure Basic Options](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
 
 __Step 7 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -91,11 +91,11 @@ __Step 7 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where to Log the Activity Page Generic](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to Log the Activity Page Generic](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
 
 __Step 8 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
 
 __Step 9 –__ If __Log File)__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -110,7 +110,7 @@ __Step 9 –__ If __Log File)__ is selected on the __Where To Log The Activity_
 
 Click __Next__.
 
-![Syslog Output Page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
 
 __Step 10 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -121,7 +121,7 @@ __Step 10 –__ If Syslog Server is selected on the __Where To Log The Activity_
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 - Syslog message template – Click the ellipsis (…)  to open the Syslog Message Template window. The following Syslog templates have been provided:
   - AlienVault / Generic Syslog
   - CEF – Incorporates the CEF message format
@@ -150,21 +150,21 @@ __Step 10 –__ If Syslog Server is selected on the __Where To Log The Activity_
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click __Finish__.
 
-![Activity Monitor with Dell Isilon added](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcisilon.png)
+![Activity Monitor with Dell Isilon added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcisilon.png)
 
-The added Dell Isilon/PowerScale host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added Dell Isilon/PowerScale host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Dell Isilon/PowerScale
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [Dell Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/dell.md)
-- [Auditing Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/auditing.md)
-- [Unix IDs Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/unixids.md)
-- [Inactivity Alerts Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Dell Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/dell.md)
+- [Auditing Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/auditing.md)
+- [Unix IDs Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/unixids.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

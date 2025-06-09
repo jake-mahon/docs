@@ -6,10 +6,10 @@ __NOTE:__  The Endpoint Policy Manager GPOTouch utility is installed alongside t
 
 To start the Endpoint Policy Manager GPOTouch utility, find it in the Start Menu, as seen in Figure 87.
 
-![policypak_application_settings_3_25](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_25.png)
+![policypak_application_settings_3_25](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_25.png)
 
 Figure 87. The Start Menu showing Endpoint Policy Manager GPOTouch.
 
 Then follow the prompts to specify the source for the latest AppSets that you want to update: Central Storage, Share-Based Storage, Local Store, or All GPOs with the latest AppSets.
 
-__NOTE:__ To see an overview of the Endpoint Policy Manager GPOTouch utility, please watch this tutorial video: [GPOTouch Utility](/docs/product_docs/policypak/policypak/video/applicationsettings/touchutility.md).
+__NOTE:__ To see an overview of the Endpoint Policy Manager GPOTouch utility, please watch this tutorial video: [GPOTouch Utility](/docs/policypak/policypak/video/applicationsettings/touchutility.md).

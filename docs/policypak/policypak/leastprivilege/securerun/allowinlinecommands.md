@@ -6,7 +6,7 @@ cmd /c C:\temp\Random014\camplay.exe
 
 With Secure run enabled, the following message is displayed:
 
-![804_1_image-20210819150136-1](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_1_image-20210819150136-1.png)
+![804_1_image-20210819150136-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_1_image-20210819150136-1.png)
 
 To allow this process to work and CamPlay to run, it's not camplay.exe that must be allowed in this example, it's cmd.exe.
 
@@ -19,15 +19,15 @@ Focusing on #2, below is a common example of how to set up a policy to allow th
 
 __Step 1 –__ Add a __New Executable Policy__
 
-![804_2_image-20210819150136-2](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_2_image-20210819150136-2.png)
+![804_2_image-20210819150136-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_2_image-20210819150136-2.png)
 
 __Step 2 –__ Select __Combo Rule__
 
-![804_3_image-20210819150136-3](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_3_image-20210819150136-3.png)
+![804_3_image-20210819150136-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_3_image-20210819150136-3.png)
 
 __Step 3 –__ Select __Path__, __Command line__, and at least one other Condition to guard against a fraudulent parent process (cmd.exe in this case).
 
-![804_4_image-20210819150136-4](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_4_image-20210819150136-4.png)
+![804_4_image-20210819150136-4](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_4_image-20210819150136-4.png)
 
 __NOTE:__ Either __Hash__ or __File Info__ may be used in addition to, or instead of, __Signature__, but it is recommended at least one or more conditions be used in addition to the command-line arguments.
 
@@ -35,22 +35,22 @@ __NOTE:__ __Apply to child processes__ may or may not be required, but removing 
 
 __Step 4 –__ Set up your __Path Condition__: be as specific as possible
 
-![804_5_image-20210819150136-5](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_5_image-20210819150136-5.png)
+![804_5_image-20210819150136-5](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_5_image-20210819150136-5.png)
 
 __Step 5 –__ Set your secondary conditions: __Signature__, in this example
 
-![804_6_image-20210819150136-6](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_6_image-20210819150136-6.png)
+![804_6_image-20210819150136-6](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_6_image-20210819150136-6.png)
 
 __Step 6 –__ Set your __Command-line Condition__: Use __Strict equality__ and set the Arguments using the wildcard character "\*" to replace any randomized, or user-specific sections of the path or filename. Be as specific as possible while still allowing for any variation that may come up in the path. In this example, \Random014\ was replaced by \Random\*\
 
-![804_7_image-20210819150136-7](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_7_image-20210819150136-7.png)
+![804_7_image-20210819150136-7](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_7_image-20210819150136-7.png)
 
 __NOTE:__ "\*" is the only supported wildcard character.
 
-__NOTE:__ __Ignore arguments case__ should be checked by default![804_8_image-20210819150136-8](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_8_image-20210819150136-8.png)
+__NOTE:__ __Ignore arguments case__ should be checked by default![804_8_image-20210819150136-8](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_8_image-20210819150136-8.png)
 
 __Step 7 –__ Set action as needed: generally, either __Allow and Log__ (this example) or __Run with elevated Privileges__ (if needed)
 
-![804_9_image-20210819150136-9](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_9_image-20210819150136-9.png)
+![804_9_image-20210819150136-9](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_9_image-20210819150136-9.png)
 
 __NOTE:__ For security and compatibility reasons, only elevate if necessary to do so.

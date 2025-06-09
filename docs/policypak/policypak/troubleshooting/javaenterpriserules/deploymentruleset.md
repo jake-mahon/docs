@@ -4,6 +4,6 @@ Because Endpoint Policy Manager Java Rules Manager automates Java's Deployment R
 
 In the Security tab, click "View the Deployment Rule Set" (see Figure 33 for an example). Java will process each rule in order and stop at the first matching rule. Make sure the DeploymentRuleSet.jar is valid; this determines which Endpoint Policy Manager Rules Manager should automatically apply.
 
-![troubleshooting_policypak_4](/static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_4.png)
+![troubleshooting_policypak_4](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_4.png)
 
 Figure 33. The active Deployment Rule Sets.

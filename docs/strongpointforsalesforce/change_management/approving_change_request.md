@@ -7,7 +7,7 @@ Approvers are populated from the Change/Approval Policy for the Change Request. 
 
    - If all approvers approve the Change Request, the status is changed to __Approved__. Implement the changes specified by the Change Request.
    - If an approver rejects the Change Request, the status is changed to __Rejected__. You can return the Change Request to __In Progress__, edit it, and reset it to __Pending Approval__ if there are errors or omissions.
-3. Change Request owner [Completes and Validates the Change Request](/docs/product_docs/strongpointforsalesforce/change_management/completing_change_request.md).
+3. Change Request owner [Completes and Validates the Change Request](/docs/strongpointforsalesforce/change_management/completing_change_request.md).
 
 Once the Change Request is approved, you cannot change the customizations attached to the Change Request.
 

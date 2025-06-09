@@ -8,11 +8,11 @@ __Step 2 –__ Select the resource(s) to modify.
 
 __Step 3 –__ Click Change Service Account to open the Change Service Account window.
 
-![Change Resource Service Account Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.png)
+![Change Resource Service Account Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.png)
 
 __Step 4 –__ In the Service Account drop-down menu, select a previously added service account with credentials for the resource.
 
-- To add a service account, see the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+- To add a service account, see the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
 
 __Step 5 –__ When a service account is entered, the Okay button is enabled. Click __Okay__ to use this service account for the selected resource(s).
 

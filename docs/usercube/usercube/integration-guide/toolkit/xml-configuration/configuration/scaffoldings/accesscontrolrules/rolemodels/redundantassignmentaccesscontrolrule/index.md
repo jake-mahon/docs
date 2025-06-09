@@ -4,7 +4,7 @@ Generates the permissions to access the __Redundant Assignment__ page, to analyz
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Redundant Assignments](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.png)
+![Redundant Assignments](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.png)
 
 ## Examples
 

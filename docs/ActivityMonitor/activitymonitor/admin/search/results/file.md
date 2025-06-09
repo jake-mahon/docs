@@ -1,8 +1,8 @@
 # File Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
 
-![File Search Results UI](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/filesearchresults.png)
+![File Search Results UI](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/filesearchresults.png)
 
 The results data grid columns display the following information for each event:
 
@@ -44,11 +44,11 @@ At the bottom of the search interface, additional information is displayed for s
 
 When the results data grid displays information about permissions changes, additional information is made available.
 
-![Search Results with Permissions listed in the Operations Column](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/filesearchresultspermissionsimage.png)
+![Search Results with Permissions listed in the Operations Column](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/filesearchresultspermissionsimage.png)
 
 A link displays in the __Operation__ column of the results data grid. Click the Permissions Change link to open the Permissions Change Details window.
 
-![File Search Results Permissions link popup window](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/permissionslpopupwindow.png)
+![File Search Results Permissions link popup window](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/permissionslpopupwindow.png)
 
 The window displays details about the changes of the security descriptor with information from the new line added to a DACL:
 

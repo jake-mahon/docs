@@ -4,7 +4,7 @@ Generates the rights to access the access manual provisioning pages for a given 
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Manual Provisioning](/static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.png)
+![Manual Provisioning](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.png)
 
 The connector connected to the entity type must have the manual type as the provisioning type, otherwise the information of the entity type cannot be displayed on this screen.
 

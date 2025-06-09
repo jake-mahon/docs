@@ -9,11 +9,11 @@ Both approaches require the installation of agents on each domain controller wit
 
 Activity Monitor Agents: This option focuses solely on monitoring AD activity, providing basic visibility into AD events without additional features.
 
-![nam_admodule](/static/img/product_docs/activitymonitor/activitymonitor/requirements/nam_admodule.png)
+![nam_admodule](/img/product_docs/activitymonitor/activitymonitor/requirements/nam_admodule.png)
 
 Netwrix Threat Prevention: Offers a more comprehensive and flexible monitoring experience, including advanced features like operation blocking and enhanced monitoring capabilities.
 
-![ntp](/static/img/product_docs/activitymonitor/activitymonitor/requirements/ntp.png)
+![ntp](/img/product_docs/activitymonitor/activitymonitor/requirements/ntp.png)
 
 These methods provide organizations with a choice between basic AD activity monitoring and a more versatile, security-enhanced option.
 
@@ -48,7 +48,7 @@ The disk space requirement covers the following:
 - Agent Queues – In the event of a network outage, the agent will cache up to 40 GB of event data
 - Diagnostic Logging – 1 GB
 
-Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the server to a network share. See the [Archiving Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
+Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the server to a network share. See the [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
 
 Additional Server Requirements
 
@@ -74,7 +74,7 @@ __NOTE:__ For monitoring an Active Directory domain, the AD Agent must be instal
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Active Directory Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/activedirectory/activity.md) topic for target environment requirements.
+See the [Active Directory Activity Auditing Configuration](/docs/activitymonitor/config/activedirectory/activity.md) topic for target environment requirements.
 
 ## AD Agent Compatibility with Non-Netwrix Security Products
 

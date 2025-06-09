@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP\_Unr
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_UnresolvedSIDs Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/unresolvedsidsanalysis.png)
+![Analysis Tasks for the SP_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/unresolvedsidsanalysis.png)
 
 They need to remain in the default order:
 

@@ -8,7 +8,7 @@ However, clients with slow internet connections may want to deploy CSE as an off
 
 CSE is available for download within the Customer Portal only. Go to [https://portal.policypak.com](https://portal.policypak.com/) and download __Latest Bits__. You'll find the Endpoint Policy Manager Client-Side Extension folder in the archive.
 
-![image1](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.png)
+![image1](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.png)
 
 Follow these steps to install both MSIs:
 
@@ -22,6 +22,6 @@ _Remember,_ Usually the latest CSE is in sync with PPC Service. However, you may
 
 For more details about setting up machines for VDI environments please check the following topics.
 
-[Can I embed the Endpoint Policy ManagerClient Side Extension and/or Endpoint Policy Manager Cloud client into a master image for VDI, MDT, Ghost, Citrix, etc?](/docs/product_docs/policypak/policypak/tips/embedclient.md)
+[Can I embed the Endpoint Policy ManagerClient Side Extension and/or Endpoint Policy Manager Cloud client into a master image for VDI, MDT, Ghost, Citrix, etc?](/docs/policypak/policypak/tips/embedclient.md)
 
-[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/product_docs/policypak/policypak/integration/azurevirutaldesktop.md)
+[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/policypak/policypak/integration/azurevirutaldesktop.md)

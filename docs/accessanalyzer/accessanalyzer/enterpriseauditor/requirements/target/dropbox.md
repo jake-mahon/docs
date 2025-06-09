@@ -8,13 +8,13 @@ Data Collector
 
 This solution employs the following data collector to scan the target environment:
 
-- [DropboxAccess Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/overview.md)
+- [DropboxAccess Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/overview.md)
 
 ## Permissions
 
 - Dropbox Team Administrator
 
-The DropboxAccess Data Collector requires the generation of an access token that is used to configure the Connection Profile for Dropbox. The access token is generated from within the Dropbox Access Auditor Data Collector Wizard on the Scan Options page. Once the access token is copied into a Connection Profile for Dropbox, it will be saved and does not need to be generated again. See the [DropboxAccess: Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md) topic for additional information.
+The DropboxAccess Data Collector requires the generation of an access token that is used to configure the Connection Profile for Dropbox. The access token is generated from within the Dropbox Access Auditor Data Collector Wizard on the Scan Options page. Once the access token is copied into a Connection Profile for Dropbox, it will be saved and does not need to be generated again. See the [DropboxAccess: Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md) topic for additional information.
 
 ## Ports
 

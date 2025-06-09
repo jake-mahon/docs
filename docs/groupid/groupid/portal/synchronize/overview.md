@@ -8,7 +8,7 @@ The Synchronize portal is also capable of applying transformations to the data b
 ## Prerequisites for Synchronize
 
 Using Directory Manager, you can create identity stores for several identity providers (such as Active Directory and Microsoft Entra ID) as well as create data sources for providers such as files and databases. Directory Manager Synchronize uses user-defined identity stores (as source
-and destination) built on databases, files and other applications such as Oracle, SQL and so on. To view the list of supported Synchronize providers, see the [Synchronize Providers](/docs/product_docs/groupid/groupid/portal/synchronize/provider.md) topic.
+and destination) built on databases, files and other applications such as Oracle, SQL and so on. To view the list of supported Synchronize providers, see the [Synchronize Providers](/docs/groupid/groupid/portal/synchronize/provider.md) topic.
 
 The following must be defined before you can use Synchronize:
 
@@ -30,10 +30,10 @@ The following must be defined before you can use Synchronize:
 
 Synchronize dashboard displays performance widgets and cards displaying the data about your jobs and job collections. On the navigation pane on the left side, you will see the following tabs:
 
-- Create New ([Create a Job](/docs/product_docs/groupid/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
-  ](/docs/product_docs/groupid/groupid/portal/synchronize/collection/create.md))
-- [Dashboard](/docs/product_docs/groupid/groupid/portal/synchronize/dashboard.md)
-- [Manage a Job](/docs/product_docs/groupid/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobcollection.md)
-- [Job Templates](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobtemplate.md)
-- [Job Collection Template](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
+- Create New ([Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
+  ](/docs/groupid/groupid/portal/synchronize/collection/create.md))
+- [Dashboard](/docs/groupid/groupid/portal/synchronize/dashboard.md)
+- [Manage a Job](/docs/groupid/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/groupid/portal/synchronize/manage/jobcollection.md)
+- [Job Templates](/docs/groupid/groupid/portal/synchronize/manage/jobtemplate.md)
+- [Job Collection Template](/docs/groupid/groupid/portal/synchronize/manage/jobcollectiontemplate.md)

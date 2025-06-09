@@ -14,7 +14,7 @@ Targeted Host(s)
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. For the PostgreSQL Solution, the credentials configured in the Connection Profile must be able to access the PostgreSQL Database. See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on permissions and creating a SQL custom connection profile.
+The SQL Data Collector requires a specific set of permissions. For the PostgreSQL Solution, the credentials configured in the Connection Profile must be able to access the PostgreSQL Database. See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on permissions and creating a SQL custom connection profile.
 
 The Connection Profile is set to __Use the Default Profile__, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile drop-down menu.
 
@@ -30,7 +30,7 @@ ___RECOMMENDED:___ Run the solution at the top level: PostgreSQL Job Group
 
 Query Configuration
 
-This solution is designed to be run with the default query configurations. However, the PostgreSQL\_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md#Configure-the-SensitiveDataScan-Query) topic for additional information.
+This solution is designed to be run with the default query configurations. However, the PostgreSQL\_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md#Configure-the-SensitiveDataScan-Query) topic for additional information.
 
 Analysis Configuration
 

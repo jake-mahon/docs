@@ -2,9 +2,9 @@
 
 The SP\_Overview job provides an overview of the SharePoint Environment, providing a high level view into what makes up a SharePoint Environment and the types of security risks and toxic permissions found during scans.
 
-![SP_Overview Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/overviewjobstree.png)
+![SP_Overview Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/overviewjobstree.png)
 
-It is dependent on data collected by the [SharePoint Access Auditing](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Access-Auditing), [SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Sensitive-Data-Discovery-Auditing-SEEK), and [SharePoint Activity Auditing](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Activity-Auditing) components of the [0.Collection Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md). It also depends on the running of the sub-job groups within the solution. If only select sub-job groups have been run, there will be blank sections of this overview report.
+It is dependent on data collected by the [SharePoint Access Auditing](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Access-Auditing), [SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Sensitive-Data-Discovery-Auditing-SEEK), and [SharePoint Activity Auditing](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Activity-Auditing) components of the [0.Collection Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md). It also depends on the running of the sub-job groups within the solution. If only select sub-job groups have been run, there will be blank sections of this overview report.
 
 ## Analysis Tasks for the SP\_Overview Job
 
@@ -12,7 +12,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __SP\_Overview__ > __Configure__ nod
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SP_Overview Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.png)
+![Analysis Tasks for the SP_Overview Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.png)
 
 The default analysis tasks is:
 

@@ -4,7 +4,7 @@ The Outlook Mail Archive source configuration screen allows you to enable the cr
 
 __NOTE:__ If you wish to make other configuration changes before collection of the source occurs ensure you tick the checkbox Pause source on creation.
 
-![add_outlook](/static/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/add_outlook.png)
+![add_outlook](/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/add_outlook.png)
 
 Multiple mailboxes can be added at one time via the "+" button. Collection will process all folders / emails / attachments within the mailbox - associating the attachment text with the respective email.
 

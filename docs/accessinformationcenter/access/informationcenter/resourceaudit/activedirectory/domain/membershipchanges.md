@@ -2,7 +2,7 @@
 
 The Membership Changes report at the domain level provides list of groups that had membership changes on the selected domain during the specified date range.
 
-![Membership Changes report](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/domain/membershipchanges.png)
+![Membership Changes report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/domain/membershipchanges.png)
 
 This table is blank if no changes occurred during the specified date range. This report is comprised of the following columns:
 

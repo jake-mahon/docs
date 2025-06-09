@@ -17,7 +17,7 @@ To perform a forest recovery, the following prerequisites must be in place:
 - Configure backups for one or more domain controllers in each domain in a forest.
 - Next, ensure that backups run as scheduled. You can also force-run a backup.
 
-See the [Forest Page](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.md) topic for additional information.
+See the [Forest Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.md) topic for additional information.
 
 ## Recover a Forest
 
@@ -25,7 +25,7 @@ Follow the steps to recover a forest.
 
 - __Step 1 –__ Prepare an isolated environment to restore the forest to.
 
-  See the [Target Server Considerations](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md) topic to understand the requirements for a target environment and target servers for restoring domain controllers.
+  See the [Target Server Considerations](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md) topic to understand the requirements for a target environment and target servers for restoring domain controllers.
 - __Step 2 –__ Add the desired domain controllers to create a recovery playbook, also called a restore playbook.
 
   For example, if you have a forest with one root domain and four child domains, you can add one domain controller from the root domain and one from each of the child domains to the recovery playbook, and restore your forest.
@@ -54,7 +54,7 @@ __Step 2 –__ On the Forest page, select a forest to view the domain controller
 
 __Step 3 –__ Click the __Add Domain Controller to Restore Playbook__ icon (__+__) for a domain controller to add it to the recovery playbook. The Add to Recovery Playbook wizard opens, where you can specify the restore settings for the domain controller.
 
-![Add to Recovery Playbook wizard - Domain Controller page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.png)
+![Add to Recovery Playbook wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.png)
 
 __Step 4 –__ On the Domain Controller page, the Source Domain Controller section displays information for the domain controller that is being added to the playbook. It displays the domain it is deployed to, its name, operating system, and the date and time of the most recent backup.
 
@@ -63,11 +63,11 @@ In the Target Server section:
 - In the __Server__ field, enter the IP address of the target server where you want to restore the domain controller from the backup.
 - Provide the credentials of an account in the Account and Password fields. This must be an administrator account for the target server.
 
-See the [Target Server and Operating System Requirements](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md#Target-Server-and-Operating-System-Requirements) topic for additional information.
+See the [Target Server and Operating System Requirements](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetserver.md#Target-Server-and-Operating-System-Requirements) topic for additional information.
 
 __Step 5 –__ Click __Next__.
 
-![Add to Recovery Playbook wizard - Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Add to Recovery Playbook wizard - Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 __Step 6 –__ From the __Backup__ drop-down menu, select the backup to use for restoring the domain controller. The drop-down menu lists the backups available for the domain controller.
 
@@ -86,7 +86,7 @@ __Step 9 –__ In the DSRM Password field, set the Directory Services Restore Mo
 
 __Step 10 –__ Click __Next__.
 
-![Add to Recovery Playbook wizard - Confirm page](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
 
 __Step 11 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
@@ -94,7 +94,7 @@ The playbook has been created with the domain controller added to it.
 
 Repeat this process for all the domain controllers you wish to restore in the target environment. When you add another domain controller, it appears as a new tab added to the playbook. Click the tab representing a domain controller to view its details.
 
-![Recovery Playbook created on the Forest Page](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recoveryplaybook.png)
+![Recovery Playbook created on the Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recoveryplaybook.png)
 
 The following information is displayed for a domain controller in the playbook:
 
@@ -114,6 +114,6 @@ Your new forest is ready for you to log in using any Administrator credentials f
 
 Notice that the Forest page displays the operations performed during the restore process.
 
-![Forest page showing a restored forest](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forestrecovered.png)
+![Forest page showing a restored forest](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forestrecovered.png)
 
 From here, you can proceed to restore additional domain controllers or promote new ones to the forest.

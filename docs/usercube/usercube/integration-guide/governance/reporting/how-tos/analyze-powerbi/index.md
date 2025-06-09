@@ -18,7 +18,7 @@ Based on this model, Power BI will be able to:
 - generate customized graphic reports
 - publish the reports with Power BI Service (SaaS) or Power BI Report Server (on premises)
 
-![Process Schema](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.png)
+![Process Schema](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.png)
 
 ## Prerequisites
 
@@ -37,17 +37,17 @@ Build the universe model by proceeding as follows:
 
 __Step 1 –__ Define the appropriate universes using scaffoldings. See the [
 Queries
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic for additional information.
 
 _Remember,_ in order to understand business intelligence, with its universes, entity instances and association instances.
 See the [
 Universe
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic for additional information.  
-Also note that XML objects that automatically generate XML snippets that would be complex and/or tedious to write manually. See the[Scaffoldings](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic for additional information.  
+Also note that XML objects that automatically generate XML snippets that would be complex and/or tedious to write manually. See the[Scaffoldings](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for additional information.
 
 Netwrix recommends creating no more than one universe to generate one report, to prevent issues about name uniqueness.
 
-__Step 2 –__ Connect Power BI to Identity Manager to visualize the output model. See the [Connect Power BI to Identity Manager](/docs/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md) topic for additional information.
+__Step 2 –__ Connect Power BI to Identity Manager to visualize the output model. See the [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md) topic for additional information.
 
 The Power BI applications __Desktop__, __Service__ and __Report Server__ all offer the Identity Manager plugin to access Identity Manager's database.
 
@@ -95,4 +95,4 @@ A change inside an existing entity, for example adding a scalar field, does not 
 
 A change in an association requires making the corresponding change in the universe model, as association instances (in the universe model) are based on entity associations in Identity Manager's data model. See the [
 Entity Association
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) topic for additional information.

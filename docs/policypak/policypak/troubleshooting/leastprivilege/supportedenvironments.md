@@ -10,4 +10,4 @@ Two other notes:
 - This should work fine in Windows 10 though.
 - SHA1 signed .JS and .VBS files should work in Windows 7.
 
-![696_1_ghjklyhuouioui3333333](/static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/696_1_ghjklyhuouioui3333333.jpg)
+![696_1_ghjklyhuouioui3333333](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/696_1_ghjklyhuouioui3333333.jpg)

@@ -10,24 +10,24 @@ As with the client, the records can be protected on the Web Application with dif
 
 Password masking
 
-The password masking follows the familiar logic of the client. Due to this function, reference should be made to the chapter of [Password masking](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md).
+The password masking follows the familiar logic of the client. Due to this function, reference should be made to the chapter of [Password masking](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md).
 
 There are marginal differences in the operation. The privacy protection is fixed or edited via a button in the extended menu..
 
-![installation_with_parameters_183](/static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_183.png)
+![installation_with_parameters_183](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_183.png)
 
 The corresponding button is only displayed if the logged in user has the sufficient rights.
 
 If a record is provided with a privacy protection, this is shown in the header of the password.
 
-![installation_with_parameters_184](/static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_184.png)
+![installation_with_parameters_184](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_184.png)
 
 Seal
 
-The seals also correspond in function to the known logic of the client. In the chapter seal further explanations can be found. The [Seals](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md) are configured in the extended menu via a button.
+The seals also correspond in function to the known logic of the client. In the chapter seal further explanations can be found. The [Seals](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md) are configured in the extended menu via a button.
 
-![installation_with_parameters_185](/static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_185.png)
+![installation_with_parameters_185](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_185.png)
 
 The button is only displayed for the users who have the rights to edit seals. If a record is sealed, this will be shown in the password field.
 
-![seal_wc](/static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/seal_wc.png)
+![seal_wc](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/seal_wc.png)

@@ -4,7 +4,7 @@ If a computer's Local Security Policy, or applicable Group Policy, enforces cert
 
 If encryption methods have been configured for Kerberos on the Access Analyzer server but not on the service account running the Access Analyzer Web Server service, then users will not be able to log-in to the Web Console and will receive the below error message.
 
-![Kerberos Error Message](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/kerberoserrormessage.png)
+![Kerberos Error Message](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/kerberoserrormessage.png)
 
 When this occurs, the following error will be logged:
 
@@ -22,13 +22,13 @@ Follow the steps to configure a Local Security Policy to allow Kerberos.
 
 __Step 1 –__ Open the Local Security Policy window.
 
-![Local Security Policy Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localsecuritypolicywindow.png)
+![Local Security Policy Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localsecuritypolicywindow.png)
 
 __Step 2 –__ From the Security Settings list, navigate to __Local Policies__ > __Security Options__.
 
 __Step 3 –__ Right-click the __Network Security: Configure encryption types allows for Kerberos__ policy > click __Properties__.
 
-![Configure Local Security Setting Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.png)
+![Configure Local Security Setting Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.png)
 
 __Step 4 –__ Configure necessary settings by checking each applicable box.
 
@@ -42,13 +42,13 @@ Follow the steps to configure a Local Group Security Policy to allow Kerberos.
 
 __Step 1 –__ Open the Local Group Policy Editor window.
 
-![Local Group Policy Editor window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localgrouppolicywindow.png)
+![Local Group Policy Editor window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/localgrouppolicywindow.png)
 
 __Step 2 –__ From the Local Computer Policy list, navigate to __Computer Configuration__ > __Windows Settings__ > __Security Settings__ > __Local Policies__ > __Security Options__ folder .
 
 __Step 3 –__ Right-click the __Network Security: Configure encryption types allows for Kerberos__ policy, then click __Properties__.
 
-![Configure Local Security Setting Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.png)
+![Configure Local Security Setting Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.png)
 
 __Step 4 –__ Configure necessary settings by checking each applicable box.
 
@@ -62,13 +62,13 @@ Follow the steps to ensure the settings for Active Directory Users and Computers
 
 __Step 1 –__ Open the Active Directory Users and Computers window.
 
-![Active Directory Users and Computers Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/activedirectoryusersandcomputerswindows.png)
+![Active Directory Users and Computers Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/activedirectoryusersandcomputerswindows.png)
 
 __Step 2 –__ Click and expand the Domain from the left-hand menu and click __Users__.
 
 __Step 3 –__ Right-click a __User__ from the list of available users, then click __Properties__.
 
-![User Properties Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/userproperteswindow.png)
+![User Properties Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/userproperteswindow.png)
 
 __Step 4 –__ Click the __Account__ tab.
 

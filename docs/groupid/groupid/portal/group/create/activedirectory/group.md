@@ -2,7 +2,7 @@
 
 Using Directory Manager portal, you can create static groups and Smart Groups in an Active Directory identity store.
 
-NOTE: If the Directory Manager administrator has specified the group creation action for review, the new group will be created after it is verified by an approver. See the [Requests](/docs/product_docs/groupid/groupid/portal/request/overview.md)topic for additional information.
+NOTE: If the Directory Manager administrator has specified the group creation action for review, the new group will be created after it is verified by an approver. See the [Requests](/docs/groupid/groupid/portal/request/overview.md)topic for additional information.
 
 ## Create a Static Group
 
@@ -13,11 +13,11 @@ Follow the steps to create a static group.
    The __Create Group__ wizard opens to the __Group Type__ page.
 
    Pages and fields on the Create Group wizard may vary, since the administrator can customize the wizard by adding or removing pages and fields.
-2. On the [Group Type page](/docs/product_docs/groupid/groupid/portal/group/create/grouptype.md), select the __Static Group__ option button and click __Next__.
-3. On the [General page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
-4. On the [Members page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/members.md), specify members for the group.
-5. On the [Owners page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
-6. On the [Summary Page](/docs/product_docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.
+2. On the [Group Type page](/docs/groupid/groupid/portal/group/create/grouptype.md), select the __Static Group__ option button and click __Next__.
+3. On the [General page](/docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
+4. On the [Members page](/docs/groupid/groupid/portal/group/create/activedirectory/members.md), specify members for the group.
+5. On the [Owners page](/docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
+6. On the [Summary Page](/docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.
 
 ## Create a Smart Group
 
@@ -33,14 +33,14 @@ Follow the steps to create a Smart Group:
    The __Create Group__ wizard opens to the __Group Type__ page.
 
    Pages and fields on the Create Group wizard may vary, since the administrator can customize the wizard by adding or removing tabs and fields.
-2. On the [Group Type page](/docs/product_docs/groupid/groupid/portal/group/create/grouptype.md), select the __Smart Group__ option button and click __Next__.
-3. On the [General page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
-4. On the [ Smart Group page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/smartgroup.md), review and modify the query for updating group membership.
-5. On the [Owners page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
+2. On the [Group Type page](/docs/groupid/groupid/portal/group/create/grouptype.md), select the __Smart Group__ option button and click __Next__.
+3. On the [General page](/docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
+4. On the [ Smart Group page](/docs/groupid/groupid/portal/group/create/activedirectory/smartgroup.md), review and modify the query for updating group membership.
+5. On the [Owners page](/docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
 
    When a Smart Group Update job runs on a group, the notification behavior is as follows:  
     Even when the __Do not Notify__ check box is selected, the additional owner will receive the notifications if the administrator has included its email address for job-specific notifications.
-6. On the [1](/docs/product_docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.
+6. On the [1](/docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.
 
 ## Create a Password Expiry Group
 
@@ -56,11 +56,11 @@ Follow the steps to create a Password Expiry Group:
    The __Create Group__ wizard opens to the __Group Type__ page.
 
    Pages and fields on the Create Group wizard may vary, since the administrator can customize the wizard by adding or removing tabs and fields.
-2. On the [Group Type page](/docs/product_docs/groupid/groupid/portal/group/create/grouptype.md), select the __Password Expiry Group__ option button and click __Next__.
-3. On the [General page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
-4. On the [ Smart Group page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/smartgroup.md), review and modify the query for updating group membership.
-5. On the [Owners page](/docs/product_docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
+2. On the [Group Type page](/docs/groupid/groupid/portal/group/create/grouptype.md), select the __Password Expiry Group__ option button and click __Next__.
+3. On the [General page](/docs/groupid/groupid/portal/group/create/activedirectory/general.md), specify basic information about the group.
+4. On the [ Smart Group page](/docs/groupid/groupid/portal/group/create/activedirectory/smartgroup.md), review and modify the query for updating group membership.
+5. On the [Owners page](/docs/groupid/groupid/portal/group/create/activedirectory/owners.md), specify primary and additional owners for the group.
 
    When a Smart Group Update job runs on a group, the notification behavior is as follows:  
     Even when the __Do not Notify__ check box is selected, the additional owner will receive the notifications if the administrator has included its email address for job-specific notifications.
-6. On the [Summary Page](/docs/product_docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.
+6. On the [Summary Page](/docs/groupid/groupid/portal/user/create/activedirectory/summary.md), review the settings and then click Finish to complete the wizard.

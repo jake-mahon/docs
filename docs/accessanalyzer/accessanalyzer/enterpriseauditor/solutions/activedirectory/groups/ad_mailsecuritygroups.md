@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD\_MailSecurityGroups__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_MailSecurityGroups Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/mailsecuritygroupsanalysis.png)
+![Analysis Tasks for the AD_MailSecurityGroups Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/mailsecuritygroupsanalysis.png)
 
 The default analysis tasks are:
 

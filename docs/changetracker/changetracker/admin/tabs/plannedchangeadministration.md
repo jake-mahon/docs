@@ -15,6 +15,6 @@ Any Planned Change comprises the following elements:
 - __Rule Definition__ – Rules are typically defined against Device Events, with the Tracker™, Item Type and logical operator applied to match a file/registry value/software installation etc. name/part name.
 - Use the new __Planned Change Wizard__ to guide you through the steps required to create a Planned Change Schedule and Rule Set.
 
-__NOTE:__ Rules can also be created directly from an observed event using the Actions button on the [Events Tab](/docs/product_docs/changetracker/changetracker/admin/tabs/events.md), or by recording events directly from a device group. Note that an additional Planned Change Schedule filter is available in the __Filter Control__ panel. Planned Change Schedules can be re-used – use the Clone button to create a copy.
+__NOTE:__ Rules can also be created directly from an observed event using the Actions button on the [Events Tab](/docs/changetracker/changetracker/admin/tabs/events.md), or by recording events directly from a device group. Note that an additional Planned Change Schedule filter is available in the __Filter Control__ panel. Planned Change Schedules can be re-used – use the Clone button to create a copy.
 
-![PlannedChangesRules](/static/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangesrules.png)
+![PlannedChangesRules](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangesrules.png)

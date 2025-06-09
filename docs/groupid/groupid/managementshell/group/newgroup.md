@@ -47,7 +47,7 @@ New-Group -Name "Event Management" -OrganizationalUnit "OU=Local Recruiting,OU=R
 
 Example 2:
 
-The command below creates a new mail-enabled, domain-local, semi-private, security group in the container specified by the __OrganizationalUnit__ parameter, using the credentials set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The command below creates a new mail-enabled, domain-local, semi-private, security group in the container specified by the __OrganizationalUnit__ parameter, using the credentials set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 New-Group -Name "Enrollment" -OrganizationalUnit "OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -GroupAlias "Enrollment" -MailEnable True -SamAccountName "Enrollment" -GroupScope "Domain Local" -Type "Security" -SecurityType "Semi_Private"

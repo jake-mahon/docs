@@ -6,7 +6,7 @@ The following actions target third-party applications.
 
 This action creates an incident in ServiceNow®.
 
-![createservicenow](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/createservicenow.png)
+![createservicenow](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/createservicenow.png)
 
 - Instance – Specify the ServiceNow instance. Only enter a name and the .servicenow.com instance is automatically applied. For example, entering "company" will automatically become company.servicenow.com.
 - Message – Specify the optional message to display
@@ -17,7 +17,7 @@ This action creates an incident in ServiceNow®.
 
 This action sends an authentication push to the Duo API.
 
-![duoauthenticationpush](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/duoauthenticationpush.png)
+![duoauthenticationpush](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/duoauthenticationpush.png)
 
 - Users – Select the users to authenticate. If not specified, the user who triggered the threat will be used.
 - Admin Integration Key – Specify the Duo Admin integration key
@@ -41,7 +41,7 @@ This action sends an authentication push to the Duo API.
 
 This action posts to a Microsoft Teams channel.
 
-![microsoftteams](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/microsoftteams.png)
+![microsoftteams](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/microsoftteams.png)
 
 - Message – Specify the optional message to display
 - URI – Specify the URI for the Microsoft Teams incoming webhook
@@ -50,7 +50,7 @@ This action posts to a Microsoft Teams channel.
 
 This action utilizes RADIUS profiles to authenticate user activity.
 
-![radiusauthentication](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/radiusauthentication.png)
+![radiusauthentication](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/radiusauthentication.png)
 
 - User Not Found Behavior – Select how to handle a user not configured for RADIUS authentication. If not specified, the authentication will fail.
 - Method – Specify the RADIUS authentication method value required by the authentication provider. This value will vary depending upon vendor. Example values may include: push, SMS, or phone.
@@ -60,15 +60,15 @@ This action utilizes RADIUS profiles to authenticate user activity.
 
 ## Send Syslog
 
-This action sends a Syslog message to a server. This action utilizes the current SIEM settings, specified on the [Integrations Interface](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md), to send the threat information via Syslog.
+This action sends a Syslog message to a server. This action utilizes the current SIEM settings, specified on the [Integrations Interface](/docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md), to send the threat information via Syslog.
 
-![sendsyslog](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/sendsyslog.png)
+![sendsyslog](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/sendsyslog.png)
 
 ## Set Forescout Property On Host
 
 This action adds a property to a Forescout host record. Forescout collections can be configured to monitor this property. This allows Threat Manager to integrate with the Forescout platform to enable the use of the capabilities of Forescout for threat response.
 
-![forescoutproperty](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/forescoutproperty.png)
+![forescoutproperty](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/forescoutproperty.png)
 
 - Forescout Server IP – The IP address of the Forescout server
 - Forescout Property String – The value of the Forescout property string to be added to the host associated with the Target IP
@@ -79,7 +79,7 @@ This action adds a property to a Forescout host record. Forescout collections ca
 
 This action sends a message to Slack.
 
-![slack](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/slack.png)
+![slack](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/slack.png)
 
 - Message – The optional message to display
 - URI – The URI for the Slack incoming webhook
@@ -88,7 +88,7 @@ This action sends a message to Slack.
 
 This action sends an SMS message through Twilio.
 
-![twiliosms](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/twiliosms.png)
+![twiliosms](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/twiliosms.png)
 
 - To – The phone number receiving threat notifications. Include the country code.
 - SID – The Twilio SID
@@ -100,7 +100,7 @@ This action sends an SMS message through Twilio.
 
 This action scans the file hashes against the VirusTotal API and emails the results.
 
-![virustotalreport](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/virustotalreport.png)
+![virustotalreport](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/virustotalreport.png)
 
 - Subject – The optional custom email subject. If a subject is not specified, a default email subject will be used.
 - Key – The key provided by VirusTotal
@@ -110,7 +110,7 @@ This action scans the file hashes against the VirusTotal API and emails the resu
 
 This action executes a webhook via a HTTP request from Threat Manager. Webhooks are used by a variety of web applications to trigger actions or receive data from external sources.
 
-![webhook](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/webhook.png)
+![webhook](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/webhook.png)
 
 - Method – The HTTP method for the webhook. Select a method from the drop-down list:
   - GET

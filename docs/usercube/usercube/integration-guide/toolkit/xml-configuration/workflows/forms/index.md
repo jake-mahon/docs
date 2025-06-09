@@ -4,32 +4,32 @@ Workflows use forms to collect input data through the UI. A form is a set of fie
 
 Here is a list of forms:
 
-- [Workflow Add and End Record Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/index.md)
+- [Workflow Add and End Record Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/index.md)
 
   Displays a form to define the end date of an existing record, and replace it with a new record at said date, by duplicating and adjusting the old record.
-- [Workflow Add Record Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/index.md)
+- [Workflow Add Record Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/index.md)
 
   Displays a form to add a new record for an existing resource, by duplicating and adjusting an existing record.
-- [Workflow Create Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/index.md)
+- [Workflow Create Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/index.md)
 
   Displays a form to create a new resource, without a record.
-- [Workflow Create Record Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/index.md)
+- [Workflow Create Record Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/index.md)
 
   Displays a form to create a new resource with a record.
 - [
   Workflow Create Several Records Entity Form
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/index.md)
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/index.md)
 
   Displays a form to create a new resource with one or several records.
-- [Workflow Edit Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/index.md)
+- [Workflow Edit Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/index.md)
 
   Displays a form to update or delete an existing resource, without a record.
-- [Workflow Update Record Entities Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/index.md)
+- [Workflow Update Record Entities Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/index.md)
 
   Displays a form to update data for several resources simultaneously.
-- [Workflow Update Record Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/index.md)
+- [Workflow Update Record Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/index.md)
 
   Displays a form to select an existing record and update it.
-- [Workflow Update Several Records Entity Form](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/index.md)
+- [Workflow Update Several Records Entity Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/index.md)
 
   Displays a form to create, update or delete one or several records.

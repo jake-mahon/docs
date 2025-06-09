@@ -16,7 +16,7 @@ There are three options for Login Account Templates in an Activity:
     - %samaccountname%, %department%, %email%, %userprincipalname%, %displayname%
 - Use a mask to define an account that will be created locally on the target resource — For example, a mask of “```%domain%_%samaccountname%```” in conjunction with the Create Local Account option set to yes, will result in a local account being created using name substitution so the user “sblab\jsmith” will be connected to a local account named “sblab\_jsmith”
 
-__NOTE:__ The value of each mask can be customized on the [Properties Tab](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/properties.md) of the Application details page. See the [User, Group, & Application Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
+__NOTE:__ The value of each mask can be customized on the [Properties Tab](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/properties.md) of the Application details page. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 
 ## Functions for Login Account Templates
 

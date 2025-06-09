@@ -4,7 +4,7 @@ An important element for the __Discovery Service__ is the __Conversion Wizard__.
 
 The __Conversion Wizard__ is started in the Start ribbon and it is also possible to switch here to the __System Tasks__.
 
-![ribbon](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_1-en.png)
+![ribbon](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_1-en.png)
 
 After the __Discovery Service Task__ has been successfully executed, the entries are available in the __Discovery Service__. Further processing of the entries is then carried out using the __Conversion Wizard__.
 For processing in the __Conversion Wizard__, the network is scanned for the following types:
@@ -20,7 +20,7 @@ Only those __services are recorded__ to which at least one __AD user__ or __user
 
 In the __Discovery Service__ table, the user selects the entries for which he wants to add a __Password Reset__ or __password__. The user then clicks on the __Conversion Wizard__ and the __Discovery Service Conversion Wizard__ opens for further editing.
 
-![data selection](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_2-en.png)
+![data selection](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_2-en.png)
 
 1. A __Discovery Service Task__ first needs to be selected. This determines the context in which the new data will be created (for a new __Password Reset__, the __password for the domain administrator__ for the task will be used as the executing user. In addition, only those __Discovery Service Task entries__ that are also discovered by the entered __Discovery Service Task__ will be used for the conversion).
 2. The discovered entries will be displayed in this column with the __services__ for which the user has been entered.
@@ -31,7 +31,7 @@ NOTE: Logically, __every root node__ corresponds to __one user__ and all of its 
 
 The following image shows the options __add new password__ or retain __existing password__.
 
-![associated password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_3-en.png)
+![associated password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_3-en.png)
 
 In addition, the __organisational unit__ in which the existing password is located is displayed.
 
@@ -39,7 +39,7 @@ In addition, the __organisational unit__ in which the existing password is locat
 
 The __Password Reset__ is configured in the __Settings Ribbon__.
 
-![reset setting](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_4-en.png)
+![reset setting](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_4-en.png)
 
 The __settings__ will be described in more detail below:
 
@@ -56,7 +56,7 @@ __CAUTION:__ After clicking on __Finish__, the __Password Resets__ will be __imm
 
 If option 1: __Do you also want to add a Password Reset?__ is not selected, \*steps 4, 5 and 6 are not displayed for configuration.
 
-![password reset option](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_5-en.png)
+![password reset option](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_5-en.png)
 
 NOTE: After clicking on __Finish__, one or more __passwords will be created__ but __no corresponding Password Resets will be created!__
 
@@ -66,7 +66,7 @@ In the __Assignment (Active Directory user)__ Ribbon, the discovered data for th
 
 The following images shows the __Assignment (Active Directory user)__ Ribbon
 
-![Assignment (Active Directory user)](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_6-en.png)
+![Assignment (Active Directory user)](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_6-en.png)
 
 ### Description
 
@@ -76,7 +76,7 @@ The following images shows the __Assignment (Active Directory user)__ Ribbon
 
 ### "Existing form" selected
 
-![Assignment of the form field](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_7-en.png)
+![Assignment of the form field](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_7-en.png)
 
 ### Procedure
 
@@ -86,7 +86,7 @@ The following images shows the __Assignment (Active Directory user)__ Ribbon
 
 ### "New form" selected
 
-![New Form](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_8-en.png)
+![New Form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_8-en.png)
 
 ### Converting Procedure
 
@@ -98,7 +98,7 @@ The following images shows the __Assignment (Active Directory user)__ Ribbon
 
 A brief overview of the actions that will be carried out with the added configuration is displayed in the __Summary__ Ribbon. These actions will then be carried out if you click on __Finish__.
 
-![summary](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_9-en.png)
+![summary](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_9-en.png)
 
 ## Confirmation prompt
 
@@ -115,7 +115,7 @@ __CAUTION:__ __Please observe the note and read it through carefully!__
 An __Overview__ of which actions will be carried out is displayed for the user together with this note. The user can then still decide to __Cancel__ the process.
 If you click on __OK__, an __additional confirmation warning__ will be displayed.
 
-![important note](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_10-en.png)
+![important note](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_10-en.png)
 
 __Security level 2:__
 
@@ -123,6 +123,6 @@ Another __confirmation prompt__ highlights that it is important to understand wh
 
 __CAUTION:__ __Last chance to cancel the execution!__
 
-![securtiy warning](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_11-en.png)
+![securtiy warning](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_11-en.png)
 
 After __entering the displayed number__ and __confirming with OK__, the process is __executed immediately__ and the __Password Resets__ are carried out and the __associated passwords changed__.

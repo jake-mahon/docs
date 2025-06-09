@@ -19,16 +19,16 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 To configure your Nutanix File Server for monitoring SMB shares, you will need to do the following:
 
-__Step 1 –__ Create a user account to access the Nutanix REST API. See the [Create User Account to Access Nutanix REST API](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/useraccount.md) topic for additional information.
+__Step 1 –__ Create a user account to access the Nutanix REST API. See the [Create User Account to Access Nutanix REST API](/docs/auditor/auditor/configuration/fileservers/nutanix/useraccount.md) topic for additional information.
 
-__Step 2 –__ Open a port for inbound connections. See the [Nutanix Ports](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/ports.md) topic for additional information.
+__Step 2 –__ Open a port for inbound connections. See the [Nutanix Ports](/docs/auditor/auditor/configuration/fileservers/nutanix/ports.md) topic for additional information.
 
 In addition, configure the Auditor console server as a partner server for Nutanix Files, and create a notification policy to make Netwrix Auditor aware of the Nutanix events. These operations can be performed in any of the following ways:
 
-- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
 - Manually, as described in the corresponding topics:
-  - [Configure Partner Server](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/partnerserver.md)
-  - [Create a Notification Policy](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/notificationpolicy.md)
+  - [Configure Partner Server](/docs/auditor/auditor/configuration/fileservers/nutanix/partnerserver.md)
+  - [Create a Notification Policy](/docs/auditor/auditor/configuration/fileservers/nutanix/notificationpolicy.md)
 
 Remember that in both cases (automatic or manual configuration) you will need to complete the steps above to ensure that the user account for accessing REST API is created and the listening port on Netwrix Auditor  Server is open for inbound connections.
 

@@ -1,15 +1,15 @@
 # User and Group Collections Page
 
-The User and Group Collection page is accessible from the Navigation pane under Users & Group. It shows session information for user and group collections. To gain access to the Privilege Secure console, users or groups have to be added in the top level [Users & Groups Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+The User and Group Collection page is accessible from the Navigation pane under Users & Group. It shows session information for user and group collections. To gain access to the Privilege Secure console, users or groups have to be added in the top level [Users & Groups Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
 Collections are conglomerated users and groups (that have already been granted rights in the console) that will gain the same rights collectively. Like users and groups individually, collections can also be added to policies. Collections are helpful as they allow multiple roles to be assigned in a single action in the console. The information in the User and Group Collections table is also displayed on the __Users Dashboard__.
 
-![Users and Group Collections Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/userandgroupcollectionspage.png)
+![Users and Group Collections Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/userandgroupcollectionspage.png)
 
 The pane on the left side of the page displays a list of the configured collections. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Blue + button — Create a new collection. See the [Add Users & Groups Window](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md) topic for additional information.
+- Blue + button — Create a new collection. See the [Add Users & Groups Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md) topic for additional information.
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A confirmation window will display.
 
 The selected collection details display at the top of the main pane:
@@ -26,7 +26,7 @@ The table has the following columns:
 
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
-- Name — Displays the name of the account. Click the link to view additional details. See the [User, Group, & Application Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
+- Name — Displays the name of the account. Click the link to view additional details. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account
 - Email — Displays the associated email address, if available

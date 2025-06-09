@@ -4,11 +4,11 @@
 
 Write data to the Audit Database and to the Long-Term Archive. By default, all imported data is written to a special Netwrix\_Auditor\_API database and recognized as the Netwrix API data source. This data is not associated with any monitoring plan in the product. You can associate Activity Records with a plan, in this case data will be written to a database linked to this plan. Make sure the plan you specify is already created in Netwrix Auditor, the Netwrix API data source is added to the plan and enabled for monitoring.
 
-To feed data, send a POST request containing Activity Records. The user sending a request must be assigned the Contributor role in Netwrix Auditor. After feeding data to the Audit Database it will become available for search in the Netwrix Auditor client and through [/netwrix/api/v1/activity\_records/search](/docs/product_docs/auditor/auditor/api/searchactivityrecords.md) and [/netwrix/api/v1/activity\_records/enum](/docs/product_docs/auditor/auditor/api/retrieveactivityrecords.md) endpoints.
+To feed data, send a POST request containing Activity Records. The user sending a request must be assigned the Contributor role in Netwrix Auditor. After feeding data to the Audit Database it will become available for search in the Netwrix Auditor client and through [/netwrix/api/v1/activity\_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) and [/netwrix/api/v1/activity\_records/enum](/docs/auditor/auditor/api/retrieveactivityrecords.md) endpoints.
 
 | Method | Endpoint | POST Data |
 | --- | --- | --- |
-| ```POST``` | ```https://{host:port}/netwrix/api/v1/activity_records/{?format=json}``` | [Activity Records](/docs/product_docs/auditor/auditor/api/postdata/activityrecords.md) |
+| ```POST``` | ```https://{host:port}/netwrix/api/v1/activity_records/{?format=json}``` | [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) |
 
 Netwrix recommends limiting the input Activity Records file to 50MB and maximum 1,000 Activity Records.
 
@@ -24,13 +24,13 @@ Netwrix recommends limiting the input Activity Records file to 50MB and maximum 
 | Request Status | Response |
 | --- | --- |
 | Success | The HTTP status code in the response header is 200 OK and the body is empty. ``` HTTP/1.1 200 OK `````` Server: Microsoft-HTTPAPI/2.0 `````` Content-Length: 0 `````` Content-Type: text/plain `````` Date: Fri, 08 Apr 2017 13:56:22 GMT ``` |
-| Error | The header status code is an error code. Depending on the error code, the response body may contain an error object. [See Response Status Codes for more information.](/docs/product_docs/auditor/auditor/api/responsecodes.md) |
+| Error | The header status code is an error code. Depending on the error code, the response body may contain an error object. [See Response Status Codes for more information.](/docs/auditor/auditor/api/responsecodes.md) |
 
 ## Usage Example—Write Data
 
 This example describes how to feed Activity Records to the Audit Database.
 
-__Step 1 –__ Send a POST request containing Activity Records. [Activity Records](/docs/product_docs/auditor/auditor/api/postdata/activityrecords.md) For example:
+__Step 1 –__ Send a POST request containing Activity Records. [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) For example:
 
 |  |
 | --- |
@@ -57,10 +57,10 @@ Date: Fri, 08 Apr 2017 13:56:22 GMT
 
 __Step 3 –__ Send more POST requests containing Activity Records if necessary.
 
-__Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity\_records/search](/docs/product_docs/auditor/auditor/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
+__Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity\_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
 
-[![apiactivity_thumb_0_0](/static/img/product_docs/auditor/auditor/api/apiactivity_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/search/apiactivity.png)
+[![apiactivity_thumb_0_0](/img/product_docs/auditor/auditor/api/apiactivity_thumb_0_0.png)](/docs/auditor/resources/images/auditor/search/apiactivity.png)
 
 __Step 5 –__ For input Activity Records, the data source is set to Netwrix API.
 
-![apiactivitydetails](/static/img/product_docs/auditor/auditor/api/apiactivitydetails.png)
+![apiactivitydetails](/img/product_docs/auditor/auditor/api/apiactivitydetails.png)

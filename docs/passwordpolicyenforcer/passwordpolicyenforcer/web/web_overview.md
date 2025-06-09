@@ -6,7 +6,7 @@ Download Password Policy Enforcer Web:
 
 [Password\_Policy\_Enforcer\_WEB\_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
 
-![introduction_4](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/introduction_4.png)
+![introduction_4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/introduction_4.png)
 
 Password Policy Enforcer Web communicates directly with the domain controllers, so it works best when both the web server and domain controllers are on the same network. If you need to put the web server in a DMZ for extra security, then consider using Netwrix Password Reset instead of Password Policy Enforcer Web.
 

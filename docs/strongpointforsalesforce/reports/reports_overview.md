@@ -21,7 +21,7 @@ Open __Strongpoint__ > __Scanner__ > __Scheduler__
  __PermissionSet Assignment__ and __System Permission__ must be __Enabled__, and the __Frequency__ set to __Daily__.   
 If you have questions, contact your CSM or Salesforce Specialist.
 
-![Enabling reports](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.png)
+![Enabling reports](/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.png)
 
 ## Access Reports
 
@@ -33,11 +33,11 @@ You can focus on sensitive objects by filtering by object name and adding the na
 
 > __Permissions by Object__: Displays the permissions on each object for all Permission Sets and Profiles.
 >
-> ![Permission by object](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.png)
+> ![Permission by object](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.png)
 >
 > __Object Permission by Profile/PermSet__: Displays the object permissions organized by Permission Set and Profile.
 >
-> ![Access report by PermissionSet/Profile](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.png)
+> ![Access report by PermissionSet/Profile](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.png)
 >
 > __Users to Profiles/PermissionSets__: Displays the Profile, PermissionSet and PermissionSet Group assigned to each user. You can filter the report information. For example, if you want a list of users that have Admin profiles, you can set two filters:
 >
@@ -46,29 +46,29 @@ You can focus on sensitive objects by filtering by object name and adding the na
 >
 > __Date Assigned__ and __Expires on__ are only relevant for PermissionSets. They are blank for Profiles. If your org does not use the __Expires on__ feature, you can remove the column from the report.
 >
-> ![Users to Profile/PermissionSets](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.png)
+> ![Users to Profile/PermissionSets](/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.png)
 >
 > __Profiles to PermissionsSets Changes__: Displays the changes made to your Profiles, PermissionSets,and PermissionSet Groups. If there is an active policy, the __Compliance__ column displays whether the change was Compliant or Non-Compliant. If no policy, all changes are Compliant.
 >
-> ![Access Report Profile Permissions Changes](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.png)
+> ![Access Report Profile Permissions Changes](/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.png)
 >
-> __Changes to Users__: Displays the changes to tracked user data fields. Refer to [Enhanced CPQ Support](/docs/product_docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md) for more information on setting up tracking.
+> __Changes to Users__: Displays the changes to tracked user data fields. Refer to [Enhanced CPQ Support](/docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md) for more information on setting up tracking.
 >
 > If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply means the governor limits have been reached. Profiles and PermissionSets are very data heavy. Platform Governance for Salesforcet skips the record and continues the scan the next day to ensure there is no impact to your org.
 >
-> ![Changes to Users](/static/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.png)
+> ![Changes to Users](/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.png)
 >
 > __Record Types and Page Layout Assignments__: Displays the objects, record types and assigned layouts organized by profile.
 >
-> ![Access Reports Record Types and Layouts](/static/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.png)
+> ![Access Reports Record Types and Layouts](/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.png)
 >
 > __System Permissions__: displays the list of System Permissions, the Profile or Permission set that has access to it and the list of Users that have this system permission enabled.
 >
-> ![System Permissions](/static/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.png)
+> ![System Permissions](/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.png)
 >
 > __Field Permissions__: Displays the related objects, shows if there is a Read / Edit permission, the Profile or Permission set that give that field level access and the users related to those Profiles and permission sets.
 >
-> ![Field Permissions report](/static/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.png)
+> ![Field Permissions report](/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.png)
 >
 > To generate this report:
 >
@@ -142,27 +142,27 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Customi
 
 These reports are available from __Netwrix Dashboard__ > __Reports__ > __Clean Up__.
 
-> [Default Clean Up List View](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Default-Clean-Up-List-View)
+> [Default Clean Up List View](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Default-Clean-Up-List-View)
 >
-> [Open Clean Up Status](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Open-Clean-Up-Status)
+> [Open Clean Up Status](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Open-Clean-Up-Status)
 >
-> [Clean Up Waiting for Info](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Clean-Up-Waiting-for-Info)
+> [Clean Up Waiting for Info](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Clean-Up-Waiting-for-Info)
 >
-> [Customizations Excluded from Clean Up](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-Excluded-from-Clean-Up)
+> [Customizations Excluded from Clean Up](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-Excluded-from-Clean-Up)
 >
-> [Unused Fields](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Fields)
+> [Unused Fields](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Fields)
 >
-> [Unused Apex Code](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Apex-Code)
+> [Unused Apex Code](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Apex-Code)
 >
-> [Unused Reports](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Reports)
+> [Unused Reports](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Unused-Reports)
 >
-> [Customizations with Inactive Owners](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-with-Inactive-Owners)
+> [Customizations with Inactive Owners](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-with-Inactive-Owners)
 >
-> [Customizations without Related Processes](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-without-Related-Processes)
+> [Customizations without Related Processes](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Customizations-without-Related-Processes)
 >
-> [Custom Fields without Help Text](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Help-Text)
+> [Custom Fields without Help Text](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Help-Text)
 >
-> [Custom Fields without Description](/docs/product_docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Description)
+> [Custom Fields without Description](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#Custom-Fields-without-Description)
 
 ## Change Enablement
 
@@ -194,13 +194,13 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Change 
 
 These reports are available from __Netwrix Dashboard__ > __Reports__ > __Release and Deployment__.
 
-> [Success Deployments](/docs/product_docs/strongpointforsalesforce/reports/deployment_logs_success.md)
+> [Success Deployments](/docs/strongpointforsalesforce/reports/deployment_logs_success.md)
 >
-> [Deployments with Failures](/docs/product_docs/strongpointforsalesforce/reports/deployment_logs_failures.md)
+> [Deployments with Failures](/docs/strongpointforsalesforce/reports/deployment_logs_failures.md)
 >
-> [Deployments Pending Approval](/docs/product_docs/strongpointforsalesforce/reports/deployment_logs_pending_approval.md)
+> [Deployments Pending Approval](/docs/strongpointforsalesforce/reports/deployment_logs_pending_approval.md)
 >
-> [Rollback Logs](/docs/product_docs/strongpointforsalesforce/reports/deployment_logs_rollback.md)
+> [Rollback Logs](/docs/strongpointforsalesforce/reports/deployment_logs_rollback.md)
 
 ## Audit Reports
 

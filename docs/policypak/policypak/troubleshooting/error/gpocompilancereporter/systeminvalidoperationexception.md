@@ -2,7 +2,7 @@
 
 When using a remote SQL server as the database for Netwrix Endpoint Policy Manager (formerly PolicyPak) Group Policy Compliance Reporter, the snapshot operation may fail with the following error.
 
-![794_1_image-20200327171540-1](/static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
+![794_1_image-20200327171540-1](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
 
 The Server debug log will contain the following error as well:
 
@@ -12,7 +12,7 @@ The MSDTC transaction manager was unable to pull the transaction from the source
 (Exception from HRESULT: 0x8004D02B)
 ```
 
-To enable diagnostic logging, follow the directions in the article [How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/logenhanced.md)g-for-ppgpcr-server-if-asked/
+To enable diagnostic logging, follow the directions in the article [How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/logenhanced.md)g-for-ppgpcr-server-if-asked/
 
 The resulting GPCR Server log can be found in: ```C:\ProgramData\PolicyPak\PolicyPak Group Policy Compliance Reporter Server\Diagnostics```
 

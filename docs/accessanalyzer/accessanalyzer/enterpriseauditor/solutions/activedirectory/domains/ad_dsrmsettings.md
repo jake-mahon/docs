@@ -8,7 +8,7 @@ Navigate to the __Active Directory > 5.Domains > AD\_DSRMSettings > Configure__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![dsrmsettingsanalysis](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/dsrmsettingsanalysis.png)
+![dsrmsettingsanalysis](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/dsrmsettingsanalysis.png)
 
 The default analysis tasks are:
 

@@ -13,14 +13,14 @@ __Step 1 –__ If you want to use a Group Policy Preferences item along with a p
 populating your Preferences item (on-prem recommended) with as much data as you can, noting that the Connect
 as (or other fields) are not changeable in the MMC editor. Below are two examples.
 
-![916_1_image001](/static/img/product_docs/policypak/policypak/preferences/916_1_image001.png)
+![916_1_image001](/img/product_docs/policypak/policypak/preferences/916_1_image001.png)
 
-![916_2_image003](/static/img/product_docs/policypak/policypak/preferences/916_2_image003.png)
+![916_2_image003](/img/product_docs/policypak/policypak/preferences/916_2_image003.png)
 
 __Step 2 –__ Once you have the item, drag it to the desktop and open it for editing.  The goal is to enter the missing details by
 hand, typically the cPassword field.
 
-![916_3_image004](/static/img/product_docs/policypak/policypak/preferences/916_3_image004.png)
+![916_3_image004](/img/product_docs/policypak/policypak/preferences/916_3_image004.png)
 
 __Step 3 –__ To do get a cPassword, you need to provide an encrypted value in quotes.
 
@@ -63,4 +63,4 @@ All well-formed XML will be accepted and should process on the endpoint.
 __NOTE:__ Endpoint Policy Manager Preferences will need to be licensed for Endpoint Policy Manager Cloud. In domain-joined scenarios that
 component is automatically disabled until expressly enabled.
 
-See [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/product_docs/policypak/policypak/license/unlicense/forceddisabled.md)
+See [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/policypak/policypak/license/unlicense/forceddisabled.md)

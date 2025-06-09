@@ -2,9 +2,9 @@
 
 The Replay Viewer window allows a user with the Administrator role to watch a recorded activity session. Activity sessions are recorded when the Record Proxy Sessions checkbox is selected in the connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are recorded using a granular metadata search that works across both live and recorded sessions.
 
-When recordings are available for a historical session, the expand icon is enabled on the [Historical Dashboard](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/historical.md).
+When recordings are available for a historical session, the expand icon is enabled on the [Historical Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/historical.md).
 
-![Historical dashboard showing available recordings](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingavailable.png)
+![Historical dashboard showing available recordings](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingavailable.png)
 
 Multiple recording can exist for a session. There are two types of Replay Viewer windows:
 
@@ -17,7 +17,7 @@ Select the desired recording and the Replay Viewer window opens.
 
 The Replay Viewer window for RDP sessions is applicable to all resources except the Websites.
 
-![Replay Viewer window for an RDP session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerrdp.png)
+![Replay Viewer window for an RDP session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerrdp.png)
 
 The Replay Viewer for RDP Sessions window has the following features:
 
@@ -42,7 +42,7 @@ Activity Details:
 
 - Time line — Displays recorded activity that occurred during the session in the pane to the left of the player. By default this time line will include keystroke activity.
 
-  __NOTE:__ If RDP Session Monitoring is enabled, then it will also include Windows metadata activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop Monitor service to be installed on the target host. See the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/install/rdpmonitor.md) topic for additional information.
+  __NOTE:__ If RDP Session Monitoring is enabled, then it will also include Windows metadata activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop Monitor service to be installed on the target host. See the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/privilegesecure/accessmanagement/install/rdpmonitor.md) topic for additional information.
 
 ## Replay Viewer for SSH Sessions
 
@@ -50,7 +50,7 @@ The Replay Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
 __NOTE:__ When a user enters input into a password prompt during an SSH session, the keystrokes will be obscured in the Replay Viewer.
 
-![replayviewerssh](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerssh.png)
+![replayviewerssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerssh.png)
 
 The Replay Viewer for SSH Sessions window has the following features:
 
@@ -79,7 +79,7 @@ Activity Details:
 
 The Replay Viewer window for Website host sessions is applicable only to Website hosts.
 
-![Replay Viewer window for a Website host session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerwebsite.png)
+![Replay Viewer window for a Website host session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerwebsite.png)
 
 The Replay Viewer for Website Host Sessions window has the following features:
 

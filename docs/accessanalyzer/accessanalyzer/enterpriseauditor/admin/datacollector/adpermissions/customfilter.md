@@ -5,7 +5,7 @@ The Custom Filter page provides options to configure settings for object permiss
 - Scan Active Directory Permissions
 - Scan Active Directory Audits
 
-![ADPermissions Data Collector wizard Custom Filter page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/customfilter.png)
+![ADPermissions Data Collector wizard Custom Filter page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/customfilter.png)
 
 The configurable options are:
 

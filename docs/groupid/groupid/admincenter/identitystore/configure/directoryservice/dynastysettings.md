@@ -2,7 +2,7 @@
 
 A Dynasty is a Smart Group that creates and manages other Smart Groups using information in the directory. The Smart Groups that a Dynasty creates are called child groups that become members of their respective parent Dynasties.
 
-A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/docs/product_docs/groupid/groupid/admincenter/general/concepts.md#Dynasties) topic.
+A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/docs/groupid/groupid/admincenter/general/concepts.md#Dynasties) topic.
 
 You can control how Directory Manager processes Dynasties through the following settings:
 
@@ -17,7 +17,7 @@ Each Smart Group and Dynasty has a query defined for it. On update, this query i
 The Directory Manager portal provides two methods to update Smart Groups and Dynasties:
 
 - Manual update - You can manually execute the query for a Dynasty and Smart Group any time.
-- Scheduled update - Scheduled updates, powered by a Smart Group Update schedule, auto run at a specified frequency to update the target groups and Dynasties. See the [Smart Group Update Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md) topic.
+- Scheduled update - Scheduled updates, powered by a Smart Group Update schedule, auto run at a specified frequency to update the target groups and Dynasties. See the [Smart Group Update Schedule](/docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md) topic.
 
 __What happens on Dynasty update?__
 

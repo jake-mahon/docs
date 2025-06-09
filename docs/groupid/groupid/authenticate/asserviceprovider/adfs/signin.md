@@ -8,10 +8,10 @@ We configured the ADS FS provider with a Directory Manager client, that is the D
 ### SP-Initiated Single Sign-On
 
 Step 1 – Launch the Directory Manager portal _Wizard_.  
-On the Login page, the availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 2 in the [Specify Advanced Configurations](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Specify-Advanced-Configurations) topic).  
+On the Login page, the availability of the user name and password fields depends on whether you disabled Directory Manager Authentication or not (see step 2 in the [Specify Advanced Configurations](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Specify-Advanced-Configurations) topic).  
 The AD FS option may be displayed as a button or an image.
 
-Step 2 – Click the AD FS button or image; you will be redirected to the AD FS authentication page with the URL you provided as the IDP login URL (see the [Provide IDP Login URL](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Provide-IDP-Login-URL) topic).
+Step 2 – Click the AD FS button or image; you will be redirected to the AD FS authentication page with the URL you provided as the IDP login URL (see the [Provide IDP Login URL](/docs/groupid/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Provide-IDP-Login-URL) topic).
 
 Step 3 – Sign in as an Active Directory regular user. On signing in, the authentication is routed to AD FS, that will validate the user with respect to the specified attribute (i.e., user principal name – UPN in our case) and log him or her into the Directory Manager portal.
 

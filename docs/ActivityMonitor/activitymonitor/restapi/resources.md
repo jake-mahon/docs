@@ -6,7 +6,7 @@ The 8.0 API model consists of the following resources:
   Represents an Activity Monitor Agent. API allows you to view existing agents and their status, register, modify, or remove agents. There is no way to install, upgrade, or uninstall agents in the 6.0 API.
   You can list all the agents or the agents of a domain (AD-monitoring agents on the domain controllers).   
   Children: Host, Domain  
-  See the [Agent](/docs/product_docs/activitymonitor/activitymonitor/restapi/agent.md) topic for additional information.
+  See the [Agent](/docs/activitymonitor/activitymonitor/restapi/agent.md) topic for additional information.
 
 - Host
   – Represents a host or platform monitored by the product (Windows, NetApp, SharePoint, SQL Server, etc). It is a Monitored Host in the Console. You can list all the hosts of the agent, or just all the hosts.
@@ -14,12 +14,12 @@ The 8.0 API model consists of the following resources:
   Typical properties include a hostname, credentials to access API, connection settings.
   A Host is associated with at least one Output. Each Host can have multiple child Outputs, and each Output has its own unique filter settings.   
   Children: Output  
-  See the [Host](/docs/product_docs/activitymonitor/activitymonitor/restapi/host.md) topic for additional information.
+  See the [Host](/docs/activitymonitor/activitymonitor/restapi/host.md) topic for additional information.
 
 - Domain –
   It is a Monitored Domain in the Console. The API provides summary information about each monitored domain. Similar to host, the domain also has one or more output. These outputs are common for all AD-monitoring agents of the domain. Each domain controller has the same log file settings, syslog, and AMQP.  
   Children: Output, Agent  
-  See the [Domain](/docs/product_docs/activitymonitor/activitymonitor/restapi/domain.md) topic for additional information.
+  See the [Domain](/docs/activitymonitor/activitymonitor/restapi/domain.md) topic for additional information.
 
 - Output
   – A log file or Syslog or AMQP (DEFEND) destination for the activity data. Typical properties of the __Output__ include log file settings (path, retention etc.), syslog settings (server, UDP/TCP, message template etc.), path filtering (include C:, exclude C:\temp), operations (Write File, Create File, Delete File, Create Share etc.), account filtering (exclude DOMAIN\service-account1), protocol (CIFS, NFS), etc.   
@@ -29,7 +29,7 @@ The 8.0 API model consists of the following resources:
   - Policy
     represents an Active Directory monitoring policy. The API allows you to create new policies, list, modify, and delete existing.
 
-  See the [Output](/docs/product_docs/activitymonitor/activitymonitor/restapi/output.md) topic for additional information.
+  See the [Output](/docs/activitymonitor/activitymonitor/restapi/output.md) topic for additional information.
 
 Data is transmitted as JSON objects or as JSON Merge Patch for PATCH requests. Dates are formatted in UTC using the ```YYYY-MM-DDTHH:MM:SS``` DateTime format. Security-sensitive data like passwords, certificates, and access tokens are not returned by the GET requests but can be set using POST and PATCH requests.
 
@@ -129,8 +129,8 @@ Response Example:
     "fpolicyIpWhitelist": [],  
     "minLocalFreeSpace": "64MB",  
     "ceeVcapsIsEnabled": false,  
-    "ceeVcapsInterval": 60,  
-    "ceeVcapsEvents": 100,  
+    "ceeVcapsInterval": 60,
+    "ceeVcapsEvents": 100,  
     "alertsIsEnabled": false,  
     "alertsInactivityInterval": 360,  
     "alertsReplayInterval": 360,  
@@ -332,7 +332,7 @@ Request Body Structure:
 
 ```
 {  
-    "operation" : "string",   
+    "operation" : "string",  
     "install" : {  
         "adModule" : bool,  
         "upgrade" : bool,  
@@ -589,8 +589,8 @@ Response Example:
           "queue": "StealthINTERCEPT",  
           "vhost": ""  
         },  
-        "fileFilter": null,  
-        "sharePointFilter": null,  
+        "fileFilter": null,
+        "sharePointFilter": null,  
         "comment": "",  
         "managedBy": "",  
         "windows": null  
@@ -691,8 +691,8 @@ Response Example:
     "agentsIds": [],  
     "isEnabled": true,  
     "type": "Amqp",  
-    "logFile": null,  
-    "syslog": null,  
+    "logFile": null,
+    "syslog": null,  
     "amqp": {  
       "server": "127.0.0.1:10001",  
       "userName": "StealthINTERCEPT",  
@@ -880,8 +880,8 @@ Response Example:
       "managedBy": "",  
       "windows": {  
         "vssCreation": true,  
-        "vssActivity": true,  
-        "discardReorderedAcl": true,  
+        "vssActivity": true,
+        "discardReorderedAcl": true,  
         "discardInheritedAcl": false  
       }  
     },  
@@ -1574,8 +1574,8 @@ The following attributes can be modified:
 For File System hosts:
 
 - ```fileFilter.excludeAccounts```
-- ```fileFilter.includePaths``` ¬ Depreciated. Has been replaced by 'pathFilters'.
-- ```fileFilter.excludePaths ¬``` Depreciated. Has been replaced by 'pathFilters'.
+- ```fileFilter.includePaths``` ¬ Depreciated. Has been replaced by 'pathFilters'.
+- ```fileFilter.excludePaths``` ¬ Depreciated. Has been replaced by 'pathFilters'.
 - ```fileFilter.pathFilters``` ¬ An ordered array of strings where each element has ```{+/-}path``` format. ```+``` means include path, ```-``` means exclude path. ```?```, ```*```, and ```**``` wildcards are supported. Example: ```['+c:/windows/**', '-c:/temp/**']```
 
 For SharePoint hosts:
@@ -1677,17 +1677,15 @@ GET /api/v1/logs/«outputId»?includeLocal=true&includeArchived=false
 
 Returns a list of files produced by the specified output.
 
-- Parameters –
-  ```||Name|Type|Default|Description||
-  |includeLocal|bool|true|Return log files on a local drive of the agent|
-  |includeArchived|bool|false|Return log files in the archival location|```
+**Parameters:**
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| includeLocal | bool | true | Return log files on a local drive of the agent |
+| includeArchived | bool | false | Return log files in the archival location |
+
 - Permission – Read or Access activity data
 - Response – Array of File
-
-Parameters:
-```||Name|Type|Default|Description||
-|includeLocal|bool|true|Return log files on a local drive of the agent|
-|includeArchived|bool|false|Return log files in the archival location|```
 
 Permission: Read or Access activity data
 
@@ -1702,8 +1700,8 @@ Response Example:
     "size": 20619226,  
     "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190419.tsv",  
     "isZip": false,  
-    "isArchived": false,  
-    "type": "Tsv",  
+    "isArchived": false,
+    "type": "Tsv",  
     "updatedAt": "2019-04-19T10:17:32.0546644Z",  
     "activityFrom": "2019-04-15T14:30:51",  
     "activityTo": "2019-04-19T10:17:32",  
@@ -1830,8 +1828,7 @@ Request Bbody Eexample:
 ```
 {  
   "isEnabled": false  
-}  
-
+}
 ```
 
 DELETE /api/v1/domains/«domainId»/policies/«policyId»

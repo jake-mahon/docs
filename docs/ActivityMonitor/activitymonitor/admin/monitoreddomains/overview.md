@@ -32,17 +32,17 @@ This tab is comprised of a button bar and a table of domains being monitored. Th
 
 The button bar allows users to take the following actions:
 
-![Monitored Domains Tab in the Activiy Monitor](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/activtymonitorblank.png)
+![Monitored Domains Tab in the Activiy Monitor](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/activtymonitorblank.png)
 
-- Add Output – Select an output from the Add Output dropdown. The outputs are: File, Syslog, and StealthDEFEND. See the [Output for Monitored Domains](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/output.md)
+- Add Output – Select an output from the Add Output dropdown. The outputs are: File, Syslog, and StealthDEFEND. See the [Output for Monitored Domains](/docs/activitymonitor/activitymonitor/admin/monitoreddomains/output.md)
 - Remove – Removes the configured domain from the table of domains being monitored and end monitoring. Confirmation of this option will be asked for.
-- Edit – Opens the selected AD Monitoring Configuration window to modify monitoring settings. See the [AD Monitoring Configuration Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/overview.md) topic for additional information.
+- Edit – Opens the selected AD Monitoring Configuration window to modify monitoring settings. See the [AD Monitoring Configuration Window](/docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/overview.md) topic for additional information.
 
 ## Table
 
 The table of Domains being monitored provides the following information:
 
-![Monitored Domains Tab with Domain Outputs added](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainoutputsadded.png)
+![Monitored Domains Tab with Domain Outputs added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainoutputsadded.png)
 
 - Domain – Name or IP Address of the domain being monitored
 
@@ -54,6 +54,6 @@ The table of Domains being monitored provides the following information:
 
 The Error Propagation collapsible section located above the Status Bar of the Activity Monitor provides visibility into a domain's monitoring state. Domain monitoring status is depicted in the Monitored Domains table under the Status column. Users can expand the Error Propagation section to view more information on various status conditions.
 
-![Error Propagation](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/errorpropagation.png)
+![Error Propagation](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/errorpropagation.png)
 
 Click the __Down Arrow__ to expand the Error Propagation section. The information listed is dependent on which domain is currently selected in the Monitored Domains table.

@@ -8,4 +8,4 @@ The screenshot below shows you what to provide to Endpoint Policy Manager Sales 
 
 __NOTE:__ This optional licensing method is only available with Microsoft Intune, and is not available on VMware Workspace One (Airwatch). It may or may not be available with other MDM services.
 
-![356_1_image_950x402](/static/img/product_docs/policypak/policypak/license/mdm/356_1_image_950x402.png)
+![356_1_image_950x402](/img/product_docs/policypak/policypak/license/mdm/356_1_image_950x402.png)

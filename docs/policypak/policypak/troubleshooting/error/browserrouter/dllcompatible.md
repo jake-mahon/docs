@@ -2,11 +2,11 @@
 
 When running IE and Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router, the following error could occur:
 
-![441_1_image004](/static/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_1_image004.jpg)
+![441_1_image004](/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_1_image004.jpg)
 
 This message is caused by IE Enhanced Security mode. To get Endpoint Policy Manager Browser Router to work properly, set IE specifically to have these two checkboxes unchecked.
 
-![441_2_image0012](/static/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_2_image0012.png)
+![441_2_image0012](/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_2_image0012.png)
 
 Then, restart IE (a reboot is not required).
 

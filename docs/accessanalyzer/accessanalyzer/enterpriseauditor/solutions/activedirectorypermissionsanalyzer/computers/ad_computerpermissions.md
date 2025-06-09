@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __4.Computers__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_ComputerPermissions Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/computers/computerpermissionsanalysis.png)
+![Analysis Tasks for the AD_ComputerPermissions Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/computers/computerpermissionsanalysis.png)
 
 The default analysis tasks are:
 

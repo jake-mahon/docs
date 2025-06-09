@@ -24,7 +24,7 @@ Content that has failed to process fully will be indicated under the "Exceptions
 - Deleted Automatically—Items that have been detected as removed from the source system
 - Deleted Manually—Items removed manually by an end-user via the administration console
 
-  [![dashboard_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/dashboard.png)
+  [![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/dataclassification/resources/images/dashboard.png)
 
 ## System Health
 
@@ -36,7 +36,7 @@ It is also possible to configure notifications of system issues, along with dail
 
 1. Click Dismiss at the bottom.
 
-   ![health_config_notifications](/static/img/product_docs/dataclassification/ndc/admin/reporting/health_config_notifications.png)
+   ![health_config_notifications](/img/product_docs/dataclassification/ndc/admin/reporting/health_config_notifications.png)
 2. Select Only dismiss health notifications that are older than one week, if you do not want to be notified on outdated issues.
 3. Select what you want to dismiss – warnings and all security notifications.
 

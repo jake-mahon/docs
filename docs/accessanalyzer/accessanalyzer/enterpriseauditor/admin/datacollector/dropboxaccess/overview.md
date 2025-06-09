@@ -1,6 +1,6 @@
 # DropboxAccess Data Collector
 
-The DropboxAccess Data Collector audits access, group membership, and content within a Dropbox environment. Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data using Sensitive Data Discovery. The DropboxAccess Data Collector has been preconfigured within the Dropbox Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Dropbox Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/overview.md) topic for additional information.
+The DropboxAccess Data Collector audits access, group membership, and content within a Dropbox environment. Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data using Sensitive Data Discovery. The DropboxAccess Data Collector has been preconfigured within the Dropbox Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Dropbox Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/overview.md) topic for additional information.
 
 Protocols
 
@@ -25,13 +25,13 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 The DropboxAccess Data Collector is configured through the Dropbox Access Auditor Data Collector Wizard. The wizard contains the following pages, which change based upon the query category selected:
 
 - Welcome
-- [DropboxAccess: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/category.md)
-- [DropboxAccess: Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
-- [DropboxAccess: Scoping](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md)
-- [DropboxAccess: DLP Audit Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
-- [DropboxAccess: Select DLP Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
-- [DropboxAccess: Summary (Completion)](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/completion.md)
+- [DropboxAccess: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/category.md)
+- [DropboxAccess: Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
+- [DropboxAccess: Scoping](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md)
+- [DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
+- [DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+- [DropboxAccess: Summary (Completion)](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/completion.md)
 
-![Dropbox Access Auditor Data Collector Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Dropbox Access Auditor Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

@@ -114,7 +114,7 @@ To enable notifications via SMTP, first select __SMTP__ in the __Method__ column
 | Use implicit SSL anthentification | Select this checkbox if the implicit SSL mode is used, which means that an SSL connection is established before any meaningful data is sent. |
 | Enforce certificate validation to ensure security | Select this checkbox if you want to verify security certificate on every email transmission. The option is not available for auditing User Activity as well Netwrix Auditor tools. |
 
-You can configure Activity Summary frequency, format and delivery time for each monitoring plan individually. See the [Fine-Tune Your Plan and Edit Settings](/docs/product_docs/auditor/auditor/admin/monitoringplans/finetune.md) topic for more information.
+You can configure Activity Summary frequency, format and delivery time for each monitoring plan individually. See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/auditor/admin/monitoringplans/finetune.md) topic for more information.
 
 After that, you can specify the recipient who will receive product activity and health summary emails.
 
@@ -129,4 +129,4 @@ __Step 2 –__ Specify recipient address:
 - To send to a single recipient, enter personal mailbox address.
 - To send to multiple recipients, make sure they are added to a distribution group, and enter the group address. Entering multiple individual addresses is not supported.
 
-To learn more about product health, you can also navigate to the Health status tile in the main window. It will take you to the Health Status dashboard that contains information on the product activity and system health state. See the [Health Status Dashboard](/docs/product_docs/auditor/auditor/admin/healthstatus/dashboard/overview.md) topic for additional information.
+To learn more about product health, you can also navigate to the Health status tile in the main window. It will take you to the Health Status dashboard that contains information on the product activity and system health state. See the [Health Status Dashboard](/docs/auditor/auditor/admin/healthstatus/dashboard/overview.md) topic for additional information.

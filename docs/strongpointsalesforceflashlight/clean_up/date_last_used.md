@@ -36,7 +36,7 @@ Usage data fields:
   | Recent | Populated,    May be stale | Disabled. Last scan when enabled was within the past three months.    Three months is the default time period. See [Setting the DLU Expiration](#Setting-the-DLUExpiration). | Within set time period | Populated |
   | Expired | Populated,    May be stale | Disabled. Last scan when enabled was longer than three months ago.    Three months is the default time period. See [Setting the DLU Expiration](#Setting-the-DLUExpiration). | Older than set time period | Populated |
 If Field History Tracking is enabled for a CustomField with a __DLU Status__ of either __Recent__ or __Expired__, the status is changed to __Pending__. Here is an example:  
-![Example of the DLU status fields for a CustomField](/static/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.png)
+![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.png)
 
 ### Notes
 
@@ -51,11 +51,11 @@ The DLU Parameters specify the number of months to wait before changing the DLU
 1. Open __Setup__
 2. Expand __Custom Code__
 3. Select __Custom Metadata Types__  
-   ![Open Custom Metadata Types](/static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.png)
+   ![Open Custom Metadata Types](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.png)
 4. Click __Manage Records__ by __Strongpoint DLU Parameter__.  
-   ![Click Manage Records to open the record](/static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.png)
+   ![Click Manage Records to open the record](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.png)
 5. Click __Edit__ by __DLU Expiration__.  
-   ![Edit the parameters](/static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.png)
+   ![Edit the parameters](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.png)
 6. Set the __DLU Expiration (Months)__. The default is three.
 7. Click __Save__.
 
@@ -144,8 +144,8 @@ DLU is not used for the following metadata Extended Types:
 
 ## DLU Scheduler
 
-The [Scheduler](/docs/product_docs/strongpointsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for processes to run. Under __Field Usage and DLU__, you can set up the scheduler to update the last used date field on customizations with the date the metadata was last used. It populates information for field usage on custom fields and custom objects and catch any permission set assignments related to users.
+The [Scheduler](/docs/strongpointsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for processes to run. Under __Field Usage and DLU__, you can set up the scheduler to update the last used date field on customizations with the date the metadata was last used. It populates information for field usage on custom fields and custom objects and catch any permission set assignments related to users.
 
-![scheduler](/static/img/product_docs/strongpointforsalesforce/clean_up/scheduler.png)
+![scheduler](/img/product_docs/strongpointforsalesforce/clean_up/scheduler.png)
 
 Once the scheduler has been set up, you can view the DLU under the __Metadata__ tab on the customization record.

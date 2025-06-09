@@ -21,7 +21,7 @@ Create a Connection Profile and set the following information on the User Creden
 - Password – Type the password
 - Confirm – Re-type the password
 
-Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 ### SharePoint Farm Host in a Custom Host List
 
@@ -30,7 +30,7 @@ The custom host list should include:
 - One application server per farm
 - Host name without a domain suffix, this means the host name should not contain a period character
 
-See the [Add Hosts](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) section for instruction on creating a custom static host list.
+See the [Add Hosts](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) section for instruction on creating a custom static host list.
 
 ## SharePoint Online
 
@@ -38,13 +38,13 @@ This section describes the process to configure the Connection Profile and custo
 
 ### SharePoint Online Credential for a Connection Profile using Modern Authentication
 
-The provisioned credential should be an Microsoft Entra ID Application. See the [SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/sharepointonline/access.md) topic for instructions on registering and provisioning the Microsoft Entra ID Application manually or via the SP\_RegisterAzureAppAuth Instant Job.
+The provisioned credential should be an Microsoft Entra ID Application. See the [SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/sharepointonline/access.md) topic for instructions on registering and provisioning the Microsoft Entra ID Application manually or via the SP\_RegisterAzureAppAuth Instant Job.
 
 Create a Connection Profile and set the following information on the User Credentials window:
 
 - Select Account Type – Azure Active Directory
 - Client ID – Application (client) ID of the Access Analyzer application registered with Microsoft Entra ID
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
 - Key – The comma delimited string containing the path to the certificate PFX file, certificate password, and the Microsoft Entra ID environment identifier ( ```CertPath,CertPassword,AzureEnvironment```)
 
   The ```AzureEnvironment``` is typically 0 for the default Azure Production Environment. Other possible values are:
@@ -62,7 +62,7 @@ Create a Connection Profile and set the following information on the User Creden
 
   __NOTE:__ ```PasswordGoesHere``` should be replaced with the password used when generating the self-signed X.509 certificate if the Microsoft Entra ID Application was Registered and Provisioned manually or the $appPassword parameter used in the SP\_RegisterAzureAppAuth Instant Job if that method was used.
 
-Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 ### SharePoint Online Host in a Custom Host List
 
@@ -73,4 +73,4 @@ The custom host list should include:
 - Do not use IP Addresses
 - Host name must be in DNS format
 
-See the [Add Hosts](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom static host list.
+See the [Add Hosts](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom static host list.

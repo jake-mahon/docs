@@ -6,6 +6,6 @@ __NOTE:__ If you don't already have a Endpoint Policy Manager Application Settin
 
 __Step 1 –__ To utilize an existing GPO with a Endpoint Policy Manager Application Settings Manager directive, right-click the directive containing your existing settings and select "Export settings to XMLData File," as shown in Figure 11. Then save the XML file for the next step.
 
-![deploying_policypak_directives_10](/static/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_10.png)
+![deploying_policypak_directives_10](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_10.png)
 
 Figure 11. Using an existing GPO with a Endpoint Policy Manager Application Settings Manager directive to select "Export settings to XMLData File."

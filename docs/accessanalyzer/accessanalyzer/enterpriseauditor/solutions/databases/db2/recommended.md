@@ -25,11 +25,11 @@ The host list assignment should be assigned under the __Databases__ > __0.Collec
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
+The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
 
 The Connection Profile should be assigned under the Databases > 0.Collection > Db2 > Settings > Connection node. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

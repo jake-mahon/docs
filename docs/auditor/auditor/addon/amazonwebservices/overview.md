@@ -20,10 +20,10 @@ On a high level, the add-on works as follows:
   | AddUserToGroup | RemoveUserFromGroup | UpdateLoginProfile | UpdateAccessKey |
 - Using the Integration API, the add-on sends the activity events to the Auditor Server, which writes them to the __Long-Term Archive__ and the __Audit Database__.
 
-See the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md) topic for additional information.
+See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
 
 ## Compatibility Notice
 
 Make sure to check your product version, and then review and update your add-ons and scripts leveraging the Integration API. Download the latest add-on version in the Add-on Store.
 
-See the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md) topic for additional information about schema updates.
+See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information about schema updates.

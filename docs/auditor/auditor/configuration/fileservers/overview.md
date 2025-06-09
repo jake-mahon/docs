@@ -8,13 +8,13 @@ __CAUTION:__ Folder associated with Netwrix Auditor must be excluded from antivi
 
 The following topics list the operations with files and folders that can be monitored and reported by Auditor on these supported storage systems.:
 
-- [Dell Data Storage](/docs/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/overview.md)
-- [Dell Isilon/PowerScale](/docs/product_docs/auditor/auditor/configuration/fileservers/dellisilon/overview.md)
-- [NetApp Data ONTAP](/docs/product_docs/auditor/auditor/configuration/fileservers/netappcmode/overview.md)
-- [Nutanix](/docs/product_docs/auditor/auditor/configuration/fileservers/nutanix/overview.md)
-- [Qumulo](/docs/product_docs/auditor/auditor/configuration/fileservers/qumulo/overview.md)
-- [Synology](/docs/product_docs/auditor/auditor/configuration/fileservers/synology/overview.md)
-- [Windows File Servers](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/overview.md)
+- [Dell Data Storage](/docs/auditor/auditor/configuration/fileservers/delldatastorage/overview.md)
+- [Dell Isilon/PowerScale](/docs/auditor/auditor/configuration/fileservers/dellisilon/overview.md)
+- [NetApp Data ONTAP](/docs/auditor/auditor/configuration/fileservers/netappcmode/overview.md)
+- [Nutanix](/docs/auditor/auditor/configuration/fileservers/nutanix/overview.md)
+- [Qumulo](/docs/auditor/auditor/configuration/fileservers/qumulo/overview.md)
+- [Synology](/docs/auditor/auditor/configuration/fileservers/synology/overview.md)
+- [Windows File Servers](/docs/auditor/auditor/configuration/fileservers/windows/overview.md)
 
 ## State-in-Time Data
 
@@ -22,7 +22,7 @@ State-in-time data collection is supported for files, folders and shares on Wind
 
 ## Sensitive Data
 
-Starting with the version 10, the product is able to report about sensitive data in your IT infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the "_File_" object types only). See the [Sensitive Data Discovery ](/docs/product_docs/auditor/auditor/admin/settings/sensitivedatadiscovery.md) topic for additional information on how to enable monitoring of sensitive data in Auditor.
+Starting with the version 10, the product is able to report about sensitive data in your IT infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the "_File_" object types only). See the [Sensitive Data Discovery ](/docs/auditor/auditor/admin/settings/sensitivedatadiscovery.md) topic for additional information on how to enable monitoring of sensitive data in Auditor.
 
 ## Monitored Object Attributes
 

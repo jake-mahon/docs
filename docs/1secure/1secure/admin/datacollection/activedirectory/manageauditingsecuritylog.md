@@ -4,7 +4,7 @@ Perform this procedure only if the account selected for data collection is not a
 
 __Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools__→ Group Policy Management.__
 
-__Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> → Domains → <domain\_name> → Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` → Domains → `<domain_name>` → Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 
 __Step 3 –__ In the __Group Policy Management Editor__ dialog, expand the __Computer Configuration__ node on the left and navigate to __Policies → Windows Settings → Security Settings → Local Policies.__
 

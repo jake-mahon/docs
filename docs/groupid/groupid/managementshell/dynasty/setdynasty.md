@@ -134,7 +134,7 @@ Set-Dynasty -Identity "CN=DepartmentalOU=Recruiting,DC=HR,DC=Imanami,DC=US" -Gro
 
 Example 2:
 
-The command below modifies the Top Manager of a Managerial Dynasty, changes the alias name and display name templates for the Dynasty children, sets the scope to search Dynasty children in the containers specified in the Add parameter excluding sub-containers using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The command below modifies the Top Manager of a Managerial Dynasty, changes the alias name and display name templates for the Dynasty children, sets the scope to search Dynasty children in the containers specified in the Add parameter excluding sub-containers using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Set-Dynasty -Identity "CN=Managerial,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -TopManager "CN=Administrator,CN=Users,DC=HR,DC=Imanami,DC=US" -Add @{ SearchContainers="OU=Recruiting,OU=HR,DC=Imanami,DC=US#1","OU=Outsourcing,OU=HR,DC=Imanami,DC=US#1"}-ExcludeNestedLists False -ChildContainer "" -AliasTemplate "%Manager% -DirectReports" -DisplayNameTemplate "Direct reports of %Manager%" -Credential $Cred

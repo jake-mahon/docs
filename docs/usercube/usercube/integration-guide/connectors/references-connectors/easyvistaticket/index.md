@@ -4,9 +4,9 @@ This connector opens tickets in [EasyVista](https://wiki.easyvista.com/xwiki/bin
 
 This page is about [
 EasyVista Ticket
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/easyvistaticket/index.md).
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/easyvistaticket/index.md).
 
-![Package: Ticket/EasyVista](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.png)
+![Package: Ticket/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.png)
 
 ## Overview
 
@@ -18,14 +18,14 @@ This connector focuses on the creation of EasyVista tickets for editing manually
 
 Implementing this connector requires:
 
-- Reading first the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+- Reading first the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - An EasyVista account with reading/writing permissions on the target instance.
 
 ## Export
 
 This connector exports some of EasyVista entities, see the export capabilities of the [
 EasyVista
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/easyvista/index.md) connector. Some entities cannot be exported.
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/easyvista/index.md) connector. Some entities cannot be exported.
 
 ## Fulfill
 
@@ -33,11 +33,11 @@ This connector writes to EasyVista to create incident and request tickets contai
 
 Once created, the ticket is managed in EasyVista, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the [Entitlement Assignment](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the resource accordingly.
+When the ticket is closed or canceled, Identity Manager updates the [Entitlement Assignment](/docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the resource accordingly.
 
 See the fulfill capabilities of the [
 EasyVista
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/index.md) connector.
+](/docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/index.md) connector.
 
 > For example:
 >
@@ -56,7 +56,7 @@ EasyVista
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to find out more on how to configure password reset settings.
+See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to find out more on how to configure password reset settings.
 
 ### Credential protection
 
@@ -64,10 +64,10 @@ Data protection can be ensured through:
 
 - [
   RSA Encryption
-  ](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - a [CyberArk's AAM Credential Providers
-  ](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.
+  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.

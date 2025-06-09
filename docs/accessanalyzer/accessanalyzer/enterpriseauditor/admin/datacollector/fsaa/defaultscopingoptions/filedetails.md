@@ -2,7 +2,7 @@
 
 The File Details tab allows configuration of settings for file detail collection.
 
-![FSAA Data Collector Wizard Default Scoping Options page File Details tab](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.png)
+![FSAA Data Collector Wizard Default Scoping Options page File Details tab](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.png)
 
 Select the desired settings for additional scoping:
 

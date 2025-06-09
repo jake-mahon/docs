@@ -2,7 +2,7 @@
 
 The Active Directory Changes dashboard contains the following cards:
 
-![Active Directory Changes Dashboard](/static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.png)
+![Active Directory Changes Dashboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.png)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event type
 - Successful/Blocked Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status

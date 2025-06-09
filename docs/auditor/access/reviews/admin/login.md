@@ -19,7 +19,7 @@ Since Access Reviews is a browser-based application, it is possible to access th
 
 Depending on your network environment, you may need to use the NetBIOS name, FQDN, or IP Address of the hosting server in the browser. Also, additional configurations by network and system administrators may be necessary to make the web server accessible to remote users (firewall configurations, DNS settings, etc.).
 
-The server name in the URL can be replaced with an alias. See the [Notification Options](/docs/product_docs/auditor/access/reviews/admin/configuration/notifications.md#Notification-Options) topic for additional information.
+The server name in the URL can be replaced with an alias. See the [Notification Options](/docs/auditor/access/reviews/admin/configuration/notifications.md#Notification-Options) topic for additional information.
 
 ## Login Page
 
@@ -27,7 +27,7 @@ Users login with their domain credentials. If only one domain is known to the Ac
 
 __NOTE:__ The URL may need to be added to the browser’s list of trusted sites.
 
-![Access Information Center Login page](/static/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
+![Access Information Center Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
 
 The interface a user arrives at depends upon the assigned role or lack of assigned role.
 
@@ -35,13 +35,13 @@ The interface a user arrives at depends upon the assigned role or lack of assign
 
 Role based access controls what interfaces users can see and where each user is directed upon login.
 
-___RECOMMENDED:___ Send an email to your users. Let them know why you are implementing use of the application, provide the URL, and explain how to login with their domain credentials and the username format. See the [Enable Console Users](/docs/product_docs/auditor/auditor/accessreviews.md#Enable-Console-Users) topic for additional information.
+___RECOMMENDED:___ Send an email to your users. Let them know why you are implementing use of the application, provide the URL, and explain how to login with their domain credentials and the username format. See the [Enable Console Users](/docs/auditor/auditor/accessreviews.md#Enable-Console-Users) topic for additional information.
 
 ### Administrator Role
 
 Users granted the Administrator role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for an Administrator user](/static/img/product_docs/auditor/access/reviews/admin/landingadmin.png)
+![Resource Owners interface as the landing page for an Administrator user](/img/product_docs/auditor/access/reviews/admin/landingadmin.png)
 
 Administrators are the only ones with access to the Configuration interface. The My Reviews interface is available if the logged in user is also assigned ownership of a resource.
 
@@ -49,7 +49,7 @@ Administrators are the only ones with access to the Configuration interface. The
 
 Users granted the Security Team role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for a Security Team user](/static/img/product_docs/auditor/access/reviews/admin/landingsecurityteam.png)
+![Resource Owners interface as the landing page for a Security Team user](/img/product_docs/auditor/access/reviews/admin/landingsecurityteam.png)
 
 Security Team members only lack access to the Configuration interface, which is only available to Administrators. The My Reviews interface is available if the logged in user is also assigned ownership of a resource.
 
@@ -57,6 +57,6 @@ Security Team members only lack access to the Configuration interface, which is 
 
 Users assigned ownership of a resource but not granted a user role are directed to the My Reviews interface upon login.
 
-![My Reviews interface as the landing page for an Owner without a user role](/static/img/product_docs/auditor/access/reviews/admin/landingowner.png)
+![My Reviews interface as the landing page for an Owner without a user role](/img/product_docs/auditor/access/reviews/admin/landingowner.png)
 
 Owners can view pending reviews and view historical reviews.

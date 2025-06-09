@@ -4,7 +4,7 @@ The Inactivity Alerts tab, once enabled and configured, sends real-time alerts w
 
 Check the __Enable Inactivity alerting for this agent__ box to enable the options on this tab.
 
-![Inactivity Alerts Tab for Agent Properties](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalerts.png)
+![Inactivity Alerts Tab for Agent Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalerts.png)
 
 Once enabled, set the alerting parameters:
 
@@ -22,7 +22,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The Syslog alert sends a notification that the activity agent has not received event data for the configured interval. The alert is sent to the Syslog configured on the __Syslog Alerts__ tab.
 
-![inactivityalertssyslogalerts](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertssyslogalerts.png)
+![inactivityalertssyslogalerts](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertssyslogalerts.png)
 
 - Syslog server in SERVER[:PORT] format – Type the __Syslog server name__ with a SERVER:PORT format in the text box. The server name can be short name, fully qualified name (FQDN), or IP Address, as long as the organization’s environment can resolve the name format used.
 - Syslog protocol – Identify the __Syslog protocol__ to be used for the alert. The drop-down menu includes:
@@ -45,7 +45,7 @@ The Syslog alert sends a notification that the activity agent has not received e
   - TLS – Shows error if TLS handshake fails
 - Syslog Message Template – Select the __Syslog message template__ to be used. Click the ellipsis (…) to open the Syslog Message Template window. The Syslog template provided is __AlienVault / Generic Syslog__.
 
-![Message Template popup window for Syslog Alerts](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertssyslogalertsmessagetemplate.png)
+![Message Template popup window for Syslog Alerts](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertssyslogalertsmessagetemplate.png)
 
 Custom templates can be created. Select the desired template or create a new template by modifying an existing template within the Syslog Message Template window. The new message template is named Custom.
 
@@ -55,7 +55,7 @@ Click __OK__ to apply changes and exit, or __Cancel__ to exit without saving any
 
 The email alert sends a notification that the activity agent has not received event data for the configured interval. The alert is sent to the configured recipients on the Email Alerts tab.
 
-![inactivityalertsemailalerts](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalerts.png)
+![inactivityalertsemailalerts](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalerts.png)
 
 - Syslog server in SERVER[:PORT] format – Type the __SMTP server name__ with a SERVER:PORT format in the text box. The server name can be short name, fully qualified name (FQDN), or IP Address, as long as the organization’s environment can resolve the name format used.
 
@@ -64,11 +64,11 @@ The email alert sends a notification that the activity agent has not received ev
 - From email address – Enter the Sender’s email address
 - To email address – Enter the Recipient’s email address. Multiple addresses are comma separated.
 
-![Email Alerts - Message Subject popup window](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagesubject.png)
+![Email Alerts - Message Subject popup window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagesubject.png)
 
 - Message subject – Click the ellipsis (…) to open the Message Template window to customize the subject. Macros can be used to insert
 
-![Email Alerts - Message Body popup window](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagebody.png)
+![Email Alerts - Message Body popup window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagebody.png)
 
 - Message body – Click the ellipsis (…) to open the Message Template window to customize the body
 - Test – The Test button sends a test message to the receiver’s email address to check the connection. A connection status message displays with either a green check mark or a red X identifying the success of the sent test message.

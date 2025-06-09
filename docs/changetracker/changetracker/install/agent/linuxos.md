@@ -30,7 +30,7 @@ Hub URL : https://192.168.1.107/api
 
 Agent user : agent
 
-Agent password : <hidden>
+Agent password : `<hidden>`
 
 Agent path : /opt/nnt/gen7agentcore/bin
 
@@ -90,4 +90,4 @@ You’ll then want to remove the Gen 7 Agent files which will be found at:
 
 # rm -fr /opt/nnt
 
-Run the Agent UI. See the [ Agent First Run](/docs/product_docs/changetracker/changetracker/install/agent/firstrun.md) topic for additional information.
+Run the Agent UI. See the [ Agent First Run](/docs/changetracker/changetracker/install/agent/firstrun.md) topic for additional information.

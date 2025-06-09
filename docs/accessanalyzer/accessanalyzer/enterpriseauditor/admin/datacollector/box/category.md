@@ -2,7 +2,7 @@
 
 Use the Category page to select the type of scan or import for the Box Enterprise targeted.
 
-![Box DC Wizard Category page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Box DC Wizard Category page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
 
 The Box Data Collector contains the following query categories:
 

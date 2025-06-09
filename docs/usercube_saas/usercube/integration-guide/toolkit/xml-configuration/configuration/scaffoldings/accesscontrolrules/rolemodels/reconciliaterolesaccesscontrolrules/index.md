@@ -4,7 +4,7 @@ Generates the rights to access the access reconcile roles pages for a given enti
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Role Reconciliation](/static/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.png)
+![Role Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.png)
 
 ## Examples
 

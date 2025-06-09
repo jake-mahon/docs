@@ -4,7 +4,7 @@ The 3-FSAA Exceptions job does not use the FSAA Data Collector. Instead it runs 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The 3-FSAA Exceptions job has the following customizable parameter:
 
@@ -18,13 +18,13 @@ View the analysis tasks by navigating to the __FileSystem__ > __0.Collection__ >
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected. While it is possible to deselect particular tasks as specified, it is not recommended.
 
-![Analysis Tasks for the 3-FSAA Exceptions Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaexceptionsanalysis.png)
+![Analysis Tasks for the 3-FSAA Exceptions Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaexceptionsanalysis.png)
 
 The following analysis tasks are selected by default:
 
 - Open resources – Any folders that are openly accessible through file shares. Can be deselected if open resource information is not desired.
 
-  - Well known high risk SIDS have been set in the ```#SIDS``` parameter. Do not remove these, but additional custom SIDS can be added. See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+  - Well known high risk SIDS have been set in the ```#SIDS``` parameter. Do not remove these, but additional custom SIDS can be added. See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 - Disabled users – Any folders where disabled users have been granted access
 
   - Can be deselected if disabled user information is not desired

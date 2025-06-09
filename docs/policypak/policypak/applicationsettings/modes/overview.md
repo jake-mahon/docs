@@ -8,7 +8,7 @@ __NOTE:__ To see an overview of ACL Lockdown™ mode, watch this tutorial: [http
 
 In Figure 22, you can see which modes are available when right-clicking a Endpoint Policy Manager Application Settings Manager attribute with settings data inside.
 
-![policypak_application_settings_1_1](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_1.png)
+![policypak_application_settings_1_1](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_1.png)
 
 Figure 22. The modes available in Endpoint Policy Manager Application Settings Manager.
 
@@ -19,7 +19,7 @@ Let's examine the areas of control for an element, as seen in Figure 23. You can
 - Endpoint Policy Manager Application Settings Manager ACL Lockdown™ mode
 - Endpoint Policy Manager Application Settings Manager Applock™ modes
 
-![policypak_application_settings_1_2](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_2.png)
+![policypak_application_settings_1_2](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_2.png)
 
 Figure 23. The areas of control for an element.
 

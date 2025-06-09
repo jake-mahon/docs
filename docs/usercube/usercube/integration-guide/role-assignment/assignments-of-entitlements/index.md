@@ -6,7 +6,7 @@ Assigning entitlements means giving users specific permissions, or access rights
 
 As Identity Manager relies on a [role-based](https://en.wikipedia.org/wiki/Role-based_access_control) assignment policy, entitlement assignment is simply role assignment. See the [
 Role Model
-](/docs/product_docs/usercube/usercube/integration-guide/role-model/index.md)topic for additional information.
+](/docs/usercube/usercube/integration-guide/role-model/index.md)topic for additional information.
 
 So once a user is assigned a role, Identity Manager must make the right changes in the managed system(s) to actually enable the corresponding permission. The values to be changed in the managed systems are specified in provisioning orders.
 
@@ -16,11 +16,11 @@ Hence, an entitlement assignment is both the result of the execution of a provis
 
 Within Identity Manager, assignments can be created automatically, or can result from manual requests.
 
-Automatic assignments are created by Identity Manager when evaluating the policy, i.e. when computing expected assignments based on existing users and the policy's roles and rules. See the [Evaluate Policy](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information. Automatic assignments can:
+Automatic assignments are created by Identity Manager when evaluating the policy, i.e. when computing expected assignments based on existing users and the policy's roles and rules. See the [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information. Automatic assignments can:
 
 - Result directly from the application of assignment rules on identities. See the [
   Assignment Policy
-  ](/docs/product_docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
+  ](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
 - Be inferred and cascading from another assignment.
 
 Manual assignments and degradations are on the other hand, need to be requested individually through the UI.
@@ -31,7 +31,7 @@ Some entitlements require the approval of one or several knowledgeable users bef
 
 __NOTE:__ This is configurable through the role's or resource type's approval workflow type. See the [
 Single Role
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.
 
 Each step of the approval workflow is associated with a workflow state, so that all assignments can be tracked and it is clear what step they are at.
 
@@ -55,7 +55,7 @@ __NOTE:__ Contrary to the workflow state that concerns all assignments, the prov
   
 For example, roles exist only in Identity Manager and not in the managed systems, so assigned roles do not have a provisioning state, unlike assigned resource types, scalars and navigation, etc.
 
-![Provisioning State Schema](/static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.png)
+![Provisioning State Schema](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.png)
 
 The schema sums up the usual progress of an assignment's provisioning state.
 
@@ -83,14 +83,14 @@ Technically speaking, Identity Manager creates entitlements in the managed syste
 
 A simple comparison between these two lists defines the non-conforming assignments, i.e. the list of all assignments that do not comply with the policy.
 
-![Non-Conforming Assignments](/static/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.png)
+![Non-Conforming Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.png)
 
 A non-conforming assignment must be reviewed in Identity Manager by a knowledgeable user, and is therefore:
 
 - Removed if Identity Manager correctly spotted it and the owner should indeed not possess this permission;
 - Kept as an exception if the configured rules do not apply to this particular case.
 
-__NOTE:__ Non-conforming assignments are to be reviewed on the __Role Reconciliation__ and/or __Resource Reconciliation__ screens. See the [Evaluate Policy](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+__NOTE:__ Non-conforming assignments are to be reviewed on the __Role Reconciliation__ and/or __Resource Reconciliation__ screens. See the [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
 
 Non-conforming assignments can still be split into two categories:
   
@@ -106,7 +106,7 @@ In order to fix the inconsistency, Identity Manager creates the assignment of th
 
 ### Review automation
 
-Identity Manager provides automation rules to automate the review of non-conforming assignments by automatically approving/declining assignments that were pending approval for some time, if this behavior is desired. See the [Automate the Review of Non-conforming Assignments](/docs/product_docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md) topic for additional information.
+Identity Manager provides automation rules to automate the review of non-conforming assignments by automatically approving/declining assignments that were pending approval for some time, if this behavior is desired. See the [Automate the Review of Non-conforming Assignments](/docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md) topic for additional information.
 
 For example, the single role Server Room Access is requested for Mr. Smith, with a two-step approval workflow. Ms. Jackson is supposed to review it, and then Mr. Jones. If Ms. Jackson takes too long, an automation can approve it, or most likely decline it, automatically. This way, the approval process ends and will need to be restarted at a later date if the need is genuine.
 
@@ -118,7 +118,7 @@ Resource types are not as intuitive as roles because they are more complex and s
 - The creation of scalar and navigation properties for this new resource;
 - The categorization of the created resource, which means both the correlation of the resource to an owner, and the classification of the resource into a specific type with specific rules between owner and owned resources. See the [
   Categorize Resources
-  ](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
+  ](/docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ### Reconciliation
 

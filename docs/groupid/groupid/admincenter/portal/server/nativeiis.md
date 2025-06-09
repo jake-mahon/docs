@@ -44,7 +44,7 @@ Each deployment instance of a portal in IIS is assigned an IIS application name 
 This name is also appended to the web server address to construct the URL that users click to access the portal instance. For example:  
 https://web-server-name:port/IIS-application-name
 
-When you change the name, it propagates to the instance’s IIS directory, physical directory, and launch URL. You must provide the updated URL to users to enable them to access the portal. See the [Launch a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
+When you change the name, it propagates to the instance’s IIS directory, physical directory, and launch URL. You must provide the updated URL to users to enable them to access the portal. See the [Launch a Portal](/docs/groupid/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
 
 __To change the IIS application name:__
 
@@ -59,7 +59,7 @@ __To change the IIS application name:__
 ## Move an Instance under a Different IIS Site
 
 You can change the IIS site that hosts a deployment instance of a portal. In doing so, the URL of the deployment instance also changes. You must provide the
-updated URL to your users to enable them to access the instance. See the [Launch a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
+updated URL to your users to enable them to access the instance. See the [Launch a Portal](/docs/groupid/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
 
 __To change the site:__
 
@@ -98,8 +98,8 @@ __To view the URL:__
 
 ## Set File Logging and Windows Logging for an Instance
 
-To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/log.md) topic.
+To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](/docs/groupid/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
-To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.
+To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/docs/groupid/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.

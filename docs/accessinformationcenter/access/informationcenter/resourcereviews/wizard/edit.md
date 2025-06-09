@@ -1,8 +1,8 @@
 # Edit Review Wizard
 
-The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
 
-![Edit Review wizard](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
 It contains four pages:
 
@@ -19,15 +19,15 @@ Follow the steps to edit an active review.
 
 __Step 1 –__ On the Manage Reviews page, click __Edit__. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
 __Step 2 –__ On the Review Type page, configure the notify review creator option as required. The Review Name and type are shown on the page but can not be edited. For Permissions, Access, and Sensitive Data reviews, the selection of the include children option is also shown, but can not be edited.
 
-- Notify the review creator when resources are reviewed — When selected, an email is sent to the review creator when the review has been completed by the resource owner. If the review contains multiple resources, an email is sent when each resource is reviewed. See the [Resource Reviewed Email](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/email/resourcereviewed.md) topic for additional information.
+- Notify the review creator when resources are reviewed — When selected, an email is sent to the review creator when the review has been completed by the resource owner. If the review contains multiple resources, an email is sent when each resource is reviewed. See the [Resource Reviewed Email](/docs/accessinformationcenter/access/informationcenter/resourcereviews/email/resourcereviewed.md) topic for additional information.
 
 __NOTE:__ If creating a Sensitive Data review, continue to Step 3. For all other review types, skip to Step 5.
 
-![Edit Review wizard Criteria page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
 
 __Step 3 –__ On the Criteria page, you can modify the selected types of sensitive criteria to include in the Sensitive Data review if no responses have been received. If responses for one or more resources have already been submitted you can not add or remove criteria.
 
@@ -40,7 +40,7 @@ __Step 4 –__ Optionally edit the selection of the __Reviewers are able to see 
 
 __CAUTION:__ If this option is checked, but the data has not been collected with matches stored by Netwrix Access Analyzer (formerly Enterprise Auditor) for all of the resources selected in Step 5, the “One or more resources selected have not been scanned” error occurs. The Create Review wizard will not allow the review to be created until those resources have been removed or the option unchecked.
 
-![Edit Review wizard Resources page](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Edit Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
 
 __Step 5 –__ On the Resources page, modify the list of resources to be included in the review.
 
@@ -54,8 +54,8 @@ __NOTE:__ If the include child resources option was enabled during the review cr
   - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
   - Scan Data — A checkmark indicates the resource has been scanned. Only resources with scan data can be included in a review.
   - Active Review — Indicates whether or not there is a pending review
-- Select the desired resource(s) and click __Add__. The __View Selections__ button indicates how many resources have been selected. Click the button to open the Selected Resources window, where you can view and modify the selections. See the [Selected Resources Window](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/selectedresources.md) topic for additional information.
-- Alternatively you can import a list of resources from a CSV file. Click the __Import__ button and then select the CSV file. A message displays if items are not found or not valid for the review. Any valid resources are selected and can be viewed in the Selected Resources window.  See the [Missing Items Window](/docs/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/missingitems.md) topic for additional information
+- Select the desired resource(s) and click __Add__. The __View Selections__ button indicates how many resources have been selected. Click the button to open the Selected Resources window, where you can view and modify the selections. See the [Selected Resources Window](/docs/accessinformationcenter/access/informationcenter/resourcereviews/window/selectedresources.md) topic for additional information.
+- Alternatively you can import a list of resources from a CSV file. Click the __Import__ button and then select the CSV file. A message displays if items are not found or not valid for the review. Any valid resources are selected and can be viewed in the Selected Resources window.  See the [Missing Items Window](/docs/accessinformationcenter/access/informationcenter/resourcereviews/window/missingitems.md) topic for additional information
 
   The CSV file must use the following format for the resources:
 
@@ -65,11 +65,11 @@ __NOTE:__ If the include child resources option was enabled during the review cr
   - Distribution lists: ```Name@domain.com```
 - Once the desired resources have been selected, click __Next__.
 
-![Edit Review wizard Summary page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
 
 __Step 6 –__ On the Summary page, review the updated settings and click __Next__. The Access Information Center begins to update the review.
 
-![Edit Review wizard update completed message](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Edit Review wizard update completed message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
 
 __Step 7 –__ The action status displays on the page. When the review has been updated (100%), click __Close__. The Edit Review wizard closes.
 

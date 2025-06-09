@@ -2,7 +2,7 @@
 
 Configure options for maintaining SQL Server indexes while running queries using the Index Update Options page.
 
-![Active Directory Inventory DC Wizard Index Update Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/indexupdateoptions.png)
+![Active Directory Inventory DC Wizard Index Update Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/indexupdateoptions.png)
 
 The options on the Index Update Options page are:
 

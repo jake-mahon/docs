@@ -13,12 +13,12 @@ Open __Customization__ > __Forms__ > __Advanced PDF / HTML Templates__ to creat
 
 ## PDF / HTML Customization Referenced by a Script Example
 
-![Example PDF/HTML customization referenced by a script](/static/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template.png)
+![Example PDF/HTML customization referenced by a script](/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template.png)
 
 ## Script Customization Referencing a PDF / HTML Template Example
 
-![Example of Script referencing an Advanced PDF/HTML template](/static/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template2.png)
+![Example of Script referencing an Advanced PDF/HTML template](/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template2.png)
 
 ## PDF / HTML Customization Record for a Saved Search Example
 
-![Example of an Advanced PDF/HTML Customization Record for a Saved Search](/static/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template3.png)
+![Example of an Advanced PDF/HTML Customization Record for a Saved Search](/img/product_docs/strongpointfornetsuite/customizations/pdf-html_template3.png)

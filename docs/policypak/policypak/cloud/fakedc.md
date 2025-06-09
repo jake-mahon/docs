@@ -10,7 +10,7 @@ Therefore, having a very small two computer test lab with a DC and joined Window
 
 Another easy option is to use VMware Workstation or Hyper-V to create a two computer test and export station.
 
-For a good overview, you can check our videos on Endpoint Policy ManagerCloud, particularly the ones on requirements and procedures to get started. You can find the videos at the [Video Learning Center](/docs/product_docs/policypak/policypak/license/overview/videolearningcenter.md)
+For a good overview, you can check our videos on Endpoint Policy ManagerCloud, particularly the ones on requirements and procedures to get started. You can find the videos at the [Video Learning Center](/docs/policypak/policypak/license/overview/videolearningcenter.md)
 
 ## Part 2: MMC vs in-cloud editors
 
@@ -34,7 +34,7 @@ This information is subject to change without notice. For an up to date verifica
 
 Here’s an example. Black text are policy types which are available. Grayed out items are not available yet. Some policy types might be some percent complete, or might never be ported over at all.
 
-![622_1_sadf_950x462](/static/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.png)
+![622_1_sadf_950x462](/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.png)
 
 Lastly, here is the table of what’s currently in Endpoint Policy Manager Cloud editors and our own self-assessed ranking of Percent complete.
 

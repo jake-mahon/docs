@@ -6,7 +6,7 @@ There are some special sections within the Firefox AppSet and most have pre-conf
 
 In Figure 2, you can see Permissions tab has the default example set with ```MODE=REPLACE``` and shows some examples on how to use the special section.
 
-![how_to_use_special_sections](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/how_to_use_special_sections.png)
+![how_to_use_special_sections](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/how_to_use_special_sections.png)
 
 Figure 2. Site to Zone assignment special section.
 

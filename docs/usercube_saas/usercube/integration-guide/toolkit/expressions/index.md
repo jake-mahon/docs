@@ -6,11 +6,11 @@ Expressions are a way to define the attributes whose values must be computed bas
 
 In Identity Manager's XML configuration, some attributes are defined with expressions. Expression attributes do not take a plain string value, but rather an expression that computes a value based on a given input. See the [
 Entity Property Expression
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [Resource Type](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#Resource-Type) topics for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [Resource Type](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#Resource-Type) topics for additional information.
 
 Every expression must be passed at least one argument and return at least one value.
 
-The expression can either be provided as a built-in function or as a full-fledged C# expression. See the list of available C# utility functions and functions predefined by Identity Manager. See the [Predefined functions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
+The expression can either be provided as a built-in function or as a full-fledged C# expression. See the list of available C# utility functions and functions predefined by Identity Manager. See the [Predefined functions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
 __NOTE:__ When changing the value of a property that is part of some expressions in the configuration, do not expect to see all expressions recomputed right away.
   
@@ -22,15 +22,15 @@ In the UI, the attributes that can be defined with an expression show two fields
 
 For example, the source object of a scalar rule based on user records is displayed:
 
-![Property Path and Expression](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath_v602.png)
+![Property Path and Expression](/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath_v602.png)
 
-The field Property Path is usually filled in with the + button only when the rule involves one single attribute. If the object involves more than one attribute, then the attributes are to be written in Expression (C#), with the help of predefined simple transformations. See the [Predefined functions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
+The field Property Path is usually filled in with the + button only when the rule involves one single attribute. If the object involves more than one attribute, then the attributes are to be written in Expression (C#), with the help of predefined simple transformations. See the [Predefined functions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
 The first example defines the source object as simply the user record's Login property, while the second defines the source object with an expression based on the user record's first and last names:
 
-![Property Path Example](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath-example1_v602.png)
+![Property Path Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath-example1_v602.png)
 
-![Expression Example](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath-example2_v602.png)
+![Expression Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/expressions/expression-propertypath-example2_v602.png)
 
 ### Expressions in XML
 

@@ -6,7 +6,7 @@ However, if the endpoint cannot connect to the Endpoint Policy Manager cloud ser
 
 ## Mode Definitions
 
-![709_1_image-20210319185612-1](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/709_1_image-20210319185612-1.png)
+![709_1_image-20210319185612-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/709_1_image-20210319185612-1.png)
 
 Strict: Strict will always create a new secure certificate connection and treat the computer as if it has never been seen before. The computer will lose any group memberships that may exist, leaving it the built-in defaults of "all" and "unassigned".
 

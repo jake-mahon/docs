@@ -2,7 +2,7 @@
 
 The Activity Statistics report for a computer object provides statistical activity event information for the audited computer during the selected date range. This report includes a line graph for Traffic Trend.
 
-![Activity Statistics report](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/user/activitystatistics.png)
+![Activity Statistics report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/user/activitystatistics.png)
 
 This report is comprised of the following columns:
 
@@ -14,6 +14,6 @@ This report is comprised of the following columns:
 - Manages – Count of permission change operations on resource
 - Deletes – Count of delete operations on resource
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
 
-There is one line graph at the bottom displaying the Traffic Trend for the audited computer. It provides a visual representation of the number of operations events that occurred by operation type over the selected date range. It indicates what volume of operations occurred per day. Each operation type is provided with a different color, as indicated by the legend. See the [Activity Report Results Pane Features](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on filtering the Trend graph.
+There is one line graph at the bottom displaying the Traffic Trend for the audited computer. It provides a visual representation of the number of operations events that occurred by operation type over the selected date range. It indicates what volume of operations occurred per day. Each operation type is provided with a different color, as indicated by the legend. See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on filtering the Trend graph.

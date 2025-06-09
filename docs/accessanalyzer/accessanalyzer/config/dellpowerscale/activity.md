@@ -21,7 +21,7 @@ Checklist Item 1: Plan Deployment
 
 ___RECOMMENDED:___ You can achieve higher throughput and fault tolerance by monitoring the Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monitor Agent. The activity will be evenly distributed between the pairs.
 
-Checklist Item 2: [Install Dell CEE](/docs/product_docs/accessanalyzer/accessanalyzer/config/dellpowerscale/installcee.md)
+Checklist Item 2: [Install Dell CEE](/docs/accessanalyzer/accessanalyzer/config/dellpowerscale/installcee.md)
 
 - Dell CEE should be installed on a Windows or a Linux server.
 
@@ -41,7 +41,7 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
     - Automatically sets CEE Server with the IP Address of the server where CEE is installed
     - Automatically sets Storage Cluster Name to exactly match the name known to the Activity Monitor
     - Choose between monitoring all Access Zones or scoping to specific Access Zones
-  - [Manually Configure Auditing in OneFS](/docs/product_docs/accessanalyzer/accessanalyzer/config/dellpowerscale/manualconfiguration.md)
+  - [Manually Configure Auditing in OneFS](/docs/accessanalyzer/accessanalyzer/config/dellpowerscale/manualconfiguration.md)
 
     - After configuration, add the Isilon/PowerScale device to be monitored by the Activity Monitor
 - Important:
@@ -95,4 +95,4 @@ isi auth mapping token "ACCOUNT_NAME"
 
 Another way to check the privileges is to use the __OneFS Web UI__ in the __OneFS__ > __Membership__ > __User Mapping__ > __Test User Mapping__ section.
 
-Checklist Item 4: Configure Dell CEE to Forward Events to the Activity Agent. See the [Validate Setup](/docs/product_docs/accessanalyzer/accessanalyzer/config/dellpowerscale/validate.md) topic for additional information.
+Checklist Item 4: Configure Dell CEE to Forward Events to the Activity Agent. See the [Validate Setup](/docs/accessanalyzer/accessanalyzer/config/dellpowerscale/validate.md) topic for additional information.

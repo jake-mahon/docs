@@ -6,7 +6,7 @@ The Threats page is where end-users and analysts investigate possible threats in
 
 The Threats section contains a bar chart and a pie chart. The Threats bar chart displays the number of each type of threat by date range increments of one week, over a 13-week time span. The Threats pie chart displays the total number of threats by type of threat.
 
-![threatspage](/static/img/product_docs/threatmanager/threatmanager/administration/threatspage.png)
+![threatspage](/img/product_docs/threatmanager/threatmanager/administration/threatspage.png)
 
 Hover over the bar chart or pie chart to view the number of threats by threat type.
 
@@ -14,7 +14,7 @@ Hover over the bar chart or pie chart to view the number of threats by threat ty
 
 The Historical Events section provides a drop-down menu to select threats for a specific date range. Threats can also be filtered by specifying a timeframe. A predefined time span can also be selected from the menu options in the right pane.
 
-![historicalevents](/static/img/product_docs/threatmanager/threatmanager/administration/historicalevents.png)
+![historicalevents](/img/product_docs/threatmanager/threatmanager/administration/historicalevents.png)
 
 These threats are displayed in a list format below the Historical Events section.
 
@@ -22,9 +22,9 @@ These threats are displayed in a list format below the Historical Events section
 
 The Threats list is displayed below the Historical Events section.
 
-![threatlist](/static/img/product_docs/threatmanager/threatmanager/administration/threatlist.png)
+![threatlist](/img/product_docs/threatmanager/threatmanager/administration/threatlist.png)
 
-The list displays threats that have a threat level of Low, Medium, High, or Audit for the selected timeframe. Each threat in the list contains a link which opens the [User Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/user.md) or the [Group Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/group.md) and a host link which opens the [Host Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/host.md). In addition, threats have an Edit button which opens the [Edit Threats](#Edit-Threats) window. The View Details button opens the [Threat Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/overview.md).
+The list displays threats that have a threat level of Low, Medium, High, or Audit for the selected timeframe. Each threat in the list contains a link which opens the [User Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/user.md) or the [Group Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/group.md) and a host link which opens the [Host Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/host.md). In addition, threats have an Edit button which opens the [Edit Threats](#Edit-Threats) window. The View Details button opens the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md).
 
 ## Filter Threats
 
@@ -34,14 +34,14 @@ The left pane of the page, below Historical Events, lists filters that can be se
 
 The Type section displays the threat types which can be selected for filtering. This list of threats to filter by is dynamic, depending upon the type of threats detected. See the following topics for additional information:
 
-- [Active Directory Threats](/docs/product_docs/threatmanager/threatmanager/threats/activedirectory.md)
-- [Entra ID Threats](/docs/product_docs/threatmanager/threatmanager/threats/entraid.md)
-- [File System Threats](/docs/product_docs/threatmanager/threatmanager/threats/filesystem.md)
-- [General Threats](/docs/product_docs/threatmanager/threatmanager/threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/threatmanager/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/threatmanager/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/threatmanager/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/threatmanager/threats/general.md)
 
 ### Level
 
-The Level section displays the threat types which can be selected for filtering. Levels are assigned or configured on the [Threat Detection Page](/docs/product_docs/threatmanager/threatmanager/administration/configuration/threatdetection.md).
+The Level section displays the threat types which can be selected for filtering. Levels are assigned or configured on the [Threat Detection Page](/docs/threatmanager/threatmanager/administration/configuration/threatdetection.md).
 
 ### Tags
 
@@ -49,11 +49,11 @@ The Tags section contains any tags associated with threats that are currently in
 
 #### Sensitive Data
 
-Sensitive Data tags are displayed in threats containing sensitive data when Access Analyzer and the Sensitive Data Discovery Add-on are installed in addition to Threat Manager. When installed with the Sensitive Data Discovery Add-on, Access Analyzer scans for sensitive data using File System Sensitive Data Discovery Auditing. See the [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/product_docs/threatmanager/threatmanager/install/integration/enterpriseauditor.md) topic for additional information. See the File System Solution topic in the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information on Access Analyzer Sensitive Data Discovery capabilities.
+Sensitive Data tags are displayed in threats containing sensitive data when Access Analyzer and the Sensitive Data Discovery Add-on are installed in addition to Threat Manager. When installed with the Sensitive Data Discovery Add-on, Access Analyzer scans for sensitive data using File System Sensitive Data Discovery Auditing. See the [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/threatmanager/install/integration/enterpriseauditor.md) topic for additional information. See the File System Solution topic in the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information on Access Analyzer Sensitive Data Discovery capabilities.
 
 When a threat event contains sensitive data, a Sensitive Data tag is displayed next to the threat:
 
-![threatsensitivedatafilter](/static/img/product_docs/threatmanager/threatmanager/administration/threatsensitivedatafilter.png)
+![threatsensitivedatafilter](/img/product_docs/threatmanager/threatmanager/administration/threatsensitivedatafilter.png)
 
 To view the type of sensitive data contain in a threat, click View Details on the threat containing a Sensitive Data tag. The type of sensitive data is displayed in the Sensitive Data column.
 
@@ -97,7 +97,7 @@ Follow the steps to edit a threat.
 
 __Step 1 –__ Select a threat from the list and click Edit. The Workflow window opens.
 
-![editthreats](/static/img/product_docs/threatmanager/threatmanager/administration/editthreats.png)
+![editthreats](/img/product_docs/threatmanager/threatmanager/administration/editthreats.png)
 
 __Step 2 –__ Enter the following information:
 
@@ -115,4 +115,4 @@ __Step 2 –__ Enter the following information:
 
 __Step 3 –__ Click Submit to save the changes.
 
-Threats can also be edited from the [Threat Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/overview.md).
+Threats can also be edited from the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md).

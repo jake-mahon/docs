@@ -1,6 +1,6 @@
 # Query Designer Policy
 
-You can define a role-based access policy for the Query Designer. Using the Query Designer, users can create queries for various purposes, as discussed in the [ Specify Smart Group Query Attributes](/docs/product_docs/groupid/groupid/admincenter/portal/design/queryattributes.md) topic.
+You can define a role-based access policy for the Query Designer. Using the Query Designer, users can create queries for various purposes, as discussed in the [ Specify Smart Group Query Attributes](/docs/groupid/groupid/admincenter/portal/design/queryattributes.md) topic.
 
 The Query Designer policy enables you to restrict the following Query Designer features for a security role:
 
@@ -10,7 +10,7 @@ The Query Designer policy enables you to restrict the following Query Designer f
 - Tabs on the Query Designer - The Query Designer has multiple tabs and all of them are available to users by default. You can choose to hide any of these tab from role members.
 - Attributes and their respective operators. - Specify the attributes that will be available to role members for building queries for Smart Groups and Dynasties. For each attribute, you can also specify the operators that role members can apply to it.
 
-![querydesigner](/static/img/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.png)
+![querydesigner](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.png)
 
 You can also specify a default filter criterion, involving an attribute, an operator, and a value, that will be displayed to users on the Filter Criteria tab of the Query Designer. Role members can change this criterion as required.
 
@@ -93,7 +93,7 @@ __To specify container(s):__
 
 ## Limit the Objects for Use in a Query
 
-By default, several object types are available to users on the Query Designer for including in queries. Users select an object type from the __Find__ drop-down list and then select its sub-types on the _General_ tab of the Query Designer. The query returns the specified object types to include in group membership. The object types and their sub-types are discussed in the [Query Designer - General tab](/docs/product_docs/groupid/groupid/portal/group/querydesigner/general.md) topic.
+By default, several object types are available to users on the Query Designer for including in queries. Users select an object type from the __Find__ drop-down list and then select its sub-types on the _General_ tab of the Query Designer. The query returns the specified object types to include in group membership. The object types and their sub-types are discussed in the [Query Designer - General tab](/docs/groupid/groupid/portal/group/querydesigner/general.md) topic.
 
 You can limit the object types available to role members for use in queries. You can also enforce the object types so that role members cannot exclude an allowed object type from queries.
 
@@ -174,7 +174,7 @@ __To allow specific attributes and operators:__
 8. For each attribute, you can specify the operator(s) that can be applied to the attribute on the __Filter Criteria__ tab.  
    On the __Allowed Attributes__ dialog box, click the plus sign next to an attribute and select the check box for the operators you want to provide for the attribute. When role members select an attribute, only the respective operators will be displayed for it. For example, if you allow the ‘Contains’ and ‘Equals’ operators for the ‘cn’ attribute, then only these operators will be displayed when role members select the ‘cn’ attribute.
 
-   NOTE: This schema attribute setting will override the schema attribute setting specified on the Smart Group Attribute page in portal's design settings. See the [ Specify Smart Group Query Attributes](/docs/product_docs/groupid/groupid/admincenter/portal/design/queryattributes.md) topic.
+   NOTE: This schema attribute setting will override the schema attribute setting specified on the Smart Group Attribute page in portal's design settings. See the [ Specify Smart Group Query Attributes](/docs/groupid/groupid/admincenter/portal/design/queryattributes.md) topic.
 9. Click __Save Selection__ on the __Allowed Attributes__ dialog box. The __Attributes__ area displays the allowed attributes count.   
    To view or update the allowed attributes, click __Edit Allowed Attributes__. On the __Allowed Attributes__ dialog box, select the __Show only selected__ check box to get a list of the allowed attributes. Make the desired changes and close the dialog box.
 10. Click __OK__.
@@ -208,7 +208,7 @@ __To specify a default filter criteria:__
    - Enter a value for the attribute in the third box (for example, _Manager_).
 
    With this filter, the query would fetch users whose job titles are set to Manager. Role members can change it as required.
-8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/search.md#Advanced-Filter) section of the [Designate a Criterion for the Search Scope](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/search.md#Designate-a-Criterion-for-the-Search-Scope) topic.   
+8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#Advanced-Filter) section of the [Designate a Criterion for the Search Scope](/docs/groupid/groupid/admincenter/securityrole/policy/search.md#Designate-a-Criterion-for-the-Search-Scope) topic.   
    After creating a query, you can:
 
    - Click __Preview__ to get a list of the objects fetched by the query created by the current settings on the __Query Designer__ tab, namely the start-in container, objects, and default filter criteria.
@@ -219,5 +219,5 @@ __To specify a default filter criteria:__
 
 __See Also__
 
-- [Security Roles](/docs/product_docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md)

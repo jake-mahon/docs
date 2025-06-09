@@ -2,7 +2,7 @@
 
 Use this page to specify whether to include only rows collected in the last execution.
 
-![Notification Data Analysis Module wizard Time window page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/timewindow.png)
+![Notification Data Analysis Module wizard Time window page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/timewindow.png)
 
 The following option is available:
 

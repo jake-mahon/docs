@@ -2,7 +2,7 @@
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a wizard page for the category of Sensitive Data Scan.
 
-![FSAA Data Collector Wizard Sensitive Data Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
+![FSAA Data Collector Wizard Sensitive Data Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
 
 - Don’t process files larger than: [number] MB – Limits the files to be scanned for sensitive content to only files smaller than the specified size
 - Include offline files (this may significantly increase scan times) – Includes offline files in the scan

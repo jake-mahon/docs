@@ -18,23 +18,23 @@ Connect Power BI to Identity Manager by proceeding as follows:
 1. Open Power BI Desktop.
 2. Click on __Get data__ either in the welcome window or in the home menu.
 
-   ![Get Data](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_getdata.png)
+   ![Get Data](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_getdata.png)
 3. In the opening window, search for Identity Manager, click on its plugin in the right menu, and click on __Connect__.
 
-   ![Get Data Window](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_getdatawindow.png)
+   ![Get Data Window](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_getdatawindow.png)
 4. Enter Identity Manager's server URL in the opening window.
 
-   ![Server URL](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_url.png)
+   ![Server URL](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_url.png)
 5. In the opening window, enter the [
    OpenIdClient
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)of the ```Administrator``` profile. The ```Client Id``` expects the concatenation of the identifier of ```OpenIdClient``` with ```@``` and Identity Manager's domain name. See the following example.
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)of the ```Administrator``` profile. The ```Client Id``` expects the concatenation of the identifier of ```OpenIdClient``` with ```@``` and Identity Manager's domain name. See the following example.
 
-   ![Client Id / Client Secret](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clientid.png)
+   ![Client Id / Client Secret](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clientid.png)
 6. You can now access in the left panel the [
    Universe
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)from Identity Manager configuration. You can click on the desired universe to expand it, and view and pick the desired tables.
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)from Identity Manager configuration. You can click on the desired universe to expand it, and view and pick the desired tables.
 
-   ![Universe Panel](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_universes.png)
+   ![Universe Panel](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_universes.png)
 
    __Power BI tip:__ to view a table, click on its name. To select a table, check the box next to the table's name.
 7. Once you've selected all the tables you need, click on __Load__ to import data to the Power BI report. You can also click on __Transform data__ to open the query editor and make other changes in your tables, rows and columns.
@@ -48,4 +48,4 @@ Clear the cache by proceeding as follows:
 1. In Power BI, click on __File__ > __Options and settings__ > __Options__.
 2. In the __Data Load__ tab, click on __Clear Cache__.
 
-   ![Clear Cache](/static/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clearcache.png)
+   ![Clear Cache](/img/product_docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clearcache.png)

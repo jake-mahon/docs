@@ -3,13 +3,13 @@
 You can specify advanced settings for workflow, such as set a default approver for workflow requests and define approver acceleration settings.
 
 NOTE: Functions discussed in this topic are licensed under different add-ons. See the [
-Licensing ](/docs/product_docs/groupid/groupid/admincenter/general/licensing.md) topic.
+Licensing ](/docs/groupid/groupid/admincenter/general/licensing.md) topic.
 
 ## Specify a Default Approver
 
 You can designate a recipient as the default approver for workflow requests. Requests are routed to this recipient based on the following rules:
 
-- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/docs/product_docs/groupid/groupid/admincenter/workflow/overview.md#Workflow-Approval-Scenarios) topic.
+- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/docs/groupid/groupid/admincenter/workflow/overview.md#Workflow-Approval-Scenarios) topic.
 - When approver acceleration is enabled:
 
   - A request is sent to the default approver when the last approver in the acceleration chain does not approve or deny it within the specific number of days.
@@ -36,7 +36,7 @@ __To specify a default approver:__
 
 ## Apply Approver Acceleration
 
-The workflow approver acceleration feature ensures that no workflow request remains undecided. To apply setting related to approver acceleration, see the [Workflow Approver Acceleration](/docs/product_docs/groupid/groupid/admincenter/workflow/approveracceleration.md) topic.
+The workflow approver acceleration feature ensures that no workflow request remains undecided. To apply setting related to approver acceleration, see the [Workflow Approver Acceleration](/docs/groupid/groupid/admincenter/workflow/approveracceleration.md) topic.
 
 ## Delete Workflow Requests
 
@@ -59,4 +59,4 @@ __To delete workflow requests:__
 
 ## Integrate with Microsoft Power Automate
 
-You can also link your Power Automate flows to Directory Manager workflows. For details, see the [Integrate with Power Automate](/docs/product_docs/groupid/groupid/admincenter/workflow/integrate.md) topic.
+You can also link your Power Automate flows to Directory Manager workflows. For details, see the [Integrate with Power Automate](/docs/groupid/groupid/admincenter/workflow/integrate.md) topic.

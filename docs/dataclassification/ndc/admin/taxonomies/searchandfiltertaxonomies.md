@@ -4,7 +4,7 @@ The taxonomies are displayed in a hierarchical structure on the left hand side o
 
 __NOTE:__ For the SharePoint Terms, they will be grouped by the SharePoint Term Group.
 
-![treeview](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/treeview.png)
+![treeview](/img/product_docs/dataclassification/ndc/admin/taxonomies/treeview.png)
 
 Right-clicking the tree view nodes provides a number of management options at both the term and termset level including:
 
@@ -33,7 +33,7 @@ A search facility is provided to locate terms that contains specified text:
 
 Click the magnifying glass icon to the right of the taxonomy dropdown and a new edit box appears where search text may be entered:
 
-![taxonomysearch](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomysearch.png)
+![taxonomysearch](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomysearch.png)
 
 [](#)["Sync Enabled" Treeview Filter](#Sync-Enabled-Treeview-Filter)
 
@@ -41,14 +41,14 @@ For SharePoint Term Sets the treeview can optionally be filtered to only show te
 
 This setting is session specific and applicable only to the current user:
 
-![treeviewsyncfilter](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/treeviewsyncfilter.png)
+![treeviewsyncfilter](/img/product_docs/dataclassification/ndc/admin/taxonomies/treeviewsyncfilter.png)
 
-[See Taxonomy Settings for more information.](/docs/product_docs/dataclassification/ndc/admin/taxonomies/settings.md)
+[See Taxonomy Settings for more information.](/docs/dataclassification/ndc/admin/taxonomies/settings.md)
 
 [](#)[Source Filter](#Source-Filter)
 
 A filter facility is also provided to restrict all search/browse results to a specific source. Click the source filter link in the top right of the display, then, select a source:
 
-![sourcefilter](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/sourcefilter.png)
+![sourcefilter](/img/product_docs/dataclassification/ndc/admin/taxonomies/sourcefilter.png)
 
 The filter setting can be stored for the session, or just maintained for the browser window.

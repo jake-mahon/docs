@@ -6,17 +6,17 @@ This tool launches a job on the agent side.
 
 The Usercube-Invoke-Job.exe tool is a state machine.
 
-![Schematization](/static/img/product_docs/usercube/usercube/integration-guide/executables/references/invoke-job/job_operation.png)
+![Schematization](/img/product_docs/usercube/usercube/integration-guide/executables/references/invoke-job/job_operation.png)
 
 When a job is launched, the state machine starts by computing all the tasks that must be launched in the job.
 
 Each task is assigned a launch order which can be configured in [
 Job
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md) steps. All the job's tasks are grouped together according to their launch order, and they are launched by group. Such task grouping allows the job to be faster executed.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md) steps. All the job's tasks are grouped together according to their launch order, and they are launched by group. Such task grouping allows the job to be faster executed.
 
 The launch orders of all the tasks of a job can be listed by using the [
 Usercube-Get-JobSteps
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/get-jobsteps/index.md) executable.
+](/docs/usercube/usercube/integration-guide/executables/references/get-jobsteps/index.md) executable.
 
 Before any task is launched, the state machine checks the task's parent tasks in order to verify whether the task must be launched or not.
 
@@ -40,8 +40,8 @@ In the case where the job is blocked and restarted:
 
 - if the blocked task is a [
   Synchronize Task
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md), then the state machine runs a synchronization validation on the related connector, and uses the id of the blocked task instance to synchronize the related tables;
-- if the blocked task is a [```GenerateProvisioningOrdersTask```](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md), then the state machine forces the same provisioning on the related connector.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md), then the state machine runs a synchronization validation on the related connector, and uses the id of the blocked task instance to synchronize the related tables;
+- if the blocked task is a [```GenerateProvisioningOrdersTask```](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md), then the state machine forces the same provisioning on the related connector.
 
   Both the synchronization validation and the forced provisioning are virtual jobs that do not exist in the database. However, they will be visible in the UI which keeps track of any launched task.
 
@@ -73,6 +73,6 @@ Any task launched by the state machine is linked to a job instance in order to k
 | --task-string-contains (-s)   optional | __Type__    String   __Description__ Launches all tasks with an identifier containing the given value. |
 |  |  |
 | --- | --- |
-| --api-client-id   required | __Type__    String   __Description__ Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a profile with the relevant permissions. |
-| --api-secret   required | __Type__    String   __Description__ Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id   required | __Type__    String   __Description__ Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a profile with the relevant permissions. |
+| --api-secret   required | __Type__    String   __Description__ Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url   required | __Type__    String   __Description__ URL of Identity Manager server. |

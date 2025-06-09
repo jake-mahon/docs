@@ -6,11 +6,11 @@ Content must either be configured / crawled using the configured service account
 
 When crawling the data, Unicode table names or unicode primary keys are not supported. Primary keys are supported only with Latin alphabet.
 
-Once connected it is possible to create an intelligent content mapping, crawling certain fields as unstructured index text, and other fields as mapped metadata. For more information please see the [Database Configuration Wizard](/docs/product_docs/dataclassification/ndc/admin/sources/database/databaseconfigwizard.md) section.
+Once connected it is possible to create an intelligent content mapping, crawling certain fields as unstructured index text, and other fields as mapped metadata. For more information please see the [Database Configuration Wizard](/docs/dataclassification/ndc/admin/sources/database/databaseconfigwizard.md) section.
 
 If you wish to make other configuration changes before collection of the source occurs ensure you tick the checkbox "_Pause source on creation_".
 
-[![add_database_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/database/add_database_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/add_database.png)
+[![add_database_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/database/add_database_thumb_0_0.png)](/docs/dataclassification/resources/images/add_database.png)
 
 Complete the following fields:
 
@@ -24,4 +24,4 @@ Complete the following fields:
 | Source Group | If you want to add database to a source group, select existing, or create a new one. |
 | Pause source on creation | Select to make other configuration changes before the initial data collection starts. |
 
-After the source configuration is completed, you will be prompted to lauch SQL crawling configuration wizard. [See Database Configuration Wizard for more information.](/docs/product_docs/dataclassification/ndc/admin/sources/database/databaseconfigwizard.md)
+After the source configuration is completed, you will be prompted to lauch SQL crawling configuration wizard. [See Database Configuration Wizard for more information.](/docs/dataclassification/ndc/admin/sources/database/databaseconfigwizard.md)

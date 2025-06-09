@@ -151,7 +151,7 @@ Step 4 – __Preview Job Collection__ dialog box displays overall job collection
 
 ## Pin a Job Collection
 
-Follow the steps to pin a job to the [Dashboard](/docs/product_docs/groupid/groupid/portal/synchronize/dashboard.md) under the pinned job card.
+Follow the steps to pin a job to the [Dashboard](/docs/groupid/groupid/portal/synchronize/dashboard.md) under the pinned job card.
 
 Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
@@ -160,7 +160,7 @@ Step 2 – On Synchronize portal, click __All Collections__.
 Step 3 – Click the three vertical dots icon of the job collection and select __Pin Item__ from
 the menu.
 
-Step 4 – The job collection is displayed on My Pinned Job Collections section on the [Dashboard](/docs/product_docs/groupid/groupid/portal/synchronize/dashboard.md).
+Step 4 – The job collection is displayed on My Pinned Job Collections section on the [Dashboard](/docs/groupid/groupid/portal/synchronize/dashboard.md).
 
 ## Save as Template
 

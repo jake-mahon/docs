@@ -32,7 +32,7 @@ Step 2 – On Reports Portal, select the type of object (User, Group, Computer, 
 
 The template page will list the generated report.
 
-Step 3 – Click the __Edit__ icon next to the report and follow [In Step 1 of generating a report:](/docs/product_docs/groupid/groupid/portal/report/generate.md#In-Step-1-of-generating-a-report). Make the relevant changes and click
+Step 3 – Click the __Edit__ icon next to the report and follow [In Step 1 of generating a report:](/docs/groupid/groupid/portal/report/generate.md#In-Step-1-of-generating-a-report). Make the relevant changes and click
 Finish to generate the report.
 
 ## Download a Report

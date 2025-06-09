@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_UserAttributeComp
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AAD_UserAttributeCompletion Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.png)
+![Analysis Tasks for the AAD_UserAttributeCompletion Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.png)
 
 The default analysis tasks are:
 

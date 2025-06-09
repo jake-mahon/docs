@@ -2,7 +2,7 @@
 
 The Scheduler Service is installed with Privilege Secure and can also be installed remotely on other servers. This provides the option to run scheduled tasks defined in the console from different locations within an organization. The Scheduler Service installer is in the zip file with the Privilege Secure Console installer. It is also available for download from the Stealthbits website if required.
 
-__NOTE:__ Before you begin, the Proxy Service must be installed on any server running services for Privilege Secure. See the [Proxy Service Install](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for installation instructions.
+__NOTE:__ Before you begin, the Proxy Service must be installed on any server running services for Privilege Secure. See the [Proxy Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for installation instructions.
 
 Follow the steps to install the Scheduler Service.
 
@@ -12,11 +12,11 @@ __Step 2 –__ Move the NPS.SchedulerService.exe installation package to the des
 
 __Step 3 –__ Open the NPS.SchedulerService.exe and thePrivilege Secure Scheduler Service Setup wizard will open.
 
-![licenseagreement](/static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
+![licenseagreement](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
 
 __Step 4 –__ To install the Scheduler Service in an alternate location, click __Options__.
 
-![scheduleoptions](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/scheduleoptions.png)
+![scheduleoptions](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/scheduleoptions.png)
 
 __Step 5 –__ Enter the destination folder for installation and click OK.
 
@@ -24,7 +24,7 @@ __Step 6 –__ Read the End User License Agreement and check the I accept the te
 
 __Step 7 –__ Click Install to begin the installation. The setup wizard displays the installation progress.
 
-![installcompleted](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcompleted.png)
+![installcompleted](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcompleted.png)
 
 __Step 8 –__ When the installation is complete, click Close to exit the installer.
 

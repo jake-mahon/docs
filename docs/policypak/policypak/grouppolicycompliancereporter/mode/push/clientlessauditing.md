@@ -6,13 +6,13 @@ __CAUTION:__ Endpoint Policy Manager GPCR does not report on every Group Policy 
 
 There are some built-in reports to help determine which computers (and their users) are delivering auditing data. In Figure 54, the report entitled "Computers Reporting Auditing Data" will show computers that are in the security group and have successfully delivered auditing data to the server.
 
-![gpcr_server_with_push_mode_18](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_18.png)
+![gpcr_server_with_push_mode_18](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_18.png)
 
 Figure 54. Computers reporting auditing data.
 
 The report entitled "Computers Attempting to Report Audit Data (Not in Group)" will show computers that ran PPGPCR.Auditor.exe and had their data received by the server but dumped because they were not in the security group, as shown in Figure 55.
 
-![gpcr_server_with_push_mode_19](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_19.png)
+![gpcr_server_with_push_mode_19](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_19.png)
 
 Figure 55. Data is dumped for computers not in the security group.
 
@@ -20,6 +20,6 @@ __NOTE:__  If you add a computer to your own Active Directory security group you
 
 There is a final report entitled "Users Reporting Audit Data," as shown in Figure 56. This enables you to quickly view which users' data you have on file and which computer they last used to log in with.
 
-![gpcr_server_with_push_mode_20](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_20.png)
+![gpcr_server_with_push_mode_20](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_20.png)
 
 Figure 56. Users reporting audit data.

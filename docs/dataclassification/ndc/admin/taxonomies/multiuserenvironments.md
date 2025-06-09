@@ -10,11 +10,11 @@ The administrator should also ensure that Anonymous Access is disabled for the a
 
 When this facility has been enabled then you will see a Lock Class button in the treeview context menu for all classes:
 
-![lockterm](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/lockterm.png)
+![lockterm](/img/product_docs/dataclassification/ndc/admin/taxonomies/lockterm.png)
 
 You can also optionally lock all of its children in a single operation. Once a term is locked the context menu items will change to allow unlocking the selected term, and its children.
 
-![unlockterm](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/unlockterm.png)
+![unlockterm](/img/product_docs/dataclassification/ndc/admin/taxonomies/unlockterm.png)
 
 Other users will see a closed padlock symbol to indicate the status of the term.
 

@@ -6,7 +6,7 @@ Similarity Rule
 
 The Similarity rule rejects passwords that are similar to a user's current password. Password similarity may indicate that a user is serializing their passwords. For example, "password1", "password2", "password3". Password serialization allows an attacker to guess the new password.
 
-![Similarity Rule](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/similarity.png)
+![Similarity Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/similarity.png)
 
 Select the __Similarity__ check box to enable the Similarity rule.
 
@@ -24,4 +24,4 @@ Set __Words typed backward__ to __Yes__ to additionally test passwords with thei
 
 Set a __Tolerance__ value to specify the maximum number of matching characters that Password Policy Enforcer allows before rejecting a password. For example, the two passwords "old__passwd__" and "new__passwd__" contain six consecutive matching characters (shown in bold type). Password Policy Enforcer rejects the new password if the tolerance is five (or lower), and accepts it if the tolerance is six (or higher).
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

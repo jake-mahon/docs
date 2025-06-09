@@ -2,7 +2,7 @@
 
 When Recovery for Active Directory is installed, the following icon is displayed on the desktop.
 
-![Recovery Desktop Icon](/static/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
+![Recovery Desktop Icon](/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
 
 ## Access the Recovery Console Locally
 
@@ -23,7 +23,7 @@ __NOTE:__ If the port number and web protocol was changed from default during th
 
 ## Sign In
 
-On [First Launch](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/firstlaunch.md) of the Recovery Console, the administrator must add users who can sign into the application and use it.
+On [First Launch](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/firstlaunch.md) of the Recovery Console, the administrator must add users who can sign into the application and use it.
 
 Follow the steps to sign into the Recovery Console.
 
@@ -31,7 +31,7 @@ __Step 1 –__ Launch the Recovery Console.
 
 __NOTE:__ The URL may need to be added to the browser's list of trusted sites.
 
-![Recovery for Active Directory - Login page](/static/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
+![Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
 
 __Step 2 –__ Enter your credentials in the Username and Password fields. The username must be in the following format:
 
@@ -41,7 +41,7 @@ __Step 3 –__ Click Log in.
 
 If you have enabled multi-factor authentication for your account, the following is displayed:
 
-![MFA at Login](/static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/loginmfa.png)
+![MFA at Login](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/loginmfa.png)
 
 __Step 4 –__ Launch the Authenticator app on your phone to get the verification code generated for the Recovery application account.
 

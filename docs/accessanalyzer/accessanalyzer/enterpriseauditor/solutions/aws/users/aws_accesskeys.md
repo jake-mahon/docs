@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __2.Users__ > __AWS\_AccessKeys__ > __Configure__ node
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_AccessKeys Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/users/accesskeysanalysis.png)
+![Analysis Tasks for the AWS_AccessKeys Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/users/accesskeysanalysis.png)
 
 The following analysis tasks are selected by default:
 

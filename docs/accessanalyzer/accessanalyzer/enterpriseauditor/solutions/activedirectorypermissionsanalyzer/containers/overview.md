@@ -2,9 +2,9 @@
 
 The 7.Containers Job Group reports on all Active Directory permissions applied to container objects within the targeted domains.
 
-![7.Containers Job Group in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![7.Containers Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
 The jobs in the 7.Containers Job Group are:
 
-- [AD\_AdminSDHolder Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/ad_adminsdholder.md) – Reports on all non-default Active Directory permissions applied to the AdminSDHolder container within the targeted domains. The AdminSDHolder container can be leveraged by an attacker to create persistence within the environment. See the Microsoft [AdminSDHolder, Protected Groups and SDPROP](https://technet.microsoft.com/en-us/library/2009.09.sdadminholder.aspx) article for additional information.
-- [AD\_ContainerPermissions Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/ad_containerpermissions.md) – Reports on all Active Directory permissions applied to container objects within the targeted domains
+- [AD\_AdminSDHolder Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/ad_adminsdholder.md) – Reports on all non-default Active Directory permissions applied to the AdminSDHolder container within the targeted domains. The AdminSDHolder container can be leveraged by an attacker to create persistence within the environment. See the Microsoft [AdminSDHolder, Protected Groups and SDPROP](https://technet.microsoft.com/en-us/library/2009.09.sdadminholder.aspx) article for additional information.
+- [AD\_ContainerPermissions Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/ad_containerpermissions.md) – Reports on all Active Directory permissions applied to container objects within the targeted domains

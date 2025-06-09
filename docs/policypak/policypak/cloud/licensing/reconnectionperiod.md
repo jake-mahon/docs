@@ -1,6 +1,6 @@
 # Reconnection Period
 
-All computers that acquire a license must connect to Endpoint Policy Manager Cloud. The normal time period within which all customers must re-connect with Endpoint Policy Manager Cloud is 14 days, which enables them to keep using the service and get new policies. A computer that is offline for more than 14 days will transition to a state of being unlicensed. To see what happens when a computer becomes unlicensed (per component), see this KB article: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/product_docs/policypak/policypak/license/unlicense/components.md).
+All computers that acquire a license must connect to Endpoint Policy Manager Cloud. The normal time period within which all customers must re-connect with Endpoint Policy Manager Cloud is 14 days, which enables them to keep using the service and get new policies. A computer that is offline for more than 14 days will transition to a state of being unlicensed. To see what happens when a computer becomes unlicensed (per component), see this KB article: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/policypak/policypak/license/unlicense/components.md).
 
 However, as soon as the computer re-connects to Endpoint Policy Manager Cloud and claims an available license, the computer picks up right where it left off. Having a computer return a license when disconnected for more than 14 days can have the following benefits:
 

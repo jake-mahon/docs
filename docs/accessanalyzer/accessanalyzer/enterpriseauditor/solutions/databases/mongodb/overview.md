@@ -18,7 +18,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target MongoDB Requirements, Permissions, and Ports](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasemongodb.md) topic for additional information.
+See the [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/databasemongodb.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -40,10 +40,10 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer MongoDB Solution Set is a set of pre-configured jobs and reports that provides visibility into MongoDB Sensitive Data.
 
-![MongoDB Overview](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongdbjobgroupoverview.png)
+![MongoDB Overview](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongdbjobgroupoverview.png)
 
 The following job groups comprise the MongoDB Solution:
 
-- [ 0.Collection Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/overview.md) — Collects high level summary information from targeted MongoDB Servers. This information is used by other jobs in the MongoDB Solution Set for further analysis and producing respective reports.
-- [Analysis Tasks for the MongoDB\_Database\_Sizing Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongodb_databasesizing.md) — Provides insight into MongoDB server configuration settings
-- [Sensitive Data > MongoDB\_SensitiveData Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongodb_sensitivedata.md) — Provides insight into where sensitive data exists and who has access to it across all the targeted MongoDB databases
+- [ 0.Collection Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/overview.md) — Collects high level summary information from targeted MongoDB Servers. This information is used by other jobs in the MongoDB Solution Set for further analysis and producing respective reports.
+- [Analysis Tasks for the MongoDB\_Database\_Sizing Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongodb_databasesizing.md) — Provides insight into MongoDB server configuration settings
+- [Sensitive Data > MongoDB\_SensitiveData Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongodb_sensitivedata.md) — Provides insight into where sensitive data exists and who has access to it across all the targeted MongoDB databases

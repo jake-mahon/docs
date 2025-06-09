@@ -30,6 +30,6 @@ After this registry edit, Windows Installer will track the progress of the insta
 
 cd %temp%
 
-When performing remote Agent deployment using the Administration Console, log files can be found in the ```C:\Windows\Temp``` folder on the target Agent machine. See the [Agents Interface](/docs/product_docs/threatprevention/threatprevention/admin/agents/overview.md) topic for additional information.
+When performing remote Agent deployment using the Administration Console, log files can be found in the ```C:\Windows\Temp``` folder on the target Agent machine. See the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md) topic for additional information.
 
-See the [Best Practices and Troubleshooting](/docs/product_docs/threatprevention/threatprevention/troubleshooting/overview.md) topic for additional information.
+See the [Best Practices and Troubleshooting](/docs/threatprevention/threatprevention/troubleshooting/overview.md) topic for additional information.

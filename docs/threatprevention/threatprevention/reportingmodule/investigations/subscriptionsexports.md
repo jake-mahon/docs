@@ -4,7 +4,7 @@ A subscription sends the report results for an investigation to recipients via e
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Subscriptions and exports__ in the bottom left corner of the page to open the Subscriptions and Exports page.
 
-![Investigations interface on the Subscriptions and Exports page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.png)
+![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.png)
 
 The table has the following columns:
 
@@ -23,13 +23,13 @@ The table has the following columns:
 
 Click a row to open the Subscription to or Schedule export window where you can edit the subscription or export.
 
-See the [Add Subscription](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.md) topic and the [Export Report](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/export.md) topic for additional information.
+See the [Add Subscription](/docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.md) topic and the [Export Report](/docs/threatprevention/threatprevention/reportingmodule/investigations/options/export.md) topic for additional information.
 
 ## Table Features
 
 The table has several features accessed through the menu button that appears when you hover over a column header.
 
-![Table column menu](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/tableoptions.png)
+![Table column menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/tableoptions.png)
 
 In addition to the arrow that appears to sort the table in ascending or descending order, the menu contains the following options:
 
@@ -47,7 +47,7 @@ In addition to the arrow that appears to sort the table in ascending or descendi
 
 The Table Filter window opens from the table column menu.
 
-![Table Filter window](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/filterwindow.png)
+![Table Filter window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/filterwindow.png)
 
 Follow the steps to build a filter statement.
 
@@ -65,7 +65,7 @@ The table is filtered to matches of the filter.
 
 The Actions column holds a menu with actions that apply to the selected subscription or export.
 
-![Actions menu](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexportsactions.png)
+![Actions menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexportsactions.png)
 
 The options include:
 

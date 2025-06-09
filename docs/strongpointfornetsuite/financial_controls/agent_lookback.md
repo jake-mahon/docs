@@ -8,7 +8,7 @@ The Agent Lookback is accessed from the Customization record for the control.
 2. __Edit__ the control to run.
 3. Open the __Controls__ tab.
 
-   ![New Agent Lookback](/static/img/product_docs/strongpointfornetsuite/financial_controls/agent_lookback.png)
+   ![New Agent Lookback](/img/product_docs/strongpointfornetsuite/financial_controls/agent_lookback.png)
 4. Set __Control Type__ to __Lookback Control__ or __Lookback Control with Admin Verification__.
 5. Click __Go to Record__.
 6. In the __Filter__ drop down, select __User Fields__. Select a date such as __Date Created__. The first date in the filter becomes the lookback start date.
@@ -22,7 +22,7 @@ The Agent Lookback is accessed from the Customization record for the control.
 
 Administrators can initiate and cancel Lookback Runs from the __Controls__ tab on a Customization record. The control search must have at least one date filter set to be used by the Lookback run. Controls cannot be grouped by run.
 
-![Schedule or initiate a Lookback run.](/static/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run.png)
+![Schedule or initiate a Lookback run.](/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run.png)
 
 - __Run Status__ is the status of the last run:
 
@@ -41,10 +41,10 @@ The Lookback run checks for existing Control logs to avoid log duplication. The 
 
 The __Lookback Run History__ tab is available on the __Controls__ tab on a Customization record.
 
-![View the Lookback Run history.](/static/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run_history.png)
+![View the Lookback Run history.](/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run_history.png)
 
 ### Lookback Run Incidents
 
 You can filter your Control Incidents reports by setting __Log Origin__ in the report __Filters__. __Agent Lookback Run__ is available as a filter option.
 
-![Filter Incident Results on Lookback Run](/static/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run_incidents.png)
+![Filter Incident Results on Lookback Run](/img/product_docs/strongpointfornetsuite/financial_controls/lookback_run_incidents.png)

@@ -13,7 +13,7 @@ The administrator can configure the following for history tracking:
 Therefore, history data represents only the events that history-tracking is configured to track. Furthermore, if history-tracking is not enabled or has been recently disabled for the identity store, the portal does not display history data or it displays
 data that was logged before history-tracking was turned off.
 
-A user can add a note to a history action that he/she performed. Other users can just view that note. This note may explain the reason for performing that action. See the [Configure History Tracking](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic.
+A user can add a note to a history action that he/she performed. Other users can just view that note. This note may explain the reason for performing that action. See the [Configure History Tracking](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic.
 
 ## History views in the portal
 
@@ -23,11 +23,11 @@ The Directory Manager Portal displays history as below:
   Displays a list of actions performed by the logged-on user.
 - The __History__ tab in group / user / mailbox / contact properties.  
   Displays the actions performed on the object by different users.
-- The [My History](/docs/product_docs/groupid/groupid/portal/history/myhistory.md) page.  
+- The [My History](/docs/groupid/groupid/portal/history/myhistory.md) page.  
   Displays the actions performed by the logged-on user and any changes made to this user's profile by another user.
-- The [My Direct Reports' History](/docs/product_docs/groupid/groupid/portal/history/mydirectreport.md) page.  
+- The [My Direct Reports' History](/docs/groupid/groupid/portal/history/mydirectreport.md) page.  
   Displays the changes made to the logged-on user's direct reports by this user or by any other user.
-- The [My Groups' History](/docs/product_docs/groupid/groupid/portal/history/mydirectorygroup.md) page.  
+- The [My Groups' History](/docs/groupid/groupid/portal/history/mydirectorygroup.md) page.  
   Displays the changes made by the logged-on user to a group that they own.
 
 Use the __History items to display on home page__ setting on the User Settings panel to specify the number of history items to display on Dashboard.

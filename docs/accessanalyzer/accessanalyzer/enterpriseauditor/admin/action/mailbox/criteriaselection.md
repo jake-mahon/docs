@@ -2,7 +2,7 @@
 
 Use the Criteria Selection page to choose search criteria saved in a previous Exchange Mailbox Data Collector query or define new criteria. It is a wizard page for the Delete Mailbox Contents operation.
 
-![New Mailbox Action Wizard Criteria Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/criteriaselection.png)
+![New Mailbox Action Wizard Criteria Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/criteriaselection.png)
 
 Choose whether to use existing Mailbox Search criteria or determine new criteria:
 

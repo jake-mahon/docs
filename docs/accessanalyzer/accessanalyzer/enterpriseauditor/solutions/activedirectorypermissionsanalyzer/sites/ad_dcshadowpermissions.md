@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD\_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_DCShadowPermissions Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/dcshadowpermissionsanalysis.png)
+![Analysis Tasks for the AD_DCShadowPermissions Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/dcshadowpermissionsanalysis.png)
 
 The default analysis tasks are:
 

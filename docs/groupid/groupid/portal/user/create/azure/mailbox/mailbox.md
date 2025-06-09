@@ -22,4 +22,4 @@ Step 4 – On the Exchange page, set the alias and Office 365 subscriptions for 
 
 Step 5 – On the Summary page, review the settings and then click __Finish__ to complete the wizard.
 
-NOTE: If the Directory Manager administrator has specified the mailbox creation action for review, your changes will not take effect until verified by an approver. See the [Requests](/docs/product_docs/groupid/groupid/portal/request/overview.md) topic for additional information.
+NOTE: If the Directory Manager administrator has specified the mailbox creation action for review, your changes will not take effect until verified by an approver. See the [Requests](/docs/groupid/groupid/portal/request/overview.md) topic for additional information.

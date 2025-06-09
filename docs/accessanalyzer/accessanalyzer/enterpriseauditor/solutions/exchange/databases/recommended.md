@@ -22,9 +22,9 @@ __NOTE:__ Default dynamic host lists are populated from hosts in the Host Master
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX\_DBInfo Job and the EX\_PFInfo Job. See the [Exchange PowerShell Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the Ex\_DBInfo Job required permissions. See the [MAPI-Based Data Collector Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for the EX\_PFInfo Job requirements.
+A Connection Profile must be set directly on the EX\_DBInfo Job and the EX\_PFInfo Job. See the [Exchange PowerShell Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the Ex\_DBInfo Job required permissions. See the [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for the EX\_PFInfo Job requirements.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

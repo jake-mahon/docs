@@ -2,7 +2,7 @@
 
 The General tab is for changing the job name and description.
 
-![General tab of Job Properties](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/general.png)
+![General tab of Job Properties](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/general.png)
 
 The following options are available:
 
@@ -37,6 +37,6 @@ The log level feature includes the following options:
 
 __NOTE:__ You can switch between log levels. All the levels, including the one that you choose, shall be set for messaging in the application.
 
-![Log Level Options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/generalloglevel.png)
+![Log Level Options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/generalloglevel.png)
 
 For example, this is where you set the messaging for Info, Warning, or Error at a job level.

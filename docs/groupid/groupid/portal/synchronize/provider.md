@@ -31,7 +31,7 @@ Identity store must be created for these providers. Identity store providers can
 
   Use Google Workspace to connect to Google Workspace plans. You can use it as a source and destination provider.
 
-See the [Identity Stores](/docs/product_docs/groupid/groupid/admincenter/identitystore/overview.md) topic for additional information on identity stores.
+See the [Identity Stores](/docs/groupid/groupid/admincenter/identitystore/overview.md) topic for additional information on identity stores.
 
 ## Data Sources
 
@@ -80,4 +80,4 @@ External data sources must be created first in Data Sources tab in Admin Center.
 
   Use the Microsoft Text Driver (\*.txt; \*.csv) to connect to comma-separated value (CSV) text files or tab-separated value (TSV) text files. This provider supports automatic schema detection if a header row is included in the file.
 
-See the [ Data Sources](/docs/product_docs/groupid/groupid/admincenter/datasource/overview.md) topic for additional information on Data Sources.
+See the [ Data Sources](/docs/groupid/groupid/admincenter/datasource/overview.md) topic for additional information on Data Sources.

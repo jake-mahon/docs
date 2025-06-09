@@ -4,4 +4,4 @@ Netwrix 1Secure is a cloud product. However, if you want to use an on-premise ve
 
 See the following topic for additional information:
 
-- [Install Agent](/docs/product_docs/1secure/1secure/install/installagent.md)
+- [Install Agent](/docs/1secure/1secure/install/installagent.md)

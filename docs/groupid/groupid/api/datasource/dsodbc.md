@@ -2,7 +2,7 @@
 
 Use this APi to create a new data source.
 
-See the [Create a Data Source for ODBC](/docs/product_docs/groupid/groupid/admincenter/datasource/create.md#Create-a-Data-Source-for-ODBC) section of the [Create a Data Source](/docs/product_docs/groupid/groupid/admincenter/datasource/create.md) topic to create an ODBC data source using Directory Manager.
+See the [Create a Data Source for ODBC](/docs/groupid/groupid/admincenter/datasource/create.md#Create-a-Data-Source-for-ODBC) section of the [Create a Data Source](/docs/groupid/groupid/admincenter/datasource/create.md) topic to create an ODBC data source using Directory Manager.
 
 ## Endpoint
 

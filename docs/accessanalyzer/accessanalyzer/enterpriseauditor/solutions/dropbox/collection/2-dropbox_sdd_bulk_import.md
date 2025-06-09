@@ -6,7 +6,7 @@ The 2-Dropbox\_SDD Bulk Import job imports the data collected by the 1-Dropbox\_
 
 The 2-Dropbox\_SDD Bulk Import Job has been preconfigured to run with the default settings with the category of Bulk Import Sensitive Content Scan.
 
-![Queries for the 2-Dropbox_SDD Bulk Import Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddbulkimportquery.png)
+![Queries for the 2-Dropbox_SDD Bulk Import Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddbulkimportquery.png)
 
 The query for the 2-Dropbox\_SDD Bulk Import job is:
 

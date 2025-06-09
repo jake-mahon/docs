@@ -10,6 +10,6 @@ __Step 3 –__ On the __Analyze__ page that opens, review the search field. Ensu
 
 __NOTE:__ You might want to modify time range and the fields shown.
 
-![activityrecords](/static/img/product_docs/auditor/auditor/addon/arcsight/activityrecords.png)
+![activityrecords](/img/product_docs/auditor/auditor/addon/arcsight/activityrecords.png)
 
 __Step 4 –__ Review imported Activity Records.

@@ -30,11 +30,11 @@ The print function is available in the following modules:
 
 The print function can be called up via the ribbon.
 
-![installation_with_parameters_44](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_44.png)
+![installation_with_parameters_44](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_44.png)
 
 Firstly, it is necessary to select whether you want to print a table or a detailed view. The amount of data can also be defined. The individual menu items are described in detail further down in this section. After making your selection, the data is firstly prepared for printing. Depending on the amount of data, this may take a few minutes. The print preview is then opened.
 
-![print password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_45-en.png)
+![print password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_45-en.png)
 
 NOTE: The print preview accesses the functions of the printer driver. Depending on the printer or driver being used, the appearance and functions offered by the print preview may vary. The individual functions will thus not be described in detail here.
 
@@ -48,17 +48,17 @@ There are different options available for adapting the printing result to your p
 
 All __selected__ records will be printed out. In the following example, __Adobe__ and __Anibis.ch__ are thus printed out.
 
-![selected data](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_46-en.png)
+![selected data](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_46-en.png)
 
 The data is printed here in table form.
 
-![print password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_47-en.png)
+![print password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_47-en.png)
 
 #### Tableview (current filter)
 
 All currently __filtered__ records will be printed out here. In this example, all seven records are thus printed out.
 
-![filtered password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_48-en.png)
+![filtered password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_48-en.png)
 
 They are printed out – as described above – in table form.
 
@@ -66,7 +66,7 @@ They are printed out – as described above – in table form.
 
 This option also prints out the currently selected records. However, a detailed view is printed out in this case.
 
-![print filtered passwords](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_49-en.png)
+![print filtered passwords](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/print/installation_with_parameters_49-en.png)
 
 #### Detailed view (current filter)
 

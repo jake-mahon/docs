@@ -15,7 +15,7 @@ Please read this whole section in its entirety to understand the issues surround
 
 An AppSet is defined by its project name. You can see the project name when you utilize an AppSet and also when you're working with the project within Endpoint Policy Manager DesignStudio by selecting the Project Properties tab on the left (see Figure 78).
 
-![policypak_application_settings_3_16](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_16.png)
+![policypak_application_settings_3_16](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_16.png)
 
 Figure 78. The project name on the Project Properties tab in Endpoint Policy Manager DesignStudio.
 
@@ -28,7 +28,7 @@ In this example, our existing WinZip project file was opened and a new checkbox 
 
 However, in both cases, the internal project name is WinZip, as seen in Figure 79, because it did not change between projects.
 
-![policypak_application_settings_3_17](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_17.png)
+![policypak_application_settings_3_17](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_17.png)
 
 Figure 79. An example showing that, while the file names may change, the project name remains the same.
 
@@ -38,19 +38,19 @@ In a previous section, we explained how to leverage the Central Storage, and we'
 
 __Step 1 –__ Creating a new GPO. While creating a new GPO, you will still be able to right-click the Endpoint Policy Manager | Applications node and select your application. In fact, even though multiple Endpoint Policy Manager extension DLLs exists for the same project, you'll only see one entry appears in the flyout menu. You can switch to different DLL at any time by right-clicking the item and selecting "Reconnect Endpoint Policy Manager DLL," as shown in Figure 80.
 
-![policypak_application_settings_3_18](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_18.png)
+![policypak_application_settings_3_18](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_18.png)
 
 Figure 80. You can connect to any version at any time when working with GPOs.
 
 __Step 2 –__ Now select the DLL you want as shown in Figure 81.  You'll be able to select which local storage version you want based on compiled date and time. The file names are also shown as a convenience.
 
-![policypak_application_settings_3_19](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_19.png)
+![policypak_application_settings_3_19](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_19.png)
 
 Figure 81. Pick the version you want, either according to DLL name or date.
 
 Now the item is updated with the newer DLL as shown in Figure 82.
 
-![policypak_application_settings_3_20](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_20.png)
+![policypak_application_settings_3_20](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_20.png)
 
 Figure 82. Note the new version is listed now.
 
@@ -66,7 +66,7 @@ The Endpoint Policy Manager DesignStudio will automatically place newly compiled
 
 Creating a new GPO. While creating a new GPO, you will still be able to right-click the Endpoint Policy Manager | Applications node and select your application. In fact, even though multiple Endpoint Policy Manager extension DLLs exist for the same project, you'll only see one entry appear in the flyout menu. When you click the desired project, you'll be prompted for which version you want to use, as seen in Figure 83.
 
-![policypak_application_settings_3_21](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_21.png)
+![policypak_application_settings_3_21](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_21.png)
 
 Figure 83. For projects with the same name, you'll be prompted to choose which version you want to use while creating a new GPO.
 
@@ -74,13 +74,13 @@ Since there is a DLL in both the Local Store and the Central Storage, you can ch
 
 Editing an existing GPO. If you decide to edit an existing version of a GPO with an AppSet item—when one DLL is already in the Central Storage—then there is no immediate change. That is, you can double-click the AppSet item, and it will be edited using the original DLL that was already placed in the Central Storage. However, you can also upgrade an existing AppSet item with a newer DLL. To do this, right-click the item and select "Update Endpoint Policy Manager DLL," as seen in Figure 84. If the newer DLL is selected, it will update the underlying GPO data.
 
-![policypak_application_settings_3_22](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_22.png)
+![policypak_application_settings_3_22](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_22.png)
 
 Figure 84. Upgrading an existing Pak item with a newer DLL.
 
 ## Manually Migrating to Newer AppSet DLLs in the Central Storage
 
-__NOTE:__ If you would like to see a video overview of how to manually migrate to newer DLLs and update GPOs, please watch this tutorial video: [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/product_docs/policypak/policypak/video/applicationsettings/dllorphans.md).
+__NOTE:__ If you would like to see a video overview of how to manually migrate to newer DLLs and update GPOs, please watch this tutorial video: [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/policypak/policypak/video/applicationsettings/dllorphans.md).
 
 With the versioning system, you will be able to create Endpoint Policy Manager DLLs locally and create and test GPOs, as needed, to make sure the new DLL works exactly as expected. Then, when you're ready, you can update the existing DLL in the Central Storage with the one that you have created and tested locally.
 
@@ -92,13 +92,13 @@ __Step 2 –__ remove the older DLL from the Central Storage.
 
 You can see this in Figure 85.
 
-![policypak_application_settings_3_23](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_23.png)
+![policypak_application_settings_3_23](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_23.png)
 
 Figure 85. The process of removing old DLLs.
 
 When you complete this process, the next time you (or other administrators) create new GPOs, you'll be using the version contained in the Central Storage. If you (or other administrators) edit an existing GPO, you will get the familiar notice shown in Figure 86.
 
-![policypak_application_settings_3_24](/static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_24.png)
+![policypak_application_settings_3_24](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/policypak_application_settings_3_24.png)
 
 Figure 86. The notice received when editing an existing GPO.
 

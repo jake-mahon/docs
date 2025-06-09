@@ -65,7 +65,7 @@ Only the user who added the note can update it. Other users can only view this n
 
 ### Add a note
 
-The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/docs/product_docs/groupid/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/product_docs/groupid/groupid/portal/history/mydirectreport.md) and [My Groups' History](#My-Groups-History) pages.
+The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/docs/groupid/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/groupid/groupid/portal/history/mydirectreport.md) and [My Groups' History](#My-Groups-History) pages.
 
 Step 8 – Click the __Add Note__ button next to a history item to add a note to it.
 

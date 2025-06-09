@@ -2,7 +2,7 @@
 
 The Folder Conditions page is where folder-related filter criteria can be applied to the search.
 
-![Filter Wizard Folder Conditions page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/folderconditions.png)
+![Filter Wizard Folder Conditions page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/folderconditions.png)
 
 Customize folder search conditions using the following options:
 
@@ -21,7 +21,7 @@ Customize folder search conditions using the following options:
 
 Use the Folder Type window to determine folder types to search for. The Folder Type window opens if __specific__ is selected in the Edit Conditions box on the Folder Conditions page.
 
-![Folder Type window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/foldertypewindow.png)
+![Folder Type window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/foldertypewindow.png)
 
 Select the checkbox next to any folder type to include it in the search filter.
 
@@ -29,7 +29,7 @@ Select the checkbox next to any folder type to include it in the search filter.
 
 Use the Search Terms window to determine terms for the search. The Search Terms window opens if __search terms__ is selected in the Edit Conditions box.
 
-![Search Terms window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.png)
+![Search Terms window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.png)
 
 Determine terms for the search using the following options:
 

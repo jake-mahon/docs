@@ -8,7 +8,7 @@ __Step 2 –__ Select the resource(s) to modify.
 
 __Step 3 –__ Click the __Test__ button.
 
-![Test Resource Connectivity Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.png)
+![Test Resource Connectivity Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.png)
 
 __Step 4 –__ Review the test status and messages (if any).
 

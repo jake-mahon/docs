@@ -11,33 +11,33 @@ Before 2017
 2017
 
 - New Component: File Associations Manager: Quickly map PDF, MAILTO:, and others to the right apps.
-- Reduce GPOs and convert them to use for MDM: [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/product_docs/policypak/policypak/video/administrativetemplates/reducegpos.md)
-- Least Privilege Manager: SecureRun(TM) blocks Ransomware [Events](/docs/product_docs/policypak/policypak/video/leastprivilege/events.md)
+- Reduce GPOs and convert them to use for MDM: [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/policypak/policypak/video/administrativetemplates/reducegpos.md)
+- Least Privilege Manager: SecureRun(TM) blocks Ransomware [Events](/docs/policypak/policypak/video/leastprivilege/events.md)
 - New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile layouts perfectly.
 
 2018
 
 - New Component: Endpoint Policy Manager Scripts Manager: Perform any function via BAT, .JS or PowerShell
-- Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer settings, plus uninstall applications [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/product_docs/policypak/policypak/video/leastprivilege/uacprompts.md)
+- Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer settings, plus uninstall applications [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/policypak/policypak/video/leastprivilege/uacprompts.md)
 
 2019
 
 - Least Privlege Discovery Auditing, Block & Allow UWP applications, Manage Security of Child Processes
 - IE Sitelist to Browser Router import
-- Least Privilege Manager Block PowerShell Malware attacks:[Block PowerShell in General, Open up for specific items](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/powershellblock.md)
+- Least Privilege Manager Block PowerShell Malware attacks:[Block PowerShell in General, Open up for specific items](/docs/policypak/policypak/video/leastprivilege/bestpractices/powershellblock.md)
 - New Component — Endpoint Policy Manager Feature Manager for Windows. Quickly add / remove features from Windows 10 & Windows Server.
 
 2020
 
 - New Component — Endpoint Policy Manager RDP Manager: Enable remote work users to have .RDP files to connect to your resources.
-- Browser Router - New Edge Support / IE In Edge Mode [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/product_docs/policypak/policypak/video/browserrouter/ie.md)
-- Browser Router Apply Once then Drift [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/product_docs/policypak/policypak/video/browserrouter/defaultwindows10.md)
-- File Associations Manager Apply Once then Drift [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/product_docs/policypak/policypak/video/fileassociations/applyonce.md)
+- Browser Router - New Edge Support / IE In Edge Mode [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/policypak/policypak/video/browserrouter/ie.md)
+- Browser Router Apply Once then Drift [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/policypak/policypak/video/browserrouter/defaultwindows10.md)
+- File Associations Manager Apply Once then Drift [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/policypak/policypak/video/fileassociations/applyonce.md)
 - File Associations Manager Apply settings on USER side
 - Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many other events
-- Added Email method for PPLPM Admin Approval [Using Email / Long Codes](/docs/product_docs/policypak/policypak/video/leastprivilege/longcodes.md)
+- Added Email method for PPLPM Admin Approval [Using Email / Long Codes](/docs/policypak/policypak/video/leastprivilege/longcodes.md)
 - New Component — Remote Work Delivery Manager: Deliver software to Windows 10 via SMB share, Amazon S3 or other cloud services
-- Least Privlege Manager: Automatically block unsigned Applications [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/product_docs/policypak/policypak/video/leastprivilege/securerun/preventunsigned.md)
+- Least Privlege Manager: Automatically block unsigned Applications [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/policypak/policypak/video/leastprivilege/securerun/preventunsigned.md)
 - Compliance Reporter now 10x faster
 
 2021

@@ -3,24 +3,24 @@
 Most on-premises installations use an agent integrated with Identity Manager's server. If this is your case, and the server is already installed, no need to go further. If, on the other hand, you need separate agents, or if you are installing Identity Manager's agents within Identity Manager's SaaS offering, this is the way to go.
 
 __NOTE:__ Please make sure that Identity Manager's agent requirements are met before going further. See the [
-Agent ](/docs/product_docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 ## Agent Working Directory
 
 The agent runtime content should be extracted from the runtime archive following the instructions provided in the [
 Create a Working Directory
-](/docs/product_docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) topic.
+](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) topic.
 
 In the separate agent setup, the agent is usually installed on a different workstation from the server.
 
-The agent is configured thanks to the appsettings.agent.json file. See the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+The agent is configured thanks to the appsettings.agent.json file. See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 ## Create an IIS Website
 
 It is recommended to run the Identity Manager agent as an IIS website.
 
 _Remember,_ to install Identity Manager's agent as a Windows service, see the [
-Agent ](/docs/product_docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 Adding Identity Manager's agent as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net/) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 
@@ -68,7 +68,7 @@ The following is [mandatory](https://docs.microsoft.com/en-us/aspnet/core/host-a
 
 - __Application Pool__ > __Identity Manager <Organization>__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
 
-![IIS Settings](/static/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
+![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
 
 This sums up IIS settings.
 
@@ -79,7 +79,7 @@ You need to install the [dotnet hosting bundle](https://dotnet.microsoft.com/en-
 ## Select an Agent Identity
 
 The agent, through Identity Manager's server IIS Website, should be assigned a service account with the relevant permissions. See the [
-Agent ](/docs/product_docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 You can either:
 
@@ -118,7 +118,7 @@ If you want to use the built-in application pool identity created with the appli
 
 If you would rather use a custom service account created for Identity Manager's agent, follow the procedure below.
 
-The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Identity Manager's agent. See the[Install the Server](/docs/product_docs/usercube/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
+The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Identity Manager's agent. See the[Install the Server](/docs/usercube/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
 
 Follow the steps below to set an IIS identity and note that these are the same for the server:
 
@@ -142,7 +142,7 @@ Identity Manager's server IIS site will now use this identity to access the data
 
 ## Set the Agent Permissions
 
-Identity Manager's agent needs specific permissions on its working directory to run, write synchronization output and read provisioning orders. See the [Server](/docs/product_docs/usercube/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+Identity Manager's agent needs specific permissions on its working directory to run, write synchronization output and read provisioning orders. See the [Server](/docs/usercube/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 
 Up to four folders have to be considered:
 
@@ -153,7 +153,7 @@ Up to four folders have to be considered:
 
 See the[
 Create a Working Directory
-](/docs/product_docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 Further check the permissions of the service account and perform the steps for each of the relevant directories:
 
@@ -182,9 +182,9 @@ __Step 4 –__ Click on __OK__.
 
 __Step 5 –__ Select the newly added user name in the Group or user names panel at the top of the window.
 
-![Object Names](/static/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
+![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
 
-__Step 6 –__ Check the __Allow__ column for the relevant permissions. Check the __Deny__ column for the others. See the[Server](/docs/product_docs/usercube/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+__Step 6 –__ Check the __Allow__ column for the relevant permissions. Check the __Deny__ column for the others. See the[Server](/docs/usercube/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 
 __Step 7 –__ Click __OK__.
 
@@ -192,7 +192,7 @@ The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders directories. See the[
 Create a Working Directory
-](/docs/product_docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 ## Name the Agent
 
@@ -220,7 +220,7 @@ URI="<https://contoso.com>" />
 
 ## Connect the Agent to the Managed Systems
 
-The Runtime/appsettings.agent.json file is a technical configuration file that will enable you set up the connection between the agent and the target managed systems. See the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+The Runtime/appsettings.agent.json file is a technical configuration file that will enable you set up the connection between the agent and the target managed systems. See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 Every agent is associated with an appsettings.agent.json file.
 
@@ -257,7 +257,7 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the credentials protection methods. See the[Connectors](/docs/product_docs/usercube/usercube/integration-guide/connectors/index.md) topic for additional information.
+_Remember,_ storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the credentials protection methods. See the[Connectors](/docs/usercube/usercube/integration-guide/connectors/index.md) topic for additional information.
 
 ## Encryption Key Pair
 
@@ -288,7 +288,7 @@ Public key certificates can also be bought from trusted certificate providers an
 
 The certificate has to be linked to Identity Manager via EncryptionCertificate in the appsettings.agent.json file.
 
-See the[Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information about configuration parameters.
+See the[Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information about configuration parameters.
 
 ### Certificate as a plain file
 
@@ -298,7 +298,7 @@ The following parameters are used to link the file to Identity Manager in Encry
 
 Storing a ```.pfx``` file password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the[
 Usercube-Protect-CertificatePassword
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
 
 Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
 
@@ -339,13 +339,13 @@ The connection to Identity Manager's server can be configured through:
 
 - The applicationUri attribute in the Runtime/appsettings.agent.json file has to be set to Identity Manager's server URL
 
-- OpenIdClients and DefaultOpenIdClient must be used to set the agent's credentials to connect to the server; See the[appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and[
+- OpenIdClients and DefaultOpenIdClient must be used to set the agent's credentials to connect to the server; See the[appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and[
   OpenIdClient
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topics for additional information.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topics for additional information.
 
 Their content should be provided by the integration team, in relation to the OpenIdClient tag in the applicative configuration. See the[
 OpenIdClient
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.
 
 The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier <Job> and the password <secret>, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
 
@@ -410,4 +410,4 @@ If this is not correctly configured, any restart of your IIS or application pool
 
 The last step in the installation process is setting up an Email server. See the [
 Send Notifications
-](/docs/product_docs/usercube/usercube/installation-guide/production-ready/email-server/index.md)topic for additional information.
+](/docs/usercube/usercube/installation-guide/production-ready/email-server/index.md)topic for additional information.

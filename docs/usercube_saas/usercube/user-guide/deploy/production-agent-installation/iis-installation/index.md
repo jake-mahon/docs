@@ -14,25 +14,25 @@ Install IIS via Server Manager by proceeding as follows:
 
 1. Open the Server Manager program and click on __Add roles and features__.
 
-   ![Server Manager: Step 1](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager1.png)
+   ![Server Manager: Step 1](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager1.png)
 2. Click on __Next__, then in __Installation Type__ make sure that __Role-based or feature-based installation__ is selected and click on __Next__.
 
-   ![Server Manager: Step 2](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager2.png)
+   ![Server Manager: Step 2](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager2.png)
 3. In __Server Selection__ tick __Select a server from the server pool__ and click on __Next__.
 
-   ![Server Manager: Step 3](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager3.png)
+   ![Server Manager: Step 3](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager3.png)
 4. In __Server Roles__ tick __Web Server (IIS)__.
 
-   ![Server Manager: Step 4](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager4.png)
+   ![Server Manager: Step 4](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager4.png)
 5. In __Features__ select __Remote Server Administration Tools__ > __Role Administration Tools__ > __AD DA and AD LDS Tools__ > __AD DS Tools__ > __AD DS Snap-Ins and Command-Line Tools__.
 
-   ![Server Manager: Step 5](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager5.png)
+   ![Server Manager: Step 5](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager5.png)
 6. In __Confirmation__ click on __Install__.
 
-   ![Server Manager: Step 6](/static/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager6.png)
+   ![Server Manager: Step 6](/img/product_docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/prodagent_servermanager6.png)
 
 ## Next Steps
 
 To continue,[
 Configure the Pool and Site
-](/docs/product_docs/usercube_saas/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md)and website via IIS.
+](/docs/usercube_saas/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md)and website via IIS.

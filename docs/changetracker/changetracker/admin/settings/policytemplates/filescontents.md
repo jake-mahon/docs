@@ -2,7 +2,7 @@
 
 Configuration settings conveyed using config files can be tracked directly using the __File Contents Tracker__. Similarly, to the FIM Tracker, changes can be tracked continuously to give real-time notifications of any changes, or via a periodically scheduled poll. Netwrix Change Tracker supports a regular expression-based data-extraction operation to precisely focus the tracking on salient entries only.
 
-![PolicyTemplateFileContents](/static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatefilecontents.png)
+![PolicyTemplateFileContents](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatefilecontents.png)
 
 __Step 1 –__ __Polling Frequency__. The default setting is to run a full poll (effectively a new baseline operation) only when the Agent has been restarted e.g., after a reboot but the Agent may be run in a ‘polling-only’ mode. This disables live tracking (the __Tracking Style__ attribute for the Tracker should be set to ‘Polling’) and means that the only change detection is performed when the scheduled poll is run. While this loses the benefits of real-time change detection, it can be desirable in sensitive environments where server resource loads need to be minimized under all conditions.
 

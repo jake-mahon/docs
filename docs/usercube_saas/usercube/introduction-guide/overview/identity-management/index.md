@@ -8,7 +8,7 @@ A company involves many sorts of identities: obviously employees, but also exter
 
 Companies often use about one system for each identity type. Identity Manager capitalizes on information from several source systems in order to build a central repository meant to contain all the data necessary to manage all identities throughout their whole lifecycle.
 
-![Usercube's Repository](/static/img/product_docs/usercube/usercube/introduction-guide/overview/identity-management/identities_repository.png)
+![Usercube's Repository](/img/product_docs/usercube/usercube/introduction-guide/overview/identity-management/identities_repository.png)
 
 Identity Manager's central repository acts as an intermediary between the systems that provide data, for example the HR system, and those that receive data, for example the Active Directory. This greatly reduces the complexity in the links between all systems.
 
@@ -16,7 +16,7 @@ Without an intermediary, adding one system to a set of n systems requires up to 
   
 Now with the central repository as an intermediary, implementing a new system requires only one more set of rules. The complexity becomes linear.
 
-![quadratic-linear-complexity](/static/img/product_docs/usercube/usercube/introduction-guide/overview/identity-management/quadratic-linear-complexity.png)
+![quadratic-linear-complexity](/img/product_docs/usercube/usercube/introduction-guide/overview/identity-management/quadratic-linear-complexity.png)
 
 ## An Entity Relationship Model
 
@@ -30,7 +30,7 @@ All this data is organized and modeled by entities. This concept is quite simila
 >
 > Another entity could be ```SAB_User``` to model SAB accounts owned by users from ```Directory_User```. The accounts from ```SAB_User``` could be related to groups from another entity ```SAB_Group```.
 
-![Entity Type - Schema](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.png)
+![Entity Type - Schema](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.png)
 
 These entities' instances are called resources in Identity Manager. A resource can be the digital identity of a user (human or bot), or an AD account or any other account, or an entry from the HR system, or the representation of a department of the company, etc.
 
@@ -43,7 +43,7 @@ Thus, Identity Manager provides a customizable model to organize a company's da
 
 Each entity is related to a managed system, for example the Active Directory or SAB or ServiceNow, etc. The reading/writing data between the system and Identity Manager are ensured by connectors. So Identity Manager can be configured with one connector for each managed system.
 
-![Connector Schema](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connectorcreation_connectorschema.png)
+![Connector Schema](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connectorcreation_connectorschema.png)
 
 For a given system, a connector contains:
 
@@ -53,13 +53,13 @@ For a given system, a connector contains:
 
 Thus, a connector enables synchronization, i.e. Identity Manager reading from a managed system via an [extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load) process.
 
-![Synchronization](/static/img/product_docs/usercube/usercube/introduction-guide/overview/overview_synchronization.png)
+![Synchronization](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_synchronization.png)
 
 > A typical example is the synchronization of the HR system's data to retrieve employees' personal information.
 
 It also enables provisioning, i.e. Identity Manager writing to a managed system, but that is something we will dig into later.
 
-![Provisioning](/static/img/product_docs/usercube/usercube/introduction-guide/overview/overview_provisioning.png)
+![Provisioning](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_provisioning.png)
 
 ## Repository Updates
 
@@ -72,13 +72,13 @@ Once Identity Manager is configured, with not only connectors but also roles and
 
 See the [
 Entitlement Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 ## Next Steps
 
 Let's learn about [
 Entitlement Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md).
+](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 ## Learn More
 
@@ -88,14 +88,14 @@ Identity Management
 
 See how to [
 Create the Workforce Repository
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md).
 
-Learn more on [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md).
+Learn more on [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md).
 
 See how to create a [
 Connect to a Managed System
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md).
 
-Learn more on [Synchronization](/docs/product_docs/usercube_saas/usercube/integration-guide/synchronization/index.md).
+Learn more on [Synchronization](/docs/usercube_saas/usercube/integration-guide/synchronization/index.md).
 
-Learn more on [Workflows](/docs/product_docs/usercube_saas/usercube/integration-guide/workflows/index.md).
+Learn more on [Workflows](/docs/usercube_saas/usercube/integration-guide/workflows/index.md).

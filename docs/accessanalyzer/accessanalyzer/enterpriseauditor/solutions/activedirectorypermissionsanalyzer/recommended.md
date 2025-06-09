@@ -6,7 +6,7 @@ The following Access Analyzer job groups need to be successfully run:
 
 - .Active Directory Inventory Job Group
 
-The following jobs need to be run prior to running the [AD\_ShadowAccess Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+The following jobs need to be run prior to running the [AD\_ShadowAccess Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
 - .Active Directory Inventory >1-AD\_Scan > ADInventory
 - Active Directory > 1.Groups > AD\_SensitiveSecurityGroups
@@ -15,7 +15,7 @@ The following jobs need to be run prior to running the [AD\_ShadowAccess Job](/d
 - Active Directory Permissions Analyzer > 1.Users > AD\_ResetPasswordPermissions
 - Active Directory Permissions Analyzer > 2.Groups > AD\_GroupMembershipPermissions
 
-The following jobs can be optionally run to enhance reporting in the [AD\_ShadowAccess Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+The following jobs can be optionally run to enhance reporting in the [AD\_ShadowAccess Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
 - Active Directory > 2.Users > AD\_WeakPasswords
 - FileSystem > 7.Sensitive Data > FS\_DLPResults > FS\_DLPResults
@@ -33,7 +33,7 @@ Connection Profile
 
 Assign a Connection Profile at the __Active Directory Permissions Analyzer__ > __0. Collection__ > __Settings__ > __Connection__ node with local Administrator privileges on the target host, or Domain Administrator privileges if the target host is a domain controller.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

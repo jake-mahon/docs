@@ -8,21 +8,21 @@ Identity Manager's simulations gather roles and rules which are to be created, m
 
 - [
   Resource Correlation Rule
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) and [
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) and [
   Resource Classification Rule
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
-- [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
-- [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
+- [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
 - [
   Single Role
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and [
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and [
   Composite Role
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [Single Role Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and [Composite Role Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and [Composite Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
 A simulation can also be created by the [
 Perform Role Mining
-](/docs/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) for the automation of role assignments.
+](/docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) for the automation of role assignments.
 
 Through simulation, integrators can:
 
@@ -38,4 +38,4 @@ Netwrix Identity Manager (formerly Usercube) recommends using simulation wheneve
 
 See the [
 Perform a Simulation
-](/docs/product_docs/usercube/usercube/user-guide/optimize/simulation/index.md) for additional information.
+](/docs/usercube/usercube/user-guide/optimize/simulation/index.md) for additional information.

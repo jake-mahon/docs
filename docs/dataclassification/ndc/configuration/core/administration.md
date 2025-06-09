@@ -4,7 +4,7 @@ This configuration tab contains general options, as well as those that apply to 
 
 Nearly each configuration option has an associated “i” which describes the nature of the setting.
 
-[![core_admin_thumb_0_0](/static/img/product_docs/dataclassification/ndc/configuration/core/core_admin_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/config_system/core_admin.png)
+[![core_admin_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_admin_thumb_0_0.png)](/docs/dataclassification/resources/images/config_system/core_admin.png)
 
 ## General Options
 
@@ -17,7 +17,7 @@ Nearly each configuration option has an associated “i” which describes the n
 | __Advanced settings__ |  |  |
 | Instance name | Name of the NDC Server instance |  |
 | Administration URL | URL of the web-based management console. Default URL is _http://localhost/conceptQS_. | If necessary, specify another Netwrix  standalone server or cluster server instead of local host. You can use server name or IP address. |
-| AD Groups Lookup Enabled | Allows you to enable/disable the use of AD groups in User Manager.  This option is disabled by default. | It is recommended to keep this option disabled unless AD group support is specifically required.  To learn more about User Manager in Netwrix Data Classification, see [User Management](/docs/product_docs/dataclassification/ndc/security/usermanagement.md) |
+| AD Groups Lookup Enabled | Allows you to enable/disable the use of AD groups in User Manager.  This option is disabled by default. | It is recommended to keep this option disabled unless AD group support is specifically required.  To learn more about User Manager in Netwrix Data Classification, see [User Management](/docs/dataclassification/ndc/security/usermanagement.md) |
 
 ## Taxonomies
 

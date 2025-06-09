@@ -2,7 +2,7 @@
 
 You need to create a new Least Privilege Manager policy on either the Computer or User side, and then create the following Elevate and Allow policies. The steps below show you how to do this.
 
-![575_1_image-20200826125733-1](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_1_image-20200826125733-1.png)
+![575_1_image-20200826125733-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_1_image-20200826125733-1.png)
 
 __Step 1 –__ Executable policy for ```Webex.exe``` Elevated by __Signature__ and __File Info__.
 
@@ -28,9 +28,9 @@ Alternatively, download the Guidance XMLs from [https://portal.policypak.com/dow
 
 If WebEx is blocked after using these policy settings, please check in the Netwrix Endpoint Policy Manager (formerly PolicyPak) Event log to see if ```WebEx.exe``` is being blocked by SecureRun due to Publisher being unknown. If it is, you can edit the policy item for``` WebEx.exe``` and uncheck the signature requirement to work around this issue.
 
-![575_3_image-20200826125733-2](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_3_image-20200826125733-2.png)
+![575_3_image-20200826125733-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_3_image-20200826125733-2.png)
 
-![575_5_image-20200826125733-3](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_5_image-20200826125733-3.png)
+![575_5_image-20200826125733-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_5_image-20200826125733-3.png)
 
 ### Method 2:
 
@@ -40,25 +40,25 @@ __Step 1 –__ Right-click ```Webex.exe``` file and open Properties
 
 __Step 2 –__ Select the Digital Signature tab and click __Details__.
 
-![575_7_01_321x213](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_7_01_321x213.png)
+![575_7_01_321x213](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_7_01_321x213.png)
 
 __Step 3 –__ Click __View Certificate__.
 
-![575_8_02_323x239](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_8_02_323x239.png)
+![575_8_02_323x239](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_8_02_323x239.png)
 
 __Step 4 –__ Click the __Certification Path__ tab and select the second certificate from the chain. Click __View Certificate__.
 
-![575_9_03_319x130](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_9_03_319x130.png)
+![575_9_03_319x130](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_9_03_319x130.png)
 
 __Step 5 –__ Click on the __Details__ tab and select __Copy to File__.
 
-![575_10_04_243x307](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_10_04_243x307.png)
+![575_10_04_243x307](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_10_04_243x307.png)
 
 __Step 6 –__ Click __Next__ on the Export Certificate Wizard and select DER encoded binary X.509 (.CER) format.
 
 __Step 7 –__ Finish the export and save the cert file somewhere easily accessible for the next steps.
 
-__NOTE:__ You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the certificate file at the desired location of the remote computer. For more information on this issue, please see  Remote Work Delivery Manager > [Knowledge Base](/docs/product_docs/policypak/policypak/feature/overview/knowledgebase.md)
+__NOTE:__ You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the certificate file at the desired location of the remote computer. For more information on this issue, please see  Remote Work Delivery Manager > [Knowledge Base](/docs/policypak/policypak/feature/overview/knowledgebase.md)
 
 Use Endpoint Policy Manager Scripts Manager to deliver the Certificate in Intermediate Certification Authorities for a Computer.
 
@@ -75,4 +75,4 @@ LocalMachine$certificateStore.Open('ReadWrite')$certificateStore.Add($pathInterm
 
 __Step 2 –__ Wait for the policy refresh and you should see the certificate in the Intermediate Certification Authorities folder
 
-![575_11_05_549x169](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_11_05_549x169.png)
+![575_11_05_549x169](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_11_05_549x169.png)

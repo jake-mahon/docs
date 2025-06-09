@@ -4,7 +4,7 @@ Follow the steps to move the Threat Prevention7.5 Enterprise Manager to a differ
 
 __CAUTION:__ Do not remove the Enterprise Manager from the current machine until the migration process is complete.
 
-__Step 1 –__ Install the Enterprise Manager to the new machine. See the [Application Server Install](/docs/product_docs/threatprevention/threatprevention/install/application.md) topic for additional information.
+__Step 1 –__ Install the Enterprise Manager to the new machine. See the [Application Server Install](/docs/threatprevention/threatprevention/install/application.md) topic for additional information.
 
 _Remember,_ point to the existing SQL Server for the NVMonitorData and NVConfig databases on the Database Login Information page of the wizard during installation.
 
@@ -37,7 +37,7 @@ __Step 3 –__ Start the Threat Prevention Enterprise Manager service on the new
 
 __Step 4 –__ On the original Enterprise Manager machine, launch the Administration Console and follow these steps to update the Enterprise Manager info for each Agent.
 
-1. Click __Agents__ in the left pane to open the [Agents Interface](/docs/product_docs/threatprevention/threatprevention/admin/agents/overview.md).
+1. Click __Agents__ in the left pane to open the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md).
 2. Right-click an Agent in the grid and select __Update Agent Settings__. You can also select multiple Agents and right-click to select the Update Agent Settings option for them.
 
    The Select Computers window opens. Click __Next__.
@@ -52,4 +52,4 @@ You will find the SIWindowsAgent.exe.config file at: ```…\Netwrix\Netwrix Thre
 
 __Step 5 –__ Once all Agents are displayed in the Administration Console on the new Enterprise Manager machine, you can decommission the original Enterprise Manager machine and/or uninstall the Netwrix Threat Prevention server.
 
-__NOTE:__ If Netwrix Threat Prevention is configured to use customer supplied certificates. It is recommended that you uninstall, then re-enroll and re-install all Agents with new certificates. This is because customer supplied certificates usually have the FQDN info of the Enterprise Manager and the new Enterprise Manager machine would typically have a different DNS name. See the [Create Custom Managed Certificates for Each Agent](/docs/product_docs/threatprevention/threatprevention/install/agent/customcert.md) topic for additional information.
+__NOTE:__ If Netwrix Threat Prevention is configured to use customer supplied certificates. It is recommended that you uninstall, then re-enroll and re-install all Agents with new certificates. This is because customer supplied certificates usually have the FQDN info of the Enterprise Manager and the new Enterprise Manager machine would typically have a different DNS name. See the [Create Custom Managed Certificates for Each Agent](/docs/threatprevention/threatprevention/install/agent/customcert.md) topic for additional information.

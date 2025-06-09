@@ -4,7 +4,7 @@ Let's simulate what would happen if the user changes job roles or the GPO is no 
 
 __Step 1 –__ Find the account you're using within the OU. Use Active Directory Users and Computers to move the account to another OU. Find the account, right-click on it, and select "Move," as seen in Figure 17.
 
-![policypak_application_settings_16](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_16.png)
+![policypak_application_settings_16](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_16.png)
 
 Figure 17. Moving user accounts to a different OU.
 
@@ -18,7 +18,7 @@ __Step 2 –__ Move the user account to an OU that will not be affected by the G
 
 Results are shown in Figure 18.
 
-![policypak_application_settings_17](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_17.png)
+![policypak_application_settings_17](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_17.png)
 
 Figure 18. The settings have been reverted to their original values.
 

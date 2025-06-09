@@ -42,5 +42,5 @@ Click the ellipsis button for a user to perform any of these actions:
 
 __See Also__
 
-- [Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/product_docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)

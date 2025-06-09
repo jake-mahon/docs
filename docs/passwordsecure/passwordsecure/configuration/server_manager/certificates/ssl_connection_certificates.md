@@ -10,7 +10,7 @@ __This connection is not trusted!__
 
 The connection to the server is not considered secure.
 
-![not_trusted_certificates](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/not_trusted_certificates.png)
+![not_trusted_certificates](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/not_trusted_certificates.png)
 
 NOTE: Windows Server 2012 R2 requires the latest patch level, since it has been delivered with SSL3, and has been extended to include TLS 1.2
 
@@ -28,7 +28,7 @@ NOTE: All information (including the IP address) are stored as DNS name.
 
 #### Using the Netwrix Password Secure certificate
 
-The name of the PSR certificate is __PSR8Server__. This can be done via the [Basic configuration](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md) in the AdminConsole. The certificate is saved locally under:
+The name of the PSR certificate is __PSR8Server__. This can be done via the [Basic configuration](/docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md) in the AdminConsole. The certificate is saved locally under:
 
 Local computer -> own certificates -> certificates
 
@@ -46,15 +46,15 @@ Manually importing the Netwrix Password Secure certificate
 
 If the Netwrix Password Secure certificate is not rolled out, it is also possible to manually import the certificate. To do this, firstly open the certificate information. In the warning notification, the Show server certificate button is available for this purpose. In the following dialogue, select the option Install certificate…
 
-![installation_with_parameters_204_415x395](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_204_415x395.png)
+![installation_with_parameters_204_415x395](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_204_415x395.png)
 
 A __Certificate import wizard__ will open in which __Local computer__ should be selected.
 
-![installation_with_parameters_205_555x405](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_205_555x405.png)
+![installation_with_parameters_205_555x405](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_205_555x405.png)
 
 In the next step, the storage location “trusted root certificate location” needs to be manually selected.
 
-![installation_with_parameters_206_556x406](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_206_556x406.png)
+![installation_with_parameters_206_556x406](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_206_556x406.png)
 
 Finally, the installation needs to be confirmed once again.
 
@@ -62,7 +62,7 @@ NOTE: The user logged in to the operating system requires rights to create certi
 
 #### Using your own certificate
 
-If a CA already exists, you can also use your own certificate. You can specify this within the [Basic configuration](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md). Please note that a server certificate for SSL encryption is used here. The CA must be configured so that all clients trust the certificate. It is necessary to adhere to the certification path.
+If a CA already exists, you can also use your own certificate. You can specify this within the [Basic configuration](/docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md). Please note that a server certificate for SSL encryption is used here. The CA must be configured so that all clients trust the certificate. It is necessary to adhere to the certification path.
 
 __CAUTION:__ When configuring, you must ensure that the clients can access the CA lock lists
 

@@ -2,11 +2,11 @@
 
 Endpoint Policy Manager also can install URL and file-based Firefox add-ons within Firefox.
 
-Video: To see a video of Endpoint Policy Manager forcing installation of Firefox's Add-Ons, go to [Force Install Firefox Extensions (from URL or file).](/docs/product_docs/policypak/policypak/video/applicationsettings/firefox/extensions.md).
+Video: To see a video of Endpoint Policy Manager forcing installation of Firefox's Add-Ons, go to [Force Install Firefox Extensions (from URL or file).](/docs/policypak/policypak/video/applicationsettings/firefox/extensions.md).
 
 Go to the Add-Ons tab within the Firefox AppSet, as shown in Figure 28.
 
-![add_ons_12](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_12.png)
+![add_ons_12](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_12.png)
 
 Figure 28. The Add-Ons tab within Endpoint Policy Manager Application Settings Manager.
 
@@ -20,7 +20,7 @@ __Step 3 –__ Trim the URL for excess characters.
 
 __Step 4 –__ Convert to Endpoint Policy Manager syntax.
 
-![add_ons_13](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_13.png)
+![add_ons_13](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_13.png)
 
 Figure 29. Copying the link location.
 
@@ -37,13 +37,13 @@ __Step 7 –__ Finally, you'll convert to Endpoint Policy Manager syntax:``` htt
 
 For using the file-based installation method, you would select "Save Link As" after right-clicking on the "Add to Firefox" botton, as shown in Figure 30.
 
-![add_ons_14](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_14.png)
+![add_ons_14](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_14.png)
 
 Figure 30. The file-based installation method.
 
 __Step 8 –__ Then, you would save the file to a location to use later, as shown in Figure 31.
 
-![add_ons_15](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_15.png)
+![add_ons_15](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons/add_ons_15.png)
 
 Figure 31. Choosing where to save the file.
 

@@ -2,7 +2,7 @@
 
 The EX\_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.
 
-![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/activesyncjobstree.png)
+![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/activesyncjobstree.png)
 
 The EX\_ActiveSync job is located in the ActiveSync job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ >
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
-![Analysis Tasks for the EX_ActiveSync Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/activesyncanalysis.png)
+![Analysis Tasks for the EX_ActiveSync Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/activesyncanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -25,7 +25,7 @@ The following analysis tasks are selected by default:
 - 07. SET HISTORY RETENTION – Sets retention period in months
 
   - The default is __6 months__. It can be modified.
-  - See the [Exchange History Retention](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
+  - See the [Exchange History Retention](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
 
 The following analysis task deletes table data from the analysis jobs. This analysis task should remain cleared unless specifically needed:
 
@@ -33,7 +33,7 @@ __CAUTION:__ Do not select the __00. Deletes all History__ option. This analysis
 
 - 00. Delete all History
 
-  - See the [Troubleshooting Data Collection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
 
 The following analysis task updates the table to clean the data so that any UserAgent information that is returned as NULL is updated based on existing data in the table:
 

@@ -2,13 +2,13 @@
 
 From time to time, Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud could become unavailable or "goes down". This is rare, but it can happen.
 
-First, to verify and ensure the problem is with the Endpoint Policy Manager Cloud service, and not something on your end, please see the following article [Troubleshoot communication from the Cloud Client and Cloud Service](/docs/product_docs/policypak/policypak/troubleshooting/cloud/servicecommunication.md) (and the sub-KB articles at the end).
+First, to verify and ensure the problem is with the Endpoint Policy Manager Cloud service, and not something on your end, please see the following article [Troubleshoot communication from the Cloud Client and Cloud Service](/docs/policypak/policypak/troubleshooting/cloud/servicecommunication.md) (and the sub-KB articles at the end).
 
 However, if the Endpoint Policy Manager Cloud service itself is down, you might see the following behavior:
 
 __Step 1 –__ Computers cannot be joined / re-joined to Endpoint Policy Manager Cloud
 
-![612_1_rt](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/612_1_rt.jpg)
+![612_1_rt](/img/product_docs/policypak/policypak/troubleshooting/cloud/612_1_rt.jpg)
 
 __Step 2 –__ Endpoint Policy Manager Cloud /sync might show the following message…
 

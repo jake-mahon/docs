@@ -10,7 +10,7 @@ Daily technical issues can lead to some unexpected results in Identity Manager. 
 
 See the [
 Troubleshoot Connector Jobs
-](/docs/product_docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) troubleshooting instructions concerning connector jobs.
+](/docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) troubleshooting instructions concerning connector jobs.
 
 ### Prerequisites
 
@@ -18,13 +18,13 @@ In order to troubleshoot Identity Manager efficiently, the user, usually an appl
 
 - the connector screens, especially the jobs available there;
 
-  ![Connector Jobs](/static/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.png)
+  ![Connector Jobs](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.png)
 - the resource screens (identities, accounts, etc.) with their data, and especially their history and sources;
 
-  ![User Data](/static/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.png)
+  ![User Data](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.png)
 - basic workflows, for example the usual helpdesk workflow, that give access to users' entitlements and enable data modification and repair.
 
-  ![Helpdesk Workflow](/static/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.png)
+  ![Helpdesk Workflow](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.png)
 
 ## Participants and Artifacts
 
@@ -32,7 +32,7 @@ Here integrators give way to managers to handle the solution by themselves.
 
 | Input | Output |
 | --- | --- |
-| [Implement Identity Manager](/docs/product_docs/usercube/usercube/user-guide/deploy/implementation/index.md) (required) | Working environment |
+| [Implement Identity Manager](/docs/usercube/usercube/user-guide/deploy/implementation/index.md) (required) | Working environment |
 
 ## Troubleshoot Synchronization Issues
 
@@ -56,7 +56,7 @@ If a synchronization threshold is exceeded, then check whether the threshold is 
 
 See more details on [
 Synchronize Data
-](/docs/product_docs/usercube/usercube/user-guide/set-up/synchronization/index.md) thresholds.
+](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md) thresholds.
 
 ## Troubleshoot Provisioning Issues
 
@@ -67,7 +67,7 @@ If provisioning orders are blocked while expected to be automatic, it can come f
 - the __Require Provisioning Review__ option being enabled in the related resource type;
 - the role model being computed through the [
   Compute Role Model Task
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) or the corresponding executable, with the block provisioning option;
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) or the corresponding executable, with the block provisioning option;
 - a provisioning order being already blocked for the same resource due to a prior operation;
 - a correlation/classification rule with a confidence rate below 100%, which means that either important data is missing or the rule is not right.
 

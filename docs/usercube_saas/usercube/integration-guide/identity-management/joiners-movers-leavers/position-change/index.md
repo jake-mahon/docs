@@ -12,7 +12,7 @@ Just like onboarding, the entitlement fulfillment can be performed either by usi
 
 Identity Manager's calculations for entitlement assignments rely on heuristics, through identities' key properties called [
 Entitlement Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md).
+](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 > For example, consider an entity type modeling identities with their job title, department and location.
 >
@@ -30,7 +30,7 @@ Any change in an identity's lifecycle, such as a position change, usually entail
 
 It seems natural to model identities by splitting their properties into three entities: one for users' personal data, one for their contract(s) and one for their position(s):
 
-![Records Origin - Three-Entity Model](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_firstmodel.png)
+![Records Origin - Three-Entity Model](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_firstmodel.png)
 
 A user can have several positions over time, even simultaneously. A user's contract can change over time too. Even personal data is subject to change. This is why we can have several sets of personal data (and/or several contracts and/or several positions) for a single user, and also why the ```User``` entity is meant to contain only users' unique identifiers.
 
@@ -40,7 +40,7 @@ Even without allowing simultaneous positions, contracts or personal data sets, t
 
 ### Contexts
 
-The model is supposed to facilitate the [Provisioning](/docs/product_docs/usercube_saas/usercube/integration-guide/provisioning/index.md) provisioning of user data and entitlements, yet this first model does not meet all expectations. In case of multiple personal data sets for a single user over time, or multiple contracts, or multiple positions, which values should be used to apply the rules of the role model? How to combine all start and end dates to make sure that all rules are applied based on the right input? These issues imply complex C# expressions in provisioning rules.
+The model is supposed to facilitate the [Provisioning](/docs/usercube_saas/usercube/integration-guide/provisioning/index.md) provisioning of user data and entitlements, yet this first model does not meet all expectations. In case of multiple personal data sets for a single user over time, or multiple contracts, or multiple positions, which values should be used to apply the rules of the role model? How to combine all start and end dates to make sure that all rules are applied based on the right input? These issues imply complex C# expressions in provisioning rules.
 
 > For example, let's write a C# expression to compute users' display names based only on their first and last names. To make sure that display names are computed using valid input, we write the following:
 >
@@ -62,15 +62,15 @@ To simplify the expressions, the model needs to be "flattened" in order to provi
 
 > For example, consider the following situation: Mark Barn is a user who has, at day D0, a given set of personal data, a given contract and a given position. At day D1, his contract changes from fixed-term to permanent. At day D2, he starts an additional position. The two positions overlap from day D2 to day D3 when the first position ends.
 >
-> ![User Example](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_userexample.png)
+> ![User Example](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_userexample.png)
 >
 > Over time, the three entities are as follows:
 >
-> ![Example - Timelines](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_timelines.png)
+> ![Example - Timelines](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_timelines.png)
 >
 > From this, Identity Manager is able to combine the start and end dates of all entities at all times to generate the following datasheets, named contexts:
 >
-> ![Example - Contexts](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_contexts.png)
+> ![Example - Contexts](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_contexts.png)
 
 Contexts are the result of the combination of all entities (personal data, contract and position) so that all values contained in a given context are valid on a given period of time.
 
@@ -94,7 +94,7 @@ The complexity that comes from the combination of all start and end dates is tac
 
 The final step to a viable model is to find a way to store optimally this context model in the database, in order to be able to perform fast requests. Hence, the final model gathers all entities (personal data, contracts and positions), including their respective start and end dates, into a single entity named records, where a context is a record instance:
 
-![Records Origin - Final Model](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_thirdmodel.png)
+![Records Origin - Final Model](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/recordsorigin_thirdmodel.png)
 
 While there are as many contexts for a user as the number of changes in the user's datasheet, there are only as many records as needed to store each value at least once.
 
@@ -116,9 +116,9 @@ A change to be effective in future can trigger the creation of a new record.
 
 This identity model can be implemented by configuring a [
 Context Rule
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [
 Record Section
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
 
 ```
 

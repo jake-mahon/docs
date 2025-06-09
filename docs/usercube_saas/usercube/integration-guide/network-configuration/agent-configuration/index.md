@@ -6,14 +6,14 @@ Identity Manager Agent's configuration includes connection information to the ma
 
 The Agent configuration uses two sets of settings: the agent __appsettings__ set and the __appsettings.agent__ set.
 
-1. The [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) set is written either to the Agent's working directory appsettings.json file or as environment variables. See the [
+1. The [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) set is written either to the Agent's working directory appsettings.json file or as environment variables. See the [
    Architecture
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/architecture/index.md) topic for additional information.
-2. The [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) set is written as environment variables or to the appsettings.agent.json files from the Agent's working directory.
+   ](/docs/usercube_saas/usercube/integration-guide/architecture/index.md) topic for additional information.
+2. The [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) set is written as environment variables or to the appsettings.agent.json files from the Agent's working directory.
 3. There are two additional files involved in the _Agent_'s configuration to protect sensitive data: appsettings.encrypted. agent. json and appsettings.cyberark.agent.json. See the [
    RSA Encryption
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and [CyberArk's AAM Credential Providers
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
+   ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and [CyberArk's AAM Credential Providers
+   ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
 ## Protect Credentials
 
@@ -43,7 +43,7 @@ Because of the credential protection system, the Agent connection information to
 
 - The appsettings.agent.json file which contains plain text, non-encrypted setting information.
 - The appsettings.encrypted.agent.json file which contains encrypted setting information.
-- An [Azure Key Vault](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+- An [Azure Key Vault](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
 - A CyberArkVault referenced by the appsettings.cyberark.agent.json file.
 - The appsettings. connection.json file.
 

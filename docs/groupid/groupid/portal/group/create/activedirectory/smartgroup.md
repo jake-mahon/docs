@@ -18,7 +18,7 @@ In a Microsoft Entra ID identity store, the default query returns the following:
 
 You can do the following:
 
-Step 1 – To modify the query, click the __Query Designer__ button. This launches the [Query Designer](/docs/product_docs/groupid/groupid/portal/group/querydesigner/overview.md) dialog box, where you can modify the query.
+Step 1 – To modify the query, click the __Query Designer__ button. This launches the [Query Designer](/docs/groupid/groupid/portal/group/querydesigner/overview.md) dialog box, where you can modify the query.
 
 Step 2 – You can also associate a Smart Group Update job with the group; this is a scheduled job that updates the group’s membership when
 it runs.

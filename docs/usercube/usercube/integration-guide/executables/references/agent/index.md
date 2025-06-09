@@ -1,7 +1,7 @@
 # Identity Manager-Agent
 
 This tool runs the Agent on a separate server instance. The Agent is able to communicate with the [Usercube-Server
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/server/index.md).
+](/docs/usercube/usercube/integration-guide/executables/references/server/index.md).
 
 ## Examples
 

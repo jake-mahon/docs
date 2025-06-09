@@ -2,7 +2,7 @@
 
 The Logs page shows the log files. From here, search and investigate the records.
 
-![Audit and Reporting Log Files Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/logfilespage.png)
+![Audit and Reporting Log Files Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/logfilespage.png)
 
 On the left of the page, the Log list shows the log files:
 

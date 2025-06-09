@@ -20,16 +20,16 @@ __Step 2 –__ Create a policy in Endpoint Policy Manager File Associations Mana
 
 __Step 3 –__ Click __Select Program__, and select __From EXE File__ (not shown). Find the ```Notepad++Portable.exe``` program. When that file is selected, the __Application Icon field__is automatically filled in.
 
-![about_policypak_file_associations_20](/static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_20.png)
+![about_policypak_file_associations_20](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_20.png)
 
 __Step 4 –__ Now you should have a total of four file association policies.
 
-![about_policypak_file_associations_21](/static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_21.png)
+![about_policypak_file_associations_21](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_21.png)
 
 __NOTE:__  The XML file type on the endpoint has no icon in particular.
 
-![about_policypak_file_associations_23](/static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_23.png)
+![about_policypak_file_associations_23](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_23.png)
 
 __Step 5 –__ To continue, run ```GPupdate``` on the endpoint. Then, to see it take effect, log off and log on again. When you do, you'll see the XML file icon change to Notepad++. Double-clicking the icon will launch Notepad++ Portable.
 
-![about_policypak_file_associations_22](/static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_22.png)
+![about_policypak_file_associations_22](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_22.png)

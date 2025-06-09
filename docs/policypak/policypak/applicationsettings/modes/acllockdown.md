@@ -1,10 +1,10 @@
 # ACL Lockdown™ Mode
 
-__NOTE:__ For a demonstration of the ACL Lockdown™ Mode feature, please see this video: [ACL Lockdown for Registry Based Applications](/docs/product_docs/policypak/policypak/video/applicationsettings/acllockdown.md).
+__NOTE:__ For a demonstration of the ACL Lockdown™ Mode feature, please see this video: [ACL Lockdown for Registry Based Applications](/docs/policypak/policypak/video/applicationsettings/acllockdown.md).
 
 ACL Lockdown mode can be seen when you right-click a setting within an AppSet (see Figure 34).
 
-![policypak_application_settings_1_13](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_13.png)
+![policypak_application_settings_1_13](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_13.png)
 
 Figure 34. Selecting the ACL Lockdown setting.
 
@@ -21,13 +21,13 @@ When you select "Perform ACL Lockdown" using Endpoint Policy Manager Application
 
 For instance, in WinZip, if you right-click "Minimum password length" and select "Perform ACL Lockdown," Endpoint Policy Manager will automatically select it for all other items in the AppSet that share the same location in the Registry (see Figure 35). If you right-click any of the checkboxes in the Passwords tab, you can see that "Perform ACL Lockdown" will be already checked, because all the elements on this page are within the same portion of the Registry.
 
-![policypak_application_settings_1_14](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_14.png)
+![policypak_application_settings_1_14](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_14.png)
 
 Figure 35. With "Perform ACL Lockdown" selected, all password options are automatically checked.
 
 However, clicking on another tab—such as Cameras—and right-clicking a setting will show that "Perform ACL Lockdown" is not set (see Figure 36).
 
-![policypak_application_settings_1_15](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_15.png)
+![policypak_application_settings_1_15](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_15.png)
 
 Figure 36. If other tabs are selected, "Perform ACL Lockdown" will not be set.
 
@@ -35,7 +35,7 @@ This is because the items within the Cameras tab are located in a different plac
 
 To reiterate, if an application's data is stored in a file, then usually ALL items within the AppSet will be locked when "Perform ACL Lockdown" is selected. In the example shown in Figure 37, "Perform ACL Lockdown" is selected for one Firefox setting.
 
-![policypak_application_settings_1_16](/static/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_16.png)
+![policypak_application_settings_1_16](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_16.png)
 
 Figure 37. "Perform ACL Lockdown" is selected for one Firefox setting.
 

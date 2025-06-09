@@ -6,7 +6,7 @@ The Policies List page is where the policies from the desired GPOs to be queried
 - Policies State for all GPOs
 - Local Policies
 
-![Group Policy Data Collector Wizard Policies List page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/policieslist.png)
+![Group Policy Data Collector Wizard Policies List page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/policieslist.png)
 
 Select the policies or policy parts to be audited. The category dictates how this selection is applied across the domain or local host.
 

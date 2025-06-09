@@ -14,7 +14,7 @@ Advanced Change Management allows data within customization to be archived durin
 8. Click __Save__
 9. Note the __Internal ID__ for your new __Strongpoint Archived Data Files__ folder. __48783__ in this example.
 
-   ![Finding the Internal ID of the Archive Folder](/static/img/product_docs/strongpointfornetsuite/clean_up/internal_id.png)
+   ![Finding the Internal ID of the Archive Folder](/img/product_docs/strongpointfornetsuite/clean_up/internal_id.png)
 
 ## Assign the Internal ID to the Deployed Script
 
@@ -24,16 +24,16 @@ To assign the internal ID to a deployed script:
 2. Change the __Type__ Filter to __Scheduled__ and __From Bundle__ to __294336__
 3. Click __View__ by the __Strongpoint Auto Archive__
 
-![scripts-1](/static/img/product_docs/strongpointfornetsuite/clean_up/scripts-1.png)
+![scripts-1](/img/product_docs/strongpointfornetsuite/clean_up/scripts-1.png)
 
 4. Open the __Deployments__ tab.
 5. Click on __Strongpoint Auto Archive – OD__.
 
-   ![scripts-2](/static/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.png)
+   ![scripts-2](/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.png)
 6. Click __Edit__
 7. Open the __Parameters__ tab, add the internal ID of your __Archive Folder__
 8. Click Save
 
-   ![scripts-3](/static/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.png)
+   ![scripts-3](/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.png)
 
 The archiving function on Change Requests is now set up and ready to use.

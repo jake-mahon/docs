@@ -8,11 +8,11 @@ _Name:_ ```icacls.exe```
 
 Publisher: Microsoft Windows
 
-![overcoming_java_prompts_8](/static/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_8.png)
+![overcoming_java_prompts_8](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_8.png)
 
 This specific prompt is received when the message is set manually or via Group Policy/PolicyPak.
 
-![overcoming_java_prompts_9](/static/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_9.png)
+![overcoming_java_prompts_9](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_9.png)
 
 This prompt can be made to automatically never occur again using Group Policy Preferences:
 
@@ -30,6 +30,6 @@ To do this, set the following registry values to the specific types and descript
 
 By creating these registry values, you can make the Java messages automatically never pop-up again.
 
-![overcoming_java_prompts_10](/static/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_10.png)
+![overcoming_java_prompts_10](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_10.png)
 
 The result is that the prompt for iCacls is no longer received, but the Java applet will not run.

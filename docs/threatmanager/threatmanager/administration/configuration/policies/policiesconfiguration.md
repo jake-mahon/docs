@@ -4,7 +4,7 @@ The Policy Details page displays information about the Honeytoken configuration.
 
 __NOTE:__ Policies for Honeytokens must be enabled by configuring the settings on the Configuration tab.
 
-![detailspage](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/detailspage.png)
+![detailspage](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/detailspage.png)
 
 The Policies box displays the name of the Honeytoken policy. The Policy Information box displays the Honeytoken policy and a description if specified. Click the Edit button to change the name of the Honeytoken policy. If the policy name is changed, click the Save button to save the new name. Click the Delete button to delete the Honeytoken policy.
 
@@ -19,7 +19,7 @@ The Tabs box contains the following tabs:
 
 The Configuration tab provides information on the selected policy for a Honeytoken.
 
-![configurationtab](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
+![configurationtab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
 
 The Configuration tab contains the following configuration options:
 
@@ -34,7 +34,7 @@ The Configuration tab contains the following configuration options:
   __NOTE:__ If the Honeytoken script cannot reach the Threat Manager URL, the Honeytoken will still be deployed but Threat Manager will be unaware of the Honeytoken deployment status.
 - Threat Manager URL – Specify the Threat Manager address to be used by the Honeytoken script to communicate with Threat Manager. Honeytoken hosts must be able to communicate via HTTP REST to this address in order to report Honeytoken deployment status
 - Token Domain – The domain to be used for the deployed Honeytoken. This can be selected from existing, known domains or a custom domain can be specified.
-- Select Credential Profile – Lists Credential Profiles added on the [Integrations Interface](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). Select a Credential Profile from the drop-down list.
+- Select Credential Profile – Lists Credential Profiles added on the [Integrations Interface](/docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). Select a Credential Profile from the drop-down list.
 - Select Preferrred Action Service – Select the Action Service to be used for Honeytoken deployment.
 - Token Time to Reset Password – All Honeytokens for a policy will share common password. This value specifies how frequently a new password will be generated for the Honeytoken policy. Select a value using the drop-down menu from the following options:
   - 1 Day
@@ -58,7 +58,7 @@ Click Save to update the policy settings. Once saved, threats are detected for t
 
 The Hosts tab provides information on hosts that have policies deployed. The Hosts tab displays the following information:
 
-![This screenshot displays the Hosts tab.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshoststab.png)
+![This screenshot displays the Hosts tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshoststab.png)
 
 - Host – The host where the policy was deployed to create Honeytokens
 - Token Name – The name of the Honeytoken user
@@ -73,7 +73,7 @@ The Hosts tab provides information on hosts that have policies deployed. The Hos
 
 The Deployment tab provides a variety of methods to deploy Honeytokens to computers. Threat Manager Action Service can be used to deploy Honeytokens to remote computers, or a PowerShell script can be downloaded to allow either an external mechanism to deploy Honeytokens or for manual deployment of the Honeytokens.
 
-![deploymenttab](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/deploymenttab.png)
+![deploymenttab](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/deploymenttab.png)
 
 - PowerShell Script Deployment:
 
@@ -94,11 +94,11 @@ The Deployment tab provides a variety of methods to deploy Honeytokens to comput
 
 When the Deploy Now button is clicked, Threat Manager will immediately deploy the Honeytoken to all hosts specified in the Hosts lists, utilizing the preferred action service selected for the Honeytoken policy on the Configuration tab.
 
-![honeytokeninprogress](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokeninprogress.png)
+![honeytokeninprogress](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokeninprogress.png)
 
 Closing this window will not cancel the deployment.
 
-![honeytokendeploymentwindowcomplete](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokendeploymentwindowcomplete.png)
+![honeytokendeploymentwindowcomplete](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokendeploymentwindowcomplete.png)
 
 The window will update when the deployment is complete. The hosts and statuses will be listed, viewable by clicking the caret. Deployment status for each host may also be viewed on the Policy History tab. When finished, click __Close__ or the gray x to exit the window.
 
@@ -106,7 +106,7 @@ The window will update when the deployment is complete. The hosts and statuses w
 
 The History tab displays audit history for changes to this policy. It contains a table with the following columns:
 
-![This screenshot displays the History tab.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshistorytab.png)
+![This screenshot displays the History tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshistorytab.png)
 
 - TimeStamp – The timestamp for when the activity occurred
 - Message – A description of the activity that occurred

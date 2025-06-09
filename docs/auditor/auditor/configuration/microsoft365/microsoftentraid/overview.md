@@ -12,8 +12,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
   - Unified audit log must be enabled for a Tenant. See the Microsoft [Turn auditing on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide) article for additional information.
   - While no special settings are required. Remember to do the following:
 
-    - Prepare a Data Collecting Account as described in [Permissions for Microsoft Entra ID Auditing](/docs/product_docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md) topic
-    - Configure required protocols and ports, as described in the [Microsoft Entra ID Ports](/docs/product_docs/auditor/auditor/configuration/microsoft365/microsoftentraid/ports.md) topic
+    - Prepare a Data Collecting Account as described in [Permissions for Microsoft Entra ID Auditing](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md) topic
+    - Configure required protocols and ports, as described in the [Microsoft Entra ID Ports](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/ports.md) topic
 
 ## Monitored Object Types and Attributes
 

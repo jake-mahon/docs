@@ -2,7 +2,7 @@
 
 This section describes Identity Manager's [
 Settings
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the applicative configuration. Those are mandatory.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the applicative configuration. Those are mandatory.
 
 ## ConfigurationVersion
 
@@ -68,14 +68,14 @@ The following example defines two menu items, accessible from the user account t
 
 ```
 
-![CustomLinksUserMenu.png](/static/img/product_docs/usercube/usercube/integration-guide/network-configuration/settings/customlinksusermenu_v523.png)
+![CustomLinksUserMenu.png](/img/product_docs/usercube/usercube/integration-guide/network-configuration/settings/customlinksusermenu_v523.png)
 
 ## DashboardItemNumber
 
 Some sections on the dashboard contain multiple links. These links are quick links with counters to the review page filtered by entity type.
 The links are sorted by entity type priority.
 
-![DashboardItemNumber.png](/static/img/product_docs/usercube/usercube/integration-guide/network-configuration/settings/dashboarditemnumber.png)
+![DashboardItemNumber.png](/img/product_docs/usercube/usercube/integration-guide/network-configuration/settings/dashboarditemnumber.png)
 
 By default, 3 links are displayed. If more than 3 entity type links exist, a link "Others" is displayed with the concatenation of remaining counters.
 
@@ -102,7 +102,7 @@ _This attribute matches an end-user with a resource from the unified resource re
 
 Authorization mechanisms within Identity Manager rely on assigning [
 Profiles
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md) to an identity-resource that stands for the end-user digital identity.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md) to an identity-resource that stands for the end-user digital identity.
 
 To that end, and end-user authentication credentials are linked to such an identity-resource using the following pattern:
 
@@ -127,7 +127,7 @@ __Example__
 The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory\_User__.
 
 In this example, authentication has been set up using [
-End-User Authentication](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
+End-User Authentication](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
 
 The __AfterToken__ attribute parses the ```DOMAIN/userName``` string into ```userName```.
 

@@ -16,11 +16,11 @@ In order to successfully launch a frequent job (defined as a job called more tha
 
 ## Rule 1: Use Scaffoldings
 
-Identity Manager provides scaffoldings to simplify XML configuration by generating complex XML fragments. See the [Scaffoldings](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for additional information.
+Identity Manager provides scaffoldings to simplify XML configuration by generating complex XML fragments. See the [Scaffoldings](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for additional information.
 
 Most jobs are included in job scaffoldings, thus configured in the most optimal way. So start by using scaffoldings to build jobs. See the [
 Jobs
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for additional information.
 
 For example, the creation from scratch of a job to perform a complete synchronization for a connector will be tedious. Instead, use Identity Manager's scaffolding, like in the following example concerning the Microsoft Entra ID (formerly Microsoft Azure AD) connector. Instead of a few dozens of lines, write only the following:
 
@@ -32,7 +32,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
                    
 ```
 
-See the[Create Connector Synchro Complete](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)for additional information.
+See the[Create Connector Synchro Complete](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)for additional information.
 
 ## Rule 2: Compute Only What's Necessary
 
@@ -60,7 +60,7 @@ When a task is supposed to be executed on changes only, then there is no use exe
 
 Make the relevant tasks incremental by flagging the resources that were recently modified. See the [
 Configure an Incremental Job
-](/docs/product_docs/usercube_saas/usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md) topic for additional information.
 
 For example, instead of computing the role model as if it had never been computed before, apply only the changes by writing the following:
 
@@ -78,7 +78,7 @@ Identity Manager's tasks are all linked together by a logical chain that implies
 
 Make sure to understand the tasks' logical chain to launch only the relevant tasks. See the [
 Troubleshoot Connector Jobs
-](/docs/product_docs/usercube_saas/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) topic for additional information.
 
 For example, there is no use computing expressions or correlations if there was beforehand no change in the database. Thus, there should not be UpdateEntityPropertyExpressionsTask or ComputeCorrelationKeysTask without first SynchronizeTask or FulfillTask.
 

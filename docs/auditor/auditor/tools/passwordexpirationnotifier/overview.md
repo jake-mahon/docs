@@ -13,8 +13,8 @@ Review the following for additional information:
 
 - [Configure Password Expiration Alerting](#Configure-Password-Expiration-Alerting)
 - [Registry Key Configuration](#Registry-Key-Configuration)
-- [Password Expiration Notifier Ports](/docs/product_docs/auditor/auditor/tools/passwordexpirationnotifier/ports.md)
-- [Password Expiration Monitoring Scope](/docs/product_docs/auditor/auditor/tools/passwordexpirationnotifier/monitoringscope.md)
+- [Password Expiration Notifier Ports](/docs/auditor/auditor/tools/passwordexpirationnotifier/ports.md)
+- [Password Expiration Monitoring Scope](/docs/auditor/auditor/tools/passwordexpirationnotifier/monitoringscope.md)
 
 ## Configure Password Expiration Alerting
 
@@ -36,7 +36,7 @@ __Step 4 –__ Navigate to the __General__ tab and complete the following fields
 
 | Option | Description |
 | --- | --- |
-| Specify account which will be used to collect data:   - User name - Password | Enter the account which will be used for data collection.  For a full list of the rights and permissions of this account, and instructions on how to configure them, refer to [Monitoring Plans](/docs/product_docs/auditor/auditor/admin/monitoringplans/overview.md). |
+| Specify account which will be used to collect data:   - User name - Password | Enter the account which will be used for data collection.  For a full list of the rights and permissions of this account, and instructions on how to configure them, refer to [Monitoring Plans](/docs/auditor/auditor/admin/monitoringplans/overview.md). |
 | Filter users by organizational unit | To audit users for expiring accounts/passwords that belong to certain organizational units within your Active Directory domain, select this option and click Select OUs. In the dialog that opens, specify the OUs that you want to audit. Only users belonging to these OUs will be notified and included in the administrators and managers reports. |
 | Filter users by group | To audit users for expiring accounts/passwords that belong to certain groups within your Active Directory domain, select this option and click Select Groups. In the dialog that opens, specify the groups that you want to audit. Only users belonging to these groups will be notified and included in the administrators and managers reports. |
 | Filter by account name | Specify one or several user account names (e.g., \*John\*). Use semicolon to separate several names. Only user accounts that contain selected name will be notified and included in the administrators and managers reports. |
@@ -90,7 +90,7 @@ To review Password Expiration Report
 
 Click Generate next to Generate report on users with expired account or passwords to view report on users passwords immediately. In the Maximum Password Age Setting dialog that opens, select domain policy settings or specify the maximum password age in days.
 
-![passwordexpiration](/static/img/product_docs/auditor/auditor/tools/passwordexpirationnotifier/passwordexpiration.png)
+![passwordexpiration](/img/product_docs/auditor/auditor/tools/passwordexpirationnotifier/passwordexpiration.png)
 
 ## Registry Key Configuration
 

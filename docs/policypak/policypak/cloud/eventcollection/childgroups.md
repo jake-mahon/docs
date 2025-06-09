@@ -18,4 +18,4 @@ following rules apply:
 - If any group of which a computer is a member has the __Collect Events__ filter set to __All__, then the previous
   rule doesn't apply. All always takes precedence.
 
-![940_1_image002_950x536](/static/img/product_docs/policypak/policypak/cloud/eventcollection/940_1_image002_950x536.png)
+![940_1_image002_950x536](/img/product_docs/policypak/policypak/cloud/eventcollection/940_1_image002_950x536.png)

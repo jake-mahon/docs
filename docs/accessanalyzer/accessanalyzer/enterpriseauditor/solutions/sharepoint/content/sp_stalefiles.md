@@ -4,7 +4,7 @@ The SP\_StaleFiles Job identifies files that have not been modified in at least 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The SP\_StaleFiles page has the following configurable parameters:
 
@@ -18,7 +18,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __4.Content__ > __SP\_StaleFiles__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job. Only the ```@stale``` parameter can be configured for the analysis task.
 
-![Analysis Tasks for the SP_StaleFiles Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/stalefilesanalysis.png)
+![Analysis Tasks for the SP_StaleFiles Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/stalefilesanalysis.png)
 
 The default analysis task is:
 

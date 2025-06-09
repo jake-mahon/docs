@@ -2,7 +2,7 @@
 
 The Performance tab provides options that can be used to improve job performance and runtime.
 
-![Performance tab of Job Properties](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/performance.png)
+![Performance tab of Job Properties](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/performance.png)
 
 Adjust the following settings by sliding the needle up and down the line:
 

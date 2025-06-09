@@ -2,7 +2,7 @@
 
 A correlation rule is used to [
 Entitlement Management
-](/docs/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) the resources, i.e. link resources to their owners.
+](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) the resources, i.e. link resources to their owners.
 
 ## Examples
 
@@ -26,7 +26,7 @@ The following example copies the previous example (based on unchanged attributes
 
 ```
 
-A list of [Predefined functions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) is available.
+A list of [Predefined functions](/docs/usercube/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) is available.
 
 #### Correlation based on attributes within a C# expression
 
@@ -47,7 +47,7 @@ This example also uses a confidence rate equals to 80%.
 | Policy   required | __Type__    Int64   __Description__   Identifier of the policy that the rule is part of. |
 | ResourceType   required | __Type__    Int64   __Description__   Identifier of the resource type. |
 | SourceBinding   optional | __Type__    Int64   __Description__   Binding property from the source system. |
-| SourceExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the source system. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| SourceExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the source system. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
 | SourceMatchedConfidenceLevel   default value: 0 | __Type__    Int32   __Description__   Defines the correlation confidence rate of this rule. If the value is less than 100, we process a manual review step to confirm the choice. |
 | TargetBinding   optional | __Type__    Int64   __Description__   Binding property from the target system. |
-| TargetExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the target system. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| TargetExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the target system. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |

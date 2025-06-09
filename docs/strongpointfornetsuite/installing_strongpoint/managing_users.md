@@ -1,6 +1,6 @@
 # Managing Users
 
-Users are managed through the __[__License Manager__](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/license_manager.md)__.
+Users are managed through the __[__License Manager__](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md)__.
 
 ## Add a User:
 
@@ -28,4 +28,4 @@ Users are managed through the __[__License Manager__](/docs/product_docs/strongp
 5. Click to mark the __Inactive__ box.
 6. Click __Save__.
 
-__Next Step:__  [Setting Tab Access](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md)
+__Next Step:__  [Setting Tab Access](/docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md)

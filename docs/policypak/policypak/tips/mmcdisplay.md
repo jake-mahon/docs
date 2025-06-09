@@ -6,4 +6,4 @@ To fix this, use the Group Policy editor to specify the following policy such th
 
 This policy doesn't need to hit the end-points.. just the admin machine.
 
-![603_1_faq-5-img-1](/static/img/product_docs/policypak/policypak/tips/603_1_faq-5-img-1.jpg)
+![603_1_faq-5-img-1](/img/product_docs/policypak/policypak/tips/603_1_faq-5-img-1.jpg)

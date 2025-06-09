@@ -12,17 +12,17 @@ You can add on-prem Item-Level Targeting to the following:
 
 As an example, let's review collections and Item-Level Targeting with Endpoint Policy Manager Least Privilege Manager. A collection enables you to group together Endpoint Policy Manager Least Privilege Manager policies so they can act together. For instance, you might create a collection for East Sales Users and another for West Sales Users. Then, you can perform Item-Level Targeting on the collections you create.
 
-![web_interface_and_controls_23_624x220](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_23_624x220.png)
+![web_interface_and_controls_23_624x220](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_23_624x220.png)
 
 Item-Level Targeting can also be performed at the policy level.
 
-![web_interface_and_controls_24_624x264](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_24_624x264.png)
+![web_interface_and_controls_24_624x264](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_24_624x264.png)
 
 The __Edit Item Level Targeting__ menu item brings up the __Targeting Editor__. You can select any combination of characteristics you want to test for. Administrators familiar with Group Policy Preferences' Item-Level Targeting will be at home in this interface as it is functionally equivalent.
 
 You can apply one or more targeting items to a policy, which enables targeting items to be joined logically. You can also add targeting collections, which group together targeting items in much the same way parentheses are used in an equation. In this way, you can create a complex determination about where a policy will be applied. Collections may be set to __And__, __Or__, __Is__, or __Is Not__.
 
-![web_interface_and_controls_25_624x294](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_25_624x294.png)
+![web_interface_and_controls_25_624x294](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_25_624x294.png)
 
 In this example, the Pak would only apply to Windows 10 machines when the machine is portable and the user is in the FABRIKAM\Traveling Sales Users group.
 
@@ -36,30 +36,30 @@ Below are some real-world examples of how you can use Item-Level Targeting:
 
 Close the editor when done. You can see that the icon of the policy or collection has changed to orange, which shows that it now has Item-Level Targeting. In other words, none of the items in the policy or collection will apply unless the Item-Level Targeting on the policy or collection evaluates to __True__.
 
-![web_interface_and_controls_26_624x163](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_26_624x163.png)
+![web_interface_and_controls_26_624x163](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_26_624x163.png)
 
 ## Item-Level Targeting with In-Cloud Editors
 
 Now that you have an understanding of Item-Level Targeting and collections, and how they would be used with the on-prem editors, we will explain the equivalent usage within in-cloud editors. Most XML data files (in-cloud policies) can be joined in a collection, to which you could then apply Item-Level Targeting.
 
-![web_interface_and_controls_27_499x288](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_27_499x288.png)
+![web_interface_and_controls_27_499x288](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_27_499x288.png)
 
 You can also put Item-Level Targeting on a policy itself. Just click the policy and select __Item Level Targeting__.
 
-![web_interface_and_controls_28_624x188](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_28_624x188.png)
+![web_interface_and_controls_28_624x188](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_28_624x188.png)
 
 In both cases, the in-cloud Targeting Editor appears.
 
-![web_interface_and_controls_29_624x389](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_29_624x389.png)
+![web_interface_and_controls_29_624x389](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_29_624x389.png)
 
 You can use the in-cloud Targeting Editor to specify conditions when the collection or the policy will perform.
 
-![web_interface_and_controls_30_624x168](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_30_624x168.png)
+![web_interface_and_controls_30_624x168](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_30_624x168.png)
 
 Once Item-Level Targeting is applied to the policy or the collection, you can see the value in the ILT column change from __No__ to __Yes__.
 
-![web_interface_and_controls_31_623x127](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_31_623x127.png)
+![web_interface_and_controls_31_623x127](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_31_623x127.png)
 
 One final note about Item-Level Targeting within the Endpoint Policy Manager in-cloud editor: although it appears to be possible to edit Item-Level Targeting in two places, that is really not the case. Although there are two Item-Level Targeting buttons, only one is active for the selected collection or policy. The other relates to the entire entity, and is considered the root node. The root node Item-Level Targeting must evaluate to "True" first, and only then will items inside the root node be evaluated for additional policy and collection Item-Level Targeting.
 
-![web_interface_and_controls_32_624x277](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_32_624x277.png)
+![web_interface_and_controls_32_624x277](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_32_624x277.png)

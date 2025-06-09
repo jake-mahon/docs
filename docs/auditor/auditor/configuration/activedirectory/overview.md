@@ -9,12 +9,12 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
-  - Configure the domain for auditing. See the [Audit Configuration Assistant](/docs/product_docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for information on configuring the domain.
+  - Configure the domain for auditing. See the [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for information on configuring the domain.
   - On the Auditor console computer:
 
-    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/registrykey.md) topic.
+    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/docs/auditor/auditor/configuration/activedirectory/registrykey.md) topic.
 
-      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/docs/product_docs/auditor/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
+      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/docs/auditor/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
     - To provide for event data collection, the Secondary Logon service must be up and running . Open __Administrative Tools__ > __Services__, right-click the __Secondary Logon__ service and on the __General__ tab make sure that Startup type for this service is other than _Disabled_.
 
 ## Monitored Objects
@@ -46,8 +46,8 @@ Effective domain controllers policy settings must be configured as listed in the
 
 You can configure either __Basic domain audit policies__, or __Advanced domain audit policies__.
 
-- To configure these settings automatically using Netwrix Auditor, refer to the [Active Directory: Automatic Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
-- To configure them manually, refer to the [Configure Basic Domain Audit Policies](/docs/product_docs/auditor/auditor/configuration/activedirectory/basicpolicy.md) or [Configure Advanced Audit Policies](/docs/product_docs/auditor/auditor/configuration/activedirectory/advancedpolicy.md) topics.
+- To configure these settings automatically using Netwrix Auditor, refer to the [Active Directory: Automatic Configuration](/docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
+- To configure them manually, refer to the [Configure Basic Domain Audit Policies](/docs/auditor/auditor/configuration/activedirectory/basicpolicy.md) or [Configure Advanced Audit Policies](/docs/auditor/auditor/configuration/activedirectory/advancedpolicy.md) topics.
 
 ## Audit Settings for AD Partitions
 
@@ -59,8 +59,8 @@ Object-level audit settings for the Domain partition must be configured to audit
 
 These settings must be configured for __Everyone__ security principal and applied to __This object and all descendant objects__.
 
-- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
-- To configure them manually, refer o the [Configure Object-Level Auditing](/docs/product_docs/auditor/auditor/configuration/activedirectory/objectlevel.md) topic.
+- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
+- To configure them manually, refer o the [Configure Object-Level Auditing](/docs/auditor/auditor/configuration/activedirectory/objectlevel.md) topic.
 
 ### Configuration and Schema Partitions
 
@@ -68,8 +68,8 @@ Object-level audit settings for the Configuration and __Schema__ partitions must
 
 These settings must be configured for __Everyone__ security principal and applied to __This object and its descendant objects__.
 
-- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
-- To configure them manually, refer to the [Configure Object-Level Auditing](/docs/product_docs/auditor/auditor/configuration/activedirectory/objectlevel.md) topic.
+- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
+- To configure them manually, refer to the [Configure Object-Level Auditing](/docs/auditor/auditor/configuration/activedirectory/objectlevel.md) topic.
 
 ## Security Event Log Settings
 
@@ -81,14 +81,14 @@ __Security event log__ settings for the domain controllers should be configured 
 | Retention method | _Overwrite events as needed_ |
 | Auto-archiving | Enabled |
 
-- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
-- To configure them manually, refer to the [Adjust Security Event Log Size and Retention](/docs/product_docs/auditor/auditor/configuration/activedirectory/securitylog.md) topic.
+- You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
+- To configure them manually, refer to the [Adjust Security Event Log Size and Retention](/docs/auditor/auditor/configuration/activedirectory/securitylog.md) topic.
 
 ## Exchange Settings
 
 If you have an on-premises Exchange server in your Active Directory domain, consider that some changes can be made via that Exchange server. To be able to audit and report who made those changes, you should:
 
-- Configure the Exchange Administrator Audit Logging (AAL) settings, as described the [Exchange Administrator Audit Logging Settings](/docs/product_docs/auditor/auditor/configuration/exchange/auditlog.md) topic.
+- Configure the Exchange Administrator Audit Logging (AAL) settings, as described the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic.
 - Make sure that the account used for data collection has the following:
 
   - Membership in the Organization Management or Records Management group
@@ -99,6 +99,6 @@ If you have an on-premises Exchange server in your Active Directory domain, cons
 
 ### Next Steps
 
-- Configure Data Collecting Account, as described in the [Additional Configuration to Review Changes Made via Exchange Server](/docs/product_docs/auditor/auditor/configuration/activedirectory/additional.md) topic.
-- Configure required protocols and ports, as described in the [Active Directory Ports](/docs/product_docs/auditor/auditor/configuration/activedirectory/ports.md) topic.
-- If you plan to restore deleted Active Directory objects and their attributes using the Netwrix Auditor Object Restore for Active Directory tool (shipped with Netwrix Auditor,) it is recommended to set the __Active Directory tombstone lifetime__ property to 730 days (default is 180 days). See the [Adjust Active Directory Tombstone Lifetime (optional)](/docs/product_docs/auditor/auditor/configuration/activedirectory/tombstone.md) topic for additional information.
+- Configure Data Collecting Account, as described in the [Additional Configuration to Review Changes Made via Exchange Server](/docs/auditor/auditor/configuration/activedirectory/additional.md) topic.
+- Configure required protocols and ports, as described in the [Active Directory Ports](/docs/auditor/auditor/configuration/activedirectory/ports.md) topic.
+- If you plan to restore deleted Active Directory objects and their attributes using the Netwrix Auditor Object Restore for Active Directory tool (shipped with Netwrix Auditor,) it is recommended to set the __Active Directory tombstone lifetime__ property to 730 days (default is 180 days). See the [Adjust Active Directory Tombstone Lifetime (optional)](/docs/auditor/auditor/configuration/activedirectory/tombstone.md) topic for additional information.

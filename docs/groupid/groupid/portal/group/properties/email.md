@@ -13,9 +13,9 @@ Microsoft Exchange 2013/2016/2019 offers the co-managed by feature that enables 
 
 The __Managed by__ section is displayed when Microsoft Exchange Server 2013/2016/2019 is deployed as the messaging provider for the identity store your portal is connected to. This list shows Exchange additional owners specified for the group.
 
-GroupID sends group expiry, deletion, and renewal notifications to all Exchange additional owners along with the group’s primary owner and additional owners. See [Group properties - Owner tab](/docs/product_docs/groupid/groupid/portal/group/properties/owner.md) in group properties.
+GroupID sends group expiry, deletion, and renewal notifications to all Exchange additional owners along with the group’s primary owner and additional owners. See [Group properties - Owner tab](/docs/groupid/groupid/portal/group/properties/owner.md) in group properties.
 
-- Click __Add__ to add an Exchange additional owner. Enter a search string to locate the required object, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing
+- Click __Add__ to add an Exchange additional owner. Enter a search string to locate the required object, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing
   a search.
 - To remove an Exchange additional owner, select it and click __Remove__.
 

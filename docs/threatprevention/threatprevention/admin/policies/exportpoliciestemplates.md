@@ -2,8 +2,8 @@
 
 The Export Policies and Templates window, opened from the Policies interface and the Templates interfaces, enables you to:
 
-- Export selected policies’ configuration from the list on the [Policies Interface](/docs/product_docs/threatprevention/threatprevention/admin/policies/overview.md)
-- Export selected templates’ configuration from the list on the [Templates Interface](/docs/product_docs/threatprevention/threatprevention/admin/templates/overview.md)
+- Export selected policies’ configuration from the list on the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md)
+- Export selected templates’ configuration from the list on the [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md)
 
 The export generates an XML file.
 
@@ -13,7 +13,7 @@ __Step 1 –__ When you click the Policies node or the Templates node in the Nav
 
 __Step 2 –__ Select a policy/template or multiple policies/templates and right-click on the selection. On the right-click menu, click the Export option.
 
-![Export Policies and Templates window](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
+![Export Policies and Templates window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
 
 __Step 3 –__ In the Notes textbox, enter any information to be saved with the XML file.
 

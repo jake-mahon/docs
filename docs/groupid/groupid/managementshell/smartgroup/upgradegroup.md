@@ -1,6 +1,6 @@
 # Upgrade-Group
 
-The Upgrade-Group commandlet upgrades managed (Smart Groups and Dynasties) and non-managed Groups of GroupID 10 to Directory Manager 11.1 version. Before running this commandlet, make sure the configurations and history have been upgraded through the Directory Manager Upgrade wizard, only then this commandlet will upgrade the specified groups and their history successfully. See the [Upgrade to Directory Manager 11](/docs/product_docs/groupid/groupid/install/upgrade/upgrade.md) topic for additional information on upgrade.
+The Upgrade-Group commandlet upgrades managed (Smart Groups and Dynasties) and non-managed Groups of GroupID 10 to Directory Manager 11.1 version. Before running this commandlet, make sure the configurations and history have been upgraded through the Directory Manager Upgrade wizard, only then this commandlet will upgrade the specified groups and their history successfully. See the [Upgrade to Directory Manager 11](/docs/groupid/groupid/install/upgrade/upgrade.md) topic for additional information on upgrade.
 
 ## Syntax
 
@@ -41,4 +41,4 @@ The following commandlet upgrades dynasties residing in the _Jobs_ OU from their
 Upgrade-Group -SearchContainerScopeList "1" -SearchContainer "GIDsmart1""OU=Jobs,DC=Demo1,DC=com" GroupType "3"
 ```
 
-NOTE: The group types 4 and 5 which are for middle and leaf dynasties are not supported in this commandlet. See the [Parameters](/docs/product_docs/groupid/groupid/managementshell/parameters/parameters.md) topic for additional information on the supported parameters. See the [Parameters](/docs/product_docs/groupid/groupid/managementshell/parameters/parameters.md) topic to get information about the parameters which you can use in the Directory Manager Management Shell commandlets.
+NOTE: The group types 4 and 5 which are for middle and leaf dynasties are not supported in this commandlet. See the [Parameters](/docs/groupid/groupid/managementshell/parameters/parameters.md) topic for additional information on the supported parameters. See the [Parameters](/docs/groupid/groupid/managementshell/parameters/parameters.md) topic to get information about the parameters which you can use in the Directory Manager Management Shell commandlets.

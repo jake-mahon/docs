@@ -2,7 +2,7 @@
 
 The Hierarchy tab is similar to the Tabs tab, except it shows every element in a granular fashion. When you click on an element in the Hierarchy tab, the corresponding element in the main page will highlighted as well (see Figure 52).
 
-![getting_around_3](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_3.png)
+![getting_around_3](/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_3.png)
 
 Figure 52. The Hierarchy tab provides a granular view of each element.
 

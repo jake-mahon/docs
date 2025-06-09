@@ -2,14 +2,14 @@
 
 Represents a conceptual model of a business object, such as a person entity or an organization entity. See the [
 Connector
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)topic for additional information on how to configure define an EntityType.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)topic for additional information on how to configure define an EntityType.
 
 ## Properties
 
 | Property | Details |
 | --- | --- |
 | DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the entity type in language 1 (up to 16). |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be [ Reserved identifiers ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/reservedidentifiers/index.md). |
+| Identifier   required | __Type__    String   __Description__   Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be [ Reserved identifiers ](/docs/usercube_saas/usercube/integration-guide/toolkit/reservedidentifiers/index.md). |
 | LicenseTag   optional | __Type__    String   __Description__   Value of the ```Tag``` parameter of the license key (in ```appsettings.json```) linked to the entity type. All the features allowed by the license key are enabled for this entity type, otherwise only default features are available. |
 | TableName   optional | __Type__    String   __Description__   Represents the table name of hard coded entity types. Exclusively reserved to Identity Manager connector for Power BI. |
 
@@ -18,7 +18,7 @@ Connector
 An entity property represents a property of an [
 Entity Type
 ](#Entity-Type).
-See the [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information on how to configure/define an EntityProperty.
+See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information on how to configure/define an EntityProperty.
 
 ### Examples
 
@@ -63,7 +63,7 @@ To solve this problem, references to this property must be manually cleaned up w
 | FlexibleComparisonExpression   optional | __Type__    String   __Description__   Expression used to transform the query input value for comparison using a flexible operator. |
 | GroupByProperty   optional | __Type__    Int64   __Description__   Property used to regroup navigation resources (resources used in navigation rules) by value. When defined, the Evaluate policy will enforce that one and only one item of a group can be assigned to an identity on a given date range.   __Warning:__ whenever the value of this property changes for a resource used in the defined navigation rules, the server needs to be restarted in order for the changes to be taken into account. |
 | HistoryPrecision   default value: 0 | __Type__    Int32   __Description__   Defines the number of minutes to wait, after a property change, before triggering the record history mechanism. |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the property. It must be unique to the parent entity type scope. Cannot be a [ Reserved identifiers ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/reservedidentifiers/index.md) and can only contain numbers (except the first character) and letters without accents.   __Note:__ cannot be "Id". |
+| Identifier   required | __Type__    String   __Description__   Unique identifier of the property. It must be unique to the parent entity type scope. Cannot be a [ Reserved identifiers ](/docs/usercube_saas/usercube/integration-guide/toolkit/reservedidentifiers/index.md) and can only contain numbers (except the first character) and letters without accents.   __Note:__ cannot be "Id". |
 | IsKey   default value: false | __Type__    Boolean   __Description__   ```true``` if the property is designated to be one of the keys that uniquely identify any resource from the entity type in the configuration. Each entity type must have at least one key.   __Note:__ AD synchronization requires the ```dn``` property to have either ```IsKey``` or ```EntityTypeMapping``` > ```Property``` > ```IsUniqueKey``` set to ```true``` (key property in the UI). |
 | Language   optional | __Type__    Int64   __Description__   Language associated to the property if it is localized (optional). |
 | NeutralProperty   optional | __Type__    Int64   __Description__   Neutral property associated to the property if it is localized (optional). |

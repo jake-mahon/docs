@@ -2,7 +2,7 @@
 
 The Mailbox Logons page is used to define the type of mailbox logon events to return, as well as the date range to be returned. It is a wizard page for the category of Mailbox Information > Mailbox Access Logons.
 
-![ExchangePS Data Collector Wizard Mailbox Logons page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailboxlogons.png)
+![ExchangePS Data Collector Wizard Mailbox Logons page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailboxlogons.png)
 
 Select the desired checkboxes to indicate which logons to audit:
 

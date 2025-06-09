@@ -19,7 +19,7 @@ Checklist Item 1: Plan Deployment
 
     - [http://support.emc.com](http://support.emc.com/)
 
-Checklist Item 2: [Install Dell CEE](/docs/product_docs/activitymonitor/config/dellpowerstore/installcee.md)
+Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/config/dellpowerstore/installcee.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity agent will be deployed
 
@@ -32,7 +32,7 @@ Checklist Item 3: Dell PowerStore Device Configuration
 
 - Enable auditing on the PowerStore device
 
-  - See the [Enable Auditing for Dell PowerStore](/docs/product_docs/activitymonitor/config/dellpowerstore/auditing.md) topic for additional information.
+  - See the [Enable Auditing for Dell PowerStore](/docs/activitymonitor/config/dellpowerstore/auditing.md) topic for additional information.
 
 Checklist Item 4: Activity Monitor Configuration
 

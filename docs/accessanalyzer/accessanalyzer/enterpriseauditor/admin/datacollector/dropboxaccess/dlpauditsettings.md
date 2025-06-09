@@ -2,7 +2,7 @@
 
 Use the DLP Audit Settings page to configure sensitive data discovery settings. This page is a wizard page for the Scan for Sensitive Content category.
 
-![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.png)
+![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.png)
 
 Configure the DLP audit settings:
 

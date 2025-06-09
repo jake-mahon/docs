@@ -28,7 +28,7 @@ You also have to:
 __Provide consumer URL and audience URL:__
 
 8. Click the __Configurations__ link. The __Configurations__ page for the new app is displayed.
-9. In the __ACS (Consumer) URL Validator__ and __ACS (Consumer) URL__ boxes, provide the consumer URL that you generated for the Directory Manager client _Wizard_. See the [Generate URLs](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/onelogin/generateurls.md) topic.
+9. In the __ACS (Consumer) URL Validator__ and __ACS (Consumer) URL__ boxes, provide the consumer URL that you generated for the Directory Manager client _Wizard_. See the [Generate URLs](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/generateurls.md) topic.
 10. In the __Audience__ box. provide the audience URL that you generated for the Directory Manager client _Wizard_.
 
 __Specify attribute for user authentication:__
@@ -60,7 +60,7 @@ __To download the file:__
 
 ### Define Users in OneLogin
 
-You must define users in OneLogin. Only these users can authenticate on the Directory Manager portal _Wizard_ using OneLogin. See the [Sign In Using OneLogin](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/onelogin/signin.md) topic.
+You must define users in OneLogin. Only these users can authenticate on the Directory Manager portal _Wizard_ using OneLogin. See the [Sign In Using OneLogin](/docs/groupid/groupid/authenticate/asserviceprovider/onelogin/signin.md) topic.
 
 __To define a user:__
 

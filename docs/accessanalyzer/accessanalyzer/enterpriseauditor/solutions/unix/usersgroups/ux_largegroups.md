@@ -4,7 +4,7 @@ The UX\_LargeGroups job identifies groups with large member counts. These types 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The UX\_LargeGroups job has the following customizable parameter:
 
@@ -16,7 +16,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_LargeGroups__ > __Conf
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the UX_LargeGroups Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/largegroupsanalysis.png)
+![Analysis Tasks for the UX_LargeGroups Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/largegroupsanalysis.png)
 
 The default analysis task is:
 

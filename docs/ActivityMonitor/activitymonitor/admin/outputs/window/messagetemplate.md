@@ -2,7 +2,7 @@
 
 The Message Template window is opened from the ellipsis (…) button for the Syslog Message Template field on the Syslog tab of the output Properties window.
 
-![Message Template window](/static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/syslogmessagetemplate.png)
+![Message Template window](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/syslogmessagetemplate.png)
 
 You can select a preconfigured template from the drop-down menu or create a custom template. The available preconfigured templates vary based on the type of domain/host selected.
 
@@ -59,7 +59,7 @@ Macros are text strings that are replaced with actual values at run time. The fo
 | %PERPETRATOR% | Perpetrator |
 | %PERPETRATOR\_NAME% | Perpetrator Name |
 | %PERPETRATOR\_SID% | Perpetrator SID |
-| %USERNAME% | ‘Username’ part of the %PERPETRATOR\_NAME% field if it is in ‘DOMAIN\Username’ format |
+| %USERNAME% | 'Username' part of the %PERPETRATOR\_NAME% field if it is in 'DOMAIN\Username' format |
 | %PRODUCT% | Product Name |
 | %PRODUCT\_VERSION% | Product Version |
 | %SETTING\_NAME% | Setting Name |
@@ -82,8 +82,8 @@ Monitored Hosts Syslog outputs have the following preconfigured Templates:
 - LEEF – Incorporates the LEEF message format
 - LogRhythm
 - McAfee
-- QRadar – Use this template for IBM QRadar integration. See the [Netwrix File Activity Monitor App for QRadar](/docs/product_docs/activitymonitor/activitymonitor/siem/qradar/overview.md) topic for additional information.
-- Splunk – Use this template for Splunk integration. See the Configure the [File Activity Monitor App for Splunk](/docs/product_docs/activitymonitor/activitymonitor/siem/splunk/overview.md) topic for additional information.
+- QRadar – Use this template for IBM QRadar integration. See the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) topic for additional information.
+- Splunk – Use this template for Splunk integration. See the Configure the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) topic for additional information.
 - Netwrix Threat Manager (StealthDEFEND) – Use this template for Netwrix Threat Manager integration. This is the only supported template for Threat Manager.
 
 Custom templates can be created. Select the desired template or create a new template by modifying an existing template within the Message Template window. The new message template will be named Custom. Macro variables are also available to customize the Syslog message template.
@@ -111,7 +111,7 @@ Macros are text strings that are replaced with actual values at run time. Not al
 | SharePoint Online | %DLP\_SENSITIVE% | Indicates whether the event contains the value of the sensitive data type (true/false) |
 | SharePoint  SharePoint Online | %DOC\_LOCATION% | A relative URL of the file or document accessed by the user |
 | SharePoint  SharePoint Online | %EVENT\_DATA% | - For SharePoint, raw event data - Fore SharePoint Online, additional event data |
-| File Servers & NAS Devices | %EVENT\_NAME% | Operation type: Read/Create/Update/Delete/Access Rights Change/ Rename/ <empty>. The same as %OPERATION% |
+| File Servers & NAS Devices | %EVENT\_NAME% | Operation type: Read/Create/Update/Delete/Access Rights Change/ Rename/ `<empty>`. The same as %OPERATION% |
 | SharePoint  SharePoint Online | %EVENT\_SOURCE% | Originating source of the event (SharePoint or ObjectModel) |
 | File Servers & NAS Devices | %EVENT\_SOURCE\_NAME% | Domain name |
 | SharePoint  SharePoint Online | %EVENT\_TYPE% | Event type |
@@ -148,7 +148,7 @@ Macros are text strings that are replaced with actual values at run time. Not al
 | SharePoint | %PARAM% | Parameters that come with the event |
 | SharePoint | %PATH% | Truncated path |
 | File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DESCRIPTION% | Windows events only: Permission change details in readable format |
-| File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DIFF% | Windows events only: Permission change details in SDDL format, '<REMOVED> <ADDED>' |
+| File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DIFF% | Windows events only: Permission change details in SDDL format, '`<REMOVED>` `<ADDED>`' |
 | File Servers & NAS Devices | %PERPETRATOR% | User name |
 | File Servers & NAS Devices  SharePoint  SharePoint Online | %PRODUCT% | Fixed string: Activity Monitor |
 | File Servers & NAS Devices  SharePoint  SharePoint Online | %PRODUCT\_VERSION% | Product Version |
@@ -179,7 +179,7 @@ Macros are text strings that are replaced with actual values at run time. Not al
 | SharePoint Online | %UPDATE\_TYPE% | Added, Removed, or Updated |
 | SharePoint Online | %USER\_AGENT% | User client or browser |
 | SharePoint  SharePoint Online | %USER\_ID% | - For SharePoint, ID of the SharePoint user - For SharePoint Online, UPN of the user who performed the operation |
-| SharePoint  SharePoint Online | %USER\_LOGIN% | - For SharePoint, SharePoint User Login / Encoded Claim - For SharePoint Online, An alternative ID of the user. “DlpAgent” for DLP events. |
+| SharePoint  SharePoint Online | %USER\_LOGIN% | - For SharePoint, SharePoint User Login / Encoded Claim - For SharePoint Online, An alternative ID of the user. "DlpAgent" for DLP events. |
 | SharePoint  SharePoint Online | %USER\_NAME% | SharePoint user name |
 | File Servers & NAS Devices  SharePoint | %USER\_SID% | User SID or UID |
 | SharePoint Online | %USER\_TYPE% | Type of the user performed the operation |

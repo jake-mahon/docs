@@ -1,8 +1,8 @@
 # Activity Details Report
 
-The Activity Details report at the NFS Exports share and subfolder levels provides details on every operations logged during the selected date range. This report includes a Permission Changes table. The __Include subfolders__ option is active by default until removed. See the [Results Pane](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
+The Activity Details report at the NFS Exports share and subfolder levels provides details on every operations logged during the selected date range. This report includes a Permission Changes table. The __Include subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
 
-![Activity Details report at the NFS Exports share and subfolder levels](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitydetails.png)
+![Activity Details report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitydetails.png)
 
 This report is comprised of the following columns:
 
@@ -41,4 +41,4 @@ There is one table at the bottom displaying Permission Changes for the selected 
 - Ace Flags – Inheritance flag description
 - Access Rights – Type of right assigned
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.

@@ -5,7 +5,7 @@ The Message Activity Filter page configures which domains the data collector sho
 - User’s Message Activity
 - User’s Message Activity Per Hour
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.png)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.png)
 
 Configure the Message Activity Filter using the following options:
 

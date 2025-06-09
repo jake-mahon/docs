@@ -6,7 +6,7 @@ Netwrix recommends this clean up process be used as part of your Salesforce data
 
 1. Open __Netwrix Dashboard__ > __Tools__ > __Change Logs Clean Up__
 
-   ![Open the Change Logs Clean Up Tool](/static/img/product_docs/strongpointforsalesforce/tools/change_logs_clean_up.png)
+   ![Open the Change Logs Clean Up Tool](/img/product_docs/strongpointforsalesforce/tools/change_logs_clean_up.png)
 2. Set up the schedule to run the tool:
 
    - __Frequency__ can be set to __Daily__ or __Weekly__.

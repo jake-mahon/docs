@@ -21,14 +21,14 @@ Permissions
 The CommandLineUtility Data Collector executes a command line utility and captures the output. It is configured through the Command Line Utility Data Collector Wizard, which contains the following pages:
 
 - Welcome
-- [CLU: Profile Type](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.md)
-- [CLU: Profile Parameters](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md)
-- [CLU: Execution Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.md)
-- [CLU: Define Fields](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/definefields.md)
-- [CLU: Script Editor](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/scripteditor.md)
-- [CLU: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
-- [CLU: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
+- [CLU: Profile Type](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.md)
+- [CLU: Profile Parameters](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md)
+- [CLU: Execution Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.md)
+- [CLU: Define Fields](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/definefields.md)
+- [CLU: Script Editor](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/scripteditor.md)
+- [CLU: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
+- [CLU: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
 
-![Command Line Utility Data Collector Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Command Line Utility Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

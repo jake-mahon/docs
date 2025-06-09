@@ -1,8 +1,8 @@
 # Browser Extension Interface
 
-The browser extension interface can be launched at any time with the Netwrix Privilege Secure icon in the browser. See the [Log Into the Privilege Secure Console](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/login.md) topic for additional information.
+The browser extension interface can be launched at any time with the Netwrix Privilege Secure icon in the browser. See the [Log Into the Privilege Secure Console](/docs/privilegesecure/privilegesecure/accessmanagement/admin/login.md) topic for additional information.
 
-![browserextensioninterface](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioninterface.png)
+![browserextensioninterface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioninterface.png)
 
 The browser interface has 3 tabs:
 
@@ -12,19 +12,19 @@ The browser interface has 3 tabs:
 
 ## Activities Tab for the Browser Extension
 
-The Activities tab displays all website activities mapped to the user via the Privilege Secure Access Policies. See the [Access Policy Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
+The Activities tab displays all website activities mapped to the user via the Privilege Secure Access Policies. See the [Access Policy Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
 
-![Browser extension Activities tab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionactivities.png)
+![Browser extension Activities tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionactivities.png)
 
 The Activities tab has the following features:
 
 - + / - buttons (top right) — Expand or collapse all Resource Activities
 - Resources list — Shows all resources mapped to the user via an access policy. Click a Resource to expand it and show associated Activities.
 
-  - Activities — Click an Activity to start an Activity Session. See the [Start Web Session](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information.
+  - Activities — Click an Activity to start an Activity Session. See the [Start Web Session](/docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information.
   - Favorite icon — Click the favorite icon to move the Activity to the top of the list.
   - Settings icon — Click to open the browser extension settings
-  - Session icon — If a session is active, the following icons are shown (see the [Start Web Session](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information):
+  - Session icon — If a session is active, the following icons are shown (see the [Start Web Session](/docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information):
 
     - Green icon – Select to launch the web session
     - Red icon – Select to end the current web session
@@ -33,11 +33,11 @@ The Activities tab has the following features:
 
 The Current tab displays any website activity matching the current URL in the browser.
 
-![Browser Extension Current tab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioncurrenttab.png)
+![Browser Extension Current tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioncurrenttab.png)
 
 The Current tab shows the resource that matches the current URL at the top, with all of the activities available for that resource expanded. It has the following features:
 
-- Activities — Click an Activity to start an Activity Session. See the [Start Web Session](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information.
+- Activities — Click an Activity to start an Activity Session. See the [Start Web Session](/docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/startwebsession.md) topic for additional information.
 - Favorite icon — Click the favorite icon to move the Activity to the top of the list.
 - Settings icon — Click to open the browser extension settings
 
@@ -45,7 +45,7 @@ The Current tab shows the resource that matches the current URL at the top, with
 
 Configure basic settings for the browser extension. For additional settings, log in to the Privilege Secure Console.
 
-![Browser Extension Settings Tab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionsettings.png)
+![Browser Extension Settings Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionsettings.png)
 
 The Settings tab has the following features:
 

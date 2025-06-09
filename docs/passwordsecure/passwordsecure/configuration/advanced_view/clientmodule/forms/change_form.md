@@ -4,11 +4,11 @@
 
 It is necessary in some cases to change the form for a record. In these cases, this is mostly to consolidate existing data or to adapt the form to match changes in the data structure. These functionalities are available under "Extras/Settings" in the ribbon.
 
-![change form](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_1-en.png)
+![change form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_1-en.png)
 
 In the following screenshot, you can see the dialogue for "mapping" the form fields from the previously used form to the new form. In this example, a record that previously belonged to the "Website" form is being "mapped" to the "Password" form (right).
 
-![change form](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_2-en.png)
+![change form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_2-en.png)
 
 The drop-down menu allows you to select the target form. The comparison of current and new form fields is shown in the lower section.
 
@@ -33,7 +33,7 @@ In general, changes to forms do not effect existing records. This means that a r
 
 If you press the "Change form" button (as mentioned in the previous section), the already existing form will be used by default. If this form has been changed in the meantime, the new form field will be directly shown and adopted after it is saved.
 
-![New Form](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_3-en.png)
+![New Form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/change_form_3-en.png)
 
 ### Apply form changes to passwords
 

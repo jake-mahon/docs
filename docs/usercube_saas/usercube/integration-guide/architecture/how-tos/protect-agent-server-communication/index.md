@@ -14,7 +14,7 @@ The idea, when sending data from the agent to the server, is the following:
 2. the agent calls the server, and sends its HTTPS-encrypted message;
 3. the server receives and decrypts the message, before encrypting it again with its own encryption certificate configured by Identity Manager.
 
-![Schema: Agent/Server Communication](/static/img/product_docs/usercube/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/agent-server-communication.png)
+![Schema: Agent/Server Communication](/img/product_docs/usercube/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/agent-server-communication.png)
 
 ### Configuration details
 
@@ -32,13 +32,13 @@ The agent must be configured, in its ```appsettings.json```, with:
 
 In order to give to the agent the right permissions, the XML configuration must specify an [
 OpenIdClient
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to its hashed secret, and to a Identity Manager profile.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to its hashed secret, and to a Identity Manager profile.
 
 ## Protect Agent/Server Communication
 
 Protect agent/server communication by proceeding as follows:
 
-1. Make sure that both the agent and server configurations specify an encryption certificate. See the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) for additional information.
+1. Make sure that both the agent and server configurations specify an encryption certificate. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) for additional information.
 
    > For example:
    >
@@ -55,7 +55,7 @@ Protect agent/server communication by proceeding as follows:
    > }
    >
    > ```
-2. Make sure that the agent is also configured with its own encryption certificate. See the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) for additional information.
+2. Make sure that the agent is also configured with its own encryption certificate. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) for additional information.
 
    > For example:
    >
@@ -75,9 +75,9 @@ Protect agent/server communication by proceeding as follows:
    > ```
 3. Configure an OpenIdClient, both on agent side in ```appsettings.agent.json``` with the non-hashed secret and on server side in the XML configuration with the secret hashed by the [
    Usercube-New-OpenIDSecret
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/executables/references/new-openidsecret/index.md) executable. See the [
+   ](/docs/usercube_saas/usercube/integration-guide/executables/references/new-openidsecret/index.md) executable. See the [
    OpenIdClient
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) for additional information.
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) for additional information.
 
    > For example on agent side:
    >

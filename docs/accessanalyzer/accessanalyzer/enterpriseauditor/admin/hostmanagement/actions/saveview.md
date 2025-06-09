@@ -4,13 +4,13 @@ Use the __Save Current View__ option to create a dynamic host list. This option 
 
 __Step 1 –__ Select the Host Management or individual host list node to create the host list from.
 
-__Step 2 –__ Filter the data grid for the desired criteria. See the [Host Inventory Data Grid](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/datagrid.md) topic for additional information.
+__Step 2 –__ Filter the data grid for the desired criteria. See the [Host Inventory Data Grid](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/datagrid.md) topic for additional information.
 
-![savecurrentview](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/savecurrentview.png)
+![savecurrentview](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/savecurrentview.png)
 
 __Step 3 –__ Click __Save Current View__ in the Activities pane.
 
-![Host List name window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistname.png)
+![Host List name window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistname.png)
 
 __Step 4 –__ On the Host list name window, provide a unique, descriptive name for the new host list and click __OK__.
 
@@ -18,4 +18,4 @@ The new host list displays under the Host Management node. When the Access Analy
 
 ___RECOMMENDED:___ Do not modify the criteria once a dynamic based list has been created. It is better to delete and recreate the list in order to modify a dynamic-based list.
 
-See the [Dynamic Host Lists](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/lists.md#Dynamic-Host-Lists) topic for more information on dynamic host lists.
+See the [Dynamic Host Lists](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/lists.md#Dynamic-Host-Lists) topic for more information on dynamic host lists.

@@ -27,13 +27,13 @@ Life Cycle job did not run on the particular days for temporary membership updat
 
 __Add__
 
-To add member(s) to the group, click __Add__. Enter a search string to locate the object to add as a member, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing
+To add member(s) to the group, click __Add__. Enter a search string to locate the object to add as a member, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing
 a search.
 
 The selected members get listed in the __Members__ grid.
 
-NOTE: This button is disabled for Smart Groups and Dynasties since their memberships is determined by the query set on the [Group properties - Smart Group/Query Designer tab](/docs/product_docs/groupid/groupid/portal/group/properties/smartgroup.md).  
- See [Schedule periodic membership updates for Smart Groups/Dynasties](/docs/product_docs/groupid/groupid/portal/group/manage/scheduleupdate.md#Schedule-periodic-membership-updates-for-Smart-GroupsDynasties).
+NOTE: This button is disabled for Smart Groups and Dynasties since their memberships is determined by the query set on the [Group properties - Smart Group/Query Designer tab](/docs/groupid/groupid/portal/group/properties/smartgroup.md).  
+ See [Schedule periodic membership updates for Smart Groups/Dynasties](/docs/groupid/groupid/portal/group/manage/scheduleupdate.md#Schedule-periodic-membership-updates-for-Smart-GroupsDynasties).
 
 __Import__
 
@@ -41,14 +41,14 @@ You can add members to the group using an external file.
 
 You can also choose to import all members of an existing group or groups to the membership of this group.
 
-Click __Import__ to launch the __Import Members__ wizard for importing group members. See [Import Group Members](/docs/product_docs/groupid/groupid/portal/group/properties/importmembers.md) for information
+Click __Import__ to launch the __Import Members__ wizard for importing group members. See [Import Group Members](/docs/groupid/groupid/portal/group/properties/importmembers.md) for information
 and instructions.
 
 __Export__
 
 You can export the list of members to an external file. Supported file formats are: .txt, .csv, .xls, .xlsx and .xml.
 
-Click __Export__ to launch the __Export Members__ wizard for exporting group members. Select the attributes you want to export. For information and instructions, see [Export group members](/docs/product_docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#Export-group-members).
+Click __Export__ to launch the __Export Members__ wizard for exporting group members. Select the attributes you want to export. For information and instructions, see [Export group members](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#Export-group-members).
 
 __Remove All__
 

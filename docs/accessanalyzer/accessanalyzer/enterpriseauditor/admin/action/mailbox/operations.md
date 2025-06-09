@@ -2,7 +2,7 @@
 
 Use the Operations page to specify the operation to be performed as part of the action.
 
-![New Mailbox Action Wizard Operations page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.png)
+![New Mailbox Action Wizard Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.png)
 
 Select from the following operations:
 

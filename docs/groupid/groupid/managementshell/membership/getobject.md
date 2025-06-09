@@ -36,7 +36,7 @@ Get-Object
 
 Example 2:
 
-The command below retrieves the object Event Management starting from the container Recruiting excluding its sub-containers using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The command below retrieves the object Event Management starting from the container Recruiting excluding its sub-containers using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Get-Object -Identity "HR.Imanami.US\Event Management" -SearchContainer "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -SearchContainersScopeList "1" -Credential $Cred

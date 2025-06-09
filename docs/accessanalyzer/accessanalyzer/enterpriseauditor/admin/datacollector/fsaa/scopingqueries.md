@@ -5,7 +5,7 @@ Use the Scoping Queries page to query the SQL database and return exclude and in
 - File System Access/Permission Auditing Scan
 - Sensitive Data
 
-![FSAA Data Collector Wizard Scoping Queries page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.png)
+![FSAA Data Collector Wizard Scoping Queries page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.png)
 
 The Scoping Queries buttons have the following functionality:
 
@@ -29,19 +29,19 @@ __NOTE:__ These two Scan Resource Filters are both Share Include queries by defa
 
 For example, to restrict the scan to only Open Shares and exclude all other shares, the Scoping Options page should be configured as shown:
 
-![FSAA Data Collector Wizard Scoping Options page Open shares configuration](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingoptionsopenshares.png)
+![FSAA Data Collector Wizard Scoping Options page Open shares configuration](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingoptionsopenshares.png)
 
 The Scoping Queries page should be configured as shown:
 
-![FSAA Data Collector Wizard Scoping Queries page Open shares configuration](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueriesopenshares.png)
+![FSAA Data Collector Wizard Scoping Queries page Open shares configuration](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueriesopenshares.png)
 
-See the [FSAA: Scoping Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md) topic for additional information and common scoping scenarios.
+See the [FSAA: Scoping Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md) topic for additional information and common scoping scenarios.
 
 ## Scoping Query Configuration Window
 
 The Scoping Query Configuration window allows you to create a custom Scoping Query to specify shares and folders to be included in or excluded from the scan.
 
-![Scoping Query Configuration window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueryconfiguration.png)
+![Scoping Query Configuration window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueryconfiguration.png)
 
 Configure the following fields:
 
@@ -55,7 +55,7 @@ ___RECOMMENDED:___ Provide a descriptive Comment on the Scoping Queries page.
 
 Clicking __Configure Query__ on the Scoping Query Configuration Window brings up the Advanced Scoping Options Query Configuration window.
 
-![Advanced Scoping Options Query Configuration window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/advancedscopingoptionsqueryconfiguration.png)
+![Advanced Scoping Options Query Configuration window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/advancedscopingoptionsqueryconfiguration.png)
 
 Follow the steps to configure a query.
 

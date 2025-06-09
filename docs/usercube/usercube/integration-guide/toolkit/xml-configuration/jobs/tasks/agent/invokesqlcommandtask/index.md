@@ -10,7 +10,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <InvokeSqlCommandTask Identifier="SQL_Command" DisplayName_L1="SQL Command" SQLCommand="SELECT id FROM uj_jobs" Agent="Local" OpenIdClient="Job" DatabaseIdentifier="UsercubeDemo" />
 ```
 
-__NOTE:__ The database Identifier attribute has a specific location where the connection strings for the database identifiers need to be defined. See the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic for additional information.
+__NOTE:__ The database Identifier attribute has a specific location where the connection strings for the database identifiers need to be defined. See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic for additional information.
 
 ## Properties
 

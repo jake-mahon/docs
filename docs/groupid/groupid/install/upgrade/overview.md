@@ -23,7 +23,7 @@ Step 1 – For upgrade on a different box, the source version file system must b
 
 Step 2 – The following applies to upgrade on a different box.  
 If a gMSA is used as the service account for an identity store in the source version, you must configure that gMSA on the Directory Manager 11 server before you upgrade.  
-To configure a gMSA, see the [gMSA for Active Directory](/docs/product_docs/groupid/groupid/requirements/permissions/gmsarequirements.md) topic.
+To configure a gMSA, see the [gMSA for Active Directory](/docs/groupid/groupid/requirements/permissions/gmsarequirements.md) topic.
 
 Step 3 – A disabled identity store in the source version will not be upgraded to Directory Manager 11.  
 To upgrade a disabled identity store, you must enable it in the source version before upgrade. Then disable it in Directory Manager 11 immediately after upgrade.

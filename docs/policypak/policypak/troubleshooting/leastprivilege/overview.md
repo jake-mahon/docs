@@ -23,31 +23,31 @@ Start troubleshooting by verifying that the following conditions (seen here) are
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_1.png)
 
 The final log to check is the ppUser\_Operational.log, which can indicate why something is denied (blocked), allowed, or elevated. It shows what was trying to run and which GPO, collection, and policy performed the action, along with the ultimate result. For example, this log shows a Deny result.
 
 ![A screenshot of a computer code
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_2.png)
 
 An Allowed result can be seen here.
 
 ![A screenshot of a computer code
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.png)
 
 An Elevated result can be seen here.
 
 ![A screenshot of a computer code
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.png)
 
 Additionally, as expressed earlier, you can also see when Admin Approval dialogs are shown to end users, when they are canceled, and which processes failed to run because they did not get Administrator privileges. In this screenshot you can see that the dialog was canceled, which means the end user was not permitted to perform an action which required a UAC prompt.
 
 ![A screenshot of a computer program
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.png)
 
 Additionally, Admin Approval is logged in the ppUser\_Operational.log file as well, which shows when applications require Admin privileges and when the user successfully enters in a response code from an Admin when he or she uses the Endpoint Policy Manager Admin Approval Tool.
 

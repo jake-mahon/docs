@@ -12,7 +12,7 @@ Create a new registration for Identity Manager with Microsoft Identity Platform
 4. Go to __App Registrations__ in the left panel.
 5. Click the __+ New Registration__ button in the top menu.
 
-   ![Azure AD Export - Add New Registration](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportregistration.png)
+   ![Azure AD Export - Add New Registration](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportregistration.png)
 
    A new registration form is displayed:
 
@@ -42,7 +42,7 @@ __ApplicationId__ is available in the registration overview. Get it by proceedin
 
    The __Essentials__ top panel displays the __Application (client) ID__ required by the Identity Manager Agent. The same page also displays the __Directory (tenant) ID__ that will also be needed by the Identity Manager Agent.
 
-   ![Azure AD Export - New ApplicationId](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportapplicationid.png)
+   ![Azure AD Export - New ApplicationId](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportapplicationid.png)
 
 ### Get the application's secret key
 
@@ -58,7 +58,7 @@ A __Client Secret__ key needs to be generated. Get it by proceeding as follows:
 
    The Client Secret is now listed in the bottom panel __Client Secrets__. The Client Secret value is needed by the Identity Manager Agent settings file.
 
-   ![Azure AD Export - New Client Secret](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportsecret.png)
+   ![Azure AD Export - New Client Secret](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportsecret.png)
 
    The __Client Secret__ value is only displayed in the UI in plain text at first. After a while, it is only displayed as ```**************```. It should hence be stored in the appsettings.agent.json file or an environment variable as soon as it is created, to be used subsequently by Identity Manager. If the key is lost, a new key can be created to replace the lost one.
 
@@ -71,19 +71,19 @@ Grant Identity Manager directory permissions by proceeding as follows:
 3. Go to __API Permissions__ in the left panel.
 4. Click on the __+ Add a permission__ button.
 
-   ![Azure AD Export - Add Permission](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportpermissions.png)
+   ![Azure AD Export - Add Permission](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportpermissions.png)
 5. Go to __Microsoft graph__ > __Application permissions__.
 6. Search and open the __Directory__ category.
 7. Check the __Directory.Read.All__ permission.
 
    If you plan on configuring fulfillment too, you must only check the __Directory.ReadWrite.All__ permission.
 
-   ![Azure AD Export - Directory Permission](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportdirectorypermission.png)
+   ![Azure AD Export - Directory Permission](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportdirectorypermission.png)
 8. Confirm with the __Add permissions__ button at the bottom of the page.
 
    You now see the Directory.Read.All or Directory.ReadWrite.All permission in the __Configured permissions__ list with a  __⚠ Not granted for ...__ status.
 9. Grant admin consent by clicking on __√ Grant admin consent for__ name of the organization.
 
-   ![Azure AD Export - Grant Admin Consent](/static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportadminconsent.png)
+   ![Azure AD Export - Grant Admin Consent](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/howtos_azuread_exportadminconsent.png)
 
    You should now see the status displayed as __√ Granted for__ name of the organization.

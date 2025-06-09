@@ -12,7 +12,7 @@ Once the package is installed the __HubDetails.xml__ can be created using a conf
 
 Welcome to the NNT ChangeTracker Express Agent Configuration script
 
-Hub URL [https://localhost/api/] : https://IPADDRESS-SERVERNAME:PORT/api/
+Hub URL [https://localhost/api/] : `https://IPADDRESS-SERVERNAME:PORT/api/`
 
 Agent username [agent] : agent
 
@@ -28,7 +28,7 @@ Hub URL : https://localhost/api/
 
 Agent user : agent
 
-Agent password : <hidden>
+Agent password : `<hidden>`
 
 Config path : /var/nnt/expressagent
 
@@ -46,6 +46,8 @@ To start and stop the service manually, use the following commands:
 
 As with all other agents, the installation process can be scripted.
 
-# bash /opt/nnt/expressagent/configure-expressagent.sh https://IPADDRESS-SERVERNAME:PORT/api/ agent passWord121 /var/nnt/expressagent
+```bash
+/opt/nnt/expressagent/configure-expressagent.sh `https://IPADDRESS-SERVERNAME:PORT/api/` agent passWord121 /var/nnt/expressagent
+```
 
-Run the Agent UI. See the [ Agent First Run](/docs/product_docs/changetracker/changetracker/install/agent/firstrun.md) topic for additional information.
+Run the Agent UI. See the [ Agent First Run](/docs/changetracker/changetracker/install/agent/firstrun.md) topic for additional information.

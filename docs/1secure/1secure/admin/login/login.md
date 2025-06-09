@@ -6,7 +6,7 @@ When the Netwrix team adds a new user account for your organization, you will re
 
 This email includes a unique access link to product’s web portal. You need to activate your account via the link within 2 days. If it expires, you will need to follow the link and request a new activation link.
 
-![accountactivation](/static/img/product_docs/1secure/1secure/admin/login/accountactivation.png)
+![accountactivation](/img/product_docs/1secure/1secure/admin/login/accountactivation.png)
 
 ## Activate an Account
 
@@ -19,7 +19,7 @@ __Step 1 –__ Open the invitation email and do one of the following:
 
 The Change Your Password page is displayed.
 
-![Change Your Password page](/static/img/product_docs/groupid/groupid/admincenter/general/changepassword.png)
+![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.png)
 
 __Step 2 –__ In the __New password__ field, enter a password to set for your account.
 
@@ -35,26 +35,26 @@ Follow the steps to log in to 1Secure.
 
 __Step 1 –__ Open the invitation email and click the Netwrix 1Secure tenant link. You are navigated to the 1Secure login page.
 
-![Log In page](/static/img/product_docs/1secure/1secure/admin/login/companylogin.png)
+![Log In page](/img/product_docs/1secure/1secure/admin/login/companylogin.png)
 
 __Step 2 –__ On the login page, click the __Log In__ button.
 
 __Step 3 –__ In the Email address field, specify a valid email address registered with 1Secure, then click __Continue__. The Enter Your Password page is displayed.
 
-![Enter Your Password page](/static/img/product_docs/1secure/1secure/admin/login/passwordpage.png)
+![Enter Your Password page](/img/product_docs/1secure/1secure/admin/login/passwordpage.png)
 
 __Step 4 –__ In the Password field, specify the valid password for the email address, then click __Continue__. The Keep Your Account Safe page is displayed, prompting you to choose an authentication method. When logging in for the first time, you must authorize your account using multi-factor authentication.
 
-![Keep Your Account Safe page](/static/img/product_docs/1secure/1secure/admin/login/authenticationmethods.png)
+![Keep Your Account Safe page](/img/product_docs/1secure/1secure/admin/login/authenticationmethods.png)
 
 __Step 5 –__ Click __Google Authenticator or Similar__ or __Security Key__ to select an authentication method. After that, one of the following happens:
 
 - If you selected Google Authenticator or Similar option, you will be navigated to Secure Your Account page. Scan the QR code using your preferred authenticator app and then enter the provided one time code in the __Enter one time code__ field. See the documentation of your authenticator app for additional information.
 - If you selected Security Key option, you will be navigated to the Adding Your Security Key page. See the [Set up a security key as your verification method](https://support.microsoft.com/en-us/account-billing/set-up-a-security-key-as-your-verification-method-2911cacd-efa5-4593-ae22-e09ae14c6698) article for additional information.
 
-After successful authorization, You are redirected to the dashboard. See the [1Secure Dashboard](/docs/product_docs/1secure/1secure/admin/dashboard/overview.md) topic for additional information.
+After successful authorization, You are redirected to the dashboard. See the [1Secure Dashboard](/docs/1secure/1secure/admin/dashboard/overview.md) topic for additional information.
 
-Once the initial login is completed, an MSP can configure Single Sign On (SSO) using supported authentication services, including Entra ID, 1Secure Authentication, or OpenID Connect. See the [SSO Configuration with Authentication Services](/docs/product_docs/1secure/1secure/admin/login/sso.md#SSO-Configuration-with-Authentication-Services) topic for additional information.
+Once the initial login is completed, an MSP can configure Single Sign On (SSO) using supported authentication services, including Entra ID, 1Secure Authentication, or OpenID Connect. See the [SSO Configuration with Authentication Services](/docs/1secure/1secure/admin/login/sso.md#SSO-Configuration-with-Authentication-Services) topic for additional information.
 
 ## Reset Password
 
@@ -66,11 +66,11 @@ __Step 2 –__ On the login page, click the __Log In__ button.
 
 __Step 3 –__ In the Email address field, specify a valid email address registered with 1Secure, then click __Continue__. The Enter Your Password page is displayed.
 
-![Enter Your Password page](/static/img/product_docs/1secure/1secure/admin/login/passwordpage.png)
+![Enter Your Password page](/img/product_docs/1secure/1secure/admin/login/passwordpage.png)
 
 __Step 4 –__ Click the __Forgot password__ link. The Change Your Password page is displayed.
 
-![Change Your Password page](/static/img/product_docs/groupid/groupid/admincenter/general/changepassword.png)
+![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.png)
 
 __Step 5 –__ In the __New password__ field, enter a password to set for your account.
 

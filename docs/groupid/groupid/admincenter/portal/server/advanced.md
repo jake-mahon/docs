@@ -4,7 +4,7 @@ Advanced settings allow you to customize the functionality and appearance of a p
 
 NOTE: Advanced settings are available for a standard Directory Manager portal, and not for a Self-Service Password Reset portal.
 
-Default values for all advanced settings are specified for a portal. You can update any setting as required. You can also import these advanced settings for a portal from a previous Directory Manager version. See step 14 in the [Create a Portal in Native IIS](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Native-IIS) topic.
+Default values for all advanced settings are specified for a portal. You can update any setting as required. You can also import these advanced settings for a portal from a previous Directory Manager version. See step 14 in the [Create a Portal in Native IIS](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Native-IIS) topic.
 
 You can manage the following advanced settings for a portal:
 

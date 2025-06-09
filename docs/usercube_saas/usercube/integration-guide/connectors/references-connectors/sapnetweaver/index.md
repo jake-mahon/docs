@@ -4,9 +4,9 @@ This connector exports and fulfills users and roles from/to an [SAP Netweaver](h
 
 This page is about [
 SAP S/4 HANA
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/saphana/index.md).
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/saphana/index.md).
 
-![Package: ERP/SAP S/4 HANA](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.png)
+![Package: ERP/SAP S/4 HANA](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.png)
 
 ## Overview
 
@@ -16,7 +16,7 @@ SAP ERP is an enterprise resource planning software developed by the German comp
 
 Implementing this connector requires:
 
-- reading first the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+- reading first the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account with reading and writing permissions on the SAP server.
 
 ## Export
@@ -27,7 +27,7 @@ This connector exports users, roles, role memberships and groups from an SAP ins
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -77,7 +77,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
+This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
 
 - ```sap_users.csv``` with the following columns:
 
@@ -142,9 +142,9 @@ Same as for export, fulfill is configured through connections.
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
+See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
 
-When setting a password for an SAP user, the password attribute is defined by the password specified in the corresponding [Resource Type Mappings](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
+When setting a password for an SAP user, the password attribute is defined by the password specified in the corresponding [Resource Type Mappings](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
 
 ### Credential protection
 
@@ -152,10 +152,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -165,7 +165,7 @@ Data protection can be ensured through:
 
 - A [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login```, ```Password``` and ```Server```.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login```, ```Password``` and ```Server```.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

@@ -24,27 +24,27 @@ Identity Manager's server and agent(s) are configured via JSON files, mainly ```
 
 This is the end of the introduction guide, so you should now be able to dive into:
 
-- The [User Guide](/docs/product_docs/usercube_saas/usercube/user-guide/index.md) to configure Identity Manager from scratch via the UI, following the step-by-step procedures;
-- The [Integration Guide](/docs/product_docs/usercube_saas/usercube/integration-guide/index.md) to complete Identity Manager's configuration in XML according to your needs;
-- The [Installation Guide](/docs/product_docs/usercube_saas/usercube/installation-guide/index.md) to install Identity Manager in a production environment.
+- The [User Guide](/docs/usercube_saas/usercube/user-guide/index.md) to configure Identity Manager from scratch via the UI, following the step-by-step procedures;
+- The [Integration Guide](/docs/usercube_saas/usercube/integration-guide/index.md) to complete Identity Manager's configuration in XML according to your needs;
+- The [Installation Guide](/docs/usercube_saas/usercube/installation-guide/index.md) to install Identity Manager in a production environment.
 
 ## Learn More
 
 Learn more on how to [
 Create a Working Directory
-](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md).
+](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md).
 
-See the [User Guide](/docs/product_docs/usercube_saas/usercube/user-guide/index.md) topic to learn how to configure Identity Manager from scratch via the UI.
+See the [User Guide](/docs/usercube_saas/usercube/user-guide/index.md) topic to learn how to configure Identity Manager from scratch via the UI.
 
 See how to [
 Export the Configuration
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md) to XML files.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md) to XML files.
 
 See how to [ Deploy the Configuration
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
 
 Learn more about the [
 XML Configuration Schema
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/index.md).
 
-Learn more about the [Network Configuration](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/index.md).
+Learn more about the [Network Configuration](/docs/usercube_saas/usercube/integration-guide/network-configuration/index.md).

@@ -10,13 +10,13 @@ __Step 1 –__ Click __Configuration__ > __Database__ > __Maintenance__ on the m
 
 __Step 1 –__ Select the desired tab (Event Type, Analytics, or Policy) and check the __Enabled__ box at the top of the tab.
 
-![Database Maintenance window - Event Type tab](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/enablesettings.png)
+![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/enablesettings.png)
 
 __Step 2 –__ Select a maintenance task (Event Type, Analytic, or Policy). To set the same operation and retention period for multiple tasks, use the __ctrl-left click__ command.
 
 __Step 3 –__ Select either __Move__ or __Delete__ from the Operation drop-down menu.
 
-- The Move operation requires the Archive DB tab to be configured. See the [Archive Data](/docs/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
+- The Move operation requires the Archive DB tab to be configured. See the [Archive Data](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
 
 __Step 4 –__ Set the Retention Period value and unit (Day, Week, or Month). This value indicates the age of the data to be kept when the database maintenance job is run. Older data is deleted or moved/archived as indicated by the selected Operation.
 

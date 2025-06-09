@@ -8,7 +8,7 @@ Follow the steps to modify the timeout parameter for the Web Console.
 
 __Step 1 –__ Open the __WebServer.exe.config__ file with a text editor, for example Notepad.
 
-![WebServer.exe.config file in Notepad](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigtimeout.png)
+![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigtimeout.png)
 
 __Step 2 –__ Change the value for the ```SessionTimeout``` parameter to the desired number of minutes:
 

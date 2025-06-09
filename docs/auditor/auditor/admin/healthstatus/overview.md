@@ -2,7 +2,7 @@
 
 This topic describes how you can monitor Auditor operations, health and resource usage. See the following topics for additional information:
 
-- [Health Status Dashboard](/docs/product_docs/auditor/auditor/admin/healthstatus/dashboard/overview.md)
-- [Self-Audit](/docs/product_docs/auditor/auditor/admin/healthstatus/selfaudit.md#Self-Audit)
-- [Health Summary Email](/docs/product_docs/auditor/auditor/admin/healthstatus/summaryemail.md)
-- [Netwrix Auditor Health Log](/docs/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthlog.md)
+- [Health Status Dashboard](/docs/auditor/auditor/admin/healthstatus/dashboard/overview.md)
+- [Self-Audit](/docs/auditor/auditor/admin/healthstatus/selfaudit.md#Self-Audit)
+- [Health Summary Email](/docs/auditor/auditor/admin/healthstatus/summaryemail.md)
+- [Netwrix Auditor Health Log](/docs/auditor/auditor/admin/healthstatus/dashboard/healthlog.md)

@@ -12,7 +12,7 @@ Use any of the following methods to connect and sign in:
 
 - Select an identity store and enter the username and password of your identity store account.
 
-  NOTE: To sign in using the Directory Manager provider, enter the username and password you provided for the _GroupID administrator_ on the Service Account Settings page of the Configuration Tool. See the [Configure a New Directory Manager Server with a New or an Existing Database](/docs/product_docs/groupid/groupid/install/configure/gidserver.md) topic.
+  NOTE: To sign in using the Directory Manager provider, enter the username and password you provided for the _GroupID administrator_ on the Service Account Settings page of the Configuration Tool. See the [Configure a New Directory Manager Server with a New or an Existing Database](/docs/groupid/groupid/install/configure/gidserver.md) topic.
 - Select an identity store and sign in using a SAML provider. This option is available if a SAML provider is configured with the selected identity store.
 
   NOTE:  Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their username and password. They will be authenticated through the SAML provider configured for in Directory Manager.
@@ -47,8 +47,8 @@ Step 3 – After providing your credentials, click __Sign In__.
 
 You can opt for single sign-on across all Directory Manager clients, provided that a SAML provider is configured with Directory Manager. See the following topics for additional information on the SAML provider configuration:
 
-- [Configure Directory Manager in Microsoft Entra ID for SSO](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in Directory Manager](/docs/product_docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Configure Directory Manager in Microsoft Entra ID for SSO](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
 
 On the __GroupID Authenticate__ page, click the button or image for the provider and proceed to sign in.
 
@@ -62,9 +62,9 @@ If enabled for your role in the identity store, you must pass second factor auth
 
 For second factor authentication, one of the following applies:
 
-- If you have not enrolled your identity store account in Directory Manager, the Enroll Account page is displayed. You must enroll using at least one authentication type. See the [Enroll your Identity Store Account](/docs/product_docs/groupid/groupid/admincenter/enroll.md) topic.
+- If you have not enrolled your identity store account in Directory Manager, the Enroll Account page is displayed. You must enroll using at least one authentication type. See the [Enroll your Identity Store Account](/docs/groupid/groupid/admincenter/enroll.md) topic.
 - If you have already enrolled your identity store account in Directory Manager, the Authenticate page is displayed. It lists the authentication type(s) your account is enrolled with. Select an authentication type to
-  authenticate. See the [Authenticate your Identity Store Account](/docs/product_docs/groupid/groupid/admincenter/authenticate.md) topic.
+  authenticate. See the [Authenticate your Identity Store Account](/docs/groupid/groupid/admincenter/authenticate.md) topic.
 
 ## Sign Out
 
@@ -78,6 +78,6 @@ In the Admin Center, click your name in the top right corner; the menu displays 
 
 See Also
 
-- [Getting Started](/docs/product_docs/groupid/groupid/gettingstarted.md)
-- [Dashboard](/docs/product_docs/groupid/groupid/admincenter/general/dashboard.md)
-- [Navigation](/docs/product_docs/groupid/groupid/admincenter/general/navigation.md)
+- [Getting Started](/docs/groupid/groupid/gettingstarted.md)
+- [Dashboard](/docs/groupid/groupid/admincenter/general/dashboard.md)
+- [Navigation](/docs/groupid/groupid/admincenter/general/navigation.md)

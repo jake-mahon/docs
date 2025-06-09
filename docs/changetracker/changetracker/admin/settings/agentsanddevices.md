@@ -12,12 +12,12 @@ __NOTE:__ Use the __Filter Control Panel__ to allow focus on just the Devices or
 
 ![Graphical user interface, application
 
-Description automatically generated](/static/img/product_docs/changetracker/changetracker/admin/settings/page_guide_24.png)
+Description automatically generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_24.png)
 
 __NOTE:__ Click on the ‘burger’ icon alongside any column heading to get a full list of column options.
 
 ![Graphical user interface, text, application, email
 
-Description automatically generated](/static/img/product_docs/changetracker/changetracker/admin/settings/page_guide_25.png)
+Description automatically generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_25.png)
 
-![page_guide_26](/static/img/product_docs/changetracker/changetracker/admin/settings/page_guide_26.png)
+![page_guide_26](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_26.png)

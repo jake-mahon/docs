@@ -1,15 +1,15 @@
 # Browser Router
 
-__NOTE:__ Before reading this section, please ensure you have read [Installation Quick Start](/docs/product_docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which explain how to:
+__NOTE:__ Before reading this section, please ensure you have read [Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which explain how to:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 
-Optionally, if you don't want to use Group Policy, read the sectionon __Advanced Concepts on Group Policy and non-Group Policy methods__ (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud), located in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/product_docs/policypak/policypak/mdm/uemtools.md). This information on how to deploy your directives.
+Optionally, if you don't want to use Group Policy, read the sectionon __Advanced Concepts on Group Policy and non-Group Policy methods__ (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud), located in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md). This information on how to deploy your directives.
 
-__NOTE:__ Watch this video for an overview of Endpoint Policy Manager Browser Router: [](http://www.policypak.com/video/policypak-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/product_docs/policypak/policypak/video/browserrouter/rightbrowser.md).
+__NOTE:__ Watch this video for an overview of Endpoint Policy Manager Browser Router: [](http://www.policypak.com/video/policypak-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/policypak/policypak/video/browserrouter/rightbrowser.md).
 
 Let's say you wanted to apply the following routing policies:
 
@@ -26,7 +26,7 @@ With Endpoint Policy Manager Browser Router, you can apply all of the above poli
 - Set Item-Level Targeting on policies and collections.
 - Deliver user-side policies to the Computer side without Group Policy Loopback mode.
 - Create exact criteria for when specific websites should open, and in which browser.
-- Export policies or collections as XML files (which can be used with Endpoint Policy Manager Exporter and Endpoint Policy Manager Cloud). See [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/product_docs/policypak/policypak/mdm/uemtools.md) for more details.
+- Export policies or collections as XML files (which can be used with Endpoint Policy Manager Exporter and Endpoint Policy Manager Cloud). See [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) for more details.
 - Set custom messages when you have blocked a website.
 - Dynamically set Internet Explorer 11 Enterprise Mode (IE 11 EM) and Document Modes site lists.
 - Automatically write Internet Explorer 11 EM version 1 or version 2 site lists, based on the machine type.
@@ -52,7 +52,7 @@ The client machine with the Endpoint Policy Manager client-side extension (CSE) 
 
 __NOTE:__ If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy settings over the Internet, even to non-domain-joined machines.
 
-__NOTE:__ You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers. See the following video for more information: [Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/product_docs/policypak/policypak/video/browserrouter/citrix.md).
+__NOTE:__ You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers. See the following video for more information: [Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/policypak/policypak/video/browserrouter/citrix.md).
 
 ## Endpoint Policy Manager Browser Router Moving Parts
 

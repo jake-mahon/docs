@@ -2,7 +2,7 @@
 
 The Scan options page provides options to use when gathering Microsoft Entra Roles information.
 
-![Scan options page of the Entra Data Collector Wizard](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Scan options page of the Entra Data Collector Wizard](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The scan options are:
 

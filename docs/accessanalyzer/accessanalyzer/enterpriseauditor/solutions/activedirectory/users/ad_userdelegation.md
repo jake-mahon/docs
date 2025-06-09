@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_UserDelegation__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AD_UserDelegation Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userdelegationanalysis.png)
+![Analysis Task for the AD_UserDelegation Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userdelegationanalysis.png)
 
 The default analysis tasks are:
 

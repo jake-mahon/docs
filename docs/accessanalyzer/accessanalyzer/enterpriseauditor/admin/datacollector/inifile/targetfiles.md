@@ -2,7 +2,7 @@
 
 The Target Files page identifies the location and name of the INI file from which to collect information.
 
-![INI File Data Collector Wizard Target Files page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/targetfiles.png)
+![INI File Data Collector Wizard Target Files page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/targetfiles.png)
 
 Configure the Target Files options:
 

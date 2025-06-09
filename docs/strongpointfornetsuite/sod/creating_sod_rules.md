@@ -13,7 +13,7 @@ Transaction duties should be separated under:
 
 Ideally these should all be handled by four separate people​. Where external compensating controls exist and approvals are closely monitored, exemptions can be made. Exceptions must be acceptable to the company’s auditors.
 
-You can create a custom change request form for SoD Rule Changes. Refer to [Using Custom Change Request Forms](/docs/product_docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your custom form.
+You can create a custom change request form for SoD Rule Changes. Refer to [Using Custom Change Request Forms](/docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your custom form.
 
 ### Access Levels
 
@@ -28,7 +28,7 @@ The following are general definitions of access levels for permissions in NetSui
 
 1. Open __SoD__ > __SoD Rule__ > __SoD Rule Library__ > __New__
 
-   ![sod_rule_new](/static/img/product_docs/strongpointfornetsuite/sod/sod_rule_new.png)
+   ![sod_rule_new](/img/product_docs/strongpointfornetsuite/sod/sod_rule_new.png)
 2. __External ID__ is assigned by Platform Governance for NetSuite. Custom rules are numbered 1000 or above. External IDs for custom rules can be edited. SoD Library rule External IDs are 1 through 999 and cannot be edited.
 3. Add a Rule __Name__ and __Description__ and optional __Memo__.
 4. __Status__ indicates the current state of the Rule: __Test on Roles__, __Disabled__, __Test on Employees__, __Approved__, __Pending for Approval__, __Disabled - Feature Not In Use__, or __Disabled - Compensating Control__. Only __Approved__and __Active__ rules are applied.
@@ -38,7 +38,7 @@ The following are general definitions of access levels for permissions in NetSui
 8. Check to __Block Conflict__ to block the save attempt on the employee record if the employee permissions/roles violates this rule (optional).
 9. Select the __Access Control Type__:
 
-   ![SoD Access Controls](/static/img/product_docs/strongpointfornetsuite/sod/sod_access_controls.png)
+   ![SoD Access Controls](/img/product_docs/strongpointfornetsuite/sod/sod_access_controls.png)
 
    - __Role-based__ - Select one or more __Roles__ from the displayed list. The Permissions and Advanced Permission Controls are not available for this option.
    - __Permission-based__
@@ -51,7 +51,7 @@ The following are general definitions of access levels for permissions in NetSui
    - __Permission vs Role__ provides you additional control to fine tune access to sensitive custom records. Requires all of the fields for both __Role-based__ and __Permission-based__.
 10. Add Restrictions to limit the SoD rule to employees associated in one or more of the categories: __Subsidiaries__, __Departments__, __Classes__, and __Locations__.
 
-    ![SoD Classifications](/static/img/product_docs/strongpointfornetsuite/sod/sod_classifications.png)
+    ![SoD Classifications](/img/product_docs/strongpointfornetsuite/sod/sod_classifications.png)
 11. __Save__ the rule.
 
 Once a Rule is saved, the __Change ID__ and __Run Retroactive__ functions are available.
@@ -63,7 +63,7 @@ There are four tabs to access details:
 - __Compensating Controls__: list of controls for the rule. Click + to the right of the list to add a new control. Compensating Controls are defined on the Customization record.
 - __Workflow__: displays Active Workflows and Workflow History.
 
-![SoD Processing Status](/static/img/product_docs/strongpointfornetsuite/sod/sod_proc_status_tab.png)
+![SoD Processing Status](/img/product_docs/strongpointfornetsuite/sod/sod_proc_status_tab.png)
 
 When you add or change a rule, you can manually start the evaluation process, or wait until the Spider runs overnight. To manually run the process:
 
@@ -77,7 +77,7 @@ To view the updates to your SoD rules:
 
 __SoD__ > __SoD Rule__ > __Updates to SoD Rules__
 
-![Updates to SoD Rules report](/static/img/product_docs/strongpointfornetsuite/sod/sod_rules_update_report.png)
+![Updates to SoD Rules report](/img/product_docs/strongpointfornetsuite/sod/sod_rules_update_report.png)
 
 With this report, you can easily identify modified pre-defined SoD rules. There is a saved import SoD Rule Import available to enable bulk add or update SoD rules to your production environment.
 

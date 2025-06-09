@@ -5,7 +5,7 @@ This connector exports and fulfills users and groups from/to an [Active Director
 This page is about Directory/Active Directory.
 See the [Active Directory](#Active-Directory) topic for additional information.
 
-![Package: Directory/Active Directory](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.png)
+![Package: Directory/Active Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ Active Directory is a directory service developed by Microsoft for Windows domai
 
 Implementing this connector requires:
 
-- Reading first the appsettings documentation; See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+- Reading first the appsettings documentation; See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 - Opening the LDAP feed from Identity Manager's server to the Active Directory, with the ports 389 for LDAP and 636 for LDAPS.
 - A service account with reading and writing permissions on the target Active Directory instance. It means that the Replicating Directory Changes rights are required for the service account, but also for the Active Directory root and the AD children. See the instructions below for additional information.
 - An SSL connection which is mandatory for the AD connector to initialize and change a password.
@@ -27,23 +27,23 @@ To enable permissions, the Active Directory administrator must do the following:
 
 __Step 1 –__ Check the __View__ details in the Active Directory and Computers.
 
-![Enable Permissions - Step 1](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.png)
+![Enable Permissions - Step 1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.png)
 
 __Step 2 –__ Open the __Advanced Security Settings__ dialog box for the domain root.
 
-![Enable Permissions - Step 2](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.png)
+![Enable Permissions - Step 2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.png)
 
 __Step 3 –__ Select the __Replicating Directory Changes__ check box from the list.
 
-![Enable Permissions - Step 3](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.png)
+![Enable Permissions - Step 3](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.png)
 
 __Step 4 –__ To change groups' membership, in the Applies field, select Descendent Group object and select the __Read Members__ and __Write Members__ check boxes from the list.
 
-![Read/Write Members](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.png)
+![Read/Write Members](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.png)
 
 __Step 5 –__ To Reset Password capabilities, in the Applies field, select Descendent User object and select the __Read lockoutTime__ and __Write lockoutTime__ check boxes from the list.
 
-![Read/Write Lockout Times](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.png)
+![Read/Write Lockout Times](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.png)
 
 Administrator rights must not be granted to the service account. Doing otherwise would create a security breach. Administrator rights must only be granted to the target perimeter.
 
@@ -131,7 +131,7 @@ This connector is meant to generate:
 
   Any property can be exported in a specific format when specified. See the [
   References: Format for the EntityPropertyMapping
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
+  ](/docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
 - An additional file for each related table other than entries;
 - A cookie file named <connectionIdentifier>\_cookie.bin, containing the time of the last export in order to perform incremental exports.
 
@@ -139,7 +139,7 @@ This connector is meant to generate:
     
   A task can use the IgnoreCookieFile boolean property, and a command line (with an executable) can use the option --ignore-cookies.
 
-The CSV files are stored in the ExportOutput folder, and the cookie file in the ExportCookies folder. See the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
+The CSV files are stored in the ExportOutput folder, and the cookie file in the ExportCookies folder. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
 
 For example, with the following configuration example:
 
@@ -151,7 +151,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
             
 ```
 
-We would have ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv``` with a column for each scalar property. See the [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
+We would have ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv``` with a column for each scalar property. See the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
 
 Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
 
@@ -213,7 +213,7 @@ Each __BaseDN__ will generate a cookie file, but the entries from all __BaseDN__
 
 ## Fulfill
 
-This connector writes to the Active Directory, to create, update and delete entries, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+This connector writes to the Active Directory, to create, update and delete entries, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
 
 ### Configuration
 
@@ -330,7 +330,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic
+See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic
 for additional information on how to configure password reset settings.
 
 ### Credential protection
@@ -339,8 +339,8 @@ Data protection can be ensured through:
 
 - RSA encryption, configured in the appsettings.encrypted.agent.json file. See the [
   RSA Encryption
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) topic for additional information.
-- An Azure Key Vault safe; See the [Azure Key Vault](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional information.
+  ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) topic for additional information.
+- An Azure Key Vault safe; See the [Azure Key Vault](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional information.
 
 - A CyberArk Vault able to store Active Directory's Login, Password and Server. See the [CyberArk's AAM Credential Providers
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) topic for additional information.
+  ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) topic for additional information.

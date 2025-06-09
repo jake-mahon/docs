@@ -8,7 +8,7 @@ The AppnLogSQL Query uses the SMARTLog Data Collector and has been preconfigured
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![sqljobgroup18](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup18.png)
+![sqljobgroup18](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup18.png)
 
 - AppnLogSQL – Uses SmartLog Data Collector to gather logon events
-  - See the [SMARTLog Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/overview.md) topic for additional information
+  - See the [SMARTLog Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/overview.md) topic for additional information

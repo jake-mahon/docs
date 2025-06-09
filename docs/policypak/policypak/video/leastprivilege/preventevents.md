@@ -4,4 +4,4 @@ When Endpoint Policy Manager SecureRun is not enabled, it will automatically gen
 
 See this video for additional information.
 
-![Prevent Events](/static/img/product_docs/policypak/policypak/video/leastprivilege/preventevents.png)
+![Prevent Events](/img/product_docs/policypak/policypak/video/leastprivilege/preventevents.png)

@@ -2,14 +2,14 @@
 
 The __Searches__ interface may contain multiple requests. This section contains information on how to work with searches to address specific tasks.
 
-__NOTE:__ To manage the search requests, users require sufficient access rights that are assigned by the __Super User__ (DSAR Administrator). See [DSAR Roles](/docs/product_docs/dataclassification/ndc/admin/dsar/roles.md) for details on the available roles, their rights and permissions.
+__NOTE:__ To manage the search requests, users require sufficient access rights that are assigned by the __Super User__ (DSAR Administrator). See [DSAR Roles](/docs/dataclassification/ndc/admin/dsar/roles.md) for details on the available roles, their rights and permissions.
 
 ## Customize View
 
 You can filter your requests by status. Select one of the following under Display Status:
 
 - Active – shows all requests with "_Processed_" status (default view).
-- Completed – shows all completed requests. Review the [View Search Query Results](/docs/product_docs/dataclassification/ndc/admin/dsar/viewsearchresults.md) section for instructions on how to complete your request.
+- Completed – shows all completed requests. Review the [View Search Query Results](/docs/dataclassification/ndc/admin/dsar/viewsearchresults.md) section for instructions on how to complete your request.
 - Canceled – shows all canceled requests. [See Cancel Search for more information.](#See-Cancel-Search-for-more-information)
 - All – shows all search requests.
 

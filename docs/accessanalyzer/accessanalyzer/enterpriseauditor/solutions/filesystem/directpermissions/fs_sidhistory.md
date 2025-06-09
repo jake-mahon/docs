@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permiss
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_SIDHistory Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.png)
+![Analysis Tasks for the FS_SIDHistory Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.png)
 
 The following analysis tasks are selected by default:
 

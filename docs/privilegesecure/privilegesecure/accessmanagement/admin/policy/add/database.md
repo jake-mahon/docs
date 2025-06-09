@@ -11,7 +11,7 @@ __Step 2 –__ Click __Add__ > __New Database__.
 
 __Step 3 –__ In the Enter Database Name box, enter a unique name to identify the database.
 
-![Add Database](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.png)
+![Add Database](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.png)
 
 __Step 4 –__ Select __Microsoft SQL Server__ or __Oracle__ from the Platform drop-down list.
 
@@ -30,7 +30,7 @@ __NOTE:__ The domain is used as the default domain for database activities.
 
 __Step 9 –__ From the drop-down menu, select a previously added service account with credentials for the database.
 
-- See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+- See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
 
   - Visit icon – Go to the Service Account page to view details of the selected service account.
   - Add New Service Account icon – Open the Add New Service Account window. The fields are identical to those on the Service Accounts page.
@@ -39,4 +39,4 @@ __Step 10 –__ Click __Save__ to save the configuration options and enable the 
 
 __Step 11 –__ Click __Scan Now__ to begin scanning the database.
 
-The new database is now added. See the [Database Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/databases.md) for additional details.
+The new database is now added. See the [Database Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/databases.md) for additional details.

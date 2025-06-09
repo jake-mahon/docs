@@ -9,4 +9,4 @@ A single MongoDB Server can have multiple instances. Each instance where data is
 
 The following report is available at the __MongoDB__ node:
 
-- [Sensitive Content Summary Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/mongodb/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/mongodb/sensitivecontentsummary.md)

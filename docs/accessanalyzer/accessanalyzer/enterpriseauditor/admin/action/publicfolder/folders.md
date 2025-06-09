@@ -2,7 +2,7 @@
 
 The Folders page identifies which public folders are targeted by this action.
 
-![Public Folder Action Module Wizard Folders page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/folders.png)
+![Public Folder Action Module Wizard Folders page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/folders.png)
 
 The options on this page are:
 

@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_ServerMetrics Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/servermetricsanalysis.png)
+![Analysis Tasks for the EX_ServerMetrics Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/servermetricsanalysis.png)
 
 The following analysis tasks are selected by default:
 

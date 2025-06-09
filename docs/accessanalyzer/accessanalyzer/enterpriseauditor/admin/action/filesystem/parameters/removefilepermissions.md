@@ -2,7 +2,7 @@
 
 Use the Remove File Permissions Parameters page to specify whose file permissions the action removes.
 
-![File System Action Module Wizard Remove File Permissions Parameters page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/parameters/removefilepermissions.png)
+![File System Action Module Wizard Remove File Permissions Parameters page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/parameters/removefilepermissions.png)
 
 Use the options to enter the Permissions:
 

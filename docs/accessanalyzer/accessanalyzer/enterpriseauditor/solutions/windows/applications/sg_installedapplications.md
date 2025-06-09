@@ -8,7 +8,7 @@ The SG\_InstalledApplications job uses the WMICollector Data Collector for the f
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_InstalledApplications Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/applications/installedapplicationsquery.png)
+![Queries for the SG_InstalledApplications Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/applications/installedapplicationsquery.png)
 
 The query for the SG\_InstalledApplications job are:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Applications__ > __SG\_InstalledApplications__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_InstalledApplications Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/applications/installedapplicationsanalysis.png)
+![Analysis Tasks for the SG_InstalledApplications Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/applications/installedapplicationsanalysis.png)
 
 The default analysis tasks are:
 

@@ -23,7 +23,7 @@ Get-Token
 
 Example:
 
-The following command returns a token for the identity store specified by the __IdentityStoreId__ parameter using the specified authentication mode and credentials that you set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/docs/product_docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command returns a token for the identity store specified by the __IdentityStoreId__ parameter using the specified authentication mode and credentials that you set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Get-Token -AuthenticationMode 2 -IdentityStoreId 2 -Credential $Cred

@@ -2,7 +2,7 @@
 
 Use the Notification Frequency page to specify the frequency by which to generate the notifications.
 
-![Notification Data Analysis Module wizard Notification Frequency page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/frequency.png)
+![Notification Data Analysis Module wizard Notification Frequency page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/notification/frequency.png)
 
 The following options are available:
 

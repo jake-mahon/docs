@@ -12,4 +12,4 @@ The __Results__ are displayed. Click on the linked __Name__ to view details abo
 
 Use the Export to XLS option to export your results to an XLS file where you can sort, reorder, and analyze your information using the full power of Excel. You can then update your records using Salesforce tools like Import Wizard and Data Loader to save time and effort.
 
-![finder](/static/img/product_docs/strongpointforsalesforce/tools/finder.png)
+![finder](/img/product_docs/strongpointforsalesforce/tools/finder.png)

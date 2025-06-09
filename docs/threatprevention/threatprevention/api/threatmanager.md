@@ -5,14 +5,14 @@ The following APIs are related to where Threat Prevention sends the event data t
 - Set-SIDefendConfig
 - Get-SIDefendConfig
 
-The following APIs are related to the LDAP Deception trap options on the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md):
+The following APIs are related to the LDAP Deception trap options on the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md):
 
 - Get-SILdapDeception
 - Set-SILdapDeception
 
 ## Set Threat Manager Configuration
 
-The ```Set-SIDefendConfig``` command tells Threat Prevention where to send the event data from all tab settings on the [Netwrix Threat Manager Configuration Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md). There are three methods available for data output:
+The ```Set-SIDefendConfig``` command tells Threat Prevention where to send the event data from all tab settings on the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md). There are three methods available for data output:
 
 - Threat Manager AMQP (URI/Port) – Sends event data directly to Threat Manager
 - File on an Agent – Sends event data to a specified file. The server must have a deployed Agent.
@@ -43,15 +43,15 @@ Example using Activity Monitor to send to Threat Manager:
 
 ## Get Threat Manager Configuration
 
-The ```Get-SIDefendConfig``` command is used to return all settings on the Event Sink Tab of the [Netwrix Threat Manager Configuration Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
+The ```Get-SIDefendConfig``` command is used to return all settings on the Event Sink Tab of the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 ## Get LDAP Deception
 
-The ```Get-SILdapDeception``` command provides the current information configured in the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
+The ```Get-SILdapDeception``` command provides the current information configured in the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 ## Set LDAP Deception
 
-The ```Set-SILdapDeception``` command changes the settings on the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
+The ```Set-SILdapDeception``` command changes the settings on the Honey Token Tab of the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 _Remember,_ these settings must be an exact match to the configuration set up in the Threat Manager Honey Token threat.
 

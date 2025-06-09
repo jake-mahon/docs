@@ -16,11 +16,11 @@ Agentless monitoring (via a proxy agent or Splunk) has always required the manua
 
 Follow the steps to configure Device Discovery.
 
-![additsmcredential](/static/img/product_docs/changetracker/changetracker/integration/itsm/additsmcredential.png)
+![additsmcredential](/img/product_docs/changetracker/changetracker/integration/itsm/additsmcredential.png)
 
 __Step 1 –__ From the Settings menu, select __Credentials__, scroll to the ITSM System Credentials section and click __Add ITSM Credential__.
 
-![itsmconnection](/static/img/product_docs/changetracker/changetracker/integration/itsm/itsmconnection.png)
+![itsmconnection](/img/product_docs/changetracker/changetracker/integration/itsm/itsmconnection.png)
 
 __Step 2 –__ Select __ServiceNow__ from the initial drop down and enter the details of the ServiceNow instance to connect to.
 
@@ -30,7 +30,7 @@ The Device Discovery Name Regex Replace Pattern field is used to define a piece 
 
 The Device Discovery Name Regex Replacement fields defines the value to replace the pattern defined in the field above. Leaving this empty will cause the pattern matched by the regex above to be trimmed from device names created in Change Tracker.
 
-![devicediscovery](/static/img/product_docs/changetracker/changetracker/integration/itsm/devicediscovery.png)
+![devicediscovery](/img/product_docs/changetracker/changetracker/integration/itsm/devicediscovery.png)
 
 __Step 3 –__ Select a device to act as the proxy for the calls made to ServiceNow. The agent on the same host as the Hub is often a good choice here.
 
@@ -38,11 +38,11 @@ __Step 4 –__ Select the credentials created earlier.
 
 __Step 5 –__ Select the group to put the discovered devices into.
 
-![systemdiscovery](/static/img/product_docs/changetracker/changetracker/integration/itsm/systemdiscovery.png)
+![systemdiscovery](/img/product_docs/changetracker/changetracker/integration/itsm/systemdiscovery.png)
 
 __Step 6 –__ Click __OK__. A discovery task will start and create the devices.
 
-![discoverytask](/static/img/product_docs/changetracker/changetracker/integration/itsm/discoverytask.png)
+![discoverytask](/img/product_docs/changetracker/changetracker/integration/itsm/discoverytask.png)
 
 ## Raise a ServiceNow Incident
 
@@ -50,11 +50,11 @@ To close the loop of change management someone who can act must be alerted of un
 
 Follow the steps to raise a ServiceNow incident.
 
-![integrationsettings](/static/img/product_docs/changetracker/changetracker/integration/itsm/integrationsettings.png)
+![integrationsettings](/img/product_docs/changetracker/changetracker/integration/itsm/integrationsettings.png)
 
 __Step 1 –__ From the Settings menu, select System Settings and scroll to the ServiceNow Integration section. Insert the URL and credentials of the ServiceNow instance to raise incidents to. The test button will raise a test incident to prove connectivity.
 
-![editdevice](/static/img/product_docs/changetracker/changetracker/integration/itsm/editdevice.png)
+![editdevice](/img/product_docs/changetracker/changetracker/integration/itsm/editdevice.png)
 
 __Step 2 –__ Select the device group you want to raise incidents for (All devices is the common choice), select the __Un-planned Change Notification__ Type and select __ServiceNow__ as the notification Method.
 

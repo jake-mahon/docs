@@ -2,19 +2,19 @@
 
 The [
 Compute Role Model Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to detect from synchronized data a list of non-conforming or missing resources/entitlements for every identity. That is one of Identity Manager's most powerful governance features, provided you have a full role model configured.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to detect from synchronized data a list of non-conforming or missing resources/entitlements for every identity. That is one of Identity Manager's most powerful governance features, provided you have a full role model configured.
 
 ## Build the conforming assignment list
 
 The __first step__ is building the conforming assignment list, as explained in the [
 Conforming Assignments
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md). This list (list ```A```) includes the assignments that perfectly comply with the role model/assignment policy.
+](/docs/usercube_saas/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md). This list (list ```A```) includes the assignments that perfectly comply with the role model/assignment policy.
 
 ## Build the existing assignment list
 
 The __second step__ is building the existing assignment list (list ```B```), as explained in the[
 Existing Assignments
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md) every synced resource can be translated into a role assignment following the assignment rules "in reverse".
+](/docs/usercube_saas/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md) every synced resource can be translated into a role assignment following the assignment rules "in reverse".
 
 ## Compare both lists
 

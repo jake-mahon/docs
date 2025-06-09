@@ -14,34 +14,34 @@ Follow the steps to update the Access Analyzer license key without installing a 
 
 __Step 1 –__ Ensure the new ```StealthAUDIT.lic``` license file is stored locally on the Access Analyzer Console server in order to be referenced during the installation process.
 
-![Windows Control Panel Uninstall or change a program window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/controlpaneluninstall.png)
+![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/controlpaneluninstall.png)
 
 __Step 2 –__ From Programs and Features (__Control Panel__ > __Programs__ > __Programs and Features__), select the Access Analyzer application and click __Change__.
 
-![Setup Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 __Step 3 –__ On the Welcome page, click __Next__.
 
-![Setup Wizard Change, Repair, or Remove Installation page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/change.png)
+![Setup Wizard Change, Repair, or Remove Installation page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/change.png)
 
 __Step 4 –__ On the Change, Repair, or Remove Installation page, click __Change__.
 
 |  |  |  |
 | --- | --- | --- |
-| ![License File page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/license.png) |  | ![License File page with mapped file](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensemapped.png) |
+| ![License File page](/img/product_docs/activitymonitor/activitymonitor/install/agent/license.png) |  | ![License File page with mapped file](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensemapped.png) |
 | Default License File Page |  | Mapped License File |
 
 __Step 5 –__ On the License File page, click __Browse__ and navigate to the __StealthAUDIT.lic__ file. It must be stored on the Access Analyzer Console server before the installation begins. When the path to the file is visible in the text box, click __Next__. The license will be imported.
 
-![License Features page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensefeatures.png)
+![License Features page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensefeatures.png)
 
 __Step 6 –__ The License Features page displays a list of all features covered by the imported license. It also displays the name of the organization which owns the license, the expiration date, and the host limit. These are the features that will be installed. Click __Next__.
 
-![Setup Wizard Ready to change page](/static/img/product_docs/activitymonitor/activitymonitor/install/ready.png)
+![Setup Wizard Ready to change page](/img/product_docs/activitymonitor/activitymonitor/install/ready.png)
 
 __Step 7 –__ On the Ready to Change Access Analyzer page, click __Change__ to begin the update.
 
-![Setup Wizard Completed page](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Setup Wizard Completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
 
 __Step 8 –__ When the installation has completed, click __Finish__ to exit the wizard.
 

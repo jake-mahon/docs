@@ -6,7 +6,7 @@ This topic provides information about the various support resources at Netwrix E
 
 The most important thing you can do to become quickly oriented with Endpoint Policy Manager is to watch our daily webinar. The webinar is oriented to your delivery scenario: On-Prem, Intune/MDM or Cloud.
 
-![gs3](/static/img/product_docs/policypak/policypak/gettingstarted/gs3.png)
+![gs3](/img/product_docs/policypak/policypak/gettingstarted/gs3.png)
 
 If you were added as a Primary or Secondary, you were automatically provided a link which will get you directly to the Overview/On-Prem webinar. If you are using Endpoint Policy Manager with Intune/MDM or Endpoint Policy Manager Cloud, you might want to also watch the specific one for your scenario.
 
@@ -21,7 +21,7 @@ Endpoint Policy Manager has two login areas, both of which are accessible from t
 - [Portal](http://portal.policypak.com/) — On-Prem bits downloads, extras, Endpoint Policy Manager Bootcamp (Free Training), Payment location for monthly usage
 - [Cloud](http://cloud.policypak.com/) — The Endpoint Policy Manager Cloud service
 
-![gs1](/static/img/product_docs/policypak/policypak/gettingstarted/gs1.png)
+![gs1](/img/product_docs/policypak/policypak/gettingstarted/gs1.png)
 
 - If you are unable to logon as expected during a trial, contact your Endpoint Policy Manager Sales person for credentials.
 
@@ -35,36 +35,36 @@ Endpoint Policy Manager has a few Quick start topics to provide specific guidanc
 
 Quick tart topics for delivery method of policies you plan to use:
 
-- [Group Policy Delivery Quick Start](/docs/product_docs/policypak/policypak/gettingstarted/quickstart/grouppolicy.md)
-- [MDM / Intune Delivery Quick Start](/docs/product_docs/policypak/policypak/gettingstarted/quickstart/mdm.md)
-- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/product_docs/policypak/policypak/gettingstarted/quickstart/cloud.md)
+- [Group Policy Delivery Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/grouppolicy.md)
+- [MDM / Intune Delivery Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/mdm.md)
+- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/cloud.md)
 
 A detailed Installation Guide for On-Prem scenarios that takes you from download to verified.
 
-- [Step 1: Get the download and inspect its contents](/docs/product_docs/policypak/policypak/gettingstarted/quickstart/downloadcontents.md)
+- [Step 1: Get the download and inspect its contents](/docs/policypak/policypak/gettingstarted/quickstart/downloadcontents.md)
 
 A detailed topic is available if you're in a hurry to get started with Endpoint Policy Manager Cloud.
 
-- [Endpoint Policy Manager Cloud Quick Start](/docs/product_docs/policypak/policypak/cloud/overview.md)
+- [Endpoint Policy Manager Cloud Quick Start](/docs/policypak/policypak/cloud/overview.md)
 
 A detailed MDM & UEM tools (like Intune) topic can be found here:
 
-- [MDM & UEM Tools](/docs/product_docs/policypak/policypak/mdm/overview.md)
+- [MDM & UEM Tools](/docs/policypak/policypak/mdm/overview.md)
 
 A detailed PolicyPak Least Privilege Manager Implementation Quickstart Guide that is project oriented to get you to the success line quickly.
 
-[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/product_docs/policypak/policypak/leastprivilege/pplpmimplementationguide.md)
+[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/policypak/policypak/leastprivilege/pplpmimplementationguide.md)
 
 ## Refer to Documentation in the Netwrix Technical Knowledge Center
 
 Endpoint Policy Manager has an extensive library of detailed manuals and Knowledge Base and Videos. Consider bookmarking these important pages:
 
-- [Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/product_docs/policypak/policypak/knowledgebase.md)
-- [Netwrix Endpoint Policy Manager (formerly PolicyPak) User Manuals](/docs/product_docs/policypak/policypak/manuals.md)
+- [Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/policypak/policypak/knowledgebase.md)
+- [Netwrix Endpoint Policy Manager (formerly PolicyPak) User Manuals](/docs/policypak/policypak/manuals.md)
 
 Finding what youare looking for comes down to Knowledge Base & Videos and User Manuals. Here is a way to get oriented on the navigation.
 
-![gs2](/static/img/product_docs/policypak/policypak/gettingstarted/gs2.png)
+![gs2](/img/product_docs/policypak/policypak/gettingstarted/gs2.png)
 
 ## Get Help from Support
 

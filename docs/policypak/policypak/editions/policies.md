@@ -12,7 +12,7 @@ Endpoint Policy Manager Application Settings Manager has over 400 preconfigured 
 
 Many popular applications are available, including Internet Explorer, Teams, Acrobat Reader, Java, Firefox, Office, and more. Additionally, with our Endpoint Policy Manager DesignStudio, you can design your own Paks for just about any application. With Endpoint Policy Manager Software, it is easy to configure, manage, and lock down 1, 2, 50, or more in-house or commercial applications. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can deploy Endpoint Policy Manager Application Settings Manager directives over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video: [What is Endpoint Policy Application Manager (Cloud Edition)](/docs/product_docs/policypak/policypak/video/applicationsettings/cloud.md).
+__Note__: For more information on this topic, please see this video: [What is Endpoint Policy Application Manager (Cloud Edition)](/docs/policypak/policypak/video/applicationsettings/cloud.md).
 
 ## Least Privilege Manager
 
@@ -20,7 +20,7 @@ Endpoint Policy Manager Least Privilege Manager enables your users with standard
 
 It will also stop attacks from malware, crypto-malware, etc., and will block any application if it is not installed by an administrator. This is called the Endpoint Policy Manager LPM SecureRun™ feature. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Least Privilege Manager can deploy directives over the Internet, even to non-domain-joined machines.
 
-For more information on this topic, please see this video: [Video Learning Center](/docs/product_docs/policypak/policypak/leastprivilege/overview/videolearningcenter.md) > Privilege Manager.
+For more information on this topic, please see this video: [Video Learning Center](/docs/policypak/policypak/leastprivilege/overview/videolearningcenter.md) > Privilege Manager.
 
 __NOTE:__ Note that Endpoint Policy Manager Least Privilege Manager has two versions: Standard and Complete. If a customer is a Endpoint Policy Manager Enterprise or SaaS customer, they get Least Privilege Manager Complete. If the customer is a Endpoint Policy Manager Professional customer, they can decide between Least Privilege Manager Standard or Complete. For an overview of the two versions, check out this page: [https://www.policypak.com/paks/least-privilege-security-pak/](https://www.policypak.com/paks/least-privilege-security-pak/).
 
@@ -30,7 +30,7 @@ Endpoint Policy Manager Browser Router dictates which browser should open up whi
 
 If you have a specific need to open up Edge, Firefox, Chrome, Internet Explorer, or a custom browser, Endpoint Policy Manager Browser Router can make it easy. It can also dictate which browser should be the default for websites so the user is not prompted. It can also block access to certain websites (e.g., Facebook) for all browsers. It can also specify Internet Explorer's document and enterprise modes on the fly. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can also deliver these Endpoint Policy Manager Browser Router settings over the Internet to domain-joined and non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/product_docs/policypak/policypak/browserrouter/overview/videolearningcenter.md) > Browser Router
+__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/policypak/policypak/browserrouter/overview/videolearningcenter.md) > Browser Router
 
 ## Java Enterprise Rules Manager
 
@@ -38,7 +38,7 @@ Endpoint Policy Manager Java Enterprise Rules Manager enables you to choose the 
 
 Making a Java deployment rule set for your enterprise has never been easier or more flexible. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Java Enterprise Rules Manager can deploy most Microsoft Security settings to computers over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/product_docs/policypak/policypak/javaenterpriserules/overview/videolearningcenter.md) > Java Enterprise Rules Manager .
+__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/policypak/policypak/javaenterpriserules/overview/videolearningcenter.md) > Java Enterprise Rules Manager .
 
 ## Admin Templates Manager
 
@@ -46,13 +46,13 @@ Endpoint Policy Manager Admin Templates Manager enables you to deploy any Micros
 
 You can also put Group Policy settings into collections and ensure that they are specifically targeted with conditions to users and computers . Endpoint Policy Manager Admin Templates Manager will enable you to deploy Admin Template items without using Group Policy, by using Microsoft SCCM, Windows Intune, or your own systems management software. In conjunction with Endpoint Policy Manager Cloud, Endpoint Policy Manager Admin Templates Manager allows you to deploy any Microsoft Admin Template (or third-party ADMX setting) to computers over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video:[Administrative Templates Manager](/docs/product_docs/policypak/policypak/adminstrativetemplates/overview.md).
+__Note__: For more information on this topic, please see this video:[Administrative Templates Manager](/docs/policypak/policypak/adminstrativetemplates/overview.md).
 
 ## File Associations Manager
 
 Endpoint Policy Manager File Associations Manager enables you to map specific file extensions (such as .pdf) to specific applications, like Acrobat Reader (standard apps and Windows 10 Universal apps), and handling applications with protocols (such as MAILTO:).
 
-__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/product_docs/policypak/policypak/fileassociations/overview/videolearningcenter.md) > File Associations Manager.
+__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/policypak/policypak/fileassociations/overview/videolearningcenter.md) > File Associations Manager.
 
 ## Preferences Manager
 
@@ -60,9 +60,9 @@ Endpoint Policy Manager Preferences Manager keepsw Group Policy Preferences work
 
 It enables you to deploy Group Policy Preference items without using Group Policy. For instance, by using Microsoft SCCM, Windows Intune, or your own systems management software. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Preferences Manager deploys Group Policy Preference items over the Internet, even to non-domain-joined machines.
 
-__NOTE:__  The license for this policy is not provided unless specifically requested by the customer when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on why the license is not automatically provided, please see the following link: [Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/product_docs/policypak/policypak/preferences/componentlicense.md).
+__NOTE:__  The license for this policy is not provided unless specifically requested by the customer when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on why the license is not automatically provided, please see the following link: [Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/policypak/policypak/preferences/componentlicense.md).
 
-__Note__: For more information on this topic, please see this video:[Preferences Manager](/docs/product_docs/policypak/policypak/preferences/overview.md)
+__Note__: For more information on this topic, please see this video:[Preferences Manager](/docs/policypak/policypak/preferences/overview.md)
 
 ## Security Settings Manager
 
@@ -70,7 +70,7 @@ Endpoint Policy Manager Security Settings Manager enables you to deploy Group Po
 
 You can do this by using Microsoft SCCM, Windows Intune, or your own systems management software. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Security Manager can deploy most Microsoft Security settings to computers over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video: [Security Settings Manager](/docs/product_docs/policypak/policypak/securitysettings/overview.md).
+__Note__: For more information on this topic, please see this video: [Security Settings Manager](/docs/policypak/policypak/securitysettings/overview.md).
 
 ## Start Screen & Taskbar Manager
 
@@ -78,9 +78,9 @@ Endpoint Policy Manager Start Screen & Taskbar Manager enables you to map specif
 
 It gives you granular control to create groups of individual tiles and locks those groups down. Additionally, you can use this component to pin items to the Windows 10 taskbar.
 
-__NOTE:__  You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen & Taskbar Manager: Start Screen & Task Bar Manager > [Video Learning Center](/docs/product_docs/policypak/policypak/startscreentaskbar/overview/videolearningcenter.md).
+__NOTE:__  You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen & Taskbar Manager: Start Screen & Task Bar Manager > [Video Learning Center](/docs/policypak/policypak/startscreentaskbar/overview/videolearningcenter.md).
 
-__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/product_docs/policypak/policypak/startscreentaskbar/overview/videolearningcenter.md) > Start Screen & Task Bar Manager
+__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/policypak/policypak/startscreentaskbar/overview/videolearningcenter.md) > Start Screen & Task Bar Manager
 
 ## Scripts & Triggers Manager
 
@@ -88,7 +88,7 @@ You can use Endpoint Policy Manager Scripts & Triggers Manager to automate any t
 
 In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can use scripts to deploy software over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/product_docs/policypak/policypak/scriptstriggers/overview/videolearningcenter.md) > Scripts & Triggers Manager.
+__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/policypak/policypak/scriptstriggers/overview/videolearningcenter.md) > Scripts & Triggers Manager.
 
 ## Remote Work Delivery Manager
 
@@ -96,7 +96,7 @@ You can use Endpoint Policy Manager Remote Work Delivery Manager to automate the
 
 In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can deploy VPN connections over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video: Remote Work Delivery Manager > [Video Learning Center](/docs/product_docs/policypak/policypak/feature/overview/videolearningcenter.md).
+__Note__: For more information on this topic, please see this video: Remote Work Delivery Manager > [Video Learning Center](/docs/policypak/policypak/feature/overview/videolearningcenter.md).
 
 ## Feature Manager for Windows
 
@@ -104,7 +104,7 @@ Endpoint Policy Manager Feature Manager lets you select and deselect the Windows
 
 You can also specify or postpone necessary reboots. In conjunction with Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Feature Manager for Windows lets you manage the Windows features and options on machines over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/product_docs/policypak/policypak/feature/overview/videolearningcenter.md) > Feature Manager for Windows .
+__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/policypak/policypak/feature/overview/videolearningcenter.md) > Feature Manager for Windows .
 
 ## Remote Desktop Protocol Manager
 
@@ -112,13 +112,13 @@ You can use Endpoint Policy Manager Remote Desktop Protocol Manager to enable us
 
 In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can deploy policies that add or remove .rdp file connections over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/product_docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md)[Video Learning Center](/docs/product_docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md)[Video Learning Center](/docs/product_docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md).
+__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md)[Video Learning Center](/docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md)[Video Learning Center](/docs/policypak/policypak/video/remotedesktopprotocol/videolearningcenter.md).
 
 ## Network Security Manager
 
 You can use Network Security Manager to specify which processes and applications can communicate to what IP, web addresses and over what protocols.
 
-__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/product_docs/policypak/policypak/video/networksecurity/videolearningcenter.md) > Network Security Manager
+__Note__: For more information on this topic, please see this video:[Video Learning Center](/docs/policypak/policypak/video/networksecurity/videolearningcenter.md) > Network Security Manager
 
 ## Software Package Manager
 
@@ -126,4 +126,4 @@ You can use Endpoint Policy Manager Software Package Manager to add or remove pa
 
 In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you can deploy policies which add or remove Microsoft Store application connections over the Internet, even to non-domain-joined machines.
 
-__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/product_docs/policypak/policypak/softwarepackage/overview/videolearningcenter.md) > Software Package Manager.
+__Note__: For more information on this topic, please see this video: [Video Learning Center](/docs/policypak/policypak/softwarepackage/overview/videolearningcenter.md) > Software Package Manager.

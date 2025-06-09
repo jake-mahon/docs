@@ -8,7 +8,7 @@ There are various places you'll see the version number of the build, the CSE, an
 
 In the Customer Portal, you'll see the BUILD number demonstrated like this … in this example the build is 834..
 
-![217_1_image002](/static/img/product_docs/policypak/policypak/troubleshooting/217_1_image002.png)
+![217_1_image002](/img/product_docs/policypak/policypak/troubleshooting/217_1_image002.png)
 
 Here's how to read it:
 
@@ -25,15 +25,15 @@ You'll only see the CSE ID which should match the build number.
 
 Older builds, like 761 will show it like this:
 
-![217_2_image0011](/static/img/product_docs/policypak/policypak/troubleshooting/217_2_image0011.png)
+![217_2_image0011](/img/product_docs/policypak/policypak/troubleshooting/217_2_image0011.png)
 
 Newer builds, like 834 will show it like this:
 
-![217_3_image004](/static/img/product_docs/policypak/policypak/troubleshooting/217_3_image004.png)
+![217_3_image004](/img/product_docs/policypak/policypak/troubleshooting/217_3_image004.png)
 
 You can also see the same number in Programs / Features in Windows like this:
 
-![217_4_image005](/static/img/product_docs/policypak/policypak/troubleshooting/217_4_image005.png)
+![217_4_image005](/img/product_docs/policypak/policypak/troubleshooting/217_4_image005.png)
 
 What do the numbers BEFORE the build mean?
 
@@ -49,4 +49,4 @@ In this screenshot, you can see the original style and the new style:
 - Original style (4.2.785.1) means build 785 of the DesignStudio compiled the Pak.
 - New Style (15.12.827.19) means build 827 of the DesignStudio compiled the Pak.
 
-![217_5_image006](/static/img/product_docs/policypak/policypak/troubleshooting/217_5_image006.png)
+![217_5_image006](/img/product_docs/policypak/policypak/troubleshooting/217_5_image006.png)

@@ -25,7 +25,7 @@ Step 1 – In Admin Center, click __Data Sources__ in the left pane.
 Step 2 – On the Data Sources page, click the tab for the provider the data source is built on.
 
 Step 3 – Click __Edit__ for a data source. The __Update Data Source__ page is displayed, that differs by provider. Refer to the
-steps for creating the respective data source in the [Create a Data Source](/docs/product_docs/groupid/groupid/admincenter/datasource/create.md) topic to modify the info.
+steps for creating the respective data source in the [Create a Data Source](/docs/groupid/groupid/admincenter/datasource/create.md) topic to modify the info.
 
 Step 4 – Click __Update Data Source__.
 

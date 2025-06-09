@@ -6,9 +6,9 @@ Optionally, it is also possible to set up the resources necessary to ensure Netw
 
 To crawl the data within SharePoint Online, you need to enable Multi-Factor Authentication:
 
-- [Accessing SharePoint Online Using Modern Authentication](/docs/product_docs/dataclassification/ndc/configuration/configinfrastructure/spomodernauth.md)
+- [Accessing SharePoint Online Using Modern Authentication](/docs/dataclassification/ndc/configuration/configinfrastructure/spomodernauth.md)
 
-[![addsharepointonline_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/addsharepointonline_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/addsharepointonline.png)
+[![addsharepointonline_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/addsharepointonline_thumb_0_0.png)](/docs/dataclassification/resources/images/addsharepointonline.png)
 
 Complete the following fields:
 
@@ -18,7 +18,7 @@ Complete the following fields:
 | Username | Enter username in the following formats: DOMAIN\USERNAME and USERNAME@DOMAIN. |
 | Password | Enter you password for SharePoint Online. |
 | Match Rules | Enter the site collections' path for crawling the documents. At least one match rule must be included. Match rules are regular expressions, for example, https:\/\/example.sharepoint.com\/sites\/. |
-| Classification template | Specify the required Classification template for writing classifications. See the [Enable Write Classifications](/docs/product_docs/dataclassification/ndc/admin/taxonomies/enablewriteclassifications.md) and [Working with SharePoint templates](/docs/product_docs/dataclassification/ndc/admin/sources/sharepoint/workwithtemplates.md) topics for more information. |
+| Classification template | Specify the required Classification template for writing classifications. See the [Enable Write Classifications](/docs/dataclassification/ndc/admin/taxonomies/enablewriteclassifications.md) and [Working with SharePoint templates](/docs/dataclassification/ndc/admin/sources/sharepoint/workwithtemplates.md) topics for more information. |
 | Detection Period | Specify how often you will detect new site collections. Default period is 1 day and 0 hour(s). |
 
 After configuring the settings, click the __Save__ button.

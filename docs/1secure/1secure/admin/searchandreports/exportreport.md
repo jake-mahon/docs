@@ -21,7 +21,7 @@ __Step 4 –__ Click a report to open it. Reports without a filter are automatic
 
 __Step 5 –__ Click __Export__. The report is sent to you as an .xlsx file by email.
 
-![Roports - Export option](/static/img/product_docs/1secure/1secure/admin/searchandreports/exportreport.png)
+![Roports - Export option](/img/product_docs/1secure/1secure/admin/searchandreports/exportreport.png)
 
 __NOTE:__ A report cannot be exported if no data is available for it. In this case, the Export button remains disabled.
 
@@ -33,6 +33,6 @@ __Step 1 –__ Click __Reports__ in the top bar to navigate to the Reports page.
 
 __Step 2 –__ Select an organization from the drop-down menu at the top of the left pane to access its reports. An organization is selected by default, but you can choose a different one if needed.
 
-__Step 3 –__ Define a filter criteria, then click __Search__ to generate the investigation results based on it. See the [Apply Filters](/docs/product_docs/1secure/1secure/admin/searchandreports/applyfilters.md) topic for additional information.
+__Step 3 –__ Define a filter criteria, then click __Search__ to generate the investigation results based on it. See the [Apply Filters](/docs/1secure/1secure/admin/searchandreports/applyfilters.md) topic for additional information.
 
 __Step 4 –__ Click __Export__. The investigation results report is sent to you as an .xlsx file by email.

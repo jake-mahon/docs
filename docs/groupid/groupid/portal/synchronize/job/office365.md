@@ -68,7 +68,7 @@ On the __Object, Fields and Mapping__ page:
     4. the __Password__ field.
 
        1. On the __Transform__ dialog box, select _Static - assign a static value_ from the __Set the destination field to__ box.
-       2. Click [Auto-Generate Unique, Complex Passwords](/docs/product_docs/groupid/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md).
+       2. Click [Auto-Generate Unique, Complex Passwords](/docs/groupid/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md).
        3. On the Password Complexity Options dialog box, enter 10 in the __Password Length__ box.
        4. Clear the __Special symbols__ check box.
        5. Click __Transform.__

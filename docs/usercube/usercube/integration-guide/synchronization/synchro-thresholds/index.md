@@ -8,7 +8,7 @@ Thresholds can be deactivated via the value ```0```, though they should not all 
 
 Once the changes have been reviewed, the [
 Synchronize Data
-](/docs/product_docs/usercube/usercube/user-guide/set-up/synchronization/index.md) (or not).
+](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md) (or not).
 
 As long as a synchronization job is blocked for a connector, the export, prepare-synchronization and synchronization tasks of this connector are removed from incremental jobs. The synchronization is unblocked as soon as the blocked job is resumed, or as soon as a job involving the connector is launched in complete mode.
 
@@ -18,7 +18,7 @@ Synchronization thresholds can be configured in XML files via:
 
 - [
   Entity Type Mapping
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) to count the number of resources impacted by synchronization inside a given entity type. They are configured with:
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) to count the number of resources impacted by synchronization inside a given entity type. They are configured with:
 
   | Absolute Threshold | Relative Threshold |
   | --- | --- |
@@ -27,7 +27,7 @@ Synchronization thresholds can be configured in XML files via:
   | ```MaximumUpdatedLines``` | ```MaxPercentageUpdatedLines``` |
 - [
   Entity Association Mapping
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to count the number of navigation properties impacted by synchronization inside a given entity type. They are configured with:
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to count the number of navigation properties impacted by synchronization inside a given entity type. They are configured with:
 
   | Absolute Threshold | Relative Threshold |
   | --- | --- |
@@ -35,7 +35,7 @@ Synchronization thresholds can be configured in XML files via:
   | ```MaximumLinkInsertedLines``` | ```MaxLinkPercentageInsertedLines``` |
 - [
   Connector
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) to count the number of resources and/or navigation properties impacted by synchronization inside all entity types of a given connector. They are configured with:
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) to count the number of resources and/or navigation properties impacted by synchronization inside all entity types of a given connector. They are configured with:
 
   | Absolute Threshold | Relative Threshold |
   | --- | --- |
@@ -57,4 +57,4 @@ If the entity type's threshold values are higher than the connector's, then Iden
 
 Distinct [
 Thresholds
-](/docs/product_docs/usercube/usercube/integration-guide/provisioning/prov-thresholds/index.md) are configurable for provisioning.
+](/docs/usercube/usercube/integration-guide/provisioning/prov-thresholds/index.md) are configurable for provisioning.

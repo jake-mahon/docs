@@ -26,7 +26,7 @@ NOTE: When defining a linked combo, consider the following:
 The linked combo requires an XML file that contains the data for the display type itself and the other display types that will be linked to it. Directory Manager also supports the Microsoft Excel file format (.xls or .xlsx), that it automatically converts to
 XML. The data in the Excel file must be in a specific format for Directory Manager to process it.
 
-For information about the Excel file format, see the [Excel Data File Format](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/fileformat.md) topic.
+For information about the Excel file format, see the [Excel Data File Format](/docs/groupid/groupid/admincenter/portal/linkedcombo/fileformat.md) topic.
 
 NOTE: If data in the source file is updated, you must reload the file for changes to take effect.
 
@@ -42,8 +42,8 @@ NOTE: If data in the source file is updated, you must reload the file for change
 6. Click __Add__ to define a linked combo display type.
 7. Complete the pages of the __Linked Combo Display Type__ wizard.
 
-   1. On the __Details__ page, provide the source data file. See the [Linked Combo Type - Details](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/details.md) topic for more info.
-   2. On the __Schema__ page, define the parent-child relationship between fields. See the [Linked Combo Type - Schema](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/schema.md) topic for details.
+   1. On the __Details__ page, provide the source data file. See the [Linked Combo Type - Details](/docs/groupid/groupid/admincenter/portal/linkedcombo/details.md) topic for more info.
+   2. On the __Schema__ page, define the parent-child relationship between fields. See the [Linked Combo Type - Schema](/docs/groupid/groupid/admincenter/portal/linkedcombo/schema.md) topic for details.
 8. Click __OK__.
 9. Click __Save__ on the __Custom Display Types__ page.  
    The linked combo display type is listed on the __Linked Combo Types__ tab.
@@ -122,10 +122,10 @@ __To reload the file:__
 6. Click __Edit__ for a linked combo to reload the source data file for it. The __Linked Combo Display Type__ wizard is displayed.
 7. On the __Details__ page, click __Browse__ to select the file to load. Then click __Next__.
 8. On the __Schema__ page, make changes to the relationships, if required, and click __OK__.  
-   See the [Linked Combo Type - Schema](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/schema.md) topic for details.
+   See the [Linked Combo Type - Schema](/docs/groupid/groupid/admincenter/portal/linkedcombo/schema.md) topic for details.
 9. Click __Save__ on the __Custom Display Types__ page.
 
 __See Also__
 
-- [Display Type Categories](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/docs/product_docs/groupid/groupid/admincenter/portal/displaytype/custom.md)
+- [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/custom.md)

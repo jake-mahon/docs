@@ -16,7 +16,7 @@ Flashlight provides your organization these key benefits:
 
 #### Move Faster
 
-- Use the Flashlight [Dashboard](/docs/product_docs/strongpointsalesforceflashlight/getting_started/dashboard.md) and the Dependency Relationship Diagrams to spot problems before they happen and respond to your users more quickly.
+- Use the Flashlight [Dashboard](/docs/strongpointsalesforceflashlight/getting_started/dashboard.md) and the Dependency Relationship Diagrams to spot problems before they happen and respond to your users more quickly.
 - Now you can make better, faster decisions to drive your business forward.
 
 ## Notifications
@@ -29,7 +29,7 @@ If you are not receiving release note notifications, you are likely not subscrib
 3. If you previously unsubscribed, this link is displayed:  
    _Looks like you've opted out of email communication. Click here to get an email and opt back in._
 4. Click on the link. An email is sent to enable you to update your subscription preferences:  
-   ![Resubscribe to receive Release Note notifications.](/static/img/product_docs/resubscribe.png)
+   ![Resubscribe to receive Release Note notifications.](/img/product_docs/resubscribe.png)
 5. Click _update your subscription preferences_.
 6. Click __Yes, resubscribe me!__  
    You can opt out of the Marketing Information and still receive the Release Note notifications.

@@ -5,7 +5,7 @@ The Scoping page configures the data collector to scan either the entire Dropbox
 - Scan Dropbox Access
 - Scan for Sensitive Content
 
-![Dropbox Access Auditor Data Collector Wizard Scoping Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.png)
+![Dropbox Access Auditor Data Collector Wizard Scoping Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.png)
 
 Use the scoping options to select the depth of the scan:
 

@@ -16,7 +16,7 @@ Connection Profile
 
 Set a Connection Profile on the Unix job group with root permissions for Unix/Linux.
 
-If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/unix.md#Least-Privilege-Model) topic for permissions needed to target the supported platforms for data collection.
+If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/unix.md#Least-Privilege-Model) topic for permissions needed to target the supported platforms for data collection.
 
 Schedule Frequency
 

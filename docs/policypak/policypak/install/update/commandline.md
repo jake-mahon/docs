@@ -6,7 +6,7 @@ From a CMD prompt, run ```ppcloud /cseupdatenow``` or```ppcloud /update``` (both
 
 From more information seeRecommendations when using Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud: Rings and Rollouts in the topic below.
 
-- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/product_docs/policypak/policypak/install/rings.md)
+- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
 
 __NOTE:__ When using the commands above both the CSE and PPC client will be updated if new versions are available.
 
@@ -16,7 +16,7 @@ From a CMD prompt run ```ppupdate```followed by one of the switches in the examp
 
 __NOTE:__ These switches are dependent on having the CSE MSI files present in the Central Store See Active Directory Options 2 & 3 in the KB below for more information.
 
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/product_docs/policypak/policypak/install/rings.md)
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
 
 Examples:
 

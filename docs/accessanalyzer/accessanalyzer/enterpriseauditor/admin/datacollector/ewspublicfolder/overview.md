@@ -1,6 +1,6 @@
 # EWSPublicFolder Data Collector
 
-The EWSPublicFolder Data Collector provides configuration options to extract public folder contents, permissions, and sensitive data, and is preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The EWSPublicFolder Data Collector provides configuration options to extract public folder contents, permissions, and sensitive data, and is preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -30,11 +30,11 @@ The EWSPublicFolder Data Collector is configured through the Exchange Public Fol
 
 __NOTE:__ The Category selected may alter the subsequent steps displayed by the wizard.
 
-- [EWSPublicFolder: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/category.md)
-- [EWSPublicFolder: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/options.md)
-- [EWSPublicFolder: SDD Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md)
-- [EWSPublicFolder: Critieria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md)
-- [EWSPublicFolder: Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md)
-- [EWSPublicFolder: Search Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/searchfilter.md)
-- [EWSPublicFolder: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md)
-- [EWSPublicFolder: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/summary.md)
+- [EWSPublicFolder: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/category.md)
+- [EWSPublicFolder: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/options.md)
+- [EWSPublicFolder: SDD Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md)
+- [EWSPublicFolder: Critieria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md)
+- [EWSPublicFolder: Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md)
+- [EWSPublicFolder: Search Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/searchfilter.md)
+- [EWSPublicFolder: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md)
+- [EWSPublicFolder: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/summary.md)

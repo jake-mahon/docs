@@ -54,6 +54,6 @@ Let's show you the before picture. Let's go ahead and run GP Update ("gpupdate")
 
 Just like that, you've added "Google Chrome" to your Start Menu. You can use your software deployment tool to deploy it and use Endpoint Policy Manager Start Screen Manager to get the icon right where you want to in the right group of your choice.
 
-Endpoint Policy Manager Start Screen Manager is a real game changer. Continue to watch the other videos, like how to change [Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](/docs/product_docs/policypak/policypak/video/fileassociations/windows10.md) settings, to see how you can easily open PDFs, MAILTO and MP4s with the programs you want.
+Endpoint Policy Manager Start Screen Manager is a real game changer. Continue to watch the other videos, like how to change [Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](/docs/policypak/policypak/video/fileassociations/windows10.md) settings, to see how you can easily open PDFs, MAILTO and MP4s with the programs you want.
 
 Thanks so much for watching, and talk to you soon.

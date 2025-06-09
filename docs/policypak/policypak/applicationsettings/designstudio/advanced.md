@@ -6,13 +6,13 @@ In this section, we round up some tips and tricks for the advanced AppSet design
 
 By default, all elements show their basic view. You can see at a glance the most important items that the Configuration Wizard has configured, as shown in Figure 142.
 
-![advanced_appset_design_and](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and.png)
+![advanced_appset_design_and](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and.png)
 
 Figure 142. The basic properties of an element.
 
 The Configuration Wizard should auto-fill in all basic properties for most items. However, one item that might need attention is the label link. Remember, the label link is the item that describes elements that have no text, like text boxes, spinboxes, dropdowns, sliders, and radio button groups. To configure the label link for an item, click on "Label Link" in the properties of the item, select the "…" (not shown), and then select the text on the page that most closely represents what the text box, spinbox, etc. is trying to configure. In Figure 143, the radio button group is being described by the text "Associated image viewer."
 
-![advanced_appset_design_and_1](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_1.png)
+![advanced_appset_design_and_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_1.png)
 
 Figure 143. Example of an element's label link.
 
@@ -20,7 +20,7 @@ Figure 143. Example of an element's label link.
 
 You can also click the "Advanced" button within Properties to see more detailed information about an element, as shown in Figure 144.>
 
-![advanced_appset_design_and_2](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_2.png)
+![advanced_appset_design_and_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_2.png)
 
 Figure 144. The "Advanced" button in the Properties dialog.
 
@@ -36,7 +36,7 @@ The Advanced menu contains sections labeled "Control data" and "Actions." The co
 
 It's possible to see (or set) second and third actions when an element changes. You can dictate values within any of the supported datatypes, as shown in Figure 145.
 
-![advanced_appset_design_and_3](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_3.png)
+![advanced_appset_design_and_3](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_3.png)
 
 Figure 145. Examples of second actions.
 
@@ -44,18 +44,18 @@ You might want to do this if you had to configure both a registry item and also 
 
 After selecting the data type (Registry, INI, XML, etc.) you are then prompted for the section and property (or registry key and registry value), which in Figure 146 are shown as "[MainFrame]" and "AdvertiseIndex."
 
-![advanced_appset_design_and_4](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_4.png)
+![advanced_appset_design_and_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_4.png)
 
 Figure 146. Selecting the section and property.
 
 Once the value is manually selected, you are able to place the value automatically within the On or Off values (or both or neither), as shown in Figure 147.
 
-![advanced_appset_design_and_5](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_5.png)
+![advanced_appset_design_and_5](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_5.png)
 
 Figure 147. Placing the value within the "On" or "Off" fields.
 
 After placing the items, you can further specify the On and Off values within the action itself, as shown in Figure 148. Checkboxes are only allowed three actions.
 
-![advanced_appset_design_and_6](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_6.png)
+![advanced_appset_design_and_6](/img/product_docs/policypak/policypak/applicationsettings/designstudio/advanced_appset_design_and_6.png)
 
 Figure 148. Specifying "On" and "Off" values within the action.

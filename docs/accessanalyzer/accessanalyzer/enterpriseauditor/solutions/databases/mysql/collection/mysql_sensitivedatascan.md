@@ -6,7 +6,7 @@ The MySQL\_SensitiveDataScan Job is designed to discover sensitive data in MySQL
 
 The MySQL\_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.png)
 
 The query is:
 
@@ -24,21 +24,21 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![Sensitive Data Scan Settings](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.png)
+![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.png)
 
-__Step 4 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md#SQLOptions) page for additional information.
+__Step 4 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md#SQLOptions) page for additional information.
 
 __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
-![DLP Criteria for Scan](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.png)
+![DLP Criteria for Scan](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.png)
 
-__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md#SQLCriteria) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md#SQLCriteria) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
-![Filters Page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.png)
+![Filters Page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.png)
 
 __Step 6 –__ MySQL databases must be added to the query before they can be scanned. Navigate to the __Filter__ page and click __Connections__ to open the Manage Connections window.
 
-![Manage Connections](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.png)
+![Manage Connections](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.png)
 
 __Step 7 –__ In the Manage Connections window, click __New Connection__ and add the following information:
 
@@ -65,7 +65,7 @@ Navigate to the __Databases__ > __0.Collection__ > __MySQL__ > __MySQL\_Sensitiv
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.png)
 
 The default analysis tasks are:
 

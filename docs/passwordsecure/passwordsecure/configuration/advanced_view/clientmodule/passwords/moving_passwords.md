@@ -8,7 +8,7 @@ Data can be moved within Netwrix Password Secure to another organisational struc
 
 The (marked) records are moved either via the ribbon or via the context menu that is accessed using the right mouse button.
 
-![moving password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_1-en.png)
+![moving password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_1-en.png)
 
 Multiple records can also be marked and moved. The selected permissions are then valid for all records in this case.
 
@@ -16,11 +16,11 @@ Multiple records can also be marked and moved. The selected permissions are then
 
 No special user rights/settings are required in order to move records. The “move” right for the record is the only deciding factor.
 
-![required permissions](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_2-en.png)
+![required permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_2-en.png)
 
 ## Effects on existing permissions
 
-![effects on existing permissions](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_3-en.png)
+![effects on existing permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_3-en.png)
 
 - __Retain permissions__: The permissions for the record are not changed by moving it and are retained
 - __Overwrite permissions__: The permissions for the record are overwritten by the target OU

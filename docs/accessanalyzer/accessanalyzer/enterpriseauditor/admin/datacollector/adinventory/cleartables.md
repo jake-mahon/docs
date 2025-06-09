@@ -6,7 +6,7 @@ __CAUTION:__ Be careful when using this query task. It will result in the deleti
 
 __Step 1 –__ Create a new job and assign a query using the __ADInventory__ Data Collector.
 
-![Remove Tables task selected on Active Directory Inventory DC Wizard Category page ](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/categoryremovetables.png)
+![Remove Tables task selected on Active Directory Inventory DC Wizard Category page ](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/categoryremovetables.png)
 
 __Step 2 –__ In the Active Directory Inventory DC Wizard on the Category page, select the __Remove Tables__ category task.
 

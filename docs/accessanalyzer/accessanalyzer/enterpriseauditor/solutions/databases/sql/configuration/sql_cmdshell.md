@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 4.Configuration > SQL\_CMDShell > Configur
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/sqljobgroup45.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/sqljobgroup45.png)
 
 The default analysis task is:
 

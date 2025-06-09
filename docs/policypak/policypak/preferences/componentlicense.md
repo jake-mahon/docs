@@ -6,7 +6,7 @@ Another reason we making available only when requested is because PPP calls the 
 Here are the scenarios for which you should request a PPPrefs license:
 
 - You want to use Endpoint Policy Manager over MDM. (This is automatically included when we issue an MDM license)
-- You want to deliver user-side-only Microsoft's GPPreferences items to computers, that is, [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/product_docs/policypak/policypak/video/methods/exporterutility.md)
+- You want to deliver user-side-only Microsoft's GPPreferences items to computers, that is, [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/methods/exporterutility.md)
 - You want to deliver GPPrefs items using SCCM or some other non-GP method.
 
 In those cases, or if you think you have another rason why you need it, open a support ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#Netwrix-Support) and we can get it to you.

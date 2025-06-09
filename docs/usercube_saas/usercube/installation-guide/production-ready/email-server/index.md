@@ -24,7 +24,7 @@ Both the Agent and the Server can get their emails delivered through an __extern
 
 ## Server Emails
 
-The SMTP server used by the Identity Manager Server is configured in the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
+The SMTP server used by the Identity Manager Server is configured in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
 
 Here is an example with an external SMTP server.
 
@@ -48,7 +48,7 @@ You can also input a __UserName__ and __Password__ if the SMTP server requires I
 
 ## Agent Emails
 
-From the agent side, the email settings dwell in the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) file.
+From the agent side, the email settings dwell in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) file.
 
 Here is a classic example that enables Identity Manager to send emails through the _smtp.contoso.com_ server using _[no-reply@contoso.com](mailto:no-reply@contoso.com)_ as the sender address. The Identity Manager Agent will authenticate to the SMTP server with the _contosoIdentity Manager_ login.
 

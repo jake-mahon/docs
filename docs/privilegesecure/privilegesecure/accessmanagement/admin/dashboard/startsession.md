@@ -2,7 +2,7 @@
 
 On the Active Sessions dashboard, when the status Available is shown, the activity session is ready. To begin the activity session, click the Connection icon in the Status column for the applicable session to be automatically connected to the resource.
 
-![Connecto to remote session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/startsession.png)
+![Connecto to remote session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/startsession.png)
 
 Also note the icons to view and copy the password for the session as plain text, if the option is enabled in the access policy Connection Profiles.
 
@@ -25,11 +25,11 @@ If Session Extension is enabled, the session extension option appears for users 
 
 __NOTE:__ For NPS users with the Administrator role, session extension is always enabled.
 
-![Extend Activity Session](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsession.png)
+![Extend Activity Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsession.png)
 
 For RDP, a pop-up message is displayed in the session window.
 
-![extendsessionssh](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.png)
+![extendsessionssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.png)
 
 For SSH the user can extend by typing __Ctrl+X__ when prompted.
 
@@ -41,12 +41,12 @@ ssh: handshake failed: ssh: no common algorithm for key exchange; client offered
 
 Ideally the Cisco device should be upgraded to support secure ciphers. If this is not possible, it is necessary to add additional ciphers to machines with older (insecure) ciphers that need to be managed with SSH. You can “opt-in” by configuring the cipher suites used by the Proxy Service.
 
-See the [Proxy Service Install](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for additional information.
+See the [Proxy Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for additional information.
 
 ## DirectConnect Inline Password Prompt
 
 RDP DirectConnect now supports the prompting of users for password, removing the old requirement to modify group/local policy to force RDP password prompts.
 
-![Direct Connect password prompt](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/directconnect.png)
+![Direct Connect password prompt](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/directconnect.png)
 
 If a password is entered outside of the RDP session, this will be automatically be used and the inline password prompt will not display, unless there is an authentication error.

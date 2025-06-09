@@ -7,7 +7,7 @@ Threat Prevention (formerly StealthINTERCEPT) can be configured to monitor Activ
 You can integrate Netwrix’ products with the Netwrix Active Directory App for QRadar found in the IBM X-Force Exchange.
 
 - Install the Active Directory App for QRadar.
-- Ensure that Threat Prevention has been configured to send events to QRadar. See the [SIEM Tab](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md) topic for additional information.
+- Ensure that Threat Prevention has been configured to send events to QRadar. See the [SIEM Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md) topic for additional information.
 
 ## App Installation in QRadar
 
@@ -23,7 +23,7 @@ __Step 4 –__ When the Validating Install window is finished processing, check 
 
 __Step 5 –__ Close the Extensions Management window, and then select the Active Directory tab in QRadar.
 
-The Active Directory tab will appear in QRadar. It is necessary for the QRadar SEC token to be saved to the Settings interface of the Active Directory App. See the [Settings](/docs/product_docs/threatprevention/threatprevention/siemdashboard/qradar/settings.md) topic for additional information.
+The Active Directory tab will appear in QRadar. It is necessary for the QRadar SEC token to be saved to the Settings interface of the Active Directory App. See the [Settings](/docs/threatprevention/threatprevention/siemdashboard/qradar/settings.md) topic for additional information.
 
 ## Initial Configuration for the Active Directory App for QRadar
 
@@ -31,7 +31,7 @@ Follow the steps to configure QRadar to receive data from Threat Prevention.
 
 _Remember,_  prior to using the Active Directory app for QRadar, Threat Prevention must be configured to send data to QRadar.
 
-__Step 1 –__ Determine the IP address of the QRadar console. If QRadar is hosted on a UNIX machine, run <ifconfig>. If QRadar is hosted on a Windows machine, run <ipconfig>. This IP address is required on the [SIEM Tab](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md), where you configure Threat Prevention to send data to QRadar.
+__Step 1 –__ Determine the IP address of the QRadar console. If QRadar is hosted on a UNIX machine, run <ifconfig>. If QRadar is hosted on a Windows machine, run <ipconfig>. This IP address is required on the [SIEM Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md), where you configure Threat Prevention to send data to QRadar.
 
 __Step 2 –__ Navigate to the Admin tab in the QRadar web interface and click Data Sources.
 

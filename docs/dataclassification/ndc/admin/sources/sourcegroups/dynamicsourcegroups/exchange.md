@@ -2,7 +2,7 @@
 
 This section contains information on how to configure Exchange and Exchange Online dynamic source groups. Toggle between Basic and Advanced configuration settings by clicking the icons in the Settings button in the bottom left corner of the page.
 
-![dynamicsourcegroupex](/static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupex.png)
+![dynamicsourcegroupex](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupex.png)
 
 The following options can be configured for Exchange Dynamic Source Groups:
 

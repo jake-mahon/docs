@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box\_UnusualD
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the Box_UnusualDownloadActivity Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.png)
+![Analysis Task for the Box_UnusualDownloadActivity Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.png)
 
 The following analysis task is selected by default:
 

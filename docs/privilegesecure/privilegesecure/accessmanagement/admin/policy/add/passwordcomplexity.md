@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Policy__ > __Platforms__ > __Password Complexit
 
 __Step 2 –__ In the Password Policy list, click the __Plus__ icon.
 
-![Add Password Complexity](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.png)
+![Add Password Complexity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.png)
 
 __Step 3 –__ Complete the following fields:
 

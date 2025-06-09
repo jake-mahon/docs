@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __8.Domains__ > __AD
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateVulnerabilities Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/certificatevulnerabilitiesanalysis.png)
+![Analysis Tasks for the AD_CertificateVulnerabilities Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/certificatevulnerabilitiesanalysis.png)
 
 The default analysis task is:
 

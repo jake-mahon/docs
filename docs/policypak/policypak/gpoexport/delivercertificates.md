@@ -4,9 +4,9 @@ It is possible to configure __Security Settings__ > __Public Key Policies__ as s
 
 __Step 1 –__ Create a real GPO.
 
-![663_1_q10-img-1](/static/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.jpg)
+![663_1_q10-img-1](/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.jpg)
 
-__Step 2 –__ Export it using PP Settings Manager to an XML. See the [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/product_docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md) topic for additional information.
+__Step 2 –__ Export it using PP Settings Manager to an XML. See the [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md) topic for additional information.
 
 __Step 3 –__ Uplaod it to Endpoint Policy Manager Cloud. This would make the specified cert Trusted Root CA on the target machines.
 
@@ -16,4 +16,4 @@ In summary, anything that's in __GP Security Settings__ > __Public Key Policies_
 
 Inside the exported XML you can see the certificate embedded like this and ready for use.
 
-![663_2_q10-img-2](/static/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.jpg)
+![663_2_q10-img-2](/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.jpg)

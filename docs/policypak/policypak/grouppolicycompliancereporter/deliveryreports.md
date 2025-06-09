@@ -10,15 +10,15 @@ What customers typically want to know is:
 
 To answer question #1: Use Endpoint Policy Manager Group Policy Compliance Reporter. PPGPCR can tell you "Did your Group Policy & Endpoint Policy Manager settings make it there when using Group Policy as the settings delivery mechanism." [https://www.policypak.com/products/policypak-compliance-reporter.html](https://www.policypak.com/products/policypak-compliance-reporter.html)
 
-To answer question #2: Use the free Endpoint Policy Manager Cloud reporting tool. The Endpoint Policy Manager Cloud reporting tool can tell you "Did your Endpoint Policy Manager cloud directives make it there, when using Endpoint Policy Manager Cloud as the settings deliver mechanism." [Endpoint Policy Manager Cloud Reporting Demo](/docs/product_docs/policypak/policypak/video/cloud/reports.md)
+To answer question #2: Use the free Endpoint Policy Manager Cloud reporting tool. The Endpoint Policy Manager Cloud reporting tool can tell you "Did your Endpoint Policy Manager cloud directives make it there, when using Endpoint Policy Manager Cloud as the settings deliver mechanism." [Endpoint Policy Manager Cloud Reporting Demo](/docs/policypak/policypak/video/cloud/reports.md)
 
 To answer question #3: Use your MDM service to tell you if your MSI package made it there. [https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-MSI-App-deployments-in-Microsoft/ba-p/359125](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-MSI-App-deployments-in-Microsoft/ba-p/359125)
 
 So, when MIGHT you need both Endpoint Policy Manager Cloud \*AND\* Endpoint Policy Manager Group Policy Compliance reporter?
 
-When you acquire a Endpoint Policy Manager Cloud license, you can get directives from Endpoint Policy Manager Cloud -or- Group Policy (or both.) [[Can I use both Endpoint Policy ManagerOn Premise mode and Endpoint Policy Manager Cloud simultaneously? Do they clash?](/docs/product_docs/policypak/policypak/tips/onpremisecloud.md)]
+When you acquire a Endpoint Policy Manager Cloud license, you can get directives from Endpoint Policy Manager Cloud -or- Group Policy (or both.) [[Can I use both Endpoint Policy ManagerOn Premise mode and Endpoint Policy Manager Cloud simultaneously? Do they clash?](/docs/policypak/policypak/tips/onpremisecloud.md)]
 
-As such, you might want to deliver some settings via Endpoint Policy Manager Cloud and other settings using Group Policy.[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/product_docs/policypak/policypak/video/cloud/integration/onpremise.md)
+As such, you might want to deliver some settings via Endpoint Policy Manager Cloud and other settings using Group Policy.[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/policypak/policypak/video/cloud/integration/onpremise.md)
 
 In this scenario:
 
@@ -32,4 +32,4 @@ But because you have no on-prem licenses at all, you can use Endpoint Policy Man
 
 In Endpoint Policy Manager Cloud, the on-prem Endpoint Policy Manager Group Policy Compliance Reporter license will look like this… and this is a paid extra for Endpoint Policy Manager Cloud.
 
-![684_1_gpcr-faq-2-img-1](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/684_1_gpcr-faq-2-img-1.jpg)
+![684_1_gpcr-faq-2-img-1](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/684_1_gpcr-faq-2-img-1.jpg)

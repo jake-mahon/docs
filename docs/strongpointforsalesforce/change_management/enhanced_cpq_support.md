@@ -12,6 +12,6 @@ You must have an Enterprise Compliance license to benefit from this feature.
 
 The basic steps for CPQ data tracking:
 
-1. Ensure your org has been [scanned](/docs/product_docs/strongpointforsalesforce/installing_strongpoint/running_scanner.md) at least once.
-2. [Set up data tracking](/docs/product_docs/strongpointforsalesforce/change_management/set_up_data_tracking.md) for each tracked customization.
-3. [Add](/docs/product_docs/strongpointforsalesforce/change_management/set_up_data_tracking.md#Add) the tracked customizations to a policy.
+1. Ensure your org has been [scanned](/docs/strongpointforsalesforce/installing_strongpoint/running_scanner.md) at least once.
+2. [Set up data tracking](/docs/strongpointforsalesforce/change_management/set_up_data_tracking.md) for each tracked customization.
+3. [Add](/docs/strongpointforsalesforce/change_management/set_up_data_tracking.md#Add) the tracked customizations to a policy.

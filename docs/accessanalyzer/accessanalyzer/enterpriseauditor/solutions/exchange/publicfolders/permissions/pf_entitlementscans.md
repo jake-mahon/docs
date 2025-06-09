@@ -2,7 +2,7 @@
 
 The PF\_EntitlementScans job is comprised of data collection that focuses on public folder permissions.
 
-![Collection > PF_EntitlementScans Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_EntitlementScans Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
 The PF\_EntitlementScans job is located in the Collection job group.
 
@@ -10,14 +10,14 @@ The PF\_EntitlementScans job is located in the Collection job group.
 
 The PF\_EntitlementScans job uses the ExchangePS Data Collector.
 
-![Queries for the PF_EntitlementScans Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansquery.png)
+![Queries for the PF_EntitlementScans Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansquery.png)
 
 The following query is included in the PF\_EntitlementScans job:
 
 - Public Folder Permissions – Collects public folder permissions
 
   - By default set to search all public folders. It can be scoped.
-  - See the [Scope the ExchangePS Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#Scope-the-ExchangePS-Data-Collector) topic for additional information
+  - See the [Scope the ExchangePS Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#Scope-the-ExchangePS-Data-Collector) topic for additional information
 
 ## Analysis Tasks for the PF\_EntitlementScans Job
 
@@ -25,7 +25,7 @@ View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the PF_EntitlementScans Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.png)
+![Analysis Tasks for the PF_EntitlementScans Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.png)
 
 The following analysis tasks are selected by default:
 

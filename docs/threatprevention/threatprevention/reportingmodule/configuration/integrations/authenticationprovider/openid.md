@@ -2,13 +2,13 @@
 
 OpenID is an open standard for authentication that allows users to log into multiple websites using a single set of credentials, eliminating the need for multiple usernames and passwords. Unlike traditional authentication methods, OpenID delegates authentication to a third-party provider, allowing users to authenticate with their chosen identity provider.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#Add-an-Authentication-Provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#Add-an-Authentication-Provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
 On the Integrations interface, select an authentication provider under the Authentication Provider node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for an OpenID authneication provider](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.png)
+![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.png)
 
 The details page for an OpenID authentication provider has two tabs:
 
@@ -19,7 +19,7 @@ The details page for an OpenID authentication provider has two tabs:
 
 Configure the following settings for an OpenID provider on the Configuration tab:
 
-![Configuration tab for an OpenID authneication provider](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.png)
+![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.png)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles. When off, the profile will be determined in alphabetical order of the profile name. Toggle off and on as desired.
 - Authority – The OpenId Connect provider authority URI. Out-going redirection requires the correct Authority path to be set. Incorrect settings will generally result in a 404 error.
@@ -34,7 +34,7 @@ Click Save to commit the configuration settings.
 
 The Users/Groups tab displays users and groups that are currently assigned to this authentication profile. To give access to the application to new users, click the New Access button, which opens the Add Console Access window. To assign this authentication provider to existing users, go to System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.png)
+![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.png)
 
 The table displays the following information:
 
@@ -50,4 +50,4 @@ The table displays the following information:
   - Trash icon – Opens a Warning window to confirm the action of deleting the user or group. Removing a user or group removes console access for it.
   - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next login. This option is only available if an MFA authentication type is applied to the user or group.
 
-See the [User Access Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.
+See the [User Access Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.

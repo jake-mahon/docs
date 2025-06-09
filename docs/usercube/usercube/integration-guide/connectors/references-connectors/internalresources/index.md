@@ -9,14 +9,14 @@ This page is about:
 
 See the [
 Manual Ticket
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/manual-ticket/index.md) and [
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/manual-ticket/index.md) and [
 Manual Ticket and CUD Resources
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md) topics for additional information.
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md) topics for additional information.
 
-![Package: Ticket/Usercube](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticket_v603.png)
+![Package: Ticket/Usercube](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticket_v603.png)
 
-![Package: Ticket/Usercube And Create/Update/Delete resources](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticketcud_v603.png)
+![Package: Ticket/Usercube And Create/Update/Delete resources](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticketcud_v603.png)
 
 See the [
 Provision Manually
-](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md) topic for additional information.

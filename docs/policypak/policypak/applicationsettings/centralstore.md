@@ -2,4 +2,4 @@
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) should be integrated with the central store in most cases.To do this, simply create a folder in the SYSVOL directory on any one of your replicating domain controllers within your network called "PolicPak". Then copy the Endpoint Policy Manager dll files that currently reside in your local storage and paste them into that folder.
 
-Here is the how-to video: [Working with Others and using the Central Store](/docs/product_docs/policypak/policypak/video/applicationsettings/centralstorework.md)
+Here is the how-to video: [Working with Others and using the Central Store](/docs/policypak/policypak/video/applicationsettings/centralstorework.md)

@@ -2,7 +2,7 @@
 
 The Activities tab shows the activities associated with the selected access policy.
 
-![Activities Tab for Resource based Policies](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activitiestab.png)
+![Activities Tab for Resource based Policies](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activitiestab.png)
 
 The Activities tab has the following features:
 
@@ -12,14 +12,14 @@ The Activities tab has the following features:
   - All — Displays all activity for users and groups
   - Activity — Displays user activity
   - Activity Group — Displays group activity
-- Add — Opens the Add Activities and Activity Groups window. See the [Add Activities and Activity Groups Window](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addactivitiesandactivitygroups.md#Add-Activities-and-Activity-Groups-Window) topic for additional information.
+- Add — Opens the Add Activities and Activity Groups window. See the [Add Activities and Activity Groups Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addactivitiesandactivitygroups.md#Add-Activities-and-Activity-Groups-Window) topic for additional information.
 - Remove — Removes the selected item from being associated with the policy
 - Refresh — Reload the information displayed
 
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Name — Displays the name of the activity . Click the link to view additional details. See the [Activities Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md#Activities-Page) topic for additional information.
+- Name — Displays the name of the activity . Click the link to view additional details. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md#Activities-Page) topic for additional information.
 - Type — Classification of the activity. Click the link to view additional details.
 - Description — Description of the policy
 

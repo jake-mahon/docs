@@ -8,7 +8,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_DuplicateGroups__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_DuplicateGroups Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.png)
+![Analysis Tasks for the UX_DuplicateGroups Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.png)
 
 The default analysis tasks are:
 

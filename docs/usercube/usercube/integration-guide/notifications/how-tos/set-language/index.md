@@ -14,7 +14,7 @@ Set the first language for the whole application by proceeding as follows:
 
 1. In the XML configuration, create a ```Language``` with ```IndicatorNumber``` set to ```1```. See the [
    Language
-   ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.md) topic for additional information.
+   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.md) topic for additional information.
 
    > For example, to set English as the first language:
    >
@@ -31,7 +31,7 @@ Set the language explicitly for server-side-task notifications by proceeding as 
 
 1. In the XML configuration, configure ```MailSetting``` with a ```LanguageCode```See the [
    Mail Setting
-   ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md) topic for additional information.
+   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md) topic for additional information.
 
    > For example, to set the language to English:
    >

@@ -15,4 +15,4 @@ Then specify the following action parameters
 | __Field Name__ | Provide the internal name or ID of the document property field (metadata) that should be updated. | This can be, for example, DocType, URL, Last modified date, etc. |
 | __Value__ | Select where the new field value should be obtained from. | You can use static or crawled value, similarly to SharePoint (as described in the Update Field section). |
 
-[![action_advanced_cs_update_field_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_advanced_cs_update_field_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/workflows/action_advanced_cs_update_field.png)
+[![action_advanced_cs_update_field_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_advanced_cs_update_field_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/action_advanced_cs_update_field.png)

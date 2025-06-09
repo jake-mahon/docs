@@ -4,9 +4,9 @@ This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comm
 
 This page is about [
 CSV
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/csv/index.md).
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/csv/index.md).
 
-![Package: File/CSV](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.png)
+![Package: File/CSV](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.png)
 
 ## Overview
 
@@ -22,9 +22,9 @@ This export copies the information found in a CSV file and transforms it into a 
 
 ### Configuration
 
-This process is configured through a [](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)[
+This process is configured through a [](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)[
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -84,7 +84,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
+This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 For example, when exporting a connection named ```HRCountries```, the output file will be named ```HRCountries.csv```.
 
@@ -104,12 +104,12 @@ This connector does not reset passwords.
 
 ### Credential protection
 
-This connector has no credential attributes, and therefore does not use [](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
+This connector has no credential attributes, and therefore does not use [](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
 
 Still, data protection can be ensured through an [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.

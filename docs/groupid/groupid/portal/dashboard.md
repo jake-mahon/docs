@@ -4,7 +4,7 @@ The interface of the portal is designed in a manner that you can quickly access 
 
 On logging into Directory Manager portal, you land on the dashboard.
 
-![dashboard](/static/img/product_docs/groupid/groupid/portal/dashboard.jpg)
+![dashboard](/img/product_docs/groupid/groupid/portal/dashboard.jpg)
 
 Use the following to navigate within the application:
 
@@ -15,7 +15,7 @@ Use the following to navigate within the application:
 
 ## Quick Search
 
-Look on the top of the page for __Search__. This element appears on every page. Use it to locate and display information for objects. See the [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) topic.
+Look on the top of the page for __Search__. This element appears on every page. Use it to locate and display information for objects. See the [Directory Search](/docs/groupid/groupid/portal/search/search.md) topic.
 
 - Use Quick Search to locate an object by its name.
 - Use Advanced Search to search an object using a range of attributes.
@@ -29,7 +29,7 @@ The top right corner of the application displays:
 | Background tasks icon | View the status of Smart Group update jobs.  A Smart Group Update job updates the membership of a Smart Group on the basis of a query. |
 | Portal Settings | Personalize the portal |
 | Help icon | Launch the portal help |
-| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the following:   - Directory Manager version you’re using - The security role assigned to you in Directory Manager.   The menu also displays the following options:   - See full profile. See the [Object properties - General tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/general.md) topic. - My Applications. See the [Access your Applications](/docs/product_docs/groupid/groupid/admincenter/general/accessapplications.md) topic. - Enroll your identity store account. See the [Enroll your Identity Store Account](/docs/product_docs/groupid/groupid/admincenter/enroll.md) topic. - Change Password. See the [Change your Password](/docs/product_docs/groupid/groupid/admincenter/general/changepassword.md) topic. - Switch account. See the [Switch Accounts](/docs/product_docs/groupid/groupid/admincenter/general/switchaccount.md) topic. - Sign Out |
+| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the following:   - Directory Manager version you’re using - The security role assigned to you in Directory Manager.   The menu also displays the following options:   - See full profile. See the [Object properties - General tab](/docs/groupid/groupid/portal/user/properties/activedirectory/general.md) topic. - My Applications. See the [Access your Applications](/docs/groupid/groupid/admincenter/general/accessapplications.md) topic. - Enroll your identity store account. See the [Enroll your Identity Store Account](/docs/groupid/groupid/admincenter/enroll.md) topic. - Change Password. See the [Change your Password](/docs/groupid/groupid/admincenter/general/changepassword.md) topic. - Switch account. See the [Switch Accounts](/docs/groupid/groupid/admincenter/general/switchaccount.md) topic. - Sign Out |
 
 ## Menu pane
 

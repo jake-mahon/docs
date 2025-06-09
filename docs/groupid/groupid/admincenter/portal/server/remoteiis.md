@@ -6,7 +6,7 @@ What do you want to do?
 
 ## Start or Stop an Instance
 
-To start or stop a deployment instance, see the [Start or Stop an Instance](/docs/product_docs/groupid/groupid/admincenter/portal/server/nativeiis.md#Start-or-Stop-an-Instance) topic.
+To start or stop a deployment instance, see the [Start or Stop an Instance](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md#Start-or-Stop-an-Instance) topic.
 
 ## View the Deployment Settings for an Instance
 
@@ -27,13 +27,13 @@ To view deployment settings:
 2. Click the ellipsis button for a portal and select __Settings__.
 3. Click __Deployments__ under __Server Settings__; the __Deployment Settings__ page is displayed. Click the __Remote IIS__ tab.
 4. On the __Remote IIS__ tab, the __Select Application Deployment__ drop-down list displays all portal instances deployed in remote IIS. Select an instance to view its settings.
-5. On the __Deployment Configurations__ tab, you can view the API URL, access token, and credentials. You can also view the name of the portal application in remote IIS, the site where it is hosted, the URL to launch the instance, and the Data service and Security service the instance uses. Refer to steps 7-12 in the [Create a Portal in Remote IIS](/docs/product_docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic for
+5. On the __Deployment Configurations__ tab, you can view the API URL, access token, and credentials. You can also view the name of the portal application in remote IIS, the site where it is hosted, the URL to launch the instance, and the Data service and Security service the instance uses. Refer to steps 7-12 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic for
    a description of these fields.
 
 ## Set File Logging and Windows Logging for an Instance
 
-To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/log.md) topic.
+To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](/docs/groupid/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
-To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/docs/product_docs/groupid/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.
+To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/docs/groupid/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.

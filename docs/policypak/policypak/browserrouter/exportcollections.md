@@ -4,11 +4,11 @@ Advanced Concepts explains how to use the Endpoint Policy Manager Exporter to wr
 
 To export a policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud, follow thee steps:
 
-![about_policypak_browser_router_47](/static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_47.png)
+![about_policypak_browser_router_47](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_47.png)
 
 __Step 1 –__ Right-click the collection or the policy and select __Export to XML__. This enables you to save an XML file for later use.
 
-![about_policypak_browser_router_48](/static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_48.png)
+![about_policypak_browser_router_48](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_48.png)
 
 Choose a policy and select Export to XML.
 

@@ -4,7 +4,7 @@ Use the Options page to edit the thread settings.
 
 __CAUTION:__ Increasing the thread count increases the processing load on the servers.
 
-![Public Folder Action Module Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Public Folder Action Module Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 Use the following options to configure the operations:
 

@@ -2,17 +2,17 @@
 
 The Microsoft Entra ID Object details pages provide details on Microsoft Entra ID objects including users, groups, applications, devices and roles. These pages can be used to discover more information about the various resources related to threats and events in Threat Manager. Pages include:
 
-- [User Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduser.md)
+- [User Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/entraiduser.md)
 
-- [Group Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/entraidgroup.md)
+- [Group Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/entraidgroup.md)
 
-- [Role Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/entraidrole.md)
+- [Role Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/entraidrole.md)
 
-- [Application Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/entraidapplication.md)
+- [Application Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/entraidapplication.md)
 
-![threatlist](/static/img/product_docs/threatmanager/threatmanager/administration/threatlist.png)
+![threatlist](/img/product_docs/threatmanager/threatmanager/administration/threatlist.png)
 
-The [Threats Page](/docs/product_docs/threatmanager/threatmanager/administration/threats.md) contains a threats list with hyperlinks which can be clicked to access these pages.
+The [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md) contains a threats list with hyperlinks which can be clicked to access these pages.
 
 Common Details Page Elements
 
@@ -22,7 +22,7 @@ The User Details, Group Details, Application details and Role details pages cont
 
 The profile card displays information about the selected user, application, group, or role.
 
-![Entra ID User Profile Card](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.png)
+![Entra ID User Profile Card](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.png)
 
 - Name
 - UPN
@@ -38,7 +38,7 @@ The profile card displays information about the selected user, application, grou
 
 Depending on the selected user, group, application or role, the following tabs may be displayed:
 
-![Tabs](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.png)
+![Tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.png)
 
 - Threats Tab – Displays a chart with threats detected for a Microsoft Entra ID object
 - Activity Summary Tab – Depending on the selected object, the page may display the following information:
@@ -63,10 +63,10 @@ Add an Existing Tag
 
 Follow the steps to add a tag to a user, group, or computer
 
-![Existing Tags List](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.png)
+![Existing Tags List](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.png)
 
 __Step 1 –__ Click the Add Tag button.
 
 __Step 2 –__ Click the desired tag to add from the list of existing tags.
 
-The selected tag is added to the user, group, application or role. See the [Tag Management Page](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tagmanagement.md) topic for additional information.
+The selected tag is added to the user, group, application or role. See the [Tag Management Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/tagmanagement.md) topic for additional information.

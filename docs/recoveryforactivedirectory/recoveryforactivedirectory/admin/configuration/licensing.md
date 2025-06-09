@@ -4,7 +4,7 @@ The Licensing page provides an overview of the organization's license status and
 
 Click __Configuration__ in the left pane. Then click the __Licensing tab__ on the Configuration page to open the Licensing page.
 
-![Licensing page](/static/img/product_docs/dataclassification/ndc/configuration/licensing.png)
+![Licensing page](/img/product_docs/dataclassification/ndc/configuration/licensing.png)
 
 You can view whether the license is valid and when it will expire.
 

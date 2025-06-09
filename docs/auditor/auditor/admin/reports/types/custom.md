@@ -8,7 +8,7 @@ For your convenience, you can create additional folders for your custom reports.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-[![customreport_thumb_0_0](/static/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/search/customreport.png)
+[![customreport_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.png)](/docs/auditor/resources/images/auditor/search/customreport.png)
 
 Review the following for additional information:
 
@@ -22,7 +22,7 @@ Review the following for additional information:
 1. On the main Netwrix Auditor page, navigate to Search.
 2. Apply filters and click Search.
 
-   [View and Search Collected Data](/docs/product_docs/auditor/auditor/admin/search/overview.md) how to apply filters when searching audit data.
+   [View and Search Collected Data](/docs/auditor/auditor/admin/search/overview.md) how to apply filters when searching audit data.
 3. Navigate to Tools and select Save as report.
 4. In the Specify a name for your custom report dialog, specify a name. Make sure to specify a unique name.
 
@@ -33,7 +33,7 @@ Review the following for additional information:
 3. Click View to open search.
 4. Modify filters and click Search.
 
-   [View and Search Collected Data](/docs/product_docs/auditor/auditor/admin/search/overview.md) how to apply filters when searching audit data.
+   [View and Search Collected Data](/docs/auditor/auditor/admin/search/overview.md) how to apply filters when searching audit data.
 5. Navigate to Tools and select Save as report.
 6. In the Specify a name for your custom report dialog, specify a name. Netwrix Auditor automatically offers a previously used name so that this custom report will be overwritten. If you want to save both searches, specify a unique name for a modified search.
 

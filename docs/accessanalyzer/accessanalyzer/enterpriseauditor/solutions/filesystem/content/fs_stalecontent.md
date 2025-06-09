@@ -2,7 +2,7 @@
 
 The FS\_StaleContent job is designed to report on stale content information from targeted file servers.
 
-![Stale > FS_StaleContent Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/stalejobstree.png)
+![Stale > FS_StaleContent Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/stalejobstree.png)
 
 The FS\_StaleContent job is located in the Stale job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_StaleContent Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/stalecontentanalysis.png)
+![Analysis Tasks for the FS_StaleContent Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/content/stalecontentanalysis.png)
 
 The following analysis tasks are selected by default:
 

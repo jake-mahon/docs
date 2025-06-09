@@ -2,7 +2,7 @@
 
 Use the Computers Details page to select computer attributes to change.
 
-![Active Directory Action Module Wizard Computer Details page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.png)
+![Active Directory Action Module Wizard Computer Details page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.png)
 
 Highlight the attribute to edit:
 
@@ -20,7 +20,7 @@ The Custom Attributes Import Wizard is used to import a list of custom attribute
 
 __Step 1 –__ On the Computer Details page of the Active Directory Action Module Wizard, click __Import__. The Custom Attribute Import Wizard opens.
 
-![Custom Attributes Import Wizard Credentials page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Custom Attributes Import Wizard Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
 
 __Step 2 –__ On the Credentials page, identify a domain either by entering one manually or selecting one from the __Domain Name__ drop-down menu which displays a list of domains trusted by the one in which the Access Analyzer Console server resides. Then set the credentials for reading the attributes list from the domain:
 
@@ -29,11 +29,11 @@ __Step 2 –__ On the Credentials page, identify a domain either by entering one
 
 __Step 3 –__ Click __Next__.
 
-![Custom Attributes Import Wizard Attributes page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/attributescomputer.png)
+![Custom Attributes Import Wizard Attributes page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/attributescomputer.png)
 
 __Step 4 –__ The wizard populates available attributes from the domain specified on the Attributes page. Expand the desired object class and select the checkboxes for the custom attributes to be imported. Then click __Next__.
 
-![Custom Attributes Import Wizard Completion page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/completionpage.png)
+![Custom Attributes Import Wizard Completion page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/completionpage.png)
 
 __Step 5 –__ On the Completion page, click __Finish__.
 

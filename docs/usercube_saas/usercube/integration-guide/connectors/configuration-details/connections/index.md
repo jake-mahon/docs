@@ -6,33 +6,33 @@ This page gathers useful information concerning the possible uses of connections
 
 A connector needs at least one [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be declared both in the XML configuration and in the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file to be used. The connection settings must be set in appsettings.agent.json > Connections > __connectionIdentifier__, where __connectionIdentifier__ is the identifier specified for the connection in the XML configuration.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be declared both in the XML configuration and in the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file to be used. The connection settings must be set in appsettings.agent.json > Connections > __connectionIdentifier__, where __connectionIdentifier__ is the identifier specified for the connection in the XML configuration.
 
 See the [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
 The information stored in the connection depends on the export and/or fulfill technologies used by the connection's package.
 
-See the [References: Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/index.md) topic for additional information.
+See the [References: Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/index.md) topic for additional information.
 
 ## Connection Tables
 
 A [
 Connection Table
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md) represents the potential output of the connection's [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md) represents the potential output of the connection's [
 Export Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md), when the connection's package allows export. The export process generates CSV files (our connection tables) whose names start with the connection's identifier. The files' suffixes depend on the connector. See the [References: Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md), when the connection's package allows export. The export process generates CSV files (our connection tables) whose names start with the connection's identifier. The files' suffixes depend on the connector. See the [References: Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/index.md) topic for additional information.
 
 The name of these files are used to specify the connection tables of the [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) in order to link the connectors' properties to the source files and columns from the managed systems.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) in order to link the connectors' properties to the source files and columns from the managed systems.
 
 A connection table is used in the definition of an entity type as ```Source```, while the available columns of the selected table are used for the mapping as ```Source Columns```.
 
-![connectiontables_ui_v60](/static/img/product_docs/usercube/usercube/integration-guide/connectors/configuration-details/connections/connectiontables_ui_v60.png)
+![connectiontables_ui_v60](/img/product_docs/usercube/usercube/integration-guide/connectors/configuration-details/connections/connectiontables_ui_v60.png)
 
 ## Refresh Schema
 
@@ -43,18 +43,18 @@ Identity Manager refreshes a connection's schema:
 - after the connection creation;
 - when clicking on __Refresh Schema__ on the connection's page: only the schema of the current connection is refreshed;
 
-  ![Refresh Schema of One Connection](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshschema_v522.png)
+  ![Refresh Schema of One Connection](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshschema_v522.png)
 - when clicking on __Refresh all schemas__ on the connector's page: all schemas of the connector are refreshed.
 
-  ![Refresh all Schemas](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshall_v602.png)
+  ![Refresh all Schemas](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshall_v602.png)
 
 In the __Connections__ frame, either the last successful schema update is indicated or an icon is shown if the refresh schema failed.
 
-![Failed Refresh Schemas](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_failedindicator_v602.png)
+![Failed Refresh Schemas](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_failedindicator_v602.png)
 
 Some packages don't generate a schema. For these packages, the __Refresh Schema__ button isn't displayed on the connection's page. On the connector's page, a connection without schema is indicated by the sentence "There is no schema for this connection".
 
-![No Schema](/static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_noschema_v522.png)
+![No Schema](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_noschema_v522.png)
 
 The connections' schemas must be refreshed before editing the connector's entity types via the UI, whether the connections were created via the UI or XML configuration. Otherwise, there will be no connection table available in the ```Source``` dropdown, so you will not be able to save anything.
 
@@ -76,4 +76,4 @@ There are several types of secured options: a simple field or multiple key-value
 
 See the [
 Configure Secured Options
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/how-tos/configure-secured-options/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/configure-secured-options/index.md) topic for additional information.

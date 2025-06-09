@@ -14,7 +14,7 @@ You need to resolve or understand your licensing issue.
 
 __NOTE:__ Please read this KB all the way through since the pop-up expression has changed in more recent versions of PolicyPak CSE.
 
-![895_1_image001](/static/img/product_docs/policypak/policypak/troubleshooting/license/895_1_image001.png)
+![895_1_image001](/img/product_docs/policypak/policypak/troubleshooting/license/895_1_image001.png)
 
 __NOTE:__ Endpoint Policy Manager plans to update this pop-up in future CSE versions to express what the license concern is.
 
@@ -26,8 +26,8 @@ Again, this pop-up could ALSO occur also if you transition from one type of lice
 
 Typical resolution is to get an updated license file from Endpoint Policy Manager Support or Renewals which covers the components you wish to cover and timeframe as per your agreement. Then implement the license file.
 
-- Here is how to implement a new license: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/product_docs/policypak/policypak/video/license/installuniversal.md)
-- Here is how to troubleshoot a new license: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/product_docs/policypak/policypak/troubleshooting/license/components.md)
+- Here is how to implement a new license: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
+- Here is how to troubleshoot a new license: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md)
 
 ## How to change Pop-Up Behavior (previous CSE versions before 24.4)
 
@@ -41,7 +41,7 @@ The ADMX setting which applies to CSE versions BEFORE 24.4 is named "Explicitly 
 
 __NOTE:__ This will immediately stop Unlicensed components from operating in CSE versions 24.4 and earlier, thus forgoing the grace period for unlicensed components. For versions before 24.4 of the CSE, there is NO METHOD where the GRACE PERIOD will continue WHILE turning off the Grace Period NOTIFICATION.
 
-![895_2_image002_950x550](/static/img/product_docs/policypak/policypak/troubleshooting/license/895_2_image002_950x550.png)
+![895_2_image002_950x550](/img/product_docs/policypak/policypak/troubleshooting/license/895_2_image002_950x550.png)
 
 ## How to change Pop-Up Behavior (modern CSE versions equal or later to 24.4)
 
@@ -58,7 +58,7 @@ Therefore the new implementation is:
 
 To configure the ADMX setting to ENABLE the broadcast of a pop-up, locate the “Show licensing warning pop-up when any/all Endpoint Policy Manager license transitions to expired” like what’s seen here.
 
-![1250_3_68f28861b1bed10b6c283416f9581bae](/static/img/product_docs/policypak/policypak/troubleshooting/license/1250_3_68f28861b1bed10b6c283416f9581bae.png)
+![1250_3_68f28861b1bed10b6c283416f9581bae](/img/product_docs/policypak/policypak/troubleshooting/license/1250_3_68f28861b1bed10b6c283416f9581bae.png)
 
 Then, once the policy setting is configured to Enabled (meaning that the Pop-Up is now possible to be shown), after that, your options are:
 
@@ -89,16 +89,16 @@ The event IDs to expect on end-point systems and specific examples can be seen h
 
 Event 230: Licenses found on the machine are all valid.
 
-![1250_4_fbcfc42bce254fe8c965ed49c6fcac3d](/static/img/product_docs/policypak/policypak/troubleshooting/license/1250_4_fbcfc42bce254fe8c965ed49c6fcac3d.png)
+![1250_4_fbcfc42bce254fe8c965ed49c6fcac3d](/img/product_docs/policypak/policypak/troubleshooting/license/1250_4_fbcfc42bce254fe8c965ed49c6fcac3d.png)
 
 Event 231: Licenses found on the machine are not all valid.
 
-![1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4](/static/img/product_docs/policypak/policypak/troubleshooting/license/1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4.png)
+![1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4](/img/product_docs/policypak/policypak/troubleshooting/license/1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4.png)
 
 Event 232: There is No PolicyPak license found on this machine
 
-![1250_6_4ac0430c173949359e8fe2fa8fff569d](/static/img/product_docs/policypak/policypak/troubleshooting/license/1250_6_4ac0430c173949359e8fe2fa8fff569d.png)
+![1250_6_4ac0430c173949359e8fe2fa8fff569d](/img/product_docs/policypak/policypak/troubleshooting/license/1250_6_4ac0430c173949359e8fe2fa8fff569d.png)
 
 Event 233: License has become unavailable or has become unlicensed (only available in in modern CSE versions equal or later to 24.4)
 
-![1250_7_e85476dc329c7942430a995eb0548beb](/static/img/product_docs/policypak/policypak/troubleshooting/license/1250_7_e85476dc329c7942430a995eb0548beb.png)
+![1250_7_e85476dc329c7942430a995eb0548beb](/img/product_docs/policypak/policypak/troubleshooting/license/1250_7_e85476dc329c7942430a995eb0548beb.png)

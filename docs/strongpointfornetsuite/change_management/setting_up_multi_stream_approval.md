@@ -16,10 +16,10 @@ This process enables an administrator to select approvers other than the IT Appr
 3. __Custom Form__ and __Step Type__ should be set to __Process__.
 4. Ctrl-Click to select one or more __Additional Approvers__. NOTE: Select the additional approvers in the order you want them to approve.
 
-   ![multi_stream_new_process](/static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process.png)
+   ![multi_stream_new_process](/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process.png)
 5. Click __Save__. Note the approvers are listed in the order selected, not the order they appeared in the list. If you need to reorder the approvers, __Edit__ the record, de-select and re-select the additional approvers.
 
-   ![multi_stream_new_process_save](/static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process_save.png)
+   ![multi_stream_new_process_save](/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process_save.png)
 
 ### Create a new Policy Record
 
@@ -30,17 +30,17 @@ This process enables an administrator to select approvers other than the IT Appr
 5. Make sure __Require Affected Process Approval__ is selected on the __Process Policies__ tab.
 6. Click __Save__. Leave the new policy open and continue with the next steps.
 
-   ![multi_stream_new_policy](/static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_policy.png)
+   ![multi_stream_new_policy](/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_policy.png)
 
 ### Attach the new Process Record
 
 1. Set __View__ to __Strongpoint View__ on the __Process Policies__ tab.
 2. Select the __Process__ you created. For this example, it is __Provision Multi-Stream Approval__.
 
-   ![multi_stream_attach](/static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach.png)
+   ![multi_stream_attach](/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach.png)
 3. Click __Attach__. The process is now shown on the __Process Policies__ tab.
 
-   ![multi_stream_attach_result](/static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach_result.png)
+   ![multi_stream_attach_result](/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach_result.png)
 
 ### Create a Change Request
 

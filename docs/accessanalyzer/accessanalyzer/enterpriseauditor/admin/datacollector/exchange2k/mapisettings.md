@@ -8,7 +8,7 @@ The MAPI Settings page is used to enter configurations to connect to target Exch
 - OrphanedMailboxes
 - OrphanedPublicFolders
 
-![Exchange 2K+ Data Collector Wizard MAPI Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.png)
+![Exchange 2K+ Data Collector Wizard MAPI Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.png)
 
 Configure the Connection Setting by selecting from the following:
 

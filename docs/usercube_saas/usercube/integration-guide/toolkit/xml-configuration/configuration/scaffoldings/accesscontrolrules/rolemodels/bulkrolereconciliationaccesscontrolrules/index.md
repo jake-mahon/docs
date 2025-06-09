@@ -6,7 +6,7 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Reconciliate Roles Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md): Generates the permissions to access the role reconciliation pages for a given entity type and profile.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md): Generates the permissions to access the role reconciliation pages for a given entity type and profile.
 
 ## Properties
 

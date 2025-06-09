@@ -1,10 +1,10 @@
 # FS\_MigrateSchema Job
 
-The FS\_Migrate\_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
+The FS\_Migrate\_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard.
 
-![FS_MigrateSchema job in the Jobs tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![FS_MigrateSchema job in the Jobs tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
 Runtime Details:
 
@@ -23,7 +23,7 @@ Navigate to the __Jobs__ > __FS\_MigrateSchema__ > __Configure__ node and select
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Default Analysis tasks for the job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
 
 The default analysis tasks are:
 

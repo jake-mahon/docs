@@ -18,6 +18,6 @@ You can enable/disable change log, junction, and report creation for a sandbox f
 
 From the Netwrix Dashboard: click __Configuration and Stats__ in the __Resources__ section, or open __Settings__ > __Configuration and Stats__.
 
-![Enabling/Disabling Change Log Creation for Sandboxes](/static/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_enable_change_log.png)
+![Enabling/Disabling Change Log Creation for Sandboxes](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_enable_change_log.png)
 
-The initial setting is selected on the [Scanner](/docs/product_docs/strongpointforsalesforce/installing_strongpoint/setting_up_initial_scan.md) page of the __Install Wizard__ when installing the sandbox.
+The initial setting is selected on the [Scanner](/docs/strongpointforsalesforce/installing_strongpoint/setting_up_initial_scan.md) page of the __Install Wizard__ when installing the sandbox.

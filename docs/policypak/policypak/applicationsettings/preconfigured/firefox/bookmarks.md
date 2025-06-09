@@ -7,19 +7,19 @@ Firefox has two types of bookmarks:
 
 In Figure 3, you can see the bookmarks in the menu system.
 
-![bookmarks](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks.png)
+![bookmarks](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks.png)
 
 Figure 3. Bookmarks in the menu system.
 
 Bookmarks may also be stored in the toolbar by selecting "Bookmarks Toolbar," as seen in Figure 4. When users do this, they can see bookmarks on the toolbar.
 
-![bookmarks_1](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks_1.png)
+![bookmarks_1](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks_1.png)
 
 Figure 4. Bookmarks in the toolbar.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) can manage bookmarks within Firefox, as shown in Figure 5.
 
-![bookmarks_2](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks_2.png)
+![bookmarks_2](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/bookmarks_2.png)
 
 Figure 5. Endpoint Policy Manager managing permissions within Firefox.
 

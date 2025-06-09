@@ -2,10 +2,10 @@
 
 | Method | Endpoint | POST Data | Description |
 | --- | --- | --- | --- |
-| GET | /netwrix/api/v1/activity\_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/docs/product_docs/auditor/auditor/api/retrieveactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/enum | [Continuation Mark](/docs/product_docs/auditor/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/docs/product_docs/auditor/auditor/api/postdata/continuationmark.md) |
-| POST | /netwrix/api/v1/activity\_records/search | [Search Parameters](/docs/product_docs/auditor/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/docs/product_docs/auditor/auditor/api/searchactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/ | [Activity Records](/docs/product_docs/auditor/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/docs/product_docs/auditor/auditor/api/writeactivityrecords.md) |
+| GET | /netwrix/api/v1/activity\_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/docs/auditor/auditor/api/retrieveactivityrecords.md) |
+| POST | /netwrix/api/v1/activity\_records/enum | [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) |
+| POST | /netwrix/api/v1/activity\_records/search | [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/docs/auditor/auditor/api/searchactivityrecords.md) |
+| POST | /netwrix/api/v1/activity\_records/ | [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/docs/auditor/auditor/api/writeactivityrecords.md) |
 
 ### Authentication
 
@@ -20,7 +20,7 @@ Authentication is required for all endpoints. The following authentication metho
 
 ### Account Permissions
 
-Netwrix Auditor restricts control to its configuration and data collected by the product. Role-based access system ensures that only relevant employees and services can access the exact amount of data they need. To be able to retrieve activity records or supply data to the Audit Database, an account must be assigned a role in the product. [Role-Based Access and Delegation](/docs/product_docs/auditor/auditor/admin/monitoringplans/delegation.md)
+Netwrix Auditor restricts control to its configuration and data collected by the product. Role-based access system ensures that only relevant employees and services can access the exact amount of data they need. To be able to retrieve activity records or supply data to the Audit Database, an account must be assigned a role in the product. [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md)
 
 | To... | Required role |
 | --- | --- |

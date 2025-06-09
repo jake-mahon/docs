@@ -2,13 +2,13 @@
 
 Endpoint Policy Manager Feature Manager for Windows places events in the Endpoint Policy Manager log (within Applications and Services log), as shown in Figure 47. All events will have the Endpoint Policy Manager Feature Manager for Windows client source type. In Figure 47, you can see an example of a feature attempting to be installed. This is Event ID 600.
 
-![troubleshooting_5](/static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.png)
+![troubleshooting_5](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.png)
 
 Figure 47. Endpoint Policy Manager Feature Manager for Windows events can be found in the Endpoint Policy Manager node within Application and Services.
 
 Then, after it is successfully installed, it shows Event ID 602, as shown in Figure 48.
 
-![troubleshooting_6](/static/img/product_docs/policypak/policypak/troubleshooting/feature/troubleshooting_6.png)
+![troubleshooting_6](/img/product_docs/policypak/policypak/troubleshooting/feature/troubleshooting_6.png)
 
 Figure 48. Logged events in Endpoint Policy Manager event log for Endpoint Policy Manager Feature Manager for Windows.
 

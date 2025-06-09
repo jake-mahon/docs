@@ -4,7 +4,7 @@ This connector exports sites, folders, groups and permissions from a [SharePoint
 
 This page is about Storage/SharePoint.
 
-![Package: Storage/SharePoint](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.png)
+![Package: Storage/SharePoint](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.png)
 
 ## Overview
 
@@ -86,7 +86,7 @@ When needing to retrieve all of user account information, then go through comple
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
+This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder the following CSV files:
 
 ```<connectionIdentifier>_Entity.csv```, with the following columns:
 
@@ -230,8 +230,8 @@ Data protection can be ensured through:
 
 See the [
 RSA Encryption
-](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
-](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
+](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
+](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

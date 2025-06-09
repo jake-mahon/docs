@@ -16,7 +16,7 @@ Name of the folder to save the report.
 
 <_CommonParameters_>
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](/docs/product_docs/password_policy_enforcer/administration/https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](/docs/password_policy_enforcer/administration/https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
@@ -24,4 +24,4 @@ PS C:\> Get-PPEConfigReport -Folder C:\PPE
 
 The report is created: "C:\PPE\report.html".
 
-![Creates the PPE Configuration report](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletgetppeconfigreport.png)
+![Creates the PPE Configuration report](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletgetppeconfigreport.png)

@@ -6,11 +6,11 @@ The EX\_Perms job collects information about permissions applied to the folders 
 
 The EX\_Perms job uses the EWSMailbox Data Collector.
 
-![Queries for the EX_Perms Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.png)
+![Queries for the EX_Perms Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.png)
 
 The following query is included in the EX\_Perms job.
 
 - Exchange Mailbox Permissions – Returns Exchange mailbox folder permissions
 
   - By default set to search all mailboxes. It can be scoped.
-  - See the [EWSMailbox Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md) topic for additional information
+  - See the [EWSMailbox Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md) topic for additional information

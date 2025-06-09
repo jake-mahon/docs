@@ -2,7 +2,7 @@
 
 The Edit Query page provides a screen to edit the query to execute. Users can import PowerShell script as well as use an input table to create and edit the PowerShell script.
 
-![PowerShell Data Collector Wizard Edit Query page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editquery.png)
+![PowerShell Data Collector Wizard Edit Query page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editquery.png)
 
 The options on the Edit Query page are:
 
@@ -15,7 +15,7 @@ The options on the Edit Query page are:
 
 Add, edit, and delete parameters for the PowerShell data collector using the Parameters window.
 
-![Parameters Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryparameters.png)
+![Parameters Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryparameters.png)
 
 The options in the Parameters Window are:
 
@@ -29,7 +29,7 @@ __NOTE:__ Only user created parameters can be edited or deleted. Pre-configured 
 
 Use the Add/Edit Variable Window to add and edit parameters for the PowerShell Data Collector.
 
-![Add/Edit Variable Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryvariable.png)
+![Add/Edit Variable Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryvariable.png)
 
 The options in the Add/Edit Variable window are:
 
@@ -49,7 +49,7 @@ The options in the Add/Edit Variable window are:
 
 When the Use table input for PowerShell script option is selected on the Edit Query page, additional options display to define the source for input data.
 
-![Edit Query page input options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryinput.png)
+![Edit Query page input options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryinput.png)
 
 The input options are:
 
@@ -60,6 +60,6 @@ The input options are:
 - Columns – Displays the columns in the selected input table. If applicable, select the checkbox to include the column in the input.
 - Input Data – Preview how the input data will look in the Input Data tab
 
-![Text Box and the Columns tab populated with information](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryinputtable.png)
+![Text Box and the Columns tab populated with information](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editqueryinputtable.png)
 
 Selecting an input table in the __Please select name__ dropdown populates the Text Box and the Columns tab with information.

@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Netwrix Integrations__ in the navigation pane to view a list of the Netwrix products already integrated with the Netwrix Threat Manager Reporting Module, if any.
 
-![Integrations interface on the Netwrix Integration page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
 
 Integrations with other Netwrix products enables you to run Investigations on the event data within the connected database. When you add a Netwrixintegration, the selection for Default Data Source identifies which database is the default source for Investigation reports. You can change it by selecting a different database from the drop-down menu. The table provides the following information:
 
@@ -20,7 +20,7 @@ To view integration details or make modifications, select an integration from th
 
 ## Add a Netwrix Integration
 
-__NOTE:__ Prior to adding a Netwrix Integration, you must first configure a Credential Profile with credentials properly provisioned for connecting to the database. See the [Reporting Module Server Requirements](/docs/product_docs/threatprevention/threatprevention/requirements/reportingserver.md) topic for the permissions. See the [Credential Profile Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md) topic for additional information on creating a profile.
+__NOTE:__ Prior to adding a Netwrix Integration, you must first configure a Credential Profile with credentials properly provisioned for connecting to the database. See the [Reporting Module Server Requirements](/docs/threatprevention/threatprevention/requirements/reportingserver.md) topic for the permissions. See the [Credential Profile Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md) topic for additional information on creating a profile.
 
 Follow the steps to add a Netwrix product for integration.
 
@@ -28,7 +28,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integrations window with the Netwrix Integration type selected](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewintegration.png)
+![Add New Integrations window with the Netwrix Integration type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewintegration.png)
 
 __Step 3 –__ In the Type drop-down list, select Netwrix Integration.
 
@@ -67,7 +67,7 @@ __Step 8 –__ On the Integrations interface, click __Netwrix Integrations__ in 
 
 __Step 9 –__ Select a product from the table or the navigation pane to view the integration details.
 
-![Integrations interface on the Netwrix Integrations details page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.png)
+![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.png)
 
 The following information is displayed:
 
@@ -82,7 +82,7 @@ The following information is displayed:
 
 The Configuration tab displays the settings entered for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
 
 The tab provides the following settings:
 
@@ -101,7 +101,7 @@ The Save button is enabled when any settings are modified. Click it to commit th
 
 The Policy Sync tab displays information on the last policy sync executed.
 
-![Netwrix Integration Details on the Policy Sync tab](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/policysynctab.png)
+![Netwrix Integration Details on the Policy Sync tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/policysynctab.png)
 
 The tab provides the following information:
 
@@ -124,7 +124,7 @@ __Step 2 –__ On the Integrations interface, click Netwrix Integrations and sel
 
 __Step 3 –__ Click the __Edit__ button in the upper right corner of the name and description box.
 
-![Name and Description box for a Netwrix Integration in Edit mode](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/editnetwrixintegration.png)
+![Name and Description box for a Netwrix Integration in Edit mode](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/editnetwrixintegration.png)
 
 __Step 4 –__ Type in the top field to modify the integration name.
 
@@ -138,7 +138,7 @@ The Netwrix Integration name and/or description have been modified.
 
 Follow the steps to modify the configuration for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.png)
 
 __Step 1 –__ On the Integrations interface, click Netwrix Integrations and select the desired Netwrix Integration.
 

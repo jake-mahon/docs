@@ -37,7 +37,7 @@ In order, here are things we ask you to try before we continue:
 
 __Step 1 –__ Did you install the latest Client Side Extension? Even if you're having a problem with an older Client Side Extension, we won't ever fix that one. We only ever fix the LATEST one. So be sure BEFORE YOU CONTINUE that you've tested the problem out with the LATEST Client Side Extension.
 
-__Step 2 –__ Perform an exclusion to your AntiVirus/Antimalware using [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/product_docs/policypak/policypak/install/antivirus.md)
+__Step 2 –__ Perform an exclusion to your AntiVirus/Antimalware using [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/policypak/policypak/install/antivirus.md)
 
 __Step 3 –__ Uninstall (not just disable) your AntiVirus/Antimalware. Does that clear it up?
 
@@ -48,11 +48,11 @@ __Step 4 –__ Typically, something has changed to cause the problem. A change c
 3. Something that's in a GPO and causing a Endpoint Policy Manager problem.
 4. A later Client Side Extension build of Endpoint Policy Manager, which is showing a new problem, where a previous Client Side Extension build did not exhibit the problem.
 
-We can take a "first look" at your log files… but there are no guarantees here. Maybe something will jump out and just tell us what it is. Do NOT attach this to an EMAIL. You must get an SRX first by emailing support, then, in the AUTORESPONSE, you'll get directions for how to UPLOAD your log files. Here is how to get us log files and results reports (perform EVERY step): L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](/docs/product_docs/policypak/policypak/troubleshooting/antivirus.md)
+We can take a "first look" at your log files… but there are no guarantees here. Maybe something will jump out and just tell us what it is. Do NOT attach this to an EMAIL. You must get an SRX first by emailing support, then, in the AUTORESPONSE, you'll get directions for how to UPLOAD your log files. Here is how to get us log files and results reports (perform EVERY step): L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](/docs/policypak/policypak/troubleshooting/antivirus.md)
 
 The items above are generally the causes of change and problems. Therefore, to get us close to the goal, your team will have to narrow it down.
 
-One thing to TRY (but this is not a solution, this just narrows it down for us) … is the Endpoint Policy Manager DRIVER. Sometimes the DRIVER can get in the way of things. Knowing the DRIVER is a problem can be helpful. Only test this out if installing the LATEST Client Side Extension doesn't clear up the problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](/docs/product_docs/policypak/policypak/troubleshooting/install/newversionissues.md).
+One thing to TRY (but this is not a solution, this just narrows it down for us) … is the Endpoint Policy Manager DRIVER. Sometimes the DRIVER can get in the way of things. Knowing the DRIVER is a problem can be helpful. Only test this out if installing the LATEST Client Side Extension doesn't clear up the problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](/docs/policypak/policypak/troubleshooting/install/newversionissues.md).
 
 ## Troubleshooting Scenario 1 (best): Bring up a new machine and triangulate where the problem is
 
@@ -65,7 +65,7 @@ __Step 2 –__ Add Endpoint Policy Manager … and test.
 → Stop:
 
 - Do you see the problem now?
-- If YES, then the problem is likely something in Group Policy; some security setting which is preventing Endpoint Policy Manager from performing it's function. Provide us with PPLOGS and GPRESULT reports from [How to import GPOs to Endpoint Policy Manager Cloud](/docs/product_docs/policypak/policypak/video/cloud/import.md). Do not miss any steps
+- If YES, then the problem is likely something in Group Policy; some security setting which is preventing Endpoint Policy Manager from performing it's function. Provide us with PPLOGS and GPRESULT reports from [How to import GPOs to Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/import.md). Do not miss any steps
 - If NO.. then you need to BUILD UP the machine until you find the cause.
 - Remember: If this was a problem / bug affecting all customers, we would know it immediately. So the problem has to be something in your configuration.
 - Now, hand-install or automatically deploy each application and system software, one by one.. and keep testing until Endpoint Policy Manager has the problem. Then.. When you think you've found the problem.. UN-LOAD the offending software.
@@ -85,7 +85,7 @@ __Step 4 –__ Re-install the last thing to make the problem OCCUR again.
 
 → Stop: When did the problem STOP and START? Could we do this in our test lab and get the same result?
 
-__Step 5 –__ Here is how to get us log files and results reports (perform EVERY step): [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/product_docs/policypak/policypak/troubleshooting/fastsupport.md)
+__Step 5 –__ Here is how to get us log files and results reports (perform EVERY step): [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)
 
 ## Troubleshooting Scenario 3 (also less good): Bring up a "deployed" machine and install old Endpoint Policy Manager CSEs to reveal the problem
 
@@ -97,4 +97,4 @@ __Step 2 –__ Add Endpoint Policy Manager Client Side Extension …latest Clien
 
 __Step 3 –__ Uninstall Endpoint Policy Manager and keep installing EARLIER Endpoint Policy Manager Client Side Extension versions until the problem doesn't happen anymore.. and when it doesn't happen anymore we can look to see what changed on OUR side and then build a new Client Side Extension version for you to test.
 
-__Step 4 –__ Here is how to get us log files and results reports (perform EVERY step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/product_docs/policypak/policypak/troubleshooting/fastsupport.md)
+__Step 4 –__ Here is how to get us log files and results reports (perform EVERY step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)

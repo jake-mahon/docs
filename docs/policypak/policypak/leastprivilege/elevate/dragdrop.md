@@ -10,6 +10,6 @@ That being said, you can reduce the Integrity level of the process which is runn
 
 This enables you to change the Integrity level. You'll want to try Medium-High first, then fall back to Medium or Low, stopping at the first one which works.
 
-![402_1_q3-img-1](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/402_1_q3-img-1.jpg)
+![402_1_q3-img-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/402_1_q3-img-1.jpg)
 
-![402_2_q3-img-2](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/402_2_q3-img-2.jpg)
+![402_2_q3-img-2](/img/product_docs/policypak/policypak/leastprivilege/elevate/402_2_q3-img-2.jpg)

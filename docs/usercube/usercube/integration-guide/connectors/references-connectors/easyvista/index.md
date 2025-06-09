@@ -6,7 +6,7 @@ This page is about [
 EasyVista
 ](#EasyVista).
 
-![Package: ITSM/EasyVista](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.png)
+![Package: ITSM/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.png)
 
 ## Overview
 
@@ -16,7 +16,7 @@ EasyVista is an IT Service Manager that provides a service to organize IT resour
 
 Implementing this connector requires:
 
-- Reading first the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic;
+- Reading first the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic;
 - An EasyVista account with reading/writing permissions on the target instance;
 - A view to be created in EasyVista for each type of entity to export.
 
@@ -30,7 +30,7 @@ It can also export any custom entity, provided that a view exists for it in Easy
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -87,11 +87,11 @@ Besides, ```"Profiles"``` is used here as an example and corresponds to a name t
 | Password   required | __Type__    String   __Description__ Password to use to connect to the EasyVista instance. |
 |  |  |
 | --- | --- |
-| ExportSettingsOptions   optional | __Type__    List   __Description__ List of entities to retrieve from the EasyVista instance.   __Note:__ for any customized entity to be exported, this argument must contain its REST API URL. __Get REST API URLs__ Access the relevant view in EasyVista and click on __...__ > __Rest API Url__ to copy the URL. For example: ![EasyVista Profiles View](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.png) |
+| ExportSettingsOptions   optional | __Type__    List   __Description__ List of entities to retrieve from the EasyVista instance.   __Note:__ for any customized entity to be exported, this argument must contain its REST API URL. __Get REST API URLs__ Access the relevant view in EasyVista and click on __...__ > __Rest API Url__ to copy the URL. For example: ![EasyVista Profiles View](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.png) |
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export output folder:
+This connector is meant to generate to the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export output folder:
 
 - a CSV file, named ```<connectionIdentifier>_Employees.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association;
 - a CSV file for each customized entity, named ```<connectionIdentifier>_<EntityName>.csv```.
@@ -144,7 +144,7 @@ Users created from the API are retrieved by Identity Manager only after a comple
 
 ## Fulfill
 
-The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point of view) and update employees, initiated manually through the UI or automatically by [Evaluate Policy](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
+The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point of view) and update employees, initiated manually through the UI or automatically by [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
 
 ### Configuration
 
@@ -192,18 +192,18 @@ This connector can:
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to find out more on how to configure password reset settings.
+See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to find out more on how to configure password reset settings.
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
+- [](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
   Connection
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - [
   Connection
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - A [CyberArk's AAM Credential Providers
-  ](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.
+  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.

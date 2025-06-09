@@ -2,27 +2,27 @@
 
 This guide describes the __Actions__ node and the various action modules available for use in Access Analyzer. This overview topic describes the basic procedure for creating and executing an action module as well the initial steps to take when configuring an action. Each action module is described in detail in the relevant topics.
 
-The Access Analyzer actions are capable of changing users, permissions, files, and objects from a variety of environments. Action modules are assigned to a job at the __Configure__ > __Actions__ node. See the [Actions Node](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/actions.md) topic for additional information on the Action Selection view.
+The Access Analyzer actions are capable of changing users, permissions, files, and objects from a variety of environments. Action modules are assigned to a job at the __Configure__ > __Actions__ node. See the [Actions Node](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/actions.md) topic for additional information on the Action Selection view.
 
-![Action Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/actionselection.png)
+![Action Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/actionselection.png)
 
-Configure the action through the Action Properties page. Navigate to the job’s __Configure__ > __Actions__ node. Select __Create Action__ to add a new action task to a job. Select an existing action and click __Action Properties__ to modify its configuration. The Action Properties page opens for either option. Pre-configured action tasks can be added from the Action Library. See the [Action Libraries](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/libraries.md) topic for additional information.
+Configure the action through the Action Properties page. Navigate to the job’s __Configure__ > __Actions__ node. Select __Create Action__ to add a new action task to a job. Select an existing action and click __Action Properties__ to modify its configuration. The Action Properties page opens for either option. Pre-configured action tasks can be added from the Action Library. See the [Action Libraries](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/libraries.md) topic for additional information.
 
 Most action modules are available with a special Access Analyzer License. The following table provides brief descriptions of the action modules available in Access Analyzer.
 
 | Action Module | Description |
 | --- | --- |
-| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership.  See the [Active Directory Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/overview.md) for additional information. |
-| File System | Change attributes and permissions, as well as copy, delete, move, and rename file system contents.  See the [File System Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/overview.md) for additional information. |
-| Mailbox | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content.  See the [Mailbox Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/overview.md) for additional information. |
-| PowerShell | Run PowerShell scripts on the local machine or on remote hosts.  See the [PowerShell Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/overview.md) for additional information. |
-| PublicFolder | Make changes to Exchange Public Folders.  See the [PublicFolder Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/overview.md) for additional information. |
-| Registry | Make changes to the system registry.  See the [Registry Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/overview.md) for additional information. |
-| SendMail | Communicate with target audiences to supply users with dynamic content from selected audit data.  See the [SendMail Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/sendmail/overview.md) for additional information. |
-| ServiceNow | Creates incidents in ServiceNow.  See the [ServiceNow Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/overview.md) for additional information. |
+| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership.  See the [Active Directory Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/overview.md) for additional information. |
+| File System | Change attributes and permissions, as well as copy, delete, move, and rename file system contents.  See the [File System Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/overview.md) for additional information. |
+| Mailbox | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content.  See the [Mailbox Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/mailbox/overview.md) for additional information. |
+| PowerShell | Run PowerShell scripts on the local machine or on remote hosts.  See the [PowerShell Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/overview.md) for additional information. |
+| PublicFolder | Make changes to Exchange Public Folders.  See the [PublicFolder Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/overview.md) for additional information. |
+| Registry | Make changes to the system registry.  See the [Registry Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/overview.md) for additional information. |
+| SendMail | Communicate with target audiences to supply users with dynamic content from selected audit data.  See the [SendMail Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/sendmail/overview.md) for additional information. |
+| ServiceNow | Creates incidents in ServiceNow.  See the [ServiceNow Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/servicenow/overview.md) for additional information. |
 | SharePoint | Add/remove trustees from sites, lists, or libraries in SharePoint on-premise, apply sensitivity labels, and move files. |
-| Survey | Solicit feedback from users to expedite and aid in the decision making process.  See the [Survey Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/overview.md) for additional information. |
-| Web Request | Sends data to Threat Manager.  See the [WebRequest Action Module](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/overview.md) for additional information. |
+| Survey | Solicit feedback from users to expedite and aid in the decision making process.  See the [Survey Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/overview.md) for additional information. |
+| Web Request | Sends data to Threat Manager.  See the [WebRequest Action Module](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/overview.md) for additional information. |
 
 ## Basic Procedure
 
@@ -52,7 +52,7 @@ ___RECOMMENDED:___ Prior to configuring the action module, scope the source data
 
 Use this page to view or specify properties for a selected action, including the name, description, action module, and source table. Access this page via the Action Selection view.
 
-![Action Properties page for new action](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/actionproperties.png)
+![Action Properties page for new action](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/actionproperties.png)
 
 ___RECOMMENDED:___ Provide unique and descriptive names and action task descriptions to all user created action tasks.
 
@@ -64,7 +64,7 @@ ___RECOMMENDED:___ Provide unique and descriptive names and action task descript
 - Source Table – Table with objects the action task acts upon. For new actions, this field is blank. Specify a source table on which to perform the action.
 - Show tables from current job only – Restricts the list of source tables available to only those tables generated by the job where the action task resides. Deselect the checkbox to list all available data tables.
 - ID – Unique identifier, or GUID, of the action task generated by the application. With this ID, the database can distinguish actions, even those with identical configurations.
-- Data Grid – Displays a sample of the selected Source table. This data grid functions the same as all data grids within Access Analyzer. Data can be filtered, and columns can be regrouped. See the [Data Grid Functionality](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagrid.md) topic for additional information.
+- Data Grid – Displays a sample of the selected Source table. This data grid functions the same as all data grids within Access Analyzer. Data can be filtered, and columns can be regrouped. See the [Data Grid Functionality](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagrid.md) topic for additional information.
 
 ### Source Table Configuration
 

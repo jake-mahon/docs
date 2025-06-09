@@ -4,10 +4,10 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manage
 
 Settings you generate will have nice GPMC reporting via ADM settings reporting like what's seen here.
 
-![943_1_image001_950x624](/static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/943_1_image001_950x624.png)
+![943_1_image001_950x624](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/943_1_image001_950x624.png)
 
 But items which control other settings will not have any reporting and will appear as "Extra Registry Settings" like what's seen here.
 
 This is expected Endpoint Policy Manager Application Settings Manager behavior and is not changeable.
 
-![943_2_image002_950x758](/static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/943_2_image002_950x758.png)
+![943_2_image002_950x758](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/943_2_image002_950x758.png)

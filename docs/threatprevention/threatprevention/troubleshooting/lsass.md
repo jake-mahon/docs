@@ -18,25 +18,25 @@ Prior to Microsoft releasing a KB that alters the LSASS components in a manner t
 
 Since this requires the Threat Prevention administrator to take action, there is an Operations alert specific to this event.
 
-___RECOMMENDED:___ Enable the _LSASS process terminated_ alert under Operations on the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+___RECOMMENDED:___ Enable the _LSASS process terminated_ alert under Operations on the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
-The Agent can be enabled with a safe mode, which would prevent the Active Directory monitoring module of the Agent from loading if any LSASS change is detected. See the [Agent Safe Mode](/docs/product_docs/threatprevention/threatprevention/admin/agents/safemode.md) topic for additional information.
+The Agent can be enabled with a safe mode, which would prevent the Active Directory monitoring module of the Agent from loading if any LSASS change is detected. See the [Agent Safe Mode](/docs/threatprevention/threatprevention/admin/agents/safemode.md) topic for additional information.
 
 ## Enable the 'LSASS Process Terminated' Email Alert
 
 Follow the steps to enable email notifications for the _LSASS process terminated_ alert under Operations.
 
-__NOTE:__ These steps require the Threat Prevention administrator user role. They also assume that the SMTP host information has been configured and email alerts have been enabled. See the [Configure SMTP Host Information](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Configure-SMTP-Host-Information) topic for additional information
+__NOTE:__ These steps require the Threat Prevention administrator user role. They also assume that the SMTP host information has been configured and email alerts have been enabled. See the [Configure SMTP Host Information](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Configure-SMTP-Host-Information) topic for additional information
 
-__Step 1 –__ Click __Configuration__ > __Alerts__ on the menu to open the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+__Step 1 –__ Click __Configuration__ > __Alerts__ on the menu to open the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
 __Step 2 –__ On the Email tab, click __Configure__.
 
-__Step 3 –__ Create a Message Profile for the LSASS notification with the recipient(s) to be notified when the LSASS process terminates. See the [Create Message Profiles](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Create-Message-Profiles) topic for additional information.
+__Step 3 –__ Create a Message Profile for the LSASS notification with the recipient(s) to be notified when the LSASS process terminates. See the [Create Message Profiles](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#Create-Message-Profiles) topic for additional information.
 
-![System Alerting window - LSASS Process Terminated alert](/static/img/product_docs/threatprevention/threatprevention/troubleshooting/lsassprocessterminated.png)
+![System Alerting window - LSASS Process Terminated alert](/img/product_docs/threatprevention/threatprevention/troubleshooting/lsassprocessterminated.png)
 
-__Step 4 –__ On the Email tab, click __Events__, and then click __Operations__ in the left pane. Check the __LSASS process terminated__ event alert and select the Message Profile created in Step 3 from the drop-down menu. See the [Email Tab](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md) topic for additional information.
+__Step 4 –__ On the Email tab, click __Events__, and then click __Operations__ in the left pane. Check the __LSASS process terminated__ event alert and select the Message Profile created in Step 3 from the drop-down menu. See the [Email Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md) topic for additional information.
 
 __Step 5 –__ Ensure that the email alerts are enabled, as indicated by the Enabled toggle button, and click __OK__.
 

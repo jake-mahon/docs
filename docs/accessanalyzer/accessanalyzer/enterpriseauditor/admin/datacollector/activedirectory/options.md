@@ -2,7 +2,7 @@
 
 The Options page provides format options for returned data. It is a wizard page for all categories.
 
-![Active Directory Data Collector Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Active Directory Data Collector Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 - How to format collected results – Select from the following options:
 

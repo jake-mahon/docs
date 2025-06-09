@@ -2,17 +2,17 @@
 
 How to define composite roles in order to create sets of single roles easy to assign. See the [
 Composite Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)topics for additional information.
 
 ## Overview
 
 A composite role is a set of single roles that are usually assigned together, because they revolve around the same application, or the same job, etc. Composite roles are aggregates of single roles, they can help organize the role catalog. See the [
 Composite Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) topic for additional information.
 
-![Schema](/static/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_applicativeroles.png)
+![Schema](/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_applicativeroles.png)
 
 A composite role is a business role comprehensible by managers. It provides an additional layer of abstraction above existing entitlements and single roles. We can say that if a single role allows a user to perform a task, a composite role allows them to perform a job.
 
@@ -20,15 +20,15 @@ A composite role is a business role comprehensible by managers. It provides an a
 
 Composite roles can also be created based on the rules provided by Role Mining. Rules link roles to dimensions. See the [
 Perform Role Mining
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
 
 The following example shows single roles from A to F. Role Mining suggested the rules on the schema, linking these single roles to the organizations R&D and Project as well as to the functions developer, writer, contractor and project manager. The idea is to use these rules to create composite roles. Here, we clearly have one role for R&D-developer, one for R&D-writer, Project-contractor and Project-project manager. Thus, it is clear here that composite roles add an abstraction layer.
 
-![Example](/static/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_schema.png)
+![Example](/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_schema.png)
 
-Single role rules link composite roles to single roles: a single role rule states that specific single roles are assigned according to specific criteria, particularly composite roles. See the [Single Role Rule](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) and [
+Single role rules link composite roles to single roles: a single role rule states that specific single roles are assigned according to specific criteria, particularly composite roles. See the [Single Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) and [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)topics for additional information. Thus, a composite role assignment can imply specific single role assignments.
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)topics for additional information. Thus, a composite role assignment can imply specific single role assignments.
 
 ## Participants and Artifacts
 
@@ -40,7 +40,7 @@ For a given managed system, integrators may need the help of the application own
 
 See the [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
 
 ## Create a Composite Role
 
@@ -48,13 +48,13 @@ Create a composite role by proceeding as follows:
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Roles__ to access the roles page.
 
-![Home Page - Access Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
 
 __Step 2 –__ On the roles page, click on the adequate category and create a role by clicking on __+ New__ at the top right corner.
 
 __Step 3 –__ Fill in the fields.
 
-![singlerolescatalog_createcompositerole_v62](/static/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/singlerolescatalog_createcompositerole_v62.png)
+![singlerolescatalog_createcompositerole_v62](/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/singlerolescatalog_createcompositerole_v62.png)
 
 - __Identifier__: must be unique among roles and without any whitespace.
 - __Name__: will be displayed in the UI to identify the single role.
@@ -84,7 +84,7 @@ When deleting a composite role, caution must be used when deleting the correspon
 
 Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in roles and single role rules. See the [
 Perform a Simulation
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md)topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md)topic for additional information.
 
 ## Verify Composite Role Creation
 
@@ -92,12 +92,12 @@ In order to verify the process, check that the role and rule are created with th
 
 For roles, click on __Access Roles__ on the home page in the __Configuration__ section.
 
-![Home Page - Access Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
 
 Select composite roles and find the role you created inside the right category and with the right parameters.
 
-![Access Composite Roles](/static/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_testroles_v602.png)
+![Access Composite Roles](/img/product_docs/usercube/usercube/user-guide/optimize/composite-role-creation/compositeroles_testroles_v602.png)
 
 For rules, follow the instructions about assignment rules. See the [
 Automate Role Assignments
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)

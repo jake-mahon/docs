@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __6. Distribution Li
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_EmptyGroups Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.png)
+![Analysis Tasks for the EX_EmptyGroups Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.png)
 
 The following analysis tasks are selected by default:
 

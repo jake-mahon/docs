@@ -6,9 +6,9 @@ How to create single roles manually.
 
 A single role is a way to represent an entitlement that is to be assigned to an identity. It brings a layer of abstraction through a user-friendly name, close to the business view. See the [
 Single Role
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.
 
-To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity Manager, an entitlement assigned to an identity is in fact represented by the value of a given navigation property, in a resource owned by said identity. See the [Create an Entity Type](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional information. Thus, each role is linked to one navigation rule per entitlement. See the [Resource Type](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity Manager, an entitlement assigned to an identity is in fact represented by the value of a given navigation property, in a resource owned by said identity. See the [Create an Entity Type](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional information. Thus, each role is linked to one navigation rule per entitlement. See the [Resource Type](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 __NOTE:__ For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called <DL-INTERNET-Restricted> identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using <DL-INTERNET-Restricted> as a value of the __memberOf__ property.
 
@@ -22,17 +22,17 @@ For a given managed system, integrators may need the help of the application own
 
 See the[
 Classify Resources
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
 
 ## Create a Single Role
 
 Create a single role by proceeding as follows:
 
-![Home Page - Access Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Roles__ to access the roles page.
 
-![createsinglerole](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/createsinglerole.png)
+![createsinglerole](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/createsinglerole.png)
 
 __Step 2 –__ On the roles page, click on the adequate category and create a role by clicking on __+ New__ at the top right corner.
 
@@ -45,7 +45,7 @@ __Step 3 –__ Fill in the fields.
 - Description: Description of the role.
 - Tags: Label(s) that can later be used to filter the target roles of access certification campaigns. See the [
   Schedule a Certification Campaign
-  ](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) topic for additional information.
+  ](/docs/usercube_saas/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) topic for additional information.
 
   __NOTE:__ Netwrix recommends using role tags when you want to perform an access certification on a set of roles that are from several categories.
 - Category: Category which is to contain the created role.
@@ -60,7 +60,7 @@ __Step 3 –__ Fill in the fields.
   - Explicit, by default context bound: By default, the assignment's end date will be context bound and therefore locked, but a manual date can be entered.
   - Never: The assignment's end date will never be locked and needs to be specified manually.
   - Always: The assignment's end date is always locked according to the applicable context rule.
-- Approve Role Implicitly: Needs at least the simple approval workflow. __Implicit__ mode bypasses the approval step(s) if the person who makes the role request is also the role officer. __Explicit__ refuses said bypass. __Inherited__ follows the policy decision to approve roles implicitly or not. See the [Create a Policy](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/policy-creation/index.md) topic for additional information.
+- Approve Role Implicitly: Needs at least the simple approval workflow. __Implicit__ mode bypasses the approval step(s) if the person who makes the role request is also the role officer. __Explicit__ refuses said bypass. __Inherited__ follows the policy decision to approve roles implicitly or not. See the [Create a Policy](/docs/usercube_saas/usercube/user-guide/optimize/policy-creation/index.md) topic for additional information.
 - Prolongation without a new approval workflow
 - Hide in Simplified View: Hides the role from the users' __Simplified View__ in __View Permissions__ dialog. This setting does not apply to roles which are either inferred or have workflow states which require manual action.
 - Maximum Duration: Duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified.
@@ -88,19 +88,19 @@ Navigation rules aim to assign given resources to identities based on specific c
 
 Create a navigation rule by proceeding as follows:
 
-![Home Page - Access Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Rules__ to access the rules page.
 
-![Entity Type Choice](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
 
 __Step 2 –__ In the drop down menu at the top left, choose the entity type to which the future navigation rule will be applied.
 
-![Addition Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
 
 __Step 3 –__ Click on the __Navigations__ tab and on the addition button at the top right corner.
 
-![Create a Navigation Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
+![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
 
 __Step 4 –__ Fill in the fields.
 
@@ -122,28 +122,28 @@ When deleting a single role, caution must be used when deleting the correspondin
 
 In order to verify the process, check that the role and rule are created with the right parameters.
 
-![Home Page - Access Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
 
 __Step 1 –__ For roles, click on __Access Roles__ on the home page in the __Configuration__ section.
 
-![Access Single Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
+![Access Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
 
 __Step 2 –__ Select single roles and find the role you created inside the right category and with the right parameters.
 
 Our example would look like:
 
-![Example - Generated Role](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
+![Example - Generated Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
 
-![Home Page - Access Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
 
 __Step 3 –__ For rules, click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Access Navigation Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
+![Access Navigation Rules](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
 
 __Step 4 –__ Select navigation rules and find the rule(s) you created with the right parameters.
 
 Our example would look like:
 
-![Example - Generated Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)
+![Example - Generated Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)
 
 The verification of role creation has been completed.

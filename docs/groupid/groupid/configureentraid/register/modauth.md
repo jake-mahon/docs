@@ -13,13 +13,13 @@ $mycert | Export-Certificate -FilePath c:\mycert.cer
 
 The generated certificate will be saved at the root level of drive C: in .cer format.
 
-Upload this certificate while registering the Microsoft Entra ID application. See the step 7 of the [Registration and Permissions Assignment](/docs/product_docs/groupid/groupid/configureentraid/register/appregister.md) topic.
+Upload this certificate while registering the Microsoft Entra ID application. See the step 7 of the [Registration and Permissions Assignment](/docs/groupid/groupid/configureentraid/register/appregister.md) topic.
 
 ## Export the certificate
 
 The generated certificate in .pfx format will be used:
 
-- While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new identity store creation wizard). See the point # 6 the [Create an Identity Store for Microsoft Entra ID](/docs/product_docs/groupid/groupid/admincenter/identitystore/create.md#Create-an-Identity-Store-for-Microsoft-Entra-ID) section of the [Create an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/create.md) topic.
+- While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new identity store creation wizard). See the point # 6 the [Create an Identity Store for Microsoft Entra ID](/docs/groupid/groupid/admincenter/identitystore/create.md#Create-an-Identity-Store-for-Microsoft-Entra-ID) section of the [Create an Identity Store](/docs/groupid/groupid/admincenter/identitystore/create.md) topic.
 - On the Messaging System page in identity store properties when Exchange Online/Office 365 is set as a messaging provider.
 
 Run the following command on the Windows PowerShell prompt to export the certificate into .pfx format.

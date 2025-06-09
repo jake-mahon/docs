@@ -5,7 +5,7 @@ This section provides the software requirements and represents the default hardw
 - [Software Requirements](#Software-Requirements)
 - [Hardware Configuration](#Hardware-Configuration)
 
-__NOTE:__ The requirements below are sufficient for evaluation purposes only. Refer to the [Requirements to Install Netwrix Data Classification](/docs/product_docs/dataclassification/ndc/requirements/overview.md) topic for complete information on the requirements for installing Netwrix Data Classification in production environments.
+__NOTE:__ The requirements below are sufficient for evaluation purposes only. Refer to the [Requirements to Install Netwrix Data Classification](/docs/dataclassification/ndc/requirements/overview.md) topic for complete information on the requirements for installing Netwrix Data Classification in production environments.
 
 ## Software Requirements
 

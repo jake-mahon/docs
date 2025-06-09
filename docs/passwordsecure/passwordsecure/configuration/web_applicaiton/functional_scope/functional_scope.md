@@ -9,12 +9,12 @@ The __Web Application__ will act as the basis for a constant enhancement. The cu
 
 #### Functions in the individual modules
 
-- [Password module](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/password_module/password_module.md)
-- [Tag system](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/tag_system/tag_system.md)
-- [Organisational structure module](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/organisational_structure.md)
-- [Roles module](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/roles_module/roles_module.md)
-- [Forms module](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/forms_module/forms_module.md)
-- [Notifications](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/notifications/notifications.md)
-- [Logbook](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/logbook/logbook_web_application.md)
-- [Application](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/applications/application.md)
-- [Documents](/docs/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/documents/documents_web_application.md)
+- [Password module](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/password_module/password_module.md)
+- [Tag system](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/tag_system/tag_system.md)
+- [Organisational structure module](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/organisational_structure.md)
+- [Roles module](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/roles_module/roles_module.md)
+- [Forms module](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/forms_module/forms_module.md)
+- [Notifications](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/notifications/notifications.md)
+- [Logbook](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/logbook/logbook_web_application.md)
+- [Application](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/applications/application.md)
+- [Documents](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/documents/documents_web_application.md)

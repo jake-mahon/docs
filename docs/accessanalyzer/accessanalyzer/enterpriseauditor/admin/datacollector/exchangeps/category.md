@@ -2,7 +2,7 @@
 
 The Category page contains a connection section where connection options are defined. It is also where the query category is selected. The available query categories are sub-divided by auditing focus.
 
-![ExchangePS Data Collector Wizard Category page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
 
 ## Connection
 
@@ -10,7 +10,7 @@ In the Connection section, select the method for connecting to the target Exchan
 
 - Use Global setting – Reads from the global configuration from the __Settings__ > __Exchange__ node, specifically the __Client Access Server__ (CAS) field
 
-  - See the [Exchange](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information on these settings
+  - See the [Exchange](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information on these settings
 - Use specific server – Use a different server from what is set in core
 
   - Exchange 2010 Servers – Can use the CAS server set in the global configuration (__Settings__ > __Exchange__ node)
@@ -81,11 +81,11 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox Permissions
 
@@ -100,11 +100,11 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox Databases
 
@@ -116,11 +116,11 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox Rights
 
@@ -132,11 +132,11 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox AD Rights
 
@@ -148,11 +148,11 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox Search
 
@@ -166,12 +166,12 @@ Get-MailboxDatabase
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Filter by Message](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/filtermessage.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Filter by Message](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/filtermessage.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Mailbox Access Logons
 
@@ -184,12 +184,12 @@ Get-Mailbox
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Mailbox Logons](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailboxlogons.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Mailbox Logons](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailboxlogons.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 ### Exchange Organization
 
@@ -208,11 +208,11 @@ Get-ThrottlingPolicyAssociation
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 ### Exchange ActiveSync
 
@@ -229,11 +229,11 @@ Get-Mailbox
 
 When this category is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 ### Public Folder Information
 
@@ -243,21 +243,21 @@ Public Folder Content
 
 This category returns general statistics and sizing for the public folder environment. When it is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 Public Folder Permissions
 
 This category returns permissions information for the public folder environment. When it is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 ### Office 365
 
@@ -267,12 +267,12 @@ Mail Flow Metrics
 
 This category returns information about mail flow in the target Exchange Online environment. When it is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Mail Flow](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailflow.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Mail Flow](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailflow.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
 
 ### Domain Information
 
@@ -282,8 +282,8 @@ Domains
 
 This category returns information about domains in the Exchange environment. When it is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
 
-- [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+- [ExchangePS: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
+- [ExchangePS: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
+- [ExchangePS: Error Logging](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
+- [ExchangePS: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)

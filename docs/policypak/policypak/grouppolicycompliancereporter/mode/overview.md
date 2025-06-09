@@ -2,7 +2,7 @@
 
 Figure 3 below demonstrates how the pull and push modes work in GPCR. The details of each mode are discussed in the following sections.
 
-![gpcr_concepts_and_quickstart_2](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/gpcr_concepts_and_quickstart_2.png)
+![gpcr_concepts_and_quickstart_2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/gpcr_concepts_and_quickstart_2.png)
 
 Figure 3. Endpoint Policy Manager GPCR working in pull mode (gray arrows) and in push mode (black arrows).
 

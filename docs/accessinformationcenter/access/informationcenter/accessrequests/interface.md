@@ -14,7 +14,7 @@ For both tabs the interface also includes:
 
 The Pending Requests tab in the Access Requests interface displays information for pending requests that are awaiting an owner response.
 
-![Access Requests interface Pending Requests tab](/static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.png)
+![Access Requests interface Pending Requests tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.png)
 
 The information displayed in the table includes:
 
@@ -44,23 +44,23 @@ The information displayed in the table includes:
 - Reviewer Department – Department in the company of the owner who has a pending request, as read from Active Directory
 - Reviewer Employee ID – Unique identifier for the owner who has a pending request, as read from Active Directory
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Pending Requests tab buttons](/static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.png)
+![Pending Requests tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.png)
 
 | Button | Description |
 | --- | --- |
 | Send Reminders | Opens the Sending Reminder window, which displays the status of the notification action. The action sends email reminders to owners with pending requests. Click __OK__ to close the window once the status is complete. |
 | View Notes | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click __OK__ to close the window. |
-| Cancel | Opens the Cancel Request wizard. See the [Cancel Request Wizard](/docs/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/cancel.md) topic for additional information. |
+| Cancel | Opens the Cancel Request wizard. See the [Cancel Request Wizard](/docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/cancel.md) topic for additional information. |
 
 ## Request History Tab
 
 The Request History tab in the Access Requests interface displays information for processed requests.
 
-![Access Requests interface Request History tab](/static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.png)
+![Access Requests interface Request History tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.png)
 
 The information displayed in the table includes:
 
@@ -97,13 +97,13 @@ The information displayed in the table includes:
 - Reviewer Department – Department in the company of the owner who processed the request, as read from Active Directory
 - Reviewer Employee ID – Unique identifier for the owner who processed the request, as read from Active Directory
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Request History tab buttons](/static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.png)
+![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.png)
 
 | Button | Description |
 | --- | --- |
-| View Changes | Opens the Changes window to view all access changes for the selected trustee. See the [Changes Window](/docs/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/changes.md) topic for additional information. |
+| View Changes | Opens the Changes window to view all access changes for the selected trustee. See the [Changes Window](/docs/accessinformationcenter/access/informationcenter/accessrequests/window/changes.md) topic for additional information. |
 | View Notes | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click __OK__ to close the window. |

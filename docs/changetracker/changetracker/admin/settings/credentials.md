@@ -17,34 +17,34 @@ Each grid has a button to create a new credential. The far right column contains
 
 These credentials are used to connect to an ITSM and discover devices to scan from the ITSM's configuration item catalog.
 
-![ITSM System Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/itsm_system_credentials.png)
+![ITSM System Credentials](/img/product_docs/changetracker/changetracker/admin/settings/itsm_system_credentials.png)
 
 ## Cloud System Credentials
 
 These credentials are used by the Cloud Tracker feature to track changes to cloud platform configuration.
 
-![Cloud System Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/cloud_system_credentials_1120x365.png)
+![Cloud System Credentials](/img/product_docs/changetracker/changetracker/admin/settings/cloud_system_credentials_1120x365.png)
 
 ## SSH / Telnet Credentials
 
 These credentials are used for agentless connections to devices (Linux, switches, routers, etc.) via SSH or Telnet. Credentials for Windows agentless connections are also stored here.
 
-![SSH Telnet Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/ssh_telnet_credentials_1118x372.png)
+![SSH Telnet Credentials](/img/product_docs/changetracker/changetracker/admin/settings/ssh_telnet_credentials_1118x372.png)
 
 ## Splunk Credentials
 
 These credentials are used to connect to the API of a Splunk instance and pull specific logs into Change Tracker as change events.
 
-![Splunk Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/splunk_credentials_1122x369.png)
+![Splunk Credentials](/img/product_docs/changetracker/changetracker/admin/settings/splunk_credentials_1122x369.png)
 
 ## ESXi / vCenter Credentials
 
 These credentials are used to connect to ESXi devices or to connect to a vSphere and discover all of it's ESXi nodes.
 
-![EXsi Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/esxi_credentials.png)
+![EXsi Credentials](/img/product_docs/changetracker/changetracker/admin/settings/esxi_credentials.png)
 
 ## Database Credentials
 
 These credentials are used by database compliance reports to connect directly to a database instance.
 
-![Database Credentials](/static/img/product_docs/changetracker/changetracker/admin/settings/database_credentials_1113x358.png)
+![Database Credentials](/img/product_docs/changetracker/changetracker/admin/settings/database_credentials_1113x358.png)

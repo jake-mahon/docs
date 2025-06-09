@@ -1,6 +1,6 @@
 # Cloud Policy Tab
 
-![cloudpolicytab](/static/img/product_docs/changetracker/changetracker/cloud/cloudpolicytab.png)
+![cloudpolicytab](/img/product_docs/changetracker/changetracker/cloud/cloudpolicytab.png)
 
 ## Cloud Tab: Key Points
 

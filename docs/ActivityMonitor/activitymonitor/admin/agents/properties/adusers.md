@@ -2,7 +2,7 @@
 
 Use the AD Users tab to customize Active Directory service queries and caching behavior.
 
-![AD Users Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/aduserstab.png)
+![AD Users Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/aduserstab.png)
 
 The configurable options are:
 

@@ -1,6 +1,6 @@
 # User properties - Job Info tab
 
-The Job Info tab is similar to the [Object properties - Organization tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) in user properties, with the addition of two fields: Title and Department.
+The Job Info tab is similar to the [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md) in user properties, with the addition of two fields: Title and Department.
 
 Title
 

@@ -6,7 +6,7 @@ The 1-Box\_Access Scans Job collects the data which will be further analyzed in 
 
 The Scan Query uses the Box Data Collector to target all Box hosts and has been preconfigured to use the Scan Box Permissions Category. If this query is not configured but has the access token, a full scan of all folders at full depth is performed. Optionally, configure the query to limit the depth of the scan.
 
-![Queries for the 1-Box_Access Scans Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessqueries.png)
+![Queries for the 1-Box_Access Scans Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessqueries.png)
 
 The 1-Box\_Access Scans Job has the following queries:
 
@@ -33,26 +33,26 @@ __Step 1 –__ In the Query Selection view, select the Scan Query and click __Qu
 
 __Step 2 –__ Select the __Data Source__ tab, and click __Configure__. The Box Data Collector Wizard opens.
 
-![Box Data Collector Wizard Exclusions page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessexclusions.png)
+![Box Data Collector Wizard Exclusions page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessexclusions.png)
 
 __Step 3 –__ On the Exclusions Page:
 
 - Add folders to be excluded
 - Add folders to be included (scope scan to only these folders)
 
-![Box Data Collector Wizard Additional Scoping page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessadditionalscoping.png)
+![Box Data Collector Wizard Additional Scoping page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessadditionalscoping.png)
 
 __Step 4 –__ On the Additional Scoping page:
 
 - Optionally, select this option to limit the depth of the scan across the targeted Box account
 
-![Box Data Collector Wizard Scope by User page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessuserscope.png)
+![Box Data Collector Wizard Scope by User page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessuserscope.png)
 
 __Step 5 –__ On the Scope By User Page:
 
 - Optionally, limit the scope of the scan to specified users by providing a CSV file
 
-![Box Data Collector Wizard Authenticate page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessauthenticate.png)
+![Box Data Collector Wizard Authenticate page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/collection/accessauthenticate.png)
 
 __Step 6 –__ The Authenticate page is where the connection to the target Box environment is configured. Click __Authorize__ to launch the BoxLogin window and generate an authorization code. This code allows Access Analyzer to report on the Box Enterprise.
 

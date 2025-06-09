@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD\_GroupProbableOwners_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupProbableOwners Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/groupprobableownersanalysis.png)
+![Analysis Tasks for the AD_GroupProbableOwners Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/groupprobableownersanalysis.png)
 
 The default analysis tasks are:
 

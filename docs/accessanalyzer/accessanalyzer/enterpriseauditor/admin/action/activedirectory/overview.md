@@ -34,13 +34,13 @@ The Operations page lists the operations that may be performed by the Active Dir
 The Active Directory Action module is configured through the Active Directory Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Active Directory Action Target](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/target.md#Active-Directory-Action-Target)
-- [Active Directory Action Operations](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations.md#Active-Directory-Action-Operations)
-- [Active Directory Action Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/options.md#Active-Directory-Action-Options)
-- [Active Directory Action Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/summary.md#Active-Directory-Action-Summary)
+- [Active Directory Action Target](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/target.md#Active-Directory-Action-Target)
+- [Active Directory Action Operations](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations.md#Active-Directory-Action-Operations)
+- [Active Directory Action Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/options.md#Active-Directory-Action-Options)
+- [Active Directory Action Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/summary.md#Active-Directory-Action-Summary)
 
 The Welcome page displays first in the Active Directory Action Module Wizard. Review the introductory and caution information about the Active Directory Action Module.
 
-![Active Directory Action Module Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Active Directory Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 The navigation pane contains links to the pages in the wizard. Note that the operations added on the Operations page will affect the list of pages in the navigation pane. Several operations have associated configuration pages.

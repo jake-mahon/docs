@@ -12,7 +12,7 @@ __Step 2 –__ On the file server page, under actions select __Launch Files Cons
 
 __Step 3 –__ On the new files URL page, locate the __Configuration__ dropdown and select __Manage Roles__.
 
-![Nutanix Backup Admin: Backup Access only role](/static/img/product_docs/accessanalyzer/accessanalyzer/config/nutanix/nutanixbackupadminrole.png)
+![Nutanix Backup Admin: Backup Access only role](/img/product_docs/accessanalyzer/accessanalyzer/config/nutanix/nutanixbackupadminrole.png)
 
 __Step 4 –__ On the Manage Roles window, add an account with the __Backup Admin: Backup Access only__ role.
 

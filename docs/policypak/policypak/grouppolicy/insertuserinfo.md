@@ -10,7 +10,7 @@ You have a requirement to insert User information details, i.e. Name, Title, or 
 
 This topic demonstrates how to read that information from Active Directory User Object attributes, and insert that data for the Identity tab in Adobe Acrobat.
 
-![687_1_image-20200219090943-1_680x434](/static/img/product_docs/policypak/policypak/grouppolicy/687_1_image-20200219090943-1_680x434.png)
+![687_1_image-20200219090943-1_680x434](/img/product_docs/policypak/policypak/grouppolicy/687_1_image-20200219090943-1_680x434.png)
 
 ## Solution
 
@@ -28,25 +28,25 @@ Reg Location: ```HKEY_CUIRRENT_USER\Software\Adobe\Adobe Acrobat\DC\Identity```
 
 Reg Value:``` tEMail – tFirstName – tLastName – tName – tTitle ```
 
-![687_2_image-20200219090943-2_787x233](/static/img/product_docs/policypak/policypak/grouppolicy/687_2_image-20200219090943-2_787x233.png)
+![687_2_image-20200219090943-2_787x233](/img/product_docs/policypak/policypak/grouppolicy/687_2_image-20200219090943-2_787x233.png)
 
 __Step 4 –__ Click on the __Common__ tab, under each Reg item, and select __Run__ in the logged-on user's security context
 
 __Step 5 –__ Check the Item-level targeting box and click __Targeting__.
 
-![687_3_image-20200219090943-3_388x184](/static/img/product_docs/policypak/policypak/grouppolicy/687_3_image-20200219090943-3_388x184.png)
+![687_3_image-20200219090943-3_388x184](/img/product_docs/policypak/policypak/grouppolicy/687_3_image-20200219090943-3_388x184.png)
 
 __Step 6 –__ From the __New Item__ drop-down, select LDAP and define the filter as below.
 
 ```&(objectClass=User)(sAMAccountName=%USERNAME%)```
 
-![687_4_image-20200219090943-4_674x261](/static/img/product_docs/policypak/policypak/grouppolicy/687_4_image-20200219090943-4_674x261.png)
+![687_4_image-20200219090943-4_674x261](/img/product_docs/policypak/policypak/grouppolicy/687_4_image-20200219090943-4_674x261.png)
 
 __NOTE:__  This step lets you access the AD user object attribute for the logged-on user, and turn them into variables for use within the Registry Preferences.
 
 __Step 7 –__ Use both variables to get the user's First and Last name and save them in a Reg Item.
 
-![687_5_image-20200219090943-5_405x314](/static/img/product_docs/policypak/policypak/grouppolicy/687_5_image-20200219090943-5_405x314.png)
+![687_5_image-20200219090943-5_405x314](/img/product_docs/policypak/policypak/grouppolicy/687_5_image-20200219090943-5_405x314.png)
 
 This will read First and Last Name values from AD User Object's attribute and save it for tName registry value for Adobe Acrobat.
 

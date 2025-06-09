@@ -72,7 +72,7 @@ __To modify an account:__
 
 ## Link an SMS Gateway Account to an Identity Store
 
-See the [Link an SMS Gateway Account to an Identity Store](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/security/smsauthentication.md#Link-an-SMS-Gateway-Account-to-an-Identity-Store) topic.
+See the [Link an SMS Gateway Account to an Identity Store](/docs/groupid/groupid/admincenter/identitystore/configure/security/smsauthentication.md#Link-an-SMS-Gateway-Account-to-an-Identity-Store) topic.
 
 ## Delete an SMS Gateway Account
 
@@ -89,5 +89,5 @@ __To delete an account:__
 
 See Also
 
-- [SMS Gateway](/docs/product_docs/groupid/groupid/admincenter/smsgateway/overview.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/product_docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
+- [SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/overview.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)

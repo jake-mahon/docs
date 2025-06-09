@@ -10,7 +10,7 @@ __Step 1 –__ On any domain controller in the target domain, open the __Local S
 
 __Step 2 –__ Navigate to __Security Settings → Local Policies → User Rights Assignment__ and locate the __Log on as a batch job__ policy.
 
-![manualconfig_ws_logonasbatch](/static/img/product_docs/1secure/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.png)
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.png)
 
 __Step 3 –__ Double-click the __Log on as a batch job__ policy, and click __Add User or Group__. Specify the account that you want to define this policy for.
 
@@ -20,7 +20,7 @@ Perform this procedure only if the account selected for data collection is not a
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start → Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) → Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> → Domains → <domain name> → Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` → Domains → `<domain name>` → Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies → Windows Settings → Security Settings → Local Policies.
 

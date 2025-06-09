@@ -56,7 +56,7 @@ SQL Server storage considerations vary. As Access Analyzer is a highly customiza
 - Historical Retention – Amount of collected data to be retained in source data tables based on a user-configured time frame
 - Reporting Needs – Anticipated data needed to generate reports
 
-Recommended SQL Server database sizes are provided for specific solutions in the [Requirements](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topics. These recommendations are based on environmental factors, the number of target objects within an environment (users, hosts, mailboxes, etc.), and the applicable factors listed above for the specific solution.
+Recommended SQL Server database sizes are provided for specific solutions in the [Requirements](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topics. These recommendations are based on environmental factors, the number of target objects within an environment (users, hosts, mailboxes, etc.), and the applicable factors listed above for the specific solution.
 
 ### Customer Examples of Database Sizing
 
@@ -81,33 +81,33 @@ The typical database configuration is to have __sysadmin Server Role__ assigned 
 
 Use SQL Server Management Studio to create the Access Analyzer database and configure the settings for the server roles and user mappings.
 
-![SQL Server Management Studio create New Database](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/createnewdatabase.png)
+![SQL Server Management Studio create New Database](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/createnewdatabase.png)
 
 __Step 1 –__ Create a new database for use with Access Analyzer. Right-click on the __Databases__ node and choose __New Database__.
 
-![SQL Server Management Studio New Database window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/newdatabase.png)
+![SQL Server Management Studio New Database window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/newdatabase.png)
 
 __Step 2 –__ Set the __Database name__. Set any other desired data files configuration per company standards. Click __OK__ on the New Database window.
 
 ___RECOMMENDED:___ Enter Access Analyzer as the Database name.
 
-![SQL Server Management Studio create New Login](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/newlogin.png)
+![SQL Server Management Studio create New Login](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/newlogin.png)
 
 __Step 3 –__ Create a new SQL Login account by right-clicking on the __Security__ > __Logins__ folder and selecting __New Login__.
 
 __Step 4 –__ Choose the authentication mode as the login type for use with the newly created Access Analyzer database. The available options are Windows authentication and SQL Server authentication.
 
-![SQL Server Management Studio new login with Windows authentication](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginwindows.png)
+![SQL Server Management Studio new login with Windows authentication](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginwindows.png)
 
 - If __Windows authentication__ is desired, then click __Search__ and select the desired Windows account, which has been set up for use with Access Analyzer.
 
-![SQL Server Management Studio new login with SQL Server authentication](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginsql.png)
+![SQL Server Management Studio new login with SQL Server authentication](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginsql.png)
 
 - ___RECOMMENDED:___ If __SQL Server authentication__ is desired, use a login name called Access Analyzer.
 
 __NOTE:__ Set the __Default Database__ as Access Analyzer (or the desired Access Analyzer database) and choose English as the __Default Language__.
 
-![SQL Server Management Studio New Login User Mapping](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginusermapping.png)
+![SQL Server Management Studio New Login User Mapping](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/loginusermapping.png)
 
 __Step 5 –__ Navigate to the __User Mapping__ menu, select the Access Analyzer (or the desired Access Analyzer database) database, and set the __Default Schema__ to __DBO__.
 
@@ -115,9 +115,9 @@ __Step 6 –__ In the __Database role membership__ section, set the role to __db
 
 __Step 7 –__ Configure the Access Analyzer Console to access the assigned database using the newly secured login account.
 
-__NOTE:__ This step requires the completion of the Access Analyzer installation. See the [Access Analyzer Core Installation](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/wizard.md) topic for instructions.
+__NOTE:__ This step requires the completion of the Access Analyzer installation. See the [Access Analyzer Core Installation](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/wizard.md) topic for instructions.
 
-![Storage Profile configuration page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/storageprofile.png)
+![Storage Profile configuration page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/storageprofile.png)
 
 __Step 8 –__ Launch Access Analyzer and navigate to __Settings__ > __Storage__.
 
@@ -125,12 +125,12 @@ __Step 8 –__ Launch Access Analyzer and navigate to __Settings__ > __Storage__
 - Enter the name of the Access Analyzer database in the __Use existing database__ field.
 - Choose the authentication method which matches the secure login that was created in Step 4, either __Windows authentication__ or __SQL Server authentication__. If using SQL Server authentication, enter the __User name__ and __Password__.
 
-![Connection report window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/connectionreport.png)
+![Connection report window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/connectionreport.png)
 
 - Click __Apply__ and a Connection report window will open. Verify that the connection and test table drop were performed successfully.
 - Click __Close__ on the Connection report window and then __Save__ the new Storage Profile.
 
-![Change storage profile dialog](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/changestorageprofile.png)
+![Change storage profile dialog](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/changestorageprofile.png)
 
 __NOTE:__ If previously connected to another database which already had the Access Analyzer DB schema applied, then a prompt should appear to merge the host management data. Choose the appropriate options and then click __OK__ to migrate data.
 
@@ -138,7 +138,7 @@ __Step 9 –__ Make sure to close and re-open the Access Analyzer Console before
 
 The __blue arrow__ signifies the default profile was changed but does not take effect until the required restart of the Access Analyzer Console.
 
-See the [Access Analyzer Initial Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/firstlaunch.md) topic to perform these steps during the initial configuration process after installation.
+See the [Access Analyzer Initial Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/firstlaunch.md) topic to perform these steps during the initial configuration process after installation.
 
 ### Second Level of Security
 

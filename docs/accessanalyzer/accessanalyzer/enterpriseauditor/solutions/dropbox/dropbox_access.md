@@ -2,7 +2,7 @@
 
 The Dropbox\_Access job provides insight into effective access to resources within the targeted Dropbox environment, specifically highlighting inactive access rights that can be revoked. It is dependent on data collected by the 0.Collection job group. This job processes analysis tasks and generates reports.
 
-![1.Access > Dropbox_Access Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/accessjobstree.png)
+![1.Access > Dropbox_Access Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/dropbox/accessjobstree.png)
 
 The Dropbox\_Access job is located in the 1.Access job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __Jobs__ > __Dropbox__ > __1.Access
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Dropbox_Access Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/accessanalysis.png)
+![Analysis Tasks for the Dropbox_Access Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/accessanalysis.png)
 
 - Get access details – Creates the SA\_Dropbox\_Access\_Details table accessible under the job’s Results node
 - Summarize access details – Creates the SA\_Dropbox\_Access\_Summary table accessible under the job’s Results node

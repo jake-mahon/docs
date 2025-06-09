@@ -2,13 +2,13 @@
 
 The Dropbox\_Content job provides insight into the type, size, and age of the content within the targeted Dropbox environment. It is dependent on data collected by the 0.Collection job group. This job processes analysis tasks and generates reports.
 
-![4.Content > Dropbox_Content Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/contentjobstree.png)
+![4.Content > Dropbox_Content Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/contentjobstree.png)
 
 The Dropbox\_Content job is located in the 4.Content job group.
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The Dropbox\_Content job has the following customizable parameter:
 
@@ -22,7 +22,7 @@ View the analysis tasks by navigating to the __Jobs__ > __Dropbox__ > __4.Conten
 
 __CAUTION:__ Most of the analysis tasks should not be modified or deselected. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Dropbox_Content Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/content/contentanalysis.png)
+![Analysis Tasks for the Dropbox_Content Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/content/contentanalysis.png)
 
 - Summarizes content by mimetype, classification – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Determines stale data by owner:
@@ -46,4 +46,4 @@ The time frame used to define stale content is set by default to 365 days. This 
 | --- | --- | --- |
 | @days\_since\_modified | 365 | How many days since the last modified day in order for a file to be considered stale content. |
 
-The parameter can be customized and is listed in a section at the bottom of the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+The parameter can be customized and is listed in a section at the bottom of the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.

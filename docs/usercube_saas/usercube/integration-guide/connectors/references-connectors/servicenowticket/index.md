@@ -4,22 +4,22 @@ This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for ma
 
 This page is about [
 ServiceNow Ticket
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
-![Package: Ticket/ServiceNow](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.png)
+![Package: Ticket/ServiceNow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.png)
 
 ## Overview
 
 ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical management support. The company specializes in IT service management (ITSM), IT operations management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and customer interactions via a variety of apps and plugins.  
 This section focuses on ServiceNow ticket creation for the fulfillment of resources that can't or shouldn't be performed with an existing fulfill. To learn about how to manage entities, see [
 ServiceNow
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)Entity Management.
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)Entity Management.
 
 ## Prerequisites
 
 Implementing this connector requires:
 
-- reading first the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+- reading first the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account with the __snc\_platform\_rest\_api\_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
 - the appropriate configuration in ServiceNow of authentication, Basic or OAuth.
@@ -28,7 +28,7 @@ Implementing this connector requires:
 
 This connector exports some of ServiceNow entities, see the export capabilities of the [
 ServiceNow
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector. Some entities cannot be exported.
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector. Some entities cannot be exported.
 
 ## Fulfill
 
@@ -36,11 +36,11 @@ This connector writes to ServiceNow to create incident and request tickets conta
 
 Once created, the ticket is managed in ServiceNow, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the provisioning state of the resource accordingly. See the [Entitlement Assignment](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
+When the ticket is closed or canceled, Identity Manager updates the provisioning state of the resource accordingly. See the [Entitlement Assignment](/docs/usercube_saas/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
 
 See the fulfill capabilities of the [
 ServiceNow
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector.
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector.
 
 > For example:
 >
@@ -63,7 +63,7 @@ ServiceNow
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
+See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
 
 When setting a password for a ServiceNow user, the password attribute is set to the chosen value and the user's __password\_needs\_reset__ attribute is set to ```true```.
 
@@ -73,10 +73,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -91,7 +91,7 @@ Data protection can be ensured through:
 
 - A [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login```, ```Password```, ```Server```, ```ClientId``` and ```ClientSecret```.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login```, ```Password```, ```Server```, ```ClientId``` and ```ClientSecret```.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

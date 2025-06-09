@@ -10,7 +10,7 @@ View the analysis task by navigating to the __FileSystem__ > __0.Collection__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection for the 0-Create Schema Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/createschemaanalysis.png)
+![Analysis Selection for the 0-Create Schema Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/createschemaanalysis.png)
 
 The following analysis tasks are selected by default:
 

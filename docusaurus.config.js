@@ -41,14 +41,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          // Main/landing documentation
-          path: 'docs/main',
-          routeBasePath: 'docs',
-          sidebarPath: './sidebars/main.js',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
@@ -94,7 +87,346 @@ const config = {
         },
       },
     ],
-    // Add more product documentation instances here as needed
+    // 1Secure Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: '1secure',
+        path: 'docs/1secure',
+        routeBasePath: 'docs/1secure',
+        sidebarPath: './sidebars/1secure.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Access Analyzer Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessanalyzer',
+        path: 'docs/accessanalyzer',
+        routeBasePath: 'docs/accessanalyzer',
+        sidebarPath: './sidebars/accessanalyzer.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Access Information Center Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessinformationcenter',
+        path: 'docs/accessinformationcenter',
+        routeBasePath: 'docs/accessinformationcenter',
+        sidebarPath: './sidebars/accessinformationcenter.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Auditor Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'auditor',
+        path: 'docs/auditor',
+        routeBasePath: 'docs/auditor',
+        sidebarPath: './sidebars/auditor.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Data Classification Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'dataclassification',
+        path: 'docs/dataclassification',
+        routeBasePath: 'docs/dataclassification',
+        sidebarPath: './sidebars/dataclassification.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Group ID Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'groupid',
+        path: 'docs/groupid',
+        routeBasePath: 'docs/groupid',
+        sidebarPath: './sidebars/groupid.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Password Policy Enforcer Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordpolicyenforcer',
+        path: 'docs/passwordpolicyenforcer',
+        routeBasePath: 'docs/passwordpolicyenforcer',
+        sidebarPath: './sidebars/passwordpolicyenforcer.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Password Reset Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordreset',
+        path: 'docs/passwordreset',
+        routeBasePath: 'docs/passwordreset',
+        sidebarPath: './sidebars/passwordreset.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Password Secure Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordsecure',
+        path: 'docs/passwordsecure',
+        routeBasePath: 'docs/passwordsecure',
+        sidebarPath: './sidebars/passwordsecure.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // PolicyPak Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'policypak',
+        path: 'docs/policypak',
+        routeBasePath: 'docs/policypak',
+        sidebarPath: './sidebars/policypak.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Privilege Secure Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'privilegesecure',
+        path: 'docs/privilegesecure',
+        routeBasePath: 'docs/privilegesecure',
+        sidebarPath: './sidebars/privilegesecure.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Recovery for Active Directory Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'recoveryforactivedirectory',
+        path: 'docs/recoveryforactivedirectory',
+        routeBasePath: 'docs/recoveryforactivedirectory',
+        sidebarPath: './sidebars/recoveryforactivedirectory.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // StrongPoint for NetSuite Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointfornetsuite',
+        path: 'docs/strongpointfornetsuite',
+        routeBasePath: 'docs/strongpointfornetsuite',
+        sidebarPath: './sidebars/strongpointfornetsuite.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // StrongPoint for Salesforce Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointforsalesforce',
+        path: 'docs/strongpointforsalesforce',
+        routeBasePath: 'docs/strongpointforsalesforce',
+        sidebarPath: './sidebars/strongpointforsalesforce.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // StrongPoint NetSuite Flashlight Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointnetsuiteflashlight',
+        path: 'docs/strongpointnetsuiteflashlight',
+        routeBasePath: 'docs/strongpointnetsuiteflashlight',
+        sidebarPath: './sidebars/strongpointnetsuiteflashlight.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // StrongPoint Salesforce Flashlight Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointsalesforceflashlight',
+        path: 'docs/strongpointsalesforceflashlight',
+        routeBasePath: 'docs/strongpointsalesforceflashlight',
+        sidebarPath: './sidebars/strongpointsalesforceflashlight.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Threat Manager Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'threatmanager',
+        path: 'docs/threatmanager',
+        routeBasePath: 'docs/threatmanager',
+        sidebarPath: './sidebars/threatmanager.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Threat Prevention Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'threatprevention',
+        path: 'docs/threatprevention',
+        routeBasePath: 'docs/threatprevention',
+        sidebarPath: './sidebars/threatprevention.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // UserCube Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'usercube',
+        path: 'docs/usercube',
+        routeBasePath: 'docs/usercube',
+        sidebarPath: './sidebars/usercube.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // UserCube SaaS Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'usercube_saas',
+        path: 'docs/usercube_saas',
+        routeBasePath: 'docs/usercube_saas',
+        sidebarPath: './sidebars/usercube_saas.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
   ],
 
   themeConfig:
@@ -112,7 +444,7 @@ const config = {
         logo: {
           alt: 'Netwrix Logo',
           src: 'img/branding/logo.svg',
-          href: '/docs',
+          href: '/',
         },
         items: [
           {

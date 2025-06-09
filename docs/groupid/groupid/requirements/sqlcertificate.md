@@ -18,11 +18,11 @@ Step 1 – In SQL Server Configuration Manager, expand __SQL Server Network Conf
 
 Step 2 – Right-click __Protocols for <instance Name>__, and then select __Properties__.
 
-![SQL Configuration Manager Properties dialog box](/static/img/product_docs/groupid/groupid/requirements/sqlconfigmgr.jpg)
+![SQL Configuration Manager Properties dialog box](/img/product_docs/groupid/groupid/requirements/sqlconfigmgr.jpg)
 
 Step 3 – On the Certificate tab, select the __certificate__ you created from theCertificate drop-down.
 
-![SQL Configuration Manager Properties Flag tab](/static/img/product_docs/groupid/groupid/requirements/flagstab.jpg)
+![SQL Configuration Manager Properties Flag tab](/img/product_docs/groupid/groupid/requirements/flagstab.jpg)
 
 Step 4 – On the Flags tab, check the __Force Encryption__ option to __Yes__.
 

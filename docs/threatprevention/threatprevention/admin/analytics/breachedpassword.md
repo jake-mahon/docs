@@ -13,7 +13,7 @@ Analytic Workflow
 
 1. Configure the analytic policy
 2. Enable the analytic policy
-3. Enable alerting on incidents through the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
 See the [Breached Password Analytic Data Grid](#Breached-Password-Analytic-Data-Grid) topic for information on event data collected per incident.
 
@@ -31,7 +31,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Breached Password Analytic Type - Settings tab](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/breachedpasswordsettings.png)
+![Breached Password Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/breachedpasswordsettings.png)
 
 Set the Number of Failed Attempts preceding a successful login and the Interval Duration that will trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 23:59. When the specified number of failed login attempts for an individual user account precede a successful login within the specified interval duration, it will trigger an incident record.
 
@@ -39,12 +39,12 @@ By default, authentication event data is cached in memory for 24 hours. When an 
 
 Policy Tab
 
-![Breached Password Analytic Type - Policy tab](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Breached Password Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
-- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. The only exception is that the [Authentication Monitoring Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationmonitoring.md) is hard coded, and the Success filter cannot be modified.
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
+- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. The only exception is that the [Authentication Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationmonitoring.md) is hard coded, and the Success filter cannot be modified.
 
   - Scope the protocol to be monitored on the Authentication Protocol filter. If enabling the analytic on a domain controller, also scope the login type.
 
@@ -54,15 +54,15 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
   - _Optional:_ Scope the servers to be included in or excluded from monitoring on the IP Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts (to) filter.
 
     __NOTE:__ Some authentication events may return only a host name (NetBIOS or FQDN), others may return only an IP address. It is recommended to take this into account when entering filter values.
-- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
+- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
 
 ## Breached Password Analytic Data Grid
 
 The data grid on the __Breached Password__ node lists one row per incident identified.
 
-![Breached Password Analytic Type window](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/breachedpassword.png)
+![Breached Password Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/breachedpassword.png)
 
-The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
+The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 
 The top data grid includes the following information for each incident:
 
@@ -93,4 +93,4 @@ Select an incident in the top data grid to view information on the events thath 
 - Date/Time – Date timestamp of the monitored event. Hover over data in this column to view Local time (of the Enterprise Manager) and UTC time simultaneously.
 - Agent Time Logged – Timestamp for when the Agent detected the event. This can be different from the Enterprise Manager time (displayed in the Date/Time column) due to latency.
 
-This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
+This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.

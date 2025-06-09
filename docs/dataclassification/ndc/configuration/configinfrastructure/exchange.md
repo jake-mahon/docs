@@ -59,5 +59,5 @@ You should configure sufficient permissions that will allow the crawling account
 
 If you plan to implement the scenario that involves modern authentication, you should do the following:
 
-1. [Create Azure AD app for Modern Authentication](/docs/product_docs/dataclassification/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa.md)
-2. Configure [Exchange Server](/docs/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeserver.md) source settings.
+1. [Create Azure AD app for Modern Authentication](/docs/dataclassification/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa.md)
+2. Configure [Exchange Server](/docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeserver.md) source settings.

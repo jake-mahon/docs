@@ -6,24 +6,24 @@ __Step 1 –__ From the Threat Prevention Installer package, run the server exec
 
 __NOTE:__ Run the msi via the command prompt with elevated privileges (domain admin rights) on a domain-joined machine. Else the installer runs and completes without errors, though no components are installed.
 
-![Threat Prevention Server Setup wizard - Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 __Step 2 –__ On the Welcome page, click __Next__ to begin the installation. One of the following happens:
 
 - If the installer detects .NET Framework 4.7.2 or later version installed on the machine, it proceeds with the installation.
 - If it does not detect .NET Framework 4.7.2 or later version, a message is displayed to inform you to install it.
 
-  ![.NET Framework Required](/static/img/product_docs/threatprevention/threatprevention/install/netrequired.png)
+  ![.NET Framework Required](/img/product_docs/threatprevention/threatprevention/install/netrequired.png)
 
   You can either exit the wizard and install it manually or walk through the wizard until its last page and install it as part of the Threat Prevention installation process.
 
 On clicking Next, the End-User License Agreement page is displayed.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.png)
 
 __Step 3 –__ On the End-User License Agreement page, select the __I accept the terms in the License Agreement__ checkbox and click __Next__.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/static/img/product_docs/threatprevention/threatprevention/install/customsetup.png)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/threatprevention/install/customsetup.png)
 
 __Step 4 –__  The Custom Setup page displays the Threat Prevention components that are available to install.
 
@@ -46,14 +46,14 @@ __Step 5 –__ By default, the Threat Prevention infrastructure components are i
 
 _(Optional)_ Click __Browse…__ to change the installation location. The Change destination folder page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/static/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.png)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.png)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click __OK__.
 
 The wizard returns to the Custom Setup page. You can use the __Reset__ button to revert to the default settings on the Custom Setup page. Click __Next__ to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/static/img/product_docs/threatprevention/threatprevention/install/emlocationinfo.png)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/emlocationinfo.png)
 
 __Step 6 –__ On the Enterprise Manager Location Information page, the host name or IP address for the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service to communicate with the other Threat Prevention components.
 
@@ -66,13 +66,13 @@ __NOTE:__ As a requirement for using custom managed certificates, you must provi
 - Remote instance of the Administration Console
 - Agent
 
-See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/product_docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics for additional information.
+See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics for additional information.
 
-Checking the __Create Windows Firewall Rules__ box automatically sets the Windows firewall rules needed to open these ports on the server during the installation process. If using a third party firewall, uncheck this option and manually create the necessary firewall rules. See the [Firewall Ports](/docs/product_docs/threatprevention/threatprevention/requirements/ports.md) topic for additional information.
+Checking the __Create Windows Firewall Rules__ box automatically sets the Windows firewall rules needed to open these ports on the server during the installation process. If using a third party firewall, uncheck this option and manually create the necessary firewall rules. See the [Firewall Ports](/docs/threatprevention/threatprevention/requirements/ports.md) topic for additional information.
 
 When the settings are configured, click __Next__.
 
-![Threat Prevention Server Setup wizard - Database Login Information page](/static/img/product_docs/threatprevention/threatprevention/install/databselogininfor.png)
+![Threat Prevention Server Setup wizard - Database Login Information page](/img/product_docs/threatprevention/threatprevention/install/databselogininfor.png)
 
 __Step 7 –__ On the Database Login Information page, provide the SQL Server information for database connection.
 
@@ -94,7 +94,7 @@ __Step 7 –__ On the Database Login Information page, provide the SQL Server in
 
     __NOTE:__ In case of SQL Server authentication, the credentials are tested on clicking __Next__. If the credential authentication fails, the setup does not proceed and a pop-up window displays failure details.
 
-![Threat Prevention Server Setup wizard – Logon page](/static/img/product_docs/threatprevention/threatprevention/install/logon.png)
+![Threat Prevention Server Setup wizard – Logon page](/img/product_docs/threatprevention/threatprevention/install/logon.png)
 
 __Step 8 –__ If Windows authentication is selected, the Logon page is displayed.
 
@@ -105,20 +105,20 @@ __Step 8 –__ If Windows authentication is selected, the Logon page is displaye
 
   __NOTE:__  For Windows authentication, the credentials are tested on clicking __Next__. If the credential authentication fails, the setup does not proceed and a pop-up window displays failure details.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
 
 __Step 9 –__ On the Ready to Install Netwrix Threat Prevention Server page, click __Install__. When finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/static/img/product_docs/activitymonitor/activitymonitor/install/complete.png)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/activitymonitor/install/complete.png)
 
 If .NET Framework 4.7.2 is not installed, the Completed the Netwrix Threat Prevention Server Setup Wizard page displays the __Run .NET installation package__ checkbox. Check it and click __Finish__ to install it.
 
-![Option to install .Net Framework on Complete page](/static/img/product_docs/threatprevention/threatprevention/install/installnet.png)
+![Option to install .Net Framework on Complete page](/img/product_docs/threatprevention/threatprevention/install/installnet.png)
 
 You can also choose to skip the built-in download of .NET Framework 4.7.2 and install it manually.
 
 __Step 10 –__ The installation process begins and the wizard displays the installation status. When installation is complete, click __Finish__.
 
-![Threat Prevention Admin Console desktop icon](/static/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
+![Threat Prevention Admin Console desktop icon](/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
 
-The selected components have been installed, and the Threat Prevention Console icon is now on the desktop. See the [First Launch](/docs/product_docs/threatprevention/threatprevention/install/firstlaunch.md) topic for the next steps.
+The selected components have been installed, and the Threat Prevention Console icon is now on the desktop. See the [First Launch](/docs/threatprevention/threatprevention/install/firstlaunch.md) topic for the next steps.

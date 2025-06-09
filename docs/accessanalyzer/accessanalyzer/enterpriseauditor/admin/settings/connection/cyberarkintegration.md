@@ -17,15 +17,15 @@ In order for Access Analyzer to be able to retrieve service account passwords fr
 
     See the CyberArk [Generate an application hash value](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Generating-Application-Hash-Value.htm) article for additional information.
 
-    ![Application Details page for the CyberArk Application](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/applicationidhash.png)
+    ![Application Details page for the CyberArk Application](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/applicationidhash.png)
 
     Add the generated hash value in the Authentication tab of the Application Details page for the CyberArk Application.
 
-    ![Allowed Machines list for the  CyberArk application](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/allowedmachines.png)
+    ![Allowed Machines list for the  CyberArk application](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/allowedmachines.png)
   - The machine name for the Access Analyzer console needs to be added on the Allowed Machines list for the CyberArk application
 - Once the Secrets Manager installation has completed and the Access Analyzer application has been created, the necessary CyberArk accounts must be given access to the Safes in which the Access Analyzer service accounts are stored. This includes the account which was created automatically during the Secrets Manager installation, as well as the account created automatically as a result of the application creation.
 
-  ![Owners window for the Safe containing the credentials](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/vaultownerswindow.png)
+  ![Owners window for the Safe containing the credentials](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/vaultownerswindow.png)
 
   - The account created during the AIM installation is under the naming convention ```Prov_[COMPUTERNAME]```, where ```COMPUTERNAME``` is the name of the computer on which AIM is installed. This account should be given __Retrieve accounts__, __List accounts__, and __View Safe Members__ rights on the desired Safes.
   - The account created during the application creation has the same name as the application itself and should be given __Retrieve accounts__ rights on the desired Safes
@@ -40,7 +40,7 @@ __Step 1 –__ Navigate to the ```GlobalOptions.xml``` file. Open it with a text
 
 __CAUTION:__ Ensure Access Analyzer is closed when modifying this file.
 
-![GlobalOptions.xml file in Notepad](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/globaloptions.png)
+![GlobalOptions.xml file in Notepad](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/globaloptions.png)
 
 __Step 2 –__ Find the ```<CYBERARKAPPLICATION>``` section of the ```GlobalOptions.xml``` file. Add the Application Id of the configured CyberArk application for the integration in the ```<APPID>``` tag. If required, customize the Command Timeout and Connection Port properties.
 
@@ -70,7 +70,7 @@ The credential information supplied in the User Credentials window must be an ex
 
 If the Connection Profile with a Local Windows Account credential using CyberArk password storage is used to target multiple hosts, then the local credential on each host needs to have the exact same username and password combination.
 
-![Connection view with CyberArk credentials](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentials.png)
+![Connection view with CyberArk credentials](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentials.png)
 
 The Connection view displays ```CyberArk``` in the Source column of the User Credentials list for the selected Connection Profile.
 
@@ -78,7 +78,7 @@ The Connection view displays ```CyberArk``` in the Source column of the User Cre
 
 Match the User Credentials window settings in Access Analyzer with the privilege account properties in CyberArk. These values are case-sensitive, and must be an exact match.
 
-![User Credentials window for Active Directory Account](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentialsad.png)
+![User Credentials window for Active Directory Account](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentialsad.png)
 
 The table below shows the values from your CyberArk configuration that the User Credentials window should be populated with:
 
@@ -93,7 +93,7 @@ The table below shows the values from your CyberArk configuration that the User 
 
 Match the User Credentials window settings in Access Analyzer with the privilege account properties in CyberArk. These values are case-sensitive, and must be an exact match. The Access Analyzer Domain value is ```<HOST>``` and the CyberArk Address property value is the server address.
 
-![User Credentials window for Local Windows Account](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentialslocal.png)
+![User Credentials window for Local Windows Account](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/usercredentialslocal.png)
 
 The table below shows the values from your CyberArk configuration that the User Credentials window should be populated with:
 

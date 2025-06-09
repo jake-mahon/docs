@@ -11,13 +11,13 @@ The entitlement fulfillment can be performed in different ways:
 - Identity Manager suggests the entitlements needed by the new user, prepares the provisioning procedures, and wait for the manual trigger of a manager or security officer.
 - Identity Manager automatically triggers the provisioning of the entitlements needed by the new user, without any more human input.
 
-See the [Role Assignment](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/index.md) topic for additional information on entitlement assignment.
+See the [Role Assignment](/docs/usercube/usercube/integration-guide/role-assignment/index.md) topic for additional information on entitlement assignment.
 
 The automation of the entitlement assignment processes can be really helpful. However, you should not be looking for a full automation, but rather the smart automation of basic assignments such as "birthrights", while the sensitive ones keep a manual process.
   
 See the [
 Automate Assignments
-](/docs/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/index.md) topic for additional information about the assignment automation.
+](/docs/usercube/usercube/user-guide/optimize/assignment-automation/index.md) topic for additional information about the assignment automation.
 
 ## Offboarding
 
@@ -33,11 +33,11 @@ These start and end dates can be configured to be different from the actual star
   
 These dates should then be part of entity types' properties (for example as ```StartDate``` and ```EndDate```), in order to be used in [
 Record Section
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and [
 Context Rule
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
-![Identities - Validity Period](/static/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.png)
+![Identities - Validity Period](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.png)
 
 At the start date, the resource is created and a few entitlements are assigned to the identity.
 

@@ -17,7 +17,7 @@ Depending on the type of user, they will either be allocated their password in N
 
 Various rights are required in order to issue or change user passwords. One prerequisite is the user right __Can display organisational structure module__. __Read__ and __write__ rights for the user are also required. Finally, membership of the user is required. Normally, the user themselves and the user who created or imported the user have the right to change their password.
 
-![Permission for user](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_1-en.png)
+![Permission for user](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_1-en.png)
 
 ### Assigning and changing passwords
 
@@ -25,17 +25,17 @@ As already explained, local users are directly assigned their initial password w
 
 The passwords can be directly assigned or changed via the ribbon. Naturally, it is also possible to select multiple users if e.g. several imported users should be assigned the same password.
 
-![change password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_2-en.png)
+![change password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_2-en.png)
 
 ### Change password on next login
 
 Even if several users receive the same initial password, it is sensible to force them to change it to an individual password. There is a corresponding option for this purpose. In the case of __local users__, this can be activated during the creation of the user. In the case of __users in end-to-end mode__, this option is directly activated during import for security reasons. This option is automatically deactivated after the user has successfully logged in and changed the password.
 
-![change password next login](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_3-en.png)
+![change password next login](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_3-en.png)
 
 ### Security of passwords
 
-To guarantee that passwords are sufficiently strong, it is recommended that corresponding [Password rules](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md) are created. It is especially important to ensure here that user names are excluded. The password rule then still needs to be defined as a user password rule.
+To guarantee that passwords are sufficiently strong, it is recommended that corresponding [Password rules](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md) are created. It is especially important to ensure here that user names are excluded. The password rule then still needs to be defined as a user password rule.
 
 ## Logging in to the database
 
@@ -45,9 +45,9 @@ The process for logging into the database differs depending on the type of user.
 
 Local users simply log in using their user name and the assigned password.
 
-![login username](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_4-en_415x238.png)
+![login username](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_4-en_415x238.png)
 
-![login password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_5-en.png)
+![login password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_5-en.png)
 
 ## AD user
 
@@ -55,7 +55,7 @@ If only one domain has been configured, the users from AD can also log in with t
 
 The name of the domain must be entered as it is configured in the AD profile under __Domains__. The option __Other domain names__ can be used to save other forms of the domain name.
 
-![AD User](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_6-en.png)
+![AD User](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_6-en.png)
 
 NOTE: 
 The logon to the client is automatically forwarded to the Autofill Add-on and other clients on the same computer. The same applies to logging on to the Autofill Add-on.

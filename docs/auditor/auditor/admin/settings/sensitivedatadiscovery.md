@@ -117,14 +117,14 @@ Netwrix suggests the following integration scenarios:
 
 For NDC SQL Database Provider:
 
-Review your sensitive data in Data Discovery and Classification reports. Refer to the following Netwrix Auditor help center article for more information about these reports: [Data Discovery and Classification Reports](/docs/product_docs/auditor/auditor/admin/reports/types/datadiscoveryclassification.md).
+Review your sensitive data in Data Discovery and Classification reports. Refer to the following Netwrix Auditor help center article for more information about these reports: [Data Discovery and Classification Reports](/docs/auditor/auditor/admin/reports/types/datadiscoveryclassification.md).
 
 ForNDC Endpoint Provider:
 
 - Browse your data with Netwrix search.
 - __NOTE:__ Shortly after the data collection, changes related to sensitive content are reported without data categories. For example, if a user adds some sensitive data to the SharePoint Online document that initially does not contain sensitive data; this will be reported as document modification with empty "_data categories_" field. Another example: a user creates a new document containing sensitive data on a file server; this will be reported as a file add with empty "data categories" field. In this case, you have to wait until Netwrix Auditor processes information collected by NDC. It takes a while depending on a number of processed objects in your infrastructure and reindexing settings configured in Netwrix Data Classification. See the Manage Sources and Control Data Processing topic in the [Netwrix Data Classification Documentation](https://helpcenter.netwrix.com/category/dataclassification) for additional information.
 - Click the __Select__ column in the Tools menu and review data categories (taxonomies) of your sensitive documents.
-- Use filtering capabilities to narrow your search results. See the [Use Filters in Advanced Mode](/docs/product_docs/auditor/auditor/admin/search/filteradvanced.md) topic for additional information.
+- Use filtering capabilities to narrow your search results. See the [Use Filters in Advanced Mode](/docs/auditor/auditor/admin/search/filteradvanced.md) topic for additional information.
 - Create an alert triggered by specific actions with your sensitive data.
 
-___RECOMMENDED:___ Netwrix recommends enable threshold to trigger the new alert. In this case, a single alert will be sent instead of many alerts. This can be helpful when Netwrix Auditor detects many activity records matching the filters you specified. See the [Alerts](/docs/product_docs/auditor/auditor/admin/alertsettings/overview.md) topic for additional information.
+___RECOMMENDED:___ Netwrix recommends enable threshold to trigger the new alert. In this case, a single alert will be sent instead of many alerts. This can be helpful when Netwrix Auditor detects many activity records matching the filters you specified. See the [Alerts](/docs/auditor/auditor/admin/alertsettings/overview.md) topic for additional information.

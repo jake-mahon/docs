@@ -17,7 +17,7 @@ Before the Access Analyzer File System solution can scan for Azure Information P
 5. [Azure Information Protection Target Requirements](#Azure-Information-Protection-Target-Requirements)
 6. Enable settings in FSAA Data Collector in Access Analyzer.
 
-   - See the FileSystemAccess Data Collector section in the [File System Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information
+   - See the FileSystemAccess Data Collector section in the [File System Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information
 
 ## Prerequisites
 
@@ -121,7 +121,7 @@ Before Access Analyzer can scan for AIP labels, two configurations must be done 
 
 ### Azure Connection Profile
 
-To collect tags for files protected with Azure Information Protection, an Azure connection profile must be configured in Access Analyzer before an FSAA scan runs. See the [Global Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/overview.md) topic for additional information on how to set up a connection profile at the global level.
+To collect tags for files protected with Azure Information Protection, an Azure connection profile must be configured in Access Analyzer before an FSAA scan runs. See the [Global Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/overview.md) topic for additional information on how to set up a connection profile at the global level.
 
 __Step 1 –__ In Access Analyzer, add a credential for an Azure Active Directory account type to the existing Connection Profile used for File System scanning. Supply the Client ID field with the __AppPrincipalID__ and the Key field with the __Symmetric key__ created upon creation of the new service principal.
 
@@ -162,4 +162,4 @@ For SEEK System Scans:
 - Scoping Options – if needed, scope to a specific subset of resources on a selected host
 - Sensitive Data Settings – Select __Decrypt Files Protected by Azure Information Protection__. This page only applies for SEEK scans.
 
-See the FileSystemAccess Data Collector section in the [File System Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information on these scoping options.
+See the FileSystemAccess Data Collector section in the [File System Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information on these scoping options.

@@ -6,4 +6,4 @@ Open __Flashlight__ > __Support__ > __Stop Scripts__
 
 This stops the next execution of the scheduled scripts.
 
-![Stop Scripts](/static/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/stop_scripts.png)
+![Stop Scripts](/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/stop_scripts.png)

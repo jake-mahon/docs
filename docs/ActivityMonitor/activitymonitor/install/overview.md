@@ -1,6 +1,6 @@
 # Installation
 
-This topic describes the console installation and agent deployment the process for Activity Monitor. Prior to installing the application, ensure that all requirements have been met. See the [Requirements ](/docs/product_docs/activitymonitor/activitymonitor/requirements/overview.md) topic for additional information.
+This topic describes the console installation and agent deployment the process for Activity Monitor. Prior to installing the application, ensure that all requirements have been met. See the [Requirements ](/docs/activitymonitor/activitymonitor/requirements/overview.md) topic for additional information.
 
 ## Software Compatibility & Versions
 

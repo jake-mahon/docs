@@ -2,7 +2,7 @@
 
 Use the Parameters page to enter the parameter values.
 
-![Web Request Action Module Wizard Parameters page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/parameters.png)
+![Web Request Action Module Wizard Parameters page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/parameters.png)
 
 Enter parameter values using the following options:
 
@@ -28,7 +28,7 @@ Enter parameter values using the following options:
 
 Use the Custom Attribute Editor window to create a custom attribute using the existing attributes and advanced functions.
 
-![Custom Attribute Editor Window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/customattributeeditor.png)
+![Custom Attribute Editor Window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/customattributeeditor.png)
 
 Create custom attributes using the following options:
 

@@ -2,7 +2,7 @@
 
 Endpoint Policy Manager Remote Work Delivery Manager places events (like what is shown in Figure 57) in the Endpoint Policy Manager log (within Applications and Services Log). All Endpoint Policy Manager Remote Work Delivery Manager events will have the Endpoint Policy Manager Remote Work Delivery Manager Client source type.
 
-![tips_security_and_troubleshooting_8](/static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_8.png)
+![tips_security_and_troubleshooting_8](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_8.png)
 
 Figure 57. Endpoint Policy Manager Remote Work Delivery Manager events can be found in the Endpoint Policy Manager node within Application and Services.
 

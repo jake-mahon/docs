@@ -5,7 +5,7 @@ The Options page is provides additional options for collecting the Active Direct
 - Scan Active Directory Permissions
 - Scan Active Directory Audits
 
-![ADPermissions Data Collector wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![ADPermissions Data Collector wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The configurable options are:
 

@@ -11,18 +11,18 @@ The Scan Options page is a wizard page for the following categories:
 
 Follow the steps to create the Access Token:
 
-![Dropbox Access Auditor Data Collector Wizard Scan Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.png)
+![Dropbox Access Auditor Data Collector Wizard Scan Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.png)
 
 __Step 1 –__ Click the __Authorize__ button to access the Dropbox Authentication page.
 
-![Dropbox Log in page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptionsdropboxlogin.png)
+![Dropbox Log in page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptionsdropboxlogin.png)
 
 __Step 2 –__ On the Dropbox Authentication page, log in as the Team Administrator.
 
-![Copy Access Token](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptionsaccesstoken.png)
+![Copy Access Token](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptionsaccesstoken.png)
 
 __Step 3 –__ Once the Access Token has been generated, click __Copy to Clipboard__. Click __Next__ to finish choosing the configuration options or click __Cancel__ to close the Dropbox Access Auditor Data Collector Wizard.
 
-Create a Connection Profile using this access token as the credential. See the [Custom Dropbox Connection Profile & Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md) topic for additional information on configuring the Dropbox credential.
+Create a Connection Profile using this access token as the credential. See the [Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md) topic for additional information on configuring the Dropbox credential.
 
 _Remember,_ assign this Connection Profile to the job group or job where the host assignment for the Dropbox environment to be targeted has been assigned.

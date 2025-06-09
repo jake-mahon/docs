@@ -4,7 +4,7 @@
 
 The available actions can be selected via the context menu that is accessed using the right mouse button or also via the ribbon.
 
-![Managing databases](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/installation_with_parameters_234-en.png)
+![Managing databases](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/installation_with_parameters_234-en.png)
 
 ## Database settings
 
@@ -14,7 +14,7 @@ Multifactor authentication
 
 This area can be used to configure which services will be used for multi-factor authentication. The available services are: RSA Secure ID, SafeNet, YubiKey NEO, and YubiKey Nano. After selecting the required service, specify the respective access data. You must also configure various services. In this case, you can specify on the client which methods will be used by the individual users.
 
-Further information on this subject can be found in the section[Multifactor Authentication](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
+Further information on this subject can be found in the section[Multifactor Authentication](/docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
 
 PKCS#11
 

@@ -18,18 +18,18 @@ User rights
 
 Tags can be directly added when creating new records and also when editing records. The procedure is the same. In Edit mode, the tags are always at the bottom.
 
-![Tags in dataset](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_38-en.png)
+![Tags in dataset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_38-en.png)
 
 The operation is intuitive. From the third entered letter, existing tags are searched for full text. If the
 desired tag has been found, it can be added. Both the navigation with mouse, thus also with keyboard, is possible. If a new tag is to be created, this can be done directly with “Return”.
 
-![installation_with_parameters_39](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_39.png)
+![installation_with_parameters_39](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_39.png)
 
 ## Tags in the ribbon
 
 If you edit a record and mark an existing or new tag, a corresponding content tab appears in the ribbon. Here, the tag manager can be opened as well as the colour and description of the tag can be adapted directly.
 
-![Tags in password](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_40-en.png)
+![Tags in password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/installation_with_parameters_40-en.png)
 
 ## Management of tags
 

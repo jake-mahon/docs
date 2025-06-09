@@ -8,15 +8,15 @@ The Activity Monitor can be configured to monitor the following:
 
 It provides the ability to feed activity data to SIEM products. The following dashboards have been specifically created for Activity Monitor event data:
 
-- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/product_docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/product_docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
+- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
 
 - Netwrix Access Analyzer (formerly Enterprise Auditor)
 - Netwrix Threat Manager
 
-Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Windows File Server Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/windowsfile/activity.md) topic for additional information.
+Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/config/windowsfile/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the server. It cannot be deployed to a proxy server.
 
@@ -26,15 +26,15 @@ Follow the steps to add a Windows host to be monitored, if it was not configured
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor deployed on the Windows file server. Click __Next__.
 
-![Add Host page with Windows selected](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostwindows.png)
+![Add Host page with Windows selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostwindows.png)
 
 __Step 3 –__ On the Add Host page, select the Agent’s Windows host radio button. Remember, the agent must be deployed on the Windows file server to be monitored. If desired, add a __Comment__. Click __Next__.
 
-![Protocols page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/protocolspage.png)
+![Protocols page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/protocolspage.png)
 
 __Step 4 –__ On the Protocols page, select which protocols to monitor. The protocols that can be monitored are:
 
@@ -44,7 +44,7 @@ __Step 4 –__ On the Protocols page, select which protocols to monitor. The pro
 
 Click __Next__.
 
-![Configure Operations page for Windows host](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationswindows.png)
+![Configure Operations page for Windows host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationswindows.png)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__,__Directory Operations__, __Share Operations__ and __VSS Opertions__ to be monitored. Users may also filter events by operation type by selecting the radio button:
 
@@ -64,7 +64,7 @@ __CAUTION:__ Enabling the Suppress subsequent Read operations in the same folder
 
 Click __Next__.
 
-![Configure Basic Options page for Windows](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionswindows.png)
+![Configure Basic Options page for Windows](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionswindows.png)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the target host. Select the desired options:
 
@@ -78,11 +78,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where to log activity page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileouputpage.png)
+![File Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileouputpage.png)
 
 __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -96,7 +96,7 @@ __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity_
 
 Click __Next__.
 
-![Syslog Output page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -107,25 +107,25 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 - The Test button sends a test message to the Syslog server to check the connection. A green check mark or red will determine whether the test message has been sent or failed to send. Messages vary by Syslog protocol:
   - UDP – Sends a test message and does not verify connection
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click __Finish__.
 
-![Activity Monitor with Windows Host added](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorwindows.png)
+![Activity Monitor with Windows Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorwindows.png)
 
-The added Windows file server host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added Windows file server host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Windows File Server
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [Windows Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.md)
-- [Inactivity Alerts Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Windows Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

@@ -133,8 +133,8 @@ You can filter the data displayed in a report. Select a filter, operator, and va
 
 You can select more than one filter.
 
-For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/product_docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
+For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
 
 Subscribe to Activity Reports
 
-You can subscribe to Activity reports to receive them automatically via email, or have them uploaded to a specified folder in SharePoint Online. See the [Subscriptions](/docs/product_docs/1secure/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
+You can subscribe to Activity reports to receive them automatically via email, or have them uploaded to a specified folder in SharePoint Online. See the [Subscriptions](/docs/1secure/1secure/admin/searchandreports/subscriptions.md) topic for additional information.

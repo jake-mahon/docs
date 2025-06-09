@@ -2,7 +2,7 @@
 
 ## Maximum encryption
 
-[Active Directory link](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md) with active end-to-end encryption currently offers __maximum security__. Only users, organisational units and roles are imported. The permissions and the hierarchical relationship between the individual objects needs to be separately configured in Netwrix Password Secure. The advantage offered by end-to-end encryption is that Active Directory is “defused” as a possible insecure gateway. In Master Key mode, users who control Active Directory receive de facto complete access to all passwords because resetting a Windows user name enables users to log in under another person’s name. Active Directory is thus the leading system. __Using an active E2EE connection, users require their own password for Netwrix Password Secure__. There is thus no access to users’ data via Active Directory.
+[Active Directory link](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md) with active end-to-end encryption currently offers __maximum security__. Only users, organisational units and roles are imported. The permissions and the hierarchical relationship between the individual objects needs to be separately configured in Netwrix Password Secure. The advantage offered by end-to-end encryption is that Active Directory is “defused” as a possible insecure gateway. In Master Key mode, users who control Active Directory receive de facto complete access to all passwords because resetting a Windows user name enables users to log in under another person’s name. Active Directory is thus the leading system. __Using an active E2EE connection, users require their own password for Netwrix Password Secure__. There is thus no access to users’ data via Active Directory.
 
 ## Relevant rights
 
@@ -18,7 +18,7 @@ The following options are required to add new profiles.
 
 The process for creating a new profile is started via the icon "manage profiles" on the ribbon.
 
-![New AD profile](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_1-en.png)
+![New AD profile](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_1-en.png)
 
 NOTE: "End-to-end" needs to be set in the "Encryption" field
 
@@ -38,19 +38,19 @@ A __user__ is required to access the AD. The user should be formatted as follows
 
 The import is started directly in the ribbon. A wizard guides the user through the entire operation.
 
-![Import icon](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.png)
+![Import icon](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.png)
 
 ## Organisational structure
 
 First, an organisational unit is selected for the import. If there are no organisational units in the database yet, as in this example, the data is imported into the __main organisational unit__.
 
-![Import wizard/organisational structure](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.png)
+![Import wizard/organisational structure](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.png)
 
 ## Active Directory objects
 
 In the next step, select the relevant profile that should be used for the import. Then, select the organisational units and/or users for the import. A search is available for this purpose.
 
-![Import wizard/AD objects](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.png)
+![Import wizard/AD objects](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.png)
 
 It can be seen that the organisational units __Jupiter__ and __Contoso__ contain items to be imported. The organisational units themselves will not be imported. The check next to the group __Accounting__ indicates that the group itself will be imported along with some of its sub-elements.
 
@@ -62,7 +62,7 @@ There are different symbols which indicate the elements to be imported.
 
 A context menu that is accessed using the right mouse button is available within the list that provides helpful functions for selecting the individual elements.
 
-![context menu](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.png)
+![context menu](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.png)
 
 - Select sub-objects selects all sub-objects that are located directly below the current object
 - Deselect sub-objects removes tags from all sub-objects that are located directly below the current object
@@ -77,7 +77,7 @@ NOTE: If individual users, organisational units, or roles cannot be selected for
 
 The last page summarizes which objects will be edited and in what form. It specifies the names of the elements along with their descriptions. The __Status__ column specifies whether the object is added, updated, or disabled. The last column specifies the organisational unit into which the element is imported. The number of objects is added together at the bottom.
 
-![Import wizard/Summary](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.png)
+![Import wizard/Summary](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.png)
 
 NOTE: Depending on the amount of data, it may take several minutes to create the summary.
 
@@ -85,7 +85,7 @@ NOTE: Depending on the amount of data, it may take several minutes to create the
 
 The import itself is carried out by the server in the background. The individual elements then appear in the list one by one. This may take some time, depending on the amount of import data. If the import is terminated, you will receive a confirmation.
 
-![confirmation](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.png)
+![confirmation](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.png)
 
 NOTE: As end-to-end encryption is retained in this mode, the server does not receive a key to match already imported users with the AD. There is thus no synchronization with the AD. Similarly, no memberships can be imported. After the import, users must be manually assigned to the appropriate organisational units and roles.
 

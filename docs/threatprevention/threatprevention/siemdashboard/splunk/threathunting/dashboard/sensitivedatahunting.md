@@ -4,7 +4,7 @@ The Sensitive Data Hunting option uses the File Name field to determine which fi
 
 The Sensitive Data Hunting option contains the following card:
 
-![Sensitive Data Hunting](/static/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/sensitivedatahunting.png)
+![Sensitive Data Hunting](/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/sensitivedatahunting.png)
 
 - Last Fifty Events Related to File Name – Shows the details of the last fifty File System events recorded in the specified timeframe
 

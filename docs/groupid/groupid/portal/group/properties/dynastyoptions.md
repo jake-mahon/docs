@@ -41,7 +41,7 @@ You can view and change the attributes for parent and middle Dynasties.
 - Select an attribute and click __Edit__ to modify it.
 - Click __Remove__ to remove the selected attribute.
 
-See the [Dynasty Options page](/docs/product_docs/groupid/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md) for details.
+See the [Dynasty Options page](/docs/groupid/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md) for details.
 
 __Inheritance__
 
@@ -69,7 +69,7 @@ When you create a managerial Dynasty, you specify a Dynasty structure that deter
 
 For example, you specify whether you want to create a separate Smart Group for the direct reports of the top manager and sub-level managers, or add all direct reports of the top manager and sub-level managers as members of a single group.
 
-You can view and change these structure options for parent and middle Dynasties. For details, see the [Dynasty Options page (Managerial Dynasty)](/docs/product_docs/groupid/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
+You can view and change these structure options for parent and middle Dynasties. For details, see the [Dynasty Options page (Managerial Dynasty)](/docs/groupid/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
 
 NOTE: (1) If the __Set manager as owner__ check box is selected, the __Always inherit__ option is set for [Inheritance](#Inheritance), and the managedBy attribute is specified for inheritance, the __Set manager as owner__ option takes priority over the managedBy attribute inheritance. Hence, the manager of a child Dynasty would be set as its respective primary owner.  
 (2) When you clear the __Set manager as owner__ check box, the manager set as the primary owner of a parent Dynasty will not be removed. However, when the Dynasty is updated, the primary owner of a child Dynasty may be updated,
@@ -80,7 +80,7 @@ __Attributes__
 
 Set a custom attribute to create a managerial lineage in the context of this attribute.
 
-See the [Dynasty Options page (Managerial Dynasty)](/docs/product_docs/groupid/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)for a discussion on attributes.
+See the [Dynasty Options page (Managerial Dynasty)](/docs/groupid/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)for a discussion on attributes.
 
 In addition to the scenarios discussed, the following also apply on Dynasty update:
 

@@ -2,7 +2,7 @@
 
 Use the Set/Reset Users Password page to set or reset user passwords with the specified value.
 
-![Active Directory Action Module Wizard Set/Reset Users Password page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/setresetpassword.png)
+![Active Directory Action Module Wizard Set/Reset Users Password page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/setresetpassword.png)
 
 Use the following options to configure the action:
 

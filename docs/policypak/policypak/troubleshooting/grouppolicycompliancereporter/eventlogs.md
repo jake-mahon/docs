@@ -2,7 +2,7 @@
 
 The Endpoint Policy Manager GPCR client (admin console) logs warnings and errors to the Windows Event Viewer in the application log. Because a lot of data could be in the log, use the filters shown in Figure 76 to make a custom view showing only Endpoint Policy Manager GPCR events in the application log.
 
-![tuning_and_troubleshooting_17](/static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_17.png)
+![tuning_and_troubleshooting_17](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_17.png)
 
 Figure 76. Creating a custom view for Endpoint Policy Manager GPCR events.
 

@@ -4,7 +4,7 @@ Policy records determine the non compliance level of changes. Given that changes
 
 This diagram shows the overall process of what happens when you update a policy:
 
-![modifypolicy-cr](/static/img/product_docs/strongpointfornetsuite/change_management/modifypolicy-cr.png)
+![modifypolicy-cr](/img/product_docs/strongpointfornetsuite/change_management/modifypolicy-cr.png)
 
 ## Change a Policy
 
@@ -34,8 +34,8 @@ To deactivate a policy:
 - __Policies__: Select the policy you want to deactivate.
 
   
-![deactivatepolicy](/static/img/product_docs/strongpointfornetsuite/change_management/deactivatepolicy.png)3. Get the Change Request __Approved__.
+![deactivatepolicy](/img/product_docs/strongpointfornetsuite/change_management/deactivatepolicy.png)3. Get the Change Request __Approved__.
 4. Click __Save__
 5. Check the __Inactive__ box.
   
-![inactivebox](/static/img/product_docs/strongpointfornetsuite/change_management/inactivebox.png)6. Click __Save__
+![inactivebox](/img/product_docs/strongpointfornetsuite/change_management/inactivebox.png)6. Click __Save__

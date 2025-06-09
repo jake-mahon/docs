@@ -8,36 +8,36 @@ __CAUTION:__ If User Account Control (UAC) is enabled on the server, ensure the 
 
 __Step 1 –__ Run the __NetwrixEnterpriseAuditor.exe__ executable to open the Access Analyzer Setup Wizard.
 
-![Setup Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 __Step 2 –__ On the Welcome page, click __Next__ to begin the installation.
 
-![ End User License Agreement](/static/img/product_docs/activitymonitor/activitymonitor/install/eula.png)
+![ End User License Agreement](/img/product_docs/activitymonitor/activitymonitor/install/eula.png)
 
 __Step 3 –__ On the End-User License Agreement page, read the End User License Agreement, then check the __I accept the terms in the License Agreement__ box and click __Next__.
 
-![Destinations Folder page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/destination.png)
+![Destinations Folder page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/filesystemproxy/destination.png)
 
 __Step 4 –__ On the Destination Folder page, click __Change__ to select the folder location to install Access Analyzer. The default destination folder is ```C:\Program Files (x86)\STEALTHbits\StealthAUDIT\```. Click __Next__ to continue.
 
 |  |  |  |
 | --- | --- | --- |
-| ![License File page](/static/img/product_docs/activitymonitor/activitymonitor/install/agent/license.png) |  | ![License File page with mapped file](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensemapped.png) |
+| ![License File page](/img/product_docs/activitymonitor/activitymonitor/install/agent/license.png) |  | ![License File page with mapped file](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensemapped.png) |
 | Default License File Page |  | Mapped License File |
 
 __Step 5 –__ On the License File page, click __Browse__ and navigate to your __StealthAUDIT.lic__ file. When the path to the file is visible in the textbox, click __Next__.
 
 __NOTE:__ The license file must be stored on the Access Analyzer Console server before the installation begins.
 
-![License Features page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensefeatures.png)
+![License Features page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/licensefeatures.png)
 
 __Step 6 –__ The License Features page displays a list of all features covered by the imported license. It also displays the name of the organization which owns the license, the expiration date, and the host limit. These are the features that will be installed. Click __Next__.
 
-![Ready to install Netwrix Access Governance page](/static/img/product_docs/activitymonitor/activitymonitor/install/ready.png)
+![Ready to install Netwrix Access Governance page](/img/product_docs/activitymonitor/activitymonitor/install/ready.png)
 
 __Step 7 –__ On the Ready to install Access Analyzer page, click __Install__ to begin the installation.
 
-![Setup Wizard Completed page](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Setup Wizard Completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
 
 __Step 8 –__ When the installation has completed, click __Finish__ to exit the wizard.
 

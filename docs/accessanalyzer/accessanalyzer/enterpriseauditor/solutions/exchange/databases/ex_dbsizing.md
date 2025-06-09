@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __3. Databases__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_DBSizing Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/dbsizinganalysis.png)
+![Analysis Tasks for the EX_DBSizing Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/dbsizinganalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -16,7 +16,7 @@ The following analysis tasks are selected by default:
 - SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 6 months. It can be modified.
-  - See the [Exchange History Retention](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
+  - See the [Exchange History Retention](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
 - 03. Database details table – Creates the SA\_EX\_DBSizing\_StoreDetails table, accessible under the job’s Results node
 - 04. 30 day Database growth table – Creates the SA\_EX\_DBSizing\_30DayGrowth table, accessible under the job’s Results node
 - 05. 7 day Database growth table – Creates the SA\_EX\_DBSizing\_7DayGrowth table, accessible under the job’s Results node
@@ -27,7 +27,7 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
 - 01. Deletes all Stored Data
 
-  - See the [Troubleshooting Data Collection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX\_DBSizing Job produces the following pre-configured reports:
 

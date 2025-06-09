@@ -8,7 +8,7 @@ Navigate to the __Jobs > MySQL > Sensitive Data > MySQL\_SensitiveData > Con
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/sensitivedata/analysismysqlsensitivedata.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/sensitivedata/analysismysqlsensitivedata.png)
 
 The default analysis tasks are:
 

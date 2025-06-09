@@ -21,4 +21,4 @@ The following example declares a rule to classify the Active Directory accounts 
 | ResourceType   required | __Type__    Int64   __Description__   Represents the resource type definition. |
 | ResourceTypeIdentificationConfidenceLevel   default value: 0 | __Type__    Int32   __Description__   Defines the confidence level used to match the resources. |
 | SourceMatchedConfidenceLevel   default value: false | __Type__    Boolean   __Description__   Defines the confidence level used to match the sources. |
-| TargetExpression   optional | __Type__    String   __Description__   Defines the C# expression used to classify the resources. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| TargetExpression   optional | __Type__    String   __Description__   Defines the C# expression used to classify the resources. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |

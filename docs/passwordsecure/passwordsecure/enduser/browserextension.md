@@ -7,24 +7,24 @@ Step 1 – Is your browser extension already installed? You can find out by:
 - Looking for this icon next to the URL input field in your browser. See the icon in the top bar of the screenshot below.
 - Opening the Password Secure Web App, logging in and scrolling down: If not installed yet, you can find the download link in the footer. See the Download Edge Extension link in the bottom center of the screenshot below.
 
-![downloadextension](/static/img/product_docs/passwordsecure/passwordsecure/enduser/downloadextension.png)
+![downloadextension](/img/product_docs/passwordsecure/passwordsecure/enduser/downloadextension.png)
 
 NOTE: If you need more information about installing the browser extension, please visit the following topic in our documentation: [Installation Browser Extension](https://helpcenter.netwrix.com/bundle/PasswordSecure_9.0/page/Content/PasswordSecure/Installation/Browser/Installation_Browser_Add-on.htm)
 
 Step 2 – After downloading, the browser extension is simply dragged and dropped into the browser. See the Get button in the upper-right section of the screenshot below.
 
-![getextension](/static/img/product_docs/passwordsecure/passwordsecure/enduser/getextension.png)
+![getextension](/img/product_docs/passwordsecure/passwordsecure/enduser/getextension.png)
 
 Step 3 – After confirming a security question, it is installed, and an icon appears in the menu bar to "add the extension".
 
-![addextension](/static/img/product_docs/passwordsecure/passwordsecure/enduser/addextension.png)
+![addextension](/img/product_docs/passwordsecure/passwordsecure/enduser/addextension.png)
 
 Step 4 – Please open or reload the web application of Netwrix Password Secure (see link in email from your administrator) to connect your user profile with the extension. See the lock icon in the screenshot below.
 
-![extensionadded](/static/img/product_docs/passwordsecure/passwordsecure/enduser/extensionadded.png)
+![extensionadded](/img/product_docs/passwordsecure/passwordsecure/enduser/extensionadded.png)
 
 Step 5 – Now click on this icon in your browser to open the browser extension. See the Adopt Select __Adopt Web Application profile__. Done!
 
-![nodatabaseprofile](/static/img/product_docs/passwordsecure/passwordsecure/enduser/nodatabaseprofile.png)
+![nodatabaseprofile](/img/product_docs/passwordsecure/passwordsecure/enduser/nodatabaseprofile.png)
 
 RECOMMENDED: If not done yet, bookmark this page to have it quickly at hand!

@@ -1,6 +1,6 @@
 # ADActivity Data Collector
 
-The ADActivity Data Collector integrates with the Netwrix Activity Monitor by reading the Active Directory activity log files. It has been preconfigured within the Active Directory Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Active Directory Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md) topic for additional information.
+The ADActivity Data Collector integrates with the Netwrix Activity Monitor by reading the Active Directory activity log files. It has been preconfigured within the Active Directory Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Active Directory Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md) topic for additional information.
 
 Protocols
 
@@ -21,9 +21,9 @@ Permissions
 
 The ADActivity Data Collector is configured through the Active Directory Activity DC wizard, which contains the following wizard pages, which change based up on the query category selected:
 
-- [ADActivity: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/category.md)
-- [ADActivity: SAM Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/connection.md)
-- [ADActivity: Share](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/share.md)
-- [ADActivity: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/scope.md)
-- [ADActivity: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/results.md)
-- [ADActivity: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/summary.md)
+- [ADActivity: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/category.md)
+- [ADActivity: SAM Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/connection.md)
+- [ADActivity: Share](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/share.md)
+- [ADActivity: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/scope.md)
+- [ADActivity: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/results.md)
+- [ADActivity: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/summary.md)

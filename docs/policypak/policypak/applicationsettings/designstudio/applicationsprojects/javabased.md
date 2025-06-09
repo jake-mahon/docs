@@ -10,25 +10,25 @@ The link for the installable Java Access Bridge can be hard to find. Email Endpo
 
 The second step to capture the UIs of Java-based applications is to disable the user account control. To do this, select "Change User Account Control settings" from the Start Menu, as shown in Figure 199.
 
-![special_applications_and_project](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project.png)
+![special_applications_and_project](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project.png)
 
 Figure 199. Disabling the user account control settings.
 
 Then, slide the slider all the way to the bottom, as shown in Figure 200.
 
-![special_applications_and_project_1](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_1.png)
+![special_applications_and_project_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_1.png)
 
 Figure 200. Changing the slider to "Never notify."
 
 At this point, reboot your Endpoint Policy Manager DesignStudio machine. When you next run Endpoint Policy Manager Application Settings Manager, the Tools|Options|Java tab will change to what's shown in Figure 201. This will indicate that the Java Access Bridge has been loaded successfully and remind you that UAC controls need to be off.
 
-![using_the_grays_wizard_13](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_grays_wizard_13.png)
+![using_the_grays_wizard_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_grays_wizard_13.png)
 
 Figure 201.  The Java Access Bridge has been loaded successfully.
 
 At this point, you can try to capture your application's UI if it's Java-based, like OpenOffice and other similar applications. Note that some Java-based applications will only capture when assistive technology is turned on. In Figure 202, OpenOffice dialogs can be captured when this checkbox is checked first.
 
-![special_applications_and_project_2](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_2.png)
+![special_applications_and_project_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_2.png)
 
 Figure 202.; Turning on assistive technology.
 

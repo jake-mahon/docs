@@ -1,6 +1,6 @@
 # Dynamic Collections
 
-Certain options in the upper-left corner of the [Add New Collection Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#Add-New-Collection-Window) are only enabled for the following collection categories:
+Certain options in the upper-left corner of the [Add New Collection Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#Add-New-Collection-Window) are only enabled for the following collection categories:
 
 - Domains & Servers – [Dynamic Domains & Servers Collection Table Requirements](#Dynamic-Domains-Servers-Collection-Table-Requirements)
 - Objects – [Dynamic Objects Collection Table Requirements](#Dynamic-Objects-Collection-Table-Requirements)
@@ -9,9 +9,9 @@ Certain options in the upper-left corner of the [Add New Collection Window](/doc
 - Hosts – [Dynamic Hosts Collection Table Requirements](#Dynamic-Hosts-Collection-Table-Requirements)
 - File Paths – [Dynamic File Paths Collection Table Requirements](#Dynamic-File-Paths-Collection-Table-Requirements)
 
-![Options on the Add New Collection window](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.png)
+![Options on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.png)
 
-- The _I will provide a list_ option button enables the default setting for a static collection. See the [Add New Collection Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#Add-New-Collection-Window) topic to manually add a new collection.
+- The _I will provide a list_ option button enables the default setting for a static collection. See the [Add New Collection Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#Add-New-Collection-Window) topic to manually add a new collection.
 - The _I want a list to come from the database table_ option button enables a dynamic collection. Enter the table name in the textbox that appears or select it from the drop-down menu.
 
 The dynamic collection tables can be populated manually or with a third-party product as long as they meet the table requirements for the intended collection category.

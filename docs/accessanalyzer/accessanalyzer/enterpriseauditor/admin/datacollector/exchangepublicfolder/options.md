@@ -2,7 +2,7 @@
 
 The Options page provides additional configuration options for the query. It is a wizard page for all of the categories. Available options vary based on the category selected.
 
-![Exchange Public Folder Data Collector Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Exchange Public Folder Data Collector Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The Options page contains the following options:
 
@@ -11,7 +11,7 @@ The Options page contains the following options:
 
   - KB
   - MB
-- Include subfolders in message counters – This option is only available for the Contents category. When this option is selected, it will include subfolders in message counters, according to the Scope page settings. See the [ExchangeMetrics: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/scope.md) topic for additional information.
+- Include subfolders in message counters – This option is only available for the Contents category. When this option is selected, it will include subfolders in message counters, according to the Scope page settings. See the [ExchangeMetrics: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/scope.md) topic for additional information.
 - Large attachment threshold (Kb) – Configure the desired size limit for attachments. The default value is 500.
 
 In the Attachment types section, configure attachment count types.

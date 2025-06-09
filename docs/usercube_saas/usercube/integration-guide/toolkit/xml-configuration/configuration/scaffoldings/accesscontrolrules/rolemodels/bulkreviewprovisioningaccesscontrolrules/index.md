@@ -12,7 +12,7 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Review Provisioning Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md): Generates the permissions to access the provisioning review pages for a given entity type and profile.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md): Generates the permissions to access the provisioning review pages for a given entity type and profile.
 
 ## Properties
 

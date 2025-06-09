@@ -8,15 +8,15 @@ A reverse proxy is usually used when:
 
 - needing to encrypt the requests from/to end-users on the one hand, and on the other hand to be able to monitor plain text requests from/to Identity Manager's server;
 
-  ![Proxy Purposes: Encryption](/static/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.png)
+  ![Proxy Purposes: Encryption](/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.png)
 - installing Identity Manager with an integrated agent on a network isolated from the users' browsers, in order to be able to access sensitive systems which are protected by being set up on a network isolated from the Internet;
 
-  ![Proxy Installation Example](/static/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_example.png)
+  ![Proxy Installation Example](/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_example.png)
 
   This installation will be used for the configuration examples below.
 - using several Identity Manager's server instances for load-balancing purposes.
 
-  ![Proxy Purposes: Load Balancing](/static/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.png)
+  ![Proxy Purposes: Load Balancing](/img/product_docs/usercube/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.png)
 
 As Identity Manager is session-less, working with several servers does not imply the need to synchronize sessions between servers, nor the need to guarantee that a particular IP will be processed by a particular server.
 
@@ -37,7 +37,7 @@ Then, in order for servers to be able to properly schedule and coordinate synchr
 - TempFolderPath
 - WorkFolderPath
 
-All Identity Manager servers also share a database. See the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
+All Identity Manager servers also share a database. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
 
 ## Basic Configuration
 

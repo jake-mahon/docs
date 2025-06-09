@@ -15,7 +15,7 @@ Analytic Workflow
 
 1. Configure the analytic policy
 2. Enable the analytic policy
-3. Enable alerting on incidents through the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
 See the [File System Attacks (by User) Analytic Data Grid](#File-System-Attacks-by-User-Analytic-Data-Grid) topic for information on event data collected per incident.
 
@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![File System Attacks (by User) Analytic Type - Settings tab](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/filesystemattackssettings.png)
+![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/filesystemattackssettings.png)
 
 Set the Number of Accessed Files and the Interval Duration that will trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 1:00. When a particular user causes the specified number of file changes to occur within the specified interval duration, it will trigger an incident record.
 
@@ -45,12 +45,12 @@ The File System Attacks (by user) Analytic Policy can be configured to enable au
 
 Policy Tab for Monitoring Only
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoring.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoring.png)
 
 The __Policy__ tab for configuring analytics consists of the following sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
-- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. For monitoring only, it contains the File System Changes event type. The only exception is that the Success filter cannot be modified.
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
+- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. For monitoring only, it contains the File System Changes event type. The only exception is that the Success filter cannot be modified.
 
   - __Required:__ Configure the File System Paths filter for Paths and Path Collections. This analytic requires that you specify at least one path for file system location monitoring. Multiple paths and/or collections can be included and excluded, along with the option to monitor sub-folders.
 
@@ -60,18 +60,18 @@ The __Policy__ tab for configuring analytics consists of the following sub-tabs:
     ___RECOMMENDED:___ Do not scope to include Read operations due to the quantity of files read within an organization.
   - _Optional:_ Scope the monitoring Agents to use for monitoring on the Additional Agents filter.
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD Perpetrator filter.
-- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
+- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
 
 Policy Tab for Monitoring & Lockdown
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoringlockdown.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoringlockdown.png)
 
 When the __Enable Automatic Lockdown__ option is selected on the __Settings__ tab, the __Policy__ tab > __Event Type__ tab includes both the File System Lockdown Event Type and the File System Changes Event Type.
 
 The __Policy__ tab for configuring analytics consists of the following sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
-- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. It contains both the [File System Lockdown Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.md) and the [File System Changes Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.md). The only exception is that for the Lockdown Event Type, the File System filter is hard coded to mirror the configuration of the File System Changes Event Type settings.
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
+- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. It contains both the [File System Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.md) and the [File System Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.md). The only exception is that for the Lockdown Event Type, the File System filter is hard coded to mirror the configuration of the File System Changes Event Type settings.
 
   - _Optional:_ Scope the monitoring Agents to use for monitoring on the Additional Agents filter.
   - The AD Perpetrator filter for Lockdown will auto-populate with perpetrators of the triggering events. The list is hard coded to be a ‘blocking’ list, not an ‘allow’ list.
@@ -80,15 +80,15 @@ The __Policy__ tab for configuring analytics consists of the following sub-tabs:
     - _Optional:_ Remove accounts that are being blocked from the list.
 
       __NOTE:__ Perpetrators manually removed from the list may be automatically re-added if they trigger another incident
-- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/product_docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
+- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
 
 ## File System Attacks (by User) Analytic Data Grid
 
 The data grid on the __File System Attacks (by user)__ node lists one row per incident identified.
 
-![File System Attacks (by User) Analytic Type window](/static/img/product_docs/threatprevention/threatprevention/admin/analytics/fsattacks.png)
+![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/fsattacks.png)
 
-The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
+The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 
 The top data grid includes the following information for each incident:
 
@@ -122,4 +122,4 @@ Select an incident in the top data grid to view information on the events that t
 - Date/Time – Date timestamp of the monitored event. Hover over the data in this column to view the local time (of the Enterprise Manager) and UTC time simultaneously.
 - Agent Time Logged – Timestamp for when the Agent detected the event. This can be different from the Enterprise Manager time (displayed in the Date/Time column) due to latency.
 
-This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
+This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.

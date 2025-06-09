@@ -22,7 +22,7 @@ __Step 1 –__ On the audited server, open the Local Security Policy snap-in and
 
 __Step 2 –__ Navigate to Security Settings > Local Policies > Security Options and locate the Audit: Force audit policy subcategory settings policy.
 
-![Local Security Policy snap-in ](/static/img/product_docs/1secure/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.png)
+![Local Security Policy snap-in ](/img/product_docs/1secure/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.png)
 
 __Step 3 –__ Double-click the policy and enable it.
 

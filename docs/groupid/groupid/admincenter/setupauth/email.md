@@ -4,7 +4,7 @@ Users can enroll and authenticate their identity store accounts using Email. An 
 
 Directory Manager provides a default notification template for enrollment/authentication via email in various languages. You can change the subject line and the body text in the template for any of these languages.
 
-NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the identity store. See the [Configure an SMTP Server](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md#Configure-an-SMTP-Server) topic.
+NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the identity store. See the [Configure an SMTP Server](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md#Configure-an-SMTP-Server) topic.
 
 What do you want to do?
 
@@ -17,7 +17,7 @@ What do you want to do?
 
 The email authentication type must be enabled for an identity store before users can use it for second factor authentication and multifactor authentication.
 
-To enable it, see the [Enable Authentication Types](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/authtypes.md) topic.
+To enable it, see the [Enable Authentication Types](/docs/groupid/groupid/admincenter/identitystore/configure/authtypes.md) topic.
 
 ## Modify the Email Template
 
@@ -34,7 +34,7 @@ __To modify the subject line and body of the email:__
    3. Click __Apply__.
 3. Search for _AccessCodeEmail_ and click __Edit__ in the __Actions__ column to open it.
 
-   ![accesscode](/static/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.png)
+   ![accesscode](/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.png)
 4. You can view the notification content in two distinct modes:
 
    - _Source Code (HTML)_ - This is the default mode, as shown in the figure above. You can make changes to the notification template in this mode.
@@ -47,11 +47,11 @@ __To modify the subject line and body of the email:__
 
 ## Enforce Email Authentication for a Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 
 __See Also__
 
-- [Authentication Policy](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Customize Notifications](/docs/product_docs/groupid/groupid/admincenter/notification/customize.md)
+- [Authentication Policy](/docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Customize Notifications](/docs/groupid/groupid/admincenter/notification/customize.md)

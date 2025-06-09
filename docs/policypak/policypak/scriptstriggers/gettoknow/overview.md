@@ -4,7 +4,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts & Triggers Manager 
 
 __NOTE:__ You will only see the Endpoint Policy Manager Scripts & Triggers Manager node when the latest Admin Console MSI is installed on the management station.
 
-![getting_to_know_scripts_triggers](/static/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers.png)
+![getting_to_know_scripts_triggers](/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers.png)
 
 Figure 4. The location of the Endpoint Policy Manager Scripts & Triggers Manager.
 
@@ -15,12 +15,12 @@ The functions of collections and policies are as follows:
 
 The next section provides a Quickstart to using Endpoint Policy Manager Scripts & Triggers Manager. We suggest you download the sample scripts that we've provided on our website to your management station and follow along. Select the Guidance XMLs and Scripts category, then download them, as seen in Figure 5.
 
-![getting_to_know_scripts_triggers_1](/static/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_1.png)
+![getting_to_know_scripts_triggers_1](/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_1.png)
 
 Figure 5. Download the Endpoint Policy Manager scripts from the Guidance XMLs location in the Endpoint Policy Manager Portal.
 
 Before continuing, make sure you have the downloaded script examples unpacked and ready to go. You should have a folder that looks similar to what's seen in Figure 6.
 
-![getting_to_know_scripts_triggers_2](/static/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_2.png)
+![getting_to_know_scripts_triggers_2](/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_2.png)
 
 Figure 6. Endpoint Policy Manager script examples unpacked.

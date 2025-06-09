@@ -2,13 +2,13 @@
 
 Threat Prevention comes with several policy templates that cover a wide range of event monitoring and lockdown. Pre-created policy templates are provided as part of the initial Threat Prevention installation process. New policy templates can be created from scratch or from existing policies.
 
-When Threat Prevention is upgraded, new and updated policy templates are available for import. They are not automatically imported during the installation of the latest version. Updates can be made to upgrade existing templates for a new release. See the [Upgrade Policy Templates](/docs/product_docs/threatprevention/threatprevention/install/upgrade/policytemplates.md) topic for additional information.
+When Threat Prevention is upgraded, new and updated policy templates are available for import. They are not automatically imported during the installation of the latest version. Updates can be made to upgrade existing templates for a new release. See the [Upgrade Policy Templates](/docs/threatprevention/threatprevention/install/upgrade/policytemplates.md) topic for additional information.
 
 When the Administration Console is launched for the first time, the administrator is asked to import pre-created policy templates. If the administrator does not import the templates, they can be imported later. See the [Import Templates](#Import-Templates) topic for additional information. Once the templates are imported, they are available through an organized folder structure.
 
 ## Template Folders
 
-The pre-created policy templates are organized in an easy-to-navigate folder structure under Templates in the [Templates Interface](/docs/product_docs/threatprevention/threatprevention/admin/templates/overview.md).
+The pre-created policy templates are organized in an easy-to-navigate folder structure under Templates in the [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md).
 
 - The Actions folder contains several pre-configured PowerShell scripts that can be used as response actions to alerts.
 - The templates that Netwrix engineers deem most useful are located within subfolders in the Best Practices folder:
@@ -60,7 +60,7 @@ __Step 2 –__ In the __Select Import File__ box, click the ellipsis (__…__) t
 
 __Step 3 –__ To import all the available Threat Prevention policy templates, select the `SI_Templates_All.xml` file. Click __Open__.
 
-![Import window](/static/img/product_docs/threatprevention/threatprevention/admin/tools/import.png)
+![Import window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.png)
 
 __Step 4 –__ The Import window auto-fills with the import file details. Do not change the defaults settings. Click __Import__.
 
@@ -68,4 +68,4 @@ __NOTE:__ The import process can take a few minutes to complete as there are sev
 
 __Step 5 –__ When the operation is complete, click __OK__.
 
-The templates are now available in the [Templates Interface](/docs/product_docs/threatprevention/threatprevention/admin/templates/overview.md).
+The templates are now available in the [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md).

@@ -1,6 +1,6 @@
 # Upward Data Synchronization
 
-Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into Identity Manager's resource repository and translates them into resources that match the configured Entity Model. See the [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
+Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into Identity Manager's resource repository and translates them into resources that match the configured Entity Model. See the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
 
 Performing a _Sync Up_ allows the user to:
 
@@ -8,7 +8,7 @@ Performing a _Sync Up_ allows the user to:
 - check that previously edited provisioning orders have been accurately executed;
 - ascertains differences between the real managed system state and the [
   Assignment Policy
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/role-model/role-model-rules/index.md) theoretical state.
+  ](/docs/usercube_saas/usercube/integration-guide/role-model/role-model-rules/index.md) theoretical state.
 
 ## Overview
 
@@ -16,11 +16,11 @@ Performing a _Sync Up_ allows the user to:
 
 _Sync Up_ is performed regularly, at least every day, as a set of [
 Tasks & Jobs
-](/docs/product_docs/usercube_saas/usercube/integration-guide/tasks-jobs/index.md).
+](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/index.md).
 
 A _Sync Up_ is planned for every managed system that interact with Identity Manager.
 
-A _Sync Up_ is associated with a [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md).
+A _Sync Up_ is associated with a [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md).
 
 ### Three sync up mode
 
@@ -56,7 +56,7 @@ _Sync Up_ is organized as an [Extract, Transform, Load](https://en.wikipedia.org
 
 The _Export_ is the first step of the _Sync Up_.
 
-During this step, data is extracted from the managed system and generates _CSV files_ containing the managed system's raw data. The __output__ of this process is called the ___CSV source files___. They are written to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory waiting to be used by the next-in-line _prepare-synchronization task_.
+During this step, data is extracted from the managed system and generates _CSV files_ containing the managed system's raw data. The __output__ of this process is called the ___CSV source files___. They are written to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory waiting to be used by the next-in-line _prepare-synchronization task_.
 
 The _Export_ occurs _Agent_-side.
 
@@ -66,9 +66,9 @@ Depending on the managed systems capabilities, an _Export_ step can be performed
 
 #### Using native process
 
-Identity Manager's [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md) provide native _Export_ tasks for the most common managed systems. _Active Directory_, _SAP_, or _SharePoint_ are examples of natively supported managed systems. The output _CSV source files_ format is described in the [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md) section together with an exhaustive list of supported source managed systems.
+Identity Manager's [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md) provide native _Export_ tasks for the most common managed systems. _Active Directory_, _SAP_, or _SharePoint_ are examples of natively supported managed systems. The output _CSV source files_ format is described in the [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md) section together with an exhaustive list of supported source managed systems.
 
-[Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md)are Identity Manager's link to the managed system. They provide configurable export and fulfill capabilities that can be used by Identity Manager _as-is_ without any further development.
+[Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md)are Identity Manager's link to the managed system. They provide configurable export and fulfill capabilities that can be used by Identity Manager _as-is_ without any further development.
 
 #### Using a custom process
 
@@ -76,19 +76,19 @@ Exporting data from a managed system without a native Identity Manager process i
 
 If the managed system has built-in export capabilities, Identity Manager can simply rely on exports scheduled by the source managed system. Regularly, the managed system generates reports, in whatever format. A custom task, such as a [
 Invoke Expression Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md), can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format expected by Identity Manager and copy them to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory. The whole can be scheduled and orchestrated by a [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md), can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format expected by Identity Manager and copy them to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory. The whole can be scheduled and orchestrated by a [
 Jobs
-](/docs/product_docs/usercube_saas/usercube/integration-guide/tasks-jobs/jobs/index.md).
+](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
 __For example__, a common scenario is to configure an HR management system to perform daily extracts of its data to CSV files for the _Agent_ to find. This usually can be set up without any Identity Manager's task, just by using the managed system and the organization's network capabilities.
 
 If the managed system does not provide built-in export features but provides an API or an exposed database, it's possible to write a custom _export_ process based on that API or direct requests to the managed system's database. This process can then be used as an _export task_ wrapped in a [
 Invoke Expression Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md) or an [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md) or an [
 Invoke Sql Command Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md). See the [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md). See the [
 Invoke Expression Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md) topic for additional information. Any Windows process that can be called from a PowerShell script and generate a CSV file can serve as an export process.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md) topic for additional information. Any Windows process that can be called from a PowerShell script and generate a CSV file can serve as an export process.
 
 __How to choose the custom CSV source file format ?__ It's best to keep it simple and stick as closely as possible to the managed system data model. Data cleansing and translation to the resource repository's Entity Model is handled later in the _Sync Up_ process. There is no need to try and optimize the CSV source file format in a custom script. It's best to keep it close to the managed system to be able to spot early _export_ errors.
 
@@ -106,15 +106,15 @@ With _Incremental_ mode, if the source managed system is able, one more column i
 
 In case the source managed system does not possess _incremental_ export capabilities, the changes computation is performed during the _prepare-synchronization_ step.
 
-Inside those constraints, every natively supported _export task_ generates its own _CSV source file format_, described in the [Connectors](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/index.md) section. Usually, two kinds of files are generated: _entries_, describing plain entries, and _associations_, describing associations between entries.
+Inside those constraints, every natively supported _export task_ generates its own _CSV source file format_, described in the [Connectors](/docs/usercube_saas/usercube/integration-guide/connectors/index.md) section. Usually, two kinds of files are generated: _entries_, describing plain entries, and _associations_, describing associations between entries.
 
-All _CSV source files_ are written to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
+All _CSV source files_ are written to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
 
 At the end of the _export_ step, the [
 Upward Data Synchronization
 ](#Upward-Data-Synchronization) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
 
-The [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
+The [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 
 The reader might now understand how, as laid out in the overview, the input data could be unreliable given the volatile nature of the managed system export methods. _Complete_ and _incremental_ modes work together to find the best compromise between reliability and execution time.
 
@@ -124,11 +124,11 @@ The following example demonstrates the native Active Directory export process.
 
 Exporting data from an Active Directory can be achieved by using the [
 Export Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) task within a Job.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) task within a Job.
 
 The Tasks requests from the source Active Directory all entries that match a configured filter. It outputs a set of _CSV source files_, containing raw AD Entries data (```ad_entries.csv```), information about group membership (```ad_members.csv```) and about the hierarchical organization (```ad_managers.csv```).
 
-![Active Directory Export Example](/static/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_export_example.png)
+![Active Directory Export Example](/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_export_example.png)
 
 ```ad_entries.csv``` contains raw AD entry data.
 
@@ -166,21 +166,21 @@ CN=SG_APP_AG002,DC=internal;CN=U51630,DC=internal
 
 ## Entity Mapping
 
-The aim of the _Sync Up_ is to load managed systems' data into the resource repository. As such, it requires Identity Manager to translate data from the managed system format (or, more accurately, the _export task_'s output format) into the resource repository format, that is, the [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md).
+The aim of the _Sync Up_ is to load managed systems' data into the resource repository. As such, it requires Identity Manager to translate data from the managed system format (or, more accurately, the _export task_'s output format) into the resource repository format, that is, the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md).
 
 The translation rules are described in the applicative configuration by [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements.
 
-Entity Type Mapping elements map the resources _CSV source files_ columns to [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
+Entity Type Mapping elements map the resources _CSV source files_ columns to [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
 
 [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/product_docs/usercube_saas/usercube/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
 
 ## Prepare Synchro
 
@@ -196,20 +196,20 @@ The following actions are performed on the _CSV source files._
 
 1. Removing columns that are not used in [
    Entity Type Mapping
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or [
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or [
    Entity Association Mapping
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 2. Entries that have a null primary key
 3. Removing duplicates
 4. Sorting entries according to the primary key
 
-The result of the _Prepare-Synchronization_ is stored in the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory as three files:
+The result of the _Prepare-Synchronization_ is stored in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory as three files:
 
 For every entity type of the relevant _Connector_ involved in an[
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or an[
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or an[
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) ```<EntityAssociationMapping>``` , a ```.sorted.csv``` file is generated, containing the final, cleaned, sorted result.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) ```<EntityAssociationMapping>``` , a ```.sorted.csv``` file is generated, containing the final, cleaned, sorted result.
 
 Duplicates are kept in a separate ```.duplicates.csv``` file.
 
@@ -221,7 +221,7 @@ In _incremental_ mode, changes might need to be computed by the _Agent_.
 
 If the export step has provided computed changes, no further process is required. The changes will be sent as-is to the server.
 
-If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
+If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
 
 For _incremental_ mode, it is recommended to use managed systems to compute changes when possible. Dedicated workstations and knowledge of the inner data organization allow managed systems to compute changes with a performance that Identity Manager can't match. Also, using managed systems for these operations avoid generating heavy files and alleviate Identity Manager's processing load.
 
@@ -255,7 +255,7 @@ Of course, any notification of a _complete__Prepare-Synchronization_ would cance
 
 - [
   Prepare Synchronization Task
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md) is the standard _prepare-synchronization_ task.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md) is the standard _prepare-synchronization_ task.
 - PrepareSynchronization Change Task is used to process data source files containing changes.
 - PrepareSynchronization ActiveDirectory Task is specialized for Active Directory. This task handles Active Directory _incremental_ prepare-synchronization by using Active Directory _cookies_.
 
@@ -263,7 +263,7 @@ Of course, any notification of a _complete__Prepare-Synchronization_ would cance
 
 The following illustration models the complete _prepare-synchronization_ steps applied to an Active Directory export. The matching _Connector_ defines an Entity Type _AD Entry_ and two associations: _members_ and _manager_.
 
-![Active Directory Prepare-Synchronization Example](/static/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_preparesynchro_example.png)
+![Active Directory Prepare-Synchronization Example](/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_preparesynchro_example.png)
 
 ## Synchro
 
@@ -273,9 +273,9 @@ _Synchronization_ is the last step. It loads data into the resource repository f
 
 Before writing to the Identity Manager's database, the _Server_ uses [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and[
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and[
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to translate _CSV source files_ into _Entity Model compliant_ resources and resolve association links.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to translate _CSV source files_ into _Entity Model compliant_ resources and resolve association links.
 
 ### Tables
 
@@ -292,7 +292,7 @@ _Complete__synchronization_ starts with a ```.sorted.csv``` file that contains c
 
 _Complete synchronization_ replaces entirely the database resources. That means that all resource, for that [
 Connector
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), that are in the database but not in the _CSV source files_ will be deleted. That means no change made to the database from outside of the connectors or the UI are persistent.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), that are in the database but not in the _CSV source files_ will be deleted. That means no change made to the database from outside of the connectors or the UI are persistent.
 
 _Complete synchronization_ does not blindly insert data into Identity Manager database. Its aim is to update Identity Manager database to match the ```.sorted``` files received.
 
@@ -324,7 +324,7 @@ Then, changes according to the _command_ column are applied to UR\_Resources and
 
 - [
   Synchronize Task
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) is the standard _synchronization_ task.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) is the standard _synchronization_ task.
 - SynchronizeChanges Task is used to handle changes together with PrepareSynchronization Change Task.
 - SynchronizeActive Directory Task is specialized for Active Directory. To be used with PrepareSynchronizationActiveDirectory Task.
 
@@ -332,7 +332,7 @@ Then, changes according to the _command_ column are applied to UR\_Resources and
 
 This example illustrates the _complete_ loading of Active Directory ```.sorted``` files into Identity Manager database.
 
-![Active Directory Synchronization Example](/static/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_synchro_example.png)
+![Active Directory Synchronization Example](/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_synchro_example.png)
 
 ## Handling Errors
 
@@ -348,7 +348,7 @@ It is hence recommended to run at least a daily _complete_ synchronization to ac
 
 Remember that _incremental_ and _complete_ Sync Up modes use safeguards to avoid accidental overwrites. That means any error that could find its way into the database would be small.
 
-_Incremental_ mode also offers another optimization that will be described in the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) section. Trade-offs of that optimization can also be counterbalanced by running a daily _complete_ synchronization.
+_Incremental_ mode also offers another optimization that will be described in the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) section. Trade-offs of that optimization can also be counterbalanced by running a daily _complete_ synchronization.
 
 ## Thresholds
 
@@ -356,11 +356,11 @@ A introduced earlier, to mitigate the risk of data loss in the case of abnormal 
 
 Thresholds can be configured by the user in the applicative configuration and be specific to a [
 Connector
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), an [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), an [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and/or an[
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and/or an[
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md). They are expressed as number of lines (ex: ```MaximumInsertedLines```) or as a rate (ex: ```MaxPercentageDeletedLines```).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md). They are expressed as number of lines (ex: ```MaximumInsertedLines```) or as a rate (ex: ```MaxPercentageDeletedLines```).
 
 A synchronization task locked by a threshold can be unlocked by executing the Synchronization Validation task.
 
@@ -372,4 +372,4 @@ The task's argument ```-force``` can be used to ignore thresholds.
 
 Next, a word about the [
 Assignment Policy
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-model/role-model-rules/index.md).
+](/docs/usercube_saas/usercube/integration-guide/role-model/role-model-rules/index.md).

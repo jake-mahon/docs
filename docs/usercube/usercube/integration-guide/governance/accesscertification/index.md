@@ -13,7 +13,7 @@ There are several ways to arrange an access certification campaign. Among others
 - Assignments not certified since a certain date
 - Assignments presenting a certain level of risk. See the [
   Manage Risks
-  ](/docs/product_docs/usercube/usercube/user-guide/optimize/risk-management/index.md) topic for additional information.
+  ](/docs/usercube/usercube/user-guide/optimize/risk-management/index.md) topic for additional information.
 
 Identity Manager uses an access certification campaign to define the campaign's scope including:
 
@@ -43,11 +43,11 @@ At least one Identity Manager profile needs permissions to create campaigns.
 
 Such permission can be granted using the AccessReviewAdministrationAccessControlRules scaffolding. See the [
 Access Review Administration Access Control Rules
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md) topic for additional information.
 
 The administrator profile, created with CreateAdministratorProfile scaffolding, already has these permissions. See the [
 Create Administrator Profile
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md) topic for additional information.
 
 If you are not using the AccessReviewAdministrationAccessControlRules scaffolding, the user cannot query on dimensions when editing the owner filters, so you need to give the permissions on the correct contexts:
 
@@ -133,7 +133,7 @@ It is recommended to have a larger scope for forwarded certification orders than
 
 Scopes of responsibility can also be defined in terms of access certification campaign policy. See the [
 AccessCertificationCampaignPolicy
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md) topic for additional information.
 
 Assigning an access certification campaign policy to an access certification campaign allows the creation of campaigns dedicated specifically to one set of reviewers.
 
@@ -147,9 +147,9 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 It automatically appears on the campaign creation screen, and binds itself to the created campaign:
 
-![Campaign creation screen with policies](/static/img/product_docs/usercube/usercube/integration-guide/governance/accesscertification/creation_5.1.6.png)
+![Campaign creation screen with policies](/img/product_docs/usercube/usercube/integration-guide/governance/accesscertification/creation_5.1.6.png)
 
-To use it, modify the access control rules by adding a filter on the campaign policy. See the [Access Control Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) topic for additional information.
+To use it, modify the access control rules by adding a filter on the campaign policy. See the [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) topic for additional information.
 
 ##### Example
 
@@ -179,8 +179,8 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 <AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
 ```
 
-It is also possible to add access control filters when creating the permission set so that users can only access certain type of campaigns. See the [Access Control Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+It is also possible to add access control filters when creating the permission set so that users can only access certain type of campaigns. See the [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 
 This permission also is given by the AccessReviewAdministrationAccessControlRules scaffolding. See the [
 Access Review Administration Access Control Rules
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md) topic for additional information.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md) topic for additional information.

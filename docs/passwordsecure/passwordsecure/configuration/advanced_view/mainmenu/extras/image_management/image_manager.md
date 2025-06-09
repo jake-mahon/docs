@@ -4,7 +4,7 @@
 
 All logos and icons are managed in the image management. They can then be linked to the corresponding data records. The images are then displayed in the Basic view as well as in the list view of the client.
 
-![Icon/logos in NPS](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_106-en.png)
+![Icon/logos in NPS](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_106-en.png)
 
 ## Relevant rights
 
@@ -32,13 +32,13 @@ NOTE: If there are several deposited, always use the first one.
 
 2. Manual filing
 
-In the main menu in [Extras](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/extras.md) you can find the image management. Here, you have the possibility to store icons and logos manually.
+In the main menu in [Extras](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/extras.md) you can find the image management. Here, you have the possibility to store icons and logos manually.
 
-![Image management](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_107-en.png)
+![Image management](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_107-en.png)
 
 Click on the + symbol to open the mask for creating images.
 
-![add image](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_108-en.png)
+![add image](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_108-en.png)
 
 - __Name__ Name the picture here.
 
@@ -46,7 +46,7 @@ Click on the + symbol to open the mask for creating images.
   - __Passwords__: first URL in the password (if several URLs are stored) -> attached tags -> password name -> names of connected applications  
   - __Applications__: URL stored in the application -> attached tags -> application name
 
-- ![icon_open_folder](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/icon_open_folder.png) This symbol can be used to upload locally saved icons and logos.
+- ![icon_open_folder](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/icon_open_folder.png) This symbol can be used to upload locally saved icons and logos.
 
 NOTE: Please note that the icons and logos are not stored locally, but in the database.
 

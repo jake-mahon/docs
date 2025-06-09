@@ -2,7 +2,7 @@
 
 Getting Started
 
-First, download the Netwrix Endpoint Policy Manager (formerly PolicyPak) software from the portal at policypak.com. See the [Endpoint Policy ManagerPortal: How to download Endpoint Policy Manager and get free training](/docs/product_docs/policypak/policypak/video/gettingstarted/freetraining.md) topic for video details on downloading.
+First, download the Netwrix Endpoint Policy Manager (formerly PolicyPak) software from the portal at policypak.com. See the [Endpoint Policy ManagerPortal: How to download Endpoint Policy Manager and get free training](/docs/policypak/policypak/video/gettingstarted/freetraining.md) topic for video details on downloading.
 
 Next, Netwrix Endpoint Policy Manager (formerly PolicyPak) enables you to deliver settings via Group Policy, MDM or PolicyPak Cloud.
 

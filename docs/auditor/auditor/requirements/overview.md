@@ -2,16 +2,16 @@
 
 This topic provides the requirements for the server where Netwrix Auditor will be installed. See the following topics for additional information:
 
-- [Supported Data Sources](/docs/product_docs/auditor/auditor/requirements/supporteddatasources.md)
-- [Hardware Requirements](/docs/product_docs/auditor/auditor/requirements/console.md)
-- [Software Requirements](/docs/product_docs/auditor/auditor/requirements/software.md)
-- [Requirements for SQL Server to Store Audit Data](/docs/product_docs/auditor/auditor/requirements/sqlserver.md)
+- [Supported Data Sources](/docs/auditor/auditor/requirements/supporteddatasources.md)
+- [Hardware Requirements](/docs/auditor/auditor/requirements/console.md)
+- [Software Requirements](/docs/auditor/auditor/requirements/software.md)
+- [Requirements for SQL Server to Store Audit Data](/docs/auditor/auditor/requirements/sqlserver.md)
 
 ## Architecture Overview
 
 Netwrix Auditor provides comprehensive auditing of applications, platforms and storage systems. The product architecture and components interactions are shown in the figure below.
 
-[![auditorarchitecture_thumb_0_0](/static/img/product_docs/auditor/auditor/requirements/auditorarchitecture_thumb_0_0.jpg)](/docs/product_docs/auditor/resources/images/auditor/deploymentplan/auditorarchitecture.jpg)
+[![auditorarchitecture_thumb_0_0](/img/product_docs/auditor/auditor/requirements/auditorarchitecture_thumb_0_0.jpg)](/docs/auditor/resources/images/auditor/deploymentplan/auditorarchitecture.jpg)
 
 - Netwrix Auditor Server — the central component that handles the collection, transfer and processing of audit data from the various data sources (audited systems). Data from the sources not yet supported out of the box is collected using RESTful Integration API.
 - Netwrix Auditor Client — a component that provides a friendly interface to authorized personnel who can use this console UI to manage the product settings, examine alerts, reports and search results. Other users can obtain audit data by email or with 3rd party tools — for example, reports can be provided to the management team via the intranet portal.
@@ -30,7 +30,7 @@ The general workflow stages are as follows:
 - Netwrix Auditor collects audit data from the specified data source (application, server, storage system, and so on).
 
   - To provide a coherent picture of changes that occurred in the audited systems, the product can consolidate data from multiple independent sources (event logs, configuration snapshots, change history records, etc.). This capability is implemented with Netwrix Auditor Server and Integration API.
-  - See the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md) topic for additional information on custom data source processing workflow.
+  - See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on custom data source processing workflow.
 - Audit data is stored to the Audit databases and the repository (Long-Term Archive) and preserved there according to the corresponding retention settings.
 - Netwrix Auditor analyzes the incoming audit data and alerts appropriate staff about critical changes, according to the built-in alerts you choose to use and any custom alerts you have created.
 - Authorized users use the Netwrix Auditor Client to view pre-built dashboards, run predefined reports, conduct investigations, and create custom reports based on their searches. Other users obtain the data they need via email or third-party tools.

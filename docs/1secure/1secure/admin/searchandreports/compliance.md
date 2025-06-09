@@ -12,7 +12,7 @@ __Step 2 –__ Select an organization from the drop-down menu at the top of the 
 
 __Step 3 –__ Click the __Compliance__ tab to access the compliance reports. This opens the Compliance page with the Group Membership report selected by default in the left pane.
 
-![Compliance Reports Page](/static/img/product_docs/1secure/1secure/admin/searchandreports/reportscompliance.png)
+![Compliance Reports Page](/img/product_docs/1secure/1secure/admin/searchandreports/reportscompliance.png)
 
 __Step 4 –__ In the left pane, click a category to view its reports. Categories are:
 
@@ -54,7 +54,7 @@ A list of the available Compliance reports(category-wise) is given below.
 | Direct User Permissions | Lists user accounts with direct permissions to specific objects. Use this report to see which users have permissions to what data. |
 | High Risk Permissions | Lists the permissions and permission levels of high-risk trustees, such as Everyone, Authenticated Users, and Everyone except external users. |
 | Permissions Overview by Resource | Provides a summary of assigned permissions in your organization, including the count of direct user permissions, stale permissions, broken permission inheritance, and high-risk permissions for each object. Click any permissions value to navigate to the specific permissions report for the selected resource. For example, clicking a High Risk Permissions value will take you to the High Risk Permissions report. |
-| Sensitive Documents | Lists the documents that are classified according to the sensitive data types enabled in the SharePoint Online Data Classification connector. See step 7 in the [Add a Source and Connectors for SharePoint Online](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic for addition information. |
+| Sensitive Documents | Lists the documents that are classified according to the sensitive data types enabled in the SharePoint Online Data Classification connector. See step 7 in the [Add a Source and Connectors for SharePoint Online](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic for addition information. |
 | Sharing Links | Provides an overview of all the active sharing links within your SharePoint Online site. For each record, it displays the site collection, URL of the shared resource, name of the shared object, link creation and expiration dates, link type, assigned permissions, and more. Click the "Shared with" link to see exactly who or which groups have access. |
 
 Sort a Report
@@ -67,7 +67,7 @@ You can filter the data displayed in a report. Select a filter, operator, and va
 
 You can select more than one filter.
 
-For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/product_docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
+For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
 
 ## Filter Descriptions
 
@@ -110,4 +110,4 @@ This table provides a list of filters and descriptions.
 | Link Type | Lists the links based on any of the following sharing types:   - Anonymous - Organization - Specific People |
 | Sensitive Data Types | Lists the documents based on the sensitive data type they contain. Available data types are:   - PII - Financial Records - GDPR Restricted - GDPR - GLBA - HIPAA - PCI DSS - PHI - CCPA - CMMC - Credentials |
 | Sensitive Data Criteria | Lists the documents based on a sensitive data criteria. Each data type (e.g., PII) may have multiple data criteria, like PII >> Denmark, PII >> French passport, PII >> France, and so on. |
-| Sensitivity Label | Lists the documents based on a sensitivity label. For example, if you specify a label named "sensitive", it lists all the documents with that label.  Sensitivity labels are applied to documents on the basis of the settings configured for the SharePoint Online Data Classification connector in the SharePoint Online data source. See step 7 in the [Add a Source and Connectors for SharePoint Online](/docs/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic for additional information. |
+| Sensitivity Label | Lists the documents based on a sensitivity label. For example, if you specify a label named "sensitive", it lists all the documents with that label.  Sensitivity labels are applied to documents on the basis of the settings configured for the SharePoint Online Data Classification connector in the SharePoint Online data source. See step 7 in the [Add a Source and Connectors for SharePoint Online](/docs/1secure/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic for additional information. |

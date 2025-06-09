@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > Resources > Resource Groups page.
 
 __Step 2 –__ In the Resource Groups list, click the Plus icon.
 
-![Add Resource Group](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.png)
+![Add Resource Group](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.png)
 
 __Step 3 –__ Enter or select the following information:
 
@@ -28,6 +28,6 @@ __Step 4 –__ Click Save to create the new resource group.
 
 __Step 5 –__ With the new resource group selected, configure the following settings:
 
-- Add resources to the resource group. See the [Add Resources Window for Resource Group](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md) topic for additional information.
+- Add resources to the resource group. See the [Add Resources Window for Resource Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md) topic for additional information.
 
 The new resource group is added to the console and is shown in the Resource Groups list.

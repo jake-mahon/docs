@@ -23,7 +23,7 @@ There may be situations when Dell CEE needs to be installed on a different Windo
 
 __Step 1 –__ Open the Registry Editor (run regedit).
 
-![registryeditor](/static/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.png)
+![registryeditor](/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.png)
 
 __Step 2 –__ Navigate to following location:
 
@@ -45,7 +45,7 @@ StealthAUDIT@192.168.30.15
 
 __Step 7 –__ Click OK. The Edit String window closes. Registry Editor can be closed.
 
-![services](/static/img/product_docs/activitymonitor/config/dellpowerstore/services.png)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.png)
 
 __Step 8 –__ Open Services (run ```services.msc```). Start or Restart the EMC CEE Monitor service.
 

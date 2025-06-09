@@ -8,7 +8,7 @@ In the settings, first select the item Passwords & Accounts and then Automatical
 
 RECOMMENDED: We recommend deactivating the __keychain (iOS)__ as well as any other apps offered to prevent misunderstandings in usage.
 
-![password options](/static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/setting_up_autofill/password-options-en.png)
+![password options](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/setting_up_autofill/password-options-en.png)
 
 #### Setting up automatic registration on Android
 

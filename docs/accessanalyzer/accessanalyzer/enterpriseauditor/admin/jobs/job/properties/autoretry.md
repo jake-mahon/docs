@@ -2,7 +2,7 @@
 
 The Auto Retry tab provides the option to schedule the job to re-execute against hosts that match the selected host status values: Offline, Failed, Errors, and Warnings.
 
-![Auto Retry tab of Job Properties](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/autoretry.png)
+![Auto Retry tab of Job Properties](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/autoretry.png)
 
 Check the desired Host Status values to generate a retry, and then configure the Refresh Data and Retry Options settings. Finally, enter a User name (domain\user) and Password in the Scheduler Authentication section.
 

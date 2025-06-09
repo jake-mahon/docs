@@ -115,5 +115,5 @@ __To set a group update threshold:__
 
 __See Also__
 
-- [Manage Dynasty Settings](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/dynastysettings.md)
-- [Smart Group Update Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md)
+- [Manage Dynasty Settings](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/dynastysettings.md)
+- [Smart Group Update Schedule](/docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md)

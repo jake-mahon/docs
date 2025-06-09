@@ -2,7 +2,7 @@
 
 The Host Discovery Queries Pane contains a list of previously-configured queries.
 
-![Host Discovery Queries Pane](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queries.png)
+![Host Discovery Queries Pane](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queries.png)
 
 The list of previously configured queries is provided in a table format with the following columns:
 
@@ -27,18 +27,18 @@ Follow the steps to view the hidden columns in the table:
 
 __Step 1 –__ Right-click a header in the table, which opens a context menu.
 
-![Field Chooser option on context menu](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriesfieldchooser.png)
+![Field Chooser option on context menu](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriesfieldchooser.png)
 
 __Step 2 –__ Select __Field Chooser__, which opens the Customization window.
 
-![Customization window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriescustomizationwindow.png)
+![Customization window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriescustomizationwindow.png)
 
 __Step 3 –__ Select the __Columns__ tab.
 
-![Drag hidden colum into table](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriesaddhiddencolumn.png)
+![Drag hidden colum into table](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queriesaddhiddencolumn.png)
 
 __Step 4 –__ Drag and drop the desired column between any header of the table.
 
-![Host Discovery Queries table with column added](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/querieshiddencolumnadded.png)
+![Host Discovery Queries table with column added](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/querieshiddencolumnadded.png)
 
 The header is now present in the table.

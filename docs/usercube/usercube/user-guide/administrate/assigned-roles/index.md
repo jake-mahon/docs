@@ -20,13 +20,13 @@ You can review all assigned single roles by category. Through filters you can ch
 
 This operation should be performed by a user with the right permissions. See the [
 Configure a User Profile
-](/docs/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
 
 The following example provides the rights for the Administrator profile to see the Assigned Roles page on the __Entity Type__ directory user. See the [
 Create a Provisioning Rule
-](/docs/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/index.md) and [
+](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/index.md) and [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
+](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
 
 Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
 
@@ -38,11 +38,11 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Review the Assigned Roles by proceeding as follows:
 
-![assignedroles](/static/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.png)
+![assignedroles](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.png)
 
 __Step 1 –__ On the home page, in the Administration section of the UI click on Assigned Roles.
 
-![assignedrolesscreen](/static/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.png)
+![assignedrolesscreen](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.png)
 
 __Step 2 –__ View the list of users with different assigned roles and filter them by __Entity Type__, __Workflow State__, __Policy__, __Role__ or by using a custom filter.
 

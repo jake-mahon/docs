@@ -6,7 +6,7 @@ Here, you can see an application running when SecureRun™ is not enabled. This 
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.png)
 
 The audit is only triggered when one of the following is true:
 

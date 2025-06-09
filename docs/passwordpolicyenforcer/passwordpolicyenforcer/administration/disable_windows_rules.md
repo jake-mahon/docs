@@ -2,7 +2,7 @@
 
 The Windows password policy rules can place restrictions on password history, age, length, and complexity. If you enable the Password Policy Enforcer rules and the Windows rules, then users must comply with both sets of rules.
 
-Password Policy Enforcer has its own history, minimum and maximum age, length, and complexity rules. See the [Rules](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md) topic for additional information. You can use the Password Policy Enforcer and Windows rules together. A password is only accepted if it complies with the Windows and Password Policy Enforcer password policies.
+Password Policy Enforcer has its own history, minimum and maximum age, length, and complexity rules. See the [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md) topic for additional information. You can use the Password Policy Enforcer and Windows rules together. A password is only accepted if it complies with the Windows and Password Policy Enforcer password policies.
 
 These steps disable the Windows password policy rules:
 
@@ -26,6 +26,6 @@ __Step 9 –__ Select the __Disabled__ option, and then click __OK__.
 
 __Step 10 –__ Close the Group Policy Management Editor.
 
-![installing_ppe_3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.png)
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.png)
 
 __NOTE:__ You do not have to disable all the Windows password policy rules to use Password Policy Enforcer. You can use a combination of Password Policy Enforcer and Windows rules together if you like. Just remember that a password is only accepted if it complies with the rules enforced by both Windows and Password Policy Enforcer.

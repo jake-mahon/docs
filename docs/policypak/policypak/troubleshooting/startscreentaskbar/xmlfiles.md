@@ -4,7 +4,7 @@ Start Screen & Taskbar Manager will dynamically write the file that Windows need
 
 ```%programdata%\PolicyPak\PolicyPak Start Screen Manager\RSoP\User\<sid>```, as seen in Figure 58. A good first troubleshooting step would be to see what the file contains.
 
-![troubleshooting](/static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.png)
+![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.png)
 
 Figure 58. The ssmResults.xml file shows what Start Screen & Taskbar Manager has performed.
 

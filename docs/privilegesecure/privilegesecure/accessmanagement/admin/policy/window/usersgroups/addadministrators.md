@@ -1,8 +1,8 @@
 # Add Administrators Window
 
-The Add Administrators window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+The Add Administrators window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Add Administrators Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.png)
+![Add Administrators Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.png)
 
 The window has the following features:
 
@@ -24,7 +24,7 @@ The tables in both sections have the following columns:
 
 ## Select Users
 
-Follow the steps to grant users the Administrator role. See the [Role Management Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their functions.
+Follow the steps to grant users the Administrator role. See the [Role Management Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their functions.
 
 __Step 1 –__ Navigate to the __Users & Groups__ > Role Management page.
 

@@ -12,7 +12,7 @@ __Step 1 –__ Test on one or two machines and ensure this is ON as seen here.
 
 __Step 2 –__ Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE to other browsers
 
-![415_1_image0014](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_1_image0014.png)
+![415_1_image0014](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_1_image0014.png)
 
 (Old: Not needed anymore; here for archival purposes…
 
@@ -22,7 +22,7 @@ __Step 1 –__ Test on one or two machines with this OFF as seen here.
 
 __Step 2 –__ Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE to other browsers.
 
-![415_2_image003](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_2_image003.jpg)
+![415_2_image003](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_2_image003.jpg)
 
 (Old: Not needed anymore; here for archival purposes…) .
 
@@ -32,7 +32,7 @@ __Step 1 –__ Set the "Enable 64-bit processes for Enhanced Protection mode" CH
 
 __Step 2 –__ Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE to other browsers.
 
-![415_3_image005](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_3_image005.jpg)
+![415_3_image005](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_3_image005.jpg)
 
 Once you learn what combination works, then set these settings in Group Policy . You can do this on USER or COMPUTER side. We recommend COMPUTER.
 
@@ -48,7 +48,7 @@ Turn on 64-bit tab processes when running in Enhanced Protection Mode :: Set to 
 
 _Remember,_ Remember that each machine needs to be rebooted after it receives these directives; just like you did in your manual tests.
 
-![415_4_image0061](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_4_image0061.jpg)
+![415_4_image0061](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_4_image0061.jpg)
 
 Note also that the settings can be hiding in one ore more GPOs, so use GPresult to look for those values.
 
@@ -56,12 +56,12 @@ Additionally, these same values can be found in Group Policy Preferences Interne
 
 An example GPresult /h report will show a Group Policy Preferences setting demonstrating the required "Enable third-party browser extensions (requires restart)" as DISABLING the ability to use third-party extensions.
 
-![415_5_faq-asdf-01](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_5_faq-asdf-01.jpg)
+![415_5_faq-asdf-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_5_faq-asdf-01.jpg)
 
 In these cases, you need to find the Group Policy Preferences item within the GPO and set the value to GREEN and CHECK which will "Enable third-party browser extensions".
 
-![415_6_faq-asdf-02](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_6_faq-asdf-02.jpg)
+![415_6_faq-asdf-02](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_6_faq-asdf-02.jpg)
 
 Only then will the GPO's GPresult report demonstrate that the required item is Enabled like what's seen here.
 
-![415_7_faq-asdf-03](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_7_faq-asdf-03.jpg)
+![415_7_faq-asdf-03](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_7_faq-asdf-03.jpg)

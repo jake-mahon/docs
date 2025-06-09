@@ -4,13 +4,13 @@ Follow the steps to configure LDAP monitoring within Netwrix Activity Monitor f
 
 __NOTE:__  LDAP Monitoring is not enabled, it must be enabled in the Monitored Domains tab.
 
-![Activity Monitor with SD Only](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainsdonly.png)
+![Activity Monitor with SD Only](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainsdonly.png)
 
 __Step 1 –__ In the Activity Monitor, click on the __Monitored Domains__ tab.
 
 __Step 2 –__ Select a domain and click __Edit__.
 
-![LDAP Monitoring Configuration for Threat Manager](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/sdldapmonitoring.png)
+![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/sdldapmonitoring.png)
 
 __Step 3 –__ Select the __LDAP Monitor__ tab.
 

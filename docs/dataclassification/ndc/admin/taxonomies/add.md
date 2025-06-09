@@ -3,7 +3,7 @@
 ## Uploading Default Taxonomy
 
 For the full list of supported taxonomies, refer to [Built-in Taxonomies Overview
-](/docs/product_docs/dataclassification/ndc/admin/taxonomies/builtintaxonomies.md).
+](/docs/dataclassification/ndc/admin/taxonomies/builtintaxonomies.md).
 
 1. In administrative web console, navigate to Taxonomies >  Global Settings.
 2. Navigate to Loaded Taxonomies, select Add Taxonomies.

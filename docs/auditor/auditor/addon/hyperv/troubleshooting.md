@@ -41,7 +41,7 @@ Alternatively, you can use __Windows Task Scheduler__.
 
 The WinRM client cannot process the request.
 
-See the [Deployment Scenarios](/docs/product_docs/auditor/auditor/addon/hyperv/deployment.md)topic for additional information.
+See the [Deployment Scenarios](/docs/auditor/auditor/addon/hyperv/deployment.md)topic for additional information.
 
 If the authentication scheme is different from Kerberos, or if the client computer is not joined to a domain, then HTTPS transport must be used or the destination machine must be added to the __TrustedHosts__ list. To configure this list, use __winrm.cmd__.
 

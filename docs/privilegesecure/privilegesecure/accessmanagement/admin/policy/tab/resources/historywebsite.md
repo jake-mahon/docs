@@ -2,12 +2,12 @@
 
 The History tab shows information about the session history of the selected resource.
 
-![websitedetailshistorytab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailshistorytab.png)
+![websitedetailshistorytab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailshistorytab.png)
 
 The History tab has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- View Logs — Opens the Session Logs window to view the action log for the selected session. See the [Session Logs Window](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/sessionlogs.md) topic for additional information.
+- View Logs — Opens the Session Logs window to view the action log for the selected session. See the [Session Logs Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/sessionlogs.md) topic for additional information.
 - Refresh — Reload the information displayed
 
 The table has the following columns:
@@ -17,7 +17,7 @@ The table has the following columns:
   - Information — Session was successful and row contains details
   - Error — Session had an error and row contains details
 - Time — Date timestamp for when the event occurred
-- User — User who requested the session. Click the link to view additional details. See the [User, Group, & Application Details Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
+- User — User who requested the session. Click the link to view additional details. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 - Access Policy — Displays the name of the policy
 - Event Message — Description of the event
 - Session ID — Unique identifier for the session

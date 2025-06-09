@@ -20,9 +20,9 @@ ___RECOMMENDED:___ Only modify host lists in the 0. Collection Job Group.
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX\_MetricsCollection Job and the EX\_MetricsDetails Job. See the [Exchange Mail-Flow Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for required permissions.
+A Connection Profile must be set directly on the EX\_MetricsCollection Job and the EX\_MetricsDetails Job. See the [Exchange Mail-Flow Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for required permissions.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 
@@ -39,14 +39,14 @@ History retention should not be enabled on this job group. History is kept throu
 | EX\_MetricsCollection | SET HISTORY RETENTION | 6 Months |
 | EX\_MetricsDetails | SET HISTORY RETENTION | 6 Months |
 
-See the [Exchange History Retention](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information.
+See the [Exchange History Retention](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information.
 
 Query Configuration
 
 The 1. HUB Metrics Job Group is designed to be run with the default query configurations with the following exceptions:
 
 - EX\_MetricsDetails Job – The __Activity Metrics__ Query requires domains to be configured
-- All queries in the 1.HUB Metrics Job Group that use the ExchangeMetrics Data Collector – (Optional) The __Enable Persistent Log State__ option can be enabled on the Options page of the Exchange Metrics Data Collector Wizard to search the log from where the previous search left off. See the [ExchangeMetrics: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic for additional information.
+- All queries in the 1.HUB Metrics Job Group that use the ExchangeMetrics Data Collector – (Optional) The __Enable Persistent Log State__ option can be enabled on the Options page of the Exchange Metrics Data Collector Wizard to search the log from where the previous search left off. See the [ExchangeMetrics: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic for additional information.
 
 Analysis Configuration
 

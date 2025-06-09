@@ -10,7 +10,7 @@ The four core taxonomies cover a broad range of sensitive personal, financial, a
 
 This section contains the full list of built-in taxonomies supported by Netwrix Data Classification.
 
-__NOTE:__ Netwrix Data Classification users can see only the taxonomies they have permissions to use. See the [User Management](/docs/product_docs/dataclassification/ndc/security/usermanagement.md) section for more information on users' permissions.
+__NOTE:__ Netwrix Data Classification users can see only the taxonomies they have permissions to use. See the [User Management](/docs/dataclassification/ndc/security/usermanagement.md) section for more information on users' permissions.
 
 ## Core Taxonomies
 
@@ -160,14 +160,14 @@ __NOTE:__ This applies only to customized taxonomies, which you add by yourself.
 
 Follow the steps to specify sensitive taxonomy.
 
-__Step 1 –__ Add a new taxonomy. See the [Add a Taxonomy](/docs/product_docs/dataclassification/ndc/admin/taxonomies/add.md) topic for additional information.
+__Step 1 –__ Add a new taxonomy. See the [Add a Taxonomy](/docs/dataclassification/ndc/admin/taxonomies/add.md) topic for additional information.
 
 __Step 2 –__ Navigate to Taxonomies > Global Settings > Edit. The __Edit__ panel displays.
 
 __Step 3 –__ Select Sensitive Taxonomy.
 
-![standalonetaxonomies_sensitive](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/standalonetaxonomies_sensitive.png)
+![standalonetaxonomies_sensitive](/img/product_docs/dataclassification/ndc/admin/taxonomies/standalonetaxonomies_sensitive.png)
 
 __Step 4 –__ Click __Save__.
 
-To view the results of the classification and generate sensitivity reports, go to Analysis > Reports >  Classification Reports >  Sensitive Documents. See the [Classification Reports](/docs/product_docs/dataclassification/ndc/admin/reporting/classificationreports.md) topic for additional information.
+To view the results of the classification and generate sensitivity reports, go to Analysis > Reports >  Classification Reports >  Sensitive Documents. See the [Classification Reports](/docs/dataclassification/ndc/admin/reporting/classificationreports.md) topic for additional information.

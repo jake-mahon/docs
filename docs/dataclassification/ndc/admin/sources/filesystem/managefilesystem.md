@@ -23,7 +23,7 @@ To configure tagging on a global level
 2. Select the taxonomy you need and click the __Edit__ link for it.
 3. In the taxonomy properties, enable writing classification attributes (tags) and specify other settings:
 
-![filewriteconfig](/static/img/product_docs/dataclassification/ndc/admin/sources/filesystem/filewriteconfig.png)
+![filewriteconfig](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/filewriteconfig.png)
 
 | Setting | Description | Note |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ To configure tagging on a source level
 3. Select the taxonomy you need and click __Edit__.
 4. In the taxonomy properties, select the __Enabled__ checkbox and specify the settings described in the table above.
 
-[![file_source_write_cfg_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/filesystem/file_source_write_cfg_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/file_source_write_cfg.png)
+[![file_source_write_cfg_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/file_source_write_cfg_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/file_source_write_cfg.png)
 
 ## Configure Inclusions
 
@@ -65,7 +65,7 @@ To specify inclusions, do the following:
 
 __NOTE:__ Inclusions are case-insensitive. A wildcard (\*) is supported.
 
-[![nfs_inclusions_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/filesystem/nfs_inclusions_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/nfs_inclusions.png)
+[![nfs_inclusions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/nfs_inclusions_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/nfs_inclusions.png)
 
 ## Configure Exclusions
 
@@ -88,7 +88,7 @@ You can also configure the list of file locations to exclude from processing.
 
 __NOTE:__ Exclusions are case-insensitive.
 
-[![file_exclusion_filter_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/sources/filesystem/file_exclusion_filter_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/sources/file_exclusion_filter.png)
+[![file_exclusion_filter_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/file_exclusion_filter_thumb_0_0.png)](/docs/dataclassification/resources/images/sources/file_exclusion_filter.png)
 
 3. Optionally, enter a test path to verify the settings and click __Test__.
 4. If needed, you can use metadata conditions to restrict when an exclusion filter should be applied. For that, click __Condition__ tab and click __Add__. Then select how the exclusion conditions will work: it can check if metadata field of the document has any value, is not specified, or matches a specific metadata value.

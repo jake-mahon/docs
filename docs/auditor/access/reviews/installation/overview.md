@@ -15,7 +15,7 @@ Permissions are needed to the Netwrix Auditor database and to Active Directory. 
 - Database service account – This is the same account used by Netwrix Auditor for a database service account. This credential is required for installation.
 
   __NOTE:__ Database connection via TLS 1.2 (SQL Native Client) is supported.
-- Active Directory service account – The Access Reviews Console login authentication requires the Active Directory service account to have rights to "read" Active Directory. This credential is configured during installation based on the account used for connecting to the database. See the [Active Directory Page](/docs/product_docs/auditor/access/reviews/admin/configuration/activedirectory.md) topic for additional information.
+- Active Directory service account – The Access Reviews Console login authentication requires the Active Directory service account to have rights to "read" Active Directory. This credential is configured during installation based on the account used for connecting to the database. See the [Active Directory Page](/docs/auditor/access/reviews/admin/configuration/activedirectory.md) topic for additional information.
 
 ## Software Compatibility & Versions
 
@@ -30,7 +30,7 @@ Latest Version Compatibility
 
 Last Updated 6/6/2022
 
-See the [Upgrade Procedure](/docs/product_docs/auditor/access/reviews/installation/upgrade.md) topic for additional information.
+See the [Upgrade Procedure](/docs/auditor/access/reviews/installation/upgrade.md) topic for additional information.
 
 ## Supported Browsers
 

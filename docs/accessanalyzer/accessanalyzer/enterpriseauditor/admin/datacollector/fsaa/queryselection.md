@@ -2,7 +2,7 @@
 
 The FSAA Data Collector Query Selection page contains the following query categories, sub-divided by auditing focus:
 
-![FSAA Data Collector Wizard Query Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
+![FSAA Data Collector Wizard Query Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
 
 - The File System Access/Permission Auditing options scan hosts for file system information, and there are two categories to choose from:
 
@@ -23,7 +23,7 @@ The FSAA Data Collector Query Selection page contains the following query catego
     __NOTE:__ Starting with v8.1, DFS Audits are completed with a streaming method and do not require a bulk import query following the scan query.
 - The Azure options collects Azure Files storage account information, and there is one category:
 
-  - Scan and import – Collects Azure Files storage account information. The instant job preconfigured to use this query category must be used. See the [FS\_AzureTenantScan Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
+  - Scan and import – Collects Azure Files storage account information. The instant job preconfigured to use this query category must be used. See the [FS\_AzureTenantScan Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
 - The Maintenance options perform maintenance for the FSAA Data Collector, and there are three categories to choose from:
 
   - Remove scan executables and data – Removes file system access audit scan applet and data from the remote server
@@ -42,7 +42,7 @@ __CAUTION:__ Do not use the Maintenance button unless instructed by [Netwrix Sup
 
 The Maintenance Wizard is opened by clicking the __Maintenance__ button on the Query Selection page of the FSAA Data Collector Wizard. You can use the wizard to reset hosts or repair file system data errors.
 
-![Maintenance Wizard Maintenance Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardselection.png)
+![Maintenance Wizard Maintenance Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardselection.png)
 
 The Maintenance Selection page allows you to select the type of maintenance to be performed:
 
@@ -53,12 +53,12 @@ Select the required option and click __Next__. The subsequent wizard page is det
 
 - If Reset Hosts was selected, the Reset Hosts page displays:
 
-  ![Maintenance Wizard Reset Hosts page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardresethosts.png)
+  ![Maintenance Wizard Reset Hosts page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardresethosts.png)
 
   Select the desired hosts to reset the SQL data for, and click __Reset Hosts__ to perform the maintenance.
 - If Repair was selected, the Repair Tool page displays:
 
-  ![Maintenance Wizard Repair Tool page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardrepair.png)
+  ![Maintenance Wizard Repair Tool page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardrepair.png)
 
   Select the desired hosts to repair the SQL data for, and click __Run__ to perform the maintenance.
 

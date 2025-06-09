@@ -8,4 +8,4 @@ Note that when the setting is:
 2. Enabled: You can specify your own dialog title and text. NOTE that HTML is NOT supported. Must be straight text.
 3. Disabled: No dialog will appear if Endpoint Policy Manager Endpoint Policy Manager Browser Router or the CSE has a problem. This could be desirable, but also means that functions will just stop with no notification.
 
-![780_1_img-01_950x653](/static/img/product_docs/policypak/policypak/troubleshooting/780_1_img-01_950x653.png)
+![780_1_img-01_950x653](/img/product_docs/policypak/policypak/troubleshooting/780_1_img-01_950x653.png)

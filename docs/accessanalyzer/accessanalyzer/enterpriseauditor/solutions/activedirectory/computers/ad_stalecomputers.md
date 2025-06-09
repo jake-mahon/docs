@@ -4,7 +4,7 @@ The AD\_StaleComputers Job provides details on stale computers that may be candi
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD\_StaleComputers Job has the following configurable parameters:
 
@@ -19,7 +19,7 @@ Navigate to the __Active Directory__ > __3.Computers__ > __AD\_StaleComputers__ 
 
 __CAUTION:__ Do not modify or deselect the __2. Summarize by Domain__ analysis task. This analysis task is preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleComputers Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.png)
+![Analysis Tasks for the AD_StaleComputers Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.png)
 
 The default analysis tasks are:
 
@@ -45,4 +45,4 @@ Analysis parameters that can be customized have the following default values:
 | 1. Identify Stale Computers | @days\_since\_last\_logon | 90 | A computer object that has been inactive for 90 days or more |
 | 1. Identify Stale Computers | @consider\_disable | 1 | A computer object that has been disabled:   - Value 1 = Disabled computers are included as stale  - Value 0 = Disabled computers are not included as stale |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.

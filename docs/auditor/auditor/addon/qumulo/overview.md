@@ -17,7 +17,7 @@ Major benefits:
 
 The add-on is implemented as a Syslog service that collects activity data from Qumulo Cluster and sends it to Auditor using the Integration API.
 
-[![diagram_thumb_0_0](/static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/addon/qumulo/diagram.png)
+[![diagram_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.png)](/docs/auditor/resources/images/auditor/addon/qumulo/diagram.png)
 
 On a high level, the solution works as follows:
 
@@ -28,7 +28,7 @@ On a high level, the solution works as follows:
 3. Then the administrator opens the settings.xml configuration file and specifies the necessary parameters for add-on operation, including Qumulo Cluster as the source of Syslog messages, Auditor settings, etc. The add-on will operate as a Syslog listener for the Qumulo Cluster.
 4. The add-on starts collecting and forwarding activity data: it listens to the specified TCP port and captures the designated Syslog messages. Data communication is performed using the TCP version of Syslog protocol.
 5. The add-on processes these Syslog messages into Auditor-compatible format (Activity Records). Each Activity Record contains the "Who-What-When-Where-Action" information (that is, initiator's account, time, action, and other details).
-6. Using the Integration API, the add-on sends the activity records to Auditor Server that writes them to the __Netwrix\_Auditor\_API__ database (SQL server database) and file-based Long-Term Archive. Data is sent periodically, by default every 5 seconds. For more information on the Activity Record structure and capabilities of the Integration API, refer to the [Integration API](/docs/product_docs/auditor/auditor/api/overview.md) topic.
+6. Using the Integration API, the add-on sends the activity records to Auditor Server that writes them to the __Netwrix\_Auditor\_API__ database (SQL server database) and file-based Long-Term Archive. Data is sent periodically, by default every 5 seconds. For more information on the Activity Record structure and capabilities of the Integration API, refer to the [Integration API](/docs/auditor/auditor/api/overview.md) topic.
 7. Users open Auditor Client to work with collected data:
    - Search for file changes using certain criteria
    - Export data to PDF or CSV files

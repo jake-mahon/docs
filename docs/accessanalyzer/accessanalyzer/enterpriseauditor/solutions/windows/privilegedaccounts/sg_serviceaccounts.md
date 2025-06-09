@@ -2,7 +2,7 @@
 
 The SG\_ServiceAccounts job determines which domain accounts are being used to run services on member servers, identifying password age and settings.
 
-![Service Accounts > SG_ServiceAccounts Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/serviceaccountsjobstree.png)
+![Service Accounts > SG_ServiceAccounts Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/serviceaccountsjobstree.png)
 
 The SG\_ServiceAccounts job is located in the Service Account job group.
 
@@ -12,13 +12,13 @@ The SG\_ServiceAccounts job uses the Services Data Collector for the following q
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_ServiceAccounts Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/serviceaccountsquery.png)
+![Queries for the SG_ServiceAccounts Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/serviceaccountsquery.png)
 
 The query for the SG\_ServiceAccounts job is:
 
 - Service Accounts – Collects information on service accounts
 
-See the [Services Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/services.md) topic for additional information.
+See the [Services Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/services.md) topic for additional information.
 
 ## Analysis Tasks for the SG\_ServiceAccounts Job
 
@@ -26,7 +26,7 @@ Navigate to the __Jobs__ > __Windows__ > __Privileged Accounts__ > __Service Acc
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_ServiceAccounts Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/serviceaccountsanalysis.png)
+![Analysis Tasks for the SG_ServiceAccounts Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/serviceaccountsanalysis.png)
 
 The default analysis tasks are:
 

@@ -10,5 +10,5 @@ Active Directory resource reports identify the following information in the targ
 
 The following reports are available at the __Active Directory__ node:
 
-- [Domain Summary Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/domainsummary.md)
-- [Exceptions Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions.md)
+- [Domain Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/domainsummary.md)
+- [Exceptions Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions.md)

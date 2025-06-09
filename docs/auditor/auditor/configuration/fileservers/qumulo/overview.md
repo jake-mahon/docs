@@ -9,7 +9,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
-  - The Remote Syslog Address and port number must be configured as described in the [Configure Core Audit for Qumulo File Servers](/docs/product_docs/auditor/auditor/configuration/fileservers/qumulo/configure.md) topic.
+  - The Remote Syslog Address and port number must be configured as described in the [Configure Core Audit for Qumulo File Servers](/docs/auditor/auditor/configuration/fileservers/qumulo/configure.md) topic.
 
 Review a full list of object types Netwrix Auditor can collect on Qumulo network devices.
 

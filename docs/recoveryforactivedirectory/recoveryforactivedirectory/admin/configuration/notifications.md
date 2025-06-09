@@ -4,7 +4,7 @@ The Notifications page allows the configuration of notifications, which is requi
 
 Click __Configuration__ in the left pane. Then click the __Notification tab__ on the Configuration page to open the Notification page.
 
-![Notifications Page](/static/img/product_docs/1secure/1secure/admin/notifications.png)
+![Notifications Page](/img/product_docs/1secure/1secure/admin/notifications.png)
 
 Follow the steps to configure notifications.
 
@@ -29,4 +29,4 @@ __Step 6 –__ Click the __Save__ button to save the configurations.
 
 Notifications have been configured in the system.
 
-__NOTE:__ The recipients of the notification can be added from the Domains page. See the [Add a Domain](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#Add-a-Domain) topic for additional information.
+__NOTE:__ The recipients of the notification can be added from the Domains page. See the [Add a Domain](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#Add-a-Domain) topic for additional information.

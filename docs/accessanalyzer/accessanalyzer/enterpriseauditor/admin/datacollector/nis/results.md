@@ -2,7 +2,7 @@
 
 The Results page is where properties from Unix to be gathered are selected. It is a wizard page for both categories.
 
-![NIS Data Collector Wizard Results page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![NIS Data Collector Wizard Results page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
 
 Available properties have checkboxes that can be selected individually, or you can use the __Select All__, __Clear All__, and __Reset to defaults__ buttons. All selected properties are gathered. Available properties vary based on the category selected.
 

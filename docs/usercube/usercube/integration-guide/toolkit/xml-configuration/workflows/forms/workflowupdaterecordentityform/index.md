@@ -68,13 +68,13 @@ __NOTE:__ ```WorkflowUpdateRecordEntity``` used in config Delete mode (```IsDele
 
 The contents of ```MainControl``` and ```RecordControl``` are visible during the workflow's execution:
 
-![Form Example - Update Data](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/formexample_workflowupdaterecordentityform_v603.png)
+![Form Example - Update Data](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/formexample_workflowupdaterecordentityform_v603.png)
 
 The content of ```RecordUniqueItemControl``` is not visible. The user's records that have the same values for all the properties in ```RecordUniqueItemControl``` will be displayed, and potentially modified, as one.
 
 The contents of ```MainSummaryControl``` and ```RecordSummaryControl``` are visible after the workflow's execution:
 
-![Summary Form Example - Update Data](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/formexample_workflowupdaterecordentityform_summary_v603.png)
+![Summary Form Example - Update Data](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/formexample_workflowupdaterecordentityform_summary_v603.png)
 
 ## Properties
 

@@ -10,7 +10,7 @@ To be able to audit and report who made changes to the Exchange servers in your 
 | LogLevel | Verbose | Sets logging level. |
 | ExcludedCmdlets | \*-InboxRule,  \*-MailboxAutoReplyConfiguration,  Set-MailboxAuditBypassAssociation,  Set-MailboxAutoReplyConfiguration,  Set-MailboxCalendarConfiguration,  Set-MailboxCalendarFolder,  Set-MailboxFolderPermission,  Set-MailboxJunkEmailConfiguration,  Set-MailboxMessageConfiguration,  Set-MailboxRegionalConfiguration,  Set-MailboxSpellingConfiguration | This list of exclusions is set up as explained in step 3 of the procedure below. |
 
-You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/product_docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
+You can configure these settings automatically using Netwrix Auditor, as described in the [Active Directory: Automatic Configuration](/docs/auditor/auditor/configuration/activedirectory/automatic.md) topic.
 
 To configure them manually, refer to the procedure described below.
 

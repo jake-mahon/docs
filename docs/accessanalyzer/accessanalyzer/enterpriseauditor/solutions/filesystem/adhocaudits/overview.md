@@ -6,11 +6,11 @@ The Ad Hoc Audits Job Group tables and reports are blank if the CSV file is not 
 
 ___RECOMMENDED:___ Run these jobs independently of the solution.
 
-![Ad Hoc Audits Job Group](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Ad Hoc Audits Job Group](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
 The Ad Hoc Audits Job Group is comprised of:
 
-- [FS\_ShareAudit Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/fs_shareaudit.md#FS_ShareAudit-Job) – Designed to report on shares from targeted file servers based on user input
-- [FS\_TrusteePermissions Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/fs_trusteepermissions.md#FS_TrusteePermissions-Job) – Designed to report on trustees from targeted file servers based on user input
+- [FS\_ShareAudit Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/fs_shareaudit.md#FS_ShareAudit-Job) – Designed to report on shares from targeted file servers based on user input
+- [FS\_TrusteePermissions Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/fs_trusteepermissions.md#FS_TrusteePermissions-Job) – Designed to report on trustees from targeted file servers based on user input
 
 For both of these jobs, the host list is set to Local host at the job level. The assigned Connection Profile needs to have rights on the Access Analyzer Console server to access the CSV file saved in the job’s directory. The Connection Profile can be set at either the Ad Hoc Audits > Settings > Connection node (applies to both jobs) or in the job’s Properties window on the Connection tab.

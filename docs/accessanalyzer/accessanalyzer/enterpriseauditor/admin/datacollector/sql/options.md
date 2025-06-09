@@ -9,7 +9,7 @@ Use the Options page to configure additional settings. The contents of the page 
 
 Use the Options page to specify collection options to use when gathering server audits. This is a page for the Server Audits Events Collection category.
 
-![SQL Data Collector Wizard Options page for Server Audit](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/optionsserveraudits.png)
+![SQL Data Collector Wizard Options page for Server Audit](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/optionsserveraudits.png)
 
 The scan options are:
 
@@ -25,7 +25,7 @@ The scan options are:
 
 Use the Sensitive Data Scan Settings (Options) page to specify collection options to use when gathering server audits. This is a page for the Sensitive Data Collection category.
 
-![SQL Data Collector Wizard Options page for Sensitive Data](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/optionssensitivedata.png)
+![SQL Data Collector Wizard Options page for Sensitive Data](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/optionssensitivedata.png)
 
 The sensitive data scan settings are:
 

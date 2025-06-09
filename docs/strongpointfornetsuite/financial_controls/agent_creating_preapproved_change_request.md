@@ -1,12 +1,12 @@
 # Creating an Agent Preapproved Change Request
 
-You can create a custom change request form for an Agent Preapproved Change Request. Refer to [Using Custom Change Request Forms](/docs/product_docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your custom form.
+You can create a custom change request form for an Agent Preapproved Change Request. Refer to [Using Custom Change Request Forms](/docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your custom form.
 
 Here are the steps to create a pre-approved change request for a control:
 
 1. Open __Strongpoint__ > __Financial Controls__ > __New Agent Control Approval__
 
-   ![agent_pre_app_not_started](/static/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_not_started.png)
+   ![agent_pre_app_not_started](/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_not_started.png)
 2. Enter the __Name__ and __Overview__ for the Control.
 3. Set a combination of two or more filters. Using one filter can create a blanket approval or too loose approval criteria.
 
@@ -20,7 +20,7 @@ Here are the steps to create a pre-approved change request for a control:
 5. Click __Save__.
 6. The Approval section is now available. Click __Edit__ to add __Additional Approvers__ or __Approver Notes__. Click __Save__.
 
-   if you make changes.![agent_pre_app_approval_section](/static/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_approval_section.png)  
+   if you make changes.![agent_pre_app_approval_section](/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_approval_section.png)  
     Related Change Record information is added when you save. The results are shown on the __Related Change Records__ tab.
 
    - Created From
@@ -35,11 +35,11 @@ Here are the steps to create a pre-approved change request for a control:
 
 ### Status Bar States
 
-![change_request_bar_not_started](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.png)
+![change_request_bar_not_started](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.png)
 
 New Change Request. Click __In Progress__ to advance the status.
 
-![change_request_bar_inprogress](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.png)
+![change_request_bar_inprogress](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.png)
 
 Change Request __In Progress__.
 
@@ -49,7 +49,7 @@ Approval section is added when the Change Request is saved.
 
 When ready for approval, click __Pending Approval__.
 
-![change_request_bar_pending](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.png)
+![change_request_bar_pending](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.png)
 
 Approvers are notified.
 
@@ -57,35 +57,35 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.png)
+![change_request_bar_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.png)
 
 Status when all approvers have approved.
 
 Can be returned to a previous status or rejected.
 
-![change_request_bar_approved_partial](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.png)
+![change_request_bar_approved_partial](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.png)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.png)
+![change_request_bar_approved_override](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.png)
 
 Status when an administrator has approved in place of a specified approver.
 
 __Approval Override by__ field displays the approver.
 
-![change_request_bar_approved_completed](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.png)
+![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.png)
 
 Approved and Completed.
 
 Can be returned to a previous status.
 
-![change_request_bar_approved_canceled](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.png)
+![change_request_bar_approved_canceled](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.png)
 
 Approved and Canceled.
 
 Can be returned to a previous status.
 
-![change_request_bar_rejected](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.png)
+![change_request_bar_rejected](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.png)
 
 Rejected and Completed.
 

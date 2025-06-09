@@ -10,7 +10,7 @@ Additional owners have the same privileges as the primary owner to manage the gr
 NOTE: Only users, contacts and security groups can be set as the primary and additional owners of a group.  
  If you specify a group, all its members are considered additional owners.
 
-You can also specify Exchange additional owners for the group. See the [Group properties - Email tab](/docs/product_docs/groupid/groupid/portal/group/properties/email.md) in group properties.
+You can also specify Exchange additional owners for the group. See the [Group properties - Email tab](/docs/groupid/groupid/portal/group/properties/email.md) in group properties.
 
 NOTE: 1. For groups in an Microsoft Entra ID based identity store, only users can be set as primary owners. Moreover, Microsoft Entra ID supports multiple primary owners for a group. Exchange additional owners are not supported.  
 2. A group must have at least one primary owner.
@@ -19,7 +19,7 @@ __Owner__
 
 The primary owner of the group.
 
-To change the primary owner, click __Browse__ next to the __Owner__ box to launch the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md),
+To change the primary owner, click __Browse__ next to the __Owner__ box to launch the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md),
 where you can search and select a primary owner.
 
 If the administrator has not enforced the selection of a primary owner in the Group Owner policy, you can also remove the primary
@@ -63,17 +63,17 @@ __Add__
 
 To specify additional owner(s) for the group, click __Add__.
 
-Enter a search string to locate the object to add as an additional owner, or click __Advance__ to use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) for performing a search.
+Enter a search string to locate the object to add as an additional owner, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
 
 __Import__
 
-You can also specify additional owners for the group using an external file. Click __Import__ to launch the __Import Additional Owners__ wizard for importing additional owners. See [Import Additional Owners](/docs/product_docs/groupid/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
+You can also specify additional owners for the group using an external file. Click __Import__ to launch the __Import Additional Owners__ wizard for importing additional owners. See [Import Additional Owners](/docs/groupid/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
 
 __Export__
 
 You can export the list of additional owners to an external file. Supported file formats are: .txt, .csv, .xls, .xlsx and .xml.
 
-Click __Export__ to launch the __Export Additional Owners__ wizard for exporting additional owners. Select the attributes you want to export. For information and instructions, see [Export additional owners](/docs/product_docs/groupid/groupid/portal/group/manage/groupownershipfunction.md#Export-additional-owners).
+Click __Export__ to launch the __Export Additional Owners__ wizard for exporting additional owners. Select the attributes you want to export. For information and instructions, see [Export additional owners](/docs/groupid/groupid/portal/group/manage/groupownershipfunction.md#Export-additional-owners).
 
 __Remove__
 

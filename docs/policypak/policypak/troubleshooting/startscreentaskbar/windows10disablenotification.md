@@ -4,11 +4,11 @@ When you install a new app in Windows 10 you may see a notification letting you 
 
 Notification Examples:
 
-![76_1_image-20200728223133-1](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_1_image-20200728223133-1.png)
+![76_1_image-20200728223133-1](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_1_image-20200728223133-1.png)
 
-![76_3_image-20200728223133-2](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_3_image-20200728223133-2.png)
+![76_3_image-20200728223133-2](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_3_image-20200728223133-2.png)
 
-![76_5_image-20200728223134-3](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_5_image-20200728223134-3.png)
+![76_5_image-20200728223134-3](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_5_image-20200728223134-3.png)
 
 ## OPTION1: Using Group Policy Preferences > Registry
 
@@ -26,11 +26,11 @@ Value name: NoNewAppAlert
 Value type: REG\_DWORD  
 Value data: 00000001
 
-![76_7_image-20200728223134-4](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_7_image-20200728223134-4.png)
+![76_7_image-20200728223134-4](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_7_image-20200728223134-4.png)
 
 Policy should look like below when created:
 
-![76_9_image-20200728223134-5_950x59](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_9_image-20200728223134-5_950x59.png)
+![76_9_image-20200728223134-5_950x59](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_9_image-20200728223134-5_950x59.png)
 
 __Step 5 –__ Lastly, apply policy to computer OU or domain where you want New App notifications to be disabled.
 
@@ -42,11 +42,11 @@ __Step 2 –__ Select Computer Configuration > PolicyPak > Scripts Manager
 
 __Step 3 –__ Right-click on Scripts Manager and select "Add Policy…"
 
-![76_11_image-20200728223134-6](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_11_image-20200728223134-6.png)
+![76_11_image-20200728223134-6](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_11_image-20200728223134-6.png)
 
 __Step 4 –__ At the "Specify policy target" screen stick with the default "Apply this policy to the computer (default)" then click "Next".
 
-![76_13_image-20200728223134-7](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_13_image-20200728223134-7.png)
+![76_13_image-20200728223134-7](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_13_image-20200728223134-7.png)
 
 __Step 5 –__ At the "On apply action" screen select "PowerShell script" from the dropdown and then copy in the text below then click "Next".
 
@@ -60,7 +60,7 @@ __Step 5 –__ At the "On apply action" screen select "PowerShell script" from t
                 -ea SilentlyContinue;
 ```
 
-![76_15_image-20200728223134-8](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_15_image-20200728223134-8.png)
+![76_15_image-20200728223134-8](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_15_image-20200728223134-8.png)
 
 __Step 6 –__ OPTIONAL: At the "On revert action" screen select "PowerShell script" from the dropdown and then copy in the text below then click "Next".
 
@@ -72,11 +72,11 @@ __Step 6 –__ OPTIONAL: At the "On revert action" screen select "PowerShell scr
                 SilentlyContinue;
 ```
 
-![76_17_image-20200728223134-9](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_17_image-20200728223134-9.png)
+![76_17_image-20200728223134-9](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_17_image-20200728223134-9.png)
 
 __Step 7 –__ At the "Specify process mode" screen select the "Once or when forced" option then click next.
 
-![76_19_image-20200728223134-10](/static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_19_image-20200728223134-10.png)
+![76_19_image-20200728223134-10](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_19_image-20200728223134-10.png)
 
 __Step 8 –__ Give the policy a descriptive name and then click finish.
 

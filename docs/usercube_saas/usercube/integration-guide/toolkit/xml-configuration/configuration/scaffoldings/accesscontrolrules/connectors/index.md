@@ -2,11 +2,11 @@
 
 - [
   Connector Resource Type Access Control
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md)
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md)
 
   Gives the rights to create and update resource types, generate provisioning orders and fulfill from the connector screen.
 - [
   Settings Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md)
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md)
 
   Generates the permissions to configure the Workforce Core Solution module and connector settings.

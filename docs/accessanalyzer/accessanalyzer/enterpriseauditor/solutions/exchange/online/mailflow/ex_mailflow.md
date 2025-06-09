@@ -2,13 +2,13 @@
 
 The EX\_Mailflow job collects message trace data from Office 365.
 
-![0. Collection > EX_Mailflow Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0. Collection > EX_Mailflow Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
 The EX\_Mailflow job is located in the __Mailflow__ > __0. Collection__ job group.
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The EX\_Mailflow job has the following configurable parameter:
 
@@ -20,7 +20,7 @@ See the [Analysis Tasks for the EX\_Mailflow Job](#Analysis-Tasks-for-the-EX_Mai
 
 The EX\_Mailflow job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Mailflow Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowqueries.png)
+![Queries for the EX_Mailflow Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowqueries.png)
 
 The following queries are included in the EX\_Mailflow job:
 
@@ -32,7 +32,7 @@ The following queries are included in the EX\_Mailflow job:
 
   __CAUTION:__ Do not modify this query. The query is preconfigured for this job.
 
-  - See the [ExchangePS Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md) topic for additional information
+  - See the [ExchangePS Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md) topic for additional information
 
 ### Configure the ExchangePS Data Collector for Mail Flow Metrics
 
@@ -48,9 +48,9 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![ExchangePS Data Collector Wizard Mail Flow page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.png)
+![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.png)
 
-__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md#ExchangePS-Data-Collector) topic for additional information.
+__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md#ExchangePS-Data-Collector) topic for additional information.
 
 _Remember,_ the date range must be 7 days or less.
 
@@ -64,7 +64,7 @@ View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowanalysis.png)
+![Analysis Tasks for the EX_Mailflow Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -73,7 +73,7 @@ The following analysis tasks are selected by default:
 - 03. SET HISTORY RETENTION – Sets retention period in months
 
   - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#Parameter-Configuration) topic for additional information.
-  - Alternatively, the ```@Months``` parameter can be modified in the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
+  - Alternatively, the ```@Months``` parameter can be modified in the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain cleared unless specifically needed:
 
@@ -81,4 +81,4 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
 - 00. Deletes all Stored Data - LEAVE UNCHECKED – Deletes all historical data
 
-  - See the [Troubleshooting Data Collection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information

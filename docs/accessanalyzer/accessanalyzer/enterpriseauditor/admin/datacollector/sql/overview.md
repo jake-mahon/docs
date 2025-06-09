@@ -4,12 +4,12 @@ The SQL Data Collector provides information on database configuration, permissio
 
 The SQL Data Collector has been preconfigured within the Database data collection jobs for Db2, MySQL, Oracle, PostgreSQL, Redshift, and SQL Server databases. Both this data collector and the Database Solution are available with a special Access Analyzer license. See the following topics for additional information:
 
-- [Db2 Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/overview.md)
-- [MySQL Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/overview.md)
-- [PostgreSQL Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/overview.md)
-- [Oracle Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/oracle/overview.md)
-- [Redshift Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/redshift/overview.md)
-- [SQL Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/overview.md)
+- [Db2 Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/db2/overview.md)
+- [MySQL Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mysql/overview.md)
+- [PostgreSQL Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/overview.md)
+- [Oracle Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/oracle/overview.md)
+- [Redshift Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/redshift/overview.md)
+- [SQL Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/overview.md)
 
 Protocols
 
@@ -78,7 +78,7 @@ For SQL:
   - Grant View server state to [DOMAIN\USER]
   - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
-See the [Azure SQL Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlaccess.md) topic and the [AzureSQL Target Least Privilege Model](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/databaseazuresql.md) topic for additional information.
+See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlaccess.md) topic and the [AzureSQL Target Least Privilege Model](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/config/databaseazuresql.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -90,13 +90,13 @@ The SQL Data Collector is configured through the SQL Data Collector Wizard. The 
 
 __NOTE:__ The SQL Data Collector is used in multiple Access Analyzer Solutions, and the query categories used are dependent on the solution.
 
-- [SQL: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/category.md)
-- [SQL: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md)
-- [SQL: Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md)
-- [SQL: Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/filter.md)
-- [SQL: Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/settings.md)
-- [SQL: Custom SQL Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customquerysql.md)
-- [SQL: Custom Oracle Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customqueryoracle.md)
-- [SQL: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/results.md)
-- [SQL: Rowkey](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/rowkey.md)
-- [SQL: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/summary.md)
+- [SQL: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/category.md)
+- [SQL: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md)
+- [SQL: Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md)
+- [SQL: Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/filter.md)
+- [SQL: Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/settings.md)
+- [SQL: Custom SQL Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customquerysql.md)
+- [SQL: Custom Oracle Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customqueryoracle.md)
+- [SQL: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/results.md)
+- [SQL: Rowkey](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/rowkey.md)
+- [SQL: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/summary.md)

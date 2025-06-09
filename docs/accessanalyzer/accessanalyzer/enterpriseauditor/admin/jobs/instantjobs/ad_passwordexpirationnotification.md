@@ -1,8 +1,8 @@
 # AD\_PasswordExpirationNotification Job
 
-The AD\_PasswordExpirationNotification Job determines when Active Directory user passwords are about to expire and can be configured to send notifications to users prior to password expiration. It is available through the Instant Job Library under the Active Directory library. See the [Instant Job Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) section for instructions to add this instant job into the Jobs tree. Since this job does not require a host to target, select Local host on the Hosts page of the Instant Job Wizard.
+The AD\_PasswordExpirationNotification Job determines when Active Directory user passwords are about to expire and can be configured to send notifications to users prior to password expiration. It is available through the Instant Job Library under the Active Directory library. See the [Instant Job Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) section for instructions to add this instant job into the Jobs tree. Since this job does not require a host to target, select Local host on the Hosts page of the Instant Job Wizard.
 
-![AD_PasswordExpirationNotification job in the Jobs tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![AD_PasswordExpirationNotification job in the Jobs tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
 Runtime Details:
 
@@ -18,7 +18,7 @@ The AD\_PasswordExpirationNotification Job runs analysis tasks that generate tab
 
 Navigate to the __Jobs__ > __AD\_PasswordExpirationNotification__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Default Analysis Tasks for the Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
+![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
 
 The default analysis tasks are:
 
@@ -37,7 +37,7 @@ Navigate to the __Jobs__ > __AD\_PasswordExpirationNotification__ > __Configure_
 
 __CAUTION:__ This action is enabled by default.
 
-![Default Action Tasks for the Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.png)
+![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.png)
 
 The default actions are:
 
@@ -67,7 +67,7 @@ __Step 1 –__ Navigate to the __AD\_PasswordExpirationNotification__ > __Config
 
 __Step 2 –__ In the Analysis Selection view, select the __1. User Password Information__ Analysis Task and click on __Analysis Configuration__. The SQL Script Editor opens.
 
-![1. User Password Information Analysis Task in SQL Script Editor](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/customizeanalysistask.png)
+![1. User Password Information Analysis Task in SQL Script Editor](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/customizeanalysistask.png)
 
 __Step 3 –__ In the parameters section at the bottom of the editor, find the Value column. Double-click on the current value and change as desired.
 
@@ -103,23 +103,23 @@ __Step 1 –__ Navigate to the __AD\_PasswordExpirationNotification__ > __Config
 
 __Step 2 –__ In the Analysis Selection view, select the __5. Help Desk Notification Analysis Task__ and click on __Analysis Configuration__. The Notification Data Analysis Module opens.
 
-![SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtpproperties.png)
+![SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtpproperties.png)
 
 __Step 3 –__ Use the __Next__ button to navigate to the SMTP properties page. Do not make changes to the preceding pages. The email configuration takes place on the SMTP page. Provide the recipients’ email addresses, Message Subject, and add the notification email content.
 
-![SMTP properties add email recipients](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtppropertiesrecipients.png)
+![SMTP properties add email recipients](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtppropertiesrecipients.png)
 
 In the Recipients section, provide the email addresses in the text box or distribution lists in the E-mail field (fully qualified address) for those who are to receive this notification, for example the organization’s Help Desk. Multiple addresses can be input by adding a semicolon (;) and space between entries.
 
 Use the __Add__ and __Remove__ buttons to add or remove the address in the E-mail field from the Recipients list. There is an option to __Combine multiple messages into single message__, which is checked by default so that it sends one email for all users in the record set instead of one email per user.
 
-![Message section of SMTP properties page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtppropertiesmessage.png)
+![Message section of SMTP properties page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/smtppropertiesmessage.png)
 
 In the Message section, the __Subject__ should be configured. Then set the email content in the text box as desired.
 
 __Step 4 –__ To save these configuration changes, use the __Next__ button to navigate to the Summary page. Do not make changes to any other pages. Click __Finish__. The Notification Data Analysis Module window closes.
 
-![Analyis Tasks view](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistaskshelpdesknotification.png)
+![Analyis Tasks view](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistaskshelpdesknotification.png)
 
 __Step 5 –__ This notification analysis task is now configured to send emails. In the Analysis Selection view, ensure the 5. Help Desk Notification Analysis Task is checked so that notifications can be sent automatically during the execution of the AD\_PasswordExpirationNotification Job.
 
@@ -153,7 +153,7 @@ __CAUTION:__ Do not modify the action task properties.
 
 __Step 3 –__ In the Action Properties view, the action properties and a preview of the users from the associated table are displayed. Click __Configure Action__. The Send Mail Action Module Wizard opens.
 
-![Send Mail Action Module Wizard Message page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actionwizardmessage.png)
+![Send Mail Action Module Wizard Message page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actionwizardmessage.png)
 
 __Step 4 –__ Click __Next__ to navigate to the Message page. Modify the message __Subject__ and email content as desired.
 

@@ -141,6 +141,6 @@ __Step 11 –__ Repeat Steps 6-10 for each proxy host.
 
 __Step 12 –__ Delete all the PFX, CER, and Key files that were generated or copied in the above steps from the output locations.
 
-All of the required FSAA certificates have been stored in the FSAA managed certificate stores. The FSAA queries need to be configured to use the __Manual__ certificate exchange option. This option can be found under Applet Settings in the FSAA Data Collector Wizard. See the [FSAA: Applet Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for additional information.
+All of the required FSAA certificates have been stored in the FSAA managed certificate stores. The FSAA queries need to be configured to use the __Manual__ certificate exchange option. This option can be found under Applet Settings in the FSAA Data Collector Wizard. See the [FSAA: Applet Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for additional information.
 
 For additional information on how to use the ```FSAACertificateManager.exe``` tool, run the ```.\FSAACertificateManager.exe -help``` command.

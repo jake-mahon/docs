@@ -11,10 +11,10 @@ However, one capability requires running the API Server on each and every Activi
 
 See the following topics for additional information:
 
-- [Security and Access Control](/docs/product_docs/activitymonitor/activitymonitor/restapi/security.md)
-- [Schema and Resources](/docs/product_docs/activitymonitor/activitymonitor/restapi/resources.md)
+- [Security and Access Control](/docs/activitymonitor/activitymonitor/restapi/security.md)
+- [Schema and Resources](/docs/activitymonitor/activitymonitor/restapi/resources.md)
 
-  - [Agent](/docs/product_docs/activitymonitor/activitymonitor/restapi/agent.md)
-  - [Domain](/docs/product_docs/activitymonitor/activitymonitor/restapi/domain.md)
-  - [Host](/docs/product_docs/activitymonitor/activitymonitor/restapi/host.md)
-  - [Output](/docs/product_docs/activitymonitor/activitymonitor/restapi/output.md)
+  - [Agent](/docs/activitymonitor/activitymonitor/restapi/agent.md)
+  - [Domain](/docs/activitymonitor/activitymonitor/restapi/domain.md)
+  - [Host](/docs/activitymonitor/activitymonitor/restapi/host.md)
+  - [Output](/docs/activitymonitor/activitymonitor/restapi/output.md)

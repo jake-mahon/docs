@@ -2,21 +2,21 @@
 
 Tags can be added to reports to describe the content of the report and use cases for the report. For example, tags can be included in a report to show the compliance frameworks to which the report maps. To view tags or click on tag links, reports must be viewed in the Web Console. Tags are not supported in reports in the Jobs tree.
 
-![Web Console Home Page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webconsolehome.png)
+![Web Console Home Page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/reports/webconsolehome.png)
 
 If Reports from solutions that have been run have tags added to them, those tags can be found under the Tags tab in the Navigation section on the right-hand side of the Published Reports homepage.
 
-| ![Tags tab on Web Console homepage](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/tagstab.png) | ![Priviliged Accounts tag page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/privilegedaccountstag.png) |
+| ![Tags tab on Web Console homepage](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/tagstab.png) | ![Priviliged Accounts tag page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/privilegedaccountstag.png) |
 | --- | --- |
 | Privileged Accounts Tag on Published Reports homepage | Privileged Accounts Tag page |
 
 Click on a tag to view all reports that contain the selected tag.
 
-![Job Group view in the Web Console](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/jobgroupview.png)
+![Job Group view in the Web Console](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/jobgroupview.png)
 
 Clicking on a job group in the Published Reports menu displays the reports contained in that job group. Jobs within that job group that have tags are identified with a tag icon along with the tag name.
 
-![Report header](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/reportheader.png)
+![Report header](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/reportheader.png)
 
 When viewing a report in either the Web Console or the Access Analyzer console, tags are displayed below the report title. Click on a tag to view all reports that contain that tag. If the tag is selected from the Reports view in the Access Analyzer Console, the Published Reports Web Console opens and direct users to the tag page.
 

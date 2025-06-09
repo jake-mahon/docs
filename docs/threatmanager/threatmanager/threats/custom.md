@@ -20,23 +20,23 @@ __Step 3 –__ In the Threats box on the left, click __Custom__ . This opens the
 __Step 4 –__ On the Investigate page, do one of the following:
 
 - Select an existing investigation, or
-- Save a new one. See the [New Investigation Page](/docs/product_docs/threatmanager/threatmanager/administration/investigations/newinvestigation.md) for additional information.
+- Save a new one. See the [New Investigation Page](/docs/threatmanager/threatmanager/administration/investigations/newinvestigation.md) for additional information.
 
 __Step 5 –__ In the selected investigation, click the __Create Threat__ option.
 
-![CreateThreat Option](/static/img/product_docs/threatmanager/threatmanager/threats/createthreat.png)
+![CreateThreat Option](/img/product_docs/threatmanager/threatmanager/threats/createthreat.png)
 
 The Custom Threat page opens.
 
-![Create Threat Dialog Box](/static/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.png)
+![Create Threat Dialog Box](/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.png)
 
-__Step 6 –__ Severity – The relative severity level, or risk level, of the threat. See the [Fine Tune a Threat](/docs/product_docs/threatmanager/threatmanager/administration/configuration/threatconfiguration.md) topic for additional information.
+__Step 6 –__ Severity – The relative severity level, or risk level, of the threat. See the [Fine Tune a Threat](/docs/threatmanager/threatmanager/administration/configuration/threatconfiguration.md) topic for additional information.
 
 __Step 7 –__ Description – Description of the threat.
 
 __NOTE:__ Click the + sign in the description box to insert the {{userName}} macro. The macro will associate the user that committed the threat.
 
-__Step 8 –__ Definition – The threat definition is a detailed explanation of the threat providing insight into why the incident is a potential risk. It appears at the top of the Threat Details page. See the [Threat Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/overview.md) topic for additional information.
+__Step 8 –__ Definition – The threat definition is a detailed explanation of the threat providing insight into why the incident is a potential risk. It appears at the top of the Threat Details page. See the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md) topic for additional information.
 
 __Step 9 –__ The Custom Threat page has two tabs for threat configuration:
 
@@ -57,7 +57,7 @@ Exclusions Tab
 
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![Threat Exclusion Tab](/static/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.png)
+![Threat Exclusion Tab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.png)
 
 __Step 10 –__ Click __Save__. The investigation is now saved as a custom threat.
 

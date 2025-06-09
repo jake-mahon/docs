@@ -2,7 +2,7 @@
 
 Directory Manager uses Windows logging and file logging to monitor events from a portal. You can set the logging level for a deployment instance of a portal to track a specific set of information for it.
 
-To dump the log files to a desired location for easy access, see the [Get Logs](/docs/product_docs/groupid/groupid/admincenter/general/logs.md) topic.
+To dump the log files to a desired location for easy access, see the [Get Logs](/docs/groupid/groupid/admincenter/general/logs.md) topic.
 
 ## File Logging
 

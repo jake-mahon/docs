@@ -13,7 +13,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_ServiceAccounts__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_ServiceAccounts Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/serviceaccountsanalysis.png)
+![Analysis Task for the AD_ServiceAccounts Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/serviceaccountsanalysis.png)
 
 The default analysis tasks are:
 

@@ -16,32 +16,32 @@ __You can:__
 
 Following is the list of all the properties that Users and Mailbox Users have in Active Directory based identity store.
 
-- [Object properties - General tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/general.md)
-- [Object properties - Organization tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/organization.md)
-- [User properties - Member Of tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/memberof.md)
-- [Object properties - Phone / Notes tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/phonenote.md)
-- [Object properties - Attributes tab](/docs/product_docs/groupid/groupid/portal/group/properties/attributes.md)
-- [Object properties - Email tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/email.md)
-- [Mailbox properties - Limits tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/limits.md) (for mailbox only)
-- [Mailbox properties - Advanced tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/advanced.md) (for mailbox only)
-- [Object properties - Advanced tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/advanced.md)
-- [User properties - Account tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/account.md)
-- [Mailbox properties - Auto Reply tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/autoreply.md) (for mailbox only)
-- [Object Properties - Entitlements tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/entitlement.md)
-- [Object properties - History tab](/docs/product_docs/groupid/groupid/portal/group/properties/history.md)
+- [Object properties - General tab](/docs/groupid/groupid/portal/user/properties/activedirectory/general.md)
+- [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md)
+- [User properties - Member Of tab](/docs/groupid/groupid/portal/user/properties/activedirectory/memberof.md)
+- [Object properties - Phone / Notes tab](/docs/groupid/groupid/portal/user/properties/activedirectory/phonenote.md)
+- [Object properties - Attributes tab](/docs/groupid/groupid/portal/group/properties/attributes.md)
+- [Object properties - Email tab](/docs/groupid/groupid/portal/user/properties/activedirectory/email.md)
+- [Mailbox properties - Limits tab](/docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/limits.md) (for mailbox only)
+- [Mailbox properties - Advanced tab](/docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/advanced.md) (for mailbox only)
+- [Object properties - Advanced tab](/docs/groupid/groupid/portal/user/properties/activedirectory/advanced.md)
+- [User properties - Account tab](/docs/groupid/groupid/portal/user/properties/activedirectory/account.md)
+- [Mailbox properties - Auto Reply tab](/docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/autoreply.md) (for mailbox only)
+- [Object Properties - Entitlements tab](/docs/groupid/groupid/portal/user/properties/activedirectory/entitlement.md)
+- [Object properties - History tab](/docs/groupid/groupid/portal/group/properties/history.md)
 
 ## User and Mailbox properties in Microsoft Entra ID
 
 Following is the list of all the properties that Users and Mailbox Users have in an Microsoft Entra ID based identity store.
 
-- [User properties - Identity tab](/docs/product_docs/groupid/groupid/portal/user/properties/azure/identity.md)
-- [User properties - Directory Role tab](/docs/product_docs/groupid/groupid/portal/user/properties/azure/directoryrole.md)
-- [User properties - Job Info tab](/docs/product_docs/groupid/groupid/portal/user/properties/azure/jobinfo.md)
-- [User properties - Contact Info tab](/docs/product_docs/groupid/groupid/portal/user/properties/azure/contactinfo.md)
-- [User properties - Member Of tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/memberof.md)
-- [Object properties - Email tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/email.md) (for mailbox only)
-- [Mailbox properties - Auto Reply tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/autoreply.md) (for mailbox only)
-- [Object properties - History tab](/docs/product_docs/groupid/groupid/portal/group/properties/history.md)
+- [User properties - Identity tab](/docs/groupid/groupid/portal/user/properties/azure/identity.md)
+- [User properties - Directory Role tab](/docs/groupid/groupid/portal/user/properties/azure/directoryrole.md)
+- [User properties - Job Info tab](/docs/groupid/groupid/portal/user/properties/azure/jobinfo.md)
+- [User properties - Contact Info tab](/docs/groupid/groupid/portal/user/properties/azure/contactinfo.md)
+- [User properties - Member Of tab](/docs/groupid/groupid/portal/user/properties/activedirectory/memberof.md)
+- [Object properties - Email tab](/docs/groupid/groupid/portal/user/properties/activedirectory/email.md) (for mailbox only)
+- [Mailbox properties - Auto Reply tab](/docs/groupid/groupid/portal/user/properties/activedirectory/mailbox/autoreply.md) (for mailbox only)
+- [Object properties - History tab](/docs/groupid/groupid/portal/group/properties/history.md)
 
 ## Contact properties
 
@@ -49,11 +49,11 @@ Following is the list of all the properties that Contacts have in Active Directo
 
 NOTE: Contact object is not supported in Microsoft Entra ID.
 
-- [Object properties - General tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/general.md)
-- [Object properties - Organization tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/organization.md)
-- [Contact properties - Member Of tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/contact/memberof.md)
-- [Object properties - Phone / Notes tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/phonenote.md)
-- [Object properties - Attributes tab](/docs/product_docs/groupid/groupid/portal/group/properties/attributes.md)
-- [Object properties - Email tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/email.md)
-- [Contact properties - Advanced tab](/docs/product_docs/groupid/groupid/portal/user/properties/activedirectory/contact/advanced.md)
-- [Object properties - History tab](/docs/product_docs/groupid/groupid/portal/group/properties/history.md)
+- [Object properties - General tab](/docs/groupid/groupid/portal/user/properties/activedirectory/general.md)
+- [Object properties - Organization tab](/docs/groupid/groupid/portal/user/properties/activedirectory/organization.md)
+- [Contact properties - Member Of tab](/docs/groupid/groupid/portal/user/properties/activedirectory/contact/memberof.md)
+- [Object properties - Phone / Notes tab](/docs/groupid/groupid/portal/user/properties/activedirectory/phonenote.md)
+- [Object properties - Attributes tab](/docs/groupid/groupid/portal/group/properties/attributes.md)
+- [Object properties - Email tab](/docs/groupid/groupid/portal/user/properties/activedirectory/email.md)
+- [Contact properties - Advanced tab](/docs/groupid/groupid/portal/user/properties/activedirectory/contact/advanced.md)
+- [Object properties - History tab](/docs/groupid/groupid/portal/group/properties/history.md)

@@ -13,10 +13,10 @@ Flashlight's spider documents your account by analyzing all customizations in th
 
 1. Open __Flashlight__ > __Tools__ > __Spider__.
 
-   ![mainmenu](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.png)
-2. If you are receive a NetSuite alert about segment preferences, you need to set the __Number of Rows in List Segments__ in your account so that the spider can function properly. Refer to [Configuring your Account](/docs/product_docs/strongpointnetsuiteflashlight/getting_started/configuring_account.md) for details. Do not update this field while the spider is running. Once you are ready, start your spider.
+   ![mainmenu](/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.png)
+2. If you are receive a NetSuite alert about segment preferences, you need to set the __Number of Rows in List Segments__ in your account so that the spider can function properly. Refer to [Configuring your Account](/docs/strongpointnetsuiteflashlight/getting_started/configuring_account.md) for details. Do not update this field while the spider is running. Once you are ready, start your spider.
 
-   ![spider_800x368](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.png)
+   ![spider_800x368](/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.png)
 3. Set the following fields:
 
    - Set __Update or Respider__ to __Respider All Records - SLOW.__

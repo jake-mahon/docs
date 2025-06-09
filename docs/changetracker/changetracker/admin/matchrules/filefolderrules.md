@@ -8,7 +8,7 @@ However, it may be desirable to reduce 'noise' from the route path by applying a
 
 However, by way of example, the example __Custom Pathmatch Definition__ below provides this policy:
 
-![CustomPathmatchDefinition](/static/img/product_docs/changetracker/changetracker/admin/matchrules/custompathmatchdefinition.png)
+![CustomPathmatchDefinition](/img/product_docs/changetracker/changetracker/admin/matchrules/custompathmatchdefinition.png)
 
 __Step 1 –__ __FolderMatchType__ - Available options are:
 

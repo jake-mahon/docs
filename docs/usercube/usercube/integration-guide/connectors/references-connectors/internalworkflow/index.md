@@ -5,10 +5,10 @@ This connector triggers workflows in Identity Manager for a system's provisioni
 This page is about Identity Manager Internal Workflow.
 See the [
 Workflow
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/workflow/index.md)
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/workflow/index.md)
 topic for additional information.
 
-![Package: Usercube/Workflow](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.png)
+![Package: Usercube/Workflow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.png)
 
 ## Overview
 
@@ -24,7 +24,7 @@ Implementing this connector requires:
 
 - Knowledge of the basic principles of Identity Manager's workflows. See the [
   Workflow
-  ](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/workflow/index.md)
+  ](/docs/usercube/usercube/integration-guide/connectors/references-packages/workflow/index.md)
   topic for additional information.
 - Configuring in Identity Manager the workflows for the arrival of a new user, the update of a pre-existing user, and for the departure of a user
 
@@ -163,13 +163,13 @@ The table below summarizes the setting attributes.
 | DateProperties   optional | DateTime List | List of the properties corresponding to the dates that the workflow is to fill in.  __NOTE:__ When not specified and ChangeType is set to Deleted, then the dates are filled with the workflow's execution date. |
 | Message   required | String | Message sent to the accounts impacted by the workflow. |
 | NavigationProperties   optional | String List | List of the navigation properties to get from the provisioning orders in order to complete the workflow. |
-| NavigationTargetToSource   optional | String | Navigation property that makes the link from the target entity type to the source entity type.  __NOTE:__ Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
-| NavigationToTargetEntity   optional | String | Navigation property that makes the link from the source entity type to the target entity type.  __NOTE:__  Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
+| NavigationTargetToSource   optional | String | Navigation property that makes the link from the target entity type to the source entity type.  __NOTE:__ Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
+| NavigationToTargetEntity   optional | String | Navigation property that makes the link from the source entity type to the target entity type.  __NOTE:__  Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
 | ScalarProperties   optional | String List | List of the scalar properties to get from the provisioning orders in order to complete the workflow. |
 | SourceEntityIdentifier   required | String | Identifier of the source entity type of the workflow. |
 | TransitionIdentifier   required | String | Identifier of the workflow's transition after execution. |
 | TargetEntityTypeIdentifier   required | String | Identifier of the target entity type of the workflow. |
-| WorkflowIdentifier   optional | String | Identifier of the workflow to be started.  __NOTE:__ Optional but recommended because it acts as default value when there is no related ArgumentsExpression or it does not return a valid identifier. See the[Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information. |
+| WorkflowIdentifier   optional | String | Identifier of the workflow to be started.  __NOTE:__ Optional but recommended because it acts as default value when there is no related ArgumentsExpression or it does not return a valid identifier. See the[Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information. |
 
 The table below summarizes the variables for messages and bodies.
 
@@ -194,7 +194,7 @@ Credential protection
 
 This connector has no credential attributes, and therefore does not use RSA encryption, nor a CyberArk Vault. See the [
 RSA Encryption
-](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and [CyberArk's AAM Credential Providers
-](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) topics for additional information.
+](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and [CyberArk's AAM Credential Providers
+](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) topics for additional information.
 
-Still, data protection can be ensured through an Azure Key Vault safe. See the [Azure Key Vault](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)topic for additional information.
+Still, data protection can be ensured through an Azure Key Vault safe. See the [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)topic for additional information.

@@ -2,7 +2,7 @@
 
 This commandlet helps you to create a new Smart Group (managed group) in Directory. A Smart Group is a conventional distribution or security group that dynamically maintains its membership based on the rules applied by a user-defined LDAP query.
 
-A Smart Group can also be defined as a Password Expiry group. A Password Expiry group is a dynamic group whose membership is based on password policy conditions defined by the administrator. The LDAP query defined for a Smart Group can be updated any time using the [Set-SmartGroup](/docs/product_docs/groupid/groupid/managementshell/smartgroup/setsmartgroup.md) commandlet. When the LDAP query is changed, you must update the group once to modify its membership according to the changes made to the query. For information about updating a group, see [Update-Group](/docs/product_docs/groupid/groupid/managementshell/smartgroup/updategroup.md).
+A Smart Group can also be defined as a Password Expiry group. A Password Expiry group is a dynamic group whose membership is based on password policy conditions defined by the administrator. The LDAP query defined for a Smart Group can be updated any time using the [Set-SmartGroup](/docs/groupid/groupid/managementshell/smartgroup/setsmartgroup.md) commandlet. When the LDAP query is changed, you must update the group once to modify its membership according to the changes made to the query. For information about updating a group, see [Update-Group](/docs/groupid/groupid/managementshell/smartgroup/updategroup.md).
 
 You can view events related to this commandlet in Directory Manager portal, against the History node in the left panel.
 

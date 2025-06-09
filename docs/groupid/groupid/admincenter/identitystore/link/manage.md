@@ -157,4 +157,4 @@ __To delete a link:__
 
 __See Also__
 
-- [Link Identity Stores](/docs/product_docs/groupid/groupid/admincenter/identitystore/link/overview.md)
+- [Link Identity Stores](/docs/groupid/groupid/admincenter/identitystore/link/overview.md)

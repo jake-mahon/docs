@@ -12,9 +12,9 @@ Volume Serial Number is 3092-7141
 
 Directory of C:\Users\Administrator\Downloads
 
-03/03/2017 15:03 <DIR> .
+03/03/2017 15:03 `<DIR>` .
 
-03/03/2017 15:03 <DIR> ..
+03/03/2017 15:03 `<DIR>` ..
 
 03/03/2017 13:35 462 HubDetails.xml
 
@@ -36,4 +36,4 @@ You can also use these parameters in the command line: NameSuffix, Thumbprint, P
 
 __NOTE:__ These parameters are not case sensitive.
 
-For more information on the __HubDetails.xml__ nodes and settings see the [First Run – HubDetails.xml File](/docs/product_docs/changetracker/changetracker/admin/settings/devicegroups.md#First-Run-HubDetailsxml-File) topic for additional information.
+For more information on the __HubDetails.xml__ nodes and settings see the [First Run – HubDetails.xml File](/docs/changetracker/changetracker/admin/settings/devicegroups.md#First-Run-HubDetailsxml-File) topic for additional information.

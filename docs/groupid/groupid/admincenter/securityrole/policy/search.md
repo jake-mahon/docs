@@ -49,7 +49,7 @@ What do you want to do?
 11. On the __Security Roles__ page, click __Save__.
 
 NOTE: An advanced setting for the Directory Manager portal, _Search Default_, controls the search scope of the portal. If its value is "Global Catalog", the container specified here is ignored and the portal shows objects
-from the entire directory. See the [Manage Advanced Settings](/docs/product_docs/groupid/groupid/admincenter/portal/server/advanced.md) topic.
+from the entire directory. See the [Manage Advanced Settings](/docs/groupid/groupid/admincenter/portal/server/advanced.md) topic.
 
 ## Set the Search Scope to all Containers in the Identity Store
 
@@ -100,7 +100,7 @@ You can also define a query by adding more rows and applying the __AND__ or __OR
    - __AND:__ to display the objects having the specified values for all attributes.
    - __OR:__ to display objects having the specified value for any one of the attributes.
 
-   ![search_query](/static/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.png)
+   ![search_query](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.png)
 2. Click the ellipsis button for an applied operator to display the context menu, which has the following options:
 
    - __Select Group:__ to select all rows that make up the query.
@@ -121,5 +121,5 @@ You can also define a query by adding more rows and applying the __AND__ or __OR
 
 __See Also__
 
-- [Security Roles](/docs/product_docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md)

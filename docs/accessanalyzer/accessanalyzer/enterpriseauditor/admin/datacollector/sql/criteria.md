@@ -2,11 +2,11 @@
 
 The Criteria page is where criteria to be used for discovering sensitive data are configured. It is a wizard page for the Sensitive Data Collection category.
 
-![SQL Data Collector Wizard Criteria page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![SQL Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
 
 The options on the Criteria page are:
 
-- Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings from the __Settings > Sensitive Data__ node. See the [Sensitive Data](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
+- Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings from the __Settings > Sensitive Data__ node. See the [Sensitive Data](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which sensitive data criteria to scan for
 
   - Select All– Click __Select All__ to enable all sensitive data criteria for scanning
@@ -18,6 +18,6 @@ The table contains the following types of criteria:
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria
 
-  Use the Sensitive Data Criteria Editor in the __Settings > Sensitive Data__ to create and edit user-defined criteria. See the [Sensitive Data Criteria Editor](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+  Use the Sensitive Data Criteria Editor in the __Settings > Sensitive Data__ to create and edit user-defined criteria. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 __NOTE:__ Adding unnecessary criteria can adversely impact the scanner performance and can cause the scanning job to take a long time. If performance is adversely affected, revisit the sensitive data scanning criteria and remove criteria that is not required.

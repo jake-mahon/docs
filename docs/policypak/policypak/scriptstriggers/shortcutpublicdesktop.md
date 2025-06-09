@@ -12,7 +12,7 @@ __Step 4 –__ Click the "ADD NEW POLICY" button, then click "Next".
 
 __Step 5 –__ At the "Specify policy target" screen be sure to select the 2nd radio button that states "Apply this policy to all users who log on to the computer (switched mode) then click "Next".
 
-![579_1_image-20190918135807-1](/static/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.png)
+![579_1_image-20190918135807-1](/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.png)
 
 __Step 6 –__ At the "On apply action" screen select "PowerShell script" from the dropdown.
 
@@ -32,7 +32,7 @@ $Shortcut.Save()
 
 __Step 8 –__ Before clicking "Next" make sure that the "Run script as user" option is unchecked.
 
-![579_2_image-20190918135807-2](/static/img/product_docs/policypak/policypak/scriptstriggers/579_2_image-20190918135807-2.png)
+![579_2_image-20190918135807-2](/img/product_docs/policypak/policypak/scriptstriggers/579_2_image-20190918135807-2.png)
 
 __Step 9 –__ Then click "Next" again on the "On revert action" screen.
 

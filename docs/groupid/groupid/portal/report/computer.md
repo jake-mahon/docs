@@ -2,7 +2,7 @@
 
 Computer Reports contains reports for the Computer objects in the directory. Search a specific report by typing its name in the __Search Reports__ box.
 
-Click any of the report template from the list to [Generate Reports](/docs/product_docs/groupid/groupid/portal/report/generate.md).
+Click any of the report template from the list to [Generate Reports](/docs/groupid/groupid/portal/report/generate.md).
 
 Following is the list of reports for this category:
 

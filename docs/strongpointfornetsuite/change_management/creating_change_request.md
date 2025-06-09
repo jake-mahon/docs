@@ -1,6 +1,6 @@
 # Creating a Change Request
 
-Before making any changes, it is important to understand the scope of the planned change, potential impacts and the level of change required. Documentation is also available if you are using the old [Change Request](/docs/product_docs/strongpointfornetsuite/change_management/creating_change_request_old_form.md) form. Refer to [Setting Preferred Forms](/docs/product_docs/strongpointfornetsuite/customizations/setting_preferred_forms.md) for information on designating your preferred Change Request form.
+Before making any changes, it is important to understand the scope of the planned change, potential impacts and the level of change required. Documentation is also available if you are using the old [Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request_old_form.md) form. Refer to [Setting Preferred Forms](/docs/strongpointfornetsuite/customizations/setting_preferred_forms.md) for information on designating your preferred Change Request form.
 
 SuiteCloud Development Framework (SDF) users can [upload their Sandbox development file](#upload-their-Sandbox-development-file) directly into a production ITGC Change Request. The Change Request populates the scope with the existing customizations and adds new ones to proposed customizations.
 
@@ -12,13 +12,13 @@ If you want to see if the change would have an impact in your sandbox, you can a
     The status bar displays the stage of the Change Request. A new change request displays _Not Started_.
 2. Enter information in the __Main__ and __Scope__ sections:
 
-   ![change_request_new](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_new.png)
+   ![change_request_new](/img/product_docs/strongpointfornetsuite/change_management/change_request_new.png)
 
    - __Name__: Add a name to the change request.
    - __Stage__: Select the type of change you want to make.
    - __Change Overview__: Add a summary of the desired change.
    - __Lookup Customization__ launches a window where you can search for customizations in the current account or a different account:
-     - Click __Change Account__ to log into another account or sandbox and look up customizations. You can use the __Set up TBA Credentials__ procedure in [Comparing Environments](/docs/product_docs/strongpointfornetsuite/change_management/comparing_environments.md) to save your credentials for each environment you use.
+     - Click __Change Account__ to log into another account or sandbox and look up customizations. You can use the __Set up TBA Credentials__ procedure in [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) to save your credentials for each environment you use.
      - Enter a __Name__ and click __Lookup__ to find a customization by all or part of a name. For example, __a__ shows everything beginning with __A__.
      - Enter a __Script ID__ and click __Lookup__ to find a customization by all or part of a Script ID. Uses __startswith__ search operator and allows __%__ wildcard. For example, entering __%\_flo__ returns customizations with __\_flo__ in the script id.
      - Select a __Type__ and click __Lookup__ to find all customizations of the selected type.
@@ -34,7 +34,7 @@ If you want to see if the change would have an impact in your sandbox, you can a
    - __Add Customizations from SDF Zip file__: SuiteCloud Development Framework (SDF) users can upload their Sandbox development file. The Change Request populates the scope with the existing customizations and adds new ones to proposed customizations.   
      Click __Choose File__ and navigate to your SDF zipped file.
    - __Do Not ReSpider Automatically__: when unchecked, an Automatic ReSpider occurs when the Change Request status is set to __Completed__.   
-     The ReSpider ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__. The default for the __Do Not ReSpider Automically__ is set on the [Configuration and Stats Change Management](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/installation_settings_report.md#Configuration-and-Stats-Change-Management) tab.
+     The ReSpider ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__. The default for the __Do Not ReSpider Automically__ is set on the [Configuration and Stats Change Management](/docs/strongpointfornetsuite/installing_strongpoint/installation_settings_report.md#Configuration-and-Stats-Change-Management) tab.
    - __Proposed Customizations__: Use this field when you are adding customizations that do not yet exist in your account. You can add multiple Script IDs by separating them with commas. Can be used in conjunction with customizations that already exist.   
      New __Entry__ and __Transaction__ forms can be pre-approved by adding the Script ID of the form. The Script ID must match the Script ID set in __Customizations__ > __Forms__ > __Entry Form__ (prefix __custform__ is automatically added for you on the __Custom Entry Form__).
        
@@ -51,11 +51,11 @@ If you want to see if the change would have an impact in your sandbox, you can a
 3. Click __In Progress__ in the status bar to indicate you are working on the Change Request.
 4. __Save__ the Change Request. New sections and tabs are available once you save:
 
-   1. __Push to Jira__ button is available if the [Jira integration](/docs/product_docs/strongpointfornetsuite/integrations/jira_integration.md) is available, and [Allow NS to Push to Jira](/docs/product_docs/strongpointfornetsuite/integrations/jira_integration.md#Allow-NSto-Push-to-Jira) is enabled. When prompted, select the Jira project and click __Push__. A Jira ticket is created. The ticket number is added to the __Related Change Records__ tab as an __External Change Request Number__. The customizations are added to the new Jira ticket.
+   1. __Push to Jira__ button is available if the [Jira integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) is available, and [Allow NS to Push to Jira](/docs/strongpointfornetsuite/integrations/jira_integration.md#Allow-NSto-Push-to-Jira) is enabled. When prompted, select the Jira project and click __Push__. A Jira ticket is created. The ticket number is added to the __Related Change Records__ tab as an __External Change Request Number__. The customizations are added to the new Jira ticket.
    2. __Download SDF Project__ button downloads the Change Request as a zip file.
    3. The __Approval__ section is visible. Click __Edit to__ add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes.
 
-      ![change_request_new_saved](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.png)
+      ![change_request_new_saved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.png)
    4. __Impact Analysis__ is automatically run. The results are shown on the __Impact Analysis__ tab.
       In addition to all of the direct dependencies, indirect dependencies are also considered to determine the change level for each customization. If there are multiple change levels, the most stringent one is applied.
 
@@ -85,10 +85,10 @@ If you want to see if the change would have an impact in your sandbox, you can a
       - Parent Change Request
 5. Click __Pending Approval__ in the status bar when you are finished with the Change Request. A confirmation prompt is displayed. When confirmed, Approval Notifications are sent to the approvers.
 
-   ![change_request_new_pendapprove](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.png)
+   ![change_request_new_pendapprove](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.png)
 6. Approvers approve or reject the Change Request. __Deploy__ is available for approved Change Requests.
 
-   ![change_request_new_approved](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.png)
+   ![change_request_new_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.png)
 7. Validate the Change Request.
 
 ## Canceling a Change Request
@@ -104,13 +104,13 @@ Status is changed to __Cancelled CR__.
 
 ## Status Bar States
 
-![change_request_bar_not_started](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.png)
+![change_request_bar_not_started](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.png)
 
 New Change Request. Click __In Progress__ to advance the status.
 
 Impact Analysis is run when the Change Request is Saved.
 
-![change_request_bar_inprogress](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.png)
+![change_request_bar_inprogress](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.png)
 
 Change Request __In Progress__.
 
@@ -120,7 +120,7 @@ Impact Analysis is run when the Change Request is Saved.
 
 When ready for approval, click __Pending Approval__.
 
-![change_request_bar_pending](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.png)
+![change_request_bar_pending](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.png)
 
 Approvers are notified.
 
@@ -130,7 +130,7 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.png)
+![change_request_bar_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.png)
 
 Status when all approvers have approved.
 
@@ -138,11 +138,11 @@ Can be returned to a previous status or rejected.
 
 __Deploy__ button is available.
 
-![change_request_bar_approved_partial](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.png)
+![change_request_bar_approved_partial](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.png)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.png)
+![change_request_bar_approved_override](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.png)
 
 Status when an administrator has approved in place of a specified approver.
 
@@ -150,7 +150,7 @@ __Approval Override by__ field displays the approver.
 
 __Deploy__ button is available.
 
-![change_request_bar_approved_completed](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.png)
+![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.png)
 
 Approved and Completed.
 
@@ -158,7 +158,7 @@ Can be returned to a previous status.
 
 __Deploy__ button not available.
 
-![change_request_bar_approved_canceled](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.png)
+![change_request_bar_approved_canceled](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.png)
 
 Approved and Canceled.
 
@@ -166,7 +166,7 @@ Can be returned to a previous status.
 
 __Deploy__ button not available.
 
-![change_request_bar_rejected](/static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.png)
+![change_request_bar_rejected](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.png)
 
 Rejected and Completed.
 

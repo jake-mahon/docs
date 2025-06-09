@@ -2,7 +2,7 @@
 
 Use the Export settings page to specify data export settings.
 
-![View and Table Creation Analysis Module wizard Export page](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
+![View and Table Creation Analysis Module wizard Export page](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
 
 Select the __Export results data__ checkbox to enable the settings. The following options control the file type and destination of the exported data:
 

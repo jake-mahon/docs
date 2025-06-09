@@ -34,7 +34,7 @@ __Step 1 –__ Open the __Group Policy Management__ console on any domain contro
 
 __Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> → Domain →__ __<domain\_name>, right-click <OU\_name>__ and select __Create a GPO in this domain and Link it here__.
 
-![winserver2016_ou_gpo_for_deploy](/static/img/product_docs/auditor/auditor/install/winserver2016_ou_gpo_for_deploy.png)
+![winserver2016_ou_gpo_for_deploy](/img/product_docs/auditor/auditor/install/winserver2016_ou_gpo_for_deploy.png)
 
 __Step 3 –__  Right-click the newly created GPO and select __Edit__ from the pop-up menu.
 
@@ -46,13 +46,13 @@ __Step 6 –__ In the dialog that opens, locate Netwrix\_Auditor\_client.msi and
 
 __Step 7 –__ In the Deploy Software dialog, select Advanced.
 
-![add_msi](/static/img/product_docs/auditor/auditor/install/add_msi.png)
+![add_msi](/img/product_docs/auditor/auditor/install/add_msi.png)
 
 __Step 8 –__ In the Netwrix Auditor Properties dialog, select the Deployment tab and click Advanced.
 
 __Step 9 –__ In the Advanced Deployment Options dialog, select the Ignore language when deploying this package checkbox.
 
-![winserver2016_advanced_deployment_options](/static/img/product_docs/auditor/auditor/install/winserver2016_advanced_deployment_options.png)
+![winserver2016_advanced_deployment_options](/img/product_docs/auditor/auditor/install/winserver2016_advanced_deployment_options.png)
 
 __Step 10 –__ Close the Netwrix Auditor Properties dialog.
 

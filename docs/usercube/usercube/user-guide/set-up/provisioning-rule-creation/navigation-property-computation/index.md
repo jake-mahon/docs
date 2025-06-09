@@ -1,6 +1,6 @@
 # Compute a Navigation Property
 
-How to define navigation rules and/or query rules to compute and provision the values of navigation properties for target resources based on source resources. See the [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+How to define navigation rules and/or query rules to compute and provision the values of navigation properties for target resources based on source resources. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 ## Overview
 
@@ -8,7 +8,7 @@ Sources are usually identities, and targets are usually accounts from the manage
 
 Here, we are going to compute the values of navigation properties for the target resources used in entitlement management, based on source resources. See the[
 Define Navigation Properties
-](/docs/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md) topic for additional information. We are going to provision these properties, i.e. write them to the managed system. See the [Provision](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md) topic for additional information. We are going to provision these properties, i.e. write them to the managed system. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) topic for additional information.
 
 The right tools for the job are navigation and query rules.
 
@@ -17,7 +17,7 @@ A navigation property's value can be computed by a navigation rule or a query ru
 - A Navigation rule assigns a fixed resource, which is chosen from among the "other" entity type's resources during the rule's creation. The assigned resource is the same for all impacted accounts. Use a navigation rule when a given resource must be assigned, regardless of users' attributes.
 - A Query rule assigns a resource from the "other" entity type too. However, the resource is chosen according to a query via a C# expression with conditions, based on the attributes of the source objects (usually users). Hence, contrary to a navigation rule, a query rule can assign a different resource for each impacted account, based on the attributes of the account's owner. Use a query rule when there is the need to use variables from among users' attributes to select the resource to assign.
 
-![Schema - Scalar Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.png)
+![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.png)
 
 > A navigation rule could add the AD group ```SG_APP_SQL``` to the ```memberOf``` navigation property to all AD nominative accounts provided that the user has the single role ```SQL Server Administration```.
 
@@ -35,13 +35,13 @@ A navigation property's value can be computed by a navigation rule or a query ru
 
 The application of a navigation rule can depend on the assignment of a single role, and/or user dimensions. See the[
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information on the assignment of a single role and [
+](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information on the assignment of a single role and [
 Conforming Assignments
-](/docs/product_docs/usercube/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md) topic for additional information on dimensions.
+](/docs/usercube/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md) topic for additional information on dimensions.
 
 A query rule does not use criteria as it is designed to compute a given navigation property for all existing resources in a given resource type. However, in case of several query rules on a same property, the application of a query rule depends on its confidence rate and the corresponding priority it receives compared to other query rules. See the [
 Classify Resources
-](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
 
 While both navigation and query rules compute navigation properties, the value of one navigation property should be computed by either navigation or query rules, not both.
 
@@ -77,13 +77,13 @@ Priority between navigation/query rules
 When creating navigation and query priorities, follow these rules:
 
 - Several rules computing the same property with different criteria should not coexist;
-- The only reason to have several rules to compute a single property is when changing the property value over time, via time offsets. See the [Resource Type](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+- The only reason to have several rules to compute a single property is when changing the property value over time, via time offsets. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
 For a given managed system, integrators may need the help of the application owner who knows the application users, entitlements and data model. See the [
 Categorize Resources
-](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
 
 | Input | Output |
 | --- | --- |
@@ -95,19 +95,19 @@ Fill an entity type with a navigation rule by proceeding as follows:
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home - Access Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future navigation rule.
 
-![Entity Type Choice](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
 
 __Step 3 –__ Click on the __Navigations__ tab and on the addition button at the top right corner.
 
-![Addition Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
 
 __Step 4 –__ Fill in the fields.
 
-![Create a Navigation Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
+![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
 
 - ```Join```: navigation property from the target entity type, whose value is to be impacted.
 - ```Resource```: resource from the entity type pointed by the ```Join```, which is to be added to the ```Join``` property.
@@ -119,7 +119,7 @@ __Step 4 –__ Fill in the fields.
 
 > Our example would look like:
 >
-> ![Scalar Rule Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.png)
+> ![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.png)
 
 __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
@@ -131,37 +131,37 @@ Fill an entity type with a query rule by proceeding as follows:
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home - Access Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future query rule.
 
-![Entity Type Choice](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
 
 __Step 3 –__ Click on the __Queries__ tab and on the addition button at the top right corner.
 
-![Addition Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
 
 Fill in the fields.
 
-![Create Query Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.png)
+![Create Query Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.png)
 
 Once the ```Resource Type``` is provided, more fields appear.
 
-![Query Rule Fields](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.png)
+![Query Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.png)
 
 - __Target Object__ > ```Property to fill```: navigation property from the target entity type, whose value is to be impacted.
-- __Target Object__: property (or expression of properties) from the entity type pointed by the ```Property to fill```, which will be the value of the ```Property to fill``` if it matches the source object. Can be defined by a property path and/or an expression. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
-- __Source Object__: property (or expression of properties) from the source entity type. Can be defined by a property path and/or an expression. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+- __Target Object__: property (or expression of properties) from the entity type pointed by the ```Property to fill```, which will be the value of the ```Property to fill``` if it matches the source object. Can be defined by a property path and/or an expression. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+- __Source Object__: property (or expression of properties) from the source entity type. Can be defined by a property path and/or an expression. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 - ```Offset of effective date```: time period that defines the actual effective date according to the value's start and/or end date. An offset of effective date can be useful for some attributes. For example, account activation and deactivation can be managed according to the start and/or end dates.
 - ```Confidence Rate```: rate expressing the confidence in this link, and its priority order. See the[
   Classify Resources
-  ](/docs/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
+  ](/docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md) topic for additional information.
 
 > Our examples would look like:
 >
-> ![Query Rule Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.png)
+> ![Query Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.png)
 >
-> ![Query Rule Example 2](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.png)
+> ![Query Rule Example 2](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.png)
 
 Click on __Create__ and see a line added on the rules page.
 
@@ -169,7 +169,7 @@ Click on __Create__ and see a line added on the rules page.
 
 Any modification in a navigation or query rule is taken into account when launching the role model computation task, in the __Resource Types__ frame of the corresponding connector's overview page, via __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is modified, then all corresponding assignments are computed again. If a resource was created automatically for an identity through a navigation rule (and its criteria), and if the user's criteria do not comply with the new version of the rule, then the corresponding resource is automatically deleted.
 
@@ -177,7 +177,7 @@ A modification in a provisioning rule can trigger the removal of a resource only
 
 Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in navigation and query rules. See the [
 Perform a Simulation
-](/docs/product_docs/usercube/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
+](/docs/usercube/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Verify Rule Creation
 
@@ -185,7 +185,7 @@ In order to verify the process:
 
 __Step 1 –__ On the corresponding connector's overview page, in the __Resource Types__ frame click on __Jobs__ > __Compute Role Model__ to apply all rules.
 
-![Resource Type Jobs](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
 
 Review unauthorized accounts (on the __Resource Reconciliation__ screen) and roles (on the __Role Reconciliation__ screen) to help check query rules: if there are numerous properties to be reconciled following the same pattern, then there may be a rule that needs to be changed.
 
@@ -195,6 +195,6 @@ __Step 3 –__ Review unauthorized accounts (on the __Resource Reconciliation__ 
 
 See the[
 Review an Unauthorized Account
-](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md) and the[
+](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md) and the[
 Reconcile a Role
-](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md) topics for additional information.
+](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md) topics for additional information.

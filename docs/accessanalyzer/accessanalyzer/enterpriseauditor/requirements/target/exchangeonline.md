@@ -4,16 +4,16 @@ The Access Analyzer for Exchange Solution provides the ability to audit Exchange
 
 - Exchange Online (Limited)
 
-See the [Exchange Support and Permissions Explained](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
+See the [Exchange Support and Permissions Explained](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
 
 Data Collectors
 
 This solution employs the following data collectors to scan the target environment:
 
-- [AzureADInventory Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
-- [EWSMailbox Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
-- [EWSPublicFolder Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/overview.md)
-- [ExchangePS Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
+- [AzureADInventory Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
+- [EWSMailbox Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
+- [EWSPublicFolder Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/overview.md)
+- [ExchangePS Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
 
 ## Permissions
 
@@ -38,7 +38,7 @@ For .Entra ID Inventory Prerequisite with the AzureADInventory Data Collector
 
     - All sub-directories of the access URLs listed
 
-See the [Microsoft Entra ID Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/entraid/access.md) topic for additional information.
+See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/entraid/access.md) topic for additional information.
 
 Permissions for the Registered Microsoft Entra ID Application: Office 365 Exchange Online
 
@@ -48,7 +48,7 @@ Permissions for the Registered Microsoft Entra ID Application: Office 365 Excha
   - full\_access\_as\_app – Use Exchange Web Services with full access to all mailboxes
 - Exchange Administrator role assigned to the registered application's service principal
 
-See the [Exchange Online Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md) topic for additional information.
+See the [Exchange Online Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md) topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 
@@ -56,7 +56,7 @@ For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 - Discovery Management Role
 - Exchange Online License
 
-See the [Exchange Web Services API Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSPublicFolder Data Collector
 
@@ -64,14 +64,14 @@ For Exchange Web Services API Permissions with the EWSPublicFolder Data Collecto
 - Discovery Management Role
 - Exchange Online License with a mailbox
 
-See the [Exchange Web Services API Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
 
 For Exchange PowerShell with ExchangePS Data Collector
 
 - Discovery Management Role
 - Organization Management Role
 
-See the [Exchange PowerShell Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+See the [Exchange PowerShell Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
 
 ## Ports
 

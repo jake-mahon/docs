@@ -7,7 +7,7 @@ The SharePoint data collection settings page is where additional scan settings a
 
 __CAUTION:__ Users should not change scans in a way that would result in less data being returned on a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in the Tier 2 database and subsequently removed from the Tier 1 database.
 
-![SharePoint data collection settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/datacollectionsettings.png)
+![SharePoint data collection settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/datacollectionsettings.png)
 
 The Probable Owners section provides options for how probable ownership will be calculated:
 

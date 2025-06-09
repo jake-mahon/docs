@@ -70,7 +70,7 @@ Some changes such as deletion, changes to scriptID and Help impact the customiza
 
 ### Manage the Change or Clean Up
 
-You can find more information about how to use the Change Request under [Managing Change](/docs/product_docs/strongpointforsalesforce/change_management/change_management_overview.md). Once the appropriate investigations are conducted and approvals are obtained the customization can be changed as appropriate based on company policies and procedures.
+You can find more information about how to use the Change Request under [Managing Change](/docs/strongpointforsalesforce/change_management/change_management_overview.md). Once the appropriate investigations are conducted and approvals are obtained the customization can be changed as appropriate based on company policies and procedures.
 
 Some of the items being changed, such as the description or owner, can be direct list edited or bulk edited like any other Salesforce data directly in a Platform Governance for Salesforce view such as __Unused Fields__.
 

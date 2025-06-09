@@ -8,13 +8,13 @@ Thanks to this data organization in sections, the identities of a given entity t
 
 See the [
 Position Change via Records
-](/docs/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)for additional information on identity modeling.
+](/docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)for additional information on identity modeling.
 
 __Configuration recommendations:__
   
 As record sections cannot be configured without a [
 Context Rule
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md), Netwrix Identity Manager (formerly Usercube)recommends starting with the configuration of the context rule before configuring record sections.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md), Netwrix Identity Manager (formerly Usercube)recommends starting with the configuration of the context rule before configuring record sections.
   
 Netwrix Identity Manager (formerly Usercube)recommends defining at least two record sections: a default section for the properties shared by all records, and another section for a given set of properties which differentiate between records. The default section must contain zero properties, the shared properties are those that are not defined in the other section(s).
   
@@ -69,7 +69,7 @@ For example, an instance key is required for the position section when users can
 
 ### IsDefaultBoundariesSection
 
-The following example uses the contract start/end dates as default boundaries in users' [validity period](/docs/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md#validity-period), instead of those from the default section. It may be because, for example, HR services do not enter an end date for the personal data of users on permanent contracts. So we prefer to use the start and end dates of their contracts.
+The following example uses the contract start/end dates as default boundaries in users' [validity period](/docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md#validity-period), instead of those from the default section. It may be because, for example, HR services do not enter an end date for the personal data of users on permanent contracts. So we prefer to use the start and end dates of their contracts.
 
 ```
 
@@ -83,7 +83,7 @@ Contract section:
 
 There can be some time gap where no context is defined, for example a time gap with a position but no contract or vice versa. Identity Manager offers the possibility to choose whether an existing context is to be extended to the period without context. And in case we decide to use another context and extend its values, which context should it be?
 
-![Schema - ExtensionKind](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/recordsection_extensionkind.png)
+![Schema - ExtensionKind](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/recordsection_extensionkind.png)
 
 Here, we decide to extend an existing contract to the gap, for example because users' email addresses are built using the contract type to add ```-ext``` for external users. And we decide to not extend the position.
 
@@ -115,10 +115,10 @@ When not specifying any sort key nor extended sort key, Identity Manager will s
 | ExtendedSortKey   optional | __Type__    String   __Description__   Value used as a threshold for ```SortKeyExpression``` values to determine whether the [ Record Section ](#Record-Section) property values of a given record section can be extended from a context where the values are defined to another context where no properties from the section are defined.   This extension is enabled only when the value of ```SortKeyExpression``` of the section is higher (with an ordinal comparison) than ```ExtendedSortKey```. |
 | ExtensionKind   default value: 0 | __Type__    RecordExtensionKind   __Description__   Defines whether the section's property values can be extended (copied) from a context where the properties are defined to another context where no properties from the section are defined.   ```0``` - Default: the section's property values can be extended.   ```4``` - None: the section's property values cannot be extended. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the section. |
-| InstanceKeyExpression   optional | __Type__    String   __Description__   Expression returning a key to uniquely identify a context, i.e. distinguish between job positions for example when users can have several concurrent positions, or between contracts. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| InstanceKeyExpression   optional | __Type__    String   __Description__   Expression returning a key to uniquely identify a context, i.e. distinguish between job positions for example when users can have several concurrent positions, or between contracts. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
 | IsDefaultBoundariesSection   default value: false | __Type__    Boolean   __Description__   ```true``` to use the start/end dates of this section as the default boundaries, i.e. the start/end dates of users' validity period. When no section has ```IsDefaultBoundaries``` set to ```true```, the default section (the one without properties) is automatically selected. |
 | ResourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the multiple records to be created. |
-| SortKeyExpression   optional | __Type__    String   __Description__   C# expression used to compute a value for each record, to be used as a priority, following an ordinal comparison. See the [Expressions](/docs/product_docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.   When a record section has ```ExtensionKind``` set to ```Default``` and a priority value higher than ```ExtendedSortKey```, then the record property values can be extended from a context where the values are defined to another context where no properties from the section are defined. |
+| SortKeyExpression   optional | __Type__    String   __Description__   C# expression used to compute a value for each record, to be used as a priority, following an ordinal comparison. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.   When a record section has ```ExtensionKind``` set to ```Default``` and a priority value higher than ```ExtendedSortKey```, then the record property values can be extended from a context where the values are defined to another context where no properties from the section are defined. |
 | SourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the parent resource. |
 | StartProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the beginning of validity for all he [ Record Section ](#Record-Section) properties of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
 

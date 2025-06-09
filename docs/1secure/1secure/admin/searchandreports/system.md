@@ -8,7 +8,7 @@ Follow the steps to review the Billable Users report.
 
 __Step 1 –__ Navigate to the __Reports__ > __System__ tab.
 
-![system](/static/img/product_docs/1secure/1secure/admin/searchandreports/system.png)
+![system](/img/product_docs/1secure/1secure/admin/searchandreports/system.png)
 
 __Step 2 –__ Select the __Billable Users__ report in the left pane to view it.
 
@@ -20,7 +20,7 @@ You can filter the data displayed in a report. Select a filter, operator, and va
 
 You can select more than one filter.
 
-For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/product_docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
+For options displayed in the Operator drop-down menu, see the [Filter Operators ](/docs/1secure/1secure/admin/searchandreports/filteroperators.md)topic.
 
 ## Filter Descriptions
 

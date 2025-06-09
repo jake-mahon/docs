@@ -2,7 +2,7 @@
 
 The VBScript Editor window provides the means to add a script. The window is ideal for editing small scripts and for pasting larger scripts from external scripting tools.
 
-![VBScript Editor window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/vbscripteditor.png)
+![VBScript Editor window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/vbscripteditor.png)
 
 The options in the VBScript Editor are:
 
@@ -19,4 +19,4 @@ The options in the VBScript Editor are:
 
 After adding or modifying a script, click __Save and close__.
 
-See the [Script Example 1: Conversion of Data](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/example1.md) and [Script Example 2: Command Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/example2.md) topics for additional information.
+See the [Script Example 1: Conversion of Data](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/example1.md) and [Script Example 2: Command Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/example2.md) topics for additional information.

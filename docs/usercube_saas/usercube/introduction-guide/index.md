@@ -2,7 +2,7 @@
 
 This guide is designed to give a complete overview of Identity Manager's principles, main objectives and capabilities.
 
-Netwrix Identity Manager (formerly Usercube) strongly recommends starting here to fully benefit from the [Integration Guide](/docs/product_docs/usercube_saas/usercube/integration-guide/index.md)'s or the [User Guide](/docs/product_docs/usercube_saas/usercube/user-guide/index.md)'s contents.
+Netwrix Identity Manager (formerly Usercube) strongly recommends starting here to fully benefit from the [Integration Guide](/docs/usercube_saas/usercube/integration-guide/index.md)'s or the [User Guide](/docs/usercube_saas/usercube/user-guide/index.md)'s contents.
 
 ## Target Audience
 
@@ -17,4 +17,4 @@ A basic knowledge of Identity and Access Management (IAM) and overview (IGA) is 
 
 ## First Steps
 
-Let's dive in with an [IGA and Netwrix Identity Manager](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/index.md) of IGA and Identity Manager.
+Let's dive in with an [IGA and Netwrix Identity Manager](/docs/usercube_saas/usercube/introduction-guide/overview/index.md) of IGA and Identity Manager.

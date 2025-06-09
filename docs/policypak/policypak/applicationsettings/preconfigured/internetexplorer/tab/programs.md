@@ -1,16 +1,16 @@
 # Programs Tab
 
-Video: For a quick overview of how to manage the Programs tab using Endpoint Policy Manager Application Settings Manager, see the following video: [Manage IE Programs Tab](/docs/product_docs/policypak/policypak/video/applicationsettings/internetexplorer/programstab.md).
+Video: For a quick overview of how to manage the Programs tab using Endpoint Policy Manager Application Settings Manager, see the following video: [Manage IE Programs Tab](/docs/policypak/policypak/video/applicationsettings/internetexplorer/programstab.md).
 
 The Internet Explorer Programs tab is where you can specify to enable or disable plugins, toolbars, extensions, accelerators, and search providers. An example of add-ons that you can manage in Internet Explorer 11 under Programs|Manage add-ons is shown in Figure 20.
 
-![ie_appset_tab_by_tab_16](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_16.png)
+![ie_appset_tab_by_tab_16](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_16.png)
 
 Figure 20. Managing add-ons in Internet Explorer.
 
 The corresponding Endpoint Policy Manager dialog is shown in Figure 21.
 
-![ie_appset_tab_by_tab_17](/static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_17.png)
+![ie_appset_tab_by_tab_17](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_17.png)
 
 Figure 21. Managing IE add-ons in Endpoint Policy Manager.
 

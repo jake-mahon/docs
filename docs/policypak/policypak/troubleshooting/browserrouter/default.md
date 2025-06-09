@@ -17,10 +17,10 @@ What will work:
 What won’t work:
 
 - Browser Router won’t be registered as “Endpoint Policy Manager Browser Router Agent” within the OS. You’ll see Edge.
-- Browser Router “Default Policy” type is not honored as expected and anything set to “Default Browser” will be passed onward to Edge (instead of what you might have set it to, say, Firefox, Chrome, etc). Use this article to understand “Endpoint Policy Manager Browser Router Default Policy” type [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/product_docs/policypak/policypak/browserrouter/defaultbrowser/defined.md)
+- Browser Router “Default Policy” type is not honored as expected and anything set to “Default Browser” will be passed onward to Edge (instead of what you might have set it to, say, Firefox, Chrome, etc). Use this article to understand “Endpoint Policy Manager Browser Router Default Policy” type [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/policypak/policypak/browserrouter/defaultbrowser/defined.md)
 - Delivering File Associations specifically for PDF for Endpoint Policy Manager File Associations Manager
 
-You will also get the same experience if you attempt to use PolicyPak File Associations Manager to change HTTP or HTTPS, even if you’re not using PolicyPak Browser Router. See the [Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/product_docs/policypak/policypak/fileassociations/defaultbrowser.md) topic for additional information.
+You will also get the same experience if you attempt to use PolicyPak File Associations Manager to change HTTP or HTTPS, even if you’re not using PolicyPak Browser Router. See the [Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/policypak/policypak/fileassociations/defaultbrowser.md) topic for additional information.
 
 Troubleshooting:
 
@@ -62,9 +62,9 @@ __CAUTION:__ The Legacy methods will not work if your endpoints are only using P
 
 __NOTE:__ After setting these settings and the policy refresh occurs to get these policies, endpoints may still need two logoffs and/or reboots for this to kick in.
 
-![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.png)
+![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.png)
 
-![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.png)
+![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.png)
 
 Update 4/8/2024:
 
@@ -94,7 +94,7 @@ __Step 1 –__ Create a Powershell script which will disable the UCPD.sys driver
 
 __Step 2 –__ Deploy the script via Endpoint Policy Manager Scripts Manager using the hints from the screen shot below.
 
-![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.png)
+![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.png)
 
 Workaround 2 using fsLogix (Microsoft Tools)
 
@@ -102,4 +102,4 @@ You may also use Microsoft fsLogix if already installed on servers or workstatio
 
 __NOTE:__ Do not use both Workaround 1 and 2 at the same time.
 
-![1326_4_3a4d59894f3cd6623b958202447b1136](/static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.png)
+![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.png)

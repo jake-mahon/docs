@@ -61,7 +61,7 @@ The database administrator must be able to assign the following roles to the ser
 
   Although ```bulkadmin``` is a server-level role, it still requires Identity Manager to have database-level permissions granted by the ```db_owner``` role. It means that bulk operations can be performed on the database only if Identity Manager has been granted the ```db_owner``` role.
 
-  Granting ```bulkadmin``` role to the server's service account requires access to an account member of the ```sysadmin``` or ```securityadmin``` server-level role on the target SQL Server. See the [Install the Server](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
+  Granting ```bulkadmin``` role to the server's service account requires access to an account member of the ```sysadmin``` or ```securityadmin``` server-level role on the target SQL Server. See the [Install the Server](/docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
 
 For more information about identity and permission management in SQL Server, see [Microsoft's documentation](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/getting-started-with-database-engine-permissions?view=sql-server-ver15).
 
@@ -81,4 +81,4 @@ The [max degree of parallelism (MAXDOP)](https://learn.microsoft.com/en-us/azure
 
 ## What's Next?
 
-Let's move on to the requirements for Identity Manager's server. See the [Server](/docs/product_docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+Let's move on to the requirements for Identity Manager's server. See the [Server](/docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.

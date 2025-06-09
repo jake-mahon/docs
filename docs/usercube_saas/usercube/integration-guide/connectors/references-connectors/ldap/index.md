@@ -6,24 +6,24 @@ This page is about:
 
 - [
   Generic LDAP
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/generic-ldap/index.md);
+  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/generic-ldap/index.md);
 - [
   Oracle LDAP
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/oracle-ldap/index.md);
+  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/oracle-ldap/index.md);
 - [
   Apache Directory
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/apache-directory/index.md);
+  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/apache-directory/index.md);
 - [
   Red Hat Directory Server
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
+  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
 
-![Package: Directory/Generic LDAP](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.png)
+![Package: Directory/Generic LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.png)
 
-![Package: Directory/Oracle LDAP](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.png)
+![Package: Directory/Oracle LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.png)
 
-![Package: Directory/Apache Directory](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.png)
+![Package: Directory/Apache Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.png)
 
-![Package: Directory/Red Hat Directory Server](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.png)
+![Package: Directory/Red Hat Directory Server](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.png)
 
 ## Overview
 
@@ -31,7 +31,7 @@ The Lightweight Directory Access Protocol (LDAP) is a flexible and well supporte
 
 ## Prerequisites
 
-Implementing this connector requires reading first the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
+Implementing this connector requires reading first the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
 
 ## Export
 
@@ -41,7 +41,7 @@ For a configured set of LDAP entries, this connector exports the list of all att
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -147,11 +147,11 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
+This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
 
 Any property can be exported in a specific format when specified. See the [
 References: Format for the EntityPropertyMapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
 
 > With the previous example and the following entity type mapping:
 >
@@ -181,7 +181,7 @@ References: Format for the EntityPropertyMapping
 
 ## Fulfill
 
-The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Identity Manager UI or by assignment policy enforcement. See the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Identity Manager UI or by assignment policy enforcement. See the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
 
 ### Configuration
 
@@ -266,7 +266,7 @@ If these attributes are not synchronized in Identity Manager, then they cannot b
 
 ### Password reset
 
-See the [appsettings.agent](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn how to configure password reset settings.
+See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn how to configure password reset settings.
 
 ### Credential protection
 
@@ -274,11 +274,11 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store LDAP's ```Login```, ```Password``` and ```Server```.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store LDAP's ```Login```, ```Password``` and ```Server```.

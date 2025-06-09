@@ -26,6 +26,6 @@ __NOTE:__ For NAS monitoring, Threat Prevention employs the Netwrix Activity Mon
 
 The following event types are available for File System:
 
-- [File System Changes Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.md)
-- [File System Lockdown Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.md)
+- [File System Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.md)
+- [File System Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.md)

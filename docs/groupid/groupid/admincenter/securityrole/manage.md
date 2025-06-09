@@ -79,7 +79,7 @@ __To change role criteria:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __Security Roles__ under __Settings__ in the left pane.
 4. On the __Security Roles__ page, click __Edit__ for a security role.
-5. On the __Edit Security Role__ page, the __Criteria__ area displays the role criteria. Click __Add Criteria__ to change it. On the __Add Criteria__ dialog box, update the criteria. See the [Security Role – Criteria](/docs/product_docs/groupid/groupid/admincenter/securityrole/criteria.md) topic for details.
+5. On the __Edit Security Role__ page, the __Criteria__ area displays the role criteria. Click __Add Criteria__ to change it. On the __Add Criteria__ dialog box, update the criteria. See the [Security Role – Criteria](/docs/groupid/groupid/admincenter/securityrole/criteria.md) topic for details.
 6. Click __Update Security Role__.
 7. On the __Security Roles__ page, click __Save__.
 
@@ -95,14 +95,14 @@ __To update role permissions:__
 4. On the __Security Roles__ page, click __Edit__ for a security role.
 5. On the __Edit Security Role__ page, click __Select what members can do__ in the __Permissions__ area to change role permissions.
 6. On the __Add Permissions__ dialog box, select __Allow__ for a permission to assign it to the role. Select __Deny__ for a permission to
-   deny it to the role. To learn about the available permissions, see the [Security Role – Permissions](/docs/product_docs/groupid/groupid/admincenter/securityrole/permissions.md) topic.
+   deny it to the role. To learn about the available permissions, see the [Security Role – Permissions](/docs/groupid/groupid/admincenter/securityrole/permissions.md) topic.
 7. After assigning the required permissions, click __OK__.
 8. Click __Update Security Role__.
 9. On the __Security Roles__ page, click __Save__.
 
 ## Define Policies for a Role
 
-To define policies for a security role, see the [Security Role Policies](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/overview.md) topic.
+To define policies for a security role, see the [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md) topic.
 
 ## Delete a Role
 
@@ -118,5 +118,5 @@ __To delete a role:__
 
 See Also
 
-- [Security Roles](/docs/product_docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/product_docs/groupid/groupid/admincenter/securityrole/create.md)
+- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
+- [Create a Security Role](/docs/groupid/groupid/admincenter/securityrole/create.md)

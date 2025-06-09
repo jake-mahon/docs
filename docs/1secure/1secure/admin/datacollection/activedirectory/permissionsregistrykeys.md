@@ -10,7 +10,7 @@ To assign permissions manually, use the Registry Editor snap-in or the Group Pol
 
 On your target server, open Registry Editor: navigate to Start → Run and type "regedit".
 
-__Step 1 –__ In the left pane, navigate to _HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
+__Step 1 –__ In the left pane, navigate to _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
 
 __Step 2 –__ Right-click the __Security__ node and select __Permissions__ from the pop-up menu.
 
@@ -18,13 +18,13 @@ __Step 3 –__ Click __Add__ and enter the name of the user that you want to gra
 
 __Step 4 –__ Check __Allow__ next to the __Read__ permission.
 
-For auditing Logon Activity, you also need to assign the Read permission to the _HKEY\_LOCAL\_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
+For auditing Logon Activity, you also need to assign the Read permission to the _HKEY_LOCAL_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
 
 ## To assign permission using the Group Policy Management console
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start → Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) → Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> → Domains → <domain name> → Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` → Domains → `<domain name>` → Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies → Windows Settings → Security Settings → Registry.
 

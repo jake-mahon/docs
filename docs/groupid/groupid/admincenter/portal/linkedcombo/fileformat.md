@@ -4,11 +4,11 @@ The following table explains the rules for the Microsoft Excel workbook to use f
 
 |  | Rule for | Description |
 | --- | --- | --- |
-| 1. | Worksheet names | The worksheet names should follow the format:  __Number-Name__  Where:   - _Number_ is the serial number based on the order of the worksheet and it should start from zero. This means that the number for the first worksheet should be 0, the second should be 1, the third should   be 2, and so on. - _Name_ is the name of the worksheet that identifies the data it contains. It can be anything you want.   ![image](/static/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/image.png) |
-| 2. | Identity column | Each worksheet should have an identity _(ID)_ column that contains a unique value for every record entered in the sheet.  ![image1](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.png) |
+| 1. | Worksheet names | The worksheet names should follow the format:  __Number-Name__  Where:   - _Number_ is the serial number based on the order of the worksheet and it should start from zero. This means that the number for the first worksheet should be 0, the second should be 1, the third should   be 2, and so on. - _Name_ is the name of the worksheet that identifies the data it contains. It can be anything you want.   ![image](/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/image.png) |
+| 2. | Identity column | Each worksheet should have an identity _(ID)_ column that contains a unique value for every record entered in the sheet.  ![image1](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.png) |
 | 3. | Name column | Each worksheet should have a _Name_ column. This column contains the values to be displayed in the linked combo. For example, the _Name_ column in the 0-Company worksheet contains the company name for every record in the sheet. |
-| 4. | Foreign Key column | Each worksheet that contains data related to that on the previous sheet, should have a foreign key identity column (_FK_). This column contains the ID of the record (from the immediately previous sheet) that the current record relates to.  ![image2](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/checklist/image2.png) |
+| 4. | Foreign Key column | Each worksheet that contains data related to that on the previous sheet, should have a foreign key identity column (_FK_). This column contains the ID of the record (from the immediately previous sheet) that the current record relates to.  ![image2](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/checklist/image2.png) |
 
 See Also
 
-- [Linked Combo Display Type](/docs/product_docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Linked Combo Display Type](/docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)

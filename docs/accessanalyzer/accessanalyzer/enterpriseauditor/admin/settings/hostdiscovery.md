@@ -2,7 +2,7 @@
 
 The Host Discovery node is for configuring the settings which dictate how Access Analyzer handles newly discovered hosts, what information is logged during the host discovery process, and how long the logged information is stored.
 
-![Host Discovery page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscovery.png)
+![Host Discovery page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscovery.png)
 
 In the Host Discovery Options section at the top is a checkbox for the __Perform the first inventory right away for newly discovered hosts__ option. This option is selected by default.
 
@@ -14,7 +14,7 @@ The configurable options in the Discovery Log section are:
 - Retention period – Determines how long the Host Discovery query log is kept. This is set by default to 14 days which is based on average Access Analyzer usage.
 - Log level – Determines what information is stored in the Host Discover query log
 
-![Log level options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscoveryloglevels.png)
+![Log level options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscoveryloglevels.png)
 
 The log levels are:
 
@@ -41,6 +41,6 @@ The log levels are:
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Host Discovery view. These buttons become enabled when modifications are made to the Host Discovery global settings. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
 
-![Host Discovery Log under Host Discovery node](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscoverylog.png)
+![Host Discovery Log under Host Discovery node](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostdiscoverylog.png)
 
 The Host Discovery Log is located under the __Host Discovery__ node.

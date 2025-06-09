@@ -10,16 +10,16 @@ A managed system's entitlements can have many forms. They authorize identities t
 
 Identity Manager is designed to help establish an exhaustive and reliable catalog of the entitlements available in the managed systems, and assign the right entitlements to the right users.
 
-![Role Catalog and Users](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_rolecatalogusers.png)
+![Role Catalog and Users](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_rolecatalogusers.png)
 
 Thus, the role model contains:
 
 - the entitlements, as roles, for all managed systems;
 - the rules that trigger the assignment of entitlements to identities, and more broadly manage the systems' resources. Some of them act as link between Identity Manager's roles and the systems' accounts and permissions. Some of them are linked to, and thus apply only to, specific resource types.
 
-![Role Model](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_rolemodel.png)
+![Role Model](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_rolemodel.png)
 
-The role model is a subset of a policy that also includes [Governance](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/governance/index.md) data such as risk definition. So, at a higher level, distinct policies can be used to implement distinct behaviors.
+The role model is a subset of a policy that also includes [Governance](/docs/usercube_saas/usercube/introduction-guide/overview/governance/index.md) data such as risk definition. So, at a higher level, distinct policies can be used to implement distinct behaviors.
 
 ## A Role Catalog
 
@@ -27,11 +27,11 @@ Identity Manager intends to represent IGA-related access right mechanisms by a [
 
 Entitlements from the managed systems are modeled by roles. For each entitlement, NETWRIX advises creating a single role, with an easily understandable name, more functional than technical, so that everyone knows what the role is for.
 
-![Single Roles](/static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.png)
+![Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.png)
 
 Each individual entitlement should usually be modeled by a single role, and single roles can be grouped together into composite roles to be closer to real job positions.
 
-![Composite Roles](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_compositeroles.png)
+![Composite Roles](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_compositeroles.png)
 
 ## A Rule Set
 
@@ -41,7 +41,7 @@ Roles alone are not enough to give identities the systems' technical entitlement
 
 Just like identities, accounts are represented in Identity Manager by an [
 Identity Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/identity-management/index.md) entity-relationship model. So Identity Manager manages entitlements as resources' attribute values.
+](/docs/usercube_saas/usercube/introduction-guide/overview/identity-management/index.md) entity-relationship model. So Identity Manager manages entitlements as resources' attribute values.
 
 > For example, giving specific Active Directory permissions to a new user means not only creating a new AD account, but also setting values for certain account properties like ```cn```, ```sAMaccountName```, ```userAccountControl``` or ```dn```, etc.
 
@@ -49,7 +49,7 @@ Provisioning rules write the actual entitlements to the managed systems, most of
 
 > For example, to give an AD entitlement to a user, we usually need to give them a group membership. Thus, we should have a rule that, when a user is assigned a specific role, adds the user to the member list of a specific AD group.
 
-![Provisioning Rules](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_provisioningrules.png)
+![Provisioning Rules](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_provisioningrules.png)
 
 Even when a role is manually assigned, provisioning rules will determine which account (and permission groups) are given as entitlements.
 
@@ -67,7 +67,7 @@ While the role catalog and provisioning rules are together enough to manually gi
 
 > For example, we can choose to assign the role ```Benefits Manager - FR``` to any user whose job title is benefits manager and whose location is in France.
 
-![Assignment Rules](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_assignmentrules.png)
+![Assignment Rules](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_assignmentrules.png)
 
 Once all assignment rules are created, Identity Manager is able to spot existing assignments that are not supported by any rule, marking them as non-conforming.
 
@@ -83,7 +83,7 @@ Different resources can be managed through different rules, by being part of dif
 
 > For example, we might need to differentiate AD's standard accounts from administration accounts. This way, we can configure different email addresses for privileged accounts, for example [adm.john.smith@contoso.com](mailto:adm.john.smith@contoso.com). We can also add more approval steps in the workflows related to privileged accounts, for more security than for standard accounts.
 
-![Categorization Rules](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_categorizationrules.png)
+![Categorization Rules](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_categorizationrules.png)
 
 Identity Manager's categorization rules are:
   
@@ -101,7 +101,7 @@ Rules can be triggered based on users' assigned roles, but also based on user da
 
 The [
 Identity Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/identity-management/index.md) model can be refined by configuring dimensions: criteria from among resources' [attributes](https://en.wikipedia.org/wiki/Attribute-based_access_control) that will trigger the application of the rules. Then Identity Manager applies the rule for any resource whose value for a given attribute matches the reference value specified in the rule.
+](/docs/usercube_saas/usercube/introduction-guide/overview/identity-management/index.md) model can be refined by configuring dimensions: criteria from among resources' [attributes](https://en.wikipedia.org/wiki/Attribute-based_access_control) that will trigger the application of the rules. Then Identity Manager applies the rule for any resource whose value for a given attribute matches the reference value specified in the rule.
 
 > For example, a user can be assigned the role ```Benefits Manager - FR``` only if their job title is benefits manager and their location is in France. In this case, users' attributes "job title" and "location" are the dimensions that trigger the assignment rule.
 
@@ -115,42 +115,42 @@ Identity Manager's name and logo are based on this dimension concept: entitlemen
   
 - The schema with three dimensions would be a 3D cube. And you can imagine 4D or 5D hypercubes, etc.
 
-![Dimensions - 1D](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension1.png)
+![Dimensions - 1D](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension1.png)
 
 #### 1D
 
-![Dimensions - 2D](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension2.png)
+![Dimensions - 2D](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension2.png)
 
 #### 2D
 
-![Dimensions - 3D](/static/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension3.png)
+![Dimensions - 3D](/img/product_docs/usercube/usercube/introduction-guide/overview/entitlement-management/entitlements_dimension3.png)
 
 ## Next Steps
 
-See the [Governance](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/governance/index.md) topic for additional information.
+See the [Governance](/docs/usercube_saas/usercube/introduction-guide/overview/governance/index.md) topic for additional information.
 
 ## Learn More
 
 Learn more on the [
 Role Model
-](/docs/product_docs/usercube_saas/usercube/integration-guide/role-model/index.md).
+](/docs/usercube_saas/usercube/integration-guide/role-model/index.md).
 
 Learn how to [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 
-Learn more on hoe to [Create a Composite Role](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/composite-role-creation/index.md).
+Learn more on hoe to [Create a Composite Role](/docs/usercube_saas/usercube/user-guide/optimize/composite-role-creation/index.md).
 
-Learn more on [Role Assignment](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/index.md).
+Learn more on [Role Assignment](/docs/usercube_saas/usercube/integration-guide/role-assignment/index.md).
 
 Learn more on [
 Create a Provisioning Rule
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Learn more on [
 Automate Role Assignments
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) rules.
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) rules.
 
 Learn more on the rules of [
 Categorize Resources
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md).
+](/docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md).

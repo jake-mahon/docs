@@ -26,7 +26,7 @@ Below is a detailed list of what is stored within Endpoint Policy Manager Cloud 
 - Reports that you create.
 - Names and email addresses of other administrators you have granted rights to use Endpoint Policy Manager cloud
 - Current licensing status and number of computers licensed.
-- Events (if the Endpoint Policy Manager Cloud Event Log Collector is turned on for your tenant.) For example Endpoint Policy Manager Least Privilege Manager events which can be stored for a time in Endpoint Policy Manager Cloud Service (not enabled for all customers.) Details of this feature can be seen at[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/product_docs/policypak/policypak/video/leastprivilege/cloudevents.md) and details about specific event types (for example) can be found here: [List of Endpoint Policy Manager Event Categories and IDs](/docs/product_docs/policypak/policypak/tips/eventcategories.md)
+- Events (if the Endpoint Policy Manager Cloud Event Log Collector is turned on for your tenant.) For example Endpoint Policy Manager Least Privilege Manager events which can be stored for a time in Endpoint Policy Manager Cloud Service (not enabled for all customers.) Details of this feature can be seen at[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/policypak/policypak/video/leastprivilege/cloudevents.md) and details about specific event types (for example) can be found here: [List of Endpoint Policy Manager Event Categories and IDs](/docs/policypak/policypak/tips/eventcategories.md)
 
 #### How is data is stored at rest with Endpoint Policy Manager Cloud:
 

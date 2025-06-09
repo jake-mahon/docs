@@ -2,7 +2,7 @@
 
 The Access Information Center uses the Simple Mail Transfer Protocol (SMTP) to send email messages. SMTP server information and several messaging options can be set through the Configuration > Notifications page.
 
-![Notifications Page](/static/img/product_docs/1secure/1secure/admin/notifications.png)
+![Notifications Page](/img/product_docs/1secure/1secure/admin/notifications.png)
 
 At the top, the SMTP server and email security settings are configured. The Notification options is where you configure the sender information, and other optional settings. The Reminders section is for configuring weekly reminders for owners with outstanding resource reviews or access requests.
 
@@ -10,7 +10,7 @@ At the top, the SMTP server and email security settings are configured. The Not
 
 If the Access Information Center is installed on the same server as the Access Analyzer Console, SMTP server settings from Access Analyzer should be populated automatically. SMTP server information can be supplied and modified on the Notifications page. Follow the steps to configure or modify the SMTP settings.
 
-![Notifications page SMTP server settings section](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsserversettings.png)
+![Notifications page SMTP server settings section](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsserversettings.png)
 
 __Step 1 –__ In the Configuration interface, select the Notifications page.
 
@@ -28,17 +28,17 @@ __Step 4 –__ SMTP security settings:
 
     - To use this option, the SMTP server must be configured to use Integrated Windows Authentication (IWA).
     - Select this radio button if the configured Active Directory service account will also be used to authenticate to the SMTP server.
-    - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access Information Center service. See the [Group Managed Service Account (gMSA) Configuration](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsa.md) topic for additional information.
+    - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access Information Center service. See the [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsa.md) topic for additional information.
   - Use the following AD Account
 
     - To use this option, the SMTP server must be configured to use Integrated Windows Authentication (IWA).
     - Select this radio button to specify either domain account or a traditional SMTP account and password to authenticate to the SMTP server.
 
-![Test Settings window](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestsettings.png)
+![Test Settings window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestsettings.png)
 
 __Step 5 –__ Click __Test Settings__ to ensure a connection to the SMTP server. The Test Settings window opens. Enter a valid email address and click __OK__.
 
-![Testing your settings window](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestconfirm.png)
+![Testing your settings window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestconfirm.png)
 
 __Step 6 –__ If the SMTP settings are configured correctly, you receive a successful message. Click __OK__ to close the Testing your settings window. The test recipient should have recieved a test email.
 
@@ -52,7 +52,7 @@ The Access Information Center is now configured to send email. See the following
 
 Once the SMTP server is configured, there are additional options. Only the Reply-To field must be populated:
 
-![Notifications page showing Notification Options section](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsnotificationoptions.png)
+![Notifications page showing Notification Options section](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsnotificationoptions.png)
 
 - Reply-To — The email address that receives responses to notifications sent by the application. This can be a “no reply” address.
 - Reply-Display — Optionally enter a display name for the sender
@@ -68,7 +68,7 @@ _Remember,_ click __Save__ after making modifications to the Notification settin
 
 Resource Owners receive notification email when there are new pending tasks associated to their resources. You can also set up automated weekly reminders for outstanding pending tasks. Follow the steps to configure weekly reminders to resource owners.
 
-![Notifications page showing the Reminders section](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsreminders.png)
+![Notifications page showing the Reminders section](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsreminders.png)
 
 __Step 1 –__ In the Configuration interface, select the Notifications page and scroll down to the Reminders section.
 

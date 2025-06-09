@@ -4,11 +4,11 @@ A Membership review is an evaluation of group membership. Follow the steps to pe
 
 __Step 1 –__ On the Pending Reviews page, select the resource with a pending Membership review and click __Begin Review__. The Resource Review page opens to the 1 Make changes tab.
 
-![Membership review Make changes tab](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership.png)
+![Membership review Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership.png)
 
 The table displays membership information for the group being reviewed:
 
-- Trustee Name — Name of the trustee with group membership. If the trustee is a group, click the hyperlink to open the Group Membership window. See the [Group Membership Window](/docs/product_docs/accessinformationcenter/access/general/groupmembership.md) topic for additional information.
+- Trustee Name — Name of the trustee with group membership. If the trustee is a group, click the hyperlink to open the Group Membership window. See the [Group Membership Window](/docs/accessinformationcenter/access/general/groupmembership.md) topic for additional information.
 - User Title — Trustee's title as read from Active Directory
 - User Department — Trustee's department as read from Active Directory
 - User E-mail — Trustee's email address as read from Active Directory
@@ -24,7 +24,7 @@ _Remember,_ at any time you can save your recommendations and exit the review. I
 
 __Step 3 –__ When the recommended changes are set as desired, click __Next__. The 2 Review changes tab opens in the Resource Review page.
 
-![Membership review Review changes tab](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership2.png)
+![Membership review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership2.png)
 
 __Step 4 –__ This tab displays a filtered table of trustees with recommended changes. Confirm your recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave notes explaining why the change is recommended.
 

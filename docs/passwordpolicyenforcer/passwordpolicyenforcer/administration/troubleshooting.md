@@ -6,7 +6,7 @@ Password policy assigned to some users is being enforced for all users. Check th
 
 #### Password policy not displayed during password change
 
-Open the Programs and Features list in Control Panel on the computer you are changing the password from, and check if the Password Policy Client is in the list of installed programs. If it is not, then install the Password Policy Client. See the [Password Policy Client](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
+Open the Programs and Features list in Control Panel on the computer you are changing the password from, and check if the Password Policy Client is in the list of installed programs. If it is not, then install the Password Policy Client. See the [Password Policy Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
 
 If Password Policy Enforcer is enforcing a domain policy, then search the Windows Application Event Log on every domain controller for events from Password Policy Enforcer. If there are no events from Password Policy Enforcer since the last restart on any domain controller, then make sure that Password Policy Enforcer is installed on that domain controller and restart it. Check the Windows Application Event Log again after the restart to ensure that Password Policy Enforcer started. For local policies, search the Application Event Log on the local computer.
 
@@ -14,24 +14,24 @@ If there is a firewall between the client computer and the domain controllers (i
 
 Use the Test Policies page to test a password for the user. Click the __Log__ tab to see if a password policy is assigned to the user.
 
-Make sure that the Password Policy Server is enabled. See the [Configuration Console](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsoleoverview.md) topic for additional information.
+Make sure that the Password Policy Server is enabled. See the [Configuration Console](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsoleoverview.md) topic for additional information.
 
-Make sure that the Password Policy Client is enabled. See [Password Policy Client](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
+Make sure that the Password Policy Client is enabled. See [Password Policy Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
 
 #### Accepting passwords that do not comply with the policy
 
 If Password Policy Enforcer is enforcing a domain policy, then search the Windows Application Event Log on every domain controller for events from Password Policy Enforcer. If there are no events from Password Policy Enforcer since the last restart on any domain controller, then make sure that Password Policy Enforcer is installed on that domain controller and restart it. Check the Windows Application Event Log again after the restart to ensure that Password Policy Enforcer started. For local policies, search the Application Event Log on the local computer.
 
-Use the Test Policies page to test a password that Password Policy Enforcer is accepting. Examine the test results and event log to determine why Password Policy Enforcer accepted the password. If the Test Policies page rejects the password, you must configure the policy. See the [Policy Testing vs. Password Changes](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
+Use the Test Policies page to test a password that Password Policy Enforcer is accepting. Examine the test results and event log to determine why Password Policy Enforcer accepted the password. If the Test Policies page rejects the password, you must configure the policy. See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
 
 If the __Enforce policy when password is reset__ check box is not selected in the PPS Properties page, then Password Policy Enforcer will not enforce the password policy for passwords that are reset from the Active Directory Users and Computers console, or the Local Users and Groups console. You should select this option during testing, or test password changes from the Windows Change Password screen.
 
 #### Rejecting passwords that comply with the policy
 
-Use the Test Policies page to test a password that Password Policy Enforcer is rejecting. Examine the test results and event log to determine why Password Policy Enforcer rejected the password. If the Test Policies page rejects the password, you must configure the policy. See the [Policy Testing vs. Password Changes](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
+Use the Test Policies page to test a password that Password Policy Enforcer is rejecting. Examine the test results and event log to determine why Password Policy Enforcer rejected the password. If the Test Policies page rejects the password, you must configure the policy. See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
 
 Set __User must change password at next logon__ for the user and repeat the password change test. If the password is accepted, then either Windows or Password Policy Enforcer is configured to enforce a minimum password age. Disable the Minimum Age rule in Windows and Password Policy Enforcer to facilitate testing. If you cannot disable the Minimum Age rule, then set User must change password at next logon before every password change test to bypass the rule.
 
 #### Passwords that are accepted in the Test Policies page are rejected during a password change
 
-See the [Policy Testing vs. Password Changes](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.
+See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testpolicy.md#Policy-Testing-vs-Password-Changes) topic for additional information.

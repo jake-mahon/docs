@@ -17,4 +17,4 @@ DSAR roles are described briefly in the table below:
 
 \* Administrative area includes user maintenance, batch maintenance, and an option to ‘Run Now’ – which runs the queued batch.
 
-DSAR Roles can be configured under Users → Permissions Management. For more information on how to configure roles, refer to [User Management](/docs/product_docs/dataclassification/ndc/security/usermanagement.md#User-Management) section.
+DSAR Roles can be configured under Users → Permissions Management. For more information on how to configure roles, refer to [User Management](/docs/dataclassification/ndc/security/usermanagement.md#User-Management) section.

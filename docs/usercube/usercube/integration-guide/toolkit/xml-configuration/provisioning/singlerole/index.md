@@ -8,7 +8,7 @@ Roles can be used to:
 - restrict access to sensitive information assets, by grouping entitlements in a form that is meaningful from a business point of view;
 - grant the minimum privileges required by an individual to perform their job.
 
-Roles can be requested manually, or they can be configured to be assigned automatically via [Single Role Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) depending on identities' attributes.
+Roles can be requested manually, or they can be configured to be assigned automatically via [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) depending on identities' attributes.
 
 ## Examples
 
@@ -31,9 +31,9 @@ This optimization will simplify the functional understanding of the role catalog
 
 Supposing that the 10th [
 Dimension
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) (dimension A following the [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) (dimension A following the [
 Base32 Parameter Names
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) is created for time slots, the following example creates a single role ```Access/A_Brune_HR``` for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter.
+](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) is created for time slots, the following example creates a single role ```Access/A_Brune_HR``` for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter.
 
 Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
 
@@ -60,7 +60,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 | CommentActivationOnDeclineInReview   default value: Inherited | CommentActivationWithInherited | Indicates if a comment is enabled when reviewing a request of the role and deciding to refuse it.   ```0``` - Disabled.   ```1``` - Optional.   ```2``` - Required.   ```3``` - Inherited: comment activation in the associated policy. |
 | CommentActivationOnDeleteGapInReconciliation   default value: Inherited | CommentActivationWithInherited | Indicates if a comment is enabled when reviewing a non-conforming assignment of the role and deciding to delete it.   ```0``` - Disabled.   ```1``` - Optional.   ```2``` - Required.   ```3``` - Inherited: comment activation in the associated policy. |
 | CommentActivationOnKeepGapInReconciliation   default value: Inherited | CommentActivationWithInherited | Indicates if a comment is enabled when reviewing a non-conforming assignment of the role and deciding to keep it.   ```0``` - Disabled.   ```1``` - Optional.   ```2``` - Required.   ```3``` - Inherited: comment activation in the associated policy. |
-| D0   optional | Int64 | Value that will be set for the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) for all users with the role. |
+| D0   optional | Int64 | Value that will be set for the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) for all users with the role. |
 | Description\_L1   optional | String | Detailed description of the single role in language 1 (up to 16). |
 | DisplayName\_L1   required | String | Display name of the single role in language 1 (up to 16). |
 | EntityType   required | Int64 | Identifier of the entity type whose resources can receive the single role. |
@@ -72,6 +72,6 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 | MaxDuration   optional | Int32 | Duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified. It impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted. If no duration is set on the role, the ```MaxDuration``` of the associated policy is applied. If the ```MaxDuration``` is set to 0 on the role, it prevents the associated policy from applying its ```MaxDuration``` to it. |
 | Policy   required | Int64 | Identifier of the policy in which the role exists. |
 | ProlongationWithoutApproval   default value: 0 | ProlongationWithoutApproval | Indicates whether the role can be extended without any validation.   ```0``` - Inherited: gets the value from the policy.   ```1``` - Enabled.   ```2``` - Disabled. |
-| R0   default value: false | Boolean | ```true``` to set the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) as a required parameter when assigning the role. |
+| R0   default value: false | Boolean | ```true``` to set the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) as a required parameter when assigning the role. |
 | State   default value: Manual | RoleState | Mark that differentiates the roles analyzed in the role mining process.  ```0``` - Manual: the role was created manually.  ```1``` - Generated: the role was generated by a role mapping rule. |
 | Tags   optional | String | Label(s) that can later be used to filter the target roles of access certification campaigns. The tag separator is ¤. |

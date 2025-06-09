@@ -25,8 +25,8 @@ The JSON log file format is used to send SharePoint activity monitoring data to 
 | EventSource | A value that indicates whether the event occurred as a result of user action in the SharePoint Foundation user interface (UI) or programmatically. Values: SharePoint / ObjectModel | SharePoint |
 | LocationType | Specifies the actual location of a document in a SharePoint document library: Invalid, Url, ClientLocation | Url |
 | AppPrincipalId | The ID of the app principal who caused the event. If the value of EventSource is ObjectModel, thenAppPrincipalId holds the ID of the app principal whose context the code that caused the event was running. If there is no app context, the AppPrincipalId is null. | 0 |
-| SourceName | The name of the application that caused the event | <empty> |
-| RawEventData | A String that holds XML markup providing data that is specific to the type of event that the entry object represents. | <RelatedItem><Id>06C49477-0498-4858-900C-45B595337462</Id><Relationship><NewName>   MyDocs/myfile.zip</NewName></RelatedItem |
+| SourceName | The name of the application that caused the event | `<empty>` |
+| RawEventData | A String that holds XML markup providing data that is specific to the type of event that the entry object represents. | `<RelatedItem><Id>06C49477-0498-4858-900C-45B595337462</Id><Relationship><NewName>   MyDocs/myfile.zip</NewName></RelatedItem` |
 | AuditMask | The new audit mask | [“CheckIn”,“View”,“Delete”,“Update”] |
 | ChildId | The GUID of the child that is deleted/moved. | 06C49477-0498-4858-900C-45B595337462 |
 | ChildDocLocation | The pre-deletion URL of the child item | Lists/Posts/2\_.000 |

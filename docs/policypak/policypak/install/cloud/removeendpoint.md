@@ -2,4 +2,4 @@
 
 If you use Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud UI and use the __Delete permanently__ command, the next time the Cloud Client syncs to the Cloud Service all cloud pieces (Cloud agent and Cloud CSE) are physically removed from the endpoint automatically.
 
-![588_1_image001](/static/img/product_docs/policypak/policypak/install/cloud/588_1_image001.jpg)
+![588_1_image001](/img/product_docs/policypak/policypak/install/cloud/588_1_image001.jpg)

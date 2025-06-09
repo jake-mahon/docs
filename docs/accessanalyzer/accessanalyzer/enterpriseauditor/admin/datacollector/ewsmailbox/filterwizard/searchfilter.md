@@ -2,7 +2,7 @@
 
 Use the Search Filter page to choose a filter template for the search.
 
-![Filter Wizard Search Filter page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
+![Filter Wizard Search Filter page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
 
 Customize folder search conditions using the following options:
 
@@ -23,7 +23,7 @@ Customize folder search conditions using the following options:
 
 Use the MessageClasses window to alter criteria related to message class. The Message Classes window opens if __Ipm.Note__ or __Ipm.Appointment__ is clicked in the Edit Conditions box on the Search Filter page.
 
-![MessagesClasses window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassessearchfilter.png)
+![MessagesClasses window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassessearchfilter.png)
 
 Determine MessageClass-related criteria using the following options:
 
@@ -41,7 +41,7 @@ Determine MessageClass-related criteria using the following options:
 
 Use the Date Range Selection window to select a time period or range for the search. The Date Range Selection window opens if __over 90 Day ago__ is clicked in the Edit Conditions box on the Search Filter page.
 
-![Date Range Selection window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionsearchfilter.png)
+![Date Range Selection window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionsearchfilter.png)
 
 Determine the time period or range of the search using the following options:
 

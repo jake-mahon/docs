@@ -8,7 +8,7 @@ The UX\_CriticalFIles job uses the Unix Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the UX_CriticalFiles Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesquery.png)
+![Queries for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesquery.png)
 
 The query for the UX\_CriticalFiles job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Unix__ > __2.Privileged Access__ > __UX\_CriticalFiles__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_CriticalFiles Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesanalysis.png)
+![Analysis Tasks for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesanalysis.png)
 
 The default analysis task is:
 

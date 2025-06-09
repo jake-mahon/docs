@@ -1,10 +1,10 @@
 # When to Use “Apply to Child Processes”
 
-__NOTE:__ See the [Security and Child Processes](/docs/product_docs/policypak/policypak/video/leastprivilege/bestpractices/securitychildprocesses.md) video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager and Child Processes rules.
+__NOTE:__ See the [Security and Child Processes](/docs/policypak/policypak/video/leastprivilege/bestpractices/securitychildprocesses.md) video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager and Child Processes rules.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_apply_to_child.jpg)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_apply_to_child.jpg)
 
 We suggest leaving the checkbox on for __Apply to Child Processes__ when installing software. This will enable a ```Setup.exe``` to elevate anything it unpacks and needs to continue to install. However, using __Apply to Child Processes__ is not recommended when elevating specific applications where users could open their own dialog boxes. Some examples of this would be ```REGEDIT``` or Acrobat Reader. In those cases, users could spawn a new process, which would also be elevated and perform functions that work around your security.
 

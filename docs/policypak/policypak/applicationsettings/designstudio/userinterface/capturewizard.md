@@ -6,7 +6,7 @@ When you start a new project after running Endpoint Policy Manager DesignStudio,
 
 Be sure to capture the Options or Configuration window of an application, and not the main page, which will often not capture at all and is likely not be what you wanted to capture. Remember that you will mostly be capturing options, properties, and configuration pages.
 
-![crafting_the_user_interface](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface.png)
+![crafting_the_user_interface](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface.png)
 
 Figure 59. Selecting the target application and window.
 
@@ -14,13 +14,13 @@ __NOTE:__  See the section entitled "Special Applications and Project Types" for
 
 After the first tab of your application is captured, you'll be able to select more tabs using the "Capture another tab" button, as shown in Figure 60.
 
-![crafting_the_user_interface_1](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_1.png)
+![crafting_the_user_interface_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_1.png)
 
 Figure 60. Capturing additional tabs.
 
 In most cases, your application's look and feel is exactly captured, as shown in Figure 61.
 
-![crafting_the_user_interface_2](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_2.png)
+![crafting_the_user_interface_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_2.png)
 
 Figure 61. Capturing the look and feel of the application.
 

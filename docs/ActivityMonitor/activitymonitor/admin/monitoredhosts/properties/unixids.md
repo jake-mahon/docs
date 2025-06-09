@@ -4,7 +4,7 @@ The Unix IDs tab provides configuration options to translate Unix IDs (UID) to S
 
 When activity is performed on an NFS resource, UIDs are returned for that activity event. Depending on the operating system, the UID can be mapped to Active Directory accounts using the uidNumber attribute in Active Directory. The activity agent resolves the Active Directory SID based on the UID from the activity event.
 
-![Unix ID Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/unixid.png)
+![Unix ID Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/unixid.png)
 
 The options are:
 

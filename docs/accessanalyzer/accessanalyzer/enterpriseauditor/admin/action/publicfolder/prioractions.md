@@ -4,7 +4,7 @@ The Prior Actions page selects previously executed actions for rollback. It is a
 
 __NOTE:__ Once an action is selected and saved, and the wizard is closed, this page is no longer available and the selection cannot be altered.
 
-![Public Folder Action Module Wizard Prior Actions page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/prioractions.png)
+![Public Folder Action Module Wizard Prior Actions page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/filesystem/prioractions.png)
 
 The options on this page are:
 

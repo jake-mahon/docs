@@ -2,11 +2,11 @@
 
 The Microsoft Store is full of useful applications. However, users do not always select the apps that you want them to download. This is where Software Package Manager can force the installation of the apps you want via AppX policies. Additionally, you may want to remove AppX packages as well. Windows itself will request unwanted applications for the user from the Microsoft Store. Below we can see pre-installed applications like Duolingo, Pandora, and Skype. Windows versions before 20H1 very often have quite cluttered Start menus, as shown in the figure.
 
-![appx_policies_and_settings_2](/static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_2.png)
+![appx_policies_and_settings_2](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_2.png)
 
 However, even newer versions of Windows still have some store applications , installed, like Skype, even though the default Start menu is cleaner. In both cases you might want to remove applications that are not needed..
 
-![appx_policies_and_settings_3](/static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_3.png)
+![appx_policies_and_settings_3](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_3.png)
 
 We'll discuss how to install or remove AppX packages in the next two sections.
 

@@ -6,7 +6,7 @@ Dependencies
 
 Running the .Entra ID Inventory Job Group provides essential data to the Entra ID Solution.
 
-Running the .Active Directory Inventory Job Group is required to collect on-premises directory syncing information. See the [.Active Directory Inventory Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/overview.md) topic for additional information.
+Running the .Active Directory Inventory Job Group is required to collect on-premises directory syncing information. See the [.Active Directory Inventory Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/overview.md) topic for additional information.
 
 Targeted Hosts
 
@@ -24,7 +24,7 @@ Optional Configuration
 
 The Entra ID Solution receives user and group membership information from the .Entra ID Inventory Solution. Information received includes manager, email addresses, and direct membership. Customize within the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ Job's Deeply Nested Groups and Large Groups analysis tasks.
 
-See the [.Entra ID Inventory Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
+See the [.Entra ID Inventory Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
 
 Workflow
 

@@ -2,7 +2,7 @@
 
 The Results page is where properties from Active Directory to be gathered are selected. It is a wizard page for the category of Scan Active Directory.
 
-![Active Directory Inventory DC Wizard Results page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![Active Directory Inventory DC Wizard Results page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
 
 Properties can be selected individually or the __Select All__ or __Clear All__ buttons can be used. All selected properties are gathered.
 

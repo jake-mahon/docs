@@ -2,7 +2,7 @@
 
 The Authentication tab on a domain’s Configuration window allows users to configure communication with servers.
 
-![AD Monitoring Configuration - Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.png)
+![AD Monitoring Configuration - Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.png)
 
 After checking the Enable Authentication box, the following event filters can be modified on the sub-tabs:
 
@@ -19,7 +19,7 @@ After checking the Enable Authentication box, the following event filters can be
 
 The Forged Privilege Account Certificate (PAC) analytic type identifies Kerberos tickets with a modified PAC. By manipulating the PAC, a field in the Kerberos ticket that contains a user’s authorization data (in Active Directory this is group membership), an attacker is able to grant themselves additional elevated privileges.
 
-![AD Monitoring Configuration - Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.png)
+![AD Monitoring Configuration - Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.png)
 
 Double-click text box to enter specific __RIDs__. Click OK. The AD agent then compares against the PAC and user’s access token for a mismatch to trigger the incident.
 
@@ -29,7 +29,7 @@ __NOTE:__ The Forged PAC analytic is monitoring for when the user is not a membe
 
 The Hosts (from) option is where the policy can be scoped to only monitor specific hosts as originators of an authentication event or to exclude specific hosts from being monitored for authentication events.
 
-![Host (From) Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
+![Host (From) Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.png)
 
 Underneath each section, there are additional Host details:
 
@@ -43,7 +43,7 @@ Double-click the text boxes within the column, then enter all three methods of i
 
 The Hosts (to) option is where the policy can be scoped to only monitor specific hosts as target hosts of an authentication event or to exclude specific hosts from being monitored as targets of authentication events.
 
-![Host (To) Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostto.png)
+![Host (To) Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostto.png)
 
 Underneath each section, there are additional Host details:
 
@@ -57,7 +57,7 @@ Double-click the text boxes within the column, then enter all three methods of i
 
 The IP Addresses (from) option is where the policy can be scoped to only monitor specific IP Addresses as originators of an authentication event or to exclude specific IP Addresses from being monitored for authentication events.
 
-![IP Addresses (From) Tab in the Authenticatoin Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.png)
+![IP Addresses (From) Tab in the Authenticatoin Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.png)
 
 Underneath each section, there is an additional Address detail:
 
@@ -69,7 +69,7 @@ Double-click the text box beneath __Value__ to enter the desired IP Addresses to
 
 The IP Addresses (to) option is where the policy can be scoped to only monitor specific IP Addresses as target hosts of an authentication event or to exclude specific IP Addresses from being monitored as targets of authentication events.
 
-![IP Addresses (To) Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.png)
+![IP Addresses (To) Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.png)
 
 Underneath each section, there is an additional Address detail:
 
@@ -81,7 +81,7 @@ Double-click the text box beneath __Value__ to enter the desired IP Addresses to
 
 The Operations option filters for successful events, failed events, or both.
 
-![Operations Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.png)
+![Operations Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.png)
 
 The __Monitor These Attempts__ section is where monitoring is set to filter for successful events, failed events, or both:
 
@@ -109,7 +109,7 @@ The Login Type options apply only to Domain Controllers. These options provide t
 
 The Servers option targets servers to be included or excluded when filtering for authentication.
 
-![Servers Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
+![Servers Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.png)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain name and SERVER is NetBIOS server name.
 
@@ -119,7 +119,7 @@ Double-click the text box beneath Name to enter the desired servers to include o
 
 The Users filter is where the policy can be scoped to only monitor specific security principals committing changes within Active Directory or to exclude specific users committing changes from being monitored.
 
-![Users Tab in the Authentication Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
+![Users Tab in the Authentication Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
 
 The following details appear beneath both sections:
 

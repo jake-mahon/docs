@@ -4,7 +4,7 @@ Admin Center provides a variety of options to helpdesk users for resetting passw
 
 NOTE: You can reset passwords of unenrolled users if (a) the __Reset Any Password__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
-Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/docs/product_docs/groupid/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/docs/groupid/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
 
 What do you want to do?
 
@@ -14,9 +14,9 @@ What do you want to do?
 ## Reset Passwords in Unrestricted Mode
 
 1. In Admin Center, click __Helpdesk__ in the left pane.
-2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/docs/product_docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic.
+2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic.
 3. Click the ellipsis button for the user and select __Reset Password__. For enrolled users, the __Reset Password__ dialog box has two pages: __Authenticate__ and __Reset__. Under the unrestricted mode, you can skip the former and move to the __Reset__ page. For unenrolled users, only the __Reset__ page is available.  
-   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
+   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
 4. The __Reset__ page displays the user name, the identity store
    where this user resides, the last time the user changed his or her password, and the lock status of the account. In case the user has linked his or her accounts that exist in different identity stores, this page displays all linked accounts that require a password reset.  
    Select an account to reset its password.
@@ -43,15 +43,15 @@ In the restricted mode, you will not be able to reset passwords for unenrolled u
 - Reset passwords of enrolled users residing in a specific OU.
 - Authenticate enrolled users through the multifactor authentication policy applicable to the user before resetting their passwords. The Security Questions authentication type may be mandatory.
 
-See the [Helpdesk Policy](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/helpdesk.md) topic.
+See the [Helpdesk Policy](/docs/groupid/groupid/admincenter/securityrole/policy/helpdesk.md) topic.
 
 __To reset a password in restricted mode:__
 
 1. In Admin Center, click __Helpdesk__ in the left pane.
-2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/docs/product_docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic.
+2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic.
 3. Click the ellipsis button for
    the user and select __Reset Password__. The __Reset Password__ dialog box has two pages: __Authenticate__ and __Reset__.   
-   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
+   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
 4. The __Authenticate__ page displays the authentication type(s) the user's account is enrolled with. You could be restricted to authenticate the user according to the authentication policy that applies to the user.  
    Click the plus sign for an authentication type to expand it.
 
@@ -80,5 +80,5 @@ __To reset a password in restricted mode:__
 
 __See Also__
 
-- [Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/product_docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)

@@ -8,34 +8,34 @@ __Step 2 –__ Click an organization to define a data source and connector(s) fo
 
 __Step 3 –__ On the Sources tab, click __Add__ to add a source. The Select Data Source (Step 1 of 3) pane is displayed.
 
-![Select Data Source (Step 1 of 3) pane](/static/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.png)
+![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.png)
 
 __Step 4 –__ Select __SharePoint Online__ and click Next.
 
-![Configure Source Details (Step 2 of 3) pane](/static/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/configuresourcedetailssharepoint.png)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/configuresourcedetailssharepoint.png)
 
 __Step 5 –__ On the Configure source details (Step 2 of 3) pane, specify the following settings:
 
 - Source Group – Specify a name for the group to which the data source will belong. Grouping sources, such as computers, allows them to share a common configuration and makes it easier to manage related sources together.
-- Tenant ID – The tenant ID of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/product_docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
+- Tenant ID – The tenant ID of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
 - Crawl Source – Toggle this option to ON to enable data collection for the source
 - Credentials – Displays the crdentials that have already been added, while also providing the option to add new credentials. Netwrix 1Secure uses these credentials to connect to the data source. You can select existing credentials or add new ones. To add new credentials, select __Add new Credentials__ from the drop-down menu or click the __Add__ icon, then specify the following:
 
-  - Client ID – The client ID of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/product_docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
-  - Client Secret – The client secret of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/product_docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
-  - Download Certificate – For certain connectors, such as SharePoint Online State, authentication requires a certificate instead of a client secret. Download this certificate and then upload it to the app registered in Microsoft Entra ID. See the [Upload a Certificate](/docs/product_docs/1secure/1secure/configuration/entraid/registerconfig.md#Upload-a-Certificate) topic for additional information.
+  - Client ID – The client ID of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
+  - Client Secret – The client secret of the app registered in Microsoft Entra ID. See the [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/1secure/configuration/entraid/registerconfig.md) topic for additional information.
+  - Download Certificate – For certain connectors, such as SharePoint Online State, authentication requires a certificate instead of a client secret. Download this certificate and then upload it to the app registered in Microsoft Entra ID. See the [Upload a Certificate](/docs/1secure/1secure/configuration/entraid/registerconfig.md#Upload-a-Certificate) topic for additional information.
   - Display Name – Specify a name you want to show for your credentials. It will be displayed on the Credentials tab of the Managed Organizations page.
 
 __Step 6 –__ Click __Next__.
 
-![Choose New Connector (Step 3 of 3) pane](/static/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/addsourcesharepointonlineconnector.png)
+![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/1secure/admin/organizations/sourcesandconnectors/addsourcesharepointonlineconnector.png)
 
 __Step 7 –__ The Choose new connector (Step 3 of 3) pane lists three connectors for SharePoint Online. Specify the following:
 
-- SharePoint Online Activity – Toggle the __SharePoint Online Activity__ switch to ON to collect and monitor data for this connector. With this, you can generate activity reports on SharePoint Online data. See the [SharePoint Online](/docs/product_docs/1secure/1secure/admin/searchandreports/activity.md#SharePoint-Online) topic for additional information.
+- SharePoint Online Activity – Toggle the __SharePoint Online Activity__ switch to ON to collect and monitor data for this connector. With this, you can generate activity reports on SharePoint Online data. See the [SharePoint Online](/docs/1secure/1secure/admin/searchandreports/activity.md#SharePoint-Online) topic for additional information.
 
   - Audit SharePoint Online read access – Select this checkbox to audit the files with read access in SharePoint Online.
-- SharePoint Online State – Toggle the __SharePoint Online State__ switch to ON to collect and monitor data for this connector. With this, you can generate state-in-time reports on SharePoint Online data. See the [State In Time Risks Reports](/docs/product_docs/1secure/1secure/admin/searchandreports/stateintime.md) topic for additional information.
+- SharePoint Online State – Toggle the __SharePoint Online State__ switch to ON to collect and monitor data for this connector. With this, you can generate state-in-time reports on SharePoint Online data. See the [State In Time Risks Reports](/docs/1secure/1secure/admin/searchandreports/stateintime.md) topic for additional information.
 
   - Collect state-in-time data for personal OneDrives – Select this checkbox to collect state-in-time data for personal OneDrives.
 

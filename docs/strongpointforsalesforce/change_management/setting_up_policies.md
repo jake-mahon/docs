@@ -46,7 +46,7 @@ Once the policy is saved, __System Information__ is added show the __Created By_
 
 ### Information
 
-![New Policy form](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new1.png)
+![New Policy form](/img/product_docs/strongpointforsalesforce/change_management/policy_new1.png)
 
 - __Change/Approval Policy Name__
 - __Default Policy__: Check if this is the default change/approval policy.
@@ -64,67 +64,67 @@ Set the required Change Level for each Metadata Type. The Default is shown in th
 
 ### Code and Data Model Changes
 
-![Code and Data Model Changes](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new2.png)
+![Code and Data Model Changes](/img/product_docs/strongpointforsalesforce/change_management/policy_new2.png)
 
 ### Automation Changes
 
-![Automation Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new3.png)
+![Automation Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new3.png)
 
 ### Sharing and Visibility Changes
 
-![Sharing and Visbility Change Level](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new4.png)
+![Sharing and Visbility Change Level](/img/product_docs/strongpointforsalesforce/change_management/policy_new4.png)
 
 ### Integration Changes
 
-![Integration Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new5.png)
+![Integration Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new5.png)
 
 ### Configuration Changes
 
-![Configuration Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new6.png)
+![Configuration Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new6.png)
 
 ### Display and UI Changes
 
-![Display / UI Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new7.png)
+![Display / UI Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new7.png)
 
 ### Analytics Changes
 
-![Analytics Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new8.png)
+![Analytics Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new8.png)
 
 ### Control Changes
 
-![Control Change Levels](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new9.png)
+![Control Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new9.png)
 
-Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/product_docs/strongpointforsalesforce/customizations/understanding_customization_record.md#Health-Settings) tab for the specific records on the customization record.
+Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md#Health-Settings) tab for the specific records on the customization record.
 
 ### Application Configuration Changes (Data)
 
-![Application Configuration Changes (Data)](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new16.png)
+![Application Configuration Changes (Data)](/img/product_docs/strongpointforsalesforce/change_management/policy_new16.png)
 
 Set objects and fields that are __Tracked Non-blocking__ or __Tracked Blocking__ to be part of the policy and require a Ticket and an approval.
 
-Refer to [Set Up Data Tracking](/docs/product_docs/strongpointforsalesforce/change_management/set_up_data_tracking.md) for more information on activating and validating tracked fields.
+Refer to [Set Up Data Tracking](/docs/strongpointforsalesforce/change_management/set_up_data_tracking.md) for more information on activating and validating tracked fields.
 
 ### Health Check Changes
 
-![Health Check Changes](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new16_a.png)
+![Health Check Changes](/img/product_docs/strongpointforsalesforce/change_management/policy_new16_a.png)
 
 Select the change level for __Health Check Changes__: __None__, __Log Changes Only__, __Change Request__, __Sandbox Development & Testing__, or __Full Software Development Lifecycle__.
 
 ### IT Policies
 
-![Set IT Policies](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new10.png)
+![Set IT Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new10.png)
 
 Specify the __Preliminary Approver__. Enter part of the name to see a matching list. For critical changes, you can also set a __Final Approver__. This person must approve all changes affected by the rule.
 
 ### Customization Policies
 
-![Customization Policies](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new12.png)
+![Customization Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new12.png)
 
 __Require Impacted Customization Approval__: select this option to require approval from all impacted Customization owners.
 
 ### Management Policies
 
-![Set Management Policies](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new13.png)
+![Set Management Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new13.png)
 
 __Executive Approver__: a business executive who must approve the change.
 
@@ -134,7 +134,7 @@ __No Order Required__: select this option to allow approvals in any order. If it
 
 ### Change Enablement Defaults
 
-![Change Enablement Defaults](/static/img/product_docs/strongpointforsalesforce/change_management/policy_new15.png)
+![Change Enablement Defaults](/img/product_docs/strongpointforsalesforce/change_management/policy_new15.png)
 
 __Merge Approval Lists__: select this option to merge lists when multiple policies apply to a change.
 
@@ -148,7 +148,7 @@ The __Related__ tab is available once a policy is saved. You can add and view Cu
 
 Change Logs are created when customizations are added or removed.
 
-![Policy Related tab](/static/img/product_docs/strongpointforsalesforce/change_management/policy_related_tab.png)
+![Policy Related tab](/img/product_docs/strongpointforsalesforce/change_management/policy_related_tab.png)
 
 ### Add or Remove Customizations
 
@@ -162,12 +162,12 @@ You can add or remove customizations from the __Related__ tab on the policy. Cus
 1. Open the policy and click the __Related__ tab.
 2. Click __Add Customizations__.
 
-   ![Add customizations](/static/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.png)
+   ![Add customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.png)
 3. Select a __Metadata Type__ to filter the list.
 4. Enter a search term or scroll through the list to locate customizations.
 5. Click to select a customization. Use Shift-click or click and drag to select multiple contiguous items or Ctrl-click to select multiple customizations.
 
-   ![Selecting Customizations](/static/img/product_docs/strongpointforsalesforce/change_management/policy_add_customizations2.png)
+   ![Selecting Customizations](/img/product_docs/strongpointforsalesforce/change_management/policy_add_customizations2.png)
 6. Click __Add__ to add the customizations to the __Selected Customizations__ list. For existing customizations, select them in the __Selected Customizations__ and click __Remove__ to take them out of the list.
 7. Click __Save__ when complete.
 
@@ -178,12 +178,12 @@ This feature enables you to easily add customizations to the policy based on Sal
 1. Open the policy and click the __Related__ tab.
 2. Click __Select Change Level by SF Type__. You can set the policy as the __Default__ and toggle it as __Active__ in the __Policy Details__.
 
-   ![Adding customizations by Salesforce Type](/static/img/product_docs/strongpointforsalesforce/change_management/policy_change_by_sf_type.png)
+   ![Adding customizations by Salesforce Type](/img/product_docs/strongpointforsalesforce/change_management/policy_change_by_sf_type.png)
 3. Set __Category__ and __Sub-Category__ filters if you want to narrow the list. Sub-categories are not available for all Categories.
 
-   ![Set filters for Salesforce type](/static/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type2.png)
+   ![Set filters for Salesforce type](/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type2.png)
 4. Click to select a __Salesforce Type__ from the __Available Salesforce Type List__. Use Shift-click or click and drag to select multiple contiguous items or Ctrl-click to select multiple types.
 
-   ![Add selections to the Selected Salesforce Type List](/static/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type3.png)
+   ![Add selections to the Selected Salesforce Type List](/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type3.png)
 5. Click the right arrow to add selections to the __Selected Salesforce Type List__. Click the left arrow to remove items from the selected list.
 6. Click __Save__ when complete. A confirmation dialog is displayed. Click __OK__ to confirm you want to add all of the customizations from the selected Salesforce types.

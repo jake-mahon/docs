@@ -13,9 +13,9 @@ Core Component
   __NOTE:__ The Activity Monitor Console can be hosted on the same machine as other Netwrix products.
 - Agents – There are three types of agents that are deployed in the target environment used to monitor activity:
 
-  - Activity Agent – The Activity Agent is installed on Windows servers to monitor Microsoft Entra ID, Network Attached Storage (NAS) devices, SharePoint farms, SharePoint Online, SQL Server, and Windows file servers. See the [Activity Agent Server Requirements](/docs/product_docs/activitymonitor/activitymonitor/requirements/activityagent.md) topic for additional information.
-  - AD Agent – The AD Agent is deployed to every domain controllers to monitor Active Directory domains. See the [AD Agent Server Requirements](/docs/product_docs/activitymonitor/activitymonitor/requirements/adagent.md) topic for additional information.
-  - Linux Agent – The Linux Agent is deployed to Linux servers to be monitored. See the [Linux Agent Server Requirements](/docs/product_docs/activitymonitor/activitymonitor/requirements/linuxagent.md) topic for additional information.
+  - Activity Agent – The Activity Agent is installed on Windows servers to monitor Microsoft Entra ID, Network Attached Storage (NAS) devices, SharePoint farms, SharePoint Online, SQL Server, and Windows file servers. See the [Activity Agent Server Requirements](/docs/activitymonitor/activitymonitor/requirements/activityagent.md) topic for additional information.
+  - AD Agent – The AD Agent is deployed to every domain controllers to monitor Active Directory domains. See the [AD Agent Server Requirements](/docs/activitymonitor/activitymonitor/requirements/adagent.md) topic for additional information.
+  - Linux Agent – The Linux Agent is deployed to Linux servers to be monitored. See the [Linux Agent Server Requirements](/docs/activitymonitor/activitymonitor/requirements/linuxagent.md) topic for additional information.
 
 Target Environment Considerations
 

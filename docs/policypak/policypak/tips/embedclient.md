@@ -9,11 +9,11 @@ Yes, you can place the Client Side Extension into an image. There is no "SID" or
 After some time, you will need to keep the Client Side Extension up to date as we continue to make improvements and fixes.
 
 - If you are using VDI, you will have to keep the master image updated from time to time.
-- If you're using standard machines you will have to use SCCM, PDQ Deploy, or Netwrix Endpoint Policy Manager (formerly PolicyPak)'s own auto-updater mechanism. You can see this in action in this video ([Auto-updating the CSE](/docs/product_docs/policypak/policypak/video/install/autoupdate.md)) and read more about it in Appendix Book A in the Endpoint Policy Manager Manuals.
+- If you're using standard machines you will have to use SCCM, PDQ Deploy, or Netwrix Endpoint Policy Manager (formerly PolicyPak)'s own auto-updater mechanism. You can see this in action in this video ([Auto-updating the CSE](/docs/policypak/policypak/video/install/autoupdate.md)) and read more about it in Appendix Book A in the Endpoint Policy Manager Manuals.
 
 ## For Endpoint Policy Manager Cloud Edition:
 
-Before we explain what you can and cannot do, here's a quick reminder of what happens when you use Endpoint Policy Manager Cloud. You use your company's Endpoint Policy Manager Cloud MSI which installs the Endpoint Policy Manager Cloud Client, consumes a Endpoint Policy Manager Cloud license, and then installs the latest Endpoint Policy Manager Client Side Extension (or whatever the Client Side Extension level you have set the GROUP membership to, as explained in this video: [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/product_docs/policypak/policypak/video/cloud/groups.md))
+Before we explain what you can and cannot do, here's a quick reminder of what happens when you use Endpoint Policy Manager Cloud. You use your company's Endpoint Policy Manager Cloud MSI which installs the Endpoint Policy Manager Cloud Client, consumes a Endpoint Policy Manager Cloud license, and then installs the latest Endpoint Policy Manager Client Side Extension (or whatever the Client Side Extension level you have set the GROUP membership to, as explained in this video: [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/policypak/policypak/video/cloud/groups.md))
 
 You cannot pre-install the Endpoint Policy Manager Cloud client, because future machines based upon the image will get confused and NOT consume a new license from Endpoint Policy Manager Cloud.
 
@@ -31,8 +31,8 @@ We recommend you simply use your MDM solution to deploy the Endpoint Policy Mana
 
 You CAN pre-install the Endpoint Policy Manager Cloud Client in VDI or standard machines and then have it work. If you want to use Endpoint Policy Manager with VDI, you must follow the steps in one of the knowledgebase articles directly below, or use the Endpoint Policy Manager Group Policy Edition and license an on-prem domain / OU.
 
-[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/product_docs/policypak/policypak/integration/azurevirutaldesktop.md)
+[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/policypak/policypak/integration/azurevirutaldesktop.md)
 
-[How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/product_docs/policypak/policypak/integration/vdisolutions.md)
+[How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/policypak/policypak/integration/vdisolutions.md)
 
 While it will technically work, you are expressly forbidden by the EULA to attempt to install the Endpoint Policy Manager Cloud client (which will install the Endpoint Policy Manager Client Side Extension) to a Citrix machine that hosts multiple users. This is because Endpoint Policy Manager Cloud sees this as ONE consumed license; where you would need to pay licensing fees for each concurrent connection. The only time this is permissible is with an express written agreement between your company and Endpoint Policy Manager where we both agree that you are doing this.

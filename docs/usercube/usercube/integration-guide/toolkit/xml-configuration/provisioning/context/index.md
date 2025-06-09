@@ -6,7 +6,7 @@ Contexts define the resources' scopes of responsibility. They are used during pr
 
 See the [
 Identity Lifecycle: Joiners, Movers and Leavers
-](/docs/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/index.md) for additional information about context generation.
+](/docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/index.md) for additional information about context generation.
 
 ## Properties
 

@@ -46,15 +46,15 @@ Certificate Chain:
 
 In this example, you can pull signed details in three ways:
 
-![909_1_image-20230406154820-1](/static/img/product_docs/policypak/policypak/cloud/install/mac/909_1_image-20230406154820-1.png)
+![909_1_image-20230406154820-1](/img/product_docs/policypak/policypak/cloud/install/mac/909_1_image-20230406154820-1.png)
 
 __Step 1 –__ CN=Developer ID installer: Microsoft Corporation (UBF8T346G9)
 
-![909_2_image-20230406155008-2](/static/img/product_docs/policypak/policypak/cloud/install/mac/909_2_image-20230406155008-2.png)
+![909_2_image-20230406155008-2](/img/product_docs/policypak/policypak/cloud/install/mac/909_2_image-20230406155008-2.png)
 
 __Step 2 –__ OU=UBF8T346G9
 
-![909_3_image-20230406155059-3](/static/img/product_docs/policypak/policypak/cloud/install/mac/909_3_image-20230406155059-3.png)
+![909_3_image-20230406155059-3](/img/product_docs/policypak/policypak/cloud/install/mac/909_3_image-20230406155059-3.png)
 
 __Step 3 –__ O=Microsoft Corporation
 

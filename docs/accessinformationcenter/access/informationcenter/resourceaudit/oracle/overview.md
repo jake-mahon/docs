@@ -9,4 +9,4 @@ A single Oracle Server can have multiple instances. Each instance where data is 
 
 The following report is available at the __Oracle__ node:
 
-- [Sensitive Content Summary Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/oracle/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/oracle/sensitivecontentsummary.md)

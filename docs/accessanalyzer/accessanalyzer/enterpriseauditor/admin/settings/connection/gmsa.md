@@ -1,6 +1,6 @@
 # Group Managed Service Accounts (gMSA) Configuration
 
-Access Analyzer can use a previously-configured Group Managed Service Accounts (gMSA/MSA) account. Make sure that Managed Service Account is selected in the User Credentials window. See the [Create a Connection Profile](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/create.md) or [Create a Schedule Service Account](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/schedule.md#Create-a-Schedule-Service-Account) topic for additional information.
+Access Analyzer can use a previously-configured Group Managed Service Accounts (gMSA/MSA) account. Make sure that Managed Service Account is selected in the User Credentials window. See the [Create a Connection Profile](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/create.md) or [Create a Schedule Service Account](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/schedule.md#Create-a-Schedule-Service-Account) topic for additional information.
 
 To run a job or scheduled task with a gMSA/MSA account, the following prerequisites must be met:
 

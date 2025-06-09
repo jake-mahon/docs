@@ -2,7 +2,7 @@
 
 After signing into the Directory Manager portal, from the left pane select __Synchronize__ to land on the dashboard.
 
-![synchronizedashboard](/static/img/product_docs/groupid/groupid/portal/synchronize/synchronizedashboard.png)
+![synchronizedashboard](/img/product_docs/groupid/groupid/portal/synchronize/synchronizedashboard.png)
 
 The interface has intuitive navigation options:
 
@@ -23,19 +23,19 @@ The top right corner of the application displays:
 | --- | --- |
 | Background jobs icon | View the status of jobs and job collections that are running in the background.  It displays:   - Jobs    - Completed Jobs: Jobs that have been completed.   - In Progress Jobs: Jobs that are still in running. - Job Collections    - Completed Jobs: Job collections that have been completed.   - In Progress Jobs: Job collections that are still in running. |
 | Help icon | Launch the synchronize portal help. |
-| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/docs/product_docs/groupid/groupid/portal/login.md#Sign-Out) of the portal. |
+| User profile icon | Displays your profile picture with your name and the identity store that Directory Manager portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/docs/groupid/groupid/portal/login.md#Sign-Out) of the portal. |
 
 ## Menu Pane
 
 Look on the left side of the page for the navigation pane, which lists links to:
 
-- Create New ([Create a Job](/docs/product_docs/groupid/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
-  ](/docs/product_docs/groupid/groupid/portal/synchronize/collection/create.md))
+- Create New ([Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
+  ](/docs/groupid/groupid/portal/synchronize/collection/create.md))
 - [Dashboard](#Dashboard)
-- [Manage a Job](/docs/product_docs/groupid/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobcollection.md)
-- [Job Templates](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobtemplate.md)
-- [Job Collection Template](/docs/product_docs/groupid/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
+- [Manage a Job](/docs/groupid/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/groupid/portal/synchronize/manage/jobcollection.md)
+- [Job Templates](/docs/groupid/groupid/portal/synchronize/manage/jobtemplate.md)
+- [Job Collection Template](/docs/groupid/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
 
 ## Dashboard
 

@@ -1,8 +1,8 @@
 # Queries Node
 
-The Queries node uses a Access Analyzer data collector to run scans against the targeted hosts. Different data collectors are designed for different types of collection. It is necessary for the Connection Profile associated with the target hosts to have a sufficient level of rights for the selected data collector. See the [Permissions by Data Collector (Matrix)](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/permissionmatrix.md) topic for a chart with recommended permissions per data collector.
+The Queries node uses a Access Analyzer data collector to run scans against the targeted hosts. Different data collectors are designed for different types of collection. It is necessary for the Connection Profile associated with the target hosts to have a sufficient level of rights for the selected data collector. See the [Permissions by Data Collector (Matrix)](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/permissionmatrix.md) topic for a chart with recommended permissions per data collector.
 
-![Query Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
+![Query Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
 
 The Query Selection view lists all queries for the selected job. Though it is possible to have multiple queries in a single job, it is not usually recommended. The listed information includes:
 
@@ -23,7 +23,7 @@ The Query Selection view lists all queries for the selected job. Though it is po
 
 Add and configure native data tables through the Tables section in the Query Selection view.
 
-![Tables section of Query Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryselectiontables.png)
+![Tables section of Query Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryselectiontables.png)
 
 The Tables section at the top has three options:
 
@@ -37,23 +37,23 @@ The Tables section at the top has three options:
 
 The Queries section is where the job’s preconfigured queries can be edited and where new queries can be added.
 
-![Queries section of Query Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryselectionqueries.png)
+![Queries section of Query Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryselectionqueries.png)
 
 The Queries section has four options and includes the list of queries for the selected job:
 
-- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See the [Add Query from Library](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md#Add-Query-from-Library) topic for additional information.
+- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See the [Add Query from Library](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md#Add-Query-from-Library) topic for additional information.
 - Create Query – Opens the Query Properties window for creating and configuring queries
 - Delete Query – Deletes the selected query from the list. This action does require confirmation.
 - Query Properties – Opens the Query Properties window for the selected query
   - This option is used for query modifications
-  - See the [Create or Modify a Query](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md#Create-or-Modify-a-Query) topic for additional information
-  - See the topics for the individual [Data Collectors](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md) for additional information
+  - See the [Create or Modify a Query](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md#Create-or-Modify-a-Query) topic for additional information
+  - See the topics for the individual [Data Collectors](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/overview.md) for additional information
 
 ## Right-click Menu
 
 The Query Selection view also has its own right-click menu for taking action on the queries, tables, or the job.
 
-![Right-click menu on the Query Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryrightclickmenu.png)
+![Right-click menu on the Query Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queryrightclickmenu.png)
 
 The options in the Queries node right-click menu are:
 
@@ -69,16 +69,16 @@ The options in the Queries node right-click menu are:
 - Delete Table – Deletes the selected table
 - Rename Table – Opens the Rename Table window
 - Run Job – Starts job execution for the selected job
-- Add Instant Job – Opens the [Instant Job Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+- Add Instant Job – Opens the [Instant Job Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 - Create Job (__Ctrl + Alt + A__) – Creates a new job at the same location as the selected job
 
 ## Host List
 
-Jobs with configured queries require a host list to be assigned. This can be done at either the Job Group or Job level. Whichever location is used to set the host list for query execution should also be the location where the Connection Profile is assigned. See the [Job Properties](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/overview.md) topic for additional information.
+Jobs with configured queries require a host list to be assigned. This can be done at either the Job Group or Job level. Whichever location is used to set the host list for query execution should also be the location where the Connection Profile is assigned. See the [Job Properties](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/overview.md) topic for additional information.
 
 - Job Groups
-  - Host List Assigned – __[Job Group]__ > __Settings__ > __Host Lists Assignment__. See the [Host Lists Assignment](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/hostlistsassignment.md) topic for additional information.
-  - Connection Profile Selected –  __[Job Group]__ > __Settings__ > __Connection__. See the [Connection Node](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/connection.md) topic for additional information.
+  - Host List Assigned – __[Job Group]__ > __Settings__ > __Host Lists Assignment__. See the [Host Lists Assignment](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/hostlistsassignment.md) topic for additional information.
+  - Connection Profile Selected –  __[Job Group]__ > __Settings__ > __Connection__. See the [Connection Node](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/group/connection.md) topic for additional information.
 - Job Level
-  - Host List Assigned – __[Job]__ > __Configure__ > __Hosts__. See the [Hosts Node](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information.
-  - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the [Connection Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/connection.md) topic for additional information.
+  - Host List Assigned – __[Job]__ > __Configure__ > __Hosts__. See the [Hosts Node](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information.
+  - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the [Connection Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/connection.md) topic for additional information.

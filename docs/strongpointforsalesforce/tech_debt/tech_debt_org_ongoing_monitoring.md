@@ -12,4 +12,4 @@ It is easy to build a comprehensive dashboard on the __Control Logs__ object in 
 
 To learn more about simplifying governance and audit with Enterprise Compliance tools, reach out to your Customer Success Manager or Account Executive.
 
-__Next Technical Debt Topic:__ [Change Enablement](/docs/product_docs/strongpointforsalesforce/tech_debt/tech_debt_org_change_enablement.md)
+__Next Technical Debt Topic:__ [Change Enablement](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_change_enablement.md)

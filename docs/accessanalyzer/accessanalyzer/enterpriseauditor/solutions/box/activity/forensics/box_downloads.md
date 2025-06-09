@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box\_Downloads__ > __Co
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_Downloads Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/downloadsanalysis.png)
+![Analysis Tasks for the Box_Downloads Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/downloadsanalysis.png)
 
 The following analysis tasks are selected by default:
 

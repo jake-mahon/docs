@@ -2,7 +2,7 @@
 
 The Host Inventory node is for selecting what information to collect from the target host during the host inventory process, for allocating console resources to the host inventory process, and for setting what out-of-the box host lists are visible in the Host Management node.
 
-![Host Inventory Settings page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostinventory.png)
+![Host Inventory Settings page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/hostinventory.png)
 
 In the Inventory Items section, there are four program property groups:
 
@@ -41,7 +41,7 @@ In the Performance Tuning section, there are five settings which allocate consol
     - Days
     - Weeks
     - Months
-  - This setting affects the Inventory page options on the Host Discovery Wizard. See the [Host Discovery Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/overview.md) topic for additional information.
+  - This setting affects the Inventory page options on the Host Discovery Wizard. See the [Host Discovery Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/overview.md) topic for additional information.
 
 The Desired Host List Views section at the bottom contains all available host lists, both out-of-the-box lists and custom-created lists. There are seven Default Hosts Lists which correspond to the solutions that target them. During the host inventory process, hosts which meet the filter criteria for these default lists are automatically populated into that host list. A checkmark in front of the host list indicates that the list is visible in the __Host Management__ > __All Hosts__ node.
 
@@ -55,7 +55,7 @@ The seven default lists are auto-populated during the host inventory process bas
 
 The __AD__ Host List can be expanded and contains five sub-groups utilized by the Active Directory Solution and the Active Directory Inventory Solution:
 
-![AD Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/ad.png)
+![AD Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/ad.png)
 
 The sub-groups are:
 
@@ -69,7 +69,7 @@ The sub-groups are:
 
 The __ALL WINDOWS HOSTS__ Host List is utilized primarily by the Windows Solution.
 
-![ALL WINDOWS HOSTS Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/allwindowshosts.png)
+![ALL WINDOWS HOSTS Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/allwindowshosts.png)
 
 There are no sub-groups for ALL WINDOWS HOSTS.
 
@@ -77,7 +77,7 @@ There are no sub-groups for ALL WINDOWS HOSTS.
 
 The __DG__ Host List can be expanded and contains three sub-groups utilized by the Data Access Governance for File System Solution.
 
-![DG Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/dg.png)
+![DG Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/dg.png)
 
 The sub-groups are:
 
@@ -89,7 +89,7 @@ The sub-groups are:
 
 The __EXCHANGE__ Host List can be expanded and contains six sub-groups utilized by the Exchange Solution. Four of these sub-groups can also be expand.
 
-![EXCHANGE Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.png)
+![EXCHANGE Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/exchange.png)
 
 The sub-groups are:
 
@@ -106,7 +106,7 @@ The sub-groups are:
 
 The __SQL SERVERS__ Host List is utilized primarily by the SQL Solution.
 
-![SQL Servers Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sqlservers.png)
+![SQL Servers Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sqlservers.png)
 
 There are no sub-groups for SQL SERVERS.
 
@@ -114,7 +114,7 @@ There are no sub-groups for SQL SERVERS.
 
 The __Windows Server__ Host List can be expanded and contains three sub-groups utilized by the Windows Solution.
 
-![Windows Server Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/windowsserver.png)
+![Windows Server Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/windowsserver.png)
 
 The sub-groups are:
 
@@ -126,7 +126,7 @@ The sub-groups are:
 
 The __Work Station__ Host List can be expanded and contains one sub-group utilized by the Windows Solution.
 
-![Work Station Host List](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/workstation.png)
+![Work Station Host List](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/workstation.png)
 
 The single sub-group is:
 

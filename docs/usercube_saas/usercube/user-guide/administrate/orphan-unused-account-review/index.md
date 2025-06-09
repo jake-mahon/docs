@@ -10,19 +10,19 @@ The review of unused and orphaned accounts is essential to solve security and li
 
 A list of all orphaned accounts can be found on some entity type pages. Said pages can be accessed through the menu items on the left of the home page, in the __Connectors__ section.
 
-![Home - Entity Types](/static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
+![Home - Entity Types](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
 
 These entity type pages can be configured via XML to customize all displayed columns and available filters, especially the __Orphan__ filter that spots uncorrelated resources, and the __Owner / Resource Type__ column that shows the owner of each resource. See the[
 Create Menu Items
-](/docs/product_docs/usercube_saas/usercube/integration-guide/ui/how-tos/create-menu-items/index.md) topic for additional information on customization.
+](/docs/usercube_saas/usercube/integration-guide/ui/how-tos/create-menu-items/index.md) topic for additional information on customization.
 
-![Owner / Resource Type Column](/static/img/product_docs/usercube/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.png)
+![Owner / Resource Type Column](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.png)
 
 In the __Orphan__ field, select __Yes__ to see all existing resources without an owner.
 
 In addition, filters can be configured in the reporting module to list orphaned accounts. See the [
 Generate Reports
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display __User__ and __AD User__ (nominative) with a filter on void user's display names.
+](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display __User__ and __AD User__ (nominative) with a filter on void user's display names.
 
 __NOTE:__  Some accounts are considered orphaned because of an error in the account data or assignment rule.  
 For an entity that is never the target of a resource type, the concept of an orphan does not apply because the __Owner / Resource Type__ column will be hidden.   
@@ -62,11 +62,11 @@ return ((resource.lastLogonTimestamp == null) ||
 
 Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the filters in the query module, based on said property. See the [
 Generate Reports
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md) topic for additional information.
 
 The previous example about the AD's __isUnused__ property can be complemented in the query module by displaying this property alongside users' __EmployeeId__.
 
-![Query of Unused Accounts](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.png)
+![Query of Unused Accounts](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.png)
 
 ## Participants and Artifacts
 
@@ -74,17 +74,17 @@ At this point, integrators should have all the elements they need to operate as 
 
 | Input | Output |
 | --- | --- |
-| [ Categorize Resources ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
+| [ Categorize Resources ](/docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
 
 ## Review an Orphaned Account
 
 Review an orphaned account by proceeding as follows:
 
-![Home Page - Resource Reconciliation](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
+![Home Page - Resource Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
 
 __Step 1 –__ Go to the __Resource Reconciliation__ page, accessible from the corresponding section on the home page.
 
-![Resource Reconciliation Page](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
+![Resource Reconciliation Page](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
 
 __Step 2 –__ Select __Unauthorized account__ as the __Workflow State__. Orphaned accounts are those appearing with no owner.
 
@@ -92,13 +92,13 @@ __Step 3 –__ Choose the default resource view or the property view with the to
 
 __Step 4 –__ Click on the line of an account without an owner.
 
-![Select Owner](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.png)
+![Select Owner](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.png)
 
 In the following example, the nominative AD account linked to the email address nathan.smith@acme.com has no owner.
 
 You can __Select owner__ from the list by clicking on the check box.
 
-![Owners List](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.png)
+![Owners List](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.png)
 
 __Step 5 –__ Answer the following questions in order to understand the situation.
 
@@ -117,12 +117,12 @@ __Step 5 –__ Answer the following questions in order to understand the situati
 
 __NOTE:__ We said that useful service accounts must be connected to their owners due to the fact that an orphaned account cannot be certified. .See the [
 Perform Access Certification
-](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/access-certification/index.md) topic for additional information. But a service account must not be linked to a person, for the departure of said person from the company may trigger the loss of the service account.   
+](/docs/usercube_saas/usercube/user-guide/administrate/access-certification/index.md) topic for additional information. But a service account must not be linked to a person, for the departure of said person from the company may trigger the loss of the service account.   
 This is why we create identities with __Application__ as their __UserType__, each application-identity linked to a person supposed to manage it. Thus,service accounts must be connected to application identities, themselves owned by people. That way, if the owner of the application leaves, the application-identity is not deleted, and the service accounts it owns are not deprovisioned.
   
 See the schema below this note.
 
-![Schema - Service Accounts](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.png)
+![Schema - Service Accounts](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.png)
 
 __Step 6 –__ Select the appropriate owner or no owner at all, according to the previous analysis.
 
@@ -138,17 +138,17 @@ By taking the necessary steps the orphan account will be delete or authorized.
 
 By default, non-conforming assignments are listed by resource. It is possible to click on a resource and then access the list of all unreconciled properties for said resource.
 
-![Resource View](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.png)
+![Resource View](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.png)
 
 It can be helpful to have the non-conforming assignments regrouped by property, as some of the changes can be similar, so very likely to be validated by the same user. This is why a property view can be enabled by clicking on the __Property View__ toggle at the top right corner.
 
 Once enabled, select a resource type to display all unreconciled properties linked to said resource type. In addition, select a property to display only the unreconciled properties linked to said resource type and property.
 
-![Property View](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.png)
+![Property View](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.png)
 
 The review process is the same with both views. However with property view, reviewers don't click on a given line, but choose a decision directly on the left of the property line.
 
-![Bulk Reconcile](/static/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.png)
+![Bulk Reconcile](/img/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.png)
 
 In addition, using property view enables bulk reconciliation to approve the proposed values or keep the current values for several resources simultaneously.
 
@@ -156,6 +156,6 @@ In addition, using property view enables bulk reconciliation to approve the prop
 
 In order to verify the process, check that the line for your reviewed item has been removed from the __Resource Reconciliation__ screen.
 
-![View Permissions Tab](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
 
 In addition, if you reconciled an orphaned account with an owner, check the user's permissions to see said account.

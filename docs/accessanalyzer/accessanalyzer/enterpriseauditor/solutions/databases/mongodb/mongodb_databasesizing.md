@@ -4,7 +4,7 @@ Navigate to the __Jobs > Databases > MongoDB > Configuration > MongoDB\_Datab
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/databasesizingjobanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/databasesizingjobanalysis.png)
 
 The default analysis tasks are:
 

@@ -5,7 +5,7 @@ The Filter S3 Objects page provides the options to filter which objects stored i
 - Collect S3
 - Collect SDD Data
 
-![Filter S3 Objects page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/filters3objects.png)
+![Filter S3 Objects page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/filters3objects.png)
 
 Use the buttons to customize the filter list:
 
@@ -17,7 +17,7 @@ Use the buttons to customize the filter list:
 
 The Select a Bucket window shows the available buckets in the AWS instance.
 
-![Select a bucket window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/selectabucket.png)
+![Select a bucket window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/aws/selectabucket.png)
 
 Select from the available buckets and click __OK__ to add them to the Filter S3 Objects page.
 
@@ -25,7 +25,7 @@ Select from the available buckets and click __OK__ to add them to the Filter S3 
 
 The Add Custom Filter window allows a custom filter to be configured.
 
-![Add Custom Filter window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/customfilter.png)
+![Add Custom Filter window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/customfilter.png)
 
 Configure a custom filter using the following format:
 

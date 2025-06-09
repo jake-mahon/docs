@@ -18,8 +18,8 @@ If you plan to audit non-owner mailbox access within your Exchange Online organi
 
 Perform the following configuration procedures:
 
-- Prepare a Data Collecting Account as described in the [Permissions for Exchange Online Auditing](/docs/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/permissions.md) topic
-- Configure required protocols and ports, as described in the [Exchange Online Ports](/docs/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/ports.md) topic
+- Prepare a Data Collecting Account as described in the [Permissions for Exchange Online Auditing](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/permissions.md) topic
+- Configure required protocols and ports, as described in the [Exchange Online Ports](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/ports.md) topic
 
 ## Monitored Object Types and Attributes
 

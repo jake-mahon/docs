@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Unix__ > __3.Sharing__ > __UX\_Sa
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_Samba Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/sharing/sambaanalysis.png)
+![Analysis Tasks for the UX_Samba Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/sharing/sambaanalysis.png)
 
 The default analysis tasks are:
 

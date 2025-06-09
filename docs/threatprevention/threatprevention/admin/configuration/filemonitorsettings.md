@@ -6,7 +6,7 @@ Follow the steps to configure file system monitoring.
 
 __Step 1 –__ Click __Configuration__ > __File Monitor Settings__ on the menu; the File Monitor Settings window opens. This window is only available to Threat Prevention administrators.
 
-![File Monitor Settings window](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/filemonitorsettings.png)
+![File Monitor Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/filemonitorsettings.png)
 
 __Step 2 –__ Enable or disable the following options:
 
@@ -31,9 +31,9 @@ __Step 1 –__ Click __Configuration__ > __File Monitor Settings__ on the menu t
 
 __Step 2 –__ Check the __Exclude selected accounts__ checkbox and then click __accounts__. The Edit Collection window opens.
 
-![File Monitor Settings > Edit Collection window (for accounts)](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.png)
+![File Monitor Settings > Edit Collection window (for accounts)](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.png)
 
-__Step 3 –__ Use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for and select AD accounts.
+__Step 3 –__ Use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for and select AD accounts.
 
 __Step 4 –__ Click __OK__ to save your changes.
 
@@ -51,7 +51,7 @@ __Step 1 –__ Click __Configuration__ > __File Monitor Settings__ on the menu t
 
 __Step 2 –__ Check the __Exclude selected processes__ checkbox and then click __processes__. The Edit Collection window opens.
 
-![File Monitor Settings > Edit Collection window (for processes)](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionprocesses.png)
+![File Monitor Settings > Edit Collection window (for processes)](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionprocesses.png)
 
 __Step 3 –__ Use the Items textbox to enter process names. You must enter a process name exactly as is; for example, as it appears on the Details tab of Windows Task Manager.
 

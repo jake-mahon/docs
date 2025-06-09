@@ -20,4 +20,4 @@ The reference ID for the text message.
 
 See Also
 
-- [ShortMessage class](/docs/product_docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [ShortMessage class](/docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md)

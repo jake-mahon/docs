@@ -8,6 +8,6 @@ __Step 1 –__ Start the Auditor client and navigate to Search.
 
 __Step 2 –__ Click __Search__.
 
-![radius](/static/img/product_docs/auditor/auditor/addon/radius/radius.jpg)
+![radius](/img/product_docs/auditor/auditor/addon/radius/radius.jpg)
 
 __NOTE:__ You might want to apply a filter to narrow down your search results to the RADIUS Logon object type only.

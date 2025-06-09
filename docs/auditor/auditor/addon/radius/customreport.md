@@ -14,6 +14,6 @@ __NOTE:__ The user running the script must be a member of the __Netwrix Auditor 
 
 After running the script, the RADIUS server logons since yesterday custom report appears in __Reports__ > __Custom__. You can access the search instantly to receive it on a regular basis.
 
-![radiusfilters](/static/img/product_docs/auditor/auditor/addon/radius/radiusfilters.png)
+![radiusfilters](/img/product_docs/auditor/auditor/addon/radius/radiusfilters.png)
 
 Clicking the saved search tile opens the search with preset filters, which shows RADIUS logon activity data for 2 days (yesterday and today).

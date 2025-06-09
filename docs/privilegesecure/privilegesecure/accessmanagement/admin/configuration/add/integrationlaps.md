@@ -14,7 +14,7 @@ __Step 1 –__ Navigate to the Configuration > Integration Connectors.
 
 __Step 2 –__ In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add a LAPS Vault connector](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addlaps.png)
+![Add a LAPS Vault connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addlaps.png)
 
 __Step 3 –__ Enter the following information:
 

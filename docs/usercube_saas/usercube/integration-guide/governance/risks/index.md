@@ -6,27 +6,27 @@ The Risk Management module provides tools for identifying assignments of entitle
 
 A [
 Risk
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) describes a sensitive situation of entitlement assignments that needs to be monitored.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) describes a sensitive situation of entitlement assignments that needs to be monitored.
 
 Risk management is essential to auditing. End-users can define models of risks, assigned to identities based on their entitlement assignments. This action identifies identities whose entitlement landscape might pose a threat or a surface of attack. The identified risks for a given identity inform the auditor about the exact nature of the threat to help making decisions and finding methods of remediation.
 
-To identify the identities that represent the highest risk, Identity Manager computes a risk score for all identities, based on both the roles already assigned and the roles that are subject of the current request. The higher the score, the higher the threat. The identities with the highest risk scores are the priority of the next [Access Certification](/docs/product_docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) campaign.
+To identify the identities that represent the highest risk, Identity Manager computes a risk score for all identities, based on both the roles already assigned and the roles that are subject of the current request. The higher the score, the higher the threat. The identities with the highest risk scores are the priority of the next [Access Certification](/docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) campaign.
 
 See the [
 Manage Risks
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/risk-management/index.md)topic for additional information on how to use the risk management module to identify entitlement assignments that pose a security risk.
+](/docs/usercube_saas/usercube/user-guide/optimize/risk-management/index.md)topic for additional information on how to use the risk management module to identify entitlement assignments that pose a security risk.
 
 ## Risk Definition
 
 A [
 Risk
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) is an object that describes a sensitive situation of assignments of entitlements.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) is an object that describes a sensitive situation of assignments of entitlements.
 
 The assignment of a risk to an identity highlights, for a potential auditor, the need to closely reconsider said the assignments of said identity.
 
 A risk is always:
 
-- part of a [Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
+- part of a [Policy](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
 - assigned to identities belonging to a specific entity type that was decided during the risk creation;
 - organized inside a type;
 - linked to an exemption policy.
@@ -48,25 +48,25 @@ All risks are assigned an exemption policy that defines the behavior of Identity
 
 Risk-triggering permission requests can be forbidden with the blocking exemption policy. If at least one of the detected risks in the requested entitlement set has the blocking exemption policy, then Identity Manager does not allow the set to be requested at all. A message is displayed and the request must be cancelled:
 
-![Exemption Policy - Blocking](/static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_blocking_v522.png)
+![Exemption Policy - Blocking](/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_blocking_v522.png)
 
 ### Approval Required
 
 Yet, instead of being unilaterally forbidden, risk-triggering permission requests can be authorized with an additional role review approval with the approval required exemption policy. If at least one of the detected risks in the requested entitlement set has the approval required exemption policy, then Identity Manager adds a step where this new set must be reviewed by a knowledgeable user like a security officer. A message is displayed and the request can be continued or cancelled:
 
-![Exemption Policy - Approval Required](/static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_requiredapproval_v522.png)
+![Exemption Policy - Approval Required](/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_requiredapproval_v522.png)
 
 If the request is performed, then a line appears on the __Role Review__ screen.
 
 The workflow state of said request is ```Manual```, ```Pending approval (risks)``` and shows the following risk icon.
 
-![Home Page - Role Review](/static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskicon_v522.svg)
+![Home Page - Role Review](/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskicon_v522.svg)
 
 ### Warning
 
 Risk-triggering permissions can also be allowed with only a warning with the warning exemption policy. If all detected risks in the requested entitlement set has the warning exemption policy, then Identity Manager displays a message and the request can be continued or cancelled:
 
-![Exemption Policy - Warning](/static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_warning_v522.png)
+![Exemption Policy - Warning](/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_warning_v522.png)
 
 ### Upon Profile
 
@@ -86,13 +86,13 @@ Like in the example below, the two permissions can be chained together. For the 
 
 [
 Risk
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) are assigned to resources manually by a knowledgeable user or automatically, by the [Evaluate Policy](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) are assigned to resources manually by a knowledgeable user or automatically, by the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
 When a risk is assigned to a resource, a new identified risk is created under the ```UP_IdentifiedRisks``` table.
 
 Automatic assignment of risks is based on [
 Risk
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) rules. For each new fine-grained assignment on a resource, risk rules are applied. If one of the rules matches the resource state, the related risks are assigned to the resource. Those rules are themselves based on fine-grained entitlements, such as an Active Directory account or group membership, modeled by the navigation rules within Identity Manager. See the [Resource Type](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) rules. For each new fine-grained assignment on a resource, risk rules are applied. If one of the rules matches the resource state, the related risks are assigned to the resource. Those rules are themselves based on fine-grained entitlements, such as an Active Directory account or group membership, modeled by the navigation rules within Identity Manager. See the [Resource Type](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 A risk rule states that a risk is assigned to a resource if the resource has one or several specific fine-grained entitlements. The number of triggering entitlements depends on the risk type. For example, the segregation-of-duties risks depends on at least two entitlements. The other types of risk depend on one or more entitlements.
 
@@ -106,7 +106,7 @@ This is the way:
 
 1. Choose an [
    Entity Type
-   ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) of which the resource-identity could be owner.
+   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) of which the resource-identity could be owner.
 2. Choose a navigation property of that entity type.
 3. Choose a value for that navigation property. The value would be a resource from the unified resource repository.
 
@@ -116,12 +116,12 @@ This final value is a fine-grained entitlement, linked to the owner resource-ide
 
 Once [
 Risk
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) are assigned to identities, Identity Manager computes a risk score for each relevant identity.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md) are assigned to identities, Identity Manager computes a risk score for each relevant identity.
 
-This score allows an auditor to prioritize the [Access Certification](/docs/product_docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) campaign. The identity with the highest risk score poses a more serious security threat and has to be handled first.
+This score allows an auditor to prioritize the [Access Certification](/docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) campaign. The identity with the highest risk score poses a more serious security threat and has to be handled first.
 
 During access certification, assignments that are responsible for triggering the risk will be examined and then, kept or discarded.
 
 The risk score computation is performed by the risk score task.
 
-![Compute Risk Score Task](/static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskcomputetask_v522.png)
+![Compute Risk Score Task](/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskcomputetask_v522.png)

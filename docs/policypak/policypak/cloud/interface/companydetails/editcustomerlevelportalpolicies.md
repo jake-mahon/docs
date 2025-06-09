@@ -2,7 +2,7 @@
 
 Customer-level portal policies are only available for admins with the __Authentication Options Admin__ role.
 
-![web_interface_and_controls_102_624x172](/static/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_102_624x172.png)
+![web_interface_and_controls_102_624x172](/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_102_624x172.png)
 
 Someone with this role may set the following values:
 
@@ -10,4 +10,4 @@ Someone with this role may set the following values:
 - Require automatic logoff on idle: The portal will automatically log off all admins at 15 minutes (with a several minute countdown timer).
 - Set email-based 2Fa OTP lifetime: If email 2FA is used, the one-time password has a lifetime of 10 minutes. This can be changed here.
 
-![web_interface_and_controls_103_625x304](/static/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_103_625x304.png)
+![web_interface_and_controls_103_625x304](/img/product_docs/policypak/policypak/cloud/interface/companydetails/web_interface_and_controls_103_625x304.png)

@@ -14,23 +14,23 @@ C:\WINDOWS\system32\cmd.exe /d /c "C:\Program Files (x86)\Adobe\Acrobat 2017\Acr
 
 To allow the extensions to be installed, create a New Executable Policy for each extension that is being blocked. This can be done on either the Computer or User side, depending on who is a member of the OU.
 
-![700_1_image-20211111230736-1](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_1_image-20211111230736-1.png)
+![700_1_image-20211111230736-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_1_image-20211111230736-1.png)
 
 __Step 1 –__ Create a Combo Rule.
 
-![700_2_image-20211111230736-2](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_2_image-20211111230736-2.png)
+![700_2_image-20211111230736-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_2_image-20211111230736-2.png)
 
 __Step 2 –__ Select __Path__, __Command-line arguments__ and __Apply to child processes__.
 
-![700_3_image-20211111230736-3](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_3_image-20211111230736-3.png)
+![700_3_image-20211111230736-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_3_image-20211111230736-3.png)
 
 __Step 3 –__ Under Path Condition, add file ```%SYSTEMROOT%\System32\cmd.exe```.
 
-![700_4_image-20211111230736-4](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_4_image-20211111230736-4.png)
+![700_4_image-20211111230736-4](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_4_image-20211111230736-4.png)
 
 __Step 4 –__ Under Command-line Arguments, select __Strict equality__; check __Ignore arguments case__; under Arguments, we are going to take the first part of the installation command, after ```cmd.exe```, and replace the last part with asterisks.
 
-![700_5_image-20211111230736-5](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_5_image-20211111230736-5.png)
+![700_5_image-20211111230736-5](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_5_image-20211111230736-5.png)
 
 ```
 /d /c "C:\Program Files (x86)\Power Automate Desktop\PAD.EdgeMessageHost.exe" chrome-extension://*/*
@@ -42,8 +42,8 @@ __Step 4 –__ Under Command-line Arguments, select __Strict equality__; check _
 
 __Step 5 –__ Set action as .Allow and Log.
 
-![700_6_image-20211111230736-6](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_6_image-20211111230736-6.png)
+![700_6_image-20211111230736-6](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_6_image-20211111230736-6.png)
 
 __Step 6 –__ Rename, set ILT if required and click __Finish__.
 
-![700_7_image-20211111230736-7](/static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_7_image-20211111230736-7.png)
+![700_7_image-20211111230736-7](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_7_image-20211111230736-7.png)

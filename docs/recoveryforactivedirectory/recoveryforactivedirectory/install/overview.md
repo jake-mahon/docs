@@ -14,17 +14,17 @@ The following services are also installed on the Recovery Application Server:
 
 To install the application, see the following topics:
 
-- [Install the Application](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/application.md)
-- [Configuration Utility](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.md)
-- [Install the RSAT Extension](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/installation.md)
+- [Install the Application](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/application.md)
+- [Configuration Utility](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.md)
+- [Install the RSAT Extension](/docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/installation.md)
 
-Prior to installing, ensure that all prerequisites have been met, as described in the [Requirements ](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/overview.md)topic.
+Prior to installing, ensure that all prerequisites have been met, as described in the [Requirements ](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/overview.md)topic.
 
 ## Licensing
 
 Recovery for Active Directory comes with a temporary 7-day license. Please contact the Netwrix sales representative for a license.
 
-See the [Licensing Page](/docs/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/licensing.md) topic
+See the [Licensing Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/licensing.md) topic
 to license the product.
 
 ## Software Download

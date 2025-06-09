@@ -9,4 +9,4 @@ Dropbox reports fall into the following categories:
 
 The following report is available at the __Dropbox__ node:
 
-- [Sensitive Content Summary Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/sensitivecontentsummary.md)

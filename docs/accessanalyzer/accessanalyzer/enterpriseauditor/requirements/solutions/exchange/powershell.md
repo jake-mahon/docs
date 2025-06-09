@@ -8,7 +8,7 @@ In addition to the permissions required by the ExchangePS Data Collector, the Co
 
 - 2. CAS Metrics
 
-  - This job group also requires remote connection permissions for the SMARTLog Data Collector. See the [Exchange Remote Connections Permissions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for additional information.
+  - This job group also requires remote connection permissions for the SMARTLog Data Collector. See the [Exchange Remote Connections Permissions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for additional information.
 - 3. Databases
 
   - This job group also requires permissions for the Exchange2K Data Collector, which is MAPI-based and has additional requirements
@@ -20,7 +20,7 @@ In addition to the permissions required by the ExchangePS Data Collector, the Co
   - This job group also requires permissions for the ExchangePublicFolder Data Collector, which is MAPI-based and has additional requirements
 - 8. Exchange Online
 
-  - This job group uses Modern Authentication to target Exchange Online. See the [Exchange Online Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md) topic for additional information.
+  - This job group uses Modern Authentication to target Exchange Online. See the [Exchange Online Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md) topic for additional information.
 
 ## Permissions Explained
 
@@ -58,15 +58,15 @@ There are five different scoping options within this data collector. Since not a
 
 No Scoping
 
-This option will gather information about the entire Exchange Organization. When using the applet, the data collector will gather information about the Exchange Forest in which the Access Analyzer Console currently resides. For Remote PowerShell, the data collector will gather information about the Exchange Organization to which the Remote PowerShell connection was made. This refers to the server entered in the Client Access Server (CAS) field of the global configuration from the __Settings__ > __Exchange__ node or on the Scope Page of the data collector wizard. See the [ExchangePS: Scope](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic for additional information.
+This option will gather information about the entire Exchange Organization. When using the applet, the data collector will gather information about the Exchange Forest in which the Access Analyzer Console currently resides. For Remote PowerShell, the data collector will gather information about the Exchange Organization to which the Remote PowerShell connection was made. This refers to the server entered in the Client Access Server (CAS) field of the global configuration from the __Settings__ > __Exchange__ node or on the Scope Page of the data collector wizard. See the [ExchangePS: Scope](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic for additional information.
 
 Scope by Database
 
-This option will gather information about any databases which are chosen. When using the applet, the data collector will return databases in the Scope by DB page of the data collector wizard for the Exchange Organization in which the Access Analyzer Console currently resides, as well as, only return information about those databases. For Remote PowerShell, the data collector will return databases in the Scope by DB page of the data collector wizard for the Exchange Forest, as well as, only return information about those databases. See the [ExchangePS: Scope by DB](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic for additional information.
+This option will gather information about any databases which are chosen. When using the applet, the data collector will return databases in the Scope by DB page of the data collector wizard for the Exchange Organization in which the Access Analyzer Console currently resides, as well as, only return information about those databases. For Remote PowerShell, the data collector will return databases in the Scope by DB page of the data collector wizard for the Exchange Forest, as well as, only return information about those databases. See the [ExchangePS: Scope by DB](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic for additional information.
 
 Scope by Mailbox
 
-This option will gather information about any mailboxes which are chosen. When using the applet, the data collector will return mailboxes in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest in which the Access Analyzer Console currently resides, as well as, only return information about those mailboxes. For Remote PowerShell, the data collector will return mailboxes in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest, as well as, only return information about those mailboxes. See the [ExchangePS: Scope by Mailboxes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic for additional information.
+This option will gather information about any mailboxes which are chosen. When using the applet, the data collector will return mailboxes in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest in which the Access Analyzer Console currently resides, as well as, only return information about those mailboxes. For Remote PowerShell, the data collector will return mailboxes in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest, as well as, only return information about those mailboxes. See the [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic for additional information.
 
 Scope by Server
 
@@ -74,7 +74,7 @@ This option will gather information about objects which reside on the chosen ser
 
 Scope by Public Folder
 
-This option will gather information about any public folders which are chosen. When using the applet, the data collector will return public folders in the Scope by Public Folders page of the data collector wizard for the Exchange Forest in which the Access Analyzer Console currently resides, as well as, only return information about those public folders. For Remote PowerShell, the data collector will return public folders in the Scope by Public Folders page of the data collector wizard for the Exchange Forest, as well as, only return information about those public folders. See the [ExchangePS: Scope by Public Folders](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic for additional information.
+This option will gather information about any public folders which are chosen. When using the applet, the data collector will return public folders in the Scope by Public Folders page of the data collector wizard for the Exchange Forest in which the Access Analyzer Console currently resides, as well as, only return information about those public folders. For Remote PowerShell, the data collector will return public folders in the Scope by Public Folders page of the data collector wizard for the Exchange Forest, as well as, only return information about those public folders. See the [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic for additional information.
 
 ## Enable Remote PowerShell for ExchangePS Data Collector
 
@@ -100,11 +100,11 @@ Once Remote PowerShell has been enabled on an Exchange Server in the environment
 
 __Step 1 –__ On the server where Remote PowerShell was enabled, open the Internet Information Services (IIS) Manager.
 
-![IIS Authentication Open Feature](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanager.png)
+![IIS Authentication Open Feature](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanager.png)
 
 __Step 2 –__ Traverse to the __PowerShell__ Virtual Directory under the __Default Web Site__. Select __Authentication__ and click __Open Feature__.
 
-![IIS Enable Windows Authentication](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.png)
+![IIS Enable Windows Authentication](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.png)
 
 __Step 3 –__ Right-click on __Windows Authentication__ and select __Enable__.
 
@@ -118,7 +118,7 @@ __Step 1 –__ Within the Exchange Admin Center, navigate to the permissions sec
 
 __Step 2 –__  Add a new role group by clicking on the + button, and the New Role Group window opens.
 
-![New role group window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/rolegroup.png)
+![New role group window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/rolegroup.png)
 
 __Step 3 –__ Configure the new role group with the following settings:
 

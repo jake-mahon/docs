@@ -5,7 +5,7 @@ The Admin Center dashboard is a data visualization tool that displays widgets fo
 In Admin Center, click __Dashboard__ in the left pane. The dashboard displays the following cards with aggregated data from all identity stores built on Active Directory, Microsoft Entra ID, Google Workspace, and Generic
 LDAP, as well as individual identity stores.
 
-![dashboard](/static/img/product_docs/groupid/groupid/admincenter/general/dashboard.png)
+![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.png)
 
 The dashboard displays the following information:
 
@@ -47,7 +47,7 @@ Information is displayed individually for each identity store. Select an identit
 
 This card displays the count for failed notifications, i.e., the Directory Manager-generated notifications that could not be delivered for any reason, such as when the SMTP server is down or the recipient’s address is incorrect.
 
-Click __View All__ to go to the __Notification Queue__ page, where you can view the failed notifications in detail. See the [Manage the Notification Queue](/docs/product_docs/groupid/groupid/admincenter/notification/queue.md) topic.
+Click __View All__ to go to the __Notification Queue__ page, where you can view the failed notifications in detail. See the [Manage the Notification Queue](/docs/groupid/groupid/admincenter/notification/queue.md) topic.
 
 ## Upcoming Schedules
 
@@ -62,7 +62,7 @@ Select an identity store from the list next to the card name to view the upcomin
 
 Click __View All__ to view a list of the upcoming schedules with their names, the next date and time of schedule run, and the identity store they belong to.
 
-![image38](/static/img/product_docs/groupid/groupid/admincenter/general/image38.png)
+![image38](/img/product_docs/groupid/groupid/admincenter/general/image38.png)
 
 ## Replication Status of Identity Stores
 
@@ -79,7 +79,7 @@ This card employs a bar graph to display the enrollment stats and trends for an 
 Consider the following:
 
 - You can view enrollment data for an identity store individually or view aggregated data for all identity stores in Directory Manager. Select an identity store from the list next to the card name to view the enrollment data for it or select _All Identity Stores_ to view the data for all identity stores.
-- Hover the mouse over a bar to view the number of users enrolled with the specific authentication type. Click a bar to launch the __Helpdesk__ page, that displays a list of users enrolled with that authentication type. See the [View Users' Information](/docs/product_docs/groupid/groupid/admincenter/helpdesk/operation/search.md#View-Users-Information) topic for details on the information displayed for a user. (Notice that the __Filter(s)__ dialog box displays the selected authentication type in the __Enrolled With__ box.)
+- Hover the mouse over a bar to view the number of users enrolled with the specific authentication type. Click a bar to launch the __Helpdesk__ page, that displays a list of users enrolled with that authentication type. See the [View Users' Information](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md#View-Users-Information) topic for details on the information displayed for a user. (Notice that the __Filter(s)__ dialog box displays the selected authentication type in the __Enrolled With__ box.)
 - By default, data is displayed for the last one month. You can view enrollment data for any specific period. Click the tile showing the time period to launch the calendar. Use it to specify a date range to view the data.
 
 ## Auth Summary
@@ -93,14 +93,14 @@ This card employs a pie chart to display the authentication stats and trends for
 The pie chart is highly interactive. You can:
 
 - Hover the mouse over an arc to view the successful or failed authentication attempt count.
-- Click the arc for successful or failed attempts to view successful/failed authentication attempts for each authentication type. Another pie chart appears to display the authentication types used in the authentication attempt. Click this chart to navigate to the __History__ tab of the __Helpdesk__ page to view the logged history for the authentication attempts with the respective authentication type. See the [History in Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
+- Click the arc for successful or failed attempts to view successful/failed authentication attempts for each authentication type. Another pie chart appears to display the authentication types used in the authentication attempt. Click this chart to navigate to the __History__ tab of the __Helpdesk__ page to view the logged history for the authentication attempts with the respective authentication type. See the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic.
 
 Consider the following:
 
 - You can view authentication data for an identity store individually or view aggregated data for all identity stores in Directory Manager. Select an identity store from the list next to the card name to view the auth data for it or select _All Identity Stores_ to view the data for all identity stores.
 - By default, data is displayed for the last one week. You can view authentication data for any specific period. Click the tile showing the time period to launch the calendar. Use it to specify a date range to view the data.
 
-See the [Authentication Policy](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md) topic for a list of supported authentication types.
+See the [Authentication Policy](/docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md) topic for a list of supported authentication types.
 
 ## Activity Summary
 
@@ -117,11 +117,11 @@ Consider the following:
 
 - You can view data for these activities for an identity store individually or view aggregated data for all identity stores in Directory Manager. Select an identity store from the list next to the card name to view the activity summary for it or select
   _All Identity Stores_ to view the data for all identity stores.
-- To view a list of users who used a function on a particular date, click the relevant data point on the function line. A list of users is displayed on the __History__ tab of the __Helpdesk__ page. See the [History in Helpdesk](/docs/product_docs/groupid/groupid/admincenter/helpdesk/history.md) topic. (Notice that the __Filter(s)__ dialog box displays the selected function in the __Action Type__ box.)
+- To view a list of users who used a function on a particular date, click the relevant data point on the function line. A list of users is displayed on the __History__ tab of the __Helpdesk__ page. See the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic. (Notice that the __Filter(s)__ dialog box displays the selected function in the __Action Type__ box.)
 - By default, data is displayed for the last one week. You can view activity summary for any specific period. Click the tile showing the time period to launch the calendar. Use it to specify a date range to view the data.
 - By default, data for all the activities is displayed. Click an activity name at the bottom of the graph to hide its data. The name is struck out, indicating that data for the activity is not depicted on the graph. Click the activity name again to
   display its data on the graph.
 
 __See Also__
 
-- [Navigation](/docs/product_docs/groupid/groupid/admincenter/general/navigation.md)
+- [Navigation](/docs/groupid/groupid/admincenter/general/navigation.md)

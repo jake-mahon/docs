@@ -8,8 +8,8 @@ Product: Policypak Client-Side Extension -- Error 1920. Service Policypak ' Watc
 
 It's likely your Antivirus is preventing Endpoint Policy Manager from operating. We know at least Carbon Black will prevent Endpoint Policy Manager from running unless it's exempted.
 
-For more information [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/product_docs/policypak/policypak/install/antivirus.md).
+For more information [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/policypak/policypak/install/antivirus.md).
 
 Example of error and results in Event log:
 
-![97_1_carbonblack1](/static/img/product_docs/policypak/policypak/troubleshooting/error/install/97_1_carbonblack1.png)
+![97_1_carbonblack1](/img/product_docs/policypak/policypak/troubleshooting/error/install/97_1_carbonblack1.png)

@@ -174,4 +174,4 @@ Permissions are discussed in the following table:
 | 4. | Modify user / group | Enables role members to update the permissions assigned to users and groups on document libraries in the site.  The Type column lists the effective permissions. Role members will only be able to modify the permissions that you enable here. |
 | 5. | Remove user / group | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site. |
 
-NOTE: For more information on role permissions, see the [User Roles in Microsoft Entra ID and Directory Manager ](/docs/product_docs/groupid/groupid/admincenter/identitystore/advsentraid.md#User-Roles-in-Microsoft-Entra-ID-and-Directory-Manager) topic.
+NOTE: For more information on role permissions, see the [User Roles in Microsoft Entra ID and Directory Manager ](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md#User-Roles-in-Microsoft-Entra-ID-and-Directory-Manager) topic.

@@ -8,7 +8,7 @@ The RetrieveNetstat job is uses the TextSearch Data Collector for the following 
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the RetrieveNetstat Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.png)
+![Queries for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.png)
 
 The query for the RetrieveNetstat job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Security Utilities__ > __OpenPortScan__ > __Retr
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the RetrieveNetstat Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.png)
+![Analysis Tasks for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.png)
 
 The default analysis tasks are:
 

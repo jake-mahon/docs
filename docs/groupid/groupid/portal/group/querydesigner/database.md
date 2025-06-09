@@ -12,7 +12,7 @@ The supported external data providers are:
 - Text/CSV
 - SCIM
 
-Before using any of the above external data providers, a data source for the provider must be defined in Admin Center. See the [Create a Data Source](/docs/product_docs/groupid/groupid/admincenter/datasource/create.md) topic.
+Before using any of the above external data providers, a data source for the provider must be defined in Admin Center. See the [Create a Data Source](/docs/groupid/groupid/admincenter/datasource/create.md) topic.
 
 A connection is configured in a data source, Directory Manager portal connects to the external database, retrieves the results, and then queries the directory
 for matching records.

@@ -12,7 +12,7 @@ __Step 2 –__ Modify the filter criteria of the investigation as desired.
 
 __Step 3 –__ Click the Edit option.
 
-![Edit Investigation with Save page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/editinvestigationtm.png)
+![Edit Investigation with Save page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/editinvestigationtm.png)
 
 __Step 4 –__ The Edit option opens the Save Investigation window in edit mode. You can modify the name, description, and folder of the saved investigation. If you save the investigation to a different folder, it will be moved from the original location to the new folder. You can also update the user roles granted ownership and access to the investigation report.
 
@@ -30,7 +30,7 @@ __Step 2 –__ Click the three dots at the top and select __Open as new__. The O
 
 __Step 3 –__ Modify the investigation filter statement and click __Save__. The Save Investigation window is displayed.
 
-![Investigation Open as New option](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationduplicate.png)
+![Investigation Open as New option](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationduplicate.png)
 
 The Name box displays the investigation name with the word "copy" appended to it.
 

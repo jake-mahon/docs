@@ -37,16 +37,16 @@ This section describes the process to configure the Connection Profile and custo
 The provisioned credential must be created with the Exchange Modern Authentication account type. Create a Connection Profile and set the following information on the User Credentials window:
 
 - Select Account Type – Exchange Modern Authentication
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
-- Organization – The primary domain name of the Microsoft Entra tenant being leveraged to make the connection. See the [Identify the Tenant's Name](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
+- Organization – The primary domain name of the Microsoft Entra tenant being leveraged to make the connection. See the [Identify the Tenant's Name](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
 - Email Address – The email address for the mailbox to be leveraged in Exchange Online environment scans. The mailbox must belong to the primary domain used in the Organization field.
-- AppID – Application (client) ID of the Access Analyzer application registered with Microsoft Entra ID. See the [Identify the Client ID](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Client-ID) topic for additional information.
-- Certificate Thumbprint – The thumbprint value of the certificate uploaded to the Microsoft Entra ID application. See the [Upload Self-Signed Certificate](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Upload-Self-Signed-Certificate) topic for additional information.
+- AppID – Application (client) ID of the Access Analyzer application registered with Microsoft Entra ID. See the [Identify the Client ID](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Client-ID) topic for additional information.
+- Certificate Thumbprint – The thumbprint value of the certificate uploaded to the Microsoft Entra ID application. See the [Upload Self-Signed Certificate](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Upload-Self-Signed-Certificate) topic for additional information.
 
 ### Exchange Online Host List
 
 Exchange Online requires a custom host list. The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online.
 
-- The host name must be the domain name of the tenant, for example ```company.onmicrosoft.com```. See the [Identify the Tenant's Name](/docs/product_docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
+- The host name must be the domain name of the tenant, for example ```company.onmicrosoft.com```. See the [Identify the Tenant's Name](/docs/accessanalyzer/accessanalyzer/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
 
-See the [Add Hosts](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom host list.
+See the [Add Hosts](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom host list.

@@ -85,7 +85,7 @@ __Step 1 –__ Check requirements. Make sure the Windows File Servers you want t
 
 __Step 2 –__ Decide on audit data to collect.
 
-- Review the list of objects and attributes that can be monitored by Auditor: See the [File Servers](/docs/product_docs/auditor/auditor/configuration/fileservers/overview.md)topic for additional information.
+- Review the list of objects and attributes that can be monitored by Auditor: See the [File Servers](/docs/auditor/auditor/configuration/fileservers/overview.md)topic for additional information.
 - Plan for the file servers and shares you want to audit:
 - - If you have multiple file shares frequently accessed by a significant number of users, it is reasonable to audit object changes only. Tracking all events may result in too much data written to the audit logs, whereas only some part of it may be of any interest.
   - Audit flags must be set on every file share you want to audit.
@@ -105,9 +105,9 @@ __The following considerations and limitations refer to data collection:__
 __The following considerations and limitations refer to reporting:__
 
 - In the reports and search results, in some cases, Auditor displays not the actual time when the event occurred but data collection time.
-- Auditor may report on several unexpected changes with _who_ (initiator's account) reported as _system_ due to the native Windows File Servers audit peculiarities. If you do not want to see these changes, exclude them from the audit. See the [File Servers](/docs/product_docs/auditor/auditor/configuration/fileservers/overview.md) topic for additional information. For example - mass file removals, when target Windows server generates too many events at a time and the product is unable to parse their sequences correctly.
+- Auditor may report on several unexpected changes with _who_ (initiator's account) reported as _system_ due to the native Windows File Servers audit peculiarities. If you do not want to see these changes, exclude them from the audit. See the [File Servers](/docs/auditor/auditor/configuration/fileservers/overview.md) topic for additional information. For example - mass file removals, when target Windows server generates too many events at a time and the product is unable to parse their sequences correctly.
 - Due to Windows limitations, the _copy/rename/move_ actions on remote file shares may be reported as two sequential actions: copying – as adding a new file and reading the initial file; renaming/moving – as removing the initial file and adding a new file with the same name.
-- To report on _copy_ actions on remote file shares, make sure that audit of successful read operations is enabled. See the [Configure Object-Level Access Auditing](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/objectlevel.md) topic for additional information.
+- To report on _copy_ actions on remote file shares, make sure that audit of successful read operations is enabled. See the [Configure Object-Level Access Auditing](/docs/auditor/auditor/configuration/fileservers/windows/objectlevel.md) topic for additional information.
 
 __Step 4 –__ Apply required audit settings.
 
@@ -128,20 +128,20 @@ You can apply required audit settings to your Windows file servers in one of the
 
 - __Automatically__ when creating a monitoring plan.
 
-  In this case, the audit settings will be applied automatically, then they will be periodically checked and adjusted if necessary. See the [Create a New Monitoring Plan](/docs/product_docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information.
+  In this case, the audit settings will be applied automatically, then they will be periodically checked and adjusted if necessary. See the [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information.
 - __Manually.__ To configure your Windows File Servers for monitoring manually, perform the following procedures:
 
-  - [Configure Object-Level Access Auditing](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/objectlevel.md)
-  - [Configure Local Audit Policies](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/localpolicy.md) or [Configure Advanced Audit Policies](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/advancedpolicy.md)
-  - [Configure Event Log Size and Retention Settings](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/eventlog.md)
-  - [Enable Remote Registry Service](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/remoteregistryservice.md)
-  - [Windows File Server Ports](/docs/product_docs/auditor/auditor/configuration/fileservers/windows/ports.md)
+  - [Configure Object-Level Access Auditing](/docs/auditor/auditor/configuration/fileservers/windows/objectlevel.md)
+  - [Configure Local Audit Policies](/docs/auditor/auditor/configuration/fileservers/windows/localpolicy.md) or [Configure Advanced Audit Policies](/docs/auditor/auditor/configuration/fileservers/windows/advancedpolicy.md)
+  - [Configure Event Log Size and Retention Settings](/docs/auditor/auditor/configuration/fileservers/windows/eventlog.md)
+  - [Enable Remote Registry Service](/docs/auditor/auditor/configuration/fileservers/windows/remoteregistryservice.md)
+  - [Windows File Server Ports](/docs/auditor/auditor/configuration/fileservers/windows/ports.md)
 
 With automatically applied settings, initial SACL configuration for DFS replication links may take longer than with manual configuration — however, automatic configuration will help to minimize the impact on the DFS backlog and replication process in general.
 
-__Step 5 –__ Configure Data Collecting Account. See the [Data Collecting Account](/docs/product_docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information.
+__Step 5 –__ Configure Data Collecting Account. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information.
 
-__Step 6 –__ Configure required protocols and ports. Set up protocols and ports. See the [Dell Data Storage Ports](/docs/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/ports.md) topic for additional information.
+__Step 6 –__ Configure required protocols and ports. Set up protocols and ports. See the [Dell Data Storage Ports](/docs/auditor/auditor/configuration/fileservers/delldatastorage/ports.md) topic for additional information.
 
 ## DFS-Related Constraints
 

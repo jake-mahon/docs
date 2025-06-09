@@ -10,4 +10,4 @@ After setting the policy, reproduce the error.
 
 Inspect the logs from: ```C:\Users\user\AppData\Local\PolicyPak``` and see if your issue has generated any logs and/or obvious errors. Send the logs to support as instructed.
 
-![753_1_img-01_950x545](/static/img/product_docs/policypak/policypak/troubleshooting/license/753_1_img-01_950x545.png)
+![753_1_img-01_950x545](/img/product_docs/policypak/policypak/troubleshooting/license/753_1_img-01_950x545.png)

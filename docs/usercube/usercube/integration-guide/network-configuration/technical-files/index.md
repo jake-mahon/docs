@@ -4,4 +4,4 @@ This section gathers information relative to the technical files that Identity M
 
 - [
   appsettings.connection
-  ](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)
+  ](/docs/usercube/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)

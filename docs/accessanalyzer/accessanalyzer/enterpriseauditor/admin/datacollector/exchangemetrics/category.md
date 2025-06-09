@@ -2,7 +2,7 @@
 
 The Category page is used to identify the type of Exchange Metrics information to retrieve.
 
-![Exchange Metrics Data Collector Wizard Category page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Exchange Metrics Data Collector Wizard Category page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
 
 The ExchangeMetrics Data Collector contains the following query categories:
 

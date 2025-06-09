@@ -2,7 +2,7 @@
 
 The Review History page lists all completed review instances for your resources.
 
-![Review History page](/static/img/product_docs/auditor/access/reviews/entitlementreviews/reviewhistorypage.png)
+![Review History page](/img/product_docs/auditor/access/reviews/entitlementreviews/reviewhistorypage.png)
 
 The information displayed in the table includes:
 
@@ -12,13 +12,13 @@ The information displayed in the table includes:
 - Reviewer Name – Name of the assigned owner who performed the review
 - Status – Icon indicates the decision provided by the Review Administrator: Accept, Decline, Defer, or Waiting. Hover over a status icon to display its tooltip.
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/auditor/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/auditor/access/general/datagrid.md) topic for additional information.
 
 ## Review Details Window
 
 The View Details button at the bottom of the Review History page opens the Review Details window for a resource where changes were recommended.
 
-![Review Details Window](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.png)
+![Review Details Window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.png)
 
 The information displayed in the table includes:
 

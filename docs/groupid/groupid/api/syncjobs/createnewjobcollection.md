@@ -3,7 +3,7 @@
 Using this API you can create a new job collection which is a group of individual jobs that run in a particular order.
 
 See the [Create a Job Collection
-](/docs/product_docs/groupid/groupid/portal/synchronize/collection/create.md)topic for additional information on the Job collection.
+](/docs/groupid/groupid/portal/synchronize/collection/create.md)topic for additional information on the Job collection.
 
 ## Endpoint
 

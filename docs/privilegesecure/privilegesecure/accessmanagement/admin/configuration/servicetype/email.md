@@ -2,7 +2,7 @@
 
 On the Email Services page, add and configure the settings used for email notifications.
 
-![Email Services Page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailservicepage.png)
+![Email Services Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailservicepage.png)
 
 The Email Service page shows details of the selected email service and has the following features:
 
@@ -13,7 +13,7 @@ The Email Service page shows details of the selected email service and has the f
 
 On the Email Settings tab, view and edit the email service settings.
 
-![emailsettingstab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailsettingstab.png)
+![emailsettingstab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailsettingstab.png)
 
 The Email Settings tab has the following features:
 
@@ -28,7 +28,7 @@ The Email Settings tab has the following features:
 
 The Email Queue tab shows all outgoing mail notifications.
 
-![Email Service Queue Tab](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailqueuetab.png)
+![Email Service Queue Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/emailqueuetab.png)
 
 The Email Queue table has the following features:
 

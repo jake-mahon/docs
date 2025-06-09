@@ -6,17 +6,17 @@ Alerts Node
 
 From the Agents node, the right-click menu can be used to install the Agent.
 
-![Agents node - Right-click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/agentsmenu.png)
+![Agents node - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/agentsmenu.png)
 
 | Right-Click Command | Description |
 | --- | --- |
-| Install Agent | Opens the [Deploy Agents Wizard](/docs/product_docs/threatprevention/threatprevention/admin/agents/deploy/overview.md#Deploy-Agents-Wizard) |
+| Install Agent | Opens the [Deploy Agents Wizard](/docs/threatprevention/threatprevention/admin/agents/deploy/overview.md#Deploy-Agents-Wizard) |
 
 Saved ‘Filtered Investigate’ Nodes
 
 From the node of a saved ‘Filtered Investigate’ view, the right-click menu allows you to delete the saved view.
 
-![Saved ‘Filtered Investigate’ Nodes - Right-click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/savedinvestigateviewnode.png)
+![Saved ‘Filtered Investigate’ Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/savedinvestigateviewnode.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ Policies and Templates Nodes
 
 From the Policies and Templates nodes, the right-click menu is limited to adding new folders to the selected section.
 
-![Policies and Templates Nodes - Right-click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/policiestemplatesnodes.png)
+![Policies and Templates Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/policiestemplatesnodes.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -36,7 +36,7 @@ Folder Node
 
 From a Folder node, the right-click menu contains these commands.
 
-![Folder Node - Right-click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/foldermenu.png)
+![Folder Node - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/foldermenu.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -47,13 +47,13 @@ From a Folder node, the right-click menu contains these commands.
 | Remove | Deletes the selected folder |
 | Paste | Pastes a copied policy/template into the selected folder |
 
-__NOTE:__ If the logged in user does not have the __Manage Policies__ permissions for a protected policy, these options are grayed-out. See the [Policies Interface](/docs/product_docs/threatprevention/threatprevention/admin/policies/overview.md) topic for additional information on protection.
+__NOTE:__ If the logged in user does not have the __Manage Policies__ permissions for a protected policy, these options are grayed-out. See the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md) topic for additional information on protection.
 
 <Policy Name> and <Template Name> Nodes
 
 From the node for a specific policy or template, the right-click menu contains these commands.
 
-![<Policy Name> and <Template Name> Nodes - Right-click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/individualpolicytemplatenode.png)
+![<Policy Name> and <Template Name> Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/individualpolicytemplatenode.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -64,13 +64,13 @@ From the node for a specific policy or template, the right-click menu contains t
 | Copy | Copies the selected policy/template |
 | Cut | Copies the selected policy/template. Then it deletes the selected policy/template when the copy is pasted to a new folder. |
 
-__NOTE:__ If the logged in user does not have the Manage Policies permissions for a protected policy, these options are grayed-out. See the [Policies Interface](/docs/product_docs/threatprevention/threatprevention/admin/policies/overview.md) topic for additional information on protection.
+__NOTE:__ If the logged in user does not have the Manage Policies permissions for a protected policy, these options are grayed-out. See the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md) topic for additional information on protection.
 
 Tags Node
 
 From the Tags node, the right-click menu contains these commands.
 
-![Tags Node - Right-click menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/tagsnode.png)
+![Tags Node - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/tagsnode.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -80,7 +80,7 @@ From the Tags node, the right-click menu contains these commands.
 
 From the template within a folder under the Tags node, the right-click menu contains these commands.
 
-![<Template Name> Node under Tags - Right-click menu](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/templatenodeundertags.png)
+![<Template Name> Node under Tags - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/templatenodeundertags.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -90,7 +90,7 @@ From the template within a folder under the Tags node, the right-click menu cont
 
 A right-click menu is also available from the column headers of a data grid.
 
-![Displays the data grid right-click menu. ](/static/img/product_docs/threatprevention/threatprevention/admin/navigation/headerrightclickmenu.png)
+![Displays the data grid right-click menu. ](/img/product_docs/threatprevention/threatprevention/admin/navigation/headerrightclickmenu.png)
 
 It contains the following selections:
 
@@ -106,9 +106,9 @@ It contains the following selections:
 | Hide/Show Group by Box | Hides or shows the Group By box where headers can be dragged-and-dropped to group the data |
 | Group Interval | If grouped by the Time column, use this option to group by time intervals (Day, Month, Year, Smart). Only available from a grouped column header. |
 | Hide This Column | Hides the selected column from the data grid. Hidden columns can be returned to the data grid through the Column Chooser option. |
-| Column Chooser | Opens the [Customization Window](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Customization-Window) where you can add and remove columns from the data grid |
+| Column Chooser | Opens the [Customization Window](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Customization-Window) where you can add and remove columns from the data grid |
 | Best Fit | Changes column width to fit the data within the selected column |
 | Best Fit (all columns) | Changes column width for all columns to fit the data |
-| Filter Editor | Opens the Filter Editor window (see the [Filter Data](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Filter-Data) topic) |
-| Show / Hide Find Panel | Shows or hides the Find Panel, which is the search feature (see the [Search Data](/docs/product_docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Search-Data) topic) |
+| Filter Editor | Opens the Filter Editor window (see the [Filter Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Filter-Data) topic) |
+| Show / Hide Find Panel | Shows or hides the Find Panel, which is the search feature (see the [Search Data](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md#Search-Data) topic) |
 | Hide / Show Auto Filter Row | Hides or shows the Auto Filter Row between the column headers and the first row of event data |

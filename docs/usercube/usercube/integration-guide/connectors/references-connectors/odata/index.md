@@ -4,9 +4,9 @@ This connector exports and fulfills data from/to an [OData](https://www.odata.or
 
 This page is about [
 OData
-](/docs/product_docs/usercube/usercube/integration-guide/connectors/references-packages/odata/index.md).
+](/docs/usercube/usercube/integration-guide/connectors/references-packages/odata/index.md).
 
-![Package: Custom/OData](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.png)
+![Package: Custom/OData](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.png)
 
 ## Overview
 
@@ -26,7 +26,7 @@ This connector extracts all entity sets with all the information needed to rebui
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -86,14 +86,14 @@ This connector requires from the XML configuration:
 
 - An [
   Entity Type Mapping
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
   - with the same identifier as the related entity type;
   - related to the right connector;
   - related to a connection table named ```<Connection>_<ODataEntitySet>```;
   - with properties whose connection columns represent the property's path in the entity, see the configuration example below;
 - An [
   Entity Association Mapping
-  ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
   - with the same identifier as the related entity association;
   - with its ```Column1``` in the format ```UsercubeNav_<NavigationProperty>:<PropertyKey>``` for the related property in the association;
   - with its ```Column2``` in the format ```<NavigationProperty>Of:<PropertyKey>``` for the related property in the association;
@@ -105,7 +105,7 @@ The information contained in the entity types and entity associations does not i
 
 This connector is meant to generate to the [
 Connection
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV file for each entity set provided in the connector's configuration.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV file for each entity set provided in the connector's configuration.
 
 The files' column headers come from the entity type mapping's ```ConnectionColumn``` properties.
 

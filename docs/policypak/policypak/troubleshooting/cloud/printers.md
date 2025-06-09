@@ -16,4 +16,4 @@ Pref Object. It will enable the destination computer to identify the change for 
 
 We've edited the value for Printer's location in the PPC Pref Object.
 
-![747_1_front-desk-retry](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/747_1_front-desk-retry.png)
+![747_1_front-desk-retry](/img/product_docs/policypak/policypak/troubleshooting/cloud/747_1_front-desk-retry.png)

@@ -2,7 +2,7 @@
 
 Netwrix Privilege Secure comes with a temporary 30-day trial license. a banner at the top indicates the expiration date of a license about to expire.
 
-![Dashboard interface showing an expiration banner and pointint to the User Options menu with the About page](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/expirationbanner.png)
+![Dashboard interface showing an expiration banner and pointint to the User Options menu with the About page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/expirationbanner.png)
 
 However, you can import your license file on the About page (User Options > About). An expired license does not necessarily prevent users from logging in. If a license is expired, and the login attempt does not exceed the license count, users will still be able to log in. If a license is expired, and the login attempt does exceed the license count, Privilege Secure will prevent the login.
 
@@ -18,12 +18,12 @@ __Step 2 –__ Click the User icon in the upper-right corner beside your login n
 
 __Step 3 –__ Select About. The About page opens.
 
-![About page showing trial license details](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/triallicensedetails.png)
+![About page showing trial license details](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/triallicensedetails.png)
 
 __Step 4 –__ In the Upload License File section, click Import License.
 
 __Step 5 –__ Navigate to the license file and click Open to import the license.
 
-![About page showing successful upload of a license](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/licenseimportsuccess.png)
+![About page showing successful upload of a license](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/licenseimportsuccess.png)
 
-A message indicates the license file uploaded successfully. The license information displays at the top of the page, and the expiration banner disappears from the top. See the [About Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutpage.md) topic for additional details available on this page.
+A message indicates the license file uploaded successfully. The license information displays at the top of the page, and the expiration banner disappears from the top. See the [About Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/aboutpage.md) topic for additional details available on this page.

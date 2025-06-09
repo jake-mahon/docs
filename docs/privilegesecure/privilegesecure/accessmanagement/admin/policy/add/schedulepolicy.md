@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > __Platforms__ > __Schedule Policies__ pa
 
 __Step 2 –__ In the Schedule Polices list, click the __Plus__ icon.
 
-![Schedule Policy Editor Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.png)
+![Schedule Policy Editor Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.png)
 
 __Step 3 –__ Enter the following information:
 

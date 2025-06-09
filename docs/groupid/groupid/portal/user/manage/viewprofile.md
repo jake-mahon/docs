@@ -2,7 +2,7 @@
 
 To view and update your profile information in the directory, click your profile info in the top right corner and select __See full profile__.
 
-The profile page has the same tabs as the user properties page. Refer to the information for [User Properties](/docs/product_docs/groupid/groupid/portal/user/properties/overview.md) to manage your profile.
+The profile page has the same tabs as the user properties page. Refer to the information for [User Properties](/docs/groupid/groupid/portal/user/properties/overview.md) to manage your profile.
 
 ## User profile validation
 

@@ -17,12 +17,12 @@ All data tables used in Access Analyzer action modules require the presence of c
 The Registry action module is configured through the Registry Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Registry: Target Hosts](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/targethosts.md)
-- [Registry: Operations](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/operations.md)
-- [Registry: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/summary.md)
+- [Registry: Target Hosts](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/targethosts.md)
+- [Registry: Operations](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/operations.md)
+- [Registry: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/registry/summary.md)
 
 The Welcome page gives an overview of the Registry Action Module Wizard. The steps navigation pane contains links to the pages in the wizard. Review the introductory and caution information about the Registry Action Module before proceeding.
 
-![Registry Action Module Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Registry Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 To proceed, click Next or use the Steps navigation pane to open another page in the wizard.

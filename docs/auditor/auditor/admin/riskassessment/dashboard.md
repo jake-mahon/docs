@@ -2,7 +2,7 @@
 
 To access the Risk Assessment dashboard, click the corresponding tile in the main window.
 
-You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](/docs/product_docs/auditor/auditor/admin/navigation/overview.md) and [Customize Home Screen](/docs/product_docs/auditor/auditor/admin/navigation/customizehome.md) topics for additional information.
+You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](/docs/auditor/auditor/admin/navigation/overview.md) and [Customize Home Screen](/docs/auditor/auditor/admin/navigation/customizehome.md) topics for additional information.
 
 The IT risks are grouped into the following categories:
 
@@ -17,13 +17,13 @@ Within each category there are several key metrics identified by Netwrix indust
 - Medium — yellow
 - Low — green
 
-[![dashboard_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/riskassessment/dashboard.png)
+[![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)](/docs/auditor/resources/images/auditor/riskassessment/dashboard.png)
 
 After reviewing general risks assessment results in each category, you can drill-down to details covered in the underlying report. To do so, double-click the selected metric or use the View Report button.
 
 ## Customizing Metrics for Your Organization
 
-Default threshold values for risk levels are set in accordance with recommendations of Netwrixindustry experts, as described in the [How Risk Levels Are Estimated ](/docs/product_docs/auditor/auditor/admin/riskassessment/levels.md) topic. They can be, however, easily customized to reflect your organization's internal security policies and standards. Follow the steps to customize the metrics.
+Default threshold values for risk levels are set in accordance with recommendations of Netwrixindustry experts, as described in the [How Risk Levels Are Estimated ](/docs/auditor/auditor/admin/riskassessment/levels.md) topic. They can be, however, easily customized to reflect your organization's internal security policies and standards. Follow the steps to customize the metrics.
 
 __Step 1 –__ In the dashboard pane, select the metric you need and in the __Actions__ section on the right click Modify thresholds.
 
@@ -31,7 +31,7 @@ __Step 2 –__ In the displayed dialog, specify new threshold values for risk le
 
 __Step 3 –__ Click OK to save the settings and close the dialog.
 
-[![modify_thresholds_thumb_0_0](/static/img/product_docs/auditor/auditor/admin/riskassessment/modify_thresholds_thumb_0_0.png)](/docs/product_docs/auditor/resources/images/auditor/riskassessment/modify_thresholds.png)
+[![modify_thresholds_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/modify_thresholds_thumb_0_0.png)](/docs/auditor/resources/images/auditor/riskassessment/modify_thresholds.png)
 
 Also, for several metrics the Customize risk indicators command is available.
 
@@ -47,6 +47,6 @@ New settings will be applied/risk level thresholds will be refreshed after the n
 
 ## Delivering Assessment Results as a File
 
-You can create a subscription to periodically receive IT risk assessment results by email or using a file share. For that, in the dashboard window click Subscribe and configure the necessary settings. See the [Create Subscriptions](/docs/product_docs/auditor/auditor/admin/subscriptions/create.md) topic for additional information.
+You can create a subscription to periodically receive IT risk assessment results by email or using a file share. For that, in the dashboard window click Subscribe and configure the necessary settings. See the [Create Subscriptions](/docs/auditor/auditor/admin/subscriptions/create.md) topic for additional information.
 
 You can also save current results to a PDF file by using the Export button in the dashboard window.

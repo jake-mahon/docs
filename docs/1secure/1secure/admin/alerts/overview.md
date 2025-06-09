@@ -4,7 +4,7 @@ Alert profiles provide a way to easily group alert configurations and delivery n
 
 To view the alert profiles, navigate to Configuration > Alerts.
 
-![Alert Profiles List](/static/img/product_docs/1secure/1secure/admin/alerts/alertsprofiles.png)
+![Alert Profiles List](/img/product_docs/1secure/1secure/admin/alerts/alertsprofiles.png)
 
 Alert profiles are displayed in the list with the following information:
 
@@ -23,14 +23,14 @@ __Step 1 –__ Navigate to Configuration > Alerts.
 
 __Step 2 –__ Click __Add profile__. The New alert profile pane is displayed.
 
-![New Alert Profile pane](/static/img/product_docs/1secure/1secure/admin/alerts/addalertprofile.png)
+![New Alert Profile pane](/img/product_docs/1secure/1secure/admin/alerts/addalertprofile.png)
 
 __Step 3 –__ Enter a name for the alert profile in the Name field and click __Save__.
 
 The alert profile is added to the list. You can:
 
-- Assign this profile to an organization. You can do this when creating a new organization or editing an organization. See the [Add Organizations](/docs/product_docs/1secure/1secure/admin/organizations/addorganizations.md) topic for additional information.
-- Click the profile to review the list of alerts, enable the desired alerts, make necessary edits for alerts, and set delivery settings for the alert profile. See the [Alerts](/docs/product_docs/1secure/1secure/admin/alerts/alerts.md) topic for additional information.
+- Assign this profile to an organization. You can do this when creating a new organization or editing an organization. See the [Add Organizations](/docs/1secure/1secure/admin/organizations/addorganizations.md) topic for additional information.
+- Click the profile to review the list of alerts, enable the desired alerts, make necessary edits for alerts, and set delivery settings for the alert profile. See the [Alerts](/docs/1secure/1secure/admin/alerts/alerts.md) topic for additional information.
 
 ## Modify the Name of an Alert Profile
 
@@ -69,7 +69,7 @@ __Step 2 –__ Click an alert profile. The alerts for the profile are displayed 
 
 __Step 3 –__ Click the Email icon under Delivery Settings. The Email Delivery Settings pane is displayed.
 
-![Email Delivery Settings pane](/static/img/product_docs/1secure/1secure/admin/alerts/alertsemaildelivery.png)
+![Email Delivery Settings pane](/img/product_docs/1secure/1secure/admin/alerts/alertsemaildelivery.png)
 
 __Step 4 –__ . Toggle the Enabled switch to ON to enable email notifications for the alert profile.
 
@@ -79,4 +79,4 @@ __Step 6 –__ Check the __Email Organization Admins__ check box to send the ale
 
 __Step 7 –__ Click Save.
 
-You may also link to a third-party ticketing system. See the [Third-party systems](/docs/product_docs/1secure/1secure/integration/overview.md) topic for additional information.
+You may also link to a third-party ticketing system. See the [Third-party systems](/docs/1secure/1secure/integration/overview.md) topic for additional information.

@@ -2,7 +2,7 @@
 
 By default, the Activity Monitor keeps the activity logs on the servers where the activity agents are deployed. The Archiving tab provides users with options to enable archiving for the activity agent and move the archived files to another location on the server or to a network location.
 
-![Archiving Tab for Agent Properties](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archiving_tab.png)
+![Archiving Tab for Agent Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archiving_tab.png)
 
 The Days to keep Log files option, listed under the Log Files tab within Host Properties, applies to Archive log files. When the entered number of days entered have passed, the activity logs and Archive log files are deleted. The path to the Archive log files is next to the Configure button, and listed under the Archive Location column within the Agents tab.
 
@@ -11,7 +11,7 @@ Check the Enable archiving for this agent box to enable the options on this tab.
 - Disk Quota — Maximum disk space the agent is allowed to use on the server it is installed on (at least 100MB) – Select the number of megabytes or gigabytes. The default is 5 GB.
 - Archive log files on this computer – Select to archive the logs on the server hosting this activity agent. When archiving is enabled, this is the default selection. Click Configure to open the Configure a network share on this computer window and provide the following information:
 
-![Popup window for Configure a network share on this computer option](/static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archivingtabconfigure.png)
+![Popup window for Configure a network share on this computer option](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/archivingtabconfigure.png)
 
 The options in the Configure a network share on this computer window are:
 

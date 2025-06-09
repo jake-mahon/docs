@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box\_ExternalUserActivi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis for the Box_ExternalUserActivity Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/externaluseractivityanalysis.png)
+![Analysis for the Box_ExternalUserActivity Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/externaluseractivityanalysis.png)
 
 The following analysis tasks are selected by default:
 

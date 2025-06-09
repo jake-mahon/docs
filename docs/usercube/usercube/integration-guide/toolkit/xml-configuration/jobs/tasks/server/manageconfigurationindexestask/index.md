@@ -2,7 +2,7 @@
 
 Manage indexes for configuration items with the tool[
 Identity Manager-Manage-Configuration Dependent Indexes
-](/docs/product_docs/usercube/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
+](/docs/usercube/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 

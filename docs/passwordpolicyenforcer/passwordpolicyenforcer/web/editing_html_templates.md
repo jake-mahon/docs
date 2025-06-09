@@ -8,10 +8,10 @@ Password Policy Enforcer Web installs four .htm files for every language. Each f
 
 | Filename | Content |
 | --- | --- |
-| en\_default.htm | Static HTML for the Welcome page. See the [Launch Password Policy Enforcer Web](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md) topic for additional information. |
-| en\_ppeweb.htm | Template for the Password Change page. See the [Change Password](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Change-Password) topic for additional information. |
+| en\_default.htm | Static HTML for the Welcome page. See the [Launch Password Policy Enforcer Web](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md) topic for additional information. |
+| en\_ppeweb.htm | Template for the Password Change page. See the [Change Password](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Change-Password) topic for additional information. |
 | en\_finished.htm | Template for the Finished page. |
-| en\_error.htm | Template for the Password Critical Error page. See the [Error Messages](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. |
+| en\_error.htm | Template for the Password Critical Error page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. |
 
 The other user interface files are language independent. Most of the formatting is in ppeweb.css, and some additional CSS for Internet Explorer is in ppeweb\_ie.css. The image files are in the images folder. These files are installed into the ```\Inetpub\wwwroot\ppeweb\``` folder by default.
 
@@ -39,9 +39,9 @@ Templates end with a resource string section.
 
 --><!--/RESOURCE\_STRINGS-->
 
-Resource strings are mostly validation error messages, but they can contain any text Password Policy Enforcer Web may need to build the page. See the [Error Messages](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Policy Enforcer Web deletes this range before sending the page to the user's web browser.
+Resource strings are mostly validation error messages, but they can contain any text Password Policy Enforcer Web may need to build the page. See the [Error Messages](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_web.md#Error-Messages) topic for additional information. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Policy Enforcer Web deletes this range before sending the page to the user's web browser.
 
-__CAUTION:__ You may rebrand the Password Policy Enforcer Web user interface, but it is a violation of the License Agreement to modify, remove or obscure any copyright notice. See the [License Agreement](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/license_agreement.md) topic for additional information.
+__CAUTION:__ You may rebrand the Password Policy Enforcer Web user interface, but it is a violation of the License Agreement to modify, remove or obscure any copyright notice. See the [License Agreement](/docs/passwordpolicyenforcer/passwordpolicyenforcer/web/license_agreement.md) topic for additional information.
 
 ## Examples
 
@@ -77,7 +77,7 @@ Instructions are inside ranges called SECTION\_A and SECTION\_B. Each section co
 
 Validation error messages are shown in a yellow box below the page instructions. Validation errors are normally caused by invalid user input.
 
-![using_ppe_web_1](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_1.png)
+![using_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_1.png)
 
 Validation error messages are defined in en\_ppeweb.htm. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
 
@@ -91,7 +91,7 @@ Validation error messages are defined in en\_ppeweb.htm. The error messages are 
 
 All the critical error messages are defined in ```en_error.htm```. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
 
-![using_ppe_web_2](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_2.png)
+![using_ppe_web_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_2.png)
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more information about the error. You should keep these as they provide important information about the error, but you can delete them if you do not want them.
 
@@ -111,7 +111,7 @@ If you want to display some text for all error messages, then insert your text a
 
 The finished message is shown after users successfully change their password. This message is defined in en\_finished.htm.
 
-![editing_the_html_templates_1](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/editing_the_html_templates_1.png)
+![editing_the_html_templates_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/editing_the_html_templates_1.png)
 
 <h1>Finished</h1>
 

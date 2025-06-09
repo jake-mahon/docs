@@ -23,7 +23,7 @@ Process is being created (2023/11/27, 12:12:23.586, PID: 6540, TID: 10096)
 
 As an example, this is how executable rules should look like. You should have __Path Condition__ and __Command-Line Condition__ arguments selected:
 
-![1313_1_0f8b910ebf561185bd3320c186e39922_950x494](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/1313_1_0f8b910ebf561185bd3320c186e39922_950x494.png)
+![1313_1_0f8b910ebf561185bd3320c186e39922_950x494](/img/product_docs/policypak/policypak/leastprivilege/elevate/1313_1_0f8b910ebf561185bd3320c186e39922_950x494.png)
 
 To achieve this result, please create a combo executable LPM rule for msiexec.exe executable:
 
@@ -31,7 +31,7 @@ To achieve this result, please create a combo executable LPM rule for msiexec.ex
 PATH: %SYSTEMROOT%\System32\msiexec.exe
 ```
 
-![993_2_image-20231214011321-2_950x298](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/993_2_image-20231214011321-2_950x298.png)
+![993_2_image-20231214011321-2_950x298](/img/product_docs/policypak/policypak/leastprivilege/elevate/993_2_image-20231214011321-2_950x298.png)
 
 Then, go to __Command-Line Condition__ and make the following configuration:
 
@@ -41,6 +41,6 @@ Arguments: /p "%UserProfile%\Downloads\AcrobatDCx64*.msp"
 
 Use __Strict equality__ check mode.
 
-![993_3_image-20231214011321-3_950x499](/static/img/product_docs/policypak/policypak/leastprivilege/elevate/993_3_image-20231214011321-3_950x499.png)
+![993_3_image-20231214011321-3_950x499](/img/product_docs/policypak/policypak/leastprivilege/elevate/993_3_image-20231214011321-3_950x499.png)
 
 For other Adobe packages (or any other software vendors) you must adjust the path to your .MSP file within your __Arguments__ field. MSIEXEC.EXE should be elevated at all times while you are elevating .MSP file installation.

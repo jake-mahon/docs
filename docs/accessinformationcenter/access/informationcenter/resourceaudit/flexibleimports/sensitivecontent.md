@@ -1,8 +1,8 @@
 # Sensitive Content Report
 
-The Sensitive Content report for imported data provides a list of paths and a hit count per table where criteria matches were found on the selected resource. This report includes a table visible to Access Information Center users with either Security Team Member or Administrator roles with criteria Matches. The Matches table requires the storage of discovered sensitive data within the Access Analyzer database or it will be blank. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
+The Sensitive Content report for imported data provides a list of paths and a hit count per table where criteria matches were found on the selected resource. This report includes a table visible to Access Information Center users with either Security Team Member or Administrator roles with criteria Matches. The Matches table requires the storage of discovered sensitive data within the Access Analyzer database or it will be blank. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
 
-![Sensitive Content report for imported data](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
+![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
 
 This report is comprised of the following columns:
 
@@ -20,4 +20,4 @@ There is one table at the bottom displaying Matches on the files where the selec
 - Suffix – Text just after the sensitive data match in the file
 - Sub File – File name if the sensitive data files reside in a PST file or a ZIP file
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/product_docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.

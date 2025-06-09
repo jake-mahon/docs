@@ -2,7 +2,7 @@
 
 The Identity Manager Database can be installed on the Server workstation or on a separate machine.
 
-Please make sure that the [Database](/docs/product_docs/usercube_saas/usercube/installation-guide/requirements/database-requirements/index.md) requirements are met before going further.
+Please make sure that the [Database](/docs/usercube_saas/usercube/installation-guide/requirements/database-requirements/index.md) requirements are met before going further.
 
 ## Steps
 
@@ -33,7 +33,7 @@ Preferred methods include [SQL Server Management Studio](https://docs.microsoft.
 - Open the file. The file is now open in the main SQL Server Management Studio window.
 - Locate the database name dropdown, next to the __Execute__ button in the top left section of the screen.
 
-![Execute Query](/static/img/product_docs/usercube/usercube/installation-guide/production-ready/database/execute_query.png)
+![Execute Query](/img/product_docs/usercube/usercube/installation-guide/production-ready/database/execute_query.png)
 
 - From the dropdown, select the newly created database.
 - Click __Execute__.
@@ -52,4 +52,4 @@ The next step will consist in:
 - Creating a custom service account.
 - Granting the necessary database permissions for this account.
 
-It will also show how to test the Identity Manager Database connection. See the [Install the Server](/docs/product_docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
+It will also show how to test the Identity Manager Database connection. See the [Install the Server](/docs/usercube_saas/usercube/installation-guide/production-ready/server/index.md) topic for additional information.

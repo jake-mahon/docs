@@ -1,6 +1,6 @@
 # Standalone (Pull) Mode Quick Start
 
-__NOTE:__ For an overview of Endpoint Policy Manager GPCR in pull mode, watch this video [Using Pull Mode (with or without PPGPCR server)](/docs/product_docs/policypak/policypak/video/gpocompilancereporter/modepull.md).
+__NOTE:__ For an overview of Endpoint Policy Manager GPCR in pull mode, watch this video [Using Pull Mode (with or without PPGPCR server)](/docs/policypak/policypak/video/gpocompilancereporter/modepull.md).
 
 Endpoint Policy Manager GPCR has three panes in which you can perform work:
 
@@ -8,7 +8,7 @@ Endpoint Policy Manager GPCR has three panes in which you can perform work:
 - Tests: This is where you define tests that you want to validate.
 - Results: This is where you select a specific snapshot and a test and get results (see Figure 11)
 
-![gpcr_concepts_and_quickstart_12](/static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_12.png)
+![gpcr_concepts_and_quickstart_12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_12.png)
 
 Figure 11. The Results pane of the GPCR client (admin console).
 

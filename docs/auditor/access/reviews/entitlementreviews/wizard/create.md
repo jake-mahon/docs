@@ -1,8 +1,8 @@
 # Create Review Wizard
 
-The Create Review wizard is opened with the __Create__ button on the Entitlement Reviews interface. See the [Manage Reviews Page](/docs/product_docs/auditor/access/reviews/entitlementreviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Create Review wizard is opened with the __Create__ button on the Entitlement Reviews interface. See the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#Manage-Reviews-Page) topic for additional information.
 
-![Create Review wizard](/static/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
+![Create Review wizard](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
 
 It contains three pages:
 
@@ -27,7 +27,7 @@ Follow the steps to create a review.
 
 __Step 1 –__ On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard showing the Review Type page](/static/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
+![Create Review wizard showing the Review Type page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
 
 __Step 2 –__ On the Review Type page, provide the following information and click __Next__:
 
@@ -37,7 +37,7 @@ __Step 2 –__ On the Review Type page, provide the following information and cl
   - Membership – Review group membership
   - Access – Review user access rights to resources
 
-![Create Review wizrd showing the Resources page](/static/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewresources.png)
+![Create Review wizrd showing the Resources page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewresources.png)
 
 __Step 3 –__ On the Resources page, select the resources to be included in the review. The Search feature is available to filter the list of available resource that match the type of review being created.
 
@@ -48,11 +48,11 @@ __Step 3 –__ On the Resources page, select the resources to be included in the
   - Reviewer — Primary owner assigned to the resource
   - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
   - Scan Data — A checkmark indicates the resource has been scanned. Only resources with scan data can be included in a review.
-- Select the desired resource(s) and click __Add__. The __View Selections__ button indicates how many resources have been selected. Click the button to open the Selected Resources window, where you can view and modify the selections. See the [Selected Resources Window](/docs/product_docs/auditor/access/reviews/entitlementreviews/window/selectedresources.md) topic for additional information.
+- Select the desired resource(s) and click __Add__. The __View Selections__ button indicates how many resources have been selected. Click the button to open the Selected Resources window, where you can view and modify the selections. See the [Selected Resources Window](/docs/auditor/access/reviews/entitlementreviews/window/selectedresources.md) topic for additional information.
 - Once the desired resources have been selected, click __Next__.
 
-![Create Review wizard showing the Summary page](/static/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewsummary.png)
+![Create Review wizard showing the Summary page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewsummary.png)
 
 __Step 4 –__ On the Summary page, review the settings and click Finish. The Access Reviews begins to create the review. Action status displays on the page. When the update has completed (100%), click Close. The Create Review wizard closes.
 
-The new review displays in the table on the Manage Reviews page. An email was sent to the primary owner assigned to the resource(s) in this review. By default, the application is configured to send notifications only to the primary owner. However, this can be customized on the Configuration > Notifications page to send notifications to all assigned owners. See the [Notifications Page](/docs/product_docs/auditor/access/reviews/admin/configuration/notifications.md) topic for additional information.
+The new review displays in the table on the Manage Reviews page. An email was sent to the primary owner assigned to the resource(s) in this review. By default, the application is configured to send notifications only to the primary owner. However, this can be customized on the Configuration > Notifications page to send notifications to all assigned owners. See the [Notifications Page](/docs/auditor/access/reviews/admin/configuration/notifications.md) topic for additional information.

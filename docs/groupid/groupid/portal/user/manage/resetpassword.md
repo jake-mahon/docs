@@ -1,10 +1,10 @@
 # Reset your password
 
-Directory Manager portal enables you to reset password for user accounts. You can reset your identity store password, and even the account passwords of other users in the connected identity store, provided you have the rights. The new password must conform to the password policy the administrator has defined for the identity store. Administrator can either enable [Directory Manage Password Policy ](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/password.md) or Netwrix Password Policy Enforcer policies for the identity store.
+Directory Manager portal enables you to reset password for user accounts. You can reset your identity store password, and even the account passwords of other users in the connected identity store, provided you have the rights. The new password must conform to the password policy the administrator has defined for the identity store. Administrator can either enable [Directory Manage Password Policy ](/docs/groupid/groupid/admincenter/securityrole/policy/password.md) or Netwrix Password Policy Enforcer policies for the identity store.
 
 Follow the steps to reset password.
 
-Step 1 – On the My Dashboard page of Directory Manager portal, search for the user whose password you need to reset. See the [Directory Search](/docs/product_docs/groupid/groupid/portal/search/search.md) topic for additional information.
+Step 1 – On the My Dashboard page of Directory Manager portal, search for the user whose password you need to reset. See the [Directory Search](/docs/groupid/groupid/portal/search/search.md) topic for additional information.
 
 Step 2 – Select the account from the list whose password you want to reset.
 

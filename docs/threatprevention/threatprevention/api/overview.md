@@ -6,9 +6,9 @@ Using PowerShell, you can obtain information on or manipulate specific policy, c
   - Connect-SIEnterpriseManager
 - Informative APIs
 
-  __NOTE:__ These APIs do not require any additional configuration. They display Agent status from the [Agents Interface](/docs/product_docs/threatprevention/threatprevention/admin/agents/overview.md) and a list of available PowerShell APIs the user can utilize.
+  __NOTE:__ These APIs do not require any additional configuration. They display Agent status from the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md) and a list of available PowerShell APIs the user can utilize.
 
-  - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the [Agents Interface](/docs/product_docs/threatprevention/threatprevention/admin/agents/overview.md)
+  - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md)
   - Get-SI Help – Lists available PowerShell APIs for Threat Prevention
   - Get-SIHelp [API Name] – Displays detailed information about the PowerShell API
 - Policies and Collections:
@@ -41,7 +41,7 @@ Using PowerShell, you can obtain information on or manipulate specific policy, c
 
 The following prerequisites must be met before using the APIs:
 
-- The PowerShell service account must be an Active Directory account with the Threat Prevention administrator role assigned to it. The role is assigned through the [Users and Roles Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/userroles/overview.md).
+- The PowerShell service account must be an Active Directory account with the Threat Prevention administrator role assigned to it. The role is assigned through the [Users and Roles Window](/docs/threatprevention/threatprevention/admin/configuration/userroles/overview.md).
 - The Threat Prevention PowerShell module (SI.SIMonitor.PowerShell.dll) must be loaded into PowerShell. This module is stored in the installation directory within the Enterprise Manager folder:
 
   …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\
@@ -59,4 +59,4 @@ __Step 2 –__ In the Administration Console, edit the same policy settings and 
 
 __Step 3 –__ Open both XML files and compare the XML to see how policies are altered.
 
-Once you identify how Threat Prevention modifies XML files, you can apply that to the [Add or Modify Policies](/docs/product_docs/threatprevention/threatprevention/api/policy.md#Add-or-Modify-Policies) instructions.
+Once you identify how Threat Prevention modifies XML files, you can apply that to the [Add or Modify Policies](/docs/threatprevention/threatprevention/api/policy.md#Add-or-Modify-Policies) instructions.

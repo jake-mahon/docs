@@ -2,7 +2,7 @@
 
 If you encounter the following error (or something like it) when launching a ThinApp packaged application, there is a workaround.
 
-![242_1_image001-2](/static/img/product_docs/policypak/policypak/troubleshooting/error/applicationsettings/242_1_image001-2.png)
+![242_1_image001-2](/img/product_docs/policypak/policypak/troubleshooting/error/applicationsettings/242_1_image001-2.png)
 
 You can fully isolate PolicyPak from trying to manage a specific ThinApp application, thus working around the exception error.
 

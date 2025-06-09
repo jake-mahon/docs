@@ -11,8 +11,8 @@ __Step 2 –__ Endpoint Policy Manager CSE MSI: Install this on the machines you
 __Step 3 –__ Endpoint Policy Manager pre-configured Paks: These are COPIED in one of three places:
 
 - Locally to YOUR management station machine,
-- To the Endpoint Policy Manager Central Store [Working with Others and using the Central Store](/docs/product_docs/policypak/policypak/video/applicationsettings/centralstorework.md)
-- A share [Using Shares to Store Your Paks (Share-Based Storage)](/docs/product_docs/policypak/policypak/video/applicationsettings/shares.md).
+- To the Endpoint Policy Manager Central Store [Working with Others and using the Central Store](/docs/policypak/policypak/video/applicationsettings/centralstorework.md)
+- A share [Using Shares to Store Your Paks (Share-Based Storage)](/docs/policypak/policypak/video/applicationsettings/shares.md).
 
 __NOTE:__ Point 3 is needed for Endpoint Policy Manager Application Settings Manager (PPASM) only.
 

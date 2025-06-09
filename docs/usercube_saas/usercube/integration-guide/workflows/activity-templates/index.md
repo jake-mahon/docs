@@ -2,13 +2,13 @@
 
 This section describes the activities that constitute and model a [
 Workflow
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md). Each activity is assigned a template, made of states and transitions.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md). Each activity is assigned a template, made of states and transitions.
 
 ## Overview
 
 Going through an activity means going through states and transitions.
 
-![Activity Template - Example](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_example.png)
+![Activity Template - Example](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_example.png)
 
 By default, Identity Manager's workflow engine implements the following activity templates:
 
@@ -26,33 +26,33 @@ By default, Identity Manager's workflow engine implements the following activity
 
 Awaits user modifications without another user's intervention.
 
-![Activity Template - Action](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_action.png)
+![Activity Template - Action](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_action.png)
 
 ### ActionWithRefine
 
 Awaits user modifications with the possibility to delegate the action to another user.
 
-![Activity Template - ActionWithRefine](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_actionwithrefine.png)
+![Activity Template - ActionWithRefine](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_actionwithrefine.png)
 
 The ```ActionWithRefine``` activity can be translated into the following form:
 
-![ActionWithRefine in the UI](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activity_actionwithrefine_v602.png)
+![ActionWithRefine in the UI](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activity_actionwithrefine_v602.png)
 
 ### Review
 
 Awaits user approval without another user's intervention.
 
-![Activity Template - Review](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_review.png)
+![Activity Template - Review](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_review.png)
 
 ### ReviewWithFeedback
 
 Awaits user approval with the possiblity of getting feedback from another user before taking the action.
 
-![Activity Template - ReviewWithFeedback](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_reviewwithfeedback.png)
+![Activity Template - ReviewWithFeedback](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activitytemplates_reviewwithfeedback.png)
 
 The ```ReviewWithFeedback``` activity can be translated into the following form:
 
-![ReviewWithFeedback in the UI](/static/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activity_reviewwithfeedback_v602.png)
+![ReviewWithFeedback in the UI](/img/product_docs/usercube/usercube/integration-guide/workflows/activity-templates/activity_reviewwithfeedback_v602.png)
 
 ### Persist
 

@@ -8,4 +8,4 @@ In this example, an iTunes Helper application can only be installed if the iTune
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/understanding_parent_process.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_parent_process.png)

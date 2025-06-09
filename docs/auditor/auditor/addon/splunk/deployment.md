@@ -7,7 +7,7 @@ In the Netwrix Auditor client, go to the Integrations section and verify Integra
 1. Make sure the Leverage Integration API is switched to ON.
 2. Check the TCP communication port number – default is 9699.
 
-See the [Configure Integration API Settings](/docs/product_docs/auditor/auditor/api/prerequisites.md#Configure-Integration-API-Settings)[Audit Database](/docs/product_docs/auditor/auditor/admin/settings/auditdatabase.md)topic for additional information.
+See the [Configure Integration API Settings](/docs/auditor/auditor/api/prerequisites.md#Configure-Integration-API-Settings)[Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md)topic for additional information.
 
 ## Download the Add-on
 
@@ -27,27 +27,27 @@ __Step 2 –__ Open the Splunk Apps settings in any of the following ways:
 
 - On the main Explore Splunk Enterprise screen, click the gear icon at the top of the left __Apps__ panel:
 
-![config](/static/img/product_docs/auditor/auditor/addon/splunk/config.png)
+![config](/img/product_docs/auditor/auditor/addon/splunk/config.png)
 
 - When on any other screen, you can expand the drop-down list at the top panel and choose Manage Apps:
 
-  ![searchreporting](/static/img/product_docs/auditor/auditor/addon/splunk/searchreporting.png)
+  ![searchreporting](/img/product_docs/auditor/auditor/addon/splunk/searchreporting.png)
 
 __Step 3 –__ On the __Apps__ screen, click Install app from file:
 
-![installapp](/static/img/product_docs/auditor/auditor/addon/splunk/installapp.png)
+![installapp](/img/product_docs/auditor/auditor/addon/splunk/installapp.png)
 
 __Step 4 –__ Click Choose File, navigate to the folder where you unpacked the add-on package, select the "TA-netwrix-auditor-add-on-for-splunk-1.6.1.spl" file and click Open.
 
 __Step 5 –__ Click Upload.
 
-![uploadapp](/static/img/product_docs/auditor/auditor/addon/splunk/uploadapp.png)
+![uploadapp](/img/product_docs/auditor/auditor/addon/splunk/uploadapp.png)
 
 The __Upload__ button text will change to "_Processing…_". When the installation is complete, you will see an invitation to reboot Splunk. This is optional unless you plan to create index configuration in the add-on folder. In addition, Splunk might not display add-on icon until restart.
 
 The installed add-on should appear in the Apps list in Splunk.
 
-![searchreportingapp](/static/img/product_docs/auditor/auditor/addon/splunk/searchreportingapp.png)
+![searchreportingapp](/img/product_docs/auditor/auditor/addon/splunk/searchreportingapp.png)
 
 ## Prepare for Using Netwrix Auditor Integration API
 
@@ -63,13 +63,13 @@ Follow the steps to configure the add-on.
 
 __Step 1 –__ From the Explore Splunk Enterprise or from the drop-down list on the top Splunk panel, open Netwrix Auditor add-on for Splunk and navigate to the Configuration page:
 
-![configuration](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.png)
+![configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.png)
 
 __Step 2 –__ Configure the account:
 
 1. On the Configuration page, open the Account section.
 
-   ![addaccount](/static/img/product_docs/auditor/auditor/addon/splunk/addaccount.png)
+   ![addaccount](/img/product_docs/auditor/auditor/addon/splunk/addaccount.png)
 2. Click __Add__ and populate the fields:
 
    - For the Account name provide a unique name for the account that will be visible to the add-on users
@@ -77,13 +77,13 @@ __Step 2 –__ Configure the account:
    - In the Password field insert the account password
 3. Click the Add button. The added account should appear in the list:
 
-   ![configurationaccount](/static/img/product_docs/auditor/auditor/addon/splunk/configurationaccount.png)
+   ![configurationaccount](/img/product_docs/auditor/auditor/addon/splunk/configurationaccount.png)
 
 __Step 3 –__ Configure the Netwrix Auditor Integration API location:
 
 1. On the Configuration page open the Add-on Settings section:
 
-   ![configurationaddonsettings](/static/img/product_docs/auditor/auditor/addon/splunk/configurationaddonsettings.png)
+   ![configurationaddonsettings](/img/product_docs/auditor/auditor/addon/splunk/configurationaddonsettings.png)
 2. In the Netwrix Auditor API location field provide the host name or IP address of your Netwrix Auditor Integration API host (Netwrix Auditor server).
 3. In the Netwrix Auditor API port field provide the TCP port used by Netwrix Auditor Integration API; by default it is 9699.
 
@@ -114,10 +114,10 @@ __Step 2 –__ Create a data input:
 
 1. Open Netwrix Auditor add-on for Splunk and go to the __Inputs__ section.
 
-   ![inputs](/static/img/product_docs/auditor/auditor/addon/splunk/inputs.png)
+   ![inputs](/img/product_docs/auditor/auditor/addon/splunk/inputs.png)
 2. Click Create New Input.
 
-   ![addapi](/static/img/product_docs/auditor/auditor/addon/splunk/addapi.png)
+   ![addapi](/img/product_docs/auditor/auditor/addon/splunk/addapi.png)
 3. Provide the new data input parameters:
 
    - Name of the new data input.

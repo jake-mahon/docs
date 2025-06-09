@@ -2,7 +2,7 @@
 
 The Execution Options page provides options to define the mode of execution. It is a wizard page for the __Edit Profile__ and __Create a New Profile__ selections on the Profile Type page.
 
-![Command Line Utility Data Collector Wizard Execution Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.png)
+![Command Line Utility Data Collector Wizard Execution Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.png)
 
 The available options on the page vary depending on the selected profile type. The possible options are as follows:
 
@@ -19,7 +19,7 @@ The output options include:
 
 - Write Output to a text file – Writes task output to a text file which is thenprocessed to collect properties
 - Preserve Output file – Stores the output file on the local machine
-- .Exe Present in Installed CLU Directory – Select the checkbox if the .exe utility is present in the installed CLU directory. The path on the Profile Parameters page should be the utility name instead of the full path. See the [CLU: Profile Parameters](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md) topic for additional information.
+- .Exe Present in Installed CLU Directory – Select the checkbox if the .exe utility is present in the installed CLU directory. The path on the Profile Parameters page should be the utility name instead of the full path. See the [CLU: Profile Parameters](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md) topic for additional information.
 
 Remote Execution Options
 

@@ -10,7 +10,7 @@ There are many types of hosts or platforms that can be monitored using the Activ
 - Dell PowerStore
 - Dell Unity
 - Hitachi
-- Linux – Configuration of a Linux host is done during agent deployment. See the [Linux Agent Deployment](/docs/product_docs/activitymonitor/activitymonitor/admin/agents/add/linux.md) topic for additional information.
+- Linux – Configuration of a Linux host is done during agent deployment. See the [Linux Agent Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/linux.md) topic for additional information.
 - Nasuni
 - NetApp
 - Nutanix
@@ -22,7 +22,7 @@ There are many types of hosts or platforms that can be monitored using the Activ
 - Exchange Online
 - SQL Server
 
-See the [Add New Host Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/overview.md) topic for additional information.
+See the [Add New Host Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/overview.md) topic for additional information.
 
 Agents
 
@@ -44,13 +44,13 @@ This tab is comprised of a button bar and a table of hosts being monitored. A li
 
 The button bar allows users to take the following actions:
 
-![Activity Monitor with Monitored Hosts tab identified](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.png)
+![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.png)
 
 - Toggle Collapse – Expands and collapses all Monitored Hosts for viewing or hiding host's outputs
 - Add Host – Opens the Add New Host window to configure monitoring of a new host or platform. See the section for instructions on adding the desired target environment.
 - Add Output – Opens the Add New Output windows to create new output for the selected host or hosts.
 - Remove – Remove the selected hosts or outputs from the monitored hosts table and end monitoring. A window prompts for confirmation to remove the selected hosts or outputs.
-- Edit – Opens the selected hosts or outputs’ Properties window to modify monitoring settings
+- Edit – Opens the selected hosts or outputs' Properties window to modify monitoring settings
 - Enable – Resume monitoring which has been stopped or paused
 - Disable – Stop or pause monitoring of the selected hosts or outputs
 
@@ -60,7 +60,7 @@ All actions in the button bar except Add Host can be used in the bulk mode. That
 
 Bulk editing allows the user to selectively modify hosts or outputs. For example, with bulk editing it is possible to add a user to Account Exclusions, or set the retention period for log files, or disable reporting of Directory Read operations, etc.
 
-To initiate bulk editing, select multiple hosts or outputs (```Ctrl+A````Ctrl+A` and ```Ctrl+Shift+A````Ctrl+Shift+A` may help here), and click the __Edit__ Edit button. The Properties window shows divergent settings as blank or in the unknown state or with the ```<-Different-Values->```<-Different-Values-> marker for the list-like settings. Leave the ```<-Different-Values->```<-Different-Values-> marker to preserve the difference in each selected object, or delete it to remove all divergent elements. When the window closes, only changed properties are saved to all selected objects, leaving unchanged properties untouched.
+To initiate bulk editing, select multiple hosts or outputs (`Ctrl+A` and `Ctrl+Shift+A` may help here), and click the __Edit__ Edit button. The Properties window shows divergent settings as blank or in the unknown state or with the `<-Different-Values->` marker for the list-like settings. Leave the `<-Different-Values->` marker to preserve the difference in each selected object, or delete it to remove all divergent elements. When the window closes, only changed properties are saved to all selected objects, leaving unchanged properties untouched.
 
 ## Table
 
@@ -78,17 +78,17 @@ The monitored hosts table provides the following information:
 - Comment – Comment provided by user:
   - Often this indicates the desired output, e.g. Access Analyzer.
   - This can be useful if adding the same monitored host multiple times with different configurations for different outputs.
-  - If a Activity Monitor Agent has been deployed to a Windows server where an activity agent is deployed, then the Comment identifies the host as “Managed by Activity Monitor”, and that ‘monitored host’ is not editable. Add the host again for other outputs.
+  - If a Activity Monitor Agent has been deployed to a Windows server where an activity agent is deployed, then the Comment identifies the host as "Managed by Activity Monitor", and that 'monitored host' is not editable. Add the host again for other outputs.
 
 Hosts can have more than one output. To view a host's outputs, expand the host by clicking the white arrow to the left of the Monitored Host name.
 
-For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only one configuration of a ‘monitored host’ can be set as the Netwrix Access Analyzer (formerly Enterprise Auditor) output. After a ‘monitored host’ has been added, use the Edit feature to identify the configuration as being for Netwrix Access Analyzer (formerly Enterprise Auditor) on the Log Files tab of the host’s Properties window. See the [Log Files Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/logfiles.md) topic for additional information.
+For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only one configuration of a 'monitored host' can be set as the Netwrix Access Analyzer (formerly Enterprise Auditor) output. After a 'monitored host' has been added, use the Edit feature to identify the configuration as being for Netwrix Access Analyzer (formerly Enterprise Auditor) on the Log Files tab of the host's Properties window. See the [Log Files Tab](/docs/activitymonitor/activitymonitor/admin/outputs/logfiles.md) topic for additional information.
 
 ## Monitoring Status
 
 The Status collapsible section located above the Status Bar of the Activity Monitor provides visibility into a host's monitoring state and history of state changes. Host monitoring status is depicted in the Monitored Hosts table under the Status column. Users can expand the Status section to view more information on various status conditions.
 
-![errorpropogationpopulated](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.png)
+![errorpropogationpopulated](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.png)
 
 Click the __Down Arrow__ to expand the Status section. The information listed is dependent on which host or output is currently selected in the Monitored Hosts table. Users can find information on the __Current State__ of a host, as well as viewing a history of changes in state.
 

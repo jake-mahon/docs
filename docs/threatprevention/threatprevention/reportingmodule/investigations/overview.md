@@ -4,31 +4,31 @@ The Investigation interface allows administrators to investigate all data availa
 
 If you have not integrated the Threat Manager Reporting module with a Netwrix product, the interface is displayed as:
 
-![Investigations interface](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![Investigations interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
 
-To integrate with a Netwrix product, such as Threat Prevention, see the [Netwrix Integrations Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md) topic.
+To integrate with a Netwrix product, such as Threat Prevention, see the [Netwrix Integrations Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md) topic.
 
 After integration, when you click __Investigate__ in the application header bar, the Investigations interface defaults to the New Investigation page as follows:
 
-![New Investigation window](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.png)
+![New Investigation window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.png)
 
 The Investigations interface contains the following pages:
 
-- New Investigation – Enables you to run queries on available data with desired filters for a specific timeframe. See the [New Investigation Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.md) topic for additional information.
-- Favorites – Provides a list of saved queries the logged in user has tagged as a Favorite. See the [Favorites Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favorites.md) topic for additional information.
-- Audit and Compliance – Provides a list of saved out-of-the-box investigations with applied filters for commonly used Audit and Compliance activity reports. See the [Audit and Compliance Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.md) topic for additional information.
-- Predefined Investigations – Provides a list of saved out-of-the-box investigations with applied filters for Applications, Computers, Groups, iNetOrgPerson, Roles and User activity reports. See the [Predefined Investigations Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.md) topic for additional information.
-- My Investigations – Provides a list of saved investigations created by the application users. A link to this page is displayed in the navigation pane when you save your first investigation. See the [My Investigations Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/myinvestigations.md) topic for additional information.
-- Subscriptions and Exports – Provides a list of investigations that are either subscribed to or scheduled for export. See the[Subscriptions and Exports Page](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.md) topic for additional information.
+- New Investigation – Enables you to run queries on available data with desired filters for a specific timeframe. See the [New Investigation Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.md) topic for additional information.
+- Favorites – Provides a list of saved queries the logged in user has tagged as a Favorite. See the [Favorites Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/favorites.md) topic for additional information.
+- Audit and Compliance – Provides a list of saved out-of-the-box investigations with applied filters for commonly used Audit and Compliance activity reports. See the [Audit and Compliance Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.md) topic for additional information.
+- Predefined Investigations – Provides a list of saved out-of-the-box investigations with applied filters for Applications, Computers, Groups, iNetOrgPerson, Roles and User activity reports. See the [Predefined Investigations Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.md) topic for additional information.
+- My Investigations – Provides a list of saved investigations created by the application users. A link to this page is displayed in the navigation pane when you save your first investigation. See the [My Investigations Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/myinvestigations.md) topic for additional information.
+- Subscriptions and Exports – Provides a list of investigations that are either subscribed to or scheduled for export. See the[Subscriptions and Exports Page](/docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.md) topic for additional information.
 
-Every investigation has the same options at the top of the page. See the [Investigation Options](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/overview.md) topic for additional information.
+Every investigation has the same options at the top of the page. See the [Investigation Options](/docs/threatprevention/threatprevention/reportingmodule/investigations/options/overview.md) topic for additional information.
 
-Every report generated by an investigation query displays the same type of information. See the [Investigation Reports](/docs/product_docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic for additional information.
+Every report generated by an investigation query displays the same type of information. See the [Investigation Reports](/docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic for additional information.
 
 ## Search for Saved Investigations
 
 The Investigations interface includes a search field in the navigation pane to find saved investigations by name.
 
-![Investigations Search showing matching results](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+![Investigations Search showing matching results](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
 
 Type in the search box. As you type, a drop-down will populate with saved investigations containing matches. The part of the investigation name that matches the search text is in bold.

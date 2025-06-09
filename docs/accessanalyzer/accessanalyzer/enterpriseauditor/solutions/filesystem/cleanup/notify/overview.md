@@ -2,14 +2,14 @@
 
 The 2. Notify job group is designed to report on and notify owners of resources of target file servers that data is pending cleanup.
 
-__NOTE:__ The SendMail action module requires configuration of the Notification Settings in the Global Settings. See the [Notification](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
+__NOTE:__ The SendMail action module requires configuration of the Notification Settings in the Global Settings. See the [Notification](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
 
-![2. Notify Job Group in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
 This job group includes the following jobs:
 
-- [FS\_NotifyOwners Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) – Designed to notify share owners that there is data within their share pending cleanup
-- [FS\_NotifyOwners\_Status Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md) – Designed to summarize the actions taken by the NotifyOwners job
+- [FS\_NotifyOwners Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) – Designed to notify share owners that there is data within their share pending cleanup
+- [FS\_NotifyOwners\_Status Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md) – Designed to summarize the actions taken by the NotifyOwners job
 
 Workflow
 

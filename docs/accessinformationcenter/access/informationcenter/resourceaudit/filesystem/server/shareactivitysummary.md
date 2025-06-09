@@ -2,7 +2,7 @@
 
 The Share Activity Summary report at the server level provides statistical activity event information by share on the selected server during the specified date range. Activity on DFS Namespaces at this level is rolled up to the server hosting the DFS Namespace.
 
-![Share Activity Summary report at the server level](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/servershareactivitysummary.png)
+![Share Activity Summary report at the server level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/servershareactivitysummary.png)
 
 This report is comprised of the following columns:
 

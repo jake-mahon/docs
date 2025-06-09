@@ -2,7 +2,7 @@
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) DesignStudio Configuration Wizard is a lite capture tool. When the Configuration Wizard runs, it takes a snapshot of all the items in your data root, asks you to make some changes, and then captures what you've done. Then it sets your element's settings. To perform these tasks, the Configuration Wizard may ask you some questions about the current state of the application first. For instance, it may asked if a checkbox is currently checked or unchecked, as shown in Figure 114.
 
-![configuring_elements_using_7](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_7.png)
+![configuring_elements_using_7](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_7.png)
 
 Figure 114. Selecting whether a checkbox is checked or unchecked.
 
@@ -18,7 +18,7 @@ Other item types will have similar procedures. You must click "Apply" or "OK" in
 
 If you click "Next" in the wizard but the wizard was unable to detect any changes, it will tell you that no changes were detected, as shown in Figure 115.
 
-![configuring_elements_using_8](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_8.png)
+![configuring_elements_using_8](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_8.png)
 
 Figure 115. The message to indicate no changes were detected.
 

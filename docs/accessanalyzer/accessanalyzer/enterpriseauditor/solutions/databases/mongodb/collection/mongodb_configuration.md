@@ -8,7 +8,7 @@ The MongoDB\_Configuration Job uses the NoSQL Data Collector for queries.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection - Mongo DB](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/configurationjob.png)
+![Query Selection - Mongo DB](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/configurationjob.png)
 
 The query is:
 

@@ -4,14 +4,14 @@ Before you start creating a monitoring plan to audit your SharePoint farm, plan 
 
 Starting with version 9.96, you can use group Managed Service Accounts (gMSA) as data collecting accounts.
 
-For more information on gMSA, refer to [Use Group Managed Service Account (gMSA)](/docs/product_docs/auditor/auditor/requirements/gmsa.md)[Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
+For more information on gMSA, refer to [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md)[Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
 
 These group Managed Service Accounts should meet the related requirements.
 
 __On the target SharePoint farm:__
 
 1. On the SharePoint server where the Netwrix Auditor Core Service will be deployed: the account must be a member of the local Administrators group.   
-   To learn more about Netwrix Auditor Core Services, refer to [Installation](/docs/product_docs/auditor/auditor/install/overview.md) topic.
+   To learn more about Netwrix Auditor Core Services, refer to [Installation](/docs/auditor/auditor/install/overview.md) topic.
 2. On the SQL Server hosting SharePoint database: the SharePoint\_Shell\_Access role.   
    See the [Assigning 'SharePoint\_Shell\_Access' Role](#Assigning-SharePoint_Shell_Access-Role) topic for additional information.
 3. If you plan to collect state-in-time data from a SharePoint farm, the account should also meet the requirements below:

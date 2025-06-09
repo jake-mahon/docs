@@ -5,7 +5,7 @@ The Scan Scoping Options page provides scoping options to specify the list of UR
 - Scan SharePoint Access
 - Scan For Sensitive Content
 
-![Scan Scoping Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.png)
+![Scan Scoping Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.png)
 
 The options on the Scan Scoping Options page are:
 
@@ -24,7 +24,7 @@ In order to scope to objects within host named site collections, add a scope lin
 
 __Step 1 –__ Navigate to the __Scan Scoping Options__ page.
 
-![Enter URL on Scan Scoping Options page example](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionswebappurl.png)
+![Enter URL on Scan Scoping Options page example](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionswebappurl.png)
 
 __Step 2 –__ In the text box, enter an invalid URL prefixed with the __Web App URL__ which contains the HNSCs. Click __Add__.
 
@@ -34,7 +34,7 @@ __Step 3 –__ In the text box, enter the HNSC URL to scope for. Click __Add__.
 
 - In the example, the HNSC URL entered to filter for is: ```http://sample.com/documents/```
 
-![Scan Scoping Options example](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionsexample.png)
+![Scan Scoping Options example](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionsexample.png)
 
 __Step 4 –__ The Web App URL must appear above the HNSC URL, as depicted in the example above.
 
@@ -44,17 +44,17 @@ __Step 5 –__ The SharePoint Access Auditor Data Collector Wizard is now config
 
 In order to decrease the scan time in large SharePoint Online environments, it is possible to break Site Collections for a single host down into subsets, or __Virtual Hosts__, that are treated as separate hosts by Access Analyzer. This allows multiple scans of a single host to be run concurrently. Follow the steps to configure this.
 
-![CSV file with host and site collection information](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/virtualhostscsv.png)
+![CSV file with host and site collection information](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/virtualhostscsv.png)
 
 __Step 1 –__ Create a new CSV file. Add into rows the information for the host and site collection URLs you want to scan in the format ```HOSTNAME#DESIGNATOR;URL```.
 
 - Each unique ```DESIGNATOR``` is treated as a separate host comprised of the specified URLs.
 
-![Host List for targeting the Virtual Hosts](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/virtualhostshostlist.png)
+![Host List for targeting the Virtual Hosts](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/virtualhostshostlist.png)
 
 __Step 2 –__ Configure the Host List for SPAA or SPSEEK scans to target these Virtual Hosts using the format ```HOSTNAME#DESIGNATOR```.
 
-![SPAA Data Collector Wizard Scan Scoping Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionsvirtualhosts.png)
+![SPAA Data Collector Wizard Scan Scoping Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptionsvirtualhosts.png)
 
 __Step 3 –__ On the Scan Scoping Options page of the SharePoint Access Auditor Data Collector Wizard, use the __Import CSV__ button to import the information from the CSV file created in Step 1.
 

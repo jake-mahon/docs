@@ -7,6 +7,6 @@ The Content Distribution treemap allows you to interrogate your data in two diff
 
 It is possible to filter and refine this display, either selecting specific sources / source-groups or excluding specific sources / source-groups.
 
-[![contentdistribution_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/reporting/contentdistribution_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/contentdistribution.png)
+[![contentdistribution_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/contentdistribution_thumb_0_0.png)](/docs/dataclassification/resources/images/contentdistribution.png)
 
 You can zoom in to a particular area of the chart by left-clicking in that area; left clicking on the title will allow exporting of that specific node. Right-clicking will zoom back out again.

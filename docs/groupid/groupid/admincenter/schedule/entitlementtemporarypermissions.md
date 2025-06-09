@@ -2,10 +2,10 @@
 
 An Entitlement Temporary Permissions schedule is automatically created for an identity store when:
 
-- A server is added for permission analysis on the Entitlement page in an Active Directory identity store. See the [Manage File Servers](/docs/product_docs/groupid/groupid/admincenter/entitlement/ad/manage.md) for additional information on adding a server.
+- A server is added for permission analysis on the Entitlement page in an Active Directory identity store. See the [Manage File Servers](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md) for additional information on adding a server.
 
   Or
-- A SharePoint site is added for permission analysis on the __Entitlement__ page in a Microsoft Entra ID identity store. See the [Manage SharePoint Sites](/docs/product_docs/groupid/groupid/admincenter/entitlement/entraid/manage.md) topic for additional information on adding a SharePoint site.
+- A SharePoint site is added for permission analysis on the __Entitlement__ page in a Microsoft Entra ID identity store. See the [Manage SharePoint Sites](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md) topic for additional information on adding a SharePoint site.
 
 The Entitlement Temporary Permissions schedule updates the temporary permissions granted to objects on shared files and folders residing on file servers (for Active Directory), and the document libraries in SharePoint sites (for Microsoft Entra ID). This is how it works:
 
@@ -18,8 +18,8 @@ because the Entitlement Temporary Permissions schedule did not run on the specif
 
 The Entitlement Temporary Permissions schedule runs in the context of the following accounts:
 
-- For file servers, the schedule runs in the context of the service account defined for the identity store. In case you specify a different account for a file server, the schedule runs in the context of the changed account. See the [Connect to a File Server Using a Different Account](/docs/product_docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Connect-to-a-File-Server-Using-a-Different-Account) topic.
-- For a SharePoint site, the schedule runs in the context of the account you specified to connect to the SharePoint admin site. In case you specify a different account for a site, the schedule runs in the context of the changed account. See the [Connect to a Site Using a Different Account](/docs/product_docs/groupid/groupid/admincenter/entitlement/entraid/manage.md#Connect-to-a-Site-Using-a-Different-Account) topic.
+- For file servers, the schedule runs in the context of the service account defined for the identity store. In case you specify a different account for a file server, the schedule runs in the context of the changed account. See the [Connect to a File Server Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md#Connect-to-a-File-Server-Using-a-Different-Account) topic.
+- For a SharePoint site, the schedule runs in the context of the account you specified to connect to the SharePoint admin site. In case you specify a different account for a site, the schedule runs in the context of the changed account. See the [Connect to a Site Using a Different Account](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md#Connect-to-a-Site-Using-a-Different-Account) topic.
 
 You cannot create or delete an Entitlement Temporary Permissions schedule; only edit the existing schedule.
 
@@ -37,7 +37,7 @@ Step 4 – On the Schedules page, click the plus sign next to Entitlement Tempor
 
 Step 5 – On the Edit Schedule page, the Schedule Name and Name Preview boxes display the name of the schedule as read-only. The name format is _Entitlement\_<the name of the machine the schedule is created on>\_ TemporaryPermission_.
 
-Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/product_docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
+Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
 
 Please note the following while selecting a Scheduler service:
 
@@ -55,9 +55,9 @@ Step 7 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click __Add Trigger__.
 
 Step 8 – Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
 
 Step 9 – After making the changes, click __Update Schedule__.
 
 Step 10 – On the Schedules page, click __Save__.  
-For general schedule info, see the [View the Schedules in an Identity Store ](/docs/product_docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store)topic for additional information.
+For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store)topic for additional information.

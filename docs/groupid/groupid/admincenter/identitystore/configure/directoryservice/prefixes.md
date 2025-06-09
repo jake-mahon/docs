@@ -22,7 +22,7 @@ Consider the following:
 - For existing groups, the prefix option is available for unmanaged groups (and not for Smart Groups and Dynasties). A user can choose to add a prefix to the group name in group properties. Once added, it cannot be removed.
 - For managed groups (Smart Groups and Dynasties), prefixes can only be added while creating a group and cannot be changed or removed later.
 
-A group naming policy defined in Microsoft Entra Admin Center has no impact in Directory Manager. For details, see the [Group Naming Policy](/docs/product_docs/groupid/groupid/admincenter/identitystore/advsentraid.md#Group-Naming-Policy) topic.
+A group naming policy defined in Microsoft Entra Admin Center has no impact in Directory Manager. For details, see the [Group Naming Policy](/docs/groupid/groupid/admincenter/identitystore/advsentraid.md#Group-Naming-Policy) topic.
 
 What do you want to do?
 
@@ -67,5 +67,5 @@ Delete a Prefix
 
 __See Also__
 
-- [Security Roles](/docs/product_docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md)

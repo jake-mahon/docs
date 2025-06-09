@@ -8,13 +8,13 @@ The AD\_CPassword Job uses the PowerShell Data Collector for the following query
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job
 
-![Query for the AD_CPassword Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/cpasswordquery.png)
+![Query for the AD_CPassword Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/cpasswordquery.png)
 
 The queries for this job are:
 
 - Sysvol – Targets one domain controller per domain known to Access Analyzer to determine CPassword security
 
-  - See the [PowerShell Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) topic for additional information.
+  - See the [PowerShell Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) topic for additional information.
 
 In addition to the tables created by the data collector, the AD\_CPassword Job produces the following pre-configured report:
 

@@ -4,15 +4,15 @@ The following actions target Windows servers.
 
 ## Close SMB Session
 
-![closesmbsession](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/closesmbsession.png)
+![closesmbsession](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/closesmbsession.png)
 
 This action closes any active SMB sessions for the threat perpetrator on a target host.
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
 
 ## Create Windows Firewall Rule
 
-![windowsfirewall](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/windowsfirewall.png)
+![windowsfirewall](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/windowsfirewall.png)
 
 This action adds a Windows Firewall Rule to block inbound or outbound network protocol traffic for specified hosts.
 
@@ -30,13 +30,13 @@ This action adds a Windows Firewall Rule to block inbound or outbound network pr
 - Target Host – Specify the location where the windows firewall rule will be created
   - Perpetrator Client – The client machine used by a perpetrator for the detected threat (typically a workstation)
   - Threat Host – The host associated with a threat (typically a domain controller or file server)
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
 
 ## Disable User Remote Desktop Access
 
-![disableuserremote](/static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/disableuserremote.png)
+![disableuserremote](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/disableuserremote.png)
 
 This action disconnects the user from the host and disables login rights for the user.
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/product_docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](/docs/threatmanager/threatmanager/administration/configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
 - Users – Select the users for whom to disable remote desktop access. If not specified, those user who triggered the threat will be used.

@@ -20,6 +20,6 @@ __On the target SQL Server:__
 2. Connect to the SQL Server instance.
 3. In the left pane, expand the __Security__ node. Right-click the __Logins__ node and select __New Login__ from the pop-up menu.
 
-   ![manualconfig_ssms_newlogin2016](/static/img/product_docs/1secure/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
+   ![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
 4. Click __Search__ next to __Login Name__ and specify the user that you want to assign the __sysadmin__ role to.
 5. Specify the __Server roles__ tab and assign the __sysadmin__ role to the new login.

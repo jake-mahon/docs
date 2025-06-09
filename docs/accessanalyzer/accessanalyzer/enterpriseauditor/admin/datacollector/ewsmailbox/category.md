@@ -2,7 +2,7 @@
 
 The Category page identifies which type of EWSMailbox information is retrieved during the scan.
 
-![EWS Mailbox Data Collector Wizard Category page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![EWS Mailbox Data Collector Wizard Category page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
 
 Identify the EWS mailbox information type using the following options:
 

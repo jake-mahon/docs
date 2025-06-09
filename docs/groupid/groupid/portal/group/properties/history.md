@@ -2,7 +2,7 @@
 
 This tab displays the object's history, which includes all changes to the object since its creation.
 
-History is available if the administrator has enabled history tracking for the identity store. See [History](/docs/product_docs/groupid/groupid/portal/history/overview.md).
+History is available if the administrator has enabled history tracking for the identity store. See [History](/docs/groupid/groupid/portal/history/overview.md).
 
 ## View History
 
@@ -40,7 +40,7 @@ Only the user who added the note can update it. Other users can only view this n
 
 ### Add a note
 
-The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/docs/product_docs/groupid/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/product_docs/groupid/groupid/portal/history/mydirectreport.md) and [My Groups' History](/docs/product_docs/groupid/groupid/portal/history/mydirectorygroup.md) pages.
+The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/docs/groupid/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/groupid/groupid/portal/history/mydirectreport.md) and [My Groups' History](/docs/groupid/groupid/portal/history/mydirectorygroup.md) pages.
 
 Step 1 – Click the __Add Note__ button next to a history item to add a note to it.
 

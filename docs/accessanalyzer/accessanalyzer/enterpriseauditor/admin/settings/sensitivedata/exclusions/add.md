@@ -2,11 +2,11 @@
 
 Follow the steps to add a False Positive Exclusion Filter.
 
-![Add Filter on False Positives tab](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/addfilter.png)
+![Add Filter on False Positives tab](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/addfilter.png)
 
 __Step 1 –__ Click __Add Filter__ to open the Add False Positive Exclusion Filter window.
 
-![Add False Positive Exclusion Filter window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/addexclusionfilterwindow.png)
+![Add False Positive Exclusion Filter window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/addexclusionfilterwindow.png)
 
 __Step 2 –__ Enter the __File Path__ according to the type of format for the repository.
 

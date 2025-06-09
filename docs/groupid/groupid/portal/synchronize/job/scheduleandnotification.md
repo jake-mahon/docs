@@ -7,7 +7,7 @@ On __Schedule Job and Notifications__, you can set the schedule on the basis of 
    1. In the __Schedule Job__ section, choose an existing job from the drop down list.
    2. In the __Schedule__ section, the __Task name__ drop down lists the Smart Group Update jobs existing in the identity store for the Active Directory domain that is provided as destination in this Synchronize job. Select a job that you want to run along with this Synchronize job. The selected job will run each time the Synchronize job is run either manually or from the Synchronize job scheduler.
 
-      If you are modifying an existing job, you can also a new schedule for the job. Visit [Synchronize Schedule](/docs/product_docs/groupid/groupid/admincenter/schedule/synchronize.md)
+      If you are modifying an existing job, you can also a new schedule for the job. Visit [Synchronize Schedule](/docs/groupid/groupid/admincenter/schedule/synchronize.md)
 2. Set up email notification of job run results:
 
    1. Select the __Enable__ option.
@@ -49,5 +49,5 @@ On __Schedule Job and Notifications__, you can set the schedule on the basis of 
 5. __Review your Changes__ before finishing the job.
 6. Click __Finish__ and create the job.
 7. Once you run the job, a workflow request is triggered.
-8. Generated workflow request will be displayed in the [Requests](/docs/product_docs/groupid/groupid/portal/request/overview.md) section for the workflow approver(s). If the approver approves the workflow request, the job will
+8. Generated workflow request will be displayed in the [Requests](/docs/groupid/groupid/portal/request/overview.md) section for the workflow approver(s). If the approver approves the workflow request, the job will
    execute the results.

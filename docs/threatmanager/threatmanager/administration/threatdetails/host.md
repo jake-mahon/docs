@@ -2,7 +2,7 @@
 
 The Host Details page displays all threats on the selected host.
 
-![Host Details page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Host Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
 
 The top of the page displays a host profile card which may contain the following information about the host:
 
@@ -27,7 +27,7 @@ The page has the following tabs:
 
 The Threats tab for a host displays the threats for the host by timeframe.
 
-![Threats tab of the Host Details page](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/threatstab.png)
+![Threats tab of the Host Details page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/threatstab.png)
 
 The Threats tab contains a bar chart that displays each type of threat on the host and a pie chart that shows the total number of threats on the host. The Threats List displayed below the Historical Events section displays all threats that occurred on the host for the selected timeframe.
 
@@ -35,7 +35,7 @@ The Threats tab contains a bar chart that displays each type of threat on the ho
 
 The Activity Summary tab displays charts for host activity over different time periods.
 
-![Activity Summary tab of the Host Details page](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummarytab.png)
+![Activity Summary tab of the Host Details page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummarytab.png)
 
 The Activity Overview (Past 12 Months) shows a color-coded heat map of host activity. Other metrics include Average Activity by Hour, and Average Activity by Day, and Events by Type.
 
@@ -46,12 +46,12 @@ The Group Membership tab displays the groups the host is a member of. It has the
 - Direct Member Of – Lists groups the host is a direct member of
 - Indirect Member Of – Lists groups the host is a member of via membership in a nested group
 
-![groupmembershiptab](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.png)
+![groupmembershiptab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.png)
 
-![Group Membership Tab Indirect Member of Page](/static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/groupmembershiptabindirect.png)
+![Group Membership Tab Indirect Member of Page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/groupmembershiptabindirect.png)
 
 Each table has the following columns:
 
-- Name – The name of the group. Click the link to view group details. See the [Group Details Page](/docs/product_docs/threatmanager/threatmanager/administration/threatdetails/group.md) topic for additional information.
+- Name – The name of the group. Click the link to view group details. See the [Group Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/group.md) topic for additional information.
 - Domain – Name of the domain. This may be either the domain DNS name or domain controller hostname.
 - Tags – The tag present on the perpetrator, file, or host associated with the event

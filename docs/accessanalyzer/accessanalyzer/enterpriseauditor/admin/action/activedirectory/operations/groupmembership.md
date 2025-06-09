@@ -2,7 +2,7 @@
 
 Use the Groups Membership page to add or remove group members. Values from the source table can also be used to specify if the object will be added or removed.
 
-![Active Directory Action Module Wizard Group Membership page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
+![Active Directory Action Module Wizard Group Membership page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
 
 Use the following options to configure the action:
 

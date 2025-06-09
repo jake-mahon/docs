@@ -4,7 +4,7 @@ The Policies interface lists all policies that you have defined in Threat Preven
 
 Click __Policies__ in the Navigation pane to open the Policies interface.
 
-![Policies Interface](/static/img/product_docs/threatprevention/threatprevention/admin/policies/policiesinterface.png)
+![Policies Interface](/img/product_docs/threatprevention/threatprevention/admin/policies/policiesinterface.png)
 
 You can sort the list of policies alphanumerically ascending or descending by clicking on a column header. An arrow appears in the right corner of the column header indicating the type of sorting. There is also a right-click menu for each policy row.
 
@@ -20,22 +20,22 @@ The columns are (left to right):
 
 Policies Node
 
-Under the Policies node in the Navigation pane, folders are used to organize the policies. Folders can be created at the top level or as sub-folders. Threat Prevention supports unlimited levels for organizing policies. A user with administrator rights can apply protection on a folder node. See the [Data Protection](/docs/product_docs/threatprevention/threatprevention/admin/policies/dataprotection.md) topic for additional information.
+Under the Policies node in the Navigation pane, folders are used to organize the policies. Folders can be created at the top level or as sub-folders. Threat Prevention supports unlimited levels for organizing policies. A user with administrator rights can apply protection on a folder node. See the [Data Protection](/docs/threatprevention/threatprevention/admin/policies/dataprotection.md) topic for additional information.
 
 - Click a policy to open it and view its configuration and recent event data.
 - Use drag-and-drop to move policies from one folder to another, unless restricted by policy protections.
-- Templates can also be dragged from a template folder and dropped into a policy folder, which copies the template into a policy. See the [Templates Interface](/docs/product_docs/threatprevention/threatprevention/admin/templates/overview.md) topic for additional information.
+- Templates can also be dragged from a template folder and dropped into a policy folder, which copies the template into a policy. See the [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md) topic for additional information.
 - An enabled policy is identified within the Navigation pane by the green dot over the policy icon.
 
-![Enabled and Disabled Policies in the Navogation pane](/static/img/product_docs/threatprevention/threatprevention/admin/policies/enableddisabledpolicies.png)
+![Enabled and Disabled Policies in the Navogation pane](/img/product_docs/threatprevention/threatprevention/admin/policies/enableddisabledpolicies.png)
 
-See the [Policy Configuration](/docs/product_docs/threatprevention/threatprevention/admin/policies/configuration.md) topic for additional information on creating policies.
+See the [Policy Configuration](/docs/threatprevention/threatprevention/admin/policies/configuration.md) topic for additional information on creating policies.
 
 ## Right-Click Menu
 
 Each policy listed in the Policies interface has a right-click menu. Select a policy and right-click to open this menu.
 
-![Right-Click Menu for a Policy](/static/img/product_docs/threatprevention/threatprevention/admin/policies/policyrightclickkmenu.png)
+![Right-Click Menu for a Policy](/img/product_docs/threatprevention/threatprevention/admin/policies/policyrightclickkmenu.png)
 
 It contains the following options:
 
@@ -43,7 +43,7 @@ It contains the following options:
 | --- | --- |
 | Enable | Enables disabled policies. Nothing happens if selected for an enabled policy. |
 | Disable | Disables enabled policies. Nothing happens if selected for a disabled policy. |
-| Export | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/exportpoliciestemplates.md) |
+| Export | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/threatprevention/admin/policies/exportpoliciestemplates.md) |
 | Remove | Deletes the selected policy |
 
-__NOTE:__ If the selected policy is protected and the current user does not have the Manage Policies permission for it, these options are grayed-out. See the [Data Protection](/docs/product_docs/threatprevention/threatprevention/admin/policies/dataprotection.md) topic for additional information on protection.
+__NOTE:__ If the selected policy is protected and the current user does not have the Manage Policies permission for it, these options are grayed-out. See the [Data Protection](/docs/threatprevention/threatprevention/admin/policies/dataprotection.md) topic for additional information on protection.

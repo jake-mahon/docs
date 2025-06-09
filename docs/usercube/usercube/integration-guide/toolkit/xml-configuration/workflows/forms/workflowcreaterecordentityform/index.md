@@ -48,7 +48,7 @@ And with the following form for the workflow's summary on record data:
 
 The content of ```MainControl``` is visible during the workflow's execution:
 
-![Form Example - New User from HR](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/formexample_workflowcreaterecordentityform_v603.png)
+![Form Example - New User from HR](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/formexample_workflowcreaterecordentityform_v603.png)
 
 The contents of ```MainSummaryControl``` and ```RecordSummaryControl``` are visible after the workflow's execution.
 

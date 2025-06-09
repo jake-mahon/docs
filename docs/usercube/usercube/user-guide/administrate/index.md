@@ -4,81 +4,81 @@ In the Admin section you can do the following:
 
 - [
   Generate Reports
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/reporting/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/reporting/index.md)
 
   How to use Identity Manager's reporting modules to produce IGA reports for auditing and governance purposes.
-- [Review Orphaned and Unused Accounts](/docs/product_docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/index.md)
+- [Review Orphaned and Unused Accounts](/docs/usercube/usercube/user-guide/administrate/orphan-unused-account-review/index.md)
 
   How to remediate license and security issues caused by orphaned and/or unused accounts.
-- [Provision](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/index.md)
+- [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md)
 
   How to write to a managed system.
 
 - [
   Review Provisioning
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
 
   How to review provisioning orders before generation.
 
 - [
   Provision Manually
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
 
   How to use Identity Managerto manually write to the managed systems.
 
 - [
   Provision Automatically
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)
 
   How to use Identity Manager to automatically write to the managed systems.
 
 - [
   Review Non-conforming Assignments
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
 
   How to review non-conforming assignments, i.e. approve or decline the suggestions made by Identity Manager after every synchronization. The aim is to handle the differences between the values from the managed systems and those computed by Identity Manager's role model.
 
 - [
   Reconcile a Role
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
 
   How to review non-conforming permissions, i.e. approve or decline the role suggestions made by Identity Manager after every synchronization. The aim is to handle the differences between the navigation values from the managed systems and those computed by Identity Manager according to the role catalog.
 
 - [
   Reconcile a Property
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
 
   How to review unreconciled properties. The aim is to handle the differences between the property values from the managed systems and those computed by Identity Manager according to provisioning rules.
 
 - [
   Review an Unauthorized Account
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md)
 
   How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't comply with the rules of the role model.
 
 - [
   Perform Access Certification
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/access-certification/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/access-certification/index.md)
 
   How to certify existing access by reviewing a specific range of assigned permissions for auditing purposes.
 
 - [
   Schedule a Certification Campaign
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
 
   How to create and schedule access certification campaigns, defining their scope.
 
 - [
   Execute a Certification Campaign
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.md)
 
   How to execute access certification campaigns, i.e. review specific entitlement assignments and deprovision inappropriate access.
 
 - [
   Request Entitlement Assignment
-  ](/docs/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/index.md)
+  ](/docs/usercube/usercube/user-guide/administrate/manual-assignment-request/index.md)
 
   How to send a manual request to add, update or remove an entitlement for an identity.
-- [Review Assigned Roles](/docs/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/index.md)
+- [Review Assigned Roles](/docs/usercube/usercube/user-guide/administrate/assigned-roles/index.md)
 
   How to review user permissions grouped by roles.

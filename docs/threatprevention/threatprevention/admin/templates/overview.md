@@ -2,7 +2,7 @@
 
 The Templates interface provides a list of all the pre-created policy templates in Threat Prevention. Click __Temaples__ in the Navigation pane to launch the Templates interface.
 
-![Templates Interface](/static/img/product_docs/threatprevention/threatprevention/admin/templates/templates.png)
+![Templates Interface](/img/product_docs/threatprevention/threatprevention/admin/templates/templates.png)
 
 The following is displayed for a template:
 
@@ -14,17 +14,17 @@ The list of templates can be sorted alphanumerically ascending or descending by 
 
 Templates Node
 
-Under the Templates node in the Navigation pane, folders are used to organize the templates. Folders can be created at the top level or as sub-folders since Threat Prevention supports unlimited levels for organizing templates. The pre-created templates are organized into multiple folders. See the [Pre-Created Templates](/docs/product_docs/threatprevention/threatprevention/admin/templates/folder/overview.md) topic for additional information.
+Under the Templates node in the Navigation pane, folders are used to organize the templates. Folders can be created at the top level or as sub-folders since Threat Prevention supports unlimited levels for organizing templates. The pre-created templates are organized into multiple folders. See the [Pre-Created Templates](/docs/threatprevention/threatprevention/admin/templates/folder/overview.md) topic for additional information.
 
-- Click a template to open it and view its configurations. See the [Template Configuration](/docs/product_docs/threatprevention/threatprevention/admin/templates/configuration.md) topic for additional information.
+- Click a template to open it and view its configurations. See the [Template Configuration](/docs/threatprevention/threatprevention/admin/templates/configuration.md) topic for additional information.
 - You can move a templates from one folder to another by dragging-and-dropping. This is a Move action.
-- You can also drag a template into a folder under the Policies node. This would be a Copy action, and converts the template into a policy. See the [Use a Template to Create a Policy](/docs/product_docs/threatprevention/threatprevention/admin/templates/createpolicy.md) topic for additional information.
+- You can also drag a template into a folder under the Policies node. This would be a Copy action, and converts the template into a policy. See the [Use a Template to Create a Policy](/docs/threatprevention/threatprevention/admin/templates/createpolicy.md) topic for additional information.
 
 ## Right-Click Menu
 
 Each template listed in the Templates interface has a right-click menu. Select a template and right-click to open this menu.
 
-![Templates interface - Right-Click Menu](/static/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
+![Templates interface - Right-Click Menu](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
 
 It contains the following options:
 
@@ -32,5 +32,5 @@ It contains the following options:
 | --- | --- |
 | Enable (grayed-out) | [Does not apply to templates] |
 | Disable (grayed-out) | [Does not apply to templates] |
-| Export | Exports the selected template’s configuration to an XML file through the [Export Policies and Templates Window](/docs/product_docs/threatprevention/threatprevention/admin/policies/exportpoliciestemplates.md) |
+| Export | Exports the selected template’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/threatprevention/admin/policies/exportpoliciestemplates.md) |
 | Remove | Deletes the selected template |

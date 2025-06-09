@@ -6,7 +6,7 @@ Permissions Tab
 
 Use the __Permissions__ tab to control which users can use Password Reset.
 
-![configuring_npr_9](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_9.png)
+![configuring_npr_9](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_9.png)
 
 ### Enroll
 
@@ -22,4 +22,4 @@ To remove a group from the list, select it and then click __Remove__. Enrolled u
 
 These settings specify which users can change their password with Password Reset.
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

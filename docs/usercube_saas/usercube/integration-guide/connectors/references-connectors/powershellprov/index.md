@@ -4,9 +4,9 @@ This connector writes to an external system via a [PowerShell](https://learn.mic
 
 This page is about [
 PowerShellProv
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
 
-![Package: Custom/PowerShellProv](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.png)
+![Package: Custom/PowerShellProv](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.png)
 
 ## Overview
 
@@ -36,7 +36,7 @@ This connector executes a PowerShell script for the creation, deletion and updat
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -90,7 +90,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 See how to [
 Write a PowerShell Script for Provisioning
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)to allow provisioning with this connector.
+](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)to allow provisioning with this connector.
 
 ## Authentication
 
@@ -104,10 +104,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -117,7 +117,7 @@ Data protection can be ensured through:
 
 - A [
   Connection
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store the attributes from the ```Options``` section that are compatible with CyberArk.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store the attributes from the ```Options``` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

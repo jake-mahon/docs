@@ -51,7 +51,7 @@ Objects matching the search criteria are displayed on the __Search Results__ pag
 
 ## Search directory objects (Query Based Advanced Search)
 
-Directory Manager portal enables you to search directory objects (users, mailboxes, contacts, groups) in the identity store based on a query. See the [Query Based Advanced Search](/docs/product_docs/groupid/groupid/portal/search/querysearch.md) topic.
+Directory Manager portal enables you to search directory objects (users, mailboxes, contacts, groups) in the identity store based on a query. See the [Query Based Advanced Search](/docs/groupid/groupid/portal/search/querysearch.md) topic.
 
 NOTE: In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace / Generic LDAP store as contact object is not available in these providers.
 
@@ -85,6 +85,6 @@ If portal is running in the Linked mode, the __Identity Store__ column is displa
 
 __Important__: For performing searches in customized portal using the Linked mode, it is important that customized portal fields, which are used while creating filter expressions for use and group objects, are bind with similar attributes of stores. Otherwise, Directory Manager will not be able to linked identities.
 
-You can perform multiple actions on objects. See the [Toolbar](/docs/product_docs/groupid/groupid/portal/toolbar.md) topic for additional information.
+You can perform multiple actions on objects. See the [Toolbar](/docs/groupid/groupid/portal/toolbar.md) topic for additional information.
 
 To move through search results, use the page numbers given at the bottom of the listing. You can also control the number of results per page by modifying the __Search results per page__ setting on the User Settings panel.

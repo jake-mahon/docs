@@ -9,7 +9,7 @@ Use this page to specify basic information about the group.
    This field will be read-only if the administrator has predefined a container for creating new groups.
 2. In the __Group Name__ box, provide a name for the group by selecting a prefix and then entering a name for the group.
 
-   NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the [Group Name Prefixes](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md) topic.  
+   NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the [Group Name Prefixes](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md) topic.  
     These prefixes, when
    appended to group names, help standardize the group naming convention across the enterprise.
 3. In the __Security__ list, select a security type for the group.

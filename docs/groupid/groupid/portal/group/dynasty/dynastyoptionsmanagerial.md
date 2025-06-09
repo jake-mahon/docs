@@ -7,7 +7,7 @@ On the Dynasty Options page:
 
 1. Use the __Top Manager__ field to specify the top-level manager, and thus, the start location for the Dynasty.
 
-   Click the ellipsis button and use the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md) to select a top manager.
+   Click the ellipsis button and use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) to select a top manager.
 2. Select an option from __Dynasty Type__ to specify the type of managerial Dynasty you want to create.
 
    - __Managerial List__
@@ -65,7 +65,7 @@ On the Dynasty Options page:
 
        Members: April
 
-     On the [Query Designer](/docs/product_docs/groupid/groupid/portal/group/querydesigner/overview.md) page, you can also specify a criterion to filter the managers for whom you want to create child groups in the Dynasty.
+     On the [Query Designer](/docs/groupid/groupid/portal/group/querydesigner/overview.md) page, you can also specify a criterion to filter the managers for whom you want to create child groups in the Dynasty.
 3. Select the __Include manager as member__ check box to include the manager as a member of their group along with their direct reports, while creating groups for the managerial structure. With this check box selected, the manager receives a copy of any email sent to the direct reports group.
 
    By default, this check box is not selected, indicating that the manager of each level of direct reports is not included in their respective group.

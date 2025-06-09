@@ -1,8 +1,8 @@
 # CDSA Job
 
-The CDSA Job is available through the Instant Job Library under the CDSA library. See the [Instant Job Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions of how to add this instant job to the Jobs tree. When installing the job, select __Local host__ on the Host pages of the Instant Job Wizard.
+The CDSA Job is available through the Instant Job Library under the CDSA library. See the [Instant Job Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions of how to add this instant job to the Jobs tree. When installing the job, select __Local host__ on the Host pages of the Instant Job Wizard.
 
-Ensure the supporting solutions have successfully collected and analyzed data prior to running this job. See the [Presentation Dependencies](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/cdsa/presentation.md) topic for alignment between presentation slides and jobs that supply the data points.
+Ensure the supporting solutions have successfully collected and analyzed data prior to running this job. See the [Presentation Dependencies](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/cdsa/presentation.md) topic for alignment between presentation slides and jobs that supply the data points.
 
 The CDSA job generates three PowerPoint files:
 

@@ -11,13 +11,13 @@ The standard taxonomies provided with Netwrix Data Classification include predef
 - German
 - Spanish
 
-  ![predefined_clues](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/predefined_clues.png)
+  ![predefined_clues](/img/product_docs/dataclassification/ndc/admin/taxonomies/predefined_clues.png)
 
 Users can easily extend the out-of-the-box classification rules by adding relevant keywords and terms in other languages.
 
 In addition, there are predefined classification rules for various national identification and registration numbers. These rules typically look for ID patterns supplemented by related keywords for better classification precision.
 
-![clues_1](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1.png)
+![clues_1](/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1.png)
 
 These rules are provided for the following countries (coverage varies):
 
@@ -43,7 +43,7 @@ These rules are provided for the following countries (coverage varies):
 
 To work with the clues, select the required subnode (terms set) under the taxonomy tree on the left and then select Clues  on the right:
 
-[![taxonomyclues_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyclues_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/taxonomyclues.png)
+[![taxonomyclues_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyclues_thumb_0_0.png)](/docs/dataclassification/resources/images/taxonomyclues.png)
 
 - For each clue in the list, you can view and manage its type, score, and other properties.
 - To add a new clue, go to the topmost row in the list and specify its properties.
@@ -52,7 +52,7 @@ To work with the clues, select the required subnode (terms set) under the taxono
 
 Click the Doc Counts link in the top right corner to get the number of documents that match the word / phrase used within the clue:
 
-![doccounts](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/doccounts.png)
+![doccounts](/img/product_docs/dataclassification/ndc/admin/taxonomies/doccounts.png)
 
 ## Suggested Clues
 
@@ -76,6 +76,6 @@ The suggested clues feature facilitates the process of tailoring classification 
 
 See also:
 
-[Types of Clues](/docs/product_docs/dataclassification/ndc/admin/taxonomies/cluestypes.md)
+[Types of Clues](/docs/dataclassification/ndc/admin/taxonomies/cluestypes.md)
 
-[Manage Clues](/docs/product_docs/dataclassification/ndc/admin/taxonomies/manageclues.md)
+[Manage Clues](/docs/dataclassification/ndc/admin/taxonomies/manageclues.md)

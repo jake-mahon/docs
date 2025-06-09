@@ -32,7 +32,7 @@ __Step 6 –__ Double-click the __Group Policy Management Editor__.
 
 __Step 7 –__ Close the __Group Policy Management Editor__.
 
-![preparing_the_computer](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.png)
+![preparing_the_computer](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.png)
 
 __Step 8 –__ Execute the ```gpupdate/target:computer``` command to refresh the Group Policy.
 
@@ -40,6 +40,6 @@ __Step 8 –__ Execute the ```gpupdate/target:computer``` command to refresh the
 
 Create two user accounts for the evaluation, __PPETestUser__ and __PPETestAdmin__.
 
-![preparing_the_computer_1](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer_1.png)
+![preparing_the_computer_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer_1.png)
 
 Make __PPETestAdmin__ a member of the Domain Admins group if you are evaluating Password Policy Enforcer on a domain controller.

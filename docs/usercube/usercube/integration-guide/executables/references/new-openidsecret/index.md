@@ -15,7 +15,7 @@ The name of the executable is: Usercube-New-OpenIDSecret.exe'.
 
 The output shows the client secret and its hashed version. It must be entered in the [
 OpenIdClient
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
 
 ## Arguments
 

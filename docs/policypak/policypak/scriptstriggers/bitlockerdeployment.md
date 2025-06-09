@@ -19,7 +19,7 @@ __Step 2 –__ Expand Computer Configuration -> Endpoint Policy Manager and clic
 
 __Step 3 –__ Add a new collection
 
-![66_1_image-20200725154035-1](/static/img/product_docs/policypak/policypak/scriptstriggers/66_1_image-20200725154035-1.png)
+![66_1_image-20200725154035-1](/img/product_docs/policypak/policypak/scriptstriggers/66_1_image-20200725154035-1.png)
 
 __Step 4 –__ Give the Collection a descriptive name and, if required, set Item Level Targeting (ILT can filter the policy based on many different criteria including computer type (e.g. laptops), Operating System (e.g. Windows 10) or Security Group (e.g. Sales))
 
@@ -27,7 +27,7 @@ __Step 5 –__ Double-click to open the collection
 
 __Step 6 –__ Add a new Policy
 
-![66_3_image-20200725154035-2_626x151](/static/img/product_docs/policypak/policypak/scriptstriggers/66_3_image-20200725154035-2_626x151.png)
+![66_3_image-20200725154035-2_626x151](/img/product_docs/policypak/policypak/scriptstriggers/66_3_image-20200725154035-2_626x151.png)
 
 __Step 7 –__ Browse to Windows Components and click on BitLocker Drive Encryption
 
@@ -38,7 +38,7 @@ __Step 8 –__ Open "Store BitLocker recovery information in Active Directory Do
 3. Set Select BitLocker recovery information to store: "Recovery passwords and key packages"
 4. Click OK
 
-   ![66_5_image-20200725154035-3_493x143](/static/img/product_docs/policypak/policypak/scriptstriggers/66_5_image-20200725154035-3_493x143.png)
+   ![66_5_image-20200725154035-3_493x143](/img/product_docs/policypak/policypak/scriptstriggers/66_5_image-20200725154035-3_493x143.png)
 
 __Step 9 –__ In the same location, open "Choose drive encryption method and cipher strength (Windows 10 [version 1511] and later) and set the following configuration
 
@@ -46,11 +46,11 @@ __Step 9 –__ In the same location, open "Choose drive encryption method and ci
 2. Set the encryption method for drive type (CBC-AES is recommended for drives that may connect to non-Windows 10 computers)
 3. Click OK
 
-   ![66_7_image-20200725154035-4](/static/img/product_docs/policypak/policypak/scriptstriggers/66_7_image-20200725154035-4.png)
+   ![66_7_image-20200725154035-4](/img/product_docs/policypak/policypak/scriptstriggers/66_7_image-20200725154035-4.png)
 
 __Step 10 –__ Click CLOSE
 
-![66_9_image-20200725154035-5](/static/img/product_docs/policypak/policypak/scriptstriggers/66_9_image-20200725154035-5.png)
+![66_9_image-20200725154035-5](/img/product_docs/policypak/policypak/scriptstriggers/66_9_image-20200725154035-5.png)
 
 __NOTE:__  If deploying different BitLocker configurations for different groups of users or computers, repeat steps 4 through 10 for each different configuration, setting the ILT on the collection to target your desired groupings.
 
@@ -61,14 +61,14 @@ __Step 12 –__ Add a new policy to start the Scripts Manager wizard
 1. Click NEXT
 2. Select "Apply this policy to computer (default) and click NEXT
 
-   ![66_11_image-20200725154035-6_489x65](/static/img/product_docs/policypak/policypak/scriptstriggers/66_11_image-20200725154035-6_489x65.png)
+   ![66_11_image-20200725154035-6_489x65](/img/product_docs/policypak/policypak/scriptstriggers/66_11_image-20200725154035-6_489x65.png)
 3. Configure "On apply action"
 
    1. On the dropdown that says "(None)", select "Batch Script" and type in the following text
 
       ```Manage-bde -on %systemdrive% -Used```
 
-      ![66_13_image-20200814161653-2](/static/img/product_docs/policypak/policypak/scriptstriggers/66_13_image-20200814161653-2.png)
+      ![66_13_image-20200814161653-2](/img/product_docs/policypak/policypak/scriptstriggers/66_13_image-20200814161653-2.png)
    2. Click NEXT
 4. Configure "On revert action"
 
@@ -76,11 +76,11 @@ __Step 12 –__ Add a new policy to start the Scripts Manager wizard
 
       ```Manage-bde -off %systemdrive%```
 
-      ![66_14_image-20200725154035-8](/static/img/product_docs/policypak/policypak/scriptstriggers/66_14_image-20200725154035-8.png)
+      ![66_14_image-20200725154035-8](/img/product_docs/policypak/policypak/scriptstriggers/66_14_image-20200725154035-8.png)
    2. Click NEXT
 5. Select either "Once" or "Once or when forced" and click NEXT
 
-   ![66_16_image-20200725154035-9](/static/img/product_docs/policypak/policypak/scriptstriggers/66_16_image-20200725154035-9.png)
+   ![66_16_image-20200725154035-9](/img/product_docs/policypak/policypak/scriptstriggers/66_16_image-20200725154035-9.png)
 6. Give the policy a descriptive name and set Item Level Targeting if required
 7. Click FINISH
 

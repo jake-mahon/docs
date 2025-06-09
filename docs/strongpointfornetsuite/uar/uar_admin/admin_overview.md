@@ -1,6 +1,6 @@
 # UAR Admin
 
-__UAR Admin__manages the UAR process. Administrators login to NetSuite and open [User Access Review](/docs/product_docs/strongpointfornetsuite/uar/access_app.md) to access the dashboard. UAR administrators can:
+__UAR Admin__manages the UAR process. Administrators login to NetSuite and open [User Access Review](/docs/strongpointfornetsuite/uar/access_app.md) to access the dashboard. UAR administrators can:
 
 - Assign owners to a role
 - Create Reviews to a Role
@@ -8,15 +8,15 @@ __UAR Admin__manages the UAR process. Administrators login to NetSuite and ope
 
 Here is an example of the Admin dashboard displayed when you log in:
 
-![Admin Dashboard](/static/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.png)
+![Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.png)
 
 ## Dashboard Controls
 
 - __Home__ icon is your dashboard overview, and the default display when you log in.
 - __Owner List__ displays all reviews with an assigned owner.
 - __Pending Role Assignments__ displays all reviews without an assigned owner.
-- __UAR List__ is your __[User Access Reviews List](/docs/product_docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)__.
-- __UAR History__ is your __[User Access Reviews History](/docs/product_docs/strongpointfornetsuite/uar/uar_history.md)__.
+- __UAR List__ is your __[User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)__.
+- __UAR History__ is your __[User Access Reviews History](/docs/strongpointfornetsuite/uar/uar_history.md)__.
 - __Open Global Reviews__ shortcut shows the number of open reviews. Opens your __User Access Reviews List__.
 - __Pending Role Assignments__ shortcut shows the number of roles without review owners. Opens your __Pending Role Assignments List__.
 - __Open Change Requests__ shortcut shows the number of open change requests. Opens the __User Access Open Change Requests__ list.

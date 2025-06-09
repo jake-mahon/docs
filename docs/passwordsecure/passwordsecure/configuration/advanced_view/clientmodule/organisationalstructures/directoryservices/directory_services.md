@@ -4,6 +4,6 @@ It is possible to use existing user and group structures from external directori
 
 Choose your preferred integration method:
 
-- [Microsoft Entra ID connection](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_connection.md)
+- [Microsoft Entra ID connection](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_connection.md)
 
-- [Active Directory link](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md)
+- [Active Directory link](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md)

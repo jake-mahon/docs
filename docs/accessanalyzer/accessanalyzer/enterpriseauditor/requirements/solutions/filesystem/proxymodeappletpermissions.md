@@ -9,7 +9,7 @@ Configure the credential(s) with the following rights on the proxy server(s):
 - Granted the Log on as a batch privilege
 - If the applet is deployed as a service, the service account requires the Log on as a service privilege
 
-  - See the [FSAA: Applet Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for additional information on the applet launch mechanism
+  - See the [FSAA: Applet Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for additional information on the applet launch mechanism
 - If running FSAC, the service account in the credential profile requires access to the admin share (e.g. ```C$```) where the ```sbtfilemon.ini``` file exists
 
 Additionally, the credential must have ```WRITE``` access to the ```…\StealthAUDIT\FSAA``` folder in the installation directory on the proxy server as well as on the Access Analyzer Console server. This is required by either the user account running the Access Analyzer application, when manually executing jobs within the console, or the Schedule Service Account assigned within Access Analyzer, when running jobs as a scheduled tasks.
@@ -33,8 +33,8 @@ Sensitive Data Discovery Auditing scans require .NET Framework 4.7.2 or later to
 
 When running Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, the credentials within the Connection Profile assigned to the File System scans must be properly configured as explained above. Also the firewall rules must be configured to allow for communication between the applicable servers.
 
-See the [Proxy Mode with Applet Port Requirements](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md) topic for firewall rule information.
+See the [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md) topic for firewall rule information.
 
 Secure Proxy Communication Considerations
 
-For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port must be configured via the File System Access Auditing Data Collector Wizard prior to executing a scan. See the [FSAA Applet Certificate Management Overview](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md) topic for additional information.
+For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port must be configured via the File System Access Auditing Data Collector Wizard prior to executing a scan. See the [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md) topic for additional information.

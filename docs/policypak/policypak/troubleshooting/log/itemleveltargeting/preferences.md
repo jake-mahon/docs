@@ -4,11 +4,11 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Item Level Targeting is a f
 
 The ILT editor in Group Policy Preferences can be seen in every Group Policy Preferences item, like what's seen here.
 
-![196_1_img-01](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_1_img-01.jpg)
+![196_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_1_img-01.jpg)
 
 The ILT editor in Endpoint Policy Manager can be seen in nearly all Endpoint Policy Manager items, like what's seen here.
 
-![196_3_img-02](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_3_img-02.jpg)
+![196_3_img-02](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_3_img-02.jpg)
 
 If you think your Item Level Targeting isn't working, we ask that you first "backtrack" to a quick Group Policy Preferences test and try it there first.
 
@@ -22,23 +22,23 @@ __Step 2 –__ Create a Group Policy Preferences Shortcut WITH your Item Level T
 
 So, again, use Group Policy Preferences and create a new Group Policy Preferences shortcut to www.1.com , on the DESKTOP, with TARGET URL being www.1.com and pick any icon you want.
 
-![196_5_img-03](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_5_img-03.jpg)
+![196_5_img-03](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_5_img-03.jpg)
 
 ## Part 2:
 
 Use Group Policy Preferences to create a Group Policy Preferences shortcut to www.2.com, on the DESKTOP, with TARGET URL being www.2.com and pick any icon you want.. then click in the COMMON tab and select Item Level Targeting, and put in your proposed ILT.
 
-![196_7_img-04](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_7_img-04.jpg)
+![196_7_img-04](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_7_img-04.jpg)
 
-![196_9_img-05](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_9_img-05.jpg)
+![196_9_img-05](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_9_img-05.jpg)
 
 Before you test, let's make sure we fully understand the experiment…
 
-![196_11_img-06](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_11_img-06.jpg)
+![196_11_img-06](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_11_img-06.jpg)
 
 Then on the endpoint run GPupdate… Here is the result you should get:
 
-![196_13_img-07](/static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_13_img-07.jpg)
+![196_13_img-07](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_13_img-07.jpg)
 
 So:
 
@@ -50,6 +50,6 @@ Now… how does Endpoint Policy Manager fit into this?
 
 If you take the WORKING ILT evaluation and use it in a Endpoint Policy Manager item… and it STILL doesn't work. Then we can attempt to investigate it.
 
-That being said if you're really sure an ILT evaluation functions correctly in Group Policy Preferences (see above) but not in Endpoint Policy Manager … you can continue to troubleshoot by turning on ILT logging for Endpoint Policy Manager items using this KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting.md)
+That being said if you're really sure an ILT evaluation functions correctly in Group Policy Preferences (see above) but not in Endpoint Policy Manager … you can continue to troubleshoot by turning on ILT logging for Endpoint Policy Manager items using this KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/policypak/policypak/troubleshooting/log/itemleveltargeting.md)
 
 All log files require a support case to analyze.

@@ -6,7 +6,7 @@ Follow the steps to remove a resource from being managed through the application
 
 __Step 1 –__ In the Resource Owners interface, select the resource and click Remove. The Confirm Removal window opens.
 
-![Confirm Removal window asking are you sure you wish to remove](/static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.png)
+![Confirm Removal window asking are you sure you wish to remove](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.png)
 
 __Step 2 –__ Click Yes to complete the removal process or __No__ to cancel it.
 

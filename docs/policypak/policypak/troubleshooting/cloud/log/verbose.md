@@ -12,4 +12,4 @@ __Step 2 –__ Modify and paste the following command:
 
 More parameters for msiexec command may be found at [https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc759262(v=ws.10)?redirectedfrom=MSDN](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc759262(v=ws.10)?redirectedfrom=MSDN)
 
-![928_1_image-20230207215348-7_950x351](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/log/928_1_image-20230207215348-7_950x351.png)
+![928_1_image-20230207215348-7_950x351](/img/product_docs/policypak/policypak/troubleshooting/cloud/log/928_1_image-20230207215348-7_950x351.png)

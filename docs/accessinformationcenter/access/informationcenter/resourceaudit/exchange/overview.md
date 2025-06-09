@@ -9,4 +9,4 @@ A single Exchange Server can have multiple instances. Each instance where data i
 
 The following report is available at the __Exchange__ node:
 
-- [Sensitive Content Summary Report](/docs/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/exchange/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/exchange/sensitivecontentsummary.md)

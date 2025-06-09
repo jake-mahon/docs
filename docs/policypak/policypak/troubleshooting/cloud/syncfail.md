@@ -4,11 +4,11 @@ Right now, we realize the Netwrix Endpoint Policy Manager (formerly PolicyPak) C
 
 A manual sync with Cloud Client 23.5 might fail to operate and present errors like this:
 
-![887_1_image-20230525200517-1_950x212](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_1_image-20230525200517-1_950x212.png)
+![887_1_image-20230525200517-1_950x212](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_1_image-20230525200517-1_950x212.png)
 
 A manual PPCLOUD /sync pre-23.5 might look like this on a failed manual sync attempt:
 
-![887_2_image_950x371](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_2_image_950x371.png)
+![887_2_image_950x371](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_2_image_950x371.png)
 
 We are actively working on the issues as they come up.
 
@@ -24,29 +24,29 @@ To verify for yourself that that background syncs are occurring, when using the 
 
 __NOTE:__ Future versions of Endpoint Policy Manager Cloud client are slated to have its own event log.
 
-![887_3_image-20230525200517-2](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_3_image-20230525200517-2.png)
+![887_3_image-20230525200517-2](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_3_image-20230525200517-2.png)
 
 Here's an example of a machine when syncs happen in the background, across a few log events (from earliest to latest event on an automatic, background sync.)
 
-![887_4_image-20230525200517-3_950x169](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_4_image-20230525200517-3_950x169.png)
+![887_4_image-20230525200517-3_950x169](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_4_image-20230525200517-3_950x169.png)
 
 To look at them in order we have…
 
-![887_5_image-20230525200517-4_950x172](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_5_image-20230525200517-4_950x172.png)
+![887_5_image-20230525200517-4_950x172](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_5_image-20230525200517-4_950x172.png)
 
-![887_6_image-20230525200517-5_950x161](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_6_image-20230525200517-5_950x161.png)
+![887_6_image-20230525200517-5_950x161](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_6_image-20230525200517-5_950x161.png)
 
-![887_7_image-20230525200517-6_950x184](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_7_image-20230525200517-6_950x184.png)
+![887_7_image-20230525200517-6_950x184](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_7_image-20230525200517-6_950x184.png)
 
-![887_8_image-20230525200517-7_950x179](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_8_image-20230525200517-7_950x179.png)
+![887_8_image-20230525200517-7_950x179](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_8_image-20230525200517-7_950x179.png)
 
-![887_9_image-20230525200517-8_950x217](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_9_image-20230525200517-8_950x217.png)
+![887_9_image-20230525200517-8_950x217](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_9_image-20230525200517-8_950x217.png)
 
-![887_10_image-20230525200517-9_950x199](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_10_image-20230525200517-9_950x199.png)
+![887_10_image-20230525200517-9_950x199](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_10_image-20230525200517-9_950x199.png)
 
-![887_11_image-20230525200517-10_950x226](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_11_image-20230525200517-10_950x226.png)
+![887_11_image-20230525200517-10_950x226](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_11_image-20230525200517-10_950x226.png)
 
-![887_12_image-20230525200517-11_950x267](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.png)
+![887_12_image-20230525200517-11_950x267](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.png)
 
 __NOTE:__ Only when you see the message "...has been proceeded successfully" is an indication of a truly successful sync and policy update.
 
@@ -56,14 +56,14 @@ There is less detail in the event logs in previous versions.
 
 On Pre-23.5 machines, you can see similar events like this for success.
 
-![887_13_image-20230525200517-12_950x586](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_13_image-20230525200517-12_950x586.png)
+![887_13_image-20230525200517-12_950x586](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_13_image-20230525200517-12_950x586.png)
 
 And like this for failure during a background sync.
 
-![887_14_image-20230525200517-13_950x437](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_14_image-20230525200517-13_950x437.png)
+![887_14_image-20230525200517-13_950x437](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_14_image-20230525200517-13_950x437.png)
 
 # Final Thoughts: PPCLOUD /status
 
 In all cases, using Endpoint Policy Manager CLOUD /status will NOT perform a sync but will tell you the final result of policies upon the machine. This is helpful so you can know what the machine's current state actually is. Example with some text removed to save space…
 
-![887_15_image-20230525200517-14_950x1022](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_15_image-20230525200517-14_950x1022.png)
+![887_15_image-20230525200517-14_950x1022](/img/product_docs/policypak/policypak/troubleshooting/cloud/887_15_image-20230525200517-14_950x1022.png)

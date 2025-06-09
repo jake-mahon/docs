@@ -15,18 +15,18 @@ All data tables used in Access Analyzer action modules require the presence of c
 The Survey action module is configured through the Survey Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Survey: Template](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/template.md) (Legacy feature)
-- [Survey: Introduction](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/introduction.md)
-- [Survey: Questions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/questions.md)
-- [Survey HTML Style](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/htmlstyle.md)
-- [Survey: Web Server](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.md)
-- [Survey: Mail – Properties](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailproperties.md)
-- [Survey: Mail – Message](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailmessage.md)
-- [Survey: Test Survey](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/testsurvey.md)
-- [Survey: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/summary.md)
+- [Survey: Template](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/template.md) (Legacy feature)
+- [Survey: Introduction](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/introduction.md)
+- [Survey: Questions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/questions.md)
+- [Survey HTML Style](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/htmlstyle.md)
+- [Survey: Web Server](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.md)
+- [Survey: Mail – Properties](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailproperties.md)
+- [Survey: Mail – Message](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/mailmessage.md)
+- [Survey: Test Survey](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/testsurvey.md)
+- [Survey: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/survey/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane contains links to the pages in the wizard.
 
-![Survey Action Module Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Survey Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

@@ -2,7 +2,7 @@
 
 The Attribute Changes report for a user object provides specific details for every attribute change to the audited user during the selected date range.
 
-![Attribute Changes report](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/attributechanges.png)
+![Attribute Changes report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/attributechanges.png)
 
 This report is comprised of the following columns:
 

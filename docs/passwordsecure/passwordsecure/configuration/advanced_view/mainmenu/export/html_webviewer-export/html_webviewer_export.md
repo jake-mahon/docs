@@ -2,12 +2,12 @@
 
 ## What is a HTML WebViewer export?
 
-The __WebViewer__ is an option inNetwrix Password Secure for exporting passwords in an encrypted __HTML file__. The records are selected using the [Filter](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md) function. The passwords for which the user has the corresponding permissions are exported. They are displayed in a current browse that has __JavaScript activated__.
+The __WebViewer__ is an option inNetwrix Password Secure for exporting passwords in an encrypted __HTML file__. The records are selected using the [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md) function. The passwords for which the user has the corresponding permissions are exported. They are displayed in a current browse that has __JavaScript activated__.
 
 ## Data security
 
 - Naturally, the HTML WebViewer file is __encrypted__
-- The export of the file is protected using a corresponding [User rights](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
+- The export of the file is protected using a corresponding [User rights](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
 - The user requires the __export right__ for the passwords
 
 ## Required rights
@@ -20,13 +20,13 @@ User right
 
 The __export right__ for the password is configured as normal via the ribbon:
 
-![installation_with_parameters_65](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_65.png)
+![installation_with_parameters_65](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_65.png)
 
 ## Exporting a HTML file
 
 The __HTML file__ is created on the user\*s client and started in the __Main menu__ under __Export WebViewer__.
 
-![installation_with_parameters_66](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_66.png)
+![installation_with_parameters_66](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_66.png)
 
 The __HTML WebViewer Wizard__ carries out the \* WebViewer export\*.
 
@@ -48,19 +48,19 @@ __Standard value:__ 60 seconds, user can define the time
 
 Export __WebViewer__ with __user password__ or new freely __definable password__: You can decide here whether to issue a new password for the export.
 
-![installation_with_parameters_67](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_67.png)
+![installation_with_parameters_67](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_67.png)
 
 - WebViewer export with an Active Directory user
 
 If an __Active Directory user__ is carrying out the __WebViewer__ export, a __password__ needs to be explicitly entered.
 
-![installation_with_parameters_68](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_68.png)
+![installation_with_parameters_68](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_68.png)
 
 ###### Export filter
 
 The export filter works in the same way as the filters for the modules.
 
-![installation_with_parameters_69](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_69.png)
+![installation_with_parameters_69](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_69.png)
 
 #### Finish
 
@@ -68,11 +68,11 @@ The information about the exported passwords is displayed in the __Finish__ ribb
 
 button will then create the __HTML__ __file__ in the export path and close the window.
 
-![installation_with_parameters_70](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_70.png)
+![installation_with_parameters_70](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_70.png)
 
 A subsequent note provides you with information about the export process.
 
-![installation_with_parameters_71](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_71.png)
+![installation_with_parameters_71](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_71.png)
 
 ## Using the HTML WebViewer file
 
@@ -84,7 +84,7 @@ __CAUTION:__ The login mask is blocked for a period of time if the password is i
 2. User: Predefined
 3. Password: Entered by the user
 
-![Login HTML WebViewer](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_72-en.png)
+![Login HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_72-en.png)
 
 ###### Overview
 
@@ -98,7 +98,7 @@ NOTE: Use the password search function in the event of more than 20 passwords!
 4. Copytoclipboard
 5. Reveal
 
-![Entry in HTML WebViewer](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_73-en.png)
+![Entry in HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_73-en.png)
 
 #### Closing the HTML WebViewer overview
 

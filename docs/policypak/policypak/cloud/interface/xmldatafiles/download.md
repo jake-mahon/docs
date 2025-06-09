@@ -11,12 +11,12 @@ Getting Endpoint Policy Manager Application Settings Manager up and going on-pre
 
 Click on the download icon to take an existing XML data file and begin the download.
 
-![web_interface_and_controls_10_624x122](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_10_624x122.png)
+![web_interface_and_controls_10_624x122](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_10_624x122.png)
 
 Then, in the corresponding on-prem MMC editor, you would click on __Import settings from XMLData File__
 
-![web_interface_and_controls_11_562x273](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_11_562x273.png)
+![web_interface_and_controls_11_562x273](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_11_562x273.png)
 
 __NOTE:__ Different MMC snap-ins and editors could have somewhat different options for importing from XML.
 
-![web_interface_and_controls_12_562x337](/static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_12_562x337.png)
+![web_interface_and_controls_12_562x337](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_12_562x337.png)

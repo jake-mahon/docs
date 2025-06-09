@@ -6,4 +6,4 @@ Please note, however, that to get a better understanding of how your policies ar
 
 [![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/troubleshooting/mac/understanding_cloud_log.png)](https://hf-files-oregon.s3.amazonaws.com/hdppolicypak_kb_attachments/2024/04-22/1049ddef-0719-4deb-b1ee-bdc131b8f4b1/image-20240422200349-4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/mac/understanding_cloud_log.png)](https://hf-files-oregon.s3.amazonaws.com/hdppolicypak_kb_attachments/2024/04-22/1049ddef-0719-4deb-b1ee-bdc131b8f4b1/image-20240422200349-4.png)

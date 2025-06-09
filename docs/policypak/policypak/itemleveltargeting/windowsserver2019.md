@@ -2,13 +2,13 @@
 
 Depending on the editor you are using, your Item Level Target (ILT) editor may show one of either these two:
 
-![88_1_image007](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_1_image007.jpg)
+![88_1_image007](/img/product_docs/policypak/policypak/itemleveltargeting/88_1_image007.jpg)
 
-![88_2_image008](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_2_image008.jpg)
+![88_2_image008](/img/product_docs/policypak/policypak/itemleveltargeting/88_2_image008.jpg)
 
 In both cases, they produce the same Item Level Targeting Filter in XML, like this:
 
-![88_3_image009](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_3_image009.jpg)
+![88_3_image009](/img/product_docs/policypak/policypak/itemleveltargeting/88_3_image009.jpg)
 
 In this way, there is no distinction between 2016 and 2019 servers. This is not a Netwrix Endpoint Policy Manager (formerly PolicyPak) bug, because Endpoint Policy Manager is using the underlying Group Policy Preferences Item Level Targeting editor and evaluation.
 
@@ -26,11 +26,11 @@ You would use 1809 to match for Server 2019 and 1607 to match for Server 2016.
 
 Therefore you can match on Server 2016 when you make your ILT exactly like this:
 
-![88_4_image010](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_4_image010.jpg)
+![88_4_image010](/img/product_docs/policypak/policypak/itemleveltargeting/88_4_image010.jpg)
 
 And match on Server 2019 like this:
 
-![88_5_image012](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_5_image012.jpg)
+![88_5_image012](/img/product_docs/policypak/policypak/itemleveltargeting/88_5_image012.jpg)
 
 Additionally, if you wanted to limit your targeting to only affect server core installations, you can use this registry match:
 
@@ -40,10 +40,10 @@ __NOTE:__  If you prefer to target the CurrentBuild instead of the ReleaseID, yo
 
 __Step 1 –__ Locate the CurrentBuildNumber using the registry.
 
-![88_6_image-20190927143735-1](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_6_image-20190927143735-1.png)
+![88_6_image-20190927143735-1](/img/product_docs/policypak/policypak/itemleveltargeting/88_6_image-20190927143735-1.png)
 
 __Step 2 –__ Then set your ILT to something similar to this:
 
 Windows 10 and BuildNumber <= 17704
 
-![88_7_image](/static/img/product_docs/policypak/policypak/itemleveltargeting/88_7_image.png)
+![88_7_image](/img/product_docs/policypak/policypak/itemleveltargeting/88_7_image.png)

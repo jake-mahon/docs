@@ -11,6 +11,6 @@ Therefore, instead of relying on RDP to remote control into a server to perform 
 
 The best part is, if you are only interested in the Endpoint Policy Manager + Netwrix Privilege Secure Better Together story, you only have to pay for the Netwrix Privilege Secure licenses. That is, there is no required endpoint license when Netwrix Privilege Secure is used alongside a Endpoint Policy Manager directive (where Netwrix Privilege Secure is involved.) You will see more as we go along but, if you are using Netwrix Privilege Secure and want to try out the power of Endpoint Policy Manager, that is included in your Netwrix Privilege Secure license.
 
-__NOTE:__ See the [Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/product_docs/policypak/policypak/video/leastprivilege/integration/privilegesecure.md)video for a demo on the relationship of the Netwrix Privilege Secure and Endpoint Policy Manager downloads and moving parts.
+__NOTE:__ See the [Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/policypak/policypak/video/leastprivilege/integration/privilegesecure.md)video for a demo on the relationship of the Netwrix Privilege Secure and Endpoint Policy Manager downloads and moving parts.
 
 __NOTE:__ All Netwrix Privilege Secure + Endpoint Policy Manager documentation from Netwrix Privilege Secure can be found in [Netwrix Privilege Secure for Endpoints Documentation](https://helpcenter.netwrix.com/category/privilegesecure_endpoints).

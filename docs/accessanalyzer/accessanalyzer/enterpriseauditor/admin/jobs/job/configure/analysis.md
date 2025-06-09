@@ -4,7 +4,7 @@ The Analysis node uses Access Analyzer analysis modules to run analysis tasks on
 
 The Notification analysis module allows for the ability to send an email notice when a trigger is met, for example an email can be sent to an administrator to notify that disk space has reached a particular point (the trigger) and needs to be addressed before space runs out.
 
-![Analysis Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisselection.png)
+![Analysis Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisselection.png)
 
 The Analysis Selection view lists all analysis tasks for the selected job. The listed information includes:
 
@@ -13,7 +13,7 @@ The Analysis Selection view lists all analysis tasks for the selected job. The l
 - Module – Name of the Access Analyzer analysis module
 - HostLists – Indicates the analysis task is applicable to hosts found in the referenced host lists, applies to analysis modules that use host list filters, for example __Business Rules__ analysis module
 
-![Option at the top of the Analysis Section](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonstop.png)
+![Option at the top of the Analysis Section](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonstop.png)
 
 The Analysis section at the top has four options:
 
@@ -21,11 +21,11 @@ The Analysis section at the top has four options:
 - Delete Analysis – Deletes the selected analysis task from the list
   - This action does require confirmation
 - Analysis Properties – Opens the Analysis Properties window for the selected analysis task
-  - See the [Analysis Properties Page](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/overview.md#Analysis-Properties-Page) topic for additional information.
-  - See the individual analysis module sections in the [Analysis Modules](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/overview.md) topic for additional information.
+  - See the [Analysis Properties Page](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/overview.md#Analysis-Properties-Page) topic for additional information.
+  - See the individual analysis module sections in the [Analysis Modules](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/overview.md) topic for additional information.
 - Analysis Configuration – Opens the selected analysis task’s configuration window
 
-![Buttons at the bottom of the Analysis Selection page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonsbottom.png)
+![Buttons at the bottom of the Analysis Selection page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonsbottom.png)
 
 At the bottom of the Analysis Selection view, there are action buttons that apply to the table:
 
@@ -38,7 +38,7 @@ At the bottom of the Analysis Selection view, there are action buttons that appl
 
 The Analysis Selection view also has its own right-click menu for taking action on the analysis task or the job.
 
-![Analysis Selection page right-click menu](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisrightclickmenu.png)
+![Analysis Selection page right-click menu](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisrightclickmenu.png)
 
 The options for the Analysis node right-click menu are:
 
@@ -52,5 +52,5 @@ The options for the Analysis node right-click menu are:
 - Test Scorecard SQL – Validates all analysis tasks where the Business Rules analysis module was used
 - Execute Analyses – Executes or runs the checked (enabled) analysis tasks
 - Run Job – Starts job execution for the selected job
-- Add Instant Job – Opens the [Instant Job Wizard](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+- Add Instant Job – Opens the [Instant Job Wizard](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 - Create Job (Ctrl + Alt + A) – Creates a new job at the same location as the selected job

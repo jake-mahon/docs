@@ -2,7 +2,7 @@
 
 The Confirm Ownership wizard is opened with the __Request Confirmation__ button in the Resource Owners interface. It can be opened for one or multiple resources.
 
-![Confirm Ownership wizard showing 1.Select Owners page](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.png)
+![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.png)
 
 It contains one page:
 
@@ -14,7 +14,7 @@ Follow the steps to request ownership confirmation.
 
 __Step 1 –__ In the Resource Owners interface, select the desired resource or resources and click Request Confirmation. The Confirm Ownership wizard opens.
 
-![Confirm Ownership wizard showing 1.Select Owners page](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.png)
+![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.png)
 
 __Step 2 –__ On the Select Owners page, you can optionally remove owners you do not want or need ownership confirmation from. Select those owners and click __Remove__. Those owners will not receive the confirmation email. Once the list is set as desired, click __Finish__. The Access Reviews application begins to send the confirmation email. The table provides the following information:
 
@@ -22,8 +22,8 @@ __Step 2 –__ On the Select Owners page, you can optionally remove owners you d
 - Owner Name — Name of the assigned owner
 - Confirmed — Indicates whether or not the assigned owner has confirmed ownership of that resource. Tool-tips display when hovering over the icons indicating whether the resource ownership has been confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![selectownerstaskcompleted](/static/img/product_docs/auditor/access/reviews/resourceowners/wizard/selectownerstaskcompleted.png)
+![selectownerstaskcompleted](/img/product_docs/auditor/access/reviews/resourceowners/wizard/selectownerstaskcompleted.png)
 
 __Step 3 –__ The action status displays on the page. When the owner confirmation notification has completed (100%), click Close. The Confirm Ownership wizard closes.
 
-The selected owners receive an email from the Access Reviews application asking if they are the owner of the assigned resource. See the [Ownership Confirmation Request Email](/docs/product_docs/auditor/access/reviews/resourceowners/email/confirmationrequest.md) topic for additional information.
+The selected owners receive an email from the Access Reviews application asking if they are the owner of the assigned resource. See the [Ownership Confirmation Request Email](/docs/auditor/access/reviews/resourceowners/email/confirmationrequest.md) topic for additional information.

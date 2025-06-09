@@ -17,11 +17,11 @@ __Step 3 –__ Copy the ```C:\temp\"Company WiFi.xml"``` to Dropbox, then create
 
 __Step 4 –__ Create the WLAN GPO and apply it to the OU where the Computers live, next use Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts Manager > on the Computer side to create a new policy it
 
-![658_1_img-1](/static/img/product_docs/policypak/policypak/scriptstriggers/497_1_img-1.png)
+![658_1_img-1](/img/product_docs/policypak/policypak/scriptstriggers/497_1_img-1.png)
 
 __Step 5 –__ At the "Specify policy target screen be sure to use switched mode for the policy.
 
-![658_2_img-2](/static/img/product_docs/policypak/policypak/scriptstriggers/497_2_img-2.png)
+![658_2_img-2](/img/product_docs/policypak/policypak/scriptstriggers/497_2_img-2.png)
 
 __Step 6 –__ For the Apply action use the script below (remember to use the PowerShell Script option from the drop down).
 
@@ -53,11 +53,11 @@ __Step 6 –__ For the Apply action use the script below (remember to use the Po
 
 __Step 7 –__ Verify that "Run script as user" check box is checked, then click next.
 
-![658_3_img-3_950x601](/static/img/product_docs/policypak/policypak/scriptstriggers/658_3_img-3_950x601.png)
+![658_3_img-3_950x601](/img/product_docs/policypak/policypak/scriptstriggers/658_3_img-3_950x601.png)
 
 __Step 8 –__ For the "Policy process mode configuration" screen specify "Once or when forced", then click save.
 
-![658_4_img-4](/static/img/product_docs/policypak/policypak/scriptstriggers/658_4_img-4.png)
+![658_4_img-4](/img/product_docs/policypak/policypak/scriptstriggers/658_4_img-4.png)
 
 __NOTE:__ The same policy will work if applied to user side and user OU as well.
 

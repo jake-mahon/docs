@@ -1,6 +1,6 @@
 # Reporting Module Installation
 
-Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the prerequisites have been met in accordance with the [Reporting Module Server Requirements](/docs/product_docs/threatprevention/threatprevention/requirements/reportingserver.md) topic.
+Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the prerequisites have been met in accordance with the [Reporting Module Server Requirements](/docs/threatprevention/threatprevention/requirements/reportingserver.md) topic.
 
 The Netwrix Threat Manager Reporting Module installer (threatmanager-reportonly-3.0.x.zip) is available for download with the Netwrix Threat Prevention installation package, and contains three executable files.
 
@@ -55,11 +55,11 @@ Follow the steps to install the Netwrix Threat Manager Reporting Module applicat
 
 __Step 1 –__ Right-click on ```Netwrix_Setup.exe``` and select Run as administrator. The Netwrix Setup launcher opens. You can now install the following components on the same server:
 
-![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.png)
+![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.png)
 
-- Click PostgreSQL Setup to install the database. See the [Install the PostgreSQL Database Application](/docs/product_docs/threatprevention/threatprevention/install/reportingmodule/database.md) topic for additional information.
-- Click Netwrix Threat Manager Reporting to install the application. See the [Install the Netwrix Threat Manager Reporting Module](/docs/product_docs/threatprevention/threatprevention/install/reportingmodule/application.md) topic for additional information.
+- Click PostgreSQL Setup to install the database. See the [Install the PostgreSQL Database Application](/docs/threatprevention/threatprevention/install/reportingmodule/database.md) topic for additional information.
+- Click Netwrix Threat Manager Reporting to install the application. See the [Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/threatprevention/install/reportingmodule/application.md) topic for additional information.
 
-__Step 2 –__ Log into the console for the first time. See the [First Launch](/docs/product_docs/threatprevention/threatprevention/install/reportingmodule/firstlaunch.md) topic for additional information.
+__Step 2 –__ Log into the console for the first time. See the [First Launch](/docs/threatprevention/threatprevention/install/reportingmodule/firstlaunch.md) topic for additional information.
 
-After completing the first launch, it is time to complete the initial configuration. See the [Set Up the Threat Manager Reporting Module](/docs/product_docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for additional information.
+After completing the first launch, it is time to complete the initial configuration. See the [Set Up the Threat Manager Reporting Module](/docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for additional information.

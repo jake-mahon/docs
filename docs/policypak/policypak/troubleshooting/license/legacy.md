@@ -27,7 +27,7 @@
 ## How do I know if I'm using LEGACY licenses, UNIVERSAL licenses, or both?
 
 - Please watch this video to help you determine your position and situation plus some advice on what to do.
-- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/product_docs/policypak/policypak/video/license/legacy.md)
+- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/policypak/policypak/video/license/legacy.md)
 
 ## Where can I get UNIVERSAL licenses?
 
@@ -35,14 +35,14 @@
 - When we cut keys for existing customers (who started before 2021) we always provided Universal keys and sometimes provided Legacy keys.
 - Therefore: You should be able to pick up your existing keys at portal.policypak.com. Example of how to find existing keys:
 
-  ![840_1_1](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_1_1.png)
+  ![840_1_1](/img/product_docs/policypak/policypak/troubleshooting/license/840_1_1.png)
 - Only email [support@policypak.com](mailto:support@policypak.com) if you cannot locate your Universal license because it should already be in the Portal at portal.policypak.com.
 
 ## In the portal, after I download my license keys, how can I tell which are UNIVERSAL and which are LEGACY keys?
 
 - Example download of valid dates with both Universal and Legacy keys, but only Universal keys will be honored past Feb 28, 2023:
 
-  ![840_2_2_950x572](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_2_2_950x572.png)
+  ![840_2_2_950x572](/img/product_docs/policypak/policypak/troubleshooting/license/840_2_2_950x572.png)
 
 ## What must I do to keep PolicyPak working if I am affected?:
 
@@ -55,16 +55,16 @@
   - Update the CSE to the latest version (3421 or later) on your endpoints.
   - Use a Endpoint Policy Manager ADMX setting which will give you +90 days to implement the Universal license. See screen shot below:
 
-![1231_licenseadmxsetting](/static/img/product_docs/policypak/policypak/troubleshooting/license/1231_licenseadmxsetting.png)
+![1231_licenseadmxsetting](/img/product_docs/policypak/policypak/troubleshooting/license/1231_licenseadmxsetting.png)
 
 __NOTE:__ This ADMX setting only affects CSE 3421 and later is only a stopgap measure if you literally have no way to transition from Legacy XML to Universal XML, but you do have some way to update your CSE.
 
-- Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers at once so you can control a rollout or a rollback. Use this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/product_docs/policypak/policypak/install/rings.md)
+- Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers at once so you can control a rollout or a rollback. Use this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
 
 ## How can I install UNIVERSAL licenses once I have downloaded them?
 
 - First, upgrade your Admin Console MMC snap in with the latest download from the portal. Only the latest Admin Consoles can import Universal licenses.
-- Video: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/product_docs/policypak/policypak/video/license/installuniversal.md)
+- Video: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
 
   __NOTE:__   You cannot import both Legacy and Universal licenses into the same GPO. You need separate GPOs for both license types. If you try to put both licenses into the same GPO you will get the error: "Sorry but you can't install GP and Enterprise licenses into the same GPO, please install them to different GPOs or select licenses with the same type."
 
@@ -73,7 +73,7 @@ __NOTE:__ This ADMX setting only affects CSE 3421 and later is only a stopgap me
 - If you are using LEGACY licenses and/or very old CSEs which ONLY process LEGACY licenses (so CSEs before 21.1.2687.802), then Endpoint Policy Manager will keep working because CSEs before 21.1.2687.802 don't understand Universal licenses anyway.
 - If you're using LEGACY licenses and NEWER CSEs (21.1.2687.802 or later), you can expect Endpoint Policy Manager to stop processing and stop working as if your license file expired on Feb 28, 2023.
 
-  __NOTE:__ Exact behavior when licenses expire can be seen here: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/product_docs/policypak/policypak/license/unlicense/components.md)
+  __NOTE:__ Exact behavior when licenses expire can be seen here: [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/policypak/policypak/license/unlicense/components.md)
 
 ## What if I'm applying both Universal and Legacy licenses to an endpoint?
 
@@ -86,11 +86,11 @@ __NOTE:__ This ADMX setting only affects CSE 3421 and later is only a stopgap me
 - Use the ```PPUPDATE``` command which will always show if you are Valid and licensing type.
 - Example of a machine getting Universal licenses successfully:
 
-  ![840_3_3_950x610](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_3_3_950x610.png)
-- FAQ on error conditions: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/product_docs/policypak/policypak/troubleshooting/license/components.md).
+  ![840_3_3_950x610](/img/product_docs/policypak/policypak/troubleshooting/license/840_3_3_950x610.png)
+- FAQ on error conditions: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md).
 - __NOTE:__ The Latest CSE in the portal (build 3375) will also express Invalid licenses if any are applying to the machine. Example:
 
-  ![840_4_4_950x675](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_4_4_950x675.png)
+  ![840_4_4_950x675](/img/product_docs/policypak/policypak/troubleshooting/license/840_4_4_950x675.png)
 
 ## Anything else I should know / Bugs & Known Issues?
 
@@ -100,7 +100,7 @@ This bug exists only in 3375 and doesn't exist in later version of the CSE, such
 
 In build 3375, you might see something like this when you test ```PPUPDATE```.
 
-![840_5_image-20230126194031-1](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_5_image-20230126194031-1.png)
+![840_5_image-20230126194031-1](/img/product_docs/policypak/policypak/troubleshooting/license/840_5_image-20230126194031-1.png)
 
 _Remember,_  this is a display bug in 3375 which has been removed in the latest CSE version. This message can safely be ignored.
 
@@ -112,10 +112,10 @@ The message in CSE 3375 and earlier says: “The license is valid. WARNING: GP l
 
 Example:
 
-![840_6_image-20230126194031-2_950x764](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_6_image-20230126194031-2_950x764.png)
+![840_6_image-20230126194031-2_950x764](/img/product_docs/policypak/policypak/troubleshooting/license/840_6_image-20230126194031-2_950x764.png)
 
 What it is trying to say is that Legacy XML licenses are not honored beyond Feb 28, 2022.
 
 You can still use Universal licenses via GPO and/or MDM/XML method. The updated messaging from latest CSEs is as follows:
 
-![840_7_image_950x724](/static/img/product_docs/policypak/policypak/troubleshooting/license/840_7_image_950x724.png)
+![840_7_image_950x724](/img/product_docs/policypak/policypak/troubleshooting/license/840_7_image_950x724.png)

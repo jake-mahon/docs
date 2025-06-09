@@ -2,9 +2,9 @@
 
 Identifiers of [
 Entity Type
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and [
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and [
 Entity Type
-](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)cannot be one of the following words:
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)cannot be one of the following words:
 
 These words can't be written in any case, example: id, Id, iD and ID are forbidden.
 

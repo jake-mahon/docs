@@ -2,7 +2,7 @@
 
 The SIEM Service shows the SIEM-specific details for the selected service.
 
-![servicenodes_siemservice](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/servicenodes_siemservice.png)
+![servicenodes_siemservice](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/servicenodes_siemservice.png)
 
 The SIEM Service page has the following features:
 

@@ -4,7 +4,7 @@ You can set up a configuration item so that only regular users (but no admins) a
 
 For example, you may wish to __Prevent access to the command prompt__ for all standard users, as in the example below, and you want to use Item Level Targeting (ITM) to do it.
 
-![139_1_overall-faq-01-img-01](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_1_overall-faq-01-img-01.jpg)
+![139_1_overall-faq-01-img-01](/img/product_docs/policypak/policypak/itemleveltargeting/139_1_overall-faq-01-img-01.jpg)
 
 __NOTE:__ Item Level Targeting is a Microsoft technology provided as part of the their Group Policy Preferences CSE for Group Policy.See [Apply Item-Level Targeting Outside Domains & GP Preferences](https://www.policypak.com/resources/pp-blog/item-level-targeting/) for additional information. Endpoint Policy Manager utilizes this ability to filter based on criteria, but the underlying engine is developed by Microsoft. Because this is not our code, What that means is that its not our code and so sometimes there are behaviors related to ILT that we either are not aware of or have not yet tested.
 
@@ -19,9 +19,9 @@ Here are some facts to help you understand the challenges:
 
 This is the combination that appears to work:
 
-![139_2_overall-faq-01-img-03](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
+![139_2_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
 
-![139_3_overall-faq-01-img-03](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
+![139_3_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
 
 There are three important things to note from the examples above.
 
@@ -33,8 +33,8 @@ The catch with the last item is that since there is no local Administrators grou
 
 This is the sequence after clicking the three dots:
 
-![139_4_overall-faq-01-img-04](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.png)
+![139_4_overall-faq-01-img-04](/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.png)
 
-![139_5_overall-faq-01-img-05](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.png)
+![139_5_overall-faq-01-img-05](/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.png)
 
-![139_6_overall-faq-01-img-06](/static/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.png)
+![139_6_overall-faq-01-img-06](/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.png)

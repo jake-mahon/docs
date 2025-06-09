@@ -5,13 +5,13 @@ In addition to the __Email Alert__ ,__Migrate Document__ and additional classifi
 - __Delete email__
 - __Move email__
 
-To configure these actions, use the Advanced UI dialog window. See [Configure a Workflow using Advanced dialog](/docs/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/createworkflow.md) for details on how to invoke it.
+To configure these actions, use the Advanced UI dialog window. See [Configure a Workflow using Advanced dialog](/docs/dataclassification/ndc/admin/workflows/advancedwindow/createworkflow.md) for details on how to invoke it.
 
 ## Delete Email
 
 This action will remove an email from Exchange mailbox.
 
-[![action_exchange_delete_email_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_exchange_delete_email_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/workflows/action_exchange_delete_email.png)
+[![action_exchange_delete_email_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_exchange_delete_email_thumb_0_0.png)](/docs/dataclassification/resources/images/workflows/action_exchange_delete_email.png)
 
 Specify the following action parameters:
 

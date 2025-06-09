@@ -21,7 +21,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 - Netwrix Access Analyzer (formerly Enterprise Auditor)
 
-Prior to adding a SharePoint host to the Activity Monitor, the prerequisites for the target environment must be met. See the [SharePoint On-Premise Activity Auditing Configuration](/docs/product_docs/activitymonitor/config/sharepoint/activity.md) topic for additional information.
+Prior to adding a SharePoint host to the Activity Monitor, the prerequisites for the target environment must be met. See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/config/sharepoint/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the SharePoint Application server that hosts the “Central Administration” component of the SharePoint farm.
 
@@ -31,15 +31,15 @@ Follow the steps to add a SharePoint host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
 
 __Step 2 –__ On the Choose Agent page, select the Agent deployed on the SharePoint Application server that hosts the “Central Administration” component. Click __Next__.
 
-![Add Host page with SharePoint selected](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.png)
+![Add Host page with SharePoint selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.png)
 
 __Step 3 –__ On the Add Host page, select the SharePoint radio button. If desired, add a Comment. Click __Next__.
 
-![Add Host - SharePoint Options page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointoptions.png)
+![Add Host - SharePoint Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointoptions.png)
 
 __Step 4 –__ On the SharePoint Options page, choose to audit all sites or scope the monitoring to specific site(s):
 
@@ -55,15 +55,15 @@ __Step 4 –__ On the SharePoint Options page, choose to audit all sites or scop
 
 Click __Next__.
 
-![Configure Operations page for SharePoint](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.png)
+![Configure Operations page for SharePoint](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.png)
 
 __Step 5 –__ On the Configure Operations page, select the SharePoint Operations and Permissions Operations to be monitored. Click __Next__.
 
-![Where to log the activity page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
 
 __Step 6 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
 
 __Step 7 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -78,7 +78,7 @@ __Step 7 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![Syslog Output Page](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
 
 __Step 8 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured. The configurable options are:
 
@@ -89,25 +89,25 @@ __Step 8 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 - The Test button sends a test message to the Syslog server to check the connection. A green check mark or red will determine whether the test message has been sent or failed to send. Messages vary by Syslog protocol:
   - UDP – Sends a test message and does not verify connection
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click Finish.
 
-![Activity Monitor with SharePoint host added](/static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.png)
+![Activity Monitor with SharePoint host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.png)
 
-The added SharePoint host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added SharePoint host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for SharePoint
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [SharePoint Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/sharepoint.md)
-- [Inactivity Alerts Tab](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [SharePoint Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/sharepoint.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

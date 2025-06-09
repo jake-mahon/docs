@@ -6,7 +6,7 @@ The Filter settings page provides options to filter folders and attachments. It 
 - Mailbox permissions
 - Sensitive data
 
-![EWS Mailbox Data Collector Wizard Filter page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
+![EWS Mailbox Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
 
 All folders and attachments are scanned by default. Scope the scan for specific folders and attachments:
 

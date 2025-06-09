@@ -9,6 +9,6 @@ For each request, you can view the description, approver(s), requester name, the
 
 You can perform the following functions on __Requests Inbox__ page:
 
-- [Approve a request](/docs/product_docs/groupid/groupid/portal/request/allrequest.md#Approve-a-request).
-- [Deny a request](/docs/product_docs/groupid/groupid/portal/request/allrequest.md#Deny-a-request).
-- [Filter requests](/docs/product_docs/groupid/groupid/portal/request/allrequest.md#Filter-requests).
+- [Approve a request](/docs/groupid/groupid/portal/request/allrequest.md#Approve-a-request).
+- [Deny a request](/docs/groupid/groupid/portal/request/allrequest.md#Deny-a-request).
+- [Filter requests](/docs/groupid/groupid/portal/request/allrequest.md#Filter-requests).

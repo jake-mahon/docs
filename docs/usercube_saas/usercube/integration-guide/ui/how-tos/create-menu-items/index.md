@@ -20,7 +20,7 @@ The other MenuItems are displayed from left to right.
 
 This XML element gives the following result:
 
-![Add workflow link in resource list entity](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/workflowinentitylist.png)
+![Add workflow link in resource list entity](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/workflowinentitylist.png)
 
 ### Create menu items for a workflow in a resource view
 
@@ -36,6 +36,6 @@ These workflows will manipulate the selected resource in the view.
 
 This XML element gives the following result:
 
-![Workflow in resource view](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/workflowinresourceview.png)
+![Workflow in resource view](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/workflowinresourceview.png)
 
-![All workflow in resource view*](/static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/allworkflowinresourceview.png)
+![All workflow in resource view*](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/create-menu-items/allworkflowinresourceview.png)

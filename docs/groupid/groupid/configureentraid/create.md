@@ -4,7 +4,7 @@ Once you have registered Directory Manager and created a user with required dire
 
 ## To create a Microsoft Entra ID Identity Store
 
-See the [Create an Identity Store for Microsoft Entra ID](/docs/product_docs/groupid/groupid/admincenter/identitystore/create.md#Create-an-Identity-Store-for-Microsoft-Entra-ID) topic for creating an Microsoft Entra ID identity store.
+See the [Create an Identity Store for Microsoft Entra ID](/docs/groupid/groupid/admincenter/identitystore/create.md#Create-an-Identity-Store-for-Microsoft-Entra-ID) topic for creating an Microsoft Entra ID identity store.
 
 NOTE: If you intend to use a service account user with Global Administrator directory role, then no change is required in the default Directory Manager security roles settings of Microsoft Entra ID identity store. And if you intend to use a service account user with any role, other than Global administrator directory role (i.e. User Administrator + Exchange Administrator), then the Directory Manager Administrator security role criteria group must be changed to User Account Administrator.
 

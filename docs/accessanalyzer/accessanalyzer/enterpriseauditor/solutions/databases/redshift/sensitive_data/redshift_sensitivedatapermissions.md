@@ -8,7 +8,7 @@ Navigate to the __Jobs > Databases > Redshift > Sensitive Data > Redshift\_Se
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.png)
 
 The default analysis tasks are:
 

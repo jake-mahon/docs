@@ -2,13 +2,13 @@
 
 ## What is an account?
 
-Users can configure all user-specific information in their account. It should be noted that if the [Masterkey mode](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md) process is used, user data will always be taken from Active Directory – editing this information in Netwrix Password Secure is thus not possible.
+Users can configure all user-specific information in their account. It should be noted that if the [Masterkey mode](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md) process is used, user data will always be taken from Active Directory – editing this information in Netwrix Password Secure is thus not possible.
 
-![account](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.png)
+![account](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.png)
 
 ## Edit profile
 
-All of the information in the contact and address sections can be defined under “Edit profile”. Some areas of the profile overlap with the __management of users.__ This information is explained in [Managing users](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/managing_users.md).
+All of the information in the contact and address sections can be defined under “Edit profile”. Some areas of the profile overlap with the __management of users.__ This information is explained in [Managing users](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/managing_users.md).
 
 NOTE: No changes can be made to users that were imported from AD using Master Key mode. In this case, all information will be imported from AD.
 
@@ -30,9 +30,9 @@ NOTE: If a user changes his or her password, all sessions that are still open ar
 
 #### Multifactor authentication
 
-Multifactor authentication provides additional protection through a second login authentication using a hardware token. The configuration is carried out via the ribbon in the “Security” section. See also in [Multifactor authentication](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication.md)
+Multifactor authentication provides additional protection through a second login authentication using a hardware token. The configuration is carried out via the ribbon in the “Security” section. See also in [Multifactor authentication](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication.md)
 
-![installation_with_parameters_124](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.png)
+![installation_with_parameters_124](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.png)
 
 #### Configure autologin
 

@@ -29,9 +29,9 @@ __Step 2 –__ Expand Computer Configuration -> Endpoint Policy Manager and clic
 
 __Step 3 –__ Add a new Collection, giving it a descriptive name (e.g. Screensaver scripts or Houston Screensaver…) and click OK
 
-![207_1_image-20200819181623-1](/static/img/product_docs/policypak/policypak/scriptstriggers/207_1_image-20200819181623-1.png)
+![207_1_image-20200819181623-1](/img/product_docs/policypak/policypak/scriptstriggers/207_1_image-20200819181623-1.png)
 
-![207_3_image-20200819181623-2](/static/img/product_docs/policypak/policypak/scriptstriggers/207_3_image-20200819181623-2.png)
+![207_3_image-20200819181623-2](/img/product_docs/policypak/policypak/scriptstriggers/207_3_image-20200819181623-2.png)
 
 __NOTE:__  If rolling out different images for different sets of users, ILT may be set on collection to specified different groups of users or computers.
 
@@ -39,15 +39,15 @@ __Step 4 –__ Double-click to enter Collection
 
 __Step 5 –__ Click on "Add New Policy" and NEXT on first page
 
-![207_5_image-20200819181623-3](/static/img/product_docs/policypak/policypak/scriptstriggers/207_5_image-20200819181623-3.png)
+![207_5_image-20200819181623-3](/img/product_docs/policypak/policypak/scriptstriggers/207_5_image-20200819181623-3.png)
 
 __Step 6 –__ On the "On apply action" screen, either click File -> Open and browse for a preconfigured script or click down-arrow by "(None)", select the appropriate type of script and either paste or type in the script to copy the image files.
 
-![207_7_image-20200819181623-4](/static/img/product_docs/policypak/policypak/scriptstriggers/207_7_image-20200819181623-4.png)  OR ![207_9_image-20200819181623-5](/static/img/product_docs/policypak/policypak/scriptstriggers/207_9_image-20200819181623-5.png)
+![207_7_image-20200819181623-4](/img/product_docs/policypak/policypak/scriptstriggers/207_7_image-20200819181623-4.png)  OR ![207_9_image-20200819181623-5](/img/product_docs/policypak/policypak/scriptstriggers/207_9_image-20200819181623-5.png)
 
 Sample script using powershell that will 1; check for the existence of the destination, 2; Create the destination if it does not exist and 3; copy the files over.
 
-![207_11_image-20200819181623-6](/static/img/product_docs/policypak/policypak/scriptstriggers/207_11_image-20200819181623-6.png)
+![207_11_image-20200819181623-6](/img/product_docs/policypak/policypak/scriptstriggers/207_11_image-20200819181623-6.png)
 
 ```
 if (!(Test-Path -Path $env:userprofile\pictures\SSImages\))    {    New-item -path $env:userprofile\pictures\ -Name SSImages -Itemtype directory    }      
@@ -58,7 +58,7 @@ __Step 7 –__ On "On revert action" screen, leave as-is and click NEXT
 
 __Step 8 –__ Ensure "Always" is selected and click NEXT
 
-![207_13_image-20200819181623-7](/static/img/product_docs/policypak/policypak/scriptstriggers/207_13_image-20200819181623-7.png)
+![207_13_image-20200819181623-7](/img/product_docs/policypak/policypak/scriptstriggers/207_13_image-20200819181623-7.png)
 
 __Step 9 –__ Give a descriptive name to the policy, set item-level targeting if required and click FINISH
 
@@ -68,7 +68,7 @@ The path to the image location is saved in the Registry as an encrypted value. U
 
 __Step 1 –__ On your reference computer, set the screensaver to use "Photos", click on Settings and Browse to the location of the Screensaver images
 
-![207_15_image-20200819181623-8](/static/img/product_docs/policypak/policypak/scriptstriggers/207_15_image-20200819181623-8.png)
+![207_15_image-20200819181623-8](/img/product_docs/policypak/policypak/scriptstriggers/207_15_image-20200819181623-8.png)
 
 __Step 2 –__ Click SAVE to close the Photo Screen Saver settings window and then OK to finish
 
@@ -81,11 +81,11 @@ __Step 5 –__ Open the ```.REG``` file in text editor (I recommend something li
 - Delete lines for "Speed" and "Shuffle" configuration
 - Remove all line-breaks for ```"EncryptedPIDL"``` – data must be on one line
 
-  ![207_17_image-20200819181623-9](/static/img/product_docs/policypak/policypak/scriptstriggers/207_17_image-20200819181623-9.png)
+  ![207_17_image-20200819181623-9](/img/product_docs/policypak/policypak/scriptstriggers/207_17_image-20200819181623-9.png)
 
 It will end up looking something like this…
 
-![207_19_image-20200819181623-10](/static/img/product_docs/policypak/policypak/scriptstriggers/207_19_image-20200819181623-10.png)
+![207_19_image-20200819181623-10](/img/product_docs/policypak/policypak/scriptstriggers/207_19_image-20200819181623-10.png)
 
 ## Create Group Policy Object
 
@@ -99,11 +99,11 @@ __Step 1 –__ Open your existing Group Policy Object
 
 __Step 2 –__ Expand Computer Configuration -> Endpoint Policy Manager and click on Administrative Templates Manager
 
-![207_21_image-20200819181623-11](/static/img/product_docs/policypak/policypak/scriptstriggers/207_21_image-20200819181623-11.png)
+![207_21_image-20200819181623-11](/img/product_docs/policypak/policypak/scriptstriggers/207_21_image-20200819181623-11.png)
 
 __Step 3 –__ Add a new Collection, giving it a descriptive name (e.g. Screensaver scripts or Houston Screensaver…) and click OK
 
-![207_23_image-20200819181623-12](/static/img/product_docs/policypak/policypak/scriptstriggers/207_23_image-20200819181623-12.png)
+![207_23_image-20200819181623-12](/img/product_docs/policypak/policypak/scriptstriggers/207_23_image-20200819181623-12.png)
 
 __NOTE:__  If rolling out different images for different sets of users, ILT may be set on collection to specified different groups of users or computers.
 
@@ -111,11 +111,11 @@ __Step 4 –__ Double-click to enter the Collection
 
 __Step 5 –__ Add new policy
 
-![207_25_image-20200819181623-13](/static/img/product_docs/policypak/policypak/scriptstriggers/207_25_image-20200819181623-13.png)
+![207_25_image-20200819181623-13](/img/product_docs/policypak/policypak/scriptstriggers/207_25_image-20200819181623-13.png)
 
 __Step 6 –__ Set the Scope Filter to "User Policy" or "All Policy"
 
-![207_27_image-20200819181623-14](/static/img/product_docs/policypak/policypak/scriptstriggers/207_27_image-20200819181623-14.png)
+![207_27_image-20200819181623-14](/img/product_docs/policypak/policypak/scriptstriggers/207_27_image-20200819181623-14.png)
 
 __Step 7 –__ Create required policies – Screensaver Policies are kept under Users -> Admin Templates -> Control Panel -> Personalization.
 
@@ -125,7 +125,7 @@ Setting Policies in Endpoint Policy Manager land is the same as Group Policy
 - Enable, set any configuration Options
 - OK to close
 
-![207_29_image-20200819181623-15](/static/img/product_docs/policypak/policypak/scriptstriggers/207_29_image-20200819181623-15.png)
+![207_29_image-20200819181623-15](/img/product_docs/policypak/policypak/scriptstriggers/207_29_image-20200819181623-15.png)
 
 The following are the minimum policies required
 
@@ -144,7 +144,7 @@ __Step 2 –__ Add a new policy and NEXT on first window
 
 __Step 3 –__ Select "Apply this policy to all users who log on to the computer (switched Mode)" and click NEXT
 
-![207_31_image-20200819181623-16](/static/img/product_docs/policypak/policypak/scriptstriggers/207_31_image-20200819181623-16.png)
+![207_31_image-20200819181623-16](/img/product_docs/policypak/policypak/scriptstriggers/207_31_image-20200819181623-16.png)
 
 __Step 4 –__ Select "Batch script" from the drop-down menu and either type in or copy the script below to import the .REG file, replacing the /D value (LongEncryptedText…) with the very long encrypted path value from the exported .REG key.
 
@@ -156,14 +156,14 @@ reg add HKCU\Software\Microsoft\Windows Photo Viewer\Slideshow\Screensaver /v En
 
 __Step 5 –__ Select "Run Script as user" and "With elevated rights" and click NEXT
 
-![207_33_image-20200819181623-17](/static/img/product_docs/policypak/policypak/scriptstriggers/207_33_image-20200819181623-17.png)
+![207_33_image-20200819181623-17](/img/product_docs/policypak/policypak/scriptstriggers/207_33_image-20200819181623-17.png)
 
 __Step 6 –__ NEXT again
 
 __Step 7 –__ Select "Once" and click NEXT
 
-![207_35_image-20200819181623-18](/static/img/product_docs/policypak/policypak/scriptstriggers/207_35_image-20200819181623-18.png)
+![207_35_image-20200819181623-18](/img/product_docs/policypak/policypak/scriptstriggers/207_35_image-20200819181623-18.png)
 
 __Step 8 –__ Give it a descriptive name (e.g. "Screensaver Path"), ensure it is enabled and click FINISH
 
-![207_37_image-20200819181623-19](/static/img/product_docs/policypak/policypak/scriptstriggers/207_37_image-20200819181623-19.png)
+![207_37_image-20200819181623-19](/img/product_docs/policypak/policypak/scriptstriggers/207_37_image-20200819181623-19.png)

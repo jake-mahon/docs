@@ -8,7 +8,7 @@ Threat Manager can also deliver threat data to administrators in their preferred
 
 The following diagram is a visual representation of Threat Manager architecture. It maps out the physical implementation of Threat Manager components.
 
-![Netwrix Threat Manager Architecture diagram](/static/img/product_docs/threatmanager/threatmanager/tmarch.png)
+![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/threatmanager/tmarch.png)
 
 ## Administration
 
@@ -25,7 +25,7 @@ Supported platforms include the Active Directory and File system platforms suppo
 
 Threat Manager monitors the following threats. See each section for information on monitored threat types.
 
-- [Active Directory Threats](/docs/product_docs/threatmanager/threatmanager/threats/activedirectory.md)
-- [Entra ID Threats](/docs/product_docs/threatmanager/threatmanager/threats/entraid.md)
-- [File System Threats](/docs/product_docs/threatmanager/threatmanager/threats/filesystem.md)
-- [General Threats](/docs/product_docs/threatmanager/threatmanager/threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/threatmanager/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/threatmanager/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/threatmanager/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/threatmanager/threats/general.md)

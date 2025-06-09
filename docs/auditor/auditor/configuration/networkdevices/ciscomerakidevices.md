@@ -10,18 +10,18 @@ __Step 1 –__ Sign in to [Cisco Meraki Dashboard](https://account.meraki.com/se
 
 __Step 2 –__ Navigate to __Network wide__ > __Configure__ > __General__.
 
-![nand_meraki_network](/static/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_network.png)
+![nand_meraki_network](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_network.png)
 
 __Step 3 –__ Locate the Reporting section and click Add a syslog server.
 
-![nand_meraki_server](/static/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_server.png)
+![nand_meraki_server](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_server.png)
 
 __Step 4 –__ In the dialog that opens, complete the following fields:
 
 | Option | Description |
 | --- | --- |
 | Server IP | Provide the IP address of the computer that hosts your Netwrix Auditor Server. |
-| Port | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/docs/product_docs/auditor/auditor/admin/monitoringplans/networkdevices.md) topic for additional information. |
+| Port | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/docs/auditor/auditor/admin/monitoringplans/networkdevices.md) topic for additional information. |
 | Roles | Select the following roles:   - Appliance event log - Switch event log - Wireless event log |
 
 ### Cisco Meraki Devices Configuration

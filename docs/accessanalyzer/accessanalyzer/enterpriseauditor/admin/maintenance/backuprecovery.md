@@ -24,11 +24,11 @@ __Step 2 –__ Back up the following files and folders from the Access Analyzer 
 
 __Step 3 –__ Back up all Scheduled Tasks. The method of back up is determined by the Access Analyzer user. This can be as simple as copying the contents of the tasks folder from the following two locations:
 
-![C:\Windows\Tasks](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_3.png)
+![C:\Windows\Tasks](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_3.png)
 
 - C:\Windows\Tasks
 
-![C:\Windows\System32\Tasks](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_4.png)
+![C:\Windows\System32\Tasks](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_4.png)
 
 - C:\Windows\System32\Tasks
 
@@ -38,7 +38,7 @@ All key components necessary for data recovery have now been backed up.
 
 Follow these steps for data recovery of the Access Analyzer Console server.
 
-__Step 1 –__ Confirm the prerequisites have been met on the Access Analyzer Console Server. See the [Requirements](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for specific prerequisites.
+__Step 1 –__ Confirm the prerequisites have been met on the Access Analyzer Console Server. See the [Requirements](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for specific prerequisites.
 
 __Step 2 –__ Install the Access Analyzer application. Do not start the Access Analyzer application at this time.
 
@@ -71,10 +71,10 @@ __Step 6 –__ Start Access Analyzer and confirm all settings and jobs have been
 
 __Step 7 –__ Enable Role Based Access to write the necessary registry keys:
 
-![Role Based Access](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_5.png)
+![Role Based Access](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_5.png)
 
 - Navigate to the __Settings__ > __Access__ node in the Access Analyzer Console and select __Access__
 - Use the __Add Access__, __Edit Member Role__, and __Delete Member Role__ buttons to add, remove, and edit roles
-- See the [Role Based Access](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for more information
+- See the [Role Based Access](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for more information
 
 The Access Analyzer Console Server is now restored.

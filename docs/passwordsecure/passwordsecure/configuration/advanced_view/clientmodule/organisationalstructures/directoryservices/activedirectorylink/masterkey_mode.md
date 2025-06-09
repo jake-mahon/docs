@@ -2,7 +2,7 @@
 
 ## Maximum convenience
 
-In contrast to [End-to-end encryption](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end-to-end_encryption.md), which places the main focus on security, Masterkey mode provides the maximum level of convenience. It not only imports users, organisational units and roles but also their links and affiliations. It can be synchronized to update the information and affiliations. __In this scenario, Active Directory is used as a leading system__.
+In contrast to [End-to-end encryption](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end-to-end_encryption.md), which places the main focus on security, Masterkey mode provides the maximum level of convenience. It not only imports users, organisational units and roles but also their links and affiliations. It can be synchronized to update the information and affiliations. __In this scenario, Active Directory is used as a leading system__.
 
 ## Relevant rights
 
@@ -18,7 +18,7 @@ The following options are required to add new profiles.
 
 Profile management is started via the icon of the same name on the ribbon.
 
-![AD profile](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_1-en.png)
+![AD profile](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_1-en.png)
 
 The following information must be provided in the profile:
 
@@ -49,27 +49,27 @@ NOTE: The first two options are already activated by default when configuring a 
 - __Other responsible users or roles__ can be used to define who is permitted to carry out the synchronization with the AD.
 - The option __Other domain names__ can be used to save alternative spellings of the login domain. These must correspond to the spelling entered in the login window. For example, if a connection is being established to the domain __jupiter.local__ or an IP address, the login can only be carried out with __jupiter\user__ if __jupiter__ has been saved here.
 
-__CAUTION:__ The master key is added in form of a certificate. It is __essential to back up__ the generated certificate! If the database is being moved to another server, the certificate also needs to be transferred! Further information can be found in the section [Certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates.md).
+__CAUTION:__ The master key is added in form of a certificate. It is __essential to back up__ the generated certificate! If the database is being moved to another server, the certificate also needs to be transferred! Further information can be found in the section [Certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates.md).
 
-NOTE: You can now use the option to integrate a RADIUS server. Read more in [RADIUS authentication](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication.md).
+NOTE: You can now use the option to integrate a RADIUS server. Read more in [RADIUS authentication](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication.md).
 
 ## Import
 
 You can start the import directly in the ribbon. A wizard guides the user through the entire operation.
 
-![import icon](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.png)
+![import icon](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.png)
 
 ## Organisational structure
 
 First, an organisational unit is selected for the import. If there are no organisational units in the database yet, as in this example, the data is imported into the __main organisational unit__.
 
-![import wizard / organisational structure](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.png)
+![import wizard / organisational structure](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.png)
 
 ### Active Directory objects
 
 In the next step, select the profile you will use to import the data. Then, select organisational units and/or users for the import. A search is available for this purpose.
 
-![import wizard / AD objects](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.png)
+![import wizard / AD objects](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.png)
 
 As you can see, the organisational units __Jupiter__ and __Contoso__ contain items to be imported. The organisational units themselves will not be imported. The group __1099 Contractor__ is imported including all sub-elements. The check next to the group __Accounting__ indicates that the group itself will be imported along with some of its sub-elements. The ticks in the last column ensure that the elements are observed in future synchronization sequences.
 
@@ -81,7 +81,7 @@ The element will not be imported; however, it contains elements that will be imp
 
 Right-clicking in the list will launch a context menu. It provides helpful functions for the selection of the individual elements.
 
-![select subjects](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.png)
+![select subjects](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.png)
 
 NOTE: 
 If individual users cannot be selected for import, they have already been imported via an end-to-end encrypted profile.
@@ -92,13 +92,13 @@ In the lower area you can specify whether the users just selected for import sho
 
 The last page summarizes which objects will be edited and in what form. It specifies the names of the elements along with their descriptions. The __Status__ column specifies whether the object is added, updated, or disabled. The last column specifies the organisational unit into which the element is imported. The number of objects can be seen at the bottom.
 
-![import wizard / summary](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.png)
+![import wizard / summary](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.png)
 
 ## Importing
 
 The server imports data in the background. The individual elements then appear in the list one by one. This may take some time, depending on the amount of import data. If the import was terminated, this is symbolized by a hint.
 
-![Notification](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.png)
+![Notification](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.png)
 
 ## Imported users and organisational units
 
@@ -130,7 +130,7 @@ NOTE: If a user is imported, he will be given those roles that he also had in AD
 
 ## Logging into Netwrix Password Secure
 
-Users who are imported using this mode can log in with the domain password. Please note that no domain needs to be specified when logging in. Of course, the login process can also be supplemented with [Multifactor Authentication](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
+Users who are imported using this mode can log in with the domain password. Please note that no domain needs to be specified when logging in. Of course, the login process can also be supplemented with [Multifactor Authentication](/docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
 
 NOTE: Logging on using Kerberos works "automatically". As long as the corresponding Kerberos server is accessible, the users in the domain authenticate themselves via Kerberos using their domain password. If the logon via Kerberos does not work – e.g. due to incorrect configuration of the domain controller – the logon via the NTLM protocol is attempted. However, these are all settings that have to be made on the domain controller and have nothing to do with Netwrix Password Secure.
 
@@ -140,7 +140,7 @@ __CAUTION:__ Logging on to Netwrix Password Secure using SSO via Kerberos is cur
 
 The rights to be issued to imported users are explained in the following example:
 
-![Permission MKM User](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_7-en.png)
+![Permission MKM User](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_7-en.png)
 
 1. In Master Key mode, __all__ users will be issued with the __read__ right.
 2. The __responsible user__ will be issued with all rights and the key. This ensures that he can also synchronize or change the user in the future
@@ -160,13 +160,13 @@ NOTE: If the tick was not set in the Synchronization column when a user is impor
 
 The synchronization can be started manually at any time via the corresponding button in the ribbon.
 
-![manual synchronization](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_8-en.png)
+![manual synchronization](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode_8-en.png)
 
 Select the required profile and start the synchronization. As is the case with the initial import, the synchronization runs in the background. A hint indicates that the process has been completed.
 
 ### Synchronization via system tasks
 
-The synchronization can also be carried out automatically. This is made possible via the [System tasks](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md).
+The synchronization can also be carried out automatically. This is made possible via the [System tasks](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md).
 
 ### Deleting or removing users
 

@@ -2,7 +2,7 @@
 
 Console access to the is configured through the __Configuration__ > __Console Access__ page. Adding users to the Access Information Center requires data to be collected by the Access Analyzer .Active Directory Inventory Solution.
 
-![Console Access Configuration page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
+![Console Access Configuration page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
 
 There are five levels of access, or Roles, which can be granted to domain users or groups:
 
@@ -22,17 +22,17 @@ A user granted either the Reader or Security Team role can also be further restr
 
 __CAUTION:__  Before disabling the Builtin Administrator account, it is necessary to first assign at least one domain user account to the Administrator role. Login with another Administrator account to disable the Builtin Administrator. Failure to do this could result in being locked-out of the Configuration interface. As an alternative to disabling this account, the password can be changed. See the [Modify the Builtin Administrator Account](#Modify-the-Builtin-Administrator-Account) topic for additional information.
 
-Once users have been granted console access, they can login with their domain credentials. Console access is not a requirement for participation as owners or domain users in the Resource Reviews and Self-Service Access Requests workflows. See the [URL & Login](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/login.md) topic for information on how users will log in and where they are directed after login based on their assigned role or lack of role.
+Once users have been granted console access, they can login with their domain credentials. Console access is not a requirement for participation as owners or domain users in the Resource Reviews and Self-Service Access Requests workflows. See the [URL & Login](/docs/accessinformationcenter/access/informationcenter/admin/login.md) topic for information on how users will log in and where they are directed after login based on their assigned role or lack of role.
 
 ## Add Console Users
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Configuration page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
+![Console Access Configuration page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
 
 __Step 1 –__ In the Configuration interface on the Console Access page, click Add. The Console Access wizard opens.
 
-![Console Access wizard showing the Select Trustee page](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessaddselecttrustee.png)
+![Console Access wizard showing the Select Trustee page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessaddselecttrustee.png)
 
 __Step 2 –__ On the Select Trustee page, enter the following information and click Next:
 
@@ -40,7 +40,7 @@ __Step 2 –__ On the Select Trustee page, enter the following information and c
 - Trustee Type — Choose between adding a user or a group by selecting from the drop-down menu
 - Search — Begin typing the sAMAccountName or display name and the field will auto-populate options from Active Directory sAMAccountName
 
-![Console Access wizard showing the Select Access page](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessaddselectaccess.png)
+![Console Access wizard showing the Select Access page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessaddselectaccess.png)
 
 __Step 3 –__ On the Select Access page, enter the following information and click __Finish__:
 
@@ -52,7 +52,7 @@ __Step 3 –__ On the Select Access page, enter the following information and cl
 - Allow access to the following servers — When enabled, users can be limited to only having visibility into data for specific servers. Begin typing server names and the field will auto-populate with known servers from scanned data. A resource type appears in parentheses after the host name for quick reference.
 - Access is enabled – A user's account must be enabled in order to log into the console. Unchecking this option allows you to configure access to be granted at a future time.
 
-![Console Access Page displaying users with various assigned roles](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccesswithusers.png)
+![Console Access Page displaying users with various assigned roles](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccesswithusers.png)
 
 __Step 4 –__ The new user displays in the list on the Console Access page. Repeat these steps for each trustee to be granted console access.
 
@@ -66,7 +66,7 @@ __NOTE:__ These steps are for modifying domain users with console access roles a
 
 __Step 1 –__ In the Configuration interface on the Console Access page, select the user to be modified and click Modify. The Console Access wizard opens to the Select Access page.
 
-![Console Access wizard showing the Select Access page when modifying](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessmodify.png)
+![Console Access wizard showing the Select Access page when modifying](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessmodify.png)
 
 __Step 2 –__ Modify the desired settings and click __Finish__:
 
@@ -86,7 +86,7 @@ __CAUTION:__ Confirmation is not requested when deleting users. An alternative t
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessremove.png)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessremove.png)
 
 __Step 1 –__ In the Configuration interface on the Console Access page, select the user.
 
@@ -98,7 +98,7 @@ The user is removed from the list on the Console Access page.
 
 The Builtin Administrator account can be disabled or its password can be changed. Follow the steps to modify this account.
 
-![modifybuiltinadministrator](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/modifybuiltinadministrator.png)
+![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/modifybuiltinadministrator.png)
 
 __Step 1 –__ In the Configuration interface on the Console Access page, select the Builtin Administrator account and click __Modify__. The Builtin Administrator window opens.
 

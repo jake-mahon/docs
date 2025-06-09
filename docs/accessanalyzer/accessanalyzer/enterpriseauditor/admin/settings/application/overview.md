@@ -2,15 +2,15 @@
 
 The __Application__ node is for configuring general settings which affect the way the Access Analyzer Console functions.
 
-![Application](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/application.png)
+![Application](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/application.png)
 
 Application Log
 
 The Access Analyzer Application Log section determines what information is stored in the Access Analyzer application log.
 
-![Application Log](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/applicationlog.png)
+![Application Log](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/applicationlog.png)
 
-The Application log level controls the types of messages generated for each job and the application. It can be modified at the job level in the __Job Properties__ window. See the [General Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/general.md) topic for additional information. Options available in the Application log level drop-down menu include:
+The Application log level controls the types of messages generated for each job and the application. It can be modified at the job level in the __Job Properties__ window. See the [General Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/general.md) topic for additional information. Options available in the Application log level drop-down menu include:
 
 - Debug – Records everything that happens during job execution, most verbose level of logging
 
@@ -39,18 +39,18 @@ Profile Security
 
 The Profile Security section provides the option to enable an enhanced method of encryption to various credentials stored by the Access Analyzer application.
 
-![Profile Security](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/profilesecurity.png).
+![Profile Security](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/profilesecurity.png).
 
 There are two options available in the Profiles stored with drop-down menu:
 
 - Application – Default setting, does not employ the enhanced encryption
-- Vault – Enables the enhanced encryption of stored credentials. See the [Vault](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/vault.md) topic for requirements and additional information.
+- Vault – Enables the enhanced encryption of stored credentials. See the [Vault](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/vault.md) topic for requirements and additional information.
 
 Usage Statistics
 
 The Usage Statistics section allows you to select whether to send usage statistics data to Netwrix to help us improve our product.
 
-![Usage Statistics](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/usagestatistics.png)
+![Usage Statistics](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/usagestatistics.png)
 
 - If selected, usage statistics are collected and sent to Netwrix
 
@@ -62,7 +62,7 @@ Host Target Options
 
 The Host Target Options section provides radio buttons to select the source that Access Analyzer should use to connect to hosts.
 
-![Host Target Options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/hosttargetoptions.png)
+![Host Target Options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/hosttargetoptions.png)
 
 Select from the following two options:
 
@@ -73,7 +73,7 @@ Grid View Parameters
 
 The Grid View Parameters section controls how the data grids display within the Access Analyzer Console.
 
-![Grid View Parameters](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/gridviewparameters.png)
+![Grid View Parameters](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/gridviewparameters.png)
 
 - Automatically rename duplicate columns within a table – Checks for and renames columns with duplicate names
 - Automatically correct invalid column names – Checks for and corrects column names which contain characters SQL cannot handle
@@ -84,13 +84,13 @@ The Grid View Parameters section controls how the data grids display within the 
 
   - Maximum row count is set to 1000 by default and has a cap of 99,999 rows. This number does not impact the number of rows within the SQL database. To view the full row count for a table exceeding this size, use the SQL Server Management Studio or another SQL Server interface tool which displays the full table.
 
-Filtered data grids are not lost if persistent filters are not saved. The Filtration Dialog available for every data grid maintains a list of recent filters. See the [Data Grid Functionality](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagrid.md) topic for additional information.
+Filtered data grids are not lost if persistent filters are not saved. The Filtration Dialog available for every data grid maintains a list of recent filters. See the [Data Grid Functionality](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/navigate/datagrid.md) topic for additional information.
 
 Cleanup
 
 The Cleanup section is designed to conserve space in the SQL Database Transaction Log. It only works when the database is configured to use Simple Recovery Model.
 
-![Cleanup Options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/cleanup.png)
+![Cleanup Options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/cleanup.png)
 
 - Compact Database Transaction Log – If selected, every time the Access Analyzer application is closed, the Database Transaction Log is compacted
 
@@ -103,11 +103,11 @@ Application Exit Options
 
 The Application Exit Options section controls whether or not a confirmation is displayed when the Access Analyzer application is closed.
 
-![Application Exit Options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/applicationexitoptions.png)
+![Application Exit Options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/applicationexitoptions.png)
 
 If selected, the __Show Confirmation Dialog__ option causes a Confirm Exit window to open when the Access Analyzer user attempts to exit the application. If deselected, the Access Analyzer application closes without confirmation.
 
-![Confirm Exit](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/confirmexitwindow.png)
+![Confirm Exit](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/application/confirmexitwindow.png)
 
 The Confirm Exit window requires the __Yes__ button to be clicked before the Access Analyzer application closes.
 

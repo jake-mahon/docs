@@ -36,15 +36,15 @@ Our solution isn't a mere "ADM" template, it's a true Group Policy extension, wi
 
 Our PolicyPak software snaps-in to the Group Policy Editor and mimics the user interface of the Acrobat Reader application itself. You can set key settings (like turning off Acrobat Reader updates), like what is seen here:
 
-![33_1_acrobat-group-policy-policypak-3](/static/img/product_docs/policypak/policypak/video/applicationsettings/33_1_acrobat-group-policy-policypak-3.png)
+![33_1_acrobat-group-policy-policypak-3](/img/product_docs/policypak/policypak/video/applicationsettings/33_1_acrobat-group-policy-policypak-3.png)
 
 You can ensure that Adobe's Javascript support is truly disabled, which makes your whole company more secure, like what is seen here.
 
-![33_2_acrobat-group-policy-policypak-4](/static/img/product_docs/policypak/policypak/video/applicationsettings/33_2_acrobat-group-policy-policypak-4.png)
+![33_2_acrobat-group-policy-policypak-4](/img/product_docs/policypak/policypak/video/applicationsettings/33_2_acrobat-group-policy-policypak-4.png)
 
 Or ensure your users are forced to use the "big guns" with "Enable Enhanced Security" and ensure users can't work around it.
 
-![33_3_acrobat-group-policy-policypak-5](/static/img/product_docs/policypak/policypak/video/applicationsettings/33_3_acrobat-group-policy-policypak-5.png)
+![33_3_acrobat-group-policy-policypak-5](/img/product_docs/policypak/policypak/video/applicationsettings/33_3_acrobat-group-policy-policypak-5.png)
 
 Without PolicyPak, you're on the losing side, because users are going to simply steamroll over you.
 
@@ -58,11 +58,11 @@ PolicyPak was designed by former Group Policy MVP Jeremy Moskowitz – who "[htt
 
 When you're ready to get serious about managing Acrobat Reader today, PolicyPak is ready for you. Unless you want your users to see this.
 
-![33_4_acrobat-group-policy-policypak-1](/static/img/product_docs/policypak/policypak/video/applicationsettings/33_4_acrobat-group-policy-policypak-1.png)
+![33_4_acrobat-group-policy-policypak-1](/img/product_docs/policypak/policypak/video/applicationsettings/33_4_acrobat-group-policy-policypak-1.png)
 
 Or this:
 
-![33_5_acrobat-group-policy-policypak-2](/static/img/product_docs/policypak/policypak/video/applicationsettings/33_5_acrobat-group-policy-policypak-2.png)
+![33_5_acrobat-group-policy-policypak-2](/img/product_docs/policypak/policypak/video/applicationsettings/33_5_acrobat-group-policy-policypak-2.png)
 
 ### Manage Acrobat Reader with Group Policy video transcript
 

@@ -6,29 +6,29 @@ The Basic view interface is arranged in tiles. If a logo/icon has been stored fo
 
 1. view of a Basic view button with stored logo
 
-![apple-logo](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/apple-logo.png)
+![apple-logo](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/apple-logo.png)
 
 2. view of a Basic view button without logo, but with deposited web address
 
-![mindfactory-logo](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/mindfactory-logo.png)
+![mindfactory-logo](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/mindfactory-logo.png)
 
 3. view of a Basic view button without stored web address/logo
 
-![sql-server-log](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sql-server-log.png)
+![sql-server-log](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sql-server-log.png)
 
 Click on the tile to open the application.
 
-![SSO LightClient](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sso-lc-en.png)
+![SSO LightClient](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sso-lc-en.png)
 
 The tiles can be dragged and dropped to the desired position
 
-![move tiles](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/move-tiles-en.png)
+![move tiles](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/move-tiles-en.png)
 
 ## Mouseover
 
 As with add-ons, the control button is displayed as soon as you hover the mouse over the corresponding elements. This process is known as "mouseover".
 
-![View LightClient](/static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/view-lc-en.png)
+![View LightClient](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/view-lc-en.png)
 
 When you click the button, the following options become visible:
 
@@ -47,4 +47,4 @@ __CAUTION:__ You can only execute the mentioned operations if you are sufficient
 
 ## Image management
 
-Usually, the setup of logos/icons in the i__mage management__ is done by the in-house administration. You can learn more about this in the FullClient [Image management](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/image_manager.md) documentation.
+Usually, the setup of logos/icons in the i__mage management__ is done by the in-house administration. You can learn more about this in the FullClient [Image management](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/image_manager.md) documentation.

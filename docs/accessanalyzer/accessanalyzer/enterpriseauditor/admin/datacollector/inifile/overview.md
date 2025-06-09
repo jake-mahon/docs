@@ -21,10 +21,10 @@ Permissions
 The INIFile Data Collector is configured through the INI File Data Collector Wizard. It contains the following wizard pages:
 
 - Welcome
-- [INIFile: Target Files](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/targetfiles.md)
-- [INIFile: Properties](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/properties.md)
-- [INIFile: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/summary.md)
+- [INIFile: Target Files](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/targetfiles.md)
+- [INIFile: Properties](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/properties.md)
+- [INIFile: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/summary.md)
 
-![INI File Data Collector Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![INI File Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

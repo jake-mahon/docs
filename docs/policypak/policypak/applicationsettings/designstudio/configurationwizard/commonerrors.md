@@ -6,7 +6,7 @@ Here are three common errors that can occur when using the Configuration Wizard.
 
 If you inadvertently checked two checkboxes when making changes, as shown in the top window of Figure 116, the Configuration Wizard detects both changes and asks you which one you intended to make. If you know which one you wanted to select, you can check the corresponding box in the wizard. In the example below, we want to choose "passwordreqlower," as shown in Figure 116.
 
-![configuring_elements_using_9](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_9.png)
+![configuring_elements_using_9](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_9.png)
 
 Figure 116. Selecting which of the two boxes was intended to be checked.
 
@@ -16,13 +16,13 @@ You can also cancel the Configuration Wizard, and start over again if you see lo
 
 Sometimes setting one element (checkbox, dropdown, etc.) will add a lot of unexpected values to the application. For instance, clicking this one checkbox in Figure 117 below added what appears to be five changes.
 
-![configuring_elements_using_10](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_10.png)
+![configuring_elements_using_10](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_10.png)
 
 Figure 117. Unexpected changes after selecting an element.
 
 Usually, this happens when the first item in an application is written. The application will make a bunch of assumptions and write those items as a baseline. When this happens, you can either choose the correct setting (based on the choices that are shown) or cancel the Configuration Wizard and start again. To start again, put the checkbox (or dropdown, etc.) back to the original location, click "Apply" or "OK" in the application to re-write the original setting, then restart the Configuration Wizard. Doing so will isolate the one change that the checkbox (dropdown, etc.) is really changing. A successful attempt is shown in Figure 118. Instead of five changed values, there is only one.
 
-![configuring_elements_using_11](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_11.png)
+![configuring_elements_using_11](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_11.png)
 
 Figure 118. A successful attempt at making changes after the Configuration Wizard has been restarted.
 
@@ -32,13 +32,13 @@ This scenario is very common. So, if you see activity that doesn't make sense, c
 
 Sometimes one element (checkbox, dropdown, etc.) will actually control multiple values at the same time. In the example in Figure 119, "Default page layout" has four possible settings. When one of those settings, "Facing," is selected, the wizard detects two changes as shown.
 
-![configuring_elements_using_12](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_12.png)
+![configuring_elements_using_12](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_12.png)
 
 Figure 119. Two changes being detected for one element.
 
 The wizard may suggest that both changed values are valid. In this case, "Showmode" and "HasFacing" are indeed being set by the change of this element, so ensuring both checkmarks are checked and continuing onward makes sense. In Figure 120, we can see the results of changing these two items simultaneously. If only one checkmark was checked in the previous step, the dropdown would not have been configured correctly.
 
-![configuring_elements_using_13](/static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_13.png)
+![configuring_elements_using_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_13.png)
 
 Figure 120. Successfully changing two items simultaneously.
 

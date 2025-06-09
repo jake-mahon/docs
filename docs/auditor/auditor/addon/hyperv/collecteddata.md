@@ -10,4 +10,4 @@ You might want to apply a filter to narrow down your search results to the Netwr
   - If you want to periodically receive the report on the results of search with the specified criteria, click __Subscribe__. Then specify how you want the report to be delivered – as an email or as a file stored to the file share.
   - To create an alert on the specific occurrences, click __Create alert__.
   - To export filtered data to PDF or CSV, click __Export data__.
-- You can also configure and receive alerts on the events you are interested in. See the [Administration](/docs/product_docs/auditor/auditor/admin/overview.md) topic for additional information.
+- You can also configure and receive alerts on the events you are interested in. See the [Administration](/docs/auditor/auditor/admin/overview.md) topic for additional information.

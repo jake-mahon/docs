@@ -9,11 +9,11 @@ __Step 1 –__ Edit the NAS Server > Protection and Events > Events Publishing >
 
 Required Unity events needed for CIFS Activity:
 
-![NAM Required Events For CIFS](/static/img/product_docs/activitymonitor/config/dellunity/eventscifs.png)
+![NAM Required Events For CIFS](/img/product_docs/activitymonitor/config/dellunity/eventscifs.png)
 
 Required Unity events needed for NFS Activity:
 
-![NAM Required Events For NFS](/static/img/product_docs/activitymonitor/config/dellunity/eventsnfs.png)
+![NAM Required Events For NFS](/img/product_docs/activitymonitor/config/dellunity/eventsnfs.png)
 
 __Step 2 –__ Enable Events Publishing:
 

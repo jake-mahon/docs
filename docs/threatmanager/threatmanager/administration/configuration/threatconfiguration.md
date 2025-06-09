@@ -2,7 +2,7 @@
 
 Selecting a threat in the Threats list displays details for that threat. The Threat Description box displays the name and description of the threat.
 
-![This screensot displays the Threat Details box.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatdetails.png)
+![This screensot displays the Threat Details box.](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatdetails.png)
 
 The Threat Configuration Box contains a Processing tab, an Exclusions tab, and in some cases a Settings tab.
 
@@ -10,17 +10,17 @@ The Threat Configuration Box contains a Processing tab, an Exclusions tab, and i
 
 The Processing tab contains the configuration options for processing the threat.
 
-![This screenshot displays the Processing tab.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/processingtab.png)
+![This screenshot displays the Processing tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/processingtab.png)
 
 General:
 
 - Status – When set to ON, this threat will be detected by Threat Manager. When set to OFF, this threat will not be detected by Threat Manager. When a threat status is __OFF__and then set to __ON__, a dialog will display wherein which data will be processed is determined.
 
 - Threat Level – The relative severity level, or risk level, of the threat. Threat level controls the visibility of the threat and can be used to sort, filter, and influence various dashboards and visualizations throughout the console. This setting does not influence the behavior of the threat response.
-  - High – Indicates a serious threat that should be investigated immediately. The high threat level setting can be used as a filter on the [Threats Page](/docs/product_docs/threatmanager/threatmanager/administration/threats.md).
-  - Medium – Indicates a potentially serious threat of activities leading to a serious threat that should be investigated. The medium threat level setting can be used as a filter on the [Threats Page](/docs/product_docs/threatmanager/threatmanager/administration/threats.md).
-  - Low – Indicates activity that is a potential risk or a bad practice. The low threat level setting can be used as a filter on the [Threats Page](/docs/product_docs/threatmanager/threatmanager/administration/threats.md).
-  - Audit – Indicates activity that is not necessarily a threat, but should be monitored. The audit setting can be used as a filter on the [Threats Page](/docs/product_docs/threatmanager/threatmanager/administration/threats.md). Some threats will auto-escalate from audit to a higher level, for example, threats with a high threat event count or if the perpetrators of the threat are sensitive users. Audit events are also shown on the [Home Page](/docs/product_docs/threatmanager/threatmanager/administration/home.md).
+  - High – Indicates a serious threat that should be investigated immediately. The high threat level setting can be used as a filter on the [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md).
+  - Medium – Indicates a potentially serious threat of activities leading to a serious threat that should be investigated. The medium threat level setting can be used as a filter on the [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md).
+  - Low – Indicates activity that is a potential risk or a bad practice. The low threat level setting can be used as a filter on the [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md).
+  - Audit – Indicates activity that is not necessarily a threat, but should be monitored. The audit setting can be used as a filter on the [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md). Some threats will auto-escalate from audit to a higher level, for example, threats with a high threat event count or if the perpetrators of the threat are sensitive users. Audit events are also shown on the [Home Page](/docs/threatmanager/threatmanager/administration/home.md).
   - Informational – Indicates first-time client use or first-time host use, which can be common events but may also indicate a threat
 
 Threat Response:
@@ -47,7 +47,7 @@ __NOTE:__ Rollup is not available for all threat types.
 
 If rollup is enabled, multiple events from the same perpetrator will be associated with a single threat. For the given rollup criteria, if additional threat events are received within the selected rollup time, then the threat events are appended to an existing threat instead of creating a new threat. For example, if a user creates 1000 ransomware files in the configured rollup timeframe, it is reported as 1 ransomware threat with 1000 events, whereas without rollup many threats would be created. The configured threat response (Email, SIEM, or Playbooks) will be triggered only once when the threat is initially detected regardless of rollup configuration. When a threat rolls up, it will also update the detection time of the threat, which will push it to the top of the Threats Page timeline.
 
-![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/rollupexplanationgraphic.png)
+![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](/img/product_docs/threatmanager/threatmanager/administration/configuration/rollupexplanationgraphic.png)
 
 The diagram provides an outline of the rollup process.
 
@@ -55,7 +55,7 @@ The diagram provides an outline of the rollup process.
 
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![exclusionstab](/static/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.png)
+![exclusionstab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.png)
 
 To view details of an existing exclusion, click the arrow next to the exclusion or the name of the exclusion.
 
@@ -73,7 +73,7 @@ Click __Add Exclusion__ to Add a new Threat Detection Exclusion.
 
 Follow the steps to add an exclusion to the threat type.
 
-![This screenshot displays the Add Exclusion for Threat Detection window.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/addexclusion.png)
+![This screenshot displays the Add Exclusion for Threat Detection window.](/img/product_docs/threatmanager/threatmanager/administration/configuration/addexclusion.png)
 
 __Step 1 –__ Click Add Exclusion. The Add Exclusion for [Threat Type] window opens.
 
@@ -107,7 +107,7 @@ The Settings Tab provides additional threat-specific settings that are required 
 
 __NOTE:__ The Settings tab is only displayed for threats that require additional settings.
 
-![This screenshot displays the Settings tab.](/static/img/product_docs/threatmanager/threatmanager/administration/configuration/settingstab.png)
+![This screenshot displays the Settings tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/settingstab.png)
 
 This tab shows the settings that are required for the Forged Ticket threat.
 

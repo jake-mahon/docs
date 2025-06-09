@@ -9,4 +9,4 @@ __NOTE:__ This option is recommended after setting up DQS configuration.
 
 - Delete Index—Delete all content from both the search index and the NDC SQL database.
 
-![cleaner_step_1](/static/img/product_docs/dataclassification/ndc/admin/utilities/cleaner_step_1.png)
+![cleaner_step_1](/img/product_docs/dataclassification/ndc/admin/utilities/cleaner_step_1.png)

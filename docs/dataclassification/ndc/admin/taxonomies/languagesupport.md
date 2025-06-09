@@ -4,7 +4,7 @@ This section explains various aspects of multi-language support in administrativ
 
 Each clue can be restricted to documents written in a subset of the available languages. This is useful is a word in one language also appears in another language but has a different meaning. In this case you can click the Languages link beside each clue and select any subset of the available languages:
 
-![cluelanguages](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.png)
+![cluelanguages](/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.png)
 
 ## Indexing and Classification
 
@@ -51,13 +51,13 @@ The standard taxonomies provided with Netwrix Data Classification include predef
 - German
 - Spanish
 
-  ![predefined_clues](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/predefined_clues.png)
+  ![predefined_clues](/img/product_docs/dataclassification/ndc/admin/taxonomies/predefined_clues.png)
 
 Users can easily extend the out-of-the-box classification rules by adding relevant keywords and terms in other languages.
 
 In addition, there are predefined classification rules for various national identification and registration numbers. These rules typically look for ID patterns supplemented by related keywords for better classification precision.
 
-[![clues_1_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/clues_1.png)
+[![clues_1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/clues_1_thumb_0_0.png)](/docs/dataclassification/resources/images/clues_1.png)
 
 The rules are provided for the following countries (coverage varies):
 

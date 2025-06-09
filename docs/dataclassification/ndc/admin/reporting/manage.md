@@ -13,7 +13,7 @@ This section contains information on how to generate reports, use report templat
    - __Source__
 4. Finally, click __Generate__.
 
-[![reports_doctagging_thumb_0_48](/static/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_48.png)](/docs/product_docs/dataclassification/resources/images/reports/reports_doctagging.png)
+[![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_48.png)](/docs/dataclassification/resources/images/reports/reports_doctagging.png)
 
 The report will be displayed in the preview pane.
 
@@ -27,7 +27,7 @@ __NOTE:__ This capability is supported for built-in reports (Classification, Clu
 
 To view all templates available to you, open the Reports tab and select __Report Templates__ on the left.
 
-[![report_templates_thumb_0_0](/static/img/product_docs/dataclassification/ndc/admin/reporting/report_templates_thumb_0_0.png)](/docs/product_docs/dataclassification/resources/images/reports/report_templates.png)
+[![report_templates_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/report_templates_thumb_0_0.png)](/docs/dataclassification/resources/images/reports/report_templates.png)
 
 To save a report configuration template
 
@@ -35,7 +35,7 @@ To save a report configuration template
 2. Specify the necessary properties (e.g., grouping settings) and apply filters (e.g., to only include data from the specific source).
 3. Click the Save Report Configuration button.
 
-![save_report_config](/static/img/product_docs/dataclassification/ndc/admin/reporting/report_template.png)
+![save_report_config](/img/product_docs/dataclassification/ndc/admin/reporting/report_template.png)
 
 __NOTE:__ Report configuration templates are saved per user.
 

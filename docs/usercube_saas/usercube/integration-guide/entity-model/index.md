@@ -8,7 +8,7 @@ Identity Manager allows integrators to adapt the data model to the target organ
 
 ## Entity-Relationship model
 
-The model for all resources (that means data from the managed system, reference data and identities) is written in the applicative configuration in the form of an [Entity-Relationship model](https://en.wikipedia.org/wiki/Entity–relationship_model), called the __entity model__. See the [Toolkit for XML Configuration](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/index.md) topic for additional information.
+The model for all resources (that means data from the managed system, reference data and identities) is written in the applicative configuration in the form of an [Entity-Relationship model](https://en.wikipedia.org/wiki/Entity–relationship_model), called the __entity model__. See the [Toolkit for XML Configuration](/docs/usercube_saas/usercube/integration-guide/toolkit/index.md) topic for additional information.
 
 The model is organized into cohesive __connectors__, one for each managed system, and one for the reference data/identity repository.
 
@@ -20,36 +20,36 @@ The __metadata__ of a resource is the description of the resources' shape. Using
 
 The metadata is written using [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md), [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md), [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and [
 Entity Association
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 #### Entity types
 
 Every resource is assigned an [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that describes its shape.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that describes its shape.
 
 It's a description of the resource: it can be a managed system's resource or a real world entity such as an identity or a department.
 
 An [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) includes:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) includes:
 
 - One or more [
   Entity Type
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 - Zero or more [
   Entity Association
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 
 #### Entity properties
 
 Properties are key-value pairs, with a name and type that describes the nature of the value held by the property. They are described by [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties.
 
 There are two kind of properties: __Scalar Properties__ and __Navigation Properties__.
 
@@ -79,7 +79,7 @@ __Navigation Properties__ are completed by an Entity Association that explicitly
 
 An [
 Entity Association
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) describes a link between entity types. It connects a pair of navigation properties, from two __Entity Types__.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) describes a link between entity types. It connects a pair of navigation properties, from two __Entity Types__.
 
 There are two types of navigational properties:
 
@@ -103,13 +103,13 @@ Some property values must be available in several languages. In this case, we de
 
 The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName\_L{Index}_ where _Index_ reference the [
 Languages
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/languages/index.md) list.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/languages/index.md) list.
 
 #### Computed property
 
 A property can be calculated from other properties. The [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression element allows the expression of a computed property. It references the property (specifying the entity type's identifier and the property's identifier) and expresses the calculation based on a given entity using the calculation [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) syntax.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression element allows the expression of a computed property. It references the property (specifying the entity type's identifier and the property's identifier) and expresses the calculation based on a given entity using the calculation [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) syntax.
 
 An element ```<EntityPropertyExpression>``` can be used to calculate a scalar property or a mono-valued navigation property. In the latter case, the expression must return an integer that corresponds to the primary key of the target entity.
 
@@ -121,7 +121,7 @@ It represents a user-friendly name for __EntityType__ that is used in the UI if 
 
 Its value can be explicitly computed by an [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression. Otherwise, a default value is automatically computed by Identity Manager using the first property of the __EntityType__ where ```identifier``` contains the string _"name"_. If no such property is found, the first declared property of the __EntityType__ is used instead.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression. Otherwise, a default value is automatically computed by Identity Manager using the first property of the __EntityType__ where ```identifier``` contains the string _"name"_. If no such property is found, the first declared property of the __EntityType__ is used instead.
 
 The _InternalDisplayName_ property will be used as a default label of the entity in the UI.
 
@@ -143,39 +143,39 @@ Binary property values (such as pictures or files) are stored in the UR\_Resourc
 
 Identity Manager's Entity Model also contains __a mapping__ between the external data and [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties or [](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties or [](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[
 Entity Association
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). That's why entity types are organized into __connectors__. The __mapping___connects_ entity types to external sources of truth.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). That's why entity types are organized into __connectors__. The __mapping___connects_ entity types to external sources of truth.
 
 This information is provided by the [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 To build Identity Manager resources from external data found in the managed system, the entity model provides a mapping between the external data (often in the form of CSV files, see [
 Upward Data Synchronization
-](/docs/product_docs/usercube_saas/usercube/integration-guide/synchronization/upward-data-sync/index.md)) and entity properties. This information is provided by the [
+](/docs/usercube_saas/usercube/integration-guide/synchronization/upward-data-sync/index.md)) and entity properties. This information is provided by the [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)and [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)and [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 Every [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)maps a CSV column to a scalar [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)maps a CSV column to a scalar [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 Every [
 Entity Association Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) maps a CSV column to a navigation [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) maps a CSV column to a navigation [
 Entity Type
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 #### Format
 
@@ -188,13 +188,13 @@ Let's take, for example, a case where we want to store an employee's start date:
 
 We need to transform the input data, from the export, into something readable by Identity Manager and, when writing to the external system, transform Identity Manager's data back into something readable by the external system.
 
-![Export and Fulfill Data transformation](/static/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.png)
+![Export and Fulfill Data transformation](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.png)
 
 The format used in the external system can be provided through the [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) using the [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) using the [
 References: Format for the EntityPropertyMapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) attribute to help Identity Manager to convert data appropriately.
+](/docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) attribute to help Identity Manager to convert data appropriately.
 
 If the field in the external system is not forced to a specific value type, but is free-form (example: a string field in which date values are stored but which can sometimes hold other values), we strongly recommend not using the ```Format``` attribute to prevent inconsistent user input in the external system.
 
@@ -202,7 +202,7 @@ If the field in the external system is not forced to a specific value type, but 
 
 When writing an [
 Entity Type Mapping
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), one of the _scalar properties_ should be chosen as primary key. This property will be used by Identity Manager to [uniquely identify a resource](https://en.wikipedia.org/wiki/Primary_key). It is hence crucial to choose carefully as many of Identity Manager's processes and optimizations depend on this choice.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), one of the _scalar properties_ should be chosen as primary key. This property will be used by Identity Manager to [uniquely identify a resource](https://en.wikipedia.org/wiki/Primary_key). It is hence crucial to choose carefully as many of Identity Manager's processes and optimizations depend on this choice.
 
 ### SQL views
 
@@ -210,7 +210,7 @@ The ```UR_Resource``` table contains resources from all the connectors, for all 
 
 SQL Views are built by the [
 Create Database Views Task
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/createdatabaseviewstask/index.md).
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/createdatabaseviewstask/index.md).
 
 SQL Views created by this tool are identified in the database by a ```zz_``` prefix.
 
@@ -218,4 +218,4 @@ Created views are not used by the Identity Manager engine directly. Identity Ma
 
 ## Records
 
-The __entity model__ is enhanced with __records__ to handle positions and movements of staff. See the [Identity Management](/docs/product_docs/usercube_saas/usercube/integration-guide/identity-management/index.md) topic for additional information.
+The __entity model__ is enhanced with __records__ to handle positions and movements of staff. See the [Identity Management](/docs/usercube_saas/usercube/integration-guide/identity-management/index.md) topic for additional information.

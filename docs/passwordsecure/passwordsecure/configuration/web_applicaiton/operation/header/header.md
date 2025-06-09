@@ -2,7 +2,7 @@
 
 The header provides the following functions:
 
-![Header](/static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.png)
+![Header](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.png)
 
 1. Logo
 
@@ -30,4 +30,4 @@ here you will be informed about incoming notifications. The notification can als
 
 7. Account
 
-The user who is currently logged in can be seen under account. You can log out by clicking on the account. It is also possible to call up the settings in [Account](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/account.md).
+The user who is currently logged in can be seen under account. You can log out by clicking on the account. It is also possible to call up the settings in [Account](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/account.md).

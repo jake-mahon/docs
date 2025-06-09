@@ -54,5 +54,5 @@ On the __History Details__ dialog box, the __Note__ box displays your note. Remo
 
 __See Also__
 
-- [Identity Store History](/docs/product_docs/groupid/groupid/admincenter/identitystore/history/view.md)
-- [Admin Center History](/docs/product_docs/groupid/groupid/admincenter/general/history.md)
+- [Identity Store History](/docs/groupid/groupid/admincenter/identitystore/history/view.md)
+- [Admin Center History](/docs/groupid/groupid/admincenter/general/history.md)

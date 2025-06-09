@@ -5,9 +5,9 @@ The Target Log page is where logs are selected to be collected. There are three 
 - Windows Event Log (Archived)
 - Internet Information Server Log
 
-See the [SMARTLog: Target Log for Windows Event Log Type](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/windowseventlog.md) and [SMARTLog: Target Log for File Detection Log Type](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md) topics for information on the other versions of this wizard page.
+See the [SMARTLog: Target Log for Windows Event Log Type](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/windowseventlog.md) and [SMARTLog: Target Log for File Detection Log Type](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md) topics for information on the other versions of this wizard page.
 
-![SMART Log DC Wizard Target Log page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlog.png)
+![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlog.png)
 
 The configurable options are:
 

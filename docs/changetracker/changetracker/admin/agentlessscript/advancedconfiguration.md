@@ -6,6 +6,6 @@ RegEx can be used to define the Prompts. By default, if any of the Prompt string
 
 However, more complex Regular Expression based prompts can be defined to ‘wildcard’ sections of the prompt and to more precisely define the Prompt with a new line prefix for instances where a simple prompt (e.g. a single > or $) may appear elsewhere in the data being tracked, triggering an early termination of the tracking operation.
 
-![AgentlessScriptAdvConfigRegEx](/static/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptadvconfigregex.png)
+![AgentlessScriptAdvConfigRegEx](/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptadvconfigregex.png)
 
 This prompt definition matches a sequence of ‘new line’’any characters’’-1700>’. Please contact [Netwrix Support](https://www.netwrix.com/support.html) if you have any challenging prompt or logon script issues.

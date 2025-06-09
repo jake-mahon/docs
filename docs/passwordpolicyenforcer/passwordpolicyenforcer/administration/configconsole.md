@@ -8,7 +8,7 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-![Configuration Console Dashboard](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
 
 ## Dashboard Controls
 
@@ -21,9 +21,9 @@ The Configuration Console dashboard has all the tools you need to set up and man
 
 In addition, there are tiles to access Password Policy Enforcer major features:
 
-- [Manage Policies](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Manage-Policies)
-- [Compromised Password Check](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordcheck.md#Compromised-Password-Check)
-- [System Audit and Support](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.md#System-Audit-and-Support) - Version Tracker, Support Tools, Property Editor
+- [Manage Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#Manage-Policies)
+- [Compromised Password Check](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordcheck.md#Compromised-Password-Check)
+- [System Audit and Support](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.md#System-Audit-and-Support) - Version Tracker, Support Tools, Property Editor
 
 See the specific topics for details.
 
@@ -31,15 +31,15 @@ See the specific topics for details.
 
 The toggle enables/disables Password Policy Enforcer on all domain controllers. It is enabled by default.
 
-![Enable/Disable PPE](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledisableppeconsole.png)
+![Enable/Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledisableppeconsole.png)
 
 Click the toggle to disable PPE:
 
-![Disable PPE](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disable.png)
+![Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disable.png)
 
 If PPE  is disabled, click the toggle to enable:
 
-![Enable PPE](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disabled.png)
+![Enable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disabled.png)
 
 ### Connected To
 
@@ -57,15 +57,15 @@ Domain
 - Select a Domain Controller from the list of domain controllers where PPE is installed.
 - Configuration is replicated to all the domain controllers in the domain.
 
-![Connect To Domain Configuration](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
+![Connect To Domain Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
 
 Local
 
 - Defines policies for local user accounts.
 - Only affects the computer where it is set.
-- You can copy a local configuration to another computer by exporting the configuration from the registry, and then importing it into the registry of the other computer. You can also use Group Policy to distribute a local configuration to many computers. See the [Domain and Local Policies](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
+- You can copy a local configuration to another computer by exporting the configuration from the registry, and then importing it into the registry of the other computer. You can also use Group Policy to distribute a local configuration to many computers. See the [Domain and Local Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
 
-![Connected To Local Configuration](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
+![Connected To Local Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
 
 ### Help
 
@@ -94,14 +94,14 @@ If you make changes, click __Save__ to keep your changes or __Discard__ to cance
 
 Here are the default settings.
 
-![General Settings PPE](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsgeneral.png)
+![General Settings PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsgeneral.png)
 
 - __Default policy__ sets the policy to be enforced on the domain or local computer unless users have a different policy assigned to them.
 - __Enforce policy when password is reset__ requires users, administrators and helpdesk operators to comply with the password policy when resetting a password or creating a new user account. Default is checked.
 
   - Minimum Age rule is never enforced during a reset.
-  - History rule is enforced if this option is selected and the __Enforce this rule when a password is reset__ option is selected on the [History Rule](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/history_rule.md) Properties.
-- __Accept encrypted client request only__ specifies requests from Password Policy Client, Netwrix Password Reset and Password Policy/Web must be encrypted. Client requests do not contain passwords or password hashes. See the [Password Policy Client](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information. Default is checked.
+  - History rule is enforced if this option is selected and the __Enforce this rule when a password is reset__ option is selected on the [History Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/history_rule.md) Properties.
+- __Accept encrypted client request only__ specifies requests from Password Policy Client, Netwrix Password Reset and Password Policy/Web must be encrypted. Client requests do not contain passwords or password hashes. See the [Password Policy Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information. Default is checked.
 - __Log event when password not checked by service__ adds an entry to the Windows Application Event Log whenever it accepts a password without checking it. Default is checked. This can occur if:
 
   - Password Policy Enforcer is disabled.
@@ -119,7 +119,7 @@ Here are the default settings.
   Most rules are enforced by both the Password Policy Client and Password Policy Server. If the Password Policy Enforcer Client is installed, a non-compliant password can be rejected before Windows sends it to the domain controller. The following limitations apply when a password is rejected by the Password Policy Client:
 
   - An event is only logged if the Password Policy Enforcer Client version is 9.0 or later. If a password is rejected by the Password Policy Server, then the event is logged.
-  - Client logged events only show the local rules the password violated. For example, the Compromised rule is only enforced by the Password Policy Server. See the [Rules](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md) topic for additional information.
+  - Client logged events only show the local rules the password violated. For example, the Compromised rule is only enforced by the Password Policy Server. See the [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md) topic for additional information.
   - Client rejections can be lost or duplicated if there are communication issues between the Password Policy Client and Password Policy Server.
 - __Log event when password accepted by service__ adds an entry to the Windows Application Event Log whenever a password is accepted. The logged event includes the username. Default is not checked.
 
@@ -131,7 +131,7 @@ If you make changes, click __Save__ to keep your changes or __Discard__ to cance
 
 Here are the default settings.
 
-![Notifications Settings](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsnotifications.png)
+![Notifications Settings](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsnotifications.png)
 
 - __Send email reminders__: check this option to send reminders. Default is not checked.
 
@@ -156,7 +156,7 @@ Open the __Settings__ > __License__ tab to view your current license. The licens
 
 To add or update your license, copy it from the email or file, then click __Paste license from clipboard__.
 
-![License Settings Tab](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingslicense.png)
+![License Settings Tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingslicense.png)
 
 - __License type__ and __Licensed to__ are set based on your sales agreement.
 - __Users__ is the total number of available licenses.

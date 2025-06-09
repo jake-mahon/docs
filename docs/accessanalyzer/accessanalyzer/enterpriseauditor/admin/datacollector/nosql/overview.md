@@ -2,7 +2,7 @@
 
 The NoSQL Data Collector for MongoDB provides information on MongoDB Cluster configuration, limited user permissions, scans collections for sensitive data, and identifies who has access to sensitive data. It also supports the execution of custom queries against all targeted MongoDB cluster nodes.
 
-The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [MongoDB Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/overview.md) topic for additional information.
+The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [MongoDB Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/overview.md) topic for additional information.
 
 Protocols
 
@@ -33,9 +33,9 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 
 The NoSQL Data Collector is configured through the NoSQL Data Collector Wizard. The wizard contains the following pages, which change based upon the query category selected:
 
-- [NoSQL: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/category.md)
-- [NoSQL: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md)
-- [NoSQL: Criteria](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/criteria.md)
-- [NoSQL: Filter](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/filter.md)
-- [NoSQL: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/results.md)
-- [NoSQL: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/summary.md)
+- [NoSQL: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/category.md)
+- [NoSQL: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md)
+- [NoSQL: Criteria](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/criteria.md)
+- [NoSQL: Filter](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/filter.md)
+- [NoSQL: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/results.md)
+- [NoSQL: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/summary.md)

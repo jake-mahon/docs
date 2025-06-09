@@ -6,7 +6,7 @@ Each Password Policy Enforcer password policy has multiple message templates, on
 - [POLICY] – Customize the text for the active rules.
 - [LIVE\_POLICY] – Password Policy Client (10.2 and above) messages can be configured to display live feedback for the active rules to users as they enter their passwords. This feature enables users to see if their passwords meet the requirements of the policy set by the organization. Here is an example of a live policy message.
 
-  ![Messages](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/mesages2.png)
+  ![Messages](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/mesages2.png)
 
   __NOTE:__ Start each custom message with two spaces, a hypen, and a space before your message so the X and checks can appear for the rule. For example: " __- Include an upper case alpha character.__" The quotes are only there to illustrate the message.
 - Rejection Reason – Displays why an intended password was rejected on clients that have the Netwrix Password Policy Enforcer Client installed
@@ -22,7 +22,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Messages__ tab.
 
-![Set up messages](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/messages.png)
+![Set up messages](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/messages.png)
 
 __Step 4 –__ Select the message language from the drop-down list. You can set messages for multiple languages. You do not have to create a Password Policy Enforcer policy for each language. To set multiple languages, pick one, edit the message templates. Select another language, and edit the message templates. Repeat for each language you want to implement. The correct message is displayed to users based on their selected language.
 
@@ -30,7 +30,7 @@ __Step 5 –__ Edit the message templates in the Password policy, [POLICY], [LIV
 
 __Step 6 –__ Insert the macros into your message. Click __Macro__ and pick one to insert it.
 
-![Use macros for your message](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/messagesmacros.png)
+![Use macros for your message](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/messagesmacros.png)
 
 __Step 7 –__ Click __Save__ and review your changes in the Preview area. Click __Save__ f you edit the message.
 

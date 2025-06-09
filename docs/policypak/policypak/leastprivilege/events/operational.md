@@ -7,7 +7,7 @@ Events in section are divided into the following categories:
 - Audit/Discovery events (Event ID 6200+)
 - Admin Approval events (Event ID 6300+)
 
-See the [List of Endpoint Policy Manager Event Categories and IDs](/docs/product_docs/policypak/policypak/tips/eventcategories.md) topic for all event IDs.
+See the [List of Endpoint Policy Manager Event Categories and IDs](/docs/policypak/policypak/tips/eventcategories.md) topic for all event IDs.
 
 Each event ID will have the following fields:
 
@@ -45,10 +45,10 @@ The reason code that is written to Event 6310 is from a fixed list in the Endpoi
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/events/operational_events.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events.png)
 
 An example of Event 613 can be seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/static/img/product_docs/policypak/policypak/leastprivilege/events/operational_events_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events_1.png)

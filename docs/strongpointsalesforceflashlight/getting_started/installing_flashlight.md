@@ -8,8 +8,8 @@ The Flashlight app package is available on the Salesforce AppExchange. To instal
 2. Log in to Salesforce when prompted.
 3. Select __Install for Admins Only__
 4. Click __Install__
-![Install Flashlight by Strongpoint](/static/img/product_docs/strongpointsalesforceflashlight/getting_started/install_flashlight1_800x399.png)
+![Install Flashlight by Strongpoint](/img/product_docs/strongpointsalesforceflashlight/getting_started/install_flashlight1_800x399.png)
 
 NOTE:  Strongpoint installs in the background. An email notification is sent to you when the installation is complete.
 
-![topic](/static/img/product_docs/topic.png)__Next Step:__ [Using the Getting Started Wizard](/docs/product_docs/strongpointsalesforceflashlight/getting_started/using_getting_started_wizard.md)
+![topic](/img/product_docs/topic.png)__Next Step:__ [Using the Getting Started Wizard](/docs/strongpointsalesforceflashlight/getting_started/using_getting_started_wizard.md)

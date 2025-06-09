@@ -1,6 +1,6 @@
 # C# utility functions
 
-These functions can be called in any C# expression specified in the configuration. See the [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+These functions can be called in any C# expression specified in the configuration. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 
 These are static functions defined in the class ```Usercube.Expressions.Functions.UtilExpressions```.
 
@@ -14,7 +14,7 @@ For example, you could use ```UtilExpressions.BuildUsername(...)``` as shown in 
 
 Builds a username by concatenating a first name, a separator, a last name and a possible suffix.
 
-First name and last name are simplified using the Simplify function. See the [Predefined functions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)topic for additional information.
+First name and last name are simplified using the Simplify function. See the [Predefined functions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)topic for additional information.
 
 ```
 string? BuildUsername(string? firstName, string? lastName, string? separator, string? suffix, int? iteration)
@@ -22,7 +22,7 @@ string? BuildUsername(string? firstName, string? lastName, string? separator, st
 
 The iteration argument is usually used with the help of [
 Build Unique Value Aspect
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md). If the iteration number is greater than 0, it is inserted after the last name.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md). If the iteration number is greater than 0, it is inserted after the last name.
 
 ### Example of use in a BuildUniqueValue aspect:
 
@@ -49,7 +49,7 @@ The ```maxLength``` argument limits the length of the username.
 
 The iteration argument is usually used with the help of [
 Build Unique Value Aspect
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md). If it is greater than 0, we use several letters of the first name avoiding as much as possible to insert a number in the built username.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md). If it is greater than 0, we use several letters of the first name avoiding as much as possible to insert a number in the built username.
 
 ### Example of use in a BuildUniqueValue aspect:
 

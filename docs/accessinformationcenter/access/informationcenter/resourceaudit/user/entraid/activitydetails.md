@@ -2,7 +2,7 @@
 
 The Activity Details report for an Entra ID (formerly Azure Active Directory) user object provides details on every activity event logged by the audited user during the selected date range. This report includes a Permission Changes table.
 
-![Activity Details report for an Entra ID user](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/user/entraid/activitydetailsentraid.png)
+![Activity Details report for an Entra ID user](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/user/entraid/activitydetailsentraid.png)
 
 This report is comprised of the following columns:
 

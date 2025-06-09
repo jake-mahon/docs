@@ -8,7 +8,7 @@ Navigate to __Box__ > __Box\_Access__ > __Configure__ node and select __Analysis
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_Access Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/accessanalysis.png)
+![Analysis Tasks for the Box_Access Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/box/accessanalysis.png)
 
 The following analysis tasks are selected by default:
 

@@ -2,11 +2,11 @@
 
 The installer places the following icon on the desktop which opens the Access Information Center with the independent URL:
 
-![Desktop Icon](/static/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
+![Desktop Icon](/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
 
 Use this icon to launch the Access Information Center for the first time.
 
-![AIC Login Page](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/loginpage.png)
+![AIC Login Page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/loginpage.png)
 
 The Access Information Center is installed with a Builtin Administrator account. Use the following login credential for the first launch:
 
@@ -15,16 +15,16 @@ The Access Information Center is installed with a Builtin Administrator account.
 
 You will be prompted to change the Builtin Administrator password.
 
-![Change Administrator Password propmt](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/changeadminpassword.png)
+![Change Administrator Password propmt](/img/product_docs/accessinformationcenter/access/informationcenter/admin/changeadminpassword.png)
 
 The new password must be eight or more characters long. After setting the password, you will need to login with the Builtin Administrator account.
 
-Using the Configuration interface, the Builtin Administrator account can be disabled once a domain account has been granted the Administrator role. You can also change the password for the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
+Using the Configuration interface, the Builtin Administrator account can be disabled once a domain account has been granted the Administrator role. You can also change the password for the Builtin Administrator account. See the [Modify the Builtin Administrator Account](/docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md#Modify-the-Builtin-Administrator-Account) topic for additional information.
 
-![Home page for the Builtin Admin account on first launch](/static/img/product_docs/accessinformationcenter/access/informationcenter/admin/builtinadminhome.png)
+![Home page for the Builtin Admin account on first launch](/img/product_docs/accessinformationcenter/access/informationcenter/admin/builtinadminhome.png)
 
-After changing the Builtin Administrator password at first launch, you will be asked to login again. The Home page opens. The first thing that should be done is to configure console access for domain users. Additionally, other settings can be configured or modified through the Configuration interface. Click __Configure Console__ in the Your Links section to open the Configuration interface. See the [Console Access Page](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md) topic for additional information.
+After changing the Builtin Administrator password at first launch, you will be asked to login again. The Home page opens. The first thing that should be done is to configure console access for domain users. Additionally, other settings can be configured or modified through the Configuration interface. Click __Configure Console__ in the Your Links section to open the Configuration interface. See the [Console Access Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccess.md) topic for additional information.
 
-Once console access to the has been configured, there are a few login methods you can offer users. The features available to users are controlled by the role assigned and your license key. See the [URL & Login](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/login.md) topic for information on how users will log in and where they are directed after login.
+Once console access to the has been configured, there are a few login methods you can offer users. The features available to users are controlled by the role assigned and your license key. See the [URL & Login](/docs/accessinformationcenter/access/informationcenter/admin/login.md) topic for information on how users will log in and where they are directed after login.
 
-See the [Navigation](/docs/product_docs/accessinformationcenter/access/informationcenter/admin/navigate.md) topic for information on each of the interfaces and portals accessible from the Home page.
+See the [Navigation](/docs/accessinformationcenter/access/informationcenter/admin/navigate.md) topic for information on each of the interfaces and portals accessible from the Home page.

@@ -10,7 +10,7 @@ It is extremely important to create a sensible recovery plan and to make corresp
 
 Creating backups
 
-It is of course essential in the event of a disaster that you can access a backup that is as up-to-date as possible. Therefore, it is necessary to regularly create [Backup management](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md).
+It is of course essential in the event of a disaster that you can access a backup that is as up-to-date as possible. Therefore, it is necessary to regularly create [Backup management](/docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md).
 
 Who is responsible in the event of a disaster?
 
@@ -29,8 +29,8 @@ What passwords do those people responsible need in order to restore Netwrix Pass
 Furthermore, it must be ensured that the responsible user has access to these passwords at all times. The following options are possible:
 
 - Store the passwords in the company safe
-- Create corresponding [Offline Add-on](/docs/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/offline_client.md)
-- Periodically create a HTML WebViewer file with automatic delivery via a system task including e-mail forwarding which can be configured in [Account](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/account.md)
+- Create corresponding [Offline Add-on](/docs/passwordsecure/passwordsecure/configuration/offlineclient/offline_client.md)
+- Periodically create a HTML WebViewer file with automatic delivery via a system task including e-mail forwarding which can be configured in [Account](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/account.md)
 
 #### Disaster scenarios
 

@@ -2,7 +2,7 @@
 
 Use the VBscripting analysis module to access the VBScript Editor and apply VB scripting to the current analysis.
 
-![VBScript Editor](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/vbscripteditor.png)
+![VBScript Editor](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/vbscripteditor.png)
 
 The VBScript Editor has the following options:
 

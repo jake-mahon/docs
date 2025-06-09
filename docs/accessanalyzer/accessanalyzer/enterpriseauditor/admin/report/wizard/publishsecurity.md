@@ -2,9 +2,9 @@
 
 The Publish Security page of the Report Configuration wizard contains the account names of users with inherited permissions to view the generated report.
 
-__NOTE:__ This page is only enabled if Role Based Access is configured for the Access Analyzer Console. See the [Role Based Access](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information.
+__NOTE:__ This page is only enabled if Role Based Access is configured for the Access Analyzer Console. See the [Role Based Access](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information.
 
-![Publish Security page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/publishsecurity.png)
+![Publish Security page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/publishsecurity.png)
 
 Roles assigned at the global level are inherited down to the report configuration. Additional report viewer privileges can also be added at the job group or job levels.
 
@@ -14,11 +14,11 @@ You can add additional users, groups, and service accounts with the Report Viewe
 
 __Step 1 –__  Click __Add__.
 
-![Select User, Service Account, or Group window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/addreportviewer.png)
+![Select User, Service Account, or Group window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/addreportviewer.png)
 
 __Step 2 –__ On the Select User, Service Account or Group window, select the desired account and then click __OK__.
 
-![Report Viewer user added in wizard](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/reportviewer.png)
+![Report Viewer user added in wizard](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/report/wizard/reportviewer.png)
 
 The selected account is added to the list with a Role of Report Viewer.
 

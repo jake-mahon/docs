@@ -6,21 +6,21 @@ Various different certificates are used to guarantee the security of Netwrix Pas
 
 The individual certificates are described in the following sections:
 
-- [SSL connection certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/ssl_connection_certificates.md)
-- [Database certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/database_certificates.md)
-- [Master Key certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/master_key_certificates.md)
-- [Discovery service certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/discovery_service_certificates.md)s
-- [Password Reset certificates](/docs/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password_reset_certificates.md)
+- [SSL connection certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/ssl_connection_certificates.md)
+- [Database certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/database_certificates.md)
+- [Master Key certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/master_key_certificates.md)
+- [Discovery service certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/discovery_service_certificates.md)s
+- [Password Reset certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password_reset_certificates.md)
 
 ## Calling up the certificate manager
 
 There are two ways to open the certificate manager. The certificates for each specific database can be managed via the ribbon:
 
-![installation_with_parameters_196_647x73](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_196_647x73.png)
+![installation_with_parameters_196_647x73](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_196_647x73.png)
 
 In the __Main menu__, it is also possible to start the certificate manager for all databases via the __basic configuration:__
 
-![base configuration](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_197-en.png)
+![base configuration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_197-en.png)
 
 NOTE: Operation of the certificate manager is always the same. The only difference is whether the certificates are displayed for each database or for all databases.
 
@@ -28,17 +28,17 @@ NOTE: Operation of the certificate manager is always the same. The only differen
 
 After opening the certificate manager, all certificates specific to Netwrix Password Secure will be displayed. Clicking on the certificate will display further information.
 
-![installation_with_parameters_198](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_198.png)
+![installation_with_parameters_198](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_198.png)
 
 Double clicking on a certificate will open the Windows Certificate Manger to provide more detailed information.
 
-![installation_with_parameters_199_423x396](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_199_423x396.png)
+![installation_with_parameters_199_423x396](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_199_423x396.png)
 
 #### Required certificates / deleting no longer required certificates
 
 The overview will initially only display those certificates that are being used and are thus required. Clicking on __All__ will also display the no longer required certificates. For example, it is possible that outdated certificates exist on the machine due to a test installation. These certificates can be easily deleted via the corresponding button in the ribbon.
 
-![certificates-ac-4-en](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates-ac-4-en.png)
+![certificates-ac-4-en](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates-ac-4-en.png)
 
 #### Importing certificates
 
@@ -54,7 +54,7 @@ NOTE: SSL connection certificates are not included in this process and are also 
 
 You can define whether every certificate should be saved to its own file in the __settings__. If this option has not been activated, all relevant certificates will be backed up in one file. In addition, the storage location is defined in the settings.
 
-![installation_with_parameters_201_826x310](/static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_201_826x310.png)
+![installation_with_parameters_201_826x310](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_201_826x310.png)
 
 #### Backing up certificates
 

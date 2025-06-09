@@ -8,7 +8,7 @@ Navigate to the __Unix__ > __2.Privileged Access__ > __Sudoers__ > __UX\_Sudoers
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_Sudoers Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.png)
+![Analysis Tasks for the UX_Sudoers Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.png)
 
 The default analysis tasks are:
 

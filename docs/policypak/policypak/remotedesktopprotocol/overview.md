@@ -7,4 +7,4 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Desktop Protocol (RD
 - Configure and deliver the complete gamut of RDP settings and keep them up to date
 - Specify which RDP files should go on which machines based on conditional settings
 
-__NOTE:__ See [Create and update .RDP files for end-users for Remote Work and VDI scenarios](/docs/product_docs/policypak/policypak/video/remotedesktopprotocol/vdiscenarios.md) for an overview of Endpoint Policy Manager Remote Desktop Protocol Manager
+__NOTE:__ See [Create and update .RDP files for end-users for Remote Work and VDI scenarios](/docs/policypak/policypak/video/remotedesktopprotocol/vdiscenarios.md) for an overview of Endpoint Policy Manager Remote Desktop Protocol Manager

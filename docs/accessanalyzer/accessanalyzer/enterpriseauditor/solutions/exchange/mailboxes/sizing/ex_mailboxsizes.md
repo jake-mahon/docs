@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailbox Sizes Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/sizing/mailboxsizesanalysis.png)
+![Analysis Tasks for the EX_Mailbox Sizes Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/sizing/mailboxsizesanalysis.png)
 
 The following analysis tasks are selected by default:
 
@@ -17,7 +17,7 @@ The following analysis tasks are selected by default:
 - 03.SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 6 months. It can be modified.
-  - See the [Exchange History Retention](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
+  - See the [Exchange History Retention](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
 - 04.Store History – Creates the SA\_EX\_MailboxSizes\_StoreHistory table, accessible under the job’s Results node
 - 05.Current Sizes – Creates the SA\_EX\_MailboxSizes\_CurrentSnapshot table, accessible under the job’s Results node
 - 06.Dumpster Sizes – Creates the SA\_EX\_MailboxSizes\_DumpstersByStore table, accessible under the job’s Results node
@@ -29,7 +29,7 @@ __CAUTION:__ Do not select the __00.Delete All Data__ option. This analysis task
 
 - 00.Delete All Data
 
-  - See the [Troubleshooting Data Collection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX\_MailboxAccess Job produces the following pre-configured reports:
 

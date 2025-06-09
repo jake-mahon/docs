@@ -2,7 +2,7 @@
 
 The Results page provides a list of available properties to be searched for and returned by the job execution. The properties selected display as table columns in the results of the query. It is a wizard page for all of the categories.
 
-![File Search Wizard Results page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![File Search Wizard Results page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
 
 Properties can be selected individually or in groups with the __Select All__ or __Clear All__ buttons. The properties available vary based on the category selected.
 

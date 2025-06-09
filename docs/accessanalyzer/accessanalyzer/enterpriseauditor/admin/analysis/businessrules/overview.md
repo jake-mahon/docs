@@ -12,6 +12,6 @@ Business Rules analysis module results are displayed in a table called a scoreca
 
 To access and modify the Business Rules analysis module, navigate to the Job's __Configure__ > __Analysis__ node and click __Configure Analysis__ to open the Edit Rules window. The Edit Rules window has the following tabs:
 
-- [Logic Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/logic.md)
-- [Variables Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/variables.md)
-- [Applies To Tab](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/appliesto.md)
+- [Logic Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/logic.md)
+- [Variables Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/variables.md)
+- [Applies To Tab](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/appliesto.md)

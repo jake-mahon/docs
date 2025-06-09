@@ -15,14 +15,14 @@ Dependencies
   - Audit destination must be a binary file
   - See the Microsoft [Create a Server Audit and Database Audit Specification](https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification) article for additional information.
 - For the SQL\_SecurityAssessment Job – One or more of the following jobs or job groups must be run to produce results:
-  - [0.Collection > SQL Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
-  - [1.Users and Roles Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)
-  - [3.Permissions Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
-  - [5.Sensitive Data Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
-  - [Privileged Accounts Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
-  - [Privileged Accounts Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+  - [0.Collection > SQL Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
+  - [1.Users and Roles Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)
+  - [3.Permissions Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
+  - [5.Sensitive Data Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
+  - [Privileged Accounts Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+  - [Privileged Accounts Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
 
-Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances. However, it is necessary for the SA\_SQL\_Instances table to be populated before attempting to scope the queries. Therefore, the [0-SQL\_InstanceDiscovery Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) must be manually executed before attempting to scope the 0.Collection Job Group queries.
+Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances. However, it is necessary for the SA\_SQL\_Instances table to be populated before attempting to scope the queries. Therefore, the [0-SQL\_InstanceDiscovery Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) must be manually executed before attempting to scope the 0.Collection Job Group queries.
 
 Targeted Host(s)
 
@@ -34,11 +34,11 @@ The 0.Collection Job Group has been set to run against the following default dyn
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
+The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
 
 The Connection Profile should be assigned under the SQL > 0.Collection > Settings > Connection node. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 
@@ -80,7 +80,7 @@ Dependencies
 
   ___RECOMMENDED:___ To avoid functional issues with Access Analyzer, create multiple connection profiles to accommodate multiple credentials.
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL\_InstanceDiscovery Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run successfully
+- [0-AzureSQL\_InstanceDiscovery Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run successfully
 
 Targeted Host(s)
 
@@ -90,11 +90,11 @@ The 0.Collection Job Group has been set to run against the following default dyn
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account with database login enabled or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
+The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account with database login enabled or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
 
 The Connection Profile should be assigned under the __Databases__ > 0.Collection > Azure SQL > Settings > Connection node. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
 
-See the [Connection](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

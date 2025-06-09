@@ -1,12 +1,12 @@
 # Remove Redundant Assignments
 
-How to remove redundant assignments, i.e. manual assignments of roles and resource types that are assigned by a rule too. See the [Entitlement Assignment](/docs/product_docs/usercube_saas/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
+How to remove redundant assignments, i.e. manual assignments of roles and resource types that are assigned by a rule too. See the [Entitlement Assignment](/docs/usercube_saas/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
 
 ## Overview
 
 Assignment rules can sometimes give to users an entitlement that they had already received manually. Hence, new assignment rules can imply redundancies between the entitlements assigned manually and approved, and those calculated by a rule and assigned automatically. See the [
 Automate Role Assignments
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional information.
 
 Netwrix recommends removing redundant assignments after any assignment rule is created or updated.
 
@@ -16,7 +16,7 @@ This guide is about switching the manual assignments, which are allowed by the r
 
 All entitlements are assigned on a given validity period, i.e. from a given start date to a given end date:
 
-- When assigning an entitlement to a user manually, the start and end dates are specified explicitly unless the end date is locked. See the [Create a Role Manually](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
+- When assigning an entitlement to a user manually, the start and end dates are specified explicitly unless the end date is locked. See the [Create a Role Manually](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
 - When assigning entitlements to users via assignment rules, the start and end dates are based on the owner's data, for example their contract or position start/end dates. These assignments are automatic.
 
 Netwrix recommends always preferring calculated assignments over manual ones, because calculated assignments follow the changes in their owners' data and are consequently more secure.
@@ -32,13 +32,13 @@ The classic behavior gives priority to approved manual entitlements over calcula
 
 For example, consider a user who has a given entitlement which was assigned to them manually on several distinct time periods. When creating a rule that assigns the same entitlement to them automatically on a given time period, then we have:
 
-![Schema - Compute Role Model](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewithout.png)
+![Schema - Compute Role Model](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewithout.png)
 
 The redundant assignment analysis gives priority to the rules inside the role model and the policy. When an entitlement is assigned via a rule, it is stated as calculated, even if it is also assigned manually. Thus, manual assignments whose start and end dates overlap with the validity period are to be truncated or deleted.
 
 For example, consider the same situation as before. Using the redundant assignments analysis, then we have:
 
-![Schema - Redundant Assignment Analysis](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewith.png)
+![Schema - Redundant Assignment Analysis](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewith.png)
 
 Redundant assignments can be removed by Identity Manager only when the corresponding assigned items are tagged as redundant and displayed in the most recent report. The manual assigned items that are not tagged are still kept as discretionary entitlements and will not be removed.
 
@@ -52,21 +52,21 @@ For a given managed system, integrators may need the help of the application own
 
 See the [
 Create Roles in the Role Catalog
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md), [
+](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md), [
 Automate Role Assignments
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and [
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and [
 Perform Role Mining
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
 
 ## Remove Redundant Assignments
 
 Remove redundant assignments by proceeding as follows:
 
-![Home Page - Redundant Assignments](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.png)
+![Home Page - Redundant Assignments](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.png)
 
 __Step 1 –__ Click on __Redundant Assignments__ on the home page in the __Administration__ section.
 
-![Redundant Assignments - Buttons](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_buttons_v602.png)
+![Redundant Assignments - Buttons](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_buttons_v602.png)
 
 __Step 2 –__ Click on __Analyze__ to tag the manual roles and resource types from all policies eligible for conversion to an automatic state.
 
@@ -74,7 +74,7 @@ __NOTE:__ Previous tags are cleared at each instance of this tagging process.
 
 __Step 3 –__ Click on __Download Excel__ to download a dedicated XLSX report which contains one tab per entity type representing identities.
 
-![Redundant Assignments - Report Example](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexample_v602.png)
+![Redundant Assignments - Report Example](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexample_v602.png)
 
 The example states that in the entity type Directory\_User, the user Nicholas Acosta had the single role Banking/Sales/Eunomia/Administrator starting from February 28th 2023 (dateA) until May 16th (dateD). A new single role rule assigns him this role from April 14th (dateB) until 25th 2023 (dateC).
 
@@ -86,17 +86,17 @@ __Step 4 –__ If the report's content is satisfying, then click on __Apply__ to
 
 In order to verify the process:
 
-![Home Page - Directory User](/static/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
 
 __Step 1 –__ Access the user directory from the home page.
 
-![View Permissions Tab](/static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
 
 __Step 2 –__ For one of the users mentioned in the report, access their permissions.
 
 __Step 3 –__ Check that their roles (mentioned in the report) have actually switched from approved to calculated.
 
-![Redundant Assignments - Result](/static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexampleverif_v602.png)
+![Redundant Assignments - Result](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexampleverif_v602.png)
 
 When removing redundant assignments based on the previous report example the setting will be as above.
 

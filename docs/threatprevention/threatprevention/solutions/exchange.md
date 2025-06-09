@@ -28,5 +28,5 @@ Some important events Threat Prevention captures are:
 
 The following event types are available for Exchange:
 
-- [Exchange Changes Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangechanges.md)
-- [Exchange Lockdown Event Type](/docs/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.md)
+- [Exchange Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/exchangechanges.md)
+- [Exchange Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.md)

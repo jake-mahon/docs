@@ -1,6 +1,6 @@
 # Endpoint Policy Manager Cloud Delivery Quick Start
 
-For an overview of delivery via PolicyPak Cloud, see the [Endpoint Policy Manager Cloud: QuickStart](/docs/product_docs/policypak/policypak/video/cloud/quickstart.md) video .
+For an overview of delivery via PolicyPak Cloud, see the [Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md) video .
 
 Follow the steps below to carry out the Endpoint Policy Manager cloud delivery:
 
@@ -8,7 +8,7 @@ __Step 1 –__ Install the Endpoint Policy Manager Cloud Client on an example en
 
 Log on to [cloud.policypak.com](http://cloud.policypak.com/) with the credentials provided to you via email from Netwrix sales. In the Company tab download the PolicyPak Cloud Client MSI for your PolicyPak Cloud tenant.
 
-Install it by hand on a few Windows 10 or Windows 11 endpoints. Alternatively, use your software deployment tool (like Intune) to deliver the CSE to a few endpoints. See the [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/product_docs/policypak/policypak/video/cloud/mdm.md) video of using Intune to bootstrap the PolicyPak cloud client install.
+Install it by hand on a few Windows 10 or Windows 11 endpoints. Alternatively, use your software deployment tool (like Intune) to deliver the CSE to a few endpoints. See the [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/policypak/policypak/video/cloud/mdm.md) video of using Intune to bootstrap the PolicyPak cloud client install.
 
 The Endpoint Policy Manager Cloud Client automatically installs the PolicyPak CSE at the same time.
 
@@ -16,12 +16,12 @@ __NOTE:__ Each time you install the Endpoint Policy Manager Cloud Client you wil
 
 __Step 2 –__ (optional, recommended): Install the Endpoint Policy Manager Admin Console on a management machine with the GPMC pre-installed
 
-In the download, find the __Admin Console MSI__. Install it by hand on your machine. Your machine needs to also have the GPMC pre-installed from Microsoft. We recommend you have both the Endpoint Policy Manager Admin Console and the GPMC installed on a “fake DC” exclusively for editing purposes. See the [How to create a DC for editing purposes](/docs/product_docs/policypak/policypak/video/cloud/testlab/createdc.md) video for details and how to do this.
+In the download, find the __Admin Console MSI__. Install it by hand on your machine. Your machine needs to also have the GPMC pre-installed from Microsoft. We recommend you have both the Endpoint Policy Manager Admin Console and the GPMC installed on a “fake DC” exclusively for editing purposes. See the [How to create a DC for editing purposes](/docs/policypak/policypak/video/cloud/testlab/createdc.md) video for details and how to do this.
 
 __NOTE:__ If you bypass this step, you can still use the Endpoint Policy Manager in-cloud editors, but some options may not be available to you for editing without an on-prem editor station.
 
 __Step 3 –__ Start creating policies using Endpoint Policy Manager Cloud
 
-If you want to make Microsoft Group Policy settings via Endpoint Policy Manager Cloud, see the [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/product_docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md)video.
+If you want to make Microsoft Group Policy settings via Endpoint Policy Manager Cloud, see the [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md)video.
 
-If you want to make Endpoint Policy Manager specific settings (like Endpoint Policy Manager Least Privilege Manager, etc.) via Endpoint Policy Manager Cloud, see the [Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/product_docs/policypak/policypak/video/cloud/deploy/policypaksettings.md) video.
+If you want to make Endpoint Policy Manager specific settings (like Endpoint Policy Manager Least Privilege Manager, etc.) via Endpoint Policy Manager Cloud, see the [Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/policypak/policypak/video/cloud/deploy/policypaksettings.md) video.

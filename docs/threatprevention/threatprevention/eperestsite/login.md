@@ -25,7 +25,7 @@ Required Input Parameters
 
 Example
 
-![POST api/account/login (Digest)](/static/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
+![POST api/account/login (Digest)](/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
 
 ## POST api/account/logoff (Digest)
 
@@ -45,7 +45,7 @@ Required Header Input Parameters
 
 Example
 
-![POST api/account/logoff (Digest)](/static/img/product_docs/threatprevention/threatprevention/eperestsite/logoff.png)
+![POST api/account/logoff (Digest)](/img/product_docs/threatprevention/threatprevention/eperestsite/logoff.png)
 
 ## POST Token (Bearer)
 
@@ -63,4 +63,4 @@ userName=<username>&password=<password>&grant_type=password&client_Id=self
 
 Example
 
-![POST Token (Bearer)](/static/img/product_docs/threatprevention/threatprevention/eperestsite/token.png)
+![POST Token (Bearer)](/img/product_docs/threatprevention/threatprevention/eperestsite/token.png)

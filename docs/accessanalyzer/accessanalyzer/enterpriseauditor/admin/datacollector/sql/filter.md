@@ -34,9 +34,9 @@ The Filter page is where the query can be scoped to target specific databases or
   - Db2LUW Permissions Scan
 - Utilities – Remove Storage Data
 
-It is necessary for the SA\_SQL\_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA\_SQL\_Instances table is populated through an instance discovery query. See the [0-SQL\_InstanceDiscovery Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA\_SQL\_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information. Once the table has been populated, a query can be scoped.
+It is necessary for the SA\_SQL\_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA\_SQL\_Instances table is populated through an instance discovery query. See the [0-SQL\_InstanceDiscovery Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA\_SQL\_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information. Once the table has been populated, a query can be scoped.
 
-![SQL Data Collector Wizard Filter page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
+![SQL Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
 
 The configurable filter options are:
 
@@ -63,7 +63,7 @@ The configurable filter options are:
 
 The Manage Connections window enables you to add database instances to search. Click the __Connections__ button to open it.
 
-![Manage Connections window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/manageconnections.png)
+![Manage Connections window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/manageconnections.png)
 
 The Manage Connections table lists the previously added database instances and their attributes. Select a row in the table to edit that instance, or create a new instance to add to the table:
 
@@ -93,7 +93,7 @@ The Manage Connections window has the following buttons:
 
 The Add custom filter window opens from the Filter page of the SQL Data Collector Wizard. It enables you to apply a custom scoping filter to the query.
 
-![Add custom filter window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/addcustomfilter.png)
+![Add custom filter window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/sql/addcustomfilter.png)
 
 Type the filter in the window and click Save. The following characters can be used in the filter:
 

@@ -1,8 +1,8 @@
 # Add Credentials Window
 
-The Add Credentials window provides a list of Credentials that have been onboarded and are not already present in the collection. Credentials are onboarded in the [Credentials Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
+The Add Credentials window provides a list of Credentials that have been onboarded and are not already present in the collection. Credentials are onboarded in the [Credentials Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Add Credentials Window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.png)
+![Add Credentials Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.png)
 
 The window has the following features:
 
@@ -20,20 +20,20 @@ Both tables have the following columns:
 - Platform — Displays the type of platform, which defines the resource
 - Method — Indicates how the account is managed:
 
-  - Automatic — Credential rotation is managed by Privilege Secure according to the change policy for that platform type. See the [Platforms Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information.
-  - Manual — Credential rotation must be initiated manually with the Rotate Service Account button, or the credential must be manually updated on both the resource and in Privilege Secure. See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) section for information on updating credentials for Internal service accounts.
+  - Automatic — Credential rotation is managed by Privilege Secure according to the change policy for that platform type. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information.
+  - Manual — Credential rotation must be initiated manually with the Rotate Service Account button, or the credential must be manually updated on both the resource and in Privilege Secure. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) section for information on updating credentials for Internal service accounts.
   - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been stored
 
-  __NOTE:__ See the [Rotation Methods](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md) topic for additional information.
+  __NOTE:__ See the [Rotation Methods](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md) topic for additional information.
 - Managed Type — Type of managed account:
 
   - Standard — Local or domain user account, including managed users created by activity sessions
-  - Internal — Internal service account used by Privilege Secure with no dependencies. See the [Service Accounts Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
+  - Internal — Internal service account used by Privilege Secure with no dependencies. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional information.
   - Service — Local or domain service account with one or more dependencies. Includes Internal service accounts with one or more dependencies.
 - Dependents — Number of scheduled tasks or Windows services using this account
 - Password Changed — Date timestamp for the last time the password was rotated
 - Age — Number of days since the last credential rotation or from when the password was first created
-- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
+- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
 
   - Unspecified — Verification check has not run
   - Verified — Confirmed the credentials match the value stored in Privilege Secure
@@ -65,7 +65,7 @@ The new credentials are added to the applicable group.
 
 ## Add Credentials to a Policy Override
 
-Follow the steps to add credentials to a Credential Policy Override. In order for an account to be added to add credentials window, a credential must be managed with a method of __Automatic__. Only one account can be added to a Credential Policy Override at a time. See the [Manage Internal Service Accounts](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) topic for additional information.
+Follow the steps to add credentials to a Credential Policy Override. In order for an account to be added to add credentials window, a credential must be managed with a method of __Automatic__. Only one account can be added to a Credential Policy Override at a time. See the [Manage Internal Service Accounts](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) topic for additional information.
 
 __Step 1 –__ Navigate to the __Policy__ > __Credentials__ > Credential Groups page.
 

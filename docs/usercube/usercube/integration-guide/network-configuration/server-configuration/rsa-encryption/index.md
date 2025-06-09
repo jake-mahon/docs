@@ -8,10 +8,10 @@ Sensitive data can be RSA encrypted by using Netwrix Identity Manager (formerly 
 
 - [
   Usercube-Protect-X509JsonValue
-  ](/docs/product_docs/usercube/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md) to encrypt given values;
+  ](/docs/usercube/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md) to encrypt given values;
 - [
   Usercube-Protect-X509JsonFile
-  ](/docs/product_docs/usercube/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)to encrypt a whole file.
+  ](/docs/usercube/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)to encrypt a whole file.
 
   The file encryption tool should be used only on files that contain only plain text values, not already encrypted ones.
 
@@ -25,7 +25,7 @@ The value encryption tool can be used to encrypt specific values to be added to 
 
 The ```appsettings.encrypted.json``` file contains the ```appsettings.json``` file's sensitive setting values which are protected by RSA encryption.
 
-This file follows the exact same structure as the [Server Configuration](/docs/product_docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) files.
+This file follows the exact same structure as the [Server Configuration](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) files.
 
 ### Read the Encrypted File
 

@@ -2,7 +2,7 @@
 
 The Options page is used to configure additional options. It is a wizard page for all of the categories.
 
-![ExchangePS Data Collector Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![ExchangePS Data Collector Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The following options can be configured:
 

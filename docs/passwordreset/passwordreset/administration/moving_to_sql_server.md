@@ -16,7 +16,7 @@ __Step 1 –__ Create an SQL Server database.
 
 __Step 2 –__ Create an SQL Server login for the Password Reset service account, and configure it for Windows authentication. To identify the service account, open services.msc, double-click the Password Reset service, and then click the Log On tab. Password Reset logs on to SQL Server with this account.
 
-![working_with_the_database](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.png)
+![working_with_the_database](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.png)
 
 __Step 3 –__ Create an SQL Server user, and map it to the service account login.
 
@@ -46,7 +46,7 @@ __Step 6 –__ Click __Next__.
 
 __Step 7 –__ Set the SQL Server connection settings for the Data Copy wizard. You can set different connection settings for the service account later. The __Username__ and __Password__ are only needed if __SQL Server Authentication__ is selected. The user must be in the db\_datareader, db\_datawriter, and db\_ddladmin SQL Server roles. __Encrypt connection__ should be selected to protect user information, and __Trust server certificate__ must be selected if SQL Server is using a self-signed certificate. SQL Server uses a self-signed certificate if a trusted certificate is not installed. The SQL Server Native Client must be installed if __Trust server certificate__ is selected.
 
-![working_with_the_database_1](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database_1.png)
+![working_with_the_database_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database_1.png)
 
 __Step 8 –__ Click __Next__.
 
@@ -84,4 +84,4 @@ Open the Data Console and set your SQL Server connection options. You will need 
 
 Delete the two SQL Server Compact database files (apr.sdf and aprlog.sdf) after cutting over to SQL Server. These files will soon contain outdated information, and leaving them on the server is an unnecessary security risk. Also ensure that the SQL Server database is backed up regularly.
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

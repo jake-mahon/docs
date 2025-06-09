@@ -12,7 +12,7 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Perform Manual Provisioning Access Control Rules
-  ](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md): Generates the permissions to access the manual provisioning pages for a given entity type and profile.
+  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md): Generates the permissions to access the manual provisioning pages for a given entity type and profile.
 
 ## Properties
 

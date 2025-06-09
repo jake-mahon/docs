@@ -10,8 +10,8 @@ You can configure your IT Infrastructure for monitoring in the following way:
 
   - Unified audit log must be enabled for a Tenant. See the Microsoft [Turn auditing on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide) article for additional information.
   - Prepare a Data Collecting Account as described in the [Permissions for SharePoint Online Auditing
-    ](/docs/product_docs/auditor/auditor/configuration/microsoft365/sharepointonline/permissions.md) topic.
-  - Configure required protocols and ports, as described in the [SharePoint Online Ports](/docs/product_docs/auditor/auditor/configuration/microsoft365/sharepointonline/ports.md) topic.
+    ](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/permissions.md) topic.
+  - Configure required protocols and ports, as described in the [SharePoint Online Ports](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/ports.md) topic.
 
 Review a full list of object types and attributes Netwrix Auditor can collect on SharePoint Online. OneDrive for Business changes are reported as SharePoint Online.
 
@@ -29,4 +29,4 @@ Review a full list of object types and attributes Netwrix Auditor can collect on
 
 ## Sensitive data
 
-Starting with the version 10, Netwrix Auditor is able to report about sensitive data in your IT infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the "_Document_" object types only). See the [Sensitive Data Discovery ](/docs/product_docs/auditor/auditor/admin/settings/sensitivedatadiscovery.md)topic for additional information on how to enable monitoring of sensitive data in Netwrix Auditor.
+Starting with the version 10, Netwrix Auditor is able to report about sensitive data in your IT infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the "_Document_" object types only). See the [Sensitive Data Discovery ](/docs/auditor/auditor/admin/settings/sensitivedatadiscovery.md)topic for additional information on how to enable monitoring of sensitive data in Netwrix Auditor.

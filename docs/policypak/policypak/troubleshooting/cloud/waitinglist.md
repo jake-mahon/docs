@@ -24,4 +24,4 @@ All licenses are already CONSUMED. But then you JOIN more computers, even though
 
 __NOTE:__  You can use the REPORTS to quickly discover which computers are on the WAITING LIST like what's seen here. Note that the report is "per component" even though we do not license components separately.
 
-![382_1_ppcloud-status1-300x88](/static/img/product_docs/policypak/policypak/troubleshooting/cloud/382_1_ppcloud-status1-300x88.png)
+![382_1_ppcloud-status1-300x88](/img/product_docs/policypak/policypak/troubleshooting/cloud/382_1_ppcloud-status1-300x88.png)

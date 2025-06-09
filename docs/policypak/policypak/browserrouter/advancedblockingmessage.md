@@ -2,11 +2,11 @@
 
 A customer blocking message is optional. If you don't make any changes, the default looks like this:
 
-![953_1_thumbnail_image001](/static/img/product_docs/policypak/policypak/browserrouter/953_1_thumbnail_image001.png)
+![953_1_thumbnail_image001](/img/product_docs/policypak/policypak/browserrouter/953_1_thumbnail_image001.png)
 
 However, you can change the default Endpoint Policy Manager Browser Router Block policy and use variables we provide.
 
-![953_2_image002](/static/img/product_docs/policypak/policypak/browserrouter/953_2_image002.png)
+![953_2_image002](/img/product_docs/policypak/policypak/browserrouter/953_2_image002.png)
 
 The advanced block message must support both the environment variables for the current user and the context variables listed below:
 

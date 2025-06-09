@@ -10,7 +10,7 @@ There are really two levels of Policy type in Netwrix Endpoint Policy Manager (f
 The distinction can be seen below. Items in redare Top-Level Policies and Items in purpleare Internal Policies
 to the specific Top-Level policy type.
 
-![913_1_image001_950x505](/static/img/product_docs/policypak/policypak/cloud/policy/913_1_image001_950x505.png)
+![913_1_image001_950x505](/img/product_docs/policypak/policypak/cloud/policy/913_1_image001_950x505.png)
 
 The processing of all Top Level Policies is always done on the Computer side, which means all users on the computer
 will be affected by all policies (initially.).
@@ -18,7 +18,7 @@ will be affected by all policies (initially.).
 This is because all Cloud policies are downloaded to``` \programdata\policypak\Xmldata\cloud``` folder, like what's seen
 here.
 
-![913_2_image002_950x906](/static/img/product_docs/policypak/policypak/cloud/policy/913_2_image002_950x906.png)
+![913_2_image002_950x906](/img/product_docs/policypak/policypak/cloud/policy/913_2_image002_950x906.png)
 
 Then in the case for some policies, you can perform some settings user side only, others computer side only, and
 others you can switch.
@@ -26,13 +26,13 @@ others you can switch.
 Endpoint Policy Manager Admin Templates Manager is a good example. After you look at the entries, you will get the following
 example settings.
 
-![913_3_image003_950x419](/static/img/product_docs/policypak/policypak/cloud/policy/913_3_image003_950x419.png)
+![913_3_image003_950x419](/img/product_docs/policypak/policypak/cloud/policy/913_3_image003_950x419.png)
 
 The result of the downloaded XML looks like this. Here, the Top-Level policy will always come in on
 the Computer (Machine) side.The Internal policy is what is set in the configuratio,n or what the CSE might be
 hardcoded to.
 
-![913_4_image004_950x387](/static/img/product_docs/policypak/policypak/cloud/policy/913_4_image004_950x387.png)
+![913_4_image004_950x387](/img/product_docs/policypak/policypak/cloud/policy/913_4_image004_950x387.png)
 
 Therefore, to see and understand what ILT types will be available, it comes down to how the CSE operates. Some CSEs
 will operate in either USER or COMPUTER modes.
@@ -43,18 +43,18 @@ the Internal policies will have ILT which is geared toward a USER.
 This way you can deliver the main policy to the computer, then filter by which user(s) or which group(s) you want
 to limit the policy to affect.
 
-![913_5_image005_950x610](/static/img/product_docs/policypak/policypak/cloud/policy/913_5_image005_950x610.png)
+![913_5_image005_950x610](/img/product_docs/policypak/policypak/cloud/policy/913_5_image005_950x610.png)
 
-![913_6_image006_950x569](/static/img/product_docs/policypak/policypak/cloud/policy/913_6_image006_950x569.png)
+![913_6_image006_950x569](/img/product_docs/policypak/policypak/cloud/policy/913_6_image006_950x569.png)
 
 There is one exception to the rules above. Note the small difference between a policy which is created onlytusing Endpoint Policy Manager
 Cloud editor. The Top-Level policy will show Machine like what's seen here:
 
-![913_7_image007_950x316](/static/img/product_docs/policypak/policypak/cloud/policy/913_7_image007_950x316.png)
+![913_7_image007_950x316](/img/product_docs/policypak/policypak/cloud/policy/913_7_image007_950x316.png)
 
 But if a policy is uploaded from on-prem MMC, specifically the USER side, the XML will look like this:
 
-![913_8_image008_950x443](/static/img/product_docs/policypak/policypak/cloud/policy/913_8_image008_950x443.png)
+![913_8_image008_950x443](/img/product_docs/policypak/policypak/cloud/policy/913_8_image008_950x443.png)
 
 This does not affect the operation of the policy in any way. The policy is still downloaded by Endpoint Policy Manager Cloud to
 ```\programdata\policypak\Xmldata\cloud```, and processed by a licensed CSE. The policy affects all users (by default), and then

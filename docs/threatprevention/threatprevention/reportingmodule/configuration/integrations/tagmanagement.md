@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Tag Management__ in the navigation pane to view a list of the already defined tags.
 
-![Integrations interface on the Tag Management page](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
 
 The out-of-the-box tags include:
 
@@ -40,7 +40,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integration window with Tag type selected](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.png)
+![Add New Integration window with Tag type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.png)
 
 __Step 3 –__ In the Type drop-down menu, select Tag.
 
@@ -63,7 +63,7 @@ __Step 7 –__ On the Integrations interface, click __Tag Managemetn__ in the na
 
 __Step 8 –__ Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.png)
+![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.png)
 
 This page provides the following information:
 
@@ -81,7 +81,7 @@ On the tag details window, click the Type drop-down menu to apply a filter.
 
 ___RECOMMENDED:___ Apply the desired Type filters when searching for objects to tag.
 
-![Honeypot tag with the Types drop-down menu open](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/typefilters.png)
+![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/typefilters.png)
 
 The following types are available:
 
@@ -96,7 +96,7 @@ The _tagged items_ and _untagged items_ lists on the window will be filtered to 
 
 Follow the steps to apply tags to objects.
 
-![Tag details page showing search results](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/searchselect.png)
+![Tag details page showing search results](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/searchselect.png)
 
 __Step 1 –__ On the Integrations interface, click __Tag Managemetn__ in the navigation pane to view a list of tags.
 
@@ -116,7 +116,7 @@ The tag is applied to the selected objects.
 
 Follow the steps to remove tags from objects.
 
-![Tag details page showing search results](/static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+![Tag details page showing search results](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
 
 __Step 1 –__ On the Integrations interface, click __Tag Managemetn__ in the navigation pane to view a list of tags.
 

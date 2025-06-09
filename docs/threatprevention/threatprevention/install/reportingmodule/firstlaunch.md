@@ -2,11 +2,11 @@
 
 On installing the Netwrix Threat Manager Reporting Module, the following icon appears on the desktop, which opens the Netwrix Threat Manager Reporting Module console:
 
-![Desktop icon for Threat Manager Reporting Module](/static/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
+![Desktop icon for Threat Manager Reporting Module](/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
 
 __Step 1 –__ Double-click the __Netwrix Threat Manager Dashboard__ icon to open the console for the first time.
 
-![First launch showing fields for setting up the builtin Administrator account](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.png)
+![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.png)
 
 There is a built-in ADMIN account used for the initial configuration steps and granting user access. The User Name is "admin". You will set the password and optionally enable MFA for this account during first launch. Follow the steps to setup this account.
 
@@ -24,7 +24,7 @@ __Step 4 –__ Click Set Password.
 
 The built-in ADMIN account password is now set.
 
-If the Enable MFA option is set to OFF, no additional configuration is required and the Netwrix Threat Manager Reporting Module Console opens. See the [Set Up the Threat Manager Reporting Module](/docs/product_docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for initial configuration information.
+If the Enable MFA option is set to OFF, no additional configuration is required and the Netwrix Threat Manager Reporting Module Console opens. See the [Set Up the Threat Manager Reporting Module](/docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for initial configuration information.
 
 If the Enable MFA option is set to ON, registration of an MFA authenticator is required. Proceed to the Configure MFA for the Bultin Administrator Account topic.
 
@@ -32,7 +32,7 @@ If the Enable MFA option is set to ON, registration of an MFA authenticator is r
 
 If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to configure MFA for the account.
 
-![registerauthenticator](/static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.png)
+![registerauthenticator](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.png)
 
 __Step 1 –__ Register the MFA authenticator. The Register Authenticator prompt will provide instructions to configure multi-factor authentication with an external or third-party application.
 
@@ -42,4 +42,4 @@ __Step 3 –__ A list of recovery codes will be presented in order to restore ac
 
 __Step 4 –__ Click __Continue__.
 
-Once MFA is configured for this account, the Netwrix Threat Manager Reporting Module console opens. See the [Set Up the Threat Manager Reporting Module](/docs/product_docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for the next steps.
+Once MFA is configured for this account, the Netwrix Threat Manager Reporting Module console opens. See the [Set Up the Threat Manager Reporting Module](/docs/threatprevention/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for the next steps.

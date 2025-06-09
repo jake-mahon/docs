@@ -21,7 +21,7 @@ Permissions
 
 The EventLog Data Collector is configured through the Event Log Browser window.
 
-![Event Log Browser window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/eventlogbrowser.png)
+![Event Log Browser window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/eventlogbrowser.png)
 
 Sample
 

@@ -2,4 +2,4 @@
 
 Yes. Here is a videos to demonstrate that.
 
-[Manage IE Programs Tab](/docs/product_docs/policypak/policypak/video/applicationsettings/internetexplorer/programstab.md)
+[Manage IE Programs Tab](/docs/policypak/policypak/video/applicationsettings/internetexplorer/programstab.md)

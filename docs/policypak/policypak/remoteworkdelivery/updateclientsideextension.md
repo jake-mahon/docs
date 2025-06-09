@@ -18,11 +18,11 @@ __Step 2 –__ Expand Computer ```Configuration -> PolicyPak -> Apps and Patch M
 
 __Step 3 –__ Add a __New Collection__, rename it, enable and click __OK__.
 
-![778_1_image-20210113000713-1](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_1_image-20210113000713-1.png)
+![778_1_image-20210113000713-1](/img/product_docs/policypak/policypak/remoteworkdelivery/778_1_image-20210113000713-1.png)
 
 __Step 4 –__ Add a New Standard Policy.
 
-![778_2_image-20210113000713-2](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_2_image-20210113000713-2.png)
+![778_2_image-20210113000713-2](/img/product_docs/policypak/policypak/remoteworkdelivery/778_2_image-20210113000713-2.png)
 
 __Step 5 –__ Select __Copy a single File__ and click __Next__.
 
@@ -30,11 +30,11 @@ __Step 6 –__ Select __Apply this policy to all users who log on to the compute
 
 __Step 7 –__ Enter the UNC path to the MSI file (32 or 64 bit) and click __Next__.
 
-![778_3_image-20210113000713-3](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_3_image-20210113000713-3.png)
+![778_3_image-20210113000713-3](/img/product_docs/policypak/policypak/remoteworkdelivery/778_3_image-20210113000713-3.png)
 
 __Step 8 –__ Set the directory that you want to place the downloaded file and ensure the file name is correct. Click __Next__.
 
-![778_4_image-20210113000713-4](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_4_image-20210113000713-4.png)
+![778_4_image-20210113000713-4](/img/product_docs/policypak/policypak/remoteworkdelivery/778_4_image-20210113000713-4.png)
 
 __NOTE:__ You can use Environment Variables.
 
@@ -42,30 +42,30 @@ __Step 9 –__ Select __Access both source and destination as User__ and click _
 
 __Step 10 –__ Select __Always__. This will allow the application to stay up to date as the source file is updated and replaced. Click __Next__.
 
-![778_5_image-20210113000713-5](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_5_image-20210113000713-5.png)
+![778_5_image-20210113000713-5](/img/product_docs/policypak/policypak/remoteworkdelivery/778_5_image-20210113000713-5.png)
 
 __Step 11 –__ Under Post-copy actions, select __Run process__ and Type/copy in the installation command ```(msiexec.exe /qb /i %destination%)```. Click __Next__.
 
-![778_6_image-20210113000713-6](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_6_image-20210113000713-6.png)
+![778_6_image-20210113000713-6](/img/product_docs/policypak/policypak/remoteworkdelivery/778_6_image-20210113000713-6.png)
 
 __NOTE:__ ```%Destination% = destination path + filename``` (```%Systemdrive\temp\CSE\PPx54.MSI```)
 
 __Step 12 –__ Under Revert actions, select __Do Nothing__ (the application cannot uninstall itself). Click __Next__.
 
-![778_7_image-20210113000713-7](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_7_image-20210113000713-7.png)
+![778_7_image-20210113000713-7](/img/product_docs/policypak/policypak/remoteworkdelivery/778_7_image-20210113000713-7.png)
 
 __Step 13 –__ Rename the Policy if desired (e.g. Update PolicyPak CSE – 64bit)
 
 __Step 14 –__ Enable __Item Level Targeting__ and click __Edit__.
 
-![778_8_image-20210113000713-8](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_8_image-20210113000713-8.png)
+![778_8_image-20210113000713-8](/img/product_docs/policypak/policypak/remoteworkdelivery/778_8_image-20210113000713-8.png)
 
 - Click on __New Item__ and select __Environment Variable__
 - Name = Processor\_Architecture
 - Value = AMD64 (for 64-bit) OR x86 (for 32-bit)
 - Click __OK__ to close
 
-![778_9_image-20210113000713-9](/static/img/product_docs/policypak/policypak/remoteworkdelivery/778_9_image-20210113000713-9.png)
+![778_9_image-20210113000713-9](/img/product_docs/policypak/policypak/remoteworkdelivery/778_9_image-20210113000713-9.png)
 
 __Step 15 –__ Click __Finish__.
 

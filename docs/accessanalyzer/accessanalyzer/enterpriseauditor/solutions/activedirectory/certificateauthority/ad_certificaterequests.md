@@ -4,7 +4,7 @@ The AD\_CertificateRequests job provides details about certificate requests, and
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD\_CertificateRequests job has the following configurable parameter:
 
@@ -18,7 +18,7 @@ Navigate to the __Active Directory__ > __7.Certificate Authority__ > __AD\_Certi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateRequests Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.png)
+![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.png)
 
 The default analysis tasks are:
 

@@ -41,12 +41,12 @@ Displays stats to help you identify gaps for script monitoring. The Script Manag
 Accesses change management features:
 
 - __Enable Opportunistic Clearance__: enables automatic clearance of qualifying low risk non-compliant changes. Default is off.
-- __Enable Case to Change Request Workflow__: enables the workflow [Create Change Request from Case](/docs/product_docs/strongpointfornetsuite/change_management/creating_change_request_from_case.md), based on the provided mappings. __Change Request Field Mapping__ includes an optional Formula to handle complex fields. After the __Enable Case to Change Request Workflow__ is enabled, a __Create Change Request__ button is available on the __Case__ record (__Lists__ > __Support__ > __Cases__).  
+- __Enable Case to Change Request Workflow__: enables the workflow [Create Change Request from Case](/docs/strongpointfornetsuite/change_management/creating_change_request_from_case.md), based on the provided mappings. __Change Request Field Mapping__ includes an optional Formula to handle complex fields. After the __Enable Case to Change Request Workflow__ is enabled, a __Create Change Request__ button is available on the __Case__ record (__Lists__ > __Support__ > __Cases__).  
   Here is an example using a __Formula__ for the __Case to Change Request Field Mapping__:  
-  ![Example of a Formula in the Case to Change Request Field Mapping](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.png)
-- __Do Not ReSpider Automatically__: sets the default condition for the __Do Not ReSpider Automatically__ setting on the [ITGC Change Request](/docs/product_docs/strongpointfornetsuite/change_management/creating_change_request.md). The default is unchecked.   
+  ![Example of a Formula in the Case to Change Request Field Mapping](/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.png)
+- __Do Not ReSpider Automatically__: sets the default condition for the __Do Not ReSpider Automatically__ setting on the [ITGC Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md). The default is unchecked.   
   When enabled, an automatic ReSpider occurs when a Change Request status is changed to __Completed__. This starts the ReSpider and ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__.
-- __Enhanced User Provisioning__: enables access management for onboarding/offboarding and access change using the __[User Access Change Request](/docs/product_docs/strongpointfornetsuite/change_management/user_provisioning.md)__.
+- __Enhanced User Provisioning__: enables access management for onboarding/offboarding and access change using the __[User Access Change Request](/docs/strongpointfornetsuite/change_management/user_provisioning.md)__.
 - __Enable Auto-Provisioning__: automatically implement the onboarding changes approved though the __User Provisioning Change Request__ when __Enhanced User Provisioning__ is enabled.
 - __Enable Auto-Role Removal__: automatically implement the offboarding changes approved though the __User Provisioning Change Request__ when __Enhanced User Provisioning__ is enabled.
 - __Notification Sender__: select an email address from the drop down to use when sending notification emails. This sender is used when sending alerts for the following:
@@ -56,8 +56,8 @@ Accesses change management features:
   - __Financial Controls__ (Agent)
   - __SoD Approval__
   - __SoD Rule Change__
-- __CR Email Template__: if you customize your __SoD Exemption Approval__ or __SoD Rule Change Approval__ CR Templates, add them here so they are not overwritten when the next bundle is installed. Refer to [Advanced PDF / HTML Templates](/docs/product_docs/strongpointfornetsuite/customizations/pdf_html_templates.md).  
-  ![CR Email Template section on the Installation Settings Change Management tab](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.png)
+- __CR Email Template__: if you customize your __SoD Exemption Approval__ or __SoD Rule Change Approval__ CR Templates, add them here so they are not overwritten when the next bundle is installed. Refer to [Advanced PDF / HTML Templates](/docs/strongpointfornetsuite/customizations/pdf_html_templates.md).  
+  ![CR Email Template section on the Installation Settings Change Management tab](/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.png)
 
 ### Installation
 
@@ -83,12 +83,12 @@ Displays __User Notes__ and __System Notes__. Use __New Note__ or the __Create N
 
 ### Jira Integration
 
-Specifies the Jira credentials to use when Jira and Platform Governance for NetSuite are integrated. Refer to [Jira Integration](/docs/product_docs/strongpointfornetsuite/integrations/jira_integration.md) for more information.
+Specifies the Jira credentials to use when Jira and Platform Governance for NetSuite are integrated. Refer to [Jira Integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) for more information.
 
 ### ServiceNow Integration
 
-Specifies the ServiceNow credentials to use when ServiceNow and Platform Governance for NetSuite are integrated. Refer to [ServiceNow Integration](/docs/product_docs/strongpointfornetsuite/integrations/servicenow_integration.md) for more information.
+Specifies the ServiceNow credentials to use when ServiceNow and Platform Governance for NetSuite are integrated. Refer to [ServiceNow Integration](/docs/strongpointfornetsuite/integrations/servicenow_integration.md) for more information.
 
 ### Menu Management
 
-Enables hiding menu items you do not use, to improve navigation. Refer to [Managing Menus](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/managing_menus.md) for more information.
+Enables hiding menu items you do not use, to improve navigation. Refer to [Managing Menus](/docs/strongpointfornetsuite/installing_strongpoint/managing_menus.md) for more information.

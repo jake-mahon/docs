@@ -13,17 +13,17 @@ ___RECOMMENDED:___ Although rollbacks for some actions are available, having to 
 The Public Folder action module is configured through the Public Folder Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Public Folder: Action](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/action.md)
-- [Public Folder: Prior Actions](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/prioractions.md)
-- [Public Folder: Folders](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/folders.md)
-- [Public Folder: MAPI Settings](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/mapisettings.md)
-- [Public Folder: Operations](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/operations.md)
-- [Public Folder: Rollback](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/rollback.md)
-- [Public Folder: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/options.md)
-- [Public Folder: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/summary.md)
+- [Public Folder: Action](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/action.md)
+- [Public Folder: Prior Actions](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/prioractions.md)
+- [Public Folder: Folders](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/folders.md)
+- [Public Folder: MAPI Settings](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/mapisettings.md)
+- [Public Folder: Operations](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/operations.md)
+- [Public Folder: Rollback](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/rollback.md)
+- [Public Folder: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/options.md)
+- [Public Folder: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/publicfolder/summary.md)
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the pages in the wizard. Review the introductory and caution information about the Public Folder Action Module before proceeding.
 
-![Public Folder Action Module Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Public Folder Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

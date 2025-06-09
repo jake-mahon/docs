@@ -6,7 +6,7 @@ Administrator needs to enable custom record field's Show in List option.
 
 1. Administrator creates a new Change Request and adds the field customization to enable the Show in List option.
 
-   ![opp_clearance_case3-1](/static/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case3-1.png)
+   ![opp_clearance_case3-1](/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case3-1.png)
 2. IT Approvers approve the change.
 3. updates the custom field. No script is using the parent record of the field.
 
@@ -15,4 +15,4 @@ __Expected Result__
 1. The parent record on the field is attached to the related field's approved Change Request.
 2. The change is compliant.
 
-   ![opp_clearance_case3-2](/static/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case3-2.png)
+   ![opp_clearance_case3-2](/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case3-2.png)

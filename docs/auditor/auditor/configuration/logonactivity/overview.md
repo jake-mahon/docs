@@ -8,7 +8,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 - Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
 
-  - For both new and existing monitoring plans, you can click __Launch Audit Configuration Assistant__ (in the wizard step or in the plan settings, respectively) to launch a special tool that can detect current infrastructure settings and adjust them as needed for monitoring. See the [Audit Configuration Assistant](/docs/product_docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for additional information.
+  - For both new and existing monitoring plans, you can click __Launch Audit Configuration Assistant__ (in the wizard step or in the plan settings, respectively) to launch a special tool that can detect current infrastructure settings and adjust them as needed for monitoring. See the [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md) topic for additional information.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
   - The following policies must be set to _"Success"_ and _"Failure"_ for the effective domain controllers policy:
@@ -26,10 +26,10 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 See the following topics for additional information:
 
-- [Configure Basic Domain Audit Policies](/docs/product_docs/auditor/auditor/configuration/logonactivity/basicpolicy.md)
-- [Configure Advanced Audit Policies](/docs/product_docs/auditor/auditor/configuration/logonactivity/advancedpolicy.md)
-- [Configure Security Event Log Size and Retention Settings](/docs/product_docs/auditor/auditor/configuration/logonactivity/securityeventlog.md)
-- [ Logon Activity Ports](/docs/product_docs/auditor/auditor/configuration/logonactivity/ports.md)
+- [Configure Basic Domain Audit Policies](/docs/auditor/auditor/configuration/logonactivity/basicpolicy.md)
+- [Configure Advanced Audit Policies](/docs/auditor/auditor/configuration/logonactivity/advancedpolicy.md)
+- [Configure Security Event Log Size and Retention Settings](/docs/auditor/auditor/configuration/logonactivity/securityeventlog.md)
+- [ Logon Activity Ports](/docs/auditor/auditor/configuration/logonactivity/ports.md)
 
 ## Logon Activity Actions
 

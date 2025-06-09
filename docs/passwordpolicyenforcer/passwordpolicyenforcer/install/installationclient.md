@@ -1,26 +1,26 @@
 # Install Password Policy Enforcer Client
 
-This procedure is used to install the client on your current workstation. See the [Install with Group Policy Management](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationgpm.md) top for details on installing the client across your network. You can also install/uninstall the products using command line [Silent Installation](/docs/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#Silent-Installation).
+This procedure is used to install the client on your current workstation. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationgpm.md) top for details on installing the client across your network. You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#Silent-Installation).
 
 __Step 1 –__ Navigate to the folder where you extracted the installers downloaded from Netwrix.
 
 __Step 2 –__ Click on the __Netwrix\_PPE\_Client\__version_\_x64.msi__ (64 bit OS) or __Netwrix\_PPE\_Client\__version_\_x86.msi__ (32 bit OS) installation package. The installer is launched.
 
-![Client Setup](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup1.png)
+![Client Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup1.png)
 
 __Step 3 –__ Click __Next__.
 
-![Client Setup](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup2.png)
+![Client Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup2.png)
 
 __Step 4 –__ Review the End-User License Agreement. Click __I accept the terms in the License Agreement__.
 
 __Step 5 –__ Click __Next__.
 
-![Client Setup](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup3.png)
+![Client Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup3.png)
 
 __Step 6 –__ Click __Install__.
 
-![Client Setup](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup4.png)
+![Client Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup4.png)
 
 __Step 7 –__ Click __Finish__ when installation is complete.
 
@@ -54,15 +54,15 @@ __Step 3 –__ Expand the __Computer Configuration__, __Policies__, __Administra
 
 __Step 4 –__ Click __Domain Profile__ in the left pane then double-click __Windows Firewall: Define inbound port exceptions__ in the right pane.
 
-![the_password_policy_client_3](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_3.png)
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_3.png)
 
 __Step 5 –__ Select the __Enabled__ option, and then click __Show...__.
 
-![the_password_policy_client_4](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_4.png)
+![the_password_policy_client_4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_4.png)
 
 __Step 6 –__ Select the __Enabled__ option, and then click __Show...__.
 
-![the_password_policy_client_5](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_5.png)
+![the_password_policy_client_5](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/the_password_policy_client_5.png)
 
 __Step 7 –__ Click __OK__ until you return to the Group Policy Management Editor.
 

@@ -10,7 +10,7 @@ Roles can be used to:
 - Restrict access to sensitive information assets by grouping entitlements in a form that is meaningful to the business.
 - Grant the minimum privileges required by an individual to perform their job.
 
-Roles can be requested manually, or they can be configured to be assigned automatically via a [Composite Role Rule](/docs/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+Roles can be requested manually, or they can be configured to be assigned automatically via a [Composite Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 To further control access, roles can be related via required, inherited, or permitted relationships.
 
 ## Examples
@@ -46,5 +46,5 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 | MaxDuration   optional | Int32 | Duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified. It impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted. If no duration is set on the role, the ```MaxDuration``` of the associated policy is applied. If the ```MaxDuration``` is set to 0 on the role, it prevents the associated policy from applying its ```MaxDuration``` to it. |
 | Policy   required | Int64 | Identifier of the policy that the role is part of. |
 | ProlongationWithoutApproval   default value: 0 | ProlongationWithoutApproval | Indicates whether the role can be extended without any validation.   ```0``` - Inherited: gets the value from the policy.   ```1``` - Enabled.   ```2``` - Disabled. |
-| R0   default value: false | Boolean | ```true``` to set the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/product_docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) as a required parameter when assigning the role. |
+| R0   default value: false | Boolean | ```true``` to set the dimension 0 (up to 3V following the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)) as a required parameter when assigning the role. |
 | Tags   optional | String | Tags of the roles targeted by the campaign filter. The tag separator is ¤. |

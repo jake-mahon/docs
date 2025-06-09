@@ -2,7 +2,7 @@
 
 On the Results page, select which properties will be gathered out of those available for the query. Additionally select properties based on which ROWKEY will be built.
 
-![Unix Data Collector Wizard Results page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![Unix Data Collector Wizard Results page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
 
 The configurable options are:
 

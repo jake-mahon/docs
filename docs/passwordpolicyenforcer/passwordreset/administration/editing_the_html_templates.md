@@ -43,7 +43,7 @@ Each template ends with a resource string section.
 
 --><!--/RESOURCE\_STRINGS-->
 
-Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/product_docs/passwordpolicyenforcer/passwordreset/administration/using_password_reset.md#Error-Messages) topic for additional information.
+Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/docs/passwordpolicyenforcer/passwordreset/administration/using_password_reset.md#Error-Messages) topic for additional information.
 
 ### Responsive Content
 
@@ -91,7 +91,7 @@ Instructions are often inside a range called SECTION\_A, SECTION\_B, SECTION\_C,
 
 Validation error messages are shown in a red box below the page instructions. Validation errors are normally caused by invalid user input.
 
-![using_npr_12](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.png)
+![using_npr_12](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.png)
 
 Validation error messages are defined in the relevant template (en\_enroll.htm, en\_reset.htm, en\_unlock.htm, or en\_change.htm). The error messages are in the resource strings section near the end of the file. Some messages are defined in more than one file, so you may need to edit several files to change all instances of a message. See the [Resource Strings](#Resource-Strings) topic for more information.
 
@@ -107,7 +107,7 @@ You may see placeholders like %1 and %2 in some error messages. These are replac
 
 All the critical error messages are defined in en\_error.htm. The messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for more information.
 
-![using_npr_13](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.png)
+![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.png)
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more information about the error. You should keep these, but you can delete them if you do not want them.
 
@@ -126,13 +126,13 @@ If you want to display some text for all error messages, then insert your text a
 
 Finished messages are shown after users successfully complete an enroll, reset, unlock, or change. These messages are defined in the Resource Strings section near the end of ```en_finished.htm```. See the [Resource Strings](#Resource-Strings) topic for more information.
 
-![using_npr_9](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9.png)
+![using_npr_9](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9.png)
 
 ```en_finished.htm``` has two resource strings for password changes (RES\_FINISHED\_CHANGE and RES\_FINISHED\_CHANGE\_INVITE). The first is shown when a user who has enrolled into NPR changes their password. The second is shown when a user who has not enrolled changes their password. The second message invites the user to enroll so they can also use the reset and unlock features in future.
 
 ### Replace Enroll Question Lists with Text Boxes
 
-When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/product_docs/passwordpolicyenforcer/passwordreset/administration/enroll_tab.md#Question-List) topic for additional information.
+When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/docs/passwordpolicyenforcer/passwordreset/administration/enroll_tab.md#Question-List) topic for additional information.
 
 The lines you need to edit in en\_enroll.htm look like this:
 

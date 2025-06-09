@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __4.Roles__ > __AWS\_Roles__ > __Configure__ node and 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_Roles Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/roles/rolesanalysis.png)
+![Analysis Tasks for the AWS_Roles Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/aws/roles/rolesanalysis.png)
 
 The following analysis tasks are selected by default:
 

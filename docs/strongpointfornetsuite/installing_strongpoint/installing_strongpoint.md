@@ -5,7 +5,7 @@ To get Platform Governance for NetSuite up and running, you need to do the follo
 1. [Install the bundle](#Install-the-bundle) using the correct bundle name and the bundle ID.
 2. [Set the number of rows in list segments](#Set-the-number-of-rows-in-list-segments) to 1,000. This is a NetSuite best practice
 3. [Assign a Strongpoint License](#Assign-a-Strongpoint-License).
-4. [Run the spider](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md). The spider scans your account in a standardized manner. A series of scheduled scripts is run to document the connections between the customizations.
+4. [Run the spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md). The spider scans your account in a standardized manner. A series of scheduled scripts is run to document the connections between the customizations.
 
 Starting with Version 6.2.5, queues and priority allocation are deprecated. The bundle is now installed using processor architecture for scheduled scripts. All deployments are set to low priority.
 
@@ -18,17 +18,17 @@ The Bundle ID has been updated due to NetSuite changes.
 3. Enter __294336__ in __Keywords__
 4. Click __Search__
 
-   ![Search for the Strongpoint Bundle](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.png)
+   ![Search for the Strongpoint Bundle](/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.png)
 5. Click __Strongpoint__
 6. Click __Install__ to start the bundle installation.
 7. Verify the installation is complete. Open __Customization__ > __SuiteBundler__ > __Search & Install Bundles__ > __List__  
    In the __Installed Bundles__ list, the __Strongpoint__ bundle is marked with a green check in the __Status__ column when the bundle is installed.
 
-   ![Verify Strongpoint Bundle Installation](/static/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.png)
+   ![Verify Strongpoint Bundle Installation](/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.png)
 
 ## Set the Number of Row in List Segments
 
-It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best practice and critical for the proper spidering of your workflows. If you are unable to edit this field, refer to [Cannot Change the Number of Rows in List Segments](/docs/product_docs/strongpointfornetsuite/troubleshooting/list_segments_not_editable.md)
+It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best practice and critical for the proper spidering of your workflows. If you are unable to edit this field, refer to [Cannot Change the Number of Rows in List Segments](/docs/strongpointfornetsuite/troubleshooting/list_segments_not_editable.md)
 
 To set the Number of Rows in List Segments:
 
@@ -53,4 +53,4 @@ If the field is grayed out, it should be set as a __Company Preference:__
 5. Select __Full__ for __License Type__.
 6. Click __Save__.
 
-__Next Step:__ [Running the Spider](/docs/product_docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md)
+__Next Step:__ [Running the Spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md)

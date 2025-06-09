@@ -1,6 +1,6 @@
 # What does the Preparation Tool Install
 
-When the [Preparation Tool](/docs/product_docs/groupid/groupid/install/installer/preparationtool.md) runs, it installs the following software and Windows features:
+When the [Preparation Tool](/docs/groupid/groupid/install/installer/preparationtool.md) runs, it installs the following software and Windows features:
 
 | Software | Comments |
 | --- | --- |

@@ -24,7 +24,7 @@ Integrators may need the help of the HR department who know the organization.
 
 See the [
 Install the Development Environment
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/development-environment-installation/index.md) and [Load Identities to Identity Manager](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/development-environment-installation/index.md) and [Load Identities to Identity Manager](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) topics for additional information.
 
 ## Adjust the Data Model
 
@@ -32,19 +32,19 @@ Adjust the data model by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section.
 
-   ![Home Page - Configuration](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
 2. On the __Workforce__ > __Data Model__ page, click on the following icon to adjust the data model to your specific situation.
 
-   ![Scan Data Model](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/iconscandatamodel_v602.svg)
+   ![Scan Data Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/iconscandatamodel_v602.svg)
 
-   ![Scan Data Model](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel_v60.png)
+   ![Scan Data Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel_v60.png)
 
    Identity Manager counts the entries for each attribute and suggests a quantification:
 
    - Empty attributes are deactivated as they should be excluded to simplify the data model.
    - Non-empty attributes are quantified (e.g. small, large, etc.) to be displayed in the UI's forms optimally (e.g. dropdown list, search tool, etc.).
 
-   ![Scan Data Model - Result](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel-result_v523.png)
+   ![Scan Data Model - Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel-result_v523.png)
 3. Observe the result and adjust manually the data model if needed, by clicking on the properties.
 
    While Identity Manager suggests a structure for the data model, the choice is yours to activate/deactivate any property.
@@ -57,13 +57,13 @@ Adjust the data model by proceeding as follows:
 
    Modifications can be performed later, decisions can be reconsidered. See the [
    Modify the Identity Data Model
-   ](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/identity-datamodel-modification/index.md) topic for additional information.
+   ](/docs/usercube_saas/usercube/user-guide/optimize/identity-datamodel-modification/index.md) topic for additional information.
 4. Click on the Save icon at the top.
 
-   ![Save Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+   ![Save Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 5. Click on the __Reload__ button to apply the recent changes to the application.
 
-   ![Reload Button](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.png)
+   ![Reload Button](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.png)
 
 ## Verify Identities Loading
 
@@ -73,14 +73,14 @@ In order to validate the process:
 
    > For example, our ```Region``` field in ```Site``` is sized as ```large```.
    >
-   > ![Scan Data Model - Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example_v523.png)
 2. Navigate within Identity Manager to find a workflow using the test field. Observe the displaying mode in the UI.
 
    > Our ```State``` field must be filled in during the creation of a new site. It can be filled by opening a pop-up and choosing the region in the list.
    >
-   > ![Scan Data Model - Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example2_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example2_v523.png)
    >
-   > ![Scan Data Model - Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example3_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example3_v523.png)
 3. Back on the scanning feature, change the displaying mode of your test field and save.
 
    > We change ```large``` to ```extra small```.

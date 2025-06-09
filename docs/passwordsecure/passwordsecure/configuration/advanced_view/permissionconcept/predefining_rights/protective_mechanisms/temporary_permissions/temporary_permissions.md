@@ -6,9 +6,9 @@ So far, we have covered permissions that were valid for an unlimited period. How
 
 ## Configuration
 
-When configuring the [Manual setting of permissions](/docs/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual_setting_of_permissions.md), you can specify a temporary release for each role. The start date as well as the end date is selected here. You can start the configuration using the __Extras__ area in the ribbon.
+When configuring the [Manual setting of permissions](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual_setting_of_permissions.md), you can specify a temporary release for each role. The start date as well as the end date is selected here. You can start the configuration using the __Extras__ area in the ribbon.
 
-![temporary permission](/static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions-en.png)
+![temporary permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions-en.png)
 
 In this example, the role "trainees" was granted the read permission to a data set for two weeks.
 

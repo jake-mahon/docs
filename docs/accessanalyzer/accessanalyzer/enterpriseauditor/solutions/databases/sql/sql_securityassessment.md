@@ -2,19 +2,19 @@
 
 The SQL\_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW, and NO FINDINGS categories based on severity.
 
-![SQL_SecurityAssessment](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.png)
+![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.png)
 
 Special Dependencies
 
 One or more of the following jobs or job groups must be run to produce results:
 
-- [0.Collection > SQL Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
-- [SQL\_PasswordIssues Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_passwordissues.md)
-- [SQL\_RoleMembers Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_rolemembers.md)
-- [SQL\_PublicPermissions Job](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/sql_publicpermissions.md)
-- [5.Sensitive Data Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
-- [Privileged Accounts Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
-- [Privileged Accounts Job Group](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+- [0.Collection > SQL Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
+- [SQL\_PasswordIssues Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_passwordissues.md)
+- [SQL\_RoleMembers Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_rolemembers.md)
+- [SQL\_PublicPermissions Job](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/sql_publicpermissions.md)
+- [5.Sensitive Data Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
+- [Privileged Accounts Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+- [Privileged Accounts Job Group](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
 
 Only information collected from jobs/groups being run will produce findings.
 
@@ -22,7 +22,7 @@ Only information collected from jobs/groups being run will produce findings.
 
 Navigate to the SQL > SQL\_SecurityAssesment > Configure node and select Analysis to view the analysis task.
 
-![Analysis Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.png)
 
 The default analysis task is:
 

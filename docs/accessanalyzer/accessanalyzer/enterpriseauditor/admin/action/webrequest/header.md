@@ -2,7 +2,7 @@
 
 Use the Header page to enter the header values for the request.
 
-![Web Request Action Module Wizard Header page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/header.png)
+![Web Request Action Module Wizard Header page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/webrequest/header.png)
 
 Use the following options to enter header values:
 

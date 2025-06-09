@@ -11,13 +11,13 @@ Before reading this section, please ensure you have read Book 2: Installation Qu
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 
-Optionally, this manual demonstrates how to use on-prem Active Directory and Group Policy to deploy Endpoint Policy Manager Device Manager directives. If you don't want to use Group Policy, see the [MDM & UEM Tools](/docs/product_docs/policypak/policypak/mdm/overview.md) topic to deploy directives for additional information.
+Optionally, this manual demonstrates how to use on-prem Active Directory and Group Policy to deploy Endpoint Policy Manager Device Manager directives. If you don't want to use Group Policy, see the [MDM & UEM Tools](/docs/policypak/policypak/mdm/overview.md) topic to deploy directives for additional information.
 
-__NOTE:__ For an overview of Endpoint Policy Manager Device Manager see the [Video Learning Center](/docs/product_docs/policypak/policypak/device/overview/videolearningcenter.md) topic for additional information.
+__NOTE:__ For an overview of Endpoint Policy Manager Device Manager see the [Video Learning Center](/docs/policypak/policypak/device/overview/videolearningcenter.md) topic for additional information.
 
 Endpoint Policy Manager Device Manager will manage USB and other removable media devices like CD-ROMs, DVD ROMs, and phones which plug in and have storage when attached to Windows.
 
-For an overview of managing USB and other removeable media devices using Endpoint Policy Manager Device Manager, see the [Instantly Put the smackdown on USB sticks and CD-ROMs](/docs/product_docs/policypak/policypak/video/device/usbdrive.md) topic for additional information.
+For an overview of managing USB and other removeable media devices using Endpoint Policy Manager Device Manager, see the [Instantly Put the smackdown on USB sticks and CD-ROMs](/docs/policypak/policypak/video/device/usbdrive.md) topic for additional information.
 
 The basic way to use Endpoint Policy Manager Device Manager is as follows:
 
@@ -29,9 +29,9 @@ Alternatively, export the Endpoint Policy Manager Device Manger rules and delive
 
 - Microsoft SCCM — See the Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System! topic for additional information
 
-- Microsoft Intune — See the [Block and Allow USB and CD-ROMs with your MDM solution](/docs/product_docs/policypak/policypak/video/device/mdm.md) video overview for additional information
+- Microsoft Intune — See the [Block and Allow USB and CD-ROMs with your MDM solution](/docs/policypak/policypak/video/device/mdm.md) video overview for additional information
 
-- PolicyPak Cloud service — See the [Block USB sticks using Endpoint Policy Manager Cloud](/docs/product_docs/policypak/policypak/video/device/cloud.md) topic for additional information
+- PolicyPak Cloud service — See the [Block USB sticks using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/device/cloud.md) topic for additional information
 
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to receive the directives and perform the work.
 
@@ -51,13 +51,13 @@ Endpoint Policy Managerhas the following components:
 
 Endpoint Policy Manager Cloud enables you to create Endpoint Policy Manager Device Manager directives using the in-cloud editors and connect endpoints to get Endpoint Policy Manager Device Manager directives.
 
-![ppcloud](/static/img/product_docs/policypak/policypak/device/devicemanager/ppcloud.png)
+![ppcloud](/img/product_docs/policypak/policypak/device/devicemanager/ppcloud.png)
 
 While this manual mostly demonstrates concepts using the Group Policy editor, nearly everything can be done using the Endpoint Policy Manager Cloud editors. Additionally, you can take on-prem MMC directives and upload them to Endpoint Policy Manager Cloud and take in-cloud directives and download them back as MMC directives.
 
 Also, you may use Endpoint Policy Manager Device Manager with any management system you like such as SCCM, Intune, PDQ deploy or anything else. This is because Endpoint Policy Manager directives may be exported as XML and wrapped up using the Exporter tool. This A free utility that lets you take Endpoint Policy Manager Admin Templates Manager and our other products’ XML files and wrap them into a portable MSI file for deployment using Microsoft Endpoint Manager (SCCM and Intune) or your own systems management software.
 
-The [MDM & UEM Tools](/docs/product_docs/policypak/policypak/mdm/overview.md) topic explains how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud.
+The [MDM & UEM Tools](/docs/policypak/policypak/mdm/overview.md) topic explains how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud.
 
 This topic will get you going with the concepts and results you’re looking for and then you may choose whatever delivery method makes sense for your organization.
 
@@ -67,15 +67,15 @@ Microsoft makes it easy to turn off all access to USB sticks and other removable
 
 Here is exactly how to do that (without using Endpoint Policy Manager Device Manager) when using ADMX settings via GPOs.
 
-![device01](/static/img/product_docs/policypak/policypak/device/devicemanager/device01.png)
+![device01](/img/product_docs/policypak/policypak/device/devicemanager/device01.png)
 
 The same may be performed using and MDM service like Intune using similar settings.
 
-![device02](/static/img/product_docs/policypak/policypak/device/devicemanager/device02.png)
+![device02](/img/product_docs/policypak/policypak/device/devicemanager/device02.png)
 
 The result will be the same where Removable Devices will be stopped.
 
-![device03](/static/img/product_docs/policypak/policypak/device/devicemanager/device03.png)
+![device03](/img/product_docs/policypak/policypak/device/devicemanager/device03.png)
 
 In this way you can completely shut out all devices for all users for all times.
 

@@ -8,7 +8,7 @@ __NOTE:__ Prior to configuration, consider the following:
 - Writing classifications to NFS file shares is only supported from Netwrix Data Classification 5.4.8 onwards
 - Changes made to files (including adding new files) will not be automatically detected until the source is re-indexed—Netwrix recommends setting the re-index period for NFS file shares to 1 day.
 
-Add the Folder source as described in the [File System](/docs/product_docs/dataclassification/ndc/admin/sources/filesystem/overview.md) topic.
+Add the Folder source as described in the [File System](/docs/dataclassification/ndc/admin/sources/filesystem/overview.md) topic.
 
 __NOTE:__ Do not specify username and password while adding data source.
 

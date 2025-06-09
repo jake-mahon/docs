@@ -11,12 +11,12 @@ Access Analyzer action modules contain one or more selectable operations. Each o
 The PowerShell action module is configured through the PowerShell Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [PowerShell Action: Script](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/script.md)
-- [PowerShell Action: Execution Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/executionoptions.md)
-- [PowerShell Action: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/summary.md)
+- [PowerShell Action: Script](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/script.md)
+- [PowerShell Action: Execution Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/executionoptions.md)
+- [PowerShell Action: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/action/powershell/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane contains links to the pages in the wizard.
 
-![PowerShell Action Module Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![PowerShell Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

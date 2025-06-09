@@ -4,9 +4,9 @@ This connector exports entries from an [LDIF](https://en.wikipedia.org/wiki/LDAP
 
 This page is about [
 LDIF
-](/docs/product_docs/usercube_saas/usercube/integration-guide/connectors/references-packages/ldif/index.md).
+](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.png)
+![Package: Directory/LDIF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.png)
 
 ## Overview
 
@@ -24,7 +24,7 @@ This connector generates a CSV file from an input LDIF file containing entries t
 
 This process is configured through a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -78,7 +78,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder a CSV file named ```LdifExport.csv```, with the following columns:
+This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder a CSV file named ```LdifExport.csv```, with the following columns:
 
 ```
 LdifExport.csv
@@ -94,12 +94,12 @@ There are no fulfill capabilities for this connector.
 
 ### Credential protection
 
-This connector has no credential attributes, and therefore does not use [](/docs/product_docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
+This connector has no credential attributes, and therefore does not use [](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
 
 Still, data protection can be ensured through an [
 Connection
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.

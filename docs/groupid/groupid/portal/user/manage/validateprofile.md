@@ -15,7 +15,7 @@ While validating the profile, a user can:
 Periodically, users receive reminder emails to validate their profile information. Directory Manager expires users who ignore these reminders and do not validate their profiles within the required time. Expired users get disabled in the directory.
 
 Such users can request the administrator or Helpdesk to unlock their accounts temporarily and grant an extension period. If they do not validate their profile information within that extension period either, Directory Manager expires them again and their managers
-are informed by email. To reactivate these accounts, users’ managers must send a request to the administrator or Helpdesk. The administrator or Helpdesk user can extend the profile validation period on the [Disabled Users](/docs/product_docs/groupid/groupid/portal/user/disableduser.md) page of the portal.
+are informed by email. To reactivate these accounts, users’ managers must send a request to the administrator or Helpdesk. The administrator or Helpdesk user can extend the profile validation period on the [Disabled Users](/docs/groupid/groupid/portal/user/disableduser.md) page of the portal.
 
 NOTE: For notifications to be sent, an SMTP server must be configured for the identity store.
 
@@ -38,7 +38,7 @@ The profile validation feature in Directory Manager is monitored by the User Lif
 
 If profile validation applies to you, then you will see the following message displayed on the __My Account__ panel:
 
-![validateprofile](/static/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.png)
+![validateprofile](/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.png)
 
 The message displays the number of days left to validate your profile.
 
@@ -62,17 +62,17 @@ NOTE: You can also manage your direct reports and managers on the Organization t
 
 The __Manager__ field displays the name of your primary manager (if you have one); else it is blank.
 
-To add or change your primary manager, click the ellipsis button next to the field. This launches the [Find Dialog Box](/docs/product_docs/groupid/groupid/portal/search/find.md), where you can search and select your primary manager.
+To add or change your primary manager, click the ellipsis button next to the field. This launches the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md), where you can search and select your primary manager.
 
 When you change your primary manager (Manager A), then Manager A is notified by email to accept or reject the request. If Manager A accepts, your manager is changed. If Manager A rejects the request, you remain with Manager A and a notification is sent to you and Manager A.
 
-NOTE: This is the default flow of the ‘Workflow to Change Manager’ workflow. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See [Requests](/docs/product_docs/groupid/groupid/portal/request/overview.md).
+NOTE: This is the default flow of the ‘Workflow to Change Manager’ workflow. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See [Requests](/docs/groupid/groupid/portal/request/overview.md).
 
 ## Transfer your direct report
 
 When you transfer a direct report, the direct report is notified by email to accept or reject the transfer. If the direct report accepts the transfer, he or she has to select another primary manager and validate his or her profile. If the direct report rejects the transfer, he or she is transferred back to the old manager, i.e., you.
 
-NOTE: This is the default flow of the ‘Workflow to Transfer a User’ workflow, with the direct report set as the workflow approver. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See [Requests](/docs/product_docs/groupid/groupid/portal/request/overview.md).
+NOTE: This is the default flow of the ‘Workflow to Transfer a User’ workflow, with the direct report set as the workflow approver. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See [Requests](/docs/groupid/groupid/portal/request/overview.md).
 
 ## Terminate your direct report
 

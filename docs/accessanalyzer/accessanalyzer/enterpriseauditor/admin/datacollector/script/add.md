@@ -10,8 +10,8 @@ __Step 2 –__ Click __Create Query__ to open the Query Properties window.
 
 __Step 3 –__ Select the __Data Source__ tab and select the desired data collector in the Data Collector drop-down menu.
 
-![Query Properties window](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/querypropertiesexisting.png)
+![Query Properties window](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/querypropertiesexisting.png)
 
 __Step 4 –__ Click the __Browse Data Source__ button to open the VBScript Editor page and add the script to run after data collection.
 
-See the [VBScript Editor](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/editor.md) topic for additional information.
+See the [VBScript Editor](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/script/editor.md) topic for additional information.

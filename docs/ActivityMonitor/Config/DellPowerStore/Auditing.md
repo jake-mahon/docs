@@ -18,7 +18,7 @@ __Step 2 –__ Click __Create__ and specify the name of the pool.
 
 __Step 3 –__ Specify CEE's address or addresses.
 
-![Create Event Publishing Pool](/static/img/product_docs/activitymonitor/config/dellpowerstore/eventpublishingpool.png)
+![Create Event Publishing Pool](/img/product_docs/activitymonitor/config/dellpowerstore/eventpublishingpool.png)
 
 - For SMB shares monitoring (CIFS) enable following Post-Events: –
 
@@ -59,19 +59,19 @@ Follow the steps tTo create a an event publisher.:
 
 __Step 1 –__ Select __Storage__ > __NAS Servers__ > __NAS Settings__ > __Events Publishers__.
 
-![Events Publishing](/static/img/product_docs/activitymonitor/config/dellpowerstore/nasservers.png)
+![Events Publishing](/img/product_docs/activitymonitor/config/dellpowerstore/nasservers.png)
 
 __Step 2 –__ 
 Click __Create__.
 
-![publishingpools](/static/img/product_docs/activitymonitor/config/dellpowerstore/publishingpools.png)
+![publishingpools](/img/product_docs/activitymonitor/config/dellpowerstore/publishingpools.png)
 
 __Step 3 –__ Specify the name of the publisher.
 
 __Step 4 –__ 
 Select the pool and click __Next__.
 
-![configeventpublisher](/static/img/product_docs/activitymonitor/config/dellpowerstore/configeventpublisher.png)
+![configeventpublisher](/img/product_docs/activitymonitor/config/dellpowerstore/configeventpublisher.png)
 
 __Step 5 –__ Specify Pre-Events Failure Policy as "Ignore - Consider pre-event acknowledged when CEPA servers are offline".
 
@@ -87,13 +87,13 @@ Follow the steps tTo enable or disable event publishing for the NAS Server.:
 
 __Step 1 –__ Select __Storage__ > __NAS Servers__.
 
-![NAS Servers](/static/img/product_docs/activitymonitor/config/dellpowerstore/nasserver.png)
+![NAS Servers](/img/product_docs/activitymonitor/config/dellpowerstore/nasserver.png)
 
 __Step 2 –__ Go to __[NAS SERVER]__ > __Security & Events__ > __Events Publishing__.
 
 __Step 3 –__ Enable and select the publisher.
 
-![nasserver1](/static/img/product_docs/activitymonitor/config/dellpowerstore/nasserver1.png)
+![nasserver1](/img/product_docs/activitymonitor/config/dellpowerstore/nasserver1.png)
 
 __Step 4 –__ You can enable the event publishing for all file systems on the NAS by checking the box and selecting protocols.
 
@@ -105,7 +105,7 @@ Follow the steps toYou can enable or disable the feature for each file system in
 
 __Step 1 –__ Select __Storage__ > __File Systems__ > __[FILE SYSTEM]__ > __Security & Events__ > __Events Publishing__.
 
-![Event Publising Option for File System](/static/img/product_docs/activitymonitor/config/dellpowerstore/fseventpublishing.png)
+![Event Publising Option for File System](/img/product_docs/activitymonitor/config/dellpowerstore/fseventpublishing.png)
 
 __Step 2 –__ Enable and select protocols needed.
 

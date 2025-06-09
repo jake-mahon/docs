@@ -2,7 +2,7 @@
 
 The AD\_CleanupProgress Job performs checks against Active Directory security best practices in order to proactively identify critical security configurations that leave Active Directory vulnerable to attack. The result is a report which provides a listing of findings by severity and category with corresponding details that can be used to prioritize and remediate security issues.
 
-![AD_CleanupProgress Job in the Jobs Tree](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressjobstree.png)
+![AD_CleanupProgress Job in the Jobs Tree](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressjobstree.png)
 
 Workflow
 
@@ -25,7 +25,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __AD\_CleanupProgress__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the AD_CleanupProgress Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressanalysis.png)
+![Analysis Tasks for the AD_CleanupProgress Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressanalysis.png)
 
 The default analysis task is:
 

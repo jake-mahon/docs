@@ -8,7 +8,7 @@ The AD\_DomainControllers Job uses the LDAP Data Collector and the ActiveDirecto
 
 __CAUTION:__ Except the first query, do not modify the remaining queries. The remaining queries are preconfigured for this job.
 
-![Query Selection](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/domaincontrollersquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/domaincontrollersquery.png)
 
 The queries for this job are:
 
@@ -34,11 +34,11 @@ __Step 2 –__ In the Query Selection view, select the _Domain Controller Listin
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The LDAP template form wizard opens.
 
-![LDAP template form](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplate.png)
+![LDAP template form](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplate.png)
 
 __Step 4 –__ Click __Options__.
 
-![Connection Options](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplateoptions.png)
+![Connection Options](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplateoptions.png)
 
 __Step 5 –__ On the Options page, select __Connect Securely with TLS/SSL__. Optionally, select __Ignore Certificate Errors__ to connect even if certificate errors occur. Use __Server Port__ 686 for a secure connection. Click __OK__ to close the Options page.
 

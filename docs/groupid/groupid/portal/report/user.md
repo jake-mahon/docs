@@ -2,7 +2,7 @@
 
 User Reports contains reports for the User objects in the directory. Search a specific report by typing its name in the __Search Reports__ box.
 
-Click any of the report template from the list to [Generate Reports](/docs/product_docs/groupid/groupid/portal/report/generate.md).
+Click any of the report template from the list to [Generate Reports](/docs/groupid/groupid/portal/report/generate.md).
 
 Following is the list of reports for this category:
 
@@ -35,7 +35,7 @@ Following is the list of reports for this category:
 | Non expiring user accounts | Provides a list of users account that will never expire. |
 | OUs created in X days | Provides a list of organization units (OUs) that are created in specified number of days. |
 | OUs modified in X days | Provides a list of organization units (OUs) modified in specified number of days. |
-| Owners and objects they own  Listed in [Group Reports](/docs/product_docs/groupid/groupid/portal/report/group.md) category as well. | Provides a list of owners and their direct reports. |
+| Owners and objects they own  Listed in [Group Reports](/docs/groupid/groupid/portal/report/group.md) category as well. | Provides a list of owners and their direct reports. |
 | Pending Terminate Users | Provides a list of users that have been terminated by their managers, but their termination request is pending for approval/rejection by an approver. |
 | Recently expired users | Provides a list of users expired in one day, seven days or one month. |
 | Recipients and the groups they are a member of | Provides a list of users and each group that they are a member of. |
@@ -47,7 +47,7 @@ Following is the list of reports for this category:
 | User Life Cycle – Transfer Pending Users | Provides a list of direct reports that have been transferred but the transfer has to be accepted or rejected yet. |
 | User Life Cycle – Transferred Users | Provides a list of transferred users in the selected container. |
 | User Life Cycle – Verified Users | Provides a list of users who have validated their directory profiles. |
-| Users and contacts with a phone number  Listed in [Contact Reports](/docs/product_docs/groupid/groupid/portal/report/contact.md) category as well. | Provides a phone list of accounts within an organization. |
+| Users and contacts with a phone number  Listed in [Contact Reports](/docs/groupid/groupid/portal/report/contact.md) category as well. | Provides a phone list of accounts within an organization. |
 | Users changed in X days | Provides a list of users modified in one day, seven days or one month. |
 | Users created in X days | Provides a list of users created in one day, seven days or one month. |
 | Users member of Built in Security Groups | Provides a list of users that are member of default security groups, such as the Domain Admins group. |

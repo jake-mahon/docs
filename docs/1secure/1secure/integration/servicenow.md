@@ -8,9 +8,9 @@ Image keys:
 
 | Icon | Description |
 | --- | --- |
-| ![alerts_editicon](/static/img/product_docs/1secure/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
-| ![servicenowicon](/static/img/product_docs/1secure/1secure/integration/servicenowicon.png) | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
-| ![deletebutton](/static/img/product_docs/1secure/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin icon to delete the ServiceNow integration |
+| ![alerts_editicon](/img/product_docs/1secure/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
+| ![servicenowicon](/img/product_docs/1secure/1secure/integration/servicenowicon.png) | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
+| ![deletebutton](/img/product_docs/1secure/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin icon to delete the ServiceNow integration |
 
 ## Add a ServiceNow Integration System
 
@@ -18,15 +18,15 @@ Follow the steps to add a ServiceNow integration system.
 
 __Step 1 –__ Go to Configuration > __Integrations__ and click the __Add__ icon to add the system.
 
-![integrationtypewindowservicenow](/static/img/product_docs/1secure/1secure/integration/integrationtypewindowservicenow.png)
+![integrationtypewindowservicenow](/img/product_docs/1secure/1secure/integration/integrationtypewindowservicenow.png)
 
 __Step 2 –__ In the displayed Integration type window, click __ServiceNow__ and click __Next__.
 
-![servicenowconnection](/static/img/product_docs/changetracker/changetracker/integration/itsm/servicenowconnection.png)
+![servicenowconnection](/img/product_docs/changetracker/changetracker/integration/itsm/servicenowconnection.png)
 
 __Step 3 –__ In the Configure connection window, specify the required boxes - Server Name, Username, and Password.
 
-__NOTE:__ First, you need to configure your account at [https://www.servicenow.com/](https://www.servicenow.com/). See the [https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t\_CreateAUser.html](https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html) help page for an additional information.
+__NOTE:__ First, you need to configure your account at [https://www.servicenow.com/](https://www.servicenow.com/). See the [https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html](https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html) help page for an additional information.
 
 View Fields Here:
 
@@ -38,7 +38,7 @@ __Step 4 –__ Click __Finish__.
 
 The ServiceNow profile is added now. The status displays "Ok" in green.
 
-![servicenowstatus](/static/img/product_docs/1secure/1secure/integration/servicenowstatus.png)
+![servicenowstatus](/img/product_docs/1secure/1secure/integration/servicenowstatus.png)
 
 Click the __Edit__ icon or the __Bin__ icon to edit or delete the integration.
 
@@ -50,7 +50,7 @@ __Step 1 –__ Navigate to __Configuration__ > __Alerts__.
 
 __Step 2 –__ Click the Service Now icon\* under Delivery Settings. The ServiceNow Delivery Settings panel displays.
 
-![alerts_servicenowdeliverysettings](/static/img/product_docs/1secure/1secure/integration/alerts_servicenowdeliverysettings.png)
+![alerts_servicenowdeliverysettings](/img/product_docs/1secure/1secure/integration/alerts_servicenowdeliverysettings.png)
 
 __Step 3 –__ Specify the Assignment Group, which should receive the tickets.
 
@@ -58,7 +58,7 @@ __Step 4 –__ Toggle on the __Enabled__ field to enable the ServiceNow delivery
 
 __Step 5 –__ Specify the required parameters, such as impact, severity, and urgency of raised tickets.
 
-__Step 6 –__ Optionally, toggle on the __Work Notes__ field to assign alerts detail to Work notes column in ServiceNow. See the [https://docs.servicenow.com/bundle/vancouver-servicenow-platform/page/administer/state-flows/concept/c\_WorkNotes.html](https://docs.servicenow.com/bundle/vancouver-servicenow-platform/page/administer/state-flows/concept/c_WorkNotes.html) topic for additional information.
+__Step 6 –__ Optionally, toggle on the __Work Notes__ field to assign alerts detail to Work notes column in ServiceNow. See the [https://docs.servicenow.com/bundle/vancouver-servicenow-platform/page/administer/state-flows/concept/c_WorkNotes.html](https://docs.servicenow.com/bundle/vancouver-servicenow-platform/page/administer/state-flows/concept/c_WorkNotes.html) topic for additional information.
 
 __Step 7 –__ Optionally, toggle on the __Comments__ field to specify the alerts detail in the Comments column in ServiceNow.
 

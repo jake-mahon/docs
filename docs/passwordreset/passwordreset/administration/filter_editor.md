@@ -6,7 +6,7 @@ Filter Editor
 
 Use the Filter Editor to create complex filters, filters for hidden columns, or to save and open regularly used filters. Press __CTRL__ + __F__ to open the Filter Editor, or click the __Filter Editor__ button in the lower right corner of the Data Console.
 
-![using_the_data_console_9](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_9.png)
+![using_the_data_console_9](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_9.png)
 
 A filter may contain several conditions. Conditions start with a column name, followed by an operator, and sometimes a value. Column names are shown in green, operators in maroon, and values in blue.
 
@@ -20,6 +20,6 @@ Click __Save As...__ to save a filter to a file, or __Open...__ to use a saved f
 
 Some columns are hidden in the Data Console. You can use the Filter Editor to create filters for these columns. For example, the filter in the image below shows all users with an NPR v1 enrollment record.
 
-![using_the_data_console_10](/static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_10.png)
+![using_the_data_console_10](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_10.png)
 
-[Open topic with navigation](/docs/product_docs/default.md#Open-topic-with-navigation)
+[Open topic with navigation](/docs/default.md#Open-topic-with-navigation)

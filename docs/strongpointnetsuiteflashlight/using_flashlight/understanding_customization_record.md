@@ -4,7 +4,7 @@ A Flashlight Customization Record contains all the information about a given cus
 
 Here is an example Customization Record for a Scheduled Script:
 
-![Customization Record](/static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/customization_record_800x402.png)
+![Customization Record](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/customization_record_800x402.png)
 
 #### Menu
 

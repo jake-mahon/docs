@@ -17,13 +17,13 @@ These are the Dashboard portlets:
 
 Displays the current status of the Spider (Not Started, In Progress, Completed) and the number of days since the spider was last run. It is recommended to run the Spider every week so your account documentation is up-to-date.
 
-![Spider Status](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_status.png)
+![Spider Status](/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_status.png)
 
 ## Reminders
 
 Reminders are key system warnings and metrics that Flashlight has detected in your account over the last week since the Spider was run last run. You can click on each metric to drill-into the details and take corrective action where needed.
 
-![Reminders](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/reminders_800x88.png)
+![Reminders](/img/product_docs/strongpointnetsuiteflashlight/getting_started/reminders_800x88.png)
 
 The reminders have colors associated with them depending on the nature of the reminder. Reminders highlighted in green represent new and modified customizations in your account since the spider was last run.
 
@@ -76,7 +76,7 @@ NOTE:  If a reminder from the list does not have any detected records, it does n
 
 Links to key resources to help you learn to use Flashlight.
 
-![Resources](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Resources](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
 
 ## Chart
 
@@ -86,25 +86,25 @@ Visually displays insights into your customizations. There are 3 visualizations:
 
 This chart summarizes the newly created customizations by Object Type. Hover over each segment in the chart to understand how many customizations have been created for the selected Object Type. This does not include customizations from Saved Searches and Reports. Click on a segment in the chart to drill into the details and see the list of specific customizations for the selected Object Type. This allows you to easily understand what customizations have been created over a given time period.
 
-![New Customizations by Type](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/new_customizations_by_type.png)
+![New Customizations by Type](/img/product_docs/strongpointnetsuiteflashlight/getting_started/new_customizations_by_type.png)
 
 ### New Searches and Reports by Type
 
 This chart summarizes the newly created Saved Searches and Reports by Object Type. Hover over each segment in the chart to understand how many Saved Searches and Reports have been created for the selected Object Type. Click on a segment in the chart to drill into the details and see the list of specific customizations for the selected Object Type. This allows you to easily understand what Saved Searches and Reports have been created over a given time period.
 
-![New Searches and Reports by Type](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/new_searches_by_type.png)
+![New Searches and Reports by Type](/img/product_docs/strongpointnetsuiteflashlight/getting_started/new_searches_by_type.png)
 
 ### Customizations Updated by Type
 
 This chart summarizes the newly created customizations by Object Type. Hover over each segment in the chart to understand how many customizations have been created for the selected Object Type. This does not include customizations from Saved Searches and Reports. Click on a segment in the chart to drill into the details and see the list of specific customizations for the selected Object Type. This allows you to easily understand what customizations have been created over a given time period.
 
-![Customizations Updated by Type](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/customizations_updated_by_type.png)
+![Customizations Updated by Type](/img/product_docs/strongpointnetsuiteflashlight/getting_started/customizations_updated_by_type.png)
 
 ## Key Tools
 
 Links to useful Flashlight tools to give you more value out of your documentation.
 
-![Key Tools](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/key_tools.png)
+![Key Tools](/img/product_docs/strongpointnetsuiteflashlight/getting_started/key_tools.png)
 
 - __ERD__: Explore your customizations with Flashlight’s visual ERD and understand how customizations relate to each other.
 - __Customization Impact Search__: Understand how your customizations are impacted by changes to other customizations.
@@ -119,7 +119,7 @@ A shortcut to open the ERD for the entered __Name__ or __ScriptID__.
 
 Displays all the key data about your customizations for full visibility and control over your account. The metrics are organized into two sections: __Documentation Summary__ and __Users Summary__.
 
-![summary_800x207](/static/img/product_docs/strongpointnetsuiteflashlight/getting_started/summary_800x207.png)
+![summary_800x207](/img/product_docs/strongpointnetsuiteflashlight/getting_started/summary_800x207.png)
 
 ### Documentation Summary
 

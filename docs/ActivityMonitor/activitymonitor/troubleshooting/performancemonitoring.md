@@ -70,12 +70,12 @@ In addition to the Activity Monitor performance counters, it is recommended to u
 | Process(ConfigurationAgent.Grpc.Host)\Thread Count | For Agent:  The set of threads that are running in the associated process. |
 | Process(ConfigurationAgent.Grpc.Host)\Private Bytes | For Agent:  The total amount of memory that a process has allocated, not including memory shared with other processes. |
 | Process(ConfigurationAgent.Grpc.Host)\Working Set | For Agent:  The associated process's physical memory usage, in bytes. |
-| Process(ConfigurationAgent)\% Processor Time | For Agent <= 6.0: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
-| Process(ConfigurationAgent)\Elapsed Time | For Agent <= 6.0: The duration from when the process was started until the time it terminated. |
-| Process(ConfigurationAgent)\Handle Count | For Agent <= 6.0: The number of operating system handles the process has opened. |
-| Process(ConfigurationAgent)\Thread Count | For Agent <= 6.0: The set of threads that are running in the associated process. |
-| Process(ConfigurationAgent)\Private Bytes | For Agent <= 6.0: The total amount of memory that a process has allocated, not including memory shared with other processes. |
-| Process(ConfigurationAgent)\Working Set | For Agent <= 6.0: The associated process's physical memory usage, in bytes. |
+| Process(ConfigurationAgent)\% Processor Time | For Agent version 6.0 and earlier: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
+| Process(ConfigurationAgent)\Elapsed Time | For Agent version 6.0 and earlier: The duration from when the process was started until the time it terminated. |
+| Process(ConfigurationAgent)\Handle Count | For Agent version 6.0 and earlier: The number of operating system handles the process has opened. |
+| Process(ConfigurationAgent)\Thread Count | For Agent version 6.0 and earlier: The set of threads that are running in the associated process. |
+| Process(ConfigurationAgent)\Private Bytes | For Agent version 6.0 and earlier: The total amount of memory that a process has allocated, not including memory shared with other processes. |
+| Process(ConfigurationAgent)\Working Set | For Agent version 6.0 and earlier: The associated process's physical memory usage, in bytes. |
 | Process(SBTService)\% Processor Time | For Windows Monitoring: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
 | Process(SBTService)\Elapsed Time | For Windows Monitoring: The duration from when the process was started until the time it terminated. |
 | Process(SBTService)\Handle Count | For Windows Monitoring: The number of operating system handles the process has opened. |
@@ -117,7 +117,7 @@ In addition to the Activity Monitor performance counters, it is recommended to u
 
 The Activity Monitor performance counters are not registered by default and must be registered manually.
 
-Follow the steps to register the Activity Monitor performance counters on each SAM Agent server.
+Follow the steps to register the Activity Monitor performance counters on each SAM Agent server.
 
 __Step 1 –__ Run ```cmd.exe``` as Administrator.
 
@@ -159,105 +159,106 @@ To stop the script press __Ctrl+C__.
 
 Script (save it to AM.PerfCollect.ps1):
 
+```powershell
 $sampleInterval = 1
 
 $maxSamples = 0
 
-$outputFile = "perfcounters\_$($env:COMPUTERNAME)\_$(Get-Date -Format "yyyy\_MM\_dd\_HH\_mm\_ss").csv"
+$outputFile = "perfcounters_$($env:COMPUTERNAME)_$(Get-Date -Format "yyyy_MM_dd_HH_mm_ss").csv"
 
 $counters =
 
-@(`
+@(
 
-"\Processor(\_Total)\% Processor Time" `
+"\Processor(_Total)\% Processor Time"
 
-,"\Memory\Available MBytes" `
+,"\Memory\Available MBytes"
 
-,"\Paging File(\_Total)\% Usage" `
+,"\Paging File(_Total)\% Usage"
 
-,"\TCPv4\Connections Reset" `
+,"\TCPv4\Connections Reset"
 
-,"\TCPv4\Segments Received/sec" `
+,"\TCPv4\Segments Received/sec"
 
-,"\TCPv4\Segments Retransmitted/Sec" `
+,"\TCPv4\Segments Retransmitted/Sec"
 
-,"\TCPv6\Connections Reset" `
+,"\TCPv6\Connections Reset"
 
-,"\TCPv6\Segments Received/sec" `
+,"\TCPv6\Segments Received/sec"
 
-,"\TCPv6\Segments Retransmitted/Sec" `
+,"\TCPv6\Segments Retransmitted/Sec"
 
-,"\Network Interface(\*)\Bytes Received/sec" `
+,"\Network Interface(*)\Bytes Received/sec"
 
-,"\Network Interface(\*)\Bytes Sent/sec" `
+,"\Network Interface(*)\Bytes Sent/sec"
 
-,"\Network Interface(\*)\Output Queue Length" `
+,"\Network Interface(*)\Output Queue Length"
 
-,"\Network Interface(\*)\Packets Received Discarded" `
+,"\Network Interface(*)\Packets Received Discarded"
 
-,"\Network Interface(\*)\Packets Received Errors" `
+,"\Network Interface(*)\Packets Received Errors"
 
-,"\Activity Monitor - NetApp\Events Received" `
+,"\Activity Monitor - NetApp\Events Received"
 
-,"\Activity Monitor - NetApp\Events Received/sec" `
+,"\Activity Monitor - NetApp\Events Received/sec"
 
-,"\Activity Monitor - NetApp\Events Reported" `
+,"\Activity Monitor - NetApp\Events Reported"
 
-,"\Activity Monitor - NetApp\Events Reported/sec" `
+,"\Activity Monitor - NetApp\Events Reported/sec"
 
-,"\Activity Monitor - NetApp\Session Negotiated" `
+,"\Activity Monitor - NetApp\Session Negotiated"
 
-,"\Activity Monitor - NetApp\Active Connections" `
+,"\Activity Monitor - NetApp\Active Connections"
 
-,"\Activity Monitor - NetApp\Outage Files" `
+,"\Activity Monitor - NetApp\Outage Files"
 
-,"\Activity Monitor - Dell\Events Received" `
+,"\Activity Monitor - Dell\Events Received"
 
-,"\Activity Monitor - Dell\Events Received/sec" `
+,"\Activity Monitor - Dell\Events Received/sec"
 
-,"\Activity Monitor - Dell\Events Reported" `
+,"\Activity Monitor - Dell\Events Reported"
 
-,"\Activity Monitor - Dell\Events Reported/sec" `
+,"\Activity Monitor - Dell\Events Reported/sec"
 
-,"\Activity Monitor - Dell\Queue Size" `
+,"\Activity Monitor - Dell\Queue Size"
 
-,"\Activity Monitor - Dell\Receive Throttling" `
+,"\Activity Monitor - Dell\Receive Throttling"
 
-,"\Process(FPolicyServerSvc)\% Processor Time" `
+,"\Process(FPolicyServerSvc)\% Processor Time"
 
-,"\Process(FPolicyServerSvc)\Elapsed Time" `
+,"\Process(FPolicyServerSvc)\Elapsed Time"
 
-,"\Process(FPolicyServerSvc)\Handle Count" `
+,"\Process(FPolicyServerSvc)\Handle Count"
 
-,"\Process(FPolicyServerSvc)\Thread Count" `
+,"\Process(FPolicyServerSvc)\Thread Count"
 
-,"\Process(FPolicyServerSvc)\Private Bytes" `
+,"\Process(FPolicyServerSvc)\Private Bytes"
 
-,"\Process(FPolicyServerSvc)\Working Set" `
+,"\Process(FPolicyServerSvc)\Working Set"
 
-,"\Process(FSACLoggingSvc)\% Processor Time" `
+,"\Process(FSACLoggingSvc)\% Processor Time"
 
-,"\Process(FSACLoggingSvc)\Elapsed Time" `
+,"\Process(FSACLoggingSvc)\Elapsed Time"
 
-,"\Process(FSACLoggingSvc)\Handle Count" `
+,"\Process(FSACLoggingSvc)\Handle Count"
 
-,"\Process(FSACLoggingSvc)\Thread Count" `
+,"\Process(FSACLoggingSvc)\Thread Count"
 
-,"\Process(FSACLoggingSvc)\Private Bytes" `
+,"\Process(FSACLoggingSvc)\Private Bytes"
 
-,"\Process(FSACLoggingSvc)\Working Set" `
+,"\Process(FSACLoggingSvc)\Working Set"
 
-,"\Process(CelerraServerSvc)\% Processor Time" `
+,"\Process(CelerraServerSvc)\% Processor Time"
 
-,"\Process(CelerraServerSvc)\Elapsed Time" `
+,"\Process(CelerraServerSvc)\Elapsed Time"
 
-,"\Process(CelerraServerSvc)\Handle Count" `
+,"\Process(CelerraServerSvc)\Handle Count"
 
-,"\Process(CelerraServerSvc)\Thread Count" `
+,"\Process(CelerraServerSvc)\Thread Count"
 
-,"\Process(CelerraServerSvc)\Private Bytes" `
+,"\Process(CelerraServerSvc)\Private Bytes"
 
-,"\Process(CelerraServerSvc)\Working Set" `
+,"\Process(CelerraServerSvc)\Working Set"
 
 )
 
@@ -282,12 +283,13 @@ $variables.Add("MaxSamples", "$maxSamples")
 Write-Host "Collecting performance counters to $outputFile... Press Ctrl+C to stop."
 
 Get-Counter @variables | Export-Counter -FileFormat csv -Path $outputFile -Force
+```
 
 ## Unregister Performance Counters
 
 When performance monitoring is not needed anymore, unregister the Activity Monitor performance counters.
 
-Follow the steps to unregister the Activity Monitor performance counters on each SAM Agent server.
+Follow the steps to unregister the Activity Monitor performance counters on each SAM Agent server.
 
 __Step 1 –__ Run ```cmd.exe``` as Administrator.
 
@@ -313,4 +315,4 @@ sc stop SBTLoggingSvc
 
 sc start SBFileMonAgentSvc
 
-Once the services have been restarted, the Activity Monitor performance counters are unregistered.
+Once the services have been restarted, the Activity Monitor performance counters are unregistered.

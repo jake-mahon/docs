@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_SharedLinks__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SharedLinks Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/sharedlinksanalysis.png)
+![Analysis Tasks for the SharedLinks Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/sharedlinksanalysis.png)
 
 The default analysis tasks are:
 

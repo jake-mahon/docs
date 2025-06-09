@@ -2,7 +2,7 @@
 
 The AzureADInventory Data Collector catalogs user and group object information from Microsoft Entra ID, formerly Azure Active Directory. This data collector is a core component of Access Analyzer and is preconfigured in the .Entra ID Inventory Solution.
 
-Both this data collector and the solution are available with all Access Analyzer license options. See the [.Entra ID Inventory Solution](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
+Both this data collector and the solution are available with all Access Analyzer license options. See the [.Entra ID Inventory Solution](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
 
 Protocols
 
@@ -40,12 +40,12 @@ Permissions
 The AzureADInventory Data Collector is configured through the Entra ID Inventory DC Wizard, which contains the following wizard pages:
 
 - Welcome
-- [AzureADInventory: Category](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/category.md)
-- [AzureADInventory: Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/options.md)
-- [AzureADInventory: Custom Attributes](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md)
-- [AzureADInventory: Results](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/results.md)
-- [AzureADInventory: Summary](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/summary.md)
+- [AzureADInventory: Category](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/category.md)
+- [AzureADInventory: Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/options.md)
+- [AzureADInventory: Custom Attributes](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/customattributes.md)
+- [AzureADInventory: Results](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/results.md)
+- [AzureADInventory: Summary](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/summary.md)
 
-![Entra ID Inventory Data Collector Wizard Welcome page](/static/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Entra ID Inventory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
 
 Hide the Welcome page the next time this data collected is accessed by selecting the __Do not display this page the next time__ checkbox.

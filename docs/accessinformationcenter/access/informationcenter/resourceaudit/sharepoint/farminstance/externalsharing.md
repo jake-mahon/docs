@@ -2,7 +2,7 @@
 
 The External Sharing report at the online instance level displays resources that are shared with external users, such as users who are invited to sign in using their gmail accounts.
 
-![External Sharing report at the online instance level](/static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceexternalsharing.png)
+![External Sharing report at the online instance level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceexternalsharing.png)
 
 This report is comprised of the following columns:
 

@@ -2,7 +2,7 @@
 
 The Repetition rule rejects passwords that contain excessive character or pattern repetition. Reducing repetition increase resistance to both brute-force and dictionary cracking algorithms. The Repetition rule is not case sensitive, so "mypaSssSword" contains four consecutive repeating characters (SssS).
 
-![Repetition Rule](/static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/repetition.png)
+![Repetition Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/repetition.png)
 
 Select the __Repetition__ check box to enable the repetition rule.
 

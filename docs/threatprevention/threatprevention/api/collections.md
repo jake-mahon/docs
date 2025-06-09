@@ -1,6 +1,6 @@
 # Collection APIs
 
-Collections are reusable lists of policy filter settings that help streamline the task of associating filters with event types on the Event Type tab during [Policy Configuration](/docs/product_docs/threatprevention/threatprevention/admin/policies/configuration.md) or [Template Configuration](/docs/product_docs/threatprevention/threatprevention/admin/templates/configuration.md).
+Collections are reusable lists of policy filter settings that help streamline the task of associating filters with event types on the Event Type tab during [Policy Configuration](/docs/threatprevention/threatprevention/admin/policies/configuration.md) or [Template Configuration](/docs/threatprevention/threatprevention/admin/templates/configuration.md).
 
 You can use APIs to perform the following functions:
 
@@ -12,7 +12,7 @@ You can use APIs to perform the following functions:
 
 ## Get Collection
 
-The ```Get-SICollection``` command is used to return a Threat Prevention collection. Collections are managed on the [Collection Manager Window](/docs/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/overview.md) and are used in specific policy filters, where different filters support different types of collections.
+The ```Get-SICollection``` command is used to return a Threat Prevention collection. Collections are managed on the [Collection Manager Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/overview.md) and are used in specific policy filters, where different filters support different types of collections.
 
 ## Remove a Collection
 
@@ -26,11 +26,11 @@ Remove-SICollection –CollectionID “222”
 
 ## Add or Modify Collections
 
-The ```Export-SICollection``` and ```Import-SICollection``` commands can be used to export and edit the XML file of an existing collection, and then import (add or replace) the edited collection. See the [Not a Policy XML Expert](/docs/product_docs/threatprevention/threatprevention/api/overview.md#Not-a-Policy-XML-Expert) topic for additional information on and how to make changes to the XML.
+The ```Export-SICollection``` and ```Import-SICollection``` commands can be used to export and edit the XML file of an existing collection, and then import (add or replace) the edited collection. See the [Not a Policy XML Expert](/docs/threatprevention/threatprevention/api/overview.md#Not-a-Policy-XML-Expert) topic for additional information on and how to make changes to the XML.
 
 ### Export Collections to an XML File
 
-The ```Export-SICollection``` command retrieves the specified collection or collections as an XML file from Threat Prevention into PowerShell or a specified location if using PowerShell file redirection. The data produced by this command is identical in format to that produced by the Administration Console export function. See the [Export Policies and Templates Window](/docs/product_docs/threatprevention/threatprevention/admin/tools/exportpoliciestemplates.md) topic for additional information.
+The ```Export-SICollection``` command retrieves the specified collection or collections as an XML file from Threat Prevention into PowerShell or a specified location if using PowerShell file redirection. The data produced by this command is identical in format to that produced by the Administration Console export function. See the [Export Policies and Templates Window](/docs/threatprevention/threatprevention/admin/tools/exportpoliciestemplates.md) topic for additional information.
 
 The following parameter(s) are required:
 
@@ -46,7 +46,7 @@ Export-SICollection –CollectionIDs “222” >>c:\Import\ExampleExport1.xml
 
 ### Import Collections from an XML File
 
-The ```Import-SICollection``` command imports a collection into the Enterprise Manager from an external XML file. This command is used to replace/modify an existing collection or create a new one. The data produced by this command is identical to that produced by the Administration Console import function. See the [Import Window](/docs/product_docs/threatprevention/threatprevention/admin/tools/import.md) topic for additional information.
+The ```Import-SICollection``` command imports a collection into the Enterprise Manager from an external XML file. This command is used to replace/modify an existing collection or create a new one. The data produced by this command is identical to that produced by the Administration Console import function. See the [Import Window](/docs/threatprevention/threatprevention/admin/tools/import.md) topic for additional information.
 
 During the import process, the ```Import-SICollection``` command checks existing collection GUIDs against the GUIDs in the XML file. One of the following actions occur:
 

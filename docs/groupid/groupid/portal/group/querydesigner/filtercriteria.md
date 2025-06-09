@@ -3,7 +3,7 @@
 Use this tab to add custom criteria to your query that do not fit any of the categories represented on other tabs of the Query Designer dialog box. For example, you can add criteria to retrieve all directory users who live in Houston and have a fax
 number. You can also apply logical operators (AND, OR) to your custom query to achieve the most accurate results.
 
-If the administrator in your role's Query Designer policy has defined a default filter criteria, that filter criteria is displayed on this tab. You can view and copy the query using the __View Query__ button. See the [Specify a Default Filter Criteria](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md#Specify-a-Default-Filter-Criteria) section of the [ Query Designer Policy](/docs/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md) topic.
+If the administrator in your role's Query Designer policy has defined a default filter criteria, that filter criteria is displayed on this tab. You can view and copy the query using the __View Query__ button. See the [Specify a Default Filter Criteria](/docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md#Specify-a-Default-Filter-Criteria) section of the [ Query Designer Policy](/docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md) topic.
 
 The default criteria is part of the policy; therefore, in Directory Manager portal it is visible to the role members only.
 

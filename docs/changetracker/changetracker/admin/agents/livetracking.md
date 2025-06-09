@@ -1,6 +1,6 @@
 # Live Tracking
 
-Live Tracking is a style of tracking to capture all changes in real-time that can be set when configuring a tracking policy. See the [Policy Templates: FIM File Integrity](/docs/product_docs/changetracker/changetracker/admin/settings/policytemplates/fimfiles.md) topic for additional information.
+Live Tracking is a style of tracking to capture all changes in real-time that can be set when configuring a tracking policy. See the [Policy Templates: FIM File Integrity](/docs/changetracker/changetracker/admin/settings/policytemplates/fimfiles.md) topic for additional information.
 
 ## Windows
 
@@ -18,7 +18,7 @@ For I/O changes that are part of the Tracking Template, the driver simply logs t
 
 Neither the server nor the agent requires a restart after live tracking has been enabled.
 
-![minifilter_767x740](/static/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.png)
+![minifilter_767x740](/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.png)
 
 The Change Tracker minifilter doesn't make any alterations to user requests, it only monitors I/O activity.
 

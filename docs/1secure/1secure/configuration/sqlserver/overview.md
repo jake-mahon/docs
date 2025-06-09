@@ -17,5 +17,5 @@ The product collects successful and failed logon attempts for Windows and SQL lo
 
 Remember to do the following:
 
-- Configure a Data Collecting Account as described in the [Permissions for SQL Server Auditing](/docs/product_docs/1secure/1secure/configuration/sqlserver/permissions.md) topic.
-- Configure ports as described in the [SQL Server Ports](/docs/product_docs/1secure/1secure/configuration/sqlserver/ports.md) topic.
+- Configure a Data Collecting Account as described in the [Permissions for SQL Server Auditing](/docs/1secure/1secure/configuration/sqlserver/permissions.md) topic.
+- Configure ports as described in the [SQL Server Ports](/docs/1secure/1secure/configuration/sqlserver/ports.md) topic.

@@ -1,8 +1,8 @@
 # Add Credentials Window
 
-The Add Credentials window provides a list of Credentials that have been onboarded. Credentials are onboarded in the [Credentials Page](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
+The Add Credentials window provides a list of Credentials that have been onboarded. Credentials are onboarded in the [Credentials Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Add credentials window](/static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.png)
+![Add credentials window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.png)
 
 The window has the following features:
 
@@ -51,4 +51,4 @@ __Step 5 –__ To add a credential to the access policy, click a row in the Avai
 
 __Step 6 –__ Click Add to add the credential(s) to the access policy.
 
-The new credential(s) are added to the access policy and are shown in the [Credentials Tab for Credential Based Access Policies](/docs/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md).
+The new credential(s) are added to the access policy and are shown in the [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md).

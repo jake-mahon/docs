@@ -2,7 +2,7 @@
 
 You can search SharePoint activity that has been monitored and recorded to a File output. When you select __SharePoint__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![SharePoint New Search Tab](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharepointnewsearchtab.png)
+![SharePoint New Search Tab](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharepointnewsearchtab.png)
 
 The filters are separated into the following categories:
 
@@ -15,7 +15,7 @@ The filters are separated into the following categories:
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/product_docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#Export) option.
 
 Filter Value Entry
 
@@ -32,7 +32,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category addresses who, what, where, and when an object, user, host, or domain controller is affected by the events selected in the other categories. The time frame filter must be configured for every search query.
 
-![General Category - SharePoint](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.png)
+![General Category - SharePoint](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.png)
 
 This section has the following filters:
 
@@ -53,7 +53,7 @@ This section has the following filters:
 - Web Title
 - User – Filter the data for a specific user, or perpetrator of the event
 
-  - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify account or group window. Use this window to resolve the account for the user. See the [Specify Account or Group Window](/docs/product_docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+  - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify account or group window. Use this window to resolve the account for the user. See the [Specify Account or Group Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
 - Search Limit – Set the maximum number of rows returned in the search results. The default is 10,000 rows.
 - Event Source – Filter the data by the source: Any, SharePoint, ObjectModel
 - Location Type – Filter the data by the type of location: Any, Url, ClientLocation
@@ -62,7 +62,7 @@ This section has the following filters:
 
 The Audit category scopes the query by audit mask activity.
 
-![SharePoint Search - Audit filter section](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/auditmask.png)
+![SharePoint Search - Audit filter section](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/auditmask.png)
 
 This section has the following filters:
 
@@ -72,7 +72,7 @@ This section has the following filters:
 
 The Move/Delete/Copy/Checkin category scopes the query by file move and version activity.
 
-![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/movedeletecopycheckinfilters.png)
+![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/movedeletecopycheckinfilters.png)
 
 This section has the following filters:
 
@@ -84,7 +84,7 @@ This section has the following filters:
 
 The Delete category scopes the query by type of delete activity.
 
-![SharePoint Search Query - Delete FIlters](/static/img/product_docs/strongpointfornetsuite/integrations/delete.png)
+![SharePoint Search Query - Delete FIlters](/img/product_docs/strongpointfornetsuite/integrations/delete.png)
 
 This section has the following filters:
 
@@ -94,7 +94,7 @@ This section has the following filters:
 
 The Search category scopes the query by search activity.
 
-![SharePoint Search Query - Search Filters](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchfilters.png)
+![SharePoint Search Query - Search Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchfilters.png)
 
 This section has the following filters:
 
@@ -105,7 +105,7 @@ This section has the following filters:
 
 The Permissions category scopes the query by permission change activity.
 
-![SharePoint Search Query - Permissions Filters](/static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/permissionsfilters.png)
+![SharePoint Search Query - Permissions Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/permissionsfilters.png)
 
 This section has the following filters:
 

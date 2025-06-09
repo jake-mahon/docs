@@ -161,4 +161,4 @@ Step 5 – Click __Save__.
 
 __See Also__
 
-- [Configure an SMTP Server](/docs/product_docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md)
+- [Configure an SMTP Server](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md)

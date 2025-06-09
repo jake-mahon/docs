@@ -26,16 +26,16 @@ The basic clean up process:
 1. Open __Strongpoint__ > __Clean Up__ > __Unused Customizations__
 2. Enter filtering information to streamline your search. Searching on all unused customizations can take a long time to load and can time out.
 
-   ![Enter criteria prior to searching for unused customizations](/static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_unused_filters.png)
+   ![Enter criteria prior to searching for unused customizations](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_unused_filters.png)
 3. Click __Search__.  
     The results are coded with a flag in the first column and the text either blue (Inactive owner) or black.   
-   ![Cleanup Key](/static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_key.png)  
+   ![Cleanup Key](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_key.png)  
     You can hover over the flag for more information. If the text is blue, __Inactive Owner__ is displayed regardless of the flag color.
 
-   ![customizations_cleanup_list](/static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_list.png)
+   ![customizations_cleanup_list](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_list.png)
 4. Click __View__ next to each Customization to investigate. You can right-click on __View__ and select __Open in a new tab or window__ to keep your results page available.
 
-   ![View the Customization Record](/static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_view_record.png)
+   ![View the Customization Record](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_view_record.png)
 5. Use the __ERD__, __Base Record__ and __Related Objects__ links to review the dependencies.  
     If you have a __Documentation and Optimization__ license:
 
@@ -52,7 +52,7 @@ You can group the customizations you are considering to delete and create a chan
 
 The Impact Analysis is available in the Advanced Change Management Module. This appears as __Clean Up__ or __Impact Analysis__ as a tab at the bottom of the Change Request. It provides specific warnings and status for each customization attached to the Change Request.
 
-![cleanupimpactanalysis](/static/img/product_docs/strongpointfornetsuite/clean_up/cleanupimpactanalysis.png)
+![cleanupimpactanalysis](/img/product_docs/strongpointfornetsuite/clean_up/cleanupimpactanalysis.png)
 
 The __Impact Analysis__ tab has the following elements:
 
@@ -80,7 +80,7 @@ Follow your organization’s change management policies and procedures as well a
 
 Once a Change Request has been approved the __Archive Customizations__ button is available. When clicked, any fields in the change request are archived and stored in the __File Cabinet__.
 
-![archive](/static/img/product_docs/strongpointfornetsuite/clean_up/archive.png)
+![archive](/img/product_docs/strongpointfornetsuite/clean_up/archive.png)
 
 The status of those fields changes to __Archived__. The customization moves to the __Can Be Safely Deleted or Modified__ tab.
 

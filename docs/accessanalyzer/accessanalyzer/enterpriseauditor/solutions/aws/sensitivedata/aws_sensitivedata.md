@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS\_SensitiveData__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_SensitiveData Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.png)
+![Analysis Tasks for the AWS_SensitiveData Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.png)
 
 The following analysis tasks are selected by default:
 

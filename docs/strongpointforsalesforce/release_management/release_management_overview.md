@@ -4,8 +4,8 @@ Platform Governance for Salesforce’s release management assists with planning,
 
 Release Management is enabled for Intelligent Change Management and Enterprise Compliance Licenses.
 
-> [Deployments](/docs/product_docs/strongpointforsalesforce/release_management/deployments.md): Documents your deployment process so you can safely moves deployments from one environment to another.
+> [Deployments](/docs/strongpointforsalesforce/release_management/deployments.md): Documents your deployment process so you can safely moves deployments from one environment to another.
 >
-> [Rollback](/docs/product_docs/strongpointforsalesforce/release_management/rollback.md): Enables you to safely rollback your deployments.
+> [Rollback](/docs/strongpointforsalesforce/release_management/rollback.md): Enables you to safely rollback your deployments.
 >
-> [Multiple Environment Deployment](/docs/product_docs/strongpointforsalesforce/release_management/multiple_environments.md): Manages changes between your Production, Development and Testing accounts.
+> [Multiple Environment Deployment](/docs/strongpointforsalesforce/release_management/multiple_environments.md): Manages changes between your Production, Development and Testing accounts.

@@ -2,7 +2,7 @@
 
 How to define the [
 Resource Correlation Rule
-](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) to match up resources across systems, usually accounts with their owner.
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) to match up resources across systems, usually accounts with their owner.
 
 ## Overview
 
@@ -10,7 +10,7 @@ Resource Correlation Rule
 
 Correlation is the process of establishing an ownership relationship between a source resource (usually an identity) and a target resource (usually an account). It is the basis of the link between an identity and their fine-grained entitlements. See the [
 Entitlement Management
-](/docs/product_docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 Every resource type can be assigned a set of correlation rules.
 
@@ -50,10 +50,10 @@ When the confidence rate is below 100%, correlation and classification reviews a
 
 - on the __Provisioning Review__ page when the owned resource is allowed by the role model, i.e. requested manually or assigned automatically by a resource type rule;
 
-  ![Correlation Review - Provisioning Review Screen](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.png)
+  ![Correlation Review - Provisioning Review Screen](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.png)
 - on the __Resource Reconciliation__ page when the owned resource is not allowed by the role model, i.e. not requested manually nor assigned by a resource type rule. For example, the creation of a correlation rule without a resource type rule triggers unauthorized accounts on the __Resource Reconciliation__ page.
 
-  ![Correlation Review - Resource Reconciliation Screen](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.png)
+  ![Correlation Review - Resource Reconciliation Screen](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.png)
 
 Broadly speaking, the __Resource Reconciliation__ page displays non-conforming assignments/values (gaps), i.e. resources and property values from the managed systems that are not allowed by a rule in Identity Manager. The __Provisioning Review__ page displays the resource and property changes whose workflows require a manual approval.
 
@@ -81,13 +81,13 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| Identity repository ( (required)    Resource types (required)   [ Synchronize Data ](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
+| Identity repository ( (required)    Resource types (required)   [ Synchronize Data ](/docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
 
 See the [
 Create the Workforce Repository
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) and [
+](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md) and [
 Create a Resource Type
-](/docs/product_docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
+](/docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
 
 ## Create a Correlation Rule
 
@@ -97,27 +97,27 @@ Fill a resource type with a correlation rule by proceeding as follows:
 
 1. On the relevant resource type's page, click on __Correlation Rules__ and __+ New__.
 
-   ![New Correlation Rule](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/resourcetype_newcorrelrule_v602.png)
+   ![New Correlation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/resourcetype_newcorrelrule_v602.png)
 
    Correlation rules can also be created through the __Access Rules__ screen (accessible from the home page, in the __Configuration__ section), clicking on the __Correlations__ tab and the addition button at the top right corner.
 
-   ![Home - Access Rules](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+   ![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
 
-   ![Addition Icon](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+   ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 2. Fill in the fields.
 
-   ![New Correlation Rule Fields](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/resourcetype_newcorrelrulefields_v602.png)
+   ![New Correlation Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/resourcetype_newcorrelrulefields_v602.png)
 
-   - __Source Object__: at least one property from the source system that is going to be linked to a given target object. Can be defined by a property path and/or an [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
-   - __Target Object__: one property from the managed system that is going to be linked to a given source object. Can be defined by a property path and/or an [Expressions](/docs/product_docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
+   - __Source Object__: at least one property from the source system that is going to be linked to a given target object. Can be defined by a property path and/or an [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
+   - __Target Object__: one property from the managed system that is going to be linked to a given source object. Can be defined by a property path and/or an [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
    - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order.
    > In this example, a person via their login and name, is the owner of a nominative AD account via its ```sAMAccountName``` attribute and display name:
    >
-   > ![Correlation Rule Example](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_example_v602.png)
+   > ![Correlation Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_example_v602.png)
 3. Click on __Create__ and see a line added on the rules page.
 4. On the connector dashboard and in the __Resource Types__ frame, click on __Jobs__ > __Prepare Correlation Keys__ to compute the expressions used in the new correlation rule(s), and click on __Jobs__ > __Compute Role Model__ to apply all correlation rules.
 
-![Resource Type Jobs](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
 
 ## Impact of Modifications
 
@@ -129,21 +129,21 @@ Even without selecting an owner, reviewing unauthorized accounts on the __Resour
 
 Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in correlation rules. See the [
 Perform a Simulation
-](/docs/product_docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
+](/docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
 
 Any modification in correlation rules is taken into account via the following jobs: on the connector dashboard and in the __Resource Types__ frame, click on __Jobs__ > __Prepare Correlation Keys__, and then on __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
 
 ## Verify Correlation
 
-In order to verify the process, check the list of [Review Orphaned and Unused Accounts](/docs/product_docs/usercube_saas/usercube/user-guide/administrate/orphan-unused-account-review/index.md) and analyze them to look for patterns revealing correlation issues. To do so, click on the target entity type(s) affected by your rule(s) in the left menu of the home page.
+In order to verify the process, check the list of [Review Orphaned and Unused Accounts](/docs/usercube_saas/usercube/user-guide/administrate/orphan-unused-account-review/index.md) and analyze them to look for patterns revealing correlation issues. To do so, click on the target entity type(s) affected by your rule(s) in the left menu of the home page.
 
-![Test Entity Type](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.png)
+![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.png)
 
 The entity type's page can be configured via XML to customize all displayed columns and available filters, especially the __Orphan__ filter that spots resources without an owner, and the __Owner / Resource Type__ column that shows the owner assigned to each resource.
 
-![Owner / Resource Type Column](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_test_v522.png)
+![Owner / Resource Type Column](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_test_v522.png)
 
 A knowledgeable person must analyze a few samples to ensure that resources' owners can all be justified, meaning that orphaned accounts are supposed to be so, and that correlated resources are matched with the right owner.
 
@@ -153,7 +153,7 @@ Another possibility of correlation validation is to compare the number of AD acc
 
 If a resource is not correlated (or not correctly), then:
 
-![Uncorrelated Resource](/static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_uncorrelated_v600.png)
+![Uncorrelated Resource](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/correlation/correlation_uncorrelated_v600.png)
 
 - Check the validity of correlation rules.
 - Check the resource's data quality.

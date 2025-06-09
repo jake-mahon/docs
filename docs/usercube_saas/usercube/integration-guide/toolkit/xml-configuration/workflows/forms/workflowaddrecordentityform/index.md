@@ -44,13 +44,13 @@ And with the following form for the data that groups records together:
 
 The contents of ```MainControl``` and ```RecordControl``` are visible during the workflow's execution:
 
-![Form Example - Computer Request](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_v603.png)
+![Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_v603.png)
 
 The content of ```RecordUniqueItemControl``` is not visible. The user's records that have the same values for all the properties in ```RecordUniqueItemControl``` will be displayed, and potentially modified, as one.
 
 The contents of ```MainSummaryControl``` and ```RecordSummaryControl``` are visible after the workflow's execution:
 
-![Summary Form Example - Computer Request](/static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_summary_v603.png)
+![Summary Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_summary_v603.png)
 
 ## Properties
 

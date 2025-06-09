@@ -8,13 +8,13 @@ The AD\_PasswordPolicies Job uses the LDAP Data Collector for the following quer
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_PasswordPolicies Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesquery.png)
+![Query for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesquery.png)
 
 The query for this job is:
 
 - Fine-grained Policies – Targets one domain controller per domain known to Access Analyzer to return fine-grained password policies
 
-  - See the [LDAP Data Collector](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ldap.md) topic for additional information
+  - See the [LDAP Data Collector](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/admin/datacollector/ldap.md) topic for additional information
 
 ## Analysis Task for the AD\_PasswordPolicies Job
 
@@ -22,7 +22,7 @@ Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD\_PasswordPolicie
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_PasswordPolicies Job](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.png)
+![Analysis Task for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.png)
 
 The default analysis tasks are:
 

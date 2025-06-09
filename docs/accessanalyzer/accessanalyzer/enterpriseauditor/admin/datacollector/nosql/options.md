@@ -2,7 +2,7 @@
 
 Use the Sensitive Data Scan Settings (Options) page to configure additional settings for the sensitive data scan. It is a wizard page for the Sensitive Data Collection category.
 
-![NoSQL Data Collector Wizard Options page](/static/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
+![NoSQL Data Collector Wizard Options page](/img/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/install/application/options.png)
 
 The sensitive data scan settings are:
 

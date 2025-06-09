@@ -4,19 +4,19 @@ Netwrix Access Analyzer (formerly Enterprise Auditor) can execute Access Auditin
 
 ## Access & Sensitive Data Auditing Permissions
 
-- Permissions vary based on the Scan Mode Option selected. See the [File System Supported Platforms](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for additional information.
+- Permissions vary based on the Scan Mode Option selected. See the [File System Supported Platforms](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for additional information.
 
 Windows File System Cluster Requirements
 
-See the [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/windowsfile/access.md) topic for instructions.
+See the [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/windowsfile/access.md) topic for instructions.
 
 Windows File System DFS Namespaces Requirements
 
-See the [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/windowsfile/access.md) topic for instructions.
+See the [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/windowsfile/access.md) topic for instructions.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/product_docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
@@ -33,11 +33,11 @@ For integration between the Activity Monitor and Access Analyzer, the credential
 
 Windows File System Cluster Requirements
 
-See the [Windows File Server Activity Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/windowsfile/activity.md) topic for instructions.
+See the [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/windowsfile/activity.md) topic for instructions.
 
 Windows File System DFS Namespaces Requirements
 
-See the [Windows File Server Activity Auditing Configuration](/docs/product_docs/accessanalyzer/accessanalyzer/config/windowsfile/activity.md) topic for instructions.
+See the [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/accessanalyzer/config/windowsfile/activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 
