@@ -26,7 +26,7 @@ __Step 2 –__ In the `<Share_Name>` Properties dialog box, select the Security 
 
 __Step 3 –__ In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the Auditing tab.
 
-![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
+![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.png)
 
 __Step 4 –__ Click __Add__ to add a new principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 

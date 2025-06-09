@@ -2,7 +2,7 @@
 
 The Access Information Center uses the Simple Mail Transfer Protocol (SMTP) to send email messages. SMTP server information and several messaging options can be set through the Configuration > Notifications page.
 
-![Notifications Page](/img/product_docs/1secure/1secure/admin/notifications.png)
+![Notifications Page](/img/product_docs/1secure/admin/notifications.png)
 
 At the top, the SMTP server and email security settings are configured. The Notification options is where you configure the sender information, and other optional settings. The Reminders section is for configuring weekly reminders for owners with outstanding resource reviews or access requests.
 

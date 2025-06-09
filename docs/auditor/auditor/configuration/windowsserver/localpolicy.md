@@ -34,4 +34,4 @@ __Step 3 –__ Configure the following audit policies.
 
 Local audit policy is configured.
 
-![Local Security Policy snap-in](/img/product_docs/1secure/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.png)
+![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.png)

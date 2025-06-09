@@ -174,7 +174,7 @@ __Step 4 –__ Connect to the server.
 
 __Step 5 –__ In the left pane, expand the __Security__ node. Right-click the __Logins__ node and select __New Login__ from the pop-up menu.
 
-![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
+![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
 
 __Step 6 –__ Click __Search__ next to __Login Name__ and specify the user that you want to assign the __`db_owner`__ role to.
 

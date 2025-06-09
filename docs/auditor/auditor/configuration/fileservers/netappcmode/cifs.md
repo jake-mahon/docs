@@ -49,7 +49,7 @@ Do one of the following depending on the OS:
    If there is no such tab, it means a wrong security style has been specified for the volume holding this file share.
 3. In the __Advanced Security Settings for `<Share_Name>`__ dialog, navigate to the __Auditing__ tab, click Edit.
 
-   ![auditing_entries_netapp_2016](/img/product_docs/1secure/1secure/configuration/computer/auditing_entries_netapp_2016.png)
+   ![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.png)
 4. Click Add to add a new principal. You can also select Everyone (or another user-defined group containing users that are granted special permissions) and click Edit.
 5. In the Auditing Entry for `<Folder_Name>` dialog, click the Select a principal link and specify Everyone.
 

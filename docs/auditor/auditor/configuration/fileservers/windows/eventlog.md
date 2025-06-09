@@ -10,7 +10,7 @@ __Step 1 –__ On a target server, navigate to Start > Windows Administrative To
 
 __Step 2 –__ Navigate to Event Viewer tree > Windows Logs, right-click __Security__ and select __Properties__.
 
-[![Log Properties dialog box](/img/product_docs/1secure/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.png)](/docs/auditor/resources/images/auditor/manualconfig/manualconfig_ws_eventviewerpr2016.png)
+[![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.png)](/docs/auditor/resources/images/auditor/manualconfig/manualconfig_ws_eventviewerpr2016.png)
 
 __Step 3 –__ Make sure Enable logging is selected.
 

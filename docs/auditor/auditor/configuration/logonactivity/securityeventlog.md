@@ -8,7 +8,7 @@ __Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` > Domains
 
 __Step 3 –__ Navigate to __Computer Configuration > Policies > Windows Settings > Security Settings > Event Log__ and double-click the __Maximum security log size__ policy.
 
-![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.png)
+![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.png)
 
 __Step 4 –__ In the Maximum security log size Properties dialog, select __Define this policy setting__ and set maximum security log size to __4194240__ kilobytes (4GB).
 
