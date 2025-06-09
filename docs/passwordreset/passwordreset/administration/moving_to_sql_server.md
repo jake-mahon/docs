@@ -84,4 +84,4 @@ Open the Data Console and set your SQL Server connection options. You will need 
 
 Delete the two SQL Server Compact database files (apr.sdf and aprlog.sdf) after cutting over to SQL Server. These files will soon contain outdated information, and leaving them on the server is an unnecessary security risk. Also ensure that the SQL Server database is backed up regularly.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

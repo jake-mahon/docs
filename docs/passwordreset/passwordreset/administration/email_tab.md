@@ -55,4 +55,4 @@ A warning icon is shown beside the language drop-down list if an e-mail template
 
 __CAUTION:__ An attacker may choose a specific language to avoid detection. E-mail alerts are sent in the Web Interface language chosen by the attacker if the target user has not enrolled or changed their password with Password Reset. The target user will receive the e-mail alerts, but they may not understand them. Use the Rest API to remind new users to enroll so their preferred language is known to Password Reset. See the [Enabling the API](/docs/passwordreset/passwordreset/administration/persuading_users_to_enroll.md#enabling-the-api) topic for additional information.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

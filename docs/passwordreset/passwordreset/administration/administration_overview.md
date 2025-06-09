@@ -24,4 +24,4 @@ Password Reset is ready to respond to password management requests at any hour o
 
 The [Evaluation](/docs/passwordreset/passwordreset/evaluation/evaluation_overview.md) topic contains step-by-step instructions to help you quickly install, configure, and evaluate Password Reset.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

@@ -123,4 +123,4 @@ Critical errors are shown on their own page. These errors are mostly a result of
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default messages by editing the templates. See the [Resource Strings](/docs/passwordreset/passwordreset/administration/editing_the_html_templates.md#resource-strings) topic for more information.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

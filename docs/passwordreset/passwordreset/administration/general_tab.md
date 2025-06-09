@@ -83,4 +83,4 @@ Please do not enable this option if you are using Netwrix Password Reset v3.3 wi
 
 __NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

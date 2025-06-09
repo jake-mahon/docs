@@ -63,4 +63,4 @@ __Step 5 –__ Start .
 
 __CAUTION:__ apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to protect them from attack, but you should still ensure that this file and all backup copies are stored securely.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

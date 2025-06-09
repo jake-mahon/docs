@@ -68,4 +68,4 @@ __Step 3 –__ Enter the __Old Password__, __New Password__, and __Confirm Passw
 
 Password Reset's user interface is built with customizable templates. You can easily modify the user interface by editing the templates. Even the error messages are defined in the templates, so you can edit those too. See the [Editing the HTML Templates](/docs/passwordreset/passwordreset/administration/editing_the_html_templates.md) topic of the Administrator's Guide for additional information.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

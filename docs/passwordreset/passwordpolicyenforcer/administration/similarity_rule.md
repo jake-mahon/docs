@@ -24,4 +24,4 @@ Set __Words typed backward__ to __Yes__ to additionally test passwords with thei
 
 Set a __Tolerance__ value to specify the maximum number of matching characters that Password Policy Enforcer allows before rejecting a password. For example, the two passwords "old__passwd__" and "new__passwd__" contain six consecutive matching characters (shown in bold type). Password Policy Enforcer rejects the new password if the tolerance is five (or lower), and accepts it if the tolerance is six (or higher).
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

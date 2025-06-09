@@ -102,4 +102,4 @@ __Step 3 –__ Press the __DELETE__ key, and then click __OK__.
 
 __NOTE:__ You can still view a user's event history in the __Audit Log__ tab after they are deleted from the __Users__ tab.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

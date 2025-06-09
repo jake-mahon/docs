@@ -14,4 +14,4 @@ Please [contact Netwrix support](mailto:support@netwrix.com) if you have any que
 
 The Password Reset Administrator's Guide contains additional installation and configuration information. Refer to the Administrator's Guide for more detailed coverage of the topics discussed in this guide.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

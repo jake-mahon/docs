@@ -66,4 +66,4 @@ The DN of the AdminSDHolder container for the netwrix.com domain is CN=AdminSDHo
 
 __NOTE:__ Changes to the AdminSDHolder container are not applied to accounts immediately. You may need to wait up to an hour for Windows to update the DACL for these accounts. You can also start the process manually. Search for runProtectAdminGroupsTask or FixUpInheritance in Microsoft's documentation or more information.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

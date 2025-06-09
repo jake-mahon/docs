@@ -58,4 +58,4 @@ __NOTE:__ You must import the configuration settings into the registry whenever 
 
 You can access the Password Reset Client from the Windows Logon and Unlock Computer screens. Click the __Reset password...__ command link to display the Password Reset menu.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

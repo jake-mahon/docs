@@ -12,4 +12,4 @@ Unlike password cracking products that check passwords after they are accepted b
 
 __NOTE:__ You can also use Password Policy Enforcer to ensure that passwords are compatible with other systems, and to synchronize passwords with other systems and applications.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

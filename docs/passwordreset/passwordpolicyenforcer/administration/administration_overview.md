@@ -14,4 +14,4 @@ You can also use Password Policy Enforcer to ensure that passwords are compatibl
 
 __NOTE:__ The [Evaluate Password Policy Enforcer](/docs/passwordreset/passwordpolicyenforcer/evaluation/evaluation_overview.md) contains step-by-step instructions to help you quickly install, configure, and evaluate Password Policy Enforcer. Consider using the Evaluation Guide if you are using Password Policy Enforcer for the first time, prior to installing and deploying on your domains.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

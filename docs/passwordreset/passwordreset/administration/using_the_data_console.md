@@ -45,4 +45,4 @@ The __Users__ tab has seven columns:
 
 __NOTE:__ The Data Console does not automatically display new information as it is added to the database. Press F5 to refresh the view.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

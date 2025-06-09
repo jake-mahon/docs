@@ -32,4 +32,4 @@ Select a value from the __Lockout user after...__ drop-down list to specify how 
 
 __NOTE:__ Locked out users must re-enroll before they can use Password Reset to reset their password or unlock their account. The incorrect answer count is reset when a user enrolls, or answers all questions during a reset or unlock.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

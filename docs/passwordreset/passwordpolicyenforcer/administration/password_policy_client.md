@@ -16,4 +16,4 @@ The Password Policy Client displays the password policy during a password change
 
 __NOTE:__ The Password Policy Client does not modify any Windows system files. It also does not send passwords or password hashes over the network.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

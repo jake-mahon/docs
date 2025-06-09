@@ -60,4 +60,4 @@ Caching improves performance and increases capacity. When the API sends a __user
 
 __NOTE:__ You may get a __user is enrolled__ response after deleting an enrolled user when testing the API. Clearing the browser cache may fix this, but not if other HTTP caches have cached the response.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

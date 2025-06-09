@@ -185,4 +185,4 @@ The license key is applied to all computers in the domain. This does not happen 
 
 ```gpupdate /target:computer```
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

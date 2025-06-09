@@ -177,4 +177,4 @@ Replace the hexadecimal color code with your desired color code. You can use a c
 
 __NOTE:__ Some old web browsers with basic HTML5 support cannot display SVG images. Password Reset works with these browsers, but the SVG images are not shown. You can convert the icons to GIF or PNG format if you want them shown on these older browsers.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+

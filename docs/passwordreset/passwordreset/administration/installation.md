@@ -260,4 +260,4 @@ __Step 3 –__ Create a new DWORD value called __LogonUI.exe__, and set it to 2A
 
 Create this registry value on all the Password Reset Client computers. IE 11 mode can be requested even if the computer is running an older version of IE.
 
-[Open topic with navigation](/docs/default.md#open-topic-with-navigation)
+
