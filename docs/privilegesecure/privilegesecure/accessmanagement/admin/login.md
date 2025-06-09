@@ -10,7 +10,7 @@ https://ExampleServer01:6500
 
 __NOTE:__ This is the default port. If a custom port is configured, the address to the Privilege Secure Console is:
 
-https://ExampleServer01:[PortNumber]
+`https://ExampleServer01:[PortNumber]`
 
 Depending on the organization’s network environment, use the NetBIOS name, fully qualified domain name (FQDN), or IP Address of the server in the browser. Also, access can be restricted through firewalls.
 

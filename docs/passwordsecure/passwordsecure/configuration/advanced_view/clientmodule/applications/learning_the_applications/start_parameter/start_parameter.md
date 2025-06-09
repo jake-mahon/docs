@@ -43,19 +43,19 @@ Fields can be added via certain placeholders based on their type or their name. 
 
 | Field type | Placeholder |
 | --- | --- |
-| Text | {Text} |
-| Password | {Password} |
-| Date | {Date} |
-| Check | {Check} |
-| URL | {Url} |
-| Email | {Email} |
-| Phone | {Phone} |
-| ​List | {List} |
-| Header | {Header} |
-| Multiline text | ​{Memo} |
-| Multiline password text | ​{PasswordMemo} |
-| Integer | {Int} |
-| Floating-point number | {Decimal} |
-| User name | {UserName} |
-| ​IP address | {Ip} |
-| Enter field name | {field:name} |
+| Text | `{Text}` |
+| Password | `{Password}` |
+| Date | `{Date}` |
+| Check | `{Check}` |
+| URL | `{Url}` |
+| Email | `{Email}` |
+| Phone | `{Phone}` |
+| ​List | `{List}` |
+| Header | `{Header}` |
+| Multiline text | ​`{Memo}` |
+| Multiline password text | ​`{PasswordMemo}` |
+| Integer | `{Int}` |
+| Floating-point number | `{Decimal}` |
+| User name | `{UserName}` |
+| ​IP address | `{Ip}` |
+| Enter field name | `{field:name}` |

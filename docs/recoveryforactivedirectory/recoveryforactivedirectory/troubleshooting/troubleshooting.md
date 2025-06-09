@@ -37,7 +37,7 @@ __Step 5 –__ Navigate from the AD Configuration Partition folder until __CN=Di
 
 __Step 6 –__ Double-click on the proper locale (such as CN=409). A list is displayed in the middle pane. Right click on any of the Display Specifiers and select __Properties__ from the menu. The Properties window is displayed. Select the adminContextMenu attribute or click Edit to show the Multi-valued String Editor listing known GUIDs. In the list, the RSAT Extension GUID entry is:
 
-{50fb3a3c-5700-4232-ae3b-c6d49a6a97ab}
+`{50fb3a3c-5700-4232-ae3b-c6d49a6a97ab}`
 
 __NOTE:__ The adminContextMenu attribute of every object in the active locale (i.e. CN=409 for US English), should have the GUID above.
 

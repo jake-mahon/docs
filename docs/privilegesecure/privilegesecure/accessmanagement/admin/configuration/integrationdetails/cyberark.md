@@ -119,6 +119,6 @@ $Credential has the values for the Credential generated for lookup, on Checkin t
 | $Credential.SudoCommand | The command to use for performing elevated commands on a Linux/Unix based system. | sudo |
 | $Credential.PasswordValueConnectorId | The vault connector GUID identifier for this credential. This has the same value as the $Options.Connector.Id |  |
 | $Credential.PasswordVaultInfo | A JSON string that contains vault specific options for this credential |  |
-| $Credential.PasswordVaultInfo | A JSON string that contains vault specific | { “safe”: “safename”, “folder”: “root” } |
+| $Credential.PasswordVaultInfo | A JSON string that contains vault specific | `{ “safe”: “safename”, “folder”: “root”` } |
 
 Your custom script block should return the $Credential object passed in, updated with any relevant information.

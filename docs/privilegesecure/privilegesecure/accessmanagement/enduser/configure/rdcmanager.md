@@ -14,7 +14,7 @@ To configure the remote connection client, use a connection string with the foll
 
 Connection String Format:
 
-<username>+<activity>+<resource>+<access policy>+<notes>
+`<username>+<activity>+<resource>+<access policy>+<notes>`
 
 Connection String Example:
 
@@ -38,7 +38,7 @@ Configuration parameters for PuTTY (SSH).
 
 Host Name Format:
 
-- <connection string>@<proxyhostname>
+- `<connection string>@<proxyhostname>`
 
 Host Name Example:
 
@@ -57,7 +57,7 @@ Configuration parameters for MobaXterm (SSH).
 
 Remote Host Format:
 
-- <connection string>@<proxyhostname>
+- `<connection string>@<proxyhostname>`
 
 Resource Host Example:
 
@@ -81,7 +81,7 @@ Configuration parameters for MobaXterm (RDP).
 
 Remote Host:
 
-- <proxyhostname>
+- `<proxyhostname>`
 
 Example:
 
@@ -89,7 +89,7 @@ sbpamhost
 
 Username:
 
-- <connection string>
+- `<connection string>`
 
 Example:
 
@@ -112,7 +112,7 @@ Configuration parameters for Microsoft Remote Desktop Connection (RDP).
 
 Computer:
 
-<proxyhostname>:<port>
+`<proxyhostname>:<port>`
 
 __Example:__
 
@@ -120,7 +120,7 @@ Sbpamhost:4489
 
 User Name Format:
 
-- <connection string>
+- `<connection string>`
 
 User Name Example:
 
@@ -137,7 +137,7 @@ Configure the Microsoft Remote Desktop Connection Manager (RDC Manager).
 
 Server name:
 
-<proxyhostname>:<port>
+`<proxyhostname>:<port>`
 
 Server name example:
 
@@ -145,7 +145,7 @@ Sbpamhost:4489
 
 User Name Format:
 
-\<connection string>
+`\<connection string>`
 
 __NOTE:__ The user name starts with _\_ (back slash).
 
