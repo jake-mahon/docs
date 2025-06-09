@@ -121,8 +121,9 @@ The finished message is shown after users successfully change their password. Th
 
 ### Change Font Sizes and Colors
 
-```ppeweb.css``` contains most of the user interface formatting information. You can easily change font sizes and colors by editing this file. You can even reposition and resize items, but you will need some understanding of CSS to do this. For example, this is the CSS for the validation error box:
+`ppeweb.css` contains most of the user interface formatting information. You can easily change font sizes and colors by editing this file. You can even reposition and resize items, but you will need some understanding of CSS to do this. For example, this is the CSS for the validation error box:
 
+```
 .error {
 
 background-color: #ffffd6;
@@ -140,6 +141,7 @@ padding: 6px 22px 6px 8px;
 width: 499px;
 
 }
+```
 
 Edit these properties to change the appearance of the error box. You may need to clear your web browser's cache to see the changes.
 
@@ -151,4 +153,4 @@ Password Policy Enforcer Web shows the Welcome page when users click OK or Cance
 
 To display a different page when users click OK or Cancel, search for ```en_default.htm``` in ```en_ppeweb.htm```, ```en_finished.htm```, and ```en_error.htm``` and replace ```en_default.htm``` with an alternative URL. For example:
 
-https://myserver/accounts/login.htm
+`https://myserver/accounts/login.htm`

@@ -10,10 +10,11 @@ PARAMETERS
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](/docs/password_policy_enforcer/administration/https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
+```
 PS C:\> Get-PPELicenseInfo
 
 ANIXIS Software License Certificate
@@ -28,7 +29,7 @@ Version: 11
 
 Users: 100
 
-`<ANIXIS_LICENSE>JrPQdyhsxWrLj7RsuX322Ni8vwIRr6ozC+sY3M16aJba
+<ANIXIS_LICENSE>JrPQdyhsxWrLj7RsuX322Ni8vwIRr6ozC+sY3M16aJba
 
 XuRXG6VjOjWUMT1XwqO4c3VA0eIB8+z4KyUNEzLjmSZKvtLsHb0kFYi1zRiL
 
@@ -50,4 +51,5 @@ tDF633YsQMH3Ttbyc+vAvIvbAHJOVhBpNd9TCybfas+j6uQL5fa4qo8dFrx+
 
 1hCMqyi+oVzxZtN8I3sIpAH3FLu+1N37CuHJFrXD97Iu6RjKi+11nG9BmZ2Q
 
-0SX5EYc=</ANIXIS_LICENSE>`
+0SX5EYc=</ANIXIS_LICENSE>
+```
