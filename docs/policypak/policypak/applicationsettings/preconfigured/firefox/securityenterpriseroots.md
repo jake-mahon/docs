@@ -22,6 +22,6 @@ Security.enterprise_roots.enabled
 Using the Firefox About:Config Pak J thru Z.  
 It is the last entry in the S: category
 
-![2017-08-16_0800_(1)](/img/product_docs/2017-08-16_0800_(1).png)
+![2017-08-16_0800_(1)](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/2017-08-16_0800_(1).png)
 
 Note that if you're looking for general advice in how to get started with Windows certificates and browsers support, you can [find that here](https://www.techrepublic.com/article/how-to-add-a-trusted-certificate-authority-certificate-to-chrome-and-firefox/).
