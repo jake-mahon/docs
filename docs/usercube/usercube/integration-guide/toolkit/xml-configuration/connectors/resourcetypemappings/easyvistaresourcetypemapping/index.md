@@ -4,7 +4,7 @@ Any resource type mapping must be configured with the same identifier as the rel
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EasyVistaResourceTypeMapping Identifier="Badge_User_NominativeUser" Connection="EasyVistaManual" TicketSynchroIsNotAvailable="true" RecipientId="EVEmployeeId" CatalogCode="42" UrgencyId="1" ImpactId="2" SeverityId="3" Title="C:/UsercubeDemo/Conf/EasyVista/TitleTemplate.txt" Description="C:/UsercubeDemo/Conf/EasyVista/DescriptionTemplate.txt" />

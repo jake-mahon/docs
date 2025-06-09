@@ -17,7 +17,7 @@ To further control access, roles can be related via required, inherited, or perm
 
 The following example declares a new composite role.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

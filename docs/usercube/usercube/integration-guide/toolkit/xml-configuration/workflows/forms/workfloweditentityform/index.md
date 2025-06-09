@@ -6,7 +6,7 @@ Displays a form to update or delete an existing resource, without a record.
 
 The following example is a form to request a computer.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

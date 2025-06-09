@@ -27,7 +27,7 @@ The important part of adding a secret in Azure Key Vault is defining its name an
 
 For example, for the Active Directory:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                         appsettings.agent.json  

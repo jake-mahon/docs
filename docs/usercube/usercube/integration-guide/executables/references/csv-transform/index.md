@@ -10,7 +10,7 @@ Consider the file ```C:/UsercubeContoso/Sources/hr_example.csv``` with the follo
 
 To avoid having too much duplicated information on each line in a CSV file, we need to define a primary key for the file which will allow the pooling of common information. We choose to concatenate the values of the columns ```Login``` and ```Company ``` with a ```-``` as separator in an ```Id``` column, which will be defined as key for our file.
 
-```--input-file C:/UsercubeContoso/Sources/hr_example.csv --columns-concat "Login Company - ID"``````--columns-key ID```
+```--input-file C:/UsercubeContoso/Sources/hr_example.csv --columns-concat "Login Company - ID"```--columns-key ID```
 
 ### Handle multi-valued columns in a generated file
 

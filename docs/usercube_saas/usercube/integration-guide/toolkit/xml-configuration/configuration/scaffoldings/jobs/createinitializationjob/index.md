@@ -4,7 +4,7 @@ Creates the Initialization Job for the given agent.
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <CreateInitializationJob DisplayName_L1="ZZ Administration/Initialization" OldAlgorithm="false"/>
@@ -83,7 +83,7 @@ The list of child elements includes the following:
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

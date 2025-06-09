@@ -145,12 +145,12 @@ For the connector to work properly, the connection tables must follow the naming
 > sys_id,active,name,user_name,email
 > ...
 >
-> ``````
+> ```
 > ServiceNowExportFulfillment_sys_group.csv
 > sys_id,name,description
 > ...
 >
-> ``````
+> ```
 > ServiceNowExportFulfillment_sys_user_grmember.csv
 > user,group
 > ...

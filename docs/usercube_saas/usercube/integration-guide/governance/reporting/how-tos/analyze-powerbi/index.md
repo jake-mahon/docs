@@ -61,7 +61,7 @@ Integrators may need to customize the model to make it more understandable and e
 
 For example, the following M query removes the column Company Id from the table Directory\_User\_Records, considering that we do not need it for future reports.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 let  

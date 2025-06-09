@@ -8,7 +8,7 @@ Locally
 
 The following example deploys an on-premise configuration via a direct connection to the database through its connection string:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Deploy-Configuration.exe -d "C:/Usercube/Conf" --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
@@ -18,7 +18,7 @@ Remotely
 
 The following example deploys a SaaS configuration via an HTTP POST request to the server of the remote configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Deploy-Configuration.exe -d "C:/Usercube/Conf" --api-url https://my_usercube_instance.com

@@ -6,7 +6,7 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <CreateConnectorSynchroComplete DisplayName_L1="10: Microsoft Entra ID (formerly Azure Active Directory) - Synchronization Complete (scaffolding)" Connector="MicrosoftEntraID" JobIdentifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding"/>
@@ -37,7 +37,7 @@ __NOTE:__ The old algorithm is no longer supported, so manual task addition is n
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ComputeRoleModelTask Dirty="1" DisplayName_L1="dfedf" Identifier="AddedTask">  
@@ -94,7 +94,7 @@ The property list for the AddTask is the following:
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Job Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding" DisplayName_L1="10: Microsoft Entra ID - Synchronization Complete (scaffolding)" Agent="Local">  

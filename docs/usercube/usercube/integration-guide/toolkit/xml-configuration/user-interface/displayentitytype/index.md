@@ -4,7 +4,7 @@ The ```<DisplayEntityType>``` element sets information about how an entity type 
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
     <DisplayEntityType PluralDisplayName_L1="Companies" IconCode="Suitcase" Identifier="Directory_Company">        <Property DisplayOrder="-1" IsRequired="true" Identifier="Identifier" />        <Property IsRequired="true" Identifier="DisplayName" />        <Property OutputType="BasicCollection" Identifier="UserRecords" NavigationBinding="Directory_UserRecord:User" />        <Property OutputType="BasicCollection" Identifier="Guests" />    </DisplayEntityType>
@@ -36,7 +36,7 @@ Example
 
 This example shows how to define priorities between the main Entity Types of the organizational model. The highest priority is assigned to ```Directory_User``` and the lowest priority to ```Directory_Application```. All other entity types are assigned an equally low priority, below ```Directory_Application```. In the dropdown they will be sorted by alphabetical order.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 dashboard.xml  
@@ -66,7 +66,7 @@ When workflows are defined to handle resources for these entity types, the follo
 
 The order in which Directory\_User and Directory\_Guest appear in the role review dropdown is configured like this:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 dashboard.xml  
@@ -76,7 +76,7 @@ dashboard.xml
 
 But the order in which "Workflow for Directory\_User" and "Workflow for Directory\_Guest" appear in the My Tasks screen is configured like this:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 dashboard.xml  

@@ -6,7 +6,7 @@ The rule contains filters to restrict its application, and entries to grant or d
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -48,7 +48,7 @@ An access control filter restricts the application of the access control rule to
 
 _Remember,_ the ViewHistory permission (/Custom/Resources/Entity\_Type/ViewHistory) does not work if a filter is added.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Profile="Manager" EntityType="Directory_User" Identifier="Administrator_LDAP_Entry_History__" DisplayName_L1="Administrator_LDAP_Entry_History_">  
@@ -69,7 +69,7 @@ Filter on a constant value
 
 The following example gives to the ```Administrator``` profile certain permissions on user data, but only concerning users working in the marketing department.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -86,7 +86,7 @@ Filter on the account of the current user
 
 The following example gives to the ```Manager``` profile certain permissions on user data, but only concerning users from the team managed by the current user.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -103,7 +103,7 @@ Filter on the context(s) of the assigned profile(s) of the current user
 
 The following example gives to the ```Manager``` profile certain permissions on user data, but only concerning users working in the same department as the current user.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -124,7 +124,7 @@ Thus, with the previous access control rule, Timothy Callahan will get certain p
 
 The following example gives to the ```RoleOfficerByCategory``` profile certain permissions on assigned single roles, but only concerning the roles of a category assigned to the current user.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -141,7 +141,7 @@ Multiple filters
 
 The following example gives to the ```RoleOfficerByCategory``` profile the permission to review the roles of users from ```Directory_User```, but only the roles of a category assigned to the current user, and whose assignment is stated as pending the first approval out of 1, 2 or 3.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Identifier="RoleOfficerByCategory_AssignedSingleRole_ReviewRoles_Directory_User_8" DisplayName_L1="Role Officer - Review Roles" EntityType="AssignedSingleRole" Profile="RoleOfficerByCategory">  

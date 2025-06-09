@@ -6,7 +6,7 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <CreateConnectorSynchroIncremental DisplayName_L1="10: Microsoft Entra ID (formerly Azure Active Directory) - Synchronization Incremental (scaffolding)" Connector="MicrosoftEntraID" JobIdentifier="MicrosoftEntraID_Synchronize_Incremental_Scaffolding"/>
@@ -76,7 +76,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Job Identifier="MicrosoftEntraID_Synchronize_Incremental_Scaffolding" DisplayName_L1="10: Microsoft Entra ID - Synchronization Incremental (scaffolding)" Agent="Local" IsIncremental="true">  

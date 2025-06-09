@@ -38,7 +38,7 @@ After this prioritization, when an assignment is still targeted by several rules
 
 In the following example, the two first rules are equivalent (except for the workflow state's value), but the second one shows the preferred syntax.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

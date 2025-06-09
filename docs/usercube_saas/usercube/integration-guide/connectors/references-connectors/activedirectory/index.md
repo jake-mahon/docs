@@ -57,7 +57,7 @@ The export is executed by a job from the UI, or via Identity Manager-Export-Acti
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the appsettings.agent.json > Connections section:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -80,7 +80,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 > The following example configures a connection to the Active Directory Domain Controller contoso.server.com using Basic Authentication with __BaseDN__, __Login__, __Password__ with EnableSSL for all entries ( "Filter": "(objectclass=\*)"):
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.agent.json  
@@ -127,13 +127,13 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate:
 
-- A file named <connectionIdentifier>\_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
+- A file named ```<connectionIdentifier>```\_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
 
   Any property can be exported in a specific format when specified. See the [
   References: Format for the EntityPropertyMapping
   ](/docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
 - An additional file for each related table other than entries;
-- A cookie file named <connectionIdentifier>\_cookie.bin, containing the time of the last export in order to perform incremental exports.
+- A cookie file named ```<connectionIdentifier>```\_cookie.bin, containing the time of the last export in order to perform incremental exports.
 
   __NOTE:__ Most exports can be run in complete mode, where the CSV files will contain all entries, or in incremental mode, where CSV files will contain only the entries which have been modified since the last synchronization.
     
@@ -143,7 +143,7 @@ The CSV files are stored in the ExportOutput folder, and the cookie file in the 
 
 For example, with the following configuration example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -153,7 +153,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 We would have ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv``` with a column for each scalar property. See the [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ADExport_entries.csv  
@@ -181,7 +181,7 @@ Each __BaseDN__ will generate a cookie file, but the entries from all __BaseDN__
 
 > The following example exports data from two sources: both on the same __Server__ (contoso.server.com), but on two different __BaseDN__s (DC=contoso,DC=com and DC=defense,DC=contoso,DC=com).
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.agent.json  
@@ -221,7 +221,7 @@ Same as for export, fulfill is configured through connections.
 
 > The following example connects to an AD LDS system located at contoso.server.com.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.agent.json  
@@ -271,7 +271,7 @@ Same as for export, this connector can fulfill resources to multiple forests tru
 
 The following example fulfills data to two targets: both on the same Server (contoso.server.com), but on two different BaseDNs (DC=contoso,DC=com and DC=defense,DC=contoso,DC=com).
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -307,7 +307,7 @@ If these attributes are not synchronized in Identity Manager, then they cannot b
 
 The following example adds the attribute description with a value depending on what is modified:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

@@ -28,7 +28,7 @@ Create a Provisioning Rule
 Create Roles in the Role Catalog
 ](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AssignedRolesAccessControlRules EntityType="Directory_User" Profile="Administrator" />

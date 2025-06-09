@@ -14,7 +14,7 @@ const PRODUCTS = {
   'passwordpolicyenforcer': false,
   'passwordreset': false,
   'passwordsecure': false,
-  'policypak': true,
+  'policypak': false,
   'privilegesecure': false,
   'recoveryforactivedirectory': false,
   'strongpointfornetsuite': false,
@@ -24,7 +24,7 @@ const PRODUCTS = {
   'threatmanager': false,
   'threatprevention': false,
   'usercube': false,
-  'usercube_saas': false,
+  'usercube_saas': true,
 };
 
 const productConfigs = {

@@ -24,7 +24,7 @@ ASE or HANA database with a service account, as a database administrator
 
 To connect to the SAP database using SSH, use the following commands:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 su sybaba  
@@ -33,7 +33,7 @@ isql -S <database (ABA is the default value)> -U<administrator's login> -P<admin
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 isql -S ABA -Usapsso -PV1H#M$4JIgU$qd -X
@@ -63,7 +63,7 @@ Create a login for Identity Manager's service account with at least reading acce
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 execute sp\_addlogin <login>, <password>, <database (ABA is the default value)>go
 use ABA
@@ -124,7 +124,7 @@ This process is configured through a connection in the UI and/or the XML configu
 Connection
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -148,7 +148,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -208,7 +208,7 @@ Same as for export, fulfill is configured through connections. See the [SAP ERP 
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -272,7 +272,7 @@ Protected attributes are stored inside a safe in CyberArk, into an account whose
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.cyberark.agent.json  

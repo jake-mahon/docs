@@ -2,7 +2,7 @@
 
 The following example assigns to the Administrator profile the rights to reconcile simultaneously several resources from the Directory\_User entity type.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <BulkResourceReconciliationAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
@@ -25,7 +25,7 @@ The scaffolding generates the following scaffoldings:
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Identifier="BulkResourceReconciliationAccessControlRules_AssignedResourceType_Administrator_Directory_User" DisplayName_L1="Bulk reconciliate resources AssignedResourceBinary User" EntityType="AssignedResourceType" Profile="Administrator">  <Entry CanExecute="true" Permission="/Custom/ProvisioningPolicy/MassReconciliateResources/Directory_User" /></AccessControlRule><ReconciliateResourcesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>

@@ -6,7 +6,7 @@ This tool exports the database to a bacpac file, as a backup.
 
 The following example generates to <C:/UsercubeDemo> a bacpac file from the Identity Manager database with the given connection string and based on the bacpac template from the SQL folder.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Export-Bacpac.exe --database "<Usercube>" -s "<data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;>" --bacpac-path 0 --template-bacpac-path "<C:/UsercubeDemo/SQL>"  
@@ -21,7 +21,7 @@ The list of arguments:
 | --- | --- | --- |
 | --database-connection-string (-s)   required | String | Connection string of the database. |
 | --database   required | String | Name of the database. |
-| --template-bacpac-path   required | String | Path of the empty bacpac file or dacpac file containing the database schema.  The database export tool includes a .dacpac file, <Usercube.SqlServer.dacpac>, in the Runtime folder and should be used as the value for this parameter. It can be generated manually by exporting an empty Identity Manager database. |
+| --template-bacpac-path   required | String | Path of the empty bacpac file or dacpac file containing the database schema.  The database export tool includes a .dacpac file, ```<Usercube.SqlServer.dacpac>```, in the Runtime folder and should be used as the value for this parameter. It can be generated manually by exporting an empty Identity Manager database. |
 | --temp-bacpac-path   optional | String | Path of the temporary folder storing the database's data. |
 | --bacpac-path   required | String | Path of the generated bacpac file. |
 | --without-history   default value: false | Boolean | True to exclude history data. |

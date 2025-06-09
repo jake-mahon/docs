@@ -27,7 +27,7 @@ The important part of adding a secret in Azure Key Vault is defining its name an
 
 For example, for the Active Directory:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                         appsettings.agent.json  
@@ -57,9 +57,9 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
                     
 ```
 
-To save the login to Azure Key Vault, create a secret whose name and value are respectively <Connections--ADExport--Login> and <login123>.
+To save the login to Azure Key Vault, create a secret whose name and value are respectively ```<Connections--ADExport--Login>``` and ```<login123>```.
 
-To save the second server, create a secret whose name and value are respectively <Connections--ADExport--Servers--1--Server> and <marseille.contoso.com>.
+To save the second server, create a secret whose name and value are respectively ```<Connections--ADExport--Servers--1--Server>``` and ```<marseille.contoso.com>```.
 
 _Remember,_  the index of the first element is <0>.
 

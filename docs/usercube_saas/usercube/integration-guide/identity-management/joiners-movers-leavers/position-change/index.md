@@ -84,7 +84,7 @@ The complexity that comes from the combination of all start and end dates is tac
 >
 > C#:record:return record.FirstName + ' ' + record.LastName;
 >
-> ``````
+> ```
 >
 > C#:record:return record.Organization.DisplayName + " (" + record.EmployeeId + ")";
 >
@@ -122,7 +122,7 @@ Record Section
 
 ```
 
-<ContextRule Identifier="Directory_User" DisplayName_L1="Directory_User" Policy="Default" SourceEntityType="Directory_User" ResourcesBinding="Records" ResourcesStartExpression="C#:record:return record.StartDate ?? record.PositionStartDate ?? record.ContractStartDate;" ResourcesEndExpression="C#:record:return record.EndDate ?? record.PositionEndDate ?? record.ContractEndDate;" ExcludeExpression="C#:record:return record.IsDraft.GetValueOrDefault();" RiskFactorType="Max"
+```<ContextRule Identifier="Directory_User" DisplayName_L1="Directory_User" Policy="Default" SourceEntityType="Directory_User" ResourcesBinding="Records" ResourcesStartExpression="C#:record:return record.StartDate ?? record.PositionStartDate ?? record.ContractStartDate;" ResourcesEndExpression="C#:record:return record.EndDate ?? record.PositionEndDate ?? record.ContractEndDate;" ExcludeExpression="C#:record:return record.IsDraft.GetValueOrDefault();" RiskFactorType="Max"
     B0="Directory_UserRecord:Organization"
     B1="Directory_UserRecord:Title"
     B2="Directory_UserRecord:Site"
@@ -131,16 +131,16 @@ Record Section
     B5="Directory_UserRecord:Organization.Type"
     B6="Directory_UserRecord:Subsidiary"
     B7="Directory_UserRecord:ExternalCompany"
-/>
+/>```
 
 Personal data section (default section):
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="User Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate" InstanceKeyExpression="C#:record:return record.StartDate.HasValue ? record.StartDate.Value.ToString("yyyyMMdd") : string.Empty;"></RecordSection>
 
 Contract section:
-<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true" InstanceKeyExpression="C#:record:return record.ContractIdentifier;">  <Property Property="UserType"/>  <Property Property="ExternalCompany"/>  <Property Property="Subsidiary"/></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true" InstanceKeyExpression="C#:record:return record.ContractIdentifier;">  ```<Property Property="UserType"/>```  ```<Property Property="ExternalCompany"/>```  ```<Property Property="Subsidiary"/>```</RecordSection>
 
 Position section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  <Property Property="PositionIdentifier" />  <Property Property="JobTitle" />  <Property Property="OfficeNumber" />  <Property Property="Organization" />  <Property Property="Site"/>  <Property Property="Title" />  <Property Property="Office" />  <Property Property="Manager" />  <Property Property="IGAManager" />  <Property Property="EffectiveIGAManager" />  <Property Property="IsMainPosition" /></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  ```<Property Property="PositionIdentifier" />```  ```<Property Property="JobTitle" />```  ```<Property Property="OfficeNumber" />```  ```<Property Property="Organization" />```  ```<Property Property="Site"/>```  ```<Property Property="Title" />```  ```<Property Property="Office" />```  ```<Property Property="Manager" />```  ```<Property Property="IGAManager" />```  ```<Property Property="EffectiveIGAManager" />```  ```<Property Property="IsMainPosition" />```</RecordSection>
 
 ```
 

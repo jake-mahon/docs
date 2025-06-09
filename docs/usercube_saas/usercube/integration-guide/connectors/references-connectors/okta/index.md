@@ -41,7 +41,7 @@ This connector exports a list of users, groups, applications with their attribut
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the appsettings.agent.json > Connections section.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -65,7 +65,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -92,15 +92,15 @@ appsettings.agent.json
 
 This connector can create, delete and update users, groups and applications, and is meant to generate the following to the ExportOutput folder :
 
-- A CSV file, named <connectionIdentifier>\_users.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named <connectionIdentifier>\_groups.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named <connectionIdentifier>\_apps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named <connectionIdentifier>\_groupsapps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named <connectionIdentifier>\_groupsusers.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named ```<connectionIdentifier>```\_users.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named ```<connectionIdentifier>```\_groups.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named ```<connectionIdentifier>```\_apps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named ```<connectionIdentifier>```\_groupsapps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named ```<connectionIdentifier>```\_groupsusers.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
 
 For example, with the following entity type mapping for users:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityType Identifier="User" DisplayName_L1="User">  
@@ -137,7 +137,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 And the following entity type mapping for groups:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   <EntityType Identifier="Group" DisplayName_L1="Group">  
@@ -165,7 +165,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 And the following entity type mapping for applications:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  <EntityType Identifier="Application" DisplayName_L1="Application">  
@@ -216,7 +216,7 @@ Same as for export, fulfill is configured through connections.
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  

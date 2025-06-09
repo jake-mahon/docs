@@ -6,7 +6,7 @@ Displays a form to define the end date of an existing record, and replace it wit
 
 The following example is a form to update a position.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

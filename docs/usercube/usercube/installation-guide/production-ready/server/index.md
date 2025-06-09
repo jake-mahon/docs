@@ -206,7 +206,7 @@ The key pairs can be generated with tools such as [OpenSSL](https://www.openssl.
 
 Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive (```UsercubeContoso.pfx```) bundling a public key certificate (```usercubecontoso.cert```) and an RSA-2048 private key (```usercubecontoso.key```) with OpenSSL, with a 50-year expiration date:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 1.  
@@ -248,7 +248,7 @@ Storing a ```.pfx``` file password in plain text in a production environment is 
 Usercube-Protect-CertificatePassword
 ](/docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -266,7 +266,7 @@ appsettings.json
 
 The certificate can be stored in the certificate store instead of the file system. This is the recommended method.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -306,7 +306,7 @@ The service account used by the Server to access the Database is either:
 - A Windows account if the connection string was set up using ```Integrated Security=SSPI```.
 - A SQL Server account if the connection string was set up with a login/password.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -321,7 +321,7 @@ appsettings.json
 
 The second example sets a connection string using the SQL Server authentication. ```CONTOSO/UsercubeContosoServer``` has been set as the Identity Manager Server IIS website identity.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -368,7 +368,7 @@ You need to:
 - Modify the __applicationHost.config__ file to set the __startMode__ of the application pool as __AlwaysRunning__. You also need to set the preloadEnabled of your application set to true. It is advised to backup the __applicationHost.config__ file when doing this step to prevent mistakes.
 - Double check that the following section is set in your web.config file, in the section system.webServer:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <applicationInitialization doAppInitAfterRestart="true">  <add initializationPage="/"></applicationInitialization>  

@@ -60,7 +60,7 @@ See the [
 Connect to a Managed System
 ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md) topic to learn how to build a connector via the UI, with its connections, entity types and mappings.
 
-When exporting the configuration, a <connectorName> connector should be found in the ```Conf/<connectorName>/<connectorName> Connector.xml``` file.
+When exporting the configuration, a ```<connectorName>``` connector should be found in the ```Conf/<connectorName>/<connectorName> Connector.xml``` file.
 
 All XML files must start with the ```<?xml>``` and ```<ConfigurationFile>``` elements.
 

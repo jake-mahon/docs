@@ -51,7 +51,7 @@ Create Administrator Profile
 
 If you are not using the AccessReviewAdministrationAccessControlRules scaffolding, the user cannot query on dimensions when editing the owner filters, so you need to give the permissions on the correct contexts:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Profile="Administrator" EntityType="Dimension0" Identifier="Administrator_AccessCertificationCampaign_Dimension0" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Create" />  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Update" /></AccessControlRule>
@@ -69,7 +69,7 @@ The option to display only the __Approve__ or __Deny__ buttons next to the Acces
 
 This example shows how to set the scope of responsibility for the __Manager__ profile.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"  
@@ -100,7 +100,7 @@ For a profile to be the target of an automatic assignment of an access certifica
 
 This example completes the previous one by adding the automatic assignment capabilities.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule      Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"  
@@ -119,7 +119,7 @@ The target profiles need the following ```/Custom/AccessCertification/ManualAssi
 
 The example below allows the __Manager__ profile to be the target of forwarded assignments.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager">    <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" />  </AccessControlRule>
@@ -139,7 +139,7 @@ Assigning an access certification campaign policy to an access certification cam
 
 The following example creates a new policy named Manager.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessCertificationCampaignPolicy Id="-2" Identifier="Manager" DisplayName_L1="Manager" DisplayName_L2="Responsable"/>
@@ -153,7 +153,7 @@ To use it, modify the access control rules by adding a filter on the campaign po
 
 ##### Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule  
@@ -173,7 +173,7 @@ Once entitlement assignments have been reviewed (accepted or rejected), the fina
 
 The user needs to have the correct permission to launch the item processing:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>

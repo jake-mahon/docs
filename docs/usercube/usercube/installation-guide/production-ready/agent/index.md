@@ -38,7 +38,7 @@ The information needed to go through the creation process are the following:
 
   __Step 2 –__ Change the arguments and stdoutLogFile attributes of the <aspNet> element as indicated below:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <aspNetCore processPath="<dotnet>" arguments="<./Usercube-Agent.dll>" stdoutLogEnabled="<false>" stdoutLogFile="<../Temp/stdout-agent.log>" hostingModel="<inprocess>">
@@ -202,7 +202,7 @@ In the appsettings.agent.json file, the __OpenId__ > __AgentIdentifier__ can be 
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -228,7 +228,7 @@ The integration team should communicate the list of the managed systems to be co
 
 Here is an example of appsettings.agent.json connecting an agent to an Active Directory and an SAP server.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -300,7 +300,7 @@ Storing a ```.pfx``` file password in plain text in a production environment is 
 Usercube-Protect-CertificatePassword
 ](/docs/usercube/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -318,7 +318,7 @@ appsettings.agent.json
 
 The certificate can be stored in the certificate store instead of the file system. This is the recommended method.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -349,7 +349,7 @@ OpenIdClient
 
 The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier <Job> and the password <secret>, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -371,7 +371,7 @@ Installing Identity Manager's agent as a Windows service instead of an IIS websi
 
 To install Identity Manager's agent as a service in Windows server, use the following command:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 sc.exe create Usercube binpath= "<Usercube-Agent.exe --service>" displayname= "<Usercube Agent>" start= auto obj= "<DOMAIN\USER>" password= "<PASSWORD>"
@@ -393,7 +393,7 @@ __Step 2 –__ Modify the applicationHost.config file to set the startMode of th
 
 __Step 3 –__ Double check that the following section is set in your web.config file, in the section system.webServer:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <applicationInitialization doAppInitAfterRestart="<true>">    

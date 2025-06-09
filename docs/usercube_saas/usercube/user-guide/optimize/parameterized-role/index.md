@@ -38,7 +38,7 @@ Dimension
 
 For example, let's consider that we have many roles available on three different time slots: 8 hours a day, 12 hours a day, or 24 hours a day. We create a dimension for these time slots.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Dimension Identifier="TimeSlot" DisplayName_L1="Time Slot" EntityType="Access_TimeSlot" ColumnMapping="10" IsExcludedFromRoleMining="true" />
@@ -69,7 +69,7 @@ If you want Identity Manager to provide suggestions to set the parameter's value
 
 For example, with the ```Title``` dimension:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

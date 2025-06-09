@@ -15,7 +15,7 @@ The following example sets:
 - The favicon to be displayed on the tabs;
 - The __banner color__, __banner gradient color__, __banner selected tab color__, __banner text color__, __primary color__ and __secondary color__.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AppDisplaySetting ApplicationName="Netwrix Usercube" LogoFile="logo.png" FaviconFile="favicon.ico" BannerColor="#512E5F" BannerGradientColor="#76D7C4" BannerSelectedTabColor="#E74C3C" BannerTextColor="#F1C40F" PrimaryColor="#0E6655" SecondaryColor="#85C1E9" />
@@ -35,7 +35,7 @@ The following example disables the counters that are usually visible on the dash
 
 ![AppDisplay - Without Counters](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.png)
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AppDisplaySetting DisableProvisioningCounters="true" />
@@ -51,7 +51,7 @@ The feature __Only allow approving and refusing on access certifications items__
 
 The following example disables the __More__ button that is usually visible on certification screen:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AccessCertificationOnlyApproveDeny="true"/> 

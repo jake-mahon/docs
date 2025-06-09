@@ -285,7 +285,7 @@ Export logs to a log management system by proceeding as follows:
    > ```
    >
    > You could want to filter out the logs whose event ids are 500 too, by replacing ```EventId.Id >= 500``` with ```EventId.Id >= 501``` in the filter.
-   > Or you could want to filter out only the logs whose event ids are 502, by replacing ```EventId.Id >= 500``` with ```EventId.Id >= 500 and EventId.Id <> 502``` in the filter.
+   > Or you could want to filter out only the logs whose event ids are 502, by replacing ```EventId.Id >= 500``` with ```EventId.Id >= 500 and EventId.Id `<>` 502``` in the filter.
 6. When needing to override the log level for this particular sub-logger, add an additional __MinimalLevel__ section in the __WriteTo__ section.
 
    > ```

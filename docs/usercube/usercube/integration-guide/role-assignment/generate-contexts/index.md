@@ -82,7 +82,7 @@ With the given configuration and the identity of ```Mark Barn```, the following 
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for the [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
-Any rules targeting identities with a ```fulltime``````Category``` will be assigned to ```Mark Barn``` from ```Cs``` to ```Ce```.
+Any rules targeting identities with a ```fulltime```Category``` will be assigned to ```Mark Barn``` from ```Cs``` to ```Ce```.
 
 Any rules targeting identities working in ```London``` will be assigned to ```Mark Barn``` from ```S1``` to ```E2```.
 

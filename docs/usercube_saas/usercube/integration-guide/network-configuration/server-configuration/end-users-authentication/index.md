@@ -59,7 +59,7 @@ The archive is set using the following attributes on the appsettings > IdentityS
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   "<IdentityServer>": {  
@@ -82,7 +82,7 @@ The certificate from a Windows certificate store is set up using these attribute
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<IdentityServer>": {  
@@ -116,7 +116,7 @@ Authentication is set up using the following two sections of the Server's appset
 
 The authentication section mostly fits the following pattern:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -142,7 +142,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 ```
 
-Several authentication providers can be defined (here above, <Authentication Provider 1> to <Authentication Provider n>), using one or several authentication protocols (here above, <Authentication Protocol 1> and <Authentication Protocol 2>).
+Several authentication providers can be defined (here above, ```<Authentication Provider 1>``` to ```<Authentication Provider n>```), using one or several authentication protocols (here above, ```<Authentication Protocol 1>``` and ```<Authentication Protocol 2>```).
 
 Most of the authentication providers need the user to choose an AuthenticationScheme. It is a string that will be used to uniquely identify this authentication method in Identity Manager. Its goal is to enable Identity Manager's testers to identify which authentication method is used in the logs or in the code, with a mnemonic name. Any name can be used as long as all AuthenticationSchemes are different.
 
@@ -233,7 +233,7 @@ Integrated Windows Authentication is configured using the following sections:
 
 > The following example sets up Windows Authentication. Windows Server and IIS requirements have been checked.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.json  
@@ -286,7 +286,7 @@ __NOTE:__ Users should be able to get a list of the claim names used by their au
 
 For example, the following claim provides no meaningful ```sub``` value.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -299,7 +299,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Using the following applicative configuration setting that sets ```Ad_Entry:userPrincipalName``` as the value to be matched against a claim in order to identify a user's profile, the ```preferred_username``` NameClaimType should be used.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  <SelectUserByIdentityQueryHandlerSetting   
@@ -346,7 +346,7 @@ Within Identity Manager, it will be identified with the authentication scheme Az
 
 It will be displayed as Connection Microsoft Entra ID with OIDC protocol in the UI external login prompt.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -388,7 +388,7 @@ The target OAuth provider needs to be aware of the URI where to send the authent
 
 During the registration process, the provider will ask for the URL.
 
-Identity Manager's callback URL for OAuth is <usercube-server-address>/<callback-path> where <usercube-server-address> is the address of your Identity Manager Server such as https://usercube.contoso.com and <callback-path> can be set up to any value chosen by the user using the CallbackPath configuration attribute. The only constraint is to make sure the CallbackPath value in Identity Manager's configuration is the same as in the OAuth provider registration screen for Identity Manager.
+Identity Manager's callback URL for OAuth is ```<usercube-server-address>```/```<callback-path>``` where ```<usercube-server-address>``` is the address of your Identity Manager Server such as https://usercube.contoso.com and ```<callback-path>``` can be set up to any value chosen by the user using the CallbackPath configuration attribute. The only constraint is to make sure the CallbackPath value in Identity Manager's configuration is the same as in the OAuth provider registration screen for Identity Manager.
 
 ### Configuration
 
@@ -425,7 +425,7 @@ Identity Manager Server marks received claims using [https://accounts.google.com
 
 /signin-oauth has been chosen as CallbackPath and set up as such in the OAuth provider's portal during Identity Manager's registration.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -472,7 +472,7 @@ The target WS-Federation provider needs to be aware of the URI where to send the
 
 During the registration process, the provider will ask for the URL.
 
-Identity Manager's callback URL for WS-Federation is <Identity Manager-server-address>/signin-wsfed where <usercube-server-address> is the address of your Identity Manager Server such as https://usercube.contoso.com.
+Identity Manager's callback URL for WS-Federation is ```<Identity Manager-server-address>```/signin-wsfed where ```<usercube-server-address>``` is the address of your Identity Manager Server such as https://usercube.contoso.com.
 
 Encryption algorithm
 
@@ -492,7 +492,7 @@ Each section is configured with the following settings:
 
 | Name | Description |
 | --- | --- |
-| MetadataAddress   required | Identifies, for Identity Manager, the target __WS-Federation__ server's metadata. This information is to be retrieved from the app registration process or directly from the __WS-Federation__ provider. The value commonly ends with the path ```/```FederationMetadata/2007-06/FederationMetadata.xml.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services), it is https://<ADFS\_SERVER>/federationmetadata/2007-06/federationmetadata.xml with <ADFS\_SERVER> the name of your ADFS server such portal.contoso.com. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id), it is also known as __Federation Metadata Document__. It is available in Identity Manager's registered app _blade_, in the _endpoint_ panel, _Federation Metadata Document_ value. It looks like https://bbd35166-7c13-49f3-8041-9551f2847b69/FederationMetadata/2007-06/FederationMetadata.xml with bbd35166-7c13-49f3-8041-9551f2847b69 Microsoft Entra ID tenant id. |
+| MetadataAddress   required | Identifies, for Identity Manager, the target __WS-Federation__ server's metadata. This information is to be retrieved from the app registration process or directly from the __WS-Federation__ provider. The value commonly ends with the path ```/```FederationMetadata/2007-06/FederationMetadata.xml.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services), it is https://```<ADFS\_SERVER>```/federationmetadata/2007-06/federationmetadata.xml with ```<ADFS\_SERVER>``` the name of your ADFS server such portal.contoso.com. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id), it is also known as __Federation Metadata Document__. It is available in Identity Manager's registered app _blade_, in the _endpoint_ panel, _Federation Metadata Document_ value. It looks like https://bbd35166-7c13-49f3-8041-9551f2847b69/FederationMetadata/2007-06/FederationMetadata.xml with bbd35166-7c13-49f3-8041-9551f2847b69 Microsoft Entra ID tenant id. |
 | Wtrealm   required | Identifies the Identity Manager app within the __WS-Federation__ provider. This information is available directly at the authentication provider's portal. It is chosen during the registration process.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services), it is the value set as the relying party WS-Federation Passive protocol URL parameter during the [registration](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#registration) of Identity Manager to the ADFS server. It usually looks like an URL such as https://portal.contoso.com. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id), this is the Application ID URI. It is available from Identity Manager's registered app blade > Expose an API > APP ID URI. It has been either chosen by the user or generated by the [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id) provider during the Expose an API > set > save step of the registration. Generated values look like api://bbd35166-7c13-49f3-8041-9551f2847b69. |
 | DisplayName   optional | Is the provider display name. Chosen by the user, it is used in the UI to identify the authentication method. |
 | AuthenticationScheme   required | Is the unique identifier of this authentication method within Identity Manager. Any string value can be used, unique among all authentication methods. |
@@ -505,7 +505,7 @@ Within Identity Manager, it will be identified with the authentication scheme Ws
 
 It will be displayed as _Connection Microsoft Entra ID with WS-Federation protocol_ in the UI external login prompt.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -545,7 +545,7 @@ The target __SAML2__ provider needs to be aware of the URI where to send the aut
 
 During the registration process, the provider will ask for the URL.
 
-Identity Manager's __Reply URL__ for __SAML2__ is <usercube-server-address>/Saml2/Acs where <usercube-server-address> is the address of your Identity Manager Server such as https://usercube.contoso.com.
+Identity Manager's __Reply URL__ for __SAML2__ is ```<usercube-server-address>```/Saml2/Acs where ```<usercube-server-address>``` is the address of your Identity Manager Server such as https://usercube.contoso.com.
 
 Make sure to enter this exact URL which is treated case sensitively.
 
@@ -574,7 +574,7 @@ Each section is configured with the following settings:
 >
 > It will be displayed as Connection Azure ActiveDirectory with SAML2 protocol in the UI external login prompt.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > {  
@@ -616,7 +616,7 @@ _Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKe
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -650,7 +650,7 @@ The archive is set using the following attributes:
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  {  
@@ -678,7 +678,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
 _Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and EncryptionCertificate are defined at the same level in the configuration file.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -709,7 +709,7 @@ Various XML Settings
 
 First, the AllowLocalLogin parameter needs to be set to true in the Authentication section.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -729,7 +729,7 @@ It is configured under the Authentication > ActiveDirectoryUserStore section.
 
 First, the ActiveDirectoryUserStore must be enabled.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -749,7 +749,7 @@ In the same section, several authentication providers can be defined, each one b
 
 For each forest, a new section is added under ActiveDirectoryUserStore. Any name may be chosen for the forest section as long as it is unique. Two forest sections can't be identical though.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<ActiveDirectoryUserStore>": {  
@@ -766,7 +766,7 @@ Under the new forest section, the following parameters are used to configure the
 
 > The following example sets a single authentication method, based on the Forest1 forest. The domain controller is located at 127.168.0.1. If the user enters the login MyLogin, the resulting logon will be CONTOSO\paris\MyLogin. The Postfix won't be used as a Prefix is already provided.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -783,7 +783,7 @@ Under the new forest section, the following parameters are used to configure the
 >
 > In the following example, if the user enters the login MyLogin, the resulting logon will be MyLogin@Identity Manager.contoso.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -798,7 +798,7 @@ Under the new forest section, the following parameters are used to configure the
 >
 > The following example enables authentication via the Active Directory User Store, for the Forest1 forest,by checking not only the password and account activation, but also whether the password is expired.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -839,7 +839,7 @@ The following parameters are available under the authentication > TestUserStore 
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  

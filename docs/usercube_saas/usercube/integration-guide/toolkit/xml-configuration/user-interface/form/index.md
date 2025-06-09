@@ -6,7 +6,7 @@ A form contains a set of input fields (called controls) to be filled by a user, 
 
 The following example shows a form called ```Directory_UserRecord_View``` that involves resources from the entity type ```Directory_UserRecord``` to collect personal data and contract information via some structured fields to fill.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Form Identifier="Directory_UserRecord_View" EntityType="Directory_UserRecord">  
@@ -113,7 +113,7 @@ A form control is an input field to be filled by a user. Controls can be inserte
 The following example shows a form called ```Directory_UserRecord_View``` that collects first personal data via some controls, and then calls another form ```Workflow_Directory_User_AddRecord_Base``` to collect record information.
 In this example is a tree control which defines the relationships between a worker and their managers (N+1 to N+3). The aim is to display in the form (in the UI) the organization chart made of the worker and their managers.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Form Identifier="Directory_UserRecord_View" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">        <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">            <Control Binding="LastName" />            <Control Binding="FirstName" />        </Control>        <Control Binding="Mail" ColumnSize="8" />    </Control>    <Control DisplayName_L1="Contract" OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_AddRecord_Base" />    </Control>  
