@@ -6,7 +6,7 @@ Displays a form to create, update or delete one or several records.
 
 The following example is a form to create, update and/or delete one or several positions for a given user.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

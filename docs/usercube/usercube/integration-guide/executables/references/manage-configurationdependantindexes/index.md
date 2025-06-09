@@ -14,7 +14,7 @@ This tool creates the necessary SQL indexes based on the latest deployed configu
 
 ./Usercube-Manage-ConfigurationDependantIndexes.exe -e "Directory_User" -r "Directory_UserRecord" "Directory_Guest" -dc -s  "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;" -a
 
-``````
+```
 
 ./Usercube-Manage-ConfigurationDependantIndexes.exe -auto -dc -s  "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;" -a
 

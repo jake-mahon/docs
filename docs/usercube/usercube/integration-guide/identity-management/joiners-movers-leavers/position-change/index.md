@@ -84,7 +84,7 @@ The complexity that comes from the combination of all start and end dates is tac
 >
 > C#:record:return record.FirstName + ' ' + record.LastName;
 >
-> ``````
+> ```
 >
 > C#:record:return record.Organization.DisplayName + " (" + record.EmployeeId + ")";
 >

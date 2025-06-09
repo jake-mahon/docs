@@ -6,7 +6,7 @@ Checks whether the value of a given property satisfies a given condition.
 
 The following example makes sure that, when creating a new employee, the contract end date is after the contract start date. The pointcuts define when the value assertion must happen.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AssertValueAspect Identifier="Directory_User_NewInternal_CheckDates" Binding="Workflow_Directory_User:Directory_User.Records.ContractEndDate" ExpressionBinding="Workflow_Directory_User:Directory_User.Records" Expression="C#:record: return ( ((Nullable&lt;DateTime&gt;) record.ContractStartDate).HasValue && ((Nullable&lt;DateTime&gt;) record.ContractEndDate).HasValue) ?  record.ContractStartDate &lt; record.ContractEndDate : true;" Message_L1="Contract's end date must be after contract's start date.">    <PointCut Activity="Directory_User_NewInternal:Request" ActivityState="ActionWithRefine-Executed" Mode="Before" />    <PointCut Activity="Directory_User_NewInternal:Review" ActivityState="ReviewWithFeedback-Approved" Mode="Before" /></AssertValueAspect>
@@ -16,13 +16,13 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 When asserting a multi-valued object, said object must not be called through a binding that goes back and forth between entities.
   
-For example, to manage records, using the ExpressionBinding set to <Workflow\_Directory\_User:Directory\_User>. Records and the Expression using C#:record:return record.Directory\_User.Records... will not work.
+For example, to manage records, using the ExpressionBinding set to ```<Workflow\_Directory\_User:Directory\_User>```. Records and the Expression using C#:record:return record.Directory\_User.Records... will not work.
   
-Instead, the ExpressionBinding should be set to <Workflow\_Directory\_User:Directory\_User> and the Expression should use C#:user:return user.Records.
+Instead, the ExpressionBinding should be set to ```<Workflow\_Directory\_User:Directory\_User>``` and the Expression should use C#:user:return user.Records.
 
 The following example makes sure that a user's positions do not overlap.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AssertValueAspect Identifier="RecordsOverlapCheck" Binding="Workflow_Directory_User:Directory_User.Records.Organization" ExpressionBinding="Workflow_Directory_User:Directory_User" Expression="C#:user:for (int i = 0; i &lt; user.Records.Count; i++)  

@@ -26,7 +26,7 @@ Generate Reports
 
 __NOTE:__  Some accounts are considered orphaned because of an error in the account data or assignment rule.  
 For an entity that is never the target of a resource type, the concept of an orphan does not apply because the __Owner / Resource Type__ column will be hidden.   
-When using a display table to display these entities, use DisplayTableDesignElement```({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"```` or ````"adaptable"````.
+When using a display table to display these entities, use DisplayTableDesignElement```({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"``` or ```"adaptable"```.
 
 ### Unused accounts list
 
@@ -36,7 +36,7 @@ For example in the AD, we can compute a Boolean property __isUnused__ based on o
 
 Here we write an expression for isUnused based on the bits of userAccountControl, the value of __accountExpires__ and the value of LastLogonTimeStamp:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityPropertyExpression Identifier="AD_Entry_isUnused"Expression="C#:resource:  

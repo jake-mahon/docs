@@ -14,7 +14,7 @@ Roles can be requested manually, or they can be configured to be assigned automa
 
 The following example declares a new single role in the default policy; in the category ```Internet```; for resources from ```Directory_User``` with one approval needed.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 [Copy](javascript:void(0);)
 
@@ -35,7 +35,7 @@ Dimension
 Base32 Parameter Names
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/parameter-names/index.md)) is created for time slots, the following example creates a single role ```Access/A_Brune_HR``` for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 [Copy](javascript:void(0);)
 

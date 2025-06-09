@@ -13,7 +13,7 @@ const PRODUCTS = {
   'groupid': false,
   'passwordpolicyenforcer': false,
   'passwordreset': false,
-  'passwordsecure': true,
+  'passwordsecure': false,
   'policypak': false,
   'privilegesecure': false,
   'recoveryforactivedirectory': false,
@@ -24,7 +24,7 @@ const PRODUCTS = {
   'threatmanager': false,
   'threatprevention': false,
   'usercube': false,
-  'usercube_saas': false,
+  'usercube_saas': true,
 };
 
 const productConfigs = {

@@ -24,7 +24,7 @@ Jobs
 
 For example, the creation from scratch of a job to perform a complete synchronization for a connector will be tedious. Instead, use Identity Manager's scaffolding, like in the following example concerning the Microsoft Entra ID (formerly Microsoft Azure AD) connector. Instead of a few dozens of lines, write only the following:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                         
@@ -44,7 +44,7 @@ Make sure to configure the tasks so that they are executed only on the relevant 
 
 For example, instead of using AllEntityType set to true, write the following:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                           
@@ -64,7 +64,7 @@ Configure an Incremental Job
 
 For example, instead of computing the role model as if it had never been computed before, apply only the changes by writing the following:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                           
@@ -90,7 +90,7 @@ For example, Identity Manager's feedback loop uses the tasks for synchronization
 
 Instead of including any task twice, rather write a job with each task once, schedule a periodic execution of the job, and wait for the next execution to get the whole cycle. For example for the AD:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
                        

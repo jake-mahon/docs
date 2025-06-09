@@ -59,7 +59,7 @@ The archive is set using the following attributes on the appsettings > IdentityS
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   "<IdentityServer>": {  
@@ -82,7 +82,7 @@ The certificate from a Windows certificate store is set up using these attribute
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<IdentityServer>": {  
@@ -116,7 +116,7 @@ Authentication is set up using the following two sections of the Server's appset
 
 The authentication section mostly fits the following pattern:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -229,7 +229,7 @@ Integrated Windows Authentication is configured using the following sections:
 
 > The following example sets up Windows Authentication. Windows Server and IIS requirements have been checked.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.json  
@@ -282,7 +282,7 @@ __NOTE:__ Users should be able to get a list of the claim names used by their au
 
 For example, the following claim provides no meaningful ```sub``` value.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -295,7 +295,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Using the following applicative configuration setting that sets ```Ad_Entry:userPrincipalName``` as the value to be matched against a claim in order to identify a user's profile, the ```preferred_username``` NameClaimType should be used.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  <SelectUserByIdentityQueryHandlerSetting   
@@ -342,7 +342,7 @@ Within Identity Manager, it will be identified with the authentication scheme Az
 
 It will be displayed as Connection Microsoft Entra ID with OIDC protocol in the UI external login prompt.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -421,7 +421,7 @@ Identity Manager Server marks received claims using [https://accounts.google.com
 
 /signin-oauth has been chosen as CallbackPath and set up as such in the OAuth provider's portal during Identity Manager's registration.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -501,7 +501,7 @@ Within Identity Manager, it will be identified with the authentication scheme Ws
 
 It will be displayed as _Connection Microsoft Entra ID with WS-Federation protocol_ in the UI external login prompt.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -570,7 +570,7 @@ Each section is configured with the following settings:
 >
 > It will be displayed as Connection Azure ActiveDirectory with SAML2 protocol in the UI external login prompt.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > {  
@@ -612,7 +612,7 @@ _Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKe
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -646,7 +646,7 @@ The archive is set using the following attributes:
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  {  
@@ -674,7 +674,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
 _Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and EncryptionCertificate are defined at the same level in the configuration file.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -705,7 +705,7 @@ Various XML Settings
 
 First, the AllowLocalLogin parameter needs to be set to true in the Authentication section.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -725,7 +725,7 @@ It is configured under the Authentication > ActiveDirectoryUserStore section.
 
 First, the ActiveDirectoryUserStore must be enabled.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<Authentication>":{  
@@ -745,7 +745,7 @@ In the same section, several authentication providers can be defined, each one b
 
 For each forest, a new section is added under ActiveDirectoryUserStore. Any name may be chosen for the forest section as long as it is unique. Two forest sections can't be identical though.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "<ActiveDirectoryUserStore>": {  
@@ -762,7 +762,7 @@ Under the new forest section, the following parameters are used to configure the
 
 > The following example sets a single authentication method, based on the Forest1 forest. The domain controller is located at 127.168.0.1. If the user enters the login MyLogin, the resulting logon will be CONTOSO\paris\MyLogin. The Postfix won't be used as a Prefix is already provided.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -779,7 +779,7 @@ Under the new forest section, the following parameters are used to configure the
 >
 > In the following example, if the user enters the login MyLogin, the resulting logon will be MyLogin@Identity Manager.contoso.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -794,7 +794,7 @@ Under the new forest section, the following parameters are used to configure the
 >
 > The following example enables authentication via the Active Directory User Store, for the Forest1 forest,by checking not only the password and account activation, but also whether the password is expired.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > "<ActiveDirectoryUserStore>": {  
@@ -835,7 +835,7 @@ The following parameters are available under the authentication > TestUserStore 
 
 Example
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  

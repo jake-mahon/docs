@@ -6,7 +6,7 @@ Identity Manager's API query language allows to express exactly needed data in a
 
 Here's the query language's formal description. See the [EBNF syntax ](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
     [query] = [historizationFilter] , [joins] , [limit] , [select] , [where] , [orderby] ;  
@@ -65,7 +65,7 @@ Last 100 started job's instances' Ids.
 
 _Remember,_ The ```Top``` in the API queries had been deprecated and ```PageSize```should be used instead.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 /api/Job/JobInstance?squery=order  by StartDate desc&PageSize=100
@@ -73,7 +73,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 A Complete query would be like:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -83,7 +83,7 @@ join Properties p join p.Association1 ea1  PageSize 2 select Id,Identifier,p.I
 
 This query when executed on ```/api/Metadata/EntityType``` route will return the first 2 EntityTypes with their properties ordered by DisplayName:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -166,7 +166,7 @@ How to determine whether the DisplayFilter property has its first and third bits
 
 - Comparison expression in the squery (101 in binary = 5 in decimal):
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 DisplayFilter &= 5  
@@ -196,7 +196,7 @@ For now, the __between__ and __contained in__ historization filters can be used 
 
 The following squery returns the active users at "01/01/2022".
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 "2022-01-01T23:00:00Z" select Id, MainFirstName, MainLastName, Op_MainTitle_DisplayName, Op_MainOrganization_DisplayName, Op_MainLocation_DisplayName, MainPhoneNumber, MainMobileNumber, MainEmployeeCategory.Id, MainLeave, MainVIP

@@ -50,7 +50,7 @@ End-User Authentication](/docs/usercube_saas/usercube/integration-guide/network-
 
 Below is an illustrative example of how to set up your `appsettings.json` file.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  

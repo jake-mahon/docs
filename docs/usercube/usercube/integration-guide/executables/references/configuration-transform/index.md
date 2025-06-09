@@ -15,7 +15,7 @@ The resulting files are saved in ```C:/UsercubeDemo/ConfTransformed```.
 
 ./Usercube-Configuration-Transform.exe --input "C:/UsercubeDemo/Conf" --output "C:/UsercubeDemo/ConfTransformed" --transformation-file "C:/UsercubeDemo/transformations.json"
 
-``````
+```
 
 transformations.json
 

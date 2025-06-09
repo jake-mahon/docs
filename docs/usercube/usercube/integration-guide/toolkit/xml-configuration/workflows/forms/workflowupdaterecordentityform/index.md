@@ -6,7 +6,7 @@ Displays a form to select an existing record and update it.
 
 The following example is a form to update a user's record from helpdesk:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

@@ -6,7 +6,7 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -78,7 +78,7 @@ The list of child elements includes the following:
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

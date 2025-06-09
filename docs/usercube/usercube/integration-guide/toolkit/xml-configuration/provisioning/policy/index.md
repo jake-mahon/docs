@@ -4,7 +4,7 @@ A policy is a next generation access control (NGAC) which works by assigning per
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Policy Identifier="Default" DisplayName_L1="Default Policy" IsProvisioningEnabled="true" />

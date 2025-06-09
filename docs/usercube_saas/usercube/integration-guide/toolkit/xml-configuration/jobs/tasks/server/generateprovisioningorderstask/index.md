@@ -6,7 +6,7 @@ Then changes the provisioningState of the resources concerned to 2.
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 [Copy](javascript:void(0);)
 

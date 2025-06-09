@@ -4,11 +4,11 @@ This section describes the settings available in the agent's appsettings.json fi
 
 __NOTE:__ JSON files can contain any additional information that you might find useful. See the example below.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 For example, in order to store the agent's address, we can add:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -24,7 +24,7 @@ The appsettings set allows the following attributes and sections:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ApplicationUri   (required) | Uri | Server's listening URI. Used by the agent to send requests to the server.  Example:  Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {  "ApplicationUri": "   <https://usercubeserver.contoso.com:5000>"   } ``` |
+| ApplicationUri   (required) | Uri | Server's listening URI. Used by the agent to send requests to the server.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {  "ApplicationUri": "   <https://usercubeserver.contoso.com:5000>"   } ``` |
 | Jobs   (optional) | Job | Settings to configure all jobs with common values. |
 | Scheduler   (optional) | Scheduler | Settings to configure Identity Manager's scheduler. |
 | TaskTimeoutSupplement   default value: 0 | Int32 | Additional time (in minutes) for the Invoke-Job tool's Timeout property.  Example:  ``` appsettings.json   {       "TaskTimeoutSupplement": 10   } ``` |
@@ -98,7 +98,7 @@ As a PFX file
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -133,7 +133,7 @@ As a Certificate in the Windows Store
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  {  
@@ -160,7 +160,7 @@ Using Azure Key Vault
 
 If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the Vault connection. See the [Azure Key Vault](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -177,7 +177,7 @@ As a PFX file
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -203,7 +203,7 @@ As a Certificate in the Windows Store
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -281,7 +281,7 @@ Identity Manager supports the Application Insights integration. It means that y
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

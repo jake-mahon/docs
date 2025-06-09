@@ -4,7 +4,7 @@ Creates the job to clean old tasks and jobs instances with state InProgress.
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -16,7 +16,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

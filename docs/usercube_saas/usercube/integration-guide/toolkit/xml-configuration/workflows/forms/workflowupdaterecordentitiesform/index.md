@@ -6,7 +6,7 @@ Displays a form to update data for several resources simultaneously.
 
 The following example is a form to update users' positions in bulk.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

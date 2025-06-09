@@ -12,7 +12,7 @@ Native Notifications
 
 The following example overwrites the template of the notification provided by Identity Manager for role review.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <NotificationTemplate Identifier="WorkflowReviewRolesSummary" SubjectTemplate_L1="./Templates/Notification_RoleReview_Subject.cshtml" BodyTemplate_L1="./Templates/Notification_RoleReview_Body.cshtml" />
@@ -20,7 +20,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 The following example defines a template for the notification's subject.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 // WorkflowReviewRolesSummary_Subject.cshtml  

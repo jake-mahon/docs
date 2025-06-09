@@ -128,7 +128,7 @@ See the [
 Connection
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -151,7 +151,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 
 The following example gets information via SCIM on a web application whose URL base is ```https://example.for.doc.com```:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -211,7 +211,7 @@ If the connection column describes a sub-property, then the name should have the
 
 For example, if we want to retrieve information about Users, Groups and Groups' members, we should have the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
@@ -235,7 +235,7 @@ Same as for export, fulfill is configured through connections.
 
 > The following example writes information to SCIM on a web application whose URL base is ```https://example.for.doc.com```.
 >
-> Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.agent.json  
@@ -308,7 +308,7 @@ Protected attributes are stored inside a safe in CyberArk, into an account whose
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.cyberark.agent.json  

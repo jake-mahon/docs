@@ -36,9 +36,9 @@ The information needed to go through the creation process are the following:
 
   __Step 1 –__ Open web.config with a text editor.
 
-  __Step 2 –__ Change the arguments and stdoutLogFile attributes of the <aspNet> element as indicated below:
+  __Step 2 –__ Change the arguments and stdoutLogFile attributes of the ```<aspNet>``` element as indicated below:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <aspNetCore processPath="<dotnet>" arguments="<./Usercube-Agent.dll>" stdoutLogEnabled="<false>" stdoutLogFile="<../Temp/stdout-agent.log>" hostingModel="<inprocess>">
@@ -46,9 +46,9 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 - When creating the website, enter the following data:
 
-  __Step 1 –__ Site name: Identity Manager Agent<Organization> is the recommended naming convention
+  __Step 1 –__ Site name: Identity Manager Agent```<Organization>``` is the recommended naming convention
 
-  __Step 2 –__ Physical path: /<agent working directory>/Runtime
+  __Step 2 –__ Physical path: /```<agent working directory>```/Runtime
 
   __Step 3 –__ Type: http
 
@@ -58,15 +58,15 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 After creation, the following settings are recommended:
 
-- __Application Pool__ > __Identity Manager <Organization>__ > __Advanced Settings__ > __General__ > __Start Mode__ set to AlwaysRunning;
+- __Application Pool__ > __Identity Manager ```<Organization>```__ > __Advanced Settings__ > __General__ > __Start Mode__ set to AlwaysRunning;
 - __Application Pool__ > ```Identity Manager <Organization>``` > __Advanced Settings__ > __Process Model__ > __Idle Time-out__ (minutes) set to 0 and Load User Profile set to True;
-- __Application Pool__ > __Identity Manager <Organization>__ > __Recycling__ > Regular time intervals set to 0.
+- __Application Pool__ > __Identity Manager ```<Organization>```__ > __Recycling__ > Regular time intervals set to 0.
 
   Recycling the application pool creates a discontinuation in the connection between server and agent, which can disrupt some of Identity Manager's features such as the job scheduler. IIS already recycles the application pool at each setting change, thus Netwrix recommends not using periodic recycling.
 
 The following is [mandatory](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#mandatory):
 
-- __Application Pool__ > __Identity Manager <Organization>__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
+- __Application Pool__ > __Identity Manager ```<Organization>```__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
 
 ![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
 
@@ -126,7 +126,7 @@ __Step 1 –__ Open the IIS Manager (```INETMGR.MSC```).
 
 __Step 2 –__ Open the __Application Pools__ node underneath the machine node.
 
-__Step 3 –__ Select the Identity ManagerAgent/<Organization> application pool.
+__Step 3 –__ Select the Identity ManagerAgent/```<Organization>``` application pool.
 
 __Step 4 –__ Right-click and select __Advanced Settings__.
 
@@ -202,7 +202,7 @@ In the appsettings.agent.json file, the __OpenId__ > __AgentIdentifier__ can be 
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -228,7 +228,7 @@ The integration team should communicate the list of the managed systems to be co
 
 Here is an example of appsettings.agent.json connecting an agent to an Active Directory and an SAP server.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -270,7 +270,7 @@ An RSA key pair, as in an [X.509](https://fr.wikipedia.org/wiki/X.509) public ke
 
 The key pair can be generated with tools such as [OpenSSL](https://www.openssl.org/docs/manmaster/man1/req.html) or Microsoft's [New-SelfSignedCertificate](https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps) and [pvk2pfx tool](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/pvk2pfx?redirectedfrom=MSDN).
 
-Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive (<UsercubeContoso.pfx>) bundling a public key certificate (<Identity Manager contoso.cert>) and a private key (<usercubecontoso.key>) with OpenSSL, with a 50-year expiration date:
+Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive (```<UsercubeContoso.pfx>```) bundling a public key certificate (```<Identity Manager contoso.cert>```) and a private key (```<usercubecontoso.key>```) with OpenSSL, with a 50-year expiration date:
 
 __Step 1 –__ Enter the following command:
 
@@ -300,7 +300,7 @@ Storing a ```.pfx``` file password in plain text in a production environment is 
 Usercube-Protect-CertificatePassword
 ](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -318,7 +318,7 @@ appsettings.agent.json
 
 The certificate can be stored in the certificate store instead of the file system. This is the recommended method.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -347,9 +347,9 @@ Their content should be provided by the integration team, in relation to the Ope
 OpenIdClient
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.
 
-The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier <Job> and the password <secret>, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
+The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier ```<Job>``` and the password ```<secret>```, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -371,7 +371,7 @@ Installing Identity Manager's agent as a Windows service instead of an IIS websi
 
 To install Identity Manager's agent as a service in Windows server, use the following command:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 sc.exe create Usercube binpath= "<Usercube-Agent.exe --service>" displayname= "<Usercube Agent>" start= auto obj= "<DOMAIN\USER>" password= "<PASSWORD>"
@@ -383,7 +383,7 @@ _Remember,_ make sure to include a space between each parameter's equal sign (=)
 
 This step is important if the scheduler is enabled. IIS starts Identity Manager's agent only if an incoming http request is made on the server and the scheduler is not launched until Identity Manager's agent is started. Because of that, you need to carefully set up the starting mode of IIS to force the starting of Identity Manager's agent.
 
-Identity Manager's agent warm up is done using the <applicationInitialization> element in the web.config file, the configuration is described [here.](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization)
+Identity Manager's agent warm up is done using the ```<applicationInitialization>``` element in the web.config file, the configuration is described [here.](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization)
 
 You need to:
 
@@ -393,7 +393,7 @@ __Step 2 –__ Modify the applicationHost.config file to set the startMode of th
 
 __Step 3 –__ Double check that the following section is set in your web.config file, in the section system.webServer:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <applicationInitialization doAppInitAfterRestart="<true>">    

@@ -6,7 +6,7 @@ A single role rule assigns a single role to users who match given criteria.
 
 The following example declares a new rule to give the single role to all the ```"FCT0000"``` users.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

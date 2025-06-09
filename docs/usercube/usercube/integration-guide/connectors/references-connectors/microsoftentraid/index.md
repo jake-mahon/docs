@@ -33,7 +33,7 @@ Connection
 
 Or in the ```appsettings.agent.json > Connections``` section:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -56,7 +56,7 @@ __NOTE:__ The identifier of the connection and thus the name of the subsection m
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -99,7 +99,7 @@ This connector is meant to generate the following files:
 
   For example, with the following configuration:
 
-  Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
   ```
     
@@ -157,7 +157,7 @@ Same as for export, fulfill is configured through connections.
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  

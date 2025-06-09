@@ -6,7 +6,7 @@ Runs a tailored script asynchronously, independent of the workflow event, necess
 
 The following example executes the script ```aspect.ps1``` on the local agent, when creating a new user.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <InvokeScriptAspect Identifier="Directory_User_InvokeScript" Agent="Local" ScriptFile="C:/UsercubeDemo/Conf/InvokeAspects/aspect.ps1">  
