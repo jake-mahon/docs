@@ -17,7 +17,7 @@ Here is the visualization of this display table on the interface:
 ![DisplayTable(Table)](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed like a table) if a criterion linked to this column is already displayed in a search bar. This avoids filter duplication.
-Thus, the <CanBeFiltered> property can be deleted in the <Column> argument.
+Thus, the `CanBeFiltered` property can be deleted in the `Column` argument.
 
 ## Resource Table
 

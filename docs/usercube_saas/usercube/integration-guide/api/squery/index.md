@@ -43,10 +43,10 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 - __=__ : Equal.
 - __!=__ : Not Equal.
-- __<__ : Less than.
-- __>__ : Greater than.
-- __<=__ : Less than or equal.
-- __>=__ : Greater than or equal.
+- __`<`__ : Less than.
+- __`>`__ : Greater than.
+- __`<=`__ : Less than or equal.
+- __`>=`__ : Greater than or equal.
 - __%=__ : Start with.
 - __=%__ : End with.
 - __%=%__ : Contain.

@@ -40,12 +40,19 @@ In a given resource type, there should be scalar rules either for the bitmask pr
 >
 > ![New Property for Bit Provisioning](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.png)
 >
-> XML configuration looks like the following:```
+> XML configuration looks like the following:
 >
-> <EntityType ... >  <Property Identifier="userAccountControl" DisplayName_L1="userAccountControl" TargetColumnIndex="15" Type="String" />  <Property Identifier="userAccountControlBit2" DisplayName_L1="userAccountControl second bit" TargetColumnIndex="61" Type="String" />    ...
-> </EntityType><EntityTypeMapping ... >  <Property Identifier="userAccountControl" ConnectionColumn="userAccountControl" />  <Property Identifier="userAccountControlBit2" ConnectionColumn="bit_userAccountControl_2" Format="bit:userAccountControl:2" />    ...
+> ```xml
+> <EntityType ... >
+>   <Property Identifier="userAccountControl" DisplayName_L1="userAccountControl" TargetColumnIndex="15" Type="String" />
+>   <Property Identifier="userAccountControlBit2" DisplayName_L1="userAccountControl second bit" TargetColumnIndex="61" Type="String" />
+>   ...
+> </EntityType>
+> <EntityTypeMapping ... >
+>   <Property Identifier="userAccountControl" ConnectionColumn="userAccountControl" />
+>   <Property Identifier="userAccountControlBit2" ConnectionColumn="bit_userAccountControl_2" Format="bit:userAccountControl:2" />
+>   ...
 > </EntityTypeMapping>
->
 > ```
 
 When creating a property of bit format:

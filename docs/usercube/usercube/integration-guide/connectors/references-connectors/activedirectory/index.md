@@ -127,7 +127,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate:
 
-- A file named <connectionIdentifier>\_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
+- A file named `connectionIdentifier`\_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
 
   Any property can be exported in a specific format when specified. See the [
   References: Format for the EntityPropertyMapping

@@ -31,7 +31,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
     comparison = binding , operator , rightOperand ;  
     rightOperand = value | binding ;  
     operator = "=" | "!=" | "<" | ">" | "<=" | ">=" | "%=" | "=%" | "%=%" | "!%=" | "!=%" | "!%=%" | "&=" ;  
-    value = integer | boolean | '"' , string , '"' | "null" | '"' , date , '";  
+    value = integer | boolean | '"' , string , '"' | "null" | '"' , date , '"';  
     boolean = "false" | "true"  
     date = yyyy-mm-ddThh:mm:ssZ  
     orderby = "order by" , binding , sortdirection , { "," ,  binding , sortdirection }  

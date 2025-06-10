@@ -34,7 +34,7 @@ The first example defines the source object as simply the user record's Login pr
 
 ### Expressions in XML
 
-In XML, inside the C# expressions, make sure to escape <"> characters by writing them as<&quot;>.
+In XML, inside the C# expressions, make sure to escape `"` characters by writing them as `&quot;`.
 
 For example:
 

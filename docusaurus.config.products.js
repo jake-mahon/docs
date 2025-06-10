@@ -21,10 +21,10 @@ const PRODUCTS = {
   'strongpointforsalesforce': false,
   'strongpointnetsuiteflashlight': false,
   'strongpointsalesforceflashlight': false,
-  'threatmanager': true,
+  'threatmanager': false,
   'threatprevention': false,
   'usercube': false,
-  'usercube_saas': false,
+  'usercube_saas': true,
 };
 
 const productConfigs = {

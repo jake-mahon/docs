@@ -50,7 +50,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 <Language Code="en-US" IndicatorNumber="1" JsonPath="translation.en-US.json" />
 ```
 
-A translation file must be named: translation.<language code>.json.
+A translation file must be named: translation.`language code`.json.
 
 For example, for en-US, the translation file must be named translation.en-US.json.
 

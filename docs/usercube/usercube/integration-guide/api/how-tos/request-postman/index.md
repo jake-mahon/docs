@@ -18,10 +18,10 @@ Get an access token by proceeding as follows:
    ![Postman: Authentication](/img/product_docs/usercube/usercube/integration-guide/api/how-tos/request-postman/postman_authentication.png)
 
    - __Method__: POST
-   - __URL__: <URL IdentityManager>/connect/token
+   - __URL__: `URL IdentityManager`/connect/token
    - __Body__:
-     - __client\_id__: <OpenIdClient id>@<FQDN Usercube>
-     - __client\_secret__: <OpenIdClient secret>
+     - __client\_id__: `OpenIdClient id`@`FQDN Usercube`
+     - __client\_secret__: `OpenIdClient secret`
      - __scope__: usercube\_api
      - __grant\_type__: client\_credentials
 5. Click on __Send__ and get the access token from the response body.

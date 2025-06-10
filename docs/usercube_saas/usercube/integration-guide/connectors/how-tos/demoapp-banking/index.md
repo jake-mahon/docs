@@ -51,7 +51,7 @@ __Step 3 –__ Create a database named BankingSystem.
 
 __Step 4 –__ Go to the Runtime folder.
 
-__Step 5 –__ Run __./Usercube-FillBankingDatabase.exe__ --connection-string {connection string} --sources-path {sources path} --banking-sql-path {banking sql path}, replacing {connection string} with the BankingSystem database connection string, {sources path} with the path to SDK/DemoApps/Sources, and {banking sql path} with the path to SDK/DemoApps/Banking.
+__Step 5 –__ Run `./Usercube-FillBankingDatabase.exe --connection-string {connection string} --sources-path {sources path} --banking-sql-path {banking sql path}`, replacing `{connection string}` with the BankingSystem database connection string, `{sources path}` with the path to SDK/DemoApps/Sources, and `{banking sql path}` with the path to SDK/DemoApps/Banking.
 
 __Step 6 –__ Go to the __SDK/DemoApps/Banking__ folder.
 
