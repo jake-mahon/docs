@@ -8,6 +8,7 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+  workflow_dispatch:  # This enables manual triggering from GitHub UI
 
 jobs:
   build_and_deploy_job:
