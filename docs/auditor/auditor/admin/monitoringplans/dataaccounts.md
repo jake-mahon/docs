@@ -55,7 +55,7 @@ __Step 4 –__ Select an account you want to update the password for.
 
 __Step 5 –__ Review the account configuration scope and click __Update password__ next to this account.
 
-![Password Management](/img/product_docs/auditor/auditor/admin/monitoringplans/updatecredentials.png)
+![Password Management](/img/product_docs/auditor/auditor/admin/monitoringplans/updatecredentials.webp)
 
 __Step 6 –__ Save your edits.
 

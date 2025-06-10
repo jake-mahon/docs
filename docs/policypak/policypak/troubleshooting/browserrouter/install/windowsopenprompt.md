@@ -2,7 +2,7 @@
 
 Immediately after installing the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE on an endpoint, you might see something like this.
 
-![531_1_image001](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/install/531_1_image001.png)
+![531_1_image001](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/install/531_1_image001.webp)
 
 This scenario is common when:
 

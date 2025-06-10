@@ -11,7 +11,7 @@ Optionally, if you don't want to use Group Policy, read the section in Appendix 
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager enables administrators to harness the power of Microsoft's existing security settings and deliver those settings without Group Policy (via Microsoft Endpoint Manager [SCCM], KACE, or Endpoint Policy Manager Cloud). The supported Microsoft security settings can be seen below.  Red lines indicate these items are not supported by Endpoint Policy Manager.
 
-![about_policypak_security_settings](/img/product_docs/policypak/policypak/securitysettings/about_policypak_security_settings.png)
+![about_policypak_security_settings](/img/product_docs/policypak/policypak/securitysettings/about_policypak_security_settings.webp)
 
 __NOTE:__ The following items are NOT supported by Endpoint Policy Manager Security Settings Manager:
 

@@ -29,6 +29,6 @@ The CommandLineUtility Data Collector executes a command line utility and captur
 - [CLU: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
 - [CLU: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
 
-![Command Line Utility Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Command Line Utility Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

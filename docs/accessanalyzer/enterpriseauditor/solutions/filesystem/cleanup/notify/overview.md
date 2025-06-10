@@ -4,7 +4,7 @@ The 2. Notify job group is designed to report on and notify owners of resources 
 
 __NOTE:__ The SendMail action module requires configuration of the Notification Settings in the Global Settings. See the [Notification](/docs/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
 
-![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 This job group includes the following jobs:
 

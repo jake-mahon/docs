@@ -17,7 +17,7 @@ ONLY continue if you see ```ppBRResults.xml``` and are sure Endpoint Policy Mana
 
 __Step 2 –__  First, test the Endpoint Policy Manager Browser Router is routing "natural" links. Use WORDPAD (not notepad!) to create a simple document which will open up the browser based upon your rules (routes.)
 
-![267_1_img1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_1_img1.png)
+![267_1_img1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_1_img1.webp)
 
 Does clicking on each link open the correct expected browser?
 
@@ -49,29 +49,29 @@ Again, the browser needs to be:
 
 So, some examples where Endpoint Policy Manager Browser Router will not work instantly:
 
-![267_2_img2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_2_img2.png)
+![267_2_img2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_2_img2.webp)
 
-![267_3_img3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_3_img3.png)
+![267_3_img3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_3_img3.webp)
 
 To ensure each browser is ready to route BETWEEN BROWSERS, you are looking for the following.
 
 Inside IE: (Gear | Manage Add-ons)
 
-![267_4_img4-1024x325](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_4_img4-1024x325.png)
+![267_4_img4-1024x325](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_4_img4-1024x325.webp)
 
 FF: The Firefox plugin for Endpoint Policy Manager Browser Router will ONLY install into Firefox ESR. When using Firefox ESR, you can then see this after you launch Firefox ESR and then press Ctrl+Shift+J . Then look for the text the following entry:
 
-![267_5_pp-ff-img-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_5_pp-ff-img-01.png)
+![267_5_pp-ff-img-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_5_pp-ff-img-01.webp)
 
 If you are ATTEMPTING to use Firefox RR, then it will not work and you will get the following (expected) error.
 
-![267_6_image_1000x626](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_6_image_1000x626.png)
+![267_6_image_1000x626](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_6_image_1000x626.webp)
 
 Chrome: (Gear | Extensions)
 
 Chrome's helper app is automatically installed over the Internet. So if routing from Chrome TO Another Browser is not functioning, you need to ensure you have Internet connectivity (at least one time) to get the Endpoint Policy Manager Browser Router Chrome Extension automatically downloaded and installed on your machine.
 
-![267_7_img6](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_7_img6.png)
+![267_7_img6](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_7_img6.webp)
 
 If you don't see the Extension listed, try:
 

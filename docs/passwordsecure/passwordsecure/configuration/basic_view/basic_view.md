@@ -1,12 +1,12 @@
 # The Basic view
 
-![light-client-en](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/light-client-en.png)
+![light-client-en](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/light-client-en.webp)
 
 ## What is the Basic view about?
 
 The Basic view is a lean tool for every end user. It guarantees quick and easy access to the daily needed passwords. Although the Basic view has a limited range of functions, it can be operated intuitively and without previous knowledge or training by any user. The Basic view is designed for up to 50 passwords. The Basic view introduces to professional password management. It is also the ideal tool for the daily handling of passwords.
 
-![image1](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.png)
+![image1](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.webp)
 
 ## Requirements & required rights
 

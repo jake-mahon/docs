@@ -4,13 +4,13 @@ On the Computer side of the GPO, use the Endpoint Policy Manager (formerly Polic
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key.webp)
 
 You’ll now see the Admin Approval Settings, as shown in here. Change the Admin Approval State from __Not Configured__ to __Enabled__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_1.webp)
 
 You also can change two other settings:
 
@@ -21,13 +21,13 @@ Next, click on the __Secret Key__ tab. Here is where you can create a secret key
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_2.webp)
 
 Click on the __Misc__ tab, which enables you to configure the two policies shown here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/creating_the_secret_key_3.webp)
 
 - Custom Message - Configure the pop-up the user will see when Admin Approval kicks in.
 - Display name - Configure the right-click menu item the user will which will invoke Admin Approval.

@@ -22,7 +22,7 @@ __Step 2 –__ Right-click on SQL server instance and click "Properties"
 
 __Step 3 –__ On the Server Properties page click on the "Security" tab and set the Server authentication to "SQL Server and Windows Authentication"
 
-![673_1_image-20200430140138-1](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_1_image-20200430140138-1.png)
+![673_1_image-20200430140138-1](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_1_image-20200430140138-1.webp)
 
 __Step 4 –__ Click OK to Close
 
@@ -40,11 +40,11 @@ __Step 2 –__ On General tab
 2. Select radio button "SQL Server authentication" and set password
 3. Uncheck "Enforce password policy"
 
-   ![673_3_image-20200430140138-2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_3_image-20200430140138-2.png)
+   ![673_3_image-20200430140138-2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_3_image-20200430140138-2.webp)
 
 __Step 3 –__ Click on "Server Roles" tab and select "public" and "sysadmin" roles
 
-![673_5_image-20200430140138-3](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_5_image-20200430140138-3.png)
+![673_5_image-20200430140138-3](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_5_image-20200430140138-3.webp)
 
 __Step 4 –__ Save and close
 
@@ -54,7 +54,7 @@ GPCR requires an empty SQL database be present during the installation
 
 __Step 1 –__ In Microsoft SSMS, right-click on "Databases" and select "New Database"
 
-![673_7_image-20200430140138-4_471x171](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_7_image-20200430140138-4_471x171.png)
+![673_7_image-20200430140138-4_471x171](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_7_image-20200430140138-4_471x171.webp)
 
 __Step 2 –__ Enter name for database (e.g. GPCR)
 
@@ -76,11 +76,11 @@ __Step 1 –__ Open Component Services
 
 1. Open the "run" box (Win-R), type ```"dcomcnfg"``` and click OK
 
-![673_9_image-20200430140138-5](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.png)
+![673_9_image-20200430140138-5](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
 
 __Step 2 –__ Expand Console Root -> Component Services -> Computers -> My Computer -> Distributed Transaction Coordinator, Right-Click on Local DTC and click Properties
 
-![673_11_image-20200430140138-6](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.png)
+![673_11_image-20200430140138-6](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
 
 __Step 3 –__ On the Security tab -> Security Settings and Configure as follows:
 
@@ -90,7 +90,7 @@ __Step 3 –__ On the Security tab -> Security Settings and Configure as follows
 4. Check "Enable SNA LU 6.2 Transactions"
 5. Click OK
 
-   ![673_13_image-20200430140138-7](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.png)
+   ![673_13_image-20200430140138-7](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
 
 __Step 4 –__ The MSDTC service will need to be restarted for the changes to take affect – Click YES to restart now or NO to restart manually later.
 
@@ -102,11 +102,11 @@ __Step 1 –__ Open the Windows Defender Firewall
 
 __Step 2 –__ Click on "Allow an app or feature through Windows Defender Firewall"
 
-![673_15_image-20200430140138-8](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.png)
+![673_15_image-20200430140138-8](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
 
 __Step 3 –__ Find "Distributed Transaction Coordinator", check and check the appropriate Network profile (e.g. Domain).
 
-![673_17_image-20200430140138-9](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.png)
+![673_17_image-20200430140138-9](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
 
 __Step 4 –__ Click OK to save and close
 
@@ -130,11 +130,11 @@ __Step 5 –__ Change installation or just click "Next >" to accept default (rec
 
 __Step 6 –__ Click "Change" and find domain security group created earlier (GPCR Admin in example) and click "Next >"
 
-![673_19_image-20200430140138-10](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_19_image-20200430140138-10.png)
+![673_19_image-20200430140138-10](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_19_image-20200430140138-10.webp)
 
 __Step 7 –__ Select "Microsoft SQL Server and "Next >"
 
-![673_21_image-20200430140138-11](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_21_image-20200430140138-11.png)
+![673_21_image-20200430140138-11](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_21_image-20200430140138-11.webp)
 
 __Step 8 –__ Configure Connection to SQL Server
 
@@ -144,7 +144,7 @@ __Step 8 –__ Configure Connection to SQL Server
 4. Click "Refresh" to get list of Databases on SQL server and select empty DB created earlier
 5. Next >
 
-   ![673_23_image-20200430140138-12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_23_image-20200430140138-12.png)
+   ![673_23_image-20200430140138-12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/673_23_image-20200430140138-12.webp)
 
 __Step 9 –__ Install -> click yes if prompted for \*.msi
 

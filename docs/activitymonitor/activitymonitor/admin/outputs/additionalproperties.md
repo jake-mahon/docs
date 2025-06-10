@@ -4,7 +4,7 @@ The Additional Properties tab on an output Properties window is where comments a
 
 Select an output from the Monitored Hosts tab and click __Edit__ to open the output Properties window.
 
-![Additional Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/additionalpropertiestab.png)
+![Additional Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/additionalpropertiestab.webp)
 
 The options are:
 

@@ -165,7 +165,7 @@ __Step 1 –__  Open the monitored item properties for editing.
 
 __Step 2 –__ On the __General__ tab, under __Specify account for collecting data__, select __gMSA__ option.
 
-![Monitored Item Properties page](/img/product_docs/auditor/auditor/requirements/gmsa.png)
+![Monitored Item Properties page](/img/product_docs/auditor/auditor/requirements/gmsa.webp)
 
 See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 

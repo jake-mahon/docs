@@ -2,7 +2,7 @@
 
 Use the __Edit List__ option to edit properties for the selected host list. This option is available only from an individual host list node.
 
-![Edit List option on Activities pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/editlist.png)
+![Edit List option on Activities pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/editlist.webp)
 
 Select the host list to edit and click __Edit List__. The Host List Wizard opens for the selected host list. If the selected host list is a custom static host list, the wizard opens on the Manual Host Entry page where you can add and remove hosts from the list. Other host lists open directly to the Specify Host List Properties page where you can modify the following:
 

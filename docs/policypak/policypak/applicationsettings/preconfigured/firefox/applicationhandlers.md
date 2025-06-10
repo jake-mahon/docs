@@ -2,7 +2,7 @@
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) can manage which applications open outside of Firefox. The most common use cases are to open Adobe Reader instead of the internal Firefox PDF viewer, or launch WinZip when a ZIP file is encountered. These can be seen in Figure 51. The node only works with client-side extension (CSE) build 1560 or later.
 
-![managing_application_handlers](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers.png)
+![managing_application_handlers](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers.webp)
 
 Figure 51. Settings for opening applications outside of Firefox.
 
@@ -19,7 +19,7 @@ MODE=REPLACE    
 
 However, that doesn't happen because the UI doesn't change for the hard-coded items. Your list might look different from what is shown in Figure 52.
 
-![managing_application_handlers_1](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_1.png)
+![managing_application_handlers_1](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_1.webp)
 
 Figure 52. Choosing how Firefox will handle downloaded files.
 
@@ -27,13 +27,13 @@ Figure 52. Choosing how Firefox will handle downloaded files.
 
   Firefox prefers opening content internally to firing external programs whenever possible. Content that can be handled internally includes images, texts, HTML and XML code, and content with some special meaning for the Web (CSS, JS, etc.).  The actual decision is made based on so-called MIME type, and not on file extension. In the case of HTTP/HTTP surfing, Firefox usually uses the MIME type returned in the "content-type" response header, as shown in Figure 53.
 
-![managing_application_handlers_2](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_2.png)
+![managing_application_handlers_2](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_2.webp)
 
 Figure 53. The MIME type is determined by the "content-type" response header.
 
 If the MIME type is "```text/plain```," "```text/html```," "```text/css```," "```image/jpeg```," or any other special type, the file is opened internally. Even if the "content-type" header is not set in the web response, Firefox uses a sophisticated algorithm to guess the MIME type from actual content, and opens resources of special types internally. For this reason, even though it is possible to add handlers for JPG, HTML, HTM, TXT, etc., which will appear in the UI, Firefox will keep opening resources of such types internally. The general rule of thumb here is the following: when there is no handler for the given type and Firefox normally shows an "Open with" dialog box for this type, it fires Application Handler for the same type when there is a handler, as shown in Figure 54.
 
-![managing_application_handlers_3](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_3.png)
+![managing_application_handlers_3](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_3.webp)
 
 Figure 54. The "Open with" dialog box.
 
@@ -41,7 +41,7 @@ MIME type returns from web servers
 
 The actual behavior during Web surfing depends on the MIME type for the resource returned by "Web-server." Even though you have a handler for somethign like PDF (application/pdf) or ZIP (application/x-zip-compressed), it might not work for resources returned with a non-standard MIME type. If the returned MIME type is a generic type for binary resources (application/octet stream), or some type with no special meaning for Firefox, Firefox fires Application Handler to open files like this, as shown in Figure 55.
 
-![managing_application_handlers_4](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_4.png)
+![managing_application_handlers_4](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/managing_application_handlers_4.webp)
 
 Figure 55. The Firefox Application Handler.
 

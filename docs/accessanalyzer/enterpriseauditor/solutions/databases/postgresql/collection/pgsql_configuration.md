@@ -8,7 +8,7 @@ The PgSQL\_Configuration Job uses the SQL Data Collector.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.webp)
 
 The query is:
 

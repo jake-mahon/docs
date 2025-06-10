@@ -10,7 +10,7 @@ Underneath the hood, you are "fighting" with Endpoint Policy Manager Browser Rou
 
 For Endpoint Policy Manager Browser Router, Endpoint Policy Manager Browser Router must "become" the default OS browser like what's seen here. If Endpoint Policy Manager Browser Router is not set as the Default Browser (automatically, using Endpoint Policy Manager …) then you will get unusual behavior.
 
-![523_3_faq-03-img-03](/img/product_docs/policypak/policypak/troubleshooting/fileassociations/523_3_faq-03-img-03.png)
+![523_3_faq-03-img-03](/img/product_docs/policypak/policypak/troubleshooting/fileassociations/523_3_faq-03-img-03.webp)
 
 For Endpoint Policy Manager File Associations Manager, you must remove any Group Policy File Associations file for it to work reliably.  
 Summary: Use only Endpoint Policy Manager … when using Endpoint Policy Manager Browser Router and also Endpoint Policy Manager File Associations Manager and don't try to use a Group Policy or MDM File Associations alongside it.

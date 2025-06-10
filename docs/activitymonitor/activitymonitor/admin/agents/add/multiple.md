@@ -6,15 +6,15 @@ __NOTE:__ These steps are specific to deploying activity agents for monitoring s
 
 __Step 1 –__ On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent](/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.png)
+![Install New Agent](/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
 
 __Step 2 –__ On the Install new agent page, click the install agents on multiple hosts link to deploy activity agents to multiple hosts.
 
-![Specify Agent Port page - specify port that should be used by new agent](/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.png)
+![Specify Agent Port page - specify port that should be used by new agent](/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
 
 __Step 3 –__ On the Specify Agent Port page, specify the port that should be used by the new agent. The default port is 4498. Click __Next__.
 
-![Install Agents on Multiple Hosts page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/installagentsonmultiplehosts.png)
+![Install Agents on Multiple Hosts page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/installagentsonmultiplehosts.webp)
 
 __Step 4 –__ Windows or Linux hosts can be entered as either a name or an IP Address. The options are:
 
@@ -28,7 +28,7 @@ Manual Entry
 
 Use __Manual Entry__ to manually type the host names or IP addresses of the servers to be monitored.
 
-![Enter Host Name or IP Address window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/hostnameoripaddresswindow.png)
+![Enter Host Name or IP Address window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/hostnameoripaddresswindow.webp)
 
 For Manual Entry, the options are:
 
@@ -40,7 +40,7 @@ Import a List
 
 Use __Import a List__ to import host names or IP addresses from an external source.
 
-![Import Hosts from a CSV File window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/importhostsfromacsvfilewindow.png)
+![Import Hosts from a CSV File window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/importhostsfromacsvfilewindow.webp)
 
 For Import a List:
 
@@ -53,7 +53,7 @@ For Import a List:
 
 The Activity Monitor will monitor the Host Names or IP Address added to the __Install Agents on Multiple Hosts__ table. Click __Next__.
 
-![Credentials to Connect to the Server(s) window](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Credentials to Connect to the Server(s) window](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 __Step 5 –__ On the Credentials To Connect To The Server(s) page, connect to the server using either a __User name__ and __password__, a Public Key, or a Client Certificate.
 
@@ -62,7 +62,7 @@ The options for connecting with a Password are:
 - User name
 - Password
 
-![Credentials to Connect to the Server(s) ](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/publickey.png)
+![Credentials to Connect to the Server(s) ](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/publickey.webp)
 
 The options for connecting with a Public Key are:
 
@@ -71,7 +71,7 @@ The options for connecting with a Public Key are:
 
 - Use the Public Key option to install an agent using SSH
 
-![clientcertificate](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/clientcertificate.png)
+![clientcertificate](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/clientcertificate.webp)
 
 To connect with a Client Certificate, select the Client Certificate (for already installed agents) option. Copy the following command into a command prompt:
 
@@ -83,11 +83,11 @@ __Step 6 –__ Click __Connect__ to test the connection. If the connection is su
 
 The credentials are tested against each server added on the __Install Agent(s) on Multiple Hosts__ page. If the connection is unsuccessful, see the status message that appears for information on the failed connection. Activity agents are only successfully deployed for servers where the test status returns Ok. Failed deployments can be retried through the Connection tab of the agent’s Properties window. When one or more of the connections are successful, click Next.
 
-![Agent Installation Path page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/agentinstalllocation.png)
+![Agent Installation Path page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/agentinstalllocation.webp)
 
 __Step 7 –__ On the Agent Install Location page, browse to theselect the agent installation path. The default path is ```C:\Program Files\Netwrix\Activity Monitor\Agent```. Click __Next__.
 
-![Windows Agent Settings](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/enablewindowsfileactivitymonitoring.png)
+![Windows Agent Settings](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/enablewindowsfileactivitymonitoring.webp)
 
 __Step 8 –__  On the Windows Agent Settings window, configure the following options:
 
@@ -98,6 +98,6 @@ __Step 9 –__ Click Finish. The Add New Agent(s) window closes, and the activit
 
 During the installation process, the status will be __Installing__. If there are any errors, the Activity Monitor stops the installation for that host and lists the errors in the __Agent messages__ box.
 
-![Multiple Agents Installed](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adagentinstalled.png)
+![Multiple Agents Installed](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adagentinstalled.webp)
 
 When the activity agent installation completes, the status changes to __Installed__ and the activity agent version populates. The next step is to add hosts to be monitored. See the [Monitored Hosts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/overview.md) topic for additional information.

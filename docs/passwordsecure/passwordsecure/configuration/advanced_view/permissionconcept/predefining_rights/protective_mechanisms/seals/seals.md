@@ -29,11 +29,11 @@ Only records that are protected with a password can be sealed!
 
 All seal configurations are performed in the wizard. Both the application of new seals as well as the processing and removing are possible. The current state of a seal can also be viewed in an overview, which is accessible via the button in the ribbon. When the seal wizard is opened via the ribbon, the wizard appears in the case of unsealed data sets, which runs in __four steps__ through the configuration of the seal.
 
-![seal button](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_1-en.png)
+![seal button](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_1-en.webp)
 
 #### 1. Apply seal
 
-![multi-eye principe](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_2-en.png)
+![multi-eye principe](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_2-en.webp)
 
 All objects that are sealed are displayed at the beginning. Depending on the data record, this can be one object, or several. It is also possible to use existing [Seal templates](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/seal_templates/seal_templates.md). Optionally, you can enter a reason for each seal.
 
@@ -41,13 +41,13 @@ All objects that are sealed are displayed at the beginning. Depending on the dat
 
 The seal logic is the most basic element of this protective mechanism. Here, you define for which users or roles the record should be sealed or released in the future. All those for whom the record is to be sealed are displayed in red, while all users with the required permissions to issue a release are displayed in blue.
 
-![example permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_3-en.png)
+![example permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_3-en.webp)
 
 NOTE: All users and roles for which the data set is not sealed and which are not authorized for release are displayed in green. These can use the data record independently of the seal.
 
 To avoid having to perform any configuration manually, roles and users are copied directly from the authorizations of the data record. Compare with the "permissions" for the record (can be viewed via the ribbon).
 
-![example permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_4-en.png)
+![example permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_4-en.webp)
 
 Supervisors should issue the releases for their employees. Therefore, the checkbox also follows the existing authorizations. The following __scheme__ is used:
 
@@ -55,17 +55,17 @@ NOTE: All users and roles that have the __authorize permission__ to the record a
 
 Here is a closer look at the permissions of the role __Administrators__ on the record:
 
-![example multi-eye principe](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_5-en.png)
+![example multi-eye principe](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_5-en.webp)
 
 ## Adjusting the seal logic
 
 Although standard authorizations are used as a basis for the sealing concept, these can be adapted. The number of releases generally required is as configurable as the required number of releases from a role. In the following example, the seal has been extended so that a total of three release authorizations are required in order to release the seal __(Multi-eye principle)__. The role of the administrators has been marked in the mandatory column. This means that it must grant at least one release. In summary: A total of three releases must be made, whereby the group of administrators must grant at least one release.
 
-![edit seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_6-en.png)
+![edit seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_6-en.webp)
 
 In order to be not only dependent on existing authorizations on the data set, other users can also be added to the seal. The role accounting under "sealed for" has been added below.
 
-![define permission for the seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_7-en.png)
+![define permission for the seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_7-en.webp)
 
 NOTE: When a role or a user is added to a seal, these users also receive permissions on the record according to the authorization granted in the seal. A role that is added under "Sealed for" receives the __Read permission__ on the record. When you add authorization permissions, these will include the __Read__, __Write__, __Delete__, and __Authorize__ permission.
 
@@ -78,13 +78,13 @@ NOTE: It is possible to seal records for a user who is also authorized to issue 
 
 Advanced seal settings allow you to adjust the multi-eye principle. Both the time validity of a release request as well as a granted release can be configured. Multiple break defines whether after the breaking of a seal by a user, other users may still break it.
 
-![advanced settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_8-en.png)
+![advanced settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_8-en.webp)
 
 #### 4. Saving the seal
 
 Before closing the wizard, it is possible to save the configuration for later use in the form of a template. [Seal templates](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/seal_templates/seal_templates.md) can be optionally provided with a description for the purpose of overview.
 
-![save seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_9-en.png)
+![save seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_9-en.webp)
 
 ## Summary
 

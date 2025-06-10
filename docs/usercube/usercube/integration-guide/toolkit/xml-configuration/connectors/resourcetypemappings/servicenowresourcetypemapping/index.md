@@ -6,7 +6,7 @@ Any resource type linked to a ServiceNow connection must be configured with a se
 
 Below is an example of an incident ticket in ServiceNow, where relevant properties (from Identity Manager's perspective) are emphasized:
 
-![ServiceNow Ticket Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/servicenow_example.png)
+![ServiceNow Ticket Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/servicenow_example.webp)
 
 ## Examples
 

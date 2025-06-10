@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Configuration > Service Accounts page.
 
 __Step 2 –__ In the Service Account list, click the Plus icon.
 
-![Add Service Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addserviceaccount.png)
+![Add Service Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addserviceaccount.webp)
 
 __Step 3 –__ Enter the applicable information. See the [Service Accounts Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) section for detailed descriptions of the fields.
 

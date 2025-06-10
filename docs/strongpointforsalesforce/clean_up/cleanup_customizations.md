@@ -23,7 +23,7 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 6. Assign a __Change/Approval Policy__ if there is an object specific policy (optional).
 7. Under __Clean-Up Classification__, add an overview of the clean up.
 
-![improvementtab](/img/product_docs/strongpointforsalesforce/clean_up/improvementtab.png)
+![improvementtab](/img/product_docs/strongpointforsalesforce/clean_up/improvementtab.webp)
 
 ## Clean Up Multiple Customizations
 
@@ -40,7 +40,7 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
    - __Clean Up Comments__
    - __Clean Up Status__
 
-   ![createlist_view_for_cleanup](/img/product_docs/strongpointforsalesforce/clean_up/createlist_view_for_cleanup.png)
+   ![createlist_view_for_cleanup](/img/product_docs/strongpointforsalesforce/clean_up/createlist_view_for_cleanup.webp)
 6. Restrict Visibility. You can choose to have the list view:
 
 - Only visible to you,
@@ -50,7 +50,7 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 7. Click __Save__.
 8. Once your list view has been created, you can multi-select customizations for clean up by checking the box beside __Action__.
 
-   ![multi_select_cleanup](/img/product_docs/strongpointforsalesforce/clean_up/multi_select_cleanup.png)
+   ![multi_select_cleanup](/img/product_docs/strongpointforsalesforce/clean_up/multi_select_cleanup.webp)
 9. You can now choose what you want to edit for the multiple customizations selected.  
     For example, if you want to change the clean up status:
 10. Go to __Edit Clean Up Status__.
@@ -58,4 +58,4 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 12. Choose to __Apply changes to: All the selected records__.
 13. Click __Save__.
 
-    ![flagging_mass_customizations](/img/product_docs/strongpointforsalesforce/clean_up/flagging_mass_customizations.png)
+    ![flagging_mass_customizations](/img/product_docs/strongpointforsalesforce/clean_up/flagging_mass_customizations.webp)

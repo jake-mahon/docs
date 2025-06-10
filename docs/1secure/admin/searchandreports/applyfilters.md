@@ -6,23 +6,23 @@ Filters are used to narrow your search results. You can create your own filters 
 - Specify several values in the same filter to search for any of them (e.g., Action_: Modified_ OR Action_: Removed_). To do this, select a filter again and specify a new value.
 - Spaces do not separate values, so the whole expression will be included in your search as a single value. For example, if you want to search for any of three names, do not enter _Anna Mark Bill_ but instead create a separate filter entry for each name.
 
-![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.png)
+![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
 
 __NOTE:__ All reports on the __Reports__ > __Activity__ tab are associated with the respective alerts. Click the __Alerts Timeline Dashboard__ in the upper left corner of the page to view the alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional information.
 
 | Icon | Description |
 | --- | --- |
-| ![search_icon](/img/product_docs/1secure/admin/searchandreports/search_icon.png) | Info Icon. Click the Info Icon to view the activity records details. |
+| ![search_icon](/img/product_docs/1secure/admin/searchandreports/search_icon.webp) | Info Icon. Click the Info Icon to view the activity records details. |
 
 Follow the steps to apply filters to your search.
 
 __Step 1 –__ Select the __Reports__> __Activity__ tab.
 
-![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.png)
+![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
 
 __NOTE:__ You can also access the __Reports__ > __Activity__ page from your organization's page. On your Home screen, click __Configure__ > __Reports__ in the right upper corner of the page.
 
-![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.png)
+![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
 
 __Step 2 –__  Select a filter from the Filter drop-down menu. See the [Filter Descriptions](#filter-descriptions) topic for additional information.
 
@@ -32,19 +32,19 @@ __Step 3 –__ If required, specify the property change filters.
 
 __NOTE:__ Netwrix 1Secure comes with the advanced filtering options. Not all the activity records have the property changes, but only those with the property change on that record. For example, if the permission on the Active Directory has been added or resource ID in AzureAD has been removed.
 
-![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.png)
+![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
 
 __NOTE:__ The drop-down list in the __Property__ field shows all the properties retrieved in your records' list below the Search bar. It varies depending on the displayed records. You can filter the required Property, Action, Value operator, and Value within the list. The property changes are dynamic and are not related to a given report directly but the activity records. If the query changes, the shown property changes may also change.
 
-![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.png)
+![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
 
 __Step 4 –__ Click Search to find and view your reports. The reports are displayed with the predefined filters. Your search results will display in the table.
 
-![Filter results](/img/product_docs/1secure/admin/searchandreports/search_searchresults.png)
+![Filter results](/img/product_docs/1secure/admin/searchandreports/search_searchresults.webp)
 
 __Step 5 –__ Click the required activity record from the grid view the activity record details. You can see who, when, or where was the activity made.
 
-![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.png)
+![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
 
 __NOTE:__ Navigate from one report to another by selecting __Prev__ or __Next__. This will directly upload the details of the selected report.
 

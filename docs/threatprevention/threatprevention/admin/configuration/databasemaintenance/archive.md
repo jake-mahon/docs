@@ -10,7 +10,7 @@ Follow the steps to configure settings for the archive database.
 
 __Step 1 –__ Click __Configuration__ > __Database__ > __Maintenance__ on the menu. The Database Maintenance window is displayed. Click the __Archive DB__ tab.
 
-![Database Maintenance window - Archive DB tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedb.png)
+![Database Maintenance window - Archive DB tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedb.webp)
 
 __Step 2 –__ Enter the following information for the database where data is to be archived:
 
@@ -39,7 +39,7 @@ Make sure archive database settings have been configured and the archiving proce
 
 __Step 2 –__  Click the __Configure Archive DB Maintenance__ button. The Archive DB Maintenance window is displayed.
 
-![Archive DB Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedbmaintenance.png)
+![Archive DB Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedbmaintenance.webp)
 
 The following information is displayed at the top of the window:
 

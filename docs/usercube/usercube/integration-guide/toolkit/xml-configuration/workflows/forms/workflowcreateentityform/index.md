@@ -52,11 +52,11 @@ And with the following form for the workflow's summary:
 
 The content of ```MainControl``` is visible during the workflow's execution:
 
-![Form Example - Site Creation](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/formexample_workflowcreateentityform_v603.png)
+![Form Example - Site Creation](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/formexample_workflowcreateentityform_v603.webp)
 
 The content of ```SummaryControl``` is visible after the workflow's execution:
 
-![Summary Form Example - Site Creation](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/formexample_workflowcreateentityform_summary_v603.png)
+![Summary Form Example - Site Creation](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/formexample_workflowcreateentityform_summary_v603.webp)
 
 ## Properties
 

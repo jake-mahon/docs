@@ -2,7 +2,7 @@
 
 The Add Administrators window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Add Administrators Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.png)
+![Add Administrators Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.webp)
 
 The window has the following features:
 

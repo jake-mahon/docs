@@ -6,13 +6,13 @@ __NOTE:__ For a video demonstrating the use of Endpoint Policy Manager Remote Wo
 
 Remember that Endpoint Policy Manager Remote Work Delivery Manager policies can be created and exported on the User side or Computer side. In the example below you can see an export from the User side.
 
-![exporting_collections](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections.png)
+![exporting_collections](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections.webp)
 
 Choosing this option from the User side will allow the user to export the policy or collection for later use with Endpoint Policy Manager Cloud or an MDM service.
 
 Below you can see an Export of Endpoint Policy Manager Remote Work Delivery Manager XML from the Computer side.
 
-![exporting_collections_1](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections_1.png)
+![exporting_collections_1](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections_1.webp)
 
 Choosing this option from the Computer side will allow the user to export the Policy or collection for later use with Endpoint Policy Manager Cloud or an MDM service.
 

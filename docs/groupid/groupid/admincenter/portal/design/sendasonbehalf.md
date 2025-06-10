@@ -78,7 +78,7 @@ You can provide the Send As setting on any tab of an object’s properties page 
 
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the Send As field for, then click the respective tab. The Send As field is displayed as follows:
 
-![sendas](/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.png)
+![sendas](/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.webp)
 
 Use the __Add__ and __Remove__ buttons to add and remove objects in the Send As list. The added objects can send email for the target object in accordance with the Send As functionality.
 
@@ -130,6 +130,6 @@ You can provide the Send on Behalf setting on any tab of an object’s propertie
 
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as follows:
 
-![sendonbehalf](/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.png)
+![sendonbehalf](/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.webp)
 
 Use the __Add__ and __Remove__ buttons to add and remove objects in the Send on Behalf list. The added objects can send email on behalf of the target object in accordance with the Send on Behalf functionality.

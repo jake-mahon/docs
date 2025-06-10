@@ -7,7 +7,7 @@ The Custom Query page for a Custom SQL Query contains the following configuratio
 - Custom SQL Query
 - Custom Db2LUW Query
 
-![SQL Data Collector Wizard Custom SQL Query Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customsqlquery.png)
+![SQL Data Collector Wizard Custom SQL Query Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/customsqlquery.webp)
 
 The configurable options are:
 

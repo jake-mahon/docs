@@ -6,7 +6,7 @@ Supported object types and attributes are listed in the [SQL Server](/docs/audit
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties.
 
-![sqlservermeansgranted](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranted.png)
+![sqlservermeansgranted](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranted.webp)
 
 ## Reported data
 
@@ -63,4 +63,4 @@ This report has the following filters:
 
 When examining the __Object Permissions in SQL Server__ report, database administrators in the _Corp_ organization discovered that the accounts with Contractor job title has access to the __SQLSrv01\SQLServer2016__ instance. To explore how this could happen, they drilled down to the __SQL Server Means Granted__ report for that account by clicking the link in the __Means granted__ field for that account.
 
-![sqlservermeansgranteddetails](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.png)
+![sqlservermeansgranteddetails](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)

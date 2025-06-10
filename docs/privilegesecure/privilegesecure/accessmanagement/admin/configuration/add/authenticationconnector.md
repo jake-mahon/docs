@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Configuration__ > __Authentication__ page.
 
 __Step 2 –__ In the Connectors list, click the __Plus__ icon.
 
-![addauthentication](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addauthentication.png)
+![addauthentication](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addauthentication.webp)
 
 __Step 3 –__ Enter the following information:
 

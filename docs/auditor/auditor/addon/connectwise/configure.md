@@ -8,7 +8,7 @@ __Step 1 –__ To connect to ConnectWise Manage REST API, the API keys will be r
 
 __Step 2 –__ Navigate to the add-on folder and run ConfigureConnection.exe. Follow the steps of the wizard to configure connection to ConnectWise Manage and ticketing options. At the Connection Setup step, specify the following:
 
-![1_connection](/img/product_docs/auditor/auditor/addon/connectwise/connectionsetup.png)
+![1_connection](/img/product_docs/auditor/auditor/addon/connectwise/connectionsetup.webp)
 
 | Parameter | Description |
 | --- | --- |
@@ -19,7 +19,7 @@ __Step 2 –__ Navigate to the add-on folder and run ConfigureConnection.exe. Fo
 
 __Step 3 –__ At the Service Ticket Routing step, specify the following:
 
-![serviceticketrouting](/img/product_docs/auditor/auditor/addon/connectwise/serviceticketrouting.png)
+![serviceticketrouting](/img/product_docs/auditor/auditor/addon/connectwise/serviceticketrouting.webp)
 
 | Parameter | Description |
 | --- | --- |
@@ -30,7 +30,7 @@ __Step 3 –__ At the Service Ticket Routing step, specify the following:
 
 __Step 4 –__ Configure how Auditor activity record fields will be mapped with __ConnectWise Manage__ ticket fields.
 
-![ticketfieldmapping](/img/product_docs/auditor/auditor/addon/connectwise/ticketfieldmapping.png)
+![ticketfieldmapping](/img/product_docs/auditor/auditor/addon/connectwise/ticketfieldmapping.webp)
 
 | Parameter | Description |
 | --- | --- |
@@ -41,11 +41,11 @@ __Step 4 –__ Configure how Auditor activity record fields will be mapped with 
 
 Optionally, you can click the Create Test Ticket button — then a test ticket will be created in ConnectWise Manage to help you verify the connection and ticketing settings you configured.   
 Its Summary field will contain _[Netwrix Auditor] Test Alert_; its Initial Description field will contain _This ticket was created to test the functionality of Netwrix Auditor Add-on for ConnectWise Manage_. Also, the test ticket will have a sample attachment (_TestAttachment.txt_).   
-![testalert](/img/product_docs/auditor/auditor/addon/connectwise/testalert.png)
+![testalert](/img/product_docs/auditor/auditor/addon/connectwise/testalert.webp)
 
 __Step 5 –__  Finally, at the __Summary__ step, review the location of configuration file with the settings you specified: _C:\Addon\ITSM\_CW\ConnectWiseSettings.xml_.
 
-![summary_thumb_0_0](/img/product_docs/auditor/auditor/addon/connectwise/summary_thumb_0_0.png)
+![summary_thumb_0_0](/img/product_docs/auditor/auditor/addon/connectwise/summary_thumb_0_0.webp)
 
 If needed, you can edit the configuration file manually. See the [Connection and Ticketing Settings](/docs/auditor/auditor/addon/connectwise/connectionticketingsettings.md) topic for additional information.
 

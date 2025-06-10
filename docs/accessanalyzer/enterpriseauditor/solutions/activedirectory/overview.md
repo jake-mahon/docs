@@ -17,7 +17,7 @@ Location
 
 The Active Directory Solution requires a special Access Analyzer license. It can be installed from the Access Analyzer Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information. Once installed into the Jobs tree, navigate to the solution: __Jobs__ > __Active Directory__.
 
-![Active Directory Solution](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/solutionoverview.png)
+![Active Directory Solution](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/solutionoverview.webp)
 
 Each job group works independently from the other job groups. Some job groups run analysis tasks against the analyzed data collected by the .Active Directory Inventory Solution to generate reports, for example the 1.Groups job group. Other job groups run both data collection and analysis to generate reports. The AD\_SecurityAssessment job summarizes security related results from both the Active Directory solution and the Active Directory Permissions Analyzer solution.
 
@@ -27,7 +27,7 @@ __NOTE:__ The Cleanup job group requires additional licenses to function. See th
 
 The Active Directory solution is a comprehensive set of audit jobs and reports that provide the information every administrator needs for Active Directory configuration, operational management, troubleshooting, analyzing effective permissions, and tracking who is making what changes within an organization.
 
-![Active Directory Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/adsolutionjobgroup.png)
+![Active Directory Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/adsolutionjobgroup.webp)
 
 The following job groups comprise the Active Directory solution:
 

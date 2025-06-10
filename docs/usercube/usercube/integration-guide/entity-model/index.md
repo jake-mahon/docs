@@ -156,7 +156,7 @@ Let's take, for example, a case where we want to store an employee's start date:
 
 We need to transform the input data, from the export, into something readable by Identity Manager and, when writing to the external system, transform Identity Manager's data back into something readable by the external system.
 
-![Export and Fulfill Data transformation](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.png)
+![Export and Fulfill Data transformation](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)
 
 The format used in the external system can be provided through the [Entity Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) using the [References: Format for the EntityPropertyMapping](/docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) attribute to help Identity Manager to convert data appropriately.
 

@@ -12,7 +12,7 @@ The right tools for the job are scalar rules.
 
 A scalar property's value can be computed by a scalar rule, based on at least one scalar property from the source entity type, possibly writing a C# expression.
 
-![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.png)
+![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
 
 A scalar rule could define the scalar property displayName of nominative AD accounts based on its owner's name with the expression:
   
@@ -73,23 +73,23 @@ Categorize Resources
 
 Fill an entity type with a scalar rule by proceeding as follows:
 
-![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-![iconadd_v602](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![iconadd_v602](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 3 –__ Click on the __Scalars__ tab and on the addition button at the top right corner.
 
-![Create Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.png)
+![Create Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.webp)
 
 __Step 4 –__ Fill in the fields.
 
-![Scalar Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.png)
+![Scalar Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.webp)
 
 Once the Resource Type is provided, more fields appear.
 
@@ -110,7 +110,7 @@ Once the Resource Type is provided, more fields appear.
 
 Our example would look like:
 
-![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.png)
+![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.webp)
 
 __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
@@ -118,7 +118,7 @@ __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
 Any modification in a scalar rule is taken into account when launching the role model computation task, in the __Resource Types__ frame of the corresponding connector's overview page, via __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is modified, then all corresponding assignments are computed again. If a resource was created automatically for an identity through a scalar rule (and its single role criterion), and if the user's criteria do not comply with the new version of the rule, then the corresponding resource is automatically deleted.
 
@@ -132,7 +132,7 @@ Perform a Simulation
 
 In order to verify the process:
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 __Step 1 –__ On the corresponding connector's overview page, in the __Resource Types__ frame click on __Jobs__ > __Compute Role Model__ to apply all rules.
 

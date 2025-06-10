@@ -6,10 +6,10 @@ __NOTE:__ For an overview of using custom policies, see the following video: [Br
 
 You might also want to route websites to virtualized browsers. In this example you can see a virtualized Firefox. To route to virtualized browsers, simply take the icon's launch target and copy it.
 
-![about_policypak_browser_router_19](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_19.png)
+![about_policypak_browser_router_19](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_19.webp)
 
 Then, using Endpoint Policy Manager Browser Router, make a custom route and paste the target path into the __Custom Browser Path__ field.
 
-![about_policypak_browser_router_20](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_20.png)
+![about_policypak_browser_router_20](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_20.webp)
 
 This technique works for most virtualized browsers such as Microsoft App-V, VMware ThinApp, etc. Note that once a virtualized browser is opened, Endpoint Policy Manager Browser Router cannot route away from those browsers and then back to real browsers. This is because Endpoint Policy Manager Browser Router's helper extensions are not installed in the virtualized browser.

@@ -60,6 +60,6 @@ The __AutoSpider Portlet__ is required to update certain object types in NetSuit
 
 The __ReSpider Now__ feature is used to document or update documentation for a specific customization or a specific set of customizations on demand. Once you are finished adding your new/updated objects to your customization record or change request, simply click __ReSpider Now__ on your form, and your documentation is updated in real time. Here is an example of a customization record with the __ReSpider Now__ option:
 
-![ReSpiderNow](/img/product_docs/strongpointfornetsuite/respider_now.png)
+![ReSpiderNow](/img/product_docs/strongpointfornetsuite/respider_now.webp)
 
 Proposed customizations do not work for custom forms and custom reports, since they do not have Script IDs. NetSuite is currently working on this, but it is still in development. For searches, __ReSpider Now__ uses the permissions of the current logged in user. If the user does not have the correct permission set, the search shows as private.

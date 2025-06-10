@@ -8,13 +8,13 @@ First specify the process match and signify you want to perform __ACL manage fil
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.webp)
 
 Next, specify the path(s) to files or registry and change the Permission (using the dropdown or __Edit permissions__ button.)
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.webp)
 
 As a result, when Notepadis run from the specified location it can edit the ```c:\windows\system32\drivers\etc\hosts``` file.
 

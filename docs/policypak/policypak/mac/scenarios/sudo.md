@@ -10,13 +10,13 @@ Sudo mkdir /Users/Sudo/test1 but is blocked with a password request.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo.webp)
 
 To overcome this, create a SUDO rule like this one:
 
 :![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_1.webp)
 
 The Actions are:
 
@@ -30,4 +30,4 @@ After the policy is synced, the result on the client can be seen here, where the
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_2.webp)

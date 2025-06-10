@@ -13,7 +13,7 @@ To define an image display type, specify the image’s display dimensions (heigh
 
 A custom image display type is rendered on a portal page as:
 
-![photo_placeholder](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/photo_placeholder.png)
+![photo_placeholder](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/photo_placeholder.webp)
 
 Click __Edit__ to launch the __Manage Photo__ dialog box for uploading a photo. The dialog box also
 provides many image editing options, including rotate, crop, flip, and re-size.

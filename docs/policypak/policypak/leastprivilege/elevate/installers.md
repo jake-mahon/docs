@@ -2,7 +2,7 @@
 
 The problem is when you elevating an application but it keeps giving the UAC prompt.
 
-![723_1_uac](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_1_uac.png)
+![723_1_uac](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_1_uac.webp)
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager detects Application Installers by searching for default keywords in FileDescription, ProductName, OriginalFileName, InternalName or Comments from File Information.It also searches for keywords in Description section from File Manifest (if exists).
 
@@ -14,7 +14,7 @@ In this example we are going to show you how to set Ninite installer as an eleva
 
 __Step 1 –__ Open __Properties__ to view Ninite installer File Description keyword.
 
-![723_2_image-20201103180355-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_2_image-20201103180355-1.png)
+![723_2_image-20201103180355-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_2_image-20201103180355-1.webp)
 
 __Step 2 –__ Browse the following location under Endpoint Policy Manager ADMX Setting and set it as shown in the screenshot:
 
@@ -25,4 +25,4 @@ __Step 2 –__ Browse the following location under Endpoint Policy Manager ADMX 
 
   Use additional keywords to detect Application Installers
 
-![723_3_image-20201103180355-2](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_3_image-20201103180355-2.png)
+![723_3_image-20201103180355-2](/img/product_docs/policypak/policypak/leastprivilege/elevate/723_3_image-20201103180355-2.webp)

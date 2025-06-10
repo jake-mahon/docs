@@ -46,7 +46,7 @@ __NOTE:__ For any SQL Server version prior to 2012, Windows groups cannot be use
 
 To create the roles within the SQL Server database, run the following script.
 
-![Query Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlcreateroles.png)
+![Query Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlcreateroles.webp)
 
 Be sure to set the context of this query to the Access Analyzer database by selecting the right database from the drop-down window. Alternatively, prefix the script with a ```USE [Access Analyzer DATABASE NAME]``` clause.
 
@@ -97,7 +97,7 @@ Now that the SQL Server database roles have been created the next step is to ass
 
 __Step 1 –__ Connect to the Access Analyzer database through SQL Management Studio.
 
-![Database Roles](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqldatabaseroles.png)
+![Database Roles](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqldatabaseroles.webp)
 
 __Step 2 –__ Validate that the roles have been properly created by navigating to __Security__ > __Roles__ > __Database Roles__. The three new roles should be visible:
 
@@ -107,11 +107,11 @@ __Step 2 –__ Validate that the roles have been properly created by navigating 
 
 |  |  |
 | --- | --- |
-| ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusers.png) | ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusersnewuser.png) |
+| ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusers.webp) | ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusersnewuser.webp) |
 
 __Step 3 –__ After confirmation of role creation, the next step is to map users to these roles. Right-click on the __Security__ > __Users__ node and select __New User__.
 
-![Database User Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqluserwindow.png)
+![Database User Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqluserwindow.webp)
 
 __Step 4 –__ Enter the user information in the dialog as follows:
 

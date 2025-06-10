@@ -26,15 +26,15 @@ Follow the steps to add a Panzura host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device. Click __Next__.
 
-![Add Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostpanzura.png)
+![Add Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostpanzura.webp)
 
 __Step 3 –__ On the Add Host page, select the __Panzura__ radio button and enter the __Panzura filer name__. Click __Next__.
 
-![Panzura Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/panzuraoptions.png)
+![Panzura Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/panzuraoptions.webp)
 
 __Step 4 –__ On the Panzura Options page, enter the __Username__, __Password__, and select the __Protocol__ to be used by the Panzura host.
 
@@ -47,7 +47,7 @@ __Step 4 –__ On the Panzura Options page, enter the __Username__, __Password__
 
 Click __Next__.
 
-![Customize Certifiacte Verification](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.png)
+![Customize Certifiacte Verification](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate verification during a TLS session
   - Import – Click to browse for a trusted server certificate
@@ -57,7 +57,7 @@ Click __Next__.
 
   Click __Connect__ to connect to the Panzura device. Click __Next__.
 
-![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/panzuraconfigureoperations.png)
+![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/panzuraconfigureoperations.webp)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__ and __Directory Operations__ to be monitored.
 
@@ -65,7 +65,7 @@ __Step 5 –__ On the Configure Operations page, select the __File Operations__ 
 
 Click __Next__.
 
-![configurebasicoptionspanzura](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionspanzura.png)
+![configurebasicoptionspanzura](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionspanzura.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which of the following settings to enable:
 
@@ -84,13 +84,13 @@ __Step 6 –__ On the Configure Basic Options page, choose which of the followin
 
 Click __Next__.
 
-![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
 __NOTE:__ An option must be selected before moving to the next step.
 
-![fileoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutput.png)
+![fileoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutput.webp)
 
 __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -105,7 +105,7 @@ __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity_
 
 Click __Next__.
 
-![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -126,7 +126,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![activitymonitorpanzura](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorpanzura.png)
+![activitymonitorpanzura](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorpanzura.webp)
 
 The added Panzura host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

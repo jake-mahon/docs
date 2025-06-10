@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_PermissionChanges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.png)
+![Analysis Tasks for the FS_PermissionChanges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

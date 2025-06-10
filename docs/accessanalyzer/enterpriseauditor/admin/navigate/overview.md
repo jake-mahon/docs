@@ -2,7 +2,7 @@
 
 There are several options that can be used to navigate the Access Analyzer Console. This section covers basic Access Analyzer Console navigation, including menu options, buttons, and the different panes through which users can access Access Analyzer’s various functions and options.
 
-![Console Navigation Overview](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationoverview.png)
+![Console Navigation Overview](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationoverview.webp)
 
 The primary sections of the Access Analyzer Console are:
 

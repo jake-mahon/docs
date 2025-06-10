@@ -6,7 +6,7 @@ Netwrix Data Classification connects to and crawls a Box source via a custom Box
 
 1. Check if your Box license plan provides the capacity you need. Netwrix Data Classification uses API calls for content crawling (min one API call for a single file). Therefore, if you need to store and crawl a large amount of files in Box (e.g. 100, 000 files), then your selected plan should support a sufficient number of API calls per month. Otherwise, the solution will not be able to crawl your content in one month due to limited number of allowed API calls (e.g. with a _Starter_ plan that provides only 25 000 calls per month). So, when selecting a Business subscription plan at [https://www.box.com/pricing](https://www.box.com/pricing), remember to click __Show more features__ in the bottom and examine the information on __API calls per month__ supported by each plan.
 
-![box_lic_plans_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_lic_plans_thumb_0_0.png)
+![box_lic_plans_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_lic_plans_thumb_0_0.webp)
 
 2. Make sure you have configured a valid Google account (with multi-factor authentication supported) and registered it as a _Box Developer Account_. This account is needed to create an app that Netwrix Data Classification will use for interaction with Box API. For more information on the custom apps and Box API, refer to [this article](https://developer.box.com/guides/authentication/sso/).
 
@@ -29,7 +29,7 @@ This section describes steps 1 and 2 that are performed on the Box side. Steps 3
 2. Open the Box developer's console endpoint: ```https://app.box.com/developers/console```.
 3. If you have not created an app before, you will see a screen similar to the one below:
 
-   ![box_app](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_app.png)
+   ![box_app](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_app.webp)
 4. Click __Create New App__.
 5. Select Custom App.
 6. Ensure that the Authentication Method is selected as OAuth 2.0 with JWT (Server Authentication).
@@ -43,7 +43,7 @@ This section describes steps 1 and 2 that are performed on the Box side. Steps 3
 
     __NOTE:__ If you have not enabled two-factor authentication for the app account in advance, you will be prompted to do it. Click __Settings__, then in the __Account Settings__, navigate to __Authentication__. Select __Require 2-step verification to protect your account__, then provide the necessary information in the __Enable Login Verification__ dialog and complete the verification. When finished, get back to the __Configuration__ section, clicking the related item in the left pane.
 
-    ![box_keys](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_keys.png)
+    ![box_keys](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_keys.webp)
 12. You will be notified about downloading a JSON file with all configuration settings of your app.
 
     __IMPORTANT!__  Since Box does not store any private keys, this file contains the only copy of your private key, so store it securely.

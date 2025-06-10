@@ -43,7 +43,7 @@ CSE 24.7 and later:
 
   - __CAUTION:__ Do not use the DFS checkbox if the path is not a DFS share.
 
-![pathconditiondfs](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/pathconditiondfs.png)
+![pathconditiondfs](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/pathconditiondfs.webp)
 
 CSE Pre 24.7:
 
@@ -71,16 +71,16 @@ For Non-EXE rules created in version 2339 and lower:
 - So, for instance, if all of your Non-EXE applications reside in a folder normally accessed via the drive letter S: and you want to elevate all the Non-EXE files in S:
 - You should create a Endpoint Policy Manager Least Privilege Manager rule to Elevate the path to the folder using the S: drive and then select Folder or Folder (Recursive) as shown below.
 
-![502_3_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_3_image.png)
+![502_3_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_3_image.webp)
 
 To cover all bases you can also create the rule with all possible paths:
 
-![502_4_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_4_image.png)
+![502_4_image](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_4_image.webp)
 
 Troubleshooting Non-EXE rules:
 
 - If an elevation rule does NOT work, you can create a simple path rule for any of the Non-EXE files, (ie. MSI) using a wildcard, for example: ```*\SkypeSetup.msi``` then launch the MSI after running``` gpupdate``` on the target machine and then check the Endpoint Policy Manager event log to see which path was shown for the MSI (see screenshot below). Lastly, use that path for your Non-EXE rule:
 
-![502_5_image-20200121124504-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_5_image-20200121124504-4.png)
+![502_5_image-20200121124504-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_5_image-20200121124504-4.webp)
 
-![502_7_image-20200121124504-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_7_image-20200121124504-5.png)
+![502_7_image-20200121124504-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/502_7_image-20200121124504-5.webp)

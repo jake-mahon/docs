@@ -9,13 +9,13 @@ To open a Change Log:
 1. Open __Strongpoint__ > __Change Management Reports__ and select a report.
 2. Click __View__ beside the Change Log to open.
 
-![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.png)
+![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 If the __Actual Change Date__ is empty or __Change By__ is set to __Could Not Be Determined__ or __Pending Autospider__, a __Refresh Changed By__ button is available. When clicked, it populates __Actual Change Date__ and __Change By__ fields.
 
 The button is only available for Object types where the __Actual Change Date__ and __Change By__ fields can be retrieved.
 
-![Refresh Changed By](/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.png)
+![Refresh Changed By](/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.webp)
 
 ## Change Log Header
 
@@ -84,7 +84,7 @@ __Diff. Summary__: Displays the difference between the old value and the new val
 
 __Data Error__: Checked if a data error occurred.
 
-![values_tab](/img/product_docs/strongpointfornetsuite/change_management/values_tab.png)
+![values_tab](/img/product_docs/strongpointfornetsuite/change_management/values_tab.webp)
 
 ## Finding Users Who Have Made Changes
 
@@ -108,8 +108,8 @@ In an open Change Log:
 
 1. Click on a linked __Customization__ to open the Customization Record. __Strongpoint Return Jira Ticket Info (Suitelet Script)__ in this example.
 
-   ![Change Log Customization link](/img/product_docs/strongpointfornetsuite/change_management/change_log_customization_link.png)
+   ![Change Log Customization link](/img/product_docs/strongpointfornetsuite/change_management/change_log_customization_link.webp)
 2. Click __Go to Record__
 3. Open __System Notes__
 
-![systemsnotes](/img/product_docs/strongpointfornetsuite/change_management/systemsnotes.png)
+![systemsnotes](/img/product_docs/strongpointfornetsuite/change_management/systemsnotes.webp)

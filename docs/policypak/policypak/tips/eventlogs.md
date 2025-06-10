@@ -18,87 +18,87 @@ To get started you need a Log Workspace. This is basically a security block betw
 
 __Step 1 –__ To get started use the big search thingie to find "Log Analytics workspaces" like what's seen here.
 
-![f5f03570b7ec45-img-01](/img/product_docs/policypak/policypak/tips/f5f03570b7ec45-img-01.png)
+![f5f03570b7ec45-img-01](/img/product_docs/policypak/policypak/tips/f5f03570b7ec45-img-01.webp)
 
 Then, there's a little Wizard (not shown) to help you get started. Basically it's asking you for names and which Azure region you want to keep the data in. Then after it gets going you'll see "Your deployment is underway" like what's seen here.
 
-![f5f03570bb83ef-img-02](/img/product_docs/policypak/policypak/tips/f5f03570bb83ef-img-02.png)
+![f5f03570bb83ef-img-02](/img/product_docs/policypak/policypak/tips/f5f03570bb83ef-img-02.webp)
 
 __Step 2 –__ Then you should be thrown into the Advanced settings like what's seen here. If not, find the Workspace you just created and click Advanced in the left-side menu. It should get you to this place. Note then the "WORKSPACE ID" and "PRIMARY KEY" like what's seen here. Hang on to those, you'll need these in a bit. Then also download the Windows Agent 64-bit or 32-bit to get started for your example machines.
 
-![f5f03570bb8f55-img-03](/img/product_docs/policypak/policypak/tips/f5f03570bb8f55-img-03.png)
+![f5f03570bb8f55-img-03](/img/product_docs/policypak/policypak/tips/f5f03570bb8f55-img-03.webp)
 
 In this example, we'll be installing the LA Agent by hand on a test machine. In real life you could use, say Windows Intune to deploy it with command line options to just chuck in your Workspace ID and Primary Keys and do the whole thing silently and automatically.
 
 __Step 3 –__ Once you have the download, get it over to your test machine. Machine can be real or virtual. Note that you shouldn't do this (nor do you need to) for WVD virtual machines. Those have a magical connector to accept event logs to LA; and you shouldn't need to use this method. (Docs: [https://docs.microsoft.com/en-us/azure/virtual-desktop/diagnostics-log-analytics](https://docs.microsoft.com/en-us/azure/virtual-desktop/diagnostics-log-analytics) and a blog [https://www.mdmandgpanswers.com/blogs/view-blog/windows-10-and-server-event-logs-to-azure-log-analytics-walkthru](https://www.mdmandgpanswers.com/blogs/view-blog/windows-10-and-server-event-logs-to-azure-log-analytics-walkthru))
 
-![f5f03570bc2bfc-img-04](/img/product_docs/policypak/policypak/tips/f5f03570bc2bfc-img-04.png)
+![f5f03570bc2bfc-img-04](/img/product_docs/policypak/policypak/tips/f5f03570bc2bfc-img-04.webp)
 
 __Step 4 –__ Then, Up, Up and away. Launch the agent.. which requires admin rights. (Or, pro tip: Use Endpoint Policy Manager Scripts to install it automatically where the script is elevated.[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/scriptstriggers/cloud.md)
 
 __Step 5 –__ You'll need to select "Connect the agent to Azure Log Analytics (OMS)" like what's seen here.
 
-![f5f03570bad3be-img-05](/img/product_docs/policypak/policypak/tips/f5f03570bad3be-img-05.png)
+![f5f03570bad3be-img-05](/img/product_docs/policypak/policypak/tips/f5f03570bad3be-img-05.webp)
 
 __Step 6 –__ Then, it's time to chuck in your Workspace ID and Workspace Key. And you'll likely keep the default of Azure Cloud: Azure Commercial. Pull the pulldown if you have something unusual to select here.
 
-![f5f03570bbca1c-img-06](/img/product_docs/policypak/policypak/tips/f5f03570bbca1c-img-06.png)
+![f5f03570bbca1c-img-06](/img/product_docs/policypak/policypak/tips/f5f03570bbca1c-img-06.webp)
 
 __Step 7 –__ Yes, you want to check for updates when MS Update kicks in….
 
-![f5f03570bc37d5-img-07](/img/product_docs/policypak/policypak/tips/f5f03570bc37d5-img-07.png)
+![f5f03570bc37d5-img-07](/img/product_docs/policypak/policypak/tips/f5f03570bc37d5-img-07.webp)
 
 __Step 8 –__ And.. you're basically done.
 
-![f5f03570be8938-img-08](/img/product_docs/policypak/policypak/tips/f5f03570be8938-img-08.png)
+![f5f03570be8938-img-08](/img/product_docs/policypak/policypak/tips/f5f03570be8938-img-08.webp)
 
 __Step 9 –__ Now let's make sure we're talking in both directions. The Microsoft Monitoring Agent is found in Control Panel… which is a weird place, but, hey… that's okay.
 
-![f5f03570be4088-img-09](/img/product_docs/policypak/policypak/tips/f5f03570be4088-img-09.png)
+![f5f03570be4088-img-09](/img/product_docs/policypak/policypak/tips/f5f03570be4088-img-09.webp)
 
 __Step 10 –__ Then click the Azure Log Analytics (OMS) tab and … see you're talking outbound.
 
-![f5f03570bec541-img-10](/img/product_docs/policypak/policypak/tips/f5f03570bec541-img-10.png)
+![f5f03570bec541-img-10](/img/product_docs/policypak/policypak/tips/f5f03570bec541-img-10.webp)
 
 __Step 11 –__ Back in Azure, in the Advanced Settings page, the zero should be one !
 
-![f5f03570bdece8-img-11](/img/product_docs/policypak/policypak/tips/f5f03570bdece8-img-11.png)
+![f5f03570bdece8-img-11](/img/product_docs/policypak/policypak/tips/f5f03570bdece8-img-11.webp)
 
 __Step 12 –__ Now it's time to add in the actual event logs you want to capture. Note that the more you capture, the more you pay. Strictly speaking for the Endpoint Policy Manager customer I made this blog entry for, he only needed to capture the Endpoint Policy Manager log (which I do last.) But just for completeness and testing, I'll capture some more too, since you might not have the Endpoint Policy Manager Log. (And, why don't you!? Come on over and check out Endpoint Policy Manager for Pete's sake. Really, your sake to be honest.)
 
-![f5f03570bc37d5-img-12](/img/product_docs/policypak/policypak/tips/f5f03570bc37d5-img-12.png)
+![f5f03570bc37d5-img-12](/img/product_docs/policypak/policypak/tips/f5f03570bc37d5-img-12.webp)
 
 __Step 13 –__ So just type Application then +. Then System and + and bingo. Those are "well known" logs which LA knows about and pre-populates this list. But Endpoint Policy Manager? Not as common.. (Yet !) Therefore you could take a guess that our event logs are named Endpoint Policy Manager (they are…). But how would you know?
 
-![f5f03570be8938-img-13](/img/product_docs/policypak/policypak/tips/f5f03570be8938-img-13.png)
+![f5f03570be8938-img-13](/img/product_docs/policypak/policypak/tips/f5f03570be8938-img-13.webp)
 
 __Step 14 –__ The trick is to find the log you want to capture in Windows, and go to its properties and get its Full Name like what's seen here. Yeah, this one was easy.
 
-![f5f03570be4088-img-14](/img/product_docs/policypak/policypak/tips/f5f03570be4088-img-14.png)
+![f5f03570be4088-img-14](/img/product_docs/policypak/policypak/tips/f5f03570be4088-img-14.webp)
 
 But some are harder. I also wanted to capture the MDM event log which has a goofy and weird name. To get it, I went into an Event inside that log and captured its name microsoft-windows-devicemanagement-enterprise-diagnostics-provider/Operational and its brother microsoft-windows-devicemanagement-enterprise-diagnostics-provider/admin.
 
-![f5f03570bec541-img-15](/img/product_docs/policypak/policypak/tips/f5f03570bec541-img-15.png)
+![f5f03570bec541-img-15](/img/product_docs/policypak/policypak/tips/f5f03570bec541-img-15.webp)
 
 You can see that second log here…
 
-![f5f03570bdece8-img-16](/img/product_docs/policypak/policypak/tips/f5f03570bdece8-img-16.png)
+![f5f03570bdece8-img-16](/img/product_docs/policypak/policypak/tips/f5f03570bdece8-img-16.webp)
 
 __Step 15 –__ Once I pasted in all the logs and added them, I clicked Save and got this!
 
-![f5f03570b7ec3c-img-17](/img/product_docs/policypak/policypak/tips/f5f03570b7ec3c-img-17.png)
+![f5f03570b7ec3c-img-17](/img/product_docs/policypak/policypak/tips/f5f03570b7ec3c-img-17.webp)
 
 ## Data.. data? Do we have data ?
 
 __Step 1 –__ Click on Logs and close the sample queries. Let's just see what have. All of it (which shouldn't be much.)
 
-![f5f03570b7ee5e-img-18](/img/product_docs/policypak/policypak/tips/f5f03570b7ee5e-img-18.png)
+![f5f03570b7ee5e-img-18](/img/product_docs/policypak/policypak/tips/f5f03570b7ee5e-img-18.webp)
 
 __Step 2 –__ In the top box, type SEARCH
 
 __Step 3 –__ Then click Run. Bingo.. out should pop all the events that have been captured. You can change the Display Time to make sure that you're getting the right events, right now.
 
-![f5f03570b7e690-img-19](/img/product_docs/policypak/policypak/tips/f5f03570b7e690-img-19.png)
+![f5f03570b7e690-img-19](/img/product_docs/policypak/policypak/tips/f5f03570b7e690-img-19.webp)
 
 __Step 4 –__ It took a little while for the non-well-known logs to show up. But maybe it will work faster for you than for me. If you want to give it a shot and try your non-well-known logs, like this, give it a go.
 
@@ -108,11 +108,11 @@ __Step 5 –__ Then click Run again.
 
 Pow! Here come your logs.
 
-![f5f03570b7ed35-img-20](/img/product_docs/policypak/policypak/tips/f5f03570b7ed35-img-20.png)
+![f5f03570b7ed35-img-20](/img/product_docs/policypak/policypak/tips/f5f03570b7ed35-img-20.webp)
 
 Then I can also dig into an event, and … hey look ! EastSalesUser1 ran Procmon, and Endpoint Policy Manager did the elevation ! Amazeballs !
 
-![f5f03570b7e4f0-img-21](/img/product_docs/policypak/policypak/tips/f5f03570b7e4f0-img-21.png)
+![f5f03570b7e4f0-img-21](/img/product_docs/policypak/policypak/tips/f5f03570b7e4f0-img-21.webp)
 
 That's it. Well, that's basics anyway.
 

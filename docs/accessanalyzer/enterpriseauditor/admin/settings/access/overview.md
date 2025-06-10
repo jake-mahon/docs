@@ -2,7 +2,7 @@
 
 Configure what applications, users, and groups have access to Access Analyzer using the Access node
 
-![Access Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/access.png)
+![Access Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/access.webp)
 
 The first type of access that can be granted is Role Based Access for a user or group accessing the Access Analyzer Console. The second type of access grants access to an application accessing data remotely through the Web Service using the REST API. See these sections for additional information:
 

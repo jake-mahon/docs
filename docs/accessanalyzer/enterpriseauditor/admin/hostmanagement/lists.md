@@ -2,7 +2,7 @@
 
 A host list is a grouping of hosts for the purpose of executing jobs against. Every host list created can be accessed by expanding the __Host Management__ node in the Navigation pane.
 
-![Host Management Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Host Management Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 There are two types of host lists:
 
@@ -13,9 +13,9 @@ A newly created host list will appear in alphanumerical order under the Host Man
 
 | Icon | Type of Host List |
 | --- | --- |
-| ![Static Host List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/statichostlist.png) | Default Host List  or  Custom Host List (Static or Dynamic) |
-| ![Host Discovery Query List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/discoveryquerylist.png) | Host Discovery Query List |
-| ![Dynamic Host List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/dynamichostlist.png) | Host List created by Job |
+| ![Static Host List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/statichostlist.webp) | Default Host List  or  Custom Host List (Static or Dynamic) |
+| ![Host Discovery Query List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/discoveryquerylist.webp) | Host Discovery Query List |
+| ![Dynamic Host List icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/dynamichostlist.webp) | Host List created by Job |
 
 You can view host inventory information at the Host Discovery node (the Host Master Table) or at individual host list nodes. See the [Host Inventory Data Grid](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/datagrid.md) topic for information on the data collected by host inventory.
 

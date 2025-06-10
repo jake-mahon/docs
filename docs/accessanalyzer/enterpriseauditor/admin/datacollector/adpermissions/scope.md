@@ -5,7 +5,7 @@ The Scope page is where the scope for the Active Directory permissions scan is c
 - Scan Active Directory Permissions
 - Scan Active Directory Audits
 
-![ADPermissions Data Collector wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![ADPermissions Data Collector wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 The configurable options are:
 

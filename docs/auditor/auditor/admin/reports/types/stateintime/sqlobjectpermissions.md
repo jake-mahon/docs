@@ -4,7 +4,7 @@ This report shows a detailed list of the effective permissions that accounts hav
 
 Supported object types and attributes are listed in the [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md) section.
 
-![objectpermissionssqlserver_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/objectpermissionssqlserver_thumb_0_0.png)
+![objectpermissionssqlserver_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/objectpermissionssqlserver_thumb_0_0.webp)
 
 ## Reported data
 

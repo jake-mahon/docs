@@ -30,15 +30,15 @@ Our solution isn't a mere "ADM" template, it's a true Group Policy extension, wi
 
 Our PolicyPak software snaps-in to the Group Policy Editor and mimics the user interface of Flash Player itself. We've even added a few things you can't normally do – unless you know the tricks !Here, you can see how to prevent Flash from being updated.
 
-![130_1_flash-player-group-policy-policypak-1](/img/product_docs/policypak/policypak/video/applicationsettings/130_1_flash-player-group-policy-policypak-1.png)
+![130_1_flash-player-group-policy-policypak-1](/img/product_docs/policypak/policypak/video/applicationsettings/130_1_flash-player-group-policy-policypak-1.webp)
 
 And you can prevent users from picking up dangerous Flash super cookies, by performing this simple step.
 
-![130_2_flash-player-group-policy-policypak-2](/img/product_docs/policypak/policypak/video/applicationsettings/130_2_flash-player-group-policy-policypak-2.png)
+![130_2_flash-player-group-policy-policypak-2](/img/product_docs/policypak/policypak/video/applicationsettings/130_2_flash-player-group-policy-policypak-2.webp)
 
 Or, you can prevent users from using cameras and microphones! A serious Privacy "no-no" ! Poof..there goes cameras and microphones for the user.
 
-![130_3_flash-player-group-policy-policypak-3](/img/product_docs/policypak/policypak/video/applicationsettings/130_3_flash-player-group-policy-policypak-3.png)
+![130_3_flash-player-group-policy-policypak-3](/img/product_docs/policypak/policypak/video/applicationsettings/130_3_flash-player-group-policy-policypak-3.webp)
 
 With PolicyPak and the free Pre-Configured PolicyPak for Flash Player, you get full control over Flash Player, and granular control for each OU or users – using normal Group Policy controls. What's more, the settings will revert back when the Group Policy no longer applies (for instance, if the user changes job roles.)
 

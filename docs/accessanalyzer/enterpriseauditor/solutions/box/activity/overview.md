@@ -2,7 +2,7 @@
 
 The __Box__ > __1.Activity__ Job Group identifies long term trends of activity providing insight into user activity, usage statistics, and suspicious behavior identifies long-term trends of activity providing insight into user activity, usage statistics, and suspicious behavior.
 
-![1.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 1.Activity Job Group is comprised of:
 

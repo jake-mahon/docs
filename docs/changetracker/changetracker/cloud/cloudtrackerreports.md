@@ -4,4 +4,4 @@ Full overview of Reports, setup, scheduling, formatting and retention options ar
 
 An example of the Cloud Tracker Certified CIS Compliance Report:
 
-![cloudtrackerreports](/img/product_docs/changetracker/changetracker/cloud/cloudtrackerreports.png)
+![cloudtrackerreports](/img/product_docs/changetracker/changetracker/cloud/cloudtrackerreports.webp)

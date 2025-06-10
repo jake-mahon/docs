@@ -32,17 +32,17 @@ The [DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md) is a graphical pr
 
 1. The DRD can be launched from both the Home tab and the Tools menu. Open __Netwrix Dashboard__ > __Tools__ > __Dependency Relationship Diagram__, and select an object from the list.
 
-   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_10.png)
+   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_10.webp)
 
    From the __Netwrix Dashboard__ tab, use the __DRD Generator__ to launch the DRD for a particular Customization. You can search by __Name__ or __API Name__.
 
-   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_1.png)
+   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_1.webp)
 2. Click an attribute to expand the metadata record and view all the dependencies. Drill down for details so you can fully understand the downstream dependencies.
 
-   ![Viewing dependencies in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_13.png)
+   ![Viewing dependencies in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_13.webp)
 3. The DRD exposes other critical metadata such as the Owner, API Name, Data Type, and Date Last Used (DLU). This data expedites clean up, enabling you to filter and group Customizations in List Views or Reports.
 
-   ![Drilling into a dependency in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_11.png)
+   ![Drilling into a dependency in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_11.webp)
 4. Click __Open Record__ to open the full Customization Record with complete access to the detailed metadata and change history for the Customization.
 
 > __PRO TIPS__

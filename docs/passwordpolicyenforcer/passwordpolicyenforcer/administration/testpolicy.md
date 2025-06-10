@@ -4,7 +4,7 @@ You can quickly test your Password Policy Enforcer configuration by simulating a
 
 Test policy opens on the __By user__ tab.
 
-![Test by User](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuser.png)
+![Test by User](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuser.webp)
 
 ## By User
 
@@ -16,13 +16,13 @@ __Step 2 –__ Select a __user__.
 
 __Step 3 –__ __Type in a password to simulate its change__. As you type, the new password is evaluated and the results are displayed.
 
-![Failing Password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserfail.png)
+![Failing Password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserfail.webp)
 
 The entered password is failing in this example, due to not meeting the length requirement. There is a red x indicating the failure. You can hover over the requirements to see the rule name.
 
 In this example, the password passes. Notice the green check beside the entered password.
 
-![Passing password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserpass.png)
+![Passing password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserpass.webp)
 
 Expand the __View log__ for details:
 
@@ -33,7 +33,7 @@ Expand the __View log__ for details:
 
 Turn on __Verbose Logging__ to view the performed tests and results.
 
-![Verbose logging](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserverbose.png)
+![Verbose logging](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testuserverbose.webp)
 
 ## Bulk Password Test
 
@@ -43,7 +43,7 @@ __Step 1 –__ Click __Test policy__ from the Configuration Console dashboard or
 
 __Step 2 –__ Open the __Password bulk test__ tab.
 
-![Password bulk test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulk.png)
+![Password bulk test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulk.webp)
 
 __Step 3 –__ Select a policy for the test.
 
@@ -51,7 +51,7 @@ __Step 4 –__ __Browse__ to the text file containing the passwords to test. Pro
 
 __Step 5 –__ Click __Test passwords__. The __Statistics__ are displayed.
 
-![Test results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulkresult.png)
+![Test results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulkresult.webp)
 
 | Statistics of the Bulk Password Testing |  |
 | --- | --- |
@@ -64,7 +64,7 @@ __Step 5 –__ Click __Test passwords__. The __Statistics__ are displayed.
 
 Click __Show full report__ to view the test details.
 
-![Test Bulk Report](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulkreport.png)
+![Test Bulk Report](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testbulkreport.webp)
 
 You can use the __Report settings__ to customize the report:
 

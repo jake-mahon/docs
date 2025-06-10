@@ -6,7 +6,7 @@ This page is about [
 Excel
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.png)
+![Package: File/Microsoft Excel](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 

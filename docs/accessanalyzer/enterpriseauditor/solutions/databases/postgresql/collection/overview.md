@@ -2,7 +2,7 @@
 
 The PostgreSQL Solution Collection Job Group is designed to collect high level summary information from targeted PostgreSQL Servers. This information is used by other jobs in the PostgreSQL Solution Set for further analysis and producing respective reports.
 
-![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/0.collectionjobgroup.png)
+![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/0.collectionjobgroup.webp)
 
 The jobs in the 0.Collection Job Group are:
 

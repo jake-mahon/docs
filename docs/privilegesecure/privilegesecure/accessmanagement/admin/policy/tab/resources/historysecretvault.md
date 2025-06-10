@@ -2,7 +2,7 @@
 
 The History tab shows information about the session history of the selected resource.
 
-![History Tab for Secret Vault Recource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/historysecretvault.png)
+![History Tab for Secret Vault Recource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/historysecretvault.webp)
 
 The History tab has the following features:
 

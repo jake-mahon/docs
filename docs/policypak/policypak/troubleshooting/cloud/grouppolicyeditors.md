@@ -48,12 +48,12 @@ Here's an end to end example of how to check and perform this verification:
 
 Start off with a policy in Endpoint Policy Manager Cloud Admin Template item, like "Prohibit access to Control Panel and PC settings" like this:
 
-![611_5_image-20200923174350-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_5_image-20200923174350-1.png)
+![611_5_image-20200923174350-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_5_image-20200923174350-1.webp)
 
 If you want to verify the value, you would use the GP Spreadhseet and find the same policy like this.
 
-![611_6_image-20200923150026-2](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_6_image-20200923150026-2.png)
+![611_6_image-20200923150026-2](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_6_image-20200923150026-2.webp)
 
 Finally, on the endpoint, use Regedit to verify the final value is or is not present. This means Endpoint Policy Manager did the work you expect.
 
-![611_7_image-20200923152313-3](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_7_image-20200923152313-3.png)
+![611_7_image-20200923152313-3](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_7_image-20200923152313-3.webp)

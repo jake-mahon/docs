@@ -8,7 +8,7 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup24.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup24.webp)
 
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the passwords
   - See [PowerShell Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) for additional information.
@@ -19,7 +19,7 @@ Navigate to the Jobs > __Databases__ > SQL > 3.Users and Roles > SQL\_PasswordI
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected unless otherwise specified.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
 
 The default analysis tasks are:
 

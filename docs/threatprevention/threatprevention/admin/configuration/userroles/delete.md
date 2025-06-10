@@ -6,7 +6,7 @@ Follow the steps to delete a user.
 
 __Step 1 –__ Click __Configuration__ > __Users__ on the menu to open the Users and Roles window.
 
-![Remove User button on the Users and Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/removeuser.png)
+![Remove User button on the Users and Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/removeuser.webp)
 
 __Step 2 –__ Select a user and click the __Remove__ (x) button in the upper-right corner to delete it.
 

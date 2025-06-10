@@ -26,6 +26,6 @@ The WMICollector Data Collector is configured through the WMI Browser wizard, wh
 - [WMICollector: Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/properties.md)
 - [WMICollector: Summary (Results)](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/summary.md)
 
-![WMI Browser wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![WMI Browser wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

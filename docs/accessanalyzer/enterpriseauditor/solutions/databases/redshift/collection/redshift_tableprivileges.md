@@ -8,7 +8,7 @@ The Redshift\_TablePrivileges Job uses the SQL Data Collector for queries.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesquery.webp)
 
 The query is:
 
@@ -20,7 +20,7 @@ Navigate to the __Databases__ > __0.Collection__ > __Redshift__ > __Redshift\_Ta
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesanalysis.webp)
 
 The default analysis task is:
 

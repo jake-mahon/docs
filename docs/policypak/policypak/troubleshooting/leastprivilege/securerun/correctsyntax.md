@@ -14,4 +14,4 @@ Or
 
 %localappdata%\Slack\\* + File type
 
-![628_3_image-20210311160348-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/628_3_image-20210311160348-2.png)
+![628_3_image-20210311160348-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/628_3_image-20210311160348-2.webp)

@@ -6,7 +6,7 @@ __NOTE:__ To get an overview of Endpoint Policy Manager Browser Router's special
 
 The policies are __All intranet to IE__ policy and __All Enterprise from Edge to IE__ policy.
 
-![about_policypak_browser_router_36](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.png)
+![about_policypak_browser_router_36](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.webp)
 
 The __All intranet to IE__ policy takes all websites that are already defined in the Intranet zone and ensure that those sites open in Internet Explorer 11 if the user tries to use Microsoft Edge. In other words, once this policy is applied, if a user opens an Intranet site using Edge, it will automatically be routed to Internet Explorer 11.
 

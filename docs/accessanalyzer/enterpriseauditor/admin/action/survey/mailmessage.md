@@ -2,7 +2,7 @@
 
 Use this page to specify the text of the email. When first accessing this page, the cursor appears in the __Load from template__ field. Survey templates are a legacy feature and Netwrix recommends not using them.
 
-![Survey Action Module Wizard Mail – Message page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/survey/mailmessage.png)
+![Survey Action Module Wizard Mail – Message page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/survey/mailmessage.webp)
 
 Placeholder text displays in the Message box. This text includes a hyperlink to the web page hosting the survey. Placeholder text can be modified but the link cannot be removed. The link does not activate until the message is sent.
 
@@ -23,7 +23,7 @@ Use the following fields to specify the text of the email:
 
 The Messages preview window opens when you click __Preview__ on the Mail – Message page of the Survey Action Module Wizard. This window displays a preview of the email, including any dynamic fields.
 
-![Messages preview window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/survey/messagespreview.png)
+![Messages preview window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/survey/messagespreview.webp)
 
 The window has the following options:
 

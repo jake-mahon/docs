@@ -2,7 +2,7 @@
 
 The Add or Edit Path window is opened from the Path Filtering tab of a monitored host's output Properties window.
 
-![addoreditpath](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addoreditpath.png)
+![addoreditpath](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addoreditpath.webp)
 
 - Specify a path to filter during collection – Enter a file path in the textbox or use the ellipsis (…) to browse for a folder
 - Filter Type – Indicates if the filter will be __Included__ or __Excluded__

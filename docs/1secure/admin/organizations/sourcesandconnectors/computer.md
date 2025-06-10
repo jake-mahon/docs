@@ -8,11 +8,11 @@ __Step 2 –__ Click an organization to define a data source and connector(s) fo
 
 __Step 3 –__ On the Sources tab, click __Add__ to add a source. The Select Data Source (Step 1 of 3) pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.png)
+![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 __Step 4 –__ Select __Computer__ and click __Next__.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.png)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.webp)
 
 __Step 5 –__ On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to select an existing site or add a new one. To add a new site, select the __Add new site__ option from the drop-down menu or click the __Add__ icon.
 
@@ -24,7 +24,7 @@ __Step 5 –__ On the Configure source details (Step 2 of 3) pane, use the Site 
 
 __Step 6 –__ Click __Next__.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configsourcedetails%28step2of3%29.png)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configsourcedetails%28step2of3%29.webp)
 
 __Step 7 –__ Select the __Manual__ or __AD Container__ option button.
 
@@ -48,7 +48,7 @@ __Step 7 –__ Select the __Manual__ or __AD Container__ option button.
 
 __Step 8 –__  Click __Next__.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/computer_chooseconnector.png)
+![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/computer_chooseconnector.webp)
 
 __Step 9 –__ The Choose new connector pane (Step 3 of 3) lists one connector for computer. Specify the following:
 
@@ -62,7 +62,7 @@ __Step 9 –__ The Choose new connector pane (Step 3 of 3) lists one connector f
   __NOTE:__ The administrative hidden shares such as admin$ will not be monitored.
 - Advanced Activity Selection – Select this checkbox to choose the successful and failed actions to audit on the computer.
 
-![Advanced Activity Selection options](/img/product_docs/1secure/configuration/computer/objectlevelaccessaudit.png)
+![Advanced Activity Selection options](/img/product_docs/1secure/configuration/computer/objectlevelaccessaudit.webp)
 
 __Step 10 –__ Click __Finish__.
 

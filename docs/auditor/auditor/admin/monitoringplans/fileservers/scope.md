@@ -69,7 +69,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.png)
+![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 

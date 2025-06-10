@@ -8,7 +8,7 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
 
 ## Dashboard Controls
 
@@ -31,15 +31,15 @@ See the specific topics for details.
 
 The toggle enables/disables Password Policy Enforcer on all domain controllers. It is enabled by default.
 
-![Enable/Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledisableppeconsole.png)
+![Enable/Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledisableppeconsole.webp)
 
 Click the toggle to disable PPE:
 
-![Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disable.png)
+![Disable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disable.webp)
 
 If PPE  is disabled, click the toggle to enable:
 
-![Enable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disabled.png)
+![Enable PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/disabled.webp)
 
 ### Connected To
 
@@ -57,7 +57,7 @@ Domain
 - Select a Domain Controller from the list of domain controllers where PPE is installed.
 - Configuration is replicated to all the domain controllers in the domain.
 
-![Connect To Domain Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
+![Connect To Domain Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.webp)
 
 Local
 
@@ -65,7 +65,7 @@ Local
 - Only affects the computer where it is set.
 - You can copy a local configuration to another computer by exporting the configuration from the registry, and then importing it into the registry of the other computer. You can also use Group Policy to distribute a local configuration to many computers. See the [Domain and Local Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
 
-![Connected To Local Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.png)
+![Connected To Local Configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/connecttodomain.webp)
 
 ### Help
 
@@ -94,7 +94,7 @@ If you make changes, click __Save__ to keep your changes or __Discard__ to cance
 
 Here are the default settings.
 
-![General Settings PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsgeneral.png)
+![General Settings PPE](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsgeneral.webp)
 
 - __Default policy__ sets the policy to be enforced on the domain or local computer unless users have a different policy assigned to them.
 - __Enforce policy when password is reset__ requires users, administrators and helpdesk operators to comply with the password policy when resetting a password or creating a new user account. Default is checked.
@@ -131,7 +131,7 @@ If you make changes, click __Save__ to keep your changes or __Discard__ to cance
 
 Here are the default settings.
 
-![Notifications Settings](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsnotifications.png)
+![Notifications Settings](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingsnotifications.webp)
 
 - __Send email reminders__: check this option to send reminders. Default is not checked.
 
@@ -156,7 +156,7 @@ Open the __Settings__ > __License__ tab to view your current license. The licens
 
 To add or update your license, copy it from the email or file, then click __Paste license from clipboard__.
 
-![License Settings Tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingslicense.png)
+![License Settings Tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/settingslicense.webp)
 
 - __License type__ and __Licensed to__ are set based on your sales agreement.
 - __Users__ is the total number of available licenses.

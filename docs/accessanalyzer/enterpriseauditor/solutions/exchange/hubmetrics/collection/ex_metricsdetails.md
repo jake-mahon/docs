@@ -6,7 +6,7 @@ The EX\_MetricsDetails Job collects daily user-to-user Traffic. Walk through thi
 
 The EX\_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.png)
+![Queries for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
 
 The following query is included in the EX\_MetricsDetails Job:
 
@@ -29,7 +29,7 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.png)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 __Step 4 –__ Navigate to the [ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.md) page to configure the internal domains from which to collect the sender to recipient traffic. The filter should remain __Ends With__. Replace the ```@netwrix.com``` variable for both the __Senders__ and __Recipients__ with the ```@domain.com``` variable to be audited.
 
@@ -43,7 +43,7 @@ View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.png)
+![Analysis Tasks for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

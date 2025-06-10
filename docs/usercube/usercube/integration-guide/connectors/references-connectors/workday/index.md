@@ -6,7 +6,7 @@ This page is about [
 Workday
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/workday/index.md).
 
-![Package: ERP/Workday](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.png)
+![Package: ERP/Workday](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
 ## Prerequisites
 

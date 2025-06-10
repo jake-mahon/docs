@@ -2,7 +2,7 @@
 
 The OpenPortScan job group reveals all open ports along with the associated executable on the targeted systems leveraging the jobs within this group. This is accomplished through remotely executing a netstat command on the target hosts and collecting the results for reporting.
 
-![OpenPortScan Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/openportscanjobstree.png)
+![OpenPortScan Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/openportscanjobstree.webp)
 
 _Remember,_ both jobs need to be assigned the same host list under the Host List Assignments node in the OpenPortScan job group’s settings.
 

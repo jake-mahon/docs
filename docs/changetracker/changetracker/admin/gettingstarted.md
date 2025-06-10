@@ -24,6 +24,6 @@ security > auth > twoFactor > "registerAdmin": "false"
 
 security > auth > twoFactor > "fallbackEnabled": "true" (default setting)
 
-![2faconfiguration](/img/product_docs/changetracker/changetracker/admin/2faconfiguration.png)
+![2faconfiguration](/img/product_docs/changetracker/changetracker/admin/2faconfiguration.webp)
 
 A One-Time Passcode (OTP) may be required when attempting certain actions within Change Tracker for the first time during a session. Without 2FA or an authenticator app, this OTP will be written to the application log file (C:\inetpub\wwwroot\Change Tracker Generation 7 (NetCore) Hub\logs\hubservice-log.txt) which is only accessible by local admins.

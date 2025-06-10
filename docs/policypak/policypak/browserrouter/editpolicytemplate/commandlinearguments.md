@@ -12,7 +12,7 @@ For example, if you want to launch a specific URL under an incognito mode, you n
 
 __NOTE:__ Please note that the syntax ```%url%``` is case sensitive.
 
-![881_1_image-20221228073914-1](/img/product_docs/policypak/policypak/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.png)
+![881_1_image-20221228073914-1](/img/product_docs/policypak/policypak/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
 
 __NOTE:__ Please note that Chromium often removes a flag's support or replaces it with ADMX settings.
 

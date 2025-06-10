@@ -2,7 +2,7 @@
 
 The audit interfaces are accessible from the home page of the Access Information Center.
 
-![Home page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/auditinterface.png)
+![Home page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/auditinterface.webp)
 
 The __Resource Audit__ button opens the Resource Audit interface. The search features, which include a search bar and a Recent Searches box, can be used to open any audit interface.
 
@@ -10,7 +10,7 @@ The __Resource Audit__ button opens the Resource Audit interface. The search fea
 
 All audit interfaces consist of at least three components, and the Resource Audit interface includes a fourth pane.
 
-![Interface components](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/interfacecomponents.png)
+![Interface components](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/interfacecomponents.webp)
 
 The main section of the audit interface is the Results pane. On the right-side of the page are the Reports and Group Membership panes. On the Resource Audit interface, the Resources pane is to the left of the Results pane. Theses panes have the following functions:
 
@@ -23,7 +23,7 @@ The main section of the audit interface is the Results pane. On the right-side o
 
 The Reports pane lists available reports based on the type of resource selected.
 
-![Reports pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/reportspane.png)
+![Reports pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/reportspane.webp)
 
 The report for the selected resource displays in the Results pane.
 
@@ -31,7 +31,7 @@ The report for the selected resource displays in the Results pane.
 
 The Results pane displays report data based on the selections in both the Resources pane and the Reports pane. Reports may consist of multiple tables and graphs.
 
-![Results pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/resultspane.png)
+![Results pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/resultspane.webp)
 
 Tables and graphs that display at the bottom of the pane vary according to the selected report. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information on table options. See the individual report topics for specific information on columns and displayed data for a report.
 
@@ -54,11 +54,11 @@ Trend Graphs
 
 Trend graphs are line graphs that provide a visual representation of the activity that occurred over the selected date range.
 
-![trendgraph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraph.png)
+![trendgraph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraph.webp)
 
 The vertical axis (X-axis) is the activity count value for the graph (unit is the number of events). The horizontal axis (Y-axis) is the time line for the graph. The legend identifies what the colors represent. Hover over any point on the graph for the details to appear. Trend graphs can be filtered to only display specific objects from the legend. Deselect an object in the legend to remove that object from the graph, only showing the remaining objects.
 
-![Trend graph with Writes line removed](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraphremoved.png)
+![Trend graph with Writes line removed](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraphremoved.webp)
 
 For example, if the __Writes__ operation is deselected, only the operations of __Reads__, __Deletes__, and __Manages__ remain on the line graph.
 
@@ -66,7 +66,7 @@ For example, if the __Writes__ operation is deselected, only the operations of _
 
 The Group Membership pane list members for an Active Directory or Entra ID group selected in the Results pane. Groups can also be searched for using the textbox at the top of the pane.
 
-![Group Membership pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.png)
+![Group Membership pane](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.webp)
 
 All group members are listed, including any nested group membership. The __Change Group Membership__ button displays any access changes being modeled. This is a primary component of change modeling. See the [Change Modeling](/docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/overview.md) topic for additional information.
 
@@ -78,6 +78,6 @@ While a resource owner has access to a Resource Audit interface filtered for the
 
 In the upper-left corner of every interface, with the exception of the home page, is the Access Information Center Console navigation path, or breadcrumb.
 
-![Interface breadcrumb](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/breadcrumb.png)
+![Interface breadcrumb](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/breadcrumb.webp)
 
 In this example, the path is __Home > Resource Audit__. If a link from a resource report is used to view a particular user audit, it would read __Home > Resource Audit > User Audit__. Clicking any part of the path takes you to that interface.

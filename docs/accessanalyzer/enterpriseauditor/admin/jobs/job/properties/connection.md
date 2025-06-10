@@ -4,7 +4,7 @@ The Connection tab is for configuring the Connection Profile. Choose to use the 
 
 __NOTE:__ It is a best practice to set the Connection Profile at the same level where the job’s host list is set. For example, if the host list is set under the job group’s __Settings__ node, then that is where the Connection Profile should be configured. If the host list is set under the __[Job]__ > __Configure__ node, then this is where the Connection Profile should be configured.
 
-![Connection tab of the Jop Properties](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxml.png)
+![Connection tab of the Jop Properties](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/viewxml.webp)
 
 Select the desired option to identify the required Connection Profile for the job. See the [Connection Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/group/connection.md) topic for additional information for the three connection options.
 

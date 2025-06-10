@@ -17,7 +17,7 @@ Generates the rights to access the access configuration pages and create, update
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Configuration Section](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/home_configuration_v603.png)
+![Configuration Section](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/home_configuration_v603.webp)
 
 ## Examples
 

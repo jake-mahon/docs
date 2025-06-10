@@ -18,7 +18,7 @@ The .Entra ID Inventory Solution is a core component of all Access Analyzer ins
 
 ## Jobs
 
-![.Entra ID Inventory overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![.Entra ID Inventory overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs in the .Entra ID Inventory Solution are:
 

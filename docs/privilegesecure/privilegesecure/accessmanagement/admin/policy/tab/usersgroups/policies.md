@@ -2,7 +2,7 @@
 
 The Policies tab shows information about the session policies for the selected user, group, or application.
 
-![Policies Tab for Application Users](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userpoliciestab.png)
+![Policies Tab for Application Users](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userpoliciestab.webp)
 
 The Policies tab has the following features:
 

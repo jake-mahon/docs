@@ -26,7 +26,7 @@ The Web Interface is the component that users interact with. It accepts user req
 
 The Password Reset Server is the component that performs requests on behalf of users. It receives requests from the Web Interface, checks the user's credentials, and performs the requested task if the credentials are valid.
 
-![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.png)
+![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.webp)
 
 __NOTE:__ Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server Compact is free to use, and should only be removed if you move the database to SQL Server. SQL Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage it. See the [Working with the Database](/docs/passwordreset/passwordreset/administration/working_with_the_database.md) topic for additional information.
 
@@ -149,7 +149,7 @@ __Step 11 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, _
 
 __Step 12 –__ Set the __ServerIP__ registry value to the IP address of the computer that you installed the Password Reset Server onto.
 
-![installing_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.png)
+![installing_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the files to another directory and publish several Web Interfaces from one server. This allows you to present different user interfaces from each directory. The Web Interfaces all communicate with the same NPR Server because there is only one ServerIP value.
 

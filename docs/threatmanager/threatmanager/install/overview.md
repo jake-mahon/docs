@@ -61,7 +61,7 @@ Antivirus software is also likely to dramatically slow down PostgreSQL's operati
 
 Follow the steps to install the Threat Manager application on a single server.
 
-![setuplauncher](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.png)
+![setuplauncher](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.webp)
 
 __Step 1 –__ Right-click on ```Netwrix_Setup.exe``` and select Run as administrator. The Netwrix Setup launcher opens. You can now install the following components on the same server:
 

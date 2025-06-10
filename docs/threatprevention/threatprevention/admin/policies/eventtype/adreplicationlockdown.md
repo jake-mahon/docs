@@ -9,7 +9,7 @@ The event filters for the AD Replication Lockdown event type are:
 - Domains/Servers
 - Hosts (from)
 
-![Policy window - AD Replication Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationlockdown.png)
+![Policy window - AD Replication Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationlockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -42,7 +42,7 @@ __NOTE:__ The AD Replication Lockdown event type internally looks for use of the
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -60,7 +60,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the Permissions filter to set the scope of the policy for specific replication permissions within Active Directory that are used to dump password hashes as a fake domain controller in a DCSync/Replication attack.
 
-![Policy window - Permissions  filter](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
+![Policy window - Permissions  filter](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 The Permissions filter has two sections:
 
@@ -75,7 +75,7 @@ The Permissions filter has two sections:
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -89,7 +89,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the Hosts (from) filter for the AD Replication Lockdown event type to set the scope of the policy to only lockdown specific hosts as originators of an event.
 
-![Policy window - Hosts (from) filter for the AD Replication Lockdown event type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationhostsfrom.png)
+![Policy window - Hosts (from) filter for the AD Replication Lockdown event type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationhostsfrom.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 

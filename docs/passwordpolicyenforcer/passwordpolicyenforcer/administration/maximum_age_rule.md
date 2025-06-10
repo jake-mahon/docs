@@ -2,7 +2,7 @@
 
 The Maximum Age rule forces users to change their passwords regularly. This decreases the likelihood of an attacker discovering a password before it changes. This rule can only be enforced by domain policies.
 
-![Maximum Age rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/agemax.png)
+![Maximum Age rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/agemax.webp)
 
 Select the __Age (Max)__ checkbox to enable the Maximum Age rule.
 

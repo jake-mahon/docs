@@ -173,7 +173,7 @@ To help build a role model, consider this mental model that captures the key eve
 
 This series of steps is actually a very simplified version of the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
-![Cascading From Dimensions To Roles To Provisioning Orders](/img/product_docs/usercube/usercube/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.png)
+![Cascading From Dimensions To Roles To Provisioning Orders](/img/product_docs/usercube/usercube/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.webp)
 
 ---
 

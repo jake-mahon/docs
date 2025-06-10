@@ -8,9 +8,9 @@ Image keys:
 
 | Icon | Description |
 | --- | --- |
-| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
-| ![servicenowicon](/img/product_docs/1secure/integration/servicenowicon.png) | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
-| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin icon to delete the ServiceNow integration |
+| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
+| ![servicenowicon](/img/product_docs/1secure/integration/servicenowicon.webp) | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
+| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp) | Bin Icon. Click the Bin icon to delete the ServiceNow integration |
 
 ## Add a ServiceNow Integration System
 
@@ -18,11 +18,11 @@ Follow the steps to add a ServiceNow integration system.
 
 __Step 1 –__ Go to Configuration > __Integrations__ and click the __Add__ icon to add the system.
 
-![integrationtypewindowservicenow](/img/product_docs/1secure/integration/integrationtypewindowservicenow.png)
+![integrationtypewindowservicenow](/img/product_docs/1secure/integration/integrationtypewindowservicenow.webp)
 
 __Step 2 –__ In the displayed Integration type window, click __ServiceNow__ and click __Next__.
 
-![servicenowconnection](/img/product_docs/changetracker/changetracker/integration/itsm/servicenowconnection.png)
+![servicenowconnection](/img/product_docs/changetracker/changetracker/integration/itsm/servicenowconnection.webp)
 
 __Step 3 –__ In the Configure connection window, specify the required boxes - Server Name, Username, and Password.
 
@@ -38,7 +38,7 @@ __Step 4 –__ Click __Finish__.
 
 The ServiceNow profile is added now. The status displays "Ok" in green.
 
-![servicenowstatus](/img/product_docs/1secure/integration/servicenowstatus.png)
+![servicenowstatus](/img/product_docs/1secure/integration/servicenowstatus.webp)
 
 Click the __Edit__ icon or the __Bin__ icon to edit or delete the integration.
 
@@ -50,7 +50,7 @@ __Step 1 –__ Navigate to __Configuration__ > __Alerts__.
 
 __Step 2 –__ Click the Service Now icon\* under Delivery Settings. The ServiceNow Delivery Settings panel displays.
 
-![alerts_servicenowdeliverysettings](/img/product_docs/1secure/integration/alerts_servicenowdeliverysettings.png)
+![alerts_servicenowdeliverysettings](/img/product_docs/1secure/integration/alerts_servicenowdeliverysettings.webp)
 
 __Step 3 –__ Specify the Assignment Group, which should receive the tickets.
 

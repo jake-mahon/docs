@@ -4,7 +4,7 @@ The Integrations interface allows you to configure integrations with a variety o
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
-![interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following integration pages:
 

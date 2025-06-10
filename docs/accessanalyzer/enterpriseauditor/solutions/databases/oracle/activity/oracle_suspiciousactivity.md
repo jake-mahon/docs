@@ -8,7 +8,7 @@ Navigate to the __Oracle__ > __2.Activity__ > __Oracle\_SuspiciousActivity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/activity/jobgroup31.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/activity/jobgroup31.webp)
 
 The default analysis tasks are:
 

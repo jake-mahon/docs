@@ -2,7 +2,7 @@
 
 The Credential Groups page is accessible from the Navigation pane under Credentials. It shows the configured credential groups, which are used to control account assignments in Credential Based access policies. See the [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md) topic for additional information.
 
-![Administrative Credential Group Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialgroupspage.png)
+![Administrative Credential Group Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialgroupspage.webp)
 
 The pane on the left side of the page displays a list of the configured credential groups. This pane has the following features:
 

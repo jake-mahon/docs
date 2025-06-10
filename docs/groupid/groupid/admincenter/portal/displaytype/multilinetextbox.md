@@ -9,7 +9,7 @@ value on screen as compared to a textbox.
 
 In the portal’s default template, the _Description_ field on the _Create New Group_ page uses the multiline textbox display type. It is as:
 
-![multiline textbox in the portal](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multiline_textbox.png)
+![multiline textbox in the portal](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multiline_textbox.webp)
 
 To define a multiline textbox display type, provide a name for it and specify the on-screen width by giving the number of rows to be displayed for it. Portal users can use the _Enter_ key to add as many rows as
 required while entering data.

@@ -6,7 +6,7 @@ This page is about [
 Google Workspace
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
-![Package: Directory/Google Workspace](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.png)
+![Package: Directory/Google Workspace](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
 ## Overview
 

@@ -4,7 +4,7 @@ The New Investigation page within the Investigations interface enables you to ru
 
 Click __Investigate__ in the application header bar to open the Investigations interface. The interface opens to the New Investigation page by default. You can also click __New Investigation__ in the navigation pane to open the New Investigation page.
 
-![New Investigation window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.png)
+![New Investigation window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/newinvestigation.webp)
 
 To generate a new investigation report, configure the filters as desired and set the timeframe. See the [Filters Section](/docs/threatprevention/threatprevention/reportingmodule/investigations/options/filters.md) topic for additional information.
 
@@ -24,7 +24,7 @@ __NOTE:__ This option is available only to users with the Administrator or the R
 
 __Step 1 –__ On the New Investigation page, click __Save__ in the upper right corner. The Save Investigation window opens.
 
-![saveinvestigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/saveinvestigation.png)
+![saveinvestigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/saveinvestigation.webp)
 
 __Step 2 –__ Enter a unique, descriptive name for this investigation in the __Name__ field.
 

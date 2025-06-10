@@ -2,7 +2,7 @@
 
 The File System Activity Auditor Scan Filter Settings page is where activity scan filter settings are configured. It is a wizard page for the category of File System Activity Scan.
 
-![FSAA Data Collector Wizard Activity Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/activitysettings.png)
+![FSAA Data Collector Wizard Activity Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/activitysettings.webp)
 
 In the Scan Filters section, choose from the following options:
 
@@ -31,7 +31,7 @@ In the Host Mapping section, configure the following:
 
 If desired, enable the host mapping feature and select __Configure Query__ to open the Host Mapping Query window.
 
-![Host Mapping Query window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingquery.png)
+![Host Mapping Query window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingquery.webp)
 
 When the Enable host mapping checkbox is selected, the query textbox is enabled. The SQL query provided by a user should return a set of log locations, target hosts, and host names of the Monitored Hosts in the Activity Monitor. The target tables must reside within the Access Analyzer database and contain at least the following columns:
 
@@ -53,10 +53,10 @@ Access Analyzer can be configured via the Host Mapping feature to support the us
 
 Single-Host Single-Agent Example:
 
-![Query Results window for single agent example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingsinglehostsingleagent.png)
+![Query Results window for single agent example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingsinglehostsingleagent.webp)
 
 Single-Host Multiple-Agent Example:
 
-![Query Results window for multiple agent example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingsinglehostmultipleagent.png)
+![Query Results window for multiple agent example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/hostmappingsinglehostmultipleagent.webp)
 
 __NOTE:__ For multiple-agent setup, the configured Host Mapping table must have the same value for HostName and Host, as shown in the Single-Host Multiple-Agent example.

@@ -2,7 +2,7 @@
 
 The __SharePoint__ > __1.Direct Permissions__ Job Group provides insight into how directly applied permissions are configured within the targeted SharePoint environment. It is dependent on data collected by the [SharePoint Access Auditing](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing) or [SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek) components of the [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/overview.md). The jobs which comprise the 1.Direct Permissions Job Group process analysis tasks and generate reports.
 
-![1.Direct Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.Direct Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 1.Direct Permissions Job Group is comprised of:
 

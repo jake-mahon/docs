@@ -6,7 +6,7 @@ The Filter settings page provides options to filter folders and attachments. It 
 - Public Folder permissions
 - Sensitive Data
 
-![EWS Public Folder Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
+![EWS Public Folder Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.webp)
 
 All folders and attachments are scanned by default. Scope the scan for specific folders and attachments:
 
@@ -24,7 +24,7 @@ Public folders can also be included or excluded from the scan by retrieving a li
 
 Follow the steps to filter the scan by selecting public folders from a list.
 
-![Choose folder to include window on Filter settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterpublicfolders.png)
+![Choose folder to include window on Filter settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterpublicfolders.webp)
 
 __Step 1 –__ Click the __+__ button to the right of the Include Folders or Exclude Folders box to open the Choose folders to include or Choose folders to exclude window.
 

@@ -2,7 +2,7 @@
 
 The 6. Distribution Lists job group lists the direct and effective membership to distribution lists, in addition to providing context around potentially stale distribution lists.
 
-![6. Distribution Lists Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![6. Distribution Lists Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following comprise the 6. Distribution Lists job group:
 

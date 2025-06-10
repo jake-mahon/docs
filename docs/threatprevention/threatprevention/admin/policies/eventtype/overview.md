@@ -2,13 +2,13 @@
 
 The Event Type tab enables you to define the objects and events that Threat Prevention monitors/blocks.
 
-![Policy - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventtypetab.png)
+![Policy - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventtypetab.webp)
 
 Each event type represents what is monitored or blocked. Event filters are used to either narrow or broaden the scope of the monitoring/blocking as desired. Click __Add__ (+) to open the Event Selection window. Your licensed modules determine what event types are available. Event types that are not available or not licensed are grayed-out but visible in the Event Selection window. See the [License Manager Window](/docs/threatprevention/threatprevention/admin/navigation/licensemanager.md) topic for additional information.
 
 ## Event Selection Window
 
-![Event Type tab - Event Selection window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventselection.png)
+![Event Type tab - Event Selection window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventselection.webp)
 
 Check the box for the desired event type and click __OK__. The corresponding event filters show at the bottom of the Event Type tab. Multiple event types can be assigned to a policy.
 

@@ -2,7 +2,7 @@
 
 On the Data Source page of the Chart Configuration wizard configure the data source for the chart.
 
-![Chart Configuration wizard Data Source page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/datasource.png)
+![Chart Configuration wizard Data Source page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/datasource.webp)
 
 In order to generate results, a location must first be selected as the source of the data. The table on this wizard page contains a list of tables and views within Access Analyzer from jobs that have been executed. Select the required data source from the table.
 

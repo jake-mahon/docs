@@ -2,7 +2,7 @@
 
 The FS\_BrokenInheritance job is designed to report on resources with Broken Inheritance from targeted file servers.
 
-![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.png)
+![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.webp)
 
 The FS\_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
@@ -25,7 +25,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __3.Broken Inherit
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
-![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.png)
+![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 

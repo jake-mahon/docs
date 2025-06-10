@@ -2,11 +2,11 @@
 
 The __Add Hosts__ option creates a new host list. It can be accessed through the __Host Management__ node. Follow the steps to add a new host list.
 
-![Add Hosts option on Activities pane of the Host Management node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/addhosts.png)
+![Add Hosts option on Activities pane of the Host Management node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/addhosts.webp)
 
 __Step 1 –__ Click __Add Hosts__ to open the Host List Wizard in the Results pane.
 
-![Host List Wizard Specify Manual Host Entry page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistwizardhostentry.png)
+![Host List Wizard Specify Manual Host Entry page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistwizardhostentry.webp)
 
 __Step 2 –__ On the Manual Host Entry page, choose to either enter the hosts manually one at a time, or use the __Import__ option. When the list is completed, click __Next__.
 
@@ -14,7 +14,7 @@ __Step 2 –__ On the Manual Host Entry page, choose to either enter the hosts m
 - The __Import__ option opens the Import Hosts window. See the [Import Hosts Option](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/importhost.md) topic for additional information.
 - Use __Remove__ to delete a selected host from the __Host list__ box
 
-![Host List Wizard Specify Host List Properties page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistwizardproperties.png)
+![Host List Wizard Specify Host List Properties page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistwizardproperties.webp)
 
 __Step 3 –__ On the Specify Host List Properties page, provide a unique descriptive __Host List Name__.
 

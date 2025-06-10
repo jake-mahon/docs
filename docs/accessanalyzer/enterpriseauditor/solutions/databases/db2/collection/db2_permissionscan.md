@@ -8,7 +8,7 @@ The 2-Db2\_PermissionScan Job uses the SQL Data Collector for queries.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/permissionsscanquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/permissionsscanquery.webp)
 
 The query is:
 
@@ -26,7 +26,7 @@ Navigate to the __Databases__ > __0.Collection__ > __Db2__ > __2-Db2\_Permission
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/permissionsscananalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/permissionsscananalysis.webp)
 
 The default analysis tasks are:
 

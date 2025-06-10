@@ -8,7 +8,7 @@ The SG\_LSASettings job uses the Registry Data Collector for the following queri
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
-![Queries for the SG_LSASettings Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/authentication/lsasettingsqueries.png)
+![Queries for the SG_LSASettings Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/authentication/lsasettingsqueries.webp)
 
 The queries for the SG\_LSASettings Job are:
 
@@ -21,7 +21,7 @@ Navigate to the __Windows__ > __Authentication__ > __SG\_LSASettings__ > __Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_LSASettings Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/authentication/lsasettingsanalysis.png)
+![Analysis Tasks for the SG_LSASettings Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/authentication/lsasettingsanalysis.webp)
 
 The default analysis tasks are:
 

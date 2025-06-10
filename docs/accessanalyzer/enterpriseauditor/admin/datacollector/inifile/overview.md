@@ -25,6 +25,6 @@ The INIFile Data Collector is configured through the INI File Data Collector Wi
 - [INIFile: Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/properties.md)
 - [INIFile: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/inifile/summary.md)
 
-![INI File Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![INI File Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

@@ -2,7 +2,7 @@
 
 The Reports node is for configuring reports to be generated during job execution.
 
-![Reports page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/reports.png)
+![Reports page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/reports.webp)
 
 The Reports view lists any reports that have been configured for the selected job and options related to configuring reports. The options at the top of the Reports view are:
 
@@ -11,7 +11,7 @@ The Reports view lists any reports that have been configured for the selected jo
 - Open Folder – Opens the Report’s folder location with supporting files in the Windows Explorer
 - View Log – Opens the log for the job that the report is for
 
-![Options on the Reports table header row](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/reportstableheaderoptions.png)
+![Options on the Reports table header row](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/reportstableheaderoptions.webp)
 
 The Reports table contains all of the configured reports for the job. The header row of the table contains the following options for adding reports to the table:
 
@@ -22,7 +22,7 @@ The Reports table contains all of the configured reports for the job. The header
 
   - The paste option is accessed from the vertical ellipsis menu of the header row of the Reports table
 
-![Reports table row options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/reportstablerowoptions.png)
+![Reports table row options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/reportstablerowoptions.webp)
 
 Clicking on the name of a report opens it in the Results node. Clicking __Configure__ next to a report's name opens the Report Configuration wizard for the report, see the [Report Configuration Wizard](/docs/accessanalyzer/enterpriseauditor/admin/report/wizard/overview.md) topic for additional information. Additional options are available from the vertical ellipsis menu on a reports row:
 

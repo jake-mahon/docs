@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 3.Permissions > SQL\_ServerPermissions > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/sqljobgroup41.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/sqljobgroup41.webp)
 
 The default analysis tasks are:
 

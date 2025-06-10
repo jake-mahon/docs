@@ -359,7 +359,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Nav.xml
 
 This example adds a new menu item under the ```Nav_Connectors``` menu item declared in the root ```Conf/Nav.xml``` file. This new menu item gives access to the list of synchronized Microsoft Exchange entities.
 
-![Microsoft Exchange Menu Items](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.png)
+![Microsoft Exchange Menu Items](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
 
 ### Configuration
 
@@ -399,7 +399,7 @@ Conf/MicrosoftExchange/MicrosoftExchange UI.xml
 
 This example configures the following display for [wolfgang.abendroth@acme.com](mailto:wolfgang.abendroth@acme.com).
 
-![Microsoft Exchange Display Entity Type](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.png)
+![Microsoft Exchange Display Entity Type](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
 
 The scalar properties require no configuration: they are automatically displayed. The only information that the [DisplayEntityType](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
 
@@ -420,7 +420,7 @@ Conf/MicrosoftExchange/MicrosoftExchange UI.xml
 
 This example configures the following list display:
 
-![Microsoft Exchange Display Table](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.png)
+![Microsoft Exchange Display Table](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)
 
 #### Internal Display Name
 
@@ -556,7 +556,7 @@ To update or delete an existing mailbox, the Active Directory part can be skippe
 
 The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
 
-![Microsoft Exchange Jobs](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.png)
+![Microsoft Exchange Jobs](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.webp)
 
 From there, the Synchronization job can be launched and debugged (if needed).
 
@@ -564,8 +564,8 @@ After execution, Microsoft Exchange resources and databases should be in the ```
 
 The results can also be viewed on the UI:
 
-![Microsoft Exchange Menu Items](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.png)
+![Microsoft Exchange Menu Items](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
 
-![Microsoft Exchange Display Entity Type](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.png)
+![Microsoft Exchange Display Entity Type](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
 
-![Microsoft Exchange Display Table](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.png)
+![Microsoft Exchange Display Table](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)

@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the PF_Overview Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.png)
+![Analysis Tasks for the PF_Overview Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.webp)
 
 The following analysis tasks are selected by default:
 

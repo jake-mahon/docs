@@ -6,7 +6,7 @@ The product automates the collection of configuration data from any IT devices, 
 
 Configuration data collected is then analyzed for compliance with an organizations hardened build standard. This is typically based on a CIS Benchmark hardening checklist or one provided by a manufacturer such as Microsoft, Red Hat, Oracle or Cisco, for example. Compliance standards supported by Change Tracker include PCI DSS, DISA STIG, NERC CIP, ISO 27001, GLBA), FISMA), HIPAA HITECH, S-OX, NIST 800-53/171 and GPG 13.
 
-![TechnicalOverview](/img/product_docs/changetracker/changetracker/technicaloverview.png)
+![TechnicalOverview](/img/product_docs/changetracker/changetracker/technicaloverview.webp)
 
 Devices are then monitored continuously using either a Change Tracker Agent installed directly onto the device, or using a periodically scheduled agentless interaction with the device. Any changes recorded deviating from the initial baseline are assessed for a match with Planned Changes configured in the Change Tracker system. Planned Change rules can be recorded directly from a device exhibiting changes, for example, when pre-staging patches, or from observed changes reported by Change Tracker. Planned Changes comprise the devices to assess, change window and details of the changes to match, such as a file change or registry value, for example.
 
@@ -25,7 +25,7 @@ Netwrix Change Tracker is delivered as a 100% software solution. The central ser
 - [Installing Gen 7 Agent for Windows](/docs/changetracker/changetracker/install/agent/windows.md)
 - [Installing Gen 7 Agent for Linux](/docs/changetracker/changetracker/install/agent/linuxos.md)
 
-![Architecture](/img/product_docs/changetracker/changetracker/architecture.png)
+![Architecture](/img/product_docs/changetracker/changetracker/architecture.webp)
 
 For a full list of supported operating systems see [OS Support Matrix](/docs/changetracker/changetracker/requirements/ossupportmatrix.md).
 

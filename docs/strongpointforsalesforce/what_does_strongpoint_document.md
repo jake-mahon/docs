@@ -15,4 +15,4 @@ Platform Governance for Salesforce documents over 120 Salesforce metadata types.
 | Analytics | Reports, Dashboards, List Views, and Einstein |
 | Configuration | Data Quality settings such as Duplicate Rules, Matching Rules, and Validation Rules. Other general settings. |
 
-![Metadata Categories documented by Strongpoint](/img/product_docs/strongpointforsalesforce/metadata_categories.png)
+![Metadata Categories documented by Strongpoint](/img/product_docs/strongpointforsalesforce/metadata_categories.webp)

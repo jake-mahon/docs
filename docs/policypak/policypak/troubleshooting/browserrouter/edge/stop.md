@@ -57,4 +57,4 @@ Endpoint Policy Manager
 Browser Router will be 100% in charge of your URLs and the routing /
 redirection.
 
-![456_1_image001_950x573](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/edge/456_1_image001_950x573.png)
+![456_1_image001_950x573](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/edge/456_1_image001_950x573.webp)

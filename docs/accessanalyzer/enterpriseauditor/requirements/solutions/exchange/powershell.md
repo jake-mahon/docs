@@ -100,11 +100,11 @@ Once Remote PowerShell has been enabled on an Exchange Server in the environment
 
 __Step 1 –__ On the server where Remote PowerShell was enabled, open the Internet Information Services (IIS) Manager.
 
-![IIS Authentication Open Feature](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanager.png)
+![IIS Authentication Open Feature](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanager.webp)
 
 __Step 2 –__ Traverse to the __PowerShell__ Virtual Directory under the __Default Web Site__. Select __Authentication__ and click __Open Feature__.
 
-![IIS Enable Windows Authentication](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.png)
+![IIS Enable Windows Authentication](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.webp)
 
 __Step 3 –__ Right-click on __Windows Authentication__ and select __Enable__.
 
@@ -118,7 +118,7 @@ __Step 1 –__ Within the Exchange Admin Center, navigate to the permissions sec
 
 __Step 2 –__  Add a new role group by clicking on the + button, and the New Role Group window opens.
 
-![New role group window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/rolegroup.png)
+![New role group window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/rolegroup.webp)
 
 __Step 3 –__ Configure the new role group with the following settings:
 

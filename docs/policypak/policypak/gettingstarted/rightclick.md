@@ -4,15 +4,15 @@ As of builds 24.1 and onward, Netwrix Endpoint Policy Manager (formerly PolicyPa
 
 However, you might notice that __Copy with__ Endpoint Policy Manager __SecureCopy™__ always shows, regardless if the Endpoint Policy Manager SecureCopy function is used or not. Indeed, even if there are no rules at all, you will still see the Netwrix Endpoint Policy Manager menu and Copy with Endpoint Policy Manager SecureCopy™.
 
-![997_1_image-20240202201306-1_950x729](/img/product_docs/policypak/policypak/gettingstarted/997_1_image-20240202201306-1_950x729.png)
+![997_1_image-20240202201306-1_950x729](/img/product_docs/policypak/policypak/gettingstarted/997_1_image-20240202201306-1_950x729.webp)
 
 If you add other options which use the Netwrix Endpoint Policy Manager right-click menu, you will see those correct (available, un-gray) options and also the Un-used (un-available, grayed) __Copy with__ Endpoint Policy Manager __SecureCopy__ option.
 
-![997_2_image-20240202201306-2_950x683](/img/product_docs/policypak/policypak/gettingstarted/997_2_image-20240202201306-2_950x683.png)
+![997_2_image-20240202201306-2_950x683](/img/product_docs/policypak/policypak/gettingstarted/997_2_image-20240202201306-2_950x683.webp)
 
 Only after Endpoint Policy Manager SecureCopy™ is available, will that option become un-gray and usable.
 
-![997_3_image-20240202201306-3_950x776](/img/product_docs/policypak/policypak/gettingstarted/997_3_image-20240202201306-3_950x776.png)
+![997_3_image-20240202201306-3_950x776](/img/product_docs/policypak/policypak/gettingstarted/997_3_image-20240202201306-3_950x776.webp)
 
 In other words, __Copy with__ Endpoint Policy Manager __SecureCopy__ will always show in Windows 11, whether it is available (Ungray) or unavailable (Gray.)
 

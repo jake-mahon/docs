@@ -6,7 +6,7 @@ When you create a policy with the [LDAP Monitoring Event Type](/docs/threatpreve
 
 The Secure configurations and Search scope options filter the search based on a match to the selected configurations and scope of the LDAP query.
 
-![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapsearchscopes.png)
+![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapsearchscopes.webp)
 
 Secure configurations
 

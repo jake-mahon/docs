@@ -6,7 +6,7 @@ Click __Start__ >__[All] Programs__ > __PPE Web Configuration Console__ to open
 
 Use the General tab to maintain the list of managed domains, and to configure Password Policy Enforcer integration. See the [Password Policy Enforcer](#Password-Policy-Enforcer) topic for additional information.
 
-![configuring_ppe_web](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/configuring_ppe_web.png)
+![configuring_ppe_web](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/configuring_ppe_web.webp)
 
 ### Domain List
 
@@ -38,7 +38,7 @@ __Step 3 –__ Click __Apply__.
 
 Password Policy Enforcer is a configurable password filter that enforces granular password policies with many advanced features. Password Policy Enforcer Web can integrate with Password Policy Enforcer to help users choose a compliant password.
 
-![configuring_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/configuring_ppe_web_1.png)
+![configuring_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/configuring_ppe_web_1.webp)
 
 Password Policy Enforcer Web displays the Password Policy Enforcer password policy message when a user is prompted for their new password, and the Password Policy Enforcer rejection message if the new password does not comply with the password policy. Select the __Password Policy Enforcer integration__ check box if you have installed and configured Password Policy Enforcer on your domain controllers.
 

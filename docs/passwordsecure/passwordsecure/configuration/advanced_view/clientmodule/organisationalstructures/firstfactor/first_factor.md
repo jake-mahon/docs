@@ -8,7 +8,7 @@ It is a process that regulates access to our system.
 
 With the user setting __Edit first factor__ you have the possibility to define another factor for authentication than the standard password.
 
-![Edit first factor](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_1-en.png)
+![Edit first factor](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_1-en.webp)
 
 ## Factors
 
@@ -16,7 +16,7 @@ With the user setting __Edit first factor__ you have the possibility to define a
 
 The configuration is done via the user setting __First factor__.
 
-![Smartcard 1st factor](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_2-en.png)
+![Smartcard 1st factor](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_2-en.webp)
 
 NOTE: This option is only valid for users in master key mode
 
@@ -33,16 +33,16 @@ For Fido2 it is mandatory that SMTP ([Advanced settings](/docs/passwordsecure/p
 
 Furthermore, the URL of the Web Application must be stored in the Server Manager:
 
-![Edit WebClient URL](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_3-en.png)
+![Edit WebClient URL](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_3-en.webp)
 
 ### Configuration
 
 The configuration is done via the user setting __First Factor__.
 
-![FIDO2](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_4-en.png)
+![FIDO2](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_4-en.webp)
 
 As soon as an AD user logs on to the Web Application, he gets the following prompt
 
-![prompt](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_5-en.png)
+![prompt](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/firstfactor/first_factor_5-en.webp)
 
 After clicking on __Setup Fido2 access__ in the mail, Fido2 is configured.

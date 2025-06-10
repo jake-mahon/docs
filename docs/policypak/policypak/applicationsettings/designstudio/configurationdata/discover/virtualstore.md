@@ -4,7 +4,7 @@ Sometimes, programs don't know that they are not allowed to store data in the pr
 
 ```%LocalAppData%\VirtualStore\Program Files (x86)\Foxit Software\Foxit Reader```.
 
-![discovering_configuration_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_4.png)
+![discovering_configuration_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_4.webp)
 
 Figure 91. Application data that has been redirected.
 
@@ -15,39 +15,39 @@ This is a safety mechanism that Windows uses to allow applications to think that
 ```%LocalAppData%\VirtualStore\Program Files (x86)\Foxit Software\Foxit Reader``` (as shown in Figure 92), the data file could also be found on 32-bit machines in
 ```%LocalAppData%\VirtualStore\Program Files\Foxit Software\Foxit Reader``` (as shown in Figure 93).
 
-![discovering_configuration_5](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_5.png)
+![discovering_configuration_5](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_5.webp)
 
 Figure 92. The location for 64-bit machines is ```%LocalAppData%\VirtualStore\Program Files (x86).```
 
-![discovering_configuration_6](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_6.png)
+![discovering_configuration_6](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_6.webp)
 
 Figure 93. The location for 32-bit machiens is ```%LocalAppData%\VirtualStore\Program Files.```
 
 If you select a file within the VirtualStore directory, Endpoint Policy Manager DesignStudio recognizes this and provides two features to ensure proper delivery to clients. First, as shown in Figure 94, Endpoint Policy Manager DesignStudio will substitute the correct variable so it will work on client machines of the same type.
 
-![discovering_configuration_7](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_7.png)
+![discovering_configuration_7](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_7.webp)
 
 Figure 94. Endpoint Policy Manager DesignStudio substituting the correct variable.
 
 To account for the possibility that you might have both 32-bit and 64-bit machines as targets, Endpoint Policy Manager Application Settings Manager, by default, will always try to write to both locations on the target machine. That way, you're ensured that both 32-bit and 64-bit machines will get your directives. Note that this behavior is controllable within Endpoint Policy Manager ```DesignStudio in Tools|Options ```in the VirtualStore tab, as shown in Figure 95. It is recommended that you keep this checkbox checked.
 
-![discovering_configuration_8_624x322](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_8_624x322.png)
+![discovering_configuration_8_624x322](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_8_624x322.webp)
 
 Figure 95. The VirtualStore tab.
 
 If you want to see both actions, you can click on the element's "Advanced" button, as shown in Figure 96, and see the two actions created.
 
-![discovering_configuration_9_312x592](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_9_312x592.png)
+![discovering_configuration_9_312x592](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_9_312x592.webp)
 
 Figure 96. The element's "Advanced" button.
 
 If you were to hover the mouse over each "File" location, you would see that the actions are set against each possible file location automatically (```\Program Files(x86)``` and ```\Program Files```), one for the first action and another for the second action, as shown in Figure 97 and Figure 98.
 
-![discovering_configuration_10](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_10.png)
+![discovering_configuration_10](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_10.webp)
 
 Figure 97. The file location for the first action.
 
-![discovering_configuration_11_624x79](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_11_624x79.png)
+![discovering_configuration_11_624x79](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_11_624x79.webp)
 
 Figure 98. The file location for the second action.
 

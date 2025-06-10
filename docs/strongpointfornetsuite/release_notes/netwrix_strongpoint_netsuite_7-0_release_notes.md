@@ -7,7 +7,7 @@ July 28, 2023
 - Improved handling of searches used in script deployments. Changes are now evaluated as scripted objects to check for deployment dependencies.
 - Added a warning on the change request for generic deployment script IDs. Using the generic ID fetches all deployment customizations that share this non-unique ID.
 
-  ![Generic deployment ID warning](/img/product_docs/strongpointfornetsuite/release_notes/deployment_id_warning.png)
+  ![Generic deployment ID warning](/img/product_docs/strongpointfornetsuite/release_notes/deployment_id_warning.webp)
 - __Bill of Materials__ and __Inventory Number__ fields are deprecated and inactive in the policy record and list views.
 
 ## Core 7.0.2.1
@@ -30,7 +30,7 @@ June 16, 2023
   - Click to select a __Field__. Use Ctrl-Click to select subsequent fields.
   - Click __Add__.
 
-    ![Add No HTML fields](/img/product_docs/strongpointfornetsuite/release_notes/no_html_options.png)
+    ![Add No HTML fields](/img/product_docs/strongpointfornetsuite/release_notes/no_html_options.webp)
   - Click __Save__.
 
 ## Core 7.0.1
@@ -56,19 +56,19 @@ There is an exception for customers using the __Agent__ module to run __Large Co
 
 __Mass Update__ can be selected as a __Type__ under __Proposed Customizations__. Specify the __Name__ of the Mass Update you want to create.
 
-![Mass Update can be created as a Proposed Customization](/img/product_docs/strongpointfornetsuite/release_notes/change_request_mass_update.png)
+![Mass Update can be created as a Proposed Customization](/img/product_docs/strongpointfornetsuite/release_notes/change_request_mass_update.webp)
 
 ### __NetSuite Make Copy Creates Content and Resets Status__
 
 Strongpoint ensures the __Make Copy__ command found under the __Actions__ option only copies the content, not the status. Copied change requests are set to the __Not Started__ status.
 
-![Make Copy does not copy the status](/img/product_docs/strongpointfornetsuite/release_notes/change_request_make_copy.png)
+![Make Copy does not copy the status](/img/product_docs/strongpointfornetsuite/release_notes/change_request_make_copy.webp)
 
 ## Jira 1.2.14
 
 - Added the ability to receive and store images attached in the Jira description by Jira ticket ID.
 
-  ![Strongpoint stores attached Jira images](/img/product_docs/strongpointfornetsuite/release_notes/jira_images.png)
+  ![Strongpoint stores attached Jira images](/img/product_docs/strongpointfornetsuite/release_notes/jira_images.webp)
 
 ## Jira 1.2.13
 
@@ -90,7 +90,7 @@ Here are the enhancements for the release:
 ### Import Customizations from Jira
 
 An __Import Customization__ button has been added to the Jira Strongpoint form. You can import an xml file exported from a Jira ticket.  
-![Jira Strongpoint form](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.png)
+![Jira Strongpoint form](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.webp)
 
 ### Enable Allow NS to Jira Push
 
@@ -100,7 +100,7 @@ This feature must be enabled before you can create tickets from NetSuite to Jira
 2. Open the __Jira Integration__ tab
 3. Check __Allow NS to Jira Push__ to enable pushing NetSuite change requests into Jira.  
 
-   ![Enable Allow NS to Push to Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.png)
+   ![Enable Allow NS to Push to Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.webp)
 
 ### Create Ticket from NetSuite to Jira
 
@@ -110,15 +110,15 @@ Create Ticket from NetSuite to Jira must be enabled before you can create ticket
 2. Add your information and customizations.
 3. Click __Push to Jira__.
 4. Select your Jira project.  
-   ![Select a Jira Project](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push2.png)
+   ![Select a Jira Project](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push2.webp)
 5. Click __Push__. A Change Request Pushed message is displayed. Click __Close__.
 6. Open the __Related Change Records__ tab. The ticket number is added as an __External Change Request Number__. __CM-15__ in this example.  
-   ![The ticket number is on the Related Change Records tab](/img/product_docs/strongpointfornetsuite/release_notes/jira_create_cr_related_change.png)
+   ![The ticket number is on the Related Change Records tab](/img/product_docs/strongpointfornetsuite/release_notes/jira_create_cr_related_change.webp)
 7. Open Jira.
 8. Navigate to __CM-15__ ticket.  
-   ![Open the ticket in Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push3.png)
+   ![Open the ticket in Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push3.webp)
 9. Click __Strongpoint NetSuite__. The customizations from the change request are added.  
-   ![Customizations are added to the ticket](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push4.png)
+   ![Customizations are added to the ticket](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push4.webp)
 
 ## Jira 1.2.10
 
@@ -136,12 +136,12 @@ Token-Based Authentication is set up through NetSuite. Refer to [Setting up Toke
 1. Open __Jira__.
 2. Open your __Projects__ page:
 
-   ![Open your Jira Projects page to find Add-ons](/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.png)
+   ![Open your Jira Projects page to find Add-ons](/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.webp)
 3. Expand __Add-ons__.
 4. Select __Strongpoint Settings__.
 
-   ![Jira Strongpoint Settings](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.png)
+   ![Jira Strongpoint Settings](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.webp)
 5. Click __New Token Based Authentication__ to add your credentials. This needs to be done once for each of your accounts.
 
-   ![Add tokens for Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.png)
+   ![Add tokens for Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.webp)
 6. Enter your credentials and click __Add Token Based Authentication Credential__.

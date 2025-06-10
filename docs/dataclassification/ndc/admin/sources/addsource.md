@@ -6,7 +6,7 @@ Follow the steps to add a content source.
 
 __Step 1 –__ In administrative web console, navigate to __Content__ →Sources → General and click __Add__ to launch the Add source wizard.
 
-![add_source_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/add_source_wizard_thumb_0_0.png)
+![add_source_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/add_source_wizard_thumb_0_0.webp)
 
 __Step 2 –__ Select the source you need and configure its settings. See detailed instructions for the sources:
 

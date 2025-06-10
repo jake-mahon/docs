@@ -2,7 +2,7 @@
 
 Once a job has been executed, it always generates the tables providing information on host connection status, job statistics, job task statistics, and error and warning messages can be viewed under the job’s Status node:
 
-![Status Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/statusnode.png)
+![Status Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/statusnode.webp)
 
 The Status node tables are:
 

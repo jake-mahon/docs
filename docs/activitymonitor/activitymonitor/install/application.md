@@ -6,27 +6,27 @@ Follow the steps to install the Netwrix Activity Monitor Console.
 
 __Step 1 –__ Run the NetwrixActivityMonitorSetup.msi executable to open the Netwrix Activity Monitor Setup wizard.
 
-![Activty Monitor Setup Wizard - Welcome Page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Activty Monitor Setup Wizard - Welcome Page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 __Step 2 –__ On the Activity Monitor Setup Wizard welcome page, click __Next__ .
 
-![End-User License Agreement Page](/img/product_docs/activitymonitor/activitymonitor/install/eula.png)
+![End-User License Agreement Page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
 
 __Step 3 –__ On the End User License Agreement page, check the I accept the terms in the License Agreement box and click Next.
 
-![Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.png)
+![Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
 
 __Step 4 –__ On the Destination Folder page, select a destination folder for Activity Monitor. The default destination folder is ```C:\Program Files\Netwrix\Activity Monitor\Console\```. Click __Next__.
 
-![Ready to Install Netwrix Activity Monitor Page](/img/product_docs/activitymonitor/activitymonitor/install/ready.png)
+![Ready to Install Netwrix Activity Monitor Page](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
 
 __Step 5 –__ Click __Install__ to begin installation.
 
-![Installation Netwrix Activity Monitor Progress Bar](/img/product_docs/activitymonitor/activitymonitor/install/inprogress.png)
+![Installation Netwrix Activity Monitor Progress Bar](/img/product_docs/activitymonitor/activitymonitor/install/inprogress.webp)
 
 __Step 6 –__ The installer displays a status page during the installation process. Wait for the next window to appear when the status is complete.
 
-![Installation Complete Page](/img/product_docs/activitymonitor/activitymonitor/install/complete.png)
+![Installation Complete Page](/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
 
 __Step 7 –__ Once installation is complete, click Finish.
 

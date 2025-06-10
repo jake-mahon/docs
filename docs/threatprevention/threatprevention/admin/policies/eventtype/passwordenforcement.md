@@ -10,7 +10,7 @@ The event filters for the Password Enforcement event type are:
 - Hosts (from)
 - Password Rules
 
-![Policy window - Password Enforcement Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.png)
+![Policy window - Password Enforcement Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -52,7 +52,7 @@ A client-side module is available in the Threat Prevention installer to provide 
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -66,7 +66,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the AD Account filter to select Active Directory accounts, groups, and organizational units (containers) to have passwords validated by the policy.
 
-![Policy window - AD Account filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adaccount.png)
+![Policy window - AD Account filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adaccount.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -88,7 +88,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.png)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent and all child contexts. Uncheck it to apply the filter to the listed context only.
 
@@ -102,7 +102,7 @@ When applying EPE rules based on group membership, it may happen that at runtime
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -120,7 +120,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.png)
+![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -138,7 +138,7 @@ Use the Password Rules filter to set the scope of the policy to check user enter
 
 __NOTE:__ These password rules are only applied to passwords that pass the Windows password policies. Password values that fail to meet the Windows complexity checks are rejected by Windows before Threat Prevention Enterprise Password Enforcer can evaluate them.
 
-![Policy window - Password Rules filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordrules.png)
+![Policy window - Password Rules filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordrules.webp)
 
 You can enforce all or specific rules that you enable on this filter.
 

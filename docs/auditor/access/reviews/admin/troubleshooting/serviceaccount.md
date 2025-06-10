@@ -14,11 +14,11 @@ Follow the steps to enable and/or modify the Windows service account running the
 
 __Step 1 –__ Navigate to Service Control Manager (```services.msc```). The Services Control Manager opens.
 
-![Services Manager Console showing the Netwrix Access Information Center service and the right-click Menu](/img/product_docs/auditor/access/reviews/admin/troubleshooting/servicesmanager.png)
+![Services Manager Console showing the Netwrix Access Information Center service and the right-click Menu](/img/product_docs/auditor/access/reviews/admin/troubleshooting/servicesmanager.webp)
 
 __Step 2 –__ Right-click on the Netwrix Auditor Access Reviews service and select __Properties__. The service Properties window opens.
 
-![Netwrix Access Information Center service Properties window with Select User browser window](/img/product_docs/auditor/access/reviews/admin/troubleshooting/serviceproperties.png)
+![Netwrix Access Information Center service Properties window with Select User browser window](/img/product_docs/auditor/access/reviews/admin/troubleshooting/serviceproperties.webp)
 
 __Step 3 –__ On the __Log On__ tab, select the __This account__ radio button. Enter the account name using NTAccount format [```DOMAIN\username```]. Optionally, use the __Browse__ button to search for the account. Enter the account's password in both the __Password__ and __Confirm password__ fields. Then click __OK__. The Properties window closes.
 

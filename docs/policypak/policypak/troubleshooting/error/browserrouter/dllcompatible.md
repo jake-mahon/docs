@@ -6,7 +6,7 @@ When running IE and Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser
 
 This message is caused by IE Enhanced Security mode. To get Endpoint Policy Manager Browser Router to work properly, set IE specifically to have these two checkboxes unchecked.
 
-![441_2_image0012](/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_2_image0012.png)
+![441_2_image0012](/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/441_2_image0012.webp)
 
 Then, restart IE (a reboot is not required).
 

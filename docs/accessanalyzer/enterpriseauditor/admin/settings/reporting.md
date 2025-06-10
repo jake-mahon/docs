@@ -2,7 +2,7 @@
 
 The Reporting node is for configuring the global settings for publishing Access Analyzer reports. The Web Console is where any reports which have been published can be viewed outside of the Access Analyzer Console. The Web Console provides a consolidated logon housing both the published reports and the AIC (when applicable).
 
-![Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/reporting.png)
+![Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/reporting.webp)
 
 The publishing of reports can be disabled at the global level by selecting __Do not publish reports__ from the Publish Option drop-down menu. It can also be disabled at the job group, job, or report configuration level. See the [Jobs Tree](/docs/accessanalyzer/enterpriseauditor/admin/jobs/overview.md) topic for additional information.
 
@@ -12,7 +12,7 @@ The __Cancel__ and __Save__ buttons are in the lower-right corner of the Reporti
 
 The Website URL field contains address for the hosted website, the Web Console, where the published reports reside.
 
-![Website URL on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.png)
+![Website URL on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.webp)
 
 The default address is:
 
@@ -28,7 +28,7 @@ __NOTE:__ Any browser used to access the Web Console must have JavaScript allowe
 
 The Publish Option allows you to enable or disable the publishing of reports at the global level.
 
-![Publish Option on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/publish.png)
+![Publish Option on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/publish.webp)
 
 Select the __Publish reports__ option to publish all Access Analyzer reports or select __Do not publish reports__ to disable the publishing. The inheritance of this setting can be broken at the job group, job, or report levels.
 
@@ -36,7 +36,7 @@ Select the __Publish reports__ option to publish all Access Analyzer reports or 
 
 Configure email reports sent out by Access Analyzer using the Email Report options.
 
-![Email options on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/email.png)
+![Email options on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/email.webp)
 
 The __E-mail reports__ checkbox enables recipients to receive all published reports, unless inheritance is broken at the job group, job, or report level. Separate multiple recipients with a semicolon. If commas are used as delimiters for email addresses, they will be converted into semicolons when the settings are saved.
 
@@ -65,11 +65,11 @@ Follow the steps to allow JavaScript on the Web Console in Microsoft Edge.
 
 __Step 1 –__ Open Microsoft Edge Settings.
 
-![javascriptsitepermissions](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsitepermissions.png)
+![javascriptsitepermissions](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsitepermissions.webp)
 
 __Step 2 –__ Go to the __Cookies and site permissions__ settings page, and click __JavaScript__ under All permissions.
 
-![javascriptsettings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsettings.png)
+![javascriptsettings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsettings.webp)
 
 __Step 3 –__ Click  __Add__ in the Allow section. On the Add a site window, enter the URL for the Web Console and click __Add__.
 

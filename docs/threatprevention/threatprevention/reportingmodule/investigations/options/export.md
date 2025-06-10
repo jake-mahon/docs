@@ -4,7 +4,7 @@ The Export option provides choices for how you can export the report results for
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then create a new investigation or click a folder in the navigation pane to access a saved investigation. An investigation is located in the folder where it was saved.
 
-![Export option in the Investigation interface](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
+![Export option in the Investigation interface](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 After running an investigation query, click __Export__. Then select one of the following from the drop-down menu:
 
@@ -32,7 +32,7 @@ __Step 1 –__ Click __Investigate__ in the application header bar to open the I
 
 __Step 2 –__ After running a query and confirming the report data is displayed in the report sections, click the __Export__ menu and select __Send as Email__. The Send as Email window opens.
 
-![Send as Email window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/sendasemail.png)
+![Send as Email window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/sendasemail.webp)
 
 __Step 3 –__ Begin typing in the __Recipients__ textbox. You can enter a user name or email address. Available email addresses read from Active Directory that match the text string will populate in the drop-down menu. Select a recipient.
 
@@ -58,7 +58,7 @@ __Step 2 –__ After running a query and confirming the report data is displayed
 
 The name of the respective investigation is displayed as a link. Click it to view the filter defined for the investigation.
 
-![Schedule export window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/scheduleexport.png)
+![Schedule export window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/scheduleexport.webp)
 
 __Step 3 –__ By default the schedule is enabled. You can disable it with the toggle button by the window name.
 

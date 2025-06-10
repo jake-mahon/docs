@@ -6,7 +6,7 @@ The 2-SEEK Bulk Import job is designed to import collected sensitive data inform
 
 The Bulk Import query uses the FSAA Data Collector and has been preconfigured to use the Sensitive data Bulk import category.
 
-![Query for the 2-SEEK Bulk Import Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/seekbulkimportquery.png)
+![Query for the 2-SEEK Bulk Import Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/seekbulkimportquery.webp)
 
 - Bulk Import – Imports data into SQL server
 

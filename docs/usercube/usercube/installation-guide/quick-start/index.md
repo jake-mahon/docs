@@ -15,7 +15,7 @@ The installation of Identity Manager requires:
 
 __Step 1 –__ Go on the Netwrix Identity Manager (formerly Usercube) [portal](https://www.netwrix.com/sign_in.html?rf=my_products.html) and download the artifacts of the expected version.
 
-![Extranet Artifacts](/img/product_docs/usercube/usercube/installation-guide/quick-start/extranet_v601.png)
+![Extranet Artifacts](/img/product_docs/usercube/usercube/installation-guide/quick-start/extranet_v601.webp)
 
 __Step 2 –__ Extract from SDK the folder Identity Manager Bootstrap anywhere on the computer.
 
@@ -23,7 +23,7 @@ __Step 3 –__ Extract the content of Runtime to Identity Manager Bootstrap.
 
 When extracting Identity Manager Bootstrap to the root of the computer, it looks like:
 
-![Project Directory](/img/product_docs/usercube/usercube/installation-guide/quick-start/directory_v602.png)
+![Project Directory](/img/product_docs/usercube/usercube/installation-guide/quick-start/directory_v602.webp)
 
 __Step 4 –__ Move or copy your certificate inside the Runtime folder.
 
@@ -59,7 +59,7 @@ In our example, the command would be, still in the Runtime folder:
 
 __Step 10 –__ Open a browser and navigate to http://localhost:5000. Authenticate with administrator as a username and the password specified in the Runtime/appsettings.json file, in the Authentication section.
 
-![Authentication Dialog](/img/product_docs/usercube/usercube/installation-guide/quick-start/authentication_v601.png)
+![Authentication Dialog](/img/product_docs/usercube/usercube/installation-guide/quick-start/authentication_v601.webp)
 
 Now you can start using the application.
 
@@ -67,6 +67,6 @@ Now you can start using the application.
 
 From there, you can start setting up Identity Manager via the __Settings__ page which is accessible from the __Configuration__ section of the home page.
 
-![Home Page - Settings](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+![Home Page - Settings](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
 Then, Netwrix Identity Manager (formerly Usercube) recommends following the user guide to start the configuration of your IGA project from scratch. See the [User Guide](/docs/usercube/usercube/user-guide/index.md) topic for additional information.

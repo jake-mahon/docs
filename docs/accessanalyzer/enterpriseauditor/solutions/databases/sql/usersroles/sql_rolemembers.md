@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL\_RoleMembers > Con
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup26.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup26.webp)
 
 The default analysis tasks are:
 

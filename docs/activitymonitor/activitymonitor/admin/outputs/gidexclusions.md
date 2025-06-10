@@ -4,7 +4,7 @@ The GID Exclusions tab on an output Properties window is where monitoring scope 
 
 Select an output for a Linux host on the Monitored Hosts tab and click __Edit__ to open the output Properties window.
 
-![gidexclusionstab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/gidexclusionstab.png)
+![gidexclusionstab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/gidexclusionstab.webp)
 
 The tab contains the following settings:
 

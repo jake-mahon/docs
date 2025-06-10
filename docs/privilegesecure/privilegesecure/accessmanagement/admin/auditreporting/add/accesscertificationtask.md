@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Audit and Reporting > Access Certification page.
 
 __Step 2 –__ In the Access Certification Task list, click the Add Access Cert. Task icon.
 
-![addtask](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/add/addtask.png)
+![addtask](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/add/addtask.webp)
 
 __Step 3 –__ Enter the following information:
 

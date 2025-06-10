@@ -12,11 +12,11 @@ When Group Policy processes (ie: gpupdate) occurs on the Domain-Joined computer,
 
 When the Domain policy applies (gpupdate etc.) the computer will get these settings below, note that the "Rename administrator account" policy is set to "Not Defined" for the Domain policy.
 
-![698_1_image-20200511225437-1](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/698_1_image-20200511225437-1.png)
+![698_1_image-20200511225437-1](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/698_1_image-20200511225437-1.webp)
 
 When Endpoint Policy Manager Cloud settings are applied (PPCloud /sync, ppupdate etc.) the computer will receive these settings below, note that there is nothing defined for "Enforce password history" within the PPC policy.
 
-![698_3_image-20200511225437-2](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/698_3_image-20200511225437-2.png)
+![698_3_image-20200511225437-2](/img/product_docs/policypak/policypak/troubleshooting/gpoexport/698_3_image-20200511225437-2.webp)
 
 Video example below shows the result of having Security Settings Policy set in both PPC and in On-Premises Group Policy, the policies will continuously replace each other every time they apply.
 

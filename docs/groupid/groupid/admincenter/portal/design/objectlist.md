@@ -4,7 +4,7 @@ In the portal, the object list refers to a listing of groups that are similar to
 
 Let’s assume you want to view the groups that are similar to Group A. On the __Similar Groups__ tab in Group A’s properties, six groups that bear the most similarity to Group A will be displayed, with the strongest match at the top. It is as:
 
-![similar_groups](/img/product_docs/groupid/groupid/admincenter/portal/design/similar_groups.png)
+![similar_groups](/img/product_docs/groupid/groupid/admincenter/portal/design/similar_groups.webp)
 
 For a similar group, three attributes are displayed:
 

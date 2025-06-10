@@ -6,7 +6,7 @@ Generates the permissions to access the connectors pages, the policies page, the
 
 Gives access to shortcuts on the dashboard to access these pages.
 
-![Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+![Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
 The scaffolding generates the following scaffoldings:
 

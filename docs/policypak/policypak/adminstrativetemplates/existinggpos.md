@@ -6,10 +6,10 @@ __NOTE:__ See the [Reduce GPOs (and/or export them for use with Endpoint Policy 
 
 A secondary use for the Endpoint Policy Manager __Group Policy Merge Utility__ is to merge multiple GPOs into theEndpoint Policy Manager Admin Templates Manager format, and then export the collection for use with Endpoint Policy Manager Cloud or an MDM service. This way, you can take a set of real Group Policy settings and export them quickly and easily into one export file, which is uploaded into Endpoint Policy Manager Cloud or an MDM service for use later.
 
-![merging_and_reducing_existing](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing.png)
+![merging_and_reducing_existing](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing.webp)
 
 To run the tool, locate the downloadable ISO file in the Endpoint Policy Manager Extras folder, as seen below.
 
-![merging_and_reducing_existing_1](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing_1.png)
+![merging_and_reducing_existing_1](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing_1.webp)
 
 Currently, the Endpoint Policy Manager __Group Policy Merge Tool__ can only migrate GPOs containing ADM/ADMX (REG.POL) items. In the future, more formats will be available for other scenarios.

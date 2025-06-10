@@ -8,4 +8,4 @@ To start making rules for Java JAR files right-click in the window and select __
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_java_jar_files.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_java_jar_files.webp)

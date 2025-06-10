@@ -45,21 +45,21 @@ Endpoint Policy Manager Feature Manager for Windows solves several important Win
 
 There is an in-box method of managing features and optional features on each machine, which requires you to address each feature one by one. On any given machine, you can manage features and optional features.
 
-![about_policypak_feature_manager](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager.png)
+![about_policypak_feature_manager](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager.webp)
 
 There are two ways to manage features: with the Windows Features Control Pane, or the Windows Settings page . These options can be accessed through the Start Menu.
 
-![about_policypak_feature_manager_1](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_1.png)
+![about_policypak_feature_manager_1](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_1.webp)
 
-![about_policypak_feature_manager_2](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_2.png)
+![about_policypak_feature_manager_2](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_2.webp)
 
 With optional features, you can add or subtract the feature you want. Below is an example of what this looks like.
 
-![about_policypak_feature_manager_3](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_3.png)
+![about_policypak_feature_manager_3](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_3.webp)
 
 An alternate way to perform similar functions is via the DISM command on the command line. For example, to install the Hyper-V feature on a machine, you would use the DISM command.
 
-![about_policypak_feature_manager_4](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_4.png)
+![about_policypak_feature_manager_4](/img/product_docs/policypak/policypak/feature/about_policypak_feature_manager_4.webp)
 
 This process can be scripted, but the challenge is that the system will typically reboot when it wants to, perhaps during a user's session. Additionally, scripts will typically run over and over again, which is not great, and could cause undesired reboots. This is why Endpoint Policy Manager Feature Manager for Windows eliminates the need to use scripts to add or remove features. Also, Endpoint Policy Manager Feature Manager for Windows gives you time back, so you don't have to deal with adding or removing features and optional features from the build process. So, instead of presetting these into your image or just dealing with it later, Endpoint Policy Manager Feature Manager for Windows enables you to manage these settings with policies.
 

@@ -8,7 +8,7 @@ Kick off the process to create a policy for scripts by going to __Add__ > __New 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_scripts.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_scripts.webp)
 
 The script types that are supported for elevation and for blocking are:
 

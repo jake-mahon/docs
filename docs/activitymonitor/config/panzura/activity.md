@@ -9,11 +9,11 @@ The monitoring process is based on two technologies:
 
 Auditing must be enabled on the master Panzura node and optionally overridden on the subordinate nodes to support different deployment scenarios depending on the expected load and network latency. A single agent monitors several Panzura nodes.
 
-![panzurasingleagntmonitor](/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.png)
+![panzurasingleagntmonitor](/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.webp)
 
 Audit events are distributed between two agents. Audit settings are overridden on one Panzura node.
 
-![auditeventstwoagnt_panzura](/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.png)
+![auditeventstwoagnt_panzura](/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.webp)
 
 The monitoring process relies on the Third Party Vendor Support auditing feature of the Panzura CloudFS platform, which uses the AMQP protocol for event delivery. Unlike typical uses of the AMQP protocol that require messaging middleware, the Panzura master and subordinate nodes connect directly to the Netwrix Activity Monitor Agent, eliminating the need for middleware.
 

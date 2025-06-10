@@ -15,11 +15,11 @@ __Step 3 –__ Do one of the following:
 
 The Object Rollback wizard opens.
 
-![Object Rollback wizard - Object Backup page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.png)
+![Object Rollback wizard - Object Backup page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 __Step 4 –__ In the Backup Date section, select a backup to use for the rollback operation. Then select the checkbox(es) for the attributes you want to roll back. Click __Next__.
 
-![Object Rollback wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Object Rollback wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 5 –__ Select a domain controller where the rollback changes will get affected. Options are:
 
@@ -28,7 +28,7 @@ __Step 5 –__ Select a domain controller where the rollback changes will get af
 
 __Step 6 –__ Click __Next__.
 
-![Object Rollback wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Object Rollback wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 __Step 7 –__ The account preforming the operation must have Domain Admin privileges to access the domain tree area where the object resides. On the Credentials page:
 
@@ -37,11 +37,11 @@ __Step 7 –__ The account preforming the operation must have Domain Admin privi
 
 For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Rollback wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Object Rollback wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 8 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
-![Object Rollback Sucessful message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrollbackcompleted.png)
+![Object Rollback Sucessful message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrollbackcompleted.webp)
 
 __Step 9 –__ A completed message is displayed when the rollback is successful. Click __OK__.
 

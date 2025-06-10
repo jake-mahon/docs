@@ -4,7 +4,7 @@ A Permissions review can be conducted for various types of data repository resou
 
 __Step 1 –__ On the Pending Reviews page, select the resource with a pending Permissions review and click __Begin Review__. The Resource Review page opens to the 1 Make Changes tab.
 
-![Permissions review Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagepermissions.png)
+![Permissions review Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagepermissions.webp)
 
 The table displays permission information for the resource being reviewed:
 
@@ -28,7 +28,7 @@ _Remember,_ at any time you can save your recommendations and exit the review. I
 
 __Step 4 –__ When the recommended changes are set as desired, click __Next__. The 2 Review changes tab opens in the Resource Review page.
 
-![Permissions review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagepermissions2.png)
+![Permissions review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagepermissions2.webp)
 
 __Step 5 –__ This tab displays a filtered table of trustees with recommended changes. Confirm your recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave notes explaining why the change is recommended.
 

@@ -15,6 +15,6 @@ __NOTE:__ The interaction between Netwrix Privilege Secure and Netwrix Endpoint 
 
 You can see the difference in the list view as seen here.
 
-![getting_started_client](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_client.png)
+![getting_started_client](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_client.webp)
 
 In the next section we will see how to create Netwrix Endpoint Policy Manager (formerly PolicyPak) + Netwrix Privilege Secure policies which will not need an endpoint license to work out of the box. Again, the idea is that you are already paying for an Netwrix Privilege Secure license, and because Netwrix Privilege Secure is involved in the policy, those policies work on the endpoint for free.

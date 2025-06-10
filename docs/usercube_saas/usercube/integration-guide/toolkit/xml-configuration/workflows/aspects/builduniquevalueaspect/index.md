@@ -38,7 +38,7 @@ A pointcut is a mechanism telling Identity Manager when to execute the linked [A
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 
-![pointcut Schema](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.png)
+![pointcut Schema](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
 
 | Property | Details |
 | --- | --- |
@@ -58,7 +58,7 @@ The value of the source binding/expression is computed based on the properties o
 
 The rule compares the return value of the source binding/expression with the existing values of the target binding/expression in the target entity type.
 
-![Schema: Unicity Check](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/aspects_unicitycheck.png)
+![Schema: Unicity Check](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/aspects_unicitycheck.webp)
 
 > For example, we need to generate an email address for any new user joining the company. We configure in a ```BuildUniqueValue``` aspect that users' emails are computed with ```{firstName}.{lastName}@{EmailDomain}```.
 >

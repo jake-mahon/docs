@@ -8,7 +8,7 @@ Click on a Device Group to edit the assigned Device Tracking template and Compli
 - To add additional Compliance Reports to a Device Group, just click the __Schedule a New Report__ button;
 - Use the ‘Group Name’ box to search and filter Device Groups shown.
 
-![page_guide_27](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_27.png)
+![page_guide_27](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_27.webp)
 
 Click on a Device Group name to configure further attributes for the Group, such as:
 
@@ -17,7 +17,7 @@ Click on a Device Group name to configure further attributes for the Group, such
 - Group Members, with the option to export a list of group Members
 - Define the schedule for [Agent Updates](/docs/changetracker/changetracker/admin/settings/agentupdates.md)
 
-![page_guide_28](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_28.png)
+![page_guide_28](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_28.webp)
 
 ## Agent Discovery/Registration Process
 
@@ -33,7 +33,7 @@ The __HubDetails.xml__ file includes some details unique to your deployment of N
 
 The key tags within the file are as follows:
 
-![page_guide_29](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_29.png)
+![page_guide_29](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_29.webp)
 
 \*The __Thumbprint__ uniquely identifies the Web Server certificate, see the [How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx) Microsoft article for additional information.
 
@@ -63,8 +63,8 @@ The Agent will then download and run the assigned Registration Report\* which de
 
 In this example, the group regex match (```-WEBSERVER-|-EPOS-|-APPSERVER-```) extracts only those substrings if present, then the `<Replace From lines` substitute in a valid group name for each possible match (in other words, there must be a group already defined with the Group name being referenced). This substituted name is then used as the initial group to register the agent into. Note: if there s no match they ll end up in the default New Devices .
 
-![page_guide_30](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_30.png)
+![page_guide_30](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_30.webp)
 
 You can view and edit the Default Registration Report from the __System__ page. In conjunction with the Registration Report, the optional Registration Script parameters can be used, providing a GUI option for post-processing Registration Report results in order to control group allocation. In the example below it is assumed the report has a variable called ```regvalue_variable``` i.e. reading a value from the registry, and the custom code reads this value and appends it to the text __Custom__. So, if the registry value contained __WebServer__, the device would be placed in the __CustomWebServer__ group if it exists, falling back on New Devices if it doesn t.
 
-![page_guide_31](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_31.png)
+![page_guide_31](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_31.webp)

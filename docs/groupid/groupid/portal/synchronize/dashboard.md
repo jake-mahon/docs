@@ -2,7 +2,7 @@
 
 After signing into the Directory Manager portal, from the left pane select __Synchronize__ to land on the dashboard.
 
-![synchronizedashboard](/img/product_docs/groupid/groupid/portal/synchronize/synchronizedashboard.png)
+![synchronizedashboard](/img/product_docs/groupid/groupid/portal/synchronize/synchronizedashboard.webp)
 
 The interface has intuitive navigation options:
 

@@ -2,7 +2,7 @@
 
 The API Server Tab provides options to configure API server settings to send information about agents, agent configuration, and agent data to applications remotely. If an application wants to read the activity data using the API, the API Server must be enabled on each agent collecting activity.
 
-![API Server Tab for Agent Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/apiservertab.png)
+![API Server Tab for Agent Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/apiservertab.webp)
 
 Check the Enable API access on this agent box to utilize the options on this tab:
 
@@ -14,7 +14,7 @@ Check the Enable API access on this agent box to utilize the options on this tab
 
 Grant or revoke access to the API Server by registering applications.
 
-![Add or Edit API Client popup window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/addoreditapiclient.png)
+![Add or Edit API Client popup window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/addoreditapiclient.webp)
 
 Click Add Application to open the Add or edit API client window.
 

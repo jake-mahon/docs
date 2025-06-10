@@ -2,7 +2,7 @@
 
 The Access Information Center has several interfaces for viewing reports and using the available workflows. Upon login, users granted console access are brought to the Home page.
 
-![Administrator user home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.png)
+![Administrator user home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.webp)
 
 The signed in user is displayed in the upper-right corner, along with the __Sign out__ link. The options enabled on the Home page change according to what components are licensed as well as the role assigned to the user.
 

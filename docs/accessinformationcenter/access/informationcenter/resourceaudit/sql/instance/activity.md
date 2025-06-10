@@ -2,7 +2,7 @@
 
 The Activity report at the instance level displays activity across the entire instance logged during the selected date range.
 
-![Activity report at the instance level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/instance/instanceactivity.png)
+![Activity report at the instance level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/instance/instanceactivity.webp)
 
 This report is comprised of the following columns:
 

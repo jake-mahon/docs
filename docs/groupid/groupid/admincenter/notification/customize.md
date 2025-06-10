@@ -74,7 +74,7 @@ __To replace a tag:__
 
 1. In the Source Code view, click the __Dictionary__ tile to view the recommended tags to replace the default tags with.
 
-   ![tagdictionary](/img/product_docs/groupid/groupid/admincenter/notification/tagdictionary.png)
+   ![tagdictionary](/img/product_docs/groupid/groupid/admincenter/notification/tagdictionary.webp)
 
    Each notification template has its own set of recommended tags.
 2. Use the _Go To_ option on the __Edit__ menu to search for a tag you want to replace. Refer to the tag dictionary to know what tags are used in the notification.

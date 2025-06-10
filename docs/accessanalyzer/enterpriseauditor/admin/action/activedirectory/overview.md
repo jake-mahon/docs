@@ -41,6 +41,6 @@ The Active Directory Action module is configured through the Active Directory Ac
 
 The Welcome page displays first in the Active Directory Action Module Wizard. Review the introductory and caution information about the Active Directory Action Module.
 
-![Active Directory Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Active Directory Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The navigation pane contains links to the pages in the wizard. Note that the operations added on the Operations page will affect the list of pages in the navigation pane. Several operations have associated configuration pages.

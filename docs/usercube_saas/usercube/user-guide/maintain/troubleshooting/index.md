@@ -18,13 +18,13 @@ In order to troubleshoot Identity Manager efficiently, the user, usually an appl
 
 - the connector screens, especially the jobs available there;
 
-  ![Connector Jobs](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.png)
+  ![Connector Jobs](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.webp)
 - the resource screens (identities, accounts, etc.) with their data, and especially their history and sources;
 
-  ![User Data](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.png)
+  ![User Data](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.webp)
 - basic workflows, for example the usual helpdesk workflow, that give access to users' entitlements and enable data modification and repair.
 
-  ![Helpdesk Workflow](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.png)
+  ![Helpdesk Workflow](/img/product_docs/usercube/usercube/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.webp)
 
 ## Participants and Artifacts
 

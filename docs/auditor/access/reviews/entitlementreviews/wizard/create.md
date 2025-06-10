@@ -2,7 +2,7 @@
 
 The Create Review wizard is opened with the __Create__ button on the Entitlement Reviews interface. See the [Manage Reviews Page](/docs/auditor/access/reviews/entitlementreviews/interface.md#manage-reviews-page) topic for additional information.
 
-![Create Review wizard](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
+![Create Review wizard](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
 
 It contains three pages:
 
@@ -27,7 +27,7 @@ Follow the steps to create a review.
 
 __Step 1 –__ On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard showing the Review Type page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.png)
+![Create Review wizard showing the Review Type page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
 
 __Step 2 –__ On the Review Type page, provide the following information and click __Next__:
 
@@ -37,7 +37,7 @@ __Step 2 –__ On the Review Type page, provide the following information and cl
   - Membership – Review group membership
   - Access – Review user access rights to resources
 
-![Create Review wizrd showing the Resources page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewresources.png)
+![Create Review wizrd showing the Resources page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewresources.webp)
 
 __Step 3 –__ On the Resources page, select the resources to be included in the review. The Search feature is available to filter the list of available resource that match the type of review being created.
 
@@ -51,7 +51,7 @@ __Step 3 –__ On the Resources page, select the resources to be included in the
 - Select the desired resource(s) and click __Add__. The __View Selections__ button indicates how many resources have been selected. Click the button to open the Selected Resources window, where you can view and modify the selections. See the [Selected Resources Window](/docs/auditor/access/reviews/entitlementreviews/window/selectedresources.md) topic for additional information.
 - Once the desired resources have been selected, click __Next__.
 
-![Create Review wizard showing the Summary page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewsummary.png)
+![Create Review wizard showing the Summary page](/img/product_docs/auditor/access/reviews/entitlementreviews/wizard/createreviewsummary.webp)
 
 __Step 4 –__ On the Summary page, review the settings and click Finish. The Access Reviews begins to create the review. Action status displays on the page. When the update has completed (100%), click Close. The Create Review wizard closes.
 

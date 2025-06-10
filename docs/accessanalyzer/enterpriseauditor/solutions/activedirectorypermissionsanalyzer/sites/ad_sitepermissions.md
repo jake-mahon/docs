@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD\_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_SitePermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/sitepermissionsanalysis.png)
+![Analysis Tasks for the AD_SitePermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/sitepermissionsanalysis.webp)
 
 The default analysis tasks are:
 

@@ -28,7 +28,7 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer Db2 Solution is a comprehensive set of preconfigured audit jobs and reports that provide visibility into various aspects of a Db2 Databases: Sensitive Data Discovery and Objects Permissions.
 
-![Db2 Overview](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Db2 Overview](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 The following comprises the Db2 solution:
 

@@ -4,11 +4,11 @@ Follow the steps to create a Host Discovery query using the __Import from a data
 
 __CAUTION:__ Each time a query refresh occurs for a query with an import option set as the source, it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes the query to fail.
 
-![Host Discovery Wizard Source page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.png)
+![Host Discovery Wizard Source page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
 
 __Step 1 –__ Open the Host Discovery Wizard. On the Source page, select the __Import from a database__ option. Click __Next__.
 
-![Host Discovery Wizard Query page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.png)
+![Host Discovery Wizard Query page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 __Step 2 –__ On the Query page, name the query and select the credentials used to access the source.
 
@@ -23,13 +23,13 @@ __Step 2 –__ On the Query page, name the query and select the credentials used
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Database Import page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/databaseimport.png)
+![Host Discovery Wizard Database Import page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/databaseimport.webp)
 
 __Step 3 –__ On the Database Import page, identify the database, table, and column where the host names are located:
 
 - Data source – Identify the database. Click the ellipsis (__…__) to open the Data Link Properties window. Then provide the required information on the Connection tab.
 
-  ![Data Link Properties window Connection tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkproperties.png)
+  ![Data Link Properties window Connection tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkproperties.webp)
 
   - Server name – Use the drop-down menu to select the server. The __Refresh__ button refreshes the list of available servers.
   - Credentials – Select the credentials to use to log on to the server:
@@ -38,7 +38,7 @@ __Step 3 –__ On the Database Import page, identify the database, table, and co
     - Use a specific user name and password – Provide the user name and password and select the __Allow saving password__ option
     - If selected, the __Blank password__ option indicates that no password is required
 
-    ![Test connection succeeded confirmation window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.png)
+    ![Test connection succeeded confirmation window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.webp)
   - Click __Test Connection__ to confirm a connection has been established. Click __OK__ on the confirmation window.
   - Database – Select the __Select the database on the server__ option and use the drop-down menu to select the database
   - The other tabs in the Data Link Properties window should not be modified
@@ -53,7 +53,7 @@ __Step 3 –__ On the Database Import page, identify the database, table, and co
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Options page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Host Discovery Wizard Options page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 4 –__ On the Options page, configure the query options as required.
 
@@ -67,7 +67,7 @@ __Step 4 –__ On the Options page, configure the query options as required.
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Inventory page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.png)
+![Host Discovery Wizard Inventory page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
 
 __Step 5 –__ On the Inventory page, the host inventory process can be automatically included with the discovery query.
 
@@ -82,11 +82,11 @@ __Step 5 –__ On the Inventory page, the host inventory process can be automati
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Summary page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Host Discovery Wizard Summary page for database import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 __Step 6 –__ The Summary page displays all the selected query configuration settings. To make changes, click __Back__ to navigate to the relevant wizard page. Click Finish to complete the configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.png)
+![Confirm dialog box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 __Step 7 –__ A Confirm dialog box opens. Click __Yes__ to run the query now or __No__ to run the query at another time.
 

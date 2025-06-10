@@ -32,4 +32,4 @@ Bulk test is running...
 
 The report is created: "C:\PPE\password.txt\_Result\_2209222024122350.html".
 
-![Results of the Get-PPEBulkPasswordTest cmdlet](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletgetppebulkpasswordtest.png)
+![Results of the Get-PPEBulkPasswordTest cmdlet](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletgetppebulkpasswordtest.webp)

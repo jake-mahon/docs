@@ -2,7 +2,7 @@
 
 The PF\_FolderScans job is comprised of data collection that focuses on collecting sizing information for each public folder.
 
-![Collection > PF_FolderScans Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_FolderScans Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The PF\_FolderScans job is located in the Collection job group.
 
@@ -10,7 +10,7 @@ The PF\_FolderScans job is located in the Collection job group.
 
 The PF\_FolderScans job uses the ExchangePS Data Collector.
 
-![Queries for the PF_FolderScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/folderscansquery.png)
+![Queries for the PF_FolderScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/folderscansquery.webp)
 
 The following query is included in the PF\_FolderScans Job:
 
@@ -25,7 +25,7 @@ View the analysis task by navigating to the __Exchange__ > __5. Public Folders__
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the PF_FolderScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/folderscansanalysis.png)
+![Analysis Tasks for the PF_FolderScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/folderscansanalysis.webp)
 
 The following analysis task is selected by default:
 

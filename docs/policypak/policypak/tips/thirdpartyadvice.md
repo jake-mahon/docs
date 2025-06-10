@@ -8,7 +8,7 @@ Below, find a portion of the download of what Endpoint Policy Manager provides a
 
 __NOTE:__  That note all STIG guidance is convertible into Endpoint Policy Manager Application Manager format, so we only convert the ones that make sense.
 
-![539_1_image-20200219201318-1_950x682](/img/product_docs/policypak/policypak/tips/539_1_image-20200219201318-1_950x682.png)
+![539_1_image-20200219201318-1_950x682](/img/product_docs/policypak/policypak/tips/539_1_image-20200219201318-1_950x682.webp)
 
 You can investigate this whole process end-to-end by watching [Import STIG files to make your applications more secure](/docs/policypak/policypak/video/gpocompilancereporter/importstig.md) on how to consume the converted STIG information:
 

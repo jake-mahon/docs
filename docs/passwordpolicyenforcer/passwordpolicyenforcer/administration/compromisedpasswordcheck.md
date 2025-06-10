@@ -14,7 +14,7 @@ Click the __Compromised Passwords__ tile on the Configuration Console dashboard.
 
 Click the __Compromised Password Check__ toggle to enable/disable the feature.
 
-![Compromised Password Check](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswords.png)
+![Compromised Password Check](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswords.webp)
 
 - __Compromised Passwords Base__ specify the database to use when checking for compromised passwords. Netwrix recommends using the [HIBP Updater](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.md) to create this database. Click __Browse__ to navigate to the folder. Default is __C:\HIBP\DB__
 - __Domain Controller (FQDN)__ specify the fully qualified domain controller name where you want to run the password check. Click __Browse__ and select from the list.
@@ -25,7 +25,7 @@ Click the __Compromised Password Check__ toggle to enable/disable the feature.
 - __Notify users whose passwords are compromised by email__ select this option to send email notification to users their password appears in the compromised list.
 - __Set up email__ click to set up the email message for users. Enter the __From__ address and edit the subject and body template as needed. Click __Apply__ to save changes.
 
-  ![Email user notification of compromised password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/emailusernotification.png)
+  ![Email user notification of compromised password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/emailusernotification.webp)
 
 Click __Save__ to save your settings before running the check or setting up a schedule.
 
@@ -44,7 +44,7 @@ Here is an example of the compromised passwords list:
 
 Click __Schedule__ to set up a schedule to run the Compromised Password Check.
 
-![Schedule the Compromised Password Policy Check](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordsschedule.png)
+![Schedule the Compromised Password Policy Check](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromisedpasswordsschedule.webp)
 
 Select the __Frequency__:
 

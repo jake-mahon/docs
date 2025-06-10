@@ -12,7 +12,7 @@ If you want to see if the change would have an impact in your sandbox, you can a
     The status bar displays the stage of the Change Request. A new change request displays _Not Started_.
 2. Enter information in the __Main__ and __Scope__ sections:
 
-   ![change_request_new](/img/product_docs/strongpointfornetsuite/change_management/change_request_new.png)
+   ![change_request_new](/img/product_docs/strongpointfornetsuite/change_management/change_request_new.webp)
 
    - __Name__: Add a name to the change request.
    - __Stage__: Select the type of change you want to make.
@@ -55,7 +55,7 @@ If you want to see if the change would have an impact in your sandbox, you can a
    2. __Download SDF Project__ button downloads the Change Request as a zip file.
    3. The __Approval__ section is visible. Click __Edit to__ add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes.
 
-      ![change_request_new_saved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.png)
+      ![change_request_new_saved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.webp)
    4. __Impact Analysis__ is automatically run. The results are shown on the __Impact Analysis__ tab.
       In addition to all of the direct dependencies, indirect dependencies are also considered to determine the change level for each customization. If there are multiple change levels, the most stringent one is applied.
 
@@ -85,10 +85,10 @@ If you want to see if the change would have an impact in your sandbox, you can a
       - Parent Change Request
 5. Click __Pending Approval__ in the status bar when you are finished with the Change Request. A confirmation prompt is displayed. When confirmed, Approval Notifications are sent to the approvers.
 
-   ![change_request_new_pendapprove](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.png)
+   ![change_request_new_pendapprove](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.webp)
 6. Approvers approve or reject the Change Request. __Deploy__ is available for approved Change Requests.
 
-   ![change_request_new_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.png)
+   ![change_request_new_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.webp)
 7. Validate the Change Request.
 
 ## Canceling a Change Request
@@ -104,13 +104,13 @@ Status is changed to __Cancelled CR__.
 
 ## Status Bar States
 
-![change_request_bar_not_started](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.png)
+![change_request_bar_not_started](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.webp)
 
 New Change Request. Click __In Progress__ to advance the status.
 
 Impact Analysis is run when the Change Request is Saved.
 
-![change_request_bar_inprogress](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.png)
+![change_request_bar_inprogress](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.webp)
 
 Change Request __In Progress__.
 
@@ -120,7 +120,7 @@ Impact Analysis is run when the Change Request is Saved.
 
 When ready for approval, click __Pending Approval__.
 
-![change_request_bar_pending](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.png)
+![change_request_bar_pending](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.webp)
 
 Approvers are notified.
 
@@ -130,7 +130,7 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.png)
+![change_request_bar_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.webp)
 
 Status when all approvers have approved.
 
@@ -138,11 +138,11 @@ Can be returned to a previous status or rejected.
 
 __Deploy__ button is available.
 
-![change_request_bar_approved_partial](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.png)
+![change_request_bar_approved_partial](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.webp)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.png)
+![change_request_bar_approved_override](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.webp)
 
 Status when an administrator has approved in place of a specified approver.
 
@@ -150,7 +150,7 @@ __Approval Override by__ field displays the approver.
 
 __Deploy__ button is available.
 
-![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.png)
+![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.webp)
 
 Approved and Completed.
 
@@ -158,7 +158,7 @@ Can be returned to a previous status.
 
 __Deploy__ button not available.
 
-![change_request_bar_approved_canceled](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.png)
+![change_request_bar_approved_canceled](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.webp)
 
 Approved and Canceled.
 
@@ -166,7 +166,7 @@ Can be returned to a previous status.
 
 __Deploy__ button not available.
 
-![change_request_bar_rejected](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.png)
+![change_request_bar_rejected](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.webp)
 
 Rejected and Completed.
 

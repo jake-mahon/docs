@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > Credentials > Credential Policy Override
 
 __Step 2 –__ In the Credential Policy Overrides list, click the Plus icon.
 
-![Adding a credential policy override](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentialpolicyoverride.png)
+![Adding a credential policy override](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentialpolicyoverride.webp)
 
 __Step 3 –__ Enter or select the following information:
 
@@ -17,11 +17,11 @@ __Step 3 –__ Enter or select the following information:
 
 __Step 4 –__ Click Save to create the new credential policy override.
 
-![cpopageaddcredentials](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/cpopageaddcredentials.png)
+![cpopageaddcredentials](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/cpopageaddcredentials.webp)
 
 __Step 5 –__ With the new Credential Policy Override selected, click the __Add Credentials__ button to open the Add Credentials window. See the [Add Credentials to a Policy Override](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md#add-credentials-to-a-policy-override) topic for additional information.
 
-![Add credential to Credential Policy Override Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentialtocpowindow.png)
+![Add credential to Credential Policy Override Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentialtocpowindow.webp)
 
 __Step 6 –__ Select the checkbox for the credential and click __Add__ to save the credential to the Credential Policy Override.
 

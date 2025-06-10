@@ -10,7 +10,7 @@ The event filters for the Exchange Lockdown event type are:
 - Exchange Perpetrators
 - Rule Preview
 
-![Policy window - Exchange Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.png)
+![Policy window - Exchange Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -24,7 +24,7 @@ __NOTE:__ There are additional factors to consider in order to block delegations
 
 On the Exchange Event filter for lockdown, select the types of Exchange events to be locked down by the policy.
 
-![Policy window - Exchange Event filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeeventlockdown.png)
+![Policy window - Exchange Event filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeeventlockdown.webp)
 
 Check the __All__ box at the top of the tab to include all operations and permissions or select specific operations and permissions:
 
@@ -43,7 +43,7 @@ Whether these events are blocked or allowed depends on the other filters applied
 
 Use the Exchange Mailbox Objects and Containers filter for lockdown to set the scope of the policy to lockdown changes to specific objects or containers within Exchange or to exclude changes to specific objects or containers from being locked down.
 
-![Policy window - Exchange Mailbox Objects and Containers filter ](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.png)
+![Policy window - Exchange Mailbox Objects and Containers filter ](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
 
 Select the __Include__ or __Exclude__ button and then edit the list.
 
@@ -55,7 +55,7 @@ Select the __Include__ or __Exclude__ button and then edit the list.
 
 Use the Exchange Trustees filter for lockdown to set the scope of the policy to only lockdown specific Exchange trustees. Trustees are the accounts receiving permissions. For example, if an administrator grants Joe Smith access to Bob Wilson's mailbox, Joe Smith is the trustee that is granted permissions.
 
-![Policy window - Exchange Trustees filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrusteeslockdown.png)
+![Policy window - Exchange Trustees filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrusteeslockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -80,7 +80,7 @@ The other option button options dictate how the Exchange Trustees filter and the
 
 Use the Exchange Perpetrator filter for lockdown to set the scope of the policy to only lock down specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![Policy window - Exchange Perpetrator filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetratorlockdown.png)
+![Policy window - Exchange Perpetrator filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetratorlockdown.webp)
 
 Options at the top enable you to block or allow user access to mailboxes based on the assigned roles.
 
@@ -116,6 +116,6 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

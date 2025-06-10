@@ -6,20 +6,20 @@ This webpage wants to run Java™ Platform SE binary' which is not compatible wi
 
 This Java message pops-up when you try to access an IE website that has a Java applet on it.
 
-![overcoming_java_prompts_3](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_3.png)
+![overcoming_java_prompts_3](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_3.webp)
 
 This message occurs when certain settings are applied manually or with Group Policy, as shown below.
 
-![overcoming_java_prompts_4](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_4.png)
+![overcoming_java_prompts_4](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_4.webp)
 
 To remove the prompt when running the Java applet, make the site a Trusted Site in IE. Below you can see how to remove a Java message and make the website a trusted site.
 
-![overcoming_java_prompts_5](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_5.png)
+![overcoming_java_prompts_5](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_5.webp)
 
 Another way to remove the message is by using Endpoint Policy Manager Application Settings Manager, as shown below.
 
-![overcoming_java_prompts_6](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_6.png)
+![overcoming_java_prompts_6](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_6.webp)
 
 You can also use Endpoint Policy Manager Application Settings Manager to merge your site with the user's.
 
-![overcoming_java_prompts_7](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_7.png)
+![overcoming_java_prompts_7](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_7.webp)

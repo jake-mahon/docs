@@ -9,7 +9,7 @@ The Resource Reviews interface opened by the __Resource Reviews__ button on the 
 
 The Manage Reviews page is the first page in the Resource Reviews interface. It displays high-level information for reviews.
 
-![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The interface includes:
 
@@ -44,7 +44,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Reviews Interface](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.png)
+![Action buttons in the Resource Reviews Interface](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.webp)
 
 | Button | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ The buttons at the bottom enable you to conduct the following actions:
 
 The Review Details page displays information for all instances of the selected review, which is named in the page breadcrumb. This page is opened by selecting a review and clicking __View Details__.
 
-![Resource Reviews interface showing the Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.png)
+![Resource Reviews interface showing the Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.webp)
 
 Instances are selected from the drop-down menu. By default the most current instance will be displayed. Instances are named with date timestamps indicating the start and end times for the review instance.
 
@@ -88,7 +88,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the top and bottom enable you to conduct the following actions:
 
-![Action buttons on the Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsbuttons.png)
+![Action buttons on the Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsbuttons.webp)
 
 | Button | Description |
 | --- | --- |

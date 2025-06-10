@@ -4,7 +4,7 @@ The FS\_Migrate\_Schema Job migrates the schema in order to support the use of 6
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard.
 
-![FS_MigrateSchema job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![FS_MigrateSchema job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -23,7 +23,7 @@ Navigate to the __Jobs__ > __FS\_MigrateSchema__ > __Configure__ node and select
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 

@@ -2,7 +2,7 @@
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.
 
-![configurationmenu](/img/product_docs/threatmanager/threatmanager/administration/configuration/configurationmenu.png)
+![configurationmenu](/img/product_docs/threatmanager/threatmanager/administration/configuration/configurationmenu.webp)
 
 It contains links to the component configuration and settings interfaces:
 

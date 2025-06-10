@@ -2,7 +2,7 @@
 
 The Usage Statistics Job Group identifies long term trends of activity and usage statistics across your Box environment, highlighting conditions such as most active or stale folders.
 
-![Usage Statistics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Usage Statistics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Usage Statistics Job Group is comprised of:
 

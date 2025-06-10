@@ -4,7 +4,7 @@ The User Details page displays group membership details for a user.
 
 In an investigation report, user names appear as links under the Perpetrator column in the Event Details and Top Resources sections (see the [Investigation Reports](/docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic). Click a link to land on the User Details page.
 
-![userdetails](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/userdetails.png)
+![userdetails](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/userdetails.webp)
 
 The top of the page displays a user profile card which may contain the following information about the user:
 

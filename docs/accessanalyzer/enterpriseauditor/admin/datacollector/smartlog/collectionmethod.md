@@ -2,7 +2,7 @@
 
 The Collection Method page is used to select the collection method employed by the data collector. It is a wizard page for all log types.
 
-![SMART Log DC Wizard Collection Method page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/collectionmethod.png)
+![SMART Log DC Wizard Collection Method page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/collectionmethod.webp)
 
 Select the collection method from the following options to set how the collection routine is executed to collect the data from the target.
 

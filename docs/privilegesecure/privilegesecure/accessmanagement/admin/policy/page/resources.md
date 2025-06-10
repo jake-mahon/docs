@@ -2,7 +2,7 @@
 
 The Resources page shows information for onboarded resources, such as active and scheduled sessions, policies, and service accounts for the host resources and domain resources that have been added to the console. The Resources page displays the same information as the [Resources Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/resources.md).
 
-![Resources page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcespage.png)
+![Resources page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcespage.webp)
 
 The Resources table has the following features:
 

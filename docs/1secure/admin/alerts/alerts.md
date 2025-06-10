@@ -13,7 +13,7 @@ __Step 1 –__ Navigate to Configuration > Alerts.
 
 __Step 2 –__ Click an alert profile. The alerts for the profile are displayed in a list.
 
-![Alerts List within an alert profile](/img/product_docs/1secure/admin/alerts/alertslist.png)
+![Alerts List within an alert profile](/img/product_docs/1secure/admin/alerts/alertslist.webp)
 
 You can view the following for each alert in the list:
 
@@ -35,7 +35,7 @@ __Step 2 –__ Click an alert profile. The alerts for the profile are displayed 
 
 __Step 3 –__ Click __Add__. The New Alert pane is displayed.
 
-![New Alert Pane](/img/product_docs/1secure/admin/alerts/addcustomalert.png)
+![New Alert Pane](/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
 
 __Step 4 –__ Select a custom report from the Report drop-down menu to trigger the alert when a new record is generated for the report. See the [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional information.
 

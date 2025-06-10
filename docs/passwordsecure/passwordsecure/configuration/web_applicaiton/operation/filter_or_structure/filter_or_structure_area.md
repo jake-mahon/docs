@@ -2,7 +2,7 @@
 
 As is also the case on the client, it is possible to select between filter and structure. For this purpose, the following buttons are available on the navigation bar
 
-![installation_with_parameters_169](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_169.png)
+![installation_with_parameters_169](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_169.webp)
 
 1. Filter
 
@@ -16,7 +16,7 @@ Configuring the filter
 
 The configuration for the filter can be displayed via the following buttons:
 
-![installation_with_parameters_170](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_170.png)
+![installation_with_parameters_170](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_170.webp)
 
 New filter groups can be added using __Add filter groups__ and the current filter can be reset using __Reset filter. Advanced mode__ provides you with the possibility of deleting or moving individual filter groups. The __Allow negation of filters__ option can also be selected.
 

@@ -8,7 +8,7 @@ The use of a [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced
 
 The possibility of separately defining the visibility of individual objects is one of the special features within the Netwrix Password Secure authorization concept. Irrespective of whether handling records, documents, organisational structures, roles or forms: it is always possible to define whether a user or a role possesses a read permission to the object or not. The permissions for each of these objects can be defined separately via the ribbon in the permissions dialogue. This approach enables the creation of independently existing departments within a database. The permissions structure for the SAP form can be seen below. It shows that only the sales manager and the administrators are currently permitted to create new records of type SAP.
 
-![example permissions on a form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility-en.png)
+![example permissions on a form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility-en.webp)
 
 In general, each department can independently use forms, create passwords and manage hierarchies in this way. Especially in very sensitive areas of a company, this type of compartmentalization is often required and also desired.
 

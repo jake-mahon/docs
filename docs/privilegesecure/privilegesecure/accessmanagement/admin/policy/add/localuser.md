@@ -2,7 +2,7 @@
 
 Privilege Secure allows for the provisioning of local users. Local users exist locally in the Privilege Secure database, and therefore are not dependent on Active Directory authentication when logging in to Privilege Secure. Local users can be assigned to roles and access policies in exactly the same manner as domain users.
 
-![addlocalusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addlocalusers.png)
+![addlocalusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addlocalusers.webp)
 
 Follow these steps to add a New Local Users.
 

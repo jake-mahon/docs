@@ -4,7 +4,7 @@ Endpoint Policy Manager Policies are always created in the Group Policy editor, 
 
 The Endpoint Policy Manager Admin Console MSI can be found in the download. There is one for 32-bit machines, one for 64-bit machines, and one for Arm machines.
 
-![preparemanagementstation1](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation1.png)
+![preparemanagementstation1](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation1.webp)
 
 ## Option 1
 
@@ -16,7 +16,7 @@ __NOTE:__ The Endpoint Policy Manager MMC Group Policy Snap-In does NOT require 
 
 The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on a management station joined to Active Directory will look like the example below. You’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 
-![preparemanagementstation2](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation2.png)
+![preparemanagementstation2](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation2.webp)
 
 ## Option 2
 
@@ -24,7 +24,7 @@ Install the Endpoint Policy Manager MMC Group Policy Snap-In on the same machine
 
 The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on a local machine looks similar to the example below. When you run GPEDIT.MSC with an Administrator command prompt, you’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 
-![preparemanagementstation3](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation3.png)
+![preparemanagementstation3](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation3.webp)
 
 Additional resources you may be interested in:
 

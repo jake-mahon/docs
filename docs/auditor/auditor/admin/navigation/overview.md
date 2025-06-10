@@ -14,7 +14,7 @@ Home Screen Tiles in the Netwrix Auditor provide an interface that allows users 
 
 The Welcome to Netwrix Auditor Tile tile provides a checklist you can use to get started collecting and viewing data about your IT ecosystem.
 
-![welcome_section](/img/product_docs/auditor/auditor/admin/navigation/welcome_section.png)
+![welcome_section](/img/product_docs/auditor/auditor/admin/navigation/welcome_section.webp)
 
 - The "Create a monitoring plan" link prompts you to create a monitoring plan for at least one data source (such as Active Directory, Exchange Online or network devices). For detailed instructions on how to create a monitoring plan, see the [Monitoring Plans](/docs/auditor/auditor/admin/monitoringplans/overview.md) topic for additional information. Wait until the initial data collection completes.
 
@@ -28,7 +28,7 @@ When you have completed these three steps, you can close this tile by clicking t
 
 This section contains four tiles for getting security intelligence about your IT infrastructure:
 
-![section_left](/img/product_docs/auditor/auditor/admin/navigation/section_left.png)
+![section_left](/img/product_docs/auditor/auditor/admin/navigation/section_left.webp)
 
 | Tile | Description |
 | --- | --- |
@@ -65,10 +65,10 @@ Initially, the Favorite Reports tile lists the reports that our customers use mo
 
 |  |  |
 | --- | --- |
-| ![alerts_triggered](/img/product_docs/auditor/auditor/admin/navigation/alerts_triggered.png) | Opens the Alerts Overview dashboard, which lists the latest alerts triggered in your IT infrastructure, enriched with actionable charts and timelines. See the [Alerts Overview Dashboard](/docs/auditor/auditor/admin/alertsettings/dashboard.md) topic for additional information. |
-| ![environment_stats](/img/product_docs/auditor/auditor/admin/navigation/environment_stats.png) | This tile shows the current number of users, groups, and files and folders in your IT infrastructure in one place.  Clicking the link opens the corresponding report:   - Users — User Accounts state-in-time report for Active Directory - Groups — Groups state-in-time report for Active Directory - Files and Folders — Folder Tree View state-in-time report for File Servers   Click Recalculate to update values. |
-| ![monitroing_plans_overview](/img/product_docs/auditor/auditor/admin/navigation/monitroing_plans_overview.png) | Clicking the tile opens the Monitoring Overview dashboard, which shows the current status of each of your monitoring plans. See the [Monitoring Overview](/docs/auditor/auditor/admin/healthstatus/dashboard/monitoringoverview.md) topic for additional information. |
-| ![activity_records](/img/product_docs/auditor/auditor/admin/navigation/activity_records.png) | Clicking the tile opens the Activity Record Statistics dashboard which shows the number of activity records that were collected from your data sources during the last 7 days. See the [Activity Records Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for additional information. |
-| ![hs_screen_default_report_1](/img/product_docs/auditor/auditor/admin/navigation/hs_screen_default_report_1.png) | Opens the listed Auditor report. See the [Custom Search-Based Reports](/docs/auditor/auditor/admin/reports/types/custom.md) topic for additional information. |
-| ![hs_screen_default_report_2](/img/product_docs/auditor/auditor/admin/navigation/hs_screen_default_report_2.png) | Opens the listed Auditor report. See the [Predefined Reports](/docs/auditor/auditor/admin/reports/types/overview.md) topic for additional information. |
-| ![recommendations_tile](/img/product_docs/auditor/auditor/admin/navigation/recommendations_tile.png) | Opens the list of the configuration recommendations provided by Netwrix industry experts to take advantage of the Auditor functionality. See the [Recommendations](/docs/auditor/auditor/admin/navigation/recommendations.md) topic for additional information. |
+| ![alerts_triggered](/img/product_docs/auditor/auditor/admin/navigation/alerts_triggered.webp) | Opens the Alerts Overview dashboard, which lists the latest alerts triggered in your IT infrastructure, enriched with actionable charts and timelines. See the [Alerts Overview Dashboard](/docs/auditor/auditor/admin/alertsettings/dashboard.md) topic for additional information. |
+| ![environment_stats](/img/product_docs/auditor/auditor/admin/navigation/environment_stats.webp) | This tile shows the current number of users, groups, and files and folders in your IT infrastructure in one place.  Clicking the link opens the corresponding report:   - Users — User Accounts state-in-time report for Active Directory - Groups — Groups state-in-time report for Active Directory - Files and Folders — Folder Tree View state-in-time report for File Servers   Click Recalculate to update values. |
+| ![monitroing_plans_overview](/img/product_docs/auditor/auditor/admin/navigation/monitroing_plans_overview.webp) | Clicking the tile opens the Monitoring Overview dashboard, which shows the current status of each of your monitoring plans. See the [Monitoring Overview](/docs/auditor/auditor/admin/healthstatus/dashboard/monitoringoverview.md) topic for additional information. |
+| ![activity_records](/img/product_docs/auditor/auditor/admin/navigation/activity_records.webp) | Clicking the tile opens the Activity Record Statistics dashboard which shows the number of activity records that were collected from your data sources during the last 7 days. See the [Activity Records Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for additional information. |
+| ![hs_screen_default_report_1](/img/product_docs/auditor/auditor/admin/navigation/hs_screen_default_report_1.webp) | Opens the listed Auditor report. See the [Custom Search-Based Reports](/docs/auditor/auditor/admin/reports/types/custom.md) topic for additional information. |
+| ![hs_screen_default_report_2](/img/product_docs/auditor/auditor/admin/navigation/hs_screen_default_report_2.webp) | Opens the listed Auditor report. See the [Predefined Reports](/docs/auditor/auditor/admin/reports/types/overview.md) topic for additional information. |
+| ![recommendations_tile](/img/product_docs/auditor/auditor/admin/navigation/recommendations_tile.webp) | Opens the list of the configuration recommendations provided by Netwrix industry experts to take advantage of the Auditor functionality. See the [Recommendations](/docs/auditor/auditor/admin/navigation/recommendations.md) topic for additional information. |

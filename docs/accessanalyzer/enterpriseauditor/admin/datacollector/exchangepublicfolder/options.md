@@ -2,7 +2,7 @@
 
 The Options page provides additional configuration options for the query. It is a wizard page for all of the categories. Available options vary based on the category selected.
 
-![Exchange Public Folder Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Exchange Public Folder Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 The Options page contains the following options:
 

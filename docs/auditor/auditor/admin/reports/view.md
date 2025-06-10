@@ -13,11 +13,11 @@ To view a report
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](/docs/auditor/auditor/admin/navigation/overview.md) and [Customize Home Screen](/docs/auditor/auditor/admin/navigation/customizehome.md) topics for additional information.
 
-1. In Netwrix Auditor Home screen, click ![reports_tile](/img/product_docs/auditor/auditor/admin/reports/reports_tile.png)on the left, and in the tree on the left select the report you need.
+1. In Netwrix Auditor Home screen, click ![reports_tile](/img/product_docs/auditor/auditor/admin/reports/reports_tile.webp)on the left, and in the tree on the left select the report you need.
 
 To speed up the process, you can use the __Search__ field, entering the keyword to search by.
 
-![searchreports_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.png)
+![searchreports_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.webp)
 
 2. Click View button in the right pane.
 
@@ -50,8 +50,8 @@ The example below applies to the All Changes by Server report and shows the befo
 
 The report without filtering:
 
-![allchangesserver](/img/product_docs/auditor/auditor/admin/reports/allchangesserver.png)
+![allchangesserver](/img/product_docs/auditor/auditor/admin/reports/allchangesserver.webp)
 
 The report below displays changes for all audited systems made by the CORP\Administrator user on the ROOTDC2 domain controller for a month sorted by the action type.
 
-![allchangesserverfiltered](/img/product_docs/auditor/auditor/admin/reports/allchangesserverfiltered.png)
+![allchangesserverfiltered](/img/product_docs/auditor/auditor/admin/reports/allchangesserverfiltered.webp)

@@ -14,7 +14,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Passphrase__ tab.
 
-![Enable Passphrases](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrase.png)
+![Enable Passphrases](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrase.webp)
 
 __Step 4 –__ Select the number of characters the password must contain before the selected rules are disabled.
 

@@ -6,11 +6,11 @@ UAR Administrators and Auditors see all completed reviews.
 Owners see their assigned, completed reviews.   
 Additional Reviewers see completed reviews where they were assigned.
 
-![Open UAR History](/img/product_docs/strongpointfornetsuite/uar/uar_history.png)
+![Open UAR History](/img/product_docs/strongpointfornetsuite/uar/uar_history.webp)
 
 Click on a __Review Name__ to access details about the review, __Q1 2022\_Membership\_Buyer__ in this example. The Review is opened, displaying the __Review__ tab.
 
-![UAR History Review tab](/img/product_docs/strongpointfornetsuite/uar/uar_history_review.png)
+![UAR History Review tab](/img/product_docs/strongpointfornetsuite/uar/uar_history_review.webp)
 
 ## Review Tab
 
@@ -20,4 +20,4 @@ The __Review__ tab displays all of the roles or permissions reviewed as part of 
 
 The __Review Notes__ tab displays the details for each row in the completed Global Review. Click the __Review Notes__ tab on the to access this detail. Record links are provided in each row to drill down into the data records.
 
-![Review Notes tab provides additional details](/img/product_docs/strongpointfornetsuite/uar/membership_review_notes_tab.png)
+![Review Notes tab provides additional details](/img/product_docs/strongpointfornetsuite/uar/membership_review_notes_tab.webp)

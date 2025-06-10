@@ -17,6 +17,6 @@ The Web Request action module is configured through the Web Request Action Modul
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the pages in the wizard.
 
-![Web Request Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Web Request Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

@@ -25,7 +25,7 @@ __To perform a search:__
 1. In Admin Center, enter a search string in the Search box at the top of the page.  
    A list of matched items is displayed as you type. For example, as you type ‘ta’, it shows:
 
-   ![quick_search](/img/product_docs/groupid/groupid/admincenter/general/quick_search.png)
+   ![quick_search](/img/product_docs/groupid/groupid/admincenter/general/quick_search.webp)
 2. On clicking __Quick Actions__ for an identity store, it displays the settings available for the identity store. Click an option to navigate to it.
 
 ## Top Right Options

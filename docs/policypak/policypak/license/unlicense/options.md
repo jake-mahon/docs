@@ -20,7 +20,7 @@ Get-ADComputer -filter {(enabled -eq 'True') -and (name -notlike '*computer*') -
 
 (Must be typed / copied / pasted on one line)
 
-![144_1_lt-and-powershell-counts](/img/product_docs/policypak/policypak/license/mdm/200_3_image-20200723102952-2.png)
+![144_1_lt-and-powershell-counts](/img/product_docs/policypak/policypak/license/mdm/200_3_image-20200723102952-2.webp)
 
 __Step 2 –__ As you can see, this Powershell command simply reports back the same count that LT would report if you were using it.
 
@@ -37,7 +37,7 @@ Get-ADComputer -SearchBase 'OU=West Sales,OU=Sales,DC=fabrikam,DC=com' -Filter {
 
 ## Example PowerShell output:
 
-![144_2_image001](/img/product_docs/policypak/policypak/license/unlicense/144_2_image001.png)
+![144_2_image001](/img/product_docs/policypak/policypak/license/unlicense/144_2_image001.webp)
 
 Run this additional PowerShell command (cut and paste):
 
@@ -45,7 +45,7 @@ Run this additional PowerShell command (cut and paste):
 
 It will then produce the output of the domain name, which we absolutely need to make you a license key. Without this, we cannot cut you a key.
 
-![144_3_get-fqdn-with-powershell](/img/product_docs/policypak/policypak/license/812_3_get-fqdn-with-powershell.png)
+![144_3_get-fqdn-with-powershell](/img/product_docs/policypak/policypak/license/812_3_get-fqdn-with-powershell.webp)
 
 So, to recap:
 

@@ -14,6 +14,6 @@ By automatically reducing the background noise of pre-approved changes such as k
 
 __NOTE:__ The __Show Rules__ button is for non-admin users and shows a ‘read only’ view of rules. Click alongside any Planned Change Schedule Name to display a graphical view of changes and a full list of devices with changes below.
 
-![PlannedChangesTab](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangestab.png)
+![PlannedChangesTab](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangestab.webp)
 
 For more detail on Planned Change Schedule and Rule setup, see the [Planned Changes Administration](/docs/changetracker/changetracker/admin/tabs/plannedchangeadministration.md) topic for additional information.

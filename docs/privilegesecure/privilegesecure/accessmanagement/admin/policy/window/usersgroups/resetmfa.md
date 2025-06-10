@@ -8,11 +8,11 @@ __Step 1 –__ Navigate to the Policy > __Users & Groups__ page.
 
 __Step 2 –__ Select the desired user or group account.
 
-![Reset MFA for Users and Groups Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.png)
+![Reset MFA for Users and Groups Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.webp)
 
 __Step 3 –__ Click the __Reset MFA__ button.
 
-![Reset MFA for Account Confermation Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.png)
+![Reset MFA for Account Confermation Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.webp)
 
 __Step 4 –__ Click the __Reset MFA__ button in the confirmation window.
 

@@ -6,7 +6,7 @@ Activities are for singular activities based on a specific platform whereas Acti
 
 It is also possible to configure an activity to automatically run any Protection Policy associated with the resource when the session completes, instead of waiting for the scheduled sync. See the [Add Action Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md) topic for additional information.
 
-![Activities Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activitiespage.png)
+![Activities Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activitiespage.webp)
 
 The pane on the left side of the page displays a list of the configured activity. This pane has the following features:
 

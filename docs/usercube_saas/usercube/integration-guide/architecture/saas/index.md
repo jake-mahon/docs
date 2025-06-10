@@ -6,7 +6,7 @@ When working in a SaaS environment, Identity Manager needs a specific architect
 
 Identity Manager recommends the following architecture:
 
-![SaaS Recommended Architecture](/img/product_docs/usercube/usercube/integration-guide/architecture/saas/architecture_saas.png)
+![SaaS Recommended Architecture](/img/product_docs/usercube/usercube/integration-guide/architecture/saas/architecture_saas.webp)
 
 ### Agent(s)
 

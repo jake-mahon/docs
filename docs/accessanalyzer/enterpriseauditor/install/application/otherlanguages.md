@@ -33,7 +33,7 @@ Follow the steps to change the collation at the database level.
 
 __Step 1 –__ Access the Database Properties in SQL Server Management Studio.
 
-![SQL Server Management Studio Database Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/databasepropertiescollation.png)
+![SQL Server Management Studio Database Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/databasepropertiescollation.webp)
 
 __Step 2 –__ Select __Options__ and set the collation.
 
@@ -43,7 +43,7 @@ Now that the collations match, proceed with Access Analyzer installation.
 
 Follow the steps to change the collation at the SQL Server level.
 
-![SQL Server Configuration Manager](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/sqlserverconfigurationmanager.png)
+![SQL Server Configuration Manager](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/sqlserverconfigurationmanager.webp)
 
 __Step 1 –__ Stop the SQL Server service from the Configuration Manager.
 

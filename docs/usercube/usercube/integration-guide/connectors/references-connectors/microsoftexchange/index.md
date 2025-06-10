@@ -6,7 +6,7 @@ This page is about [
 Microsoft Exchange
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
 
-![Package: Server/Microsoft Exchange](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.png)
+![Package: Server/Microsoft Exchange](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
 ## Overview
 

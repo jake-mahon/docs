@@ -2,7 +2,7 @@
 
 The Category page identifies which Inventory task to perform.
 
-![Entra ID Inventory DC Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Entra ID Inventory DC Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The two categories are:
 

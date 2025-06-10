@@ -27,7 +27,7 @@ __Step 4 –__ Update the Endpoint Policy Manager ADMX (troubleshooting) files. 
 
 __Step 5 –__ Roll out the CSE in a controlled fashion to your endpoints using the ring methodology.
 
-![upgrading_tips_624x267](/img/product_docs/policypak/policypak/install/upgrade/upgrading_tips_624x267.png)
+![upgrading_tips_624x267](/img/product_docs/policypak/policypak/install/upgrade/upgrading_tips_624x267.webp)
 
 __CAUTION:__ Do not attempt to roll out the CSE to 100% of your computer population at once. If Endpoint Policy Manager fails to operate in an expected manner and locks up, or otherwise makes your machine inaccessible or unavailable, we cannot be responsible since you were directed to roll out the CSE to endpoint machines gradually.
 

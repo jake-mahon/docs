@@ -8,7 +8,7 @@ The AD\_TimeSync Job uses the Registry Data Collector for the following query:
 
 __CAUTION:__ Do not modify this query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.webp)
 
 The queries for this job are:
 

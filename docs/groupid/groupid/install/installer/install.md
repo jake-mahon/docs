@@ -18,7 +18,7 @@ Step 2 – Read the welcome message and click __Next__.
 
 Step 3 – On the End User License Agreement page, review and accept the licensing agreement and click __Next__.
 
-![installpath](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.png)
+![installpath](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
 
 Step 4 – In the Installation Folder box, specify the location where you want to install Directory Manageror accept the one suggested by the Installer. Click __Install__.
 

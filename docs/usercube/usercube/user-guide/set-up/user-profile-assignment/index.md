@@ -8,7 +8,7 @@ All the permissions to access items in Identity Manager, and to perform given ac
 Assigned Profile
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) and [References: Permissions](/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/index.md) topics for additional information.
 
-![Schema - Profile Assignment](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_schema.png)
+![Schema - Profile Assignment](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
 
 For example, the access to the list of users with their personal data is usually restricted to HR people, and the possibility to modify personal data restricted to HR managers.
 
@@ -45,15 +45,15 @@ Manual assignment
 
 Assign manually a profile to a user by proceeding as follows:
 
-![Home Page - Assigned Profiles](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.png)
+![Home Page - Assigned Profiles](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
 
 __Step 1 –__ Access the __Assigned Profiles__ screen from the home page in the __Administration__ section.
 
-![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 2 –__ Click on the addition button at the top right corner.
 
-![New Profile](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.png)
+![New Profile](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.webp)
 
 __Step 3 –__ Fill in the fields.
 
@@ -71,7 +71,7 @@ Automatic assignment
 
 The largest profiles with the most basic permissions (like a simple access to the application) concern many identities and are low-privileged. Thus integrators can set up profile assignment rules through the XML configuration in order to assign profiles automatically, based on accounts' resource type and potentially specific criteria. See the [Profile Rule Context](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) topic for additional information.
 
-![Launch Button](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/launch_v603.png)
+![Launch Button](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/launch_v603.webp)
 
 Click on __Launch__ to apply these profile rules.
 

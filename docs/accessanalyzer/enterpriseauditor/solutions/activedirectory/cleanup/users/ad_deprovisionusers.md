@@ -28,7 +28,7 @@ See the [Customizable Analysis Parameters for the AD\_DeprovisionUsers Job](#cus
 
 Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD\_DeprovisionUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/deprovisionusersanalysis.png)
+![Analysis Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/deprovisionusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -54,7 +54,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD\_Deprovi
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/deprovisionusersaction.png)
+![Action Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/deprovisionusersaction.webp)
 
 The action tasks are:
 

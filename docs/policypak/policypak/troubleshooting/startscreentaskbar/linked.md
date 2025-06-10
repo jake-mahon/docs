@@ -2,7 +2,7 @@
 
 You might have noticed when you try to deliver NOTHING (aka. a blank start screen with or without using the Taskbar Manager), you will still see a Netwrix Endpoint Policy Manager (formerly PolicyPak) advertisement tile even you didn't put it there.
 
-![692_1_img-1](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/692_1_img-1.png)
+![692_1_img-1](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/692_1_img-1.webp)
 
 The Taskbar Manager and Start Screen Manager are actually interlinked, even if you’re only using one of them.
 
@@ -42,4 +42,4 @@ Rd /s /q "%APPDATA%\Microsoft\Windows\Start Menu\PolicyPak Start Screen Manager\
 
 It will remove the Endpoint Policy Manager tile from the Start Menu. The example screen shot and sample script is below.
 
-![819_5_c4b607f18774d1a207d45cbd8a96b426](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/819_5_c4b607f18774d1a207d45cbd8a96b426.png)
+![819_5_c4b607f18774d1a207d45cbd8a96b426](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/819_5_c4b607f18774d1a207d45cbd8a96b426.webp)

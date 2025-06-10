@@ -2,7 +2,7 @@
 
 The Parsing Configuration page configures the columns to return from the remote command and the parameters used to parse that output into those columns.
 
-![Unix Data Collector Wizard Parsing Configuration page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/unix/parsing.png)
+![Unix Data Collector Wizard Parsing Configuration page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/unix/parsing.webp)
 
 The configurable options are:
 

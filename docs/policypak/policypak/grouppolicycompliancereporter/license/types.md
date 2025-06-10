@@ -4,7 +4,7 @@ You can use Netwrix Endpoint Policy Manager (formerly PolicyPak) Group Policy Co
 
 All endpoints must have a Endpoint Policy Manager Group Policy Compliance Reporter (Endpoints) license for GPCR Server to light up and report back anything. An example screenshot of a licensed GPO report is below.
 
-![447_1_image-20230404065639-1_799x472](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/license/447_1_image-20230404065639-1_799x472.png)
+![447_1_image-20230404065639-1_799x472](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/license/447_1_image-20230404065639-1_799x472.webp)
 
 If you rename a computer to have COMPUTER in the name, then that is a Trial License. Please note that this type is for testing only and is Not Recommended for production roll-out.
 

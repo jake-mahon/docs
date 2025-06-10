@@ -4,7 +4,7 @@ Netwrix Auditor provides a variety of reports for each data source. This helps y
 
 To review intelligence data, you must be assigned the Global administrator or Global reviewer role in the product. The users assigned the Reviewer role on a certain plan or folder have a limited access to data—only within a delegated scope. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional informatuion.
 
-![allactivedirectorychanges_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/allactivedirectorychanges_thumb_0_0.png)
+![allactivedirectorychanges_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/allactivedirectorychanges_thumb_0_0.webp)
 
 Review general report types available in Netwrix Auditor to meet your specific business needs:
 

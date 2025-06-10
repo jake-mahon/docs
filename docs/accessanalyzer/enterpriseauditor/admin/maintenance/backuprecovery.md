@@ -24,11 +24,11 @@ __Step 2 –__ Back up the following files and folders from the Access Analyzer 
 
 __Step 3 –__ Back up all Scheduled Tasks. The method of back up is determined by the Access Analyzer user. This can be as simple as copying the contents of the tasks folder from the following two locations:
 
-![C:\Windows\Tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_3.png)
+![C:\Windows\Tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_3.webp)
 
 - C:\Windows\Tasks
 
-![C:\Windows\System32\Tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_4.png)
+![C:\Windows\System32\Tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_4.webp)
 
 - C:\Windows\System32\Tasks
 
@@ -71,7 +71,7 @@ __Step 6 –__ Start Access Analyzer and confirm all settings and jobs have been
 
 __Step 7 –__ Enable Role Based Access to write the necessary registry keys:
 
-![Role Based Access](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_5.png)
+![Role Based Access](/img/product_docs/accessanalyzer/enterpriseauditor/admin/maintenance/maintenance_5.webp)
 
 - Navigate to the __Settings__ > __Access__ node in the Access Analyzer Console and select __Access__
 - Use the __Add Access__, __Edit Member Role__, and __Delete Member Role__ buttons to add, remove, and edit roles

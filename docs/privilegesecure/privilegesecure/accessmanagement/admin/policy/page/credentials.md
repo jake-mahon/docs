@@ -2,7 +2,7 @@
 
 The Credentials page shows all accounts discovered within your environment. It is specifically focused on managing service account password rotation. A managed account is any host local account, domain account, or Privilege Secure application local account that has its credentials managed by the application. This includes managed user accounts created by activity sessions. The Credentials page displays the same information as the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md).
 
-![Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 The page has the following features:
 

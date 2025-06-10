@@ -33,7 +33,7 @@ Preferred methods include [SQL Server Management Studio](https://docs.microsoft.
 - Open the file. The file is now open in the main SQL Server Management Studio window.
 - Locate the database name dropdown, next to the __Execute__ button in the top left section of the screen.
 
-![Execute Query](/img/product_docs/usercube/usercube/installation-guide/production-ready/database/execute_query.png)
+![Execute Query](/img/product_docs/usercube/usercube/installation-guide/production-ready/database/execute_query.webp)
 
 - From the dropdown, select the newly created database.
 - Click __Execute__.

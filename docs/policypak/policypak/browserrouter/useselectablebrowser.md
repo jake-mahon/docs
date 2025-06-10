@@ -25,7 +25,7 @@ Those two keys hold a REG\_SZ called ProgID which specifies the user's chosen (o
 
 For instance, in this example, after the Admin has chosen User Selectable, the User chooses Edge (UWP version), with the following results:
 
-![507_1_image-20201229224350-1_950x136](/img/product_docs/policypak/policypak/browserrouter/507_1_image-20201229224350-1_950x136.png)
+![507_1_image-20201229224350-1_950x136](/img/product_docs/policypak/policypak/browserrouter/507_1_image-20201229224350-1_950x136.webp)
 
 Supported values in ProgID are:
 
@@ -45,7 +45,7 @@ __NOTE:__  Firefox uses a customized value for ProgId dependent on the version o
 ```HKCU\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice\ProgId```
 
 For Example:  
-![507_2_image-20201229224350-2](/img/product_docs/policypak/policypak/browserrouter/507_2_image-20201229224350-2.png)
+![507_2_image-20201229224350-2](/img/product_docs/policypak/policypak/browserrouter/507_2_image-20201229224350-2.webp)
 
 Example: If a user has not yet selected a Browser, or if MS Edge Chromium is the perceived browser, then specify the default as Chrome (one time) and allow the user to select a different browser if desired going forward.
 
@@ -65,7 +65,7 @@ __Step 1 –__ Set the value:
 - ```Key Path: SOFTWARE\PolicyPak\Client-Side Extensions\{1659C456-08FC-4359-B125-BB70EE34DD55}\PPBRAgent\SavedOldValues\Software/Microsoft/Windows/Shell/Associations/UrlAssociations/http/UserChoice```
 - Value Name: ProgID
 - Value Type: REG\_SZ
-![507_3_image-20201229224350-3](/img/product_docs/policypak/policypak/browserrouter/507_3_image-20201229224350-3.png)- ValueData: ChromeHTML
+![507_3_image-20201229224350-3](/img/product_docs/policypak/policypak/browserrouter/507_3_image-20201229224350-3.webp)- ValueData: ChromeHTML
 
 __Step 2 –__  (But only if the value below is absent...:
 
@@ -75,13 +75,13 @@ __Step 2 –__  (But only if the value below is absent...:
 
 ```HKCU\ Software\PolicyPak\Client-Side Extensions\{1659C456-08FC-4359-B125-BB70EE34DD55}\PPBRAgent\SavedOldValues\Software/Microsoft/Windows/Shell/Associations/UrlAssociations/http/UserChoice\ProgId\```
 
-![507_4_image-20201229224350-4](/img/product_docs/policypak/policypak/browserrouter/507_4_image-20201229224350-4.png)
+![507_4_image-20201229224350-4](/img/product_docs/policypak/policypak/browserrouter/507_4_image-20201229224350-4.webp)
 
-![507_5_image-20201229224350-5_950x366](/img/product_docs/policypak/policypak/browserrouter/507_5_image-20201229224350-5_950x366.png)
+![507_5_image-20201229224350-5_950x366](/img/product_docs/policypak/policypak/browserrouter/507_5_image-20201229224350-5_950x366.webp)
 
 Be sure to have entries which set HTTP and HTTPS like these two values here (i.e., Repeat Steps 1 & 2 above for HTTPS value)
 
-![507_6_image-20201229224350-6](/img/product_docs/policypak/policypak/browserrouter/507_6_image-20201229224350-6.png)
+![507_6_image-20201229224350-6](/img/product_docs/policypak/policypak/browserrouter/507_6_image-20201229224350-6.webp)
 
 _Remember,_  You need two entries. One for HTTP and one for HTTPS.
 

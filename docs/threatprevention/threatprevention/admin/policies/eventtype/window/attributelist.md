@@ -2,7 +2,7 @@
 
 The Attribute List window provides a list of available Active Directory attributes to either include or exclude. Selected attributes are added to the filter from where you clicked the __Add__ (+) button to open this window.
 
-![Attribute List Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/attributelist.png)
+![Attribute List Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/attributelist.webp)
 
 - Select a server from the drop-down menu and click __Connect__. Schema attributes are fetched from the selected server and displayed on the window.
 - Use the __Filter by Selected Classes__ checkbox to filter the list based on any AD Classes filter already set for the policy.

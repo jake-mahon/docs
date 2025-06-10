@@ -32,19 +32,19 @@ Adjust the data model by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section.
 
-   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 2. On the __Workforce__ > __Data Model__ page, click on the following icon to adjust the data model to your specific situation.
 
    ![Scan Data Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/iconscandatamodel_v602.svg)
 
-   ![Scan Data Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel_v60.png)
+   ![Scan Data Model](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel_v60.webp)
 
    Identity Manager counts the entries for each attribute and suggests a quantification:
 
    - Empty attributes are deactivated as they should be excluded to simplify the data model.
    - Non-empty attributes are quantified (e.g. small, large, etc.) to be displayed in the UI's forms optimally (e.g. dropdown list, search tool, etc.).
 
-   ![Scan Data Model - Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel-result_v523.png)
+   ![Scan Data Model - Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel-result_v523.webp)
 3. Observe the result and adjust manually the data model if needed, by clicking on the properties.
 
    While Identity Manager suggests a structure for the data model, the choice is yours to activate/deactivate any property.
@@ -63,7 +63,7 @@ Adjust the data model by proceeding as follows:
    ![Save Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 5. Click on the __Reload__ button to apply the recent changes to the application.
 
-   ![Reload Button](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.png)
+   ![Reload Button](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.webp)
 
 ## Verify Identities Loading
 
@@ -73,14 +73,14 @@ In order to validate the process:
 
    > For example, our ```Region``` field in ```Site``` is sized as ```large```.
    >
-   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example_v523.webp)
 2. Navigate within Identity Manager to find a workflow using the test field. Observe the displaying mode in the UI.
 
    > Our ```State``` field must be filled in during the creation of a new site. It can be filled by opening a pop-up and choosing the region in the list.
    >
-   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example2_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example2_v523.webp)
    >
-   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example3_v523.png)
+   > ![Scan Data Model - Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example3_v523.webp)
 3. Back on the scanning feature, change the displaying mode of your test field and save.
 
    > We change ```large``` to ```extra small```.

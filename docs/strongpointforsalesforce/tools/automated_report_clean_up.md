@@ -21,7 +21,7 @@ Report Clean Up rules are created by the administrator and used to locate Report
 
 To create or edit rules, access __Netwrix Dashboard__> __Tools__ > __Automated Report Clean Up Tool__
 
-![automated_report_cleanup](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup.png)
+![automated_report_cleanup](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup.webp)
 
 - __Name__ is the assigned name for the __Report Clean Up Rule Record__.
 - __Description__ is the purpose of the rule record. An informative description helps administrators easily maintain and identify rules.
@@ -61,7 +61,7 @@ The __Preview__ function provides a quick method to mark reports to be retained 
 3. Click [Run Now](#Run-Now) to begin a Report Clean Up for the rule.
 4. After previewing, you can click __Automatic__ on the Report Clean Up Rule to include the rule for automatic reports.
 
-![automated_report_cleanup_preview](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_preview.png)
+![automated_report_cleanup_preview](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_preview.webp)
 
 #### Run Now
 
@@ -110,7 +110,7 @@ Open __Netwrix Dashboard__> __Tools__ > __Automated Report Clean Up Tool__ > __R
   __Canceled__ - __[Automatic](#Automatic)__ checkbox was turned off for the rule.
 - __Automatic__: rule is set to __Automatic__ if checked.
 
-![automated_report_cleanup_status](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_status.png)
+![automated_report_cleanup_status](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_status.webp)
 
 ### Retaining a Report
 
@@ -132,7 +132,7 @@ If report owners or users do not click on __Retain this report__ in the email no
 - A __Restore__ button is added to the __Clean Up__ tab on the customization record for the report.
 - Auto Archive notifications are sent to the rule owner and administrators. A __Restore__ link is included in the email.
 
-![automated_report_cleanup_archive](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_archive.png)
+![automated_report_cleanup_archive](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_archive.webp)
 
 ### Restoring an Auto Archived Report
 

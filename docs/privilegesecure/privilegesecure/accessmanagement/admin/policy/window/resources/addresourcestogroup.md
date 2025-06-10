@@ -8,7 +8,7 @@ __Step 2 –__ In the Resource Groups list, select the name of the resource grou
 
 __Step 3 –__ In the Resource Groups table, click Add.
 
-![addresources](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresources.png)
+![addresources](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresources.webp)
 
 The Add Resources window has the following features:
 

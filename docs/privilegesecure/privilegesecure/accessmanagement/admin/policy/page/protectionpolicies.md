@@ -4,7 +4,7 @@ The Protection Policies page is accessible from the Navigation pane under Policy
 
 It is also possible to add the action _Invoke Protection Policy_ to the Post Session group of an activity. This will proactively run all protection policies that apply to the target resource when the session completes, instead of waiting for the scheduled sync. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
-![Protection policies page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Protection policies page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured protection policies. This pane has the following features:
 

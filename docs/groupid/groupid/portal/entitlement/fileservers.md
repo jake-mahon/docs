@@ -5,7 +5,7 @@ date and time the permissions were last replicated.
 
 You can view all active servers as enabled and not replicated servers as disabled. It is as:
 
-![disabledfileserver](/img/product_docs/groupid/groupid/portal/entitlement/disabledfileserver.png)
+![disabledfileserver](/img/product_docs/groupid/groupid/portal/entitlement/disabledfileserver.webp)
 
 Here, the second server is disabled while the first one is enabled. A disabled server indicates that the Entitlement job has not run to replicate permission data for it. Once permissions are replicated, the server is enabled.
 
@@ -27,20 +27,20 @@ On double clicking the fileserver, a separate card for each file and folder shar
 - The date and time the file/folder was last created.
 - Owner of the file/folder.
 
-  ![fileservercard](/img/product_docs/groupid/groupid/portal/entitlement/fileservercard.png)
+  ![fileservercard](/img/product_docs/groupid/groupid/portal/entitlement/fileservercard.webp)
 
 NOTE: Date format: mm/dd/yyyy
 
 - For child folders, the path is as: servername.parentsharedfoldername.
 
-  ![fileserverpath](/img/product_docs/groupid/groupid/portal/entitlement/fileserverpath.png)
+  ![fileserverpath](/img/product_docs/groupid/groupid/portal/entitlement/fileserverpath.webp)
 - You can view the child files and folders within a shared folder till the nth level. Double-click a folder card to view its direct child files and folders. Continue till the nth level.
 
 ## View file/folder permissions
 
 On clicking a file/folder card, all users and groups with effective NTFS permission on it are listed in the right pane.
 
-![fileserverpermissions](/img/product_docs/groupid/groupid/portal/entitlement/fileserverpermissions.png)
+![fileserverpermissions](/img/product_docs/groupid/groupid/portal/entitlement/fileserverpermissions.webp)
 
 Information includes:
 
@@ -62,7 +62,7 @@ Information includes:
 
   You can allow and deny access and inherited access and click __Save__ icon.
 
-  ![filespermissions](/img/product_docs/groupid/groupid/portal/entitlement/filespermissions.png)
+  ![filespermissions](/img/product_docs/groupid/groupid/portal/entitlement/filespermissions.webp)
 
   Permissions are displayed as __Explicit permissions__ which list the effective permissions set the user/group has on the file/folder.
 
@@ -72,7 +72,7 @@ With the effective permissions displayed, clicking the user/group again would la
 
 You can search for specific files and folders (shared) on the server. You can also search for a file or folder in a particular folder.
 
-![filefolderssearch](/img/product_docs/groupid/groupid/portal/entitlement/filefolderssearch.png)
+![filefolderssearch](/img/product_docs/groupid/groupid/portal/entitlement/filefolderssearch.webp)
 
 __Search filter__
 

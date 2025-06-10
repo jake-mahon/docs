@@ -15,19 +15,19 @@ Step 1 – Open Directory Manager 11.1 Prerequisites Tool folder from the Direct
 
 Step 2 – Run GroupIDPrereqTool.exe file. It launches the Preparation Tool.
 
-![Preparation Tool Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Preparation Tool Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Step 3 – Read the welcome message and click __Next__.
 
-![Ready to Begin page](/img/product_docs/groupid/groupid/install/installer/readytobegin.png)
+![Ready to Begin page](/img/product_docs/groupid/groupid/install/installer/readytobegin.webp)
 
 Step 4 – The Ready to begin page lists the required software and Windows features that the Preparation Tool has identified for Directory Manager. Click __Install__ to begin.
 
-![We are preparing page](/img/product_docs/groupid/groupid/install/installer/wearepreparing.png)
+![We are preparing page](/img/product_docs/groupid/groupid/install/installer/wearepreparing.webp)
 
 Step 5 – On the We are preparing this machine for Directory Manager... page the progress bar shows the installation progress while prerequisites are installed.
 
-![Ready to install](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
+![Ready to install](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
 
 The You are ready to install GroupID! page displays the status of each prerequisite software and Windows feature as Passed or Failed.
 

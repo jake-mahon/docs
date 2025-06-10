@@ -2,7 +2,7 @@
 
 The Results page provides a checklist of the data that is available for return by the query. Any number of options can be selected at once, but at least one must be selected in order to complete the wizard.
 
-![Disk Info wizard Results page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![Disk Info wizard Results page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.webp)
 
 Properties can be selected individually, or you can use the __Select all__ and __Clear all__ buttons. The table below describes the available options.
 

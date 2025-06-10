@@ -2,13 +2,13 @@
 
 In the Quickstart, we created a collection by right-clicking within Endpoint Policy Manager Start Screen Manager or Endpoint Policy Manager Taskbar Manager and selecting Add | New Collection as seen in Figure 32.
 
-![collections_policy_settings](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings.png)
+![collections_policy_settings](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings.webp)
 
 Figure 32. Creating collections with Endpoint Policy Manager Start Screen & Taskbar Manager.
 
 For Endpoint Policy Manager Start Screen Manager, collections have two functions. As mentioned previously, they hold policies that create Windows 10 groups. But a Endpoint Policy Manager Start Screen Manager collection also defines how those groups will react. The two options for a Endpoint Policy Manager Start Screen Manager collection can be seen in Figure 33.
 
-![quickstart_start_screen_manager_3](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.png)
+![quickstart_start_screen_manager_3](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.webp)
 
 Figure 33. Collections hold policies and specify the layout mode.
 
@@ -16,7 +16,7 @@ There are two layout modes for a Endpoint Policy Manager Start Screen Manager co
 
 There are two layout size options for a Endpoint Policy Manager Start Screen Manager collection as shown in Figure 34. If you do not specify a layout size, the default will be Medium (Two Columns).
 
-![collections_policy_settings_1](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_1.png)
+![collections_policy_settings_1](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_1.webp)
 
 Figure 34. Choosing a layout size.
 
@@ -28,7 +28,7 @@ You can apply one or more targeting items to a policy, which enables targeting i
 
 There are a few things to note about Figure 35. It is representative of the basic capabilities of the Targeting Editor. Endpoint Policy Manager Start Screen & Taskbar Manager cannot filter by user group since the node is only available on the Computer side. In addition, Endpoint Policy Manager Start Screen & Taskbar Manager is only valid for Windows 8.1 and later.
 
-![collections_policy_settings_2](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_2.png)
+![collections_policy_settings_2](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_2.webp)
 
 Figure 35. In this example, the Pak would only apply to Windows 10 machines when the machine is portable and the user is in the FABRIKAM\Traveling Sales Users group.
 
@@ -42,7 +42,7 @@ Below are some real-world examples of of how you can use Item-Level Targeting.
 
 Close the editor when you are done. Note in Figure 36 that the icon for the policy or collection has changed to orange, which shows that it now has Item-Level Targeting.
 
-![collections_policy_settings_3](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_3.png)
+![collections_policy_settings_3](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_3.webp)
 
 Figure 36. When the icon is orange, the entry has Item-Level Targeting.
 
@@ -50,13 +50,13 @@ When Item-Level Targeting is on, the policy won't apply unless the conditions ar
 
 Inside Endpoint Policy Manager Start Screen Manager collections are policies for groups. You created a Group Policy earlier called "My Important Apps." You can select "Change Group Level Targeting" to jump right into the Item-Level Targeting Editor, or click "Edit Group," as shown in Figure 37 to see all Group options (including Item-Level Targeting).
 
-![collections_policy_settings_4](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_4.png)
+![collections_policy_settings_4](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_4.webp)
 
 Figure 37. Clicking on "Edit Group" will enable you to see all group level options.
 
 The group level options can be seen in Figure 38.
 
-![collections_policy_settings_5](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_5.png)
+![collections_policy_settings_5](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/collections_policy_settings_5.webp)
 
 Figure 38. Endpoint Policy Manager Start Screen Manager groups have various options you can configure.
 

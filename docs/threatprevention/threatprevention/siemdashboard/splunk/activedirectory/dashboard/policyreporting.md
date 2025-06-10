@@ -4,7 +4,7 @@ The Policy Reporting dashboard is for viewing Threat Prevention events from any 
 
 The Policy Reporting dashboard contains the following cards:
 
-![Policy Reporting Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/policyreporting.png)
+![Policy Reporting Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/policyreporting.webp)
 
 - Activity (Successful/Blocked) – Timeline of successful/failed/blocked events related to the selected policy that have been recorded in the specified timeframe
 - Successful/Blocked Events – Breakdown of events related to the selected policy that have been recorded in the specified timeframe by successful/failed/blocked status

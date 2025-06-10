@@ -2,7 +2,7 @@
 
 The __5.Domains > 0.Collection__ Job Group collects the data which will be further analyzed in order to provide details on domains, sites, and trusts.
 
-![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The 0.Collection Job Group is comprised of:
 

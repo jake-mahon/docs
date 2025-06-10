@@ -8,7 +8,7 @@ You can validate data by checking the status report. The status report is availa
 
 From the Netwrix Dashboard: click __Configuration and Stats__ in the __Resources__ section, or open __Settings__ > __Configuration and Stats__.
 
-![statusreport](/img/product_docs/strongpointforsalesforce/installing_strongpoint/statusreport.png)
+![statusreport](/img/product_docs/strongpointforsalesforce/installing_strongpoint/statusreport.webp)
 
 ## Dependency Relationship Diagram
 
@@ -20,7 +20,7 @@ To validate data with the DRD:
 2. Select an __Object(s) Type__ from the pull-down menu.
 3. Click on a field and validate the data.
 
-![entity_diagram](/img/product_docs/strongpointforsalesforce/tools/entity_diagram.png)
+![entity_diagram](/img/product_docs/strongpointforsalesforce/tools/entity_diagram.webp)
 
 ## Customization Quick Search
 
@@ -32,4 +32,4 @@ To validate data with the Customization Quick Search:
 2. Scroll, __Search__ or add __Filter(s)__ to locate the customization.
 3. Click on the __Customization__ and validate the data.
 
-![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.png)
+![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)

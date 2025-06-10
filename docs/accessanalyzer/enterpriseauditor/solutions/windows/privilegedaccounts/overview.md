@@ -2,7 +2,7 @@
 
 Vital to security is the ability to accurately assess who has administrative privileges to each system and how. The Privileged Accounts job group provides the collection and correlation capabilities needed to unravel complex access assignments, including local administrator membership, users with remote logon rights, and service accounts.
 
-![Privileged Accounts Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Privileged Accounts Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The job groups in the Privileged Accounts job group are:
 

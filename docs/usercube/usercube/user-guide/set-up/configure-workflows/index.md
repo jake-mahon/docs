@@ -23,11 +23,11 @@ Identity Manager provides the review step as optional, for its necessity depends
 
 To perform the review of a user creation, one should have the right permissions.
 
-![Review Permissions](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_reviewpermissions_v601.png)
+![Review Permissions](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_reviewpermissions_v601.webp)
 
 When a review is needed, a notification appears on the __MY TASKS__ tab at the top.
 
-![My Tasks Tab](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_topbar_v601.png)
+![My Tasks Tab](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_topbar_v601.webp)
 
 The reviewer can then complete the creation request and finally approve it.
 
@@ -57,17 +57,17 @@ Configure onboarding workflows by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section, then on __Workforce__ > __Onboarding Workflows__ in the left menu.
 
-   ![Home - Settings](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home - Settings](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 2. For each workflow, choose whether a review step is required.
 
-   ![Workflows Review Steps](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_reviewsteps_v601.png)
+   ![Workflows Review Steps](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_reviewsteps_v601.webp)
 
    Netwrix Identity Manager (formerly Usercube) recommends enabling the review for the onboarding of employees, and disabling the review for contractors.
      
    From experience, in most use cases, the onboarding of new workers is done by their managers, and HR people review the creation of employees and not contractors. It also happens that HR people are in full charge of employees, in which case they do the onboarding and don't need a review.
 3. Configure the homonym detection.
 
-   ![Workflows Homonym Detection](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_homonyms_v601.png)
+   ![Workflows Homonym Detection](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_homonyms_v601.webp)
 
    Netwrix Identity Manager (formerly Usercube) recommends enabling the birth name comparison to detect user duplicates due to name changes, when the GDPR supports it.
      
@@ -82,13 +82,13 @@ Validate the process by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 2. Execute the workflows for a new employee and a new contractor.
 3. Make sure that the homonym detection works in accordance with the specified options.
 
    > For example, if the inversion comparison is enabled between the first and last names:
    >
-   > ![Workflows Homonym Detection](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_verifyhomonyms_v601.png)
+   > ![Workflows Homonym Detection](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/workflows_verifyhomonyms_v601.webp)
 4. Make sure that the potential validation steps are in accordance with the specified options.
 
 ## Next Steps

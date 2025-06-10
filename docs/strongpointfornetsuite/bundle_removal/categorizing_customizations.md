@@ -40,7 +40,7 @@ Bundle components that do not have relationships outside the bundle or customiza
 
 1. Export as a CSV file.
 
-   ![Export to a CSV file](/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.png)
+   ![Export to a CSV file](/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.webp)
 2. Open the CSV file and delete the __Overall Total row__.
 3. __Save__ the CSV.
 4. Open __Setup__ > __Import/Export__ > __Import CSV Records__

@@ -20,7 +20,7 @@ Follow the steps to configure the Netwrix Access Information Center service to r
 
 __Step 1 –__ Open the Services Console. Right-click on the Netwrix Access Information Center service and select __Properties__.
 
-![Netwrix Access Information Center service properties window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.png)
+![Netwrix Access Information Center service properties window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.webp)
 
 __Step 2 –__  On the Log On tab of the properties window, select the __This account__ option. Enter the gMSA account name and leave the password fields blank.
 
@@ -44,7 +44,7 @@ __Step 2 –__ On the Administrator home page, click __Configure Console__and th
 - To configure the connection to Active Directory, select the __Active Directory__ page
 - To configure the connection to your email server, select the __Notifications__ page
 
-![Use the windows account running this service option on Database Configuration page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.png)
+![Use the windows account running this service option on Database Configuration page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.webp)
 
 __Step 3 –__ On the Configuration page, select the __Use the account running this service__ option. Click __Save__.
 

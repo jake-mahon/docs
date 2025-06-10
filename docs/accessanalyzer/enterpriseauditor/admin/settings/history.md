@@ -2,7 +2,7 @@
 
 The History node is where the history retention of job data and job logs are configured. The setting specified here at the global level applies to all jobs in the Jobs tree unless specifically changed at the job group or job level. See the [History Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/group/history.md) and [History Tab](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/history.md) topics for additional information.
 
-![History Global Settings](/img/product_docs/threatprevention/threatprevention/admin/policies/history.png)
+![History Global Settings](/img/product_docs/threatprevention/threatprevention/admin/policies/history.webp)
 
 The Data Retention Period settings are for configuring the job data history retention within the database. There are three options:
 
@@ -48,7 +48,7 @@ A major concern around job data history retention is the impact it can have on d
 
 The job logs are stored within the output folder of each job. They can be read in the Access Analyzer Console within the job’s __Status__ > __Messages__ table. To access the logs within the job’s directory, right-click on the job’s node in the Navigation pane and select __Explore Folder__.
 
-![Job Logs in the job's Output folder in File Explorer](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/historyjoblogs.png)
+![Job Logs in the job's Output folder in File Explorer](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/historyjoblogs.webp)
 
 The most recent log is open. Older jobs are stored as zip files, according to the Log Retention Period setting. Each log is named in the following format:
 

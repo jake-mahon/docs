@@ -4,7 +4,7 @@ The Recycle Bin enables you to view the objects deleted in domains monitored by 
 
 Click __Active Directory__ in the left pane to open the [Active Directory Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md). Select and expand a domain in the left pane and click Recycle Bin to get a list of deleted objects in the domain.
 
-![Recycle Bin](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recyclebin.png)
+![Recycle Bin](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recyclebin.webp)
 
 You can recover deleted objects.
 
@@ -39,11 +39,11 @@ __Step 3 –__ Do one of the following
 
 The Object Restore wizard opens.
 
-![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.png)
+![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 __Step 4 –__  In the Backup Data section, select a backup date to restore from. Then click __Next__.
 
-![Object Restore wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.png)
+![Object Restore wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
 
 __Step 5 –__ Select a domain controller where the restore operation will get affected. Options are:
 
@@ -52,7 +52,7 @@ __Step 5 –__ Select a domain controller where the restore operation will get a
 
 __Step 6 –__ Click __Next__.
 
-![Object Restore wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.png)
+![Object Restore wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
 
 __Step 7 –__ On the Recovery Options page, select the Container and Naming Conflict actions for the recovery process.
 
@@ -71,7 +71,7 @@ __Step 7 –__ On the Recovery Options page, select the Container and Naming Con
 
 __Step 8 –__ Click __Next__.
 
-![Object Restore wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.png)
+![Object Restore wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
 
 __Step 9 –__ The User Options page is displayed when user objects are being restored. When a user object is included as a child object being restored, this page is also displayed. Select the check boxes to configure the necessary options for the user.
 
@@ -83,7 +83,7 @@ __Step 9 –__ The User Options page is displayed when user objects are being re
 
 __Step 10 –__ Click __Next__.
 
-![Object Restore wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Object Restore wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 __Step 11 –__ The account preforming the operation must have Domain Admin privileges to access the domain tree area where the object resides. On the Credentials page:
 
@@ -92,11 +92,11 @@ __Step 11 –__ The account preforming the operation must have Domain Admin priv
 
 For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 12 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
-![Object Restore Complete message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrestorecompleted.png)
+![Object Restore Complete message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrestorecompleted.webp)
 
 __Step 13 –__ A completed message is displayed when the restore is successful. Click __OK__.d
 

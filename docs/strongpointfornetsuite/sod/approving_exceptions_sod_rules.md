@@ -6,7 +6,7 @@ To create a change request:
 
 1. Open __SoD__ > __Change Management__ > __New SoD Approval__
 
-   ![sod_new_change_request](/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.png)
+   ![sod_new_change_request](/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.webp)
 2. Enter information in the following fields:
 
    - __Name__: Enter a name for the request.

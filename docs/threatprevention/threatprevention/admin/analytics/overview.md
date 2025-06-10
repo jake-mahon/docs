@@ -10,7 +10,7 @@ The tables below outline the authentication analytics Threat Prevention provides
 
 Click __Analytics__ in the left pane to launch the Analytics interface.
 
-![Analytics interface](/img/product_docs/threatprevention/threatprevention/admin/analytics/analyticsinterface.png)
+![Analytics interface](/img/product_docs/threatprevention/threatprevention/admin/analytics/analyticsinterface.webp)
 
 At the top of the interface is a graphical display of incidents monitored by Threat Prevention. Use the color key on the left to toggle off and on results for desired analytics. In the upper-right corner, set the number of days’ worth of incidents the graphs display. Use the Refresh button in the graphics area to regenerate the graphs.
 
@@ -27,7 +27,7 @@ The Refresh button on the Analytics ribbon repopulates both the graphical displa
 
 The Permissions section at the bottom of the interface allows you to protect Analytic policies at the Analytics node. Once a user is assigned permission, all analytic policies, configurations, and data are protected from any user not included in the permissions list. See the [Protect Policies](/docs/threatprevention/threatprevention/admin/policies/dataprotection.md#protect-policies) topic for instructions on how to protect analytic policies.
 
-![Analytics node](/img/product_docs/threatprevention/threatprevention/admin/analytics/analyticslist.png)
+![Analytics node](/img/product_docs/threatprevention/threatprevention/admin/analytics/analyticslist.webp)
 
 Directly under the Analytics node are the individual analytics nodes for accessing information on the monitored incidents and configuring the analytic type:
 

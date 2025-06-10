@@ -2,7 +2,7 @@
 
 The AD Changes dashboard contains the following cards:
 
-![AD Changes Dashboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.png)
+![AD Changes Dashboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.webp)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event type. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Successful/Blocked Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.

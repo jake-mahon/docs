@@ -2,7 +2,7 @@
 
 The AD\_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix Activity Monitor logs into the Access Analyzer Database. Retention can be modified in the query (120 days default).
 
-![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 There are two ways AD Activity data can be retrieved by Access Analyzer:
 
@@ -15,7 +15,7 @@ This is configured in the query. See the [Queries for the AD\_ActivityCollection
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-![Configuration section on the AD_ActivityCollection job Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/overviewconfiguration.png)
+![Configuration section on the AD_ActivityCollection job Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/overviewconfiguration.webp)
 
 The AD\_ActivityCollection page has the following configurable parameters:
 
@@ -34,7 +34,7 @@ The AD Activity Collection query uses the ADActivity Data Collector to target th
 
 __NOTE:__ The query can be configured to connect directly to the network share where the archive logs are stored or the API Server.
 
-![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queries.png)
+![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queries.webp)
 
 The AD\_ActivityCollection Job uses the ADActivity Data Collector for the following query:
 
@@ -52,11 +52,11 @@ __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
 __Step 3 –__ On the Data Source tab, select __Configure__. The Active Directory Activity DC wizard opens.
 
-![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.png)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.webp)
 
 __Step 4 –__ On the Category page, choose __Import from SAM__ option and click __Next__.
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/config/activedirectory/namconnection.png)
+![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
 
 __Step 5 –__ On the SAM connection page, the __Port__ is set to the default 4494. This needs to match the port configured for the Activity Monitor API Server agent.
 
@@ -66,7 +66,7 @@ __Step 7 –__ If connection is successful, the archive location displays along 
 
 __Step 8 –__ Click __Next__.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 __Step 9 –__ On the Scope page, set the Timespan as desired. There are two options:
 
@@ -103,15 +103,15 @@ __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
 __Step 3 –__ On the Data Source tab, select __Configure__. The Active Directory Activity DC wizard opens.
 
-![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.png)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.webp)
 
 __Step 4 –__ On the Category page, choose __Import from Share__ option and click __Next__.
 
-![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.png)
+![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.webp)
 
 __Step 5 –__ On the Share page, provide the UNC path to the AD Activity share archive location. If there are multiple archives in the same network share, check the __Include Sub-Directories__ box. Click __Next__.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 __Step 6 –__ On the Scope page, set the Timespan as desired. There are two options:
 
@@ -134,7 +134,7 @@ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collecti
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/analysis.png)
+![Analysis Tasks for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/analysis.webp)
 
 The following analysis tasks are selected by default:
 

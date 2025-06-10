@@ -63,7 +63,7 @@ When AD FS is configured with a Directory Manager client, say the Directory Mana
 
 To display the AD FS option as an image, you have to upload an image for it. On the Create New Provider page, use the Browse button under Identity Provider Image to upload an image for AD FS.
 
-NOTE: Supported image formats: .jpg, .bmp, .png, .gif  
+NOTE: Supported image formats: .jpg, .bmp, .webp, .gif  
 Required image file dimensions: 210 x 60 pixels
 
 If you do not upload an image, AD FS authentication will be shown as a button. This button would have the same name as you entered in the Name box on the Create New Provider page.

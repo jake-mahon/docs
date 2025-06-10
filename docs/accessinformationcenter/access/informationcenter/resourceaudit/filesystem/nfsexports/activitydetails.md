@@ -2,7 +2,7 @@
 
 The Activity Details report at the NFS Exports share and subfolder levels provides details on every operations logged during the selected date range. This report includes a Permission Changes table. The __Include subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Activity Details report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitydetails.png)
+![Activity Details report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitydetails.webp)
 
 This report is comprised of the following columns:
 

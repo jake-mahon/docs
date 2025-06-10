@@ -11,7 +11,7 @@ __Step 1 –__  Open the Import window in any of the following ways:
 - Click __Tools__ > __Import__ on the menu.
 - Use the keyboard shortcut (Alt+I).
 
-![Import Window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.png)
+![Import Window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
 
 The Import window includes options for specifying the locations where imported policies and templates will be saved, and how duplicate items will be handled.
 

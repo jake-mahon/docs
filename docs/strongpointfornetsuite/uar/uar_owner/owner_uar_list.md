@@ -4,9 +4,9 @@ Access your owner User Access Reviews List from __UAR List__ in your menu bar, 
 
 Here are examples of the __Global__ and __Single__ review lists:
 
-![Owner UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner.png)
+![Owner UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner.webp)
 
-![UAR Single Review list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner_single.png)
+![UAR Single Review list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner_single.webp)
 
 ## Filters
 
@@ -53,7 +53,7 @@ Use __Clear__ to reset the Filters.
 
 When you open a global review using the __Name__ link in the UAR list, the Review list is displayed, showing all of the single reviews associated with the global review.
 
-![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.png)
+![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
 - __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews\_Group\_List_.
 - __Extract Membership Detail__ creates a CSV file (_Membership\_Report.csv_) of the membership details for the reviews.

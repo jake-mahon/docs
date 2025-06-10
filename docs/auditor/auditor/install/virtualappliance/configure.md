@@ -22,7 +22,7 @@ __Step 5 –__  Then you will be prompted to configure the virtual machine. Pres
 
 In the example below, review how the shell script configures the new VM:
 
-![appliance_script](/img/product_docs/auditor/auditor/install/virtualappliance/appliance_script.png)
+![appliance_script](/img/product_docs/auditor/auditor/install/virtualappliance/appliance_script.webp)
 
 __Step 6 –__ 
 When the script execution completes, you will be prompted to reboot the virtual machine for the changes to take effect.

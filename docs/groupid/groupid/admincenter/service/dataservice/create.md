@@ -30,7 +30,7 @@ Step 5 – In the Application Name box, enter a unique name for the service or u
 Step 6 – In the Deployment Name box, enter a deployment name for the service.  
 The application name and deployment name are displayed on the service card. It is as:
 
-![Data Service Card](/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.png)
+![Data Service Card](/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.webp)
 
 Step 7 – In the IIS Application Name box, enter an IIS deployment name for the service. The name should be unique for each Data service deployed in IIS.   
 The IIS application name is used to name the service’s directory in IIS and its physical directory under ```X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\``` on the Directory Manager server.  

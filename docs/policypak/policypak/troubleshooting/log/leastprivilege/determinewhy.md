@@ -12,8 +12,8 @@ Once you locate and open the Netwrix Endpoint Policy Manager (formerly PolicyPak
 4. The POLICY name (that is, the name you gave it inside Endpoint Policy Manager Least Privilege Manager).
 5. The RESULT.
 
-![544_2_second](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_2_second.png)
+![544_2_second](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_2_second.webp)
 
 Below, the top entry shows an application being denied (because SecureRun is enabled) and the bottom entry shows an application being allowed by using an EXE policy.
 
-![544_3_third](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_3_third.png)
+![544_3_third](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_3_third.webp)

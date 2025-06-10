@@ -2,11 +2,11 @@
 
 Use the __View/Edit Host__ option to open the Host Details View. This view displays the collected host inventory information for the selected host in an easy-to-read format.
 
-![View/Edit Host option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/viewedithost.png)
+![View/Edit Host option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/viewedithost.webp)
 
 Select a host from either the Host Master Table or an individual host list and click __View/Edit Host__.
 
-![Host Details View](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostdetailsview.png)
+![Host Details View](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostdetailsview.webp)
 
 The Host Details View displays in the Results pane, and the rest of the Access Analyzer Console is unavailable while it is open. You can use the view to manually edit the host inventory information.
 

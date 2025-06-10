@@ -39,7 +39,7 @@ Step 5 – Click __Next__.
 
 Step 6 – If you have an Microsoft Entra ID based identity store in Directory Manager 10, the following page appears.
 
-![Microsoft Entra ID Store Upgrade page](/img/product_docs/groupid/groupid/install/upgrade/entraidstore.png)
+![Microsoft Entra ID Store Upgrade page](/img/product_docs/groupid/groupid/install/upgrade/entraidstore.webp)
 
 Provide the following information:
 
@@ -51,7 +51,7 @@ Step 7 – Click __Next__.
 
 Step 8 – If in the Directory Manager source version, Office 365 messaging provider is configured in a Microsoft Entra ID based identity store or in an AD identity store, the Upgrade wizard displays the following page.
 
-![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidmessagingsystem.png)
+![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidmessagingsystem.webp)
 
 Provide the following information:
 
@@ -64,7 +64,7 @@ Step 9 – If any Synchronize jobs exist in Directory Manager 10 or the version 
 - If an identity store already exists in Directory Manager 10 for the destination domains that the jobs connect to, then jobs are moved to the respective identity stores in Directory Manager 11.1.
 - When there is no identity store in Directory Manager 10 for the destination domain that the jobs connect to, the Upgrade wizard reads the FQDN of the destination domains used in the jobs and tries to create a forest structure. On identifying one, it proceeds to create an identity store for the forest, requiring you to provide a service account. (The user name and password fields will be auto populated but you can change them.) All jobs with destination provider for that forest domain or any of its child domains will be moved to the new identity store.
 
-  ![synchronize_upgrade](/img/product_docs/groupid/groupid/install/upgrade/synchronize_upgrade.png)
+  ![synchronize_upgrade](/img/product_docs/groupid/groupid/install/upgrade/synchronize_upgrade.webp)
 
   NOTE:  The service account you provide here should have at least _read_ permission in the entire forest, so that all objects from the forest can be replicated to Elasticsearch.
 
@@ -72,7 +72,7 @@ Step 9 – If any Synchronize jobs exist in Directory Manager 10 or the version 
 
 Step 10 – For Synchronize jobs that use Office 365 as messaging provider in Directory Manager 10, the wizard would require you to provide the PFX certificate. All Synchronize jobs that use Office 365 as messaging provider will be listed on the wizard page. Expand each job and provide the PFX certificate along with its password.
 
-![Upgrade wizard Synchronize Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidsynmessagingsystem.png)
+![Upgrade wizard Synchronize Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidsynmessagingsystem.webp)
 
 Provide the following information:
 
@@ -86,7 +86,7 @@ Step 12 – In Directory Manager 10 and earlier versions, reports were generated
 
 - If an identity store for that domain exists or if it being created for a Synchronize job in this upgrade process, Directory Manager will bind the reports to it.
 - If an identity store for that domain does not exist, then you have to create an identity store for it. It must essentially be an Active Directory identity store. The wizard will bind the reports generated in Directory Manager 10 to the identity store, so you will be able to view them in Directory Manager 11.1.  
-  ![reports_upgrade](/img/product_docs/groupid/groupid/install/upgrade/reports_upgrade.png)
+  ![reports_upgrade](/img/product_docs/groupid/groupid/install/upgrade/reports_upgrade.webp)
 
 NOTE: If no report has been generated in Directory Manager 10, the page related to reports upgrade will not be displayed.
 
@@ -100,7 +100,7 @@ Consider the following:
 - If a schedule has Synchronize jobs where one job uses an Active Directory domain (DomainA) as destination and another job uses a file-based provider as destination, then the schedule will auto move to the identity store created for DomainA.
 - For schedules with Synchronize jobs that use file-based providers as destination, the Upgrade wizard will display the following page that will list all such schedules. Select an identity store for each schedule, so that the schedule moves to that identity store.
 
-  ![store_selection_for_schedules](/img/product_docs/groupid/groupid/install/upgrade/store_selection_for_schedules.png)
+  ![store_selection_for_schedules](/img/product_docs/groupid/groupid/install/upgrade/store_selection_for_schedules.webp)
 
   The rules stated above also apply to schedules with job collections added to them.
 

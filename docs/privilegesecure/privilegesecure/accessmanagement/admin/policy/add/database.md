@@ -11,7 +11,7 @@ __Step 2 –__ Click __Add__ > __New Database__.
 
 __Step 3 –__ In the Enter Database Name box, enter a unique name to identify the database.
 
-![Add Database](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.png)
+![Add Database](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.webp)
 
 __Step 4 –__ Select __Microsoft SQL Server__ or __Oracle__ from the Platform drop-down list.
 

@@ -8,4 +8,4 @@ The workaround is to use Endpoint Policy Manager Cloud in Loose to match on UUI
 
 This is dump MAC as a matching criteria and use only UUID which is somewhat less aggressive.
 
-![817_1_image001_950x578](/img/product_docs/policypak/policypak/troubleshooting/cloud/integration/817_1_image001_950x578.png)
+![817_1_image001_950x578](/img/product_docs/policypak/policypak/troubleshooting/cloud/integration/817_1_image001_950x578.webp)

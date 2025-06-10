@@ -2,7 +2,7 @@
 
 The Create Review wizard is opened with the __Create__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
-![Create Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Create Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -34,7 +34,7 @@ Follow the steps to create a review.
 
 __Step 1 –__ On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Create Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 __Step 2 –__ On the Review Type page, provide the following information and click __Next__:
 
@@ -53,7 +53,7 @@ __Step 2 –__ On the Review Type page, provide the following information and cl
 
 __NOTE:__ If creating a Sensitive Data review, continue to Step 3. For all other review types, skip to Step 5.
 
-![Create Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Create Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 __Step 3 –__ On the Criteria page, select the types of sensitive criteria to include in the Sensitive Data review from the list on the left and click __Add__. Multiple items can be selected together by using the __Ctrl__ or __Shift__ key with mouse click combinations. The selected criteria is added to the Selected Criteria list. Repeat this until you have all required criteria selected. To remove a criteria, select it in the Selected Criteria list and click __Remove__.
 
@@ -63,7 +63,7 @@ __Step 4 –__ Optionally check the __Reviewers are able to see the sensitive da
 
 __CAUTION:__ If this option is checked, but the data has not been collected with matches stored by Netwrix Access Analyzer (formerly Enterprise Auditor) for all of the resources selected in Step 5, the One or more resources selected have not been scanned error occurs. The Create Review wizard will not allow the review to be created until those resources have been removed or the option unchecked.
 
-![Create Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Create Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
 
 __Step 5 –__ On the Resources page, select the resources to be included in the review. The Search feature is available to filter the list of available resource that match the type of review being created.
 
@@ -86,11 +86,11 @@ __Step 5 –__ On the Resources page, select the resources to be included in the
   - Distribution lists: ```Name@domain.com```
 - Once the desired resources have been selected, click __Next__.
 
-![Create Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Create Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 __Step 6 –__ On the Summary page, review the settings and click __Next__. The Access Information Center begins to create the review.
 
-![Create Review wizard review created message](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/created.png)
+![Create Review wizard review created message](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/created.webp)
 
 __Step 7 –__ The action status displays on the page. When the review has been created (100%), click __Close__. The Create Review wizard closes.
 

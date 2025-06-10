@@ -25,7 +25,7 @@ This first use case involves a common role model situation: one single role repr
 
 Let's study this use case with an example: a single role _Internet_ is linked to an Active Directory group _Internet_ through a navigation rule ```N```.
 
-![use_case_1_rolemodel](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_rolemodel.png)
+![use_case_1_rolemodel](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_rolemodel.webp)
 
 We are going to consider here an identity named John Doe, and his Active Directory account [john.doe@contoso.com](mailto:john.doe@contoso.com).
 
@@ -49,7 +49,7 @@ Identity Manager performs the first synchronization and tries to correlate acco
 
 The situation in Identity Manager database at this point is the following.
 
-![use_case_1_sync](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_sync.png)
+![use_case_1_sync](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_sync.webp)
 
 Integrators have defined the Internet single role and linked it to the _Internet_ AD group through the navigation rule ```N```.
 
@@ -57,7 +57,7 @@ Now, the Compute Role Model task "studies" the role model: the only rule that as
 
 The role is now listed under John Doe's assignment list (permissions) in Identity Manager.
 
-![use_case_1_deduction](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_deduction.png)
+![use_case_1_deduction](/img/product_docs/usercube/usercube/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_deduction.webp)
 
 ## Use Case 2: Several Groups, One Role
 

@@ -21,7 +21,7 @@ On the What do you want to do step, select Migrate Document action. do the follo
 1. Specify migration source and folder:
    - Select migration destination under Which type of repository should the document be migrated to?. You can add migration destination directly from wizard:
 
-     ![migration_destination_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/actions/migration_destination_thumb_0_0.png)
+     ![migration_destination_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/actions/migration_destination_thumb_0_0.webp)
    - If you created several sources for migration destinations, select on one in the under Where should the document be migrated to?
    - For Google Drive, you need to specify subfolder to save your files in the Where in the destination should the files be saved? field.
 2. Configure migration options:
@@ -42,7 +42,7 @@ In NDC, when moving a file from one storage to another a stub file is created in
 
 While creating a stub file, you can leave a message where the document is migrated to and the reasons. You can use the drop-down list to add metadata from the document to the stub file message. Please see below:
 
-![workflow_stubfile](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_stubfile.png)
+![workflow_stubfile](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_stubfile.webp)
 
 ## Applying the redaction
 
@@ -50,7 +50,7 @@ When you configure a workflow to migrate content from one location to another, y
 
 To use redaction in a workflow, you need to set up one or more redaction plans. You can choose to redact the predefined entities by selecting the plans from the drop-down list on the screenshot below or create custom groups of entities first.
 
-![workflow_redaction](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_redaction.png)
+![workflow_redaction](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_redaction.webp)
 
 If the redaction has failed for such files as PDF, that had OCR with images and cannot be fully recognized, these files will get quarantined, leaving a stub file, instead of a redacted file.
 

@@ -84,7 +84,7 @@ __Step 1 –__ On any domain controller in the target domain, open the Local Sec
 
 __Step 2 –__ In the Local Security Policy snap-in, navigate to __Security Settings__ > __Local Policies > User Rights Assignment__ and locate the __Log on as a batch job__ policy.
 
-![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.png)
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 __Step 3 –__ Double-click the __Log on as a batch job__ policy, and click __Add User or Group__. Specify the account that you want to define this policy for.
 

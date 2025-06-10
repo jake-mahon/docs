@@ -50,7 +50,7 @@ Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
 Step 2 – On the __Synchronize__ portal, click __All Jobs__.
 
-Step 3 – In the jobs list, click ![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.png) on the job that you want to run and click __Run__.
+Step 3 – In the jobs list, click ![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp) on the job that you want to run and click __Run__.
 
 Step 4 – If workflow requests are enabled, the request for running the job will go to the approver. If they approve the requests, the job will run. If they deny the requests, you will not be able to run the job.
 

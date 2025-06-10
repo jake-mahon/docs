@@ -5,7 +5,7 @@ Here's an example that can illustrate the problem and the resolution.
 
 Assume you have a Group Policy Object named ORIG. When you do this, a GPO gets GUID like this.
 
-![445_1_image001](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_1_image001.png)
+![445_1_image001](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_1_image001.webp)
 
 When you make a Netwrix Endpoint Policy Manager (formerly PolicyPak) entry, data is stored in the Group Policy Object.
 
@@ -22,11 +22,11 @@ The correct supported scenario using Endpoint Policy Manager Application Manager
 
 When you look at the settings report, what you want to see is that the REAL Group Policy Object's GUID…
 
-![445_3_image004](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_3_image004.png)
+![445_3_image004](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_3_image004.webp)
 
 That now matches the Group Policy Object's guts:
 
-![445_4_image005](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_4_image005.png)
+![445_4_image005](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/445_4_image005.webp)
 
 If you already have this situation and need to get out of it, it's an easy fix:
 

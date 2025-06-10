@@ -9,9 +9,9 @@ To Hide or Show menu items:
 1. Open __Strongpoint__ > __Strongpoint Support__ > __Installation Settings__
 2. Click __Edit__ to edit the installation settings.
 3. Open the __Menu Management tab__. You only see the categories available for your license type. All of the optional __Menu Items__ are hidden by default.  
-   ![Default Setting for Documentation and Optimization Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt.png)  
-   ![Default Setting for Intellgient Change Management Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_cm.png)  
-   ![Default Setting for Enterprise Compliance Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_ec.png)
+   ![Default Setting for Documentation and Optimization Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt.webp)  
+   ![Default Setting for Intellgient Change Management Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_cm.webp)  
+   ![Default Setting for Enterprise Compliance Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_ec.webp)
 4. To __Hide__ items: Select an item from the left and click __>__ to move it to the right. Use Ctrl-Click or Shift-Click to select multiple items. Use __>>__ to move all the items.  
    To __Show__ items that have been hidden: Select one or more from the right and click \< to move them to the left. Use \<\< to move all the items.
 5. Click __Save__ when you are finished.

@@ -18,7 +18,7 @@ Authentication Type – Basic authentication. Any valid account such as a local 
 
 Example
 
-![GET api/account/users](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.png)
+![GET api/account/users](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
 
 ## POST api/account/create
 
@@ -42,7 +42,7 @@ Required Input Parameters
 
 Example
 
-![POST api/account/create](/img/product_docs/threatprevention/threatprevention/eperestsite/create.png)
+![POST api/account/create](/img/product_docs/threatprevention/threatprevention/eperestsite/create.webp)
 
 ## GET api/account/user/`<userId>`
 
@@ -54,7 +54,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/userId](/img/product_docs/threatprevention/threatprevention/eperestsite/userid.png)
+![GET api/account/user/userId](/img/product_docs/threatprevention/threatprevention/eperestsite/userid.webp)
 
 ## GET api/account/user/`<userName>`
 
@@ -66,7 +66,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/userName](/img/product_docs/threatprevention/threatprevention/eperestsite/username.png)
+![GET api/account/user/userName](/img/product_docs/threatprevention/threatprevention/eperestsite/username.webp)
 
 ## DELETE api/account/delete?userName=`<username>`
 
@@ -78,6 +78,6 @@ Authentication Type – Basic authentication
 
 Example
 
-![DELETE api/account/delete?userName=username](/img/product_docs/strongpointfornetsuite/integrations/delete.png)
+![DELETE api/account/delete?userName=username](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
 
 To verify the result of this operation, you can use “GET api/account/users” or check the contents of the [EpeUsers].[dbo].[AspNetUsers] database table.

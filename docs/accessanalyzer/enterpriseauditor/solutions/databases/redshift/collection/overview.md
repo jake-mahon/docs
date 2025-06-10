@@ -2,7 +2,7 @@
 
 The Redshift Solution Collection group collects high level summary information from targeted Redshift Servers.  Other jobs in the Redshift Solution Set use this information for further analysis and for producing respective reports.
 
-![0](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/0.collection.png)
+![0](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/0.collection.webp)
 
 The jobs in the 0.Collection Job Group are:
 

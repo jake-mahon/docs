@@ -34,7 +34,7 @@ This information is subject to change without notice. For an up to date verifica
 
 Here’s an example. Black text are policy types which are available. Grayed out items are not available yet. Some policy types might be some percent complete, or might never be ported over at all.
 
-![622_1_sadf_950x462](/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.png)
+![622_1_sadf_950x462](/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.webp)
 
 Lastly, here is the table of what’s currently in Endpoint Policy Manager Cloud editors and our own self-assessed ranking of Percent complete.
 

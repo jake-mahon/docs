@@ -8,7 +8,7 @@ __Step 1 –__ Click __Alerts__ in the left pane to launch the Alerts interface.
 
 __Step 2 –__ On the Alerts interface, click the __Policy updated on server Changeset #[number]__ link in the Message column for an alert. The Policy Comparison window opens, where you can view the changes made to the policy against the respective alert.
 
-![olicy Comparison window ](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/policycomparison.png)
+![olicy Comparison window ](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/policycomparison.webp)
 
 __Step 3 –__ On the Policy Comparison windowthe old xml displays on the left and the modified xml on the right.
 

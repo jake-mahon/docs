@@ -16,7 +16,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_LargeGroups__ > __Conf
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the UX_LargeGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/largegroupsanalysis.png)
+![Analysis Tasks for the UX_LargeGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/largegroupsanalysis.webp)
 
 The default analysis task is:
 

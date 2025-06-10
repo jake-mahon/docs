@@ -12,7 +12,7 @@ __Step 1 –__ Navigate to __Configuration__ > __Audit Logs__. The Activity Repo
 
 __Step 2 –__ The All Self Audit Activity report is generated for the Netwrix (Parent) organization by default. However, you can select a different organization from the drop-down menu at the top of the left pane to view its All Self Audit Activity report.
 
-![All Self Audit Activity Report](/img/product_docs/1secure/admin/searchandreports/selfaudit.png)
+![All Self Audit Activity Report](/img/product_docs/1secure/admin/searchandreports/selfaudit.webp)
 
 __Step 3 –__ In this report, a default filter is applied with the following settings:
 

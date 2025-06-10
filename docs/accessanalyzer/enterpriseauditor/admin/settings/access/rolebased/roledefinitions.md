@@ -176,7 +176,7 @@ Additional users can be assigned the Report Viewer role at the global, job group
 - Job level – __[Job]__ > __Properties__ >__Report Roles__ tab
 - Report Configuration level – __[Job]__ > __Configure__ > __Reports__ node. Click __Configure__ next to the report, and navigate to the Publish Security page of the Report Configuration wizard. See the [Publish Security Page](/docs/accessanalyzer/enterpriseauditor/admin/report/wizard/publishsecurity.md) topic for additional information.
 
-| ![Job Group Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerjobgroup.png) | ![Job Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerjob.png) | ![Report Configuration Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerreport.png) |
+| ![Job Group Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerjobgroup.webp) | ![Job Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerjob.webp) | ![Report Configuration Level](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportviewerreport.webp) |
 | --- | --- | --- |
 | Job Group Level | Job Level | Report Configuration Level |
 

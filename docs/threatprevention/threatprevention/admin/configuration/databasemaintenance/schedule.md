@@ -4,7 +4,7 @@ You must schedule the database maintenance job, which runs the specified operati
 
 Follow the steps to configure a schedule.
 
-![Database Maintenance window - Schedule tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
+![Database Maintenance window - Schedule tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 __Step 1 –__ Click __Configuration__ > __Database__ > __Maintenance__ on the menu. The Database Maintenance window is displayed.
 
@@ -33,4 +33,4 @@ The database maintenance job is now scheduled to run at the configured time and 
 
 This scheduled job can be viewed through the Microsoft SQL Server Management Studio within the __SQL Server Agent__ > __Jobs__ folder (SiDbMainJob).
 
-![Database Maintenance job in Microsoft SQL Server Management Studio](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/dbmaintenancejob.png)
+![Database Maintenance job in Microsoft SQL Server Management Studio](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/dbmaintenancejob.webp)

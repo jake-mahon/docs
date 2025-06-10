@@ -7,24 +7,24 @@ This chapter explains how to configure the SAML application for __Dropbox__. It 
 - Log in as administrator at the __Dropbox__
 - Open the Admin Console
 
-![Admin Console](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_1-en.png)s
+![Admin Console](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_1-en.webp)s
 
 - Open Settings
 
-![settings dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_2-en.png)
+![settings dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_2-en.webp)
 
 - Single Sign On
 
-![SSO dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_3-en.png)
+![SSO dropbox](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_3-en.webp)
 
 - This is where the data SSO URL and the certificate from the Server Manager must be deposited.
 
-![database settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_4-en.png)
+![database settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_4-en.webp)
 
 - In the Advanced view, a new SAML application must be created in the Applications module.
 - Then the target page (login URL) and the XML file must be stored in the application.
 
-![login with SAML](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_5-en.png)
+![login with SAML](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_dropbox_5-en.webp)
 
 The XML file must look like [this](https://cdn.manula.com/user/3511/docs/dropbox.xml).
 

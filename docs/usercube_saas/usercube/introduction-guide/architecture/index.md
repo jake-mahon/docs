@@ -19,10 +19,10 @@ Identity Manager can be installed:
 
 - SaaS so that the server dwells in the cloud and is provided as a service;
 
-  ![Architecture: SaaS](/img/product_docs/usercube/usercube/integration-guide/architecture/saas/architecture_saas.png)
+  ![Architecture: SaaS](/img/product_docs/usercube/usercube/integration-guide/architecture/saas/architecture_saas.webp)
 - on-premises so that the server is installed on an isolated network within the company.
 
-  ![Architecture: On-Premises](/img/product_docs/usercube/usercube/integration-guide/architecture/on-prem/architecture_onprem.png)
+  ![Architecture: On-Premises](/img/product_docs/usercube/usercube/integration-guide/architecture/on-prem/architecture_onprem.webp)
 
 ## Next Steps
 

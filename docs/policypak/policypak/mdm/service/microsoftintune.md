@@ -4,7 +4,7 @@ __NOTE:__ See [Endpoint Policy Manager and Microsoft Intune](/docs/policypak/pol
 
 To start, log onto your Microsoft Intune instance and select Apps. Add the Endpoint Policy Manager CSE, the Endpoint Policy Manager license file, and the Endpoint Policy Manager settings MSI files, and deploy them to your machine.
 
-![using_policypak_with_mdm_and_3](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_3.png)
+![using_policypak_with_mdm_and_3](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_3.webp)
 
 Next, make assignments to computers. For each application you have to target, you can specify All Devices (which will automatically address only Windows 10 machines), or you can pick a specific group of machines. For command-line arguments, you can enter ```ARPSYSTEMCOMPONENT=1``` to hide each item from the Add/Remove Programs options to prevent uninstallation. Using the flag ```ARPSYSTEMCOMPONENT=1``` is optional.
 

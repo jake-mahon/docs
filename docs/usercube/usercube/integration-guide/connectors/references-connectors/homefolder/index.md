@@ -6,7 +6,7 @@ This page is about [
 Home Folders
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/home-folders/index.md).
 
-![Package: Storage/Home Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.png)
+![Package: Storage/Home Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
 
 ## Overview
 

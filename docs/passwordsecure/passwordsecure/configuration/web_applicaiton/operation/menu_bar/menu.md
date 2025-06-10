@@ -8,7 +8,7 @@ The ribbon on the client has been replaced by a menu on the Web Application. The
 
 The menu can take on two forms. In general, the __menu bar__ containing the __most important functions__ is displayed. It will be described here using the example of the password module.
 
-![menu bar](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_174-en.png)
+![menu bar](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_174-en.webp)
 
 1. Expand menu
 
@@ -38,7 +38,7 @@ Copies the password to the clipboard.
 
 If the menu – as described above – is maximised, __all functions__ are then available. The functions on the menu bar are repeated here. The menu is divided into a number of sections. These correspond 1 to 1 to the sections of the ribbon on the client.
 
-![Menu](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_175-en.png)
+![Menu](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_175-en.webp)
 
 In our example, the menu looks like this:
 

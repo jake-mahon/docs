@@ -20,7 +20,7 @@ Customization record fields include:
 - __Related Objects__: Links to related objects.
 - __Details__: Tabs to access details about the customization. Tabs include __Metadata__, __Improvement__, __Permissions__, __Control__, __DRD__, __Raw Data__ and __Related Lists__.
 
-![customization_record](/img/product_docs/strongpointforsalesforce/customizations/customization_record.png)
+![customization_record](/img/product_docs/strongpointforsalesforce/customizations/customization_record.webp)
 
 ## Customization Record Tabs
 
@@ -87,7 +87,7 @@ There are new customization records for each Health Check group (session setting
 
 The Health Settings tab is located on the customization pages for the Salesforce Health Check, such as Session Settings, Password Policies and Certificates. This example shows the __Health Settings__ tab for the __PasswordPolicies__ customization.
 
-![Example of the PasswordPolicies Health Settings tab](/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.png)
+![Example of the PasswordPolicies Health Settings tab](/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.webp)
 
 ### Data Classification
 

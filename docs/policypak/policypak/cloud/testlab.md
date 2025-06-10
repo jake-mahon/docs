@@ -13,8 +13,8 @@ By the time you have completed the videos, you will have a mini, free-to-use on-
 - Domain-joined PC: One machine with COMPUTER in the name
 - Representative cloud machine: Typically non-domain-joined, but ready to install the Endpoint Policy Manager Cloud client for continuous testing
 
-![concepts_logons_and_downloads_12_625x534](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_12_625x534.png)
+![concepts_logons_and_downloads_12_625x534](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_12_625x534.webp)
 
-![concepts_logons_and_downloads_13_624x282](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_13_624x282.png)
+![concepts_logons_and_downloads_13_624x282](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_13_624x282.webp)
 
-![concepts_logons_and_downloads_14_623x372](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_14_623x372.png)
+![concepts_logons_and_downloads_14_623x372](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_14_623x372.webp)

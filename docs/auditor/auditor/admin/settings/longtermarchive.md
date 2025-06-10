@@ -2,7 +2,7 @@
 
 The Long-Term Archive is configured by default, irrespective of your subscription plan and settings you specified when configuring a monitoring plan. To review and update your Long-Term Archive settings, navigate to __Settings__ > __Long-Term Archive__ and click Modify.
 
-![lta_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/settings/lta_settings_thumb_0_0.png)
+![lta_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/settings/lta_settings_thumb_0_0.webp)
 
 Review the following for additional information:
 
@@ -15,7 +15,7 @@ Review the following for additional information:
 
 Setting Recording Settings
 
-![usersessions_storage](/img/product_docs/auditor/auditor/admin/settings/usersessions_storage.png)
+![usersessions_storage](/img/product_docs/auditor/auditor/admin/settings/usersessions_storage.webp)
 
 |  |  |
 | --- | --- |

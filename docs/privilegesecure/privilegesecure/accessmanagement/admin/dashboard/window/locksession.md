@@ -11,7 +11,7 @@ __Step 1 –__ Navigate to either the __Active dashboard__ or the __Live Session
   - OR -
 - From the Live Session Viewer, click the __lock__ icon.
 
-![Lock User Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.png)
+![Lock User Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.webp)
 
 __Step 2 –__ In the Lock Session window, enter the following information:
 

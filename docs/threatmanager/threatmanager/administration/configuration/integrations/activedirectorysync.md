@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Active Directory Sync__ in the navigation pane to view a list of the already added Active Directory domains, if any. Each added domain represents a sync policy.
 
-![Integrations interface on the Active Directory Sync page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Integrations interface on the Active Directory Sync page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 A service named Active Directory Service continuously runs to collect data for the specified domain(s). It evaluates the USN value of an object and syncs when the object changes. The table provides the following information:
 
@@ -31,7 +31,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integration window with Active Directory Sync type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.png)
+![Add New Integration window with Active Directory Sync type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.webp)
 
 __Step 3 –__ In the Type drop-down menu, select Active Directory Sync.
 
@@ -60,7 +60,7 @@ __Step 8 –__ On the Integrations interface, click __Active Directory Sync__ in
 
 __Step 9 –__ Select a domain from the table or the navigation pane to view the details of the Active Directory Sync policy created for that domain.
 
-![Active Directory Sync details page for a specific domain](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.png)
+![Active Directory Sync details page for a specific domain](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 Select the domain from the list to see modification options:
 
@@ -74,7 +74,7 @@ Select the domain from the list to see modification options:
 
 The Domain Configuration tab displays the sync policy settings entered for the selected domain. With the exception of the domain itself, these settings can be updated as needed.
 
-![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.png)
+![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
 
 The Domain Configuration tab displays the following settings:
 
@@ -97,7 +97,7 @@ The Save button is enabled when any settings are modified. Click it to commit th
 
 The Sync History tab displays the information on each synchronization event. This includes general information about user, group, and computer objects within the selected domain.
 
-![Active Directory Sync details page for a specific domain showing the Sync History tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.png)
+![Active Directory Sync details page for a specific domain showing the Sync History tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
 
 The table provides the following information:
 
@@ -123,7 +123,7 @@ __Step 2 –__ The Domain Configuration tab opens, where you can make the desire
 
 _Remember,_  the domain cannot be modified.
 
-![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.png)
+![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
 
 __Step 3 –__ To modify the Credential Profile, select the Credential Profile by name from the drop-down menu. This was pre-created in the Credential Profiles page.
 

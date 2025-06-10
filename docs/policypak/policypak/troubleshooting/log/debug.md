@@ -8,12 +8,12 @@ __Step 1 –__ Please add a registry key in
 
 ```HKLMSoftwarePoliciesPolicyPakConfigLogs``` as REG\_DWORD called DefaultVerbose and set it to 0xFFFFFFFF as seen in this screenshot.
 
-![385_1_image0021](/img/product_docs/policypak/policypak/troubleshooting/log/385_1_image0021.png)
+![385_1_image0021](/img/product_docs/policypak/policypak/troubleshooting/log/385_1_image0021.webp)
 
 __Step 2 –__ Then Reboot. (Very important.)
 
 __Step 3 –__ You know you'll have done it right, when special Debug messages appear in the logs like BRExtension::dtor as seen here. For instance, check ```%programdata%PolicyPakPolicyPak ```Browser RouterppService.log and look to see its been done correctly.
 
-![385_2_image003](/img/product_docs/policypak/policypak/troubleshooting/log/385_2_image003.png)
+![385_2_image003](/img/product_docs/policypak/policypak/troubleshooting/log/385_2_image003.webp)
 
 __Step 4 –__ After that, reproduce the problem, and run``` PPLOGS``` as seen in Step 3 [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md) and attach to your support case.

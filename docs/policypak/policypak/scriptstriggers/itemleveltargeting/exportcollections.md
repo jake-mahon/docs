@@ -6,13 +6,13 @@ __NOTE:__ For a video demonstrating the use of Endpoint Policy Manager scripts w
 
 Remember that Endpoint Policy Manager Scripts & Triggers Manager policies can be created and exported on the User or Computer side. For instance, in Figure 30, you can see an export from the User side.
 
-![using_item_level_targeting_6](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_6.png)
+![using_item_level_targeting_6](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_6.webp)
 
 Figure 30. Exporting a policy from the User side.
 
 In Figure 31, you can see an export of a Endpoint Policy Manager Scripts & Triggers Manager XML file from the Computer side.
 
-![using_item_level_targeting_7](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_7.png)
+![using_item_level_targeting_7](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_7.webp)
 
 Figure 31. Exporting a collection from the Computer side.
 
@@ -26,7 +26,7 @@ To export a policy for later use with Endpoint Policy Manager Exporter or Endpoi
 
 __NOTE:__ For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/mdm/exporterutility.md).
 
-![using_item_level_targeting_8](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.png)
+![using_item_level_targeting_8](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
 
 Figure 32. Choosing this option will allow the user to export the policy for later use.
 

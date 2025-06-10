@@ -2,7 +2,7 @@
 
 Gives access to the __Manage Accounts__ buttons for the users of a given entity type.
 
-![ManageAccounts Button](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/accesscontrol_manageaccounts_v603.png)
+![ManageAccounts Button](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/accesscontrol_manageaccounts_v603.webp)
 
 The scaffolding gives access to the button, but you need to get the permissions on said accounts in order to see anything once you click on the button.
 

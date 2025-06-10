@@ -18,22 +18,22 @@ The following example sets:
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
-<AppDisplaySetting ApplicationName="Netwrix Usercube" LogoFile="logo.png" FaviconFile="favicon.ico" BannerColor="#512E5F" BannerGradientColor="#76D7C4" BannerSelectedTabColor="#E74C3C" BannerTextColor="#F1C40F" PrimaryColor="#0E6655" SecondaryColor="#85C1E9" />
+<AppDisplaySetting ApplicationName="Netwrix Usercube" LogoFile="logo.webp" FaviconFile="favicon.ico" BannerColor="#512E5F" BannerGradientColor="#76D7C4" BannerSelectedTabColor="#E74C3C" BannerTextColor="#F1C40F" PrimaryColor="#0E6655" SecondaryColor="#85C1E9" />
 ```
 
 Colors, logo and name customization:
 
-![AppDisplay - Basic Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.png)
+![AppDisplay - Basic Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.webp)
 
 Display colors customization:
 
-![AppDisplay - Authentication](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.png)
+![AppDisplay - Authentication](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.webp)
 
 ### Disable counters
 
 The following example disables the counters that are usually visible on the dashboard:
 
-![AppDisplay - Without Counters](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.png)
+![AppDisplay - Without Counters](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -41,13 +41,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 <AppDisplaySetting DisableProvisioningCounters="true" />
 ```
 
-![AppDisplay - Without Counters](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.png)
+![AppDisplay - Without Counters](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.webp)
 
 ### Features
 
 The feature __Only allow approving and refusing on access certifications items__ gives the administrator the option to limit the user's option to either __Approve__ or __Deny__ the Access Certification items while making the __More__ button unavailable.
 
-![allowapprovingdenyingaccesscertificationitems](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.png)
+![allowapprovingdenyingaccesscertificationitems](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.webp)
 
 The following example disables the __More__ button that is usually visible on certification screen:
 
@@ -59,7 +59,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 If the feature __Only allow approving and denying on access certification items__ is set to __Yes__, the __More__ button is disabled.
 
-![accesscertificationonlyapprovedeny-disabled](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.png)
+![accesscertificationonlyapprovedeny-disabled](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
 
 See the [Configure Global Settings](/docs/usercube/usercube/user-guide/set-up/configure-global-settings/index.md) topic for additional information.
 

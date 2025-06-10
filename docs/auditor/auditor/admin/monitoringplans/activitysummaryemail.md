@@ -6,7 +6,7 @@ Notifications on user activity and event log collection (Event Log Collection St
 
 The following Activity Summary example applies to Active Directory. Other Activity Summaries generated and delivered by Netwrix Auditor will vary slightly depending on the data source.
 
-![ad_activitity_summary_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/ad_activitity_summary_thumb_0_0.png)
+![ad_activitity_summary_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/ad_activitity_summary_thumb_0_0.webp)
 
 The example Activity Summary provides the following information on Active Directory changes:
 

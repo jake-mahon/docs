@@ -14,7 +14,7 @@ For both tabs the interface also includes:
 
 The Pending Requests tab in the Access Requests interface displays information for pending requests that are awaiting an owner response.
 
-![Access Requests interface Pending Requests tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.png)
+![Access Requests interface Pending Requests tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.webp)
 
 The information displayed in the table includes:
 
@@ -48,7 +48,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Pending Requests tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.png)
+![Pending Requests tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.webp)
 
 | Button | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ The buttons at the bottom enable you to perform the following actions:
 
 The Request History tab in the Access Requests interface displays information for processed requests.
 
-![Access Requests interface Request History tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.png)
+![Access Requests interface Request History tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.webp)
 
 The information displayed in the table includes:
 
@@ -101,7 +101,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.png)
+![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.webp)
 
 | Button | Description |
 | --- | --- |

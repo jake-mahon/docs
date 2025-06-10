@@ -24,6 +24,6 @@ The Public Folder action module is configured through the Public Folder Action M
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the pages in the wizard. Review the introductory and caution information about the Public Folder Action Module before proceeding.
 
-![Public Folder Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Public Folder Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

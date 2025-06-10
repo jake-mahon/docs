@@ -17,7 +17,7 @@ A navigation property's value can be computed by a navigation rule or a query ru
 - A Navigation rule assigns a fixed resource, which is chosen from among the "other" entity type's resources during the rule's creation. The assigned resource is the same for all impacted accounts. Use a navigation rule when a given resource must be assigned, regardless of users' attributes.
 - A Query rule assigns a resource from the "other" entity type too. However, the resource is chosen according to a query via a C# expression with conditions, based on the attributes of the source objects (usually users). Hence, contrary to a navigation rule, a query rule can assign a different resource for each impacted account, based on the attributes of the account's owner. Use a query rule when there is the need to use variables from among users' attributes to select the resource to assign.
 
-![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.png)
+![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.webp)
 
 > A navigation rule could add the AD group ```SG_APP_SQL``` to the ```memberOf``` navigation property to all AD nominative accounts provided that the user has the single role ```SQL Server Administration```.
 
@@ -95,19 +95,19 @@ Fill an entity type with a navigation rule by proceeding as follows:
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future navigation rule.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 3 –__ Click on the __Navigations__ tab and on the addition button at the top right corner.
 
-![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 4 –__ Fill in the fields.
 
-![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
+![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.webp)
 
 - ```Join```: navigation property from the target entity type, whose value is to be impacted.
 - ```Resource```: resource from the entity type pointed by the ```Join```, which is to be added to the ```Join``` property.
@@ -119,7 +119,7 @@ __Step 4 –__ Fill in the fields.
 
 > Our example would look like:
 >
-> ![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.png)
+> ![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.webp)
 
 __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
@@ -131,23 +131,23 @@ Fill an entity type with a query rule by proceeding as follows:
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future query rule.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 3 –__ Click on the __Queries__ tab and on the addition button at the top right corner.
 
-![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 Fill in the fields.
 
-![Create Query Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.png)
+![Create Query Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.webp)
 
 Once the ```Resource Type``` is provided, more fields appear.
 
-![Query Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.png)
+![Query Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.webp)
 
 - __Target Object__ > ```Property to fill```: navigation property from the target entity type, whose value is to be impacted.
 - __Target Object__: property (or expression of properties) from the entity type pointed by the ```Property to fill```, which will be the value of the ```Property to fill``` if it matches the source object. Can be defined by a property path and/or an expression. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
@@ -159,9 +159,9 @@ Once the ```Resource Type``` is provided, more fields appear.
 
 > Our examples would look like:
 >
-> ![Query Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.png)
+> ![Query Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.webp)
 >
-> ![Query Rule Example 2](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.png)
+> ![Query Rule Example 2](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.webp)
 
 Click on __Create__ and see a line added on the rules page.
 
@@ -169,7 +169,7 @@ Click on __Create__ and see a line added on the rules page.
 
 Any modification in a navigation or query rule is taken into account when launching the role model computation task, in the __Resource Types__ frame of the corresponding connector's overview page, via __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is modified, then all corresponding assignments are computed again. If a resource was created automatically for an identity through a navigation rule (and its criteria), and if the user's criteria do not comply with the new version of the rule, then the corresponding resource is automatically deleted.
 
@@ -185,7 +185,7 @@ In order to verify the process:
 
 __Step 1 –__ On the corresponding connector's overview page, in the __Resource Types__ frame click on __Jobs__ > __Compute Role Model__ to apply all rules.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 Review unauthorized accounts (on the __Resource Reconciliation__ screen) and roles (on the __Role Reconciliation__ screen) to help check query rules: if there are numerous properties to be reconciled following the same pattern, then there may be a rule that needs to be changed.
 

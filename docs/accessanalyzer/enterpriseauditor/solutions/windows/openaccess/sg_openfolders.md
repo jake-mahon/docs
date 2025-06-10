@@ -6,7 +6,7 @@ The SG\_OpenFolders job enumerates folders with open access across the audited e
 
 The SG\_OpenFolders job uses the SystemInfo Data Collector for the following query:
 
-![Queries for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersquery.png)
+![Queries for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersquery.webp)
 
 The query for the SG\_OpenFolders job is:
 
@@ -24,7 +24,7 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__. The Quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The System Info Data Collector Wizard opens.
 
-![System Info Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/configuresubfolderdepth.png)
+![System Info Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/configuresubfolderdepth.webp)
 
 __Step 4 –__ Navigate to the Options page and select the __Enumerate subfolders within shared folder__ checkbox and then the __Limit returned subfolders depth to__ checkbox.
 
@@ -40,7 +40,7 @@ Navigate to the __Windows__ > __OpenAccess__ > __SG\_OpenFolders__ > __Configure
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersanalysis.png)
+![Analysis Tasks for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/openaccess/openfoldersanalysis.webp)
 
 The default analysis tasks are:
 

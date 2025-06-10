@@ -2,13 +2,13 @@
 
 Follow the steps to add a user and assign access rights.
 
-![Add User button on the Users and Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/addbutton.png)
+![Add User button on the Users and Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/addbutton.webp)
 
 __Step 1 –__ Click __Configuration__ > __Users__ on the menu to open the Users and Roles window.
 
 __Step 2 –__ Click the __Add__ (+) button in the upper-right corner; the Select Users or Groups window opens.
 
-![Select Users or Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/selectusersorgroups.png)
+![Select Users or Groups window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/selectusersorgroups.webp)
 
 __Step 3 –__ Enter the name of the desired user in the Enter the object names to select box and click Check Name. On the next window, select the required Active Directory user and click __OK__. Click __OK__ on the Select Users or Groups window to close it. The user is added to the Windows User or Group list.
 

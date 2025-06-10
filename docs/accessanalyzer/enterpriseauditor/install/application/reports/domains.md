@@ -8,7 +8,7 @@ All domains provided or enumerated must have a trust relationship with the domai
 
 __Step 1 –__ Open the __WebServer.exe.config__ file with a text editor, for example Notepad. It is located within the Web folder of the Access Analyzer installation directory.
 
-![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigmultipledomains.png)
+![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigmultipledomains.webp)
 
 __Step 2 –__ Add the desired domains to the value for the ```AuthenticationDomains``` parameter:
 

@@ -18,7 +18,7 @@ The FS\_SecurityAssessment job is designed to provide a security assessment of a
 
 If only select sub-job groups have been run, there are blank sections in the overview report.
 
-![FS_SecurityAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.png)
+![FS_SecurityAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.webp)
 
 The FS\_SecurityAssessment job is comprised of analysis and reports which use the data collected by the 0.Collection job group and analyzed by the jobs listed above.
 
@@ -28,7 +28,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __FS\_SecurityAsse
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.png)
+![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.webp)
 
 The following analysis tasks are selected by default:
 

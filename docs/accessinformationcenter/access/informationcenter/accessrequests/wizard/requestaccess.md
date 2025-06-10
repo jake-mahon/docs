@@ -2,7 +2,7 @@
 
 The Request Access wizard is opened with the __Request Access__ button in the Your Access portal.
 
-![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.png)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
 
 It contains two pages:
 
@@ -19,7 +19,7 @@ Follow the steps to submit a resource request.
 
 __Step 1 –__ In the Your Access portal, click __Request Access__. The Request Access wizard opens.
 
-![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.png)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
 
 __Step 2 –__ On the Select Resource page, locate the desired resources using the Search Catalog and browse options.
 
@@ -44,13 +44,13 @@ __Step 2 –__ On the Select Resource page, locate the desired resources using t
 
 __Step 3 –__ Select the resource in the table. If there are multiple access levels available, as indicated by the green plus (+) button, click the button to rotate through and select the desired access level. Multiple resources can be selected using ether the Ctrl or Shift key with mouse click combinations. Click __Add__ to place a selected resource into your list.
 
-![Selected Resources Window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.png)
+![Selected Resources Window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.webp)
 
 __Step 4 –__ Use the __View Selections__ button to open the Selected Resources window. If an extra resource is in your list, select it and click __Remove__. Click __OK__ to close the window.
 
 __Step 5 –__ When you selection list is set as desired, click __Next__.
 
-![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/addnotes.png)
+![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/addnotes.webp)
 
 __Step 6 –__ On the Add Notes page, enter the following information:
 
@@ -61,7 +61,7 @@ __Step 6 –__ On the Add Notes page, enter the following information:
 
 __Step 7 –__ Click __Next__ and the Access Information Center starts the action.
 
-![Request Access wizard request sent message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Request Access wizard request sent message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 8 –__ The action status displays on the page. When the action has completed (100%), click __Finish__. The Request Access wizard closes.
 

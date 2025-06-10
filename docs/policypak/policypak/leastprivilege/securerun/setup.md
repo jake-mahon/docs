@@ -13,21 +13,21 @@ In addition we have a tool called Auto Rules Generator for generating rules from
 - There is the option to __Apply to Child Processes__. In most cases this will elevate any other processes needed.
 - If you do not use this option, you have to create rules for each process. But you can use the Auto Rules Generator to find all those .exe's and generate rules for all quickly.
 
-![315_1_lpm-faq-03-img-01](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_1_lpm-faq-03-img-01.png)
+![315_1_lpm-faq-03-img-01](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_1_lpm-faq-03-img-01.webp)
 
 #### How do we setup SecureRun when there are so many variables and make them work no matter what version of the software was installed?
 
 - Start with the AutoRules Generator to try to mass generate the rules you need.
 - In You can do a Single rule or a Combo
 
-![315_2_lpm-faq-03-img-02](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_2_lpm-faq-03-img-02.png)
+![315_2_lpm-faq-03-img-02](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_2_lpm-faq-03-img-02.webp)
 
 - For a Single many customers will use Hashto ensure only that specific file is elevated. However this doesn't allow for future versions to be allowed.
 - For future proof situations, a Combo of a __Signature__, along with __File Info__, is often used. That way you ensure that it is always that Vendor with the Signature, and with File Info you can specify to allow Higher or Equals, thereby allowing future versions to be elevated.
 
-![315_3_lpm-faq-03-img-03](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_3_lpm-faq-03-img-03.png)
+![315_3_lpm-faq-03-img-03](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_3_lpm-faq-03-img-03.webp)
 
-![315_4_lpm-faq-03-img-04](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_4_lpm-faq-03-img-04.png)
+![315_4_lpm-faq-03-img-04](/img/product_docs/policypak/policypak/leastprivilege/securerun/315_4_lpm-faq-03-img-04.webp)
 
 ### Summary
 

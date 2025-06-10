@@ -4,13 +4,13 @@ In the previous section, we placed a check inside the "at least one symbol chara
 
 Endpoint Policy Manager will deliver settings once you click the setting. If you see a thin underline underneath the element, you know it's set to deliver the value, as shown in Figure 24. In the following examples, you can see how to enforce a checkbox's setting.
 
-![policypak_application_settings_1_3](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_3.png)
+![policypak_application_settings_1_3](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_3.webp)
 
 Figure 24. Underline indicating that action will be taken on these settings.
 
 When you alter your settings to what is shown in Figure 25, the result will be NO enforcement action. Note that there is no underline underneath the element.
 
-![policypak_application_settings_1_4](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_4.png)
+![policypak_application_settings_1_4](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_4.webp)
 
 Figure 25. The result of these settings will be that no reinforcement action will occur.
 
@@ -20,7 +20,7 @@ Endpoint Policy Manager Application Settings Manager will deliver an uncheck set
 
 If the box is already checked in the client's application, Endpoint Policy Manager Application Settings Manager will forcefully uncheck (clear) the checkbox, as shown in Figure 26.
 
-![policypak_application_settings_1_5](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_5.png)
+![policypak_application_settings_1_5](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_5.webp)
 
 Figure 26. Action will be taken to uncheck the box.
 

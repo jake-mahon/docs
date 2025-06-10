@@ -2,7 +2,7 @@
 
 The Agent Settings page is where the SharePoint Agent Service is configured. It is a wizard page for the category of Scan SharePoint Access.
 
-![Agent Settings page](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.png)
+![Agent Settings page](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
 The __Enable Agent Service Scans__ checkbox enables collecting SharePoint data through the agent services instead of directly from SharePoint. This option requires a __Network Port__ to be entered. Agent Service Identity radio buttons are:
 

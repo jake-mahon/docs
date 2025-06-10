@@ -6,7 +6,7 @@ Follow the steps to auto deploy the Agent.
 
 __Step 1 –__ Click __Agents__ in the left pane to launch the Agents interface. Then click __Configure Auto Deploy__ to launch the Configure Auto Deploy window.
 
-![Configure Auto Deploy window](/img/product_docs/threatprevention/threatprevention/admin/agents/window/autodeploy.png)
+![Configure Auto Deploy window](/img/product_docs/threatprevention/threatprevention/admin/agents/window/autodeploy.webp)
 
 __Step 2 –__ Select the __Enable Auto Deploy__ checkbox to enable the following configuration options:
 

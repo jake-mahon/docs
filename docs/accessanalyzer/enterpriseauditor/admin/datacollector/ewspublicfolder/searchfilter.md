@@ -4,7 +4,7 @@ The Search filter settings page applies a filter used to search mailboxes in the
 
 - PublicFolder search
 
-![EWS Public Folder Data Collector Wizard Search Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
+![EWS Public Folder Data Collector Wizard Search Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Click __Add Filter__ to open the Filter Wizard
 

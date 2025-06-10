@@ -22,7 +22,7 @@ NOTE: Admin Center history does not fall in a specific identity store, so its re
 
 After the History Retention schedule runs, the following information is displayed on the __History__ page in identity store configurations:
 
-![History Retension Information ](/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.png)
+![History Retension Information ](/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 

@@ -24,7 +24,7 @@ The state-in-time reports are available under the Reports node. Depending on the
 
 In the report filters, select a monitoring plan you want to generate a report for. To review data sources and items included in each plan, navigate to the Monitoring Plans section.
 
-![fileshareswindowsservers](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/fileshareswindowsservers.png)
+![fileshareswindowsservers](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/fileshareswindowsservers.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.
 
@@ -40,7 +40,7 @@ When auditing file servers, changes to both access and audit permissions are tra
 
 Most reports in Windows Server—State-in-Time folder allow you to specify baselines. A _baseline_ defines a certain safe level or state. If a server parameter falls below it, it is a considered a threat or at least merits your special attention. With baselines specified right in report filters, you can easily identify servers that are different from your corporate policies or best practices. Risks are marked with red color and are easy to spot in the report.
 
-![windowsserverinventory_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.png)
+![windowsserverinventory_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.webp)
 
 You can specify baseline values specific to your organization in one of the following ways:
 

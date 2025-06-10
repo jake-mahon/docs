@@ -46,7 +46,7 @@ __Step 3 –__ Go to the __[SYSLOG]__ section and configure the following parame
 - SyslogServerProtocol – communication protocol for data transfer between CyberArk system and the add-on. Specify __UDP__ protocol.
 - __SyslogMessageCodeFilter__ - IDs of events to forward. The add-on will only collect and process events you specify in this parameter. For the full list of supported events, see [Monitored Events](/docs/auditor/auditor/addon/cyberark/monitoredevents.md). Use comma as a separator.
 
-![dbparamfile_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/dbparamfile_thumb_0_0.png)
+![dbparamfile_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/dbparamfile_thumb_0_0.webp)
 
 __Step 4 –__ Save the __dbparam.ini__ file.
 
@@ -80,7 +80,7 @@ __Step 9 –__ When done, click __Finish__.
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.png)
+![ConfigurationWizard](/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
 
 Click __Proceed__ and complete the following fields:
 

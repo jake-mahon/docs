@@ -10,11 +10,11 @@ Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of Endpoint Po
 
 Before getting started with Windows 10 file associations management, I want to show you that I have two very similar machines. This first machine is going to represent your machine, Mr. or Ms. Admin's machine. The second machine represents Mr. or Ms. endpoint machine, the person who actually uses stuff.
 
-![21_1_windows-10-file-association-demo-admin-machine](/img/product_docs/policypak/policypak/video/fileassociations/21_1_windows-10-file-association-demo-admin-machine.png)
+![21_1_windows-10-file-association-demo-admin-machine](/img/product_docs/policypak/policypak/video/fileassociations/21_1_windows-10-file-association-demo-admin-machine.webp)
 
 Figure 1: Admin Machine
 
-![21_2_windows-10-file-association-endpoint-machine](/img/product_docs/policypak/policypak/video/fileassociations/21_2_windows-10-file-association-endpoint-machine.png)
+![21_2_windows-10-file-association-endpoint-machine](/img/product_docs/policypak/policypak/video/fileassociations/21_2_windows-10-file-association-endpoint-machine.webp)
 
 #### Common Windows 10 File Association Issues
 
@@ -22,7 +22,7 @@ Both machines are very similar, but I actually want to demonstrate sever Windows
 
 #### Problem #1: Change Windows 10 File Associations for PDF
 
-![21_3_windows-10-file-association-pdf-edge](/img/product_docs/policypak/policypak/video/fileassociations/21_3_windows-10-file-association-pdf-edge.png)
+![21_3_windows-10-file-association-pdf-edge](/img/product_docs/policypak/policypak/video/fileassociations/21_3_windows-10-file-association-pdf-edge.webp)
 
 Figure 3: Trying to set Windows 10 file associations for PDF to Adobe Reader always reverts back to Microsoft Edge
 
@@ -32,7 +32,7 @@ Even if you install a third-party PDF reader like Acrobat Reader, the Windows 10
 
 #### Problem #2: Change Windows 10 File Associations for MP4
 
-![21_4_windows-10-file-association-for-mp4-files](/img/product_docs/policypak/policypak/video/fileassociations/21_4_windows-10-file-association-for-mp4-files.png)
+![21_4_windows-10-file-association-for-mp4-files](/img/product_docs/policypak/policypak/video/fileassociations/21_4_windows-10-file-association-for-mp4-files.webp)
 
 Figure 4: Windows 10 file association for MP4 defaults to Microsoft's movie player
 
@@ -40,11 +40,11 @@ Another Windows 10 file association challenge you have likely seen is MP4 files.
 
 #### Problem #3: Change Windows 10 File Associations for MAILTO
 
-![21_5_windows-10-file-association-mailto-default](/img/product_docs/policypak/policypak/video/fileassociations/21_5_windows-10-file-association-mailto-default.png)
+![21_5_windows-10-file-association-mailto-default](/img/product_docs/policypak/policypak/video/fileassociations/21_5_windows-10-file-association-mailto-default.webp)
 
 Figure 5: Prompt for MAILTO asking if you want to email this person
 
-![21_6_windows-10-file-association-mailto-mailer](/img/product_docs/policypak/policypak/video/fileassociations/21_6_windows-10-file-association-mailto-mailer.png)
+![21_6_windows-10-file-association-mailto-mailer](/img/product_docs/policypak/policypak/video/fileassociations/21_6_windows-10-file-association-mailto-mailer.webp)
 
 Figure 6: The Windows 10 file association for MAILTO is Microsoft's built-in mailer
 
@@ -52,7 +52,7 @@ How about MAILTO? If you receive a text file that has an email address in it, an
 
 #### Problem #4: Set Windows 10 File Associations for Unknown Applications
 
-![21_7_windows-10-file-association-unknown-application](/img/product_docs/policypak/policypak/video/fileassociations/21_7_windows-10-file-association-unknown-application.png)
+![21_7_windows-10-file-association-unknown-application](/img/product_docs/policypak/policypak/video/fileassociations/21_7_windows-10-file-association-unknown-application.webp)
 
 Figure 7: Set Windows 10 file associations for unknown applications
 
@@ -62,13 +62,13 @@ As you can see in the screenshot below, I have Notepad++ on the endpoint machine
 
 ### How to Change Windows 10 File Associations with Endpoint Policy Manager File Associations Manager
 
-![21_8_policy-pak-file-association-manager-for-windows-10](/img/product_docs/policypak/policypak/video/fileassociations/21_8_policy-pak-file-association-manager-for-windows-10.png)
+![21_8_policy-pak-file-association-manager-for-windows-10](/img/product_docs/policypak/policypak/video/fileassociations/21_8_policy-pak-file-association-manager-for-windows-10.webp)
 
 Figure 8: Endpoint Policy Manager File Associations Manager for Windows 10
 
 #### Step #1: Start with the Group Policy Management Console (GPMC)
 
-![21_9_start-with-gpmc-policypak-file-association-manager](/img/product_docs/policypak/policypak/video/fileassociations/21_9_start-with-gpmc-policypak-file-association-manager.png)
+![21_9_start-with-gpmc-policypak-file-association-manager](/img/product_docs/policypak/policypak/video/fileassociations/21_9_start-with-gpmc-policypak-file-association-manager.webp)
 
 Figure 9: Using the Group Policy Management Console to create a new GPO
 
@@ -78,13 +78,13 @@ To get started here, I'm going to use the GPMC. For all of my "East Sales Deskto
 
 #### Step 2: Create Windows 10 File Association Policy for PDF to Acrobat
 
-![21_10_create-windows-10-file-association-policy-with-policypak](/img/product_docs/policypak/policypak/video/fileassociations/21_10_create-windows-10-file-association-policy-with-policypak.png)
+![21_10_create-windows-10-file-association-policy-with-policypak](/img/product_docs/policypak/policypak/video/fileassociations/21_10_create-windows-10-file-association-policy-with-policypak.webp)
 
 Figure 10: Creating a Policy with Endpoint Policy Manager File Associations Manager
 
 Endpoint Policy Manager File Associations Manager is on the computer side, and we'll dive into that below. The first thing we want to do is associate Acrobat with PDF. We'll right-click, "Add/New Policy" here. We'll call this "PDF to Acrobat."
 
-![21_11_windows-10-file-association-pdf-to-acrobat](/img/product_docs/policypak/policypak/video/fileassociations/21_11_windows-10-file-association-pdf-to-acrobat.png)
+![21_11_windows-10-file-association-pdf-to-acrobat](/img/product_docs/policypak/policypak/video/fileassociations/21_11_windows-10-file-association-pdf-to-acrobat.webp)
 
 Figure 11: Creating a Windows 10 File Association Policy for PDF to Acrobat
 
@@ -92,19 +92,19 @@ We're going to be using a "File Type." The Windows 10 file association is going 
 
 #### Step 3: Change Windows 10 File Association Policy for MP4 to VLC Media Player
 
-![21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager](/img/product_docs/policypak/policypak/video/fileassociations/21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager.png)
+![21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager](/img/product_docs/policypak/policypak/video/fileassociations/21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager.webp)
 
 Figure 12: Change Windows 10 File Association for MP4 to VLC Player
 
 The second thing we said we wanted to do was movies. If we wanted to create a Windows 10 file association from MP4 to VLC player, we can then do a "Windows 10 Category" if we want to. We can just say the "Video Player" itself will be a "Registered application." We have "VLC media player" on this machine, so we'll go ahead and "Select Program." There we go. We'll just go ahead and pick "VLC media player," and you've solved that problem.
 
-![21_13_windows-10-file-association-for-mp4-changed-to-vlc-player](/img/product_docs/policypak/policypak/video/fileassociations/21_13_windows-10-file-association-for-mp4-changed-to-vlc-player.png)
+![21_13_windows-10-file-association-for-mp4-changed-to-vlc-player](/img/product_docs/policypak/policypak/video/fileassociations/21_13_windows-10-file-association-for-mp4-changed-to-vlc-player.webp)
 
 Figure 13: MP4 is now associated with VLC Media Player
 
 #### Step 4: Set Windows 10 File Association Policy for Mailto to Outlook
 
-![21_14_windows-10-file-association-changed-mailto-outlook](/img/product_docs/policypak/policypak/video/fileassociations/21_14_windows-10-file-association-changed-mailto-outlook.png)
+![21_14_windows-10-file-association-changed-mailto-outlook](/img/product_docs/policypak/policypak/video/fileassociations/21_14_windows-10-file-association-changed-mailto-outlook.webp)
 
 Figure 14: Use Network protocol MAILTO and set Windows 10 file association to Outlook
 
@@ -112,7 +112,7 @@ Then we'll go ahead and "Add/New Policy" here, this time to open up the "Mail in
 
 This protocol is called "MAILTO." If somebody clicks on a link that says "mailto:" you want it to run another "Registered application." Which one? I happen to have Outlook already preinstalled on this machine.
 
-![21_15_windows-10-file-association-for-mailto-set-with-policypak](/img/product_docs/policypak/policypak/video/fileassociations/21_15_windows-10-file-association-for-mailto-set-with-policypak.png)
+![21_15_windows-10-file-association-for-mailto-set-with-policypak](/img/product_docs/policypak/policypak/video/fileassociations/21_15_windows-10-file-association-for-mailto-set-with-policypak.webp)
 
 Figure 15: Setting Windows 10 File Association from MAILTO to Outlook with Endpoint Policy Manager
 
@@ -122,7 +122,7 @@ There we go. I'll go ahead and change the Windows 10 file association to "Micros
 
 Then the last Windows 10 file association we want to do is to "Add Policy" that says "XML to Notepad++."
 
-![21_16_windows-10-file-association-custome-application](/img/product_docs/policypak/policypak/video/fileassociations/21_16_windows-10-file-association-custome-application.png)
+![21_16_windows-10-file-association-custome-application](/img/product_docs/policypak/policypak/video/fileassociations/21_16_windows-10-file-association-custome-application.webp)
 
 Figure 17: Use a custom application to set Windows 10 File Associations for Notepad++
 
@@ -130,7 +130,7 @@ This time, we're going to use "Custom application." Why Custom? Because Custom i
 
 We're just going to "Select Program" "From EXE file." Again, this path has to exist correctly on the endpoint or this isn't going to work. I'm going to "Browse" for it on my machine. It's the same as the target machine: "c:Notepad++PortableNotepad++Portable.exe." We automatically put in "%SYSTEMDRIVE%" and all that stuff. You can see, we have the "Path" all settled in.
 
-![21_17_windows-10-file-association-notepad-confirmation](/img/product_docs/policypak/policypak/video/fileassociations/21_17_windows-10-file-association-notepad-confirmation.png)
+![21_17_windows-10-file-association-notepad-confirmation](/img/product_docs/policypak/policypak/video/fileassociations/21_17_windows-10-file-association-notepad-confirmation.webp)
 
 Figure 18: Change Windows 10 File Associations for Notepad++ to XML
 
@@ -138,7 +138,7 @@ Now we're saying "XML to Notepad++." We're going to pass in the file name automa
 
 #### Step 6: Run GP Update to Set Windows 10 File Associations Changes
 
-![21_18_windows-10-file-association-group-policy-update-successful](/img/product_docs/policypak/policypak/video/fileassociations/21_18_windows-10-file-association-group-policy-update-successful.png)
+![21_18_windows-10-file-association-group-policy-update-successful](/img/product_docs/policypak/policypak/video/fileassociations/21_18_windows-10-file-association-group-policy-update-successful.webp)
 
 Run GP Update to set Windows 10 file associations changes
 

@@ -2,7 +2,7 @@
 
 The AD\_SecurityAssessment Job performs checks against Active Directory security best practices in order to proactively identify critical security configurations that leave Active Directory vulnerable to attack. The result are reports that provide a listing of findings by severity and category with corresponding details that can be used to prioritize and remediate security issues.
 
-![AD Security Assessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.png)
+![AD Security Assessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.webp)
 
 ## Recommended Configurations for the AD\_SecurityAssessment Job
 
@@ -67,7 +67,7 @@ Navigate to the __Jobs__ > Active Directory > AD\_SecurityAssessment > Configure
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.webp)
 
 The following non-configurable analysis task is selected by default:
 

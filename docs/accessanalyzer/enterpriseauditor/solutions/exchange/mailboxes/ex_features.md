@@ -4,7 +4,7 @@ The EX\_Features job is comprised of data collection and a report that provides 
 
 ___RECOMMENDED:___ Schedule the Features Job Group to run weekly on any desired recurrence.
 
-![Features > EX_Features Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/featuresjobstree.png)
+![Features > EX_Features Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/featuresjobstree.webp)
 
 The EX\_Features job is located in the Features job group.
 
@@ -12,7 +12,7 @@ The EX\_Features job is located in the Features job group.
 
 The EX\_Features Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Features Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/featuresquery.png)
+![Queries for the EX_Features Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/featuresquery.webp)
 
 The following query is included with the EX\_Features Job:
 

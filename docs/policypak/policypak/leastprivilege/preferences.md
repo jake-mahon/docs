@@ -10,12 +10,12 @@ Now let's move on to local admin groups. You can easily do this by creating a GP
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_group_policy_preferences.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_group_policy_preferences.webp)
 
 Next, you’ll use the __Update__ action which has been selected by default along with the check box to __Delete all member users__.  You may also want to select __Delete all member groups__ as well.  The first check box setting will delete any existing user members, including those remnant accounts that were left after cleaning up the domain admins group in the prior step. This cleans out everyone, which means you have to add back the accounts you want. Remember that you don't want to allocate local admin groups to standard users, so only the domain admins group and the local admin user account should be members. This is achieved by clicking the __Add__ button and selecting them.
 
 ![A screenshot of a group
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_group_policy_preferences_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_group_policy_preferences_1.webp)
 
 Once the policy is deployed, you will have removed all non-privileged users from the local admins group of all targeted desktops.

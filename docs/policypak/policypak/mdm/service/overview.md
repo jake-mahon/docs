@@ -2,7 +2,7 @@
 
 You can use Endpoint Policy Manager with any MDM service you already have, like Intune, VMware Workspace ONE (formerly Airwatch), MobileIron, etc. Below we see a systems hierarchical breakdown when using Endpoint Policy Manager with any MDM system.
 
-![using_policypak_with_mdm_and_1](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.png)
+![using_policypak_with_mdm_and_1](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
 
 __NOTE:__  [Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/policypak/policypak/video/mdm/realgrouppolicy.md)a video overview of Endpoint Policy Manager and MDM.
 
@@ -32,7 +32,7 @@ Once you've completed these procedures, you're ready to actually perform the ste
 
 Optionally, you can view or hide these components by using the Add/Remove Programs applet in the Control Panel. An example of a final deployment would look something like this:
 
-![using_policypak_with_mdm_and_2](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.png)
+![using_policypak_with_mdm_and_2](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.webp)
 
 The typical command you want your MDM service to run for each component would be something like this:
 

@@ -4,7 +4,7 @@ The Notifications page allows the configuration of notifications, which is requi
 
 Click __Configuration__ in the left pane. Then click the __Notification tab__ on the Configuration page to open the Notification page.
 
-![Notifications Page](/img/product_docs/1secure/admin/notifications.png)
+![Notifications Page](/img/product_docs/1secure/admin/notifications.webp)
 
 Follow the steps to configure notifications.
 

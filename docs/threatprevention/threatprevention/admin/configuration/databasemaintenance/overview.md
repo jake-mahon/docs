@@ -14,7 +14,7 @@ __Step 1 –__ Click __Configuration__ > __Database__ > __Maintenance__ on the m
 
 This window is only available to Threat Prevention administrators.
 
-![Threat Prevention WinConsole Warning window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.png)
+![Threat Prevention WinConsole Warning window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.webp)
 
 The database maintenance feature is only available if the SQL Server Agent service is running on the SQL Server host. A warning message displays instead of the Database Maintenance window if this service is not running.
 
@@ -22,7 +22,7 @@ To enable the service, go to __Start__ > __Administrative Tools__ > __Services__
 
 When the SQL Server Agent service is running, the Database Maintenance window opens.
 
-![Database Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.png)
+![Database Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.webp)
 
 The following information is displayed at the top of the window:
 
@@ -59,7 +59,7 @@ ___RECOMMENDED:___ The SQL Server databases should be configured to use 'Simple 
 
 The Event Type tab is displayed by default when the Database Maintenance window opens.
 
-![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/eventtype.png)
+![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/eventtype.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by event type. The table contains the following information:
 
@@ -77,7 +77,7 @@ Check the __Enabled__ box at the top to set database maintenance by event type. 
 
 Click the __Analytics__ tab on the Database Maintenance window.
 
-![Database Maintenance window - Analytics tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/analytics.png)
+![Database Maintenance window - Analytics tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/analytics.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by analytic. The table contains the following information:
 
@@ -99,7 +99,7 @@ Above the table is a cumulative count of:
 
 Click the __Policy__ tab on the Database Maintenance window.
 
-![Database Maintenance window - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.png)
+![Database Maintenance window - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by policy. The table contains the following information:
 

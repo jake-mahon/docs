@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > Protection Policies page.
 
 __Step 2 –__ In the Protection Policy list, click the Plus icon.
 
-![Add Protection Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.png)
+![Add Protection Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.webp)
 
 __Step 3 –__ Enter the following information:
 

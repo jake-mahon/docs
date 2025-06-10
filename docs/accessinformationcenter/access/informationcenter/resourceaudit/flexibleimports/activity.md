@@ -2,7 +2,7 @@
 
 The Activity report for imported data displays activity on the resource during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Activity report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/flexibleimports/activity.png)
+![Activity report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/flexibleimports/activity.webp)
 
 This report is comprised of the following columns:
 

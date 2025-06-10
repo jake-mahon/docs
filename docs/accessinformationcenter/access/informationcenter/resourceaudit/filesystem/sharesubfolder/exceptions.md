@@ -2,7 +2,7 @@
 
 The Exceptions report at the share and subfolder levels provides a list of all trustees with access that are causing exceptions on the selected resource. This report includes a Permission Source table.
 
-![Exceptions report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareexceptions.png)
+![Exceptions report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open shares and permissions granted to stale or disabled users. This table is blank unless an Exception icon is attached to the resource in the Resources pane, indicating exceptions were found. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information.
 
@@ -14,7 +14,7 @@ This report is comprised of the following columns:
 
 There is one table at the bottom displaying Permission Source for the select trustee. It contains all of the ways the selected trustee has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareexceptionstable.png)
+![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareexceptionstable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access. This table is comprised of the following columns:
 

@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box\_ExternalUserCollab
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_ExternalUserCollaborations Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/externalusercollaborationsanalysis.png)
+![Analysis Tasks for the Box_ExternalUserCollaborations Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/externalusercollaborationsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

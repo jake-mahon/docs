@@ -2,7 +2,7 @@
 
 The Permissions report for a group object provides a list of all resources where the audited Entra ID (formerly Azure Active Directory) group has been assigned permissions. The __Include Inherited__ filter checkbox is active by default, which means the report displays both direct and inherited permissions unless modified by the Access Information Center user. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on filter options.
 
-![Permissions report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.png)
+![Permissions report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.webp)
 
 This report is comprised of the following columns:
 

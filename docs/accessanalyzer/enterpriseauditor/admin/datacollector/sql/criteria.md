@@ -2,7 +2,7 @@
 
 The Criteria page is where criteria to be used for discovering sensitive data are configured. It is a wizard page for the Sensitive Data Collection category.
 
-![SQL Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![SQL Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 The options on the Criteria page are:
 

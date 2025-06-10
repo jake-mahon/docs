@@ -2,7 +2,7 @@
 
 The Taxonomy Settings panel displays the parameters of the top-level taxonomy selected in the Search (for example, File Size).
 
-![taxonomysettings](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomysettings.png)
+![taxonomysettings](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomysettings.webp)
 
 | Option | Description |
 | --- | --- |

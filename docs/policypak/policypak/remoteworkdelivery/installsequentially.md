@@ -2,7 +2,7 @@
 
 By default, Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager will install applications in any order, not the order specified in the precedence list.
 
-![757_1_image_1_950x408](/img/product_docs/policypak/policypak/remoteworkdelivery/757_1_image_1_950x408.png)
+![757_1_image_1_950x408](/img/product_docs/policypak/policypak/remoteworkdelivery/757_1_image_1_950x408.webp)
 
 However, you can change this behavior by making a Collection. Then on the Collection you may select the __Process policies sequentially__ checkbox:
 

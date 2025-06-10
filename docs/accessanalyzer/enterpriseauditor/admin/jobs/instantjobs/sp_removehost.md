@@ -2,7 +2,7 @@
 
 The SP\_RemoveHost Job removes desired SharePoint hosts from the Access Analyzer database. It is available through the Instant Job Library under the SharePoint library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
 
-![SP_RemoveHost job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![SP_RemoveHost job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -21,7 +21,7 @@ Navigate to the __Jobs__ > __SP\_RemoveHost__ > __Configure__ node and select __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 

@@ -2,7 +2,7 @@
 
 Use the Target (Identification Criteria) page to select one or more fields (columns) in the Access Analyzer source table that uniquely identifies the target Active Directory objects upon which to perform the action. This process enables Access Analyzer to locate those objects within Active Directory. Added fields are displayed in the textbox.
 
-![Active Directory Action Module Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.png)
+![Active Directory Action Module Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.webp)
 
 Use the following options to configure the action:
 

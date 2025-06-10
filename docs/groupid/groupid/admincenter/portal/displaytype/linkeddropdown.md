@@ -45,7 +45,7 @@ To define a linked field drop-down list:
 
 A linked field drop-down list is displayed in the portal as a drop-down list. When a portal user selects a value and saves it, the isolated linked fields are auto populated with the predefined values and a message, similar to the following, is displayed.
 
-![linked_field_message](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/linked_field_message.png)
+![linked_field_message](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/linked_field_message.webp)
 
 Here, __Department__ is the key value. Selecting it in the drop-down list populates the __Company__ field with the predefined value.
 

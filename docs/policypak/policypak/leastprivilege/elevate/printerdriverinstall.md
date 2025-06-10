@@ -14,6 +14,6 @@ In this KB we will demonstrate how a non-admin user can install a print driver o
 
 Using Endpoint Policy Manager , elevate the ```rundll32.exe```, and include a command-line argument to elevate a specific DLL. Just like shown in below screenshot.
 
-![362_1_rundll](/img/product_docs/policypak/policypak/leastprivilege/elevate/362_1_rundll.png)
+![362_1_rundll](/img/product_docs/policypak/policypak/leastprivilege/elevate/362_1_rundll.webp)
 
 Rule to elevate``` rundll32.exe``` by PATH and COMMAND LINE (when ```rundll32.exe ```runs a ```DLL```, the ```DLL ```path is specified on the command line)

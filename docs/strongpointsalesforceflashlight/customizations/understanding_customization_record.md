@@ -18,7 +18,7 @@ Customization record fields include:
 - __Related Objects__: Links to related objects.
 - __Details__: Tabs to access details about the customization. Tabs include __Metadata__, __Improvement__, __Permissions__, __Control__, __DRD__, __Raw Data__ and __Related Lists__.
 
-![customization_record_800x315](/img/product_docs/strongpointsalesforceflashlight/customizations/customization_record_800x315.png)
+![customization_record_800x315](/img/product_docs/strongpointsalesforceflashlight/customizations/customization_record_800x315.webp)
 
 ## Customization Record Tabs
 

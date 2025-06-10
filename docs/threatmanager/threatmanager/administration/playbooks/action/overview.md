@@ -2,7 +2,7 @@
 
 When adding preconfigured actions as steps in a playbook, the configuration information required depends upon the action selected. When Add Step is selected on the Playbooks page, a box with the following information is displayed:
 
-![genericactionstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/genericactionstep.png)
+![genericactionstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/genericactionstep.webp)
 
 - Display Name – Populates with the name of the Action Type selected
 - Action Type – A drop-down list containing all preconfigured actions that can be selected to add as a playbook step

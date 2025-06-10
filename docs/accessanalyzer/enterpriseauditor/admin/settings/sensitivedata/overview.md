@@ -4,7 +4,7 @@ The Sensitive Data node provides configuration options to manage sensitive data 
 
 __NOTE:__ Sensitive data exclusion filters can only be applied to the [File System Solution](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) and the [SharePoint Solution](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/overview.md).
 
-![Sensitive Data settings](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
+![Sensitive Data settings](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.webp)
 
 The tabs in the Sensitive Data node are:
 

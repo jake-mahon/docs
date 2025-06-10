@@ -2,7 +2,7 @@
 
 The Select Active Directory Group Policy Objects window provides a list of available GPOs. Selected objects are added to the filter from where you clicked the __Add__ (+) button to open this window.
 
-![Select Active Directory Group Policy Objects Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adgpo.png)
+![Select Active Directory Group Policy Objects Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adgpo.webp)
 
 - Select an Agent from the drop-down menu and click __Connect__.
 - Navigate through the domain tree and check the desired item(s) in the __Results__ pane on the right.

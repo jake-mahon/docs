@@ -10,7 +10,7 @@ __Step 1 –__ Open the Export Policies and Templates Window in several ways.
 - If opened via the keyboard shortcut (Alt+X) on the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md) or [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md), it exports only what is within the selection.
 - To export only a single policy or template, use the Export option on the right-click menu. See the [Export Policies and Templates Window](/docs/threatprevention/threatprevention/admin/policies/exportpoliciestemplates.md) topic for additional information.
 
-![Export Policies and Templates Window](/img/product_docs/threatprevention/threatprevention/admin/tools/exportpoliciestemplates.png)
+![Export Policies and Templates Window](/img/product_docs/threatprevention/threatprevention/admin/tools/exportpoliciestemplates.webp)
 
 __Step 2 –__ The Export Policies and Templates window includes the following options.
 

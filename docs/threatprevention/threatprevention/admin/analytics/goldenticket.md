@@ -31,13 +31,13 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Golden Ticket Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticketsettings.png)
+![Golden Ticket Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticketsettings.webp)
 
 Set the _Maximum Lifetime for User Ticket [value] Hours_ and the _Maximum Lifetime for User Ticket Renewal [value] Days_ to trigger the incident. The default Microsoft Windows lifetime for user tickets is ten hours, and the renewal period is seven days. This analytic policy will check each ticket that requests authentication against the values set in this analytic policy. Any time a ticket exceeds either of these values, an incident is triggered.
 
 Policy Tab
 
-![Golden Ticket Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Golden Ticket Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -60,7 +60,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Golden Tickets__ node lists one row per incident identified.
 
-![Golden Ticket Analytic Type  window](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticket.png)
+![Golden Ticket Analytic Type  window](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticket.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

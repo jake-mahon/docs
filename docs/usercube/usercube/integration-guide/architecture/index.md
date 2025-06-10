@@ -11,7 +11,7 @@ Identity Manager is made of two parts:
 
 Agent and server are [ASP.Net](https://docs.microsoft.com/en-us/aspnet/core/) applications running on Windows. Identity Manager's database is a [Microsoft SQLServer](https://www.microsoft.com/en-us/sql-server) relational database.
 
-![Architecture](/img/product_docs/changetracker/changetracker/architecture.png)
+![Architecture](/img/product_docs/changetracker/changetracker/architecture.webp)
 
 See the [
 SaaS Environment

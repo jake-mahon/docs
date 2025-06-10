@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > __Users & Groups__ > __Role Management
 
 __Step 2 –__ Click a custom role item from the left-hand menu.
 
-![Custome Role Edit Permissions](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/customroleeditpermissions.png)
+![Custome Role Edit Permissions](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/customroleeditpermissions.webp)
 
 __Step 3 –__ From the left-hand menu, check the boxes of one or more permissions to add to this custom role. Click the add selections Green Arrow.
 

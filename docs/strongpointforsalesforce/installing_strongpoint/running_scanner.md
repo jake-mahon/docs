@@ -12,7 +12,7 @@ To run the scanner:
 2. Use the optional __Search Types__ to narrow the focus of the list if you are looking for a specific type.
 3. You can select + beside one or more types to scan or you can scan the whole environment by clicking + on the __Name__ row to select all the types.
 
-   ![scanner](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner.png)
+   ![scanner](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner.webp)
 4. Click __Run Scanner__.
 5. The batch runs in the background. You receive an email notification when the scan is complete.
 
@@ -21,13 +21,13 @@ To run the scanner:
    - Open Salesforce __Setup__.
    - Search for __apex jobs__ or navigate to __Environments__ > __Jobs__ > __Apex Jobs__.
    - Click __Create New View__.  
-     ![Set up a Strongpoint scanner view](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner_view.png)
+     ![Set up a Strongpoint scanner view](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner_view.webp)
    - Enter a __View Name__. The system assigns __View Unique Name__. _Netwrix Jobs1_ is used in this example.
    - Select __Apex Class__ for the __Field__.
    - Select __starts with__ for the __Operator__.
    - Assign __FLO, Strongpoint__ for the __Value__.
    - Click __Save__. You can now see the status of all of the Strongpoint jobs.  
-     ![Viewing running Strongpoin jobs](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner_view2.png)
+     ![Viewing running Strongpoin jobs](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner_view2.webp)
 6. From the Netwrix Dashboard: click __Configuration and Stats__ in the __Resources__ section, or open __Settings__ > __Configuration and Stats__.
 
 __Next Step:__ [Validate the Data ](/docs/strongpointforsalesforce/installing_strongpoint/validating_data.md)

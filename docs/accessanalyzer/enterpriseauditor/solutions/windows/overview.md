@@ -15,7 +15,7 @@ Location
 
 The Windows Solution requires a special Access Analyzer license. It can be installed from the Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information. Once it has been installed in the Jobs tree, navigate to the solution: __Jobs__ > __Windows__.
 
-![Windows Solution in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Windows Solution in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Each job group works independently from the other job groups. All of the job groups have their own collections that are used to analyze and report on data specific to the groups function. The SG\_SecurityAssessment job summarizes security related results from the Windows solution.
 
@@ -23,7 +23,7 @@ Each job group works independently from the other job groups. All of the job gro
 
 The Windows Solution provides both high-level and granular views into any sized organization’s infrastructure.
 
-![Windows Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Windows Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs and job groups in the Windows Solution are:
 

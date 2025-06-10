@@ -2,7 +2,7 @@
 
 The Storage node contains objects known as Storage Profiles. Storage Profiles house the information Access Analyzer uses to connect to a SQL Server database within your environment.
 
-![Storage Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storage.png)
+![Storage Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storage.webp)
 
 Each Storage Profile consists of the following parts:
 
@@ -27,7 +27,7 @@ Each Storage Profile consists of the following parts:
   - Use existing database – Drop-down menu provides a list of databases on the named SQL Server, provided the connection information supplied is correct. If the menu is empty, then a connection to the SQL Server was not established.
   - Create new database – Access Analyzer automatically creates a new database using the name provided in the textbox. This value should be a unique, descriptive name.
 
-![Operations on the Storage view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storageoperations.png)
+![Operations on the Storage view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storageoperations.webp)
 
 At the Storage view, the following operations are available:
 

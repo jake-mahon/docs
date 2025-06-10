@@ -10,11 +10,11 @@ Follow the steps to add an organization group.
 
 __Step 1 –__ Navigate to the __Configuration__ > __Organization groups__ page.
 
-![organizationggroups](/img/product_docs/1secure/admin/organizations/organizationggroups.png)
+![organizationggroups](/img/product_docs/1secure/admin/organizations/organizationggroups.webp)
 
 __Step 2 –__ Click __Create group__. The New Group pane is displayed.
 
-![createorganizationgroup](/img/product_docs/1secure/admin/organizations/createorganizationgroup.png)
+![createorganizationgroup](/img/product_docs/1secure/admin/organizations/createorganizationgroup.webp)
 
 __Step 3 –__ Specify the following:
 
@@ -40,7 +40,7 @@ Follow the steps to modify an organization group.
 
 __Step 1 –__ Navigate to the __Configuration__ > __Organization groups__ page.
 
-![modifyorganizationgroup](/img/product_docs/1secure/admin/organizations/modifyorganizationgroup.png)
+![modifyorganizationgroup](/img/product_docs/1secure/admin/organizations/modifyorganizationgroup.webp)
 
 __Step 2 –__ Click the Edit icon for the organization group you want to modify. The Editing Group `<group name>` pane is displayed.
 

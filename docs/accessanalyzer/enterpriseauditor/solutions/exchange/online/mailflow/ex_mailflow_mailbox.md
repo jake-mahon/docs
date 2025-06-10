@@ -18,7 +18,7 @@ View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmailboxanalysis.png)
+![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 
 The following analysis tasks are selected by default:
 

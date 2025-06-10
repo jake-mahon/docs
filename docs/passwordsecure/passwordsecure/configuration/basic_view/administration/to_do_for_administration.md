@@ -34,7 +34,7 @@ There are several ways to provide/create passwords in the Basic view.
 
 Predefined passwords have already been created on the FullClient. Basic view users must at least obtain the right to read a record in order to use the password.
 
-![installation_with_parameters_154](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/installation_with_parameters_154.png)
+![installation_with_parameters_154](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/installation_with_parameters_154.webp)
 
 #### Creating passwords via applications
 
@@ -42,7 +42,7 @@ In order to use applications on the Basic view, the administration must first cr
 
 Further information on this topic can be found in the chapter [Applications](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/applications.md).
 
-![installation_with_parameters_155](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/installation_with_parameters_155.png)
+![installation_with_parameters_155](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/installation_with_parameters_155.webp)
 
 #### Creating passwords via applications without applications
 

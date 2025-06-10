@@ -11,7 +11,7 @@ Platform Governance for Salesforce stores Object-level permissions in a Custom O
 Open __Netwrix Dashboard__ > __Tools__ > __Export Objects__  
 __Objects__ is the default tab.
 
-![export_object](/img/product_docs/strongpointforsalesforce/tools/export_object.png)
+![export_object](/img/product_docs/strongpointforsalesforce/tools/export_object.webp)
 
 Objects
 
@@ -19,13 +19,13 @@ Enter all or part of a name in __Filter__ to filter the list of objects.
 
 Select one or more objects in the list. Selected options are shown below the filter. Click the __X__ within the selected option to remove it. You can use the __Select All__ and __Clear All__ options.
 
-![Select the objects](/img/product_docs/strongpointforsalesforce/tools/export_object_filter.png)
+![Select the objects](/img/product_docs/strongpointforsalesforce/tools/export_object_filter.webp)
 
 Settings to be Exported
 
 Click the toggles to activate or inactivate the settings you want to export.
 
-![export_object_settings](/img/product_docs/strongpointforsalesforce/tools/export_object_settings.png)
+![export_object_settings](/img/product_docs/strongpointforsalesforce/tools/export_object_settings.webp)
 
 Profiles: Object and Field Level Security (Optional)
 
@@ -33,7 +33,7 @@ Enter all or part of a name in __Filter__ to filter the list of profiles.
 
 Select one or more profiles in the list. Selected options are shown below the filter. Click the __X__ within the selected option to remove it. You can use the __Select All__ and __Clear All__ options.
 
-![export_object_profiles](/img/product_docs/strongpointforsalesforce/tools/export_object_profiles.png)
+![export_object_profiles](/img/product_docs/strongpointforsalesforce/tools/export_object_profiles.webp)
 
 Permission Sets: Object and Field Level Security (Optional)
 
@@ -41,7 +41,7 @@ Enter all or part of a name in __Filter__ to filter the list of permission sets.
 
 Select one or more permission sets in the list. Selected options are shown below the filter. Click the __X__ within the selected option to remove it. You can use the __Select All__ and __Clear All__ options.
 
-![export_object_permissions](/img/product_docs/strongpointforsalesforce/tools/export_object_permissions.png)
+![export_object_permissions](/img/product_docs/strongpointforsalesforce/tools/export_object_permissions.webp)
 
 Download XLS
 
@@ -51,7 +51,7 @@ Download Files
 
 Click __Download Files__ to see a list of generated files. The file does not appear in the list until it is complete.
 
-![Download files](/img/product_docs/strongpointforsalesforce/tools/export_object_download.png)
+![Download files](/img/product_docs/strongpointforsalesforce/tools/export_object_download.webp)
 
 Click on the export name. The Export Attachments tab is opened, showing the attachment detail for your file. Click __View file__ to download it to your Downloads folder.
 
@@ -59,14 +59,14 @@ Click on the export name. The Export Attachments tab is opened, showing the atta
 
 When you open an exported file, this message may be displayed, as the exported _ObjectExport.xls_ file is in XML instead of the Excel format. Click __Yes__ to load the file.
 
-![Excel error message - Click Yes to continue.](/img/product_docs/strongpointforsalesforce/tools/export_excel_error_msg.png)
+![Excel error message - Click Yes to continue.](/img/product_docs/strongpointforsalesforce/tools/export_excel_error_msg.webp)
 
 The _ObjectExport.xls_ file contains a __Summary__ tab and a separate tab for each selected object.
 
 The __Summary__ tab shows who created the export, the creation date and time, list of selected objects, and lists of any selected optional Profiles and Permission Sets.
 
-![export_object_summary](/img/product_docs/strongpointforsalesforce/tools/export_object_summary.png)
+![export_object_summary](/img/product_docs/strongpointforsalesforce/tools/export_object_summary.webp)
 
 The __Object__ tabs contain all of the requested information for each object.
 
-![export_object_object_tab](/img/product_docs/strongpointforsalesforce/tools/export_object_object_tab.png)
+![export_object_object_tab](/img/product_docs/strongpointforsalesforce/tools/export_object_object_tab.webp)

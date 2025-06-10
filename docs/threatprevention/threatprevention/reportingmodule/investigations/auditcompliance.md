@@ -4,7 +4,7 @@ The Audit and Compliance page in the Investigations interface list of saved out-
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Audit and Compliance__ in the navigation pane. This expands the menu to display a list of investigations for Audit and Compliance. To get this list in the adjacent pane, hover your mouse over the Audit and Compliance option and click the icon that is displayed.
 
-![Investigations interface on the Audit and Compliance page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.png)
+![Investigations interface on the Audit and Compliance page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.webp)
 
 The table displays the list of investigations with the following columns:
 

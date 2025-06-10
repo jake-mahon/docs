@@ -4,7 +4,7 @@ The Effective Access report for a group object provides the insight into every r
 
 See the [Effective Access Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic for File Systems for additional information on the effective access calculations for file system resources. See the [Effective Access Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/effectiveaccess.md) topic for SharePoint for additional information on the effective access calculations for SharePoint resources.
 
-![Effective Access report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/effectiveaccess.png)
+![Effective Access report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/effectiveaccess.webp)
 
 This report contains a list of all resources the audited group has the ability to access within the targeted environments. When this report is opened, the Access Information Center begins analyzing all of the collected data available for all access points. While the report data is loading, there is a status bar in the upper-right corner of the Reports pane that indicates the data loading progress. After the data has loaded, the number of rows is displayed.
 
@@ -30,7 +30,7 @@ The following rights are a normalized representation of the permissions granted 
 
 There is one table at the bottom displaying Permission Source for the selected resource. It contains all of the ways the audited group has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/effectiveaccesstable.png)
+![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/effectiveaccesstable.webp)
 
 The number of rows for this table indicates the number of ways the audited group has been granted access to this resource. This table is comprised of the following columns:
 

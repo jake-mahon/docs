@@ -2,9 +2,9 @@
 
 The Netwrix Password Secure app is installed as usual via the Apple Store or Google Playstore. The apps can be found under the following links:
 
-![App store](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/installation_app/appstore-icon.png)
+![App store](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/installation_app/appstore-icon.webp)
 
-![Google Play](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/installation_app/android-icon.png)
+![Google Play](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/setup/installation_app/android-icon.webp)
 
 #### Requirements
 

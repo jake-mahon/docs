@@ -14,4 +14,4 @@ In addition to an unlimited supply of published hardened build standards, such a
 
 A simple Wizard UI walks you through the process so anyone can be building their own personalized baseline configuration and comparing other devices within a few minutes.
 
-![baselineoverview](/img/product_docs/changetracker/changetracker/baseline/baselineoverview.png)
+![baselineoverview](/img/product_docs/changetracker/changetracker/baseline/baselineoverview.webp)

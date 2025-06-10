@@ -4,4 +4,4 @@ Modern versions of the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE 
 
 As such you will still see licenses in place when running ```PPUPDATE``` command.
 
-![826_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/826_1_img-01.png)
+![826_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/826_1_img-01.webp)

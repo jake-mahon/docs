@@ -9,7 +9,7 @@ The Entitlement Reviews interface opened by the Entitlement Reviews tab is where
 
 The Manage Reviews page is the first page in the Entitlement Reviews interface. It displays high-level information for reviews.
 
-![Entitlement Reviews interface showing Manage Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/managereviewspage.png)
+![Entitlement Reviews interface showing Manage Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/managereviewspage.webp)
 
 The interface includes:
 
@@ -57,7 +57,7 @@ The buttons at the bottom enable you to conduct the following actions:
 
 The Review Details page displays information for all instances of the selected review, which is named in the page breadcrumb. This page is opened by selecting a review on the Manage Reviews page and clicking __View Details__.
 
-![Entitlement Reviews interface showing the Review Details page](/img/product_docs/auditor/access/reviews/entitlementreviews/reviewdetailspage.png)
+![Entitlement Reviews interface showing the Review Details page](/img/product_docs/auditor/access/reviews/entitlementreviews/reviewdetailspage.webp)
 
 Instances are selected from the drop-down menu. By default the most current instance will be displayed. Instances are named with date timestamps indicating the start and end times for the review instance.
 

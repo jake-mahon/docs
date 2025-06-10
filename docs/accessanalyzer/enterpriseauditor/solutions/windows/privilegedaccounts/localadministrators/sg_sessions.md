@@ -8,7 +8,7 @@ The SG\_Sessions job uses the SystemInfo Data Collector for the following querie
 
 __CAUTION:__ The queries) are preconfigured for this job. Never modify the queries.
 
-![Queries for the SG_Sessions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/sessionsqueries.png)
+![Queries for the SG_Sessions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/sessionsqueries.webp)
 
 The queries for the SG\_Sessions job are:
 
@@ -19,7 +19,7 @@ The queries for the SG\_Sessions job are:
 
 Navigate to the __Windows__ > __Privileged Accounts__ > __Local Administrators__ > __SG\_Sessions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the SG_Sessions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/sessionsanalysis.png)
+![Analysis Tasks for the SG_Sessions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/sessionsanalysis.webp)
 
 The default analysis tasks are:
 

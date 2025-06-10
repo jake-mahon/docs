@@ -22,7 +22,7 @@ To implement the solution, Managed Service Provider does the following on the cl
 
 On a high level, the workflow is as follows:
 
-![CW_workflow](/img/product_docs/auditor/auditor/addon/connectwise/diagramworkflow_thumb_0_0.png)
+![CW_workflow](/img/product_docs/auditor/auditor/addon/connectwise/diagramworkflow_thumb_0_0.webp)
 
 1. Managed Service Provider installs and configures the add-on on AuditorServer. MSP also enables the necessary alerts in Netwrix Auditor, specifying add-on launch as the response action in the alert settings.
 2. Whenever the alert is triggered, the add-on uses the Integration API to retrieve activity record for the original event from the audit store. An activity record contains the user account, action, time, and other details. The add-on creates a service ticket in ConnectWise Manage, populates it with data from the activity record, and assigns Impact, Priority and SLA status to the ticket.
@@ -31,7 +31,7 @@ On a high level, the workflow is as follows:
 
 Solution architecture and key components are shown in the figure below:
 
-![diagram](/img/product_docs/auditor/auditor/addon/splunk/diagram.png)
+![diagram](/img/product_docs/auditor/auditor/addon/splunk/diagram.webp)
 
 - __Alert Handler (Netwrix.ITSM.AlertResponseAction.exe)__ — the executable that is specified in the Auditor alerts as the response action. Alert Handler:
   1. Receives the IDs of the alert and associated activity record.

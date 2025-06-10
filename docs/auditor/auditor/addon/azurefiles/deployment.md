@@ -4,11 +4,11 @@ Follow the steps to install Azure Files add-on.
 
 __Step 1 –__ Accept EULA.
 
-![azurefileeula](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileeula.png)
+![azurefileeula](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileeula.webp)
 
 __Step 2 –__ Select the installation folder and click __Next__.
 
-![azurefileinstfolder](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileinstfolder.png)
+![azurefileinstfolder](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileinstfolder.webp)
 
 __Step 3 –__ Click __Install__. The wizard will start and ask the additional parameters.
 
@@ -49,21 +49,21 @@ If you want to run the add-on on another machine, you need to provide a name of 
 
 __CAUTION:__ Do not modify the endpoint part (_/netwrix/api_).
 
-![generalsettings](/img/product_docs/auditor/auditor/addon/azurefiles/generalsettings.png)
+![generalsettings](/img/product_docs/auditor/auditor/addon/azurefiles/generalsettings.webp)
 
 __Step 4 –__ Specify Active Directory credentials:
 
 - Username – Provide the name of the account under which the service runs. Unless specified, the service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/img/product_docs/auditor/auditor/addon/copilot/adcredentials.png)
+![adcredentials](/img/product_docs/auditor/auditor/addon/copilot/adcredentials.webp)
 
 __Step 5 –__ Paste Azure Connection String in the corresponded field and click __Next__.
 
-![azurefileconnectionstring](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileconnectionstring.png)
+![azurefileconnectionstring](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileconnectionstring.webp)
 
 __Step 6 –__ Enter Tenant ID, App ID and App Secret of the Azure App you registered for the add-on. Click __Next__.
 
-![microsoftgraphapi](/img/product_docs/auditor/auditor/addon/azurefiles/microsoftgraphapi.png)
+![microsoftgraphapi](/img/product_docs/auditor/auditor/addon/azurefiles/microsoftgraphapi.webp)
 
 __Step 7 –__ Click __Run__ and close the window. The service should start the data collection now.

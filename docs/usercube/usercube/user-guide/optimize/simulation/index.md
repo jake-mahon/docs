@@ -64,15 +64,15 @@ Launch a simulation by proceeding as follows:
 
 1. Access the simulation list by clicking on __Simulations__ on the home page, in the __Configuration__ section.
 
-   ![Home - Simulations](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/home_simulations_v600.png)
+   ![Home - Simulations](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/home_simulations_v600.webp)
 
-   ![Simulation List](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_list_v602.png)
+   ![Simulation List](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_list_v602.webp)
 2. Create a new simulation by clicking on the addition button at the top right corner.
 
    ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 3. Fill in the fields.
 
-   ![Simulation List](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_new_v602.png)
+   ![Simulation List](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_new_v602.webp)
 4. Click on __+ Create__.
 5. Perform changes through the __Roles Changes__ and __Rules Changes__ tabs and the following icons, respectively for addition, modification and deletion:
 
@@ -84,10 +84,10 @@ Launch a simulation by proceeding as follows:
 
    At any time, you can click on the line of a previously made change to access its description, even click on __Cancel__ to erase it.
 
-   ![Cancel Change](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_cancel_v602.png)
+   ![Cancel Change](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_cancel_v602.webp)
 6. Click on __Start__ to launch the simulation.
 
-   ![Start Simulation](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_start_v602.png)
+   ![Start Simulation](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_start_v602.webp)
 7. After a few seconds, click on __Refresh__ to display the simulation results.
 8. Observe the results in the overview and in the Excel report available via the Download button.
 
@@ -97,7 +97,7 @@ Launch a simulation by proceeding as follows:
 
 After all needed changes have been simulated, you can decide to apply or cancel them.
 
-![Apply or Cancel Changes](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_decision_v600.png)
+![Apply or Cancel Changes](/img/product_docs/usercube/usercube/user-guide/optimize/simulation/simulation_decision_v600.webp)
 
 Then, the simulation is no longer active.
 
@@ -117,14 +117,14 @@ In order to verify the process, check that the roles and rules are created with 
 
 For roles, click on __Access Roles__ on the home page in the __Configuration__ section.
 
-![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 Select the type of role that you want to check, and find the roles you created inside the right category and with the right parameters.
 
-![Select Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/categorycreation_test_v602.png)
+![Select Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/categorycreation_test_v602.webp)
 
 For rules, click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 Select the type of rule that you want to check, and find the rules you created with the right parameters.

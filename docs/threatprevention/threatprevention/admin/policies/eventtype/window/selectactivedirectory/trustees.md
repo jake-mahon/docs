@@ -4,7 +4,7 @@ The Select Active Directory Trustees window provides a list of available Exchang
 
 Trustees are the objects that rights are assigned to, e.g. Exchange mailboxes or Exchange distribution lists.
 
-![Select Active Directory Trustees Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adtrustees.png)
+![Select Active Directory Trustees Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adtrustees.webp)
 
 - Select either Browse Mode or Search Mode.
 

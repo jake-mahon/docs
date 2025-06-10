@@ -90,7 +90,7 @@ __Step 9 –__ Navigate to the Advanced tab and configure the following:
 
 If you want to review the Event Log Collection Status email, the Event Log Collection Status email shows whether data collection for your monitoring plan completed successfully or with warnings and errors.
 
-![changesummary_eventlog](/img/product_docs/auditor/auditor/tools/changesummary_eventlog.png)
+![changesummary_eventlog](/img/product_docs/auditor/auditor/tools/changesummary_eventlog.webp)
 
 ## Configure Audit Archiving Filters for Event Log
 

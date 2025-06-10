@@ -8,7 +8,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __3. Quarantine__ > __FS\_Restore
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_RestoreInheritance_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/restoreinheritancestatusanalysis.png)
+![Analysis Tasks for the FS_RestoreInheritance_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/restoreinheritancestatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 

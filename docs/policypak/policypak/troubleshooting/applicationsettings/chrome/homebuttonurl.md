@@ -6,4 +6,4 @@ The home page type can either be set to a URL you specify or set to the New Tab 
 
 For Home Button URL to work, check and uncheck Use New Tab Page as homepage setting like shown in below screenshot:
 
-![68_1_faq-pre-configured-pak-8](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/chrome/68_1_faq-pre-configured-pak-8.png)
+![68_1_faq-pre-configured-pak-8](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/chrome/68_1_faq-pre-configured-pak-8.webp)

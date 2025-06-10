@@ -10,7 +10,7 @@ __Step 2 –__ In the left pane, click __Risk profiles__.The Risk profiles page 
 
 __Step 3 –__ Click a risk profile. The risk metrics for the profile are displayed in a list. See the [Risk Metrics List](/docs/1secure/admin/riskprofiles/metrics_list.md) topic for a description of each risk metric.
 
-![Risks Metrics list](/img/product_docs/1secure/admin/riskprofiles/riskslist.png)
+![Risks Metrics list](/img/product_docs/1secure/admin/riskprofiles/riskslist.webp)
 
 You can view the following for each risk metric:
 
@@ -37,7 +37,7 @@ __Step 3 –__ Click a risk profile. The risk metrics for the profile are displa
 
 __Step 4 –__ Click the __Edit__ icon for a risk metric. The `<Risk metric name>` pane is displayed.
 
-![Modify risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskthreshold.png)
+![Modify risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskthreshold.webp)
 
 __Step 5 –__ Select a measurement type to calculate risk thresholds for the metric. Options are:
 
@@ -82,7 +82,7 @@ __Step 3 –__ Click a risk profile. The risk metrics for the profile are displa
 
 __Step 4 –__ Click the Edit icon for a Boolean risk metric. The `<Risk metric name>` pane is displayed.
 
-![Modify Boolean metric pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskseverity.png)
+![Modify Boolean metric pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskseverity.webp)
 
 __Step 5 –__ Select a severity level to apply when the risk is detected.
 
@@ -129,7 +129,7 @@ __Step 3 –__ Click a risk profile. The risk metrics for the profile are displa
 
 __Step 4 –__ Click __Add__. The Add new risk threshold pane is displayed.
 
-![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addnumberthreshold.png)
+![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addnumberthreshold.webp)
 
 __Step 5 –__ In the Risk Metric drop-down menu, select a number or percentage risk metric you want to add.
 
@@ -155,7 +155,7 @@ __Step 3 –__ Click a risk profile. The risk metrics for the profile are displa
 
 __Step 4 –__ Click __Add__. The Add new risk threshold pane is displayed.
 
-![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addbooleanriskmetric.png)
+![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addbooleanriskmetric.webp)
 
 __Step 5 –__ In the Risk Metric drop-down menu, select a Boolean risk metric you want to add.
 

@@ -2,7 +2,7 @@
 
 When using the Endpoint Policy Manager Exporter, you can select Add Existing Files to bring in files to an MSI. In addition to this option, you can also select Paste XMLdata from Clipboard instead of first exporting items as files from the MMC editor. You can see the general steps for this option below.
 
-![policypak_exporter_tips_tricks_3](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_3.png)
+![policypak_exporter_tips_tricks_3](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_3.webp)
 
 __Step 1 –__ As for Group Policy Preference item content, you can right-click the content inside the Group Policy Preferences editor, and select Display XML. As shown below, the first line must always be ```<?xml version="1.0" encoding="utf-8"?>```
 
@@ -12,4 +12,4 @@ __Step 3 –__ Paste your Group Policy Preference item, omitting the initial das
 
 __Step 4 –__ Click __Validate__. If successful, the __Validate__ button will change to Save.
 
-![policypak_exporter_tips_tricks_4](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_4.png)
+![policypak_exporter_tips_tricks_4](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_4.webp)

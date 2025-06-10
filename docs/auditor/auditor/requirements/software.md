@@ -86,7 +86,7 @@ Activity record stands for one operable chunk of information in Auditor workflow
 
 This scenario can be used for PoC, evaluation, or testing purposes. It can be also suitable for small infrastructures, producing only several thousands of activity records per day. In this scenario, you only deploy Auditor Server and default client, selecting Full installation option during the product setup.
 
-![na_setup_select_type_thumb_0_0](/img/product_docs/auditor/auditor/requirements/na_setup_select_type_thumb_0_0.png)
+![na_setup_select_type_thumb_0_0](/img/product_docs/auditor/auditor/requirements/na_setup_select_type_thumb_0_0.webp)
 
 If you plan to implement this scenario in bigger environments, consider hardware requirements listed in the Auditor documentation.
 

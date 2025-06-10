@@ -4,7 +4,7 @@ The Netwrix 1Secure dashboard provides an intuitive, single-pane-of-glass view o
 
 Click __Home__ at the top of the page to access the dashboard. This page is also the default landing page of the application when you sign in.
 
-![Dashboard Page for managing user](/img/product_docs/1secure/admin/dashboard/dashboardpage.png)
+![Dashboard Page for managing user](/img/product_docs/1secure/admin/dashboard/dashboardpage.webp)
 
 If you are a managed organization user, this page displays insights specific to your organization. See the [Organization Statistics](/docs/1secure/admin/dashboard/organizationstatistics.md) topic for additional information.
 

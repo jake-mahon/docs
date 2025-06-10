@@ -6,7 +6,7 @@ Using Password Reset
 
 Password Reset is a web application. Open a web browser on the server and go to [http://127.0.0.1/pwreset/ ](http://127.0.0.1/pwreset/)to see Password Reset's menu. You can also access Password Reset from another computer by replacing 127.0.0.1 in the URL with the IP address or hostname of the evaluation server.
 
-![using_npr_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1.png)
+![using_npr_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1.webp)
 
 You should install an SSL certificate on the web server when using Password Reset on a production network with real passwords. See the [Securing Password Reset](/docs/passwordreset/passwordreset/administration/securing_password_reset.md) topic for additional information.
 
@@ -18,7 +18,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 __Step 1 –__ Click the __Enroll__ item in the menu.
 
-![using_npr_1_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1_1.png)
+![using_npr_1_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1_1.webp)
 
 __Step 2 –__ Enter a __Username__, __Domain__, and __Password__ in the respective fields.
 

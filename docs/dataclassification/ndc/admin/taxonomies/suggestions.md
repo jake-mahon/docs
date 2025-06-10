@@ -2,7 +2,7 @@
 
 Clues can be used to statistically produce a list of suggested clues that can be assigned to the term.
 
-![bulkedit](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkedit.png)
+![bulkedit](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkedit.webp)
 
 Clues can be suggested for a term via the following methods:
 

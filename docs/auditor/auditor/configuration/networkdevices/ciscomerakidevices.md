@@ -10,11 +10,11 @@ __Step 1 –__ Sign in to [Cisco Meraki Dashboard](https://account.meraki.com/se
 
 __Step 2 –__ Navigate to __Network wide__ > __Configure__ > __General__.
 
-![nand_meraki_network](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_network.png)
+![nand_meraki_network](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_network.webp)
 
 __Step 3 –__ Locate the Reporting section and click Add a syslog server.
 
-![nand_meraki_server](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_server.png)
+![nand_meraki_server](/img/product_docs/auditor/auditor/configuration/networkdevices/nand_meraki_server.webp)
 
 __Step 4 –__ In the dialog that opens, complete the following fields:
 

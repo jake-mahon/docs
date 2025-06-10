@@ -28,11 +28,11 @@ Classify Resources
 
 Create a single role by proceeding as follows:
 
-![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Roles__ to access the roles page.
 
-![createsinglerole](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/createsinglerole.png)
+![createsinglerole](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/createsinglerole.webp)
 
 __Step 2 –__ On the roles page, click on the adequate category and create a role by clicking on __+ New__ at the top right corner.
 
@@ -88,19 +88,19 @@ Navigation rules aim to assign given resources to identities based on specific c
 
 Create a navigation rule by proceeding as follows:
 
-![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Rules__ to access the rules page.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 2 –__ In the drop down menu at the top left, choose the entity type to which the future navigation rule will be applied.
 
-![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.png)
+![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 3 –__ Click on the __Navigations__ tab and on the addition button at the top right corner.
 
-![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
+![Create a Navigation Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.webp)
 
 __Step 4 –__ Fill in the fields.
 
@@ -122,28 +122,28 @@ When deleting a single role, caution must be used when deleting the correspondin
 
 In order to verify the process, check that the role and rule are created with the right parameters.
 
-![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 __Step 1 –__ For roles, click on __Access Roles__ on the home page in the __Configuration__ section.
 
-![Access Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
+![Access Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
 
 __Step 2 –__ Select single roles and find the role you created inside the right category and with the right parameters.
 
 Our example would look like:
 
-![Example - Generated Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
+![Example - Generated Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
 
-![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 3 –__ For rules, click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Access Navigation Rules](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
+![Access Navigation Rules](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
 
 __Step 4 –__ Select navigation rules and find the rule(s) you created with the right parameters.
 
 Our example would look like:
 
-![Example - Generated Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)
+![Example - Generated Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)
 
 The verification of role creation has been completed.

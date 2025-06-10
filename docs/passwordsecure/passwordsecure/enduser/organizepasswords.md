@@ -8,11 +8,11 @@ Follow the steps to add a team tab.
 
 Step 1 – Click on the __Plus__ sign and a form will open.
 
-![newform](/img/product_docs/passwordsecure/passwordsecure/enduser/newform.png)
+![newform](/img/product_docs/passwordsecure/passwordsecure/enduser/newform.webp)
 
 Step 2 – You can now search for a specific organizational unit by clicking on the tree on the left or use the search field to find the unit you need.
 
-![search](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+![search](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.webp)
 
 Step 3 – Click __OK__ to close the form and your new team tab will open automatically.
 
@@ -20,11 +20,11 @@ Step 3 – Click __OK__ to close the form and your new team tab will open automa
 
 With a growing number of managed passwords, it becomes even more important to maintain a structure and overview. Therefore, Netwrix Password Secure works with tags instead of a folder system: You can assign any number of tags to your passwords to categorize and find them again quickly.
 
-![assigntags](/img/product_docs/passwordsecure/passwordsecure/enduser/assigntags.png)
+![assigntags](/img/product_docs/passwordsecure/passwordsecure/enduser/assigntags.webp)
 
 To find a password, just use the search field and enter a tag like the department or position you are in (i.e., "Marketing"). Netwrix Password Secure now not only is searching for tags, but also for “Marketing” in all Netwrix Password Secure fields (i.e., Content Marketing).
 
-![searchresults](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.png)
+![searchresults](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.webp)
 
 NOTE: Optimize your search results by using the __minus sign (-)__ to exclude terms: Only results in which this word does not appear will be displayed (i.e., all social media accounts that are used outside of marketing = "-social media marketing").
 
@@ -36,17 +36,17 @@ List View
 
 The screenshot below shows the list view.
 
-![listview](/img/product_docs/passwordsecure/passwordsecure/enduser/listview.png)
+![listview](/img/product_docs/passwordsecure/passwordsecure/enduser/listview.webp)
 
 Tile View
 
 The screenshot below shows the title view.
 
-![switchbutton](/img/product_docs/passwordsecure/passwordsecure/enduser/switchbutton.png)
+![switchbutton](/img/product_docs/passwordsecure/passwordsecure/enduser/switchbutton.webp)
 
 When in __tile view__, you can also drag and drop the buttons on another position. By hovering over them with the mouse, you will see more information like the username, and you can login with one click.
 
-![titleview](/img/product_docs/passwordsecure/passwordsecure/enduser/titleview.png)
+![titleview](/img/product_docs/passwordsecure/passwordsecure/enduser/titleview.webp)
 
 NOTE: The __list view__ is suitable for many data sets while the tile view is particularly favorable for the most frequently used secrets.
 

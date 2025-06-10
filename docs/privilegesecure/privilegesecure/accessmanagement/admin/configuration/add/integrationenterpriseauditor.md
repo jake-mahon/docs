@@ -89,7 +89,7 @@ __Step 1 –__ In the Privilege Secure Console, navigate to the Configuration > 
 
 __Step 2 –__ In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add Enterprise Auditor Integration Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.png)
+![Add Enterprise Auditor Integration Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
 
 __Step 3 –__ Enter the following information:
 
@@ -113,7 +113,7 @@ __Step 1 –__ In the Privilege Secure Console, navigate to the Configuration > 
 
 __Step 2 –__ In the Integration Connector list, select the previously created Enterprise Auditor Import connector.
 
-![enterpriseauditorconnector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.png)
+![enterpriseauditorconnector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
 
 __Step 3 –__ Click __Sync__ __StealthAUDIT__ to begin the data collection. This may take some time.
 

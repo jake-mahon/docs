@@ -2,7 +2,7 @@
 
 After all owners assigned to a specific review have submitted their review, its status on the Manage Reviews page of the Resource Reviews interface changes to Responses awaiting review.
 
-![Manage Reviews page with responses awaiting review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/interfaceapproval.png)
+![Manage Reviews page with responses awaiting review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/interfaceapproval.webp)
 
 In the approval process, the Review Administrator looks at the owner-recommended changes and chooses to approve, deny, or defer the changes.
 
@@ -22,13 +22,13 @@ __CAUTION:__  If the Access Information Center has been configured to commit cha
 
 __Step 1 –__ On the Manage Reviews page, select a review and click __View Details__. The Review Details page opens.
 
-![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsprocess.png)
+![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsprocess.webp)
 
 __Step 2 –__ Select a resource in the list and click __View Responses__. The View Responses window opens.
 
 _Remember,_ the __Resource Audit__ button opens the Resource Audit interface filtered to that resource's reports. This is where you can conduct change modeling.
 
-![viewresponses](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.png)
+![viewresponses](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
 
 __Step 3 –__ By default, the table displays only the recommended changes. Select an item and click the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the [View Responses Window](/docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponses.md) topic for additional information.
 
@@ -53,7 +53,7 @@ __CAUTION:__  If the Access Information Center has been configured to commit cha
 
 __Step 1 –__ On the Manage Reviews page, select a review and click __View Details__. The Review Details page opens.
 
-![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsprocess.png)
+![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetailsprocess.webp)
 
 __Step 2 –__ Select a resource in the list and open the __Process Changes__ drop-down menu. You can also select multiple resources in the list to be processed at once using the __Ctrl__ and __Shift__ key and click combinations.
 

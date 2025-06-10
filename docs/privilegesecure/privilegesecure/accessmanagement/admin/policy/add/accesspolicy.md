@@ -8,7 +8,7 @@ __Step 1 –__ Navigate to the Policy > Access Policies page.
 
 __Step 2 –__ In the Access Policy list, click the Plus icon.
 
-![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.png)
+![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
 __Step 3 –__ Enter the following information:
 

@@ -5,7 +5,7 @@
 In Netwrix Endpoint Policy Manager (formerly PolicyPak) version 2790 and lower if you use the Endpoint Policy Manager provided block PowerShell guidance XML, running PowerShell scripts will be blocked.  
 Result: Endpoint Policy Manager Logs will show similar error messages to below when Endpoint Policy Manager attempts to run a PowerShell script.
 
-![867_1_image-20210721211958-1](/img/product_docs/policypak/policypak/scriptstriggers/867_1_image-20210721211958-1.png)
+![867_1_image-20210721211958-1](/img/product_docs/policypak/policypak/scriptstriggers/867_1_image-20210721211958-1.webp)
 
 __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the endpoint(s):
 
@@ -15,17 +15,17 @@ __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be foun
 In Endpoint Policy Manager version 2791 and higher if you use the Endpoint Policy Manager provided block PowerShell guidance XML, running PowerShell scripts will be NOT be blocked, unless you ENABLE the following Endpoint Policy Manager ADMX setting.  
 "Endpoint Policy Manager ADMX Settings > Client-Side Extensions > Least Privilege Manager > Block Processes created by Endpoint Policy Manager Scripts Manager"
 
-![867_2_image-20210721211958-2](/img/product_docs/policypak/policypak/scriptstriggers/867_2_image-20210721211958-2.png)
+![867_2_image-20210721211958-2](/img/product_docs/policypak/policypak/scriptstriggers/867_2_image-20210721211958-2.webp)
 
 ## Scenario 2: PowerShell is disabled via a Software Restriction policy using Group Policy on User Configuration side as in image below.
 
-![867_3_image-20210721211958-3](/img/product_docs/policypak/policypak/scriptstriggers/867_3_image-20210721211958-3.png)
+![867_3_image-20210721211958-3](/img/product_docs/policypak/policypak/scriptstriggers/867_3_image-20210721211958-3.webp)
 
 __NOTE:__ If you have a Software Restriction policy in place that blocks PowerShell.
 
 Result: Any Endpoint Policy Manager Scripts & Triggers Manager policies will still be able to execute PowerShell Scripts successfully, and the Endpoint Policy Manager Logs will show a successful run message similar to below when Endpoint Policy Manager runs a PowerShell script.
 
-![867_4_image-20210721211958-4](/img/product_docs/policypak/policypak/scriptstriggers/867_4_image-20210721211958-4.png)
+![867_4_image-20210721211958-4](/img/product_docs/policypak/policypak/scriptstriggers/867_4_image-20210721211958-4.webp)
 
 __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the endpoint(s):
 
@@ -34,12 +34,12 @@ __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be foun
 
 ## Scenario 3: PowerShell is disabled via a Software Restriction Policy (SRP) using Group Policy on Computer Configuration side as in the image below.
 
-![867_5_image-20210721211958-5](/img/product_docs/policypak/policypak/scriptstriggers/867_5_image-20210721211958-5.png)
+![867_5_image-20210721211958-5](/img/product_docs/policypak/policypak/scriptstriggers/867_5_image-20210721211958-5.webp)
 
 If you have a Software Restriction Policy in place that blocks PowerShell.  
 Result: Any Endpoint Policy Manager Scripts & Triggers Manager policies that do not run as SYSTEM will be blocked from running, and Endpoint Policy Manager Logs for the user will show blocked events messages similar to below.
 
-![867_6_image-20210721211958-6](/img/product_docs/policypak/policypak/scriptstriggers/867_6_image-20210721211958-6.png)
+![867_6_image-20210721211958-6](/img/product_docs/policypak/policypak/scriptstriggers/867_6_image-20210721211958-6.webp)
 
 __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the endpoint(s):
 
@@ -48,8 +48,8 @@ __NOTE:__  Endpoint Policy Manager Scripts and Triggers Manager logs can be foun
 
 __NOTE:__  To ensure the SRP policy is applied properly during testing you can try running PowerShell manually from CMD as a standard user under either scenario 2 or 3 and if the SRP is applied properly then PowerShell will be blocked.
 
-![867_7_image-20210721211958-7](/img/product_docs/policypak/policypak/scriptstriggers/867_7_image-20210721211958-7.png)
+![867_7_image-20210721211958-7](/img/product_docs/policypak/policypak/scriptstriggers/867_7_image-20210721211958-7.webp)
 
   
 
-![867_8_image-20210721211958-8](/img/product_docs/policypak/policypak/scriptstriggers/867_8_image-20210721211958-8.png)
+![867_8_image-20210721211958-8](/img/product_docs/policypak/policypak/scriptstriggers/867_8_image-20210721211958-8.webp)

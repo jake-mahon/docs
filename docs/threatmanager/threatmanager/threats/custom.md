@@ -24,11 +24,11 @@ __Step 4 –__ On the Investigate page, do one of the following:
 
 __Step 5 –__ In the selected investigation, click the __Create Threat__ option.
 
-![CreateThreat Option](/img/product_docs/threatmanager/threatmanager/threats/createthreat.png)
+![CreateThreat Option](/img/product_docs/threatmanager/threatmanager/threats/createthreat.webp)
 
 The Custom Threat page opens.
 
-![Create Threat Dialog Box](/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.png)
+![Create Threat Dialog Box](/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.webp)
 
 __Step 6 –__ Severity – The relative severity level, or risk level, of the threat. See the [Fine Tune a Threat](/docs/threatmanager/threatmanager/administration/configuration/threatconfiguration.md) topic for additional information.
 
@@ -57,7 +57,7 @@ Exclusions Tab
 
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![Threat Exclusion Tab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.png)
+![Threat Exclusion Tab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.webp)
 
 __Step 10 –__ Click __Save__. The investigation is now saved as a custom threat.
 

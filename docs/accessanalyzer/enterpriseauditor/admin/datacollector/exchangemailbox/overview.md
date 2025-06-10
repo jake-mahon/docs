@@ -38,7 +38,7 @@ The ExchangeMailbox Data Collector is configured through the Exchange Mailbox Da
 
 The query requires special permissions to connect to target Exchange servers. Assign these permissions on the Welcome page.
 
-![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Connection Setting
 

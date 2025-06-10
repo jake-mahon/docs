@@ -4,7 +4,7 @@ Issue:
 
 Blocking PowerShell Version 2 using a traditional command line rule in Endpoint Policy Manager Least Privilege Manager results in multiple block events being generated every second in the Endpoint Policy Manager event log.
 
-![1319_1_61042bd4123a78ef7686b114b9eea335](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_1_61042bd4123a78ef7686b114b9eea335.png)
+![1319_1_61042bd4123a78ef7686b114b9eea335](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_1_61042bd4123a78ef7686b114b9eea335.webp)
 
 Cause:
 
@@ -28,9 +28,9 @@ Workaround:
 
 Since we cannot alter the internal PowerShell logic that attempts to restart the child process to overcome the failure, we have to use the two scripts below to work around the issue. The two policies below are also attached as XML for your convenience.
 
-![1319_2_d3a2208d260469bdbfdfc7edaf6848ba](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_2_d3a2208d260469bdbfdfc7edaf6848ba.png)
+![1319_2_d3a2208d260469bdbfdfc7edaf6848ba](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_2_d3a2208d260469bdbfdfc7edaf6848ba.webp)
 
-![1319_3_5745adb2d8b01ee9555aa6db772eae6a](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_3_5745adb2d8b01ee9555aa6db772eae6a.png)
+![1319_3_5745adb2d8b01ee9555aa6db772eae6a](/img/product_docs/policypak/policypak/leastprivilege/powershell/1319_3_5745adb2d8b01ee9555aa6db772eae6a.webp)
 
 Lastly, test using the command directly below to ensure that PowerShell Version 2.0 is now successfully blocked and that there are no longer multiple block events being created in the Endpoint Policy Manager event log.
 

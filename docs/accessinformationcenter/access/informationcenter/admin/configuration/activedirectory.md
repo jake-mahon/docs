@@ -7,7 +7,7 @@ The Active Directory service account is configured during installation based on 
 - SQL Server authentication credentials — Active Directory service account is configured to use the Local System, or computer account, which typically has Read rights to the domain
 - Windows authentication credentials — The same domain credentials are also used for the Active Directory service account
 
-![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
+![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.webp)
 
 There are two options for the type of Active Directory service account:
 
@@ -42,7 +42,7 @@ Follow the steps to update the Active Directory service account password. These 
 
 __Step 1 –__ On the Active Directory page, enter the new password in the correct field.
 
-![Saving configuration window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.png)
+![Saving configuration window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.webp)
 
 __Step 2 –__ Click __Save__. Then click __OK__ to confirm. After the settings are saved, a re-authentication is required to continue using the Access Information Center.
 

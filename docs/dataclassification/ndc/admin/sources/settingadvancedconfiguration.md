@@ -15,7 +15,7 @@ The following option tabs are available:
 - Source Defaults—Allow you to specify the default custom metadata mapping for the site collection.
 - Configuration Viewer—Use this simple XML view to examine the raw configuration.
 
-![sharepointadvancedsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.png)
+![sharepointadvancedsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.webp)
 
 ### Understanding custom metadata mappings
 

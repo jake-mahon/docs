@@ -2,15 +2,15 @@
 
 __Step 1 –__ Create a Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts policy on the computer side.
 
-![879_1_image-20220916231626-1](/img/product_docs/policypak/policypak/scriptstriggers/879_1_image-20220916231626-1.png)
+![879_1_image-20220916231626-1](/img/product_docs/policypak/policypak/scriptstriggers/879_1_image-20220916231626-1.webp)
 
 __Step 2 –__ When creating the Policy choose the option to Apply this policy to computer (default).
 
-![879_2_image-20220916231626-2](/img/product_docs/policypak/policypak/scriptstriggers/879_2_image-20220916231626-2.png)
+![879_2_image-20220916231626-2](/img/product_docs/policypak/policypak/scriptstriggers/879_2_image-20220916231626-2.webp)
 
 __Step 3 –__ Choose PowerShell from the dropdown.
 
-![879_3_image-20220916231626-3](/img/product_docs/policypak/policypak/scriptstriggers/879_3_image-20220916231626-3.png)
+![879_3_image-20220916231626-3](/img/product_docs/policypak/policypak/scriptstriggers/879_3_image-20220916231626-3.webp)
 
 __Step 4 –__ Then paste in the following script to the text field.
 
@@ -32,15 +32,15 @@ Register-ScheduledTask -TaskName $taskName -Action $taskAction -Trigger $taskTri
 
 Your policy should look similar to the one below:
 
-![879_4_image-20220916231626-4_950x517](/img/product_docs/policypak/policypak/scriptstriggers/879_4_image-20220916231626-4_950x517.png)
+![879_4_image-20220916231626-4_950x517](/img/product_docs/policypak/policypak/scriptstriggers/879_4_image-20220916231626-4_950x517.webp)
 
 __Step 5 –__ Skip the on revert action screen by clicking next.
 
-![879_5_image-20220916231626-5](/img/product_docs/policypak/policypak/scriptstriggers/879_5_image-20220916231626-5.png)
+![879_5_image-20220916231626-5](/img/product_docs/policypak/policypak/scriptstriggers/879_5_image-20220916231626-5.webp)
 
 __Step 6 –__ At the Specify process mode screen choose "Once or when forced" and then click next to continue.
 
-![879_6_image-20220916231626-6](/img/product_docs/policypak/policypak/scriptstriggers/879_6_image-20220916231626-6.png)
+![879_6_image-20220916231626-6](/img/product_docs/policypak/policypak/scriptstriggers/879_6_image-20220916231626-6.webp)
 
 __Step 7 –__ You're done, lastly, test your policy to ensure it runs as expected.
 

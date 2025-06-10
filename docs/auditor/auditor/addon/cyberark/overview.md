@@ -16,7 +16,7 @@ Major benefit of the integrated solution implemented with the Add-On is the incr
 
 The add-on is implemented as a syslog service that collects activity data from CyberArk system (PAS) and sends it to Auditor using the Integration API.
 
-![HIW_CyberArch](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.png)
+![HIW_CyberArch](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 The add-on operates as a syslog listener for the CyberArk system. On a high level, the solution works as follows:
 

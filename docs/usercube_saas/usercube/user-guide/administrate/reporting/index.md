@@ -10,13 +10,13 @@ A few reporting tools are already available in Identity Manager, used in other p
 
 - the list of entitlements for a given user in their __View Permissions__ tab;
 
-  ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+  ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 - the list of all requests that you are authorized to see in __Workflow Overview__ accessible from the home page in the __Administration__ section;
 
-  ![Home - Workflow Overview](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_workflowoverview_v602.png)
+  ![Home - Workflow Overview](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
 - the list of [Review Orphaned and Unused Accounts](/docs/usercube_saas/usercube/user-guide/administrate/orphan-unused-account-review/index.md).
 
-  ![Orphaned Account List](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.png)
+  ![Orphaned Account List](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
 Identity Manager puts users in control of their reporting. Rich features help produce customizable reports that can be used to check the assignment policy results, or gather information for an audit.
 
@@ -47,9 +47,9 @@ Download predefined reports by proceeding as follows:
 
 1. Click on __Reports__ on the left of the home page to access the list of predefined reports.
 
-   ![Home Page - Reports](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_reports_v602.png)
+   ![Home Page - Reports](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_reports_v602.webp)
 
-   ![Reports](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_predefinedreports_v602.png)
+   ![Reports](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_predefinedreports_v602.webp)
 2. Choose the appropriate report and click on __Download__ to get an Excel report. The downward-pointing arrow provides additional report formats.
 
 ## Add New Reports to the List
@@ -72,22 +72,22 @@ Create a custom report by proceeding as follows:
 
 1. Click on __Query__ in the __Administration__ section on the home page.
 
-   ![Home Page - Query](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_query_v602.png)
+   ![Home Page - Query](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/home_query_v602.webp)
 
-   ![Query Page](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_querypage_v602.png)
+   ![Query Page](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_querypage_v602.webp)
 2. Choose a query model from among the list.
 3. Click on __Fields to Display__ and select the appropriate fields from among the database [
    Universe
    ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) and click on __Confirm__.
 
-   ![Fields to Display](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.png)
+   ![Fields to Display](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
    In cases where Identity Manager doesn't display correctly the information you need, you must try to understand the entity instances and association instances that constitute the [
    Universe
    ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) that you are working with. Perhaps the fields that you chose cannot be properly correlated.
 4. Click on __Filters__, write the appropriate condition and click on __Confirm__.
 
-   ![Filters](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_filters_v602.png)
+   ![Filters](/img/product_docs/usercube/usercube/user-guide/administrate/reporting/reporting_filters_v602.webp)
 
    For example, a report could list user names and identifiers but only those with their ```Contract end date``` less than today's date, so that we will see all the workers who have left the organization and are still stored in Identity Manager.
 5. Once all report settings are defined, click on __Download__ to get a CSV report.

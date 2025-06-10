@@ -2,7 +2,7 @@
 
 The Agents Overview reports which Threat Prevention agents have successfully sent events to Threat Manager. This requires a minimum version of Threat Prevention7.5. This section may be used to troubleshoot or diagnose agent issues by indicating the connectivity of the Threat Prevention agent to the Threat Manager server.
 
-![System Health Page Agent Overview](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemhealth/agentoverview.png)
+![System Health Page Agent Overview](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemhealth/agentoverview.webp)
 
 Clicking __Decommission__ will remove an agent from the Threat Manager agent list.
 

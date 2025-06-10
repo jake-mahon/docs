@@ -4,7 +4,7 @@ A Sensitive Data review can be conducted for various types of data repository re
 
 __Step 1 –__ On the Pending Reviews page, select the resource with a pending Sensitive Data review and click __Begin Review__. The Resource Review page opens to the 1 Make Changes tab.
 
-![Sensitive Data Resource Review Make changes page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata.png)
+![Sensitive Data Resource Review Make changes page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata.webp)
 
 The table displays files where potentially sensitive data has been found on the resource being reviewed:
 
@@ -24,7 +24,7 @@ _Remember,_ at any time you can save your recommendations and exit the review. I
 
 __Step 3 –__ When the recommended changes are set as desired, click __Next__. The 2 Review changes tab opens in the Resource Review page.
 
-![Sensitive Data review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata2.png)
+![Sensitive Data review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata2.webp)
 
 __Step 4 –__ This tab displays the table of files with your recommendations. Confirm your recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave notes explaining why the change is recommended.
 

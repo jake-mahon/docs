@@ -4,7 +4,7 @@ Within a particular GPO (Computer or User side), the processing order is counted
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/processing_order_and_precedence.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/processing_order_and_precedence.webp)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 

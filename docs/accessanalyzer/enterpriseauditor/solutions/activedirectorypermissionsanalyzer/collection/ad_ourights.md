@@ -8,7 +8,7 @@ The AD\_OURights Job uses the ADPermissions Data Collector for the following que
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_OURights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ourightsquery.png)
+![Query for the AD_OURights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ourightsquery.webp)
 
 - OU Access Permissions – Returns organizational unit permissions
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_OURights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ourightsanalysis.png)
+![Analysis Tasks for the AD_OURights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ourightsanalysis.webp)
 
 The default analysis tasks are:
 

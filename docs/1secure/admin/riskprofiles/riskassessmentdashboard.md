@@ -21,7 +21,7 @@ To access the Risk Assessment dashboard, click __Home__ at the top. On the 1Secu
 - In the organizations list, click the risk value for an organization. It opens the Risk Assessment dashboard that displays risk-related data for the organization.
 - In the organizations list, click an organization name to navigate to the Organization Statistics page, then click the Risk Assessment card. It opens the Risk Assessment dashboard that displays risk-related data for the organization.
 
-![Risk Assessment Dashboard](/img/product_docs/1secure/admin/riskprofiles/riskassessmentdashboard.png)
+![Risk Assessment Dashboard](/img/product_docs/1secure/admin/riskprofiles/riskassessmentdashboard.webp)
 
 ## Filter Data
 
@@ -96,7 +96,7 @@ Risks are categorized into two types:
 
 In the Risks list, the information displayed for each risk varies depending on its type – enumerated or Boolean.
 
-![Risks List](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskslist.png)
+![Risks List](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskslist.webp)
 
 Enumerated Risks
 
@@ -124,7 +124,7 @@ On the Risk Assessment dashboard, click a risk in the Risks list; its details ar
 
 Enumerated Risk Details
 
-![Enumerated Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskdetails.png)
+![Enumerated Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskdetails.webp)
 
 The left pane displays the following details for an enumerated risk:
 
@@ -149,7 +149,7 @@ The left pane displays the following details for an enumerated risk:
 
 Boolean Risk Details
 
-![Boolean Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/booleanriskdetails.png)
+![Boolean Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/booleanriskdetails.webp)
 
 The left pane displays the following details for a Boolean risk:
 
@@ -174,7 +174,7 @@ On the Risk Assessment dashboard, select an organization from the drop-down menu
 
 __Step 2 –__ Click __Export__ in the upper right corner; the Exporting Risk Assessment pane is displayed.
 
-![Exporting Risk Assessment pane](/img/product_docs/1secure/admin/riskprofiles/export_riskassessment.png)
+![Exporting Risk Assessment pane](/img/product_docs/1secure/admin/riskprofiles/export_riskassessment.webp)
 
 __Step 3 –__ In the __File Name__ field, specify the name of the file the intended recipient(s) will receive. The default name is: Risk Assessment Report for `<organization name>` `<Export date>`. For example, Risk Assessment Report for test organization 2025-03-25
 

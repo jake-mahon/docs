@@ -6,7 +6,7 @@ When wrapping multiple XMLs into an MSI, you may want them to execute in a predi
 
 Another approach is to create a separate MSI for one or more XMLs. The objective then is to ensure that one MSI's contents are processed before or after another MSI's contents. Before completing the MSI process you can use the Process Layer field. The default value is 50000.
 
-![policypak_exporter_tips_tricks_7](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_7.png)
+![policypak_exporter_tips_tricks_7](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_7.webp)
 
 The idea is that if you have multiple MSIs, they are unpacked and then processed alphabetically. This value is prepended to all items in the XML. The result is that if you have multiple MSIs, you can layer them by prepending the Policy Layer ID. Then when the items execute, they will execute in the specific and desired order.
 

@@ -17,11 +17,11 @@ __NOTE:__  Repeat these steps as needed after a multi-select for rolling back mu
 
 __Step 1 –__ Open ADUC and select one or more objects to rollback. Right-click on the object(s) and select __Rollback__ on the menu.
 
-![Rollback selection in ADUC](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrollback.png)
+![Rollback selection in ADUC](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrollback.webp)
 
 The Object Rollback wizard opens.
 
-![Object Rollback wizard - Object Backups Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.png)
+![Object Rollback wizard - Object Backups Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 __Step 2 –__  On the Object Backups page, select a backup date and then select the object and attribute(s) to rollback. This page consists of two sections:
 
@@ -36,7 +36,7 @@ You can click on different backup dates to see attribute values for each of thos
 
 Click __Next__.
 
-![Object Rollback wizard - Domian Controller Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/domiancontroller.png)
+![Object Rollback wizard - Domian Controller Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/domiancontroller.webp)
 
 __Step 3 –__ On the Domain Controller page, select the Domain Controller to run the rollback action. This page consists of two sections:
 
@@ -49,7 +49,7 @@ __Step 3 –__ On the Domain Controller page, select the Domain Controller to ru
 
 Click __Next__.
 
-![Object Rollback wizard - Alternate Credentials Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.png)
+![Object Rollback wizard - Alternate Credentials Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
 
 __Step 4 –__ The account preforming the operation must have Domain Admin privileges to access the domain tree area where the object resides. On the Alternate Credentials page:
 
@@ -58,11 +58,11 @@ __Step 4 –__ The account preforming the operation must have Domain Admin privi
 
 For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Rollback wizard - Confirm Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Object Rollback wizard - Confirm Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 5 –__ On the Confirm page, review the object information, changes, and the domain controller selection. Click __Finish__ to rollback the object.
 
-![Successful Rollback window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/rollbacksuccessful.png)
+![Successful Rollback window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/rollbacksuccessful.webp)
 
 __Step 6 –__ The Rollback window displays the action status. Click __Close__ to exit.
 

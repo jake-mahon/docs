@@ -21,7 +21,7 @@ For Endpoint Policy Manager Application Settings Manager, update your Endpoint P
 
 For extra protection within each Endpoint Policy Manager Application Settings Manager definition, you can choose to open the definition and then click the __Options__ button. Then, select __Export XML Settings Data__.
 
-![specific_upgrades_for_application_624x386](/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.png)
+![specific_upgrades_for_application_624x386](/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.webp)
 
 __NOTE:__ This step is optional but will provide a second backup of your Endpoint Policy Manager Application Settings Manager definitions in case of a mishap and is therefore recommended.
 

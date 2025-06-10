@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_OneDrives__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the OneDrives Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/onedrivesanalysis.png)
+![Analysis Tasks for the OneDrives Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/onedrivesanalysis.webp)
 
 The default analysis tasks are:
 

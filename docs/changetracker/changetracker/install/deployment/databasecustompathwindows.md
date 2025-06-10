@@ -10,6 +10,6 @@ __Step 3 –__ Edit the __mongod.conf__ file located in C:\Program Files\NNT Cha
 
 __Step 4 –__ Edit the parameters for ```dbpath ```to change the location for DB files. If you prefer to invoke ‘__smallfiles__’ operation then add the config line as below.
 
-![CustomDatabasePathWindows](/img/product_docs/changetracker/changetracker/install/deployment/customdatabasepathwindows.png)
+![CustomDatabasePathWindows](/img/product_docs/changetracker/changetracker/install/deployment/customdatabasepathwindows.webp)
 
 5. Then start the __Mongod__ service, followed by an ```iisreset /start```.

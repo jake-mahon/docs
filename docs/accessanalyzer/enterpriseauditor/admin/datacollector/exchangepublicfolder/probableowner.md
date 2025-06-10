@@ -2,7 +2,7 @@
 
 The Probable Owner Settings page provides configuration options to determine an owner. It is enabled when the Probable Owner property is selected on the Properties page. See the [ExchangePublicFolder: Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md) topic for additional information.
 
-![Exchange Public Folder Data Collector Wizard Probable Owner page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.png)
+![Exchange Public Folder Data Collector Wizard Probable Owner page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.webp)
 
 In the Determine owner section, select the desired option to specify what setting to use to determine an owner:
 
@@ -11,7 +11,7 @@ In the Determine owner section, select the desired option to specify what settin
 - Determine owner from content size – Select to determine the probable owner with weight of 100 percent on content size
 - Use custom weights – Select to enable the __Result weights__ option to assign custom weights to the ownership categories
 
-  ![Probable Owner Settings window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableownersettingswindow.png)
+  ![Probable Owner Settings window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableownersettingswindow.webp)
 - Result weights – This option is enabled when the __Use custom weights__ option is selected. Click the ellipses to open the Probable Owner Settings window and assign ownership weights to distribute between the parameters.
 
 In the Exclusions section, select one or more of the following checkboxes to specify exclusions:

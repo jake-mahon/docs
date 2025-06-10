@@ -166,7 +166,7 @@ __Step 2 –__ Navigate to Taxonomies > Global Settings > Edit. The __Edit__ pan
 
 __Step 3 –__ Select Sensitive Taxonomy.
 
-![standalonetaxonomies_sensitive](/img/product_docs/dataclassification/ndc/admin/taxonomies/standalonetaxonomies_sensitive.png)
+![standalonetaxonomies_sensitive](/img/product_docs/dataclassification/ndc/admin/taxonomies/standalonetaxonomies_sensitive.webp)
 
 __Step 4 –__ Click __Save__.
 

@@ -13,4 +13,4 @@ Flashlight documents over 120 Salesforce metadata types. For display within the 
 | Analytics | Reports, Dashboards, List Views, and Einstein |
 | Configuration | Data Quality settings such as Duplicate Rules, Matching Rules, and Validation Rules. Other general settings |
 
-![Metadata Categories](/img/product_docs/strongpointsalesforceflashlight/metadata_categories_800x511.png)
+![Metadata Categories](/img/product_docs/strongpointsalesforceflashlight/metadata_categories_800x511.webp)

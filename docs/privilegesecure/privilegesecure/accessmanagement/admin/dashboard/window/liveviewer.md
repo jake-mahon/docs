@@ -4,7 +4,7 @@ The Live Session Viewer window allows a user with the Administrator role to watc
 
 Click the expand icon for an active session on the [Active Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/active.md).
 
-![Active Session expanded](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.png)
+![Active Session expanded](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
 
 If the user has logged into the activity session more than once, multiple session recordings will display. Only the current session can be viewed live. See the [Replay Viewer Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) topic for additional information on recorded sessions.
 
@@ -19,7 +19,7 @@ Select the desired recording and the Live Session Viewer window opens.
 
 The Live Session Viewer window for RDP sessions is applicable to all resources except the Websites.
 
-![livesessionviewerrdp](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerrdp.png)
+![livesessionviewerrdp](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerrdp.webp)
 
 The Live Session Viewer for RDP Sessions window has the following features:
 
@@ -47,7 +47,7 @@ Activity Details
 
 The Live Session Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
-![livesessionviewerssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerssh.png)
+![livesessionviewerssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerssh.webp)
 
 The Live Session Viewer for SSH Sessions window has the following features:
 
@@ -79,7 +79,7 @@ Other Details
 
 The Recording Session Viewer window for Website host sessions is applicable only to Website hosts and Microsoft Entra ID.
 
-![recordingsessionviewer](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingsessionviewer.png)
+![recordingsessionviewer](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
 
 The Live Session Viewer for Recording Sessions window has the following features:
 

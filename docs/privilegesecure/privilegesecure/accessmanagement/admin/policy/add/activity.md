@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Activities page.
 
 __Step 2 –__ In the Activities list, click the Add Activity icon.
 
-![Add an Activity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.png)
+![Add an Activity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.webp)
 
 __Step 3 –__ Enter the information for the desired activity. The configuration options will vary depending on each selection.
 

@@ -14,13 +14,13 @@ You might want to use Endpoint Policy Manager along with the following UEM tools
 
 The wrapped up MSI files from Endpoint Policy Manager should work with just about any other software distribution tool as well. Therefore, you can quickly deploy Endpoint Policy Manager directives without needing to use Group Policy to deploy your settings. Just create the XML data file, use Endpoint Policy Manager Exporter to make an MSI, and then use your software deployment tool of choice to deploy the MSI. Once the MSI is delivered to the target machines, the users will pick up the XML files in their own directories (or the Computers folder), and Endpoint Policy Manager components will receive their directives. We've provided a handful of XML files you can use. You can find them in the Endpoint Policy Manager Portal in the "Latest Manuals" section, as shown in Figure 1.
 
-![deploying_policypak_directives](/img/product_docs/policypak/policypak/mdm/deploying_policypak_directives.png)
+![deploying_policypak_directives](/img/product_docs/policypak/policypak/mdm/deploying_policypak_directives.webp)
 
 Figure 1. The list of XML files in the Endpoint Policy Manager Portal.
 
 Once unpacked, you should see a list of example XML files, displayed in Figure 2, which are wrapped into an example MSI.
 
-![deploying_policypak_directives_1](/img/product_docs/policypak/policypak/mdm/deploying_policypak_directives_1.png)
+![deploying_policypak_directives_1](/img/product_docs/policypak/policypak/mdm/deploying_policypak_directives_1.webp)
 
 Figure 2. The wrapped XML file example.
 

@@ -10,7 +10,7 @@ __Step 1 –__ Click Agents in the left pane to launch the Agents interface.
 
 __Step 2 –__ Right-click a server/Agent and select __Uninstall Agent__ on the menu.
 
-![Enter Credentials window](/img/product_docs/threatprevention/threatprevention/install/upgrade/entercredentials.png)
+![Enter Credentials window](/img/product_docs/threatprevention/threatprevention/install/upgrade/entercredentials.webp)
 
 __Step 3 –__ On the Enter Credentials window, enter a username and password with sufficient rights to connect to the target machine and query information about shares. A local Administrator account on the target machine should have access to the system shares. Click __OK__ after entering the credentials.
 

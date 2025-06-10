@@ -8,7 +8,7 @@ For the purpose of this document, “applet” refers to the runtime deployment 
 
 When File System scans are run in local mode, it means all of the data collection processing is conducted by the Access Analyzer Console server across the network. The data is collected in the SQLite database(s), or Tier 2 database(s), on the Access Analyzer Console server, and then imported into the Access Analyzer database, or Tier 1 database, on the SQL Server.
 
-![Illustrates the Enterprise Auditor server running the scan against a file server](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/localmode.png)
+![Illustrates the Enterprise Auditor server running the scan against a file server](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/localmode.webp)
 
 The diagram illustrates the Access Analyzer server running the scan against a file server.
 
@@ -23,7 +23,7 @@ __CAUTION:__ The local policy, “Network access: Do not allow storage of passwo
 
 When File System scans are run in applet mode, it means the File System applet is deployed to the target host when the job is executed to conduct data collection. However, the applet can only be deployed to a server with a Windows operating system. The data is collected on the Windows target host where the applet is deployed. The final step in data collection is to compress and transfer the data collected in the SQLite database(s), or Tier 2 database(s), back to the Access Analyzer Console server. If the target host is a NAS device, the File System scans will default to local mode for that host.
 
-![Illustrates the Enterprise Auditor server sending an FSAA applet to a targeted Windows file server, which runs the scan against locally, and then returns data to the Enterprise Auditor server](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/appletmode.png)
+![Illustrates the Enterprise Auditor server sending an FSAA applet to a targeted Windows file server, which runs the scan against locally, and then returns data to the Enterprise Auditor server](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/appletmode.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a targeted Windows file server, which runs the scan against locally, and then returns data to the Access Analyzer server.
 
@@ -38,7 +38,7 @@ __CAUTION:__ The local policy, “Network access: Do not allow storage of passwo
 
 When File System scans are run in proxy mode with applet, it means the File System applet is deployed to the Windows proxy server when the job is executed to conduct data collection. The data collection processing is initiated by the proxy server where the applet is deployed and leverages a local mode-type scan to each of the target hosts. The final step in data collection is to compress and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access Analyzer Console server.
 
-![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodewithapplet.png)
+![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodewithapplet.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a proxy server, which runs the scan against a file server, and then returns data to the Access Analyzer server.
 
@@ -61,7 +61,7 @@ The proxy communication is configured during the installation of the service on 
 
 See the [File System Proxy Service Installation](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/wizard.md) topic for additional information.
 
-![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.png)
+![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
 
 The diagram illustrates the Access Analyzer server communicating securely with the proxy service on a proxy server, which runs the scan against a file server, collecting the data locally and securely. Then the proxy service returns data securely to the Access Analyzer server.
 

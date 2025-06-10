@@ -26,6 +26,6 @@ __Step 9 –__ Select the __Disabled__ option, and then click __OK__.
 
 __Step 10 –__ Close the Group Policy Management Editor.
 
-![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.png)
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.webp)
 
 __NOTE:__ You do not have to disable all the Windows password policy rules to use Password Policy Enforcer. You can use a combination of Password Policy Enforcer and Windows rules together if you like. Just remember that a password is only accepted if it complies with the rules enforced by both Windows and Password Policy Enforcer.

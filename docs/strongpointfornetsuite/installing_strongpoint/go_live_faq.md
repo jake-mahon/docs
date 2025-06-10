@@ -54,7 +54,7 @@ To access a customization quick search, open __Strongpoint__ > __Customizations_
 
 You can search using several factors and submit. When looking up by __Name__, using __Contains__ helps if you do not have the exact name.
 
-![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.png)
+![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
 
 ## Prototype Customizations
 
@@ -78,7 +78,7 @@ Administrators can perform Approval Overrides on a Change Request.
 2. Click __Edit__.
 3. Select __Approved__ from the __Approval Status__ list.
 
-   ![Change Status to Approved](/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.png)
+   ![Change Status to Approved](/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.webp)
 
 The Status bar is set to __Approved (Override)__ and the administrator's name is displayed in the __Approval Override By__ field.
 

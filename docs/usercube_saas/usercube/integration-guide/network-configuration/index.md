@@ -40,7 +40,7 @@ Within a Configuration Set Tree, settings are organized into meaningful sections
 
 This means that every setting value either belongs to the settings root node or to a section, itself belonging to a parent section.
 
-![tree like structure](/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.png)
+![tree like structure](/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.webp)
 
 ### Configuration files
 

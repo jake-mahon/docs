@@ -16,7 +16,7 @@ This will indicate to you if the extension is still published or not.
 
 __NOTE:__  Edge Chromium uses the same PPBR Chrome Extension.You can see the extension ID in Edge Chromium by visiting edge://extensions from within Edge Chromium.
 
-![202_1_image-20220105135628-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.png)
+![202_1_image-20220105135628-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
 
 | DATE | CSE VERSION | VERSION OF EXTENSION | EXTENSION ID | Still available in Chrome Store? |
 | --- | --- | --- | --- | --- |

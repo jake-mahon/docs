@@ -8,7 +8,7 @@ Password complexity requirements must adhere to any domain or local password pol
 
 Create password policies and configure the password complexity requirements on this page. The password policy only applies to managed accounts created by Privilege Secure.
 
-![Password Complexity Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Password Complexity Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured password complexity policies. This pane has the following features:
 

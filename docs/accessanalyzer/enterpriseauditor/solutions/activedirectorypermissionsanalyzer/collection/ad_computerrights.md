@@ -8,7 +8,7 @@ The AD\_ComputerRights Job uses the ADPermissions Data Collector for the followi
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/computerrightsquery.png)
+![Query for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/computerrightsquery.webp)
 
 - Computer Access Permissions – Returns computer access permission
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/computerrightsanalysis.png)
+![Analysis Task for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/computerrightsanalysis.webp)
 
 - Computer Rights View – Creates the SA\_AD\_ComputerRights\_Details\_PermissionsView visible under the job’s Results node
 - AIC computer permissions import – Creates an interim processing table in the database for use by downstream analysis and report generation

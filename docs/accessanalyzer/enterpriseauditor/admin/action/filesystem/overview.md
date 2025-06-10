@@ -83,6 +83,6 @@ __NOTE:__ Depending on the selections on the various pages, not all pages may be
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane contains links to the pages in the wizard, which may change based on the Action selected on the Action page.
 
-![File System Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![File System Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

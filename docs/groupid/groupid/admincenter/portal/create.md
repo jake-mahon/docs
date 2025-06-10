@@ -12,7 +12,7 @@ A portal is hosted on a web server, with native IIS, remote IIS, and Docker as t
 
 - IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-  ![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.png)
+  ![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
 - Docker Deployment - For a Docker deployment, make sure you have a running instance of Docker daemon in your environment. A portal runs within a container in Docker.
 
 ## Deploy Multiple Instances of a Portal
@@ -59,7 +59,7 @@ __To create a portal:__
    one in IIS and another in Docker.  
    The application name and deployment name are displayed on the portal card on the __GroupID Portal__ tab.
 
-   ![portal_card](/img/product_docs/groupid/groupid/admincenter/portal/portal_card.png)
+   ![portal_card](/img/product_docs/groupid/groupid/admincenter/portal/portal_card.webp)
 7. In the __IIS Application Name__ box, enter an IIS deployment name for the portal. This name should be unique for each portal deployed in IIS.
 
    - The IIS application name is used to name the portal's directory in IIS and its physical directory under __X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\__ on the Directory Manager server.  
@@ -95,7 +95,7 @@ __To create a portal:__
     objects, their directory profiles, and more.  
     While associating identity store(s), you may get the following message:
 
-    ![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.png)
+    ![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
 
     This relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when
     two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with the

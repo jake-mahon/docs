@@ -20,7 +20,7 @@ The following job groups must be successfully run prior to using this workflow:
 
 The __File System__ > __Resource Based Groups__ Job Group is a separately licensed component of the Access Analyzer File System solution set. Typically this job group is added during installation, but it can be installed from the Instant Job Wizard.
 
-![Resource Based Groups Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Resource Based Groups Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __FileSystem__ > __Resource Based Groups__.
 
@@ -30,7 +30,7 @@ The FS\_TraverseGroups Job and the FS\_ResourceBasedGroupsAICImport Job must be 
 
 The Resource Based Groups Job Group will transform permissions on specified folders to a resource based groups model.
 
-![Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following jobs comprise the Resource Based Groups Job Group:
 

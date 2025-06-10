@@ -74,11 +74,11 @@ The properties of the position record section cannot be propagated, meaning if a
 
 The following image shows the positions of ```Mark Barn``` in a defined timeline.
 
-![simple-recordsection-identity](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/simple-recordsection-identity.png)
+![simple-recordsection-identity](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/simple-recordsection-identity.webp)
 
 With the given configuration and the identity of ```Mark Barn```, the following contexts are generated:
 
-![simple-recordsection-result](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.png)
+![simple-recordsection-result](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.webp)
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for the [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
@@ -117,7 +117,7 @@ The ```ExtensionKind="None"``` was removed for the ```Location``` property.
 
 Using the identity of ```Mark Barn``` the computed contexts should be as followed:
 
-![recordsection-withvaluecopy-result1](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/recordsection-withvaluecopy-result1.png)
+![recordsection-withvaluecopy-result1](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/recordsection-withvaluecopy-result1.webp)
 
 Any rules targeting identities working in ```London``` will be assigned to ```Mark Barn``` from ```Cs``` to ```Ce```.
 
@@ -140,11 +140,11 @@ Position record section:
 
 ```
 
-![positionextension-identity](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/positionextension-identity.png)
+![positionextension-identity](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/positionextension-identity.webp)
 
 Two contexts will be generated.
 
-![positionextension-result](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/positionextension-result.png)
+![positionextension-result](/img/product_docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/positionextension-result.webp)
 
 By default, the previous position is extended when there is a gap.
 If there isn't any previous position then the next position will be anticipated.

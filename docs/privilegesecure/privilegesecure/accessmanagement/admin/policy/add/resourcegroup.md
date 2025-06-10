@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > Resources > Resource Groups page.
 
 __Step 2 –__ In the Resource Groups list, click the Plus icon.
 
-![Add Resource Group](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.png)
+![Add Resource Group](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.webp)
 
 __Step 3 –__ Enter or select the following information:
 

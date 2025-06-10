@@ -4,7 +4,7 @@ Use the Rename List option to change the name of a selected host list. This opti
 
 __CAUTION:__ Changing the name on a host list that has been assigned to a job can cause the job to fail.
 
-![Host list name window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistname.png)
+![Host list name window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/hostlistname.webp)
 
 Select the host list to rename and click __Rename List__ to open the Host list name window. Enter the new name for the host list and click __OK__.
 

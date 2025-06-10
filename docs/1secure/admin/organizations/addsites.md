@@ -5,9 +5,9 @@ The feature is helpful for Managed Service Providers with clients in multiple of
 
 | Icon | Description |
 | --- | --- |
-| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.png) | Edit Icon. Click the Edit Icon to edit the site details. |
-| ![addicon](/img/product_docs/1secure/admin/organizations/addicon.png) | Add Icon. Click the Add Icon to add a site. |
-| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.png) | Bin Icon. Click the Bin Icon to delete a site. |
+| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the site details. |
+| ![addicon](/img/product_docs/1secure/admin/organizations/addicon.webp) | Add Icon. Click the Add Icon to add a site. |
+| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp) | Bin Icon. Click the Bin Icon to delete a site. |
 
 ## Add a New Site
 
@@ -17,7 +17,7 @@ __Step 1 –__ Add your organization or add a source to the created organization
 
 __NOTE:__ You can add sites only for on-prem sources - Active Directory and Computer. These sources require an installation of the agent. See the [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
 
-![addsourcessite](/img/product_docs/1secure/admin/organizations/addsourcessite.png)
+![addsourcessite](/img/product_docs/1secure/admin/organizations/addsourcessite.webp)
 
 __Step 2 –__ On the Configure source details window (Step 2 of 3) window, add a new site. In the "New site name" field, specify the name for your site. This could be a geographical location like 'Barcelona' or a cluster of servers from which a single agent collects data. Click __Next__.
 
@@ -33,7 +33,7 @@ __Step 1 –__ Add a source to the your organization.
 
 __Step 2 –__ Select your site from the drop-down list or click the __Add__ icon, if your want to add a new site. Click __Next__.
 
-![sitesdropdown](/img/product_docs/1secure/admin/organizations/sitesdropdown.png)
+![sitesdropdown](/img/product_docs/1secure/admin/organizations/sitesdropdown.webp)
 
 __Step 3 –__ Finish adding the source. Screens will vary depending on the source added. See the [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or [Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional information.
 
@@ -45,7 +45,7 @@ Follow the steps to view the site for the organization.
 
 __Step 1 –__ Navigate to Managed Organizations > "your organization" > Sites.
 
-![updateagents2](/img/product_docs/1secure/admin/updateagents2.png)
+![updateagents2](/img/product_docs/1secure/admin/updateagents2.webp)
 
 __Step 2 –__ View the following details:
 

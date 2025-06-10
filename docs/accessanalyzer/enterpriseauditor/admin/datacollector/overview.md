@@ -6,7 +6,7 @@ This topic covers the configuration wizards that are unique to each data collect
 
 The Access Analyzer data collectors can collect information from a wide range of environments. Data collection tasks are assigned to jobs at the __Configure__ > __Queries__ node level. See the [Queries Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/queries.md) topic for additional information.
 
-![Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
+![Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.webp)
 
 The Query Selection page is split into the Tables and Queries sections. The Tables section has the following options:
 
@@ -26,7 +26,7 @@ The Queries section is where the Data Collectors are configured. The Queries sec
 
 Pre-built queries can be added to the Data Collector job through the Libraries window.
 
-![Libraries window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addqueryfromlibrary.png)
+![Libraries window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addqueryfromlibrary.webp)
 
 The Libraries window toolbar has the following options:
 
@@ -53,7 +53,7 @@ To access the XML Text version of the Query Properties window, click __View XML_
 
 Use the General tab to modify the name or description of the query.
 
-![General tab of the Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesgeneral.png)
+![General tab of the Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesgeneral.webp)
 
 The General tab displays:
 
@@ -75,7 +75,7 @@ When creating a new query, provide a unique, descriptive __Name__ and __Descript
 
 Use the Data Source tab to configure the data collector and query.
 
-| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatasourcenew.png) | ![Data Source tab of Query Properties for existing Query](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatasourceexisting.png) |
+| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatasourcenew.webp) | ![Data Source tab of Query Properties for existing Query](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatasourceexisting.webp) |
 | --- | --- |
 | New Query | Existing Query |
 
@@ -96,7 +96,7 @@ See the individual data collector section for configuration wizard page informat
 
 Use the Filters tab to include filters into the data collection process.
 
-| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatafilters.png) | ![Filters tab of Query Properties window with a new filter](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatafilterswithfilter.png) |
+| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatafilters.webp) | ![Filters tab of Query Properties window with a new filter](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/querypropertiesdatafilterswithfilter.webp) |
 | --- | --- |
 | No FIlter | With FIlter |
 

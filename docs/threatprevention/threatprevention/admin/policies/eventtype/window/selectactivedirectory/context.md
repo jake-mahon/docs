@@ -2,7 +2,7 @@
 
 The Select Active Directory Contexts window provides a list of available contexts to either include or exclude. Selected objects are added to the filter from where you clicked the __Add__ (+) button to open this window.
 
-![Select Active Directory Contexts Window](/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.png)
+![Select Active Directory Contexts Window](/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.webp)
 
 - Select either Browse Mode or Search Mode.
 

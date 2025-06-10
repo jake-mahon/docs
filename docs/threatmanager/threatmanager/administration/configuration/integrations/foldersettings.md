@@ -2,13 +2,13 @@
 
 The Folder Settings page within the Integrations interface allows users to designate the Investigation exports folder location. Additionally, a shared folder can be provided for subscription purposes.
 
-![Integrations interface on the Folder Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Integrations interface on the Folder Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 By default, Investigation exports are placed in the Downloads folder of the logged in user, on the machine where that user is accessing the application. When a Local Folder path is designated, all Investigation exports are also stored in the specified folder on the application server.
 
 When shared folders are added, they are displayed in a table at bottom of the page.
 
-![Shared Folder table on the Folders Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/sharedfoldertable.png)
+![Shared Folder table on the Folders Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/sharedfoldertable.webp)
 
 The Shared Folders table has the following columns:
 
@@ -22,7 +22,7 @@ Additional Options
 
 When you hover over a row within the Shared Folders table, three additional options are displayed:
 
-![Shared Folder table on the Folders Settings page showing additional options](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/additionaloptions.png)
+![Shared Folder table on the Folders Settings page showing additional options](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/additionaloptions.webp)
 
 - Refresh Arrow – Tests the shared folder configuration
 - Edit – Opens the Add New Shared Folder window to edit the configured settings
@@ -36,7 +36,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click __Folder Settings__ in the navigation pane.
 
-![Local Folder settings on the Folder Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/localfolder.png)
+![Local Folder settings on the Folder Settings page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/localfolder.webp)
 
 __Step 3 –__ In the Path field, enter a valid folder path on the server where the application is installed. For example, C:\Reports.
 
@@ -56,7 +56,7 @@ __Step 2 –__ On the Integrations interface, click __Folder Settings__ in the n
 
 __Step 3 –__ Click __Add Shared Folder__. The Add New Shared Folder window opens.
 
-![Add New Shared Folder window](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewsharedfolderwindow.png)
+![Add New Shared Folder window](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewsharedfolderwindow.webp)
 
 __Step 4 –__ Enter the following information:
 

@@ -8,11 +8,11 @@ __Step 2 –__ Click an organization to define a data source and connector(s) fo
 
 __Step 3 –__ On the Sources tab, click __Add__ to add a source. The Select Data Source (Step 1 of 3) pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.png)
+![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 __Step 4 –__ Select __Exchange Online__ and click __Next__.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/exchangeonline_configsourcedetails.png)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/exchangeonline_configsourcedetails.webp)
 
 __Step 5 –__ On the Configure source details (Step 2 of 3) pane, specify the following settings:
 
@@ -28,7 +28,7 @@ __Step 5 –__ On the Configure source details (Step 2 of 3) pane, specify the f
 
 __Step 6 –__ Click __Next__.
 
-![Choose new connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange3.png)
+![Choose new connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange3.webp)
 
 __Step 7 –__ The Choose new connector pane (Step 3 of 3) lists one connector for Exchange Online. Specify the following:
 

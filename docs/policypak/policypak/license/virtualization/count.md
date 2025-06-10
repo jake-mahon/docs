@@ -34,7 +34,7 @@ Option 2: Citrix License Admin Console
 
 If you choose option 1, please take this screenshot and return it to us:
 
-![154_2_image004](/img/product_docs/policypak/policypak/license/virtualization/154_2_image004.png)
+![154_2_image004](/img/product_docs/policypak/policypak/license/virtualization/154_2_image004.webp)
 
 __NOTE:__ In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses.
 
@@ -48,6 +48,6 @@ Therefore, wherever you pay either Microsoft or Citrix, Endpoint Policy Manager 
 
 __NOTE:__ If you purchased or acquired either Microsoft Volume License keys, or got your keys from the Microsoft CSP (Cloud Solution Provider) Program, you might find that these licenses show up as 500 licenses purchased, instead of the actual quantity you purchased. In this case Endpoint Policy Manager License Request Tool (LT) will think you have purchased 500 licenses, where you might have bought only 10, 20, etc.
 
-![154_4_image001_950x198](/img/product_docs/policypak/policypak/license/virtualization/154_4_image001_950x198.png)
+![154_4_image001_950x198](/img/product_docs/policypak/policypak/license/virtualization/154_4_image001_950x198.webp)
 
 If this is your situation, simply express the raw number of purchased licenses to your sales or renewals person.

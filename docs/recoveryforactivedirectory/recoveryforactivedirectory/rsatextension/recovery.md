@@ -15,15 +15,15 @@ Follow the steps to restore a deleted object.
 
 __Step 1 –__ Open ADUC and select the Recycle Bin.
 
-![ADUC with the Restore option selected](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrestore.png)
+![ADUC with the Restore option selected](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrestore.webp)
 
 __Step 2 –__ In the Recycle Bin, right-click on the object to be restored and select __Restore__ on the menu. The Object Recovery wizard opens.
 
-![Object Recovery Wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.png)
+![Object Recovery Wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 __Step 3 –__  On the Object Backups page, select the desired date timestamp to identify the backup for recovery. Multiple backups may be available for a single day depending on the configured schedule. Click __Next__ to continue.
 
-![Object Recovery Wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.png)
+![Object Recovery Wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
 
 __Step 4 –__ On the Recovery Options page, select the Container and Naming Conflict actions for the recovery process.
 
@@ -42,7 +42,7 @@ __Step 4 –__ On the Recovery Options page, select the Container and Naming Con
 
 Click __Next__.
 
-![Object Recovery Wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.png)
+![Object Recovery Wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
 
 __Step 5 –__ The User Options page is displayed when user objects are being restored. When a user object is included as a child object being restored, this page is also displayed. Consider the following configurations in ADUC before choosing the options for deleted user objects:
 
@@ -59,7 +59,7 @@ Select the desired checkboxes relating to the state of a user password upon rest
 
 Click __Next__.
 
-![Object Recovery Wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.png)
+![Object Recovery Wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
 
 __Step 6 –__ On the Domain Controller page, select the Domain Controller to run the restoration action. This page consists of two sections:
 
@@ -72,7 +72,7 @@ __Step 6 –__ On the Domain Controller page, select the Domain Controller to ru
 
 Click __Next__.
 
-![Object Recovery Wizard - Alternate Credentials page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.png)
+![Object Recovery Wizard - Alternate Credentials page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
 
 __Step 7 –__ The account preforming the operation must have Domain Admin privileges to access the domain tree area where the object resides. On the Alternate Credentials page:
 
@@ -81,11 +81,11 @@ __Step 7 –__ The account preforming the operation must have Domain Admin privi
 
 For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Recovery Wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Object Recovery Wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 8 –__ On the Confirm page, review the summarized object restore settings. Click __Finish__ to start the recovery.
 
-![Recovery Success Status](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/recvoerysuccessful.png)
+![Recovery Success Status](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/recvoerysuccessful.webp)
 
 __Step 9 –__ The Recovery window displays the action status. Click __Close__ to exit.
 

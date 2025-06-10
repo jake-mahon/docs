@@ -14,4 +14,4 @@ Usercube-Export-Configuration
 
 The Identity Manager project's integration cycle consists in developing a configuration by successive imports in a test instance.
 
-![Integration cycle](/img/product_docs/usercube/usercube/integration-guide/toolkit/configurationcycle.png)
+![Integration cycle](/img/product_docs/usercube/usercube/integration-guide/toolkit/configurationcycle.webp)

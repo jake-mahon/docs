@@ -2,13 +2,13 @@
 
 When your organization performs a resource review on a resource for which you are the assigned owner, it means you, the business user or data custodian, need to attest to the access and privileges users have to your resource. When the Review Administrator creates a new review or starts a new instance of an existing review, you receive an email notification that includes a link to the your pending reviews.
 
-![Email notification of pending review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/newreview.png)
+![Email notification of pending review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/newreview.webp)
 
 Use the __Sign in__ link at the bottom to open the Owner portal in the Access Information Center.
 
 _Remember,_ Your company domain credentials are used to log in.
 
-![Reviews link on the Ownership portal](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/ownershipportal.png)
+![Reviews link on the Ownership portal](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/ownershipportal.webp)
 
 The Owner portal displays a number next to the __Reviews__link to indicate how many of your resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews interface has two pages: Pending Reviews and Review History. See the [Pending Reviews Page](#Pending-Reviews-Page) and [Review History Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewhistory.md) topics for additional information.
 
@@ -16,7 +16,7 @@ The Owner portal displays a number next to the __Reviews__link to indicate how m
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![Pending Reviews page of the Reviews interface](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/pendingreviews.png)
+![Pending Reviews page of the Reviews interface](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/pendingreviews.webp)
 
 The information displayed in the table includes:
 
@@ -45,7 +45,7 @@ _Remember,_  any proposed changes are not committed until the Review Administrat
 
 The __Begin Review__ button opens the Resource Review page to start the review.
 
-![Resource Review page for an Access review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.png)
+![Resource Review page for an Access review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common features:
 

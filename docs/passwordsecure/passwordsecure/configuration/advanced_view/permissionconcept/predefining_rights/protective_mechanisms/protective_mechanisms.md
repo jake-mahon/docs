@@ -11,7 +11,7 @@ The primary goal of Netwrix Password Secure is to ensure data security at all ti
 
 The following diagram shows a summary of how the existing protective mechanisms are integrated into the authorization concept.
 
-![protective mechanism diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms-en.png)
+![protective mechanism diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms-en.webp)
 
 In the interplay of the [Authorization and protection mechanisms](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md), almost all conceivable scenarios can be depicted. It is worth mentioning again that the authorization concept is already a very effective tool, with limited visibility of passwords and data records. This concept is present everywhere in Netwrix Password Secure, and will be explained in more detail below.
 

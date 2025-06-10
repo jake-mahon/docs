@@ -6,7 +6,7 @@ This page is about [
 RACF
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/racf/index.md).
 
-![Package: MainFrame/RACF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.png)
+![Package: MainFrame/RACF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
 
 ## Overview
 

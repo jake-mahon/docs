@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __2.Users__ > __AWS\_MFAStatus__ > __Configure__ node 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_MFAStatus Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/users/mfastatusanalysis.png)
+![Analysis Tasks for the AWS_MFAStatus Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/users/mfastatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -8,7 +8,7 @@ First, you need an account that Netwrix Auditor will use to access Nutanix File 
 
 This is the account you will provide in the monitoring plan wizard at the [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) step; it can be modified in the __General__ tab of the monitored item settings.
 
-![nutanix_item_mp_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_item_mp_thumb_0_0.png)
+![nutanix_item_mp_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_item_mp_thumb_0_0.webp)
 
 This account must have a role with sufficient privileges on that server: __File Server Admin__ (recommended) or __Backup Admin__ role.
 
@@ -18,7 +18,7 @@ You will also need an account that will be used to connect to Nutanix File Serve
 
 This account should be provided in the __Nutanix File Server REST API__ tab of the monitored item (_Nutanix SMB shares_) settings.
 
-![nutanix_item_restapi_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_item_restapi_thumb_0_0.png)
+![nutanix_item_restapi_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_item_restapi_thumb_0_0.webp)
 
 This account must be assigned the __REST API access users__ role for Nutanix File Server you want to audit.
 

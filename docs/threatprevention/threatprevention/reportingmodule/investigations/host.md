@@ -4,7 +4,7 @@ The Host Details page displays the groups that a host is a member of.
 
 In an investigation report, host names appear as links under the Target column in the Event Details and Top Resources sections (see the [Investigation Reports](/docs/threatprevention/threatprevention/reportingmodule/investigations/reports.md) topic). Click a link to land on the Host Details page.
 
-![Host Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/hostdetails.png)
+![Host Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/hostdetails.webp)
 
 The top of the page displays a host profile card which may contain the following information about the host:
 

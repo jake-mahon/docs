@@ -10,7 +10,7 @@ __NOTE:__ To review the dashboard a user requires the Access Reports permission 
 
 The dashboard is the home page for the administrative web console.
 
-![sensitive_dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.png)
+![sensitive_dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.webp)
 
 If you want to switch to the dashboard page after doing any other tasks in the administrative web console, do the following:
 
@@ -19,7 +19,7 @@ If you want to switch to the dashboard page after doing any other tasks in the a
   _OR_
 - Locate the Data Analysis top level menu and select Reports:
 
-  ![switch_dashboard](/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.png)
+  ![switch_dashboard](/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.webp)
 - Select the Dashboard tab on the left.
 
 __IMPORTANT!__ The data for the dashboard automatically updates every 15 minutes. Please note that refreshing the page will not update the data.
@@ -54,7 +54,7 @@ To apply filters
 
 1. Select Custom view in the upper left corner of the dashboard.
 
-   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.png)
+   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 2. Select a taxonomy(-ies) and/or a source group(s) you want to see real-time data for.
 3. Click Apply Filters to immediately review classified data matching your filtering criteria.
 
@@ -64,7 +64,7 @@ You can build up a few different dashboards for combinations of particular sourc
 
 1. Apply custom filters as described above.
 
-   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.png)
+   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 2. Click Save Configuration.
 
 To review saved configurations

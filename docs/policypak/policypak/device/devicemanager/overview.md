@@ -51,7 +51,7 @@ Endpoint Policy Managerhas the following components:
 
 Endpoint Policy Manager Cloud enables you to create Endpoint Policy Manager Device Manager directives using the in-cloud editors and connect endpoints to get Endpoint Policy Manager Device Manager directives.
 
-![ppcloud](/img/product_docs/policypak/policypak/device/devicemanager/ppcloud.png)
+![ppcloud](/img/product_docs/policypak/policypak/device/devicemanager/ppcloud.webp)
 
 While this manual mostly demonstrates concepts using the Group Policy editor, nearly everything can be done using the Endpoint Policy Manager Cloud editors. Additionally, you can take on-prem MMC directives and upload them to Endpoint Policy Manager Cloud and take in-cloud directives and download them back as MMC directives.
 
@@ -67,15 +67,15 @@ Microsoft makes it easy to turn off all access to USB sticks and other removable
 
 Here is exactly how to do that (without using Endpoint Policy Manager Device Manager) when using ADMX settings via GPOs.
 
-![device01](/img/product_docs/policypak/policypak/device/devicemanager/device01.png)
+![device01](/img/product_docs/policypak/policypak/device/devicemanager/device01.webp)
 
 The same may be performed using and MDM service like Intune using similar settings.
 
-![device02](/img/product_docs/policypak/policypak/device/devicemanager/device02.png)
+![device02](/img/product_docs/policypak/policypak/device/devicemanager/device02.webp)
 
 The result will be the same where Removable Devices will be stopped.
 
-![device03](/img/product_docs/policypak/policypak/device/devicemanager/device03.png)
+![device03](/img/product_docs/policypak/policypak/device/devicemanager/device03.webp)
 
 In this way you can completely shut out all devices for all users for all times.
 

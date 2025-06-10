@@ -20,7 +20,7 @@ Check if the user is in the correct organisational unit. The __add__ right to th
 
 You can either define the user directly as Basic view user. This works by changing the user type accordingly. Alternatively, you can activate the setting __Start Basic view at next login.__ This will prompt the user to log in to the Basic view.
 
-![image2](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/checklist/image2.png)
+![image2](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/checklist/image2.webp)
 
 5. Add default applications (optional)
 

@@ -10,7 +10,7 @@ The event filters for the File System Changes event type are:
 - AD Perpetrator
 - Success
 
-![Policy window - File System Changes Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.png)
+![Policy window - File System Changes Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -46,7 +46,7 @@ Event data collected by the policies with this event type are also available for
 
 Use the File System filter for monitoring to select the types of file system events to be monitored by the policy.
 
-![Policy window - File System filter for monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.png)
+![Policy window - File System filter for monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)
 
 Access Operations area
 
@@ -103,7 +103,7 @@ If the __Enable Automatic Lockdown__ option is enabled, the File System Lockdown
 
 Use the Paths filter to set the scope of the policy to only monitor specific file system paths or to exclude specific file system paths from being monitored.
 
-![Policy window - Paths filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/paths.png)
+![Policy window - Paths filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/paths.webp)
 
 The Include Paths section defines the top level folder or individual files for monitoring. Use the Exclude Paths section to refine and remove any child items from being monitored. Any files or folders to be excluded need to be a subset of a folder identified in the Include Paths section. This is also where the NAS device paths are added.
 
@@ -117,7 +117,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.png)
+![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the parent and all child content (files and folders). If unchecked, the filter is only applied to the listed folder and its first-level contents.
 
@@ -125,7 +125,7 @@ When paths are added, a Sub-Folder checkbox displays. If checked, the filter is 
 
 Use the Additional Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.png)
+![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected Agents/Domains list on the right displays Agents and domains included in the policy.
 
@@ -143,7 +143,7 @@ When a domain is added to the Selected Agents\Domains list, all Agents deployed 
 
 Use the AD Perpetrator filter for monitoring to set the scope of the policy to only monitor specific security principals committing changes or to exclude specific security principals committing changes from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.png)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude Collections areas to edit the lists.
 
@@ -155,7 +155,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.png)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent and all child contexts. Uncheck it to apply the filter to the listed context only.
 
@@ -163,7 +163,7 @@ When contexts are added, a Sub-Tree checkbox displays. Check it to apply the fil
 
 The Success filter is where the policy is set to only monitor successful events, failed events, or both.
 
-![Event Type – Success filter](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.png)
+![Event Type – Success filter](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
 
 Select the radio button for the desired monitoring filter:
 

@@ -5,7 +5,7 @@ A __password__ and a __Password Reset__ are explained in the following example.
 
 ## Password
 
-![password list](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_1-en.png)
+![password list](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_1-en.webp)
 
 1. The name of the created password
 2. General data about the password
@@ -15,7 +15,7 @@ A __password__ and a __Password Reset__ are explained in the following example.
 
 Another password is created in the __Password Reset module__ and is required for an associated __Password Reset__.
 
-![password reset list](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_2-en.png)
+![password reset list](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_2-en.webp)
 
 Points 1-7 are described below:
 

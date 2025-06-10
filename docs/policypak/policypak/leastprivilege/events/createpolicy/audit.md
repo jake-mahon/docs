@@ -10,28 +10,28 @@ __NOTE:__ See the [Auto-Create Policy from Global Audit event](/docs/policypak/p
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit.webp)
 
 Then you can follow the wizard and paste in Event log details for supported Endpoint Policy Manager Event IDs.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_1.webp)
 
 In this example, a 6301 (SecureRun) event can be made into a rule with Copy / Paste like this.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_2.webp)
 
 After pasting it in, the Wizard recommends some Actions, Conditions and Settings. You’re welcome to change these as you need to for your situation.
 
 ![A screenshot of a computer screen
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_3.webp)
 
 The result is a policy which performs the action (Elevate or Allow and Log).
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/createpolicy/creating_policy_from_audit_4.webp)

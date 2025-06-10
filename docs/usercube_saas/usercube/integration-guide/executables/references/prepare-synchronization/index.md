@@ -73,7 +73,7 @@ Any notification of a _complete_ Prepare-Synchronization would cancel the previo
 
 The figure models the complete _Prepare-Synchronization_ steps applied to an Active Directory export. The matching _Connector_ defines an Entity Type _AD Entry_ and two associations (_members_ and _manager_).
 
-![Active Directory Prepare-Synchronization Example](/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_preparesynchro_example.png)
+![Active Directory Prepare-Synchronization Example](/img/product_docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/ad_preparesynchro_example.webp)
 
 ## Examples
 

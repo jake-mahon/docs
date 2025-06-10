@@ -12,7 +12,7 @@ __NOTE:__ If youare using AGPM, GPA or GPOAdmin, skip this section and jump to t
 
 If you are encountering problems, first try to copy and paste the license ininstead of browsing for the file. Then click __Validate__  and continue.
 
-![69_2_image0011](/img/product_docs/policypak/policypak/license/activedirectory/69_2_image0011.png)
+![69_2_image0011](/img/product_docs/policypak/policypak/license/activedirectory/69_2_image0011.webp)
 
 ## Option 2: Importing a license directly into an existing GPO
 
@@ -24,15 +24,15 @@ __Step 1 –__ Go to __Computer Configuration__ > __Endpoint Policy Manager__, t
 
 __NOTE:__  This node will NOT appear when using NetIQ GPA!!
 
-![69_3_image0021](/img/product_docs/policypak/policypak/license/activedirectory/69_3_image0021.png)
+![69_3_image0021](/img/product_docs/policypak/policypak/license/activedirectory/69_3_image0021.webp)
 
 Alternatively, click __Computer Configuration__ > Endpoint Policy Manager > __Admin Templates Manager__ > __License Management__. This is an alternate way to get to License Management, and which does work for NetIQ GPA).
 
-![69_4_2015-06-03_2227](/img/product_docs/policypak/policypak/license/activedirectory/69_4_2015-06-03_2227.png)
+![69_4_2015-06-03_2227](/img/product_docs/policypak/policypak/license/activedirectory/69_4_2015-06-03_2227.webp)
 
 __Step 2 –__ Then import the licenses received from Endpoint Policy Manager sales.
 
-![69_5_image0071](/img/product_docs/policypak/policypak/license/activedirectory/69_5_image0071.png)
+![69_5_image0071](/img/product_docs/policypak/policypak/license/activedirectory/69_5_image0071.webp)
 
 __Step 3 –__ Verify that the licenses are in the GPO by looking at the GPMC settings report:
 
@@ -44,4 +44,4 @@ Endpoint Policy Manager doesn't care where USERS are located, only where compute
 
 __NOTE:__ Endpoint Policy Manager will not work in un-licensed locations. Those must be selected when providing your license request key before your licenses are cut.
 
-![69_7_image011](/img/product_docs/policypak/policypak/license/activedirectory/69_7_image011.png)
+![69_7_image011](/img/product_docs/policypak/policypak/license/activedirectory/69_7_image011.webp)

@@ -25,7 +25,7 @@ __Step 3 –__ Click the __Risks__ tab to access the state-in-time reports. This
 
 __NOTE:__ Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk Assessment page, where you can monitor the risks for the selected organization. See the [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional information.
 
-![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.png)
+![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
 
 __Step 4 –__ In the left pane, click a category to view its reports. Categories are:
 

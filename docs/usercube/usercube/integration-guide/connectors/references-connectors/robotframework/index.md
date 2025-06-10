@@ -6,7 +6,7 @@ This page is about [
 Robot Framework
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/robot-framework/index.md)
 
-![Package: Custom/Robot Framework](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.png)
+![Package: Custom/Robot Framework](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
 ## Overview
 

@@ -23,13 +23,13 @@ Netwrix Privilege Secure consists of a number of components that work together t
 
 Privilege Secure for Access Management can be installed on a single Windows server. Typically, this architecture is only used for Proof of Concepts or testing purposes. All components are installed on the application server. This scenario provides rapid start capability, and in most cases, installation and initial configuration can be completed in as little as 20 minutes.
 
-![Single Server Deployment](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/singleserverdeployment.png)
+![Single Server Deployment](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/singleserverdeployment.webp)
 
 ## Privilege Secure Server with Remote Services
 
 The Proxy and Action services will consume resources according to load. Often it is necessary to install Proxy and Action Services on additional hosts for scalability, redundancy, or network segmentation. Adding these services to other hosts provides the option to disable these services on the application server.
 
-![Distributed Architecture Data Flow Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/distributedarchitecture.png)
+![Distributed Architecture Data Flow Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/distributedarchitecture.webp)
 
 The user can contact the Web service over port 6500, illustrated with a blue arrow. They can also talk directly to the Proxy service, illustrated with a green arrow over port:
 
@@ -57,7 +57,7 @@ The Service Mesh connects remote services to the central Web service. Each remot
 
 For high-availability, the application allows two identical servers to be configured such that at any one time, all components of all hosts are active for the purposes of load-balancing and redundancy, with a replicated database pair. When the Primary becomes unavailable, a high-availability configuration tool is used to manually instigate failover. All external components on operational resources continue to service requests.
 
-![Active-Passive Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activepassivedatabase.png)
+![Active-Passive Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activepassivedatabase.webp)
 
 The Active-Passive configuration, which is only available with the PostgreSQL database, allows you to leverage the embedded database. It is also the simplest option for configuring high-availability. However, it does require the manual intervention to failover.
 
@@ -65,13 +65,13 @@ The Active-Passive configuration, which is only available with the PostgreSQL da
 
 The Active-Active configuration for high-availability is available for both the PostgreSQL and SQL Server database options. No manual intervention is required. Many application servers can be added to the database for redundancy and scalability. However, setup is more complex than an Active-Passive configuration. Also, you will need an additional server for the database.
 
-![Active-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activeactivedatabase.png)
+![Active-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activeactivedatabase.webp)
 
 ## Cloud-Native Database Deployment
 
 Cloud-native databases can be used for Active-Active configuration. They benefit from having built-in high-availability and auto-scaling. AWS supports databases for PostgreSQL (Aurora PostgreSQL) and SQL Server (RDS SQL Server). Azure also supports databases for PostgreSQL and SQL Server.
 
-![AWS Acrive-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/awsdatabase.png)
+![AWS Acrive-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/awsdatabase.webp)
 
 ## Third-Party Vault Integration
 
@@ -82,7 +82,7 @@ Often it is desirable to pull managed credentials from existing vaults into Priv
 - Onboard credentials without having to change API references in applications
 - Build on existing infrastructure
 
-![Bring Your Own Vault Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovdatabase.png)
+![Bring Your Own Vault Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovdatabase.webp)
 
 ## LAPS Integration
 
@@ -92,4 +92,4 @@ Microsoft Active Directory supports the changing of local Administrator password
 - Faster deployment time
 - Offboard password changing process to Active Directory
 
-![Bring Your Own Vault LAPS Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovlapsdatabase.png)
+![Bring Your Own Vault LAPS Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovlapsdatabase.webp)

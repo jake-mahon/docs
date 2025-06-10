@@ -15,7 +15,7 @@ You can create a new custom report for an existing job from the job’s Reports 
 
 __Step 1 –__ Navigate to __Jobs__ > __[Job]__ > __Configure__ and select the __Reports__ node.
 
-![Create report option](/img/product_docs/threatprevention/threatprevention/eperestsite/create.png)
+![Create report option](/img/product_docs/threatprevention/threatprevention/eperestsite/create.webp)
 
 __Step 2 –__  On the Reports page, click Create.
 
@@ -23,7 +23,7 @@ __Step 3 –__ The Report Configuration wizard is automatically launched. Use th
 
 The new report is added to the Reports table.
 
-![Generate report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/generate.png)
+![Generate report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/generate.webp)
 
 __Step 4 –__ Click the vertical ellipsis menu next to the report and select Generate.
 
@@ -33,11 +33,11 @@ The report is now created. To access the new report, see the [Viewing Generated 
 
 You can create a new report by copying an existing report and pasting it in a job’s Reports node. You can then optionally customize the report as required. Follow the steps to create a copy of an existing report.
 
-![Copy Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/copy.png)
+![Copy Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/copy.webp)
 
 __Step 1 –__ Navigate to the Reports node where the desired report to copy is located. Click the vertical ellipsis menu next to the report and select Copy.
 
-![Paste Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/paste.png)
+![Paste Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/paste.webp)
 
 __Step 2 –__ Navigate to the Reports node in the desired destination for the new report. Click the vertical ellipsis menu in the header row of the Reports table and select Paste.
 

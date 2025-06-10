@@ -2,7 +2,7 @@
 
 The Connection Profiles page is accessible from the Navigation pane under __Policy__ > __Access Policy__ > __Connection Profiles__. It shows the configuration options for managing the session of the selected access policy. An approval workflow can be configured so that the session must be approved before the requester of the session can log in.
 
-![Connection Profiles Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Connection Profiles Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured connection profiles. This pane has the following features:
 
@@ -42,7 +42,7 @@ The selected profile details display in the main pane:
   - Require Ticket Number for Sessions — Require the user to enter a ticket number in the Ticket Number field when creating a session
   - Activity Token Complexity Policy — Establishes how complex an activity token must be. Users can choose custom polices created on the [Activity Token Complexity Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activitytokencomplexity.md). Left blank, the Console will use the default activity token complexity policy.
 
-![Connection Profiles Page Extended](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/pageextended.png)
+![Connection Profiles Page Extended](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/pageextended.webp)
 
 - Credential Management settings:
 

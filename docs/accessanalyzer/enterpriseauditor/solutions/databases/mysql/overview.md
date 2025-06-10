@@ -43,7 +43,7 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer MySQL Solution Set is a set of pre-configured audit jobs and reports that provides visibility into MySQL Sensitive Data.
 
-![MySQL Job Group Overview](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.png)
+![MySQL Job Group Overview](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.webp)
 
 The job groups in the MySQL Solution are:
 

@@ -8,7 +8,7 @@ Now that you have your XML data files, you're ready to bundle them up and make t
 
 __Step 1 –__ When you install the Endpoint Policy Manager Admin Console MSI, you automatically install the Endpoint Policy Manager Exporter utility. In order to launch it, locate the utility's icon in the Start menu within Endpoint Policy Manager Application Settings Manager, as shown in Figure 3.
 
-![deploying_policypak_directives_2](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_2.png)
+![deploying_policypak_directives_2](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_2.webp)
 
 Figure 3. The Endpoint Policy Manager Exporter utility icon in the Start menu.
 
@@ -35,13 +35,13 @@ Table 1: Example files.
 
 When Endpoint Policy Manager Exporter is launched, you'll be able to perform the actions shown in Figure 4.
 
-![deploying_policypak_directives_3](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_3.png)
+![deploying_policypak_directives_3](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_3.webp)
 
 Figure 4. The Endpoint Policy Manager Exporter tool helps the user create XML data files and package the files into an MSI installer.
 
 __Step 2 –__ Endpoint Policy Manager Exporter will create MSIs from your existing XML data files and Endpoint Policy Manager licensing files or open up an existing MSI that you created earlier using this tool. For now, select "Create a new MSI installer." Then, you'll see the option, "Add Existing Files," as shown in Figure 5.
 
-![deploying_policypak_directives_4](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_4.png)
+![deploying_policypak_directives_4](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_4.webp)
 
 Figure 5. The option to add existing files.
 
@@ -55,7 +55,7 @@ The "Add Existing Files" button lets you bring in the following types of files:
 
 With Endpoint Policy Manager Exporter you can wrap these up into an MSI. In Figure 6, we have added a variety of exported XML settings.
 
-![deploying_policypak_directives_5](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_5.png)
+![deploying_policypak_directives_5](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_5.webp)
 
 Figure 6. Exported XML settings.
 
@@ -67,19 +67,19 @@ __NOTE:__  For MDM and Endpoint Policy Manager Cloud scenarios, it's common to s
 
 __Step 4 –__ By default, newly added XML data files will be delivered to all users, as shown in Figure 7. This means the settings get delivered to the Computer side, and the result is that all users must receive the settings. However, in our example, we want the WinZip1.xml file to be delivered to EastSalesUser1 and EastSalesUser2. Therefore, use the dropdown menu under "Install For," and change it from "Computer" to "Users & Groups." After you do this, the Target column populates with "0 Users," as illustrated in Figure 7.
 
-![deploying_policypak_directives_6](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_6.png)
+![deploying_policypak_directives_6](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_6.webp)
 
 Figure 7. Selecting which group will get the XML data files.
 
 __Step 5 –__ Click on "0 Users" to specify the users you want the WinZip1.xml file to work with. In the Select Users or Groups dialog, click "Add Users / Groups," and specify the users (or groups) you want this XML data file to apply to (see Figure 8). Then click "OK."
 
-![deploying_policypak_directives_7](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_7.png)
+![deploying_policypak_directives_7](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_7.webp)
 
 Figure 8. Selecting the targeted users.
 
 Notice that ```theWinZip1.xml``` file is now set to be delivered to two users (see Figure 9). You can also specify Active Directory groups instead of just users. To help specify these types of users, the Target column will express how many users and how many groups are being targeted.
 
-![deploying_policypak_directives_8](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_8.png)
+![deploying_policypak_directives_8](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_8.webp)
 
 Figure 9. The Target column shows how many users and how many groups are being targeted.
 
@@ -87,7 +87,7 @@ __NOTE:__  Licensing files are always set to deliver to all users.
 
 __Step 6 –__ You can repeat the process by clicking on "Create New PPAM XMLdata File" or "Add Existing Files" and then specifying which users you want the directives to apply to. When you are done, click "Next" to continue. This will initiate the Installer Properties page where you can name the MSI and manufacturer however you wish (as shown in Figure 10).
 
-![deploying_policypak_directives_9](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_9.png)
+![deploying_policypak_directives_9](/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_9.webp)
 
 Figure 10. Naming the MSI.
 

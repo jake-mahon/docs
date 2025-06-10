@@ -2,7 +2,7 @@
 
 You can search domain activity that has been monitored and recorded to a File output. When you select __Active Directory__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![Search - Active Directory New Search Tab](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/activedirectorynewsearchtab.png)
+![Search - Active Directory New Search Tab](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/activedirectorynewsearchtab.webp)
 
 The filters are separated into the following categories:
 
@@ -31,7 +31,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category addresses who, what, where, and when an object, user, host, or domain controller is affected by the events selected in the other categories. The time frame filter must be configured for every search query.
 
-![Active Directory Search - General Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.png)
+![Active Directory Search - General Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -54,7 +54,7 @@ This section has the following filters:
 
 The Object Changes category scopes the query by objects with change activity.
 
-![Object Changes Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/objectchangesfilters.png)
+![Object Changes Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/objectchangesfilters.webp)
 
 This section has the following filters:
 
@@ -70,7 +70,7 @@ This section has the following filters:
 
 The LSASS Guardian category scopes the query by LSASS Guardian activity.
 
-![LSASS Guardian Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/lsassguardianfilters.png)
+![LSASS Guardian Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/lsassguardianfilters.webp)
 
 This section has the following filters:
 
@@ -82,7 +82,7 @@ This section has the following filters:
 
 The LDAP Queries category scopes the query by LDAP query activity.
 
-![LDAP Queries Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/ldapqueriesfilters.png)
+![LDAP Queries Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/ldapqueriesfilters.webp)
 
 This section has the following filters:
 
@@ -93,7 +93,7 @@ This section has the following filters:
 
 The Authentication category scopes the query by authentication activity.
 
-![Authentication Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/authenticationfilters.png)
+![Authentication Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/authenticationfilters.webp)
 
 This section has the following filters:
 

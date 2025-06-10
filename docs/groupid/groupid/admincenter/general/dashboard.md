@@ -5,7 +5,7 @@ The Admin Center dashboard is a data visualization tool that displays widgets fo
 In Admin Center, click __Dashboard__ in the left pane. The dashboard displays the following cards with aggregated data from all identity stores built on Active Directory, Microsoft Entra ID, Google Workspace, and Generic
 LDAP, as well as individual identity stores.
 
-![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.png)
+![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
 
 The dashboard displays the following information:
 
@@ -62,7 +62,7 @@ Select an identity store from the list next to the card name to view the upcomin
 
 Click __View All__ to view a list of the upcoming schedules with their names, the next date and time of schedule run, and the identity store they belong to.
 
-![image38](/img/product_docs/groupid/groupid/admincenter/general/image38.png)
+![image38](/img/product_docs/groupid/groupid/admincenter/general/image38.webp)
 
 ## Replication Status of Identity Stores
 

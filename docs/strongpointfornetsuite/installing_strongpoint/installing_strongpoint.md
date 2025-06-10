@@ -18,13 +18,13 @@ The Bundle ID has been updated due to NetSuite changes.
 3. Enter __294336__ in __Keywords__
 4. Click __Search__
 
-   ![Search for the Strongpoint Bundle](/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.png)
+   ![Search for the Strongpoint Bundle](/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.webp)
 5. Click __Strongpoint__
 6. Click __Install__ to start the bundle installation.
 7. Verify the installation is complete. Open __Customization__ > __SuiteBundler__ > __Search & Install Bundles__ > __List__  
    In the __Installed Bundles__ list, the __Strongpoint__ bundle is marked with a green check in the __Status__ column when the bundle is installed.
 
-   ![Verify Strongpoint Bundle Installation](/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.png)
+   ![Verify Strongpoint Bundle Installation](/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.webp)
 
 ## Set the Number of Row in List Segments
 

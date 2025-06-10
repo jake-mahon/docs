@@ -11,7 +11,7 @@ Mailbox `<User B's address>` on behalf of Mailbox `<User A’s address>`.
 
 The administrator can provide the Send As and Send on Behalf features on any tab in [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md). They are displayed as:
 
-![sendassendon](/img/product_docs/groupid/groupid/portal/group/manage/sendassendon.png)
+![sendassendon](/img/product_docs/groupid/groupid/portal/group/manage/sendassendon.webp)
 
 Use the __Add__ and __Remove__ buttons to add and remove objects in the Send As and Send on Behalf lists.
 

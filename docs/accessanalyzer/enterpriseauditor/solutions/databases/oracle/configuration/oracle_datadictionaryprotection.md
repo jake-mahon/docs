@@ -8,7 +8,7 @@ Navigate to the __Jobs >  Databases > Oracle > 4.Configuration > Oracle\_DataDi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/configuration/analysisddprotection.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/configuration/analysisddprotection.webp)
 
 The default analysis tasks are:
 

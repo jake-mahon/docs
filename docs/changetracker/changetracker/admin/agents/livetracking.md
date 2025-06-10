@@ -18,7 +18,7 @@ For I/O changes that are part of the Tracking Template, the driver simply logs t
 
 Neither the server nor the agent requires a restart after live tracking has been enabled.
 
-![minifilter_767x740](/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.png)
+![minifilter_767x740](/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.webp)
 
 The Change Tracker minifilter doesn't make any alterations to user requests, it only monitors I/O activity.
 

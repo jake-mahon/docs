@@ -8,4 +8,4 @@ __NOTE:__ When an Netwrix Change Tracker Agent is used on a Domain Controller, t
 
 There is minimal configuration required to activate the Change Tracker – just check the __Track local user account settings in this template__ box and define the poll period then save settings to the Template. Any changes to the initial baseline will be alerted and reported.
 
-![PolicyTemplatesAccountsTracker](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesaccountstracker.png)
+![PolicyTemplatesAccountsTracker](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesaccountstracker.webp)

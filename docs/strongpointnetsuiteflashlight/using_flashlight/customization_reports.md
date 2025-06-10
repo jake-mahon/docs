@@ -16,7 +16,7 @@ It is a best practice to use Script IDs that are unique, short, and descriptive.
 
 This report provides a list of all customizations in the system that have Script IDs not aligned with NetSuite's best practices.
 
-![Customizations with Poor Script IDs](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/poorscriptids_800x284.png)
+![Customizations with Poor Script IDs](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/poorscriptids_800x284.webp)
 
 To correct this issue on a specific customization record:
 
@@ -28,7 +28,7 @@ To correct this issue on a specific customization record:
 
 Each object in NetSuite should have a Description that explains what the object is and how it is used in the system. This report provides a list of all customizations in your account that have no description.
 
-![Customizations with Missing Descriptions](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missingdescriptions_800x339.png)
+![Customizations with Missing Descriptions](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missingdescriptions_800x339.webp)
 
 To correct this issue on a specific customization record:
 
@@ -40,7 +40,7 @@ To correct this issue on a specific customization record:
 
 It is very common for a record owner to be inactive in the system due to employees departing from the organization. If an inactive employee is the owner of a field or record in the system, it could be harmful for your account. This report displays a list of all customizations in the system that currently have inactive employees as owners.
 
-![Customizations with Missing Active Owner](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/activeowners_800x314.png)
+![Customizations with Missing Active Owner](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/activeowners_800x314.webp)
 
 To correct this issue on a specific customization record:
 
@@ -53,7 +53,7 @@ To correct this issue on a specific customization record:
 
 It is a best practice to include help text on your fields so that your employees can better understand what the field does and how to use it. This report displays a list of all the fields in the system that are missing help text.
 
-![Customizations with Missing Help](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missinghelp_800x316.png)
+![Customizations with Missing Help](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missinghelp_800x316.webp)
 
 To correct this issue on a specific customization record:
 
@@ -66,4 +66,4 @@ To correct this issue on a specific customization record:
 
 This report displays a list of all customizations in your account that were deleted. This enables you to easily spot undesired removals and resolve them quickly.
 
-![Deleted Customizations](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/deletedcustos_800x309.png)
+![Deleted Customizations](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/deletedcustos_800x309.webp)

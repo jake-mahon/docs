@@ -12,13 +12,13 @@ Click the __System Audit and Support__ tile on the Configuration Console dashboa
 
 ## Version Tracker
 
-![System Audit and Support Version Tracker tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.png)
+![System Audit and Support Version Tracker tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.webp)
 
 Click __Run test__. The audit reports the discovered domain controllers and versions.
 
 __NOTE:__ If you do not see the __Configuration Timestamp__, contact your network administrator to set up the firewall to allow Password Policy Enforcer to communicate.
 
-![System Audit results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemauditversion.png)
+![System Audit results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemauditversion.webp)
 
 You can click the export icon to download your results. The file name is __Audit\____timestamp___.xlxs__, it is downloaded into the default __Downloads__ folder. For large domains, you can apply filters or use the Search feature to make it easier to navigate your list.
 
@@ -28,7 +28,7 @@ __NOTE:__ __Debug logging__ should only be enabled when you are actively debuggi
 
 The __Support Tools__ tab enables you to save a configuration report, export/import PPE settings, and open the property editor.
 
-![System Audit Support Tools tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudittools.png)
+![System Audit Support Tools tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudittools.webp)
 
 - __Policies Configuration Report__ saves the configuration as a text file. Browse to the folder where you want the report. The default filename is __PPEConfig.txt__.
 - __PPE Settings__ export your PPE settings for a backup. You can import the settings to replicate configurations across systems.
@@ -48,7 +48,7 @@ or
 
 __System Audit and Support__ > __Support Tools__ > __Open editor__
 
-![Property Editor](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/propertyeditor.png)
+![Property Editor](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/propertyeditor.webp)
 
 - __Policy__: select the policy to edit.
 - __Property__: select the property to change.

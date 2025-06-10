@@ -8,7 +8,7 @@ The event filters for the GPO Setting Lockdown event type are:
 - Domains/Servers
 - AD Perpetrator
 
-![New Policy window - GPO Setting Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ggposettinglockdown.png)
+![New Policy window - GPO Setting Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ggposettinglockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -20,7 +20,7 @@ __CAUTION:__ Lockdown/blocking policies with blank filters result in everything 
 
 Use the AD Group Policy Object filter to set the scope of the policy to lockdown specific GPOs.
 
-![Policy window - AD Group Policy Object filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgrouppolicyobject.png)
+![Policy window - AD Group Policy Object filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgrouppolicyobject.webp)
 
 In the GPO File Operations section, select the __All__ checkbox to include all operations or select specific operations:
 
@@ -40,7 +40,7 @@ In the Group Policy Objects section, scope to specific GPOs:
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -54,7 +54,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 

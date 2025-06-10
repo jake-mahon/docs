@@ -12,4 +12,4 @@ Endpoint Policy Manager for Mac supports a variety of scenarios:
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/supported_scenarios_and_policy.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/supported_scenarios_and_policy.webp)

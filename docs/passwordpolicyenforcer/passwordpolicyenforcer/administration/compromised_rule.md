@@ -2,7 +2,7 @@
 
 The Compromised rule rejects passwords from prior breaches. These passwords should not be used as they are vulnerable to credential stuffing attacks.
 
-![Compromised password rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromised.png)
+![Compromised password rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromised.webp)
 
 Select the __Compromised__ check box to enable the Compromised rule.
 

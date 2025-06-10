@@ -10,7 +10,7 @@ Data synchronization is a data flow from the managed systems into Identity Manag
 
 A connector's main purpose is to read and export the data previously mapped with [Create an Entity Type](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) in order to synchronize it with Identity Manager. Connectors provide tools to perform a basic extraction of the system's data in the form of CSV/XLSX files. These files are cleansed and loaded into Identity Manager. Synchronization is a three-step ETL process going through export, synchronization preparation and the synchronization itself.
 
-![Synchronization Schema](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_schema.png)
+![Synchronization Schema](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_schema.webp)
 
 #### Export
 
@@ -88,19 +88,19 @@ Launch synchronization for a given managed system by proceeding as follows:
 
 1. Access the list of connectors by clicking on __Connectors__ on the home page in the __Configuration__ section.
 
-   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 2. On the relevant connector page, in the __Entity Types__ frame, click on __Jobs__.
 
    Here are all the tasks available for synchronization. They synchronize all connections and entity types for only this connector. It is possible to launch them individually in order to test them and debug a situation, or all together with __All Tasks__. According to the created connection(s) and package(s), all these tasks can be launched either in incremental or complete mode.
 
-   ![Synchronize Job](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.png)
+   ![Synchronize Job](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
 
    - ```Update Expressions```: computes the expressions used in the entity type mapping.
    - ```All Tasks```: launches all previous tasks in a row.
 
    Notice that some connectors, depending on their connections and packages, can't be synchronized in incremental mode. As a consequence, when clicking on the __Jobs__ button, you wouldn't have a choice between ```Complete``` and ```Incremental```. See below this note.
 
-   ![Synchronize Job (Only Complete)](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs-complete_v602.png)
+   ![Synchronize Job (Only Complete)](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs-complete_v602.webp)
 
 ## Manage Synchronization Automation
 
@@ -119,17 +119,17 @@ Scheduling the jobs avoids manually triggering them everyday.
 
 However, you can choose to withdraw a given connector from both the complete and incremental jobs by clicking on __Deactivate__ on the connector's dashboard. This is particularly useful when modifying a connector. You can also re-insert it at any time with the same button which is now named __Activate__.
 
-![Jobs Results Dashboard](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_dashboard_v522.png)
+![Jobs Results Dashboard](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_dashboard_v522.webp)
 
 You can fine-tune the synchronization and/or provisioning of the connector by clicking on the __Edit__ button.
 
-![Edit button](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_edit_v600.png)
+![Edit button](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_edit_v600.webp)
 
 Click on __Job Results__ to access the progress of this connector's jobs.
 
 All jobs are accessible on the __Job Execution__ page in the __Administration__ section.
 
-![Home - Job Execution](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+![Home - Job Execution](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 ## Verify an Entity Type's Synchronization
 
@@ -138,10 +138,10 @@ In order to verify both the synchronization configuration and [Create an Entity 
 1. Launch synchronization.
 2. Access the connector's logs (from __Job Results__ on the connector's dashboard) to ensure that synchronization completed successfully.
 
-   ![Jobs Results](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_results_v603.png)
+   ![Jobs Results](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_results_v603.webp)
 3. Check that the entity types have been added to the left menu of the home page.
 
-   ![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.png)
+   ![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
 4. Access the relevant entity types (from the menu items on the left of the home page) to check synchronized resources, by navigating in the UI from the accounts through a sample of associations, via the eye icon:
 
    ![Eye Icon](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
@@ -150,15 +150,15 @@ In order to verify both the synchronization configuration and [Create an Entity 
 
    > For example, let's say we created a connector for SAB that contains two entity types called ```SAB - Users``` and ```SAB - Groups```. Then, the home page shows them on the left.
    >
-   > ![SAB Example - Home Page](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab_v522.png)
+   > ![SAB Example - Home Page](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab_v522.webp)
    >
    > Clicking on ```SAB - Users``` displays the list of all synchronized resources.
    >
-   > ![SAB Example - Data List](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab2_v602.png)
+   > ![SAB Example - Data List](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab2_v602.webp)
    >
    > Clicking on any resource displays its detailed attributes, for example ```Abbott Mark```:
    >
-   > ![SAB Example - Resource Attributes](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab3_v602.png)
+   > ![SAB Example - Resource Attributes](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_examplesab3_v602.webp)
    >
    > Clicking on any eye icon displays the corresponding resource. SAB was created here with a simple user-group schema that links n users to n groups. So here, we can check these links by navigating from a given user to one of their groups, to one of said group's users, to one of said user's groups, etc.
 
@@ -172,7 +172,7 @@ Don't hesitate to launch synchronization-related tasks individually and observe 
 
 If the connector and/or entity type doesn't appear in the menu items, then:
 
-![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
+![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 Access the relevant connector's page and click on the __Reload__ button to take into account the last changes in the entity type mappings.
 
@@ -182,14 +182,14 @@ Access the relevant connector's page to click on the __Reload__ button to take i
 
 If a synchronization is blocked by an exceeded threshold, then:
 
-![Threshold warning](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_threshold_v603.png)
+![Threshold warning](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_threshold_v603.webp)
 
 Find out the reasons to decide whether or not to bypass the threshold. Proceed as follows:
 
 1. On the logs page (accessible from the __Job Results__ button), click on the line of a task instance to see its logs.
 2. Study synchronization counters and the list of all synchronization changes. These tools help you make a decision about whether to bypass synchronization thresholds.
 
-   ![Job progress](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_thresholdlog_v603.png)
+   ![Job progress](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_thresholdlog_v603.webp)
 
    In most cases, the first synchronization exceeds thresholds because no data exists in Identity Manager yet. Thus, a high quantity of modifications is expected and the synchronization is to be resumed.
      
@@ -204,19 +204,19 @@ Find out the reasons to decide whether or not to bypass the threshold. Proceed a
 
    Be cautious, check twice for mistakes before resuming.
 
-   ![Resumed Job](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_thresholdresumed_v602.png)
+   ![Resumed Job](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_thresholdresumed_v602.webp)
 
 If an export doesn't complete, then:
 
 - Check the connection's settings.
 - If you manually typed the source column of a property in the entity types, then make sure that the source column exists in the corresponding managed system.
 
-  ![Source Column](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/entitytype_sourcecolumn_v602.png)
+  ![Source Column](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/entitytype_sourcecolumn_v602.webp)
 
 If a given property from users' data is displayed in an unexpected way, then:
 
 Check the format of both the application metadata and the external system.
 
-![Property Format](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/entitytype_format_v523.png)
+![Property Format](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/entitytype_format_v523.webp)
 
 > For example, if you find that a given date doesn't comply with what you set, then maybe the format in the External System section wasn't correctly selected, thus inducing a conversion error during the export computation.

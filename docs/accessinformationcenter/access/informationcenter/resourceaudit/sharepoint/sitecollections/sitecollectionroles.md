@@ -4,7 +4,7 @@ The Site Collections Roles report at the site collection level provides a list o
 
 __NOTE:__ This report is only available at the site collection level.
 
-![Site Collections Roles report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.png)
+![Site Collections Roles report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.webp)
 
 This report is comprised of the following columns:
 

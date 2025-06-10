@@ -2,7 +2,7 @@
 
 Gives to a given profile the rights to create, update, delete and query any assigned profile, from the __Assigned Profiles__ screen.
 
-![Assigned Profiles](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.png)
+![Assigned Profiles](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
 
 ## Examples
 

@@ -19,7 +19,7 @@ NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_ permission, only the _Static Group_ option is displayed on the _Group Type_ page.
 - If a user has the _Create Smart Group_ permission and is denied the _Create Static Group_ permission, all options except _Static Group_ are displayed on the _Group Type_ page.
-![group_type](/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.png)
+![group_type](/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.webp)
 
 NOTE: You can customize the _Group Type_ page individually for static group, Smart Group, and each of the Dynasty types. However:
 

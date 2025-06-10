@@ -14,13 +14,13 @@ For example, one can run something like this from the Run dialog (or in many oth
 cmd /c "mkdir C:\TEST & copy c:\Windows\notepad.exe C:\TEST"
 ```
 
-![538_1_image-20201215000203-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/securerun_and_inline_commands.png)
+![538_1_image-20201215000203-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/securerun_and_inline_commands.webp)
 
 Normally, users don't do this. But it could be valid during an application installation or program setup.
 
 This technique is essentially what is used in much modern malware, as seen in this diagram.
 
-![538_2_image-20201215000203-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_2_image-20201215000203-2.png)
+![538_2_image-20201215000203-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_2_image-20201215000203-2.webp)
 
 When commands are run in this way, Endpoint Policy Manager SecureRun cannot know precisely what to do.
 
@@ -42,21 +42,21 @@ cmd /c "mkdir C:\TEST & copy c:\Windows\notepad.exe C:\TEST"
 
 To overcome this, you would need to make an Executable rule (not a Script rule). You would specify a Combo rule, then specify Path and Command Line Arguments like what's seen here.
 
-![538_3_image-20201215000203-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_3_image-20201215000203-3.png)
+![538_3_image-20201215000203-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_3_image-20201215000203-3.webp)
 
 The Path Condition part would be CMD.EXE:
 
-![538_4_image-20201215000203-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_4_image-20201215000203-4.png)
+![538_4_image-20201215000203-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_4_image-20201215000203-4.webp)
 
 Then the most secure would be "Strict equality" and then specify the arguments which make up the remainder of the command.
 
 Note that other configurations may work, but only "Strict equality" would be the most secure.
 
-![538_5_image-20201215000203-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_5_image-20201215000203-5.png)
+![538_5_image-20201215000203-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_5_image-20201215000203-5.webp)
 
 Finally, set Allow And Log.
 
-![538_6_image-20201215000203-6](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_6_image-20201215000203-6.png)
+![538_6_image-20201215000203-6](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_6_image-20201215000203-6.webp)
 
 Now you have a rule which is explicitly enabled to overcome a SecureRun block.
 
@@ -64,7 +64,7 @@ Now you have a rule which is explicitly enabled to overcome a SecureRun block.
 
 If Endpoint Policy Manager SecureRun has no configuration or is explicitly Disabled, like what's seen here, then the inline checking will not function.
 
-![538_7_image-20201215000203-7](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_7_image-20201215000203-7.png)
+![538_7_image-20201215000203-7](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/538_7_image-20201215000203-7.webp)
 
 ## Option 3: Universally revert Endpoint Privilege Manager SecureRun™ Inline Command Processing Behavior to bypass inline commands (Less Secure; possibly recommended)
 

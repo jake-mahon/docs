@@ -2,7 +2,7 @@
 
 The EX\_Mailflow job collects message trace data from Office 365.
 
-![0. Collection > EX_Mailflow Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0. Collection > EX_Mailflow Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The EX\_Mailflow job is located in the __Mailflow__ > __0. Collection__ job group.
 
@@ -20,7 +20,7 @@ See the [Analysis Tasks for the EX\_Mailflow Job](#analysis-tasks-for-the-ex_mai
 
 The EX\_Mailflow job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Mailflow Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowqueries.png)
+![Queries for the EX_Mailflow Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowqueries.webp)
 
 The following queries are included in the EX\_Mailflow job:
 
@@ -48,7 +48,7 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.png)
+![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.webp)
 
 __Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md) topic for additional information.
 
@@ -64,7 +64,7 @@ View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowanalysis.png)
+![Analysis Tasks for the EX_Mailflow Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowanalysis.webp)
 
 The following analysis tasks are selected by default:
 

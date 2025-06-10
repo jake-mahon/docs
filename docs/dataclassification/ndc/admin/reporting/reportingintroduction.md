@@ -8,7 +8,7 @@ The main dashboard has three high level graphs highlighting the current state of
 - Index Size – Shows the percentage of each source type being processed: Files, SharePoint, SQL and Web sources
 - Classification Coverage – Shows the percentage of classified content, broken down by type, and the percentage of content that has not received any auto-classifications:
 
-![reportsdashboard](/img/product_docs/dataclassification/ndc/admin/reporting/reportsdashboard.png)
+![reportsdashboard](/img/product_docs/dataclassification/ndc/admin/reporting/reportsdashboard.webp)
 
 The Classification Distribution graph highlights areas of classification overlap. In the example below the classification “Communications” has been found to be the most highly scoring term that overlaps on all 3 of the site collections displayed. However, the classification “Data” applies very strongly to the “2013” site collection.
 

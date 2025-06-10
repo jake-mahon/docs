@@ -18,7 +18,7 @@ Navigate to the __AWS__ > __4.Roles__ > __AWS\_StaleRoles__ > __Configure__ node
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_StaleRoles Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/stalerolesanalysis.png)
+![Analysis Tasks for the AWS_StaleRoles Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/stalerolesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

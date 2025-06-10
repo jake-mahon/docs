@@ -2,7 +2,7 @@
 
 The Audit and Compliance page in the Investigations interface list of saved out-of-the-box investigations with applied filters for commonly used Audit and Compliance activity reports.
 
-![Investigations interface on the Audit and Compliance page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.png)
+![Investigations interface on the Audit and Compliance page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/auditcompliance.webp)
 
 The table displays the list of investigations with the following columns:
 

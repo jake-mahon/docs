@@ -4,7 +4,7 @@
 
 Security-critical data does not necessarily need to be in the form of passwords. To enable the uniform and secure storage of data other than passwords, Netwrix Password Secure version 9 offers effective tools for the professional handling of sensitive documents and files. The ability to share documents with others according to their permissions gives you access to the current status of a document and helps avoid redundancies. The documents module is complemented by a sophisticated version management system, which records all versions of a document that were saved in the past and thus enables you to revert back to historical versions. The configuration of visibility is explained in a similar way to the other modules in one place..
 
-![Document modul](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_1-en.png)
+![Document modul](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_1-en.webp)
 
 ## Relevant rights
 
@@ -21,13 +21,13 @@ There are two ways to manage documents and files in Netwrix Password Secure v8:
 - __Creating a link__: In this case, only a file that is located locally or on a network drive will be linked. The file itself is not stored in the database. Neither version management nor the traceability of changes in the history are possible.
 - __Storing the document in the database__: The file becomes part of the encrypted database. It is saved within the database and can be made available selectively to employees for further processing in the future based on their permissions.
 
-![New document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_2-en.png)
+![New document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_2-en.webp)
 
 ## Document selection
 
 When selecting the file to be uploaded, you can either browse your file system via the Explorer view or add objects by drag & drop. The latter gives you the possibility to directly import several documents in one step.
 
-![searching document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_3-en.png)
+![searching document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_3-en.webp)
 
 ## Versioning
 

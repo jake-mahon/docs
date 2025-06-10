@@ -8,7 +8,7 @@ The AD\_GroupPolicy Job uses the GroupPolicy Data Collector for the following qu
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
-![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.png)
+![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
 The queries for this job are:
 
@@ -21,7 +21,7 @@ Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD\_GroupPolicy__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyanalysis.png)
+![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 
 The default analysis tasks are:
 

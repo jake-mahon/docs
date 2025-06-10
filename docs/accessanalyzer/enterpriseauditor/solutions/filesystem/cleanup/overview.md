@@ -4,7 +4,7 @@ The Cleanup job group is designed to report on and take action against resources
 
 __NOTE:__ The Cleanup job group requires additional licenses to function. For information, contact your Netwrix representative.
 
-![Cleanup Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Cleanup Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Cleanup job group includes the following job groups and jobs:
 

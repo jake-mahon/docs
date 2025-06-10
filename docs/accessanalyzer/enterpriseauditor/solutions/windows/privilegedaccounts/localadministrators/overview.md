@@ -1,6 +1,6 @@
 # Local Administrators Job Group
 
-![Local Administrators Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Local Administrators Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the Local Administrators group are:
 

@@ -10,19 +10,19 @@ A Combo rule addresses this issue, by using Path and Command-line argument rules
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command.webp)
 
 The first step, as shown here, is to specify the Path Condition, such as ```%SYSTEMROOT%\System32\sc.exe```.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_1.webp)
 
 For the command-line arguments in this example, the argument __stop wsearch__, which stops the Windows Search Service, is specified.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_2.webp)
 
 For __Check Mode__, there are four choices:
 
@@ -39,7 +39,7 @@ The net result is that __standard users__ can now stop the ```wsearch``` service
 
 ![A computer screen with a black and white text
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_3.webp)
 
 Another example would be to enable Standard Users to perform their own Registry merge. To do this, make a Combo rule, which starts with the Path Condition running ```%SYSTEMROOT%\System32\reg.exe``` (not shown).
 
@@ -47,6 +47,6 @@ For the Command-line Arguments, select __Strict equality__, and then specify the
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_4.webp)
 
 Since the arguments are being specified, a user cannot add their own .REG files; they can only add those specified by the admin (e.g., on a server where they could only read and not modify it).

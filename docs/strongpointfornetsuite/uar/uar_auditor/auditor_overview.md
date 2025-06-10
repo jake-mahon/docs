@@ -7,7 +7,7 @@ Auditors have view only access to specific UAR data. Auditors login to NetSuite
 
 Here is an example auditor dashboard showing new assignments.
 
-![Auditor Dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_auditor/dashboard_auditor.png)
+![Auditor Dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_auditor/dashboard_auditor.webp)
 
 ## Dashboard Controls
 

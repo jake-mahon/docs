@@ -8,7 +8,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 On the Integrations interface, select an authentication provider under the Authentication Provider node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.png)
+![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.webp)
 
 The details page for an OpenID authentication provider has two tabs:
 
@@ -19,7 +19,7 @@ The details page for an OpenID authentication provider has two tabs:
 
 Configure the following settings for an OpenID provider on the Configuration tab:
 
-![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.png)
+![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles. When off, the profile will be determined in alphabetical order of the profile name. Toggle off and on as desired.
 - Authority – The OpenId Connect provider authority URI. Out-going redirection requires the correct Authority path to be set. Incorrect settings will generally result in a 404 error.
@@ -34,7 +34,7 @@ Click Save to commit the configuration settings.
 
 The Users/Groups tab displays users and groups that are currently assigned to this authentication profile. To give access to the application to new users, click the New Access button, which opens the Add Console Access window. To assign this authentication provider to existing users, go to System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.png)
+![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 

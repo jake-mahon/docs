@@ -4,7 +4,7 @@ This type of review is used to keep your role permissions up to date. When you c
 
 Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab lists the review details for the review.
 
-![Permission Review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review.png)
+![Permission Review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review.webp)
 
 ## Filters
 
@@ -42,7 +42,7 @@ Other available actions:
 
 1. Select one or more __Role Permissions__.
 2. Review the __Permission__ and the __Level__ are appropriate for the role. If correct, click __Mark Completed__. The status is updated. You cannot undo this action.  
-   ![Mark the Permission review complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.png)
+   ![Mark the Permission review complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
 
 ### Change Permission Level
 
@@ -53,11 +53,11 @@ To change a permission level:
 3. Click __Submit__.
 4. Enter a brief description of why the change is requested when prompted for the __Reason for Change__. Click __Accept__ when complete.
 
-   ![Reason for change](/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.png)
+   ![Reason for change](/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
 
    A Change Request is generated for each level change. Status is changed to either __Change Request__ and the __Change Request ID__ added, or __Waiting for CR__ if there is an existing change request in progress as part of another review. Click the __Change Request ID__ to open the Change Request.
 
-   ![Change requests for Level changes](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_cr.png)
+   ![Change requests for Level changes](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_cr.webp)
      
    If the Change Request is approved, the status changes to __CR Approved__. If the Change Request is rejected (__CR Rejected status__) or canceled (__CR Cancelled__), the permission row is returned to a pending state.
 5. You can click on the __Change Request ID__ link and review the __Approver Notes__.
@@ -67,14 +67,14 @@ To change a permission level:
 To add a permission:
 
 1. Click + __Add__.  
-   ![Add a permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add.png)
+   ![Add a permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add.webp)
 2. Select the __Permission__, __Category__, and __Level__.
 3. Click __Submit__.
 4. Enter a brief description of why the change is requested when prompted for the __Reason for Change__. Click __Accept__ when complete.
 
    A Change Request is generated for each new permission. Status is changed to either __Change Request__ and the __Change Request ID__ added, or __Waiting for CR__ if there is an existing change request in progress as part of another review. Click the __Change Request ID__ to open the Change Request.
 
-   ![Adding a new permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add2.png)
+   ![Adding a new permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add2.webp)
 
    If the Change Request is rejected or canceled, the added permission row is removed from the list.
 
@@ -82,7 +82,7 @@ To add a permission:
 
 Each permission must be in the __Complete__ or __CR Complete status__, with all change requests finished before you can click __Complete Review__. Once a review is complete, no further changes can be made.
 
-![Permission review complete when all rows are complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.png)
+![Permission review complete when all rows are complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
 
 When you click __Complete Review__, the review status is updated to __Complete__, and the review is added to the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
 
@@ -90,7 +90,7 @@ When you click __Complete Review__, the review status is updated to __Complete__
 
 Every record has review notes with details about the changes. Only submitted changes are captured. The UAR list opens on the __Review__ tab. Click __Review Notes__ to open the notes tab. You can __Export__ the notes as a CSV or PDF file.
 
-![Open the Review Notes tab](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.png)
+![Open the Review Notes tab](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
 
 The notes have the following fields:
 

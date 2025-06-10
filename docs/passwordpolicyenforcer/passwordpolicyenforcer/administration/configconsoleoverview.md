@@ -10,8 +10,8 @@ Double click the __PPE Configuration__ desktop shortcut.
 
 If this is the first time you have launched the Configuration Console, you are prompted to click __Yes__ to create a new configuration.
 
-![First start](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe1.png)
+![First start](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe1.webp)
 
 The [Configuration Console](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md) is displayed:
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)

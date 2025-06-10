@@ -32,7 +32,7 @@ If using a virtual machine, a backup of it should be created. The old version of
 
 In order to transfer the data to the new server, a backup of the database should be created. Although this is also possible via the Server Manager, we recommend carrying out the backup at the SQL level: right click on the database, then on Tasks and Backup. The desired target folder is selected in the following window.
 
-![insert backup](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-backup-en.png)
+![insert backup](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-backup-en.webp)
 
 #### 3. Backing up the server certificate
 
@@ -46,11 +46,11 @@ After the backed up data (database and certificate) has been transferred to the 
 
 Firstly, a new database is created on the SQL server. This option can be found in the SQL Management Studio after right clicking on Databases. It is usually sufficient to simply enter the database names.
 
-![integrate the database](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-new-db-en.png)
+![integrate the database](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-new-db-en.webp)
 
 As soon as the database has been created, the option Restore (under Tasks) can be selected by right clicking on the server. The Database is thus selected here. The backup now needs to be selected. It is also essential to check whether the correct database has been selected in the field "Target".
 
-![restore db](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-restore-en.png)
+![restore db](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-restore-en.webp)
 
 NOTE: This method can be also used to import backups that were directly created from the Server Manager.
 

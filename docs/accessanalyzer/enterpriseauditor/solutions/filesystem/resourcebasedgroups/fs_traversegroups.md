@@ -61,7 +61,7 @@ Prior to executing the action tasks, configure and execute the analysis tasks.
 
 View the analysis tasks by navigating to the place in the Jobs tree where the Traverse Groups job was installed from the Instant Jobs library. Then go to the __FS\_TraverseGroups__ > __Configure__ node and select __Analysis__. The Create Groups analysis task contains an analysis parameter that should be configured to set the naming convention for list groups.
 
-![FS_TraverseGroups analysis tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/traverseanalysis.png)
+![FS_TraverseGroups analysis tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/traverseanalysis.webp)
 
 The job has the following analysis tasks:
 
@@ -99,7 +99,7 @@ The Active Directory action tasks create and populate resource based groups. The
 
 ___RECOMMENDED:___ It is recommended to execute the actions one at a time and in order as opposed to running the entire job group with the actions enabled.
 
-![FS_TraverseGroups action tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/traverseactions.png)
+![FS_TraverseGroups action tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/traverseactions.webp)
 
 There are the following action tasks:
 
@@ -123,7 +123,7 @@ __Step 2 –__ On the Action Properties page, click __Configure Action__.
 
 __Step 3 –__ In the Active Directory Action Module Wizard, navigate to the Create Groups page.
 
-![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/creategroups.png)
+![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/creategroups.webp)
 
 __Step 4 –__ In the OU box, select the OU where the groups will be created.
 

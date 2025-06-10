@@ -2,7 +2,7 @@
 
 The Resources dashboard shows information for onboarded resources, such as active and scheduled sessions, policies, and service accounts for the host resources and domain resources that have been added to the console. The Resources dashboard displays the same information as the [Resources Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resources.md).
 
-![Resources Dashboard Page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Resources Dashboard Page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
 
 The Resources table has the following features:
 

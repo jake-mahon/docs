@@ -16,7 +16,7 @@ For more information on Combo rules, see [Creating and Using Executable Combo Ru
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
 
 ![A screenshot of a computer
 

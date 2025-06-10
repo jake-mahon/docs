@@ -2,7 +2,7 @@
 
 The EX\_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the organization.
 
-![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/outlookanywherejobstree.png)
+![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
 
 The EX\_RPCTraffic job is located in the Outlook Anywhere job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/rpctrafficanalysis.png)
+![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 

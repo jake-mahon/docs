@@ -4,7 +4,7 @@ The Configuration interface provides access to configure the domains, users and 
 
 __NOTE:__ Only users with Administrator rights have access to the Configuration interface.
 
-![Domains Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.png)
+![Domains Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.webp)
 
 The Configuration interface contains the following pages:
 

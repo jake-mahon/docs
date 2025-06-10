@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SP\_DropTables__ > __Configure__ node and select __
 
 __CAUTION:__ Applying these analysis tasks will result in the deletion of collected data.
 
-![SP_DropTables Job Analysis tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/droptablesanalysis.png)
+![SP_DropTables Job Analysis tasks](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/droptablesanalysis.webp)
 
 The default analysis tasks are:
 

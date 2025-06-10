@@ -6,7 +6,7 @@ Threat Prevention can be configured to monitor and block LDAP Nom Nom, which is 
 
 When you create a policy with the [LDAP Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/ldapmonitoring.md) or the [LDAP Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.md), the LDAP filter allows you to enable the LDAP Ping option.
 
-![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapping.png)
+![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapping.webp)
 
 ## Configure the LDAP Query Filter for LDAP Ping
 

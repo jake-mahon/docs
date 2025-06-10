@@ -27,15 +27,15 @@ Follow the steps to add a Nasuni Edge Appliance host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device. Click __Next__.
 
-![Add Host page with Nasuni selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostnasuni.png)
+![Add Host page with Nasuni selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostnasuni.webp)
 
 __Step 3 –__ On the Add Host page, select the Nasuni radio button and enter the host name or IP Address of the Nasuni Edge Appliance in the Nasuni Filer textbox. If desired, add a __Comment__. Click __Next__.
 
-![Nasuni Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nasunioptions.png)
+![Nasuni Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nasunioptions.webp)
 
 __Step 4 –__ On the Nasuni Options page, enter the __API Key Name__ and the __API Key Value__. Click Connect to validate the connection with the Nasuni device.
 
@@ -47,7 +47,7 @@ __Step 4 –__ On the Nasuni Options page, enter the __API Key Name__ and the __
 
 Click __Next__.
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.png)
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate verification during a TLS session
   - Import – Click to browse for a trusted server certificate
@@ -65,7 +65,7 @@ __CAUTION:__ Enabling the Suppress subsequent Read operations in the same folder
 
 Click __Next__.
 
-![Configure Basic Options page for Nasuni](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnasuni.png)
+![Configure Basic Options page for Nasuni](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnasuni.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -84,11 +84,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -103,7 +103,7 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -124,7 +124,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![Activity Monitor with Nasuni host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitornasuni.png)
+![Activity Monitor with Nasuni host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitornasuni.webp)
 
 The added Nasuni host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

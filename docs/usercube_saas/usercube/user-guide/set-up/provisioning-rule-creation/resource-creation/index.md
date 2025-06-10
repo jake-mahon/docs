@@ -32,16 +32,16 @@ Create a resource type rule by proceeding as follows:
 
 1. Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-   ![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+   ![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 2. In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-   ![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+   ![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 3. Click on the __Resource Types__ tab and on the addition button at the top right corner.
 
    ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 4. Fill in the fields.
 
-   ![Create a Resource Type Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_typerule_v602.png)
+   ![Create a Resource Type Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_typerule_v602.webp)
 
    - ```Resource Type```: resource type to be automatically assigned.
    - ```Type```: assignment type that can be: ```Suggested``` so that the resource type is listed among suggested permissions in the permission basket of users matching the criteria during an entitlement request, suggested assignments must be selected manually to be requested; or ```Automatic``` so that the resource type is automatically assigned to users matching the criteria; or ```Automatic but with validation``` so that the resource type is listed in the permission basket of new workers, these assignments can still be modified.
@@ -50,14 +50,14 @@ Create a resource type rule by proceeding as follows:
    - __Criteria__: conditions that, if met, trigger the resource creation.
    > Our example would look like:
    >
-   > ![Resource Type Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_exampletype_v602.png)
+   > ![Resource Type Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_exampletype_v602.webp)
 5. Click on __Create__ and see a line added on the rules page.
 
 ## Impact of Modifications
 
 Any modification in a resource type rule is taken into account when launching the role model computation task, in the __Resource Types__ frame of the corresponding connector's overview page, via __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new assignments. Therefore, if a given rule's criterion is modified, then all corresponding assignments are computed again. If a resource was created automatically for an identity by a resource type rule, and if the user's criteria do not comply with the new version of the rule, then the corresponding resource is automatically deleted.
 
@@ -73,14 +73,14 @@ In order to verify the process, start by checking the rule's details on the __Ac
 
 1. Select a test user in the directory, accessible from the home page.
 
-   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 2. Create a resource type rule involving an account that said user doesn't already have, based on criteria which the selected user satisfies.
 3. Trigger the computation of the role model by clicking, on the corresponding connector's overview page, in the __Resource Types__ frame, on __Jobs__ > __Compute Role Model__ to apply all rules.
 
-   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 4. See the new account in the user's __View Permissions__ tab.
 
-   ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+   ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
    If the type rule uses a single role as a criterion, and the user has said role, then both the resource type and the role will be displayed in the user's permissions, but only if the role is related to a [
    Compute a Navigation Property

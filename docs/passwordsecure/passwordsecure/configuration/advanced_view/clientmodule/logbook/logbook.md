@@ -4,7 +4,7 @@
 
 Netwrix Password Secure logs all user interactions. These entries can be viewed and filtered via the logbook. The logbook records which user has made exactly what changes. This module is (theoretically) classified as uncritical. This is because the employee only has access to those logbook entries to which he is actually entitled.
 
-![Logbook module](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_1-en.png)
+![Logbook module](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_1-en.webp)
 
 ## Relevant rights
 
@@ -18,13 +18,13 @@ The following options are required:
 
 You can also use the filter in the logbook. This enables you to limit the number of displayed elements based on the defined criteria. In the following example, the user is searching for logbook entries relating to the object type “Password” that also match the event criteria "Change". In short: The entries are being filtered based on changes to passwords.
 
-![Logbook filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_2-en.png)
+![Logbook filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_2-en.webp)
 
 ## Grouping in the logbook
 
 This list can also be grouped together by dragging and dropping column headers – see the following grouping of the columns for __computer user__. The filtered results now show all changes to passwords carried out by the computer user "administrator".
 
-![Logbook entries](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_3-en.png)
+![Logbook entries](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_3-en.webp)
 
 ## Revision-safe archiving
 

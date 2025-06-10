@@ -2,7 +2,7 @@
 
 The Growth and Size job group is comprised of data collection, analysis, and reports that focus on public folder sizing and growth.
 
-![Growth and Size Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Growth and Size Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the Growth and Size job group are:
 

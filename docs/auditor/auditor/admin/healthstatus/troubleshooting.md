@@ -21,8 +21,8 @@ If you need assistance from the Technical Support team, you can open a ticket us
 1. Sign in at [https://www.netwrix.com/my\_tickets.html](https://www.netwrix.com/my_tickets.html).
 2. You can search or browse through the Knowledge Base articles here, or click __Create New Ticket__:
 
-   ![support_ticket_customer_portal_fixed](/img/product_docs/auditor/auditor/admin/healthstatus/support_ticket_customer_portal_fixed.png)
+   ![support_ticket_customer_portal_fixed](/img/product_docs/auditor/auditor/admin/healthstatus/support_ticket_customer_portal_fixed.webp)
 3. Fill in the form, describing the issue, and click __Open a ticket__.
 4. After that, you will be able to attach the files you need (screenshots, emails, reports, etc.).
 
-![support_ticket_customer_portal](/img/product_docs/auditor/auditor/admin/healthstatus/support_ticket_customer_portal.png)
+![support_ticket_customer_portal](/img/product_docs/auditor/auditor/admin/healthstatus/support_ticket_customer_portal.webp)

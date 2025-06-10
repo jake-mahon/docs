@@ -2,7 +2,7 @@
 
 On the Access Certification page, create or review access certification tasks to audit and remediate user access. Only User(s) / group member(s) assigned the Admin Role can create access certification tasks. User(s) / group member(s) with the Reviewer role will see the access certification task(s) assigned to them here.
 
-![Access Certification Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Access Certification Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 On the left of the page, the Access Certification Task list shows the different access certification tasks and has the following features:
 

@@ -2,7 +2,7 @@
 
 The __Dropbox__ > __0.Collection__ job group scans the targeted Dropbox site using the DropboxAccess Data Collector. The collected data is then available to other job groups in the Dropbox solution and the Access Information Center for analysis.
 
-![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 0.Collection job group is comprised of:
 

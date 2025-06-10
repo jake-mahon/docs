@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_Deletions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/deletionsanalysis.png)
+![Analysis Tasks for the FS_Deletions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/deletionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -41,11 +41,11 @@ __Step 2 –__ In the Analysis Selection view, select the Notification analysis 
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Notification Data Analysis Module wizard SMTP page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtp.png)
+![Notification Data Analysis Module wizard SMTP page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtp.webp)
 
 __Step 3 –__ Navigate to the SMTP page of the wizard.
 
-![Recipients section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtprecipients.png)
+![Recipients section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtprecipients.webp)
 
 __Step 4 –__ In the Recipients section, provide the email addresses or distribution lists (fully qualified address) for those who are to receive this notification. Multiple addresses can be provided. You can use the following options:
 
@@ -55,7 +55,7 @@ __Step 4 –__ In the Recipients section, provide the email addresses or distrib
 
   ___RECOMMENDED:___ Leave the __Combine multiple messages into single message__ option selected.
 
-![Message section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtpmessage.png)
+![Message section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/notificationsmtpmessage.webp)
 
 __Step 5 –__ In the Message section, edit the __Subject__. It is not recommended to remove any parameters. Then, customize the email content in the textbox to provide an explanation of the notification to the recipients.
 

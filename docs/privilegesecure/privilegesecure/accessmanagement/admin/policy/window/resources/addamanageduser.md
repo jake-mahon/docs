@@ -15,7 +15,7 @@ __Step 3 –__ Do the following:
 - To add a new managed user, click __Add__.
 - To modify an existing managed user, select the User from the list and click __Edit__.
 
-![addmanageduser](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addmanageduser.png)
+![addmanageduser](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addmanageduser.webp)
 
 __Step 4 –__ Specify the username/password combination that will be used to log users onto the website. Enter the following information:
 

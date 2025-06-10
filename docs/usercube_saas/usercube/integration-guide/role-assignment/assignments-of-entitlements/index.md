@@ -55,7 +55,7 @@ __NOTE:__ Contrary to the workflow state that concerns all assignments, the prov
   
 For example, roles exist only in Identity Manager and not in the managed systems, so assigned roles do not have a provisioning state, unlike assigned resource types, scalars and navigation, etc.
 
-![Provisioning State Schema](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.png)
+![Provisioning State Schema](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.webp)
 
 The schema sums up the usual progress of an assignment's provisioning state.
 
@@ -83,7 +83,7 @@ Technically speaking, Identity Manager creates entitlements in the managed syste
 
 A simple comparison between these two lists defines the non-conforming assignments, i.e. the list of all assignments that do not comply with the policy.
 
-![Non-Conforming Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.png)
+![Non-Conforming Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.webp)
 
 A non-conforming assignment must be reviewed in Identity Manager by a knowledgeable user, and is therefore:
 

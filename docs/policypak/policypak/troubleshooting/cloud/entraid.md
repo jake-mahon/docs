@@ -12,9 +12,9 @@ __Step 4 –__ Click "Manage your application"
 
 __Step 5 –__ Click "Revoke permissions"
 
-![951_1_image-20230318014644-1_950x496](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_1_image-20230318014644-1_950x496.png)
+![951_1_image-20230318014644-1_950x496](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_1_image-20230318014644-1_950x496.webp)
 
-![951_2_image-20230318014644-2_950x298](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_2_image-20230318014644-2_950x298.png)
+![951_2_image-20230318014644-2_950x298](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_2_image-20230318014644-2_950x298.webp)
 
 __Step 6 –__ Then in PPC Portal:
 
@@ -22,7 +22,7 @@ __Step 6 –__ Then in PPC Portal:
 - Activate Azure AD configuration
 - Sync Azure AD configuration
 
-![951_3_image-20230318014644-3_950x521](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_3_image-20230318014644-3_950x521.png)
+![951_3_image-20230318014644-3_950x521](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_3_image-20230318014644-3_950x521.webp)
 
 If that still doesn't work, you can force Azure to remove the Endpoint Policy Manager application. The steps from Microsoft are here:
 
@@ -32,7 +32,7 @@ You can use a Powershell script and force remove the app and try again. Put the 
 
 Afterward, back in Endpoint Policy Manager Cloud re-create the connection.
 
-![951_4_image-20230318014644-4_950x350](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_4_image-20230318014644-4_950x350.png)
+![951_4_image-20230318014644-4_950x350](/img/product_docs/policypak/policypak/troubleshooting/cloud/951_4_image-20230318014644-4_950x350.webp)
 
 Connect-AzureAD
 

@@ -4,7 +4,7 @@ The Administrator Auditing dashboard is specifically fed by a Threat Prevention 
 
 The Administrator Auditing dashboard contains the following cards:
 
-![Administrator Auditing Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.png)
+![Administrator Auditing Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.webp)
 
 - Top Clint IPs – Displays up to the top five (5) client IP addresses related to events that have been recorded in the specified timeframe
 - Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.

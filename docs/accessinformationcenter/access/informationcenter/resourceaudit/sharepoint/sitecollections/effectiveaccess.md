@@ -2,7 +2,7 @@
 
 The Effective Access report at the site collection, site, list, library, and folder levels provides insight into who has what level of access to this resource through a calculation that encompasses web application policies, administrative access, resource permissions, and group membership. It contains a list of all trustees with access to the selected resource and specifies the effective access level. This report includes a Permission Source table.
 
-![Effective Access report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccess.png)
+![Effective Access report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccess.webp)
 
 This report is comprised of the following columns:
 
@@ -35,7 +35,7 @@ If the selected trustee in the top section of the report is a group, the Group M
 
 There is one table at the bottom displaying Permission Source for the select trustee. It contains all of the ways the selected trustee has been granted rights to the selected resource. To view the granular rights granted through SharePoint permission levels (SharePoint Roles), see the __Role Name__ column.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccesstable.png)
+![Permission Source table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccesstable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access. This table is comprised of the following columns:
 

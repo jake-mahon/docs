@@ -2,7 +2,7 @@
 
 Configure False Positive exclusion filters using the options in the False Positives tab. False Positives Filters listed here as False Positives results in the corresponding matches being removed from Access Analyzer and Access Information Center reports.
 
-![False Positives tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/falsepositivestab.png)
+![False Positives tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/falsepositivestab.webp)
 
 The options under the False Positives Tab are:
 

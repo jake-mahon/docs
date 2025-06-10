@@ -38,11 +38,11 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Review the Assigned Roles by proceeding as follows:
 
-![assignedroles](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.png)
+![assignedroles](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.webp)
 
 __Step 1 –__ On the home page, in the Administration section of the UI click on Assigned Roles.
 
-![assignedrolesscreen](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.png)
+![assignedrolesscreen](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.webp)
 
 __Step 2 –__ View the list of users with different assigned roles and filter them by __Entity Type__, __Workflow State__, __Policy__, __Role__ or by using a custom filter.
 

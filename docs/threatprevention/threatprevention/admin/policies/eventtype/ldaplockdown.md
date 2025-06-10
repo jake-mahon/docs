@@ -11,7 +11,7 @@ The event filters for the LDAP Monitoring event type are:
 - Hosts (from)
 - Rule Preview
 
-![Policy window - LDAP Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.png)
+![Policy window - LDAP Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -26,7 +26,7 @@ This event type can only be used in a policy by itself or with another LDAP even
 
 Use the LDAP filter to set the scope of the policy to include one or more communication security types.
 
-![New Policy - LDAP filter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.png)
+![New Policy - LDAP filter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The operation selected affects what options are available on this filter and what other filters are available for the event type:
 
@@ -43,7 +43,7 @@ The operation selected affects what options are available on this filter and wha
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -57,7 +57,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -75,7 +75,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the LDAP Query filter for lockdown to set the scope of the policy to lockdown specific LDAP queries or to exclude specific queries from being locked down.
 
-![Policy window - LDAP Query filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldapquerylockdown.png)
+![Policy window - LDAP Query filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldapquerylockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -93,7 +93,7 @@ Enter a query in the LDAP Queries box. You can type a string in the textbox. Alt
 
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.png)
+![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -109,6 +109,6 @@ Use the buttons in the Include Hosts area to edit the list.
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

@@ -20,11 +20,11 @@ __Step 1 –__ From the Threat Manager homepage, navigate to the Configuration m
 
 __Step 2 –__ On the Policies page, expand the Honeytokens list and select the related Honeytoken policy from the Policies list. Or, select the policy from the Policies table in the Overview box.
 
-![honeytoken](/img/product_docs/threatprevention/threatprevention/admin/configuration/honeytoken.png)
+![honeytoken](/img/product_docs/threatprevention/threatprevention/admin/configuration/honeytoken.webp)
 
 __Step 3 –__ On the Configuration tab of the policy, fill in the requested information and click __Copy LDAP Filter__. The Copy LDAP Filter button will automatically copy the exact string that is required for Activity Monitor or Threat Prevention to the clipboard to configure the LDAP events for this Honeytoken.
 
-![ldapfiltercopiedtoclipboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.png)
+![ldapfiltercopiedtoclipboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.webp)
 
 A notification will pop up and the filter will be saved to the clipboard.
 
@@ -36,7 +36,7 @@ __Step 4 –__ In the Threat PreventionAdministration Console , go to __Template
 
 __Step 5 –__ Click the __Event Type__ tab.
 
-![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapmonitoringfortm.png)
+![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapmonitoringfortm.webp)
 
 __Step 6 –__ Under Event Filters select __LDAP Query__. If the Include LDAP Queries list is empty, select the other __LDAP Monitoring__ event type in the list above.
 
@@ -52,13 +52,13 @@ Follow the steps to configure LDAP monitoring within Netwrix Activity Monitor f
 
 __NOTE:__  LDAP Monitoring is not enabled, it must be enabled in the Monitored Domains tab.
 
-![Activity Monitor with SD Only](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainsdonly.png)
+![Activity Monitor with SD Only](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainsdonly.webp)
 
 __Step 9 –__ In the Activity Monitor, click on the __Monitored Domains__ tab.
 
 __Step 10 –__ Select a domain and click __Edit__.
 
-![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/sdldapmonitoring.png)
+![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/sdldapmonitoring.webp)
 
 __Step 11 –__ Select the __LDAP Monitor__ tab.
 

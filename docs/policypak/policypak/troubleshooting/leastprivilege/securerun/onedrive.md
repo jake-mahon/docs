@@ -6,7 +6,7 @@ Configure a Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege
 
 Once you have downloaded the Guidance you are looking for the Endpoint Policy Manager Least Privilege Manager XMLs and then specifically the array of OneDrive files like what's seen here.
 
-![707_1_image-20210317140125-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_1_image-20210317140125-2.png)
+![707_1_image-20210317140125-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_1_image-20210317140125-2.webp)
 
 __Step 1 –__ REQUIRED - OneDrive.EXE
 
@@ -16,7 +16,7 @@ Location: %localappdata%\Microsoft\OneDrive\
 
 OneDrive Sync Client and responsible for application launch in Windows Explorer. It must be set to allow and log in the rule as shown below screenshot.
 
-![707_2_image-20210317130045-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_2_image-20210317130045-2.png)
+![707_2_image-20210317130045-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_2_image-20210317130045-2.webp)
 
 __Step 2 –__ REQUIRED - FileCoAuth.EXE
 
@@ -26,7 +26,7 @@ Location: %localappdata%\Microsoft\OneDrive\ [~version~] \
 
 This executable needs to run once on the computer and prompts will go away.
 
-![707_3_image-20210317130045-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_3_image-20210317130045-3.png)
+![707_3_image-20210317130045-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_3_image-20210317130045-3.webp)
 
 __Step 3 –__ REQUIRED - OneDriveSetup.EXE
 
@@ -36,7 +36,7 @@ Location: %localappdata%\Microsoft\OneDrive\Update
 
 OneDrive Setup Package file. Used for first-time installation and uninstallation of the program.
 
-![707_4_image-20210317130045-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_4_image-20210317130045-4.png)
+![707_4_image-20210317130045-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_4_image-20210317130045-4.webp)
 
 __Step 4 –__ OPTIONAL - FileSyncConfig.EXE
 
@@ -46,7 +46,7 @@ Location: %localappdata%\Microsoft\OneDrive\ [~version~] \
 
 This file doesn't appear during OneDrive installation anymore. Configure the Allow and Log policy as shown below when you got a SecureRun block message.
 
-![707_5_image-20210317130045-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_5_image-20210317130045-5.png)
+![707_5_image-20210317130045-5](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_5_image-20210317130045-5.webp)
 
 __Step 5 –__ OPTIONAL: OneDriveStandaloneUpdater.EXE
 
@@ -56,7 +56,7 @@ Location: %localappdata%\Microsoft\OneDrive\OneDriveStandaloneUpdater.exe
 
 This will keep OneDrive updated using a Task entry in Windows Task Scheduler. Create this allow and log rule when you want to keep it automated.
 
-![707_6_image-20210317130045-6](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_6_image-20210317130045-6.png)
+![707_6_image-20210317130045-6](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_6_image-20210317130045-6.webp)
 
 OneDrive Command-line Arguments:
 
@@ -64,7 +64,7 @@ In some cases when OneDrive updates are pushed or for any other scenario, CMD co
 
 We've combined known command-line args in that XML guidance, as shown in below screenshot.
 
-![707_7_image-20210318053310-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_7_image-20210318053310-1.png)
+![707_7_image-20210318053310-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/securerun/707_7_image-20210318053310-1.webp)
 
 But if you're receiving a different command-line prompt then check the following KB for more help:
 

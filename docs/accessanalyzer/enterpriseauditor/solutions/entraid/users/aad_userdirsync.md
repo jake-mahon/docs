@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_UserDirSync__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AAD_UserDirSync Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraid/users/userdirsyncanalysis.png)
+![Analysis Tasks for the AAD_UserDirSync Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraid/users/userdirsyncanalysis.webp)
 
 The default analysis tasks are:
 

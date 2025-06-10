@@ -40,7 +40,7 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer PosgreSQL Solution Set is a set of pre-configured audit jobs and reports that provides visibility into PostgreSQL Sensitive Data.
 
-![PostgreSQL Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/postgresqljobgroup.png)
+![PostgreSQL Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/postgresqljobgroup.webp)
 
 The job groups in the PostgreSQL Solution are:
 

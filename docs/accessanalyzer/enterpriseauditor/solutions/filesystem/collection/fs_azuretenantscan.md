@@ -41,7 +41,7 @@ The host list must target the Azure tenant name. For example, ```YourTenantName.
 
 The FS\_AzureTenantScan job requires a connection profile with the following user credentials:
 
-![User Credentials for FS_AzureTenantScan job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanusercredentials.png)
+![User Credentials for FS_AzureTenantScan job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanusercredentials.webp)
 
 - Select Account Type – Azure Active Directory
 - Client ID – Application ID for the app registration created in Azure that is assigned to your desired resource group
@@ -56,7 +56,7 @@ The Azure Tenant Scan query uses the FSAA Data Collector and has been preconfigu
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the FS_AzureTenantScan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanquery.png)
+![Query for the FS_AzureTenantScan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanquery.webp)
 
 The job has the following query:
 

@@ -12,13 +12,13 @@ SavePasswordPlausibilityField
 
 The plausibility has not been fulfilled when saving a password. The mandatory fields of the deposited form should be checked.
 
-![installation_with_parameters_156_795x595](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/errorcodes/installation_with_parameters_156_795x595.png)
+![installation_with_parameters_156_795x595](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/errorcodes/installation_with_parameters_156_795x595.webp)
 
 NoDefaultForm
 
 No standard form was selected. The form can be stored in the settings under __Standard form (for the Basic view).__
 
-![installation_with_parameters_157](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/errorcodes/installation_with_parameters_157.png)
+![installation_with_parameters_157](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/administration/errorcodes/installation_with_parameters_157.webp)
 
 DefaultFormNotFound
 

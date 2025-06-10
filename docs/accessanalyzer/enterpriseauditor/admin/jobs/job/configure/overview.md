@@ -4,7 +4,7 @@ Changes to configurations for the job’s assigned Host Lists, Queries, Analyses
 
 |  |  |
 | --- | --- |
-| ![Configure Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurenode.png) | ![Configure link on job description page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurelinkjobpage.png) |
+| ![Configure Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurenode.webp) | ![Configure link on job description page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurelinkjobpage.webp) |
 | Configure Node | Configure link on job description page |
 
 The sub-nodes under the __[Job]__ > __Configure__ node are:
@@ -19,7 +19,7 @@ The sub-nodes under the __[Job]__ > __Configure__ node are:
 
 The job's Configure Page provides an overview with shortcuts for options that are configured in the job's Configure Node.
 
-![Configure page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurepage.png)
+![Configure page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurepage.webp)
 
 The options on the Configure Page are:
 

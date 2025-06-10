@@ -10,7 +10,7 @@ To create the first mass update:
 2. Open __General Updates__ > __Custom Records__ > __Customization__.
 3. Check __Use Expressions__ on the __Criteria__ tab.
 
-   ![Select Use Expressions](/img/product_docs/strongpointfornetsuite/bundle_removal/bundle_removal_use_expressions.png)
+   ![Select Use Expressions](/img/product_docs/strongpointfornetsuite/bundle_removal/bundle_removal_use_expressions.webp)
 4. Add the following filters on the __Criteria__ tab:
 |  | Parens | Filter | Description | Parens | And/Or |
 | --- | --- | --- | --- | --- | --- |
@@ -20,13 +20,13 @@ To create the first mass update:
 
 You can remove more than one bundle at a time.
 
-![Mass Update Filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters.png)
+![Mass Update Filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters.webp)
 
 1. Open the __Mass Update Fields__ tab.
 2. Scroll down and check the box for __Clean Up Status__.
 3. Enter the __Clean Up Status__: __To Be Cleaned Up__.
 
-   ![Set Clean Up Status](/img/product_docs/strongpointfornetsuite/bundle_removal/clean_up_status.png)
+   ![Set Clean Up Status](/img/product_docs/strongpointfornetsuite/bundle_removal/clean_up_status.webp)
 4. Click __Save__.
 
 ## Second Mass Update
@@ -48,7 +48,7 @@ The second mass update flags all the objects related to the bundle and sets a st
 | Filter 7 |  | List: Clean-Up Status | Is To Be Cleaned Up |  | or |
 | Filter 8 |  | Searches/Mass Updates:    Clean-Up Status | Is To Be Cleaned Up | ) |  |
 
-![Adding filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters2.png)
+![Adding filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters2.webp)
 
 5. Open the __Mass Update Fields__ tab.
 6. Scroll down and check the box for __Clean Up Status__

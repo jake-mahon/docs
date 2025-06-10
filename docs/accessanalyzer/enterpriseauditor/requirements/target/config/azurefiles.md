@@ -31,7 +31,7 @@ The Access Analyzer connection profile requires two or more credentials dependin
 
   - Select Account Type – Azure Active Directory
 
-    ![Storage account name and Connection string in Azure](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
+    ![Storage account name and Connection string in Azure](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.webp)
   - Client ID – The name of the storage account
 
     - For example, if the target is ```files.file.core.windows.net``` then the Client ID should be ```files```. It is not case sensitive.
@@ -49,7 +49,7 @@ Azure Files scans require the following configuration of the job and query perfo
 
 For FSAA and SEEK scans targeting Azure Files storage accounts, you must clear the __Skip Hosts that do not respond to PING__ option in the job properties.
 
-![Skip Hosts option on Performance tab of the Job Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/skiphostsoption.png)
+![Skip Hosts option on Performance tab of the Job Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/skiphostsoption.webp)
 
 Right-click on the required scan job in the Jobs tree, and select __Properties__ to open the Job Properties window. Navigate to the Performance tab, and ensure the __Skip Hosts that do not respond to PING__ option is not selected. See the [Job Properties](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/overview.md) and [Performance Tab](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/performance.md) topics for additional information.
 
@@ -57,6 +57,6 @@ Right-click on the required scan job in the Jobs tree, and select __Properties__
 
 Last Access Time (LAT) preservation is not supported for Azure Files scans. This option must not be selected in the query for the FSAA or SEEK scan job.
 
-![Last Access Time (LAT) preservation option in FSAA DC wizard](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/latpreservationoption.png)
+![Last Access Time (LAT) preservation option in FSAA DC wizard](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/latpreservationoption.webp)
 
 The __Last Access Time (LAT) preservation__ option is located on the Default Scoping Options page of the File System Access Auditor Data Collector Wizard. See the [Configure the (FSAA) File System Scan Query](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/1-fsaa_system_scans.md#configure-the-fsaa-file-system-scan-query) or [Configure the (SEEK) File System Scan Query](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/1-seek_system_scans.md#configure-the-seek-file-system-scan-query) topic for additional information.

@@ -13,9 +13,9 @@ It is very easy to get started with Endpoint Policy Manager Cloud, and you can b
 
 Endpoint Policy Manager Cloud is, at its core, a way to deliver directives (XML data files) from the Endpoint Policy Manager Cloud service to client machines, where they are received and processed for the directives you have licensed. Endpoint Policy Manager Cloud can be used with or without Active Directory.
 
-![concepts_logons_and_downloads_437x399](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_437x399.png)
+![concepts_logons_and_downloads_437x399](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_437x399.webp)
 
-![concepts_logons_and_downloads_1_436x375](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_1_436x375.png)
+![concepts_logons_and_downloads_1_436x375](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_1_436x375.webp)
 
 Below are some Endpoint Policy Manager Cloud concepts:
 

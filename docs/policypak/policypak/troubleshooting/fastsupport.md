@@ -23,7 +23,7 @@ This section provides a summary of the steps for gathering and uploading logs. S
 
 __NOTE:__ If you do not see the GUI version of pplogs, you are not using the latest CSE. Endpoint Policy Manager support only accepts logs from machines with the latest CSE and latest pplogs zip files.
 
-![Running the PPLOGS tool](/img/product_docs/policypak/policypak/troubleshooting/runninglogs.png)
+![Running the PPLOGS tool](/img/product_docs/policypak/policypak/troubleshooting/runninglogs.webp)
 
 Follow the steps for gathering and uploading logs.
 
@@ -33,12 +33,12 @@ __Step 2 –__ Create a [support ticket](https://www.netwrix.com/sign_in.html?rf
 
 __Step 3 –__ Collect the logs.
 
-![exportonexml](/img/product_docs/policypak/policypak/troubleshooting/exportonexml.png)
-![exportcollectionxml](/img/product_docs/policypak/policypak/troubleshooting/exportcollectionxml.png)
+![exportonexml](/img/product_docs/policypak/policypak/troubleshooting/exportonexml.webp)
+![exportcollectionxml](/img/product_docs/policypak/policypak/troubleshooting/exportcollectionxml.webp)
 
 __Step 4 –__ If using the Group Policy Method, export policies and/or collections as XML files.
 
-![exportfromappmanager](/img/product_docs/policypak/policypak/troubleshooting/exportfromappmanager.png)
+![exportfromappmanager](/img/product_docs/policypak/policypak/troubleshooting/exportfromappmanager.webp)
 
 __Step 5 –__ If using Application Manager, export the XML settings data of the AppSet.
 
@@ -84,7 +84,7 @@ Example how to:
 - Use an admin command prompt and run ```PPLOGS```. Rename to ```SRX01234-ppLogs-as-Admin.zip```
 - Use a normal command prompt and run ```PPLOGS```. Rename to ```SRX01234-ppLogs-as-USER.zip```
 
-![128_1_command-prompt](/img/product_docs/policypak/policypak/troubleshooting/128_1_command-prompt.png)
+![128_1_command-prompt](/img/product_docs/policypak/policypak/troubleshooting/128_1_command-prompt.webp)
 
 __Step 2 –__ Run ```GPRESULT``` to get the following results:
 
@@ -96,9 +96,9 @@ __Step 3 –__ Export the XML settings:
 - Your export of any relevant settings
 - Most Endpoint Policy Manager settings are simply __right-click__ > __Export as XML__. See the examples below for exporting as a collection and an individual policy.
 
-![128_2_export-collection-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_2_export-collection-as-xml.png)
+![128_2_export-collection-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_2_export-collection-as-xml.webp)
 
-![128_3_export-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_3_export-as-xml.png)
+![128_3_export-as-xml](/img/product_docs/policypak/policypak/troubleshooting/128_3_export-as-xml.webp)
 
 __Step 4 –__ For Endpoint Policy Manager Application Manager (most common) this is what you want to do: There are two ways to export settings but the following is the type of export the support team requires. Select the __Options__ button within the Pak, then select __Export XML Settings Data__.
 

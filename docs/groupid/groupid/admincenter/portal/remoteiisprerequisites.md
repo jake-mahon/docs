@@ -74,7 +74,7 @@ The next step is to assign permissions on the physical folder that binds to your
 
 3. Open the __appsettings.json__ file and add the highlighted script at the end of the file:
 
-   ![Script for appsettings.json file](/img/product_docs/groupid/groupid/admincenter/portal/appsettings-full.png)
+   ![Script for appsettings.json file](/img/product_docs/groupid/groupid/admincenter/portal/appsettings-full.webp)
 4. The script to be added is given below:
 
     ```
@@ -108,10 +108,10 @@ To connect to the API, an access key is required. Follow the steps below to gene
    Note that this is the default URL. It may change for reasons such as when a different port is used.
 2. Click __ACCESS KEYS__.
 
-   ![Access Keys](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.png)
+   ![Access Keys](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/accesskeys.webp)
 3. Click __Create Access Key__ to generate an access key and provide the following information:
 
-   ![Access Key Purpose window](/img/product_docs/groupid/groupid/admincenter/portal/accesskeyspurpose.png)
+   ![Access Key Purpose window](/img/product_docs/groupid/groupid/admincenter/portal/accesskeyspurpose.webp)
 4. On clicking __Create__, the access key is generated.
 
-   ![Access Token window](/img/product_docs/groupid/groupid/admincenter/portal/accesstoken.png)
+   ![Access Token window](/img/product_docs/groupid/groupid/admincenter/portal/accesstoken.webp)

@@ -24,7 +24,7 @@ NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall ser
 
 __Step 2 –__ Unpack the installation package. The following window will be displayed on successful operation completion:
 
-![installationscreen](/img/product_docs/auditor/auditor/install/installationscreen.png)
+![installationscreen](/img/product_docs/auditor/auditor/install/installationscreen.webp)
 
 __Step 3 –__ Follow the instructions of the setup wizard. When prompted, accept the license agreement.
 
@@ -43,7 +43,7 @@ __Step 7 –__ Click Install.
 
 After a successful installation, Auditor shortcut will be added to the __Start__ menu and screen and the product will start. See the [First Launch](/docs/auditor/auditor/install/firstlaunch.md) topic for additional information on the product navigation.
 
-![welcome_screen](/img/product_docs/auditor/auditor/install/welcome_screen.png)
+![welcome_screen](/img/product_docs/auditor/auditor/install/welcome_screen.webp)
 
 Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure virtual machine or install it as a virtual appliance on your VMware vSphere or Hyper-V virtualization server. For more information on additional deployment options, visit [Virtual Appliance page](https://www.netwrix.com/virtual_appliances.html).
 

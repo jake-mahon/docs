@@ -8,7 +8,7 @@ Navigate to the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ > __Configure__ 
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and not be deselected. There are a few which are deselected by default, as they are for troubleshooting purposes.
 
-![Analysis Tasks for 2-AAD_Exceptions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionsanalysistasks.png)
+![Analysis Tasks for 2-AAD_Exceptions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionsanalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -66,13 +66,13 @@ __CAUTION:__ Modifying these parameters affects solutions with .Entra ID Invento
 
 __Step 1 –__ Navigate to the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ > __Configure__ node and select __Analysis__.
 
-![Analysis Configuration option on Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionsanalysisconfiguration.png)
+![Analysis Configuration option on Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionsanalysisconfiguration.webp)
 
 __Step 2 –__ In the Analysis Selection view, select an analysis task and click __Analysis Configuration__. The SQL Script Editor opens.
 
 __Step 3 –__ Click Parameters to open the Parameters section.
 
-![Change Parameter Value in SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionssqlscripteditor.png)
+![Change Parameter Value in SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/exceptionssqlscripteditor.webp)
 
 __Step 4 –__ Double-click in a field in the Value column and enter a custom value.
 

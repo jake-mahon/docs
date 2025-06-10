@@ -2,7 +2,7 @@
 
 When your organization performs a review on a resource for which you are the assigned owner, it means you, the business user or data custodian, need to attest to the access and privileges users have to your resource. When the Review Administrator creates a new review or starts a new instance of an existing review, you receive an email notification that includes a link to the your pending reviews.
 
-![Email announcing a pending review](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreviewemail.png)
+![Email announcing a pending review](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreviewemail.webp)
 
 Use the __Sign in__ link at the bottom to open the My Reviews interface in the Access Reviews Console.
 
@@ -14,7 +14,7 @@ The My Reviews interface has two pages: Pending Reviews and Review History. See
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreivewspage.png)
+![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreivewspage.webp)
 
 The information displayed in the table includes:
 
@@ -39,7 +39,7 @@ _Remember,_  any proposed changes are not committed until the Review Administrat
 
 The Begin Review button opens the Resource Review page to start the review.
 
-![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.png)
+![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common features:
 

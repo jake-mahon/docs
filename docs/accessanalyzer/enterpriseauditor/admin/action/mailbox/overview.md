@@ -29,6 +29,6 @@ Use the New Mailbox Action Wizard to target mailboxes or folders and to define t
 
 The Welcome page gives an overview of the action module. The steps navigation pane contains links to the pages in the wizard, which change based on the operation selected on the Operations page.
 
-![New Mailbox Action Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![New Mailbox Action Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

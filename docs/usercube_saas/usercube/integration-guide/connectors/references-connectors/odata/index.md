@@ -6,7 +6,7 @@ This page is about [
 OData
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/odata/index.md).
 
-![Package: Custom/OData](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.png)
+![Package: Custom/OData](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.webp)
 
 ## Overview
 

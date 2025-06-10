@@ -23,11 +23,11 @@ Execute certification by proceeding as follows:
 
 1. Access the ongoing campaigns by clicking on the __Access Certification__ section on the home page.
 
-   ![Home - Access Certification](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/home_accesscertification_v523.png)
+   ![Home - Access Certification](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/home_accesscertification_v523.webp)
 
    On this page, all assignments to be reviewed are listed.
 
-   ![Access Certification](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_accesscertification_v602.png)
+   ![Access Certification](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_accesscertification_v602.webp)
 
    Each assignment can be commented by clicking on the corresponding icon.
 
@@ -66,15 +66,15 @@ Execute certification by proceeding as follows:
 
 Existing certification campaigns are listed on the page accessible via the __Access Certification Campaigns__ button on the home page in the __Administration__ section.
 
-![Home - Access Certification Campaigns](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.png)
+![Home - Access Certification Campaigns](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.webp)
 
-![Campaigns Page](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_campaigns_v602.png)
+![Campaigns Page](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_campaigns_v602.webp)
 
 ### Get reports
 
 A __Download__ button is available for each campaign. It downloads a CSV report that lists all the entitlement assignments to be reviewed, the corresponding reviewers and their decisions.
 
-![Report Example](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_decisions_v522.png)
+![Report Example](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_decisions_v522.webp)
 
 ### Send notifications
 
@@ -86,4 +86,4 @@ Once entitlement assignments have been reviewed, the final step is to apply thes
 
 An __Apply Decisions__ button is available for each campaign. It shows all the decisions made in the campaign. The campaign administrator can then decide to actually apply said decisions and generate the appropriate provisioning orders for deprovisioning unjustified entitlements. Said orders will be considered during the next provisioning job.
 
-![Apply Decisions](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_applydecisions_v602.png)
+![Apply Decisions](/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_applydecisions_v602.webp)

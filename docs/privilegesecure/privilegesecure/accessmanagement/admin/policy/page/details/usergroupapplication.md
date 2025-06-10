@@ -2,7 +2,7 @@
 
 The User, Group, & Application Details page shows additional information on the selected user or group. This page is opened from the link in the user or group column within the various interfaces.
 
-![Users and Groups Details page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usersgroupsdetailspage.png)
+![Users and Groups Details page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usersgroupsdetailspage.webp)
 
 The page has the following features:
 

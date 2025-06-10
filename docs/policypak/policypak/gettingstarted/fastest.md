@@ -6,7 +6,7 @@ This topic provides information about the various support resources at Netwrix E
 
 The most important thing you can do to become quickly oriented with Endpoint Policy Manager is to watch our daily webinar. The webinar is oriented to your delivery scenario: On-Prem, Intune/MDM or Cloud.
 
-![gs3](/img/product_docs/policypak/policypak/gettingstarted/gs3.png)
+![gs3](/img/product_docs/policypak/policypak/gettingstarted/gs3.webp)
 
 If you were added as a Primary or Secondary, you were automatically provided a link which will get you directly to the Overview/On-Prem webinar. If you are using Endpoint Policy Manager with Intune/MDM or Endpoint Policy Manager Cloud, you might want to also watch the specific one for your scenario.
 
@@ -21,7 +21,7 @@ Endpoint Policy Manager has two login areas, both of which are accessible from t
 - [Portal](http://portal.policypak.com/) — On-Prem bits downloads, extras, Endpoint Policy Manager Bootcamp (Free Training), Payment location for monthly usage
 - [Cloud](http://cloud.policypak.com/) — The Endpoint Policy Manager Cloud service
 
-![gs1](/img/product_docs/policypak/policypak/gettingstarted/gs1.png)
+![gs1](/img/product_docs/policypak/policypak/gettingstarted/gs1.webp)
 
 - If you are unable to logon as expected during a trial, contact your Endpoint Policy Manager Sales person for credentials.
 
@@ -64,7 +64,7 @@ Endpoint Policy Manager has an extensive library of detailed manuals and Knowled
 
 Finding what youare looking for comes down to Knowledge Base & Videos and User Manuals. Here is a way to get oriented on the navigation.
 
-![gs2](/img/product_docs/policypak/policypak/gettingstarted/gs2.png)
+![gs2](/img/product_docs/policypak/policypak/gettingstarted/gs2.webp)
 
 ## Get Help from Support
 

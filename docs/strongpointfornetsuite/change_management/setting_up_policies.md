@@ -26,7 +26,7 @@
 - __Inactive__: Checked if the policy is not active.
 - __Log XML Only Change__: Checked to track online changes that occur in the XML, such as NetSuite internal changes.Recommended to leave this unchecked due to the volume of false positives you would need to manage.
 
-![changeandapprovalpolicy1](/img/product_docs/strongpointfornetsuite/change_management/changeandapprovalpolicy1.png)
+![changeandapprovalpolicy1](/img/product_docs/strongpointfornetsuite/change_management/changeandapprovalpolicy1.webp)
 
 ## Set Up a Default Policy
 
@@ -36,7 +36,7 @@
 - __Header__: Everything in the Header should remain the same including the name Default.
 - __Change Controls:__
 
-  ![Policy Default Change Controls](/img/product_docs/strongpointfornetsuite/change_management/policy_default_change_controls2.png)
+  ![Policy Default Change Controls](/img/product_docs/strongpointfornetsuite/change_management/policy_default_change_controls2.webp)
 - __Approvals__: Select the policy approvers on the Approvals tab.
 
 3. Click __Save__
@@ -100,7 +100,7 @@ To add new change levels, select __New__ or use the __+__ next to a field when e
 
 Approvers initiate the change request and enable it to move to the next stage.
 
-![Policy Approvals tab](/img/product_docs/strongpointfornetsuite/change_management/policy_approvals_tab.png)
+![Policy Approvals tab](/img/product_docs/strongpointfornetsuite/change_management/policy_approvals_tab.webp)
 
 Policy Change Approvers
 
@@ -111,7 +111,7 @@ This section is only applies to the default policy.
 
   __NOTE:__ Specifying a __Final Approver__ locks the default policy and all child policies. If a user attempts to change a policy, a notice is displayed. Click __Request Approval__. The form is launched, with your proposed changes populated.
 
-  ![Record Save Blocked](/img/product_docs/strongpointfornetsuite/change_management/record_save_blocked.png)
+  ![Record Save Blocked](/img/product_docs/strongpointfornetsuite/change_management/record_save_blocked.webp)
 
 ITGC Approvers
 
@@ -180,7 +180,7 @@ To set up additional policies:
 6. Click __Edit__
 7. Open the __Customization Policies__ tab.
   
-![policy_add_customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.png)
+![policy_add_customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
 
 - Check __Require Object Owner Approval__ if needed.
 - Check __Require Impacted Customization Approval__ if needed.

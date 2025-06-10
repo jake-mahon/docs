@@ -24,13 +24,13 @@ Policies can be protected at the folder level under the Policies node. When a us
 
 Follow the steps to protect policies.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
+![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 __Step 1 –__ Select a folder under the Policies node in the Navigation pane. The Policies interface is displayed.
 
 __Step 2 –__ In the Permissions ribbon, click the __Add__ (+) button.
 
-![Select User window](/img/product_docs/threatprevention/threatprevention/admin/policies/selectuser.png)
+![Select User window](/img/product_docs/threatprevention/threatprevention/admin/policies/selectuser.webp)
 
 __Step 3 –__ On the Select User window, select the user to be granted permission on this folder and the policies within it.
 
@@ -48,13 +48,13 @@ In addition to protecting policies, objects being monitored or blocked by polici
 
 Follow the steps to protect objects.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.png)
+![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 __Step 6 –__ Select a folder under the Policies node in the Navigation pane. The Policies interface is displayed.
 
 __Step 7 –__  In the Protected Objects ribbon, click the __Add__ (+) button.
 
-![Select Active Directory Contexts window](/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.png)
+![Select Active Directory Contexts window](/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.webp)
 
 __Step 8 –__ On the Select Active Directory Contexts window, select an Agent from the drop-down menu and click __Connect__. Expand the domain tree in the Navigation pane. Select an item in the Results pane on the right and click __OK__. See the [Selection Windows](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
 

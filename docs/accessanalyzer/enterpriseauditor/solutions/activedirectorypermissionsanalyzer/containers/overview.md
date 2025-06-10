@@ -2,7 +2,7 @@
 
 The 7.Containers Job Group reports on all Active Directory permissions applied to container objects within the targeted domains.
 
-![7.Containers Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![7.Containers Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the 7.Containers Job Group are:
 

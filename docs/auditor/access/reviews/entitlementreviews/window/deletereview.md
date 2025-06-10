@@ -9,7 +9,7 @@ The Delete Review window opens from either the [Manage Reviews Page](/docs/audit
 
 Select the desired review on the Manage Reviews page and click __Delete__. The Delete Review window opens to confirm the action.
 
-![Delete Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/deletereviewentire.png)
+![Delete Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/deletereviewentire.webp)
 
 __CAUTION:__ This will delete all instances of the selected review and all historical data associated with it.
 
@@ -19,7 +19,7 @@ Click __Yes__ to complete the deletion. Click __No__ to cancel it. The Delete Re
 
 Select the desired review instance from the drop-down menu on the Review Details page and click __Delete__. The Delete Review window opens to confirm the action.
 
-![Delete Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/deletereviewinstance.png)
+![Delete Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/deletereviewinstance.webp)
 
 __CAUTION:__ This will delete all historical data associated to the selected review instance.
 

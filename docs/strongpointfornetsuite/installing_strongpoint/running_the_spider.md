@@ -37,7 +37,7 @@ If you track the progress of the scripts, you may see that they fail occasionall
 Open __Strongpoint__ > __Strongpoint Support__ > __Installation
 Settings__ and review the __Spider Status__ tab to confirm the __Last Completed Spider__ shows a date.
 
-![Review the Spider Status tab of the Installation Settings](/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.png)
+![Review the Spider Status tab of the Installation Settings](/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.webp)
 
 - __Strongpoint Record Server Side Spider Scheduled Script__ is no longer running.
 - __Strongpoint Search Customization to Make Join (By Join Proc)__ should not have any results. If there are items in the results, it indicates the __Strongpoint Make Joins Script__ is still running.

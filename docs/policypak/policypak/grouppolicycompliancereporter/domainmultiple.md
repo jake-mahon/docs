@@ -64,7 +64,7 @@ __Step 3 –__ Configure Server settings via Console
 2. Will need the server name (shortname or FQDN) for this step
 3. Will need to be able to create a GPO or export and import later for this step
 
-![758_1_image-20200130171300-1_950x485](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_1_image-20200130171300-1_950x485.png)
+![758_1_image-20200130171300-1_950x485](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_1_image-20200130171300-1_950x485.webp)
 
 ## Enabling Other Domains to connect to GPCR
 
@@ -86,4 +86,4 @@ __Step 4 –__ Add computers in Domain 2 to the new Domain 2 AD Group
 - Currently GPCR cannot innumerate members of a Domain Local group that are not in the same domain. Even with a two way forest trust in place
 - Therefore the workaround as noted above is to create the corresponding local domain group of the same name as the primary GPCR domain
 
-  ![758_3_image-20200130171300-2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_3_image-20200130171300-2.png)
+  ![758_3_image-20200130171300-2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_3_image-20200130171300-2.webp)

@@ -12,7 +12,7 @@ In order to elevate the Endpoint Policy Manager Least Privilege Manager Helper T
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.webp)
 
 After that, when the client is updated to acquire the new rules, the Endpoint Policy Manager Least Privilege Manager Helper Tools will run as expected.
 

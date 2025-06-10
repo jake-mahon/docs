@@ -2,7 +2,7 @@
 
 The Resources tab shows the resources associated with the selected protection policy.
 
-![Protection policy resources tab](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Protection policy resources tab](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
 
 The Resources table has the following features:
 

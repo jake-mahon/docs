@@ -1,6 +1,6 @@
 # Baseline Policy Rule Options: Rule Creation Options
 
-![baselineeditrulecreationoptions](/img/product_docs/changetracker/changetracker/baseline/baselineeditrulecreationoptions.png)
+![baselineeditrulecreationoptions](/img/product_docs/changetracker/changetracker/baseline/baselineeditrulecreationoptions.webp)
 
 - __Extend Selected Rules__ — Indicates whether to extend the rule to check for the old and new values, or replace the rule with one checking for the new value only
 - __Missing Value Passes__ — Indicates whether the rule passes if a missing item is detected (e.g., installed software item is not present on target)
@@ -14,11 +14,11 @@ __NOTE:__  Just click the Query icon to get a quick tip on what the Rule Option 
 
 ## Baseline Policy Rule Options: Review and Edit Rules
 
-![baselinereviewandeditrules](/img/product_docs/changetracker/changetracker/baseline/baselinereviewandeditrules.png)
+![baselinereviewandeditrules](/img/product_docs/changetracker/changetracker/baseline/baselinereviewandeditrules.webp)
 
 Edit Rules provides a means to edit or remove rules before incorporating into your baseline policy, or for managing an existing Policy. It is important to understand that during the Setup phase you are selecting items with rule logic in order to build a Netwrix policy, in effect, another Compliance Report like the hundreds of other reports Netwrix provide for CIS, NIST. PCI etc.
 
-![baselineeditrules](/img/product_docs/changetracker/changetracker/baseline/baselineeditrules.png)
+![baselineeditrules](/img/product_docs/changetracker/changetracker/baseline/baselineeditrules.webp)
 
 The Edit Rules function provides an opportunity to add a description and justification for the attribute and its inclusion in the policy.
 
@@ -28,10 +28,10 @@ Complete:
 
 Baseline Policy creation is now complete, and you can run your first Baseline Policy report using the Run Report button
 
-![baselinerunreport](/img/product_docs/changetracker/changetracker/baseline/baselinerunreport.png)
+![baselinerunreport](/img/product_docs/changetracker/changetracker/baseline/baselinerunreport.webp)
 
 Running the report will take you to the regular Reports tab, filtered to your new Baseline Policy. You can see more about scheduling and controlling reports in the main Reports section.
 
 You can now either add more devices to the Baseline Members Group or just assign the Baseline Policy to an existing group of devices, then choose your schedule and results delivery options.
 
-![baselinereportsandqueryschedules](/img/product_docs/changetracker/changetracker/baseline/baselinereportsandqueryschedules.png)
+![baselinereportsandqueryschedules](/img/product_docs/changetracker/changetracker/baseline/baselinereportsandqueryschedules.webp)

@@ -4,7 +4,7 @@ On the Active Directory page, you can access all the domains that you have confi
 
 Click __Active Directory__ in the left pane to open the Active Directory page.
 
-![Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.png)
+![Active Directory page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.webp)
 
 Select a domain from the drop-down menu and expand it to view the domain tree and container structure, which is exactly the same as you get in Active Directory Users and Computers. Objects in the domain are also available in the same hierarchical structure.
 
@@ -37,7 +37,7 @@ On expanding a domain in the left pane, you will notice that Recycle Bin is in b
 
 When you right-click an object in a domain on the Active Directory page, the right-click menu is displayed as:
 
-![Right-click menu on the Active Directory page](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
+![Right-click menu on the Active Directory page](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.webp)
 
 The Show audit history and Show activity options are enabled only when both the following conditions are met:
 
@@ -52,7 +52,7 @@ You can view the changes made to an object by other users.
 
 On the Active Directory page, select and expand a domain in the left pane and locate the object you want to view the audit history for. Right-click this object and select __Show audit history__ on the menu. The Audit History window is displayed.
 
-![Audit History window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/audithistory.png)
+![Audit History window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/audithistory.webp)
 
 The following information is displayed for every action performed on the object:
 
@@ -70,7 +70,7 @@ You can view the activity performed by an object in the environment.
 
 On the Active Directory page, select and expand a domain in the left pane and locate the object whose activity you want to view. Right-click this object and select __Show activity__ on the menu. The Audit Activity window is displayed.
 
-![Audit Activity window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/auditactivity.png)
+![Audit Activity window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/auditactivity.webp)
 
 The following information is displayed for the actions performed by the object:
 

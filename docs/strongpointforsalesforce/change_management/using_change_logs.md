@@ -8,11 +8,11 @@ Change Logs allow you to see the type of change, who made the change and view th
 
 You can also open Change Logs from __Netwrix Dashboard__ > __Reports__ > __Change Enablement__. Select a report, such as __What Changed__ to see a list of Change Logs.
 
-![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.png)
+![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 Here is an example change log for a __Profile__ Metadata type.
 
-![changelog_details](/img/product_docs/strongpointforsalesforce/change_management/changelog_details.png)
+![changelog_details](/img/product_docs/strongpointforsalesforce/change_management/changelog_details.webp)
 
 ## Details Tab
 
@@ -72,17 +72,17 @@ The __Diff Summary__ section displays the differences in the objects that occurr
 
 Example Diff Summary for a Data tracking Change Log:
 
-![Diff Summary for data tracking](/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.png)
+![Diff Summary for data tracking](/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.webp)
 
 Example Diff Summary for a Profile metadata type Change Log:
 
-![Change Log Diff Summary](/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.png)
+![Change Log Diff Summary](/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.webp)
 
 ### Values
 
 The __Values__ section displays the __New Value__ and __Old Value__ of each field after the update. The __Created By__ and __Last Modified By__ users and dates are displayed at the end of the list.
 
-![changelog_values](/img/product_docs/strongpointforsalesforce/change_management/changelog_values.png)
+![changelog_values](/img/product_docs/strongpointforsalesforce/change_management/changelog_values.webp)
 
 ### Audit
 

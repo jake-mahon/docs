@@ -8,4 +8,4 @@ On the Security tab, ensure "Trusted: Require server verification https:" and "I
 
 This will deliver "un-check" to these settings, allowing for HTTP zones.
 
-![240_1_image002](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/240_1_image002.png)
+![240_1_image002](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/240_1_image002.webp)

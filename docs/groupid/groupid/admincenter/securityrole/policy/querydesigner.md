@@ -10,7 +10,7 @@ The Query Designer policy enables you to restrict the following Query Designer f
 - Tabs on the Query Designer - The Query Designer has multiple tabs and all of them are available to users by default. You can choose to hide any of these tab from role members.
 - Attributes and their respective operators. - Specify the attributes that will be available to role members for building queries for Smart Groups and Dynasties. For each attribute, you can also specify the operators that role members can apply to it.
 
-![querydesigner](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.png)
+![querydesigner](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.webp)
 
 You can also specify a default filter criterion, involving an attribute, an operator, and a value, that will be displayed to users on the Filter Criteria tab of the Query Designer. Role members can change this criterion as required.
 

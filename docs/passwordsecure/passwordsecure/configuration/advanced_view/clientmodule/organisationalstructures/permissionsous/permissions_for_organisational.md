@@ -9,13 +9,13 @@ These permissions primarily define which users/roles have what form of permissio
 
 The way in which permissions for organisational structures are designed thus effects the subsequent work with Netwrix Password Secure in many ways. The following diagram describes the above-mentioned interfaces.
 
-![Permissions for organizational structures](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.png)
+![Permissions for organizational structures](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.webp)
 
 ## Permissions
 
 The visibility and also inheritance mechanisms are not considered below. This section exclusively deals with permissions for the actual organisational structure. It deals with which users and roles have what form of permissions for a given organisational structure. Permissions for organisational structures can be defined via the ribbon or also the context menu that is accessed using the right mouse button. A permissions tab appears:
 
-![Permissions for OU](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.png)
+![Permissions for OU](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.webp)
 
 NOTE: The basic mechanisms for setting permissions is described in detail in the Authorization concept.
 

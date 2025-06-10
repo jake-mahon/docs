@@ -6,7 +6,7 @@ See the[
 Microsoft Entra ID
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for additional information.
 
-![Package: Directory/Microsoft Entra ID](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.png)
+![Package: Directory/Microsoft Entra ID](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.webp)
 
 ## Overview
 

@@ -21,7 +21,7 @@ Available reports vary based on the type of resource and the level within the re
 
 The Resources pane, which is unique to the Resource Audit interface, displays a navigation view of available resources. Only those resource environments that have been scanned by Access Analyzer or introduced to the Access Information Center with Flexible Imports are available. Explore the desired resource by expanding the levels.
 
-![Resources pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resourcespane.png)
+![Resources pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resourcespane.webp)
 
 Select a resource in the Resources pane and a report in the Reports pane to to view the report data in the Results pane. Hover over any icon in the Access Information Center interface to view its description.
 

@@ -8,7 +8,7 @@ Workflow
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/workflow/index.md)
 topic for additional information.
 
-![Package: Usercube/Workflow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.png)
+![Package: Usercube/Workflow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
 
 ## Overview
 

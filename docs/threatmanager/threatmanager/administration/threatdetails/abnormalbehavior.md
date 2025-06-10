@@ -2,7 +2,7 @@
 
 The Threat Details page for abnormal behavior has a different layout and provides different information than the Threat Details page for other threat types. It displays information about user behaviors that deviate from the user's normal behavioral profile. Abnormal behavior detection begins when a user has been active for a minimum of 30 days, with up to 120 days of activity used to establish the baseline behavior for a user.
 
-![abnormalbehavior](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/abnormalbehavior.png)
+![abnormalbehavior](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/abnormalbehavior.webp)
 
 The top of the page shows the number of each of the following:
 

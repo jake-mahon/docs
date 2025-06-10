@@ -43,6 +43,6 @@ The SMARTLog Data Collector is configured through the SMART Log DC Wizard, which
 - [SMARTLog: Event Log Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/eventlogoptions.md)
 - [SMARTLog: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/summary.md)
 
-![SMART Log DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![SMART Log DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. Click __Next__ to proceed to the Log Type page.

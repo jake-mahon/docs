@@ -24,6 +24,6 @@ The DNS Data Collector is configured through the Domain Name System Data Collect
 - [DNS: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dns/results.md)
 - [DNS: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dns/summary.md)
 
-![Domain Name System Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Domain Name System Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the Do not display this page the next time checkbox when the wizard is open and configuration settings are saved.

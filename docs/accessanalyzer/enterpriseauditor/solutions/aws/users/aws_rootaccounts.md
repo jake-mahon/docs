@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __2.Users__ > __AWS\_RootAccounts__ > __Configure__ no
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_RootAccounts Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/users/rootaccountsanalysis.png)
+![Analysis Tasks for the AWS_RootAccounts Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/users/rootaccountsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

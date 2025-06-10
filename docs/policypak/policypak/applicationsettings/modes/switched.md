@@ -20,7 +20,7 @@ Switched policies are created on the Computer side, and they affect all users wh
 
 In Figure 40, you can see a GPO that affects Computer accounts. You use the AppSet in the same way as you would on the User side; however, you configure it for the Computer side. The User-side policy settings will automatically affect every user who logs onto the targeted computer.
 
-![policypak_application_settings_1_19](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_19.png)
+![policypak_application_settings_1_19](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_19.webp)
 
 Figure 40. A GPO that affects Computer accounts.
 

@@ -2,7 +2,7 @@
 
 The Active Directory Overview dashboard contains information on monitored Active Directory events within the past three (3) hours. It has the following cards:
 
-![Overview Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Overview Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 - Authentication Attacks – Number of authentication attacks that started in the specified timeframe, i.e., last three (3) hours. The value for this card is a hyperlink to the [Authentication Attacks Dashboard](/docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.md).
 - AD Changes – Number of Active Directory changes recorded in the specified timeframe, i.e., last three (3) hours. The value for this card is a hyperlink to the [AD Changes Dashboard](/docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/adchanges.md).

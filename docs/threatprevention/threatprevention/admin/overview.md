@@ -20,7 +20,7 @@ Threat Prevention consists of a number of components that work together to monit
 
 Threat Prevention Architecture
 
-![Threat Prevention Architecture Diagram](/img/product_docs/threatprevention/threatprevention/admin/systemdiagram.png)
+![Threat Prevention Architecture Diagram](/img/product_docs/threatprevention/threatprevention/admin/systemdiagram.webp)
 
 Threat Prevention Enterprise Manager
 

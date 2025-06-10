@@ -14,11 +14,11 @@ __NOTE:__ If you attempt to rename a task after a scheduled task using custom cr
 
 Jobs can be scheduled at the job group or job level.
 
-![Schedule option from Job Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/jobtree.png)
+![Schedule option from Job Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/jobtree.webp)
 
 Select the desired job group or job. Right-click on the node and select __Schedule__ to open the Schedule wizard.
 
-![Schedule Job wizard](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
+![Schedule Job wizard](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 The Schedule wizard has five pages with options for setting up the schedule task:
 

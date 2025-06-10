@@ -8,7 +8,7 @@ Depending on assigned DSAR role, a user can view his / her searches or searches 
 
    The following window appears:
 
-   ![dsar_view_results](/img/product_docs/dataclassification/ndc/admin/dsar/dsar_view_results.png)
+   ![dsar_view_results](/img/product_docs/dataclassification/ndc/admin/dsar/dsar_view_results.webp)
 
    Review the following for additional information:
 

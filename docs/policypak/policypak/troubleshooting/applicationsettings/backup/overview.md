@@ -20,7 +20,7 @@ The Endpoint Policy Manager extension DLLs are best placed in the Central Storag
 
 The Endpoint Policy Manager Application Settings Manager data inside a GPO is backed up and restored with normal GPMC backup procedures, as seen in Figure 90.
 
-![backup_restore_and_xml_export](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export.png)
+![backup_restore_and_xml_export](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export.webp)
 
 Figure 90. Backing up data with normal GPMC backup procedures.
 
@@ -36,7 +36,7 @@ The exact settings you specified inside an AppSet within a GPO can be exported a
 
 The idea of exporting is simple: use your AppSet, set your settings, click on the Options button, and then select "Export" to export the data, as seen in Figure 91.
 
-![backup_restore_and_xml_export_1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export_1.png)
+![backup_restore_and_xml_export_1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export_1.webp)
 
 Figure 91. The exact settings you specified inside a Pak within a GPO can be exported and, later, imported by selecting one of these options.
 

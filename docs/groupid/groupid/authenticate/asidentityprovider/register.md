@@ -25,7 +25,7 @@ Directory Manager will match the value of this attribute in the application and 
 
 Step 7 – Click __Browse__ under Identity Provider Image to upload an image for the application, such as the application logo.
 
-NOTE: Supported image formats: .jpg, .bmp, .png, and .gif  
+NOTE: Supported image formats: .jpg, .bmp, .webp, and .gif  
 Image file dimensions: 210 x 60 pixels
 
 Step 8 – Expand the Advanced section by clicking the down arrow head to specify advanced settings for the application.

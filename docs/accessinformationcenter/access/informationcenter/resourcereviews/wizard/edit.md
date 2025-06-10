@@ -2,7 +2,7 @@
 
 The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
-![Edit Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -19,7 +19,7 @@ Follow the steps to edit an active review.
 
 __Step 1 –__ On the Manage Reviews page, click __Edit__. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 __Step 2 –__ On the Review Type page, configure the notify review creator option as required. The Review Name and type are shown on the page but can not be edited. For Permissions, Access, and Sensitive Data reviews, the selection of the include children option is also shown, but can not be edited.
 
@@ -27,7 +27,7 @@ __Step 2 –__ On the Review Type page, configure the notify review creator opti
 
 __NOTE:__ If creating a Sensitive Data review, continue to Step 3. For all other review types, skip to Step 5.
 
-![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 __Step 3 –__ On the Criteria page, you can modify the selected types of sensitive criteria to include in the Sensitive Data review if no responses have been received. If responses for one or more resources have already been submitted you can not add or remove criteria.
 
@@ -40,7 +40,7 @@ __Step 4 –__ Optionally edit the selection of the __Reviewers are able to see 
 
 __CAUTION:__ If this option is checked, but the data has not been collected with matches stored by Netwrix Access Analyzer (formerly Enterprise Auditor) for all of the resources selected in Step 5, the “One or more resources selected have not been scanned” error occurs. The Create Review wizard will not allow the review to be created until those resources have been removed or the option unchecked.
 
-![Edit Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.png)
+![Edit Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
 
 __Step 5 –__ On the Resources page, modify the list of resources to be included in the review.
 
@@ -65,11 +65,11 @@ __NOTE:__ If the include child resources option was enabled during the review cr
   - Distribution lists: ```Name@domain.com```
 - Once the desired resources have been selected, click __Next__.
 
-![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 __Step 6 –__ On the Summary page, review the updated settings and click __Next__. The Access Information Center begins to update the review.
 
-![Edit Review wizard update completed message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Edit Review wizard update completed message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 7 –__ The action status displays on the page. When the review has been updated (100%), click __Close__. The Edit Review wizard closes.
 

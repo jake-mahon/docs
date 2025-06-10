@@ -21,7 +21,7 @@ __Step 4 –__ Click a report to open it. Reports without a filter are automatic
 
 __Step 5 –__ Click __Export__. The report is sent to you as an .xlsx file by email.
 
-![Roports - Export option](/img/product_docs/1secure/admin/searchandreports/exportreport.png)
+![Roports - Export option](/img/product_docs/1secure/admin/searchandreports/exportreport.webp)
 
 __NOTE:__ A report cannot be exported if no data is available for it. In this case, the Export button remains disabled.
 

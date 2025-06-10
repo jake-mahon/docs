@@ -2,7 +2,7 @@
 
 The 8.S3 Sensitive Data job group provides details on AWS S3 buckets and objects containing sensitive data.
 
-![8.S3 Sensitive Data Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![8.S3 Sensitive Data Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 8.S3 Sensitive Data job group is comprised of:
 

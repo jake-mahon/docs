@@ -90,7 +90,7 @@ Perform Role Mining
 
 Users are distributed in a hypercube made of all dimensions, like in the following table (left) when we have only 2 dimensions, where for example ```1```, ```2```, ```3```, etc. are users' possible locations, and ```A```, ```B```, ```C```, etc. are users' possible departments in the company. When considering one dimension and sorting the dimension values per user percentage, we get the following table (right).
 
-![Role Mining Tables](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/contextrules_rolemining.png)
+![Role Mining Tables](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/contextrules_rolemining.webp)
 
 The tables here represent a simple situation with few dimensions. But the higher the number of dimensions, the more complex are role mining's computations. This is known as the curse of dimensionality.
 

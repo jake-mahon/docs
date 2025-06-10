@@ -6,7 +6,7 @@ The Scan Server Selection page is where the server that executes the scan is con
 - File System Activity Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Scan Server Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.png)
+![FSAA Data Collector Wizard Scan Server Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.webp)
 
 Using the radio buttons, select where the execution of the applet will take place:
 
@@ -21,7 +21,7 @@ Using the radio buttons, select where the execution of the applet will take plac
 
   - See the [File System Proxy Service Installation](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/wizard.md) topic for additional information
 
-  ![Select Host Lists window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/selecthostlists.png)
+  ![Select Host Lists window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/selecthostlists.webp)
 - Select Host Lists – Opens the Select Host Lists window displaying all the available hosts to choose from. If more than one list is selected, scanning is distributed across each host.
 
 ___RECOMMENDED:___

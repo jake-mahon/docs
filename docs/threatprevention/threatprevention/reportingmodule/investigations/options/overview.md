@@ -4,7 +4,7 @@ You can view a saved investigation.
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then click a folder in the navigation pane to access a saved investigation. An investigation is located in the folder where it was saved.
 
-![Options available for an Investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationoptions.png)
+![Options available for an Investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationoptions.webp)
 
 Every investigation has the following options at the top of the page:
 

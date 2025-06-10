@@ -59,11 +59,11 @@ If the same Sensitive Data Criteria are used for all solutions, configure the cr
 
 Follow the steps to configure Sensitive Data Criteria at the global level.
 
-![Global Settings Sensitive Data node](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.png)
+![Global Settings Sensitive Data node](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.webp)
 
 __Step 1 –__  If the same Sensitive Data Criteria are used for all solutions, configure the criteria selection at the global Settings level, which will then be used by default in all solution sets. Navigate to the __Settings__ > __Sensitive Data__ node and click __Add__ to open the Select Criteria window.
 
-![Sensitive Data Select Criteria window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/selectcriteria.png)
+![Sensitive Data Select Criteria window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/selectcriteria.webp)
 
 __Step 2 –__ Select the desired criteria. Use the __Search Criteria__ text field to filter the list using keywords or expand each category to view and select individual Sensitive Data search criteria, then click __OK__.
 

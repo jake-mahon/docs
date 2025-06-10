@@ -40,7 +40,7 @@ The Database Solution license includes all supported database platforms supporte
 
 The Oracle Solution is a comprehensive set of pre-configured audit jobs and reports that provide visibility into various aspects of an Oracle Database Server, including information on Users and Roles, Sensitive Data Discovery, Object Permissions, Configuration, User Activity, and overall Security Assessment.
 
-![Oracle Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/oraclejobgroup.png)
+![Oracle Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/oraclejobgroup.webp)
 
 The job groups/jobs in the Oracle Solution are:
 

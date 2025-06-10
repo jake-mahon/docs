@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS\_Sh
 
 __CAUTION:__ Do not modify or deselect the last three selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/shareauditanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 
 The following analysis tasks are selected by default:
 

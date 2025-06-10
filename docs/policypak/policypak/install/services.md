@@ -4,7 +4,7 @@ Group Policy has its own services which handle the deployment and enforcement of
 
 You can see the Group Policy Client Service from Microsoft here. This is what downloads GPOs, which may or may not contain Netwrix Endpoint Policy Manager (formerly PolicyPak) data.
 
-![322_1_grouppolicyclient](/img/product_docs/policypak/policypak/install/322_1_grouppolicyclient.png)
+![322_1_grouppolicyclient](/img/product_docs/policypak/policypak/install/322_1_grouppolicyclient.webp)
 
 Endpoint Policy Manager provides (via Group Policy, Endpoint Policy Manager Cloud or MDM delivery) a vast array of powerful and unique policies not possible with Group Policy alone. Many of these unique policies must be enforced in real-time.
 
@@ -14,7 +14,7 @@ There are 3 services created by the CSE.
 - Endpoint Policy Manager Watcher Service (64-bit)
 - Endpoint Policy Manager Watcher Service (32-bit)
 
-![322_2_policypakservices](/img/product_docs/policypak/policypak/install/322_2_policypakservices.png)
+![322_2_policypakservices](/img/product_docs/policypak/policypak/install/322_2_policypakservices.webp)
 
 The Endpoint Policy Manager services provide this real-time enforcement of policies. For instance, when you use Endpoint Policy Manager to perform the following:
 

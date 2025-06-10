@@ -11,7 +11,7 @@ __NOTE:__ All users with access to the Resource Audit interface can model change
 
 Return to the Group Membership Changes window to view the modeled changes by clicking the __Change Group Membership__ button on the Group Membership pane.
 
-![Group Membership Changes window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.png)
+![Group Membership Changes window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
 
 Additional changes can be modeled using the __Add__ and __Remove__ buttons.
 

@@ -6,7 +6,7 @@ To adjust audit settings automatically, do any of the following:
 
 - When creating a new monitoring plan, at the first step of the wizard select the __Adjust audit settings automatically__ option. See the [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information.
 
-![mp_wizard_step1_ad_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectory/mp_wizard_step1_ad_thumb_0_0.png)
+![mp_wizard_step1_ad_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectory/mp_wizard_step1_ad_thumb_0_0.webp)
 
 - For the existing monitoring plan, modify data collection settings for Active Directory data source, selecting __Adjust audit settings automatically__ option.   
   See the [Manage Data Sources](/docs/auditor/auditor/admin/monitoringplans/datasources.md) and [Active Directory](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md) topics for additional information.

@@ -8,7 +8,7 @@ Follow the steps to review the Billable Users report.
 
 __Step 1 –__ Navigate to the __Reports__ > __System__ tab.
 
-![system](/img/product_docs/1secure/admin/searchandreports/system.png)
+![system](/img/product_docs/1secure/admin/searchandreports/system.webp)
 
 __Step 2 –__ Select the __Billable Users__ report in the left pane to view it.
 

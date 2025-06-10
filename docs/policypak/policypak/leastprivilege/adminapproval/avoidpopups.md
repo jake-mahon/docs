@@ -13,7 +13,7 @@ When an application is detected as an installer, even if a user doesn’t click 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There are two ways to overcome these messages:
 
@@ -32,7 +32,7 @@ The first way to see which applications are causing unwanted pop-ups is via Endp
 
 ![A screenshot of a computer program
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
 __NOTE:__ Some applications may have different ways to self-update, possibly calling more than one upgrade application. Thiscould result in more than one pop-up. Be sure you are noting them all before you proceed.
 

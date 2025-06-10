@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD\_DuplicateGroups_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Anaylsis tasks for AAD_DuplicateGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.png)
+![Anaylsis tasks for AAD_DuplicateGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.webp)
 
 The default analysis tasks are:
 

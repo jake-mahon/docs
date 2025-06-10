@@ -6,7 +6,7 @@ The EX\_Delegates job collects data from Active Directory to identify the delega
 
 The EX\_Delegates job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Delegates Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/delegatesquery.png)
+![Queries for the EX_Delegates Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/delegatesquery.webp)
 
 The following query is included with the EX\_Delegates job:
 

@@ -23,7 +23,7 @@ Complete the following fields:
 | Objects |  |
 | Specify monitoring restrictions | Specify restrictions for the objects to monitor in your Active Directory. Use them to create the lists of specific objects to include and / or exclude from the monitoring scope (and, therefore, search results, reports and Activity Summaries). The following options are available:   - Monitor all objects - __Include these objects__ - __Exclude these objects__   To create a list of inclusions / exclusions, click Add and enter object path using one of the following formats:   - Canonical name, for example: _mydomain.local/Computers/filesrv01_  OR - Object path as shown in the "_What_" column of reports and search results, for example: _\local\mydomain\Computers\filesrv01_   You can use a wildcard (\*) to replace any number of characters in the path. See the examples below for more information. |
 
-![Specify monitoring restrictions](/img/product_docs/auditor/auditor/admin/monitoringplans/activedirectory/mp_data_source_ad_omit_example.png)
+![Specify monitoring restrictions](/img/product_docs/auditor/auditor/admin/monitoringplans/activedirectory/mp_data_source_ad_omit_example.webp)
 
 Examples
 
@@ -93,7 +93,7 @@ __Step 1 –__ Select the desired item.
 
 __Step 2 –__ In the item configuration menu, select Netwrix Privilege Secure as an option for data collection.
 
-![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.png)
+![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.webp)
 
 __Step 3 –__ Select the type of the Access Policy you want to use in Netwrix Privilege Secure. Credential-based is the default option. Refer to the [Netwrix Privilege Secure](https://helpcenter.netwrix.com/category/privilegesecure_accessmanagement) documentation to learn more about Access Policies.
 
@@ -101,7 +101,7 @@ In this case, you need to provide the username of the account managed by Netwrix
 
 __NOTE:__ Netwrix recommends using different credentials for different monitoring plans and data sources.
 
-![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.png)
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
 
 The second option is Resource-based. To use this option, you need to provide the Activity and Resource names, assigned to Netwrix Auditor in the corresponding Resource-based policy. Make sure that you specified the same names as in Netwrix Privilege Secure.
 

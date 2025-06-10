@@ -10,7 +10,7 @@ To try to accomplish this you have created a Default Browser policy set to Inter
 
 http://www.microsoft.com that the site still opens in Internet Explorer instead of Edge. The website http://docs.microsoft.com however, opens correctly in Edge.
 
-![712_1_image-20201230005141-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_1_image-20201230005141-1.png)
+![712_1_image-20201230005141-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_1_image-20201230005141-1.webp)
 
 Assuming that the Browser Router Policy and prerequisites are all configured correctly, (i.e., the Default Browser policy, and/or other BR policies are working as expected) the reason this is happening is because wildcard rules like \*.site.com ignore "www" and only apply to subdomains of the URL specified in the wildcard policy. The URL http://www.microsoft.com will be treated like http://microsoft.com and be opened in the default browser, Internet Explorer in this case, whereas subdomains like http://docs.microsoft.com will be redirected to Edge as they match the wildcard policy.
 
@@ -20,8 +20,8 @@ To workaround this issue you can either create a URL policy for http://microsoft
 
 __NOTE:__  There is no "www" in the URL rule below.
 
-![712_2_image-20201230005141-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_2_image-20201230005141-2.png)
+![712_2_image-20201230005141-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_2_image-20201230005141-2.webp)
 
 OR
 
-![712_3_image-20201230005141-3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_3_image-20201230005141-3.png)
+![712_3_image-20201230005141-3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_3_image-20201230005141-3.webp)

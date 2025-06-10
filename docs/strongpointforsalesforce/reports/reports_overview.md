@@ -21,7 +21,7 @@ Open __Strongpoint__ > __Scanner__ > __Scheduler__
  __PermissionSet Assignment__ and __System Permission__ must be __Enabled__, and the __Frequency__ set to __Daily__.   
 If you have questions, contact your CSM or Salesforce Specialist.
 
-![Enabling reports](/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.png)
+![Enabling reports](/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.webp)
 
 ## Access Reports
 
@@ -33,11 +33,11 @@ You can focus on sensitive objects by filtering by object name and adding the na
 
 > __Permissions by Object__: Displays the permissions on each object for all Permission Sets and Profiles.
 >
-> ![Permission by object](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.png)
+> ![Permission by object](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.webp)
 >
 > __Object Permission by Profile/PermSet__: Displays the object permissions organized by Permission Set and Profile.
 >
-> ![Access report by PermissionSet/Profile](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.png)
+> ![Access report by PermissionSet/Profile](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.webp)
 >
 > __Users to Profiles/PermissionSets__: Displays the Profile, PermissionSet and PermissionSet Group assigned to each user. You can filter the report information. For example, if you want a list of users that have Admin profiles, you can set two filters:
 >
@@ -46,29 +46,29 @@ You can focus on sensitive objects by filtering by object name and adding the na
 >
 > __Date Assigned__ and __Expires on__ are only relevant for PermissionSets. They are blank for Profiles. If your org does not use the __Expires on__ feature, you can remove the column from the report.
 >
-> ![Users to Profile/PermissionSets](/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.png)
+> ![Users to Profile/PermissionSets](/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.webp)
 >
 > __Profiles to PermissionsSets Changes__: Displays the changes made to your Profiles, PermissionSets,and PermissionSet Groups. If there is an active policy, the __Compliance__ column displays whether the change was Compliant or Non-Compliant. If no policy, all changes are Compliant.
 >
-> ![Access Report Profile Permissions Changes](/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.png)
+> ![Access Report Profile Permissions Changes](/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.webp)
 >
 > __Changes to Users__: Displays the changes to tracked user data fields. Refer to [Enhanced CPQ Support](/docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md) for more information on setting up tracking.
 >
 > If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply means the governor limits have been reached. Profiles and PermissionSets are very data heavy. Platform Governance for Salesforcet skips the record and continues the scan the next day to ensure there is no impact to your org.
 >
-> ![Changes to Users](/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.png)
+> ![Changes to Users](/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.webp)
 >
 > __Record Types and Page Layout Assignments__: Displays the objects, record types and assigned layouts organized by profile.
 >
-> ![Access Reports Record Types and Layouts](/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.png)
+> ![Access Reports Record Types and Layouts](/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.webp)
 >
 > __System Permissions__: displays the list of System Permissions, the Profile or Permission set that has access to it and the list of Users that have this system permission enabled.
 >
-> ![System Permissions](/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.png)
+> ![System Permissions](/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.webp)
 >
 > __Field Permissions__: Displays the related objects, shows if there is a Read / Edit permission, the Profile or Permission set that give that field level access and the users related to those Profiles and permission sets.
 >
-> ![Field Permissions report](/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.png)
+> ![Field Permissions report](/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.webp)
 >
 > To generate this report:
 >

@@ -2,7 +2,7 @@
 
 Once a domain is being monitored the event stream can be sent to multiple outputs.
 
-![Monitored Domains tab with Domain Outputs added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainoutputsadded.png)
+![Monitored Domains tab with Domain Outputs added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainoutputsadded.webp)
 
 Configured outputs are grouped under the domain. You can have multiple outputs configured for a domain. The domain event outputs are:
 
@@ -20,7 +20,7 @@ __Step 1 –__ On the Monitored Domains tab, select the desired domain and click
 
 __Step 2 –__ Select __File__ from the drop-down menu. The Add New Output window opens.
 
-![Log Files configuration](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/logfiles.png)
+![Log Files configuration](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/logfiles.webp)
 
 __Step 3 –__ Configure the tab(s) as desired.
 
@@ -36,7 +36,7 @@ __Step 1 –__ On the Monitored Domains tab, select the desired domain and click
 
 __Step 2 –__ Select __Syslog__ from the drop-down menu. The Add New Output window opens.
 
-![Syslog Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/syslogudp.png)
+![Syslog Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/syslogudp.webp)
 
 __Step 3 –__ Configure the tab(s) as desired.
 
@@ -54,7 +54,7 @@ __Step 1 –__ On the Monitored Domains tab, select the desired domain and click
 
 __Step 2 –__ Select __Netwrix Threat Manager (StealthDEFEND)__ from the drop-down menu. The Add New Output window opens.
 
-![StealthDEFEND Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/stealthdefendproperties.png)
+![StealthDEFEND Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/stealthdefendproperties.webp)
 
 __Step 3 –__ Configure the tab(s) as desired.
 

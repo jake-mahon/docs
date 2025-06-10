@@ -2,7 +2,7 @@
 
 The Mailbox job group is comprised of jobs that process and analyze the Message Tracking Logs in the Office 365 environment. This job group parses message tracking and stores the data for analysis and reporting in the Access Analyzer database.
 
-![Mailflow Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowjobstree.png)
+![Mailflow Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailflowjobstree.webp)
 
 The jobs in the Mailflow job group are:
 

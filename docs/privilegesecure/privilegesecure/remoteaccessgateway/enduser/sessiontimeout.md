@@ -4,6 +4,6 @@ For security reasons, the Remote Access Gateway automatically logs out the use
 
 __NOTE:__ The session timeout setting may differ if it has been customized by your administrator.
 
-![Session Timeout ](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/sessiontimeout.png)
+![Session Timeout ](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/sessiontimeout.webp)
 
 If the timeout message appears, click __Stay Logged In__ to continue using the console.

@@ -18,7 +18,7 @@ Deployment logs have these sections:
 
 ## Sample Deployment Log
 
-![Successful deployment log example](/img/product_docs/strongpointforsalesforce/release_management/deployment_log.png)
+![Successful deployment log example](/img/product_docs/strongpointforsalesforce/release_management/deployment_log.webp)
 
 ## Deployment Log Detail
 

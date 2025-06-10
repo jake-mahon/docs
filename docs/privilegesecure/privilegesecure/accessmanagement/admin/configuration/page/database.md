@@ -4,7 +4,7 @@ The Database page is accessible from the Navigation pane under Configuration > S
 
 ## PostgreSQL Database Settings
 
-![Configuration system settings Database Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/databasepage.png)
+![Configuration system settings Database Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/databasepage.webp)
 
 The Database Settings page displays the following settings for PostgreSQL:
 
@@ -17,7 +17,7 @@ The Database Settings page displays the following settings for PostgreSQL:
 
 ## SQL Server Database Settings
 
-![SQL Server Database Settings Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/sqldatabasepage.png)
+![SQL Server Database Settings Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/sqldatabasepage.webp)
 
 The Database Settings page displays the following settings for SQL Server:
 

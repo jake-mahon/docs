@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Policy__ > __Resources__ page.
 
 __Step 2 –__ Click the Plus icon and select New Website from the drop-down list.
 
-![Add New Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addnewwebsite.png)
+![Add New Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addnewwebsite.webp)
 
 __Step 3 –__ Enter the following information:
 

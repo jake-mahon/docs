@@ -2,7 +2,7 @@
 
 The Access Analyzer analysis modules are capable of finding unique data and notifying users of its location from a variety of environments. Analysis modules are assigned to a job at the __Configure__ > __Analysis__ node. See the [Analysis Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysis.md) topic for information on the Analysis Selection view.
 
-![Configure an analysis](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
+![Configure an analysis](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
 Analysis tasks are configured through the Analysis Properties page. Navigate to the job’s __Configure__ > Analysis node. The Analysis Properties page is opened from the Analysis Selection page by either of the following options:
 
@@ -32,7 +32,7 @@ Analysis tasks execute automatically if enabled through the Analysis Selection p
 
 Analysis tasks can be created, deleted, and configured through the Analysis Selection page. For jobs with existing analysis tasks, the Analysis Selection page is used to change the order in which tasks are run, as well as enabling or disabling tasks.
 
-![Analysis Selection Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/analysisselectionpage.png)
+![Analysis Selection Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/analysisselectionpage.webp)
 
 The Analysis Selection page has the following options:
 
@@ -51,7 +51,7 @@ The Analysis Selection page has the following options:
 
 Configure task properties through the Analysis Properties page. The Analysis Properties page is accessed through the Analysis Selection page.
 
-![Analysis Properties Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/analysispropertiespage.png)
+![Analysis Properties Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/analysispropertiespage.webp)
 
 The Analysis Properties page has the following options:
 

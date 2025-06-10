@@ -6,7 +6,7 @@ The EX\_Perms job collects information about permissions applied to the folders 
 
 The EX\_Perms job uses the EWSMailbox Data Collector.
 
-![Queries for the EX_Perms Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.png)
+![Queries for the EX_Perms Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.webp)
 
 The following query is included in the EX\_Perms job.
 

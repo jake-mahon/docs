@@ -2,7 +2,7 @@
 
 If the message Application Blocked by Java Security appears when working in Internet Explorer and Firefox, then add the site to the Java Site List Exceptions to automate and work around this message.
 
-![overcoming_java_prompts](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/overcoming_java_prompts.png)
+![overcoming_java_prompts](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/overcoming_java_prompts.webp)
 
 The fastest way to automate this is with Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager Java AppSets. Starting with Java 7 U 25 they all have this feature.
 

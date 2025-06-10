@@ -27,7 +27,7 @@ The SQL Job Group within the Jobs tree, as part of the Database Solution: Jobs >
 
 The Database Solution license includes all supported database platforms supported by Access Analyzer. Additionally, Sensitive Data Discovery enables the solution to search database content for sensitive data.
 
-![SQL Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup.png)
+![SQL Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup.webp)
 
 The SQL Job Group includes:
 

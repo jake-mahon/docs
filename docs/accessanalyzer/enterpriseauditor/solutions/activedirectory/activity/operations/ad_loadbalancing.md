@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD\_L
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_LoadBalancing Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/operations/loadbalancinganalysis.png)
+![Analysis Task for the AD_LoadBalancing Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/operations/loadbalancinganalysis.webp)
 
 The default analysis task is:
 

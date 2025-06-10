@@ -2,11 +2,11 @@
 
 Follow the steps to create a new job.
 
-![Create Job from Jobs Tree context menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/createjob.png)
+![Create Job from Jobs Tree context menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/createjob.webp)
 
 __Step 1 –__ Select the Jobs tree or the desired job group to add the new job to. Right-click and select __Create Job__.
 
-![New Job added to Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/newjob.png)
+![New Job added to Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/newjob.webp)
 
 __Step 2 –__ Provide a unique, descriptive name for the job. The default name is ```NewJob```. Some considerations for naming conventions:
 

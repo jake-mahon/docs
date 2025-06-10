@@ -10,7 +10,7 @@ The Host Management process consists of the following phases:
 - Host Inventory – The process of collecting key pieces of information about each host to aid in segregating the hosts into logical sub-groupings for targeted auditing. Use either the Host Discovery or Host Management nodes.
 - Host List Creation – Access Analyzer creates Default host lists based on Host Inventory results. Create and manage Custom host lists under the Host Management node. See the [Hosts Lists](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/lists.md) topic for additional information.
 
-![Host Management Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Host Management Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The nodes under the Host Management node are:
 

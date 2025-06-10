@@ -2,7 +2,7 @@
 
 The Policies Page provides an overview of the policies added to the Policies box and their deployment history. It also provides the ability to add new polices and configure them.
 
-![page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The Polices table displays the following information:
 
@@ -29,7 +29,7 @@ __NOTE:__ When a Honeytoken name is specified and the policy is enabled, this po
 
 Follow the steps to add a policy.
 
-![addnewpolicy](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/addnewpolicy.png)
+![addnewpolicy](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/addnewpolicy.webp)
 
 __Step 1 –__ In the Policies box, click Add New Policy. The Add Profile window opens.
 

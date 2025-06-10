@@ -48,4 +48,4 @@ Click on any of the report columns to change the sort order. The á or â arrow 
 >
 > __Components Deployed__: Number of components deployed.
 
-![Deployment Rollback Report](/img/product_docs/strongpointforsalesforce/reports/report_deploy_rollbacks.png)
+![Deployment Rollback Report](/img/product_docs/strongpointforsalesforce/reports/report_deploy_rollbacks.webp)

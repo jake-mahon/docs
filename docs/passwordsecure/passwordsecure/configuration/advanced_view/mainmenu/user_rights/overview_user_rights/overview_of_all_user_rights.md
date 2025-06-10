@@ -101,6 +101,6 @@ This section lists all of the existing user rights. If a right is explained in m
 
 NOTE: There is a version selection box in the user rights. The options that were newly added in the selected version are correspondingly marked in the list.
 
-![installation_with_parameters_115](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.png)
+![installation_with_parameters_115](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
 
 This makes it easier for administrators to correctly configure new options before they release the update for all employees.

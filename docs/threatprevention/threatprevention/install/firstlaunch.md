@@ -10,7 +10,7 @@ __Step 1 –__ On first launch, the Netwrix Threat Prevention Licensing Configur
 
 This warning always displays when the organization’s license is within 14 days of expiring. Click __OK__. See the [Import the License](/docs/threatprevention/threatprevention/install/licenseimport.md) topic for licensing the product.
 
-![Import Templates dialog box](/img/product_docs/threatprevention/threatprevention/install/importtemplates.png)
+![Import Templates dialog box](/img/product_docs/threatprevention/threatprevention/install/importtemplates.webp)
 
 __Step 2 –__ On the Import Templates dialog box, you can choose to import policy templates now or later.
 
@@ -21,7 +21,7 @@ In Threat Prevention, many policy templates are pre-configured for the most comm
 
 You can import the policy templates any time later. See the [Import Templates](/docs/threatprevention/threatprevention/admin/templates/folder/overview.md#import-templates) topic for additional information.
 
-![Install Agent dialog box](/img/product_docs/threatprevention/threatprevention/install/installagent.png)
+![Install Agent dialog box](/img/product_docs/threatprevention/threatprevention/install/installagent.webp)
 
 __Step 3 –__ On the Install Agents dialog box, you can choose to install the Agent on servers now or later.
 

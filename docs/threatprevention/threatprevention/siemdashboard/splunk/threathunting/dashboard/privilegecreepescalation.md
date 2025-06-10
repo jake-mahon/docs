@@ -4,7 +4,7 @@ The Privilege Creep/Escalation option uses the Account Name field to determine w
 
 The Privilege Creep/Escalation option contains the following cards:
 
-![privilegecreep](/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/privilegecreep.png)
+![privilegecreep](/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/privilegecreep.webp)
 
 - Last Twenty Successful Group Modification Events (Member) – Shows the details of the last twenty successful group modification events where the Account Name matches the Affected Object, as recorded in the specified timeframe
 - Last Twenty Successful Group Modification Events (Perpetrator) – Shows the details of the last twenty successful group modification events where the Account Name matches the Perpetrator, as recorded in the specified timeframe

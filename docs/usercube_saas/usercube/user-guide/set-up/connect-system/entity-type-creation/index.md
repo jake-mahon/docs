@@ -16,7 +16,7 @@ Define Scalar Properties
 Define Navigation Properties
 ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)), both described later.
 
-![Entity Type - Schema](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.png)
+![Entity Type - Schema](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
 
 The configuration of entity types depends entirely on the previously established by[
 Model the Data
@@ -63,7 +63,7 @@ For some connectors, Identity Manager provides a template to automatically creat
 
 > For example, the Active Directory template automatically creates an AD entity type and two resource types for a standard AD connector. The template is available for a connector with an AD connection but no entity types.
 >
-> ![Entity Type - AD Template](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.png)
+> ![Entity Type - AD Template](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.webp)
 
 ## Verify the Entity Type
 

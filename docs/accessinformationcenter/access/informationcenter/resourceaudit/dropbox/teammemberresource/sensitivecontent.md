@@ -2,7 +2,7 @@
 
 The Sensitive Content report at the Team Member, Resource, and Subfolder level provides a list of tables and a hit count per table where criteria matches were found on the selected resource. This report includes a table with criteria matches visible to Access Information Center users with either Security Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive data within the Access Analyzer database or it will be blank.
 
-![Sensitive Content report at the Team Member, Resource, and Subfolder level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.png)
+![Sensitive Content report at the Team Member, Resource, and Subfolder level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.webp)
 
 This report is comprised of the following columns:
 

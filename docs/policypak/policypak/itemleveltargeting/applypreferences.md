@@ -19,9 +19,9 @@ Here are some facts to help you understand the challenges:
 
 This is the combination that appears to work:
 
-![139_2_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
+![139_2_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
 
-![139_3_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.png)
+![139_3_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
 
 There are three important things to note from the examples above.
 
@@ -33,8 +33,8 @@ The catch with the last item is that since there is no local Administrators grou
 
 This is the sequence after clicking the three dots:
 
-![139_4_overall-faq-01-img-04](/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.png)
+![139_4_overall-faq-01-img-04](/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.webp)
 
-![139_5_overall-faq-01-img-05](/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.png)
+![139_5_overall-faq-01-img-05](/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.webp)
 
-![139_6_overall-faq-01-img-06](/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.png)
+![139_6_overall-faq-01-img-06](/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.webp)

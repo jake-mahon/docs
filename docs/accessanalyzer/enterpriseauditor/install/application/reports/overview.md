@@ -37,10 +37,10 @@ __Step 1 –__ To open the Web Console page, use one of the following methods:
 
 __NOTE:__ The URL that is used may need to be added to the browser’s list of trusted sites.
 
-![Web Console Login page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.png)
+![Web Console Login page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.webp)
 
 __Step 2 –__ Enter your __User Name__ and __Password__. Click __Login__.
 
-![Web Console Home page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolehome.png)
+![Web Console Home page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolehome.webp)
 
 The home page shows the solutions with published reports available. See the [Web Console](/docs/accessanalyzer/enterpriseauditor/admin/report/view.md#web-console) topic for information on using the Web Console.

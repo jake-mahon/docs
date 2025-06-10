@@ -7,6 +7,6 @@ Before you can start documenting your system, you need to apply a configuration 
 3. Set __Number of Rows in List Segments__ to _1000_  
    If the field is grayed and cannot be edited, refer to the troubleshooting article [List Segments Field Cannot be Edited](/docs/strongpointnetsuiteflashlight/troubleshooting/list_segments_not_editable.md).
 
-![listsegments](/img/product_docs/strongpointnetsuiteflashlight/getting_started/listsegments.png)
+![listsegments](/img/product_docs/strongpointnetsuiteflashlight/getting_started/listsegments.webp)
 
 You are now ready to use Flashlight to document your account.

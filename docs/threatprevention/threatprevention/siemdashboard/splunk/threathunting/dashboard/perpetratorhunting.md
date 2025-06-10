@@ -4,7 +4,7 @@ The Perpetrator Hunting option uses the Perpetrator Name field to determine whic
 
 The Perpetrator Hunting option contains the following cards:
 
-![Perpetrator Hunting](/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/perpetratorhunting.png)
+![Perpetrator Hunting](/img/product_docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/dashboard/perpetratorhunting.webp)
 
 - Status of Last Ten Authentications – Shows the status of the last ten authentications recorded in the specified timeframe. The values are either Successful, Failed, or Blocked.
 - Last Ten Authentications –Shows the details of the last ten authentications recorded in the specified timeframe

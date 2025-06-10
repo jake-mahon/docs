@@ -15,7 +15,7 @@ This step is designed to grant Identity Manager a service account to authentica
 - Click on the __Add members__ button.
 - Enter the name of the Identity Manager service account or its email address.
 
-![SharePoint Export Add Member](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.png)
+![SharePoint Export Add Member](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
 
 The service account is now a member of the site. However, to scan the site, the service account needs to be owner of the site.
 
@@ -23,7 +23,7 @@ The service account is now a member of the site. However, to scan the site, the 
 - Under the name of the Identity Manager service account, click on the arrow.
 - Choose __Owner__.
 
-![SharePoint Export Role Owner](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.png)
+![SharePoint Export Role Owner](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
 
 ### Configuration
 

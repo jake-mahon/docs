@@ -2,7 +2,7 @@
 
 The Scan options page provides general scan options. It is a wizard page for all categories.
 
-![EWS Mailbox Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![EWS Mailbox Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 Select the checkboxes to apply any desired scan options:
 

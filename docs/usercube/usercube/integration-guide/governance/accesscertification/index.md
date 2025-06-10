@@ -147,7 +147,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 It automatically appears on the campaign creation screen, and binds itself to the created campaign:
 
-![Campaign creation screen with policies](/img/product_docs/usercube/usercube/integration-guide/governance/accesscertification/creation_5.1.6.png)
+![Campaign creation screen with policies](/img/product_docs/usercube/usercube/integration-guide/governance/accesscertification/creation_5.1.6.webp)
 
 To use it, modify the access control rules by adding a filter on the campaign policy. See the [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) topic for additional information.
 

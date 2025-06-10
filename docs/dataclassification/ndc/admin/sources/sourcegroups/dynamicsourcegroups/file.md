@@ -2,7 +2,7 @@
 
 This section contains information on how to configure File Servers dynamic source groups. Toggle between Basic and Advanced configuration settings by clicking the icons in the Settings button in the bottom left corner of the page.
 
-![dynamicsourcegroupfs](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupfs.png)
+![dynamicsourcegroupfs](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupfs.webp)
 
 The following options can be configured for File Servers Dynamic Source Groups:
 

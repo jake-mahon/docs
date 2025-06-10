@@ -8,7 +8,7 @@ Follow the steps to enable single sign-on for the Web Console.
 
 __Step 1 –__ Open the __WebServer.exe.config__ file with a text editor, for example Notepad. It is located within the Web folder of the Access Analyzer installation directory.
 
-![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigsso.png)
+![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigsso.webp)
 
 __Step 2 –__ Change the value for the ```WindowsAuthentication``` parameter to:
 
@@ -30,15 +30,15 @@ Follow the steps to configure local intranet settings.
 
 __Step 1 –__ Open Windows Internet Properties (__Control Panel__ > __Network and Internet__ > __Internet Options__).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.png)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.webp)
 
 __Step 2 –__ Go to the Security tab, and select the __Local Intranet__ option. Then, click the __Sites__ button.
 
-![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.png)
+![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.webp)
 
 __Step 3 –__ Click the __Advanced__ button.
 
-![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.png)
+![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
 
 __Step 4 –__ Enter a domain in the __Add this website in the zone__ field. Ensure the fully qualified domain name is in the following format: ```https://<server>.<domain>.com```
 

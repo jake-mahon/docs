@@ -4,7 +4,7 @@ The Analysis node uses Access Analyzer analysis modules to run analysis tasks on
 
 The Notification analysis module allows for the ability to send an email notice when a trigger is met, for example an email can be sent to an administrator to notify that disk space has reached a particular point (the trigger) and needs to be addressed before space runs out.
 
-![Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisselection.png)
+![Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisselection.webp)
 
 The Analysis Selection view lists all analysis tasks for the selected job. The listed information includes:
 
@@ -13,7 +13,7 @@ The Analysis Selection view lists all analysis tasks for the selected job. The l
 - Module – Name of the Access Analyzer analysis module
 - HostLists – Indicates the analysis task is applicable to hosts found in the referenced host lists, applies to analysis modules that use host list filters, for example __Business Rules__ analysis module
 
-![Option at the top of the Analysis Section](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonstop.png)
+![Option at the top of the Analysis Section](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonstop.webp)
 
 The Analysis section at the top has four options:
 
@@ -25,7 +25,7 @@ The Analysis section at the top has four options:
   - See the individual analysis module sections in the [Analysis Modules](/docs/accessanalyzer/enterpriseauditor/admin/analysis/overview.md) topic for additional information.
 - Analysis Configuration – Opens the selected analysis task’s configuration window
 
-![Buttons at the bottom of the Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonsbottom.png)
+![Buttons at the bottom of the Analysis Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisbuttonsbottom.webp)
 
 At the bottom of the Analysis Selection view, there are action buttons that apply to the table:
 
@@ -38,7 +38,7 @@ At the bottom of the Analysis Selection view, there are action buttons that appl
 
 The Analysis Selection view also has its own right-click menu for taking action on the analysis task or the job.
 
-![Analysis Selection page right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisrightclickmenu.png)
+![Analysis Selection page right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysisrightclickmenu.webp)
 
 The options for the Analysis node right-click menu are:
 

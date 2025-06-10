@@ -155,7 +155,7 @@ Step 4 – On the Entitlement page, you can manually replicate permissions for o
 - To replicate permissions for a site – Select a site in the __Included SharePoint Sites__ area and click __Replicate__.
 - To replicate permissions for multiple sites – Select the check boxes for the sites you want to replicate. To replicate all sites, select the check box in the header row. This displays the following icons:
 
-  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
   Either click the __Replicate__ icon or the __Replicate__ button.
 
@@ -183,7 +183,7 @@ Step 4 – On the __Entitlement__ page, you can exclude one or more sites.
 
   Select the check boxes for the sites you do not want to replicate. To exclude all sites, select the check box in the header row. This displays the following icons:
 
-  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+  ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
   Click __Remove__. The sites are moved to the __Excluded SharePoint Sites__ area.
 

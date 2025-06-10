@@ -26,6 +26,6 @@ The TextSearch Data Collector is configured through the Text Search Data Collect
 - [TextSearch: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/results.md)
 - [TextSearch: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/summary.md)
 
-![Text Search Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Text Search Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

@@ -8,11 +8,11 @@ Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__
 or   
 Double click the __PPE Configuration__ desktop shortcut.
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.png)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
 
 The Configuration Console dashboard shows __No password policies have been set up__ when you are getting started with Password Policy Enforcer. Once you __Add a policy__, the dashboard shows the defined policies and tool links. In this example, the Default Password Policy and CIS Password Policy Guide have been added.
 
-![Dashboard with Policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppedashboardpolicies.png)
+![Dashboard with Policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppedashboardpolicies.webp)
 
 The policy management links are all on the Password Policies tile:
 
@@ -78,7 +78,7 @@ Launches the Test policy tool in a separate window. You can test __By user__ and
 
 Set priorities determines which policy to enforce if users have more than one policy. Click __Apply priorities__ to save the new order.
 
-![Set priorities](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policypriority.png)
+![Set priorities](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policypriority.webp)
 
 ### Policy Selection Flowchart
 

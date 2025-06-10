@@ -8,13 +8,13 @@ __NOTE:__ At present, only authenticator apps are supported for MFA. As a prereq
 
 Follow the steps to enable the authenticator option for MFA.
 
-![Enable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.png)
+![Enable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.webp)
 
 __Step 1 –__ In the Recovery Console, click your profile icon in the top right corner of the page and select __Manage__. The MFA page opens.
 
 __Step 2 –__ Click the __Add authenticator app__ button. The Configure authenticator app page is displayed, showing the instructions for setting up the app.
 
-![Configure authenticator app page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
+![Configure authenticator app page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
 __Step 3 –__ Open the authenticator app on your phone and scan the QR code with it. A new account is created in the app for the Recovery application and a verification code is displayed under the account name.
 
@@ -30,7 +30,7 @@ MFA has been enabled for your account. Now you must authenticate your account us
 
 Follow the steps to disable MFA for your Recovery for Active Directory account.
 
-![Disable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.png)
+![Disable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.webp)
 
 __Step 1 –__ In the Recovery Console, click your profile icon in the top right corner of the page and select __Manage__. The MFA page opens.
 

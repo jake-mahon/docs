@@ -6,7 +6,7 @@ This page is about [
 Shared Folders
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
 
-![Package: Storage/Shared Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.png)
+![Package: Storage/Shared Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
 
 ## Overview
 
@@ -19,7 +19,7 @@ Implementing this connector requires an account with the permissions:
 - to access all relevant folders and files and read their entitlements;
 - __Log on as a batch job__ in the local group policy, when the connector's authentication mode is batch.
 
-  ![SharedFolder - Permission for Batch Authentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.png)
+  ![SharedFolder - Permission for Batch Authentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.webp)
 
 ## Export
 

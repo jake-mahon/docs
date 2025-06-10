@@ -2,7 +2,7 @@
 
 Result data is displayed using data grids on several interfaces in the Administration Console. These grids employ features for data sorting, filtering, searching, and more.
 
-![Data Grid Functionality pointers](/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.png)
+![Data Grid Functionality pointers](/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.webp)
 
 - The Group by Box [1] ribbon impacts how much data is displayed. See the [Sort Data](#Sort-Data) topic for additional information.
 - The Refresh [2] button populates the data grid with the current information according to the selections.
@@ -15,7 +15,7 @@ Result data is displayed using data grids on several interfaces in the Administr
 
 Right-click on a column header and select __Column Chooser__ to open the Customization window, that lists the column(s) that were removed from the data grid display.
 
-![Customization Window](/img/product_docs/threatprevention/threatprevention/admin/navigation/customization.png)
+![Customization Window](/img/product_docs/threatprevention/threatprevention/admin/navigation/customization.webp)
 
 You can remove a columns from the data grid in any of these ways:
 
@@ -28,7 +28,7 @@ A column can be returned to the data grid by double-clicking on it in the Custom
 
 Data can be grouped by columns using the Group by Box ribbon above the data grid.
 
-![Sort Data function in the data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/sortdatafunction.png)
+![Sort Data function in the data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/sortdatafunction.webp)
 
 Drag a column header into the Group by Box area to group data from that perspective. You can group by a single header or by tiered headers.
 
@@ -38,7 +38,7 @@ Data can also be sorted alphanumerically ascending or descending by clicking on 
 
 Several methods are available for filtering data in data grids. There can only be one active filter per column.
 
-![Filter Data functions in a Data Grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/filterdata.png)
+![Filter Data functions in a Data Grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/filterdata.webp)
 
 - Auto Filter Row [A] – Uses the comparison operator to filter the grid against a single attribute
 - Filter Statement Bar [B] – Displays enabled filter statements at the bottom of the display area
@@ -59,7 +59,7 @@ Filter Editor
 
 Notice the Edit Filter option on the right side of the filter statement bar. Click it to open the Filter Editor window, where you can build complex filter statements. It can employ multiple comparison operators and/or multiple column filters.
 
-![Filter Editor](/img/product_docs/threatprevention/threatprevention/admin/navigation/filtereditor.png)
+![Filter Editor](/img/product_docs/threatprevention/threatprevention/admin/navigation/filtereditor.webp)
 
 Pin Icon
 
@@ -67,7 +67,7 @@ A small pin icon is displayed in the upper-right corner while hovering over a co
 
 Click the __pin icon__ to open additional filtration options in a filter window. The options displayed depend on the column it is opened from.
 
-![Window with filtration options](/img/product_docs/threatprevention/threatprevention/admin/navigation/valuesfilter.png)
+![Window with filtration options](/img/product_docs/threatprevention/threatprevention/admin/navigation/valuesfilter.webp)
 
 - Values – Displays for every column in the data grid. Multiple values can be selected.
 - Text/Numeric – This is linked to the Auto filter Row filter with the addition of three new filtration options including a custom filter option
@@ -80,14 +80,14 @@ The Find Panel enables you to search for data in the data grid. It is represente
 
 On clicking the magnifying glass icon, the Find box appears as:
 
-![Search function for data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/searchfunction.png)
+![Search function for data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/searchfunction.webp)
 
 - Type a search criteria and click __Find__. The data grid filters to events where the search criteria is matched, highlighting the match.
 - The drop-down arrow in the textbox provides a history of recent searches for quick reference.
 - Click __Clear__ to clear both the search criteria and the filtered view.
 - The __X__ at the far left of the panel closes the Find Panel.
 
-![Search Results](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.png)
+![Search Results](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.webp)
 
 ## Export Data
 
@@ -99,7 +99,7 @@ The data grids provide an option to export data.
 
 __NOTE:__ Ensure that all desired filters are set on the data grid before export.
 
-![Export window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.png)
+![Export window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 The Export window provides options for what is exported and what action(s) to take.
 

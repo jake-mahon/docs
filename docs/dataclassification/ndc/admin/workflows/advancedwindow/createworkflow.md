@@ -9,7 +9,7 @@ To configure a workflow:
 3. From the __Type__ drop-down list, select the type of content your workflow will apply to.
 4. Click __Add__.
 
-   ![add_workflows_advanced_name_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_name_thumb_0_0.png)
+   ![add_workflows_advanced_name_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_name_thumb_0_0.webp)
 5. Then you need to configure document processing rules. For each rule, you should set up rule conditions and rule actions. Also, specify how the workflow should be processed with regards to rules.
 
    - [Specifying Rule Conditions](#Specifying-Rule-Conditions)
@@ -24,7 +24,7 @@ To configure a workflow:
 1. In the corresponding section on the __Rule__ tab, click __Edit__ on the right. The __Edit Rule Conditions__ dialog will be displayed.
 2. From the __Mode__ list, select how the conditions should be applied.
 
-![add_workflows_rule_conditions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_rule_conditions_thumb_0_0.png)
+![add_workflows_rule_conditions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_rule_conditions_thumb_0_0.webp)
 
 The following options are available:
 
@@ -57,7 +57,7 @@ The following options are available:
 
 The configured rule condition will appear in the __Rule Conditions__ section on the __Rule__ tab.
 
-![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/add_workflows_rules_list_thumb_0_0.png)
+![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
 
 [Example](#Example)
 
@@ -69,7 +69,7 @@ If you want to apply the rule to all documents classified as Visa cardholder dat
 4. In the __Details__ window, from the __Taxonomy__ list select __PCI DSS__.
 5. In the tags hierarchy, select __Visa__ and click __OK__.
 
-![add_workflows_advanced_details_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_details_thumb_0_0.png)
+![add_workflows_advanced_details_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_details_thumb_0_0.webp)
 
 Make sure the filtering term is displayed in the Edit Rule Conditions window with blue color. Click __Save__.
 
@@ -82,7 +82,7 @@ The configured rule condition will appear in the __Rule Condtions__ section on t
    For details, see [Workflow Actions](/docs/dataclassification/ndc/admin/workflows/actions/actions.md).
 3. Click __Save__.
 
-![add_workflows_advanced_action_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_action_thumb_0_0.png)
+![add_workflows_advanced_action_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_action_thumb_0_0.webp)
 
 ## Other Rule Settings
 
@@ -100,7 +100,7 @@ On the __Rule__ tab, you can also manage the rule, as follows:
 
 If multiple rule actions have been configured, they will be processed in the order listed. Use the red down arrow or green up-arrow to change the processing sequence as required:
 
-![workflowsreorderactions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/workflowsreorderactions_thumb_0_0.png)
+![workflowsreorderactions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/workflowsreorderactions_thumb_0_0.webp)
 
 ## Specifying Workflow Conditions
 
@@ -108,7 +108,7 @@ You can narrow the initial workflow scope. For that, specify the conditions that
 
 1. Go to the __Conditions__ tab. By default, the __Workflow Conditions__ list includes none, that is, current workflow will consider any document; actual filtering conditions will be applied by the rule (rule conditions).
 
-![add_workflows_advanced_wf_conditions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_wf_conditions_thumb_0_0.png)
+![add_workflows_advanced_wf_conditions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_wf_conditions_thumb_0_0.webp)
 
 1. Click __Edit__ to open __Edit Workflow Conditions__ dialog.
 2. Select the option you need from the __Mode__ list. The next steps are similar to those described in [Specifying Rule Conditions](#Specifying-Rule-Conditions)

@@ -84,5 +84,5 @@ January 25, 2024
 
 - Added __Supervisor__ column to the Membership Review.
 
-  ![UAR Membership Review](/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.png)
+  ![UAR Membership Review](/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.webp)
 - New filters are available. __Permission Reviews__ now have a __Status__ filter. Membership Reviews now have __Status__ and __Supervisor__ filters.

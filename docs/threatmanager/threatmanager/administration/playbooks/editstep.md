@@ -2,7 +2,7 @@
 
 Follow the steps to edit a playbook step.
 
-![playbookstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.png)
+![playbookstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
 
 __Step 1 –__ Click the step in the playbook to expand it.
 

@@ -4,7 +4,7 @@ The Users tab shows information about the users on the selected resource.
 
 Manually managed user accounts can be added to the website resource. These accounts are used for activities on the resource. The format in the Username field must be identical to the username format specified in the “Login Account Template” field of the activity. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
-![Users Tab for Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.png)
+![Users Tab for Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.webp)
 
 The Users tab has the following features:
 

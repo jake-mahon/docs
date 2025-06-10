@@ -2,7 +2,7 @@
 
 The Forensics Job Group highlights deletions, file downloads, permissions changes, external user activity, collaboration activity and high-risk collaborations within the targeted Box environment. It is dependent on data collected by the 0.Collection Job Group, also housed in the Box Job Group. The jobs that comprise the 1.Activity Job Group process analysis tasks and generate a report.
 
-![Forensics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Forensics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Forensics Job Group is comprised of:
 

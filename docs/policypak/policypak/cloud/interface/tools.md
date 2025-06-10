@@ -11,19 +11,19 @@ The Tools tab has a special tool called __Join Tokens__. The __Join Tokens__ fun
 - Automatically pick up the CSE version directed to that group/911-policypak-cloud-automatically-join-groups-with-jointoken/
 - Automatically upgrade to the latest Cloud client directed to that group
 
-![web_interface_and_controls_108_625x221](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_108_625x221.png)
+![web_interface_and_controls_108_625x221](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_108_625x221.webp)
 
 __Step 1 –__ To do this, go to the Tools tab, then click on the Join Tokens action.
 
-![web_interface_and_controls_109_624x306](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_109_624x306.png)
+![web_interface_and_controls_109_624x306](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_109_624x306.webp)
 
 __Step 2 –__ Click on __Add Join Token__. For a new join token add a description and expiry time. Then, click on __Select Groups__ and pick a specific group or groups that you want the computer to automatically join from the Cloud client.
 
-![web_interface_and_controls_110_312x333](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_110_312x333.png)
+![web_interface_and_controls_110_312x333](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_110_312x333.webp)
 
 __Step 3 –__ Click __Save__.
 
-![web_interface_and_controls_111_623x205](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_111_623x205.png)
+![web_interface_and_controls_111_623x205](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_111_623x205.webp)
 
 __Step 4 –__ You can click on the button within the Show column to get a display of your actual join token value.
 

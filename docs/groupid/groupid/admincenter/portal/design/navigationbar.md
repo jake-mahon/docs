@@ -14,7 +14,7 @@ The left navigation bar in a portal lists nodes that enable users to navigate in
 
 On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a page that contains tabs under that sub-node. It is as:
 
-![navigation_bar](/img/product_docs/groupid/groupid/admincenter/portal/design/navigation_bar.png)
+![navigation_bar](/img/product_docs/groupid/groupid/admincenter/portal/design/navigation_bar.webp)
 
 Directory Manager enables you to customize the nodes, sub-nodes, and their respective tabs.
 
@@ -81,7 +81,7 @@ __To add a node:__
     - If an image has been uploaded, the very image is displayed. Click the icon below the image to replace the existing image with a new one.
 
       NOTE: Image dimensions: 30 x 30 pixels  
-       Supported formats: .png, .jpg, .jpe, .jpeg
+       Supported formats: .webp, .jpg, .jpe, .jpeg
 11. Click __OK__.
 12. Click __Save__ on the __Navigation Bar__ page.
 

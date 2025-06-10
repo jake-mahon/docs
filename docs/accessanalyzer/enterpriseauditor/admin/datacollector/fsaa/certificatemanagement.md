@@ -8,7 +8,7 @@ Communication between the FSAA Data Collector and the FSAA Applet is secure by d
 
 __NOTE:__ The FSAA Data Collector and Applet server support certificates in both the user’s certificate store and the computer’s certificate store. It is recommended to store certificates in the user's certificate store that is running the FSAA Data Collector or Applet server because administrative access is required for the computer's certificate store. When certificates are generated using the Automatic option below, they are stored in the user’s certificate store.
 
-![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.png)
+![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 There are three Certificate Exchange Options provided by the FSAA Data collector:
 

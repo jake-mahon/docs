@@ -2,7 +2,7 @@
 
 The File System Activity Home dashboard contains the following cards:
 
-![Home Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/homedashboard.png)
+![Home Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/homedashboard.webp)
 
 - Active Users – Number of distinct users recorded performing any type of file activity to/from any host over the specified time interval
 - Active Servers – Number of distinct servers accessed (destination IP Addresses) with any type of file activity recorded over the specified time interval

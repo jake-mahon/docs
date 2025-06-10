@@ -10,7 +10,7 @@ __Step 2 –__ Select the resource(s) to modify.
 
 __Step 3 –__ Click Remove to open the Remove Resource window.
 
-![Remove Resource Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/removeresource.png)
+![Remove Resource Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/removeresource.webp)
 
 __Step 4 –__ Select the __Remove from Database__ checkbox to remove the selected resource(s) from the database.
 

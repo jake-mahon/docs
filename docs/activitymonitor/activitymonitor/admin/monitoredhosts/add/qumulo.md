@@ -27,15 +27,15 @@ Follow the steps to add a Qumulo host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click __Add__. The Add New Host window opens.
 
-![addagent01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.png)
+![addagent01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
 
 __Step 2 –__ On the Choose Agent page, select the Agent to monitor the file server from the drop-down list. Click __Next__.
 
-![addhostqumulo01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo01.png)
+![addhostqumulo01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo01.webp)
 
 __Step 3 –__ On the Add Host page, select the __Qumulo__ radio button and enter the file server name. Click __Next__.
 
-![addhostqumulo02](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo02.png)
+![addhostqumulo02](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo02.webp)
 
 __Step 4 –__ On the Qumulo Options page, enter the user name and password.
 
@@ -52,13 +52,13 @@ The following values are shown for information purposes. You can use them to con
 
 Click __Next__.
 
-![nutanixoptions_07](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.png)
+![nutanixoptions_07](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
 
 __Step 5 –__ On the Where To Log The Activity page, select whether to send the activity to either a Log File or Syslog Server. Click __Next__.
 
 __NOTE:__ An option must be selected before moving to the next step.
 
-![addhostqumulo04](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo04.png)
+![addhostqumulo04](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo04.webp)
 
 __Step 6 –__ If Log File is selected on the Where To Log The Activity page, configure the File Output page.
 
@@ -75,7 +75,7 @@ __Step 6 –__ If Log File is selected on the Where To Log The Activity page, c
 
 Click __Next__.
 
-![nutanixoptions_09](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.png)
+![nutanixoptions_09](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
 
 __Step 7 –__ If Syslog Server is selected on the Where To Log The Activity page, configure the Syslog Output page.
 
@@ -96,7 +96,7 @@ __Step 7 –__ If Syslog Server is selected on the Where To Log The Activity pag
 
 Click __Finish__.
 
-![addhostqumulo06](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo06.png)
+![addhostqumulo06](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo06.webp)
 
 The added Qumulo host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

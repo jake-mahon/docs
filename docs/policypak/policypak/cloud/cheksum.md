@@ -6,7 +6,7 @@ __NOTE:__  This is only for BUILD ISO/ ZIPs and not available for other items su
 
 After you download the software, use the build-in windows command line to validate the SHA256 checksum.
 
-![912_1_image001_950x439](/img/product_docs/policypak/policypak/cloud/912_1_image001_950x439.png)
+![912_1_image001_950x439](/img/product_docs/policypak/policypak/cloud/912_1_image001_950x439.webp)
 
 An example would be:
 
@@ -19,4 +19,4 @@ and/or
 __NOTE:__  You must put the SHA256 at the end, or the command is interpreted as SHA1, which will produce a different
 result.
 
-![912_2_image002_950x217](/img/product_docs/policypak/policypak/cloud/912_2_image002_950x217.png)
+![912_2_image002_950x217](/img/product_docs/policypak/policypak/cloud/912_2_image002_950x217.webp)

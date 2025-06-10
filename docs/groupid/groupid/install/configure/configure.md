@@ -13,7 +13,7 @@ In either case, the tool opens to the __Introduction__ page.
 
 Step 2 – Read the welcome message and click __Next__.
 
-![Create new server page](/img/product_docs/groupid/groupid/install/configure/select_to_create_a_new_server-new.png)
+![Create new server page](/img/product_docs/groupid/groupid/install/configure/select_to_create_a_new_server-new.webp)
 
 Step 3 – To configure a Directory Manager server or a Directory Manager client, select the relevant option.
 

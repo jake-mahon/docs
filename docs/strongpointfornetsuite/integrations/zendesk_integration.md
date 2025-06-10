@@ -34,22 +34,22 @@ Here are the steps to install the Zendesk app. You must have __Admin__ privilege
 2. Click the __Admin__ icon in the left panel.
 3. Navigate to __Apps__ > __Marketplace__.
 
-   ![Open the Zendesk Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.png)
+   ![Open the Zendesk Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.webp)
 4. Search for __Strongpoint__.
 5. Click __Strongpoint for NetSuite__ when it is displayed.
 
-   ![Strongpoint for NetSuite app in the Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.png)
+   ![Strongpoint for NetSuite app in the Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.webp)
 6. Click __Install__. When installation is complete, you are prompted to sign in to your Zendesk dashboard to continue.
 7. Click the __Admin__ icon in the left panel.
 8. Navigate to __Apps__ > __Manage__.
 
-   ![Configure the Strongpoint Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.png)
+   ![Configure the Strongpoint Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.webp)
 9. Hover on the __Strongpoint for NetSuite__ tile to access the __Settings__ menu.
 
-   ![Hover to access the Settings](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.png)
+   ![Hover to access the Settings](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.webp)
 10. Click __Change settings__.
 
-    ![Set up the Strongpoint for NetSuite Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_change_settings.png)
+    ![Set up the Strongpoint for NetSuite Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_change_settings.webp)
 
     - __Title__: the name associated with the app. The default is __Strongpoint for NetSuite__.
     - Account ID: enter the NetSuite account ID. The __Account ID__ must be a lowercase string. For example, __tstdrv1724328__.

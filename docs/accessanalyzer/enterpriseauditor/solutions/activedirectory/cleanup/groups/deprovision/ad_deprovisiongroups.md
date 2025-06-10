@@ -26,7 +26,7 @@ See the [Customizable Analysis Parameters for the AD\_DeprovisionGroups Job](#cu
 
 Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD\_Deprovision Groups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.png)
+![Analysis Tasks for the AD_DeprovisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -51,7 +51,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovi
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DepvisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.png)
+![Action Tasks for the AD_DepvisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.webp)
 
 The action tasks are:
 

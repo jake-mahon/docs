@@ -4,4 +4,4 @@ Each clue can be restricted to documents written in a subset of the available la
 
 In this case you can click the Languages link beside each clue and select any subset of the available languages:
 
-![cluelanguages](/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.png)
+![cluelanguages](/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.webp)

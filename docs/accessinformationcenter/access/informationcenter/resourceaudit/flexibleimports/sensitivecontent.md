@@ -2,7 +2,7 @@
 
 The Sensitive Content report for imported data provides a list of paths and a hit count per table where criteria matches were found on the selected resource. This report includes a table visible to Access Information Center users with either Security Team Member or Administrator roles with criteria Matches. The Matches table requires the storage of discovered sensitive data within the Access Analyzer database or it will be blank. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
+![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.webp)
 
 This report is comprised of the following columns:
 

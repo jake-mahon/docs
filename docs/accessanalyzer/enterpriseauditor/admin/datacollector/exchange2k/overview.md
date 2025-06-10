@@ -37,6 +37,6 @@ The Exchange2K Data Collector is configured through the Exchange 2K+ Data Collec
 - [Exchange2K: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchange2k/options.md)
 - [Exchange2K: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchange2k/summary.md)
 
-![Exchange 2K+ Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Exchange 2K+ Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not show this page the next time__ checkbox when the wizard is open and configuration settings are saved.

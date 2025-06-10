@@ -2,7 +2,7 @@
 
 The 0.Collection Job Group is comprised of data collection, analysis, and reports that focus on database sizing, growth, and trends.
 
-![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The jobs in the 0.Collection Job Group are:
 

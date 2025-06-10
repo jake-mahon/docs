@@ -20,23 +20,23 @@ Image management
 
 With the image management, you can manage your icons and logos easily and quickly.
 
-![image management](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_179-en.png)
+![image management](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_179-en.webp)
 
 #### Adding icons and logos
 
 By clicking on the __New__ button, the input mask will open.
 
-![new image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_180-en.png)
+![new image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_180-en.webp)
 
 After filling in and uploading the icon/logo, the process only needs to be saved.
 
-![save new image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_181-en.png)
+![save new image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_181-en.webp)
 
 Edit / Delete icons and logos
 
 If an icon and/or logo is outdated, you can edit or even delete the stored icons/logos.
 
-![manage image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_182-en.png)
+![manage image](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_182-en.webp)
 
 #### Settings
 

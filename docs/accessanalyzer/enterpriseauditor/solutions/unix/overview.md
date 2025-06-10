@@ -24,7 +24,7 @@ The Unix Solution requires a special Access Analyzer license. It can be installe
 
 The Unix solution is a set of audit jobs and reports that provide visibility into important Unix and Linux administration concepts.
 
-![Unix Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Unix Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Unix Solution are:
 

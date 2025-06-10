@@ -7,7 +7,7 @@ To connect to a MS SQL server:
 1. On the __Source Configuration__ screen, select __MS SQL__.
 2. Specify MS SQL server.
 
-   ![sqlserver_source3](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source3.png)
+   ![sqlserver_source3](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source3.webp)
 3. Specify Authentication method:
 
    - Integrated

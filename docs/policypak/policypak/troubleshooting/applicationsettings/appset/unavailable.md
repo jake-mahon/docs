@@ -8,7 +8,7 @@ For instance, in this AppSet (Microsoft Word 2010) you can see some areas which 
 
 Sometimes, you might encounter a button that doesn't open another Window or have any function.
 
-![296_2_image0051](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_2_image0051.png)
+![296_2_image0051](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_2_image0051.webp)
 
 In these cases, Endpoint Policy Manager cannot manage these settings.
 

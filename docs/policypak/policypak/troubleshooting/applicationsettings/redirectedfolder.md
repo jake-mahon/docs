@@ -8,4 +8,4 @@ This is indicative of Folder Redirection in use.
 
 Try to change the Pak properties so it runs as USER as seen here:
 
-![484_1_2015-02-20_1513](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/484_1_2015-02-20_1513.png)
+![484_1_2015-02-20_1513](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/484_1_2015-02-20_1513.webp)

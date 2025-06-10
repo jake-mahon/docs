@@ -6,7 +6,7 @@ When installing the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE, yo
 "Windows requires a digitally signed driver … PPProcessFilter.sys "
 ```
 
-![351_1_sdgghjl](/img/product_docs/policypak/policypak/troubleshooting/install/351_1_sdgghjl.png)
+![351_1_sdgghjl](/img/product_docs/policypak/policypak/troubleshooting/install/351_1_sdgghjl.webp)
 
 Install the KB 3033929 Windows 7 update from Microsoft for[https://www.microsoft.com/en-us/download/details.aspx?id=46148](https://www.microsoft.com/en-us/download/details.aspx?id=46148) or[https://www.microsoft.com/en-us/download/details.aspx?id=46078](https://www.microsoft.com/en-us/download/details.aspx?id=46078).
 

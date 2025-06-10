@@ -6,31 +6,31 @@ __NOTE:__ For a video overview demonstrating the use of the Start Screen & Taskb
 
 The Start Screen & Taskbar Manager Helper utility is found in the Netwrix Endpoint Policy Manager (formerly PolicyPak) ISO or ZIP download in the PolicyPak Extras folder, as seen in Figure 53.
 
-![using_the_helper_utility](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility.png)
+![using_the_helper_utility](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility.webp)
 
 Figure 53. The Start Screen & Taskbar Manager Helper utility is located in the Extras folder.
 
 __Step 1 –__ When you run the wizard you can choose whether to export registered (desktop) applications or universal (UWP) applications, as shown in Figure 54.
 
-![using_the_helper_utility_1](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_1.png)
+![using_the_helper_utility_1](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_1.webp)
 
 Figure 54. The PolicyPak Start Screen & Taskbar Manager Helper utility lets you export registered and UWP applications.
 
 __Step 2 –__ Then on the "Select registered programs" page, shown in Figure 55, you can leave the default settings as they are and click "Next."
 
-![using_the_helper_utility_2](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_2.png)
+![using_the_helper_utility_2](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_2.webp)
 
 Figure 55. The default settings to select all registered applications on the endpoint.
 
 __Step 3 –__ Then on the next screen, shown in Figure 56, you can export the IDs for all the UWP applications on a machine and click "Next."
 
-![using_the_helper_utility_3](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_3.png)
+![using_the_helper_utility_3](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_3.webp)
 
 Figure 56. The defaults to select all UWP applications on the endpoint.
 
 __Step 4 –__ Finally, you can export the XML to a file to be used on your management station/GPMC machine. On your GPMC machine, as you're creating new PolicyPak Start Screen or PolicyPak Taskbar Manager policies, you can then import from the XML file, as shown in Figure 57.
 
-![using_the_helper_utility_4](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_4.png)
+![using_the_helper_utility_4](/img/product_docs/policypak/policypak/startscreentaskbar/using_the_helper_utility_4.webp)
 
 Figure 57. On the management station you can import from the XML file.
 

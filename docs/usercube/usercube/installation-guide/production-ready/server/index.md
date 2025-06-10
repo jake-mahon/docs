@@ -50,7 +50,7 @@ The following is mandatory:
 
 - __Application Pool__ > ```Usercube<Organization>``` > __Advanced Settings__ > __General__ > .NET CLR Version > ```No Managed Code```
 
-![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
+![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.webp)
 
 An SSL Certificate should also be set to the IIS Server to perform HTTPS communication with end-users.
 
@@ -124,7 +124,7 @@ This guide will show you how to perform these operations using SQL Server Manage
 
 __Step 1 –__ Open SQL Server Management Studio (SSMS) and log in to access the server on which runs the Identity Manager Database with an account member of the __sysadmin__ or __securityadmin__ server-level role.
 
-![New Login](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/newlogin.png)
+![New Login](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/newlogin.webp)
 
 __Step 2 –__ Expand the __Security__ and __Login__ nodes, and look for the Identity Manager service account in the list.
 
@@ -139,7 +139,7 @@ __Step 5 –__ From the __Login__ node, right-click the newly created login and 
 
 __Step 6 –__ Go to __User Mapping__and make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db\_owner__ and __public__ (bottom panel).
 
-![Bulk](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/bulk.png)
+![Bulk](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/bulk.webp)
 
 __Step 7 –__ Right-click the __Server__ root node and select __Properties__, and in the __Permissions__ tab, select the service account or group name.
 
@@ -177,7 +177,7 @@ The Identity Manager Server service account that was chosen previously:
 
   __Step 1 –__ Click on __Edit__ and then on __Add__.
 
-  ![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
+  ![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
   __Step 2 –__ In the __Enter the object names to select__ textbox, enter the service account name in the down-level log on format, such as ```CONTOSO/UsercubeContosoServer```, then click __OK__.
 

@@ -67,7 +67,7 @@ The basic approach is to rename these files and then reboot to see if conflicts 
 
 FortiNet / FortiClient version 6.0.8.0261 will not install the latest CSE and displays the following error message during installation:
 
-![54_1_image](/img/product_docs/policypak/policypak/install/54_1_image.png)
+![54_1_image](/img/product_docs/policypak/policypak/install/54_1_image.webp)
 
 Symptom: Error message when installing CSE: Could not write value ```ExplorerCommandHandler``` to key ```\SOFTWARE\Classes\exefile\shell\runasspecial```
 
@@ -81,30 +81,30 @@ For more details on Windows Defender exclusions in general, please see [The Hitc
 
 During the installation of the Endpoint Policy Manager  CSE, you may encounter the following error message:
 
-![54_2_image-20230330120114-2](/img/product_docs/policypak/policypak/install/54_2_image-20230330120114-2.png)
+![54_2_image-20230330120114-2](/img/product_docs/policypak/policypak/install/54_2_image-20230330120114-2.webp)
 
 To work around this issue please add the following BYPASS policies for Endpoint Policy Manager as shown below.
 
-![54_3_image-2](/img/product_docs/policypak/policypak/install/54_3_image-2.png)
+![54_3_image-2](/img/product_docs/policypak/policypak/install/54_3_image-2.webp)
 
 ## DEFENDER Customers
 
 During installation or removal of the Endpoint Policy Manager CSE you may run into this error:
 
-![defendererror](/img/product_docs/policypak/policypak/install/defendererror.png)
+![defendererror](/img/product_docs/policypak/policypak/install/defendererror.webp)
 
 The Windows Application log will also show the following Error:
 
 Product: Netwrix Endpoint Policy Manager (formerly PolicyPak) Client-Side Extension -- Error 1721. There is a problem with this Windows Installer package. A program required for this install to complete could not be run.
 
-![defendererrorevent](/img/product_docs/policypak/policypak/install/defendererrorevent.png)
+![defendererrorevent](/img/product_docs/policypak/policypak/install/defendererrorevent.webp)
 
 To work around this issue you need to add the following folder exclusions under __Attack Surface Reduction__ > __Attack Surface Rules__:
 
 - ```C:\Program Files\PolicyPak\```
 - ```C:\ProgramData\PolicyPak\```
 
-![defendereditpolicy](/img/product_docs/policypak/policypak/install/defendereditpolicy.png)
+![defendereditpolicy](/img/product_docs/policypak/policypak/install/defendereditpolicy.webp)
 
 See the Cloudbrothers article [The Hitchhiker's Guide to Microsoft Defender for Endpoint exclusions](https://cloudbrothers.info/en/guide-to-defender-exclusions/) for additional information on Windows Defender exclusions.
 
@@ -114,7 +114,7 @@ For Netskope customers, this workaround was provided by another customer and may
 
 If when installing the Endpoint Policy Manager Cloud client, you get the experience below:
 
-![netskopeandcloud](/img/product_docs/policypak/policypak/install/netskopeandcloud.png)
+![netskopeandcloud](/img/product_docs/policypak/policypak/install/netskopeandcloud.webp)
 
 Follow the steps to resolve Netskope errors.
 

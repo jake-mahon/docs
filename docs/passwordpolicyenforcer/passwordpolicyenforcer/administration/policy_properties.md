@@ -12,7 +12,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Properties__ tab.
 
-![Set the Policy Properties](/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.png)
+![Set the Policy Properties](/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.webp)
 
 Each policy must have a unique name. To change the name of a policy, type the new name in the text box.
 

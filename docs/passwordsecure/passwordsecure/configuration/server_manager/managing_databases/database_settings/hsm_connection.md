@@ -22,7 +22,7 @@ In principle, any HSM should work with the PKCS#11 interface. However, it is rec
 
 The installation is set up on the Server Manager via the database settings.
 
-![installation_with_parameters_235](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/installation_with_parameters_235.png)
+![installation_with_parameters_235](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/installation_with_parameters_235.webp)
 
 - __Library path__: Here you can find the installed PKCS # 11 driver of the HSM.
 - __Token-Serial__: The serial number of the token is given here.

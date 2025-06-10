@@ -4,7 +4,7 @@ The Members report for a group object provides a list of all trustees, users, an
 
 _Remember,_ the Members report for a built-in group contains different information to the other group types. See the [Members Report for a Built-in Group](/docs/accessinformationcenter/access/informationcenter/resourceaudit/group/membersbuiltin.md) topic for additional information.
 
-![Members report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/members.png)
+![Members report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/members.webp)
 
 This report is comprised of the following columns:
 

@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > __Access Policies__ > Connection Profile
 
 __Step 2 –__ In the Connection Profiles list, click the __Plus__ icon.
 
-![Add Connection Profile](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/addconnectionprofile.png)
+![Add Connection Profile](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/addconnectionprofile.webp)
 
 __Step 3 –__ Enter the desired information to configure a new connection profile.
 

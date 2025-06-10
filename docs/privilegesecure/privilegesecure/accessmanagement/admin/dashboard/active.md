@@ -2,7 +2,7 @@
 
 The Active sessions dashboard shows all currently active sessions. Create an Activity Session to grant temporary privileges and gain access to the resources defined by a previously created Access Policy. See the [Access Policy Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
 
-![Active Dashboard page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/active.png)
+![Active Dashboard page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/active.webp)
 
 The dashboard has the following features:
 

@@ -2,7 +2,7 @@
 
 The Configuration Job Group is designed to provide insight into MySQL server configuration settings.
 
-![Configuration Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/configurationjobgroup.png)
+![Configuration Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/configurationjobgroup.webp)
 
 The job in the Configuration Job Group is:
 
@@ -14,7 +14,7 @@ Navigate to the __Jobs > Databases > MySQL > Configuration > MySQL\_DatabaseS
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/analysismysqldatabasesizing.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/analysismysqldatabasesizing.webp)
 
 The default analysis tasks are:
 

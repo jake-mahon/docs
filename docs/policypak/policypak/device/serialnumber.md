@@ -12,7 +12,7 @@ SCSI\Disk&Ven__USB&Prod__SanDisk_3.2Gen1\6&1262c329&0&000000
 
 When copying these instance paths to create a policy for this device, the serial numbers are not correctly applied in the MMC console view.
 
-![980_2_image-20230725212441-2](/img/product_docs/policypak/policypak/device/980_2_image-20230725212441-2.png)
+![980_2_image-20230725212441-2](/img/product_docs/policypak/policypak/device/980_2_image-20230725212441-2.webp)
 
 This would not properly target the USB device in question as the serial is configured as __0__ in the policy.
 
@@ -20,12 +20,12 @@ This would not properly target the USB device in question as the serial is confi
 
 Instead of adding the Device Instance Path __As Serial Number__, use __As Instance Path__ instead.
 
-![devicepath](/img/product_docs/policypak/policypak/device/devicepath.png)
+![devicepath](/img/product_docs/policypak/policypak/device/devicepath.webp)
 
 ## Result
 
 This will result in a configuration that will use the entire Device Instance Path as a whole, instead of trying to break out the individual parts and force the targeted USB device to get the permissions as configured in the policy.
 
-![deviceinstancepath](/img/product_docs/policypak/policypak/device/deviceinstancepath.png)
+![deviceinstancepath](/img/product_docs/policypak/policypak/device/deviceinstancepath.webp)
 
 The Device Manager policy now works as expected.

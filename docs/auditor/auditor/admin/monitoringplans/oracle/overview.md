@@ -36,7 +36,7 @@ Complete the following fields:
 
 On a high level, data collection process for Oracle databases works as follows:
 
-![hiw_diagram_oracle](/img/product_docs/auditor/auditor/admin/monitoringplans/oracle/hiw_diagram_oracle.png)
+![hiw_diagram_oracle](/img/product_docs/auditor/auditor/admin/monitoringplans/oracle/hiw_diagram_oracle.webp)
 
 1. Oracle administrator prepares a dedicated service account with sufficient permissions to collect data from Oracle Database. See the [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) topic for additional information.
 2. Netwrix administrator does the following:

@@ -4,13 +4,13 @@ A PowerShell 4.0 script can be written and assigned to a policy by Threat Preven
 
 Follow the steps to add a PowerShell 4.0 action to a policy/template.
 
-![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.png)
+![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
 
 __Step 1 –__ On a policy or template Actions tab, click __Add__ (+) to open the Add Action window.
 
 __Step 2 –__ In the left pane, select the radio button for __PowerShell 4.0__.
 
-![addactionwindowforpowershell](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowforpowershell.png)
+![addactionwindowforpowershell](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowforpowershell.webp)
 
 __Step 3 –__ Configure the PowerShell 4.0 Script action:
 
@@ -19,7 +19,7 @@ __Step 3 –__ Configure the PowerShell 4.0 Script action:
 - Description – Provide a clear and detailed description for this PowerShell 4.0 action. This is optional but recommended.
 - Click __Edit…__ to view the sample script. The Threat Prevention Script Editor opens
 
-![Script Editor for PowerShell Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorforps.png)
+![Script Editor for PowerShell Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorforps.webp)
 
 __Step 4 –__ Create or copy/paste the custom script in the Threat Prevention Script Editor. See the [Threat Prevention Script Editor Tools](/docs/threatprevention/threatprevention/admin/policies/actions/netscript.md#threat-prevention-script-editor-tools) topic for additional information, i.e. Run for testing and Encrypt functionality. See the [Default PowerShell 4.0 Script](#Default-PowerShell-40-Script) topic for the default custom script. Save and close.
 
@@ -27,7 +27,7 @@ __Step 5 –__ On the Add Action window, the new script is displayed in the __Sc
 
 __Step 6 –__ Click Save to close the Add Action window and apply changes.
 
-![Actions tab – PowerShell 4.0 Action Created](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/powershellaction.png)
+![Actions tab – PowerShell 4.0 Action Created](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/powershellaction.webp)
 
 The Actions tab now displays the configured settings for the specified PowerShell 4.0 action. The action configuration can be directly edited through this display as well.
 

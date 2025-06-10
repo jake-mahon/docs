@@ -8,7 +8,7 @@ To access the Alerts Timeline page, click __Home__ at the top and do one of the 
 - On the Top 5 Triggered Alerts by Type chart, click a bar. It opens the Alerts Timeline page that displays alert-related data for all managed organizations.
 - In the organizations list, click an organization name to navigate to the Organization Statistics page, then click the Alerts Timeline chart. It opens the Alerts Timeline page that displays alert-related data for the organization selected in the organizations list.
 
-![Alerts Timeline Page](/img/product_docs/1secure/admin/dashboard/alertstimeline.png)
+![Alerts Timeline Page](/img/product_docs/1secure/admin/dashboard/alertstimeline.webp)
 
 If you are a managed organization user, this page displays insights specific to your organization.
 

@@ -2,7 +2,7 @@
 
 You can search Windows file server and NAS device activity that has been monitored and recorded to a File output. When you select __File__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![Search UI Options Toolbar](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchuitop.png)
+![Search UI Options Toolbar](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchuitop.webp)
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 

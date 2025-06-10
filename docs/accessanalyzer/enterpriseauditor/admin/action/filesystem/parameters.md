@@ -12,6 +12,6 @@ The Parameters page is available for some of the selections on the Operation pag
 - [Remove Tags](/docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/parameters/removetags.md)
 - [Change Owner](/docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/parameters/changeowner.md)
 
-![File System Action Module Wizard Change File Attributes Parameters page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/changeattributes.png)
+![File System Action Module Wizard Change File Attributes Parameters page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/changeattributes.webp)
 
 The Navigation pane will list this as the Parameters page, but the title for each version indicates the type of parameter to be configured.

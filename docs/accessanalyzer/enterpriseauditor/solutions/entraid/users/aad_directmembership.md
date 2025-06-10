@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_DirectMembership_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AAD_DirectMembership Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/directmembershipanalysis.png)
+![Analysis Tasks for the AAD_DirectMembership Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/directmembershipanalysis.webp)
 
 The default analysis tasks are:
 

@@ -5,7 +5,7 @@ In the Recovery Console, navigation options are displayed in the:
 - Application header
 - Left navigation pane
 
-![Navigation Options in the Recovery Console](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/navigation.png)
+![Navigation Options in the Recovery Console](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/navigation.webp)
 
 ## Application Header
 

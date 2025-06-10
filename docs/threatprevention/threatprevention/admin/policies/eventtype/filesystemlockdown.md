@@ -43,7 +43,7 @@ Event data collected by the policies with this event type are also available for
 
 Use the File System filter for lockdown to select the types of file system events to be locked down by the policy. It is also where the policy is scoped to only lockdown specific file system paths or to exclude specific file system paths from being locked down.
 
-![Policy window - File System filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.png)
+![Policy window - File System filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.webp)
 
 Access Operations area
 
@@ -84,7 +84,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.png)
+![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the parent and all child content (files and folders). If unchecked, the filter is only applied to the listed folder and its first-level contents.
 
@@ -92,7 +92,7 @@ When paths are added, a Sub-Folder checkbox displays. If checked, the filter is 
 
 Use the Additional Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.png)
+![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected Agents/Domains list on the right displays Agents and domains included in the policy.
 
@@ -110,7 +110,7 @@ When a domain is added to the Selected Agents\Domains list, all Agents deployed 
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -128,6 +128,6 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

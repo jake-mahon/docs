@@ -4,7 +4,7 @@ Here are the troubleshooting steps:
 
 __Step 1 –__ First, verify your Endpoints actually have IE 11 AND you can see Enterprise Mode like what's seen here. If your machines don't have Enterprise mode from the Tools options: Stop. Figure this out FIRST. For instance, on Windows 7 and IE 11 you might need to update and patch using KB2929437 .
 
-![162_1_image0012](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/162_1_image0012.png)
+![162_1_image0012](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/162_1_image0012.webp)
 
 __Step 2 –__ When trying Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager and the IE Pak's Enterprise Mode, you should decide if you want to use it on the USER or COMPUER side.
 

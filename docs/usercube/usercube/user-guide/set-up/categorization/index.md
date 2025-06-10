@@ -29,7 +29,7 @@ __Classification__ is a process that simply aims to assign a resource type to sp
 Entitlement Management
 ](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
-![Classification Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_classifschema.png)
+![Classification Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_classifschema.webp)
 
 Any resource that is unclassified will not be available for review.
 
@@ -37,7 +37,7 @@ __Correlation__ is a process that aims to establish an ownership relationship be
 Entitlement Management
 ](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
-![Correlation Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_correlschema.png)
+![Correlation Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_correlschema.webp)
 
 While an owner can possess several resources, a resource can have only one owner.
 
@@ -47,11 +47,11 @@ As stated previously, both classification and correlation work through sets of r
 
 > For basic users, we have in Identity Manager:
 >
-> ![Example - Basic Users in Usercube](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_examplebasicuser.png)
+> ![Example - Basic Users in Usercube](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_examplebasicuser.webp)
 >
 > For basic users, we have in the AD:
 >
-> ![Example - Basic Users in AD](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_examplebasicad.png)
+> ![Example - Basic Users in AD](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_examplebasicad.webp)
 >
 > Thus our example could induce the following rules:
 > | Classification Rules | Correlation Rules |
@@ -60,11 +60,11 @@ As stated previously, both classification and correlation work through sets of r
 
 > For administrators, we have in Identity Manager:
 >
-> ![Example - Basic Users in Usercube](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_exampleadminuser.png)
+> ![Example - Basic Users in Usercube](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_exampleadminuser.webp)
 >
 > For administrators, we have in the AD:
 >
-> ![Example - Admin Users in AD](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_exampleadminad.png)
+> ![Example - Admin Users in AD](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_exampleadminad.webp)
 >
 > Thus our example could induce the following rules:
 > | Classification Rules | Correlation Rules |
@@ -85,7 +85,7 @@ Hence, integrators should start with correlation rules, and then write classific
   
 In the same way, Identity Manager will apply correlation rules before classification rules.
 
-![Categorization Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_categschema.png)
+![Categorization Schema](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/categorization_categschema.webp)
 
 Now that you have created resource types and their correlation/classification rules, you have created the first elements for your role model. See the [
 Entitlement Management

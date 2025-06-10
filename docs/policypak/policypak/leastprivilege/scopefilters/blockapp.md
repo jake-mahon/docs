@@ -4,12 +4,12 @@ __NOTE:__  For an overview of this scenario, see the [Block PowerShell in Genera
 
 You might want to explicitly block attack vectors such as PSEXEC (which was used in WannaCry) or entirely block PowerShell.  If you specify to do this only on the User side (or set Computer side scope to User processed only), then only user processes will be affected.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to.webp)
 
 You can shore up this attack vector by making the explicit deny rule on the Computer side.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to_1.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to_1.webp)
 
 When you do, PowerShell is blocked for Standard and System.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to_2.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to_2.webp)

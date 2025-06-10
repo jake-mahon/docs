@@ -18,7 +18,7 @@ The .Entra ID Inventory Job Group collects the data. The Entra ID Job Groups r
 
 ## Job Groups
 
-![Entra ID Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Entra ID Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Entra ID Solution are:
 

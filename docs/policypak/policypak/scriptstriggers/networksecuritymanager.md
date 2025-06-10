@@ -24,11 +24,11 @@ Then use Computer Configuration | Netwrix Endpoint Policy Manager | Desktop A
 
 Your first stop is to create a __New Global settings policy__ like what's seen here.
 
-![nsm01](/img/product_docs/policypak/policypak/scriptstriggers/nsm01.png)
+![nsm01](/img/product_docs/policypak/policypak/scriptstriggers/nsm01.webp)
 
 Once selected you can see your configurable options for the machines.
 
-![nsm02](/img/product_docs/policypak/policypak/scriptstriggers/nsm02.png)
+![nsm02](/img/product_docs/policypak/policypak/scriptstriggers/nsm02.webp)
 
 - Enable Network Security Manager – This is the master ON switch for the feature.
 - Show Management Notifications – You can choose to show if the processes are being managed by Endpoint Policy Manager Network Security Manager (or not)
@@ -42,7 +42,7 @@ Next you'll want to create a process matching policy. Again, in our examples, we
 
 Create a New Policy like what's seen here.
 
-![nsm03](/img/product_docs/policypak/policypak/scriptstriggers/nsm03.png)
+![nsm03](/img/product_docs/policypak/policypak/scriptstriggers/nsm03.webp)
 
 Next you'll want to match a specific application. You can do this via Simple or Combo rules. This example will use a Simple rule.
 
@@ -50,23 +50,23 @@ ___RECOMMENDED:___ For details about Simple and Combo rules, refer to the Endpoi
 
 Specify the location for Microsoft Edge via Path rule which is ```C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe```
 
-![nsm04](/img/product_docs/policypak/policypak/scriptstriggers/nsm04.png)
+![nsm04](/img/product_docs/policypak/policypak/scriptstriggers/nsm04.webp)
 
 Then in the __Add Connections Conditions__ dialog, specify the following values to Allow Any activity to www.Netwrix.com by Domain Name.
 
-![nsm05](/img/product_docs/policypak/policypak/scriptstriggers/nsm05.png)
+![nsm05](/img/product_docs/policypak/policypak/scriptstriggers/nsm05.webp)
 
 Then click __Add__ and make policy #2 a Block policy which blocks everything else.
 
-![nsm06](/img/product_docs/policypak/policypak/scriptstriggers/nsm06.png)
+![nsm06](/img/product_docs/policypak/policypak/scriptstriggers/nsm06.webp)
 
 Results should look like this.
 
-![nsm07](/img/product_docs/policypak/policypak/scriptstriggers/nsm07.png)
+![nsm07](/img/product_docs/policypak/policypak/scriptstriggers/nsm07.webp)
 
 Click __Next__ to continue. Accept the defaults on the final Wizard page and click __Finish__.
 
-![nsm08](/img/product_docs/policypak/policypak/scriptstriggers/nsm08.png)
+![nsm08](/img/product_docs/policypak/policypak/scriptstriggers/nsm08.webp)
 
 ### Testing your Policy Out
 
@@ -74,7 +74,7 @@ On your endpoint which has the Endpoint Policy Manager CSE installed and licens
 
 The results will be that when Edge is launched, end users cannot go to any network location, like Microsoft.com, but are restricted to the specific network location you specified, www.Netwrix.com.
 
-![nsm09](/img/product_docs/policypak/policypak/scriptstriggers/nsm09.png)
+![nsm09](/img/product_docs/policypak/policypak/scriptstriggers/nsm09.webp)
 
 ## Auditing Events
 
@@ -82,15 +82,15 @@ ___RECOMMENDED:___ See the [Endpoint Policy Manager Network Security Manager - A
 
 Auditing Events can be useful if you want to determine if your rules are working. Each rule may be individually enabled like what's seen here.
 
-![nsm10](/img/product_docs/policypak/policypak/scriptstriggers/nsm10.png)
+![nsm10](/img/product_docs/policypak/policypak/scriptstriggers/nsm10.webp)
 
 In this example I'll have both rules set to Log.
 
-![nsm11](/img/product_docs/policypak/policypak/scriptstriggers/nsm11.png)
+![nsm11](/img/product_docs/policypak/policypak/scriptstriggers/nsm11.webp)
 
 The results can be pretty noisy depending on the application. In this case whenever Edge is run you will get a myriad of Blocked events like what's seen here.
 
-![nsm12](/img/product_docs/policypak/policypak/scriptstriggers/nsm12.png)
+![nsm12](/img/product_docs/policypak/policypak/scriptstriggers/nsm12.webp)
 
 You may wish to audit for blocks for a while then change gears to audit only for successes later to reduce the amount of noise.
 

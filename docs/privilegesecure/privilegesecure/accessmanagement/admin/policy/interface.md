@@ -2,7 +2,7 @@
 
 The Policy interface provides users with options for creating access policies, investigating activity sessions, onboarding and managing users, groups, resources, and credentials. This topic explains the interface features and how to use them.
 
-![Admin Policy Interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![Admin Policy Interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 Select the Policy interface for related pages:
 

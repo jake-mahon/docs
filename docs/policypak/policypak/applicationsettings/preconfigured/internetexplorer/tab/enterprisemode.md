@@ -20,7 +20,7 @@ Endpoint Policy Manager enables you to create Enterprise Compatibility lists on 
 
 In short, Endpoint Policy Manager IE AppSet makes this process easy. You use the Endpoint Policy Manager Browser Router component and not the Endpoint Policy Manager Application Settings Manager component, as shown in Figure 36.
 
-![ie_appset_tab_by_tab_32](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_32.png)
+![ie_appset_tab_by_tab_32](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_32.webp)
 
 Figure 36. Setting up a dynamic list in Enterprise Mode using Endpoint Policy Manager Browser Router.
 

@@ -6,7 +6,7 @@ This page is about [
 ServiceNow Ticket
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
-![Package: Ticket/ServiceNow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.png)
+![Package: Ticket/ServiceNow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
 
 ## Overview
 

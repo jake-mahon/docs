@@ -24,7 +24,7 @@ View the analysis tasks by navigating to the __.Active Directory Inventory__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the 3-AD_Exceptions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/exceptionsanalysis.png)
+![Analysis Tasks for the 3-AD_Exceptions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/exceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

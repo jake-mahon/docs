@@ -4,7 +4,7 @@ Now log on as a Standard User and try to run an application that requires admin 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval.webp)
 
 The user needs to present this __Request Code__, typically over the phone, to an Admin who can create a __Response Code__.
 
@@ -20,7 +20,7 @@ Here, you can see the Endpoint Policy Manager Least Privilege Manager Admin Appr
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_1.webp)
 
 You can save the secret key in the Registry of this Admin’s machine, secured with his own encrypted password. You could also require that the key cannot be viewed ever again when this tool is run by choosing __Forbidden to view secret key from previous session__.
 
@@ -35,7 +35,7 @@ Once you click __OK__, you’ll be in the main Admin Approval Tool, seen here. H
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_2.webp)
 
 __NOTE:__ The Admin Approval Tool may be branded. See the section __Branding and Customization__ in this guide.
 
@@ -43,7 +43,7 @@ After filling in these options, assign a value to the __Response Code__ and the 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_3.webp)
 
 In our example, we specified that the code could be used one time, so if the user tries to rerun the same application, they are prompted again.
 
@@ -57,4 +57,4 @@ You can also see and launch the Admin Approval Tool from within a GPO, provided 
 
 ![A computer screen shot of a computer screen
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/testing_admin_approval_4.webp)

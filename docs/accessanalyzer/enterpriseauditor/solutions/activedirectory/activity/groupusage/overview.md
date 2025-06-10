@@ -2,7 +2,7 @@
 
 The Group Usage Job Group reports shows how group membership changes have affected access across the entire environment, the actions taken by the members of a group, and identifies where groups may be used for authorization in applications.
 
-![Group Usage Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Group Usage Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following Jobs make up the Group Usage Job Group:
 

@@ -4,7 +4,7 @@
 
 The MSI installation files and the associated [Client configuration](/docs/passwordsecure/passwordsecure/installation/requirements/client_configuration.md) can be found in the corresponding sections. The following step-by-step guide will accompany you through the wizards.
 
-![installation wizard page 1](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-1-en.png)
+![installation wizard page 1](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-1-en.webp)
 
 You are required to read and accept the terms of service. These can also be printed.
 
@@ -12,29 +12,29 @@ The next step is to define the location of the client. The suggested location ca
 
 __CAUTION:__ Please only install the Terminal Server Service (for Autofill Add-on) if terminal server operation is intended!
 
-![installation wizard page 2](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-3-en.png)
+![installation wizard page 2](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-3-en.webp)
 
 The actual installation starts in the next step.
 
-![installation wizard page 3](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-4-en_339x265.png)
+![installation wizard page 3](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-4-en_339x265.webp)
 
 The last step closes the setup and opens (if desired) the Client.
 
-![installation wizard page 4](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-5-en.png)
+![installation wizard page 4](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/installation-client-5-en.webp)
 
 ## Installed applications
 
 There are always several applications installed.
 
-![client icon](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/cllient-en.png)
+![client icon](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/cllient-en.webp)
 
 This is the regular Client.
 
-![offline client icon](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/psrofflineclient-en.png)
+![offline client icon](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/psrofflineclient-en.webp)
 
 The Offline Add-on allows access to the data without connection to Server Manager.
 
-![icon_autofill_agent](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/icon_autofill_agent.png)
+![icon_autofill_agent](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/icon_autofill_agent.webp)
 
 The Autofill Add-on is used for SSO applications.
 
@@ -64,7 +64,7 @@ These keys are structured like this:
 - DatabaseName: Name of the database
 - LastUserName: The field for the user name can be specified here
 
-![profil-registry](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/profil-registry-en.png)
+![profil-registry](/img/product_docs/passwordsecure/passwordsecure/installation/installation_client/profil-registry-en.webp)
 
 Is the profile set with the following entries?
 

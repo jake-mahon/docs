@@ -4,6 +4,6 @@ Paging allows users to interact with large sets of data more efficiently when vi
 
 __NOTE:__ Paging and grouping cannot be enabled at the same time. When Paging is enabled, the Grouping options are disabled for the report.
 
-![Paging](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/paging.png)
+![Paging](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/paging.webp)
 
 When paging is enabled, arrows are displayed that allow you to navigate to the next page, last page, previous page, or first page. If the data is filtered, it is indicated at the end of the line. Each page contains 10 records.

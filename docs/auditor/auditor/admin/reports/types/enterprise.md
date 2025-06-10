@@ -37,6 +37,6 @@ Follow the steps to review a diagram:
 
 The example below applies to Enterprise.
 
-![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.png)
+![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.

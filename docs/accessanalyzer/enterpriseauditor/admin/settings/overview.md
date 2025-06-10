@@ -2,7 +2,7 @@
 
 The global settings have an overall impact on the running ofAccess Analyzer jobs. Settings are inherited through a parent-child structure from the Settings node through the Jobs tree to the individual jobs unless inheritance is broken by direct assignment at either the job group or the individual job level.
 
-![Configuration Settings](/img/product_docs/dataclassification/ndc/admin/taxonomies/globalsettings.png)
+![Configuration Settings](/img/product_docs/dataclassification/ndc/admin/taxonomies/globalsettings.webp)
 
 Some of these settings are configured during the initial launching of theAccess Analyzer Console. Others are configured as desired by the end-user. Expand the Settings node in the Navigation pane to select a global setting to configure:
 

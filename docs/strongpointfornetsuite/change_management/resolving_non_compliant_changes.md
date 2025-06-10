@@ -5,8 +5,8 @@ To access the Open Non-Compliant Changes Report:
 1. Open __Strongpoint__ > __Change Management Reports__ > __Open NonCompliant Changes__  
    The Non-Compliant Changes Report gives you a list of the [Change Logs](/docs/strongpointfornetsuite/change_management/using_change_logs.md). You can filter the report or sort by the column heads.
 
-   ![Non-Compliant Change Report](/img/product_docs/strongpointfornetsuite/change_management/noncompliantreport.png)
-   ![NonCompliant Flags](/img/product_docs/strongpointfornetsuite/change_management/noncompliant_flags.png)
+   ![Non-Compliant Change Report](/img/product_docs/strongpointfornetsuite/change_management/noncompliantreport.webp)
+   ![NonCompliant Flags](/img/product_docs/strongpointfornetsuite/change_management/noncompliant_flags.webp)
 2. A noncompliant change means something got changed without the required approvals. __View__ each change log record to investigate the change, or use the [Mass Update](#Mass-Update) procedure. You can retroactively attach a change request to a noncompliant change and get the necessary approvals for the change to be compliant.
 
    1. Create a New [Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) or open an existing one.
@@ -35,7 +35,7 @@ There are occasions where you want to resolve Open Non-Compliant Change Logs wit
    - __Change Level__ is __Change Request__
    - __Date Created__ is [_applicable range_]
 
-     ![Set the Title of Action and the Filters](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_3.png)
+     ![Set the Title of Action and the Filters](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_3.webp)
 6. Open the __Results__ tab.
 7. Set __Sort By__ to __Date Created__
 8. Set these Fields:
@@ -45,14 +45,14 @@ There are occasions where you want to resolve Open Non-Compliant Change Logs wit
    - __Actual Change Date__
    - __Noncompliance__
 
-     ![Select the Soft By and add Fields to Reults tab](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_4.png)
+     ![Select the Soft By and add Fields to Reults tab](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_4.webp)
 9. Open the __Mass Update Fields__ tab.
 10. Check these Fields:
 
     - __Resolution Description__ and add a meaningful description of the Mass Update for __Value__.
     - __Status__ and select __Closed__ for the __Value__.
 
-      ![Add the information on the Mass Update Fields tab](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_5.png)
+      ![Add the information on the Mass Update Fields tab](/img/product_docs/strongpointfornetsuite/change_management/mass_update_filters_5.webp)
 11. __Save__ the Mass Update.
 12. Open __Lists__ > __Mass Update__ > __Saved Mass Updates__
 13. Select the Mass Update you created.

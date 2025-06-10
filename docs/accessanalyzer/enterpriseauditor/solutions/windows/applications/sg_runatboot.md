@@ -8,7 +8,7 @@ The SG\_RunAtBoot job uses the Registry Data Collector for the following queries
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
-![Queries for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/runatbootqueries.png)
+![Queries for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/runatbootqueries.webp)
 
 The queries for the SG\_RunAtBoot job are:
 
@@ -21,7 +21,7 @@ Navigate to the __Windows__ > __Applications__ > __SG\_RunAtBoot__ > __Configure
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/runatbootanalysis.png)
+![Analysis Tasks for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/runatbootanalysis.webp)
 
 The default analysis tasks are:
 

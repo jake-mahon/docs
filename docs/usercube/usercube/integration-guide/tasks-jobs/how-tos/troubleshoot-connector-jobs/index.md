@@ -6,7 +6,7 @@ This guide helps understand the behavior of synchronization and provisioning tas
 
 A managed system is synchronized and provisioned to/from Identity Manager with the following task sequence:
 
-![Synchronization/Provisioning Schema](/img/product_docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.png)
+![Synchronization/Provisioning Schema](/img/product_docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
 
 ### Export data
 

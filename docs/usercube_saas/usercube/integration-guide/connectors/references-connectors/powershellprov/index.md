@@ -6,7 +6,7 @@ This page is about [
 PowerShellProv
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
 
-![Package: Custom/PowerShellProv](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.png)
+![Package: Custom/PowerShellProv](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.webp)
 
 ## Overview
 

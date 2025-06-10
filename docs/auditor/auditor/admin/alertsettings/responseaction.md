@@ -2,7 +2,7 @@
 
 Upon the alert triggering, you can instruct Auditor to perform several actions such as run a command, a script or other executable file that will perform a remediation action, open a ticket with the organization help desk, etc.
 
-![passwordreset_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/passwordreset_thumb_0_0.png)
+![passwordreset_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/passwordreset_thumb_0_0.webp)
 
 Response Action settings contain the following configuration options:
 
@@ -25,14 +25,14 @@ __Step 3 –__ In the With parameters field, enter the parameters to be used by 
 
 __Step 4 –__ To run _.exe_, _.cmd_ and _.bat_ files, you can enter the path to your command-line or batch file directly in the Run field, for example:
 
-![command_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/command_thumb_0_0.png)
+![command_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/command_thumb_0_0.webp)
 
 To run the ._ps1_ files, you will need to enter the path to _powershell.exe_ and path to your script. For example:
 
 - In the Run field, enter _C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe_
 - In the With parameters field, enter ```–File <path_to_your_ps_script>```
 
-![powershell_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/powershell_thumb_0_0.png)
+![powershell_thumb_0_0](/img/product_docs/auditor/auditor/admin/alertsettings/powershell_thumb_0_0.webp)
 
 Unless you select to Write data to CSV file, Auditor will also pass the following parameters to the command line:
 
@@ -84,7 +84,7 @@ To pass certain activity record fields to the executable file, you can instruct 
 
 Here is an example of a CSV file structure:
 
-![csvfile_thumb_0_48](/img/product_docs/auditor/auditor/admin/alertsettings/csvfile_thumb_0_48.png)
+![csvfile_thumb_0_48](/img/product_docs/auditor/auditor/admin/alertsettings/csvfile_thumb_0_48.webp)
 
 The number of activity records retrieved per every response action launch will be only limited by user (see below for details). If the number of records associated with the alert exceeds this limit, the program will create multiple CSV files, storing data in chunks.
 

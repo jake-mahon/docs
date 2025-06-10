@@ -28,7 +28,7 @@ __Step 2 –__ Select the tile you want to remove.
 
 __Step 3 –__ Click __close (x)__:
 
-![remove_tile](/img/product_docs/auditor/auditor/admin/navigation/remove_tile.png)
+![remove_tile](/img/product_docs/auditor/auditor/admin/navigation/remove_tile.webp)
 
 __Step 4 –__ Click Apply.
 
@@ -44,7 +44,7 @@ __Step 2 –__ Select the tile you want to resize.
 
 __Step 3 –__ Click the __resize__ button:
 
-![homescreenresizetile](/img/product_docs/auditor/auditor/admin/navigation/homescreenresizetile.png)
+![homescreenresizetile](/img/product_docs/auditor/auditor/admin/navigation/homescreenresizetile.webp)
 
 __Step 4 –__ Select the preferred size from the drop-down list.
 

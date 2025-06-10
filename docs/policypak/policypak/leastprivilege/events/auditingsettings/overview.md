@@ -11,13 +11,13 @@ To begin the discovery process you will add a New Global Settings Policy, which 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/auditing_settings.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/auditing_settings.webp)
 
 When you create a Global Settings Policy, you can choose to turn on the settings shown here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/auditing_settings_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/auditing_settings_1.webp)
 
 Enabling these settings will write special events to the event logs.
 

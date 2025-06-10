@@ -6,7 +6,7 @@ This page is about [
 PowerShellSync
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
 
-![Package: Custom/PowerShellSync](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.png)
+![Package: Custom/PowerShellSync](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
 ## Overview
 

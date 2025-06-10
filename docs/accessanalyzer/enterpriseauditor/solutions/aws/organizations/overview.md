@@ -2,7 +2,7 @@
 
 The 1.Organizations job group analyzes and reports on the AWS Organization including password policies and accounts within the organization.
 
-![1.Organizations Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.Organizations Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 1.Organizations job jroup is comprised of:
 

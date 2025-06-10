@@ -4,12 +4,12 @@ You can block specific websites by making a rule and selecting the __Block__ web
 
 __NOTE:__ For an overview of using Block policies, see the following video: [Block web sites from opening in all browsers.](/docs/policypak/policypak/video/browserrouter/blockwebsites.md)
 
-![about_policypak_browser_router_16](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_16.png)
+![about_policypak_browser_router_16](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_16.webp)
 
 When you include text in the __Block Text__ field, the endpoint will react in all browsers with a pop-up like this one.
 
-![about_policypak_browser_router_17](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_17.png)
+![about_policypak_browser_router_17](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_17.webp)
 
 __NOTE:__ If you leave the __Block Text__ field empty, default text is automatically provided.
 
-![about_policypak_browser_router_18](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_18.png)
+![about_policypak_browser_router_18](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_18.webp)

@@ -6,4 +6,4 @@ When a standard user attempts to install a .PKG file they are not allowed to do 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/package_installation_policy.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/package_installation_policy.webp)

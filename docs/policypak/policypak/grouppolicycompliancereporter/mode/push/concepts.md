@@ -2,7 +2,7 @@
 
 Once the designated server is licensed and the Endpoint Policy Manager GPCR client (admin console) can connect to it, you can choose to set up the clientless auditing feature. Auditing enables all licensed machines (endpoints) to push their Group Policy results data to a central server automatically, without anything being installed on them. This gives administrators the ability to query machines anytime because the last known Group Policy data is always up-to-date and on the server. See Figure 42 for a diagram of how Endpoint Policy Manager GPCR Server with push mode receives information from Endpoint Policy Manager GPCR endpoints.
 
-![gpcr_server_with_push_mode_6](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_6.png)
+![gpcr_server_with_push_mode_6](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_6.webp)
 
 Figure 42. Auditing with GPCR Server in push mode.
 

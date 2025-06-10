@@ -8,13 +8,13 @@ Not all information is encrypted by the MSSQL database in Netwrix Password Secur
 
 The record "Blogger" has been saved in the database and is visible to the logged-in user. It can thus be deduced that the user has at least a read right for the record. As can be gathered from the authorization concept, the user thus also generally has a read right to the password itself. This means the user can view the value of the password using the "reveal" function.
 
-![Show password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_1-en.png)
+![Show password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_1-en.webp)
 
 ## Revealing passwords – diagram
 
 In this context, it is important to note that the word "reveal" does not really accurately describe this process. It creates the __incorrect__ impression that the client already has the password and only needs to reveal it. However, the processes running in the background until the password are revealed are much more complex and will thus be described below.
 
-![revealing password diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_2-en.png)
+![revealing password diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_2-en.webp)
 
 ### Saving the password on the server
 

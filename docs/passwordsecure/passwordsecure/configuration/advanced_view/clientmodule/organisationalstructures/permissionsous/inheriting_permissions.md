@@ -4,7 +4,7 @@
 
 If you open the permissions for an organisational structure, the currently configured permissions will be visible. In the following example, there are a total of four roles with varying permissions for the organisational structure.
 
-![inheriting permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/inheriting_permissions_1-en.png)
+![inheriting permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/inheriting_permissions_1-en.webp)
 
 ## Relevant rights
 

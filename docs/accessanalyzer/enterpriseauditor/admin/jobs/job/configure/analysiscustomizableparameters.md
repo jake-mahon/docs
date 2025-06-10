@@ -10,7 +10,7 @@ __Step 3 –__ At the top of the SQL Script Editor, select __Parameters__.
 
 __NOTE:__ The image shown is a generic example. Table names and customizable parameters will change based on the Job.
 
-![SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/customizableparameters.png)
+![SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/customizableparameters.webp)
 
 __Step 4 –__ In the parameters section at the bottom of the editor, find the Value column.
 

@@ -12,7 +12,7 @@ __Step 2 –__ Click __Configure__ to configure a SIEM server. See the [Configur
 
 __Step 3 –__ Once configured, click __Events__ on the __SIEM__ tab.
 
-![Netwrix Threat Prevention System Alerting window - SEIM tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/seim.png)
+![Netwrix Threat Prevention System Alerting window - SEIM tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/seim.webp)
 
 __Step 4 –__ Click the button next to Disabled to toggle the setting to __Enabled__.
 
@@ -51,7 +51,7 @@ Threat Prevention now sends SIEM notifications for the selected events/incidents
 
 Multiple profiles can be created across SIEM servers to serve different alerting functions. Follow the steps to configure one or more SIEM servers for alerting.
 
-![Netwrix Threat Prevention System Alerting window – SEIM tab – Configure SEIM Server](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/seimserver.png)
+![Netwrix Threat Prevention System Alerting window – SEIM tab – Configure SEIM Server](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/seimserver.webp)
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Threat Prevention System Alerting window opens.
 
@@ -106,7 +106,7 @@ Custom SIEM mapping files can be added. First create the mapping file, and save 
 
 Follow the steps to add a custom SIEM mapping file.
 
-![SIEM tab - Gear icon for Custom Mapping File](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/geariconformappingfile.png)
+![SIEM tab - Gear icon for Custom Mapping File](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/geariconformappingfile.webp)
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Threat Prevention System Alerting window opens.
 
@@ -114,11 +114,11 @@ __Step 2 –__ On the SIEM tab, click __Configure__.
 
 __Step 3 –__ Click the __gear__ icon for an alert type to open the SIEM Templates window. The new mapping file will only be available for the specific type selected.
 
-![SIEM Templates window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siemtemplates.png)
+![SIEM Templates window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siemtemplates.webp)
 
 __Step 4 –__ Click __Add__ (+) to open the Import SIEM Mapping File window.
 
-![Import SIEM Mapping File window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/importfile.png)
+![Import SIEM Mapping File window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/importfile.webp)
 
 __Step 5 –__ Select the desired mapping file and click __Open__. The SIEM Mapping File window closes and the selected mapping file appears in the SIEM Templates window. It is now available in the drop-down menu. Click __Close__.
 

@@ -17,7 +17,7 @@ To do this, in your __production__ account:
    - __Completion Status (optional)__: Add the stage of completion for the change request.
    - __Parent Change Request (optional)__: link to other change requests.
 
-   ![changerequestmain1](/img/product_docs/strongpointfornetsuite/change_management/changerequestmain1.png)
+   ![changerequestmain1](/img/product_docs/strongpointfornetsuite/change_management/changerequestmain1.webp)
 3. Fill in the following fields in the __Scope__ section of the change request:
 
    - __Change Overview__: Add a summary of the desired change.
@@ -26,9 +26,9 @@ To do this, in your __production__ account:
      - __Proposed Customizations__: Use this field when you are adding customizations that do not yet exist in your account. You can add multiple Script IDs by separating them with commas. (Can be used in conjunction with customizations that already exist.)
      - __Affected Bundle ID__: If you are using a bundle to move objects from sandbox to production, use this field to add the bundle ID.
 
-   ![scope-1](/img/product_docs/strongpointfornetsuite/change_management/scope-1.png)
+   ![scope-1](/img/product_docs/strongpointfornetsuite/change_management/scope-1.webp)
 
-   ![scope-3](/img/product_docs/strongpointfornetsuite/change_management/scope-3.png)
+   ![scope-3](/img/product_docs/strongpointfornetsuite/change_management/scope-3.webp)
 4. __Save__ the Change Request.
 5. In the upper right hand corner, see the __Change Control Level Required__ and choose either:
 
@@ -38,6 +38,6 @@ To do this, in your __production__ account:
 6. Click on __Impact Analysis__. This will show you how objects are connected to other things.
 7. Scroll down to the bottom of the page and click on the __Impact Analysis__ tab.This shows you which customization record(s) can or cannot be safely modified as well as customizations that are inactive. You see a list of the customization record(s) that have been included, and warnings for impacted customization record(s) that need to be investigated before you make a change.
 
-   ![impactanalysissubtab](/img/product_docs/strongpointfornetsuite/change_management/impactanalysissubtab.png)
+   ![impactanalysissubtab](/img/product_docs/strongpointfornetsuite/change_management/impactanalysissubtab.webp)
 
 If you want to see if the change would have an impact in your sandbox, you can also create a change request in your sandbox account.

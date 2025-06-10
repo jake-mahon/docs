@@ -12,7 +12,7 @@ __Step 3 –__ Specify the Netwrix Privilege Secure server URL and port. See the
 
 Other settings in the Global Netwrix Privilege Secure pane are optional and self explanatory.
 
-![getting_started_netwrix_privilege](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.png)
+![getting_started_netwrix_privilege](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.webp)
 
 Next, you’ll create a Endpoint Policy Manager rule like you did earlier to perform an operation.
 
@@ -25,4 +25,4 @@ With Endpoint Policy Manager performing the work, you can Elevate an application
 
 On the __Least Privilege Manager – Configure Netwrix Privilege Secure Access Policy__ page you can check the checkbox and configure the setting for __Resource Based Policy__ or __Credential Based Policy__.
 
-![getting_started_netwrix_privilege_1](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.png)
+![getting_started_netwrix_privilege_1](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.webp)

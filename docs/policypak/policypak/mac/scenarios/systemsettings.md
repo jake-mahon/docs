@@ -6,7 +6,7 @@ Standard Users are prompted when they access System Settings in MacOS. For insta
 
 ![Screens screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy.webp)
 
 System Settings Policy enables you to:
 
@@ -18,6 +18,6 @@ In this example, we are permitting a Standard User to overcome restricted access
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy_1.webp)
 
 Without Endpoint Policy Manager policy, the system asks for administrator confirmation to change system settings for the standard user. With Endpoint Policy Manager you are able to provide the ability to change settings without administrator involvement.

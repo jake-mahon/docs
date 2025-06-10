@@ -4,7 +4,7 @@ The Select Access window opens from the Pending Access Requests Page of the Owne
 
 __Step 1 –__ On the Pending Access Requests Page of the Owner portal, select the desired request and click __More Options__. The Select Access window opens.
 
-![Select Access window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/selectaccess.png)
+![Select Access window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/selectaccess.webp)
 
 __Step 2 –__ The drop-down menu provides alternative access levels. Options vary based on how the resource was configured for self-service. Select the desired Access Level.
 
@@ -19,7 +19,7 @@ __Step 4 –__ Click __Accept__ to approve the request with the modified Access 
 
 __NOTE:__ You can click __Cancel__ to close the window without changing the Access Level or approving the request.
 
-![Saving Request window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/savingrequest.png)
+![Saving Request window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/savingrequest.webp)
 
 __Step 5 –__ The Access Information Center starts the action with the status displayed on the Saving request window. When the action completes successfully, click __OK__ to close the Saving Request window.
 

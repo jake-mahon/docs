@@ -8,7 +8,7 @@ __Step 2 –__ Fully turn off user account control (during the user interface [U
 
 Without the Java Access Bridge installed, the Java tab will look like what's shown in Figure 169.
 
-![using_designstudio_tools_5_624x224](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/options/using_designstudio_tools_5_624x224.png)
+![using_designstudio_tools_5_624x224](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/options/using_designstudio_tools_5_624x224.webp)
 
 Figure 169. The Java tab.
 

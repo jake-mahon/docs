@@ -9,7 +9,7 @@ The event filters for the File System Enterprise Auditor event type are:
 - Processes and Configuration
 - Perpetrators to Exclude
 
-![Policy window - File System Enterprise Auditor Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.png)
+![Policy window - File System Enterprise Auditor Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -23,7 +23,7 @@ Event data collected by the policies with either the [File System Changes Event 
 
 Use the File System Enterprise Auditor filter to set the scope of the policy to only monitor specific file system paths or to exclude specific file system paths from being monitored.
 
-![Policy window - File System Enterprise Auditor filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.png)
+![Policy window - File System Enterprise Auditor filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.webp)
 
 The Include Paths section defines the top level folder or individual files for monitoring. Use the Exclude Paths section to refine and remove any child items from being monitored. Any files or folders to be excluded need to be a subset of a folder identified in the Include Paths section. This is also where the NAS device paths are added.
 
@@ -37,7 +37,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.png)
+![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the parent and all child content (files and folders). If unchecked, the filter is only applied to the listed folder and its first-level contents.
 
@@ -45,7 +45,7 @@ When paths are added, a Sub-Folder checkbox displays. If checked, the filter is 
 
 Use the File System Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - File System Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemagents.png)
+![Policy window - File System Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected Agents/Domains list on the right displays Agents and domains included in the policy.
 
@@ -65,7 +65,7 @@ __NOTE:__ There must be at least one Agent in the Selected Agents/Domains list f
 
 Use the Processes and Configuration filter to set the scope of the policy to include Read operations and exclude specific processes from being monitored. You can also set the number of days to retain the activity logs.
 
-![Policy window - Processes and Configuration filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesandconfiguration.png)
+![Policy window - Processes and Configuration filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesandconfiguration.webp)
 
 - The __Record Read Operations__ checkbox is checked by default. To configure the policy to ignore read operations, uncheck this option.
 - In the [Number] __Days to Retain Log__ box, specify a number to indicate the number of days the logs remain before Threat Prevention deletes them.
@@ -75,7 +75,7 @@ Use the Processes and Configuration filter to set the scope of the policy to inc
 
 Use the Perpetrators to Exclude filter to exclude specific security principals committing changes from being monitored.
 
-![Policy window - Perpetrators to Exclude filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/perpetratorstoexclude.png)
+![Policy window - Perpetrators to Exclude filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/perpetratorstoexclude.webp)
 
 Use the buttons above the Exclude Perpetrators and Exclude Collections areas to edit the lists.
 

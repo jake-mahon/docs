@@ -4,7 +4,7 @@ The Permissions job group is comprised of data collection, analysis and reports 
 
 ___RECOMMENDED:___ Schedule the Permissions job group to run weekly on Fridays at 6 PM.
 
-![Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The job groups and jobs in the Permissions job group are:
 

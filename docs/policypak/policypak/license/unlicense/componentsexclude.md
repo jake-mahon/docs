@@ -8,11 +8,11 @@ A Universal License file will express all the components you are licensed for. T
 
 Type 1: Licenses which express specific components you are licensed for. For example:
 
-![748_1_image-20230820022159-1_950x514](/img/product_docs/policypak/policypak/license/unlicense/748_1_image-20230820022159-1_950x514.png)
+![748_1_image-20230820022159-1_950x514](/img/product_docs/policypak/policypak/license/unlicense/748_1_image-20230820022159-1_950x514.webp)
 
 Type 2: Licenses type which express that you are licensed for Enterprise Full and therefore licensed for all components.
 
-![748_2_image-20230820022159-2_950x364](/img/product_docs/policypak/policypak/license/unlicense/748_2_image-20230820022159-2_950x364.png)
+![748_2_image-20230820022159-2_950x364](/img/product_docs/policypak/policypak/license/unlicense/748_2_image-20230820022159-2_950x364.webp)
 
 ## How to modify Type 1 Licenses:
 
@@ -99,11 +99,11 @@ The license is now ready to deploy via any method, like Group Policy or MSI wrap
 
 Note that the 23.8 and later MMC is preferred for any modified licenses that you've created. The MMC console will express which components you have placed in the ```<disabled>``` blocks.
 
-![748_3_image-20230820022159-3_950x561](/img/product_docs/policypak/policypak/license/unlicense/748_3_image-20230820022159-3_950x561.png)
+![748_3_image-20230820022159-3_950x561](/img/product_docs/policypak/policypak/license/unlicense/748_3_image-20230820022159-3_950x561.webp)
 
 The Group Policy Settings Report will also express this as well.
 
-![748_4_image-20230820022159-4_950x560](/img/product_docs/policypak/policypak/license/unlicense/748_4_image-20230820022159-4_950x560.png)
+![748_4_image-20230820022159-4_950x560](/img/product_docs/policypak/policypak/license/unlicense/748_4_image-20230820022159-4_950x560.webp)
 
 ## Result of unlicensing specific component(s):
 
@@ -111,4 +111,4 @@ After the computer picks up the new license (via GPO, MDM, etc.) you can verify 
 
 The result of modified components via blocked license can be seen in this example.
 
-![748_5_image-20230820022159-5_950x814](/img/product_docs/policypak/policypak/license/unlicense/748_5_image-20230820022159-5_950x814.png)
+![748_5_image-20230820022159-5_950x814](/img/product_docs/policypak/policypak/license/unlicense/748_5_image-20230820022159-5_950x814.webp)

@@ -20,7 +20,7 @@ __NOTE:__ To review the full list of available content types, navigate to Config
 | .mpp | Project |
 | .msg | Message |
 | .pdf | PDF |
-| .png | png |
+| .webp | png |
 | .ppt | Powerpoint |
 | .pptx | Powerpoint Xml |
 | .pub | Publisher |

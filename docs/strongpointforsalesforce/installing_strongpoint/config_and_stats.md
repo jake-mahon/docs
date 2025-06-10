@@ -8,7 +8,7 @@ Click __Configuration and Stats__ in the __Resources__ section, or open __Settin
 
 The __License Type__ displays your current license.
 
-![Configuration and Stats report](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_overview.png)
+![Configuration and Stats report](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_overview.webp)
 
 The report is divided into multiple tabs:
 
@@ -34,7 +34,7 @@ Accesses the documentation stats, scanner logs, scanner additional configuration
 
 This section displays the current status of the documentation Platform Governance for Salesforce has created for your account. The statistics included the total number of customization, and the various __junctions__ created to track the relationships between customizations. __junctions__ represent critical relationship information to help you determine if it is safe to delete or change something, and how it affects other items. Click __Download PDF__ to export a copy of the report.
 
-![Configuration and Stats - Documentation Stats](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_doc_stats.png)
+![Configuration and Stats - Documentation Stats](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_doc_stats.webp)
 
 ### Scanner Logs
 
@@ -46,7 +46,7 @@ The section displays details for each of the scanner logs:
 - Total Customization: this column shows the number of customizations processed while a scanner is running. When the scan is complete, the column matches the total __Scanner Count__.
 - Scanner Count
 
-![Configuration and Stats - Scanner Logs](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_scanner_logs.png)
+![Configuration and Stats - Scanner Logs](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_scanner_logs.webp)
 
 ### Scanner Additional Information
 
@@ -56,13 +56,13 @@ This section only applies to sandbox orgs. It displays each scanner function and
 - Last Automated Scanner Run Date
 - Last Scanner Run Status
 
-![Configuration and Stas - Scanner Additional Information](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_scan_add_info.png)
+![Configuration and Stas - Scanner Additional Information](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_scan_add_info.webp)
 
 ### Change Log Creation
 
 If you are in a sandbox, you can control whether change logs are created. Due to Salesforce space limits on different [sandbox accounts](https://help.salesforce.com/articleView?id=data_sandbox_environments.htmandtype=5), you may want to disable change logs to save space.
 
-![Control Change Log Creation in Sandbox](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_enable_change_log.png)
+![Control Change Log Creation in Sandbox](/img/product_docs/strongpointforsalesforce/installing_strongpoint/config_stats_enable_change_log.webp)
 
 ## Jira Configuration
 
@@ -79,7 +79,7 @@ Your credentials are generated in Jira. Enter them here for the Platform Governa
 1. Open __Netwrix Dashboard__ > __Settings__ > __Configuration and Stats__.
 2. Open the __Jira Configuration__ tab. It opens on the __Credentials__ tab.
 
-   ![Open the credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.png)
+   ![Open the credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.webp)
 3. Enter your credentials:
 
    - __Jira Username__ is your Jira login email associated with your Jira API token.
@@ -94,7 +94,7 @@ Your credentials are generated in Jira. Enter them here for the Platform Governa
 2. Open the __Jira Configuration__ tab.
 3. Open the __Status Mapping__ tab.
 
-   ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.png)
+   ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
 4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your [Jira statuses](#Jira-statuses) prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
 
    - __Approved Values__
@@ -113,8 +113,8 @@ Create credentials for your Salesforce orgs and link the a Named Credential Chan
 1. Open __Netwrix Dashboard__ > __Settings__ > __Configuration and Stats__.
 2. Open the __Orgs__ Credentials tab.
 
-   ![Orgs Credentials](/img/product_docs/strongpointforsalesforce/installing_strongpoint/orgs_credentials.png)
+   ![Orgs Credentials](/img/product_docs/strongpointforsalesforce/installing_strongpoint/orgs_credentials.webp)
 3. Click __New__ to enter new credentials. For existing credentials, you can click __Edit__ to modify the credential, __Delete__ to remove it, or the __credential name__ to sync your credentials.
 
-   ![New org credentials](/img/product_docs/strongpointforsalesforce/installing_strongpoint/orgs_credentials_new.png)
+   ![New org credentials](/img/product_docs/strongpointforsalesforce/installing_strongpoint/orgs_credentials_new.webp)
 4. Click __Save__.

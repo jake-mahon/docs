@@ -6,6 +6,6 @@ __NOTE:__ Grouping and filtering cannot be enabled at the same time. If grouping
 
 The following example shows an interactive grid in which grouping has been enabled. See the [Grid](/docs/accessanalyzer/enterpriseauditor/admin/report/wizard/widgets.md#grid) topic for additional information.
 
-![Group by option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/groupby.png)
+![Group by option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/interactivegrids/groupby.webp)
 
 The drop-down list to the right of the Group by field can be accessed by clicking the down arrow. Click an item from the drop-down list to group the report by that category.

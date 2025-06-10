@@ -34,7 +34,7 @@ It is important to get organized before the session starts. Follow these steps t
 
 __Step 1 –__ Use the Endpoint Policy Manager Customer Portal ([http://www.policypak.com/customerportal](http://www.policypak.com/customerportal)) to download Everything.
 
-![289_1_image-20240111131924-2](/img/product_docs/policypak/policypak/gettingstarted/289_1_image-20240111131924-2.png)
+![289_1_image-20240111131924-2](/img/product_docs/policypak/policypak/gettingstarted/289_1_image-20240111131924-2.webp)
 
 __NOTE:__  If you cannot remember your password, you can reset it right on this page.
 
@@ -48,7 +48,7 @@ __Step 4 –__ Extract the contents of the AppSets ZIP file and place them in th
 
 When you are done, your server should look like this:
 
-![289_2_image-20240111133126-3](/img/product_docs/policypak/policypak/gettingstarted/289_2_image-20240111133126-3.png)
+![289_2_image-20240111133126-3](/img/product_docs/policypak/policypak/gettingstarted/289_2_image-20240111133126-3.webp)
 
 For all versions of Endpoint Policy Manager (Group Policy, MDM, and Cloud), you need access to a Domain Controller (DC) running Active Directory to create real GPOs. This DC can be a real or fake DC.
 
@@ -136,7 +136,7 @@ To run Endpoint Policy Manager Un-licensed (any version):
 
 Example machine renamed to work UN-licensed:
 
-![289_3_image-20191022200736-3](/img/product_docs/policypak/policypak/gettingstarted/289_3_image-20191022200736-3.png)
+![289_3_image-20191022200736-3](/img/product_docs/policypak/policypak/gettingstarted/289_3_image-20191022200736-3.webp)
 
 ## Part 6: Preparing for Endpoint Policy ManagerCloud
 

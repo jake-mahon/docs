@@ -32,7 +32,7 @@ You can create the External System before using the mapping tool. If you do not 
 
 The __.csv__ file is where you specify the customization mapping between the External System and NetSuite. The file is uploaded when you run the tool. You can create a file with the specified headings, or download the template with the link on the first page of the Integration Mapping tool. Do not change the specified headings. Here is the template:
 
-![int_map_csv_template](/img/product_docs/strongpointfornetsuite/integrations/int_map_csv_template.png)
+![int_map_csv_template](/img/product_docs/strongpointfornetsuite/integrations/int_map_csv_template.webp)
 
 - __External Name__ is the Object’s __Name__ in the external system.
 - __External Script ID__ is the Object’s __Identifier__ in the external system.
@@ -47,13 +47,13 @@ The Mapping Tool menu item is hidden by default. If you do not see the option in
 
 Open __Strongpoint__ > __Integrations__ > __Mapping Tool__
 
-__![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_menu.png)__
+__![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_menu.webp)__
 
 ## Step 4: Select or Enter the External System
 
 1. Select an existing External System from the list if you created it during [Step 1](#Step-1), or Enter a new name to have the tool automatically create a new External System, for example: _Salesforce_. Strongpoint appends (External System) to the Name. For example, _Salesforce (External System)_.
 
-   ![int_map_ext_sys](/img/product_docs/strongpointfornetsuite/integrations/int_map_ext_sys.png)
+   ![int_map_ext_sys](/img/product_docs/strongpointfornetsuite/integrations/int_map_ext_sys.webp)
 2. You can use the link to download the __.csv__ template if you have not already created the file.
 3. Click __Next__ to continue.
 
@@ -61,7 +61,7 @@ __![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_
 
 1. Click __Choose File__.
 
-   ![int_map_upload_csv](/img/product_docs/strongpointfornetsuite/integrations/int_map_upload_csv.png)
+   ![int_map_upload_csv](/img/product_docs/strongpointfornetsuite/integrations/int_map_upload_csv.webp)
 2. Navigate to the__.csv file__ containing your mappings.
 3. Click __Next__ to continue.
 
@@ -69,13 +69,13 @@ __![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_
 
 1. Review customization mappings. If you entered a __ScriptID__ in your __.csv__, the associated __Link Object__ is shown.
 
-   ![int_map_map_cust](/img/product_docs/strongpointfornetsuite/integrations/int_map_map_cust.png)
+   ![int_map_map_cust](/img/product_docs/strongpointfornetsuite/integrations/int_map_map_cust.webp)
 2. Click __Search__ to open the search form and select or research additional __Link Objects__.
 
-   ![int_map_search](/img/product_docs/strongpointfornetsuite/integrations/int_map_search.png)
+   ![int_map_search](/img/product_docs/strongpointfornetsuite/integrations/int_map_search.webp)
 3. Search by all or part of a __Name__, __Type__ or all or part of a __ScriptID__. For example, enter _cust_ for __Name__ and click __Search__ to find all customizations containing the search term:
 
-   ![int_map_search_results](/img/product_docs/strongpointfornetsuite/integrations/int_map_search_results.png)
+   ![int_map_search_results](/img/product_docs/strongpointfornetsuite/integrations/int_map_search_results.webp)
 
    - Click in the __Add__ column to select one or more objects.
    - Click __Select__.
@@ -87,9 +87,9 @@ __![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_
 
 1. Check the Summary for any __Import Errors__.
 
-   ![int_map_summary](/img/product_docs/strongpointfornetsuite/integrations/int_map_summary.png)
+   ![int_map_summary](/img/product_docs/strongpointfornetsuite/integrations/int_map_summary.webp)
 2. Click the linked __Internal ID__ to display the ERD for each mapped customization.
 
 Here is an example of an expanded ERD showing __Integrations__, __Sources__, and __External Dependent Fields__. Note the __External Dependent Fields__ is highlighted with a green header.
 
-![int_mapping_ext_erd](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_ext_erd.png)
+![int_mapping_ext_erd](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_ext_erd.webp)

@@ -4,7 +4,7 @@ The Users and Roles page displays the accounts with access to Recovery for Activ
 
 Click __Configuration__ in the left pane. Then click the __Users and Roles tab__ on the Configuration page to open the Users and Roles page.
 
-![Users and Roles page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
+![Users and Roles page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
 
 The table displays the following information:
 
@@ -24,13 +24,13 @@ Follow the steps to add a user or group that can log into the Recovery Console. 
 
 __Step 1 –__ Click the __Add Account Role__ button on the Users and Roles page. The Add Account Role wizard opens.
 
-![Add Account Role wizard – Account page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/account.png)
+![Add Account Role wizard – Account page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/account.webp)
 
 __Step 2 –__ Enter a user's first or last name, display name, sAMAccountName, or group name in the __Search__ field. As you type, the system will find matches in Active Directory and display the results.
 
 __Step 3 –__ Select the desired user and click __Next__.
 
-![Add Account Role wizard – Role page](/img/product_docs/groupid/groupid/configureentraid/register/role.png)
+![Add Account Role wizard – Role page](/img/product_docs/groupid/groupid/configureentraid/register/role.webp)
 
 __Step 4 –__ Select the Administrator or Operator role for the account from the __Role__ drop-down menu.
 
@@ -39,7 +39,7 @@ __Step 4 –__ Select the Administrator or Operator role for the account from th
 
 __Step 5 –__ Click __Next__.
 
-![Add Account Role wizard – Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+![Add Account Role wizard – Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 6 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
@@ -65,7 +65,7 @@ __Step 1 –__ On the Users and Roles page, locate the user or group for whom to
 
 __Step 2 –__ Click the __Remove__ button to remove that user or group from the table.
 
-![Delete Role Confirmation](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/deleterole.png)
+![Delete Role Confirmation](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/deleterole.webp)
 
 __Step 3 –__ Click __OK__ to confirm the action.
 

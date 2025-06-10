@@ -14,7 +14,7 @@ During installation of the Hub, an account named __Agent__ is created with just 
 
 The existing agent account can be seen in the Users section of the Hub.
 
-![agentaccountmanagement](/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.png)
+![agentaccountmanagement](/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.webp)
 
 __CAUTION:__ Changing the password of an account used by agents to authenticate will cause the agents to go offline as they will be attempting to authenticate with the old password.
 
@@ -24,7 +24,7 @@ Follow the steps to create the new agent account.
 
 __Step 1 –__ Click __Create New User__, give it a user name and just the Agent role.
 
-![newpassword](/img/product_docs/changetracker/changetracker/admin/settings/newpassword.png)
+![newpassword](/img/product_docs/changetracker/changetracker/admin/settings/newpassword.webp)
 
 __Step 2 –__ Click __Update__, and the User Password dialog opens with a complex password. This is only shown once. It is recommended that this be saved in a password management system for future use.
 
@@ -36,7 +36,7 @@ The two variables, ```$newUsername``` and ```$newPassword```, near the top of th
 
 Running the script will set the new authentication details and restart the agent while producing the output below.
 
-![newagentscript_1049x168](/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.png)
+![newagentscript_1049x168](/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.webp)
 
 ChangePasswordOOB.ps1
 
@@ -92,7 +92,7 @@ The two variables ```newUsername``` and ```newPassword``` near the top of the sc
 
 Running the script will set the password and restart the agent while producing the output below.
 
-![agentpasswordscript_1028x217](/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.png)
+![agentpasswordscript_1028x217](/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.webp)
 
 UpdatePasswordOOB.sh
 

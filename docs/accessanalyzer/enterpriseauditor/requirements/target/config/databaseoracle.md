@@ -36,7 +36,7 @@ __NOTE:__ The plink utility in the Access Analyzer installation directory has to
 
 The syntax is as follows:
 
-![administratorcommandprompt](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/administratorcommandprompt.png)
+![administratorcommandprompt](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/administratorcommandprompt.webp)
 
 Run the following on the command prompt:
 

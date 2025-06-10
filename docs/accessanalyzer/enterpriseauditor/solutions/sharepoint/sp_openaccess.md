@@ -2,7 +2,7 @@
 
 The 2.High Risk Sites Job Group provides insight into any high risk repositories and high risk data that may exist within the targeted SharePoint environment. High risk data is effectively open to the entire organization through modification of SharePoint permissions to apply well known security principals such as NT AUTHORITY\Authenticated Users. The data must be monitored closely because of its exposure.
 
-![2.High Risk Sites > SP_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.png)
+![2.High Risk Sites > SP_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.webp)
 
 The job group is comprised of the SP\_OpenAccess Job. Minimizing your attack surface is the goal. Open site collections can potentially provide access to privileged data, greatly increasing your vulnerability. The SP\_OpenAccess Job will identify places in the environment where data is able to be accessed by a very large amount of employees.
 
@@ -14,7 +14,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __2.High Risk Sites__ > __SP\_OpenAc
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_OpenAccess Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.png)
+![Analysis Tasks for the SP_OpenAccess Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.webp)
 
 The default analysis tasks are:
 

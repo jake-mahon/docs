@@ -108,37 +108,37 @@ Suppose a resource type managing the provisioning of Active Directory nominative
 
 The following scenario is about a user named Cedric Blanc, whose AD's sn property is set by the scalar rule to Blanc.
 
-![Example - State 0](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.png)
+![Example - State 0](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.webp)
 
 Let's see what happens when the user's name is changed manually directly in the AD.
 
 Suppose that we change in the AD the last name to White. As the scalar rule computes the sn value based on the user's data which still states the last name Blanc, such a change induces a difference between the value calculated by the rule and the actual value in the AD. This difference is spotted by the next synchronization, triggering a non-conforming assignment on the Resource Reconciliation page.
 
-![Example - State 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.png)
+![Example - State 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.webp)
 
-![Example - Step 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.png)
+![Example - Step 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.webp)
 
-![Example - Step 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.png)
+![Example - Step 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.webp)
 
 Once this manual new value is confirmed, the property is stated as __Approved__.
 
-![Example - State 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.png)
+![Example - State 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.webp)
 
 Now suppose that the user's last name is changed to Black via Identity Manager's workflows. As the source data is changed, the scalar rule computes a new value for sn. There are two options:
 
 - The default configuration (DiscardManualAssignments set to false) considers manual assignments, i.e. changes made directly in the managed system, as authoritative. So there will be no provisioning of the newly computed value for sn. The current sn value that was written manually in the AD stays as is, no matter the changes in the source data (here the user's last name). Identity Manager only states the property's value as Questioned.
 
-  ![Example - State 3](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.png)
+  ![Example - State 3](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
 
   __NOTE:__ No change in the source data can affect the property's value. However, any manual change made in the managed system will trigger a non-conforming assignment. Then, reconciling the property by choosing to keep Identity Manager's suggested value will make the property's value go back to Calculated and thus follow the changes in the source data.
 
   __NOTE:__ If DiscardManualAssignments is changed from False to True, then the state of the property's value does not matter. Identity Manager applies the rules of the role model, and generates a provisioning order to overwrite the manual change White with the newly computed value Black.
 
-  ![Example - State 4](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.png)
+  ![Example - State 4](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
 
 In this scenario for Cedric Blanc, these behaviors can be summed up like the following:
 
-![Schema for DiscardManualAssignments](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.png)
+![Schema for DiscardManualAssignments](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.webp)
 
 ### Correlate Multiple Resources
 
@@ -146,34 +146,34 @@ With the __Correlation Multiple Resources__ option, Identity Manager can link a 
 
 Below, we illustrate the different scenarios that are possible, taking into consideration whether a resource type has previously been correlated to the owner or not.
 
-![suggestallcorrelations-nnn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.png)
+![suggestallcorrelations-nnn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.webp)
 
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is \>100 or __Suggested__ if it is \ `<100`. As for all other matches with lower confidence rate they will be ignored.
 
-  ![suggestallcorrelations-nnn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.png)
+  ![suggestallcorrelations-nnn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.webp)
 
   If there are no Resources to be correlated with a confidence rate `>100`, the ones below with confidence rate below 100 are Suggested or Ignored.
 
-  ![suggestallcorrelations-nny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.png)
+  ![suggestallcorrelations-nny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.webp)
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is one Resource already correlated so due to this all future correlations will be ignored.
 
-  ![suggestallcorrelations-nyn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.png)
+  ![suggestallcorrelations-nyn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.webp)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is no Resource already correlated so all Resource Types will be __Suggested__.
 
-  ![suggestallcorrelations-nyy](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.png)
+  ![suggestallcorrelations-nyy](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.webp)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate `>100` will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
 
-  ![suggestallcorrelations-ynn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.png)
+  ![suggestallcorrelations-ynn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__, and there is no Resource already correlated so Resource Types that have a confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__ if there are no higher matches otherwise they will be ignored.
 
-  ![suggestallcorrelations-ynn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.png)
+  ![suggestallcorrelations-ynn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.webp)
 
   If there are no Resources to be correlated with a confidence rate `>100`, the ones with confidence rate below 100 are Suggested.
 
-  ![suggestallcorrelations-yny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.png)
+  ![suggestallcorrelations-yny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__ there is one Resource already correlated so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be ignored.
 
-  ![suggestallcorrelations-yyny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.png)
+  ![suggestallcorrelations-yyny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __Yes__ one Resource could be already correlated or not so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__.
 
 ## Properties
@@ -428,7 +428,7 @@ and [
 Context Rule
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) topics for additional information.
 
-![Schema - Default Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.png)
+![Schema - Default Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
   
 A time offset adjusts the period for which the rule applies and computes a property's value.
 
@@ -445,13 +445,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 </ResourceType>
 ```
 
-![Schema - Offset Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.png)
+![Schema - Offset Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.webp)
 
 If the time period of property computation exceeds the limits of the period of resource type assignment, then the period of resource type assignment is extended accordingly.
 
 Note that the rules are applied in a specific order according to their offset reference: After, Before, Around and Default. Each rule overwrites pre-existing values. Thus in case of overlapping rules, Default-offset rules overwrite the values of Around-offset rules, which overwrite the values of Before-offset rules, which overwrite the values of After-offset rules. We could have the following:
 
-![Schema - Overlapping Offsets](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.png)
+![Schema - Overlapping Offsets](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.webp)
 
 ### Properties
 

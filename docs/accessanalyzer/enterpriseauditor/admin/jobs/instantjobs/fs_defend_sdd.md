@@ -4,7 +4,7 @@ The FS\_DEFEND\_SDD Job exports sensitive data matches collected by the File Sys
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard. Then set the host list according to the following information.
 
-![FS_DEFEND_SDD job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![FS_DEFEND_SDD job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -34,7 +34,7 @@ The FS\_DEFEND\_SDD Job runs an analysis task that generates the SA\_FSAA\_SDD\_
 
 Navigate to the __Jobs__ > __FS\_DEFEND\_SDD__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 
@@ -46,7 +46,7 @@ Navigate to the __Jobs__ > __FS\_DEFEND\_SDD__ > __Configure__ node and select _
 
 __CAUTION:__ This action is enabled by default.
 
-![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.png)
+![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.webp)
 
 The default action is:
 

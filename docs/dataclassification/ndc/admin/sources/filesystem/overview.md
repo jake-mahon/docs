@@ -2,7 +2,7 @@
 
 Use the Source configuration screen to set up the crawling and classification operations for content stored in your file server. Netwrix Data Classification can process individual files or folders. Select, respectively, __File__ or __Folder__ at the first screen of the Add content source wizard.
 
-![add_source_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/add_source_wizard_thumb_0_0.png)
+![add_source_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/add_source_wizard_thumb_0_0.webp)
 
 ## Add Folder source
 
@@ -45,7 +45,7 @@ When finished, click __Save__.
 
 Use the File section to crawl individual files.
 
-![addfile](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/addfile.png)
+![addfile](/img/product_docs/dataclassification/ndc/admin/sources/filesystem/addfile.webp)
 
 By default, configuration window displays basic configuration settings only. To configure advanced settings, click the "wrench" icon in the bottom left corner.
 

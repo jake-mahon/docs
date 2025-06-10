@@ -2,11 +2,11 @@
 
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add, edit, and remove sub-criteria information for User Criteria.
 
-![Configuration Pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.png)
+![Configuration Pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
 
 The information in the configuration pane changes based on the criteria currently selected in the navigation pane.
 
-![Options at the top of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.png)
+![Options at the top of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
 
 The options at the top of the Configuration Pane are:
 
@@ -30,7 +30,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
   - Minimum Matches – Minimum number of match hits required for a sub-criteria match hit
   - Match Type – Displays whether the sub-criteria __Must match__ or __Must not match__
 
-![Options at the bottom of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.png)
+![Options at the bottom of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
 
 The options at the bottom of the configuration pane are:
 
@@ -65,7 +65,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
 
 Use the Criteria Tester window to test current criteria configurations.
 
-![Criteria Tester window](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.png)
+![Criteria Tester window](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
 
 The options in the Criteria Tester are:
 

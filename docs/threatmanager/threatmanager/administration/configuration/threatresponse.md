@@ -4,7 +4,7 @@ The Threat Response page provides the ability to create playbooks and add steps 
 
 Playbooks are a collection of steps that run sequentially in response to a threat. Each step contains an action that is designated for the threat response. These steps typically integrate with existing resources in the organization such as email and helpdesk platforms, Active Directory, file systems, and custom PowerShell scripts. Playbooks can be executed automatically or ad-hoc by a Threat Manager Administrator when a threat is detected.
 
-![threatresponse](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.png)
+![threatresponse](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
 
 __NOTE:__ Custom playbooks can be created using the PowerShell Script action. However, this feature requires advanced scripting knowledge.
 

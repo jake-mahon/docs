@@ -30,4 +30,4 @@ set logfile="%d%_%t%.log"
 msiexec /i %1 /norestart /quiet /lv*x %logfile%
 ```
 
-![530_1_image-20230330095004-1](/img/product_docs/policypak/policypak/install/cloud/530_1_image-20230330095004-1.png)
+![530_1_image-20230330095004-1](/img/product_docs/policypak/policypak/install/cloud/530_1_image-20230330095004-1.webp)

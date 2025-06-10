@@ -6,7 +6,7 @@ __NOTE:__ For a video demonstrating the use of Endpoint Policy Manager Feature M
 
 Remember that Endpoint Policy Manager Feature Manager for Windows policies can be created and then exported on the Computer side. For instance, below, you can see a setting being exported. You can also do this for an entire collection (not shown).
 
-![using_item_level_targeting_5](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_5.png)
+![using_item_level_targeting_5](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_5.webp)
 
 __NOTE:__ For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch [https://www.policypak.com/video/deploying-policypak-directives-without-group-policy-policypak-exporter-utility.html](https://www.policypak.com/video/deploying-policypak-directives-without-group-policy-policypak-exporter-utility.html).
 

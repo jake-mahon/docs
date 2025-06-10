@@ -6,7 +6,7 @@ If Active Directory is accessed via [Masterkey mode](/docs/passwordsecure/passwo
 
 Active Directory: Domain:
 
-![installation_with_parameters_208](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_208.png)
+![installation_with_parameters_208](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_208.webp)
 
 NOTE: The Master Key certificate cannot be replaced by your own certificate.
 

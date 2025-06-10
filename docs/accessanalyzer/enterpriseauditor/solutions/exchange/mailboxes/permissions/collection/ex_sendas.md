@@ -6,7 +6,7 @@ The EX\_SendAs job collects data from Active Directory to identify the Active Di
 
 The EX\_SendAs job uses the ExchangePS Data Collector.
 
-![Queries for the EX_SendAs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/sendasquery.png)
+![Queries for the EX_SendAs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/sendasquery.webp)
 
 The following query is included in the EX\_SendAs Job:
 
@@ -23,7 +23,7 @@ View the analysis task by navigating to the __Exchange__ > __4. Mailboxes__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the EX_SendAs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/sendasanalysis.png)
+![Analysis Tasks for the EX_SendAs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/sendasanalysis.webp)
 
 The following analysis task is selected by default:
 

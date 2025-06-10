@@ -2,7 +2,7 @@
 
 At the job group level, the Host Lists Assignment node identifies target host lists assigned for the job group.
 
-![Job Group Host Lists Assignment](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/group/hostlistassignment.png)
+![Job Group Host Lists Assignment](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/group/hostlistassignment.webp)
 
 At a top-level job group, there is no host list to be inherited. The __Use Default Settings__ option is grayed-out. However, a sub-job group can inherit host lists from a parent job group. Host lists are configured through the __Host Management__ node. See the [Host Management](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/overview.md) topic for additional information.
 

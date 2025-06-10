@@ -8,7 +8,7 @@ Password Reset has two server components, and an optional client. See the [Passw
 
 The Web Interface is the component that users interact with. It accepts user requests, encrypts them, and sends them to the Password Reset Server. The Password Reset Server is the component that performs requests on behalf of users. It receives requests from the Web Interface, checks the user's credentials, and performs the requested task if the credentials are valid.
 
-![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.png)
+![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.webp)
 
 You only need one Windows 2008 to 2019 server for the evaluation. The server can be a domain controller or a member server.
 

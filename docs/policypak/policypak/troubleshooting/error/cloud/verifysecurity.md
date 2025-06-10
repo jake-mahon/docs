@@ -4,13 +4,13 @@ Please ensure that the system time on the client system is correct. You can try 
 
 An example of the error can be seen here:
 
-![113_1_dtyeryrtyy](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.png)
+![113_1_dtyeryrtyy](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
 
 Please follow the following steps
 
 __Step 1 –__ Change the timezone to UTC like what is shown here:
 
-![20_1_sdgdfhfgnfjfghjfghjfghjfghj](/img/product_docs/policypak/policypak/troubleshooting/error/20_1_sdgdfhfgnfjfghjfghjfghjfghj.png)
+![20_1_sdgdfhfgnfjfghjfghjfghjfghj](/img/product_docs/policypak/policypak/troubleshooting/error/20_1_sdgdfhfgnfjfghjfghjfghjfghj.webp)
 
 __Step 2 –__ Verify the time on the computer is now the same as what is seen [http://www.worldtimeserver.com/current\_time\_in\_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx)
 

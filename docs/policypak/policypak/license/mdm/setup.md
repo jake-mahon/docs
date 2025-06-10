@@ -19,7 +19,7 @@ To accurately create license keys for you,Endpoint Policy Manager needs three pi
 
 When you enroll machines into your MDM, you do so with a UPN name. Start out by noting which UPN name you use, @fabrikam.com in our example. We recommend you take a screenshot of this page from an enrolled Windows 10 machine, then continue.
 
-![44_1_sdfg](/img/product_docs/policypak/policypak/license/812_4_sdfg.png)
+![44_1_sdfg](/img/product_docs/policypak/policypak/license/812_4_sdfg.webp)
 
 ## License count
 
@@ -73,10 +73,10 @@ Option 1:
 
 On the Analyze page of the CEM Portal, click on the Dashboard. Take a screenshot showing Managed devices by Platform and the ownership in the top right-hand corner
 
-![44_12_image-20200815220310-28](/img/product_docs/policypak/policypak/license/mdm/44_12_image-20200815220310-28.png)
+![44_12_image-20200815220310-28](/img/product_docs/policypak/policypak/license/mdm/44_12_image-20200815220310-28.webp)
 
 Option 2:
 
 From the Analyze page, go to Reporting > Devices & Apps and take a screenshot showing the Device count and Ownership:
 
-![44_14_image-20200815220310-29](/img/product_docs/policypak/policypak/license/mdm/44_14_image-20200815220310-29.png)
+![44_14_image-20200815220310-29](/img/product_docs/policypak/policypak/license/mdm/44_14_image-20200815220310-29.webp)

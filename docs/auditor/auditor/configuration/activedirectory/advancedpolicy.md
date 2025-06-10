@@ -18,7 +18,7 @@ To do it, perform the following steps:
 3. In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies → Windows Settings → Security Settings → Local Policies → Security Options.
 4. Locate the Audit: Force audit policy subcategory settings to override audit policy category settings and make sure that policy setting is set to _"Enabled"_.
 
-   ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.png)
+   ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
 5. Run the following command to update group policy:
 
     ```gpupdate /force```
@@ -36,7 +36,7 @@ To do it, perform the following steps:
    | DS Access | Audit Directory Service Access | _"Success"_ |
    | Logon/Logoff | - Audit Logoff - Audit Logon These policies are only required to collect the information on the originating workstation, i.e., the computer from which a change was made. | _"Success"_ |
 
-   ![manualconfig_ad_advpol_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_advpol_winserver2016.png)
+   ![manualconfig_ad_advpol_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_advpol_winserver2016.webp)
 5. Run the following command to update group policy:
 
     ```gpupdate /force```

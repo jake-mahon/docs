@@ -6,7 +6,7 @@ This page is about [
 LDIF
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.png)
+![Package: Directory/LDIF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
 ## Overview
 

@@ -2,7 +2,7 @@
 
 Netwrix 1Secure can be configured to audit all the access types mentioned below:
 
-![Advanced Activity Selection options](/img/product_docs/1secure/configuration/computer/objectlevelaccessaudit.png)
+![Advanced Activity Selection options](/img/product_docs/1secure/configuration/computer/objectlevelaccessaudit.webp)
 
 ## Configure Object-level Access Auditing on Windows Server 2012 and Above
 
@@ -14,7 +14,7 @@ __Step 2 –__ In the `<Share_Name>` Properties dialog box, select the Security 
 
 __Step 3 –__ In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the Auditing tab.
 
-![Advanced Security Settings for `<Share_Name>` dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.png)
+![Advanced Security Settings for `<Share_Name>` dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
 
 __Step 4 –__ Click __Add__ to add a new principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 

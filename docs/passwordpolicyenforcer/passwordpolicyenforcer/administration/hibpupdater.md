@@ -21,7 +21,7 @@ __Step 1 –__ To access the HIBP Updater, navigate to the installation location
 
 ...\Program Files\Password Policy Enforcer\HIBP\
 
-![hibpfolder](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpfolder.png)
+![hibpfolder](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpfolder.webp)
 
 __Step 2 –__ Click HIBPWINUpdater.
 
@@ -31,7 +31,7 @@ Password Policy Enforcer utilizes the Passwords Hash database to check if users�
 
 __NOTE:__ First-time configuration of this window requires downloading the HIBP database from the Netwrix website.
 
-![HIBP Updater](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.png)
+![HIBP Updater](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.webp)
 
 __CAUTION:__ Ensure the initial update of the database occurs during non-office hours. Due to the size of the hash file, this download takes up a significant amount of CPU and download time.
 
@@ -82,7 +82,7 @@ __Step 1 –__ Click __Scheduler__ in the HIBP Updater.
 
 __Step 2 –__ Click __Add Schedule__. An Edit Schedule window appears that looks similar to the HIBP Updater window.
 
-![editschedule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/editschedule.png)
+![editschedule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/editschedule.webp)
 
 __Step 3 –__ Enter the Name and Description of the schedule.
 
@@ -100,6 +100,6 @@ The HIBP database will be updated according to the configurations.
 
 The Schedule List window shows the names, run times, next run times, and whether the schedule is enabled or not.
 
-![schedulelist](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/schedulelist.png)
+![schedulelist](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/schedulelist.webp)
 
 Use this window to Add, Edit, or Delete schedules for the HIBP Updater.

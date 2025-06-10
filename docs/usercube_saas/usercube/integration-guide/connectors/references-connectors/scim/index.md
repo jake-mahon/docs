@@ -9,13 +9,13 @@ This page is about:
 - Messaging/Slack
 - PAM/CyberArk
 
-![Package: Custom/SCIM](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_scim_v603.png)
+![Package: Custom/SCIM](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_scim_v603.webp)
 
-![Package: CRM/Salesforce](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_salesforce_v603.png)
+![Package: CRM/Salesforce](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_salesforce_v603.webp)
 
-![Package: Messaging/Slack](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_slack_v603.png)
+![Package: Messaging/Slack](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_slack_v603.webp)
 
-![Package: PAM/CyberArk](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_cyberark_v603.png)
+![Package: PAM/CyberArk](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_cyberark_v603.webp)
 
 ## Overview
 
@@ -43,29 +43,29 @@ To connect to the Salesforce application do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.png)
+![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
 
 __Step 2 –__ Go to __Advanced Setup__.
 
-![salesforce-newconnectedapp](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-newconnectedapp.png)
+![salesforce-newconnectedapp](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-newconnectedapp.webp)
 
 __Step 3 –__ Go to __App Manager__ and __Create a Connected App__.
 
-![salesforce-enableoauth](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-enableoauth.png)
+![salesforce-enableoauth](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-enableoauth.webp)
 
 __Step 4 –__ Fill in the details of the application: Application Name, API Name, Contact Email, select __Enable OAuth Settings__, and complete the mandatory information as callback URL and OAuth Scopes.
 
 __Step 5 –__ Save the Application.
 
-![salesforce-manageconnectedapps](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconnectedapps.png)
+![salesforce-manageconnectedapps](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconnectedapps.webp)
 
 __Step 6 –__ Go to __Manage Connected Apps__ and click on the newly created application.
 
-![salesforce-manageconsumerdetails](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconsumerdetails.png)
+![salesforce-manageconsumerdetails](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconsumerdetails.webp)
 
 __Step 7 –__ Click on __Manage Consumer Details__.
 
-![salesforce-consumerkey](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-consumerkey.png)
+![salesforce-consumerkey](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-consumerkey.webp)
 
 __Step 8 –__ Copy the Consumer Key and Consumer Secret in your Keypass.
 
@@ -75,11 +75,11 @@ To enable the OAuth authentication do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.png)
+![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
 
 __Step 2 –__ Go to __Advanced Setup__.
 
-![oauthauthentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/oauthauthentication.png)
+![oauthauthentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/oauthauthentication.webp)
 
 __Step 3 –__ Go to __OAuth__ and __OpenID Connect Settings__ in the __Identity__ drop-down menu, enable the option to __Allow OAuth Username-Password Flows__.
 
@@ -89,15 +89,15 @@ To reset the user token do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-usertoken-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-usertoken-settings.png)
+![salesforce-usertoken-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-usertoken-settings.webp)
 
 __Step 2 –__ Click on __Settings__ under the profile details.
 
-![salesforce-resetseuritytoken](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-resetseuritytoken.png)
+![salesforce-resetseuritytoken](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-resetseuritytoken.webp)
 
 __Step 3 –__ Click on __Reset My Security Token__.
 
-![salesforce-checkemail](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-checkemail.png)
+![salesforce-checkemail](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-checkemail.webp)
 
 __Step 4 –__ An email containing the new token will be sent.
 
@@ -107,15 +107,15 @@ To configure the Salesforce connection do the following:
 
 __Step 1 –__ Log into Identity Manager using an admin account.
 
-![salesforce-connector](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connector.png)
+![salesforce-connector](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connector.webp)
 
 __Step 2 –__ Create a new Salesforce connector.
 
-![salesforce-connection](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connection.png)
+![salesforce-connection](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connection.webp)
 
 __Step 3 –__ Add a new Salesforce connection.
 
-![salesforce-agent-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-agent-settings.png)
+![salesforce-agent-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-agent-settings.webp)
 
 __Step 4 –__ Fill the fields in the __Connection Settings__ and choose the __Filter__.
 

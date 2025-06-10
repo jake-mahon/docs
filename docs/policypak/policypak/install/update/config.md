@@ -4,13 +4,13 @@ If you wish to configure or fine-tune the CSE auto-download process, you may cre
 
 ```update.config```, which must be placed within the Netwrix Endpoint Policy Manager (formerly PolicyPak) Central Storage CSE folder, as seen below.
 
-![714_1_image-20201229220359-1](/img/product_docs/policypak/policypak/install/update/714_1_image-20201229220359-1.png)
+![714_1_image-20201229220359-1](/img/product_docs/policypak/policypak/install/update/714_1_image-20201229220359-1.webp)
 
 This file can be manually created in order to configure or fine-tune the CSE auto-download process. This file should be created in the Endpoint Policy Manager Central Storage CSE folder, and the file name ```update.config``` must match exactly, otherwise, the file is ignored. The CSE attempts to read this file once every 90 minutes, but that is configurable in the ```update.config``` file itself.
 
 __NOTE:__ The interval in our example below is set to 1 minute.
 
-![714_2_image-20201229220359-2](/img/product_docs/policypak/policypak/install/update/714_2_image-20201229220359-2.png)
+![714_2_image-20201229220359-2](/img/product_docs/policypak/policypak/install/update/714_2_image-20201229220359-2.webp)
 
 Breakdown of the parameters for the ```update.config``` file and how to use them:
 
@@ -37,11 +37,11 @@ The share for reports should have the following permissions:
 - Domain Computers should be set to Read, Write, Create (but not Delete)
 - NTFS permissions should allow for All.
 
-![714_3_image-20201229220359-3](/img/product_docs/policypak/policypak/install/update/714_3_image-20201229220359-3.png)
+![714_3_image-20201229220359-3](/img/product_docs/policypak/policypak/install/update/714_3_image-20201229220359-3.webp)
 
 NTFS permissions should be set up as shown below, where Domain Computers has all rights, except __Full Control__.
 
-![714_4_image-20201229220359-4](/img/product_docs/policypak/policypak/install/update/714_4_image-20201229220359-4.png)
+![714_4_image-20201229220359-4](/img/product_docs/policypak/policypak/install/update/714_4_image-20201229220359-4.webp)
 
 This way, domain computers (that is, endpoints) will be able to write reports but not delete reports that they create. When enabled and configured, inside the share, you'll see log files named in the following way:
 
@@ -66,7 +66,7 @@ Endpoint Policy Manager products have three command-line commands to help with u
 
 __NOTE:__ This is necessary only when the ```update.config``` file's enabled variable is set to ```False``` and, thus, not performing any updates normally.
 
-![714_5_image-20201229220359-5](/img/product_docs/policypak/policypak/install/update/714_5_image-20201229220359-5.png)
+![714_5_image-20201229220359-5](/img/product_docs/policypak/policypak/install/update/714_5_image-20201229220359-5.webp)
 
 ## Troubleshooting CSE Automatic Updates:
 

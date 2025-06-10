@@ -4,7 +4,7 @@ This section will give you an overview of Identity Manager's components, their r
 
 ## Components and Data Flow
 
-![Components & Data Flow](/img/product_docs/usercube/usercube/installation-guide/overview/components_data_flow.png)
+![Components & Data Flow](/img/product_docs/usercube/usercube/installation-guide/overview/components_data_flow.webp)
 
 ### Components
 
@@ -75,13 +75,13 @@ __1.__ The server and agents are installed on separate workstations
 
 This approach is useful when managed systems need to run on separate and isolated networks.
 
-![Server & Agents isolated](/img/product_docs/usercube/usercube/installation-guide/overview/distribution_1.png)
+![Server & Agents isolated](/img/product_docs/usercube/usercube/installation-guide/overview/distribution_1.webp)
 
 __2.__ The Server and one Agent are installed on the same workstation
 
 In that case, the Identity Manager Agent can run directly within the Identity Manager Server process. The hosting workstation would __only host a Identity Manager Server process__ (with the integrated agent) and no separate agent needs to be installed. The database could be installed on the same workstation or on a separate one.
 
-![Server & Agent together](/img/product_docs/usercube/usercube/installation-guide/overview/distribution_2.png)
+![Server & Agent together](/img/product_docs/usercube/usercube/installation-guide/overview/distribution_2.webp)
 
 ## Authentication
 

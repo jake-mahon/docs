@@ -2,7 +2,7 @@
 
 Use the Message Conditions page to customize message search filter conditions. It is a wizard page for the Delete Mailbox Contents operation.
 
-![New Mailbox Action Wizard Mailbox Message Conditions page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageconditions.png)
+![New Mailbox Action Wizard Mailbox Message Conditions page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageconditions.webp)
 
 Customize the folder search conditions using the following options:
 
@@ -33,13 +33,13 @@ Customize the folder search conditions using the following options:
 
 Use the MessageClasses window to select a message class to apply to the scope of the action. The MessageClasses window opens if __specific__ in __with specific message classes__ is selected in the Edit Conditions box.
 
-![MessageClasses Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/messageclasseswindow.png)
+![MessageClasses Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/messageclasseswindow.webp)
 
 Modify message classes using the following options:
 
 - Click __Add__ to populate a field to add a message class
 
-  ![New class added in MessageClasses Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/messageclasseswindownew.png)
+  ![New class added in MessageClasses Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/messageclasseswindownew.webp)
 - Click the ellipsis (__…__) or enter the path to the desired folder in the text box
 - Matching Strategy auto-populates with __Exact Match__. Click __Exact Match__ to reveal a drop-down menu to select from the following scope options:
 
@@ -53,7 +53,7 @@ Modify message classes using the following options:
 
 Use the Date Range Selection window to determine a time period to scope. The Date Range Selection window opens if __in specific date__ in either the __that is created in specific date__ or __that is received in specific date__ conditions is selected in the Edit condition box.
 
-![Data Range Selection Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/datarangeselectionwindow.png)
+![Data Range Selection Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/datarangeselectionwindow.webp)
 
 To specify a date range, use the following options:
 
@@ -70,7 +70,7 @@ To specify a date range, use the following options:
 
 Use the Search Terms window to select terms in messages to run the action against. The Search Terms window opens if __search terms__ in any condition is selected in the Edit Conditions box.
 
-![Search Terms Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.png)
+![Search Terms Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.webp)
 
 Edit the search terms using the following options:
 
@@ -86,7 +86,7 @@ Edit the search terms using the following options:
 
 Use the Values window to add or remove values to or from the search. The Values window opens if __specific__ in __with specific Message ID__ is selected in the Edit Conditions box.
 
-![Values Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/valueswindow.png)
+![Values Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/valueswindow.webp)
 
 - To add a term to the search, enter the desired term into the upper text box and click __Add__
 - To remove a term from the search, select a term in the lower text box and click __Remove__

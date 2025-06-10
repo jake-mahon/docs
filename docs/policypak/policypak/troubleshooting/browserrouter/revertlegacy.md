@@ -12,7 +12,7 @@ Then, the setting you should use if directed by support is entitled:
 
 Computer Configuration | Policies | Admin Templates | Endpoint Policy Manager ADMX Settings | Client-side Extensions | Browser Router | Revert to Legacy Browser Router Method & Features and set to enabled to return back to the legacy behavior.
 
-![764_1_image-20201027210325-1_950x612](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.png)
+![764_1_image-20201027210325-1_950x612](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.webp)
 
 ## What does "Revert to Legacy Browser Router Method & Features" mean?
 
@@ -25,4 +25,4 @@ By establishing to use Legacy Browser Router Method & Features, Browser Router i
 
 An example of the user required to manually specify Endpoint Policy Manager Browser Router can be seen here.
 
-![764_3_image-20201027210423-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_3_image-20201027210423-2.png)
+![764_3_image-20201027210423-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_3_image-20201027210423-2.webp)

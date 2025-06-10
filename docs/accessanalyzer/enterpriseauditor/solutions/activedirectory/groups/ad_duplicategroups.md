@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD\_DuplicateGroups__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AD_DuplicateGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.png)
+![Analysis Task for the AD_DuplicateGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.webp)
 
 The default analysis tasks are:
 

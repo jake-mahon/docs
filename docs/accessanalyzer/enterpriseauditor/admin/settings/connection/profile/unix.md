@@ -2,7 +2,7 @@
 
 The information in this topic applies to __Select Account Type__ > __Unix Account__ in the User Credentials window.
 
-![User Credentials - Unix](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/unixaccount.png)
+![User Credentials - Unix](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/unixaccount.webp)
 
 The required credentials for the Unix Account are:
 

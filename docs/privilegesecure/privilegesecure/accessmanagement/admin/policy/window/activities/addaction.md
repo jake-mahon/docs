@@ -14,7 +14,7 @@ __Step 3 –__ In the Actions section, for each of the following, click the Add 
 
 These actions may be paired with a corresponding Pre-Session action.
 
-![addactionwindow](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.png)
+![addactionwindow](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
 
 __Step 4 –__ Complete the following fields:
 

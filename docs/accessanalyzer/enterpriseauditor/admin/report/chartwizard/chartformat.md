@@ -2,7 +2,7 @@
 
 The Chart Format page of the Chart Configuration wizard is where you can select the chart type and configure additional format options.
 
-![Chart Configuration wizard Chart Format page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/chartformat.png)
+![Chart Configuration wizard Chart Format page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/chartformat.webp)
 
 The Chart Format page has the following options:
 

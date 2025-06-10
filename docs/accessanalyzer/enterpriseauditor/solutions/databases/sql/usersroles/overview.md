@@ -2,7 +2,7 @@
 
 The 1.Users and Roles Job Group is designed to provide insight into user security, roles, and object permissions to all SQL or Azure SQL server objects.
 
-![Users and Roles Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup22.png)
+![Users and Roles Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup22.webp)
 
 The jobs in the 1.Users and Roles Job Group are:
 

@@ -4,7 +4,7 @@ Alert profiles provide a way to easily group alert configurations and delivery n
 
 To view the alert profiles, navigate to Configuration > Alerts.
 
-![Alert Profiles List](/img/product_docs/1secure/admin/alerts/alertsprofiles.png)
+![Alert Profiles List](/img/product_docs/1secure/admin/alerts/alertsprofiles.webp)
 
 Alert profiles are displayed in the list with the following information:
 
@@ -23,7 +23,7 @@ __Step 1 –__ Navigate to Configuration > Alerts.
 
 __Step 2 –__ Click __Add profile__. The New alert profile pane is displayed.
 
-![New Alert Profile pane](/img/product_docs/1secure/admin/alerts/addalertprofile.png)
+![New Alert Profile pane](/img/product_docs/1secure/admin/alerts/addalertprofile.webp)
 
 __Step 3 –__ Enter a name for the alert profile in the Name field and click __Save__.
 
@@ -69,7 +69,7 @@ __Step 2 –__ Click an alert profile. The alerts for the profile are displayed 
 
 __Step 3 –__ Click the Email icon under Delivery Settings. The Email Delivery Settings pane is displayed.
 
-![Email Delivery Settings pane](/img/product_docs/1secure/admin/alerts/alertsemaildelivery.png)
+![Email Delivery Settings pane](/img/product_docs/1secure/admin/alerts/alertsemaildelivery.webp)
 
 __Step 4 –__ . Toggle the Enabled switch to ON to enable email notifications for the alert profile.
 

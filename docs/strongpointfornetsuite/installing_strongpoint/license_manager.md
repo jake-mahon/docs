@@ -11,11 +11,11 @@ __Strongpoint__ > __Strongpoint Support__ > __License Manager__ > __Get Lic. Num
 1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
 2. Depending on your account settings, you may have to click __View__ to see the account record.
 
-   ![Add a New License.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.png)
+   ![Add a New License.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.webp)
 3. Click __Get Lic. Number__ if the __License Number__ is blank. If the License Number is not blank, continue with the next step.
 4. Click __New Licensed User__.
 
-   ![Add a licensed user](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.png)
+   ![Add a licensed user](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.webp)
 5. Select a __User__.
 6. Set __License Type__ to __Full__.
 7. Click __Save__.

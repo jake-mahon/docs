@@ -6,7 +6,7 @@ This page is about [
 OData
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/odata/index.md).
 
-![Package: Directory/Open LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.png)
+![Package: Directory/Open LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
 ## Overview
 

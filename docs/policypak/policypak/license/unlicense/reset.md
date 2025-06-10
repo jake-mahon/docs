@@ -4,15 +4,15 @@ You can use ```PPUPDATE``` to show the current domain joined status.
 
 Here is an example of``` PPUPDATE``` command showing a correctly joined on-prem Active Directory joined machine:
 
-![542_1_hfkb-1123-img-01](/img/product_docs/policypak/policypak/license/unlicense/542_1_hfkb-1123-img-01.png)
+![542_1_hfkb-1123-img-01](/img/product_docs/policypak/policypak/license/unlicense/542_1_hfkb-1123-img-01.webp)
 
 When not domain joined:
 
-![542_2_hfkb-1123-img-02](/img/product_docs/policypak/policypak/license/unlicense/542_2_hfkb-1123-img-02.png)
+![542_2_hfkb-1123-img-02](/img/product_docs/policypak/policypak/license/unlicense/542_2_hfkb-1123-img-02.webp)
 
 When the secure channel has been broken and needs to be re-established:
 
-![542_3_hfkb-1123-img-03](/img/product_docs/policypak/policypak/license/unlicense/542_3_hfkb-1123-img-03.png)
+![542_3_hfkb-1123-img-03](/img/product_docs/policypak/policypak/license/unlicense/542_3_hfkb-1123-img-03.webp)
 
 See this Microsoft article on [Resetting computer accounts in Windows](https://support.microsoft.com/en-us/topic/resetting-computer-accounts-in-windows-762e3208-0e05-1696-75fa-333d90717d1e) for additional information.
 

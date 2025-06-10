@@ -2,7 +2,7 @@
 
 The footer displays various different information about the currently selected record in multiple tabs. It can be activated or deactivated using the small arrow on the far right. The footer is hidden by default.
 
-![installation_with_parameters_178](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/footer/installation_with_parameters_178.png)
+![installation_with_parameters_178](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/footer/installation_with_parameters_178.webp)
 
 1. Notification area
 

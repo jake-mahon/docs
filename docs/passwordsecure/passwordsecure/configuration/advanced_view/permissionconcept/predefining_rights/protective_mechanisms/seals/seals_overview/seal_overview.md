@@ -4,13 +4,13 @@
 
 Users with the required permissions to issue the releases receive access to the current state of the existing seals at any time via the seal overview. The overview is accessible via the ribbon as well as the icon in the password field of the reading pane.
 
-![button seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview_1-en.png)
+![button seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview_1-en.webp)
 
 ## The four states of a seal
 
 The seal overview provides an overview of all users who have access to the sealed data set. This is also the case when they receive the seal on the membership of a role. Functions for editing and removing existing seals are also available. In addition, the current state of the seal is displayed in the form of a release matrix. There are a total of __four states__, in which a seal can be:
 
-![states of seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview_2-en.png)
+![states of seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview_2-en.webp)
 
 #### 1. Sealed
 

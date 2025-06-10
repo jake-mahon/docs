@@ -37,6 +37,6 @@ The ExchangeMetrics Data Collector is configured through the Exchange Metrics Da
 
   __NOTE:__ Pages available vary depending on the Category selected.
 
-![Exchange Metrics Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Exchange Metrics Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by checking the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

@@ -4,19 +4,19 @@ After logging into Endpoint Policy Manager Cloud, head to Company Details, locat
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak.webp)
 
 Then follow the directions on the Mac and the Endpoint Policy Manager Least Privilege Manager pieces contained within the Endpoint Policy Manager Cloud Client.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_1.webp)
 
 Then use the details provided earlier to install the certificate and register with the Endpoint Policy Manager Cloud service.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_2.webp)
 
 ## Endpoint Policy Manager Commands after Installation
 
@@ -24,7 +24,7 @@ Endpoint Policy Manager on Mac has a variety of commands you can perform.  Star
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_3.webp)
 
 A few important commands to try out would be:
 
@@ -32,20 +32,20 @@ A few important commands to try out would be:
 
 ![A black screen with white text
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_4.webp)
 
 ```Policypak license-list –verbose``` to get the license list from Cloud service.
 
 ![A computer screen with white text
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_5.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_5.webp)
 
 And ```policypak policy-list``` to get a total list of what is happening on the machine.
 
-![Inserting image...](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_6.png)
+![Inserting image...](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_6.webp)
 
 Mac policies are then created in the in-cloud editors against the All | MacOS groups or any Company Groups’ macOS group like what’s seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_7.png)
+Description automatically generated](/img/product_docs/policypak/policypak/mac/how_to_install_the_policypak_7.webp)

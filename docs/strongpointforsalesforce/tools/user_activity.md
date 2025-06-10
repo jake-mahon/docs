@@ -10,7 +10,7 @@ Select __Tools__ > __User Activity__ from the Netwrix Dashboard page.
 
 There is a collapsible menu pane available. Click the u arrow on the left to expand/collapse the menu. Refer to [Package Usage](/docs/strongpointforsalesforce/tools/package_usage.md) for details on the Package Usage tool.
 
-![User Activity tool](/img/product_docs/strongpointforsalesforce/tools/user_activity.png)
+![User Activity tool](/img/product_docs/strongpointforsalesforce/tools/user_activity.webp)
 
 ## User Login Activity
 

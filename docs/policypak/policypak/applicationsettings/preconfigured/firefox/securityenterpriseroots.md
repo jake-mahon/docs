@@ -15,13 +15,13 @@ Security.enterprise_roots.enabled
 
  Inside the main Firefox Pak itself
 
-![161_1_2017-08-16_0820](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.png)
+![161_1_2017-08-16_0820](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.webp)
 
 ## Way #2:
 
 Using the Firefox About:Config Pak J thru Z.  
 It is the last entry in the S: category
 
-![2017-08-16_0800_(1)](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/2017-08-16_0800_(1).png)
+![2017-08-16_0800_(1)](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/2017-08-16_0800_(1).webp)
 
 Note that if you're looking for general advice in how to get started with Windows certificates and browsers support, you can [find that here](https://www.techrepublic.com/article/how-to-add-a-trusted-certificate-authority-certificate-to-chrome-and-firefox/).

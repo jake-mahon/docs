@@ -24,7 +24,7 @@ Operation of the Offline Add-on is generally based on the [Operation and setup](
 - The filter is not available. Records are found using the [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
 - The automatic login data entry can be performed via the [Autofill Add-on](/docs/passwordsecure/passwordsecure/configuration/autofill_add-on/autofill_add-on.md), independently of the Offline Add-on
 
-![Offline Client](/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.png)
+![Offline Client](/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.webp)
 
 #### What data is synchronised?
 

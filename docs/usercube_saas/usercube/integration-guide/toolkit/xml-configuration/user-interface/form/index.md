@@ -23,55 +23,55 @@ Hide the "Access Permissions" tab
 
 When ```HideRoles``` is set to ```true```, then the __Access Permissions__ tab is not accessible.
 
-![Access Permissions](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_hideroles_v603.png)
+![Access Permissions](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_hideroles_v603.webp)
 
 Adjust the request type
 
 When ```WorkflowRequestType``` is set to ```Self```, then the finalization step looks like:
 
-![WorkflowRequestType = Self](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypeself_v603.png)
+![WorkflowRequestType = Self](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypeself_v603.webp)
 
 When ```WorkflowRequestType``` is set to ```Helpdesk```, then the finalization step looks like:
 
-![WorkflowRequestType = Helpdesk](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypehelpdesk_v603.png)
+![WorkflowRequestType = Helpdesk](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypehelpdesk_v603.webp)
 
 Display records in a table
 
-![RecordTable Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_recordtable_v603.png)
+![RecordTable Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/form_recordtable_v603.webp)
 
 InputType display
 
 The InputType represents the type of research property, attribute which supports only a predefined set of values listed below:
 
-![inputtypeattachment](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypeattachment.png)
+![inputtypeattachment](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypeattachment.webp)
 
 - Attachment — represents a control for adding an attachment
 - Auto — takes by default the type of the EntityType property
 
-  ![inputtypecheckbox](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecheckbox.png)
+  ![inputtypecheckbox](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecheckbox.webp)
 - Checkbox — a boolean control which supports one of the two states
 
-  ![inputtypecombobox](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecombobox.png)
+  ![inputtypecombobox](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecombobox.webp)
 - Combobox — a dropdown which supports single selection
 
-  ![inputtypecomboboxmultiselection](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecomboboxmultiselection.png)
+  ![inputtypecomboboxmultiselection](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypecomboboxmultiselection.webp)
 - ComboboxMultiSelection — a dropdown which supports multiple selection
 
-  ![inputtypedate](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypedate.png)
+  ![inputtypedate](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypedate.webp)
 - Date — Date control
 - Hidden — Hides the input
 
-  ![inputtypeimage](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypeimage.png)
+  ![inputtypeimage](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypeimage.webp)
 - Image - Control to show / upload image
 - Inherited —Control to get the InputType of the associated display entity property (when nothing is specified in a Control of a Form, it's the default value).
 
-  ![inputtypepicker](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypepicker.png)
+  ![inputtypepicker](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypepicker.webp)
 - Picker — Opens a grid to select a resource
 
-  ![inputtypetext](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypetext.png)
+  ![inputtypetext](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypetext.webp)
 - Text — Displays a single-line of text
 
-  ![inputtypetextarea](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypetextarea.png)
+  ![inputtypetextarea](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/inputtypetextarea.webp)
 - TextArea — A textbox which supports carriage return character.
 
 ## Properties

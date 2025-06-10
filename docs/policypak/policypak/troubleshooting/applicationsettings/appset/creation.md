@@ -8,7 +8,7 @@ It's best if the Endpoint Policy Manager Creation Station is a machine that you 
 
 If you're using Windows 7 or Windows 8, the .NET Framework can be introduced through Add/Remove programs, as seen in Figure 1.1.
 
-![387_1_image001](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/387_1_image001.png)
+![387_1_image001](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/387_1_image001.webp)
 
 Figure 1.1: Installing .NET Framework for Windows 7 (left) and Windows 8 (right)
 

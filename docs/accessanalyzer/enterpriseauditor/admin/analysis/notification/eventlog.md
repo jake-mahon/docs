@@ -2,7 +2,7 @@
 
 The Event Log properties page is available when the Event log notification type is selected on the Type page. Use this page to specify the type of event, the event ID, and the description for the event.
 
-![Notification Data Analysis Module wizard Event Log properties page](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/eventlog.png)
+![Notification Data Analysis Module wizard Event Log properties page](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/eventlog.webp)
 
 The following options are available:
 

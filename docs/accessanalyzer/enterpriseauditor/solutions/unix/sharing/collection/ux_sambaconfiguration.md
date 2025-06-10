@@ -8,7 +8,7 @@ The UX\_SambaConfiguration job uses the Unix Data Collector for the following qu
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
-![Queries for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationqueries.png)
+![Queries for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationqueries.webp)
 
 The queries for the UX\_SambaConfiguration Job are:
 
@@ -21,7 +21,7 @@ Navigate to the __Unix__ > __3.Sharing__ > __0.Collection__ > __UX\_SambaConfigu
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationanalysis.png)
+![Analysis Tasks for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationanalysis.webp)
 
 The default analysis task is:
 

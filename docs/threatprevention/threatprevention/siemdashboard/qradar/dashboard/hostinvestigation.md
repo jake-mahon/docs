@@ -4,7 +4,7 @@ The Host Investigation dashboard only appears when a search is conducted. This c
 
 The Host Investigation dashboard contains the following cards:
 
-![Host Investigation Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/hostinvestigation.png)
+![Host Investigation Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/hostinvestigation.webp)
 
 - Total Events from Host – Number of all events associated with the host over the specified time interval
 - Users – Number of usernames associated with the host over the specified time interval

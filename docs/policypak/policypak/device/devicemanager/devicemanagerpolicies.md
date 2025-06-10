@@ -11,15 +11,15 @@ There are two main policy types in Endpoint Policy Manager Device Manager beside
 
 In this section you will create USB Storage policies which are suitable for USB and also CD-ROM and DVDs.
 
-![device07](/img/product_docs/policypak/policypak/device/devicemanager/device07.png)
+![device07](/img/product_docs/policypak/policypak/device/devicemanager/device07.webp)
 
 Without a Global Settings policy in place, creating a new USB policy will ask you some questions to guide you down a path to configure both a Global Settings policy and USB policy at the same time.
 
-![device08](/img/product_docs/policypak/policypak/device/devicemanager/device08.png)
+![device08](/img/product_docs/policypak/policypak/device/devicemanager/device08.webp)
 
 With a Global Settings policy already in place, when you create a USB policy, you will be prompted to select between two options, as shown on the Welcome window. Without going into every permutation of what's possible in Endpoint Policy Manager Device Manager with regard to USB policy, we will explore the most popular path, which is Allow Users to use specific devices.
 
-![usb1](/img/product_docs/policypak/policypak/device/devicemanager/usb1.png)
+![usb1](/img/product_docs/policypak/policypak/device/devicemanager/usb1.webp)
 
 This path lets you configure who will use what devices, and what kind of access will they have on those devices.
 
@@ -29,7 +29,7 @@ Allow specific devices with details gained from:
 - The Endpoint Policy Manager Device Manager Helper Tool
 - Other Methods like Windows Device Manager or vendor documentation
 
-![device09](/img/product_docs/policypak/policypak/device/devicemanager/device09.png)
+![device09](/img/product_docs/policypak/policypak/device/devicemanager/device09.webp)
 
 The most reliable way to get what you need is either from the Endpoint Policy Manager Pop-Up on the endpoint or from the Endpoint Policy Manager Device Manager Helper Utility.
 
@@ -45,7 +45,7 @@ The simplest way to populate the Device Selection Mode screen is to take the Dev
 
 __NOTE:__ You may ignore the __STANDARD__ or __COMPLETE__ designations in the Endpoint Policy Manager Device Manager UI. Typically, Endpoint Policy Manager is sold in Enterprise or SaaS editions and in those configurations you get __COMPLETE__ (meaning all the features).
 
-![device10](/img/product_docs/policypak/policypak/device/devicemanager/device10.png)
+![device10](/img/product_docs/policypak/policypak/device/devicemanager/device10.webp)
 
 At this point, you may use:
 
@@ -56,13 +56,13 @@ At this point, you may use:
 
 For this walkthrough, we suggest you use: Vendor ID and ProductID and in the Product Rev, you replace it with a \* meaning all revisions.
 
-![device11](/img/product_docs/policypak/policypak/device/devicemanager/device11.png)
+![device11](/img/product_docs/policypak/policypak/device/devicemanager/device11.webp)
 
 On the next screen, you can __Add domain member__ meaning an Active Directory user or group. Alternatively you can select __Add member...__ and select a specific SID which can be useful if you're adding users not-joined to Active Directory, and only using an MDM service.
 
 __NOTE:__ To get an overview of how to acquire SIDs with your MDM service and then use them with Endpoint Policy Manager Device Manager, see the [How do I get Azure AD SIDs and use them with Item Level Targeting?](/docs/policypak/policypak/itemleveltargeting/entraidsids.md) and [Block and Allow USB and CD-ROMs with your MDM solution](/docs/policypak/policypak/video/device/mdm.md) topics for additional information.
 
-![usb2](/img/product_docs/policypak/policypak/device/devicemanager/usb2.png)
+![usb2](/img/product_docs/policypak/policypak/device/devicemanager/usb2.webp)
 
 In this way you're specifying which user gets what permission. For this example, select __Read Only__.
 
@@ -70,11 +70,11 @@ The next screen lets you give this policy a name, set the state to __Enabled__ o
 
 The final screen shows the writing of the policy. You can click __Finish__.
 
-![usb3](/img/product_docs/policypak/policypak/device/devicemanager/usb3.png)
+![usb3](/img/product_docs/policypak/policypak/device/devicemanager/usb3.webp)
 
 After the policy is delivered to the endpoint and refreshed (using GPupdate for domain joined machines for example), the results can be seen on the endpoint.
 
-![usb4](/img/product_docs/policypak/policypak/device/devicemanager/usb4.png)
+![usb4](/img/product_docs/policypak/policypak/device/devicemanager/usb4.webp)
 
 Now, reading from this USB is allowed, but other operations (like Write and Execute) will produce errors.
 
@@ -92,10 +92,10 @@ __NOTE:__ Not every kind of Phone or WPD device may be immediately supported bec
 
 If creating a Phone/WPD policy in place with no Global Settings policy, a Wizard will help guide you to configure both a Global Settings policy and a Phone/WPDpolicy at the same time.
 
-![upd1](/img/product_docs/policypak/policypak/device/devicemanager/upd1.png)
+![upd1](/img/product_docs/policypak/policypak/device/devicemanager/upd1.webp)
 
 If you already have a Global Settings policy in place, the editor will ask what's seen below, which is similar to the questions when adding a USB device earlier.
 
 The typical route is Allow Users to use specific phones or other WPDs.
 
-![wpd3](/img/product_docs/policypak/policypak/device/devicemanager/wpd3.png)
+![wpd3](/img/product_docs/policypak/policypak/device/devicemanager/wpd3.webp)

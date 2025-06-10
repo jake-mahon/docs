@@ -22,4 +22,4 @@ On the Agents tab, the Edit button opens the agent’s Properties window, which 
 
 Select the desired agent and click __Edit__ to open the agent’s Properties window.
 
-![Properties Window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.png)
+![Properties Window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)

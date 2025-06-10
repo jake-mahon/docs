@@ -6,4 +6,4 @@ Therefore, you can use either the Endpoint Policy Manager Cloud to deliver your 
 
 All policies are simply merged together. If there's a conflict, the on-premise directive (say, using Group Policy) wins.
 
-![609_1_img19-deliveryconflict005-resized-450px](/img/product_docs/policypak/policypak/tips/609_1_img19-deliveryconflict005-resized-450px.png)
+![609_1_img19-deliveryconflict005-resized-450px](/img/product_docs/policypak/policypak/tips/609_1_img19-deliveryconflict005-resized-450px.webp)

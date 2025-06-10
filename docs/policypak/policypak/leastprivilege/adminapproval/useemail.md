@@ -6,7 +6,7 @@ __NOTE:__ See the [Using Email / Long Codes](/docs/policypak/policypak/video/lea
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval.webp)
 
 The two options are:
 
@@ -19,13 +19,13 @@ Below you can see the long response code now required, instead of the short resp
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_1.webp)
 
 Here you can see the generated email containing the request code.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_2.webp)
 
 When the email is received, a support admin can copy the request code and paste it into the Admin Approval Tool. Once pasted into the tool, all of the task information about the application appears just as it was when using the short request code process.
 
@@ -33,4 +33,4 @@ You can then check the item using VirusTotal (optional) and get the response cod
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/using_email_for_admin_approval_3.webp)

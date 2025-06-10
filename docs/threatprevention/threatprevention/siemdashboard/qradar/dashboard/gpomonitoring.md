@@ -2,7 +2,7 @@
 
 The GPO Monitoring dashboard contains the following cards:
 
-![GPO Monitoring Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.png)
+![GPO Monitoring Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.webp)
 
 - Top GPOs – Displays up to the top five (5) Group Policy Objects related to events that have been recorded in the specified timeframe. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Successful/Blocked Events – Breakdown of Group Policy Object changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.

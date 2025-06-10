@@ -24,6 +24,6 @@ The SendMail Action module is configured through the SendMail Action Module Wiza
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane contains links to the pages in the wizard.
 
-![Send Mail Action Module Wizard Welcome page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Send Mail Action Module Wizard Welcome page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

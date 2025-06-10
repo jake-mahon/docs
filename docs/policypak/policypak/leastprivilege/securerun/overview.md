@@ -10,13 +10,13 @@ Endpoint Policy ManagerLeast Privilege Manager can block all items that are not 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun.webp)
 
 This will result in a new SecureRun™ policy editor, as displayed here. To turn on SecureRun click __Enable__ and then, if desired, , change the messaging from Default to Customized (or Silently.)
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_1.webp)
 
 In the SecureRun™ Members list, you can review who and what has been added, including the defaults members:
 
@@ -35,49 +35,49 @@ In the SecureRun™ policy editor, click __Ok__. You can then see that the Secur
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_2.webp)
 
 At the endpoint, run GPupdate or log on as a user who will receive the policy. The result is that all unknown applications are blocked (like previously downloaded Notepad2), and all properly installed applications are allowed.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_3.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_3.webp)
 
 Additionally, MSI files that attempt to launch are also subjected to Endpoint Policy Manager SecureRun™. If an application already has an Allow rule in place (similar to what we saw earlier when we enabled SkypeSetup.MSI to run via a Hash rule), then it will continue to launch. But MSI installers that don't have an Allow rule in place will be prevented from running, as show here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_4.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_4.webp)
 
 This works because Endpoint Policy Manager Least Privilege Manager is enforcing the SecureRun™ Members list. If we look at who owns the file for the properly installed application, we can see the owner is SYSTEM. If we look at who owns the file for the unknown application downloaded from the Internet, we can see the owner is EastSalesUser1.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_5.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_5.webp)
 
 If you review the list of users allowed to run applications, you will notice that EastSalesUser1 is not on the list and, therefore, is not permitted to run Untrusted applications.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_6.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_6.webp)
 
 If you decide you want to enable an application, such as Notepad2, to run, create a new Executable rule (Path, Hash, Signature, or File) as shown in the previous section. This time, select __Allow and log__. This will run the application with Standard User rights.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_7.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_7.webp)
 
 The result can be seen in the MMC list view.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_8.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_8.webp)
 
 As a test, run GPupdate on the endpoint, and then run Notepad2, which will run with Standard User rights and bypass SecureRun™ as seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_9.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_9.webp)
 
 To recap, Endpoint Policy ManagerLeast Privilege Manager SecureRun™ operates under the following criteria:
 

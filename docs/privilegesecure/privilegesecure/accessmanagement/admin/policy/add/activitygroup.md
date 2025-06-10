@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Activities page.
 
 __Step 2 –__ In the Activity Groups list, click the Add Activity Group icon.
 
-![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.png)
+![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 __Step 3 –__ Enter the following information:
 

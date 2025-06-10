@@ -26,7 +26,7 @@ Navigate to the __Active Directory__ > __5.Domains__ > __AD\_KerberoastingRisk__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/kerberoastingriskanalysis.png)
+![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
 
 The default analysis tasks are:
 

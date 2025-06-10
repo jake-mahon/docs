@@ -4,9 +4,9 @@ Once a new license key has been imported to existing On-Prem environment, you ma
 
 One or more similar messages may appear in MMC/GPMC when editing a GPO.
 
-![937_1_image-20230425211701-1_950x194](/img/product_docs/policypak/policypak/troubleshooting/license/937_1_image-20230425211701-1_950x194.png)
+![937_1_image-20230425211701-1_950x194](/img/product_docs/policypak/policypak/troubleshooting/license/937_1_image-20230425211701-1_950x194.webp)
 
-![937_2_image-20230425211701-2](/img/product_docs/policypak/policypak/troubleshooting/license/937_2_image-20230425211701-2.png)
+![937_2_image-20230425211701-2](/img/product_docs/policypak/policypak/troubleshooting/license/937_2_image-20230425211701-2.webp)
 
 As example, this can occur if you have two license GPOs in your domain.
 

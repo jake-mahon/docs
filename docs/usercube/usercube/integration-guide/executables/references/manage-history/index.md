@@ -36,7 +36,7 @@ The database's history can be optimized by removing intermediate versions based 
 
 The following example reduces the history from the database, keeping at most one history version per interval. Here we keep one version per day (1440 minutes) in the last 7 days, then one version per month (43920 minutes) in the last 6 months before the previously defined period, then one version per year (525960 minutes) in the last 2 years before the previously defined periods.
 
-![Schema - Optimize](/img/product_docs/usercube/usercube/integration-guide/executables/references/manage-history/tools_managehistory_schema.png)
+![Schema - Optimize](/img/product_docs/usercube/usercube/integration-guide/executables/references/manage-history/tools_managehistory_schema.webp)
 
 For each period, if there is more than one version (i.e. ```ValidFrom``` is inside the interval), the versions are merged in the following way:
 

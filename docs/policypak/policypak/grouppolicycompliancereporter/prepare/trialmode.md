@@ -2,7 +2,7 @@
 
 Enabling trial mode is optional. When you do this, Endpoint Policy Manager GPCR will act as if fully licensed when any target computer you want to report on has the word "computer" in the name. To enable trial mode, start out by renaming one Windows 10 endpoint computer to have the word "computer" in the name, as shown in Figure 4. Ensure it is properly joined to the domain and getting Group Policy. Endpoints act fully licensed when they have "computer" in the name.
 
-![gpcr_concepts_and_quickstart_3](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_3.png)
+![gpcr_concepts_and_quickstart_3](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_3.webp)
 
 Figure 4. The word "computer" must appear within the name for the test machine.
 

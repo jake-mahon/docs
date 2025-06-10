@@ -38,7 +38,7 @@ The profile validation feature in Directory Manager is monitored by the User Lif
 
 If profile validation applies to you, then you will see the following message displayed on the __My Account__ panel:
 
-![validateprofile](/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.png)
+![validateprofile](/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.webp)
 
 The message displays the number of days left to validate your profile.
 

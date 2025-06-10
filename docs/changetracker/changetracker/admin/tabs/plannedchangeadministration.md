@@ -17,4 +17,4 @@ Any Planned Change comprises the following elements:
 
 __NOTE:__ Rules can also be created directly from an observed event using the Actions button on the [Events Tab](/docs/changetracker/changetracker/admin/tabs/events.md), or by recording events directly from a device group. Note that an additional Planned Change Schedule filter is available in the __Filter Control__ panel. Planned Change Schedules can be re-used – use the Clone button to create a copy.
 
-![PlannedChangesRules](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangesrules.png)
+![PlannedChangesRules](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangesrules.webp)

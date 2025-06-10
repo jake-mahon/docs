@@ -41,7 +41,7 @@ So, again, if when your license request has domain joined machines, we attempt t
 
 Therefore, as an additional precaution to prevent conflicts in domain joined machines, staring in build 2682 this license must be set to ENABLED=TRUE (or omitted) and we now require this component (and only this component) to be explicitly enabled via ADMX setting, as seen below:
 
-![655_1_image001_950x529](/img/product_docs/policypak/policypak/license/unlicense/655_1_image001_950x529.png)
+![655_1_image001_950x529](/img/product_docs/policypak/policypak/license/unlicense/655_1_image001_950x529.webp)
 
 Starting with build 2682, it will now take two steps for Endpoint Policy Manager Preferences to be enabled:
 
@@ -106,6 +106,6 @@ We recommend you keep this component disabled unless you know you need it, or yo
 
 __NOTE:__ If Endpoint Policy Manager Preferences license is disabled by ADMX policy (see below), then PolicyPak Preferences will always be unlicensed and disabled (even if the aforementioned __Specifically enable PolicyPak Preferences (Original version) if licensed__ ADMX setting is set.
 
-![forcedisabled1](/img/product_docs/policypak/policypak/license/unlicense/forcedisabled1.png)
+![forcedisabled1](/img/product_docs/policypak/policypak/license/unlicense/forcedisabled1.webp)
 
 In the future, we plan for Endpoint Policy Manager Preferences to evolve to enable co-existence from multiple sources.

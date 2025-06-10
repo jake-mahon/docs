@@ -46,25 +46,25 @@ __Step 4 –__ Use Group Policy Software Installation to deploy that file to all
 __NOTE:__  To see a demonstration of this section, please watch these two tutorial videos: [Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/policypak/policypak/archive/massdeploy.md) and [Upgrading the CSE using GPSI](/docs/policypak/policypak/archive/upgrading.md).
 In this example, we've created a GPO named Deploy PP Client and linked it to East Sales Desktops.
 
-![Deploying Client Side](/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.png)
+![Deploying Client Side](/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.webp)
 
 __Step 5 –__ Next, right-click the GPO and select __Edit__. Once you're inside the Group Policy Editor, scroll down to __Computer__ > __Configuration__ > __Software Settings__ > __Software Installation__. Right-click, and select __New__ > __Package__.
 
-![deploying_the_client_side_1_620x359](/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.png)
+![deploying_the_client_side_1_620x359](/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.webp)
 
 __Step 6 –__ Once this is complete, type in the server and share names you used. In our example, our server is ```\\DC-Computer``` and our share is Endpoint Policy Manager. Then select the Endpoint Policy Manager CSE Setup x64.msi file, and click __Open__. Next, choose __Assigned__, and select __OK__.
 
-![deploying_the_client_side_2_620x389](/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.png)
+![deploying_the_client_side_2_620x389](/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.webp)
 
-![deploying_the_client_side_3_550x381](/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.png)
+![deploying_the_client_side_3_550x381](/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.webp)
 
 When you're done, the GPO should look like this:.
 
-![deploying_the_client_side_4_1200x309](/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.png)
+![deploying_the_client_side_4_1200x309](/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.webp)
 
 __Step 7 –__ Repeat this process until both the x86 and x64 MSIs appear.
 
-![deploying_the_client_side_5_1200x240](/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.png)
+![deploying_the_client_side_5_1200x240](/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.webp)
 
 __NOTE:__ Be sure that the source field is pointing to a network path (e.g., ```\\server\share```) and not a local path (e.g., ```c:\something\```).
 

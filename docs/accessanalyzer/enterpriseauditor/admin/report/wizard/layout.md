@@ -2,7 +2,7 @@
 
 The Layout page allows you to configure the layout of the report's content.
 
-![layout](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/layout.png)
+![layout](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/layout.webp)
 
 Follow the steps to select the layout:
 
@@ -16,7 +16,7 @@ The layout for the report has been selected. Each box on the selected tile corre
 
 If you are editing an existing report and you select a layout that has fewer elements than the number of already configured widgets, then the Element Downgrade Editor automatically displays.
 
-![Element Downgrade Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/elementdowngradeeditor.png)
+![Element Downgrade Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/elementdowngradeeditor.webp)
 
 The maximum number of elements allowed by the correctly selected layout is specified at the top of the editor. Select the checkboxes next to the title of all the configured widgets you want to keep up to this limit, then click __OK__. Any widgets not selected will be removed from the report.
 

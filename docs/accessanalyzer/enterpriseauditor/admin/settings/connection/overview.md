@@ -2,7 +2,7 @@
 
 The Connection node contains objects referred to as Connection Profiles. A Connection Profile houses the information Access Analyzer uses to connect to the target hosts during job execution.
 
-![Connection](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/connectionpage.png)
+![Connection](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/connectionpage.webp)
 
 There are two methods for authentication to a targeted host:
 
@@ -42,10 +42,10 @@ The Access Analyzer vault provides enhanced security through enhanced encryption
 
 CyberArk integration stores supported credentials in the CyberArk Enterprise Password Vault. CyberArk Privileged Account Security Solution offers components designed to discover, secure, rotate, and control access to privileged account passwords used to access systems through the enterprise IT environment. See the [CyberArk Integration](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/cyberarkintegration.md) topic for additional information.
 
-![Cancel and Save options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/cancelsavebuttons.png)
+![Cancel and Save options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/cancelsavebuttons.webp)
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Connection view. These buttons become enabled when modifications are made to the Connection global setting.
 
-![Information update message box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/settingssavedmessage.png)
+![Information update message box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/settingssavedmessage.webp)
 
 Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.

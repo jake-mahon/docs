@@ -2,7 +2,7 @@
 
 The 5. Public Folders job group is comprised of data collection, analyses, and reports that focus on public folder sizing, content aging, entitlement, ownership, and the identification of each public folder’s Most Probable Owner. The Most Probable Owner is a unique algorithm built into the public folder data collector that is determined based on folder ownership, content posted, and size of content posted.
 
-![5.Public Folders Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![5.Public Folders Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following comprise the 5. Public Folders job group:
 

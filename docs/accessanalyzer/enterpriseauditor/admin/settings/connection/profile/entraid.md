@@ -2,7 +2,7 @@
 
 The information in this topic applies to __Select Account Type__ > __Azure Active Directory__ in the User Credentials window. This account type is for Microsoft Entra ID, formerly Azure Active Directory.
 
-![User Credentials Window - Azure Active Directory](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.png)
+![User Credentials Window - Azure Active Directory](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.webp)
 
 The required credentials for this account type are:
 

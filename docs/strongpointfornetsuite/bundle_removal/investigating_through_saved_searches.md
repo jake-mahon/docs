@@ -18,6 +18,6 @@ The columns show the existing relationships for the customizations that use:
 - Data Sources
 - Forms
 - List  
-  ![Results columns of Saved Searches](/img/product_docs/strongpointfornetsuite/bundle_removal/results_saved_searches.png)
+  ![Results columns of Saved Searches](/img/product_docs/strongpointfornetsuite/bundle_removal/results_saved_searches.webp)
 
 __Next Step:__ [](/docs/strongpointfornetsuite/bundle_removal/exporting_information_to_excel.md)[Exporting Information to Excel](/docs/strongpointfornetsuite/bundle_removal/exporting_information_to_excel.md)

@@ -6,7 +6,7 @@ The jobs that comprise the 6.Activity Job Group collect data, process analysis t
 
 _Remember,_ this job group requires the Active Directory Activity license.
 
-![6.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![6.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 6.Activity Job Group is comprised of the following jobs:
 

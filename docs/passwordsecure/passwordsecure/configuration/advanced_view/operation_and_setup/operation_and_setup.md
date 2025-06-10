@@ -4,9 +4,9 @@
 
 The modular structure of the client ensure that the required functionalities are always in the same place. Although the module selection gives access to the various areas of Netwrix Password Secure, the control elements always remain at the positions specified for this purpose. This intuitive operating concept ensures efficient work and a minimum of training time.
 
-![Operation](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-1-en.png)
+![Operation](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-1-en.webp)
 
-![Dashboard](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-2-en.png)
+![Dashboard](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-2-en.webp)
 
 1. [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md)
 
@@ -28,13 +28,13 @@ Tabs offer yet another option within the to present related information in a sep
 
 when a new filter is applied. In parallel, detailed information about records can also be found in their own tabs. It is of course possible to adjust the order of the tabs via drag & drop according to your individual requirements.
 
-![Dashboard](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_2-en.png)
+![Dashboard](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_2-en.webp)
 
 #### Standard tab
 
 Depending on the active module, the All passwords tab will be renamed to the corresponding module by default. (All documents, all forms, etc.)
 
-![Standard tab](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/standard-tab-en.png)
+![Standard tab](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/standard-tab-en.webp)
 
 Although the name suggests that all records in the database are displayed, the records displayed in list view correspond to the criteria that have been defined in the filter. The tab closes and can be restored by reusing the filter.
 
@@ -46,7 +46,7 @@ Independently of the module chosen, various information is displayed in the foot
 - Feedback in case connection is insecure
 - Last name, first name (user name) of the logged-in user
 
-![installation_with_parameters_4](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.png)
+![installation_with_parameters_4](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.webp)
 
 - [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#ribbon)
 - [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#filter)

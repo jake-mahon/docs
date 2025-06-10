@@ -2,7 +2,7 @@
 
 The Sensitive Content Summary report at the Team level provides a count of files where criteria matches were found on the selected instance. This report includes a Details table.
 
-![Sensitive Content Summary report at the Team level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/team/teamsensitivecontentsummary.png)
+![Sensitive Content Summary report at the Team level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/team/teamsensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

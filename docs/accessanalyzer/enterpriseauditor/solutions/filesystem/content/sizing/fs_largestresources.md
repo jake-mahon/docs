@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_LargestResources Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/content/sizing/largestresourcesanalysis.png)
+![Analysis Tasks for the FS_LargestResources Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/content/sizing/largestresourcesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

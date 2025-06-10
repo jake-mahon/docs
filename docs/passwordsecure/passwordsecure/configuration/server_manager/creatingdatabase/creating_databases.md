@@ -1,6 +1,6 @@
 # Creating databases
 
-![installation_with_parameters_216](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_216.png)
+![installation_with_parameters_216](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_216.webp)
 
 [https://www.youtube.com/embed/md7\_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)[https://www.youtube.com/embed/md7\_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)
 
@@ -12,7 +12,7 @@ Databases contain all information on users, records, documents, etc. The changes
 
 The creation of databases is supported by the database wizard, which is started directly from the ribbon. The individual tabs of the wizard are explained below:
 
-![database wizard](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_217-en.png)
+![database wizard](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_217-en.webp)
 
 Database server
 
@@ -34,4 +34,4 @@ This setting is used to define the first user to be created – normally this is
 
 Once a database has been created successfully, , provided it has been selected. If no data migration has been selected, the new database is created directly, and will be displayed in the database overview.
 
-![created new database](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_218-en.png)
+![created new database](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_218-en.webp)

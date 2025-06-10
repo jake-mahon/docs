@@ -27,13 +27,13 @@ View the identity's entitlements by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 2. Click on the user to be checked.
 
-   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
+   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.webp)
 3. Click on __View Permissions__ to access the entitlement list.
 
-   ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+   ![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
 ## Modify Identity's Entitlements
 
@@ -41,13 +41,13 @@ Act on an existing identity by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+   ![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 2. Click on the user to be modified.
 
-   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.png)
+   ![Workflow - User](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_user_v602.webp)
 3. Click on __Actions__ > __Modify Permissions__ to launch the workflow for a manual entitlement request.
 
-   ![Workflow - Modify Permissions](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.png)
+   ![Workflow - Modify Permissions](/img/product_docs/usercube/usercube/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.webp)
 4. Follow the workflow's instructions to select entitlements and the action to be performed. You can:
 
    - select entitlements to add;
@@ -60,7 +60,7 @@ Act on an existing identity by proceeding as follows:
 
    ```
    <img
-     src="/buttons/Home_roleReview_V523.png"  alt="Home Page - Role Review"  style=""/>
+     src="/buttons/Home_roleReview_V523.webp"  alt="Home Page - Role Review"  style=""/>
 
    ```In this case, the requested entitlement will be displayed in the user's \*\*View Permissions\*\* tab only after the request is reviewed.
 
@@ -68,6 +68,6 @@ Act on an existing identity by proceeding as follows:
 
 In order to verify the process, check that the change you made in the user's entitlements is displayed in their __View Permissions__ tab in the directory.
 
-![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+![Home Page - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
-![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

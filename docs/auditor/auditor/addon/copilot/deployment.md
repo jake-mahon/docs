@@ -28,10 +28,10 @@ __Step 1 –__ Specify Active Directory credentials.
 - Username – Provide the name of the account under which the service runs. Unless specified, the service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/img/product_docs/auditor/auditor/addon/copilot/adcredentials.png)
+![adcredentials](/img/product_docs/auditor/auditor/addon/copilot/adcredentials.webp)
 
 __Step 2 –__ Enter Tenant ID, App ID and App Secret of the Azure App you registered for the add-on. Click __Next__.
 
-![tenantapp](/img/product_docs/auditor/auditor/addon/copilot/tenantapp.png)
+![tenantapp](/img/product_docs/auditor/auditor/addon/copilot/tenantapp.webp)
 
 __Step 3 –__ Click __Run__ and close the window. The service should start the data collection now.

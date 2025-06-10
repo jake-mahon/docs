@@ -70,7 +70,7 @@ The buttons available on these toolbars are predefined. You cannot add or remove
 
         NOTE: Image dimensions: 30 x 30 pixels
           
-         Supported formats: .png, .jpg, .jpe, .jpeg
+         Supported formats: .webp, .jpg, .jpe, .jpeg
    8. __Visibility Level__ – Select a security role. The toolbar button would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
       Select _Never_ to hide the button from all users.
 8. Click __OK__.

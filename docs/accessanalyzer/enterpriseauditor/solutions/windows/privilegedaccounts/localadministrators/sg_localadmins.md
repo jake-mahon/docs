@@ -8,7 +8,7 @@ The SG\_LocalAdmins job uses the UsersGroups Data Collector for the following qu
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/localadminsquery.png)
+![Queries for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/localadminsquery.webp)
 
 The query for the SG\_LocalAdmins job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Privileged Accounts__ > __Local Administrators__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/localadminsanalysis.png)
+![Analysis Tasks for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/localadminsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -41,4 +41,4 @@ In addition to the tables created by the analysis tasks, the SG\_LocalAdmins job
 
 The SG\_LocalAdmins job typically uses an account that is a member of the Local Administrators group on the target host. However if a less-privileged option is required, you can instead use a regular domain user that has been added to the __Network access: Restrict clients allowed to make remote calls to SAM__ Local Security Policy.
 
-![User added to the Local Securtiy Policy](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/leastprivilegemodel.png)
+![User added to the Local Securtiy Policy](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/leastprivilegemodel.webp)

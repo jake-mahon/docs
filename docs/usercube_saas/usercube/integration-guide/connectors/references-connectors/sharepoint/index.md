@@ -4,7 +4,7 @@ This connector exports sites, folders, groups and permissions from a [SharePoint
 
 This page is about Storage/SharePoint.
 
-![Package: Storage/SharePoint](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.png)
+![Package: Storage/SharePoint](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.webp)
 
 ## Overview
 

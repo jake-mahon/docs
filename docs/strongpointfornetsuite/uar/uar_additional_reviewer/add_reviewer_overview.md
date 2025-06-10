@@ -7,7 +7,7 @@ Additional Reviewers are assigned by the UAR owners to perform reviews. Additio
 
 Here is an example additional reviewer dashboard showing new assignments.
 
-![Additional Reviewer Dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.png)
+![Additional Reviewer Dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.webp)
 
 ## Dashboard Controls
 

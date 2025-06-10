@@ -6,7 +6,7 @@ This page is about [
 CSV
 ](/docs/usercube/usercube/integration-guide/connectors/references-packages/csv/index.md).
 
-![Package: File/CSV](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.png)
+![Package: File/CSV](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
 ## Overview
 

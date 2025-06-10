@@ -62,9 +62,9 @@ __CAUTION:__ The Legacy methods will not work if your endpoints are only using P
 
 __NOTE:__ After setting these settings and the policy refresh occurs to get these policies, endpoints may still need two logoffs and/or reboots for this to kick in.
 
-![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.png)
+![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
 
-![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.png)
+![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.webp)
 
 Update 4/8/2024:
 
@@ -94,7 +94,7 @@ __Step 1 –__ Create a Powershell script which will disable the UCPD.sys driver
 
 __Step 2 –__ Deploy the script via Endpoint Policy Manager Scripts Manager using the hints from the screen shot below.
 
-![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.png)
+![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.webp)
 
 Workaround 2 using fsLogix (Microsoft Tools)
 
@@ -102,4 +102,4 @@ You may also use Microsoft fsLogix if already installed on servers or workstatio
 
 __NOTE:__ Do not use both Workaround 1 and 2 at the same time.
 
-![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.png)
+![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)

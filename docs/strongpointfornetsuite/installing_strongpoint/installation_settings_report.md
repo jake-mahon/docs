@@ -43,7 +43,7 @@ Accesses change management features:
 - __Enable Opportunistic Clearance__: enables automatic clearance of qualifying low risk non-compliant changes. Default is off.
 - __Enable Case to Change Request Workflow__: enables the workflow [Create Change Request from Case](/docs/strongpointfornetsuite/change_management/creating_change_request_from_case.md), based on the provided mappings. __Change Request Field Mapping__ includes an optional Formula to handle complex fields. After the __Enable Case to Change Request Workflow__ is enabled, a __Create Change Request__ button is available on the __Case__ record (__Lists__ > __Support__ > __Cases__).  
   Here is an example using a __Formula__ for the __Case to Change Request Field Mapping__:  
-  ![Example of a Formula in the Case to Change Request Field Mapping](/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.png)
+  ![Example of a Formula in the Case to Change Request Field Mapping](/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.webp)
 - __Do Not ReSpider Automatically__: sets the default condition for the __Do Not ReSpider Automatically__ setting on the [ITGC Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md). The default is unchecked.   
   When enabled, an automatic ReSpider occurs when a Change Request status is changed to __Completed__. This starts the ReSpider and ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__.
 - __Enhanced User Provisioning__: enables access management for onboarding/offboarding and access change using the __[User Access Change Request](/docs/strongpointfornetsuite/change_management/user_provisioning.md)__.
@@ -57,7 +57,7 @@ Accesses change management features:
   - __SoD Approval__
   - __SoD Rule Change__
 - __CR Email Template__: if you customize your __SoD Exemption Approval__ or __SoD Rule Change Approval__ CR Templates, add them here so they are not overwritten when the next bundle is installed. Refer to [Advanced PDF / HTML Templates](/docs/strongpointfornetsuite/customizations/pdf_html_templates.md).  
-  ![CR Email Template section on the Installation Settings Change Management tab](/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.png)
+  ![CR Email Template section on the Installation Settings Change Management tab](/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.webp)
 
 ### Installation
 

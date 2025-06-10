@@ -6,9 +6,9 @@ To view unresolved control incidents:
 
 1. Open __Strongpoint__ > __Financial Controls__ > __Unresolved Control Incidents__
 
-   ![Viewing Unresolved Control Incidents](/img/product_docs/strongpointfornetsuite/financial_controls/agent_unresolved_example1.png)
+   ![Viewing Unresolved Control Incidents](/img/product_docs/strongpointfornetsuite/financial_controls/agent_unresolved_example1.webp)
 2. Click View by the record with the  __Purchase Limit__ and __Purchase Approval Limit__ changes to open the Change Log.
 
-   ![Open the Change Log](/img/product_docs/strongpointfornetsuite/financial_controls/agent_unresolved_example2.png)
+   ![Open the Change Log](/img/product_docs/strongpointfornetsuite/financial_controls/agent_unresolved_example2.webp)
 
 __Change Overview__ shows what change was made and who made the change. The __Diff View__ on the __Values__ tab displays both the old and new values.

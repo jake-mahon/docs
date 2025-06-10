@@ -13,7 +13,7 @@ Follow the steps to login to Recovery for Active Directory.
 
 __Step 1 –__ Launch the Recovery Console. The Log in page is displayed.
 
-![ Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.png)
+![ Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
 
 __Step 2 –__ Log in with credentials configured on the Administrator Role page of the Recovery for Active Directory Setup wizard during installation. See the [Install the Application](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/application.md) topic for additional information on the administrator role. The username must be entered in the following format:
 

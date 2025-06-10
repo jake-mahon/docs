@@ -4,7 +4,7 @@ The System Settings interface provides access to system logs, user access contro
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __System Settings__ to open the System Settings interface.
 
-![System Settings interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![System Settings interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following pages:
 

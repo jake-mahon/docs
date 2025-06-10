@@ -39,7 +39,7 @@ It is also possible to configure the heartbeat to run cyclically. It can be conf
 
 The results of the test can be viewed in the __passwords module__.
 
-![result heartbeat](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.png)
+![result heartbeat](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
 
 The date when it was last executed can be seen at the top of the [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md). The success of the testing process is indicated alongside using a coloured icon. Further information can be displayed by moving the mouse over the icon.
 
@@ -53,4 +53,4 @@ The last test was completed. However, the password is different to the one on th
 
 The filter can be configured using the filter group __Status of the login data__ so that the tested records can be selected.
 
-![Filter heartbeat status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.png)
+![Filter heartbeat status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.webp)

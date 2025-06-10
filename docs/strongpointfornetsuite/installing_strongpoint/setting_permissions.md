@@ -10,7 +10,7 @@ To use Platform Governance for NetSuite with your custom roles, add the record t
 2. Edit each custom role your targeted Users use for their tasks.
 3. Open the __Permissions__ tab.
 
-   ![Setting Permissions for Custom Roles](/img/product_docs/strongpointfornetsuite/installing_strongpoint/permissions_tab.png)
+   ![Setting Permissions for Custom Roles](/img/product_docs/strongpointfornetsuite/installing_strongpoint/permissions_tab.webp)
 4. Open the __Custom Record__ tab and add the Record Types and access levels to your custom roles.
 
    Adding permissions to a role affects all employees who have the role assigned to them.

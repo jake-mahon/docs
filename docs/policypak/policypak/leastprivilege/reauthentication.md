@@ -8,7 +8,7 @@ You can see both rule types have the options for __Require Justification Text__ 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication.webp)
 
 __NOTE:__ See the [Endpoint Policy Manager Least Priv Manager: Self Elevate Mode](/docs/policypak/policypak/video/leastprivilege/bestpractices/selfelevatemode.md) video for a demonstration of Justification text for Self Elevate.
 
@@ -22,40 +22,40 @@ The following cases highlight how this might work.
 
 __Show popup message__ is selected, but neither sub-option are checked.
 
-![A screen shot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_1.png)
+![A screen shot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_1.webp)
 
 When the application launches, the pop up is presented.
 
 Text input from the user is optional. The user must at least click __OK__ to continue and launch the application.
 
-![A screenshot of a computer monitor Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_2.png)
+![A screenshot of a computer monitor Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_2.webp)
 
 ## Case 2
 
 __Show popup message__ and __Justification text required__ are selected, but __Force user re-authenticate__ is not.
 
-![A screen shot of a message Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_3.png)
+![A screen shot of a message Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_3.webp)
 
 The pop-up box appears, and user must type in something before continuing onward by pressing __OK__ button.
 
-![A screenshot of a computer error message Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_4.png)
+![A screenshot of a computer error message Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_4.webp)
 
 ## Case 3
 
 __Show popup message__ and __Force user re-authenticate__ is selected, but __Justification text required__ is not.
 
-![A screenshot of a computer screen Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_5.png)
+![A screenshot of a computer screen Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_5.webp)
 
 The user is required to re-authenticate, but then the pop-up occurs, no text input is required by the user.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_6.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_6.webp)
 
 ## Case 4
 
 __Force user re-authenticate__ and __Justification text required__ are both selected.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_7.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_7.webp)
 
 The User must re-authenticate, then when a pop-up is shown, theuser must type in something before __OK__ is allowed an application proceeds.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_8.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_re_authentication_8.webp)

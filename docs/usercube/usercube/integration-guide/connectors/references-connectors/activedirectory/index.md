@@ -5,7 +5,7 @@ This connector exports and fulfills users and groups from/to an [Active Director
 This page is about Directory/Active Directory.
 See the [Active Directory](#Active-Directory) topic for additional information.
 
-![Package: Directory/Active Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.png)
+![Package: Directory/Active Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
 
 ## Overview
 
@@ -27,23 +27,23 @@ To enable permissions, the Active Directory administrator must do the following:
 
 __Step 1 –__ Check the __View__ details in the Active Directory and Computers.
 
-![Enable Permissions - Step 1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.png)
+![Enable Permissions - Step 1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.webp)
 
 __Step 2 –__ Open the __Advanced Security Settings__ dialog box for the domain root.
 
-![Enable Permissions - Step 2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.png)
+![Enable Permissions - Step 2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.webp)
 
 __Step 3 –__ Select the __Replicating Directory Changes__ check box from the list.
 
-![Enable Permissions - Step 3](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.png)
+![Enable Permissions - Step 3](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.webp)
 
 __Step 4 –__ To change groups' membership, in the Applies field, select Descendent Group object and select the __Read Members__ and __Write Members__ check boxes from the list.
 
-![Read/Write Members](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.png)
+![Read/Write Members](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.webp)
 
 __Step 5 –__ To Reset Password capabilities, in the Applies field, select Descendent User object and select the __Read lockoutTime__ and __Write lockoutTime__ check boxes from the list.
 
-![Read/Write Lockout Times](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.png)
+![Read/Write Lockout Times](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.webp)
 
 Administrator rights must not be granted to the service account. Doing otherwise would create a security breach. Administrator rights must only be granted to the target perimeter.
 

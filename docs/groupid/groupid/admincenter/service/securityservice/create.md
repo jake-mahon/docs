@@ -29,7 +29,7 @@ __To create a Security service:__
 5. In the __Application Name__ box, enter a name for the service or use the default name. The Security service is displayed with this name in Directory Manager.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card, as shown below:
 
-   ![securityservicecard](/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.png)
+   ![securityservicecard](/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.webp)
 7. In the __IIS Application Name__ box, enter an IIS deployment name for the service. This name is used to name the service’s directory in IIS and its physical directory under X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the Directory Manager server.  
    (X represents the Directory Manager installation drive)  
    The IIS application name should be unique for each Security service deployed in IIS.

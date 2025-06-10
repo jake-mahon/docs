@@ -6,7 +6,7 @@ Follow the steps to modify an existing report.
 
 __Step 1 –__ Navigate to the Reports node that contains the report.
 
-![Configure Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
+![Configure Report](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
 __Step 2 –__ Click the __Configure__ button next to the report you want to modify.
 

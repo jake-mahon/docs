@@ -2,7 +2,7 @@
 
 The __SharePoint__ > __0.Collection__ Job Group is designed to collect information from SharePoint farms using the SPAA Data Collector. The collected data is then available to other SharePoint Solution sub-job groups and the Access Information Center for analysis.
 
-![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![0.Collection Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the 0.Collection Job Group are:
 

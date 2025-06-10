@@ -65,7 +65,7 @@ Step 12 – Directory Manager provides the following two options for Elasticsear
 
 - Let Directory Managerinstall and manage Elasticsearch: If you select this option, Directory Manager Configuration Tool will install Elasticsearch. It presents you default configuration of Elasticsearch cluster it will create:
 
-  ![Select Elastic Cluster page](/img/product_docs/groupid/groupid/install/configure/select_cluster_w_existing_db_option.png)
+  ![Select Elastic Cluster page](/img/product_docs/groupid/groupid/install/configure/select_cluster_w_existing_db_option.webp)
 
   1. Cluster Name: lists all the clusters defined so far. Select one to create an Elasticsearch node within the selected cluster.
   2. Port: the default port for Elasticsearch API communication. Modify the port number if the mentioned default port is not available.

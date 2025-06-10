@@ -4,7 +4,7 @@ The Predefined Investigations page in the Investigations interface provides a li
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Predefined Investigations__ in the navigation pane. This expands the menu to display the folders containing predefined investigations. Expand a folder to view the investigations under it. To get a list of all the predefined investigations in the adjacent pane, hover your mouse over the Predefined Investigations option and click the icon that is displayed.
 
-![Investigations interface on the Predefined Investigations page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.png)
+![Investigations interface on the Predefined Investigations page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

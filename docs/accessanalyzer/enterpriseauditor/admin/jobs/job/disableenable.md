@@ -12,15 +12,15 @@ __Step 1 –__ Select a job group or job.
 
 __NOTE:__ When disabling jobs at the job group level, all jobs contained in the job group are disabled, but the job group is not disabled. Any additional jobs added to that job group at a later time will be enabled by default.
 
-![Disable Job from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disablejob.png)
+![Disable Job from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disablejob.webp)
 
 __Step 2 –__ Right-click on the job group or job and select __Disable Job(s)__ from the menu.
 
-![Disabled Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disabledjob.png)
+![Disabled Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disabledjob.webp)
 
 The job is now disabled. If a job group was selected, all the jobs in the group are now disabled. Disabled jobs are grayed out, and a red cross is displayed in front of the job.
 
-![Disabled Job Description page banner](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disabledjob2.png)
+![Disabled Job Description page banner](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disabledjob2.webp)
 
 A yellow banner also notifies users that a job is disabled in the Job’s Description page.
 
@@ -32,7 +32,7 @@ Jobs that have been disabled can be enabled from the Jobs tree. Following the st
 
 __Step 1 –__ Select the disabled job. If multiple jobs in a job group are disabled, select the job group to enable all of the disabled jobs.
 
-![Enable Job from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/enablejob.png)
+![Enable Job from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/enablejob.webp)
 
 __Step 2 –__ Right-click on the job group or job and select __Enable Job(s)__ from the menu.
 

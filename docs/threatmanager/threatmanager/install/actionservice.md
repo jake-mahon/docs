@@ -4,15 +4,15 @@ The Action Service is installed with Threat Manager and is configured in the Thr
 
 Follow the steps to install the Action Service.
 
-![install](/img/product_docs/threatprevention/threatprevention/install/upgrade/install.png)
+![install](/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
 
 __Step 1 –__ Run the StealthDEFEND.ActionService MSI installation package and the Threat Manager Action Service Setup wizard will open.
 
-![settupprogress](/img/product_docs/threatmanager/threatmanager/install/settupprogress.png)
+![settupprogress](/img/product_docs/threatmanager/threatmanager/install/settupprogress.webp)
 
 __Step 2 –__ Click Install to begin the installation. The setup wizard displays installation progress.
 
-![completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 3 –__ When the installation is complete, click Close to exit the installer.
 
@@ -58,11 +58,11 @@ Follow the steps to configure the Action Service to run as a service account.
 
 __Step 1 –__ Open Services (```services.msc```).
 
-![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.png)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 __Step 2 –__ Double-click on the Netwrix Threat Manager Action Service. The Threat Manager Action Service Properties window opens.
 
-![serviceaccountproperties](/img/product_docs/threatmanager/threatmanager/install/serviceaccountproperties.png)
+![serviceaccountproperties](/img/product_docs/threatmanager/threatmanager/install/serviceaccountproperties.webp)
 
 __Step 3 –__ Click the Log On tab.
 
@@ -70,7 +70,7 @@ __Step 4 –__ Select the This account: radio button and specify the desired Act
 
 __Step 5 –__ Click Apply and then OK. This sets the Action Service to “run as” the specified account.
 
-![servicesrestart](/img/product_docs/threatmanager/threatmanager/install/servicesrestart.png)
+![servicesrestart](/img/product_docs/threatmanager/threatmanager/install/servicesrestart.webp)
 
 __Step 6 –__ Restart the Threat Manager Action Service by right-clicking on the Netwrix Threat Manager Action Service in the Services window and clicking Restart.
 

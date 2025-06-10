@@ -2,7 +2,7 @@
 
 The Role Management page is accessible from the Navigation pane under Users & Group. It provides details on all available roles for Privilege Secure users. There are default roles, and custom roles can be created.
 
-![Custome Role Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customrolepage.png)
+![Custome Role Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customrolepage.webp)
 
 When a custom role is selected, the selected role details display at the top of the main pane with the following features:
 
@@ -31,7 +31,7 @@ The table columns can be resized and sorted in ascending or descending order.
 
 Each permission gives specific rights to users with the selected role. Permissions on the left are not associated with the role. Permissions on the right are assigned to the selected role.
 
-![Custom Role Permission Assignment](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customerolepermissionassignment.png)
+![Custom Role Permission Assignment](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customerolepermissionassignment.webp)
 
 Available permissions include:
 
@@ -48,7 +48,7 @@ All custom roles, no matter what permissions are granted, can be scoped to speci
 
 The Policy tab for a custom role has the following features:
 
-![Policies Tab for Custom Roles](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customrolepoliciestab.png)
+![Policies Tab for Custom Roles](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customrolepoliciestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. This search is specific to the table in the Policies tab.
 - Add Policies — Opens the Add Policies window. See the [Add Policies Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addpolicies.md) topic for additional information.
@@ -65,7 +65,7 @@ The Policies tab table has the following columns:
 
 The Users tab for a custom role has the following features:
 
-![Users Tab for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleuserstab.png)
+![Users Tab for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleuserstab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. This search is specific to the table in the Users tab.
 - Type — Provides options to filter results based on a chosen criterion: User, Group, Application, Collection, and Local User
@@ -87,7 +87,7 @@ The Users tab table has the following columns:
 
 The Activities tab for a custom role has the following features:
 
-![Activities Tab for Custom Roles](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleactivitiestab.png)
+![Activities Tab for Custom Roles](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleactivitiestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. This search is specific to the table in the Activities tab.
 - Type — Provides options to filter results based on a chosen criterion: Activity or Activity Group
@@ -105,7 +105,7 @@ The Activities tab table has the following columns:
 
 The Resources tab for a custom role has the following features:
 
-![Resources Tab for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleresourcestab.png)
+![Resources Tab for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleresourcestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. This search is specific to the table in the Resources tab.
 - Type — Provides options to filter results based on a chosen criterion: Resource or Resource Group
@@ -124,7 +124,7 @@ The Resources tab table has the following columns:
 
 Role Users is located at the bottom of the Custom Role details page. This will be the user that has access to the Custom Role.
 
-![Role Users for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleusers.png)
+![Role Users for Custom Role](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/customroleusers.webp)
 
 The Role Users has the following features:
 

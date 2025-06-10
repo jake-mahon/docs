@@ -19,7 +19,7 @@ In general, new users are added in the same way as creating a local organisation
 
 ### Creating users
 
-![create user](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/create-user-wc.png)
+![create user](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/create-user-wc.webp)
 
 - __Allocated roles__: New users can directly be allocated one or more rolls when they are created
 - __Change password on next login__: The user will be requested to change their user password on the next login (obligatory)

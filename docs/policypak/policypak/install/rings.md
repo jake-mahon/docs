@@ -41,7 +41,7 @@ These segmentation blocks are what is referred to as rings. An example of this p
 - Fast Ring (10-50%): 5-day delay.
 - Slow Ring (51-100%): 10-day delay.
 
-![71_1_hfkb-1094-img-01](/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.png)
+![71_1_hfkb-1094-img-01](/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
 
 Microsoft updates can be a little complicated because they also deal with channels, or the types of versions you want to install. Additionally, Microsoft's model is more complex than Endpoint Policy Manager's model, because the updates are required and forced. Microsoft Quality Updates (i.e., bugfixes) are required to be performed within 30 days (or they will be installed automatically) and Microsoft Upgrades (i.e., new versions of Windows) are required to be performed within 365 days (or they will be installed automatically).
 

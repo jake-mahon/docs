@@ -16,15 +16,15 @@ Follow the steps to add a SQL Server host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![chooseagent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![chooseagent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device, then click __Next__.
 
-![addhost](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost.png)
+![addhost](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost.webp)
 
 __Step 3 –__ On the __Add Host__ page, select __MS SQL Server__ and enter the __Server name or address__ for the SQL Server host., then click __Next__.
 
-![mssqlserveroptionspage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/mssqlserveroptionspage.png)
+![mssqlserveroptionspage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/mssqlserveroptionspage.webp)
 
 __Step 4 –__ On the MS SQL Server Options page, configure the following options:
 
@@ -35,15 +35,15 @@ __Step 4 –__ On the MS SQL Server Options page, configure the following opti
 
 Click __Connect__ to test the settings, then click __Next__.
 
-![configureoperations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperations.png)
+![configureoperations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperations.webp)
 
 __Step 5 –__ On the Configure Operations page, select which SQL Server events to monitor, then click __Next__.
 
-![SQL Server Objects Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverobjects.png)
+![SQL Server Objects Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverobjects.webp)
 
 __Step 6 –__ On the SQL Server Objects page, click __Refresh__. Select the SQL Server objects to be monitored. Click __Next__.
 
-![sqlserverlogontriggerpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverlogontriggerpage.png)
+![sqlserverlogontriggerpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverlogontriggerpage.webp)
 
 __Step 7 –__ On the SQL Server Logon Trigger page, copy and paste the SQL script into a New Query in the SQL database. Execute the query to create a logon trigger. Netwrix Activity Monitor will monitor SQL logon events and obtain IP addresses for connections. The script is:
 
@@ -51,11 +51,11 @@ __Step 7 –__ On the SQL Server Logon Trigger page, copy and paste the SQL scr
 CREATE TRIGGER SBAudit_LOGON_Trigger ON ALL SERVER FOR LOGON AS BEGIN declare @str varchar(max)=cast(EVENTDATA() as varchar(max));raiserror(@str,1,1);END
 ```
 
-![SQL Server Logon Success](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverlogontriggersuccess.png)
+![SQL Server Logon Success](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sqlserverlogontriggersuccess.webp)
 
 > Click __Check Status__ to see if the trigger is configured properly, then click __Next__.
 
-![configurebasicoptions](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
+![configurebasicoptions](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.webp)
 
 __Step 8 –__ On the Configure Basic Options page,
 
@@ -65,11 +65,11 @@ __Step 8 –__ On the Configure Basic Options page,
 
 Click __Next__.
 
-![Where To Log The Activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where To Log The Activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 9 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File (TSV)__ or __Syslog Server__, then click __Next__.
 
-![fileoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutput.png)
+![fileoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutput.webp)
 
 __Step 10 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -81,7 +81,7 @@ __Step 10 –__ If __Log File__ is selected on the __Where To Log The Activity_
 
   - While Activity Monitor can have multiple configurations per host, Access Analyzer can only read one of them.
 
-![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 __Step 11 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -102,7 +102,7 @@ __Step 11 –__ If Syslog Server is selected on the __Where To Log The Activity_
 
 Click __Finish__.
 
-![activitymonitorsqlserverhost](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsqlserverhost.png)
+![activitymonitorsqlserverhost](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsqlserverhost.webp)
 
 The added SQL Server host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

@@ -2,7 +2,7 @@
 
 The Pending Requests tab of the Access Requests page accessed through the Owner portal is where you can view pending requests for your resources.
 
-![Pending Requests tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequests.png)
+![Pending Requests tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequests.webp)
 
 The information displayed in the table includes:
 
@@ -27,7 +27,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Pending Requests interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequestsbuttons.png)
+![Pending Requests interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequestsbuttons.webp)
 
 | Button | Function |
 | --- | --- |

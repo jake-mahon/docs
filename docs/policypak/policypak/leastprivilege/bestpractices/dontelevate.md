@@ -6,6 +6,6 @@ The default on all rules is __Don’t Elevate the Open/Save dialog__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_don_t_elevate.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
 
 In general it should be left as is, unless there is a reason to change it.

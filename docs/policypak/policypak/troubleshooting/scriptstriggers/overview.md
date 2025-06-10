@@ -25,7 +25,7 @@ __Step 1 –__ Start with troubleshooting to verify that you are set up with the
 
 Figure 33 shows an example of a Endpoint Policy Manager Scripts & Triggers Manager log with some annotations.
 
-![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.png)
+![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.webp)
 
 Figure 33. An example of a Endpoint Policy Manager Scripts & Triggers Manager log.
 

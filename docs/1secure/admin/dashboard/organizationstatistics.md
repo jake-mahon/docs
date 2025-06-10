@@ -4,7 +4,7 @@ You can view various statistics related to an organization, such as health statu
 
 To view an organization's statistics, click __Home__ in the top bar. On the dashboard, click an organization name in the Organizations list to open the Statistics page for it.
 
-![Organization Statistics Page](/img/product_docs/1secure/admin/dashboard/organizationstatistics.png)
+![Organization Statistics Page](/img/product_docs/1secure/admin/dashboard/organizationstatistics.webp)
 
 You can view the following insights for an organization.
 

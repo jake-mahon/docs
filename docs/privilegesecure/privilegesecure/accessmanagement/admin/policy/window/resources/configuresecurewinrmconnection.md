@@ -8,7 +8,7 @@ __Step 2 –__ Select the resource(s) to modify.
 
 __Step 3 –__ Click the __WinRM Config__ button.
 
-![winrmconfig](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/winrmconfig.png)
+![winrmconfig](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/winrmconfig.webp)
 
 __Step 4 –__ Perform the following steps:
 

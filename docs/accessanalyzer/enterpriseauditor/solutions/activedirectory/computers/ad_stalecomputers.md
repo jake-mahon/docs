@@ -19,7 +19,7 @@ Navigate to the __Active Directory__ > __3.Computers__ > __AD\_StaleComputers__ 
 
 __CAUTION:__ Do not modify or deselect the __2. Summarize by Domain__ analysis task. This analysis task is preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.png)
+![Analysis Tasks for the AD_StaleComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.webp)
 
 The default analysis tasks are:
 

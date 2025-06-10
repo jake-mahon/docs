@@ -25,23 +25,23 @@ __Step 1 –__ Click Agents in the left pane to launch the Agents interface.
 
 __Step 2 –__ On the Agents interface, click the __Deploy Agent__ (__+__) button on the top right corner. To re-install a previously uninstalled Agent, select the __Install Agent__ right-click menu option for that machine in the grid. The Select Computers window opens.
 
-![Deploy Agents wizard – Select Computers page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.png)
+![Deploy Agents wizard – Select Computers page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.webp)
 
 __Step 3 –__ On the Select Computers window, add the host or IP addresses of the target machines to the Deploy Agents to These Computers box. Use any of the three methods, as represented by the three tabs on the window. See the [Select Computers Window](/docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.md) topic for additional information. Click __Next__.
 
 If you open this window through the [Right-Click Menu](/docs/threatprevention/threatprevention/admin/agents/overview.md#right-click-menu) action, the list is auto-populated with the computer(s) selected on the Agents interface.
 
-![Deploy Agents wizard – Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.png)
+![Deploy Agents wizard – Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.webp)
 
 __Step 4 –__ On the Set Options window, enter the credentials required to deploy the Agent on the selected machine(s). Review the Enterprise Manager IP address/name and port for accuracy and select the desired modules to install for this Agent. You can also set other properties for the Agent. See the [Set Options Window ](/docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.md)topic for additional information.
 
 __Step 5 –__ Once configurations are set, click __Next__.
 
-![Deploy Agents wizard – Prerequisites Check page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/prerequisitescheck.png)
+![Deploy Agents wizard – Prerequisites Check page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/prerequisitescheck.webp)
 
 __Step 6 –__ On the Prerequisites Check window, the credentials provided on the Set Options window either succeed or fail during a prerequisites or verification check. It also initiates a prerequisite check for the Agent. See the [Prerequisites Check Window](/docs/threatprevention/threatprevention/admin/agents/deploy/prerequisitescheck.md) topic for additional information.
 
-![Deploy Agents wizard – Installing page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installing.png)
+![Deploy Agents wizard – Installing page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installing.webp)
 
 __Step 7 –__ The Installing window performs the installation and displays whether or not the action was successful. See the [Installing Window ](/docs/threatprevention/threatprevention/admin/agents/deploy/installing.md) topic for additional information.
 

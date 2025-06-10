@@ -2,7 +2,7 @@
 
 The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the __Settings__ > __Sensitive Data__ node. Use the Sensitive Data Criteria Editor to view pre-defined criteria and to customize or create user-defined criteria. Sensitive Data Criteria can be configured in individual data collectors that use Sensitive Data Discovery or can be configured to inherit Sensitive Data Criteria settings from the __Settings__ > __Sensitive Data__ node. See the [Sensitive Data](/docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
 
-![Sensitive Data Criteria Editor](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.png)
+![Sensitive Data Criteria Editor](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
 
 The Sensitive Data Criteria Editor contains two sections:
 
@@ -13,7 +13,7 @@ The Sensitive Data Criteria Editor contains two sections:
 
 The navigation pane lists all user-created and pre-configured Sensitive Data criteria.
 
-![Navigation Pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.png)
+![Navigation Pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
 
 The options in the Navigation Pane are:
 

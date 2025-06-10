@@ -58,10 +58,10 @@ The following information is displayed for a file server in the __Included File 
   - If you have designated a different account for this purpose, the username of the account is displayed here. See the [Connect to a File Server Using a Different Account](#Connect-to-a-File-Server-Using-a-Different-Account) topic.
 - __RC Status__: Displays the replication status for the server with respect to the replication performed by the GroupID Entitlement schedule. Different statuses are:
 
-  - __Request ![rc_request](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.png):__ permission data for the file server has never been replicated to Elasticsearch.
-  - __Success ![rc_success](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.png):__ permission data for the file server was successfully replicated when the GroupID Entitlement schedule last ran.
-  - __Fail ![rc_fail](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.png):__ replication failed for the server due to an error.
-  - __Running ![rc_running](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.png):__ the GroupID Entitlement schedule is running and replication is in progress.
+  - __Request ![rc_request](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.webp):__ permission data for the file server has never been replicated to Elasticsearch.
+  - __Success ![rc_success](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.webp):__ permission data for the file server was successfully replicated when the GroupID Entitlement schedule last ran.
+  - __Fail ![rc_fail](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.webp):__ replication failed for the server due to an error.
+  - __Running ![rc_running](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.webp):__ the GroupID Entitlement schedule is running and replication is in progress.
 - __Last Replicated__: the date and time the GroupID Entitlement schedule last replicated entitlement data for the file server to Elasticsearch. _N/A_ is displayed when the
   file server has never been replicated.
 - __Status__: Click __Get Status__ to check the status of the file server, represented by the following colors:
@@ -180,7 +180,7 @@ __To replicate permissions manually:__
    - __To replicate permissions for a server:__Select a file server in the __Included File Servers__ area and click __Replicate__.
    - __To replicate permissions for multiple servers:__In the __Included File Servers__ area, select the check boxes for the servers you want to replicate. To replicate all servers, select the check box in the header row. This displays the following icons:
 
-     __![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)__
+     __![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)__
 
      Either click the __Replicate__ icon or the
      __Replicate__ button.
@@ -205,7 +205,7 @@ __To exclude a file server:__
 
      In the __Included File Servers__ area, select the check boxes for the servers you do not want to replicate. To exclude all servers, select the check box in the header row. This displays the following icons:
 
-     ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.png)
+     ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
      Click __Remove__. The servers are moved to the __Excluded File Servers__ area.
 5. Click __Save__.

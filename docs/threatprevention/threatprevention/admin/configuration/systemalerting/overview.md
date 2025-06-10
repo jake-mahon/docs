@@ -2,7 +2,7 @@
 
 The System Alerting window is only available to administrators, enabling them to configure and manage all alerting avenues. Click __Configuration__ > __Alerts__ on the menu to open it.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.png)
+![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.webp)
 
 Alerts can be sent to recipients via email, to Windows Event Log, and to SIEM products. Alerts are grouped into five types:
 

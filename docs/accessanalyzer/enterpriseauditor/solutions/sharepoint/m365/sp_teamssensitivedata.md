@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_TeamsSensitiveDat
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SP_TeamsSensitiveData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/teamssensitivedataanalysis.png)
+![Analysis Tasks for the SP_TeamsSensitiveData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/teamssensitivedataanalysis.webp)
 
 The default analysis task is:
 

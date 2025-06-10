@@ -8,7 +8,7 @@ To crawl the data within SharePoint Online, you need to enable Multi-Factor Auth
 
 - [Accessing SharePoint Online Using Modern Authentication](/docs/dataclassification/ndc/configuration/configinfrastructure/spomodernauth.md)
 
-![addsharepointonline_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/addsharepointonline_thumb_0_0.png)
+![addsharepointonline_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/addsharepointonline_thumb_0_0.webp)
 
 Complete the following fields:
 

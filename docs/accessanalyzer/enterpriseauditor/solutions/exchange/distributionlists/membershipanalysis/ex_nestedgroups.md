@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __6. Distribution Li
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_NestedGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.png)
+![Analysis Tasks for the EX_NestedGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

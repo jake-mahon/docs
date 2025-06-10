@@ -24,11 +24,11 @@ __Step 1 –__ Open Component Services
 
 1. Open the "run" box (Win-R), type ```"dcomcnfg"``` and click OK
 
-   ![669_3_image-20200327172830-3](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.png)
+   ![669_3_image-20200327172830-3](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
 
 __Step 2 –__ Expand Console Root -> Component Services -> Computers -> My Computer -> Distributed Transaction Coordinator, Right-Click on Local DTC and click Properties
 
-![669_5_image-20200327172830-4](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.png)
+![669_5_image-20200327172830-4](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
 
 __Step 3 –__ On the Security tab -> Security Settings and Configure as follows:
 
@@ -38,7 +38,7 @@ __Step 3 –__ On the Security tab -> Security Settings and Configure as follows
 4. Check "Enable SNA LU 6.2 Transactions"
 5. Click OK
 
-   ![669_7_image-20200327172830-5](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.png)
+   ![669_7_image-20200327172830-5](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
 
 __Step 4 –__ The MSDTC service will need to be restarted for the changes to take affect – Click YES to restart now or NO to restart manually later.
 
@@ -50,10 +50,10 @@ __Step 1 –__ Open the Windows Defender Firewall
 
 __Step 2 –__ Click on "Allow an app or feature through Windows Defender Firewall"
 
-![669_9_image-20200327172830-6](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.png)
+![669_9_image-20200327172830-6](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
 
 __Step 3 –__ Find "Distributed Transaction Coordinator", check and check the appropriate Network profile (e.g. Domain).
 
-![669_11_image-20200327172830-7](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.png)
+![669_11_image-20200327172830-7](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
 
 __Step 4 –__ Click OK to save and close

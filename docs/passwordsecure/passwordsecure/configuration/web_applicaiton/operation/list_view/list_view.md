@@ -4,7 +4,7 @@
 
 The central element of the navigation in the Web Application is list view, which clearly presents the filtered elements. As list view in the Web Application provides the same functions as list view in the client, we refer you at this point to the [List view](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md) section.
 
-![installation_with_parameters_176](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/list_view/installation_with_parameters_176.png)
+![installation_with_parameters_176](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/list_view/installation_with_parameters_176.webp)
 
 #### Special features
 

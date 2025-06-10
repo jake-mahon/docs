@@ -14,7 +14,7 @@ __Step 3 –__ Define a filter criteria. See the [Apply Filters](/docs/1secure/a
 
 __Step 4 –__ Click __Save as__ in the upper right corner of the page. The Create Report pane is displayed.
 
-![Create Report Pane](/img/product_docs/1secure/admin/searchandreports/searchcreatereports.png)
+![Create Report Pane](/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
 
 __Step 5 –__ In the Create Report pane, specify a name and description for the report in the Name and Description fields.
 

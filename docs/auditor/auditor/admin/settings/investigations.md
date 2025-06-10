@@ -4,7 +4,7 @@ By default, the Audit Database stores data up to 180 days. Once the retention pe
 
 Depending on your company requirements you may need to investigate past incidents and browse old data stored in the Long-Term Archive. Netwrix Auditor allows importing data from the Long-Term Archive to a special "investigation" database. Having imported data there, you can run searches and generate reports with your past data.
 
-![investigate](/img/product_docs/auditor/auditor/admin/settings/investigate.png)
+![investigate](/img/product_docs/auditor/auditor/admin/settings/investigate.webp)
 
 To import audit data with the Archive Data Investigation wizard
 

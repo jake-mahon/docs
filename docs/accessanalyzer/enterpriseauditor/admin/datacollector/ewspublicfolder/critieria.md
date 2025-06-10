@@ -2,7 +2,7 @@
 
 Use the Select DLP criteria for this scan page to select criteria for the sensitive data scan. It is a wizard page for the Sensitive Data category.
 
-![EWS Public Folder Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![EWS Public Folder Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 The options on the Criteria page are:
 

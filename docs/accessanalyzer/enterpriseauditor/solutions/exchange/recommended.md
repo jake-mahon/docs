@@ -31,7 +31,7 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Unless otherwise indicated within the job group section, do not make changes to other wizard pages as they have been pre-configured for the purpose of the job.
 
-![CAS name on ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/exchangepscas.png)
+![CAS name on ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/exchangepscas.webp)
 
 __Step 4 –__ On the Category page, select the __Use specific server__ option and enter the CAS name in the text box. See the [ExchangePS: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/category.md) topic for additional information.
 

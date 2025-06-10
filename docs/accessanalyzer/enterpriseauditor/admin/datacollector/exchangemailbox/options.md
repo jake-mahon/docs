@@ -7,7 +7,7 @@ The Options page provides different configuration options for the search. It is 
 - Mailbox permissions
 - Mailbox sensitive data discovery
 
-![Exchange Mailbox Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Exchange Mailbox Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 The following options can be configured:
 

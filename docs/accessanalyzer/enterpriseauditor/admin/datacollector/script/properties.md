@@ -26,6 +26,6 @@ The Data Source tab is used to select the data collector to be used. The configu
 
 Although the property list is automatically populated by the data collectors, additional properties may be added manually. Doing so allocates storage within Access Analyzer during data collection and creates corresponding columns in the output table. Use a script to reference and populate these properties.
 
-![Properties on the Query Properties window](/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.png)
+![Properties on the Query Properties window](/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.webp)
 
 To add properties manually, click the plus (__+__) button at the bottom of the property window. To remove properties, click the minus (-) button.

@@ -20,7 +20,7 @@ __Step 1 –__ Generate the Threat Manager App Token in Threat Manager.
 
 __Step 2 –__ In Threat Prevention, click __Configuration__ > __Netwrix Threat Manager Configuration__ on the menu. The Netwrix Threat Manager Configuration window opens with the Event Sink tab displayed by default.
 
-![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.png)
+![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.webp)
 
 __Step 3 –__ In the Netwrix Threat Manager URI box, enter the Threat Manager hostname or IP address and port in the following format. The default port for Threat Manager is __10001__.
 
@@ -69,7 +69,7 @@ __Step 3 –__ Ensure the Event Sink tab is properly set up to send event data t
 
 __Step 4 –__ Click the __Honey Token__ tab.
 
-![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/honeytoken.png)
+![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/honeytoken.webp)
 
 __Step 5 –__ Check the __Enable LDAP substitution__ checkbox to enable the options on the tab.
 
@@ -105,7 +105,7 @@ __Step 5 –__ Click Save once configurations are set. The Configure Analytics w
 
 __Step 6 –__ In Threat Prevention, click __Configuration__ > __Netwrix Threat Manager Configuration__ on the menu. The Netwrix Threat Manager Configuration window opens.
 
-![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.png)
+![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
 
 __Step 7 –__ Ensure the Event Sink tab is properly set up to send event data to Threat Manager.
 

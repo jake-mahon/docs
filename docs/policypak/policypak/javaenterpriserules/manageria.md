@@ -18,19 +18,19 @@ __NOTE:__ For more examples of how to use location to manage RIAs, hover over th
 
 You might have a website and Java applet you want to allow (and run with a specific version of Java) or block entirely. You can use Manage RIA by Name (when Signed) under these circumstances. Enter the location, such as [https://java.com](https://java.com), and then enter the name of the Java applet for specificity. You can find the Java applet's name by running it without any rules first. It is important that only signed Java applets have a name.
 
-![using_policypak_java_rules](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules.png)
+![using_policypak_java_rules](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules.webp)
 
 Once you know this, your rule will display the properties shown below.
 
 __NOTE:__ In this instance, the __Latest in family__ option has been chosen for Java 8.
 
-![using_policypak_java_rules_1](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_1.png)
+![using_policypak_java_rules_1](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_1.webp)
 
 ## Managing RIAs Based on Certificate
 
 You can also specify to whether you want to run or block a RIA based on the certificate. This is useful if you have many signed applets with the same name, but you only want to utilize one. This method works exclusively for digitally signed Java applets. To determine whether an applet is digitally signed, or if it contains the SHA256 of the certificate for the applet, see the example below.
 
-![using_policypak_java_rules_2](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_2.png)
+![using_policypak_java_rules_2](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_2.webp)
 
 To get the certificate information using Firefox:
 
@@ -58,7 +58,7 @@ __Step 4 –__ Save the file.
 
 The first three steps areseen here.
 
-![using_policypak_java_rules_3](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_3.png)
+![using_policypak_java_rules_3](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_3.webp)
 
 After you've saved the file, continue with the following steps, which are shown below.
 
@@ -74,12 +74,12 @@ __Step 5 –__ Run command prompt (as admin), and go to java folder ```cd C:\Pro
 
 __Step 6 –__ Type ```keytool -printcert -jarfile pathtojar\javadetection.jar | more```.
 
-![using_policypak_java_rules_4](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_4.png)
+![using_policypak_java_rules_4](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_4.webp)
 
 At this point, the SHA256 Hash appears, which you can copy and paste into the MMC. It is valid only with 32 pairs of hexadecimal numbers, with colons for separation.
 
-![using_policypak_java_rules_5](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_5.png)
+![using_policypak_java_rules_5](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_5.webp)
 
 Be sure to use only the first SHA256 displayed and not the others listed in the output. Note that when you paste it into the Endpoint Policy Manager Java Rules Manager MMC snap in, the colons are automatically stripped.
 
-![using_policypak_java_rules_6](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_6.png)
+![using_policypak_java_rules_6](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_6.webp)

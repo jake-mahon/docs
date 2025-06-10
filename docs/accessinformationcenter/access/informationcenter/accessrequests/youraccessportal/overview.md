@@ -10,7 +10,7 @@ The Your Access portal is where domain users can view their current access, subm
 
 The Your Access portal displays your current access for resources managed through the Access Information Center.
 
-![Your Access portal interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![Your Access portal interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The information displayed in the table includes:
 
@@ -26,7 +26,7 @@ The information displayed in the table includes:
 
 The buttons above and below the table enable you to perform the following actions:
 
-![Your Access portal interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.png)
+![Your Access portal interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.webp)
 
 | Button | Description |
 | --- | --- |

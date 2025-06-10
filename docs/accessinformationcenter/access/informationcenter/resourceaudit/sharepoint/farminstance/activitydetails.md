@@ -2,7 +2,7 @@
 
 The Activity Details report at the on-premise farm and online instance levels provides statistical activity event information by user on the selected farm during the specified date range. This report includes a line graph for Active Users Trend.
 
-![Activity Details report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetails.png)
+![Activity Details report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -29,7 +29,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 There is one line graph at the bottom displaying Active Users Trend for the selected resource.
 
-![Active Users Trend graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetailstrendgraph.png)
+![Active Users Trend graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetailstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users over the selected date range. It indicates how many users are performing activity per day.
 

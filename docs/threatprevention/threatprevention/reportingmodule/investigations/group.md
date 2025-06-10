@@ -4,7 +4,7 @@ The Group Details page displays the membership details for a group.
 
 In an investigation report, when you click the Perpetrator (user name) link or Target (host name) link, you land on the User Details page or the Host Details page. Click a group name here to go to the Group Details page.
 
-![Group Details page - Members tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.png)
+![Group Details page - Members tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.webp)
 
 The top of the page displays a group profile card that may contain the following information about the group:
 
@@ -42,7 +42,7 @@ Each sub-tab displays a table with the following columns:
 
 Click the Group Membership tab to open it.
 
-![Group Membership Tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.png)
+![Group Membership Tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.webp)
 
 The Group Membership tab displays the groups that _the group_ is a member of. Here, 'the group' refers to the group whose details you are viewing.
 

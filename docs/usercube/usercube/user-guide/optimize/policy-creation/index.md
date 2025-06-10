@@ -30,15 +30,15 @@ Create a Resource Type
 
 Create a policy by proceeding as follows:
 
-![Home - Access Policies](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.png)
+![Home - Access Policies](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.webp)
 
 __Step 1 –__ Access the policies screen by clicking on __Access Policies__ on the home page in the __Configuration__ section.
 
-![New Policy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.png)
+![New Policy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.webp)
 
 __Step 2 –__ Click on __+ New policy__ at the top right corner.
 
-![createpolicy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/createpolicy.png)
+![createpolicy](/img/product_docs/usercube/usercube/user-guide/optimize/policy-creation/createpolicy.webp)
 
 __Step 3 –__ Fill in the information fields.
 

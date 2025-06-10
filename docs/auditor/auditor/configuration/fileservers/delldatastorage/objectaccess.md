@@ -18,7 +18,7 @@ __Step 5 –__ In the __Group Policy Management Editor__ dialog, expand the __Co
 | --- | --- | --- |
 | Audit Policy | __Audit object access__ | _"Success"_ and _"Failure"_ |
 
-![manualconfig_fileserver_auditpolicy2016](/img/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.png)
+![manualconfig_fileserver_auditpolicy2016](/img/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
 
 __Step 6 –__ To update the group policies, execute the following command:
 

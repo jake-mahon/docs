@@ -6,7 +6,7 @@ This page is about [
 Azure
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/azure/index.md).
 
-![Package: Cloud/Azure](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.png)
+![Package: Cloud/Azure](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
 ## Prerequisites
 

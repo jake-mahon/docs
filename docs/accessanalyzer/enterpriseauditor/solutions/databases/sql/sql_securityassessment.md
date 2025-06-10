@@ -2,7 +2,7 @@
 
 The SQL\_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW, and NO FINDINGS categories based on severity.
 
-![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.png)
+![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.webp)
 
 Special Dependencies
 
@@ -22,7 +22,7 @@ Only information collected from jobs/groups being run will produce findings.
 
 Navigate to the SQL > SQL\_SecurityAssesment > Configure node and select Analysis to view the analysis task.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.webp)
 
 The default analysis task is:
 

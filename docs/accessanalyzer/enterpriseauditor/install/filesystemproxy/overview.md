@@ -40,7 +40,7 @@ Two options are available for implementing the proxy scanning architecture:
 
 When File System scans are run in proxy mode with applet, it means the File System applet is deployed to the Windows proxy server when the job is executed to conduct data collection. The data collection processing is initiated by the proxy server where the applet is deployed and leverages a local mode-type scan to each of the target hosts. The final step in data collection is to compress and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access Analyzer Console server.
 
-![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodewithapplet.png)
+![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodewithapplet.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a proxy server, which runs the scan against a file server, and then returns data to the Access Analyzer server.
 
@@ -57,13 +57,13 @@ The proxy communication is configured during the installation of the service on 
 
 See the [File System Proxy Service Installation](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/wizard.md) topic for additional information.
 
-![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.png)
+![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
 
 The diagram illustrates the Access Analyzer server communicating securely with the proxy service on a proxy server, which runs the scan against a file server, collecting the data locally and securely. Then the proxy service returns data securely to the Access Analyzer server.
 
 When a proxy mode scan is initiated from the Access Analyzer Console, it will distribute hosts to be scanned across all proxy hosts. Access Analyzer monitors the scans from the central console. Once all proxy hosts have completed scanning, all results and SQLite databases are returned to the Access Analyzer Console server.
 
-![Diagram of difference between an implementation with and without proxy servers](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/fsaaproxyarchitecture.png)
+![Diagram of difference between an implementation with and without proxy servers](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/fsaaproxyarchitecture.webp)
 
 The diagram shows the difference between an implementation of Access Analyzer without proxy servers (on the left) and with proxy servers (on the right). On the right side of the diagram, the scans have been configured to use the local host and two additional proxy servers to perform the FSAA Data Collector scans. This allows it to execute three times as many concurrent hosts than would be possible without proxy servers. This provides a clear benefit in scalability and scan times.
 

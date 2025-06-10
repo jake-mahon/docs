@@ -2,7 +2,7 @@
 
 The Activities tab shows the activities associated with the selected access policy. Only the Credential Release activity is associated with a Credential Based Access Policy.
 
-![Credential based resource Activities tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/activitiestabcredentials.png)
+![Credential based resource Activities tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/activitiestabcredentials.webp)
 
 The Activities tab has the following features:
 

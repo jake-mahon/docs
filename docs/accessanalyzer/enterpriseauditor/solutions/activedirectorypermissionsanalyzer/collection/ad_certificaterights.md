@@ -8,7 +8,7 @@ The AD\_CertificateRights job uses the ADPermissions data collector for the foll
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_CertificateRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/certificaterightsquery.png)
+![Query for the AD_CertificateRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/certificaterightsquery.webp)
 
 - Certificate Template Permissions – Collects certificate templates from Active Directory
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/certificaterightsanalysis.png)
+![Analysis Tasks for the AD_CertificateRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/certificaterightsanalysis.webp)
 
 - Certificate Rights View – Creates the SA\_AD\_CertificateRights\_Details\_PermissionsView visible under the job’s Results node
 - AIC Certificate Permissions Import – Creates an interim processing table in the database for use by downstream analysis and report generation

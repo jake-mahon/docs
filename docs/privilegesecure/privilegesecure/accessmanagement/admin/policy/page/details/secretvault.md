@@ -4,7 +4,7 @@ The Secret Vault Details page shows additional information for the selected Secr
 
 Secret Vaults are used to store any manually-managed resource, username, or password combination. Credentials are assigned via Credential Based access policies for password release. See the [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md) topic for additional information.
 
-![Secrete Vault Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/seretvaultdetailspage.png)
+![Secrete Vault Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/seretvaultdetailspage.webp)
 
 The details page shows the following information:
 

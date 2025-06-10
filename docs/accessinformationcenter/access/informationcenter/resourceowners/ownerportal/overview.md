@@ -5,7 +5,7 @@ The Owner portal is where owners manage their assigned resources. You should log
 - For an owner with an assigned user role, the Access Information Center will open to the Home page. You will use the __Manage Your Resources__ link in the Your Links section to open the Owner portal. If resources assigned to you have pending resource reviews or pending access requests, the Pending Tasks notification displays next to the link.
 - For an owner without an assigned user role, the Access Information Center will open directly to the Owner portal.
 
-![Owner Portal interface with 3 sections identified](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Owner Portal interface with 3 sections identified](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 The Owner portal has three sections:
 
@@ -21,6 +21,6 @@ The Owner portal has three sections:
 
 The Ownership Status section contains a confirmation chart.
 
-![Ownership Status donut graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/ownershipstatus.png)
+![Ownership Status donut graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/ownershipstatus.webp)
 
 It displays a graphical representation of the percentage of resources assigned to you that have been confirmed.

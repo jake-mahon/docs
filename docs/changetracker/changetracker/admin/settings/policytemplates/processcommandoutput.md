@@ -6,11 +6,11 @@ Where required, Netwrix Change Tracker can also execute commands on the endpoint
 
 cmd /C %systemroot%\system32\inetsrv\appcmd list VDIR /text:VDIR.NAME
 
-![ProcessCommandOutput](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutput.png)
+![ProcessCommandOutput](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutput.webp)
 
 - Commands will be executed indirectly by the __Master Proxy Agent__ being used and the initial baseline stored in the __Proxy Agent__ database, with any subsequent changes detected being reported back to the Hub. The commands will be run using whichever service account has been used in the assigned __Credentials__.
 
-![ProcessCommandOutputCredentials](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.png)
+![ProcessCommandOutputCredentials](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.webp)
 
 - __Use of RegEx__ – Whether using Agent-based or Agentless Command Output Trackers, a Regular Expression can be applied to the command output to filter/match specific keywords/patterns. Note that any device-offered RegEx capabilities e.g. egrep on Linux, can still be used instead of or to complement the Agent regex applied.
 

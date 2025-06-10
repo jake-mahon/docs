@@ -33,7 +33,7 @@ Each job group within the solution collects data, analyzes the data, and reports
 
 The Exchange Solution is divided into categories based upon what is being audited.
 
-![Exchange Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Exchange Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following job groups comprise the Exchange Solution:
 

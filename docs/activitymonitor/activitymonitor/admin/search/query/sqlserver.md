@@ -2,7 +2,7 @@
 
 You can search SQL Server activity that has been monitored and recorded to a File output. When you select __SQL Server__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![SQL Server Search Query](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlsearchquerytoolbar.png)
+![SQL Server Search Query](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlsearchquerytoolbar.webp)
 
 The filters are separated into the following categories:
 
@@ -29,7 +29,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category scopes the query by the most common types of filters. The time frame filter must be configured for every search query.
 
-![General Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilter.png)
+![General Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilter.webp)
 
 This section has the following filters:
 
@@ -44,7 +44,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![userfilter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/userfilter.png)
+![userfilter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/userfilter.webp)
 
 This section has the following filters:
 
@@ -55,7 +55,7 @@ This section has the following filters:
 
 The SQL category scopes the query by SQL Server activity.
 
-![SQL Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlfilters.png)
+![SQL Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlfilters.webp)
 
 This section has the following filters:
 

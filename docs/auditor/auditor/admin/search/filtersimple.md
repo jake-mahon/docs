@@ -21,14 +21,14 @@ Follow the steps to add a filter to your search.
 
 __Step 1 –__ Click a filter type icon. Enter a value you want to search for.
 
-![Account specification](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.png)
+![Account specification](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
 
 Alternatively, you can type a value directly into the Search field.
 
 - For exact match, use quotation marks.
 - To further restrict your search, right-click the value and select a filter from the pop-up menu. To search across all columns in the results view (everywhere—Who, What, Where, Action, etc.), leave it as is.
 
-![Filter](/img/product_docs/auditor/auditor/admin/search/addsuggestions.png)
+![Filter](/img/product_docs/auditor/auditor/admin/search/addsuggestions.webp)
 
 __Step 2 –__ Click Search to apply your filters. By default, all entries that contain the filter value are shown.
 
@@ -36,7 +36,7 @@ __Step 2 –__ Click Search to apply your filters. By default, all entries that 
 
 | To... | Do... |
 | --- | --- |
-| Modify filter | Double-click the filter and type a new value.  ![Filter new value](/img/product_docs/auditor/auditor/admin/search/search_modify_filter.png)  If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
+| Modify filter | Double-click the filter and type a new value.  ![Filter new value](/img/product_docs/auditor/auditor/admin/search/search_modify_filter.webp)  If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
 | Remove filter | Click the __Close__ icon next to it. |
 
 ## Exporting and Importing Filters

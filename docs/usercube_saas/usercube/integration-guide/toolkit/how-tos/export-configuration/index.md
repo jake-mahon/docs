@@ -67,7 +67,7 @@ Export a SaaS configuration by proceeding as follows:
    However, if, since then, there has been a change in the identity deploying/exporting the configuration or in the Identity Provider used to log in at step 1, then go through the whole process again.
 2. Log in to the IDP to be redirected back to this screen:
 
-   ![Usercube-Login.exe Success Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.png)
+   ![Usercube-Login.exe Success Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.webp)
 
    Once authenticated, an identification token is stored on your local machine for the authentication to Identity Manager's deployment and export processes.
 3. Copy the entire text within the blue square and send it to your Identity Manager administrator.

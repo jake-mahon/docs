@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![User Account Hacking Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/accounthackingsettings.png)
+![User Account Hacking Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/accounthackingsettings.webp)
 
 Set the Number of Failed Logins and the Interval Duration to trigger the incident. The interval duration is set for (hours:minutes) and is capped at 23:59. When the specified number of failed logins have occurred for an individual user account within the specified interval duration, it will trigger an incident record.
 
@@ -48,7 +48,7 @@ If checked, the __Ignore failed logins for unresolved user names__ option will e
 
 Policy Tab
 
-![User Account Hacking Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![User Account Hacking Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -69,7 +69,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __User Account Hacking__ node lists one row per incident identified.
 
-![User Account Hacking Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/useraccounthacking.png)
+![User Account Hacking Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/useraccounthacking.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

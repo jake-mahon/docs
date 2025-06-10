@@ -2,7 +2,7 @@
 
 The Configuration interface is available only to users with the Administrator role. It is opened by the __Configuration__ tab.
 
-![Configuration interface showing the Console Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.png)
+![Configuration interface showing the Console Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
 
 It has the following pages:
 

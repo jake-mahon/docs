@@ -35,11 +35,11 @@ For each authentication method, one or several authentication providers can be s
 
 Internal method & test mode form:
 
-![authent_1](/img/product_docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.png)
+![authent_1](/img/product_docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.webp)
 
 External method prompt:
 
-![authent_2](/img/product_docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.png)
+![authent_2](/img/product_docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.webp)
 
 ## Identity Server RSA Key Pair
 

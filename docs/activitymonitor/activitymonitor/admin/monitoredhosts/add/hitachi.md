@@ -27,23 +27,23 @@ Follow the steps to add a Hitachi host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the Agent to monitor the storage device. Click __Next__.
 
-![Add Host page with Hitachi NAS selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhosthitachi.png)
+![Add Host page with Hitachi NAS selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhosthitachi.webp)
 
 __Step 3 –__ On the Add Host page, select the Hitachi NAS radio button and enter the __EVS or file system name__ for the device. If desired, add a __Comment__. Click __Next__.
 
-![Hitachi NAS Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/hitachinasoptions.png)
+![Hitachi NAS Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/hitachinasoptions.webp)
 
 __Step 4 –__ On the Hitachi NAS Options page, enter the __Logs path (UNC)__ and the __Active Log file name__. Then enter the credentials to access the HNAS Log files. Click Connect to validate the connection with the Hitachi device. Click __Next__.
 
-![Configure Operations page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationshitachi.png)
+![Configure Operations page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationshitachi.webp)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__ and __Directory Operations__ to be monitored. Click __Next__.
 
-![Configure Basic Options page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionshitachi.png)
+![Configure Basic Options page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionshitachi.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -58,11 +58,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where To Log The Activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologtheactivity.png)
+![Where To Log The Activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologtheactivity.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -77,7 +77,7 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -98,7 +98,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![Activity Monitor with Hitachi Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorhitachi.png)
+![Activity Monitor with Hitachi Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorhitachi.webp)
 
 The added Hitachi host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

@@ -24,7 +24,7 @@ __Step 1 –__ On a target server, navigate to Start > Windows Administrative To
 
 __Step 2 –__ Navigate to Event Viewer tree > Windows Logs, right-click __Security__ and select __Properties__.
 
-![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.png)
+![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.webp)
 
 __Step 3 –__ Make sure Enable logging is selected.
 
@@ -69,7 +69,7 @@ HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\<log\_name>. For
 
 __Step 2 –__ Set the MaxSize to the required decimal value (in bytes).
 
-![gpo_eventlog_regedit_thumb_0_0](/img/product_docs/auditor/auditor/configuration/windowsserver/gpo_eventlog_regedit_thumb_0_0.png)
+![gpo_eventlog_regedit_thumb_0_0](/img/product_docs/auditor/auditor/configuration/windowsserver/gpo_eventlog_regedit_thumb_0_0.webp)
 
 You can configure Group Policy Preferences to push registry changes to the target domain computers. For the example above (Directory Service Log), perform the following steps.
 
@@ -83,7 +83,7 @@ __Step 3 –__ In the Properties window on the General tab select the following:
 - Hive > HKEY\_LOCAL\_MACHINE
 - Key Path – browse to MaxSize value at the
   SYSTEM\CurrentControlSet\Services\EventLog\Directory Service  
-  ![gpo_eventlog_gpmc_thumb_0_0](/img/product_docs/auditor/auditor/configuration/windowsserver/gpo_eventlog_gpmc_thumb_0_0.png)
+  ![gpo_eventlog_gpmc_thumb_0_0](/img/product_docs/auditor/auditor/configuration/windowsserver/gpo_eventlog_gpmc_thumb_0_0.webp)
 
 __Step 4 –__ Change the MaxSize REG\_DWORD to the required decimal value (in bytes).
 

@@ -8,7 +8,7 @@ The AD\_ContainerRights Job uses the ADPermissions Data Collector for the follow
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/containerrightsquery.png)
+![Query for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/containerrightsquery.webp)
 
 - Container Access Permissions – Returns containers under the given scope
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/containerrightsanalysis.png)
+![Analysis Tasks for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/containerrightsanalysis.webp)
 
 The default analysis tasks are:
 

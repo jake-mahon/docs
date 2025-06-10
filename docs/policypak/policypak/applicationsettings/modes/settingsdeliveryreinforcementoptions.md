@@ -4,7 +4,7 @@ When the client is online and able to make contact with a domain controller, End
 
 As seen in Figure 41, a client machine can detect that there is no network connectivity. With no network connectivity, Microsoft's built-in ```gpupdate.exe ```will fail when it is run.
 
-![policypak_application_settings_1_20](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_20.png)
+![policypak_application_settings_1_20](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_20.webp)
 
 Figure 41. The error message that is received when ```gpupdate.exe``` is run while the client machine is offline.
 
@@ -32,7 +32,7 @@ Let's explore the manual command ```ppupdate``` and the various automatic ways t
 
 Whether the computer is online or offline, PolicyPak Application Settings Manager can manually reapply settings using``` ppupdate.exe```. In Figure 42, you can see ```ppupdate.exe``` being run to reinforce any changed settings.
 
-![policypak_application_settings_1_21](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_21.png)
+![policypak_application_settings_1_21](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_21.webp)
 
 Figure 42. ```Ppupdate.exe``` being run.
 
@@ -48,7 +48,7 @@ If you do not want a particular AppSet's settings to apply automatically when th
 
 Inside the AppSet definition, find the Options button and deselect "Always re-apply settings when application runs." As you can see in Figure 43, all applications are checked by default. You can uncheck the checkbox to stop the reapplication.
 
-![policypak_application_settings_1_22](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_22.png)
+![policypak_application_settings_1_22](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_22.webp)
 
 Figure 43. Select or unselect the "Always re-apply settings when application runs" setting in the Options inside the Pak definition.
 
@@ -58,7 +58,7 @@ The reapplication is provided by a kernel-mode driver, which is actively looking
 
 Note that you also should either reboot the machine to disable or re-enable the driver.
 
-![policypak_application_settings_1_23](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_23.png)
+![policypak_application_settings_1_23](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_23.webp)
 
 Figure 44. Use the following Registry location to fully disable the Endpoint Policy Manager driver, which performs reapplication of settings for applications.
 
@@ -74,7 +74,7 @@ Again, the reinforcement timer is not enabled by default on the target machine. 
 
 However, note that if you enable the "Do not re-apply settings with Reinforcement Timer," as seen in Figure 45 (which is at the AppSet level), then the specific AppSet will NOT be reapplied when the timer is supposed to apply it. In short, by setting this option, you bypass reapplication of the settings even when the enforcement timer is set.
 
-![policypak_application_settings_1_24](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_24.png)
+![policypak_application_settings_1_24](/img/product_docs/policypak/policypak/applicationsettings/modes/policypak_application_settings_1_24.webp)
 
 Figure 45. Enabling the "Do not re-apply settings with Reinforcement Timer" setting.
 

@@ -16,4 +16,4 @@ Here is what to do:
 - Exporting to be used with PPExporter (then on to SCCM, Intune, etc.)
 - Exporting to be used with Endpoint Policy Manager Cloud.
 
-![358_2_image0022](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/export/358_2_image0022.png)
+![358_2_image0022](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/export/358_2_image0022.webp)

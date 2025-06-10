@@ -17,25 +17,25 @@ __NOTE:__ Manually deploying the Agent requires an Enrollment Secret, which is a
 
 __Step 1 –__ From the Threat Prevention server, copy the Agent executable ( ```...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\Setup\SI Agent.exe```) to the machine where you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent Setup wizard opens.
 
-![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 __Step 2 –__ On the Welcome page, click __Install__. The Setup Progress page is displayed, followed by another Welcome page.
 
-![welcome2](/img/product_docs/activitymonitor/activitymonitor/install/agent/welcome2.png)
+![welcome2](/img/product_docs/activitymonitor/activitymonitor/install/agent/welcome2.webp)
 
 __Step 3 –__ Click __Next__.
 
-![Threat Prevention Windows Agent Setup wizard - End-User License Agreement page](/img/product_docs/activitymonitor/activitymonitor/install/agent/license.png)
+![Threat Prevention Windows Agent Setup wizard - End-User License Agreement page](/img/product_docs/activitymonitor/activitymonitor/install/agent/license.webp)
 
 __Step 4 –__ On the End-User License Agreement page, check the __I accept the terms in the License Agreement__ box and click __Next__.
 
-![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.png)
+![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
 
 __Step 5 –__ _(Optional)_ On the Destination Folder page, change the installation directory location.
 
 - To change the default installation directory location, click __Change…__.
 
-![Change Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.png)
+![Change Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
 
 > > - Use the Look In field to select the desired installation folder.
 > > - When the Folder name is as desired, click __OK__. The wizard returns to the Destination Folder page.
@@ -43,14 +43,14 @@ __Step 5 –__ _(Optional)_ On the Destination Folder page, change the installat
 
 > To use the default installation directory location, skip the previous step and click __Next__ on the Destination Folder page.
 
-![Threat Prevention Windows Agent Setup wizard - CA Certificate Configuration page](/img/product_docs/activitymonitor/activitymonitor/install/agent/cacertconfig.png)
+![Threat Prevention Windows Agent Setup wizard - CA Certificate Configuration page](/img/product_docs/activitymonitor/activitymonitor/install/agent/cacertconfig.webp)
 
 __Step 6 –__ On the CA Certificate Configuration page, select one of the following options for the certificate and click __Next__:
 
 - Managed by Netwrix Threat Prevention – To use certificates that are signed and managed by Threat Prevention
 - Custom-managed – To use certificates that are signed by the customer's external certificate authority
 
-![Threat Prevention Windows Agent Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/agent/enterprisemanager.png)
+![Threat Prevention Windows Agent Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/agent/enterprisemanager.webp)
 
 __Step 7 –__ On the Enterprise Manager Location Information page, select the __Option__ button for a product to enable communication with it.
 
@@ -84,7 +84,7 @@ __Step 7 –__ On the Enterprise Manager Location Information page, select the _
 
 When the settings are configured, click __Next__.
 
-![StealthINTERCEPT Windows Agent Setup wizard on the Certificates page](/img/product_docs/threatprevention/threatprevention/install/agent/certificates.png)
+![StealthINTERCEPT Windows Agent Setup wizard on the Certificates page](/img/product_docs/threatprevention/threatprevention/install/agent/certificates.webp)
 
 __Step 8 –__ On the Certificates page, confirm the EM certificate hash by verifying that it contains the same value displayed in the [Enrollment Secret Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md) in the Administration Console.
 
@@ -94,7 +94,7 @@ __NOTE:__ This page is not displayed when "Custom-managed" is selected on the CA
 
   __NOTE:__ If the enrollment secret has expired, you can generate a new one.
 
-![Threat Prevention Windows Agent Setup wizard - Select Event Sources page](/img/product_docs/threatprevention/threatprevention/install/agent/eventsources.png)
+![Threat Prevention Windows Agent Setup wizard - Select Event Sources page](/img/product_docs/threatprevention/threatprevention/install/agent/eventsources.webp)
 
 __Step 9 –__ On the Select Event Sources page, select the types of events to be monitored by this Agent. The installer grays out options that are not applicable to the server where the Agent is being deployed. Click __Next__.
 
@@ -109,11 +109,11 @@ __Step 9 –__ On the Select Event Sources page, select the types of events to b
 - NetApp Security Event Log – Available for legacy versions. Option should be grayed-out.
 - Workstation Events – Available for legacy versions. Option should be grayed-out.
 
-![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.png)
+![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
 
 __Step 10 –__ On the Ready to install Threat Prevention Windows Agent page, click __Install__. The Setup wizard displays the installation status. When the installation completes, the Operation Successful page is displayed.
 
-![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.png)
+![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
 
 __Step 11 –__ When installation is complete, click __Close__.
 

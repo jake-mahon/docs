@@ -8,7 +8,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __4. Delete__ > __FS\_DeleteFiles
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_DeleteFiles_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.png)
+![Analysis Tasks for the FS_DeleteFiles_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.webp)
 
 The following analysis task is selected by default:
 

@@ -4,7 +4,7 @@ The Endpoint Policy Manager Device Manager Help Tool can help you gather details
 
 The Endpoint Policy Manager Device Manager Help Tool can be found in the download in the Endpoint Policy Manager Extras folder.
 
-![helper1](/img/product_docs/policypak/policypak/device/devicemanager/helper1.png)
+![helper1](/img/product_docs/policypak/policypak/device/devicemanager/helper1.webp)
 
 __NOTE:__ The Endpoint Policy Manager Device Manager Helper tool may need local administrative rights to run and also needs the WinRM service started.
 
@@ -12,7 +12,7 @@ __NOTE:__ The Endpoint Policy Manager Device Manager Helper tool may need local 
 
 Follow the steps to generate a device list that can be used for creating Device Manager policies.
 
-![helper2](/img/product_docs/policypak/policypak/device/devicemanager/helper2.png)
+![helper2](/img/product_docs/policypak/policypak/device/devicemanager/helper2.webp)
 
 __Step 1 –__ Open the Endpoint Policy Manager Device Manager Helper.
 
@@ -20,14 +20,14 @@ The Device Manager Export Wizard displays details for each selection: Disk Driv
 
 The Device Manager Helper tool enables you to quickly gather Instance Paths for connected and non-connected devices.
 
-![helper3](/img/product_docs/policypak/policypak/device/devicemanager/helper3.png)
+![helper3](/img/product_docs/policypak/policypak/device/devicemanager/helper3.webp)
 
 __Step 2 –__ On the Select Disk Devices window, right-click to automatically copy the detail to the buffer for later pasting.
 
-![helper4](/img/product_docs/policypak/policypak/device/devicemanager/helper4.png)
+![helper4](/img/product_docs/policypak/policypak/device/devicemanager/helper4.webp)
 
 You can also save the list of all devices at the end of the Wizard using the __Save application list to this XML__ option.
 
 Then, you may use this list using the previously described wizard pages such as Allow Device by Serial Number and Allow Device by BitLocker Key, as shown in the example screen below.
 
-![helper5](/img/product_docs/policypak/policypak/device/devicemanager/helper5.png)
+![helper5](/img/product_docs/policypak/policypak/device/devicemanager/helper5.webp)

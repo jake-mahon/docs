@@ -6,7 +6,7 @@ The 1-SQL\_PermissionsScan Job collects SQL server instance and database level p
 
 The 1-SQL\_PermissionsScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup6.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup6.webp)
 
 - PermissionsScan – Collects permissions from targeted instances
   - (Optional) This query can be modified to target specific databases/instances. See the [Configure the PermissionsScan Query](#configure-the-permissionsscan-query) topic for additional information.
@@ -23,7 +23,7 @@ __Step 3 –__ Select the Data Source tab and click Configure. The SQL Data Coll
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![Filters](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.png)
+![Filters](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
 __Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
 
@@ -41,7 +41,7 @@ Navigate to the __Databases__ > 0.Collection > SQL > 1-SQL\_PermissionsScan > Co
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup8.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup8.webp)
 
 The default analysis tasks are:
 

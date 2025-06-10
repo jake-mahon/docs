@@ -2,7 +2,7 @@
 
 The Search filter settings page applies a filter used to search mailboxes in the environment. It is a wizard page for the Mailbox Search categories.
 
-![EWS Mailbox Data Collector Wizard Search filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
+![EWS Mailbox Data Collector Wizard Search filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Click __Add Filter__ to open the Filter Wizard.
 

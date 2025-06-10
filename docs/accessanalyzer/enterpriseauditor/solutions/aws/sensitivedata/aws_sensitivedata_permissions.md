@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS\_SensitiveData\_Permis
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_SensitiveData_Permissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatapermissionsanalysis.png)
+![Analysis Tasks for the AWS_SensitiveData_Permissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatapermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

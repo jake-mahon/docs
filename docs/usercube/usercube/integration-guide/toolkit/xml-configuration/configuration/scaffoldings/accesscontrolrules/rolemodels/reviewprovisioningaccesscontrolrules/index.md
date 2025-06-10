@@ -5,7 +5,7 @@ Also create the rights to view the TargetEntityTypes of all ResourceTypes whose 
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Provisioning Review](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.png)
+![Provisioning Review](/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.webp)
 
 ## Examples
 

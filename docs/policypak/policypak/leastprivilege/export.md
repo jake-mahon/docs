@@ -6,6 +6,6 @@ __NOTE:__ For more information on how to use Endpoint Policy Manager Least Privi
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/exporting_policies_and_collections.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/exporting_policies_and_collections.webp)
 
 __NOTE:__ Exported collections or policies maintain any Item-Level Targeting set within them.

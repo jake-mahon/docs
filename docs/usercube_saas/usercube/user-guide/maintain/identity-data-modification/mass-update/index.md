@@ -30,19 +30,19 @@ Mass update identity data (in complete mode) by proceeding as follows:
 
 1. Access the directory connector from __Connectors__ on the home page, in the __Configuration__ section.
 
-   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 2. On the connector's page, choose the connection corresponding to identities.
 3. In the connection's settings, download the Excel template full of the data from your database.
 
-   ![Download Full Template](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/datamodif_downloadtemplatedata_v602.png)
+   ![Download Full Template](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/datamodif_downloadtemplatedata_v602.webp)
 4. Update the data that needs change.
 5. Ensure that the field ```Path (Complete mode)``` is filled with the path of the source file.
 6. Click on __Upload__ and choose the file you modified with new data.
 
-   ![Upload](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/connection_upload_v602.png)
+   ![Upload](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/connection_upload_v602.webp)
 7. Click on __Check Connection__ to verify the path.
 
-   ![Check Connection](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.png)
+   ![Check Connection](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.webp)
 8. Click on __Save & Close__.
 9. Back on the connector's page, launch synchronization. See the [
    Synchronize Data
@@ -56,11 +56,11 @@ Mass update identity data (in incremental mode) by proceeding as follows:
 
 1. Access the directory connector from __Connectors__ on the home page, in the __Configuration__ section.
 
-   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+   ![Home - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 2. On the connector's page, choose the connection corresponding to identities.
 3. In the connection's settings, download the empty Excel template.
 
-   ![Download Full Template](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/datamodif_downloadtemplateempty_v602.png)
+   ![Download Full Template](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/datamodif_downloadtemplateempty_v602.webp)
 4. Fill only the data to be modified, specify the unique identifier for each entry (for correlation purposes), and fill the column ```Command```, which can take a few available inputs:
 
    - ```Add``` to incorporate new attributes;
@@ -77,10 +77,10 @@ Mass update identity data (in incremental mode) by proceeding as follows:
 5. Ensure that the field ```Path (Incremental mode)``` is filled with the path of the source file.
 6. Click on __Upload__ and choose the file you modified with new data.
 
-   ![Upload](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/connection_upload_v602.png)
+   ![Upload](/img/product_docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/connection_upload_v602.webp)
 7. Click on __Check Connection__ to verify the path.
 
-   ![Check Connection](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.png)
+   ![Check Connection](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.webp)
 8. Click on __Save & Close__.
 9. Back on the connector's page, launch synchronization. See the [
    Synchronize Data
@@ -94,12 +94,12 @@ In order to verify the process:
 
 - Check manually a sample in the ```User``` directory accessible from the home page. You should verify at least your own sheet and the sheets for your hierarchy.
 
-  ![Home - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+  ![Home - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 - Check that every organization still has a manager. Organizations are accessible in the ```Department``` directory accessible from the home page.
 
-  ![Home - Directory Department](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.png)
+  ![Home - Directory Department](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.webp)
 
-  ![List of Departments](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
+  ![List of Departments](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.webp)
 
   If the system contains many organizations, then it is also possible to list them with their managers through the Query module.
 - Create reports with indicators on the workers number per type or per organization for example (through Identity Manager' predefined reports, the Query module or Power BI), in order to ensure that Identity Manager's content sticks to reality. See the [

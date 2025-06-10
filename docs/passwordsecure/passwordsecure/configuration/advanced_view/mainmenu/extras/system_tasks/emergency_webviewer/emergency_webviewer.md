@@ -26,7 +26,7 @@ __CAUTION:__ The export right for the passwords is not required for the Emergenc
 
 The user requires the following right to create a __Emergency WebViewer Export system task:__
 
-![installation_with_parameters_89](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_89.png)
+![installation_with_parameters_89](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_89.webp)
 
 ## Emergency WebViewer.html and PrivateKey.prvkey
 
@@ -39,23 +39,23 @@ The __Emergency WebViewer Export__ creates two associated files.
 
 The Emergency WebViewer Export is set up as a __system task__. It can be called up in the main menu under __Extras -> System Tasks__.
 
-![installation_with_parameters_90_831x487](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_90_831x487.png)
+![installation_with_parameters_90_831x487](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_90_831x487.webp)
 
 ## Creating a Emergency WebViewer Export file
 
 Clicking on New opens a new window and the __Emergency WebViewer Export__ can be selected. The __configuration page__ is then displayed.
 
-![installation_with_parameters_91_578x390](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_91_578x390.png)
+![installation_with_parameters_91_578x390](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_91_578x390.webp)
 
 It is not possible to use the __Emergency WebViewer Export__ with an __Active Directory user.__
 
-![installation_with_parameters_92_467x103](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_92_467x103.png)
+![installation_with_parameters_92_467x103](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_92_467x103.webp)
 
 ## Configuration page for the Emergency WebViewer Export task
 
 A new tab is displayed: __New emergency HTML WebViewer export task__ This now needs to be configured in accordance with the requirements.
 
-![new emergend HTML](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_93-en_925x527.png)
+![new emergend HTML](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_93-en_925x527.webp)
 
 1. __General__
      
@@ -86,7 +86,7 @@ Once the configuration has been completed, the __system task__ is displayed in t
 
 __System Tasks__ tab. The user has the option of checking the data here
 
-![installation_with_parameters_94_914x671](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_94_914x671.png)
+![installation_with_parameters_94_914x671](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_94_914x671.webp)
 
 ## Using the Emergency WebViewer.html file
 
@@ -110,7 +110,7 @@ Login data
 - Password: User password (must be entered by the user)
 - Key: PrivateKey.prvkey
 
-![emergency-webviewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/emergency-webviewer.png)
+![emergency-webviewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/emergency-webviewer.webp)
 
 ## Overview
 
@@ -118,7 +118,7 @@ After successfully logging in, the __overview page__ for the __Emergency WebView
 
 Overview: Emergency HTML WebViewer / passwords
 
-![password in emergency webviewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_96-en.png)
+![password in emergency webviewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_96-en.webp)
 
 The following data is displayed in the overview:
 

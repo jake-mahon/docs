@@ -2,7 +2,7 @@
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who has access to it across all the targeted PostgreSQL databases.
 
-![Sensitive Data Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatajobgroup.png)
+![Sensitive Data Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatajobgroup.webp)
 
 The job in the Sensitive Data Job Group is:
 

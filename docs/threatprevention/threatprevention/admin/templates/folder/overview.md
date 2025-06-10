@@ -60,7 +60,7 @@ __Step 2 –__ In the __Select Import File__ box, click the ellipsis (__…__) t
 
 __Step 3 –__ To import all the available Threat Prevention policy templates, select the `SI_Templates_All.xml` file. Click __Open__.
 
-![Import window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.png)
+![Import window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
 
 __Step 4 –__ The Import window auto-fills with the import file details. Do not change the defaults settings. Click __Import__.
 

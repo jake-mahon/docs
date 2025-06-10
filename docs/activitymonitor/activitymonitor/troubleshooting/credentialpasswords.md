@@ -16,7 +16,7 @@ The Active Directory Domain / DC User Account is used to run the actions perform
 
 __NOTE:__ If the AD monitoring account is changed, all accounts on the domain controllers will need to be updated as well.
 
-![Agent User Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/agentuseraccount.png)
+![Agent User Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/agentuseraccount.webp)
 
 See the [Connection Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/connection.md) topic for additional information.
 
@@ -24,7 +24,7 @@ See the [Connection Tab](/docs/activitymonitor/activitymonitor/admin/agents/prop
 
 The Archive User Account is used to store log files from the agent and store them on a remote server or share. The credentials can be updated in the agent properties under the __Archiving__ tab.
 
-![Archive User Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/archiveuseraccount.png)
+![Archive User Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/archiveuseraccount.webp)
 
 See the [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md) topic for additional information.
 
@@ -32,7 +32,7 @@ See the [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/prope
 
 The Panzura MQ Protection Credentials are used to send activity to the Activity Monitor agent. The credentials can be updated in the agent properties under the __Panzura__ tab.
 
-![Panzura MQ Protection Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/panzuramqprotectionaccount.png)
+![Panzura MQ Protection Account Credentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/panzuramqprotectionaccount.webp)
 
 See the [Panzura Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/panzura.md) topic for additional information.
 
@@ -40,7 +40,7 @@ See the [Panzura Tab](/docs/activitymonitor/activitymonitor/admin/agents/propert
 
 The Monitored Host User Credentials is used to connect to the monitored host device and send activity to the agent. The credentials can be updated in monitored host properties. Select a host under the __Monitored Host__ tab. Then, click the __Edit__ button to update the account credentials.
 
-![Monitored Host User Account](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/monitoredhostuseraccount.png)
+![Monitored Host User Account](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/monitoredhostuseraccount.webp)
 
 See the [Nutanix Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/nutanix.md) topic for additional information.
 
@@ -48,7 +48,7 @@ See the [Nutanix Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts
 
 The Agent Inactivity Alerts Email Account is used to automate email alerts for inactivity detected by the agent. It can be updated in agent properties under __Inactivity Alerts__ tab then Email Alerts. This can also be changed in the monitored host properties.
 
-![agentinactivityalertsemailcredentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/agentinactivityalertsemailcredentials.png)
+![agentinactivityalertsemailcredentials](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/agentinactivityalertsemailcredentials.webp)
 
 See the [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalerts.md) topic for additional information.
 
@@ -56,6 +56,6 @@ See the [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/agen
 
 The Monitored Host Inactivity Alerts Email Account are used to automate email alerts for inactivity detected by the monitored host. The credentials can be updated in the monitored __Host Properties__.
 
-![Monitored Host Inactivity Alerts Email Credentials Page](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/monitoredhostinactivityalertsemailcredentials.png)
+![Monitored Host Inactivity Alerts Email Credentials Page](/img/product_docs/activitymonitor/activitymonitor/troubleshooting/monitoredhostinactivityalertsemailcredentials.webp)
 
 See the [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md) topic for additional information.

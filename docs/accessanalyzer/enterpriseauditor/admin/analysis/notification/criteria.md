@@ -2,7 +2,7 @@
 
 Use the Notification Criteria page to specify criteria to trigger a notification.
 
-![Notification Data Analysis Module wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Notification Data Analysis Module wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 The following options are available:
 

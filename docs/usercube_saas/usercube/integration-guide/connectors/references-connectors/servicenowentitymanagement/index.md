@@ -6,7 +6,7 @@ This page is about [
 ServiceNow
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/servicenow/index.md).
 
-![Package: ITSM/ServiceNow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/packages_servicenow_v603.png)
+![Package: ITSM/ServiceNow](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/packages_servicenow_v603.webp)
 
 ## Overview
 

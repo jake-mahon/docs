@@ -6,7 +6,7 @@ To do this, provide the existing password and then a new password to replace it.
 
 NOTE: MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If they try to do so, the following message is displayed:
 
-![Change Password error message for Entra ID user](/img/product_docs/groupid/groupid/portal/user/manage/changepasswordentraiduser.png)
+![Change Password error message for Entra ID user](/img/product_docs/groupid/groupid/portal/user/manage/changepasswordentraiduser.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in Directory Manager.
 

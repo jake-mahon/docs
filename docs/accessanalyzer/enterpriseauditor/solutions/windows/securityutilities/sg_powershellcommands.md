@@ -8,7 +8,7 @@ The SG\_PowerShellCommands job uses the SmartLog Data Collector for the followin
 
 __CAUTION:__ The Check PowerShell Operations log query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsqueries.png)
+![Queries for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsqueries.webp)
 
 The queries for the SG\_PowerShellCommands job are:
 
@@ -29,7 +29,7 @@ __Step 3 –__  Select the __Data Source__ tab, and click __Configure__. The Sma
 
 __Step 4 –__ If the __Criteria__ tab is grayed out, click __Next__ through the windows until the tab is accessible.
 
-![Smart Log Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/smartlogdcwizardcriteria.png)
+![Smart Log Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/smartlogdcwizardcriteria.webp)
 
 __Step 5 –__ On the Criteria page, click the __press the button to add a new condition__ box.
 
@@ -45,7 +45,7 @@ View the analysis tasks by navigating to the __Windows__ > __Security Utilities_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsanalysis.png)
+![Analysis Tasks for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -70,11 +70,11 @@ __Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Security Utilities__ >
 
 __Step 2 –__ In the Analysis Selection view, select the __Notify on suspicious commands__ analysis task and click __Analysis Configuration__. The Notification Data Analysis Module opens.
 
-![Notification Data Analysis Module wizard SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifysmtp.png)
+![Notification Data Analysis Module wizard SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifysmtp.webp)
 
 __Step 3 –__ Use the __Next__ button to navigate to the SMTP page. Do not make changes to the preceding pages.
 
-![Recipients section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifyrecipients.png)
+![Recipients section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifyrecipients.webp)
 
 __Step 4 –__ In the Recipients section, provide the email addresses or distribution lists (fully qualified address) for those who are to receive this notification. Multiple addresses can be provided. You can use the following options:
 
@@ -82,7 +82,7 @@ __Step 4 –__ In the Recipients section, provide the email addresses or distrib
 - Remove – Remove an email address from the Recipients list
 - Combine multiple messages into single message – Sends one email for all objects in the record set instead of one email per object to all recipients
 
-![Message section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifymessage.png)
+![Message section](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsnotifymessage.webp)
 
 __Step 5 –__ In the Message section, edit the __Subject__. It is not recommended to remove any parameters. Then, customize the email content in the textbox to provide an explanation of the notification to the recipients.
 

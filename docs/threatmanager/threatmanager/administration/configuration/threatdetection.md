@@ -2,7 +2,7 @@
 
 The Threat Detection page provides an interface to view and configure threats detected by Threat Manager. This page provides a Threats list and an overview table that provides a status on all threats. Clicking on a threat in the Threats list or the Overview table displays details and configuration options for the threat.
 
-![Threat Detection page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Threat Detection page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 Custom threats can also be created on this page.
 
@@ -10,7 +10,7 @@ Custom threats can also be created on this page.
 
 The Threats box displays the threats that are pre-configured with Threat Manager and threats created with the Investigation page or through the Custom Threat button. Threats that are crossed out are disabled.
 
-![Threats Box](/img/product_docs/threatmanager/threatmanager/threats/threatsbox.png)
+![Threats Box](/img/product_docs/threatmanager/threatmanager/threats/threatsbox.webp)
 
 The Threats list divides the threats into sections:
 
@@ -26,7 +26,7 @@ Select a threat from the list to display the threat's configuration options to t
 
 The Overview table provides a high-level status of all threats. The table includes the following information:
 
-![This screenshot displays the Overview table on the Threat Detection page.](/img/product_docs/threatmanager/threatmanager/administration/configuration/overviewtable.png)
+![This screenshot displays the Overview table on the Threat Detection page.](/img/product_docs/threatmanager/threatmanager/administration/configuration/overviewtable.webp)
 
 - Name – The threat name
 - Enabled – A green check mark indicates that the threat type is enabled for threat detection. A gray x indicates that the threat type is not enabled for threat detection.

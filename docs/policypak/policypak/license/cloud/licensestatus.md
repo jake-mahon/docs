@@ -4,7 +4,7 @@ How many Cloud licenses am I using, and how can I tell which machines are on the
 
 When you log into your Cloud account, you land on the License Status tab. This tab tells you several things: how many license you bought, how many you are using, and how many machines are on the waiting list.
 
-![547_1_license_status](/img/product_docs/policypak/policypak/license/cloud/547_1_license_status.png)
+![547_1_license_status](/img/product_docs/policypak/policypak/license/cloud/547_1_license_status.webp)
 
 The number in the Total Purchased column tells you how many licenses you purchased from us here at Netwrix Endpoint Policy Manager (formerly PolicyPak). That is the maximum number of computers you can have synched with the cloud at any given time.
 
@@ -18,7 +18,7 @@ If a licensed computer goes offline, or does not communicate with the Endpoint P
 
 To find out which of your machines have consumed a license, and which ones are on the waiting list, go to the Reports tab, located next to the License Status tab.
 
-![547_2_reports_tab](/img/product_docs/policypak/policypak/license/cloud/547_2_reports_tab.png)
+![547_2_reports_tab](/img/product_docs/policypak/policypak/license/cloud/547_2_reports_tab.webp)
 
 The chart displays in graphic form the information from the License Status tab.
 

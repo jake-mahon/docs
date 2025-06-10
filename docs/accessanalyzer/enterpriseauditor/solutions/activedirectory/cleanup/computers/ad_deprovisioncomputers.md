@@ -24,7 +24,7 @@ See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](
 
 Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD\_Deprovision Computers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersanalysis.png)
+![Analysis Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -49,7 +49,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD\_Dep
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersaction.png)
+![Action Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersaction.webp)
 
 The action tasks are:
 

@@ -16,7 +16,7 @@ In my example, the computer is in East Sales Desktops. Then in the GPMC click DE
 
 Then add the USER or a GROUP the user is in. In this case I'm added EASTSALESUSER1 or you can add, for instance, AUTHENTICATED USERS.
 
-![560_5_img-03](/img/product_docs/policypak/policypak/troubleshooting/560_5_img-03.png)
+![560_5_img-03](/img/product_docs/policypak/policypak/troubleshooting/560_5_img-03.webp)
 
 The final results before testing should look like this (where the USER (or GROUP) can now see the COMPUTER side RSOP..)
 

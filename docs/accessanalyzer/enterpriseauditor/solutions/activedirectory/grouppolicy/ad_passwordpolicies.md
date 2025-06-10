@@ -8,7 +8,7 @@ The AD\_PasswordPolicies Job uses the LDAP Data Collector for the following quer
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesquery.png)
+![Query for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesquery.webp)
 
 The query for this job is:
 
@@ -22,7 +22,7 @@ Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD\_PasswordPolicie
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.png)
+![Analysis Task for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.webp)
 
 The default analysis tasks are:
 

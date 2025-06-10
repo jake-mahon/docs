@@ -9,11 +9,11 @@ The Banking application is a demo application that represents a web based extern
 - A main page
 - A list of users, accessible by clicking on __Users__ at the top of the page. It is possible to add a user by clicking on __Create New User__
 
-  ![Users list](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/demoapp-banking/demoapps_banking_userslist.png)
+  ![Users list](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/demoapp-banking/demoapps_banking_userslist.webp)
 - A list of groups, accessible by clicking on __Groups__ at the top of the page. Clicking on __Details__ on a group shows the users belonging to that group
 - A user's details page for each user, accessible by clicking on __Details__ on a user in the users list
 
-  ![User details](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/demoapp-banking/demoapps_banking_userdetails.png)
+  ![User details](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/demoapp-banking/demoapps_banking_userdetails.webp)
 
 The most interesting part of the Banking application is a user's page. On a user's page, it is possible to:
 

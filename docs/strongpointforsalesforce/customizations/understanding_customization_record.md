@@ -19,7 +19,7 @@ Customization record fields include:
 - __Help Text__: Helpful information detailing function and use of each customization. Click __Update Description and Help Text__ to update.
 - __Related Objects__: Links to related objects.
 
-![Strongpoint Lightning Customization Record](/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.png)
+![Strongpoint Lightning Customization Record](/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
 
 ## Customization Record Tabs
 
@@ -63,7 +63,7 @@ The __Custom__ tab shows the join, scanner and DLU dates.
 
 The Dependency Relationship Diagram ([DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
 
-![DRD Example](/img/product_docs/strongpointforsalesforce/customizations/drd.png)
+![DRD Example](/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
 
 ### Change Enablement
 

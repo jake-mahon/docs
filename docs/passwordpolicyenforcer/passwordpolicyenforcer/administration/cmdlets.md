@@ -14,7 +14,7 @@ __Connect-PPE -d "_domain_"__ where _domain_ is the full name of your domain con
 
 __Get-PPEHelp__ with no parameters, displays a list of available cmdlets. Use the PowerShell __get-help__ _Cmdlet_ for information about the cmdlet.
 
-![PPE cmdlets Connect](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletconnect.png)
+![PPE cmdlets Connect](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletconnect.webp)
 
 Click a PPE cmdlet name for details.
 

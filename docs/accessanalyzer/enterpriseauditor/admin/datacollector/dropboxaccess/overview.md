@@ -32,6 +32,6 @@ The DropboxAccess Data Collector is configured through the Dropbox Access Audito
 - [DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
 - [DropboxAccess: Summary (Completion)](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/completion.md)
 
-![Dropbox Access Auditor Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Dropbox Access Auditor Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

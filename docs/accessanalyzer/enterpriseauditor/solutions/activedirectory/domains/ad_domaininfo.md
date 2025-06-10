@@ -8,7 +8,7 @@ The AD\_DomainInfo Job uses the ActiveDirectory Data Collector and the LDAP Data
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/domaininfoquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/domaininfoquery.webp)
 
 The queries for this job are:
 
@@ -26,7 +26,7 @@ Navigate to the __Active Directory > 5.Domains > AD\_DomainInfo > Configure__ no
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/domaininfoanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/domaininfoanalysis.webp)
 
 The default analysis tasks are:
 

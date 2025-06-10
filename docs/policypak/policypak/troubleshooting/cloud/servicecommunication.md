@@ -2,7 +2,7 @@
 
 To test the connection between the client and service, start by entering the  ```PPCLOUD /SYNC``` command from the command line. If the return message is Could not sync with cloud, the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud client cannot communicate with Endpoint Policy Manager Cloud Server.
 
-![256_1_pp-faq-000001](/img/product_docs/policypak/policypak/troubleshooting/cloud/256_1_pp-faq-000001.png)
+![256_1_pp-faq-000001](/img/product_docs/policypak/policypak/troubleshooting/cloud/256_1_pp-faq-000001.webp)
 
 The main reasons for this connection issue are:
 
@@ -23,7 +23,7 @@ __Step 2 –__ At a command prompt, type in the following: ```telnet cloud-agent
 - If the command just hangs and takes a long time to complete, then comes back with Connection failed, then the communication failed i.
 - If the command clears the screen and the cursor goes to the top, then the communication passes. See the image below for example.
 
-![Communication Passes](/img/product_docs/policypak/policypak/troubleshooting/cloud/communicationpasses.png)
+![Communication Passes](/img/product_docs/policypak/policypak/troubleshooting/cloud/communicationpasses.webp)
 
 __Step 3 –__ You can also try ```telnet cloud-agent.policypak.com 80```
 

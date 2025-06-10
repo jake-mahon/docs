@@ -2,15 +2,15 @@
 
 The data grid provides all host inventory information collected on the hosts. View this information at the __Host Management__ node (the Host Master Table) or at individual host list nodes. See the [Hosts Lists](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/lists.md) topic for information on host lists.
 
-![Host Inventory Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.png)
+![Host Inventory Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
 
 The icon for each host entry is an indicator of its inventory state:
 
 | Icon | Inventory State |
 | --- | --- |
-| ![Idle inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryidle.png) | Idle |
-| ![In Queue inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryinqueue.png) | In Queue |
-| ![In Progress inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryinprogress.png) | In Progress |
+| ![Idle inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryidle.webp) | Idle |
+| ![In Queue inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryinqueue.webp) | In Queue |
+| ![In Progress inventory state icon](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/inventoryinprogress.webp) | In Progress |
 
 The __Name__, __HostStatus__, and __InventoryState__ grid columns are fixed by default. If desired, you can move these columns to the scrollable section of the table.
 
@@ -66,7 +66,7 @@ The Activities pane provides several options for managing hosts within the Host 
 
 The right-click menu available in the Host Management data grid varies according to the selection in the Navigation pane.
 
-| ![Host Management node right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickhostmanagement.png) | ![Individual host list right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickindividualhost.png) | ![Query created host list right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickquerycreated.png) |
+| ![Host Management node right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickhostmanagement.webp) | ![Individual host list right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickindividualhost.webp) | ![Query created host list right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/rightclickquerycreated.webp) |
 | --- | --- | --- |
 | Host Management Node | Individual Host List | Query-Created Host List |
 

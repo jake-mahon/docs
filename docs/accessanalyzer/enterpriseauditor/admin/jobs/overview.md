@@ -4,7 +4,7 @@ Jobs are the fundamental unit of Access Analyzer. It is through jobs that all da
 
 The Jobs Tree is located in the Navigation Pane on the Access Analyzer Console.
 
-![Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobstreeoverview.png)
+![Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobstreeoverview.webp)
 
 Clicking on the arrow next to the Jobs node will expand it. The Jobs tree is organized alphanumerically, first by job groups and then by any jobs that are independent of job groups.
 
@@ -12,20 +12,20 @@ Each component within the Jobs tree has an icon for quick reference. The icons a
 
 | Icon Description | Description |
 | --- | --- |
-| ![jobgroup](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobgroup.png) | Job Group |
-| ![modifiedjobgroup](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/modifiedjobgroup.png) | Modified Job Group |
-| ![settings](/img/product_docs/activitymonitor/config/dellpowerscale/settings.png) | Settings node for a Job Group/ Configure node for a job |
-| ![job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job.png) | Job |
-| ![modifiedjob](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/modifiedjob.png) | Modified Job |
-| ![lockedjob](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/lockedjob.png) | Locked Job  (Only applicable to Role Based Access feature) |
-| ![status](/img/product_docs/dataclassification/ndc/admin/sources/status.png) | Status node for a Job |
-| ![connectstatus](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/connectstatus.png) | Job’s ConnectStatus Node |
-| ![jobstatus](/img/product_docs/strongpointfornetsuite/clean_up/jobstatus.png) | Job Status for a Job |
-| ![taskstatus](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/taskstatus.png) | Task Status for a Job |
-| ![results](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.png) | Results node for a Job |
-| ![messages](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/messages.png) | Job’s Messages table |
-| ![jobsdata](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobsdata.png) | Job’s Data Table or View |
-| ![jobsreport](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobsreport.png) | Job’s Report |
+| ![jobgroup](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobgroup.webp) | Job Group |
+| ![modifiedjobgroup](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/modifiedjobgroup.webp) | Modified Job Group |
+| ![settings](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp) | Settings node for a Job Group/ Configure node for a job |
+| ![job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job.webp) | Job |
+| ![modifiedjob](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/modifiedjob.webp) | Modified Job |
+| ![lockedjob](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/lockedjob.webp) | Locked Job  (Only applicable to Role Based Access feature) |
+| ![status](/img/product_docs/dataclassification/ndc/admin/sources/status.webp) | Status node for a Job |
+| ![connectstatus](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/connectstatus.webp) | Job’s ConnectStatus Node |
+| ![jobstatus](/img/product_docs/strongpointfornetsuite/clean_up/jobstatus.webp) | Job Status for a Job |
+| ![taskstatus](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/taskstatus.webp) | Task Status for a Job |
+| ![results](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.webp) | Results node for a Job |
+| ![messages](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/messages.webp) | Job’s Messages table |
+| ![jobsdata](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobsdata.webp) | Job’s Data Table or View |
+| ![jobsreport](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/jobsreport.webp) | Job’s Report |
 
 A green checkmark over a Job or Job Group icon indicates a configuration change has been made to the job or job group. The global settings configured under the Settings node are inherited down through the Jobs tree to the job unless inheritance is broken in a job group’s Settings node, a job’s Configure node, or a job’s Properties window. See the [Navigating the Console](/docs/accessanalyzer/enterpriseauditor/admin/navigate/overview.md) for additional information.
 
@@ -53,7 +53,7 @@ Remember, custom jobs are not shipped with Access Analyzer but instead user crea
 
 The Changes window opens from the __Changes__ option in the right-click menu from the selected Jobs tree, job group, or job node.
 
-![Changes Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindow.png)
+![Changes Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindow.webp)
 
 Select __Enabled__ from the drop-down menu in the upper-left corner to turn on change tracking of configuration settings. Select a modification from the table and click __Undo__ to revert the change.
 
@@ -70,11 +70,11 @@ Select a modification from the table and click __Undo__ to revert the change.
 
 If configuration change tracking is __Disabled__, configuration changes are only written directly to the job’s XML file. If the configuration change tracking feature was previously enabled and then disabled at a later time, an option is provided to merge changes back into the job’s XML file.
 
-![Change Window Merge Changes](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindowmerge.png)
+![Change Window Merge Changes](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindowmerge.webp)
 
 To merge the changes into the job’s XML file without disabling the configuration change tracking feature, click __Merge__ on the bottom left corner of the Changes window and then click __Yes__ on the Access Analyzer pop-up window to confirm the merge.
 
-![Changes Window Locked](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindowlocked.png)
+![Changes Window Locked](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/changeswindowlocked.webp)
 
 Changes between releases are tracked. Only jobs that are locked can be upgraded.
 

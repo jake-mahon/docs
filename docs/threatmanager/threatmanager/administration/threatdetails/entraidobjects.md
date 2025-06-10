@@ -10,7 +10,7 @@ The Microsoft Entra ID Object details pages provide details on Microsoft Entra I
 
 - [Application Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/entraidapplication.md)
 
-![threatlist](/img/product_docs/threatmanager/threatmanager/administration/threatlist.png)
+![threatlist](/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
 
 The [Threats Page](/docs/threatmanager/threatmanager/administration/threats.md) contains a threats list with hyperlinks which can be clicked to access these pages.
 
@@ -22,7 +22,7 @@ The User Details, Group Details, Application details and Role details pages cont
 
 The profile card displays information about the selected user, application, group, or role.
 
-![Entra ID User Profile Card](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.png)
+![Entra ID User Profile Card](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.webp)
 
 - Name
 - UPN
@@ -38,7 +38,7 @@ The profile card displays information about the selected user, application, grou
 
 Depending on the selected user, group, application or role, the following tabs may be displayed:
 
-![Tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.png)
+![Tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
 
 - Threats Tab – Displays a chart with threats detected for a Microsoft Entra ID object
 - Activity Summary Tab – Depending on the selected object, the page may display the following information:
@@ -63,7 +63,7 @@ Add an Existing Tag
 
 Follow the steps to add a tag to a user, group, or computer
 
-![Existing Tags List](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.png)
+![Existing Tags List](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.webp)
 
 __Step 1 –__ Click the Add Tag button.
 

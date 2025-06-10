@@ -1,6 +1,6 @@
 # How do I add the SCCM Software Center to the Start Screen or Taskbar?
 
-![724_1_hf-936-img-01](/img/product_docs/policypak/policypak/startscreentaskbar/724_1_hf-936-img-01.png)
+![724_1_hf-936-img-01](/img/product_docs/policypak/policypak/startscreentaskbar/724_1_hf-936-img-01.webp)
 
 The normal shortcut for the SCCM Software Center looks like this; but Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager doesn't support this kind of link.
 

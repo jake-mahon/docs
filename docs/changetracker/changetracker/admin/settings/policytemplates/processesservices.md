@@ -6,7 +6,7 @@ A key indicator of breach or malware activity is the existence of new processes 
 
 Any non-necessary Services or Services you are generally unconcerned about should be marked as __Ignore State__.
 
-![PolicyTemplatesProcessesServices](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.png)
+![PolicyTemplatesProcessesServices](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.webp)
 
 - ____Uncategorized Process/Service Action____ - Use this option if you want to be alerted to the presence of any new, uncategorized processes or services. This is an option as in some situations it may be convenient to be alerted to missing, key processes.
 

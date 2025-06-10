@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Concurrent Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentloginssettings.png)
+![Concurrent Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentloginssettings.webp)
 
 Set the Number of Hosts and the Interval Duration that will trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 23:59. When the specified number of hosts have successful logins by the same individual user account within the specified interval duration, it will trigger an incident record.
 
@@ -41,7 +41,7 @@ By default, authentication event data is cached in memory for 24 hours. When an 
 
 Policy Tab
 
-![Concurrent Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Concurrent Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -62,7 +62,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Concurrent Logins__ node lists one row per incident identified.
 
-![Concurrent Logins Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentlogins.png)
+![Concurrent Logins Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentlogins.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

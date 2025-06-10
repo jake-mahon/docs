@@ -38,7 +38,7 @@ __NOTE:__ The [Cleanup Job Group](/docs/accessanalyzer/enterpriseauditor/solutio
 
 The File System Solution offers information on multiple aspects of an organization’s file system infrastructure. This solution is comprised of eleven job groups and an overview job which collect, analyze, and report on data as well as run action tasks for environmental remediation. The data collection is conducted by the FileSystemAccess (FSAA) Data Collector. See the [Standard Reference Tables & Views for the FSAA Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/standardtables.md) section for database table information.
 
-![File System Solution](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![File System Solution](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 Each type of auditing depends on specific jobs within the 0.Collection Job Group to collect the data and its corresponding analysis and reporting job groups. The Access Auditing components represent the core of the File System Solution and are required by the other auditing options, with the exception of the Sensitive Data Discovery Auditing component which can be run independently. The data collection query options for each type are explained within the 0.Collection Job Group section. Additionally, the corresponding analysis and reporting job groups are listed for each auditing type.
 

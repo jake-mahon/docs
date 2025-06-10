@@ -47,7 +47,7 @@ __To view Elasticsearch health status:__
 1. In Admin Center, click __Replication__ in the left pane.
 2. On the __Replication__ page, click __Elasticsearch Health Monitor__.
 
-   ![es_health_monitor](/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.png)
+   ![es_health_monitor](/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.webp)
 
    This dialog box lists the Elasticsearch clusters in your environment, with the following information for each cluster:
 
@@ -61,7 +61,7 @@ __To view Elasticsearch health status:__
 3. To refresh the information displayed, click the __Refresh__ icon.
 4. Click a cluster name to view it in detail.
 
-   ![cluster_info](/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.png)
+   ![cluster_info](/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.webp)
 
    This dialog box displays the total number of nodes in the cluster. Each node is represented by a card, that displays the following for the node:
 

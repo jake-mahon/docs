@@ -16,4 +16,4 @@ If you had an issue, with say, Endpoint Policy Manager Least Privilege Manager e
 
 Once you have collected the required logs, please ZIP up the following folder and upload to your support case in SHAREFILE.
 
-![182_1_1_950x786](/img/product_docs/policypak/policypak/troubleshooting/license/182_1_1_950x786.png)
+![182_1_1_950x786](/img/product_docs/policypak/policypak/troubleshooting/license/182_1_1_950x786.webp)

@@ -47,7 +47,7 @@ __Step 5 –__ Specify the application name and Netwrix Auditor client certifica
 - New/Generate certificate – Create a new certificate.
 - Select an existing certificate – Select an available certificate from the drop-down list.
 
-![npsclientcertificate](/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.png)
+![npsclientcertificate](/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.webp)
 
 __Step 6 –__ Click __Next__.
 
@@ -71,11 +71,11 @@ __Step 9 –__ Launch Netwrix Privilege Secure to create an application user for
 
 __Step 10 –__ Provide the security key you got in Netwrix Privilege Secure.
 
-![npsintegrationparameters](/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.png)
+![npsintegrationparameters](/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.webp)
 
 __Step 11 –__ Click __Next__.
 
-![npsintegrationfinished](/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.png)
+![npsintegrationfinished](/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.webp)
 
 __Step 12 –__ After the validation, click __Finish__.
 

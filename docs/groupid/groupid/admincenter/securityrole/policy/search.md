@@ -100,7 +100,7 @@ You can also define a query by adding more rows and applying the __AND__ or __OR
    - __AND:__ to display the objects having the specified values for all attributes.
    - __OR:__ to display objects having the specified value for any one of the attributes.
 
-   ![search_query](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.png)
+   ![search_query](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.webp)
 2. Click the ellipsis button for an applied operator to display the context menu, which has the following options:
 
    - __Select Group:__ to select all rows that make up the query.

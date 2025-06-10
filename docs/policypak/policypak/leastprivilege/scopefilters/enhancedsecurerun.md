@@ -4,13 +4,13 @@ __NOTE:__  For an overview of this scenario, see the [SecureRun to block User AN
 
 When you apply SecureRun on the user or computer side, you’re saying “Block all untrusted executables started by users.” This doesn’t (by default) block the attack vector of the System performing the attack. You can see the example below where the Standard User is blocked from an executable attempt, but System is still allowed.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun.webp)
 
 However, you can switch SecureRun on the computer side to now say “Block all untrusted executables started by users or LOCAL SYSTEM.” You would do this on the Computer side, and specify User and System Processes.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.webp)
 
 The result is that both User and System attempts to run un-trusted executables will be prevented.
 

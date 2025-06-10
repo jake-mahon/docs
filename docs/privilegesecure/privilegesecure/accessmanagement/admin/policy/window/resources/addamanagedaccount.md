@@ -4,7 +4,7 @@ Follow the steps below to add a managed account to the secret vault.
 
 __Step 1 –__ Click the __Add__ button.
 
-![addmanagedaccount](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addmanagedaccount.png)
+![addmanagedaccount](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addmanagedaccount.webp)
 
 __Step 2 –__ Enter the following information:
 

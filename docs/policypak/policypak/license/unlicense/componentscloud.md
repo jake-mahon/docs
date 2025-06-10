@@ -24,4 +24,4 @@ Once enabled, the component will be de-activated.
 
 When you unlicense via ADMX you can test your results with the ```PPUPDATE``` command. The expected result should be similar to this example, where you can see the license is valid, but the component (in this case Browser Router) is prevented from being licensed by a policy.
 
-![188_7_img-2_950x649](/img/product_docs/policypak/policypak/license/unlicense/188_7_img-2_950x649.png)
+![188_7_img-2_950x649](/img/product_docs/policypak/policypak/license/unlicense/188_7_img-2_950x649.webp)

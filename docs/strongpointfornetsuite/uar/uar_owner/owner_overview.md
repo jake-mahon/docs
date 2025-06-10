@@ -14,7 +14,7 @@ Owners are notified with an email message when a new review has been assigned. Y
 
 Here is an example owner dashboard showing new assignments.
 
-![UAR Owner dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.png)
+![UAR Owner dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.webp)
 
 ## Dashboard Controls
 

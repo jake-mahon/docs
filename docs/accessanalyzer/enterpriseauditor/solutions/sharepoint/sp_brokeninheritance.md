@@ -2,7 +2,7 @@
 
 Keeping track of directly applied permissions at mass is not realistic, the SP\_BrokenInheritance job is responsible for performing data analysis and generating SharePoint broken inheritance reports at the site level. This includes looking at site broken inheritance and the trustees who are assigned to those sites where inheritance is broken so that you can remove that access in favor of providing access via group membership.
 
-![3.Broken Inheritance > SP_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.png)
+![3.Broken Inheritance > SP_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.webp)
 
 The SP\_BrokenInheritance job is located in the 3.Broken Inheritance Job Group.
 
@@ -12,7 +12,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __3.Broken Inheritance__ > __SP\_Bro
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_BrokenInheritance Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.png)
+![Analysis Tasks for the SP_BrokenInheritance Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 They need to remain in the default order:
 

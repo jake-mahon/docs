@@ -8,7 +8,7 @@ This AppSet has some special super powers that you won't find in other AppSets. 
 
 This AppSet is no different than other AppSets, in that it can be placed into Local, Shared, or Central storage. (See Book 3: Application Settings Manager for details.) Once placed into the storage location, it will be available under the Application Settings Manager, as shown in Figure 1.
 
-![about_this_document_and_the](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/about_this_document_and_the.png)
+![about_this_document_and_the](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/about_this_document_and_the.webp)
 
 Figure 1. The IE AppSet.
 

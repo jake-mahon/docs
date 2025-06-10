@@ -23,7 +23,7 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 6. Assign a __Change/Approval Policy__ if there is an object specific policy (optional).
 7. Under __Clean-Up Classification__, add an overview of the clean up.
 
-![improvementtab_800x415](/img/product_docs/strongpointsalesforceflashlight/clean_up/improvementtab_800x415.png)
+![improvementtab_800x415](/img/product_docs/strongpointsalesforceflashlight/clean_up/improvementtab_800x415.webp)
 
 ## Clean Up Multiple Customizations
 
@@ -40,7 +40,7 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 - __Clean Up Comments__
 - __Clean Up Status__
 
-![createlist_view_for_cleanup_800x403](/img/product_docs/strongpointsalesforceflashlight/clean_up/createlist_view_for_cleanup_800x403.png)6. Restrict Visibility. You can choose to have the list view:
+![createlist_view_for_cleanup_800x403](/img/product_docs/strongpointsalesforceflashlight/clean_up/createlist_view_for_cleanup_800x403.webp)6. Restrict Visibility. You can choose to have the list view:
 
 - Only visible to you,
 - Visible to all users or
@@ -48,10 +48,10 @@ Use these processes to [Clean up Individual Customization](#Clean-up-Individual-
 
 7. Click __Save__.
 8. Once your list view has been created, you can multi-select customizations for clean up by checking the box beside Action.
-![multi_select_cleanup_800x382](/img/product_docs/strongpointsalesforceflashlight/clean_up/multi_select_cleanup_800x382.png)9. You can now choose what you want to edit for the multiple customizations selected.  
+![multi_select_cleanup_800x382](/img/product_docs/strongpointsalesforceflashlight/clean_up/multi_select_cleanup_800x382.webp)9. You can now choose what you want to edit for the multiple customizations selected.  
     For example, if you want to change the clean up status:
 10. Go to __Edit Clean Up Status__.
 11. Select a status such as To Be Cleaned Up.
 12. Choose to __Apply changes to: All the selected records__.
 13. Click __Save__.
-![flagging_mass_customizations_800x374](/img/product_docs/strongpointsalesforceflashlight/clean_up/flagging_mass_customizations_800x374.png)
+![flagging_mass_customizations_800x374](/img/product_docs/strongpointsalesforceflashlight/clean_up/flagging_mass_customizations_800x374.webp)

@@ -10,7 +10,7 @@ Here you will learn how to define scalar properties, which contain scalar values
 
 > For example: ```DisplayName```; ```Email```; ```Identifier```; ```StartDate```; etc.
 >
-> ![Scalar Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarex_v600.png)
+> ![Scalar Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarex_v600.webp)
 
 Most often, properties inside Identity Manager are each linked to a property from the managed system. This way, data from the managed system can be imported into Identity Manager and stored in the corresponding property. These properties are mapped from the source (see step 2).
   
@@ -31,12 +31,12 @@ Define the entity type's scalar properties by proceeding as follows:
    ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
 2. In the entity type's __Properties__ section, click on __Map scalar properties__ to display existing columns from the external source, and select the properties to be used in the entity type.
 
-   ![Map from source](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertiesmap_v602.png)
+   ![Map from source](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertiesmap_v602.webp)
 
    You need to configure at least one property to be able to define primary keys later, and thus create an entity type.
 3. Fill in the information fields.
 
-   ![Scalar properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarproperties_v603.png)
+   ![Scalar properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarproperties_v603.webp)
 
    - __APPLICATION METADATA__: fields about the future display of the properties inside Identity Manager.
 
@@ -63,17 +63,17 @@ Define the entity type's scalar properties by proceeding as follows:
    >
    > Some of them have a specific format in case of provisioning to the managed AD like ```thumbnailPhoto``` of format ```Binary``` or ```objectCategory``` as ```RDN``` or ```pwdLastSet``` as ```1601 Date```.
    >
-   > ![AD Entity Type - Scalar Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_examplead2_v602.png)
+   > ![AD Entity Type - Scalar Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_examplead2_v602.webp)
 4. Click on the Gear symbol to add advanced settings if needed.
 
-   ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.png)
+   ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
 
    - ```Icon```: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and will be displayed with the property among users' data.
    - __Source Expression__: expression that defines the property based on at least one source object. Can be defined by a property path and/or [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
 
      > For example, ```isUnused``` is created to spot unused accounts via a combination of ```accountExpires``` and ```lastLogonTimestamp```:
      >
-     > ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.png)
+     > ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
    - ```Flexible Comparison Expression```: expression that inserts adaptable comparison flexibility when using a searchbar for the property.
    - ```History Precision```: time period over which Identity Manager historically records only one value.
 
@@ -85,7 +85,7 @@ Define the entity type's scalar properties by proceeding as follows:
 
 Every time an entity type mapping is modified and saved, a green pop-up appears saying that you should reload the schema to implement the changes. You do not need to click on the button every time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.png)
+![Reload](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The __Reload__ button mostly enables your changes to appear in the menu items, which configure the left menu links on the UI's home page.
 
@@ -101,6 +101,6 @@ Select Primary Keys
 
 If the Format column is not displayed in the External System part, then:
 
-![Scalar properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertieswithoutformat_v522.png)
+![Scalar properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertieswithoutformat_v522.webp)
 
 Refresh the connections' schemas.

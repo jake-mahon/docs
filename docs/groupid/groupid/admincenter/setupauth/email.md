@@ -34,7 +34,7 @@ __To modify the subject line and body of the email:__
    3. Click __Apply__.
 3. Search for _AccessCodeEmail_ and click __Edit__ in the __Actions__ column to open it.
 
-   ![accesscode](/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.png)
+   ![accesscode](/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.webp)
 4. You can view the notification content in two distinct modes:
 
    - _Source Code (HTML)_ - This is the default mode, as shown in the figure above. You can make changes to the notification template in this mode.

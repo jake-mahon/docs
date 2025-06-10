@@ -28,7 +28,7 @@ The main section of the Customization Record summarizes the key information for 
 - __Scriptid__: Displays the record’s Script ID.
 - __Related Objects__: Summarizes the related object dependencies by object type. Click links to open detailed view. For example, there could be multiple scripts and workflows that depend on this object. Click links to open detailed view as shown.
 
-![cust_ui_related_objects](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.png)
+![cust_ui_related_objects](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.webp)
 
 ### Buttons
 
@@ -63,12 +63,12 @@ This information is available on the Detailed Metadata tab for all customization
 
 #### Detailed Metadata tab
 
-![cust_ui_detailed_metadata](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.png)
+![cust_ui_detailed_metadata](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.webp)
 
 #### Detailed Metadata tab for Script Customizations
 
-![cust_ui_detailed_metadata_scripts](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.png)
+![cust_ui_detailed_metadata_scripts](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
 
 #### Detailed Metadata tab with Data Sources Integration
 
-![cust_ui_detailed_metadata_data_sources](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.png)
+![cust_ui_detailed_metadata_data_sources](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)

@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Usage Statistics_
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SP_InactiveSites Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/inactivesitesanalysis.png)
+![Analysis Tasks for the SP_InactiveSites Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/inactivesitesanalysis.webp)
 
 The default analysis task is:
 

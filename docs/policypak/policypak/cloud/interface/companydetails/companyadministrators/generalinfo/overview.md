@@ -2,7 +2,7 @@
 
 On the __General Info__ tab, you have a few actions to select from.
 
-![web_interface_and_controls_75_624x208](/img/product_docs/policypak/policypak/cloud/interface/companydetails/companyadministrators/generalinfo/web_interface_and_controls_75_624x208.png)
+![web_interface_and_controls_75_624x208](/img/product_docs/policypak/policypak/cloud/interface/companydetails/companyadministrators/generalinfo/web_interface_and_controls_75_624x208.webp)
 
 The actions you can take are listed below and explained in the following sections:
 

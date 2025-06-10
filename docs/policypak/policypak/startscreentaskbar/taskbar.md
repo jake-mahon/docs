@@ -8,7 +8,7 @@ Like the Endpoint Policy Manager Start Menu policies, Endpoint Policy Manager Ta
 
 __Step 1 –__ First, find the Taskbar Manager for Windows 10 node within the User | Endpoint Policy Manager nodes in the Group Policy Editor. Then right-click to open the Taskbar Manager to create your first Endpoint Policy Manager Taskbar Manager collection, as shown in Figure 28.
 
-![quickstart_taskbar_manager](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager.png)
+![quickstart_taskbar_manager](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager.webp)
 
 Figure 28. The Endpoint Policy Manager Taskbar Manager Collection Editor.
 
@@ -19,19 +19,19 @@ __Step 2 –__ For this Quickstart, we recommend you set the Action field to "Re
 
 __Step 3 –__ Next, within the collection, you can add items like those shown in Figure 29.
 
-![quickstart_taskbar_manager_1](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_1.png)
+![quickstart_taskbar_manager_1](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_1.webp)
 
 Figure 29. Adding universal (UWP) or desktop application policies.
 
 __Step 4 –__ You can add any registered application using the same process you used earlier in the "Adding Desktop Applications" section. For this Quickstart, select Adobe Reader. Then add a UWP application. For testing purposes, you should select Calculator or Alarms & Clock. When you do, you'll see the two items inside the Endpoint Policy Manager Taskbar Manager collection shown in Figure 30.
 
-![quickstart_taskbar_manager_2](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_2.png)
+![quickstart_taskbar_manager_2](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_2.webp)
 
 Figure 30. Taskbar policies are contained within collections.
 
 __Step 5 –__ On the endpoint, run GPUpdate and then log off and log on again to get the policy settings. The result can be seen in Figure 31.
 
-![quickstart_taskbar_manager_3](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_3.png)
+![quickstart_taskbar_manager_3](/img/product_docs/policypak/policypak/startscreentaskbar/quickstart_taskbar_manager_3.webp)
 
 Figure 31. Policy settings applied after using PolicyPak Taskbar Manager "Replace" mode.
 

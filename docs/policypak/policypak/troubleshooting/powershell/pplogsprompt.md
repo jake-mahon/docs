@@ -8,4 +8,4 @@ __NOTE:__ The commands must be run on the machine in question and will not work 
 
 ```echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_"$env:username".zip"``` ```echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_admin.zip"```
 
-![934_1_image001_950x736](/img/product_docs/policypak/policypak/troubleshooting/powershell/934_1_image001_950x736.png)
+![934_1_image001_950x736](/img/product_docs/policypak/policypak/troubleshooting/powershell/934_1_image001_950x736.webp)

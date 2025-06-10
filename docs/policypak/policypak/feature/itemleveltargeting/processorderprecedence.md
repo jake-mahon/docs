@@ -2,7 +2,7 @@
 
 Within a particular GPO (Computer or User side), the processing order is counted in numerical order. So, lower-numbered collection attempt to process first, and higher-numbered collections attempt to process last. Then, within any collection, each policy is processed in numerical order from lowest to highest. Below we can see a potential conflict within a collection. Item #4 is installing the Telnet Client, while Item #11 is uninstalling it.
 
-![using_item_level_targeting_4](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_4.png)
+![using_item_level_targeting_4](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_4.webp)
 
 The net effect of this scenario would be that the Telnet Client would be uninstalled because it is processed later.
 

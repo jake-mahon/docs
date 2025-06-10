@@ -13,6 +13,6 @@ To search for the plugins within default location, go to the __Plugins__ tab and
 
 Click the Enable link to enable selected plugins.
 
-![workflowplugins_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflowplugins_thumb_0_0.png)
+![workflowplugins_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflowplugins_thumb_0_0.webp)
 
 To modify workflow action implemented by a plugin, go to the __Configs__ tab and click __Action Configs__ on the left.

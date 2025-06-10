@@ -8,7 +8,7 @@ If you do not see the __Strongpoint__ tab, contact your Administrator regarding 
 
 The Strongpoint tab menu provides navigation to all the key tools:
 
-![strongpoint_menu](/img/product_docs/strongpointfornetsuite/strongpoint_menu.png)
+![strongpoint_menu](/img/product_docs/strongpointfornetsuite/strongpoint_menu.webp)
 
 Strongpoint Menu tab includes:
 
@@ -36,4 +36,4 @@ Strongpoint Menu tab includes:
 
 Click __Strongpoint__ > __Strongpoint Overview__ to open the dashboard, providing an at-a-glance overview of your reminders, automated documentation summary and easy access to all the features.
 
-![Strongpoint Overview Dashboard](/img/product_docs/strongpointfornetsuite/dashboard_overview.png)
+![Strongpoint Overview Dashboard](/img/product_docs/strongpointfornetsuite/dashboard_overview.webp)

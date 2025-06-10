@@ -6,7 +6,7 @@ This job is responsible for retrieving the Tier 2 SPDLP database information and
 
 The 4-SPSEEK Bulk Import Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportquery.webp)
 
 The query for the 4-SPSEEK Bulk Import Job is:
 
@@ -22,7 +22,7 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__. The Quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__.
 
-![Bulk Import Settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.png)
+![Bulk Import Settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.webp)
 
 __Step 4 –__ On the [SPAA: Bulk Import Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md) page, the __Set Host Identifier__ is not configured by default. Click __Next__.
 
@@ -42,7 +42,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __4-SPSEEK\_BulkI
 
 __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportanalysis.webp)
 
 The default analysis tasks are:
 

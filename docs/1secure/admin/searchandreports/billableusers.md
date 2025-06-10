@@ -4,7 +4,7 @@ A Billable Users report provides information on the billable accounts – the en
 
 | Icon | Description |
 | --- | --- |
-| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.png) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information on the business users. |
+| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information on the business users. |
 
 ## Review a Report
 
@@ -14,15 +14,15 @@ __Step 1 –__ On the Home page, click the __Users__ of your organization. The _
 
 - Dashboard for Managing Organization
 
-![billableusersreportmanagingorg](/img/product_docs/1secure/admin/searchandreports/billableusersreportmanagingorg.png)
+![billableusersreportmanagingorg](/img/product_docs/1secure/admin/searchandreports/billableusersreportmanagingorg.webp)
 
 - Dashboard for Managed Organization
 
-![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.png)
+![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
 __NOTE:__ You can also access the report by navigating to the __Reports__ > __System__ page.
 
-![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.png)
+![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
 
 __Step 2 –__ If necessary, you can filter the provided data. Select a filter, operator, and value from the Filter, Operator, and Value drop-down menus respectively.
 

@@ -2,7 +2,7 @@
 
 The Input page configures the source for input data.
 
-![Unix Data Collector Wizard Input page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/unix/input.png)
+![Unix Data Collector Wizard Input page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/unix/input.webp)
 
 The configurable options are:
 

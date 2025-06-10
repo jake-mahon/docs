@@ -2,7 +2,7 @@
 
 The UX\_UsersAndGroups job collects user and group information from /etc/passwd, /etc/shadow, and their equivalents in order to provide details on user and group conditions to help pinpoint potential areas of administrative concern.
 
-![0.Collection > UX_UsersAndGroups Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection > UX_UsersAndGroups Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The UX\_UsersAndGroups job is located in the 0.Collection job group.
 
@@ -12,7 +12,7 @@ The UX\_UsersandGroups job uses the Unix Data Collector for the following querie
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
-![Queries for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/usersandgroupsqueries.png)
+![Queries for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/usersandgroupsqueries.webp)
 
 The queries for the UX\_UsersAndGroups job are:
 
@@ -32,7 +32,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __0.Collection__ > __UX\_Use
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/usersandgroupsanalysis.png)
+![Analysis Tasks for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/usersandgroupsanalysis.webp)
 
 The default analysis tasks are:
 

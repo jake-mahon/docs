@@ -35,7 +35,7 @@ The 0.Collection job group collects the data. The other job groups run analyses 
 
 The Dropbox Solution offers an overview of an organization’s Dropbox environment by scanning the targeted Dropbox site. It is comprised of jobs which collect, analyze, and report on data. The data collection is conducted by the DropboxAccess Data Collector. See the [Standard Reference Tables & Views for the DropboxAccess Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/standardtables.md) topic for database table information.
 
-![Dropbox Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Dropbox Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following jobs comprise the Dropbox Solution:
 

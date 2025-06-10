@@ -9,7 +9,7 @@ To launch the Add Workflow wizard:
 3. Click the Add button in the upper right corner.
 4. In the dialog displayed, click the Launch Wizard button.
 
-![workflow_start_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_start_wizard_thumb_0_0.png)
+![workflow_start_wizard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_start_wizard_thumb_0_0.webp)
 
 See next:
 

@@ -2,7 +2,7 @@
 
 The 2.Users job group provides details on AWS IAM user MFA status, access key usage, and staleness.
 
-![2.Users Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2.Users Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 2.Users job group is comprised of:
 

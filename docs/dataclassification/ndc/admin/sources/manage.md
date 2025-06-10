@@ -28,7 +28,7 @@ Besides, in the source list on the __General__ tab you can do the following for 
 - __View detailed information__ by clicking on the “i” icon
 - __Navigate to the source__ by clicking on the “link” icon
 
-![sources](/img/product_docs/dataclassification/ndc/admin/sources/sources.png)
+![sources](/img/product_docs/dataclassification/ndc/admin/sources/sources.webp)
 
 __NOTE:__ When adding a source or managing source configuration, the most commonly used source settings are displayed by default. However, some source types have additional configuration options that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these advanced settings to be always shown to authorized users. [See Users and Security Settings for more information.](/docs/dataclassification/ndc/security/users.md)
 

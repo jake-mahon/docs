@@ -9,7 +9,7 @@ Certain options in the upper-left corner of the [Add New Collection Window](/doc
 - Hosts – [Dynamic Hosts Collection Table Requirements](#Dynamic-Hosts-Collection-Table-Requirements)
 - File Paths – [Dynamic File Paths Collection Table Requirements](#Dynamic-File-Paths-Collection-Table-Requirements)
 
-![Options on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.png)
+![Options on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.webp)
 
 - The _I will provide a list_ option button enables the default setting for a static collection. See the [Add New Collection Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window) topic to manually add a new collection.
 - The _I want a list to come from the database table_ option button enables a dynamic collection. Enter the table name in the textbox that appears or select it from the drop-down menu.

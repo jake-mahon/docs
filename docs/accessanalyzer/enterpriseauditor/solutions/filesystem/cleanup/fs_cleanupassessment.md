@@ -4,7 +4,7 @@ The FS\_CleanupAssessment job is designed to report on and assess the status of 
 
 To include share ownership information in the analyses, populate the SA\_AIC\_ResourceOwnersView prior to running this job. This view populates when you assign owners to resources through the Access Information Center Manage Owners page. See the Resource Owners topics in the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 
-![1. Cleanup Assessment > FS_CleanupAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1. Cleanup Assessment > FS_CleanupAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The FS\_CleanupAssessment job is located in the 1. Cleanup Assessment job group.
 
@@ -41,7 +41,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __1. Cleanup Assessment__ > __FS\
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_CleanupAssessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/cleanupassessmentanalysis.png)
+![Analysis Tasks for the FS_CleanupAssessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/cleanupassessmentanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -87,11 +87,11 @@ __Step 2 –__ In the Query Selection view, select the __File System Scan__ quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The File System Access Auditor Data Collector Wizard opens.
 
-![File Details tab of the FSAA Data Collector Wizard Default Scoping Options page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.png)
+![File Details tab of the FSAA Data Collector Wizard Default Scoping Options page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.webp)
 
 __Step 4 –__ Navigate to the __Default Scoping Options__ page and click the __File Details__ tab.
 
-![Options to select on File Details tab](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/includemetadatatagoptions.png)
+![Options to select on File Details tab](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/includemetadatatagoptions.webp)
 
 __Step 5 –__ On the File Details tab, select the __Scan file-level details__ option, and then select the __Collect tags/keywords from file metadata properties__ option.
 

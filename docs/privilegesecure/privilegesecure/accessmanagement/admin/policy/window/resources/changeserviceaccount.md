@@ -8,7 +8,7 @@ __Step 2 –__ Select the resource(s) to modify.
 
 __Step 3 –__ Click Change Service Account to open the Change Service Account window.
 
-![Change Resource Service Account Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.png)
+![Change Resource Service Account Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.webp)
 
 __Step 4 –__ In the Service Account drop-down menu, select a previously added service account with credentials for the resource.
 

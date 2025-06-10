@@ -14,11 +14,11 @@ __NOTE:__  You shouldn't need to perform these steps (any of them) if you want t
 
 Then, the policy setting which must be applied to the computer side which is called PREVENT COMPUTER SIDED INSTALLATION OF CHROME EXTENSION
 
-![171_1_image004](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_1_image004.png)
+![171_1_image004](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_1_image004.webp)
 
 Then… Using Chrome's own ADMX setting named "Configure the list of force-installed apps and extensions" (seen below) to manually add the Endpoint Policy Manager Browser Router using Chrome's ADMX setting on USER or COMPUTER side.
 
-![171_2_image006](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_2_image006.png)
+![171_2_image006](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_2_image006.webp)
 
 Use this string found in this article:
 
@@ -32,7 +32,7 @@ fmbfiodledfjldlhiemaadmgppoeklbn;https://clients2.google.com/service/update2/crx
 
 Which will manually install the Endpoint Policy Manager Browser Router Chrome Extension. Or using Endpoint Policy Manager Application Settings Manager and our Chrome Pak, you can use this field (user or computer side.)
 
-![171_3_image009](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_3_image009.png)
+![171_3_image009](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_3_image009.webp)
 
 Use the same string:
 

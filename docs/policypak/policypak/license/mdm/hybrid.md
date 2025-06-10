@@ -8,7 +8,7 @@ As such, there are a few scenarios where you could possibly need to license Endp
 
 In this case there is no Azure really involved at all. Instead, you are using the tried and true Active Directory running Domain Controllers, which comes with Group Policy. Typically, but not always, these servers are on-prem. We will explore the the idea that they don't have to be on-prem a little later.
 
-![515_1_image-20191025230525-1](/img/product_docs/policypak/policypak/license/mdm/515_1_image-20191025230525-1.png)
+![515_1_image-20191025230525-1](/img/product_docs/policypak/policypak/license/mdm/515_1_image-20191025230525-1.webp)
 
 In this case, you can license Endpoint Policy Manager with Endpoint Policy Manager Group Policy Edition or Endpoint Policy Manager Cloud Edition.
 
@@ -20,7 +20,7 @@ In this case, you can license Endpoint Policy Manager with Endpoint Policy Manag
 
 Azure Active Directory (AAD) is not the traditional AD in the cloud. It is a directory service which has a job to create identity to services.
 
-![515_3_image-20191025230525-2](/img/product_docs/policypak/policypak/license/mdm/515_3_image-20191025230525-2.png)
+![515_3_image-20191025230525-2](/img/product_docs/policypak/policypak/license/mdm/515_3_image-20191025230525-2.webp)
 
 It has no Group Policy and has no real device management. There are two ways you can use Azure AD: with and without an MDM service.
 
@@ -30,7 +30,7 @@ You can augment Azure & Azure AAD with an MDM service like Microsoft Intune, Wor
 
 Here is what a machine looks like when it is MDM enrolled and registered in your Azure Active Directory.
 
-![515_5_image-20191025230525-3](/img/product_docs/policypak/policypak/license/mdm/515_5_image-20191025230525-3.png)
+![515_5_image-20191025230525-3](/img/product_docs/policypak/policypak/license/mdm/515_5_image-20191025230525-3.webp)
 
 As such, you might want to add Endpoint Policy Manager to your existing MDM service to give you the ability to take existing traditional AD Group Policy settings and migrate them to MDM. Additionally, you get all the Endpoint Policy Manager features as well.
 

@@ -4,7 +4,7 @@ Built-in Netwrix Auditor self-audit allows you to track changes to the product c
 
 The corresponding option is available on the General tab of Netwrix AuditorSettings. By default, the __Collect data for self-audit checkbox__ is selected (enabled).
 
-![selfaudit_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_thumb_0_0.png)
+![selfaudit_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_thumb_0_0.webp)
 
 ### Search for Self-audit Results
 
@@ -18,7 +18,7 @@ __Step 2 –__ Set the Data source filter to __Self-audit__.
 
 __Step 3 –__ Click Search to review results:
 
-![selfaudit_search_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_search_thumb_0_0.png)
+![selfaudit_search_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_search_thumb_0_0.webp)
 
 __NOTE:__ After reviewing your search results, apply filters to narrow your data. See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information.
 
@@ -34,7 +34,7 @@ __Step 1 –__ In Auditor, navigate to Reports > Organization Level Reports.
 
 __Step 2 –__ Select the Netwrix Auditor Self-Audit report and click View.
 
-![selfaudit_report](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_report.png)
+![selfaudit_report](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_report.webp)
 
 ## Netwrix Auditor Self-Audit Scope
 

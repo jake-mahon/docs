@@ -4,7 +4,7 @@ This connector exports and fulfills users and roles from/to an [SAP ERP 6.0](htt
 
 This page is about ERP/SAP ERP 6.0.
 
-![Package: ERP/SAP ERP 6.0](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/packages_saperp6_v603.png)
+![Package: ERP/SAP ERP 6.0](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/packages_saperp6_v603.webp)
 
 ## Overview
 
@@ -88,11 +88,11 @@ To set up the prerequisites for reading follow the steps below.
 
 __Step 1 –__ Copy the DLL ```Sap.Data.Hana.Core.v2.1.dll``` into the Runtime of Identity Manager.
 
-![connectorreadprerequisites1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites1.png)
+![connectorreadprerequisites1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites1.webp)
 
 __Step 2 –__ Unzip the “hdbclient.zip” archive to C: drive and add the path to the Path environment variables.
 
-![connectorreadprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites2.png)
+![connectorreadprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites2.webp)
 
 __Step 3 –__ Create environment variables: ```HDBADOTNET=C:\hdbclient\ado.net``` and ```HDBADOTNETCORE=C:\hdbclient\dotnetcore```.
 
@@ -106,11 +106,11 @@ __Step 2 –__ Unzip the ```dotnet86.zip``` archive to ```C:\dotnetx86```.
 
 __Step 3 –__ Copy the DLLs icudt50.dll, ```icuin50.dll``` and icuuc50.dll into the Runtime of Identity Manager.
 
-![connectorwriteprerequisites](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites.png)
+![connectorwriteprerequisites](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites.webp)
 
 __Step 4 –__ Disable DLLs search by adding the environment variable ```NLSUI_7BIT_FALLBACK=YES```.
 
-![connectorwriteprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites2.png)
+![connectorwriteprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites2.webp)
 
 __Step 5 –__ Add new environment variable ```USERCUBE_DOTNET32``` containing the path to dotnetx86 (e.g.: ```C: \donetx86\dotnet.exe```).
 

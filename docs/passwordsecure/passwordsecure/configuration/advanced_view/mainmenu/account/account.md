@@ -4,7 +4,7 @@
 
 Users can configure all user-specific information in their account. It should be noted that if the [Masterkey mode](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md) process is used, user data will always be taken from Active Directory – editing this information in Netwrix Password Secure is thus not possible.
 
-![account](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.png)
+![account](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.webp)
 
 ## Edit profile
 
@@ -32,7 +32,7 @@ NOTE: If a user changes his or her password, all sessions that are still open ar
 
 Multifactor authentication provides additional protection through a second login authentication using a hardware token. The configuration is carried out via the ribbon in the “Security” section. See also in [Multifactor authentication](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication.md)
 
-![installation_with_parameters_124](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.png)
+![installation_with_parameters_124](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.webp)
 
 #### Configure autologin
 

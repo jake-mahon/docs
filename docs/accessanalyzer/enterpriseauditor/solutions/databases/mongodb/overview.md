@@ -40,7 +40,7 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer MongoDB Solution Set is a set of pre-configured jobs and reports that provides visibility into MongoDB Sensitive Data.
 
-![MongoDB Overview](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongdbjobgroupoverview.png)
+![MongoDB Overview](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/mongdbjobgroupoverview.webp)
 
 The following job groups comprise the MongoDB Solution:
 

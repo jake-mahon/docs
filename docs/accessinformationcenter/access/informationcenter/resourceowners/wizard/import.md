@@ -2,7 +2,7 @@
 
 The Import Owners wizard is opened with the __Import__ button in the Resource Owners interface.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.png)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 It contains two pages:
 
@@ -13,7 +13,7 @@ The CSV file should list one resource per row using the following format:
 
 [ResourcePath],[Owner1];[Owner2];[Owner3],[Description]
 
-![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/csvfileformat.png)
+![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
 
@@ -43,17 +43,17 @@ Follow the steps to import a list of multiple resources with assign owners into 
 
 __Step 1 –__ In the Resource Owners interface, click __Import__. The Import Owners wizard opens.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.png)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 __Step 2 –__ On the Select Files page, click __Add__.Navigate to the CSV file to be imported and click __Open__.
 
-![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfilepreview.png)
+![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfilepreview.webp)
 
 __Step 3 –__ A preview of the resources and owners appears in the table. The Status column indicates whether or not there is a problem (invalid resource or owner). Ensure all resources in the table have a green tick icon in the Status column, and click __Next__ to continue with the import.
 
 __NOTE:__ If a problem is indicated, additional information is displayed by hovering over the red exclamation icon. You can not continue with the import if any row contains an invalid resource or owner. To remove a resource from the table, select the row and click __Remove__. The row is removed from the table.
 
-![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 4 –__ On the Options page, configure the available options as required.
 
@@ -65,7 +65,7 @@ __Step 4 –__ On the Options page, configure the available options as required.
 
 __Step 5 –__ Click __Next__. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.png)
+![Import Owners wizard completed import page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 6 –__ The action status displays on the page. When the update has completed (100%), click __Close__. The Import Owners wizard closes.
 

@@ -8,7 +8,7 @@
 
 __Step 1 –__ Create a new policy (Set Launch Folder Windows in a Separate Process to Enabled) using Scripts & Triggers on the computer side, choose switched-mode like in the screenshot below.
 
-![639_1_image-20210424015614-1](/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.png)
+![639_1_image-20210424015614-1](/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.webp)
 
 __Step 2 –__ At the "On apply action" screen select "PowerShell script" from the dropdown, then in the main text window, paste in the script below, check the option "Run script as user, then click "Next".
 
@@ -21,19 +21,19 @@ New-ItemProperty -LiteralPath 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\E
 
 ```
 
-![639_2_image-20210424015614-2](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_2_image-20210424015614-2.png)
+![639_2_image-20210424015614-2](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_2_image-20210424015614-2.webp)
 
 __Step 3 –__ Then click "Next" at the "On revert action" screen to skip that screen, then at the "Specify process mode" screen choose the "Once" option.
 
-![639_3_image-20210424015614-3](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_3_image-20210424015614-3.png)
+![639_3_image-20210424015614-3](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_3_image-20210424015614-3.webp)
 
 __Step 4 –__ At the "Policy settings" screen give the policy a descriptive name then click "Finish.
 
-![639_4_image-20210424015614-4](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_4_image-20210424015614-4.png)
+![639_4_image-20210424015614-4](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_4_image-20210424015614-4.webp)
 
 __Step 5 –__ Now create another policy (Map drives when VPN connects) using Scripts & Triggers on the computer side, choose switched-mode like in the screenshot below.
 
-![639_5_image-20210424015614-5](/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.png)
+![639_5_image-20210424015614-5](/img/product_docs/policypak/policypak/scriptstriggers/579_1_image-20190918135807-1.webp)
 
 __Step 6 –__ At the "On apply action" screen select "PowerShell script" from the dropdown, then in the main text window, paste in the script below then change the drive mappings to match the settings needed for your environment, check the option "Run script as user, then click "Next".
 
@@ -51,32 +51,32 @@ if (-not(get-psdrive -name "H" -ErrorAction SilentlyContinue)) {
 
 ```
 
-![639_6_image-20210424015614-6](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_6_image-20210424015614-6.png)
+![639_6_image-20210424015614-6](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_6_image-20210424015614-6.webp)
 
 __Step 7 –__ Click "Next" at the "On revert action" screen to skip that screen, then at the "specify process mode" screen choose the "On trigger" option, then choose "VPN connect" from the drop down before clicking "Next" to continue.
 
-![639_7_image-20210424015614-7](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_7_image-20210424015614-7.png)
+![639_7_image-20210424015614-7](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_7_image-20210424015614-7.webp)
 
 __Step 8 –__ At the "Trigger settings" screen enter an asterisk (wildcard, etc.) for the server name, then click "Next".
 
-![639_8_image-20210424015614-8](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_8_image-20210424015614-8.png)
+![639_8_image-20210424015614-8](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_8_image-20210424015614-8.webp)
 
 __Step 9 –__ At the "Policy settings" screen give the policy a descriptive name then click "Finish.
 
-![639_9_image-20210424015614-9](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_9_image-20210424015614-9.png)
+![639_9_image-20210424015614-9](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_9_image-20210424015614-9.webp)
 
 __NOTE:__  You should have two policies now:
 
-![639_10_image-20210424015614-10](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_10_image-20210424015614-10.png)
+![639_10_image-20210424015614-10](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_10_image-20210424015614-10.webp)
 
 __Step 10 –__ Lastly, test the policy by logging into a computer, (or run ```gpupdate ```if already logged in) and then connect to a VPN as a user that should receive the policy. If everything works you should see the network drives show up in File Explorer, you may need to click refresh if you had File Explorer already open to update the window contents.
 
-![639_11_image-20210424015614-11](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_11_image-20210424015614-11.png)
+![639_11_image-20210424015614-11](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_11_image-20210424015614-11.webp)
 
 __Step 11 –__ Optionally, create a new Scripts and Triggers policy that disconnects the drives when the VPN disconnects by using the script below and also changing the trigger to "VPN disconnect".
 
-![639_12_image-20210424015614-12](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_12_image-20210424015614-12.png)
+![639_12_image-20210424015614-12](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_12_image-20210424015614-12.webp)
 
-![639_13_image-20210424015614-13](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_13_image-20210424015614-13.png)
+![639_13_image-20210424015614-13](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/639_13_image-20210424015614-13.webp)
 
 __Step 12 –__ "On trigger" does not work with Revert action script which is why you need to create a new policy to disconnect the drives.

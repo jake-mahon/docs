@@ -68,7 +68,7 @@ A few grid display types used in the default portal template are:
 11. In the __Page Size__ box, type or select a value. This value represents the number of records to show in the grid, with pagination options to navigate to more records.
 12. Select the __Show Search Filters__ check box to add a row to the grid that serves as a search bar. This row appears in the grid, as shown below:
 
-    ![search_row_in_grid](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/search_row_in_grid.png)
+    ![search_row_in_grid](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/search_row_in_grid.webp)
 13. Select the __Editable__ check box to make the rows in the grid available for editing. Else, the grid will be read-only.
 14. Click __OK__.
 15. Click __Save__ on the __Custom Display Types__ page.

@@ -2,7 +2,7 @@
 
 Endpoint Policy Manager GPCR has the ability to provide extended logging if something unexpected happens. There are two ways to turn on extended logging: downloadable REG files and ADMX files. You would use the downloadable REG files when you want to enable extended logging on just one machine, and you would use the ADMX/ADML files to enable extended logging on multiple machines. The downloadable REG files are found on our website at: PolicyPak GP Compliance Reporter > [Knowledge Base](/docs/policypak/policypak/grouppolicycompliancereporter/overview/knowledgebase.md). The ADMX files are in the download of Endpoint Policy Manager GPCR, as shown in Figure 77.
 
-![tuning_and_troubleshooting_18](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_18.png)
+![tuning_and_troubleshooting_18](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_18.webp)
 
 Figure 77. Downloaded ADMX files.
 
@@ -16,7 +16,7 @@ You can use the downloadable REG files when directed by the Endpoint Policy Mana
 
 To troubleshoot these items, you would download the REG files from our website and, as an administrator, install the files to enable them. When enabled correctly, the component will create a diagnostics folder, and logs will be placed inside it. In Figure 78 you can see the enhanced logging enabled for the endpoint.
 
-![tuning_and_troubleshooting_19](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_19.png)
+![tuning_and_troubleshooting_19](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_19.webp)
 
 Figure 78. Enhanced logging enabled.
 
@@ -24,7 +24,7 @@ Figure 78. Enhanced logging enabled.
 
 You can enable diagnostics for the Endpoint Policy Manager GPCR family of products using the ADMX/ADML files. First, copy the PolicyDefinitions folder into ```\\<DC>\sysvol\<domain>\Policies``` or ```C:\Windows```. Then, create and link a GPO. The new policies are at Computer Configuration | Policies | Administrative Templates | Endpoint Policy Manager, as shown in Figure 79.
 
-![tuning_and_troubleshooting_20](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_20.png)
+![tuning_and_troubleshooting_20](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_20.webp)
 
 Figure 79. The available GPCR policy settings.
 

@@ -2,7 +2,7 @@
 
 The Review History page lists all completed review instances for your resources.
 
-![Review History Tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewhistory.png)
+![Review History Tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewhistory.webp)
 
 The information displayed in the table includes:
 
@@ -24,7 +24,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The View Details button at the bottom of the Review History page opens the Review Details window for a resource where changes were recommended.
 
-![Review Details Window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.png)
+![Review Details Window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.webp)
 
 The information displayed in the table includes:
 

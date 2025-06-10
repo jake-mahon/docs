@@ -4,7 +4,7 @@ The Filters section provides options to build a filter statement by selecting th
 
 Click __Investigate__ in the application header bar to open the Investigations interface. Then create a new investigation or click a folder in the navigation pane to access a saved investigation. An investigation is located in the folder where it was saved.
 
-![Filters section of an investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filters.png)
+![Filters section of an investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filters.webp)
 
 Click the arrow on the right side to expand or collapse the Filters section.
 
@@ -24,7 +24,7 @@ See the [Build a Filter Statement](#Build-a-Filter-Statement) topic for addition
 
 You must set a timeframe for an investigation query. When you run a query, the application scans the available data for activity events that match the set filters for the specified timeframe. By default, the timeframe is set for the "Last Hour" of activity.
 
-![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.png)
+![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.webp)
 
 Click the displayed timeframeto open a window, which provides several timeframe options as well as a clock and a calendar for setting a custom range:
 
@@ -66,7 +66,7 @@ The Timeframe window closes and the custom range is visible in the Filters secti
 
 The Attribute menu in the Filters sectionhas the following options grouped by the type of attribute:
 
-![Attribute drop-down menu in the Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.png)
+![Attribute drop-down menu in the Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.webp)
 
 - Event (grayed-out category group header in the menu):
 
@@ -111,7 +111,7 @@ The Attribute menu in the Filters sectionhas the following options grouped by th
 
 The options available for the Operator menu in the Filters section change to match the selected Attribute. The following is a list of all possible operator options:
 
-![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.png)
+![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.webp)
 
 - Equals
 - Not Equal To
@@ -126,7 +126,7 @@ You can create a filter for a new investigation or modify a filter for a saved i
 
 __Step 1 –__ Navigate to the desired investigation's Filters section.
 
-![filtersimple](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.png)
+![filtersimple](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.webp)
 
 __Step 2 –__ If multiple data sources are configure, select a source from the __Source__ drop-down menu.
 

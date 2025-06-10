@@ -8,7 +8,7 @@ There are many functions within Netwrix Password Secure that can be adapted to t
 
 You can configure user settings similarly to [User rights](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md). Here too, there are a total of three possibilities with which a user can define his settings or be configured from another location. For the sake of easy manageability, it is again a good idea to configure the users not individually, but to provide several equal users with settings.
 
-![installation_with_parameters_116](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_116.png)
+![installation_with_parameters_116](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_116.webp)
 
 The focus is always on the user, also when it comes to user rights. It can obtain its settings in one of the following three ways:
 
@@ -18,7 +18,7 @@ The focus is always on the user, also when it comes to user rights. It can obtai
 
 __CAUTION:__ In addition to personal and global settings (as opposed to authorizations), settings are not assigned via roles, but via organisational units!
 
-![installation_with_parameters_112](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.png)
+![installation_with_parameters_112](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
 
 ### Inheritance of user settings
 
@@ -29,11 +29,11 @@ If you leave the personal settings on the outside, there are two ways to inherit
 
 Global settings are configured as usual in the [Main menu](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/main_menu_fc.md). The organisational units are inherited via the [Organisational structure](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md). All users who are assigned to an organisational unit inherit all user settings for this OU. In the present case, the users “Jones” and “Moore” inherit all settings from the “IT” organisational unit:
 
-![inherit permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_117-en.png)
+![inherit permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_117-en.webp)
 
 The “Settings” button in the ribbon allows you to see the settings for both organisational units and users. The many setting options can be restricted by the known [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md) mechanisms.
 
-![installation_with_parameters_118](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_118.png)
+![installation_with_parameters_118](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_118.webp)
 
 The diagram shows the settings for the user “Jones”. The search has been filtered by the term “Detail”. The column __“Inherited from”__ shows that some settings have been inherited globally, or by the organisational unit “IT”. The top two options have no value in the column. This is because this parameter has been defined at user level.
 
@@ -43,6 +43,6 @@ NOTE: The inheritance for individual settings can be deactivated in the ribbon!
 
 Option groups were created in the global settings to ensure that users can control only those settings for which they hold permissions. Categorising security levels from 1 to 5 allows you to combine similar options and thus make them available to the users.
 
-![user settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_119-en.png)
+![user settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_119-en.webp)
 
 The [User rights](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md) define who has the required permissions to change which security levels. As with all rights, this is achieved either through global inheritance, the role, or as a right granted directly to the user.

@@ -23,13 +23,13 @@ __First, we need to manage identities.__
 
 To do so, Identity Manager capitalizes on information from several source systems in order to build a central repository. This repository should contain all the organizational data relevant for access management for all users, meaning not only employees but also contractors, bots, or any kind of identity.
 
-![Synchronization](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_synchronization.png)
+![Synchronization](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_synchronization.webp)
 
 __This implies involving external systems.__
 
 Access management requires reading/writing data to/from varied systems and applications, like the Active Directory. Identity Manager provides an expanded set of connectors which contain the technology required for IGA-related data flows.
 
-![Connectors](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_connectors.png)
+![Connectors](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_connectors.webp)
 
 See more details on [
 Identity Management
@@ -45,7 +45,7 @@ In addition, Identity Manager helps you determine identities' expected entitleme
 
 As each working environment has its own particularities, you will be able to refine the identity model by defining dimensions, i.e. criteria from among organizational data that will trigger the rules.
 
-![Calculation](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_calculation.png)
+![Calculation](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_calculation.webp)
 
 ---
 
@@ -53,7 +53,7 @@ __Finally, we need to actually give identities their entitlements and then gover
 
 Identity Manager can be configured to provision the managed systems in order to apply the changes dictated by the role model. This provisioning can be done either directly, with automatic provisioning, or by notifying system administrators of the needed changes. Thus, identities finally get their entitlements.
 
-![Provisioning](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_provisioning.png)
+![Provisioning](/img/product_docs/usercube/usercube/introduction-guide/overview/overview_provisioning.webp)
 
 Furthermore, Identity Manager provides a few workflows for entitlement request or user data modification, which often include approval from a third party, hence identities get their entitlements securely.
 

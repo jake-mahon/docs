@@ -58,7 +58,7 @@ __Step 5 –__ Navigate to the Actions tab and complete the following fields:
 | Notify manager after | Specify account inactivity period, after which the account owner's manager must be notified. |
 | Set random password after | Specify account inactivity period, after which a random password will be set for this account. |
 | Disable accounts after | Specify account inactivity period, after which the account will be disabled. |
-| Move to a specific OU after | - Specify account inactivity period, after which the account will be moved to a specified organizational unit. - OU name—Specify OU name or select an AD container using ![select_button](/img/product_docs/auditor/auditor/tools/select_button.png) button. |
+| Move to a specific OU after | - Specify account inactivity period, after which the account will be moved to a specified organizational unit. - OU name—Specify OU name or select an AD container using ![select_button](/img/product_docs/auditor/auditor/tools/select_button.webp) button. |
 | Delete accounts after | Specify account inactivity period, after which the account will be removed. |
 | Delete account with all its subnodes | Select this checkbox to delete an account that is a container for objects. |
 | Notify managers only once | If this checkbox is selected, managers receive one notification on account inactivity and one on every action on accounts.  Managers will receive a notification in the day when the account inactivity time will be the same as specified in the inactivity period settings.  By default, managers receive notifications every day after the time interval of inactivity specified in the Notify managers after entry field. |
@@ -96,7 +96,7 @@ Follow the steps to review report on inactive users.
 
 __Step 1 –__ Click Generate next to Generate report on inactive users to view report immediately.
 
-![inactiveusersactivedirectory](/img/product_docs/auditor/auditor/tools/inactiveusersactivedirectory.png)
+![inactiveusersactivedirectory](/img/product_docs/auditor/auditor/tools/inactiveusersactivedirectory.webp)
 
 ## Registry Keys
 

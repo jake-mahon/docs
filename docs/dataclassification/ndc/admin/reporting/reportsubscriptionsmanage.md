@@ -14,7 +14,7 @@ This section contains information on how to generate reports, use report templat
    - __Source__
 4. Finally, click __Generate__.
 
-![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.png)
+![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.webp)
 
 The report will be displayed in the preview pane.
 
@@ -28,7 +28,7 @@ NOTE: This capability is supported for built-in reports (Classification, Clue Bu
 
 To view all templates available to you, open the __Reports__ tab and select __Report Templates__ on the left.
 
-![reporttemplates](/img/product_docs/dataclassification/ndc/admin/reporting/reporttemplates.png)
+![reporttemplates](/img/product_docs/dataclassification/ndc/admin/reporting/reporttemplates.webp)
 
 To save a report configuration template
 
@@ -36,7 +36,7 @@ To save a report configuration template
 2. Specify the necessary properties (e.g., grouping settings) and apply filters (e.g., to only include data from the specific source).
 3. Click the __Save Report Configuration__ button.
 
-   ![report_template](/img/product_docs/dataclassification/ndc/admin/reporting/report_template.png)
+   ![report_template](/img/product_docs/dataclassification/ndc/admin/reporting/report_template.webp)
 
    NOTE: Report configuration templates are saved per user.
 4. Enter a name for the report configuration template.
@@ -55,7 +55,7 @@ Subscriptions for report templates enable you to schedule email delivery of a va
 
 To view existing subscriptions for reports, navigate to the __Report Templates__ page on the left and click __View Subscriptions__ next to an existing template to view and edit subscriptions.
 
-![managesubscription](/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.png)
+![managesubscription](/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.webp)
 
 Checking the __Create a Subscription__ box when saving a new report configuration will enable users to create a new subscription. The following options are configured on the __Manage Subscriptions__ page:
 

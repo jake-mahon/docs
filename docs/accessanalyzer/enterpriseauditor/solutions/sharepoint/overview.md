@@ -36,7 +36,7 @@ The 0.Collection Job Group collects the data. The other job groups and the SP\_O
 
 This SharePoint solution offers information on multiple aspects of an organization’s SharePoint on-premises and SharePoint Online environments. This solution is comprised of 10 sub-job groups and an overview job which collect, analyze, and report on data. The data collection is conducted by the SharePointAccess (SPAA) Data Collector. See the corresponding [Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/standardtables.md) topic for database table information.
 
-![SharePoint Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sharepointjobgroup.png)
+![SharePoint Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sharepointjobgroup.webp)
 
 The following types of auditing can be conducted with the SharePoint Solution:
 

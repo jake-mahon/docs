@@ -4,7 +4,7 @@ The Sizing job group provides data collection, analyses, and reports which focus
 
 ___RECOMMENDED:___ Schedule the Sizing job group to run daily at 4 AM.
 
-![Sizing Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Sizing Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the Sizing job group are:
 

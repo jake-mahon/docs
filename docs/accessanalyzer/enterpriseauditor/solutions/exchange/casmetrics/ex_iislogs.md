@@ -2,7 +2,7 @@
 
 The 0.Collection > EX\_IISLogs Job provides data collection to be utilized in the ActiveSync, Outlook Web Access, and Outlook Anywhere Reports. This job goes out to each server that contains the IIS Logs and parses the log to return the data to the Access Analyzer database.
 
-![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The EX\_IISLogs job is located in the 0.Collection Job Group.
 
@@ -10,7 +10,7 @@ The EX\_IISLogs job is located in the 0.Collection Job Group.
 
 The EX\_IISLogs Job uses the SMARTLog Data Collector.
 
-![Queries for the EX_IISLogs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/iislogsquery.png)
+![Queries for the EX_IISLogs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/iislogsquery.webp)
 
 The following query is included in the EX\_IISLogs Job:
 
@@ -33,7 +33,7 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The SMAR
 
 __CAUTION:__ Do not modify other wizard pages. The other wizard pages are pre-configured for this job.
 
-![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/smartlogdctargetlog.png)
+![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
 __Step 4 –__ Navigate to the Target Log page, and configure the time frame as required. See the [SMARTLog: Target Log](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlog.md) topic for additional information.
 

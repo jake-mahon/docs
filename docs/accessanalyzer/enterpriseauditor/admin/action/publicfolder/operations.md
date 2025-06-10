@@ -2,7 +2,7 @@
 
 Use the Operations page to specify the operations to perform as part of the action.
 
-![Public Folder Action Module Wizard Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.png)
+![Public Folder Action Module Wizard Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The __Add operation__ drop-down menu lists the operations that can be performed. Each operation opens a corresponding window. Operations include:
 
@@ -24,7 +24,7 @@ The buttons to the right of the drop-down control the operations in the field:
 
 Use the Rename Folder window to rename selected folders. It is a wizard page for the Rename operation.
 
-![Rename Folder Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/renamefolder.png)
+![Rename Folder Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/renamefolder.webp)
 
 Rename folders using the following options:
 
@@ -37,7 +37,7 @@ Rename folders using the following options:
 
 Use the Change Permissions window to change the permissions. It is a wizard page for the Change permissions operation.
 
-![Change Permissions Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/changepermissions.png)
+![Change Permissions Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/changepermissions.webp)
 
 Change permissions using the following options:
 
@@ -94,7 +94,7 @@ Change permissions using the following options:
 
 Use the Custom Attributes window to select custom attributes. It is a wizard page for the Custom Attributes operation.
 
-![Custom Attributes Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.png)
+![Custom Attributes Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.webp)
 
 Select attributes using the following options:
 
@@ -107,7 +107,7 @@ Select attributes using the following options:
 
 Use the Replicas window to replicate servers. It is a wizard page for the Replicas operation.
 
-![Replicas Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/replicas.png)
+![Replicas Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/replicas.webp)
 
 Replicate servers using the following options:
 
@@ -119,7 +119,7 @@ Replicate servers using the following options:
 
 Use the Limits window to select limits to the action. It is a wizard page for the Limits operation.
 
-![Limits Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/limits.png)
+![Limits Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/limits.webp)
 
 Use the options to select any changes for the categories. If applicable, use the dropdown to select desired values related to the corresponding option.
 
@@ -133,7 +133,7 @@ Use the options to select any changes for the categories. If applicable, use the
 
 Use the Delete Folder window to select deletion settings for the action. It is a wizard page for the Delete operation.
 
-![Delete Folder Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/deletefolder.png)
+![Delete Folder Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/deletefolder.webp)
 
 Select deletion settings using the following options:
 

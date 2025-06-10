@@ -12,4 +12,4 @@ For more information [How must I configure my Anti-virus or system-level softwar
 
 Example of error and results in Event log:
 
-![97_1_carbonblack1](/img/product_docs/policypak/policypak/troubleshooting/error/install/97_1_carbonblack1.png)
+![97_1_carbonblack1](/img/product_docs/policypak/policypak/troubleshooting/error/install/97_1_carbonblack1.webp)

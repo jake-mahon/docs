@@ -6,14 +6,14 @@ __Step 1 –__ The Job Builder creates and configures a Access Analyzer job
 
 __Step 2 –__ The Job Approver reviews a new or edited job’s configuration, and either approves or rejects it
 
-![Lock Job option in right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/lockjob.png)
+![Lock Job option in right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/lockjob.webp)
 
 - If a job is approved, then a lock needs to be applied by right-clicking the job title in the Jobs tree and selecting __Lock Job__
 - If a job is rejected, then the job remains unlocked
 - If the __Lock Job__ option is visible, then the job has not yet been approved
 - If the __Lock Job__ option is not visible, then the job has been approved
 
-![Unlock Job option in right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/unlockjob.png)
+![Unlock Job option in right-click menu](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/unlockjob.webp)
 
 __Step 3 –__ The Job Initiator can choose to run the job directly through the Access Analyzer Console or schedule it to run with the Schedule Service Account. This user will know the job was approved by the grayed-out __Unlock Job__ option in the right-click menu.
 
@@ -27,7 +27,7 @@ __Step 3 –__ The Job Initiator can choose to run the job directly through the 
 
   - See the [Report Settings Tab](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topic for additional information
 
-![Report under the Results Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportjobstree.png)
+![Report under the Results Node in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/reportjobstree.webp)
 
 __Step 4 –__ After a job has been successfully run, the __Job Viewer__ can now view the results of the job under the job’s Status and Results node, or in the Web Console. See the [Viewing Generated Reports](/docs/accessanalyzer/enterpriseauditor/admin/report/view.md) topic for additional information.
 

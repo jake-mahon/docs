@@ -9,7 +9,7 @@ The Netwrix Auditor Integration API provides access to audit data collected by N
 - Data in: Solidify security and meet regulatory compliance standards by enabling visibility into what is going on in any third-party application.
 - Data out: Further automate your business processes, IT security and operations workflows by enriching third-party solutions with actionable audit data.
 
-![diagram_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.png)
+![diagram_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 Netwrix Auditor Integration API operates with XML- and JSON-formatted Activity Records—minimal chunks of audit data containing information on _who_ changed _what_, _when_ and _where_ this change was made. XML format is set as default.
 

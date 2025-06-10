@@ -23,6 +23,6 @@ The Registry action module is configured through the Registry Action Module Wiza
 
 The Welcome page gives an overview of the Registry Action Module Wizard. The steps navigation pane contains links to the pages in the wizard. Review the introductory and caution information about the Registry Action Module before proceeding.
 
-![Registry Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Registry Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click Next or use the Steps navigation pane to open another page in the wizard.

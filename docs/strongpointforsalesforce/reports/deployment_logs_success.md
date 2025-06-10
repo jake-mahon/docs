@@ -56,4 +56,4 @@ Click on any of the report columns to change the sort order. The á or â arrow 
 >
 > __Tests Selected__: Number of selected tests.
 
-![Successful Deployment Logs Report](/img/product_docs/strongpointforsalesforce/reports/report_deploy_success.png)
+![Successful Deployment Logs Report](/img/product_docs/strongpointforsalesforce/reports/report_deploy_success.webp)

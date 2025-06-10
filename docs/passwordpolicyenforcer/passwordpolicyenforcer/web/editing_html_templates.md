@@ -77,7 +77,7 @@ Instructions are inside ranges called SECTION\_A and SECTION\_B. Each section co
 
 Validation error messages are shown in a yellow box below the page instructions. Validation errors are normally caused by invalid user input.
 
-![using_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_1.png)
+![using_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_1.webp)
 
 Validation error messages are defined in en\_ppeweb.htm. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
 
@@ -91,7 +91,7 @@ Validation error messages are defined in en\_ppeweb.htm. The error messages are 
 
 All the critical error messages are defined in ```en_error.htm```. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
 
-![using_ppe_web_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_2.png)
+![using_ppe_web_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_2.webp)
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more information about the error. You should keep these as they provide important information about the error, but you can delete them if you do not want them.
 
@@ -113,7 +113,7 @@ If you want to display some text for all error messages, then insert your text a
 
 The finished message is shown after users successfully change their password. This message is defined in en\_finished.htm.
 
-![editing_the_html_templates_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/editing_the_html_templates_1.png)
+![editing_the_html_templates_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/editing_the_html_templates_1.webp)
 
 `<h1>Finished</h1>`
 

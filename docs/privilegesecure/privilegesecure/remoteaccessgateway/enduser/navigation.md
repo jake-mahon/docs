@@ -2,7 +2,7 @@
 
 At the top of the Privilege Secure Console lists available in interfaces and provides access to the Help link and the User Menu:
 
-![End User Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/enduserdashboard.png)
+![End User Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/enduserdashboard.webp)
 
 The buttons have these functions:
 

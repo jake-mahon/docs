@@ -4,7 +4,7 @@ The __Classifier__ configuration tab contains the classification engine settings
 
 Each option has an associated “__i__” which describes the nature of the setting.
 
-![core_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.png)
+![core_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.webp)
 
 __NOTE:__ To view a complete list of the __Config__ settings, click the Details tab. The list also has an indication of the values that have been changed from the default setting.
 

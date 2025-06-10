@@ -6,7 +6,7 @@ The EX\_MBRights job collects data from Active Directory to identify the mailbox
 
 The EX\_MBRights job uses the ExchangePS Data Collector.
 
-![Queries for the EX_MBRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.png)
+![Queries for the EX_MBRights Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.webp)
 
 The following query is included in the EX\_MBRights Job:
 

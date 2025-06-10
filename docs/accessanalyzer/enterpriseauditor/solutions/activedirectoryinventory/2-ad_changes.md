@@ -10,7 +10,7 @@ View the analysis tasks by navigating to the __.Active Directory Inventory__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysis.png)
+![Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -91,17 +91,17 @@ In order for Access Analyzer to send email notifications, it is necessary for th
 
 __Step 1 –__ Navigate to the __.Active Directory Inventory__ > __2-AD\_Changes__ > __Configure__ node and select __Analysis__.
 
-![Notification Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysisnotification.png)
+![Notification Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysisnotification.webp)
 
 __Step 2 –__ In the Analysis Selection view, select the desired notification analysis task and click __Analysis Configuration__. The Notification Data Analysis Module opens.
 
-![Notification Data Analysis Module SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtp.png)
+![Notification Data Analysis Module SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtp.webp)
 
 __CAUTION:__ Do not make changes to the pages preceding the SMTP page.
 
 __Step 3 –__ Use the __Next__ button to navigate to the email configuration SMTP page.
 
-![Recipients section of SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtprecipients.png)
+![Recipients section of SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtprecipients.webp)
 
 __Step 4 –__ In the Recipients section, provide the email addresses or distribution lists (fully qualified address) for those who are to receive this notification. Multiple addresses can be provided. You can use the following options:
 
@@ -109,7 +109,7 @@ __Step 4 –__ In the Recipients section, provide the email addresses or distrib
 - Remove – Remove an email address from the Recipients list
 - Combine multiple messages into single message – Sends one email for all objects in the record set instead of one email per object to all recipients
 
-![Message section of SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtpmessage.png)
+![Message section of SMTP properties page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/notificationanalysissmtpmessage.webp)
 
 __Step 5 –__ In the Message section, edit the __Subject__. It is not recommended to remove any parameters. Then, customize the email content in the textbox to provide an explanation of the notification to the recipients.
 

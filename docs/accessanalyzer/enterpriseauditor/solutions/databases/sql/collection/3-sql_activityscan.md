@@ -12,7 +12,7 @@ Special Dependency
 
 The ActivityScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup14.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup14.webp)
 
 - ActivityScan – Collects activity from targeted instances
   - (Optional) This query can be modified to target specific databases/instances. See the [Configure the ActivityScan Query](#configure-the-activityscan-query) topic for additional information.
@@ -29,7 +29,7 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Options Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanoptionspage.png)
+![Options Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
 
 __Step 4 –__ To modify scan options, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. Select the desired scan options. The query is preconfigured with the following default settings:
 
@@ -38,7 +38,7 @@ __Step 4 –__ To modify scan options, navigate to the [SQL Data Collector](/doc
 - Collect audits by name – Finds available audits in the database
 - Collect audits by path – Collects audits by a specified path
 
-![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanfilterpage.png)
+![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanfilterpage.webp)
 
 __Step 5 –__ To scope the query for specific database/instance, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. The query is configured by default to target Only select database objects. Click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
 
@@ -58,7 +58,7 @@ Navigate to the __Databases__ > 0.Collection > SQL > 3-SQL\_ActivityScan > Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup17.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup17.webp)
 
 The default analysis tasks are:
 

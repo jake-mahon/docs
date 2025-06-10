@@ -58,7 +58,7 @@ __Step 1 –__ Open the ```AccessInformationCenter.Service.exeWeb.config``` file
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.png)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
 
 __Step 2 –__ Change the ```BindingUrl``` key value to ```"https://+:481"``` (ensure the port number matches the port number used in the PowerShell command run to create the SSL Binding).
 
@@ -74,7 +74,7 @@ Follow the steps to update the AIC’s desktop icon's Access Information Center'
 
 __Step 1 –__ Right click on the __Access Information Center__ desktop shortcut and click __Properties__.
 
-![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.png)
+![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
 
 __Step 2 –__ On the __Web Document__ tab, enter the updated __URL__ in the text box to: ```https://[hostname.domain.com]:481/v2/login```
 
@@ -90,13 +90,13 @@ __NOTE:__ The Access Information Center also supports using Microsoft Entra ID 
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
-![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.png)
+![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
 
 __Step 1 –__ Open the ```AccessInformationCenter.Service.exe.config``` file in a text editor, such as Notepad. The file is located in the Access Information Center installation directory:
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.png)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
 
 __Step 2 –__ Locate the line containing the ```AuthAllowWindowsAuthentication``` parameter. By default, the value will be set to ```False```:
 
@@ -124,15 +124,15 @@ Follow the steps to configure local intranet settings.
 
 __Step 1 –__ Open Windows Internet Properties (__Control Panel__ > __Network and Internet__ > __Internet Options__).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.png)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.webp)
 
 __Step 2 –__ Go to the Security tab, and select the __Local Intranet__ option. Then, click the __Sites__ button.
 
-![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.png)
+![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.webp)
 
 __Step 3 –__ Click the __Advanced__ button.
 
-![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.png)
+![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
 
 __Step 4 –__ Enter a domain in the __Add this website in the zone__ field. Ensure the fully qualified domain name is in the following format: ```https://<server>.<domain>.com```
 

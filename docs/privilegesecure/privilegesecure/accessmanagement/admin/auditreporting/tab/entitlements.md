@@ -2,7 +2,7 @@
 
 The Entitlements tab shows the activities associated with the users in the selected access certification task.
 
-![entitlementstab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlementstab.png)
+![entitlementstab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlementstab.webp)
 
 The Entitlements table has the following features:
 
@@ -37,7 +37,7 @@ __Step 2 –__ In the Access Certification Task list, select the name of the tas
 
 __Step 3 –__ Click Review to open the Review Activity Details window.
 
-![Review Entitlements window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/reviewentitlementswindow.png)
+![Review Entitlements window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/reviewentitlementswindow.webp)
 
 The Review Activity Details window has the following features:
 

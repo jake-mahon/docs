@@ -10,7 +10,7 @@ For this example, re-open and edit the policy that performs automatic elevation 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The result of this change (after running GPupdate) is that when the end-user tries to run Procmon, they will see the standard UAC prompt.
 
@@ -24,7 +24,7 @@ The user will now need to right-click the application and choose __Run with Endp
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
 __NOTE:__ You can change the name of the menu item from __Run with__ Endpoint Policy Manager __On-Demand__ via Global Settings Policy.. See the [Best Practices and Miscellaneous Topics](/docs/policypak/policypak/leastprivilege/bestpractices/overviewmisc.md) topic for additional information on Global Settings Policy.
 

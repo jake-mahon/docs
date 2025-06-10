@@ -4,7 +4,7 @@ On rare occasions you might need to change some of the attributes of a processâ€
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/run_with_customized_token.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/run_with_customized_token.webp)
 
 Here you can change a variety of functions about the token including its permissions, privileges and security, as well as Integrity level.
 

@@ -4,7 +4,7 @@ A Membership review is an evaluation of group membership. Follow the steps to pe
 
 __Step 1 –__ On the Pending Reviews page, select the resource with a pending Membership review and click __Begin Review__. The Resource Review page opens to the 1 Make changes tab.
 
-![Membership review Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership.png)
+![Membership review Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership.webp)
 
 The table displays membership information for the group being reviewed:
 
@@ -24,7 +24,7 @@ _Remember,_ at any time you can save your recommendations and exit the review. I
 
 __Step 3 –__ When the recommended changes are set as desired, click __Next__. The 2 Review changes tab opens in the Resource Review page.
 
-![Membership review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership2.png)
+![Membership review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagemembership2.webp)
 
 __Step 4 –__ This tab displays a filtered table of trustees with recommended changes. Confirm your recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave notes explaining why the change is recommended.
 

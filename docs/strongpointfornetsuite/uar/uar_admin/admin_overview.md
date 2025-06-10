@@ -8,7 +8,7 @@ __UAR Admin__manages the UAR process. Administrators login to NetSuite and ope
 
 Here is an example of the Admin dashboard displayed when you log in:
 
-![Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.png)
+![Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.webp)
 
 ## Dashboard Controls
 

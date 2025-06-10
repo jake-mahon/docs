@@ -8,7 +8,7 @@ The AD\_AdminSDHolder Job uses the PowerShell Data Collector for the following q
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Queries for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderquery.png)
+![Queries for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderquery.webp)
 
 - Default AdminSDHolder Perms – Creates a table of default AdminSDHolder permissions
 
@@ -20,7 +20,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderanalysis.png)
+![Analysis Tasks for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderanalysis.webp)
 
 The default analysis tasks are:
 

@@ -2,7 +2,7 @@
 
 The 1. Deprovision Groups Job Group provides a simple, automated workflow to deprovision stale groups. The action tasks in this job group provide an automated workflow.
 
-![1.Deprovision Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/groupsdeprovisionjobtree.png)
+![1.Deprovision Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/groupsdeprovisionjobtree.webp)
 
 The jobs in the 1. Deprovision Groups Job Group are:
 

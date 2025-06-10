@@ -11,8 +11,8 @@ See the [Export Reports](/docs/changetracker/changetracker/admin/tabs/eventsexpo
 
 __NOTE:__ The __Configuration Template__ report has a context-sensitive option for Query Settings, allowing selection of all Policy Templates to include in the report. Often an auditor will request details of configuration attributes being tracked and this report provides a convenient way to extract these on a scheduled basis.
 
-![ReportTemplateQuerySettings](/img/product_docs/changetracker/changetracker/admin/tabs/reporttemplatequerysettings.png)
+![ReportTemplateQuerySettings](/img/product_docs/changetracker/changetracker/admin/tabs/reporttemplatequerysettings.webp)
 
 __NOTE:__ The __Table of Contents__ treatment for the output. Links to sections are only supported in the exported PDF, not the Web Browser-rendered report.
 
-![ReportTemplateTOC](/img/product_docs/changetracker/changetracker/admin/tabs/reporttemplatetoc.png)
+![ReportTemplateTOC](/img/product_docs/changetracker/changetracker/admin/tabs/reporttemplatetoc.webp)

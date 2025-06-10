@@ -16,7 +16,7 @@ See the [Customizable Analysis Tasks for the SP\_StaleTeamSites Job](#customizab
 
 Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_StaleTeamSites__ >__Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the SP_StaleTeamSites Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.png)
+![Analysis Tasks for the SP_StaleTeamSites Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.webp)
 
 The default analysis task is:
 

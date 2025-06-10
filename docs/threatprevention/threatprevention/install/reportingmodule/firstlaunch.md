@@ -2,11 +2,11 @@
 
 On installing the Netwrix Threat Manager Reporting Module, the following icon appears on the desktop, which opens the Netwrix Threat Manager Reporting Module console:
 
-![Desktop icon for Threat Manager Reporting Module](/img/product_docs/threatprevention/threatprevention/install/desktopicon.png)
+![Desktop icon for Threat Manager Reporting Module](/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
 
 __Step 1 –__ Double-click the __Netwrix Threat Manager Dashboard__ icon to open the console for the first time.
 
-![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.png)
+![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
 
 There is a built-in ADMIN account used for the initial configuration steps and granting user access. The User Name is "admin". You will set the password and optionally enable MFA for this account during first launch. Follow the steps to setup this account.
 
@@ -32,7 +32,7 @@ If the Enable MFA option is set to ON, registration of an MFA authenticator is r
 
 If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to configure MFA for the account.
 
-![registerauthenticator](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.png)
+![registerauthenticator](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
 
 __Step 1 –__ Register the MFA authenticator. The Register Authenticator prompt will provide instructions to configure multi-factor authentication with an external or third-party application.
 

@@ -29,7 +29,7 @@ Netwrix Auditor executes interactive search queries against data stored in the a
 
 ## Browsing Your Audit Data
 
-On the main Netwrix Auditor page, click ![search_tile](/img/product_docs/auditor/auditor/admin/search/search_tile.png) on the left.
+On the main Netwrix Auditor page, click ![search_tile](/img/product_docs/auditor/auditor/admin/search/search_tile.webp) on the left.
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](/docs/auditor/auditor/admin/navigation/overview.md) and [Customize Home Screen](/docs/auditor/auditor/admin/navigation/customizehome.md) topics for additional information.
 
@@ -44,13 +44,13 @@ There you can use the UI controls to run the variety of search queries that will
 
   You can also use advanced filtering capabilities based on regular expressions (they involve filter fields and conditions). See [Use Filters in Advanced Mode](/docs/auditor/auditor/admin/search/filteradvanced.md) for details.
 
-  ![search_filter](/img/product_docs/auditor/auditor/admin/search/search_filter.png)
+  ![search_filter](/img/product_docs/auditor/auditor/admin/search/search_filter.webp)
 - By default, search results are open in the same window, so the subsequent search results will overwrite the previous search results. To view them in different windows, click Open in new window.
 - In addition, you can customize your view by selecting columns to display.
 
 Use search results for your own needs: save, share, create search-based alerts, subscribe to periodic delivery of search query results, etc. See [Make Search Results Actionnable](#Make-Search-Results-Actionnable) for more information.
 
-![search_nofilter_1](/img/product_docs/auditor/auditor/admin/search/search_nofilter_1.png)
+![search_nofilter_1](/img/product_docs/auditor/auditor/admin/search/search_nofilter_1.webp)
 
 You can also use the __Search__ window to examine details for the selected activity record, or watch a video recording (for User Ativity data).
 

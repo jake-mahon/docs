@@ -2,7 +2,7 @@
 
 Within a particular GPO (User side or Computer side), policies and collections process in numerical order. So, lower-numbered policies attempt to process first, and higher-numbered policies attempt to process last. Then, lower-numbered collections attempt to process first, and higher-numbered collections attempt to process last.
 
-![understanding_processing_order](/img/product_docs/policypak/policypak/remoteworkdelivery/understanding_processing_order.png)
+![understanding_processing_order](/img/product_docs/policypak/policypak/remoteworkdelivery/understanding_processing_order.webp)
 
 Within any collection, there may be other collections, as well as policies. As such, each policy and collection is also processed in numerical order, starting at each level with the lowest-numbered policies and collections.
 

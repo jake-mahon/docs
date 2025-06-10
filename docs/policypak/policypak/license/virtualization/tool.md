@@ -4,7 +4,7 @@ When you license Citrix / Terminal Services / RDS, you purchase keypak licenses 
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) LT attempts to read these keypak files and report on your maximum inbound connections. In short, LT can only look for these Keypack licenses when running on a Windows server and not a Windows client machine. That is what this message is about.
 
-![352_2_image001](/img/product_docs/policypak/policypak/license/virtualization/352_1_image001_(1).png)
+![352_2_image001](/img/product_docs/policypak/policypak/license/virtualization/352_1_image001_(1).webp)
 
 __NOTE:__ Sometimes LT can acquired the correct number of RDS connections, and sometimes it cannot.
 

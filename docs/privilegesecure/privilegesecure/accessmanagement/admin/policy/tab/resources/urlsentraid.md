@@ -2,7 +2,7 @@
 
 The URLs tab for Microsoft Entra ID (formerly Azure AD) shows information about the URLs associated to the selected resource. URLs are correlated to launching activities in the browser extension. If a given site is not listed here, the activity login may fail as it is not an authorized site for login.
 
-![URLs Tab for Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.png)
+![URLs Tab for Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
 
 The URLs tab has the following features:
 

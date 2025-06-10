@@ -12,7 +12,7 @@ __Step 2 –__ Save the license key file to the following folder:
 
 …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
 
-![Import License](/img/product_docs/threatprevention/threatprevention/install/importlicense.png)
+![Import License](/img/product_docs/threatprevention/threatprevention/install/importlicense.webp)
 
 __Step 3 –__ The SIEnterpriseManager service automatically recognizes and imports the file.
 

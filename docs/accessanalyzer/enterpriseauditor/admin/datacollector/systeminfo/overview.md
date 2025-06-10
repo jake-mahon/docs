@@ -31,6 +31,6 @@ The SystemInfo Data Collector is configured through the System Info Data Collect
 - [SystemInfo: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/options.md)
 - [SystemInfo: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/summary.md)
 
-![System Info Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![System Info Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

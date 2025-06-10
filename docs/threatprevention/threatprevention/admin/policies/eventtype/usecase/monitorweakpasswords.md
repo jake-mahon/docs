@@ -6,7 +6,7 @@ __NOTE:__ See the [Prevent Weak Passwords Use Case](/docs/threatprevention/threa
 
 Follow the steps to configure a policy to monitor the creation of weak passwords.
 
-![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.png)
+![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.webp)
 
 __Step 1 窶点_ (Must be completed by an administrator) Configure the global EPEﾂsettings for your environment.
 
@@ -17,13 +17,13 @@ __Step 1 窶点_ (Must be completed by an administrator) Configure the global EPEﾂ
 
 __Step 2 窶点_ Create a new policy with the Password Enforcement Event Type.
 
-![New Monitor EPE Policy - General tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/newmonitorepepolicy.png)
+![New Monitor EPE Policy - General tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/newmonitorepepolicy.webp)
 
 - Right-click on the __Policies > Auditing__ folder and select __New > Policy__.
 - On the General tab, provide a unique descriptive name, e.g. Monitor Weak Passwords, and description, e.g. This policy monitors the creation of weak passwords according to the global EPEﾂsettings.
 - On the Event Type tab, click the __Add__ (+) button and select Password Enforcement on the [Event Selection Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md#event-selection-window).
 
-![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/passwordrulesmonitor.png)
+![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/passwordrulesmonitor.webp)
 
 __Step 3 窶点_ Configure the event filters.
 
@@ -51,13 +51,13 @@ The policy is now monitoring for the creation of weak passwords in your environm
 
 ## View Events in Recent Events Tab
 
-![Recent Events Tab for weak password monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/recenteventsmonitor.png)
+![Recent Events Tab for weak password monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/recenteventsmonitor.webp)
 
 On the Recent Events tab of the policy, set the Show options as desired and click the Refresh button to view monitored events. See the [Recent Events Tab](/docs/threatprevention/threatprevention/admin/policies/recentevents/overview.md) topic for additional information.
 
 ## View Events in Investigate Interface
 
-![Investigate Interface](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/invesitgatenodemonitor.png)
+![Investigate Interface](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/invesitgatenodemonitor.webp)
 
 On the Investigate window of the Administration Console, you can use the following filter options to view monitored weak password events:
 

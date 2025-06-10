@@ -16,11 +16,11 @@ Copy the ```C:\temp\Company WiFi.xml``` to a share accessible by the users and c
 
 Create the WLAN GPO and apply it to the OU where the Computers live, next use Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts Manager > on the Computer side to create a new policy item.
 
-![497_1_img-1](/img/product_docs/policypak/policypak/scriptstriggers/497_1_img-1.png)
+![497_1_img-1](/img/product_docs/policypak/policypak/scriptstriggers/497_1_img-1.webp)
 
 At the "Specify policy target screen be sure to use switched mode for the policy.
 
-![497_2_img-2](/img/product_docs/policypak/policypak/scriptstriggers/497_2_img-2.png)
+![497_2_img-2](/img/product_docs/policypak/policypak/scriptstriggers/497_2_img-2.webp)
 
 For the Apply action use the command below (remember to use the PowerShell Script option from the drop down).
 
@@ -28,7 +28,7 @@ For the Apply action use the command below (remember to use the PowerShell Scrip
 
 Verify that "Run script as user" check box is checked then click "Save"
 
-![497_3_img-3](/img/product_docs/policypak/policypak/scriptstriggers/497_3_img-3.png)
+![497_3_img-3](/img/product_docs/policypak/policypak/scriptstriggers/497_3_img-3.webp)
 
 __NOTE:__  If needed you can delete this WLAN profile from a computer using an elevated PowerShell command prompt.
 

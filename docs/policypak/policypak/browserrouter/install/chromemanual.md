@@ -18,7 +18,7 @@ __Step 1 –__ Check the information here: [What is the Chrome Extension ID for 
 
 __Step 2 –__ Append the PPBR Chrome Extension ID with the following URL: [https://chrome.google.com/webstore/detail/policypak-browser-router/[PPBR-Extension-ID](https://chrome.google.com/webstore/detail/policypak-browser-router/[PPBR-Extension-ID)]
 
-![535_1_image-20191222210303-1](/img/product_docs/policypak/policypak/browserrouter/install/535_1_image-20191222210303-1.png)
+![535_1_image-20191222210303-1](/img/product_docs/policypak/policypak/browserrouter/install/535_1_image-20191222210303-1.webp)
 
 __Step 3 –__ ote the PPBR Chrome Extension's Version Number.
 
@@ -26,11 +26,11 @@ __Step 4 –__ Launch this URL, [https://www.crxextractor.com/](https://www.crxe
 
 __Step 5 –__ Insert the updated PPBR Chrome Extension URL that you appended in step 1.2.
 
-![535_3_image-20191222210303-2_457x162](/img/product_docs/policypak/policypak/browserrouter/install/535_3_image-20191222210303-2_457x162.png)
+![535_3_image-20191222210303-2_457x162](/img/product_docs/policypak/policypak/browserrouter/install/535_3_image-20191222210303-2_457x162.webp)
 
 __Step 6 –__ Click __OK__
 
-![535_5_image-20191222210303-3](/img/product_docs/policypak/policypak/browserrouter/install/535_5_image-20191222210303-3.png)
+![535_5_image-20191222210303-3](/img/product_docs/policypak/policypak/browserrouter/install/535_5_image-20191222210303-3.webp)
 
 __Step 7 –__ Click on Get .CRX
 
@@ -44,7 +44,7 @@ __Step 1 –__ Go to ```Computer Configuration\\Preferences\\Windows Settings\\F
 
 __Step 2 –__ Right-click on the __Files__ node and select __New__ and then __File__.
 
-![535_7_image-20191222210303-4](/img/product_docs/policypak/policypak/browserrouter/install/535_7_image-20191222210303-4.png)
+![535_7_image-20191222210303-4](/img/product_docs/policypak/policypak/browserrouter/install/535_7_image-20191222210303-4.webp)
 
 __Step 3 –__ Configure this policy as shown below. Change __Source__ and __Destination__ paths as needed.
 
@@ -58,7 +58,7 @@ __Step 1 –__ Launch GPO Item and browse the following location: ```Computer Co
 
 __Step 2 –__ Right-click on __Registry node__, then click on __New__ > __Registry Item__
 
-![535_9_image-20191222210303-5](/img/product_docs/policypak/policypak/browserrouter/install/535_9_image-20191222210303-5.png)
+![535_9_image-20191222210303-5](/img/product_docs/policypak/policypak/browserrouter/install/535_9_image-20191222210303-5.webp)
 
 __Step 3 –__ Configure the setting as shown below. The value's references are under Chrome REG section.
 
@@ -89,18 +89,18 @@ __Step 4 –__ Run ```GPUPDATE ```on the target computer and verify the results.
 
 This section has to be executed by the end-user.
 
-![535_11_image-20191222210303-6](/img/product_docs/policypak/policypak/browserrouter/install/535_11_image-20191222210303-6.png)
+![535_11_image-20191222210303-6](/img/product_docs/policypak/policypak/browserrouter/install/535_11_image-20191222210303-6.webp)
 
 __Step 1 –__ Relaunch Google Chrome and wait for the notification banner, thenclick the __Enable extension__ button.
 
-![535_13_image-20191222210303-7](/img/product_docs/policypak/policypak/browserrouter/install/535_13_image-20191222210303-7.png)
+![535_13_image-20191222210303-7](/img/product_docs/policypak/policypak/browserrouter/install/535_13_image-20191222210303-7.webp)
 
 If you aren't prompted forthe __Enable extension__ window, look for this icon -in the Chrome Browser and follow the instructions in the next step to enable it.
 
-![535_15_image-20191222210303-8](/img/product_docs/policypak/policypak/browserrouter/install/535_15_image-20191222210303-8.png)
+![535_15_image-20191222210303-8](/img/product_docs/policypak/policypak/browserrouter/install/535_15_image-20191222210303-8.webp)
 
 __Step 2 –__ Select an option for Endpoint Policy Manager Browser Router Chrome Extension:
 
-![535_17_image-20191222210303-9](/img/product_docs/policypak/policypak/browserrouter/install/535_17_image-20191222210303-9.png)
+![535_17_image-20191222210303-9](/img/product_docs/policypak/policypak/browserrouter/install/535_17_image-20191222210303-9.webp)
 
 __Step 3 –__  Click on __Enable extension__ button:

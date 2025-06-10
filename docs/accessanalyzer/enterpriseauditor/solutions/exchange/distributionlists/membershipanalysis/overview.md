@@ -2,7 +2,7 @@
 
 The Membership Analysis job group provides visibility into toxic conditions contained with the environment, such as circular nesting, large groups, empty groups, nesting, and potentially stale groups.
 
-![Membership Analysis Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/membershipanalysisjobstree.png)
+![Membership Analysis Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/membershipanalysisjobstree.webp)
 
 The jobs in the Membership Analysis job group are:
 

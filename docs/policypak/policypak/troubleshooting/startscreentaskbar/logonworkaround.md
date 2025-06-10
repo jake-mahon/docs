@@ -26,23 +26,23 @@ REM Put your code here, which will be executed once
 
 Your settings should look similar to the screenshot below:
 
-![929_1_image-20221021235430-1](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_1_image-20221021235430-1.png)
+![929_1_image-20221021235430-1](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_1_image-20221021235430-1.webp)
 
 __Step 3 –__ For the
 Revert action screen, click Next and do not set a revert action as Triggers do not support Revert
 actions.
 
-![929_2_image-20221021235430-2](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_2_image-20221021235430-2.png)
+![929_2_image-20221021235430-2](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_2_image-20221021235430-2.webp)
 
 __Step 4 –__ For the Trigger type setting choose "Logon"
 
-![929_3_image-20221021235430-3](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_3_image-20221021235430-3.png)
+![929_3_image-20221021235430-3](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_3_image-20221021235430-3.webp)
 
 __Step 5 –__ Optional: Set the Triger settings wait period for 1 minute after login if desired.  Note, you can also
 uncheck this setting here and then programmatically in your BATCH script set a wait period for seconds if desired,
 (i.e., to wait 20 seconds before running the next command you could use "SLEEP 20").
 
-![929_4_image-20221021235430-4](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_4_image-20221021235430-4.png)
+![929_4_image-20221021235430-4](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/929_4_image-20221021235430-4.webp)
 
 __Step 6 –__ Lastly,
 save and apply the policy, then test from an endpoint, the

@@ -29,6 +29,6 @@ The ActiveDirectory Data Collector is configured through the Active Directory Da
 - [ActiveDirectory: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/activedirectory/options.md)
 - [ActiveDirectory: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/activedirectory/summary.md)
 
-![Active Directory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Active Directory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

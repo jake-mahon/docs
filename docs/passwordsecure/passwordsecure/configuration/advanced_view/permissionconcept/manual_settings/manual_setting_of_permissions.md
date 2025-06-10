@@ -12,17 +12,17 @@ In the previous section, it was clarified that permissions are granted either di
 2. Context menu of a data record (right-click)
 3. Icon at the right edge of the reading pane
 
-![different ways to access the permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-1-en.png)
+![different ways to access the permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-1-en.webp)
 
 NOTE: The icon on the right of the reading pane shows the information whether the record is personal or public. In case of personal data records, the user that is logged on is the only one who has permissions!
 
 The author is created with all permissions for the record. As described in the [Permission concept and protective mechanisms](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_and_protective.md), you can now add roles and users. 'Right click - Add' inside the userlist or use the ribbon "User and roles" to add a user. The filter helps you to quickly find those users who should be granted permissions for the record in just a few steps.
 
-![add user and role](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-2-en.png)
+![add user and role](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-2-en.webp)
 
 The search [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md)opens in a separate tab and can be configured as usual.
 
-![seach filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-3-en.png)
+![seach filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-3-en.webp)
 
 __Multiple selection__ is also enabled. It allows to add several users via the Windows standard Ctrl/Shift + left mouse button.
 
@@ -30,13 +30,13 @@ __Multiple selection__ is also enabled. It allows to add several users via the W
 
 By default, all added users or roles receive only the “Read” permission on the record. The “Read” permission at the beginning is sufficient to view the fields of the data record and to use the password. "Write" permission allows you to edit a data record. __The permission “Authorize” is necessary to authorize other users to the record__. This is also a requirement for the[Seals](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md).
 
-![setting all permissions example](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-4-en.png)
+![setting all permissions example](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-4-en.webp)
 
 ## Transferring permissions
 
 A simple right-click on a user can be used to copy and transfer permission configurations of users or roles to others in the context menu. In this context, the use of permission templates is also very practical. In the “Template” area of ​​the ribbon, you can save configured permissions, including all users, and reuse them for other records.
 
-![preset menu](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-5-en.png)
+![preset menu](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-5-en.webp)
 
 The transfer of permissions and their reuse can be an important building block to create and maintain entitlement integrity. This method cannot rule out misconfigurations, but it will minimize the risk significantly. Of course, the correct configuration of these templates is a prerequisite.
 
@@ -48,7 +48,7 @@ The “add" permission holds a special position in the authorization concept. Th
 
 The "owner" permission can be set for a user. This permission is more of __a guarantee__. Once assigned, there is no way to remove the user or role. This is only possible by the user or the role itself, as well as by users with the permission “Is database administrator”.
 
-![owner permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-6-en.png)
+![owner permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-6-en.webp)
 
 The owner permission prevents other users who have the “Authorize” permission from removing someone with the owner permission from the record.
 

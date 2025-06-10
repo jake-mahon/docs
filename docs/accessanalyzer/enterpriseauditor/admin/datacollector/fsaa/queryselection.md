@@ -2,7 +2,7 @@
 
 The FSAA Data Collector Query Selection page contains the following query categories, sub-divided by auditing focus:
 
-![FSAA Data Collector Wizard Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.png)
+![FSAA Data Collector Wizard Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/queryselection.webp)
 
 - The File System Access/Permission Auditing options scan hosts for file system information, and there are two categories to choose from:
 
@@ -42,7 +42,7 @@ __CAUTION:__ Do not use the Maintenance button unless instructed by [Netwrix Sup
 
 The Maintenance Wizard is opened by clicking the __Maintenance__ button on the Query Selection page of the FSAA Data Collector Wizard. You can use the wizard to reset hosts or repair file system data errors.
 
-![Maintenance Wizard Maintenance Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardselection.png)
+![Maintenance Wizard Maintenance Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardselection.webp)
 
 The Maintenance Selection page allows you to select the type of maintenance to be performed:
 
@@ -53,12 +53,12 @@ Select the required option and click __Next__. The subsequent wizard page is det
 
 - If Reset Hosts was selected, the Reset Hosts page displays:
 
-  ![Maintenance Wizard Reset Hosts page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardresethosts.png)
+  ![Maintenance Wizard Reset Hosts page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardresethosts.webp)
 
   Select the desired hosts to reset the SQL data for, and click __Reset Hosts__ to perform the maintenance.
 - If Repair was selected, the Repair Tool page displays:
 
-  ![Maintenance Wizard Repair Tool page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardrepair.png)
+  ![Maintenance Wizard Repair Tool page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maintenancewizardrepair.webp)
 
   Select the desired hosts to repair the SQL data for, and click __Run__ to perform the maintenance.
 

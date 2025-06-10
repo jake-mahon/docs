@@ -17,7 +17,7 @@ Risk Management
 
 ## Overview
 
-![Evaluate Policy Overview](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/evaluate-policy-1.png)
+![Evaluate Policy Overview](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/evaluate-policy-1.webp)
 
 The main responsibility of the Evaluate Policy is to compute, for every fed resource, the set of assignments of entitlements that comply with the assignment policy.
 
@@ -96,7 +96,7 @@ Before starting, a context rule is applied, giving for the input resource:
 - The dimension values
 - The time period validity of every assignment computed during this Evaluate Policy iteration
 
-![Computing Context For Input Resource](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/enforce-context.png)
+![Computing Context For Input Resource](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/enforce-context.webp)
 
 Computing expected role assignments
 
@@ -106,7 +106,7 @@ Entitlement Management
 
 Role assignments are the output of composite role rules and single role rules enforcement. The outcome of those rules, as assigned composite roles and assigned single roles, is conditioned by the input resource's context. They are the image of the status of trust and privilege granted to a resource-identity.
 
-![Computing Expected Role Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-1.png)
+![Computing Expected Role Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-1.webp)
 
 Enforcing composite role rules
 
@@ -138,7 +138,7 @@ Entitlement Management
 
 Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules. The outcome of those rules, as assigned resource types, assigned resource navigation, and assigned resource scalar is conditioned by the input resource assigned roles, issued during the first expected role assignments computation or even earlier. They are the exact image of technical provisioning orders that are to be executed by the agent, after being validated by a knowledgeable user. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-2.png)
+![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)
 
 Enforcing resource type rules
 
@@ -174,7 +174,7 @@ Found manual assignments and derogation of resource types with their associated 
 
 __Step 3 –__ __Match existing assignments with expected assignments__
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-find-matching.png)
+![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-find-matching.webp)
 
 The expected assignments list is now built.
 
@@ -199,7 +199,7 @@ The result is a list of really existing assignments, without the expired, cancel
 
 __Step 5 –__ __Correlation__
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/correlation.png)
+![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/correlation.webp)
 
 Resource correlation rules are enforced: for every expected assigned resource type, the algorithm looks for a target resource that correlates the owner, which is the input resource.
 
@@ -224,20 +224,20 @@ The workflow state is also analyzed; assignments with Approved (or Cancellation)
 | Workflow state | Description |
 | --- | --- |
 | 0—None | Used for Identity Manager's internal computation |
-| 1—Non-conforming | The assignment is not supported by a rule.  ![Workflow State: Non-conforming](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/1_nonconforming_v603.png) |
+| 1—Non-conforming | The assignment is not supported by a rule.  ![Workflow State: Non-conforming](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/1_nonconforming_v603.webp) |
 | 2—Requested - Missing Parameters | The assignment has been requested via a workflow, but does not specify at least one required parameter for the role. |
-| 3—Pre-existing | The assignment is not supported by a rule, and it existed before the production launch.  ![Workflow State: Pre-existing](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/3_preexisting_v603.png) |
-| 4—Requested | The assignment is requested via a workflow, but not yet added.  __NOTE:__ Usually displayed in workflows' summaries.  ![Workflow State: Pending Approval - Requested](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/4_requested_v603.png) |
-| 5—Calculated - Missing Parameters | The assignment was done by a rule which does not specify at least one required parameter for the role.  ![Workflow State: Calculated - Missing Parameters](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/5_calculatedmissingparameters_v603.png) |
-| 8—Pending Approval | The assignment must be reviewed manually by a knowledgeable user.  ![Workflow State: Pending Approval](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/8_pendingapproval_v603.png) |
+| 3—Pre-existing | The assignment is not supported by a rule, and it existed before the production launch.  ![Workflow State: Pre-existing](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/3_preexisting_v603.webp) |
+| 4—Requested | The assignment is requested via a workflow, but not yet added.  __NOTE:__ Usually displayed in workflows' summaries.  ![Workflow State: Pending Approval - Requested](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/4_requested_v603.webp) |
+| 5—Calculated - Missing Parameters | The assignment was done by a rule which does not specify at least one required parameter for the role.  ![Workflow State: Calculated - Missing Parameters](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/5_calculatedmissingparameters_v603.webp) |
+| 8—Pending Approval | The assignment must be reviewed manually by a knowledgeable user.  ![Workflow State: Pending Approval](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/8_pendingapproval_v603.webp) |
 | 9—Pending Approval 1 of 2 | The assignment is pending the first approval on a two-step workflow. |
 | 10—Pending Approval 2 of 2 | The assignment is pending the second approval on a two-step workflow. |
 | 11—Pending Approval 1 of 3 | The assignment is pending the first approval on a three-step workflow. |
 | 12—Pending Approval 2 of 3 | The assignment is pending the second approval on a three-step workflow. |
 | 13—Pending Approval 3 of 3 | The assignment is pending the third approval on a three-step workflow. |
-| 16—Approved | The assignment has completed all approval steps.  ![Workflow State: Approved](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/16_approved_v603.png) |
+| 16—Approved | The assignment has completed all approval steps.  ![Workflow State: Approved](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/16_approved_v603.webp) |
 | 17—Declined | The assignment is explicitly declined during one of the approval steps. |
-| 20—Cancellation | The assignment is inferred by a role that was declined.  ![Workflow State: Cancellation](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/20_cancellation_v603.png) |
+| 20—Cancellation | The assignment is inferred by a role that was declined.  ![Workflow State: Cancellation](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/20_cancellation_v603.webp) |
 
 __Step 7 –__ __Delta__
 

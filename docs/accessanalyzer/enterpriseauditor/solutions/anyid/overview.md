@@ -17,7 +17,7 @@ Through the creation of a Subject Profile for each individual, Access Analyzer�
 
 The AnyID Connectors Solution requires a special Access Analyzer license. It can be installed from the Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
 
-![AnyID Connectors Solution in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![AnyID Connectors Solution in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Once installed into the Jobs tree, navigate to the solution: __Jobs__ > __AnyID Connectors__.
 
@@ -27,7 +27,7 @@ The AnyID Connectors Solution provides a series of preconfigured jobs which allo
 
 The jobs within this group create and add to the secure IdentityIndex™ containing identity-related attributes about potential subjects which are then used by Access Analyzer’s Sensitive Data Discovery engine to perform exact data matching against virtually any cloud or on-premises data repository.
 
-![AnyID Connectors Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![AnyID Connectors Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs in the AnyID Connectors Solution are:
 

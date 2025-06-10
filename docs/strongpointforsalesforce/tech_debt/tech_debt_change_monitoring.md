@@ -26,13 +26,13 @@ Policies can also be used to block unauthorized changes.
 
 Netwrix recommends our default policy as a foundational best practice. In addition, consider [Specific Monitoring](#Specific-Monitoring) for anything needing special protection.
 
-![Strongpoint Default Policy](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_5.png)
+![Strongpoint Default Policy](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_5.webp)
 
 Platform Governance for Salesforce documents __Unresolved Non-Compliant Changes__ in both a List View and a Report. Both show you all the changes that should have received approval and the level of change control required for the change. The List View enables you to quickly review and manage the resolution from a single screen through the __Short Resolution Description__ and __Status__ fields.
 
 If you are not fully leveraging Platform Governance for Salesforce in your change enablement process, you can restrict your review of changes by filtering out object types or risk levels that do not concern you. Alternatively, you can create different reports for different team members to prioritize what you see.
 
-![Unresolved Non-Compliant Changes Report](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_8.png)
+![Unresolved Non-Compliant Changes Report](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_8.webp)
 
 ## Specific Monitoring
 
@@ -75,7 +75,7 @@ To apply the policy to Customizations you are concerned about:
 3. Include the __Change / Approval Policy__ field as a List View column.
 4. Select one or more Customizations and select the __Change / Approval Policy__.
 
-   ![Applying the policy to Customizations](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_7.png)
+   ![Applying the policy to Customizations](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_7.webp)
 
 ### Specific Changes
 
@@ -88,11 +88,11 @@ When you add sensitive objects to the Policy, you may also need to add the Custo
 1. Open __Customizations__.
 2. Search for __Customizations__ __CustomObject__.
 
-   ![Search for Customizations > CustomObject](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.png)
+   ![Search for Customizations > CustomObject](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.webp)
 3. Open the Customization to add to a policy.
 4. Click __Set Policy__.
 
-   ![Set Policy is used to add Customizations to a policy](/img/product_docs/strongpointforsalesforce/tech_debt/policy_set_button.png)
+   ![Set Policy is used to add Customizations to a policy](/img/product_docs/strongpointforsalesforce/tech_debt/policy_set_button.webp)
 5. Select individual customizations or click the check box in the heading bar to select all.
 6. Click __Save__.
 

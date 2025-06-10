@@ -2,7 +2,7 @@
 
 This section covers the Recommendations interface that contains detailed guidance on the Auditor usage patterns. Once you installed the product, configured your IT infrastructure, and prepared Netwrix Service Accounts, you can start collecting data and review it with Netwrix Auditor. The recommendations are based on your current product configuration and help you to experience the Auditor capabilities in earnest.
 
-![recommendations](/img/product_docs/auditor/auditor/admin/navigation/recommendations.png)
+![recommendations](/img/product_docs/auditor/auditor/admin/navigation/recommendations.webp)
 
 Follow the steps to review the recommendations provided by Netwrix industry experts.
 
@@ -58,7 +58,7 @@ __Step 1 –__ On the Auditor home page, click the __Recommendations__ tile.
 
 __Step 2 –__ Click __Settings__ at the bottom.
 
-![managerecommendations](/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.png)
+![managerecommendations](/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.webp)
 
 __Step 3 –__ In the Manage recommendations dialog, do the following:
 

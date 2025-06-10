@@ -8,11 +8,11 @@ You can review the Active Directory/Microsoft Entra ID users on the following da
 
 - Managing Organization
 
-![tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.png)
+![tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
 
 - Managed Organization
 
-![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.png)
+![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
 You can also review the Billable Users reports with the detailed information for each account. See the [Billable Users Report](/docs/1secure/admin/searchandreports/billableusers.md) topic for additional information.
 

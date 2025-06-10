@@ -31,13 +31,13 @@ Licensing occurs in two phases:
 
 We only want you to pay for the computers you're actually going to use with the Endpoint Policy Manager. Endpoint Policy Manager's LT has an option, "Find and Disable unused computers," as seen in Figure 12.
 
-![licensing_policypak](/img/product_docs/policypak/policypak/licensing_policypak.png)
+![licensing_policypak](/img/product_docs/policypak/policypak/licensing_policypak.webp)
 
 Figure 12. The option to disable unused computers.
 
 When you select this option, you are led through an wizard that finds any computers that have not been logged into for 90 days (or any other number of days you select). You can then select the computers you want to disable and click "Next," as shown in Figure 13.
 
-![licensing_policypak_1](/img/product_docs/policypak/policypak/licensing_policypak_1.png)
+![licensing_policypak_1](/img/product_docs/policypak/policypak/licensing_policypak_1.webp)
 
 Figure 13. Selecting the unused computers.
 
@@ -125,7 +125,7 @@ Endpoint Policy Manager can be used in conjunction with your own MDM service, su
 
 An example of an MDM system account with a very low number of machines can be seen in Figure 14. Note that the company information is obscured in this demonstration, but you would have to provide it.
 
-![licensing_policypak_2](/img/product_docs/policypak/policypak/licensing_policypak_2.png)
+![licensing_policypak_2](/img/product_docs/policypak/policypak/licensing_policypak_2.webp)
 
 Figure 14. An example of an MDM system account.
 

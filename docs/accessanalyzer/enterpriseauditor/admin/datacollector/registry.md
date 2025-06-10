@@ -25,7 +25,7 @@ Permissions
 
 The Registry Data Collector is configured through the Registry Browser window.
 
-![Registry Browser window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/browser.png)
+![Registry Browser window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/browser.webp)
 
 The configurable options are:
 
@@ -46,16 +46,16 @@ The button bar provides additional options for selecting keys. See the [Button B
 
 The button bar is located right above the Selected Properties window. The button bar enables users to do the following:
 
-![Button Bar](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/buttonbar.png)
+![Button Bar](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/buttonbar.webp)
 
 | Icon | Name |
 | --- | --- |
-| ![Select all peer keys for this node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/selectall.png) | Select all peer keys for this node |
-| ![Add name of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addname.png) | Add name of currently selected key |
-| ![Add full path of the currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addpath.png) | Add full path of the currently selected key |
-| ![Add last write date/time of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adddatetime.png) | Add last write date/time of currently selected key |
-| ![Add security properties for selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addproperties.png) | Add security properties for selected key |
-| ![Enumerate all values for this key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/enumeratevalues.png) | Enumerate all values for this key |
-| ![Add currently selected value](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addvalue.png) | Add currently selected value |
-| ![Delete properties from selection](/img/product_docs/strongpointfornetsuite/integrations/delete.png) | Delete properties from selection |
-| ![Go to selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/goto.png) | Go to selected key |
+| ![Select all peer keys for this node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/selectall.webp) | Select all peer keys for this node |
+| ![Add name of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addname.webp) | Add name of currently selected key |
+| ![Add full path of the currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addpath.webp) | Add full path of the currently selected key |
+| ![Add last write date/time of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adddatetime.webp) | Add last write date/time of currently selected key |
+| ![Add security properties for selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addproperties.webp) | Add security properties for selected key |
+| ![Enumerate all values for this key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/enumeratevalues.webp) | Enumerate all values for this key |
+| ![Add currently selected value](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addvalue.webp) | Add currently selected value |
+| ![Delete properties from selection](/img/product_docs/strongpointfornetsuite/integrations/delete.webp) | Delete properties from selection |
+| ![Go to selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/goto.webp) | Go to selected key |

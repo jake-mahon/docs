@@ -8,7 +8,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __3. Quarantine__ > __FS\_Quarant
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_QuarantineData_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/quarantinedatastatusanalysis.png)
+![Analysis Tasks for the FS_QuarantineData_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/quarantinedatastatusanalysis.webp)
 
 The following analysis task is selected by default:
 

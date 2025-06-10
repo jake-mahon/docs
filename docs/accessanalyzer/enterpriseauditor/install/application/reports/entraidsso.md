@@ -45,7 +45,7 @@ __Step 6 –__ Next, click __Edit__ on the Attributes & Claims section. The four
 
 Once configured they should show under Additional claims as below:
 
-![Claims configured](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.png)
+![Claims configured](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.webp)
 
 __Step 7 –__ In the __Manage__ > __Users and groups__ section for your application, add any required users or groups to give permission to access the application.
 
@@ -59,7 +59,7 @@ _Remember,_ Enabling Entra ID SSO requires SSL to already have been enabled fo
 
 __Step 1 –__ Open the __WebServer.exe.config__ file with a text editor, for example Notepad. It is located within the Web folder of the Access Analyzer installation directory.
 
-![Parameters in the web server config file](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigfileentrasso.png)
+![Parameters in the web server config file](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfigfileentrasso.webp)
 
 __Step 2 –__ Locate the __WsFederationMetaData__, __WsFederationRealm__, and __WsFederationReply__ Parameters in the config file, and add the required values from your Microsoft Entra ID application:
 

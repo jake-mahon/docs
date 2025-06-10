@@ -38,7 +38,7 @@ __Usage data fields:__
 
 If __Field History Tracking__ is enabled for a CustomField with a __DLU Status__ of either __Recent__ or __Expired__, the status is changed to __Pending__. Here is an example:
 
-![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointforsalesforce/clean_up/dlu_status_example_customfield.png)
+![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointforsalesforce/clean_up/dlu_status_example_customfield.webp)
 
 ### Notes
 
@@ -54,13 +54,13 @@ The DLU Parameters specify the number of months to wait before changing the DLU
 2. Expand __Custom Code__
 3. Select __Custom Metadata Types__
 
-   ![Open Custom Metadata Types](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.png)
+   ![Open Custom Metadata Types](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.webp)
 4. Click __Manage Records__ by __Strongpoint DLU Parameter__
 
-   ![Click Manage Records to open the record](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.png)
+   ![Click Manage Records to open the record](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
 5. Click __Edit__ by __DLU Expiration__
 
-   ![Edit the parameters](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.png)
+   ![Edit the parameters](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
 6. Set the __DLU Expiration (Months)__. The default is three.
 7. Click __Save__.
 
@@ -151,6 +151,6 @@ DLU is not used for the following metadata Extended Types:
 
 The [Scheduler](/docs/strongpointforsalesforce/scanners/scheduler.md) is where you can add frequency, day and time for processes to run. Under __Field Usage and DLU__, you can set up the scheduler to update the last used date field on customizations with the date the metadata was last used. It populates information for field usage on custom fields and custom objects and catch any permission set assignments related to users.
 
-![scheduler](/img/product_docs/strongpointforsalesforce/clean_up/scheduler.png)
+![scheduler](/img/product_docs/strongpointforsalesforce/clean_up/scheduler.webp)
 
 Once the scheduler has been set up, you can view the DLU under the __Metadata__ tab on the customization record.

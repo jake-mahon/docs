@@ -65,7 +65,7 @@ __Step 12 –__ Click Save. If an event occurs that triggers an alert, an email 
 
 Review the example of the MessageOpened event in the XML view:
 
-![eventmessageopen](/img/product_docs/auditor/auditor/admin/alertsettings/eventmessageopen.png)
+![eventmessageopen](/img/product_docs/auditor/auditor/admin/alertsettings/eventmessageopen.webp)
 
 Depending on the event, the strings in the description may vary. The first eight strings are common for all events:
 
@@ -119,4 +119,4 @@ In the example below, the following information has been added:
 - String 8 with the description
 - String 9 with the description
 
-![editnotificationtemplate](/img/product_docs/auditor/auditor/admin/alertsettings/editnotificationtemplate.png)
+![editnotificationtemplate](/img/product_docs/auditor/auditor/admin/alertsettings/editnotificationtemplate.webp)

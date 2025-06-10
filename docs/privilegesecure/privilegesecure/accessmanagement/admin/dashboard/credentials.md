@@ -2,7 +2,7 @@
 
 The Credentials dashboard shows all accounts discovered within your environment. It is specifically focused on managing service account password rotation. A managed account is any host local account, domain account, or Privilege Secure application local account that has its credentials managed by the application. This includes managed user accounts created by activity sessions. The Credentials dashboard displays the same information as the [Credentials Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Credentials Dashboard Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.png)
+![Credentials Dashboard Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 The dashboard has the following features:
 

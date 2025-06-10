@@ -8,7 +8,7 @@ Endpoint Policy Manager GPCR has three panes in which you can perform work:
 - Tests: This is where you define tests that you want to validate.
 - Results: This is where you select a specific snapshot and a test and get results (see Figure 11)
 
-![gpcr_concepts_and_quickstart_12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_12.png)
+![gpcr_concepts_and_quickstart_12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_12.webp)
 
 Figure 11. The Results pane of the GPCR client (admin console).
 

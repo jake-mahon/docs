@@ -93,7 +93,7 @@ Position Change via Records
 
 ```
 
-![UI Form](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_form_v602.png)
+![UI Form](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_form_v602.webp)
 
 ### Add a summary (Optional)
 
@@ -108,7 +108,7 @@ Summary form:
 
 ```
 
-![UI Summary](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_summary_v602.png)
+![UI Summary](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_summary_v602.webp)
 
 ## Assign the Right Permissions
 
@@ -137,7 +137,7 @@ Menu Item
 
 Creating a new resource, an interesting location for this workflow could be the users list page.
 
-![Workflow Menu Items - Users List](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.png)
+![Workflow Menu Items - Users List](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the existing menu items list:
 
@@ -183,7 +183,7 @@ Partial form for user data:
 
 ```
 
-![UI Homonym Detection](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.png)
+![UI Homonym Detection](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.webp)
 
 ## Customize the Display Table (Optional)
 

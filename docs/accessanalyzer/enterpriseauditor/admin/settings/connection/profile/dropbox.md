@@ -2,7 +2,7 @@
 
 The information in this topic applies to __Select Account Type__ > __Dropbox__ in the User Credentials window.
 
-![User Credentials - Dropbox](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/dropbox.png)
+![User Credentials - Dropbox](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/dropbox.webp)
 
 The required credentials for Dropbox are:
 

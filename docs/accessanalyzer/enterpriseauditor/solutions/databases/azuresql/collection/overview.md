@@ -2,7 +2,7 @@
 
 The 0.Collection Job Group, located at __Databases__ > __0.Collection__ > __AzureSQL__ collects high–level summary information from targeted Azure SQL Instances. This information is used by other jobs in the Azure SQL solution further analysis and for producing respective reports.
 
-![0.Collection Job Group - Azure SQL](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/collectionjobmenu.png)
+![0.Collection Job Group - Azure SQL](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/collectionjobmenu.webp)
 
 The jobs in 0.Collection Jobs Group are:
 

@@ -6,7 +6,7 @@ __NOTE:__ The Threat Prevention Enterprise Password Enforcement solution include
 
 Follow the steps to configure a policy to block the creation of weak passwords.
 
-![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.png)
+![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.webp)
 
 __NOTE:__ It is a best practice to create and enable a monitoring policy prior to creating and enabling a blocking policy. See the [Monitor Weak Passwords Use Case](/docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/monitorweakpasswords.md) topic for additional information.
 
@@ -19,13 +19,13 @@ __Step 1 –__ (Must be completed by an administrator) Configure the global EPE�
 
 __Step 2 –__ Create a new policy with the Password Enforcement Event Type.
 
-![New Prevent Weak Passwords Policy - General tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/newblockepepolicy.png)
+![New Prevent Weak Passwords Policy - General tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/newblockepepolicy.webp)
 
 - Right-click on the __Policies > Auditing__ folder and select __New > Policy__.
 - On the General tab, provide a unique descriptive name, e.g. Prevent Weak Passwords, and description, e.g. This policy blocks the creation of weak passwords according to the global EPE settings.
 - On the Event Type tab, click the __Add__ (+) button and select Password Enforcement on the [Event Selection Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md#event-selection-window).
 
-![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/passwordrulesblock.png)
+![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/passwordrulesblock.webp)
 
 __Step 3 –__ Configure the event filters.
 
@@ -55,11 +55,11 @@ The policy is now preventing the creation of weak passwords in your environment.
 
 On the Recent Events tab of the blocking policy, set the Show options as desired and click the Refresh button to view blocked events. See the [Recent Events Tab](/docs/threatprevention/threatprevention/admin/policies/recentevents/overview.md) topic for additional information.
 
-![Recent Events Tab for weak password prevent](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/recenteventsprevent.png)
+![Recent Events Tab for weak password prevent](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/recenteventsprevent.webp)
 
 ## View Events in Investigate Interface
 
-![Investigate Interface](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/invesitgatenodeblock.png)
+![Investigate Interface](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/invesitgatenodeblock.webp)
 
 On the Investigate window of the Administration Console, use the following filter options to view blocked weak password events:
 

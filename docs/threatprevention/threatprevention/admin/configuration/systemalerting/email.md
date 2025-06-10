@@ -6,7 +6,7 @@ Follow the steps to configure the Email tab of the System Alerting window.
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Threat Prevention System Alerting window opens. The Email tab is displayed by default.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.png)
+![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/systemalerting.webp)
 
 __Step 2 –__ Configure the following prior to enabling email alerting:
 
@@ -52,7 +52,7 @@ Follow the steps to configure the SMTP host information for email alerting.
 
 _Remember,_ this is a one-time setting to enable email alerts from the Administration Console.
 
-![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/smtphost.png)
+![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/smtphost.webp)
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Threat Prevention System Alerting window opens.
 
@@ -76,7 +76,7 @@ Message Profiles are associated with events for email alerting. Follow the steps
 
 __NOTE:__ When the Message Profile is modified for an alert, all policies referencing the alert use the updated information.
 
-![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/smtphost.png)
+![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/smtphost.webp)
 
 __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Threat Prevention System Alerting window opens.
 
@@ -88,7 +88,7 @@ ___RECOMMENDED:___ Provide a unique and descriptive name for this new email noti
 
 __Step 4 –__ Choose between __Plain Text__ and __HTML__ email options. The Email Template window displays when selecting either radio button.
 
-![Email Template window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/emailtemplate.png)
+![Email Template window](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/emailtemplate.webp)
 
 Changing the message template provides the option to load the default message template. Choose between:
 

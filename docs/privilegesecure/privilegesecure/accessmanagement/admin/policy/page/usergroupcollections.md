@@ -4,7 +4,7 @@ The User and Group Collection page is accessible from the Navigation pane under 
 
 Collections are conglomerated users and groups (that have already been granted rights in the console) that will gain the same rights collectively. Like users and groups individually, collections can also be added to policies. Collections are helpful as they allow multiple roles to be assigned in a single action in the console. The information in the User and Group Collections table is also displayed on the __Users Dashboard__.
 
-![Users and Group Collections Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/userandgroupcollectionspage.png)
+![Users and Group Collections Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/userandgroupcollectionspage.webp)
 
 The pane on the left side of the page displays a list of the configured collections. This pane has the following features:
 

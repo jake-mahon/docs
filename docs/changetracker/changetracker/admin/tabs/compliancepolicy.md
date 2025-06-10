@@ -2,7 +2,7 @@
 
 Detail on current and previous compliance assessments can be seen here with details of failures where they exist.
 
-![compliancepolicytab](/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicytab.png)
+![compliancepolicytab](/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicytab.webp)
 
 - __Timeline__– Click to see the detail for previous compliance assessments.
 - __Group Performance__ – An overall comparison for all systems within the group, current and previous results. You can click on either column to see the Detail view of the selected report run.

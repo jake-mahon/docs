@@ -6,7 +6,7 @@ The Ad Hoc Audits Job Group tables and reports are blank if the CSV file is not 
 
 ___RECOMMENDED:___ Run these jobs independently of the solution.
 
-![Ad Hoc Audits Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Ad Hoc Audits Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Ad Hoc Audits Job Group is comprised of:
 

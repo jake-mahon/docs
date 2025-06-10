@@ -6,13 +6,13 @@ First you must turn on the option with a Global DLL policy, which may only be en
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications.webp)
 
 Then create a matching rule with __New DLL Policy__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications_1.webp)
 
 Then you can __Deny execution__ of the DLL when it is encountered.
 

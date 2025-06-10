@@ -15,12 +15,12 @@ If you want to block only local admins (but not domain admins), then Rule #1 ne
 
 __NOTE:__ This group is not available when editing a GPO from a DC, and only available when creating the GPO from a Windows endpoint computer.)
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
 
 If you want toblock both local admins and domain administrators, then Rule #1 needs to look like this.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.webp)
 
 Again, rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be done on the user or computer side.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.webp)

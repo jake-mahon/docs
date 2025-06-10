@@ -2,7 +2,7 @@
 
 A job group’s Settings node is where custom configurations can be set and where the host lists are assigned to a job group.
 
-![Job group settings in the Jobs Tree](/img/product_docs/activitymonitor/config/dellpowerscale/settings.png)
+![Job group settings in the Jobs Tree](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 
 These settings inherit the global settings down by default unless inheritance is broken at a job group or a job level.
 

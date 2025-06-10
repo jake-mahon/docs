@@ -8,7 +8,7 @@ Navigate to the __Oracle__ > __1.Users and Roles__ > __Oracle\_RoleMembers__ > C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup22.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup22.webp)
 
 The default analysis tasks are:
 

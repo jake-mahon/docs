@@ -2,7 +2,7 @@
 
 The Users tab shows the users and groups in the selected access certification task for which the reviewer must certify access entitlement.
 
-![userstab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.png)
+![userstab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The Users table has the following features:
 
@@ -27,7 +27,7 @@ __Step 2 –__ In the Access Certification Task list, select the name of the tas
 
 __Step 3 –__ Click Add to open the Add Users and Groups window.
 
-![addusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.png)
+![addusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
 
 The Add Users and Groups window has the following features:
 

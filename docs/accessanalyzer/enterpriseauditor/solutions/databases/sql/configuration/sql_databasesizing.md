@@ -8,7 +8,7 @@ Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL\_DatabaseSiz
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/analysistask.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/analysistask.webp)
 
 The default analysis tasks are:
 

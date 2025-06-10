@@ -7,7 +7,7 @@ You can use URL parameters to open a specific page, and to set the user and doma
 
 Where [server] is the name or IP address of the server hosting the Web Interface.
 
-![using_npr_866x634](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_866x634.png)
+![using_npr_866x634](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_866x634.webp)
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are explained on the following pages.
 
@@ -21,7 +21,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 __Step 1 –__ Click the __Enroll__ item in the menu.
 
-![using_npr_0_765x963](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_0_765x963.png)
+![using_npr_0_765x963](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_0_765x963.webp)
 
 __Step 2 –__ Type a __Username__, __Domain__, and __Password__.
 
@@ -41,23 +41,23 @@ Follow the steps below to reset an account password.
 
 __Step 1 –__ Click the __Reset__ item in the menu.
 
-![using_npr_1_824x469](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_1_824x469.png)
+![using_npr_1_824x469](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_1_824x469.webp)
 
 __Step 2 –__ Type a __Username__ and __Domain__, and then click __Next__.
 
-![using_npr_2_809x640](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_2_809x640.png)
+![using_npr_2_809x640](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_2_809x640.webp)
 
 __Step 3 –__ Type the __Answer__ to the first question, and then click __Next__. Repeat until all questions are answered correctly.
 
-![using_npr_3](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_3.png)
+![using_npr_3](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_3.webp)
 
 __Step 4 –__ You may be asked to enter a verification code. The verification code is sent to your phone by e-mail or SMS. Type the __Code__, and then click __Next__.
 
-![using_npr_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_5.png)
+![using_npr_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_5.webp)
 
 __Step 5 –__ Type the new __Password__ into both text boxes, and then click __Next__.
 
-![using_npr_6](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_6.png)
+![using_npr_6](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_6.webp)
 
 __Step 6 –__ Click __OK__ to return to the menu.
 
@@ -69,19 +69,19 @@ Follow the steps below to unlock an account.
 
 __Step 1 –__ Click the __Unlock__ item in the menu.
 
-![using_npr_7](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_7.png)
+![using_npr_7](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_7.webp)
 
 __Step 2 –__ Type a __Username__ and __Domain__, and then click __Next__.
 
-![using_npr_4_842x816](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_4_842x816.png)
+![using_npr_4_842x816](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_4_842x816.webp)
 
 __Step 3 –__ Type the __Answer__ to the first question, and then click __Next__. Repeat until all questions are answered correctly.
 
-![using_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_8.png)
+![using_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_8.webp)
 
 __Step 4 –__ You may be asked to enter a verification code. The verification code is sent to your phone by e-mail or SMS. Type the __Code__, and then click __Next__.
 
-![using_npr_9_789x276](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9_789x276.png)
+![using_npr_9_789x276](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9_789x276.webp)
 
 __Step 5 –__ Click __OK__ to return to the menu.
 
@@ -95,11 +95,11 @@ Follow the steps below to change an account password.
 
 __Step 1 –__ Click the __Change__ item in the menu.
 
-![using_npr_10_771x440](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_10_771x440.png)
+![using_npr_10_771x440](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_10_771x440.webp)
 
 __Step 2 –__ Type a __Username__ and __Domain__, and then click __Next__.
 
-![using_npr_11_773x593](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_11_773x593.png)
+![using_npr_11_773x593](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_11_773x593.webp)
 
 __Step 3 –__ Type the __Old Password__, __New Password__, and __Confirm Password__, and then click __Next__.
 
@@ -111,10 +111,10 @@ __NOTE:__ Windows increments the bad password count in Active Directory when a u
 
 Validation errors are shown in a red box below the page instructions. Validation errors are normally caused by invalid user input. They can often be overcome by changing the value of one or more input fields and resubmitting the form.
 
-![using_npr_12](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.png)
+![using_npr_12](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.webp)
 
 Critical errors are shown on their own page. These errors are mostly a result of configuration or system errors. An event may be written to the Windows Application event log on the Password Reset Server computer when a critical error occurs. Users can sometimes overcome a critical error by following the instructions in the error message, but most critical errors are beyond the user's control.
 
-![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.png)
+![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.webp)
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default messages by editing the templates. See the [Resource Strings](/docs/passwordpolicyenforcer/passwordreset/administration/editing_the_html_templates.md#resource-strings) topic for more information.

@@ -10,13 +10,13 @@ The identity repository is supposed to contain the list of all kinds of identiti
 
 > For example, a user can be represented by an identifier and linked to their position which includes the user's employee id, last name and first name, email, user type, organization, etc.
 >
-> ![Identity Repository Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.png)
+> ![Identity Repository Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.webp)
 
 > In Identity Manager, the identity repository can look like the following:
 >
-> ![Identity Repository Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.png)
+> ![Identity Repository Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.webp)
 >
-> ![Identity Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.png)
+> ![Identity Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
 See the [
 Identity Repository

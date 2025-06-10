@@ -4,15 +4,15 @@ Delegation can be used to grant the Active Directory service account the minimal
 
 Follow the steps to apply delegation to the desired OUs.
 
-![Active Directory Users and Computers showing right-click menu](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrol.png)
+![Active Directory Users and Computers showing right-click menu](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrol.webp)
 
 __Step 1 –__ In Active Directory Users and Computers, right-click on the OU housing the groups to be managed. Select __Delegate Control__. The Delegation of Control Wizard opens.
 
-![Delegation of Control wizard showing the Users or Groups page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrolwizarduser.png)
+![Delegation of Control wizard showing the Users or Groups page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrolwizarduser.webp)
 
 __Step 2 –__ Navigate to the Users or Groups page. Click __Add__. Enter the Active Directory service account. Click __Next__.
 
-![Delegation of Control wizard showing the Tasks to Delegate page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrolwizardtask.png)
+![Delegation of Control wizard showing the Tasks to Delegate page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/delegatecontrolwizardtask.webp)
 
 __Step 3 –__ Navigate to the Tasks to Delegate page. Select the __Delegate the following tasks__ option and check the __Modify the membership of a group__ task.
 

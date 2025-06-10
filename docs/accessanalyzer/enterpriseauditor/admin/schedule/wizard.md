@@ -16,7 +16,7 @@ When the settings on the wizard pages are configured as desired, click __OK__ to
 
 The Schedule page is for setting the schedule of when and how often the task will run. This tab needs to be properly configured for every scheduled task.
 
-![Schedule wizard page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
+![Schedule wizard page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 The options on the Schedule page are:
 
@@ -24,7 +24,7 @@ The options on the Schedule page are:
 - Edit – Edits the selected Trigger in the Schedule view
 - Delete – Deletes the selected trigger
 
-![Trigger window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/triggerwindow.png)
+![Trigger window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/triggerwindow.webp)
 
 The options in the Trigger window are:
 
@@ -40,7 +40,7 @@ The options in the Trigger window are:
 
 The remaining schedule frequencies are supplied by Windows Task Scheduler and not applicable to Access Analyzer task scheduling. See the Microsoft [Task Scheduler Overview](https://technet.microsoft.com/en-us/library/cc721871.aspx) article for additional information.
 
-![Trigger window Advanced settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/triggerwindowadvancedsettings.png)
+![Trigger window Advanced settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/triggerwindowadvancedsettings.webp)
 
 The options in the Advanced settings section are:
 
@@ -51,7 +51,7 @@ The options in the Advanced settings section are:
 
 The Host List page identifies the host list the task being scheduled queries. Customizations to the configuration of this tab is optional.
 
-![Host List wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/hostlist.png)
+![Host List wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/hostlist.webp)
 
 Choose the desired setting from the following options:
 
@@ -64,7 +64,7 @@ Under the selection window, the number of selected hosts are identified. In addi
 
 The Connection page identifies the Connection Profile that is applied to the targeted hosts being queried by the task being scheduled. Customizations to the configuration of this tab is optional.
 
-![Connection wizard page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.png)
+![Connection wizard page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.webp)
 
 Choose the desired setting from the following options:
 
@@ -78,7 +78,7 @@ Choose the desired setting from the following options:
 
 Select the Schedule Service account to run this task with on the Run as wizard page. To create or edit Schedule Service accounts, go to the __Settings__ > __Schedule__ node. See the [Schedule](/docs/accessanalyzer/enterpriseauditor/admin/settings/schedule.md) topic for additional information.
 
-![Run as wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/runas.png)
+![Run as wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/schedule/runas.webp)
 
 The options on the Run as wizard page are:
 
@@ -94,7 +94,7 @@ The options on the Run as wizard page are:
 
 Configure additional options for the task on the Options wizard page.
 
-![Options wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Options wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 The configurable options are:
 

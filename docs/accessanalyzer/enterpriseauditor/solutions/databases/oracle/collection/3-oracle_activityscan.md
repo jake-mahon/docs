@@ -12,7 +12,7 @@ Special Dependency
 
 The ActivityScan Query uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup14.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup14.webp)
 
 - ActivityScan – Collects activity from targeted instances
 
@@ -28,11 +28,11 @@ __Step 3 –__ Select the Data Source tab and click Configure. The SQL Data Coll
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/optionspage.png)
+![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/optionspage.webp)
 
 __Step 4 –__ Navigate to the Options page. Enable or disable configuration options as needed. Click Next to continue.
 
-![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/3oracleactivityscanfilterpage.png)
+![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/3oracleactivityscanfilterpage.webp)
 
 __Step 5 –__ To query for specific databases/instances, navigate to the Filter page. The default query target is All Databases. The default query scope is Only select database objects. Click Retrieve. The Available database objects section will be populated. Databases and instances can be added in the following ways:
 
@@ -50,7 +50,7 @@ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __3-Oracle\_Acti
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup16.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup16.webp)
 
 The default analysis tasks are:
 

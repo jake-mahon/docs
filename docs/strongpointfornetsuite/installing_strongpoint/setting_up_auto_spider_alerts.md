@@ -30,7 +30,7 @@ To add the auto spider portlet:
 
 Any objects not captured by the AutoSpider are picked up by the Customizations to ReSpider alert.
 
-![Auto-Spider Portlet](/img/product_docs/strongpointfornetsuite/installing_strongpoint/auto-spider_portlet.png)
+![Auto-Spider Portlet](/img/product_docs/strongpointfornetsuite/installing_strongpoint/auto-spider_portlet.webp)
 
 Stay on your __Home__ page until you see __Spider Triggered__ to ensure the spider starts.
 

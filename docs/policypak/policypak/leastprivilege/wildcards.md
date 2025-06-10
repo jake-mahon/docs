@@ -10,12 +10,12 @@ Now you can address the fields you need as Wildcards; in this example, we’ve s
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_wildcards_with_policypak.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_wildcards_with_policypak.webp)
 
 Endpoint Policy Manager Least Privilege Manager will continue to check all the intermediary certificates along the way before it gets to the one you modified.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_wildcards_with_policypak_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/using_wildcards_with_policypak_1.webp)
 
 __CAUTION:__ You want to try to be as restrictive as possible when using Wildcards; the more you open up, the less secure you will be.

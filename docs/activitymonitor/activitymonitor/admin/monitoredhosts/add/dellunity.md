@@ -27,21 +27,21 @@ Follow the steps to add a Dell Unity host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device.
 
-![Add Host window with Dell Unity selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addnewhostemcunity.png)
+![Add Host window with Dell Unity selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addnewhostemcunity.webp)
 
 __Step 3 –__ On the Add Host page, select the Dell Unity radio button and enter the __NAS Server Name__ for the device. If desired, add a __Comment__. Click __Next__.
 
 __NOTE:__ All Dell event source types must have the CEE Monitor Service installed on the agent in order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and display a warning to install the service. If the CEE Monitor service is installed on a remote machine, manual configuration is required. See the [Dell CEE Options Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
 
-![Protocol Monitoring Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.png)
+![Protocol Monitoring Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.webp)
 
 __Step 4 –__ On the Protocols page, select which protocols to monitor. The protocols that can be monitored are All, CIFS, or NIFS. Click __Next__.
 
-![Configure Operations Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.png)
+![Configure Operations Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__ and __Directory Operations__ to be monitored. Additional options include:
 
@@ -49,7 +49,7 @@ __CAUTION:__ Suppress Microsoft Office operations on temporary files – Filters
 
 Click __Next__.
 
-![Configure Basic Options Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
+![Configure Basic Options Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -70,11 +70,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -89,7 +89,7 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -133,7 +133,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![Activity Monitor with Dell Unity host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcunity.png)
+![Activity Monitor with Dell Unity host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcunity.webp)
 
 The added Dell Unity host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

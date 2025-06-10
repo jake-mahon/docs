@@ -2,7 +2,7 @@
 
 When a child node is selected in the tree view, you will be redirected to the Term Management panel. The Settings tab will display settings for the selected term:
 
-![termsettings](/img/product_docs/dataclassification/ndc/admin/taxonomies/termsettings.png)
+![termsettings](/img/product_docs/dataclassification/ndc/admin/taxonomies/termsettings.webp)
 
 | Option | Description |
 | --- | --- |

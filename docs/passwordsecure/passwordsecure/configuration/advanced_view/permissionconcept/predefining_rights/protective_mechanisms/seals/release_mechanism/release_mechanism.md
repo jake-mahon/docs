@@ -16,11 +16,11 @@ __CAUTION:__ If a user is a member of several roles of a seal, the "stronger" ri
 
 In order to release a seal for sealed passwords, this must be requested from the user with the required permissions to issue the release. Within the Netwrix Password Secure client, this can be done via the buttons __Reveal__ and __Seal__ in the ribbon, as well as via the __Icon in the password field__ of the data record in the reading pane.
 
-![seal protection](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_1-en.png)
+![seal protection](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_1-en.webp)
 
 A modal window opens, which can be used to request the seal. The reason for the entry will be displayed to the users with the required permissions to issue the release.
 
-![start seal process](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_2-en.png)
+![start seal process](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_2-en.webp)
 
 All user with the required permissions to issue the release will be notified that the user has requested the seal. This can be viewed via the module [Notifications](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications.md), as well as in the Seal overview.
 
@@ -28,14 +28,14 @@ All user with the required permissions to issue the release will be notified tha
 
 The [Seal overview](/docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview.md) can be opened via the seal symbol in the ribbon directly from the mentioned notification. It is indicated by the corresponding icon that there is a need for action. All relevant data for a release are illustrated within the seal overview. The reason given in the release is also evident.
 
-![seal overview](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_3-en.png)
+![seal overview](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_3-en.webp)
 
 If the release is granted, the Inquirer Im __Module Notifications__ will be informed. You can also open the seal directly from the ribbon and see the now released state.
 
-![notification seal status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_4-en.png)
+![notification seal status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_4-en.webp)
 
 ## 3. Breaking the seal
 
 As soon as the requesting user has received the number of the required releases, he will be informed via the notifications as usual. The seal can now be broken. From this point on, the user will be able to see the password.
 
-![broken seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_5-en.png)
+![broken seal](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/release_mechanism/release_mechanism_5-en.webp)

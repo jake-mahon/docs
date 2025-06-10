@@ -26,14 +26,14 @@ Create a connector container by proceeding as follows:
 
 1. On the home page in the __Configuration__ section, click on the __Connectors__ button.
 
-   ![Home page - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+   ![Home page - Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
    You will see all existing connectors.
 2. Click on the addition icon and fill in the information fields.
 
    ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
-   ![Connector creation](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_declaration_v602.png)
+   ![Connector creation](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_declaration_v602.webp)
 
    - ```Identifier```: must be unique among connectors, without any whitespace, start with a letter, and contain only letters, numbers, ```.``` and/or ```-```.
    - ```Name```: will be displayed in the UI to identify the connector.
@@ -48,10 +48,10 @@ Create a connector container by proceeding as follows:
      ](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/jobs/index.md) scheduled to perform frequently a set of tasks, including incrementalsynchronization and/or provisioning for all the connectors, for which you selected the corresponding checkbox.
 3. Click on __+ Create__ to get on the connector's overview page:
 
-   ![Connector page](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_connectorpage_v602.png)
+   ![Connector page](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_connectorpage_v602.webp)
 
 ## Verify the Connector Declaration
 
 In order to verify the process, check that the connector has been added to the connectors list with the right name and identifier.
 
-![Test Connector](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_test_v602.png)
+![Test Connector](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_test_v602.webp)

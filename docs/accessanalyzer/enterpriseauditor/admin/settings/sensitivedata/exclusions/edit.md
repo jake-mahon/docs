@@ -2,11 +2,11 @@
 
 Follow the steps to edit a False Positive Exclusion Filter.
 
-![Edit Filter on False Positives tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/editfilter.png)
+![Edit Filter on False Positives tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/editfilter.webp)
 
 __Step 1 –__ Click __Edit Filter__ to open the Edit False Positive Exclusion Filter window.
 
-![Edit False Positive Exclusion Filter window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/editexclusionfilterwindow.png)
+![Edit False Positive Exclusion Filter window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/exclusions/editexclusionfilterwindow.webp)
 
 __Step 2 –__ Make modifications to the File Path, Source type, and Search Criteria.
 

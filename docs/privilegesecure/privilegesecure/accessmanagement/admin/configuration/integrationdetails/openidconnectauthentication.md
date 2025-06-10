@@ -13,13 +13,13 @@ The user will also need to be given access to Privilege Secure by assigning them
 
 To create a new user click the Directory menu item and select People from the drop-down. You should see this screen.
 
-![Okta Menu](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktamenu.png)
+![Okta Menu](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktamenu.webp)
 
 If your screen doesn’t look like this then you’re probably in Developer Console view. Click in the top left corner (where it says Developer Console) and choose Classic UI.
 
 To add a new user, click the Add Person button:
 
-![Add person to Okta](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaaddperson.png)
+![Add person to Okta](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaaddperson.webp)
 
 Privilege Secure will use the ‘Username’ value to search the host-user table for the matching user.
 
@@ -35,7 +35,7 @@ Users in sbpam.local are all set up with both UPN and Email Address – but they
 
 The two Okta users below both map to the same sbpam.local user
 
-![Okta login format](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaloginformat.png)
+![Okta login format](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaloginformat.webp)
 
 To use the first account the Privilege Secure OpenID Connector Login Format should be set to Email, for the second UPN.
 
@@ -47,6 +47,6 @@ Currently we only have one application and users are being automatically assigne
 
 When the user has been created click on their name and you will see the User Details screen:
 
-![Assign Apps top users](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaassignapps.png)
+![Assign Apps top users](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/oktaassignapps.webp)
 
 If the application you want to use is not listed, click the ‘Assign Applications’ button and select it.

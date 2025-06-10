@@ -6,7 +6,7 @@ The Target page is where a host from which to get data (in wizard only) and .adm
 - Policies State for all GPOs
 - Local Policies
 
-![Group Policy Data Collector Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.png)
+![Group Policy Data Collector Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.webp)
 
 In the Connect to section of the page, select from the following options:
 

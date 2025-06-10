@@ -10,7 +10,7 @@ __Step 1 –__ Click __Test policy__.
 
 __Step 2 –__ Select the __PPETestUser__ you created. The details pane displays the policy applied to the selected user.
 
-![Enter user name for the test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuser.png)
+![Enter user name for the test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuser.webp)
 
 __Step 3 –__ Enter a password to test.
 
@@ -18,7 +18,7 @@ The Password Policy Enforcer configuration console tests the password by simulat
 
 __mypassword__ fails two requirements. You can hover over the requirements to view the associated rule.
 
-![mypassword fails](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuserfail.png)
+![mypassword fails](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuserfail.webp)
 
 Click __View log__ to expand Password Policy Enforcer's internal event log. The information in the event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
 

@@ -31,7 +31,7 @@ The .Active Directory Inventory Solution is a core component of all Access Analy
 
 This Job Group is comprised of three jobs that collect, analyze, and report on data. The data collection is conducted by the ADInventory Data Collector. See the [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic for database table information.
 
-![.Active Directory Inventory Solution Overview page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![.Active Directory Inventory Solution Overview page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 The .Active Directory Inventory Solution has the following jobs:
 

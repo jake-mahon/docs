@@ -2,7 +2,7 @@
 
 The Access Policies page is accessible from the Navigation pane underPolicyPolicies. It shows the configured access policies, which are used to control which users can complete which activities on which resources.
 
-![Access Policy Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Access Policy Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured access policies. This pane has the following features:
 

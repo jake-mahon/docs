@@ -10,7 +10,7 @@ Schedules can be applied:
 - Host scan — Scan a host resources for local users, groups, windows services and scheduled tasks
 - Verification — Check that the passwords for managed accounts match the credentials set by Privilege Secure
 
-![Schedule Policies Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Schedule Policies Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured schedule policies. This pane has the following features:
 

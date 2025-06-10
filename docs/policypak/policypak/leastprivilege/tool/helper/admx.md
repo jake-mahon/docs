@@ -7,7 +7,7 @@ There are two reasons you might want to configure the Endpoint Policy Manager Le
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.webp)
 
 ## ADMX Settings with the Printer Tool
 
@@ -21,7 +21,7 @@ By default, the Remove Programs tool (once elevated) will enable a user to remov
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.webp)
 
 However, using the Endpoint Policy Manager Least Privilege Manager ADMX settings you can hide or reveal which applications are available for users to uninstall. This is possible by using one the following policies:
 
@@ -52,4 +52,4 @@ The result of these settings can be seen here, where only a limited number of pr
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.webp)

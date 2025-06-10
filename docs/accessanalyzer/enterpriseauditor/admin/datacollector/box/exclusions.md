@@ -2,7 +2,7 @@
 
 The Exclude or Include folders page (ExclusionsPage) is where the scan can be limited to include or to exclude folders within the Box Enterprise. It is a wizard page for of Scan Box Permissions category.
 
-![Box DC Wizard Exclude or Include folders page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/exclusions.png)
+![Box DC Wizard Exclude or Include folders page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/exclusions.webp)
 
 The options on the Exclusions Page are:
 

@@ -10,7 +10,7 @@ __Step 1 –__ Navigate to the Configuration > Integration Connectors page.
 
 __Step 2 –__ In the Integration Connectors list, click the Add Integration Connector icon.
 
-![Add Build your own vault Connector Integration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addbyov.png)
+![Add Build your own vault Connector Integration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addbyov.webp)
 
 __Step 3 –__ Enter the following information:
 

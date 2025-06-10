@@ -2,7 +2,7 @@
 
 The Service Accounts page is accessible from the Navigation pane under Configuration. It shows the configured service accounts required by Privilege Secure services.
 
-![serviceaccountpage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccountpage.png)
+![serviceaccountpage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccountpage.webp)
 
 The pane on the left side of the page displays a list of the configured service accounts. This pane has the following features:
 

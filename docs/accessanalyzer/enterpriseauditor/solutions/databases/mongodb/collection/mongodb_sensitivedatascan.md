@@ -6,7 +6,7 @@ The MongoDB\_SensitiveDataScan Job is designed to discover sensitive data in Mon
 
 The MongoDB\_SensitiveDataScan Job uses the NOSQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/sensitivedatascan_job.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/sensitivedatascan_job.webp)
 
 The query is:
 
@@ -28,13 +28,13 @@ __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They
 
 __Step 4 –__ Navigate to the [NoSQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md#nosqloptions) page.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 5 –__ Select the desired scan options.
 
 __Step 6 –__ Navigate to the [NoSQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/criteria.md) page.
 
-![Criteria Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Criteria Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 __Step 7 –__  To modify criteria, navigate to the [NoSQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/criteria.md) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
@@ -42,11 +42,11 @@ __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal perfor
 
 __Step 8 –__ Navigate to the [NoSQL: Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/filter.md) page.
 
-![Database Selection Settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
+![Database Selection Settings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.webp)
 
 __Step 9 –__ MongoDB databases must be added to the query before they can be scanned. Click __Connections__ to open the Manage Connections window.
 
-![Manage Connections window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/manageconnections.png)
+![Manage Connections window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/manageconnections.webp)
 
 __Step 10 –__ In the Manage Connections window, click __Create New__ and add the following information:
 
@@ -78,7 +78,7 @@ Navigate to the Databases >  > 0.Collection > MongoDB > MongoDB\_SensitiveDataSc
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/analysissensitivedatascan.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
 
 The default analysis tasks are:
 

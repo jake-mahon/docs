@@ -6,7 +6,7 @@ In your web browser, navigate to the following URL: http://hostname/conceptQS wh
 
 On the Instance step, provide the unique name for your Netwrix Data Classification instance. For example, _"Production"_.
 
-![initial_config](/img/product_docs/dataclassification/ndc/install/initialconfiguration/initial_config.png)
+![initial_config](/img/product_docs/dataclassification/ndc/install/initialconfiguration/initial_config.webp)
 
 Click Next to proceed. See also:
 

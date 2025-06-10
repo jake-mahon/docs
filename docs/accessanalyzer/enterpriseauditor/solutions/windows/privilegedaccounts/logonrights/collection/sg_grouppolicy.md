@@ -13,7 +13,7 @@ The SG\_GroupPolicy job uses the GroupPolicy Data Collector for the following qu
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.png)
+![Queries for the SG_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
 The query for the SG\_GroupPolicy job is:
 

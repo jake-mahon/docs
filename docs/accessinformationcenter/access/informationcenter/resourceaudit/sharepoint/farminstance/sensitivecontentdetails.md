@@ -2,7 +2,7 @@
 
 The Sensitive Content Details report at the on-premise farm and online instance level provides details of files where criteria matches were found on the site collection. This report includes a Matches table.
 
-![Sensitive Content Details report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentdetails.png)
+![Sensitive Content Details report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentdetails.webp)
 
 This report is comprised of the following columns:
 

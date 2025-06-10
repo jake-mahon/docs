@@ -6,7 +6,7 @@ This page is about [
 EasyVista
 ](#EasyVista).
 
-![Package: ITSM/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.png)
+![Package: ITSM/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 
 ## Overview
 
@@ -87,7 +87,7 @@ Besides, ```"Profiles"``` is used here as an example and corresponds to a name t
 | Password   required | __Type__    String   __Description__ Password to use to connect to the EasyVista instance. |
 |  |  |
 | --- | --- |
-| ExportSettingsOptions   optional | __Type__    List   __Description__ List of entities to retrieve from the EasyVista instance.   __Note:__ for any customized entity to be exported, this argument must contain its REST API URL. __Get REST API URLs__ Access the relevant view in EasyVista and click on __...__ > __Rest API Url__ to copy the URL. For example: ![EasyVista Profiles View](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.png) |
+| ExportSettingsOptions   optional | __Type__    List   __Description__ List of entities to retrieve from the EasyVista instance.   __Note:__ for any customized entity to be exported, this argument must contain its REST API URL. __Get REST API URLs__ Access the relevant view in EasyVista and click on __...__ > __Rest API Url__ to copy the URL. For example: ![EasyVista Profiles View](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.webp) |
 
 ### Output details
 

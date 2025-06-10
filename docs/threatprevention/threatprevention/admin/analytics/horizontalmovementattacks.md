@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Horizontal Movement Attacks Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/horizontalattackssettings.png)
+![Horizontal Movement Attacks Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/horizontalattackssettings.webp)
 
 Set the Number of Hosts and the Interval Duration to trigger the incident. The interval duration is set for (hours:minutes) and is capped at 23:59. When successful or failed authentications of a given account occurs across the specified number of hosts within the specified interval duration, it will trigger an incident record.
 
@@ -43,7 +43,7 @@ If checked, the Ignore failed logins for unresolved user names option will exclu
 
 Policy Tab
 
-![Horizontal Movement Attacks Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Horizontal Movement Attacks Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -64,7 +64,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Horizontal Movement Attacks__ node lists one row per incident identified.
 
-![Horizontal Movement Attacks Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/horizontalmovement.png)
+![Horizontal Movement Attacks Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/horizontalmovement.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

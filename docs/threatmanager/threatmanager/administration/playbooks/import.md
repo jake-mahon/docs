@@ -4,7 +4,7 @@ Playbooks created in a different location than the Threat Manager installation c
 
 Follow the steps to import a playbook.
 
-![importbutton](/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.png)
+![importbutton](/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.webp)
 
 __Step 1 –__ Go to the Playbooks tab and select Import. This opens the Windows File Explorer.
 

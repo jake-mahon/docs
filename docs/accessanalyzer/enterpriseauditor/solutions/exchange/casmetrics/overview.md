@@ -2,7 +2,7 @@
 
 The 2. CAS Metrics Job Group is comprised of data collection, analysis and reports that focus on remote connections (Outlook Web Access, ActiveSync, and Outlook Anywhere Access) occurring within your organization. This job group goes out to each server that contains the IIS Logs and parses the logs to return the data to the Access Analyzer database.
 
-![2.CAS Metrics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2.CAS Metrics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the 2.CAS Metrics Job Group are:
 

@@ -4,4 +4,4 @@ Yes, Endpoint Policy Manager Start Screen Manager fully supports pinning applica
 
 If you receive a text message similar to the one below when clicking on the application icon from the Start Screen, then it means that either the Application is not present at the physical path, or it is configured with a Mapped Drive instead of the UNC Path.
 
-![841_1_image-20201201090844-1](/img/product_docs/policypak/policypak/requirements/support/startscreentaskbar/841_1_image-20201201090844-1.png)
+![841_1_image-20201201090844-1](/img/product_docs/policypak/policypak/requirements/support/startscreentaskbar/841_1_image-20201201090844-1.webp)

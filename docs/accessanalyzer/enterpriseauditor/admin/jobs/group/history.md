@@ -2,7 +2,7 @@
 
 At the job group level, the History node identifies data retention and log retention periods assigned for the job group.
 
-![Job Group History Settings](/img/product_docs/threatprevention/threatprevention/admin/policies/history.png)
+![Job Group History Settings](/img/product_docs/threatprevention/threatprevention/admin/policies/history.webp)
 
 By default, all job groups are set to inherit __Use Default Setting__ option from the global level (__Settings__ > __History__) or a parent job group. See the [History](/docs/accessanalyzer/enterpriseauditor/admin/settings/history.md) topic for additional information.
 

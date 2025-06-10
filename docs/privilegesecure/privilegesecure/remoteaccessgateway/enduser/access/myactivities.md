@@ -2,7 +2,7 @@
 
 The Access > My Activities page displays activities mapped to the user as individual cards, organized alphabetically or by Access Policy.
 
-![myactivitiesrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/access/myactivitiesrag.png)
+![myactivitiesrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/access/myactivitiesrag.webp)
 
 To access the My Activities page, open the Access interface. If there is only a single activity card present on this page that activity will open automatically.
 

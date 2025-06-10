@@ -18,7 +18,7 @@ The Administration Console has the following components:
 - Policy Center
 - Status Bar
 
-![Threat Prevention Administration Console – Components](/img/product_docs/threatprevention/threatprevention/admin/navigation/adminconsole.png)
+![Threat Prevention Administration Console – Components](/img/product_docs/threatprevention/threatprevention/admin/navigation/adminconsole.webp)
 
 There are also right-click commands available within different sections of the [Policy Center](#Policy-Center).
 
@@ -28,7 +28,7 @@ If the Administration Console user interface or windows do not display properly,
 
 The Menu contains the following selections:
 
-![Administration Console - Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/menu.png)
+![Administration Console - Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/menu.webp)
 
 | Menu Item | Option | Description |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ The Menu contains the following selections:
 
 The Policy Center is the primary interface of the Administration Console. It is divided into two sections: the Navigation pane and the Display area.
 
-![Administration Console – Policy Center](/img/product_docs/threatprevention/threatprevention/admin/navigation/policycenter.png)
+![Administration Console – Policy Center](/img/product_docs/threatprevention/threatprevention/admin/navigation/policycenter.webp)
 
 The Navigation pane provides interface options while the Display area displays the selected interface. The following interface options are available:
 
@@ -105,6 +105,6 @@ The TAGS node provides an organizational feature for templates. Many preconfigur
 
 The Status Bar is located at the bottom of the Administration Console.
 
-![statusbar](/img/product_docs/threatprevention/threatprevention/admin/navigation/statusbar.png)
+![statusbar](/img/product_docs/threatprevention/threatprevention/admin/navigation/statusbar.webp)
 
 It displays the current user account logged into Threat Prevention and current session details.

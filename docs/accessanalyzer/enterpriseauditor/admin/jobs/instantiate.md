@@ -4,11 +4,11 @@ Access Analyzer jobs and solutions are comprised of files contained within the f
 
 …\STEALTHbits\StealthAUDIT\Jobs
 
-![Explore Folder option from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/explorefolder.png)
+![Explore Folder option from Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/explorefolder.webp)
 
 The folder is opened from within the Access Analyzer Console by right-clicking on the desired __Jobs__ node and selecting __Explore Folder__.
 
-![Jobs folder in File Explorer](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/explorefolderfileexplorer.png)
+![Jobs folder in File Explorer](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/explorefolderfileexplorer.webp)
 
 The naming convention of the folders controls what is visible in the Jobs tree. ```GROUP_``` is the prefix for all job groups. ```JOB_``` is the prefix for all jobs. Changing the prefix removes the object from the Jobs tree without deleting it.
 
@@ -29,7 +29,7 @@ __Step 2 –__ Open the Jobs directory. The default location is:
 
 __Step 3 –__ Place the job or job group into the Jobs directory.
 
-![Extract zip file contents to the Jobs folder](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiateextract.png)
+![Extract zip file contents to the Jobs folder](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiateextract.webp)
 
 - If in archive format, extract the desired content to the Jobs directory
 
@@ -37,14 +37,14 @@ __Step 3 –__ Place the job or job group into the Jobs directory.
   - Select whether to __Show extracted files when complete__. This option is selected by default.
 - If in a folder format, copy and paste the job or job group folder into the Jobs directory
 
-![New job added in the Jobs folder ](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiatefileexplorer.png)
+![New job added in the Jobs folder ](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiatefileexplorer.webp)
 
 The new job or job group should be visible in the Jobs directory, and the naming convention should match that of the jobs or job groups that are already there.
 
-![Refresh Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/refreshtree.png)
+![Refresh Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/refreshtree.webp)
 
 __Step 4 –__ In the Access Analyzer Console, right-click on the __Jobs__ node and select __Refresh Tree__.
 
-![Job displayed in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiatejobstree.png)
+![Job displayed in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantiatejobstree.webp)
 
 The new job or job group now displays in the __Jobs__ tree in alphanumeric order.

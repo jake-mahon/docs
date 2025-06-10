@@ -2,7 +2,7 @@
 
 You can search for documents based on the class clues. For that, click on the name of any single clue in the clue list in the management console (or even any suggested clue), go to the __Search__ tab and configure search settings.
 
-![searchtab](/img/product_docs/dataclassification/ndc/admin/taxonomies/searchtab.png)
+![searchtab](/img/product_docs/dataclassification/ndc/admin/taxonomies/searchtab.webp)
 
 1. Set up the following properties that will be considered a basis for the search:
    - Clue type - select the required value from the __Type__ list.
@@ -17,8 +17,8 @@ You can search for documents based on the class clues. For that, click on the na
    __NOTE:__ Full description of all filters can be found in the API Reference Guide.
 3. To view how recent changes to the term will affect the document classifications, select Show document movements. As a result, the “movement” of the document since the last classification will be shown. Possible scenarios are:
 
-![movementskey](/img/product_docs/dataclassification/ndc/admin/taxonomies/movementskey.png)
+![movementskey](/img/product_docs/dataclassification/ndc/admin/taxonomies/movementskey.webp)
 
 OR
 
-![documentmovements_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.png)
+![documentmovements_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.webp)

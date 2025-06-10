@@ -20,7 +20,7 @@ With authentication disabled, you cannot authenticate in Directory Manager; henc
 
 While logging on Directory Manager, you provide wrong password on the Directory Manager Authenticate window for the specified number of times, the following message appears:
 
-![GroupID Authenticate](/img/product_docs/groupid/groupid/portal/user/manage/locked.png)
+![GroupID Authenticate](/img/product_docs/groupid/groupid/portal/user/manage/locked.webp)
 
 Now you cannot login to portal unless you unlock your identity store account. Follow the instructions given below to unlock your account:
 

@@ -4,7 +4,7 @@ On installing Recovery for Active Directory, the Recovery Configuration Utility 
 
 To launch the Recovery Configuration Utility, double-click the Recovery\_Config.exe executable at the following location in the Recovery for Active Directory installation directory: ```...Netwrix\Recovery for Active Directory\Recovery_Config.exe```
 
-![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.png)
+![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.webp)
 
 The Recovery Configuration Utility window has options to:
 
@@ -27,7 +27,7 @@ Follow the steps to register the RSAT Extension.
 
 __Step 1 –__ On the Recovery Configuration Utility window, click the __Register__ button to register the RSAT Extension. On registration, the following message is displayed and the button changes to Unregister.
 
-![RSAT Extension Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionregistered.png)
+![RSAT Extension Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionregistered.webp)
 
 __Step 2 –__ Click __OK__.
 
@@ -39,7 +39,7 @@ Follow the steps to unregister the RSAT Extension.
 
 __Step 1 –__ On the Recovery Configuration Utility window, click the __Unregister__ button to unregister the RSAT Extension. The following message is displayed and the button changes to Register.
 
-![RSAT Extension Not Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionunregistered.png)
+![RSAT Extension Not Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionunregistered.webp)
 
 __Step 2 –__ Click __OK__.
 

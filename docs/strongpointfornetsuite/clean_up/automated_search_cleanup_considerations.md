@@ -27,4 +27,4 @@ Items from the following tabs on the Search form are not retained when an auto a
 - Email
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains entries for the new Internal ID.
 
-![Search form](/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.png)
+![Search form](/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.webp)

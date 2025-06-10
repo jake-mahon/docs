@@ -29,11 +29,11 @@ Follow the steps assign membership in the local Administrators group through the
 
 __Step 1 –__ Navigate to the __Access__ tab, and select __Membership & Roles__ for the System Access Zone.
 
-![Groups tab](/img/product_docs/accessanalyzer/config/dellpowerscale/groupstab.png)
+![Groups tab](/img/product_docs/accessanalyzer/config/dellpowerscale/groupstab.webp)
 
 __Step 2 –__ On the __Groups__ tab, set the Providers to __LOCAL: System__. Then select __View / Edit__ for the Administrators group. The View Group Details window opens.
 
-![Edit Group window](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.png)
+![Edit Group window](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.webp)
 
 __Step 3 –__ Click __Edit Group__ and the Edit Group window opens. Click __Add Members__, and enter the User Name and Provider in the Select a User window. Click __Select__, and then click __Save Changes__. The Edit Group window closes.
 
@@ -47,11 +47,11 @@ Follow the steps to assign the credential to the __BackupAdmin__ role through On
 
 __Step 1 –__ Navigate to the __Access__ tab > __Membership & Roles__ for the System Access Zone.
 
-![One FS Dashboard](/img/product_docs/accessanalyzer/config/dellpowerscale/rolestab.png)
+![One FS Dashboard](/img/product_docs/accessanalyzer/config/dellpowerscale/rolestab.webp)
 
 __Step 2 –__ On the Roles tab, select __View / Edit__ for the BackupAdmin role. The View Role Details window opens.
 
-![One FS Role Details Window](/img/product_docs/accessanalyzer/config/dellpowerscale/viewroledetails.png)
+![One FS Role Details Window](/img/product_docs/accessanalyzer/config/dellpowerscale/viewroledetails.webp)
 
 __Step 3 –__ Click __Edit__ role and the Edit role details window opens.
 

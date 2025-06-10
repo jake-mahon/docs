@@ -6,7 +6,7 @@ You can customized many of the dialogs presented to users. You start out by crea
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization.webp)
 
 The settings contained here are Global, meaning that if there are conflicting settings from multiple policies only the final (last written) set is honored. Here are some example changes to the defaults for demonstration purposes.
 
@@ -22,10 +22,10 @@ Hereis an example of changing the Admin Approval Client Branding using Global Se
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization_1.webp)
 
 A result of changing the Admin Approval Dialog with the changed settings looks like this.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization_2.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/branding_and_customization_2.webp)

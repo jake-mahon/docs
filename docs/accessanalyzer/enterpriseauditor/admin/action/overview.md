@@ -4,7 +4,7 @@ This guide describes the __Actions__ node and the various action modules availab
 
 The Access Analyzer actions are capable of changing users, permissions, files, and objects from a variety of environments. Action modules are assigned to a job at the __Configure__ > __Actions__ node. See the [Actions Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/actions.md) topic for additional information on the Action Selection view.
 
-![Action Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/actionselection.png)
+![Action Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/actionselection.webp)
 
 Configure the action through the Action Properties page. Navigate to the job’s __Configure__ > __Actions__ node. Select __Create Action__ to add a new action task to a job. Select an existing action and click __Action Properties__ to modify its configuration. The Action Properties page opens for either option. Pre-configured action tasks can be added from the Action Library. See the [Action Libraries](/docs/accessanalyzer/enterpriseauditor/admin/action/libraries.md) topic for additional information.
 
@@ -52,7 +52,7 @@ ___RECOMMENDED:___ Prior to configuring the action module, scope the source data
 
 Use this page to view or specify properties for a selected action, including the name, description, action module, and source table. Access this page via the Action Selection view.
 
-![Action Properties page for new action](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/actionproperties.png)
+![Action Properties page for new action](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/actionproperties.webp)
 
 ___RECOMMENDED:___ Provide unique and descriptive names and action task descriptions to all user created action tasks.
 

@@ -13,7 +13,7 @@ The event filters for the Active Directory Read Monitoring event type are:
 - Hosts (from)
 - Rule Preview
 
-![Policy window - Active Directory Read Monitoring Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreadmonitoring.png)
+![Policy window - Active Directory Read Monitoring Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreadmonitoring.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -23,7 +23,7 @@ __CAUTION:__ This event type monitors all specified domain controller Read event
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -37,7 +37,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the AD Classes filter to set the scope of the policy to only monitor specific classes within Active Directory or to exclude specific classes from being monitored.
 
-![Policy window - AD Classes filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adclasses.png)
+![Policy window - AD Classes filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adclasses.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -49,7 +49,7 @@ Use the buttons in the Include and Exclude areas to edit the lists.
 
 Use the AD Objects filter to set the scope of the policy to only monitor specific objects in Active Directory or to exclude specific objects from being monitored.
 
-![Policy window - AD Objects filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adobjects.png)
+![Policy window - AD Objects filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adobjects.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -63,7 +63,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Use the AD Context filter to set the scope of the policy to only monitor specific contexts (e.g. containers and organizational units) in Active Directory or to exclude specific contexts from being monitored.
 
-![Policy window - AD Context filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adcontext.png)
+![Policy window - AD Context filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adcontext.webp)
 
 Use the buttons in the Include Contexts, Include Collections, Exclude Contexts, and Exclude Collections areas to edit the lists.
 
@@ -73,7 +73,7 @@ Use the buttons in the Include Contexts, Include Collections, Exclude Contexts, 
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.png)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent and all child contexts. Uncheck it to apply the filter to the listed context only.
 
@@ -81,7 +81,7 @@ When contexts are added, a Sub-Tree checkbox displays. Check it to apply the fil
 
 Use the AD Perpetrator filter for monitoring to set the scope of the policy to only monitor specific security principals committing changes or to exclude specific security principals committing changes from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.png)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude Collections areas to edit the lists.
 
@@ -93,7 +93,7 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.png)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent and all child contexts. Uncheck it to apply the filter to the listed context only.
 
@@ -101,7 +101,7 @@ When contexts are added, a Sub-Tree checkbox displays. Check it to apply the fil
 
 Use the AD Attributes filter to set the scope of the policy to only monitor specific Active Directory attributes or to exclude specific attributes from being monitored.
 
-![Policy window - AD Attributes Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adattributesmonitor.png)
+![Policy window - AD Attributes Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adattributesmonitor.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -113,7 +113,7 @@ Use the buttons in the Include and Exclude areas to edit the lists.
 
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfrom.png)
+![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections areas to edit the lists.
 
@@ -127,6 +127,6 @@ __NOTE:__ To enable a Dynamic Policy, use the Collection button to select the de
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

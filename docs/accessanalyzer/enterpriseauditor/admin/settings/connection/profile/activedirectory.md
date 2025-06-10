@@ -2,7 +2,7 @@
 
 If the account type selected on the User Credentials window is __Active Directory Account__, the following information is required for the credential:
 
-![User Credentials Window - Active Directory](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/activedirectoryaccount.png)
+![User Credentials Window - Active Directory](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/activedirectoryaccount.webp)
 
 - Domain – Drop-down menu with available trusted domains will appear. Either type the short domain name in the textbox or select a domain from the menu.
 - User name – Type the user name

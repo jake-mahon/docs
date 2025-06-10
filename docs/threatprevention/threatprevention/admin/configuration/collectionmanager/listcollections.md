@@ -4,7 +4,7 @@ Use the List of Collections window to add new items to a collection as well as e
 
 Click __Configuration__ > __Collections__ on the menu to launch the [Collection Manager Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/overview.md). Then either double-click a Collection or select a Collection and click the Manage button to open the List of Collections window.
 
-![List of Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listofcollections.png)
+![List of Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listofcollections.webp)
 
 At the top of the window, the Collection Category is displayed. Each item in the list displays:
 
@@ -20,7 +20,7 @@ Follow the steps to add a static collection.
 
 __Step 1 –__ Click __Add__ on the List of Collections window to open the Add New Collection window.
 
-![Add New Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addnewcollection.png)
+![Add New Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addnewcollection.webp)
 
 __Step 2 –__ Select an option:
 
@@ -37,7 +37,7 @@ __Step 6 –__ Use the Add (+) button to search for Items that match the selecte
 
 The Select… window opens. Select a server/Agent from the drop-down menu and click __Connect__. Expand the domain tree in the navigation pane. Select an item in the Results pane on the right and click __OK__. See the [Selection Windows](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
 
-![Select window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/selectadobjects.png)
+![Select window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/selectadobjects.webp)
 
 Use the __Remove__ (x) button to remove Items from the list on the Add New Collection window.
 
@@ -54,7 +54,7 @@ The Expand Groups option on the Add New Collection window is only available for 
 - Objects
 - Lockdown Objects
 
-![Expand Groups option on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/expandgroups.png)
+![Expand Groups option on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/expandgroups.webp)
 
 - For Perpetrators – If checked, the groups and nested-groups are expanded to monitor effective group membership at the user level. This means the Agent monitors/blocks based on the user’s token instead of the group’s token. The impact specifically for Lockdown Perpetrators collections is that this option allows for the immediate blocking of a currently logged in user who has had a group membership change while logged in.
 - For Objects – If checked, when a group object is added, then the groups and nested-groups are expanded to monitor effective group membership at the user level. This means the Agent monitors/blocks based on the user’s token instead of the group’s token. The impact specifically for Lockdown Objects collections is that this option allows for the immediate blocking of a currently logged in user who has had a group membership change while logged in.
@@ -69,7 +69,7 @@ If group membership cannot be resolved, then the Agent defaults to monitoring/bl
 
 __Step 1 –__ Select a collection on the List of Collections window and click __Edit__. The Edit Collection window opens.
 
-![Edit Collection Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/editcollection.png)
+![Edit Collection Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/editcollection.webp)
 
 __Step 2 –__ You can modify the name, description, and items in the collection. See the [Add New Collection Window](#Add-New-Collection-Window) topic for additional information on these settings.
 
@@ -79,7 +79,7 @@ __Step 1 –__ Select a collection on the List of Collections window and click _
 
 __NOTE:__ You cannot delete a collection that is assigned to an active policy, as indicated in the Dependency Count column. Remove a collection from all policies it has been assigned to before deleting it.
 
-![Confirm Removal window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.png)
+![Confirm Removal window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.webp)
 
 __Step 2 –__ Click __Yes__ on the Confirm Removal window to delete the collection.
 
@@ -87,7 +87,7 @@ __Step 2 –__ Click __Yes__ on the Confirm Removal window to delete the collect
 
 __Step 1 –__ Select a collection on the List of Collections window and click __Dependencies__ to open the Collection Dependencies window.
 
-![Collection Dependencies Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dependencies.png)
+![Collection Dependencies Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dependencies.webp)
 
 __Step 2 –__ This window displays a list of all policy templates and policies the selected collection is assigned to. View the list and click __OK__.
 

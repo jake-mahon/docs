@@ -2,7 +2,7 @@
 
 This group provides insight into content stored across SharePoint farms in order to help more efficiently manage that content. It will provide information on the content taking up the most space, the content that has not been accessed for extended periods of time, and additional data describing SharePoint content and the configuration of the repositories such as lists and libraries which store that content.
 
-![4.Content Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/contentjobstree.png)
+![4.Content Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/contentjobstree.webp)
 
 The 4.Content Job Group is comprised of:
 

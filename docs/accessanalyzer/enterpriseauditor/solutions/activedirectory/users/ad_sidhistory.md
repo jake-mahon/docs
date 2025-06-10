@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_SIDHistory__ > __Conf
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_SIDHistory Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.png)
+![Analysis Tasks for the AD_SIDHistory Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.webp)
 
 The default analysis tasks are:
 

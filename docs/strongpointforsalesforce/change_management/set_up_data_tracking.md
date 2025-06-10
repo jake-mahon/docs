@@ -12,7 +12,7 @@ Here are the requirements to set up data tracking:
 2. Access to the Configuration app. You must have the __Strongpoint Administrator__ and __Strongpoint Grant Permissions__ assignments to access the app. This access is set through:  
    __Setup__ > __Users__ > __Permission Sets__ > __Strongpoint Administrator__ > __Manage Assignments__
 
-   ![You must have these permissions to open the Configuration tool](/img/product_docs/strongpointforsalesforce/change_management/strongpoint_permissions.png)
+   ![You must have these permissions to open the Configuration tool](/img/product_docs/strongpointforsalesforce/change_management/strongpoint_permissions.webp)
 
 ## Add Objects to Track
 
@@ -20,7 +20,7 @@ Here are the requirements to set up data tracking:
 2. Click __View All__ to expand the app list.
 3. Select __Strongpoint Configuration__. The __Recommended Objects__ list is displayed.
 
-   ![Review the recommended objects for data tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_recommended.png)
+   ![Review the recommended objects for data tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_recommended.webp)
 4. Click the checkbox to select each __Recommended Object__ to track.
 5. Set the __Tracking__ for each selected Object:
 
@@ -40,7 +40,7 @@ Here are the requirements to set up data tracking:
 13. Click __Save All Records__.
 14. Wait until the __Deployment Status__ is complete, then click __Done__.
 
-    ![Wait for the Deployment Status to complete](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_deployment.png)
+    ![Wait for the Deployment Status to complete](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_deployment.webp)
 15. Open the App Launcher and return to the __Strongpoint Lightning__ app.
 
 ## Select Customizations to Track
@@ -48,11 +48,11 @@ Here are the requirements to set up data tracking:
 1. Open __Customizations__.
 2. Enter __CustomField__ in the __Search__ box.
 
-   ![Open CustomField Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield.png)
+   ![Open CustomField Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield.webp)
 3. Select __CustomField Tracking__.
 4. Select a customization and edit the Data Change Tracking field.
 
-   ![Edit the Data Change Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield3.png)
+   ![Edit the Data Change Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield3.webp)
 5. Click __Save__ at the bottom of the form to save your changes.
 
 ## Add Tracked Objects to a Policy
@@ -65,14 +65,14 @@ Adding a tracked object to a specific policy facilitates tracking. For example, 
 4. Click __Add Customizations__.
 5. Enter __(Data Records__ in the Search Customization box.
 
-   ![Select the customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.png)
+   ![Select the customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
 6. Select the customization to add. Use Shift-click (contiguous items) or Ctrl-click to select multiple customizations.
 7. Click __Add__ to add your selections to the Selected Customizations pane.
 8. Click __Save__ when you are done.
 
 ## Change Logs
 
-![CPQ Change Log](/img/product_docs/strongpointforsalesforce/change_management/cpq_discount_change_log.png)
+![CPQ Change Log](/img/product_docs/strongpointforsalesforce/change_management/cpq_discount_change_log.webp)
 
 __Tracked, Non-Blocking__ generates a Compliant Change Log (CL-11674) if there is an approved Change Request or a Non-Compliant Change Log (CL-11672) for changes made without an approved Change Request.
 

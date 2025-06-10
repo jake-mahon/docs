@@ -6,7 +6,7 @@ __CAUTION:__ Apply changes only to intended target Active Directory objects, and
 
 ___RECOMMENDED:___ Run the actions in a test environment before making changes to a production environment.
 
-![Cleanup Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Cleanup Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Cleanup Job Group are:
 

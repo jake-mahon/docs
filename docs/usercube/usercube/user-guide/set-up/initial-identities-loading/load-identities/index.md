@@ -10,7 +10,7 @@ The initial workforce repository is going to be the first version of a comprehen
 
 Identity Manager contains a template model, downloadable as an Excel file. Below is an example of a part of the ```UserRecord``` tab, used in Identity Manager's demo:
 
-![Template Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templateexample_v602.png)
+![Template Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templateexample_v602.webp)
 
 ### Useful data
 
@@ -42,7 +42,7 @@ Load identities for the first time by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section.
 
-   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home Page - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 2. On the __Workforce__ > __Data Upload__ page, download the empty Excel template.
 
    ![Upload Icon](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/icondownload_v602.svg)
@@ -68,7 +68,7 @@ Load identities for the first time by proceeding as follows:
 
    The Excel file contains several tabs which organize data, but not all tabs and columns are mandatory. You can find __more details about the [Template Description](/docs/usercube/usercube/user-guide/set-up/initial-identities-loading/template-description/index.md)__. Below are the minimum recommended attributes (mandatory in orange):
 
-   ![Template Recommendations](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.png)
+   ![Template Recommendations](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.webp)
 
    [__Click here to download a template example__](/files/usercube/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
@@ -112,11 +112,11 @@ Load identities for the first time by proceeding as follows:
    The latest uploaded file overwrites the previous one.
 6. Click on __Verify and Synchronize__ to check the file's consistency and import its data into Identity Manager.
 
-   ![Verify and Synchronize](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_dataupload-synchronize_v602.png)
+   ![Verify and Synchronize](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_dataupload-synchronize_v602.webp)
 
    Now you are able to view users' pages in the directory.
 
-   ![Directory - Users](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_directoryusers_v602.png)
+   ![Directory - Users](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_directoryusers_v602.webp)
 
 ## Verify Identities Loading
 
@@ -124,12 +124,12 @@ In order to validate the process:
 
 - Check manually a sample in the user directory accessible from the home page. You should verify at least your own sheet and the sheets for your hierarchy.
 
-  ![Home - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+  ![Home - Directory User](/img/product_docs/usercube/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 - Check that every organization includes a manager. Organizations are accessible from the department directory on the home page.
 
-  ![Home - Directory Department](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.png)
+  ![Home - Directory Department](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.webp)
 
-  ![List of Departments](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
+  ![List of Departments](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.webp)
 
   If the system contains many organizations, then it is also possible to list each organization with its manager through the Query module.
 - Create reports with indicators on the number of workers per type or per organization for example (through Identity Manager's predefined reports, the Query module or Power BI), in order to ensure that Identity Manager's content sticks to reality.

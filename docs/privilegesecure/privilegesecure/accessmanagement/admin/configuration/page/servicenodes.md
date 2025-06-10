@@ -2,7 +2,7 @@
 
 On the Service Nodes page, configure the services for each installed service node.
 
-![Service Nodes Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicenodespage.png)
+![Service Nodes Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicenodespage.webp)
 
 The left of the page lists the Service Nodes and the services running on them:
 

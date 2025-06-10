@@ -2,7 +2,7 @@
 
 The Category page contains a connection section where connection options are defined. It is also where the query category is selected. The available query categories are sub-divided by auditing focus.
 
-![ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 ## Connection
 

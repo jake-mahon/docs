@@ -41,6 +41,6 @@ The SharePointAccess Data Collector is configured through the SharePoint Access 
 - [SPAA: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/results.md)
 - [SPAA: Summary Page](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/summary.md)
 
-![SPAA Data Collector Wizard Welcome Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/welcomepage.png)
+![SPAA Data Collector Wizard Welcome Page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/welcomepage.webp)
 
 The Welcome page can be hidden by checking the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Resources__ page.
 
 __Step 2 –__ Click __Add__ > __New Microsoft Entra ID Tenant__
 
-![Add Azure AD Tenant](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.png)
+![Add Azure AD Tenant](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.webp)
 
 __Step 3 –__ Enter the following information:
 

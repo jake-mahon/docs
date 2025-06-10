@@ -20,7 +20,7 @@ The 3-SPAA\_Exceptions Job does not use the SPAA Data Collector. Instead it runs
 
 __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaaexceptionsanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
 
 The default analysis tasks are:
 

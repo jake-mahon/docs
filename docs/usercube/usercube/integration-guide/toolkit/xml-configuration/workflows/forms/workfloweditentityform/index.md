@@ -23,11 +23,11 @@ With the following form for the workflow's content and summary:
 
 The content of ```MainControl``` is visible during the workflow's execution:
 
-![Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_v603.png)
+![Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_v603.webp)
 
 The content of ```SummaryControl``` is visible after the workflow's execution:
 
-![Summary Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_summary_v603.png)
+![Summary Form Example - Computer Request](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_summary_v603.webp)
 
 ## Properties
 

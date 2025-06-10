@@ -2,11 +2,11 @@
 
 Follow the steps to create a Host Discovery query using the Query an Active Directory server (Discover Exchange servers) source option. This option scans the default domain controller or a specified server but is scoped to return only computer objects residing in the configuration container for Exchange servers.
 
-![Host Discovery Wizard Source page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.png)
+![Host Discovery Wizard Source page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
 
 __Step 1 –__ Open the Host Discovery Wizard. On the Source Page, select the __Query an Active Directory server (Discover Exchange servers)__ option. Click __Next__.
 
-![Host Discovery Wizard Query page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.png)
+![Host Discovery Wizard Query page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 __Step 2 –__ On the Query page, name the query and select the credentials used to access the source.
 
@@ -21,13 +21,13 @@ __Step 2 –__ On the Query page, name the query and select the credentials used
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Exchange Server Query page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/exchangeserver.png)
+![Host Discovery Wizard Exchange Server Query page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/exchangeserver.webp)
 
 __Step 3 –__ The Exchange Server Query page is scoped to the default Microsoft container where all Exchange servers are housed.
 
 Leave this page unchanged. If you must modify this page, see the [Query an Active Directory Server (General)](/docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/adgeneral.md) topic for instructions. Click __Next__.
 
-![Host Discovery Wizard Options page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![Host Discovery Wizard Options page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 4 –__ On the Options page, configure the query options as required.
 
@@ -41,7 +41,7 @@ __Step 4 –__ On the Options page, configure the query options as required.
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Inventory page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.png)
+![Host Discovery Wizard Inventory page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
 
 __Step 5 –__ On the Inventory page, the host inventory process can be automatically included with the discovery query.
 
@@ -56,11 +56,11 @@ __Step 5 –__ On the Inventory page, the host inventory process can be automati
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Summary page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Host Discovery Wizard Summary page for AD Exchange](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 __Step 6 –__ The Summary page displays all the selected query configuration settings. To make changes, click __Back__ to navigate to the relevant wizard page. Click Finish to complete the configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.png)
+![Confirm dialog box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 __Step 7 –__ A Confirm dialog box opens. Click __Yes__ to run the query now or __No__ to run the query at another time.
 

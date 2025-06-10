@@ -2,7 +2,7 @@
 
 The Sensitive Content Summary report at the instance level provides a count of collections where criteria matches were found on the selected instance. This report includes a Details table.
 
-![Sensitive Content Summary report at the instance level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentsummary.png)
+![Sensitive Content Summary report at the instance level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

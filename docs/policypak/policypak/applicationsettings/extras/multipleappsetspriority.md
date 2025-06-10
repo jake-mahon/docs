@@ -4,7 +4,7 @@
 
 In Figure 54, you can see the same AppSet (WinZip 14 and later) used three times within the same GPO. However, each AppSet item has Item-Level Targeting turned on and specific conditions associated with it.
 
-![policypak_application_settings_2_8](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_8.png)
+![policypak_application_settings_2_8](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_8.webp)
 
 Figure 54. WinZip 14 being used multiple times in the same GPO.
 
@@ -16,7 +16,7 @@ The recommended way to use Endpoint Policy Manager Application Settings Manager 
 
 However, you could occasionally have multiple AppSets overlap each other with certain settings you've engaged. As a result, you might want to ensure that the delivery of those settings occurs in a particular order. As seen in Figure 55, Endpoint Policy Manager Application Settings Manager enables you to specify which AppSet is delivered in which order.
 
-![policypak_application_settings_2_9](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_9.png)
+![policypak_application_settings_2_9](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_9.webp)
 
 Figure 55. The order in which the Paks (in this scenario) are delivered.
 
@@ -26,7 +26,7 @@ __NOTE:__  This is the same way the Group Policy Preferences prioritizes items.
 
 To change the priority of a particular AppSet, simply right-click on it within the GPO and select either "Enable priority mode (press Enter to exit)" or "Set priority," which are both shown in Figure 56.
 
-![policypak_application_settings_2_10](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_10.png)
+![policypak_application_settings_2_10](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_10.webp)
 
 Figure 56. By clicking "Enable priority mode (press Enter to exit)," as shown here, you can change the priority of a specific Pak.
 
@@ -34,7 +34,7 @@ When you select "Enable priority mode (press Enter to exit)" you can then move t
 
 You can also select "Set priority," which will enable you to specify a numeric value, as shown in Figure 57.
 
-![policypak_application_settings_2_11](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_11.png)
+![policypak_application_settings_2_11](/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_11.webp)
 
 Figure 57. By clicking "Set priority," as shown here, you can change the priority of a specific Pak by setting the numeric value.
 

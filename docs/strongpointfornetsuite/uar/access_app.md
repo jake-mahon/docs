@@ -4,16 +4,16 @@ The User Access Review bundle must be [installed](/docs/strongpointfornetsuite/u
 
 __User Access Review__ is available on the NetSuite menu bar if you have a [license](/docs/strongpointfornetsuite/uar/install_app.md#license). If it is not on your menu, contact your Netwrix or NetSuite administrator.
 
-![User Access Review menu](/img/product_docs/strongpointfornetsuite/uar/uar_menu.png)
+![User Access Review menu](/img/product_docs/strongpointfornetsuite/uar/uar_menu.webp)
 
 1. Select __User Access Review__ > __User Access Review__ > __Open__ from the NetSuite menu bar.
 2. Click your __Role__ to log in to the UAR app.
 
-   ![Select your role](/img/product_docs/strongpointfornetsuite/uar/uar_role.png)
+   ![Select your role](/img/product_docs/strongpointfornetsuite/uar/uar_role.webp)
 
 Here is an example of the UAR Admin dashboard:
 
-![UAR Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.png)
+![UAR Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.webp)
 
 ## Dashboard
 

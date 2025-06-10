@@ -2,7 +2,7 @@
 
 Once a host is being monitored the event stream can be sent to multiple outputs.
 
-![Output Properties Overview](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/outputpropertiesoverview.png)
+![Output Properties Overview](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/outputpropertiesoverview.webp)
 
 Configured outputs are grouped under the host. You can have multiple outputs configured for a host. The host event outputs are:
 
@@ -17,7 +17,7 @@ __Step 1 –__ On the Monitored Hosts tab, select the desired host and click __A
 
 __Step 2 –__ Select __File__ from the drop-down menu. The Add New Output window opens.
 
-![addnewoutputfile](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputfile.png)
+![addnewoutputfile](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputfile.webp)
 
 __Step 3 –__ Configure the tab(s) as desired.
 
@@ -33,7 +33,7 @@ __Step 1 –__ On the Monitored Hosts tab, select the desired host and click __A
 
 __Step 2 –__ Select __Syslog__ from the drop-down menu. The Add New Output window opens.
 
-![addnewoutputsyslog](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputsyslog.png)
+![addnewoutputsyslog](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputsyslog.webp)
 
 __Step 3 –__ Configure the tab(s) as desired.
 

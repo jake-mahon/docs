@@ -2,7 +2,7 @@
 
 The 1. HUB Metrics Job Group is comprised of data collection, analysis and reports that focus on mail-flow activity occurring within your organization. This job group goes out to each server that contains the Message Tracking Logs and parse the log to return the data to the Access Analyzer database.
 
-![1.HUB Metrics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.HUB Metrics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following job groups and jobs comprise the 1. HUB Metrics Job Group:
 

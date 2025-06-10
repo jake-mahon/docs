@@ -2,7 +2,7 @@
 
 The Effective Policy report at the web application and web application URL levels provides a list of users and groups who are effectively granted or denied access to the SharePoint on-premise farm web application through a particular web application policy with the rights being either granted or denied.
 
-![Effective Policy report at the web application and web application URL levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.png)
+![Effective Policy report at the web application and web application URL levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
 
 This report is comprised of the following columns:
 

@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __1.Users__ > __AD\_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_ResetPasswordPermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/users/resetpasswordpermissionsanalysis.png)
+![Analysis Tasks for the AD_ResetPasswordPermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/users/resetpasswordpermissionsanalysis.webp)
 
 The default analysis tasks are:
 

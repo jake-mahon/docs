@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_StaleUsers__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AAD_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.png)
+![Analysis Tasks for the AAD_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 

@@ -8,7 +8,7 @@ The NIS Scan Job uses the NIS Data Collector for the following query:
 
 __CAUTION:__ This query must be modified. See the [Configure the NIS Scan Query](#configure-the-nis-scan-query) topic for additional information.
 
-![Query for the NIS Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/nisscanquery.png)
+![Query for the NIS Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/nisscanquery.webp)
 
 - Inventory Scan – Targets a NIS server to collect inventory data for user and group objects
 
@@ -24,13 +24,13 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The NIS 
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![NIS Settings page](/img/product_docs/activitymonitor/config/dellpowerscale/settings.png)
+![NIS Settings page](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 
 __Step 4 –__ On the NIS Settings page, enter the __NIS Domain Name__ for the targeted NIS domain. This step is required prior to running this query. See the [NIS: NIS Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/settings.md) topic for additional information.
 
 - Optional: Test the connection to the domain using the Sample NIS Server section of the page
 
-![SID Mappings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/sidmappings.png)
+![SID Mappings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/sidmappings.webp)
 
 __Step 5 –__ On the SID Mappings page, you can add multiple SID mapping entries. See the [NIS: SID Mappings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/sidmappings.md) topic for additional information.
 
@@ -44,7 +44,7 @@ View the analysis tasks by navigating to the __.NIS Inventory__ > __NIS Scan__ >
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified or deselected. There is one that is deselected by default, as it is for troubleshooting purposes.
 
-![Analysis Tasks for the NIS Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/nisscananalysis.png)
+![Analysis Tasks for the NIS Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/nisscananalysis.webp)
 
 The following analysis tasks are selected by default:
 

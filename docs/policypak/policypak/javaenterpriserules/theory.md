@@ -11,7 +11,7 @@ Endpoint Policy Manager Java Rules Manager automates Oracle's own built-in Java 
 
 The Deployment Rule Set feature is useful but can be difficult to set up and keep updated enterprise-wide. The essence of the feature is a rule set, which must be created in XML. Then, a package must be digitally signed and deployed to endpoints. When the rule set is executed correctly (manually), the result looks similar to what is shown below.
 
-![theory_of_operation_and_moving](/img/product_docs/policypak/policypak/javaenterpriserules/theory_of_operation_and_moving.png)
+![theory_of_operation_and_moving](/img/product_docs/policypak/policypak/javaenterpriserules/theory_of_operation_and_moving.webp)
 
 Automating and updating deployment rule sets anytime a site requires updating can be painful. Fortunately, Endpoint Policy Manager Java Rules Manager automates the whole process. It reduces errors, enables change management using Group Policy, Microsoft Endpoint Manager (SCCM and Intune), or your own tool, and gets everything to work the first time.
 

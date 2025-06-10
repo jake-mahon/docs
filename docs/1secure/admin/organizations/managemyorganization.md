@@ -2,7 +2,7 @@
 
 After you added your organization, you can review or edit your profile on Configuration > My Organization page.
 
-![myorganization](/img/product_docs/1secure/admin/organizations/myorganization.png)
+![myorganization](/img/product_docs/1secure/admin/organizations/myorganization.webp)
 
 - Optionally, specify  Edit settings or Request Deletion for your Organization.
 

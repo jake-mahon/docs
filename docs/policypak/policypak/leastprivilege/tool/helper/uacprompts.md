@@ -14,7 +14,7 @@ If Standard Users try to manage their own Network settings, they can take a few 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
 __NOTE:__ We used COM / CSLID rules earlier to overcome this concern, but this section and solution gives you another option.
 

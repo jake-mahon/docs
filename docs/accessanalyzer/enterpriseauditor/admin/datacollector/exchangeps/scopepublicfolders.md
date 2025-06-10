@@ -13,7 +13,7 @@ The option selected changes how the public folders are identified for scoping.
 
 The __Selected Public Folders__ scope option retrieves all public folders in the Exchange organization, populating them in the Available list.
 
-![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Public Folders option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.png)
+![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Public Folders option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.webp)
 
 The __Search__ feature filters this list. Select the desired public folders and click __Add__. The selected public folders are added to the Selected list. Use the __Remove__ option to delete selected public folders from the list. The Select All or Deselect All buttons can be used for quick selection. Additional scoping options include:
 
@@ -25,6 +25,6 @@ The __Search__ feature filters this list. Select the desired public folders and 
 
 The __Selected Table__ scope option populates the Available tables list with tables from the Access Analyzer database.
 
-![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Table option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfoldersselectedtable.png)
+![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Table option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfoldersselectedtable.webp)
 
 The __Search__ feature filters this list. Select the table that houses the list of public folders for which this query will be scoped. The Field containing EntryIDs list is populated with columns from the selected table. Select the appropriate column from the list.

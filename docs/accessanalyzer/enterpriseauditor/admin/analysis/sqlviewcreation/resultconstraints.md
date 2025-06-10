@@ -2,7 +2,7 @@
 
 Use the Result Constraints page to impose restraints on the dataset.
 
-![View and Table Creation Analysis Module wizard Result constraints page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.png)
+![View and Table Creation Analysis Module wizard Result constraints page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.webp)
 
 Select one of the following options to choose if and how much data should be returned:
 
@@ -18,15 +18,15 @@ Select one of the following options to choose if and how much data should be ret
 
 The following example explains how the __With ties__ option works.
 
-![cid:image027.png@01D4CF75.96F2E110](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplefull.png)
+![cid:image027.webp@01D4CF75.96F2E110](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplefull.webp)
 
 Consider a table that has ten rows with one repeating entry under the value column.
 
-![cid:image025.png@01D4CF74.8A56D750](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplereduced.png)
+![cid:image025.webp@01D4CF74.8A56D750](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplereduced.webp)
 
 If the table is sorted by the value column in ascending order and the __Return only__ option is set to __40 percent__, then there should be four rows visible in the resulting table or view output.
 
-![cid:image026.png@01D4CF74.8A56D750](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplereducedwithties.png)
+![cid:image026.webp@01D4CF74.8A56D750](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/examplereducedwithties.webp)
 
 However, if the first three values in the sort column are unique but the fourth value matches the fifth, selecting the __With ties__ option returns the first three rows as well as both the fourth and fifth rows for a total of five rows.
 

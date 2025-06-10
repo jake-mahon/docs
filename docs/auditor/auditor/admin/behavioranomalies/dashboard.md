@@ -6,9 +6,9 @@ You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor
 
 To review the Behavior Anomalies dashboard:
 
-On the main Auditor page, click ![ba_tile](/img/product_docs/auditor/auditor/admin/behavioranomalies/ba_tile.png) on the left.
+On the main Auditor page, click ![ba_tile](/img/product_docs/auditor/auditor/admin/behavioranomalies/ba_tile.webp) on the left.
 
-![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.png)
+![dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_thumb_0_0.webp)
 
 The dashboards includes the following sections:
 

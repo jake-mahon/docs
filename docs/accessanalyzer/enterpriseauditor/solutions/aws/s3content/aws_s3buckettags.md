@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __7.S3 Content__ > __AWS\_S3BucketTags__ > __Configure
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_S3BucketTagsJob](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/s3content/s3buckettagsanalysis.png)
+![Analysis Tasks for the AWS_S3BucketTagsJob](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/s3content/s3buckettagsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

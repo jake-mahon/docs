@@ -6,13 +6,13 @@ There might be times when you already have a``` .reg``` file (registry export) a
 
 The ```.reg``` importer utility is only available to use with checkboxes. When you select any checkbox, a special icon will appear, as shown in Figure 162.
 
-![using_the_reg_importer_utility](/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_reg_importer_utility.png)
+![using_the_reg_importer_utility](/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_reg_importer_utility.webp)
 
 Figure 162. The .reg importer utility.
 
 Using the utility, you can import existing .reg files and specify which state (checked or unchecked) matches which .reg file (see Figure 163).
 
-![using_the_reg_importer_utility_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_reg_importer_utility_1.png)
+![using_the_reg_importer_utility_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/using_the_reg_importer_utility_1.webp)
 
 Figure 163. The .reg importer utility interface.
 

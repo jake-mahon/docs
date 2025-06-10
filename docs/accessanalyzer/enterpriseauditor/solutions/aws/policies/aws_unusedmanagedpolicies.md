@@ -18,7 +18,7 @@ Navigate to the __AWS__ > __5.Policies__ > __AWS\_UnusedManagedPolicies__ > __Co
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/unusedmanagedpoliciesanalysis.png)
+![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/unusedmanagedpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

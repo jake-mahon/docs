@@ -10,10 +10,10 @@ This means that there are three scanning options available:
 
 The __NMAP__ package must be installed to a default program file location (Windows: Program Files(x86)\Nmap), Linux: /usr/bin/)
 
-![PolicyTemplatesNetworkPortTrackerDiagram](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesnetworkporttrackerdiagram.png)
+![PolicyTemplatesNetworkPortTrackerDiagram](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesnetworkporttrackerdiagram.webp)
 
 The __Network Port Tracker__ is configured by specifying port ranges to include and exclude from the scan. In addition, the protocol used for each range can also be selected, either TCP, UDP or both.
 
 __NOTE:__ As with any UDP scan, the non-acknowledged nature of UDP requires a more intensive, slower approach which may result in scan times exceeding 24 hours.
 
-![PolicyTemplatesNetworkPortTrackerTab](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesnetworkporttrackertab.png)
+![PolicyTemplatesNetworkPortTrackerTab](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesnetworkporttrackertab.webp)

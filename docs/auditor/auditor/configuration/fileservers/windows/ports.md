@@ -29,7 +29,7 @@ __Step 2 –__ In the Help Protect your computer with Windows Firewall page, cli
 
 __Step 3 –__ In the Windows Firewall with Advanced Security dialog, select __Inbound Rules__ on the left.
 
-![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.png)
+![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
 
 __Step 4 –__ Enable the following inbound connection rules:
 

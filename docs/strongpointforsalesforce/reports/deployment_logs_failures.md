@@ -62,4 +62,4 @@ Click on any of the report columns to change the sort order. The á or â arrow 
 >
 > __# of Test Errors__: Total number of errors.
 
-![Deployment Log  Report with Failures](/img/product_docs/strongpointforsalesforce/reports/report_deploy_failures.png)
+![Deployment Log  Report with Failures](/img/product_docs/strongpointforsalesforce/reports/report_deploy_failures.webp)

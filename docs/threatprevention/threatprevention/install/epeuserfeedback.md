@@ -43,11 +43,11 @@ Access the Enterprise Password Enforcer GPO
 
 __Step 1 –__ Launch the Group Policy Management console (gpmc.msc).
 
-![Group Policy Management console](/img/product_docs/threatprevention/threatprevention/install/grouppolicymanagementconsole.png)
+![Group Policy Management console](/img/product_docs/threatprevention/threatprevention/install/grouppolicymanagementconsole.webp)
 
 __Step 2 –__ Expand __Forest: [Name] > Domains > [Domain name]__ and right-click __Default Domain Policy__. Select __Edit__ on the shortcut menu. The Group Policy Management Editor opens.
 
-![Group Policy Management Editor](/img/product_docs/threatprevention/threatprevention/install/grouppolicymanagementeditor.png)
+![Group Policy Management Editor](/img/product_docs/threatprevention/threatprevention/install/grouppolicymanagementeditor.webp)
 
 __Step 3 –__ Expand __Computer Configuration > Policies > Administrative Templates Policy definitions (ADMX files) retrieved from the local computer > STEALTHbits__ to locate the Enterprise Password Enforcer GPO under it.
 

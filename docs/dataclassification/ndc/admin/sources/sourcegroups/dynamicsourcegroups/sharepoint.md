@@ -2,7 +2,7 @@
 
 This section contains information on how to configure SharePoint Online dynamic source groups. Toggle between Basic and Advanced configuration settings by clicking the icons in the Settings button in the bottom left corner of the page.
 
-![dynamicsourcegroupspo](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupspo.png)
+![dynamicsourcegroupspo](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupspo.webp)
 
 The following options can be configured for SharePoint Online Dynamic Source Groups:
 

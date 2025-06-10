@@ -10,7 +10,7 @@ Navigate to __Box__ > __2.Content__ > __Box\_FolderMetrics__ > __Configure__ nod
 
 __CAUTION:__ Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FolderMetrics Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/content/foldermetricsanalysis.png)
+![Analysis Tasks for the Box_FolderMetrics Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/content/foldermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

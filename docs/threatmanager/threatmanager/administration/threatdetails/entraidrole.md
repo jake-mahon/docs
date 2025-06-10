@@ -2,7 +2,7 @@
 
 The Role Details page provides information about a role including its description and role membership.
 
-![Roles Page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.png)
+![Roles Page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
 
 The top of the page displays a profile card which may contain the following information about the role:
 
@@ -20,7 +20,7 @@ The members tab displays two tables:
 - Eligible Assignments – Lists the roles that the user is eligible for. An eligible assignment refers to a role assignment that a user or group can activate when needed but is not permanently active.
 - Active Assignments – Lists roles that are currently active and usable to a user.
 
-![Role Members Tab Active Assignement Page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/rolesactiveassignments.png)
+![Role Members Tab Active Assignement Page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/rolesactiveassignments.webp)
 
 Both tables have the following columns:
 

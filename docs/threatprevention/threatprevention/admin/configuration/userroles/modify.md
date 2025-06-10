@@ -4,7 +4,7 @@ Follow the steps to modify a user’s assigned rights.
 
 __Step 1 –__ Click __Configuration__ > __Users__ on the menu to open the Users and Roles window.
 
-![Users and Roles window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/usersroleswindow.png)
+![Users and Roles window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/usersroleswindow.webp)
 
 __Step 2 –__ Select a user to modify its assigned rights.
 

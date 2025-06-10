@@ -27,11 +27,11 @@ As roles and navigation properties are technically bonded together, their review
 
 > So let's say we add ```Cedric Blanc``` to the list of members of the SAP groups ```SG_APP_SAP_1``` and ```SG_APP_SAP_211```. Then, after the next synchronization, Identity Manager displays one item for each role on the __Role Reconciliation__ screen, and one item for all changes in the AD account on the __Resource Reconciliation__ screen:
 >
-> ![Example - Role Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_examplerole_v602.png)
+> ![Example - Role Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_examplerole_v602.webp)
 >
-> ![Example - Resource Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresource_v602.png)
+> ![Example - Resource Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresource_v602.webp)
 >
-> ![Example - Resource Reconciliation - Properties](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresourceprop_v602.png)
+> ![Example - Resource Reconciliation - Properties](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresourceprop_v602.webp)
 
 ## Participants and Artifacts
 
@@ -49,16 +49,16 @@ Review a non-conforming permission by proceeding as follows:
    Compute Role Model Task
    ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) was launched recently, through the complete job on the __Job Execution__ page
 
-   ![Home Page - Job Execution](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+   ![Home Page - Job Execution](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
    Or through the connector's overview page, __Jobs__ > __Compute Role Model__.
 
-   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 2. On the home page, click on the entity type that you want to manage in the __Role Reconciliation__ section, to get to the non-conforming permissions page.
 
-   ![Home Page - Role Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.png)
+   ![Home Page - Role Reconciliation](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.webp)
 
-   ![Role Reconciliation Page](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/reviewrole_rolereconciliation_v603.png)
+   ![Role Reconciliation Page](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/reviewrole_rolereconciliation_v603.webp)
 
    Each non-conforming permission can be commented by clicking on the corresponding icon.
 
@@ -76,16 +76,16 @@ Review a non-conforming permission by proceeding as follows:
    ![Decline Icon](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/orphan_icondecline_v522.svg)
 4. Trigger provisioning by launching, on the appropriate connector's overview page, __Jobs__ > __Generate Provisioning Orders__, then, after this first task is done, __Jobs__ > __Fulfill__. See the [Provision](/docs/usercube_saas/usercube/user-guide/administrate/provisioning/index.md) topic for additional information.
 
-   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ### Use bulk provisioning
 
 Several roles can be reconciled simultaneously by clicking on __Bulk Reconcile Roles__.
 
-![Bulk Reconcile Roles](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/reviewrole_rolereconciliationbulk_v603.png)
+![Bulk Reconcile Roles](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/reviewrole_rolereconciliationbulk_v603.webp)
 
 ## Verify Role Reconciliation
 
 In order to verify the process, check that the changes you ordered appear on the corresponding user's __View Permissions__ tab.
 
-![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

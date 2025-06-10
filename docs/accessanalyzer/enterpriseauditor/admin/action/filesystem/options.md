@@ -2,7 +2,7 @@
 
 The Options page provides access to additional options for the action. Based on the selection on the Operation page and other choices made within the wizard, not all options on this page may be available.
 
-![File System Action Module Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.png)
+![File System Action Module Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 Select from the following additional operations:
 

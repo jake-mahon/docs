@@ -14,7 +14,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable(Table)](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
+![DisplayTable(Table)](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.webp)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed like a table) if a criterion linked to this column is already displayed in a search bar. This avoids filter duplication.
 Thus, the ```<CanBeFiltered>``` property can be deleted in the ```<Column>``` argument.
@@ -31,7 +31,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Here is the visualization of this resource table on the interface:
 
-![ResourceTable](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.png)
+![ResourceTable](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.webp)
 
 ## Display Table with Tiles
 
@@ -53,6 +53,6 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable with Tiles](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.png)
+![DisplayTable with Tiles](/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.webp)
 
 See the [Display Table](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for additional information.

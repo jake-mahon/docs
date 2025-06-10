@@ -20,21 +20,21 @@ __Step 2 –__ Expand User or Computer Configuration -> Netwrix Endpoint Policy 
 
 (this example will use the user configuration)
 
-![773_1_image-20201225195625-1](/img/product_docs/policypak/policypak/startscreentaskbar/773_1_image-20201225195625-1.png)
+![773_1_image-20201225195625-1](/img/product_docs/policypak/policypak/startscreentaskbar/773_1_image-20201225195625-1.webp)
 
 __Step 3 –__ Add a new Collection
 
-![773_2_image-20201225195625-2](/img/product_docs/policypak/policypak/startscreentaskbar/773_2_image-20201225195625-2.png)
+![773_2_image-20201225195625-2](/img/product_docs/policypak/policypak/startscreentaskbar/773_2_image-20201225195625-2.webp)
 
 __Step 4 –__ Name the Collection and under Layout Mode, select either Full (Replacement of the user's start menu) and Partial (Preserving the user's start menu). Partial Preserve is generally recommended as the end users still have access to modify the rest of the start menu.
 
-![773_3_image-20201225195625-3](/img/product_docs/policypak/policypak/startscreentaskbar/773_3_image-20201225195625-3.png)
+![773_3_image-20201225195625-3](/img/product_docs/policypak/policypak/startscreentaskbar/773_3_image-20201225195625-3.webp)
 
 __NOTE:__ Item Level Targeting may be used to filter who or what gets the policies within this collection
 
 __Step 5 –__ Open the collection and add a New Group
 
-![773_4_image-20201225195625-4](/img/product_docs/policypak/policypak/startscreentaskbar/773_4_image-20201225195625-4.png)
+![773_4_image-20201225195625-4](/img/product_docs/policypak/policypak/startscreentaskbar/773_4_image-20201225195625-4.webp)
 
 __Step 6 –__ Complete Group information
 
@@ -46,7 +46,7 @@ __Step 6 –__ Complete Group information
 - Update Mode: If Update is the selected action, and the group name you selected already exists, do you want to new icons at the top or tail of the group?
 - Placeholder: If an application / link is missing and the tile cannot be created, do you want a Gap in its place, or an Edge Link (a tile that will open in the Edge Browser)?
 
-  ![773_5_image-20201225195625-5](/img/product_docs/policypak/policypak/startscreentaskbar/773_5_image-20201225195625-5.png)
+  ![773_5_image-20201225195625-5](/img/product_docs/policypak/policypak/startscreentaskbar/773_5_image-20201225195625-5.webp)
 
 __NOTE:__ ILT can also be implemented here instead of at, or in addition too, the collection level.
 
@@ -54,26 +54,26 @@ __Step 7 –__ Open the new group just created
 
 __Step 8 –__ Add new Desktop Application
 
-![773_6_image-20201225195625-6](/img/product_docs/policypak/policypak/startscreentaskbar/773_6_image-20201225195625-6.png)
+![773_6_image-20201225195625-6](/img/product_docs/policypak/policypak/startscreentaskbar/773_6_image-20201225195625-6.webp)
 
 __Step 9 –__ Select Custom Application
 
-![773_7_image-20201225195625-7](/img/product_docs/policypak/policypak/startscreentaskbar/773_7_image-20201225195625-7.png)
+![773_7_image-20201225195625-7](/img/product_docs/policypak/policypak/startscreentaskbar/773_7_image-20201225195625-7.webp)
 
 __Step 10 –__ Click "Select application" and browse to "C:\Program Files\PolicyPak\Least Privilege Manager\Tools" and select one of the three EXEs
 
-![773_8_image-20201225195625-8](/img/product_docs/policypak/policypak/startscreentaskbar/773_8_image-20201225195625-8.png)
+![773_8_image-20201225195625-8](/img/product_docs/policypak/policypak/startscreentaskbar/773_8_image-20201225195625-8.webp)
 
 __Step 11 –__ Complete Application data page
 
 - Shortcut Name: Rename to something descriptive
 - Shortcut Icon: If path is not complete, click on Change icon… and browse back to EXE directory and select the same file
 
-![773_9_image-20201225195625-9](/img/product_docs/policypak/policypak/startscreentaskbar/773_9_image-20201225195625-9.png)
+![773_9_image-20201225195625-9](/img/product_docs/policypak/policypak/startscreentaskbar/773_9_image-20201225195625-9.webp)
 
 __Step 12 –__ Set icon size and position as desired, if different from default
 
-![773_10_image-20201225195625-10](/img/product_docs/policypak/policypak/startscreentaskbar/773_10_image-20201225195625-10.png)
+![773_10_image-20201225195625-10](/img/product_docs/policypak/policypak/startscreentaskbar/773_10_image-20201225195625-10.webp)
 
 __Step 13 –__ Confirm settings and Finish
 
@@ -95,11 +95,11 @@ __NOTE:__ This can also be added as part of the Least Privilege Manager policy G
 
 __Step 2 –__ Expand User or Computer Configuration -> Preferences -> Windows Settings and click on Shortcuts
 
-![773_11_image-20201225195625-11](/img/product_docs/policypak/policypak/startscreentaskbar/773_11_image-20201225195625-11.png)
+![773_11_image-20201225195625-11](/img/product_docs/policypak/policypak/startscreentaskbar/773_11_image-20201225195625-11.webp)
 
 __Step 3 –__ Right-click and create a New -> Shortcut
 
-![773_12_image-20201225195625-12_339x107](/img/product_docs/policypak/policypak/startscreentaskbar/773_12_image-20201225195625-12_339x107.png)
+![773_12_image-20201225195625-12_339x107](/img/product_docs/policypak/policypak/startscreentaskbar/773_12_image-20201225195625-12_339x107.webp)
 
 __Step 4 –__ Fill in the shortcut properties page as follows
 
@@ -110,13 +110,13 @@ __Step 4 –__ Fill in the shortcut properties page as follows
   - Location: Start Menu
   - Target Path: Click "…" and browse to "C:\Program Files\PolicyPak\Least Privilege Manager\Tools" and select one of the three EXEs (e.g. C:\Program Files\PolicyPak\Least Privilege Manager\Tools\PolicyPak.Tools.NetworkConnections.exe)
 
-    ![773_13_image-20201225195625-13](/img/product_docs/policypak/policypak/startscreentaskbar/773_13_image-20201225195625-13.png)
+    ![773_13_image-20201225195625-13](/img/product_docs/policypak/policypak/startscreentaskbar/773_13_image-20201225195625-13.webp)
 
 - Common Tab
 
   - Check "Remove this item when it is no longer applied"
 
-    ![773_14_image-20201225195625-14_409x165](/img/product_docs/policypak/policypak/startscreentaskbar/773_14_image-20201225195625-14_409x165.png)
+    ![773_14_image-20201225195625-14_409x165](/img/product_docs/policypak/policypak/startscreentaskbar/773_14_image-20201225195625-14_409x165.webp)
 
 __Step 5 –__ Click OK to close the window
 

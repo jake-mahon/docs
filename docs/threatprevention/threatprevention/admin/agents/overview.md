@@ -13,7 +13,7 @@ See the [Deploy Agents](/docs/threatprevention/threatprevention/admin/agents/dep
 
 Click __Agents__ in the left pane to open the Agents interface.
 
-![Agents Interface](/img/product_docs/threatprevention/threatprevention/admin/agents/agentsinterface.png)
+![Agents Interface](/img/product_docs/threatprevention/threatprevention/admin/agents/agentsinterface.webp)
 
 ## Agents Data Grid
 
@@ -27,7 +27,7 @@ The upper-right corner of the data grid displays the Agent tally, indicating the
   - Last Agent to Manager Communication – Last change event sent from the Agent to the Enterprise Manager
   - Last Agent Heartbeat – Last time the Enterprise Manager received a heartbeat from the Agent
 
-    ![Warning Symbol for an Agent](/img/product_docs/threatprevention/threatprevention/admin/agents/warningsymbol.png)
+    ![Warning Symbol for an Agent](/img/product_docs/threatprevention/threatprevention/admin/agents/warningsymbol.webp)
   - AD Event Latency – Time difference between when the event was detected by the Agent and when the Enterprise Manager received it
 
     __NOTE:__ When the __Send Latency Alerts__ option is enabled in the [Event Filtering Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/eventfilteringconfiguration.md), a warning symbol appears to indicate excessive latency. This warning symbol also appears when the Agent fails to load the instrumentation DLL, SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor DLL), into the LSASS process or when it fails to load the instrumentation DLL to MS Exchange.
@@ -36,7 +36,7 @@ The upper-right corner of the data grid displays the Agent tally, indicating the
   __NOTE:__ You can use the FSMO roles information in combination with a policy created for the [FSMO Role Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/fsmorolemonitoring.md) to view events about which machine acquired a FSMO role and which machine relinquished it.
 - Operating System – Operating system for the machine where the Agent is deployed with version information, including service pack details. For example, Windows Server 2022 Standard.. For example, Windows Server 2019 Standard
 
-  ![Agents Interface - Agent Statuses](/img/product_docs/threatprevention/threatprevention/admin/agents/agentstatuses.png)
+  ![Agents Interface - Agent Statuses](/img/product_docs/threatprevention/threatprevention/admin/agents/agentstatuses.webp)
 - Status – the Agent’s current status:
 
   - Active (green) – The Agent is actively monitoring/blocking events and communicating with the Enterprise Manager
@@ -76,20 +76,20 @@ The following icons above the data grid enable you to perform various actions on
 
 | Icon | Label | Action |
 | --- | --- | --- |
-| ![Agents Interface - Export Agent List icon](/img/product_docs/threatprevention/threatprevention/admin/agents/exporticon.png) | Export Agent List… | Save the information to an XML file for export |
-| ![Agents Interface - Refresh Agent List icon](/img/product_docs/threatprevention/threatprevention/admin/agents/refreshicon.png) | Refresh Agent List… | Refresh the Agent information |
-| ![Agents Interface - Update Logging Levels icon](/img/product_docs/threatprevention/threatprevention/admin/agents/updateloggingicon.png) | Update Logging Levels… | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/loglevelconfiguration.md). |
-| ![Agents Interface - Get Agent Log icon](/img/product_docs/threatprevention/threatprevention/admin/agents/getagentlogicon.png) | Get Agent Log… | Access Agent log files. See the [Access Agent Log Files](/docs/threatprevention/threatprevention/admin/agents/window/loglevelconfiguration.md#access-agent-log-files) topic for additional information. |
-| ![Agents Interface - Update Agent Installer icon](/img/product_docs/threatprevention/threatprevention/admin/agents/updateinstallericon.png) | Update Agent Installer | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/docs/threatprevention/threatprevention/admin/agents/window/agentinstallerupdate.md). |
-| ![Agents Interface - Configure Auto Deploy icon](/img/product_docs/threatprevention/threatprevention/admin/agents/autodeployicon.png) | Configure Auto Deploy | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/docs/threatprevention/threatprevention/admin/agents/window/configureautodeploy.md). |
-| ![Agents Interface - Agent Enrollment Secret icon](/img/product_docs/threatprevention/threatprevention/admin/agents/enrollmentsecreticon.png) | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md). |
-| ![Agents Interface - Deploy Agent icon](/img/product_docs/threatprevention/threatprevention/admin/agents/deployagent.png) | Deploy Agent | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/docs/threatprevention/threatprevention/admin/agents/deploy/overview.md) topic for additional information. |
+| ![Agents Interface - Export Agent List icon](/img/product_docs/threatprevention/threatprevention/admin/agents/exporticon.webp) | Export Agent List… | Save the information to an XML file for export |
+| ![Agents Interface - Refresh Agent List icon](/img/product_docs/threatprevention/threatprevention/admin/agents/refreshicon.webp) | Refresh Agent List… | Refresh the Agent information |
+| ![Agents Interface - Update Logging Levels icon](/img/product_docs/threatprevention/threatprevention/admin/agents/updateloggingicon.webp) | Update Logging Levels… | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/loglevelconfiguration.md). |
+| ![Agents Interface - Get Agent Log icon](/img/product_docs/threatprevention/threatprevention/admin/agents/getagentlogicon.webp) | Get Agent Log… | Access Agent log files. See the [Access Agent Log Files](/docs/threatprevention/threatprevention/admin/agents/window/loglevelconfiguration.md#access-agent-log-files) topic for additional information. |
+| ![Agents Interface - Update Agent Installer icon](/img/product_docs/threatprevention/threatprevention/admin/agents/updateinstallericon.webp) | Update Agent Installer | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/docs/threatprevention/threatprevention/admin/agents/window/agentinstallerupdate.md). |
+| ![Agents Interface - Configure Auto Deploy icon](/img/product_docs/threatprevention/threatprevention/admin/agents/autodeployicon.webp) | Configure Auto Deploy | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/docs/threatprevention/threatprevention/admin/agents/window/configureautodeploy.md). |
+| ![Agents Interface - Agent Enrollment Secret icon](/img/product_docs/threatprevention/threatprevention/admin/agents/enrollmentsecreticon.webp) | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md). |
+| ![Agents Interface - Deploy Agent icon](/img/product_docs/threatprevention/threatprevention/admin/agents/deployagent.webp) | Deploy Agent | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/docs/threatprevention/threatprevention/admin/agents/deploy/overview.md) topic for additional information. |
 
 ## Right-Click Menu
 
 A right-click menu is available for each row in the data grid. Options not applicable to the selected Agent are grayed-out.
 
-![Agents Interface - Right-Click Menu](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.png)
+![Agents Interface - Right-Click Menu](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.webp)
 
 The right-click menu contains the following selections:
 

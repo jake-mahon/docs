@@ -24,7 +24,7 @@ The Priority property controls the order in which entity types are displayed in 
 
 By default, the entity type with the highest priority is selected first. The end user can later change the selection using the top-left dropdown.
 
-![Change Selection](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.png)
+![Change Selection](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.webp)
 
 Priorities are integer values, positive or negative. The most important priority is assigned to the lowest value.
 

@@ -22,4 +22,4 @@ Configuration of all administrative and user settings is performed here. Select 
 
 ![Graphical user interface, website
 
-Description automatically generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_23.png)
+Description automatically generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_23.webp)

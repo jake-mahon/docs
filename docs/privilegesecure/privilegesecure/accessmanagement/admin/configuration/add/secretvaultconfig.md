@@ -10,7 +10,7 @@ __Step 1 –__ Navigate to the Policy > Resources page.
 
 __Step 2 –__ Click the Plus icon and select New Secret Vault from the drop-down list.
 
-![Add secrete Vault Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addsecretvault.png)
+![Add secrete Vault Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addsecretvault.webp)
 
 __Step 3 –__ Enter the following information:
 
@@ -48,7 +48,7 @@ __Step 1 –__ Navigate to the Policy > Access Policies page.
 
 __Step 2 –__ In the Access Policy list, click the Plus icon.
 
-![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.png)
+![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
 __Step 3 –__ Enter the following information:
 

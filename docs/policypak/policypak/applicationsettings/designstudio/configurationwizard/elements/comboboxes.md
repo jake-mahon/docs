@@ -2,13 +2,13 @@
 
 Combo boxes inside applications allow for you to choose one item in a set of many items. In this example, the combo box has four valid items, as shown in Figure 135.
 
-![configuring_elements_using_28_624x275](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_28_624x275.png)
+![configuring_elements_using_28_624x275](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_28_624x275.webp)
 
 Figure 135. An example of a combo box.
 
 In the example in Figure 136, however, Endpoint Policy Manager DesignStudio brought in six entries.
 
-![configuring_elements_using_29](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_29.png)
+![configuring_elements_using_29](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_29.webp)
 
 Figure 136. An incorrect number of entries has been brought in by DesignStudio.
 
@@ -21,6 +21,6 @@ You can adjust for this in two ways:
 
 You can see the "Skip and remove this item" selection in Figure 137. This will remove the incorrect entry from the List Collection Editor for the combo box.
 
-![configuring_elements_using_30](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_30.png)
+![configuring_elements_using_30](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_30.webp)
 
 Figure 137. Removing the incorrect entry.

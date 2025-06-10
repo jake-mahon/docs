@@ -93,15 +93,15 @@ __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
 __Step 3 –__ On the Data Source tab, select __Configure__. The Active Directory Activity DC wizard opens.
 
-![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.png)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.webp)
 
 __Step 4 –__ On the Category page, choose __Import from Share__ option and click __Next__.
 
-![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.png)
+![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.webp)
 
 __Step 5 –__ On the Share page, provide the UNC path to the AD Activity share archive location. If there are multiple archives in the same network share, check the __Include Sub-Directories__ box. Click __Next__.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 __Step 6 –__ On the Scope page, set the Timespan as desired. There are two options:
 

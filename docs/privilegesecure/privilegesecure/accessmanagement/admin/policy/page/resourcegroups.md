@@ -2,7 +2,7 @@
 
 The Resources Groups page is accessible from the Navigation pane under Resources. It shows the configured all configured resource groups and their details. Resources can be organized into groups to make it easier to manage common settings across them.
 
-![Resource Groups Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcegroupspage.png)
+![Resource Groups Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcegroupspage.webp)
 
 The pane on the left side of the page displays a list of the configured resource groups. This pane has the following features:
 

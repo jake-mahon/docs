@@ -25,7 +25,7 @@ _Remember,_ the Activity Agent must be deployed to a Windows server that acts as
 
 Ensure that the correct network adapter is specified in the Network page for an agent before adding a Nutanix file server to be monitored.
 
-![nutanixnetworkadapter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixnetworkadapter.png)
+![nutanixnetworkadapter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixnetworkadapter.webp)
 
 The agent registers the IP address of the network adapter in the Nutanix auditing configuration for activity delivery. Nutanix Files server connects to the agent using the TCP port 4501. See the [Network Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/network.md) topic for additional information.
 
@@ -35,15 +35,15 @@ Follow the steps to add a Nutanix files host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click __Add__. The Add New Host window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.png)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
 
 __Step 2 –__ On the Choose Agent page, select the Agent to monitor the file server from the drop-down list. Click __Next__.
 
-![Add Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost02.png)
+![Add Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost02.webp)
 
 __Step 3 –__ On the Add Host page, select the __Nutanix Files__ radio button and enter the file server name. Click __Next__.
 
-![Nutanix Options](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_04.png)
+![Nutanix Options](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_04.webp)
 
 __Step 4 –__ On the Nutanix Options page, enter the user name and password.
 
@@ -57,13 +57,13 @@ __NOTE:__ The credentials used on the Nutanix Options page are for the Nutanix u
 
 Click __Next__.
 
-![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_05.png)
+![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_05.webp)
 
 __Step 5 –__ On the Configure Operations page, select the File Operations and Directory Operations to be monitored.
 
 Click __Next__.
 
-![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_06.png)
+![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_06.webp)
 
 __Step 6 –__ On the Configure Basic Operations page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the agent's server. Select one of the following options:
 
@@ -76,13 +76,13 @@ __Step 6 –__ On the Configure Basic Operations page, choose which settings to 
 
 Click __Next__.
 
-![Where to log the activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.png)
+![Where to log the activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a Log File or Syslog Server. Click __Next__.
 
 __NOTE:__ An option must be selected before moving to the next step.
 
-![File Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_08.png)
+![File Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_08.webp)
 
 __Step 8 –__ If Log File is selected on the Where To Log The Activity page, configure the File Output page.
 
@@ -99,7 +99,7 @@ __Step 8 –__ If Log File is selected on the Where To Log The Activity page, c
 
 Click __Next__.
 
-![Syslog Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.png)
+![Syslog Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
 
 __Step 9 –__ If Syslog Server is selected on the Where To Log The Activity page, configure the Syslog Output page.
 
@@ -120,7 +120,7 @@ __Step 9 –__ If Syslog Server is selected on the Where To Log The Activity pag
 
 Click __Finish__.
 
-![nutanixoptions_10](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_10.png)
+![nutanixoptions_10](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_10.webp)
 
 The added Nutanix host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

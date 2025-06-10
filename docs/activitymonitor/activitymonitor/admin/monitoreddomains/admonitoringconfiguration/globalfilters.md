@@ -2,7 +2,7 @@
 
 The Global Filters options are for excluding specific Active Directory and Authentication events from being monitored.
 
-![Global Filters Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.png)
+![Global Filters Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.webp)
 
 The filter options are grouped by AD Global Pre-Filters, and Authentication Global Pre-Filters. Check the boxes to activate the filters. To disable for diagnostic purposes, simply uncheck the option(s) and click OK. All Authentication Global Pre-Filters options require configuration before they can be enabled.
 
@@ -59,7 +59,7 @@ This option is enabled by default to filter out DNS events. They must meet both 
 
 This option is enabled by default to filter out machine logins. Click the configure link to open the Edit Accounts window.
 
-![Edit Accounts window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeloginsmachineaccounts.png)
+![Edit Accounts window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeloginsmachineaccounts.webp)
 
 The Exclude Logins from Machine Accounts collection is only accessible for configuration through the Global Filters tab.
 
@@ -77,7 +77,7 @@ Windows Server 2012 introduced gMSA (Group Managed Service Accounts). The accoun
 
 This option is disabled by default as it requires configuration before it can be enabled. Click the selected hosts link to open the Edit Hosts window.
 
-![edithostsexcludeselectedhosts](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/edithostsexcludeselectedhosts.png)
+![edithostsexcludeselectedhosts](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/edithostsexcludeselectedhosts.webp)
 
 The Exclude Authentication Events from selected hosts collection is only accessible for configuration through the Global Filters tab. All three methods of identification for a host (IP Address, NETBIOS host name, or DNS host name) must be known in order to effectively exclude authentication from the host. Identify the host to be excluded in the textbox of the IP Address column and press the Enter or Tab to add another row on the grid. Activity Monitor attempts to discover the NETBIOS host name and the DNS host name associated with the supplied IP Address.
 
@@ -87,7 +87,7 @@ Repeat the process until all hosts for which Authentication event data will not 
 
 This option is disabled by default as it requires configuration before it can be enabled. Click the selected accounts link to open the Edit Accounts window.
 
-![editaccountsexcludeauthenticationselectedaccounts](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeauthenticationselectedaccounts.png)
+![editaccountsexcludeauthenticationselectedaccounts](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeauthenticationselectedaccounts.webp)
 
 The Exclude Authentication Events from selected accounts collection is only accessible for configuration through the Global Filtering tab. Account names [domain name\account] can also be typed in the textbox. Wild cards (\*) can be used as part of either the domain name or account. An asterisk (\*) appearing anywhere other than as the first character or the last character are treated as a literal character instead of as a wild card.
 

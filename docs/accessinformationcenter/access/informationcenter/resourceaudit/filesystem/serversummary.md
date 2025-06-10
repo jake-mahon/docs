@@ -2,7 +2,7 @@
 
 The Server Summary report at the __File System__ node provides a top-level view of servers that have been scanned.
 
-![Server Summary report at the File System node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.png)
+![Server Summary report at the File System node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.webp)
 
 This report is comprised of the following columns:
 

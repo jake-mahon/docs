@@ -2,7 +2,7 @@
 
 A subscription sends the report results for an investigation to recipients via email as an attachment. An export puts the report results for an investigation into a desired format. The Subscriptions and Exports page provides a list of investigations that are either subscribed to or scheduled for export.
 
-![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.png)
+![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.webp)
 
 The table has the following columns:
 
@@ -25,7 +25,7 @@ See the [Add Subscription](/docs/threatmanager/threatmanager/administration/inve
 
 The table has several features accessed through the menu button that appears when you hover over a column header.
 
-![Table column menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/tableoptions.png)
+![Table column menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/tableoptions.webp)
 
 In addition to the arrow that appears to sort the table in ascending or descending order, the menu contains the following options:
 
@@ -43,7 +43,7 @@ In addition to the arrow that appears to sort the table in ascending or descendi
 
 The Table Filter window opens from the table column menu.
 
-![Table Filter window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/filterwindow.png)
+![Table Filter window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/filterwindow.webp)
 
 Follow the steps to build a filter statement.
 
@@ -61,7 +61,7 @@ The table is filtered to matches of the filter.
 
 The Actions column holds a menu with actions that apply to the selected subscription or export.
 
-![Actions menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexportsactions.png)
+![Actions menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexportsactions.webp)
 
 The options include:
 

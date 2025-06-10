@@ -8,7 +8,7 @@ Assigned Profile
 
 All the permissions for accessing items and performing actions in Identity Manager are managed by assigning profiles to users and permissions to profiles.
 
-![Schema - Profile Assignment](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_schema.png)
+![Schema - Profile Assignment](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
 
 > For example, access to user lists with personal data is usually restricted to HR staff, and the modification of personal data would be restricted to HR managers.
 
@@ -57,12 +57,12 @@ Configure a user profile by proceeding as follows:
 
 1. On the home page, click on __Settings__ in the __Configuration__ section, then on __General__ > __Profiles__ in the left menu.
 
-   ![Home - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+   ![Home - Configuration](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 2. Check whether the profile to configure is part of the provided list. If not, create it by clicking on the addition button at the top right and fill in the fields.
 
    ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
-   ![New Profile](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_creation_v602.png)
+   ![New Profile](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_creation_v602.webp)
 
    - ```Identifier```: must be unique among profiles and without any whitespace.
    - ```Name```: will be displayed in the UI to identify the profile.
@@ -71,7 +71,7 @@ Configure a user profile by proceeding as follows:
 3. Access the page for profile configuration by clicking on __Workforce__ > __Profiles & Permissions__ in the left menu.
 4. Follow Identity Manager's instructions for assigning permissions to the profile by clicking on the appropriate permissions, one by one, selecting if needed their responsibility scope.
 
-   ![Profile Configuration Example](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_example_v603.png)
+   ![Profile Configuration Example](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_example_v603.webp)
 5. Click on __Save__ at the top of the page.
 
    ![Save Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)

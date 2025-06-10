@@ -17,11 +17,11 @@ To open the Package Usage tool:
 
 1. Select __Tools__ > __User Activity__ from the Netwrix Dashboard page.
 
-   ![User Activity tool](/img/product_docs/strongpointforsalesforce/tools/user_activity.png)
+   ![User Activity tool](/img/product_docs/strongpointforsalesforce/tools/user_activity.webp)
 2. Click the arrow in the left margin to expand the menu pane.
 3. Click __Package Usage Tool__ in the menu.
 
-   ![Package Usage tool](/img/product_docs/strongpointforsalesforce/tools/package_usage.png)
+   ![Package Usage tool](/img/product_docs/strongpointforsalesforce/tools/package_usage.webp)
 4. Click __Run Scanner__ to ensure you have the latest data.
 
 You can filter by package, usage and user. Use __Export Details__ to generate a __.xlsx__ file.

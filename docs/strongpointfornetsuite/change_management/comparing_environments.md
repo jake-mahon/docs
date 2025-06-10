@@ -13,10 +13,10 @@ Your TBA Credentials only need to be set up once. These are the credentials you
 
 1. Open __Strongpoint__ > __Change Management Tools__ > __Compare Environments__
 
-   ![Set up your TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_1.png)
+   ![Set up your TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_1.webp)
 2. Click New (__+__) beside the __Source__ field.
 
-   ![TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_2.png)
+   ![TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_2.webp)
 3. Enter the information for the environment:
 
    - __Name__ enter the environment name.
@@ -37,7 +37,7 @@ Token-based authentication (TBA) is required by NetSuite. Follow the steps in t
 
 1. Open __Strongpoint__ > __Change Management Tools__ > __Compare Environments__
 
-   ![Compare Environments](/img/product_docs/strongpointfornetsuite/change_management/comp_env.png)
+   ![Compare Environments](/img/product_docs/strongpointfornetsuite/change_management/comp_env.webp)
 2. Enter the information for the target account and source accounts. Tokens are persistent between your sessions.
 
 Here are the field and filter options.
@@ -133,15 +133,15 @@ In this example, __Cash Register__ appears in both environments.
 
 On the __Source__ tab:
 
-![Source target](/img/product_docs/strongpointfornetsuite/change_management/comp_env_source.png)
+![Source target](/img/product_docs/strongpointfornetsuite/change_management/comp_env_source.webp)
 
 On the __Target__ tab:
 
-![compare_accounts_-_target_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_target_ss.png)
+![compare_accounts_-_target_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_target_ss.webp)
 
 On the __Diff__ tab:
 
-![compare_accounts_-_diff_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_ss.png)
+![compare_accounts_-_diff_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_ss.webp)
 
 ### Search Exists in Only One Environment
 
@@ -149,4 +149,4 @@ In this example, __Special Scheme Code__ body field only exists in the __Target_
 
 On the __Diff__ tab:
 
-![compare_accounts_-_diff_only_one_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_only_one_ss.png)
+![compare_accounts_-_diff_only_one_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_only_one_ss.webp)

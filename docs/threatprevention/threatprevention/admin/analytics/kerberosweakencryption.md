@@ -30,7 +30,7 @@ The Configure Analytics window has one tab:
 
 Policy Tab
 
-![Kerberos Weak Encryption Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Kerberos Weak Encryption Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -51,7 +51,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Kerberos Weak Encryption__ node lists one row per incident identified.
 
-![kerberosweakencryption](/img/product_docs/threatprevention/threatprevention/admin/analytics/kerberosweakencryption.png)
+![kerberosweakencryption](/img/product_docs/threatprevention/threatprevention/admin/analytics/kerberosweakencryption.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

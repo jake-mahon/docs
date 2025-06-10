@@ -6,7 +6,7 @@ This page is about [
 SAP S/4 HANA
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/saphana/index.md).
 
-![Package: ERP/SAP S/4 HANA](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.png)
+![Package: ERP/SAP S/4 HANA](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.webp)
 
 ## Overview
 

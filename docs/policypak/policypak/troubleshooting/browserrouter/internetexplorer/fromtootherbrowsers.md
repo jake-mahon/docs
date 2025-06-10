@@ -12,7 +12,7 @@ __Step 1 –__ Test on one or two machines and ensure this is ON as seen here.
 
 __Step 2 –__ Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE to other browsers
 
-![415_1_image0014](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_1_image0014.png)
+![415_1_image0014](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/415_1_image0014.webp)
 
 (Old: Not needed anymore; here for archival purposes…
 

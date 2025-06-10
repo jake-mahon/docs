@@ -4,7 +4,7 @@ The Activity Groups page is accessible from the Navigation pane under Activities
 
 Activities are for singular activities based on a specific platform whereas Activity Groups can be used for cross platform activities such as granting local administrator access. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
-![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.png)
+![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 The pane on the left side of the page displays a list of the configured activity group. This pane has the following features:
 

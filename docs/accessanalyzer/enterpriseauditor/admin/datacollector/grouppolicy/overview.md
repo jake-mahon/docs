@@ -34,6 +34,6 @@ The GroupPolicy Data Collector is configured through the Group Policy Data Colle
 - [GroupPolicy: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/options.md)
 - [GroupPolicy: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/summary.md)
 
-![Group Policy Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Group Policy Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

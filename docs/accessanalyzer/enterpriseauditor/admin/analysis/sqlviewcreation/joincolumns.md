@@ -4,7 +4,7 @@ Use the Join Columns page to select a column from each source table to join toge
 
 __NOTE:__ The SQLViewCreation analysis module can join two tables, using a simple equi-join condition of two predicates. For composite joins with two or more tables using a conjunction of predicates, use the SQLscripting analysis module. See the [SQLscripting Analysis Module](/docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscripting.md) topic for additional information.
 
-![View and Table Creation Analysis Module wizard Join Columns page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.png)
+![View and Table Creation Analysis Module wizard Join Columns page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.webp)
 
 Use the __Table 1 join property__ and __Table 2 join property__ fields to select join predicates from both tables. Join predicates are columns containing analogous values that are used to match records in referenced tables.
 

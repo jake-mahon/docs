@@ -7,7 +7,7 @@ The Azure Tenant Mapping page is where the target domain or Tenant ID are config
 
 Remember, select the __Enable scanning of files protected by Azure Information Protection__ checkbox on the [FSAA: Scan Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.md) page to enable this page in the data collector wizard. In order for FSAA to scan files protected by AIP, ensure that the prerequisites are met and an Azure Connection Profile is successfully created. See the [Azure Information Protection Target Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/target/config/azureinformationprotection.md) topic for additional information on configuring the File System solution to scan for AIP labels.
 
-![FSAA Data Collector Wizard Azure Tenant Mapping page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.png)
+![FSAA Data Collector Wizard Azure Tenant Mapping page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.webp)
 
 Populate this page with the App ID (created during prerequisites) and a domain name or Tenant ID for an Azure environment. These values must be associated with each application ID in the Azure Connection Profile.
 

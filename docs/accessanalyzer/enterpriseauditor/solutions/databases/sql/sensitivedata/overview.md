@@ -2,7 +2,7 @@
 
 The 5.Sensitive Data Job Group provides information on where sensitive data exists, and who has access to that sensitive data, across all targeted SQL and Azure SQL server databases.
 
-![5.Sensitive Data Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sqljobgroup46.png)
+![5.Sensitive Data Job Group](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sqljobgroup46.webp)
 
 The jobs in the 5.Sensitive Data Job Group are:
 

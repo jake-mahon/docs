@@ -2,7 +2,7 @@
 
 At this step, you can specify whether workflow actions should be performed with the classified documents only, or with any documents from the content source, etc.
 
-![workflow_step3_condition](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_condition.png)
+![workflow_step3_condition](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_condition.webp)
 
 The following options are available:
 
@@ -43,11 +43,11 @@ Then verify that configured filters are displayed properly:
 
 - Including filters (i.e. instructing to include documents with classification tag you selected) are colored blue:
 
-![workflow_step3_filter_blue_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_blue_thumb_0_0.png)
+![workflow_step3_filter_blue_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_blue_thumb_0_0.webp)
 
 - Excluding filters (i.e. instructing to include documents without classification tag you selected) are colored red:
 
-![workflow_step3_filter_red_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_red_thumb_0_0.png)
+![workflow_step3_filter_red_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_red_thumb_0_0.webp)
 
 If you have selected more than one filter, you will be prompted what logic should be used when applying the filters:
 
@@ -64,7 +64,7 @@ For example, you want your workflow to process all PDF files from the selected c
 4. In the __Details__ dialog, from the __Taxonomy__ list select __File Type__.
 5. Then from the list of file types select __PDF__ and click __OK__.
 
-![workflow_step3_example_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example_thumb_0_0.png)
+![workflow_step3_example_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example_thumb_0_0.webp)
 
 After you get back to the wizard, the PDF filter will appear under the __Classified__ option, colored blue (indicating this filter is including).
 
@@ -82,4 +82,4 @@ For example, you want your workflow to process all classified documents from the
 8. Under the __Require all conditions?__ prompt select __Any__ — for OR logic to be applied, so that any HTML or XML file should be excluded (in other words, the workflow will be applied only to the files not classified as HTML or XML).
 9. Finally, click __Next__ to proceed.
 
-![workflow_step3_example2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example2_thumb_0_0.png)
+![workflow_step3_example2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example2_thumb_0_0.webp)

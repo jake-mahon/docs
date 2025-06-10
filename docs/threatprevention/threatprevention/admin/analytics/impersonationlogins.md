@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentloginssettings.png)
+![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentloginssettings.webp)
 
 Set the Number of Accounts and the Interval Duration to trigger the incident. The interval duration is set for (hours:minutes) and is capped at 23:59. When the specified number of account credentials different from those used to log into the originating host have accessed services, applications, remote connections, etc. within the specified interval duration, it will trigger an incident record.
 
@@ -41,7 +41,7 @@ By default, authentication event data is cached in memory for 24 hours. When an 
 
 Policy Tab
 
-![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -62,7 +62,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Impersonation Logins__ node lists one row per incident identified.
 
-![Impersonation Logins Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/impersonationlogins.png)
+![Impersonation Logins Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/impersonationlogins.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

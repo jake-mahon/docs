@@ -42,7 +42,7 @@ dir cert:\localmachine\my
 
 __Step 3 –__ Open the __WebServer.exe.config__ file with a text editor, for example Notepad. It is located within the Web folder of the Access Analyzer installation directory.
 
-![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfig.png)
+![WebServer.exe.config file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webserverexeconfig.webp)
 
 __Step 4 –__ Change the value for the ```BindingUrl``` parameter from ```http``` to ```https```:
 
@@ -76,7 +76,7 @@ Follow the steps to update the Website URL in the __Settings__ > __Reporting__ n
 
 __Step 1 –__ Expand __Settings__ and select the __Reporting__ node.
 
-![Access Governance Reporting Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/websiteurlreporting.png)
+![Access Governance Reporting Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/websiteurlreporting.webp)
 
 __Step 2 –__ In the __Website URL__ box, update the URL to: ```https://[hostname.domain.com]:8082```
 
@@ -90,7 +90,7 @@ Follow the steps to update the URL in the Published Reports desktop icon's Publi
 
 __Step 1 –__ Right click on the __Published Reports__ desktop shortcut and click __Properties__.
 
-![Published Reports desktop icon properties](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/publishedreportsproperties.png)
+![Published Reports desktop icon properties](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/publishedreportsproperties.webp)
 
 __Step 2 –__ On the __Web Document__ tab, update the __URL__ in the text box to: ```https://localhost:8082/```
 
@@ -136,15 +136,15 @@ Creation and import of the self-signed certificate can be validated in Microsoft
 
 __Step 1 –__ Open Microsoft Management Console (```mmc.exe```).
 
-![Microsoft Management Console Certificates snap-in](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateaddsnapin.png)
+![Microsoft Management Console Certificates snap-in](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateaddsnapin.webp)
 
 __Step 2 –__ Select __File__ > __Add/Remove Snap-in__. The Add or Remove Snap-ins window opens. Select __Certificates__, and click __Add__. Then select __Computer account__ in the Certificates snap-in window.
 
-![Microsoft Management Console Certificates snap-in Select Computer dialog](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateselectcomputer.png)
+![Microsoft Management Console Certificates snap-in Select Computer dialog](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateselectcomputer.webp)
 
 __Step 3 –__ Click __Next__ and select __Local computer__. Click __Finish__.
 
-![Microsoft Management Console Certificates Add or Remove Snap-ins window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatesnapins.png)
+![Microsoft Management Console Certificates Add or Remove Snap-ins window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatesnapins.webp)
 
 __Step 4 –__ The certificate will appear in the Selected snap-ins list in the Add or Remove Snap-ins window. Click __OK__ to close the window.
 
@@ -160,30 +160,30 @@ Follow the steps to remove the certificate error.
 
 __Step 1 –__ Open the Web Console in your browser.
 
-![Your connection isn't private warning in Microsoft Edge](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateconnectionnotprivate.png)
+![Your connection isn't private warning in Microsoft Edge](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateconnectionnotprivate.webp)
 
 __Step 2 –__ Click __Advanced__, and then use the link to continue to the site. This loads the main page of the Web Console.
 
-![Access Certificat Viewer from Not Secure error in Microsoft Edge address bar](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatenotsecureerror.png)
+![Access Certificat Viewer from Not Secure error in Microsoft Edge address bar](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatenotsecureerror.webp)
 
 __Step 3 –__ Click the  __Not Secure__ warning in the browser's address bar. Open the Certificate Viewer from the warning details.
 
 - In Microsoft Edge, click the __Your Connection to this site isn't secure__ section, and then click the certificate icon.
 - In Google Chrome, click __Certificate is not valid__.
 
-![Web browser Certificate Viewer window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateviewer.png)
+![Web browser Certificate Viewer window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateviewer.webp)
 
 __Step 4 –__ On the Details tab of the Certificate Viewer, click __Export__. Save the security certificate and close the Certificate Viewer.
 
-![Certificate window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatewindow.png)
+![Certificate window](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificatewindow.webp)
 
 __Step 5 –__ Navigate to the save location from the previous step and open the exported security certificate. On the Certificate window, click __Install Certificate__. The Certificate Import Wizard opens.
 
-![Certificate Import Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateimportwizard.png)
+![Certificate Import Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/certificateimportwizard.webp)
 
 __Step 6 –__  On the Certificate Import Wizard, select the Store Location as __Local Machine__, and click __Next__. Keep the default selection of __Automatically select the certificate store based on the type of certificate__. Navigate through the wizard to save this configuration. A pop-up message should state that the import was successful. Click __OK__ to close out all dialogs.
 
-![Microsoft Management Console Trusted Root Certification Authorities Certificates](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/addcertificateconsole.png)
+![Microsoft Management Console Trusted Root Certification Authorities Certificates](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/addcertificateconsole.webp)
 
 __Step 7 –__ In the Microsoft Management Console, check the __Trusted Root Certification Authorities__ > __Certificates__. The self-signed certificate should now be listed there.
 

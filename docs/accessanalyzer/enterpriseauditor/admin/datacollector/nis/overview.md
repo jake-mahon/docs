@@ -27,6 +27,6 @@ The NIS Data Collector is configured through the NIS Data Collector Wizard, whic
 - [NIS: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/results.md)
 - [NIS: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/summary.md)
 
-![NIS Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![NIS Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

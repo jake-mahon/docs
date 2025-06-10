@@ -2,7 +2,7 @@
 
 The Notification node is where email notifications are configured. Emails can be sent from the Access Analyzer Console for a variety of purposes: reports on collected data, change detection alerts, conformance analysis notification, and more.
 
-![Global Settings Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.png)
+![Global Settings Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.webp)
 
 To enable notifications from the Access Analyzer Console, a mail server must be configured for Access Analyzer to employ for sending emails.
 
@@ -16,7 +16,7 @@ The __Cancel__ and __Save__ buttons are in the lower-right corner of the Notific
 
 The Mail Server section at the top of the page is where an organization’s SMTP Server information is provided.
 
-![Mail Server settings on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.png)
+![Mail Server settings on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)
 
 Provide the following information to enable notifications from Access Analyzer.
 
@@ -47,7 +47,7 @@ The credentials for Mail Server authentication account have been updated and com
 
 The Sender Information section is where the sender information is provided.
 
-![Sender Information section on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/senderinformation.png)
+![Sender Information section on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/senderinformation.webp)
 
 Configure the sender information for all Access Analyzer notifications. Since this is a global settings, any recipients configured at this level receive all notifications sent from Access Analyzer, and are sent to this recipient list unless inheritance is broken at the job group or job level.
 
@@ -58,7 +58,7 @@ Configure the sender information for all Access Analyzer notifications. Since th
 
 The Email Content section is where the recipient information is provided.
 
-![Email Content section on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/emailcontent.png)
+![Email Content section on Notification page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/emailcontent.webp)
 
 - To / CC / BCC – Enter the email addresses for the recipients of the email notifications. Use a semicolon (;) to separate multiple recipients.
   - Recipients listed at this global level receive all email notifications sent by Access Analyzer unless inheritance is broken at the job group or job levels
@@ -67,18 +67,18 @@ The Email Content section is where the recipient information is provided.
 
 Once the global __Notification__ settings have been configured, it is recommended to send a test email to ensure proper configuration. This verifies all settings are correct and email is received as expected.
 
-![Test Email Settings button](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/test.png)
+![Test Email Settings button](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/test.webp)
 
 The Test Email Settings button sends a test email to the recipient list. It is recommended that you test by sending an email to yourself. Once all Notification settings are configured, click the __Test Email Settings__ button.
 
-![Test email sent successfully message](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testsuccess.png)
+![Test email sent successfully message](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testsuccess.webp)
 
 A message displays stating that the test e-mail was sent successfully.
 
-![Test email error message example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testerror.png)
+![Test email error message example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testerror.webp)
 
 __NOTE:__ If there are any problems with the information, an error message will appear during the Test Email settings process. Correct the Notification settings until the test email is sent successfully.
 
-![Netwrix Enterprise Auditor test e-mail](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testemail.png)
+![Netwrix Enterprise Auditor test e-mail](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/testemail.webp)
 
 This email is sent to all recipients when the __Test Email settings__ link is clicked. When the Notification settings are configured, click __Save__ and then __Ok__ to complete the configuration.

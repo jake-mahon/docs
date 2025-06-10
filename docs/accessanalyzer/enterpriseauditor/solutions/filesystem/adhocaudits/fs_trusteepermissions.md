@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS\_Tr
 
 __CAUTION:__ Do not modify or deselect the second selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

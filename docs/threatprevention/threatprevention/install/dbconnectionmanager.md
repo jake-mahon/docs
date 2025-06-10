@@ -12,7 +12,7 @@ __Step 1 –__ Navigate to the following location on the Threat Prevention serve
 
 __Step 2 –__ Double-click __SIDBConfigMgr.exe__ to launch the Netwrix Threat Prevention DB Connection Manager wizard.
 
-![Netwrix Threat Prevention DB Connection Manager wizard](/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.png)
+![Netwrix Threat Prevention DB Connection Manager wizard](/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.webp)
 
 __Step 3 –__ You can update the following:
 

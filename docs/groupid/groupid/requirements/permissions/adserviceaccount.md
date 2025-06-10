@@ -60,16 +60,16 @@ In the __Active Directory Users and Computers__ console:
 1. Select __Advanced Features__ from the __View__ menu.
 2. In the left pane, right-click the domain name or organizational unit and select the __Properties__ option. On the Properties window, select the __Security__ tab.
 
-   ![security_tab](/img/product_docs/groupid/groupid/requirements/permissions/security_tab.png)
+   ![security_tab](/img/product_docs/groupid/groupid/requirements/permissions/security_tab.webp)
 3. Click the __Advanced__ button; the __Advanced Security Settings__ window is displayed.
 
-   ![advsecsettings](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettings.png)
+   ![advsecsettings](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettings.webp)
 4. Click the __Add__ button. The __Permission Entry__ window is displayed.
 
-   ![permissionentry](/img/product_docs/groupid/groupid/requirements/permissions/permissionentry.png)
+   ![permissionentry](/img/product_docs/groupid/groupid/requirements/permissions/permissionentry.webp)
 5. Click the __Select a principal__ link next to __Principal__. The Select User, Computer, Service Account, or Group dialog box is displayed.
 
-   ![select_user](/img/product_docs/groupid/groupid/requirements/permissions/select_user.png)
+   ![select_user](/img/product_docs/groupid/groupid/requirements/permissions/select_user.webp)
 
    Type the name of the service account in the __Enter the object name to select__ box. Click __OK__. The __Permissions Entry__ window is displayed with all fields enabled (see step 4).
 6. In the __Applies to__ box, select __This object and all descendant objects__.
@@ -77,24 +77,24 @@ In the __Active Directory Users and Computers__ console:
 
    1. Scroll down the list of permissions in the __Permissions__ box and select the check boxes for the options shown below:
 
-      ![permissions_list](/img/product_docs/groupid/groupid/requirements/permissions/permissions_list.png)
+      ![permissions_list](/img/product_docs/groupid/groupid/requirements/permissions/permissions_list.webp)
    2. Click __OK__. The granted permissions appear in the __Advanced Security Settings__ window as shown below:
 
-      ![advsecsettingsgrantedpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsgrantedpermissions.png)
+      ![advsecsettingsgrantedpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsgrantedpermissions.webp)
 8. Grant permissions to modify users, contacts, and groups.
 
    1. Click the __Add__ button on the __Advanced Security Settings__ window. The __Permission Entry__ window is displayed (see step 4).
    2. Click the __Select a principal__ link next to Principal. The Select User, Computer, Service Account, or Group dialog box is displayed. Type the name of the service account in the __Enter the object name to select__ box and click __OK__. The __Permissions Entry__ window is displayed.
    3. In the __Applies to__ box, select the __Descendant Contact objects__ option and select the __Full control__ check box in the _Permissions_ area. It is as follows:
 
-      ![fullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/fullcontrolcontact.png)
+      ![fullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/fullcontrolcontact.webp)
    4. Click __OK__. The granted permissions appear in the __Advanced Security Settings__ window as shown below:
 
-      ![advsecsettingsfullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsfullcontrolcontact.png)
+      ![advsecsettingsfullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsfullcontrolcontact.webp)
    5. Repeat steps a – d for __Descendant Group objects__ and __Descendant User objects__ on the Permission Entry window.  
       The service account now has permissions to modify users, contacts, and groups. These permissions appear in the __Advanced Security Settings__ window. It is as shown below:
 
-      ![advsecsettingsreqpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsreqpermissions.png)
+      ![advsecsettingsreqpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsreqpermissions.webp)
 9. Click __OK__.
 
 ### Delegate Exchange Permissions to the New Account:

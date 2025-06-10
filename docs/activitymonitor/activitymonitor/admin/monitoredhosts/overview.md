@@ -44,7 +44,7 @@ This tab is comprised of a button bar and a table of hosts being monitored. A li
 
 The button bar allows users to take the following actions:
 
-![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.png)
+![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.webp)
 
 - Toggle Collapse – Expands and collapses all Monitored Hosts for viewing or hiding host's outputs
 - Add Host – Opens the Add New Host window to configure monitoring of a new host or platform. See the section for instructions on adding the desired target environment.
@@ -88,7 +88,7 @@ For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only
 
 The Status collapsible section located above the Status Bar of the Activity Monitor provides visibility into a host's monitoring state and history of state changes. Host monitoring status is depicted in the Monitored Hosts table under the Status column. Users can expand the Status section to view more information on various status conditions.
 
-![errorpropogationpopulated](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.png)
+![errorpropogationpopulated](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.webp)
 
 Click the __Down Arrow__ to expand the Status section. The information listed is dependent on which host or output is currently selected in the Monitored Hosts table. Users can find information on the __Current State__ of a host, as well as viewing a history of changes in state.
 

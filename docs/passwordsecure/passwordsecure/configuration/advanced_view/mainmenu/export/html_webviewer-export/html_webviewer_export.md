@@ -20,13 +20,13 @@ User right
 
 The __export right__ for the password is configured as normal via the ribbon:
 
-![installation_with_parameters_65](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_65.png)
+![installation_with_parameters_65](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_65.webp)
 
 ## Exporting a HTML file
 
 The __HTML file__ is created on the user\*s client and started in the __Main menu__ under __Export WebViewer__.
 
-![installation_with_parameters_66](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_66.png)
+![installation_with_parameters_66](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_66.webp)
 
 The __HTML WebViewer Wizard__ carries out the \* WebViewer export\*.
 
@@ -48,19 +48,19 @@ __Standard value:__ 60 seconds, user can define the time
 
 Export __WebViewer__ with __user password__ or new freely __definable password__: You can decide here whether to issue a new password for the export.
 
-![installation_with_parameters_67](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_67.png)
+![installation_with_parameters_67](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_67.webp)
 
 - WebViewer export with an Active Directory user
 
 If an __Active Directory user__ is carrying out the __WebViewer__ export, a __password__ needs to be explicitly entered.
 
-![installation_with_parameters_68](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_68.png)
+![installation_with_parameters_68](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_68.webp)
 
 ###### Export filter
 
 The export filter works in the same way as the filters for the modules.
 
-![installation_with_parameters_69](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_69.png)
+![installation_with_parameters_69](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_69.webp)
 
 #### Finish
 
@@ -68,11 +68,11 @@ The information about the exported passwords is displayed in the __Finish__ ribb
 
 button will then create the __HTML__ __file__ in the export path and close the window.
 
-![installation_with_parameters_70](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_70.png)
+![installation_with_parameters_70](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_70.webp)
 
 A subsequent note provides you with information about the export process.
 
-![installation_with_parameters_71](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_71.png)
+![installation_with_parameters_71](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_71.webp)
 
 ## Using the HTML WebViewer file
 
@@ -84,7 +84,7 @@ __CAUTION:__ The login mask is blocked for a period of time if the password is i
 2. User: Predefined
 3. Password: Entered by the user
 
-![Login HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_72-en.png)
+![Login HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_72-en.webp)
 
 ###### Overview
 
@@ -98,7 +98,7 @@ NOTE: Use the password search function in the event of more than 20 passwords!
 4. Copytoclipboard
 5. Reveal
 
-![Entry in HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_73-en.png)
+![Entry in HTML WebViewer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/installation_with_parameters_73-en.webp)
 
 #### Closing the HTML WebViewer overview
 

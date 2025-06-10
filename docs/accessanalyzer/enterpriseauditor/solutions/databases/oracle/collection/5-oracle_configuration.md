@@ -6,7 +6,7 @@ The 5-Oracle\_Configuration Job is designed to return additional configuration s
 
 The queries for the 5-Oracle\_Configuration Job query uses the SQL Data Collector.
 
-![5oracleconfigurationqueries](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/5oracleconfigurationqueries.png)
+![5oracleconfigurationqueries](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/5oracleconfigurationqueries.webp)
 
 The queries are:
 
@@ -25,7 +25,7 @@ __Step 3 –__ Select the Data Source tab and click Configure. The SQL Data Coll
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-![Filters page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/5oracleconfigjobqueryfilterpage.png)
+![Filters page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/5oracleconfigjobqueryfilterpage.webp)
 
 __Step 4 –__ To query for specific databases/instances, navigate to the Filter page. The default query target is All Databases. The default query scope is Only select database objects. Click Retrieve. The Available database objects section will be populated. Databases and instances can be added in the following ways:
 

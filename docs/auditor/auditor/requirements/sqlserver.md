@@ -152,7 +152,7 @@ Follow the steps to change database retention after the product deployment.
 
 __Step 1 –__ In the Auditor main screen, select Settings > Audit Database.
 
-![audit_db_settings](/img/product_docs/auditor/auditor/requirements/audit_db_settings.png)
+![audit_db_settings](/img/product_docs/auditor/auditor/requirements/audit_db_settings.webp)
 
 __Step 2 –__ In the dialog displayed, make sure the Clear stale data when a database retention period is exceeded: is set to ON, then click Modify to specify the required retention period (in days).
 
@@ -174,7 +174,7 @@ __Step 4 –__ Connect to the server.
 
 __Step 5 –__ In the left pane, expand the __Security__ node. Right-click the __Logins__ node and select __New Login__ from the pop-up menu.
 
-![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
+![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 __Step 6 –__ Click __Search__ next to __Login Name__ and specify the user that you want to assign the __`db_owner`__ role to.
 

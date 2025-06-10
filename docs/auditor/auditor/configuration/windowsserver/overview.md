@@ -229,7 +229,7 @@ Follow the steps to monitor custom registry keys.
 
 __Step 1 –__ On the computer where Auditor Server resides, navigate to _%Netwrix Auditor installation folder%\Windows Server Auditing._
 
-![customregistrykeyentry](/img/product_docs/auditor/auditor/configuration/windowsserver/customregistrykeyentry.png)
+![customregistrykeyentry](/img/product_docs/auditor/auditor/configuration/windowsserver/customregistrykeyentry.webp)
 
 __Step 2 –__ Edit the following parameters of the customregistrykeys.txt file:
 
@@ -245,7 +245,7 @@ __Step 3 –__ Consider the following:
 - Wildcards (\* and ?) are supported (except for the ```registry key name``` field). A backslash (\) must be put in front of (\*), (?), (,), and (\) if they are a part of an entry value.
 - Lines that start with the # sign are treated as comments and are ignored.
 
-![customregistrykey](/img/product_docs/auditor/auditor/configuration/windowsserver/customregistrykey.png)
+![customregistrykey](/img/product_docs/auditor/auditor/configuration/windowsserver/customregistrykey.webp)
 
 __NOTE:__ In some cases, __Who__ will be the system and __When__ will be collection time, because there is no necessary event in the Security log with this path.
 

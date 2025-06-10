@@ -2,7 +2,7 @@
 
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted file servers.
 
-![probableownerjobstree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableownerjobstree.png)
+![probableownerjobstree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableownerjobstree.webp)
 
 The 6.Probable Owner Job Group is comprised of:
 
@@ -14,7 +14,7 @@ View the analysis tasks by navigating to the FileSystem > 6.Probable Owner > FS\
 
 __CAUTION:__ Do not modify or deselect the first and third selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableowneranalysis.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableowneranalysis.webp)
 
 The following analysis tasks are selected by default:
 

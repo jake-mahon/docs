@@ -6,7 +6,7 @@ You can choose to view alerts related to analytics configuration and monitoring 
 
 Click __Alerts__ in the left pane to launch the Alerts interface.
 
-![Alerts interface](/img/product_docs/threatprevention/threatprevention/admin/alerts/alertsinterface.png)
+![Alerts interface](/img/product_docs/threatprevention/threatprevention/admin/alerts/alertsinterface.webp)
 
 The following options are available on the toolbar:
 

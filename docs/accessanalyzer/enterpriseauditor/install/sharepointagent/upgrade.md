@@ -2,7 +2,7 @@
 
 Follow the steps to upgrade the SharePoint Agent.
 
-![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.png)
+![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.webp)
 
 __Step 1 –__ From Programs and Features (__Control Panel__ > __Programs__ > __Programs and Features__), uninstall the previous version of SharePoint Agent.
 

@@ -31,17 +31,17 @@ Follow the steps to add a SharePoint Online host to be monitored.
 
 __Step 1 –__ In the Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the Agent to monitor SharePoint Online.
 
 __CAUTION:__ The domain name must match the SharePoint Online host name in order to properly integrate SharePoint Online activity monitoring with Access Analyzer.
 
-![Add Host page with SharePoint Online selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost.png)
+![Add Host page with SharePoint Online selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost.webp)
 
 __Step 3 –__ On the Add Host page, select the SharePoint Online radio button and enter the Microsoft Entra ID (formerly Azure AD) domain name. Click __Next__.
 
-![Add New Host - Azure AD Connection for SharePoint Online](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/azureadconnection.png)
+![Add New Host - Azure AD Connection for SharePoint Online](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/azureadconnection.webp)
 
 __Step 4 –__ On the Azure AD / Entra ID Connection page, enter a Client ID and Client Secret, then click __Sign-In__ to grant permissions to read the auditing and directory data. Click __Open Instruction...__ for steps on registering the Activity Monitor with Microsoft Entra ID.
 
@@ -54,7 +54,7 @@ __Step 4 –__ On the Azure AD / Entra ID Connection page, enter a Client ID a
 
 Click __Next__.
 
-![SharePoint Online Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileandpagetab.png)
+![SharePoint Online Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileandpagetab.webp)
 
 __Step 5 –__ On the SharePoint Online Operations page, configure the options found in the following tabs:
 
@@ -72,11 +72,11 @@ __Step 5 –__ On the SharePoint Online Operations page, configure the options f
 
 These options can be configured again in a SharePoint Online host's properties window. See the [Operations Tab](/docs/activitymonitor/activitymonitor/admin/outputs/operations.md) for additional information. Click __Next__.
 
-![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 6 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 7 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured. The configurable options are:
 
@@ -90,7 +90,7 @@ __Step 7 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 __Step 8 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured. The configurable options are:
 
@@ -111,7 +111,7 @@ __Step 8 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![Activity Monitor with SharePoint Online host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointonline.png)
+![Activity Monitor with SharePoint Online host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointonline.webp)
 
 The added SharePoint Online host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

@@ -13,9 +13,9 @@ Manual Ticket
 Manual Ticket and CUD Resources
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md) topics for additional information.
 
-![Package: Ticket/Usercube](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticket_v603.png)
+![Package: Ticket/Usercube](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticket_v603.webp)
 
-![Package: Ticket/Usercube And Create/Update/Delete resources](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticketcud_v603.png)
+![Package: Ticket/Usercube And Create/Update/Delete resources](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticketcud_v603.webp)
 
 See the [
 Provision Manually

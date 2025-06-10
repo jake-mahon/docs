@@ -6,4 +6,4 @@ __NOTE:__ Always click the __Save Changes__ button after any edit.
 
 To configure additional File/Folder/Registry Match Pattern definitions, click on the __Show Advanced Options__ button.
 
-![PolicyTemplatesAdministration](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesadministration.png)
+![PolicyTemplatesAdministration](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesadministration.webp)

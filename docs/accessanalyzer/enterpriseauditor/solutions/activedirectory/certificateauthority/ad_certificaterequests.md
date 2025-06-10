@@ -18,7 +18,7 @@ Navigate to the __Active Directory__ > __7.Certificate Authority__ > __AD\_Certi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.png)
+![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
 
 The default analysis tasks are:
 

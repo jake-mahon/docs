@@ -55,4 +55,4 @@ Key columns in the search results:
 - __Release Status__ - Normally workflows in Released status are actively used. Other statuses are Suspended, Not Initiating, and Testing.
 - __Date Last Used Spidering Complete__ (For the Last 6 Months) - Value is __Yes__ when the DLU spider has finished from at most 6 months previous. __No__ means the DLU spider has not finished yet. The DLU spider can take several days to finish It executes daily on a subset of dates until it reaches 6 months.
 
-![Unused Workflow Customizations Search Results](/img/product_docs/strongpointfornetsuite/clean_up/unused_workflow_results.png)
+![Unused Workflow Customizations Search Results](/img/product_docs/strongpointfornetsuite/clean_up/unused_workflow_results.webp)

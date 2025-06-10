@@ -2,7 +2,7 @@
 
 The Ransomware Dashboard for QRadar shows a list of suspected ransomware events.
 
-![Ransomware Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/ransomwaredashboard.png)
+![Ransomware Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/ransomwaredashboard.webp)
 
 The Ransomware dashboard contains the following cards:
 

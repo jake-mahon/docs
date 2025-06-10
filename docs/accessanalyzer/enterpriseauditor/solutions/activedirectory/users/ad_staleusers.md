@@ -10,7 +10,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD\_StaleUsers__ > __Conf
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.png)
+![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 

@@ -39,7 +39,7 @@ For all clean up activities, consider the following items:
 
 Like all Salesforce Date fields, DLU can be filtered using relative date formats (typically what you will want). You can also filter on specific dates.
 
-![DLU Filter](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.png)
+![DLU Filter](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.webp)
 
 ## Automated Report Clean Up
 

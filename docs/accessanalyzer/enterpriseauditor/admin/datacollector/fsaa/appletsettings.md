@@ -8,7 +8,7 @@ The Applet Settings page is where the Applet Launch Mechanism and Applet Setting
 
 __NOTE:__ This wizard page identifies options associated with the scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
-![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.png)
+![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.webp)
 
 In the Applet Launch Mechanism section, choose one of three radio buttons:
 
@@ -20,7 +20,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
   - It requires the ```FSAAAppletServer.exe``` to run as a service on the proxy host in order to run a successful scan. When this radio button is selected, Access Analyzer does not deploy an applet on the target or proxy machine. Therefore, if the File System Proxy service is not running, the FSAA scan will fail.
   - To avoid a failed scan when an applet cannot be deployed or the File System Proxy service is not running, the Applet Gathering Settings page contains the __Fallback to local mode if applet can’t start__ option. This option allows the scan to run in local mode when an applet cannot be deployed or the service is not running.
 
-![Applet Settings section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingsappletsettings.png)
+![Applet Settings section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
 
 In the Applet Settings section, configure the following options:
 
@@ -49,7 +49,7 @@ In the Applet Settings section, configure the following options:
   - If either of these options on the Applet Gathering Settings page are checked with values higher than zero, the scan is suspended after the communication timeout value has been exceeded
 - Scan cancellation timeout: [number] minute(s) – When checked, this option will timeout the applet if there is an attempt to pause the scan and the applet does not respond
 
-![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.png)
+![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 In the Certificate Exchange Options section, configure the following options:
 

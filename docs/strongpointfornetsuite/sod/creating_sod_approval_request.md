@@ -29,15 +29,15 @@ To create an SoD Approval request:
 
 Employees can be added to an Approved and Open SoD Approval request. The __Add Employees to SoD Exemption__ button is available after the request is Approved.
 
-![Add Employees to Approved SoD Exemption](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee.png)
+![Add Employees to Approved SoD Exemption](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee.webp)
 
 1. Click __Add Employees to SoD Exemption__.
 2. Select one or more __Affected Employee(s)__ to add.
 
-   ![Select Affected Employees](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee_select.png)
+   ![Select Affected Employees](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee_select.webp)
 3. Click __Request Approval__. Approvers must be [licensed](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) Platform Governance for NetSuite users and have the correct [role permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md) if they are using a custom (non-Strongpoint) role.  
    A new request is created with __Add to SoD Exemption__ prepended to the Name of the original request. The new request is set to __Pending Approval__.
 
-   ![New Request created from Add Employee to SoD Exemption button](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee_new.png)
+   ![New Request created from Add Employee to SoD Exemption button](/img/product_docs/strongpointfornetsuite/sod/sod_add_employee_new.webp)
 
 When the new Request is approved, the employees are added to the __Open__ and __Approved__ parent Change Request and the new Request is __Closed__. If the parent request status has changed, the status of the new Request is unchanged.

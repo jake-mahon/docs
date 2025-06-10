@@ -2,7 +2,7 @@
 
 The Request History tab of the Access Requests page accessed through the Owner portal is where you can view the request history for your resources.
 
-![Request History tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.png)
+![Request History tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
 
 The information displayed in the table includes:
 
@@ -41,7 +41,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.png)
+![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
 
 | Button | Description |
 | --- | --- |

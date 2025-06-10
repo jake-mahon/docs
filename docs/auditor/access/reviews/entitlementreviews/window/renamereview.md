@@ -4,7 +4,7 @@ The Rename Review window opens from the [Manage Reviews Page](/docs/auditor/acce
 
 __Step 1 –__ Select the review and click __Rename__. The Rename Review window opens.
 
-![Rename Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/renamereview.png)
+![Rename Review window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/renamereview.webp)
 
 __Step 2 –__ Edit the review name in the textbox.
 

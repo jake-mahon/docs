@@ -2,7 +2,7 @@
 
 The Users dashboard shows session information for onboarded users and groups. Onboarded users and can log into the application to manage policies or run sessions. The Users dashboard displays the same information as the [Users & Groups Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Users Dashboard Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/usersdashboard.png)
+![Users Dashboard Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/usersdashboard.webp)
 
 The Users table has the following features:
 

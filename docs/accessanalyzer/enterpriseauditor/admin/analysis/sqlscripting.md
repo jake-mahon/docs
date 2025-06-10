@@ -2,7 +2,7 @@
 
 Use the SQLscripting analysis module to apply SQL scripting to the selected job.
 
-![SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscripteditor.png)
+![SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscripteditor.webp)
 
 The SQLscripting analysis module evaluates the Access Analyzer user’s permission level to determine whether to allow the connected user to run the scripted command. Since this evaluation is based on specific SQL database permissions and is not always under Access Analyzer’s control, some scripts with correct syntax may fail due to insufficient permissions.
 
@@ -31,7 +31,7 @@ Click __Save and Close__ to return to the Analysis Properties page. If no change
 
 Use the Parameters window to add, edit, and delete temporary variables and tables defined by SQLscripting and users. The window only displays when __Parameters__ is clicked.
 
-![Parameters window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscriptparameters.png)
+![Parameters window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscriptparameters.webp)
 
 __CAUTION:__ not modify any parameters where the Value states ```Created during execution```.
 
@@ -63,7 +63,7 @@ The parameters have the following properties:
 
 Click __Edit Table__ to open the Edit Table window to modify parameters for the selected table.
 
-![Edit Table window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscriptedittablewindow.png)
+![Edit Table window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscriptedittablewindow.webp)
 
 The Edit table window has the following options:
 

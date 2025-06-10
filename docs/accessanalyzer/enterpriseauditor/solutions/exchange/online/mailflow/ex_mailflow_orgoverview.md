@@ -16,7 +16,7 @@ See the [Analysis Tasks for the EX\_Mailflow\_OrgOverview Job](#analysis-tasks-f
 
 View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX\_OrgOverview\_Mailbox__ > __Configure__ node and select __Analysis__.
 
-![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.png)
+![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
 
 The following analysis task is selected by default:
 

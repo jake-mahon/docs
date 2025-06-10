@@ -15,7 +15,7 @@ There are three tabs: Current, History, and Queued Jobs.
 
 The __Current__ tab displays information on the job actively being executed.
 
-![Current tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailscurrent.png)
+![Current tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailscurrent.webp)
 
 The tab includes:
 
@@ -32,7 +32,7 @@ The tab includes:
 
 The History tab only displays information for the last job that completed.
 
-![History tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailshistory.png)
+![History tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailshistory.webp)
 
 The tab includes:
 
@@ -50,7 +50,7 @@ In the bottom pane, the History tab includes a section to display any messages f
 
 You can filter what messages display by using the three filters in the message pane. By clicking on a filter arrow in the column header and selecting an available option, you can filter by Time, Type, or Message.
 
-![Custom Filter window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailshistorycustomfilter.png)
+![Custom Filter window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailshistorycustomfilter.webp)
 
 If you select Custom, you can create a complex filter. See the [Custom Filter](/docs/accessanalyzer/enterpriseauditor/admin/navigate/datagrid.md#custom-filter) topic for additional information.
 
@@ -58,7 +58,7 @@ If you select Custom, you can create a complex filter. See the [Custom Filter](/
 
 The Queued Jobs tab displays a list of jobs in queue and the order in which they are executed.
 
-![Queued Jobs tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailsqueuedjobs.png)
+![Queued Jobs tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/jobdetailsqueuedjobs.webp)
 
 The tab includes:
 

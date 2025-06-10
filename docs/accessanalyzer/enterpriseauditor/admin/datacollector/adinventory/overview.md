@@ -37,6 +37,6 @@ The ADInventory Data Collector is configured through the Active Directory Invent
 - [ADInventory: Custom Attributes](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
 - [ADInventory: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.md)
 
-![Active Directory Inventory DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Active Directory Inventory DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

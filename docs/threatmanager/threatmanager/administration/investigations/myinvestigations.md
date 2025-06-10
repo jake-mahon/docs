@@ -4,7 +4,7 @@ The My Investigations page in the Investigations interface provides a list of sa
 
 Click __Investigate__ in the application header bar to open the Investigations interface.
 
-![Investigations interface on the My Investigations page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/myinvestigations.png)
+![Investigations interface on the My Investigations page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/myinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

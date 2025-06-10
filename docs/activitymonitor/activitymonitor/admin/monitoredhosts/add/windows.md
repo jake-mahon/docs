@@ -26,15 +26,15 @@ Follow the steps to add a Windows host to be monitored, if it was not configured
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor deployed on the Windows file server. Click __Next__.
 
-![Add Host page with Windows selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostwindows.png)
+![Add Host page with Windows selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostwindows.webp)
 
 __Step 3 –__ On the Add Host page, select the Agent’s Windows host radio button. Remember, the agent must be deployed on the Windows file server to be monitored. If desired, add a __Comment__. Click __Next__.
 
-![Protocols page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/protocolspage.png)
+![Protocols page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/protocolspage.webp)
 
 __Step 4 –__ On the Protocols page, select which protocols to monitor. The protocols that can be monitored are:
 
@@ -44,7 +44,7 @@ __Step 4 –__ On the Protocols page, select which protocols to monitor. The pro
 
 Click __Next__.
 
-![Configure Operations page for Windows host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationswindows.png)
+![Configure Operations page for Windows host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationswindows.webp)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__,__Directory Operations__, __Share Operations__ and __VSS Opertions__ to be monitored. Users may also filter events by operation type by selecting the radio button:
 
@@ -64,7 +64,7 @@ __CAUTION:__ Enabling the Suppress subsequent Read operations in the same folder
 
 Click __Next__.
 
-![Configure Basic Options page for Windows](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionswindows.png)
+![Configure Basic Options page for Windows](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionswindows.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the target host. Select the desired options:
 
@@ -78,11 +78,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where to log activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileouputpage.png)
+![File Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileouputpage.webp)
 
 __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -96,7 +96,7 @@ __Step 8 –__ If __Log File)__ is selected on the __Where To Log The Activity_
 
 Click __Next__.
 
-![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -117,7 +117,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
 
 Click __Finish__.
 
-![Activity Monitor with Windows Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorwindows.png)
+![Activity Monitor with Windows Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorwindows.webp)
 
 The added Windows file server host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 

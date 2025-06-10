@@ -23,17 +23,17 @@ __NOTE:__ Continue with these steps to install one or more features on your curr
 
 __Step 3 –__ Click on the __Netwrix\_PPE\_Server\__version_\_x64.msi__ installation package. The installer is launched.
 
-![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup1.png)
+![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup1.webp)
 
 __Step 4 –__ Click __Next__.
 
-![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup2.png)
+![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup2.webp)
 
 __Step 5 –__ Review the End-User License Agreement. Click __I accept the terms in the License Agreement__.
 
 __Step 6 –__ Click __Next__.
 
-![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup3.png)
+![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup3.webp)
 
 __Step 7 –__ Select the features to install. The required storage is shown for each selection.
 
@@ -45,10 +45,10 @@ __Step 8 –__ The default location is shown. Click __Browse__ and select a new 
 
 __Step 9 –__ Click __Next__.
 
-![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup4.png)
+![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup4.webp)
 
 __Step 10 –__ Review your selections. Click __Back__ to make any changes. When ready, click __Install__.
 
-![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup5.png)
+![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup5.webp)
 
 __Step 11 –__ Click __Finish__ when installation is complete. You are prompted to restart your system for the changes to take effect.

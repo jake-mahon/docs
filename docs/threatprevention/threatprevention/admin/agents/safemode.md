@@ -29,7 +29,7 @@ __Step 2 –__ On the Email tab, click __Configure__.
 
 __Step 3 –__ Create a message profile for the Safe Mode notification with the recipient(s) to be notified when the AD modules are pending. See the [Create Message Profiles](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles) topic for additional information.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/agents/adpendingmodealert.png)
+![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/threatprevention/admin/agents/adpendingmodealert.webp)
 
 __Step 4 –__ Select __Events__, and then __Operations__ on the left. Check the __Agent Started in AD Monitor pending mode__ event alert and select the message profile you created in Step 3 from the drop-down menu to assign it to the alert. See the [Email Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/email.md) topic for additional information.
 

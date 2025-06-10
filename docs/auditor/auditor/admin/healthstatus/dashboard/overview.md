@@ -13,6 +13,6 @@ The dashboard includes the following widgets:
 - The Long-Term Archive widget—Helps you to estimate the capacity of the Long-Term Archive file-based storage. To modify its settings, including location and retention, click the link in this widget. See the [System Health](/docs/auditor/auditor/requirements/longtermarchive.md#system-health) topic for additional information.
 - The Working Folder widget—Helps you to estimate the capacity of the Auditor working folder used to keep operational information (configuration files of the product components, log files, and other data) on the Auditor Server. See the [System Health](/docs/auditor/auditor/requirements/longtermarchive.md#system-health) topic for additional information.
 
-![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.png)
+![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.webp)
 
 You can also instruct Netwrix Auditor to forward similar statistics as a health summary email to personnel in charge. For that, click Notification settings, then follow the steps described in the [Notifications](/docs/auditor/auditor/admin/settings/notifications.md) topic.

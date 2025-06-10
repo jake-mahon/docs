@@ -4,7 +4,7 @@ Access your owner User Access Reviews List from __UAR List__ in your menu bar, 
 
 Here is an example of the __Global__ review list:
 
-![Administrator UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_uar.png)
+![Administrator UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_uar.webp)
 
 ## Filters
 
@@ -55,10 +55,10 @@ __Create Review__ is an option on the administrator's UAR List.
 1. Open __UAR List__ from your menu bar or a shortcut.
 2. Click __Create Review__.
 
-   ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review1.png)
+   ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review1.webp)
 3. Select __Single Review__ to add to an existing review, or __Global Review__ to start a new review. This example shows the Add to an Existing Review option.
 
-   ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review2.png)
+   ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review2.webp)
 4. Use the drop down to __Select Global Review__ this option is only if you chose __Single__. It is not available if you are creating a new __Global__ review. The existing information for the Global review is populated.
 5. Add or remove one or more roles. The left pane shows all the available roles, the right pane shows the roles you have added. The __Add all active roles__ shows active roles in the left pane. It toggles to __Show all active and assigned roles__ in the left pane. You cannot change permissions on Standard roles or the Administrator role..
 6. Select __Type of Review__. This is only available if you are creating a new __Global__ review. You can select one or both options.
@@ -76,7 +76,7 @@ __Cancel Review__ is an option on the administrator's UAR List and on the [Revi
 2. Select one or more Reviews.
 3. Click __Cancel Review__. Any open change requests are canceled.
 
-   ![Cancel a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/cancel_review.png)
+   ![Cancel a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/cancel_review.webp)
 4. Click __Accept__.
 
 ### Send Reminders
@@ -92,7 +92,7 @@ Reminders can be sent from the administrator's UAR List or from the [Review lis
 
 Clicking on a __Name__ in the UAR List opens the Review List. Here is an example.
 
-![Review List](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_review_list.png)
+![Review List](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_review_list.webp)
 
 ### Filters
 

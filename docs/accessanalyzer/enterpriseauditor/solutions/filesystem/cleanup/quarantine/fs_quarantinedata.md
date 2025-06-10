@@ -10,7 +10,7 @@ __CAUTION:__ Do not enable the actions unless they are required. Disable the act
 
 __CAUTION:__ Do not modify the action tasks. The action tasks are preconfigured for this job.
 
-![Action Tasks for the FS_QuarantineData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/quarantinedataactions.png)
+![Action Tasks for the FS_QuarantineData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/quarantine/quarantinedataactions.webp)
 
 The following action tasks are deselected by default:
 

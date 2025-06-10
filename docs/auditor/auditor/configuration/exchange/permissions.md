@@ -40,7 +40,7 @@ __Step 3 –__ On the right, locate the __Organization Management__ group and do
 
 __Step 4 –__ In the __Organization Management Properties__ dialog that opens, select the __Members__ tab and click __Add__.
 
-![manualconfig_orgmanagement2016](/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.png)
+![manualconfig_orgmanagement2016](/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.webp)
 
 If for some reason you do not want this account to belong to the Organization Management group, you can add it to the Records Management group in the same way. The Records Management group is less powerful, and accounts belonging to it have fewer rights and permissions.
 

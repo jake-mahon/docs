@@ -18,7 +18,7 @@ Navigate to the __AWS__ > __3.Groups__ > __AWS\_StaleGroups__ > __Configure__ no
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_StaleGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.png)
+![Analysis Tasks for the AWS_StaleGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

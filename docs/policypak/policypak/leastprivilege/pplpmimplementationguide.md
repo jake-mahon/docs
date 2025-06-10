@@ -20,7 +20,7 @@ Here’s the Endpoint Policy Manager QuickStart Guide with specific steps and id
 
 When done you will have the Endpoint Policy Manager MMC Console installed, your endpoints prepared and be ready to go.
 
-![poc1](/img/product_docs/policypak/policypak/leastprivilege/poc1.png)
+![poc1](/img/product_docs/policypak/policypak/leastprivilege/poc1.webp)
 
 __NOTE:__ If you’re confused about which method you want to use to get Endpoint Policy Manager policies deployed (GPO, MDM or Cloud) this video can help you make an informed decision: [Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared.](/docs/policypak/policypak/video/gettingstarted/solutionmethods.md)
 
@@ -68,7 +68,7 @@ If you are already running without Local Admin Rights, the top requests we get a
 
 As such we have some Helper Tools for these specific scenarios and pre-configured guidance to get them set up.
 
-![poc2](/img/product_docs/policypak/policypak/leastprivilege/poc2.png)
+![poc2](/img/product_docs/policypak/policypak/leastprivilege/poc2.webp)
 
 For an overview, please see [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/policypak/policypak/video/leastprivilege/uacprompts.md) and watch all videos in that section.
 
@@ -82,7 +82,7 @@ So, on a test machineyou control, we recommend installing all the software you�
 
 For more in formation on Endpoint Policy Manager Least Privilege Manager Pre-Configured rules, and to to see how many you can use right away, without having to generate your own rules, please see [Installing applications-and-Preconfigured-Rules](/docs/policypak/policypak/video/leastprivilege/installapplications.md)
 
-![poc3](/img/product_docs/policypak/policypak/leastprivilege/poc3.png)
+![poc3](/img/product_docs/policypak/policypak/leastprivilege/poc3.webp)
 
 For the remaining applications where Endpoint Policy Manager Least Privilege Manager doesn’t have pre-configured rules, you’ll have to create your own rules.
 
@@ -103,13 +103,13 @@ If you are already a Netwrix Privilege Secure customer, you might want to also t
 
 Now that you’ve got severalrules created, you should be down to only the items you don’t know about on endpoint machines. You can turn on Auditing & Discovery to generate interesting events when users run (or attempt to run) many applications with Local Admin Rights. The two items you should turn on for starters are below.
 
-![poc4](/img/product_docs/policypak/policypak/leastprivilege/poc4.png)
+![poc4](/img/product_docs/policypak/policypak/leastprivilege/poc4.webp)
 
 The way you do this is a little different from Group Policy vs. Endpoint Policy Manager Cloud. We recommend getting familiar with Eventing in general, and then turning on Discovery. Additionally, you can Auto-Create Policy from Global Audit Events once you’ve learned which applications require elevation. For more information on this issue, please see: [Events](/docs/policypak/policypak/video/leastprivilege/events.md)
 
 Resulting events on endpoints look similar to an item like this:
 
-![poc5](/img/product_docs/policypak/policypak/leastprivilege/poc5.png)
+![poc5](/img/product_docs/policypak/policypak/leastprivilege/poc5.webp)
 
 List of Endpoint Policy Manager Event Categories and IDs:
 
@@ -128,7 +128,7 @@ If you are already a Netwrix Auditor Customer, you can forward interesting Endpo
 
 An example of the kind of data you get back can be seen here.
 
-![poc12](/img/product_docs/policypak/policypak/leastprivilege/poc12.png)
+![poc12](/img/product_docs/policypak/policypak/leastprivilege/poc12.webp)
 
 You may also use the in-box Windows Event System to forward interesting Endpoint Policy Manager Least Privilege Manager events from endpoint computers to a central source. The steps to do this are found here: [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/policypak/policypak/leastprivilege/windowseventforwarding.md)
 
@@ -144,19 +144,19 @@ For information on how to perform this, please see [Use Group Policy to remove l
 
 Once you have events generating on endpoints and you have access to those events (directly or via Event Forwarding, Netwrix Auditor, or another source), you can auto-create rules from those events.
 
-![poc10](/img/product_docs/policypak/policypak/leastprivilege/poc10.png)
+![poc10](/img/product_docs/policypak/policypak/leastprivilege/poc10.webp)
 
 For details on how to do this on-prem, please see [Auto-Create Policy from Global Audit event](/docs/policypak/policypak/video/leastprivilege/globalauditevent.md)[Auto-Create Policy from Global Audit event](/docs/policypak/policypak/video/leastprivilege/globalauditevent.md)
 
 For details on how to do it with Endpoint Policy Manager Cloud, please see [Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/policypak/policypak/video/leastprivilege/cloudevents.md). Note there is a new (not shown in the video) Generate Rule(s) button in Endpoint Policy Manager Cloud.
 
-![poc11](/img/product_docs/policypak/policypak/leastprivilege/poc11.png)
+![poc11](/img/product_docs/policypak/policypak/leastprivilege/poc11.webp)
 
 ## Turn on Admin Approval
 
 You’ve already created the rules for the applications you know, and turned on Discovery Auditing for the applications you don’t know. However, you can also enable end users to be proactive and request one-time workarounds for UAC prompts without an automatic rule in place.
 
-![poc6](/img/product_docs/policypak/policypak/leastprivilege/poc6.png)
+![poc6](/img/product_docs/policypak/policypak/leastprivilege/poc6.webp)
 
 For more in formation on the Endpoint Policy Manager Admin Approval feature, please see [Admin Approval demo](/docs/policypak/policypak/video/leastprivilege/adminapproval/demo.md) (all the videos in that section).
 
@@ -166,7 +166,7 @@ The goal is to minimize the times when users need one-off approval where you can
 
 Admin Approval and other Endpoint Policy Manager Least Privilege Manager dialogs that appear to users can be branded with your company logo, colors, and text messages.
 
-![poc7](/img/product_docs/policypak/policypak/leastprivilege/poc7.png)
+![poc7](/img/product_docs/policypak/policypak/leastprivilege/poc7.webp)
 
 For more information on branding, please see [Branding the UI and Dialogs](/docs/policypak/policypak/video/leastprivilege/branding.md).
 
@@ -174,7 +174,7 @@ For more information on branding, please see [Branding the UI and Dialogs](/docs
 
 Use Endpoint Policy Manager Least Privilege Manager Self Elevate mode to overcome UAC prompts without requiring specific rules. This is useful if you want to take away local admin rights, but still give users the ability to "break the glass" if they have an emergency.
 
-![poc9](/img/product_docs/policypak/policypak/leastprivilege/poc9.png)
+![poc9](/img/product_docs/policypak/policypak/leastprivilege/poc9.webp)
 
 This technique isn't generally recommended due to a potential lowering of your security posture, but it can be especially useful in the right circumstances.
 
@@ -187,7 +187,7 @@ For more information see::
 
 Endpoint Policy Manager Least Privilege Manager has built-in ransomware protection, blocking the user from downloading, and then running applications you didn’t sanction. When SecureRun™ is on, Endpoint Policy Manager Least Privilege Manager checks to see who owns the file executable, MSI file, script, or Java JAR file. When users download files off the Internet or copy them from a USB flash drive, they own the file, and since they aren't on the SecureRun™ Members list, Endpoint Policy Manager Least Privilege Manager will block all applications that you (the admin on the machine) didn’t install.
 
-![poc13](/img/product_docs/policypak/policypak/leastprivilege/poc13.png)
+![poc13](/img/product_docs/policypak/policypak/leastprivilege/poc13.webp)
 
 However, if users were accustomed to downloading their applications, when Endpoint Policy Manager SecureRun is enabled you could get an increase in helpdesk calls from users unable to run applications they have installed.
 
@@ -197,7 +197,7 @@ Before you fully enable Endpoint Policy Manager SecureRun you can, once again, r
 
 Refer to the Global Auditing step to re-enable these settings to turn on Events for Untrusted and optionally unsigned applications.
 
-![poc15](/img/product_docs/policypak/policypak/leastprivilege/poc15.png)
+![poc15](/img/product_docs/policypak/policypak/leastprivilege/poc15.webp)
 
 Endpoint Policy Manager Least Privilege Manager Discovery Audit Policy Events Additional Notes
 

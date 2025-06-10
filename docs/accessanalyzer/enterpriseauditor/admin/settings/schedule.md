@@ -2,7 +2,7 @@
 
 The Schedule node contains objects referred to as Schedule Service Accounts. A Schedule Service Account is used to run scheduled tasks on the Access Analyzer Console server.
 
-![Schedule node](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.png)
+![Schedule node](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 Jobs can be executed manually as desired or scheduled to execute at designated times. For example, you could schedule a job to run during hours when the office is closed and network traffic is low. Windows uses the Schedule Service Account to access the task folders when launching scheduled tasks. Schedule Service Accounts are configured at the global level, and this account can be used to schedule jobs in the Schedule Wizard. See the [Schedules](/docs/accessanalyzer/enterpriseauditor/admin/schedule/overview.md) topic for additional information.
 
@@ -42,7 +42,7 @@ The Access Analyzer vault provides enhanced security through enhanced encryption
 
 There are two types of accounts that can be used to configure the Schedule Service Account.
 
-![serviceaccounttypes](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/serviceaccounttypes.png)
+![serviceaccounttypes](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/serviceaccounttypes.webp)
 
 Use one of the following options for the Schedule Service Account:
 
@@ -63,11 +63,11 @@ Follow the steps to create a Schedule Service Account.
 
 _Remember,_  the Schedule Service Account cannot be signed into an active session on the Access Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016 operating system.
 
-![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/addusercredential.png)
+![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/addusercredential.webp)
 
 __Step 1 –__ Click __Add User credential__ at the top of the Schedule view. The User Credentials window opens.
 
-![User Credentials window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/usercredentialswindow.png)
+![User Credentials window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/usercredentialswindow.webp)
 
 __Step 2 –__ The window options change according to the value for the __Selected Account Type__ field. Select the appropriate account type and then provide the required information. The account types are:
 
@@ -94,22 +94,22 @@ __Step 3 –__ Click __OK__ and the credentials are verified. If there are no pr
 
 - Passwords Do Not Match Error
 
-  ![Passwords Do Not Match Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/passwordsdontmatch.png)
+  ![Passwords Do Not Match Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/passwordsdontmatch.webp)
 
   - This error indicates the two password entries do not match. Click __OK__ and reenter the passwords.
 - Bad User Name or Password Error
 
-  ![Bad User Name or Password Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/incorrectlogondetails.png)
+  ![Bad User Name or Password Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/incorrectlogondetails.webp)
 
   - This error indicates either the user account does not exist or the username and password do not match. Click __OK__ and reenter the information.
 - Insufficient Rights Error
 
-  ![Insufficient Rights Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/insufficientrights.png)
+  ![Insufficient Rights Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/insufficientrights.webp)
 
   - This error indicates the account supplied does not have sufficient rights to create and run scheduled tasks. Click __OK__ and provide credentials with sufficient rights.
 - GPO Network Security Error
 
-  ![GPO Network Security Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/gponetworksecurity.png)
+  ![GPO Network Security Error](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/gponetworksecurity.webp)
 
   - This error indicates that the GPO Network Security settings are configured to not allow storage of passwords and credentials for network authentication. Click OK. Disable the domain’s GPO Network Security settings or exempt the Access Analyzer Server from GPO.
   - This error will also appear when trying to schedule a task using the domain’s Schedule Service Account where GPO Network Security is set to not allow storage of passwords and credentials for network authentication
@@ -124,7 +124,7 @@ Follow the steps to edit a Schedule Service Account credentials.
 
 _Remember,_  the Schedule Service Account cannot be signed into an active session on the Access Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016 operating system.
 
-![Edit option in the Schedule view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/edit.png)
+![Edit option in the Schedule view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/edit.webp)
 
 __Step 1 –__ Select a credential from the User Credentials list and click on __Edit__. The User Credentials window opens.
 
@@ -138,11 +138,11 @@ Access Analyzer can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to delete a Schedule Service Account.
 
-![Delete option in the Schedule view](/img/product_docs/strongpointfornetsuite/integrations/delete.png)
+![Delete option in the Schedule view](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
 
 __Step 1 –__ Select the credential from the User Credentials list and click __Delete__. The Delete Credentials confirmation window appears.
 
-![Delete Credentials confirmation window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/deletecredentials.png)
+![Delete Credentials confirmation window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/deletecredentials.webp)
 
 __Step 2 –__ Click __OK__ to confirm the deletion or __Cancel__ to exit the deletion process.
 

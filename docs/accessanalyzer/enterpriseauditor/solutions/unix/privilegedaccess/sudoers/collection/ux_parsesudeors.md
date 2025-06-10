@@ -8,7 +8,7 @@ The UX\_ParseSudoers job uses the Unix Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the UX_ParseSudoers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.png)
+![Queries for the UX_ParseSudoers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.webp)
 
 The query for the UX\_ParseSudoers job is:
 

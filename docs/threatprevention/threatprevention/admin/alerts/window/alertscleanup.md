@@ -10,7 +10,7 @@ __Step 1 –__ Click __Alerts__ in the left pane to launch the Alerts interface.
 
 __Step 2 –__ On the Alerts interface, click the __Clear__ icon in the top right corner.
 
-![Alerts Cleanup window](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/alertscleanup.png)
+![Alerts Cleanup window](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/alertscleanup.webp)
 
 __Step 3 –__ The Alerts Cleanup window has these options:
 

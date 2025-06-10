@@ -2,7 +2,7 @@
 
 The Operations Job Group reports on Active Directory activity events related to operational activity. This group can help report on probable machine owners based on authentications, domain controller traffic and activity, and authentication protocols being used in the environment.
 
-![Operations Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Operations Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following Jobs make up the Operations Job Group:
 

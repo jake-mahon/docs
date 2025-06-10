@@ -7,7 +7,7 @@ The Scope page is used to define where to search. It is a wizard page for the ca
 - Exchange Organization > Contacts
 - Exchange Organization > QBDGs
 
-![Exchange 2K+ Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.png)
+![Exchange 2K+ Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 Select where to connect for the search and click __Connect__ to add the domain or server:
 

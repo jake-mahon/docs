@@ -2,7 +2,7 @@
 
 Use the Target page to point the action module towards a file path on the specified host. Environmental variables (for example, Program Files, SystemRoot, SAInstallDir, and so on) can be used when creating a path as well as fields in the raw table output to populate the __Target items__ field.
 
-![File System Action Module Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.png)
+![File System Action Module Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.webp)
 
 Use the fields provided to select target items and hosts from the drop-down lists and populate the Target items field, or edit the field manually. The Preview field updates based on the contents of the Target items field.
 

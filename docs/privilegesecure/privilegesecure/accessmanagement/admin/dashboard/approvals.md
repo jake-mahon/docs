@@ -2,7 +2,7 @@
 
 The Approvals Dashboard displays requested sessions that require approval. Users and group members designated as approvers will see the pending sessions queued here. The session must be approved before the requestor can log in to the session. See the [Connection Profiles Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information on Approval Workflows.
 
-![Dashboard Approvals Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.png)
+![Dashboard Approvals Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.webp)
 
 The Approvals Dashboard has the following features:
 

@@ -15,15 +15,15 @@ __Step 1 –__ Connect to any Domain Controller where you have Password Policy E
 
 __Step 2 –__ Go to Password Policy Enforcer install directory (C:\Program Files or C:\Program Files (x86)\Password Policy Enforcer) and copy the __PPEClt.adml__ and __PPEClt.admx__ files (highlighted in yellow):
 
-![ppc_configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration.png)
+![ppc_configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration.webp)
 
 __Step 3 –__ Go to C:\Windows\Policy Definitions and paste the .admx file in the root of this folder.
 
-![ppc_configuration2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration2.png)
+![ppc_configuration2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration2.webp)
 
 __Step 4 –__ Go to C:\Windows\Policy Definitions\en-US and paste the .adml file in the root of this folder.
 
-![ppc_configuration1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration1.png)
+![ppc_configuration1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration1.webp)
 
 __Step 5 –__ Open __Group Policy Management__ console and check if you have a GPO created for Client. If not, see the topic's section for additional information.
 
@@ -31,17 +31,17 @@ __Step 6 –__ In the left pane, navigate to __Forest: `<forest_name>`__ > __Dom
 
 Once the GPO is configured, this view is available:
 
-![ppc_configuration3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration3.png)
+![ppc_configuration3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration3.webp)
 
 __Step 7 –__ Right-click the newly created GPO and select __Edit__ from the pop-up menu.
 
 __Step 8 –__ Expand __Computer Configuration__ > __Policies__ > __Administrative Templates__ > __Netwrix Password Policy Enforcer__
 
-![ppc_configuration4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration4.png)
+![ppc_configuration4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration4.webp)
 
 __Step 9 –__ Click on __Netwrix Password Policy Client__ to open a list of modification settings.
 
-![ppc_configuration5](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration5.png)
+![ppc_configuration5](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration5.webp)
 
 __Step 10 –__ Select the one you need, then modify and save it.
 

@@ -45,10 +45,10 @@ The reason code that is written to Event 6310 is from a fixed list in the Endpoi
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events.webp)
 
 An example of Event 613 can be seen here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/operational_events_1.webp)

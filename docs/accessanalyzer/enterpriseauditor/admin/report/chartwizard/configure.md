@@ -6,7 +6,7 @@ The Configure page of the Chart Configuration wizard allows you to configure the
 
 The Chart Configuration tab is split into three sections, label column selection, series configuration, and a chart preview. Use this tab to configure the columns from the data source to be shown in the chart.
 
-![Chart Configuration wizard Configure page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.png)
+![Chart Configuration wizard Configure page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
 The left side shows all the columns from the data source table that can be used for the label axis. For example, the label column is the x-axis on a line chart and the y-axis on a bar chart. Select the checkbox of the desired label column from the list. You can use the search bar to filter this list of columns.
 
@@ -32,7 +32,7 @@ Once you have finished configuring the chart, click __Finish__ to close the wiza
 
 The Add new series and Edit series windows allow you to configure the data series of the chart. The appropriate window is opened by clicking __Add__ to create a new series, or by selecting an existing series and clicking __Edit__.
 
-![Add new series window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/addnewseries.png)
+![Add new series window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/addnewseries.webp)
 
 These windows contain the following options for the data series:
 
@@ -57,7 +57,7 @@ Click __OK__ on the window to save the new or modified series, or click __Cance
 
 At the bottom of the page a preview of the currently configured chart is displayed.
 
-![Chart preview](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configurechartpreview.png)
+![Chart preview](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configurechartpreview.webp)
 
 If the configuration is incomplete or invalid, a message with instructions to fix the configuration is displayed in the preview window instead. The following are possible messages and scenarios that would cause them:
 
@@ -71,7 +71,7 @@ If the configuration is incomplete or invalid, a message with instructions to fi
 
 The Data Preview tab allows you to see and customize the data that is to be shown in the chart.
 
-![Data Preview tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configuredatapreview.png)
+![Data Preview tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configuredatapreview.webp)
 
 The buttons above the column names provide you the following options for configuring the table arrangement:
 

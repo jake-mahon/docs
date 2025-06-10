@@ -39,7 +39,7 @@ __Step 4 –__ Expand the Computer Configuration, Preferences, and Windows Setti
 
 __Step 5 –__ Right-click the __Registry__ item, and then select __New__ > __Registry Wizard__.
 
-![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.png)
+![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.webp)
 
 __Step 6 –__ Select the computer that contains the Password Policy Enforcer local configuration that you want to distribute, and then click __Next__.
 
@@ -47,7 +47,7 @@ __Step 7 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, and __ANIXIS__
 
 __Step 8 –__ Click the __Password Policy Enforcer _version___ item, and then select the check boxes beside each item in the bottom pane of the window.
 
-![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies_1.png)
+![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies_1.webp)
 
 __Step 9 –__ Click __Finish__.
 

@@ -10,7 +10,7 @@ ACL stands for Windows's Access Control List. ACLs are a built-in operating syst
 
 __Step 1 –__ To see ACL Lockdown in action, let's go back into the GPO and turn it on. To do this, right-click "at least one lower case character (a-z)" and select "Perform ACL Lockdown," as seen in Figure 14.
 
-![policypak_application_settings_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_13.png)
+![policypak_application_settings_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_13.webp)
 
 Figure 14. Selecting the "Perform ACL Lockdown" setting.
 
@@ -24,13 +24,13 @@ On the client machine
 
 __Step 3 –__ ACL Lockdown is now working while the application is running. Now, go back to WinZip's Options, select the Passwords tab, and uncheck the two checkboxes that are available, as shown in Figure 15. Then click OK.
 
-![policypak_application_settings_14](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_14.png)
+![policypak_application_settings_14](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_14.webp)
 
 Figure 15. The Passwords tab in WinZip Options.
 
 __Step 4 –__ After that's done, immediately go back to Options and select the Passwords tab again. Figure 16 shows that the user's desired changes did not take effect because Endpoint Policy Manager Application Settings Manager has used ACL Lockdown™ to perform the lockout of the settings.
 
-![policypak_application_settings_15](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_15.png)
+![policypak_application_settings_15](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_15.webp)
 
 Figure 16. Using ACL Lockdown, the user's changes have not taken effect because the settings have been locked.
 

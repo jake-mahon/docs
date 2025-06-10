@@ -2,7 +2,7 @@
 
 The Resource Owners interface opened by the Resource Owners tab is where Ownership Administrators perform many operations around assigning and managing ownership.
 
-![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.png)
+![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The information displayed in the table includes:
 
@@ -18,7 +18,7 @@ The table data grid functions the same way as other table grids. See the [Data G
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.png)
+![Action buttons in the Resource Owners Interface](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.webp)
 
 | Button | Function |
 | --- | --- |

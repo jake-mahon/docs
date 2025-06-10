@@ -17,11 +17,11 @@ Some examples below of how a computer could be licensed and the types of output 
 
 ### How can I validate on a few endpoints that I am VALID and won't expire?
 
-![681_1_image-1](/img/product_docs/policypak/policypak/troubleshooting/license/681_1_image-1.png)
+![681_1_image-1](/img/product_docs/policypak/policypak/troubleshooting/license/681_1_image-1.webp)
 
 A second example, but this one using Enterprise Full (aka Enterprise+) licenses (only valid for CSE versions 23.6 and later):
 
-![681_3_image_950x735](/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.png)
+![681_3_image_950x735](/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
 - Use the ```PPUPDATE``` command which will always show if you are VALID and licensing type.
 - Example of a machine getting Universal licenses successfully:
@@ -32,7 +32,7 @@ Additional Examples for various circumstances are below.
 
 ## Example 1: Computer in the name, acts fully licensed for all components. Very useful for testing licensing issues.
 
-![681_4_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/681_4_img-01.png)
+![681_4_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/681_4_img-01.webp)
 
 ## Example 2: Completely unlicensed.
 
@@ -52,10 +52,10 @@ Additional Examples for various circumstances are below.
 
 ## Example 6: When a computer is licensed via multiple methods
 
-![681_14_image8_1490x882](/img/product_docs/policypak/policypak/troubleshooting/license/681_14_image8_1490x882.png)
+![681_14_image8_1490x882](/img/product_docs/policypak/policypak/troubleshooting/license/681_14_image8_1490x882.webp)
 
 ## Example 7: When a computer is licensed for SOME components via Endpoint Policy Manager Cloud
 
 __NOTE:__ The Expiry date expresses when the computer is required to check-in by to maintain the license; not the actual expiration date of all computers. (That information is only found in Endpoint Policy Manager Cloud Portal.)
 
-![681_16_e7_954x1262](/img/product_docs/policypak/policypak/troubleshooting/license/681_16_e7_954x1262.png)
+![681_16_e7_954x1262](/img/product_docs/policypak/policypak/troubleshooting/license/681_16_e7_954x1262.webp)

@@ -4,7 +4,7 @@ The process to properly uninstall the File System Proxy Service is completed thr
 
 __Step 1 –__ Open Control Panel and select __Programs__ > __Uninstall a program__.
 
-![Programs and Features](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.png)
+![Programs and Features](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.webp)
 
 __Step 2 –__ Select Netwrix Access Analyzer (formerly Enterprise Auditor) File System Scanning Proxy and click __Uninstall__.
 

@@ -17,7 +17,7 @@ Microsoft Group Policy Preferences are great because they let you configure 21 c
 - Device lock-down
 - Regional settings
 
-![about_policypak_gpo_export](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export.png)
+![about_policypak_gpo_export](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export.webp)
 
 Despite these advantages, Microsoft's Group Policy Preferences have some issues that cannot be overcome without a little help. That's where Endpoint Policy Manager Preferences Manager comes in.
 
@@ -54,6 +54,6 @@ Endpoint Policy Manager Preferences Manager has the following main components:
 - Endpoints — Endpoints must be licensed for Endpoint Policy Manager Preferences Manager using one of the licensing methods.
 - Endpoint Policy Manager Exporter (optional) — A free utility that lets you take Microsoft Group Policy Preferences and our other Endpoint Policy Manager XML data files and wrap them into a portable MSI file for deployment using Microsoft Endpoint Manager (SCCM and Intune), or your own systems management software.
 
-![about_policypak_gpo_export_1](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export_1.png)
+![about_policypak_gpo_export_1](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export_1.webp)
 
 Endpoint Policy Manager Preferences Manager does not require any particular type of domain controllers (DCs). Nothing is installed on any DC, and you don't need to extend the Active Directory schema. Additionally, you do not need to install any server components, upgrade any servers or DCs, or buy any server-side infrastructure. There is no requirement for domain mode or functional level. To be clear, every client computer (Windows 7 and higher) or Terminal Services (RDS)/Citrix machine (Windows Server 2008 or higher) must have the Endpoint Policy Manager CSE installed and licensed.

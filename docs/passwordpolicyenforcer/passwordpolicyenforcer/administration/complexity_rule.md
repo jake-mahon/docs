@@ -2,7 +2,7 @@
 
 The Complexity rule rejects passwords that do not contain characters from a variety of character sets. Using several character types can make passwords more difficult to crack.
 
-![Character Complexity Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/charcomplexity.png)
+![Character Complexity Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/charcomplexity.webp)
 
 Select the __Characters (Complexity)__ checkbox to enable the Character Complexity rule.
 

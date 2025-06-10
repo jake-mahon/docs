@@ -33,7 +33,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/filesystemattackssettings.png)
+![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/filesystemattackssettings.webp)
 
 Set the Number of Accessed Files and the Interval Duration that will trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 1:00. When a particular user causes the specified number of file changes to occur within the specified interval duration, it will trigger an incident record.
 
@@ -45,7 +45,7 @@ The File System Attacks (by user) Analytic Policy can be configured to enable au
 
 Policy Tab for Monitoring Only
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoring.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoring.webp)
 
 The __Policy__ tab for configuring analytics consists of the following sub-tabs:
 
@@ -64,7 +64,7 @@ The __Policy__ tab for configuring analytics consists of the following sub-tabs:
 
 Policy Tab for Monitoring & Lockdown
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoringlockdown.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoringlockdown.webp)
 
 When the __Enable Automatic Lockdown__ option is selected on the __Settings__ tab, the __Policy__ tab > __Event Type__ tab includes both the File System Lockdown Event Type and the File System Changes Event Type.
 
@@ -86,7 +86,7 @@ The __Policy__ tab for configuring analytics consists of the following sub-tabs:
 
 The data grid on the __File System Attacks (by user)__ node lists one row per incident identified.
 
-![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/fsattacks.png)
+![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/fsattacks.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

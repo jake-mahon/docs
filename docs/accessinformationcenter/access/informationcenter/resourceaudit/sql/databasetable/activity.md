@@ -2,7 +2,7 @@
 
 The Activity report at the database and table levels displays activity on the selected resource logged during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databasetable/databaseactivity.png)
+![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databasetable/databaseactivity.webp)
 
 This report is comprised of the following columns:
 

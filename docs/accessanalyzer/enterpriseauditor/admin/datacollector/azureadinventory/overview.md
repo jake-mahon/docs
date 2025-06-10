@@ -46,6 +46,6 @@ The AzureADInventory Data Collector is configured through the Entra ID Inventory
 - [AzureADInventory: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/results.md)
 - [AzureADInventory: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/summary.md)
 
-![Entra ID Inventory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Entra ID Inventory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Hide the Welcome page the next time this data collected is accessed by selecting the __Do not display this page the next time__ checkbox.

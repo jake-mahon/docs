@@ -68,7 +68,7 @@ The following is [mandatory](https://docs.microsoft.com/en-us/aspnet/core/host-a
 
 - __Application Pool__ > __Identity Manager ```<Organization>```__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
 
-![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
+![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.webp)
 
 This sums up IIS settings.
 
@@ -182,7 +182,7 @@ __Step 4 –__ Click on __OK__.
 
 __Step 5 –__ Select the newly added user name in the Group or user names panel at the top of the window.
 
-![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
+![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
 __Step 6 –__ Check the __Allow__ column for the relevant permissions. Check the __Deny__ column for the others. See the[Server](/docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 

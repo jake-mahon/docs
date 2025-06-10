@@ -12,7 +12,7 @@ The queries for the 0-FS\_Nasuni job use the PowerShell Data collector to gather
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
-![Queries for the 0-FS_Nasuni Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsnasuniquery.png)
+![Queries for the 0-FS_Nasuni Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsnasuniquery.webp)
 
 The queries for the 0-FS\_Nasuni job are:
 

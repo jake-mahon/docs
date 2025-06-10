@@ -17,18 +17,18 @@ You can create a custom change request form for User Provisioning. Refer to [Usi
 1. Open __Strongpoint__ > __Strongpoint Support__ > __Installation Settings__.
 2. Open the __Change Management__ tab.
 
-   ![Enabling Enhanced User Provisioning](/img/product_docs/strongpointfornetsuite/change_management/enhanced_user_provisioning.png)
+   ![Enabling Enhanced User Provisioning](/img/product_docs/strongpointfornetsuite/change_management/enhanced_user_provisioning.webp)
 3. Enable __Enhanced User Provisioning__.
 4. Enable the __Auto-Provisioning__ and __Auto-Role Removal__ options to automatically implement the changes when a __User Access Change Request__ is __Complete__.
 5. When __Enhanced User Provisioning__ is enabled, there are new __Access and Setup__ controls added to the __Policy Change Controls__ tab: __User Offboarding__ and __User Onboarding__:
 
-   ![New provisioning change controls](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_controls.png)
+   ![New provisioning change controls](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_controls.webp)
 
 ## Onboarding Users
 
 1. Open __Strongpoint__ > __Change Management Tools__ > __User Provisioning Change Request__.
 
-   ![New User Access Change Request form](/img/product_docs/strongpointfornetsuite/change_management/user_access_change_request.png)
+   ![New User Access Change Request form](/img/product_docs/strongpointfornetsuite/change_management/user_access_change_request.webp)
 2. Enter a descriptive __Name__ and __Change Overview__.
 3. Select __Role Additions__ for __Access type__.
 4. Enter one or more __Affected Employees__.
@@ -40,7 +40,7 @@ Once the request is approved, the roles are automatically added if you enabled _
 
 A compliant Change Log is generated:
 
-![A compliant change log is created](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_log.png)
+![A compliant change log is created](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_log.webp)
 
 The __Values__ tab shows the details of the role changes.
 
@@ -52,10 +52,10 @@ The __Values__ tab shows the details of the role changes.
 4. Check __Inactivate After Removal__ if the affected employees should be inactivated. This should only be checked if you are removing all of the employee's roles.
 5. Enter one or more __Affected Employees__. The __Get Roles for Affected Employees__ button is now visible.
 
-   ![Provisioning role reductions](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions.png)
+   ![Provisioning role reductions](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions.webp)
 6. Enter one or more __Affected Roles__. Or, click __Get Roles for Affected Employees__ to select from the current roles.
 
-   ![Select the roles to remove](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions_selector.png)
+   ![Select the roles to remove](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions_selector.webp)
 7. Enter an __Offboarding Date__ (YYYY-MM-DD) or select a date using the Calendar icon.
 8. Enter an __Offboarding Time__ (hh:mm am/pm).
 9. Select the __Timezone__.

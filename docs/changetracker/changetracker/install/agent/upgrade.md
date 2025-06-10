@@ -19,7 +19,7 @@ __Step 4 –__ Stop the NNT Agent App Service.
 
 - __For Windows__ – Either use the MS Services Console Run > services.msc or use Command Line as Administrator: ```sc stop NNTAgentService```
 
-![UpgradeAgentWindowsCommandPrompt](/img/product_docs/changetracker/changetracker/install/agent/upgradeagentwindowscommandprompt.png)
+![UpgradeAgentWindowsCommandPrompt](/img/product_docs/changetracker/changetracker/install/agent/upgradeagentwindowscommandprompt.webp)
 
 - __For Linux__ – Use: ```service nntagent stop```
 

@@ -37,7 +37,7 @@ Record Section
 Context Rule
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
-![Identities - Validity Period](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.png)
+![Identities - Validity Period](/img/product_docs/usercube/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.webp)
 
 At the start date, the resource is created and a few entitlements are assigned to the identity.
 

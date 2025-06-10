@@ -8,24 +8,24 @@ All available parameters are listed in the [SAP-Wiki](https://wiki.scn.sap.com/w
 Form
 Firstly, a [Forms](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/forms/forms.md) should be created with the required fields. This could look like this:
 
-![SAP form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_1-en.png)
+![SAP form](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_1-en.webp)
 
 ## Record
 
 A corresponding record is then created via the form:
 
-![SAP record](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_2-en.png)
+![SAP record](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_2-en.webp)
 
 ## Application
 
 A corresponding SSO application now needs to be created.
 
-![SAP Application](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_3-en.png)
+![SAP Application](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_3-en.webp)
 
 ## Link
 
 The record now needs to be linked with the application. To do this, open the context menu by right clicking on the record. The previously created application can then be selected here via __Applications__ and __Connect application__.
 
-![link record/application](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_4-en.png)
+![link record/application](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/sap/sap_gui_logon_4-en.webp)
 
 The link is then displayed in the ribbon. Clicking on the link will now open SAP, whereby the parameters for logging in to the application are directly transferred.

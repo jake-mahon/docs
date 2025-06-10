@@ -17,13 +17,13 @@ This page is about:
   Red Hat Directory Server
   ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
 
-![Package: Directory/Generic LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.png)
+![Package: Directory/Generic LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
 
-![Package: Directory/Oracle LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.png)
+![Package: Directory/Oracle LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.webp)
 
-![Package: Directory/Apache Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.png)
+![Package: Directory/Apache Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.webp)
 
-![Package: Directory/Red Hat Directory Server](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.png)
+![Package: Directory/Red Hat Directory Server](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.webp)
 
 ## Overview
 

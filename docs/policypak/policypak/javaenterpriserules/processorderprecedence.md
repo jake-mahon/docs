@@ -6,9 +6,9 @@ When you use Endpoint Policy Manager Java Rules Manager you might have multiple 
 
 Within a particular GPO (Computer or User side), the processing order is counted in numerical order. So, lower-numbered collections attempt to process first, and higher-numbered collections attempt to process last. Then, within any collection, each policy is processed in numerical order from lowest to highest.
 
-![using_policypak_java_rules_11](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_11.png)
+![using_policypak_java_rules_11](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_11.webp)
 
-![using_policypak_java_rules_12](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_12.png)
+![using_policypak_java_rules_12](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_12.webp)
 
 ## Precedence
 

@@ -8,7 +8,7 @@ NOTE: An initial password is required for the first login on Server Manager. The
 
 #### Status module
 
-![Status Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.png)
+![Status Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.webp)
 
 1. Ribbon
 
@@ -41,7 +41,7 @@ The server logbook can be sorted in ascending and descending order by date and d
 
 Databases are managed in a dedicated module. All relevant information on the existing databases can also be called up – completely without accessing the SQL server.
 
-![Databases Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.png)
+![Databases Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.webp)
 
 1. Ribbon
 
@@ -65,7 +65,7 @@ The database log is used to monitor and control the specific databases. All rele
 
 There is also a separate module for configuring the backups. This means that all backups can be configured and managed directly from the Server Manager.
 
-![backup-ac](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/backup-ac.png)
+![backup-ac](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/backup-ac.webp)
 
 1. Ribbon
 

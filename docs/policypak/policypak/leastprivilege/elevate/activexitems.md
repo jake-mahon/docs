@@ -8,11 +8,11 @@ Trying to install ActiveX controls as a Standard User is not allowed.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_activex_items.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_activex_items.webp)
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_activex_items_1.png)
+Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_activex_items_1.webp)
 
 You can use ActiveX rules and specify the CAB file you want to permit.
 

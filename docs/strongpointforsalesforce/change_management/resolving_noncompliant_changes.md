@@ -3,7 +3,7 @@
 Open __Netwrix Dashboard__ > __Reports__ > __Change Enablement__ > __Open NonCompliant Changes__  
 The Non-Compliant Changes Report gives you a list of the [Change Logs](/docs/strongpointforsalesforce/change_management/using_change_logs.md). You can filter the report or sort by the column heads.
 
-![Non-Compliant Change Management Report](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.png)
+![Non-Compliant Change Management Report](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 A noncompliant change means something got changed without the required approvals. Open each change log to investigate the change. You can retroactively attach a change request to a noncompliant change and get the necessary approvals for the change to be compliant.
 

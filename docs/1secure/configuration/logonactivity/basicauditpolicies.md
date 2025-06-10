@@ -16,7 +16,7 @@ __Step 4 –__ Configure the following audit policies.
 | Audit account logon events | _"Success"_ and _"Failure"_ |
 | Audit system events | _"Success"_ |
 
-![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.png)
+![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
 
 __Step 5 –__ Set the Audit system events policy to __Success__.
 

@@ -25,7 +25,7 @@ The Active Directory Permissions Analyzer Solution is designed to provide visibi
 
 The jobs which comprise the Active Directory Permissions Analyzer Job Group use the ADPermissions Data Collector and the PowerShell Data Collector to return advanced security permissions and process analysis tasks and generate reports. The collected data is then available to the Netwrix Access Information Center for analysis.
 
-![Active Directory Permissions Analyzer Solution Overview page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.png)
+![Active Directory Permissions Analyzer Solution Overview page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 The job groups and jobs in the Active Directory Permissions Analyzer Solution are:
 

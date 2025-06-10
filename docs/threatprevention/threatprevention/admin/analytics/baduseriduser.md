@@ -33,13 +33,13 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Bad User ID (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/baduseridsettings.png)
+![Bad User ID (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/baduseridsettings.webp)
 
 Set the __Number of Days__ for which repeated use of the same bad user account will be tallied. An incident will be triggered for every previously unseen bad user account that attempts login. Each additional attempt for the same bad user account will be added to the total number of attempts through the limit of days set here, e.g. 30 days. After this number of days has elapsed from the first attempt, a new incident will be triggered for any additional attempt with a new count.
 
 Policy Tab
 
-![Bad User ID (by User) Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.png)
+![Bad User ID (by User) Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
@@ -59,7 +59,7 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the __Bad User ID (by user)__ node lists one row per incident identified. These incidences are grouped per unique bad user name.
 
-![Bad User ID (by User) Analytic Type  window](/img/product_docs/threatprevention/threatprevention/admin/analytics/baduseriduser.png)
+![Bad User ID (by User) Analytic Type  window](/img/product_docs/threatprevention/threatprevention/admin/analytics/baduseriduser.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
 

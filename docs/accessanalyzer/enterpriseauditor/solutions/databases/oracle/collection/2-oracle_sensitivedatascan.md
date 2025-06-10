@@ -6,7 +6,7 @@ The 2-Oracle\_SensitiveDataScan job discovers sensitive data in Oracle databases
 
 The SensitiveDataScan Query uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup9.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeted instances
 
@@ -22,15 +22,15 @@ __Step 3 –__ Select the __Data Source__ tab and click __Configure__. The SQL D
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/optionspage.png)
+![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/optionspage.webp)
 
 __Step 4 –__ Navigate to the Options page. Enable or disable configuration options as needed. Click __Next__ to continue.
 
-![Criteria Page of the SQL Data Collector Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/criteriapage.png)
+![Criteria Page of the SQL Data Collector Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/criteriapage.webp)
 
 __Step 5 –__ Navigate to the Criteria page. Select or deselect criteria used to define sensitive data. Click __Next__ to continue.
 
-![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/2oraclesensitivedatascanfilterpgae.png)
+![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/2oraclesensitivedatascanfilterpgae.webp)
 
 __Step 6 –__ To query for specific databases/instances, navigate to the Filter page. The default query target is __All Databases__. The default query scope is __Only select database objects__. Click __Retrieve__. The Available database objects section will be populated. Databases and instances can be added in the following ways:
 
@@ -48,7 +48,7 @@ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __2-Oracle\_Sens
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup13.png)
+![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/jobgroup13.webp)
 
 The default analysis tasks are:
 

@@ -4,7 +4,7 @@ This information applies to __Select Account Type__ > __SQL Authentication__ in 
 
 __NOTE:__ SQL Authentication credentials are used in the Connection Profiles for the SQL, MySQL, and PostgreSQL Solutions.
 
-![User Credentials - SQL Authentication](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/sqlauthentication.png)
+![User Credentials - SQL Authentication](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/sqlauthentication.webp)
 
 The required credentials for SQL Authentication are:
 

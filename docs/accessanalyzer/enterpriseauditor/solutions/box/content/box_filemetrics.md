@@ -10,7 +10,7 @@ Navigate to __Box__ > __2.Content__ > __Box\_FileMetrics__ > __Configure__ node 
 
 __CAUTION:__ Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FileMetrics Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/content/filemetricsanalysis.png)
+![Analysis Tasks for the Box_FileMetrics Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/content/filemetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

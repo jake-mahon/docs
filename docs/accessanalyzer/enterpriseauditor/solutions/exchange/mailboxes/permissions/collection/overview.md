@@ -2,7 +2,7 @@
 
 The 0. Collection job group is comprised of data collection and analysis that focus on access granted to each mailbox in the environment including: Mailbox Rights, Active Directory Permissions, Delegation, and Folder Permissions.
 
-![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The jobs in the 0. Collection job group are:
 

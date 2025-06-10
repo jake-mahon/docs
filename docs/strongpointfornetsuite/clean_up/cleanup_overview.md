@@ -47,7 +47,7 @@ Consider deleting unused customizations, such as fields that have not been used 
 
 Most of the tools have the following columns. They might be in slightly different orders or omitted based on the type of clean up.
 
-![cleanupfields](/img/product_docs/strongpointfornetsuite/clean_up/cleanupfields.png)
+![cleanupfields](/img/product_docs/strongpointfornetsuite/clean_up/cleanupfields.webp)
 
 Sample Result:
 
@@ -94,7 +94,7 @@ The statuses are:
 - __Ignore__: Removes it from the searches.
 - __Specific tasks__: Fix Script Id and Reassign Owner.
 
-![faq-clean-up-status](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-status.png)
+![faq-clean-up-status](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-status.webp)
 
 You can report on these statuses to organize your work.
 
@@ -104,7 +104,7 @@ Some changes such as deletion, changes to scriptID and Help impact the customiza
 
 However, for Clean Up, you can create new change requests and assign them to the customizations. In the results view, “Create Change Request” creates a new change request. Once that is added to that customization it will appear under “Related Change Requests”. You can have multiple customizations assigned to multiple change requests as appropriate.
 
-![faq-clean-up-create-change-req](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-create-change-req.png)
+![faq-clean-up-create-change-req](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-create-change-req.webp)
 
 ### Manage the Change or Clean Up as Appropriate
 

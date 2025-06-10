@@ -6,7 +6,7 @@ This job collects Db2 database configuration settings for use in the following a
 
 The 3-Db2\_Configuration Job uses the SQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.png)
+![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.webp)
 
 The query is:
 

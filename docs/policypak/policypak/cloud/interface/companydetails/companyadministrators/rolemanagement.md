@@ -2,7 +2,7 @@
 
 Endpoint Policy Manager Cloud has a few roles that can be assigned to other admins. Each user's assigned roles can be seen in the __Role Management__ tab.
 
-![web_interface_and_controls_85_624x118](/img/product_docs/policypak/policypak/cloud/interface/companydetails/companyadministrators/web_interface_and_controls_85_624x118.png)
+![web_interface_and_controls_85_624x118](/img/product_docs/policypak/policypak/cloud/interface/companydetails/companyadministrators/web_interface_and_controls_85_624x118.webp)
 
 The following roles are available:
 

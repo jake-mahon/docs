@@ -2,7 +2,7 @@
 
 The __Host Discovery__ > __Discovery Log__ node lists host discovery logs. These logs house transactions that transpire during the running of host discovery and host inventory tasks.
 
-![Discovery Log](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/discoverylog.png)
+![Discovery Log](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/discoverylog.webp)
 
 The Discovery Log logging level is configured within the __Settings__ > __Host Discovery__ node. See the [Host Discovery](/docs/accessanalyzer/enterpriseauditor/admin/settings/hostdiscovery.md) topic for additional information.
 

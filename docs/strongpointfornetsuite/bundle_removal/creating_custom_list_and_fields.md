@@ -15,7 +15,7 @@ Seven custom fields and one custom list needs to be created for the bundle’s c
    5. Outside bundle referencing inside
    6. In bundle referenced by outside
 
-      ![Create a Custom List](/img/product_docs/strongpointfornetsuite/bundle_removal/customlist.png)
+      ![Create a Custom List](/img/product_docs/strongpointfornetsuite/bundle_removal/customlist.webp)
 
 ## Create Custom Fields
 

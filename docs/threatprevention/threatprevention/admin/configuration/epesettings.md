@@ -40,7 +40,7 @@ Click __Configuration > EPE Settings__ on the menu to open the EPE Settings wind
 
 __NOTE:__ The EPE Settings window is only available to Threat Prevention administrators.
 
-![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.png)
+![EPE Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/epesettings.webp)
 
 The window displays current hash database information and has the following configuration settings, displayed in sections on the window.
 
@@ -127,7 +127,7 @@ The User Feedback Module section has the following check boxes:
 - Enable EPE User Feedback Module – Select this checkbox to enable integration between an optional EPE User Feedback module and the Threat Prevention Agent on a domain controller. Click __Update__ to apply the current state of the checkbox to the module.
 - Use Custom Messages – Select this checkbox and click __Modify Messages__ to open the Custom Messages Editor window, where you can customize password rejection messages for the EPE User Feedback module.
 
-![Custom Messages Editor window](/img/product_docs/threatprevention/threatprevention/admin/configuration/custommessageseditor.png)
+![Custom Messages Editor window](/img/product_docs/threatprevention/threatprevention/admin/configuration/custommessageseditor.webp)
 
 By default, messages are available in the English language.
 
@@ -140,7 +140,7 @@ The string "{0}" is a placeholder populated at run time with specific values lea
 
 The following windows are global settings for the EPE Password Rules filter within the EPE Settings window. Whatever is configured in these windows is applied across all EPE Password Rules filter(s) in the Administration Console.
 
-![EPE Settings window - Rules area](/img/product_docs/threatprevention/threatprevention/admin/configuration/rules.png)
+![EPE Settings window - Rules area](/img/product_docs/threatprevention/threatprevention/admin/configuration/rules.webp)
 
 You can monitor or block an event with these global settings:
 
@@ -156,7 +156,7 @@ _Remember,_ for the password to be rejected, the user pending password must matc
 
 Click the __Modify Passwords Dictionary__ button in the Rules area on the EPE Settings window. The Password Dictionary window is displayed.
 
-![Password Dictionary window](/img/product_docs/threatprevention/threatprevention/admin/configuration/passworddictionary.png)
+![Password Dictionary window](/img/product_docs/threatprevention/threatprevention/admin/configuration/passworddictionary.webp)
 
 The buttons on the right have the following functions:
 
@@ -175,7 +175,7 @@ The Words List Dictionary window is a global setting used across all EPE policie
 
 Click the __Modify List of Words for Character Substitution__ button in the Rules area on the EPE Settings window. The Words List Dictionary window is displayed.
 
-![Words List Dictionary window](/img/product_docs/threatprevention/threatprevention/admin/configuration/wordslistdictionary.png)
+![Words List Dictionary window](/img/product_docs/threatprevention/threatprevention/admin/configuration/wordslistdictionary.webp)
 
 You can add, remove, and modify passwords here. The buttons on the right have the following functions:
 
@@ -197,7 +197,7 @@ For example: If “Goal” is added to the Word List Dictionary and A=@ and O=0 
 
 Click the Modify Character Substitution Mapping button in the Rules area on the EPE Settings window. The Substitution Editor window is displayed.
 
-![Substitution Editor window](/img/product_docs/threatprevention/threatprevention/admin/configuration/substitutioneditor.png)
+![Substitution Editor window](/img/product_docs/threatprevention/threatprevention/admin/configuration/substitutioneditor.webp)
 
 The Substitutions Editor has the following options:
 
@@ -239,7 +239,7 @@ __Step 2 –__ Run the following command:
 dotnet tool install --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_0](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_0.png)
+![hibp_installation_0](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_0.webp)
 
 __Step 3 –__ Close the command prompt.
 
@@ -255,7 +255,7 @@ __Step 2 –__ Run the following command:
 dotnet tool update --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_1](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_1.png)
+![hibp_installation_1](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_1.webp)
 
 Download NTML Hashes with the Pwnd Passwords Downloader
 
@@ -271,7 +271,7 @@ Run:
 haveibeenpwned-downloader.exe -n pwnedpasswords_ntlm
 ```
 
-![hibp_installation_3](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_3.png)
+![hibp_installation_3](/img/product_docs/threatprevention/threatprevention/admin/configuration/hibp_installation_3.webp)
 
 This screenshot shows the completed download.
 

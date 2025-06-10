@@ -6,6 +6,6 @@ This page is about [
 TSS
 ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/tss/index.md).
 
-![Package: Mainframe/Top Secret](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/topsecret/packages_tss_v603.png)
+![Package: Mainframe/Top Secret](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/topsecret/packages_tss_v603.webp)
 
 The documentation is not yet available for this page and will be completed in the near future.

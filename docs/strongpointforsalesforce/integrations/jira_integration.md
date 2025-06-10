@@ -41,7 +41,7 @@ You must be a Jira system administrator to install the __Strongpoint for Salesf
 2. Select __Apps__ > __Explore more Apps >__
 3. Search for __Strongpoint__.
 
-   ![Strongpoint apps in the Jira Marketplace](/img/product_docs/strongpointforsalesforce/integrations/jira_marketplace.png)
+   ![Strongpoint apps in the Jira Marketplace](/img/product_docs/strongpointforsalesforce/integrations/jira_marketplace.webp)
 4. Click __Strongpoint for Salesforce__ to install the app.
 
 #### Access Data with API Integration
@@ -56,7 +56,7 @@ Configure the connected app:
 2. Open the Connected App:  
    __Setup__ > __Apps__ > __App Manager__ > __Strongpoint__ (where __App Type__ = __Connected__)
 
-   ![Open the Strongpoint Connected App](/img/product_docs/strongpointforsalesforce/integrations/connected_app.png)
+   ![Open the Strongpoint Connected App](/img/product_docs/strongpointforsalesforce/integrations/connected_app.webp)
 3. Click the drop down arrow on the right side and select __Edit__.
 4. Set the __Callback URL__ to __https://spjira.my.salesforce-sites.com/SpHandleJiraAuth__
 5. These __Oauth Scopes__ must be selected:  
@@ -67,7 +67,7 @@ Configure the connected app:
    Your connected app requires 2-10 minutes after you save before it is available.
 7. Click __Manage Consumer Details__.
 
-   ![Click Manage Consumer Details](/img/product_docs/strongpointforsalesforce/integrations/manage_consumer_details.png)
+   ![Click Manage Consumer Details](/img/product_docs/strongpointforsalesforce/integrations/manage_consumer_details.webp)
 8. Copy the Consumer Key and the Consumer Secret codes to a clipboard. You are prompted for this information when you use the app.
 
 If you do not use a connected app, you can set up Jira Cloud Integration Credentials as an alternative.
@@ -77,7 +77,7 @@ If you do not use a connected app, you can set up Jira Cloud Integration Credent
 1. From the Netwrix Dashboard: click __Configuration and Stats__ in the __Resources__ section, or open __Settings__ > __Configuration and Stats__.
 2. Open the __Jira Configuration__ tab.
 
-   ![Open the credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.png)
+   ![Open the credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.webp)
 3. Enter your credentials:
 
    - __Jira Username__ is your Jira login email associated with your Jira API token.
@@ -96,7 +96,7 @@ Users opening a restricted project receive a information message, instructions f
 
 1. Open a Jira project.
 
-   ![Open a project](/img/product_docs/strongpointforsalesforce/integrations/jira_restrict_access1.png)
+   ![Open a project](/img/product_docs/strongpointforsalesforce/integrations/jira_restrict_access1.webp)
 2. Select __Strongpoint Sf Settings__.
 3. Select the __Project Visability Settings__ tab.
 4. Enter the name of the project in the __Visibility Settings__. The specified project is the only one that is available to the Platform Governance for Salesforce integration. Leave __Visibility Settings__ blank to allow all projects access.
@@ -118,7 +118,7 @@ Users opening a restricted project receive a information message, instructions f
    __Existing Groups__ are all of the current groups in Jira  
    __Selected Groups__ are groups that can see the Platform Governance for Salesforce Jira integration. If __Selected Groups__ is blank, all groups have access to the integration.
 
-   ![Profile Visibility Settings](/img/product_docs/strongpointforsalesforce/integrations/profile_visability1.png)
+   ![Profile Visibility Settings](/img/product_docs/strongpointforsalesforce/integrations/profile_visability1.webp)
 4. Select an existing group and click __Add__ to include it as a __Selected Group__. To remove a group from the selected list, select it and click __Remove__. If __Selected Groups__ is blank, all groups have access to the integration. If there are one or more groups, then access is restricted to the specified group.
 
 ## Set Up Status Mapping
@@ -127,7 +127,7 @@ Users opening a restricted project receive a information message, instructions f
 2. Open the __Jira Configuration__ tab.
 3. Open the __Status Mapping__ tab.
 
-   ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.png)
+   ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
 4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your [Jira statuses](#Jira-statuses) prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
 
    - __Approved Values__

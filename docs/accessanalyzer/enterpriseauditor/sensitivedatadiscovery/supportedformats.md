@@ -88,7 +88,7 @@ Sensitive Data Discovery can identify any file type, extract text, and extract m
 | Graphics Interchange Format (GIF) | .GIF, .GIFF |
 | Joint Photographic Experts Group (JPEG) | .JFI, .JFIF, .JIF, .JPE, .JPEG, .JPG |
 | Microsoft Windows Bitmap | .BMP, .DIB |
-| Portable Network Graphic | .PNG |
+| Portable Network Graphic | .webp |
 | Tagged Image File Format | .TIF, .TIFF |
 
 __NOTE:__ The __FileSystem__ > __0.Collection__ > __1-SEEK System Scans__ job can perform Optical Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the Sensitive Data Scan category. See the [1-SEEK System Scans Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/1-seek_system_scans.md) topic for additional information.
@@ -130,7 +130,7 @@ Sensitive Data Discovery can identify file type and extract only metadata from i
 
 | Document Format | Extension |
 | --- | --- |
-| Favicon | .GIF, .ICO, .JPG, .PNG |
+| Favicon | .GIF, .ICO, .JPG, .webp |
 | GIMP eXperimental Computing Facility (XCF) | .XCF |
 | OpenDocument: Graphics / Image Document | .ODG, .ODI, .OTG, .OTI |
 | Wireless Bitmap File Format | .WBMP |

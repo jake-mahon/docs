@@ -9,7 +9,7 @@ When an Exchange Lockdown policy is first enabled, operations that are expected 
 
 In Microsoft Outlook 2010, delegation through Outlook performs three operations:
 
-![Delegates window](/img/product_docs/threatprevention/threatprevention/troubleshooting/delegates.png)
+![Delegates window](/img/product_docs/threatprevention/threatprevention/troubleshooting/delegates.webp)
 
 - The delegate acquires __Send on Behalf of__ permission for the user’s mailbox
 - Outlook updates the ACLs for individual mailbox folders with the permissions that were set for the delegate on the Delegates tab
@@ -30,15 +30,15 @@ Impact of Lockdown Policies
 
 When both the Exchange Lockdown policy and the Active Directory Lockdown policy are enabled, performing delegation or folder permission changes will result in warnings.
 
-![warning](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.png)
+![warning](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.webp)
 
 The Active Directory Lockdown policy will block the Send on Behalf of permission changes.
 
-![Inbox Properties window](/img/product_docs/threatprevention/threatprevention/troubleshooting/inboxproperties.png)
+![Inbox Properties window](/img/product_docs/threatprevention/threatprevention/troubleshooting/inboxproperties.webp)
 
 A message will appear as follows:
 
-![permissionnotsaved](/img/product_docs/threatprevention/threatprevention/troubleshooting/permissionnotsaved.png)
+![permissionnotsaved](/img/product_docs/threatprevention/threatprevention/troubleshooting/permissionnotsaved.webp)
 
 The Exchange Lockdown policy blocks the folder permission changes.
 

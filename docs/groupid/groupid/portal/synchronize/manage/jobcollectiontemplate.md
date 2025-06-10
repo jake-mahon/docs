@@ -16,7 +16,7 @@ Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
 Step 2 – On the Synchronize portal, click __Job Collections__.
 
-Step 3 – In the Job Collections view, click ![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.png) on the job collection you want to save as a template and click __Save As Template__.
+Step 3 – In the Job Collections view, click ![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp) on the job collection you want to save as a template and click __Save As Template__.
 
 Step 4 – Now click __Job Collection Templates__ and refresh the page. The newly created job group template appears in the Job Collection Templates list.
 

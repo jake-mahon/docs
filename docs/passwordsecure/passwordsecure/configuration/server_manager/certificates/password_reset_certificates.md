@@ -4,7 +4,7 @@
 
 If a [Password Reset](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/password_reset.md) is created, a corresponding certificate is created. This ensures that the passwords are transferred in encrypted form.
 
-![password-reset](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password-reset.png)
+![password-reset](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password-reset.webp)
 
 NOTE: The Password Reset certificate cannot be replaced by your own certificate.
 

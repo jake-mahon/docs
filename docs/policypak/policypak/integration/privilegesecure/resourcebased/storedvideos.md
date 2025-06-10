@@ -4,4 +4,4 @@ Only when the session is closed and a video is successfully sent back to the Net
 
 Back at the Netwrix Privilege Secure server, your videos are found in the __Dashboard__ > __Historical videos__ section.
 
-![watching_stored_videos](/img/product_docs/policypak/policypak/integration/privilegesecure/resourcebased/watching_stored_videos.png)
+![watching_stored_videos](/img/product_docs/policypak/policypak/integration/privilegesecure/resourcebased/watching_stored_videos.webp)

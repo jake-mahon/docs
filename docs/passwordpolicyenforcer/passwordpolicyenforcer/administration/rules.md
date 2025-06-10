@@ -12,7 +12,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 The __Rules__ tab opens by default. A check mark beside a rule indicates that the rule is enabled (being enforced). Click a rule to set the rule's properties.
 
-![Enabled rules are checked](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledrules.png)
+![Enabled rules are checked](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledrules.webp)
 
 Review the sections on __Detecting Character Substitution__ and __Tolerance__ prior to setting up the rules for your policy.
 

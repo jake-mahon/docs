@@ -4,7 +4,7 @@ The Netwrix Integrations page provides the ability to configure access to the da
 
 Click __Configuration__ in the left pane. Then click the __Netwrix Integrations__ tab on the Configuration page to open the Netwrix Integrations page.
 
-![Netwrix Integrations page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/integrations.png)
+![Netwrix Integrations page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/integrations.webp)
 
 Follow the steps to configure access to the data of a Netwrix product.
 
@@ -23,10 +23,10 @@ __Step 5 –__ Recovery for Active Directory users do not have access to audit d
 
 - Click the Add account access button to add an account. The Add Account Access wizard is displayed.
 
-  ![Add Account Access wizard - Account page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/account.png)
+  ![Add Account Access wizard - Account page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/account.webp)
 - Enter a user's first or last name, display name, sAMAccountName, or group name in the __Search__ field. As you type, the system will find matches in Active Directory and display the results. Select the desired user and click __Next__.
 
-  ![Add Account Access wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.png)
+  ![Add Account Access wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 - The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
 The added account is displayed under Account on the Netwrix Integrations page. See the [Integration with Threat Prevention](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md#integration-with-threat-prevention) topic for additional information.

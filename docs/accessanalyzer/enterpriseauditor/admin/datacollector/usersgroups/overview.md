@@ -31,6 +31,6 @@ The UsersGroups Data Collector is configured through the Users and Groups Browse
 - [UsersGroups: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/usersgroups/results.md#usersgroupsresults)
 - [UsersGroups: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/usersgroups/summary.md#usersgroupssummary)
 
-![Users and Groups Browser wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.png)
+![Users and Groups Browser wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

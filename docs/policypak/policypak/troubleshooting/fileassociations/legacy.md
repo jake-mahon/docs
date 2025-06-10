@@ -14,7 +14,7 @@ Then, the setting you should use if directed by support is entitled:
 
 ```Computer Configuration | Policies | Admin Templates | PolicyPak ADMX Settings | Client-side Extensions | File Associations Manager | Revert to Legacy File Assoc Method & Features``` and set to Enabled to return back to the legacy behavior.
 
-![837_1_image-20201027212337-3](/img/product_docs/policypak/policypak/troubleshooting/fileassociations/837_1_image-20201027212337-3.png)
+![837_1_image-20201027212337-3](/img/product_docs/policypak/policypak/troubleshooting/fileassociations/837_1_image-20201027212337-3.webp)
 
 ## What does "Revert to Legacy File Assoc Method & Features" mean?
 

@@ -4,7 +4,7 @@ The Decline Access window opens from the Pending Access Requests Page of the Own
 
 __Step 1 –__  On the Pending Access Requests Page, select the desired request and click __Decline__. The Decline Access window opens.
 
-![Decline Access window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/declineaccess.png)
+![Decline Access window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/declineaccess.webp)
 
 __Step 2 –__ Optionally enter a reason for denying the request, which will be included in the notification sent to the requester.
 
@@ -12,7 +12,7 @@ __Step 3 –__  Click __Decline__ to cancel the request.
 
 __NOTE:__ You can click __Cancel__ to close the window without denying the request.
 
-![Saving Request window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/savingrequest.png)
+![Saving Request window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/savingrequest.webp)
 
 __Step 4 –__ The Access Information Center starts the action with the status displayed in the Saving request window. When the action completes successfully, click __OK__ to close the Saving request window.
 

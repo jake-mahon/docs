@@ -2,7 +2,7 @@
 
 Use the Category page to select the type of scan for the targeted AWS instance or maintenance task to perform.
 
-![AWS Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![AWS Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The options on the Category page are:
 

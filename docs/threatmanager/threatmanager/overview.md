@@ -8,7 +8,7 @@ Threat Manager can also deliver threat data to administrators in their preferred
 
 The following diagram is a visual representation of Threat Manager architecture. It maps out the physical implementation of Threat Manager components.
 
-![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/threatmanager/tmarch.png)
+![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/threatmanager/tmarch.webp)
 
 ## Administration
 

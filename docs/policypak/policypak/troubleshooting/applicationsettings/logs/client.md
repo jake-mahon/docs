@@ -38,6 +38,6 @@ Table 2: Endpoint Policy Manager Application Settings Manager log files.
 
 You can see an example of the contents of the logs in Figure 101.
 
-![troubleshooting_policypak_5](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_5.png)
+![troubleshooting_policypak_5](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_5.webp)
 
 Figure 101. An example of the logs.

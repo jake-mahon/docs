@@ -2,7 +2,7 @@
 
 The 4.Group Policy Job Group audits GPOs and their settings, and provides in depth analysis of conditions such as where GPOs have been linked, misconfigurations that can cause security or operational issues, and redundant GPOs that can be consolidated.
 
-![4.Group Policy Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![4.Group Policy Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following components comprise the 4.Group Policy Job Group:
 

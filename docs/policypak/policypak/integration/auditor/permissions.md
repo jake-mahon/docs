@@ -5,7 +5,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) MMC to view Netwrix Auditor
 a few things you need to do to minimize or eliminate these requests. An example authentication request can be seen
 here.
 
-![969_1_image-20231017185713-1_950x344](/img/product_docs/policypak/policypak/integration/auditor/969_1_image-20231017185713-1_950x344.png)
+![969_1_image-20231017185713-1_950x344](/img/product_docs/policypak/policypak/integration/auditor/969_1_image-20231017185713-1_950x344.webp)
 
 __NOTE:__ First, note that if your browser
 is Firefox you must set the "URIS / SPNEGO" settings to passthru authentication requests. One way to
@@ -18,7 +18,7 @@ default browser, these steps are un-necessary and you will likely not be prompte
 However, you might also be denied
 access to the specific Endpoint Policy Manager report, like what's seen here.
 
-![969_2_image-20231017185713-2_950x355](/img/product_docs/policypak/policypak/integration/auditor/969_2_image-20231017185713-2_950x355.png)
+![969_2_image-20231017185713-2_950x355](/img/product_docs/policypak/policypak/integration/auditor/969_2_image-20231017185713-2_950x355.webp)
 
 __Step 1 –__ To correct for this and ensure
 the highlighted user in the previous screenshot (or group the person is a member of) has access, you there are a
@@ -37,7 +37,7 @@ __Step 2 –__ Then from the Home screen, click
 the three dots next to the Endpoint Policy Manager reporting folder (note it could have a different name if it was set up in a
 unique fashion.) Then click Manage.
 
-![969_3_image-20231017185713-3_950x439](/img/product_docs/policypak/policypak/integration/auditor/969_3_image-20231017185713-3_950x439.png)
+![969_3_image-20231017185713-3_950x439](/img/product_docs/policypak/policypak/integration/auditor/969_3_image-20231017185713-3_950x439.webp)
 
 __Step 3 –__ Then add in your DOMAIN\GROUP or
 DOMAIN\USER like what's seen here and select Browser role and select OK (figure on the left).
@@ -45,10 +45,10 @@ DOMAIN\USER like what's seen here and select Browser role and select OK (figure 
 The result can be seen in the
 figure on the right.
 
-![969_4_image-20231017185713-4_950x351](/img/product_docs/policypak/policypak/integration/auditor/969_4_image-20231017185713-4_950x351.png)
+![969_4_image-20231017185713-4_950x351](/img/product_docs/policypak/policypak/integration/auditor/969_4_image-20231017185713-4_950x351.webp)
 
 Final result
 can be seen here where the user is now permitted to see the Endpoint Policy Manager
 report.
 
-![969_5_image-20231017185713-5_950x730](/img/product_docs/policypak/policypak/integration/auditor/969_5_image-20231017185713-5_950x730.png)
+![969_5_image-20231017185713-5_950x730](/img/product_docs/policypak/policypak/integration/auditor/969_5_image-20231017185713-5_950x730.webp)

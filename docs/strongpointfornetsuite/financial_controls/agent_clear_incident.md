@@ -8,7 +8,7 @@ Here is the process to clear/resolve a control incident:
 2. Click on the __Customization__ to display the incidents.
 3. Click __Edit__ on the Incident record to clear/resolve.
 
-   ![Clearing a Control Incident](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident.png)
+   ![Clearing a Control Incident](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident.webp)
 4. Add the __Resolution Description__.
 5. Set __Status__ to __Closed__.
 6. __Save__ the Change Log.
@@ -21,4 +21,4 @@ Alternatively, you can complete this process by inline editing of the Unresolved
 2. Click on the red pencil icon in the column head. Columns without the pencil icon cannot be edited.
 3. Click in the column to open a text box.
 
-![Clearing an incident with inline editing](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident_inline.png)
+![Clearing an incident with inline editing](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident_inline.webp)

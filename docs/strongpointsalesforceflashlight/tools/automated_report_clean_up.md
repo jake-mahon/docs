@@ -21,7 +21,7 @@ Report Clean Up rules are created by the administrator and used to locate Report
 
 To create or edit rules, access __Flashlight__ > __Tools__ > __Automated Report Clean Up Tool__ > __Report Clean Up Rules__
 
-![automated_report_cleanup_800x555](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_800x555.png)
+![automated_report_cleanup_800x555](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_800x555.webp)
 
 - __Name__ is the assigned name for the __Report Clean Up Rule Record__.
 - __Description__ is the purpose of the rule record. An informative description helps administrators easily maintain and identify rules.
@@ -61,7 +61,7 @@ The __Preview__ function provides a quick method to mark reports to be retained 
 3. Click [Run Now](#Run-Now) to begin a Report Clean Up for the rule.
 4. After previewing, you can click __Automatic__ on the Report Clean Up Rule to include the rule for automatic reports.
 
-![automated_report_cleanup_preview_800x264](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_preview_800x264.png)
+![automated_report_cleanup_preview_800x264](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_preview_800x264.webp)
 
 #### Run Now
 
@@ -110,7 +110,7 @@ Open __Flashlight__ > __Tools__ > __Automated Report Clean Up Tool__ > __Report 
   __Canceled__ - __[Automatic](#Automatic)__ checkbox was turned off for the rule.
 - __Automatic__: rule is set to __Automatic__ if checked.
 
-![automated_report_cleanup_status_800x366](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_status_800x366.png)
+![automated_report_cleanup_status_800x366](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_status_800x366.webp)
 
 ### Retaining a Report
 
@@ -132,7 +132,7 @@ If report owners or users do not click on __Retain this report__ in the email no
 - A __Restore__ button is added to the __Clean Up__ tab on the customization record for the report.
 - Auto Archive notifications are sent to the rule owner and administrators. A __Restore__ link is included in the email.
 
-![automated_report_cleanup_archive_800x340](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_archive_800x340.png)
+![automated_report_cleanup_archive_800x340](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_archive_800x340.webp)
 
 ### Restoring an Auto Archived Report
 

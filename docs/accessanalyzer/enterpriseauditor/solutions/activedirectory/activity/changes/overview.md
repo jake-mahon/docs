@@ -2,7 +2,7 @@
 
 The Changes Job Group provides an audit trail for changes made to Computer, Group and User objects within the environment.
 
-![Changes Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Changes Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following Jobs make up the Changes Job Group:
 

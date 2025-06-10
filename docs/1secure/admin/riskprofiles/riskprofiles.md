@@ -17,7 +17,7 @@ __Step 1 –__ Click __Configuration__ in the top bar. The Managed organizations
 
 __Step 2 –__ In the left pane, click __Risk profiles__.The Risk profiles page is displayed.
 
-![Risk profiles list](/img/product_docs/1secure/admin/riskprofiles/riskprofiles.png)
+![Risk profiles list](/img/product_docs/1secure/admin/riskprofiles/riskprofiles.webp)
 
 Risk profiles are displayed in the list with the following information:
 
@@ -38,7 +38,7 @@ __Step 2 –__ In the left pane, click __Risk profiles__.The Risk profiles page 
 
 __Step 3 –__ Click __Add profile__. The New risk profile pane is displayed.
 
-![New risk profile pane](/img/product_docs/1secure/admin/riskprofiles/newriskprofilepane.png)
+![New risk profile pane](/img/product_docs/1secure/admin/riskprofiles/newriskprofilepane.webp)
 
 __Step 4 –__ Enter a name for the risk profile in the Name field and click __Save__.
 

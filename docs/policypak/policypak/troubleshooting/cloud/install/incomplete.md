@@ -13,7 +13,7 @@ be deleted so it can be re-downloaded. Please review the steps below to determin
 As the PPC Client is already downloaded, it's the CSE that would be the issue here. You'll get indication
 something is wrong when the Installation complete. You may end up with a message something like this:
 
-![968_1_image-20230925200947-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/968_1_image-20230925200947-1.png)
+![968_1_image-20230925200947-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/968_1_image-20230925200947-1.webp)
 
 Note missing group membership.
 

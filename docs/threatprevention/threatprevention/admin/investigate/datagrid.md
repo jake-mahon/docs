@@ -11,7 +11,7 @@ __Step 2 –__ To expand the grid view, do either of the following:
 - Collapse the individual filter category sections
 - Use the arrow between the filter categories and the grid view to collapse the entire filter category section
 
-![Investigate interface - Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.png)
+![Investigate interface - Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
 
 __Step 3 –__ Select the __Production__ or __Archive__ option button to view events from the respective database.
 
@@ -72,7 +72,7 @@ Each column in the data grid has a prefix identifying the type of information di
 
 Select an event in the data grid to view additional information for it at the bottom of the Investigate interface.
 
-![Investigate Interface - Attributes area](/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.png)
+![Investigate Interface - Attributes area](/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.webp)
 
 The following information (as applicable to the event) is displayed:
 

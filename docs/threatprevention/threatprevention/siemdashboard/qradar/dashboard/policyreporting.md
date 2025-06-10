@@ -6,7 +6,7 @@ The Policies tab on the left side of the dashboard toggles the Policies panel op
 
 The Policy Reporting dashboard contains the following cards:
 
-![policyreporting](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/policyreporting.png)
+![policyreporting](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/policyreporting.webp)
 
 - Activity (Successful/Blocked) – Timeline of successful/failed/blocked events related to the selected policy that have been recorded in the specified timeframe. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Successful/Blocked Events – Breakdown of events related to the selected policy that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.

@@ -60,7 +60,7 @@ In the __Categories__ list on the __Filter__ dialog box, select one of the follo
    - Click __Send__ for a notification in the __Actions__ column to send it urgently.
    - To send multiple notifications, select the check boxes for those notifications. To select all notifications, select the check box in the header row. This displays the following icons:
 
-     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
+     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.webp)
 
      Click the __Send__ icon to send the selected notifications urgently.
 
@@ -77,7 +77,7 @@ To delete a notification:
    - Click __Delete__ for a notification in the __Actions__ column to delete it.
    - To delete multiple notifications, select the check boxes for those notifications. To select all notifications, select the check box in the header row. This displays the following icons:
 
-     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.png)
+     ![send_refresh](/img/product_docs/groupid/groupid/admincenter/notification/send_refresh.webp)
 
      Click the __Delete__ icon to delete the selected notifications.
 
