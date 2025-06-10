@@ -1,0 +1,1957 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-usercube docs-version-current docs-doc-page docs-doc-id-usercube/integration-guide/profiles-permissions/permissions/index" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">References: Permissions | Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.yourcompany.com/img/Logo_RGB.svg"><meta data-rh="true" name="twitter:image" content="https://docs.yourcompany.com/img/Logo_RGB.svg"><meta data-rh="true" property="og:url" content="https://docs.yourcompany.com/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-usercube-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-usercube-current"><meta data-rh="true" property="og:title" content="References: Permissions | Documentation"><meta data-rh="true" name="description" content="Here is a list of permissions required for different user profiles:"><meta data-rh="true" property="og:description" content="Here is a list of permissions required for different user profiles:"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.yourcompany.com/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/"><link data-rh="true" rel="alternate" href="https://docs.yourcompany.com/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.yourcompany.com/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/" hreflang="x-default"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"><link rel="stylesheet" href="/assets/css/styles.4cbdd69d.css">
+<script src="/assets/js/runtime~main.a42836f1.js" defer="defer"></script>
+<script src="/assets/js/main.3131faef.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/branding/logo.svg" alt="Netwrix Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/branding/logo.svg" alt="Netwrix Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Products</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/docs/1secure">1Secure</a></li><li><a class="dropdown__link" href="/docs/accessanalyzer">Access Analyzer</a></li><li><a class="dropdown__link" href="/docs/accessinformationcenter">Access Information Center</a></li><li><a class="dropdown__link" href="/docs/activitymonitor">Activity Monitor</a></li><li><a class="dropdown__link" href="/docs/auditor">Auditor</a></li><li><a class="dropdown__link" href="/docs/changetracker">Change Tracker</a></li><li><a class="dropdown__link" href="/docs/dataclassification">Data Classification</a></li><li><a class="dropdown__link" href="/docs/groupid">Group ID</a></li><li><a class="dropdown__link" href="/docs/passwordpolicyenforcer">Password Policy Enforcer</a></li><li><a class="dropdown__link" href="/docs/passwordreset">Password Reset</a></li><li><a class="dropdown__link" href="/docs/passwordsecure">Password Secure</a></li><li><a class="dropdown__link" href="/docs/policypak">PolicyPak</a></li><li><a class="dropdown__link" href="/docs/privilegesecure">Privilege Secure</a></li><li><a class="dropdown__link" href="/docs/recoveryforactivedirectory">Recovery for Active Directory</a></li><li><a class="dropdown__link" href="/docs/strongpointfornetsuite">StrongPoint for NetSuite</a></li><li><a class="dropdown__link" href="/docs/strongpointforsalesforce">StrongPoint for Salesforce</a></li><li><a class="dropdown__link" href="/docs/strongpointnetsuiteflashlight">StrongPoint NetSuite Flashlight</a></li><li><a class="dropdown__link" href="/docs/strongpointsalesforceflashlight">StrongPoint Salesforce Flashlight</a></li><li><a class="dropdown__link" href="/docs/threatmanager">Threat Manager</a></li><li><a class="dropdown__link" href="/docs/threatprevention">Threat Prevention</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/usercube">UserCube</a></li><li><a class="dropdown__link" href="/docs/usercube_saas">UserCube SaaS</a></li></ul></div></div><div class="navbar__items navbar__items--right"><a href="http://github.com/netwrix" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/usercube/">Usercube</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/usercube/usercube/">A software solution to match your IGA needs</a><button aria-label="Collapse sidebar category &#x27;A software solution to match your IGA needs&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/installation-guide/">Installation Guide</a><button aria-label="Expand sidebar category &#x27;Installation Guide&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" tabindex="0" href="/docs/usercube/usercube/integration-guide/">Integration Guide</a><button aria-label="Collapse sidebar category &#x27;Integration Guide&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/api/">API</a><button aria-label="Expand sidebar category &#x27;API&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/architecture/">Architecture</a><button aria-label="Expand sidebar category &#x27;Architecture&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/connectors/">Connectors</a><button aria-label="Expand sidebar category &#x27;Connectors&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/integration-guide/entity-model/">Entity Model</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/executables/">Executables</a><button aria-label="Expand sidebar category &#x27;Executables&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/governance/">Governance</a><button aria-label="Expand sidebar category &#x27;Governance&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/identity-management/">Identity Management</a><button aria-label="Expand sidebar category &#x27;Identity Management&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/integration-guide/modules/">Modules</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/monitoring/">Monitoring</a><button aria-label="Expand sidebar category &#x27;Monitoring&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/network-configuration/">Network Configuration</a><button aria-label="Expand sidebar category &#x27;Network Configuration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/notifications/">Notifications</a><button aria-label="Expand sidebar category &#x27;Notifications&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" tabindex="0" href="/docs/usercube/usercube/integration-guide/profiles-permissions/">Profiles &amp; Permissions</a><button aria-label="Collapse sidebar category &#x27;Profiles &amp; Permissions&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/usercube/usercube/integration-guide/profiles-permissions/how-tos/create-assign-profiles/">how-tos</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/">References: Permissions</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/provisioning/">Provisioning</a><button aria-label="Expand sidebar category &#x27;Provisioning&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/integration-guide/resources/">Resources</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/role-assignment/">Role Assignment</a><button aria-label="Expand sidebar category &#x27;Role Assignment&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/integration-guide/role-mining/">Role Mining</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/role-model/">Role Model</a><button aria-label="Expand sidebar category &#x27;Role Model&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/integration-guide/simulation/">Simulation</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/synchronization/">Synchronization</a><button aria-label="Expand sidebar category &#x27;Synchronization&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/tasks-jobs/">Tasks &amp; Jobs</a><button aria-label="Expand sidebar category &#x27;Tasks &amp; Jobs&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/toolkit/">Toolkit for XML Configuration</a><button aria-label="Expand sidebar category &#x27;Toolkit for XML Configuration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/ui/">User Interface</a><button aria-label="Expand sidebar category &#x27;User Interface&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/integration-guide/workflows/">Workflows</a><button aria-label="Expand sidebar category &#x27;Workflows&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/introduction-guide/">Introduction Guide</a><button aria-label="Expand sidebar category &#x27;Introduction Guide&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/migration-guide/">Migration Guide</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/usercube/usercube/user-guide/">User Guide</a><button aria-label="Expand sidebar category &#x27;User Guide&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/usercube/usercube/whatsnew/">What&#x27;s New</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/usercube/usercube/"><span itemprop="name">A software solution to match your IGA needs</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/usercube/usercube/integration-guide/"><span itemprop="name">Integration Guide</span></a><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/usercube/usercube/integration-guide/profiles-permissions/"><span itemprop="name">Profiles &amp; Permissions</span></a><meta itemprop="position" content="3"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">References: Permissions</span><meta itemprop="position" content="4"></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>References: Permissions</h1></header>
+<p>Here is a list of permissions required for different user profiles:</p>
+<ul>
+<li>
+<p>/AccessCertification/AccessCertificationCampaign/Create</p>
+<p>Permission to create objects of type AccessCertificationCampaign.</p>
+</li>
+<li>
+<p>/AccessCertification/AccessCertificationCampaign/Delete</p>
+<p>Permission to delete objects of type AccessCertificationCampaign.</p>
+</li>
+<li>
+<p>/AccessCertification/AccessCertificationCampaign/Process</p>
+<p>Permission to process AccessCertificationCampaign decisions.</p>
+</li>
+<li>
+<p>/AccessCertification/AccessCertificationCampaign/Query</p>
+<p>Permission to query and read objects of type AccessCertificationCampaign.</p>
+</li>
+<li>
+<p>/AccessCertification/AccessCertificationCampaign/Update</p>
+<p>Permission to update objects of type AccessCertificationCampaign.</p>
+</li>
+<li>
+<p>/AccessCertification/AccessCertificationCampaignPolicy/Query</p>
+<p>Permission to query and read objects of type AccessCertificationCampaignPolicy.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlEntry/Create</p>
+<p>Permission to create objects of type AccessControlEntry.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlEntry/Delete</p>
+<p>Permission to delete objects of type AccessControlEntry.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlEntry/Query</p>
+<p>Permission to query and read objects of type AccessControlEntry.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlEntry/Update</p>
+<p>Permission to update objects of type AccessControlEntry.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlFilter/Create</p>
+<p>Permission to create objects of type AccessControlFilter.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlFilter/Delete</p>
+<p>Permission to delete objects of type AccessControlFilter.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlFilter/Query</p>
+<p>Permission to query and read objects of type AccessControlFilter.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlFilter/Update</p>
+<p>Permission to update objects of type AccessControlFilter.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlPermission/Query</p>
+<p>Permission to query and read objects of type AccessControlPermission.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlRule/Create</p>
+<p>Permission to create objects of type AccessControlRule.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlRule/Delete</p>
+<p>Permission to delete objects of type AccessControlRule</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlRule/Query</p>
+<p>Permission to query and read objects of type AccessControlRule.</p>
+</li>
+<li>
+<p>/AccessControl/AccessControlRule/Update</p>
+<p>Permission to update objects of type AccessControlRule.</p>
+</li>
+<li>
+<p>/AccessControl/AssignedProfile/Create</p>
+<p>Permission to create objects of type AssignedProfile.</p>
+</li>
+<li>
+<p>/AccessControl/AssignedProfile/Delete</p>
+<p>Permission to delete objects of type AssignedProfile.</p>
+</li>
+<li>
+<p>/AccessControl/AssignedProfile/Query</p>
+<p>Permission to query and read objects of type AssignedProfile.</p>
+</li>
+<li>
+<p>/AccessControl/AssignedProfile/Update</p>
+<p>Permission to update objects of type AssignedProfile.</p>
+</li>
+<li>
+<p>/AccessControl/OpenIdClient/Create</p>
+<p>Permission to create objects of type OpenIdClient.</p>
+</li>
+<li>
+<p>/AccessControl/OpenIdClient/Delete</p>
+<p>Permission to delete objects of type OpenIdClient.</p>
+</li>
+<li>
+<p>/AccessControl/OpenIdClient/Query</p>
+<p>Permission to query and read objects of type OpenIdClient.</p>
+</li>
+<li>
+<p>/AccessControl/OpenIdClient/Update</p>
+<p>Permission to update objects of type OpenIdClient.</p>
+</li>
+<li>
+<p>/AccessControl/Profile/Create</p>
+<p>Permission to create objects of type Profile.</p>
+</li>
+<li>
+<p>/AccessControl/Profile/Delete</p>
+<p>Permission to delete objects of type Profile.</p>
+</li>
+<li>
+<p>/AccessControl/Profile/Query</p>
+<p>Permission to query and read objects of type Profile.</p>
+</li>
+<li>
+<p>/AccessControl/Profile/Update</p>
+<p>Permission to update objects of type Profile.</p>
+</li>
+<li>
+<p>/AccessControl/ProfileRuleContext/Query</p>
+<p>Permission to query and read objects of type ProfileRuleContext.</p>
+</li>
+<li>
+<p>/Connectors/Agent/Create</p>
+<p>Permission to create objects of type Agent.</p>
+</li>
+<li>
+<p>/Connectors/Agent/Delete</p>
+<p>Permission to delete objects of type Agent.</p>
+</li>
+<li>
+<p>/Connectors/Agent/Query</p>
+<p>Permission to query and read objects of type Agent.</p>
+</li>
+<li>
+<p>/Connectors/Agent/Update</p>
+<p>Permission to update objects of type Agent.</p>
+</li>
+<li>
+<p>/Connectors/Connection/Create</p>
+<p>Permission to create objects of type Connection.</p>
+</li>
+<li>
+<p>/Connectors/Connection/Delete</p>
+<p>Permission to delete objects of type Connection.</p>
+</li>
+<li>
+<p>/Connectors/Connection/Query</p>
+<p>Permission to query and read objects of type Connection.</p>
+</li>
+<li>
+<p>/Connectors/Connection/Update</p>
+<p>Permission to update objects of type Connection.</p>
+</li>
+<li>
+<p>/Connectors/ConnectionColumn/Query</p>
+<p>Permission to query and read objects of type ConnectionColumn.</p>
+</li>
+<li>
+<p>/Connectors/ConnectionPackage/Query</p>
+<p>Permission to query and read objects of type ConnectionPackage.</p>
+</li>
+<li>
+<p>/Connectors/ConnectionTable/Query</p>
+<p>Permission to query and read objects of type ConnectionTable.</p>
+</li>
+<li>
+<p>/Connectors/Connector/Create</p>
+<p>Permission to create objects of type Connector.</p>
+</li>
+<li>
+<p>/Connectors/Connector/Delete</p>
+<p>Permission to delete objects of type Connector.</p>
+</li>
+<li>
+<p>/Connectors/Connector/Query</p>
+<p>Permission to query and read objects of type Connector.</p>
+</li>
+<li>
+<p>/Connectors/Connector/Update</p>
+<p>Permission to delete objects of type EntityAssociationMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityAssociationMapping/Create</p>
+<p>Permission to create objects of type EntityAssociationMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityAssociationMapping/Delete</p>
+<p>Permission to delete objects of type EntityAssociationMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityAssociationMapping/Query</p>
+</li>
+<li>
+<p>Permission to query and read objects of type EntityAssociationMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityAssociationMapping/Update</p>
+<p>Permission to update objects of type EntityAssociationMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityPropertyMapping/Create</p>
+<p>Permission to create objects of type EntityPropertyMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityPropertyMapping/Delete</p>
+<p>Permission to delete objects of type EntityPropertyMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityPropertyMapping/Query</p>
+<p>Permission to query and read objects of type EntityPropertyMapping.</p>
+</li>
+<li>
+<p>/Connectors/EntityPropertyMapping/Update</p>
+<p>Permission to update objects of type EntityPropertyMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityTypeMapping/Create</p>
+<p>Permission to create objects of type EntityTypeMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityTypeMapping/Delete</p>
+<p>Permission to delete objects of type EntityTypeMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityTypeMapping/Query</p>
+<p>Permission to query and read objects of type EntityTypeMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityTypeMapping/Update</p>
+<p>Permission to update objects of type EntityTypeMapping</p>
+</li>
+<li>
+<p>/Connectors/EntityTypeMappingByConnectorIdQuery/Query</p>
+<p>Permission to query and read objects of type EntityTypeMappingByConnectorIdQuery</p>
+</li>
+<li>
+<p>/Connectors/PasswordResetContextsByIdsQuery/Query</p>
+<p>Permission to query and read objects of type PasswordResetContextsByIdsQuery</p>
+</li>
+<li>
+<p>/Connectors/ProvisionerResourceTypeMapping/Query</p>
+<p>Permission to query and read objects of type ProvisionerResourceTypeMapping</p>
+</li>
+<li>
+<p>/Connectors/ProvisioningSession</p>
+<p>Permission to get provisioning orders from server for a connector.</p>
+</li>
+<li>
+<p>/Connectors/ResourceTypeMapping/Query</p>
+<p>Permission to query and read objects of type ResourceTypeMapping (resource types&#x27; fulfill settings in the UI) when launching a resource-type-related job.</p>
+</li>
+<li>
+<p>/Connectors/SynchronizeSession</p>
+<p>Permission to send connector files to the server.</p>
+</li>
+<li>
+<p>/Custom/AccessCertification/AutoAssigned/<code>{entityType_identifier}</code></p>
+<p>Permission to be automatically assigned to an access certification item corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/AccessCertification/ManualAssigned/<code>{entityType_identifier}</code></p>
+<p>Permission to be manually assigned to an access certification item corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/ManageAccounts/<code>{entityType_identifier}</code></p>
+<p>Permission to display the Manage Accounts menu for resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/AssignedRoles/<code>{entityType_identifier}</code></p>
+<p>Permission to view the roles assigned to an object of type entityType_identifier.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/BulkPerformManualProvisioning/<code>{entityType_identifier}</code></p>
+<p>Permission to perform bulk validations on the <strong>Manual Provisioning</strong> page.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/BulkReconciliateResources/<code>{entityType_identifier}</code></p>
+<p>Permission to perform bulk validations on the <strong>Resource Reconciliation</strong> page.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/BulkReviewProvisioning/<code>{entityType_identifier}</code></p>
+<p>Permission to perform bulk validations on the <strong>Provisioning Review</strong> page (only for errored orders).</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/BulkRoleReconciliation/<code>{entityType_identifier}</code></p>
+<p>Permission to perform bulk validations on the <strong>Role Reconciliation</strong> page.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/PendingAssignedResourceTypes/<code>{resourceType_identifier}</code></p>
+<p>Permission to query and read all the pending assigned resource types linked to <code>{resourceType_identifier}</code>.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/PerformManualProvisioning/<code>{entityType_identifier}</code></p>
+<p>Permission to perform manual provisioning, access the corresponding screens and be notified accordingly, when <code>{entityType_identifier}</code> is the source entity type.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/ReconciliateResources/<code>{entityType_identifier}</code></p>
+<p>Permission to reconcile resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/ReconciliateRoles/<code>{entityType_identifier}</code></p>
+<p>Permission to reconcile role corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/ReviewProvisioning/<code>{entityType_identifier}</code></p>
+<p>Permission to review provisioning corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>The permission&#x27;s recipient will receive a notification email.</p>
+<p><strong>NOTE:</strong> In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.</p>
+<p>For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows a profile to perform manual provisioning with Directory_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.</p>
+<p>Each permission can be configured in an access control entry so that the corresponding notification is disabled. See the <a href="/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/">Access Control Rule</a>topic for additional information.</p>
+</li>
+<li>
+<p>/Custom/ProvisioningPolicy/ReviewRoles/<code>{entityType_identifier}</code></p>
+<p>Permission to review roles corresponding to an access right owned by an object of type entityType_identifier.</p>
+<p>The permission&#x27;s recipient will receive a notification email.</p>
+<p><strong>NOTE:</strong> In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.</p>
+<p>For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows a profile to perform manual provisioning with Directory_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.<br>
+<!-- -->Each permission can be configured in an access control entry so that the corresponding notification is disabled. See the <a href="/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/">Access Control Rule</a>topic for additional information.</p>
+</li>
+<li>
+<p>/Custom/Reports/<code>{reportQuery_identifier}</code></p>
+<p>Permission to access reports corresponding to the query <code>reportQuery_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/ResourceChanges/<code>{connector_identifier}</code></p>
+<p>Permission to query and read any resource changes from the <code>ResourceChanges</code> table.</p>
+</li>
+<li>
+<p>/Custom/ResourceFileChanges/<code>{connector_identifier}</code></p>
+<p>Permission to query and read any resource file changes from the <code>ResourceFileChanges</code> table.</p>
+</li>
+<li>
+<p>/Custom/ResourceFiles/<code>{entityType_identifier}</code>/<code>{property_identifier}</code>/View</p>
+<p>Permission to query and read any resource files from the <code>ResourceFile</code> table corresponding to the property <code>property_identifier</code> of the entity <code>entityType_identifier</code>, for example the <code>Directory_User</code> photo property. This permission is generated by the <a href="/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/"><code>ViewAccessControlRules</code></a> scaffolding.</p>
+</li>
+<li>
+<p>/Custom/ResourceLinkChanges/<code>{connector_identifier}</code></p>
+<p>Permission to query and read any resource link changes from the <code>ResourceLinkChanges</code> table.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/Create</p>
+<p>Permission to create resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/Delete</p>
+<p>Permission to delete resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/Query</p>
+<p>Permission to query and read resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/Self</p>
+<p>Permission to view self resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/SelfOwnedResources</p>
+<p>Permission to view self owned resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/SelfTargetResources</p>
+<p>Permission to view self target resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/Update</p>
+<p>Permission to update resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/View</p>
+<p>Permission to view resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/ViewOwnedResources</p>
+<p>Permission to view owned resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Resources/<code>{entityType_identifier}</code>/ViewTargetResources</p>
+<p>Permission to view target resources corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Workflows/<code>{workflow_identifier}</code>/<code>{activity_identifier}</code>/<code>{activityTemplateState_shortIdentifier}</code></p>
+<p>Permission to access the workflow <code>workflow_identifier</code>at the activty <code>activity_identifier</code> in the state <code>activityTemplateState_shortIdentifier</code>.</p>
+</li>
+<li>
+<p>/Custom/Workflows/Supervise/<code>{entityType_identifier}</code></p>
+<p>Permission to supervise a workflow corresponding to an access right owned by an object of type <code>entityType_identifier</code>.</p>
+</li>
+<li>
+<p>/Custom/WorkflowsNotifications/<code>{workflow_identifier}</code>/<code>{activity_identifier}</code>/<code>{activityTemplateState_shortIdentifier}</code></p>
+<p>Permission to be notified on a workflow&#x27;s specific state. Applies to notifications specifying the recipient&#x27;s type: <code>Profile</code>.</p>
+</li>
+<li>
+<p>/EntityTypeMappings</p>
+<p>Permission to see the entity types.</p>
+</li>
+<li>
+<p>/Jobs/Job/Create</p>
+<p>Permission to create objects of type Job.</p>
+</li>
+<li>
+<p>/Jobs/Job/Delete</p>
+<p>Permission to delete objects of type Job.</p>
+</li>
+<li>
+<p>/Jobs/Job/Query</p>
+<p>Permission to query and read objects of type Job.</p>
+</li>
+<li>
+<p>/Jobs/Job/Update</p>
+<p>Permission to update objects of type Job.</p>
+</li>
+<li>
+<p>/Jobs/JobInstance/Create</p>
+<p>Permission to create objects of type JobInstance.</p>
+</li>
+<li>
+<p>/Jobs/JobInstance/Delete</p>
+<p>Permission to delete objects of type JobInstance.</p>
+</li>
+<li>
+<p>/Jobs/JobInstance/Query</p>
+<p>Permission to query and read objects of type JobInstance.</p>
+</li>
+<li>
+<p>/Jobs/JobInstance/Update</p>
+<p>Permission to update objects of type JobInstance.</p>
+</li>
+<li>
+<p>/Jobs/JobStep/Create</p>
+<p>Permission to create objects of type JobStep.</p>
+</li>
+<li>
+<p>/Jobs/JobStep/Delete</p>
+<p>Permission to delete objects of type JobStep</p>
+</li>
+<li>
+<p>/Jobs/JobStep/Query</p>
+<p>Permission to query and read objects of type JobStep.</p>
+</li>
+<li>
+<p>/Jobs/JobStep/Update</p>
+<p>Permission to update objects of type JobStep.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/GetLog</p>
+<p>Read permission for JobLog.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Launch/Aborted</p>
+<p>Permission to send notification for job launched which ends in state Aborted.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Launch/Blocked</p>
+<p>Permission to send notification for job launched which ends in state Blocked.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Launch/Completed</p>
+<p>Permission to send notification for job launched which ends in state Completed.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Launch/Errored</p>
+<p>Permission to send notification for job launched which ends in state Errored.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Launch/Warning</p>
+<p>Permission to send notification for job launched which ends in state Warning.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Repair/Aborted</p>
+<p>Permission to send notification for job relaunched which ends in state Aborted.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Repair/Blocked</p>
+<p>Permission to send notification for job relaunched which ends in state Blocked.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Repair/Completed</p>
+<p>Permission to send notification for job relaunched which ends in state Completed.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Repair/Errored</p>
+<p>Permission to send notification for job relaunched which ends in state Errored.</p>
+</li>
+<li>
+<p>/Jobs/RunJob/Repair/Warning</p>
+<p>Permission to send notification for job relaunched which ends in state Warning.</p>
+</li>
+<li>
+<p>/Jobs/Task/Create</p>
+<p>Permission to create objects of type Task.</p>
+</li>
+<li>
+<p>/Jobs/Task/Delete</p>
+<p>Permission to delete objects of type Task.</p>
+</li>
+<li>
+<p>/Jobs/Task/Query</p>
+<p>Permission to query and read objects of type Task</p>
+</li>
+<li>
+<p>/Jobs/Task/Update</p>
+<p>Permission to update objects of type Task</p>
+</li>
+<li>
+<p>/Jobs/TaskDependOnTask/Create</p>
+<p>Permission to create objects of type TaskDependOnTask.</p>
+</li>
+<li>
+<p>/Jobs/TaskDependOnTask/Delete</p>
+<p>Permission to delete objects of type TaskDependOnTask.</p>
+</li>
+<li>
+<p>/Jobs/TaskDependOnTask/Query</p>
+<p>Permission to query and read objects of type TaskDependOnTask</p>
+</li>
+<li>
+<p>/Jobs/TaskDependOnTask/Update</p>
+<p>Permission to update objects of type TaskDependOnTask.</p>
+</li>
+<li>
+<p>/Jobs/TaskDimension/Create</p>
+<p>Permission to create objects of type TaskDimension.</p>
+</li>
+<li>
+<p>/Jobs/TaskDimension/Delete</p>
+<p>Permission to delete objects of type TaskDimension.</p>
+</li>
+<li>
+<p>/Jobs/TaskDimension/Query</p>
+<p>Permission to query and read objects of type TaskDimension.</p>
+</li>
+<li>
+<p>/Jobs/TaskDimension/Update</p>
+<p>Permission to update objects of type TaskDimension.</p>
+</li>
+<li>
+<p>/Jobs/TaskEntityType/Create</p>
+<p>Permission to create objects of type TaskEntityType.</p>
+</li>
+<li>
+<p>/Jobs/TaskEntityType/Delete</p>
+<p>Permission to delete objects of type TaskEntityType.</p>
+</li>
+<li>
+<p>/Jobs/TaskEntityType/Query</p>
+<p>Permission to query and read objects of type TaskEntityType.</p>
+</li>
+<li>
+<p>/Jobs/TaskEntityType/Update</p>
+<p>Permission to update objects of type TaskEntityType</p>
+</li>
+<li>
+<p>/Jobs/TaskIdByIdentifiersQuery/Query</p>
+<p>Permission to query and read objects of type TaskIdByIdentifiersQuery.</p>
+</li>
+<li>
+<p>/Jobs/TaskInstance/Create</p>
+<p>Permission to create objects of type TaskInstance.</p>
+</li>
+<li>
+<p>/Jobs/TaskInstance/Delete</p>
+<p>Permission to delete objects of type TaskInstance.</p>
+</li>
+<li>
+<p>/Jobs/TaskInstance/Query</p>
+<p>Permission to query and read objects of type TaskInstance.</p>
+</li>
+<li>
+<p>/Jobs/TaskInstance/Update</p>
+<p>Permission to update objects of type TaskInstance.</p>
+</li>
+<li>
+<p>/Jobs/TaskResourceType/Create</p>
+<p>Permission to create objects of type TaskResourceType.</p>
+</li>
+<li>
+<p>/Jobs/TaskResourceType/Delete</p>
+<p>Permission to delete objects of type TaskResourceType.</p>
+</li>
+<li>
+<p>/Jobs/TaskResourceType/Query</p>
+<p>Permission to query and read objects of type TaskResourceType.</p>
+</li>
+<li>
+<p>/Jobs/TaskResourceType/Update</p>
+<p>Permission to update objects of type TaskResourceType.</p>
+</li>
+<li>
+<p>/Metadata/Binding/Create</p>
+<p>Permission to create objects of type Binding.</p>
+</li>
+<li>
+<p>/Metadata/Binding/Delete</p>
+<p>Permission to delete objects of type Binding.</p>
+</li>
+<li>
+<p>/Metadata/Binding/Query</p>
+<p>Permission to query and read objects of type Binding.</p>
+</li>
+<li>
+<p>/Metadata/Binding/Update</p>
+<p>Permission to update objects of type Binding.</p>
+</li>
+<li>
+<p>/Metadata/BindingItem/Query</p>
+<p>Permission to query and read objects of type BindingItem.</p>
+</li>
+<li>
+<p>/Metadata/Dimension/Create</p>
+<p>Permission to create objects of type Dimension.</p>
+</li>
+<li>
+<p>/Metadata/Dimension/Delete</p>
+<p>Permission to delete objects of type Dimension.</p>
+</li>
+<li>
+<p>/Metadata/Dimension/Query</p>
+<p>Permission to query and read objects of type Dimension.</p>
+</li>
+<li>
+<p>/Metadata/Dimension/Update</p>
+<p>Permission to update objects of type Dimension.</p>
+</li>
+<li>
+<p>/Metadata/EntityAssociation/Create</p>
+<p>Permission to create objects of type EntityAssociation.</p>
+</li>
+<li>
+<p>/Metadata/EntityAssociation/Delete</p>
+<p>Permission to delete objects of type EntityAssociation.</p>
+</li>
+<li>
+<p>/Metadata/EntityAssociation/Query</p>
+<p>Permission to query and read objects of type EntityAssociation.</p>
+</li>
+<li>
+<p>/Metadata/EntityAssociation/Update</p>
+<p>Permission to update objects of type EntityAssociation.</p>
+</li>
+<li>
+<p>/Metadata/EntityProperty/Create</p>
+<p>Permission to create objects of type EntityProperty.</p>
+</li>
+<li>
+<p>/Metadata/EntityProperty/Delete</p>
+<p>Permission to delete objects of type EntityProperty.</p>
+</li>
+<li>
+<p>/Metadata/EntityProperty/Query</p>
+<p>Permission to query and read objects of type EntityProperty.</p>
+</li>
+<li>
+<p>/Metadata/EntityProperty/Update</p>
+<p>Permission to update objects of type EntityProperty.</p>
+</li>
+<li>
+<p>/Metadata/EntityType/Create</p>
+<p>Permission to create objects of type EntityType.</p>
+</li>
+<li>
+<p>/Metadata/EntityType/Delete</p>
+<p>Permission to delete objects of type EntityType.</p>
+</li>
+<li>
+<p>/Metadata/EntityType/Query</p>
+<p>Permission to query and read objects of type EntityType.</p>
+</li>
+<li>
+<p>/Metadata/EntityType/Update</p>
+<p>Permission to update objects of type EntityType.</p>
+</li>
+<li>
+<p>/Metadata/Language/Query</p>
+<p>Permission to query and read objects of type Language.</p>
+</li>
+<li>
+<p>/Metadata/Setting/Create</p>
+<p>Permission to create objects of type Setting</p>
+</li>
+<li>
+<p>/Metadata/Setting/Delete</p>
+<p>Permission to delete objects of type Setting</p>
+</li>
+<li>
+<p>/Metadata/Setting/Query</p>
+<p>Permission to query and read objects of type Setting</p>
+</li>
+<li>
+<p>/Metadata/Setting/Update</p>
+<p>Permission to update objects of type Setting</p>
+</li>
+<li>
+<p>/Monitoring</p>
+<p>Permission to download server logs from the User Interface (from the <strong>Monitoring</strong> screen).</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedCompositeRole/Comment</p>
+<p>Permission to comment objects of type AssignedCompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedCompositeRole/Create</p>
+<p>Permission to create objects of type AssignedCompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedCompositeRole/Delete</p>
+<p>Permission to delete objects of type AssignedCompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedCompositeRole/Query</p>
+<p>Permission to query and read objects of type AssignedCompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedCompositeRole/Update</p>
+<p>Permission to update objects of type AssignedCompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceBinary/Create</p>
+<p>Permission to create objects of type AssignedResourceBinary</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceBinary/Delete</p>
+<p>Permission to delete objects of type AssignedResourceBinary</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceBinary/Query</p>
+<p>Permission to query and read objects of type AssignedResourceBinary</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceBinary/Update</p>
+<p>Permission to update objects of type AssignedResourceBinary</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceNavigation/Create</p>
+<p>Permission to create objects of type AssignedResourceNavigation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceNavigation/Delete</p>
+<p>Permission to delete objects of type AssignedResourceNavigation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceNavigation/Query</p>
+<p>Permission to query and read objects of type AssignedResourceNavigation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceNavigation/Update</p>
+<p>Permission to update objects of type AssignedResourceNavigation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceScalar/Create</p>
+<p>Permission to create objects of type AssignedResourceScalar</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceScalar/Delete</p>
+<p>Permission to delete objects of type AssignedResourceScalar</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceScalar/Query</p>
+<p>Permission to query and read objects of type AssignedResourceScalar</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceScalar/Update</p>
+<p>Permission to update objects of type AssignedResourceScalar</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/Comment</p>
+<p>Permission to comment objects of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/Create</p>
+<p>Permission to create objects of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/Delete</p>
+<p>Permission to delete objects of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/ManualProvisioningReview</p>
+<p>Permission to review manual provisioning for object of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/Query</p>
+<p>Permission to query and read objects of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedResourceType/Update</p>
+<p>Permission to update objects of type AssignedResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedSingleRole/Comment</p>
+<p>Permission to comment objects of type AssignedSingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedSingleRole/Create</p>
+<p>Permission to create objects of type AssignedSingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedSingleRole/Delete</p>
+<p>Permission to delete objects of type AssignedSingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedSingleRole/Query</p>
+<p>Permission to query and read objects of type AssignedSingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AssignedSingleRole/Update</p>
+<p>Permission to update objects of type AssignedSingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/Create</p>
+<p>Permission to create objects of type AutomationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/CreateSimulation</p>
+<p>Permission to create objects of type AutomationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/Delete</p>
+<p>Permission to delete objects of type AutomationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/DeleteSimulation</p>
+<p>Permission to delete objects of type AutomationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/Query</p>
+<p>Permission to query and read objects of type AutomationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type AutomationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/Simulation</p>
+<p>Permission to query and read objects of type AutomationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/Updat</p>
+<p>Permission to update objects of type AutomationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/AutomationRule/UpdateSimulation</p>
+<p>Permission to update objects of type AutomationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Category/Create</p>
+<p>Permission to create objects of type Category</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Category/Delete</p>
+<p>Permission to delete objects of type Category</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Category/Query</p>
+<p>Permission to query and read objects of type Category</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Category/Update</p>
+<p>Permission to update objects of type Category</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/Create</p>
+<p>Permission to create objects of type CompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/CreateSimulation</p>
+<p>Permission to create objects of type CompositeRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/Delete</p>
+<p>Permission to delete objects of type CompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/DeleteSimulation</p>
+<p>Permission to delete objects of type CompositeRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/Query</p>
+<p>Permission to query and read objects of type CompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type CompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/Simulation</p>
+<p>Permission to query and read objects of type CompositeRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/Update</p>
+<p>Permission to update objects of type CompositeRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRole/UpdateSimulation</p>
+<p>Permission to update objects of type CompositeRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/Create</p>
+<p>Permission to create objects of type CompositeRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/CreateSimulation</p>
+<p>Permission to create objects of type CompositeRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/Delete</p>
+<p>Permission to delete objects of type CompositeRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/DeleteSimulation</p>
+<p>Permission to delete objects of type CompositeRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/Query</p>
+<p>Permission to query and read objects of type CompositeRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type CompositeRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/Simulation</p>
+<p>Permission to query and read objects of type CompositeRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/Update</p>
+<p>Permission to update objects of type CompositeRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/CompositeRoleRule/UpdateSimulation</p>
+<p>Permission to update objects of type CompositeRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/Create</p>
+<p>Permission to create objects of type ContextRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/CreateSimulation</p>
+<p>Permission to create objects of type ContextRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/Delete</p>
+<p>Permission to delete objects of type ContextRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ContextRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/Query</p>
+<p>Permission to query and read objects of type ContextRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ContextRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/Simulation</p>
+<p>Permission to query and read objects of type ContextRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/Update</p>
+<p>Permission to update objects of type ContextRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ContextRule/UpdateSimulation</p>
+<p>Permission to update objects of type ContextRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/IdentifiedRisk/Query</p>
+<p>Permission to query and read objects of type IdentifiedRisk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/MiningRule/Create</p>
+<p>Permission to create objects of type MiningRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/MiningRule/Delete</p>
+<p>Permission to delete objects of type MiningRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/MiningRule/Query</p>
+<p>Permission to query and read objects of type MiningRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/MiningRule/Update</p>
+<p>Permission to update objects of type MiningRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/Create</p>
+<p>Permission to create objects of type Policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/CreateSimulation</p>
+<p>Permission to create objects of type Policy in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/Delete</p>
+<p>Permission to delete objects of type Policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/DeleteSimulation</p>
+<p>Permission to delete objects of type Policy in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/Query</p>
+<p>Permission to query and read objects of type Policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type Policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/Simulation</p>
+<p>Permission to query and read objects of type Policy in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/Update</p>
+<p>Permission to update objects of type Policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Policy/UpdateSimulation</p>
+<p>Permission to update objects of type Policy in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PolicySimulation/Create</p>
+<p>Permission to create objects of type PolicySimulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PolicySimulation/Delete</p>
+<p>Permission to delete objects of type PolicySimulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PolicySimulation/Query</p>
+<p>Permission to query and read objects of type PolicySimulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PolicySimulation/Start</p>
+<p>Permission to start a simulation of a policy</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PolicySimulation/Update</p>
+<p>Permission to update objects of type PolicySimulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/PredefinedFunctionQuery/Query</p>
+<p>Permission to query and read objects of type PredefinedFunctionQuery</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Provisioning/Start</p>
+<p>Permission to compute Provisioning.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RedundantAssignment/Query</p>
+<p>Permission to access the <strong>Redundant Assignment</strong> page.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RedundantAssignment/Start</p>
+<p>Permission to compute redundant assignments and remove them.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/Create</p>
+<p>Permission to create objects of type ResourceBinaryRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceBinaryRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceBinaryRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/Delete</p>
+<p>Permission to delete objects of type ResourceBinaryRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceBinaryRule in simulatio.n</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/Query</p>
+<p>Permission to query and read objects of type ResourceBinaryRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceBinaryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceBinaryRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/Update</p>
+<p>Permission to update objects of type ResourceBinaryRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceBinaryRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceBinaryRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/Create</p>
+<p>Permission to create objects of type ResourceClassificationRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceClassificationRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/Delete</p>
+<p>Permission to delete objects of type ResourceClassificationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceClassificationRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/Query</p>
+<p>Permission to query and read objects of type ResourceClassificationRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceClassificationRule.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceClassificationRule in simulation.</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/Update</p>
+<p>Permission to update objects of type ResourceClassificationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceClassificationRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceClassificationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/Create</p>
+<p>Permission to create objects of type ResourceCorrelationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceCorrelationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/Delete</p>
+<p>Permission to delete objects of type ResourceCorrelationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceCorrelationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/Query</p>
+<p>Permission to query and read objects of type ResourceCorrelationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceCorrelationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceCorrelationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/Update</p>
+<p>Permission to update objects of type ResourceCorrelationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceCorrelationRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceCorrelationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceHistory/Query</p>
+<p>Permission to query and read objects of type ResourceHistory</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceManageableAccounts/Query</p>
+<p>Permission to query and read objects of type ResourceManageableAccounts</p>
+<p>/ProvisioningPolicy/ResourceNavigationRule/Create</p>
+</li>
+<li>
+<p>Permission to create objects of type ResourceNavigationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceNavigationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/Delete</p>
+<p>Permission to delete objects of type ResourceNavigationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceNavigationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/Query</p>
+<p>Permission to query and read objects of type ResourceNavigationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceNavigationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceNavigationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/Update</p>
+<p>Permission to update objects of type ResourceNavigationRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceNavigationRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceNavigationRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/Create</p>
+<p>Permission to create objects of type ResourceQueryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceQueryRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/Delete</p>
+<p>Permission to delete objects of type ResourceQueryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceQueryRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/Query</p>
+<p>Permission to query and read objects of type ResourceQueryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceQueryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceQueryRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/Update</p>
+<p>Permission to update objects of type ResourceQueryRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceQueryRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceQueryRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/Create</p>
+<p>Permission to create objects of type ResourceScalarRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceScalarRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/Delete</p>
+<p>Permission to delete objects of type ResourceScalarRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceScalarRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/Query</p>
+<p>Permission to query and read objects of type ResourceScalarRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceScalarRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceScalarRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/Update</p>
+<p>Permission to update objects of type ResourceScalarRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceScalarRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceScalarRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/Create</p>
+<p>Permission to create objects of type ResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/CreateSimulation</p>
+<p>Permission to create objects of type ResourceType in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/Delete</p>
+<p>Permission to delete objects of type ResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceType in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/Query</p>
+<p>Permission to query and read objects of type ResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/Simulation</p>
+<p>Permission to query and read objects of type ResourceType in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/Update</p>
+<p>Permission to update objects of type ResourceType</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceType/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceType in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/Create</p>
+<p>Permission to create objects of type ResourceTypeRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/CreateSimulation</p>
+<p>Permission to create objects of type ResourceTypeRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/Delete</p>
+<p>Permission to delete objects of type ResourceTypeRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/DeleteSimulation</p>
+<p>Permission to delete objects of type ResourceTypeRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/Query</p>
+<p>Permission to query and read objects of type ResourceTypeRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type ResourceTypeRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/Simulation</p>
+<p>Permission to query and read objects of type ResourceTypeRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/Update</p>
+<p>Permission to update objects of type ResourceTypeRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/ResourceTypeRule/UpdateSimulation</p>
+<p>Permission to update objects of type ResourceTypeRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/Create</p>
+<p>Permission to create objects of type Risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/Delete</p>
+<p>Permission to delete objects of type Risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/OverrideApproval</p>
+<p>ermission to transform an approval risk into a warning risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/OverrideBlocking</p>
+<p>Permission to transform a blocking risk into an approval risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/Query</p>
+<p>Permission to query and read objects of type Risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/Risk/Update</p>
+<p>Permission to update objects of type Risk</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RoleMapping/Create</p>
+<p>Permission to create objects of type RoleMapping</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RoleMapping/Delete</p>
+<p>Permission to delete objects of type RoleMapping</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RoleMapping/Query</p>
+<p>Permission to query and read objects of type RoleMapping</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/RoleMapping/Update</p>
+<p>Permission to update objects of type RoleMapping</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/Create</p>
+<p>Permission to create objects of type SingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/CreateSimulation</p>
+<p>Permission to create objects of type SingleRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/Delete</p>
+<p>Permission to delete objects of type SingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/DeleteSimulation</p>
+<p>Permission to delete objects of type SingleRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/Query</p>
+<p>Permission to query and read objects of type SingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type SingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/Simulation</p>
+<p>Permission to query and read objects of type SingleRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/Update</p>
+<p>Permission to update objects of type SingleRole</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRole/UpdateSimulation</p>
+<p>Permission to update objects of type SingleRole in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/Create</p>
+<p>Permission to create objects of type SingleRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/CreateSimulation</p>
+<p>Permission to create objects of type SingleRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/Delete</p>
+<p>Permission to delete objects of type SingleRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/DeleteSimulation</p>
+<p>Permission to delete objects of type SingleRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/Query</p>
+<p>Permission to query and read objects of type SingleRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/RevertSimulation</p>
+<p>Permission to revert a deletion or update in simulation on objects of type SingleRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/Simulation</p>
+<p>Permission to query and read objects of type SingleRoleRule in simulation</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/Update</p>
+<p>Permission to update objects of type SingleRoleRule</p>
+</li>
+<li>
+<p>/ProvisioningPolicy/SingleRoleRule/UpdateSimulation</p>
+<p>Permission to update objects of type SingleRoleRule in simulation</p>
+</li>
+<li>
+<p>/Report/GenerateReportFileFromQuery/Query</p>
+<p>Permission to query and read objects of type GenerateReportFileFromQuery</p>
+</li>
+<li>
+<p>/Report/GenerateReportFileFromReportQuery/Query</p>
+<p>Permission to query and read objects of type GenerateReportFileFromReportQuery</p>
+</li>
+<li>
+<p>/Report/ReportQuery/Create</p>
+<p>Permission to create objects of type ReportQuery</p>
+</li>
+<li>
+<p>/Report/ReportQuery/Delete</p>
+<p>Permission to delete objects of type ReportQuery</p>
+</li>
+<li>
+<p>/Report/ReportQuery/Query</p>
+<p>Permission to query and read objects of type ReportQuery</p>
+</li>
+<li>
+<p>/Report/ReportQuery/Update</p>
+<p>Permission to update objects of type ReportQuery</p>
+</li>
+<li>
+<p>/Resources/Incremental/Query</p>
+<p>Permission to query and read objects of type Resource and Resource Link incrementally changed</p>
+</li>
+<li>
+<p>/Resources/Resource/Create</p>
+<p>Permission to create objects of type Resource</p>
+</li>
+<li>
+<p>/Resources/Resource/Delete</p>
+<p>Permission to delete objects of type Resource</p>
+</li>
+<li>
+<p>/Resources/Resource/Query</p>
+<p>Permission to query and read objects of type Resource</p>
+</li>
+<li>
+<p>/Resources/Resource/Update</p>
+<p>Permission to update objects of type Resource</p>
+</li>
+<li>
+<p>/Settings/Manage</p>
+</li>
+<li>
+<p>/Universes/EntityInstance/Query</p>
+<p>Permission to query and read objects of type EntityInstance</p>
+</li>
+<li>
+<p>/Universes/Universe/Query</p>
+<p>Permission to query and read objects of type Universe</p>
+</li>
+<li>
+<p>/Universes/UniverseData/Query</p>
+<p>Permission to query and read objects of type UniverseData</p>
+</li>
+<li>
+<p>/UserInterface/ActivityFormNameByWorkflowInstanceIdQuery/Query</p>
+<p>Permission to query and read objects of type ActivityFormNameByWorkflowInstanceIdQuery</p>
+</li>
+<li>
+<p>/UserInterface/ApplicationInformationsQuery/Query</p>
+<p>Permission to query and read objects of type ApplicationInformationsQuery</p>
+</li>
+<li>
+<p>/UserInterface/ConnectorResourceType/Create</p>
+<p>Permission to create objects of type ConnectorResourceType</p>
+</li>
+<li>
+<p>/UserInterface/ConnectorResourceType/Delete</p>
+<p>Permission to delete objects of type ConnectorResourceType</p>
+</li>
+<li>
+<p>/UserInterface/ConnectorResourceType/Update</p>
+<p>Permission to update objects of type ConnectorResourceType</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityAssociation/Create</p>
+<p>Permission to create objects of type DisplayEntityAssociation</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityAssociation/Delete</p>
+<p>Permission to delete objects of type DisplayEntityAssociation</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityAssociation/Query</p>
+<p>Permission to query and read objects of type DisplayEntityAssociatio</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityAssociation/Update</p>
+<p>Permission to update objects of type DisplayEntityAssociation</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityProperty/Create</p>
+<p>Permission to create objects of type DisplayEntityProperty</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityProperty/Delete</p>
+<p>Permission to delete objects of type DisplayEntityProperty</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityProperty/Query</p>
+<p>Permission to query and read objects of type DisplayEntityProperty</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityProperty/Update</p>
+<p>Permission to update objects of type DisplayEntityProperty</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityType/Create</p>
+<p>Permission to create objects of type DisplayEntityType</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityType/Delete</p>
+<p>Permission to delete objects of type DisplayEntityType</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityType/Query</p>
+<p>Permission to query and read objects of type DisplayEntityType</p>
+</li>
+<li>
+<p>/UserInterface/DisplayEntityType/Update</p>
+<p>Permission to update objects of type DisplayEntityType</p>
+</li>
+<li>
+<p>/UserInterface/DisplayPropertyGroup/Create</p>
+<p>Permission to create objects of type DisplayPropertyGroup</p>
+</li>
+<li>
+<p>/UserInterface/DisplayPropertyGroup/Delete</p>
+<p>Permission to delete objects of type DisplayPropertyGroup</p>
+</li>
+<li>
+<p>/UserInterface/DisplayPropertyGroup/Query</p>
+<p>Permission to query and read objects of type DisplayPropertyGroup</p>
+</li>
+<li>
+<p>/UserInterface/DisplayPropertyGroup/Update</p>
+<p>Permission to update objects of type DisplayPropertyGroup</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTable/Create</p>
+<p>Permission to create objects of type DisplayTable</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTable/Delete</p>
+<p>Permission to delete objects of type DisplayTable</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTable/Query</p>
+<p>Permission to query and read objects of type DisplayTable</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTable/Update</p>
+<p>Permission to update objects of type DisplayTable</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTableColumn/Create</p>
+<p>Permission to create objects of type DisplayTableColumn</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTableColumn/Delete</p>
+<p>Permission to delete objects of type DisplayTableColumn</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTableColumn/Query</p>
+<p>Permission to query and read objects of type DisplayTableColumn</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTableColumn/Update</p>
+<p>Permission to update objects of type DisplayTableColumn</p>
+</li>
+<li>
+<p>/UserInterface/DisplayTableDesignElement/Query</p>
+<p>Permission to query and read objects of type DisplayTableDesignElement</p>
+</li>
+<li>
+<p>/UserInterface/EntityTypeMappingByUiContextQuery/Query</p>
+<p>Permission to query and read objects of type EntityTypeMappingByUiContextQuery</p>
+</li>
+<li>
+<p>/UserInterface/Form/Create</p>
+<p>Permission to create objects of type Form</p>
+</li>
+<li>
+<p>/UserInterface/Form/Delete</p>
+<p>Permission to delete objects of type Form</p>
+</li>
+<li>
+<p>/UserInterface/Form/Query</p>
+<p>Permission to query and read objects of type Form</p>
+</li>
+<li>
+<p>/UserInterface/Form/Updat</p>
+<p>Permission to update objects of type Form</p>
+</li>
+<li>
+<p>/UserInterface/FormControl/Create</p>
+<p>Permission to create objects of type FormControl</p>
+</li>
+<li>
+<p>/UserInterface/FormControl/Delete</p>
+<p>Permission to delete objects of type FormControl</p>
+</li>
+<li>
+<p>/UserInterface/FormControl/Query</p>
+<p>Permission to query and read objects of type FormControl</p>
+</li>
+<li>
+<p>/UserInterface/FormControl/Update</p>
+<p>Permission to update objects of type FormControl</p>
+</li>
+<li>
+<p>/UserInterface/HierarchyDataByEntityTypeIdQuery/Query</p>
+<p>Permission to query and read objects of type HierarchyDataByEntityTypeIdQuery</p>
+</li>
+<li>
+<p>/UserInterface/Indicator/Create</p>
+<p>Permission to create objects of type Indicator</p>
+</li>
+<li>
+<p>/UserInterface/Indicator/Delete</p>
+<p>Permission to delete objects of type Indicator</p>
+</li>
+<li>
+<p>/UserInterface/Indicator/Query</p>
+<p>Permission to query and read objects of type Indicator</p>
+</li>
+<li>
+<p>/UserInterface/Indicator/Update</p>
+<p>Permission to update objects of type Indicator</p>
+</li>
+<li>
+<p>/UserInterface/IndicatorItem/Create</p>
+<p>Permission to create objects of type IndicatorItem</p>
+</li>
+<li>
+<p>/UserInterface/IndicatorItem/Delete</p>
+<p>Permission to delete objects of type IndicatorItem</p>
+</li>
+<li>
+<p>/UserInterface/IndicatorItem/Query</p>
+<p>Permission to query and read objects of type IndicatorItem</p>
+</li>
+<li>
+<p>/UserInterface/IndicatorItem/Update</p>
+<p>Permission to update objects of type IndicatorItem</p>
+</li>
+<li>
+<p>/UserInterface/PersonasByFilterQuery/Query</p>
+<p>Permission to query and read objects of type PersonasByFilterQuery</p>
+</li>
+<li>
+<p>/UserInterface/Reload</p>
+<p>Permission to reset the container, in order to update the permissions and the displayed configuration.</p>
+</li>
+<li>
+<p>/UserInterface/ResourceReadForm/Query</p>
+<p>Permission to query and read objects of type ResourceReadForm</p>
+</li>
+<li>
+<p>/UserInterface/ResourceReadFormActions/Query</p>
+<p>Permission to query and read objects of type ResourceReadFormActions</p>
+</li>
+<li>
+<p>/UserInterface/ResourceSearchForm/Query</p>
+<p>Permission to query and read objects of type ResourceSearchForm</p>
+</li>
+<li>
+<p>/UserInterface/ResourceSelfForm/Query</p>
+<p>Permission to query and read objects of type ResourceSelfForm</p>
+</li>
+<li>
+<p>/UserInterface/SearchBar/Create</p>
+<p>Permission to create objects of type SearchBar</p>
+</li>
+<li>
+<p>/UserInterface/SearchBar/Delete</p>
+<p>Permission to delete objects of type SearchBar</p>
+</li>
+<li>
+<p>/UserInterface/SearchBar/Query</p>
+<p>Permission to query and read objects of type SearchBar</p>
+</li>
+<li>
+<p>/UserInterface/SearchBar/Update</p>
+<p>Permission to update objects of type SearchBar</p>
+</li>
+<li>
+<p>/UserInterface/SearchBarCriterion/Create</p>
+<p>Permission to create objects of type SearchBarCriterion</p>
+</li>
+<li>
+<p>/UserInterface/SearchBarCriterion/Delete</p>
+<p>Permission to delete objects of type SearchBarCriterion</p>
+</li>
+<li>
+<p>/UserInterface/SearchBarCriterion/Query</p>
+<p>Permission to query and read objects of type SearchBarCriterion</p>
+</li>
+<li>
+<p>/UserInterface/SearchBarCriterion/Update</p>
+<p>Permission to update objects of type SearchBarCriterion</p>
+</li>
+<li>
+<p>/UserInterface/Tile/Create</p>
+<p>Permission to create objects of type Tile</p>
+</li>
+<li>
+<p>/UserInterface/Tile/Delete</p>
+<p>Permission to delete objects of type Tile</p>
+</li>
+<li>
+<p>/UserInterface/Tile/Query</p>
+<p>Permission to query and read objects of type Tile</p>
+</li>
+<li>
+<p>/UserInterface/Tile/Update</p>
+<p>Permission to update objects of type Tile</p>
+</li>
+<li>
+<p>/UserInterface/TileDesignElement/Query</p>
+<p>Permission to query and read objects of type TileDesignElement</p>
+</li>
+<li>
+<p>/UserInterface/TileItem/Create</p>
+<p>Permission to create objects of type TileItem</p>
+</li>
+<li>
+<p>/UserInterface/TileItem/Delete</p>
+<p>Permission to delete objects of type TileItem</p>
+</li>
+<li>
+<p>/UserInterface/TileItem/Query</p>
+<p>Permission to query and read objects of type TileItem</p>
+</li>
+<li>
+<p>/UserInterface/TileItem/Update</p>
+<p>Permission to update objects of type TileItem</p>
+</li>
+<li>
+<p>/UserInterface/UserByIdentityQuery/Query</p>
+<p>Permission to query and read objects of type UserByIdentityQuery</p>
+</li>
+<li>
+<p>/UserInterface/WorkflowFormByNameQuery/Query</p>
+<p>Permission to query and read objects of type WorkflowFormByNameQuery</p>
+</li>
+<li>
+<p>/UserInterface/WorkflowFormByWorkflowIdQuery/Query</p>
+<p>Permission to query and read objects of type WorkflowFormByWorkflowIdQuery</p>
+</li>
+<li>
+<p>/Workflows/Activity/Create</p>
+<p>Permission to create objects of type Activity</p>
+</li>
+<li>
+<p>/Workflows/Activity/Delete</p>
+<p>Permission to delete objects of type Activity</p>
+</li>
+<li>
+<p>/Workflows/Activity/Query</p>
+<p>Permission to query and read objects of type Activity</p>
+</li>
+<li>
+<p>/Workflows/Activity/Update</p>
+<p>Permission to update objects of type Activity</p>
+</li>
+<li>
+<p>/Workflows/ActivityInstance/Query</p>
+<p>Permission to query and read objects of type ActivityInstance</p>
+</li>
+<li>
+<p>/Workflows/ActivityInstanceAspectsQuery/Query</p>
+<p>Permission to query and read objects of type ActivityInstanceAspectsQuery</p>
+</li>
+<li>
+<p>/Workflows/ActivityTemplate/Query</p>
+<p>Permission to query and read objects of type ActivityTemplate</p>
+</li>
+<li>
+<p>/Workflows/ActivityTemplateState/Query</p>
+<p>Permission to query and read objects of type ActivityTemplateState</p>
+</li>
+<li>
+<p>/Workflows/ActivityTemplateTransition/Query</p>
+<p>Permission to query and read objects of type ActivityTemplateTransition</p>
+</li>
+<li>
+<p>/Workflows/HistorizedResourceFileByWorkflowInstanceIdQuery/Query</p>
+<p>Permission to query and read objects of type HistorizedResourceFileByWorkflowInstanceIdQuery</p>
+</li>
+<li>
+<p>/Workflows/HomonymEntityLink/Create</p>
+<p>Permission to create objects of type HomonymEntityLink</p>
+</li>
+<li>
+<p>/Workflows/HomonymEntityLink/Delete</p>
+<p>Permission to delete objects of type HomonymEntityLink</p>
+</li>
+<li>
+<p>/Workflows/HomonymEntityLink/Query</p>
+<p>Permission to query and read objects of type HomonymEntityLink</p>
+</li>
+<li>
+<p>/Workflows/HomonymEntityLink/Update</p>
+<p>Permission to update objects of type HomonymEntityLink</p>
+</li>
+<li>
+<p>/Workflows/UserActivityInstance/AssignedTo</p>
+<p>Permission to update the actor on object of type UserActivityInstance</p>
+</li>
+<li>
+<p>/Workflows/UserActivityInstance/ExpectedDate</p>
+<p>Permission to update expected date on object of type UserActivityInstance</p>
+</li>
+<li>
+<p>/Workflows/UserActivityInstance/Query</p>
+<p>Permission to query and read objects of type UserActivityInstance</p>
+</li>
+<li>
+<p>/Workflows/UserActivityInstanceCountQuery/Query</p>
+<p>Permission to query and read objects of type UserActivityInstanceCountQuery</p>
+</li>
+<li>
+<p>/Workflows/Workflow/Create</p>
+<p>Permission to create objects of type Workflow</p>
+</li>
+<li>
+<p>/Workflows/Workflow/Delete</p>
+<p>Permission to delete objects of type Workflow</p>
+</li>
+<li>
+<p>/Workflows/Workflow/Query</p>
+<p>Permission to query and read objects of type Workflow</p>
+</li>
+<li>
+<p>/Workflows/Workflow/Update</p>
+<p>Permission to update objects of type Workflow</p>
+</li>
+<li>
+<p>/Workflows/WorkflowInstance/Query</p>
+<p>Permission to query and read objects of type WorkflowInstance</p>
+</li>
+<li>
+<p>/Workflows/WorkflowInstance/Resume</p>
+</li>
+<li>
+<p>/Workflows/WorkflowInstance/Start</p>
+</li>
+<li>
+<p>/Workflows/WorkflowInstance/Supervise</p>
+<p>Permission to supervise objects of type WorkflowInstance</p>
+</li>
+<li>
+<p>/Workflows/WorkflowInstanceData/Query</p>
+<p>Permission to query and read objects of type WorkflowInstanceData</p>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/index.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/usercube/usercube/integration-guide/profiles-permissions/how-tos/rightsrestriction/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Restrict Users&#x27; Rights</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/usercube/usercube/integration-guide/provisioning/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Provisioning</div></a></nav></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
