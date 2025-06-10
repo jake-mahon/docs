@@ -118,7 +118,7 @@ This connector is meant to generate to the [Application Settings](/docs/usercube
     ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [
     Entity Association Mapping
     ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).```
-  <connectionIdentifier>_<entityName>.csv
+  `<connectionIdentifier>_<entityName>.csv`
 
   Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N
   Add,value1,value2,...,valueN

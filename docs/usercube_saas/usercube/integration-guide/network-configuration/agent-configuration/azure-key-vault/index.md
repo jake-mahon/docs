@@ -61,7 +61,7 @@ To save the login to Azure Key Vault, create a secret whose name and value are r
 
 To save the second server, create a secret whose name and value are respectively ```<Connections--ADExport--Servers--1--Server>``` and ```<marseille.contoso.com>```.
 
-_Remember,_  the index of the first element is <0>.
+_Remember,_  the index of the first element is `0`.
 
 This way, values from the Azure Key Vault take priority over the values from the appsettings files.
 
@@ -73,4 +73,4 @@ Netwrix Identity Manager (formerly Usercube)uses the default Azure credentials t
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Vault   required | String | DNS Name found on the page of the vault in Azure's portal.  _Remember,_ usually in the format is <https://yourVault.vault.azure.net/.> |
+| Vault   required | String | DNS Name found on the page of the vault in Azure's portal.  _Remember,_ usually in the format is `https://yourVault.vault.azure.net/`. |

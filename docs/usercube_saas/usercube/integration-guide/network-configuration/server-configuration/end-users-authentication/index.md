@@ -266,7 +266,7 @@ The target OpenID Connect provider needs to be aware of the URI where to send th
 
 During the registration process, the provider will ask for the URL.
 
-Identity Manager's callback URL for OpenID Connect is ```<```usercube-server-address>/signin-oidc where <```usercube-server-address```> is the address of your Identity ManagerServer such as https://usercube.contoso.com.
+Identity Manager's callback URL for OpenID Connect is `<usercube-server-address>/signin-oidc` where `<usercube-server-address>` is the address of your Identity Manager Server such as `https://usercube.contoso.com`.
 
 Authority
 

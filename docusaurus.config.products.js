@@ -22,8 +22,8 @@ const PRODUCTS = {
   'strongpointnetsuiteflashlight': false,
   'strongpointsalesforceflashlight': false,
   'threatmanager': false,
-  'threatprevention': false,
-  'usercube': true,
+  'threatprevention': true,
+  'usercube': false,
   'usercube_saas': false,
 };
 

@@ -171,13 +171,12 @@ With the following example, the resulting files are:
 - ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_Containers.csv```
 - ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv```
 
-                    ```
-
-                        appsettings.agent.json
+```json
+// appsettings.agent.json
 {
-  ...
+  // ...
   "Connections": {
-    ...
+    // ...
     "SCIMCyberArkExport": {
       "Server": "https://host:port/CyberArk/scim",
       "Login": "Usercube-user",

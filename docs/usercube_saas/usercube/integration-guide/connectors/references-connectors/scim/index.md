@@ -147,7 +147,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
   
 - Be unique  
 - Not begin with a digit  
-- Not contain <, >, :, /, \, |, ?, \*, and \_.
+- Not contain `<`, `>`, `:`, `/`, `\`, `|`, `?`, `*`, and `_`.
 
 The following example gets information via SCIM on a web application whose URL base is ```https://example.for.doc.com```:
 

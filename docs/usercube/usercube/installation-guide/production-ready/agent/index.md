@@ -36,7 +36,7 @@ The information needed to go through the creation process are the following:
 
   __Step 1 –__ Open web.config with a text editor.
 
-  __Step 2 –__ Change the arguments and stdoutLogFile attributes of the <aspNet> element as indicated below:
+  __Step 2 –__ Change the arguments and stdoutLogFile attributes of the `aspNet` element as indicated below:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -46,9 +46,9 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 - When creating the website, enter the following data:
 
-  __Step 1 –__ Site name: Identity Manager Agent<Organization> is the recommended naming convention
+  __Step 1 –__ Site name: Identity Manager Agent `Organization` is the recommended naming convention
 
-  __Step 2 –__ Physical path: /<agent working directory>/Runtime
+  __Step 2 –__ Physical path: /`agent working directory`/Runtime
 
   __Step 3 –__ Type: http
 
@@ -58,15 +58,15 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 After creation, the following settings are recommended:
 
-- __Application Pool__ > __Identity Manager <Organization>__ > __Advanced Settings__ > __General__ > __Start Mode__ set to AlwaysRunning;
-- __Application Pool__ > ```Identity Manager <Organization>``` > __Advanced Settings__ > __Process Model__ > __Idle Time-out__ (minutes) set to 0 and Load User Profile set to True;
-- __Application Pool__ > __Identity Manager <Organization>__ > __Recycling__ > Regular time intervals set to 0.
+- __Application Pool__ > __Identity Manager `Organization`__ > __Advanced Settings__ > __General__ > __Start Mode__ set to AlwaysRunning;
+- __Application Pool__ > ```Identity Manager Organization``` > __Advanced Settings__ > __Process Model__ > __Idle Time-out__ (minutes) set to 0 and Load User Profile set to True;
+- __Application Pool__ > __Identity Manager `Organization`__ > __Recycling__ > Regular time intervals set to 0.
 
   Recycling the application pool creates a discontinuation in the connection between server and agent, which can disrupt some of Identity Manager's features such as the job scheduler. IIS already recycles the application pool at each setting change, thus Netwrix recommends not using periodic recycling.
 
 The following is [mandatory](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#mandatory):
 
-- __Application Pool__ > __Identity Manager <Organization>__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
+- __Application Pool__ > __Identity Manager `Organization`__ > __Advanced Settings__ > __General__ > __.NET CLR Version__ > __No Managed Code__
 
 ![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.png)
 
@@ -89,7 +89,7 @@ You can either:
 
 ### Check default behavior
 
-Usually, creating an IIS application pool, such as the one within which Identity Manager's server website runs, triggers the creation of a service account ```IIS APPPOOL/<apppool_name>``` (where ```<apppool_name>``` is the application pool name) known as an application pool identity. It is associated with the IIS website. This account is granted basic group membership that should enable it to access what it needs.
+Usually, creating an IIS application pool, such as the one within which Identity Manager's server website runs, triggers the creation of a service account ```IIS APPPOOL/apppool_name``` (where ```apppool_name``` is the application pool name) known as an application pool identity. It is associated with the IIS website. This account is granted basic group membership that should enable it to access what it needs.
 
 For more information about IIS identities, visit the [Microsoft Documentation](https://support.microsoft.com/en-us/help/4466942/understanding-identities-in-iis).
 
@@ -97,10 +97,10 @@ Building on this default behavior, the default Application Pool Identity is usua
 
 Before going further, you should check the following points:
 
-__Step 1 –__ Find the group membership of ```IIS APPPOOL\<apppool_name>```.
+__Step 1 –__ Find the group membership of ```IIS APPPOOL\apppool_name```.
 
 __Step 2 –__ Check the permissions on the working directory.
-Right-click the working directory and select Security. The group section should contain one of the ```IIS APPPOOL/<apppool_name>``` groups, namely Users. And,
+Right-click the working directory and select Security. The group section should contain one of the ```IIS APPPOOL/apppool_name``` groups, namely Users. And,
 
 __Step 3 –__ If the built-in application pool identity has been created but does not have the right permissions, you can follow the steps outlined in Install the Agents section to fix it. Go back to the section to make sure that the built-in application pool identity is effectively used by Identity Manager's server IIS Website.
 
@@ -126,7 +126,7 @@ __Step 1 –__ Open the IIS Manager (```INETMGR.MSC```).
 
 __Step 2 –__ Open the __Application Pools__ node underneath the machine node.
 
-__Step 3 –__ Select the Identity ManagerAgent/<Organization> application pool.
+__Step 3 –__ Select the Identity ManagerAgent/`Organization` application pool.
 
 __Step 4 –__ Right-click and select __Advanced Settings__.
 
@@ -270,7 +270,7 @@ An RSA key pair, as in an [X.509](https://fr.wikipedia.org/wiki/X.509) public ke
 
 The key pair can be generated with tools such as [OpenSSL](https://www.openssl.org/docs/manmaster/man1/req.html) or Microsoft's [New-SelfSignedCertificate](https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps) and [pvk2pfx tool](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/pvk2pfx?redirectedfrom=MSDN).
 
-Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive (<UsercubeContoso.pfx>) bundling a public key certificate (<Identity Manager contoso.cert>) and a private key (<usercubecontoso.key>) with OpenSSL, with a 50-year expiration date:
+Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive (`UsercubeContoso.pfx`) bundling a public key certificate (`Identity Manager contoso.cert`) and a private key (`usercubecontoso.key`) with OpenSSL, with a 50-year expiration date:
 
 __Step 1 –__ Enter the following command:
 
@@ -347,7 +347,7 @@ Their content should be provided by the integration team, in relation to the Ope
 OpenIdClient
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.
 
-The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier <Job> and the password <secret>, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
+The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (`https://usercubeserver.contoso.com`) with the OpenId client identifier `Job` and the password `secret`, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

@@ -19,6 +19,7 @@ The resulting files are saved in ```C:/UsercubeDemo/ConfTransformed```.
 
 transformations.json
 
+```json
 {
     "*guest*": {
         "Directory_User": "Directory_Guest"
@@ -27,6 +28,7 @@ transformations.json
         "Directory_User": "Directory_Bot"
     }
 }
+```
 
 ```
 
