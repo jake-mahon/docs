@@ -52,6 +52,14 @@ const config = {
   ],
 
   plugins: [
+    process.env.RSDOCTOR === 'true' && [
+      'rsdoctor',
+      {
+        rsdoctorOptions: {
+          mode: 'lite', // or 'full' for more detailed analysis
+        },
+      },
+    ],
     // ActivityMonitor Product Documentation
     [
       '@docusaurus/plugin-content-docs',
@@ -428,7 +436,7 @@ const config = {
         },
       },
     ],
-  ],
+  ].filter(Boolean),
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
