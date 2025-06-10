@@ -24,18 +24,18 @@ Configure the following settings for a RADIUS provider on the Configuration tab
 - User Name Format Type – Active Directory attribute or attributes that will be sent to the RADIUS authentication provider to identify the user. Some common identification attributes are available in the drop-down list. If necessary, a custom option is also provided. This option instructs the application to send a custom value to the RADIUS provider based on the user's Active Directory attribute, supplied in the Custom Name Format field.
 - Custom Name Format – This field appears when the Custom User Name Format Type is selected. It has a unique syntax as follows:
 
-  - Active Directory Attribute: {attributename}
+  - Active Directory Attribute: `{attributename}`
 
-    - Example – {firstname}\_{lastname}
-  - First Character(s) of an Active Directory Attribute: {3:AttributeName} – Where "3" is the number of characters to select
+    - Example – `{firstname}\_{lastname}`
+  - First Character(s) of an Active Directory Attribute: `{3:AttributeName}` – Where "3" is the number of characters to select
 
-    - Example – {1:firstname}\_{lastname}
-  - Last Character(s) of an Active Directory Attribute: {AttributeName:3} – Where "3" is the number of characters to select
+    - Example – `{1:firstname}\_{lastname}`
+  - Last Character(s) of an Active Directory Attribute: `{AttributeName:3}` – Where "3" is the number of characters to select
 
-    - Example – {firstname}\_{telephoneNumber:4}
+    - Example – `{firstname}\_{telephoneNumber:4}`
   - Text values can be hard coded to send a static text value for each user:
 
-    - Example – MyCompany\_{lastname}
+    - Example – `MyCompany\_{lastname}`
 - Max Retries – The maximum number of times to attempt reconnecting to the RADIUS proxy if unable to connect
 - Timeouts (in seconds) – The default timeout value for RADIUS connection and authentication requests. The default value is 60 seconds.
 

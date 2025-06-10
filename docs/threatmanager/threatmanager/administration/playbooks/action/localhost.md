@@ -13,7 +13,7 @@ The PowerShell Script action executes a specified PowerShell script. This action
 
   $Session = New-PSSession -ComputerName "Computer01" -Credential $Credential
 
-  Invoke-Command -Session $Session -ScriptBlock {Write-Host "Hello World"}
+  Invoke-Command -Session $Session -ScriptBlock `{Write-Host "Hello World"}`
 
 ## Send Email
 

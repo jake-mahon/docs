@@ -48,7 +48,7 @@ _Remember,_ , the Threat Manager App Token is generated within Threat Manager.
 Create a Connection Profile and set the following information on the User Credentials window:
 
 - Select Account Type – Web Services (JWT)
-- Domain – {not a field for this type of credential, defaults to <WSJWT>}
+- Domain – `{not a field for this type of credential, defaults to <WSJWT>}`
 - User name – This field should be left blank
 - Password Storage: Application – Uses Access Analyzer’s configured Profile Security setting as selected at the Settings > Other Settings node
 - Access Token – Copy and paste the Threat Manager App Token
