@@ -52,7 +52,7 @@ The upper-right corner of the data grid displays the Agent tally, indicating the
 - Available Version – Latest Agent version available in Threat Prevention
 - ADMonitor Version – The installed SI.ActiveDirectoryMonitor.dll version
 
-  {commonly known as ADMonitor DLL). The Agent and the ADMonitor DLL should have the same major/minor version, such as 7.5.x.x, where x.x for the DLL can be equal or higher than that of the Agent. Example: Agent 7.5.0.123 and DLL 7.5.0.777
+  (commonly known as ADMonitor DLL). The Agent and the ADMonitor DLL should have the same major/minor version, such as 7.5.x.x, where x.x for the DLL can be equal or higher than that of the Agent. Example: Agent 7.5.0.123 and DLL 7.5.0.777
 - UTC Offset – Local server time zone relationship to the Universal Time (UTC)
 - Last Events – Number of events reported by the Agent in the last notification to the Enterprise Manager
 - Events In Queue – Count of events the Agent is waiting to send to the Enterprise Manager

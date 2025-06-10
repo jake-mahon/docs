@@ -25,7 +25,7 @@ Follow the steps to configure Splunk to receive data from Threat Prevention.
 
 _Remember,_ prior to using the Active Directory App for Splunk, the relevant Netwrix product must be configured to send data to Splunk.
 
-__Step 1 –__ Determine the IP address of the Splunk console. If Splunk is hosted on a UNIX machine, run <ifconfig>. If Splunk is hosted on a Windows machine, run <ipconfig>. This IP address is required on the [SIEM Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md), where you configure Threat Prevention to send data to Splunk.
+__Step 1 –__ Determine the IP address of the Splunk console. If Splunk is hosted on a UNIX machine, run `ifconfig`. If Splunk is hosted on a Windows machine, run `ipconfig`. This IP address is required on the [SIEM Tab](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/siem.md), where you configure Threat Prevention to send data to Splunk.
 
 __Step 2 –__ Navigate to the Settings menu in the Splunk web interface and click Data Inputs.
 

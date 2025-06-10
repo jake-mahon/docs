@@ -49,11 +49,11 @@ From a Folder node, the right-click menu contains these commands.
 
 __NOTE:__ If the logged in user does not have the __Manage Policies__ permissions for a protected policy, these options are grayed-out. See the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md) topic for additional information on protection.
 
-<Policy Name> and <Template Name> Nodes
+`<Policy Name>` and `<Template Name>` Nodes
 
 From the node for a specific policy or template, the right-click menu contains these commands.
 
-![<Policy Name> and <Template Name> Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/individualpolicytemplatenode.png)
+![`<Policy Name>` and `<Template Name>` Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/individualpolicytemplatenode.png)
 
 | Right-Click Command | Description |
 | --- | --- |
@@ -76,11 +76,11 @@ From the Tags node, the right-click menu contains these commands.
 | --- | --- |
 | Refresh | Refreshes the tag folders to display any new tags or any templates newly associated with an existing tag |
 
-<Template Name> Node under Tags
+`<Template Name>` Node under Tags
 
 From the template within a folder under the Tags node, the right-click menu contains these commands.
 
-![<Template Name> Node under Tags - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/templatenodeundertags.png)
+![Template Name Node under Tags - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/templatenodeundertags.png)
 
 | Right-Click Command | Description |
 | --- | --- |

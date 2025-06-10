@@ -1,0 +1,439 @@
+
+Building documentation for: threatprevention
+This will show only errors specific to this product.
+
+
+> docs@0.0.0 build
+> docusaurus build --config ./docusaurus.config.modular.js
+
+
+ ------------------------------------------------------------------------------                                                                                                          Update available 3.7.0 → 3.8.1                                                                                                                 To upgrade Docusaurus packages with the latest version, run the                                       following command:                                        `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest                @docusaurus/module-type-aliases@latest @docusaurus/types@latest`                                                                                         ------------------------------------------------------------------------------ 
+
+[INFO] [en] Creating an optimized production build...
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled with some errors in 8.71s
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/agents/overview.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/overview.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/investigations/options/export.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/policies/eventtype/gposettingchanges.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/install/firstlaunch.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/navigation/rightclickmenus.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/eperestsite/accountmanagement.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/splunk/activedirectory/overview.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/qradar/overview.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jordan.violet/Documents/development/docs/node_modules/@docusaurus/mdx-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+[webpackbar] ✔ Client: Compiled with some errors in 12.33s
+[ERROR] Client bundle compiled with errors therefore further build is impossible.
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/agents/overview.md"
+Cause: Unexpected end of file in expression, expected a corresponding closing brace for `{`
+Details:
+{
+  "column": 1,
+  "message": "Unexpected end of file in expression, expected a corresponding closing brace for `{`",
+  "line": 56,
+  "name": "56:1",
+  "place": {
+    "_bufferIndex": -1,
+    "_index": 5,
+    "line": 56,
+    "column": 1,
+    "offset": 5197
+  },
+  "reason": "Unexpected end of file in expression, expected a corresponding closing brace for `{`",
+  "ruleId": "unexpected-eof",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#unexpected-end-of-file-in-expression-expected-a-corresponding-closing-brace-for-"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/navigation/rightclickmenus.md"
+Cause: Expected a closing tag for `<Template>` (52:19-52:34) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<Template>` (52:19-52:34) before the end of `paragraph`",
+  "line": 52,
+  "name": "52:1-52:40",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 52,
+      "column": 1,
+      "offset": 2452
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 52,
+      "column": 40,
+      "offset": 2491
+    }
+  },
+  "reason": "Expected a closing tag for `<Template>` (52:19-52:34) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/policies/eventtype/gposettingchanges.md"
+Cause: Expected a closing tag for `<enter>` (86:36-86:51) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<enter>` (86:36-86:51) before the end of `paragraph`",
+  "line": 86,
+  "name": "86:1-86:60",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 86,
+      "column": 1,
+      "offset": 4428
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 86,
+      "column": 60,
+      "offset": 4487
+    }
+  },
+  "reason": "Expected a closing tag for `<enter>` (86:36-86:51) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md"
+Cause: Unexpected character `<` (U+003C) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 24,
+  "message": "Unexpected character `<` (U+003C) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 8,
+  "name": "8:24",
+  "place": {
+    "_bufferIndex": 21,
+    "_index": 0,
+    "line": 8,
+    "column": 24,
+    "offset": 692
+  },
+  "reason": "Unexpected character `<` (U+003C) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/eperestsite/accountmanagement.md"
+Cause: Expected a closing tag for `<userId>` (47:25-47:33) before the end of `atxHeading`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<userId>` (47:25-47:33) before the end of `atxHeading`",
+  "line": 47,
+  "name": "47:1-47:33",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 61,
+      "line": 47,
+      "column": 1,
+      "offset": 1198
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 62,
+      "line": 47,
+      "column": 33,
+      "offset": 1230
+    }
+  },
+  "reason": "Expected a closing tag for `<userId>` (47:25-47:33) before the end of `atxHeading`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/install/firstlaunch.md"
+Cause: Expected a closing tag for `<number>` (9:34-9:42) before the end of `paragraph`
+Details:
+{
+  "column": 3,
+  "message": "Expected a closing tag for `<number>` (9:34-9:42) before the end of `paragraph`",
+  "line": 9,
+  "name": "9:3-9:110",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 9,
+      "column": 3,
+      "offset": 405
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 9,
+      "column": 110,
+      "offset": 512
+    }
+  },
+  "reason": "Expected a closing tag for `<number>` (9:34-9:42) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 2837,
+    "loc": {
+      "line": 36,
+      "column": 59
+    }
+  },
+  "column": 60,
+  "message": "Could not parse expression with acorn",
+  "line": 36,
+  "name": "36:60",
+  "place": {
+    "line": 36,
+    "column": 60,
+    "offset": 2837
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.md"
+Cause: Unexpected character `)` (U+0029) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 32,
+  "message": "Unexpected character `)` (U+0029) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 131,
+  "name": "131:32",
+  "place": {
+    "_bufferIndex": 31,
+    "_index": 0,
+    "line": 131,
+    "column": 32,
+    "offset": 6712
+  },
+  "reason": "Unexpected character `)` (U+0029) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/investigations/options/export.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 4874,
+    "loc": {
+      "line": 65,
+      "column": 114
+    },
+    "raisedAt": 15
+  },
+  "column": 115,
+  "message": "Could not parse expression with acorn",
+  "line": 65,
+  "name": "65:115",
+  "place": {
+    "line": 65,
+    "column": 115,
+    "offset": 4874
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 1497,
+    "loc": {
+      "line": 23,
+      "column": 139
+    },
+    "raisedAt": 15
+  },
+  "column": 140,
+  "message": "Could not parse expression with acorn",
+  "line": 23,
+  "name": "23:140",
+  "place": {
+    "line": 23,
+    "column": 140,
+    "offset": 1497
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/qradar/overview.md"
+Cause: Expected a closing tag for `<ipconfig>` (34:163-34:173) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<ipconfig>` (34:163-34:173) before the end of `paragraph`",
+  "line": 34,
+  "name": "34:1-34:367",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 34,
+      "column": 1,
+      "offset": 2535
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 34,
+      "column": 367,
+      "offset": 2901
+    }
+  },
+  "reason": "Expected a closing tag for `<ipconfig>` (34:163-34:173) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/splunk/activedirectory/overview.md"
+Cause: Expected a closing tag for `<ipconfig>` (28:163-28:173) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<ipconfig>` (28:163-28:173) before the end of `paragraph`",
+  "line": 28,
+  "name": "28:1-28:367",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 28,
+      "column": 1,
+      "offset": 2174
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 28,
+      "column": 367,
+      "offset": 2540
+    }
+  },
+  "reason": "Expected a closing tag for `<ipconfig>` (28:163-28:173) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/siemdashboard/splunk/threathunting/overview.md"
+Cause: Expected a closing tag for `<ipconfig>` (26:164-26:174) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<ipconfig>` (26:164-26:174) before the end of `paragraph`",
+  "line": 26,
+  "name": "26:1-26:222",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 26,
+      "column": 1,
+      "offset": 2106
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 26,
+      "column": 222,
+      "offset": 2327
+    }
+  },
+  "reason": "Expected a closing tag for `<ipconfig>` (26:164-26:174) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md"
+Cause: Unexpected end of file before attribute value, expected a character that can start an attribute value, such as `"`, `'`, or `{`
+Details:
+{
+  "column": 66,
+  "message": "Unexpected end of file before attribute value, expected a character that can start an attribute value, such as `\"`, `'`, or `{`",
+  "line": 26,
+  "name": "26:66",
+  "place": {
+    "_bufferIndex": -1,
+    "_index": 1,
+    "line": 26,
+    "column": 66,
+    "offset": 2102
+  },
+  "reason": "Unexpected end of file before attribute value, expected a character that can start an attribute value, such as `\"`, `'`, or `{`",
+  "ruleId": "unexpected-eof",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-end-of-file-at-expected-expect"
+}
+
+❌ Build failed for threatprevention. Check the errors above.
