@@ -19,4 +19,4 @@ If you are missing objects, you can run a scan on a __Customization__ from the o
 
 ![rescan_example_800x289](/img/product_docs/strongpointsalesforceflashlight/tools/rescan_example_800x289.png)
 
-![topic](/img/product_docs/topic.png)__Next Step:__[Validating the Data ](/docs/strongpointsalesforceflashlight/tools/validating_data.md)
+__Next Step:__[Validating the Data ](/docs/strongpointsalesforceflashlight/tools/validating_data.md)

@@ -487,7 +487,7 @@ Fulfill Microsoft Exchange via PowerShell
 
 Notice the __Identifier__ attribute with the value ```Job``` in the ```OpenIdIdentifier``` tag. It refers to the ```ClientId``` written to the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration. The Tasks will authenticate with the profile associated with this ```ClientId``` in the ```<OpenIdClient>``` xml configuration element.
 
-There is also the tag <NoSynchronization/> which means that the export will not be executed. Removing the tag will launch export-related tasks before fulfillment-related tasks. Export tasks need the same XML configuration and additional settings in[
+There is also the tag `<NoSynchronization/>` which means that the export will not be executed. Removing the tag will launch export-related tasks before fulfillment-related tasks. Export tasks need the same XML configuration and additional settings in[
 Fulfill Microsoft Exchange via PowerShell
 ](#Fulfill-Microsoft-Exchange-via-PowerShell).
 

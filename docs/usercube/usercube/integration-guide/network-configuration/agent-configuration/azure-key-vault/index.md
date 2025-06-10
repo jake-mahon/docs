@@ -6,7 +6,7 @@ First, Identity Manager recommends reading:
 
 - [Azure Key Vault's overview documentation](https://docs.microsoft.com/en-us/azure/key-vault/general/overview) and [Basic concepts](https://docs.microsoft.com/azure/key-vault/general/basic-concepts);
 - How to [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-azure-and-create-a-vault);
-- About [Azure Key Vault's secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets) because secrets are the data that Identity Manager needs to collect.
+- About [Azure Key Vault's secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets) because secrets are the data that Identity Manager needs to collect.
 
 ## Compatible Settings
 
@@ -57,11 +57,11 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
                     
 ```
 
-To save the login to Azure Key Vault, create a secret whose name and value are respectively <Connections--ADExport--Login> and <login123>.
+To save the login to Azure Key Vault, create a secret whose name and value are respectively `<Connections--ADExport--Login>` and `<login123>`.
 
-To save the second server, create a secret whose name and value are respectively <Connections--ADExport--Servers--1--Server> and <marseille.contoso.com>.
+To save the second server, create a secret whose name and value are respectively `<Connections--ADExport--Servers--1--Server>` and `<marseille.contoso.com>`.
 
-_Remember,_  the index of the first element is <0>.
+_Remember,_  the index of the first element is `<0>`.
 
 This way, values from the Azure Key Vault take priority over the values from the appsettings files.
 
@@ -73,4 +73,4 @@ Netwrix Identity Manager (formerly Usercube)uses the default Azure credentials t
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Vault   required | String | DNS Name found on the page of the vault in Azure's portal.  _Remember,_ usually in the format is <https://yourVault.vault.azure.net/.> |
+| Vault   required | String | DNS Name found on the page of the vault in Azure's portal.  _Remember,_ usually in the format is `<https://yourVault.vault.azure.net/.>` |

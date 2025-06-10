@@ -19,7 +19,7 @@ Here is the process to create a control to monitor changes:
    | Select Filter | What to Set | Resulting   Description | Formula To Set |
    | --- | --- | --- | --- |
    | Inactive | Select __No__ | Is false |  |
-   | Formula (Numeric) | Select __less than__ for Formula (Numeric)   Enter __0__ for Value | is less than 0 | __{datecreated}-{lastmodifieddate}__ |
+   | Formula (Numeric) | Select __less than__ for Formula (Numeric)   Enter __0__ for Value | is less than 0 | __\{datecreated\}-\{lastmodifieddate\}__ |
    | System Notes Fields | Select __Field__   Select __any of__   Click __Purchase Approval Limit__   Ctrl-Click __Purchase Limit__ | Is any of Purchase Approval Limit, Purchase Limit |  |
    | System Notes Fields | Select __Date__   Select __on or after__   Select __yesterday__ | is on or after yesterday |  |
    | Field | Summary Type |
@@ -35,7 +35,7 @@ Here is the process to create a control to monitor changes:
 
    ![Adding the Results columns](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example2.png)
 7. __Save__ the search.
-8. Note the assigned __ID__ for your new Search. For example, __customsearch5673__
+8. Note the assigned __ID__ for your new Search. For example, __customsearch5673__
 
 ## Create the Customization Record
 

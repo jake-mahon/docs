@@ -41,4 +41,4 @@ Links to useful Flashlight tools to give you more value out of your documentatio
 A shortcut to open the DRD for the entered __Name__ or __API Name__.  
 ![Shortcut to the DRD tool](/img/product_docs/strongpointsalesforceflashlight/getting_started/dashboard_drd_gen.png)
 
-![topic](/img/product_docs/topic.png)__Next Step:__[ Viewing the Status Report](/docs/strongpointsalesforceflashlight/getting_started/config_and_stats.md)
+__Next Step:__[ Viewing the Status Report](/docs/strongpointsalesforceflashlight/getting_started/config_and_stats.md)

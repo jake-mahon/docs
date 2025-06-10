@@ -196,114 +196,115 @@ Here is a list of permissions required for different user profiles:
 - /Connectors/SynchronizeSession
 
   Permission to send connector files to the server.
-- /Custom/AccessCertification/AutoAssigned/{entityType\_identifier}
+- /Custom/AccessCertification/AutoAssigned/`{entityType_identifier}`
 
   Permission to be automatically assigned to an access certification item corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/AccessCertification/ManualAssigned/{entityType\_identifier}
+- /Custom/AccessCertification/ManualAssigned/`{entityType_identifier}`
 
   Permission to be manually assigned to an access certification item corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/ManageAccounts/{entityType\_identifier}
+- /Custom/ManageAccounts/`{entityType_identifier}`
 
   Permission to display the Manage Accounts menu for resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/ProvisioningPolicy/AssignedRoles/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/AssignedRoles/`{entityType_identifier}`
 
-  Permission to view the roles assigned to an object of type entityType\_identifier.
-- /Custom/ProvisioningPolicy/BulkPerformManualProvisioning/{entityType\_identifier}
+  Permission to view the roles assigned to an object of type entityType_identifier.
+- /Custom/ProvisioningPolicy/BulkPerformManualProvisioning/`{entityType_identifier}`
 
   Permission to perform bulk validations on the __Manual Provisioning__ page.
-- /Custom/ProvisioningPolicy/BulkReconciliateResources/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/BulkReconciliateResources/`{entityType_identifier}`
 
   Permission to perform bulk validations on the __Resource Reconciliation__ page.
-- /Custom/ProvisioningPolicy/BulkReviewProvisioning/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/BulkReviewProvisioning/`{entityType_identifier}`
 
   Permission to perform bulk validations on the __Provisioning Review__ page (only for errored orders).
-- /Custom/ProvisioningPolicy/BulkRoleReconciliation/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/BulkRoleReconciliation/`{entityType_identifier}`
 
   Permission to perform bulk validations on the __Role Reconciliation__ page.
-- /Custom/ProvisioningPolicy/PendingAssignedResourceTypes/{resourceType\_identifier}
+- /Custom/ProvisioningPolicy/PendingAssignedResourceTypes/`{resourceType_identifier}`
 
   Permission to query and read all the pending assigned resource types linked to ```{resourceType_identifier}```.
-- /Custom/ProvisioningPolicy/PerformManualProvisioning/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/PerformManualProvisioning/`{entityType_identifier}`
 
   Permission to perform manual provisioning, access the corresponding screens and be notified accordingly, when ```{entityType_identifier}``` is the source entity type.
-- /Custom/ProvisioningPolicy/ReconciliateResources/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/ReconciliateResources/`{entityType_identifier}`
 
   Permission to reconcile resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/ProvisioningPolicy/ReconciliateRoles/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/ReconciliateRoles/`{entityType_identifier}`
 
   Permission to reconcile role corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/ProvisioningPolicy/ReviewProvisioning/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/ReviewProvisioning/`{entityType_identifier}`
 
   Permission to review provisioning corresponding to an access right owned by an object of type ```entityType_identifier```.
 - The permission's recipient will receive a notification email.
 
   __NOTE:__ In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
     
-  For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory\_User allows a profile to perform manual provisioning with Directory\_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
+  For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows a profile to perform manual provisioning with Directory_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
+  
   Each permission can be configured in an access control entry so that the corresponding notification is disabled. See the [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)topic for additional information.
-- /Custom/ProvisioningPolicy/ReviewRoles/{entityType\_identifier}
+- /Custom/ProvisioningPolicy/ReviewRoles/`{entityType_identifier}`
 
-  Permission to review roles corresponding to an access right owned by an object of type entityType\_identifier.
+  Permission to review roles corresponding to an access right owned by an object of type entityType_identifier.
 
   The permission's recipient will receive a notification email.
 
   __NOTE:__ In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
     
-  For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory\_User allows a profile to perform manual provisioning with Directory\_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
+  For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows a profile to perform manual provisioning with Directory_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
   Each permission can be configured in an access control entry so that the corresponding notification is disabled. See the [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)topic for additional information.
 
-- /Custom/Reports/{reportQuery\_identifier}
+- /Custom/Reports/`{reportQuery_identifier}`
 
   Permission to access reports corresponding to the query ```reportQuery_identifier```.
-- /Custom/ResourceChanges/{connector\_identifier}
+- /Custom/ResourceChanges/`{connector_identifier}`
 
   Permission to query and read any resource changes from the ```ResourceChanges``` table.
-- /Custom/ResourceFileChanges/{connector\_identifier}
+- /Custom/ResourceFileChanges/`{connector_identifier}`
 
   Permission to query and read any resource file changes from the ```ResourceFileChanges``` table.
-- /Custom/ResourceFiles/{entityType\_identifier}/{property\_identifier}/View
+- /Custom/ResourceFiles/`{entityType_identifier}`/`{property_identifier}`/View
 
   Permission to query and read any resource files from the ```ResourceFile``` table corresponding to the property ```property_identifier``` of the entity ```entityType_identifier```, for example the ```Directory_User``` photo property. This permission is generated by the [```ViewAccessControlRules```](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md) scaffolding.
-- /Custom/ResourceLinkChanges/{connector\_identifier}
+- /Custom/ResourceLinkChanges/`{connector_identifier}`
 
   Permission to query and read any resource link changes from the ```ResourceLinkChanges``` table.
-- /Custom/Resources/{entityType\_identifier}/Create
+- /Custom/Resources/`{entityType_identifier}`/Create
 
   Permission to create resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/Delete
+- /Custom/Resources/`{entityType_identifier}`/Delete
 
   Permission to delete resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/Query
+- /Custom/Resources/`{entityType_identifier}`/Query
 
   Permission to query and read resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/Self
+- /Custom/Resources/`{entityType_identifier}`/Self
 
   Permission to view self resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/SelfOwnedResources
+- /Custom/Resources/`{entityType_identifier}`/SelfOwnedResources
 
   Permission to view self owned resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/SelfTargetResources
+- /Custom/Resources/`{entityType_identifier}`/SelfTargetResources
 
   Permission to view self target resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/Update
+- /Custom/Resources/`{entityType_identifier}`/Update
 
   Permission to update resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/View
+- /Custom/Resources/`{entityType_identifier}`/View
 
   Permission to view resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/ViewOwnedResources
+- /Custom/Resources/`{entityType_identifier}`/ViewOwnedResources
 
   Permission to view owned resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Resources/{entityType\_identifier}/ViewTargetResources
+- /Custom/Resources/`{entityType_identifier}`/ViewTargetResources
 
   Permission to view target resources corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/Workflows/{workflow\_identifier}/{activity\_identifier}/{activityTemplateState\_shortIdentifier}
+- /Custom/Workflows/`{workflow_identifier}`/`{activity_identifier}`/`{activityTemplateState_shortIdentifier}`
 
   Permission to access the workflow ```workflow_identifier```at the activty ```activity_identifier``` in the state ```activityTemplateState_shortIdentifier```.
-- /Custom/Workflows/Supervise/{entityType\_identifier}
+- /Custom/Workflows/Supervise/`{entityType_identifier}`
 
   Permission to supervise a workflow corresponding to an access right owned by an object of type ```entityType_identifier```.
-- /Custom/WorkflowsNotifications/{workflow\_identifier}/{activity\_identifier}/{activityTemplateState\_shortIdentifier}
+- /Custom/WorkflowsNotifications/`{workflow_identifier}`/`{activity_identifier}`/`{activityTemplateState_shortIdentifier}`
 
   Permission to be notified on a workflow's specific state. Applies to notifications specifying the recipient's type: ```Profile```.
 - /EntityTypeMappings

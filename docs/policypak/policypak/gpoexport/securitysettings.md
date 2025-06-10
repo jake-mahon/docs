@@ -4,7 +4,7 @@ Over thirteen types of security settings can be managed with Netwrix Endpoint Po
 
 - Account Policies
   - Password Policy
-  - Account Lockout Policy<
+  - Account Lockout Policy
   - Kerberos Policy
 - Local Policies
   - Audit Policy

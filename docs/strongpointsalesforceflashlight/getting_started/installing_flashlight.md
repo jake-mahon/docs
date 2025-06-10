@@ -12,4 +12,4 @@ The Flashlight app package is available on the Salesforce AppExchange. To instal
 
 NOTE:  Strongpoint installs in the background. An email notification is sent to you when the installation is complete.
 
-![topic](/img/product_docs/topic.png)__Next Step:__ [Using the Getting Started Wizard](/docs/strongpointsalesforceflashlight/getting_started/using_getting_started_wizard.md)
+__Next Step:__ [Using the Getting Started Wizard](/docs/strongpointsalesforceflashlight/getting_started/using_getting_started_wizard.md)

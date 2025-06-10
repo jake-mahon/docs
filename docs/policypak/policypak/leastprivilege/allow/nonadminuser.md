@@ -15,7 +15,7 @@ __Step 3 –__ For the Path, use: C:\Windows\System32\sc.exe
 
 ![1318_2_8beafda62e37494f1c8002167898f88f](/img/product_docs/policypak/policypak/leastprivilege/allow/1318_2_8beafda62e37494f1c8002167898f88f.png)
 
-__Step 4 –__ For the Command line use the syntax: ```* <ServiceName>*``` (\*space<ServiceName>\*). For example:```* RemoteRegistry*```. Ensure that both __Strict equality__ and __Ignore arguments__ case options are checked.
+__Step 4 –__ For the Command line use the syntax: `<ServiceName>` (\*space`<ServiceName>`\*). For example:`RemoteRegistry`. Ensure that both __Strict equality__ and __Ignore arguments__ case options are checked.
 
 ![1318_3_68d25dd7a6203dc388177e40b10e567d](/img/product_docs/policypak/policypak/leastprivilege/allow/1318_3_68d25dd7a6203dc388177e40b10e567d.png)
 
@@ -43,7 +43,9 @@ __Step 9 –__ Disable the service with the following command: ```SC Config Remo
 
 You can use the XML policy below as an example.
 
+```
 [Copy](javascript:void(0);)
+```
 
 XML Policy
 

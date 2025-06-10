@@ -7,7 +7,7 @@ Add or update customizations and proposed customizations in a Change Request.
 __Name__
 
 URL
-:   https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript\_flo\_int\_change\_request\_api&deploy=1
+:   `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1`
 
 HTTP Method
 :   POST
@@ -58,11 +58,11 @@ This API uses OAuth 1.0 type for its request headers and Token Based Authenticat
 
 ### Format
 
-Authorization: <_encoded authentication code_>
+Authorization: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
-```Authorization: OAuth oauth_consumer_key="xxx", oauth_nonce="xxx", oauth_signature="xxx", oauth_signature_method="HMAC-SHA256", oauth_timestamp="1698722057", oauth_token="xxx", oauth_version="1.0",realm="xxx"```
+`Authorization: OAuth oauth_consumer_key="xxx", oauth_nonce="xxx", oauth_signature="xxx", oauth_signature_method="HMAC-SHA256", oauth_timestamp="1698722057", oauth_token="xxx", oauth_version="1.0",realm="xxx"`
 
 ## Response
 
@@ -186,7 +186,7 @@ Script Name
 :   Strongpoint Int Change Request API
 
 Script ID
-:   customscript\_flo\_int\_change\_request\_api
+:   customscript_flo_int_change_request_api
 
 Filename
 :   StrongpointIntegrationChangeRequestAPI.js

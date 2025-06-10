@@ -44,6 +44,6 @@ __Step 1 –__ Locate the CurrentBuildNumber using the registry.
 
 __Step 2 –__ Then set your ILT to something similar to this:
 
-Windows 10 and BuildNumber <= 17704
+Windows 10 and BuildNumber \<= 17704
 
 ![88_7_image](/img/product_docs/policypak/policypak/itemleveltargeting/88_7_image.png)

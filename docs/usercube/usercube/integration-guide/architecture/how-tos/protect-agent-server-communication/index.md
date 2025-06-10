@@ -4,7 +4,7 @@ This guide shows how to set up a secured authentication system between Identity 
 
 ## Overview
 
-Identity Manager provides a simple way to protect the communication between agent and server, using OpenID Connect.
+Identity Manager provides a simple way to protect the communication between agent and server, using OpenID Connect.
 
 First, make sure to understand the OpenID protocol. For example, [see Microsoft's documentation on the matter](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc).
 
@@ -28,11 +28,9 @@ The agent must be configured, in its ```appsettings.json```, with:
 - another encryption certificate meant to encrypt specific files such as logs or temporary files;
 - an SSL encryption certificate for the HTTPS connection.
 
-  The SSL certificate is required when working in an on-premises environment. In a SaaS environment, Identity Manager provides it.
+  The SSL certificate is required when working in an on-premises environment. In a SaaS environment, Identity Manager provides it.
 
-In order to give to the agent the right permissions, the XML configuration must specify an [
-OpenIdClient
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to its hashed secret, and to a Identity Manager profile.
+In order to give to the agent the right permissions, the XML configuration must specify an [OpenIdClient](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to its hashed secret, and to a Identity Manager profile.
 
 ## Protect Agent/Server Communication
 
@@ -73,7 +71,7 @@ Protect agent/server communication by proceeding as follows:
    > }
    >
    > ```
-3. Configure an OpenIdClient, both on agent side in ```appsettings.agent.json``` with the non-hashed secret and on server side in the XML configuration with the secret hashed by the [
+3. Configure an `OpenIdClient`, both on agent side in ```appsettings.agent.json``` with the non-hashed secret and on server side in the XML configuration with the secret hashed by the [
    Usercube-New-OpenIDSecret
    ](/docs/usercube/usercube/integration-guide/executables/references/new-openidsecret/index.md) executable. See the [
    OpenIdClient
@@ -105,6 +103,6 @@ Protect agent/server communication by proceeding as follows:
    >
    > ```
    >
-   > <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" DisplayName_L1="Permissions for jobs" Profile="Administrator" />
+   > `<OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" DisplayName_L1="Permissions for jobs" Profile="Administrator" />`
    >
    > ```

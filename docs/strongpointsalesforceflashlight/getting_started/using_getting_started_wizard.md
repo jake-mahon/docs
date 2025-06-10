@@ -17,4 +17,4 @@ To use the Getting Started Wizard:
 
 Flashlight for Salesforce examines your org and begins the automated documentation process. The process runs in the background. You receive an email notification when it is finished. The length of time depends on the size of your org.
 
-![topic](/img/product_docs/topic.png)__Next Step:__ [Using the Dashboard](/docs/strongpointsalesforceflashlight/getting_started/dashboard.md)
+__Next Step:__ [Using the Dashboard](/docs/strongpointsalesforceflashlight/getting_started/dashboard.md)

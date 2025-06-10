@@ -1,8 +1,6 @@
 # Workflows
 
-In software business, a [
-Workflow
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a series of specific actions taken by specific people to accomplish specific tasks. For Identity Manager, workflows are models of business workflows, processes or procedures.
+In software business, a [Workflow](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a series of specific actions taken by specific people to accomplish specific tasks. For Identity Manager, workflows are models of business workflows, processes or procedures.
 
 ## Overview
 
@@ -27,16 +25,14 @@ A workflow is made of several elements:
 ### Technical principles
 
 - A workflow is linked to one[
-  Entity Type
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only resources from said entity type. For example, a workflow can be linked to ```Directory_User``` or ```Directory_Department``` according to the workflow's purpose, but not both together.
+Entity Type
+](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only resources from said entity type. For example, a workflow can be linked to ```Directory_User``` or ```Directory_Department``` according to the workflow's purpose, but not both together.
 - The aim of a workflow is to get input data (either a form or just an approval) from users involved in the workflow, then build a change set, and finally apply said change set to the relevant resource.
 - Starting a workflow means starting its first activity.
 
 ## Activities
 
-A workflow is made of successive activities, each of which is assigned an [
-Activity Templates
-](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a workflow step to another.
+A workflow is made of successive activities, each of which is assigned an [Activity Templates](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a workflow step to another.
 
 Activities never run in parallel in a workflow. Each activity can start once the previous one reached its final state.
 
@@ -76,17 +72,11 @@ The following table presents the required child controls required for each form 
 
 ## Permissions
 
-For each workflow, some permissions must be assigned to specific [
-Profile
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are entitled to realize the workflow's actions.
+For each workflow, some permissions must be assigned to specific [Profile](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are entitled to realize the workflow's actions.
 
-While assigning the specific permissions of a workflow, it is necessary to assign the involved profiles a few essential rights via the [
-Workflow Access Control Rules
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md) scaffolding.
+While assigning the specific permissions of a workflow, it is necessary to assign the involved profiles a few essential rights via the [Workflow Access Control Rules](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md) scaffolding.
 
-A workflow needs a permission for each of all its activity states involving user interaction. This means that, for example, the activities following the templates ```Persist``` and ```Persist Only Resources``` do not require any permission. This also means that, in the example of the ```Action``` template, a workflow would need permissions for the states ```ActionPending```, ```Aborted``` and ```Purged``` (because deletion requires an authorization), but not for the state ```Executed``` that does not involve user interaction or special authorization. See the [
-Activity Templates
-](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+A workflow needs a permission for each of all its activity states involving user interaction. This means that, for example, the activities following the templates ```Persist``` and ```Persist Only Resources``` do not require any permission. This also means that, in the example of the ```Action``` template, a workflow would need permissions for the states ```ActionPending```, ```Aborted``` and ```Purged``` (because deletion requires an authorization), but not for the state ```Executed``` that does not involve user interaction or special authorization. See the [Activity Templates](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 All these permissions can be shared and distributed among several profiles, according to the purpose of the workflow.
 
@@ -101,16 +91,12 @@ __Caution__: this way of writing permissions is unsafe in case of a modification
 
 ## Menu Items
 
-[
-Menu Item
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows accessible from the UI.
+[Menu Item](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows accessible from the UI.
 
 Identity Manager's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the __Directory__ section on the home page;
-  ![Workflow Menu Items - Users List](/img/product_docs/menuitems_userslist_v523.png)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/product_docs/menuitems_userview_v523.png)
 
 ## Aspects
 
@@ -122,13 +108,9 @@ A summary can be displayed at the end of a workflow to sum up the collected info
 
 ## Homonym Detections (Optional)
 
-A homonym search checks if a resource already exists in the system before creating/modifying it, preventing duplicates. It is configured through a [
-Homonym Entity Link
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+A homonym search checks if a resource already exists in the system before creating/modifying it, preventing duplicates. It is configured through a [Homonym Entity Link](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-See the [
-Configure a Homonym Detection
-](/docs/usercube_saas/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional information.
+See the [Configure a Homonym Detection](/docs/usercube_saas/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional information.
 
 ## Display Tables (Optional)
 

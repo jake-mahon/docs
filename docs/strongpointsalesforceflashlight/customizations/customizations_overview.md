@@ -25,5 +25,3 @@ These reports are available from __Flashlight__ > __Reports / List Views__ > __C
 > __Permissions by Object__: This report displays __Permissions__ grouped by __Object__.
 >
 > __Object Permissions by Profile__: This report displays __Object Permissions__ grouped by __Profile__.
-
-![topic](/img/product_docs/topic.png)__Next Step:__[Understanding the Customization Record](/docs/strongpointsalesforceflashlight/customizations/understanding_customization_record.md)

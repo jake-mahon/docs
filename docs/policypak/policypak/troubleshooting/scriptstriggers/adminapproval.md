@@ -12,7 +12,7 @@ Customer has enabled AA + Enforce Admin Approval for installers
 
 ![1306_2_02a0661341d87f03cca56ccbf243d833](/img/product_docs/policypak/policypak/troubleshooting/scriptstriggers/1306_2_02a0661341d87f03cca56ccbf243d833.png)
 
-But when MS Teams attempts to update, Windows runs a helper process (msiexec.exe without any arguments as SYSTEM). This msiexec.exe creates another child process (msiexec -embedding {GUID}), and Admin Approval correctly classifies it as installer and intercepts it as expected.
+But when MS Teams attempts to update, Windows runs a helper process (msiexec.exe without any arguments as SYSTEM). This msiexec.exe creates another child process (msiexec -embedding `{GUID}`), and Admin Approval correctly classifies it as installer and intercepts it as expected.
 
 ### WORKAROUND 1: (Recommended)
 
@@ -34,7 +34,7 @@ The manual steps to generate the XML are:
 
 ![1306_8_4af3ffdd4277ec275d61a4aeb4adb125](/img/product_docs/policypak/policypak/troubleshooting/scriptstriggers/1306_8_4af3ffdd4277ec275d61a4aeb4adb125.png)
 
-Additionally, you will need a Endpoint Policy Manager Least Privilege Manager UWP Policy which specifies that “Any UWP app allowed” as follows:
+Additionally, you will need a Endpoint Policy Manager Least Privilege Manager UWP Policy which specifies that "Any UWP app allowed" as follows:
 
 ![1306_9_85037c3c83c955ec3a44d5631189d585](/img/product_docs/policypak/policypak/troubleshooting/scriptstriggers/1306_9_85037c3c83c955ec3a44d5631189d585.png)
 
@@ -66,10 +66,10 @@ __NOTE:__ You will need to update the path to the latest version of MS Teams fil
 
 ![927_3_3_950x296](/img/product_docs/policypak/policypak/troubleshooting/scriptstriggers/927_3_3_950x296.png)
 
-[https://www.policypak.com/pp-files/PPScripts\_\_MS\_Teams\_update\_to\_resolve\_issue\_with\_Admin\_Approval\_prompts.xml](https://www.policypak.com/pp-files/PPScripts__MS_Teams_update_to_resolve_issue_with_Admin_Approval_prompts.xml)
+[https://www.policypak.com/pp-files/PPScripts__MS_Teams_update_to_resolve_issue_with_Admin_Approval_prompts.xml](https://www.policypak.com/pp-files/PPScripts__MS_Teams_update_to_resolve_issue_with_Admin_Approval_prompts.xml)
 
 ### WORKAROUND 3: For CSEs previous to 24.4 (Not recommended - as any MSIEXEC command line with "-embedding \*" will be elevated - use at own risk)
 
-Using Endpoint Policy Manager Least Privilege Manager create the 2 separate policies as shown in the screen shot below.
+Using Endpoint Policy Manager Least Privilege Manager create the 2 separate policies as shown in the screen shot below.
 
 ![927_4_image-20231213102010-1](/img/product_docs/policypak/policypak/troubleshooting/scriptstriggers/927_4_image-20231213102010-1.png)

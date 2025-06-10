@@ -14,7 +14,7 @@ __Step 1 –__ Download the Endpoint Policy Manager bits (721 or later) and loca
 
 __Step 2 –__ Copy / rename these files to the names that these build will recognize: Endpoint Policy Manager __CSE Setup x64.MSI__ and Endpoint Policy Manager __CSE Setup x86.msi__.
 
-__Step 3 –__ Place the now-renamed 721-or-later CSE and put in default SYSVOL location ( \sysvolsysvol<domain name>policiesPolicyPakCSE). This should force the build 605-703 CSEs to upgrade to version 712 (or later) CSE.
+__Step 3 –__ Place the now-renamed 721-or-later CSE and put in default SYSVOL location ( `\sysvolsysvol<domain name>policiesPolicyPakCSE`). This should force the build 605-703 CSEs to upgrade to version 712 (or later) CSE.
 
 If you have 704-711:
 
@@ -22,7 +22,7 @@ __Step 1 –__ Download the Endpoint Policy Manager bits (721 or later) and loca
 
 __Step 2 –__ Copy / rename these files to the names that these build will recognize: Endpoint Policy Manager __Application Manager CSE x86.msi__ and Endpoint Policy Manager __Application Manager CSE x64.msi__.
 
-__Step 3 –__ You must still use the default SYSVOL location ( \sysvolsysvol<domain name>policiesPolicyPakCSE). This should force the build 704-708 CSEs to upgrade to the 712 version (or later) CSE.
+__Step 3 –__ You must still use the default SYSVOL location ( `\sysvolsysvol<domain name>policiesPolicyPakCSE`). This should force the build 704-708 CSEs to upgrade to the 712 version (or later) CSE.
 
 If you have build 712:
 
@@ -32,7 +32,7 @@ __Step 1 –__ Download the Endpoint Policy Manager bits (721 or later) and loca
 
 __Step 2 –__ Copy / rename these files to the names that these build will recognize:Endpoint Policy Manager Application Manager CSE x86.msi and Endpoint Policy Manager Application Manager CSE x64.msi.
 
-__Step 3 –__ File placement: After renaming the file, you must put these renamed files in default SYSVOL location ( \sysvolsysvol<domain name>policiesPolicyPakCSE)
+__Step 3 –__ File placement: After renaming the file, you must put these renamed files in default SYSVOL location ( `\sysvolsysvol<domain name>policiesPolicyPakCSE`)
 
 Option 2: Use the update.config file and specify the precise filename to use)
 

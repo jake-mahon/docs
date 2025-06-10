@@ -2,7 +2,7 @@
 
 Pre-requisites (USER ACTION REQUIRE):
 
-__Step 1 –__  Stream\_Weather\_2\_<GUID>.dat file must be available at: ```%userprofile%\AppData\Local\Microsoft\Outlook\RoamCache```
+__Step 1 –__  `Stream_Weather_2_<GUID>`.dat file must be available at: ```%userprofile%\AppData\Local\Microsoft\Outlook\RoamCache```
 
 __Step 2 –__  Create it manually by, Clicking on a little drop-down button in the Weather Bar and Add another city. Then change it back to the one you want.
 

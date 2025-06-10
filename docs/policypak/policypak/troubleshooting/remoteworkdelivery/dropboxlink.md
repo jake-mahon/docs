@@ -38,7 +38,7 @@ __Step 1 –__ Export to XML
 
 __Step 2 –__ Open the saved XML file in your text editor
 
-__Step 3 –__ Find the option "<rd:source url=xxx" and replace the value with the correct DropBox link.
+__Step 3 –__ Find the option `<rd:source url=xxx` and replace the value with the correct DropBox link.
 
 Example:
 

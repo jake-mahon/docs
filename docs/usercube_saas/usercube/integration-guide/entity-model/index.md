@@ -101,9 +101,7 @@ For example,
 
 Some property values must be available in several languages. In this case, we define a __neutral property__ and as many corresponding properties as languages.
 
-The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName\_L{Index}_ where _Index_ reference the [
-Languages
-](/docs/usercube_saas/usercube/integration-guide/toolkit/languages/index.md) list.
+The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _`InternalDisplayName___L{Index}`_ where _Index_ reference the [Languages](/docs/usercube_saas/usercube/integration-guide/toolkit/languages/index.md).
 
 #### Computed property
 

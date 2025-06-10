@@ -38,7 +38,7 @@ __Step 3 –__ Begin typing in the __Recipients__ textbox. You can enter a user 
 
 __Step 4 –__ Repeat Step 3 to add additional recipients.
 
-__Step 5 –__ Modify the subject line as desired in the Email Subject box. The default subject is: Export of Report '[NAME OF INVESTIGATION]'.
+__Step 5 –__ Modify the subject line as desired in the Email Subject box. The default subject is: Export of Report '[NAME OF INVESTIGATION]'.
 
 __Step 6 –__ Select the radio button for the desired file format: CSV, PDF, or JSON.
 
@@ -62,7 +62,7 @@ The name of the respective investigation is displayed as a link. Click it to vie
 
 __Step 3 –__ By default the schedule is enabled. You can disable it with the toggle button by the window name.
 
-__Step 4 –__ Modify the text in the Export name field as desired. The default name is: Export for `{{Investigation\_Name}}`. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
+__Step 4 –__ Modify the text in the Export name field as desired. The default name is: Export for `\{\{Investigation\_Name\}\}`. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
 
 __Step 5 –__ Select a shared folder from the __Publish folder__ drop-down menu. Only folders configured on the Folder Settings page of the Integrations interface will be listed here.
 
@@ -74,9 +74,9 @@ __Step 7 –__ Set the start date, time, and timezone for the selected frequency
 - Time – This field opens a clock. You can also type a date in the field.
 - Timezone – This field opens a drop-down menu. Select the desired timezone.
 
-__Step 8 –__ Set the file name in the File name field. The default name is: `{{Investigation\_Name}}`\_{{Date}}. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
+__Step 8 –__ Set the file name in the File name field. The default name is: `\{\{Investigation\_Name\}\}`\_\{\{Date\}\}. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
 
-__Step 9 –__ Select the file format for the export from the drop-down menu: CSV, PDF, JSON, Excel Viewing.
+__Step 9 –__ Select the file format for the export from the drop-down menu: CSV, PDF, JSON, Excel Viewing.
 
 __Step 10 –__ Click __Save__. The Schedule export window closes.
 

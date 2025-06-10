@@ -133,13 +133,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "<ConnectionIdentifier>": {  
-      ...  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "<ConnectionIdentifier>": {  
+      ...  
+    }  
+  }  
 }
 ```
 
@@ -156,18 +156,18 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "SCIMExport": {  
-        "ApplicationId": "<applicationIdExample>",  
-        "Server": "<https://example.for.doc.com/services/scim>",  
-        "ApplicationKey": "<KEY>",  
-        "Login": "<login>",  
-        "Password": "<password>",  
-        "Filter": "<Users|?filter=active eq \"true\>"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "SCIMExport": {  
+        "ApplicationId": "<applicationIdExample>",  
+        "Server": "<https://example.for.doc.com/services/scim>",  
+        "ApplicationKey": "<KEY>",  
+        "Login": "<login>",  
+        "Password": "<password>",  
+        "Filter": "<Users|?filter=active eq \"true\">"  
+    }  
+  }  
 }
 ```
 
@@ -207,14 +207,14 @@ Entity Type Mapping
 
 For the connector to work properly, the connection tables must follow the naming conventions too: ```<identifier>_<entity> for entities and <identifier>_members_<entity>``` for links.
 
-If the connection column describes a sub-property, then the name should have the following pattern: {property}:{sub-property}. The character ":" should not be used in other situations.
+If the connection column describes a sub-property, then the name should have the following pattern: `{property}:{sub-property}`. The character ":" should not be used in other situations.
 
 For example, if we want to retrieve information about Users, Groups and Groups' members, we should have the following configuration:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
-<EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
+<EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
 ```
 
 We would have SCIMExport\_Users.csv with the column headers id, ```name:givenName``` and ```emails:value```, ```SCIMExport_Groups.csv``` with the column headers id and ```displayName```, and ```SCIMExport_members_Groups.csv``` with the column headers value and ```MemberId```.
@@ -240,19 +240,19 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json  
 > {  
->   ...  
->   "Connections": {  
->     ...  
->     "SCIMFulfillment": {  
->         "ApplicationId": "<applicationIdExample>",  
->         "Server": "<https://example.for.doc.com/services/scim>",  
->         "ApplicationKey": "<KEY>",  
->         "Login": "<login>",  
->         "Password": "<password>",  
->         "ServiceSupportBulk": true,  
->         "BulkMaxOperation": 10  
->     }  
->   }  
+>   ...  
+>   "Connections": {  
+>     ...  
+>     "SCIMFulfillment": {  
+>         "ApplicationId": "<applicationIdExample>",  
+>         "Server": "<https://example.for.doc.com/services/scim>",  
+>         "ApplicationKey": "<KEY>",  
+>         "Login": "<login>",  
+>         "Password": "<password>",  
+>         "ServiceSupportBulk": true,  
+>         "BulkMaxOperation": 10  
+>     }  
+>   }  
 > }
 > ```
 >
@@ -313,14 +313,14 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.cyberark.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "SAPExportFulfillment": {  
-        "Login": "SAPExportFulfillment_CyberArkKey",  
-        "Password": "SAPExportFulfillment_CyberArkKey",  
-        "Server": "SAPExportFulfillment_CyberArkKey"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "SAPExportFulfillment": {  
+        "Login": "SAPExportFulfillment_CyberArkKey",  
+        "Password": "SAPExportFulfillment_CyberArkKey",  
+        "Server": "SAPExportFulfillment_CyberArkKey"  
+    }  
+  }  
 }
 ```

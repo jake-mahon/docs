@@ -16,24 +16,24 @@ Bundle components that do not have relationships outside the bundle or customiza
 4. On the __Criteria__ tab, click __Summary__ and add the following:
 | Summary   Type | Field | Description | Formula |
 | --- | --- | --- | --- |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_data\_source.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_scripts.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_cust\_forms.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_data_source.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_scripts.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_cust_forms.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_wflws.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_list.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN `{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
 5. On the __Results__ tab, click __Columns__ and fill in the following:
 | Field | Summary   Type | Formula |
 | --- | --- | --- |
 | Internal ID | Group |  |
 | Name | Group |  |
 | Parent | Group |  |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_data\_source.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_scripts.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_cust\_forms.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_data_source.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_scripts.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_cust_forms.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_wflws.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_list.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Formula (Numeric) | Sum | CASE WHEN `{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END |
 6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File
@@ -74,24 +74,24 @@ Bundle components that do not have relationships outside the bundle or customiza
 4. On the __Criteria__ tab, click __Summary__ and add the following:
 | Summary   Type | Field | Description | Formula |
 | --- | --- | --- | --- |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_data\_source.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_data\_source},0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_cust\_forms.custrecord\_flo\_cleanup\_status} != 'Under Investigation' OR TO\_NUMBER(NVL({custrecord\_flo\_cust\_forms},0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_scripts.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_scripts},0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_wflws},0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_list},0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_searches},0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_data_source.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_data_source}`,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_cust_forms.custrecord_flo_cleanup_status}` != 'Under Investigation' OR TO_NUMBER(NVL(`{custrecord_flo_cust_forms}`,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_scripts.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_scripts}`,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_wflws.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_wflws}`,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_list.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_list}`,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(```{custrecord_flo_searches}```,0)) < 1 THEN 0 ELSE 1 END |
 5. On the __Results__ tab, click __Columns__ and fill in the following:
 | Field | Summary   Type | Formula |
 | --- | --- | --- |
 | Internal ID | Group |  |
 | Name | Group |  |
 | Parent | Group |  |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_data\_source.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_data\_source},0)) < 1 THEN 0 ELSE 1 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_cust\_forms.custrecord\_flo\_cleanup\_status} != 'Under Investigation' OR TO\_NUMBER(NVL({custrecord\_flo\_cust\_forms},0)) < 1 THEN 0 ELSE 1 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_scripts.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_scripts},0)) < 1 THEN 0 ELSE 1 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_wflws},0)) < 1 THEN 0 ELSE 1 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_list},0)) < 1 THEN 0 ELSE 1 END |
-| Formula (Numeric) | Sum | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} = 'To Be Cleaned Up' OR TO\_NUMBER(NVL({custrecord\_flo\_searches},0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_data_source.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_data_source}`,0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_cust_forms.custrecord_flo_cleanup_status}` != 'Under Investigation' OR TO_NUMBER(NVL(`{custrecord_flo_cust_forms}`,0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_scripts.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_scripts}`,0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_wflws.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_wflws}`,0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_list.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_list}`,0)) < 1 THEN 0 ELSE 1 END |
+| Formula (Numeric) | Sum | CASE WHEN`{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_searches}`,0)) < 1 THEN 0 ELSE 1 END |
 6. Click __Preview__.This step takes some time.Troubleshooting: [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File

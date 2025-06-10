@@ -16,9 +16,9 @@ Figure 21. Managing IE add-ons in Endpoint Policy Manager.
 
 To manage toolbars and extensions, you need the Class ID (GUID) of the extension, as shown in Figure 20. Click "Copy" to copy the whole text. Then cut and paste the corresponding Class ID, insert a comma, and specify "enable" or "disable," as shown in the lines of text below.
 
-{04c37f46-d9df-473c-943c-efa8d69854b9}, disable
+`{04c37f46-d9df-473c-943c-efa8d69854b9}`, disable
 
-{620ef192-a795-4f9d-9a6d-9da2adf95213}, enable
+`{620ef192-a795-4f9d-9a6d-9da2adf95213}`, enable
 
 Additionally, on this page you can:
 

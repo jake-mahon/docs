@@ -11,7 +11,7 @@ It will allow Identity Manager to correctly convert the data to its own format 
 
 | Format | Corresponding Property Type | Note |
 | --- | --- | --- |
-| _Bit:<PropertyIdentifier>:<Bit>_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. |
+| _Bit:\<PropertyIdentifier\>:\<Bit\>_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. |
 | _Bool_ | Bool |  |
 | _Byte_ | Byte |  |
 | _Bytes/Binary_ | Bytes/Binary |  |

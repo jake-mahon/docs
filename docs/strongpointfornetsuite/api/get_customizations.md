@@ -7,7 +7,7 @@ Returns a list of customizations using the available user-defined filters.
 __Name__
 
 URL
-:   https://<account\_id\_xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript\_flo\_int\_customization\_api&deploy=1
+:   `https://<account_id_xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_customization_api&deploy=1`
 
 HTTP Method
 :   POST
@@ -20,25 +20,25 @@ actionType
 :   retrieveCustomizations
 
 name
-:   <customization\_name>
+:   `<customization_name>`
 
 scriptId
-:   <script\_id>
+:   `<script_id>`
 
 type
-:   <type>
+:   `<type>`
 
 bundleId
-:   <bundle\_id>
+:   `<bundle_id>`
 
 modifiedBy
-:   <employee\_id>
+:   `<employee_id>`
 
 from
-:   <date\_in\_milliseconds\_in\_string\_format>
+:   `<date_in_milliseconds_in_string_format>`
 
 to
-:   <date\_in\_milliseconds\_in\_string\_format>
+:   `<date_in_milliseconds_in_string_format>`
 
 Request body names are case sensitive and mandatory. For the __actionType__ parameter, it is always a constant value, in this case __retrieveCustomizations__.
 
@@ -63,7 +63,7 @@ This API uses OAuth 1.0 type for its request headers and Token Based Authenticat
 
 ### Format
 
-Authorization: <_encoded authentication code_>
+Authorization: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -180,7 +180,7 @@ Script Name
 :   Strongpoint Int Customization API
 
 Script ID
-:   customscript\_flo\_int\_customization\_api
+:   customscript_flo_int_customization_api
 
 Filename
 :   StrongpointIntegrationCustomizationAPI.js

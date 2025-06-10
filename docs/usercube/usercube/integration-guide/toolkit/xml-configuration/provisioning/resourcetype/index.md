@@ -126,13 +126,13 @@ Once this manual new value is confirmed, the property is stated as __Approved__.
 
 Now suppose that the user's last name is changed to Black via Identity Manager's workflows. As the source data is changed, the scalar rule computes a new value for sn. There are two options:
 
-- The default configuration (DiscardManualAssignments set to false) considers manual assignments, i.e. changes made directly in the managed system, as authoritative. So there will be no provisioning of the newly computed value for sn. The current sn value that was written manually in the AD stays as is, no matter the changes in the source data (here the user's last name). Identity Manager only states the property's value as Questioned.
+- The default configuration (DiscardManualAssignments set to false) considers manual assignments, i.e. changes made directly in the managed system, as authoritative. So there will be no provisioning of the newly computed value for sn. The current sn value that was written manually in the AD stays as is, no matter the changes in the source data (here the user's last name). Identity Manager only states the property's value as Questioned.
 
   ![Example - State 3](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.png)
 
   __NOTE:__ No change in the source data can affect the property's value. However, any manual change made in the managed system will trigger a non-conforming assignment. Then, reconciling the property by choosing to keep Identity Manager's suggested value will make the property's value go back to Calculated and thus follow the changes in the source data.
 
-  __NOTE:__ If DiscardManualAssignments is changed from False to True, then the state of the property's value does not matter. Identity Manager applies the rules of the role model, and generates a provisioning order to overwrite the manual change White with the newly computed value Black.
+  __NOTE:__ If DiscardManualAssignments is changed from False to True, then the state of the property's value does not matter. Identity Manager applies the rules of the role model, and generates a provisioning order to overwrite the manual change White with the newly computed value Black.
 
   ![Example - State 4](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.png)
 
@@ -148,11 +148,11 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 
 ![suggestallcorrelations-nnn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.png)
 
-- The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is >100 or __Suggested__ if it is <100. As for all other matches with lower confidence rate they will be ignored.
+- The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is \>100 or __Suggested__ if it is \ `<100`. As for all other matches with lower confidence rate they will be ignored.
 
   ![suggestallcorrelations-nnn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.png)
 
-  If there are no Resources to be correlated with a confidence rate >100, the ones below with confidence rate below 100 are Suggested or Ignored.
+  If there are no Resources to be correlated with a confidence rate `>100`, the ones below with confidence rate below 100 are Suggested or Ignored.
 
   ![suggestallcorrelations-nny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.png)
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is one Resource already correlated so due to this all future correlations will be ignored.
@@ -161,27 +161,27 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is no Resource already correlated so all Resource Types will be __Suggested__.
 
   ![suggestallcorrelations-nyy](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.png)
-- The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate >100 will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
+- The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate `>100` will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
 
   ![suggestallcorrelations-ynn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__, and there is no Resource already correlated so Resource Types that have a confidence rate >100 will be __Correlated__ and the ones <100 will be __Suggested__ if there are no higher matches otherwise they will be ignored.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__, and there is no Resource already correlated so Resource Types that have a confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__ if there are no higher matches otherwise they will be ignored.
 
   ![suggestallcorrelations-ynn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.png)
 
-  If there are no Resources to be correlated with a confidence rate >100, the ones with confidence rate below 100 are Suggested.
+  If there are no Resources to be correlated with a confidence rate `>100`, the ones with confidence rate below 100 are Suggested.
 
   ![suggestallcorrelations-yny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__ there is one Resource already correlated so the matches with confidence rate >100 will be __Correlated__ and the ones <100 will be ignored.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__ there is one Resource already correlated so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be ignored.
 
   ![suggestallcorrelations-yyny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __Yes__ one Resource could be already correlated or not so the matches with confidence rate >100 will be __Correlated__ and the ones <100 will be __Suggested__.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __Yes__ one Resource could be already correlated or not so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__.
 
 ## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
-| AllowAdd   default value: true | Boolean | Enables Identity Manager to automatically create new resources in the managed system when their owners are given the right entitlements. Otherwise, resource managers must create resources manually directly in the managed system. |
-| AllowRemove   default value: true | Boolean | Enables Identity Manager to automatically deprovision resources in the managed system when their owners are deprived of the right entitlements. Otherwise, Identity Manager is able to delete resources in the managed system only with a manual approval on the Resource Reconciliation screen. |
+| AllowAdd   default value: true | Boolean | Enables Identity Manager to automatically create new resources in the managed system when their owners are given the right entitlements. Otherwise, resource managers must create resources manually directly in the managed system. |
+| AllowRemove   default value: true | Boolean | Enables Identity Manager to automatically deprovision resources in the managed system when their owners are deprived of the right entitlements. Otherwise, Identity Manager is able to delete resources in the managed system only with a manual approval on the Resource Reconciliation screen. |
 | ApprovalWorkflowType   default value: 0 | ProvisioningPolicyApprovalWorkflow | Indicates the number of validation to give to a role given manually (from None to Three). The value ManualAssignmentNotAllowed is used when a manual assignment cannot be performed.  __NOTE:__ Netwrix recommends using ManualAssignmentNotAllowed for all resource types. |
 | ArgumentsExpression   optional | String | __NOTE:__ C# expression used to compute the arguments of provisioning orders, for example a workflow identifier, in a situation where it is not obvious. The aim is to enable an InternalWorkflow connector to fulfill correctly a virtual managed system by launching the right workflows based on a given provisioning order. This expression must return a dictionary of string.  __NOTE:__ ArgumentsExpression is useful only when provisioning via the following packages: Active Directory, Apache Directory, Generic LDAP, Open LDAP, Oracle LDAP, Red Hat Directory Server and Workflow. |
 | BlockProvisioning   default value: true | Boolean | True to block the provisioning policy orders. |
@@ -190,7 +190,7 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 | DependsOn   optional | Int64 | Identifier of another resource type that must be provisioned for a given identity before the current resource type can be provisioned for said identity. |
 | DependsOnOwnerProperty   optional | Int64 | Identifier of one of the owner properties that must be filled before the current resource type can be provisioned for said identity. |
 | Description\_L1   optional | String | Describe this resource type in detail. |
-| DiscardManualAssignments   default value: false | Boolean | True to always allow the provisioning of a new property value, i.e. re-computed by a provisioning rule after a change in the source data, no matter the property's current workflow state.   Set to false, any manual change of a property's value made directly in the target system will be "protected" (only after the change is approved in Identity Manager in Resource Reconciliation). It means that a future change in the source data will not trigger the provisioning of the new value to the target system. Instead, Identity Manager will keep the value of the manual change, and state the value as __Questioned__.   This option should be set to true when:   \* using multiple authoritative sources and the latest value should be provisioned;   \* a source system is not often synchronized to Identity Manager but should stay the authoritative source. |
+| DiscardManualAssignments   default value: false | Boolean | True to always allow the provisioning of a new property value, i.e. re-computed by a provisioning rule after a change in the source data, no matter the property's current workflow state.   Set to false, any manual change of a property's value made directly in the target system will be "protected" (only after the change is approved in Identity Manager in Resource Reconciliation). It means that a future change in the source data will not trigger the provisioning of the new value to the target system. Instead, Identity Manager will keep the value of the manual change, and state the value as __Questioned__.   This option should be set to true when:   \* using multiple authoritative sources and the latest value should be provisioned;   \* a source system is not often synchronized to Identity Manager but should stay the authoritative source. |
 | DisplayName\_L1   required | String | Display name of the resource type in language 1 (up to 16). |
 | FulfillHoursAheadOfTime   default value: 0 | Int32 | Anticipate resource fulfill order hours ahead of they start time. It is helpful for manual fulfillment and/or long fulfillment process. It differs from TimeOffset because the start date of the resource to fulfill is not impacted. |
 | HideOnSimplifiedView   default value: false | Boolean | True to hide this resource type in the basket simplified view. This flag is applied only on automatic assignments. |
@@ -215,7 +215,7 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 
 ## Child Element: BinaryRule
 
-A ResourceBinaryRule allows to specify the file that must be set to an assigned resource binary property. It is defined by a child element <BinaryRule> of the <ResourceType> element. The source file should already be synchronized and stored inside and reference as an EntityType property.
+A ResourceBinaryRule allows to specify the file that must be set to an assigned resource binary property. It is defined by a child element `<BinaryRule>` of the `<ResourceType>` element. The source file should already be synchronized and stored inside and reference as an EntityType property.
 
 ### Examples
 
@@ -233,7 +233,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Binding   optional | Int64 | Defines the binding expression to get the file property. |
 | Policy   required | Int64 | Identifier of the policy that the rule is part of. |
 | Property   required | Int64 | Identifier of the property used to represent the file on the target EntityType. |
-| SingleRole   optional | Int64 | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ Single Role ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information. |
+| SingleRole   optional | Int64 | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ Single Role ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information. |
 | TimeOffsetAfterReference   default value: 0 | Int32 | Defines the offset after reference (in minutes). |
 | TimeOffsetBeforeReference   default value: 0 | Int32 | Defines the offset before reference (in minutes). |
 | TimeOffsetReference   default value: 0 | TimeOffsetReference | Offset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly.   0 - Default: the offset inherited from the type rule.   1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date.   2 - Before: the offset before and after reference are both applied from the start date of the resource.   3 - After: the offset before and after reference are both applied from the end date of the resource.  __NOTE:__  in a situation with several binary rules, the order of application is: After, then Before, then Around, then Default. Each rule is able to overwrite those previously applied in case they overlap.  _Remember,_  two offsets of the same mode should never overlap.  Resources' start and end dates can be configured through record sections and/or context rules. |
@@ -242,7 +242,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 A navigation rule computes the value of a given navigation property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system. Contrary to query rules, navigation rules assign resources regardless of the attributes of source resources.
 
-A navigation rule is defined by the child element <NavigationRule> of the <ResourceType> element.
+A navigation rule is defined by the child element `<NavigationRule>` of the `<ResourceType>` element.
 
 __NOTE:__ Both navigation and query rules compute navigation properties. The value of one navigation property should be computed by either navigation or query rules, not both.
 
@@ -309,7 +309,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 A query rule computes the value of a given navigation property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system. Contrary to navigation rules, query rules assign resources to target resources according to a query via a C# expression with conditions, based on the attributes of the source resources. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 
-A query rule is defined by the child element <QueryRule> of the <ResourceType> element.
+A query rule is defined by the child element `<QueryRule>` of the `<ResourceType>` element.
 
 Both navigation and query rules compute navigation properties. The value of one navigation property should be computed by either navigation or query rules, not both.
 
@@ -341,16 +341,16 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | SourceExpression   optional | String | C# expression to compare with the target binding/expression in order to compute the value of Property with the matching resource. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
 | TargetBinding   optional | Int64 | Binding of the property from the entity type pointed by Property, which will be the value of Property if it matches the source binding/expression. |
 | TargetExpression   optional | String | C# expression to compare with the source binding/expression in order to compute the value of Property with the matching resource.See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.  ___RECOMMENDED:___  The TargetExpression must contain at least one target property, it cannot be a literal expression. |
-| TargetMatchedConfidenceLevel   default value: 0 | Int32 | Percentage rate expressing the confidence in the rule according to data quality and sensitivity. Identity Manager considers the rules in descending order of confidence rate, the first matching rule is applied.   0 to 99: imposes that a resource manager reviews the property computation on the Resource Reconciliation page.   100 to 150: computes the property automatically. |
+| TargetMatchedConfidenceLevel   default value: 0 | Int32 | Percentage rate expressing the confidence in the rule according to data quality and sensitivity. Identity Manager considers the rules in descending order of confidence rate, the first matching rule is applied.   0 to 99: imposes that a resource manager reviews the property computation on the Resource Reconciliation page.   100 to 150: computes the property automatically. |
 | TimeOffsetAfterReference   default value: 0 | Int32 | Time period (in minutes) after the reference end date, which shifts the end of the rule's application.  A negative value for the time offset means that the time period is before the reference date. |
 | TimeOffsetBeforeReference   default value: 0 | Int32 | Time period (in minutes) after the reference start date, which shifts the start of the rule's application.  A negative value for the time offset means that the time period is before the reference date. |
-| TimeOffsetReference   default value: 0 | TimeOffsetReference | TypeDescriptionOffset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly.  0 - Default: the offset inherited from the type rule.   1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date.   2 - Before: the offset before and after reference are both applied from the start date of the resource.   3 - After: the offset before and after reference are both applied from the end date of the resource.  In a situation with several query rules, the order of application is descending (After-Before-Around-Default). Thus each time offset is able to overwrite those previously applied in case they overlap, for mono-valued properties.  two offsets of the same mode should never overlap for mono-valued properties. Overlapping rules on a multi-valued property do not conflict with each other, Identity Manager stores all computed values.   Resources' start and end dates can be configured through record sections and/or context rules. |
+| TimeOffsetReference   default value: 0 | TimeOffsetReference | TypeDescriptionOffset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly.  0 - Default: the offset inherited from the type rule.   1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date.   2 - Before: the offset before and after reference are both applied from the start date of the resource.   3 - After: the offset before and after reference are both applied from the end date of the resource.  In a situation with several query rules, the order of application is descending (After-Before-Around-Default). Thus each time offset is able to overwrite those previously applied in case they overlap, for mono-valued properties.  two offsets of the same mode should never overlap for mono-valued properties. Overlapping rules on a multi-valued property do not conflict with each other, Identity Manager stores all computed values.   Resources' start and end dates can be configured through record sections and/or context rules. |
 
 ## Child Element: ScalarRule
 
 A scalar rule computes the value of a given scalar property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system.
 
-A scalar rule is defined by the child element <ScalarRule> of the <ResourceType> element.
+A scalar rule is defined by the child element `<ScalarRule>` of the `<ResourceType>` element.
 
 See the [Compute a Scalar Property](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.md) topic for additional information.
 
@@ -407,7 +407,7 @@ IsMapped
 
 Consider a system that we want to connect to Identity Manager, let's call it SYST, using a title property. Consider also that SYST needs to be provisioned with the value of title, but does not allow any other system to retrieve the said value.
   
-In this case, we set ```IsMapped``` to false so that Identity Manager sends the adequate provisioning order when needed, and then is able to change the provisioning state to __Executed__ without synchronization. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) [
+In this case, we set ```IsMapped``` to false so that Identity Manager sends the adequate provisioning order when needed, and then is able to change the provisioning state to __Executed__ without synchronization. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) [
 Synchronize Data
 ](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md) topic for additional information.
 
@@ -472,7 +472,7 @@ Note that the rules are applied in a specific order according to their offset re
 
 A resource type rule assigns resources to given users if they match specific criteria. These resources are to be provisioned, i.e. written to the managed system.
 
-A resource type rule is defined by the child element <TypeRule> of the <ResourceType> element.
+A resource type rule is defined by the child element `<TypeRule>` of the `<ResourceType>` element.
 
 __NOTE:__ The specification of several resource type rules for one resource type implies the union of all rules, i.e. the combination of all rules (and all sets of criteria) with an OR operator.
 

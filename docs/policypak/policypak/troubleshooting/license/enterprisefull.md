@@ -102,7 +102,7 @@ __NOTE:__  Only the updated MMC will nicely show this and have it formatted corr
 ## How can I request Enterprise Full keys (which will also have an Expiry date until the end of my term?)
 
 - You will need to open a support ticket at [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support) and request the new Key.
-- Subject line should be: Enterprise Full Key Request for <your company name>
+- Subject line should be: Enterprise Full Key Request for `<your company name>`
 - We will ask you if you understand a few points about Enterprise Full keys. Specifically:
   - That you need to have CSE 23.6.3557 on your endpoints for them to be accepted and
   - That you are okay with creating a new licensing Group Policy Object and placing the new Enterprise Full license XML in the new Group Policy Object.

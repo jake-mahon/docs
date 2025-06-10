@@ -17,9 +17,9 @@ Microsoft Entra ID is Microsoft's cloud-based identity and access management ser
 
 ## Prerequisites
 
-Implementing this connector requires giving Identity Manager [application permissions](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#application-permissions), because Identity Manager does not access the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) on behalf of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/auth-v2-service), and delegated permissions are not enough. These application permissions require the consent of an administrator of the target Microsoft Entra ID tenant.
+Implementing this connector requires giving Identity Manager [application permissions](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#application-permissions), because Identity Manager does not access the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) on behalf of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/auth-v2-service), and delegated permissions are not enough. These application permissions require the consent of an administrator of the target Microsoft Entra ID tenant.
 
-See the[Register for Microsoft Entra ID](/docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to register Identity Manager as an application with the Microsoft Identity Platform in order to grant Identity Manager a service account which authenticates with the target Microsoft Entra ID.
+See the[Register for Microsoft Entra ID](/docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to register Identity Manager as an application with the Microsoft Identity Platform in order to grant Identity Manager a service account which authenticates with the target Microsoft Entra ID.
 
 ## Export
 
@@ -38,13 +38,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "<ConnectionIdentifier>": {  
-      ...  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "<ConnectionIdentifier>": {  
+      ...  
+    }  
+  }  
 }
 ```
 
@@ -61,17 +61,17 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "AzureADExport": {  
-        "ApplicationId": "<contosoAzure897>",  
-        "ApplicationKey": "<25d408a1925d4c081925b\d40819>",  
-        "TenantId": "<25d40819-f23f-4837-9d50-a9a52da50b8c>",  
-        "MicrosoftGraphPathApi": "<https://graph.microsoft.com/beta/>",  
-        "ResponseUri": "<https://agent.usercubecontoso.com>"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "AzureADExport": {  
+        "ApplicationId": "<contosoAzure897>",  
+        "ApplicationKey": "<25d408a1925d4c081925b\\d40819>",  
+        "TenantId": "<25d40819-f23f-4837-9d50-a9a52da50b8c>",  
+        "MicrosoftGraphPathApi": "<https://graph.microsoft.com/beta/>",  
+        "ResponseUri": "<https://agent.usercubecontoso.com>"  
+    }  
+  }  
 }
 ```
 
@@ -86,7 +86,7 @@ The table below summarizes the setting attributes of Microsoft Entra ID connecto
 | TenantId   (required) | String | GUID that uniquely identifies the Azure tenant.  __NOTE:__ The value obtained at registration: __App registrations__ > __Owned applications__ > __Identity Manager__ > __Overview__ > __Application (tenant) ID__ |
 | ResponseUri   (default value: ```http://localhost```) | String | URI used by Azure to contact back the application with the tokens. This response Uri needs to be registered in the [app registration](https://aka.ms/msal-net-register-app). |
 | MicrosoftAuthorityPath   (optional) | String | Pattern for Microsoft Authority Path. |
-| MicrosoftGraphPath   (default value: https://graph.microsoft.com/.default) | String | Scope requested to access a protected API.  __NOTE:__ For this flow (client credentials), the scope should be of the form "{ResourceIdUri/.default}". [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation) for additional information. |
+| MicrosoftGraphPath   (default value: `https://graph.microsoft.com/.default`) | String | Scope requested to access a protected API.  __NOTE:__ For this flow (client credentials), the scope should be of the form `{ResourceIdUri/.default}`. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation) for additional information. |
 | MicrosoftGraphPathApi   (default value: ```https://graph.microsoft.com/v1.0/```) | String | Microsoft Graph Uri API. |
 
 ### Output details
@@ -104,9 +104,9 @@ This connector is meant to generate the following files:
   ```
     
   <EntityTypeMapping Identifier="AzureAD_DirectoryObject" Connector="AzureAD" ConnectionTable="AzureADExport_directoryobjects" C0="user group directoryRole servicePrincipal">  
-    <Property Identifier="accountEnabled" ConnectionColumn="accountEnabled" />  
-    <Property Identifier="objectid" ConnectionColumn="id" IsPrimaryKey="true" />  
-    <Property Identifier="mail" ConnectionColumn="mail" />  
+    <Property Identifier="accountEnabled" ConnectionColumn="accountEnabled" />  
+    <Property Identifier="objectid" ConnectionColumn="id" IsPrimaryKey="true" />  
+    <Property Identifier="mail" ConnectionColumn="mail" />  
   </EntityTypeMapping>  
 
   ```
@@ -119,7 +119,7 @@ This connector is meant to generate the following files:
   ...
   ```
 
-  _Remember,_ attributes described as "Supported only on the Get <entity\_name> API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your EntityTypeMapping.
+  _Remember,_ attributes described as "Supported only on the Get `<entity\_name>` API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your EntityTypeMapping.
     
   This connector supports [Microsoft Entra ID Schema Extensions](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-directory-schema-extensions) but does not support [Microsoft Graph Schema Extensions](https://docs.microsoft.com/en-us/graph/extensibility-schema-groups).
 - ```<connectionIdentifier>_<navigationProperty>_<entity>.csv``` describing the navigation property from one entity to another.
@@ -162,17 +162,17 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "AzureADFulfillment": {  
-        "ApplicationId": "<contosoAzure897>",  
-        "ApplicationKey": "<84468d65324ghj\de9864d3d7e89026>",  
-        "TenantId": "<25d40819-f23f-4837-9d50-a9a52da50b8c>",  
-        "MicrosoftGraphPathApi": "<https://graph.microsoft.com/beta/>",  
-        "ResponseUri": "<https://agent.usercube.com>"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "AzureADFulfillment": {  
+        "ApplicationId": "<contosoAzure897>",  
+        "ApplicationKey": "<84468d65324ghj\\de9864d3d7e89026>",  
+        "TenantId": "<25d40819-f23f-4837-9d50-a9a52da50b8c>",  
+        "MicrosoftGraphPathApi": "<https://graph.microsoft.com/beta/>",  
+        "ResponseUri": "<https://agent.usercube.com>"  
+    }  
+  }  
 }
 ```
 

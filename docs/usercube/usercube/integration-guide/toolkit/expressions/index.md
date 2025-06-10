@@ -34,7 +34,7 @@ The first example defines the source object as simply the user record's Login pr
 
 ### Expressions in XML
 
-In XML, inside the C# expressions, make sure to escape <"> characters by writing them as<&quot;>.
+In XML, inside the C# expressions, make sure to escape `<">` characters by writing them as `<">`.
 
 For example:
 
@@ -51,7 +51,7 @@ Nullability checks constitute a common area for improvement in C# expressions, r
 
 See Microsoft documentation on [nullable reference types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-reference-types) and more precisely on [nullable operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#nullable-operators).
 
-For example, the following scalar rule computes the value of users' email addresses via a C# expression. The <?> characters cut the operations short by returning null when one of the chain members returns null, thus preventing errors.
+For example, the following scalar rule computes the value of users' email addresses via a C# expression. The `<?>` characters cut the operations short by returning null when one of the chain members returns null, thus preventing errors.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -118,7 +118,7 @@ var resources = queryHandler.Select<Directory_EmployeeType>("Select Id Where Ide
 return resources.FirstOrDefault()?.Id;
 ```
 
-Another example, to query the organization whose Identifier is <23040>:
+Another example, to query the organization whose Identifier is `<23040>`:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

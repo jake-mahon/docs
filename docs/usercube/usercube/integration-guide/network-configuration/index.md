@@ -94,13 +94,13 @@ Overview
 
 The backslash character ```\``` is an escape character in a JSON file. An error will appear when parsing the JSON file if the backslash is followed by a non-escapable character. To use a backslash in a string, it must be escaped by another backslash.
 
-In this example, the value for the attribute Password will be parsed as <pass\\word>:
+In this example, the value for the attribute Password will be parsed as `<password>`:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
-    "Password": "<pass\\word>"  
+    "Password": "<password>"  
 }
 ```
 
@@ -108,7 +108,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Alternatively, settings can be stored as environment variables on Identity Manager's host system.
 
-Each setting value is stored as the value of an environment variable whose name is the concatenation of all the ancestor sections and the setting name separated by __\_\___ (two underscores).
+Each setting value is stored as the value of an environment variable whose name is the concatenation of all the ancestor sections and the setting name separated by ______ (two underscores).
 
 Here is an example showing how to construct a setting environment variable name from its matching ```json``` file.
 
@@ -126,7 +126,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 }
 ```
 
-The name becomes Scheduler\_\_Enabled, Scheduler\_\_LockFilePath and Swagger\_\_Enabled.
+The name becomes Scheduler__Enabled, Scheduler__LockFilePath and Swagger__Enabled.
 
 ## Manage Several Environments
 
@@ -136,17 +136,17 @@ How to manage several network environments.
 
 Every setting value can be overwritten to fit a specific environment.
 
-The environment within which Identity Manager runs is set by the system environment variable ASPNETCORE\_ENVIRONMENT. The default value is Production. Usual examples include Development, Staging, and Production.
+The environment within which Identity Manager runs is set by the system environment variable ASPNETCORE_ENVIRONMENT. The default value is Production. Usual examples include Development, Staging, and Production.
 
 To overwrite setting values for a specific environment, one can write environment-specific configuration files.
 
-For every appsettings.<xxx>.json file, an appsettings.<xxx>.<environment>.json can be created where <environment> is the name of the relevant environment matching the ASPNETCORE\_ENVIRONMENT value.
+For every `appsettings.<xxx>.json` file, an `appsettings.<xxx>.<environment>.json` can be created where `<environment>` is the name of the relevant environment matching the ASPNETCORE_ENVIRONMENT value.
 
-The appsettings.<xxx>.<environment>.json file has the exact same section/attribute/subsection shape as the main appsettings file.
+The `appsettings.<xxx>.<environment>.json` file has the exact same section/attribute/subsection shape as the main appsettings file.
 
 Identity Manager's configuration will be the result of merging both files.
 
-Should a setting be written in both files, Identity Manager will use the appsettings.<xxx>.<environment>.json value.
+Should a setting be written in both files, Identity Manager will use the `appsettings.<xxx>.<environment>.json` value.
 
 Leveraging this priority mechanism is how one can override a setting value to match a particular environment. Another mechanism can be used: using environment variables.
 
@@ -154,16 +154,12 @@ Leveraging this priority mechanism is how one can override a setting value to ma
 
 Setting values can also be stored as environment variables on Identity Manager's host system. Environment-variables-stored setting values have priority over json-file-stored setting values. Here is how to use this mechanism to handle multiple environments.
 
-In the web.config file, an <environmentVariable> element in the node <configuration><system.webServer><aspNetCore><environmentVariables> is used to set a setting value for the application.
+In the web.config file, an `<environmentVariable>` element in the node `<configuration><system.webServer><aspNetCore><environmentVariables>` is used to set a setting value for the application.
 
 ### Configuration stages
 
 Configuration encompasses:
 
 - The Server configuration with a connection to the database and end-user authentication. See the [Server Configuration](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
-- The Agent configuration with a connection to the managed systems. See the [
-  Agent Configuration
-  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
-- The Logger configuration. See the [
-  Monitoring
-  ](/docs/usercube/usercube/integration-guide/monitoring/index.md)topic for additional information.
+- The Agent configuration with a connection to the managed systems. See the [Agent Configuration](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
+- The Logger configuration. See the [Monitoring](/docs/usercube/usercube/integration-guide/monitoring/index.md)topic for additional information.

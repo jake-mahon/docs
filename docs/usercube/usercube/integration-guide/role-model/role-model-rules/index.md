@@ -37,19 +37,13 @@ All resource types, single roles and composite roles and categories belong to a 
 
 One of Identity Manager's distinctive feature is the use of [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) methods to automatically grant fine-grained entitlements.
 
-Every identity in the organization operates within a specific context. It is a set of information relevant to making decisions about assigning entitlements for an identity. For example, an employee working in the R&D department of the New York office at Contoso Corporation is associated with the { ```R&D```, ```New York``` } context.
+Every identity in the organization operates within a specific context. It is a set of information relevant to making decisions about assigning entitlements for an identity. For example, an employee working in the R&D department of the New York office at Contoso Corporation is associated with the `{R&D, New York}` context.
 
 Analyzing contexts in the organization allows the integration team, in collaboration with a knowledgeable member of the target organization, to define key criteria on which to base assignments of entitlements decisions. Those key criteria are called dimensions.
 
-The integration team defines [
-Context Rule
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [
-Record Section
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the applicative configuration that assigns, for every identity, a context as a set of dimension-value pair.
+The integration team defines [Context Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and [Record Section](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the applicative configuration that assigns, for every identity, a context as a set of dimension-value pair.
 
-The details of how contexts are generated can be found in [
-Generate Contexts
-](/docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/index.md).
+The details of how contexts are generated can be found in [Generate Contexts](/docs/usercube/usercube/integration-guide/role-assignment/generate-contexts/index.md).
 
 Every dimension is associated with a finite set of possible values. That means there is a finite set of possible context. Hence, typical contexts within which an identity operates are modeled.
 
@@ -82,9 +76,7 @@ The following gives a few ideas about how a to approach the writing of a role mo
 
 ### 1. Identify single roles
 
-The first iteration of building of the organization reference model starts to reveal the archetypal responsibilities and positions of the members of the organization. A [
-Single Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for every fine-grained organization-level responsibility or position.
+The first iteration of building of the organization reference model starts to reveal the archetypal responsibilities and positions of the members of the organization. A [Single Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for every fine-grained organization-level responsibility or position.
 
 ##### Example
 
@@ -102,18 +94,14 @@ The project manager needs access to the ```data0``` and ```data1``` servers with
 
 ### 2. Identify navigation rules and ownership
 
-For every [
-Single Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned to an identity, fine-grained entitlements need to be granted. Those are the resource values in a managed system.
+For every [Single Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned to an identity, fine-grained entitlements need to be granted. Those are the resource values in a managed system.
 
 Hence, for every single role, the relevant managed systems, type of resource, and resource values to fulfill are identified.
 
 They are materialized by:
 
 - Provisioning rules, such as resource type rules that decide what resources should be found in the managed systems; and navigation rules or scalar rules, that identify actual values to be fulfilled from the identity to which the single role is assigned;
-- [
-  Resource Correlation Rule
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md), that identify for an identity, the target resources to fulfill;
+- [Resource Correlation Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md), that identify for an identity, the target resources to fulfill;
 - Resource type that organize resources and describe a source/target (or owner/resource) relationship.
 
   The resource types identified this way could be suggested to security officers for review, checking that they match their mental model of the managed system's resources.
@@ -134,11 +122,7 @@ Resource Correlation Rule
 
 ### 3. Write assignment rules
 
-[Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) describe criteria for which a [
-Single Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is assigned to a resource. The main criterion is a dimension value. For a given resource, the single role is assigned if the resource's context matches the given dimension value. The second criterion is the assignment of a specific [
-Composite Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see further).
+[Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) describe criteria for which a [Single Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is assigned to a resource. The main criterion is a dimension value. For a given resource, the single role is assigned if the resource's context matches the given dimension value. The second criterion is the assignment of a specific [Composite Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see further).
 
 A navigation rule describes a fine-grained entitlement in the form of resource association such as a group membership. Its enforcement is also conditioned by a single role assignment to the relevant source resource, which in turn materializes the link between a single role and a resource type.
 
@@ -152,11 +136,7 @@ The need for assignment of the ```Internet Access``` group to the Active Directo
 
 ### 4. Use Composite Roles To Organize Single Roles (optional)
 
-[
-Single Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged into [
-Composite Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). Assigning a composite role to an identity immediately assigns the packaged single role to that identity. Single roles assigned this way are said to be inferred.
+[Single Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged into [Composite Role](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). Assigning a composite role to an identity immediately assigns the packaged single role to that identity. Single roles assigned this way are said to be inferred.
 
 The [Composite Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md) (see composite role rules describe criteria for which a composite role is assigned to an identity. Then, the composite role can be used as a condition in a [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md). This is how packages are built.
 

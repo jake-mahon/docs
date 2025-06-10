@@ -7,7 +7,7 @@ Remove attached customization and proposed customizations from a Change Request.
 __Name__
 
 URL
-:   https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript\_flo\_int\_change\_request\_api&deploy=1
+:   `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1`
 
 HTTP Method
 :   POST
@@ -58,7 +58,7 @@ This API uses OAuth 1.0 type for its request headers and Token Based Authenticat
 
 ### Format
 
-Authorization: <_encoded authentication code_>
+Authorization: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -187,7 +187,7 @@ Script Name
 :   Strongpoint Int Change Request API
 
 Script ID
-:   customscript\_flo\_int\_change\_request\_api
+:   customscript_flo_int_change_request_api
 
 Filename
 :   StrongpointIntegrationChangeRequestAPI.js

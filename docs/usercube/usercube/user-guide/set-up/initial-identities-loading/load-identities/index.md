@@ -70,7 +70,7 @@ Load identities for the first time by proceeding as follows:
 
    ![Template Recommendations](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.png)
 
-   [__Click here to download a template example__](/docs/usercube/resources/directory_example_v602.xlsx).
+   [__Click here to download a template example__](/files/usercube/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
    Every object (so every tab) of the directory must have a __key__, which is an attribute:
      

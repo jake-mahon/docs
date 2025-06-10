@@ -16,7 +16,7 @@ When it's "Checked" on, we want to deliver some set of settings, what we just go
 
 Let's go back to our "Registry Editor," and let's commit to what the inverse would be. We'll do "Beep" "no," "ExtendedSounds" "no" and "BINARY123" we'll set those middle ones to "00." Now let's go ahead and export this little collection. We'll go and click "Export" here, call it "exp2."
 
-If you look here,what has occurred here is that the "Off" values by default when you do that import will set the "Off" values to "<delete>." Now we know what our "<delete>" are going to be. They're just going to be off, off and then we just change that binary guy.
+If you look here,what has occurred here is that the "Off" values by default when you do that import will set the "Off" values to `<delete>`. Now we know what our `<delete>` are going to be. They're just going to be off, off and then we just change that binary guy.
 
 Let's "Import .REG rile." We'll go to "Unchecked" this time. We'll click "Browse," and we'll pick "exp2" and click "OK." We're setting the "Unchecked" values to the thing we just exported. What occurs here is that we now have the "On" value for "Beep" is "yes" and the "Off" is "no." The "On" for "ExtendedSounds" is "yes" and the "Off" is "no." The "On" for this "Reg. value" "BINARY123" is "12,34,56,78" and "Off" is "12,34,00,78."
 

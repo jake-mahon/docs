@@ -28,7 +28,7 @@ Go back over here and run GP Update. We'll watch it happen in real time, secret 
 
 Let's go ahead and pick one more like Duolingo. This is one that was installed by default as part of Windows. Maybe you don't want that, so let's go ahead and remove that package. We'll go ahead and Import again that list that we had earlier.
 
-<p>Here is Duolingo. We'll click on that guy. We can match it by Name. We can match it by Publisher. We can do by either or both. It doesn't really matter or you can even just – even if you don't know, you just do this, \*duolingo\*. That works too. You don't even have to import it if you don't want to.
+Here is Duolingo. We'll click on that guy. We can match it by Name. We can match it by Publisher. We can do by either or both. It doesn't really matter or you can even just – even if you don't know, you just do this, \*duolingo\*. That works too. You don't even have to import it if you don't want to.
 
 Let's just go ahead and nuke Duolingo, and we'll run GP Update here. Look how fast that does its thing, bang, gone, awesome. All right, now let's go ahead and do the install.
 

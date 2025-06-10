@@ -11,7 +11,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.json  
 "<UsercubeAgent>": {  
-  "Url": "<http://localhost:1234>"  
+  "Url": "<http://localhost:1234>"  
 }
 ```
 
@@ -21,26 +21,26 @@ The appsettings set allows the following attributes and sections:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ApplicationUri   required | String | URI of the server to use in log messages, to communicate with the server in tasks, to allow certain redirect URIs.  It must be the same as the agent's appsettings.json's ApplicationUri.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …         “ApplicationUri”: “usercubeserver.contoso.com:5000”   } ``` |
+| ApplicationUri   required | String | URI of the server to use in log messages, to communicate with the server in tasks, to allow certain redirect URIs.  It must be the same as the agent's appsettings.json's ApplicationUri.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "ApplicationUri": "usercubeserver.contoso.com:5000"   } ``` |
 | EncryptionCertificate   required | EncryptionCertificate | Settings to configure the encryption of specific files. |
-| License | String | License key of the server.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …         “License”: “{"LicensedTo":"<Demo>","ValidTo":"<20120905>","IdentityQuota":"<10000>","Signature":"<…>"}"   } ``` |
-| Agents   optional | Agent List | List of agents' settings used to work on several environments. See the [ Architecture ](/docs/usercube/usercube/integration-guide/architecture/index.md) topic for additional information.  This way, each Agent's URI/URL is configured without altering the database.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …         “Agents”: {               “Local”: {                     “Uri”: “<http://localhost:5010>”               },               …         }   } ``` |
+| License | String | License key of the server.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "License": "{"LicensedTo":"<Demo>","ValidTo":"<20120905>","IdentityQuota":"<10000>","Signature":"<...>"}"   } ``` |
+| Agents   optional | Agent List | List of agents' settings used to work on several environments. See the [ Architecture ](/docs/usercube/usercube/integration-guide/architecture/index.md) topic for additional information.  This way, each Agent's URI/URL is configured without altering the database.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "Agents": {     ...     "Local": {       "Uri": "http://localhost:5010"     },     ...   }   } ``` |
 | AppDisplay   optional | AppDisplay | Settings to override the application display XML configuration. See the [App Display Setting](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/index.md) topic for additional information.  It is useful to change the application's theme and name without redeploying the whole configuration. |
 | ApplicationInsights   optional | ApplicationInsights | Settings to plug to and configure the [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) monitoring tool. |
 | DataProtection   optional | DataProtection | Settings to configure the encryption used for the authentication cookies and the anti-forgery tokens.  The data protection can be configured to share the keys between several instances of Identity Manager's server, for example when deployed in a cluster where the servers do not have the same machine id. |
 | DefaultPageSize   optional | UInt | Default number of items returned when using squeries, if none specified in PageSize or in squery limit. |
-| HstsPreload   optionalAttribute   default value: false | Boolean | Sets the preload parameter of the Strict-Transport-Security header.  Preload is not part of the RFC specification, but is supported by web browsers to preload [HSTS](https://hstspreload.org/) sites on fresh install.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` <pre class="json"><code><em>appsettings.json</em><br/><br/>{<br>  ...<br>  "HstsPreload":  true<br>}</code></pre>  ``` |
-| InstallationDirectoryPath   default value: Usercube-Server.exe | String | Path of the installation directory.  It is used to read other configuration files.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …        “InstallationDirectoryPath”:    “<C://UsercubeContoso/Runtime>”   } ``` |
+| HstsPreload   optionalAttribute   default value: false | Boolean | Sets the preload parameter of the Strict-Transport-Security header.  Preload is not part of the RFC specification, but is supported by web browsers to preload [HSTS](https://hstspreload.org/) sites on fresh install.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` <pre class="json"><code><em>appsettings.json</em><br/><br/>{<br>  ...<br>  "HstsPreload":  true<br>}</code></pre>  ``` |
+| InstallationDirectoryPath   default value: Usercube-Server.exe | String | Path of the installation directory.  It is used to read other configuration files.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "InstallationDirectoryPath":  "C://UsercubeContoso/Runtime"   } ``` |
 | MailSettings   optional | String | Settings to configure the email service. |
 | MaxActors   default value: 20   maximum value: 50 | UInt | The maximum number of recipients who will be notified of the Workflow changes and can take action.  If the number of recipients is exceeding the MaxRecipients value, then the actors will have the task assigned to them but they will not receive an email notification. In order for all actors to receive an email notification the MaxRecipients should be increased as well. |
 | MaxPageSize  optionalAttribute | UInt | It represents the maximum number of items returned when using squeries. |
-| NotUseAgent   default value: false | Boolean | True to disable the use of the agent. See the[ Architecture ](/docs/usercube/usercube/integration-guide/architecture/index.md) topic for additional information.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …       "<NotUseAgent>":  true   } ``` |
-| OpenIdClients   optional | OpenIdClient List | List of hashed secrets used to override the plain-text secrets from the OpenIdClient XML configuration. See the [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.  This way, Identity Manager stores only hashed secrets, for security purposes.  Each environment must have its own secret, distinct from the others.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …       "OpenIdClients": {               "Job": {                     "<HashedSecret>": "<K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols>"               },               "PowerBI": {                     "<HashedSecret>": "<7b8N2NWka5alDrjM7rFqf7+xqq9LIcT5jSoQ+1Ci2V0>"               }         }   } ``` |
-| PowerBISettings   optional | PowerBISettings | Settings to configure the API used by Power BI to access Identity Manager data. |
-| Serilog   optional | Serilog | Settings to configure the logging service, complying to the Logger properties and structure. See the [ Monitoring ](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …       "Serilog": {               "WriteTo": [ "Console" ],               "MinimumLevel": {                     "Default": "Error",                     "Override": {                           "Usercube": "Information"                     }               }         }   } ``` |
+| NotUseAgent   default value: false | Boolean | True to disable the use of the agent. See the[ Architecture ](/docs/usercube/usercube/integration-guide/architecture/index.md) topic for additional information.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "<NotUseAgent>":  true   } ``` |
+| OpenIdClients   optional | OpenIdClient List | List of hashed secrets used to override the plain-text secrets from the OpenIdClient XML configuration. See the [ OpenIdClient ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.  This way, Identity Manager stores only hashed secrets, for security purposes.  Each environment must have its own secret, distinct from the others.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "OpenIdClients": {     ...     "Job": {       "<HashedSecret>": "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols"     },     ...   }   } ``` |
+| PowerBISettings   optional | PowerBISettings | Settings to configure the API used by Power BI to access Identity Manager data. |
+| Serilog   optional | Serilog | Settings to configure the logging service, complying to the Logger properties and structure. See the [ Monitoring ](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "Serilog": {     ...     "WriteTo": [ "Console" ],     ...     "MinimumLevel": {       ...       "Override": {         ...           "Usercube": "Information"         ...       }       ...     }   ...   }   } ``` |
 | Swagger   optional | Swagger | By enabling [Swagger ](https://swagger.io/tools/swagger-ui/)you can visualize and interact with the API's resources without having any of the implementation logic in place.  It is automatically generated from Identity Manager's API, with the visual documentation making it easy for back-end implementation and client-side consumption. |
-| TempFolderPath   default value: ../Temp | String | Path to the temporary folder which contains:   - ExportOutput: directory storing data exported from connectors. - JobLogs: directory storing task instance logs. - Reports: directory storing generated reports. - Packages: directory storing the downloaded package logos. - PolicySimulations: directory storing the files generated by policy simulations. - ProvisioningCache.txt: file storing the clustered provisioning cache.   When enabled, this file can be used to coordinate the API cache among clusters.   - CorrelationCache.txt - RiskCache.txt - ExpressionCache.txt - scheduler.lock - connector.txt - container.reset.txt: file acting as a reset command for Identity Manager's server, i.e. any change to this file triggers the reset service, thus reloading all the services instantiated by the server.   This path can be overridden by __ResetSettings__ > __FilepathResetService__.   - Mails: directory storing the email messages.   This path can be overridden by __ResetSettings__ > __PickupDirectory__.   - Deployment   These elements can be removed, but make sure to restart the server after doing so.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …       "<TempFolderPath": "../Temp>"   } ``` |
-| WorkFolderPath   default value: ../Work | String | Path of the work folder which contains:   - Collect: directory storing the CSV source files exported by connectors. - ProvisioningOrders: directory storing the orders generated by the server. - FulfillPowerShell: PowerShell provisioner's working directory. - FulfillRobotFramework: Robot Framework's provisioner working directory. - ExportCookies: directory storing the cookies used for incremental export. - Synchronization: directory storing the agent's data collection results. - Upload: directory storing the uploaded media like uploaded pictures, before they are inserted into the database. - appsettings.connection.json   These elements must not be removed, because doing so may disrupt Identity Manager's execution after restarting.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …       "<WorkFolderPath": "../Work>"   } ``` |
+| TempFolderPath   default value: ../Temp | String | Path to the temporary folder which contains:   - ExportOutput: directory storing data exported from connectors. - JobLogs: directory storing task instance logs. - Reports: directory storing generated reports. - Packages: directory storing the downloaded package logos. - PolicySimulations: directory storing the files generated by policy simulations. - ProvisioningCache.txt: file storing the clustered provisioning cache.   When enabled, this file can be used to coordinate the API cache among clusters.   - CorrelationCache.txt - RiskCache.txt - ExpressionCache.txt - scheduler.lock - connector.txt - container.reset.txt: file acting as a reset command for Identity Manager's server, i.e. any change to this file triggers the reset service, thus reloading all the services instantiated by the server.   This path can be overridden by __ResetSettings__ > __FilepathResetService__.   - Mails: directory storing the email messages.   This path can be overridden by __ResetSettings__ > __PickupDirectory__.   - Deployment   These elements can be removed, but make sure to restart the server after doing so.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "<TempFolderPath": "../Temp>"   } ``` |
+| WorkFolderPath   default value: ../Work | String | Path of the work folder which contains:   - Collect: directory storing the CSV source files exported by connectors. - ProvisioningOrders: directory storing the orders generated by the server. - FulfillPowerShell: PowerShell provisioner's working directory. - FulfillRobotFramework: Robot Framework's provisioner working directory. - ExportCookies: directory storing the cookies used for incremental export. - Synchronization: directory storing the agent's data collection results. - Upload: directory storing the uploaded media like uploaded pictures, before they are inserted into the database. - appsettings.connection.json   These elements must not be removed, because doing so may disrupt Identity Manager's execution after restarting.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "<WorkFolderPath": "../Work>"   } ``` |
 
 ## Swagger
 
@@ -48,7 +48,7 @@ Swagger is set using the attribute below.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Enabled   required | Boolean | True to enable Swagger.  Example:  ``` appsettings.json   {         …       "Swagger": {           "Enabled": false         },   } ```  __NOTE:__ We recommend setting this to false for production environments. |
+| Enabled   required | Boolean | True to enable Swagger.  Example:  ``` appsettings.json   {   ...   "Swagger": {     ...     "Enabled": false   ...   },   } ```  __NOTE:__ We recommend setting this to false for production environments. |
 
 ## Encryption Certificate
 
@@ -68,12 +68,12 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ```
 {  
-    ...  
-    "EncryptionCertificate": {  
-        "File": "<C:/UsercubeAgentContoso/contoso.pfx>",  
-        "Password": "<oarjr6r9f00>"  
-     }  
- }  
+    ...  
+    "EncryptionCertificate": {  
+        "File": "<C:/UsercubeAgentContoso/contoso.pfx>",  
+        "Password": "<oarjr6r9f00>"  
+      }  
+  }  
 
 ```
 
@@ -102,14 +102,14 @@ For example:
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
- {  
-    ...  
-    "EncryptionCertificate": {  
-         "DistinguishedName":"<UsercubeContoso>",  
-         "StoreLocation": "<LocalMachine>",  
-         "StoreName": "<AuthRoot>"  
-     }  
- }
+  {  
+    ...  
+    "EncryptionCertificate": {  
+          "DistinguishedName":"<UsercubeContoso>",  
+          "StoreLocation": "<LocalMachine>",  
+          "StoreName": "<AuthRoot>"  
+      }  
+  }
 ```
 
 The Windows certificate is set using these attributes:
@@ -129,8 +129,8 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ```
 "<EncryptionCertificate>": {  
-    "CertificateAzureKeyVault": "<CertificateIdentifier>"  
-}    
+    "CertificateAzureKeyVault": "<CertificateIdentifier>"  
+}    
 ```
 
 Disabling file encryption
@@ -139,7 +139,7 @@ The encryption of specific files can be disabled via the following attribute:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| EncryptFile   default value: true | Boolean | True to encrypt specific files such as logs or temporary files.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {         …         EncryptionCertificate": {               "EncryptFile": false         }   } ``` |
+| EncryptFile   default value: true | Boolean | True to encrypt specific files such as logs or temporary files.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {   ...   "EncryptionCertificate": {     ...     "EncryptFile": false   ...   }   } ``` |
 
 ## Mail Settings
 
@@ -150,16 +150,16 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.json  
 {  
-  ...  
-  "MailSettings": {  
-    "FromAddress": "<no-reply@acme.com>",  
-    "PickupDirectory": "<C:/UsercubeDemo/Temp/Mails>",  
-    "UseSpecifiedPickupDirectory": true,  
-    "UseDefaultCredentials": false,  
-    "SecureSocketOption": "<StartTlsWhenAvailable>"  
-  }  
+  ...  
+  "MailSettings": {  
+    "FromAddress": "<no-reply@acme.com>",  
+    "PickupDirectory": "<C:/UsercubeDemo/Temp/Mails>",  
+    "UseSpecifiedPickupDirectory": true,  
+    "UseDefaultCredentials": false,  
+    "SecureSocketOption": "<StartTlsWhenAvailable>"  
+  }  
 }  
-          
+          
 ```
 
 The mail settings details are:
@@ -167,7 +167,7 @@ The mail settings details are:
 | Name | Type | Description |
 | --- | --- | --- |
 | FromAddress   required | String | Email address used as sender for Identity Manager's emails. |
-| AllowedDomains   optional | String | List of allowed domains, separated by <;>. |
+| AllowedDomains   optional | String | List of allowed domains, separated by `<;>`. |
 | CatchAllAddress   optional | String | Email address to be used as catchAll. |
 | CatchAllCCAddress   optional | String | Email address to be used as CC catchAll. |
 | Enabled   default value: true | Boolean | True to activate Identity Manager's email services. |
@@ -188,15 +188,15 @@ For example:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
-```
-appsettings.json  
+appsettings.json 
+``` 
 {  
-  ...  
-  "ApplicationInsights": {  
-    "InstrumentationKey": "<AppInsights instance's key>"  
-  }  
+  ...  
+  "ApplicationInsights": {  
+    "InstrumentationKey": "<AppInsights instance's key>"  
+  }  
 }  
-          
+          
 ```
 
 The application insights details are:
@@ -205,9 +205,7 @@ The application insights details are:
 | --- | --- | --- |
 | InstrumentationKey   default value: null | String | Key linked to the AppInsights instance to which the server's logs, requests, dependencies and performance are to be sent. See the Microsoft [Create an Application Insights resource](https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource) article for information on creating an instrumentation key. |
 
-__NOTE:__ The logs sent to AppInsights are configured through the Logger properties. See the [
-Monitoring
-](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
+__NOTE:__ The logs sent to AppInsights are configured through the Logger properties. See the [Monitoring](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
 
 ## PowerBI Settings
 
@@ -215,13 +213,13 @@ For example:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
-```
-appsettings.json  
+appsettings.json 
+``` 
 {  
-  "PowerBISettings": {  
-    "PageSize": 500  
-  }}  
-          
+  "PowerBISettings": {  
+    "PageSize": 500  
+  }}  
+          
 ```
 
 The PowerBI Settings details are:
@@ -236,15 +234,15 @@ For example:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
-```
-appsettings.json  
+appsettings.json 
+``` 
 {  
-  "DataProtection": {  
-    "KeysPath": "</home/DataProtection>",  
-    "X509KeyFilePath": "<../Usercube.pfx>",  
-    "X509KeyFilePassword": "<secret>"  
-  },  
-}        
+  "DataProtection": {  
+    "KeysPath": "</home/DataProtection>",  
+    "X509KeyFilePath": "<../Usercube.pfx>",  
+    "X509KeyFilePassword": "<secret>"  
+  },  
+}        
 ```
 
 The Data Protection details are:
@@ -261,20 +259,20 @@ For example:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
+appsettings.json
 ```
-appsettings.json  
 {  
-  ...  
-  "AppDisplay": {  
-    "PrimaryColor": "<#01CDE9>",  
-    "SecondaryColor": "<#EA6E1A>",  
-    "BannerColor": "<#EA6E1A>",  
-    "BannerTextColor": "<#ffffff>",  
-    "ApplicationNamePrefix": "<QA - >",  
-    "ApplicationName": "<USERCUBE>"  
-  },  
-  ...  
-}         
+  ...  
+  "AppDisplay": {  
+    "PrimaryColor": "<#01CDE9>",  
+    "SecondaryColor": "<#EA6E1A>",  
+    "BannerColor": "<#EA6E1A>",  
+    "BannerTextColor": "<#ffffff>",  
+    "ApplicationNamePrefix": "<QA - >",  
+    "ApplicationName": "<USERCUBE>"  
+  },  
+  ...  
+}        
 ```
 
 The App Display details are:

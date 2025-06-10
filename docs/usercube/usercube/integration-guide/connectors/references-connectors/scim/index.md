@@ -105,7 +105,7 @@ Configure the Salesforce connection
 
 To configure the Salesforce connection do the following:
 
-__Step 1 –__ Log into Identity Manager using an admin account.
+__Step 1 –__ Log into Identity Manager using an admin account.
 
 ![salesforce-connector](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connector.png)
 
@@ -133,13 +133,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "<ConnectionIdentifier>": {  
-      ...  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "<ConnectionIdentifier>": {  
+      ...  
+    }  
+  }  
 }
 ```
 
@@ -147,7 +147,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
   
 - Be unique  
 - Not begin with a digit  
-- Not contain <, >, :, /, \, |, ?, \*, and \_.
+- Not contain \<, \>, :, /, \, |, ?, \*, and \_.
 
 The following example gets information via SCIM on a web application whose URL base is ```https://example.for.doc.com```:
 
@@ -156,18 +156,18 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "SCIMExport": {  
-        "ApplicationId": "<applicationIdExample>",  
-        "Server": "<https://example.for.doc.com/services/scim>",  
-        "ApplicationKey": "<KEY>",  
-        "Login": "<login>",  
-        "Password": "<password>",  
-        "Filter": "<Users|?filter=active eq \"true\>"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "SCIMExport": {  
+        "ApplicationId": "<applicationIdExample>",  
+        "Server": "<https://example.for.doc.com/services/scim>",  
+        "ApplicationKey": "<KEY>",  
+        "Login": "<login>",  
+        "Password": "<password>",  
+        "Filter": "<Users|?filter=active eq \"true\>"  
+    }  
+  }  
 }
 ```
 
@@ -207,14 +207,14 @@ Entity Type Mapping
 
 For the connector to work properly, the connection tables must follow the naming conventions too: ```<identifier>_<entity> for entities and <identifier>_members_<entity>``` for links.
 
-If the connection column describes a sub-property, then the name should have the following pattern: {property}:{sub-property}. The character ":" should not be used in other situations.
+If the connection column describes a sub-property, then the name should have the following pattern: `{property}:{sub-property}`. The character ":" should not be used in other situations.
 
 For example, if we want to retrieve information about Users, Groups and Groups' members, we should have the following configuration:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
-<EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
+<EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
 ```
 
 We would have SCIMExport\_Users.csv with the column headers id, ```name:givenName``` and ```emails:value```, ```SCIMExport_Groups.csv``` with the column headers id and ```displayName```, and ```SCIMExport_members_Groups.csv``` with the column headers value and ```MemberId```.
@@ -240,19 +240,19 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json  
 > {  
->   ...  
->   "Connections": {  
->     ...  
->     "SCIMFulfillment": {  
->         "ApplicationId": "<applicationIdExample>",  
->         "Server": "<https://example.for.doc.com/services/scim>",  
->         "ApplicationKey": "<KEY>",  
->         "Login": "<login>",  
->         "Password": "<password>",  
->         "ServiceSupportBulk": true,  
->         "BulkMaxOperation": 10  
->     }  
->   }  
+>   ...  
+>   "Connections": {  
+>     ...  
+>     "SCIMFulfillment": {  
+>       "ApplicationId": "<applicationIdExample>",  
+>       "Server": "<https://example.for.doc.com/services/scim>",  
+>       "ApplicationKey": "<KEY>",  
+>       "Login": "<login>",  
+>       "Password": "<password>",  
+>       "ServiceSupportBulk": true,  
+>       "BulkMaxOperation": 10  
+>     }  
+>   }  
 > }
 > ```
 >
@@ -289,13 +289,13 @@ Data protection can be ensured through:
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
-| ApplicationId | Connections--<identifier>--ApplicationId |
-| ApplicationKey | Connections--<identifier>--ApplicationKey |
-| BulkMaxOperation | Connections--<identifier>--BulkMaxOperation |
-| Login | Connections--<identifier>--Login |
-| Password | Connections--<identifier>--Password |
-| ServiceSupportBulk | Connections--<identifier>--ServiceSupportBulk |
-| Server | Connections--<identifier>--Server |
+| ApplicationId | Connections--\<identifier\>--ApplicationId |
+| ApplicationKey | Connections--\<identifier\>--ApplicationKey |
+| BulkMaxOperation | Connections--\<identifier\>--BulkMaxOperation |
+| Login | Connections--\<identifier\>--Login |
+| Password | Connections--\<identifier\>--Password |
+| ServiceSupportBulk | Connections--\<identifier\>--ServiceSupportBulk |
+| Server | Connections--\<identifier\>--Server |
 
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
@@ -304,7 +304,7 @@ RSA Encryption
 ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
 ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
-Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
+Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 
 For example:
 
@@ -313,14 +313,14 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.cyberark.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "SAPExportFulfillment": {  
-        "Login": "SAPExportFulfillment_CyberArkKey",  
-        "Password": "SAPExportFulfillment_CyberArkKey",  
-        "Server": "SAPExportFulfillment_CyberArkKey"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "SAPExportFulfillment": {  
+        "Login": "SAPExportFulfillment_CyberArkKey",  
+        "Password": "SAPExportFulfillment_CyberArkKey",  
+        "Server": "SAPExportFulfillment_CyberArkKey"  
+    }  
+  }  
 }
 ```

@@ -45,7 +45,7 @@ The upshot is:
 - If you use an older CSE you must use the Older AppSet (FF23)
 - Then when you use the new CSE and the New AppSet (FF115), Endpoint Policy Manager will operate as expected for FF ESR version 102.9 and also FF 115 and later
 
-Additionally, you will want to ensure that your existing FF23 AppSet policies do not get pushed  down to the machines with the new 23.10 and later CSE. During this guide you will use Item Level Targeting to ensure that the older FF23 AppSet cannot work with, and shouldn't be applied to newer CSEs; therefore we need to ensure that the newer FF115 AppSet only applies to the newer CSEs.
+Additionally, you will want to ensure that your existing FF23 AppSet policies do not get pushed  down to the machines with the new 23.10 and later CSE. During this guide you will use Item Level Targeting to ensure that the older FF23 AppSet cannot work with, and shouldn't be applied to newer CSEs; therefore we need to ensure that the newer FF115 AppSet only applies to the newer CSEs.
 
 __NOTE:__ This document mostly focuses on Group Policy Object delivery of the Firefox Endpoint Policy Manager AppSet. Note you may have other ways to deliver the FireFox Endpoint Policy Manager AppSet like Endpoint Policy Manager Cloud, local GPOs, and/or XML data files (via MSI files.) Be sure to perform this same operation using any and all methods.
 
@@ -53,7 +53,7 @@ __NOTE:__ This document mostly focuses on Group Policy Object delivery of the Fi
 
 You'll want to first discover all GPOs with Endpoint Policy Manager Application Settings Manager Data, and those with specific Firefox 23 AppSets. That being said, automation can only help you discover which GPOs contain Endpoint Policy Manager Application Settings Manager data. After that, you must open each Group Policy Object one by one and manually look for FF23 AppSet data.
 
-Overview of using the Endpoint Policy Manager PowerShell cmdlets to discover Endpoint Policy Manager data within GPOs see the [Endpoint Policy Manager User PowerShell to find all Endpoint Policy Manager GPOs](/docs/policypak/policypak/video/troubleshooting/powershell.md) topic for additional information.
+Overview of using the Endpoint Policy Manager PowerShell cmdlets to discover Endpoint Policy Manager data within GPOs see the [Endpoint Policy Manager User PowerShell to find all Endpoint Policy Manager GPOs](/docs/policypak/policypak/video/troubleshooting/powershell.md) topic for additional information.
 
 ![939_1_image-20231101213809-1_950x372](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/939_1_image-20231101213809-1_950x372.png)
 
@@ -138,13 +138,13 @@ When done save the values. You will know you have ILT set when you see the Targe
 
 ![939_7_image-20231101213809-7_950x273](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/939_7_image-20231101213809-7_950x273.png)
 
-This is different than "Predefined Targeting". To understand the difference between ILT and Predefined Targeting see the [Predefined ILTs (Internal Filters)](/docs/policypak/policypak/video/applicationsettings/designstudio/itemleveltargeting.md) topic for additional information.
+This is different than "Predefined Targeting". To understand the difference between ILT and Predefined Targeting see the [Predefined ILTs (Internal Filters)](/docs/policypak/policypak/video/applicationsettings/designstudio/itemleveltargeting.md) topic for additional information.
 
 ### Optional: Testing the ILT Filters on FF23 using the Endpoint Policy Manager Item Level Targeting Validation Tool
 
 Tip: You can also export the FF 23 settings to XMLdata File format and use part of the output to verify the Item Level Targeting will evaluate to TRUE or FALSE. To do this, right-click the entry and select Export settings to XMLData file and save the file. Then use the Endpoint Policy Manager Item Level Targeting Validation tool to test how ILT will operate. See the [Troubleshooting ILT with the ILT Validator Tool](/docs/policypak/policypak/video/troubleshooting/itemleveltargeting.md) topic for additional information.
 
-__NOTE:__ You will have to trim the ILT part of the output to eliminate the``` <ILTFilters> ```at the beginning and ```</ILTFilters>``` at the end.
+__NOTE:__ You will have to trim the ILT part of the output to eliminate the `<ILTFilters>` at the beginning and `</ILTFilters>` at the end.
 
 ![939_8_image-20231101213809-8_950x453](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/939_8_image-20231101213809-8_950x453.png)
 
@@ -208,7 +208,7 @@ Click OK and then close the AppSet entry to save it.
 
 You can also export the FF 115 settings to XMLdata File format and use part of the output to verify the Item Level Targeting will evaluate to TRUE or FALSE. To do this, right-click the entry and select Export settings to XMLData file and save the file. Then use the Endpoint Policy Manager Item Level Targeting Validation tool to test how ILT will operate. See the [Troubleshooting ILT with the ILT Validator Tool](/docs/policypak/policypak/video/troubleshooting/itemleveltargeting.md) topic for additional information.
 
-Note that you will have to trim the ILT part of the output to eliminate the <ILTFilters> at the beginning and </ILTFilters> at the end.
+Note that you will have to trim the ILT part of the output to eliminate the `<ILTFilters>` at the beginning and `</ILTFilters>` at the end.
 
 You can test the ILT evaluation by using the Export settings to XMLData file for the Mozilla Firefox 115 entry.
 
@@ -220,7 +220,7 @@ Then you can use the ILT Evaluator tool to ensure your ILT evaluation is properl
 
 # HTML Settings Report Manual Comparison
 
-In one of the backup steps we recommended you export the FF23 GPMC HTML report.  At this point you may also want to double-check the FF115 GPMC report for any discrepancies or omissions in the export/import process.
+In one of the backup steps we recommended you export the FF23 GPMC HTML report. At this point you may also want to double-check the FF115 GPMC report for any discrepancies or omissions in the export/import process.
 
 If you don't see an expected value this could be because (1) the FF115 Pak was updated to remove some values which appear to be unsupported in modern Firefox versions or (2) Some part of the Export from FF23 and import to FF115 didn't work as expected.
 

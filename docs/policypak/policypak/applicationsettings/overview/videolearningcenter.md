@@ -117,7 +117,7 @@ See the following Video topics for Application Manager.
 
 - [Manage Google Chrome using Group Policy, SCCM or your own management utility](/docs/policypak/policypak/video/applicationsettings/chrome/gettingstarted.md)
 - [Google Chrome: Clear Browsing History, Cookies, Password, Images and more](/docs/policypak/policypak/video/applicationsettings/chrome/clearbrowsing.md)
-- [Manage Google Chrome Bookmarks](/docs/policypak/policypak/video/applicationsettings/chrome/bookmarks_.md)
+- [Manage Google Chrome Bookmarks](/docs/policypak/policypak/video/applicationsettings/chrome/bookmarks.md)
 
 ## Firefox (all videos)
 

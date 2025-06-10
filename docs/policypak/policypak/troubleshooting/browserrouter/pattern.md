@@ -6,7 +6,7 @@ We cannot support these URLs in some browsers (e.g. in IE) and it cannot be fixe
 
 Our suggestion is to add PPBR pattern for a FIRST URL expected in redirects chain, or to the LAST URL.
 
-For example: if user navigates www.abc.com in IE, and he is redirected to www.def.com and then to www.ghi.com .. this MIGHT work in SOME browsers, but not others.
+For example: if user navigates `www.abc.com` in IE, and he is redirected to `www.def.com` and then to `www.ghi.com` .. this MIGHT work in SOME browsers, but not others.
 
 We suggest you pick EITHER ```"*abc* -> Chrome"``` (example) or ```"*ghi* -> Chrome"``` (example).
 

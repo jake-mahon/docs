@@ -13,5 +13,5 @@ To Hide or Show menu items:
    ![Default Setting for Intellgient Change Management Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_cm.png)  
    ![Default Setting for Enterprise Compliance Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_ec.png)
 4. To __Hide__ items: Select an item from the left and click __>__ to move it to the right. Use Ctrl-Click or Shift-Click to select multiple items. Use __>>__ to move all the items.  
-   To __Show__ items that have been hidden: Select one or more from the right and click __<__ to move them to the left. Use __<<__ to move all the items.
+   To __Show__ items that have been hidden: Select one or more from the right and click \< to move them to the left. Use \<\< to move all the items.
 5. Click __Save__ when you are finished.

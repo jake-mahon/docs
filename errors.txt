@@ -1,0 +1,388 @@
+[ERROR] Client bundle compiled with errors therefore further build is impossible.
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/installation-guide/production-ready/agent/index.md"
+Cause: Expected a closing tag for `<applicationInitialization>` (386:52-386:79) before the end of `paragraph`
+Details:
+{
+  "column": 1,
+  "message": "Expected a closing tag for `<applicationInitialization>` (386:52-386:79) before the end of `paragraph`",
+  "line": 386,
+  "name": "386:1-386:253",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 386,
+      "column": 1,
+      "offset": 20984
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 386,
+      "column": 253,
+      "offset": 21236
+    }
+  },
+  "reason": "Expected a closing tag for `<applicationInitialization>` (386:52-386:79) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/api/how-tos/request-postman/index.md"
+Cause: Expected a closing tag for `<URI>` (59:37-59:61) before the end of `paragraph`
+Details:
+{
+  "column": 6,
+  "message": "Expected a closing tag for `<URI>` (59:37-59:61) before the end of `paragraph`",
+  "line": 59,
+  "name": "59:6-59:77",
+  "place": {
+    "start": {
+      "_bufferIndex": 0,
+      "_index": 0,
+      "line": 59,
+      "column": 6,
+      "offset": 2359
+    },
+    "end": {
+      "_bufferIndex": -1,
+      "_index": 1,
+      "line": 59,
+      "column": 77,
+      "offset": 2430
+    }
+  },
+  "reason": "Expected a closing tag for `<URI>` (59:37-59:61) before the end of `paragraph`",
+  "ruleId": "end-tag-mismatch",
+  "source": "mdast-util-mdx-jsx"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/api/squery/index.md"
+Cause: Unexpected character `.` (U+002E) in attribute name, expected an attribute name character such as letters, digits, `$`, or `_`; `=` to initialize a value; whitespace before attributes; or the end of the tag
+Details:
+{
+  "column": 20,
+  "message": "Unexpected character `.` (U+002E) in attribute name, expected an attribute name character such as letters, digits, `$`, or `_`; `=` to initialize a value; whitespace before attributes; or the end of the tag",
+  "line": 46,
+  "name": "46:20",
+  "place": {
+    "_bufferIndex": 17,
+    "_index": 0,
+    "line": 46,
+    "column": 20,
+    "offset": 2075
+  },
+  "reason": "Unexpected character `.` (U+002E) in attribute name, expected an attribute name character such as letters, digits, `$`, or `_`; `=` to initialize a value; whitespace before attributes; or the end of the tag",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/index.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 9608,
+    "loc": {
+      "line": 178,
+      "column": 2
+    },
+    "raisedAt": 4
+  },
+  "column": 3,
+  "message": "Could not parse expression with acorn",
+  "line": 178,
+  "name": "178:3",
+  "place": {
+    "line": 178,
+    "column": 3,
+    "offset": 9608
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/connectors/references-connectors/azure/index.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 3858,
+    "loc": {
+      "line": 81,
+      "column": 241
+    },
+    "raisedAt": 15
+  },
+  "column": 242,
+  "message": "Could not parse expression with acorn",
+  "line": 81,
+  "name": "81:242",
+  "place": {
+    "line": 81,
+    "column": 242,
+    "offset": 3858
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/index.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 5008,
+    "loc": {
+      "line": 89,
+      "column": 226
+    },
+    "raisedAt": 15
+  },
+  "column": 227,
+  "message": "Could not parse expression with acorn",
+  "line": 89,
+  "name": "89:227",
+  "place": {
+    "line": 89,
+    "column": 227,
+    "offset": 5008
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/executables/references/configuration-transform/index.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 736,
+    "loc": {
+      "line": 23,
+      "column": 13
+    }
+  },
+  "column": 14,
+  "message": "Could not parse expression with acorn",
+  "line": 23,
+  "name": "23:14",
+  "place": {
+    "line": 23,
+    "column": 14,
+    "offset": 736
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md"
+Cause: Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 146,
+  "message": "Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 94,
+  "name": "94:146",
+  "place": {
+    "_bufferIndex": 106,
+    "_index": 0,
+    "line": 94,
+    "column": 146,
+    "offset": 11970
+  },
+  "reason": "Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md"
+Cause: Unexpected character `0` (U+0030) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 49,
+  "message": "Unexpected character `0` (U+0030) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 64,
+  "name": "64:49",
+  "place": {
+    "_bufferIndex": 48,
+    "_index": 0,
+    "line": 64,
+    "column": 49,
+    "offset": 2888
+  },
+  "reason": "Unexpected character `0` (U+0030) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/network-configuration/index.md"
+Cause: Unexpected character `\` (U+005C) in name, expected a name character such as letters, digits, `$`, or `_`; whitespace before attributes; or the end of the tag
+Details:
+{
+  "column": 78,
+  "message": "Unexpected character `\\` (U+005C) in name, expected a name character such as letters, digits, `$`, or `_`; whitespace before attributes; or the end of the tag",
+  "line": 97,
+  "name": "97:78",
+  "place": {
+    "_bufferIndex": 77,
+    "_index": 0,
+    "line": 97,
+    "column": 78,
+    "offset": 5015
+  },
+  "reason": "Unexpected character `\\` (U+005C) in name, expected a name character such as letters, digits, `$`, or `_`; whitespace before attributes; or the end of the tag",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md"
+Cause: Unexpected character `1` (U+0031) after attribute name, expected a character that can start an attribute name, such as a letter, `$`, or `_`; `=` to initialize a value; or the end of the tag
+Details:
+{
+  "column": 87,
+  "message": "Unexpected character `1` (U+0031) after attribute name, expected a character that can start an attribute name, such as a letter, `$`, or `_`; `=` to initialize a value; or the end of the tag",
+  "line": 145,
+  "name": "145:87",
+  "place": {
+    "_bufferIndex": 86,
+    "_index": 0,
+    "line": 145,
+    "column": 87,
+    "offset": 5966
+  },
+  "reason": "Unexpected character `1` (U+0031) after attribute name, expected a character that can start an attribute name, such as a letter, `$`, or `_`; `=` to initialize a value; or the end of the tag",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md"
+Cause: Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 79,
+  "message": "Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 170,
+  "name": "170:79",
+  "place": {
+    "_bufferIndex": 39,
+    "_index": 0,
+    "line": 170,
+    "column": 79,
+    "offset": 16127
+  },
+  "reason": "Unexpected character `;` (U+003B) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/profiles-permissions/permissions/index.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 6889,
+    "loc": {
+      "line": 199,
+      "column": 55
+    },
+    "raisedAt": 11
+  },
+  "column": 56,
+  "message": "Could not parse expression with acorn",
+  "line": 199,
+  "name": "199:56",
+  "place": {
+    "line": 199,
+    "column": 56,
+    "offset": 6889
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md"
+Cause: Unexpected character `"` (U+0022) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 57,
+  "message": "Unexpected character `\"` (U+0022) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 37,
+  "name": "37:57",
+  "place": {
+    "_bufferIndex": 56,
+    "_index": 0,
+    "line": 37,
+    "column": 57,
+    "offset": 2823
+  },
+  "reason": "Unexpected character `\"` (U+0022) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}
+
+--------------------------
+
+Error: MDX compilation failed for file "/Users/jordan.violet/Documents/development/docs/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md"
+Cause: Unexpected character `1` (U+0031) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 249,
+  "message": "Unexpected character `1` (U+0031) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 151,
+  "name": "151:249",
+  "place": {
+    "_bufferIndex": 246,
+    "_index": 0,
+    "line": 151,
+    "column": 249,
+    "offset": 11608
+  },
+  "reason": "Unexpected character `1` (U+0031) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}

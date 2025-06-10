@@ -51,9 +51,9 @@ __Change Type__: Type of change based on the policy.
 
 __Change Overview__: Overview of the change.
 
-- When __Systemnotes.Type__ is included as result column and one of the system note lines is __Created__, the Change Overview displays: _<incident employee>___created__ _<record>_.
-- When there are no system notes columns, __Change Overview__ displays _<incident employee>___changed__ _<record>_.
-- Deleted records display _<incident employee>___deleted___<record>_
+- When __Systemnotes.Type__ is included as result column and one of the system note lines is __Created__, the Change Overview displays: _`<incident employee>`___created__ _`<record>`_.
+- When there are no system notes columns, __Change Overview__ displays _`<incident employee>`___changed__ _`<record>`_.
+- Deleted records display _`<incident employee>`___deleted___`<record>`_
 - For grouped results with multiple records, __Change Overview__ displays __See Change Data Table for details.__
 
 __Related Change Request__: Change request related to the change or used to perform regression analysis of a non-compliant change.

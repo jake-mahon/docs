@@ -35,10 +35,10 @@ Code and Other Critical Objects with dependencies on Unused Fields and Objects:
 1. Create a report, such as the Unused Scripts Report, using the __Customizations with Dependencies__ Report Type filtered for customizations with:
 
    - Salesforce Type you are focused on (for example, APEX Class)
-   - The Customization’s Date Last Used and/or the Dependency: Date Last Used is populated and older than X.
+   - The Customization's Date Last Used and/or the Dependency: Date Last Used is populated and older than X.
    - Optional: Filter out objects from a managed package:  
-     - Exclude all Packages: filter on Packages equals {blank}  
-     - Exclude specific Packages: filter on Packages not equal to {names of package you want to exclude}  
+     - Exclude all Packages: filter on Packages equals \{blank\}  
+     - Exclude specific Packages: filter on Packages not equal to `\{names of package you want to exclude\}  `
      - Exclude all Managed Packages: filter on Manageable State equals __unmanaged__
 2. Open each relevant Customization in a new tab and set the __Clean Up Status__ to __Under Investigation__ and add appropriate __Clean Up Notes__.
 3. While investigating, flag any Unused Test Classes you no longer need. They are identified with the Test Class check box.
@@ -54,7 +54,7 @@ Cleaning up tests that are no longer necessary can significantly improve your re
 
    - Salesforce Type equals __Apex Class__
    - Test Class equals __True__
-   - Customization’s Date Last Used and/or the Dependency: Date Last Used is populated and older than X
+   - Customization's Date Last Used and/or the Dependency: Date Last Used is populated and older than X
    - Optional: Filter out objects from a managed package.
 3. Add __Clean Up Notes__ that the code it tests is no longer in use.
 
@@ -78,7 +78,7 @@ Cleaning up a group of custom parent - child objects or an entire object (includ
 2. Use the API Name as a filter set to either:
 
    - Equals the API Name of the parent or
-   - Starts with the API Name of the parent object __plus “\_ \_.”__. (example __API Name starts with Record\_ \_.__) The period is required to ensure you just match that record and its children. You get all fields and children under the parent.
+   - Starts with the API Name of the parent object __plus " _ _. "__. (example __API Name starts with Record_ _.__) The period is required to ensure you just match that record and its children. You get all fields and children under the parent.
 3. Set the __Clean Up Status__ to __Under Investigation__ and add appropriate __Clean Up Notes__.
 
 ## Layouts and List Views
@@ -101,14 +101,14 @@ You have already seen some clues to how you might do this in preceding cases. Fo
 
    - Email address
    - Name
-   - Email root ( for example, __@netwrix.com__)
+   - Email root (for example, `@netwrix.com`)
    - Record type or list value you are looking to isolate
    - Anything else that could appear in the metadata
 
 Points to consider:
 
 - Restricting the List View to one Record Type enables you to edit records directly from the List View.
-- Search carefully if using multiple terms (refer to this [Salesforce Search guide](https://help.salesforce.com/articleView?id=000247472andtype=1)) - quotes can be useful to enforce just the string you are looking for. __“Search Term”__ (in quotes) finds objects with that phrase whereas __Search Term__ (unquoted) finds anything with __Search__ and __Term__ even if they are in different fields in the List View.
-- Even good searches can result in false positive matches if the same value appears in multiple lists or record types or is a commonly-used term in Salesforce’s XML or is a common company-specific term.
+- Search carefully if using multiple terms (refer to this [Salesforce Search guide](https://help.salesforce.com/articleView?id=000247472andtype=1)) - quotes can be useful to enforce just the string you are looking for. __"Search Term"__ (in quotes) finds objects with that phrase whereas __Search Term__ (unquoted) finds anything with __Search__ and __Term__ even if they are in different fields in the List View.
+- Even good searches can result in false positive matches if the same value appears in multiple lists or record types or is a commonly-used term in Salesforce's XML or is a common company-specific term.
 
 __Next Technical Debt Topic:__ [Ongoing Monitoring ](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_ongoing_monitoring.md)

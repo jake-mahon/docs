@@ -56,7 +56,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     ...
 >     "AzureExport": {
 >         "ApplicationId": "contosoAzure897",
->         "ApplicationKey": "25d408a1925d4c081925b\d40819",
+>         "ApplicationKey": "25d408a1925d4c081925b\\d40819",
 >         "SubscriptionId": "Contoso",
 >         "TenantId": "25d40819-f23f-4837-9d50-a9a52da50b8c",
 >         "AzurePath": "https://management.azure.com/.default",
@@ -78,7 +78,7 @@ The identifier of the connection and thus the name of the subsection must:
 |  |  |
 | --- | --- |
 | SubscriptionId   required | __Type__    String   __Description__ GUID that uniquely identifies the subscription associated to the ```ApplicationId```. [See how to find it](https://www.youtube.com/watch?v=6b1J03fDnOg&t=3s). |
-| AzurePath   default value: ```https://management.azure.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API. For this flow (client credentials), the scope should be of the form __"{ResourceIdUri/.default}"__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation). |
+| AzurePath   default value: ```https://management.azure.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API. For this flow (client credentials), the scope should be of the form __`{ResourceIdUri/.default}`__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation). |
 | AzurePathApi   default value: ```https://management.azure.com``` | __Type__    String   __Description__ Azure Uri API. |
 
 ### Output details

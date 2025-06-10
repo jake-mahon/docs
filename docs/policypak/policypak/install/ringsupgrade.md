@@ -23,9 +23,9 @@ Therefore, if the first Ring element uses DateTime, then RingCatchAll MUST use D
 
 Some notes:
 
-- <DateTime>2021-12-05 15:00:00</DateTime>: This is YEAR-MONTH-DAY  and 24:00:00 format.
-- <RandomOffset>60</RandomOffset>: Is optional parameter but doesn't work by itself.
-- <RingCatchAll> is optional. If a computer is not specified within a specific ring, then it will automatically know it should be in the <RingCatchAll> ring.
+- `<DateTime>2021-12-05 15:00:00</DateTime>`: This is YEAR-MONTH-DAY  and 24:00:00 format.
+- `<RandomOffset>60</RandomOffset>`: Is optional parameter but doesn't work by itself.
+- `<RingCatchAll>` is optional. If a computer is not specified within a specific ring, then it will automatically know it should be in the `<RingCatchAll>` ring.
 
 ## Example 1: Using specific dates and times to make rings and perform a rollout
 
@@ -63,7 +63,7 @@ Some notes:
 
 With this method you set your rings apart with number of hours between updates.
 
-__NOTE:__  Use the <HoursBeforeUpdate> value to specify how many hours to delay. Note that if <HoursBeforeUpdate> is 0, then the update should perform immediately after the CSE checks in and sees what ring it is in.
+__NOTE:__  Use the `<HoursBeforeUpdate>` value to specify how many hours to delay. Note that if `<HoursBeforeUpdate>` is 0, then the update should perform immediately after the CSE checks in and sees what ring it is in.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>  
@@ -106,7 +106,7 @@ Breakdown of the parameters for the ```update.config``` file and how to use them
 | --- | --- | --- | --- |
 | Enabled | Enables/disables     auto-update | True or False | Enabled (True) by default |
 | CheckForUpdatesInterval | Sets a schedule for    when the CSE will    perform an auto    check for a new    version | Interval (in minutes) when    checking for an update | The default value is 360 (6    hours). |
-| MSIROOT | Enables you to point    to any share of your    choice to house the    CSE update (instead    of using the Endpoint Policy Manager     Central Storage and    CSE directory) | Any share name, such as   \\server123\PPCSES | Defaults to \\sysvol\sysvol\    <domain name>\policies\policypak    \CSE directory |
+| MSIROOT | Enables you to point    to any share of your    choice to house the    CSE update (instead    of using the Endpoint Policy Manager     Central Storage and    CSE directory) | Any share name, such as   \\server123\PPCSES | Defaults to \\sysvol\sysvol\    `<domain` name>\policies\policypak    \CSE directory |
 | GenerateReports | Facilitates reports to    show success or    failure of machines'    updates | True or False | Disabled (False) by default |
 | ReportsRoot | Sets a share up to    receive CSE update    reports | Any share name, such as   \\server123\Reports | This is not defined and will not    generate reports if   GenerateReports is not set. |
 | CheckForConfigInterval | Tells the CSE how    often to check for    updates within this    configuration file | Any interval (in minutes) | Defaults to 90 minutes |

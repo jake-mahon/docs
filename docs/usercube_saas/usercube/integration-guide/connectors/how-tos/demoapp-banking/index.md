@@ -57,10 +57,10 @@ __Step 6 –__ Go to the __SDK/DemoApps/Banking__ folder.
 
 __Step 7 –__ Run __./Banking.exe__ in a command prompt
 
-__Step 8 –__ In a web browser, enter the URL localhost:5000.
+__Step 8 –__ In a web browser, enter the URL `localhost:5000`.
 
 The Banking application is running, and the web browser is on the Banking home page.
 
-To set the Banking application to another port, run /Banking.exe --urls http://localhost:{port number}. To access the application, enter the URL localhost:{port number} in a web browser.
+To set the Banking application to another port, run `/Banking.exe --urls http://localhost:{port number}`. To access the application, enter the URL `localhost:{port number}` in a web browser.
 
 Some ports are not recognized by web browsers, or may already be used. Choose a port wisely.

@@ -36,7 +36,7 @@ This mass update captures all the bundle objects that are referencing non bundle
 | --- | --- | --- | --- |
 | Filter 1 | Inactive | Is false |  |
 | Filter 2 | Clean-Up Status | Is to Be Cleaned Up |  |
-| Filter 3 | Formula (Numeric) | Is 1 | CASE WHEN {custrecord\_flo\_data\_source.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR {custrecord\_flo\_list.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR {custrecord\_flo\_cust\_parent.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR THEN 1 ELSE 0 END |
+| Filter 3 | Formula (Numeric) | Is 1 | CASE WHEN `{custrecord_flo_data_source.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR `{custrecord_flo_list.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR `{custrecord_flo_cust_parent.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR THEN 1 ELSE 0 END |
 5. Open the __Mass Update Fields__ tab.
 6. Scroll down and check the box for __Removal Scenario__
 7. Select __In bundle referencing record outside__ from the drop down menu.
@@ -76,7 +76,7 @@ This mass update captures all the bundle components referenced by non bundle com
 | --- | --- | --- | --- |
 | Filter 1 | Inactive | Is false |  |
 | Filter 2 | Clean-Up Status | Is to Be Cleaned Up |  |
-| Filter 3 | Formula (Numeric) | Is 1 | CASE WHEN {custrecord\_flo\_searches.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR {custrecord\_flo\_scripts.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR {custrecord\_flo\_wflws.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' OR {custrecord\_flo\_cust\_forms.custrecord\_flo\_cleanup\_status} != 'To Be Cleaned Up' THEN 1 ELSE 0 END |
+| Filter 3 | Formula (Numeric) | Is 1 | CASE WHEN `{custrecord_flo_searches.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR `{custrecord_flo_scripts.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR `{custrecord_flo_wflws.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' OR `{custrecord_flo_cust_forms.custrecord_flo_cleanup_status}` != 'To Be Cleaned Up' THEN 1 ELSE 0 END |
 5. Open the __Mass Update Fields__ tab.
 6. Scroll down and check the box for __Removal Scenario__
 7. In __bundle referenced by outside__ from the drop down menu.

@@ -37,7 +37,7 @@ All resource types, single roles and composite roles and categories belong to a 
 
 One of Identity Manager's distinctive feature is the use of [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) methods to automatically grant fine-grained entitlements.
 
-Every identity in the organization operates within a specific context. It is a set of information relevant to making decisions about assigning entitlements for an identity. For example, an employee working in the R&D department of the New York office at Contoso Corporation is associated with the { ```R&D```, ```New York``` } context.
+Every identity in the organization operates within a specific context. It is a set of information relevant to making decisions about assigning entitlements for an identity. For example, an employee working in the R&D department of the New York office at Contoso Corporation is associated with the `{R&D, New York}` context.
 
 Analyzing contexts in the organization allows the integration team, in collaboration with a knowledgeable member of the target organization, to define key criteria on which to base assignments of entitlements decisions. Those key criteria are called dimensions.
 

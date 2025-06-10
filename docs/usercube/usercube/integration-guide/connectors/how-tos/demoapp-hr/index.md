@@ -16,9 +16,9 @@ The HR application uses csv files as data sources. When a user is added, deleted
 
 ## Running the HR Application
 
-The HR Application is part of the Identity Manager SDK, and comes with prefilled sources. To run the HR application:
+The HR Application is part of the Identity Manager SDK, and comes with prefilled sources. To run the HR application:
 
-- Download the Identity Manager SDK.
+- Download the Identity Manager SDK.
 - Go to SDK/DemoApps/HR.
 - Modify __appsettings.json__ > __CSVPath__ to "..\\Sources".
 - Run __./HR.exe__ in a command prompt.
@@ -26,6 +26,6 @@ The HR Application is part of the Identity Manager SDK, and comes with prefille
 
 The HR application is running, and the web browser is on the HR application employee list.
 
-To set the HR application to another port, run ./HR.exe --urls http://localhost:{port number}. To access the application, enter the URL localhost:{port number} in a web browser.
+To set the HR application to another port, run ./HR.exe --urls http://localhost:\{port number\}. To access the application, enter the URL localhost:\{port number\} in a web browser.
 
 Some ports are not recognized by web browsers, or may already be used. Choose a port wisely.

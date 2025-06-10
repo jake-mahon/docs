@@ -7,7 +7,7 @@ Returns a list of URLs for the ERDs of each customization attached to a Change R
 __Name__
 
 URL
-:   https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript\_flo\_int\_change\_request\_api&deploy=1&actionType=getERD
+:   `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1&actionType=getERD`
 
 HTTP Method
 :   GET
@@ -17,7 +17,7 @@ HTTP Method
 __Name__ / __Value__
 
 externalId
-:   <external\_ticket\_id>
+:   `<external_ticket_id>`
 
 URL parameters are case sensitive and mandatory.
 
@@ -34,7 +34,7 @@ This API uses OAuth 1.0 type for its request headers and Token Based Authenticat
 
 ### Format
 
-Authorization: <_encoded authentication code_>
+Authorization: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -132,7 +132,7 @@ Script Name
 :   Strongpoint Int Change Request API
 
 Script ID
-:   customscript\_flo\_int\_change\_request\_api
+:   customscript_flo_int_change_request_api
 
 Filename
 :   StrongpointIntegrationChangeRequestAPI.js

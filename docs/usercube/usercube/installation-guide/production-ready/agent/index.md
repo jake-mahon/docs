@@ -17,7 +17,7 @@ The agent is configured thanks to the appsettings.agent.json file. See the [apps
 
 ## Create an IIS Website
 
-It is recommended to run the Identity Manager agent as an IIS website.
+It is recommended to run the Identity Manager agent as an IIS website.
 
 _Remember,_ to install Identity Manager's agent as a Windows service, see the [
 Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
@@ -30,7 +30,7 @@ The information needed to go through the creation process are the following:
 
 - Identity Manager's agent uses an in-process hosting model
 - Identity Manager's agent uses .NET
-- Identity Manager agent's web.config dwells in the runtime directory
+- Identity Manager agent's web.config dwells in the runtime directory
 
   It might require a few modifications to target the agent instead of the server:
 
@@ -207,14 +207,14 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 "<OpenId">: {  
-  "AgentIdentifier": "<MyAgent>"  
-  }
+  "AgentIdentifier": "<MyAgent>"  
+}
 ```
 
 With the following configuration:
 
 ```
-<Agent Identifier="<MyAgent>" DisplayName_L1="<My Agent>"   
+<Agent Identifier="<MyAgent>" DisplayName_L1="<My Agent>"  
 URI="<https://contoso.com>" />
 ```
 
@@ -233,27 +233,27 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "Connections": {  
-    "ADExport": {  
-        "Servers": [  
-          {  
-           "Server": "<paris.contoso.com>",  
-           "BaseDN": "<DC=paris,DC=com>"  
-          }  
-        ],  
-        "AuthType": "<Basic>",  
-        "Login": "<Login>",  
-        "Password": "<Password>",  
-        "Filter": "<(objectclass=*)>",  
-        "EnableSSL": "<true>"  
-    }  
-    "<SAPExportFulfillment>": {  
-        "Server": "<serverUrl>",  
-        "Login": "<login>",  
-        "Password": "<password>"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    "ADExport": {  
+        "Servers": [  
+          {  
+           "Server": "<paris.contoso.com>",  
+           "BaseDN": "<DC=paris,DC=com>"  
+          }  
+        ],  
+        "AuthType": "<Basic>",  
+        "Login": "<Login>",  
+        "Password": "<Password>",  
+        "Filter": "<(objectclass=*)>",  
+        "EnableSSL": "<true>"  
+    }  
+    "<SAPExportFulfillment>": {  
+        "Server": "<serverUrl>",  
+        "Login": "<login>",  
+        "Password": "<password>"  
+    }  
+  }  
 }
 ```
 
@@ -286,13 +286,13 @@ openssl req -x509 -newkey rsa:1024 -keyout usercubecontoso.key -out usercubecont
 
 Public key certificates can also be bought from trusted certificate providers and bundled with a private key into a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive using step 2 in the frame above.
 
-The certificate has to be linked to Identity Manager via EncryptionCertificate in the appsettings.agent.json file.
+The certificate has to be linked to Identity Manager via EncryptionCertificate in the appsettings.agent.json file.
 
 See the[Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information about configuration parameters.
 
 ### Certificate as a plain file
 
-The following parameters are used to link the file to Identity Manager in EncryptionCertificate.
+The following parameters are used to link the file to Identity Manager in EncryptionCertificate.
 
 [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive can be [password protected](https://www.openssl.org/docs/man1.1.0/man1/openssl.html#password-protected), hence the X509KeyFilePassword attribute.
 
@@ -305,12 +305,12 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "<EncryptionCertificate>": {  
-      "<File>": "<./UsercubeContoso.pfx>",  
-      "<X509KeyFilePassword>": "<adefe$/izih>"  
-  }  
-  ...  
+  ...  
+  "<EncryptionCertificate>": {  
+      "<File>": "<./UsercubeContoso.pfx>",  
+      "<X509KeyFilePassword>": "<adefe$/izih>"  
+  }  
+  ...  
 }
 ```
 
@@ -323,13 +323,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 ```
 appsettings.agent.json  
 {  
-  ...  
-  "<EncryptionCertificate>": {  
-      "<DistinguishedName>":"<UsercubeContoso>",  
-      "<StoreLocation>": "<LocalMachine>",  
-      "<StoreName>": "<AuthRoot>"  
-  }  
-  ...  
+  ...  
+  "<EncryptionCertificate>": {  
+      "<DistinguishedName>":"<UsercubeContoso>",  
+      "<StoreLocation>": "<LocalMachine>",  
+      "<StoreName>": "<AuthRoot>"  
+  }  
+  ...  
 }
 ```
 
@@ -353,13 +353,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ```
 {  
-    ....  
-    "ApplicationUri": "<https://usercubeserver.contoso.com>",  
-    "OpenIdClients": {  
-        "Job": "<secret>",  
-        "Admin": "<secret>"  
-     },  
-    "DefaultOpenIdClient": "<Job>"  
+    ....  
+    "ApplicationUri": "<https://usercubeserver.contoso.com>",  
+    "OpenIdClients": {  
+        "Job": "<secret>",  
+        "Admin": "<secret>"  
+    },  
+    "DefaultOpenIdClient": "<Job>"  
 }
 ```
 
@@ -383,7 +383,7 @@ _Remember,_ make sure to include a space between each parameter's equal sign (=)
 
 This step is important if the scheduler is enabled. IIS starts Identity Manager's agent only if an incoming http request is made on the server and the scheduler is not launched until Identity Manager's agent is started. Because of that, you need to carefully set up the starting mode of IIS to force the starting of Identity Manager's agent.
 
-Identity Manager's agent warm up is done using the <applicationInitialization> element in the web.config file, the configuration is described [here.](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization)
+Identity Manager's agent warm up is done using the `<applicationInitialization>` element in the web.config file, the configuration is described [here.](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization)
 
 You need to:
 
@@ -396,9 +396,9 @@ __Step 3 –__ Double check that the following section is set in your web.config
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
-<applicationInitialization doAppInitAfterRestart="<true>">    
-<add initializationPage="</>">  
-</applicationInitialization>  
+\<applicationInitialization doAppInitAfterRestart="\<true\>"\>    
+\<add initializationPage="\</\>"\>  
+\</applicationInitialization\>  
 
 ```
 
@@ -408,6 +408,4 @@ If this is not correctly configured, any restart of your IIS or application pool
 
 ## What's Next?
 
-The last step in the installation process is setting up an Email server. See the [
-Send Notifications
-](/docs/usercube/usercube/installation-guide/production-ready/email-server/index.md)topic for additional information.
+The last step in the installation process is setting up an Email server. See the [Send Notifications](/docs/usercube/usercube/installation-guide/production-ready/email-server/index.md)topic for additional information.

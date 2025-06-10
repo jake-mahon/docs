@@ -6,7 +6,7 @@ Enhanced logging is controlled by registry entries. As enhanced logging creates 
 
 ## Pre-requisites:
 
-Download the .reg update files from -> [https://www.policypak.com/pp-files/PPGPCR\_Logging.zip](https://www.policypak.com/pp-files/PPGPCR_Logging.zip) <- Unzip, and copy to required computer: GPCR Server, Client (Admin console) and/or Endpoint
+Download the .reg update files from [https://www.policypak.com/pp-files/PPGPCR_Logging.zip](https://www.policypak.com/pp-files/PPGPCR_Logging.zip). After downloading, unzip the files and copy them to the required computer(s): GPCR Server, Client (Admin console), and/or Endpoint.
 
 ## Get Logs from Server and/or Client
 

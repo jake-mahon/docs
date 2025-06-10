@@ -41,17 +41,17 @@ _Remember,_ a Postman collection is provided in the same folder as the executabl
 
 ## Running the Banking Application
 
-The Banking Application is part of the Netwrix Identity Manager (formerly Usercube) SDK, and comes with prefilled sources. To run the Banking application:
+The Banking Application is part of the Netwrix Identity Manager (formerly Usercube) SDK, and comes with prefilled sources. To run the Banking application:
 
-__Step 1 –__ Download the SDK.
+__Step 1 –__ Download the SDK.
 
-__Step 2 –__ Download the Runtime.
+__Step 2 –__ Download the Runtime.
 
 __Step 3 –__ Create a database named BankingSystem.
 
 __Step 4 –__ Go to the Runtime folder.
 
-__Step 5 –__ Run __./Usercube-FillBankingDatabase.exe__ --connection-string {connection string} --sources-path {sources path} --banking-sql-path {banking sql path}, replacing {connection string} with the BankingSystem database connection string, {sources path} with the path to SDK/DemoApps/Sources, and {banking sql path} with the path to SDK/DemoApps/Banking.
+__Step 5 –__ Run __./Usercube-FillBankingDatabase.exe__ --connection-string \{connection string\} --sources-path \{sources path\} --banking-sql-path \{banking sql path\}, replacing \{connection string\} with the BankingSystem database connection string, \{sources path\} with the path to SDK/DemoApps/Sources, and \{banking sql path\} with the path to SDK/DemoApps/Banking.
 
 __Step 6 –__ Go to the __SDK/DemoApps/Banking__ folder.
 
@@ -61,6 +61,6 @@ __Step 8 –__ In a web browser, enter the URL localhost:5000.
 
 The Banking application is running, and the web browser is on the Banking home page.
 
-To set the Banking application to another port, run /Banking.exe --urls http://localhost:{port number}. To access the application, enter the URL localhost:{port number} in a web browser.
+To set the Banking application to another port, run /Banking.exe --urls http://localhost:\{port number\}. To access the application, enter the URL localhost:\{port number\} in a web browser.
 
 Some ports are not recognized by web browsers, or may already be used. Choose a port wisely.

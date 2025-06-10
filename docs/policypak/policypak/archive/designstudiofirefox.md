@@ -20,7 +20,7 @@ What we're going to do is go over to the "Design Studio" first. We'll then go ah
 
 Next thing we want to do is this is a true/false, so what I would suggest that you do here is you put a little "Check Box" in. I'm going to put a little "Check Box" here, and we can call this checkbox "Checked is TRUE," which of course means that unchecked would be false. OK.
 
-Then on this value here, I'm going to go to "Advanced" parameters and under "First Action" I'm going to pick the "Mozilla-specific config file." We're in Mozilla, and all this is already situated so we're OK here. You just leave "<project root>." You put in the "Property" name. We'll go ahead and we'll call this – again this is the official thing we're doing here – which is "browser.shell.checkDefaultBrowser." The "Default state" is "Unchecked," and the "Revert state" is "Unchecked."
+Then on this value here, I'm going to go to "Advanced" parameters and under "First Action" I'm going to pick the "Mozilla-specific config file." We're in Mozilla, and all this is already situated so we're OK here. You just leave `<project root>`. You put in the "Property" name. We'll go ahead and we'll call this – again this is the official thing we're doing here – which is "browser.shell.checkDefaultBrowser." The "Default state" is "Unchecked," and the "Revert state" is "Unchecked."
 
 Next we need to go to "Data type," and it's not an "Integer," right? It is a "Boolean," and therefore "On" when it's checked is "True" and "Off" will be "False." OK, so that's how this all lines up. You need to know the "Date type," which is the first thing we did. We figured out is it a "String," is it an "Integer" or a "Boolean." Then you put the information here as you need to – so "Boolean," "True" or "False."
 
