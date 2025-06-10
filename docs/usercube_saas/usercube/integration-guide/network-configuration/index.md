@@ -154,7 +154,7 @@ Leveraging this priority mechanism is how one can override a setting value to ma
 
 Setting values can also be stored as environment variables on Identity Manager's host system. Environment-variables-stored setting values have priority over json-file-stored setting values. Here is how to use this mechanism to handle multiple environments.
 
-In the web.config file, an ```<environmentVariable>``` element in the node ```<configuration>``````<system.webServer>``````<aspNetCore>``````<environmentVariables>`````` is used to set a setting value for the application.
+In the web.config file, an `<environmentVariable>` element in the node `<configuration>` > `<system.webServer>` > `<aspNetCore>` > `<environmentVariables>` is used to set a setting value for the application.
 
 ### Configuration stages
 

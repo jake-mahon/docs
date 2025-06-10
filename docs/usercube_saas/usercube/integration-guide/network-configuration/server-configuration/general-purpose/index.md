@@ -167,7 +167,7 @@ The mail settings details are:
 | Name | Type | Description |
 | --- | --- | --- |
 | FromAddress   required | String | Email address used as sender for Identity Manager's emails. |
-| AllowedDomains   optional | String | List of allowed domains, separated by <;>. |
+| AllowedDomains   optional | String | List of allowed domains, separated by `;`. |
 | CatchAllAddress   optional | String | Email address to be used as catchAll. |
 | CatchAllCCAddress   optional | String | Email address to be used as CC catchAll. |
 | Enabled   default value: true | Boolean | True to activate Identity Manager's email services. |

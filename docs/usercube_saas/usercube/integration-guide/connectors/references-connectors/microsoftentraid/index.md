@@ -86,7 +86,7 @@ The table below summarizes the setting attributes of Microsoft Entra ID connecto
 | TenantId   (required) | String | GUID that uniquely identifies the Azure tenant.  __NOTE:__ The value obtained at registration: __App registrations__ > __Owned applications__ > __Identity Manager__ > __Overview__ > __Application (tenant) ID__ |
 | ResponseUri   (default value: ```http://localhost```) | String | URI used by Azure to contact back the application with the tokens. This response Uri needs to be registered in the [app registration](https://aka.ms/msal-net-register-app). |
 | MicrosoftAuthorityPath   (optional) | String | Pattern for Microsoft Authority Path. |
-| MicrosoftGraphPath   (default value: https://graph.microsoft.com/.default) | String | Scope requested to access a protected API.  __NOTE:__ For this flow (client credentials), the scope should be of the form "{ResourceIdUri/.default}". [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation) for additional information. |
+| MicrosoftGraphPath   (default value: https://graph.microsoft.com/.default) | String | Scope requested to access a protected API.  __NOTE:__ For this flow (client credentials), the scope should be of the form `{ResourceIdUri/.default}`. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation) for additional information. |
 | MicrosoftGraphPathApi   (default value: ```https://graph.microsoft.com/v1.0/```) | String | Microsoft Graph Uri API. |
 
 ### Output details

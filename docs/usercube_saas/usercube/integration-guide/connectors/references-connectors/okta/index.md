@@ -61,7 +61,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 - Be unique
 - Not begin with a digit
-- Not contain <, >, :, ", /, \, |, ?, \* and \_.
+- Not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 For example:
 

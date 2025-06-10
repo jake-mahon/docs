@@ -110,8 +110,18 @@ The files' column headers come from the entity type mapping's ```ConnectionColum
 If the connection column describes a sub-property, then the name should have the following pattern: ```{property}:{sub-property}```. The character ```":"``` should not be used in other situations.
 
 > For example:
-> ```<EntityType Identifier="OData\_People" DisplayName\_L1="People">``````<Property Identifier="UserName" DisplayName\_L1="User name" Type="String" />``````<Property Identifier="FamilyName" DisplayName\_L1="Family name" Type="String" />```</EntityType>
+> ```xml
+> <EntityType Identifier="OData_People" DisplayName_L1="People">
+>   <Property Identifier="UserName" DisplayName_L1="User name" Type="String" />
+>   <Property Identifier="FamilyName" DisplayName_L1="Family name" Type="String" />
+> </EntityType>
+> ```
 >
-> ```<""""""Property Identifier=UserName ConnectionColumn=UserName /Property Identifier=FamilyName ConnectionColumn=Name:FamilyName //EntityTypeMapping
-> ```EntityTypeMapping Identifier=OData Connector=OData ConnectionTable=OData\_People><""""><""""><>
+> ```xml
+> <EntityTypeMapping Identifier="OData" Connector="OData" ConnectionTable="OData_People">
+>   <Property Identifier="UserName" ConnectionColumn="UserName" />
+>   <Property Identifier="FamilyName" ConnectionColumn="Name:FamilyName" />
+> </EntityTypeMapping>
+> ```
+> 
 > Note that we have here ```UserName``` which is a single property, and ```FamilyName``` which is a sub-property of ```Name```, hence the name ```Name:FamilyName``` as the ```ConnectionColumn```.

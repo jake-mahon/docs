@@ -347,7 +347,7 @@ Their content should be provided by the integration team, in relation to the Ope
 OpenIdClient
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) topic for additional information.
 
-The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (<https://usercubeserver.contoso.com>) with the OpenId client identifier ```<Job>``` and the password ```<secret>```, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
+The following example shows an appsettings.agent.json file that sets an agent to connect to Identity Manager's server (`https://usercubeserver.contoso.com`) with the OpenId client identifier `<Job>` and the password `<secret>`, stored in the OpenIdClients list which also contains the "admin/secret" login/password pair.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

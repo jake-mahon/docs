@@ -26,6 +26,6 @@ The HR Application is part of the Identity Manager SDK, and comes with prefille
 
 The HR application is running, and the web browser is on the HR application employee list.
 
-To set the HR application to another port, run ./HR.exe --urls http://localhost:{port number}. To access the application, enter the URL localhost:{port number} in a web browser.
+To set the HR application to another port, run `./HR.exe --urls http://localhost:{port number}`. To access the application, enter the URL `localhost:{port number}` in a web browser.
 
 Some ports are not recognized by web browsers, or may already be used. Choose a port wisely.
