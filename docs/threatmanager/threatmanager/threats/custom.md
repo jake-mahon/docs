@@ -34,7 +34,7 @@ __Step 6 –__ Severity – The relative severity level, or risk level, of the t
 
 __Step 7 –__ Description – Description of the threat.
 
-__NOTE:__ Click the + sign in the description box to insert the {{userName}} macro. The macro will associate the user that committed the threat.
+__NOTE:__ Click the + sign in the description box to insert the `{{userName}}` macro. The macro will associate the user that committed the threat.
 
 __Step 8 –__ Definition – The threat definition is a detailed explanation of the threat providing insight into why the incident is a potential risk. It appears at the top of the Threat Details page. See the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md) topic for additional information.
 

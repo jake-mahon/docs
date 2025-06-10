@@ -126,6 +126,6 @@ __Step 4 –__ Use the Type drop-down menu to apply the desired object type filt
 
 __Step 5 –__ In the Tagged Items box, check the box to the left of the desired object(s).
 
-__Step 6 –__ Click the arrow (<) between the Untagged Items box and the Tagged Items box to remove the tag from the selected object(s).
+__Step 6 –__ Click the arrow (`<`) between the Untagged Items box and the Tagged Items box to remove the tag from the selected object(s).
 
 The tag is removed from the selected objects.

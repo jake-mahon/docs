@@ -58,7 +58,7 @@ The table displays ```Postgres.conf``` settings and their suggested values.
 | max\_connections | 100 |  |
 | maintenance\_work\_mem | maintenance\_work\_mem = totalMemory / 16 | cap maintenance memory at 2GB on servers with lots of memory |
 | default\_statistics\_target | 100 |  |
-| random\_page\_cost | if ( disk\_is\_hdd ) { random\_page\_cost = 4 } else { random\_page\_cost = 1.1 } |  |
+| random\_page\_cost | if ( disk\_is\_hdd ) `{ random\_page\_cost = 4 }` else `{ random\_page\_cost = 1.1 }` |  |
 | max\_parallel\_workers | max\_parallel\_workers = cpuNum |  |
 | max\_worker\_processes | 8 |  |
 | max\_parallel\_workers\_per\_gather | 2 |  |
