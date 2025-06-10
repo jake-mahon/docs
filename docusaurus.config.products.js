@@ -23,8 +23,8 @@ const PRODUCTS = {
   'strongpointsalesforceflashlight': false,
   'threatmanager': false,
   'threatprevention': false,
-  'usercube': false,
-  'usercube_saas': true,
+  'usercube': true,
+  'usercube_saas': false,
 };
 
 const productConfigs = {

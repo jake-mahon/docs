@@ -10,7 +10,7 @@ Single Role
 
 To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity Manager, an entitlement assigned to an identity is in fact represented by the value of a given navigation property, in a resource owned by said identity. See the [Create an Entity Type](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional information. Thus, each role is linked to one navigation rule per entitlement. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
-__NOTE:__ For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called <DL-INTERNET-Restricted> identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using <DL-INTERNET-Restricted> as a value of the __memberOf__ property.
+__NOTE:__ For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called `DL-INTERNET-Restricted` identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using `DL-INTERNET-Restricted` as a value of the __memberOf__ property.
 
 ## Participants and Artifacts
 

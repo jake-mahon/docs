@@ -16,9 +16,9 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 When asserting a multi-valued object, said object must not be called through a binding that goes back and forth between entities.
   
-For example, to manage records, using the ExpressionBinding set to <Workflow\_Directory\_User:Directory\_User>. Records and the Expression using C#:record:return record.Directory\_User.Records... will not work.
+For example, to manage records, using the ExpressionBinding set to `Workflow_Directory_User:Directory_User`. Records and the Expression using C#:record:return record.Directory_User.Records... will not work.
   
-Instead, the ExpressionBinding should be set to <Workflow\_Directory\_User:Directory\_User> and the Expression should use C#:user:return user.Records.
+Instead, the ExpressionBinding should be set to `Workflow_Directory_User:Directory_User` and the Expression should use C#:user:return user.Records.
 
 The following example makes sure that a user's positions do not overlap.
 

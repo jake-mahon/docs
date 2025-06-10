@@ -48,7 +48,7 @@ Priority between scalar rules
 
 A scalar rule with a role as a criterion has a higher priority than a rule without a role criterion.
 
-For example, consider the situation where we want the login <A> for users with the single role <RA>, and the login <B> for the others. In this case, we can write two distinct scalar rules where the first one has the role <RA> as a criterion. This rule will be applied before the other.
+For example, consider the situation where we want the login `A` for users with the single role `RA`, and the login `B` for the others. In this case, we can write two distinct scalar rules where the first one has the role `RA` as a criterion. This rule will be applied before the other.
 
 Other than that, there should not be more than one rule meant to provision a given property on a given time period.
 
