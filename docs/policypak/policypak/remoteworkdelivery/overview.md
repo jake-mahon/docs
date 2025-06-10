@@ -16,7 +16,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manage
 - Keep files up to date between an SMB share and a desktop or laptop
 - Copy files from an HTTP(S) source, like OneDrive, Dropbox, Amazon S3, and some other services, to a desktop
 
-__NOTE:__ :See[Install software with SMB (standard share)](/docs/policypak/policypak/video/remoteworkdelivery/smb.md)for an overview of PolicyPak Remote Work Delivery Manager.
+__NOTE:__ See [Install software with SMB (standard share)](/docs/policypak/policypak/video/remoteworkdelivery/smb.md)for an overview of PolicyPak Remote Work Delivery Manager.
 
 Endpoint Policy Manager Remote Work Delivery Manager allows you to do the following:
 
