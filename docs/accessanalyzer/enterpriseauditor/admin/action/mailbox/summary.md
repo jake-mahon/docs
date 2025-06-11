@@ -1,7 +1,0 @@
-# Mailbox: Summary
-
-The Summary page summarizes the configuration of the action.
-
-![New Mailbox Action Wizard Summary page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
-
-Click __Finish__ to save configuration changes and exit, or __Cancel__ to exit with saving.

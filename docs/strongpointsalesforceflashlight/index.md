@@ -1,1 +1,0 @@
-# Strongpoint SalesForce Flashlight
