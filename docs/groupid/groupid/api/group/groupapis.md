@@ -1,0 +1,25 @@
+# Group APIs
+
+Directory Manager provides the following APIs for performing group-specific functions:
+
+- [Create a Static Group](/docs/groupid/groupid/api/group/createstaticgroup.md)
+- [Create an Entra ID Static Group](/docs/groupid/groupid/api/group/createstaticgroupentraid.md)
+- [Create a Smart Group](/docs/groupid/groupid/api/group/createsmartgroup.md)
+- [Create an Entra ID Smart Group](/docs/groupid/groupid/api/group/createsmartgroupentraid.md)
+- [Delete a Group](/docs/groupid/groupid/api/group/deletegroup.md)
+- [Delete Groups](/docs/groupid/groupid/api/group/deletegroups.md)
+- [Expire a Group](/docs/groupid/groupid/api/group/expiregroup.md)
+- [Expire Groups](/docs/groupid/groupid/api/group/expiregroups.md)
+- [Get a Group](/docs/groupid/groupid/api/group/getgroup.md)
+- [Get Groups](/docs/groupid/groupid/api/group/getgroups.md)
+- [Join a Group](/docs/groupid/groupid/api/group/joingroup.md)
+- [Join a Group on behalf of another user](/docs/groupid/groupid/api/group/joingrouponbehalf.md)
+- [Leave a Group](/docs/groupid/groupid/api/group/leavegroup.md)
+- [Leave a Group on behalf of another user](/docs/groupid/groupid/api/group/leavegrouponbehalf.md)
+- [Get Preview of a Smart Group Membership](/docs/groupid/groupid/api/group/previewmembership.md)
+- [Renew a Group](/docs/groupid/groupid/api/group/renewgroup.md)
+- [Renew Groups](/docs/groupid/groupid/api/group/renewgroups.md)
+- [Update a Group](/docs/groupid/groupid/api/group/updategroup.md)
+- [Update Groups](/docs/groupid/groupid/api/group/updategroups.md)
+- [Update a Smart Group](/docs/groupid/groupid/api/group/updatesmartgroup.md)
+- [Update Smart Groups](/docs/groupid/groupid/api/group/updatesmartgroups.md)

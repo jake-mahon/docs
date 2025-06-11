@@ -1,0 +1,33 @@
+# EX\_Mailflow\_OrgOverview Job
+
+The EX\_Mailflow\_OrgOverview job provides information around overall traffic in the organization. This job is set to analyze the last 30 days.
+
+## Parameter Configuration
+
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+
+The EX\_Mailflow\_OrgOverview job has the following configurable parameter:
+
+- Number of days of data to display
+
+See the [Analysis Tasks for the EX\_Mailflow\_OrgOverview Job](#analysis-tasks-for-the-ex_mailflow_orgoverview-job) topic for additional information.
+
+## Analysis Tasks for the EX\_Mailflow\_OrgOverview Job
+
+View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX\_OrgOverview\_Mailbox__ > __Configure__ node and select __Analysis__.
+
+![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
+
+The following analysis task is selected by default:
+
+- Organization Overview – Creates the EX\_MailFlow\_OrgOverview table, accessible under the job’s Results node
+
+  - By default, data for 30 days is displayed. This number of days can be modified by a parameter. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
+  - Alternatively, the ```@Days``` parameter can be modified in the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+
+In addition to the tables and views created by the analysis task, the EX\_Mailflow\_OrgOverview job produces the following pre-configured report.
+
+| Report | Description | Default Tags | Report Elements |
+| --- | --- | --- | --- |
+| Trend By MessageID  (Organization Overview) | This report shows an overview of sent and received message statuses for the organization. | None | This report is comprised of two elements:   - Line Chart – Displays the last 7 days trend by message ID - Table – Provides details on the last 30 days total traffic by message ID |
+| Trend By Recipient | This report shows the trend of sent/received and total traffic by recipient. | None | This report is comprised of two elements:   - Line Chart – Displays the last 7 days trend by recipient - Table – Provides details on the last 30 days traffic by recipient |

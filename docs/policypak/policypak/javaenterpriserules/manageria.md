@@ -1,0 +1,85 @@
+# Managing Java Rules
+
+Rich Internet Application (RIA) is a way to describe a Java applet used on a website. There are three ways to manage a RIA:
+
+- Location
+- Specific RIA (by name when signed)
+- By signing certificate
+
+__NOTE:__ Endpoint Policy Manager Java Rules manager only works for websites and not when a user runs a Java applet locally.
+
+## Managing RIAs by Location
+
+The simplest way to manage a RIA is by where it is located. We demostrated this in the Quickstart. For instance, you can specify a specific URL such as https://java.com, you can specify anything on java.com with java.com, or you can specify specific servers, including wildcards, as in \*.abc.java.com, which would affect all applets on the ABC server of java.com.
+
+__NOTE:__ For more examples of how to use location to manage RIAs, hover over the information button next to the Location field in the Java Enterprise Deployment Policy Editor.
+
+## Managing RIAs by Name
+
+You might have a website and Java applet you want to allow (and run with a specific version of Java) or block entirely. You can use Manage RIA by Name (when Signed) under these circumstances. Enter the location, such as [https://java.com](https://java.com), and then enter the name of the Java applet for specificity. You can find the Java applet's name by running it without any rules first. It is important that only signed Java applets have a name.
+
+![using_policypak_java_rules](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules.webp)
+
+Once you know this, your rule will display the properties shown below.
+
+__NOTE:__ In this instance, the __Latest in family__ option has been chosen for Java 8.
+
+![using_policypak_java_rules_1](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_1.webp)
+
+## Managing RIAs Based on Certificate
+
+You can also specify to whether you want to run or block a RIA based on the certificate. This is useful if you have many signed applets with the same name, but you only want to utilize one. This method works exclusively for digitally signed Java applets. To determine whether an applet is digitally signed, or if it contains the SHA256 of the certificate for the applet, see the example below.
+
+![using_policypak_java_rules_2](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_2.webp)
+
+To get the certificate information using Firefox:
+
+__Step 1 –__ Go to the website with the Java applet.
+
+__Step 2 –__ Open FireFox, press F12, search for "applet," and then find the .jar file (or .jnlp).
+
+__Step 3 –__ Copy the path to the .jar file and insert it in the web path.
+
+__Step 4 –__ Save the JAR file. For this example, we'll assume it is called myjar.jar.
+
+__Step 5 –__ Open Administrator command prompt, and then go to the Java folder ```cd ``````C:\Program Files\Java\jre1.8.0_111\bin``` (or whatever is on your machine).
+
+__Step 6 –__ Type ```keytool -printcert -jarfile myjar.jar``` | ```more```.
+
+For example, to receive the certificate for the applet on java.com, proceed with the following steps:
+
+__Step 1 –__ Open FireFox, press F12, search for "applet," and then find .jnlp.
+
+__Step 2 –__ Find and copy the path ```/ga/applet/verify/JavaDetection_applet.jnlp```.
+
+__Step 3 –__ Insert this path to ```https://java.com/ga/applet/verify/JavaDetection_applet.jnlp```.
+
+__Step 4 –__ Save the file.
+
+The first three steps areseen here.
+
+![using_policypak_java_rules_3](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_3.webp)
+
+After you've saved the file, continue with the following steps, which are shown below.
+
+__Step 1 –__ Open this file with Notepad.
+
+__Step 2 –__ Find the JAR file name.
+
+__Step 3 –__ Within Firefox, insert the ```.jar``` name to ```https://java.com/ga/applet/verify/JavaDetection.jar```.
+
+__Step 4 –__ Save the file.
+
+__Step 5 –__ Run command prompt (as admin), and go to java folder ```cd C:\Program Files\Java\jre1.8.0_111\bin```.
+
+__Step 6 –__ Type ```keytool -printcert -jarfile pathtojar\javadetection.jar | more```.
+
+![using_policypak_java_rules_4](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_4.webp)
+
+At this point, the SHA256 Hash appears, which you can copy and paste into the MMC. It is valid only with 32 pairs of hexadecimal numbers, with colons for separation.
+
+![using_policypak_java_rules_5](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_5.webp)
+
+Be sure to use only the first SHA256 displayed and not the others listed in the output. Note that when you paste it into the Endpoint Policy Manager Java Rules Manager MMC snap in, the colons are automatically stripped.
+
+![using_policypak_java_rules_6](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_6.webp)
