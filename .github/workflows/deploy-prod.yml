@@ -6,8 +6,8 @@ on:
   workflow_dispatch:     # Also allow manual trigger from GitHub UI
 
 env:
-  AZURE_WEBAPP_NAME: static-docs-site     # Replace with your Azure Web App name
-  NODE_VERSION: '20.x'                    # Node version for Docusaurus build
+  AZURE_WEBAPP_NAME: product-docs-dev
+  NODE_VERSION: '20.x'
 
 jobs:
   build-and-deploy:
