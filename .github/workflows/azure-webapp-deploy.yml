@@ -34,8 +34,9 @@ jobs:
           ${{ runner.os }}-docusaurus-
     
     # Cache build output for unchanged content
-    - name: Cache build output
-      uses: actions/cache@v4
+    - name: Restore build cache
+      id: cache-build-restore
+      uses: actions/cache/restore@v4
       with:
         path: build
         key: ${{ runner.os }}-build-${{ hashFiles('docs/**', 'sidebars/**', 'src/**', 'static/**', 'docusaurus.config.js', 'package-lock.json') }}
@@ -46,11 +47,25 @@ jobs:
       run: npm ci
     
     - name: Build application
+      if: steps.cache-build-restore.outputs.cache-hit != 'true'
       run: |
-        echo "Building Docusaurus site..."
-        echo "Docusaurus will use cached artifacts when possible to speed up the build."
+        echo "No build cache found, running full build..."
         npm run build
         echo "Build completed!"
+    
+    - name: Skip build (using cache)
+      if: steps.cache-build-restore.outputs.cache-hit == 'true'
+      run: |
+        echo "Build cache found! Skipping build step."
+        echo "Using cached build output from previous run."
+    
+    # Save the build output before modifying it
+    - name: Save build cache
+      if: steps.cache-build-restore.outputs.cache-hit != 'true'
+      uses: actions/cache/save@v4
+      with:
+        path: build
+        key: ${{ runner.os }}-build-${{ hashFiles('docs/**', 'sidebars/**', 'src/**', 'static/**', 'docusaurus.config.js', 'package-lock.json') }}
     
     - name: Prepare deployment package
       run: |
