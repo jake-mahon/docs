@@ -29,7 +29,7 @@ Specify advanced settings for the application:
 12. If you are not using assertion encryption, make sure _Disabled_ is selected in the __Assertion Encryption__ drop-down list.  
     To use assertion encryption as an advanced security feature, select __Enabled__. Then provide the certificate, key transport algorithm, and encryption algorithm to encrypt the response.
 13. Generate a logout URL in the service provider and enter it in the __Single Logout URL__ box. When a user clicks this URL, he or she will be logged out of all applications that have been authenticated through GroupID (i.e., applications that he or she is single signed in through GroupID).
-14. Provide the GroupID metadata in the service provider to register GroupID as an identity provider in it. See the [GroupID Metadata for Service Provider Configurations](#GroupID-Metadata-for-Service-Provider-Configurations) topic.
+14. Provide the GroupID metadata in the service provider to register GroupID as an identity provider in it. See the [GroupID Metadata for Service Provider Configurations](#groupid-metadata-for-service-provider-configurations) topic.
 15. Click __Create Application__ to create the service provider in GroupID.
 
 ### GroupID Metadata for Service Provider Configurations

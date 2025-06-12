@@ -2,7 +2,7 @@
 
 Use this APi to create a new data source.
 
-See the [Create a Data Source for ODBC](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#Create-a-Data-Source-for-ODBC) section of the [Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic to create an ODBC data source using the GroupID interface.
+See the [Create a Data Source for ODBC](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-odbc) section of the [Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic to create an ODBC data source using the GroupID interface.
 
 ## Endpoint
 

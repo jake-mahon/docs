@@ -17,7 +17,7 @@ __Step 2 –__ Follow the instructions in the Dell [Using the Common Event Enabl
 
 ___RECOMMENDED:___ The latest version of .NET Framework and Dell CEE is recommended to use with the asynchronous bulk delivery (VCAPS) feature.
 
-After installation, open MS-RPC ports between the Dell device and the Dell CEE server. See the [Dell CEE Debug Logs](/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/validate.md#Dell-CEE-Debug-Logs) section for information on troubleshooting issues related to Dell CEE.
+After installation, open MS-RPC ports between the Dell device and the Dell CEE server. See the [Dell CEE Debug Logs](/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/validate.md#dell-cee-debug-logs) section for information on troubleshooting issues related to Dell CEE.
 
 ## Configure Dell Registry Key Settings
 

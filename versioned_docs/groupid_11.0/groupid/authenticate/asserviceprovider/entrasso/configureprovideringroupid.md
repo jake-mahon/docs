@@ -19,5 +19,5 @@ To configure a SAML provider in GroupID, you have to specify the following:
 7. Again, copy the Azure AD Identifier URL from the __Set up Azure SSO__ card on the __SAML-based sign-on__ page and paste it in the __Issuer__ box on the __Create New Provider__ page.
 8. Expand the __Advanced__ section on the __Create New Provider__ page.
 9. Select _Post_ in the __Request Binding__ drop-down list.
-10. For _Disable GroupID Authentication_, see step 2 in the [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Specify-Advanced-Configurations) topic. Replace references to AD FS with the Microsoft Entra SSO provider.
+10. For _Disable GroupID Authentication_, see step 2 in the [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations) topic. Replace references to AD FS with the Microsoft Entra SSO provider.
 11. Click the __Create Provider__ button. The identity provider is created and displayed on the __SAML Providers__ page.

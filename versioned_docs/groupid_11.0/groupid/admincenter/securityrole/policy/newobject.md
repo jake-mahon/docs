@@ -18,9 +18,9 @@ for each role - can create groups in any of the three OUs.
 
 What do you want to do?
 
-- [Limit Object Creation to the OU the User Resides in](#Limit-Object-Creation-to-the-OU-the-User-Resides-in)
-- [Restrict Role Members to Create Objects in Specific OUs](#Restrict-Role-Members-to-Create-Objects-in-Specific-OUs)
-- [Remove an OU](#Remove-an-OU)
+- [Limit Object Creation to the OU the User Resides in](#limit-object-creation-to-the-ou-the-user-resides-in)
+- [Restrict Role Members to Create Objects in Specific OUs](#restrict-role-members-to-create-objects-in-specific-ous)
+- [Remove an OU](#remove-an-ou)
 
 ## Limit Object Creation to the OU the User Resides in
 

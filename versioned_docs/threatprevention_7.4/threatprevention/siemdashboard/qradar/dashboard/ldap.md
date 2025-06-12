@@ -4,9 +4,9 @@ The Lightweight Directory Access Protocol (LDAP) dashboard contains the followin
 
 ![LDAP Dashboard](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.png)
 
-- Top Users – Displays up to the top five (5) users related to LDAP events that have been recorded in the specified timeframe. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
-- Top Source Hosts – Displays up to the top five (5) client IP addresses related to LDAP events that have been recorded in the specified timeframe. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
-- LDAP Query Details – Tabular format of all non-trivial LDAP events that have been recorded in the specified timeframe. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
+- Top Users – Displays up to the top five (5) users related to LDAP events that have been recorded in the specified timeframe. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
+- Top Source Hosts – Displays up to the top five (5) client IP addresses related to LDAP events that have been recorded in the specified timeframe. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
+- LDAP Query Details – Tabular format of all non-trivial LDAP events that have been recorded in the specified timeframe. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is set by default to the past three (3) hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click __Search__ to refresh the card data.
 

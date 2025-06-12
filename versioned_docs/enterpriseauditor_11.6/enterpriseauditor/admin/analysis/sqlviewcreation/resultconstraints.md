@@ -10,7 +10,7 @@ Select one of the following options to choose if and how much data should be ret
 - Only unique rows can appear in the result set
 - Return only [number] [unit] of the rows – Select this checkbox to specify a numeric value and unit of measurement to return for the rows that appear in the resulting table or view
 
-  - With ties – Include all instances of identical values in the sorted columns with the results. To include only one instance of identical values, do not select this option.. See the [With Ties Example](#With-Ties-Example) topic for additional information.
+  - With ties – Include all instances of identical values in the sorted columns with the results. To include only one instance of identical values, do not select this option.. See the [With Ties Example](#with-ties-example) topic for additional information.
 
     __NOTE:__ This field is enabled by sorting at least one column in the table by value (for SQL, only a sorted column can contain ties). To sort columns, use the __Order By Operation__ field on the Columns page. See the [SQLViewCreations: Columns](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.md) topic for additional information.
 

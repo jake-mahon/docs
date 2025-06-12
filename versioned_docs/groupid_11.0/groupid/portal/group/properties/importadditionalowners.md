@@ -13,7 +13,7 @@ Supported file formats are:
 
 What do you want to do?
 
-- [Import additional owners using a wizard](#Import-additional-owners-using-a-wizard)
+- [Import additional owners using a wizard](#import-additional-owners-using-a-wizard)
 
 ## Import additional owners using a wizard
 

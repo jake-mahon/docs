@@ -16,13 +16,13 @@ Header Options
 
 - Title – The title of the report as displayed at the top of the generated report
 - Author – Name of the person or group who created the report. This is displayed at the top of the generated report.
-- Tags – Use the tag editor to add and remove tags, see the [Add Tags to a Report](#Add-Tags-to-a-Report) topic below for more information. Tags are displayed in the header of the generated reported.
+- Tags – Use the tag editor to add and remove tags, see the [Add Tags to a Report](#add-tags-to-a-report) topic below for more information. Tags are displayed in the header of the generated reported.
 - Description – A description of the report content. It is displayed beneath the report Title in the generated report.
 
 Publish Options
 
 - Publish Report – Select an option to configure if the report should be published to the Web Console when it is generated.
-  - Use default setting – Applies the Global report settings, or the settings configured at the job group or job levels if inheritance has been broken. (See the [Publish Option](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#Publish-Option), [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md), and [Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topics for additional information.)
+  - Use default setting – Applies the Global report settings, or the settings configured at the job group or job levels if inheritance has been broken. (See the [Publish Option](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#publish-option), [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md), and [Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topics for additional information.)
   - Publish report – Select this option to publish the report
   - Do not publish report – Select this option to not publish the report
 - Publish State – Shows the current publish state of the report. If the report is already published, you can click the link to open the report in the Web Console.

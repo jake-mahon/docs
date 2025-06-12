@@ -4,7 +4,7 @@ Built-in Netwrix Auditor self-audit allows you to track changes to the product c
 
 The corresponding option is available on the General tab of Netwrix AuditorSettings. By default, the __Collect data for self-audit checkbox__ is selected (enabled).
 
-[![selfaudit](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit.png)](/versioned_docs/auditor_10.6/resources/images/auditor/settings/selfaudit.png)
+![selfaudit](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit.png)
 
 ### Search for Self-audit Results
 

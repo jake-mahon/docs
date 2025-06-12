@@ -33,7 +33,7 @@ The Banking Application is part of the Usercube SDK, and comes with prefilled so
 - Download the Usercube runtime.
 - Create a database named ```BankingSystem```.
 - Go to the ```Runtime``` folder.
-- Run ```./Usercube-FillBankingDatabase.exe --connection-string {connection string} --sources-path {sources path} --banking-sql-path {banking sql path}```, replacing ```{connection string}``` with the ```BankingSystem``` database connection string, ```{sources path}``` with the path to ```SDK/DemoApps/Sources```, and ```{banking sql path}``` with the path to ```SDK/DemoApps/Banking```.
+- Run ```./Usercube-FillBankingDatabase.exe --connection-string {connection string} --sources-path {sources path} --banking-sql-path {banking sql path}```, replacing ``{connection string}`` with the ```BankingSystem``` database connection string, ``{sources path}`` with the path to ```SDK/DemoApps/Sources```, and ``{banking sql path}`` with the path to ```SDK/DemoApps/Banking```.
 - Go to the ```SDK/DemoApps/Banking``` folder.
 - Run ```./Banking.exe``` in a command prompt.
 - In a web browser, enter the URL ```localhost:5000```.

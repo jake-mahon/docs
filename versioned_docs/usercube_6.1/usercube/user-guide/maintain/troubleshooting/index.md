@@ -52,7 +52,7 @@ NETWRIX recommends scheduling an incremental synchronization approximately every
 
 If a synchronization threshold is exceeded, then check whether the threshold is legitimate. If not, it means that the warning comes from a change in the managed system, so you should fix the data directly in the managed system.
 
-[See more details on synchronization thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#See-more-details-on-synchronization-thresholds).
+[See more details on synchronization thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#see-more-details-on-synchronization-thresholds).
 
 ## Troubleshoot Provisioning Issues
 
@@ -88,7 +88,7 @@ If provisioning orders produce incorrect values, then it can come from:
 - incorrect identity data, in which case you should select a test user, click on __View Sources__ to see which sources contributed to the data, and click on __View History__ to see when the data changed.
 - wrong provisioning rules, i.e. scalar, navigation and/or query rules;
 
-  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. [See more details on how to use the helpdesk workflow for debug purposes](#See-more-details-on-how-to-use-the-helpdesk-workflow-for-debug-purposes).
+  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. [See more details on how to use the helpdesk workflow for debug purposes](#see-more-details-on-how-to-use-the-helpdesk-workflow-for-debug-purposes).
 
 > For example, if identity data has changed and HR data has not, then it must come from the rules.
 
@@ -99,7 +99,7 @@ If a provisioning threshold is exceeded, then check whether the threshold is leg
 - incorrect identity data, in which case you should select a test user, click on __View Sources__ to see which sources contributed to the data, and click on __View History__ to see when the data changed.
 - wrong provisioning rules, i.e. scalar, navigation and/or query rules;
 
-  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. [See more details on how to use the helpdesk workflow for debug purposes](#See-more-details-on-how-to-use-the-helpdesk-workflow-for-debug-purposes).
+  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. [See more details on how to use the helpdesk workflow for debug purposes](#see-more-details-on-how-to-use-the-helpdesk-workflow-for-debug-purposes).
 
 ## Troubleshoot Entitlement Issues
 

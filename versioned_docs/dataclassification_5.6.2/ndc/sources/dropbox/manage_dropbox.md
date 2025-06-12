@@ -11,7 +11,7 @@ To configure exclusions, do the following:
 1. In the management console, click __Content Configuration → Sources__ → __Dropbox__, then in the left pane click Collection Exclusions.
 2. Click __Add__.
 
-   [![boxexclusions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/dropbox/boxexclusions_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/boxexclusions.png)
+   [![boxexclusions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/dropbox/boxexclusions_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/boxexclusions.png)
 3. Click __Filter__ and in the __Filter__ field specify the objects (files or folders) to exclude:
 
    To exclude a certain file, enter `https://www.dropbox.com/home/<full_path_to_file>`.

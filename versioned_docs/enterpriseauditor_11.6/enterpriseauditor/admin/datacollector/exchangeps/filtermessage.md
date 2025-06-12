@@ -23,7 +23,7 @@ Available conditions to select from include:
 - that was received in a specific date range – If selected, specify date range through the Date Range Selection window
 - with specific words in the attachment – If selected, specify words through the Words window
 
-See the [Date Range Selection Window](#Date-Range-Selection-Window) and [Words Window](#Words-Window) topics for additional information.
+See the [Date Range Selection Window](#date-range-selection-window) and [Words Window](#words-window) topics for additional information.
 
 In the Select Search Mailbox Parameters section, select the desired filter parameters:
 

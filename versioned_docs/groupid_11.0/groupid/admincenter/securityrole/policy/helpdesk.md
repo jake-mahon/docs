@@ -11,7 +11,7 @@ NOTE: The helpdesk role must be granted the following permissions in an identity
 - Unlock Any Account
 - Unenroll
 
-If these permissions are denied, the Helpdesk policy would have no impact, as role members would not be authorized to perform the respective operations. See [Password Management](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#Password-Management) in the [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md) topic.
+If these permissions are denied, the Helpdesk policy would have no impact, as role members would not be authorized to perform the respective operations. See [Password Management](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#password-management) in the [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md) topic.
 
 The Helpdesk policy defines:
 
@@ -22,14 +22,14 @@ NOTE: Account unlock is not supported in a Microsoft Entra ID identity store.
 
 What do you want to do?
 
-- [Set Restricted Mode](#Set-Restricted-Mode)
-  - [Limit Helpdesk to Manage Users in a Specific OU](#Limit-Helpdesk-to-Manage-Users-in-a-Specific-OU)
-  - [Enforce Helpdesk to Authenticate Users](#Enforce-Helpdesk-to-Authenticate-Users)
-  - [Enforce Helpdesk to Use Security Questions for Authentication](#Enforce-Helpdesk-to-Use-Security-Questions-for-Authentication)
-- [Set Unrestricted Mode](#Set-Unrestricted-Mode)
-- [Specify Password Reset Options](#Specify-Password-Reset-Options)
-  - [Specify a Password Reset Method](#Specify-a-Password-Reset-Method)
-  - [Force Users to Change Password on Next Logon](#Force-Users-to-Change-Password-on-Next-Logon)
+- [Set Restricted Mode](#set-restricted-mode)
+  - [Limit Helpdesk to Manage Users in a Specific OU](#limit-helpdesk-to-manage-users-in-a-specific-ou)
+  - [Enforce Helpdesk to Authenticate Users](#enforce-helpdesk-to-authenticate-users)
+  - [Enforce Helpdesk to Use Security Questions for Authentication](#enforce-helpdesk-to-use-security-questions-for-authentication)
+- [Set Unrestricted Mode](#set-unrestricted-mode)
+- [Specify Password Reset Options](#specify-password-reset-options)
+  - [Specify a Password Reset Method](#specify-a-password-reset-method)
+  - [Force Users to Change Password on Next Logon](#force-users-to-change-password-on-next-logon)
 
 ## Set Restricted Mode
 
@@ -84,7 +84,7 @@ __To enforce authentication:__
 8. Select the __Do not allow Helpdesk to reset password or unlock account without User's interaction__ check box, and then select one of the following
    options:
 
-   - __Enforce multifactor authentication as applies to end user:__ to force helpdesk role members to authenticate an end-user as per the authentication policy defined for the security role of that user. See the[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+   - __Enforce multifactor authentication as applies to end user:__ to force helpdesk role members to authenticate an end-user as per the authentication policy defined for the security role of that user. See the[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
      Or
    - __Enforce at least selected level of multifactor authentication:__ to force helpdesk role members to authenticate end-users with x number of authentication types. Specify the number of authentication types
@@ -124,7 +124,7 @@ __To enforce security questions for authentication:__
 The unrestricted mode enables helpdesk users to reset passwords and unlock accounts of identity store users without authenticating them through the authentication types(s) they enrolled their accounts with.
 
 - On receiving an account unlock request from an end-user, a helpdesk user operating under the unrestricted mode can directly unlock the account of the requester.
-- On receiving a password reset request from an end-user, a helpdesk user operating under this mode can directly reset the password or send a secure password reset link to the requester. See the [Specify a Password Reset Method](#Specify-a-Password-Reset-Method) topic.
+- On receiving a password reset request from an end-user, a helpdesk user operating under this mode can directly reset the password or send a secure password reset link to the requester. See the [Specify a Password Reset Method](#specify-a-password-reset-method) topic.
 
 __To set the unrestricted mode:__
 
@@ -178,9 +178,9 @@ __To specify a password reset method:__
 9. On the __Edit Security Role__ page, click __Update Security Role__.
 10. On the __Security Roles__ page, click __Save__.
 
-NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the end-users’ mobile phones. See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#Link-an-SMS-Gateway-Account-to-an-Identity-Store) topic.  
+NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the end-users’ mobile phones. See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store) topic.  
  (2) An SMTP server must
-be configured for the identity store for email to be sent to end-users. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Configure-an-SMTP-Server) topic.
+be configured for the identity store for email to be sent to end-users. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#configure-an-smtp-server) topic.
 
 ### Force Users to Change Password on Next Logon
 

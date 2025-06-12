@@ -100,7 +100,7 @@ Select single roles and find the role you created inside the right category and 
 
 ![Access Single Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
 
-> [Our example](#Our-example) would look like:
+> [Our example](#our-example) would look like:
 >
 > ![Example - Generated Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
 
@@ -112,6 +112,6 @@ Select navigation rules and find the rule(s) you created with the right paramete
 
 ![Access Navigation Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
 
-> [Our example](#Our-example) would look like:
+> [Our example](#our-example) would look like:
 >
 > ![Example - Generated Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)

@@ -34,10 +34,10 @@ The Operations page lists the operations that may be performed by the Active Dir
 The Active Directory Action module is configured through the Active Directory Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Active Directory Action Target](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/target.md#Active-Directory-Action-Target)
-- [Active Directory Action Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations.md#Active-Directory-Action-Operations)
-- [Active Directory Action Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/options.md#Active-Directory-Action-Options)
-- [Active Directory Action Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/summary.md#Active-Directory-Action-Summary)
+- [Active Directory Action Target](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/target.md#active-directory-action-target)
+- [Active Directory Action Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations.md#active-directory-action-operations)
+- [Active Directory Action Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/options.md#active-directory-action-options)
+- [Active Directory Action Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/summary.md#active-directory-action-summary)
 
 The Welcome page displays first in the Active Directory Action Module Wizard. Review the introductory and caution information about the Active Directory Action Module.
 

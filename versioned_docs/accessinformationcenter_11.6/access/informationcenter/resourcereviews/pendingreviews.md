@@ -10,7 +10,7 @@ _Remember,_ Your company domain credentials are used to log in.
 
 ![Reviews link on the Ownership portal](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/ownershipportal.png)
 
-The Owner portal displays a number next to the __Reviews__link to indicate how many of your resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews interface has two pages: Pending Reviews and Review History. See the [Pending Reviews Page](#Pending-Reviews-Page) and [Review History Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/reviewhistory.md) topics for additional information.
+The Owner portal displays a number next to the __Reviews__link to indicate how many of your resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews interface has two pages: Pending Reviews and Review History. See the [Pending Reviews Page](#pending-reviews-page) and [Review History Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/reviewhistory.md) topics for additional information.
 
 ## Pending Reviews Page
 

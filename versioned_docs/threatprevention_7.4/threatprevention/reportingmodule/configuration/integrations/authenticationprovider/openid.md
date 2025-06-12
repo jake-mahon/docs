@@ -2,7 +2,7 @@
 
 OpenID is an open standard for authentication that allows users to log into multiple websites using a single set of credentials, eliminating the need for multiple usernames and passwords. Unlike traditional authentication methods, OpenID delegates authentication to a third-party provider, allowing users to authenticate with their chosen identity provider.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#Add-an-Authentication-Provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 

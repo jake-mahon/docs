@@ -8,4 +8,4 @@ The categories on the ADPermissions Category page are:
 
 - Scan Active Directory Permissions – Scan permissions applied to objects
 - Scan Active Directory Audits – Scan audits applied to objects
-- Remove Tables – Remove all tables and views from SQL server. See the [Remove ADPermissions Tables](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/removetables.md#Remove-ADPermissions-Tables) topic for additional information.
+- Remove Tables – Remove all tables and views from SQL server. See the [Remove ADPermissions Tables](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/removetables.md#remove-adpermissions-tables) topic for additional information.

@@ -1,6 +1,6 @@
 # Save Selected To List
 
-Use the __Save Selected To List__ option to create a static host list. This option is available from either the Host Management node or an individual host list node. See the [Static Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#Static-Host-Lists) topic for additional information on static host lists. This option is inactive until at least one host within the data grid is selected.
+Use the __Save Selected To List__ option to create a static host list. This option is available from either the Host Management node or an individual host list node. See the [Static Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#static-host-lists) topic for additional information on static host lists. This option is inactive until at least one host within the data grid is selected.
 
 ![Save Selected To List option in Host Management node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/savetolist.png)
 

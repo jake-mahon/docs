@@ -62,4 +62,4 @@ __Step 1 –__ Right-click on ```Netwrix_Setup.exe``` and select Run as administ
 
 __Step 2 –__ Log into the console for the first time. See the [First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firstlaunch.md) topic for additional information.
 
-After completing the first launch, it is time to complete the initial configuration. See the [Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#Set-Up-the-Threat-Manager-Reporting-Module) topic for additional information.
+After completing the first launch, it is time to complete the initial configuration. See the [Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module) topic for additional information.

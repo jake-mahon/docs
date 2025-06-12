@@ -57,7 +57,7 @@ The following example exports a SaaS configuration via an HTTP POST request to t
 
 ```
 
-To be able to export a SaaS configuration, you must first provide your Usercube administrator with identity information. [See how to export a SaaS configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md#See-how-to-export-a-SaaS-configuration) for the first time.
+To be able to export a SaaS configuration, you must first provide your Usercube administrator with identity information. [See how to export a SaaS configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md#see-how-to-export-a-saas-configuration) for the first time.
 
 ### Basic export for a change of environment
 

@@ -2,8 +2,8 @@
 
 This section lists software requirements and describes default hardware configuration needed for the virtual machine where the Netwrix Privilege Secure virtual appliance will be deployed. Refer to the following sections for detailed information:
 
-- [Software Requirements](#Software-Requirements)
-- [Virtual Hardware Configuration](#Virtual-Hardware-Configuration)
+- [Software Requirements](#software-requirements)
+- [Virtual Hardware Configuration](#virtual-hardware-configuration)
 
 __NOTE:__ The requirements below are sufficient for evaluation purposes only. For production deployment, see the Privilege Secure [Application Server Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/applicationserver.md) topic for additional information.
 

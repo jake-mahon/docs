@@ -27,15 +27,15 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
 
   By default, the naming template for its child Dynasties starts with "Direct reports of `<manager>`".
 
-To modify the display name template for child Dynasties, see [Modify alias and display name templates](/versioned_docs/groupid_11.0/groupid/portal/group/manage/dynastyfunction.md#Modify-alias-and-display-name-templates).
+To modify the display name template for child Dynasties, see [Modify alias and display name templates](/versioned_docs/groupid_11.0/groupid/portal/group/manage/dynastyfunction.md#modify-alias-and-display-name-templates).
 
 NOTE: In the Dynasty creation/update process, a child Dynasty will not be created if it bears the same name as that of an existing object in the directory. For example, when you create a custom Dynasty, test1, on one attribute, SamAccountName, it’s child
 Dynasties would be named as test1-Robert, test1-John, and so on. However, if test1-Robert already exists as a user object, GroupID will skip the test1-Robert child Dynasty and continue to create the rest of the Dynasty.
 
 What do you want to do?
 
-- [Create a Dynasty using the Organizational/Geographical/Custom template](#Create-a-Dynasty-using-the-OrganizationalGeographicalCustom-template)
-- [Create a Dynasty using the Managerial template](#Create-a-Dynasty-using-the-Managerial-template)
+- [Create a Dynasty using the Organizational/Geographical/Custom template](#create-a-dynasty-using-the-organizationalgeographicalcustom-template)
+- [Create a Dynasty using the Managerial template](#create-a-dynasty-using-the-managerial-template)
 
 ## Create a Dynasty using the Organizational/Geographical/Custom template
 

@@ -21,7 +21,7 @@ __Step 3 –__ Configure the PowerShell 4.0 Script action:
 
 ![Script Editor for PowerShell Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorforps.png)
 
-__Step 4 –__ Create or copy/paste the custom script in the Threat Prevention Script Editor. See the [Threat Prevention Script Editor Tools](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscript.md#Threat-Prevention-Script-Editor-Tools) topic for additional information, i.e. Run for testing and Encrypt functionality. See the [Default PowerShell 4.0 Script](#Default-PowerShell-40-Script) topic for the default custom script. Save and close.
+__Step 4 –__ Create or copy/paste the custom script in the Threat Prevention Script Editor. See the [Threat Prevention Script Editor Tools](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscript.md#threat-prevention-script-editor-tools) topic for additional information, i.e. Run for testing and Encrypt functionality. See the [Default PowerShell 4.0 Script](#default-powershell-40-script) topic for the default custom script. Save and close.
 
 __Step 5 –__ On the Add Action window, the new script is displayed in the __Script Preview__ section. Check the __Enable compiler error logging__ checkbox to enable Threat Prevention to log information about the compiling of scripts.
 

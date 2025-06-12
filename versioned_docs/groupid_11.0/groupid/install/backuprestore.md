@@ -2,12 +2,12 @@
 
 This topic provides instructions for backing up and restoring the data from previous versions of GroupID. While upgrading to GroupID 11.0.
 
-- [GroupID database on SQL Server](#GroupID-database-on-SQL-Server)
-- [Elasticsearch data](#Elasticsearch-data)
-- [GroupID Self-Service Portals](#GroupID-Self-Service-Portals)
-- [GroupID Password Center Portals](#GroupID-Password-Center-Portals)
-- [GroupID Synchronize Jobs](#GroupID-Synchronize-Jobs)
-- [GroupID Reports](#GroupID-Reports)
+- [GroupID database on SQL Server](#groupid-database-on-sql-server)
+- [Elasticsearch data](#elasticsearch-data)
+- [GroupID Self-Service Portals](#groupid-self-service-portals)
+- [GroupID Password Center Portals](#groupid-password-center-portals)
+- [GroupID Synchronize Jobs](#groupid-synchronize-jobs)
+- [GroupID Reports](#groupid-reports)
 
 ## GroupID database on SQL Server
 

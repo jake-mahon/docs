@@ -25,7 +25,7 @@ When performing profile validation, a user can:
 - Terminate his or her direct reports - When a user terminates his or her direct report, it takes effect immediately when the _terminate a user_ workflow is disabled. If enabled, a request is sent to the approver. If the approver accepts
   it, the direct report is terminated and if the approver rejects it, the direct report remains with the manager.
 
-For workflows in an identity store, see the [System Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#System-Workflows) topic.
+For workflows in an identity store, see the [System Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#system-workflows) topic.
 
 ## What Happens When Users do not Validate their Profiles?
 
@@ -34,7 +34,7 @@ Periodically, users receive reminder emails to validate their profile. GroupID e
 Expired users can request the administrator or helpdesk to unlock their accounts temporarily and grant an extension period. If they do not validate their profile within that extension period either, GroupID expires them again and notifies their managers
 by email. To reactivate these accounts, users’ managers must send a request to the helpdesk.
 
-To identify user accounts that are disabled for not validating their profiles, see the [Identify User Accounts Expired due to Non-Profile Validation](#Identify-User-Accounts-Expired-due-to-Non-Profile-Validation) topic.
+To identify user accounts that are disabled for not validating their profiles, see the [Identify User Accounts Expired due to Non-Profile Validation](#identify-user-accounts-expired-due-to-non-profile-validation) topic.
 
 ## The User Life Cycle Schedule
 
@@ -48,13 +48,13 @@ The User Life Cycle schedule monitors the profile validation function in GroupID
 
 What do you want to do?
 
-- [Specify a Group for Profile Validation](#Specify-a-Group-for-Profile-Validation)
-- [Set a Profile Validation Life Cycle Period](#Set-a-Profile-Validation-Life-Cycle-Period)
-- [Specify a Profile Validation Period for New Users](#Specify-a-Profile-Validation-Period-for-New-Users)
-- [Specify a Duration for the Extension Period](#Specify-a-Duration-for-the-Extension-Period)
-- [Specify Reminder Notification Settings](#Specify-Reminder-Notification-Settings)
-- [Identify User Accounts Expired due to Non-Profile Validation](#Identify-User-Accounts-Expired-due-to-Non-Profile-Validation)
-- [Apply Settings to Clear the Validation Date](#Apply-Settings-to-Clear-the-Validation-Date)
+- [Specify a Group for Profile Validation](#specify-a-group-for-profile-validation)
+- [Set a Profile Validation Life Cycle Period](#set-a-profile-validation-life-cycle-period)
+- [Specify a Profile Validation Period for New Users](#specify-a-profile-validation-period-for-new-users)
+- [Specify a Duration for the Extension Period](#specify-a-duration-for-the-extension-period)
+- [Specify Reminder Notification Settings](#specify-reminder-notification-settings)
+- [Identify User Accounts Expired due to Non-Profile Validation](#identify-user-accounts-expired-due-to-non-profile-validation)
+- [Apply Settings to Clear the Validation Date](#apply-settings-to-clear-the-validation-date)
 
 ## Specify a Group for Profile Validation
 

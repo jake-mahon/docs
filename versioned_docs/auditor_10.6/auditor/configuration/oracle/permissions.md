@@ -32,7 +32,7 @@ __Step 4 –__ Decide on the account that will be used to access this database f
 __Step 5 –__ Grant ```CREATE SESSION``` system privilege to that account. For that, execute:   
 ```GRANT CREATE SESSION TO <account_name>;```
 
-__Step 6 –__ Grant ```SELECT``` privilege on the required object to that account. See the [For Oracle Database Auditing](#For-Oracle-Database-Auditing) topic for the detailed object list. For that, execute: ```GRANT SELECT ON <object> TO <account_name>;```  
+__Step 6 –__ Grant ```SELECT``` privilege on the required object to that account. See the [For Oracle Database Auditing](#for-oracle-database-auditing) topic for the detailed object list. For that, execute: ```GRANT SELECT ON <object> TO <account_name>;```  
 For example:   
 ```GRANT SELECT ON aud$ TO OracleUser;```
 

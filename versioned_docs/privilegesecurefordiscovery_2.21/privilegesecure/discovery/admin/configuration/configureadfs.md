@@ -6,11 +6,11 @@ Configure ADFS (Active Directory Federation Services) SSO
 
 ## ADFS
 
-- On the “Identifiers” section, add Identifier to match the URL of your website (Ex: [https://s1.`<company>`.com](/versioned_docs/privilegesecurefordiscovery_2.21/discovery))
+- On the “Identifiers” section, add Identifier to match the URL of your website (Ex: `https://s1.<company>.com`)
 
 ![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360052376373_mceclip0.png)
 
-- On the “Endpoints” tab, create a SAML POST binding pointing towards the login URL (Ex: [https://s1.`<company>`.com/api/login)](/versioned_docs/privilegesecurefordiscovery_2.21/discovery)
+- On the “Endpoints” tab, create a SAML POST binding pointing towards the login URL (Ex: `https://s1.<company>.com/api/login`)
 
 ![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360052376373_mceclip0.png)
 
@@ -26,8 +26,8 @@ __Step 1 –__ Navigate to __Configure__ > __Server__.
 
 __Step 2 –__ As Privilege Secure is unable to perform Service Provider initiated (SP-initiated) logon, you must specified an Identity Provider initiated (IdP-intiatied) URL.
 
-- Entrypoint: [https://`<ADFS\_URL>`/adfs/ls/idpinitiatedsignon.aspx?LoginToRP=https://SecureONE\_URL](https://adfs_url/adfs/ls/idpinitiatedsignon.aspx?LoginToRP=https://SecureONE_URL)
-- Issuer: [http://`ADFS\_URL`/adfs/services/trust](http://adfs_url/adfs/services/trust)
+- Entrypoint: `https://<ADFS_URL>/adfs/ls/idpinitiatedsignon.aspx?LoginToRP=https://SecureONE_URL`
+- Issuer: `http://ADFS_URL/adfs/services/trust`
 - Issuer Cert: This is the Signing Certificate of your ADFS environment, excluding the headers (---BEGIN CERTIFICATE--- and ---END CERTIFICATE---)
 - SSO Enabled: Enabled
 
@@ -39,4 +39,4 @@ In order for F5 to work with ADFS a certificate trust must be configured between
 
 ## Troubleshooting
 
-If you are using ADFS as an authentication source and receive a "SAML Assertion Not Yet Valid" while trying to log in, please see:  [Configuring ADFS (Active Directory Federation Services) SSO](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/configuring_adfs_(active_directory_federation_services)_sso.md)
+If you are using ADFS as an authentication source and receive a "SAML Assertion Not Yet Valid" while trying to log in, please see:  the ADFS configuration steps above

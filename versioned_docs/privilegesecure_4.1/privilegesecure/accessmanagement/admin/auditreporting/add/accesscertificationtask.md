@@ -18,6 +18,6 @@ __Step 4 –__ Click Save to create the new access certification task.
 
 __Step 5 –__ With the new access certification task selected, configure the following settings:
 
-- Users – Add users or groups to the access certification task. See the [Add Users to Review](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/users.md#Add-Users-to-Review) section for more information.
+- Users – Add users or groups to the access certification task. See the [Add Users to Review](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/users.md#add-users-to-review) section for more information.
 
 The new task is added to the Access Certification Task list.

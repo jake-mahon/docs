@@ -12,4 +12,4 @@ There are three modes available:
 
 Each mode is assigned to a specific grouping of service methods, you can see which API functions are affected by clicking the “View Methods” link and edit the security mode by clicking the Edit link.
 
-[![webservicesecurity_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/webservicesecurity_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/webservicesecurity.png)
+[![webservicesecurity_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/webservicesecurity_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/webservicesecurity.png)

@@ -50,7 +50,7 @@ This information can be set one of two ways:
 
 ### PFX file
 
-The archive is set using the following attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#Configuration)):
+The archive is set using the following attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#configuration)):
 
 - __X509KeyFilePath__ is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system.
 - __X509KeyFilePassword__ (_optional_) is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.
@@ -69,7 +69,7 @@ The archive is set using the following attributes on the ```appsettings > Identi
 
 ### Certificate
 
-The certificate from a Windows certificate store is set up using these attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#Configuration)):
+The certificate from a Windows certificate store is set up using these attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#configuration)):
 
 | Name | Details |
 | --- | --- |
@@ -91,7 +91,7 @@ The certificate from a Windows certificate store is set up using these attribute
 ```
                 
 
-Usercube Server won't start if the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up during this step is identical to the one provided with the SDK. Users must provide their own certificate. [Self-signed certificates](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#Self-signed-certificates) are accepted as valid.
+Usercube Server won't start if the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up during this step is identical to the one provided with the SDK. Users must provide their own certificate. [Self-signed certificates](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#self-signed-certificates) are accepted as valid.
 
 ## Configuration Section Description
 
@@ -168,12 +168,12 @@ The ```IdentityServer``` section allows the following attributes:
 | IssuerURI   optional | Sets the unique name of this server instance. |
 | PostLogoutRedirectUri   optional | Sets a specific URI to which the user will be redirected after a successful logout. |
 | PublicOrigin   optional | Sets the origin name for this _Usercube Server_ instance. Useful if end-users authenticate through a proxy server. |
-| X509File   required | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
-| X509KeyFilePassword   optional | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
-| X509SubjectDistinguishedName   optional | Sets the store certificate's _SubjectDistinguishedName_ (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
-| _X509Thumbprint_    optional | Sets the store certificate's _Thumbprint_ (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
-| X509StoreLocation   required | Sets the relevant Windows certificate store's location (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
-| X509StoreName   required | Sets the relevant Windows certificate store's name (see [Public key certificate and private key](#Public-key-certificate-and-private-key)). |
+| X509File   required | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
+| X509KeyFilePassword   optional | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
+| X509SubjectDistinguishedName   optional | Sets the store certificate's _SubjectDistinguishedName_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
+| _X509Thumbprint_    optional | Sets the store certificate's _Thumbprint_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
+| X509StoreLocation   required | Sets the relevant Windows certificate store's location (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
+| X509StoreName   required | Sets the relevant Windows certificate store's name (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
 
 ### Authentication
 
@@ -212,7 +212,7 @@ Setting up this authentication method requires the following:
 
 - Usercube runs as an [Internet Information Services (IIS)](https://www.iis.net/) website.
 - Windows Authentication is [enabled on Windows server](https://www.microsoft.com/fr-fr/evalcenter/evaluate-windows-server-2016).
-- Windows Authentication is [enabled for the Usercube IIS website](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#enabled-for-the-Usercube-IIS-website).
+- Windows Authentication is [enabled for the Usercube IIS website](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#enabled-for-the-usercube-iis-website).
 
 ### Configuration
 
@@ -268,11 +268,11 @@ An __Open ID Connect__ provider is identified by its __Authority__, according to
 
 To authorize an end-user, _Usercube Server_ retrieves a specific claim (a key-value pair, transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource that matches this claim's value. The comparison is carried out according to [the resource and property set as the end-user's identity in the applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md).
 
-The name of the claim that is retrieved for this purpose defaults to ```sub``` which is one of [the standard _Claim names_ for the Open ID Connect protocol](https://openid.net/specs/openid-connect-core-1_0.html#the-standard-_Claim-names_-for-the-Open-ID-Connect-protocol). However, some providers might not fill the ```sub``` value with meaningful data, or use non-standard _Claim names_.
+The name of the claim that is retrieved for this purpose defaults to ```sub``` which is one of [the standard _Claim names_ for the Open ID Connect protocol](https://openid.net/specs/openid-connect-core-1_0.html#the-standard-_claim-names_-for-the-open-id-connect-protocol). However, some providers might not fill the ```sub``` value with meaningful data, or use non-standard _Claim names_.
 
 For this reason, the name of the claim that is retrieved by Usercube for authorization purposes can be set up according to the provider's specifics.
 
-See the [__NameClaimType__](#__NameClaimType__) configuration attribute.
+See the [__NameClaimType__](#__nameclaimtype__) configuration attribute.
 
 Users should be able to get a list of the claim names used by their authentication providers from their providers' portal website, documentation or administrators.
 
@@ -325,7 +325,7 @@ Under the new subsection, the following parameters are used to configure the aut
 | MetadataAddress   optional | URL address of a copy of the metadata, used when the authority metadata cannot be accessed from the Usercube server, for example because of a firewall. |
 | RequireHttpsMetadata   default value: true | __Type__    Boolean   __Description__ By default the authority metadata must use HTTPS. Set to `false to use a simple HTTP metadata, in case a local copy of the metadata is used or for test environment. |
 | ResponseMode   optional | __Type__    String   __Description__ Response mode for OpenIdConnect.   - ```Query``` - ```FormPost``` - ```Fragment```   [See OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html). |
-| ResponseType   optional | __Type__    String   __Description__ Response type for OpenIdConnect.   - ```Code``` - ```CodeIdToken``` - ```CodeIdTokenToken``` - ```CodeToken``` - ```IdToken``` - ```IdTokenToken``` - ```None``` - ```Token```   [See examples in the OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html#See-examples-in-the-OpenId-documentation). |
+| ResponseType   optional | __Type__    String   __Description__ Response type for OpenIdConnect.   - ```Code``` - ```CodeIdToken``` - ```CodeIdTokenToken``` - ```CodeToken``` - ```IdToken``` - ```IdTokenToken``` - ```None``` - ```Token```   [See examples in the OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html#see-examples-in-the-openid-documentation). |
 
 #### Example
 
@@ -458,8 +458,8 @@ One or several __WS-Federation__ authentication providers can be set up.
 
 Using a __WS-Federation__ authentication requires _Usercube Server_ to be registered to the provider. A __Wtrealm__ value is set up during the registration process. The value can be generated by the provider, or set manually as a URL-shaped string value. This allows Usercube to identify itself to the authentication provider. Here are two examples of registration process:
 
-- with an [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Active-Directory-Federation-Services) provider
-- with an [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Microsoft-Entra-ID) provider
+- with an [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services) provider
+- with an [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id) provider
 
 #### Callback URL
 
@@ -487,8 +487,8 @@ Each section is configured with the following settings:
 
 | Name | Details |
 | --- | --- |
-| MetadataAddress   required | Identifies, for Usercube, the target __WS-Federation__ server's metadata. This information is to be retrieved from the app registration process or directly from the __WS-Federation__ provider. The value commonly ends with the path ```/FederationMetadata/2007-06/FederationMetadata.xml```.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Active-Directory-Federation-Services), it is ```https://<ADFS_SERVER>/federationmetadata/2007-06/federationmetadata.xml``` with ```<ADFS_SERVER>``` the name of your ADFS server such ```portal.contoso.com```. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Microsoft-Entra-ID), it is also known as __Federation Metadata Document__. It is available in Usercube's registered app _blade_, in the _endpoint_ panel, _Federation Metadata Document_ value. It looks like ```https://bbd35166-7c13-49f3-8041-9551f2847b69/FederationMetadata/2007-06/FederationMetadata.xml``` with ```bbd35166-7c13-49f3-8041-9551f2847b69``` Microsoft Entra ID tenant id. |
-| Wtrealm   required | Identifies the Usercube app within the __WS-Federation__ provider. This information is available directly at the authentication provider's portal. It is chosen during the registration process.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Active-Directory-Federation-Services), it is the value set as the ```relying party WS-Federation Passive protocol URL``` parameter during the [registration](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#registration) of Usercube to the ADFS server. It usually looks like an URL such as ```https://portal.contoso.com```. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Microsoft-Entra-ID), this is the __Application ID URI__. It is available from _Usercube's registered app blade_ > _Expose an API_ > _APP ID URI_. It has been either chosen by the user or generated by the [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#Microsoft-Entra-ID) provider during the _Expose an API > set > save_ step of the registration. Generated values look like ```api://bbd35166-7c13-49f3-8041-9551f2847b69```. |
+| MetadataAddress   required | Identifies, for Usercube, the target __WS-Federation__ server's metadata. This information is to be retrieved from the app registration process or directly from the __WS-Federation__ provider. The value commonly ends with the path ```/FederationMetadata/2007-06/FederationMetadata.xml```.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services), it is ```https://<ADFS_SERVER>/federationmetadata/2007-06/federationmetadata.xml``` with ```<ADFS_SERVER>``` the name of your ADFS server such ```portal.contoso.com```. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id), it is also known as __Federation Metadata Document__. It is available in Usercube's registered app _blade_, in the _endpoint_ panel, _Federation Metadata Document_ value. It looks like ```https://bbd35166-7c13-49f3-8041-9551f2847b69/FederationMetadata/2007-06/FederationMetadata.xml``` with ```bbd35166-7c13-49f3-8041-9551f2847b69``` Microsoft Entra ID tenant id. |
+| Wtrealm   required | Identifies the Usercube app within the __WS-Federation__ provider. This information is available directly at the authentication provider's portal. It is chosen during the registration process.   - For [Active Directory Federation Services](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#active-directory-federation-services), it is the value set as the ```relying party WS-Federation Passive protocol URL``` parameter during the [registration](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#registration) of Usercube to the ADFS server. It usually looks like an URL such as ```https://portal.contoso.com```. - For [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id), this is the __Application ID URI__. It is available from _Usercube's registered app blade_ > _Expose an API_ > _APP ID URI_. It has been either chosen by the user or generated by the [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id) provider during the _Expose an API > set > save_ step of the registration. Generated values look like ```api://bbd35166-7c13-49f3-8041-9551f2847b69```. |
 | DisplayName   optional | Is the provider display name. Chosen by the user, it is used in the UI to identify the authentication method. |
 | AuthenticationScheme   required | Is the unique identifier of this authentication method within Usercube. Any string value can be used, unique among all authentication methods. |
 
@@ -567,7 +567,7 @@ Each section is configured with the following settings:
 | EntityIdAppliUriID   required | Is Usercube's __Entity ID__ issued during the registration process. Also referred to as an __Identifier URI__. For _Microsoft Entra ID_, it is set during the _Expose an API > set > save_ step of the registration. Generated values look like ```api://bbd35166-7c13-49f3-8041-9551f2847b69```. |
 | NameIdFormat   optional | Is the requested format of the subject's name identifier. |
 | MinIncomingSigningAlgorithm   optional | Is minimal signing algorithm to validate SAML2 response. |
-| EncryptionCertificate   optional | __Type__    [EncryptionCertificate](#EncryptionCertificate)    __Description__ Sets the location of the public key certificate and the private key used to handle input and output files encryption.   __Note:__ required to enable logout. |
+| EncryptionCertificate   optional | __Type__    [EncryptionCertificate](#encryptioncertificate)    __Description__ Sets the location of the public key certificate and the private key used to handle input and output files encryption.   __Note:__ required to enable logout. |
 > This example configures a SAML2-based authentication provider identified as _SAMLConnection_ in the configuration file.
 >
 > It will be displayed as _Connection Azure ActiveDirectory with SAML2 protocol_ in the UI external login prompt.
@@ -681,7 +681,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
 ## Set Up Internal Methods
 
-When _Internal Methods_ is enabled, the end-user is prompted via a _form_ to input a login and a password. The login to be used is defined within the [applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md#applicative-configurations-SelectUserByIdentityQueryHandlerSetting-element).
+When _Internal Methods_ is enabled, the end-user is prompted via a _form_ to input a login and a password. The login to be used is defined within the [applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md#applicative-configurations-selectuserbyidentityqueryhandlersetting-element).
 
 First, the ```AllowLocalLogin``` parameter needs to be set to ```true``` in the ```Authentication``` section.
 

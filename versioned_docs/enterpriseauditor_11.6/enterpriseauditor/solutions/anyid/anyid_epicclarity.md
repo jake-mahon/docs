@@ -12,7 +12,7 @@ The following are recommended configurations for the AnyID\_EpicClarity job:
 
 Dependencies
 
-The AnyID\_EpicClarity job requires a CSV file with a filepath configured in the job's query to collect data. See the [Configure the AnyID\_EpicClarity Queries](#Configure-the-AnyID_EpicClarity-Queries) topic for additional information.
+The AnyID\_EpicClarity job requires a CSV file with a filepath configured in the job's query to collect data. See the [Configure the AnyID\_EpicClarity Queries](#configure-the-anyid_epicclarity-queries) topic for additional information.
 
 Targeted Host
 
@@ -36,7 +36,7 @@ This job should be run based on the desired frequency of Sensitive Data Scans.
 
 Query Configuration
 
-This job contains configurable queries. See the Configure the [Configure the AnyID\_EpicClarity Queries](#Configure-the-AnyID_EpicClarity-Queries) topic for additional information.
+This job contains configurable queries. See the Configure the [Configure the AnyID\_EpicClarity Queries](#configure-the-anyid_epicclarity-queries) topic for additional information.
 
 Analysis Configuration
 
@@ -63,7 +63,7 @@ The queries are:
 - Epic Clarity Coverage – Imports Epic Clarity subject profile information on coverage
 - Epic Clarity Identity IDs – Imports Epic Clarity subject profile information on identity IDs
 
-The above queries have configurable parameters. See the [Configure the AnyID\_EpicClarity Queries](#Configure-the-AnyID_EpicClarity-Queries) topic for additional information.
+The above queries have configurable parameters. See the [Configure the AnyID\_EpicClarity Queries](#configure-the-anyid_epicclarity-queries) topic for additional information.
 
 ### Configure the AnyID\_EpicClarity Queries
 

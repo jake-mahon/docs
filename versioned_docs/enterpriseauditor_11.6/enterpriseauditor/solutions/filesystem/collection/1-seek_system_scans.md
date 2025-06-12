@@ -37,7 +37,7 @@ The following default configurations are commonly customized:
     - Tax Forms
     - US SSN
 
-See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the (SEEK) File System Scan Query](#Configure-the-SEEK-File-System-Scan-Query) topic for instructions.
+See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the (SEEK) File System Scan Query](#configure-the-seek-file-system-scan-query) topic for instructions.
 
 ### Configure the (SEEK) File System Scan Query
 

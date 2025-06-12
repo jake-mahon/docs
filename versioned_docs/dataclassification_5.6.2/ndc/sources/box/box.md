@@ -6,16 +6,16 @@ By default, configuration window displays basic configuration settings only. It 
 
 __NOTE:__ To configure advanced settings, your user account may need advanced privileges. [See Users and Security Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/security/users.md)
 
-[![addbox_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/box/addbox_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/addbox.png)
+[![addbox_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/box/addbox_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/addbox.png)
 
 Configure the following:
 
 | Setting | Description |
 | --- | --- |
 | __Basic settings__ |  |
-| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_box.md#Step-1-Create-the-App) (see #12). The program then parses this file so that many settings are filled in automatically. |
+| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_box.md#step-1-create-the-app) (see #12). The program then parses this file so that many settings are filled in automatically. |
 | Enterprise ID | Specifies the internal unique identifier for your Box account (filled in automatically). |
-| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_box.md#Step-1-Create-the-App)(Filled in automatically.) |
+| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_box.md#step-1-create-the-app)(Filled in automatically.) |
 | Client Secret | Will be generated when allowing access to the Netwrix Data Classification app. Is also known as the “App Key”. |
 | Public Key ID  Private Key  Private Key Password | Created when generating the trust between your Box account, and the Netwrix Data Classification app – these should be kept secret and secure. |
 | Write Classifications | Identifies whether classifications should be written back to the Box source documents. Classification results can either be written to classification templates or to the generic ‘tags’ property. This is specified using the __Write Configuration__ setting of the source. For more information, see [Use Tagging](/versioned_docs/dataclassification_5.6.2/ndc/sources/tagging.md) |

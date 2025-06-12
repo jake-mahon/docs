@@ -16,7 +16,7 @@ You can define the following policies for a role:
 
 In this way, you can create security roles with varying degrees of policy restrictions.
 
-NOTE: For users with multiple roles, the policies specified for the highest priority role apply (see [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority)). The _Search policy_,
+NOTE: For users with multiple roles, the policies specified for the highest priority role apply (see [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority)). The _Search policy_,
 _New Object policy_, and _Group Name Prefixes_ policy, however, apply with respect to all assigned roles. For example, if different search containers are specified for two different roles of a user, that
 user can search and view objects in both containers.
 

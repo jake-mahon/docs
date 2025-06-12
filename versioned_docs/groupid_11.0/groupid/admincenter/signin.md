@@ -6,10 +6,10 @@ and configure settings to get the application ready for use.
 
 What do you want to do?
 
-- [Sign In](#Sign-In)
-- [Sign Out](#Sign-Out)
-- [View the GroupID Version](#View-the-GroupID-Version)
-- [Modern Authentication Support](#Modern-Authentication-Support)
+- [Sign In](#sign-in)
+- [Sign Out](#sign-out)
+- [View the GroupID Version](#view-the-groupid-version)
+- [Modern Authentication Support](#modern-authentication-support)
 
 ## Sign In
 
@@ -40,9 +40,9 @@ __To sign in:__
    On the Windows Start menu, search for the GroupID 11.0 icon and double-click it to launch Admin Center in a browser window.
 2. You can sign in using any of the following methods:
 
-   - [With your Identity Store Account](#With-your-Identity-Store-Account)
-   - [With a SAML Provider](#With-a-SAML-Provider)
-   - [With QR Code](#With-QR-Code)
+   - [With your Identity Store Account](#with-your-identity-store-account)
+   - [With a SAML Provider](#with-a-saml-provider)
+   - [With QR Code](#with-qr-code)
 
 ### With your Identity Store Account
 

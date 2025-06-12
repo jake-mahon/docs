@@ -21,7 +21,7 @@ The Entitlements tab shows the activities associated with the users in the selec
   - Permissions – The permissions granted by the access policy
 - The entitlements tab has three buttons:
 
-  - Review (only enabled for the reviewer) – Opens the Review Activity Details window. See the [Review Entitlements](#Review-Entitlements) topic for additional information.
+  - Review (only enabled for the reviewer) – Opens the Review Activity Details window. See the [Review Entitlements](#review-entitlements) topic for additional information.
   - Commit (only enabled when all access has been reviewed) – Commits the modified access. Once the entitlements are committed, no further changes can be made and the task cannot be deleted.
   - Export Entitlements as CSV (only enabled when changes have been committed) – Export activity details as CSV
 

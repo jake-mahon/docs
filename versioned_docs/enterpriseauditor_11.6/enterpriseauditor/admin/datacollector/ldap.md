@@ -27,12 +27,12 @@ The LDAP Data Collector is configured through the LDAP template form. The LDAP t
 - Connect – Connects to the domain specified. The root folder of the domain is displayed in the left pane of the window.
 
   __NOTE:__ Before clicking __Connect__, the server port must be configured. To configure the server port, click __Options__ to open the Options window and configure the server port as described in the Options Window section.
-- Options – Opens the Options window to configure connection options and multi-value results options. See the [Options Window](#Options-Window) topic for additional information.
+- Options – Opens the Options window to configure connection options and multi-value results options. See the [Options Window](#options-window) topic for additional information.
 - List of attributes – Table in the upper right corner lists attributes for the object selected in the left pane
 - Root path – The Root path textbox is populated with the path to the highlighted attributes to be collected
-- LDAP filter – The LDAP filter textbox shows the filters applied to the objects. Click the ellipses (__…__) to open the Filter Options window. See the [Filter Options Window](#Filter-Options-Window) topic for additional information.
+- LDAP filter – The LDAP filter textbox shows the filters applied to the objects. Click the ellipses (__…__) to open the Filter Options window. See the [Filter Options Window](#filter-options-window) topic for additional information.
 
-The button bar provides additional options for selecting objects and attributes. See the [Button Bar](#Button-Bar) topic for additional information.
+The button bar provides additional options for selecting objects and attributes. See the [Button Bar](#button-bar) topic for additional information.
 
 ### Options Window
 
@@ -73,7 +73,7 @@ The Filter Options window is where to add filters to the query. Click the ellips
   - Computers
   - Printers
   - Shared Folders
-- Custom Filter – Applies a custom filter configured in the Custom Filter window. See the [Custom Filter Window](#Custom-Filter-Window) topic for additional information.
+- Custom Filter – Applies a custom filter configured in the Custom Filter window. See the [Custom Filter Window](#custom-filter-window) topic for additional information.
 
 #### Custom Filter Window
 

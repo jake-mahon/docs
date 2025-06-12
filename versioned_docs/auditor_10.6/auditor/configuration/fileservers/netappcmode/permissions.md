@@ -2,7 +2,7 @@
 
 Before you start creating a monitoring plan to audit your NetApp file storage system, plan for the account that will be used for data collection – it should meet the requirements listed below.
 
-If you want to authenticate with AD user account, you must enable it to access SVM through ONTAPI. See the [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#Create-Role-on-NetApp-Clustered-Data-ONTAP-8-or-ONTAP-9-and-Enabling-AD-User-Access) section for additional information.
+If you want to authenticate with AD user account, you must enable it to access SVM through ONTAPI. See the [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#create-role-on-netapp-clustered-data-ontap-8-or-ontap-9-and-enabling-ad-user-access) section for additional information.
 
 Review permissions for the account on the target server:
 
@@ -30,7 +30,7 @@ Review permissions for the account on the target server:
   | --- | --- |
   | - version - volume - vserver audit - vserver audit rotate-log - vserver cifs | readonly  readonly  all  all  readonly |
 
-See [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#Create-Role-on-NetApp-Clustered-Data-ONTAP-8-or-ONTAP-9-and-Enabling-AD-User-Access) section for additional information.
+See [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#create-role-on-netapp-clustered-data-ontap-8-or-ontap-9-and-enabling-ad-user-access) section for additional information.
 
 _Remember,_ that you can also assign the built-in vsadmin role instead of the permissions above.
 

@@ -36,7 +36,7 @@ Usercube needs the following data flows to be enabled:
 - The __Agents__ require opening HTTPS connections to the __Server__.
 - The __Agents__ require accessing __managed systems__.
 - All end-users' __browsers__ require opening HTTPS connections to the __Server__.
-- All end-users' __browsers__ require accessing the [authentication providers](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#authentication-providers).
+- All end-users' __browsers__ require accessing the [authentication providers](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication).
 - Some end-users' __browsers__ require opening HTTPS connections to the __Agents__.
 
   These connections are used to launch ```Jobs``` or use the ```Reset Password``` capabilities of some connectors. This requirement only applies to a few specific __administrator type profiles__.
@@ -75,7 +75,7 @@ In that case, the Usercube Agent can run directly within the Usercube Server pro
 
 ## Authentication
 
-End-users will be able to access Usercube after authentication. Several [authentication methods](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#authentication-methods) are available.
+End-users will be able to access Usercube after authentication. Several [authentication methods](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication) are available.
 
 ## Email Server
 

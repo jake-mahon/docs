@@ -2,8 +2,8 @@
 
 Perform the following procedures to configure audit:
 
-- [To configure auditing state, event categories and log](#To-configure-auditing-state-event-categories-and-log)
-- [To configure logs retention period](#To-configure-logs-retention-period)
+- To configure auditing state, event categories and log
+- [To configure logs retention period](#to-configure-logs-retention-period)
 
 To configure auditing state, event categories and log
 

@@ -18,7 +18,7 @@ If the entity type has no menu item in the given section, but the connector's me
 
 ## Child Elements
 
-- [MenuItemLocalization](#MenuItemLocalization) (optional) Localization for the created menu items.
+- [MenuItemLocalization](#menuitemlocalization) (optional) Localization for the created menu items.
 
 ### MenuItemLocalization
 

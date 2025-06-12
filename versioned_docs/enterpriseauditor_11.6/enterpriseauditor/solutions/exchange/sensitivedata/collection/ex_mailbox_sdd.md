@@ -28,7 +28,7 @@ The following query is included in the EX\_Mailbox\_SDD job:
     - Passwords
     - Tax Forms
     - US SSN
-- See the [Configure the EWSMailbox Data Collector for the EX\_Mailbox\_SDD Job](#Configure-the-EWSMailbox-Data-Collector-for-the-EX_Mailbox_SDD-Job) topic for additional information
+- See the [Configure the EWSMailbox Data Collector for the EX\_Mailbox\_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job) topic for additional information
 
 ### Configure the EWSMailbox Data Collector for the EX\_Mailbox\_SDD Job
 
@@ -66,7 +66,7 @@ __Step 7 –__ To modify criteria, navigate to the Criteria page. Add or remove 
 
 ![EWS Mailbox Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxfiltersettings.png)
 
-__Step 8 –__ To filter the scan to specific mailbox folders, navigate to the Filter page. Include or exclude folders and attachments as desired. See the [EWSMailbox Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md#EWSMailbox-Data-Collector) topic for additional information.
+__Step 8 –__ To filter the scan to specific mailbox folders, navigate to the Filter page. Include or exclude folders and attachments as desired. See the [EWSMailbox Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md#ewsmailbox-data-collector) topic for additional information.
 
 - To modify the threshold for message size, set the __Limit message size to__ value as desired. The default is 2000 KB.
 - To modify the threshold for large attachment size, set the __Limit attachment size to__ value as desired. The default is 2000 KB.

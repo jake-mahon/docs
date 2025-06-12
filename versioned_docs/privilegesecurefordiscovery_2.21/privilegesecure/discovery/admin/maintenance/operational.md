@@ -49,7 +49,7 @@ Test (suggested minimum yearly)
 ## Privilege Secure Log Review - SIEM (suggested weekly)
 
 - Typically a SIEM solution is best placed to report any issues that can be captured in Privilege Secure logs.
-- An example set of queries for Splunk is included here: [SIEM (Splunk + ) Querying Logs/Events](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/siem_(splunk_+_)_querying_logsevents.md)
+- An example set of queries for Splunk is included here: [Splunk and SIEM Queries](../../integrations/siem/splunkqueries.md)
 - The "change system policy" output should be reviewed for any removal of protect mode.
 - The "slow JITA access" and "time it takes for JITA access" can give an indication if users are being slowed down in their ability to elevate privilege when utilizing Privilege Secure.
 

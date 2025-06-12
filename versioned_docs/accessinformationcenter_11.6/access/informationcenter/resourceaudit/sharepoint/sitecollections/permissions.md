@@ -37,4 +37,4 @@ There is one table at the bottom displaying Compared to Parent permissions for t
 
 ![Compared to Parent table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissionstable.png)
 
-This table is blank unless an __Explicit Permissions__ icon is attached to the resource in the Resources pane. See the [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) topic for additional information. This table is comprised of the same columns as the primary report, with the exception that it does not have the __Roles__ column.
+This table is blank unless an __Explicit Permissions__ icon is attached to the resource in the Resources pane. See the [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report, with the exception that it does not have the __Roles__ column.

@@ -13,7 +13,7 @@ The process for configuration export varies according to the situation:
 
 ## Export the Configuration Locally
 
-Export your configuration by using the [```Export-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md#Export-Configuration-executable) and declaring at least:
+Export your configuration by using the [```Export-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md#export-configuration-executable) and declaring at least:
 
 - the directory where the configuration is to be exported to;
 - the connection string of the database.
@@ -68,7 +68,7 @@ Export a SaaS configuration by proceeding as follows:
 
    The administrator will add the identity information to the configuration of your Usercube instance, to allow the configuration deployment/export.
 
-4. Export the configuration by using the [```Export-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md#Export-Configuration-executable) and declaring at least:
+4. Export the configuration by using the [```Export-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md#export-configuration-executable) and declaring at least:
 
    - the configuration directory;
    - the API URL of your Usercube instance.

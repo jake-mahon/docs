@@ -21,7 +21,7 @@ A few grid display types used in the default portal template are:
 
 What do you want to do?
 
-- [Define a Grid Display Type](#Define-a-Grid-Display-Type)
+- [Define a Grid Display Type](#define-a-grid-display-type)
 
 ## Define a Grid Display Type
 

@@ -19,7 +19,7 @@ To configure GroupID in PingOne, follow these steps:
 7. You can choose to upload an image for the GroupID app. This image will be displayed on the PingOne dashboard. When a user signs into PingOne, he or she will be redirected to the dashboard that has GroupID and other applications listed for single sign-on.
 8. Click the __Continue to Next Step__ button.
 9. On the next page, make sure the __I have the SAML configuration__ tile is selected.
-10. Use the metadata file you generated for the _Wizard_ portal in GroupID to configure certain settings on this page. See the [Generate the Metadata File](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#Generate-the-Metadata-File) topic.  
+10. Use the metadata file you generated for the _Wizard_ portal in GroupID to configure certain settings on this page. See the [Generate the Metadata File](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#generate-the-metadata-file) topic.  
     Click the __Select File__ button next to __Upload Metadata__. Simply select the metadata file and it will be uploaded, thereby bringing in the required settings to configure the GroupID client _Wizard_ within PingOne. For example, the __Entity ID__ box is populated with the required URL.
 11. In the __Application URL__ box, copy the same URL as displayed in the __Assertion Consumer Service (ACS)__ box.
 12. Select the _Post_ option button for __Single Logout Binding Type__.
@@ -36,7 +36,7 @@ The next step is to specify an attribute that will be used to authenticate users
 2. Click the __Advanced__ button in this row; the __Advanced Attribute Options__ dialog box is displayed.
 3. In the __NameFormat__ drop-down list, select the first option, i.e., the one ending with _unspecified_.
 4. In the __IDP Attribute Name or Literal Value__ box, type or select the Active Directory attribute you want to use for authentication. For example, _E-mail_. This attribute facilitates user identification.  
-   To define users in PingOne, see the [Configure Users in PingOne](#Configure-Users-in-PingOne) topic.
+   To define users in PingOne, see the [Configure Users in PingOne](#configure-users-in-pingone) topic.
 5. In the __Function__ list, you can select the conversion methodology. For example, you can convert the first name or last name to upper case, lower case, or even use regular expressions. We will not use any conversion methodology here.
 6. Click __Save__ on the __Advanced Attribute Options__ dialog box.
 7. The specified attribute is displayed in the __Identity Bridge Attribute or Literal Value__ box in the __SSO Attribute Mapping__ area. Provide a user-friendly name for the attribute in the __Application Attribute__ box.
@@ -49,7 +49,7 @@ The next step is to specify an attribute that will be used to authenticate users
 
 ### Configure Users in PingOne
 
-You must define users in PingOne. These users are authenticated in GroupID on the basis of an attribute, as discussed in the [Attribute Mapping in PingOne](#Attribute-Mapping-in-PingOne) topic.
+You must define users in PingOne. These users are authenticated in GroupID on the basis of an attribute, as discussed in the [Attribute Mapping in PingOne](#attribute-mapping-in-pingone) topic.
 
 Only the users you define here can authenticate on the GroupID portal _Wizard_ using PingOne. See the [Sign In Using PingOne](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/signin.md) topic.
 

@@ -169,14 +169,14 @@ Some planning is needed to ensure a smooth upgrade from NPR V3.x. A trial run on
 
 ### Before You Begin
 
-The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 __The Web Interface files are overwritten during an upgrade. You must backup any customized Web Interface files before upgrading__. The Web Interface files are installed in the ```\Inetpub\wwwroot\pwreset\``` folder by default.
 
 __NOTE:__ A full backup of the NPR server(s) is recommended. This allows you to roll back to the previous version if the upgrade cannot be completed.  
 You may need to restart Windows after upgrading.
 
-If Password Reset was originally installed by someone else and you do not have their installation notes, then read the [Installation](#Installation) topic before you begin. Also make sure you know the password for the Password Reset Server service account as you will need it during the upgrade.
+If Password Reset was originally installed by someone else and you do not have their installation notes, then read the installation instructions above before you begin. Also make sure you know the password for the Password Reset Server service account as you will need it during the upgrade.
 
 ### Upgrading to V3.3
 
@@ -200,11 +200,11 @@ __Step 1 –__ Backup the NPR V2.x server(s).
 
 __Step 2 –__ Close the Data Console if it is open.
 
-__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 ### Upgrading to V3.23
 
-__Step 1 –__ Follow the steps for either [Single Server Installation](#Single-Server-Installation) or [Multiple Server Installation](#Multiple-Server-Installation). If the Web Interface is on a different server, then upgrade it as well.
+__Step 1 –__ Follow the steps for either [Single Server Installation](#single-server-installation) or [Multiple Server Installation](#multiple-server-installation). If the Web Interface is on a different server, then upgrade it as well.
 
 __Step 2 –__ Open the Data Console, and check the Audit Log and User tabs to make sure the data was imported.
 
@@ -240,7 +240,7 @@ __Step 8 –__ Click __OK__ twice, and then click __Apply__.
 
 __Step 9 –__ Start the Netwrix Password Reset service.
 
-__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#Backing-up-the-Database) topic for additional information.
+__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 Configure Password Reset Client to use IE11 emulation mode
 

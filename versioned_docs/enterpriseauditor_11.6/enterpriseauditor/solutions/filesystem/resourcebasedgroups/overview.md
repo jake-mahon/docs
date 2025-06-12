@@ -52,7 +52,7 @@ Targeted Hosts
 
 Schedule Frequency
 
-This job group can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](#Scheduling-the-Resource-Based-Groups-Job-Group) topic for additional information.
+This job group can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](#scheduling-the-resource-based-groups-job-group) topic for additional information.
 
 History Retention
 
@@ -60,6 +60,6 @@ Not supported
 
 ## Scheduling the Resource Based Groups Job Group
 
-Netwrix recommends that the job be run by a scheduled task with an unlimited timeout to ensure the job will not be aborted when an interactive session is ended due to logoff (a logoff based on inactivity is common in enterprise environments). Netwrix also recommends that the job only be scheduled for discrete one-time runs so that results may be reviewed after each execution. See the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#Schedule-Jobs) topic for additional information.
+Netwrix recommends that the job be run by a scheduled task with an unlimited timeout to ensure the job will not be aborted when an interactive session is ended due to logoff (a logoff based on inactivity is common in enterprise environments). Netwrix also recommends that the job only be scheduled for discrete one-time runs so that results may be reviewed after each execution. See the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#schedule-jobs) topic for additional information.
 
 Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization.

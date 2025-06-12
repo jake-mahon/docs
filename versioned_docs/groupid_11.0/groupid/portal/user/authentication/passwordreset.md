@@ -10,8 +10,8 @@ password in accordance with the password policies the GroupID administrator has 
 
 What do you want to do?
 
-- [Reset identity store account password (enrolled users)](#Reset-identity-store-account-password-enrolled-users)
-- [Reset identity store account password (unenrolled users)](#Reset-identity-store-account-password-unenrolled-users)
+- [Reset identity store account password (enrolled users)](#reset-identity-store-account-password-enrolled-users)
+- [Reset identity store account password (unenrolled users)](#reset-identity-store-account-password-unenrolled-users)
 
 ## Reset identity store account password (enrolled users)
 
@@ -153,7 +153,7 @@ What do you want to do?
 
      If you have not received a code, click __Send
      Again__ and then enter the received code in the given box.
-7. Follow the steps 6 - 12 in [Reset identity store account password (enrolled users)](#Reset-identity-store-account-password-enrolled-users) section to reset your password.
+7. Follow the steps 6 - 12 in [Reset identity store account password (enrolled users)](#reset-identity-store-account-password-enrolled-users) section to reset your password.
 
 __See Also__
 

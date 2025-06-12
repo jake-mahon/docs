@@ -8,8 +8,8 @@ The options on the Edit Query page are:
 
 - Open – Click to import and open a PowerShell script
 - Script Editor – Input PowerShell script to use for the configured job
-- Parameters – The Parameters tab located on the right-hand side of the Edit Query page is used to bring up the Parameters window. See the [Parameters](#Parameters) topic for additional information.
-- Use table input for PowerShell script – select the checkbox to bring up the Input options for the PowerShell script. See the [Input Options](#Input-Options) topic for additional information.
+- Parameters – The Parameters tab located on the right-hand side of the Edit Query page is used to bring up the Parameters window. See the [Parameters](#parameters) topic for additional information.
+- Use table input for PowerShell script – select the checkbox to bring up the Input options for the PowerShell script. See the [Input Options](#input-options) topic for additional information.
 
 ## Parameters
 
@@ -19,8 +19,8 @@ Add, edit, and delete parameters for the PowerShell data collector using the Par
 
 The options in the Parameters Window are:
 
-- Add – Add a parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#AddEdit-Variable-Window) topic for additional information.
-- Edit – Edit the selected parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#AddEdit-Variable-Window) topic for additional information.
+- Add – Add a parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
+- Edit – Edit the selected parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
 - Delete – Delete a parameter
 
 __NOTE:__ Only user created parameters can be edited or deleted. Pre-configured parameters cannot be edited or deleted.

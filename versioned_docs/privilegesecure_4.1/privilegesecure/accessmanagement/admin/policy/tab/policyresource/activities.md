@@ -12,14 +12,14 @@ The Activities tab has the following features:
   - All — Displays all activity for users and groups
   - Activity — Displays user activity
   - Activity Group — Displays group activity
-- Add — Opens the Add Activities and Activity Groups window. See the [Add Activities and Activity Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addactivitiesandactivitygroups.md#Add-Activities-and-Activity-Groups-Window) topic for additional information.
+- Add — Opens the Add Activities and Activity Groups window. See the [Add Activities and Activity Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addactivitiesandactivitygroups.md#add-activities-and-activity-groups-window) topic for additional information.
 - Remove — Removes the selected item from being associated with the policy
 - Refresh — Reload the information displayed
 
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Name — Displays the name of the activity . Click the link to view additional details. See the [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md#Activities-Page) topic for additional information.
+- Name — Displays the name of the activity . Click the link to view additional details. See the [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md#activities-page) topic for additional information.
 - Type — Classification of the activity. Click the link to view additional details.
 - Description — Description of the policy
 

@@ -4,7 +4,7 @@ You do not need to sign out of Admin Center in order to sign in with a different
 
 What do you want to do?
 
-- [Switch your Account](#Switch-your-Account)
+- [Switch your Account](#switch-your-account)
 
 ## Switch your Account
 

@@ -2,8 +2,8 @@
 
 The Top Navigation bars provide users quick access to various options and functions in Enterprise Auditor. The two parts of the Top Navigation section are:
 
-- [Menu Bar on the Console](#Menu-Bar-on-the-Console)
-- [Button Bar on the Console](#Button-Bar-on-the-Console)
+- [Menu Bar on the Console](#menu-bar-on-the-console)
+- [Button Bar on the Console](#button-bar-on-the-console)
 
 ## Menu Bar on the Console
 
@@ -47,7 +47,7 @@ The Menu Bar options are:
   - Execute:
     - Run Job or Group – Starts job execution for the selected job group or job
     - Stop Job or Group – Stops job execution for the selected job group or job
-    - Schedule – Opens the selected job’s Schedule window. See the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#Schedule-Jobs) topic for additional information.
+    - Schedule – Opens the selected job’s Schedule window. See the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#schedule-jobs) topic for additional information.
   - Queries:
     - Add from Library – Opens the Library to add a query to the selected job’s Query Selection view. See the Query Selection topic for additional information.
     - Create Query – Opens the Query Selection window to create a new query at the selected job’s Query Selection view

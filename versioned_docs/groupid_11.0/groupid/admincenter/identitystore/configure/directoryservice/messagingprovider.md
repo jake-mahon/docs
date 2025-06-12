@@ -25,11 +25,11 @@ When you create a mail-enabled group using GroupID, it will be created in Active
 
 What do you want to do?
 
-- [Set Microsoft Exchange as Messaging Provider](#Set-Microsoft-Exchange-as-Messaging-Provider)
-- [Set Office 365 as Messaging Provider](#Set-Office-365-as-Messaging-Provider)
-- [Set Google Workspace as Messaging Provider](#Set-Google-Workspace-as-Messaging-Provider)
-- [Set an External Provider to Create Email Addresses](#Set-an-External-Provider-to-Create-Email-Addresses)
-- [Do Not Set a Messaging Provider](#Do-Not-Set-a-Messaging-Provider)
+- [Set Microsoft Exchange as Messaging Provider](#set-microsoft-exchange-as-messaging-provider)
+- [Set Office 365 as Messaging Provider](#set-office-365-as-messaging-provider)
+- [Set Google Workspace as Messaging Provider](#set-google-workspace-as-messaging-provider)
+- [Set an External Provider to Create Email Addresses](#set-an-external-provider-to-create-email-addresses)
+- [Do Not Set a Messaging Provider](#do-not-set-a-messaging-provider)
 
 ## Set Microsoft Exchange as Messaging Provider
 

@@ -8,11 +8,11 @@ The following information highlights the new and enhanced features introduced in
 
 Here is a list of the new features in GroupID 11:
 
-- [General](#General)
-- [Admin Center](#Admin-Center)
-- [GroupID Portal](#GroupID-Portal)
-- [Synchronize](#Synchronize)
-- [Entitlement](#Entitlement)
+- [General](#general)
+- [Admin Center](#admin-center)
+- [GroupID Portal](#groupid-portal)
+- [Synchronize](#synchronize)
+- [Entitlement](#entitlement)
 
 ### General
 

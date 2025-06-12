@@ -9,9 +9,9 @@ The 5-SQL\_ServerSettings Job uses the SQL Data Collector for the following quer
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup19.png)
 
 - Configuration – Collects configuration properties
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the Configuration Query](#Configure-the-Configuration-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the Configuration Query](#configure-the-configuration-query) topic for additional information.
 - Server – Collects server properties
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the Server Query](#Configure-the-Server-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the Server Query](#configure-the-server-query) topic for additional information.
 - Connections – Returns connections to the instance
 - Asymmetric Key Size – Returns the asymmetric key size
 - Symmetric Key Encryption – Returns the symmetric key encryptions being used by the Instance

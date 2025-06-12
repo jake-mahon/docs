@@ -4,13 +4,13 @@ The AWS\_StaleRoles job provides details on roles that are considered stale. Hig
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AWS\_StaleRoles job has the following configurable parameter:
 
 - Days without login to consider an account stale
 
-See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#Customizable-Analysis-Tasks-for-the-AWS_StaleRoles-Job) topic for additional information.
+See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
 
 ## Analysis Tasks for the AWS\_StaleRoles Job
 
@@ -24,7 +24,7 @@ The following analysis tasks are selected by default:
 
 - Stale Role Details – Highlights the roles in AWS that are considered stale. Creates the AWS\_StaleRole\_Details table accessible under the job’s Results node.
 
-  - The number of days without login to consider an account stale can be customized. By default it is set to 60. See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#Customizable-Analysis-Tasks-for-the-AWS_StaleRoles-Job) topic for additional information.
+  - The number of days without login to consider an account stale can be customized. By default it is set to 60. See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
 - Stale Role Summary – Summarizes stale roles by AWS Account. Creates the AWS\_StaleRole\_Summary table accessible under the job’s Results node.
 
 ### Customizable Analysis Tasks for the AWS\_StaleRoles Job

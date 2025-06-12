@@ -1,6 +1,6 @@
 # Password Policy Client
 
-The Password Policy Client reduces user frustration and password related helpdesk calls by helping users to choose a compliant password. You do not have to install the Password Policy Client to use Password Policy Enforcer, but the [Similarity Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#Similarity-Rule) is only enforced if the PPC is installed.
+The Password Policy Client reduces user frustration and password related helpdesk calls by helping users to choose a compliant password. You do not have to install the Password Policy Client to use Password Policy Enforcer, but the [Similarity Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#similarity-rule) is only enforced if the PPC is installed.
 
 The PPC helps users to choose a compliant password by explaining the password policy to them, and by telling them why their password was rejected. If the PPC is not installed, then users will see the default Windows error message when their password is rejected.
 
@@ -28,7 +28,7 @@ You can install the PPC manually by running the Password Policy Enforcer install
 
 ### Create a Distribution Point
 
-A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System) path. You can use the distribution point you created earlier for Password Policy Enforcer to distribute the PPC. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installation.md#Automated-Installation-Advanced-Setup) topic for additional information.
+A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System) path. You can use the distribution point you created earlier for Password Policy Enforcer to distribute the PPC. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installation.md#automated-installation-advanced-setup) topic for additional information.
 
 If you did not create a distribution point for Password Policy Enforcer, then create one now.
 

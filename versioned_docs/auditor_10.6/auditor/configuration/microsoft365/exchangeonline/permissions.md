@@ -1,6 +1,6 @@
 # Permissions for Exchange Online Auditing
 
-Auditor allows you to audit Microsoft 365 organizations that have established modern authentication as their identity management approach, including support for [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks). To learn more about modern authentication, refer to the following Microsoft article: [What is modern authentication](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#What-is-modern-authentication).
+Auditor allows you to audit Microsoft 365 organizations that have established modern authentication as their identity management approach, including support for [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks). To learn more about modern authentication, refer to the following Microsoft article: [What is modern authentication](https://docs.microsoft.com/en-us/office365/enterprise/hybrid-modern-auth-overview#what-is-modern-authentication).
 
 In this scenario, Netwrix Auditor will access the cloud-based infrastructure via Microsoft Graph and other modern APIs, being authenticated through a pre-configured Microsoft Entra ID (formerly Azure AD) application with appropriate access permissions. So, you should register an Microsoft Entra ID app and provide its settings to Auditor  when configuring a monitored item.
 
@@ -8,17 +8,17 @@ In this scenario, Netwrix Auditor will access the cloud-based infrastructure via
 
 Follow the steps to use a data collecting account with modern authentication.
 
-__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Create-and-Register-a-New-App-in-Microsoft-Entra-ID) topic for additional information.
+__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id) topic for additional information.
 
 __NOTE:__ After you start a new monitoring plan and select a data source in the first step, you will be asked to enter a default data collection account. However, this step is not needed for Exchange Online as it cannot be used. Thus, there is no need to grant any permissions to this account. Instead, you will need to configure a modern authentication app and give the necessary permissions there.
 
-__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Grant-Required-Permissions) topic for additional information.
+__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-permissions) topic for additional information.
 
-__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Grant-Required-Roles) topic for additional information.
+__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-roles) topic for additional information.
 
-__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Configure-Client-Secret) topic for additional information.
+__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#configure-client-secret) topic for additional information.
 
-__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#Obtain-the-Tenant-Name) topic for additional information.
+__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/modernauth.md#obtain-the-tenant-name) topic for additional information.
 
 ## Non-owner Mailbox Access Audit: Automatic Configuration
 
@@ -40,12 +40,12 @@ __Step 5 –__
 Proceed with adding the permissions for this app: select __Application permissions__ and then select __Exchange.ManageAsApp__.
 
 __Step 6 –__ Grant admin consent to the tenant (that is, for the Office 365 organization whose audit data will be collected by the newly registered app).
-Go to the __new app settings > API permissions__ and click __Grant admin consent for___`<tenant name>`_.
+Go to the __new app settings > API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm granting, click __Yes__.
 
 __Step 7 –__ Go to __Azure Active Directory__ — __Roles and administrators__ and assign __Exchange Administrator__ role.
 
-__Step 8 –__ Download the PowerShell script for certificate creation, as provided in the [Generate a self-signed certificate ](https://docs.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps#Generate-a-self-signed-certificate)Microsoft article.
+__Step 8 –__ Download the PowerShell script for certificate creation, as provided in the [Generate a self-signed certificate ](https://docs.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps#generate-a-self-signed-certificate)Microsoft article.
 
 __Step 9 –__ To create a self-signed certificate to be used by the app, run the following command:
 
@@ -65,7 +65,7 @@ __Step 10 –__ When prompted to specify a password, click __Enter__.
 
 __Step 11 –__ Go to __Manage > Certificates & secrets__, click __Upload certificate__ and upload the_.crt_ file you have just created.
 
-[](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)[![certificates_secrets](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/certificates_secrets.png)](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)
+[](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)![certificates_secrets](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/certificates_secrets.png)
 
 __Step 12 –__ To create Exchange Online connection session, you can provide certificate file path or thumbprint. If you want to use a file path, run the following command:
 
@@ -121,4 +121,4 @@ __Step 3 –__ Run the cmdlet, depending on the mailboxes you plan to audit (all
 | For | Command |
 | --- | --- |
 | All | Execute the following cmdlet:  Get-ExoMailbox -PropertySets Minimum -RecipientTypeDetails UserMailbox,SharedMailbox,EquipmentMailbox,LinkedMailbox,RoomMailbox | Set-Mailbox -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create |
-| Selected | Execute the following cmdlet:  Set-Mailbox -Identity `{0}` -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create  Where the _`{0}`_ character must be replaced with any of the following:   - Display Name. Example: "Michael Jones" - Domain\User. Example: enterprise.local\MJones - Email address. Example: analyst@enterprise.onmicrosoft.com - GUID. Example: {c43a7694-ba06-46d2-ac9b-205f25dfb32d} - LegacyExchangeDN. Example: /o=EnterpriseDev/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=97da560450c942aba     81b2da46c60858a-analyst - SamAccountName. Example: MANAG58792-1758064122 - (DN) Distinguished name. Example: CN=MJones,CN=Users,DC=enterprisedc1,DC=enterprise,DC=local - User ID or User Principal Name. Example: MJones@enterprise.onmicrosoft.com   If you are going to audit multiple individual mailboxes, run the cmdlet for each mailbox you need. |
+| Selected | Execute the following cmdlet:  Set-Mailbox -Identity `{0}` -AuditEnabled $true –AuditAdmin Update,Copy,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create –AuditDelegate Update,Move,MoveToDeletedItems,SoftDelete,HardDelete,FolderBind,SendAs,SendOnBehalf,Create  Where the _`{0}`_ character must be replaced with any of the following:   - Display Name. Example: "Michael Jones" - Domain\User. Example: enterprise.local\MJones - Email address. Example: analyst@enterprise.onmicrosoft.com - GUID. Example: `{c43a7694-ba06-46d2-ac9b-205f25dfb32d}` - LegacyExchangeDN. Example: /o=EnterpriseDev/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=97da560450c942aba     81b2da46c60858a-analyst - SamAccountName. Example: MANAG58792-1758064122 - (DN) Distinguished name. Example: CN=MJones,CN=Users,DC=enterprisedc1,DC=enterprise,DC=local - User ID or User Principal Name. Example: MJones@enterprise.onmicrosoft.com   If you are going to audit multiple individual mailboxes, run the cmdlet for each mailbox you need. |

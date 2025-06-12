@@ -14,7 +14,7 @@ Each Password Policy Enforcer policy must have a unique name. To change the name
 
 Password Policy Enforcer only enforces enabled policies. Select the __Enabled__ check box if Password Policy Enforcer should enforce this policy, or deselect it to disable the policy. The policy's icon in the left pane of the management console changes to an X icon when a policy is disabled.
 
-__NOTE:__ A user's password history may be updated even when the policy assigned to the user is disabled. See the [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md#Rules) topic for additional information.
+__NOTE:__ A user's password history may be updated even when the policy assigned to the user is disabled. See the [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md) topic for additional information.
 
 The __Default character set__ drop-down list specifies which character set Password Policy Enforcer will use to enforce its rules. The default value (Netwrix Password Policy Enforcer) requires users to comply with rules that use the Password Policy Enforcer character set. Choose the alternate option (Windows) to have users comply with rules that use the Windows character set.
 
@@ -28,7 +28,7 @@ __CAUTION:__ This value should not be changed while using PPE9.x clients, APR 3.
 
 The __Reject passwords that do not comply with__ drop-down list specifies the required compliance level for this policy. The default value (all the rules) requires users to comply with all enabled rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient password policy. The Minimum Age and Maximum Age rules are excluded from compliance level calculations. See the [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md) topic for additional information.
 
-When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the [Policy Properties](#Policy-Properties) topic for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
+When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the Passphrases section below for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
 
 Password Policy Enforcer can start a password synchronization application or script whenever a user successfully changes their password. Enter the full path to the executable in the __Execute this program when a password is changed__ text box. The path can contain environment variables like ```%SystemRoot%```. Every computer running Password Policy Enforcer should have a local copy of the program, and only authorized users should have access to it, or any of its components.
 

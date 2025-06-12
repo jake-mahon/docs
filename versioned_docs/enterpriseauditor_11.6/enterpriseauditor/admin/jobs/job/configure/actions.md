@@ -24,7 +24,7 @@ The Actions section at the top has five options:
   - This action does require confirmation
 - Action Properties – Opens the Action Properties window for the selected action task
 
-  - See the [Action Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md#Action-Properties-Page) topic for additional information
+  - See the [Action Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md#action-properties-page) topic for additional information
   - See the [Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md) topic for additional information
 
   __NOTE:__ The AutoAction task appears in the Analysis Selection view, not in the Action Selection view.

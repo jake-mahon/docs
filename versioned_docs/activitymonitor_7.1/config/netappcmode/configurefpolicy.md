@@ -4,8 +4,8 @@ Activity Monitor relies on the NetApp FPolicy framework for monitoring of file a
 
 There are two ways to configure FPolicy:
 
-- Activity Monitor agent can facilitate the [Automatic Configuration of FPolicy](#Automatic-Configuration-of-FPolicy) for the monitored SVM using the ONTAP API. This mode is simple, but does not allow you to exclude certain volumes or shares of the SVM from being monitored. It also requires additional permissions to create and modify FPolicy.
-- Another option is to [Manually Configure FPolicy](#Manually-Configure-FPolicy) for each SVM. This mode allows you to fine tune FPolicy by excluding certain volumes or shares from being monitored. It also reduces product permissions.
+- Activity Monitor agent can facilitate the [Automatic Configuration of FPolicy](#automatic-configuration-of-fpolicy) for the monitored SVM using the ONTAP API. This mode is simple, but does not allow you to exclude certain volumes or shares of the SVM from being monitored. It also requires additional permissions to create and modify FPolicy.
+- Another option is to [Manually Configure FPolicy](#manually-configure-fpolicy) for each SVM. This mode allows you to fine tune FPolicy by excluding certain volumes or shares from being monitored. It also reduces product permissions.
 
 Regardless of the chosen approach for FPolicy configuration, one also needs to perform extra steps if the FPolicy communication has to be secured with TLS.
 
@@ -204,7 +204,7 @@ IMPORTANT:
 
     - For CIFS shares – ``` StealthAUDITScreeningCifs``` for successful events; ```StealthAUDITScreeningFailedCifs``` for failed events.
     - For NFS shares – ```StealthAUDITScreeningNfsV3, StealthAUDITScreeningNfsV4``` for successful events; ```StealthAUDITScreeningFailedNfsV3, StealthAUDITScreeningFailedNfsV4``` for failed events.  
-      The names of the event objects can be customized (see [Customization of FPolicy Object Names](#Customization-of-FPolicy-Object-Names)).
+      The names of the event objects can be customized (see [Customization of FPolicy Object Names](#customization-of-fpolicy-object-names)).
   - ```volume-operation true```
   - ```protocol``` – one of the following ```cifs```, ```nfsv3```, ```nfsv4```
   - ```monitor-fileop-failure``` – ```true ```or ```false```, indicates whether failed file operations are reported.
@@ -327,7 +327,7 @@ IMPORTANT:
 - The External Engine and FPolicy Event used in this command must be the External Engine created in Part 2 and the FPolicy Event created in Part 3 from the previous steps.
 - The following values are required:
 
-  - ```policy-name StealthAUDIT```, the name of the policy object can be customized (see [Customization of FPolicy Object Names](#Customization-of-FPolicy-Object-Names)).
+  - ```policy-name StealthAUDIT```, the name of the policy object can be customized (see [Customization of FPolicy Object Names](#customization-of-fpolicy-object-names)).
 - The following values are required for Enterprise Auditor integration:
 
   - ```privileged-user-name```, which must be a provisioned FPolicy account

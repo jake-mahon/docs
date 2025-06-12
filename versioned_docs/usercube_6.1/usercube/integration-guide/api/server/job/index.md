@@ -1,6 +1,6 @@
 # Job
 
-### /api/Job/Job/RunJob/{id}
+### /api/Job/Job/RunJob/`{id}`
 
 #### Post
 
@@ -13,7 +13,7 @@ Runs Job.
 | Name | Description | Required | Type | Reference |
 | --- | --- | --- | --- | --- |
 | id | Identifier of the Job to run automaton. | True |  |  |
-| jobLogLevel | Override the serilog LogLevel. | False |  | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#LogLevel) |
+| jobLogLevel | Override the serilog LogLevel. | False |  | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#loglevel) |
 | api-version | The requested API version | True |  |  |
 
 ##### Responses:
@@ -58,7 +58,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/Job/{id}
+### /api/Job/Job/`{id}`
 
 #### Get
 
@@ -161,7 +161,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/JobInstance/{id}
+### /api/Job/JobInstance/`{id}`
 
 #### Get
 
@@ -248,7 +248,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/JobStep/{id}
+### /api/Job/JobStep/`{id}`
 
 #### Get
 
@@ -335,7 +335,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/Task/{id}
+### /api/Job/Task/`{id}`
 
 #### Get
 
@@ -422,7 +422,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/TaskDependOnTask/{id}
+### /api/Job/TaskDependOnTask/`{id}`
 
 #### Get
 
@@ -509,7 +509,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/TaskDimension/{id}
+### /api/Job/TaskDimension/`{id}`
 
 #### Get
 
@@ -596,7 +596,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/TaskEntityType/{id}
+### /api/Job/TaskEntityType/`{id}`
 
 #### Get
 
@@ -683,7 +683,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/TaskInstance/{id}
+### /api/Job/TaskInstance/`{id}`
 
 #### Get
 
@@ -770,7 +770,7 @@ Runs Job.
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /api/Job/TaskResourceType/{id}
+### /api/Job/TaskResourceType/`{id}`
 
 #### Get
 

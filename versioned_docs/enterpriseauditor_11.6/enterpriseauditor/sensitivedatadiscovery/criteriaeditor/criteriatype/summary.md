@@ -11,7 +11,7 @@ Click __Add__ and select __Summary__ to add a new Summary criteria to the Requir
 The options on the Summary criteria configuration page are:
 
 - Name – Name of the Summary sub-criteria
-- Test Criteria – Opens the Criteria Tester window to test current Summary criteria configurations. See the [Criteria Tester Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md#Criteria-Tester-Window) topic for additional information.
+- Test Criteria – Opens the Criteria Tester window to test current Summary criteria configurations. See the [Criteria Tester Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md#criteria-tester-window) topic for additional information.
 - Required matched criteria – Lists sub-criteria configured for currently selected criteria in the navigation pane. The columns in the table are:
 
   - Name – Name of the sub-criteria

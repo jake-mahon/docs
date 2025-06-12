@@ -11,6 +11,6 @@ On the Scan Server Selection wizard page, select either of the following options
 - Specific Remote Server – Assigns the data collection processing to the server specified in the textbox
 - Specific Remote Servers by Host List – Assigns the data collection processing to the proxy servers in the host list selected within the wizard via the __Select Hosts Lists__ button
 
-See the [FSAA Query Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md#FSAA-Query-Configuration) topic for additional information.
+See the [FSAA Query Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md#fsaa-query-configuration) topic for additional information.
 
 ___RECOMMENDED:___ When choosing to use proxy mode as a service for any of the File System Solution __…System Scans__ jobs, set proxy mode as a service for all of the __…System Scans__ jobs that are scheduled to run together.

@@ -81,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 |  |  |
 | --- | --- |
 | MicrosoftAuthorityPath   optional | __Type__    String   __Description__ Pattern for Microsoft Authority Path. |
-| MicrosoftGraphPath   default value: ```https://graph.microsoft.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API.   __Note:__ for this flow (client credentials), the scope should be of the form __`{ResourceIdUri/.default}`__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#See-Microsofts-documentation). |
+| MicrosoftGraphPath   default value: ```https://graph.microsoft.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API.   __Note:__ for this flow (client credentials), the scope should be of the form __`{ResourceIdUri/.default}`__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#see-microsofts-documentation). |
 | MicrosoftGraphPathApi   default value: ```https://graph.microsoft.com/v1.0/``` | __Type__    String   __Description__ Microsoft Graph Uri API. |
 
 ### Output details
@@ -136,7 +136,7 @@ This connector is meant to generate the following files:
     
   A task can use the ```IgnoreCookieFile``` boolean property, and a command line (with an executable) can use the option ```--ignore-cookies```.
 
-The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportCookies) folder.
+The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#exportcookies) folder.
 
 For more details, [see Microsoft's documentation on columns and attributes synchronized to Microsoft Entra ID](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
@@ -146,7 +146,7 @@ This connector writes to the Microsoft Entra ID, to create, update and delete Mi
 
 ### Configuration
 
-[Same as for export](#Same-as-for-export), fulfill is configured through connections.
+[Same as for export](#same-as-for-export), fulfill is configured through connections.
 
 > For example:
 >
@@ -188,7 +188,7 @@ This connector can create a new resource, and update and delete any Microsoft En
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#See-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
 
 ### Credential protection
 

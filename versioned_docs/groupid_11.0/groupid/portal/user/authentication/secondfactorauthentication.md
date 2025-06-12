@@ -17,13 +17,13 @@ GroupID supports seven authentication types for second factor authentication. Th
 
 GroupID supports the following authentication types:
 
-- [Security Questions Authentication](#Security-Questions-Authentication)
-- [SMS Verification](#SMS-Verification)
-- [Email Verification](#Email-Verification)
-- [Authenticator app](#Authenticator-app)
-- [Link Account authentication](#Link-Account-authentication)
-- [YubiKey authentication](#YubiKey-authentication)
-- [Windows Hello authentication](#Windows-Hello-authentication)
+- [Security Questions Authentication](#security-questions-authentication)
+- [SMS Verification](#sms-verification)
+- [Email Verification](#email-verification)
+- [Authenticator app](#authenticator-app)
+- [Link Account authentication](#link-account-authentication)
+- [YubiKey authentication](#yubikey-authentication)
+- [Windows Hello authentication](#windows-hello-authentication)
 
 ### Security Questions Authentication
 

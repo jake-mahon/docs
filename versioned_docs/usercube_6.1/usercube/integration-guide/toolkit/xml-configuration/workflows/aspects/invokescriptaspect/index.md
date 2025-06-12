@@ -20,7 +20,7 @@ The following example executes the script ```aspect.ps1``` on the local agent, w
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the aspect. |
 | Agent   optional | __Type__    String   __Description__   Agent on which the script will be launched. |
 | ExpressionBinding   optional | __Type__    String   __Description__   Binding:   - that defines the variable type used in the potential expressions specified in the aspect;   - whose difference with ```Binding``` defines the property involved in the aspect.   __Note:__ required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
-| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
 | Priority   default value: 0 | __Type__    Int32   __Description__   Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.   __Note:__ the priority can be a negative value. |
 | ScriptFile   optional | __Type__    String   __Description__   Path of the script file to be executed by the aspect. |
 

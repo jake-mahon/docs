@@ -16,7 +16,7 @@ The following analysis tasks are selected by default:
 
 - File Metrics Details – Creates the Box\_FileMetrics\_Details table accessible under the job’s Results node
   - Set to consider content stale after 30 days which is the @STALETHRESHOLD parameter value
-  - See the [Customize Analysis Tasks for the Box\_FileMetrics Job](#Customize-Analysis-Tasks-for-the-Box_FileMetrics-Job) topic for additional information.
+  - See the [Customize Analysis Tasks for the Box\_FileMetrics Job](#customize-analysis-tasks-for-the-box_filemetrics-job) topic for additional information.
 - File Count by User – Creates the Box\_FileMetrics\_UserFileCount table accessible under the job’s Results node
 - Total File Size by User – Creates the Box\_FileMetrics\_UserFileSize table accessible under the job’s Results node
 - File Counts by File Extension – Creates the Box\_FileMetrics\_ExtFileCount table accessible under the job’s Results node

@@ -19,7 +19,7 @@ __Step 1 –__ Create a monitoring plan with the wizard. Select the data source 
 
 __Step 2 –__ Fine-tune data source settings, if necessary: use the data source properties to modify data collection settings, customize the monitoring scope, and more.
 
-__Step 3 –__ Add items to be monitored. An item is a specific object you want to audit, e.g., a VMware server or a SharePoint farm. As soon as the item is added, to the monitoring plan, Auditor starts collecting data from it. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+__Step 3 –__ Add items to be monitored. An item is a specific object you want to audit, e.g., a VMware server or a SharePoint farm. As soon as the item is added, to the monitoring plan, Auditor starts collecting data from it. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 __Step 4 –__  To view and modify your plans, in the main Auditor window click the Monitoring Plans tile, then expand the All Monitoring Plans tree.
 
@@ -28,7 +28,7 @@ __Step 4 –__  To view and modify your plans, in the main Auditor window click 
 | See how data collection goes on | Click on a plan name. You will see all data sources included in the plan and data collection status for each data source. |
 | Start data collection manually | 1. Select a plan and click Edit. 2. In the monitoring plan window, click Update in the right pane.   Data collection will be started (status for the data sources will be displayed as _Working_).    Do the same if you need to generate Activity Summary with the latest changes. |
 | View collected data | 1. Select a plan and click Edit. 2. In the right pane, go to the Intelligence section (in the bottom) and click Search.   The search page will appear, displaying the collected data filtered out accordingly (i.e. provided by this monitoring plan). |
-| Modify plan settings, add or delete data sources, add or delete items | Select a plan and click Edit. On the page that opens, review your plan settings. Then follow the instructions described in these sections:   - [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasource.md) - [Fine-Tune Your Plan and Edit Settings](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/finetune.md) |
+| Modify plan settings, add or delete data sources, add or delete items | Select a plan and click Edit. On the page that opens, review your plan settings. Then follow the instructions described in these sections:   - Add Items for Monitoring - [Fine-Tune Your Plan and Edit Settings](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/finetune.md) |
 | Assign roles | Click Delegate to review current delegations and assign roles. You can delegate control over a monitoring plan to another administrator, or grant read access—Reviewer role—to the data collected by this plan.  To simplify delegation, you can further organize the monitoring plans into folders.  See the [Role-Based Access and Delegation](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/delegation.md) topic for additional information. |
 
 ## Using historical data

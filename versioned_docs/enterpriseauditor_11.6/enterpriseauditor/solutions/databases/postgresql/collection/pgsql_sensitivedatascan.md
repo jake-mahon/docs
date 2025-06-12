@@ -26,13 +26,13 @@ __CAUTION:__ Do not make changes to other wizard pages as they have been pre-con
 
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.png)
 
-__Step 4 –__ To modify sensitive data scan options, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md#SQL-Data-Collector) page. Select the desired scan options.
+__Step 4 –__ To modify sensitive data scan options, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md#sql-data-collector) page. Select the desired scan options.
 
 __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
 ![Select DLP Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.png)
 
-__Step 5 –__ To modify criteria, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md#SQL-Data-Collector) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__Step 5 –__ To modify criteria, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md#sql-data-collector) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 ![Filters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.png)
 

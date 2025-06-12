@@ -7,7 +7,7 @@ The Connection Profiles page is accessible from the Navigation pane under Policy
 The pane on the left side of the page displays a list of the configured connection profiles. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Blue + button — Create a new connection profile. See the [Add Connection Profile](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofile.md#Add-Connection-Profile) topic for additional information.
+- Blue + button — Create a new connection profile. See the [Add Connection Profile](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofile.md#add-connection-profile) topic for additional information.
 - Trashcan icon — Deletes the connection profile. Icon appears when profile is hovered over. A confirmation window will display.
 
 The selected profile details display in the main pane:
@@ -24,9 +24,9 @@ The selected profile details display in the main pane:
 
   - Max Duration (minutes) — Length of time that sessions will be scheduled for when making a new Activity Request
   - Session End Notification (minutes) — Determines the time prior to the end of the session that the requestor will be notified within their RDP or SSH clients. This option will work whether the requestor logs on directly to the Resource, or connects via the proxy.
-  - Enable Session Extension — Check to allow user to extend their current session. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#Start-Activity-Session) topic for additional information.
-  - Extend By — The additional number of minutes that the session will be extended. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#Start-Activity-Session) topic for additional information.
-  - Session Extension Limit — The number of times the user will be able to extend their session. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#Start-Activity-Session) topic for additional information.
+  - Enable Session Extension — Check to allow user to extend their current session. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#start-activity-session) topic for additional information.
+  - Extend By — The additional number of minutes that the session will be extended. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#start-activity-session) topic for additional information.
+  - Session Extension Limit — The number of times the user will be able to extend their session. See the [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md#start-activity-session) topic for additional information.
   - Monitor for Logon — Monitor user logon to the resource
   - Monitor Interval (minutes) — Indicates how often Privilege Secure will poll a resource to determine whether a user has logged on
   - LSA Lookup Cache — Controls the size of the SID Lookup cache. Disabling the cache is useful for managed domain accounts with the “Delete After Use” option enabled:
@@ -58,6 +58,6 @@ The selected profile details display in the main pane:
 - Approval Workflow settings:
 
   - Automatic – No approval is required for the session
-  - Tiered – Approval is required for the session. See the [Add Approval Workflow](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md#Add-Approval-Workflow) topic for additional information.
+  - Tiered – Approval is required for the session. See the [Add Approval Workflow](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md#add-approval-workflow) topic for additional information.
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click __Save__ to commit the modifications. Click __Cancel__ to discard the modifications.

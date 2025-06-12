@@ -6,8 +6,8 @@ The Allowed Members tab shows the configuration options for managing the groups 
 
 The Allowed Members tab has the following features:
 
-- Add Group — Opens the Add Protected Group and Member window. See the [Add Groups to a Protection Policy](#Add-Groups-to-a-Protection-Policy) topic for additional information.
-- Edit Members — Opens the Edit Protected Group Members window to edit the selected group within the protection policy. See the [Edit Protected Group Members](#Edit-Protected-Group-Members) topic for additional information.
+- Add Group — Opens the Add Protected Group and Member window. See the [Add Groups to a Protection Policy](#add-groups-to-a-protection-policy) topic for additional information.
+- Edit Members — Opens the Edit Protected Group Members window to edit the selected group within the protection policy. See the [Edit Protected Group Members](#edit-protected-group-members) topic for additional information.
 
 The table has the following columns:
 

@@ -6,8 +6,8 @@ Switch to Advanced mode to review your current search in details and modify it i
 
 Review the following for additional information:
 
-- [Apply Additional Filters](#Apply-Additional-Filters)
-- [Search Conditions](#Search-Conditions)
+- [Apply Additional Filters](#apply-additional-filters)
+- [Search Conditions](#search-conditions)
 
 ## Apply Additional Filters
 
@@ -35,7 +35,7 @@ Expand the Filter list to find additional filters or filter values. The most com
 
 When you apply filters at search, you can specify operators that should be used as conditions for data you want to retrieve and compare with the certain filter value. A condition can be, for example, Contains, Starts with, and so on.
 
-[![advancedfilters](/img/versioned_docs/auditor_10.6/auditor/admin/search/advancedfilters.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/advancedfilters.png)
+![advancedfilters](/img/versioned_docs/auditor_10.6/auditor/admin/search/advancedfilters.png)
 
 The following operators can be used to specify search conditions:
 

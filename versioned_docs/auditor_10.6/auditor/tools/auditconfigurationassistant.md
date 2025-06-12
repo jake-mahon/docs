@@ -8,7 +8,7 @@ You can instruct the utility to automatically apply the required settings.
 
 For that, you should ensure that the account you plan to use for accessing the target domain has the necessary rights.
 
-__Audit Configuration Assistant__ is a part of Netwrix Auditor product setup. It is installed together with the Auditor client and can be launched from the __Start__ menu >__Netwrix Auditor__ >__Netwrix Auditor Audit Configuration Assistant__. Alternatively, you can launch this utility from the monitoring plan wizard for Active Directory data source. See the [Launch Audit Configuration Assistant](#Launch-Audit-Configuration-Assistant) section for additional information.
+__Audit Configuration Assistant__ is a part of Netwrix Auditor product setup. It is installed together with the Auditor client and can be launched from the __Start__ menu >__Netwrix Auditor__ >__Netwrix Auditor Audit Configuration Assistant__. Alternatively, you can launch this utility from the monitoring plan wizard for Active Directory data source. See the [Launch Audit Configuration Assistant](#launch-audit-configuration-assistant) section for additional information.
 
 Currently, the utility supports Active Directory and Logon Activity data sources.
 
@@ -26,10 +26,10 @@ You can create a dedicated account for the assessment purposes, include it in th
 
 To assess and adjust the audit settings with Audit Configuration Assistant, take the following steps:
 
-1. [Launch Audit Configuration Assistant](#Launch-Audit-Configuration-Assistant)
-2. [Start Assessment](#Start-Assessment)
-3. [View Results](#View-Results)
-4. [Complete the process](#Complete-the-process)
+1. [Launch Audit Configuration Assistant](#launch-audit-configuration-assistant)
+2. [Start Assessment](#start-assessment)
+3. [View Results](#view-results)
+4. [Complete the process](#complete-the-process)
 
 ## Launch Audit Configuration Assistant
 
@@ -61,7 +61,7 @@ At this step, do the following:
 
 1. Specify the monitoring scope —select what you plan to monitor with Netwrix Auditor. You can select both __Active Directory__ and __Logon Activity__, or any of them.
      
-   [![audit_cfg_assist_creds](/img/versioned_docs/auditor_10.6/auditor/tools/audit_cfg_assist_creds.png)](/versioned_docs/auditor_10.6/resources/images/auditor/other/audit_cfg_assist_creds.png)
+   ![audit_cfg_assist_creds](/img/versioned_docs/auditor_10.6/auditor/tools/audit_cfg_assist_creds.png)
 2. If you launched __Audit Configuration Assistant__ from the __Start__ menu (not from the monitoring plan settings), enter the name of Active Directory domain you want to assess.
 3. Enter credentials that will be used to access the audit setting of that domain. This account must be included in the following groups:
    - _Domain Admins_ — to access audit policies and audit entries on the domain controllers
@@ -89,4 +89,4 @@ After you click __Apply required settings__, the utility will proceed with modif
 
 1. Wait for the process to complete.
 2. Finally, review the results. Successfully applied settings will be reported with a green tick; those that did not manage to apply — with the yellow warning sign and explanatory text.
-3. You can click __Start over__ to get to the [Start Assessment](#Start-Assessment), fix the issues and perform the procedure again, or click __Finish__.
+3. You can click __Start over__ to get to the [Start Assessment](#start-assessment), fix the issues and perform the procedure again, or click __Finish__.

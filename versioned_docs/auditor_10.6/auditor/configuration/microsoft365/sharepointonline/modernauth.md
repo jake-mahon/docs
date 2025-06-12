@@ -12,13 +12,13 @@ Required configuration procedure includes several manual steps, as described in 
 
 To collect data with modern authentication, you should do the following:
 
-__Step 1 –__ Create an Microsoft Entra ID app that will be used for modern authentication. See the [Creating and registering a new app in Microsoft Entra ID](#Creating-and-registering-a-new-app-in-Microsoft-Entra-ID) topic for additional information.
+__Step 1 –__ Create an Microsoft Entra ID app that will be used for modern authentication. See the [Creating and registering a new app in Microsoft Entra ID](#creating-and-registering-a-new-app-in-microsoft-entra-id) topic for additional information.
 
-__Step 2 –__ Grant required permissions to that application using Microsoft Entra ID app manifest. See the [Granting required permissions](#Granting-required-permissions) topic for additional information.
+__Step 2 –__ Grant required permissions to that application using Microsoft Entra ID app manifest. See the [Granting required permissions](#granting-required-permissions) topic for additional information.
 
-__Step 3 –__ Configure client secret for that application. See the [Configuring client secret](#Configuring-client-secret) topic for additional information.
+__Step 3 –__ Configure client secret for that application. See the [Configuring client secret](#configuring-client-secret) topic for additional information.
 
-__Step 4 –__ Obtain tenant ID – you will need it when configuring a monitored item (Microsoft 365 tenant) settings. See the [Obtaining tenant name](#Obtaining-tenant-name) topic for additional information.
+__Step 4 –__ Obtain tenant ID – you will need it when configuring a monitored item (Microsoft 365 tenant) settings. See the [Obtaining tenant name](#obtaining-tenant-name) topic for additional information.
 
 ### Creating and registering a new app in Microsoft Entra ID
 
@@ -68,17 +68,17 @@ Permission assignment will depend on the data you plan to collect: activity data
 
 | To... | Requirement | Comment |
 | --- | --- | --- |
-| Collect activity and State-in-Time data | Microsoft Entra ID app requires the following Application permissions:   1. Microsoft 365 Management APIs    - ActivityFeed.Read 2. Microsoft Graph    - Application.ReadWrite.All    - Directory.Read.All 3. SharePoint     - Sites.FullControl.All | To learn how to assign required permissions, see the [Configuring Microsoft Entra ID App for Auditing SharePoint Online](#Configuring-Microsoft-Entra-ID-App-for-Auditing-SharePoint-Online) section for additional information.  Application.ReadWrite.All is required for automatic rotation of the certificate. Rotating certificates in the Entra ID application is important for the following reasons:   - Mitigate Risks from Expired Certificates - Enhance Security - Compliance Requirements - Operational Continuity |
+| Collect activity and State-in-Time data | Microsoft Entra ID app requires the following Application permissions:   1. Microsoft 365 Management APIs    - ActivityFeed.Read 2. Microsoft Graph    - Application.ReadWrite.All    - Directory.Read.All 3. SharePoint     - Sites.FullControl.All | To learn how to assign required permissions, see the [Configuring Microsoft Entra ID App for Auditing SharePoint Online](#configuring-microsoft-entra-id-app-for-auditing-sharepoint-online) section for additional information.  Application.ReadWrite.All is required for automatic rotation of the certificate. Rotating certificates in the Entra ID application is important for the following reasons:   - Mitigate Risks from Expired Certificates - Enhance Security - Compliance Requirements - Operational Continuity |
 
-__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Using Modern Authentication with SharePoint Online](#Using-Modern-Authentication-with-SharePoint-Online) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
+__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Using Modern Authentication with SharePoint Online](#using-modern-authentication-with-sharepoint-online) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
 __Step 2 –__ Grant admin consent to the tenant (that is, for the Microsoft 365 organization whose audit data will be collected by the newly registered app).
 
-See the following Microsoft article for additional information: [Grant admin consent in App registrations](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent?pivots=portal#Grant-admin-consent-in-App-registrations).
+See the following Microsoft article for additional information: [Grant admin consent in App registrations](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent?pivots=portal#grant-admin-consent-in-app-registrations).
 
 ### Granting Admin consent to a tenant
 
-Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _<tenant name>_.
+Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm, click __Yes__.
 
 __NOTE:__ For Microsoft 365 permissions, go to __Request API Permissions__ > __APIs my organization users__ and type "Microsoft 365" in the search bar.
@@ -97,7 +97,7 @@ __Step 3 –__ Click __Add__.
 
 __Step 4 –__ The new secret will be displayed in the list. Click __Copy to clipboard__ icon on the "Value" parameter on the right side of the screen.
 
-See the following Microsoft article for more information on how to add a client secret: [Add a client secret](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#Add-a-client-secret).
+See the following Microsoft article for more information on how to add a client secret: [Add a client secret](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret).
 
 ### Obtaining tenant name
 
@@ -109,4 +109,4 @@ __Step 2 –__ In the __Tenant information__ locate the __Primary domain__ field
 
 See the following Microsoft article for additional information on how to obtain tenant name: [Locate important IDs for a user](https://learn.microsoft.com/en-us/partner-center/find-ids-and-domain-names).
 
-Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#Microsoft-Entra-ID) topic for additional information.
+Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id) topic for additional information.

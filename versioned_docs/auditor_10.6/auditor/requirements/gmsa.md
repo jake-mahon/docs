@@ -142,9 +142,9 @@ Now you can use a gMSA account as one of the Auditor Service Account.
 
 This topic contains instructions on how to apply a gMSA as one of the Auditor Service Accounts.
 
-- [Apply a gMSA as a Data Collecting Account](#Apply-a-gMSA-as-a-Data-Collecting-Account)
-- [Apply gMSA to Access Long-Term Archive](#Apply-gMSAto-Access-Long-Term-Archive)
-- [Apply gMSA to Access Audit Database](#Apply-gMSAto-Access-Audit-Database)
+- [Apply a gMSA as a Data Collecting Account](#apply-a-gmsa-as-a-data-collecting-account)
+- [Apply gMSA to Access Long-Term Archive](#apply-gmsato-access-long-term-archive)
+- [Apply gMSA to Access Audit Database](#apply-gmsato-access-audit-database)
 
 ### Apply a gMSA as a Data Collecting Account
 
@@ -156,9 +156,9 @@ __Step 1 –__  Open the monitored item properties for editing.
 
 __Step 2 –__ On the __General__ tab, under __Specify account for collecting data__, select __Custom account__.
 
-[![item_general_gmsa](/img/versioned_docs/auditor_10.6/auditor/requirements/item_general_gmsa.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_general_gmsa.png)
+![item_general_gmsa](/img/versioned_docs/auditor_10.6/auditor/requirements/item_general_gmsa.png)
 
-See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ### Apply gMSA to Access Long-Term Archive
 

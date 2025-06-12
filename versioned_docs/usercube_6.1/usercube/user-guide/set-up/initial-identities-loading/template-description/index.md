@@ -2,7 +2,7 @@
 
 Description of the MS Excel template for the creation of the identities repository.
 
-[Click here to download a template example](/versioned_docs/usercube_6.1/resources/directory_example_v602.xlsx).
+[Click here to download a template example](/docs/usercube/resources/directory_example_v602.xlsx).
 
 ![Template Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.png)
 
@@ -10,7 +10,7 @@ All tabs contain a column ```Command``` only used at a later stage to [modify (m
 
 ## User - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#An-identity-is-split-into-two-parts), the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle.
+[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#an-identity-is-split-into-two-parts), the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle.
 
 | Attribute | Type | Description |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ All tabs contain a column ```Command``` only used at a later stage to [modify (m
 
 ## UserRecord - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#An-identity-is-split-into-two-parts), the second one being the one or several child resources called ```UserRecord``` which represent the user's positions. Records belong to users and help materialize:
+[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#an-identity-is-split-into-two-parts), the second one being the one or several child resources called ```UserRecord``` which represent the user's positions. Records belong to users and help materialize:
 
 - several positions at once;
 - validity periods for positions/assignments unrelated to the user itself;
@@ -33,10 +33,10 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 | Attribute | Type | Description |
 | --- | --- | --- |
 | RecordIdentifier (recommended) | String | Identifier of the [record](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#record).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
-| User (required) | ForeignKey | ```Identifier``` from the [```User```](#User) tab. |
+| User (required) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
 | EmployeeId (recommended) | String |  |
-| Gender (optional) | ForeignKey | ```Identifier``` from the [```Gender```](#Gender) tab. |
-| PersonalTitle (optional) | ForeignKey | ```Identifier``` from the [```PersonalTitle```](#PersonalTitle) tab. |
+| Gender (optional) | ForeignKey | ```Identifier``` from the [```Gender```](#gender) tab. |
+| PersonalTitle (optional) | ForeignKey | ```Identifier``` from the [```PersonalTitle```](#personaltitle) tab. |
 | FirstName (recommended) | String |  |
 | LastName (recommended) | String |  |
 | BirthName (optional) | String |  |
@@ -51,19 +51,19 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 | ContractStartDate (required) | DateTime | Start date of the user's contract in the company. |
 | ContractEndDate (recommended for permanent contracts, required for fixed-term contracts) | DateTime | End date of the user's contract in the company. |
 | AccessesExpirationDate (optional) | DateTime | Date when the user will be deprived of their access rights. |
-| UserType (required) | ForeignKey | ```Identifier``` from the [```UserType```](#UserType) tab. |
-| Subsidiary (optional) | ForeignKey | ```Identifier``` from the [```Subsidiary```](#Subsidiary) tab. |
-| ExternalCompany (optional) | ForeignKey | ```Identifier``` from the [```ExternalCompany```](#ExternalCompany) tab. |
+| UserType (required) | ForeignKey | ```Identifier``` from the [```UserType```](#usertype) tab. |
+| Subsidiary (optional) | ForeignKey | ```Identifier``` from the [```Subsidiary```](#subsidiary) tab. |
+| ExternalCompany (optional) | ForeignKey | ```Identifier``` from the [```ExternalCompany```](#externalcompany) tab. |
 | PositionIdentifier (required) | String |  |
 | PositionStartDate (optional) | DateTime |  |
 | PositionEndDate (optional) | DateTime |  |
-| Organization (recommended) | ForeignKey | ```Identifier``` from the [```Organization```](#Organization) tab. |
-| Manager (recommended) | String | Line manager.   ```Identifier``` from the [```User```](#User) tab. |
-| IGAManager (optional) | String | Validator of IGA requests.   ```Identifier``` from the [```User```](#User) tab. |
+| Organization (recommended) | ForeignKey | ```Identifier``` from the [```Organization```](#organization) tab. |
+| Manager (recommended) | String | Line manager.   ```Identifier``` from the [```User```](#user) tab. |
+| IGAManager (optional) | String | Validator of IGA requests.   ```Identifier``` from the [```User```](#user) tab. |
 | JobTitle (optional) | String |  |
-| Title (optional) | ForeignKey | ```Identifier``` from the [```Title```](#Title) tab. |
-| Site (optional) | ForeignKey | ```Identifier``` from the [```Site```](#Site) tab. |
-| Office (optional) | ForeignKey | ```Identifier``` from the [```Office```](#Office) tab. |
+| Title (optional) | ForeignKey | ```Identifier``` from the [```Title```](#title) tab. |
+| Site (optional) | ForeignKey | ```Identifier``` from the [```Site```](#site) tab. |
+| Office (optional) | ForeignKey | ```Identifier``` from the [```Office```](#office) tab. |
 | OfficeNumber (optional) | String |  |
 | IsMainPosition (optional) | Boolean |  |
 | Suspended (optional) | Boolean |  |
@@ -84,7 +84,7 @@ User types represent users' contract types, such as permanent contract, fixed te
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| Category (required) | ForeignKey | ```Identifier``` from the [```UserCategory```](#UserCategory) tab. |
+| Category (required) | ForeignKey | ```Identifier``` from the [```UserCategory```](#usercategory) tab. |
 | EmailSuffix (optional) | String | Suffix to concatenate to the email string (immediately before the ```@``` character). |
 | IsExternal (required) | Boolean |  |
 | LoginPrefix (optional) | String |  |
@@ -128,10 +128,10 @@ A company is divided into organizations, also called departments, such as the bo
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| Manager (recommended) | ForeignKey | ```Identifier``` from the [```User```](#User) tab. |
-| Assistant (optional) | ForeignKey | ```Identifier``` from the [```User```](#User) tab. |
+| Manager (recommended) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
+| Assistant (optional) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
 | Parent (optional) | ForeignKey | ```Identifier``` of another organization. |
-| Type (optional) | ForeignKey | ```Identifier``` from the [```OrganizationType```](#OrganizationType) tab. |
+| Type (optional) | ForeignKey | ```Identifier``` from the [```OrganizationType```](#organizationtype) tab. |
 
 ## OrganizationType
 
@@ -150,7 +150,7 @@ Each position can be represented by a title which names said position, such as a
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| JobCategory (optional) | ForeignKey | ```Identifier``` from the [```JobCategory```](#JobCategory) tab. |
+| JobCategory (optional) | ForeignKey | ```Identifier``` from the [```JobCategory```](#jobcategory) tab. |
 
 ## JobCategory
 
@@ -173,7 +173,7 @@ Each position can be represented by a title which names said position, such as a
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| Country (optional) | ForeignKey | ```Identifier``` from the [```Country```](#Country) tab. |
+| Country (optional) | ForeignKey | ```Identifier``` from the [```Country```](#country) tab. |
 
 ## Site
 
@@ -190,7 +190,7 @@ All positions specify a working site.
 | Floor (optional) | Int32 |  |
 | PostalCode (optional) | Int32 |  |
 | City (optional) | String |  |
-| Region (optional) | ForeignKey | ```Identifier``` from the [```Region```](#Region) tab. |
+| Region (optional) | ForeignKey | ```Identifier``` from the [```Region```](#region) tab. |
 | PreferredLanguage (optional) | String |  |
 | TimeZone (optional) | Int32 |  |
 | Latitude (optional) | Int64 |  |
@@ -203,7 +203,7 @@ All positions specify a working site.
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| Site (recommended) | ForeignKey | ```Identifier``` from the [```Site```](#Site) tab. |
+| Site (recommended) | ForeignKey | ```Identifier``` from the [```Site```](#site) tab. |
 
 ## PersonalTitle
 

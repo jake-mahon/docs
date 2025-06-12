@@ -6,15 +6,15 @@ The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md) topic for additional information.
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V9.x installations and upgrades them to 10.2. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md#Password-Policy-Client) topic for additional information. If you are distributing the Password Policy Client with Group Policy, then add PPEClt10.2.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V9.x installations and upgrades them to 10.2. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md) topic for additional information. If you are distributing the Password Policy Client with Group Policy, then add PPEClt10.2.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V9.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V9.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.
 
 ## Upgrading from v8.x
 
@@ -22,7 +22,7 @@ The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V8.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V8.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md) topic for additional information.
 
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to automatically import the V8.x configuration settings into the new version.
 
@@ -50,7 +50,7 @@ The Password Policy Client installer detects existing V8.x installations and upg
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V8.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V8.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.
 
 ## Upgrading from v7.x
 
@@ -98,7 +98,7 @@ The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V6.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V6.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE10.2.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md) topic for additional information.
 
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to automatically import the V6.x configuration settings into the new version.
 
@@ -128,8 +128,8 @@ If you would like to use the new templates and macros for your existing policies
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V6.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md#Installation) topic for additional information. If you are distributing the Password Policy Client with Group Policy, then add PPEClt10.2.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V6.x installations and upgrades them to 10.2. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information. If you are distributing the Password Policy Client with Group Policy, then add PPEClt10.2.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V6.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V6.x installations of the Password Policy Enforcer Mailer and upgrades them to 10.2. See the [Installing the Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.

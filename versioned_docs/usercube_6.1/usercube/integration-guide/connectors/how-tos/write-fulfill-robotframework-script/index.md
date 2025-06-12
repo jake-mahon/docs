@@ -1,6 +1,6 @@
 # Write a Robot Framework Script
 
-This guide shows how to write a Robot Framework script that will be used by [Fulfill-RobotFramework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#Fulfill-RobotFramework).
+This guide shows how to write a Robot Framework script that will be used by [Fulfill-RobotFramework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#fulfill-robotframework).
 
 ## Structure of a Robot Framework Script
 
@@ -44,7 +44,7 @@ Robot Framework needs two spaces between two different instructions to parse the
 For example, ```Open Connection``` consists of only one instruction. Only one space is thus needed between the two words. But, ```Open Connection ${IPADDRESS}``` consists of two instructions, the function and the parameter. Two spaces are then required to separate ```Connection``` from ```${IPADDRESS}```.  
 To read your script more easily, you could also use the pipe character (```|```) between instructions, like this: ```Open Connection | ${IPADDRESS}```.
 
-For more details, see [Robot Framework Libraries](https://robotframework.org/#Robot-Framework-Libraries).
+For more details, see [Robot Framework Libraries](https://robotframework.org/#robot-framework-libraries).
 
 ### Define specific functions
 
@@ -240,7 +240,7 @@ robot --loglevel NONE --report NONE --variable ORDERPATH:./Order --variable RUNT
 Most keywords are not different when a script is launched manually. The keywords ```Get Secure Data``` and ```Generate Password``` are exceptions.
 
 - ```Get Secure Data```: This keyword expects the Robot Framework process to receive a json list of attributes in the stdin stream. This can be provided manually by writing the data in the command prompt. As an example, if the script requires a ```Login``` and ```Password``` attribute :
-  ```{"Login":"login","Password":"password"}```
+  ``{"Login":"login","Password":"password"}``
 - ```Generate Password```: This keyword expects a file that contains the [password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the provisioned [resource type mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md). The easiest way to enable the ```Generate Password``` keyword is as follow:
   - Launch the Robot Framework fulfillment through the Usercube web application with a blank script.
   - Copy the ```PasswordResetSettings``` folder generated in the most recent subfolder of ```Work/FulfillRobotFramework```.
@@ -304,7 +304,7 @@ We define all the custom functions which we will use to provision the external s
 - ```Write In CSV```: executes a command to write the line in the CSV file in the external system.
 - ```Write Data```: formats the line to write in the CSV and calls ```Write In CSV``` to write it.
 - ```Write Header```: defines the header to write in the CSV and calls ```Write Data``` to write it.
-- ```Open Telnet Connection```: opens the Telnet connection to the external system using the login and the password defined in the [__Options__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#__Options__) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
+- ```Open Telnet Connection```: opens the Telnet connection to the external system using the login and the password defined in the [__Options__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#__options__) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
 
 ```
 
@@ -334,7 +334,7 @@ Open Telnet Connection
 
 ```
 
-The method ```Get Secure Data``` will retrieve the value of the attributes filled in [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#Options) in ```appsettings.agent.json```. This is the method strongly recommended by Usercube. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
+The method ```Get Secure Data``` will retrieve the value of the attributes filled in [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#options) in ```appsettings.agent.json```. This is the method strongly recommended by Usercube. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
 
 ### Define mandatory keywords
 

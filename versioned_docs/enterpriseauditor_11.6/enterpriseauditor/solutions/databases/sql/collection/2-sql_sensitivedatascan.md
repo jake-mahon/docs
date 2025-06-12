@@ -17,7 +17,7 @@ The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup9.png)
 
 - SensitiveDataScan – Collects Sensitive Data from targeting instances
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the SensitiveDataScan Query](#Configure-the-SensitiveDataScan-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the SensitiveDataScan Query](#configure-the-sensitivedatascan-query) topic for additional information.
 
 ### Configure the SensitiveDataScan Query
 

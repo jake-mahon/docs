@@ -4,13 +4,13 @@ The EX\_Mailflow\_Mailbox job provides information around each user’s mail flo
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The EX\_Mailflow\_Mailbox job has the following configurable parameter:
 
 - Number of days to collect counts for – Sets the number of days for the __User Mailboxes By Message Count__ and __User Mailboxes by Message Size__ analysis tasks. The default is __30__ days.
 
-See the [Analysis Tasks for the EX\_Mailflow\_Mailbox Job](#Analysis-Tasks-for-the-EX_Mailflow_Mailbox-Job) topic for additional information.
+See the [Analysis Tasks for the EX\_Mailflow\_Mailbox Job](#analysis-tasks-for-the-ex_mailflow_mailbox-job) topic for additional information.
 
 ## Analysis Tasks for the EX\_Mailflow\_Mailbox Job
 

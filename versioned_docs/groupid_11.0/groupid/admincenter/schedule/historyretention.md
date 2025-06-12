@@ -26,7 +26,7 @@ You cannot create or delete a History Retention schedule; only update the existi
 
 What do you want to do?
 
-- [Update the History Retention Schedule](#Update-the-History-Retention-Schedule)
+- [Update the History Retention Schedule](#update-the-history-retention-schedule)
 
 ## Update the History Retention Schedule
 
@@ -44,10 +44,10 @@ What do you want to do?
    - To add a new trigger, click __Add Trigger__.
 
    Follow step 11 in
-   the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to manage triggers.
+   the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 9. Click __Update Schedule__.
 10. On the __Schedules__ page, click __Save__.   
-    For general schedule info, see the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic.
+    For general schedule info, see the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic.
 
 See Also
 

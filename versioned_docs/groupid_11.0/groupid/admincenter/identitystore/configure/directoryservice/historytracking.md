@@ -10,7 +10,7 @@ In GroupID, history for an identity store is tracked at two levels:
   - GroupID Admin Center (actions performed by schedules only)
   - GroupID APIs
 
-  You can choose to track specific actions, such as ownership change and object deletion. The table in the [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store) topic lists some individual actions available for tracking.
+  You can choose to track specific actions, such as ownership change and object deletion. The table in the [Track Specific Actions for an Identity Store](#track-specific-actions-for-an-identity-store) topic lists some individual actions available for tracking.
 
   Use the _History_ node in the GroupID portal to view the history data that the history tracking function collects for objects. History for individual objects is also displayed in the respective object’s properties.
 - __When changes are made to an identity store’s configurations__ - GroupID enables you to track the changes made to an identity store’s configurations, which include the following:
@@ -31,11 +31,11 @@ RECOMMENDED: History tracking can slow down system performance. For optimal perf
 
 What do you want to do?
 
-- [Enable History Tracking for All Actions](#Enable-History-Tracking-for-All-Actions)
-- [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store)
-- [Retain Complete History Data](#Retain-Complete-History-Data)
-- [Retain History for a Specific Period](#Retain-History-for-a-Specific-Period)
-- [Disable History Tracking](#Disable-History-Tracking)
+- [Enable History Tracking for All Actions](#enable-history-tracking-for-all-actions)
+- [Track Specific Actions for an Identity Store](#track-specific-actions-for-an-identity-store)
+- [Retain Complete History Data](#retain-complete-history-data)
+- [Retain History for a Specific Period](#retain-history-for-a-specific-period)
+- [Disable History Tracking](#disable-history-tracking)
 
 ## Enable History Tracking for All Actions
 
@@ -51,7 +51,7 @@ __To enable history tracking:__
 
    - On enabling, _All Actions_ is auto selected in the __Track__ drop-down list. This indicates that (a) all actions that users perform on directory objects and (b) changes
      made to identity store configurations, workflows, and security roles are tracked for the identity store.  
-     To track specific actions, see the [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store) topic.
+     To track specific actions, see the [Track Specific Actions for an Identity Store](#track-specific-actions-for-an-identity-store) topic.
    - Disabling history tracking does not delete already recorded history data.
 5. Click __Save__.
 

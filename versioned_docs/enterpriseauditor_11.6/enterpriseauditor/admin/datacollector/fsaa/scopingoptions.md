@@ -19,9 +19,9 @@ The Scoping Options buttons have the following:
   - If a conflict arises between an existing configured scoping option and an option that is being imported, the user will be prompted to resolve the conflict by either keeping the existing configuration or importing the new one, which will overwrite the scoping option.
 - Export – Take the currently configured scoping options in the job and export it to a ```.fsaascope``` file
 
-By default, priority is assigned in the order it is added to the table. Priority can also be manually assigned with the Increase Priority and Decrease Priority buttons or in the [Scoping Configuration Window](#Scoping-Configuration-Window). If there is a conflict between an inclusion scoping option and an exclusion scoping option with the same priority, the inclusion takes precedence.
+By default, priority is assigned in the order it is added to the table. Priority can also be manually assigned with the Increase Priority and Decrease Priority buttons or in the [Scoping Configuration Window](#scoping-configuration-window). If there is a conflict between an inclusion scoping option and an exclusion scoping option with the same priority, the inclusion takes precedence.
 
-See the [Common Scoping Scenarios](#Common-Scoping-Scenarios) section for example configurations of scoping options and the expected results.
+See the [Common Scoping Scenarios](#common-scoping-scenarios) section for example configurations of scoping options and the expected results.
 
 ## Scoping Configuration Window
 

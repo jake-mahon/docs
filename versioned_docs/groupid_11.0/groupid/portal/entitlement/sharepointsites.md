@@ -22,10 +22,10 @@ A disabled site indicates that the Insights job has not run to replicate permiss
 
 What do you want to do?
 
-- [Explore a site – card view](#Explore-a-site-card-view)
-- [View levels and permissions on a library](#View-levels-and-permissions-on-a-library)
-- [Search document libraries, files and folders in a site](#Search-document-libraries-files-and-folders-in-a-site)
-- [How GroupID Entitlement displays permissions](#How-GroupID-Entitlement-displays-permissions)
+- [Explore a site – card view](#explore-a-site-card-view)
+- [View levels and permissions on a library](#view-levels-and-permissions-on-a-library)
+- [Search document libraries, files and folders in a site](#search-document-libraries-files-and-folders-in-a-site)
+- [How GroupID Entitlement displays permissions](#how-groupid-entitlement-displays-permissions)
 
 ## Explore a site – card view
 

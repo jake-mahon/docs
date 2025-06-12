@@ -10,13 +10,13 @@ Going through an activity means going through [states](#states) and [transitions
 
 By default, Usercube's workflow engine implements the following activity templates:
 
-- [```Action```](#Action)
-- [```ActionWithRefine```](#ActionWithRefine)
-- [```Review```](#Review)
-- [```ReviewWithFeedback```](#ReviewWithFeedback)
-- [```ContinueWith```](#ContinueWith)
-- [```Persist```](#Persist)
-- [```PersistOnlyResources```](#PersistOnlyResources)
+- [```Action```](#action)
+- [```ActionWithRefine```](#actionwithrefine)
+- [```Review```](#review)
+- [```ReviewWithFeedback```](#reviewwithfeedback)
+- [```ContinueWith```](#continuewith)
+- [```Persist```](#persist)
+- [```PersistOnlyResources```](#persistonlyresources)
 
 ## Activity Templates
 

@@ -6,7 +6,7 @@ To view a user profile
 
 - On the Behavior Anomalies assessment dashboard, locate a user and click View Profile next to his or her name.
 
-[![userprofile](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/userprofile.png)](/versioned_docs/auditor_10.6/resources/images/auditor/behavioranomalies/userprofile.png)
+![userprofile](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/userprofile.png)
 
 The user profile page contains the following sections:
 

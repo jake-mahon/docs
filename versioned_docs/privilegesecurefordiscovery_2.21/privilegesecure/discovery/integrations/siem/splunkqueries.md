@@ -223,11 +223,11 @@ ComputerDN LIKE "%,OU=`<>`%"
 Status codes and there meaning [https://restfulapi.net/http-status-codes/](https://restfulapi.net/http-status-codes/)  
 HTTP defines these standard status codes that can be used to convey the results of a client’s request. The status codes are divided into five categories.
 
-- [1xx: Informational](https://restfulapi.net/http-status-codes/#1xx-Informational) – Communicates transfer protocol-level information.
-- [2xx: Success](https://restfulapi.net/http-status-codes/#2xx-Success) – Indicates that the client’s request was accepted successfully.
-- [3xx: Redirection](https://restfulapi.net/http-status-codes/#3xx-Redirection) – Indicates that the client must take some additional action in order to complete their request.
-- [4xx: Client Error](https://restfulapi.net/http-status-codes/#4xx-Client-Error) – This category of error status codes points the finger at clients.
-- [5xx: Server Error](https://restfulapi.net/http-status-codes/#5xx-Server-Error) – The server takes responsibility for these error status codes.
+- [1xx: Informational](https://restfulapi.net/http-status-codes/#1xx-informational) – Communicates transfer protocol-level information.
+- [2xx: Success](https://restfulapi.net/http-status-codes/#2xx-success) – Indicates that the client’s request was accepted successfully.
+- [3xx: Redirection](https://restfulapi.net/http-status-codes/#3xx-redirection) – Indicates that the client must take some additional action in order to complete their request.
+- [4xx: Client Error](https://restfulapi.net/http-status-codes/#4xx-client-error) – This category of error status codes points the finger at clients.
+- [5xx: Server Error](https://restfulapi.net/http-status-codes/#5xx-server-error) – The server takes responsibility for these error status codes.
 
 Running list of known returned HTTP status codes (200, 201, 202, 204, 301, 304, 400, 401, 403, 404, 405, 409, 410, 422, 500)  
 __Key log field:__ res.statusCode  

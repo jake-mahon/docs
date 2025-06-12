@@ -36,7 +36,7 @@ This job should be run based on the desired frequency of Sensitive Data Scans.
 
 Query Configuration
 
-This job contains configurable queries. See the [Configure the AnyID\_Paycom Job](#Configure-the-AnyID_Paycom-Job) topic for additional information.
+This job contains configurable queries. See the [Configure the AnyID\_Paycom Job](#configure-the-anyid_paycom-job) topic for additional information.
 
 Analysis Configuration
 
@@ -60,7 +60,7 @@ The AnyID\_Paycom job uses the PowerShell Data Collector for the query.
 
 The queries are:
 
-- Paycom CSV Import – Imports a CSV file with information from Paycom. This query has configurable parameters. See the [Configure the AnyID\_Paycom Job](#Configure-the-AnyID_Paycom-Job) topic for additional information.
+- Paycom CSV Import – Imports a CSV file with information from Paycom. This query has configurable parameters. See the [Configure the AnyID\_Paycom Job](#configure-the-anyid_paycom-job) topic for additional information.
 
 ### Configure the AnyID\_Paycom Job
 

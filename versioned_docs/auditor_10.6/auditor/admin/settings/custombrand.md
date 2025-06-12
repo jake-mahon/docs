@@ -4,8 +4,8 @@ Netwrix Auditor allows customizing look and feel of your reports, search subscri
 
 Review the following for additional information:
 
-- [Customize Branding in AuditIntelligence Outputs](#Customize-Branding-in-AuditIntelligence-Outputs)
-- [Customize Branding in Reports](#Customize-Branding-in-Reports)
+- [Customize Branding in AuditIntelligence Outputs](#customize-branding-in-auditintelligence-outputs)
+- [Customize Branding in Reports](#customize-branding-in-reports)
 
 ## Customize Branding in AuditIntelligence Outputs
 
@@ -49,7 +49,7 @@ To restore original look and feel, run the script and replace"_True_" with "_Fal
 
 By default, Netwrix Auditor reports look as follows:
 
-[![All Logon Activity](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report_rebranding.png)
+![All Logon Activity](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding.png)
 
 Report branding is customized on Netwrix Auditor Server side that means that all clients connected to this server will have the same look and feel for reports.
 

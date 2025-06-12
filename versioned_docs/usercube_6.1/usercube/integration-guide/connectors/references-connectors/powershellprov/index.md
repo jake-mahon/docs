@@ -18,7 +18,7 @@ Implementing this connector requires:
 - knowledge of scripting in PowerShell 5.1 or later, [see here PowerShell's requirements](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements);
 - making sure that the device hosting the agent has its execution policy properly configured to execute the given PowerShell script;
 - checking the targeted system's requirements (environment, libraries, etc.), as this connector is meant to connect Usercube to a PowerShell-compatible system;
-- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#NETWRIX-guidelines-below).
+- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#netwrix-guidelines-below).
 
 ## Export
 
@@ -105,7 +105,7 @@ Data protection can be ensured through:
 | Password (optional) | ```Connections--<identifier>--Options--Password``` |
 | PowerShellScriptPath | ```Connections--<identifier>--PowerShellScriptPath``` |
 
-- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md#compatible-with-CyberArk).
+- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md#compatible-with-cyberark).
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Usercube from ```appsettings.cyberark.agent.json```.
 

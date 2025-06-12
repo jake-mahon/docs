@@ -8,7 +8,7 @@ __Content Configuration__ section in Netwrix Data Classification management cons
 
 __IMPORTANT!__ To access the __Sources__ area, users require sufficient rights. See the [User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section for more information.
 
-[![content_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/content_config_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/content_config.png)
+[![content_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/content_config_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/content_config.png)
 
 See next:
 

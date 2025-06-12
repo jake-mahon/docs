@@ -29,10 +29,10 @@ When the Group Lifecycle job deletes a group, it notifies the group owners or, i
 
 What do you want to do?
 
-- [Modify Search Directory](#Modify-Search-Directory)
-- [Filter Deleted Groups](#Filter-Deleted-Groups)
-- [Delete a group from Recycle Bin](#Delete-a-group-from-Recycle-Bin)
-- [Restore a deleted group](#Restore-a-deleted-group)
+- [Modify Search Directory](#modify-search-directory)
+- [Filter Deleted Groups](#filter-deleted-groups)
+- [Delete a group from Recycle Bin](#delete-a-group-from-recycle-bin)
+- [Restore a deleted group](#restore-a-deleted-group)
 
 ## Modify Search Directory
 

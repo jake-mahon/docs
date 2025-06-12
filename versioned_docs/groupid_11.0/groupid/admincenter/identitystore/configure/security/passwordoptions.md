@@ -15,9 +15,9 @@ In addition to these password restrictions, you can define a password policy for
 
 What do you want to do?
 
-- [Define Restricted Passwords](#Define-Restricted-Passwords)
-- [Specify Regular Expressions for Allowed Passwords](#Specify-Regular-Expressions-for-Allowed-Passwords)
-- [Specify Disallowed Passwords Using an External File](#Specify-Disallowed-Passwords-Using-an-External-File)
+- [Define Restricted Passwords](#define-restricted-passwords)
+- [Specify Regular Expressions for Allowed Passwords](#specify-regular-expressions-for-allowed-passwords)
+- [Specify Disallowed Passwords Using an External File](#specify-disallowed-passwords-using-an-external-file)
 
 ## Define Restricted Passwords
 
@@ -35,7 +35,7 @@ __To restrict passwords:__
    - __Starts with:__ passwords that start with the value you specify in the __Exception Value__ box are not allowed.
    - __Ends With:__ passwords that end with the value you specify in the __Exception Value__ box are not allowed.
    - __Contains:__ passwords that contain the value you specify in the __Exception Value__ box are not allowed.
-   - __Regular Expression:__ passwords that satisfy the regular expression you specify in the __Exception Value__ box are not allowed. See the [What are Regular Expressions?](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md#What-are-Regular-Expressions) topic to learn about regular expressions and their syntax.
+   - __Regular Expression:__ passwords that satisfy the regular expression you specify in the __Exception Value__ box are not allowed. See the [What are Regular Expressions?](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md#what-are-regular-expressions) topic to learn about regular expressions and their syntax.
 6. Type a value for the selected operator in the __Exception Value__ box.
 7. Click __OK__.
 8. Follow steps 4 to 7 to define as many exceptions as required. All exceptions are treated as password restrictions.
@@ -57,7 +57,7 @@ __To specify a regular expression:__
 3. Click __Configurations__ under __Settings__ in the left pane. Then click __Password Options__.
 4. In the __Password Rules__ area on the __Password Options__ page, click __Add Password Rule__.
 5. On the __Add Rules__ dialog box, type a regular expression in the __Regular Expression__ box.  
-   See the [What are Regular Expressions?](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md#What-are-Regular-Expressions) topic to learn about regular expressions and their syntax.
+   See the [What are Regular Expressions?](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md#what-are-regular-expressions) topic to learn about regular expressions and their syntax.
 6. Click __OK__. The regular expression is displayed in the In the __Password Rules__ area.
 7. Follow steps 4 to 6 to define as many regular expressions as required. Passwords that satisfy any of the regular expressions are allowed.
 

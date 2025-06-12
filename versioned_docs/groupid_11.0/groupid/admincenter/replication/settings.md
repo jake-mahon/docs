@@ -7,7 +7,7 @@ health status.
 
 On every successful run of the Replication service, GroupID generates the replication status of object types for each domain in an identity store and alerts you to any errors that may have occurred during the replication process.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#Exclude-an-Active-Directory-Domain-from-Replication) topic.
+NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ### How to Resolve Replication Errors
 
@@ -15,26 +15,26 @@ Possible actions to eliminate replication errors are:
 
 - Make sure the Replication service and Elasticsearch service are running.
 - Make sure Search Guard or any other security plugin you use for Elasticsearch is operational.
-- Consult the Replication service logs. They provide elaborate information about the object type in the specific domain of the identity store the error occurred for, and whether that error comes from the identity provider or Elasticsearch. See the [Replication Service Logs](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md#Replication-Service-Logs) topic.
+- Consult the Replication service logs. They provide elaborate information about the object type in the specific domain of the identity store the error occurred for, and whether that error comes from the identity provider or Elasticsearch. See the [Replication Service Logs](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md#replication-service-logs) topic.
 
 What do you want to do?
 
-- [Monitor Elasticsearch Health Status](#Monitor-Elasticsearch-Health-Status)
-- [Specify a Replication Interval for Objects](#Specify-a-Replication-Interval-for-Objects)
-- [Force Run the Replication Service (for Object Replication)](#Force-Run-the-Replication-Service-for-Object-Replication)
-- [View the Replication Status for Objects](#View-the-Replication-Status-for-Objects)
-- [Specify Interval for Deleting Tombstone Objects](#Specify-Interval-for-Deleting-Tombstone-Objects)
-- [Force Run the Replication Service (for Deleting Objects)](#Force-Run-the-Replication-Service-for-Deleting-Objects)
-- [Restore Object Data to Elasticsearch](#Restore-Object-Data-to-Elasticsearch)
-- [Clear Unused Indices](#Clear-Unused-Indices)
-- [Change the Search Guard Password](#Change-the-Search-Guard-Password)
-- [Set a Threshold to Trigger Replication Error Notifications](#Set-a-Threshold-to-Trigger-Replication-Error-Notifications)
+- [Monitor Elasticsearch Health Status](#monitor-elasticsearch-health-status)
+- [Specify a Replication Interval for Objects](#specify-a-replication-interval-for-objects)
+- [Force Run the Replication Service (for Object Replication)](#force-run-the-replication-service-for-object-replication)
+- [View the Replication Status for Objects](#view-the-replication-status-for-objects)
+- [Specify Interval for Deleting Tombstone Objects](#specify-interval-for-deleting-tombstone-objects)
+- [Force Run the Replication Service (for Deleting Objects)](#force-run-the-replication-service-for-deleting-objects)
+- [Restore Object Data to Elasticsearch](#restore-object-data-to-elasticsearch)
+- [Clear Unused Indices](#clear-unused-indices)
+- [Change the Search Guard Password](#change-the-search-guard-password)
+- [Set a Threshold to Trigger Replication Error Notifications](#set-a-threshold-to-trigger-replication-error-notifications)
 
 ## Monitor Elasticsearch Health Status
 
 GroupID enables you to monitor the Elasticsearch service for the following:
 
-- The status of the Elasticsearch service. See the [Elasticsearch Service](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#Elasticsearch-Service) card on the Admin Center dashboard.
+- The status of the Elasticsearch service. See the [Elasticsearch Service](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#elasticsearch-service) card on the Admin Center dashboard.
 - Elasticsearch cluster health stats, which include:
 
   - Cluster name, health status, node info and shards info
@@ -119,11 +119,11 @@ __To view the replication status:__
       ways:
 
       - On the __Identity Stores__ page, the card for the identity store turns red and _Errors_ is displayed as the identity store status.
-      - A notification is sent to relevant personnel. See the [Set a Threshold to Trigger Replication Error Notifications](#Set-a-Threshold-to-Trigger-Replication-Error-Notifications) topic.
+      - A notification is sent to relevant personnel. See the [Set a Threshold to Trigger Replication Error Notifications](#set-a-threshold-to-trigger-replication-error-notifications) topic.
 
-      These alerts are triggered when replication fails in the last run of the Replication service, or if the service does not run at the required triggering interval. To resolve replication errors, see the [How to Resolve Replication Errors](#How-to-Resolve-Replication-Errors) topic.
+      These alerts are triggered when replication fails in the last run of the Replication service, or if the service does not run at the required triggering interval. To resolve replication errors, see the [How to Resolve Replication Errors](#how-to-resolve-replication-errors) topic.
    2. The ‘Never replicated’ status indicates that the particular object type is not replicated yet. Similarly, a child domain that is not being used will have its status marked in red. To avoid these recurring errors, set the dates for these objects
-      to a distant future date in the GroupID database. Or you can exclude a domain from replication. See the [Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#Exclude-an-Active-Directory-Domain-from-Replication) topic.
+      to a distant future date in the GroupID database. Or you can exclude a domain from replication. See the [Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ## Specify Interval for Deleting Tombstone Objects
 
@@ -193,12 +193,12 @@ __To change the password:__
 
 ## Set a Threshold to Trigger Replication Error Notifications
 
-The Replication service runs every x minutes to replicate objects in an identity store. In case it fails to replicate during a run, a replication error is displayed, as discussed in the [View the Replication Status for Objects](#View-the-Replication-Status-for-Objects) topic.
+The Replication service runs every x minutes to replicate objects in an identity store. In case it fails to replicate during a run, a replication error is displayed, as discussed in the [View the Replication Status for Objects](#view-the-replication-status-for-objects) topic.
 
 GroupID generates notifications to alert administrators to replication errors. By default, the triggering threshold is set to ‘3 attempts’, which means that notifications will be sent when errors occur in three consecutive runs of the Replication service.
 You can change the threshold value as required.
 
-Replication error notifications are sent to recipients whose email addresses are specified in the _To_ and _CC_ boxes on the __Notifications__ page. See the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Specify-Notification-Recipients) topic.
+Replication error notifications are sent to recipients whose email addresses are specified in the _To_ and _CC_ boxes on the __Notifications__ page. See the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients) topic.
 
 __To set a triggering threshold:__
 

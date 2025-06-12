@@ -2,8 +2,8 @@
 
 This chapter provides step-by-step instructions on how to install Netwrix Auditor and its Compression Services. Refer to the following sections for detailed information:
 
-- [Install Netwrix Auditor](#Install-Netwrix-Auditor)
-- [Installing Core Services](#Installing-Core-Services)
+- [Install Netwrix Auditor](#install-netwrix-auditor)
+- [Installing Core Services](#installing-core-services)
 
 It also includes advanced scenarios such as:
 
@@ -20,7 +20,7 @@ Follow these steps to install Netwrix Auditor
 
 __Step 1 –__ Download Netwrix Auditor 10.6 from [Netwrix website](https://www.netwrix.com/auditor.html).
 
-NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If you use a third-party firewall, see [Protocols and Ports Required](/versioned_docs/auditor_10.6/auditor/requirements/ports2.md). Also, you must be a member of the local Administrators group to run the Netwrix Auditor installation.
+NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If you use a third-party firewall, see Protocols and Ports Required. Also, you must be a member of the local Administrators group to run the Netwrix Auditor installation.
 
 __Step 2 –__ Unpack the installation package. The following window will be displayed on successful operation completion:
 

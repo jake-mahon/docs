@@ -18,7 +18,7 @@ An __entity model__ describes the shape of resources (the __metadata__) and how 
 
 The __metadata__ of a resource is the description of the resources' shape. Using the _Entity-Relationship_ vocabulary, it's a list of property names and types for a resource.
 
-The metadata is written using [EntityTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md), [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperties) and [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+The metadata is written using [EntityTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md), [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperties) and [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 #### Entity types
 
@@ -28,12 +28,12 @@ It's a description of the resource: it can be a managed system's resource or a r
 
 An [EntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) includes:
 
-- one or more [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperties)
+- one or more [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperties)
 - zero or more [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 
 #### Entity properties
 
-Properties are key-value pairs, with a name and type that describes the nature of the value held by the property. They are described by [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperties).
+Properties are key-value pairs, with a name and type that describes the nature of the value held by the property. They are described by [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperties).
 
 There are two kind of properties: __Scalar Properties__ and __Navigation Properties__.
 
@@ -83,11 +83,11 @@ For example,
 
 Some property values must be available in several languages. In this case, we define a __neutral property__ and as many corresponding properties as languages.
 
-The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName\_L{Index}_ where _Index_ reference the [languages list](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/languages/index.md).
+The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName\_L`{Index}`_ where _Index_ reference the [languages list](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/languages/index.md).
 
 #### Computed property
 
-A property can be calculated from other properties. The [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityPropertyExpression) element allows the expression of a computed property. It references the property (specifying the entity type's identifier and the property's identifier) and expresses the calculation based on a given entity using the [calculation expression syntax](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+A property can be calculated from other properties. The [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entitypropertyexpression) element allows the expression of a computed property. It references the property (specifying the entity type's identifier and the property's identifier) and expresses the calculation based on a given entity using the [calculation expression syntax](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
 
 An element ```<EntityPropertyExpression>``` can be used to calculate a scalar property or a mono-valued navigation property. In the latter case, the expression must return an integer that corresponds to the primary key of the target entity.
 
@@ -97,7 +97,7 @@ Every declared __EntityType__ automatically has the ```InternalDisplayName``` pr
 
 It represents a user-friendly name for __EntityType__ that is used in the UI if needed.
 
-Its value can be explicitly computed by an [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityPropertyExpression). Otherwise, a default value is automatically computed by Usercube using the first property of the __EntityType__ where ```identifier``` contains the string _"name"_. If no such property is found, the first declared property of the __EntityType__ is used instead.
+Its value can be explicitly computed by an [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entitypropertyexpression). Otherwise, a default value is automatically computed by Usercube using the first property of the __EntityType__ where ```identifier``` contains the string _"name"_. If no such property is found, the first declared property of the __EntityType__ is used instead.
 
 The _InternalDisplayName_ property will be used as a default label of the entity in the UI.
 
@@ -117,15 +117,15 @@ Binary property values (such as pictures or files) are stored in the UR\_Resourc
 
 ### Mapping
 
-Usercube's Entity Model also contains __a mapping__ between the external data and [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperties) or [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). That's why entity types are organized into __connectors__. The __mapping___connects_ entity types to external sources of truth.
+Usercube's Entity Model also contains __a mapping__ between the external data and [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperties) or [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). That's why entity types are organized into __connectors__. The __mapping___connects_ entity types to external sources of truth.
 
-This information is provided by the [EntityTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#EntityPropertyMapping) and [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+This information is provided by the [EntityTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#entitypropertymapping) and [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 
-To build Usercube resources from external data found in the managed system, the entity model provides a mapping between the external data (often in the form of CSV files, see [Synchronization](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#Synchronization)) and entity properties. This information is provided by the [EntityTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#EntityPropertyMapping) and [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+To build Usercube resources from external data found in the managed system, the entity model provides a mapping between the external data (often in the form of CSV files, see [Synchronization](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#synchronization)) and entity properties. This information is provided by the [EntityTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#entitypropertymapping) and [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
-Every [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#EntityPropertyMapping) maps a CSV column to a scalar [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperty).
+Every [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#entitypropertymapping) maps a CSV column to a scalar [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperty).
 
-Every [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) maps a CSV column to a navigation [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperty).
+Every [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) maps a CSV column to a navigation [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperty).
 
 #### Format
 
@@ -140,7 +140,7 @@ We need to transform the input data, from the export, into something readable by
 
 ![Export and Fulfill Data transformation](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.png)
 
-The format used in the external system can be provided through the [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#EntityPropertyMapping) using the [Format attribute](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) to help Usercube to convert data appropriately.
+The format used in the external system can be provided through the [EntityPropertyMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#entitypropertymapping) using the [Format attribute](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) to help Usercube to convert data appropriately.
 
 If the field in the external system is not forced to a specific value type, but is free-form (example: a string field in which date values are stored but which can sometimes hold other values), we strongly recommend not using the ```Format``` attribute to prevent inconsistent user input in the external system.
 

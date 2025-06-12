@@ -6,14 +6,14 @@ You can search Exchange Online activity that has been monitored and recorded to 
 
 The filters are separated into the following categories:
 
-- [General Category](#General-Category)
-- [User Category](#User-Category)
-- [Target Category](#Target-Category)
-- [DLP Category](#DLP-Category)
+- [General Category](#general-category)
+- [User Category](#user-category)
+- [Target Category](#target-category)
+- [DLP Category](#dlp-category)
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters.You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export) option.
 
 Filter Value Entry
 

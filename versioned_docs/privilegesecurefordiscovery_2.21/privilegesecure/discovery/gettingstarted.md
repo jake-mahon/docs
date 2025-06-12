@@ -30,7 +30,7 @@ Allow for a two hour window to install the production environment and another tw
 
 Prerequisites
 
-- In order to successfully install Privilege Secure several domain accounts will be required (Bind, Scan and Protect), these are detailed in the following article: [Getting Started](#Getting-Started)
+- In order to successfully install Privilege Secure several domain accounts will be required (Bind, Scan and Protect), these are detailed in this article
 
 These need to be added to Privilege Secure in the server configuration screen (Config, Server Configuration). This is domain specific and is opened by clicking the > sign next to the domain:
 

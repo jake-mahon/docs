@@ -1,6 +1,6 @@
 # Activity Details Report
 
-The Activity Details report at the share and subfolder levels provides details on every operations logged during the selected date range. This report includes a Permission Changes table. The __Include subfolders__ option is active by default until removed. See the [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on changing this option.
+The Activity Details report at the share and subfolder levels provides details on every operations logged during the selected date range. This report includes a Permission Changes table. The __Include subfolders__ option is active by default until removed. See the [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
 ![Activity Details report at the share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareactivitydetails.png)
 

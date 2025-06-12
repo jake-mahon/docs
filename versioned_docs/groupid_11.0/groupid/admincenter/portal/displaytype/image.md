@@ -20,7 +20,7 @@ provides many image editing options, including rotate, crop, flip, and re-size.
 
 What do you want to do?
 
-- [Define an Image Display Type](#Define-an-Image-Display-Type)
+- [Define an Image Display Type](#define-an-image-display-type)
 
 ## Define an Image Display Type
 

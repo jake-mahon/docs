@@ -2,8 +2,8 @@
 
 With Netwrix Auditor you can quickly restore deleted and modified objects using the Netwrix Auditor Object Restore for Active Directory tool shipped with the product. This tool enables AD object restore without rebooting a domain controller and affecting the rest of the AD structure, and goes beyond the standard tombstone capabilities. Perform the following procedures:
 
-- [Modify Schema Container Settings](#Modify-Schema-Container-Settings)
-- [Roll Back Unwanted Changes](#Roll-Back-Unwanted-Changes)
+- [Modify Schema Container Settings](#modify-schema-container-settings)
+- [Roll Back Unwanted Changes](#roll-back-unwanted-changes)
 
 - Windows Server 2022
 - Windows Server 2019

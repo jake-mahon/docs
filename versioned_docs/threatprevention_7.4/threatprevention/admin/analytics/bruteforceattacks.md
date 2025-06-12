@@ -17,7 +17,7 @@ Analytic Workflow
 2. Enable the analytic policy
 3. Enable alerting on incidents through the [System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
-See the [Brute Force Attacks Analytic Data Grid](#Brute-Force-Attacks-Analytic-Data-Grid) topic for information on event data collected per incident.
+See the [Brute Force Attacks Analytic Data Grid](#brute-force-attacks-analytic-data-grid) topic for information on event data collected per incident.
 
 ## Configure Brute Force Attacks Analytic Policy
 

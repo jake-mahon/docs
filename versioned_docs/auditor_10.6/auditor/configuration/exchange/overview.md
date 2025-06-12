@@ -33,7 +33,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/registrykey.md) topic.
 
-      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
+      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md#adjust-security-event-log-size-and-retention) topic.
     - To provide for event data collection, the Secondary Logon service must be up and running . Open __Administrative Tools__ > __Services__, right-click the __Secondary Logon__ service and on the __General__ tab make sure that Startup type for this service is other than _Disabled_.
 
 _Remember,_ for Exchange auditing, do the following:
@@ -62,26 +62,26 @@ Here is the list of actions captured:
 
 | Item | Action | Audited | How this change is reported by the product |
 | --- | --- | --- | --- |
-| Emails and Folders | New email | Yes | The message was created in \Drafts folder with subject <...> |
-| A user with Send as or Send on behalf permissions tried to send an email | Yes | Message located in Root with subject <...> was queued for delivery to IPM.Message. |  |
-| Delete email | Yes | Message with subject <...> was moved from folder \Drafts to folder \Deleted Items. |  |
-| Move email to another folder | Yes | Message with subject <...> was moved from folder <...> to folder <...>. |  |
+| Emails and Folders | New email | Yes | The message was created in \Drafts folder with subject `<...>` |
+| A user with Send as or Send on behalf permissions tried to send an email | Yes | Message located in Root with subject `<...>` was queued for delivery to IPM.Message. |  |
+| Delete email | Yes | Message with subject `<...>` was moved from folder \Drafts to folder \Deleted Items. |  |
+| Move email to another folder | Yes | Message with subject `<...>` was moved from folder `<...>` to folder `<...>`. |  |
 | Create rules for emails | No | — |  |
 | Email read attempt | No | — |  |
 | New folder | No | — |  |
-| Open folder | Yes | The folder <...> was opened. |  |
-| Delete folder | Yes | Folder <...> was moved from folder <...> to folder \Deleted Items. |  |
-| Empty folder | Yes | The folder <...> was opened. |  |
+| Open folder | Yes | The folder `<...>` was opened. |  |
+| Delete folder | Yes | Folder `<...>` was moved from folder `<...>` to folder \Deleted Items. |  |
+| Empty folder | Yes | The folder `<...>` was opened. |  |
 | Edit folder permissions | No | — |  |
-| Calendar | New event | Yes | Message was created in \Calendar with subject <...>. |
+| Calendar | New event | Yes | Message was created in \Calendar with subject `<...>`. |
 | Event read attempt | No | — |  |
-| Edit event | Yes | Message located in \Calendar with subject <...> was modified. |  |
-| Delete event | Yes | Message with subject <...> was moved from folder \Calendar to folder \Deleted Items. |  |
+| Edit event | Yes | Message located in \Calendar with subject `<...>` was modified. |  |
+| Delete event | Yes | Message with subject `<...>` was moved from folder \Calendar to folder \Deleted Items. |  |
 | People | New contact | Yes | Message was created in \Contacts\Recipient Cache with subject `<_contact name_>`. |
 | Contact read attempt | Yes | Folder \Contacts\Recipient Cache was opened. |  |
 | Edit contact | No | — |  |
-| Delete contact | Yes | Message with subject <...> was moved from folder \Contacts to folder \Deleted Items. |  |
-| Tasks | New task | Yes | Message was created in \Tasks with subject <...>. |
+| Delete contact | Yes | Message with subject `<...>` was moved from folder \Contacts to folder \Deleted Items. |  |
+| Tasks | New task | Yes | Message was created in \Tasks with subject `<...>`. |
 | Task read attempt | No | — |  |
-| Edit task | Yes | Message located in \Tasks with subject <...> was modified. |  |
-| Delete task | Yes | Message with subject <...> was moved from folder \Tasks to folder \Deleted Items. |  |
+| Edit task | Yes | Message located in \Tasks with subject `<...>` was modified. |  |
+| Delete task | Yes | Message with subject `<...>` was moved from folder \Tasks to folder \Deleted Items. |  |

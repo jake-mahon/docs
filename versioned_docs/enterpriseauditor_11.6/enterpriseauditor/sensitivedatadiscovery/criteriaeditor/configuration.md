@@ -14,7 +14,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
 
 - Navigation Path – Displays information on the current location within the Sensitive Data Criteria Editor
 - Name – Name of the criteria as it is shown in the navigation pane
-- Test Criteria Button – Opens the Criteria Tester window to test current criteria configurations. See the [Criteria Tester Window](#Criteria-Tester-Window) topic for additional information.
+- Test Criteria Button – Opens the Criteria Tester window to test current criteria configurations. See the [Criteria Tester Window](#criteria-tester-window) topic for additional information.
 - Confidence Level – Displays the current confidence level which indicates how accurate a match is for a criteria
 
   - The confidence level is reported on a scale from 0 - 100. The closer the number is to 100, the more accurate a match is for a criteria.

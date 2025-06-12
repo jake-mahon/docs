@@ -4,7 +4,7 @@
 
 ## Behavior Details
 
-The task reads files from the source directory, usually the [temp folder > ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#temp-folder-ExportOutput) folder.
+The task reads files from the source directory, usually the [temp folder > ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#temp-folder-exportoutput) folder.
 
 ### Cleanse data
 
@@ -21,7 +21,7 @@ The result of the _Prepare-Synchronization_ is stored in the [_export directory_
 - Duplicates are kept in a separate ```.duplicates.csv``` file.
 - Null primary key entries are kept in a separate ```.nullpk.csv``` file.
 
-All files produced by the task are in the [work folder > Collect](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#work-folder-Collect) directory.
+All files produced by the task are in the [work folder > Collect](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#work-folder-collect) directory.
 
 ### Compute changes
 
@@ -82,7 +82,7 @@ The figure models the complete _Prepare-Synchronization_ steps applied to an Act
 | --- | --- |
 | --agent   required | __Type__    [Agent](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/agent/index.md)    __Description__ Identifier of the [agent](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/agent/index.md) where the task runs. |
 | --connector   required | __Type__    [Connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)    __Description__ Identifier of the linked connector. The task is linked to a connector whose entity types are synchronized. |
-| --synchronization-mode   required | __Type__    [SynchronizationMode](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#SynchronizationMode)    __Description__ Synchronization mode for this task can be one of the following:   - Initial - Complete - Incremental     This must be the same as the associated Export and Synchronize tasks.   Use _initial_ if this is the first time the target managed system is synchronized.   Use _complete_ to load the data from the managed system as a whole.   Use _incremental_ to consider only incremental changes from the last synchronization. In _incremental_ mode, the Prepare-Synchronization task computes changes in the source managed system since the last _Prepare-Synchronization_. |
+| --synchronization-mode   required | __Type__    [SynchronizationMode](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#synchronizationmode)    __Description__ Synchronization mode for this task can be one of the following:   - Initial - Complete - Incremental     This must be the same as the associated Export and Synchronize tasks.   Use _initial_ if this is the first time the target managed system is synchronized.   Use _complete_ to load the data from the managed system as a whole.   Use _incremental_ to consider only incremental changes from the last synchronization. In _incremental_ mode, the Prepare-Synchronization task computes changes in the source managed system since the last _Prepare-Synchronization_. |
 | --sources-directory   default value: ExportOutput | __Type__    String   __Description__ Directory path, relative to [temp folder](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#temp-folder), from which export files to cleanse are read. |
 | --working-directory   default value: Collect | __Type__    String   __Description__ The directory path, relative to [work folder](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#work-folder), to which intermediary and cleansed files are stored. |
 |  |  |

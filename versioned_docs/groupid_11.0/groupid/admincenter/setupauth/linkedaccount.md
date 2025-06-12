@@ -9,8 +9,8 @@ NOTE: The Linked Account authentication type is available for multifactor authen
 
 What do you want to do?
 
-- [Enable Linked Account Authentication for an Identity Store](#Enable-Linked-Account-Authentication-for-an-Identity-Store)
-- [Enforce Linked Account Authentication for a Security Role](#Enforce-Linked-Account-Authentication-for-a-Security-Role)
+- [Enable Linked Account Authentication for an Identity Store](#enable-linked-account-authentication-for-an-identity-store)
+- [Enforce Linked Account Authentication for a Security Role](#enforce-linked-account-authentication-for-a-security-role)
 
 ## Enable Linked Account Authentication for an Identity Store
 
@@ -20,7 +20,7 @@ To enable it, see the [Enable Authentication Types](/versioned_docs/groupid_11.0
 
 ## Enforce Linked Account Authentication for a Security Role
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 

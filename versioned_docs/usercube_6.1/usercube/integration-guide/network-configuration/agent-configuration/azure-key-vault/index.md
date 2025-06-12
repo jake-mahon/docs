@@ -5,7 +5,7 @@
 First, NETWRIX recommends reading:
 
 - [Azure Key Vault's overview documentation](https://docs.microsoft.com/en-us/azure/key-vault/general/overview) and [Basic concepts](https://docs.microsoft.com/azure/key-vault/general/basic-concepts);
-- how to [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-Azure-and-create-a-vault);
+- how to [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-azure-and-create-a-vault);
 - about [Azure Key Vault's secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets) because secrets are the data that Usercube needs to collect.
 
 ## Compatible Settings

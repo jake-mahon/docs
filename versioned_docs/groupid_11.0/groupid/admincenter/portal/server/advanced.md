@@ -2,13 +2,13 @@
 
 Advanced settings allow you to customize the functionality and appearance of a portal. For example, you can set the default landing page, change the portal logo, show or hide the help link, display enrollment reminders, and more.
 
-Default values for all advanced settings are specified for a portal. You can update any setting as required. You can also import these advanced settings for a portal from a previous GroupID version. See step 13 in the [Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Native-IIS) topic.
+Default values for all advanced settings are specified for a portal. You can update any setting as required. You can also import these advanced settings for a portal from a previous GroupID version. See step 13 in the [Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis) topic.
 
 You can manage the following advanced settings for a portal:
 
-- [Portal & Search](#Portal-Search)
-- [Listings Display](#Listings-Display)
-- [Miscellaneous](#Miscellaneous)
+- [Portal & Search](#portal-search)
+- [Listings Display](#listings-display)
+- [Miscellaneous](#miscellaneous)
 
 ## Portal & Search
 
@@ -50,7 +50,7 @@ NOTE: Individual users can personalize all except the _Display Nested Ownership_
 
 What do you want to do?
 
-- [Update a Setting](#Update-a-Setting)
+- [Update a Setting](#update-a-setting)
 
 ## Update a Setting
 
@@ -60,9 +60,9 @@ What do you want to do?
 3. Click __Advanced Settings__ under __Server Settings__.
 4. On the __Advanced Settings__ page, navigate to the required setting and update it.
 
-   - To change general portal settings, see the [Portal & Search](#Portal-Search) table.
-   - To change display settings for groups, see the [Listings Display](#Listings-Display) table.
-   - To manage other settings, see the [Miscellaneous](#Miscellaneous) table.
+   - To change general portal settings, see the [Portal & Search](#portal-search) table.
+   - To change display settings for groups, see the [Listings Display](#listings-display) table.
+   - To manage other settings, see the [Miscellaneous](#miscellaneous) table.
 5. Click __Save__.
 
 __See Also__

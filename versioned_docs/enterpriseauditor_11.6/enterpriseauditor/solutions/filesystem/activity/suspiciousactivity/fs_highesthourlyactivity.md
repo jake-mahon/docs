@@ -23,7 +23,7 @@ The Notification analysis task is an optional analysis task which requires confi
 - Hour Activity Notification – Alerts when large amounts of activity for a user have occurred within an hour
 
   - Add recipients, notification subject, and email content
-  - See the [Configure the Notification Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#Configure-the-Notification-Analysis-Task) topic for additional information
+  - See the [Configure the Notification Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#configure-the-notification-analysis-task) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the FS\_HighestHourlyActivity job produces the following pre-configured report:
 

@@ -18,7 +18,7 @@ Click Netwrix Password Policy Enforcer in the left pane to display this view. Wi
 Click  __Password Policy Server__ in the left pane to display this view. With this view, you can perform the following actions:
 
 - Edit [PPS Properties Page](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/properties.md)
-- Display the [Compromised Password Checker](#Compromised-Password-Checker) page
+- Display the [Compromised Password Checker](#compromised-password-checker) page
 - Run [HIBP Updater](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/hibpupdater.md)
 - [Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md) to a configuration
 - Display the [Support Tools](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/support_tools.md) page

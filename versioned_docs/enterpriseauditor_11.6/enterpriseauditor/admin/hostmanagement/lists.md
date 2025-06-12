@@ -6,8 +6,8 @@ A host list is a grouping of hosts for the purpose of executing jobs against. Ev
 
 There are two types of host lists:
 
-- Dynamic host lists – Auto-populated and updated according to the most recent inventory information available for the hosts. They include both the default host lists and custom created dynamic host lists. See the [Dynamic Host Lists](#Dynamic-Host-Lists) topic for additional information.
-- Static host lists – Only changed manually or through a scheduled host discovery query. They include both host lists created during host discovery queries and custom created static host lists. See the [Static Host Lists](#Static-Host-Lists) topic for additional information.
+- Dynamic host lists – Auto-populated and updated according to the most recent inventory information available for the hosts. They include both the default host lists and custom created dynamic host lists. See the [Dynamic Host Lists](#dynamic-host-lists) topic for additional information.
+- Static host lists – Only changed manually or through a scheduled host discovery query. They include both host lists created during host discovery queries and custom created static host lists. See the [Static Host Lists](#static-host-lists) topic for additional information.
 
 A newly created host list will appear in alphanumerical order under the Host Management node. The icon in front of the host list will indicate which type of host list it is:
 
@@ -23,7 +23,7 @@ You can view host inventory information at the Host Discovery node (the Host Mas
 
 Dynamic host lists are lists of hosts that are grouped according to selected criteria within the host inventory. Each time a host inventory record is refreshed, the hosts are automatically added to or removed from dynamic host lists in accordance with the criteria set for the list. They include both the default host lists and custom created dynamic host lists. See the [Host Inventory](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostinventory.md) topic for a list of the default host lists and instructions on controlling which of these lists are visible under the Host Management node.
 
-Custom dynamic host lists are created by filtering the data grid and using the [Save Current View](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/saveview.md) option in the Activities pane or right-click menu. This can be done at the Host Management node with the Host Master Table or at any host list node. See the [Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#Filter) topic for additional information on filtering data grids.
+Custom dynamic host lists are created by filtering the data grid and using the [Save Current View](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/saveview.md) option in the Activities pane or right-click menu. This can be done at the Host Management node with the Host Master Table or at any host list node. See the [Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#filter) topic for additional information on filtering data grids.
 
 ___RECOMMENDED:___  Do not modify the criteria once a dynamic based list has been created. It is better to delete and recreate the list in order to modify a dynamic-based list.
 

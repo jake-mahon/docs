@@ -28,8 +28,8 @@ Where is history displayed?
 History Retention
 
 The _history retention_ setting for an identity store enables you to choose whether you want to keep history data forever or for a specific period. See the
-[Retain Complete History Data](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#Retain-Complete-History-Data) and
-[Retain History for a Specific Period](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#Retain-History-for-a-Specific-Period) topics. Your desired setting applies to all history tracked for the respective identity store, including that tracked for helpdesk and Admin Center.
+[Retain Complete History Data](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-complete-history-data) and
+[Retain History for a Specific Period](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-history-for-a-specific-period) topics. Your desired setting applies to all history tracked for the respective identity store, including that tracked for helpdesk and Admin Center.
 
 NOTE: Actions tracked under Admin Center history are independent of an identity store. In this case, history retention settings apply to a history item in the context of the identity store selected by the user to log into Admin Center to perform that action.   
 __Example:__ UserA selects IdentityStoreA to sign into Admin Center and creates an SMS gateway account. This user then selects IdentityStoreB to sign into Admin Center and creates a GroupID portal. Both actions are logged in Admin Center history. However, history retention setting of IdentityStoreA will apply to the SMS gateway account creation action and that of IdentityStoreB will apply to the GroupID portal creation action.

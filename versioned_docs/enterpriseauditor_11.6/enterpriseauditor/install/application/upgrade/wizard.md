@@ -6,7 +6,7 @@ Follow the steps to upgrade to Enterprise Auditor 11.6 on the same server where 
 
 __NOTE:__ If any customizations have been done by a Netwrix Engineer, please ensure the custom work is not lost during the upgrade process. While using the Upgrade Wizard, customizations are archived prior to solution upgrades. These archives are available after the solution upgrades have been completed. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional information.
 
-__CAUTION:__ The new global Settings will overwrite any previously configured Sensitive Data criteria. Make a note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor. Sensitive Data Criteria must be reconfigured after an upgrade. See the [Configure Global Sensitive Data Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/solutionconsiderations.md#Configure-Global-Sensitive-Data-Settings) topic for additional information.
+__CAUTION:__ The new global Settings will overwrite any previously configured Sensitive Data criteria. Make a note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor. Sensitive Data Criteria must be reconfigured after an upgrade. See the [Configure Global Sensitive Data Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/solutionconsiderations.md#configure-global-sensitive-data-settings) topic for additional information.
 
 ![Windows Control Panel Uninstall or change a program window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/controlpaneluninstall.png)
 

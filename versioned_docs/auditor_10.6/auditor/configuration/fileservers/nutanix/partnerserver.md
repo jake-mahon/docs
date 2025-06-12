@@ -2,15 +2,15 @@
 
 To start monitoring files and folders on Nutanix File Server, you should configure Netwrix Auditor Server as a partner server for Nutanix File Server.
 
-This configuration procedure involves creation of API requests and assumes that you have an good understanding of REST API concept, as well as experience in working with JSON-formatted requests in some API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#Nutanix-documentation)
+This configuration procedure involves creation of API requests and assumes that you have an good understanding of REST API concept, as well as experience in working with JSON-formatted requests in some API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#nutanix-documentation)
 
 To create a partner server for Nutanix File Server via API:
 
 1. Open the __File Server REST API Explorer__ REST API client using the following URL:   
 
-    ```https://<fileserver_ip>:9440/api/nutanix/v3/api_explorer/index.html#/```
+    ```https://`<fileserver_ip>`:9440/api/nutanix/v3/api_explorer/index.html#/```
 
-   here ```<fileserver_ip>``` - IP address of the Nutanix File Server to be audited.
+   here `<fileserver_ip>` - IP address of the Nutanix File Server to be audited.
 
 If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI Explorer for Prism__ server will be opened.
 
@@ -20,10 +20,11 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
     ``` POST /partner_servers```
 
-[![api](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api.png)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/api.png)
+![api](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api.png)
 
 5. In the request body, enter the following JSON-formatted structure:
 
+```json
 {
 
 "spec": {
@@ -63,12 +64,13 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 }
 
 }
+```
 
 here:
 
-_<NAME_OF_PARTNER_SERVER>_ - enter the Netwrix Auditor server name
+_`<NAME_OF_PARTNER_SERVER>`_ - enter the Netwrix Auditor server name
 
-_<IP_OF_NETWRIX_AUDITOR>_ - enter the Netwrix Auditor server IP address
+_`<IP_OF_NETWRIX_AUDITOR>`_ - enter the Netwrix Auditor server IP address
 
 This address must be visible from the Nutanix File Server network.
 
@@ -78,7 +80,7 @@ This address must be visible from the Nutanix File Server network.
 
     ```POST /partner_servers/list```
 
-The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ```{ }```
+The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ``{ }``
 
 [![api_partner_server_resquest](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api_partner_server_resquest.png)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/api_partner_server_resquest.png)
 

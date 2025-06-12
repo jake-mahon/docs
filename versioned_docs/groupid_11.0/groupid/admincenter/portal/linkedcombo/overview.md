@@ -32,9 +32,9 @@ NOTE: If data in the source file is updated, you must reload the file for change
 
 What do you want to do?
 
-- [Define a Linked Combo Display Type](#Define-a-Linked-Combo-Display-Type)
-- [Implement a Linked Combo](#Implement-a-Linked-Combo)
-- [Reload the Source Data File](#Reload-the-Source-Data-File)
+- [Define a Linked Combo Display Type](#define-a-linked-combo-display-type)
+- [Implement a Linked Combo](#implement-a-linked-combo)
+- [Reload the Source Data File](#reload-the-source-data-file)
 
 ## Define a Linked Combo Display Type
 

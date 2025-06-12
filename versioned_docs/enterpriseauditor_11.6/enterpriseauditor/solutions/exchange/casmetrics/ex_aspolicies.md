@@ -13,7 +13,7 @@ The following query is included in the EX\_ASPolicies Job.
 - Exchange Settings – Collects user policy information
 
   - By default set to search all mailboxes. However, it can be scoped.
-  - See the [Scope the ExchangePS Data Collector](#Scope-the-ExchangePS-Data-Collector) topic for additional information
+  - See the [Scope the ExchangePS Data Collector](#scope-the-exchangeps-data-collector) topic for additional information
 
 ### Scope the ExchangePS Data Collector
 

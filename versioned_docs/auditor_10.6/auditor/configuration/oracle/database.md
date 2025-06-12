@@ -2,8 +2,8 @@
 
 This topic explains how to configure Oracle Database for the following versions of the Oracle Database Software:
 
-- [Configure Oracle Database 12c, 18c, 19c for Auditing](#Configure-Oracle-Database-12c-18c-19c-for-Auditing)
-- [Configure Oracle Database 11g for Auditing](#Configure-Oracle-Database-11g-for-Auditing)
+- [Configure Oracle Database 12c, 18c, 19c for Auditing](#configure-oracle-database-12c-18c-19c-for-auditing)
+- [Configure Oracle Database 11g for Auditing](#configure-oracle-database-11g-for-auditing)
 
 ## Configure Oracle Database 12c, 18c, 19c for Auditing
 
@@ -51,8 +51,8 @@ To configure Oracle Database 12c, 18c, 19c Unified Auditing
 
 For additional information on ```CREATE AUDIT POLICY``` and ```AUDIT POLICY``` parameters, see the following Oracle Database administration documents:
 
-- ```[CREATE AUDIT POLICY](https://docs.oracle.com/database/121/SQLRF/statements_5001.htm#CREATE-AUDIT-POLICY)```
-- ```[AUDIT POLICY](http://docs.oracle.com/database/121/SQLRF/statements_4008.htm#AUDIT-POLICY)```
+- ```[CREATE AUDIT POLICY](https://docs.oracle.com/database/121/SQLRF/statements_5001.htm#create-audit-policy)```
+- ```[AUDIT POLICY](http://docs.oracle.com/database/121/SQLRF/statements_4008.htm#audit-policy)```
 
 Currently, Netwrix Auditor checks audit settings for Unified Auditing when accomptability is enabled for ```ACTIONS```. If any of your current settings conflict with the audit configuration required for Netwrix Auditor, these conflicts will be listed in the Netwrix Auditor System Health event log.
 
@@ -61,13 +61,13 @@ Also, remember to do the following:
 - Configure Data Collecting Account as described in [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md) topic.
 - Configure ports as described in [Oracle Database Ports](/versioned_docs/auditor_10.6/auditor/configuration/oracle/ports.md) topic.
 
-__NOTE:__ Traditional auditing is deprecated in Oracle Database 21c. Oracle recommends using Unified Auditing, which enables selective and more effective auditing within Oracle Database. See the [Oracle website](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/AUDIT-Traditional-Auditing.html#Oracle-website) for more information.
+__NOTE:__ Traditional auditing is deprecated in Oracle Database 21c. Oracle recommends using Unified Auditing, which enables selective and more effective auditing within Oracle Database. See the [Oracle website](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/AUDIT-Traditional-Auditing.html#oracle-website) for more information.
 
 ## Configure Oracle Database 11g for Auditing
 
 This section explains how to configure __Standard Auditing__ on your Oracle Database 11g, preparing for monitoring with the product.
 
-Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the [Considerations for Oracle Database 11g](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md#Considerations-for-Oracle-Database-11g) topic for additional information.
+Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the [Considerations for Oracle Database 11g](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g) topic for additional information.
 
 Verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured on the computer where Auditor Server is installed. The product does not provide any special notification for that.
 
@@ -109,7 +109,7 @@ __Step 4 –__ If you turned auditing on or off, you will need to restart the da
 
 If you only changed auditing settings, database restart is not required.
 
-If you are using Oracle Real Application Clusters (RAC), see the [Starting and Stopping Instances and Oracle RAC Databases](https://docs.oracle.com/cd/E11882_01/rac.112/e41960/admin.htm#Starting-and-Stopping-Instances-and-Oracle-RAC-Databases) section in Real Application Clusters Administration and Deployment Guide for additional information on restarting your instances.
+If you are using Oracle Real Application Clusters (RAC), see the [Starting and Stopping Instances and Oracle RAC Databases](https://docs.oracle.com/cd/E11882_01/rac.112/e41960/admin.htm#starting-and-stopping-instances-and-oracle-rac-databases) section in Real Application Clusters Administration and Deployment Guide for additional information on restarting your instances.
 
 ### Enable Auditing of Oracle Database Changes
 
@@ -135,8 +135,8 @@ __Step 4 –__ Depending on your monitoring requirements, enable auditing of the
 
 For additional information on ```ALTER SYSTEM``` and ```AUDIT``` parameters, see the following Oracle database administration documents:
 
-- ```[AUDIT_TRAIL](https://docs.oracle.com/cd/E11882_01/server.112/e40402/initparams017.htm#AUDIT_TRAIL)```
-- ```[AUDIT](http://docs.oracle.com/cd/E11882_01/server.112/e41084/statements_4007.htm#AUDIT)```
+- ```[AUDIT_TRAIL](https://docs.oracle.com/cd/E11882_01/server.112/e40402/initparams017.htm#audit_trail)```
+- ```[AUDIT](http://docs.oracle.com/cd/E11882_01/server.112/e41084/statements_4007.htm#audit)```
 
 After an audit parameter has been enabled or disabled, Auditor will start collecting data after successful logon session.
 

@@ -4,7 +4,7 @@ While creating or editing mail enabled objects through a Synchronize job, GroupI
 
 What do you want to do?
 
-- [Sync Exchange subscriptions](#Sync-Exchange-subscriptions)
+- [Sync Exchange subscriptions](#sync-exchange-subscriptions)
 
 ## Sync Exchange subscriptions
 

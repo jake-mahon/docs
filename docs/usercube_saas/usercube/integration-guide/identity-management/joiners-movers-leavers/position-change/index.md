@@ -98,7 +98,7 @@ The final step to a viable model is to find a way to store optimally this contex
 
 While there are as many contexts for a user as the number of changes in the user's datasheet, there are only as many records as needed to store each value at least once.
 
-> With the example used for the explanation of contexts with ```PD```, ```C1```, ```C2```, ```P1``` and ```P2```, we generate 5 contexts but store only 2 records: ```{PD; C1; P1}``` and ```{PD; C2; P2}```.
+> With the example used for the explanation of contexts with ```PD```, ```C1```, ```C2```, ```P1``` and ```P2```, we generate 5 contexts but store only 2 records: ``{PD; C1; P1}`` and ``{PD; C2; P2}``.
 >
 > From these 2 records, we can rebuild the 5 contexts.
 

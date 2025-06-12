@@ -57,7 +57,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 See the following topics for additional information:
 
-- [Configure NetApp Clustered Data ONTAP 8 and ONTAP 9 for Monitoring](#Configure-NetApp-Clustered-Data-ONTAP-8-and-ONTAP-9-for-Monitoring)
+- [Configure NetApp Clustered Data ONTAP 8 and ONTAP 9 for Monitoring](#configure-netapp-clustered-data-ontap-8-and-ontap-9-for-monitoring)
 - [Configure Audit Settings for CIFS File Shares](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/cifs.md)
 
 The following table lists the actions that can be performed on NetApp:
@@ -84,11 +84,11 @@ Actions marked with an asterisks (\*) are reported for NetApp Clustered Data ONT
 
 To configure Clustered Data ONTAP 8 and ONTAP 9 for monitoring, perform the following procedures:
 
-- [Prerequisites ](#Prerequisites)
-- [Configure ONTAPI\RESTAPI Web Access](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/webaccess.md#Configure-ONTAPIRESTAPI-Web-Access)
-- [Configure System Service Firewall Policies](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/ports.md#Configure-System-Service-Firewall-Policies)
-- [Configure Service Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/servicepolicy.md#Configure-Service-Policy)
-- [Configure Event Categories and Log](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/eventcategories.md#Configure-Event-Categories-and-Log)
+- [Prerequisites ](#prerequisites)
+- [Configure ONTAPI\RESTAPI Web Access](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/webaccess.md#configure-ontapirestapi-web-access)
+- [Configure System Service Firewall Policies](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/ports.md#configure-system-service-firewall-policies)
+- [Configure Service Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/servicepolicy.md#configure-service-policy)
+- [Configure Event Categories and Log](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/eventcategories.md#configure-event-categories-and-log)
 
 ### Prerequisites
 

@@ -17,7 +17,7 @@ The following query is included in the EX\_IISLogs Job:
 - IIS Logs – Collects IIS Logs
 
   - By default set to process log files for the last 3 days. This time frame can be modified
-  - See the [Configure the IIS Logs Query](#Configure-the-IIS-Logs-Query) topic for additional information
+  - See the [Configure the IIS Logs Query](#configure-the-iis-logs-query) topic for additional information
 
 ### Configure the IIS Logs Query
 

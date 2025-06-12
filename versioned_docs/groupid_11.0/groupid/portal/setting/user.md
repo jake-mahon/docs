@@ -6,12 +6,12 @@ Administrators can also reset the passwords of other user accounts in the identi
 
 What do you want to do?
 
-- [Update your account information](#Update-your-account-information)
-- [Add a photo to your profile](#Add-a-photo-to-your-profile)
-- [Set a user account to never expire](#Set-a-user-account-to-never-expire)
-- [Set a user account to expire on a specific date](#Set-a-user-account-to-expire-on-a-specific-date)
-- [Lock/Unlock a user account](#LockUnlock-a-user-account)
-- [Enable/Disable a user account](#EnableDisable-a-user-account)
+- [Update your account information](#update-your-account-information)
+- [Add a photo to your profile](#add-a-photo-to-your-profile)
+- [Set a user account to never expire](#set-a-user-account-to-never-expire)
+- [Set a user account to expire on a specific date](#set-a-user-account-to-expire-on-a-specific-date)
+- [Lock/Unlock a user account](#lockunlock-a-user-account)
+- [Enable/Disable a user account](#enabledisable-a-user-account)
 
 ## Update your account information
 

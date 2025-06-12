@@ -18,7 +18,7 @@ In the middle section, select the desired checkboxes for additional settings:
 - Enable scanning of files protected by Azure Information Protection – Adds additional options to this wizard to scan for protection labels and encrypted files for sensitive data
 
   - See the [Azure Information Protection Target Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md) for additional information.
-- Use SQL query to manually specify shares – For advanced SQL users. This option provides a least privileged model for enumerating shares. It bypasses share permission requirements and eliminates the need for the Connection Profile credentials to have local Administrator or Power User permissions. Click __Configure Query__ to open the Manual Shares Query window. See the [Enable the Use SQL Query to Manually Specify Shares](#Enable-the-Use-SQL-Query-to-Manually-Specify-Shares) topic for additional information.
+- Use SQL query to manually specify shares – For advanced SQL users. This option provides a least privileged model for enumerating shares. It bypasses share permission requirements and eliminates the need for the Connection Profile credentials to have local Administrator or Power User permissions. Click __Configure Query__ to open the Manual Shares Query window. See the [Enable the Use SQL Query to Manually Specify Shares](#enable-the-use-sql-query-to-manually-specify-shares) topic for additional information.
 - NetApp communication security – This option provides the ability to choose levels of encryption and authentication applied during Access Auditing scans of NetApp devices
 
   ![NetApp communication security options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettingsnetapp.png)
@@ -30,7 +30,7 @@ In the middle section, select the desired checkboxes for additional settings:
     - Alternative use for this option would be for access scans within a trusted and secured network
   - HTTP – Applies no encryption or authentication of communication
 
-  The HTTPS options require Enterprise Auditor to have access to the targeted server’s SSL certificate. Enterprise Auditor ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the [HTTPS Encryption Certificate for FSAA & NetApp Communication](#HTTPS-Encryption-Certificate-for-FSAA-NetApp-Communication) topic for information on adding the organization’s certificate.
+  The HTTPS options require Enterprise Auditor to have access to the targeted server’s SSL certificate. Enterprise Auditor ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the [HTTPS Encryption Certificate for FSAA & NetApp Communication](#https-encryption-certificate-for-fsaa-netapp-communication) topic for information on adding the organization’s certificate.
 
 The bottom section is only available for the File System Access/Permission Auditing Scan and Sensitive Data Scan categories and contains the following options:
 

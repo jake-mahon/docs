@@ -2,7 +2,7 @@
 
 The Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that provides centralized authentication, authorization, and accounting management for users connecting to a network service.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#Add-an-Authentication-Provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 

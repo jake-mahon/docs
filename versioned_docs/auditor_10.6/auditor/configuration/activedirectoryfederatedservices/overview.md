@@ -15,7 +15,7 @@ Make sure you have Windows Remote Management properly configured on your Auditor
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
 
-- Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary. See the [Configure AD FS farm audit settings automatically](#Configure-AD-FS-farm-audit-settings-automatically) topic for additional information.
+- Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary. See the [Configure AD FS farm audit settings automatically](#configure-ad-fs-farm-audit-settings-automatically) topic for additional information.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
   - AD FS audit settings must be configured on the primary AD FS server, i.e. on the first server you have set up in the farm:
@@ -36,7 +36,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - ```auditpol.exe /set /subcategory:"Application Generated" /failure:enable /success:enable```
   - Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See [Adjusting Event Log Size and Retention Settings](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/eventlog.md) for details.
   - If AD FS Admin logging is disabled, you should enable it.
-  - See the [Configure AD FS farm manually](#Configure-AD-FS-farm-manually) topic for additional information.
+  - See the [Configure AD FS farm manually](#configure-ad-fs-farm-manually) topic for additional information.
 
 ## __Configure AD FS farm audit settings automatically__
 
@@ -44,7 +44,7 @@ Audit settings can be applied automatically if your monitoring plan has the prim
 
 __Step 1 –__ Select the AD FS data source in this monitoring plan (top row under the header), click __Edit data source__ to open its settings.
 
-[![mp_adfs_listing](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/mp_adfs_listing.png)
+![mp_adfs_listing](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing.png)
 
 __Step 2 –__ In the __Configure audit settings__ section, select __Adjust audit settings automatically__ check box.
 

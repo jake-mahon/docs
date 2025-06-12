@@ -15,7 +15,7 @@ Sensitive Data Discovery Add-on
 - Needs to be updated on all servers where it was installed. See the [Upgrade Sensitive Data Discovery Add-on](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/upgrade.md) topic for instructions.
 - __CAUTION:__ The new global Settings will overwrite any previously configured criteria. Make a note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor. Sensitive Data Criteria must be reconfigured after an upgrade.
 
-With the new global experience, sensitive data criteria selection is configured globally and used by default in all solution sets. See the [Configure Global Sensitive Data Settings](#Configure-Global-Sensitive-Data-Settings) for additional information.
+With the new global experience, sensitive data criteria selection is configured globally and used by default in all solution sets. See the [Configure Global Sensitive Data Settings](#configure-global-sensitive-data-settings) for additional information.
 
 Active Directory Solution Considerations
 

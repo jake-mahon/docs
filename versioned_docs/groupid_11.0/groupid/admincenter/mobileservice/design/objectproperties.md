@@ -9,9 +9,9 @@ You can customize the property page for an object by specifying the fields (attr
 
 What do you want to do?
 
-- [Add a Field to the Properties Page](#Add-a-Field-to-the-Properties-Page)
-- [Edit a Field on the Properties Page](#Edit-a-Field-on-the-Properties-Page)
-- [Remove a Field from the Properties Page](#Remove-a-Field-from-the-Properties-Page)
+- [Add a Field to the Properties Page](#add-a-field-to-the-properties-page)
+- [Edit a Field on the Properties Page](#edit-a-field-on-the-properties-page)
+- [Remove a Field from the Properties Page](#remove-a-field-from-the-properties-page)
 
 ## Add a Field to the Properties Page
 
@@ -51,7 +51,7 @@ __To update a field:__
    The __Name__ list displays the tabs currently available on the object’s properties page.
 6. Click __Edit__ for a form to modify it.
 7. On the __Edit Design Category__ pane click __Edit__ for a field to update it.  
-   The __Edit Field__ pane is displayed. Follow steps 8-10 in the [Add a Field to the Properties Page](#Add-a-Field-to-the-Properties-Page) topic to update the field.
+   The __Edit Field__ pane is displayed. Follow steps 8-10 in the [Add a Field to the Properties Page](#add-a-field-to-the-properties-page) topic to update the field.
 
 ## Remove a Field from the Properties Page
 

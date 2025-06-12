@@ -16,7 +16,7 @@ The requirements specific to the Robot Framework Selenium library are as follows
 
 - Robot Framework selenium library: use ```pip install --upgrade robotframework-seleniumlibrary``` in the command prompt.
 - A web browser.
-- A web driver that corresponds to the web browser and its version. Webdrivers can be found in the [Selenium website](https://www.selenium.dev/selenium/docs/api/py/index.html#Selenium-website). This web driver should be in your path. To check that the web driver is in your path, use ```gcm {webdriver_name}```. As an example for Edge, use ```gcm MicrosoftWebDriver```.
+- A web driver that corresponds to the web browser and its version. Webdrivers can be found in the [Selenium website](https://www.selenium.dev/selenium/docs/api/py/index.html#selenium-website). This web driver should be in your path. To check that the web driver is in your path, use ```gcm {webdriver_name}```. As an example for Edge, use ```gcm MicrosoftWebDriver```.
 
 The web driver for Edge is called ```msedgedriver.exe```, but the Robot Framework may expect it to be called ```MicrosoftWebDriver.exe``` depending on the python version. Renaming the web driver from ```msedgedriver.exe``` to ```MicrosoftWebDriver.exe``` should fix this issue.
 
@@ -32,7 +32,7 @@ The basic structure of a web page is defined with HTML. It is accessible with th
 
 ![Inspect Tool](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_inspecttool.png)
 
-Suppose the goal of the script is to copy the content of the code block, and paste it to a file, to ensure that the file is up to date with the documentation. To do this, the Robot Framework has to click on the __copy to clipboard__ button with the keyword [```Click Element```](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Click-Element).
+Suppose the goal of the script is to copy the content of the code block, and paste it to a file, to ensure that the file is up to date with the documentation. To do this, the Robot Framework has to click on the __copy to clipboard__ button with the keyword [```Click Element```](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#click-element).
 
 ## Locating elements
 

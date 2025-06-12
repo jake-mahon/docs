@@ -39,7 +39,7 @@ History retention should not be enabled on this job group. History is kept throu
 | EX\_MetricsCollection | SET HISTORY RETENTION | 6 Months |
 | EX\_MetricsDetails | SET HISTORY RETENTION | 6 Months |
 
-See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information.
+See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information.
 
 Query Configuration
 

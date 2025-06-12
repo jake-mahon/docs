@@ -18,13 +18,13 @@ __Step 3 –__ On the Specify Agent Port page, specify the port that should be u
 
 __Step 4 –__ Windows or Linux hosts can be entered as either a name or an IP Address. The options are:
 
-- Add server — Opens the Host name or IP address window. See the [Manual Entry](#Manual-Entry) topic for additional information.
+- Add server — Opens the Host name or IP address window. See the [Manual Entry](#manual-entry) topic for additional information.
 - Remove — Removes an entered host name or IP address from the table
-- Import — Opens the Import from file window. See the [Import a List](#Import-a-List) topic for additional information.
+- Import — Opens the Import from file window. See the [Import a List](#import-a-list) topic for additional information.
 
 There are two methods for adding multiple hosts are:
 
-Manual Entry
+## Manual Entry
 
 Use __Manual Entry__ to manually type the host names or IP addresses of the servers to be monitored.
 
@@ -36,7 +36,7 @@ For Manual Entry, the options are:
 - Enter the servers, separating the hosts with spaces, commas, or semicolons.
   - (Optional) A multi-line list can be pasted into this textbox. When the servers have been entered, click OK. The Host name or IP address window closes and the identified servers are in the list.
 
-Import a List
+## Import a List
 
 Use __Import a List__ to import host names or IP addresses from an external source.
 

@@ -4,20 +4,20 @@ After creating a job, you can open a job to edit and change the settings of the 
 
 What do you want to do?
 
-- [Filter a Job](#Filter-a-Job)
-- [Open a Job](#Open-a-Job)
-- [Run a Job](#Run-a-Job)
-- [Edit a Job](#Edit-a-Job)
-- [Deleting a Job](#Deleting-a-Job)
-- [Preview a Job](#Preview-a-Job)
-- [Schedule a Job](#Schedule-a-Job)
-- [Pin a Job](#Pin-a-Job)
-- [Save as Template](#Save-as-Template)
-- [Duplicate a Job](#Duplicate-a-Job)
-- [View Job Details](#View-Job-Details)
-- [Export a Job](#Export-a-Job)
-- [Import a Job](#Import-a-Job)
-- [Rename a Job](#Rename-a-Job)
+- [Filter a Job](#filter-a-job)
+- [Open a Job](#open-a-job)
+- [Run a Job](#run-a-job)
+- [Edit a Job](#edit-a-job)
+- [Deleting a Job](#deleting-a-job)
+- [Preview a Job](#preview-a-job)
+- [Schedule a Job](#schedule-a-job)
+- [Pin a Job](#pin-a-job)
+- [Save as Template](#save-as-template)
+- [Duplicate a Job](#duplicate-a-job)
+- [View Job Details](#view-job-details)
+- [Export a Job](#export-a-job)
+- [Import a Job](#import-a-job)
+- [Rename a Job](#rename-a-job)
 
 ## Filter a Job
 

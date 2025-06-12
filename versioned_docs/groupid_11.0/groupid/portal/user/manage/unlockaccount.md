@@ -18,9 +18,9 @@ With authentication disabled, you cannot authenticate yourself on the GroupID po
 
 What do you want to do?
 
-- [Unlock identity store user accounts (after wrong password attempts) - enrolled users ](#Unlock-identity-store-user-accounts-after-wrong-password-attempts-enrolled-users)
-- [Unlock identity store user accounts (after wrong password attempts) - unenrolled users](#Unlock-identity-store-user-accounts-after-wrong-password-attempts-unenrolled-users)
-- [Unlock identity store user accounts (after providing wrong response to authentication types) - enrolled and unenrolled users](#Unlock-identity-store-user-accounts-after-providing-wrong-response-to-authentication-types-enrolled-and-unenrolled-users)
+- [Unlock identity store user accounts (after wrong password attempts) - enrolled users ](#unlock-identity-store-user-accounts-after-wrong-password-attempts-enrolled-users)
+- [Unlock identity store user accounts (after wrong password attempts) - unenrolled users](#unlock-identity-store-user-accounts-after-wrong-password-attempts-unenrolled-users)
+- [Unlock identity store user accounts (after providing wrong response to authentication types) - enrolled and unenrolled users](#unlock-identity-store-user-accounts-after-providing-wrong-response-to-authentication-types-enrolled-and-unenrolled-users)
 
 ### Unlock identity store user accounts (_after wrong password attempts_) - enrolled users
 

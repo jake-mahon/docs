@@ -39,9 +39,9 @@ Customize message search filter conditions using the following options:
 
   __NOTE:__ The values present depends on the selections made in the Select conditions box.
 
-  - Click __specific__ to open the MessageClasses Window. See the [MessageClasses Window (Message Conditions)](#MessageClasses-Window-Message-Conditions) topic for additional information.
-  - Click __in specific date__ to open the Date Range Selection Window. See the [Date Range Selection Window](#Date-Range-Selection-Window) topic for additional information.
-  - Click __search terms__ to open the Search Terms Window. See the [Search Terms Window (Message Conditions)](#Search-Terms-Window-Message-Conditions) topic for additional information.
+  - Click __specific__ to open the MessageClasses Window. See the [MessageClasses Window (Message Conditions)](#messageclasses-window-message-conditions) topic for additional information.
+  - Click __in specific date__ to open the Date Range Selection Window. See the [Date Range Selection Window](#date-range-selection-window) topic for additional information.
+  - Click __search terms__ to open the Search Terms Window. See the [Search Terms Window (Message Conditions)](#search-terms-window-message-conditions) topic for additional information.
   - Click __has attachment(s)__ to convert the condition to __has no attachment(s)__ and vice versa
 
 ## MessageClasses Window (Message Conditions)

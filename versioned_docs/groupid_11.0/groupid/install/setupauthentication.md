@@ -2,8 +2,8 @@
 
 While setting up GroupID, you must select an authentication mode for connecting to SQL Server (that hosts the GroupID database). There are two possible modes:
 
-- [SQL Server Authentication](#SQL-Server-Authentication)
-- [Windows Authentication](#Windows-Authentication)
+- [SQL Server Authentication](#sql-server-authentication)
+- [Windows Authentication](#windows-authentication)
 
 ## SQL Server Authentication
 

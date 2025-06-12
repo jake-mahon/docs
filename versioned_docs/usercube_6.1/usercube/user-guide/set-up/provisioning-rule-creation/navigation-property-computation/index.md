@@ -102,7 +102,7 @@ Fill an entity type with a navigation rule by proceeding as follows:
 
      > For example, account activation and deactivation can be managed according to the start and/or end dates.
    - __Criteria__: conditions that, if met, trigger the rule application.
-   > [Our example](#Our-example) would look like:
+   > [Our example](#our-example) would look like:
    >
    > ![Scalar Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.png)
 5. Click on __Create__ and see a line added on the rules page.
@@ -132,8 +132,8 @@ Fill an entity type with a query rule by proceeding as follows:
    - __Target Object__: property (or expression of properties) from the entity type pointed by the ```Property to fill```, which will be the value of the ```Property to fill``` if it matches the source object. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
    - __Source Object__: property (or expression of properties) from the source entity type, which TODO:. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
    - ```Offset of effective date```: time period that defines the actual effective date according to the value's start and/or end date. An offset of effective date can be useful for some attributes. For example, account activation and deactivation can be managed according to the start and/or end dates.
-   - ```Confidence Rate```: rate expressing the confidence in this link, and its priority order. [See the detailed explanation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md#See-the-detailed-explanation).
-   > [Our examples](#Our-examples) would look like:
+   - ```Confidence Rate```: rate expressing the confidence in this link, and its priority order. [See the detailed explanation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md#see-the-detailed-explanation).
+   > [Our examples](#our-examples) would look like:
    >
    > ![Query Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.png)
    >

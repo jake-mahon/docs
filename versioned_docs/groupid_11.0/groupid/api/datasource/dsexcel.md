@@ -2,7 +2,7 @@
 
 Use this API to create a new data source.
 
-See the [Create a Data Source for MS Excel](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#Create-a-Data-Source-for-MS-Excel) section of the [Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic for additional information on creating an Excel data source using GroupID interface.
+See the [Create a Data Source for MS Excel](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-ms-excel) section of the [Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic for additional information on creating an Excel data source using GroupID interface.
 
 ## Endpoint
 

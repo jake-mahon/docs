@@ -128,7 +128,7 @@ _Remember,_  the Schedule Service Account cannot be signed into an active sessio
 
 __Step 1 –__ Select a credential from the User Credentials list and click on __Edit__. The User Credentials window opens.
 
-__Step 2 –__ Modify the credential information as needed. See Step 2 of the [Create a Schedule Service Account](#Create-a-Schedule-Service-Account) topic for additional information.
+__Step 2 –__ Modify the credential information as needed. See Step 2 of the [Create a Schedule Service Account](#create-a-schedule-service-account) topic for additional information.
 
 __Step 3 –__ Click __OK__ and the credentials will be verified. If there are no problems with the provided credentials, the User Credentials window closes.
 

@@ -28,7 +28,7 @@ __Multiple selection__ is also enabled. It allows to add several users via the W
 
 ## Set and remove permissions
 
-By default, all added users or roles receive only the “Read” permission on the record. The “Read” permission at the beginning is sufficient to view the fields of the data record and to use the password. "Write" permission allows you to edit a data record. __The permission “Authorize” is necessary to authorize other users to the record__. This is also a requirement for the[Seals](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md#Seals).
+By default, all added users or roles receive only the “Read” permission on the record. The “Read” permission at the beginning is sufficient to view the fields of the data record and to use the password. "Write" permission allows you to edit a data record. __The permission “Authorize” is necessary to authorize other users to the record__. This is also a requirement for the [Seals](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md).
 
 ![setting all permissions example](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-4-en.png)
 

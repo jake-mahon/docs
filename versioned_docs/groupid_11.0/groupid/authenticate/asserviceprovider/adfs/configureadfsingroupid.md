@@ -10,7 +10,7 @@ To configure a SAML provider in GroupID, you have to specify the following:
 
 What do you want to do?
 
-- [Configure the AD FS Provider in GroupID](#Configure-the-AD-FS-Provider-in-GroupID)
+- [Configure the AD FS Provider in GroupID](#configure-the-ad-fs-provider-in-groupid)
 
 ## Configure the AD FS Provider in GroupID
 
@@ -80,7 +80,7 @@ Next, specify some advanced configurations for the identity provider. Expand the
    1. In the AD FS console click __Relying Party Trust__ in the left pane; the middle pane displays the relying party trusts already configured.
    2. Double-click the relying party trust that you created for the GroupID portal _Wizard_. This launches the Properties dialog box for the relying party trust.
    3. Click the __Endpoints__ tab and confirm that the binding type is _POST_.
-4. In AD FS, we configured an Active Directory attribute that the identity provider will use for authenticating users (see step 16 in the [Configure Relaying Party Trust in AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md#Configure-Relaying-Party-Trust-in-AD-FS) topic). In our example, we used the UPN attribute that stores the user principal name. Now in the __Advanced__ section, we have to refer to this attribute.  
+4. In AD FS, we configured an Active Directory attribute that the identity provider will use for authenticating users (see step 16 in the [Configure Relaying Party Trust in AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md#configure-relaying-party-trust-in-ad-fs) topic). In our example, we used the UPN attribute that stores the user principal name. Now in the __Advanced__ section, we have to refer to this attribute.  
    In the __Identity Location__ list, select the _Identity is an attribute element_ option.
 5. On selecting it, the __Identity Location Attribute__ box is displayed.   
    The attribute location will be in the form of a URL. Get this URL from AD FS.

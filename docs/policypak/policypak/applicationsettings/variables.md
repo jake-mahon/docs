@@ -8,7 +8,7 @@ You can use any value name from the following key and use it as an environment v
 
 But when you're using Endpoint Policy Manager Application Settings Manager, you can specify ```%desktop%\SomeFile.ini``` or ```%desktop%\SomeFile.rdp```. This is done the same way for Favorites; you can specify %favorites% (or any other Registry value name from that key) in both the DesignStudio and the MMC.
 
-As an extra tip, you should use ```%{374DE290-123F-4565-9164-39C4925E467B}%``` for downloads instead of %Downloads%. That's because the Registry value name for that folder is actually the odd name of ```{374DE290-123F-4565-9164-39C4925E467B}```.
+As an extra tip, you should use ```%{374DE290-123F-4565-9164-39C4925E467B}%``` for downloads instead of %Downloads%. That's because the Registry value name for that folder is actually the odd name of ``{374DE290-123F-4565-9164-39C4925E467B}``.
 
 Endpoint Policy Manager also supports the use of variables such as ```%USERPROFILE%\Favorites``` or ```%USERPROFILE%\Downloads```. When you use this, the variable will expand to something similar to``` C:\Users\Jake. Therefore```, the paths for ```%USERPROFILE%\Favorites``` and ```%USERPROFILE%\ Downloads``` should resolve (by default) to ```C:\Users\Jake\Favorites and C:\Users\Jake\Downloads```. That being said, there is no guarantee that the downloads will be redirected to another volume or even to a network share.
 

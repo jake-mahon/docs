@@ -9,7 +9,7 @@ Configuring access to CIFS shares using FPolicy and ONTAP API for Enterprise 
 - Configure Data LIF to Allow HTTPS Traffic
 - [Configure Empty FPolicy](/versioned_docs/enterpriseauditor_11.6/config/netappcmode/configureemptyfpolicy.md)
 
-See the [CIFS Method 2 Credential Configuration](#CIFS-Method-2-Credential-Configuration) topic for an alternative method.
+See the [CIFS Method 2 Credential Configuration](#cifs-method-2-credential-configuration) topic for an alternative method.
 
 ### Configure Data LIF to Allow HTTPS Traffic
 
@@ -62,7 +62,7 @@ A service policy can only be used by LIFs in the same SVM that is specified when
 
 ## CIFS Method 2 Credential Configuration
 
-Configuring access to CIFS shares using the special C$ share is an alternative least privileged access option for NetApp Data ONTAP Cluster-Mode devices v9.0+. See the [CIFS Method 1 Credential Configuration](#CIFS-Method-1-Credential-Configuration) topic for an alternative method.
+Configuring access to CIFS shares using the special C$ share is an alternative least privileged access option for NetApp Data ONTAP Cluster-Mode devices v9.0+. See the [CIFS Method 1 Credential Configuration](#cifs-method-1-credential-configuration) topic for an alternative method.
 
 The following permissions are required:
 

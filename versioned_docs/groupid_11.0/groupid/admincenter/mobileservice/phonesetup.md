@@ -26,11 +26,11 @@ NOTE: Since you can have multiple Mobile services as well as multiple instances 
 ### Manually Provide the Web Server URL
 
 The web server URL for a Mobile service or an instance of a service is displayed on the __GroupIDMobileService__ page (see
-the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#Launch-a-Mobile-Service-or-a-Service-Instance) topic). Provide it to your users to enable them to configure the app.
+the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance) topic). Provide it to your users to enable them to configure the app.
 
 __To get the URL of the page that displays the web server URL:__
 
-1. Launch the required Mobile service or its instance. (See the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#Launch-a-Mobile-Service-or-a-Service-Instance) topic.)
+1. Launch the required Mobile service or its instance. (See the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance) topic.)
 2. Copy the URL of the __GroupIDMobileService__ page and provide it to your users, so they can open this page in a web browser.
 
 __To enter the web server URL in the app:__
@@ -46,7 +46,7 @@ The QR code is an easy way to configure the GroupID app. Provide the QR code of 
 
 __To get the URL of the page that displays the QR code:__
 
-1. Launch the required Mobile service or its instance. (See the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#Launch-a-Mobile-Service-or-a-Service-Instance) topic.)
+1. Launch the required Mobile service or its instance. (See the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance) topic.)
 2. Copy the URL of the __GroupIDMobileService__ page and provide it to your users, so they can open this page in a web browser.
 
 __To configure the app with QR code:__

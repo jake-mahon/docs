@@ -2,10 +2,10 @@
 
 Recommendations in the sections below refer to deploying the product in the environments of different size:
 
-- [Small Environment](#Small-Environment)
-- [Regular Environment](#Regular-Environment)
-- [Large Environment](#Large-Environment)
-- [Extra-Large Environment](#Extra-Large-Environment)
+- [Small Environment](#small-environment)
+- [Regular Environment](#regular-environment)
+- [Large Environment](#large-environment)
+- [Extra-Large Environment](#extra-large-environment)
 
 If you are going to set up integration with Netwrix Data Classification, consider planning for 3 dedicated servers:
 

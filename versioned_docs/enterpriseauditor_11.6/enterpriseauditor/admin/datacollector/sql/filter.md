@@ -34,13 +34,13 @@ The Filter page is where the query can be scoped to target specific databases or
   - Db2LUW Permissions Scan
 - Utilities – Remove Storage Data
 
-It is necessary for the SA\_SQL\_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA\_SQL\_Instances table is populated through an instance discovery query. See the [0-SQL\_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA\_SQL\_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information. Once the table has been populated, a query can be scoped.
+It is necessary for the SA\_SQL\_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA\_SQL\_Instances table is populated through an instance discovery query. See the [0-SQL\_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA\_SQL\_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#manage-connections-window) topic for additional information. Once the table has been populated, a query can be scoped.
 
 ![SQL Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
 
 The configurable filter options are:
 
-- Connections — Opens the Manage Connections window to add or modify database instances. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information.
+- Connections — Opens the Manage Connections window to add or modify database instances. See the [Manage Connections Window](#manage-connections-window) topic for additional information.
 - Filter options
 
   - All database objects — No scoping
@@ -55,7 +55,7 @@ The configurable filter options are:
   - Remove — Removes the selected database/instance from the query
   - Include — Reverts an exclusion. By default, all sub tables are included.
   - Exclude — Excludes selected databases/instances and displays them in red
-  - Add Custom Filter — Opens the Add custom filter window to build a custom filter to be applied to the selected databases/instances. See the [Add Custom Filter Window](#Add-Custom-Filter-Window) topic for additional information.
+  - Add Custom Filter — Opens the Add custom filter window to build a custom filter to be applied to the selected databases/instances. See the [Add Custom Filter Window](#add-custom-filter-window) topic for additional information.
   - Import CSV — Import a list of databases/instances from a CSV file
   - Export CSV — Exports the list of databases/instance to a CSV file through the Save As window
 

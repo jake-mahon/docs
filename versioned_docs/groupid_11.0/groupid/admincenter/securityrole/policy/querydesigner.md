@@ -19,12 +19,12 @@ If you already have restricted some schema attributes for the Query Designer pag
 What do you want to do?
 
 - [Apply the Policy to Groups
-  ](#Apply-the-Policy-to-Groups)
-- [Limit the Search Scope of the Query to Specific Containers](#Limit-the-Search-Scope-of-the-Query-to-Specific-Containers)
-- [Limit the Objects for Use in a Query](#Limit-the-Objects-for-Use-in-a-Query)
-- [Hide the Tabs on the Query Designer](#Hide-the-Tabs-on-the-Query-Designer)
-- [Restrict the Attributes and Operators for Building a Query](#Restrict-the-Attributes-and-Operators-for-Building-a-Query)
-- [Specify a Default Filter Criteria](#Specify-a-Default-Filter-Criteria)
+  ](#apply-the-policy-to-groups)
+- [Limit the Search Scope of the Query to Specific Containers](#limit-the-search-scope-of-the-query-to-specific-containers)
+- [Limit the Objects for Use in a Query](#limit-the-objects-for-use-in-a-query)
+- [Hide the Tabs on the Query Designer](#hide-the-tabs-on-the-query-designer)
+- [Restrict the Attributes and Operators for Building a Query](#restrict-the-attributes-and-operators-for-building-a-query)
+- [Specify a Default Filter Criteria](#specify-a-default-filter-criteria)
 
 ## Apply the Policy to Groups
 
@@ -135,7 +135,7 @@ The Query Designer has multiple tabs, where each tab groups similar settings. Th
 
 You can hide any of these tabs from role members.
 
-NOTE: The General tab is displayed to all users and cannot be hidden. However, you can hide the objects displayed on it, as discussed in the [Limit the Objects for Use in a Query](#Limit-the-Objects-for-Use-in-a-Query) topic.
+NOTE: The General tab is displayed to all users and cannot be hidden. However, you can hide the objects displayed on it, as discussed in the [Limit the Objects for Use in a Query](#limit-the-objects-for-use-in-a-query) topic.
 
 __To hide a tab:__
 
@@ -208,7 +208,7 @@ __To specify a default filter criteria:__
    - Enter a value for the attribute in the third box (for example, _Manager_).
 
    With this filter, the query would fetch users whose job titles are set to Manager. Role members can change it as required.
-8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/search.md#Advanced-Filter) section of the [Designate a Criterion for the Search Scope](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/search.md#Designate-a-Criterion-for-the-Search-Scope) topic.   
+8. You can also create an advanced query by adding more rows and applying the __AND__ or __OR__ operator to group them. See steps 1-2 in the[Advanced Filter](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/search.md#advanced-filter) section of the [Designate a Criterion for the Search Scope](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope) topic.   
    After creating a query, you can:
 
    - Click __Preview__ to get a list of the objects fetched by the query created by the current settings on the __Query Designer__ tab, namely the start-in container, objects, and default filter criteria.

@@ -37,7 +37,7 @@ ___RECOMMENDED:___ After configuring a new policy, navigate to either the [Recen
 You can view event data using any of the following:
 
 - Administration Console – Navigate to either the Recent Events tab in the policy's configuration or to the Investigate interface to view data for the events being monitored. See the [Recent Events Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/overview.md) and [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md) topics for details.
-- Netwrix Threat Manager Reporting Module – Use this application to run investigations and generate reports. See the [Set Up the Threat Manager Reporting Module](#Set-Up-the-Threat-Manager-Reporting-Module) topic to install and launch the application.
+- Netwrix Threat Manager Reporting Module – Use this application to run investigations and generate reports. See the [Set Up the Threat Manager Reporting Module](#set-up-the-threat-manager-reporting-module) topic to install and launch the application.
 
 ## Configure Database Maintenance
 
@@ -48,7 +48,7 @@ Database maintenance is essential to manage the size of the event database. The 
 Prerequisites
 
 - See the [Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md) topic for details on prerequisites.
-- See the [Netwrix Threat Manager Reporting Module Ports](/versioned_docs/threatprevention_7.4/threatprevention/requirements/ports.md#Netwrix-Threat-Manager-Reporting-Module-Ports) topic for a list of firewall ports used.
+- See the [Netwrix Threat Manager Reporting Module Ports](/versioned_docs/threatprevention_7.4/threatprevention/requirements/ports.md#netwrix-threat-manager-reporting-module-ports) topic for a list of firewall ports used.
 
 Installation
 

@@ -16,7 +16,7 @@ required while entering data.
 
 What do you want to do?
 
-- [Define a Multiline Textbox Display Type](#Define-a-Multiline-Textbox-Display-Type)
+- [Define a Multiline Textbox Display Type](#define-a-multiline-textbox-display-type)
 
 ## Define a Multiline Textbox Display Type
 

@@ -1,6 +1,6 @@
 # ResourceLinkChange
 
-### /api/ResourceLinkChange/{type}/{property}/{id}
+### /api/ResourceLinkChange/`{type}`/`{property}`/`{id}`
 
 #### Get
 
@@ -20,7 +20,7 @@ Returns all the resource link changes according to the provided job instance id.
 | QueryBinding | Defines the query binding. | False |  |  |
 | PageSize | Page size. | False |  |  |
 | ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| changeOperationType | Filter on change operation type. | False |  | [ChangeOperation](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#ChangeOperation) |
+| changeOperationType | Filter on change operation type. | False |  | [ChangeOperation](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#changeoperation) |
 | api-version | The requested API version | True |  |  |
 
 ##### Responses:

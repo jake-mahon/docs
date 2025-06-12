@@ -6,9 +6,9 @@ History is available if the administrator has enabled history tracking for the i
 
 What do you want to do?
 
-- [View History](#View-History)
-- [Export History Data](#Export-History-Data)
-- [Add notes to history items](#Add-notes-to-history-items)
+- [View History](#view-history)
+- [Export History Data](#export-history-data)
+- [Add notes to history items](#add-notes-to-history-items)
 
 ## View History
 

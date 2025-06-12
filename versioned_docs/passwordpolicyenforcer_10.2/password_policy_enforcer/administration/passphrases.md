@@ -8,7 +8,7 @@ Follow the steps to configure a password policy with fewer requirements for pass
 
 ![managing_policies_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_7.png)
 
-__Step 1 –__ Click the Policies item to display the [Policies View](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/management_console_views.md#Policies-View).
+__Step 1 –__ Click the Policies item to display the [Policies View](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/management_console_views.md#policies-view).
 
 __Step 2 –__ Click the desired policy in the right pane of the management console.
 

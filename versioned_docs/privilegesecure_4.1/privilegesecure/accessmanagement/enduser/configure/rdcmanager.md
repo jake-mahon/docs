@@ -38,7 +38,7 @@ Configuration parameters for PuTTY (SSH).
 
 Host Name Format:
 
-- <connection string>@<proxyhostname>
+- `<connection string>@<proxyhostname>`
 
 Host Name Example:
 
@@ -57,7 +57,7 @@ Configuration parameters for MobaXterm (SSH).
 
 Remote Host Format:
 
-- <connection string>@<proxyhostname>
+- `<connection string>@<proxyhostname>`
 
 Resource Host Example:
 
@@ -81,7 +81,7 @@ Configuration parameters for MobaXterm (RDP).
 
 Remote Host:
 
-- <proxyhostname>
+- `<proxyhostname>`
 
 Example:
 
@@ -89,7 +89,7 @@ sbpamhost
 
 Username:
 
-- <connection string>
+- `<connection string>`
 
 Example:
 
@@ -112,7 +112,7 @@ Configuration parameters for Microsoft Remote Desktop Connection (RDP).
 
 Computer:
 
-<proxyhostname>:<port>
+`<proxyhostname>:<port>`
 
 __Example:__
 
@@ -120,13 +120,13 @@ Sbpamhost:4489
 
 User Name Format:
 
-- <connection string>
+- `<connection string>`
 
 User Name Example:
 
 - Netwrix\JonSmith+LocalAdmin+sql1
 
-If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#Configure-Remote-Desktop-Connection-to-Prompt-for-Password) topic for additional information.
+If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#configure-remote-desktop-connection-to-prompt-for-password) topic for additional information.
 
 ## Microsoft Remote Desktop Connection Manager (RDP)
 
@@ -137,7 +137,7 @@ Configure the Microsoft Remote Desktop Connection Manager (RDC Manager).
 
 Server name:
 
-<proxyhostname>:<port>
+`<proxyhostname>:<port>`
 
 Server name example:
 
@@ -145,7 +145,7 @@ Sbpamhost:4489
 
 User Name Format:
 
-\<connection string>
+`\<connection string>`
 
 __NOTE:__ The user name starts with _\_ (back slash).
 
@@ -157,7 +157,7 @@ Server Name/Port:
 
 localhost:4489
 
-If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#Configure-Remote-Desktop-Connection-to-Prompt-for-Password) topic for additional information.
+If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#configure-remote-desktop-connection-to-prompt-for-password) topic for additional information.
 
 ## Configure Remote Desktop Connection to Prompt for Password
 

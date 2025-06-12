@@ -8,7 +8,7 @@ NOTE: Pages and fields on the Create Contact wizard may vary from those discusse
 
 What do you want to do?
 
-- [Create a contact](#Create-a-contact)
+- [Create a contact](#create-a-contact)
 
 ## Create a contact
 

@@ -15,10 +15,10 @@ After creating an identity store, you must configure certain settings for it. Th
 
 What do you want to do?
 
-- [Create an Identity Store for Active Directory](#Create-an-Identity-Store-for-Active-Directory)
-- [Create an Identity Store for Microsoft Entra ID](#Create-an-Identity-Store-for-Microsoft-Entra-ID)
-- [Create an Identity Store for Generic LDAP](#Create-an-Identity-Store-for-Generic-LDAP)
-- [Create an Identity Store for Google Workspace](#Create-an-Identity-Store-for-Google-Workspace)
+- [Create an Identity Store for Active Directory](#create-an-identity-store-for-active-directory)
+- [Create an Identity Store for Microsoft Entra ID](#create-an-identity-store-for-microsoft-entra-id)
+- [Create an Identity Store for Generic LDAP](#create-an-identity-store-for-generic-ldap)
+- [Create an Identity Store for Google Workspace](#create-an-identity-store-for-google-workspace)
 
 ## Create an Identity Store for Active Directory
 

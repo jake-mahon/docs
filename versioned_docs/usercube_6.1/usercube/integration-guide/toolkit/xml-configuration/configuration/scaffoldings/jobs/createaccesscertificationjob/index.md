@@ -19,9 +19,9 @@ Creates the AccessCertification Job.
 
 ## Child Elements
 
-- [AddTask](#AddTask) (optional) Add a task before or after another in the job
-- [CronTabExpression](#CronTabExpression) (optional) Schedule the job
-- [DoNotCreateJob](#DoNotCreateJob) (optional) Create only the tasks without the job
+- [AddTask](#addtask) (optional) Add a task before or after another in the job
+- [CronTabExpression](#crontabexpression) (optional) Schedule the job
+- [DoNotCreateJob](#donotcreatejob) (optional) Create only the tasks without the job
 
 ### AddTask
 

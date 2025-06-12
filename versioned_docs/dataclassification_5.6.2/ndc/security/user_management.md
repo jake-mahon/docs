@@ -2,12 +2,12 @@
 
 This section contains information on how to configure user authentication mechanisms, their permissions and manage existing users. Review the following for additional information:
 
-- [Authentication Mechanisms](#Authentication-Mechanisms)
-- [Adding/Removing Users](#AddingRemoving-Users)
-- [Permission Management](#Permission-Management)
-- [Super Users](#Super-Users)
+- [Authentication Mechanisms](#authentication-mechanisms)
+- [Adding/Removing Users](#addingremoving-users)
+- [Permission Management](#permission-management)
+- [Super Users](#super-users)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Authentication Mechanisms](javascript:void(0))
+## Authentication Mechanisms
 
 On first install the QS will be configured for Windows authentication. To setup the QS to use an ADFS server please follow the "Installation and Configuration" guide using the section "ADFS". To use forms based authentication please disable all other authentication methods in IIS other than: Anonymous and Forms:
 
@@ -27,7 +27,7 @@ To use the authentication forms:
 
    All other authentication methods should be disabled.
 
-   [![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/iis.png)
+   [![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/iis.png)
 3. If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and delete (or comment out) three lines:
 
    <!-- The following 3 lines are required for Windows Authentication. Remove to allow anonymous access to
@@ -58,7 +58,7 @@ In certain sections of the QS settings are split between Basic and Advanced. Use
 - Ticking Always Show Advanced Settings
 - Clicking Save
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Adding/Removing Users](javascript:void(0))
+## Adding/Removing Users
 
 More users can be added at any time from the default Users screen, as well as allowing for users to be removed.
 
@@ -70,7 +70,7 @@ If the only user defined is a Super User and that user is deleted then all secur
 
 User accounts granted access to the REST APIs will still be restricted by their specific user permissions. A Superuser with REST API access will be able to run any API method, any normal user will be restricted by the same rules that govern the UI. Further API samples and documentation can be found at: /conceptQS/\_api
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Permission Management](javascript:void(0))
+## Permission Management
 
 In order to allocate granular permissions to a user (non-Super Users), simply select their username from the main grid.
 
@@ -79,11 +79,11 @@ Each tab contains a top level checkbox (“Allow Access”) which defines whethe
 When an area is enabled there are typically more granular permissions that can be enabled, such as:
 
 - Within the Taxonomies area it is also possible to assign permissions at a specific Term Set or Term branch level. A full user permission summary (for all Term/Set level permissions) can be viewed by selecting the View Taxonomy Permissions button (shown below).
-- Within the Sources area it is possible to restrict a user’s access to specific source groups, as shown below.[![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/userpermissions.png)
+- Within the Sources area it is possible to restrict a user’s access to specific source groups, as shown below.[![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/userpermissions.png)
 
 Taxonomy Permissions Summary:
 
-[![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/viewtaxonomypermissionssummary.png)
+[![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/viewtaxonomypermissionssummary.png)
 
 You can restrict permissions for a user to the following areas:
 
@@ -95,11 +95,11 @@ You can restrict permissions for a user to the following areas:
 - Reports. [See Reporting Capabilities for more information.](/versioned_docs/dataclassification_5.6.2/ndc/reporting/reporting_intro.md)
 - DSARs. [See Data Subject Access Requests  for more information.](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_overview.md)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Super Users](javascript:void(0))
+## Super Users
 
 Super Users always have access to all Query Server administrative functions.
 
-Non-Super Users must have their access rights specifically configured and all rights are disabled by default. See [Permission Management](#Permission-Management) for details about configuring the access rights for non-Super Users.
+Non-Super Users must have their access rights specifically configured and all rights are disabled by default. See [Permission Management](#permission-management) for details about configuring the access rights for non-Super Users.
 
 Regardless of the authentication mode selected the usage of the QS administrative functions will continue to be unrestricted until at least one user is added. The first user must be a Super User. If Windows or ADFS Authentication are being used then the first user will default to the currently logged in user, although this can be changed if required.
 

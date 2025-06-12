@@ -6,6 +6,6 @@ For greater usability, to depict overall product health state, the email include
 
 The email looks like shown below:
 
-[![email](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.png)](/versioned_docs/auditor_10.6/resources/images/auditor/health/email.png)
+![email](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.png)
 
 The Monitoring Overview section of the email provides detail information only for the monitoring plans with issues. Successfully completed monitoring plans are not included.

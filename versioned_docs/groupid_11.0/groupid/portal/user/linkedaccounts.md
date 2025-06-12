@@ -15,9 +15,9 @@ notifications.
 
 What do you want to do?
 
-- [Link an account](#Link-an-account)
-- [View your linked accounts](#View-your-linked-accounts)
-- [Un-link a linked account](#Un-link-a-linked-account)
+- [Link an account](#link-an-account)
+- [View your linked accounts](#view-your-linked-accounts)
+- [Un-link a linked account](#un-link-a-linked-account)
 
 ## Link an account
 

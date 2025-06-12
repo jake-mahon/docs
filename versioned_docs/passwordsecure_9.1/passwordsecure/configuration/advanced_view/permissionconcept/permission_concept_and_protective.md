@@ -81,7 +81,7 @@ As a member of a role, it must have at least the “read” right for the role!
 
 ## Specific example and configuration
 
-Similar to the previous section [Permission concept and protective mechanisms](#Permission-concept-and-protective-mechanisms) for roles, the configuration of a role will be illustrated using two users. The configuration is performed in the [Roles](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/roles/roles.md). By double-clicking on the role “IT-Consultants” in the [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md), you can open their detailed view.
+Similar to the previous section on permission concept and protective mechanisms for roles, the configuration of a role will be illustrated using two users. The configuration is performed in the [Roles](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/roles/roles.md). By double-clicking on the role “IT-Consultants” in the [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md), you can open their detailed view.
 
 ![roles list view](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_5-en.png)
 

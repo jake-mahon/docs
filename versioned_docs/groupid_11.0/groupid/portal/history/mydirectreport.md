@@ -12,10 +12,10 @@ NOTE: When any of your direct reports is deleted, its history is also deleted.
 
 What do you want to do?
 
-- [History view modes](#History-view-modes)
-- [Filter history data](#Filter-history-data)
-- [Add notes to history items](#Add-notes-to-history-items)
-- [Export history data](#Export-history-data)
+- [History view modes](#history-view-modes)
+- [Filter history data](#filter-history-data)
+- [Add notes to history items](#add-notes-to-history-items)
+- [Export history data](#export-history-data)
 
 ## History view modes
 
@@ -66,7 +66,7 @@ Only the user who added the note can update it. Other users can only view this n
 
 ### Add a note
 
-The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md), [My Direct Reports' History](#My-Direct-Reports-History) and [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md) pages.
+The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md), [My Direct Reports' History](#my-direct-reports-history) and [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md) pages.
 
 1. Click the __Add Note__ button next to a history item to add a note to it.
 2. On the __Add Note__ dialog box, write a note and click __Add Note__ to save it.

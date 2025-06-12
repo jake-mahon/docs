@@ -8,13 +8,13 @@ The Dropbox\_Content job is located in the 4.Content job group.
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The Dropbox\_Content job has the following customizable parameter:
 
 - Days since File Modification before a file is considered stale
 
-See the [Customizable Analysis Tasks for the Dropbox\_Content Job](#Customizable-Analysis-Tasks-for-the-Dropbox_Content-Job) topic for additional information.
+See the [Customizable Analysis Tasks for the Dropbox\_Content Job](#customizable-analysis-tasks-for-the-dropbox_content-job) topic for additional information.
 
 ## Analysis Tasks for the Dropbox\_Content Job
 
@@ -27,7 +27,7 @@ __CAUTION:__ Most of the analysis tasks should not be modified or deselected. Th
 - Summarizes content by mimetype, classification – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Determines stale data by owner:
 
-  - By default, a stale file has not been modified in the past 365 days. You can modify this analysis task to edit this number of days. See the [Customizable Analysis Tasks for the Dropbox\_Content Job](#Customizable-Analysis-Tasks-for-the-Dropbox_Content-Job) topic for additional information.
+  - By default, a stale file has not been modified in the past 365 days. You can modify this analysis task to edit this number of days. See the [Customizable Analysis Tasks for the Dropbox\_Content Job](#customizable-analysis-tasks-for-the-dropbox_content-job) topic for additional information.
   - Creates an interim processing table in the database for use by downstream analysis and report generation
   - Creates the SA\_Dropbox\_StaleData\_OwnerSummary table accessible under the job’s Results node
 

@@ -25,13 +25,13 @@ times and load balancing.
 
 What do you want to do?
 
-- [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS)
-- [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS)
-- [Create a Portal in Docker](#Create-a-Portal-in-Docker)
-- [Deploy Another Instance of a Portal](#Deploy-Another-Instance-of-a-Portal)
-- [Create a Portal by Copying an Existing Portal](#Create-a-Portal-by-Copying-an-Existing-Portal)
-- [View the Details of a Portal](#View-the-Details-of-a-Portal)
-- [Launch a Portal](#Launch-a-Portal)
+- [Create a Portal in Native IIS](#create-a-portal-in-native-iis)
+- [Create a Portal in Remote IIS](#create-a-portal-in-remote-iis)
+- [Create a Portal in Docker](#create-a-portal-in-docker)
+- [Deploy Another Instance of a Portal](#deploy-another-instance-of-a-portal)
+- [Create a Portal by Copying an Existing Portal](#create-a-portal-by-copying-an-existing-portal)
+- [View the Details of a Portal](#view-the-details-of-a-portal)
+- [Launch a Portal](#launch-a-portal)
 
 ## Create a Portal in Native IIS
 
@@ -86,7 +86,7 @@ __To create a portal:__
 
     ![linked_message](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linked_message.png)
 
-    This relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-GroupID-Portal) topic. Hence, when
+    This relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal) topic. Hence, when
     two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with the
     portal too, in order to benefit from the linking.
 12. Each identity store associated with a portal has its own set of design settings, as listed in the [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md) topic.
@@ -168,7 +168,7 @@ __To create a portal:__
       `https://<web-server-name>:<port>/<IIS-application-name>`  
       Hence, a different URL is constructed for each deployment of a portal in remote IIS.
 11. On providing the above information, the __Website__ drop-down list displays the sites defined on the remote IIS server. Select the site that you have configured with the appropriate permissions for GroupID.
-12. For entering information in the __Service Endpoints__, __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas, follow steps 9-13 in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic.
+12. For entering information in the __Service Endpoints__, __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas, follow steps 9-13 in the [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic.
 13. Click __Create Application__.   
     The new portal is displayed on the __GroupID Portal__ tab.
 
@@ -196,13 +196,13 @@ __To create a portal:__
    On installing Docker Engine, you must expose an API over TCP on the same machine to enable communication with GroupID.  
    The URL you provide in the __Service URL__ box identifies the Docker deamon where you want to host the portal.
 9. In the __Container Name__ box, enter a name for the container that is created in Docker for deploying the portal.
-10. For entering information in the __Service Endpoints__, __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas, follow steps 9-13 in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic.
+10. For entering information in the __Service Endpoints__, __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas, follow steps 9-13 in the [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic.
 11. Click __Create Application__.  
     The new portal is displayed on the __GroupID Portal__ tab.
 
 ## Deploy Another Instance of a Portal
 
-You can deploy more than one instance of a portal. Instances can be deployed in different web servers, for example, one in IIS, another in remote IIS, and yet another in Docker. For more on how instances work, see the [Deploy Multiple Instances of a Portal](#Deploy-Multiple-Instances-of-a-Portal) topic.
+You can deploy more than one instance of a portal. Instances can be deployed in different web servers, for example, one in IIS, another in remote IIS, and yet another in Docker. For more on how instances work, see the [Deploy Multiple Instances of a Portal](#deploy-multiple-instances-of-a-portal) topic.
 
 To deploy a new instance, you have to provide deployment details only. All instances share the same server and design configurations, while only deployment details differ. For example, all instances serve the same identity stores and have the same
 display and search-related configurations. Changing a shared setting propagates to all deployment instances of the portal.
@@ -216,9 +216,9 @@ __To deploy an instance:__
    __Application Name__ field displays the name of the portal as read-only.
 4. Fields on the page vary, depending on the web server selected. In any case, the __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas are not available, as they remain the same for all instances.
 
-   - To deploy an instance in native IIS, follow steps 6-9 in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic.
-   - To deploy an instance in remote IIS, follow steps 6-12 in the [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS) topic.
-   - To deploy an instance in Docker, follow steps 6-10 in the [Create a Portal in Docker](#Create-a-Portal-in-Docker) topic.
+   - To deploy an instance in native IIS, follow steps 6-9 in the [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic.
+   - To deploy an instance in remote IIS, follow steps 6-12 in the [Create a Portal in Remote IIS](#create-a-portal-in-remote-iis) topic.
+   - To deploy an instance in Docker, follow steps 6-10 in the [Create a Portal in Docker](#create-a-portal-in-docker) topic.
 5. After entering the required information, click __Deploy Instance__.  
    The new instance is displayed on the portal’s card.
 
@@ -238,9 +238,9 @@ __To create a portal:__
    - The identity store(s) associated with the portal
 3. You can deploy the new portal in native IIS, remote IIS, or Docker.
 
-   - To specify settings for a native IIS deployment, follow the instructions in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic, beginning at step 4.
-   - To specify settings for a remote IIS deployment, follow the instructions in the [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS) topic, beginning at step 4.
-   - To specify settings for a Docker deployment, follow the instructions in the [Create a Portal in Docker](#Create-a-Portal-in-Docker) topic, beginning at step 4.
+   - To specify settings for a native IIS deployment, follow the instructions in the [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic, beginning at step 4.
+   - To specify settings for a remote IIS deployment, follow the instructions in the [Create a Portal in Remote IIS](#create-a-portal-in-remote-iis) topic, beginning at step 4.
+   - To specify settings for a Docker deployment, follow the instructions in the [Create a Portal in Docker](#create-a-portal-in-docker) topic, beginning at step 4.
 
 ## View the Details of a Portal
 
@@ -258,7 +258,7 @@ __To create a portal:__
    | Ellipsis | Click it to launch a shortcut menu with the following options:  - __Settings:__ Launches the portal settings page, where you can manage server and design settings.    - __Server Settings:__ Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more.   - __Design settings:__ These settings relate to the portal’s user interface. - __Deploy Another Instance:__ Enables you to deploy another instance of the portal. - __Copy:__ Enables you to create a new portal by copying the settings of this portal. - __Delete:__ Deletes the portal. |
 
 You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse over the icon, the tooltip says that _linked mode will not be allowed_.
-This relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-GroupID-Portal) topic. Hence, when two
+This relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal) topic. Hence, when two
 identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, the portal card appears in orange. It informs you to associate the second identity store in the linked pair (dentityStoreB) with the portal
 too, in order to benefit from the linking.
 
@@ -269,7 +269,7 @@ too, in order to benefit from the linking.
      
    When multiple deployments of a portal are available, select a deployment instance on the card and click __Launch Application__ to launch that instance.
 
-   Provide the URL of an instance to your users so they can access the portal. You can either copy the URL from the address bar or from a portal's deployment settings. See the [View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#View-the-Launch-URL-for-an-Instance) topic.
+   Provide the URL of an instance to your users so they can access the portal. You can either copy the URL from the address bar or from a portal's deployment settings. See the [View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-launch-url-for-an-instance) topic.
 
 __See Also__
 

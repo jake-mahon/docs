@@ -16,7 +16,7 @@ Major benefit of the integrated solution implemented with the Add-On is the incr
 
 The add-on is implemented as a syslog service that collects activity data from CyberArk system (PAS) and sends it to Auditor using the Integration API.
 
-[![HIW_CyberArch](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/diagram.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/cyberark/diagram.png)
+![HIW_CyberArch](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/diagram.png)
 
 The add-on operates as a syslog listener for the CyberArk system. On a high level, the solution works as follows:
 
@@ -59,7 +59,7 @@ In case the add-on and Auditor are installed on the same server, no special sett
 ### Considerations and Limitations
 
 - The Add-On must be deployed in the same subnet as CyberArk PAS and Auditor.
-- If the monitoring plan name in the _<NetwrixAuditorPlan>_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
+- If the monitoring plan name in the _`<NetwrixAuditorPlan>`_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
 - If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and you should specify another port when configuring the add-on settings (see [Deploy the Add-On](/versioned_docs/auditor_10.6/auditor/addon/cyberark/deployment.md) and [Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/cyberark/parameters.md) topics for additional information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice

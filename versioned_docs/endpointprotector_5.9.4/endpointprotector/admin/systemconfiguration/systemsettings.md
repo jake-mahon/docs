@@ -6,7 +6,7 @@ From this section, you can manage general settings that apply to the entire Endp
 
 Select an option to grant access for clients based on the Department Code. You can also view the Default Department code - defdep.
 
-__NOTE:__ See the [System Settings](#System-Settings) topic for additional information.
+__NOTE:__ See the [System Settings](#system-settings) topic for additional information.
 
 ![Department Usage](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/departmentusage.png)
 

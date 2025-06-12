@@ -12,8 +12,8 @@ YubiKey supports the following browsers:
 
 What do you want to do?
 
-- [Enable YubiKey Authentication for an Identity Store](#Enable-YubiKey-Authentication-for-an-Identity-Store)
-- [Enforce YubiKey Authentication for a Security Role in an Identity Store](#Enforce-YubiKey-Authentication-for-a-Security-Role-in-an-Identity-Store)
+- [Enable YubiKey Authentication for an Identity Store](#enable-yubikey-authentication-for-an-identity-store)
+- [Enforce YubiKey Authentication for a Security Role in an Identity Store](#enforce-yubikey-authentication-for-a-security-role-in-an-identity-store)
 
 ## Enable YubiKey Authentication for an Identity Store
 
@@ -23,7 +23,7 @@ To enable it, see the [Enable Authentication Types](/versioned_docs/groupid_11.0
 
 ## Enforce YubiKey Authentication for a Security Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 

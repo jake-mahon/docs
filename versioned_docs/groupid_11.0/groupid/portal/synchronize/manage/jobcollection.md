@@ -13,20 +13,20 @@ You can do the following in a job collection:
 
 What do you want to do?
 
-- [Filter Job Collection](#Filter-Job-Collection)
-- [Run a Job Collection](#Run-a-Job-Collection)
-- [Create a Job Collection by duplicating an existing one](#Create-a-Job-Collection-by-duplicating-an-existing-one)
-- [Change the execution order of individual jobs in a Job Collection](#Change-the-execution-order-of-individual-jobs-in-a-Job-Collection)
-- [Edit a Job in a Job Collection](#Edit-a-Job-in-a-Job-Collection)
-- [Remove a job from a job collection](#Remove-a-job-from-a-job-collection)
-- [Delete a Job Collection](#Delete-a-Job-Collection)
-- [Preview a Job Collection](#Preview-a-Job-Collection)
-- [Pin a Job Collection](#Pin-a-Job-Collection)
-- [Save as Template](#Save-as-Template)
-- [Rename a Job Collection](#Rename-a-Job-Collection)
-- [Export a Job Collection](#Export-a-Job-Collection)
-- [Import a Job Collection](#Import-a-Job-Collection)
-- [Recent Runs](#Recent-Runs)
+- [Filter Job Collection](#filter-job-collection)
+- [Run a Job Collection](#run-a-job-collection)
+- [Create a Job Collection by duplicating an existing one](#create-a-job-collection-by-duplicating-an-existing-one)
+- [Change the execution order of individual jobs in a Job Collection](#change-the-execution-order-of-individual-jobs-in-a-job-collection)
+- [Edit a Job in a Job Collection](#edit-a-job-in-a-job-collection)
+- [Remove a job from a job collection](#remove-a-job-from-a-job-collection)
+- [Delete a Job Collection](#delete-a-job-collection)
+- [Preview a Job Collection](#preview-a-job-collection)
+- [Pin a Job Collection](#pin-a-job-collection)
+- [Save as Template](#save-as-template)
+- [Rename a Job Collection](#rename-a-job-collection)
+- [Export a Job Collection](#export-a-job-collection)
+- [Import a Job Collection](#import-a-job-collection)
+- [Recent Runs](#recent-runs)
 
 ## Filter Job Collection
 

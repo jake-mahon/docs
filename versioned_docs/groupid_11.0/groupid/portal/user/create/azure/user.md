@@ -8,7 +8,7 @@ NOTE: Pages and fields on the Create User wizard may vary from those discussed h
 
 What do you want to do?
 
-- [Create a user in Microsoft Entra ID](#Create-a-user-in-Microsoft-Entra-ID)
+- [Create a user in Microsoft Entra ID](#create-a-user-in-microsoft-entra-id)
 
 ## Create a user in Microsoft Entra ID
 

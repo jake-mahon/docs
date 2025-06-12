@@ -6,8 +6,8 @@ Result data is displayed using data grids on several interfaces in the Administr
 
 - The Group by Box [1] ribbon impacts how much data is displayed.
 - The Refresh [2] button populates the data grid with the current information according to the selections.
-- Columns can be reordered as desired as well as removed from the data grid. Removed columns can be added back through the [Customization Window](#Customization-Window).
-- Many data grids also contain an Export Data [3] button. This provides different export options with respect to the interface. See the [Export Data](#Export-Data) topic for additional information.
+- Columns can be reordered as desired as well as removed from the data grid. Removed columns can be added back through the [Customization Window](#customization-window).
+- Many data grids also contain an Export Data [3] button. This provides different export options with respect to the interface. See the [Export Data](#export-data) topic for additional information.
 - The Search [4] icon opens the __Enter text to search…__ textbox where you can search for the required data in the data grid.
 - The Auto Filter row [5] uses comparison operators to filter the grid against a single attribute.
 
@@ -76,7 +76,7 @@ Click the __pin icon__ to open additional filtration options in a filter window.
 
 ## Search Data
 
-The Find Panel enables you to search for data in the data grid. It is represented with a magnifying glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide Find Panel option on the [Data Grid Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/rightclickmenus.md#Data-Grid-Right-Click-Menu).
+The Find Panel enables you to search for data in the data grid. It is represented with a magnifying glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide Find Panel option on the [Data Grid Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/rightclickmenus.md#data-grid-right-click-menu).
 
 On clicking the magnifying glass icon, the Find box appears as:
 
@@ -105,7 +105,7 @@ The Export window provides options for what is exported and what action(s) to ta
 
 In the Export options section, select the option buttons for the Columns and Rows subsections.
 
-- For Columns, you can export data displayed in Visible Columns Only or for All Columns. See the [Customization Window](#Customization-Window) topic for details on selecting what columns are visible in a data grid.
+- For Columns, you can export data displayed in Visible Columns Only or for All Columns. See the [Customization Window](#customization-window) topic for details on selecting what columns are visible in a data grid.
 - For Rows, the exported data can show All Rows or Filtered Only.
 
 In the Export Actions section, select where data will be exported. Check the boxes for Save File Locally and/or Email to and populate the required fields.

@@ -11,15 +11,15 @@ The Logic tab contains the following sections and options:
   - Rule Name – The field defaults with the name on the Analysis Properties page and is manually editable
   - Table – Select a table from the drop-down menu containing the baseline values to evaluate
 
-    - To view data from a selected table, click the ellipsis (__…__) to open the Sample Data Viewer window, or select a table within the viewer. See the [Sample Data Viewer Window](#Sample-Data-Viewer-Window) topic for additional information.
+    - To view data from a selected table, click the ellipsis (__…__) to open the Sample Data Viewer window, or select a table within the viewer. See the [Sample Data Viewer Window](#sample-data-viewer-window) topic for additional information.
 - Conditions – Apply conditions to the table
 
-  - Click __Add Condition__ to open the EditConditionsForm window and add a condition to the Conditions list. See the [EditConditionsForm Window](#EditConditionsForm-Window) topic for additional information.
+  - Click __Add Condition__ to open the EditConditionsForm window and add a condition to the Conditions list. See the [EditConditionsForm Window](#editconditionsform-window) topic for additional information.
   - Exceptions textbox – Lists added conditions. By default, it says ```Add Exception to Scorecard``` but updates with any conditions selected.
-  - To check the SQL statement executed, click the green checkmark SQL symbol. This opens the SQL Extract Preview window. See the [SQL Extract Preview Window](#SQL-Extract-Preview-Window) topic for additional information.
+  - To check the SQL statement executed, click the green checkmark SQL symbol. This opens the SQL Extract Preview window. See the [SQL Extract Preview Window](#sql-extract-preview-window) topic for additional information.
 - Actions – Add exceptions to the scorecard action
 
-  - Select __Edit Action__ or double click __Add Exception To Scorecard__ to open the Configure Scorecard Action window. See the [Configure Scorecard Action Window](#Configure-Scorecard-Action-Window) topic for additional information.
+  - Select __Edit Action__ or double click __Add Exception To Scorecard__ to open the Configure Scorecard Action window. See the [Configure Scorecard Action Window](#configure-scorecard-action-window) topic for additional information.
 
 ## Sample Data Viewer Window
 

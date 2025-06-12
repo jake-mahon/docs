@@ -48,7 +48,7 @@ Verify that the post install Certsinfo folder contents have been copied from SI 
 
 __Step 3 –__ Use the [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md) in the 7.4 version to upgrade the Agent.
 
-See the [Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md) topic for additional information. See the [Manual Uninstall on the Agent Server](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/uninstallagent.md#Manual-Uninstall-on-the-Agent-Server) topic for information on removing the Agent from the server where it was deployed.
+See the [Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md) topic for additional information. See the [Manual Uninstall on the Agent Server](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic for information on removing the Agent from the server where it was deployed.
 
 __NOTE:__ If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and then to 7.4.
 
@@ -64,4 +64,4 @@ __Step 2 –__ Install the StealthINTERCEPT infrastructure for the newer version
 
 __Step 3 –__ Use the [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md) in the 7.3.9 version to upgrade the Agent.
 
-See the [Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md) topic for additional information. See the [Manual Uninstall on the Agent Server](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/uninstallagent.md#Manual-Uninstall-on-the-Agent-Server) topic for information on removing the Agent from the server where it was deployed.
+See the [Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md) topic for additional information. See the [Manual Uninstall on the Agent Server](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic for information on removing the Agent from the server where it was deployed.

@@ -10,7 +10,7 @@ The Scan Scoping Options page provides scoping options to specify the list of UR
 The options on the Scan Scoping Options page are:
 
 - Add – When a URL is entered in the text box, adds the URL to the Scope box
-  - To scope for a SharePoint Host Named Site Collections, use the text box to enter the URL for both the Web App and the HNSC with custom non-existent URL extensions added. See the [Scoping to SharePoint Host Named Site Collections](#Scoping-to-SharePoint-Host-Named-Site-Collections) topic for additional information.
+  - To scope for a SharePoint Host Named Site Collections, use the text box to enter the URL for both the Web App and the HNSC with custom non-existent URL extensions added. See the [Scoping to SharePoint Host Named Site Collections](#scoping-to-sharepoint-host-named-site-collections) topic for additional information.
 
   __NOTE:__ If sites are included in the Scope box, all other sites are excluded from the scan.
 - Import CSV – Opens a file explorer to browse for a CSV file

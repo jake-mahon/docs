@@ -1,6 +1,6 @@
 # Permissions Report
 
-The Permissions report for a group object provides a list of all resources where the audited group has been assigned permissions. The __Include Inherited__ filter checkbox is active by default, which means the report displays both direct and inherited permissions unless modified by the Access Information Center user. See the [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#Results-Pane) topic for information on filter options.
+The Permissions report for a group object provides a list of all resources where the audited group has been assigned permissions. The __Include Inherited__ filter checkbox is active by default, which means the report displays both direct and inherited permissions unless modified by the Access Information Center user. See the [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on filter options.
 
 ![Permissions report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.png)
 

@@ -10,7 +10,7 @@ This part of the process is similar to creating any other Storage Account and Co
 
 To obtain the Azure Endpoint Protector Virtual Machine, you need to create a dedicated Storage account / Container, following these steps:
 
-__Step 1 –__ Open the [Azure portal](https://portal.azure.com/#Azure-portal);
+__Step 1 –__ Open the [Azure portal](https://portal.azure.com/#azure-portal);
 
 __Step 2 –__ Go to Storage accounts and click +Create;
 

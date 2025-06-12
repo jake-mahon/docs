@@ -16,10 +16,10 @@ Windows 2008 and 2012 include a modular version of IIS that only has a small set
 
 Follow the steps below to manage various circumstances that may arise during installation. Listed below are common situations that impact installation and the steps necessary to work around them:
 
-- [If IIS is not installed on Windows 2012](#If-IISis-not-installed-on-Windows-2012)
-- [If IIS is already installed on Windows 2012](#If-IISis-already-installed-on-Windows-2012)
-- [If IIS is not installed on Windows 2008](#If-IISis-not-installed-on-Windows-2008)
-- [If IIS is already installed on Windows 2008](#If-IISis-already-installed-on-Windows-2008)
+- [If IIS is not installed on Windows 2012](#if-iisis-not-installed-on-windows-2012)
+- [If IIS is already installed on Windows 2012](#if-iisis-already-installed-on-windows-2012)
+- [If IIS is not installed on Windows 2008](#if-iisis-not-installed-on-windows-2008)
+- [If IIS is already installed on Windows 2008](#if-iisis-already-installed-on-windows-2008)
 
 #### If IIS is not installed on Windows 2012
 

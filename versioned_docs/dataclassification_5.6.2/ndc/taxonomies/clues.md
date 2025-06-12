@@ -43,7 +43,7 @@ These rules are provided for the following countries (coverage varies):
 
 To work with the clues, select the required subnode (terms set) under the taxonomy tree on the left and then select Clues  on the right:
 
-[![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/taxonomyclues.png)
+[![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomyclues.png)
 
 - For each clue in the list, you can view and manage its type, score, and other properties.
 - To add a new clue, go to the topmost row in the list and specify its properties.

@@ -17,8 +17,8 @@ The Query Selection page is split into the Tables and Queries sections. The Tabl
 
 The Queries section is where the Data Collectors are configured. The Queries section has the following options:
 
-- Add from Library – Opens the Libraries window. Add a pre-built query from the Enterprise Auditor library. See the [Add Query from Library](#Add-Query-from-Library) topic for additional information.
-- Create Query – Click __Create Query__ to add a new query task to a job. See the [Create or Modify a Query](#Create-or-Modify-a-Query) topic for additional information.
+- Add from Library – Opens the Libraries window. Add a pre-built query from the Enterprise Auditor library. See the [Add Query from Library](#add-query-from-library) topic for additional information.
+- Create Query – Click __Create Query__ to add a new query task to a job. See the [Create or Modify a Query](#create-or-modify-a-query) topic for additional information.
 - Delete Query – Delete the currently selected query
 - Query Properties – Select an existing query and click __Query Properties__ to modify its configuration
 
@@ -43,9 +43,9 @@ Click __Add__ to confirm the query selection and add it to the Queries list on t
 
 To open the Query Properties window, click __Create Query__ for a new query or __Query Properties__ for an existing query. There are three tabs in the Query Properties window where queries can be configured. These tabs are:.
 
-- [General Tab](#General-Tab)
-- [Data Source Tab](#Data-Source-Tab)
-- [Filters Tab](#Filters-Tab)
+- [General Tab](#general-tab)
+- [Data Source Tab](#data-source-tab)
+- [Filters Tab](#filters-tab)
 
 To access the XML Text version of the Query Properties window, click __View XML__. This applies to all three tabs listed.
 

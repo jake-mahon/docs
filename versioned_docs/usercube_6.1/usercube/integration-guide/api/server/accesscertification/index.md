@@ -44,7 +44,7 @@ Creates an access certification campaign.
 | --- | --- | --- |
 | 200 | The result of the access certification campaign creation. |  |
 
-### /api/AccessCertification/AccessCertificationCampaign/{id}
+### /api/AccessCertification/AccessCertificationCampaign/`{id}`
 
 #### Get
 

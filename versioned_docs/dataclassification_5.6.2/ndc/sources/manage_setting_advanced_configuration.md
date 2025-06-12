@@ -11,11 +11,11 @@ The following option tabs are available:
 
 - Entity Configuration, where you can do the following:
   - Include / Exclude an entity (subsite/list)
-  - Define custom metadata mappings per entity (see [Understanding custom metadata mappings](#Understanding-custom-metadata-mappings))
+  - Define custom metadata mappings per entity (see [Understanding custom metadata mappings](#understanding-custom-metadata-mappings))
 - Source Defaults—Allow you to specify the default custom metadata mapping for the site collection.
 - Configuration Viewer—Use this simple XML view to examine the raw configuration.
 
-[![sharepointadvancedsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourceconfiguration_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sharepointadvancedsourceconfiguration.png)
+[![sharepointadvancedsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourceconfiguration_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/sharepointadvancedsourceconfiguration.png)
 
 ### Understanding custom metadata mappings
 

@@ -10,7 +10,7 @@ Highlight the attribute to edit:
 - Add Attribute – Adds a custom attribute to the Computer Details attribute list
 - Remove Attribute – Removes a selected attribute Computer Details attribute list
 - Edit Attribute – Click this icon to change the name of the selected custom attribute
-- Import Attribute – Opens the Import Custom Attributes Import Wizard where one or more custom attributes can be imported. See the [Custom Attribute Import Wizard](#Custom-Attribute-Import-Wizard) topic for additional information.
+- Import Attribute – Opens the Import Custom Attributes Import Wizard where one or more custom attributes can be imported. See the [Custom Attribute Import Wizard](#custom-attribute-import-wizard) topic for additional information.
 - Value – This field contains selections from the Insert field. If the Manager attribute is selected, click the ellipsis (…) to access the Select User, Contact, or Group window to populate this field.
 - Select the checkboxes next to the computer attributes to enable them for editing when running the action.
 

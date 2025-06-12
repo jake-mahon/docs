@@ -4,7 +4,7 @@ When workflow actions are performed, the corresponding operations are logged to 
 
 Here you can change the display period or the number of logs displayed, sort the list or copy its content, or clear the logs you do not need.
 
-[![workflowlogs_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflowlogs_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflowlogs.png)
+[![workflowlogs_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflowlogs_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/workflowlogs.png)
 
 # Workflow Plugins
 

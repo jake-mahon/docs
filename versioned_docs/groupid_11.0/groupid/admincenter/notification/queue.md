@@ -11,9 +11,9 @@ GroupID also features a Notification Editor that lists the notification template
 
 What do you want to do?
 
-- [View the Notification Queue](#View-the-Notification-Queue)
-- [Send a Notification Urgently](#Send-a-Notification-Urgently)
-- [Delete a Notification](#Delete-a-Notification)
+- [View the Notification Queue](#view-the-notification-queue)
+- [Send a Notification Urgently](#send-a-notification-urgently)
+- [Delete a Notification](#delete-a-notification)
 
 ## View the Notification Queue
 

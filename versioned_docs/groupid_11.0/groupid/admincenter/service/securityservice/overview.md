@@ -13,7 +13,7 @@ See
 ## Why Create Multiple Security Services?
 
 See the
-[Why Create Multiple Data Services?](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md#Why-Create-Multiple-Data-Services) topic while replacing references to Data service with Security service.
+[Why Create Multiple Data Services?](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md#why-create-multiple-data-services) topic while replacing references to Data service with Security service.
 
 __See Also__
 

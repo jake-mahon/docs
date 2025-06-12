@@ -10,7 +10,7 @@ To launch the Cleaner tool
 2. Navigate to __Settings__→ __Config__ and click __Run Cleaner__.
 3. Then follow the steps of __Index Maintenance__ wizard.
 
-[![run_cleaner_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/utilities/run_cleaner_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/run_cleaner.png)
+[![run_cleaner_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/utilities/run_cleaner_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/run_cleaner.png)
 
 See next:
 

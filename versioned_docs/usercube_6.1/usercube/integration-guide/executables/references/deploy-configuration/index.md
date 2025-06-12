@@ -24,7 +24,7 @@ The following example deploys a SaaS configuration via an HTTP POST request to t
 
 ```
 
-To be able to deploy a SaaS configuration, you must first provide your Usercube administrator with identity information. [See how to deploy a SaaS configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md#See-how-to-deploy-a-SaaS-configuration) for the first time.
+To be able to deploy a SaaS configuration, you must first provide your Usercube administrator with identity information. [See how to deploy a SaaS configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md#see-how-to-deploy-a-saas-configuration) for the first time.
 
 ## Arguments
 

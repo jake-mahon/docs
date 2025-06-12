@@ -1,6 +1,6 @@
 # Customize Notifications
 
-GroupID generates a variety of notifications for different events, such as when changes are made to a group, when workflows are triggered, and when profile validation is due for users. Supported languages for notifications are listed in the [Localization](/versioned_docs/groupid_11.0/groupid/gettingstarted.md#Localization) topic.
+GroupID generates a variety of notifications for different events, such as when changes are made to a group, when workflows are triggered, and when profile validation is due for users. Supported languages for notifications are listed in the [Localization](/versioned_docs/groupid_11.0/groupid/gettingstarted.md#localization) topic.
 
 Templates for all GroupID notifications are available in these languages. You can customize a notification template for the following in each of the supported languages:
 
@@ -12,7 +12,7 @@ the GroupID portal.
 
 What do you want to do?
 
-- [Customize a Notification Template](#Customize-a-Notification-Template)
+- [Customize a Notification Template](#customize-a-notification-template)
 
 ## Customize a Notification Template
 
@@ -40,9 +40,9 @@ What do you want to do?
      this view.
 6. You can customize the notification template in the following ways:
 
-   - [Change the Subject Line](#Change-the-Subject-Line)
-   - [Edit and Format the Content](#Edit-and-Format-the-Content)
-   - [Replace the Tags](#Replace-the-Tags)
+   - [Change the Subject Line](#change-the-subject-line)
+   - [Edit and Format the Content](#edit-and-format-the-content)
+   - [Replace the Tags](#replace-the-tags)
 7. After saving your changes, click __Go Back__ to return to the Notification Editor.
 
 ### Change the Subject Line

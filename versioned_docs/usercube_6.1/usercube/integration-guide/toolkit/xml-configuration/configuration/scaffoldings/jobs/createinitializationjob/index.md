@@ -21,13 +21,13 @@ Creates the Initialization Job for the given agent.
 
 ## Child Elements
 
-- [AddTask](#AddTask) (optional) Add a task before or after another in the job
-- [Configuration](#Configuration) (optional) Add the path of the configuration folder if a configuration task is in the job
-- [NoConnectorProvisioning](#NoConnectorProvisioning) (optional) Avoid provisioning for a connector
-- [NoConnectorSynchronization](#NoConnectorSynchronization) (optional) Avoid collect for a connector
-- [NotUsed](#NotUsed) (optional) Avoid collect and provisioning for a connector
-- [OpenIdIdentifier](#OpenIdIdentifier) (optional) Add a Open Id to the job and the tasks
-- [PrincipalDataConnector](#PrincipalDataConnector) (optional) Specifies the connector that contains the data for the fulfillment of external systems.
+- [AddTask](#addtask) (optional) Add a task before or after another in the job
+- [Configuration](#configuration) (optional) Add the path of the configuration folder if a configuration task is in the job
+- [NoConnectorProvisioning](#noconnectorprovisioning) (optional) Avoid provisioning for a connector
+- [NoConnectorSynchronization](#noconnectorsynchronization) (optional) Avoid collect for a connector
+- [NotUsed](#notused) (optional) Avoid collect and provisioning for a connector
+- [OpenIdIdentifier](#openididentifier) (optional) Add a Open Id to the job and the tasks
+- [PrincipalDataConnector](#principaldataconnector) (optional) Specifies the connector that contains the data for the fulfillment of external systems.
 
 ### AddTask
 

@@ -14,9 +14,9 @@ These parameters can be configured within the __WebServer.exe.config__ file in t
 
 ## Enable SSL for the Web Console
 
-To enable Secure Sockets Layer (SSL) for secure, remote connections to the Web Console it is necessary to bind a certificate to the port. See the [Use a Self-Signed Certificate for SSL](#Use-a-Self-Signed-Certificate-for-SSL) topic for more information. Follow the steps on the server where Enterprise Auditor is installed to enable SSL for the Web Console.
+To enable Secure Sockets Layer (SSL) for secure, remote connections to the Web Console it is necessary to bind a certificate to the port. See the [Use a Self-Signed Certificate for SSL](#use-a-self-signed-certificate-for-ssl) topic for more information. Follow the steps on the server where Enterprise Auditor is installed to enable SSL for the Web Console.
 
-__NOTE:__ The following steps require a certificate to be available. Organizations typically have one or more system administrators responsible for Public Key Infrastructure (PKI) and certificates. To continue with this configuration it will first be necessary to confer with the PKI administrator to determine which certificate method will conform to the organization’s security policies. Optionally, see [Use a Self-Signed Certificate for SSL](#Use-a-Self-Signed-Certificate-for-SSL) for an Administrator PowerShell command which will both create and import a self-signed certificate.
+__NOTE:__ The following steps require a certificate to be available. Organizations typically have one or more system administrators responsible for Public Key Infrastructure (PKI) and certificates. To continue with this configuration it will first be necessary to confer with the PKI administrator to determine which certificate method will conform to the organization’s security policies. Optionally, see [Use a Self-Signed Certificate for SSL](#use-a-self-signed-certificate-for-ssl) for an Administrator PowerShell command which will both create and import a self-signed certificate.
 
 __Step 1 –__ Import the certificate to the hosting server using the Certificate Management MMC snap-in.
 
@@ -53,7 +53,7 @@ __Step 4 –__ Change the value for the ```BindingUrl``` parameter from ```http`
 - After changing the ```BindingUrl``` value in the __WebServer.exe.config__ file, the Website URL must be updated to match the new value in the following places:
   - Enterprise Auditor's __Settings__ > __Reporting__ node
   - Enterprise Auditor's Published Reports Desktop icon properties
-  - See the [Update Website URLs](#Update-Website-URLs) topic for additional information.
+  - See the [Update Website URLs](#update-website-urls) topic for additional information.
 
 __Step 5 –__ Save and close the file.
 
@@ -61,7 +61,7 @@ __Step 6 –__ Navigate to Services (```services.msc```). Restart the Netwrix En
 
 __NOTE:__ If also using the AIC, then SSL needs to be enabled for the AIC using this certificate. See the Securing the AIC section of the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 
-The Web Console has been enabled for SSL communication. Access it using the server’s fully qualified domain name and the HTTPS port (```https://[hostname.domain.com]:8082```). If a self-signed certificate was used, then the client-side access to the Web Console will generate a Certificate error. See the [Add the Certificate for Client-Side Access](#Add-the-Certificate-for-Client-Side-Access) topic for additional information.
+The Web Console has been enabled for SSL communication. Access it using the server’s fully qualified domain name and the HTTPS port (```https://[hostname.domain.com]:8082```). If a self-signed certificate was used, then the client-side access to the Web Console will generate a Certificate error. See the [Add the Certificate for Client-Side Access](#add-the-certificate-for-client-side-access) topic for additional information.
 
 ### Update Website URLs
 
@@ -130,7 +130,7 @@ The output will show this info:
 
 ```80F78FD2566793D2F39E748CDF6DED09B6F57A82  CN=machinename.domain.com```
 
-The Thumbprint value is the certificate __Hash__ value to be used when binding to the port. The port can be the same as in HTTP (8082). Use this __Hash__ value for Step 2 of the [Enable SSL for the Web Console](#Enable-SSL-for-the-Web-Console) instructions.
+The Thumbprint value is the certificate __Hash__ value to be used when binding to the port. The port can be the same as in HTTP (8082). Use this __Hash__ value for Step 2 of the [Enable SSL for the Web Console](#enable-ssl-for-the-web-console) instructions.
 
 Creation and import of the self-signed certificate can be validated in Microsoft Management Console. Follow these steps to confirm the certificate is in Microsoft Management Console.
 

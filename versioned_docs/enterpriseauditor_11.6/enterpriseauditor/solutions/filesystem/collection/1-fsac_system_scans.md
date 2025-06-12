@@ -20,7 +20,7 @@ The following default configurations are commonly customized:
   - Set scan filter for detailed activity __60__ days
   - Set filter for statistics of activity __120__ days
 
-See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the Activity Scan Query](#Configure-the-Activity-Scan-Query) topic for instructions.
+See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the Activity Scan Query](#configure-the-activity-scan-query) topic for instructions.
 
 ### Configure the Activity Scan Query
 

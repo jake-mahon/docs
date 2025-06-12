@@ -14,7 +14,7 @@ In addition to the permissions required by the ExchangePS Data Collector, the Co
   - This job group also requires permissions for the Exchange2K Data Collector, which is MAPI-based and has additional requirements
 - 4. Mailboxes
 
-  - This job group also requires Exchange Mailbox Access Auditing to be enabled. See the [Enable Exchange Mailbox Access Auditing](#Enable-Exchange-Mailbox-Access-Auditing) topic for additional information.
+  - This job group also requires Exchange Mailbox Access Auditing to be enabled. See the [Enable Exchange Mailbox Access Auditing](#enable-exchange-mailbox-access-auditing) topic for additional information.
 - 5. Public Folders
 
   - This job group also requires permissions for the ExchangePublicFolder Data Collector, which is MAPI-based and has additional requirements
@@ -28,7 +28,7 @@ Remote PowerShell and Windows Authentication Enabled
 
 The Remote PowerShell and Windows Authentication configurations for Exchanges servers are required to be enabled on at least one Exchange server running the Client Access Service so that the ExchangePS Data Collector can make a remote PowerShell connection and authenticate through Enterprise Auditor.
 
-Enterprise Auditor passes credentials saved in the Connection Profile to the data collector so that it is able to connect to the targeted host. This requires the Exchange server to allow for Windows Authentication. See the [Enable Remote PowerShell for ExchangePS Data Collector](#Enable-Remote-PowerShell-for-ExchangePS-Data-Collector) topic and the [Enable Windows Authentication for PowerShell Virtual Directory](#Enable-Windows-Authentication-for-PowerShell-Virtual-Directory) topic for additional information.
+Enterprise Auditor passes credentials saved in the Connection Profile to the data collector so that it is able to connect to the targeted host. This requires the Exchange server to allow for Windows Authentication. See the [Enable Remote PowerShell for ExchangePS Data Collector](#enable-remote-powershell-for-exchangeps-data-collector) topic and the [Enable Windows Authentication for PowerShell Virtual Directory](#enable-windows-authentication-for-powershell-virtual-directory) topic for additional information.
 
 View-Only Organization Management Role Group
 
@@ -50,7 +50,7 @@ This is required to collect Mailbox Access Audit logs and run Mailbox Search que
 
 Application Impersonation Role
 
-The Application Impersonation Role is a customer role you need to create. See the [Create Custom Application Impersonation Role in Exchange](#Create-Custom-Application-Impersonation-Role-in-Exchange) topic for additional information.
+The Application Impersonation Role is a customer role you need to create. See the [Create Custom Application Impersonation Role in Exchange](#create-custom-application-impersonation-role-in-exchange) topic for additional information.
 
 ## Scoping Options
 

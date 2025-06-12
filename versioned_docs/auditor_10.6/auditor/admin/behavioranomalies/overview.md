@@ -6,7 +6,7 @@ The behavior anomalies assessment extends the alerting functionality and provide
 
 On a high level, your behavior anomalies assessment workflow can be described as follows:
 
-1. You create alerts on threat patterns specific to your company. You include these alerts in Behavior Anomalies assessment and associate a risk score with each alert. The score, that is between 1 and 100 points, reflects how critical the action is for your organization. [Risk Score](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md#Risk-Score)how to set a risk score for an alert.
+1. You create alerts on threat patterns specific to your company. You include these alerts in Behavior Anomalies assessment and associate a risk score with each alert. The score, that is between 1 and 100 points, reflects how critical the action is for your organization. See the [Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) topic for information on how to set a risk score for an alert.
 
    Although Netwrix industry experts suggest risk scores for alerts that are provided out-of-the-box, you can easily tailor these scores to your organization needs and priorities. You can always adjust risk scores over time as you become more aware of behavior patterns and anomalous actions in your environment.
 2. Each action that provokes an alert is treated as anomaly. Once the anomaly is detected, it appears on a dashboard's timeline and its risk score is added to the user's total score.

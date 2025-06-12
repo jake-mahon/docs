@@ -10,9 +10,9 @@ At the top of the page the selected layout is described. The table contains the 
 
 To add a new widget to an empty element, click __Configure__ and select the desired widget type from the drop-down menu. The following widgets are available:
 
-- [Grid](#Grid)
-- [Chart](#Chart)
-- [Text](#Text)
+- [Grid](#grid)
+- [Chart](#chart)
+- [Text](#text)
 
 The editor for the selected widget opens. See the relevant section below for information about configuring it.
 

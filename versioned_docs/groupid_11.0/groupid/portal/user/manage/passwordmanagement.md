@@ -23,4 +23,4 @@ Complex passwords keep network infrastructure secure but there is a real cost to
     The distributed client enables the __Forgot Password?__ and __Unlock Account__ links on the Windows logon screen of users’ workstations. Users, who forget their passwords or are locked out, can easily access these functions from their machine. There is also an option for web access for users if they are on a remote computer.
   - __Passwordless Authentication with QR Code__
 
-    Opt for a hassle-free experience by signing into GroupID through QR code as an alternative to entering a username and password. See the [With QR Code](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md#With-QR-Code) section in the [Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md) topic.
+    Opt for a hassle-free experience by signing into GroupID through QR code as an alternative to entering a username and password. See the [With QR Code](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md#with-qr-code) section in the [Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md) topic.

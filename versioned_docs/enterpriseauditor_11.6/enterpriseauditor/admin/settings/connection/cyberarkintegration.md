@@ -3,7 +3,7 @@
 In order for Enterprise Auditor to be able to retrieve service account passwords from the CyberArk Password Vault, the following prerequisites must be completed:
 
 - The Secrets Manager must be installed on the Enterprise Auditor Console server. The organization’s Vault administrator can provide the Secrets Manager installation package and most likely needs to be present during the installation to provide credentials in order for the Secrets Manager installation to complete. See the CyberArk [Credential Provider (CP)](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Installing-CP.htm) article for additional information.
-- An application must be added to CyberArk for the integration with Enterprise Auditor. The Application Id of this application must then be added to the ```GlobalOptions.xml``` file for Enterprise Auditor. See the [Customize CyberArk Application Id](#Customize-CyberArk-Application-Id) topic for additional information. The application can be locked down by providing an OS User, a Path, or a Hash. See the CyberArk [Add applications](https://docs.cyberark.com/credential-providers/14.0/en/Content/Common/Adding-Applications.htm) article for additional information.
+- An application must be added to CyberArk for the integration with Enterprise Auditor. The Application Id of this application must then be added to the ```GlobalOptions.xml``` file for Enterprise Auditor. See the [Customize CyberArk Application Id](#customize-cyberark-application-id) topic for additional information. The application can be locked down by providing an OS User, a Path, or a Hash. See the CyberArk [Add applications](https://docs.cyberark.com/credential-providers/14.0/en/Content/Common/Adding-Applications.htm) article for additional information.
 
   - The OS User needs to be the account running Enterprise Auditor. This could be the account used to launch the Enterprise Auditor application or an account used as the Schedule Service Account within Enterprise Auditor. More than one OS User can be added.
   - The Path should be a local path to the ```StealthAUDIT.exe``` file. The path should end with the file name: ```…\StealthAUDIT.exe```.
@@ -56,7 +56,7 @@ __Step 2 –__ Find the ```<CYBERARKAPPLICATION>``` section of the ```GlobalOpti
 - CommandTimeout – Set to the suggested default of 30
 - ConnectionPort – This is a configurable option found during the installation of the CyberArk Credential Provider. After installation, it can be found in the configuration file located in the installation folder.
 
-  See the CyberArk [TCP parameters](https://docs.cyberark.com/credential-providers/13.0/en/Content/CP%20and%20ASCP/Credential-Provider-Configuration-Files.htm#TCP-parameters) article for additional information.
+  See the CyberArk [TCP parameters](https://docs.cyberark.com/credential-providers/13.0/en/Content/CP%20and%20ASCP/Credential-Provider-Configuration-Files.htm#tcp-parameters) article for additional information.
 
 __Step 3 –__ Save and close the file.
 

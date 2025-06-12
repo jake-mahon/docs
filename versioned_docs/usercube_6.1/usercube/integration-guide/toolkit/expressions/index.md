@@ -200,7 +200,7 @@ To avoid the use of a C# expression when the parameter is not needed, simple lit
 - The expression is prefixed by the ```Literal:``` tag.
 - The expression value must be valid according to the expected type of the property to which the expression applies. For example, ```Literal:five``` does not work for an ```Int``` property.
 
-Literal expressions are available for [```ScalarRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#ScalarRule), [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#QueryRule) and [```EntityPropertyExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityPropertyExpression) expressions whose target [```EntityProperty```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityProperty)```Type``` attribute is of the following :
+Literal expressions are available for [```ScalarRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalarrule), [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#queryrule) and [```EntityPropertyExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entitypropertyexpression) expressions whose target [```EntityProperty```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperty)```Type``` attribute is of the following :
 
 - String = 0
 - Bytes = 1
@@ -213,7 +213,7 @@ Literal expressions are available for [```ScalarRule```](/versioned_docs/usercub
 - Int16 = 10
 - ForeignKey = 12
 
-Literal expressions are not available for [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#QueryRule)```TargetExpression``` attribute, only ```SourceExpression```.
+Literal expressions are not available for [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#queryrule)```TargetExpression``` attribute, only ```SourceExpression```.
 Literal expressions are not available for rules targeting a ```DateTime``` or ```Binary``` property.
 
 #### Example

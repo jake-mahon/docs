@@ -14,4 +14,4 @@ Below is an example of Fine Grained audit policy that enables auditing of audit 
 | To disable audit policy | ```EXEC DBMS_FGA.DISABLE_POLICY(object_schema => 'hr', object_name =>'emp', policy_name => 'chk_hr_emp');``` |
 | To delete audit policy | ```EXEC DBMS_FGA.DROP_POLICY(object_schema => 'hr', object_name =>'emp', policy_name => 'chk_hr_emp');``` |
 
-Refer to Oracle documentation for additional information on [Working with Oracle Fine Grained Auditing](https://docs.oracle.com/cd/F28299_01/pt857pbr3/eng/pt/tadm/task_WorkingwithOracleFineGrainedAuditing-4f7f7a.html?pli=ul_d90e208_tadm#Working-with-Oracle-Fine-Grained-Auditing).
+Refer to Oracle documentation for additional information on [Working with Oracle Fine Grained Auditing](https://docs.oracle.com/cd/F28299_01/pt857pbr3/eng/pt/tadm/task_WorkingwithOracleFineGrainedAuditing-4f7f7a.html?pli=ul_d90e208_tadm#working-with-oracle-fine-grained-auditing).

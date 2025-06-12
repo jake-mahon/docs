@@ -9,7 +9,7 @@ The 1-SQL\_PermissionsScan Job uses the SQL Data Collector for the following que
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup6.png)
 
 - PermissionsScan – Collects permissions from targeted instances
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the PermissionsScan Query](#Configure-the-PermissionsScan-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the PermissionsScan Query](#configure-the-permissionsscan-query) topic for additional information.
 
 ### Configure the PermissionsScan Query
 

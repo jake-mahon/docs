@@ -2,7 +2,7 @@
 
 This topic provides instructions to uninstall Netwrix Auditor.
 
-__NOTE:__ If you enabled network traffic compression for data collection, make sure to disable it before uninstalling the product. Some network compression services must be removed manually. See the [Uninstall Compression and Core Services](#Uninstall-Compression-and-Core-Services) topic for additional information.
+__NOTE:__ If you enabled network traffic compression for data collection, make sure to disable it before uninstalling the product. Some network compression services must be removed manually. See the [Uninstall Compression and Core Services](#uninstall-compression-and-core-services) topic for additional information.
 
 Follow the steps to uninstall Auditor.
 

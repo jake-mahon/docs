@@ -4,13 +4,13 @@ You can create a Mobile service in native IIS, remote IIS, and Docker.
 
 What do you want to do?
 
-- [Create a Mobile Service in Native IIS](#Create-a-Mobile-Service-in-Native-IIS)
-- [Create a Mobile Service in Remote IIS](#Create-a-Mobile-Service-in-Remote-IIS)
-- [Create a Mobile Service in Docker](#Create-a-Mobile-Service-in-Docker)
-- [Deploy Another Instance of a Mobile Service](#Deploy-Another-Instance-of-a-Mobile-Service)
-- [Create a Mobile Service by Copying an Existing Service](#Create-a-Mobile-Service-by-Copying-an-Existing-Service)
-- [View Mobile Service Details](#View-Mobile-Service-Details)
-- [Launch a Mobile Service or a Service Instance](#Launch-a-Mobile-Service-or-a-Service-Instance)
+- [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis)
+- [Create a Mobile Service in Remote IIS](#create-a-mobile-service-in-remote-iis)
+- [Create a Mobile Service in Docker](#create-a-mobile-service-in-docker)
+- [Deploy Another Instance of a Mobile Service](#deploy-another-instance-of-a-mobile-service)
+- [Create a Mobile Service by Copying an Existing Service](#create-a-mobile-service-by-copying-an-existing-service)
+- [View Mobile Service Details](#view-mobile-service-details)
+- [Launch a Mobile Service or a Service Instance](#launch-a-mobile-service-or-a-service-instance)
 
 ## Create a Mobile Service in Native IIS
 
@@ -77,9 +77,9 @@ __To create a service:__
 6. In the __Deployment Name__ box, enter a deployment name for the service. This name is used to indicate the deployment instance of the service in GroupID. A Mobile service can have multiple deployments, for example, one in
    IIS and another in Docker.  
    The application name and deployment name are displayed on the service card.
-7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Mobile service.
+7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic. Replace any reference to the portal with the Mobile service.
 8. To enter information in the __Service Endpoints__ and __Select Identity Stores__ areas, refer to steps 9-10 in
-   the [Create a Mobile Service in Native IIS](#Create-a-Mobile-Service-in-Native-IIS) topic.
+   the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis) topic.
 9. Click __Create Application__.  
    The Mobile service is displayed on the __Mobile Service__ tab.
 
@@ -102,15 +102,15 @@ __To create a service:__
 6. In the __Deployment Name__ box, enter a deployment name for the service. This name is used to indicate the deployment instance of the service in GroupID. A service can have multiple deployments, for example, one in IIS and
    another in Docker.  
    The application name and deployment name are displayed on the service card.
-7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Mobile service.
+7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace any reference to the portal with the Mobile service.
 8. To enter information in the __Service Endpoints__ and __Select Identity Stores__ areas, refer to steps 9-10 in
-   the [Create a Mobile Service in Native IIS](#Create-a-Mobile-Service-in-Native-IIS) topic.
+   the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis) topic.
 9. Click __Create Application__.  
    The service is created and displayed on the __Mobile Service__ tab.
 
 ## Deploy Another Instance of a Mobile Service
 
-GroupID enables you to deploy more than one instance of a Mobile Service. Instances can be deployed in different web servers, for example, one in IIS, another in Remote IIS, and yet another in Docker. For more on how instances work, see the [Deploy Multiple Instances of a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Deploy-Multiple-Instances-of-a-Portal) topic.
+GroupID enables you to deploy more than one instance of a Mobile Service. Instances can be deployed in different web servers, for example, one in IIS, another in Remote IIS, and yet another in Docker. For more on how instances work, see the [Deploy Multiple Instances of a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#deploy-multiple-instances-of-a-portal) topic.
 
 To deploy a new instance, you have to provide deployment details only. All instances share the same server and design configurations, while only deployment details differ. For example, all instances serve the same identity stores and have the same display
 and search-related configurations. Changing a shared setting propagates to all deployment instances of the service.
@@ -123,9 +123,9 @@ __To deploy an instance:__
    The __Application Name__ field displays the name of the service as read-only.
 4. Fields on the page vary, depending on the web server selected. In any case, the __Select Identity Stores__ area is not available, as it remains the same for all instances.
 
-   - To deploy an instance in native IIS, follow steps 6-9 in the [Create a Mobile Service in Native IIS](#Create-a-Mobile-Service-in-Native-IIS) topic.
-   - To deploy an instance in remote IIS, follow steps 6-8 in the [Create a Mobile Service in Remote IIS](#Create-a-Mobile-Service-in-Remote-IIS) topic.
-   - To deploy an instance in Docker, follow steps 6-8 in the [Create a Mobile Service in Docker](#Create-a-Mobile-Service-in-Docker) topic.
+   - To deploy an instance in native IIS, follow steps 6-9 in the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis) topic.
+   - To deploy an instance in remote IIS, follow steps 6-8 in the [Create a Mobile Service in Remote IIS](#create-a-mobile-service-in-remote-iis) topic.
+   - To deploy an instance in Docker, follow steps 6-8 in the [Create a Mobile Service in Docker](#create-a-mobile-service-in-docker) topic.
 5. After entering the required information, click __Deploy Instance__.  
    The new instance is created and displayed on the service’s card.
 
@@ -146,19 +146,19 @@ __To create a service:__
    - The identity store(s) linked with the service
 3. You can deploy the new service in native IIS, remote IIS, or Docker.
 
-   - To specify settings for a native IIS deployment, follow the instructions in the [Create a Mobile Service in Native IIS](#Create-a-Mobile-Service-in-Native-IIS) topic, beginning at step 4.
-   - To specify settings for a remote IIS deployment, follow the instructions in the [Create a Mobile Service in Remote IIS](#Create-a-Mobile-Service-in-Remote-IIS), beginning at step 4.
-   - To specify settings for a Docker deployment, follow the instructions in the [Create a Mobile Service in Docker](#Create-a-Mobile-Service-in-Docker) topic, beginning at step 4.
+   - To specify settings for a native IIS deployment, follow the instructions in the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis) topic, beginning at step 4.
+   - To specify settings for a remote IIS deployment, follow the instructions in the [Create a Mobile Service in Remote IIS](#create-a-mobile-service-in-remote-iis), beginning at step 4.
+   - To specify settings for a Docker deployment, follow the instructions in the [Create a Mobile Service in Docker](#create-a-mobile-service-in-docker) topic, beginning at step 4.
 
 ## View Mobile Service Details
 
 1. In GroupID Admin Center, select __Applications__ in the left pane.
 2. On the __Applications__ page, click the __Mobile Service__ tab.  
-   The tab displays the default Mobile service in GroupID and any other Mobile service that you have created. For details displayed on a service card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic.
+   The tab displays the default Mobile service in GroupID and any other Mobile service that you have created. For details displayed on a service card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 ## Launch a Mobile Service or a Service Instance
 
-To launch a Mobile service or an instance of a service means that you launch the __GroupIDMobileService__ page in a web browser, which displays a server URL and a QR code. Users can use any of these to configure the GroupID app on their phones. See the [Configure the App](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/phonesetup.md#Configure-the-App) topic.
+To launch a Mobile service or an instance of a service means that you launch the __GroupIDMobileService__ page in a web browser, which displays a server URL and a QR code. Users can use any of these to configure the GroupID app on their phones. See the [Configure the App](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/phonesetup.md#configure-the-app) topic.
 
 To launch a service or a service instance:
 
@@ -170,7 +170,7 @@ To launch a service or a service instance:
 
 Provide the URL of the GroupIDMobileService page to your users so they can use the QR code or the server URL to set up the GroupID app on their mobile phone while binding it to the respective deployment instance of the Mobile service.
 
-You can either copy the URL of the GroupIDMobileService page from the address bar or from a service's deployment settings. See the [View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/deployment.md#View-the-Launch-URL-for-an-Instance) topic.
+You can either copy the URL of the GroupIDMobileService page from the address bar or from a service's deployment settings. See the [View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/deployment.md#view-the-launch-url-for-an-instance) topic.
 
 __See Also__
 

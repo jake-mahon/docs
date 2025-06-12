@@ -13,7 +13,7 @@ Runtime Details:
   - __FileSystem__ > __7.Sensitive Data__ Job Group
 - Special Instructions
   - A Connection Profile must be created using the Web Services (JWT) credential account type with the specified Threat Manager App Token and assigned to this job
-    - See the [Custom Connection Profile for FS\_DEFEND\_SDD Job](#Custom-Connection-Profile-for-FS_DEFEND_SDD-Job) topic for additional information
+    - See the [Custom Connection Profile for FS\_DEFEND\_SDD Job](#custom-connection-profile-for-fs_defend_sdd-job) topic for additional information
     - Assign the Connection Profile on the Connection tab of the job’s Properties
   - The Threat Manager host name with port, [HOST]:8080, and App Token are generated within Threat Manager:
     - Navigate to the __Configuration__ > __App Tokens__ page

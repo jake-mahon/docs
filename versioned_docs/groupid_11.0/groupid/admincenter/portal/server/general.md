@@ -4,9 +4,9 @@ You can manage general server settings for a portal, such as change it's display
 
 What do you want to do?
 
-- [Change a Portal's Display Name](#Change-a-Portals-Display-Name)
-- [Associate Identity Stores with a Portal](#Associate-Identity-Stores-with-a-Portal)
-- [View the Deployment(s) for a Portal](#View-the-Deployments-for-a-Portal)
+- [Change a Portal's Display Name](#change-a-portals-display-name)
+- [Associate Identity Stores with a Portal](#associate-identity-stores-with-a-portal)
+- [View the Deployment(s) for a Portal](#view-the-deployments-for-a-portal)
 
 ## Change a Portal's Display Name
 
@@ -45,7 +45,7 @@ NOTE: You may observe the following message on the __Server Settings – General
 
 ![linked_message](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linked_message.png)
 
-It relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-GroupID-Portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
+It relates to the scenario when identity stores in GroupID have been linked, as discussed in the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
 the portal too, in order to benefit from the linking.
 
 ## View the Deployment(s) for a Portal

@@ -22,12 +22,12 @@ ___This section explains how Usercube retrieves these accounts from CyberArk.___
 
 CyberArk AAM can be used either with:
 
-- agentless AAM: [Central Credential Provider](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CCP/The-Central%20-Credential-Provider.htm?tocpath=Get%20Started%7COfferings%7C_____3#Central-Credential-Provider) (works with Web Service using REST);
-- agent-based AAM: [Credential Provider](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CP%20and%20ASCP/lp_cp.htm?tocpath=Get%20Started%7COfferings%7C_____1#Credential-Provider) (works with C/C++ Application Password SDK).
+- agentless AAM: [Central Credential Provider](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CCP/The-Central%20-Credential-Provider.htm?tocpath=Get%20Started%7COfferings%7C_____3#central-credential-provider) (works with Web Service using REST);
+- agent-based AAM: [Credential Provider](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CP%20and%20ASCP/lp_cp.htm?tocpath=Get%20Started%7COfferings%7C_____1#credential-provider) (works with C/C++ Application Password SDK).
 
   Implementing the Credential Provider method requires placing the C/C++ Application Password SDK DLL, named ```CPasswordSDK.dll``` (on 32-bit systems) or ```CPasswordSDK64.dll``` (on 64-bit systems), to the ```Runtime``` folder of Usercube.
 
-Usercube supports both AAMs. [CyberArk's overview](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CCP/The-CyberArk-Application-Identity-Management-Solution.htm?tocpath=Get%20Started%7C_____1#CyberArks-overview) can help choose which AAM to go to.
+Usercube supports both AAMs. [CyberArk's overview](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CCP/The-CyberArk-Application-Identity-Management-Solution.htm?tocpath=Get%20Started%7C_____1#cyberarks-overview) can help choose which AAM to go to.
 
 See more details about Credential Provider's [system requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CP%20and%20ASCP/SysReq-Credential-Provider.htm?tocpath=Installation%7CSystem%20Requirements%7C_____1#system-requirements) and [installation guide](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/11.4/en/Content/CP%20and%20ASCP/installing-the-Credential-Provider.htm?TocPath=Installation%7CCredential%20Provider%7CInstall%20the%20Credential%20Provider%7C_____0#installation-guide).
 
@@ -43,7 +43,7 @@ The following table sums up which keys from ```appsettings.agent.json```'s __Con
 
 Any [connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the associated value from CyberArk.
 
-> For example, [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#Active-Directory) can retrieve: ```Login```; ```Password```; ```Server```.
+> For example, [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#active-directory) can retrieve: ```Login```; ```Password```; ```Server```.
 
 ## Set Authorization Details
 
@@ -51,7 +51,7 @@ While the application's identifier is required, setting an authentication method
 
 ### AppID
 
-[See CyberArk's documentation on how to add an application to the vault](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/Latest/en/Content/Common/Adding-Applications.htm?tocpath=Administration%7CManage%20applications%7C_____1#See-CyberArks-documentation-on-how-to-add-an-application-to-the-vault).
+[See CyberArk's documentation on how to add an application to the vault](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/Latest/en/Content/Common/Adding-Applications.htm?tocpath=Administration%7CManage%20applications%7C_____1#see-cyberarks-documentation-on-how-to-add-an-application-to-the-vault).
 
 CyberArk uses for each client application an AppID, i.e. a unique name to identify the application's permissions to access given safes and stored secrets.
 
@@ -81,7 +81,7 @@ CyberArk's Password Vault Web Access (PVWA) is meant to enable users to access s
 
 The following procedure requires credentials in order to connect to PVWA.
 
-Create a CyberArk account by [adding it to the PVWA](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/Latest/en/Content/CP%20and%20ASCP/cv_Managing-Single-Accounts.htm?tocpath=Administration%7CCredential%20Provider%7CAccounts%20and%20Safes%7C_____1#adding-it-to-the-PVWA), defining at least the following properties:
+Create a CyberArk account by [adding it to the PVWA](https://docs.cyberark.com/Product-Doc/OnlineHelp/AAM-CP/Latest/en/Content/CP%20and%20ASCP/cv_Managing-Single-Accounts.htm?tocpath=Administration%7CCredential%20Provider%7CAccounts%20and%20Safes%7C_____1#adding-it-to-the-pvwa), defining at least the following properties:
 
 ```
 | Property Name | Key in appsettings.agent.json |
@@ -90,7 +90,7 @@ Create a CyberArk account by [adding it to the PVWA](https://docs.cyberark.com/P
 | Address | Server |
 | Password | Password |
 
-NETWRIX recommends customizing the account's name because it will be used in [```appsettings.cyberArk.agent.json```](#appsettingscyberArkagentjson) to retrieve this account from the vault.
+NETWRIX recommends customizing the account's name because it will be used in [```appsettings.cyberArk.agent.json```](#appsettingscyberarkagentjson) to retrieve this account from the vault.
 
 ```
 
@@ -138,7 +138,7 @@ Connect Usercube to CyberArk by adding to the agent's ```appsettings.json``` fil
 | --- | --- |
 | UseCyberArkSetting   default value: False | __Type__    Boolean   __Description__ ```True``` to enable the CyberArk Provider for Usercube. |
 | SafeName   required | __Type__    String   __Description__ Name of the safe containing the [accounts](#accounts) used by Usercube. |
-| ApplicationId   required | __Type__    String   __Description__ [Application ID](#Application-ID) of the application that can access the safe. |
+| ApplicationId   required | __Type__    String   __Description__ [Application ID](#application-id) of the application that can access the safe. |
 | Server   required | __Type__    String   __Description__ URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes.   __Note:__ the ```Server``` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
 ### Certificate settings

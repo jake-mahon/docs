@@ -2,8 +2,8 @@
 
 This topic discusses the following:
 
-- [All Parameters](#All-Parameters)
-- [Unsupported Parameters](#Unsupported-Parameters)
+- [All Parameters](#all-parameters)
+- [Unsupported Parameters](#unsupported-parameters)
 
 ## All Parameters
 
@@ -11,7 +11,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 
 | Parameter Name | Description |
 | --- | --- |
-| [A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [ U](#U) [ V](#V) [W](#W) [X ](#X) [Y ](#Y) [Z](#Z) |  |
+| [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [ U](#u) [ V](#v) [W](#w) [X ](#x) [Y ](#y) [Z](#z) |  |
 | __A__ |  |
 | AcceptMessagesOnlyFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who can send e-mail messages to the group. Providing a blank value enables the group to accept messages from all mailbox users and all mail-enabled contacts.  (Applies to Distribution groups only). |
 | AcceptMessagesOnlyFromGroups | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users that the group is allowed to accept messages from. Separate multiple objects with commas (,).  (Applies to Distribution groups only.) |
@@ -74,8 +74,8 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | Container | The distinguished name (DN) or globally unique identifier (GUID) of one or more containers where you want to search for a user, contact or group. Separate multiple values with commas. |
 | Country | Country of a user, contact or mailbox, represented as the 2-character country code based on ISO-3166. |
 | CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager’s direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
-| CriteriaFilters | Same as [RoleCriteriaFilters](#RoleCriteriaFilters) |
-| CriteriaScope | Same as [RoleCriteriaScope](#RoleCriteriaScope) |
+| CriteriaFilters | Same as [RoleCriteriaFilters](#rolecriteriafilters) |
+| CriteriaScope | Same as [RoleCriteriaScope](#rolecriteriascope) |
 | Credential | The $Credentials environment variable holds the user's authentication information. Use this variable to execute the commandlet using the credentials of a user account other than the one you are logged on to the connected identity store. |
 | CustomAttribute1-15 | A value for an attribute that you determine. Use these attributes—up to 15—to store additional information specific to your needs. |
 | __D__ |  |
@@ -268,7 +268,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | NumberofOwnersToDisplay | The maximum value that can be set for the DefaultNumberOfOwnersToDisplay parameter. 24 is the maximum. |
 | __O__ |  |
 | Office | Office phone number of a user, contact or mailbox. |
-| Operator | Same as [RoleCriteriaOperator](#RoleCriteriaOperator) |
+| Operator | Same as [RoleCriteriaOperator](#rolecriteriaoperator) |
 | Options | The list of options to be retrieved from the registry. |
 | OrganizationalUnit | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create a user, contact, group or mailbox. |
 | OutOfBoundsAlertEnabled | Set to True to enable out-of-bound exceptions when group memberships change. Out-of-bound exceptions prevent massive changes from occurring to group memberships. When an out-of-bounds exception occurs, the group membership is not updated and the owner or administrator is notified via e-mail. If the owner or administrator determines that the change is valid they can update the group manually. |
@@ -286,7 +286,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | PasswordRuleOperation | The action to perform on the values supplied in the PasswordRules parameter. |
 | PasswordRules | Specify the regular expressions (rules) for passwords. |
 | PermissionOperation | The operation to perform on the Permissions parameter. |
-| Permissions | Same as [RolePermissions](#RolePermissions) |
+| Permissions | Same as [RolePermissions](#rolepermissions) |
 | Port | Specify the port number for the specified data source. |
 | PowerTools | Include respective power tools to execute script in Query Designer of Smart Group. |
 | ProfileValidationGroupDN | Specify the distinguished name of a group to apply profile validation on. |
@@ -338,7 +338,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | RoleCriteriaDN | Specify the criteria for a role. The criteria can be a group or a container.   - Group - users that are members of the specified group will be assigned this role. - Container - users who reside in the specified container will be assigned this role. |
 | RoleCriteriaFilters | Specifies the filter criteria for a role. Values to this parameter are supplied as a 3-length array.   - The first index contains the filter name which can be one of the 'name' or 'type' representing 'client name' and 'client type' respectively.  - The second index contains the operator which can be either 'is exactly' or 'is not'.  - The third index contains the value. It can either be the client type or client name, depending on the value in the first index.   Example: @('name', 'is exactly', 'automate arslanahmadvm') is a valid filter criteria. However, @('client type', 'is not', 'managementshell') is not valid because the value at first index is not correct. |
 | RoleCriteriaOperator | Specify the operator for criteria filters of a role. The operators can be And or Or |
-| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with [RoleCriteriaDN](#RoleCriteriaDN) to change the role criteria scope from container to group and vice-versa. |
+| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with [RoleCriteriaDN](#rolecriteriadn) to change the role criteria scope from container to group and vice-versa. |
 | RoleDescription | Description of an identity store security role. |
 | RoleDisabled | If a new role is created using the Set-IdentityStore commandlet, the role is created as disabled in the identity store. |
 | RoleName | Name of an identity store security role. |

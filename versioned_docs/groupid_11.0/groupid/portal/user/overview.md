@@ -3,7 +3,7 @@
 With GroupID, you can:
 
 - Automate user provisioning and deprovisioning in bulk. See the [Synchronize](/versioned_docs/groupid_11.0/groupid/portal/synchronize/overview.md) section.
-- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md#Dotted-line-management) section of the [Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md) topic.
+- Establish ownership by defining a clear managerial hierarchy with dotted line management. See the [Dotted line management](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md#dotted-line-management) section of the [Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md) topic.
 - Delegate user management to end users by enabling them to:
 
   - Create and manage users, contacts, and mailboxes in the directory. See the [ Create User Objects](/versioned_docs/groupid_11.0/groupid/portal/user/create/overview.md) topic.

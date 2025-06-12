@@ -4,13 +4,13 @@ The SP\_StaleFiles Job identifies files that have not been modified in at least 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The SP\_StaleFiles page has the following configurable parameters:
 
 - Days since last modification to be considered stale
 
-See the [Customizable Analysis Tasks for the SP\_StaleFiles Job](#Customizable-Analysis-Tasks-for-the-SP_StaleFiles-Job) for additional information.
+See the [Customizable Analysis Tasks for the SP\_StaleFiles Job](#customizable-analysis-tasks-for-the-sp_stalefiles-job) for additional information.
 
 ## Analysis Tasks for the SP\_StaleFiles Job
 
@@ -24,7 +24,7 @@ The default analysis task is:
 
 - Stale File Details – Creates the SA\_SP\_StaleFiles\_Details table accessible under the job’s Results node
 
-  - This analysis task contains a configurable parameter: ```@stale```. See the [Customizable Analysis Tasks for the SP\_StaleFiles Job](#Customizable-Analysis-Tasks-for-the-SP_StaleFiles-Job) topic for additional information.
+  - This analysis task contains a configurable parameter: ```@stale```. See the [Customizable Analysis Tasks for the SP\_StaleFiles Job](#customizable-analysis-tasks-for-the-sp_stalefiles-job) topic for additional information.
 
 In addition to the table created by the analysis task which displays the stale file resources, the SP\_StaleFiles Job produces the following pre-configured report:
 

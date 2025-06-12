@@ -9,8 +9,8 @@ Use the Scoping Queries page to query the SQL database and return exclude and in
 
 The Scoping Queries buttons have the following functionality:
 
-- Add – Add a resource to be included or excluded in the scoping query. Opens the Scoping Query Configuration window. See the [Scoping Query Configuration Window](#Scoping-Query-Configuration-Window) topic for additional information.
-- View / Edit – Make changes to a previously added scoping query. Opens the Scoping Query Configuration window. See the [Scoping Query Configuration Window](#Scoping-Query-Configuration-Window) topic for additional information.
+- Add – Add a resource to be included or excluded in the scoping query. Opens the Scoping Query Configuration window. See the [Scoping Query Configuration Window](#scoping-query-configuration-window) topic for additional information.
+- View / Edit – Make changes to a previously added scoping query. Opens the Scoping Query Configuration window. See the [Scoping Query Configuration Window](#scoping-query-configuration-window) topic for additional information.
 - Remove – Deletes the resource from the table and therefore the scan
 - Migrate Scan Resource Filters – Migrates configured scan resource filters from the ```FSAAConfig.xml``` file and imports them into the FSAA data collector
 
@@ -47,7 +47,7 @@ Configure the following fields:
 
 - Name – Enter a unique name for the scoping query
 - Scoping Type – Choose from the dropdown menu the type of resource to scan
-- Configure Query – Select __Configure Query__ to open the Advanced Scoping Options Query Configuration window. See the [Advanced Scoping Options Query Configuration Window](#Advanced-Scoping-Options-Query-Configuration-Window) topic for additional information.
+- Configure Query – Select __Configure Query__ to open the Advanced Scoping Options Query Configuration window. See the [Advanced Scoping Options Query Configuration Window](#advanced-scoping-options-query-configuration-window) topic for additional information.
 
 ___RECOMMENDED:___ Provide a descriptive Comment on the Scoping Queries page.
 

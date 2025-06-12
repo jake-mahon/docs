@@ -74,11 +74,11 @@ The identifier of the connection and thus the name of the subsection must:
 | Path   required | __Type__    String   __Description__ Path of the RACF file to be exported. |
 |  |  |
 | --- | --- |
-| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 
 ### Output details
 
-This connector is meant to generate to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder one CSV file per record type (0100, 0200, etc.), named ```<connectionIdentifier>_<type>.csv```.
+This connector is meant to generate to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder one CSV file per record type (0100, 0200, etc.), named ```<connectionIdentifier>_<type>.csv```.
 
 > For example, consider an export with a connection named ```ExportRacf```, and a source file containing the record types 0100, 0120, 0203. Then we will have three output files named ```ExportRacf_0100.csv```, ```ExportRacf_0120.csv``` and ```ExportRacf_0203.csv```.
 

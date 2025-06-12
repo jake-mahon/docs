@@ -44,7 +44,7 @@ Creates a Binding.
 | --- | --- | --- |
 | 200 | The result of the binding creation. |  |
 
-### /api/Metadata/Binding/{id}
+### /api/Metadata/Binding/`{id}`
 
 #### Get
 
@@ -133,7 +133,7 @@ Returns all the binding items according to the provided query.
 | --- | --- | --- |
 | 200 | The binding item list. |  |
 
-### /api/Metadata/BindingItem/{id}
+### /api/Metadata/BindingItem/`{id}`
 
 #### Get
 
@@ -202,7 +202,7 @@ Creates a dimension.
 | --- | --- | --- |
 | 200 | The result of the dimension creation. |  |
 
-### /api/Metadata/Dimension/{id}
+### /api/Metadata/Dimension/`{id}`
 
 #### Get
 
@@ -309,7 +309,7 @@ Creates a entity association.
 | --- | --- | --- |
 | 200 | The result of the entity association creation. |  |
 
-### /api/Metadata/EntityAssociation/{id}
+### /api/Metadata/EntityAssociation/`{id}`
 
 #### Get
 
@@ -416,7 +416,7 @@ Creates a entity property.
 | --- | --- | --- |
 | 200 | The result of the entity property creation. |  |
 
-### /api/Metadata/EntityProperty/{id}
+### /api/Metadata/EntityProperty/`{id}`
 
 #### Get
 
@@ -524,7 +524,7 @@ Creates a entity type.
 | --- | --- | --- |
 | 200 | The result of the entity type creation. |  |
 
-### /api/Metadata/EntityType/{id}
+### /api/Metadata/EntityType/`{id}`
 
 #### Get
 
@@ -652,7 +652,7 @@ Creates a single role.
 | --- | --- | --- |
 | 200 | The result of the single role creation. |  |
 
-### /api/Metadata/Setting/{id}
+### /api/Metadata/Setting/`{id}`
 
 #### Get
 

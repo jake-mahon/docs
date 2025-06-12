@@ -90,7 +90,7 @@ A non-conforming assignment must be reviewed in Usercube by a knowledgeable user
 
 Non-conforming assignments are to be reviewed on the __Role Reconciliation__ and/or __Resource Reconciliation__ screens.
 
-[See more details on reconciliation](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md#See-more-details-on-reconciliation).
+[See more details on reconciliation](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md#see-more-details-on-reconciliation).
 
 Non-conforming assignments can still be split into two categories:
   

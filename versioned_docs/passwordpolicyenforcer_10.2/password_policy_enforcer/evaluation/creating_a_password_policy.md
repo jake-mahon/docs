@@ -15,7 +15,7 @@ __Step 2 –__ Click the __Policies__ item in the left pane of the management co
 __Step 3 –__ Enter a unique policy name in the __New policy name__ text box.
 
 - If the new policy should inherit its default configuration from an existing policy, choose a policy from the __Copy settings from__ drop-down list.
-- If the new policy should inherit settings from commonly used frameworks, select a Policy Template from the drop-down list. For a list of policies see [Policy Templates ](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/policy_templates.md#Policy-Templates).
+- If the new policy should inherit settings from commonly used frameworks, select a Policy Template from the drop-down list. For a list of policies see [Policy Templates ](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/policy_templates.md).
 
 __Step 4 –__ Click __OK__.
 

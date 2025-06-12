@@ -14,7 +14,7 @@ The user account that ran the installation is automatically set with the adminis
 
 There are two roles that can be applied to a Threat Prevention user:
 
-- Administrator – Full access to the Administration Console, though access can be restricted. See the [Administrator Permissions](#Administrator-Permissions) topic for additional information.
+- Administrator – Full access to the Administration Console, though access can be restricted. See the [Administrator Permissions](#administrator-permissions) topic for additional information.
 - Console Operator – Can create and run policies, and view event data.
 
 __NOTE:__ The Report User role was a legacy feature for the IIS-based Reporting Console and is no longer applicable. See the [Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/overview.md) topic for information on the new reporting console.

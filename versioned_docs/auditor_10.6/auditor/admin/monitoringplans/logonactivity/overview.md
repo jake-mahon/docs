@@ -19,7 +19,7 @@ Complete the following fields:
 | Users |  |
 | Specify monitoring restrictions | Select the users to be excluded from search results, reports and Activity Summaries. To add users to the list, click Add. Then, provide the user name in the domain\user format. For example: _mydomain\user1_. Consider the following:   - Use NetBIOS domain name format. - You can provide the "_System_" value to exclude events containing the “_System_” instead of an account name in the “_Who_” column.   In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/overview.md)topic for additional information. |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Domain
 

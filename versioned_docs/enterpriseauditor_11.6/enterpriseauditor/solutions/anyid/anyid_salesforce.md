@@ -28,7 +28,7 @@ Local Host
 
 Connection Profile
 
-Ensure that a connection profile is configured with the required credentials. See the [Prerequisites](#Prerequisites) topic for additional information.
+Ensure that a connection profile is configured with the required credentials. See the [Prerequisites](#prerequisites) topic for additional information.
 
 History Retention
 
@@ -44,7 +44,7 @@ Schedule the job as required.
 
 Query Configuration
 
-This job contains configurable queries. See the [Configure the AnyID\_Salesforce Query](#Configure-the-AnyID_Salesforce-Query) topic for additional information.
+This job contains configurable queries. See the [Configure the AnyID\_Salesforce Query](#configure-the-anyid_salesforce-query) topic for additional information.
 
 Analysis Configuration
 
@@ -68,7 +68,7 @@ The AnyID\_Salesforce job uses the PowerShell Data Collector for the query.
 
 The query is:
 
-- PS Salesforce Import – Imports Salesforce information for analysis. This query has configurable parameters. See the [Configure the AnyID\_Salesforce Query](#Configure-the-AnyID_Salesforce-Query) topic for additional information.
+- PS Salesforce Import – Imports Salesforce information for analysis. This query has configurable parameters. See the [Configure the AnyID\_Salesforce Query](#configure-the-anyid_salesforce-query) topic for additional information.
 
 ### Configure the AnyID\_Salesforce Query
 

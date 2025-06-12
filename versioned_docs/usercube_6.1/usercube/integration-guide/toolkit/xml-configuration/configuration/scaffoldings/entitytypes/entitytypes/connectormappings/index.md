@@ -26,8 +26,8 @@ If you are using a CSV connector with files in incremental mode, you must specif
 
 ## Child Elements
 
-- [ExcludedProperty](#ExcludedProperty) (optional) to ignore a given property of the specified entity type.
-- [MappingPath](#MappingPath) (optional) Define the path for csv EntityType mapping
+- [ExcludedProperty](#excludedproperty) (optional) to ignore a given property of the specified entity type.
+- [MappingPath](#mappingpath) (optional) Define the path for csv EntityType mapping
 
 ### ExcludedProperty
 

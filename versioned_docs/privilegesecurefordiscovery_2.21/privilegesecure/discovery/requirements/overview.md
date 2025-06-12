@@ -20,18 +20,18 @@ Privilege Secure can be consumed as an 'on-premises' solution. A scaled-down dep
 
 Privilege Secure Deployed on VMWare OR Cloud (Azure, AWS, GCP)
 
-- [Hosting Requirements](#Hosting-Requirements)
-- [Microsoft Active Directory Accounts](#Microsoft-Active-Directory-Accounts)
-- [Service Account GPOs](#Service-Account-GPOs)
-- [Networking & Ports](#Networking-Ports)
-- [Managing Endpoints](#Managing-Endpoints)
+- [Hosting Requirements](#hosting-requirements)
+- [Microsoft Active Directory Accounts](#microsoft-active-directory-accounts)
+- [Service Account GPOs](#service-account-gpos)
+- [Networking & Ports](#networking--ports)
+- [Managing Endpoints](#managing-endpoints)
 
 Privilege Secure Deployed on Physical Appliances
 
-- [Hosting Requirements](#Hosting-Requirements)
-- [Service Account GPOs](#Service-Account-GPOs)
-- [Networking & Ports](#Networking-Ports)
-- [Managing Endpoints](#Managing-Endpoints)
+- [Hosting Requirements](#hosting-requirements)
+- [Service Account GPOs](#service-account-gpos)
+- [Networking & Ports](#networking--ports)
+- [Managing Endpoints](#managing-endpoints)
 
 \*HA (High Availability and Disaster Recovery are typically only available on a full implementation)
 
@@ -148,7 +148,7 @@ Microsoft by default (Windows 2016 & Windows 10 Creators Edition or later) restr
 
 ICMP must be enabled on all endpoints that will be managed by Privilege Secure. WhenPrivilege Secure processes a request to scan a system, it will ping the computer before proceeding with the scan.
 
-- [](#)[On Prem Installation](#On-Prem-Installation)
+- [On Prem Installation](#on-prem-installation)
 
 - Management/Administration:
   - HTTPS (TCP/443) for Web Access

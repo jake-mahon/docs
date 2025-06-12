@@ -22,4 +22,4 @@ You can search for documents based on the class clues. For that, click on the na
 
 OR
 
-[![documentmovements_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/documentmovements_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/documentmovements.png)
+[![documentmovements_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/documentmovements_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/documentmovements.png)

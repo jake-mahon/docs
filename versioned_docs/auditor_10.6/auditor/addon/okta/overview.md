@@ -29,7 +29,7 @@ In case the add-on and Auditor are installed on the same server, no special sett
 ### Considerations and Limitations
 
 - The Add-On must be deployed in the same subnet as Okta and Auditor.
-- If the monitoring plan name in the _<NetwrixAuditorPlan>_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
+- If the monitoring plan name in the _`<NetwrixAuditorPlan>`_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
 
 ## Compatibility Notice
 

@@ -22,8 +22,8 @@ The server can be run as:
 
 It is recommended to enable the following [Internet Information Services (IIS)](https://www.iis.net/) features to host Usercube:
 
-- [Windows Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#Windows-Authentication);
-- [Anonymous Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/anonymousauthentication#Anonymous-Authentication).
+- [Windows Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/windowsauthentication/#windows-authentication);
+- [Anonymous Authentication](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/authentication/anonymousauthentication#anonymous-authentication).
 
 ## Service Accounts
 
@@ -39,12 +39,12 @@ The agent's service account needs specific permissions on the [working directory
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the [```Runtime``` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
-- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#Work-folders-path);
-- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#Work-folders-path).
+- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path);
+- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path).
 
 Other permissions should be denied.
 
-> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#How-to-set-up-directory-permissions-in-Windows-Server)
+> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#how-to-set-up-directory-permissions-in-windows-server)
 
 ### Database permissions
 
@@ -66,7 +66,7 @@ The server requires the use of an SSL certificate in order to perform HTTPS comm
 
 Usercube SaaS offering comes with an SSL certificate signed by a trusted certificate authority for the ```*.usercube.com``` domains. This certificate allows end-users to access the server through the Internet without any further configuration. Using another domain name for the SaaS installation requires providing NETWRIX with the corresponding SSL certificate signed by a trusted certificate Authority.
 
-Usercube on-premises offering requires the use of an SSL certificate trusted by all the target end-users' browsers. Standard practices use a certificate signed by the target organization's Public Key Infrastructure (PKI) root certificate authority. [The on-premise SSL certificate must be set up in IIS](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#The-on-premise-SSL-certificate-must-be-set-up-in-IIS).
+Usercube on-premises offering requires the use of an SSL certificate trusted by all the target end-users' browsers. Standard practices use a certificate signed by the target organization's Public Key Infrastructure (PKI) root certificate authority. [The on-premise SSL certificate must be set up in IIS](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#the-on-premise-ssl-certificate-must-be-set-up-in-iis).
 
 ## Emails
 

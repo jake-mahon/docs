@@ -2,11 +2,11 @@
 
 This section contains information on how to configure settings for external communication, including configuring email groups and health service notifications. Review the following for details:
 
-- [Email Servers](#Email-Servers)
-- [Email Groups](#Email-Groups)
-- [Health Service Notifications](#Health-Service-Notifications)
+- [Email Servers](#email-servers)
+- [Email Groups](#email-groups)
+- [Health Service Notifications](#health-service-notifications)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Email Servers](javascript:void(0))
+## Email Servers
 
 Email servers can be configured to enable external communication. For instance when the health service identifies an issue.
 
@@ -20,7 +20,7 @@ It is also possible to supply a test email address which will be used to test th
 
 ![configemailserveradd](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configemailserveradd.png)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Email Groups](javascript:void(0))
+## Email Groups
 
 Email groups are used to define a logical group of people to email, essentially – a mailing list.
 
@@ -32,13 +32,13 @@ To add a new group, select Add Email Server Group, or select Edit on each row to
 
 Each group can have one or more members, and can be assigned a friendly name, which will be displayed when selecting an email group.
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Health Service Notifications](javascript:void(0))
+## Health Service Notifications
 
 Health Service Notifications can be configured to email a specific group of people when something goes wrong within the product. Each notification configuration is linked to an email group, so, before configuring notifications, you must configure your Email Groups.
 
 To add a new notification configuration select Add Notification Configuration, or select Edit on each row to change the configuration.
 
-[![confighealthnotifications_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/confighealthnotifications_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/confighealthnotifications.png)
+[![confighealthnotifications_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/confighealthnotifications_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/confighealthnotifications.png)
 
 Notifications can be set to trigger on warnings, or just on errors – by default problems of any level will be reported.
 

@@ -33,13 +33,13 @@ __For a field on a tab:__
 
 What do you want to do?
 
-- [Add a Tab (Category)](#Add-a-Tab-Category)
-- [Update Tab Details](#Update-Tab-Details)
-- [Remove a Tab](#Remove-a-Tab)
-- [Add a Field to a Tab](#Add-a-Field-to-a-Tab)
-- [Update a Field](#Update-a-Field)
-- [Rearrange the Fields on a Tab](#Rearrange-the-Fields-on-a-Tab)
-- [Remove a Field from a Tab](#Remove-a-Field-from-a-Tab)
+- [Add a Tab (Category)](#add-a-tab-category)
+- [Update Tab Details](#update-tab-details)
+- [Remove a Tab](#remove-a-tab)
+- [Add a Field to a Tab](#add-a-field-to-a-tab)
+- [Update a Field](#update-a-field)
+- [Rearrange the Fields on a Tab](#rearrange-the-fields-on-a-tab)
+- [Remove a Field from a Tab](#remove-a-field-from-a-tab)
 
 ## Add a Tab (Category)
 
@@ -54,7 +54,7 @@ What do you want to do?
 6. Click __Add__. The __Add Design Category__ pane is displayed.
 7. Enter a name for the tab in the __Name__ box. The tab will be displayed on the object’s properties page with this name.
 8. In the __Visibility Level__ drop-down list, select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. The tab would not be visible to group
-   owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+   owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
 
    - Select _Never_ to hide the tab from all users.
    - Select _Manager and Owner_ to make the tab visible only to the owner (in case of a group) or manager (in case of a user or contact). It would be hidden from other users, such as group members or a user.
@@ -69,7 +69,7 @@ What do you want to do?
      - User managers cannot view it for their direct reports.
      - A role with the ‘Manage any profile’ permission in the identity store cannot view it for other users.
 9. In the __Access Level__ drop-down list, select a security role. Users of this role and roles with a priority value higher than it can add and update the values of fields on this tab. If group owners/user managers
-   fall in a lower priority role, they cannot update the fields on the tab for their respective groups/direct reports. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+   fall in a lower priority role, they cannot update the fields on the tab for their respective groups/direct reports. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
 
    - Select _Never_ to make the tab and its fields read-only for all users.
    - Select _Manager and Owner_ to enable the owner (in case of a group) or manager (in case of a user or contact) to specify or modify the value of the fields on the tab. It would be read-only for other users,
@@ -87,7 +87,7 @@ What do you want to do?
      - A role with a higher priority value cannot specify or update field values.
      - The user’s manager cannot specify or update field values.
      - A role with the ‘Manage any profile’ permission in the identity store cannot specify or update field values.
-10. To add fields to the tab, see the [Add a Field to a Tab](#Add-a-Field-to-a-Tab) topic.
+10. To add fields to the tab, see the [Add a Field to a Tab](#add-a-field-to-a-tab) topic.
 11. Click __OK__.
 12. Click __Save__ on the __Properties__ page.
 
@@ -110,7 +110,7 @@ __To update a tab:__
 4. Click __Properties__ in the left pane.
 5. On the __Properties__ page, select a directory object in the __Select Directory Object__ list.
 6. In the __Name__ list, click __Edit__ for the tab you want to update.
-7. On the __Edit Design Category__ pane, update the tab details. Refer to step 7 and onwards in the [Add a Tab (Category)](#Add-a-Tab-Category) topic for details.
+7. On the __Edit Design Category__ pane, update the tab details. Refer to step 7 and onwards in the [Add a Tab (Category)](#add-a-tab-category) topic for details.
 
 ## Remove a Tab
 
@@ -141,7 +141,7 @@ __To update a tab:__
 10. In the __Display Type__ drop-down list, select the display type to use for rendering this field on the tab.  
     The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md) topic.
 11. In the __Visibility Level__ drop-down list, select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners
-    (for their respective groups) and user managers (for their direct reports) if they fall under a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+    (for their respective groups) and user managers (for their direct reports) if they fall under a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a user or contact). It would be hidden from other users, such as group members or a user.
@@ -158,7 +158,7 @@ __To update a tab:__
       - User managers cannot view it for their direct reports.
       - A role with the ‘Manage any profile’ permission in the identity store cannot view it for other users.
 12. In the __Access Level__ drop-down list, select a security role. Users of this role and roles with a priority value higher than this role can add and update the value of this field. If group owners/user managers
-    fall in a lower priority role, they cannot able to update the value of the field for their respective groups/direct reports. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+    fall in a lower priority role, they cannot able to update the value of the field for their respective groups/direct reports. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
 
     - Select _Never_ to make this field read-only for all users.
     - Select _Manager and Owner_ to enable only the owner (in case of a group) or manager (in case of a user or contact) to specify or modify the value of this field. It would be read-only for other users, such
@@ -238,7 +238,7 @@ __To update a field:__
 5. On the __Properties__ page, select a directory object in the __Select Directory Object__ list.
 6. In the __Name__ list, click __Edit__ for the tab you want to update a field for.
 7. On the __Edit Design Category__ pane, click __Edit__ for a field.
-8. On the __Edit Field__ pane, update the field details. Refer to step 8 and onwards in the [Add a Field to a Tab](#Add-a-Field-to-a-Tab) topic to update the required details and save the changes.
+8. On the __Edit Field__ pane, update the field details. Refer to step 8 and onwards in the [Add a Field to a Tab](#add-a-field-to-a-tab) topic to update the required details and save the changes.
 
 ## Rearrange the Fields on a Tab
 

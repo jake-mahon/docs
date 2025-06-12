@@ -9,7 +9,7 @@ Netwrix Data Classification comes with several built-in __taxonomies__ with hund
 
 __IMPORTANT!__ To access the __Taxonomies__ area, users require sufficient rights. See the [User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section for more information.
 
-[![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/taxonomyclues.png)
+[![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomyclues.png)
 
 See also:
 

@@ -11,16 +11,16 @@ You can manage several settings for a service, such as:
 
 What do you want to do?
 
-- [View Service Details](#View-Service-Details)
-- [Manage Security Service Settings](#Manage-Security-Service-Settings)
-- [Delete a Security Service](#Delete-a-Security-Service)
+- [View Service Details](#view-service-details)
+- [Manage Security Service Settings](#manage-security-service-settings)
+- [Delete a Security Service](#delete-a-security-service)
 
 ## View Service Details
 
 1. In Admin Center, click __Applications__ in the left pane.
 2. On the __Applications__ page, click the __Security Service__ tab.  
-   The tab displays the default Security service created while configuring GroupID and any other Security service that you have created. When multiple GroupID instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-GroupID) topic.  
-   For details displayed on a service card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic.
+   The tab displays the default Security service created while configuring GroupID and any other Security service that you have created. When multiple GroupID instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid) topic.  
+   For details displayed on a service card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 ## Manage Security Service Settings
 

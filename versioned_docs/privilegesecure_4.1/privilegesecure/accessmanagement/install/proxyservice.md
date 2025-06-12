@@ -64,13 +64,12 @@ __Step 3 –__ (Optional) This step is only necessary if FQDN is required for DN
 
 For example:
 
+```json
 {
-
-"advertise": ["newyorksrv10.nwxtech.com","192.168.13.172"],
-
-"tag": []
-
+  "advertise": ["newyorksrv10.nwxtech.com","192.168.13.172"],
+  "tag": []
 }
+```
 
 __NOTE:__ This file references the IP, FQDN, and hostname of the server you are on, not all servers.
 
@@ -120,56 +119,33 @@ C:\ProgramData\Stealthbits\PAM\ProxyService
 
 __Step 5 –__ Copy and paste the following into the "nps\_ssh.json" file.
 
+```json
 {
-
-"listenaddress": "0.0.0.0:4422",
-
-"ClientSettings": {
-
-"Algorithms": {
-
-"KeyExchanges": [
-
-"curve25519-sha256@libssh.org",
-
-"ecdh-sha2-nistp256",
-
-"ecdh-sha2-nistp384",
-
-"ecdh-sha2-nistp521",
-
-"diffie-hellman-group14-sha1",
-
-"diffie-hellman-group1-sha1"
-
-],
-
-"Ciphers": [
-
-"aes128-gcm@openssh.com",
-
-"chacha20-poly1305@openssh.com",
-
-"aes128-ctr",
-
-"aes192-ctr",
-
-"aes256-ctr",
-
-"aes128-cbc",
-
-"3des-cbc",
-
-"aes192-cbc",
-
-"aes256-cbc"
-
-]
-
+  "listenaddress": "0.0.0.0:4422",
+  "ClientSettings": {
+    "Algorithms": {
+      "KeyExchanges": [
+        "curve25519-sha256@libssh.org",
+        "ecdh-sha2-nistp256",
+        "ecdh-sha2-nistp384",
+        "ecdh-sha2-nistp521",
+        "diffie-hellman-group14-sha1",
+        "diffie-hellman-group1-sha1"
+      ],
+      "Ciphers": [
+        "aes128-gcm@openssh.com",
+        "chacha20-poly1305@openssh.com",
+        "aes128-ctr",
+        "aes192-ctr",
+        "aes256-ctr",
+        "aes128-cbc",
+        "3des-cbc",
+        "aes192-cbc",
+        "aes256-cbc"
+      ]
+    }
+  }
 }
-
-}
-
-}
+```
 
 This will add the additional Key Exchange ```diffie-hellman-group1-sha1``` and the additional Ciphers ```aes128-cbc```, ```3des-cbc```, ```aes192-cbc```,``` aes256-cbc```, required to make old Cisco Machines work with remote login.

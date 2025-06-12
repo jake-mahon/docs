@@ -44,7 +44,7 @@ Creates a single role.
 | --- | --- | --- |
 | 200 | The result of the single role creation. |  |
 
-### /api/Report/ReportQuery/{id}
+### /api/Report/ReportQuery/`{id}`
 
 #### Get
 

@@ -20,7 +20,7 @@ The selected activity details display at the top of the main pane:
 - Name — Displays the name of the activity
 - Description — Description of the policy
 - Platform — Displays the type of platform, which defines the resource: Active Directory, Microsoft Entra ID, Cisco, Linux, Website, and Windows
-- Login Account — Controls the type of account used to log into the resource: Requester, Managed, Activity Token, Resource, and Vault. See the [Login Account Types](#Login-Account-Types) topic for additional information.
+- Login Account — Controls the type of account used to log into the resource: Requester, Managed, Activity Token, Resource, and Vault. See the [Login Account Types](#login-account-types) topic for additional information.
 - Activity Type — Controls the type of actions for the activity:
 
   - Interactive — Activity expects the requester to log on to a host desktop or CLI interface either directly or via the proxy

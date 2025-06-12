@@ -45,5 +45,5 @@ Once the users, groups and resources are added to the console, it is now possibl
 
 Privilege Secure is configured and ready to use:
 
-- [Create My Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/access/createsession.md#Create-My-Activity-Session) — Create a session to grant temporary privileges and gain access to the resources defined by the previously created access policy
+- [Create My Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/access/createsession.md#create-my-activity-session) — Create a session to grant temporary privileges and gain access to the resources defined by the previously created access policy
 - [Browser Extension Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md) — Conveniently access all of your previously created activities from within an internet browser

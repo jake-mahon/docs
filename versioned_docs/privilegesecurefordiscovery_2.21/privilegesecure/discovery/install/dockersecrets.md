@@ -64,7 +64,7 @@ Continue the deployment.  After the install, you can verify the key was used by
 
 ### Troubleshooting
 
-Some indicators that the Docker secrets key did not transfer correctly are in the Troubleshooting article: [Docker Secrets Matching DR Site to PROD Site](#Docker-Secrets-Matching-DR-Site-to-PROD-Site)
+Some indicators that the Docker secrets key did not transfer correctly are described in the Troubleshooting section above.
 
 ### More Information
 

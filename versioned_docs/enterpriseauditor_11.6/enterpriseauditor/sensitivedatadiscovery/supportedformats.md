@@ -2,9 +2,9 @@
 
 This topic provides a comprehensive listing of all formats supported by the Sensitive Data Discovery Add-On. The list is divided into three major categories:
 
-- [Scan-able Formats](#Scan-able-Formats)
-- [Metadata Only Formats](#Metadata-Only-Formats)
-- [Scans Against Files with no Extensions](#Scans-Against-Files-with-no-Extensions)
+- [Scan-able Formats](#scan-able-formats)
+- [Metadata Only Formats](#metadata-only-formats)
+- [Scans Against Files with no Extensions](#scans-against-files-with-no-extensions)
 
 ## Scan-able Formats
 

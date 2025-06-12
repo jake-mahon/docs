@@ -9,11 +9,11 @@ __In Linked mode__: Query based searches cannot be performed.
 
 What do you want to do?
 
-- [Create a query](#Create-a-query)
-- [Preview query results](#Preview-query-results)
-- [Execute a query](#Execute-a-query)
-- [Modify a query](#Modify-a-query)
-- [Delete a query](#Delete-a-query)
+- [Create a query](#create-a-query)
+- [Preview query results](#preview-query-results)
+- [Execute a query](#execute-a-query)
+- [Modify a query](#modify-a-query)
+- [Delete a query](#delete-a-query)
 
 ## Create a query
 

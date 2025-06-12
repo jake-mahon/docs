@@ -8,13 +8,13 @@ The EX\_Mailflow job is located in the __Mailflow__ > __0. Collection__ job grou
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The EX\_Mailflow job has the following configurable parameter:
 
 - Number of months to keep
 
-See the [Analysis Tasks for the EX\_Mailflow Job](#Analysis-Tasks-for-the-EX_Mailflow-Job) topic for additional information.
+See the [Analysis Tasks for the EX\_Mailflow Job](#analysis-tasks-for-the-ex_mailflow-job) topic for additional information.
 
 ## Queries for the EX\_Mailflow Job
 
@@ -27,7 +27,7 @@ The following queries are included in the EX\_Mailflow job:
 - MailFlow – Collects Message Tracking data
 
   - The default is the __Last 7 Days__. It can be modified to a shorter date range
-  - See the [Configure the ExchangePS Data Collector for Mail Flow Metrics](#Configure-the-ExchangePS-Data-Collector-for-Mail-Flow-Metrics) topic for additional information
+  - See the [Configure the ExchangePS Data Collector for Mail Flow Metrics](#configure-the-exchangeps-data-collector-for-mail-flow-metrics) topic for additional information
 - LocalDomains – Collects domains local to the Office 365 environment
 
   __CAUTION:__ Do not modify this query. The query is preconfigured for this job.
@@ -50,7 +50,7 @@ __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configur
 
 ![ExchangePS Data Collector Wizard Mail Flow page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.png)
 
-__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#ExchangePS-Data-Collector) topic for additional information.
+__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#exchangeps-data-collector) topic for additional information.
 
 _Remember,_ the date range must be 7 days or less.
 
@@ -72,7 +72,7 @@ The following analysis tasks are selected by default:
 - 02.Update History Table – Updates the SA\_EX\_Mailflow\_History table, with data from the .Active Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution lists
 - 03. SET HISTORY RETENTION – Sets retention period in months
 
-  - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#Parameter-Configuration) topic for additional information.
+  - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
   - Alternatively, the ```@Months``` parameter can be modified in the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain cleared unless specifically needed:
@@ -81,4 +81,4 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
 - 00. Deletes all Stored Data - LEAVE UNCHECKED – Deletes all historical data
 
-  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information

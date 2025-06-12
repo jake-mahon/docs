@@ -52,7 +52,7 @@ Set the following values under the Data column:
 - Enabled – 1
 - EndPoint – StealthAUDIT
 
-If this is configured correctly, validate that the Dell CEE services are running. See the [Validate Dell CEE Services are Running](#Validate-Dell-CEE-Services-are-Running) topic for additional information.
+If this is configured correctly, validate that the Dell CEE services are running. See the [Validate Dell CEE Services are Running](#validate-dell-cee-services-are-running) topic for additional information.
 
 ## Validate Dell CEE Services are Running
 

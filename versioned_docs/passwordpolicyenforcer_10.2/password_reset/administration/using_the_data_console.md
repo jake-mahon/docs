@@ -10,7 +10,7 @@ The bars in the chart show how many successful enrollments, resets, unlocks, and
 
 ![using_the_data_console_1_1393x772](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_1_1393x772.png)
 
-The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/filtering_data.md#Custom-Filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
+The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/filtering_data.md#custom-filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
 
 The __Audit Log__ tab has nine columns:
 

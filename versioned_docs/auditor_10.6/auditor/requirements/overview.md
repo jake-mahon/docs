@@ -11,7 +11,7 @@ This topic provides the requirements for the server where Netwrix Auditor will b
 
 Netwrix Auditor provides comprehensive auditing of applications, platforms and storage systems. The product architecture and components interactions are shown in the figure below.
 
-[![Netwrix Auditor architecture and components interactions](/img/versioned_docs/auditor_10.6/auditor/requirements/auditorarchitecture.jpg)](/versioned_docs/auditor_10.6/resources/images/auditor/deploymentplan/auditorarchitecture.jpg)
+![Netwrix Auditor architecture and components interactions](/img/versioned_docs/auditor_10.6/auditor/requirements/auditorarchitecture.jpg)
 
 - Netwrix Auditor Server — the central component that handles the collection, transfer and processing of audit data from the various data sources (audited systems). Data from the sources not yet supported out of the box is collected using RESTful Integration API.
 - Netwrix Auditor Client — a component that provides a friendly interface to authorized personnel who can use this console UI to manage the product settings, examine alerts, reports and search results. Other users can obtain audit data by email or with 3rd party tools — for example, reports can be provided to the management team via the intranet portal.

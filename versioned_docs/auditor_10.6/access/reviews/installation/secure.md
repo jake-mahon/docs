@@ -6,9 +6,9 @@ __NOTE:__ Organizations typically have one or more system administrators respons
 
 Follow the steps to enable SSL.
 
-__Step 1 –__ [Create an SSL Binding](#Create-an-SSL-Binding).
+__Step 1 –__ [Create an SSL Binding](#create-an-ssl-binding).
 
-__Step 2 –__ [Modify the AccessInformationCenter.Service.exe.Config File](#Modify-the-AccessInformationCenterServiceexeConfig-File).
+__Step 2 –__ [Modify the AccessInformationCenter.Service.exe.Config File](#modify-the-accessinformationcenterserviceexeconfig-file).
 
 The Access Reviews application is now configured to use SSL for secure, remote connections.
 
@@ -27,6 +27,7 @@ dir cert:\localmachine\my
 
 Replace the environmental variables in the example script below. Then Run the PowerShell command to create an SSL binding:
 
+```powershell
 $guid = "1be32670-7644-4dce-9a5d-01643022074e"
 
 $certHash = "03CFD5D51A0DAA2F3DCDA9407486B220449D0E92"
@@ -36,6 +37,7 @@ $ip = "0.0.0.0"
 $port = "481"
 
 "http add sslcert ipport=$($ip):$port certhash=$certHash appid={$guid}" | netsh
+```
 
 The next step is to modify the ```AccessInformationCenter.Service.exe.Config``` file.
 

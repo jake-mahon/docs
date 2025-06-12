@@ -2,13 +2,13 @@
 
 The Filter page is where the query can be scoped to target specific databases or instances. It is a wizard page for the Sensitive Data Collection category.
 
-It is necessary to populate the available Mongo databases/instances before the query can be scoped. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information.
+It is necessary to populate the available Mongo databases/instances before the query can be scoped. See the [Manage Connections Window](#manage-connections-window) topic for additional information.
 
 ![NoSQL Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
 
 The Filter page has the following buttons:
 
-- Connections — Opens the Manage Connections window to add or modify database instances. See the [Manage Connections Window](#Manage-Connections-Window) topic for additional information.
+- Connections — Opens the Manage Connections window to add or modify database instances. See the [Manage Connections Window](#manage-connections-window) topic for additional information.
 - Retrieve — Click to populate the Server pane with the database instances added in the Manage Connections window
 - Validate Selections — Validate the include /exclude filters shown in the Selections pane
 - Find — Select an item in the Servers list and click find to search for any objects that match the search string
@@ -21,11 +21,11 @@ The configurable filter options are:
 
   - Exclude — Excludes selected databases/instances and displays them in red
   - Include — Reverts an exclusion. By default, all sub tables are included.
-  - Build Pattern — Opens the Build Pattern dialogue to build a custom filter to be applied to the selected database objects. See the [Build or Edit Pattern](#Build-or-Edit-Pattern) topic for additional information.
+  - Build Pattern — Opens the Build Pattern dialogue to build a custom filter to be applied to the selected database objects. See the [Build or Edit Pattern](#build-or-edit-pattern) topic for additional information.
 - Selections — Displays selected database objects for which the query has been scoped. Right click to open context menu:
 
   - Remove Pattern — Selected database/instance will be removed from the query
-  - Edit Pattern — Opens the Edit Pattern dialogue with the following options (See the [Build or Edit Pattern](#Build-or-Edit-Pattern) topic for additional information):
+  - Edit Pattern — Opens the Edit Pattern dialogue with the following options (See the [Build or Edit Pattern](#build-or-edit-pattern) topic for additional information):
 
     - Exclude — Excludes selected databases/instances and displays them in red
     - Include — Reverts an exclusion. By default, all sub tables are included.

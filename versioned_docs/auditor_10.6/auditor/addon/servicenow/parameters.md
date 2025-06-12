@@ -44,11 +44,11 @@ Follow the steps to define ServiceNow parameters:
 
 __Step 1 –__ Navigate to your add-on folder and select __ServiceNowSettings.xml__.
 
-__Step 2 –__ Define parameters such as ServiceNow connection parameters inside the ```<Connection>``` section.
+__Step 2 –__ Define parameters such as ServiceNow connection parameters inside the ````<Connection>```` section.
 
 __Step 3 –__ Provide new values as follows: ```<paramenter>value</parameter>```.
 
-| <Connection> parameter | Default value | Description |
+| `<Connection>` parameter | Default value | Description |
 | --- | --- | --- |
 | URL | — | Provide a link to your ServiceNow system (e.g., _https://enterprise.service-now.com_). |
 | UserName | — | Specify a user account. Make sure the user has sufficient permissions to create tickets and update them. The __itil__ role is recommended.  __NOTE:__ If you want to reopen closed tickets, you must be granted the right to perform __Write__ operations on inactive incidents. |
@@ -56,7 +56,7 @@ __Step 3 –__ Provide new values as follows: ```<paramenter>value</parameter>``
 
 __Step 4 –__ Review the ```<TicketParameters>``` section. The parameters inside this section correspond to ServiceNow ticket fields and use the same naming (e.g., priority, urgency). To find out a field name in ServiceNow, switch to XML view (on the ticket header, navigate to Show XML).
 
-Each ```<TicketParameter>``` includes the``` <Name></Name>``` and``` <Value></Value>``` pair that defines a ServiceNow ticket field and a value that will be assigned to it. For most parameters, default values are provided. Add more ticket parameters or update values if necessary.
+Each ```<TicketParameter>``` includes the `<Name></Name>` and `<Value></Value>` pair that defines a ServiceNow ticket field and a value that will be assigned to it. For most parameters, default values are provided. Add more ticket parameters or update values if necessary.
 
 __NOTE:__ The template remains the same for all alerts and cannot be adjusted per individual alerts.
 
@@ -69,7 +69,7 @@ __NOTE:__ The template remains the same for all alerts and cannot be adjusted pe
 | severity | 1 | Sets __Severity__ to "_1 – High_". |
 | assignment_ group | d625dccec0a8016700a22a0  f7900d06 | Sets __Assignment__ group to "_Service Desk_".  __NOTE:__ You cannot use a group name as a value. Provide its guid instead. |
 | description | %AlertDescription%  %PreviousTicketReference% | Provides an alert description and references to related tickets in __Description__. |
-| work_notes | Alert Details:  ... | Adds the full alert text to Work notes, including data source, who, what, where, etc.  To find out what is included in the alert details, see the __ServiceNowSettings.xml__ file.  __NOTE:__ You can write alert details in the __Additional comments__ field instead of Work notes. To do this, rename ```<Name>work_notes</Name> ```into ```<Name>comments</Name>```.  If you want to write alert details into both fields, create a copy of ```<TicketParameter>``` entry containing work_notes and ```<Name>work_notes</Name>``` into ```<Name>comments</Name```.  To skip alert details, remove entries for work_notes or comments. |
+| work_notes | Alert Details:  ... | Adds the full alert text to Work notes, including data source, who, what, where, etc.  To find out what is included in the alert details, see the __ServiceNowSettings.xml__ file.  __NOTE:__ You can write alert details in the __Additional comments__ field instead of Work notes. To do this, rename ```<Name>work_notes</Name>``` into ```<Name>comments</Name>```.  If you want to write alert details into both fields, create a copy of ```<TicketParameter>``` entry containing work_notes and ```<Name>work_notes</Name>``` into ```<Name>comments</Name```.  To skip alert details, remove entries for work_notes or comments. |
 
 __Step 5 –__ Review the ```<CorrelationTicketFormat>``` section. It shows what information about related tickets will be included in your current ticket. Update the template if necessary.
 

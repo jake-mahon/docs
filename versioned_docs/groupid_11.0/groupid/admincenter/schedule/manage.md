@@ -4,14 +4,14 @@ GroupID enables you to run, modify, disable, and delete the schedules defined fo
 
 What do you want to do?
 
-- [View the Schedules in an Identity Store ](#View-the-Schedules-in-an-Identity-Store)
-- [Enable/Disable a Schedule](#EnableDisable-a-Schedule)
-- [Update Triggers for a Schedule](#Update-Triggers-for-a-Schedule)
-- [Update Targets for a Schedule](#Update-Targets-for-a-Schedule)
-- [Update Notification Settings for a Schedule](#Update-Notification-Settings-for-a-Schedule)
-- [Run a Schedule Instantly](#Run-a-Schedule-Instantly)
-- [Terminate a Running Schedule](#Terminate-a-Running-Schedule)
-- [Delete a Schedule](#Delete-a-Schedule)
+- [View the Schedules in an Identity Store ](#view-the-schedules-in-an-identity-store)
+- [Enable/Disable a Schedule](#enabledisable-a-schedule)
+- [Update Triggers for a Schedule](#update-triggers-for-a-schedule)
+- [Update Targets for a Schedule](#update-targets-for-a-schedule)
+- [Update Notification Settings for a Schedule](#update-notification-settings-for-a-schedule)
+- [Run a Schedule Instantly](#run-a-schedule-instantly)
+- [Terminate a Running Schedule](#terminate-a-running-schedule)
+- [Delete a Schedule](#delete-a-schedule)
 
 ## View the Schedules in an Identity Store
 

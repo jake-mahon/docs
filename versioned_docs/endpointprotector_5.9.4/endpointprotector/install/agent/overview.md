@@ -2,7 +2,7 @@
 
 The Endpoint Protector Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux).
 
-You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed information about downloading the Endpoint Protector Agent, refer to the [Client Software](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#Client-Software) topic.
+You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed information about downloading the Endpoint Protector Agent, refer to the [Client Software](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#client-software) topic.
 
 __NOTE:__ You can use tools like Active Directory or JAMF to deploy the Endpoint Protector Agent in large networks.
 
@@ -157,7 +157,7 @@ While direct installation is not possible, you can still manage and control the 
 
 Follow the steps to use use Denylists to control WSL applications.
 
-__Step 1 –__ Navigate to the [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#Denylists-and-Allowlists) section within the Endpoint Protector Console.
+__Step 1 –__ Navigate to the [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#denylists-and-allowlists) section within the Endpoint Protector Console.
 
 __Step 2 –__ Create a new __Denylist entry__.
 

@@ -8,9 +8,9 @@ This guide shows how to set up a [PowerShell connector](/versioned_docs/usercube
 
 Check the following prerequisites:
 
-- [PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#PowerShell)
-- [Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#Microsoft-Exchange)
-- [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#Active-Directory)
+- [PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#powershell)
+- [Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#microsoft-exchange)
+- [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#active-directory)
 
 Let's consider a simplified system, including three parts:
 
@@ -30,11 +30,11 @@ Usercube can:
 
 This step sets up the Usercube Agent to use the ```Active Directory``` and ```PowerShell``` connectors in order to fulfill the Microsoft Exchange mailboxes.
 
-The settings must be entered in ```appsettings.agent.json > Connections```. For more details, see the [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#Active-Directory) and [PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#PowerShell) sections.
+The settings must be entered in ```appsettings.agent.json > Connections```. For more details, see the [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#active-directory) and [PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#powershell) sections.
 
 #### Add sections
 
-As explained previously, the simplified system consists of Usercube and two other systems. It means that settings are required in ```appsettings.agent.json``` to connect with the systems. The settings required are [Export Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#Export-Microsoft-Exchange), [Fulfill PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#Fulfill-PowerShell), [Export Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#Export-Active-Directory) and [Fulfill Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#Fulfill-Active-Directory).
+As explained previously, the simplified system consists of Usercube and two other systems. It means that settings are required in ```appsettings.agent.json``` to connect with the systems. The settings required are [Export Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#export-microsoft-exchange), [Fulfill PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#fulfill-powershell), [Export Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#export-active-directory) and [Fulfill Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#fulfill-active-directory).
 
 > This example contains export and fulfillment settings for the Active Directory and for Microsoft Exchange:
 >
@@ -80,9 +80,9 @@ As this guide focuses on the fulfillment of an external system, export settings 
 
 The Fulfill-PowerShell needs a script whose path is defined by the attribute __PowerShellScriptPath__. Usercube provides a script in the SDK in ```Usercube.Demo/Scripts/Fulfill-Exchange.ps1```. For more details on how to write a customized script, see [Write a Script for Fulfill-PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md).
 
-To define and apply additional settings when authenticating to an external system, we can set the attribute [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#Options) and add required parameters for authentication.
+To define and apply additional settings when authenticating to an external system, we can set the attribute [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#options) and add required parameters for authentication.
 
-In the example above, the ```Basic``` AuthType was chosen to show how to fill the credentials, but it isn't mandatory to use this [AuthType](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#AuthType).
+In the example above, the ```Basic``` AuthType was chosen to show how to fill the credentials, but it isn't mandatory to use this [AuthType](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md#authtype).
 
 For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's not the most secure. Hence, it is strongly recommended to use ```Kerberos``` AuthType or [credentials protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#credentials-protection) via Azure Key Vault or CyberArk in a production environment.  
 NETWRIX recommends completing this guide once, testing the configuration, and only then, switching to a more secure way of storing credentials.
@@ -109,7 +109,7 @@ In the ```MicrosoftExchange``` directory, create a ```MicrosoftExchange Connecto
 
 ### Write entity types
 
-The [Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) should match as closely as possible the structure of the Microsoft Exchange data relevant for Usercube. It is designed by analyzing the Microsoft Exchange data structure, and describing said data with [Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#Entity-Types) and [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+The [Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) should match as closely as possible the structure of the Microsoft Exchange data relevant for Usercube. It is designed by analyzing the Microsoft Exchange data structure, and describing said data with [Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-types) and [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 Eventually, it is up to the integration team to design the [Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most likely be refined iteratively throughout the project integration.
 
@@ -134,7 +134,7 @@ The entity type must be mapped, on a property by property basis, to the exported
 
 ##### Example
 
-In this example, the CSV source files are ```microsoftexchange_databases.csv``` and ```microsoftexchange_mailboxes.csv``` located in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder.
+In this example, the CSV source files are ```microsoftexchange_databases.csv``` and ```microsoftexchange_mailboxes.csv``` located in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 ```
 Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
@@ -203,7 +203,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 
 ```
 
-The CSV file ```microsoftexchange_mailboxes.csv``` must be exported to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder.
+The CSV file ```microsoftexchange_mailboxes.csv``` must be exported to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 ## Build the Role Model
 
@@ -220,9 +220,9 @@ A [ResourceType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit
 
 The resource type contains several rules:
 
-- [TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#TypeRule) which assigns a resource to a user.
-- [ScalarRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#ScalarRule) which specifies the value to be set to an assigned resource scalar property.
-- [NavigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#NavigationRule) which specifies a value to be set to an assigned resource multi-valued navigation property.
+- [TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#typerule) which assigns a resource to a user.
+- [ScalarRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalarrule) which specifies the value to be set to an assigned resource scalar property.
+- [NavigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#navigationrule) which specifies a value to be set to an assigned resource multi-valued navigation property.
 
 #### Example
 
@@ -237,7 +237,7 @@ The TargetEntityType is ```MicrosoftExchange_Mailbox``` and the SourceEntityType
 
 This ResourceType allows Usercube to compute the values used when fulfilling the external system.
 
-Finally, the NavigationRule sets the property ```Database``` of the entity ```MicrosoftExchange_Mailbox```. For more details, see [Writing single role](#Writing-single-role).
+Finally, the NavigationRule sets the property ```Database``` of the entity ```MicrosoftExchange_Mailbox```. For more details, see [Writing single role](#writing-single-role).
 
 ### Resource type mapping
 
@@ -365,7 +365,7 @@ The scalar properties require no configuration: they are automatically displayed
 
 The [DisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [DisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md#DisplayTableColumn) elements that identify which properties should be included in the list display.
+The [DisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md#displaytablecolumn) elements that identify which properties should be included in the list display.
 
 ##### Example
 
@@ -382,7 +382,7 @@ This example configures the following list display:
 
 #### Internal display name
 
-An ```InternalDisplayName``` can also be declared as an [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#EntityPropertyExpression). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
+An ```InternalDisplayName``` can also be declared as an [EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entitypropertyexpression). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
 
 With no custom ```InternalDisplayName```, a default value is used (instead of the first property of the identity) containing the string _"name"_. If no such property is found, the first declared property of the entity type is used.
 
@@ -401,7 +401,7 @@ This example adds the ```InternalDisplayName``` to the ```MicrosoftExchange_Mail
 
 This step focuses on setting up permissions for Usercube's end-users granting them access to the connector.
 
-The [AccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#AccessControlEntry) elements define [permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
+The [AccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#accesscontrolentry) elements define [permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
 
 It is strongly recommended that permissions be written to a new file. For example, the administrator profile permissions can be written to the ```MicrosoftExchange Profile Administrator.xml``` file.
 
@@ -459,7 +459,7 @@ Scheduling the job execution can rely either on Usercube's scheduler or an exter
 
 #### With Usercube's scheduler
 
-Use the Job [```CronTabExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md#CronTabExpression) attribute.
+Use the Job [```CronTabExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md#crontabexpression) attribute.
 
 #### With an external scheduler
 
@@ -475,7 +475,7 @@ The configuration is written to the database using the [Deploy Configuration too
 
 #### ADMicrosoftExchange prerequisites
 
-An Active Directory configuration is required for Microsoft Exchange to work. Fill the [ADMicrosoftExchangeExportFulfillment](#ADMicrosoftExchangeExportFulfillment) settings in accordance with the configuration.
+An Active Directory configuration is required for Microsoft Exchange to work. Fill the [ADMicrosoftExchangeExportFulfillment](#admicrosoftexchangeexportfulfillment) settings in accordance with the configuration.
 
 To reset the password, if __AuthType__ is ```Basic```, then __EnableSSL__ must be ```true```.   
 Otherwise, if __AuthType__ is ```Kerberos```, then __EnableSSL__ is not required.

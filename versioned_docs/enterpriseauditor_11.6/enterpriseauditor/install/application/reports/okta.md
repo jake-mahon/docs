@@ -126,7 +126,7 @@ __Step 8 –__  Click __Save__ and return to the __Okta Attribute Mappings__ pag
 
 __Step 9 –__ On the Okta Attribute Mappings page, click __Force Sync__. The new attributes will display for any user under the profile.
 
-To configure Okta Multi-Factor Authentication, see the [Setting Up Multi-Factor Authentication](#Setting-Up-Multi-Factor-Authentication) topic for additional information.
+To configure Okta Multi-Factor Authentication, see the [Setting Up Multi-Factor Authentication](#setting-up-multi-factor-authentication) topic for additional information.
 
 ## Setting Up Multi-Factor Authentication
 

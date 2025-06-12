@@ -4,9 +4,9 @@ The 3-FSAC Exceptions job is designed to analyze collected access information fo
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The 3-FSAC Exceptions job has many customizable parameters. See the [Customizable Analysis Tasks for the 3-FSAC Exceptions Job](#Customizable-Analysis-Tasks-for-the-3-FSAC-Exceptions-Job) topic for information on these.
+The 3-FSAC Exceptions job has many customizable parameters. See the [Customizable Analysis Tasks for the 3-FSAC Exceptions Job](#customizable-analysis-tasks-for-the-3-fsac-exceptions-job) topic for information on these.
 
 ## Analysis Tasks for the 3-FSAC Exceptions Job
 

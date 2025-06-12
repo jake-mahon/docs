@@ -36,7 +36,7 @@ The profile validation feature in GroupID is monitored by the User Life Cycle jo
 
 What do you want to do?
 
-- [Validate your profile](#Validate-your-profile)
+- [Validate your profile](#validate-your-profile)
 
 ## Validate your profile
 

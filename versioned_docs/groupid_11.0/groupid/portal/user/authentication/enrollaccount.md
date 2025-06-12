@@ -8,7 +8,7 @@ Once a user has enrolled his or her account, he or she must authenticate with th
 
 What do you want to do?
 
-- [Enroll your identity store account](#Enroll-your-identity-store-account)
+- [Enroll your identity store account](#enroll-your-identity-store-account)
 
 ## Enroll your identity store account
 

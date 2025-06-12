@@ -10,7 +10,7 @@ __Step 2 –__ Select a user to modify its assigned rights.
 
 - If the user is an administrator, you can deselect the Administrator checkbox and select the Console Operator checkbox to downgrade the role.
 - If the user is a Console Operator, simply select the Administrator checkbox to assign a higher role to it.
-- To manage some permissions for the Administrator role, see the [Administrator Permissions](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/userroles/overview.md#Administrator-Permissions) topic.
+- To manage some permissions for the Administrator role, see the [Administrator Permissions](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/userroles/overview.md#administrator-permissions) topic.
 
 __Step 3 –__ _(Optional)_ Repeat this action for as many roles as required before clicking OK.
 

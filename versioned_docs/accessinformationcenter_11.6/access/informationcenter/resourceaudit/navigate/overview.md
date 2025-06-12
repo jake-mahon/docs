@@ -14,10 +14,10 @@ All audit interfaces consist of at least three components, and the Resource Audi
 
 The main section of the audit interface is the Results pane. On the right-side of the page are the Reports and Group Membership panes. On the Resource Audit interface, the Resources pane is to the left of the Results pane. Theses panes have the following functions:
 
-- [Reports Pane](#Reports-Pane) – Lists available reports for the resource type
-- [Results Pane](#Results-Pane) – Displays the report content
-- [Group Membership Pane](#Group-Membership-Pane) – Displays group membership for group trustees selected in the Results pane
-- [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) – Navigation tree for the selected resource (only present in the Resource Audit interface)
+- [Reports Pane](#reports-pane) – Lists available reports for the resource type
+- [Results Pane](#results-pane) – Displays the report content
+- [Group Membership Pane](#group-membership-pane) – Displays group membership for group trustees selected in the Results pane
+- [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) – Navigation tree for the selected resource (only present in the Resource Audit interface)
 
 ### Reports Pane
 
@@ -40,7 +40,7 @@ Tables and graphs that display at the bottom of the pane vary according to the s
 There are two checkbox options depending on the report selected:
 
 - Include Subfolders – Select to include subfolders of the selected share or folder in the report
-- Highlight Active Permissions – Select to show permissions that are in use. When a user or effective member of a group that has permissions to a resource also has activity on the resource, a yellow icon is displayed for the permission type to indicate the access level used to perform the activity. Therefore, access level cells not highlighted when activity is being monitored represent permissions that are identified as stale. See the [Stale Permissions](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#Stale-Permissions) topic for additional information.
+- Highlight Active Permissions – Select to show permissions that are in use. When a user or effective member of a group that has permissions to a resource also has activity on the resource, a yellow icon is displayed for the permission type to indicate the access level used to perform the activity. Therefore, access level cells not highlighted when activity is being monitored represent permissions that are identified as stale. See the [Stale Permissions](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#stale-permissions) topic for additional information.
 
 #### Activity Report Results Pane Features
 

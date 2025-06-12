@@ -13,9 +13,9 @@ The account used for data collection must meet the following requirements:
 - The combination of the following rights and permissions if you plan to disable network traffic compression for your monitoring plan or, for some reasons, do not want to add this account to the Domain Admins group:
 
   - The "Manage auditing and security log" policy must be defined for this account.   
-    See the [Configure the Manage Auditing and Security Log Policy](#Configure-the-Manage-Auditing-and-Security-Log-Policy) topic for additional information.
+    See the [Configure the Manage Auditing and Security Log Policy](#configure-the-manage-auditing-and-security-log-policy) topic for additional information.
   - If you plan to process the Active Directory Deleted Objects container, Read permission on
-    this container are required. See the [Grant Permissions for the Deleted Objects Container](#Grant-Permissions-for-the-Deleted-Objects-Container) topic for additional information.
+    this container are required. See the [Grant Permissions for the Deleted Objects Container](#grant-permissions-for-the-deleted-objects-container) topic for additional information.
 
 If the account selected for data collection is not a member of the Domain Admins group, see the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic.
 
@@ -25,7 +25,7 @@ If you have an on-premises Exchange server in your Active Directory domain, cons
 
 - Membership in the __Organization Management__ or __Records Management__ group.
 
-- The __Audit Logs__ management role (see the [Assign Management Roles](/versioned_docs/auditor_10.6/auditor/configuration/exchange/permissions.md#Assign-Management-Roles) topic for additional information).
+- The __Audit Logs__ management role (see the [Assign Management Roles](/versioned_docs/auditor_10.6/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/versioned_docs/auditor_10.6/auditor/configuration/exchange/auditlog.md) topic for additional information.
 
@@ -41,7 +41,7 @@ The following is required if auto-backup is enabled for the domain controller ev
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange_server_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with `domain\Exchange_server_name$` instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ### Target Domain
 
@@ -49,12 +49,12 @@ If you plan to use network traffic compression for data processing, consider the
 
 - If network traffic compression will be _enabled_, then the account must belong to the Domain Admins group.
 - If network traffic compression will be _disabled_, and the account you plan to use for data collection is not a member of the Domain Admins group, then the  __Manage auditing and security log__ policy must be defined for this account.   
-  See the [Configure the Manage Auditing and Security Log Policy](#Configure-the-Manage-Auditing-and-Security-Log-Policy) topic for more information.
+  See the [Configure the Manage Auditing and Security Log Policy](#configure-the-manage-auditing-and-security-log-policy) topic for more information.
 
 If you need to process Active Directory __Deleted Objects__ container, consider the following:
 
 - Read permission on
-  this container is required. See the [Grant Permissions for the Deleted Objects Container](#Grant-Permissions-for-the-Deleted-Objects-Container) topic for additional information.
+  this container is required. See the [Grant Permissions for the Deleted Objects Container](#grant-permissions-for-the-deleted-objects-container) topic for additional information.
 - Grant this permission only if the account you plan to use for data collection is not a member of the Domain Admins group.
 
 If auto-backup is _enabled_ for the domain controller event logs:
@@ -74,7 +74,7 @@ You will also need to configure Exchange Administrator Audit Logging (AAL) setti
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange_server_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with `domain\Exchange_server_name$` instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ## Configure the Manage Auditing and Security Log Policy
 

@@ -14,7 +14,7 @@ For a similar group, three attributes are displayed:
 
 What do you want to do?
 
-- [Change the Attributes on the Object List](#Change-the-Attributes-on-the-Object-List)
+- [Change the Attributes on the Object List](#change-the-attributes-on-the-object-list)
 
 ## Change the Attributes on the Object List
 

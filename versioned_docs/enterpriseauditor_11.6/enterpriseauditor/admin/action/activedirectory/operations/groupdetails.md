@@ -12,7 +12,7 @@ __NOTE:__ The options at the bottom of the page vary based on the highlighted at
 - Add Attribute – Adds a custom attribute to the Computer Details attribute list
 - Remove Attribute – Removes a selected attribute from the action
 - Edit Attribute – Click this icon to change the name of the selected custom attribute
-- Import Attribute – Opens the Import Custom Attributes Import Wizard where current attributes for an object is viewed and can be imported for editing. See the [Custom Attribute Import Wizard](#Custom-Attribute-Import-Wizard) topic for additional information.
+- Import Attribute – Opens the Import Custom Attributes Import Wizard where current attributes for an object is viewed and can be imported for editing. See the [Custom Attribute Import Wizard](#custom-attribute-import-wizard) topic for additional information.
 - Value/Name – This field derives its name from selections made on the page. It can contain selections from the Insert field or you can click the ellipsis (…) to access the Select User, Contact, or Group window, via which you can populate this field.
 
 Select the checkboxes next to the group details attributes to enable them for editing when running the action.

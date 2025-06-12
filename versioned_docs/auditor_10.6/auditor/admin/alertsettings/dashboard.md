@@ -12,7 +12,7 @@ The dashboard includes the following widgets:
 - Alerts timeline – Shows the number of alerts triggered at the specific day.
 - Recent alerts – Shows all the triggered alerts in chronological order.
 
-[![alerts_overview](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/alerts_overview.png)](/versioned_docs/auditor_10.6/resources/images/auditor/homescreen/alerts_overview.png)
+![alerts_overview](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/alerts_overview.png)
 
 Clicking any tile except for Risk score by top 5 users drills down to the Alert history dashboard that provides users with the detailed information about the latest alerts triggered in their IT infrastructure enriched with the actionable chart and timeline.
 

@@ -14,10 +14,10 @@ In the Choose Scope of Public Folders to be queried section, select one of the f
 - All Public Folders – Returns all public folders within the targeted environment
 - Selected Public Folders – Returns only those public folders specified on the Scope page of the query
 
-  - See the [Scope to the Selected Public Folders](#Scope-to-the-Selected-Public-Folders) topic for additional information
+  - See the [Scope to the Selected Public Folders](#scope-to-the-selected-public-folders) topic for additional information
 - Selected Table – Returns only those public folders within the table and field name specified on the Scope page of the query
 
-  - See the [Scope to Selected Table](#Scope-to-Selected-Table) topic for additional information.
+  - See the [Scope to Selected Table](#scope-to-selected-table) topic for additional information.
 
 ## Scope to the Selected Public Folders
 

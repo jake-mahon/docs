@@ -13,8 +13,8 @@ Of these, the last method can only be used for a report that has previously been
 
 What do you want to do?
 
-- [Create a Report](#Create-a-Report)
-- [Scheduled Report job](#Scheduled-Report-job)
+- [Create a Report](#create-a-report)
+- [Scheduled Report job](#scheduled-report-job)
 
 ## Create a Report
 

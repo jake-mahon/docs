@@ -6,7 +6,7 @@ The NIS Scan job collects data from the targeted NIS server and then analyzes th
 
 The NIS Scan Job uses the NIS Data Collector for the following query:
 
-__CAUTION:__ This query must be modified. See the [Configure the NIS Scan Query](#Configure-the-NIS-Scan-Query) topic for additional information.
+__CAUTION:__ This query must be modified. See the [Configure the NIS Scan Query](#configure-the-nis-scan-query) topic for additional information.
 
 ![Query for the NIS Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/nisscanquery.png)
 
@@ -58,7 +58,7 @@ __CAUTION:__ This analysis task is for troubleshooting and cleanup only. Data wi
 
 - Drop NIS Tables – Removes all tables and views created by this job from SQL Server database
 
-  - See the [Remove NIS Tables](#Remove-NIS-Tables) topic for additional information
+  - See the [Remove NIS Tables](#remove-nis-tables) topic for additional information
 
 ### Remove NIS Tables
 

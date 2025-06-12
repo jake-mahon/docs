@@ -4,7 +4,7 @@ This report shows the server-level fixed and custom roles for the selected SQL S
 
 To read more about SQL server-level roles, refer to [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver15).
 
-To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties. See [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/solutions/manageplans/accounts.md).
+To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties. See Settings for Data Collection.
 
 [![sqlserverlevelroles](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverlevelroles.png)  
 ](/versioned_docs/auditor_10.6/images/audit_intel/reports/sql/server_roles.png)
@@ -32,7 +32,7 @@ This report has the following filters:
 
 - __Monitoring plan__ — name of the monitoring plan set to collect data from the SQL Server you need.
 - __Time zone__ — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This value is filled in automatically. time zone where Netwrix Auditor server is located, for example, UTC-08:00.
-- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [SQL Server](/versioned_docs/auditor_10.6/auditor/solutions/sqlserver/overview.md).
+- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in SQL Server.
 - __Item__— name of the SQL Server instance monitored with selected monitoring plan.
 - __Server-level role__ —select the role that you want to explore.
 - __Role type__ — _Fixed server role_ or _Custom role_.

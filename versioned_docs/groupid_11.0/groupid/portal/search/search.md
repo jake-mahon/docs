@@ -6,10 +6,10 @@ NOTE: The contact object type is not supported in a Microsoft Entra ID based ide
 
 What do you want to do?
 
-- [Search directory objects (Quick Search)](#Search-directory-objects-Quick-Search)
-- [Search directory objects (Advanced Search)](#Search-directory-objects-Advanced-Search)
-- [Search directory objects (Query Based Advanced Search)](#Search-directory-objects-Query-Based-Advanced-Search)
-- [View Search Results](#View-Search-Results)
+- [Search directory objects (Quick Search)](#search-directory-objects-quick-search)
+- [Search directory objects (Advanced Search)](#search-directory-objects-advanced-search)
+- [Search directory objects (Query Based Advanced Search)](#search-directory-objects-query-based-advanced-search)
+- [View Search Results](#view-search-results)
 
 ## Search directory objects (Quick Search)
 

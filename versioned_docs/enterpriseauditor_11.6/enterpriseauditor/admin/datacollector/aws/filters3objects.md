@@ -9,8 +9,8 @@ The Filter S3 Objects page provides the options to filter which objects stored i
 
 Use the buttons to customize the filter list:
 
-- Add – Opens the Select a bucket window. See the [Add Filter](#Add-Filter) topic for additional information.
-- Add Custom Filter – Create a custom filter. See the [Add Custom Filter](#Add-Custom-Filter) topic for additional information.
+- Add – Opens the Select a bucket window. See the [Add Filter](#add-filter) topic for additional information.
+- Add Custom Filter – Create a custom filter. See the [Add Custom Filter](#add-custom-filter) topic for additional information.
 - Remove – Remove a filter from the list
 
 ## Add Filter

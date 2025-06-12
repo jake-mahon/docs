@@ -99,7 +99,7 @@ Data protection can be ensured through:
 | Password (optional) | ```Connections--<identifier>--Options--Password``` |
 | RobotFrameworkScriptPath | ```Connections--<identifier>--RobotFrameworkScriptPath``` |
 
-- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md#compatible-with-CyberArk).
+- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md#compatible-with-cyberark).
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Usercube from ```appsettings.cyberark.agent.json```.
 

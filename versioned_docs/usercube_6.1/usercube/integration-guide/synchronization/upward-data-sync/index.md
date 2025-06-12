@@ -38,7 +38,7 @@ However, the _incremental_ mode cannot be 100% reliable for two reasons.
 
 First, it relies on external inputs that are not directly controlled by Usercube. Second, it only exports changes based on the managed system state, not on Usercube's database state.
 
-[External perturbations](#External-perturbations) could cause slight differences between the database's state and the managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up ensures the database is in a stable state, faithfully reflecting the managed system state, before resuming the _incremental Sync Up_ iterations.
+[External perturbations](#external-perturbations) could cause slight differences between the database's state and the managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up ensures the database is in a stable state, faithfully reflecting the managed system state, before resuming the _incremental Sync Up_ iterations.
 
 Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or incomplete input.
 
@@ -96,7 +96,7 @@ Inside those constraints, every natively supported _export task_ generates its o
 
 All _CSV source files_ are written to the [_export directory_](#_export-directory_).
 
-At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to [Entity Mapping (see below)](#Entity-Mapping-see-below).
+At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to [Entity Mapping (see below)](#entity-mapping-see-below).
 
 The [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 
@@ -152,9 +152,9 @@ The aim of the _Sync Up_ is to load managed systems' data into the resource repo
 
 The translation rules are described in the [applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/index.md) by [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements.
 
-[```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) elements map the resources _CSV source files_ columns to [Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#Entity-Types) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
+[```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) elements map the resources _CSV source files_ columns to [Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-types) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
 
-[```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#Entity-Associations). They describe rules identifying associations between resources loaded thanks to the [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
+[```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-associations). They describe rules identifying associations between resources loaded thanks to the [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
 
 ## Prepare Synchro
 

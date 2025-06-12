@@ -31,7 +31,7 @@ After these first steps, two process options are available according to your nee
 
 Starting with the workforce directory does not require the installation of a local agent.
 
-[Go directly to the common final steps (step 10)](#Go-directly-to-the-common-final-steps-step-10).
+[Go directly to the common final steps (step 10)](#go-directly-to-the-common-final-steps-step-10).
 
 ### Option 2: Based on an external system
 
@@ -51,7 +51,7 @@ After connecting Usercube to an external system, two process options are availab
 
 ### Option 2A: Straight to identity management
 
-[Go directly to the common final steps (step 10)](#Go-directly-to-the-common-final-steps-step-10).
+[Go directly to the common final steps (step 10)](#go-directly-to-the-common-final-steps-step-10).
 
 ### Option 2B: First build the role model
 

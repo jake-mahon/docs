@@ -2,11 +2,11 @@
 
 A job collection is a group of individual jobs that you want to run in a particular order. For instance, you can create a job collection to synchronize user accounts between multiple Active Directory domains. You first create multiple Synchronize jobs to transfer data between two directories, and then combine them in a job collection. Then you can execute the job collection instead of executing each job one by one.
 
-To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#Synchronize-Jobs-and-Workflows) topic.
+To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows) topic.
 
 What do you want to do?
 
-- [Create a job Collection](#Create-a-job-Collection)
+- [Create a job Collection](#create-a-job-collection)
 
 ## Create a job Collection
 

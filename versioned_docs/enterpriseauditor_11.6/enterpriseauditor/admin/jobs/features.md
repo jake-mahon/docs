@@ -12,17 +12,17 @@ Enterprise Auditor users can directly open a selected job or job group folder fr
 
 Publish Reports after Report Generation
 
-Reports that have been generated but not published can be sent to the Web Console using the __Publish__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Publish Reports Window](#Publish-Reports-Window) topic for additional information.
+Reports that have been generated but not published can be sent to the Web Console using the __Publish__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Publish Reports Window](#publish-reports-window) topic for additional information.
 
 Job Configuration Change Tracking
 
-Jobs configuration changes can be tracked using the __Changes__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Changes Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md#Changes-Window) topic for additional information.
+Jobs configuration changes can be tracked using the __Changes__ option in the right-click menu from the selected Jobs tree, job group, or job node. See the [Changes Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md#changes-window) topic for additional information.
 
 Job Export
 
-Jobs can be exported to a ZIP file using the __Export__ option in the right-click menu from the selected job group or job node. See the [Export Job to Zip Archive Window](#Export-Job-to-Zip-Archive-Window) topic for additional information.
+Jobs can be exported to a ZIP file using the __Export__ option in the right-click menu from the selected job group or job node. See the [Export Job to Zip Archive Window](#export-job-to-zip-archive-window) topic for additional information.
 
-See the [Jobs Tree Right-click Menus](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/pane.md#Jobs-Tree-Right-click-Menus) section for additional features.
+See the [Jobs Tree Right-click Menus](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/pane.md#jobs-tree-right-click-menus) section for additional features.
 
 ## Export Job to Zip Archive Window
 

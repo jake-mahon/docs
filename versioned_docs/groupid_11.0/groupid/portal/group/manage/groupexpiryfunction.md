@@ -4,10 +4,10 @@ You can expire, renew or delete a group using GroupID portal. You can change exp
 
 What do you want to do?
 
-- [Expire a group manually ](#Expire-a-group-manually)
-- [Change the expiry policy for a group](#Change-the-expiry-policy-for-a-group)
-- [Attest an expiring group](#Attest-an-expiring-group)
-- [Renew an expired group](#Renew-an-expired-group)
+- [Expire a group manually ](#expire-a-group-manually)
+- [Change the expiry policy for a group](#change-the-expiry-policy-for-a-group)
+- [Attest an expiring group](#attest-an-expiring-group)
+- [Renew an expired group](#renew-an-expired-group)
 
 ## Expire a group manually
 

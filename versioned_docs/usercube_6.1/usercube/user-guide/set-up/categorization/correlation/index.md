@@ -29,7 +29,7 @@ In our case, correlation/classification can be based on a first rule applicable 
 Hence correlation/classification rules are configured with a confidence rate:
 
 - from 100 to 150% to correlate resources automatically without a manual validation;
-- from 0 to 99% to impose that a resource manager reviews the correlation/classification. [See more details in the section below](#See-more-details-in-the-section-below).
+- from 0 to 99% to impose that a resource manager reviews the correlation/classification. [See more details in the section below](#see-more-details-in-the-section-below).
 
 Usercube considers the rules in descending order of confidence rate. The first matching rule is applied.
 
@@ -100,7 +100,7 @@ Fill a resource type with a correlation rule by proceeding as follows:
 
    - __Source Object__: at least one property from the source system that is going to be linked to a given target object. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
    - __Target Object__: one property from the managed system that is going to be linked to a given source object. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
-   - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order. [See the detailed explanation](#See-the-detailed-explanation).
+   - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order. [See the detailed explanation](#see-the-detailed-explanation).
    > In this example, a person via their login and name, is the owner of a nominative AD account via its ```sAMAccountName``` attribute and display name:
    >
    > ![Correlation Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/correlation_example_v602.png)

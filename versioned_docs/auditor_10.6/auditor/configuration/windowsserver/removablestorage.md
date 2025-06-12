@@ -6,7 +6,7 @@ Review the following:
 
 To configure removable storage media monitoring on the local server
 
-1. On the target server, create the following catalog: _“%ALLUSERSPROFILE%\Netwrix Auditor\Windows Server Audit\ETS\”_ to store event logs. [To review Event Trace Session objects' configuration](#To-review-Event-Trace-Session-objects-configuration)how to modify the root directory.
+1. On the target server, create the following catalog: _“%ALLUSERSPROFILE%\Netwrix Auditor\Windows Server Audit\ETS\”_ to store event logs. To review Event Trace Session objects' configurationhow to modify the root directory.
 
    If you do not want to use the Netwrix Auditor for Windows Server Compression Service for data collection, make sure that this path is readable via any shared resource.
 
@@ -32,13 +32,13 @@ To configure removable storage media monitoring on the local server
 
 To configure removable storage media monitoring remotely
 
-1. On the target server, create the following catalog: _“%ALLUSERSPROFILE%\Netwrix Auditor\Windows Server Audit\ETS\”_ to write data to. [To review Event Trace Session objects' configuration](#To-review-Event-Trace-Session-objects-configuration)how to modify the root directory.
+1. On the target server, create the following catalog: _“%ALLUSERSPROFILE%\Netwrix Auditor\Windows Server Audit\ETS\”_ to write data to. To review Event Trace Session objects' configurationhow to modify the root directory.
 
    If you do not want to use the Netwrix Auditor for Windows Server Compression Service for data collection, make sure that this path is readable via any shared resource.
 
    After environment variable substitution, the path shall be as follows:
 
-   _\\<target_server_name>\c$\ProgramData\Netwrix Auditor\Windows Server Audit\ETS_
+   _\\`<target_server_name>`\c$\ProgramData\Netwrix Auditor\Windows Server Audit\ETS_
 
    If your environment variable accesses another directory, update the path.
 2. Run the Command Prompt under the target server Administrator's account.

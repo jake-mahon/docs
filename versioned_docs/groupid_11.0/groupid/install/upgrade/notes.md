@@ -7,11 +7,11 @@ NOTE: In the following text, the term ‘source version’ refers to the GroupID
 __Notes__
 
 1. Portals from the source version will not be upgraded to GroupID 11.
-2. To upgrade to GroupID 11 on a different box, the GroupID source version file system must be available on the GroupID 11 server. To ensure this, follow step 1 in the [Prerequisites for Upgrade](/versioned_docs/groupid_11.0/groupid/install/upgrade/overview.md#Prerequisites-for-Upgrade) topic.
+2. To upgrade to GroupID 11 on a different box, the GroupID source version file system must be available on the GroupID 11 server. To ensure this, follow step 1 in the [Prerequisites for Upgrade](/versioned_docs/groupid_11.0/groupid/install/upgrade/overview.md#prerequisites-for-upgrade) topic.
 
    The source version file system is required for the following:
 
-   - When you create a new portal in GroupID 11, you can import the advanced settings and design settings of a Self-Service portal from the source version. See step 12 in the [Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Native-IIS) topic.
+   - When you create a new portal in GroupID 11, you can import the advanced settings and design settings of a Self-Service portal from the source version. See step 12 in the [Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis) topic.
    - In the source version, you specified a list of attributes to replicate for an identity store. These attributes are saved to a file on the GroupID file system.  
      To upgrade on a different box, the file containing the selected attributes for each identity store must be present on the GroupID 11 server. If the wizard does not find it, GroupID 11 will display the default attributes for identity store replication (rather than your selected attributes).
 
@@ -44,8 +44,8 @@ __Notes__
    In GroupID 11, these debug logs will be created at the following location on the GroupID 11 server:  
    C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\  
    File name: GroupID11\_Upgrade.log
-9. In the GroupID source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to GroupID 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service) topic.
-10. In the GroupID source version, log settings for an identity store inherently applied to Date service logs. On upgrade to GroupID 11, these log settings are moved to the Data service, with the file logging mode set to default, i.e., ‘Error’. To change the mode in GroupID 11, go to Data service settings and change it as required. See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service) topic.
+9. In the GroupID source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to GroupID 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
+10. In the GroupID source version, log settings for an identity store inherently applied to Date service logs. On upgrade to GroupID 11, these log settings are moved to the Data service, with the file logging mode set to default, i.e., ‘Error’. To change the mode in GroupID 11, go to Data service settings and change it as required. See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 11. The following applies in case of upgrade from GroupID 10 SR1.  
     When the approver in pending workflow requests is a variable, such as managedBy, additionalOwner, etc., then during upgrade, the variable will be resolved to the GUID of the object that it represents at that point in time. Hence, the variable is replaced with a static value.
 12. SAML configurations with the Self-Service portals, Password Center portals, Automate, or any other GroupID client will be lost during upgrade, and will not be available in GroupID 11.

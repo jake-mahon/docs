@@ -2,8 +2,8 @@
 
 Netwrix Data Classification can crawl both: Personal Google Drives and G Suite domains. Netwrix Data Classification for Google Drive uses the OAuth 2.0 protocol to authenticate to your G Suite domain. You will need to create a service account and authorize it to access data in individual and shared Drives on behalf of users using the Google Drive API. Depending on your drive type, do the following:
 
-- [Сonfiguring G Suite for Crawling](#Сonfiguring-G-Suite-for-Crawling)
-- [Configuring Personal Google Drive for Crawling](#Configuring-Personal-Google-Drive-for-Crawling)
+- [Сonfiguring G Suite for Crawling](#сonfiguring-g-suite-for-crawling)
+- [Configuring Personal Google Drive for Crawling](#configuring-personal-google-drive-for-crawling)
 
 ## Сonfiguring G Suite for Crawling
 

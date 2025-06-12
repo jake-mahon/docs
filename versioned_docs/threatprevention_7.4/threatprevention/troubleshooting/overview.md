@@ -45,7 +45,7 @@ ___RECOMMENDED:___  Reach out to [Netwrix Support](https://www.netwrix.com/suppo
 
 Threat Prevention sends the _LSASS process terminated_ alert when the LSASS process stops shortly after a reboot. The Agent stops and all monitoring/blocking by that Agent will be stopped. To resolve the issue, the Threat Prevention administrator should check if the Agent service is set to manual start. The most likely solution is to upgrade to the latest version of the Agent.
 
-___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#Enable-the-LSASS-Process-Terminated-Email-Alert) topic for additional information.
+___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert) topic for additional information.
 
 FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?
 

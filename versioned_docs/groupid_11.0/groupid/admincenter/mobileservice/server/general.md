@@ -4,13 +4,13 @@ You can change the display name of a Mobile service and associate identity store
 
 What do you want to do?
 
-- [Change a Service’s Display Name](#Change-a-Services-Display-Name)
-- [Associate Identity Stores with a Service](#Associate-Identity-Stores-with-a-Service)
+- [Change a Service’s Display Name](#change-a-services-display-name)
+- [Associate Identity Stores with a Service](#associate-identity-stores-with-a-service)
 
 ## Change a Service’s Display Name
 
 See
-the [Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Change-a-Services-Display-Name) topic.
+the [Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name) topic.
 
 ## Associate Identity Stores with a Service
 

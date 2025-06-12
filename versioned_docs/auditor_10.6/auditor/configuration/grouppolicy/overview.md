@@ -14,5 +14,5 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/registrykey.md) topic.
 
-      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md#Adjust-Security-Event-Log-Size-and-Retention) topic.
+      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md#adjust-security-event-log-size-and-retention) topic.
     - To provide for event data collection, the Secondary Logon service must be up and running . Open __Administrative Tools__ > __Services__, right-click the __Secondary Logon__ service and on the __General__ tab make sure that Startup type for this service is other than _Disabled_.

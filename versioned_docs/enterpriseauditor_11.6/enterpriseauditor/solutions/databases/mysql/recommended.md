@@ -30,7 +30,7 @@ ___RECOMMENDED:___ Run the solution at the top level: MySQL Job Group
 
 Query Configuration
 
-This solution is designed to be run with the default query configurations. However, the MySQL\_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#Configure-the-SensitiveDataScan-Query) topic for additional information.
+This solution is designed to be run with the default query configurations. However, the MySQL\_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query) topic for additional information.
 
 Analysis Configuration
 

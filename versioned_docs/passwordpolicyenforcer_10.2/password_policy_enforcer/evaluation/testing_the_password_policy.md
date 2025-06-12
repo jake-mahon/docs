@@ -26,7 +26,7 @@ The Results tab shows the test results for each rule. The check boxes show which
 
 Click the Log tab to view Password Policy Enforcer's internal event log. The information in the event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
 
-__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md#Managing-Policies) topic for more information.
+__NOTE:__ Policy testing simulates a password change, but it may not always reflect what happens when a user changes their password. See the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md) topic for more information.
 
 ## Windows Change Password Screen
 

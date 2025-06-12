@@ -37,12 +37,12 @@ triggers the workflow.
 
 What do you want to do?
 
-- [View the Workflows](#View-the-Workflows)
-- [Create a New Workflow](#Create-a-New-Workflow)
-- [Link a Workflow to a Power Automate Flow](#Link-a-Workflow-to-a-Power-Automate-Flow)
-- [Modify a Workflow](#Modify-a-Workflow)
-- [Enable or Disable a Workflow](#Enable-or-Disable-a-Workflow)
-- [Delete a User-defined Workflow](#Delete-a-User-defined-Workflow)
+- [View the Workflows](#view-the-workflows)
+- [Create a New Workflow](#create-a-new-workflow)
+- [Link a Workflow to a Power Automate Flow](#link-a-workflow-to-a-power-automate-flow)
+- [Modify a Workflow](#modify-a-workflow)
+- [Enable or Disable a Workflow](#enable-or-disable-a-workflow)
+- [Delete a User-defined Workflow](#delete-a-user-defined-workflow)
 
 ## View the Workflows
 
@@ -77,7 +77,7 @@ What do you want to do?
     (2) A workflow for the Group object with the Delete event will be triggered when the group is manually deleted.
 8. Select the __Mail Approval__ check box to enable the approver to approve or deny a workflow request from within the workflow email notification. These notifications contain the __Accept__ and __Deny__ buttons. On clicking any of these, the approver is redirected and auto-authenticated on the GroupID portal, where he or she can approve or deny the request.  
    When this check box is not selected, the __Accept__ and __Deny__ buttons are not available in the email notifications. Approvers have to sign into the GroupID portal or the GroupID mobile app to manage workflow requests.
-9. The __Approver Acceleration__ check box applies if approver acceleration is enabled for the identity store. See the [Apply Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md#Apply-Approver-Acceleration) topic.
+9. The __Approver Acceleration__ check box applies if approver acceleration is enabled for the identity store. See the [Apply Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md#apply-approver-acceleration) topic.
 
    - To apply approver acceleration to this workflow, select the __Approver Acceleration__ check box.
    - To exempt this workflow from approver acceleration, clear this check box.
@@ -137,7 +137,7 @@ You can define Power-Automate settings for a workflow to link that workflow to a
 These settings enable you to connect to Power Automate from within a workflow (say Workflow1) and create a basic flow template there. On providing the URL of the flow template in Workflow1, the two are linked. As a result, the flow auto triggers when
 the GroupID workflow is triggered.
 
-For details on linking a workflow to a flow, see the [Trigger a Flow from GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#Trigger-a-Flow-from-GroupID) topic.
+For details on linking a workflow to a flow, see the [Trigger a Flow from GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#trigger-a-flow-from-groupid) topic.
 
 ## Modify a Workflow
 
@@ -152,10 +152,10 @@ __To modify a workflow:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __Workflows__ under __Settings__ in the left pane.
 4. On the __Configure Workflows__ tab of the __Workflows__ page, click the ellipsis button for a workflow and select __Edit__.
-5. The __Edit Workflow__ page is displayed. Follow steps 5-15 in the [Create a New Workflow](#Create-a-New-Workflow) topic
+5. The __Edit Workflow__ page is displayed. Follow steps 5-15 in the [Create a New Workflow](#create-a-new-workflow) topic
    to update the required information.
 6. To link this workflow to a Power Automate flow, click __Power Automate Settings__ in the top right corner; the __Power Automate Settings__ dialog box is displayed. Follow step
-   [6](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#6) and onwards in the [Link an Identity Store Workflow to a Flow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#Link-an-Identity-Store-Workflow-to-a-Flow) topic to complete the task.
+   [6](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#6) and onwards in the [Link an Identity Store Workflow to a Flow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow) topic to complete the task.
 7. After making the required changes, click __Update Workflow__ on the __Edit Workflow__ page to save the settings.
 8. Click __Save__ on the __Workflows__ page.
 

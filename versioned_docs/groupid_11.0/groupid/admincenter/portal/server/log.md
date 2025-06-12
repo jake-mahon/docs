@@ -36,10 +36,10 @@ NOTE: Windows logging is not available for a portal instance deployed in Docker.
 
 What do you want to do?
 
-- [Change the File Logging Level for a Portal Instance](#Change-the-File-Logging-Level-for-a-Portal-Instance)
-- [Turn Off File Logging for a Portal Instance](#Turn-Off-File-Logging-for-a-Portal-Instance)
-- [Windows Logging](#Windows-Logging)
-- [Turn Off Windows Logging for a Portal Instance](#Turn-Off-Windows-Logging-for-a-Portal-Instance)
+- [Change the File Logging Level for a Portal Instance](#change-the-file-logging-level-for-a-portal-instance)
+- [Turn Off File Logging for a Portal Instance](#turn-off-file-logging-for-a-portal-instance)
+- [Windows Logging](#windows-logging)
+- [Turn Off Windows Logging for a Portal Instance](#turn-off-windows-logging-for-a-portal-instance)
 
 ## Change the File Logging Level for a Portal Instance
 
@@ -83,7 +83,7 @@ What do you want to do?
    list.
 5. Click the __Logging__ tab.
 6. In the __Windows Logging__ area, select a logging level for the instance in the __Log Events__ drop-down list.  
-   Windows logging groups events into different levels, based on the type of information captured. These levels are discussed in the table in the [Change the File Logging Level for a Portal Instance](#Change-the-File-Logging-Level-for-a-Portal-Instance) topic.
+   Windows logging groups events into different levels, based on the type of information captured. These levels are discussed in the table in the [Change the File Logging Level for a Portal Instance](#change-the-file-logging-level-for-a-portal-instance) topic.
 7. Click __Save__.
 
 ## Turn Off Windows Logging for a Portal Instance

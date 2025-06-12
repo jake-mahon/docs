@@ -6,7 +6,7 @@ Netwrix Data Classification connects to and crawls a Box source via a custom Box
 
 1. Check if your Box license plan provides the capacity you need. Netwrix Data Classification uses API calls for content crawling (min one API call for a single file). Therefore, if you need to store and crawl a large amount of files in Box (e.g. 100, 000 files), then your selected plan should support a sufficient number of API calls per month. Otherwise, the solution will not be able to crawl your content in one month due to limited number of allowed API calls (e.g. with a _Starter_ plan that provides only 25 000 calls per month). So, when selecting a Business subscription plan at [https://www.box.com/pricing](https://www.box.com/pricing), remember to click __Show more features__ in the bottom and examine the information on __API calls per month__ supported by each plan.
 
-[![box_lic_plans_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/box_lic_plans_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/config_infrastructure/box_lic_plans.png)
+[![box_lic_plans_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/box_lic_plans_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/box_lic_plans.png)
 
 2. Make sure you have configured a valid Google account (with multi-factor authentication supported) and registered it as a _Box Developer Account_. This account is needed to create an app that Netwrix Data Classification will use for interaction with Box API. For more information on the custom apps and Box API, refer to [this article](https://developer.box.com/guides/authentication/sso/).
 

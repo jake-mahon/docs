@@ -6,9 +6,9 @@ Moreover, you must also enable enrollment for an identity store, so users can en
 
 What do you want to do?
 
-- [Enable Authentication Types](#Enable-Authentication-Types)
-- [Enable Enrollment](#Enable-Enrollment)
-- [Enable QR Code](#Enable-QR-Code)
+- [Enable Authentication Types](#enable-authentication-types)
+- [Enable Enrollment](#enable-enrollment)
+- [Enable QR Code](#enable-qr-code)
 
 ## Enable Authentication Types
 

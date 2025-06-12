@@ -26,7 +26,7 @@ Using the radio buttons, select where the execution of the applet will take plac
 
 ___RECOMMENDED:___
 
-It is best practice in global implementations to utilize a specific remote server or proxy scanner that is located in the same data center as the target hosts. This is particularly beneficial if the Enterprise Auditor Console server is in a different data center. See the [Proxy Scanning Architecture](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md#Proxy-Scanning-Architecture) topic for additional information.
+It is best practice in global implementations to utilize a specific remote server or proxy scanner that is located in the same data center as the target hosts. This is particularly beneficial if the Enterprise Auditor Console server is in a different data center. See the [Proxy Scanning Architecture](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md#proxy-scanning-architecture) topic for additional information.
 
 In the bottom section, the checkbox options affect the execution of the applet:
 

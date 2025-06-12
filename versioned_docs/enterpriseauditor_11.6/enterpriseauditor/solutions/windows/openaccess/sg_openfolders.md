@@ -12,7 +12,7 @@ The query for the SG\_OpenFolders job is:
 
 - OpenAccess – Checks for folders with open access
 
-  - (Optional) By default, the OpenAccess query used in this job has a search depth of 0 and will return share-level information. If needed, the subfolder depth can be increased in the query configuration. See the [Configure the OpenAccess Query](#Configure-the-OpenAccess-Query) topic for additional information.
+  - (Optional) By default, the OpenAccess query used in this job has a search depth of 0 and will return share-level information. If needed, the subfolder depth can be increased in the query configuration. See the [Configure the OpenAccess Query](#configure-the-openaccess-query) topic for additional information.
 
 ### Configure the OpenAccess Query
 

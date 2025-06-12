@@ -1,6 +1,6 @@
 # Cancel Request Wizard
 
-The Cancel Request wizard is opened with the __Cancel__ button on the [Pending Requests Tab](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md#Pending-Requests-Tab) of the Access Requests interface.
+The Cancel Request wizard is opened with the __Cancel__ button on the [Pending Requests Tab](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md#pending-requests-tab) of the Access Requests interface.
 
 ![Cancel Request wizard Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/wizard/addnotes.png)
 
@@ -8,7 +8,7 @@ It contains one page:
 
 - 1. Add Notes — Allows Request Administrator to enter a note explaining why the request is being canceled
 
-See the [Cancel an Access Request](#Cancel-an-Access-Request) topic for additional information.
+See the [Cancel an Access Request](#cancel-an-access-request) topic for additional information.
 
 ## Cancel an Access Request
 

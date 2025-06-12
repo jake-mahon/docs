@@ -31,9 +31,9 @@ __To sign in:__
    https://[machine name]:4443/[portal name]
 2. You can sign in using any of the following methods:
 
-   - [With your Identity Store Account](#With-your-Identity-Store-Account)
-   - [With a SAML Provider](#With-a-SAML-Provider)
-   - [With QR Code](#With-QR-Code)
+   - [With your Identity Store Account](#with-your-identity-store-account)
+   - [With a SAML Provider](#with-a-saml-provider)
+   - [With QR Code](#with-qr-code)
 
 ### With your Identity Store Account
 

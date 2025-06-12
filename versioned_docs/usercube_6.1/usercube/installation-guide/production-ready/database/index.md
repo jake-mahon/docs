@@ -52,4 +52,4 @@ The [next step](/versioned_docs/usercube_6.1/usercube/installation-guide/product
 - Creating a custom service account.
 - Granting the necessary database permissions for this account.
 
-It will also show how to [test the Usercube Database connection](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#test-the-Usercube-Database-connection).
+It will also show how to [test the Usercube Database connection](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#test-the-usercube-database-connection).

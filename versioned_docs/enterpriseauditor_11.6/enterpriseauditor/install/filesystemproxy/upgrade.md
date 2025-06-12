@@ -5,7 +5,7 @@ When the Enterprise Auditor Console and File System Solution are upgraded, it is
 - Automatically – An instant job within the Enterprise Auditor Console
 - Manually – On each server hosting the proxy service
 
-__CAUTION:__ When upgrading the Proxy Service to 11.6 from a previous version for the first time, you must manually uninstall the previous version and follow the [Manual Upgrade](#Manual-Upgrade) steps below. Subsequent 11.6 upgrades can be done using the automatic upgrade option.
+__CAUTION:__ When upgrading the Proxy Service to 11.6 from a previous version for the first time, you must manually uninstall the previous version and follow the [Manual Upgrade](#manual-upgrade) steps below. Subsequent 11.6 upgrades can be done using the automatic upgrade option.
 
 ## Automatic Upgrade
 

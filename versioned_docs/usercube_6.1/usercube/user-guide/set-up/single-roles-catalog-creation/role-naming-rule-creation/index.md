@@ -48,7 +48,7 @@ Create a role naming rule by proceeding as follows:
    - ```Property```: navigation property which will define the actual entitlement in the future [navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#navigation-rule).
    - ```Identifier```: must be unique among rules and without any whitespace.
    - __+ New Rule__: a naming rule is based on the union of [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#rules), themselves based on the intersection of [rule items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#rule-items). A rule item specifies one of the conditions that will trigger the enforcement of the naming rule.
-   - ```Where Expression```: C# expression returning a boolean to condition the application of the rule. [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#See-a-full-example).
+   - ```Where Expression```: C# expression returning a boolean to condition the application of the rule. [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#see-a-full-example).
 
      NETWRIX recommends using this option only when the options available in the rule items do not suffice.
    - __Single Role__: [single role(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#single-roles) to be created.
@@ -66,7 +66,7 @@ Create a role naming rule by proceeding as follows:
    - ```Approve Role Implicitly```: needs at least a simple approval workflow. ```Implicit``` mode bypasses the approval step(s) if the person who issues the role request is also the [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md). ```Explicit``` refuses said bypass. ```Inherited``` follows the [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md) decision to approve roles implicitly or not.
    - ```Hide in Simplified View```: hides the role from the users' __Simplified View__ in __View Permissions__ dialog. This setting does not apply to roles which are either inferred or have workflow states which require manual action.
    - ```Comment Management on Permission Review```: to change if different from the role policy.
-   > [Our example](#Our-example) would look like:
+   > [Our example](#our-example) would look like:
    >
    > ![Example - Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_example_v602.png)
 5. Click on __Create__ and see a line added on the rules page.
@@ -92,7 +92,7 @@ Select single roles and find the role(s) you created inside the right category a
 
 ![Access Single Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
 
-> [Our example](#Our-example) would look like:
+> [Our example](#our-example) would look like:
 >
 > ![Example - Generated Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
 
@@ -104,6 +104,6 @@ Select navigation rules and find the rule(s) you created with the right paramete
 
 ![Access Navigation Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
 
-> [Our example](#Our-example) would look like:
+> [Our example](#our-example) would look like:
 >
 > ![Example - Generated Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)

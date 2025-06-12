@@ -22,7 +22,7 @@ The buttons at the bottom enable you to conduct the following actions:
 
 | Button | Function |
 | --- | --- |
-| Update | Opens the [Update Resource Window](#Update-Resource-Window) for the selected resource, which allows you to confirm or decline ownership of the resource and to add a description. |
+| Update | Opens the [Update Resource Window](#update-resource-window) for the selected resource, which allows you to confirm or decline ownership of the resource and to add a description. |
 | Change Access | Opens the [Change Resource Access Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/changeaccess.md) for the selected resource, which allows you to make ad hoc changes to access and group membership. This button is only enabled if the feature was enabled for the selected resource by the Ownership Administrators. |
 | Resource Audit | Opens the Resource Audit interface or Group Audit interface directly to the selected resource. See the [Audit Interfaces](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md) topic for additional information. |
 

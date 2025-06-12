@@ -12,8 +12,8 @@ You can change the default setting to allow GroupID to save updates to objects e
 
 What do you want to do?
 
-- [Allow Circular Reference](#Allow-Circular-Reference)
-- [Skip the replication of members of a dynamic group in Entra ID ](#Skip-the-replication-of-members-of-a-dynamic-group-in-Entra-ID)
+- [Allow Circular Reference](#allow-circular-reference)
+- [Skip the replication of members of a dynamic group in Entra ID ](#skip-the-replication-of-members-of-a-dynamic-group-in-entra-id)
 
 ## Allow Circular Reference
 

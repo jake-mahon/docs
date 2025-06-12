@@ -76,7 +76,7 @@ The identifier of the connection and thus the name of the subsection must:
 | --- | --- |
 | InputDirectories   required | __Type__    String List   __Description__ List of the directories that contain the home folders to be exported. |
 | Domain   optional | __Type__    String   __Description__ Domain of the account used to access the home folders. |
-| Interactive   default value: False | __Type__    Boolean   __Description__ ```True``` to set the authentication as interactive. ```False``` to set it batch. [See Microsoft's documentation for more details](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonusera#See-Microsofts-documentation-for-more-details). |
+| Interactive   default value: False | __Type__    Boolean   __Description__ ```True``` to set the authentication as interactive. ```False``` to set it batch. [See Microsoft's documentation for more details](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonusera#see-microsofts-documentation-for-more-details). |
 |  |  |
 | --- | --- |
 | Login   optional | __Type__    String   __Description__ Login of the account used to access the files and folders.   __Note:__ when not specified and ```Password``` neither, then the account running Usercube will be used.   __Note:__ if ```Domain``` is null, then ```Login``` must be set in the User Principal Name (UPN) format. |
@@ -84,7 +84,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder, with the following columns:
+This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, with the following columns:
 
 - __Command__: empty for now, as the connector performs only complete export.
 - __Name__: name of the home folder.

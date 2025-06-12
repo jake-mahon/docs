@@ -4,10 +4,10 @@ To collect real-time activity data, the Agent hooks into (intercepts) specific M
 
 - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS process termination shortly after a server reboot. The [LSASS Process Terminated](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md) alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all monitoring/blocking by that Agent will be stopped. To resolve the issue, the Threat Prevention administrator should check if the Agent service is set to manual start. The most likely solution is to upgrade to the latest version of the Agent.
 
-  ___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#Enable-the-LSASS-Process-Terminated-Email-Alert) topic for additional information.
+  ___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert) topic for additional information.
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode. In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during installation. When an Agent is restarted, it compares the DLL versions with the recorded list. If the versions do not match, the Windows AD Events monitoring module is not loaded. The Agent’s status in the Agents interface changes to Active (Modules Pending), and all Active Directory monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention administrator must start the pending modules. See the [Start Pending Modules](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional information.
 
-  ___RECOMMENDED:___ Activate an email notification for this alert. See the [Enable Agent Started in AD Monitor Pending Mode Email Alert](#Enable-Agent-Started-in-AD-Monitor-Pending-Mode-Email-Alert) topic for additional information.
+  ___RECOMMENDED:___ Activate an email notification for this alert. See the [Enable Agent Started in AD Monitor Pending Mode Email Alert](#enable-agent-started-in-ad-monitor-pending-mode-email-alert) topic for additional information.
 
 _Remember,_ in Safe Mode, Threat Prevention does not terminate the LSASS process; it only prevents the Active Directory monitoring/blocking module from loading on the Agent machine every time key LSASS DLLs are changed.
 
@@ -27,7 +27,7 @@ __Step 1 –__ Clck __Configuration__ > __Alerts__ on the menu. The Netwrix Thre
 
 __Step 2 –__ On the Email tab, click __Configure__.
 
-__Step 3 –__ Create a message profile for the Safe Mode notification with the recipient(s) to be notified when the AD modules are pending. See the [Create Message Profiles](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md#Create-Message-Profiles) topic for additional information.
+__Step 3 –__ Create a message profile for the Safe Mode notification with the recipient(s) to be notified when the AD modules are pending. See the [Create Message Profiles](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles) topic for additional information.
 
 ![Netwrix Threat Prevention System Alerting window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/adpendingmodealert.png)
 

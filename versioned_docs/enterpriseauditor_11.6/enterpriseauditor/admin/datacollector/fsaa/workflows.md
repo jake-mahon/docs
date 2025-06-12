@@ -95,7 +95,7 @@ __CAUTION:__ Applying these analysis tasks result in the deletion of collected d
 
 Follow the steps to configure and run the analysis tasks.
 
-__Step 1 –__ Prior to job execution, modify the desired analysis tasks using the [Customizable Analysis Parameters for FS\_SDD\_DELETE Job](#Customizable-Analysis-Parameters-for-FS_SDD_DELETE-Job) instructions.
+__Step 1 –__ Prior to job execution, modify the desired analysis tasks using the [Customizable Analysis Parameters for FS\_SDD\_DELETE Job](#customizable-analysis-parameters-for-fs_sdd_delete-job) instructions.
 
 __Step 2 –__ In the Analysis Selection Pane, check the type of analysis task that will be run.
 

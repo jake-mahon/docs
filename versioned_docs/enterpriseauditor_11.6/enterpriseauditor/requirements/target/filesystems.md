@@ -32,7 +32,7 @@ The following firewall ports are needed:
 
 Permissions and Ports for FileSystemAccess Data Collector
 
-- Permissions vary based on the Scan Mode Option selected. See the [File System Supported Platforms](#File-System-Supported-Platforms) topic for additional information.
+- Permissions vary based on the Scan Mode Option selected. See the [File System Supported Platforms](#file-system-supported-platforms) topic for additional information.
 
 ## Supported Windows Platforms
 

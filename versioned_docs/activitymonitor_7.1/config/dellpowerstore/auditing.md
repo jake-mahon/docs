@@ -2,9 +2,9 @@
 
 Follow the steps to enable auditing on Dell PowerStore.
 
-- [Create an Event Publishing Pool](#Create-an-Event-Publishing-Pool)
-- [Create an Event Publisher](#Create-an-Event-Publisher)
-- [Enable Event Publishing for the NAS Server](#Enable-Event-Publishing-for-the-NAS-Server) OR [Enable or Disable Event Publishing for File System](#Enable-or-Disable-Event-Publishing-for-File-System)
+- [Create an Event Publishing Pool](#create-an-event-publishing-pool)
+- [Create an Event Publisher](#create-an-event-publisher)
+- [Enable Event Publishing for the NAS Server](#enable-event-publishing-for-the-nas-server) OR [Enable or Disable Event Publishing for File System](#enable-or-disable-event-publishing-for-file-system)
 
 See the [Dell PowerStore - File Capabilities](https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18155-dell-powerstore-file-capabilities.pdf) white paper for additional information.
 

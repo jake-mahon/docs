@@ -16,7 +16,7 @@ Complete the following fields:
 | Specify data collection method | You can enable network traffic compression. If enabled, a Compression Service will be automatically launched on the audited computer, collecting and pre-filtering data. This significantly improves data transfer and minimizes the impact on the target computer performance. |
 | Configure audit settings | You can adjust audit settings automatically. Your current audit settings will be checked on each data collection and adjusted if necessary.  If any conflicts are detected with your current audit settings, automatic audit configuration will not be performed.  Do not select the checkbox if you want to configure audit settings manually. For a full list of audit settings required to collect comprehensive audit data and instructions on how to configure them, refer to [AD FS](/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/overview.md). |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Federation Server
 

@@ -45,7 +45,7 @@ __Configure SSO settings:__
 __Define users:__
 
 16. Click the __Access__ link at the top. The __Policy__ list displays any policies that you may have configured for users. You can select a policy to enforce it.
-17. Click the __Users__ link at the top. To define and manage users, see the [Define Users in OneLogin](#Define-Users-in-OneLogin) topic.
+17. Click the __Users__ link at the top. To define and manage users, see the [Define Users in OneLogin](#define-users-in-onelogin) topic.
 18. Click __Save__.
 
 ### Download the OneLogin Metadata File

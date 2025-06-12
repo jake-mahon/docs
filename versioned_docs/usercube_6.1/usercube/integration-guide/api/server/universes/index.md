@@ -20,7 +20,7 @@ PowerBI model.
 | --- | --- | --- |
 | 200 | Model. |  |
 
-### /api/Universes/PowerBI/Data/{universeIdentifier}/{tableIdentifier}
+### /api/Universes/PowerBI/Data/`{universeIdentifier}`/`{tableIdentifier}`
 
 #### Get
 
@@ -70,7 +70,7 @@ Returns all the policies according to the provided query.
 | --- | --- | --- |
 | 200 | The policy list. |  |
 
-### /api/Universes/Universe/{id}
+### /api/Universes/Universe/`{id}`
 
 #### Get
 

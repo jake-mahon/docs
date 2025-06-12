@@ -2,7 +2,7 @@
 
 Upon the alert triggering, you can instruct Auditor to perform several actions such as run a command, a script or other executable file that will perform a remediation action, open a ticket with the organization help desk, etc.
 
-[![passwordreset](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/passwordreset.png)](/versioned_docs/auditor_10.6/resources/images/auditor/alerts/responseaction/passwordreset.png)
+![passwordreset](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/passwordreset.png)
 
 Response Action settings contain the following configuration options:
 
@@ -39,7 +39,7 @@ Unless you select to Write data to CSV file, Auditor will also pass the followin
 - _AlertID_ — alert ID
 - _RecordID_ — ID of the activity record that triggered the alert
 
-Selecting Write data to CSV file will change this behavior, as described in the [Configure a Response Action for Alert](#Configure-a-Response-Action-for-Alert) section below.
+Selecting Write data to CSV file will change this behavior, as described in the [Write Data to a CSV File](#write-data-to-a-csv-file) section below.
 
 __Step 5 –__ In the Working directory field, specify path to the working directory of the executable file on NAuditor server.
 
@@ -51,15 +51,15 @@ __Step 7 –__ Write data to CSV file — select this option if you want Auditor
 
 After the upgrade, all alerts with previously configured response action will have this option cleared.
 
-__Step 8 –__ Limit row count in a file to <N> — limit the number of rows (activity records) to be written to a single ._csv_ file. Enter a value from _1_ to _1000_.
+__Step 8 –__ Limit row count in a file to `<N>` — limit the number of rows (activity records) to be written to a single ._csv_ file. Enter a value from _1_ to _1000_.
 
-Learn more about how these options work in the [Configure a Response Action for Alert](#Configure-a-Response-Action-for-Alert) section.
+Learn more about how these options work in the [Write Data to a CSV File](#write-data-to-a-csv-file) section.
 
 By default, the executable file will be launched under the _LocalSystem_ account. If you want to use another account, select the Use custom credentials checkbox and specify user name and password. Make sure this account has __Log on as batch job__ privilege.
 
 The resulting command line including executable file name and execution parameters will appear in the Command line preview.
 
-If you selected to __Write data to CSV file__, the command line will include _{CsvFile_}, i.e. the file path. Alternatively, the command line will include `{AlertID}` and `{RecordID}`, i.e. related IDs
+If you selected to __Write data to CSV file__, the command line will include `{CsvFile}`, i.e. the file path. Alternatively, the command line will include `{AlertID}` and `{RecordID}`, i.e. related IDs
 
 __Step 9 –__ Test run — if you click this button, the executable file will be run with the specified parameters on Netwrix Auditor server. This can be helpful, for example, if you want to ensure script operability before the related alert is triggered.
 

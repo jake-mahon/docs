@@ -53,10 +53,10 @@ Usercube shows all the properties of the new resource to be created:
 ![Addition Order Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewaddition_v602.png)
 
 - ```Proposed Value```: value proposed by Usercube.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Provisioning-State)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Workflow-State): describes the origin or approval state of an assignment.
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
 - ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
 
 Handle an addition order by proceeding as follows:
@@ -85,10 +85,10 @@ Usercube displays a given owner and a given resource to be associated with a giv
 - ```Confidence rate of proposed resource```: rate expressing the confidence in this [correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md#correlation).
 - ```Proposed Value```: value proposed by Usercube.
 - ```Current Value```: value currently in the managed system.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Provisioning-State)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Workflow-State): describes the origin or approval state of an assignment.
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
 - ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
 
 Handle an association order by proceeding as follows:
@@ -118,10 +118,10 @@ Usercube shows a given resource and all resource properties to be verified:
 
 - ```Proposed Value```: value proposed by Usercube.
 - ```Current Value```: value currently in the managed system.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Provisioning-State)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#Workflow-State): describes the origin or approval state of an assignment.
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
 - ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
 
 Handle an update order by proceeding as follows:

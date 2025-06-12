@@ -2,8 +2,8 @@
 
 You can install GroupID Credential Provider in one of the following ways:
 
-- [Install GroupID Credential Provider Manually](#Install-GroupID-Credential-Provider-Manually)
-- [Install GroupID Credential Provider via a Group Policy Object (GPO)](#Install-GroupID-Credential-Provider-via-a-Group-Policy-Object-GPO)
+- [Install GroupID Credential Provider Manually](#install-groupid-credential-provider-manually)
+- [Install GroupID Credential Provider via a Group Policy Object (GPO)](#install-groupid-credential-provider-via-a-group-policy-object-gpo)
 
 ### Install GroupID Credential Provider Manually
 
@@ -53,8 +53,8 @@ Instead of installing Credential Provider manually on each individual client wor
 
 Installing Credential Provider is a two-step process:
 
-1. [Install Orca](#Install-Orca)
-2. [Deploy Credential Provider via a GPO](#Deploy-Credential-Provider-via-a-GPO)
+1. [Install Orca](#install-orca)
+2. [Deploy Credential Provider via a GPO](#deploy-credential-provider-via-a-gpo)
 
 ### Install Orca
 

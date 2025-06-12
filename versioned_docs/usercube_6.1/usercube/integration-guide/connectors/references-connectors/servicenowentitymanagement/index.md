@@ -96,7 +96,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
@@ -104,7 +104,7 @@ The identifier of the connection and thus the name of the subsection must:
 | OAuth2Url   optional | __Type__    String   __Description__ Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
 |  |  |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
@@ -113,7 +113,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder one CSV file for each table, named ```<connectionIdentifier>_<tableName>.csv```.
+This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder one CSV file for each table, named ```<connectionIdentifier>_<tableName>.csv```.
 
 Usercube lists the tables to retrieve based on [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s and [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'s connection tables.
 
@@ -153,7 +153,7 @@ This connector writes to ServiceNow to create, update, and/or delete any data.
 
 ### Configuration
 
-[Same as for export](#Same-as-for-export), fulfill is configured through connections.
+[Same as for export](#same-as-for-export), fulfill is configured through connections.
 
 > For example:
 >
@@ -196,7 +196,7 @@ This connector writes to ServiceNow to create, update, and/or delete any data.
 
 | Name | Details |
 | --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#See-ServiceNow-Official-API-Reference).   __Info:__ the URL must start with ```https```. |
+| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
 | Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
 | Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
 | ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
@@ -207,7 +207,7 @@ This connector writes to ServiceNow to create, update, and/or delete any data.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#See-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
 
 When setting a password for an ServiceNow user, the password attribute is defined by the password specified in the corresponding [```RessourceTypeMapping```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/index.md).
 

@@ -20,9 +20,9 @@ Access to reports in the Web Console can be managed through the Role Based Acces
 
 __NOTE:__  Access to the AIC and other Netwrix products is controlled from within those products.
 
-The address to the Web Console can be configured within the Enterprise Auditor Console (__Settings__ > __Reporting__). The default address is ```http://[hostname.domain.com]:8082```. From the Enterprise Auditor Console server, it can be accessed at ```http://localhost/``` with any standard browser. To access the Web Console from another machine in or connected to the environment, replace localhost with the name of the Enterprise Auditor Console. See the [Update Website URLs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/secure.md#Update-Website-URLs) topic for additional information.
+The address to the Web Console can be configured within the Enterprise Auditor Console (__Settings__ > __Reporting__). The default address is ```http://[hostname.domain.com]:8082```. From the Enterprise Auditor Console server, it can be accessed at ```http://localhost/``` with any standard browser. To access the Web Console from another machine in or connected to the environment, replace localhost with the name of the Enterprise Auditor Console. See the [Update Website URLs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/secure.md#update-website-urls) topic for additional information.
 
-__NOTE:__ Any browser used to access the Web Console must have JavaScript allowed for the site. See the [Configure JavaScript Settings for the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#Configure-JavaScript-Settings-for-the-Web-Console) topic for additional information.
+__NOTE:__ Any browser used to access the Web Console must have JavaScript allowed for the site. See the [Configure JavaScript Settings for the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console) topic for additional information.
 
 Follow the steps to login to the Web Console.
 
@@ -43,4 +43,4 @@ __Step 2 –__ Enter your __User Name__ and __Password__. Click __Login__.
 
 ![Web Console Home page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolehome.png)
 
-The home page shows the solutions with published reports available. See the [Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md#Web-Console) topic for information on using the Web Console.
+The home page shows the solutions with published reports available. See the [Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md#web-console) topic for information on using the Web Console.

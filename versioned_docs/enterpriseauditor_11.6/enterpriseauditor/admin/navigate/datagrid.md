@@ -6,10 +6,10 @@ All data grids within the Enterprise Auditor Console have functions and features
 
 The different grouping, filtering, and search methods in the Data Grid are:
 
-- [Data Grid Right-Click Menu](#Data-Grid-Right-Click-Menu)
-- [Sort](#Sort)
-- [Group By](#Group-By)
-- [Filter](#Filter)
+- [Data Grid Right-Click Menu](#data-grid-right-click-menu)
+- [Sort](#sort)
+- [Group By](#group-by)
+- [Filter](#filter)
 
 The Show maximum [value] of total [value] rows, located in the upper-right hand corner of the Data Grid view in the Results Pane, indicates how many rows of data are available within this data grid (the first value) and how many rows of data are available in the Enterprise Auditor database for this data grid (the second value). The maximum value can be changed by the user and only affects the maximum number of rows available for this data grid within the Enterprise Auditor Console. The total value is automatically supplied from the Enterprise Auditor database and cannot be changed by the user. If the total value is less than the maximum value, then all available data for this grid is present for sorting, filtering, and searching.
 
@@ -26,10 +26,10 @@ The Data Grid Right-click menu contains the following selections:
 - Clear Sorting – Removes all sorting from selected column
 - Group By This Field – Groups data or clears grouping of data by selected column
 - Group By Box – Hides or shows the Group By Box where headers can be dragged-and-dropped to group the data
-- Footer – Provides a data grid summation row at the bottom of the data grid (see the [Footer](#Footer) section)
-- Group Footers – Provides a data grid summation row at the bottom of each group (see the [Footer](#Footer) section)
+- Footer – Provides a data grid summation row at the bottom of the data grid (see the [Footer](#footer) section)
+- Group Footers – Provides a data grid summation row at the bottom of each group (see the [Footer](#footer) section)
 - Remove This Column – Removes selected column from the data grid
-- Field Chooser – Opens the Customization window (see the [Customization Window](#Customization-Window) section)
+- Field Chooser – Opens the Customization window (see the [Customization Window](#customization-window) section)
 - Best Fit – Changes column width to fit the data within the selected column
 - Best Fit (all columns) – Changes column width for all columns to fit the data
 
@@ -98,7 +98,7 @@ __NOTE:__ Sorting by the FQDN column is an easy way to see if there are two entr
 
 The data grid can also be grouped by dragging a column header beneath the other column headers either to the stationary section on the left or to the mobile section on the right. Each record counts as a single row for the total rows value, but displays in two rows with the second row dedicated for the moved column.
 
-Drag the column header(s) back to the table to remove the grouping or use the Clear Sort option in the [Data Grid Right-Click Menu](#Data-Grid-Right-Click-Menu). Additionally, the sort will clear when the user navigates to another place in the console.
+Drag the column header(s) back to the table to remove the grouping or use the Clear Sort option in the [Data Grid Right-Click Menu](#data-grid-right-click-menu). Additionally, the sort will clear when the user navigates to another place in the console.
 
 ## Filter
 
@@ -108,8 +108,8 @@ Users can filter and search data in the Data Grid by using the dropdown arrow in
 
 In the header of every column is a drop-down arrow. This provides users with the ability to filter the data grid for a particular item or items within a column. The drop-down menu has the options of (All), (Custom…), and an alphabetical listing of all items currently within that column for the data grid.
 
-- [Custom Filter](#Custom-Filter) – Click Custom Filter in the header dropdown to open the Custom Filter window
-- [Filtration Dialog](#Filtration-Dialog) – Click the Magnifying Glass icon in the Filtration Dialog to select a specific filter
+- [Custom Filter](#custom-filter) – Click Custom Filter in the header dropdown to open the Custom Filter window
+- [Filtration Dialog](#filtration-dialog) – Click the Magnifying Glass icon in the Filtration Dialog to select a specific filter
 
 ### Custom Filter
 
@@ -145,7 +145,7 @@ In the example above, OSName is like \*2008\* AND not like \*Standard\*, the fil
 
 ![Selected Filter Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagridfunctionality15.png)
 
-The selected filter criteria will appear at the top of the data grid. A red X appears in the filtration dialog, and the total rows value drops to the number of records that match the filter criteria. Additional filter statements can be added for other columns by repeating the process to build complex filters. The filtration dialog also provides other ways to filter and search the data set. See the [Filtration Dialog](#Filtration-Dialog) topic for additional information on this feature.
+The selected filter criteria will appear at the top of the data grid. A red X appears in the filtration dialog, and the total rows value drops to the number of records that match the filter criteria. Additional filter statements can be added for other columns by repeating the process to build complex filters. The filtration dialog also provides other ways to filter and search the data set. See the [Filtration Dialog](#filtration-dialog) topic for additional information on this feature.
 
 Filters can be cleared by clicking the red X in the filtration dialog (to clear all filter statements), selecting All from the column’s drop-down menu (to clear filters one column at a time), or by navigating to another place in the console (to clear all filter statements). However, the Recent Filters option in the filtration dialog provides a list of the most recent filters applied to the data set for users to quickly return to a filtered view.
 

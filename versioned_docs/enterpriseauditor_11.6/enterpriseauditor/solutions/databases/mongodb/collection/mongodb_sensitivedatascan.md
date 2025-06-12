@@ -12,7 +12,7 @@ The query is:
 
 - MongoDB SDD - Collects sensitive data from MongoDB
 
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the MongoDB SDD Query](#Configure-the-MongoDB-SDD-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the MongoDB SDD Query](#configure-the-mongodb-sdd-query) topic for additional information.
 
 ## Configure the MongoDB SDD Query
 
@@ -26,7 +26,7 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The NoSQL Data C
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-__Step 4 –__ Navigate to the [NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md#NoSQLOptions) page.
+__Step 4 –__ Navigate to the [NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md#nosqloptions) page.
 
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
 

@@ -2,16 +2,16 @@
 
 GroupID Portal encompasses various functionalities available for the users that are:
 
-- [Directory Search](#Directory-Search)
-- [Find Dialog Box](#Find-Dialog-Box)
+- [Directory Search](#directory-search)
+- [Find Dialog Box](#find-dialog-box)
 - [
   Portal Settings
-  ](#Portal-Settings)
+  ](#portal-settings)
 - [
   User Account Settings
-  ](#User-Account-Settings)
+  ](#user-account-settings)
 - [Toolbars
-  ](#Toolbars)
+  ](#toolbars)
 
 ## Directory Search
 

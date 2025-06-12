@@ -2,7 +2,7 @@
 
 Authorized users can create, modify or delete automated workflows that apply to the certain content. For that, in the administrative web console select Content from the top menu and go to the __Workflows__ tab.
 
-[![workflows_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows.png)
+[![workflows_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows.png)
 
 __NOTE:__ To manage the automated workflows, users require sufficient access rights that are assigned based on either their Windows identity or using non-Windows based access controls. See "Users" for details on rights and permissions.
 
@@ -30,7 +30,7 @@ To delete a workflow, follow the steps described in the [Delete Workflow](/versi
 
 1. Click the link in the __Name__ column for the required workflow ( e.g. Global for Google Drive in the figure below):
 
-[![workflow_delete_single_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflow_delete_single_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/workflow_delete_single.png)
+[![workflow_delete_single_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflow_delete_single_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflow_delete_single.png)
 
 2. This will open the list of workflows for selected scope. You can sort the list by __Details__ (workflow action) or by __Active__ (workflow state) field.
 3. Select one or several workflows you need.
@@ -39,7 +39,7 @@ To delete a workflow, follow the steps described in the [Delete Workflow](/versi
 
 __NOTE:__ Workflows within a generic group (scope) are cloned within the same group, source-specific workflows can be copied within any groups of the same type. The clone workflow will be disabled by default.
 
-[![workflows_category_list_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows_category_list_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/workflows_category_list.png)
+[![workflows_category_list_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows_category_list_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows_category_list.png)
 
 To provide another name to a workflow, select it from the list and click __Rename__.
 

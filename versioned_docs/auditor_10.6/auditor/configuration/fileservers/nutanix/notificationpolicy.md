@@ -18,15 +18,15 @@ The list of supported operations is provided in the table below. Your notificati
 
 ## Configuration Procedure
 
-Notification policy creation procedure involves API requests usage. It is assumed that you have a good understanding of REST API concepts, as well as enough experience in working with JSON-formatted requests in any API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#Nutanix-documentation).
+Notification policy creation procedure involves API requests usage. It is assumed that you have a good understanding of REST API concepts, as well as enough experience in working with JSON-formatted requests in any API client. To get acquainted with Nutanix REST API Explorer client, refer to [Nutanix documentation](https://portal.nutanix.com/#nutanix-documentation).
 
 To create a notification policy for Nutanix File Server via API:
 
 1. Open the __File Server REST API Explorer__ client using the following URL:   
 
-    ```https://<fileserver_ip>:9440/api/nutanix/v3/api_explorer/index.html#/```
+    ```https://`<fileserver_ip>`:9440/api/nutanix/v3/api_explorer/index.html#/```
 
-   here ```< fileserver_ip >``` - IP address of the Nutanix File Server to be audited.
+   here `<fileserver_ip>` - IP address of the Nutanix File Server to be audited.
 
 If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI Explorer for Prism__ client will be opened.
 
@@ -38,11 +38,12 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 5. In the request body, enter the following JSON-formatted structure:
 
+```json
 {
 
 "spec": {
 
-"name": "<NAME_OF_NOTIFICATION_POLICY> ",
+"name": "<NAME_OF_NOTIFICATION_POLICY>",
 
 "resources": {
 
@@ -75,6 +76,7 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 }
 
 }
+```
 
 here:
 
@@ -82,17 +84,17 @@ _"all_mount_targets" : true_ - instructs to notify on changes to all shares
 
 _"protocol_type_list" : ["SMB"]_ - instructs to track SMB shares (the only currently supported)
 
-_<NAME_OF_NOTIFICATION_POLICY>_ – enter the name of notification policy you want to create
+_`<NAME_OF_NOTIFICATION_POLICY>`_ – enter the name of notification policy you want to create
 
-_<UUID_OF_PARTNER_SERVER>_ - enter the ```uuid``` of [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
+_`<UUID_OF_PARTNER_SERVER>`_ - enter the ```uuid``` of [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
 
-_<LIST_OF_FILE_OPERATIONS>_ - enter the list of operations to be audited.
+_`<LIST_OF_FILE_OPERATIONS>`_ - enter the list of operations to be audited.
 
 6. Send the request, clicking __Try it out__.
 7. Get the response - ```Response Code``` should be _200_. In the response body, locate the ```uuid``` of the created notification policy.
 8. To check that a new policy was included in the list of existing policies, retrieve the list of policies, sending the POST request to the following endpoint:
 
-    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter : ```{ }```
+    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter : ``{ }``
 
 ## Auditing Specific Folders
 
@@ -102,6 +104,7 @@ If you want to audit only the certain folders on Nutanix File Server (mount targ
 2. In the response, locate the ```uuids``` of the target folders you want to audit.
 3. In the notification policy creation request (described above) instead of ```"all_mount_targets" : true``` in the request body enter the following JSON-formatted structure:
 
+```json
 "mount_target_reference_list": [
 
 {
@@ -121,10 +124,11 @@ If you want to audit only the certain folders on Nutanix File Server (mount targ
 },
 
 ]
+```
 
 here:
 
-_<UUID_OF_MOUNT_TARGET>_ – enter the uuid of target you want to audit.
+_`<UUID_OF_MOUNT_TARGET>`_ – enter the uuid of target you want to audit.
 
 ## Example
 
@@ -142,6 +146,7 @@ The JSON-formatted structure below is an example of the request body that can be
 
 JSON structure is as follows:
 
+```json
 {
 
 "spec": {
@@ -213,3 +218,4 @@ JSON structure is as follows:
 }
 
 }
+```

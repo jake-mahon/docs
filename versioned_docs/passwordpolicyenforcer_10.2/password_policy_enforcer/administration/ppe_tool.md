@@ -70,93 +70,73 @@ The `<tag>` tag can also contain the child `<FLAGS>` tag. This tag can have an o
 
 Original configuration
 
+```xml
 <MAILMODE>1</MAILMODE>
+```
 
 Transform configuration
 
+```xml
 <tag name="MAILMODE" DisplayName="Mail delivery method">
-
-<FLAGS mode="value">
-
-<flag DisplayName="Disable e-mail reminders" value="1"/>
-
-<flag DisplayName="Send e-mail to SMTP server" value="2"/>
-
-<flag DisplayName="Save e-mail to a pickup folder" value="3"/>
-
-</FLAGS>
-
+  <FLAGS mode="value">
+    <flag DisplayName="Disable e-mail reminders" value="1"/>
+    <flag DisplayName="Send e-mail to SMTP server" value="2"/>
+    <flag DisplayName="Save e-mail to a pickup folder" value="3"/>
+  </FLAGS>
 </tag>
+```
 
 Transformation result
 
+```xml
 <MAILMODE DisplayName="Mail delivery method">
-
-<options>
-
-<option DisplayName="Disable e-mail reminders">True</option>
-
-<option DisplayName="Send e-mail to SMTP server">False</option>
-
-<option DisplayName="Save e-mail to a pickup folder">False</option>
-
-</options>
-
+  <options>
+    <option DisplayName="Disable e-mail reminders">True</option>
+    <option DisplayName="Send e-mail to SMTP server">False</option>
+    <option DisplayName="Save e-mail to a pickup folder">False</option>
+  </options>
 </MAILMODE>
+```
 
 #### Example of 'combined' mode
 
 Original configuration
 
+```xml
 <FLAGS>25</FLAGS>
+```
 
 Transformation configuration
 
+```xml
 <tag name="FLAGS" DisplayName="Common settings">
-
-<FLAGS mode="combined" DisplayName="Common settings">
-
-<flag DisplayName="Netwrix Password Policy Enforcer enabled" value="0x00000001"/>
-
-<flag DisplayName="Enforce policy when password is reset" value="0x00000002" inverted="true"/>
-
-<flag DisplayName="Log event when password not checked by Netwrix Password Policy Enforcer" value="0x00000008"/>
-
-<flag DisplayName="Log event when password rejected by Netwrix Password Policy Enforcer" value="0x00000020"/>
-
-<flag DisplayName="Log event when password accepted by Netwrix Password Policy Enforcer" value="0x00000040"/>
-
-<flag DisplayName="Only accept encrypted client requests" value="0x00000010"/>
-
-<flag DisplayName="Netwrix Password Policy Enforcer uses V3 CST (Last used Netwrix Password Policy Enforcer v8)" value="0x00000004"/>
-
-</FLAGS>
-
+  <FLAGS mode="combined" DisplayName="Common settings">
+    <flag DisplayName="Netwrix Password Policy Enforcer enabled" value="0x00000001"/>
+    <flag DisplayName="Enforce policy when password is reset" value="0x00000002" inverted="true"/>
+    <flag DisplayName="Log event when password not checked by Netwrix Password Policy Enforcer" value="0x00000008"/>
+    <flag DisplayName="Log event when password rejected by Netwrix Password Policy Enforcer" value="0x00000020"/>
+    <flag DisplayName="Log event when password accepted by Netwrix Password Policy Enforcer" value="0x00000040"/>
+    <flag DisplayName="Only accept encrypted client requests" value="0x00000010"/>
+    <flag DisplayName="Netwrix Password Policy Enforcer uses V3 CST (Last used Netwrix Password Policy Enforcer v8)" value="0x00000004"/>
+  </FLAGS>
 </tag>
+```
 
 Result human-readable report
 
+```xml
 <FLAGS DisplayName="Common settings">
-
-<options>
-
-<option DisplayName="Netwrix Password Policy Enforcer enabled">False</option>
-
-<option DisplayName="Enforce policy when password is reset">True</option>
-
-<option DisplayName="Log event when password not checked by Netwrix Password Policy Enforcer">True</option>
-
-<option DisplayName="Log event when password rejected by Netwrix Password Policy Enforcer">False</option>
-
-<option DisplayName="Log event when password accepted by Netwrix Password Policy Enforcer">False</option>
-
-<option DisplayName="Only accept encrypted client requests">True</option>
-
-<option DisplayName="Netwrix Password Policy Enforcer uses V3 CST (Last used Netwrix Password Policy Enforcer v8)">False</option>
-
-</options>
-
+  <options>
+    <option DisplayName="Netwrix Password Policy Enforcer enabled">False</option>
+    <option DisplayName="Enforce policy when password is reset">True</option>
+    <option DisplayName="Log event when password not checked by Netwrix Password Policy Enforcer">True</option>
+    <option DisplayName="Log event when password rejected by Netwrix Password Policy Enforcer">False</option>
+    <option DisplayName="Log event when password accepted by Netwrix Password Policy Enforcer">False</option>
+    <option DisplayName="Only accept encrypted client requests">True</option>
+    <option DisplayName="Netwrix Password Policy Enforcer uses V3 CST (Last used Netwrix Password Policy Enforcer v8)">False</option>
+  </options>
 </FLAGS>
+```
 
 ### Customize HTML Report
 

@@ -4,7 +4,7 @@ Splunk is used to store logs from devices, databases and applications. Capturing
 
 A fully customizable Search Processing Language (SPL) query, executed via the Splunk API, will return specific logs that are converted to change events in Change Tracker. From this point on, these change events will behave as if they were produced by a traditional agent.
 
-Permissions required for the Splunk can be found in the Authentication and Authorization section of the Splunk Documentation page. See Splunk's [REST API User Manual](https://docs.splunk.com/Documentation/Splunk/9.3.2/RESTUM/RESTusing#REST-API-User-Manual) article for additional information on permissions.
+Permissions required for the Splunk can be found in the Authentication and Authorization section of the Splunk Documentation page. See Splunk's [REST API User Manual](https://docs.splunk.com/Documentation/Splunk/9.3.2/RESTUM/RESTusing#rest-api-user-manual) article for additional information on permissions.
 
 ## Configure Credentials
 
@@ -121,7 +121,7 @@ This isn't a problem with agent based monitoring as the agent registers it's dev
 
 Devices can be created manually or via device discovery. Device discovery is only available when the Sync Service is configured to integrate with ServiceNow. Both will result in proxied devices registered to a proxy device with an agent.
 
-To discover devices to match change events from Splunk, see the [Configure Device Discovery](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md#Configure-Device-Discovery) section in [Sync Service Administration](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md) topic for additional information.
+To discover devices to match change events from Splunk, see the [Configure Device Discovery](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md#configure-device-discovery) section in [Sync Service Administration](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md) topic for additional information.
 
 To manually create proxied devices, select a device to be a proxy device (the Hub's agent is often a good choice here) and click Add Proxied Device. Ensure the new devices are added to the Splunk Devices group.
 

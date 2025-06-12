@@ -8,7 +8,7 @@ The add-on can be deployed on any computer in your environment. For example, you
 
 2. Add-on and SCVMM server (with Management Console) running on different machines:
 
-[![deployment_2](/img/versioned_docs/auditor_10.6/auditor/addon/hyperv/diagram2servers.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/hyperv/diagram2servers.png)
+![deployment_2](/img/versioned_docs/auditor_10.6/auditor/addon/hyperv/diagram2servers.png)
 
 In this scenario, the account used to access SCVMM server must be a member of the _Remote Management Users_ local group on the SCVMM server.
 

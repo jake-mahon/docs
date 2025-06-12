@@ -2,7 +2,7 @@
 
 It is possible to use one of the following methods to complete a silent installation of the File System Proxy Service.
 
-__CAUTION:__ For all Active Directory versions, aside from Windows 2012 R2, the silent installer does not prompt an error message if a duplicate SPN value exists in the targeted domain for [Option 1: Run as LocalSystem](#Option-1-Run-as-LocalSystem). Having duplicate SPN’s in the targeted Active Directory environment prohibits connection to the proxy service, resulting in a failed scan.
+__CAUTION:__ For all Active Directory versions, aside from Windows 2012 R2, the silent installer does not prompt an error message if a duplicate SPN value exists in the targeted domain for [Option 1: Run as LocalSystem](#option-1-run-as-localsystem). Having duplicate SPN’s in the targeted Active Directory environment prohibits connection to the proxy service, resulting in a failed scan.
 
 If a desired SPN already exists in a Windows 2012 R2 domain, the silent installer displays the following message:
 

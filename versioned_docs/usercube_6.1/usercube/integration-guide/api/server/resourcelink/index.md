@@ -1,6 +1,6 @@
 # ResourceLink
 
-### /api/ResourceLink/Incremental/{type}/{property}/{date}
+### /api/ResourceLink/Incremental/`{type}`/`{property}`/`{date}`
 
 #### Get
 

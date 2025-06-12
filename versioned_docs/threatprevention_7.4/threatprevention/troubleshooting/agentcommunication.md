@@ -8,7 +8,7 @@ If the Agent is not communicating with the Enterprise Manager, the following que
   - Alternatively, have an ‘inbound’ rule to ‘allow connection’ (General tab) for the Agent, (default path is `…\Netwrix\Threat Prevention\SIWindowsAgent\SIWindowsAgent.exe`) specified on the __Program and Services__ tab along with selecting the __This Program__ radio button.
 - Does the server where the Agent has been deployed have multiple network adapters (multi-homed)?
 
-  - If yes, then the Agent is likely trying to communicate with the Enterprise Manager through the wrong network. See the [Bind To](#Bind-To) topic to resolve this issue.
+  - If yes, then the Agent is likely trying to communicate with the Enterprise Manager through the wrong network. See the [Bind To](#bind-to) topic to resolve this issue.
 
 Please contact [Netwrix Support](https://www.netwrix.com/support.html) if these recommendations do not resolve the issue.
 

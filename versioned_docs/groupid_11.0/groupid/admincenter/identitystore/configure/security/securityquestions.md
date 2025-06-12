@@ -7,9 +7,9 @@ To enroll using security questions, identity store users must select a certain n
 
 What do you want to do?
 
-- [Add a Question to the Local Pool from the Global Pool](#Add-a-Question-to-the-Local-Pool-from-the-Global-Pool)
-- [Add a Question of your Choice to the Local Pool](#Add-a-Question-of-your-Choice-to-the-Local-Pool)
-- [Remove a Question from the Local Pool](#Remove-a-Question-from-the-Local-Pool)
+- [Add a Question to the Local Pool from the Global Pool](#add-a-question-to-the-local-pool-from-the-global-pool)
+- [Add a Question of your Choice to the Local Pool](#add-a-question-of-your-choice-to-the-local-pool)
+- [Remove a Question from the Local Pool](#remove-a-question-from-the-local-pool)
 
 ## Add a Question to the Local Pool from the Global Pool
 

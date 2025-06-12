@@ -10,11 +10,11 @@ __NOTE:__ Enterprise Auditor does not scan for AIP Marking labels, only Protecti
 
 Before the Enterprise Auditor File System solution can scan for Azure Information Protection (AIP) labels, certain prerequisites are required both in Enterprise Auditor and Azure environments.
 
-1. [Rights Management Service Client Installation](#Rights-Management-Service-Client-Installation)
-2. [Create a Service Principal Account using PowerShell](#Create-a-Service-Principal-Account-using-PowerShell)
-3. [Enable the Account as an AIP Super User using PowerShell](#Enable-the-Account-as-an-AIP-Super-User-using-PowerShell)
-4. [Add User to the AIP Role in Microsoft® Azure](#Add-User-to-the-AIP-Role-in-Microsoft-Azure)
-5. [Enterprise Auditor Configurations](#Enterprise-Auditor-Configurations)
+1. [Rights Management Service Client Installation](#rights-management-service-client-installation)
+2. [Create a Service Principal Account using PowerShell](#create-a-service-principal-account-using-powershell)
+3. [Enable the Account as an AIP Super User using PowerShell](#enable-the-account-as-an-aip-super-user-using-powershell)
+4. [Add User to the AIP Role in Microsoft® Azure](#add-user-to-the-aip-role-in-microsoft-azure)
+5. [Enterprise Auditor Configurations](#enterprise-auditor-configurations)
 6. Enable settings in FSAA Data Collector in Enterprise Auditor.
 
    - See the FileSystemAccess Data Collector section in the [File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information
@@ -86,7 +86,7 @@ Import-Module AIPService
 
 __Step 2 –__ Connect to Azure using the ```Connect-AIPService``` command and supply Azure credentials in the __Sign in to your account__ window that displays from Microsoft.
 
-__Step 3 –__ Add the service principal to the Azure AD Rights Management service super users, using the AppPrincipalID saved from the steps in the [Create a Service Principal Account using PowerShell](#Create-a-Service-Principal-Account-using-PowerShell) section:
+__Step 3 –__ Add the service principal to the Azure AD Rights Management service super users, using the AppPrincipalID saved from the steps in the [Create a Service Principal Account using PowerShell](#create-a-service-principal-account-using-powershell) section:
 
 ```
 Add-AipServiceSuperUser-ServicePrincipalID <AppPrincipalID>
@@ -116,8 +116,8 @@ The Service Principal Account is now successfully added to the Azure Information
 
 Before Enterprise Auditor can scan for AIP labels, two configurations must be done prior to the initial scan.
 
-- [Azure Connection Profile ](#Azure-Connection-Profile)
-- [Configure FSAA Data Collector](#Configure-FSAA-Data-Collector)
+- [Azure Connection Profile ](#azure-connection-profile)
+- [Configure FSAA Data Collector](#configure-fsaa-data-collector)
 
 ### Azure Connection Profile
 
@@ -127,7 +127,7 @@ __Step 1 –__ In Enterprise Auditor, add a credential for an Azure Active Direc
 
 __Step 2 –__ At the job level, apply the connection profile that contains both the Microsoft Entra ID credential and credentials required for File System scanning under the __Jobs__ > [__Job__] > __Settings__ > __Connection__ node.
 
-__Step 3 –__ Ensure that the job is configured correctly before running a scan. See the [Configure FSAA Data Collector](#Configure-FSAA-Data-Collector) topic for additional information.
+__Step 3 –__ Ensure that the job is configured correctly before running a scan. See the [Configure FSAA Data Collector](#configure-fsaa-data-collector) topic for additional information.
 
 An Azure Connection Profile has now been successfully created for an FSAA scan.
 

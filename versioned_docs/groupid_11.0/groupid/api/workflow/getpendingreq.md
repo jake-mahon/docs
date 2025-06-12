@@ -1,6 +1,6 @@
 # Get Pending Requests
 
-Use this API to retrieve information about all those requests with pending status provided you have the required permissions to manage all requests. See the [Miscellaneous](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#Miscellaneous) section of the [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md) topic.
+Use this API to retrieve information about all those requests with pending status provided you have the required permissions to manage all requests. See the [Miscellaneous](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#miscellaneous) section of the [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md) topic.
 
 ## Endpoint
 

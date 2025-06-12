@@ -8,7 +8,7 @@ NOTE: Pages and fields on the Create Mailbox wizard may vary from those discusse
 
 What do you want to do?
 
-- [Create a mailbox in an Microsoft Entra ID](#Create-a-mailbox-in-an-MicrosoftEntra-ID)
+- [Create a mailbox in an Microsoft Entra ID](#create-a-mailbox-in-an-microsoftentra-id)
 
 ## Create a mailbox in an Microsoft Entra ID
 

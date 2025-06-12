@@ -9,7 +9,7 @@ This page lists expired groups. A group expires when:
 
 Expired groups are locked for all activities until renewed.
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Modify-Search-Directory) to search expired groups and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Filter-All-Groups) by clicking __Expired Group Grid Filters__.
+You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search expired groups and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups) by clicking __Expired Group Grid Filters__.
 All the expired groups matching the filters will be displayed.
 
 __See Also__

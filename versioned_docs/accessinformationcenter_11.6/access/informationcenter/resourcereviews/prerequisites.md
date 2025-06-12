@@ -2,10 +2,10 @@
 
 Resource Reviews have the following prerequisites:
 
-- [Data Collection Prerequisites](#Data-Collection-Prerequisites)
-- [Automation Prerequisites](#Automation-Prerequisites)
+- [Data Collection Prerequisites](#data-collection-prerequisites)
+- [Automation Prerequisites](#automation-prerequisites)
 
-  - [Sensitive Data Review Automation](#Sensitive-Data-Review-Automation)
+  - [Sensitive Data Review Automation](#sensitive-data-review-automation)
 
 ## Data Collection Prerequisites
 
@@ -50,7 +50,7 @@ When the Access Information Center has been configured to commit Active Director
 - Permissions review — The resource must have an assigned Access Group for the access-level being modified (Read, Modify, or Full Control)
 - Sensitive Data review — There are no additional prerequisites
 
-  __CAUTION:__ Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive Data review, the Remove action cannot be automated through the Access Information Center. It must be manually done outside of the application. See the [Sensitive Data Review Automation](#Sensitive-Data-Review-Automation) topic for additional information.
+  __CAUTION:__ Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive Data review, the Remove action cannot be automated through the Access Information Center. It must be manually done outside of the application. See the [Sensitive Data Review Automation](#sensitive-data-review-automation) topic for additional information.
 
 See the [Access Groups](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
 

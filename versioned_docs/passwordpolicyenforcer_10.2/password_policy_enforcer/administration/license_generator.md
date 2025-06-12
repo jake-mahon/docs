@@ -23,4 +23,4 @@ The License Generator tool has the following features:
 - Users count — The number of users who will be granted permissions set in the license
 - Custom Data — This drop-down contains the option to classify this license as a enzoic-enabled license
 - Generate — Press this button to generate the license and save the .txt file.
-- Generate & open — Press this button to generate the license and open the .txt file. You will then be able to copy the entire license and import it into the Password Policy Enforcer. See the [Management Console](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/management_console.md#Management-Console) topic for additional information.
+- Generate & open — Press this button to generate the license and open the .txt file. You will then be able to copy the entire license and import it into the Password Policy Enforcer. See the [Management Console](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/management_console.md) topic for additional information.

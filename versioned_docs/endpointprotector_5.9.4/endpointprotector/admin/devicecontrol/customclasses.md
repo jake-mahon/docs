@@ -42,7 +42,7 @@ The device rights surpass all computer, group, and global rights.
 
 The user rights are on the same level as the computer rights. The priority can be set from the System Settings section.
 
-__NOTE:__ For detailed information, refer to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#System-Configuration) topic.
+__NOTE:__ For detailed information, refer to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#system-configuration) topic.
 
 Select an option to grant access for clients based on the Department Code. You can also view the Default Department code – defdep.
 
@@ -50,7 +50,7 @@ Select an option to grant access for clients based on the Department Code.
 
 You can also view the Default Department code - defdep.
 
-__NOTE:__ For detailed information, refer to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#System-Configuration) topic.
+__NOTE:__ For detailed information, refer to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#system-configuration) topic.
 
 ![Select an option to grant access for clients based on the Department Code](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/departmentusage.png)
 

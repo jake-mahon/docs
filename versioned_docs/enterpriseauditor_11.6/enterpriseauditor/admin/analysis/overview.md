@@ -9,7 +9,7 @@ Analysis tasks are configured through the Analysis Properties page. Navigate to 
 - Select __Create Analysis__ to add a new analysis task to a job
 - Select an existing analysis and click __Analysis Properties__ to modify its configuration
 
-See the [Analysis Selection Page](#Analysis-Selection-Page) and [Analysis Properties Page](#Analysis-Properties-Page) topics for additional information.
+See the [Analysis Selection Page](#analysis-selection-page) and [Analysis Properties Page](#analysis-properties-page) topics for additional information.
 
 The following table provides brief descriptions of the analysis modules available in Enterprise Auditor.
 

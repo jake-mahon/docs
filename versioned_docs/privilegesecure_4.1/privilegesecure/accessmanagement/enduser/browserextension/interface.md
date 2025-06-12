@@ -6,9 +6,9 @@ The browser extension interface can be launched at any time with the Netwrix Pri
 
 The browser interface has 3 tabs:
 
-- [Activities Tab for the Browser Extension](#Activities-Tab-for-the-Browser-Extension)
-- [Current Tab for Browser Extension](#Current-Tab-for-Browser-Extension)
-- [Settings Tab for Browser Extension](#Settings-Tab-for-Browser-Extension)
+- [Activities Tab for the Browser Extension](#activities-tab-for-the-browser-extension)
+- [Current Tab for Browser Extension](#current-tab-for-browser-extension)
+- [Settings Tab for Browser Extension](#settings-tab-for-browser-extension)
 
 ## Activities Tab for the Browser Extension
 

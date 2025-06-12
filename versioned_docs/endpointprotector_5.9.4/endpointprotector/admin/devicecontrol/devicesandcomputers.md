@@ -67,7 +67,7 @@ From this section, you can view the device history by selecting the View Device 
 
 From this section, you can ﬁlter, create, uninstall or delete a computer and use the Choose action option to create a Settings Report, Export List of Computers and Schedule Export list.
 
-You can download the Settings Report from System Maintenance, the [Exported Entities](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemmaintenance/overview.md#Exported-Entities) topic to view the Deep Packet Inspection status for each entity (Computer/User/Group) and the entity from which Deep Packet Inspection is used.
+You can download the Settings Report from System Maintenance, the [Exported Entities](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemmaintenance/overview.md#exported-entities) topic to view the Deep Packet Inspection status for each entity (Computer/User/Group) and the entity from which Deep Packet Inspection is used.
 
 Any new computer that has the Endpoint Protector Client deployed will be automatically added to the database, thus making it manageable.
 
@@ -77,7 +77,7 @@ The Endpoint Protector Client has a self-registration mechanism. This process is
 
 __NOTE:__ The self-registration mechanism acts whenever a change in the Computer licensing module is made, and also each time the application Client is reinstalled. The owner of the computer is not saved in the process of self-registration.
 
-For more details about Licensing, go to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#System-Configuration) topic.
+For more details about Licensing, go to the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#system-configuration) topic.
 
 A Computer is identiﬁed by the computer parameters (Main IP, IP List, MAC, Domain, Workgroup, Computer Serial Number or MachineUUID, OS version) but information like Name and Description is also essential.
 
@@ -89,8 +89,8 @@ You can manually create a new computer at any time by providing the computer par
 
 For more details about Active Directory, go to the [Directory Services](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/directoryservices/overview.md) topic. You can also assign the computers to the following for a better organization:
 
-- [Devices and Computers](#Devices-and-Computers) e.g., several computers within the same oﬃce
-- [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#System-Configuration) an alternative organization to Groups
+- [Devices and Computers](#devices-and-computers) e.g., several computers within the same oﬃce
+- [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#system-configuration) an alternative organization to Groups
 
 ### Computer Rights
 
@@ -102,7 +102,7 @@ The Standard device control rights include the Device Types and Already Existing
 
 In addition to the Standard device control rights, if enabled from the Global Settings, you can create fallback policies for Outside Network and Outside Hours circumstances.
 
-For detailed information on Device Types and Speciﬁc Devices (Standard, Outside Network, and Outside Hours), refer to the [Devices and Computers](#Devices-and-Computers)topic.
+For detailed information on Device Types and Speciﬁc Devices (Standard, Outside Network, and Outside Hours), refer to the [Devices and Computers](#devices-and-computers)topic.
 
 __NOTE:__ Use Restore Global Rights to revert to a lower level of rights. Once enabled, all rights on that level will be set to preserve global settings and the system will use the next level of rights.
 

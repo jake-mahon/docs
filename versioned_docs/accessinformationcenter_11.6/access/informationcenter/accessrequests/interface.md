@@ -2,8 +2,8 @@
 
 The Access Requests interface opened by the __Access Requests__ button on the Access Information Center Home page is where Request Administrators manage the Self-Service Access Requests workflow. The interface has two tabs:
 
-- [Pending Requests Tab](#Pending-Requests-Tab) – View pending requests and send reminders to owners
-- [Request History Tab](#Request-History-Tab) – View the audit trail of processed requests
+- [Pending Requests Tab](#pending-requests-tab) – View pending requests and send reminders to owners
+- [Request History Tab](#request-history-tab) – View the audit trail of processed requests
 
 For both tabs the interface also includes:
 

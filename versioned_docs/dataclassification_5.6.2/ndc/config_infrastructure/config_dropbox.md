@@ -9,7 +9,7 @@ You will need to create a Dropbox App and authorize it. Do the following:
 
 To create a new app
 
-To create a new app, you should sign in to Dropbox cloud using a Dropbox Business account with administrative rights. Refer to [Dropbox documentation](https://developer.box.com/guides/authentication/#Dropbox-documentation) for more information on the accounts and rights.
+To create a new app, you should sign in to Dropbox cloud using a Dropbox Business account with administrative rights. Refer to [Dropbox documentation](https://developer.box.com/guides/authentication/#dropbox-documentation) for more information on the accounts and rights.
 
 1. Navigate to [https://www.dropbox.com/developers/apps/create](https://www.dropbox.com/developers/apps/create)
 2. On the Choose an API step, select Scoped Access.

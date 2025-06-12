@@ -12,7 +12,7 @@ There are common and content-specific settings that you need to specify.
 
 These settings are the same for all supported sources.
 
-[![action_migration_common_settings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_migration_common_settings_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/action_migration_common_settings.png)
+[![action_migration_common_settings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_migration_common_settings_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/action_migration_common_settings.png)
 
 | Setting | Description | Comments |
 | --- | --- | --- |

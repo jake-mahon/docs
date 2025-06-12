@@ -8,5 +8,5 @@ Filters reduce the amount of data visible in a column imported to the resulting 
 
 - Edit – Opens the Filter window
 
-  - See the [Advanced Search](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#Advanced-Search) topic for additional information
+  - See the [Advanced Search](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#advanced-search) topic for additional information
 - Clear – Clears any specified filters

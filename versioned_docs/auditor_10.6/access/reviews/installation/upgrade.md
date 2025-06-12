@@ -1,6 +1,6 @@
 # Upgrade Procedure
 
-__CAUTION:__ If you are upgrading from the Netwrix Access Information Center for Netwrix Auditor to the Netwrix Auditor Access Reviews application, see the [Special Considerations ](#Special-Considerations) topic for upgrade steps.
+__CAUTION:__ If you are upgrading from the Netwrix Access Information Center for Netwrix Auditor to the Netwrix Auditor Access Reviews application, see the [Special Considerations ](#special-considerations) topic for upgrade steps.
 
 To upgrade the Access Reviews application to a newer version, simply run the new ```AccessReviews.msi``` executable. It is not necessary to uninstall the existing version. See the [Install](/versioned_docs/auditor_10.6/access/reviews/installation/install.md) topic for additional information.
 

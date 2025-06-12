@@ -38,8 +38,8 @@ There are three possible responses:
 
 | Response | Meaning |
 | --- | --- |
-| ```{"isEnrolled": true}``` | User is enrolled |
-| ```{"isEnrolled": false}``` | User is not enrolled or does not exist |
+| ``{"isEnrolled": true}`` | User is enrolled |
+| ``{"isEnrolled": false}`` | User is not enrolled or does not exist |
 | ```{}``` | System maintenance is running |
 
 The API may also return one of these HTTP errors:

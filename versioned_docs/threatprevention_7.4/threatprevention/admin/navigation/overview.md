@@ -20,9 +20,9 @@ The Administration Console has the following components:
 
 ![Threat Prevention Administration Console – Components](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/adminconsole.png)
 
-There are also right-click commands available within different sections of the [Policy Center](#Policy-Center).
+There are also right-click commands available within different sections of the [Policy Center](#policy-center).
 
-If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md#Troubleshooting-FAQs) topic for information.
+If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md#troubleshooting-faqs) topic for information.
 
 ## Menu
 
@@ -32,9 +32,9 @@ The Menu contains the following selections:
 
 | Menu Item | Option | Description |
 | --- | --- | --- |
-| File | New | Create new policies (Ctrl+P), new templates (Ctrl+T), or new folders (Ctrl+F) in the selected location of the [Policy Center](#Policy-Center) |
-|  | Rename | Opens a textbox to rename the selected policy, template, or folder in the [Policy Center](#Policy-Center) |
-|  | Remove | Removes the selected policy, template, or folder from the [Policy Center](#Policy-Center) |
+| File | New | Create new policies (Ctrl+P), new templates (Ctrl+T), or new folders (Ctrl+F) in the selected location of the [Policy Center](#policy-center) |
+|  | Rename | Opens a textbox to rename the selected policy, template, or folder in the [Policy Center](#policy-center) |
+|  | Remove | Removes the selected policy, template, or folder from the [Policy Center](#policy-center) |
 |  | Exit | Exit the Administration Console |
 | Tools | Export … | Export (Alt+X) policies and templates through the [Export Policies and Templates Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/exportpoliciestemplates.md) |
 |  | Import … | Import (Alt+I) policies/templates, collections, and event consumers/alerts from an exported file through the [Import Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/import.md) |

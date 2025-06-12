@@ -19,7 +19,7 @@ $decryptFile = & ./Usercube-Decrypt-File.exe --files $ordersFile
 | Argument Name | Details |
 | --- | --- |
 | --files (-f)   required | __Type__    String   __Description__ List of all the files to decrypt. |
-| --encoding (-e)   default value: UTF-8 | __Type__    String   __Description__ Encoding used for any encryption/decryption. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| --encoding (-e)   default value: UTF-8 | __Type__    String   __Description__ Encoding used for any encryption/decryption. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 | --output-path (-o)   optional | __Type__    String   __Description__ Output path to save all decrypted files.   __Note:__ used only when the result is saved in a file. |
 |  |  |
 | --- | --- |

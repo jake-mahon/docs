@@ -40,7 +40,7 @@ Export logs to a log management system by proceeding as follows:
         
     ```
 
-2. In the __Serilog__ section, add a __Using__ section to contain the used sink which depends on the logs' destination, output format, etc. [See the list of supported sinks](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#See-the-list-of-supported-sinks).
+2. In the __Serilog__ section, add a __Using__ section to contain the used sink which depends on the logs' destination, output format, etc. [See the list of supported sinks](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#see-the-list-of-supported-sinks).
 
    Concerning QRadar, NETWRIX strongly recommends using the JSON format, as it can be parsed by Usercube's DSM or easily by a homemade parser.
 
@@ -82,7 +82,7 @@ Export logs to a log management system by proceeding as follows:
    > }
    >
    > ```
-3. Add a __MinimumLevel__ section to define which logs are to be sent to the log management system. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#See-more-details).
+3. Add a __MinimumLevel__ section to define which logs are to be sent to the log management system. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#see-more-details).
 
    In order to be sent to any system, Usercube's logs must be configured with __MinimumLevel__ set to ```Information```, or lower.
 
@@ -147,7 +147,7 @@ Export logs to a log management system by proceeding as follows:
    >
    > ```
 
-   > For example, to produce an RFC5424 output for QRadar ([see more information about UdpSyslog attributes](https://github.com/IonxSolutions/serilog-sinks-syslog#see-more-information-about-UdpSyslog-attributes)):
+   > For example, to produce an RFC5424 output for QRadar ([see more information about UdpSyslog attributes](https://github.com/IonxSolutions/serilog-sinks-syslog#see-more-information-about-udpsyslog-attributes)):
    >
    > ```
    >
@@ -216,7 +216,7 @@ Export logs to a log management system by proceeding as follows:
    > }
    >
    > ```
-5. When needing to restrict the logs sent to the system, add a filter and wrap all __WriteTo__ configuration into a sub-logger, in which case the __Name__ at __WriteTo__'s root must be ```Logger```. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#See-more-details).
+5. When needing to restrict the logs sent to the system, add a filter and wrap all __WriteTo__ configuration into a sub-logger, in which case the __Name__ at __WriteTo__'s root must be ```Logger```. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md#see-more-details).
 
    For all formats, in order to send only the right logs using the specified filter, the __WriteTo__ part must contain a sub-logger with its own filter. Otherwise, the filter will be applied to all sinks.
      

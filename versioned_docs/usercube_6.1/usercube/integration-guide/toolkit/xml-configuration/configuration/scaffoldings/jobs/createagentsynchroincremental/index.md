@@ -23,12 +23,12 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 
 ## Child Elements
 
-- [AddTask](#AddTask) (optional) Add a task before or after another in the job
-- [CronTabExpression](#CronTabExpression) (optional) Schedule the job
-- [DoNotCreateJob](#DoNotCreateJob) (optional) Create only the tasks without the job
-- [FulfillInternalWorkflowsPath](#FulfillInternalWorkflowsPath) (optional) Add the path of the json configuration for a connector with IsWorkflowProvisioning set to true
-- [LinkDependTask](#LinkDependTask) (optional) Link a child Task with a parent to not launch the child if the parent has finish with state warning
-- [OpenIdIdentifier](#OpenIdIdentifier) (optional) Add a Open Id to the job and the tasks
+- [AddTask](#addtask) (optional) Add a task before or after another in the job
+- [CronTabExpression](#crontabexpression) (optional) Schedule the job
+- [DoNotCreateJob](#donotcreatejob) (optional) Create only the tasks without the job
+- [FulfillInternalWorkflowsPath](#fulfillinternalworkflowspath) (optional) Add the path of the json configuration for a connector with IsWorkflowProvisioning set to true
+- [LinkDependTask](#linkdependtask) (optional) Link a child Task with a parent to not launch the child if the parent has finish with state warning
+- [OpenIdIdentifier](#openididentifier) (optional) Add a Open Id to the job and the tasks
 
 ### AddTask
 

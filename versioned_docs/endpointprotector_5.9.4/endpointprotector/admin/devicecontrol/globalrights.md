@@ -41,7 +41,7 @@ Depending on the device type, besides the Allow and Deny Access rights, addition
 
 The Trusted Device™ technology integrated within Endpoint Protector is available in four security levels, depending on the degree of protection offered by a device (trusted devices using Enforced Encryption are TD level 1).
 
-For detailed information on Trusted Device™ and Enforced Encryption, refer to the [Trusted Device™](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/enforcedencryption/module.md#Trusted-Device) topic.
+For detailed information on Trusted Device™ and Enforced Encryption, refer to the [Trusted Device™](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/enforcedencryption/module.md#trusted-device) topic.
 
 __NOTE:__ With the WiFi – Block if wired network is present option you can disable the WiFi connection, while a wired network connection is present. The WiFi connection will be available when the wired network is not present.
 
@@ -95,7 +95,7 @@ __NOTE:__ Although this feature can work in situations where the Serial Number r
 
 ![Add up to 1000 devices at the same time](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/bulkdevices.png)
 
-The File Allowlist feature is also available for USB storage devices that have allowed access. For detailed information on using the File Allowlist, refer to the File [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#Denylists-and-Allowlists) topic.
+The File Allowlist feature is also available for USB storage devices that have allowed access. For detailed information on using the File Allowlist, refer to the File [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#denylists-and-allowlists) topic.
 
 ## Outside Network
 

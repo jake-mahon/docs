@@ -22,7 +22,7 @@ Implementing this connector requires:
 - knowledge of scripting in PowerShell 5.1 or later, [see here PowerShell's requirements](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements);
 - making sure that the device hosting the agent has its execution policy properly configured to execute the given PowerShell script;
 - checking the targeted system's requirements (environment, libraries, etc.), as this connector is meant to connect Usercube to a PowerShell-compatible system;
-- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#NETWRIX-guidelines-below).
+- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#netwrix-guidelines-below).
 
 ## Export
 
@@ -84,7 +84,7 @@ Usercube provides a few variables to be used in the PowerShell script.
 
 | Name | Details |
 | --- | --- |
-| OutputPath | __Type__    String   __Description__ Prefix of the path of the generated CSV file.   __Info:__ the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. __Value__ [```<TempFolderPath>```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#TempFolderPath)```/ExportOutput/<connectionIdentifier>_``` __Example__ In this example, if the temp folder is named ```Temp``` and the connection ```PowerShellExport```, then the generated file is: ```Temp/ExportOutput/PowerShellExport_users.csv```. ``` generateCSV | Export-CSV ($OutputPath + "users.csv") ``` where ```generateCSV``` is a generic PowerShell method that generates CSV files. |
+| OutputPath | __Type__    String   __Description__ Prefix of the path of the generated CSV file.   __Info:__ the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. __Value__ [```<TempFolderPath>```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#tempfolderpath)```/ExportOutput/<connectionIdentifier>_``` __Example__ In this example, if the temp folder is named ```Temp``` and the connection ```PowerShellExport```, then the generated file is: ```Temp/ExportOutput/PowerShellExport_users.csv```. ``` generateCSV | Export-CSV ($OutputPath + "users.csv") ``` where ```generateCSV``` is a generic PowerShell method that generates CSV files. |
 | IsIncremental | __Type__    Boolean   __Description__ Variable to be used to provide a different behavior for complete and incremental synchronization. |
 
 ## Fulfill

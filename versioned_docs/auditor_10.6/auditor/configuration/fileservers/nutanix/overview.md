@@ -13,7 +13,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - For the first Nutanix File Server you configure for auditing, the __TCP 9898__ port will be used.
     - For each subsequent server, a new TCP port must be open.
-  - Target Nutanix File Server must be located in the same subnet as Netwrix Auditor Server and must be configured as described in the [Nutanix](#Nutanix) section.
+  - Target Nutanix File Server must be located in the same subnet as Netwrix Auditor Server and must be configured as described in the [Nutanix](#nutanix) section.
 
 ## Manual Configuration
 
@@ -25,7 +25,7 @@ __Step 2 –__ Open a port for inbound connections. See the [Nutanix Ports](/ver
 
 In addition, configure the Auditor console server as a partner server for Nutanix Files, and create a notification policy to make Netwrix Auditor aware of the Nutanix events. These operations can be performed in any of the following ways:
 
-- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+- Automatically when creating a monitoring plan. For that, you should select the __Adjust audit settings automatically__ option in the monitoring plan wizard. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 - Manually, as described in the corresponding topics:
   - [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
   - [Create a Notification Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/notificationpolicy.md)

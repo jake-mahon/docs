@@ -14,7 +14,7 @@ Workflow
 __Step 1 –__ Ensure the following prerequisites are met:
 
 - The .Active Directory Inventory Job Group needs to be successfully run
-- For the AD\_DeprovisionUsers Job, the target OU needs to be manually set in the Move Users Action Task prior to executing the actions. See the [Action Tasks for the AD\_DeprovisionUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md#Action-Tasks-for-the-AD_DeprovisionUsers-Job) topic for additional information.
+- For the AD\_DeprovisionUsers Job, the target OU needs to be manually set in the Move Users Action Task prior to executing the actions. See the [Action Tasks for the AD\_DeprovisionUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md#action-tasks-for-the-ad_deprovisionusers-job) topic for additional information.
 - The AD\_DeprovisionUsers Job needs to be run prior to running the AD\_DeprovisionUsers\_Status Job
 
 __Step 2 –__ Schedule the 2.Users Job Group to run as desired after the prerequisites have been satisfied.

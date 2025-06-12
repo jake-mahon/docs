@@ -4,7 +4,7 @@ This guide shows how to set a template other than the default one for native not
 
 ## Overview
 
-Usercube natively sends notifications for usual cases. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/notifications/native/index.md#See-more-details).
+Usercube natively sends notifications for usual cases. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/notifications/native/index.md#see-more-details).
 
 These native notifications are based on cshtml templates available inside the ```Runtime``` folder. If the provided templates do not meet your exact needs, then they can be replaced by personalized templates.
 

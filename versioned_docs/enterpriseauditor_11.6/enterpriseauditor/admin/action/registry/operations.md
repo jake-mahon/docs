@@ -51,14 +51,14 @@ The options are:
 
 - Select this object type – Displays types that are queried against
 
-  - Click __Object Types__ to open the Object Types window and select the types to query against. See the [Object Types Window](#Object-Types-Window) topic for additional information.
+  - Click __Object Types__ to open the Object Types window and select the types to query against. See the [Object Types Window](#object-types-window) topic for additional information.
 - From this location – Displays the location the intended objects are found
 
-  - Click __Locations__ to open the Locations window and set the location to be queried. See the [Locations Window](#Locations-Window) topic for additional information.
+  - Click __Locations__ to open the Locations window and set the location to be queried. See the [Locations Window](#locations-window) topic for additional information.
 - Enter the object names to select – Select names of objects to query
 
   - Click __Check Names__ to confirm the selected manually-entered object name is viable
-- Advanced – Click __Advanced__ to open an advanced version of the Select Users and Groups Window and further configure the query. See the [Advanced Select Users and Groups Window](#Advanced-Select-Users-and-Groups-Window) topic for additional information.
+- Advanced – Click __Advanced__ to open an advanced version of the Select Users and Groups Window and further configure the query. See the [Advanced Select Users and Groups Window](#advanced-select-users-and-groups-window) topic for additional information.
 
 ### Object Types Window
 
@@ -97,7 +97,7 @@ This window contains the same options as the main Select Users or Groups window,
       - Starts with
       - Is exactly
     - Manually enter the name
-- Columns – Click __Columns__ to open the Choose Columns window. See the [Choose Columns Window](#Choose-Columns-Window) topic for additional information.
+- Columns – Click __Columns__ to open the Choose Columns window. See the [Choose Columns Window](#choose-columns-window) topic for additional information.
 - Find now – Click __Find Now__ to search for objects matching the selected criteria
 - Stop – While a search is running , the __Stop__ button is available. Click __Stop__ to halt the search before it is completed.
 - Search Results – Displays results from a search

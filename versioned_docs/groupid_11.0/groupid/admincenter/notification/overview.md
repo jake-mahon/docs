@@ -16,9 +16,9 @@ stay in the queue until they are delivered when the SMTP server is up again.
 By default, notifications are sent to users in the English language. However, a user can opt to receive notifications in a different language by personalizing the language settings from the __Settings__ panel in
 the portal. This setting applies to all GroupID notifications, except in the following cases, where users continue to receive notifications in English:
 
-- Users whose email addresses are specified in the __To__ and __CC__ boxes on the __Notifications__ page. See the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Specify-Notification-Recipients) topic.
-- Users whose email addresses are specified in the __Send Notification to the following email IDs__ box in the notification settings of a Smart Group Update schedule. See step 12 in the [Create a Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md#Create-a-Smart-Group-Update-Schedule) topic.
-- Users whose email addresses are specified in the __Send notification to the following email IDs__ box in the notification settings of a Reports schedule. See step 11 in the [Create a Reports Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/reports.md#Create-a-Reports-Schedule) topic.
+- Users whose email addresses are specified in the __To__ and __CC__ boxes on the __Notifications__ page. See the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients) topic.
+- Users whose email addresses are specified in the __Send Notification to the following email IDs__ box in the notification settings of a Smart Group Update schedule. See step 12 in the [Create a Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md#create-a-smart-group-update-schedule) topic.
+- Users whose email addresses are specified in the __Send notification to the following email IDs__ box in the notification settings of a Reports schedule. See step 11 in the [Create a Reports Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/reports.md#create-a-reports-schedule) topic.
 
 __See Also__
 

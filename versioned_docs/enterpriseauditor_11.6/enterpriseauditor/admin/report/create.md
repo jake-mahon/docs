@@ -4,8 +4,8 @@ Creating and customizing reports allows you to design outputs uniquely crafted t
 
 You can add additional reports by the following methods:
 
-- [Create a Custom Report](#Create-a-Custom-Report)
-- [Copy an Existing Report](#Copy-an-Existing-Report)
+- [Create a Custom Report](#create-a-custom-report)
+- [Copy an Existing Report](#copy-an-existing-report)
 
 __NOTE:__ It is important to consider whether a report should be added to an existing job, or a new job created to generate the report. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional information on report outputs.
 

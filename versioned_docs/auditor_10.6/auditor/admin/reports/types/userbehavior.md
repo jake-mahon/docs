@@ -11,7 +11,7 @@ The User Behavior and Blind Spot Analysis report pack contains a set of smart re
 
 Analytics reports can be found in the User Behavior and Blind Spot Analysis folder under the Predefined node.
 
-[![userbehaviorblindspotanalysis](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/userbehaviorblindspotanalysis.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/userbehaviorblindspotanalysis.png)
+![userbehaviorblindspotanalysis](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/userbehaviorblindspotanalysis.png)
 
 If you are sure that some audit data is missing (e.g., you do not see information on your file servers in reports and search results), verify that the Audit Database settings are configured and that data is written to databases that reside on the default SQL Server instance.
 

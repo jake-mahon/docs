@@ -22,10 +22,10 @@ Here, the second server is disabled while the first one is enabled. A disabled s
 
 What do you want to do?
 
-- [Explore a server – card view](#Explore-a-server-card-view)
-- [View file/folder permissions](#View-filefolder-permissions)
-- [Search shared files and folders on the server](#Search-shared-files-and-folders-on-the-server)
-- [How GroupID Entitlement displays permissions](#How-GroupID-Entitlement-displays-permissions)
+- [Explore a server – card view](#explore-a-server-card-view)
+- [View file/folder permissions](#view-filefolder-permissions)
+- [Search shared files and folders on the server](#search-shared-files-and-folders-on-the-server)
+- [How GroupID Entitlement displays permissions](#how-groupid-entitlement-displays-permissions)
 
 ## Explore a server – card view
 

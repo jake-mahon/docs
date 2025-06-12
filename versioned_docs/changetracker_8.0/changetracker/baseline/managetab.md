@@ -29,13 +29,13 @@ __Note:__ The Date and Time filters will be fixed and set according to the time 
 
 Baseline Exceptions
 
-Exceptions include any failures according the Baseline Policy used in the report, together with any new changes affecting the Baseline Policy referenced from the Source device (or if you have chosen to include changes from Member Devices too, these will also appear here – [see earlier section](/versioned_docs/changetracker_8.0/changetracker/baseline/policywizard.md#see-earlier-section) regarding the Baseline Setup Wizard and the step where you are asked to 'Specify Source'.
+Exceptions include any failures according the Baseline Policy used in the report, together with any new changes affecting the Baseline Policy referenced from the Source device (or if you have chosen to include changes from Member Devices too, these will also appear here – see the [Baseline Policy Wizard](policywizard.md) regarding the Baseline Setup Wizard and the step where you are asked to 'Specify Source'.
 
 In this example we are using the default operation of only including changes originating from the Source Device for this Baseline Policy. This shows that there has been an update to the version of Google Chrome being used on this device, so this is highlighted and offered as a change that may need to be promoted to the Baseline Policy.
 
 Rule Operations:
 
-There are three choices for modifying a Baseline Policy, Extend, Add and Delete. You can also use the [Rule Edit function](/versioned_docs/changetracker_8.0/changetracker/baseline/policywizard.md#Rule-Edit-function) back in the Setup tab if you want to remove an existing rule entirely. The functions are largely self-explanatory, but tips are provided if you hover over each button.
+There are three choices for modifying a Baseline Policy, Extend, Add and Delete. You can also use the Edit Rules option back in the Setup tab if you want to remove an existing rule entirely. The functions are largely self-explanatory, but tips are provided if you hover over each button.
 
 ![baselineruleoperations](/img/versioned_docs/changetracker_8.0/changetracker/baseline/baselineruleoperations.png)
 

@@ -42,9 +42,9 @@ When a license expires, its respective functions get read-only but you can confi
 
 What do you want to do?
 
-- [Add a License](#Add-a-License)
-- [Update a License](#Update-a-License)
-- [Remove a License](#Remove-a-License)
+- [Add a License](#add-a-license)
+- [Update a License](#update-a-license)
+- [Remove a License](#remove-a-license)
 
 ## Add a License
 

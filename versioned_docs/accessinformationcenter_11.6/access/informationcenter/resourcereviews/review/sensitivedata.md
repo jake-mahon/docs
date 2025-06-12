@@ -12,7 +12,7 @@ The table displays files where potentially sensitive data has been found on the 
 - Size – Size of the file
 - Last Modified – Last modified date timestamp of the file from scanned the file details
 - Owner – Owner of the file from scanned the file details
-- Criteria – Name of the criteria with match hits found within the file. The hyperlink opens the Criteria Matches window. See the [Criteria Matches Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/criteriamatches.md#Criteria-Matches-Window) topic for additional information.
+- Criteria – Name of the criteria with match hits found within the file. The hyperlink opens the Criteria Matches window. See the [Criteria Matches Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/criteriamatches.md) topic for additional information.
 
 __Step 2 –__ For each file listed, make a recommendation by clicking on the icon in either the Keep, Remove, or Not Sensitive column. Your selection is indicated by a yellow checkmark.
 

@@ -13,8 +13,8 @@ With multiple instances of GroupID, multiple Admin Centers and Management Shells
 
 What do you want to do?
 
-- [Generate the Consumer URL for a GroupID Client](#Generate-the-Consumer-URL-for-a-GroupID-Client)
-- [Generate Entity ID/Audience URL](#Generate-Entity-IDAudience-URL)
+- [Generate the Consumer URL for a GroupID Client](#generate-the-consumer-url-for-a-groupid-client)
+- [Generate Entity ID/Audience URL](#generate-entity-idaudience-url)
 
 ## Generate the Consumer URL for a GroupID Client
 

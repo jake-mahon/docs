@@ -8,7 +8,7 @@ _Remember,_  a “resource” refers to the file system shared folders, SharePoi
 
 “Owners” are the users who are responsible for reviewing access to the resources to which they are assigned.
 
-The My Reviews interface provides owners with access to historical and pending reviews. The My Reviews interface is only accessible to users who have been assigned ownership of at least one resource. Owners without a console user role are directed to the My Reviews interface at login. Owners with a console user role access the pending and historical reviews for their resources by clicking the My Reviews tab. See the [Pending Reviews](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/pendingreviews.md#Pending-Reviews) topic for additional information.
+The My Reviews interface provides owners with access to historical and pending reviews. The My Reviews interface is only accessible to users who have been assigned ownership of at least one resource. Owners without a console user role are directed to the My Reviews interface at login. Owners with a console user role access the pending and historical reviews for their resources by clicking the My Reviews tab. See the [Pending Reviews](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/pendingreviews.md) topic for additional information.
 
 Who Can Assign Ownership (Ownership Administrators)?
 
@@ -47,7 +47,7 @@ __NOTE:__ This workflow is not numbered because the Notification piece can occur
 
 - Add resources to be managed by associating a business data owner with a resource. See the [Add New Resource Wizard](/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/add.md) topic for additional information.
 - Confirm resource ownership. See the [Ownership Confirmation](/versioned_docs/auditor_10.6/access/reviews/resourceowners/confirmation.md) topic for additional information.
-- Notify owners of their responsibilities. See the [Notification to Owners](#Notification-to-Owners) topic for additional information.
+- Notify owners of their responsibilities. See the [Notification to Owners](#notification-to-owners) topic for additional information.
 
 ## Notification to Owners
 

@@ -42,7 +42,7 @@ Super Administrator Details
 
 ## Administrator Types
 
-The Super Administrator has complete control over the entire system. By enabling the Import users as super administrators settings in the [Administration and Access Control](#Administration-and-Access-Control) section, you can grant Super Administrator privilege to all Azure Single Sign On imported users.
+The Super Administrator has complete control over the entire system. By enabling the Import users as super administrators settings in the [Administration and Access Control](#administration-and-access-control) section, you can grant Super Administrator privilege to all Azure Single Sign On imported users.
 
 Super Administrators have access to the General Dashboard, can control Live Updates, can run Effective Rights reports, can manage Device Control, can manage Content Aware Protection including Deep Packet Inspection, can manage eDiscovery, can manage Denylists, Allowlists, and URL Categories, can manage Enforced Encryption, can manage Oﬄine Temporary Password, can view Reporting and Statistics, manage and view Administrative Actions, manage and view Alerts, manage and view Directory Services, manage and view Appliance Conﬁguration and SIEM Integration, manage and view System Maintenance, manage and view Systems Conﬁguration, download and view Client Software (including Upgrade), manage system parameters , and download and view Client Software (including Upgrade).
 
@@ -130,6 +130,6 @@ Each entity (e.g.: computer) must belong to a department. When deploying the End
 
 Example: Computer Test-PC is registered to the department “developers”. In this case, the user Test logged on that computer will be assigned to the same department together with the devices connected on the computer Test-PC.
 
-Super Administrators (e.g.: root) (see [Administrator Types](#Administrator-Types)) will have access to all the main entities regardless of their departments. They will also be able to create departments, as well as Normal Administrators or Administrators with other roles. Super Administrators will also be responsible for assigning administrators to manage departments.
+Super Administrators (e.g.: root) (see [Administrator Types](#administrator-types)) will have access to all the main entities regardless of their departments. They will also be able to create departments, as well as Normal Administrators or Administrators with other roles. Super Administrators will also be responsible for assigning administrators to manage departments.
 
 A regular administrator can only manage the departments it was assigned to. It cannot see entities relating to other departments.

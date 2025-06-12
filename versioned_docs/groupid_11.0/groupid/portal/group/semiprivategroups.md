@@ -3,7 +3,7 @@
 This view lists only the semi-private groups created using GroupID in the connected identity store. It does not list expired or deleted semi private groups. To view the expired or deleted groups, select the [Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allexpiredgroups.md) or
 [Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/recyclebin/overview.md) respectively.
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Modify-Search-Directory) to search semi private groups and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Filter-All-Groups) by clicking __Private Group Grid Filters__.
+You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search semi private groups and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups) by clicking __Private Group Grid Filters__.
 All the semi private groups matching the filters will be displayed.
 
 __See Also__

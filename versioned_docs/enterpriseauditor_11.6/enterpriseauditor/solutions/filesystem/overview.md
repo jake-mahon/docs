@@ -34,7 +34,7 @@ The File System Solution requires a special Enterprise Auditor license. It can b
 
 The [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/overview.md) collects the data. The other job groups run analysis on the collected data. The [FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md) generates a statistical overview report of the targeted file systems.
 
-__NOTE:__ The [Cleanup Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md) and the [Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md) require additional licenses to function. See the [Job Groups](#Job-Groups) topic for additional information.
+__NOTE:__ The [Cleanup Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md) and the [Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md) require additional licenses to function. See the [Job Groups](#job-groups) topic for additional information.
 
 ## Job Groups
 

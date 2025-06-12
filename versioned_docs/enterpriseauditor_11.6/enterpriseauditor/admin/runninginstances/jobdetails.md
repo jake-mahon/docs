@@ -52,7 +52,7 @@ You can filter what messages display by using the three filters in the message p
 
 ![Custom Filter window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/jobdetailshistorycustomfilter.png)
 
-If you select Custom, you can create a complex filter. See the [Custom Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#Custom-Filter) topic for additional information.
+If you select Custom, you can create a complex filter. See the [Custom Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#custom-filter) topic for additional information.
 
 ## Queued Jobs Tab
 

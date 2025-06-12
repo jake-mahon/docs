@@ -8,8 +8,8 @@ Navigate to the Netwrix website at [Netwrix Auditor Virtual Appliance](https://w
 
 Review the following for additional information:
 
-- [Virtual Deployment](#Virtual-Deployment)
-- [Available Configurations](#Available-Configurations)
+- [Virtual Deployment](#virtual-deployment)
+- [Available Configurations](#available-configurations)
 
 ## Virtual Deployment
 
@@ -17,7 +17,7 @@ This section explains how to import a virtual machine with installed Auditor to 
 
 Review the following for additional information:
 
-- [Requirements to Deploy Virtual Appliance](#Requirements-to-Deploy-Virtual-Appliance)
+- [Requirements to Deploy Virtual Appliance](#requirements-to-deploy-virtual-appliance)
 - [Import Virtual Machine from Image to VMware](/versioned_docs/auditor_10.6/auditor/install/virtualappliance/importvmware.md)
 - [Import Virtual Machine from Image to Hyper-V ](/versioned_docs/auditor_10.6/auditor/install/virtualappliance/importhyperv.md)
 

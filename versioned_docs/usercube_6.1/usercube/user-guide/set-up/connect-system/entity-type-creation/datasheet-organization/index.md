@@ -30,7 +30,7 @@ Organize resources' datasheets by proceeding as follows:
 
    ![Display Group Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/entitytypecreation_displaygroups_fields_v603.png)
 
-   - ```Identifier```: must be unique among display groups, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure).
+   - ```Identifier```: must be unique among display groups, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
    - ```Name```: will be displayed in the UI to indicate the property group.
    > For example:
    >

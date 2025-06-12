@@ -9,10 +9,10 @@ The Password policy also enables you to manage settings related to security ques
 
 What do you want to do?
 
-- [Set Password Restrictions and Rules for an Identity Store](#Set-Password-Restrictions-and-Rules-for-an-Identity-Store)
-- [Define Security Question Settings for a Security Role](#Define-Security-Question-Settings-for-a-Security-Role)
-- [Specify an Authentication Lockout Policy for a Security Role](#Specify-an-Authentication-Lockout-Policy-for-a-Security-Role)
-- [Specify Password Validation Checks for a Security Role](#Specify-Password-Validation-Checks-for-a-Security-Role)
+- [Set Password Restrictions and Rules for an Identity Store](#set-password-restrictions-and-rules-for-an-identity-store)
+- [Define Security Question Settings for a Security Role](#define-security-question-settings-for-a-security-role)
+- [Specify an Authentication Lockout Policy for a Security Role](#specify-an-authentication-lockout-policy-for-a-security-role)
+- [Specify Password Validation Checks for a Security Role](#specify-password-validation-checks-for-a-security-role)
 
 ## Set Password Restrictions and Rules for an Identity Store
 

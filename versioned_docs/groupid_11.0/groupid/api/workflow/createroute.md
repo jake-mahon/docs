@@ -10,7 +10,7 @@ Use this API to create a new workflow route. To create a workflow, you have to s
 - Filter - a condition that prevents the workflow from triggering, even when the object, event, and field criterion is met.
 - Approver - the object to send the workflow request for approval.
 
-See the [Create a New Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#Create-a-New-Workflow) section of the [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md) topic for additional information.
+See the [Create a New Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#create-a-new-workflow) section of the [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md) topic for additional information.
 
 ## Endpoint
 

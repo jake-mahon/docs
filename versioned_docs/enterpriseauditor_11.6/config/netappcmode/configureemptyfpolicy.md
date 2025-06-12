@@ -2,13 +2,13 @@
 
 The credential used to just run Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans requires access to the specified API calls as well as association to an FPolicy. Therefore, it is necessary to:
 
-- [Create Security Role for FSAA Scans](#Create-Security-Role-for-FSAA-Scans)
-- [Create Security Login for FSAA Scans](#Create-Security-Login-for-FSAA-Scans)
-- [Create External Engine for Empty FPolicy](#Create-External-Engine-for-Empty-FPolicy)
-- [Create FPolicy Event for Empty FPolicy](#Create-FPolicy-Event-for-Empty-FPolicy)
-- [Create Empty FPolicy Policy](#Create-Empty-FPolicy-Policy)
-- [Create Empty FPolicy Scope](#Create-Empty-FPolicy-Scope)
-- [Enable the Empty FPolicy](#Enable-the-Empty-FPolicy)
+- [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans)
+- [Create Security Login for FSAA Scans](#create-security-login-for-fsaa-scans)
+- [Create External Engine for Empty FPolicy](#create-external-engine-for-empty-fpolicy)
+- [Create FPolicy Event for Empty FPolicy](#create-fpolicy-event-for-empty-fpolicy)
+- [Create Empty FPolicy Policy](#create-empty-fpolicy-policy)
+- [Create Empty FPolicy Scope](#create-empty-fpolicy-scope)
+- [Enable the Empty FPolicy](#enable-the-empty-fpolicy)
 
 __NOTE:__ The commands in the following sections have been verified for NetApp Data ONTAP 9.6+. Users of older versions should consult the NetApp documentation to find the appropriate syntax.
 
@@ -88,7 +88,7 @@ Once the access control role has been created, apply it to a domain account.
 
 __CAUTION:__
 
-- The SVM used in the following command must be the same SVM used when creating the role. See the [Create Security Role for FSAA Scans](#Create-Security-Role-for-FSAA-Scans) topic for additional information.
+- The SVM used in the following command must be the same SVM used when creating the role. See the [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans) topic for additional information.
 
   __CAUTION:__ Cluster-Mode is case sensitive.
 - It is recommended to use lowercase for both domain and username. The case of domain and username created during the account provisioning process must match exactly to the credentials provided to the Enterprise Auditor for authentication to work.
@@ -225,10 +225,10 @@ The FPolicy policy associates the other three FPolicy components and allows for 
 IMPORTANT:
 
 - The SVM used must be the SVM hosting the CIFS or NFS shares.
-- The External Engine and FPolicy Event used in this command must be the External Engine and the FPolicy Event created for this purpose. See the [Create External Engine for Empty FPolicy](#Create-External-Engine-for-Empty-FPolicy) and [Create FPolicy Event for Empty FPolicy](#Create-FPolicy-Event-for-Empty-FPolicy) sections for additional information.
+- The External Engine and FPolicy Event used in this command must be the External Engine and the FPolicy Event created for this purpose. See the [Create External Engine for Empty FPolicy](#create-external-engine-for-empty-fpolicy) and [Create FPolicy Event for Empty FPolicy](#create-fpolicy-event-for-empty-fpolicy) sections for additional information.
 - The following values are required:
 
-  - ```privileged-user-name``` must be the account granted Security Login. See the [Create Security Login for FSAA Scans](#Create-Security-Login-for-FSAA-Scans) topic for additional information.
+  - ```privileged-user-name``` must be the account granted Security Login. See the [Create Security Login for FSAA Scans](#create-security-login-for-fsaa-scans) topic for additional information.
   - ```policy-name StealthAUDIT```
 
 __CAUTION:__ Cluster-Mode is case sensitive.

@@ -6,7 +6,7 @@ This job group requires the following items to be enabled:
 
 - Exchange Access Auditing is enabled in the Exchange environment
 
-  - This is required for the Logons Job Group. See the [Enable Exchange Mailbox Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md#Enable-Exchange-Mailbox-Access-Auditing) topic for additional information.
+  - This is required for the Logons Job Group. See the [Enable Exchange Mailbox Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md#enable-exchange-mailbox-access-auditing) topic for additional information.
 
 The following job groups need to be successfully run:
 

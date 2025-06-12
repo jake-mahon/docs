@@ -4,8 +4,8 @@ Users must install an authenticator app, such as Google Authenticator or Microso
 
 What do you want to do?
 
-- [Enable the Authenticator Authentication Type for an Identity Store](#Enable-the-Authenticator-Authentication-Type-for-an-Identity-Store)
-- [Enforce Authentication by Authenticator for a Role in an Identity Store](#Enforce-Authentication-by-Authenticator-for-a-Role-in-an-Identity-Store)
+- [Enable the Authenticator Authentication Type for an Identity Store](#enable-the-authenticator-authentication-type-for-an-identity-store)
+- [Enforce Authentication by Authenticator for a Role in an Identity Store](#enforce-authentication-by-authenticator-for-a-role-in-an-identity-store)
 
 ## Enable the Authenticator Authentication Type for an Identity Store
 
@@ -15,7 +15,7 @@ To enable it, see the [Enable Authentication Types](/versioned_docs/groupid_11.0
 
 ## Enforce Authentication by Authenticator for a Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 

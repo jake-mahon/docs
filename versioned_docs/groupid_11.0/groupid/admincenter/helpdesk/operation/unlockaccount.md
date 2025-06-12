@@ -5,7 +5,7 @@ users may also get locked out; typically because of a typo or they could not rec
 
 In such a situation as this, helpdesk users can unlock user accounts in an identity store.
 
-Helpdesk may have to authenticate users before unlocking their accounts. See the [Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+Helpdesk may have to authenticate users before unlocking their accounts. See the [Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
 NOTE: You can unlock the account of unenrolled users if (a) the __Unlock Any Account__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
@@ -13,8 +13,8 @@ NOTE: GroupID does not support account unlock in a Microsoft Entra ID identity s
 
 What do you want to do?
 
-- [Unlock User Accounts in Unrestricted Mode](#Unlock-User-Accounts-in-Unrestricted-Mode)
-- [Unlock User Accounts in Restricted Mode](#Unlock-User-Accounts-in-Restricted-Mode)
+- [Unlock User Accounts in Unrestricted Mode](#unlock-user-accounts-in-unrestricted-mode)
+- [Unlock User Accounts in Restricted Mode](#unlock-user-accounts-in-restricted-mode)
 
 ## Unlock User Accounts in Unrestricted Mode
 
@@ -32,7 +32,7 @@ What do you want to do?
 2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md) topic.
 3. Click the ellipsis button for the user and select __Unlock Account__. The __Unlock Account__ dialog box has two pages: __Authenticate__ and __Unlock__.   
    Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
-4. The __Authenticate__ page displays the authentication type(s) the user's account is enrolled with. to authenticate the user, follow step 4 in the [Reset Passwords in Restricted Mode](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/resetpassword.md#Reset-Passwords-in-Restricted-Mode) topic.
+4. The __Authenticate__ page displays the authentication type(s) the user's account is enrolled with. to authenticate the user, follow step 4 in the [Reset Passwords in Restricted Mode](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/resetpassword.md#reset-passwords-in-restricted-mode) topic.
 5. After authenticating the user, click __Next__.
 6. The __Unlock__ page displays the user name, the identity store
    where this user resides, the last time the user changed his or her password, and the lock status of the account. In case the user has linked his or her accounts that exist in different identity stores, this page displays all linked accounts that are locked.  

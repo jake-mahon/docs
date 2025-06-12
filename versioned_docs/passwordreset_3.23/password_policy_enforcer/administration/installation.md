@@ -16,14 +16,14 @@ Password Policy Enforcer should be installed onto every domain controller to enf
 
 If your domain contains some read-only domain controllers, then installation of Password Policy Enforcer on these servers is only necessary if you are using the following features:
 
-- [Maximum Age Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#Maximum-Age-Rule)
+- [Maximum Age Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#maximum-age-rule)
 - [Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
 - [](/versioned_docs/passwordreset_3.23/password_policy_enforcer/evaluation/password_reset.md)[Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/web/web_overview.md)
 
-You can install Password Policy Enforcer manually[ ](#)if you only need to install it on a few computers. See the [Manual Installation (Express Setup)](#Manual-Installation-Express-Setup) topic for additional information.
+You can install Password Policy Enforcer manually if you only need to install it on a few computers. See the [Manual Installation (Express Setup)](#manual-installation-express-setup) topic for additional information.
 
-It is recommended to perform an automated installation with Group Policy if you need to install it on many computers in a domain. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+It is recommended to perform an automated installation with Group Policy if you need to install it on many computers in a domain. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 ### Manual Installation (Express Setup)
 
@@ -41,7 +41,7 @@ __Step 5 –__ Click Next to install Password Policy Enforcer.
 
 __Step 6 –__ Click Yes when asked to restart the computer.
 
-Password Policy Enforcer has its own password rules, so you may want to disable the Windows password policy rules before configuring Password Policy Enforcer. See the [Disable the Windows Password Policy Rules](#Disable-the-Windows-Password-Policy-Rules) topic for additional information.
+Password Policy Enforcer has its own password rules, so you may want to disable the Windows password policy rules before configuring Password Policy Enforcer. See the [Disable the Windows Password Policy Rules](#disable-the-windows-password-policy-rules) topic for additional information.
 
 ### Automated Installation (Advanced Setup)
 
@@ -149,15 +149,15 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to V9.12. See the [Installation](#installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V9.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#Installing-the-PPC) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V9.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V9.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V9.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.
 
 ## Upgrading from v8.x
 
@@ -165,7 +165,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V8.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V8.x installations and upgrades them to V9.12. See the [Installation](#installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to automatically import the V8.x configuration settings into the new version.
 
@@ -193,7 +193,7 @@ The Password Policy Client installer detects existing V8.x installations and upg
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V8.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V8.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.
 
 ## Upgrading from v7.x
 
@@ -207,7 +207,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V6.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V6.x installations and upgrades them to V9.12. See the [Installation](#installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to automatically import the V6.x configuration settings into the new version.
 
@@ -237,11 +237,11 @@ If you would like to use the new templates and macros for your existing policies
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V6.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#Installing-the-PPC) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V6.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
 
 ### Upgrading the Mailer
 
-The Password Policy Enforcer installer detects existing V6.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#Installing-the-Mailer) topic for additional information.
+The Password Policy Enforcer installer detects existing V6.x installations of the Password Policy Enforcer Mailer and upgrades them to V9.12. See the [Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer) topic for additional information.
 
 ## Upgrading from v5.x
 
@@ -249,7 +249,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V5.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V5.x installations and upgrades them to V9.12. See the [Installation](#installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to automatically import the V5.x configuration settings into the new version.
 
@@ -283,7 +283,7 @@ If you would like to use the new templates and macros for your existing policies
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V5.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#Installing-the-PPC) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V5.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
 
 ## Upgrading from v4.x
 
@@ -291,7 +291,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V4.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
+The Password Policy Enforcer installer detects existing V4.x installations and upgrades them to V9.12. See the [Installation](#installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#automated-installation-advanced-setup) topic for additional information.
 
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to automatically import the V4.x configuration settings into the new version.
 
@@ -325,4 +325,4 @@ If you would like to use the new templates and macros for your existing policies
 
 ### Upgrading the Password Policy Client
 
-The Password Policy Client installer detects existing V4.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#Installing-the-PPC) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.
+The Password Policy Client installer detects existing V4.x installations and upgrades them to V9.12. See the [Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc) topic for additional information. If you are distributing the PPC with Group Policy, then add PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot the Password Policy Servers before upgrading the clients.

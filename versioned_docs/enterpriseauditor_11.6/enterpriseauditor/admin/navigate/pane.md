@@ -13,7 +13,7 @@ The items in the Navigation Pane are:
 - Schedules – Opens the Scheduled Actions view which displays information on all scheduled tasks. See the [Schedules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md) topic for additional information.
 - Jobs – Lists all solutions, job groups, and jobs within a folder structure. See the [Jobs Tree](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md) topic for additional information.
 
-The title above the Navigation Pane will change depending on what is selected. There are also several right-click or context menus available throughout the console. See the [Navigation Pane Right-click Menus](#Navigation-Pane-Right-click-Menus) topic for additional information.
+The title above the Navigation Pane will change depending on what is selected. There are also several right-click or context menus available throughout the console. See the [Navigation Pane Right-click Menus](#navigation-pane-right-click-menus) topic for additional information.
 
 ## Navigation Pane Right-click Menus
 
@@ -96,9 +96,9 @@ Menu items include:
 - Lock Group/Job – Locks job group or job, indicating configuration has been approved and the job group or job is ready to be scheduled/run. This option only applies to Role Based Access. See the [Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information.
 - Unlock Group/Job – Unlocks job group or job, indicating the configuration has not been approved or needs to be modified. Unlocking a job will prevent Job Initiators from scheduling or running the job. This option only applies to Role Based Access. See the [Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md) for additional information.
 - Enable/Disable Job(s) – Disables the selected job or job group and skips them during scan execution. When a job group is disabled, all existing jobs within the job group are disabled. See the [Disable or Enable a Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/disableenable.md) topic for more information.
-- Schedules – Opens the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#Schedule-Jobs) to schedule job group or job execution
+- Schedules – Opens the [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#schedule-jobs) to schedule job group or job execution
 - Refresh Tree – Refreshes the Jobs tree
-- Changes – Opens the [Changes Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md#Changes-Window) to track changes to job configuration in a change log
+- Changes – Opens the [Changes Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md#changes-window) to track changes to job configuration in a change log
 - Cut – Cuts the selected job group or job (Ctrl+X)
 - Copy – Copies the selected job group or job (Ctrl+C)
 - Paste – Pastes a copied/cut job group or job to the selected location (Ctrl+V)

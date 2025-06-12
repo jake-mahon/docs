@@ -45,7 +45,7 @@ This example also uses a confidence rate equals to 80%.
 | Policy   required | __Type__    Int64   __Description__   Identifier of the policy that the rule is part of. |
 | ResourceType   required | __Type__    Int64   __Description__   Identifier of the resource type. |
 | SourceBinding   optional | __Type__    Int64   __Description__   Binding property from the source system. |
-| SourceExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the source system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| SourceExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the source system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
 | SourceMatchedConfidenceLevel   default value: 0 | __Type__    Int32   __Description__   Defines the correlation confidence rate of this rule. If the value is less than 100, we process a manual review step to confirm the choice. |
 | TargetBinding   optional | __Type__    Int64   __Description__   Binding property from the target system. |
-| TargetExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the target system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| TargetExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the target system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
