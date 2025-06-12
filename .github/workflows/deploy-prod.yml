@@ -6,7 +6,7 @@ on:
   workflow_dispatch:     # Also allow manual trigger from GitHub UI
 
 env:
-  AZURE_WEBAPP_NAME: product-docs-dev
+  AZURE_WEBAPP_NAME: product-docs-prod
   NODE_VERSION: '20.x'
 
 jobs:
