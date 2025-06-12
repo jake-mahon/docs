@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[197997],{800119:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"threatmanager"}')}}]);
