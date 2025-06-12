@@ -1,0 +1,47 @@
+name: Deploy Docs to Dev
+
+on:
+  push:
+    branches: [ dev ]
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: product-docs-dev
+  NODE_VERSION: '20.x'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-4-cores
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+
+    - name: Cache Docusaurus build artifacts
+      uses: actions/cache@v4
+      with:
+        path: |
+          .docusaurus
+          node_modules/.cache
+        key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json', '**/*.md', '**/*.mdx') }}
+        restore-keys: |
+          ${{ runner.os }}-build-
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build Docusaurus site
+      run: npm run build
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: build
