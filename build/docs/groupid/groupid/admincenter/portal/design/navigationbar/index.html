@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-groupid docs-version-current docs-doc-page docs-doc-id-groupid/admincenter/portal/design/navigationbar" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Customize the Navigation Bar | Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.yourcompany.com/img/Logo_RGB.svg"><meta data-rh="true" name="twitter:image" content="https://docs.yourcompany.com/img/Logo_RGB.svg"><meta data-rh="true" property="og:url" content="https://docs.yourcompany.com/docs/groupid/groupid/admincenter/portal/design/navigationbar"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-groupid-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-groupid-current"><meta data-rh="true" property="og:title" content="Customize the Navigation Bar | Documentation"><meta data-rh="true" name="description" content="The left navigation bar in a portal lists nodes that enable users to navigate in the portal"><meta data-rh="true" property="og:description" content="The left navigation bar in a portal lists nodes that enable users to navigate in the portal"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.yourcompany.com/docs/groupid/groupid/admincenter/portal/design/navigationbar"><link data-rh="true" rel="alternate" href="https://docs.yourcompany.com/docs/groupid/groupid/admincenter/portal/design/navigationbar" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.yourcompany.com/docs/groupid/groupid/admincenter/portal/design/navigationbar" hreflang="x-default"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"><link rel="stylesheet" href="/assets/css/styles.4cbdd69d.css">
+<script src="/assets/js/runtime~main.a42836f1.js" defer="defer"></script>
+<script src="/assets/js/main.3131faef.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/branding/logo.svg" alt="Netwrix Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/branding/logo.svg" alt="Netwrix Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Products</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/docs/1secure">1Secure</a></li><li><a class="dropdown__link" href="/docs/accessanalyzer">Access Analyzer</a></li><li><a class="dropdown__link" href="/docs/accessinformationcenter">Access Information Center</a></li><li><a class="dropdown__link" href="/docs/activitymonitor">Activity Monitor</a></li><li><a class="dropdown__link" href="/docs/auditor">Auditor</a></li><li><a class="dropdown__link" href="/docs/changetracker">Change Tracker</a></li><li><a class="dropdown__link" href="/docs/dataclassification">Data Classification</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/groupid">Group ID</a></li><li><a class="dropdown__link" href="/docs/passwordpolicyenforcer">Password Policy Enforcer</a></li><li><a class="dropdown__link" href="/docs/passwordreset">Password Reset</a></li><li><a class="dropdown__link" href="/docs/passwordsecure">Password Secure</a></li><li><a class="dropdown__link" href="/docs/policypak">PolicyPak</a></li><li><a class="dropdown__link" href="/docs/privilegesecure">Privilege Secure</a></li><li><a class="dropdown__link" href="/docs/recoveryforactivedirectory">Recovery for Active Directory</a></li><li><a class="dropdown__link" href="/docs/strongpointfornetsuite">StrongPoint for NetSuite</a></li><li><a class="dropdown__link" href="/docs/strongpointforsalesforce">StrongPoint for Salesforce</a></li><li><a class="dropdown__link" href="/docs/strongpointnetsuiteflashlight">StrongPoint NetSuite Flashlight</a></li><li><a class="dropdown__link" href="/docs/strongpointsalesforceflashlight">StrongPoint Salesforce Flashlight</a></li><li><a class="dropdown__link" href="/docs/threatmanager">Threat Manager</a></li><li><a class="dropdown__link" href="/docs/threatprevention">Threat Prevention</a></li><li><a class="dropdown__link" href="/docs/usercube">UserCube</a></li><li><a class="dropdown__link" href="/docs/usercube_saas">UserCube SaaS</a></li></ul></div></div><div class="navbar__items navbar__items--right"><a href="http://github.com/netwrix" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/groupid/groupid/admincenter/authenticate">groupid</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/groupid/groupid/admincenter/authenticate">admincenter</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/authenticate">Authenticate your Identity Store Account</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/datasource/create">datasource</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/enroll">Enroll your Identity Store Account</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/entitlement/ad/manage">entitlement</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/general/accessapplications">general</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/helpdesk/history">helpdesk</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/history">History in Directory Manager</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/identitystore/advsentraid">identitystore</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/notification/customize">notification</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/applications">portal</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/applications">Directory Manage Applications</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/create">Create a Portal</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/delete">Delete a Portal</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/badwords">design</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/badwords">Manage the Bad Words List</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/createobject">Customize the Create Object Wizards</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-5 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/form/quicksearch">form</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/importexport">Specify Attributes for Import/Export of Group Owners and Members</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/navigationbar">Customize the Navigation Bar</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/objectcard">Specify Attributes for the Object Card</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/objectlist">Specify Attributes for Object List View</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/objectproperties">Customize Properties Pages</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/organizationalhierarchy">Specify Attributes for Organizational Hierarchy</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/propertyvalidation">Manage Property Validation Attributes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/queryattributes">Specify Smart Group Query Attributes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/sendasonbehalf">The ‘Send on Behalf’ and ‘Send As’ Permissions</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/design/toolbars">Customize the Toolbars</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/displaytype/categories">displaytype</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/dockerprerequisites">Prerequisites for Deployments in Docker</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/linkedcombo/details">linkedcombo</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/overview">Directory Manager Portal</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/remoteiisprerequisites">Prerequisites for Deployments in Remote IIS</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/portal/server/advanced">server</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/replication/overview">replication</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/schedule/entitlement">schedule</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/securityrole/checkrole">securityrole</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/service/admincenter">service</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/setupauth/authenticator">setupauth</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/admincenter/signin">Access Admin Center</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/smsgateway/custom/accountid">smsgateway</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/admincenter/workflow/advancedsettings">workflow</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/api/commonerrors">api</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/authenticate/asidentityprovider/metadata">authenticate</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/configureentraid/create">configureentraid</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/gettingstarted">Getting Started</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/install/about">install</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/introduction">Netwrix Directory Manager v11.1 Documentation</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/managementshell/commands">managementshell</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/portal/dashboard">portal</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/requirements/database">requirements</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/groupid/groupid/ssprportal/functions">ssprportal</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/groupid/groupid/whatsnew">What&#x27;s New</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/groupid/">Group ID</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">groupid</span><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">admincenter</span><meta itemprop="position" content="2"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">portal</span><meta itemprop="position" content="3"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">design</span><meta itemprop="position" content="4"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Customize the Navigation Bar</span><meta itemprop="position" content="5"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Customize the Navigation Bar</h1></header>
+<p>The left navigation bar in a portal lists nodes that enable users to navigate in the portal: These nodes are:</p>
+<ul>
+<li>Create New</li>
+<li>Dashboard</li>
+<li>Groups</li>
+<li>Users</li>
+<li>Requests</li>
+<li>History</li>
+<li>Entitlement</li>
+<li>Synchronize</li>
+<li>Reports</li>
+</ul>
+<p>On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a page that contains tabs under that sub-node. It is as:</p>
+<p><img decoding="async" loading="lazy" alt="navigation_bar" src="/assets/images/navigation_bar-a122b6fa97692d0573ea1c4acceb2eba.webp" width="538" height="294" class="img_ev3q"></p>
+<p>Directory Manager enables you to customize the nodes, sub-nodes, and their respective tabs.</p>
+<p>What do you want to do?</p>
+<p><strong>At the node level:</strong></p>
+<ul>
+<li><a href="#Add-a-Node-Category">Add a Node (Category)</a></li>
+<li><a href="#Update-the-Details-of-a-Node">Update the Details of a Node</a></li>
+<li><a href="#Rearrange-the-Nodes-on-the-Navigation-Bar">Rearrange the Nodes on the Navigation Bar</a></li>
+<li><a href="#Remove-a-User-defined-Node">Remove a User-defined Node</a></li>
+</ul>
+<p><strong>At the sub-node level:</strong></p>
+<ul>
+<li><a href="#Add-a-Sub-node-to-a-Node">Add a Sub-node to a Node</a></li>
+<li><a href="#Update-the-Details-of-a-Sub-node">Update the Details of a Sub-node</a></li>
+<li><a href="#Rearrange-the-Sub-nodes-for-a-Node">Rearrange the Sub-nodes for a Node</a></li>
+<li><a href="#Remove-a-Sub-node-from-a-Node">Remove a Sub-node from a Node</a></li>
+</ul>
+<p><strong>At the tab level:</strong></p>
+<ul>
+<li><a href="#Update-Tab-Properties">Update Tab Properties</a></li>
+<li><a href="#Rearrange-the-Tabs-for-a-Sub-node">Rearrange the Tabs for a Sub-node</a></li>
+<li><a href="#Remove-a-Tab-from-a-Sub-node">Remove a Tab from a Sub-node</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="add-a-node-category">Add a Node (Category)<a href="#add-a-node-category" class="hash-link" aria-label="Direct link to Add a Node (Category)" title="Direct link to Add a Node (Category)">​</a></h2>
+<p>The following nodes have been defined by default on the navigation bar:</p>
+<table><thead><tr><th>Category (Node)</th><th>Mapped To</th></tr></thead><tbody><tr><td>Create New</td><td>The Create New button on the portal’s navigation bar. It has four buttons as its sub-nodes: Group, User, Mailbox, and Contact. Sub nodes do not have tabs.</td></tr><tr><td>High Priority</td><td>The Dashboard node on the navigation bar. It has one sub-node, Dashboard, with no tab.</td></tr><tr><td>Groups</td><td>The Groups node on the navigation bar. It has four sub-nodes: All Groups, My Groups, Transfer Ownership, and Deleted Groups. All except the Transfer Ownership sub-node have tabs.</td></tr><tr><td>Users</td><td>The Users node on the navigation bar. It has two sub-nodes: My Direct Reports and Linked Accounts. Only the My Direct Reports sub-node has tabs.</td></tr><tr><td>Requests</td><td>The Requests node on the navigation bar. It has three sub-nodes: All Requests, My Requests, and Request Inbox. Sub nodes do not have tabs.</td></tr><tr><td>Others</td><td>The History node on the navigation bar. It has one sub-node, History, that has tabs.</td></tr><tr><td>External Links</td><td>The Entitlement, Synchronize, and Reports nodes on the navigation bar. It has three sub-nodes, Entitlement, Synchronize, and Reports, that can be modified to a limited extent. You cannot manage the tabs or other options displayed under these nodes in the portal.</td></tr></tbody></table>
+<p>Note the following:</p>
+<ul>
+<li>The <em>Create New</em>, <em>High Priority</em>, <em>Others</em>, and <em>External Links</em> nodes cannot be edited or removed.</li>
+<li>You can add and remove sub-nodes for nodes; however, you cannot add sub-nodes for the <strong>Create New</strong> node.</li>
+<li>You cannot add tabs to sub-nodes; only edit and remove tabs that exist by default.</li>
+</ul>
+<p><strong>To add a node:</strong></p>
+<ol>
+<li>
+<p>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</p>
+</li>
+<li>
+<p>Click the ellipsis button for a portal and select <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</p>
+</li>
+<li>
+<p>Click <strong>Navigation Bar</strong> in the left pane.<br>
+<!-- -->The <strong>Navigation Bar</strong> page has two tabs: the <strong>Navigation Bar Categories</strong> tab is used to manage nodes while the <strong>Navigation Bars</strong> tab is used to manage sub-nodes and their respective tabs.</p>
+</li>
+<li>
+<p>Click <strong>Navigation Bar Categories</strong> to define a new node.</p>
+</li>
+<li>
+<p>On the <strong>Navigation Bar Categories</strong> tab, click <strong>Add</strong>. The <strong>Add Navigation Category</strong> pane is displayed.</p>
+</li>
+<li>
+<p>Enter a name for the node in the <strong>Title</strong> box. The node will be displayed with this name on the navigation bar.</p>
+</li>
+<li>
+<p>In the <strong>Access Level</strong> drop-down list, select a security role. The node would be visible to users of this role and roles with a priority value higher than this role. For all other users, the node would be hidden. See <a href="/docs/groupid/groupid/admincenter/securityrole/manage#priority">Priority</a>.<br>
+<!-- -->Select <em>Never</em> to hide the node for all users.</p>
+</li>
+<li>
+<p>In the <strong>Tooltip Text</strong> box, enter the text to appear when a user hovers the mouse over the node.</p>
+</li>
+<li>
+<p>Use the <strong>Icon Class</strong> box to upload the image (icon) to be displayed with the node name.</p>
+<ul>
+<li>
+<p>If no image is uploaded, click <strong>Save</strong> to browse and select an image for upload.</p>
+</li>
+<li>
+<p>If an image has been uploaded, the very image is displayed. Click the icon below the image to replace the existing image with a new one.</p>
+<p>NOTE: Image dimensions: 30 x 30 pixels<br>
+<!-- -->Supported formats: .webp, .jpg, .jpe, .jpeg</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong> on the <strong>Navigation Bar</strong> page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="update-the-details-of-a-node">Update the Details of a Node<a href="#update-the-details-of-a-node" class="hash-link" aria-label="Direct link to Update the Details of a Node" title="Direct link to Update the Details of a Node">​</a></h2>
+<p>You can update the following details for the Groups, Users, and Requests nodes on the portal’s navigation bar:</p>
+<ul>
+<li>Node name</li>
+<li>Access level</li>
+<li>Tooltip text</li>
+<li>Node icon</li>
+</ul>
+<p>The <em>Create New</em>, <em>High Priority</em>, <em>Others</em>, and <em>External Links</em> nodes cannot be modified.</p>
+<p><strong>To update a node:</strong></p>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. Then click the <strong>Navigation Bar Categories</strong> tab.</li>
+<li>On the <strong>Navigation Bar Categories</strong> tab, click <strong>Edit</strong> for a node to update it.<br>
+<!-- -->The <strong>Edit Navigation Category</strong> pane is displayed. Follow step 7 and onwards in the <a href="#Add-a-Node-Category">Add a Node (Category)</a> topic to update node details.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rearrange-the-nodes-on-the-navigation-bar">Rearrange the Nodes on the Navigation Bar<a href="#rearrange-the-nodes-on-the-navigation-bar" class="hash-link" aria-label="Direct link to Rearrange the Nodes on the Navigation Bar" title="Direct link to Rearrange the Nodes on the Navigation Bar">​</a></h2>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. Then click the <strong>Navigation Bar Categories</strong> tab. The <strong>Navigation Bar Categories</strong> tab is displayed.</li>
+<li>To rearrange the nodes on the navigation bar, click the equal sign for a node and drag to change its position.<br>
+<!-- -->You can move all except the <em>Create New</em> node.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="remove-a-user-defined-node">Remove a User-defined Node<a href="#remove-a-user-defined-node" class="hash-link" aria-label="Direct link to Remove a User-defined Node" title="Direct link to Remove a User-defined Node">​</a></h2>
+<p>You can delete user-defined nodes on the portal’s navigation bar. System-defined nodes cannot be deleted.</p>
+<p><strong>To delete a node:</strong></p>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. Then click the <strong>Navigation Bar Categories</strong> tab.</li>
+<li>On the <strong>Navigation Bar Categories</strong> tab, click <strong>Remove</strong> for a node to delete it.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="add-a-sub-node-to-a-node">Add a Sub-node to a Node<a href="#add-a-sub-node-to-a-node" class="hash-link" aria-label="Direct link to Add a Sub-node to a Node" title="Direct link to Add a Sub-node to a Node">​</a></h2>
+<p>You can customize the nodes on the portal’s navigation bar by defining sub-nodes for them. Note that:</p>
+<ul>
+<li>You cannot add sub-nodes to the <em>Create New</em> node.</li>
+<li>You cannot add tabs to a sub-node.</li>
+</ul>
+<p><strong>To define a sub-node:</strong></p>
+<ol>
+<li>
+<p>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</p>
+</li>
+<li>
+<p>Click the ellipsis button for a portal and select <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</p>
+</li>
+<li>
+<p>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</p>
+</li>
+<li>
+<p>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</p>
+</li>
+<li>
+<p>To add a sub-node to the selected node, click <strong>Add</strong> .The <strong>Add Link</strong> pane is displayed.</p>
+</li>
+<li>
+<p>In the <strong>Tab Name</strong> box, enter a name for the sub-node.</p>
+</li>
+<li>
+<p>In the <strong>Display Text</strong> box, enter the text to display as the sub-node name on the navigation bar.</p>
+</li>
+<li>
+<p>In the <strong>Tooltip Text</strong> box, enter the text to appear when a user hovers the mouse over the sub-node.</p>
+</li>
+<li>
+<p>Use the <strong>Icon Class</strong> box to upload the image (icon) to be displayed with the sub-node name. See step 10 in the <a href="#Add-a-Node-Category">Add a Node (Category)</a> topic for details.<br>
+<!-- -->The facility to upload an image is not available for sub-nodes under <em>Groups</em>. <em>Users</em>, <em>Requests</em>, and <em>External Links</em>.</p>
+</li>
+<li>
+<p>In the <strong>URL</strong> box, provide the URL of a webpage to link to this sub-node. The respective webpage will be displayed when users click the sub-node in the portal.<br>
+<!-- -->Use the following formats to specify the URL:</p>
+<ul>
+<li>To link a page from within the Directory Manager portal template:<br>
+<!-- -->GroupManagement/Groups/MyGroups</li>
+<li>To link to an external webpage:<br>
+<a href="https://www.xyz.com" target="_blank" rel="noopener noreferrer">https://www.xyz.com</a>.</li>
+</ul>
+<p>Click <strong>View in Browser</strong> to preview the webpage.</p>
+</li>
+<li>
+<p>Select the <strong>Open in new tab</strong> check box to open the linked page in a new tab in the browser.<br>
+<!-- -->If you do not select it, users will directly navigate to the linked page. They will have to use the browser’s back button to return to the previous page.</p>
+</li>
+<li>
+<p>In the <strong>Access Level</strong> drop-down list, select a security role. The sub-node would be visible for users of this role and roles with a priority value higher than this role. For all other users, the sub-node would be hidden. See <a href="/docs/groupid/groupid/admincenter/securityrole/manage#priority">Priority</a>.<br>
+<!-- -->Select <em>Never</em> to hide the sub-node for all users.</p>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong> on the <strong>Navigation Bar</strong> page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="update-the-details-of-a-sub-node">Update the Details of a Sub-node<a href="#update-the-details-of-a-sub-node" class="hash-link" aria-label="Direct link to Update the Details of a Sub-node" title="Direct link to Update the Details of a Sub-node">​</a></h2>
+<p>You can change the following for a sub-node:</p>
+<ul>
+<li>The name of the sub-node</li>
+<li>The display name of the sub-node (this is the sub-node’s name on the portal’s navigation bar)</li>
+<li>The tooltip text for the sub-node</li>
+<li>The URL of the webpage that opens when a user clicks the sub-node</li>
+<li>Access level</li>
+</ul>
+<p><strong>To update sub-node properties:</strong></p>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</li>
+<li>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</li>
+<li>Click <strong>Edit</strong> for a sub-node to update its properties; the <strong>Edit Link</strong> pane is displayed.</li>
+<li>Follow steps 7-14 in the <a href="#Add-a-Sub-node-to-a-Node">Add a Sub-node to a Node</a> topic to update the required information and save it.<br>
+<!-- -->The <strong>Links</strong> section is displayed for system-defined nodes only. Use it to manage the tabs for a sub-node.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rearrange-the-sub-nodes-for-a-node">Rearrange the Sub-nodes for a Node<a href="#rearrange-the-sub-nodes-for-a-node" class="hash-link" aria-label="Direct link to Rearrange the Sub-nodes for a Node" title="Direct link to Rearrange the Sub-nodes for a Node">​</a></h2>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under Design Settings. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</li>
+<li>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</li>
+<li>To rearrange the sub-nodes under the selected node, click the equal sign for a sub-node and drag to change its position.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="remove-a-sub-node-from-a-node">Remove a Sub-node from a Node<a href="#remove-a-sub-node-from-a-node" class="hash-link" aria-label="Direct link to Remove a Sub-node from a Node" title="Direct link to Remove a Sub-node from a Node">​</a></h2>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</li>
+<li>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</li>
+<li>Click <strong>Remove</strong> for a sub-node to remove it. This also removes all tabs defined for the sub-node.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="update-tab-properties">Update Tab Properties<a href="#update-tab-properties" class="hash-link" aria-label="Direct link to Update Tab Properties" title="Direct link to Update Tab Properties">​</a></h2>
+<p>You can modify the following for a tab:</p>
+<ul>
+<li>The name of the tab</li>
+<li>The display name of the tab (the tab is displayed in the portal with this name)</li>
+<li>Tooltip text</li>
+<li>The URL of the webpage that opens when a user clicks the tab</li>
+<li>Access level</li>
+</ul>
+<p><strong>To update tab properties:</strong></p>
+<ol>
+<li>
+<p>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</p>
+</li>
+<li>
+<p>Click the ellipsis button for a portal and select <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</p>
+</li>
+<li>
+<p>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</p>
+</li>
+<li>
+<p>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Edit</strong> for a system-defined sub-node. On the <strong>Edit Link</strong> pane, the <strong>Links</strong> area lists the tabs for the sub-node (in case the sub-node has tabs).</p>
+</li>
+<li>
+<p>Click <strong>Edit</strong> for a tab to edit it.</p>
+</li>
+<li>
+<p>On the <strong>Edit Link</strong> pane (for the tab), update the required information and click <strong>OK</strong>:</p>
+<ol>
+<li><strong>Link Name</strong> – The name of the tab.</li>
+<li><strong>Display Text</strong> – The text displayed as the tab name in the portal.</li>
+<li><strong>Tooltip Text</strong> – The text that appears when a user hovers the mouse over the tab.</li>
+<li><strong>URL</strong> – The address of the webpage to display when a user clicks the tab.</li>
+<li><strong>Access Level</strong> – Select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. For all other users, the tab would be hidden. See <a href="/docs/groupid/groupid/admincenter/securityrole/manage#priority">Priority</a>.<br>
+<!-- -->Select <em>Never</em> to hide the tab for all users.</li>
+</ol>
+</li>
+<li>
+<p>Click <strong>OK</strong> twice on the <strong>Edit Link</strong> pane.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong> on the <strong>Navigation Bar</strong> page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rearrange-the-tabs-for-a-sub-node">Rearrange the Tabs for a Sub-node<a href="#rearrange-the-tabs-for-a-sub-node" class="hash-link" aria-label="Direct link to Rearrange the Tabs for a Sub-node" title="Direct link to Rearrange the Tabs for a Sub-node">​</a></h2>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under __Design Setting__s. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</li>
+<li>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</li>
+<li>Click <strong>Edit</strong> for a system-defined sub-node. On the <strong>Edit Link</strong> pane, the <strong>Links</strong> area lists the tabs for the sub-node (in case the sub-node has tabs).</li>
+<li>To change the order in which tabs are displayed in the portal, click the equal sign for a tab and drag to change its position.</li>
+<li>Click <strong>OK</strong>.</li>
+<li>Click <strong>Save</strong> on the <strong>Navigation Bar</strong> page.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="remove-a-tab-from-a-sub-node">Remove a Tab from a Sub-node<a href="#remove-a-tab-from-a-sub-node" class="hash-link" aria-label="Direct link to Remove a Tab from a Sub-node" title="Direct link to Remove a Tab from a Sub-node">​</a></h2>
+<ol>
+<li>In Admin Center, select <strong>Applications</strong> in the left pane.<br>
+<!-- -->On the <strong>GroupID Portal</strong> tab, a portal&#x27;s card displays its info.</li>
+<li>Click the ellipsis button for a portal and select <strong>Settings</strong>.</li>
+<li>Select an identity store under <strong>Design Settings</strong> to customize the portal for it.<br>
+<!-- -->All identity stores linked with the portal are listed under <strong>Design Settings</strong>. You can design a different portal for each of these.</li>
+<li>Click <strong>Navigation Bar</strong> in the left pane. The <strong>Navigation Bar</strong> page is displayed with the <strong>Navigation Bars</strong> tab selected by default.</li>
+<li>In the <strong>Select Navigation Bar Type</strong> drop-down list, select a node on the portal’s navigation bar; its sub-nodes get listed under <strong>Name</strong>.</li>
+<li>Click <strong>Edit</strong> for a system-defined sub-node. On the <strong>Edit Link</strong> pane, the <strong>Links</strong> area lists the tabs for the sub-node (in case the sub-node has tabs).</li>
+<li>Click <strong>Remove</strong> for a tab to remove it.</li>
+<li>Click <strong>OK</strong>.</li>
+<li>Click <strong>Save</strong> on the <strong>Navigation Bar</strong> page.</li>
+</ol>
+<p>See Also</p>
+<ul>
+<li><a href="/docs/groupid/groupid/admincenter/portal/displaytype/overview">Design a Portal with Display Types</a></li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/groupid/groupid/admincenter/portal/design/navigationbar.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/groupid/groupid/admincenter/portal/design/importexport"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Specify Attributes for Import/Export of Group Owners and Members</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/groupid/groupid/admincenter/portal/design/objectcard"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Specify Attributes for the Object Card</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#add-a-node-category" class="table-of-contents__link toc-highlight">Add a Node (Category)</a></li><li><a href="#update-the-details-of-a-node" class="table-of-contents__link toc-highlight">Update the Details of a Node</a></li><li><a href="#rearrange-the-nodes-on-the-navigation-bar" class="table-of-contents__link toc-highlight">Rearrange the Nodes on the Navigation Bar</a></li><li><a href="#remove-a-user-defined-node" class="table-of-contents__link toc-highlight">Remove a User-defined Node</a></li><li><a href="#add-a-sub-node-to-a-node" class="table-of-contents__link toc-highlight">Add a Sub-node to a Node</a></li><li><a href="#update-the-details-of-a-sub-node" class="table-of-contents__link toc-highlight">Update the Details of a Sub-node</a></li><li><a href="#rearrange-the-sub-nodes-for-a-node" class="table-of-contents__link toc-highlight">Rearrange the Sub-nodes for a Node</a></li><li><a href="#remove-a-sub-node-from-a-node" class="table-of-contents__link toc-highlight">Remove a Sub-node from a Node</a></li><li><a href="#update-tab-properties" class="table-of-contents__link toc-highlight">Update Tab Properties</a></li><li><a href="#rearrange-the-tabs-for-a-sub-node" class="table-of-contents__link toc-highlight">Rearrange the Tabs for a Sub-node</a></li><li><a href="#remove-a-tab-from-a-sub-node" class="table-of-contents__link toc-highlight">Remove a Tab from a Sub-node</a></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
