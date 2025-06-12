@@ -1,0 +1,42 @@
+# Change your password
+
+You can change the password of your identity store account provided that the administrator has granted you the required permissions. After changing it, use the new password to sign into GroupID and any other application that uses your domain account.
+
+To do this, provide the existing password and then a new password to replace it. The new password must conform to the password policy the administrator has defined for your role in the connected identity store.
+
+NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords in GroupID. The following message is displayed:
+
+![Change Password error message for Entra ID user](/img/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepasswordentraiduser.png)
+
+If the user's account is a master account, password of its child accounts also cannot be changed in GroupID.
+
+__Follow these steps to change your password:__
+
+1. In GroupID Portal, click your profile info in the top right corner and select __Change Password__ on the __My Account__ panel.
+2. In the __Select the accounts to change their password__ section, your account and its linked accounts, if any, are listed. Your logged in account is selected.
+3. In the __Change Password__ section, do the following steps:
+
+   1. In the __Current Password__ box, type the password of your account you are logged on with on the portal.
+   2. Type your new password in the __New password__ box. On typing the new password, the __Password Acceptance__ box appears. The new password
+      must meet the password complexity requirements and conform to the password complexity rules defined by the GroupID administrator for the identity store.
+
+      To meet the password complexity requirements, the password must:
+
+      1. Be at least as per the characters length defined in the password policy of the provider.
+      2. Contain uppercase and lowercase characters, digit or special character:
+
+         - English uppercase characters (A through Z)
+         - English lowercase characters (a through z)
+         - Base 10 digits (0 through 9)
+         - Special characters (for example, !, $, #, %)
+   3. Type the new password for the selected account(s) in the __Confirm New Password__ box.
+4. Click __Change Password__.
+
+   If you have reused an old password and it does not meet the __Enforce password history__  policy of the provider, a message inform you that the password must be different from the old one.
+5. On successful change password, the message,"Password has been reset successfully." is displayed.
+6. Click __OK__.
+
+__See Also__
+
+- [Access Portal](/versioned_docs/groupid_11.0/groupid/portal/login.md)
+- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/dashboard.md)

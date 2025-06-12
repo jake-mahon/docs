@@ -1,0 +1,14 @@
+# Register in Microsoft Entra ID
+
+To use Microsoft Entra ID, formerly Azure Active Directory, identity provider, GroupID must first be registered in Microsoft Entra Admin Center portal. The registration grants GroupID access to a particular Microsoft Entra ID Directory and its data, such as Microsoft Entra ID groups and users.
+
+GroupID requires:
+
+- An application registered for GroupID in Microsoft Entra ID (with the Microsoft Graph API and Exchange API permissions).
+- A Microsoft Entra ID Directory Role for the service account for the Microsoft Entra ID identity store.
+
+  NOTE: See the [All Role](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#All-Role) section for [User Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#User-Administrator) and [Exchange Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#Exchange-Administrator) role permissions in [Microsoft Entra built-in roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#Microsoft-Entra-built-in-roles).
+
+See Also
+
+- [Registration and Permissions Assignment](/versioned_docs/groupid_11.0/groupid/configureentraid/register/appregister.md)

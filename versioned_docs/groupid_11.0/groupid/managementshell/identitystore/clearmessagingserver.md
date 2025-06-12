@@ -1,0 +1,31 @@
+# Clear-MessagingServer
+
+The commandlet __Clear-MessagingServer__ removes the configured messaging server from the specified identity store.
+
+NOTE: This cmdlet will also clear the SMTP settings, notification settings, password expiry settings, membership lifecycle notification settings, and managed by notification settings for the identity store.
+
+## Syntax
+
+```
+Clear-MessagingServer  
+-IdentityStoreName <string>  
+[<CommonParameters>]
+```
+
+## Required Parameter
+
+- IdentityStoreName
+
+Example 1:
+
+This example clears configured messaging server for AdStore8 identity store.
+
+```
+Clear-MessagingServer -IdentityStoreName AdStore8
+```
+
+See Also
+
+- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
+- [Identity Store Commands](/versioned_docs/groupid_11.0/groupid/managementshell/identitystore/overview.md)
+- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)

@@ -1,0 +1,44 @@
+# Unlock Accounts
+
+Administrators can enforce an account lockout policy for a domain that locks a user account after a certain number of failed login attempts. This secures a machine from unauthorized access. However, legitimate
+users may also get locked out; typically because of a typo or they could not recall their password correctly.
+
+In such a situation as this, helpdesk users can unlock user accounts in an identity store.
+
+Helpdesk may have to authenticate users before unlocking their accounts. See the [Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+
+NOTE: You can unlock the account of unenrolled users if (a) the __Unlock Any Account__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
+
+NOTE: GroupID does not support account unlock in a Microsoft Entra ID identity store.
+
+What do you want to do?
+
+- [Unlock User Accounts in Unrestricted Mode](#Unlock-User-Accounts-in-Unrestricted-Mode)
+- [Unlock User Accounts in Restricted Mode](#Unlock-User-Accounts-in-Restricted-Mode)
+
+## Unlock User Accounts in Unrestricted Mode
+
+1. In Admin Center, click __Helpdesk__ in the left pane.
+2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md) topic.
+3. Click the ellipsis button for the user and select __Unlock Account__. For enrolled users, the __Unlock Account__ dialog box has two pages: __Authenticate__ and __Unlock__. Under the unrestricted mode, you can skip the former and move to the __Unlock__ page. For unenrolled users, only the __Unlock__ page is available.  
+   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+4. The __Unlock__ page displays the user name, the identity store
+   where this user resides, the last time the user changed his or her password, and the lock status of the account. In case the user has linked his or her accounts that exist in different identity stores, this page displays all linked accounts that are locked.  
+   To unlock an account, select the check box for it and click __Unlock__.
+
+## Unlock User Accounts in Restricted Mode
+
+1. In Admin Center, click __Helpdesk__ in the left pane.
+2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md) topic.
+3. Click the ellipsis button for the user and select __Unlock Account__. The __Unlock Account__ dialog box has two pages: __Authenticate__ and __Unlock__.   
+   Use the __History__ button to view user history, i.e., the actions performed on the user and by the user. This history is specific to helpdesk functions, as listed in the [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+4. The __Authenticate__ page displays the authentication type(s) the user's account is enrolled with. to authenticate the user, follow step 4 in the [Reset Passwords in Restricted Mode](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/resetpassword.md#Reset-Passwords-in-Restricted-Mode) topic.
+5. After authenticating the user, click __Next__.
+6. The __Unlock__ page displays the user name, the identity store
+   where this user resides, the last time the user changed his or her password, and the lock status of the account. In case the user has linked his or her accounts that exist in different identity stores, this page displays all linked accounts that are locked.  
+   To unlock an account, select the check box for it and click __Unlock__.
+
+__See Also__
+
+- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)

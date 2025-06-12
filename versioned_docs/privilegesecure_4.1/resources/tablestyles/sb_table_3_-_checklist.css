@@ -1,0 +1,543 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Sb Table 3 -Checklist;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	max-id: 4;
+	border-spacing-y: 21;
+	cell-padding-left: 5px;
+	cell-padding-right: 5px;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 4px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+	background-color: #0598dc;
+	color: #ffffff;
+	cell-padding-left: 10px;
+	cell-padding-right: 10px;
+	cell-padding-top: 10px;
+	cell-padding-bottom: 10px;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 4;
+	name: Body2;
+	background-color: #ffffff;
+	separator-style: solid;
+	separator-width: 2px;
+	separator-color: #ffffff;
+	cell-content-style-tag: p;
+	cell-content-style-class: table-text;
+	cell-padding-left: 10px;
+	cell-padding-right: 10px;
+	cell-padding-top: 10px;
+	cell-padding-bottom: 10px;
+	vertical-align: top;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Sb_Table_3_-_Checklist
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 0px;
+	margin-left: 0px;
+	border-spacing: 0px 21px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-Column-Column1
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-Head-Header1
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadI-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadI-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadE-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 4px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadE-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadF-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 4px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadF-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadH-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadH-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadD-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 4px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadD-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadC-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadC-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadB-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadB-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadA-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadA-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadG-Column1-Header1
+{
+	color: #ffffff;
+	background-color: #0598dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-HeadG-Column1-Header1 p
+{
+	color: #ffffff;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootI-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootI-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootE-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootE-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootF-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootF-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootH-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootH-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootD-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootD-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootC-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootC-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootB-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootB-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootA-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootA-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootG-Column1-
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-FootG-Column1- p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-Body-Body2
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyI-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyI-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyE-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 2px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyE-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyF-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 2px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyF-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyH-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyH-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyD-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 2px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyD-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyC-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyC-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyB-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyB-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyA-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyA-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyG-Column1-Body2
+{
+	vertical-align: top;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.TableStyle-Sb_Table_3_-_Checklist-BodyG-Column1-Body2 p
+{
+	
+}
+
+
