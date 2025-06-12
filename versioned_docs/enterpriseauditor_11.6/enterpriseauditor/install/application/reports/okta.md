@@ -28,7 +28,7 @@ __Step 2 –__ Right click on the __Identity Provider metadata__ link and select
 
 __Step 3 –__ Click on the General tab to copy the value for the __Realm__. This value will be unique per tenant.
 
-https://www.okta.com/<YOURVALUEHERE>
+`https://www.okta.com/<YOURVALUEHERE>`
 
 __Step 4 –__ Construct the ReplytoURL using the FQDN of your Enterprise Auditor server:
 
@@ -77,7 +77,7 @@ Configure the App Settings for the StealthAUDIT Application
 __Step 1 –__ In the Enterprise Auditor application, navigate to the General Tab and click __Edit__ to populate the following fields.
 
 - Web Application URL – This value should follow this format:```https://<FQDNofEnterpriseAuditorserver.com>:8082/```
-- Realm – This value is unique per tenant and should follow this format: ```https://www.okta.com/<YOURVALUEHERE>```
+- Realm – This value is unique per tenant and should follow this format: ````https://www.okta.com/<YOURVALUEHERE>````
 - Audience Restriction – This value should match the value for the Realm
 - ReplyToURL – Enter the value from the WSFederationReply setting from the __Webserver.exe.config__ file
 

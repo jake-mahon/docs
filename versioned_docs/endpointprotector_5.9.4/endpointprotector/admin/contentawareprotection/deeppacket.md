@@ -163,7 +163,7 @@ Go over the following Syntax examples considering the values used are the defaul
 
 1. Subject extraction example for Yahoo:
 
-   __subject={requests[:].payloadParts[:].payload.message.headers.subject}__
+   `__subject={requests[:].payloadParts[:].payload.message.headers.subject}__`
 
    - Uses named key-value pairs and arrays ([])
 

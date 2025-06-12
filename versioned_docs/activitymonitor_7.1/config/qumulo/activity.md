@@ -24,7 +24,7 @@ __Step 1 –__ Connect to the Qumulo cluster with SSH.
 
 __Step 2 –__ Execute the following command to log in:
 
-qq --host <ip-address-of-qumulo> login -u <user-name>
+`qq --host <ip-address-of-qumulo> login -u <user-name>`
 
 The command will ask for the password.
 

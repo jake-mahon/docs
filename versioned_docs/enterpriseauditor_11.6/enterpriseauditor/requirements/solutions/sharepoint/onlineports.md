@@ -4,5 +4,5 @@ One of the following ports must be open for communication between Enterprise Aud
 
 | Port | Protocol | Source | Direction | Target | Purpose |
 | --- | --- | --- | --- | --- | --- |
-| 80 | TCP | Enterprise Auditor Console server | <--> | SharePoint Online Environment | HTTP Communication |
-| 443 | TCP | Enterprise Auditor Console server | <--> | SharePoint Online Environment | HTTPS Communication |
+| 80 | TCP | Enterprise Auditor Console server | `<-->` | SharePoint Online Environment | HTTP Communication |
+| 443 | TCP | Enterprise Auditor Console server | `<-->` | SharePoint Online Environment | HTTPS Communication |

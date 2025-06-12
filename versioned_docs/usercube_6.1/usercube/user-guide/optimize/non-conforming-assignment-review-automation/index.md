@@ -43,7 +43,7 @@ __Step 1 –__ On the home page in the __Configuration__ section, click on __Acc
 
 __Step 2 –__ In the dropdown menu at the top left, choose the entity type to which the future rule will be applied.
 
-![Addition Icon](/img/versioned_docs/iconadd_v602.png)
+![Addition Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 __Step 3 –__ Click on the __Automations__ tab and on the addition button at the top right corner.
 

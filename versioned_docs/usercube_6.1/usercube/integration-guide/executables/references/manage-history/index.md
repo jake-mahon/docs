@@ -12,7 +12,7 @@ To clean the database periodically, it can be purged of all the history older th
 
 The following example deletes all the history from the database that is more than 12-month old:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Manage-History.exe --purge-before-months 12 --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
@@ -24,7 +24,7 @@ The database can be purged of all history older than a given date.
 
 The following example deletes all the history from the database older than May 26th 1993:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Manage-History.exe --purge-before-date 19930526 --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
@@ -43,7 +43,7 @@ For each period, if there is more than one version (i.e. ```ValidFrom``` is insi
 - The latest version is kept
 - The oldest date is kept (that is, in the database, the ```ValidFor``` is equal to the one of the oldest version in the considered period).
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -59,7 +59,7 @@ As given data can have several versions in the database, redundant rows can be d
 
 The following example remove all duplicates in the database.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -69,7 +69,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 The following example remove all duplicates induced by the ```pwdLastSet``` property.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -83,7 +83,7 @@ To reduce the database load, the tool's optimizations can be made via the local 
 
 The following example deletes all the history from the database that is more than 12-month old, the optimizations being computed in memory instead of in the database:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

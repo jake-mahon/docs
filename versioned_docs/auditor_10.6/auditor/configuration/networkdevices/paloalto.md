@@ -15,7 +15,7 @@ To configure your PaloAlto devices, create a Syslog server profile and assign it
 
 Follow the steps to configure a Syslog server profile.
 
-__Step 1 –__ Connect to your PaloAlto device: launch an Internet browser and enter the IP address of the firewall in the URL field (https://<IP address>).
+__Step 1 –__ Connect to your PaloAlto device: launch an Internet browser and enter the IP address of the firewall in the URL field (https://`<IP address>`).
 
 __Step 2 –__ In the Web Interface, navigate to __Device__ > __Server Profiles__ > __Syslog__.
 

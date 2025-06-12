@@ -30,9 +30,9 @@ __Step 5 –__ Replace the ```"?/network/admin"``` parameter with the name of th
 
 Windows-based platforms:
 
-WALLET\_LOCATION = (SOURCE = (METHOD = file) (METHOD\_DATA = (DIRECTORY="D:\\myapp\\atp\_credentials")))
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="D:\\myapp\\atp_credentials")))
 
-SSL\_SERVER\_DN\_MATCH=yes
+SSL_SERVER_DN_MATCH=yes
 
 __Step 6 –__ Create the ```TNS_ADMIN``` environment variable and set it to the location of the credentials file.
 
@@ -48,7 +48,7 @@ myOracle =
 
 (address=((ADDRESS = (PROTOCOL = TCP)(HOST = server1)(PORT = 1521))
 
-(CONNECT\_DATA =
+(CONNECT_DATA =
 
 )
 
@@ -64,7 +64,7 @@ HTTP proxy connections are available starting with Oracle Instant Client 12.2.0.
 
 1. Add the following line to the ```sqlnet.ora``` file to enable connections through an HTTP proxy:
 
-   SQLNET.USE\_HTTPS\_PROXY=on
+   SQLNET.USE_HTTPS_PROXY=on
 2. Open the ```tnsnames.ora.``` file and add the following HTTP proxy connection definitions:
 
    - ```https_proxy``` — specify the proxy server hostname. For example, ```proxyhostname```.
@@ -72,21 +72,21 @@ HTTP proxy connections are available starting with Oracle Instant Client 12.2.0.
 
    Review configuration example:
 
-   ATPC\_high =
+   ATPC_high =
 
    (description=
 
    (address=
 
-   (https\_proxy=proxyhostname)(https\_proxy\_port=80)(protocol=tcps)(port=1522)(host=atpc.example.oraclecloud.com)
+   (https_proxy=proxyhostname)(https_proxy_port=80)(protocol=tcps)(port=1522)(host=atpc.example.oraclecloud.com)
 
    )
 
-   (connect\_data=(service\_name=atpc1\_high.atpc.oraclecloud.com)
+   (connect_data=(service_name=atpc1_high.atpc.oraclecloud.com)
 
    )
 
-   (security=(ssl\_server\_cert\_dn="atpc.example.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US")
+   (security=(ssl_server_cert_dn="atpc.example.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US")
 
    )
 
@@ -102,7 +102,7 @@ Do the following:
 
 1. Update your sqlnet.ora file. Example:
 
-   WALLET\_LOCATION = (SOURCE = (METHOD = file) (METHOD\_DATA = (DIRECTORY="/home/atpc\_credentials")))
+   WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="/home/atpc_credentials")))
 2. Copy the entries in the ```tnsnames.ora``` file provided in the Autonomous Transaction Processing wallet to your existing ```tnsnames.ora``` file.
 
 See also:

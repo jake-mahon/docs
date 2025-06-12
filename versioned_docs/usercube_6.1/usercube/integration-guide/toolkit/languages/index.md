@@ -2,7 +2,7 @@
 
 Some configuration string must be specified in multiple languages. For this, the name of the corresponding XML attribute is suffixed by ```_L1```, ```_L2```,... ```_L8```. For example, the property ```DisplayName``` of an [EntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) can be specified in English and French:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityType Identifier="Directory_User" DisplayName_L1="User" DisplayName_L2="Collaborateur">    ...  
@@ -11,7 +11,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 Languages list must be specified by [Language](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.md) elements.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Language Code="en-US" IndicatorNumber="1" />  <Language Code="fr-FR" IndicatorNumber="2" />

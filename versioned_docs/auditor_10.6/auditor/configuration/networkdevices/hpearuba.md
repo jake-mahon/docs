@@ -13,7 +13,7 @@ To configure HPE Aruba devices via Command Line Interface
    # configure terminal
 3. Specify IP address of the computer that hosts your Netwrix Auditor Server to send Syslog messages to:
 
-   # logging <ipaddr> severity information
+   # logging `<ipaddr>` severity information
 4. Specify event level for the following categories: security, system, user, wireless, network:
 
    # logging network level information
@@ -47,7 +47,7 @@ To configure HPE Aruba devices through the Management Console
    | Format | Select None. |
 5. Click Submit. The new server is added to the Syslog Servers list.
 6. Click Pending Changes on the right.
-7. In the Pending Changes for <X> Managed Controller(s) dialog, select the device you want to apply changes to.
+7. In the Pending Changes for `<X>` Managed Controller(s) dialog, select the device you want to apply changes to.
 8. Click Deploy Changes.
 9. If the configuration is correct, you will see the following wizard:
 

@@ -44,7 +44,7 @@ Example
 
 ![POST api/account/create](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/create.png)
 
-## GET api/account/user/<userId>
+## GET api/account/user/`<userId>`
 
 This API returns information about an internal account stored in the EpeUsers database with the User Id value as the input parameter.
 
@@ -54,9 +54,9 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/<userId>](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/userid.png)
+![GET api/account/user/`<userId>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/userid.png)
 
-## GET api/account/user/<userName>
+## GET api/account/user/`<userName>`
 
 This API returns information about an internal account stored in the EpeUsers database with the User Name value as the input parameter.
 
@@ -66,9 +66,9 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/<userName>](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/username.png)
+![GET api/account/user/`<userName>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/username.png)
 
-## DELETE api/account/delete?userName=<username>
+## DELETE api/account/delete?userName=`<username>`
 
 This API deletes an internal account stored in the EpeUsers database with the User Name value as the input parameter.
 
@@ -78,6 +78,6 @@ Authentication Type – Basic authentication
 
 Example
 
-![DELETE api/account/delete?userName=<username>](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.png)
+![DELETE api/account/delete?userName=`<username>`](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.png)
 
 To verify the result of this operation, you can use “GET api/account/users” or check the contents of the [EpeUsers].[dbo].[AspNetUsers] database table.

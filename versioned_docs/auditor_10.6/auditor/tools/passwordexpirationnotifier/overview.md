@@ -46,7 +46,7 @@ __Step 5 –__ Navigate to the __Actions__ tab and complete the following fields
 
 | Option | Description |
 | --- | --- |
-| Send report to the users’ managers | Enable this option to deliver reports to the user’s managers.  To review and edit the user's managers   1. Start __Active Directory Users and Computers__. 2. Navigate to each group where the user belongs to, right-click it and select Properties. 3. In the <user account> Properties dialog, select the Managed By tab and review a manager. Update it if necessary.   To edit a report template, click __Customize__. You can use HTML tags when editing a template. |
+| Send report to the users’ managers | Enable this option to deliver reports to the user’s managers.  To review and edit the user's managers   1. Start __Active Directory Users and Computers__. 2. Navigate to each group where the user belongs to, right-click it and select Properties. 3. In the `<user account>` Properties dialog, select the Managed By tab and review a manager. Update it if necessary.   To edit a report template, click __Customize__. You can use HTML tags when editing a template. |
 | List users whose accounts or passwords expire in <> days or less | Specify the expiration period for accounts and/or passwords to be included in the administrators and managers reports. |
 | Only report on users with expiring accounts | Select this option to deliver reports on users with expiring accounts only and ignore users whose passwords will be valid for a rather long time. |
 | Notify users | Select this option to notify users that their passwords and/or accounts are about to expire. |
@@ -96,7 +96,7 @@ Click Generate next to Generate report on users with expired account or password
 
 Review the basic registry keys that you may need to configure for monitoring expiring passwords within your Active Directory domain with Netwrix Auditor. Navigate to __Start > Run__ and type _"regedit"_.
 
-| Registry key (REG\_DWORD type) | Description / Value |
+| Registry key (REG_DWORD type) | Description / Value |
 | --- | --- |
-| HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Password Expiration Notifier |  |
+| HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Password Expiration Notifier |  |
 | HideEmailAdditionalInfo | Defines whether to show or hide the header and footer in emails sent to users and their managers (emails sent to administrators always have default header and footer):   - 0—Show - Any other number—Hide |

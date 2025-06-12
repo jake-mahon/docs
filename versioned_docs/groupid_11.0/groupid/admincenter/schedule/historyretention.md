@@ -35,7 +35,7 @@ What do you want to do?
 3. Click __Schedules__ under __Settings__ in the left pane.
 4. On the __Schedules__ page, click the plus sign next to __History Retention__. Then click the ellipsis button for the schedule and select __Edit__.
 5. On the __Edit Schedule__ page, the schedule name is displayed in the __Schedule Name__ box as read-only.  
-   The default name format is: _HistoryRetention\_<identity store ID>\_<identity store name>_.
+   The default name format is: _HistoryRetention\_`<identity store ID>`\_`<identity store name>`_.
 6. The __Name Preview__ box displays the schedule name as HistoryRetention; the schedule is displayed with this name in email notifications.
 7. In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 8. The __Triggers__ area displays the default triggering frequency for the schedule.

@@ -37,7 +37,7 @@ You can also specify the following settings:
 - [Content Query](#Content-Query)
 - [Table Configuration](#Table-Configuration)
 
-[![Closed](/img/versioned_docs/transparent.gif)Source Configuration](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->Source Configuration](javascript:void(0))
 
 The Source Configuration screen allows you to define which tables / views / queries will be crawled. The following options are available:
 
@@ -55,7 +55,7 @@ Selecting the Add Query option will present a popup allowing you to select a uni
 
 ![addsqlquery](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/addsqlquery.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)Primary Key Query](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->Primary Key Query](javascript:void(0))
 
 The primary key query should return a set of values that uniquely identify each row to be crawled, in the event that JOINs are used you should JOIN from the largest dataset to the smallest, to ensure that each row is unique.
 
@@ -63,7 +63,7 @@ Example: ```SELECT PageID FROM Pages```
 
 __NOTE:__ Stored procedures are currently not supported.
 
-[![Closed](/img/versioned_docs/transparent.gif)Content Query](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->Content Query](javascript:void(0))
 
 The content query must return all fields to be indexed/classified on, as well as the fields included in the primary key query.
 
@@ -75,7 +75,7 @@ Adding the query will take you to the custom query configuration. Here you can u
 
 ![setsqlquery](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/setsqlquery.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)Table Configuration](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->Table Configuration](javascript:void(0))
 
 The table configuration allows you to choose how each specific entity will be crawled:
 

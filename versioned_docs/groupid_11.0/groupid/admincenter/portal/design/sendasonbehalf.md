@@ -8,7 +8,7 @@ The _Send on Behalf_ permission in Microsoft Exchange and Office 365 allows a us
 
 For example, when User A grants Send on Behalf permissions to User B, then User B can send email on behalf of User A. User B will be able to choose User A’s email address in the ‘From’ field when composing a message in Outlook. Message recipients will see both User A’s address and User B’s address, as the ‘From’ address will read as:
 
-_From: Mailbox <User B's address> on behalf of Mailbox <User A’s address>._
+_From: Mailbox `<User B's address>` on behalf of Mailbox <User A’s address>._
 
 ### The Send As Permission
 

@@ -18,7 +18,7 @@ __Step 1 –__ Click __Filter__ to add a condition or a group to the root of the
 
 __Step 2 –__ Click __RecordNumber__ to configure the search to look for specific events or a range of events.
 
-__Step 3 –__ Click __equals__ and __<empty>__ to further configure the condition as required.
+__Step 3 –__ Click __equals__ and __`<empty>`__ to further configure the condition as required.
 
 __Step 4 –__ (Optional) At the root or group level, click __AND__ to change the logical operator for that level. The available options are __AND__, __OR__, __NOT AND__, and __NOT OR__.
 

@@ -19,7 +19,7 @@ Perform one of the following procedures depending on the OS version:
 
 __Step 1 –__ On your target server, open __Registry Editor__: navigate to __Start → Run__ and type _"regedit"_.
 
-__Step 2 –__ In the registry tree, expand the __HKEY\_LOCAL\_MACHINE__ key, right-click __SOFTWARE__ and select __Permissions__ from the pop-up menu.
+__Step 2 –__ In the registry tree, expand the __HKEY_LOCAL_MACHINE__ key, right-click __SOFTWARE__ and select __Permissions__ from the pop-up menu.
 
 __Step 3 –__ In the __Permissions for SOFTWARE__ dialog, click __Advanced__.
 
@@ -43,7 +43,7 @@ Repeat the same steps for the ```HKEY_LOCAL_MACHINE\SYSTEM``` key.
 
 __Step 1 –__ On your target server, open __Registry Editor__: navigate to __Start → Run__ and type _"regedit"_.
 
-__Step 2 –__ In the registry tree, expand the __HKEY\_LOCAL\_MACHINE__ key, right-click __SOFTWARE__ and select __Permissions__ from the pop-up menu.
+__Step 2 –__ In the registry tree, expand the __HKEY_LOCAL_MACHINE__ key, right-click __SOFTWARE__ and select __Permissions__ from the pop-up menu.
 
 __Step 3 –__ In the __Permissions for SOFTWARE__ dialog, click __Advanced__.
 

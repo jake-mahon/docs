@@ -83,11 +83,11 @@ Follow the steps to assign permissions on the Long-Term Archive folder:
 
 __Step 1 –__ Navigate to a folder where the Long-Term Archive will be stored, right-click it and select Properties.
 
-__Step 2 –__ In the __<Folder\_name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 2 –__ In the __<Folder_name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
 __Step 3 –__ In the Advanced Security dialog, select the Permissions tab and click Add.
 
-__Step 4 –__ In the Permission Entry for <Folder\_Name> dialog, apply the following settings:
+__Step 4 –__ In the Permission Entry for <Folder_Name> dialog, apply the following settings:
 
 - Specify an account as principal.
 - Set Type to _"Allow"_.
@@ -112,17 +112,17 @@ Follow the steps to assign the __Change__ and __Create Files/Write Data__ permis
 
 __Step 1 –__ Navigate to a folder where report subscriptions will be stored, right-click it and select Properties.
 
-__Step 2 –__ In the __<Share\_Name> Properties__ dialog, select the __Sharing__ tab and click __Advanced Sharing__.
+__Step 2 –__ In the __<Share_Name> Properties__ dialog, select the __Sharing__ tab and click __Advanced Sharing__.
 
 __Step 3 –__ In the Advanced Sharing dialog, click Permissions.
 
-__Step 4 –__ In the Permissions for <Share\_Name> dialog, select a principal or add a new, then check the Allow flag next to Change.
+__Step 4 –__ In the Permissions for <Share_Name> dialog, select a principal or add a new, then check the Allow flag next to Change.
 
-__Step 5 –__ Apply settings and return to the __<Share\_Name> Properties__ dialog.
+__Step 5 –__ Apply settings and return to the __<Share_Name> Properties__ dialog.
 
-__Step 6 –__ In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 6 –__ In the __<Share_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
-__Step 7 –__ In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Permissions__ tab, select a principal and click Edit, or click Add to add a new one.
+__Step 7 –__ In the __Advanced Security Settings for <Share_Name>__ dialog, navigate to the __Permissions__ tab, select a principal and click Edit, or click Add to add a new one.
 
 __Step 8 –__ Apply the following settings to your Permission Entry.
 

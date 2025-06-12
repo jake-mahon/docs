@@ -63,7 +63,7 @@ Time Sync
 - secureone@ip-10-100-11-27:/secureone/conf/fluentd$ sudo docker exec -it $(sudo docker ps | grep mongo | cut -d' ' -f1) mongo SecureONE --eval 'rs.printSlaveReplicationInfo()'  
   MongoDB shell version v4.0.20  
   connecting to: mongodb://127.0.0.1:27017/SecureONE?gssapiServiceName=mongodb  
-  Implicit session: session { "id" : UUID("dcab2535-4051-48df-80fd-eec1136f692b") }  
+  Implicit session: session \{ "id" : UUID("dcab2535-4051-48df-80fd-eec1136f692b") \}  
   MongoDB server version: 4.0.20  
   source: mongo2:27017  
    syncedTo: Tue Sep 22 2020 16:03:34 GMT+0000 (UTC)  

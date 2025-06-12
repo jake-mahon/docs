@@ -61,11 +61,11 @@ Instructions appear at the top of the Password Change page in the white section 
 
 Instructions are inside ranges called SECTION\_A and SECTION\_B. Each section contains the instructions for a page in the template. Make sure you edit the instructions in the correct section, or they may be displayed on the wrong page.
 
-<!--SECTION\_A-->
-
-<p>Enter your username and domain, and then click Next to continue…
-
-<!--/SECTION\_A-->
+```html
+<!--SECTION_A-->
+<p>Enter your username and domain, and then click Next to continue…</p>
+<!--/SECTION_A-->
+```
 
 <!--SECTION\_B-->
 
@@ -101,9 +101,9 @@ You may see placeholders like %1 and %2 in some error messages. These are replac
 | @RES\_ACCOUNT\_LOCKED\_OUT | Your account is currently locked out. Try aga… |
 | @RES\_LICENSE\_MISSING | License reminder. Your password was not chang… |
 
-If you want to display some text for all error messages, then insert your text above or below the ```<p><!--ERROR--></p>``` line. For example:
+If you want to display some text for all error messages, then insert your text above or below the `<p>{/*ERROR*/}</p>` line. For example:
 
-<p><!--ERROR--></p>
+<p>{/*ERROR*/}</p>
 
 <p>The help desk phone number is 555-555-5555.</p>
 
@@ -113,31 +113,26 @@ The finished message is shown after users successfully change their password. Th
 
 ![editing_the_html_templates_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/editing_the_html_templates_1.png)
 
+```html
 <h1>Finished</h1>
-
-<p>Your password has been changed. You can now logon with your new pass…
+<p>Your password has been changed. You can now logon with your new pass…</p>
+```
 
 ### Change Font Sizes and Colors
 
 ```ppeweb.css``` contains most of the user interface formatting information. You can easily change font sizes and colors by editing this file. You can even reposition and resize items, but you will need some understanding of CSS to do this. For example, this is the CSS for the validation error box:
 
+```css
 .error {
-
-background-color: #ffffd6;
-
-border: 3px solid #ff8080;
-
-color: #333333;
-
-font: bold 1.3em/1.2em Arial, sans-serif;
-
-margin: 3px 0 0 4px;
-
-padding: 6px 22px 6px 8px;
-
-width: 499px;
-
+  background-color: #ffffd6;
+  border: 3px solid #ff8080;
+  color: #333333;
+  font: bold 1.3em/1.2em Arial, sans-serif;
+  margin: 3px 0 0 4px;
+  padding: 6px 22px 6px 8px;
+  width: 499px;
 }
+```
 
 Edit these properties to change the appearance of the error box. You may need to clear your web browser's cache to see the changes.
 

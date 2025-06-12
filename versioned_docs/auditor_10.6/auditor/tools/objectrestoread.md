@@ -23,7 +23,7 @@ To perform this procedure, you will need the [ADSI Edit](http://technet.microsof
 
 1. Navigate to Start > Windows Administrative Tools→ ADSI Edit.
 2. Right-click the __ADSI Edit__ node and select __Connect To__. In the __Connection Settings__ dialog, enable __Select a well-known Naming Context__ and select __Schema__ from the drop-down list.
-3. Expand the Schema your\_Root\_Domain\_name node. Right-click the CN=Unicode-Pwd attribute and select Properties.
+3. Expand the Schema your_Root_Domain_name node. Right-click the CN=Unicode-Pwd attribute and select Properties.
 
    ![ad_object_restore_1](/img/versioned_docs/auditor_10.6/auditor/tools/ad_object_restore_1.png)
 4. Double-click the searchFlags attribute and set its value to _"8"_.

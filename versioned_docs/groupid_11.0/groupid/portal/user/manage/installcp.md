@@ -30,20 +30,20 @@ Browse to the folder where you have copied the package:
      Provide the URL to which you want to redirect the user to reset his/her forgotten password.
 
      - __For GroupID 10__:  
-       https://MachineName:port/portalname
+       `https://MachineName:port/portalname`
      - __For GroupID 11__:  
-       https://Machniename:port/portalname/Home/PasswordReset
-4. <UnlockMyAccountUrl value="https://MachineName:port/Portalname" />
+       `https://MachineName:port/portalname/Home/PasswordReset`
+4. `<UnlockMyAccountUrl value="https://MachineName:port/Portalname" />`
 
    Provide the URL to which you want to redirect the user to unlock his/her locked account.
 
    - __For GroupID 10:__
        
-     https://MachineName:port/Portalname"
+     `https://MachineName:port/Portalname`
    - __For GroupID 11:__
        
-     https://Machinename:port/portalname/Home/UnlockAccount
-5. <CPTitle value="Log on to: Netwrix GroupID" />
+     `https://MachineName:port/portalname/Home/UnlockAccount`
+5. `<CPTitle value="Log on to: Netwrix GroupID" />`
 
    Provide the text for the CPTitle key. This text will appear as title under the Netwrix logo on the Windows logon screen.
 

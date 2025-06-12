@@ -114,6 +114,7 @@ __NOTE:__ Debug logs should only be used for troubleshooting purposes. It's reco
 
 ...
 
+```xml
 <CEEConfig>
 
 <Configuration>
@@ -153,5 +154,6 @@ __NOTE:__ Debug logs should only be used for troubleshooting purposes. It's reco
 </Configuration>
 
 </CEEConfig>
+```
 
 __NOTE:__ All protocol strings are case sensitive.

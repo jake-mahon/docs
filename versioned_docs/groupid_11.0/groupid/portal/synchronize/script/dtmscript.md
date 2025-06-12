@@ -18,7 +18,7 @@ The type of script determines the nature of the script result:
 
 DTM keywords give you access to the data being processed.
 
-- DTM.Source(__<fieldname>__)
+- DTM.Source(__`<fieldname>`__)
 
   This function has a single string argument: field name. DTM.Source returns the value of the specified field (or "attribute") for the current row ("object")
   in the source data.
@@ -31,7 +31,7 @@ DTM keywords give you access to the data being processed.
 
   In any script, each branch of execution must assign a value to DTM.Result. Failure to assign a value to DTM.Result causes a runtime error, and the destination row ("object") is not updated or
   created . The job still runs to completion.
-- DTM.ExpandVariables(__<text>__)
+- DTM.ExpandVariables(__`<text>`__)
 
   This function has a single string argument: text. It returns the valueof the specified text as a string after replacing each environment variable embedded in the text
   with its string equivalent. Environment variables are surrounded by "%" characters, as in "%now%" and "%SystemDrive%".
@@ -39,11 +39,11 @@ DTM keywords give you access to the data being processed.
 
   This subroutine contains no arguments. The current destination row ("object") is not updated or created. DTM.CancelRow provides a way to bypass certain objects based on their attributes. (In general, using a filter
   query for this purpose gives better performance.)
-- DTM.AddToContext(<__Key__>,<__Value__>)
+- DTM.AddToContext(`<__Key__>`,`<__Value__>`)
 
   This function has two arguments: Key and Value. When data is to be shared across segments of code in different editors
   supported by the Synchronize job wizard, it needs to be placed in the Context. This practice prevents errors and exceptions.
-- DTM.Context(<__Key__>)
+- DTM.Context(`<__Key__>`)
 
   This property has a single argument: Key. An object that has been added to the Context is retrieved by passing its key (identity) to this property.
 

@@ -14,9 +14,9 @@ Windows PowerShell
 
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_for\_RADIUS\_Server.ps1 - NetwrixAuditorHost 172.28.6.15 -RADIUSHost 172.28.6.16
+PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_Add-on_for_for_RADIUS_Server.ps1 - NetwrixAuditorHost 172.28.6.15 -RADIUSHost 172.28.6.16
 
-__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons\_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons\_").
+__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons_").
 
 __Step 4 –__ Hit __Enter__.
 

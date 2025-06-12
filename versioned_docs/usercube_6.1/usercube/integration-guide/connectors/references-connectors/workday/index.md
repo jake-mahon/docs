@@ -104,17 +104,18 @@ The file specified in ```InputFilePath``` must have a specific structure, with a
 
 This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder:
 
-- one CSV file for each entity, named ```<connectionIdentifier>_<entityName>.csv```, with the following columns:
+- one CSV file for each entity, named `<connectionIdentifier>_<entityName>.csv`, with the following columns:
 
   - __Command__: used for [PrepareSynchronizationTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md#PrepareSynchronizationTask);
-  - one column for each XPath found in the [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).```
+  - one column for each XPath found in the [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).
+
+  ```
   <connectionIdentifier>_<entityName>.csv
 
   Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N
   Add,value1,value2,...,valueN
-
   ```
-- a cookie file named ```workday_<connectionIdentifier>_cookie.bin```, containing the time of the last export in order to perform an incremental export.
+- a cookie file named `workday_<connectionIdentifier>_cookie.bin`, containing the time of the last export in order to perform an incremental export.
 
   Most exports can be run in complete mode, where the CSV files will contain all entries, or in incremental mode, where CSV files will contain only the entries which have been modified since the last synchronization.
     

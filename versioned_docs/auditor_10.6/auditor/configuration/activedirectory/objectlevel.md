@@ -15,7 +15,7 @@ Perform the following procedures to configure object-level auditing for the Doma
 2. In the __Active Directory Users and Computers__ dialog, click __View__ in the main menu and ensure that the __Advanced Features__ are enabled.
 
    ![manualconfig_aduc_advsecwinserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_aduc_advsecwinserver2016.png)
-3. Right-click the __<domain\_name>__ node and select __Properties.__ Select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for <domain\_name>__ dialog, select the __Auditing__ tab.
+3. Right-click the __`<domain_name>`__ node and select __Properties.__ Select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for `<domain_name>`__ dialog, select the __Auditing__ tab.
 
    ![manualconfig_aduc_advauditing_winserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_aduc_advauditing_winserver2016.png)
 4. Do one of the following depending on the OS:
@@ -45,8 +45,8 @@ To perform this procedure, you will need the [ADSI Edit](http://technet.microsof
 2. Right-click the __ADSI Edit__ node and select __Connect To__. In the __Connection Settings__ dialog, enable __Select a well-known Naming Context__ and select __Configuration__ from the drop-down list.
 
    ![manualconfig_adsi_connectionwinserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.png)
-3. Expand the __Configuration <Your\_Root\_Domain\_Name>__ node. Right-click the __CN=Configuration, DC=<name>,DC=<name>…__ node and select __Properties.__
-4. In the __CN=Configuration, DC=<name>, DC=<name> Properties__ dialog select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for Configuration__ dialog, open the __Auditing__ tab.
+3. Expand the __Configuration `<Your_Root_Domain_Name>`__ node. Right-click the __CN=Configuration, DC=`<name>`,DC=`<name>`…__ node and select __Properties.__
+4. In the __CN=Configuration, DC=`<name>`, DC=`<name>` Properties__ dialog select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for Configuration__ dialog, open the __Auditing__ tab.
 5. Do one of the following depending on the OS:
 
    - On pre-Windows Server 2012 versions:

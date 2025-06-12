@@ -23,8 +23,8 @@ Follow the steps to modify these files.
 
 __Step 1 –__ Open the SIWindowsAgent.exe.config or SIWinConsole.exe.Config file.
 
-__Step 2 –__ Find the parameter: <add key="managerAddress" value=
+__Step 2 –__ Find the parameter: `<add key="managerAddress" value=`
 
 __Step 3 –__ Change the parameter to use the DNS name of the Enterprise Manager server. For example:
 
-<add key="managerAddress" value="exampleservername.domain.local:3740" />
+`<add key="managerAddress" value="exampleservername.domain.local:3740" />`

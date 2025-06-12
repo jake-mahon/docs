@@ -15,7 +15,7 @@ To configure your SonicWall devices, do the following:
 
 To configure SonicWall Web Application Firewall
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:84443_, where IP address is the IP of the device and 84443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:84443_, where IP address is the IP of the device and 84443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate to Log → Settings and configure the following:
 
@@ -38,7 +38,7 @@ To configure SonicWall Web Application Firewall
 
 To configure SonicWall SMA
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:8443_, where IP address is the IP of the device and 8443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:8443_, where IP address is the IP of the device and 8443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate Log → Settings and configure the following:
 
@@ -61,7 +61,7 @@ To configure SonicWall SMA
 
 To configure SonicWall NS series
 
-1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://<IP address>:443_, where IP address is the IP of the device and 443 is the default connection port.
+1. Connect to your SonicWall device. Launch an Internet browser and enter the following in the URL field: _https://`<IP address>`:443_, where IP address is the IP of the device and 443 is the default connection port.
 2. Log in to the device.
 3. In the Web Interface, navigate to Manage → Log Settings → Base Setup.
 4. Select all checkboxes in the Syslog column.
@@ -83,7 +83,7 @@ Review a full list of object types Netwrix Auditor can collect on SonicWall netw
 | Object type | Actions | Event ID |
 | --- | --- | --- |
 | Logon | - Successful logon | - User login from an internal zone allowed - User login successful - XAUTH Succeeded with VPN - VPN zone remote user login allowed - WAN zone remote user login allowed - PPP: Authentication successful - Local Authentication Success - RADIUS/LDAP Authentication Success - Successful authentication received for Remotely Triggered - IKEv2 Authentication successful - SSL VPN zone remote user login allowed |
-| - Failed logon | - User login denied - User login failed - XAUTH Failed with VPN - L2TP PPP Authentication Failed - check username / password - RADIUS/LDAP reports Authentication Failure - Local Authentication Failure - User login to Administration Portal denied - User login failure rate exceeded - User Name authentication Failure locally - ISAKMP\_AUTH\_FAILED - Guest service limit reached - Guest login denied - Incorrect authentication received for Remotely Triggered - Authentication Timeout during Remotely Triggered - Problem occurred during user group membership retrieval - An error has occurred while sending your - IPsec Authentication Failed |  |
+| - Failed logon | - User login denied - User login failed - XAUTH Failed with VPN - L2TP PPP Authentication Failed - check username / password - RADIUS/LDAP reports Authentication Failure - Local Authentication Failure - User login to Administration Portal denied - User login failure rate exceeded - User Name authentication Failure locally - ISAKMP_AUTH_FAILED - Guest service limit reached - Guest login denied - Incorrect authentication received for Remotely Triggered - Authentication Timeout during Remotely Triggered - Problem occurred during user group membership retrieval - An error has occurred while sending your - IPsec Authentication Failed |  |
 | - Logoff | - User logged out - logged out - Guest Session Timeout - Guest Account Timeout - Guest Idle Timeout - Guest traffic quota exceeded |  |
 | Authentication | - Successful Logon | - Administrator login allowed - CLI administrator login allowed - VPN zone administrator login allowed - WAN zone administrator login allowed - Configuration mode administration session started - Read-only mode GUI administration session started - Non-config mode GUI administration session started - User login successful - Session Start: - EventMessage: Session Start Success |
 | - Failed Logon | - Administrator login denied - CLI administrator login denied due to bad credentials - User login failed - The account has been disabled for - is not permitted for this Web App - Authentication for user - Authentication failed - maximum authentication attempts exceeded for - EventMessage: Session Start Failed |  |

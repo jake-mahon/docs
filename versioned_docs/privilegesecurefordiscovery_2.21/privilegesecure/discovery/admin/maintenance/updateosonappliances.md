@@ -43,10 +43,10 @@ Check for the swarm leader:
 s1 nodes | grep Leader
 ```
 
-Only if the node being updated has a MANAGER STATUS of leader, run the below command on a different node to change the swarm Leader.  Replace <hostname> with the hostname of the node being upgraded and run the command below.
+Only if the node being updated has a MANAGER STATUS of leader, run the below command on a different node to change the swarm Leader.  Replace `<hostname>` with the hostname of the node being upgraded and run the command below.
 
 ```
-HNupg=<hostname> ;  sudo docker node demote $HNupg; sleep 10; sudo docker node promote $HNupg
+HNupg=`<hostname>` ;  sudo docker node demote $HNupg; sleep 10; sudo docker node promote $HNupg
 ```
 
 Verify swarm leader is no longer the node being updated:
@@ -64,7 +64,7 @@ List nodes with:
 
 Drain node to be updated:
 
-- sudo docker node update --availability drain <hostname>
+- sudo docker node update --availability drain `<hostname>`
 
 Verify “Availability” is set to “Drain” with:
 
@@ -96,7 +96,7 @@ S
 
 - Set drained node to active from a different node:
 
-  - sudo docker node update --availability active <hostname>
+  - sudo docker node update --availability active `<hostname>`
 - Monitor for the node to complete rebooting with:
 
   - watch s1 nodes

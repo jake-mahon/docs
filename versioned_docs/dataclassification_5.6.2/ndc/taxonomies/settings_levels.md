@@ -5,7 +5,7 @@ Review the following for additional information:
 - [Taxonomy/TermSet Level](#TaxonomyTermSet-Level)
 - [Class / Term Level](#Class-Term-Level)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Taxonomy/TermSet Level](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Taxonomy/TermSet Level](javascript:void(0))
 
 When the root node is selected in the tree-view (the termset) the Settings tab will display top level taxonomy settings as well as global settings applicable to the Taxonomies area.
 
@@ -23,7 +23,7 @@ When the root node is selected in the tree-view (the termset) the Settings tab w
 | Show Empty Nodes | Sets the display mode for empty nodes in the treeview. |
 | Synchronise Termset | Enables/Disables automatic synchronisation through the TermStoreManager tool for the whole Term Set. |
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Class / Term Level](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Class / Term Level](javascript:void(0))
 
 When a child node is selected in the tree-view the “Settings” tab will display settings for the selected term:
 

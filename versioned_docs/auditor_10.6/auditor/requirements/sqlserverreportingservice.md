@@ -57,7 +57,7 @@ __Step 2 –__ In the Reporting Services Configuration Connection dialog, make s
 __Step 3 –__ 
 In the __Reporting Services Configuration Manager__ left pane, select __Web Service URL__. Make sure that:
 
-- __Virtual Directory__ is set to _ReportServer\_<YourSqlServerInstanceName>_ (e.g., _ReportServer\_SQLEXPRESS_ for _SQLEXPRESS_ instance)
+- __Virtual Directory__ is set to _ReportServer_<YourSqlServerInstanceName>_ (e.g., _ReportServer_SQLEXPRESS_ for _SQLEXPRESS_ instance)
 - __TCP Port__ is set to _80_
 
 __Step 4 –__ In the Reporting Services Configuration Manager left pane, select __Database__. Make sure that the SQL Server Name and Database Name fields contain correct values. If necessary, click __Change Database__ and complete the Report Server Database Configuration wizard.

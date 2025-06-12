@@ -14,7 +14,7 @@ To configure the remote connection client, use a connection string with the foll
 
 Connection String Format:
 
-<username>+<activity>+<resource>+<access policy>+<notes>
+`<username>+<activity>+<resource>+<access policy>+<notes>`
 
 Connection String Example:
 

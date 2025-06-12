@@ -48,7 +48,7 @@ NOTE: A key feature of Netwrix Password Secure is, that it is self-hosted by our
 - Add the Users and groups that should be available to Netwrix Password Secure
 
 __CAUTION:__ 
-The import of Azure groups as {Netwrix Password Secure roles is only possible if you have booked the Azure package Entra ID Premium P1!
+The import of Azure groups as Netwrix Password Secure roles is only possible if you have booked the Azure package Entra ID Premium P1!
 
 - Navigate to the "Provisioning" page
 - Configure the Provisioning Mode to "Automatic"

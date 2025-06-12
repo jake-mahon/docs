@@ -24,7 +24,7 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
   The name of a child Dynasty starts with the name of its parent Dynasty (unless you change the naming template for Dynasty children).
 - For a Managerial Dynasty:
 
-  By default, the naming template for its child Dynasties starts with "Direct reports of <manager>".
+  By default, the naming template for its child Dynasties starts with "Direct reports of `<manager>`".
 
 To modify the display name template for child Dynasties, see [Modify alias and display name templates](/versioned_docs/groupid_11.0/groupid/portal/group/manage/dynastyfunction.md#Modify-alias-and-display-name-templates).
 

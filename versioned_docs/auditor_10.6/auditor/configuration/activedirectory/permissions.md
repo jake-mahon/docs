@@ -33,7 +33,7 @@ You will also need to configure Exchange Administrator Audit Logging (AAL) setti
 
 The following is required if auto-backup is enabled for the domain controller event logs:
 
-- Permissions to access the HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic for additional information.
+- Permissions to access the HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic for additional information.
 - Membership in one of the following groups: __Administrators__, __Print Operators__, __Server Operators__.
 - Read/Write share permission and Full control security permission on the logs backup folder.
 
@@ -41,7 +41,7 @@ The following is required if auto-backup is enabled for the domain controller ev
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange\_server\_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange_server_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ### Target Domain
 
@@ -59,7 +59,7 @@ If you need to process Active Directory __Deleted Objects__ container, consider 
 
 If auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissionsregistrykeys.md) topic for additional information.
+- Permissions to access the _HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissionsregistrykeys.md) topic for additional information.
 - Membership in any of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder.
 
@@ -68,13 +68,13 @@ __NOTE:__ Grant these permissions only if the account you plan to use for data c
 If you have an on-premises Exchange server in your Active Directory domain, consider that some changes can be made via that Exchange server. To be able to audit and report who made those changes, you should make sure that the account used for data collection has any of the following:
 
 - Membership in the __Organization Management__ or __Records Management__ group.
-- The __Audit Logs__ management role (see the [Assigning Management Roles](/versioned_docs/auditor_10.6/auditor/configuration/exchange/auditlogsrole.md) topic for additional information).
+- The __Audit Logs__ management role (see the [Configure Exchange Permissions](/versioned_docs/auditor_10.6/auditor/configuration/exchange/permissions.md) topic for additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/versioned_docs/auditor_10.6/auditor/configuration/exchange/auditlog.md) topic for additional information.
 
 If you are using gMSA for data collection, consider that AAL event data collection from your on-premise Exchange server will not be possible.
 
-Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange\_server\_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
+Thus, changes made to your Active Directory domain via that Exchange server will be reported with _domain\Exchange_server_name$_ instead of the initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
 ## Configure the Manage Auditing and Security Log Policy
 
@@ -84,7 +84,7 @@ Follow the steps to configure the Manage Auditing and Security Log Policy.
 
 __Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
 
-__Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> > Domains > <domain\_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` > Domains > `<domain_name>`__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 
 __Step 3 –__ In the __Group Policy Management Editor__ dialog, expand the __Computer Configuration__ node on the left and navigate to __Policies > Windows Settings > Security Settings > Local Policies.__
 
@@ -110,7 +110,7 @@ __Step 1 –__ Log on to any domain controller in the target domain with a user 
 
 __Step 2 –__ Navigate to __Start > Run__ and type _"cmd"_.
 
-__Step 3 –__ Input the following command: ```dsacls <deleted_object_dn> /takeownership```
+__Step 3 –__ Input the following command: ```dsacls `<deleted_object_dn>` /takeownership```
 
 where ```deleted_object_dn``` is the distinguished name of the deleted directory object.
 
@@ -118,7 +118,7 @@ For example: ```dsacls "CN=Deleted Objects,DC=Corp,DC=local" /takeownership```
 
 __Step 4 –__ To grant permission to view objects in the __Deleted Objects__ container to a user or a group, type the following command:
 
-```dsacls <deleted_object_dn> /G <user_or_group>:<Permissions>```
+```dsacls `<deleted_object_dn>` /G `<user_or_group>`:<Permissions>```
 
 where ```deleted_object_dn``` is the distinguished name of the deleted directory object and``` user_or_group``` is the user or group for whom the permission applies, and ```Permissions``` is the permission to grant.
 
@@ -166,7 +166,7 @@ Follow the steps to configure the Log On As a Batch Job policy using the Group P
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) > Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> > Domains > <domain name> > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the Default Domain Controllers Policy), and select Edit.
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` > Domains > `<domain name>` > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the Default Domain Controllers Policy), and select Edit.
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies > Windows Settings > Security Settings > Local Policies.
 

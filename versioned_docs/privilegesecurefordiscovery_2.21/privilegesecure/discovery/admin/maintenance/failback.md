@@ -85,7 +85,7 @@ sudo docker service scale s1_api=1 s1_ldapsync=1 s1_scanner=1 s1_worker=1
 
 Run ```sudo docker service ls``` to confirm all services are now showing a replicas status of 1/1. Note, it can take 30-60 seconds after the above command completes for them to “start” and show the 1/1 replicas status. If after 60 seconds the services are showing 0/0 or 0/1 a check of the services running status will need to be complete with the ```sudo docker service ps``` command described below.
 
-__Service Status Check__: The ```sudo docker service ls``` command only shows the replicas status. To see if a service is “running”, execute the command ```sudo docker service ps s1_<SERVICE>```. The <SERVICE> variable in the command will need to be replaced with the service that you want to check the status for. Example to check the running status of the API service, the command would be ```sudo docker service ps s1_api```.
+__Service Status Check__: The ```sudo docker service ls``` command only shows the replicas status. To see if a service is “running”, execute the command ```sudo docker service ps s1_<SERVICE>```. The `<SERVICE>` variable in the command will need to be replaced with the service that you want to check the status for. Example to check the running status of the API service, the command would be ```sudo docker service ps s1_api```.
 
 ### Step #6: (failback\_restore.sh)
 

@@ -16,9 +16,9 @@ __NOTE:__ You must be assigned the Global administrator role to import investiga
    | Option | Description |
    | --- | --- |
    | SQL Server Instance | Specify the name of the SQL Server instance to import your audit data to.  If you want to run searches and generate reports, select the same SQL Server instance as the one specified on Settings  → Audit Database page. See [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) topic for more information. |
-   | Database | Select import database name. By default, data is imported to a specially created the Netwrix\_ImportDB database but you can select any other.  Do not select databases that already contain data. Selecting such databases leads to data overwrites and loss. |
+   | Database | Select import database name. By default, data is imported to a specially created the Netwrix_ImportDB database but you can select any other.  Do not select databases that already contain data. Selecting such databases leads to data overwrites and loss. |
    | Authentication | Select the authentication type you want to use to connect to the SQL Server instance:  - Windows authentication - SQL Server authentication |
-   | User name | Specify the account to be used to connect to the SQL Server instance. This account must be granted the __database owner (db\_owner)__ role and the dbcreator server role. |
+   | User name | Specify the account to be used to connect to the SQL Server instance. This account must be granted the __database owner (db_owner)__ role and the dbcreator server role. |
    | Password | Enter a password. |
    | Clear imported data | Select to delete all previously imported data.  To prevent SQL Server from overfilling, it is recommended to clear imported data once it is longer needed. |
 3. Review your New investigation configuration. Click Configure to specify the import scope.

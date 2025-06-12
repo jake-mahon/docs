@@ -43,7 +43,7 @@ Optionally, you can click the Create Test Ticket button — then a test ticket w
 Its Summary field will contain _[Netwrix Auditor] Test Alert_; its Initial Description field will contain _This ticket was created to test the functionality of Netwrix Auditor Add-on for ConnectWise Manage_. Also, the test ticket will have a sample attachment (_TestAttachment.txt_).   
 ![testalert](/img/versioned_docs/auditor_10.6/auditor/addon/connectwise/testalert.png)
 
-__Step 5 –__  Finally, at the __Summary__ step, review the location of configuration file with the settings you specified: _C:\Addon\ITSM\_CW\ConnectWiseSettings.xml_.
+__Step 5 –__  Finally, at the __Summary__ step, review the location of configuration file with the settings you specified: _C:\Addon\ITSM_CW\ConnectWiseSettings.xml_.
 
 [![summary](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/connectwise/summary.png)
 

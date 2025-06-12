@@ -11,7 +11,7 @@ This section contains information on how to configure text processing. Related o
 - [Synonyms](#Synonyms)
 - [Text Patterns](#Text-Patterns)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Best Bets](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Best Bets](javascript:void(0))
 
 Sometimes an application may wish to push selected documents to the top of a hitlist for specific queries. This may be implemented by specifying Best Bets for specific query text.
 
@@ -21,7 +21,7 @@ First, enter the search term that you wish to match and then click the Add butto
 
 Next, click on the term, and specify one or more URLs that should appear at the top of the hit list.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Content Type Extension Mapping](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Content Type Extension Mapping](javascript:void(0))
 
 Sometimes an organization may wish to process certain file types as a different content type. The primary use case for this is internal content types that map to a content type already understood / identified.
 
@@ -29,7 +29,7 @@ In this case the example has a .rpt file being treated as a text file, as such t
 
 ![configcontenttypeextensionmappings](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configcontenttypeextensionmappings.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Content Type Extraction Methods](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Content Type Extraction Methods](javascript:void(0))
 
 The Content Type Extraction methods describes how documents will be handled by the APIs and the core services. A number of built-in processing methods are available, where there is no available method the processing will default to running through standard Microsoft Search iFilter processing.
 
@@ -39,7 +39,7 @@ If you have updated the extraction method we recommend re-processing any documen
 
 [![configcontenttypeextractionmethods_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configcontenttypeextractionmethods_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/configcontenttypeextractionmethods.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Language Detection](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Language Detection](javascript:void(0))
 
 The language detection list specifies which languages will be considered for auto-detection.
 
@@ -49,25 +49,25 @@ If a language is excluded then it cannot be used to identify the language of a d
 
 __TIP:__ You can also OCR recognition for non-English images. Refer to the following Netwrix knowledge base article for more information: [How to enable OCR for non-English images](https://kb.netwrix.com/3519).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[No Stem](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[No Stem](javascript:void(0))
 
 The No Stem list offers the ability to disable language stemming for a particular word or phrase, this supports the ability to always apply a phrasematch when a particular term is used as either a clue – or a search term.
 
 [![confignostem_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/confignostem_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/confignostem.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[OCR Language Mapping](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[OCR Language Mapping](javascript:void(0))
 
 The OCR language mapping configuration screen can be used if you wish to OCR non-English images via Tesseract. File paths (including parts of paths) can be mapped to specific Tesseract language packs.
 
 ![configocrlanguagemapping](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configocrlanguagemapping.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Synonyms](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Synonyms](javascript:void(0))
 
 Often it is important to submit a query and have synonyms automatically included. A generic set of synonyms may be configured by using the Synonyms form.
 
 ![configsynonyms](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configsynonyms.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Text Patterns](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Text Patterns](javascript:void(0))
 
 Many HTML web pages contain navigation information and other extraneous information that is the same for all pages and/or not relevant to the individual page content. If all of the text is indexed from these HTML pages then this can lead to unwanted search results where a match is made, for example, to an entry in a standard page navigation area.
 

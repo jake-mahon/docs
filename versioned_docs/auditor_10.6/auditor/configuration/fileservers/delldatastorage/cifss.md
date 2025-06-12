@@ -19,11 +19,11 @@ Perform the following steps:
 
 __Step 1 –__ Navigate to the target file share, right-click it and select __Properties__.
 
-__Step 2 –__ In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 2 –__ In the __<Share_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
-__Step 3 –__ In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Auditing__ tab, click Edit.
+__Step 3 –__ In the __Advanced Security Settings for <Share_Name>__ dialog, navigate to the __Auditing__ tab, click Edit.
 
-__Step 4 –__ In a separate __Advanced Security Settings for <Share\_Name>__ dialog, click Add to add a principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
+__Step 4 –__ In a separate __Advanced Security Settings for <Share_Name>__ dialog, click Add to add a principal. You can select __Everyone__ (or another user-defined group containing users that are granted special permissions) and click __Edit__.
 
 __Step 5 –__  You can specify any other user group, but in this case Netwrix Auditor will send emails with errors on incorrect audit configuration. This will not affect the reports or data searches performed in the Auditor client and the product will only audit user accounts that belong to the selected group.
 
@@ -51,15 +51,15 @@ Follow the steps to configure audit settings.
 
 __Step 7 –__ Navigate to the target file share, right-click it and select __Properties__.
 
-__Step 8 –__ In the __<Share\_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
+__Step 8 –__ In the __<Share_Name> Properties__ dialog, select the __Security__ tab and click __Advanced__.
 
-__Step 9 –__ In the __Advanced Security Settings for <Share\_Name>__ dialog, navigate to the __Auditing__ tab.
+__Step 9 –__ In the __Advanced Security Settings for <Share_Name>__ dialog, navigate to the __Auditing__ tab.
 
 ![auditing_entries_netapp_2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/auditing_entries_netapp_2016.png)
 
 __Step 10 –__ Click Add to add a new principal. You can select Everyone (or another user-defined group containing users that are granted special permissions) and click Edit.
 
-__Step 11 –__  In the Auditing Entry for <Folder\_Name> dialog, click the Select a principal link and specify Everyone.
+__Step 11 –__  In the Auditing Entry for <Folder_Name> dialog, click the Select a principal link and specify Everyone.
 
 __Step 12 –__ You can specify any other user group, but in this case Netwrix Auditor will send emails with warnings on incorrect audit configuration. The product will audit only user accounts that belong to the selected group.
 

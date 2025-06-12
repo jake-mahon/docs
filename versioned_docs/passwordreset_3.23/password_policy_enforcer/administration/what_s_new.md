@@ -4,9 +4,9 @@
 
 - Accepts encrypted client requests from Password Policy Enforcer v9.x clients. Responses to encrypted requests are also encrypted.
 - A new Compromised rule to reject passwords from prior security breaches. See the [Compromised Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#Compromised-Rule) topic for additional information.
-- The History rule can use a more secure hash function called Argon2. See the [](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#)[History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#History-Rule) topic for additional information.
+- The History rule can use a more secure hash function called Argon2. See the [History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#History-Rule) topic for additional information.
 - Can log an event when passwords are rejected. See the [Policy Properties](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#Policy-Properties) topic for additional information.
-- Can be configured to only accept encrypted client requests. Enabled by default for new configurations, but not when upgrading from an older version. See the [](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuring_ppe.md#)[Policy Properties](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#Policy-Properties) topic for additional information.
+- Can be configured to only accept encrypted client requests. Enabled by default for new configurations, but not when upgrading from an older version. See the [Policy Properties](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#Policy-Properties) topic for additional information.
 - Can enforce domain password policies on pure IPv6 networks
 - No longer backwards compatible with Password Policy Enforcer v3.x clients
 

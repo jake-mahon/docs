@@ -44,7 +44,7 @@ Usercube-Deploy-Configuration
 
 In our example, the command would be, in the Runtime folder:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Deploy-Configuration.exe -s "<data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;>" -d "<C:/UsercubeBootstrap/Conf>"

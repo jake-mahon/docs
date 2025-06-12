@@ -12,7 +12,7 @@ Add the Folder source as described in the File System section.
 
 __NOTE:__ Do not specify username and password while adding data source.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[To configure Windows Server 2012 Onward](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[To configure Windows Server 2012 Onward](javascript:void(0))
 
 1. On the Windows desktop, start Server Manager.
 2. On the Manage menu, click Add Roles and Features.
@@ -20,7 +20,7 @@ __NOTE:__ Do not specify username and password while adding data source.
 4. Ensure that Client for NFS option enabled.
 5. Complete the wizard.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[To configure Windows 10](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[To configure Windows 10](javascript:void(0))
 
 1. Navigate to Control Panel and select Programs.
 2. Select Turn Windows features on or off.

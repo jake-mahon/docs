@@ -13,7 +13,7 @@ You can define the list of file locations that will be ignored when indexing fil
 
 3. Click __Filter__ and in the __Filter__ field specify the objects (files or folders) to exclude:
 
-   To exclude a certain file, enter _box://<your\_box\_enterprise\_ID>/<full\_path>_.
+   To exclude a certain file, enter `box://<your_box_enterprise_ID>/<full_path>`.
    For example: _box://26298724/Test Folder/Test Document.docx_
 
    Wildcards can be used anywhere in the exclusion pattern definition as follows:

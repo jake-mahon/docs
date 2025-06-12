@@ -16,7 +16,7 @@ To remove all classifications:
 
 In the __Add Action__ dialog, from the __Action Type__ list select __Remove Classifications__ under __Classification__.
 
-[![Closed](/img/versioned_docs/transparent.gif)To configure terms](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->To configure terms](javascript:void(0))
 
 1. In the __Select Term__ field, click the tag icon.
 2. In the __Details__ dialog, specify filter settings to use when filtering out the documents:

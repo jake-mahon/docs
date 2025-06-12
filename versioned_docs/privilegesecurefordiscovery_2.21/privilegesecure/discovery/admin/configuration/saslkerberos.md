@@ -30,7 +30,7 @@ Notes
     - e.g.:
 
       - nslookup name.domain.com
-      - nslookup <IP from first nslookup>
+      - nslookup `<IP from first nslookup>`
   - ```systemd-resolve --status ens160``` will show the DNS configured
 - LDAP record referrals are not supported
 - If you switch a domain from Kerberos to NTLM, the first scan that happens after the switch will not update the last scanned timestamps. The next scan after that will update the last\_scanned timestamps.

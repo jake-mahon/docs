@@ -4,7 +4,7 @@ Defines the context in which the rule will be evaluated.
 
 ## Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ProfileRuleContext ResourceType="AD_Entry_User" IsAppliedToRoot="false"><ProfileRule Profile="Administrator" SubExpression="c#:user:return user.Organization.Code_Organisation == "SRV46";" B0="Organization:Code"/></ProfileRuleContext>
@@ -26,7 +26,7 @@ Defines the rule to assign a profile to user when matched.
 
 ### Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ProfileRuleContext ResourceType="AD_Entry_NominativeUser" SubBinding="Directory_User:ManagedOrganizations" IsAppliedToRoot="false">    <ProfileRule Profile="Manager" B0="Directory_Organization:Id" /></ProfileRuleContext>

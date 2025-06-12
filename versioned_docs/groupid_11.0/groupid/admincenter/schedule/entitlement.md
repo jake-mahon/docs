@@ -37,7 +37,7 @@ Step 3 – Click __Schedules__ under __Settings__ in the left pane.
 
 Step 4 – On the __Schedules__ page, click the plus sign next to __GroupID Entitlement__. Then click the ellipsis button for the schedule and select __Edit__.
 
-Step 5 – On the __Edit Schedule__ page, the __Schedule Name__ and __Name Preview__ boxes display the name of the schedule as read-only. The name format is _Entitlement\_<the name of the machine the schedule is created on_.
+Step 5 – On the __Edit Schedule__ page, the __Schedule Name__ and __Name Preview__ boxes display the name of the schedule as read-only. The name format is _Entitlement\_`<the name of the machine the schedule is created on>`_.
 
 Step 6 – In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 

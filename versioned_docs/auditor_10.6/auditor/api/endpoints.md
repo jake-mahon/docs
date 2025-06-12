@@ -2,10 +2,10 @@
 
 | Method | Endpoint | POST Data | Description |
 | --- | --- | --- | --- |
-| GET | /netwrix/api/v1/activity\_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/versioned_docs/auditor_10.6/auditor/api/retrieveactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/enum | [Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md) |
-| POST | /netwrix/api/v1/activity\_records/search | [Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/ | [Activity Records](/versioned_docs/auditor_10.6/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/versioned_docs/auditor_10.6/auditor/api/writeactivityrecords.md) |
+| GET | /netwrix/api/v1/activity_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/versioned_docs/auditor_10.6/auditor/api/retrieveactivityrecords.md) |
+| POST | /netwrix/api/v1/activity_records/enum | [Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md) |
+| POST | /netwrix/api/v1/activity_records/search | [Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) |
+| POST | /netwrix/api/v1/activity_records/ | [Activity Records](/versioned_docs/auditor_10.6/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/versioned_docs/auditor_10.6/auditor/api/writeactivityrecords.md) |
 
 ### Authentication
 

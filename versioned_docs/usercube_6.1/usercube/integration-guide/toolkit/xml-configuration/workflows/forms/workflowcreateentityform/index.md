@@ -6,7 +6,7 @@ Displays a form to create a new resource, without a record.
 
 The following example is a form to create a new site.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <WorkflowCreateEntityForm Identifier="Workflow_Directory_Site_Create" EntityType="Workflow_Directory_Site" MainProperty="Workflow_Directory_Site:Directory_Site" WorkflowRequestType="Self" Activity="Directory_Site_Create:Request" FormTitle_L1="New Site">    <MainControl OutputType="TransformImport" EmbeddedForm="Base_Directory_Site" />    <SummaryControl OutputType="TransformImport" EmbeddedForm="Summary_Directory_Site"/></WorkflowCreateEntityForm>  

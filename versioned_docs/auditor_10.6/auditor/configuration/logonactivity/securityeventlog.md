@@ -4,7 +4,7 @@ Follow the steps to configure Security Event Log settings:
 
 __Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012) __Group Policy Management.__
 
-__Step 2 –__ In the left pane, navigate to __Forest: <forest\_name> > Domains > <domain\_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+__Step 2 –__ In the left pane, navigate to __Forest: <forest_name> > Domains > <domain_name>__ __> Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
 
 __Step 3 –__ Navigate to __Computer Configuration > Policies > Windows Settings > Security Settings > Event Log__ and double-click the __Maximum security log size__ policy.
 

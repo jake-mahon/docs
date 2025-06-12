@@ -35,10 +35,10 @@ Comparison operators can also be used for filtering. Comparison operators which 
 | Description | Operator |
 | --- | --- |
 | Equal to | = |
-| Greater than | > |
-| Less than | < |
-| Less than or equal to | <= |
-| Greater than or equal to | >= |
+| Greater than | `>` |
+| Less than | `<` |
+| Less than or equal to | `<=` |
+| Greater than or equal to | `>=` |
 | A range of values | n1..n2 |
 
 ## Adding & Removing Columns

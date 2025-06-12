@@ -31,7 +31,7 @@ The following examples explain how the exclusion rules work. Same logic applies 
 
 - _dc11.local/OU_ will exclude the OU itself. However, objects within this OU will not be excluded.
 - _dc11.local/OU/\*_ will exclude objects within the OU. However, the OU itself will not be excluded.
-- _dc11.local/OU\*_ will exclude the OU itself, all objects within it, and also all objects whose path begins with _dc11.local/OU_ (like _dc11.local/OU\_HQ_).
+- _dc11.local/OU\*_ will exclude the OU itself, all objects within it, and also all objects whose path begins with _dc11.local/OU_ (like _dc11.local/OU_HQ_).
 
 So, with the settings as in the screenshot above, the program will monitor all objects within the _OU_, except for the objects whose path begins with _enterprise.local/OU/BO_. The OU itself, however, will not be monitored, meaning that, for example, its renaming will not be reported.
 

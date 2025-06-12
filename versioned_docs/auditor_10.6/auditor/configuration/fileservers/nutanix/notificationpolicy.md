@@ -8,11 +8,11 @@ The list of supported operations is provided in the table below. Your notificati
 
 | To audit... | Operation name to specify at policy creation |
 | --- | --- |
-| Successful _create_ operations | FILE\_CREATE  DIRECTORY\_CREATE |
-| Successful _read_ operations | FILE\_READ |
-| Successful _modify_ operations | FILE\_WRITE  RENAME  SECURITY |
-| Successful _delete_ operations | FILE\_DELETE  DIRECTORY\_DELETE |
-| Failed _read/modify/delete_ attempts\* | FILE\_OPEN |
+| Successful _create_ operations | FILE_CREATE  DIRECTORY_CREATE |
+| Successful _read_ operations | FILE_READ |
+| Successful _modify_ operations | FILE_WRITE  RENAME  SECURITY |
+| Successful _delete_ operations | FILE_DELETE  DIRECTORY_DELETE |
+| Failed _read/modify/delete_ attempts\* | FILE_OPEN |
 
 \* - Failed attempt to move/rename file are not audited.
 
@@ -42,35 +42,35 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 "spec": {
 
-"name": "<NAME\_OF\_NOTIFICATION\_POLICY> ",
+"name": "<NAME_OF_NOTIFICATION_POLICY> ",
 
 "resources": {
 
-"all\_mount\_targets" : true,
+"all_mount_targets" : true,
 
-"protocol\_type\_list" : ["SMB"],
+"protocol_type_list" : ["SMB"],
 
-"file\_operation\_list" : [<LIST\_OF\_FILE\_OPERATIONS>],
+"file_operation_list" : [<LIST_OF_FILE_OPERATIONS>],
 
-"partner\_server\_reference\_list" : [{
+"partner_server_reference_list" : [{
 
-"kind" : "partner\_server",
+"kind" : "partner_server",
 
-"uuid" : "<UUID\_OF\_PARTNER\_SERVER>"
+"uuid" : "<UUID_OF_PARTNER_SERVER>"
 
 }]
 
 },
 
-"description": "<optional\_string>"
+"description": "<optional_string>"
 
 },
 
-"api\_version": "3.0",
+"api_version": "3.0",
 
 "metadata": {
 
-"kind": "notification\_policy"
+"kind": "notification_policy"
 
 }
 
@@ -78,21 +78,21 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 here:
 
-_"all\_mount\_targets" : true_ - instructs to notify on changes to all shares
+_"all_mount_targets" : true_ - instructs to notify on changes to all shares
 
-_"protocol\_type\_list" : ["SMB"]_ - instructs to track SMB shares (the only currently supported)
+_"protocol_type_list" : ["SMB"]_ - instructs to track SMB shares (the only currently supported)
 
-_<NAME\_OF\_NOTIFICATION\_POLICY>_ – enter the name of notification policy you want to create
+_<NAME_OF_NOTIFICATION_POLICY>_ – enter the name of notification policy you want to create
 
-_<UUID\_OF\_PARTNER\_SERVER>_ - enter the ```uuid``` of [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
+_<UUID_OF_PARTNER_SERVER>_ - enter the ```uuid``` of [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
 
-_<LIST\_OF\_FILE\_OPERATIONS>_ - enter the list of operations to be audited.
+_<LIST_OF_FILE_OPERATIONS>_ - enter the list of operations to be audited.
 
 6. Send the request, clicking __Try it out__.
 7. Get the response - ```Response Code``` should be _200_. In the response body, locate the ```uuid``` of the created notification policy.
 8. To check that a new policy was included in the list of existing policies, retrieve the list of policies, sending the POST request to the following endpoint:
 
-    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get\_entities\_request_ parameter : ```{ }```
+    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter : ```{ }```
 
 ## Auditing Specific Folders
 
@@ -102,21 +102,21 @@ If you want to audit only the certain folders on Nutanix File Server (mount targ
 2. In the response, locate the ```uuids``` of the target folders you want to audit.
 3. In the notification policy creation request (described above) instead of ```"all_mount_targets" : true``` in the request body enter the following JSON-formatted structure:
 
-"mount\_target\_reference\_list": [
+"mount_target_reference_list": [
 
 {
 
-"kind" : "mount\_target",
+"kind" : "mount_target",
 
-"uuid" : "<UUID\_OF\_MOUNT\_TARGET1>"
+"uuid" : "<UUID_OF_MOUNT_TARGET1>"
 
 },
 
 {
 
-"kind" : "mount\_target",
+"kind" : "mount_target",
 
-"uuid" : "<UUID\_OF\_MOUNT\_TARGET2>"
+"uuid" : "<UUID_OF_MOUNT_TARGET2>"
 
 },
 
@@ -124,21 +124,21 @@ If you want to audit only the certain folders on Nutanix File Server (mount targ
 
 here:
 
-_<UUID\_OF\_MOUNT\_TARGET>_ – enter the uuid of target you want to audit.
+_<UUID_OF_MOUNT_TARGET>_ – enter the uuid of target you want to audit.
 
 ## Example
 
-The JSON-formatted structure below is an example of the request body that can be used to create a notification policy named _MOUNT\_POINT\_POLICY_ to audit the mount a share on Nutanix File Server with the _uuid=378896fd-e829-4869-84a2-6c29268acfff_. The following operations will be audited:
+The JSON-formatted structure below is an example of the request body that can be used to create a notification policy named _MOUNT_POINT_POLICY_ to audit the mount a share on Nutanix File Server with the _uuid=378896fd-e829-4869-84a2-6c29268acfff_. The following operations will be audited:
 
-- "FILE\_READ",
-- "FILE\_CREATE",
-- "FILE\_DELETE",
-- "DIRECTORY\_CREATE",
-- "DIRECTORY\_DELETE",
-- "FILE\_WRITE",
+- "FILE_READ",
+- "FILE_CREATE",
+- "FILE_DELETE",
+- "DIRECTORY_CREATE",
+- "DIRECTORY_DELETE",
+- "FILE_WRITE",
 - "RENAME",
 - "SECURITY",
-- "FILE\_OPEN"
+- "FILE_OPEN"
 
 JSON structure is as follows:
 
@@ -146,15 +146,15 @@ JSON structure is as follows:
 
 "spec": {
 
-"name": "MOUNT\_POINT\_POLICY ",
+"name": "MOUNT_POINT_POLICY ",
 
 "resources": {
 
-"mount\_target\_reference\_list": [
+"mount_target_reference_list": [
 
 {
 
-"kind" : "mount\_target",
+"kind" : "mount_target",
 
 "uuid" : "378896fd-e829-4869-84a2-6c29268acfff”
 
@@ -162,35 +162,35 @@ JSON structure is as follows:
 
 ],
 
-"protocol\_type\_list" : ["SMB"],
+"protocol_type_list" : ["SMB"],
 
-"file\_operation\_list" :[
+"file_operation_list" :[
 
-"FILE\_READ",
+"FILE_READ",
 
-"FILE\_CREATE",
+"FILE_CREATE",
 
-"FILE\_DELETE",
+"FILE_DELETE",
 
-"DIRECTORY\_CREATE",
+"DIRECTORY_CREATE",
 
-"DIRECTORY\_DELETE",
+"DIRECTORY_DELETE",
 
-"FILE\_WRITE",
+"FILE_WRITE",
 
 "RENAME",
 
 "SECURITY",
 
-"FILE\_OPEN"
+"FILE_OPEN"
 
 ],
 
-"partner\_server\_reference\_list" : [
+"partner_server_reference_list" : [
 
 {
 
-"kind" : "partner\_server",
+"kind" : "partner_server",
 
 "uuid" : " d0bfb952-924b-459e-bd32-44c8b5a62838"
 
@@ -200,15 +200,15 @@ JSON structure is as follows:
 
 },
 
-"description": "<optional\_string>"
+"description": "<optional_string>"
 
 },
 
-"api\_version": "3.0",
+"api_version": "3.0",
 
 "metadata": {
 
-"kind": "notification\_policy"
+"kind": "notification_policy"
 
 }
 

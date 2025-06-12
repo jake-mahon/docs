@@ -26,7 +26,7 @@ ASE or HANA database with a service account, as a database administrator
 
 To connect to the SAP database using SSH, use the following commands:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 su sybaba  
@@ -35,7 +35,7 @@ isql -S <database (ABA is the default value)> -U<administrator's login> -P<admin
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 isql -S ABA -Usapsso -PV1H#M$4JIgU$qd -X
@@ -65,12 +65,12 @@ Create a login for Usercube's service account with at least reading access on us
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
-execute sp\_addlogin <login>, <password>, <database (ABA is the default value)>go
+execute sp_addlogin `<login>`, `<password>`, `<database (ABA is the default value)>`go
 use ABA
 go
-execute sp\_adduser <login>go
+execute sp_adduser `<login>`go
 grant select on ABA.SAPSR3.USR02 to usercube
 grant select on ABA.SAPSR3.AGR\_USERS to usercube
 grant select on ABA.SAPSR3.USER\_ADDR to usercube
@@ -126,7 +126,7 @@ This process is configured through a connection in the UI and/or the XML configu
 Connection
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -146,11 +146,11 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 - Be unique  
 - Not begin with a digit.
   
-- Not contain <, >, :, /, \, |, ?, \*, and \_.
+- Not contain `<`, `>`, `:`, `/`, `\`, `|`, `?`, `*`, and `_`.
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -210,7 +210,7 @@ Same as for export, fulfill is configured through connections. See the [SAP ERP 
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -256,16 +256,16 @@ Data protection can be ensured through:
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
-| Server | Connections--<identifier>--Server |
-| AseLogin | Connections--<identifier>--AseLogin |
-| AsePassword | Connections--<identifier>--AsePassword |
-| Instance | Connections--<identifier>--Instance |
-| Port | Connections--<identifier>--Port |
-| Client | Connections--<identifier>--Client |
-| Language | Connections--<identifier>--Language |
-| BapiLogin | Connections--<identifier>--BapiLogin |
-| BapiPassword | Connections--<identifier>--BapiPassword |
-| SystemNumber | Connections--<identifier>--SystemNumber |
+| Server | Connections--`<identifier>`--Server |
+| AseLogin | Connections--`<identifier>`--AseLogin |
+| AsePassword | Connections--`<identifier>`--AsePassword |
+| Instance | Connections--`<identifier>`--Instance |
+| Port | Connections--`<identifier>`--Port |
+| Client | Connections--`<identifier>`--Client |
+| Language | Connections--`<identifier>`--Language |
+| BapiLogin | Connections--`<identifier>`--BapiLogin |
+| BapiPassword | Connections--`<identifier>`--BapiPassword |
+| SystemNumber | Connections--`<identifier>`--SystemNumber |
 
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
@@ -281,7 +281,7 @@ Protected attributes are stored inside a safe in CyberArk, into an account whose
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.cyberark.agent.json  

@@ -48,15 +48,6 @@ Independently of the module chosen, various information is displayed in the foot
 
 ![installation_with_parameters_4](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.png)
 
-- [Ribbon](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Ribbon)
-- [Filter](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Filter)
-- [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#List-view)
-- [Reading pane](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Reading-pane)
-- [Tags](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Tags)
-- [Search](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Search)
-- [Dashboard and widgets](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Dashboard-and-widgets)
-- [Shortcut key](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#Shortcut-key)
-
 ## Orientation
 
 It is possible to change the alignment of the following objects:

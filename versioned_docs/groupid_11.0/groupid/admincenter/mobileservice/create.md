@@ -40,7 +40,7 @@ __To create a Mobile Service:__
      (X represents the
      GroupID installation drive.)
    - This IIS application name is also appended to the web server address to construct the URL that users click to access this deployment instance of the service. Users can then configure the GroupID app with this instance. For example:  
-     _https://web-server-name:port/IIS-application-name_  
+     `https://<web-server-name>:<port>/<IIS-application-name>`  
      Hence, a different URL is constructed for each deployment of a service in IIS.
 8. In the __IIS Site__ drop-down list, select a website to host the service files.  
    The list displays the websites defined on the local IIS server. _GroupIDSite11_ is the default selection.

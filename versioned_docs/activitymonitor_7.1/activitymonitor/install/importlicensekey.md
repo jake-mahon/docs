@@ -6,7 +6,7 @@ Follow the steps to import a license key file.
 
 ![Activity Monitor Installation with Trial License](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicense.png)
 
-__Step 1 –__ Click the __Licensed to: <Trial User>__ hyperlink in the lower-left corner of the Console. Alternatively, click the __View License__ link in the yellow warning bar at the top. The License Information window opens.
+__Step 1 –__ Click the __Licensed to: &lt;Trial User&gt;__ hyperlink in the lower-left corner of the Console. Alternatively, click the __View License__ link in the yellow warning bar at the top. The License Information window opens.
 
 ![Trial License Information](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicenseinfo.png)
 

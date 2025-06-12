@@ -8,7 +8,7 @@ Optionally, it is also possible to set up the resources necessary to ensure Netw
 
 To crawl the data within SharePoint Online, you need to enable Multi-Factor Authentication:
 
-- [](/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/file:/d:/netwrix_data_classification_current/content/ndc/configuration/configinfrastructure/spomodernauth.md)[Access SharePoint Online using modern authentication](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/config_spo_modern_auth.md)
+- [Access SharePoint Online using modern authentication](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/config_spo_modern_auth.md)
 
 [![addsharepointonline_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/addsharepointonline_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/addsharepointonline.png)
 

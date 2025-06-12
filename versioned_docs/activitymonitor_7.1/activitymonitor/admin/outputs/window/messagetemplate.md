@@ -111,7 +111,7 @@ Macros are text strings that are replaced with actual values at run time. Not al
 | SharePoint Online | %DLP\_SENSITIVE% | Indicates whether the event contains the value of the sensitive data type (true/false) |
 | SharePoint  SharePoint Online | %DOC\_LOCATION% | A relative URL of the file or document accessed by the user |
 | SharePoint  SharePoint Online | %EVENT\_DATA% | - For SharePoint, raw event data - Fore SharePoint Online, additional event data |
-| File Servers & NAS Devices | %EVENT\_NAME% | Operation type: Read/Create/Update/Delete/Access Rights Change/ Rename/ <empty>. The same as %OPERATION% |
+| File Servers & NAS Devices | %EVENT\_NAME% | Operation type: Read/Create/Update/Delete/Access Rights Change/ Rename/ `<empty>`. The same as %OPERATION% |
 | SharePoint  SharePoint Online | %EVENT\_SOURCE% | Originating source of the event (SharePoint or ObjectModel) |
 | File Servers & NAS Devices | %EVENT\_SOURCE\_NAME% | Domain name |
 | SharePoint  SharePoint Online | %EVENT\_TYPE% | Event type |
@@ -148,7 +148,7 @@ Macros are text strings that are replaced with actual values at run time. Not al
 | SharePoint | %PARAM% | Parameters that come with the event |
 | SharePoint | %PATH% | Truncated path |
 | File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DESCRIPTION% | Windows events only: Permission change details in readable format |
-| File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DIFF% | Windows events only: Permission change details in SDDL format, '<REMOVED> <ADDED>' |
+| File Servers & NAS Devices | %PERMISSIONS\_SDDL\_DIFF% | Windows events only: Permission change details in SDDL format, '&lt;REMOVED&gt; &lt;ADDED&gt;' |
 | File Servers & NAS Devices | %PERPETRATOR% | User name |
 | File Servers & NAS Devices  SharePoint  SharePoint Online | %PRODUCT% | Fixed string: Activity Monitor |
 | File Servers & NAS Devices  SharePoint  SharePoint Online | %PRODUCT\_VERSION% | Product Version |

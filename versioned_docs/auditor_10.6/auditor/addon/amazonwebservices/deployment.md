@@ -6,9 +6,9 @@ Netwrix suggests the following execution scenarios:
 
 | Scenario | Example |
 | --- | --- |
-| The add-on runs on the Auditor Server with the current user credentials. | C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_ Amazon\_Web\_Services.ps1 |
-| The add-on runs on the Auditor Server with the explicitly specified user credentials. | C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_ Amazon\_Web\_Services.ps1 -NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
-| The add-on runs on a remote computer. Data is written to a remote Auditor repository with the current user credentials. | C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_ Amazon\_Web\_Services.ps1 -NetwrixAuditorHost 172.28.6.15 |
-| The add-on runs on a remote computer. Data is written to a remote Auditor repository with the explicitly specified user credentials and monitoring plan name. | C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_ Amazon\_Web\_Services.ps1  -NetwrixAuditorHost 172.28.6.15  -NetwrixAuditorUserName enterprise\NAuser  -NetwrixAuditorPassword NetwrixIsCool  -NetwrixAuditorPlan Integrations |
+| The add-on runs on the Auditor Server with the current user credentials. | C:\Add-ons\Netwrix_Auditor_Add-on_for_ Amazon_Web_Services.ps1 |
+| The add-on runs on the Auditor Server with the explicitly specified user credentials. | C:\Add-ons\Netwrix_Auditor_Add-on_for_ Amazon_Web_Services.ps1 -NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
+| The add-on runs on a remote computer. Data is written to a remote Auditor repository with the current user credentials. | C:\Add-ons\Netwrix_Auditor_Add-on_for_ Amazon_Web_Services.ps1 -NetwrixAuditorHost 172.28.6.15 |
+| The add-on runs on a remote computer. Data is written to a remote Auditor repository with the explicitly specified user credentials and monitoring plan name. | C:\Add-ons\Netwrix_Auditor_Add-on_for_ Amazon_Web_Services.ps1  -NetwrixAuditorHost 172.28.6.15  -NetwrixAuditorUserName enterprise\NAuser  -NetwrixAuditorPassword NetwrixIsCool  -NetwrixAuditorPlan Integrations |
 
 For security reasons, Netwrix recommends running the script with current user credentials (skipping user credentials). Create a special user account with permissions to both Auditor data and event log and use it for running the script.

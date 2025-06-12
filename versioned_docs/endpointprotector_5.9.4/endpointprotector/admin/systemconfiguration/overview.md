@@ -77,15 +77,15 @@ For Linux, you can only use CLI arguments in the options to bypass proxy setting
 
 __Step 1 –__ Access the installation folder, open a Terminal, and run the following command:
 
-<cd pathToLinuxClientFolder>
+`cd pathToLinuxClientFolder`
 
 __Step 2 –__ To run commands as root, run the following command and type your password.
 
-<sudo su>
+`sudo su`
 
 __Step 3 –__ Open the options.sh conﬁguration ﬁle with the following command:
 
-<gedit options.sh>
+`gedit options.sh`
 
 __Step 4 –__ In the conﬁguration ﬁle, you will view the following ﬁelds for the proxy setup:
 
@@ -101,7 +101,7 @@ Example: EPPCLIENT\_HTTPS\_PROXY=address:port:user:password
 
 __Step 7 –__ Save the changes, and then run the installation without having a VPN connection:
 
-<bash install.sh>
+`bash install.sh`
 
 Additional CLI commands for Linux in speciﬁc mode:
 

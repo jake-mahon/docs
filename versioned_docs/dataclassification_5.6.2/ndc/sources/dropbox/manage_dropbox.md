@@ -14,7 +14,7 @@ To configure exclusions, do the following:
    [![boxexclusions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/dropbox/boxexclusions_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/boxexclusions.png)
 3. Click __Filter__ and in the __Filter__ field specify the objects (files or folders) to exclude:
 
-   To exclude a certain file, enter _https://www.dropbox.com/home/<full\_path\_to\_file>_.
+   To exclude a certain file, enter `https://www.dropbox.com/home/<full_path_to_file>`.
    For example: _https://www.dropbox.com/home/Reports__/Test Document.docx_
 
    Wildcards can be used anywhere in the exclusion pattern definition as follows:

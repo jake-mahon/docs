@@ -370,9 +370,10 @@ You need to:
 - Modify the __applicationHost.config__ file to set the _startMode_ of the application pool as _AlwaysRunning_. You also need to set the _preloadEnabled_ of your application set to _true_. It is advised to backup the __applicationHost.config__ file when doing this step to prevent mistakes
 - Double check that the following section is set in your _web.config_ file, in the section _system.webServer_:
 
-                    ```
-<applicationInitialization doAppInitAfterRestart="true">  <add initializationPage="/"></applicationInitialization>
-
+                    ```xml
+<applicationInitialization doAppInitAfterRestart="true">
+  <add initializationPage="/" />
+</applicationInitialization>
 ```
                 
 

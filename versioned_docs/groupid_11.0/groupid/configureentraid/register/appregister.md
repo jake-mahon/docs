@@ -48,12 +48,12 @@ This section discusses the GroupID application registration and permission assig
     ![Application permissions tab](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/application_permission.png)
 
     Permissions get listed on the page. See the [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md) topic for the mandatory permissions that are required for creating the desired directory object.
-13. [Optional] To add a permission from Office 365 Exchange Online API, click the __Add a permission__ button (before the Grant admin consent for <username> button in the snapshot given in point # 14.
+13. [Optional] To add a permission from Office 365 Exchange Online API, click the __Add a permission__ button (before the Grant admin consent for `<username>` button in the snapshot given in point # 14.
 
     Follow the steps shown on the following snapshot:
 
     ![Office 365 Exchange Online API](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/office365_permission.png)
-14. [Optional] To access the SharePoint API for Entitlement management, click the __Add a permission__ button (before the Grant admin consent for <username> button in the snapshot given in point # 14). Select the SharePoint API:
+14. [Optional] To access the SharePoint API for Entitlement management, click the __Add a permission__ button (before the Grant admin consent for `<username>` button in the snapshot given in point # 14). Select the SharePoint API:
 
     ![SharePoint API card](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_api_card.png)
 15. Select the Delegated permissions tab:

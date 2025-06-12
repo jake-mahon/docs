@@ -63,7 +63,7 @@ The Netwrix logo is shown at the top of the page. The logo is installed into the
 
 You will also need to edit the HTML files if your logo is not in SVG format, or if it has a different aspect ratio to the Netwrix logo. Open every HTML file in a text editor such as Notepad, and search for the line shown below. Change the filename (logo.svg), height (70 pixels) and width (116 pixels) to suit your logo.
 
-<img class="logo" src="images/logo.svg" height="70" width="116" alt="NETWRIX" onerror="this.style.display='none';">
+`<img class="logo" src="images/logo.svg" height="70" width="116" alt="NETWRIX" onerror="this.style.display='none';" />`
 
 ### Edit Page Instructions
 
@@ -71,21 +71,19 @@ Instructions appear at the top of each page. You can edit the instructions by op
 
 Instructions are often inside a range called SECTION\_A, SECTION\_B, SECTION\_C, or SECTION\_D. Each section contains instructions for the different pages in the template. Make sure you edit the instructions in the correct section, or they may be displayed on the wrong page. The text\_long and text\_short classes are used in page instructions to tailor content to the screen size.
 
-<!--SECTION\_A-->
+```html
+<!--SECTION_A-->
+<p>Enter your username and domain, and then click Next to continue…</p>
+<p class="text_long">Use the reset feature if you have forgotten y…</p>
+<!--/SECTION_A-->
+```
 
-<p>Enter your username and domain, and then click Next to continue…
-
-<p class="text\_long">Use the reset feature if you have forgotten y…
-
-<!--/SECTION\_A-->
-
-<!--SECTION\_B-->
-
-<p>Answer the question below to confirm your identity. Your answer…
-
-<p class="text\_long">You may need to answer additional questions b…
-
-<!--/SECTION\_B-->
+```html
+<!--SECTION_B-->
+<p>Answer the question below to confirm your identity. Your answer…</p>
+<p class="text_long">You may need to answer additional questions b…</p>
+<!--/SECTION_B-->
+```
 
 ### Edit Validation Error Messages
 
@@ -117,9 +115,9 @@ You may see placeholders like %1 and %2 in some error messages. These are replac
 | ```@RES_LOCKED_OUT_AD``` | ```Your account is locked because an incorrect passwo…``` |
 | ```@RES_REQUEST_FAILED``` | ```The server %1 could not handle your request. Pleas…``` |
 
-If you want to display some text for all error messages, then insert your text above or below the ```<p><!--ERROR--></p>``` line. For example:
+If you want to display some text for all error messages, then insert your text above or below the `<p>{/*ERROR*/}</p>` line. For example:
 
-<p><!--ERROR--></p>  
+<p>{/*ERROR*/}</p>  
 <p>The help desk phone number is 555-555-5555.</p>
 
 ### Edit Finished Messages
@@ -136,11 +134,15 @@ When users enroll into Password Reset, they choose their questions from the Ques
 
 The lines you need to edit in en\_enroll.htm look like this:
 
-<select class="field\_question\_list" name="q1" id="q1"><!--QL1--></select>
+```html
+<select class="field_question_list" name="q1" id="q1"><!--QL1--></select>
+```
 
 There are ten of these lines in en\_enroll.htm, each with their own question number (the number after the q). You do not have to edit all ten lines. If users will be allowed to enter two questions, then only edit the q1 and q2 lines. Replace these lines with a line like this:
 
-<input class="field\_question" name="q1" id="q1" value="<!--Q1-->" maxlength="64">
+```html
+<input class="field_question" name="q1" id="q1" value="<!--Q1-->" maxlength="64">
+```
 
 Change the three question numbers on each line so they match the original numbers, otherwise Password Reset will not work correctly. You should also edit the validation error messages in ```en_enroll.htm``` as some of them make reference to selecting questions from a list.
 
@@ -150,17 +152,15 @@ __NOTE:__ Users may not choose appropriate security questions, so it is advisabl
 
 apr.css contains the user interface formatting information. You can change font sizes and colors by editing this file. You can even reposition and resize items, but you will need some understanding of CSS to do this. For example, this is the CSS for the validation error box:
 
-.apr\_form .error {
-
-background-color: #CE482F;
-
-border-radius: 5px; color: #FFF;
-
-margin: 0 15px 15px;
-
-padding: 10px 13px;
-
+```css
+.apr_form .error {
+  background-color: #CE482F;
+  border-radius: 5px; 
+  color: #FFF;
+  margin: 0 15px 15px;
+  padding: 10px 13px;
 }
+```
 
 Edit these properties to change the appearance of the error box. You may need to clear your web browser's cache to see the changes.
 

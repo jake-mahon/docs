@@ -12,8 +12,6 @@ POST
 
 #### Sample Request Syntax
 
-{
-
 ```
 {  
   "IdentityStoreID": 2,  

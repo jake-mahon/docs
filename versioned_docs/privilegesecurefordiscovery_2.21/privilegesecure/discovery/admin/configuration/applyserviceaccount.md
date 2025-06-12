@@ -52,7 +52,7 @@ In order to populate the Provision Account column the following formula can be e
 
 =IF(ISNA(INDEX('Admin List'!D:D,MATCH(1,(B2= 'Admin List'!B:B)\*("Domain Admins"='Admin List'!D:D),0))),"","Service Account;true")
 
-This formula must be entered using <Ctrl> <Shift> <Enter> (unless using Office 365). This will enter the formula as an array formula and the {} curly braces will appear around the formula. This can then be copied down the whole column.
+This formula must be entered using `<Ctrl>` `<Shift>` `<Enter>` (unless using Office 365). This will enter the formula as an array formula and the {} curly braces will appear around the formula. This can then be copied down the whole column.
 
 __Replace the group and service account name as required. This example looks for all machines that have “Domain Admins” in the local administrator group and will add the account “Service Account” to the same machines.__
 
@@ -94,7 +94,7 @@ Creating the upload file:
 - Change TARGET\_GROUP to the group that contains the service accounts.
 - Update the formula to the specific service accounts that need to be applied.
 - Change the amount of rows (40,000 here) to cover the amount of rows in the Admin List tab
-- Press <CTRL> <SHIFT> and <ENTER> to apply the formula (this will add curly braces, {}, to the formula, before copying to the bottom of the Computer Data tab.
+- Press `<CTRL>` `<SHIFT>` and `<ENTER>` to apply the formula (this will add curly braces, {}, to the formula, before copying to the bottom of the Computer Data tab.
 
 Version Requirements
 

@@ -14,7 +14,7 @@ To perform this procedure, you will need the [ADSI Edit](http://technet.microsof
 2. Right-click the __ADSI Edit__ node and select __Connect To__. In the __Connection Settings__ dialog, enable __Select a well-known Naming Context__ and select __Configuration__ from the drop-down list.
 
    ![manualconfig_adsi_connectionwinserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.png)
-3. Navigate to __Configuration <Your\_Root\_Domain\_Name → CN=Configuration,DC=<name>,DC=<name> → CN=Services → CN=Windows NT → CN=Directory Service__. Right-click it and select __Properties__ from the pop-up menu.
+3. Navigate to __Configuration <Your_Root_Domain_Name → CN=Configuration,DC=`<name>`,DC=`<name>` → CN=Services → CN=Windows NT → CN=Directory Service__. Right-click it and select __Properties__ from the pop-up menu.
 4. In the __CN=Directory Service Properties__ dialog, locate the __tombstoneLifetime__ attribute in the __Attribute Editor__ tab.
 
    ![manualconfig_adsi_tombstone_winserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_adsi_tombstone_winserver2016.png)

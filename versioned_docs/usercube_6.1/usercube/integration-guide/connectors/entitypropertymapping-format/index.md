@@ -11,11 +11,11 @@ It will allow Usercube to correctly convert the data to its own format during th
 
 | Format | Corresponding Property Type | Note |
 | --- | --- | --- |
-| _Bit:<PropertyIdentifier>:<Bit>_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. [See more details](#See-more-details). |
+| _Bit:`<PropertyIdentifier>`:`<Bit>`_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. [See more details](#See-more-details). |
 | _Bool_ | Bool |  |
 | _Byte_ | Byte |  |
 | _Bytes/Binary_ | Bytes/Binary |  |
-| _Concat:separator_ | String | Mono-valued attribute that may contain multiple values separated by a ```<separator>``` (example: ```extensionAttribute15``` which requires using ```concat:;```) |
+| _Concat:separator_ | String | Mono-valued attribute that may contain multiple values separated by a `<separator>` (example: ```extensionAttribute15``` which requires using ```concat:;```) |
 | _DateTime/1601Date_ | DateTime | [Classic LDAP Dates](https://www.epochconverter.com/ldap) and [Generalized DateTimes](https://ldapwiki.com/wiki/GeneralizedTime) |
 | _Double_ | Double |  |
 | _Guid_ | Guid | 32 digits Guid (example: c076e361fa5f428e833939a449ce2db3) |
@@ -40,12 +40,20 @@ In a given resource type, there should be scalar rules either for the bitmask pr
 >
 > ![New Property for Bit Provisioning](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.png)
 >
-> XML configuration looks like the following:```
+> XML configuration looks like the following:
 >
-> <EntityType ... >  <Property Identifier="userAccountControl" DisplayName_L1="userAccountControl" TargetColumnIndex="15" Type="String" />  <Property Identifier="userAccountControlBit2" DisplayName_L1="userAccountControl second bit" TargetColumnIndex="61" Type="String" />    ...
-> </EntityType><EntityTypeMapping ... >  <Property Identifier="userAccountControl" ConnectionColumn="userAccountControl" />  <Property Identifier="userAccountControlBit2" ConnectionColumn="bit_userAccountControl_2" Format="bit:userAccountControl:2" />    ...
+> ```xml
+>
+> <EntityType ... >
+>   <Property Identifier="userAccountControl" DisplayName_L1="userAccountControl" TargetColumnIndex="15" Type="String" />
+>   <Property Identifier="userAccountControlBit2" DisplayName_L1="userAccountControl second bit" TargetColumnIndex="61" Type="String" />
+>   ...
+> </EntityType>
+> <EntityTypeMapping ... >
+>   <Property Identifier="userAccountControl" ConnectionColumn="userAccountControl" />
+>   <Property Identifier="userAccountControlBit2" ConnectionColumn="bit_userAccountControl_2" Format="bit:userAccountControl:2" />
+>   ...
 > </EntityTypeMapping>
->
 > ```
 
 When creating a property of bit format:

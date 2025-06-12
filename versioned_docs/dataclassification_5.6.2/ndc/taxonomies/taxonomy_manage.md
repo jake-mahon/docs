@@ -12,7 +12,7 @@ Review the following:
 - [Comparing Taxonomy Definitions](#Comparing-Taxonomy-Definitions)
 - [Bulking Updates](#Bulking-Updates)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Creating a blank taxonomy](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Creating a blank taxonomy](javascript:void(0))
 
 SQL taxonomies reside within the administrative web console database, they are fully functional with the exception of writing metadata back to SharePoint.
 
@@ -23,7 +23,7 @@ To add a SQL taxonomy:
 
 ![createsqltaxonomy](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/createsqltaxonomy.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Importing Taxonomies](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Importing Taxonomies](javascript:void(0))
 
 To import an existing taxonomy go to the Global Settings tab, select Add and then choose one of the import options:
 
@@ -33,7 +33,7 @@ To import an existing taxonomy go to the Global Settings tab, select Add and the
 
 ![addtaxonomies](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/addtaxonomies.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Merging SQL Taxonomies](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Merging SQL Taxonomies](javascript:void(0))
 
 SQL taxonomies also be easily merged / updated from the Global Settings page. Select the Update link for the taxonomy that you wish to update to load the taxonomy merge wizard:
 
@@ -53,11 +53,11 @@ Any predefined taxonomies that have been previously loaded will show an asterisk
 
 __NOTE:__ The merge operation relies on matching the source definition to the destination definition - utilising the Term Id (GUID). If there are no matching ids then the merge operation will be automatically stopped. In this case the taxonomy should be deleted - and re-imported.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Merging SharePoint Taxonomies](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Merging SharePoint Taxonomies](javascript:void(0))
 
 SharePoint taxonomies can be merged with the use of the TermStoreManager tool (please see the associated user guide available via documentation downloads).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Backing up/Deletinge Taxonomies](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Backing up/Deletinge Taxonomies](javascript:void(0))
 
 Existing taxonomies can be managed via the Global Settings tab:
 
@@ -65,7 +65,7 @@ Existing taxonomies can be managed via the Global Settings tab:
 
 Taxonomies can be exported as XML regardless of the taxonomy type, as well as removed. When removing SharePoint Term Set registrations the source Term Set remains intact - all that is removed is a link to the Term Store.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Comparing Taxonomy definitions](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Comparing Taxonomy definitions](javascript:void(0))
 
 User can compare current XML taxonomy definition (terms, clues, etc) to an updated/older definition. Comparison matches on the GUID of each term in the source/destination and ignores term movements. The following types of changes are detected: Term additions, term deletions, clue additions, clue deletions, and clue updates.
 
@@ -77,7 +77,7 @@ Do the following:
    - Otherwise, click __No__ and browse to the required __comparison file__, i.e. the one that current taxonomy definition will be compared to.
 3. Click __Compare__ and wait for the process to complete. Examine the results.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Bulking Updates](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Bulking Updates](javascript:void(0))
 
 The taxonomy update wizard allows large repetitive changes to be made to taxonomies in bulk. The wizard can be used to:
 

@@ -60,7 +60,7 @@ All actions in the button bar except Add Host can be used in the bulk mode. That
 
 Bulk editing allows the user to selectively modify hosts or outputs. For example, with bulk editing it is possible to add a user to Account Exclusions, or set the retention period for log files, or disable reporting of Directory Read operations, etc.
 
-To initiate bulk editing, select multiple hosts or outputs (```Ctrl+A````Ctrl+A` and ```Ctrl+Shift+A````Ctrl+Shift+A` may help here), and click the __Edit__ Edit button. The Properties window shows divergent settings as blank or in the unknown state or with the ```<-Different-Values->```<-Different-Values-> marker for the list-like settings. Leave the ```<-Different-Values->```<-Different-Values-> marker to preserve the difference in each selected object, or delete it to remove all divergent elements. When the window closes, only changed properties are saved to all selected objects, leaving unchanged properties untouched.
+To initiate bulk editing, select multiple hosts or outputs (`Ctrl+A` and `Ctrl+Shift+A` may help here), and click the __Edit__ Edit button. The Properties window shows divergent settings as blank or in the unknown state or with the `&lt;-Different-Values-&gt;` marker for the list-like settings. Leave the `&lt;-Different-Values-&gt;` marker to preserve the difference in each selected object, or delete it to remove all divergent elements. When the window closes, only changed properties are saved to all selected objects, leaving unchanged properties untouched.
 
 ## Table
 

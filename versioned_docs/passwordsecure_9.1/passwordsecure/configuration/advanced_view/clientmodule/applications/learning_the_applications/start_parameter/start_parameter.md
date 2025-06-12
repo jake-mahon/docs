@@ -31,7 +31,7 @@ The application is then linked with the following password:
 
 When the Salamander application is started, the placeholder is replaced by the field names. Therefore, instead of
 
-__-L {field:Left Path} -R {field:Right Path}__
+__-L `{field:Left Path}` -R `{field:Right Path}`__
 
 the following start parameters are transferred:
 
@@ -43,19 +43,19 @@ Fields can be added via certain placeholders based on their type or their name. 
 
 | Field type | Placeholder |
 | --- | --- |
-| Text | {Text} |
-| Password | {Password} |
-| Date | {Date} |
-| Check | {Check} |
-| URL | {Url} |
-| Email | {Email} |
-| Phone | {Phone} |
-| ​List | {List} |
-| Header | {Header} |
-| Multiline text | ​{Memo} |
-| Multiline password text | ​{PasswordMemo} |
-| Integer | {Int} |
-| Floating-point number | {Decimal} |
-| User name | {UserName} |
-| ​IP address | {Ip} |
-| Enter field name | {field:name} |
+| Text | `{Text}` |
+| Password | `{Password}` |
+| Date | `{Date}` |
+| Check | `{Check}` |
+| URL | `{Url}` |
+| Email | `{Email}` |
+| Phone | `{Phone}` |
+| ​List | `{List}` |
+| Header | `{Header}` |
+| Multiline text | ​`{Memo}` |
+| Multiline password text | ​`{PasswordMemo}` |
+| Integer | `{Int}` |
+| Floating-point number | `{Decimal}` |
+| User name | `{UserName}` |
+| ​IP address | `{Ip}` |
+| Enter field name | `{field:name}` |

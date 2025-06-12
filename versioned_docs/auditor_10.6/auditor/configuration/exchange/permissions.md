@@ -24,7 +24,7 @@ The account used for data collection must meet the following requirements:
 
 The following is required if auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
+- Permissions to access the _HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
 - Membership in one of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder
 
@@ -34,7 +34,7 @@ Follow the steps to add account to the Organization Management group.
 
 __Step 1 –__  Navigate to __Start > Active Directory Users and Computers__ on any domain controller in the root domain of the forest where Microsoft Exchange 2019, 2016, or 2013 is installed.
 
-__Step 2 –__ In the left pane, navigate to __<domain\_name> > Microsoft Exchange Security Groups__.
+__Step 2 –__ In the left pane, navigate to __`<domain_name>` > Microsoft Exchange Security Groups__.
 
 __Step 3 –__ On the right, locate the __Organization Management__ group and double-click it.
 
@@ -54,7 +54,7 @@ __Step 1 –__ On the computer where Microsoft Exchange 2019, 2016, 2013 or is i
 
 __Step 2 –__ Use the following syntax to assign the required management role to a user:
 
-New-ManagementRoleAssignment -Name <assignment name> -User <UserName> -Role <role name>
+New-ManagementRoleAssignment -Name `<assignment name>` -User `<UserName>` -Role `<role name>`
 
 For example:
 
@@ -76,7 +76,7 @@ Follow the steps to assign permission via the Registry Editor snap-in.
 
 __Step 1 –__ On your target server, open Registry Editor: navigate to __Start > Run__ and type _"regedit"_.
 
-__Step 2 –__ In the left pane, navigate to _HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
+__Step 2 –__ In the left pane, navigate to _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
 
 __Step 3 –__ Right-click the __Security__ node and select __Permissions__ from the pop-up menu.
 
@@ -84,7 +84,7 @@ __Step 4 –__ Click __Add__ and enter the name of the user that you want to gra
 
 __Step 5 –__ Check __Allow__ next to the __Read__ permission.
 
-__Step 6 –__ For auditing Logon Activity, you also need to assign the Read permission to the _HKEY\_LOCAL\_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
+__Step 6 –__ For auditing Logon Activity, you also need to assign the Read permission to the _HKEY_LOCAL_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
 
 ### Assign Permission Using the Group Policy Management Console
 
@@ -92,7 +92,7 @@ Follow the steps to assign permission using the Group Policy Management console.
 
 __Step 1 –__ Open the Group Policy Management console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016/2019) or Administrative Tools (Windows 2012 R2 and below) > Group Policy Management.
 
-__Step 2 –__ In the left pane, navigate to Forest: <forest name> > Domains > <domain name> > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
+__Step 2 –__ In the left pane, navigate to Forest: `<forest name>` > Domains > `<domain name>` > Domain Controllers. Right-click the effective domain controllers policy (by default, it is the _Default Domain Controllers Policy_), and select Edit .
 
 __Step 3 –__ In the Group Policy Management Editor dialog, expand the Computer Configuration node on the left and navigate to Policies > Windows Settings > Security Settings > Registry.
 

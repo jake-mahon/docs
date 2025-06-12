@@ -2,7 +2,7 @@
 
 ## Export Activity Records Associated with the Alert
 
-To export only important audit data, that is, the Activity Records that led to the alert triggering, configure the alert response action, providing path to __Netwrix\_Auditor\_Alerts\_to\_Event\_Log\_Add-on.ps1__. See the [SIEM](/versioned_docs/auditor_10.6/auditor/addon/siem/overview.md) topic for additional information.
+To export only important audit data, that is, the Activity Records that led to the alert triggering, configure the alert response action, providing path to __Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1__. See the [SIEM](/versioned_docs/auditor_10.6/auditor/addon/siem/overview.md) topic for additional information.
 
 ## Export Activity Records in Bulk
 
@@ -22,7 +22,7 @@ Windows PowerShell
 
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on.ps1.ps1
+PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on.ps1.ps1
 
 If the script path contains spaces (e.g., ```C:\Netwrix Add-ons\```), embrace it in double quotes and insert the ampersand (&) symbol in front (e.g., ```& "C:\Netwrix Add-ons\"```).
 
@@ -34,11 +34,11 @@ By default, the Netwrix Auditor Integration event log size is set to _1GB_, and 
 
 Event records with more than 30,000 characters length will be trimmed.
 
-At the end of each run, the script creates the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_EventIDs.txt__ file. It defines mapping between the Activity Records and related Event IDs .
+At the end of each run, the script creates the __Netwrix_Auditor_Event_Log_Export_Add-on_EventIDs.txt__ file. It defines mapping between the Activity Records and related Event IDs .
 
-You can use this file to track possible duplicates of Event IDs created at each script execution. Duplicates, if any, are written to the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_EventIDsDuplicates.txt__ file.
+You can use this file to track possible duplicates of Event IDs created at each script execution. Duplicates, if any, are written to the __Netwrix_Auditor_Event_Log_Export_Add-on_EventIDsDuplicates.txt__ file.
 
-Similarly, the add-on also creates the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_CategoriesIDs.txt__ file that defines mapping between the Data Source and related Category ID.
+Similarly, the add-on also creates the __Netwrix_Auditor_Event_Log_Export_Add-on_CategoriesIDs.txt__ file that defines mapping between the Data Source and related Category ID.
 
 ### Apply Filters
 
@@ -67,7 +67,7 @@ __Step 4 –__ On the __Actions__ tab, click __New__ and specify action details.
 | --- | --- |
 | Action | Set to _"Start a program"_. |
 | Program/script | Input _"Powershell.exe"_. |
-| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters. For example:  -file "C:\Add-ons\Netwrix\_Auditor\_Audit\_Records\_to\_Event\_Log\_Add-on.ps1" |
+| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters. For example:  -file "C:\Add-ons\Netwrix_Auditor_Audit_Records_to_Event_Log_Add-on.ps1" |
 
 __Step 5 –__ Save the task.
 

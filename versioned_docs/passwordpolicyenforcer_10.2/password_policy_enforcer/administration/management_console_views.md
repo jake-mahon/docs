@@ -61,13 +61,13 @@ The Compromised Password Checker finds compromised passwords and helps to streng
 ![cpcreportrecipient](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcreportrecipient.png)
 
 - __To__ – Type the email address of the administrator receiving the full report.
-- __From__ – Type the name and email address you wish to appear. The correct format is "Display Name" <mailbox@domain.com>
+- __From__ – Type the name and email address you wish to appear. The correct format is `"Display Name" <mailbox@domain.com>`
 
 #### User Notification
 
 ![cpcusernotification](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcusernotification.png)
 
-- __From__ – Type the name and email address you wish to appear. The correct format is "Display Name" <mailbox@domain.com>
+- __From__ – Type the name and email address you wish to appear. The correct format is `"Display Name" <mailbox@domain.com>`
 - __Subject__ – Type the subject line of your email.
 - __Email__ – The text for the message you want to send to the user. The default text contains information about the recipient's name and account, as well as a request to change the password. You can customize it any way you want.
 

@@ -28,7 +28,7 @@ __Step 7 –__ Test sudo for user:
 
 __Step 1 –__ Switch to root user as a failsafe: ```sudo su - root```
 
-__Step 2 –__ Switch back to user you logged in with, replace <username> with name of user : ```su - <username>```
+__Step 2 –__ Switch back to user you logged in with, replace `<username>` with name of user : ```su - <username>```
 
 - Now if the /etc/sudoers file is not edited properly, you can 'exit' to root to fix.
 
@@ -48,7 +48,7 @@ __Step 8 –__ Test that sudo still works: ```sudo date```
 
 - If sudo fails, ```exit``` to root
 - Go to step 4 and verify added line is correct.
-- Without exiting root, switch back to user you logged in with, replace <username> with name of user
+- Without exiting root, switch back to user you logged in with, replace `<username>` with name of user
 - ```su - <username>```
 - Test sudo: ```sudo date```
 

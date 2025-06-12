@@ -152,11 +152,11 @@ For example, if the following settings are entered:
 
 - Set OAM Enabled = TRUE
 - Set OAM Strategy = OS-BEST-PRACTICE
-- Set OAM Disable Built-in Admin = FALSE <--- This will conflict with Best Practices
+- Set OAM Disable Built-in Admin = FALSE `<--- This will conflict with Best Practices`
 
 Attempting to import the file will cause the following error to be returned by the API.
 
-Response Body: {"name":"UnprocessableEntityError","message":"One or more conflict with named strategy: [disable\_built\_in\_admin]"}
+Response Body: {`"name":"UnprocessableEntityError","message":"One or more conflict with named strategy: [disable_built_in_admin]"`}
 
 ## API
 
@@ -202,7 +202,7 @@ Offline Access uses the pre-existing “RID 500” configuration values for pass
     - Minimum Digits: 3
     - Minimum Uppercase: 3
     - Minimum Special Characters: 3
-    - Exclude chars: <none>
+    - Exclude chars: `<none>`
 - Password Rotation After Reveal: First scan after 1 hour of being revealed (version 2.2 on)
 
 These settings can be overridden in the database if required.
@@ -242,7 +242,7 @@ If a database entry is not specified for any value, then the following environme
 | RID\_500\_PW\_MIN\_LENGTH | 12 |  |
 | RID\_500\_PW\_MIN\_DIGITS | 3 |  |
 | RID\_500\_PW\_MIN\_UPPERCASE | 3 |  |
-| RID\_500\_PW\_MIN\_SPECIAL\_CHARS | 3 | Punctuation chars (note single quote is excluded): !"#$%&()\*+-:;<=>?@[\]^\_{}, | .`/"~'     Need to comment out these characters:( ) [ ] { } " '  Example, to comment out a [ you would use:  \] |
+| RID\_500\_PW\_MIN\_SPECIAL\_CHARS | 3 | Punctuation chars (note single quote is excluded): `!"#$%&()*+-:;<=>?@[\]^_{},` \| `.` `/"~'`     Need to comment out these characters: `( ) [ ] { } " '`  Example, to comment out a `[` you would use:  `\]` |
 | RID\_500\_PW\_EXCLUDE\_CHARS | "" |  |
 
 Note that some of these settings are minimum values, not maximum values. It can have any number greater than or equal to setting. Keep in mind it that other criteria must be maintained too.  

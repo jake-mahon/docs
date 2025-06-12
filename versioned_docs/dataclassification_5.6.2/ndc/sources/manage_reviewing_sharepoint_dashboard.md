@@ -12,4 +12,4 @@ Here you can examine:
 - __Index size__ diagram that shows index size for various entities (subsites, libraries, etc.)
 - __Classification coverage__ diagram that identifies the percentage of content that has had classifications applied, and the percentage that has not.
 
-![sharepointdashboard](/img/versioned_docs/sharepointdashboard.png)
+<!-- Image removed: sharepointdashboard.png not found -->

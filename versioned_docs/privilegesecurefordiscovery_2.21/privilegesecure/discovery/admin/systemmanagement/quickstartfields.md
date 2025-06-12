@@ -24,7 +24,7 @@ The following tables provide details and explanations of the Quickstart report f
 | Intentionally Blank | -- | Intentionally left blank. | -- | -- |
 | Filtered | Pulled/Downloaded data | TRUE indicates a Windows Server OS found in AD.  FALSE indicates a Window OS without 'server' in the OS name found in AD. | Privilege Secure |  |
 | Persistent | Change to push/upload | True/False flag to set administrator persistence on computer:  True = persistent; False = non-persistent | Privilege Secure | admins.current.persistent |
-| Delete from Inventory | Change to push/upload | True flag to delete this administrator from the computer's Administor Accounts inventory. | Privilege Secure | admins.current.<admin in array> |
+| Delete from Inventory | Change to push/upload | True flag to delete this administrator from the computer's Administor Accounts inventory. | Privilege Secure | admins.current.`<admin in array>` |
 
 ## Computer Data Sheet
 
@@ -46,7 +46,7 @@ The following tables provide details and explanations of the Quickstart report f
 | directory\_bridging\_strategy | Pulled/Downloaded data | Indicates directory bridging provider set for Linux computer. |  |  |
 | edr\_integration | Pulled/Downloaded data | Indicates if Privilege Secure EDR (Endpoint Detection and Response) integration is enabled for computer. | Privilege Secure | config.edr\_integration.enabled |
 | registered | Pulled/Downloaded data | Mac registered system |  |  |
-| <QuickStart provisionUser> | Pulled/Downloaded data | True/False flag that indicates if the provisionUser specificed in the QuickStart script is on a computer. | Privilege Secure | n/a |
+| `<QuickStart provisionUser>` | Pulled/Downloaded data | True/False flag that indicates if the provisionUser specificed in the QuickStart script is on a computer. | Privilege Secure | n/a |
 | Intentionally Blank | -- | Intentionally left blank. | -- | -- |
 | Filtered | Pulled/Downloaded data | TRUE indicates a Windows Server OS found in AD.  FALSE indicates a Window OS without 'server' in the OS name found in AD. |  |  |
 | OAM (Offline Access Management) Enabled | Pulled/Downloaded data | True/False flag that indicates if OAM is managed on computer. |  | config.policies.offline\_access\_management.enabled |

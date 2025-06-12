@@ -30,6 +30,7 @@ __Step 3 –__ Click __Add__ > Add __Custom Role__.
 
 __Step 4 –__ Create a JSON file using the subscription ID provided by Microsoft Azure (see the example below) and save it to a local directory.
 
+```json
 {
 
 "properties": {
@@ -149,6 +150,7 @@ __Step 4 –__ Create a JSON file using the subscription ID provided by Microso
 }
 
 }
+```
 
 ![Azure SQL Configuration - Create a Custom Role section](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_3.png)
 

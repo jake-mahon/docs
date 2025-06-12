@@ -10,7 +10,7 @@ JSON translation file format
 
 Example with the translation keys```accessCertificationReview.recommendation.manuallyAuthorized```, ```app.common.button.create.label``` and ```app.common.labels.whenCreated```:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -44,13 +44,13 @@ For languages other than french and English (US), when you do not override a giv
 
 Product translations must be linked to a defined Language in the configuration. For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <Language Code="en-US" IndicatorNumber="1" JsonPath="translation.en-US.json" />
 ```
 
-A translation file must be named: translation.<language code>.json.
+A translation file must be named: `translation.<language code>.json`.
 
 For example, for en-US, the translation file must be named translation.en-US.json.
 

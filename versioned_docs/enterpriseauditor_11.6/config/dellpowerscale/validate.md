@@ -112,6 +112,7 @@ The debug log is stored in ```/opt/CEEPack/emc_cee_svc.log``` file. To enable ve
 
 __NOTE:__ Debug logs should only be used for troubleshooting purposes. It's recommended to have Debug Logs disabled by default.
 
+```xml
 ...
 
 <Configuration>
@@ -151,5 +152,6 @@ __NOTE:__ Debug logs should only be used for troubleshooting purposes. It's reco
 </Configuration>
 
 </CEEConfig>
+```
 
 __NOTE:__ All protocol strings are case sensitive.

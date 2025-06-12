@@ -15,18 +15,18 @@ __Notes__
    - In the source version, you specified a list of attributes to replicate for an identity store. These attributes are saved to a file on the GroupID file system.  
      To upgrade on a different box, the file containing the selected attributes for each identity store must be present on the GroupID 11 server. If the wizard does not find it, GroupID 11 will display the default attributes for identity store replication (rather than your selected attributes).
 
-     File name: <name of the domain the identity store is created on>\_<identity store ID>.xml  
+     File name: `<name of the domain the identity store is created on>_<identity store ID>.xml`  
      Example: techinfo.local\_4.xml, techinfo.onmicrosoft.com\_6.xml  
      A separate file exists for each identity store.
 
-     File Path on the GroupID 11 server: C:\Program Files\Imanami\GroupID <source version>\Replication\IdentityStoresReplicationAttributes\
+     File Path on the GroupID 11 server: `C:\Program Files\Imanami\GroupID <source version>\Replication\IdentityStoresReplicationAttributes\`
    - To upgrade schedules, Synchronize jobs, and generated reports on a different box, the relevant files must be available on the GroupID 11 server.
    - If you have uploaded a CSV file containing a list of disallowed passwords for an identity store, that file should also be available on the GroupID 11 server for the Upgrade wizard to process it.
 
      File name: The name of the uploaded file.  
      For example: DisallowedPasswords.txt
 
-     File Path on the GroupID 11 server: C:\Program Files\Imanami\GroupID <source version>\GroupIDDataService\PasswordCenter\PasswordExceptionLists\<identity store name>\_<identity store ID>\  
+     File Path on the GroupID 11 server: `C:\Program Files\Imanami\GroupID <source version>\GroupIDDataService\PasswordCenter\PasswordExceptionLists\<identity store name>_<identity store ID>\`  
      Example: C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore\_4\
 3. When importing design settings of a Self-Service portal on the same box or on a different box, remember the following:
 

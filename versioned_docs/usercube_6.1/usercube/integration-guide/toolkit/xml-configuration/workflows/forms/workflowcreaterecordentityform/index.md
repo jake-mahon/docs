@@ -6,7 +6,7 @@ Displays a form to create a new resource with a record.
 
 The following example is a form to create a new user from HR.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_CreateFromHR" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_CreateFromHR:Request" FormTitle_L1="New Employee (from HR)">  

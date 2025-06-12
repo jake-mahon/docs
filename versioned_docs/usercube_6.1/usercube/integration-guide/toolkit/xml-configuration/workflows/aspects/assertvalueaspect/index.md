@@ -6,7 +6,7 @@ Checks whether the value of a given property satisfies a given condition.
 
 The following example makes sure that, when creating a new employee, the contract end date is after the contract start date. The pointcuts define when the value assertion must happen.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AssertValueAspect Identifier="Directory_User_NewInternal_CheckDates" Binding="Workflow_Directory_User:Directory_User.Records.ContractEndDate" ExpressionBinding="Workflow_Directory_User:Directory_User.Records" Expression="C#:record: return ( ((Nullable&lt;DateTime&gt;) record.ContractStartDate).HasValue && ((Nullable&lt;DateTime&gt;) record.ContractEndDate).HasValue) ?  record.ContractStartDate &lt; record.ContractEndDate : true;" Message_L1="Contract's end date must be after contract's start date.">    <PointCut Activity="Directory_User_NewInternal:Request" ActivityState="ActionWithRefine-Executed" Mode="Before" />    <PointCut Activity="Directory_User_NewInternal:Review" ActivityState="ReviewWithFeedback-Approved" Mode="Before" /></AssertValueAspect>
@@ -16,13 +16,13 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 When asserting a multi-valued object, said object must not be called through a binding that goes back and forth between entities.
   
-For example, to manage records, using the ExpressionBinding set to <Workflow\_Directory\_User:Directory\_User>. Records and the Expression using C#:record:return record.Directory\_User.Records... will not work.
+For example, to manage records, using the ExpressionBinding set to `<Workflow_Directory_User:Directory_User>`. Records and the Expression using C#:record:return record.Directory_User.Records... will not work.
   
-Instead, the ExpressionBinding should be set to <Workflow\_Directory\_User:Directory\_User> and the Expression should use C#:user:return user.Records.
+Instead, the ExpressionBinding should be set to `<Workflow_Directory_User:Directory_User>` and the Expression should use C#:user:return user.Records.
 
 The following example makes sure that a user's positions do not overlap.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <AssertValueAspect Identifier="RecordsOverlapCheck" Binding="Workflow_Directory_User:Directory_User.Records.Organization" ExpressionBinding="Workflow_Directory_User:Directory_User" Expression="C#:user:for (int i = 0; i &lt; user.Records.Count; i++)  
@@ -54,7 +54,7 @@ return true;" Message_L1="A user cannot have more than one position simultaneous
 | Expression   optional | String | C# expression returning a boolean, false to invalidate the property value. |
 | ExpressionBinding   optional | String | Binding:   - Defines the variable type used in the potential expressions specified in the aspect; - Whose difference with Binding defines the property involved in the aspect   __NOTE:__ Required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
 | IfExpression   optional | String | Expression that conditions the aspect execution. See the [ Expressions ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
-| Message\_L1   optional | String | Message in language 1 (up to 16) to be displayed when the property is invalidated by the condition specified in Expression. |
+| Message_L1   optional | String | Message in language 1 (up to 16) to be displayed when the property is invalidated by the condition specified in Expression. |
 | Priority   default value: 0 | Int32 | Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.  __NOTE:__ The priority can be a negative value. |
 
 ## Child Element: PointCut

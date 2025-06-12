@@ -7,7 +7,7 @@ In this instance, the message, while sent by User B, will appear as sent by User
 
 Similarly, for the __Send on Behalf__ feature, a portal user (User A) can set another object or objects in its Send on Behalf list. An added object (User B) will be able to choose User A’s email address in the From field when composing
 a message in Outlook. However, message recipients will see both User A’s address and User B’s address (as the actual author of the message). This means that when User B sends a message using User A’s address, the ‘From’ address will show ‘From:
-Mailbox <User B's address> on behalf of Mailbox <User A’s address>’.
+Mailbox `<User B's address>` on behalf of Mailbox <User A’s address>’.
 
 The administrator can provide the Send As and Send on Behalf features on any tab in [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md). They are displayed as:
 

@@ -29,13 +29,13 @@ To configure Fortinet FortiGate devices via Command Line Interface
 
    set csv disable
 
-   set facility <facility\_name>
+   set facility `<facility_name>`
 
    set port 514
 
    set reliable disable
 
-   set server <ip\_address\_of\_Receiver>
+   set server `<ip_address_of_Receiver>`
 
    set status enable
 

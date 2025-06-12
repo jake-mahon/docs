@@ -75,7 +75,7 @@ RESTAPI
 cluster1::> vserver services web modify -vserver svm1 -name rest -enabled true -ssl-only true
 ```
 
-__Step 7 –__ Make sure that the custom role (e.g., netwrix\_role for ONTAPI or netwrix\_rest\_role for RESTAPI) assigned to your account specified for data collection can access ONTAPI or RESTAPI. See [Permissions for NetApp Auditing](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/permissions.md) topic for additional information.
+__Step 7 –__ Make sure that the custom role (e.g., netwrix_role for ONTAPI or netwrix_rest_role for RESTAPI) assigned to your account specified for data collection can access ONTAPI or RESTAPI. See [Permissions for NetApp Auditing](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/netappcmode/permissions.md) topic for additional information.
 
 ```
 cluster1::> vserver services web access show -name ontapi -vserver svm1  

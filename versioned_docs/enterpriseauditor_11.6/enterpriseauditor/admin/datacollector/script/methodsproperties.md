@@ -8,7 +8,7 @@ The Query and Working Query objects support the following methods and properties
 | --- | --- |
 | Execute | Executes the object query. Use this to perform the query after setting the source, path, and properties. |
 | Reset | Resets the object’s properties to their original values. Use this if the source, path, or properties have been modified, but the original values are desired. |
-| AddProperty (attributes : string) | Adds a property to the query. Using the following format:  NAME=<value>;COLUMN=<value>;VALUE=<reserved>;DATATYPE=<datatype>;SIZE=<value>;KEY=<value> |
+| AddProperty (attributes : string) | Adds a property to the query. Using the following format:  `NAME=<value>;COLUMN=<value>;VALUE=<reserved>;DATATYPE=<datatype>;SIZE=<value>;KEY=<value>` |
 | DeleteProperty (propertyname : string) | Removes a property from a query. |
 
 ## Supported Properties

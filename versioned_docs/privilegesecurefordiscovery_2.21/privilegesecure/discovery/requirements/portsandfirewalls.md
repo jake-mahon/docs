@@ -116,7 +116,7 @@ Requirements from Privilege Secure > SIEM server
 - SYSLOG (UDP/514 + TCP/6514)
 - Protocols other than SYSLOG are also supported / may require other ports
 
-Requirements from Privilege Secure <> Privilege Secure (if HA clustered)
+Requirements from Privilege Secure `<>` Privilege Secure (if HA clustered)
 
 - Cluster management communications (TCP/2377)
 - Node communication (TCP/7946 and UDP/7946)
@@ -126,7 +126,7 @@ Requirements from Privilege Secure <> Privilege Secure (if HA clustered)
 
   - IP tables example: iptables -A INPUT -p 50 -j ACCEPT
 
-Requirements from Privilege Secure (primary nodes) <> Privilege Secure (DR nodes)
+Requirements from Privilege Secure (primary nodes) `<>` Privilege Secure (DR nodes)
 
 SCP (tcp/22) for copying the database backup file periodically
 

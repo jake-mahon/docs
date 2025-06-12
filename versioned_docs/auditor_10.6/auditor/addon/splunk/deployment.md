@@ -13,7 +13,7 @@ See the [Configure Integration API Settings](/versioned_docs/auditor_10.6/audito
 
 Follow the steps to download the add-on.
 
-__Step 1 –__ Download the distribution package Netwrix\_Auditor\_Add-on\_for\_Splunk.zip from the following web page: [https://www.netwrix.com/add-on\_for\_splunk.html](https://www.netwrix.com/add-on_for_splunk.html)
+__Step 1 –__ Download the distribution package Netwrix_Auditor_Add-on_for_Splunk.zip from the following web page: [https://www.netwrix.com/add-on_for_splunk.html](https://www.netwrix.com/add-on_for_splunk.html)
 
 __Step 2 –__ Unpack it to a folder on the computer from which you can access Splunk Web.
 
@@ -138,6 +138,6 @@ Follow the steps to upgrade the add-on.
 
 __Step 1 –__ Stop the old version of Netwrix Auditor add-on for Splunk. You can do this with the Windows Scheduled Tasks.
 
-__Step 2 –__ Locate the Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on\_Cookie.bin file in the installation directory of the old add-on for Splunk. Store that file content to a safe location.
+__Step 2 –__ Locate the Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on_Cookie.bin file in the installation directory of the old add-on for Splunk. Store that file content to a safe location.
 
-__Step 3 –__ Install the new add-on. When prompted for Continuation Mark, enter that Netwrix\_Auditor\_ Activity\_Records\_to\_Event\_Log\_Add-on\_Cookie.bin file content.
+__Step 3 –__ Install the new add-on. When prompted for Continuation Mark, enter that Netwrix_Auditor_ Activity_Records_to_Event_Log_Add-on_Cookie.bin file content.

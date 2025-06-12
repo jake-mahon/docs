@@ -27,7 +27,7 @@ Review the following for additional information:
 - ["Sync Enabled" Treeview Filter](#Sync-Enabled-Treeview-Filter)
 - [Source Filter](#Source-Filter)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Searching for Taxonomy Terms](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Searching for Taxonomy Terms](javascript:void(0))
 
 A search facility is provided to locate terms that contains specified text:
 
@@ -35,7 +35,7 @@ Click the magnifying glass icon to the right of the taxonomy dropdown and a new 
 
 ![taxonomysearch](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomysearch.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))["Sync Enabled" Treeview Filter](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))["Sync Enabled" Treeview Filter](javascript:void(0))
 
 For SharePoint Term Sets the treeview can optionally be filtered to only show terms that are enabled for synchronisation (configured on the term Settings screen).
 
@@ -45,7 +45,7 @@ This setting is session specific and applicable only to the current user:
 
 [See Taxonomy Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomy_settings.md)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Source Filter](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Source Filter](javascript:void(0))
 
 A filter facility is also provided to restrict all search/browse results to a specific source. Click the source filter link in the top right of the display, then, select a source:
 

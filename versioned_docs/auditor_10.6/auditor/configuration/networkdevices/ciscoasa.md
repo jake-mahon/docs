@@ -32,7 +32,7 @@ To configure your Cisco ASA devices, do the following:
    hostname(config)# logging enable
 4. Set the IP address of the computer that hosts Netwrix Auditor Server as the ```logging host``` parameter. And make sure that the UDP port is used for sending syslog messages (e.g., 514 UDP port). For example:
 
-   hostname(config)# logging host <Netwrix Auditor server IP address>
+   hostname(config)# logging host `<Netwrix Auditor server IP address>`
 
    Do not select the EMBLEM format logging for the syslog server option.
 5. Enable the ```logging timestamp``` option. For example:

@@ -42,7 +42,7 @@ Each deployment instance of a portal in IIS is assigned an IIS application name 
   (X represents the GroupID installation drive)
 
 This name is also appended to the web server address to construct the URL that users click to access the portal instance. For example:  
-https://web-server-name:port/IIS-application-name
+`https://<web-server-name>:<port>/<IIS-application-name>`
 
 When you change the name, it propagates to the instance’s IIS directory, physical directory, and launch URL. You must provide the updated URL to users to enable them to access the portal. See the [Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
 

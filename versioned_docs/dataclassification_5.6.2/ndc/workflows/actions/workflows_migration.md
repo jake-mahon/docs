@@ -14,7 +14,7 @@ __IMPORTANT!__ Before you add the __Migration__ action to your workflow, you sho
 
 When running the Workflow wizard and having selected __Migration__ as action, you will be prompted to configure related settings.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[To configure migration using Workflow wizard:](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[To configure migration using Workflow wizard:](javascript:void(0))
 
 On the What do you want to do step, select Migrate Document action. do the following:
 

@@ -32,7 +32,7 @@ Get-Client –ClientName ‘Admin Center’
 
 Example 2:
 
-This example retrieves information about two clients – ManagementShell <_machine name_> and GroupIDPortal1 – through the pipeline operator.
+This example retrieves information about two clients – ManagementShell `<machine name>` and GroupIDPortal1 – through the pipeline operator.
 
 ```
 ‘ManagementShell <machine name>’, ‘GroupIDPortal1’ | Get-Client

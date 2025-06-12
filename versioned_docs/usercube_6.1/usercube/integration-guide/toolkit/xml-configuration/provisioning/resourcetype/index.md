@@ -7,7 +7,7 @@ A resource type can be assigned manually, or configured to be assigned automatic
 
 The following example declares a new resource type to provision the LDAP service accounts:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="LDAP_Entry_ServiceEntry" DisplayName_L1="LDAP Entry (service)" Policy="Default" TargetEntityType="LDAP_Entry" Category="LDAP" SourceEntityType="Directory_Application" />
@@ -21,7 +21,7 @@ Most standard situations use only one workflow per action type on a resource (ad
 
 The following example computes the identifier of the workflow to launch, based on the provisioning order as a variable (the returned value depends here mostly on the type of change):
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="HR_Person_To_Directory_UserRecord" DisplayName_L1="User Record (from HR)" DisplayName_L2="Fiche de collaborateur (source RH)" Category="HR" Policy="Default" TargetEntityType="Directory_UserRecord" SourceEntityType="HR_Person" CorrelateMultipleResources="true" ArgumentsExpression="C#:resource:  
@@ -47,7 +47,7 @@ Now consider a record creation for a given identity, inside a multi-record organ
 
 The following example computes the identifier of the record to copy, if the identity has already any:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="HR_Person_To_Directory_UserRecord" DisplayName_L1="User Record (from HR)" DisplayName_L2="Fiche de collaborateur (source RH)" Category="HR" Policy="Default" TargetEntityType="Directory_UserRecord" SourceEntityType="HR_Person" CorrelateMultipleResources="true" ArgumentsExpression="C#:resource:  
@@ -74,7 +74,7 @@ In this case, we want to configure the Exchange Account resource type so that a 
 
 The following example is meant to perform an automatic check to prevent the execution of any provisioning order for the creation of an Exchange account when the user does not own an AD nominative account.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="Exchange" DisplayName_L1="Exchange Account" Policy="Default" TargetEntityType="Exchange" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="ManualAssignmentNotAllowed" DependsOn="AD_Entry_NominativeUser">
@@ -92,7 +92,7 @@ __NOTE:__ The DependsOnOwnerProperty of a resource type should only refer to sca
 
 The following example is meant to perform an automatic check to prevent the execution of any provisioning order for the creation of an AD administrator account when the user does not have an identifier in ServiceNow.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="AD_Entry_AdministrationUser" DisplayName_L1="AD User (Administration)" Policy="Default" TargetEntityType="AD_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="ManualAssignmentNotAllowed" DependsOnOwnerProperty="ServiceNow:identifier">
@@ -146,11 +146,11 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 
 ![suggestallcorrelations-nnn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.png)
 
-- The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is >100 or __Suggested__ if it is <100. As for all other matches with lower confidence rate they will be ignored.
+- The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is `>100` or __Suggested__ if it is `<100`. As for all other matches with lower confidence rate they will be ignored.
 
   ![suggestallcorrelations-nnn2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.png)
 
-  If there are no Resources to be correlated with a confidence rate >100, the ones below with confidence rate below 100 are Suggested or Ignored.
+  If there are no Resources to be correlated with a confidence rate `>100`, the ones below with confidence rate below 100 are Suggested or Ignored.
 
   ![suggestallcorrelations-nny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.png)
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is one Resource already correlated so due to this all future correlations will be ignored.
@@ -159,20 +159,20 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is no Resource already correlated so all Resource Types will be __Suggested__.
 
   [![suggestallcorrelations-nyy](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-nyy.png)
-- The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations____Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate >100 will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
+- The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate `>100` will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
 
   [![suggestallcorrelations-ynn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-ynn.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations____No__, and there is no Resource already correlated so Resource Types that have a confidence rate >100 will be __Correlated__ and the ones <100 will be __Suggested__ if there are no higher matches otherwise they will be ignored.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __No__, and there is no Resource already correlated so Resource Types that have a confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__ if there are no higher matches otherwise they will be ignored.
 
   [![suggestallcorrelations-ynn2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-ynn2.png)
 
-  If there are no Resources to be correlated with a confidence rate >100, the ones with confidence rate below 100 are Suggested.
+  If there are no Resources to be correlated with a confidence rate `>100`, the ones with confidence rate below 100 are Suggested.
 
   [![suggestallcorrelations-yny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-yny.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations____No__ there is one Resource already correlated so the matches with confidence rate >100 will be __Correlated__ and the ones <100 will be ignored.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __No__ there is one Resource already correlated so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be ignored.
 
   [![suggestallcorrelations-yyny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-yyny.png)
-- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations____Yes__ one Resource could be already correlated or not so the matches with confidence rate >100 will be __Correlated__ and the ones <100 will be __Suggested__.
+- The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __Yes__ one Resource could be already correlated or not so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__.
 
 ## Properties
 
@@ -213,11 +213,11 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 
 ## Child Element: BinaryRule
 
-A ResourceBinaryRule allows to specify the file that must be set to an assigned resource binary property. It is defined by a child element <BinaryRule> of the <ResourceType> element. The source file should already be synchronized and stored inside and reference as an EntityType property.
+A ResourceBinaryRule allows to specify the file that must be set to an assigned resource binary property. It is defined by a child element `<BinaryRule>` of the `<ResourceType>` element. The source file should already be synchronized and stored inside and reference as an EntityType property.
 
 ### Examples
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
     <ResourceType Identifier="AD_Entry_To_Directory_User" ...>    ...  
@@ -240,7 +240,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 A navigation rule computes the value of a given navigation property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system. Contrary to query rules, navigation rules assign resources regardless of the attributes of source resources.
 
-A navigation rule is defined by the child element <NavigationRule> of the <ResourceType> element.
+A navigation rule is defined by the child element `<NavigationRule>` of the `<ResourceType>` element.
 
 __NOTE:__ Both navigation and query rules compute navigation properties. The value of one navigation property should be computed by either navigation or query rules, not both.
 
@@ -254,7 +254,7 @@ Computation based on other properties
 
 The following example declares a new rule to give the SG\_APP\_SharePoint\_HR\_Owner group to all users who had the SharePoint\_HR\_Owner role.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <NavigationRule Property="memberOf" Resource="SG_APP_SharePoint_HR_Owner" SingleRole="SharePoint_HR_Owner" Policy="Default" />
@@ -262,7 +262,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 The following rule will set users' Active Directory nominative account in the CN=SG\_APP\_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal group for people having the DL-INTERNET-Restricted role.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="AD_Entry_NominativeUser">    ...  
@@ -284,7 +284,7 @@ Dimension
 Base32 Parameter Names
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/parameter-names/index.md)topics for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <SingleRole Identifier="Access/A_Brune_HR" DisplayName_L1="Zone - Brune - HR" DisplayName_L2="Zone - Brune - RH" Category="Access" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default" RA="1" /><ResourceType ... >    <NavigationRule Property="TimeSlot" Resource="TS_5/7_8/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_8/24" />    <NavigationRule Property="TimeSlot" Resource="TS_5/7_12/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_12/24" />    <NavigationRule Property="TimeSlot" Resource="TS_7/7_24/24" SingleRole="Access/A_Brune_HR" DA="TS_7/7_24/24" /></ResourceType>
@@ -311,7 +311,7 @@ A query rule computes the value of a given navigation property for target resour
 Expressions
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 
-A query rule is defined by the child element <QueryRule> of the <ResourceType> element.
+A query rule is defined by the child element `<QueryRule>` of the `<ResourceType>` element.
 
 Both navigation and query rules compute navigation properties. The value of one navigation property should be computed by either navigation or query rules, not both.
 
@@ -325,7 +325,7 @@ Computation based on other properties
 
 The following example declares a new rule to compute the parent distinguished name for guest users. Here we do not use source properties, but a literal expression for all guest users.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="AD_Entry_Guest">    ...  
@@ -352,7 +352,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 A scalar rule computes the value of a given scalar property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system.
 
-A scalar rule is defined by the child element <ScalarRule> of the <ResourceType> element.
+A scalar rule is defined by the child element `<ScalarRule>` of the `<ResourceType>` element.
 
 See the [
 Compute a Scalar Property
@@ -364,7 +364,7 @@ Computation based on other properties
 
 The following example shows two scalar rules. The first one computes users' emails based on AD values. The other one contains a C# expression to compute AccountExpires.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot">    ...  
@@ -375,7 +375,7 @@ Code attributes enclosed with <> need to be replaced with a custom value before 
 
 The next example computes the firstName property of a App1\_Account from the resource type App1\_Standard\_Account, indicating that it must be equal to the firstName of the source resource.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="User">    ...  
@@ -389,7 +389,7 @@ The following example translates to "the userAccountControl property of a App1\_
 Expressions
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot">    ...  
@@ -405,7 +405,7 @@ Bindings
 Expressions
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) topics for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ScalarRule Property="email" Binding="C#:user:user.firstName+"."+user.lastName+"@acme.com"" />
@@ -421,7 +421,7 @@ Synchronize Data
 
 The following example computes users' title in a given managed system, based on Usercube's ```PersonalTitle``` property without ever retrieving the value:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ScalarRule Property="title" Binding="PersonalTitle" IsMapped="false" />
@@ -446,7 +446,7 @@ The following example impacts the property for the activation of nominative AD a
 - The second rule activates the account from the user's arrival day until their departure;
 - The third rule deactivates the account from the user's departure day and until its deletion, i.e. 6 months after the departure day.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="AD_Entry_NominativeUser" Policy="Default" TargetEntityType="AD_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="None">    <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="Before" TimeOffsetBeforeReference="-43200" TimeOffsetAfterReference="0" />    <ScalarRule Property="accountEnabled" Expression="C#:person:return person.Leave.GetValueOrDefault() ? &quot;false&quot; : &quot;true&quot;;" TimeOffsetReference="Around" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="0" />    <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="After" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="259200" />    ...  
@@ -480,7 +480,7 @@ Note that the rules are applied in a specific order according to their offset re
 
 A resource type rule assigns resources to given users if they match specific criteria. These resources are to be provisioned, i.e. written to the managed system.
 
-A resource type rule is defined by the child element <TypeRule> of the <ResourceType> element.
+A resource type rule is defined by the child element `<TypeRule>` of the `<ResourceType>` element.
 
 __NOTE:__ The specification of several resource type rules for one resource type implies the union of all rules, i.e. the combination of all rules (and all sets of criteria) with an OR operator.
 
@@ -490,7 +490,7 @@ With a dimension criterion
 
 The following rule will assign an App1\_Standard\_Account resource (resource of type App1\_Account) to any User whose organization dimension (dimension binded to column 0) identifier is Marketing.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="User">  
@@ -505,7 +505,7 @@ In addition to dimensions, a single role can be used as a criterion for a rule.
 
 The following rule will assign an App1\_Standard\_Account resource to all User whose organization dimension identifier is Marketing and having the single role Multimedia\_Designer.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="User">  
@@ -520,7 +520,7 @@ Di and SingleRole conditions are not mandatory. A type rule with no condition en
 
 The following example declares a new rule to give the resource type "AD\_Entry\_NominativeUser" to all users.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <ResourceType Identifier="AD_Entry_NominativeUser" Policy="Default" TargetEntityType="AD_Entry" Category="Accounts" SourceEntityType="Directory_User" Type="Suggested" ApprovalWorkflowType="None">  

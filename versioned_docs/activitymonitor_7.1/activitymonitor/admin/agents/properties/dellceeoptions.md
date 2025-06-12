@@ -89,88 +89,57 @@ For the Activity Monitor use the following strings:
 
 Here's an example for the synchronous delivery (Audit):
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-
 <CEEConfig version="8.8.1.0">
-
 <CEPP>
-
 <Audit>
-
 <Configuration>
-
 <Enabled>1</Enabled>
-
 <EndPoint>StealthAUDIT@http://[IP Address]:[Port]</EndPoint>
-
 </Configuration>
-
 </Audit>
-
 ...
-
 <VCAPS>
-
 <Configuration>
-
 <Enabled>0</Enabled>
-
 <EndPoint>StealthVCAPS@http://[IP Address]:[Port]</EndPoint>
-
 <FeedInterval>60</FeedInterval>
-
 <MaxEventsPerFeed>100</MaxEventsPerFeed>
-
 </Configuration>
-
 </VCAPS>
-
 </CEPP>
+```
 
 Here's an example for the asynchronous delivery (VCAPS):
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-
 <CEEConfig version="8.8.1.0">
-
 <CEPP>
-
 <Audit>
-
 <Configuration>
-
 <Enabled>0</Enabled>
-
 <EndPoint>StealthAUDIT@http://[IP Address]:[Port]</EndPoint>
-
 </Configuration>
-
 </Audit>
-
 ...
-
 <VCAPS>
-
 <Configuration>
-
 <Enabled>1</Enabled>
-
 <EndPoint>StealthVCAPS@http://[IP Address]:[Port]</EndPoint>
-
 <FeedInterval>60</FeedInterval>
-
 <MaxEventsPerFeed>100</MaxEventsPerFeed>
-
 </Configuration>
-
 </VCAPS>
-
 </CEPP>
+```
 
 Make sure to set ```Enabled``` to ```1``` only in ```Audit``` or ```VCAPS``` if Activity Monitor is the only product receiving activity from CEE. Otherwise, enable the modes according to all product requirements.
 
 If you want to send activity to several 3rd party applications, separate them with semicolons.
 
+```xml
 <Audit>
 
 <Configuration>
@@ -182,5 +151,6 @@ If you want to send activity to several 3rd party applications, separate them wi
 </Configuration>
 
 </Audit>
+```
 
 __NOTE:__ All protocol strings are case sensitive.

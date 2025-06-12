@@ -27,8 +27,8 @@ __Step 1 –__ Create a domain user with the following privileges:
 
 __Step 2 –__ Grant the _Read_ permission on the following registry keys to this user:
 
-- HKEY\_LOCAL\_MACHINE\SECURITY\Policy\PolAdtEv
-- HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg
-- HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security
+- HKEY_LOCAL_MACHINE\SECURITY\Policy\PolAdtEv
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security
 
 See the [Assign Permission To Read the Registry Key](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md#Assign-Permission-To-Read-the-Registry-Key) topic for additional information on how to do it using Registry Editor.

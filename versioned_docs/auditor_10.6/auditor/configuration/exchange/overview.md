@@ -77,7 +77,7 @@ Here is the list of actions captured:
 | Event read attempt | No | — |  |
 | Edit event | Yes | Message located in \Calendar with subject <...> was modified. |  |
 | Delete event | Yes | Message with subject <...> was moved from folder \Calendar to folder \Deleted Items. |  |
-| People | New contact | Yes | Message was created in \Contacts\Recipient Cache with subject <_contact name_>. |
+| People | New contact | Yes | Message was created in \Contacts\Recipient Cache with subject `<_contact name_>`. |
 | Contact read attempt | Yes | Folder \Contacts\Recipient Cache was opened. |  |
 | Edit contact | No | — |  |
 | Delete contact | Yes | Message with subject <...> was moved from folder \Contacts to folder \Deleted Items. |  |

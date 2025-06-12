@@ -6,7 +6,7 @@ This section contains information on how to configure settings for external comm
 - [Email Groups](#Email-Groups)
 - [Health Service Notifications](#Health-Service-Notifications)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Email Servers](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Email Servers](javascript:void(0))
 
 Email servers can be configured to enable external communication. For instance when the health service identifies an issue.
 
@@ -20,7 +20,7 @@ It is also possible to supply a test email address which will be used to test th
 
 ![configemailserveradd](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configemailserveradd.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Email Groups](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Email Groups](javascript:void(0))
 
 Email groups are used to define a logical group of people to email, essentially – a mailing list.
 
@@ -32,7 +32,7 @@ To add a new group, select Add Email Server Group, or select Edit on each row to
 
 Each group can have one or more members, and can be assigned a friendly name, which will be displayed when selecting an email group.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Health Service Notifications](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Health Service Notifications](javascript:void(0))
 
 Health Service Notifications can be configured to email a specific group of people when something goes wrong within the product. Each notification configuration is linked to an email group, so, before configuring notifications, you must configure your Email Groups.
 

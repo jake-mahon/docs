@@ -4,7 +4,7 @@
 // Set to true to enable a product, false to disable
 const VERSIONED_PRODUCTS = {
   'accessinformationcenter_11.6': false,
-  'activitymonitor_7.1': true,
+  'activitymonitor_7.1': false,
   'auditor_10.6': false,
   'changetracker_8.0': false,
   'dataclassification_5.6.2': false,
@@ -16,7 +16,7 @@ const VERSIONED_PRODUCTS = {
   'passwordsecure_9.1': false,
   'privilegesecure_4.1': false,
   'privilegesecurefordiscovery_2.21': false,
-  'threatprevention_7.4': false,
+  'threatprevention_7.4': true,
   'usercube_6.1': false,
 };
 

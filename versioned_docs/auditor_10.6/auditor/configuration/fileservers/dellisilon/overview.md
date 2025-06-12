@@ -17,13 +17,13 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
   For Dell Isilon/PowerScale 7x:
 
-  - Audit Success: read, write, delete, set\_security, rename
-  - Audit Failure: read, create, write, delete, set\_security, rename
+  - Audit Success: read, write, delete, set_security, rename
+  - Audit Failure: read, create, write, delete, set_security, rename
 
   For Dell Isilon/PowerScale 8.2 and above:
 
-  - Audit Success: read, create, write, delete, set\_security, rename
-  - Audit Failure: read, create, write, open, delete, set\_security, rename
+  - Audit Success: read, create, write, delete, set_security, rename
+  - Audit Failure: read, create, write, open, delete, set_security, rename
 
 To configure your Dell Isilon/PowerScale appliance for monitoring perform the following procedures:
 

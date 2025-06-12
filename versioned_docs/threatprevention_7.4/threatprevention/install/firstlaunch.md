@@ -6,7 +6,7 @@ Follow the steps to launch Threat Prevention for the first time.
 
 __Step 1 –__ On first launch, the Netwrix Threat Prevention Licensing Configuration window is displayed to the first Administration Console administrator, showing a license key warning:
 
-- Product license will expire in <number> days. Please contact your Netwrix representative for a new license.
+- Product license will expire in `<number>` days. Please contact your Netwrix representative for a new license.
 
 This warning always displays when the organization’s license is within 14 days of expiring. Click __OK__. See the [Import the License](/versioned_docs/threatprevention_7.4/threatprevention/install/licenseimport.md) topic for licensing the product.
 

@@ -14,7 +14,7 @@ The following clue types of clues are available, each clue type is described in 
 - [Static Clues](#Static-Clues)
 - [Hierarchical Clues](#Hierarchical-Clues)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Standard Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Standard Clues](javascript:void(0))
 
 A single word, multi-word concepts or phrases. Use quotes around standard clues to invoke a case-insensitive exact match on entered text, including any punctuation.
 
@@ -24,15 +24,15 @@ A standard clue matched on a fuzzy basis with word stemming enabled: training wi
 
 A standard clue enclosed in double quotes will be matched on an exact match basis: "Train timetables in the U.K." will match only against: Train timetables in the U.K. (Case-insensitive)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Case-Sensitive Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Case-Sensitive Clues](javascript:void(0))
 
 A case-sensitive phrase match clue, including any punctuation. There is no need to put double quotes around the text (double quotes at the start and/or end of the text will be removed).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Phrasematch (Wildcard) Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Phrasematch (Wildcard) Clues](javascript:void(0))
 
 A phrase match clue that supports the use of ‘\*’ and ‘?’ wildcards when matching document text (see [Regex Clues ](#Regex-Clues) for full REGEX support).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Metadata Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Metadata Clues](javascript:void(0))
 
 A clue based on document metadata, with matching based on:
 
@@ -237,7 +237,7 @@ MODIFIED MODIFIED > 2010-01-01
 
 Only the date can be specified, not the time.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Phonetic Clues ](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Phonetic Clues ](javascript:void(0))
 
 A case-insensitive fuzzy/phonetic phrase match clue. Phonetic clues ignore all non alphanumeric characters. Words that contain no digits are matched using a phonetic algorithm so that words that sound similar will be matched. Phonetic clues do not use word stemming in the matching process.
 
@@ -256,7 +256,7 @@ But not any of the following:
 - Intelligence Organisations located in the Middle East
 - Intelligence Organisations in the Mid-East
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Regex Clues ](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Regex Clues ](javascript:void(0))
 
 A Regular Expression matching clue – by default this is run across all document text and metadata. Regular expression clues are run in a case-sensitive manner by default. You can optionally enable the "Case-Insensitive Regex Processing" mode, this setting can be found in Config -> Classifier.
 
@@ -323,7 +323,7 @@ To add a validation check:
 
 __NOTE:__ This functionality is only available when utilising classification Engine v2. The additional settings are also not currently available in SharePoint Term Sets (but can be linked via Term Boosts).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Required Terms clue ](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Required Terms clue ](javascript:void(0))
 
 The Required Term clue type can be used to require another class to be classified as a pre-requisite for this class. This is most often used when the children of a class require the parent to also be classified.
 
@@ -346,7 +346,7 @@ For example, suppose that we have a topic _Pensions_ with two children:
 
 The purpose of the two child classes is to identify documents that are about pensions in the USA or about pensions in Canada. Rather than add clues to identify pensions documents to the children you can simply require documents to be about _Pensions_ by using a Required Class clue type.
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Term Boost Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Term Boost Clues](javascript:void(0))
 
 You use the Term Boost clue type to specify that a Class Score is to be boosted from another term. This is most often used when a complex class is implemented using several child (or even grandchild) classes. Basically, you would want to apply these clues to refer to the other term or taxonomy and review the score for each term, not drilling down to each term. Review the example:
 
@@ -370,7 +370,7 @@ Select the Exclude Not Available for Tagging check box, if you want to exclude t
 
 [![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/taxonomies/termboostclue_exludenotavailablefortagging.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Language Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Language Clues](javascript:void(0))
 
 The language clue type can be used to require documents to be written primarily in a specified language as a filter on classification.
 
@@ -378,7 +378,7 @@ For example, if you create a new class and want documents to be classified only 
 
 ![languageclue](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/languageclue.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Static Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Static Clues](javascript:void(0))
 
 The static clue applies a score to the class without any pre-conditions, this can be useful when creating NOT functionality.
 
@@ -386,7 +386,7 @@ For example:
 
 If you want to classify any document where a word does NOT exist (such as _Pensions_), you could first add a static clue with a score of 50, and then add a standard clue looking for _Pensions_ with a negative score (-50).
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Hierarchical Clues](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Hierarchical Clues](javascript:void(0))
 
 Hierarchical clues support a parent-child clue hierarchy, if the child clues achieve the parent clue threshold then the hierarchical score will be applied.
 

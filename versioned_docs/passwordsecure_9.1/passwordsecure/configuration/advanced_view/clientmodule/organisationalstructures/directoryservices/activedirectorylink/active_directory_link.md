@@ -39,7 +39,7 @@ As can be seen __E2EE offers the highest level of security__. The aim is merely 
 
 When importing or synchronizing from Active Directory, users are also added as users in Netwrix Password Secure. Netwrix Password Secure also uses the organisational units as such.
 
-In order for {Netwrix Password Secure to be quickly integrated into the given infrastructure, roles can also be directly imported from the Active Directory. Namely Active Directory Groups are used to password-safe roles.
+In order for Netwrix Password Secure to be quickly integrated into the given infrastructure, roles can also be directly imported from the Active Directory. Namely Active Directory Groups are used to password-safe roles.
 
 NOTE: Groups in groups Memberships, which may be present in the Active Directory, will not be displayed within Netwrix Password Secure. Both groups are imported as roles, but independent and not linked in any way.
 

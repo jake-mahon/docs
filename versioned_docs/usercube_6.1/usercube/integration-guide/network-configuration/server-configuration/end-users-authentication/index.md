@@ -59,10 +59,10 @@ The archive is set using the following attributes on the ```appsettings > Identi
 
                     ```
 
-  "IdentityServer": {
-    "X509KeyFilePath":C:/UsercubeAgentContoso/contoso.pfx",
+  "IdentityServer": \{
+    "X509KeyFilePath": "C:/UsercubeAgentContoso/contoso.pfx",
     "X509KeyFilePassword": "oarjr6r9f00"
-  }
+  \}
 
 ```
                 
@@ -82,11 +82,11 @@ The certificate from a Windows certificate store is set up using these attribute
 
                     ```
 
-"IdentityServer": {
+"IdentityServer": \{
     "X509SubjectDistinguishedName":"UsercubeContoso",
     "X509StoreLocation": "LocalMachine",
     "X509StoreName": "AuthRoot"
-}
+\}
 
 ```
                 
@@ -102,14 +102,14 @@ Authentication is set up using the following two sections of the Server's ```app
 
                     ```
 
-{
-    "IdentityServer":{
+\{
+    "IdentityServer":\{
         ...
-    },
-    "Authentication":{
+    \},
+    "Authentication":\{
         ...
-    }
-}
+    \}
+\}
 
 ```
                 
@@ -118,26 +118,26 @@ The ```authentication``` section mostly fits the following pattern:
 
                     ```
 
-"Authentication":{
-    <Authentication Protocol 1>:{
-          <Authentication Provider 1>:{
+"Authentication":\{
+    `<Authentication Protocol 1>`:\{
+          `<Authentication Provider 1>`:\{
                   ...
-          },
+          \},
           ....,
-          <Authentication Provider n>:{
+          `<Authentication Provider n>`:\{
                   ...
-          },
-    },
-    <Authentication Protocol 2>:{
-          <Authentication Provider 1>:{
+          \},
+    \},
+    `<Authentication Protocol 2>`:\{
+          `<Authentication Provider 1>`:\{
                   ...
-          },
+          \},
           ....,
-          <Authentication Provider n>:{
+          `<Authentication Provider n>`:\{
                   ...
-          },
-    }
-}
+          \},
+    \}
+\}
 
 ```
                 
@@ -228,12 +228,12 @@ Integrated Windows Authentication is configured using the following sections:
 >                             appsettings.json
 >
 > ...
-> "IdentityServer":{
+> "IdentityServer":\{
 >     "AllowWindowsAuthentication":"true",
-> },
-> "Authentication":{
+> \},
+> "Authentication":\{
 >     "AllowLocalLogin":"false",
-> }
+> \}
 > ...
 >
 > ```
@@ -280,11 +280,11 @@ For example, the following claim provides no meaningful ```sub``` value.
 
                     ```
 
-{
+\{
     "name": "John Doe",
     "preferred_username": "john.doe@contoso.com",
     "sub": "11v7ert42azerttyZD6d4"
-}
+\}
 
 ```
                 
@@ -293,7 +293,7 @@ Using the following applicative configuration setting that sets ```Ad_Entry:user
 
                     ```
 
- <SelectUserByIdentityQueryHandlerSetting ResourceIdentityProperty="AD_Entry:userPrincipalName" ... />
+ `<SelectUserByIdentityQueryHandlerSetting ResourceIdentityProperty="AD_Entry:userPrincipalName" ... />`
 
 ```
                 
@@ -339,13 +339,13 @@ It will be displayed as _Connection Microsoft Entra ID with OIDC protocol_ in th
 
                     ```
 
-{
+\{
     "Authentication":
-    {
+    \{
         ...
-        "OpenId": {
+        "OpenId": \{
             "Enabled": "True",
-            "OpenId1": {
+            "OpenId1": \{
                 "AuthenticationScheme": "AzureOIDC",
                 "DisplayName": "Connection Microsoft Entra ID with OIDC protocol",
                 "ClientId": "6779ef20e75817b79602",
@@ -353,10 +353,10 @@ It will be displayed as _Connection Microsoft Entra ID with OIDC protocol_ in th
                 "Authority": "https://login.microsoftonline.com/bbd35166-7c13-49f3-8041-9551f2847b69",
                 "NameClaimType": "preferred_username",
                 "Scopes": ["openid", "profile"]
-            }
-        }
-    }
-}
+            \}
+        \}
+    \}
+\}
 
 ```
                 
@@ -420,13 +420,13 @@ _Usercube Server_ marks received claims using _[https://accounts.google.com](htt
 
                     ```
 
-{
+\{
     "Authentication":
-    {
+    \{
         ...
-        "OAuth": {
+        "OAuth": \{
             "Enabled": "True",
-            "OAuthContoso_Washington": {
+            "OAuthContoso_Washington": \{
                 "AuthenticationScheme": "AzureOAuth",
                 "DisplayName": "Connection Microsoft Entra ID with OAuth protocol",
                 "ClientId": "6779ef20e75817b79602",
@@ -436,10 +436,10 @@ _Usercube Server_ marks received claims using _[https://accounts.google.com](htt
                 "TokenEndpoint": "https://oauth2.googleapis.com/token",
                 "CallbackPath": "/signin-oauth",
                 "Scopes": ["openid", "profile"]
-            }
-        }
-    }
-}
+            \}
+        \}
+    \}
+\}
 
 ```
                 
@@ -502,21 +502,21 @@ It will be displayed as _Connection Microsoft Entra ID with WS-Federation protoc
 
                     ```
 
-{
+\{
     "Authentication":
-    {
+    \{
         ...
-        "WsFederation": {
+        "WsFederation": \{
             "Enabled": "True",
-            "WsFederationContoso_LA": {
+            "WsFederationContoso_LA": \{
                 "AuthenticationScheme": "WsFederationAAD",
                 "DisplayName": "Connection Microsoft Entra ID with WS-Federation protocol",
                 "MetadataAddress": "https://bbd35166-7c13-49f3-8041-9551f2847b69/FederationMetadata/2007-06/FederationMetadata.xml",
                 "Wtrealm": "api://bbd35166-7c13-49f3-8041-9551f2847b69"
-            }
-        }
-    }
-}
+            \}
+        \}
+    \}
+\}
 
 ```
                 
@@ -574,24 +574,24 @@ Each section is configured with the following settings:
 >
 >                         ```
 >
-> {
+> \{
 >     "Authentication":
->     {
+>     \{
 >         ...
->         "SAML2": {
+>         "SAML2": \{
 >             "Enabled": true,
->             "SAMLConnection": {
+>             "SAMLConnection": \{
 >                 "DisplayName": "Connection Microsoft Entra ID with SAML2 protocol", 
->                 "EntityIdAppliUriID": "api://{client-id}", 
->                 "MetaDataLocation": "https://login.microsoftonline.com/{tenant-id}/federationmetadata/2007-06/federationmetadata.xml", 
->                 "IdentityProviderEntityID": "https://sts.windows.net/{tenant-id}/",
->                 "EncryptionCertificate": {
+>                 "EntityIdAppliUriID": "api://\{client-id\}", 
+>                 "MetaDataLocation": "https://login.microsoftonline.com/\{tenant-id\}/federationmetadata/2007-06/federationmetadata.xml", 
+>                 "IdentityProviderEntityID": "https://sts.windows.net/\{tenant-id\}/",
+>                 "EncryptionCertificate": \{
 >                 ...
->                 }
->             }
->         }
->     }
-> }
+>                 \}
+>             \}
+>         \}
+>     \}
+> \}
 >
 > ```
 
@@ -614,13 +614,13 @@ This information can be set one of two ways:
 >
 >                         ```
 >
-> {
+> \{
 >     ...
->     "EncryptionCertificate": {
+>     "EncryptionCertificate": \{
 >         "File": "C:/UsercubeAgentContoso/contoso.pfx",
 >         "Password": "oarjr6r9f00"
->      }
->  }
+>      \}
+>  \}
 >
 > ```
 
@@ -646,14 +646,14 @@ The archive is set using the following attributes:
 >
 >                         ```
 >
->  {
+>  \{
 >     ...
->     "EncryptionCertificate": {
+>     "EncryptionCertificate": \{
 >          "DistinguishedName":"UsercubeContoso",
 >          "StoreLocation": "LocalMachine",
 >          "StoreName": "AuthRoot"
->      }
->  }
+>      \}
+>  \}
 >
 > ```
 
@@ -672,9 +672,9 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
                     ```
 
-"EncryptionCertificate": {
-    "CertificateAzureKeyVault": "<CertificateIdentifier>"
-}
+"EncryptionCertificate": \{
+    "CertificateAzureKeyVault": "`<CertificateIdentifier>`"
+\}
 
 ```
                 
@@ -685,12 +685,10 @@ When _Internal Methods_ is enabled, the end-user is prompted via a _form_ to inp
 
 First, the ```AllowLocalLogin``` parameter needs to be set to ```true``` in the ```Authentication``` section.
 
-                    ```
-
-"Authentication":{
+```json
+"Authentication": {
     "AllowLocalLogin":true
 }
-
 ```
                 
 
@@ -821,36 +819,36 @@ The following parameters are available under the ```authentication > TestUserSto
 
                     ```
 
-{
+\{
     "Authentication":
-    {
+    \{
       "AllowLocalLogin":true
         ...
-        "TestUserStore": {
+        "TestUserStore": \{
             "Enabled": true,
             "Password": "secret"
-        }
-    }
-}
+        \}
+    \}
+\}
 
 Here is an example using both `IdentityServer` and `Authentication` sections.
 
 appsettings.json
-{
+\{
     ...
-    "IdentityServer": {
+    "IdentityServer": \{
         "X509KeyFilePath": "./UsercubeContoso.pfx",
         "X509KeyFilePassword": "secret"
-    },
-    "Authentication": {
+    \},
+    "Authentication": \{
         "RequireHttpsMetadata": false,
-        "TestUserStore": {
+        "TestUserStore": \{
             "Enabled": "true",
             "Password": "secret"
-        },
+        \},
         "AllowLocalLogin": true
-    }
+    \}
     ...
-}
+\}
 
 ```

@@ -88,13 +88,11 @@ Choose values from the days drop-down lists to specify when emails will be sent.
 
 Choose the first item in a list (blank) to send fewer than three emails.
 
-Type the name and email address you wish to appear in the email's From field in the __From__ text box. The correct format is "Display Name" <[mailbox@domain.com](mailto:mailbox@domain.com)>
+Type the name and email address you wish to appear in the email's From field in the __From__ text box. The correct format is `"Display Name" <mailbox@domain.com>`
 
 Type the text for the email's Subject field in the __Subject__ text box.
 
-Type the body of the email in the large text box. The email is sent as plain text unless the body includes the <html> tag. If sending email as HTML, you must include the complete HTML document starting with <html> and ending with
-
-</html>. If the body is too long to fit in the text box, type a path to a file like this:
+Type the body of the email in the large text box. The email is sent as plain text unless the body includes the `<html>` tag. If sending email as HTML, you must include the complete HTML document starting with `<html>` and ending with `</html>`. If the body is too long to fit in the text box, type a path to a file like this:
 
 ```file:C:\path\filename.ext```
 

@@ -12,7 +12,7 @@ On a high level, the add-on works as follows:
 
 1. The add-on connects to the Netwrix Auditor server and retrieves audit data using the Netwrix Auditor Integration API.
 2. The add-on processes Netwrix Auditor-compatible data (Activity Records) into log events that work as input for the SIEM solution. Each event contains the user account, action, time, and other details.
-3. The add-on creates a special Windows event log named __Netwrix\_Auditor\_Integration__ and stores events there. These events are structured and ready for integration with the SIEM solution.
+3. The add-on creates a special Windows event log named __Netwrix_Auditor_Integration__ and stores events there. These events are structured and ready for integration with the SIEM solution.
 
 See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Netwrix Auditor Integration API.
 
@@ -31,7 +31,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | On... | Ensure that... |
 | --- | --- |
-| The Auditor Server side | - Auditor version is __9.96__ or 10. - The alert response action settings in Auditor Server are configured as follows:   - __Take action when alert occurs__ is switched __ON__   - __Run__ field contains the path to Windows PowserShell: ```C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe```   - __With parameters__ field contains the required parameters, including the path to __Netwrix\_Auditor\_Alerts\_to\_Event\_Log\_Add-on.ps1__ file. Example:        ```-File C:\Netwrix_Auditor_Add-on_for_SIEM\Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1 -NetwrixPathToCsvData``` For details on script parameters, see the section below.    - __Write data to CSV file__ option is selected   - __Command line preview__ looks like this:       ```C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Netwrix_Auditor_Add-on_for_SIEM\Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1 -NetwrixPathToCsvData {CsvFile}``` - By default, the executable file will be launched under the _LocalSystem_ account. If you want to use another account, make sure it has __Log on as batch job__ privilege on Netwrix Auditor server.   You may want to perform the test run after configuring the script as the alert response action. If so, consider that current user account (logged on to Auditor client) must have local __Administrator__ privileges on AuditorServer where the executable file is located. |
+| The Auditor Server side | - Auditor version is __9.96__ or 10. - The alert response action settings in Auditor Server are configured as follows:   - __Take action when alert occurs__ is switched __ON__   - __Run__ field contains the path to Windows PowserShell: ```C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe```   - __With parameters__ field contains the required parameters, including the path to __Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1__ file. Example:        ```-File C:\Netwrix_Auditor_Add-on_for_SIEM\Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1 -NetwrixPathToCsvData``` For details on script parameters, see the section below.    - __Write data to CSV file__ option is selected   - __Command line preview__ looks like this:       ```C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Netwrix_Auditor_Add-on_for_SIEM\Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1 -NetwrixPathToCsvData {CsvFile}``` - By default, the executable file will be launched under the _LocalSystem_ account. If you want to use another account, make sure it has __Log on as batch job__ privilege on Netwrix Auditor server.   You may want to perform the test run after configuring the script as the alert response action. If so, consider that current user account (logged on to Auditor client) must have local __Administrator__ privileges on AuditorServer where the executable file is located. |
 
 ## Compatibility Notice
 
@@ -43,7 +43,7 @@ On a high level, this add-on works as follows:
 
 1. The add-on connects to the Auditor server and retrieves audit data using the Integration API.
 2. The add-on processes Netwrix Auditor -compatible data (Activity Records) into log events that work as input for Windows event log. Each event contains the user account, action, time, and other details.
-3. The add-on creates a special Windows event log named Netwrix\_Auditor\_Integration and stores events there. These events are structured and ready for integration with Windows event log.
+3. The add-on creates a special Windows event log named Netwrix_Auditor_Integration and stores events there. These events are structured and ready for integration with Windows event log.
 
 For more information on the structure of the Activity Record and the capabilities of the Netwrix Auditor Integration API, refer to [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md).
 
@@ -53,6 +53,6 @@ This add-on works as response action to the alert, as follows:
 
 1. The administrator enables and configured response action for selected alert, as described in the following topic: [Configure a Response Action for Alert](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/responseaction.md). Make sure to provide correct path to the script file and to select the Write data to CSV file option.
 2. When the alert is triggered, the script starts - it retrieves audit data (activity record fields) from the CSV file and processes it into log events. Each event contains the user account, action, time, and other details.
-3. The add-on creates a special Windows event log named Netwrix\_Auditor\_Integration and stores events there. These events are structured and ready for integration with SIEM system.
+3. The add-on creates a special Windows event log named Netwrix_Auditor_Integration and stores events there. These events are structured and ready for integration with SIEM system.
 
 See the [Configure a Response Action for Alert](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/responseaction.md) topic for additional information on the alert response actions and CSV file.

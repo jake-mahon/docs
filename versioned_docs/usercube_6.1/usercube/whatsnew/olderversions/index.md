@@ -410,9 +410,10 @@ Release date 10-Feb-2022
   - An error indicator is now displayed on a ResourceType's assigned properties when the ProvisioningState equals RuntimeErrored.
   - Jobs from the connector screens are now moved to a dedicated category on the job execution screen so they are no longer intermixed with other jobs.
 - Logs / Performance / Security
-  - The resource identity property can now be overridden in appsettings.json, allowing different environments to use different settings:```
-    "SelectUserByIdentityQueryHandler": {
-       "ResourceIdentityProperty": "AD_Entry:objectSid"}
+  - The resource identity property can now be overridden in appsettings.json, allowing different environments to use different settings:
+    ```json
+    "SelectUserByIdentityQueryHandler": \{
+       "ResourceIdentityProperty": "AD_Entry:objectSid"\}
 
     ```
   - An agent scheduler will now wait for the lock file to be released before starting. Previously, it would start and immediately fail, unable to recover.

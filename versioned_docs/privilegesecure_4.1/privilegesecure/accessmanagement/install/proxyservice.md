@@ -55,13 +55,12 @@ __Step 2 –__ Open the JSON file as an Administrator (via Administrator comman
 
 __Step 3 –__ (Optional) This step is only necessary if FQDN is required for DNS, otherwise do not change and move to step four. Ensure that the ```"advertise"``` value of the JSON file on each server has the Privilege Secure proxy server information:
 
+```json
 {
-
-"advertise": ["[Privilege Secure Server FQDN]","[Privilege Secure Server IP Address]"],
-
-"tag": []
-
+  "advertise": ["[Privilege Secure Server FQDN]","[Privilege Secure Server IP Address]"],
+  "tag": []
 }
+```
 
 For example:
 

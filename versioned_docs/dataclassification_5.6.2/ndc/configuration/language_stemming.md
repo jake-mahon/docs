@@ -50,16 +50,16 @@ Any of the following characters can be included in the list of indexed character
 - “)”
 - “+”
 - “/”
-- “<”
-- “>”
+- `"<"`
+- `">"`
 - “[”
-- “\”
+- `"\\"`
 - “]”
 - “^”
-- “{”
+- `"{"`
 - “|”
-- “}”
-- “<”
+- `"}"`
+- `"<"`
 - “~”
 
 All other characters are mapped to spaces.

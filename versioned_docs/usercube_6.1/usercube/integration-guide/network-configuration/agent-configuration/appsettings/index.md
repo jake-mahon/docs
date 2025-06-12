@@ -4,11 +4,11 @@ This section describes the settings available in the agent's appsettings.json fi
 
 __NOTE:__ JSON files can contain any additional information that you might find useful. See the example below.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 For example, in order to store the agent's address, we can add:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -24,15 +24,15 @@ The appsettings set allows the following attributes and sections:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ApplicationUri   (required) | Uri | Server's listening URI. Used by the agent to send requests to the server.  Example:  Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {  "ApplicationUri": "   <https://usercubeserver.contoso.com:5000>"   } ``` |
+| ApplicationUri   (required) | Uri | Server's listening URI. Used by the agent to send requests to the server.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {  "ApplicationUri": "   <https://usercubeserver.contoso.com:5000>"   } ``` |
 | Jobs   (optional) | Job | Settings to configure all jobs with common values. |
 | Scheduler   (optional) | Scheduler | Settings to configure Usercube's scheduler. |
-| TaskTimeoutSupplement   default value: 0 | Int32 | Additional time (in minutes) for the Invoke-Job tool's Timeout property.  Example:  Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {       "TaskTimeoutSupplement": 10   } ``` |
+| TaskTimeoutSupplement   default value: 0 | Int32 | Additional time (in minutes) for the Invoke-Job tool's Timeout property.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {       "TaskTimeoutSupplement": 10   } ``` |
 | InstallationDirectoryPath   default value: Usercube-agent.exe directory | String | Path of the installation directory.   It is used to read other configuration files. |
 | EncryptionCertificate   (required) | EncryptionCertificate | Settings to configure the encryption of specific files. |
 | IdentityServer   (required) | IdentityServer | Settings to configure the agent's encrypted network communication, for example with the server or a browser. |
 | Authentication   (required) | Authentication | Settings to configure end-user authentication, for example for users to launch a job from the UI. |
-| Serilog   (optional) | Logger setting | Settings to configure the logging service, complying to the Logger properties and structure. See the [ Monitoring ](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic for additional information.  Example:  Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {     "Serilog": {       "WriteTo": [ "Console" ],       "MinimumLevel": {         "Default": "Error",         "Override": {           "Usercube": "Information"           }         }       }   }                            ``` |
+| Serilog   (optional) | Logger setting | Settings to configure the logging service, complying to the Logger properties and structure. See the [ Monitoring ](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic for additional information.  Example:  Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.  ``` appsettings.json   {     "Serilog": {       "WriteTo": [ "Console" ],       "MinimumLevel": {         "Default": "Error",         "Override": {           "Usercube": "Information"           }         }       }   }                            ``` |
 | Cors   (optional) | Cors | Settings to configure the agent's [CORS policy](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS), which is useful when using non-integrated agents. |
 | ApplicationInsights   (optional) | ApplicationInsights | Settings to plug to and configure the [AppInsights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) monitoring tool. |
 | TempFolderPath   (optional) | String | Path to the temporary folder which contains:   - ExportOutput: directory storing data exported from connectors. - JobLogs: directory storing task instance logs. - Reports: directory storing generated reports. - Packages: directory storing the downloaded package logos. - PolicySimulations: directory storing the files generated by policy simulations. - ProvisioningCache.txt: file storing the clustered provisioning cache. When enabled, this file can be used to coordinate the API cache among clusters. - CorrelationCache.txt - RiskCache.txt - ExpressionCache.txt - scheduler.lock - connector.txt - container.reset.txt: file acting as a reset command for Usercube's server, i.e. any change to this file triggers the reset service, thus reloading all the services instantiated by the server. Note that this path can be overridden by __ResetSettings__ > __FilepathResetService__. - Mails: directory storing the email messages. Note that this path can be overridden by __ResetSettings__ > __PickupDirectory__. - Deployment   these elements can be removed, but make sure to restart the server after doing so.  Example:  ``` appsettings.json   {     "TempFolderPath": "../Temp"   } ``` |
@@ -46,7 +46,7 @@ Below is an example of job that can be executed by the agent.
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -68,7 +68,7 @@ Below is an example of scheduling and a list of attributes.
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -102,7 +102,7 @@ As a PFX file
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -137,7 +137,7 @@ As a Certificate in the Windows Store
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
  {  
@@ -166,7 +166,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 Azure Key Vault
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional information.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -183,7 +183,7 @@ As a PFX file
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   
@@ -209,7 +209,7 @@ As a Certificate in the Windows Store
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.json  
@@ -287,7 +287,7 @@ Usercube supports the Application Insights integration. It means that you can mo
 
 For example:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
   

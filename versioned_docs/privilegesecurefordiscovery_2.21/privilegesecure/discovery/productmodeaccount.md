@@ -14,9 +14,9 @@ __NOTE:__ Please note:  This GPO should never be applied to domain controllers.
 
 __Step 1 –__ Open __Group Policy Management__.
 
-__Step 2 –__ Add a GPO in Group Policy Management > Forest: <doamin> > Domains > <domain> > Group Policy Objects. the ___Group Policy Management -> Forest: <domain> -> Domains -> <domain> -> Group Policy Objects___
+__Step 2 –__ Add a GPO in Group Policy Management > Forest: `<domain>` > Domains > `<domain>` > Group Policy Objects. the ___Group Policy Management -> Forest: `<domain>` -> Domains -> `<domain>` -> Group Policy Objects___
 
-- <domain> is a placeholder for domain name
+- `<domain>` is a placeholder for domain name
 - cstest.test used in example below
 
 ![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip2.png)

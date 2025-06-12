@@ -15,12 +15,8 @@ Configuration settings are saved in configuration files or in the host system's 
 Configuration settings are detailed further in the following sections:
 
 - Server configuration, including connection to the database and end-user authentication. See the [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
-- Agent configuration, including connection to the managed systems. See the [
-  Agent Configuration
-  ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
-- Monitoring, indicating how to set up monitoring for Usercube. See the [
-  Monitoring
-  ](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md)topic for additional information.
+- Agent configuration, including connection to the managed systems. See the [Agent Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
+- Monitoring, indicating how to set up monitoring for Usercube. See the [Monitoring](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic for additional information.
 
 ## Write Settings
 
@@ -32,9 +28,7 @@ Configuration setting values are organized by functionality into three sets:
 
 1. The Server's appsettings set gathers general-purpose settings for the Server (including database connection and end-user authentication). See the [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
 2. The Agent's appsettings set gathers general-purpose settings for the Agent executable process. See the [Application Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
-3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See the [
-   appsettings.agent
-   ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See the [appsettings.agent](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 Each set can be seen as a [tree-like structure](https://en.wikipedia.org/wiki/Tree_(data_structure)) where leaves are a name-value pair: the name of the setting and the value of the setting.
 
@@ -59,9 +53,7 @@ Relevant files for the Agent can be found in its working directory:
 - ```appsettings.encrypted.agent.json```
 - ```appsettings.cyberArk.agent.json```
 
-Each setting file is organized into several sections as shown in the Sets, Sections and values diagram. See the [
-Architecture
-](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md) topic for additional information.
+Each setting file is organized into several sections as shown in the Sets, Sections and values diagram. See the [Architecture](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md) topic for additional information.
 
 Each section's name matches a top level attribute of the file's ```json``` object.
 
@@ -69,7 +61,7 @@ The section content is written as the matching attribute's value which can be br
 
 Each subsection can then be broken down into more setting attributes and deeper nested subsections.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 settings.example.json  
@@ -88,17 +80,15 @@ settings.example.json
 }
 ```
 
-In Integrated-agent mode, agent configuration is written to the Server's ```appsettings.json``` file. See the [
-Overview
-](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) topic for additional information.
+In Integrated-agent mode, agent configuration is written to the Server's ```appsettings.json``` file. See the [Overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) topic for additional information.
 
 #### Reminder
 
 The backslash character ```\``` is an escape character in a JSON file. An error will appear when parsing the JSON file if the backslash is followed by a non-escapable character. To use a backslash in a string, it must be escaped by another backslash.
 
-In this example, the value for the attribute ```Password``` will be parsed as <pass\\word>:
+In this example, the value for the attribute ```Password``` will be parsed as `<pass\\word>`:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -114,7 +104,7 @@ Each setting value is stored as the value of an environment variable whose name 
 
 Here is an example showing how to construct a setting environment variable name from its matching ```json``` file.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 {  
@@ -142,13 +132,13 @@ The environment within which Usercube runs is set by the system environment vari
 
 To overwrite setting values for a specific environment, one can write environment-specific configuration files.
 
-For every appsettings.<xxx>.json file, an appsettings.<xxx>.<environment>.json can be created where <environment> is the name of the relevant environment matching the ASPNETCORE\_ENVIRONMENT value.
+For every appsettings.`<xxx>`.json file, an appsettings.`<xxx>`.`<environment>`.json can be created where `<environment>` is the name of the relevant environment matching the ASPNETCORE\_ENVIRONMENT value.
 
-The appsettings.<xxx>.<environment>.json file has the exact same section/attribute/subsection shape as the main appsettings file.
+The appsettings.`<xxx>`.`<environment>`.json file has the exact same section/attribute/subsection shape as the main appsettings file.
 
 Usercube's configuration will be the result of merging both files.
 
-Should a setting be written in both files, Usercube will use the appsettings.<xxx>.<environment>.json value.
+Should a setting be written in both files, Usercube will use the appsettings.`<xxx>`.`<environment>`.json value.
 
 Leveraging this priority mechanism is how one can override a setting value to match a particular environment. Another mechanism can be used: using environment variables.
 
@@ -156,16 +146,12 @@ Leveraging this priority mechanism is how one can override a setting value to ma
 
 Setting values can also be stored as environment variables on Usercube's host system. Environment-variables-stored setting values have priority over json-file-stored setting values. Here is how to use this mechanism to handle multiple environments.
 
-In the web.config file, an <environmentVariable> element in the node <configuration><system.webServer><aspNetCore><environmentVariables> is used to set a setting value for the application.
+In the web.config file, an `<environmentVariable>` element in the node `<configuration><system.webServer><aspNetCore><environmentVariables>` is used to set a setting value for the application.
 
 ### Configuration stages
 
 Configuration encompasses:
 
 - The Server configuration with a connection to the database and end-user authentication. See the [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
-- The Agent configuration with a connection to the managed systems. See the [
-  Agent Configuration
-  ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
-- The Logger configuration. See the [
-  Monitoring
-  ](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md)topic for additional information.
+- The Agent configuration with a connection to the managed systems. See the [Agent Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
+- The Logger configuration. See the [Monitoring](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic for additional information.

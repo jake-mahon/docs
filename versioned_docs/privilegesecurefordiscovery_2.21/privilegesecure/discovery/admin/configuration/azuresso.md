@@ -39,7 +39,7 @@ IdP-Initiated SSO
 
 The Reply URL (Assertion Consumer Service URL) in Azure must follow the following format:
 
-- https://<address>/api/login
+- `https://<address>/api/login`
 
 ![npsd_properties](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_properties.png)
 
@@ -51,7 +51,7 @@ SP-Initiated SSO
 
 The Reply URL (Assertion Consumer Service URL) must follow the following format:
 
-- https://<address>/api/v1/login
+- `https://<address>/api/v1/login`
 
 ![setupnpsd](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/setupnpsd.png)
 
@@ -61,7 +61,7 @@ The Entrypoint value in NPS-D must match the __Login URL__ in the Azure SSO Appl
 
 The Sign-on URL in the Azure SSO Application must follow this format:
 
-- https://<address>/api/login
+- `https://<address>/api/login`
 
 __NOTE:__ While the "Sign-on URL" is required for SP-initiated SSO, it can still be included in an IdP-initiated configuration if your organization may switch to SP in the future or uses both IdP and SP.
 

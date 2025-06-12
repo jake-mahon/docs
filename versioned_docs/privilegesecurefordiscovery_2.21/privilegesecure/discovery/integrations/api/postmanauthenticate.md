@@ -32,7 +32,7 @@ __Step 6 –__ Click on __Body__ and copy-and-paste the userId that is authorize
 
 ![blobid4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360047844814_blobid4.png)
 
-__NOTE:__ The {{api\_key}} will pull the value from the global variable.
+__NOTE:__ The \{\{api\_key\}\} will pull the value from the global variable.
 
 __Step 7 –__ Click on __Tests__.
 

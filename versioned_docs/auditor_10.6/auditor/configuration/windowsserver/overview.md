@@ -189,9 +189,9 @@ If you want to monitor changes to system components on a Windows Server, make su
 
 This refers to the following keys:
 
-- HKEY\_LOCAL\_MACHINE\SOFTWARE
-- HKEY\_LOCAL\_MACHINE\SYSTEM
-- HKEY\_USERS\.DEFAULT
+- HKEY_LOCAL_MACHINE\SOFTWARE
+- HKEY_LOCAL_MACHINE\SYSTEM
+- HKEY_USERS\.DEFAULT
 
 For these keys and subkeys, the following advanced permissions must be audited ("_Successful_" audit type required):
 
@@ -205,10 +205,10 @@ The below is the full list of keys (and subkeys) involved in Windows Server audi
 
 |  |  |
 | --- | --- |
-| Hardware | - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4D36E972-E325-11CE-BFC1-08002BE10318}( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services( | \.\*) |
-| General | - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Control\CrashControl( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet002\Control\CrashControl( | \.\*) - HKEY\_LOCAL\_MACHINE\Software\WOW6432NODE\Microsoft\Windows NT\CurrentVersion( | \.\*) - HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows NT\CurrentVersion( | \.\*) |
-| Software | - HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\UNINSTALL( | \.\*) - HKEY\_LOCAL\_MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\UNINSTALL( | \.\*) |
-| Services | - HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services( | \.\*) - HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet002\Services( | \.\*) |
+| Hardware | - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4D36E972-E325-11CE-BFC1-08002BE10318}( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services( | \.\*) |
+| General | - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\CrashControl( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control\CrashControl( | \.\*) - HKEY_LOCAL_MACHINE\Software\WOW6432NODE\Microsoft\Windows NT\CurrentVersion( | \.\*) - HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion( | \.\*) |
+| Software | - HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\UNINSTALL( | \.\*) - HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\UNINSTALL( | \.\*) |
+| Services | - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services( | \.\*) - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services( | \.\*) |
 | RemovableMedia | - SYSTEM\CurrentControlSet\Enum |
 
 Consider that audit data for the registry keys themselves will not appear in Netwrix Auditor reports, alerts or search results, as it is only used as one of the sources for the Activity Records formation.
@@ -217,9 +217,9 @@ Consider that audit data for the registry keys themselves will not appear in Net
 
 Audit settings will be automatically adjusted only for the keys/subkeys involved in the monitoring of selected components (granular adjustment). For example, if you selected __Services__, the program will adjust the audit settings for the following subkeys:
 
-- HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services(|\\.\*)
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services(|\\.\*)
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet002\Services(|\\.\*)
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services(|\\.\*)
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services(|\\.\*)
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services(|\\.\*)
 
 - To configure the audit settings manually, refer to the [Configure Windows Registry Audit Settings](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/windowsregistry.md) topic for additional information.
 

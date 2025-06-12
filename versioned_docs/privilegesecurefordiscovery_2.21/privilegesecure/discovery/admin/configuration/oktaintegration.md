@@ -42,7 +42,7 @@ On the desired domain, click Mappings
 
 ![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip1.png)
 
-Under ‘<domain> to Okta User’ scroll down and set “appuser.dn” for “dn”
+Under ‘`<domain>` to Okta User’ scroll down and set “appuser.dn” for “dn”
 
 ![mceclip5.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip5.png)
 
@@ -97,7 +97,7 @@ Scroll down to bottom
 
 Note in the example below
 
-- The URL format is: https://<Privilege Secure URL>/api/login/
+- The URL format is: `https://<Privilege Secure URL>/api/login/`
 - The "Audience URI" should be the base URL only, leave off "/api/login/"
 
 ![mceclip23.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip23.png)

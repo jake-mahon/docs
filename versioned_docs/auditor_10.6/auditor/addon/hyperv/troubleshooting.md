@@ -49,7 +49,7 @@ Computers included in the __TrustedHosts__ list might not be authenticated. To g
 
 ```winrm help config```
 
-For details on remote troubleshooting and authentication issues, see the following Microsoft article: [about\_Remote\_Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-6).
+For details on remote troubleshooting and authentication issues, see the following Microsoft article: [about_Remote_Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-6).
 
 To work around, add the remote SCVMM server to the __TrustedHosts__ list on the machine were the add-on runs. For that, use the following commands:
 

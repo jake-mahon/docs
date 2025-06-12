@@ -12,4 +12,4 @@ This configuration tab contains the indexing engine settings. Each configuration
 | __Advanced settings__ |  |  |
 | Indexer Delay | The sleep time (in milliseconds) between intensive operations (for example, extracting terms).  Default is _1_ millisecond. |  |
 | Indexer Polling | The sleep time between Indexer batches. | Only utilised when the indexing queue is empty. |
-| DocumentID<N> Mapping | Used to map fields into the search index ID references.  Allows for custom queries based on external IDs against the SOAP search API calls. | Theses are ID3 — ID8 |
+| `DocumentID<N>` Mapping | Used to map fields into the search index ID references.  Allows for custom queries based on external IDs against the SOAP search API calls. | Theses are ID3 — ID8 |

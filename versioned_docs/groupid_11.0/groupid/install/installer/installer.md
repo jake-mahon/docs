@@ -13,7 +13,7 @@ To install GroupID, you have to run the following tools in the given order:
 The GroupID installation package consists of:
 
 - GroupID 11 Prerequisites Tool (file folder)
-- GroupID <_version #_> (file folder)
+- GroupID `<version #>` (file folder)
 
 ## Who can install GroupID
 

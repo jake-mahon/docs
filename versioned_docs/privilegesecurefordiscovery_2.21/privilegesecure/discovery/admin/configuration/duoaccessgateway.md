@@ -52,28 +52,28 @@ __Step 9 –__ Return to the __Duo Admin Panel.__
 
 DAG Parameters:
 
-__NOTE:__  ```{{base_url}}```= URL used to reach Privilege Secure internally.
+__NOTE:__  ```\{\{base_url\}\}```= URL used to reach Privilege Secure internally.
 
 - __Configure SAML Service Provider__
   - Use -PROD and -DEV or -STG to differential environments
   - Can be selected by client, must match entry in Privilege Secure
   - Use different Entity IDs for PROD and non-PROD
-  - Example: {{base\_url}}-PROD
+  - Example: \{\{base\_url\}\}-PROD
 
 - __Service provider name:__ Privilege Secure-PROD
-- __Entity ID:__```{{base_url}}```
-- __Assertion Consumer Service:__```{{base_url}}/api/login```
-- __Single Logout URL__ (Optional)__:__ <leave blank>
-- __Default Relay State__ (Optional): <leave blank>
+- __Entity ID:__```\{\{base_url\}\}```
+- __Assertion Consumer Service:__```\{\{base_url\}\}/api/login```
+- __Single Logout URL__ (Optional)__:__ `<leave blank>`
+- __Default Relay State__ (Optional): `<leave blank>`
 
 SAML Response:
 
 - __NameID:__ ```urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified```
-- __NameID attribute:__```<Username>```
-- __Send attributes:__ <select NameID radial>
-- __Signature algorithm:__ <select SHA-256>
-- __Sign response:__ <checked>
-- __Sign assertion:__ <checked>
+- __NameID attribute:__ ```<Username>```
+- __Send attributes:__ `<select NameID radial>`
+- __Signature algorithm:__ `<select SHA-256>`
+- __Sign response:__ `<checked>`
+- __Sign assertion:__ `<checked>`
 - __Map attributes:__
 
 - __idP Attribute:__```distinguishedName```
@@ -81,8 +81,8 @@ SAML Response:
 
 - __Create attributes (Optional)__:
 
-- __Name:__ <leave blank>
-- __Value:__ <leave blank>
+- __Name:__ `<leave blank>`
+- __Value:__ `<leave blank>`
 
 __Step 10 –__ Duo: Retrieve SAML/SSO information for Privilege Secure.
 

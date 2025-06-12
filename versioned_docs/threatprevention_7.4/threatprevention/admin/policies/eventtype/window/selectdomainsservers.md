@@ -4,8 +4,8 @@ The Select Domains And Servers window provides a list of available domains and s
 
 ![Select Domains and Servers Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.png)
 
-- Select the domain or server from a list on the left and click the __Include__ (>>) button. The selection moves to the Included Domains And Servers list. Add as many domains and/or servers to the list as desired.
-- Use the __Remove__ (<<) button to return the selected item to the list on the left.
+- Select the domain or server from a list on the left and click the __Include__ (`>>`) button. The selection moves to the Included Domains And Servers list. Add as many domains and/or servers to the list as desired.
+- Use the __Remove__ (`<<`) button to return the selected item to the list on the left.
 - When the Included Domains And Servers list is complete, click __OK__.
 
 The selection is displayed in the appropriate box of the Domains/Servers filter.

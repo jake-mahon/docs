@@ -14,7 +14,7 @@ The following options are available:
 
   If you have selected any of the __Specific Classification__ variants, you should then specify taxonomy terms that will be applied to filter out the documents for your workflow.
 
-[![Closed](/img/versioned_docs/transparent.gif)To configure terms](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->To configure terms](javascript:void(0))
 
 1. In the __Select Term__ field, click the tag icon.
 2. In the __Details__ dialog, specify filter settings to use when filtering out the documents:

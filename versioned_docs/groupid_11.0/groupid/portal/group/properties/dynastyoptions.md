@@ -24,7 +24,7 @@ Also, the alias must not contain characters that are invalid for the configured 
 
 | Messaging System | Valid Characters |
 | --- | --- |
-| Exchange Server 2013  Exchange Server 2016  Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, \_, `, {, | , } or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
+| Exchange Server 2013  Exchange Server 2016  Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, \_, \`, \{, \| , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
 | All other messaging systems | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) |
 
 __Display Name Template__
@@ -116,7 +116,7 @@ Also, the alias must not contain characters that are invalid for the configured 
 
 | Messaging System | Valid Characters |
 | --- | --- |
-| Exchange Server 2013  Exchange Server 2016  Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, \_, `, {, | , } or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
+| Exchange Server 2013  Exchange Server 2016  Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, \_, \`, \{, \| , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
 | All other messaging systems | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) |
 
 __Display Name Template__

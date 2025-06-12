@@ -20,7 +20,7 @@ The name of the respective investigation is displayed as a link. Click it to vie
 
 __Step 2 –__ By default the subscription is enabled. You can disable it with the toggle button by the window name.
 
-__Step 3 –__ Modify the subscription name as desired in the Subscription name field. The default name is: Subscription for {{Investigation\_Name}}. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
+__Step 3 –__ Modify the subscription name as desired in the Subscription name field. The default name is: Subscription for `{{Investigation\_Name}}`. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
 
 __Step 4 –__ Enter the email addresses for the recipients of this report subscription in the Recipients box.
 
@@ -34,9 +34,9 @@ __Step 6 –__ Set a frequency. Options in the Frequency drop-down menu are: Onc
 
 __Step 7 –__ There are two additional settings in the Advanced Options section. Click the arrow to expand this section.
 
-__Step 8 –__ Modify the email subject line in the Email subject field as desired. The default name is: Subscription to{{Investigation\_Name}} at {{Date}}. These variables will be replaced with the name of the investigation and the date of the report. The + button opens a variable menu for the field.
+__Step 8 –__ Modify the email subject line in the Email subject field as desired. The default name is: Subscription to `{{Investigation\_Name}}` at `{{Date}}`. These variables will be replaced with the name of the investigation and the date of the report. The + button opens a variable menu for the field.
 
-__Step 9 –__ Set the file name in the File name field. The default name is: {{Investigation\_Name}}\_{{Date}}. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
+__Step 9 –__ Set the file name in the File name field. The default name is: `{{Investigation\_Name}}\_{{Date}}`. This variable will be replaced with the name of the investigation. The + button opens a variable menu for the field.
 
 __Step 10 –__ Select the file format for the export from the drop-down menu: CSV, PDF, JSON, Excel Viewing.
 

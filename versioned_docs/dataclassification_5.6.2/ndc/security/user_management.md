@@ -7,7 +7,7 @@ This section contains information on how to configure user authentication mechan
 - [Permission Management](#Permission-Management)
 - [Super Users](#Super-Users)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Authentication Mechanisms](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Authentication Mechanisms](javascript:void(0))
 
 On first install the QS will be configured for Windows authentication. To setup the QS to use an ADFS server please follow the "Installation and Configuration" guide using the section "ADFS". To use forms based authentication please disable all other authentication methods in IIS other than: Anonymous and Forms:
 
@@ -58,7 +58,7 @@ In certain sections of the QS settings are split between Basic and Advanced. Use
 - Ticking Always Show Advanced Settings
 - Clicking Save
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Adding/Removing Users](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Adding/Removing Users](javascript:void(0))
 
 More users can be added at any time from the default Users screen, as well as allowing for users to be removed.
 
@@ -70,7 +70,7 @@ If the only user defined is a Super User and that user is deleted then all secur
 
 User accounts granted access to the REST APIs will still be restricted by their specific user permissions. A Superuser with REST API access will be able to run any API method, any normal user will be restricted by the same rules that govern the UI. Further API samples and documentation can be found at: /conceptQS/\_api
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Permission Management](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Permission Management](javascript:void(0))
 
 In order to allocate granular permissions to a user (non-Super Users), simply select their username from the main grid.
 
@@ -95,7 +95,7 @@ You can restrict permissions for a user to the following areas:
 - Reports. [See Reporting Capabilities for more information.](/versioned_docs/dataclassification_5.6.2/ndc/reporting/reporting_intro.md)
 - DSARs. [See Data Subject Access Requests  for more information.](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_overview.md)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Super Users](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Super Users](javascript:void(0))
 
 Super Users always have access to all Query Server administrative functions.
 

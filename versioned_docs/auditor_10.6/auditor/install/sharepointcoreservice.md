@@ -11,11 +11,11 @@ Prior to the Netwrix Auditor for SharePoint Core Service installation, review th
 - The SharePoint Administration (SPAdminV4) service is started on the target computer. See [SharePoint](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/overview.md) for more information.
 - The user that is going to run the Core Service installation:
   - Is a member of the local Administrators group on SharePoint server, where the Core Service will be deployed.
-  - Is granted the SharePoint\_Shell\_Access role on SharePoint SQL Server configuration database. See [Permissions for SharePoint Auditing](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/permissions.md) topic for more information.
+  - Is granted the SharePoint_Shell_Access role on SharePoint SQL Server configuration database. See [Permissions for SharePoint Auditing](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/permissions.md) topic for more information.
 
 Follow the steps to install Netwrix Auditor for SharePoint Core Service manually.
 
-__Step 1 –__ On the computer where Auditor Server resides,navigate to _%Netwrix Auditor installation folder%\SharePoint Auditing__\SharePointPackage_ and copy SpaPackage\_<version>.msi to the computer where Central Administration is installed.
+__Step 1 –__ On the computer where Auditor Server resides,navigate to _%Netwrix Auditor installation folder%\SharePoint Auditing__\SharePointPackage_ and copy SpaPackage_<version>.msi to the computer where Central Administration is installed.
 
 __Step 2 –__ Run the installation package.
 

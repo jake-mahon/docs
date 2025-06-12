@@ -41,7 +41,7 @@ You can update other parameters with your own values if necessary; however, it i
 
 | Name | Description |
 | --- | --- |
-| IgnoreUploadAttachmentError | Instructs the add on to ignore the attachment upload errors.   - If false, a corresponding error message will be displayed. - If true, the file that failed to upload will be stored to the __MissingAttachments__ subfolder in the add-on folder. Error message will not appear on the screen; instead, the following record will be written to the add-on log: _Attached files for ticket id: {0} dumped: '{attachmentPath}'_   Default parameter value is __true__. |
+| IgnoreUploadAttachmentError | Instructs the add on to ignore the attachment upload errors.   - If false, a corresponding error message will be displayed. - If true, the file that failed to upload will be stored to the __MissingAttachments__ subfolder in the add-on folder. Error message will not appear on the screen; instead, the following record will be written to the add-on log: _Attached files for ticket id: `{0}` dumped: '{attachmentPath}'_   Default parameter value is __true__. |
 
 You can also review the ```<TicketParameterRefs>``` section. It shows information related to ConnectWise Manage objects.
 

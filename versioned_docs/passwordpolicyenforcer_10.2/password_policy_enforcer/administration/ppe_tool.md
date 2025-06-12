@@ -56,15 +56,15 @@ Once this location has been accessed in the Command console, enter one of the fo
 
 ### Generating Reports with Custom Descriptions
 
-The PPE Tool generates user-friendly reports by processing configuration tags (i.e., <PPE>). For example, the PPE Tool will search for the file tagname.xml (or, ppe.xml in this case). This file has root elements which name match each file name. Each root tag contains child tags (e.g., <tag>). Each tag has the following attributes:
+The PPE Tool generates user-friendly reports by processing configuration tags (i.e., `<PPE>`). For example, the PPE Tool will search for the file tagname.xml (or, ppe.xml in this case). This file has root elements which name match each file name. Each root tag contains child tags (e.g., `<tag>`). Each tag has the following attributes:
 
 - name — Contains the original tag name from the input configuration file. If this attribute is missed, then the original tag and its value will be absent in the human-readable report.
 - DisplayName — Contains the user-friendly description for the original tag. If this attribute is missed, then the original tag and its value will be presented in the report without a description.
 
-The <tag> tag can also contain the child <FLAGS> tag. This tag can have an optional attribute 'mode' and this attribute can have the following values:
+The `<tag>` tag can also contain the child `<FLAGS>` tag. This tag can have an optional attribute 'mode' and this attribute can have the following values:
 
-- value (default) — With the default value, the report will only contain tag descriptions for the child <flag> tag. The 'value' attribute matches the child <flag> tag with the value of the original tag.
-- combined — With the combined value, the report will contain the child <flag> tags which contain values that are bitwise or are the result of the original values.
+- value (default) — With the default value, the report will only contain tag descriptions for the child `<flag>` tag. The 'value' attribute matches the child `<flag>` tag with the value of the original tag.
+- combined — With the combined value, the report will contain the child `<flag>` tags which contain values that are bitwise or are the result of the original values.
 
 #### Example of 'value' mode
 

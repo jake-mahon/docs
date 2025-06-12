@@ -18,11 +18,11 @@ Some Password Policy Enforcer rules have a Detect Character Substitution check b
 | --- | --- | --- |
 | A | a | ^ @ |
 | B | b | 8 |
-| C | c |  |  |  |  |  | --- | --- | --- |  | ( or { | < | [ |  |
-| D | d |  |  |  |  |  | --- | --- | --- |  | ) or } | > | ] |  |
+| C | c | ( or `{` < [ |
+| D | d | ) or `}` > ] |
 | E | e | 3 |
 | G | g | 6 or 9 |
-| I | i |  |  |  |  | --- | --- |  | ! or |  | 1 |  |
+| I | i | ! or \| 1 |
 | O | o | 0 or (zero) |
 | S | s | $ or 5 |
 | T | t | + or 7 |

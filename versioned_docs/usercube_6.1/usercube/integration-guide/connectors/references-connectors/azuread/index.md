@@ -81,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 |  |  |
 | --- | --- |
 | MicrosoftAuthorityPath   optional | __Type__    String   __Description__ Pattern for Microsoft Authority Path. |
-| MicrosoftGraphPath   default value: ```https://graph.microsoft.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API.   __Note:__ for this flow (client credentials), the scope should be of the form __"{ResourceIdUri/.default}"__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#See-Microsofts-documentation). |
+| MicrosoftGraphPath   default value: ```https://graph.microsoft.com/.default``` | __Type__    String   __Description__ Scope requested to access a protected API.   __Note:__ for this flow (client credentials), the scope should be of the form __`{ResourceIdUri/.default}`__. [See Microsoft's documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#See-Microsofts-documentation). |
 | MicrosoftGraphPathApi   default value: ```https://graph.microsoft.com/v1.0/``` | __Type__    String   __Description__ Microsoft Graph Uri API. |
 
 ### Output details
@@ -110,7 +110,7 @@ This connector is meant to generate the following files:
   > ...
   > ```
 
-  Attributes described as "Supported only on the Get <entity\_name> API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your ```EntityTypeMapping```.
+  Attributes described as "Supported only on the Get `<entity_name>` API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your ```EntityTypeMapping```.
     
   This connector supports [Microsoft Entra ID Schema Extensions](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-directory-schema-extensions) but does not support [Microsoft Graph Schema Extensions](https://docs.microsoft.com/en-us/graph/extensibility-schema-groups).
 - ```<connectionIdentifier>_<navigationProperty>_<entity>.csv``` describing the navigation property from one entity to another.

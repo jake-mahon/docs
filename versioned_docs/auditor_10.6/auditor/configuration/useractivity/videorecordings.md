@@ -6,7 +6,7 @@ You can use group Managed Service Accounts (gMSA) as data collecting accounts.
 
 To be able to watch video files captured by Netwrix Auditor via console, the following settings must be configured:
 
-- The user must have read permissions (resultant set) to the __Netwrix\_UAVR$__ shared folder where video files are stored. By default, all members of the __Netwrix Auditor Client Users__ group can access this shared folder. Both the group and the folder are created automatically by Netwrix Auditor. Make sure to grant sufficient permissions on folder or explicitly add user to the group (regardless his or her role delegated in the product). See the [To Add an Account to Netwrix Auditor Client Users Group](#To-Add-an-Account-to-Netwrix-Auditor-Client-Users-Group) topic for additional information.
+- The user must have read permissions (resultant set) to the __Netwrix_UAVR$__ shared folder where video files are stored. By default, all members of the __Netwrix Auditor Client Users__ group can access this shared folder. Both the group and the folder are created automatically by Netwrix Auditor. Make sure to grant sufficient permissions on folder or explicitly add user to the group (regardless his or her role delegated in the product). See the [To Add an Account to Netwrix Auditor Client Users Group](#To-Add-an-Account-to-Netwrix-Auditor-Client-Users-Group) topic for additional information.
 - A dedicated codec must be installed. This codec is installed automatically on the computer where Netwrix Auditor is deployed, and on the monitored computers. To install it on a different computer, download it from [https://www.netwrix.com/download/ScreenPressorNetwrix.zip](https://www.netwrix.com/download/ScreenPressorNetwrix.zip).
 - The Ink and Handwriting Services, Media Foundation, and Desktop Experience Windows features must be installed on the computer where Netwrix Auditor Server is deployed. These features allow enabling Windows Media Player and sharing video recordings via DLNA. See the [To Enable Windows Features](#To-Enable-Windows-Features) topic for additional information.
 
@@ -77,7 +77,7 @@ If Netwrix Auditor Server is installed on Windows Server 2008 R2
 
 __Step 1 –__ Navigate to __Start__ > __Server Manager__.
 
-__Step 2 –__ Navigate to __Server Manager <your computer\_name>__ > and click __Add features__.
+__Step 2 –__ Navigate to __Server Manager <your computer_name>__ > and click __Add features__.
 
 __Step 3 –__ In the Add Features Wizard, select the following Windows features and the follow the installation prompts:
 

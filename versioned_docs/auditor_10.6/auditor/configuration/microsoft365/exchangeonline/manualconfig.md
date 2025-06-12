@@ -79,7 +79,7 @@ If the error still persists, or you want to pre-configure the work with certific
 
 Follow the steps to install a certificate.
 
-__Step 1 –__ Get your certificate or generate a self-signed certificate. The name must be _Netwrix\_Auditor\_MFA\_<your\_tenant\_name>_
+__Step 1 –__ Get your certificate or generate a self-signed certificate. The name must be _Netwrix_Auditor_MFA_`<your_tenant_name>`_
 
 __Step 2 –__ Save the certificate to the _CurrentUser/My certificate_ folder for the Local System account.
 
@@ -98,7 +98,7 @@ $mycert | Export-PfxCertificate -FilePath mycert.pfx -Password $(ConvertTo-Secur
 $mycert | Export-Certificate -FilePath mycert.cer
 ```
 
-__Step 2 –__ Replace the ```DnsName ```parameter value with your certificate name (Netwrix\_Auditor\_MFA\_<your\_tenant\_name>).
+__Step 2 –__ Replace the ```DnsName ```parameter value with your certificate name (Netwrix_Auditor_MFA_`<your_tenant_name>`).
 
 Follow the steps to install the certificate to the CurrentUser/My certificate folder.
 
@@ -119,7 +119,7 @@ whoami
 __Step 4 –__ Import the certificate. Run the following command:
 
 ```
-Import-PfxCertificate -FilePath <path to your certificate> -CertStoreLocation   
+Import-PfxCertificate -FilePath `<path to your certificate>` -CertStoreLocation   
 'Cert:\CurrentUser\My' -Password (ConvertTo-SecureString -String "your_password" -AsPlainText -Force)
 ```
 

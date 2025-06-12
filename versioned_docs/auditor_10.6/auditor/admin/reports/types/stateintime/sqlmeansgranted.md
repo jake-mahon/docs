@@ -22,7 +22,7 @@ The summary section shows:
   - Login SQL Authentication
   - DB SQL User with password
 - __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _<not set>_ is reported.
-- __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, when reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database\_name_.
+- __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, when reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database_name_.
 - __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/overview.md).
 
 The detailed information under summary includes:
@@ -42,7 +42,7 @@ This report has the following filters:
 - __Time zone__ — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This value is filled in automatically.
 - __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [SQL Server](/versioned_docs/auditor_10.6/auditor/solutions/sqlserver/overview.md).
 - __Item__—name of the SQL Server instance monitored with selected monitoring plan.
-- __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*) is supported. For example, to report on the database hosted on selected SQL Server, specify the path as follows: _Databases\database\_name_.
+- __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*) is supported. For example, to report on the database hosted on selected SQL Server, specify the path as follows: _Databases\database_name_.
 - __User account__—name or SID of the account that has permissions on the selected object. Default is _%_ (all accounts).
 - __Account type__ —possible values: _Windows Account_, _Login SQL Authentication_, _DB SQL User with password_.
 

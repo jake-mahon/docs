@@ -6,7 +6,7 @@ Generates the workforce repository based on the data filled in the Workforce Cor
 
 The following example generates the Workforce module in the application:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <WorkforceModule IsEnabled="true">  
@@ -188,7 +188,7 @@ Here is a list of child elements:
 
 Our example generates the following configuration:
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityType Identifier="Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays">  

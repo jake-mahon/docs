@@ -29,7 +29,7 @@ The account used for data collection must meet the following requirements:
 
 The following is required if auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
+- Permissions to access the _HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
 - Membership in one of the following groups: __Administrators__, __Print Operators__, __Server Operators__.
 - Read/Write share permission and Full control security permission on the logs backup folder.
 
@@ -47,7 +47,7 @@ Follow the steps to assign permission via the Registry Editor snap-in:
 
 __Step 1 –__ On your target server, open Registry Editor: navigate to __Start > Run__ and type _"regedit"_.
 
-__Step 2 –__ In the left pane, navigate to _HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
+__Step 2 –__ In the left pane, navigate to _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControl Set\Services\EventLog\Security_.
 
 __Step 3 –__ Right-click the __Security__ node and select __Permissions__ from the pop-up menu.
 
@@ -55,7 +55,7 @@ __Step 4 –__ Click __Add__ and enter the name of the user that you want to gra
 
 __Step 5 –__ Check __Allow__ next to the __Read__ permission.
 
-__Step 6 –__ For auditing Logon Activity, you also need to assign the Read permission to the _HKEY\_LOCAL\_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
+__Step 6 –__ For auditing Logon Activity, you also need to assign the Read permission to the _HKEY_LOCAL_MACHINE\SECURITY\Policy\PolAdtEv_ registry key.
 
 To assign permission using the Group Policy Management console
 

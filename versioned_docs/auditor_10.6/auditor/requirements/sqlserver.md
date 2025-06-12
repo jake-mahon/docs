@@ -44,7 +44,7 @@ Netwrix Auditor supports automated size calculation for all its databases in tot
 
 ### Databases
 
-To store data from the data sources included in the monitoring plan, the Monitoring Plan Wizard creates an Audit Database. Default database name is _Netwrix\_Auditor\_<monitoring\_plan\_name>_.
+To store data from the data sources included in the monitoring plan, the Monitoring Plan Wizard creates an Audit Database. Default database name is _Netwrix_Auditor_<monitoring_plan_name>_.
 
 It is strongly recommended to target each monitoring plan at a separate database.
 
@@ -52,14 +52,14 @@ Also, several dedicated databases are created automatically on the default SQL S
 
 | Database name | Description |
 | --- | --- |
-| Netwrix\_AlertsDB | Stores alerts. |
-| Netwrix\_Auditor\_API | Stores activity records collected using Integration API. |
-| Netwrix\_Auditor\_EventLog | Stores internal event records. |
-| __Netwrix\_CategoriesDB__ | Intended for integration with Netwrix Data Classification.  This database is always created but is involved in the workflow only if the DDC Provider is enabled. See for more information. |
-| Netwrix\_CommonDB | Stores views to provide cross-database reporting. |
-| Netwrix\_ImportDB | Stores data imported from Long-Term Archive. |
-| __Netwrix\_OverviewReportsDB__ | Stores data required for overview reports. |
-| __Netwrix\_Self\_Audit__ | Stores data collected by Netwrix Auditor self-audit  (optional, created if the corresponding feature is enabled). |
+| Netwrix_AlertsDB | Stores alerts. |
+| Netwrix_Auditor_API | Stores activity records collected using Integration API. |
+| Netwrix_Auditor_EventLog | Stores internal event records. |
+| __Netwrix_CategoriesDB__ | Intended for integration with Netwrix Data Classification.  This database is always created but is involved in the workflow only if the DDC Provider is enabled. See for more information. |
+| Netwrix_CommonDB | Stores views to provide cross-database reporting. |
+| Netwrix_ImportDB | Stores data imported from Long-Term Archive. |
+| __Netwrix_OverviewReportsDB__ | Stores data required for overview reports. |
+| __Netwrix_Self_Audit__ | Stores data collected by Netwrix Auditor self-audit  (optional, created if the corresponding feature is enabled). |
 
 These databases usually do not appear in the UI; they are only listed in the __Database statistics__ widget of the __Health Status__ dashboard. If you need their settings to be modified via SQL Server Management Studio, please contact your database administrator. For example, you may need to change logging and recovery model (by default, it is set to __simple__ for all these databases, as well as for the Audit databases).
 
@@ -100,7 +100,7 @@ You will also need to provide a path for storing the SQL Server databases - it i
 
 - If you plan to have more than one Netwrix Auditor Servers in your network, make sure to configure them to use different SQL Server instances. The same SQL Server instance cannot be used to store audit data collected by several Netwrix Auditor Servers.
 - Consider that sufficient access rights will be required for the account that will write data to the audit databases hosted on the default SQL Server. This account should be assigned the following roles:
-  1. __Database owner (db\_owner)__ database-level role
+  1. __Database owner (db_owner)__ database-level role
   2. dbcreator server-level role
 
   This account can be specified when you configure the [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) settings.
@@ -131,9 +131,9 @@ Remember that database size in SQL Server Express editions may be insufficient. 
 Settings of the certain Audit database, including hosting SQL Server, can be specified when you create a monitoring plan and configure data collection for an audited system. Consider the following:
 
 - To store data from the data sources included in the monitoring plan, you can configure the Audit database on the default SQL Server (recommended), or select another server.
-- By default, database name will be _Netwrix\_Auditor\_<monitoring\_plan\_name>_; you can name the database as you need, for example, _Active\_Directory\_Audit\_Data_.
+- By default, database name will be _Netwrix_Auditor_<monitoring_plan_name>_; you can name the database as you need, for example, _Active_Directory_Audit_Data_.
 
-To avoid syntax errors, for instance, in the PowerShell cmdlets, it is recommended to use the underscore character (\_) instead of space character in the database names.
+To avoid syntax errors, for instance, in the PowerShell cmdlets, it is recommended to use the underscore character (_) instead of space character in the database names.
 
 If not yet existing on the specified SQL server instance, the database will be created there. For this operation to succeed, ensure that Netwrix Auditor service account has sufficient rights on that SQL Server.
 
@@ -143,8 +143,8 @@ Settings of other Auditor databases cannot be modified.
 
 As a database administrator, you can have SQL Server cluster of 2 servers, and 2 Oracle servers. If so, you can create 2 monitoring plans:
 
-1. First monitoring plan for collecting data from SQL Servers, targeted at _Netwrix\_Auditor\_SQL\_Monitoring_ database.
-2. Second monitoring plan for collecting data from Oracle servers, targeted at _Netwrix\_Auditor\_Oracle\_Monitoring_ database.
+1. First monitoring plan for collecting data from SQL Servers, targeted at _Netwrix_Auditor_SQL_Monitoring_ database.
+2. Second monitoring plan for collecting data from Oracle servers, targeted at _Netwrix_Auditor_Oracle_Monitoring_ database.
 
 ### Database Retention
 
@@ -158,7 +158,7 @@ __Step 1 –__ In the Auditor main screen, select Settings > Audit Database.
 
 __Step 2 –__ In the dialog displayed, make sure the Clear stale data when a database retention period is exceeded: is set to ON, then click Modify to specify the required retention period (in days).
 
-This setting also applies to the _Netwrix\_Auditor\_API_ database.
+This setting also applies to the _Netwrix_Auditor_API_ database.
 
 ## Configure Audit Database Account
 
@@ -166,9 +166,9 @@ This is the account that Auditor uses to write the collected audit data to the a
 
 _Remember,_ gMSA cannot be used to access SSRS. Use a standard account for that. See the [SQL Server Reporting Services](/versioned_docs/auditor_10.6/auditor/requirements/sqlserverreportingservice.md) topic for additional information.
 
-This account must be granted the __Database owner (db\_owner)__ role and the __dbcreator__ server role on the SQL Server instance hosting your audit databases.
+This account must be granted the __Database owner (db_owner)__ role and the __dbcreator__ server role on the SQL Server instance hosting your audit databases.
 
-Follow the steps to assign the __dbcreator__ and __db\_owner__ roles.
+Follow the steps to assign the __dbcreator__ and __db_owner__ roles.
 
 __Step 3 –__ On the computer where SQL Server instance with the Audit Database resides, navigate to __Start__ > __All Programs__ > __Microsoft SQL Server__ > __SQL Server Management Studio__.
 
@@ -178,14 +178,14 @@ __Step 5 –__ In the left pane, expand the __Security__ node. Right-click the _
 
 ![manualconfig_ssms_newlogin2016](/img/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/manualconfig_ssms_newlogin2016.png)
 
-__Step 6 –__ Click __Search__ next to __Login Name__ and specify the user that you want to assign the __db\_owner__ role to.
+__Step 6 –__ Click __Search__ next to __Login Name__ and specify the user that you want to assign the __db_owner__ role to.
 
 __Step 7 –__ Select __Server roles__ on the left and assign the __dbcreator__ role to the new login.
 
-__Step 8 –__ Select the __User Mapping__ tab. Select all databases used by Auditor to store audit data in the upper pane and check __db\_owner__ in the lower pane.
+__Step 8 –__ Select the __User Mapping__ tab. Select all databases used by Auditor to store audit data in the upper pane and check __db_owner__ in the lower pane.
 
 __NOTE:__ This step is only required when changing the existing Audit Database Account to a new one.
 
-__Step 9 –__  If the account that you want to assign the __db\_owner__ role to has been already added to __SQL Server Logins__, expand the __Security__ > __Logins__ node, right-click the account, select __Properties__ from the pop-up menu, and edit its roles.
+__Step 9 –__  If the account that you want to assign the __db_owner__ role to has been already added to __SQL Server Logins__, expand the __Security__ > __Logins__ node, right-click the account, select __Properties__ from the pop-up menu, and edit its roles.
 
 If you need to migrate the Audit Database, see the [How to Migrate Netwrix Auditor Databases to Another SQL Server Instance](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA00g000000Pbd8CAC.html) knowledge base article.

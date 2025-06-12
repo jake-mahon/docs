@@ -57,66 +57,66 @@ Agent represents an Activity Monitor Agent. The API allows you to view existing 
 
 Example:
 
-```
-  {  
-    "id": "AGENT0",  
-    "url": "https://localhost:4494/api/v1/agents/AGENT0",  
-    "host": "192.168.1.124",  
-    "netbiosName": "VAGRANT-2016",  
-    "userName": "test01\\administrator",  
-    "domain": "TEST01",  
-    "machineSid": "S-1-5-21-1367674131-2422966069-737923105-1001",  
-    "osVersion": "6.2.9200.0",  
-    "isDC": false,  
-    "errorMessage": "",  
-    "installState": "Installed",  
-    "version": "4.1.119",  
-    "siInstallState": "Installed",  
-    "siVersion": "6.0.0.388",  
-    "managedBySI": false,  
-    "configVersion": "UFZXT9Fijt5mZ6GNOaoclaVMRy4=",  
-    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT0/hosts",  
-    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT0/domain",  
-    "apiServerIsEnabled": false,  
-    "apiServerPort": 4494,  
-    "warnings": [],  
-    "safeModeStatus": "",  
-    "safeModeMessage": "",  
-    "archiveIsEnabled": false,  
-    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
-    "archiveUserName": "",  
-    "archiveMaxLocalSize": "5GB",  
-    "fpolicyPort": 9999,  
-    "fpolicyAuth": "NoAuth",  
-    "fpolicyIpWhitelist": [],  
-    "minLocalFreeSpace": "64MB",  
-    "ceeVcapsIsEnabled": false,  
-    "ceeVcapsInterval": 60,  
-    "ceeVcapsEvents": 100,  
-    "alertsIsEnabled": false,  
-    "alertsInactivityInterval": 360,  
-    "alertsReplayInterval": 360,  
-    "alertsInactivityCheckInterval": 10,  
-    "alertsSyslog": {  
-      "server": "",  
-      "protocol": "UDP",  
-      "separator": null  
-    },  
-    "alertsEmail": {  
-      "server": "",  
-      "ssl": false,  
-      "userName": "",  
-      "from": "",  
-      "to": "",  
-      "subject": ""  
-    },  
-    "hardeningIsEnabled": false,  
-    "safeModeIsEnabled": true,  
-    "dnsResolveIsEnabled": false,  
-    "siIpWhitelist": [],  
-    "apiServerIpWhitelist": [],  
-    "apiServerMgmtConsole": "WRKST0100",  
-  }  
+```json
+  {  
+    "id": "AGENT0",  
+    "url": "https://localhost:4494/api/v1/agents/AGENT0",  
+    "host": "192.168.1.124",  
+    "netbiosName": "VAGRANT-2016",  
+    "userName": "test01\\administrator",  
+    "domain": "TEST01",  
+    "machineSid": "S-1-5-21-1367674131-2422966069-737923105-1001",  
+    "osVersion": "6.2.9200.0",  
+    "isDC": false,  
+    "errorMessage": "",  
+    "installState": "Installed",  
+    "version": "4.1.119",  
+    "siInstallState": "Installed",  
+    "siVersion": "6.0.0.388",  
+    "managedBySI": false,  
+    "configVersion": "UFZXT9Fijt5mZ6GNOaoclaVMRy4=",  
+    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT0/hosts",  
+    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT0/domain",  
+    "apiServerIsEnabled": false,  
+    "apiServerPort": 4494,  
+    "warnings": [],  
+    "safeModeStatus": "",  
+    "safeModeMessage": "",  
+    "archiveIsEnabled": false,  
+    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
+    "archiveUserName": "",  
+    "archiveMaxLocalSize": "5GB",  
+    "fpolicyPort": 9999,  
+    "fpolicyAuth": "NoAuth",  
+    "fpolicyIpWhitelist": [],  
+    "minLocalFreeSpace": "64MB",  
+    "ceeVcapsIsEnabled": false,  
+    "ceeVcapsInterval": 60,  
+    "ceeVcapsEvents": 100,  
+    "alertsIsEnabled": false,  
+    "alertsInactivityInterval": 360,  
+    "alertsReplayInterval": 360,  
+    "alertsInactivityCheckInterval": 10,  
+    "alertsSyslog": {  
+      "server": "",  
+      "protocol": "UDP",  
+      "separator": null  
+    },  
+    "alertsEmail": {  
+      "server": "",  
+      "ssl": false,  
+      "userName": "",  
+      "from": "",  
+      "to": "",  
+      "subject": ""  
+    },  
+    "hardeningIsEnabled": false,  
+    "safeModeIsEnabled": true,  
+    "dnsResolveIsEnabled": false,  
+    "siIpWhitelist": [],  
+    "apiServerIpWhitelist": [],  
+    "apiServerMgmtConsole": "WRKST0100",  
+  }  
 
 ```
 
@@ -138,67 +138,67 @@ Domain is a Monitored Domain in the Console. The API provides summary informatio
 
 Example:
 
-```
+```json
 {  
-  "id": "TEST01",  
-  "url": "https://localhost:4494/api/v1/domains/TEST01",  
-  "name": "TEST01",  
-  "managedBySI": false,  
-  "outputs": [  
-    {  
-      "id": "657eaa95f0804608acef581e728868e2",  
-      "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
-      "domainId": "TEST01",  
-      "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-      "agentsIds": null,  
-      "isEnabled": true,  
-      "type": "LogFile",  
-      "logFile": {  
-        "format": "Json",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
-        "archivePath": "",  
-        "daysToRetain": 10,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": true  
-      },  
-      "syslog": null,  
-      "amqp": null,  
-      "fileFilter": null,  
-      "sharePointFilter": null,  
-      "comment": "",  
-      "managedBy": "",  
-      "windows": null  
-    },  
-    {  
-      "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-      "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-      "domainId": "TEST01",  
-      "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-      "agentsIds": null,  
-      "isEnabled": true,  
-      "type": "Amqp",  
-      "logFile": null,  
-      "syslog": null,  
-      "amqp": {  
-        "server": "127.0.0.1:10001",  
-        "userName": "StealthINTERCEPT",  
-        "queue": "StealthINTERCEPT",  
-        "vhost": ""  
-      },  
-      "fileFilter": null,  
-      "sharePointFilter": null,  
-      "comment": "",  
-      "managedBy": "",  
-      "windows": null  
-    }  
-  ],  
-  "outputsUrl": "https://localhost:4494/api/v1/domains/TEST01/outputs",  
-  "agentsUrl": "https://localhost:4494/api/v1/domains/TEST01/agents",  
-  "masterAgentId": "AGENT0",  
-  "masterAgentUrl": "https://localhost:4494/api/v1/agents/AGENT0"  
+  "id": "TEST01",  
+  "url": "https://localhost:4494/api/v1/domains/TEST01",  
+  "name": "TEST01",  
+  "managedBySI": false,  
+  "outputs": [  
+    {  
+      "id": "657eaa95f0804608acef581e728868e2",  
+      "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
+      "domainId": "TEST01",  
+      "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+      "agentsIds": null,  
+      "isEnabled": true,  
+      "type": "LogFile",  
+      "logFile": {  
+        "format": "Json",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
+        "archivePath": "",  
+        "daysToRetain": 10,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": true  
+      },  
+      "syslog": null,  
+      "amqp": null,  
+      "fileFilter": null,  
+      "sharePointFilter": null,  
+      "comment": "",  
+      "managedBy": "",  
+      "windows": null  
+    },  
+    {  
+      "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+      "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+      "domainId": "TEST01",  
+      "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+      "agentsIds": null,  
+      "isEnabled": true,  
+      "type": "Amqp",  
+      "logFile": null,  
+      "syslog": null,  
+      "amqp": {  
+        "server": "127.0.0.1:10001",  
+        "userName": "StealthINTERCEPT",  
+        "queue": "StealthINTERCEPT",  
+        "vhost": ""  
+      },  
+      "fileFilter": null,  
+      "sharePointFilter": null,  
+      "comment": "",  
+      "managedBy": "",  
+      "windows": null  
+    }  
+  ],  
+  "outputsUrl": "https://localhost:4494/api/v1/domains/TEST01/outputs",  
+  "agentsUrl": "https://localhost:4494/api/v1/domains/TEST01/agents",  
+  "masterAgentId": "AGENT0",  
+  "masterAgentUrl": "https://localhost:4494/api/v1/agents/AGENT0"  
 }  
 
 ```
@@ -223,240 +223,240 @@ Host represents a host or platform monitored by the product (Windows, NetApp, Sh
 
 Example:
 
-```
+```json
 {  
-  "autoConfigureAuditing": false,  
-  "monitorAuditingStatus": false,  
-  "id": "Windows-wrkst0100",  
-  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-  "host": "WRKST0100",  
-  "type": "Windows",  
-  "altHost": "",  
-  "userName": "",  
-  "outputs": [  
-    {  
-      "id": "9c90791891774715bdb3415823790d7c",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/9c90791891774715bdb3415823790d7c",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/9c90791891774715bdb3415823790d7c",  
-      "isEnabled": false,  
-      "type": "LogFile",  
-      "logFile": {  
-        "format": "Tsv",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_.tsv",  
-        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_.tsv",  
-        "daysToRetain": 11111,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": true  
-      },  
-      "syslog": null,  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": true,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "C:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [],  
-        "filterGroups": false,  
-        "officeFiltering": true  
-      },  
-      "sharePointFilter": null,  
-      "comment": "",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": true,  
-        "vssActivity": true,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": false  
-      }  
-    },  
-    {  
-      "id": "a556d7c3666d46babe895f2b9ce1316b",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
-      "isEnabled": false,  
-      "type": "LogFile",  
-      "logFile": {  
-        "format": "Tsv",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
-        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
-        "daysToRetain": 3,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": false  
-      },  
-      "syslog": null,  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": false,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "E:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [  
-          "SBTService.exe",  
-          "FSAC",  
-          "FPolicyServerSvc.exe",  
-          "CelerraServerSvc.exe",  
-          "FSACLoggingSvc.exe",  
-          "HitachiService.exe",  
-          "SIWindowsAgent.exe",  
-          "SIGPOAgent.exe",  
-          "SIWorkstationAgent.exe",  
-          "StealthAUDIT",  
-          "LogProcessorSrv.exe",  
-          "SearchIndexer.exe",  
-          "WindowsSearch.exe"  
-        ],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [  
-          "S-1-5-17",  
-          "S-1-5-18",  
-          "S-1-5-19",  
-          "S-1-5-20"  
-        ],  
-        "filterGroups": false,  
-        "officeFiltering": false  
-      },  
-      "sharePointFilter": null,  
-      "comment": "Updates on E:",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": true,  
-        "vssActivity": true,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": true  
-      }  
-    },  
-    {  
-      "id": "e7c98bc9e96a41d0813b35858a0475bd",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/e7c98bc9e96a41d0813b35858a0475bd",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/e7c98bc9e96a41d0813b35858a0475bd",  
-      "isEnabled": false,  
-      "type": "Syslog",  
-      "logFile": null,  
-      "syslog": {  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "server": "192.168.1.1",  
-        "protocol": "UDP",  
-        "separator": "Lf"  
-      },  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": false,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "O:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [  
-          "SBTService.exe",  
-          "FSAC",  
-          "FPolicyServerSvc.exe",  
-          "CelerraServerSvc.exe",  
-          "FSACLoggingSvc.exe",  
-          "HitachiService.exe",  
-          "SIWindowsAgent.exe",  
-          "SIGPOAgent.exe",  
-          "SIWorkstationAgent.exe",  
-          "StealthAUDIT",  
-          "LogProcessorSrv.exe",  
-          "SearchIndexer.exe",  
-          "WindowsSearch.exe"  
-        ],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [  
-          "S-1-5-17",  
-          "S-1-5-18",  
-          "S-1-5-19",  
-          "S-1-5-20"  
-        ],  
-        "filterGroups": false,  
-        "officeFiltering": false  
-      },  
-      "sharePointFilter": null,  
-      "comment": "SIEM feed",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": false,  
-        "vssActivity": false,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": false  
-      }  
-    }  
-  ],  
-  "outputsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs",  
-  "agentsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/agents"  
+  "autoConfigureAuditing": false,  
+  "monitorAuditingStatus": false,  
+  "id": "Windows-wrkst0100",  
+  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+  "host": "WRKST0100",  
+  "type": "Windows",  
+  "altHost": "",  
+  "userName": "",  
+  "outputs": [  
+    {  
+      "id": "9c90791891774715bdb3415823790d7c",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/9c90791891774715bdb3415823790d7c",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/9c90791891774715bdb3415823790d7c",  
+      "isEnabled": false,  
+      "type": "LogFile",  
+      "logFile": {  
+        "format": "Tsv",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_.tsv",  
+        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_.tsv",  
+        "daysToRetain": 11111,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": true  
+      },  
+      "syslog": null,  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": true,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "C:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [],  
+        "filterGroups": false,  
+        "officeFiltering": true  
+      },  
+      "sharePointFilter": null,  
+      "comment": "",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": true,  
+        "vssActivity": true,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": false  
+      }  
+    },  
+    {  
+      "id": "a556d7c3666d46babe895f2b9ce1316b",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
+      "isEnabled": false,  
+      "type": "LogFile",  
+      "logFile": {  
+        "format": "Tsv",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
+        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
+        "daysToRetain": 3,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": false  
+      },  
+      "syslog": null,  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": false,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "E:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [  
+          "SBTService.exe",  
+          "FSAC",  
+          "FPolicyServerSvc.exe",  
+          "CelerraServerSvc.exe",  
+          "FSACLoggingSvc.exe",  
+          "HitachiService.exe",  
+          "SIWindowsAgent.exe",  
+          "SIGPOAgent.exe",  
+          "SIWorkstationAgent.exe",  
+          "StealthAUDIT",  
+          "LogProcessorSrv.exe",  
+          "SearchIndexer.exe",  
+          "WindowsSearch.exe"  
+        ],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [  
+          "S-1-5-17",  
+          "S-1-5-18",  
+          "S-1-5-19",  
+          "S-1-5-20"  
+        ],  
+        "filterGroups": false,  
+        "officeFiltering": false  
+      },  
+      "sharePointFilter": null,  
+      "comment": "Updates on E:",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": true,  
+        "vssActivity": true,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": true  
+      }  
+    },  
+    {  
+      "id": "e7c98bc9e96a41d0813b35858a0475bd",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/e7c98bc9e96a41d0813b35858a0475bd",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/e7c98bc9e96a41d0813b35858a0475bd",  
+      "isEnabled": false,  
+      "type": "Syslog",  
+      "logFile": null,  
+      "syslog": {  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "server": "192.168.1.1",  
+        "protocol": "UDP",  
+        "separator": "Lf"  
+      },  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": false,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "O:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [  
+          "SBTService.exe",  
+          "FSAC",  
+          "FPolicyServerSvc.exe",  
+          "CelerraServerSvc.exe",  
+          "FSACLoggingSvc.exe",  
+          "HitachiService.exe",  
+          "SIWindowsAgent.exe",  
+          "SIGPOAgent.exe",  
+          "SIWorkstationAgent.exe",  
+          "StealthAUDIT",  
+          "LogProcessorSrv.exe",  
+          "SearchIndexer.exe",  
+          "WindowsSearch.exe"  
+        ],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [  
+          "S-1-5-17",  
+          "S-1-5-18",  
+          "S-1-5-19",  
+          "S-1-5-20"  
+        ],  
+        "filterGroups": false,  
+        "officeFiltering": false  
+      },  
+      "sharePointFilter": null,  
+      "comment": "SIEM feed",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": false,  
+        "vssActivity": false,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": false  
+      }  
+    }  
+  ],  
+  "outputsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs",  
+  "agentsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/agents"  
 }  
 
 ```
@@ -521,11 +521,11 @@ The following table displays the attributes for AmqpOutput API:
 | Attribute | Type | Detailed Only | Description |
 | --- | --- | --- | --- |
 | server | string |  | Hostname/address of the AMQP server or the Threat Manager server and the port in the SERVER:PORT format |
-| userName | string |  | User name for the AMQP connection, if needed. ForThreat Managerintegration, use an empty string. |
-| password |  |  | Password for the AMQP connection, if needed. ForThreat Managerintegration, use the App Token generated in Threat Manager. |
+| userName | string |  | User name for the AMQP connection, if needed. ForThreat Managerintegration, use an empty string. |
+| password |  |  | Password for the AMQP connection, if needed. ForThreat Managerintegration, use the App Token generated in Threat Manager. |
 | queue | string |  | Message queue name to post events to. ForThreat Manager integration, use an empty string. |
 | exchange |  |  | Exchange name to post events to. ForThreat Manager integration, use "StealthINTERCEPT" for domain outputs or "AM" for host outputs. |
-| vhost | string |  | Virtual Host name, if needed. ForThreat Managerintegration, use an empty string. |
+| vhost | string |  | Virtual Host name, if needed. ForThreat Managerintegration, use an empty string. |
 
 ### FileFilter
 
@@ -582,63 +582,63 @@ The following table displays the attributes for WindowsOptions API:
 
 Example:
 
-```
+```json
 {  
-    "id": "7eb54a50fb634fe5a0ac61278136ff00",  
-    "url": "https://localhost:4494/api/v1/hosts/NetApp-192.168.25.247/outputs/7eb54a50fb634fe5a0ac61278136ff00",  
-    "hostId": "NetApp-192.168.25.247",  
-    "hostUrl": "https://localhost:4494/api/v1/hosts/NetApp-192.168.25.247",  
-    "agentsIds": [  
-      "AGENT3"  
-    ],  
-    "logsUrl": "https://localhost:4494/api/v1/logs/7eb54a50fb634fe5a0ac61278136ff00",  
-    "isEnabled": false,  
-    "type": "LogFile",  
-    "logFile": {  
-        "format": "Tsv",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.25.247_Log_.tsv",  
-        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\192.168.25.247_7eb54a50-fb63-4fe5-a0ac-61278136ff00\\192.168.25.247_Log_.tsv",  
-        "daysToRetain": 10,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": true  
-    },  
-    "syslog": null,  
-    "amqp": null,  
-    "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": true,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-            "C:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [],  
-        "filterGroups": false,  
-        "officeFiltering": true  
-    },  
-    "sharePointFilter": null,  
-    "comment": "",  
-    "managedBy": "",  
-    "windows": null  
+    "id": "7eb54a50fb634fe5a0ac61278136ff00",  
+    "url": "https://localhost:4494/api/v1/hosts/NetApp-192.168.25.247/outputs/7eb54a50fb634fe5a0ac61278136ff00",  
+    "hostId": "NetApp-192.168.25.247",  
+    "hostUrl": "https://localhost:4494/api/v1/hosts/NetApp-192.168.25.247",  
+    "agentsIds": [  
+      "AGENT3"  
+    ],  
+    "logsUrl": "https://localhost:4494/api/v1/logs/7eb54a50fb634fe5a0ac61278136ff00",  
+    "isEnabled": false,  
+    "type": "LogFile",  
+    "logFile": {  
+        "format": "Tsv",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.25.247_Log_.tsv",  
+        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\192.168.25.247_7eb54a50-fb63-4fe5-a0ac-61278136ff00\\192.168.25.247_Log_.tsv",  
+        "daysToRetain": 10,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": true  
+    },  
+    "syslog": null,  
+    "amqp": null,  
+    "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": true,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+            "C:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [],  
+        "filterGroups": false,  
+        "officeFiltering": true  
+    },  
+    "sharePointFilter": null,  
+    "comment": "",  
+    "managedBy": "",  
+    "windows": null  
 }  
 
 ```
@@ -663,47 +663,47 @@ File is the information about the actual .TSV, .JSON, and .ZIP files stored on t
 
 Example:
 
-```
+```json
 [  
-    {  
-        "id": "localhost_Log_20190410_000000.tsv",  
-        "size": 81658576,  
-        "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190410_000000.tsv",  
-        "isZip": false,  
-        "isArchived": false,  
-        "type": "Tsv",  
-        "updatedAt": "2019-04-10T17:45:07.2211753Z",  
-        "activityFrom": "2019-04-05T18:16:57",  
-        "activityTo": "2019-04-10T17:45:07",  
-        "outputId": "9c90791891774715bdb3415823790d7c",  
-        "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190410_000000.tsv"  
-    },  
-    {  
-        "id": "localhost_Log_20190401_000000.tsv.zip",  
-        "size": 11,  
-        "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190401_000000.tsv.zip",  
-        "isZip": true,  
-        "isArchived": false,  
-        "type": "Tsv",  
-        "updatedAt": "2019-04-10T02:03:48.8899252Z",  
-        "activityFrom": "0001-01-01T00:00:00",  
-        "activityTo": "2019-04-10T02:03:48.8879242Z",  
-        "outputId": "9c90791891774715bdb3415823790d7c",  
-        "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190401_000000.tsv.zip"  
-    },  
-  {  
-    "id": "localhost_Log_20190405.tsv.zip",  
-    "size": 295102,  
-    "localPath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_20190405.tsv.zip",  
-    "isZip": true,  
-    "isArchived": true,  
-    "type": "Tsv",  
-    "updatedAt": "2019-04-05T20:59:55.1462518Z",  
-    "activityFrom": "2019-04-05T18:16:57",  
-    "activityTo": "2019-04-05T20:59:55",  
-    "outputId": "9c90791891774715bdb3415823790d7c",  
-    "contentUrl": "https://localhost:4494/api/v1/logs/archive/get/WRKST0100/WRKST0100_9c907918-9177-4715-bdb3-415823790d7c/localhost_Log_20190405.tsv.zip"  
-  }  
+    {  
+        "id": "localhost_Log_20190410_000000.tsv",  
+        "size": 81658576,  
+        "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190410_000000.tsv",  
+        "isZip": false,  
+        "isArchived": false,  
+        "type": "Tsv",  
+        "updatedAt": "2019-04-10T17:45:07.2211753Z",  
+        "activityFrom": "2019-04-05T18:16:57",  
+        "activityTo": "2019-04-10T17:45:07",  
+        "outputId": "9c90791891774715bdb3415823790d7c",  
+        "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190410_000000.tsv"  
+    },  
+    {  
+        "id": "localhost_Log_20190401_000000.tsv.zip",  
+        "size": 11,  
+        "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190401_000000.tsv.zip",  
+        "isZip": true,  
+        "isArchived": false,  
+        "type": "Tsv",  
+        "updatedAt": "2019-04-10T02:03:48.8899252Z",  
+        "activityFrom": "0001-01-01T00:00:00",  
+        "activityTo": "2019-04-10T02:03:48.8879242Z",  
+        "outputId": "9c90791891774715bdb3415823790d7c",  
+        "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190401_000000.tsv.zip"  
+    },  
+  {  
+    "id": "localhost_Log_20190405.tsv.zip",  
+    "size": 295102,  
+    "localPath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_20190405.tsv.zip",  
+    "isZip": true,  
+    "isArchived": true,  
+    "type": "Tsv",  
+    "updatedAt": "2019-04-05T20:59:55.1462518Z",  
+    "activityFrom": "2019-04-05T18:16:57",  
+    "activityTo": "2019-04-05T20:59:55",  
+    "outputId": "9c90791891774715bdb3415823790d7c",  
+    "contentUrl": "https://localhost:4494/api/v1/logs/archive/get/WRKST0100/WRKST0100_9c907918-9177-4715-bdb3-415823790d7c/localhost_Log_20190405.tsv.zip"  
+  }  
 ]  
 
 ```
@@ -743,191 +743,191 @@ Response: array of Agent
 
 Example:
 
-```
+```json
 [  
-  {  
-    "warnings": [],  
-    "safeModeStatus": "",  
-    "safeModeMessage": "",  
-    "archiveIsEnabled": false,  
-    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
-    "archiveUserName": "",  
-    "archiveMaxLocalSize": "5GB",  
-    "fpolicyPort": 9999,  
-    "fpolicyAuth": "NoAuth",  
-    "fpolicyIpWhitelist": [],  
-    "minLocalFreeSpace": "64MB",  
-    "ceeVcapsIsEnabled": false,  
-    "ceeVcapsInterval": 60,  
-    "ceeVcapsEvents": 100,  
-    "alertsIsEnabled": false,  
-    "alertsInactivityInterval": 360,  
-    "alertsReplayInterval": 360,  
-    "alertsInactivityCheckInterval": 10,  
-    "alertsSyslog": {  
-      "server": "",  
-      "protocol": "UDP",  
-      "separator": null  
-    },  
-    "alertsEmail": {  
-      "server": "",  
-      "ssl": false,  
-      "userName": "",  
-      "from": "",  
-      "to": "",  
-      "subject": ""  
-    },  
-    "hardeningIsEnabled": false,  
-    "safeModeIsEnabled": true,  
-    "dnsResolveIsEnabled": false,  
-    "siIpWhitelist": [],  
-    "apiServerIpWhitelist": [],  
-    "apiServerMgmtConsole": "WRKST0100",  
-    "id": "AGENT0",  
-    "url": "https://localhost:4494/api/v1/agents/AGENT0",  
-    "host": "192.168.1.124",  
-    "netbiosName": "VAGRANT-2016",  
-    "userName": "test01\\administrator",  
-    "domain": "TEST01",  
-    "machineSid": "S-1-5-21-1367674131-2422966069-737923105-1001",  
-    "osVersion": "6.2.9200.0",  
-    "isDC": false,  
-    "errorMessage": "",  
-    "installState": "Installed",  
-    "version": "4.1.119",  
-    "siInstallState": "Installed",  
-    "siVersion": "6.0.0.388",  
-    "managedBySI": false,  
-    "configVersion": "UFZXT9Fijt5mZ6GNOaoclaVMRy4=",  
-    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT0/hosts",  
-    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT0/domain",  
-    "apiServerIsEnabled": false,  
-    "apiServerPort": 4494  
-  },  
-  {  
-    "warnings": [],  
-    "safeModeStatus": null,  
-    "safeModeMessage": null,  
-    "archiveIsEnabled": false,  
-    "archivePath": "",  
-    "archiveUserName": "",  
-    "archiveMaxLocalSize": "5GB",  
-    "fpolicyPort": 9999,  
-    "fpolicyAuth": "NoAuth",  
-    "fpolicyIpWhitelist": [],  
-    "minLocalFreeSpace": "64MB",  
-    "ceeVcapsIsEnabled": false,  
-    "ceeVcapsInterval": 60,  
-    "ceeVcapsEvents": 100,  
-    "alertsIsEnabled": false,  
-    "alertsInactivityInterval": 360,  
-    "alertsReplayInterval": 360,  
-    "alertsInactivityCheckInterval": 10,  
-    "alertsSyslog": {  
-      "server": "",  
-      "protocol": "UDP",  
-      "separator": null  
-    },  
-    "alertsEmail": {  
-      "server": null,  
-      "ssl": false,  
-      "userName": null,  
-      "from": null,  
-      "to": null,  
-      "subject": ""  
-    },  
-    "hardeningIsEnabled": false,  
-    "safeModeIsEnabled": true,  
-    "dnsResolveIsEnabled": false,  
-    "siIpWhitelist": [  
-      "127.0.0.1",  
-      "::1"  
-    ],  
-    "apiServerIpWhitelist": null,  
-    "apiServerMgmtConsole": null,  
-    "id": "AGENT1",  
-    "url": "https://localhost:4494/api/v1/agents/AGENT1",  
-    "host": "nonexistent",  
-    "netbiosName": "nonexistent",  
-    "userName": "",  
-    "domain": "",  
-    "machineSid": "",  
-    "osVersion": "",  
-    "isDC": false,  
-    "errorMessage": "Cannot detect if an agent is installed. The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)",  
-    "installState": "Failed",  
-    "version": null,  
-    "siInstallState": "Failed",  
-    "siVersion": "",  
-    "managedBySI": false,  
-    "configVersion": null,  
-    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT1/hosts",  
-    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT1/domain",  
-    "apiServerIsEnabled": false,  
-    "apiServerPort": 4494  
-  },  
-  {  
-    "warnings": [],  
-    "safeModeStatus": "",  
-    "safeModeMessage": "",  
-    "archiveIsEnabled": false,  
-    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
-    "archiveUserName": "wrkst0100\\testuser",  
-    "archiveMaxLocalSize": "5GB",  
-    "fpolicyPort": 9999,  
-    "fpolicyAuth": "Server",  
-    "fpolicyIpWhitelist": [],  
-    "minLocalFreeSpace": "64MB",  
-    "ceeVcapsIsEnabled": false,  
-    "ceeVcapsInterval": 60,  
-    "ceeVcapsEvents": 100,  
-    "alertsIsEnabled": true,  
-    "alertsInactivityInterval": 360,  
-    "alertsReplayInterval": 360,  
-    "alertsInactivityCheckInterval": 10,  
-    "alertsSyslog": {  
-      "server": "12",  
-      "protocol": "UDP",  
-      "separator": null  
-    },  
-    "alertsEmail": {  
-      "server": "",  
-      "ssl": false,  
-      "userName": "",  
-      "from": "",  
-      "to": "",  
-      "subject": ""  
-    },  
-    "hardeningIsEnabled": false,  
-    "safeModeIsEnabled": true,  
-    "dnsResolveIsEnabled": false,  
-    "siIpWhitelist": [  
-      "127.0.0.1",  
-      "::1"  
-    ],  
-    "apiServerIpWhitelist": [],  
-    "apiServerMgmtConsole": "WRKST0100",  
-    "id": "AGENT3",  
-    "url": "https://localhost:4494/api/v1/agents/AGENT3",  
-    "host": "WRKST0100",  
-    "netbiosName": "WRKST0100",  
-    "userName": "",  
-    "domain": "LOGIC-LAB",  
-    "machineSid": "",  
-    "osVersion": "6.2.9200.0",  
-    "isDC": false,  
-    "errorMessage": "",  
-    "installState": "Installed",  
-    "version": "4.1.119",  
-    "siInstallState": "NotInstalled",  
-    "siVersion": "",  
-    "managedBySI": false,  
-    "configVersion": "efkL3mKD8BJF/LtD/SC+ClS/xuE=",  
-    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT3/hosts",  
-    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT3/domain",  
-    "apiServerIsEnabled": false,  
-    "apiServerPort": 4494  
-  }  
+  {  
+    "warnings": [],  
+    "safeModeStatus": "",  
+    "safeModeMessage": "",  
+    "archiveIsEnabled": false,  
+    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
+    "archiveUserName": "",  
+    "archiveMaxLocalSize": "5GB",  
+    "fpolicyPort": 9999,  
+    "fpolicyAuth": "NoAuth",  
+    "fpolicyIpWhitelist": [],  
+    "minLocalFreeSpace": "64MB",  
+    "ceeVcapsIsEnabled": false,  
+    "ceeVcapsInterval": 60,  
+    "ceeVcapsEvents": 100,  
+    "alertsIsEnabled": false,  
+    "alertsInactivityInterval": 360,  
+    "alertsReplayInterval": 360,  
+    "alertsInactivityCheckInterval": 10,  
+    "alertsSyslog": {  
+      "server": "",  
+      "protocol": "UDP",  
+      "separator": null  
+    },  
+    "alertsEmail": {  
+      "server": "",  
+      "ssl": false,  
+      "userName": "",  
+      "from": "",  
+      "to": "",  
+      "subject": ""  
+    },  
+    "hardeningIsEnabled": false,  
+    "safeModeIsEnabled": true,  
+    "dnsResolveIsEnabled": false,  
+    "siIpWhitelist": [],  
+    "apiServerIpWhitelist": [],  
+    "apiServerMgmtConsole": "WRKST0100",  
+    "id": "AGENT0",  
+    "url": "https://localhost:4494/api/v1/agents/AGENT0",  
+    "host": "192.168.1.124",  
+    "netbiosName": "VAGRANT-2016",  
+    "userName": "test01\\administrator",  
+    "domain": "TEST01",  
+    "machineSid": "S-1-5-21-1367674131-2422966069-737923105-1001",  
+    "osVersion": "6.2.9200.0",  
+    "isDC": false,  
+    "errorMessage": "",  
+    "installState": "Installed",  
+    "version": "4.1.119",  
+    "siInstallState": "Installed",  
+    "siVersion": "6.0.0.388",  
+    "managedBySI": false,  
+    "configVersion": "UFZXT9Fijt5mZ6GNOaoclaVMRy4=",  
+    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT0/hosts",  
+    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT0/domain",  
+    "apiServerIsEnabled": false,  
+    "apiServerPort": 4494  
+  },  
+  {  
+    "warnings": [],  
+    "safeModeStatus": null,  
+    "safeModeMessage": null,  
+    "archiveIsEnabled": false,  
+    "archivePath": "",  
+    "archiveUserName": "",  
+    "archiveMaxLocalSize": "5GB",  
+    "fpolicyPort": 9999,  
+    "fpolicyAuth": "NoAuth",  
+    "fpolicyIpWhitelist": [],  
+    "minLocalFreeSpace": "64MB",  
+    "ceeVcapsIsEnabled": false,  
+    "ceeVcapsInterval": 60,  
+    "ceeVcapsEvents": 100,  
+    "alertsIsEnabled": false,  
+    "alertsInactivityInterval": 360,  
+    "alertsReplayInterval": 360,  
+    "alertsInactivityCheckInterval": 10,  
+    "alertsSyslog": {  
+      "server": "",  
+      "protocol": "UDP",  
+      "separator": null  
+    },  
+    "alertsEmail": {  
+      "server": null,  
+      "ssl": false,  
+      "userName": null,  
+      "from": null,  
+      "to": null,  
+      "subject": ""  
+    },  
+    "hardeningIsEnabled": false,  
+    "safeModeIsEnabled": true,  
+    "dnsResolveIsEnabled": false,  
+    "siIpWhitelist": [  
+      "127.0.0.1",  
+      "::1"  
+    ],  
+    "apiServerIpWhitelist": null,  
+    "apiServerMgmtConsole": null,  
+    "id": "AGENT1",  
+    "url": "https://localhost:4494/api/v1/agents/AGENT1",  
+    "host": "nonexistent",  
+    "netbiosName": "nonexistent",  
+    "userName": "",  
+    "domain": "",  
+    "machineSid": "",  
+    "osVersion": "",  
+    "isDC": false,  
+    "errorMessage": "Cannot detect if an agent is installed. The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)",  
+    "installState": "Failed",  
+    "version": null,  
+    "siInstallState": "Failed",  
+    "siVersion": "",  
+    "managedBySI": false,  
+    "configVersion": null,  
+    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT1/hosts",  
+    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT1/domain",  
+    "apiServerIsEnabled": false,  
+    "apiServerPort": 4494  
+  },  
+  {  
+    "warnings": [],  
+    "safeModeStatus": "",  
+    "safeModeMessage": "",  
+    "archiveIsEnabled": false,  
+    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS",  
+    "archiveUserName": "wrkst0100\\testuser",  
+    "archiveMaxLocalSize": "5GB",  
+    "fpolicyPort": 9999,  
+    "fpolicyAuth": "Server",  
+    "fpolicyIpWhitelist": [],  
+    "minLocalFreeSpace": "64MB",  
+    "ceeVcapsIsEnabled": false,  
+    "ceeVcapsInterval": 60,  
+    "ceeVcapsEvents": 100,  
+    "alertsIsEnabled": true,  
+    "alertsInactivityInterval": 360,  
+    "alertsReplayInterval": 360,  
+    "alertsInactivityCheckInterval": 10,  
+    "alertsSyslog": {  
+      "server": "12",  
+      "protocol": "UDP",  
+      "separator": null  
+    },  
+    "alertsEmail": {  
+      "server": "",  
+      "ssl": false,  
+      "userName": "",  
+      "from": "",  
+      "to": "",  
+      "subject": ""  
+    },  
+    "hardeningIsEnabled": false,  
+    "safeModeIsEnabled": true,  
+    "dnsResolveIsEnabled": false,  
+    "siIpWhitelist": [  
+      "127.0.0.1",  
+      "::1"  
+    ],  
+    "apiServerIpWhitelist": [],  
+    "apiServerMgmtConsole": "WRKST0100",  
+    "id": "AGENT3",  
+    "url": "https://localhost:4494/api/v1/agents/AGENT3",  
+    "host": "WRKST0100",  
+    "netbiosName": "WRKST0100",  
+    "userName": "",  
+    "domain": "LOGIC-LAB",  
+    "machineSid": "",  
+    "osVersion": "6.2.9200.0",  
+    "isDC": false,  
+    "errorMessage": "",  
+    "installState": "Installed",  
+    "version": "4.1.119",  
+    "siInstallState": "NotInstalled",  
+    "siVersion": "",  
+    "managedBySI": false,  
+    "configVersion": "efkL3mKD8BJF/LtD/SC+ClS/xuE=",  
+    "monitoredHostsUrl": "https://localhost:4494/api/v1/agents/AGENT3/hosts",  
+    "monitoredDomainUrl": "https://localhost:4494/api/v1/agents/AGENT3/domain",  
+    "apiServerIsEnabled": false,  
+    "apiServerPort": 4494  
+  }  
 ]  
 
 ```
@@ -1027,69 +1027,69 @@ Response: array of Domain
 
 Example:
 
-```
+```json
 [  
-  {  
-    "id": "TEST01",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01",  
-    "name": "TEST01",  
-    "managedBySI": false,  
-    "outputs": [  
-      {  
-        "id": "657eaa95f0804608acef581e728868e2",  
-        "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
-        "domainId": "TEST01",  
-        "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-        "agentsIds": [],  
-        "isEnabled": true,  
-        "type": "LogFile",  
-        "logFile": {  
-          "format": "Json",  
-          "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
-          "archivePath": "",  
-          "daysToRetain": 10,  
-          "reportUserName": false,  
-          "reportUncPath": false,  
-          "addCToPath": true,  
-          "reportMilliseconds": false,  
-          "stealthAudit": true  
-        },  
-        "syslog": null,  
-        "amqp": null,  
-        "fileFilter": null,  
-        "sharePointFilter": null,  
-        "comment": "",  
-        "managedBy": "",  
-        "windows": null  
-      },  
-      {  
-        "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-        "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-        "domainId": "TEST01",  
-        "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-        "agentsIds": [],  
-        "isEnabled": true,  
-        "type": "Amqp",  
-        "logFile": null,  
-        "syslog": null,  
-        "amqp": {  
-          "server": "127.0.0.1:10001",  
-          "userName": "StealthINTERCEPT",  
-          "queue": "StealthINTERCEPT",  
-          "vhost": ""  
-        },  
-        "fileFilter": null,  
-        "sharePointFilter": null,  
-        "comment": "",  
-        "managedBy": "",  
-        "windows": null  
-      }  
-    ],  
-    "outputsUrl": "https://localhost:4494/api/v1/domains/TEST01/outputs",  
-    "agentsUrl": "https://localhost:4494/api/v1/domains/TEST01/agents",  
-    "masterAgentId": "AGENT0",  
-    "masterAgentUrl": "https://localhost:4494/api/v1/agents/AGENT0"  
-  }  
+  {  
+    "id": "TEST01",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01",  
+    "name": "TEST01",  
+    "managedBySI": false,  
+    "outputs": [  
+      {  
+        "id": "657eaa95f0804608acef581e728868e2",  
+        "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
+        "domainId": "TEST01",  
+        "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+        "agentsIds": [],  
+        "isEnabled": true,  
+        "type": "LogFile",  
+        "logFile": {  
+          "format": "Json",  
+          "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
+          "archivePath": "",  
+          "daysToRetain": 10,  
+          "reportUserName": false,  
+          "reportUncPath": false,  
+          "addCToPath": true,  
+          "reportMilliseconds": false,  
+          "stealthAudit": true  
+        },  
+        "syslog": null,  
+        "amqp": null,  
+        "fileFilter": null,  
+        "sharePointFilter": null,  
+        "comment": "",  
+        "managedBy": "",  
+        "windows": null  
+      },  
+      {  
+        "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+        "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+        "domainId": "TEST01",  
+        "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+        "agentsIds": [],  
+        "isEnabled": true,  
+        "type": "Amqp",  
+        "logFile": null,  
+        "syslog": null,  
+        "amqp": {  
+          "server": "127.0.0.1:10001",  
+          "userName": "StealthINTERCEPT",  
+          "queue": "StealthINTERCEPT",  
+          "vhost": ""  
+        },  
+        "fileFilter": null,  
+        "sharePointFilter": null,  
+        "comment": "",  
+        "managedBy": "",  
+        "windows": null  
+      }  
+    ],  
+    "outputsUrl": "https://localhost:4494/api/v1/domains/TEST01/outputs",  
+    "agentsUrl": "https://localhost:4494/api/v1/domains/TEST01/agents",  
+    "masterAgentId": "AGENT0",  
+    "masterAgentUrl": "https://localhost:4494/api/v1/agents/AGENT0"  
+  }  
 ]  
 
 ```
@@ -1131,57 +1131,57 @@ Response: array of Output
 
 Example:
 
-```
+```json
 [  
-  {  
-    "id": "657eaa95f0804608acef581e728868e2",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
-    "domainId": "TEST01",  
-    "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-    "agentsIds": [],  
-    "isEnabled": true,  
-    "type": "LogFile",  
-    "logFile": {  
-      "format": "Json",  
-      "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
-      "archivePath": "",  
-      "daysToRetain": 10,  
-      "reportUserName": false,  
-      "reportUncPath": false,  
-      "addCToPath": true,  
-      "reportMilliseconds": false,  
-      "stealthAudit": true  
-    },  
-    "syslog": null,  
-    "amqp": null,  
-    "fileFilter": null,  
-    "sharePointFilter": null,  
-    "comment": "",  
-    "managedBy": "",  
-    "windows": null  
-  },  
-  {  
-    "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
-    "domainId": "TEST01",  
-    "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-    "agentsIds": [],  
-    "isEnabled": true,  
-    "type": "Amqp",  
-    "logFile": null,  
-    "syslog": null,  
-    "amqp": {  
-      "server": "127.0.0.1:10001",  
-      "userName": "StealthINTERCEPT",  
-      "queue": "StealthINTERCEPT",  
-      "vhost": ""  
-    },  
-    "fileFilter": null,  
-    "sharePointFilter": null,  
-    "comment": "",  
-    "managedBy": "",  
-    "windows": null  
-  }  
+  {  
+    "id": "657eaa95f0804608acef581e728868e2",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
+    "domainId": "TEST01",  
+    "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+    "agentsIds": [],  
+    "isEnabled": true,  
+    "type": "LogFile",  
+    "logFile": {  
+      "format": "Json",  
+      "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
+      "archivePath": "",  
+      "daysToRetain": 10,  
+      "reportUserName": false,  
+      "reportUncPath": false,  
+      "addCToPath": true,  
+      "reportMilliseconds": false,  
+      "stealthAudit": true  
+    },  
+    "syslog": null,  
+    "amqp": null,  
+    "fileFilter": null,  
+    "sharePointFilter": null,  
+    "comment": "",  
+    "managedBy": "",  
+    "windows": null  
+  },  
+  {  
+    "id": "fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/fe9eb58ef02e40b8ab4a3e02e51a9d95",  
+    "domainId": "TEST01",  
+    "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+    "agentsIds": [],  
+    "isEnabled": true,  
+    "type": "Amqp",  
+    "logFile": null,  
+    "syslog": null,  
+    "amqp": {  
+      "server": "127.0.0.1:10001",  
+      "userName": "StealthINTERCEPT",  
+      "queue": "StealthINTERCEPT",  
+      "vhost": ""  
+    },  
+    "fileFilter": null,  
+    "sharePointFilter": null,  
+    "comment": "",  
+    "managedBy": "",  
+    "windows": null  
+  }  
 ]  
 
 ```
@@ -1196,33 +1196,33 @@ Response: Output
 
 Example:
 
-```
+```json
 {  
-  "id": "657eaa95f0804608acef581e728868e2",  
-  "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
-  "domainId": "TEST01",  
-  "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
-  "agentsIds": [],  
-  "isEnabled": true,  
-  "type": "LogFile",  
-  "logFile": {  
-    "format": "Json",  
-    "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
-    "archivePath": "",  
-    "daysToRetain": 10,  
-    "reportUserName": false,  
-    "reportUncPath": false,  
-    "addCToPath": true,  
-    "reportMilliseconds": false,  
-    "stealthAudit": true  
-  },  
-  "syslog": null,  
-  "amqp": null,  
-  "fileFilter": null,  
-  "sharePointFilter": null,  
-  "comment": "",  
-  "managedBy": "",  
-  "windows": null  
+  "id": "657eaa95f0804608acef581e728868e2",  
+  "url": "https://localhost:4494/api/v1/domains/TEST01/outputs/657eaa95f0804608acef581e728868e2",  
+  "domainId": "TEST01",  
+  "domainUrl": "https://localhost:4494/api/v1/domains/TEST01",  
+  "agentsIds": [],  
+  "isEnabled": true,  
+  "type": "LogFile",  
+  "logFile": {  
+    "format": "Json",  
+    "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\192.168.1.124_Log_.json",  
+    "archivePath": "",  
+    "daysToRetain": 10,  
+    "reportUserName": false,  
+    "reportUncPath": false,  
+    "addCToPath": true,  
+    "reportMilliseconds": false,  
+    "stealthAudit": true  
+  },  
+  "syslog": null,  
+  "amqp": null,  
+  "fileFilter": null,  
+  "sharePointFilter": null,  
+  "comment": "",  
+  "managedBy": "",  
+  "windows": null  
 }  
 
 ```
@@ -1245,240 +1245,240 @@ Response:Host
 
 Example:
 
-```
+```json
 {  
-  "autoConfigureAuditing": false,  
-  "monitorAuditingStatus": false,  
-  "id": "Windows-wrkst0100",  
-  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-  "host": "WRKST0100",  
-  "type": "Windows",  
-  "altHost": "",  
-  "userName": "",  
-  "outputs": [  
-    {  
-      "id": "9c90791891774715bdb3415823790d7c",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/9c90791891774715bdb3415823790d7c",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/9c90791891774715bdb3415823790d7c",  
-      "isEnabled": false,  
-      "type": "LogFile",  
-      "logFile": {  
-        "format": "Tsv",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_.tsv",  
-        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_.tsv",  
-        "daysToRetain": 11111,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": true  
-      },  
-      "syslog": null,  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": true,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "C:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [],  
-        "filterGroups": false,  
-        "officeFiltering": true  
-      },  
-      "sharePointFilter": null,  
-      "comment": "",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": true,  
-        "vssActivity": true,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": false  
-      }  
-    },  
-    {  
-      "id": "a556d7c3666d46babe895f2b9ce1316b",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
-      "isEnabled": false,  
-      "type": "LogFile",  
-      "logFile": {  
-        "format": "Tsv",  
-        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
-        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
-        "daysToRetain": 3,  
-        "reportUserName": false,  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "reportMilliseconds": false,  
-        "stealthAudit": false  
-      },  
-      "syslog": null,  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": false,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "E:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [  
-          "SBTService.exe",  
-          "FSAC",  
-          "FPolicyServerSvc.exe",  
-          "CelerraServerSvc.exe",  
-          "FSACLoggingSvc.exe",  
-          "HitachiService.exe",  
-          "SIWindowsAgent.exe",  
-          "SIGPOAgent.exe",  
-          "SIWorkstationAgent.exe",  
-          "StealthAUDIT",  
-          "LogProcessorSrv.exe",  
-          "SearchIndexer.exe",  
-          "WindowsSearch.exe"  
-        ],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [  
-          "S-1-5-17",  
-          "S-1-5-18",  
-          "S-1-5-19",  
-          "S-1-5-20"  
-        ],  
-        "filterGroups": false,  
-        "officeFiltering": false  
-      },  
-      "sharePointFilter": null,  
-      "comment": "Updates on E:",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": true,  
-        "vssActivity": true,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": true  
-      }  
-    },  
-    {  
-      "id": "e7c98bc9e96a41d0813b35858a0475bd",  
-      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/e7c98bc9e96a41d0813b35858a0475bd",  
-      "hostId": "Windows-wrkst0100",  
-      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-      "agentsIds": [  
-        "AGENT3"  
-      ],  
-      "logsUrl": "https://localhost:4494/api/v1/logs/e7c98bc9e96a41d0813b35858a0475bd",  
-      "isEnabled": false,  
-      "type": "Syslog",  
-      "logFile": null,  
-      "syslog": {  
-        "reportUncPath": false,  
-        "addCToPath": true,  
-        "server": "192.168.1.1",  
-        "protocol": "UDP",  
-        "separator": "Lf"  
-      },  
-      "amqp": null,  
-      "fileFilter": {  
-        "allowed": true,  
-        "denied": true,  
-        "cifs": true,  
-        "nfs": true,  
-        "read": false,  
-        "dirRead": false,  
-        "create": true,  
-        "dirCreate": true,  
-        "rename": true,  
-        "dirRename": true,  
-        "delete": true,  
-        "dirDelete": true,  
-        "update": true,  
-        "permission": true,  
-        "dirPermission": true,  
-        "readOptimize": false,  
-        "includePaths": [  
-          "O:"  
-        ],  
-        "excludePaths": [],  
-        "excludeExtensions": [],  
-        "excludeProcesses": [  
-          "SBTService.exe",  
-          "FSAC",  
-          "FPolicyServerSvc.exe",  
-          "CelerraServerSvc.exe",  
-          "FSACLoggingSvc.exe",  
-          "HitachiService.exe",  
-          "SIWindowsAgent.exe",  
-          "SIGPOAgent.exe",  
-          "SIWorkstationAgent.exe",  
-          "StealthAUDIT",  
-          "LogProcessorSrv.exe",  
-          "SearchIndexer.exe",  
-          "WindowsSearch.exe"  
-        ],  
-        "excludeReadProccesses": [],  
-        "excludeAccounts": [  
-          "S-1-5-17",  
-          "S-1-5-18",  
-          "S-1-5-19",  
-          "S-1-5-20"  
-        ],  
-        "filterGroups": false,  
-        "officeFiltering": false  
-      },  
-      "sharePointFilter": null,  
-      "comment": "SIEM feed",  
-      "managedBy": "",  
-      "windows": {  
-        "vssCreation": false,  
-        "vssActivity": false,  
-        "discardReorderedAcl": true,  
-        "discardInheritedAcl": false  
-      }  
-    }  
-  ],  
-  "outputsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs",  
-  "agentsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/agents"  
+  "autoConfigureAuditing": false,  
+  "monitorAuditingStatus": false,  
+  "id": "Windows-wrkst0100",  
+  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+  "host": "WRKST0100",  
+  "type": "Windows",  
+  "altHost": "",  
+  "userName": "",  
+  "outputs": [  
+    {  
+      "id": "9c90791891774715bdb3415823790d7c",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/9c90791891774715bdb3415823790d7c",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/9c90791891774715bdb3415823790d7c",  
+      "isEnabled": false,  
+      "type": "LogFile",  
+      "logFile": {  
+        "format": "Tsv",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_.tsv",  
+        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_.tsv",  
+        "daysToRetain": 11111,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": true  
+      },  
+      "syslog": null,  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": true,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "C:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [],  
+        "filterGroups": false,  
+        "officeFiltering": true  
+      },  
+      "sharePointFilter": null,  
+      "comment": "",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": true,  
+        "vssActivity": true,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": false  
+      }  
+    },  
+    {  
+      "id": "a556d7c3666d46babe895f2b9ce1316b",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
+      "isEnabled": false,  
+      "type": "LogFile",  
+      "logFile": {  
+        "format": "Tsv",  
+        "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
+        "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
+        "daysToRetain": 3,  
+        "reportUserName": false,  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "reportMilliseconds": false,  
+        "stealthAudit": false  
+      },  
+      "syslog": null,  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": false,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "E:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [  
+          "SBTService.exe",  
+          "FSAC",  
+          "FPolicyServerSvc.exe",  
+          "CelerraServerSvc.exe",  
+          "FSACLoggingSvc.exe",  
+          "HitachiService.exe",  
+          "SIWindowsAgent.exe",  
+          "SIGPOAgent.exe",  
+          "SIWorkstationAgent.exe",  
+          "StealthAUDIT",  
+          "LogProcessorSrv.exe",  
+          "SearchIndexer.exe",  
+          "WindowsSearch.exe"  
+        ],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [  
+          "S-1-5-17",  
+          "S-1-5-18",  
+          "S-1-5-19",  
+          "S-1-5-20"  
+        ],  
+        "filterGroups": false,  
+        "officeFiltering": false  
+      },  
+      "sharePointFilter": null,  
+      "comment": "Updates on E:",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": true,  
+        "vssActivity": true,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": true  
+      }  
+    },  
+    {  
+      "id": "e7c98bc9e96a41d0813b35858a0475bd",  
+      "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/e7c98bc9e96a41d0813b35858a0475bd",  
+      "hostId": "Windows-wrkst0100",  
+      "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+      "agentsIds": [  
+        "AGENT3"  
+      ],  
+      "logsUrl": "https://localhost:4494/api/v1/logs/e7c98bc9e96a41d0813b35858a0475bd",  
+      "isEnabled": false,  
+      "type": "Syslog",  
+      "logFile": null,  
+      "syslog": {  
+        "reportUncPath": false,  
+        "addCToPath": true,  
+        "server": "192.168.1.1",  
+        "protocol": "UDP",  
+        "separator": "Lf"  
+      },  
+      "amqp": null,  
+      "fileFilter": {  
+        "allowed": true,  
+        "denied": true,  
+        "cifs": true,  
+        "nfs": true,  
+        "read": false,  
+        "dirRead": false,  
+        "create": true,  
+        "dirCreate": true,  
+        "rename": true,  
+        "dirRename": true,  
+        "delete": true,  
+        "dirDelete": true,  
+        "update": true,  
+        "permission": true,  
+        "dirPermission": true,  
+        "readOptimize": false,  
+        "includePaths": [  
+          "O:"  
+        ],  
+        "excludePaths": [],  
+        "excludeExtensions": [],  
+        "excludeProcesses": [  
+          "SBTService.exe",  
+          "FSAC",  
+          "FPolicyServerSvc.exe",  
+          "CelerraServerSvc.exe",  
+          "FSACLoggingSvc.exe",  
+          "HitachiService.exe",  
+          "SIWindowsAgent.exe",  
+          "SIGPOAgent.exe",  
+          "SIWorkstationAgent.exe",  
+          "StealthAUDIT",  
+          "LogProcessorSrv.exe",  
+          "SearchIndexer.exe",  
+          "WindowsSearch.exe"  
+        ],  
+        "excludeReadProccesses": [],  
+        "excludeAccounts": [  
+          "S-1-5-17",  
+          "S-1-5-18",  
+          "S-1-5-19",  
+          "S-1-5-20"  
+        ],  
+        "filterGroups": false,  
+        "officeFiltering": false  
+      },  
+      "sharePointFilter": null,  
+      "comment": "SIEM feed",  
+      "managedBy": "",  
+      "windows": {  
+        "vssCreation": false,  
+        "vssActivity": false,  
+        "discardReorderedAcl": true,  
+        "discardInheritedAcl": false  
+      }  
+    }  
+  ],  
+  "outputsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs",  
+  "agentsUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/agents"  
 }  
 
 ```
@@ -1607,87 +1607,87 @@ Response: Output
 
 Example:
 
-```
+```json
 {  
-  "id": "a556d7c3666d46babe895f2b9ce1316b",  
-  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
-  "hostId": "Windows-wrkst0100",  
-  "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
-  "agentsIds": [  
-    "AGENT3"  
-  ],  
-  "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
-  "isEnabled": false,  
-  "type": "LogFile",  
-  "logFile": {  
-    "format": "Tsv",  
-    "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
-    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
-    "daysToRetain": 3,  
-    "reportUserName": false,  
-    "reportUncPath": false,  
-    "addCToPath": true,  
-    "reportMilliseconds": false,  
-    "stealthAudit": false  
-  },  
-  "syslog": null,  
-  "amqp": null,  
-  "fileFilter": {  
-    "allowed": true,  
-    "denied": true,  
-    "cifs": true,  
-    "nfs": true,  
-    "read": false,  
-    "dirRead": false,  
-    "create": true,  
-    "dirCreate": true,  
-    "rename": true,  
-    "dirRename": true,  
-    "delete": true,  
-    "dirDelete": true,  
-    "update": true,  
-    "permission": true,  
-    "dirPermission": true,  
-    "readOptimize": false,  
-    "includePaths": [  
-      "E:"  
-    ],  
-    "excludePaths": [],  
-    "excludeExtensions": [],  
-    "excludeProcesses": [  
-      "SBTService.exe",  
-      "FSAC",  
-      "FPolicyServerSvc.exe",  
-      "CelerraServerSvc.exe",  
-      "FSACLoggingSvc.exe",  
-      "HitachiService.exe",  
-      "SIWindowsAgent.exe",  
-      "SIGPOAgent.exe",  
-      "SIWorkstationAgent.exe",  
-      "StealthAUDIT",  
-      "LogProcessorSrv.exe",  
-      "SearchIndexer.exe",  
-      "WindowsSearch.exe"  
-    ],  
-    "excludeReadProccesses": [],  
-    "excludeAccounts": [  
-      "S-1-5-17",  
-      "S-1-5-18",  
-      "S-1-5-19",  
-      "S-1-5-20"  
-    ],  
-    "filterGroups": false,  
-    "officeFiltering": false  
-  },  
-  "sharePointFilter": null,  
-  "comment": "Updates on E:",  
-  "managedBy": "",  
-  "windows": {  
-    "vssCreation": true,  
-    "vssActivity": true,  
-    "discardReorderedAcl": true,  
-    "discardInheritedAcl": true  
-  }  
+  "id": "a556d7c3666d46babe895f2b9ce1316b",  
+  "url": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100/outputs/a556d7c3666d46babe895f2b9ce1316b",  
+  "hostId": "Windows-wrkst0100",  
+  "hostUrl": "https://localhost:4494/api/v1/hosts/Windows-wrkst0100",  
+  "agentsIds": [  
+    "AGENT3"  
+  ],  
+  "logsUrl": "https://localhost:4494/api/v1/logs/a556d7c3666d46babe895f2b9ce1316b",  
+  "isEnabled": false,  
+  "type": "LogFile",  
+  "logFile": {  
+    "format": "Tsv",  
+    "path": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\WRKST0100_E_Activity_Log_.Tsv",  
+    "archivePath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_a556d7c3-666d-46ba-be89-5f2b9ce1316b\\WRKST0100_E_Activity_Log_.Tsv",  
+    "daysToRetain": 3,  
+    "reportUserName": false,  
+    "reportUncPath": false,  
+    "addCToPath": true,  
+    "reportMilliseconds": false,  
+    "stealthAudit": false  
+  },  
+  "syslog": null,  
+  "amqp": null,  
+  "fileFilter": {  
+    "allowed": true,  
+    "denied": true,  
+    "cifs": true,  
+    "nfs": true,  
+    "read": false,  
+    "dirRead": false,  
+    "create": true,  
+    "dirCreate": true,  
+    "rename": true,  
+    "dirRename": true,  
+    "delete": true,  
+    "dirDelete": true,  
+    "update": true,  
+    "permission": true,  
+    "dirPermission": true,  
+    "readOptimize": false,  
+    "includePaths": [  
+      "E:"  
+    ],  
+    "excludePaths": [],  
+    "excludeExtensions": [],  
+    "excludeProcesses": [  
+      "SBTService.exe",  
+      "FSAC",  
+      "FPolicyServerSvc.exe",  
+      "CelerraServerSvc.exe",  
+      "FSACLoggingSvc.exe",  
+      "HitachiService.exe",  
+      "SIWindowsAgent.exe",  
+      "SIGPOAgent.exe",  
+      "SIWorkstationAgent.exe",  
+      "StealthAUDIT",  
+      "LogProcessorSrv.exe",  
+      "SearchIndexer.exe",  
+      "WindowsSearch.exe"  
+    ],  
+    "excludeReadProccesses": [],  
+    "excludeAccounts": [  
+      "S-1-5-17",  
+      "S-1-5-18",  
+      "S-1-5-19",  
+      "S-1-5-20"  
+    ],  
+    "filterGroups": false,  
+    "officeFiltering": false  
+  },  
+  "sharePointFilter": null,  
+  "comment": "Updates on E:",  
+  "managedBy": "",  
+  "windows": {  
+    "vssCreation": true,  
+    "vssActivity": true,  
+    "discardReorderedAcl": true,  
+    "discardInheritedAcl": true  
+  }  
 }  
 
 ```
@@ -1797,47 +1797,47 @@ Response: array of File
 
 Example:
 
-```
+```json
 [  
-  {  
-    "id": "localhost_Log_20190419.tsv",  
-    "size": 20619226,  
-    "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190419.tsv",  
-    "isZip": false,  
-    "isArchived": false,  
-    "type": "Tsv",  
-    "updatedAt": "2019-04-19T10:17:32.0546644Z",  
-    "activityFrom": "2019-04-15T14:30:51",  
-    "activityTo": "2019-04-19T10:17:32",  
-    "outputId": "9c90791891774715bdb3415823790d7c",  
-    "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190419.tsv"  
-  },  
-  {  
-    "id": "localhost_Log_20190419.tsv.zip",  
-    "size": 1413338,  
-    "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190419.tsv.zip",  
-    "isZip": true,  
-    "isArchived": false,  
-    "type": "Tsv",  
-    "updatedAt": "2019-04-19T10:17:32.0546644Z",  
-    "activityFrom": "2019-04-15T14:30:51",  
-    "activityTo": "2019-04-19T10:17:32",  
-    "outputId": "9c90791891774715bdb3415823790d7c",  
-    "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190419.tsv.zip"  
-  },  
-  {  
-    "id": "localhost_Log_20290410.tsv.zip",  
-    "size": 16861634,  
-    "localPath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_20290410.tsv.zip",  
-    "isZip": true,  
-    "isArchived": true,  
-    "type": "Tsv",  
-    "updatedAt": "2019-04-10T02:01:42.4996667Z",  
-    "activityFrom": "2019-04-05T18:16:57",  
-    "activityTo": "2019-04-10T02:01:45",  
-    "outputId": "9c90791891774715bdb3415823790d7c",  
-    "contentUrl": "https://localhost:4494/api/v1/logs/archive/get/WRKST0100/WRKST0100_9c907918-9177-4715-bdb3-415823790d7c/localhost_Log_20290410.tsv.zip"  
-  }  
+  {  
+    "id": "localhost_Log_20190419.tsv",  
+    "size": 20619226,  
+    "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190419.tsv",  
+    "isZip": false,  
+    "isArchived": false,  
+    "type": "Tsv",  
+    "updatedAt": "2019-04-19T10:17:32.0546644Z",  
+    "activityFrom": "2019-04-15T14:30:51",  
+    "activityTo": "2019-04-19T10:17:32",  
+    "outputId": "9c90791891774715bdb3415823790d7c",  
+    "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190419.tsv"  
+  },  
+  {  
+    "id": "localhost_Log_20190419.tsv.zip",  
+    "size": 1413338,  
+    "localPath": "C:\\Program Files\\STEALTHbits\\StealthAUDIT\\FSAC\\SBTFileMon_Logs\\localhost_Log_20190419.tsv.zip",  
+    "isZip": true,  
+    "isArchived": false,  
+    "type": "Tsv",  
+    "updatedAt": "2019-04-19T10:17:32.0546644Z",  
+    "activityFrom": "2019-04-15T14:30:51",  
+    "activityTo": "2019-04-19T10:17:32",  
+    "outputId": "9c90791891774715bdb3415823790d7c",  
+    "contentUrl": "https://localhost:4494/api/v1/logs/get/localhost_Log_20190419.tsv.zip"  
+  },  
+  {  
+    "id": "localhost_Log_20290410.tsv.zip",  
+    "size": 16861634,  
+    "localPath": "\\\\WRKST0100\\SBACTIVITYLOGS\\WRKST0100\\WRKST0100_9c907918-9177-4715-bdb3-415823790d7c\\localhost_Log_20290410.tsv.zip",  
+    "isZip": true,  
+    "isArchived": true,  
+    "type": "Tsv",  
+    "updatedAt": "2019-04-10T02:01:42.4996667Z",  
+    "activityFrom": "2019-04-05T18:16:57",  
+    "activityTo": "2019-04-10T02:01:45",  
+    "outputId": "9c90791891774715bdb3415823790d7c",  
+    "contentUrl": "https://localhost:4494/api/v1/logs/archive/get/WRKST0100/WRKST0100_9c907918-9177-4715-bdb3-415823790d7c/localhost_Log_20290410.tsv.zip"  
+  }  
 ]  
 
 ```
@@ -1861,29 +1861,29 @@ Example:
 
 [Copy](javascript:void(0);)
 
-```
+```json
 [  
-  {  
-    "id": "10013",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10013",  
-    "name": "LDAP Monitor",  
-    "description": "",  
-    "path": "Policies\\Auditing",  
-    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623ce",  
-    "isEnabled": true,  
-    "updatedAt": "2019-04-19T10:17:32.0546644Z"  
-  },  
-  {  
-    "id": "10014",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10014",  
-    "name": "Authentication Monitor",  
-    "description": "",  
-    "path": "Policies\\Auditing",  
-    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623cf",  
-    "isEnabled": true,  
-    "updatedAt": "2019-04-19T10:17:32.0546644Z"  
-  }  
- ]  
+  {  
+    "id": "10013",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10013",  
+    "name": "LDAP Monitor",  
+    "description": "",  
+    "path": "Policies\\Auditing",  
+    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623ce",  
+    "isEnabled": true,  
+    "updatedAt": "2019-04-19T10:17:32.0546644Z"  
+  },  
+  {  
+    "id": "10014",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10014",  
+    "name": "Authentication Monitor",  
+    "description": "",  
+    "path": "Policies\\Auditing",  
+    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623cf",  
+    "isEnabled": true,  
+    "updatedAt": "2019-04-19T10:17:32.0546644Z"  
+  }  
+ ]  
 
 ```
 
@@ -1916,27 +1916,27 @@ Example:
 
 Body:
 
-```
+```json
 {  
-  "isEnabled": false  
+  "isEnabled": false  
 }  
 
 ```
 
 Response: 200
 
-```
-  {  
-    "id": "10014",  
-    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10014",  
-    "name": "Authentication Monitor",  
-    "description": "",  
-    "path": "Policies\\Auditing",  
-    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623cf",  
-    "isEnabled": false,  
-    "updatedAt": "2019-06-19T10:11:12Z"  
-    "xml": "......"  
-  }  
+```json
+  {  
+    "id": "10014",  
+    "url": "https://localhost:4494/api/v1/domains/TEST01/policies/10014",  
+    "name": "Authentication Monitor",  
+    "description": "",  
+    "path": "Policies\\Auditing",  
+    "guid": "8f5e4870-6d28-4f32-af18-2e6e6ed623cf",  
+    "isEnabled": false,  
+    "updatedAt": "2019-06-19T10:11:12Z",  
+    "xml": "......"  
+  }  
 
 ```
 

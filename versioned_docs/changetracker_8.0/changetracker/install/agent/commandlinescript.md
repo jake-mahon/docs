@@ -12,9 +12,9 @@ Volume Serial Number is 3092-7141
 
 Directory of C:\Users\Administrator\Downloads
 
-03/03/2017 15:03 <DIR> .
+03/03/2017 15:03 `<DIR>` .
 
-03/03/2017 15:03 <DIR> ..
+03/03/2017 15:03 `<DIR>` ..
 
 03/03/2017 13:35 462 HubDetails.xml
 

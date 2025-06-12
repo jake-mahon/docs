@@ -61,7 +61,7 @@ Provided the Agent can connect to the Hub /api page (referenced in the HubDetail
 
 The Agent will then download and run the assigned Registration Report\* which determines the Device Group that the Device will be assigned to. The Registration Report is like a full Compliance Report in that it can provision Tracker’s to gather config data from the device and process the returned data using rule expressions, with the results governing Group assignment.
 
-In this example, the group regex match (```-WEBSERVER-|-EPOS-|-APPSERVER-```) extracts only those substrings if present, then the <Replace From lines substitute in a valid group name for each possible match (in other words, there must be a group already defined with the Group name being referenced). This substituted name is then used as the initial group to register the agent into. Note: if there s no match they ll end up in the default New Devices .
+In this example, the group regex match (```-WEBSERVER-|-EPOS-|-APPSERVER-```) extracts only those substrings if present, then the `<Replace From>` lines substitute in a valid group name for each possible match (in other words, there must be a group already defined with the Group name being referenced). This substituted name is then used as the initial group to register the agent into. Note: if there s no match they ll end up in the default New Devices .
 
 ![page_guide_30](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_30.png)
 

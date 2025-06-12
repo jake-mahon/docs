@@ -94,9 +94,9 @@ __Caution__: this way of writing permissions is unsafe in case of a modification
 Usercube's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the __Directory__ section on the home page;
-  ![Workflow Menu Items - Users List](/img/versioned_docs/menuitems_userslist_v523.png)
+  ![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.png)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/versioned_docs/menuitems_userview_v523.png)
+  ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.png)
 
 ## Aspects
 

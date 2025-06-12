@@ -70,12 +70,12 @@ In addition to the Activity Monitor performance counters, it is recommended to u
 | Process(ConfigurationAgent.Grpc.Host)\Thread Count | For Agent:  The set of threads that are running in the associated process. |
 | Process(ConfigurationAgent.Grpc.Host)\Private Bytes | For Agent:  The total amount of memory that a process has allocated, not including memory shared with other processes. |
 | Process(ConfigurationAgent.Grpc.Host)\Working Set | For Agent:  The associated process's physical memory usage, in bytes. |
-| Process(ConfigurationAgent)\% Processor Time | For Agent <= 6.0: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
-| Process(ConfigurationAgent)\Elapsed Time | For Agent <= 6.0: The duration from when the process was started until the time it terminated. |
-| Process(ConfigurationAgent)\Handle Count | For Agent <= 6.0: The number of operating system handles the process has opened. |
-| Process(ConfigurationAgent)\Thread Count | For Agent <= 6.0: The set of threads that are running in the associated process. |
-| Process(ConfigurationAgent)\Private Bytes | For Agent <= 6.0: The total amount of memory that a process has allocated, not including memory shared with other processes. |
-| Process(ConfigurationAgent)\Working Set | For Agent <= 6.0: The associated process's physical memory usage, in bytes. |
+| Process(ConfigurationAgent)\% Processor Time | For Agent &lt;= 6.0: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
+| Process(ConfigurationAgent)\Elapsed Time | For Agent &lt;= 6.0: The duration from when the process was started until the time it terminated. |
+| Process(ConfigurationAgent)\Handle Count | For Agent &lt;= 6.0: The number of operating system handles the process has opened. |
+| Process(ConfigurationAgent)\Thread Count | For Agent &lt;= 6.0: The set of threads that are running in the associated process. |
+| Process(ConfigurationAgent)\Private Bytes | For Agent &lt;= 6.0: The total amount of memory that a process has allocated, not including memory shared with other processes. |
+| Process(ConfigurationAgent)\Working Set | For Agent &lt;= 6.0: The associated process's physical memory usage, in bytes. |
 | Process(SBTService)\% Processor Time | For Windows Monitoring: The percentage of elapsed time that all of process threads used the processor to execution instructions. |
 | Process(SBTService)\Elapsed Time | For Windows Monitoring: The duration from when the process was started until the time it terminated. |
 | Process(SBTService)\Handle Count | For Windows Monitoring: The number of operating system handles the process has opened. |
@@ -159,6 +159,7 @@ To stop the script press __Ctrl+C__.
 
 Script (save it to AM.PerfCollect.ps1):
 
+```powershell
 $sampleInterval = 1
 
 $maxSamples = 0
@@ -282,6 +283,7 @@ $variables.Add("MaxSamples", "$maxSamples")
 Write-Host "Collecting performance counters to $outputFile... Press Ctrl+C to stop."
 
 Get-Counter @variables | Export-Counter -FileFormat csv -Path $outputFile -Force
+```
 
 ## Unregister Performance Counters
 

@@ -5,7 +5,7 @@ This section contains information on configuring redaction plans and entities. R
 - [Redaction Plans](#Redaction-Plans)
 - [Redaction Entity Groups](#Redaction-Entity-Groups)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Redaction Plans](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Redaction Plans](javascript:void(0))
 
 Redaction plans can be used as an optional migration step to remove specific entities from supported content types. During the migration of a document a migration plan will remove the following entity types (depending on the configuration):
 
@@ -19,13 +19,13 @@ Masking based redaction will ensure that a specified number of start / end chara
 
 ![configredactionplans](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configredactionplans.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Redaction Entity Groups](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Redaction Entity Groups](javascript:void(0))
 
 Entity Groups can be used to add redaction entities to specific groups.
 
 ![redactionentitygroups](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/redactionentitygroups.png)
 
-[![Closed](/img/versioned_docs/transparent.gif)](javascript:void(0))[Redaction Entities](javascript:void(0))
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Redaction Entities](javascript:void(0))
 
 Entities can be used to specify any custom words or phrases that should be removed by a redaction plan.
 

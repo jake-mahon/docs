@@ -84,4 +84,4 @@ The comparison operator is displayed in green text. To change it, click on it to
 
 Filter Criteria
 
-Specify a filter criteria into the <enter a value> textbox.
+Specify a filter criteria into the `<enter a value>` textbox.

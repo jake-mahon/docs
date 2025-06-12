@@ -51,7 +51,7 @@ FSAA Applet Logs:
 
 All FSAA applet logs have the following naming convention for permissions, activity, sensitive data, and DFS scan types:
 
-- [SCAN TYPE]\_[HOSTNAME]\_[YEAR]\_[MONTH]\_[DAY]\_[TIME]\_{JOB\_GUID}\_[SessionID].log
+- `[SCAN TYPE]_[HOSTNAME]_[YEAR]_[MONTH]_[DAY]_[TIME]_{JOB_GUID}_[SessionID].log`
 
 FSAA Trace Logs:
 

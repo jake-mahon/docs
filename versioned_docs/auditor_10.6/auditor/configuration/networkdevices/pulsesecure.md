@@ -1,6 +1,6 @@
 # Configure Pulse Secure Devices
 
-1. Connect to your Pulse Secure device: launch an Internet browser and enter the IP address or device DNS name in the URL field (https://<IP address / Device DNS name>/admin).
+1. Connect to your Pulse Secure device: launch an Internet browser and enter the IP address or device DNS name in the URL field (https://`<IP address / Device DNS name>`/admin).
 2. In the Web Interface, navigate to System → Log/Monitoring.
 3. Under Log/Monitoring, expand the User Access link.
 4. Locate the Settings tab.

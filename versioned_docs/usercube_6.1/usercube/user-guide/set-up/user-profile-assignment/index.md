@@ -51,7 +51,7 @@ Assign manually a profile to a user by proceeding as follows:
 
 __Step 1 –__ Access the __Assigned Profiles__ screen from the home page in the __Administration__ section.
 
-![Addition Icon](/img/versioned_docs/iconadd_v602.png)
+![Addition Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 __Step 2 –__ Click on the addition button at the top right corner.
 

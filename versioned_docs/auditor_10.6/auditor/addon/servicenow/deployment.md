@@ -14,7 +14,7 @@ If you are using a proxy to provide access to the Internet, consider that the Au
 
 Follow the step to configure integration service settings.
 
-__Step 3 –__ Navigate to the add-on folder (default name is _Netwrix\_Auditor\_Add-on\_for\_ITSM_) and select the __Netwrix.ITSM.IntegrationService.exe.config__ service configuration file.
+__Step 3 –__ Navigate to the add-on folder (default name is _Netwrix_Auditor_Add-on_for_ITSM_) and select the __Netwrix.ITSM.IntegrationService.exe.config__ service configuration file.
 
 __NOTE:__ If Auditor ITSM Integration Service is running, stop it before modifying configuration file.
 
@@ -26,7 +26,7 @@ __Step 4 –__ Open this XML file for edit and add the following section:
 
 <proxy
 
-proxyaddress="http://<ip\_address>:<port>"
+proxyaddress="http://<ip_address>:<port>"
 
 usesystemdefault="True"
 

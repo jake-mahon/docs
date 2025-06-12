@@ -30,7 +30,7 @@ Hub URL : https://192.168.1.107/api
 
 Agent user : agent
 
-Agent password : <hidden>
+Agent password : `<hidden>`
 
 Agent path : /opt/nnt/gen7agentcore/bin
 

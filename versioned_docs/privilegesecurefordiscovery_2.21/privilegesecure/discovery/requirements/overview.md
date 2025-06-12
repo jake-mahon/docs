@@ -95,7 +95,7 @@ Every SaaS customer will need to host the SaaS Sensor. The requirements associat
 
 Smaller Environments
 
-| Smaller Environments (<1K Endpoints) |  |
+| Smaller Environments (`<1K Endpoints>`) |  |
 | --- | --- |
 | Endpoints | Recommended Node Size |
 | >500 | 250 GB, 16 GB Ram |

@@ -56,7 +56,7 @@ The attributes of the objects displayed on the __Directory__ and __Advanced__ ta
 | Column header's context menu option | Description |
 | --- | --- |
 | Size All Columns to Fit | Set the column size of each column to fit its content. |
-| <Attribute Name> | The names of the attributes currently displayed on the tab. Clear the check box for an attribute to remove it from the __Directory__ tab. |
+| `<Attribute Name>` | The names of the attributes currently displayed on the tab. Clear the check box for an attribute to remove it from the __Directory__ tab. |
 | __More__ | Select additional attributes to display on the tab. After adding attributes, re-launch the __Directory__ tab to refresh the list of the attributes displayed. |
 
 In addition to the column header display options, the __Directory__ tab also provides object display options that are available when you right-click an object. Options are:

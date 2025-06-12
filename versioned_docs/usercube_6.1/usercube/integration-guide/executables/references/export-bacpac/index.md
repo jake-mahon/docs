@@ -4,9 +4,9 @@ This tool exports the database to a bacpac file, as a backup.
 
 ## Examples
 
-The following example generates to <C:/UsercubeDemo> a bacpac file from the Usercube database with the given connection string and based on the bacpac template from the SQL folder.
+The following example generates to `<C:/UsercubeDemo>` a bacpac file from the Usercube database with the given connection string and based on the bacpac template from the SQL folder.
 
-Code attributes enclosed with <> need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 ./Usercube-Export-Bacpac.exe --database "<Usercube>" -s "<data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;>" --bacpac-path 0 --template-bacpac-path "<C:/UsercubeDemo/SQL>"  

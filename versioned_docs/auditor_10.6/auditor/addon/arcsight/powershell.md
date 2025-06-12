@@ -8,9 +8,9 @@ __Step 2 –__ Type a path to the add-on. Or simply drag and drop the add-on fil
 
 __Step 3 –__ Add script parameters. The console will look similar to the following:
 
-Windows PowerShell PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_HPE\_ArcSight.ps1 - ArcSightHost 172.28.6.24 -NetwrixAuditorHost 172.28.6.15
+Windows PowerShell PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_Add-on_for_HPE_ArcSight.ps1 - ArcSightHost 172.28.6.24 -NetwrixAuditorHost 172.28.6.15
 
-__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons\_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons\_").
+__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons_").
 
 __Step 4 –__ Hit __Enter__.
 

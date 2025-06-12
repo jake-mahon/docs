@@ -8,6 +8,6 @@ Below shows the recommended space that should be allocated for each Privilege Se
 
 | End points | Recommended SecureONE Node Size |
 | --- | --- |
-| <500 | 250 GB |
+| `<500` | 250 GB |
 | 500 - 5000 | 500 GB |
-| >5000 | 1 TB |
+| `>5000` | 1 TB |

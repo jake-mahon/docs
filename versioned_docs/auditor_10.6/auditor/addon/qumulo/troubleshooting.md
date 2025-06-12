@@ -1,6 +1,6 @@
 # Maintenance and Troubleshooting
 
-(Undefined variable: Add-on.Addon\_Qumulo) operations are logged into the __SyslogService.txt__ file. This file is located in the same folder as __SyslogService.exe.__
+(Undefined variable: Add-on.Addon_Qumulo) operations are logged into the __SyslogService.txt__ file. This file is located in the same folder as __SyslogService.exe.__
 
 To change the add-on logging level, use the __LogLevel__ parameter in the __settings.xml__ file.
 

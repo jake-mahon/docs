@@ -2,9 +2,9 @@
 
 ## Endpoint
 
-Write data to the Audit Database and to the Long-Term Archive. By default, all imported data is written to a special Netwrix\_Auditor\_API database and recognized as the Netwrix API data source. This data is not associated with any monitoring plan in the product. You can associate Activity Records with a plan, in this case data will be written to a database linked to this plan. Make sure the plan you specify is already created in Netwrix Auditor, the Netwrix API data source is added to the plan and enabled for monitoring.
+Write data to the Audit Database and to the Long-Term Archive. By default, all imported data is written to a special Netwrix_Auditor_API database and recognized as the Netwrix API data source. This data is not associated with any monitoring plan in the product. You can associate Activity Records with a plan, in this case data will be written to a database linked to this plan. Make sure the plan you specify is already created in Netwrix Auditor, the Netwrix API data source is added to the plan and enabled for monitoring.
 
-To feed data, send a POST request containing Activity Records. The user sending a request must be assigned the Contributor role in Netwrix Auditor. After feeding data to the Audit Database it will become available for search in the Netwrix Auditor client and through [/netwrix/api/v1/activity\_records/search](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) and [/netwrix/api/v1/activity\_records/enum](/versioned_docs/auditor_10.6/auditor/api/retrieveactivityrecords.md) endpoints.
+To feed data, send a POST request containing Activity Records. The user sending a request must be assigned the Contributor role in Netwrix Auditor. After feeding data to the Audit Database it will become available for search in the Netwrix Auditor client and through [/netwrix/api/v1/activity_records/search](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) and [/netwrix/api/v1/activity_records/enum](/versioned_docs/auditor_10.6/auditor/api/retrieveactivityrecords.md) endpoints.
 
 | Method | Endpoint | POST Data |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Date: Fri, 08 Apr 2017 13:56:22 GMT
 
 __Step 3 –__ Send more POST requests containing Activity Records if necessary.
 
-__Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity\_records/search](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
+__Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity_records/search](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
 
 [![apiactivity](/img/versioned_docs/auditor_10.6/auditor/api/apiactivity.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/apiactivity.png)
 

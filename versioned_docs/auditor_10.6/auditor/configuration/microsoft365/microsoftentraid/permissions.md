@@ -27,7 +27,7 @@ Permissions for ongoing data collection will depend on data you plan to collect:
 
 ### Grant Admin Consent to a Tenant
 
-Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _<tenant name>_.
+Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm, click __Yes__.
 
 __NOTE:__ For Microsoft 365 permissions, go to __Request API Permissions__ > __APIs my organization users__ and type "Microsoft 365" in the search bar.

@@ -1,6 +1,6 @@
 # Maintenance and Troubleshooting
 
-Splunk records service logs to the \_internal index. Follow the steps to troubleshoot data input from Netwrix Auditor API:
+Splunk records service logs to the _internal index. Follow the steps to troubleshoot data input from Netwrix Auditor API:
 
 __Step 1 –__ Navigate to the Search page of the add-on or Search & Reporting Splunk app.
 
@@ -22,6 +22,6 @@ __Step 4 –__ Press the search button; you should see list of the events with S
 
 When the add-on operates normally there should be no errors and the following types of events should appear regularly:
 
-- Regular events from _\*splunk\ta-netwrix-auditor-add-on-for-splunk\_netwrix\_auditor\_api\_input\_\*_ source with POST requests to the Netwrix Auditor API.
-- Regular events from _\*splunk\ta-netwrix-auditor-add-on-for-splunk\_netwrix\_auditor\_api\_input\_\*_ source with checkpoint update with new ContinuationMarks received from Netwrix Auditor API.
+- Regular events from _\*splunk\ta-netwrix-auditor-add-on-for-splunk_netwrix_auditor_api_input_\*_ source with POST requests to the Netwrix Auditor API.
+- Regular events from _\*splunk\ta-netwrix-auditor-add-on-for-splunk_netwrix_auditor_api_input_\*_ source with checkpoint update with new ContinuationMarks received from Netwrix Auditor API.
 - Events from _\*\splunk\metrics.log_ source with information about indexed volumes.

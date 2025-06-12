@@ -122,14 +122,14 @@ __NOTE:__ This view sort by top 10 values based on event count per "container\_n
 
 - Splunk – Send a test log to Splunk HTTP Event Collector (HEC). Change IP, port and token for Splunk HEC:
 
-  - curl -k "https://10.11.12.13:8088/services/collector" -H "Authorization: Splunk <token>" -d '{"event": "PrivilegeSecure Test Log"}'; echo
+  - curl -k "https://10.11.12.13:8088/services/collector" -H "Authorization: Splunk `<token>`" -d '\{"event": "PrivilegeSecure Test Log"\}'; echo
 
     - Alternate test with json formatting and verbose output:
 
-      - curl "https://10.100.11.13:8088/services/collector" -H "Authorization: Splunk <token>" -d '{"event": {"msg":"PrivilegeSecure Test Log"}}' -v
+      - curl "https://10.100.11.13:8088/services/collector" -H "Authorization: Splunk `<token>`" -d '\{"event": \{"msg":"PrivilegeSecure Test Log"\}\}' -v
 - Syslog – Send a test log to a syslog server. Change IP and port to match syslog server.
 
-  - echo '<14>source PrivilegeSecure: this is a syslog test' | nc -v -u -w 0 10.11.12.13 514
+  - echo '`<14>`source PrivilegeSecure: this is a syslog test' | nc -v -u -w 0 10.11.12.13 514
 - tcpdump – Example to verify logs flowing out, monitor traffic on port 514 for any adapter, ‘any’ can be change to a specific adapter:
 
   - sudo tcpdump -vv -i any port 514

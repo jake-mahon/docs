@@ -149,7 +149,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 
 ### Upgrading the Password Policy Server
 
-The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information. [ ](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installing_ppe.md#)
+The Password Policy Enforcer installer detects existing V9.x installations and upgrades them to V9.12. See the [Installation](#Installation) topic for additional information. If you are performing an automated installation with Group Policy, then add PPE912.msi to the same Group Policy Object used to install the older version. See the [Automated Installation (Advanced Setup)](#Automated-Installation-Advanced-Setup) topic for additional information.
 
 ### Upgrading the Password Policy Client
 

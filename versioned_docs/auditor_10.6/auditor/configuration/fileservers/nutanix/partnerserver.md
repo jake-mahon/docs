@@ -16,7 +16,7 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 2. In the __username__ and __password__ fields, enter the credentials of the [Create User Account to Access Nutanix REST API](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/useraccount.md) you have created.
 3. Click __Explore__.
-4. Locate the POST request for __partner\_servers__ endpoint:
+4. Locate the POST request for __partner_servers__ endpoint:
 
     ``` POST /partner_servers```
 
@@ -28,21 +28,21 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 "spec": {
 
-"name": "<NAME\_OF\_PARTNER\_SERVER>",
+"name": "<NAME_OF_PARTNER_SERVER>",
 
 "resources": {
 
-"usage\_type": "NOTIFICATION",
+"usage_type": "NOTIFICATION",
 
-"vendor\_name": "netwrix",
+"vendor_name": "netwrix",
 
-"server\_info": {
+"server_info": {
 
-"server\_type": "PRIMARY",
+"server_type": "PRIMARY",
 
 "address": {
 
-"ip": "<IP\_OF\_THE\_NETWRIX\_AUDITOR>",
+"ip": "<IP_OF_THE_NETWRIX_AUDITOR>",
 
 "port": 9898
 
@@ -54,11 +54,11 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 },
 
-"api\_version": "3.0",
+"api_version": "3.0",
 
 "metadata": {
 
-"kind": "partner\_server"
+"kind": "partner_server"
 
 }
 
@@ -66,9 +66,9 @@ If you select to launch the RestAPI Explorer from the Prism menu, the __RestAPI 
 
 here:
 
-_<NAME\_OF\_PARTNER\_SERVER>_ - enter the Netwrix Auditor server name
+_<NAME_OF_PARTNER_SERVER>_ - enter the Netwrix Auditor server name
 
-_<IP\_OF\_NETWRIX\_AUDITOR>_ - enter the Netwrix Auditor server IP address
+_<IP_OF_NETWRIX_AUDITOR>_ - enter the Netwrix Auditor server IP address
 
 This address must be visible from the Nutanix File Server network.
 
@@ -78,7 +78,7 @@ This address must be visible from the Nutanix File Server network.
 
     ```POST /partner_servers/list```
 
-The request body must be empty - for that, enter empty brackets as the __value__ for _get\_entities\_request_ parameter: ```{ }```
+The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ```{ }```
 
 [![api_partner_server_resquest](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api_partner_server_resquest.png)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/api_partner_server_resquest.png)
 

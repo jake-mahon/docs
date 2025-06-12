@@ -15,9 +15,9 @@ By default, the 'default-data-files' policy is applied to the SVM CIFS/SMB inter
 
    ---------- ----------------- ------------------
 
-   svm1 lif\_svm1\_126 default-data-files
+   svm1 lif_svm1_126 default-data-files
 
-   svm1 lif\_svm1\_349 default-data-files
+   svm1 lif_svm1_349 default-data-files
 
    Where ```svm1 ```– is the name of your SVM,
 
@@ -63,9 +63,9 @@ By default, the 'default-data-files' policy is applied to the SVM CIFS/SMB inter
    cluster1::\*> set -privilege admin
 8. Apply a new service-policy to the SVM LIFs. Run the following command:
 
-   cluster1::> network interface modify -vserver svm1 -lif lif\_svm1\_126 -service-policy netwrix-policy
+   cluster1::> network interface modify -vserver svm1 -lif lif_svm1_126 -service-policy netwrix-policy
 
-   cluster1::> network interface modify -vserver svm1 -lif lif\_svm1\_349 -service-policy netwrix-policy
+   cluster1::> network interface modify -vserver svm1 -lif lif_svm1_349 -service-policy netwrix-policy
 
    __NOTE:__ For better security, specify the allowed ip-addresses when adding the service. Double-check that your subnet is configured on the machine where Netwrix Auditor Server resides. Allowed-addresses are: 192.168.1.0/24.
 9. Check the current interface service-policy using command from the step 2:
@@ -78,6 +78,6 @@ By default, the 'default-data-files' policy is applied to the SVM CIFS/SMB inter
 
    ---------- ----------------- --------------
 
-   svm1 lif\_svm1\_126 netwrix-policy
+   svm1 lif_svm1_126 netwrix-policy
 
-   svm1 lif\_svm1\_349 netwrix-policy
+   svm1 lif_svm1_349 netwrix-policy

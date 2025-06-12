@@ -22,7 +22,7 @@ __Step 5 –__ Complete the Event Filters wizard. Complete the following fields:
   | --- | --- |
   | Name | Specify the filter name. |
   | Description | Enter the description for this filter (optional). |
-  | Event Log | Select an event log from the drop-down list. You will be alerted on events from this event log. You can also input a different event log.  To find out a log’s name, navigate to Start > Windows Administrative Tools > __Event Viewer__ > __Applications and Services Logs__ > Microsoft > Windows and expand the required Log\_Name node, right-click the file under it and select Properties. Find the event log’s name in the Full Name field.  Auditor does not collect the Analytic and Debug logs, so you cannot configure alerts for these logs.  You can use a wildcard (\*). In this case you will be alerted on events from all Windows logs except for the ones mentioned above. |
+  | Event Log | Select an event log from the drop-down list. You will be alerted on events from this event log. You can also input a different event log.  To find out a log’s name, navigate to Start > Windows Administrative Tools > __Event Viewer__ > __Applications and Services Logs__ > Microsoft > Windows and expand the required Log_Name node, right-click the file under it and select Properties. Find the event log’s name in the Full Name field.  Auditor does not collect the Analytic and Debug logs, so you cannot configure alerts for these logs.  You can use a wildcard (\*). In this case you will be alerted on events from all Windows logs except for the ones mentioned above. |
 - In the Event Fields tab:
 
   | Option | Description |

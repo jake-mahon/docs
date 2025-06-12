@@ -10,7 +10,7 @@ To configure a GroupID server with existing database:
    See point # 2 on the [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md) topic.
 2. Click __Next__.
 
-   ![database_settings](/img/versioned_docs/database_settings.jpg)
+   ![database settings](/img/versioned_docs/groupid_11.0/groupid/install/configure/databasesettings.jpg)
 3. In the __SQL Server__ list, select the SQL Server to use with this new GroupID Server. The SQL Server must be the same used with the master node of GroupID.
 
    If the required server does not appear in the list, make sure that __the SQL Server Browser__ service is running on the SQL Server machine and then click the __Refresh__ button.

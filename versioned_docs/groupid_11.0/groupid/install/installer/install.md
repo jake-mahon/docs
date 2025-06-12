@@ -8,7 +8,7 @@ C:\Program Files\Imanami\GroupID 11.0\
 
 To install GroupID:
 
-1. Run _GroupIDInstallTool.exe_ from the GroupID <_version #_> folder in the GroupID Installation package. It launches the Installation T ool.
+1. Run _GroupIDInstallTool.exe_ from the GroupID `<version #>` folder in the GroupID Installation package. It launches the Installation Tool.
 
    ![Welcome page](/img/versioned_docs/groupid_11.0/groupid/install/installer/introduction.jpg)
 2. Read the welcome message and click __Next__.

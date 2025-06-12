@@ -18,7 +18,7 @@ Below are the different displays of the same Worker service's JIT access granted
 
 Here's the command line "raw" event log for this JIT access granted event, directly from the Privilege Secure application.
 
-2022-08-02 19:08:54 +0000 docker.s1\_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb: {  
+2022-08-02 19:08:54 +0000 docker.s1\_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb: \{  
 "container\_id": "f7ca06d64ed806ab1b8ff2e2afaf4ff5ae99613fa6e33bb99fa6922224894bf8",  
 "container\_name": "/s1\_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb",  
 "source": "stderr",  
@@ -27,48 +27,48 @@ Here's the command line "raw" event log for this JIT access granted event, direc
 "levelname": "INFO",  
 "message": "WINCOMP-CH.cstest.test - Adding admin privileges: CSTEST\\chadmin",  
 "name": "remediant",  
-"queue": {  
+"queue": \{  
 "\_id": "62e9764602c5350045aaebd7",  
-"request": {  
+"request": \{  
 "status": "pending",  
 "type": "access"  
-},  
+\},  
 "requested\_by": "5e5623b8dea345d0a59e6af9",  
-"requested\_by\_info": {  
+"requested\_by\_info": \{  
 "distinguishedName": "CN=chadmin,CN=Users,DC=cstest,DC=test",  
 "domain\_fqdn": "cstest.test",  
 "domain\_netbios": "CSTEST",  
 "sAMAccountName": "chadmin"  
-}  
-},  
-"requestedByUser": {  
+\}  
+\},  
+"requestedByUser": \{  
 "\_id": "5e5623b8dea345d0a59e6af9",  
 "domain\_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
-},  
+\},  
 "service": "svc-worker",  
 "system": "Main",  
-"targetSystem": {  
+"targetSystem": \{  
 "\_id": "61171f0792416d1dd3a9eac7",  
 "cn": "WINCOMP-CH",  
 "distinguishedName": "CN=WINCOMP-CH,OU=Servers,DC=cstest,DC=test",  
 "domain\_netbios": "CSTEST",  
-"policy": {  
+"policy": \{  
 "manage\_local\_sids": true,  
 "scan": false,  
 "secure": true,  
 "strict\_secure": false  
-}  
-},  
-"targetUser": {  
+\}  
+\},  
+"targetUser": \{  
 "\_id": "5e5623b8dea345d0a59e6af9",  
 "domain\_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
-},  
+\},  
 "threadName": "Worker-23"  
-}
+\}
 
 Here's the same event log, from the command line in a screenshot for visual comparison.
 

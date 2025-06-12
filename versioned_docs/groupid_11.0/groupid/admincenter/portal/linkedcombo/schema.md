@@ -5,7 +5,7 @@ that defines its mapping with the underlying XML data. GroupID provides a list o
 
 Do the following:
 
-1. Map the __Type binding expression__ list to the first worksheet (0-<worksheet name>) of the source Excel workbook. The portal fields use the binding expression to obtain reference to the worksheet in the
+1. Map the __Type binding expression__ list to the first worksheet (0-`<worksheet name>`) of the source Excel workbook. The portal fields use the binding expression to obtain reference to the worksheet in the
    source file to retrieve and display data from.  
    Expressions in the __Type binding expression__ list are auto generated with respect to the number of sheets in the source Excel workbook and the number of columns in a sheet. It is as:
 

@@ -61,7 +61,7 @@ An instance of a mobile service is assigned an IIS application name to represent
   (X represents the GroupID installation drive).
 
 This name is also appended to the web server address to construct the URL that users click to launch the GroupIDMobileService page. For example:  
-https://web-server-name:port/IIS-application-name
+`https://<web-server-name>:<port>/<IIS-application-name>`
 
 When you change the IIS application name, it propagates to the instance’s IIS directory, physical directory, and launch URL.
 

@@ -21,7 +21,7 @@ __Step 4 –__ If you use a third-party firewall, you must create a rule for inb
 
 ## Configure Audit Database Settings
 
-When you first configure the Audit Database settings in Netwrix Auditor, the product also creates several databases for special purposes, including Netwrix\_Auditor\_API. This database is designed to store data imported from the other sources using Netwrix Auditor Integration API.
+When you first configure the Audit Database settings in Netwrix Auditor, the product also creates several databases for special purposes, including Netwrix_Auditor_API. This database is designed to store data imported from the other sources using Netwrix Auditor Integration API.
 
 Make sure that the Audit Database settings are configured in Netwrix Auditor. To check or configure these settings, navigate to the __Settings > Audit Database__.
 

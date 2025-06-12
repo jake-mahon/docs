@@ -28,7 +28,7 @@ On a high level, the solution works as follows:
 3. Then the administrator opens the settings.xml configuration file and specifies the necessary parameters for add-on operation, including Qumulo Cluster as the source of Syslog messages, Auditor settings, etc. The add-on will operate as a Syslog listener for the Qumulo Cluster.
 4. The add-on starts collecting and forwarding activity data: it listens to the specified TCP port and captures the designated Syslog messages. Data communication is performed using the TCP version of Syslog protocol.
 5. The add-on processes these Syslog messages into Auditor-compatible format (Activity Records). Each Activity Record contains the "Who-What-When-Where-Action" information (that is, initiator's account, time, action, and other details).
-6. Using the Integration API, the add-on sends the activity records to Auditor Server that writes them to the __Netwrix\_Auditor\_API__ database (SQL server database) and file-based Long-Term Archive. Data is sent periodically, by default every 5 seconds. For more information on the Activity Record structure and capabilities of the Integration API, refer to the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic.
+6. Using the Integration API, the add-on sends the activity records to Auditor Server that writes them to the __Netwrix_Auditor_API__ database (SQL server database) and file-based Long-Term Archive. Data is sent periodically, by default every 5 seconds. For more information on the Activity Record structure and capabilities of the Integration API, refer to the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic.
 7. Users open Auditor Client to work with collected data:
    - Search for file changes using certain criteria
    - Export data to PDF or CSV files
@@ -55,7 +55,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | Where | Prerequisite to check |
 | --- | --- |
-| The Auditor Server side | - Auditor version is 9.96 or higher.  - Integration API settings and __Netwrix\_Auditor\_API__ database are configured properly. See [Configure Integration API](https://helpcenter.netwrix.com/API/API_Configuration.html) and [Audit Database](https://helpcenter.netwrix.com/Settings/Audit_Database_settings/Default_Audit_Database_Settings.html).  - The __TCP 9699__ port must be open on Windows firewall for inbound connections.  - User account under which data will be written to __Netwrix\_Auditor\_API__ database requires the _Contributor_ role in Netwrix Auditor. See [Role-Based Access and Delegation](https://helpcenter.netwrix.com/Roles/Role_Based_Access.html).  Alternatively, you can grant it the __Global administrator__ role, or add that account to the _Netwrix Auditor Administrators_ group. |
+| The Auditor Server side | - Auditor version is 9.96 or higher.  - Integration API settings and __Netwrix_Auditor_API__ database are configured properly. See [Configure Integration API](https://helpcenter.netwrix.com/API/API_Configuration.html) and [Audit Database](https://helpcenter.netwrix.com/Settings/Audit_Database_settings/Default_Audit_Database_Settings.html).  - The __TCP 9699__ port must be open on Windows firewall for inbound connections.  - User account under which data will be written to __Netwrix_Auditor_API__ database requires the _Contributor_ role in Netwrix Auditor. See [Role-Based Access and Delegation](https://helpcenter.netwrix.com/Roles/Role_Based_Access.html).  Alternatively, you can grant it the __Global administrator__ role, or add that account to the _Netwrix Auditor Administrators_ group. |
 | The machine where the add-on will be installed | - The __TCP 9905__ port must be open on Windows firewall for inbound connections.  - .NET Framework 4.5 or later must be installed. |
 | Qumulo Cluster | Qumulo core version 3.0.5. |
 
@@ -72,4 +72,4 @@ It is recommended to create a dedicated account for running __install.cmd__ and 
 
 ## Compatibility Notice
 
-(Undefined variable: Add-on.Addon\_Qumulo) is compatible with Qumulo core 3.0.5 and with Netwrix Auditor 9.96 and later.
+(Undefined variable: Add-on.Addon_Qumulo) is compatible with Qumulo core 3.0.5 and with Netwrix Auditor 9.96 and later.
