@@ -7,7 +7,6 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: static-docs-site
-  AZURE_WEBAPP_PACKAGE_PATH: '.'
   NODE_VERSION: '20.x'
 
 jobs:
@@ -23,15 +22,58 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'npm'
     
+    # Cache Docusaurus build artifacts
+    - name: Cache Docusaurus build folder
+      uses: actions/cache@v4
+      with:
+        path: |
+          .docusaurus
+          node_modules/.cache
+        key: ${{ runner.os }}-docusaurus-${{ hashFiles('docs/**/*.md', 'docs/**/*.mdx', 'sidebars/**/*.js', 'docusaurus.config.js', 'package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-docusaurus-
+    
+    # Cache build output for unchanged content
+    - name: Cache build output
+      uses: actions/cache@v4
+      with:
+        path: build
+        key: ${{ runner.os }}-build-${{ hashFiles('docs/**', 'sidebars/**', 'src/**', 'static/**', 'docusaurus.config.js', 'package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-
+    
     - name: Install dependencies
       run: npm ci
     
     - name: Build application
-      run: npm run build
+      run: |
+        echo "Building Docusaurus site..."
+        echo "Docusaurus will use cached artifacts when possible to speed up the build."
+        npm run build
+        echo "Build completed!"
+    
+    - name: Prepare deployment package
+      run: |
+        # Create a minimal package.json for production
+        echo '{
+          "name": "docs-static",
+          "version": "1.0.0",
+          "private": true,
+          "dependencies": {
+            "serve": "^14.2.0"
+          }
+        }' > build/package.json
+        
+        # Create deployment archive
+        cd build
+        zip -r ../deploy.zip .
     
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} 
+        package: deploy.zip 
+
+# This is already configured and stays between deployments:
+# startup-file: "npx serve build -p 8080" 

@@ -1,7 +1,7 @@
 ---
 description: 
 globs: 
-alwaysApply: true
+alwaysApply: false
 ---
 When asked to remediate mdx compliation issues, reference all of these docs before responding:
 [extending-mdx.mdx](mdc:reference-docs/mdx/extending-mdx.mdx)
