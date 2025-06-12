@@ -7,6 +7,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: static-docs-site
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
   NODE_VERSION: '20.x'
 
 jobs:
@@ -22,57 +23,15 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'npm'
     
-    # Cache Docusaurus build artifacts
-    - name: Cache Docusaurus build folder
-      uses: actions/cache@v4
-      with:
-        path: |
-          .docusaurus
-          node_modules/.cache
-        key: ${{ runner.os }}-docusaurus-${{ hashFiles('docs/**/*.md', 'docs/**/*.mdx', 'sidebars/**/*.js', 'docusaurus.config.js', 'package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-docusaurus-
-    
-    # Cache build output for unchanged content
-    - name: Restore build cache
-      id: cache-build-restore
-      uses: actions/cache/restore@v4
-      with:
-        path: build
-        key: ${{ runner.os }}-build-${{ hashFiles('docs/**', 'sidebars/**', 'src/**', 'static/**', 'docusaurus.config.js', 'package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-build-
-    
     - name: Install dependencies
       run: npm ci
     
     - name: Build application
-      if: steps.cache-build-restore.outputs.cache-hit != 'true'
-      run: |
-        echo "No build cache found, running full build..."
-        npm run build
-        echo "Build completed!"
-    
-    - name: Skip build (using cache)
-      if: steps.cache-build-restore.outputs.cache-hit == 'true'
-      run: |
-        echo "Build cache found! Skipping build step."
-        echo "Using cached build output from previous run."
-    
-    # Save the build output before modifying it
-    - name: Save build cache
-      if: steps.cache-build-restore.outputs.cache-hit != 'true'
-      uses: actions/cache/save@v4
-      with:
-        path: build
-        key: ${{ runner.os }}-build-${{ hashFiles('docs/**', 'sidebars/**', 'src/**', 'static/**', 'docusaurus.config.js', 'package-lock.json') }}
+      run: npm run build
     
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ./build
-
-# Azure App Service will run "npm start" which executes "serve . -l 8080"
-# This serves files from the current directory (where the build contents are extracted) 
+        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} 
