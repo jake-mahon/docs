@@ -12,7 +12,12 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "mdx-errors": "node mdx-error-reporter.js"
+    "mdx-errors": "node mdx-error-reporter.js",
+    "typecheck": "tsc",
+    "build:product": "node build-product.js",
+    "build:activitymonitor": "node build-product.js activitymonitor",
+    "build:auditor": "node build-product.js auditor",
+    "build:policypak": "node build-product.js policypak"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
