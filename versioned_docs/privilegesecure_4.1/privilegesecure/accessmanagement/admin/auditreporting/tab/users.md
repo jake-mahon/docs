@@ -50,9 +50,11 @@ __Step 6 –__ (Optional) Click a row in the Users & Groups to Add table to move
 
 __CAUTION:__ It is not possible to add or remove users after they have been added to the access certification task.
 
-__Step 7 –__ Click Add to add the user(s) and group(s) to the access certification task.
+__Step 7 –__ Click Add to add the selected user(s) or group(s).
 
-The new user(s) and group(s) are added to the certification task and are shown on the [Users Tab for Access Certification](#users-tab-for-access-certification).
+The new user(s) and group(s) are added to the certification task and are shown on the [Users Tab for Access Certification](users.md).
+
+__Step 8 –__ Click Close to return to the Access Certification page.
 
 __NOTE:__ Only the assigned reviewer can interact with the entitlements once the access certification task is created.
 

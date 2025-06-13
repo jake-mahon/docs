@@ -35,7 +35,7 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 The details page has the following tabs:
 
 - [Users Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.md)
-- [Groups Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.md#groups-tab-for-domain)
+- [Groups Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.md)
 - [Computers Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.md)
 - [History Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historydomain.md)
 - [Sync Errors Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.md)

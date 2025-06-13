@@ -23,6 +23,8 @@ __Step 3 –__ Enter the desired information to configure a new connection profi
 
 __Step 4 –__ Click Save to create the new connection profile.
 
-__Step 5 –__ The new connection profile is created. To add an Approval Workflow, see the [Add Approval Workflow](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md#add-approval-workflow) topic for additional information.
+__Step 5 –__ The new connection profile is created. __NOTE:__ To configure a Request Approval workflow, click the Configure Approval Workflow button in the left sidebar. See the [Add Approval Workflow](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md) topic for additional information.
+
+__Step 6 –__ Click __Create__ to save the new connection profile.
 
 The new connection profile is added to the Connection Profiles list.

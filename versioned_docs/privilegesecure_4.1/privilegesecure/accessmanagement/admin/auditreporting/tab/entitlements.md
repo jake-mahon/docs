@@ -9,13 +9,13 @@ The Entitlements table has the following features:
 - Search – Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Column headers can be resized and sorted by ascending or descending order:
 
-  - Status – Shows status information on the user’s access:
+  - Status – Shows status information on the user's access:
 
     - Requested – Review of access initiated
     - Approved – Existing access is approved
     - Denied – Access is removed for that specific user/resource/permission
 
-      __NOTE:__ The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that attribute so that it can be re-enabled in the future.
+      __NOTE:__ The user is not removed from the access policy. Instead, a 'deny flag' is set against that attribute so that it can be re-enabled in the future.
   - User Name – Displays the name of the account
   - Resource – Name of the resource
   - Activity – The name of the credential permitted to be released by the access policy
@@ -45,13 +45,13 @@ The Review Activity Details window has the following features:
 - Column headers can be sorted in ascending or descending order:
 
   - Checkbox – Check to select activities to modify
-  - Status – Shows status information on the user’s access:
+  - Status – Shows status information on the user's access:
 
     - Requested – Review of access initiated
     - Approved – Existing access is approved
     - Denied – Access is removed for that specific user/resource/permission
 
-      __NOTE:__ The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that attribute so that it can be re-enabled in the future.
+      __NOTE:__ The user is not removed from the access policy. Instead, a 'deny flag' is set against that attribute so that it can be re-enabled in the future.
   - Name – Displays the name of the account
   - Resource – Name of the resource
   - Activity – Displays the name of the activity
@@ -65,9 +65,9 @@ __Step 4 –__ To approve access, select the applicable row(s) and click Approve
 
 __Step 5 –__ To remove access, select the applicable row(s) and click Deny.
 
-__NOTE:__ The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that attribute so that it can be re-enabled in the future.
+__NOTE:__ The user is not removed from the access policy. Instead, a 'deny flag' is set against that attribute so that it can be re-enabled in the future.
 
-__Step 6 –__ When the entitlements have been reviewed, click Close. Changes are saved to the selected access certification task and shown on the [Entitlements Tab for Access Certification](#entitlements-tab-for-access-certification).
+__Step 6 –__ When the entitlements have been reviewed, click Close. Changes are saved to the selected access certification task and shown on the [Entitlements Tab for Access Certification](entitlements.md).
 
 __NOTE:__ It is not necessary to review all entitlements at once. Changes are automatically saved to the selected access certification task and can be returned to at any time (the Status will show as Incomplete).
 

@@ -16,7 +16,7 @@ The table has the following columns:
 - Requested By — User who requested the session. Click the link to view additional details. See the [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 - Login Account — Displays the account used to log onto the resource
 - Activity — Displays the name of the activity. Click the link to view additional details. See the [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
-- Start — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Start — Indicates when the activity started. This refers to when the activity's actions were executed and not when the user was logged on to the resource.
 - End — Indicates when the session is scheduled to end the activity, which is determined by the start time plus the maximum session duration set by the access policy Connection Profile
 - Status — Shows status information for the session:
 
@@ -28,6 +28,6 @@ The table has the following columns:
   - Completed — Activity either reached the end of its scheduled end time or was canceled early by the requestor
   - Canceled — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
   - Failed — Pre-Session stage of the Activity has encountered an error
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#lock-session) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

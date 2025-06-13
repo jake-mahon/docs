@@ -23,13 +23,16 @@ The table has the following columns:
   - Failed — Pre-Session stage of the Activity has encountered an error
   - Logged In — User is successfully logged in to the Resource either directly or via the Proxy. Direct log-in is detected by polling the Resource at regular intervals and may not update immediately.
   - Canceling — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#lock-session) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 - Requested — Date and time of when the session was created
 - Requested By — User who requested the session
-- Host — Resource that the user will run the activity on
-- Login Account — Displays the account used to log onto the resource
+- Host — Displays the name of the host the credentials are on
+- Login Account — Displays the account used to log on to the resource
+- Access Policy — Displays the name of the policy
 - Activity — Displays the name of the activity. Click the link to view additional details. See the [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
-- Start — Indicates when the activity starts. This refers to when the activity’s actions will be executed and not when the user logs on to the resource.
+- Start — Indicates when the activity is scheduled to start
 - End — Indicates when the session is scheduled to end the activity, which is determined by the start time plus the maximum session duration set by the access policy Connection Profile
+
+__NOTE:__ Sessions can be locked. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

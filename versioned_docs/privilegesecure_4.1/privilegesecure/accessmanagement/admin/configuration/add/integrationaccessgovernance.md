@@ -5,11 +5,11 @@ Netwrix Enterprise Auditor can be configured to send administrator information t
 - .Active Directory Inventory Job Group
 - Windows > Privileged Accounts > Local Administrators Job Group
 
-See the [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor) for additional information.
+See the [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor) for additional information.
 
 ## Configure the Access Role
 
-Follow the steps to configure the access role in StealthAUDIT. See the Access Role section of the Web Service REST API for Applications Access Data Remotely topic of the [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor) for additional information.
+Follow the steps to configure the access role in StealthAUDIT. See the Access Role section of the Web Service REST API for Applications Access Data Remotely topic of the [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor) for additional information.
 
 __Step 1 –__ In Enterprise Auditor, navigate to the Access Node and click the Add Access link in the upper-right corner of the Access view. The Access Role wizard opens.
 
@@ -36,7 +36,7 @@ __Step 6 –__ Review tables and views and click Next.
 
 __Step 7 –__ On the Application Details page, define the name of the application and generate the app token:
 
-- Application name – Enter “Privilege Secure”
+- Application name – Enter "Privilege Secure"
 - Access Expiration – Set the desired expiration for the client secret:
 
   - Access expires within – Select a timeframe from the drop-down list. The default is 72 hours.
@@ -117,4 +117,10 @@ __Step 2 –__ In the Integration Connector list, select the previously created 
 
 __Step 3 –__ Click __Sync__ __StealthAUDIT__ to begin the data collection. This may take some time.
 
-To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md#action-service) topic for additional information.
+To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.
+
+__NOTE:__ The Use Secure Tunnel feature is enabled by default on all proxy services when installed and the proxy service is selected by default.
+
+Refer to the [Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.
+
+__Step 12 –__ Click Create when the connection tests successfully.

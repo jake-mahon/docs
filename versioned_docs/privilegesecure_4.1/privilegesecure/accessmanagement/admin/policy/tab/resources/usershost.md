@@ -13,7 +13,7 @@ The Users tab has the following features:
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available when the Method is Automatic managed.
 - Verify — Checks that the credentials for the selected account match the credentials set by Privilege Secure
 - View History — Opens the Password History window to displays the password history for the account
-- Password Reset Options — Customize password rotation options. This option is only available for managed accounts. See [Password Reset Options Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.md#password-reset-options-window) topic for additional information.
+- Password Reset Options — Customize password rotation options. This option is only available for managed accounts. See [Password Reset Options Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.md) topic for additional information.
 - Refresh — Reload the information displayed
 
 The table has the following columns:
