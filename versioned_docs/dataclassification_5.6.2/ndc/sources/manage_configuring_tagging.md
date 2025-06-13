@@ -16,11 +16,11 @@ To configure tagging using the wizard
 
 1. Click on the app to start the __SharePoint Tagging wizard__.
 
-[![sharepoint_tagging_wizard_1_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint_tagging_wizard_1_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/sharepoint_tagging_wizard_1.png)
+![sharepoint_tagging_wizard_1_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint_tagging_wizard_1_thumb_0_0.png)
 
 2. Configure the Term Sets that you wish to auto-classify. For that, click the __Add__ button and then select the required Term Sets or fields:
 
-   [![sharepoint_tagging_wizard_2_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint_tagging_wizard_2_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/sharepoint_tagging_wizard_2.png)
+   ![sharepoint_tagging_wizard_2_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint_tagging_wizard_2_thumb_0_0.png)
 3. If needed, select the specific site/list columns you wish to restrict auto-classification to.
 4. Confirm the selection.
 5. Finally, having configured the desired tagging, you should re-classify the appropriate content — for the tags to be written back to SharePoint.

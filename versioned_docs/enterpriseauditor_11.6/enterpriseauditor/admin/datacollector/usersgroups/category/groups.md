@@ -9,8 +9,8 @@ In the Groups section, select from the following options:
 - All groups
 - All global groups
 - All local groups
-- All groups containing the following users – Click the ellipsis (__…__) to open the Find a User browser screen and select users. See the [Find a Group/User Browser](#Find-a-GroupUser-Browser) topic for additional information.
-- These groups – Click the ellipsis (__…__) to open the Find a Group browser window and select groups. See the [Find a Group/User Browser](#Find-a-GroupUser-Browser) topic for additional information.
+- All groups containing the following users – Click the ellipsis (__…__) to open the Find a User browser screen and select users. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information.
+- These groups – Click the ellipsis (__…__) to open the Find a Group browser window and select groups. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information.
 
 In the Additional Properties section, select the __What rights does this group have?__ checkbox to return rights for the selected groups.
 

@@ -58,12 +58,12 @@ The ExchangePS Data Collector contains the following query categories, sub-divid
 
 Each category has specific requirements and capabilities per auditing focus:
 
-- [Mailbox Information](#Mailbox-Information)
-- [Exchange Organization](#Exchange-Organization)
-- [Exchange ActiveSync](#Exchange-ActiveSync)
-- [Public Folder Information](#Public-Folder-Information)
-- [Office 365](#Office-365)
-- [Domain Information](#Domain-Information)
+- [Mailbox Information](#mailbox-information)
+- [Exchange Organization](#exchange-organization)
+- [Exchange ActiveSync](#exchange-activesync)
+- [Public Folder Information](#public-folder-information)
+- [Office 365](#office-365)
+- [Domain Information](#domain-information)
 
 ### Mailbox Information
 

@@ -9,15 +9,15 @@ LDAP, as well as individual identity stores.
 
 The dashboard displays the following information:
 
-- [Basic Information](#Basic-Information)
-- [Elasticsearch Service](#Elasticsearch-Service)
-- [Objects Modified in Last 24 Hours](#Objects-Modified-in-Last-24-Hours)
-- [Failed Notifications](#Failed-Notifications)
-- [Upcoming Schedules](#Upcoming-Schedules)
-- [Replication Status of Identity Stores](#Replication-Status-of-Identity-Stores)
-- [Enrollment Summary](#Enrollment-Summary)
-- [Auth Summary](#Auth-Summary)
-- [Activity Summary](#Activity-Summary)
+- [Basic Information](#basic-information)
+- [Elasticsearch Service](#elasticsearch-service)
+- [Objects Modified in Last 24 Hours](#objects-modified-in-last-24-hours)
+- [Failed Notifications](#failed-notifications)
+- [Upcoming Schedules](#upcoming-schedules)
+- [Replication Status of Identity Stores](#replication-status-of-identity-stores)
+- [Enrollment Summary](#enrollment-summary)
+- [Auth Summary](#auth-summary)
+- [Activity Summary](#activity-summary)
 
 ## Basic Information
 
@@ -79,7 +79,7 @@ This card employs a bar graph to display the enrollment stats and trends for an 
 Consider the following:
 
 - You can view enrollment data for an identity store individually or view aggregated data for all identity stores in GroupID. Select an identity store from the list next to the card name to view the enrollment data for it or select _All Identity Stores_ to view the data for all identity stores.
-- Hover the mouse over a bar to view the number of users enrolled with the specific authentication type. Click a bar to launch the __Helpdesk__ page, that displays a list of users enrolled with that authentication type. See the [View Users' Information](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md#View-Users-Information) topic for details on the information displayed for a user. (Notice that the __Filter(s)__ dialog box displays the selected authentication type in the __Enrolled With__ box.)
+- Hover the mouse over a bar to view the number of users enrolled with the specific authentication type. Click a bar to launch the __Helpdesk__ page, that displays a list of users enrolled with that authentication type. See the [View Users' Information](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md#view-users-information) topic for details on the information displayed for a user. (Notice that the __Filter(s)__ dialog box displays the selected authentication type in the __Enrolled With__ box.)
 - By default, data is displayed for the last one month. You can view enrollment data for any specific period. Click the tile showing the time period to launch the calendar. Use it to specify a date range to view the data.
 
 ## Auth Summary

@@ -8,16 +8,16 @@ __Choose the set(s) of instructions that correspond to your installation type:__
 
 For SaaS environments, choose:
 
-- [Upgrade Agent Only](#Upgrade-Agent-Only)
+- [Upgrade Agent Only](#upgrade-agent-only)
 
 For On Premises integrated environments, choose :
 
-- [Upgrade Server and Integrated Agent](#Upgrade-Server-and-Integrated-Agent)
+- [Upgrade Server and Integrated Agent](#upgrade-server-and-integrated-agent)
 
 For On Premises separated/remote environments, the server should be upgraded before the agent. Use the following instructions:
 
-- [Upgrade Server Only](#Upgrade-Server-Only)
-- [Upgrade Agent Only](#Upgrade-Agent-Only)
+- [Upgrade Server Only](#upgrade-server-only)
+- [Upgrade Agent Only](#upgrade-agent-only)
 
 ## Upgrade Server and Integrated Agent
 
@@ -48,7 +48,7 @@ For On Premises separated/remote environments, the server should be upgraded bef
       > ./Usercube-Upgrade-DatabaseVersion.exe --connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
       >
       > ```
-5. Recompute all property expressions and correlation keys by using the [```Update-EntityPropertyExpressions```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions) and [```Compute-CorrelationKeys```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys) executables from the ```Runtime``` folder.
+5. Recompute all property expressions and correlation keys by using the [```Update-EntityPropertyExpressions```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md) and [```Compute-CorrelationKeys```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md) executables from the ```Runtime``` folder.
 
    > For example:
    >
@@ -105,7 +105,7 @@ For On Premises separated/remote environments, the server should be upgraded bef
       > ./Usercube-Upgrade-DatabaseVersion.exe --connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
       >
       > ```
-5. Recompute all property expressions and correlation keys by using the [```Update-EntityPropertyExpressions```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions) and [```Compute-CorrelationKeys```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys) executables from the ```Runtime``` folder.
+5. Recompute all property expressions and correlation keys by using the [```Update-EntityPropertyExpressions```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md) and [```Compute-CorrelationKeys```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md) executables from the ```Runtime``` folder.
 
    > For example:
    >

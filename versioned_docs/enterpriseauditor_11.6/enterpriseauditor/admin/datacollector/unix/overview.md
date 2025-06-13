@@ -15,7 +15,7 @@ Permissions
 
 - Root permissions in Unix/Linux
 
-If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/unix.md#Least-Privilege-Model) topic additional information.
+If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/unix.md#least-privilege-model) topic additional information.
 
 ## Unix Query Configuration
 

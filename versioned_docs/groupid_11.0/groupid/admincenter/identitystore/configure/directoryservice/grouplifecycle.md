@@ -16,17 +16,17 @@ The Group Life Cycle schedule defined for the identity store is responsible for 
 groups. This schedule runs on containers you specify as its targets, to process the groups that reside therein. Groups that reside outside of the target containers will not be processed by the schedule; hence, the group life cycle policy is not applied to
 them. See the [Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md) topic.
 
-NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the [Group Expiration Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#Group-Expiration-Policy) section in the [Microsoft Entra ID vs. Active Directory Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md) topic.
+NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the [Group Expiration Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#group-expiration-policy) section in the [Microsoft Entra ID vs. Active Directory Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md) topic.
 
 What do you want to do?
 
-- [Set a Default Expiry Policy for Groups](#Set-a-Default-Expiry-Policy-for-Groups)
-- [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers)
-- [Exempt Security Groups from Expiry](#Exempt-Security-Groups-from-Expiry)
-- [Auto Delete Expired Groups](#Auto-Delete-Expired-Groups)
-- [Enable Group Usage Lifecycle](#Enable-Group-Usage-Lifecycle)
-- [Enable Group Attestation](#Enable-Group-Attestation)
-- [Set Group Expiry Notifications](#Set-Group-Expiry-Notifications)
+- [Set a Default Expiry Policy for Groups](#set-a-default-expiry-policy-for-groups)
+- [Apply Policy on Specific Containers](#apply-policy-on-specific-containers)
+- [Exempt Security Groups from Expiry](#exempt-security-groups-from-expiry)
+- [Auto Delete Expired Groups](#auto-delete-expired-groups)
+- [Enable Group Usage Lifecycle](#enable-group-usage-lifecycle)
+- [Enable Group Attestation](#enable-group-attestation)
+- [Set Group Expiry Notifications](#set-group-expiry-notifications)
 
 ## Set a Default Expiry Policy for Groups
 
@@ -90,7 +90,7 @@ __The security group expiration paradox__
 A security group may grant or restrict access to network resources to its members. Enabling security group expiry may pose a problem; the members of an expired security group will get undesired access to network resources, or will be denied access
 to resources that were assigned to it.
 
-To manage this, make sure your critical security groups reside in the OU that the expiry policy does not apply to. Use the __Do not apply policy on following containers__ option to set the OU aside (see the [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers) topic).
+To manage this, make sure your critical security groups reside in the OU that the expiry policy does not apply to. Use the __Do not apply policy on following containers__ option to set the OU aside (see the [Apply Policy on Specific Containers](#apply-policy-on-specific-containers) topic).
 In this way, those groups will not expire even if you enable the expiry of security groups.
 
 __To enable security group expiry:__
@@ -140,7 +140,7 @@ __To enable group usage lifecycle:__
      in the last x number of days.
 
      By default, this setting works for groups that are idle for 60 days since their creation, last renewal, or last usage. You can change the number of days anywhere from 1 to 360. The Group Life Cycle schedule will reduce the life of such
-     groups to 7 days and send an email notification to the group owner or the default approver (for groups without owners), informing them of the approaching expiry. See the [Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#Specify-a-Default-Approver) topic.
+     groups to 7 days and send an email notification to the group owner or the default approver (for groups without owners), informing them of the approaching expiry. See the [Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver) topic.
 6. Click __Save__.
 
 ## Enable Group Attestation
@@ -149,8 +149,8 @@ You can enforce group owners to review and validate the attributes and membershi
 
 - Group attestation does not apply to groups that have ‘Never Expire’ as their expiry policy.
 - The Membership Life Cycle schedule must be defined for the identity store.
-- Group attestation does not apply to excluded containers. See the [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers) topic.
-- With group attestation enabled, the Group Usage Lifecycle settings cannot be applied. If those settings are already defined, they get disabled when you enable group attestation. See the the [Enable Group Usage Lifecycle](#Enable-Group-Usage-Lifecycle) topic.
+- Group attestation does not apply to excluded containers. See the [Apply Policy on Specific Containers](#apply-policy-on-specific-containers) topic.
+- With group attestation enabled, the Group Usage Lifecycle settings cannot be applied. If those settings are already defined, they get disabled when you enable group attestation. See the the [Enable Group Usage Lifecycle](#enable-group-usage-lifecycle) topic.
 - For attestation, group owners must use the GroupID portal.
 - In the default portal template, a few fields (attributes) for group attestation are specified. You can add and remove fields to include those that you want group owners to validate and update.
 - In case of a Dynasty, parent and child Dynasties have to be attested individually. Child Dynasties include both middle and leaf Dynasties. However, child Dynasties cannot be renewed after attestation, as they are renewed with their respective

@@ -13,7 +13,7 @@ Usually, using one of these workflows means:
 1. filling a form containing the new user's information, such as their name, first name, contract type, job title, etc;
 2. if needed, sending the request of user creation for review by a knowledgeable user.
 
-[See how to create a new worker in Usercube](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md#See-how-to-create-a-new-worker-in-Usercube).
+[See how to create a new worker in Usercube](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md#see-how-to-create-a-new-worker-in-usercube).
 
 ### User Creation Review
 
@@ -35,7 +35,7 @@ User creation often benefits from a homonym detection that checks if the resourc
 
 Usercube provides a homonym detection, whose parameters can be adjusted.
 
-[See more information about homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#See-more-information-about-homonym-detection).
+[See more information about homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#see-more-information-about-homonym-detection).
 
 ## Participants and Artifacts
 

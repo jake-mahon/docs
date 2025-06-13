@@ -15,9 +15,9 @@ The Privilege Secure Advanced API:
 
 - is not case sensitive
 
-  - this breaks booleans ex. ```?policy.scan=false``` since regex is truthy it matches ```{'policy.scan': true}```
+  - this breaks booleans ex. ```?policy.scan=false``` since regex is truthy it matches ``{'policy.scan': true}``
   - doesn’t work for date or number fields
-  - regex chars are allowed, ex. ```?cn=vm.*p2``` → ```{'cn': /^vm.*p2/i}```
+  - regex chars are allowed, ex. ```?cn=vm.*p2``` → ``{'cn': /^vm.*p2/i}``
   - regex causes a big performance hit, if a complex regex is used
 - pagination and sorting support
 - no field selection support
@@ -43,7 +43,7 @@ The Privilege Secure Advanced API:
   - ```X-Pagination-Total``` - Total number of records available
 - _Remember,_ the links header is not included.
 - use ```inlinePageInfo``` to include page info in response body ex. ```?limit=20&inlinePageInfo```
-- ```{ limit: 20, page: 1, pages: 2, total: 25, docs: [...] }```
+- ``{ limit: 20, page: 1, pages: 2, total: 25, docs: [...] }``
 
 ## Sorting
 
@@ -67,8 +67,8 @@ __NOTE:__ Select could be enhanced, relatively easily, to allow for dropping fie
 
 | operation | query string | query object |
 | --- | --- | --- |
-| equal | ```?foo=bar``` | ```{foo: 'bar'}``` |
-| equal | ```?foo=bar baz``` | ```{foo: 'bar baz' }``` |
+| equal | ```?foo=bar``` | ``{foo: 'bar'}`` |
+| equal | ```?foo=bar baz``` | ``{foo: 'bar baz' }`` |
 | unequal | ```?foo=!bar``` | ```{foo: { $ne: 'bar' } }``` |
 | exists | ```?foo=``` | ```{ foo: { $exists: true }}``` |
 | not exists | ```?foo=!``` | ```{ foo: { $exists: false }}``` |
@@ -76,9 +76,9 @@ __NOTE:__ Select could be enhanced, relatively easily, to allow for dropping fie
 | gte | ```?foo=>=10``` | ```{ foo: { $gte: 10 }}``` |
 | lt | ```?foo=<10``` | ```{ foo: { $lt: 10 }}``` |
 | lte | ```?foo=<=10``` | ```{ foo: { $lte: 10 }}``` |
-| starts with | ```?foo=^bar``` | ```{foo: /^bar/i }``` |
-| ends with | ```?foo=$bar``` | ```{foo: /bar$/i }``` |
-| contains | ```?foo=~bar``` | ```{foo: /bar/i }``` |
+| starts with | ```?foo=^bar``` | ``{foo: /^bar/i }`` |
+| ends with | ```?foo=$bar``` | ``{foo: /bar$/i }`` |
+| contains | ```?foo=~bar``` | ``{foo: /bar/i }`` |
 | in array | ```?foo[]=bar&foo[]=baz``` | ```{ foo: { $in: ['bar', 'baz'] }}``` |
 | not in array | ```?foo[]=!bar&foo[]=!baz``` | ```{ foo: { $nin: ['bar', 'baz'] }}``` |
 
@@ -86,13 +86,13 @@ __NOTE:__ Select could be enhanced, relatively easily, to allow for dropping fie
 
 - string integers/floats are parsed as Numbers (for fields of type Number)
 - equal, unequal, gt, gte, lt, lte operations supported
-- ex. ```?foo=12.3``` -> ```{foo: 12.3}```
+- ex. ```?foo=12.3``` -> ``{foo: 12.3}``
 
 ### Booleans
 
 - String booleans are parsed as Booleans (for fields of type Boolean)
-- ex. ```?foo=true``` -> ```{foo: true}```
-- ex. ```?foo=false``` -> ```{foo: false }```
+- ex. ```?foo=true``` -> ``{foo: true}``
+- ex. ```?foo=false``` -> ``{foo: false }``
 - ex. ```?foo=!true``` -> ```{foo: {$ne: true} }``` (useful if value is optional)
 
 ### Dates

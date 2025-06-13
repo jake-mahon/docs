@@ -10,7 +10,7 @@ __Step 1 –__ Navigate to the Search page of the add-on or Search & Reporting S
 
 __Step 2 –__ Enter the search command:
 
-index=<your_netwrix_index>
+index=`<your_netwrix_index>`
 
 for example:
 
@@ -44,7 +44,7 @@ __Step 1 –__ Navigate to the __Search__ page of the add-on or __Search & Repor
 
 __Step 2 –__ Enter the search command:
 
-| datamodel <data_nodel_name> search
+| datamodel `<data_model_name>` search
 
 | search sourcetype=netwrix
 

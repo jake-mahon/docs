@@ -163,7 +163,7 @@ Guide on registering linux system with Postman (using API):
 
 Troubleshooting Linux Registration:
 
-- [QuickStart Advanced Fields](#QuickStart-Advanced-Fields)
+- [QuickStart Advanced Fields](#quickstart-advanced-fields)
 
 You can also specify a an excel file containing a list of linux systems and credentials to register with Privilege Secure.
 

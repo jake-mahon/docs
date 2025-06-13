@@ -10,7 +10,7 @@ The bars in the chart show how many successful enrollments, resets, unlocks, and
 
 ![using_the_data_console_1](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_the_data_console_1.png)
 
-The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](#Custom-Filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
+The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](#custom-filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
 
 The __Audit Log__ tab has nine columns:
 
@@ -45,7 +45,7 @@ __NOTE:__ The Data Console does not automatically display new information as it 
 
 The Data Console can show thousands of records, but only some of them will be of interest to you at any time. Filters let you focus on the important information.
 
-You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#Filtering-by-Column-Values). More complex filters are created with the [Custom Filters](#Custom-Filters)and [The Filter Editor](#The-Filter-Editor) windows.
+You can create simple filters by typing values directly into the filter row, or by selecting values from [Filtering by Column Values](#filtering-by-column-values). More complex filters are created with the [Custom Filters](#custom-filters)and [The Filter Editor](#the-filter-editor) windows.
 
 ### The Filter Row
 

@@ -6,8 +6,8 @@ On the Scheduler Service page, view information for scheduled services.
 
 The Scheduler Service page shows details of the selected service and has the following features:
 
-- [Action Queues Tab](#Action-Queues-Tab)
-- [Statistics Tab](#Statistics-Tab)
+- [Action Queues Tab](#action-queues-tab)
+- [Statistics Tab](#statistics-tab)
 
 ## Action Queues Tab
 

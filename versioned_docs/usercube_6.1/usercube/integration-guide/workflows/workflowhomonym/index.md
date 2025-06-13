@@ -4,9 +4,9 @@ In this section we configure the homonym detection that checks if a resource alr
 
 ## Process
 
-1. [Create a homonym entity link, either with a default filter or customized filters](#Create-a-homonym-entity-link-either-with-a-default-filter-or-customized-filters)
-2. [Create a display table to display the homonym result _(optional)_](#Create-a-display-table-to-display-the-homonym-result-_optional_)
-3. [Define the part of the workflow form where homonyms must be checked](#Define-the-part-of-the-workflow-form-where-homonyms-must-be-checked)
+1. [Create a homonym entity link, either with a default filter or customized filters](#create-a-homonym-entity-link-either-with-a-default-filter-or-customized-filters)
+2. [Create a display table to display the homonym result _(optional)_](#create-a-display-table-to-display-the-homonym-result-_optional_)
+3. [Define the part of the workflow form where homonyms must be checked](#define-the-part-of-the-workflow-form-where-homonyms-must-be-checked)
 
 ## Create a Homonym Entity Link
 
@@ -25,7 +25,7 @@ See [section below](#section-below).
 
 ### With customized filters
 
-[Homonym entity link filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md#Homonym-entity-link-filters) allow to define customized filters for a homonym detection.
+[Homonym entity link filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md#homonym-entity-link-filters) allow to define customized filters for a homonym detection.
 
 #### Simple filter
 
@@ -61,7 +61,7 @@ A homonym entity link can contain filters on the properties from several distinc
 >
 > ```
 
-In this case, a display table is required for the additional entity. [See the section below](#See-the-section-below).
+In this case, a display table is required for the additional entity. [See the section below](#see-the-section-below).
 
 #### Flexible filter
 

@@ -1,6 +1,6 @@
 # Changes Window
 
-Select the desired request on the [Request History Tab](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md#Request-History-Tab) of the Access Requests interface and click __View Changes__. The Changes window opens.
+Select the desired request on the [Request History Tab](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md#request-history-tab) of the Access Requests interface and click __View Changes__. The Changes window opens.
 
 ![Changes window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/changes.png)
 

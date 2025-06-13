@@ -15,7 +15,7 @@ NOTE: Advanced Dynasty options are available for Dynasties of the parent and mid
 
 __Alias Template__
 
-This setting generates the alias names of child groups. __%GROUPBY%__ is replaced with the actual value of the [Attributes](#Attributes).
+This setting generates the alias names of child groups. __%GROUPBY%__ is replaced with the actual value of the Attributes.
 
 If Exchange Server is the designated messaging system for the identity store, the alias length is limited to 64 characters and must be unique to the forest. For other messaging systems, the alias length must not exceed the number of characters supported
 by the respective messaging system.
@@ -29,7 +29,7 @@ Also, the alias must not contain characters that are invalid for the configured 
 
 __Display Name Template__
 
-The template to use to generate the display names of the child groups. __%GROUPBY%__ is replaced with the actual value of the[Attributes](#Attributes).
+The template to use to generate the display names of the child groups. __%GROUPBY%__ is replaced with the actual value of the Attributes.
 
 __Attributes__
 
@@ -47,8 +47,8 @@ __Inheritance__
 
 Use this setting to specify when Dynasty children inherit attributes. Options are:
 
-- __Inherit on creation__: Dynasty children will inherit the attributes’ values only when the Dynasty is created. Moreover, whenever a new child group is created, it will inherit the attributes’ values.
-- __Always inherit__: Dynasty children will inherit the attributes’ values every time the parent Dynasty is updated.
+- __Inherit on creation__: Dynasty children will inherit the attributes' values only when the Dynasty is created. Moreover, whenever a new child group is created, it will inherit the attributes' values.
+- __Always inherit__: Dynasty children will inherit the attributes' values every time the parent Dynasty is updated.
 - __Never inherit__: Dynasty children will never inherit attribute values from the parent.
 
 The attributes to be inherited are specified at the identity store level. See Dynasty Settings.
@@ -71,9 +71,9 @@ For example, you specify whether you want to create a separate Smart Group for t
 
 You can view and change these structure options for parent and middle Dynasties. For details, see the [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
 
-NOTE: (1) If the __Set manager as owner__ check box is selected, the __Always inherit__ option is set for [Inheritance](#Inheritance), and the managedBy attribute is specified for inheritance, the __Set manager as owner__ option takes priority over the managedBy attribute inheritance. Hence, the manager of a child Dynasty would be set as its respective primary owner.  
+NOTE: (1) If the __Set manager as owner__ check box is selected, the __Always inherit__ option is set for Inheritance, and the managedBy attribute is specified for inheritance, the __Set manager as owner__ option takes priority over the managedBy attribute inheritance. Hence, the manager of a child Dynasty would be set as its respective primary owner.  
 (2) When you clear the __Set manager as owner__ check box, the manager set as the primary owner of a parent Dynasty will not be removed. However, when the Dynasty is updated, the primary owner of a child Dynasty may be updated,
-depending on the Dynasty inheritance options. For example, if the __Always inherit__ option is set for [Inheritance](#Inheritance) and the managedBy attribute is specified for inheritance, the primary owner of the parent
+depending on the Dynasty inheritance options. For example, if the __Always inherit__ option is set for Inheritance and the managedBy attribute is specified for inheritance, the primary owner of the parent
 Dynasty would be set as the primary owner for all child Dynasties, replacing their respective primary owners.
 
 __Attributes__
@@ -84,15 +84,15 @@ See the [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0
 
 In addition to the scenarios discussed, the following also apply on Dynasty update:
 
-- Specify the ‘XadditionalManager’ attribute in addition to the ‘Manager’ attribute for a parent managerial Dynasty.
+- Specify the 'XadditionalManager' attribute in addition to the 'Manager' attribute for a parent managerial Dynasty.
 
-  On update, new child Dynasties are created with respect to the additional manager attribute data and added in their respective managers’ direct reports and additional manager's direct reports.
-- Remove the ‘XadditionalManager’ attribute for a parent managerial Dynasty.
+  On update, new child Dynasties are created with respect to the additional manager attribute data and added in their respective managers' direct reports and additional manager's direct reports.
+- Remove the 'XadditionalManager' attribute for a parent managerial Dynasty.
 
-  On update, the direct reports of users created with respect to the additional manager attribute data are removed from their respective managers’ and additional managers’ direct reports.
+  On update, the direct reports of users created with respect to the additional manager attribute data are removed from their respective managers' and additional managers' direct reports.
 
   If the Delete Empty and Orphan Dynasty children setting is applied, direct reports of users created due to the additional manager
-  attribute data are not only removed from their respective managers’ and additional managers’ direct reports; they also get deleted.
+  attribute data are not only removed from their respective managers' and additional managers' direct reports; they also get deleted.
 
 __Alias Template__
 
@@ -136,7 +136,7 @@ NOTE: For a managerial Dynasty, the __%MANAGER%__ variable for the alias and dis
 
 __Inheritance__
 
-See [Inheritance](#Inheritance).
+See Inheritance.
 
 __See Also__
 

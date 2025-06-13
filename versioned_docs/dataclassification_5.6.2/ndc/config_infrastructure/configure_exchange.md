@@ -11,8 +11,8 @@ This method is supported for Exchange Online and on-premise Exchange organizatio
 
 Review the related procedure that corresponds to your Exchange deployment:
 
-- [Exchange Online](#Exchange-Online)
-- [Exchange Server (On-Premise)](#Exchange-Server-On-Premise)
+- [Exchange Online](#exchange-online)
+- [Exchange Server (On-Premise)](#exchange-server-on-premise)
 
 ### Exchange Online
 

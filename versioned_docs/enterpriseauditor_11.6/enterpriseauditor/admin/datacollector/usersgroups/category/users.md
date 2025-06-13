@@ -7,8 +7,8 @@ The Users Query category collects information for users in different contexts.
 In the Users section, select from the following options:
 
 - All users – All users found on the target host
-- All users in the following groups – Click the ellipsis (__…__) to open the Find a Group browser window and specify a group. See the [Find a Group/User Browser](#Find-a-GroupUser-Browser) topic for additional information. A specific group can also be entered manually into the text field.
-- These users – Click the ellipsis (__…__) to open the Find a User browser window and specify one or more users. See the [Find a Group/User Browser](#Find-a-GroupUser-Browser) topic for additional information. A specific user can also be entered manually into the text field.
+- All users in the following groups – Click the ellipsis (__…__) to open the Find a Group browser window and specify a group. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information. A specific group can also be entered manually into the text field.
+- These users – Click the ellipsis (__…__) to open the Find a User browser window and specify one or more users. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information. A specific user can also be entered manually into the text field.
 - Special users – The users found can be flagged as special users in the following categories:
 
   - Administrator

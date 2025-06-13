@@ -76,7 +76,7 @@ __Step 2 –__ Edit the \*.txt files, based on the following guidelines:
 
 This section lists Windows Server components and settings whose changes Netwrix Auditor can monitor.
 
-When monitoring a Windows Server, Netwrix Auditor needs to audit some registry settings. See the [Windows Server Registry Keys](#Windows-Server-Registry-Keys) section for additional information. If you want Netwrix Auditor to audit custom registry keys, see the [Monitoring Custom Registry Keys](#Monitoring-Custom-Registry-Keys)[Monitoring Custom Registry Keys](#Monitoring-Custom-Registry-Keys)topic for additional information.
+When monitoring a Windows Server, Netwrix Auditor needs to audit some registry settings. See the [Windows Server Registry Keys](#windows-server-registry-keys) section for additional information. If you want Netwrix Auditor to audit custom registry keys, see the [Monitoring Custom Registry Keys](#monitoring-custom-registry-keys)[Monitoring Custom Registry Keys](#monitoring-custom-registry-keys)topic for additional information.
 
 In the table below, double asterisks (\*\*) indicates the components and settings for which the Who value is reported as _“Not Applicable”_.
 
@@ -213,7 +213,7 @@ The below is the full list of keys (and subkeys) involved in Windows Server audi
 
 Consider that audit data for the registry keys themselves will not appear in Netwrix Auditor reports, alerts or search results, as it is only used as one of the sources for the Activity Records formation.
 
-- You can configure these settings automatically using Netwrix Auditor, as described in the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic. Corresponding audit settings will be also applied automatically after you select a checkbox under __Monitor changes to system components__ on the __General__ tab in the Windows Server data source properties.
+- You can configure these settings automatically using Netwrix Auditor, as described in the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic. Corresponding audit settings will be also applied automatically after you select a checkbox under __Monitor changes to system components__ on the __General__ tab in the Windows Server data source properties.
 
 Audit settings will be automatically adjusted only for the keys/subkeys involved in the monitoring of selected components (granular adjustment). For example, if you selected __Services__, the program will adjust the audit settings for the following subkeys:
 

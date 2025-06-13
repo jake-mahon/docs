@@ -45,7 +45,7 @@ Creates an assigned composite role.
 | --- | --- | --- |
 | 200 | The result of the assigned composite role creation. |  |
 
-### /api/ProvisioningPolicy/AssignedCompositeRole/{id}
+### /api/ProvisioningPolicy/AssignedCompositeRole/`{id}`
 
 #### Get
 
@@ -153,7 +153,7 @@ Creates an assigned resource binary.
 | --- | --- | --- |
 | 200 | The result of the assigned resource binary creation. |  |
 
-### /api/ProvisioningPolicy/AssignedResourceBinary/{id}
+### /api/ProvisioningPolicy/AssignedResourceBinary/`{id}`
 
 #### Get
 
@@ -261,7 +261,7 @@ Creates an assigned resource navigation.
 | --- | --- | --- |
 | 200 | The result of the assigned resource navigation creation. |  |
 
-### /api/ProvisioningPolicy/AssignedResourceNavigation/{id}
+### /api/ProvisioningPolicy/AssignedResourceNavigation/`{id}`
 
 #### Get
 
@@ -369,7 +369,7 @@ Creates an assigned resource scalar.
 | --- | --- | --- |
 | 200 | The result of the assigned resource scalar creation. |  |
 
-### /api/ProvisioningPolicy/AssignedResourceScalar/{id}
+### /api/ProvisioningPolicy/AssignedResourceScalar/`{id}`
 
 #### Get
 
@@ -476,7 +476,7 @@ Creates an assigned resource type.
 | --- | --- | --- |
 | 200 | The result of the assigned resource type creation. |  |
 
-### /api/ProvisioningPolicy/AssignedResourceType/{id}
+### /api/ProvisioningPolicy/AssignedResourceType/`{id}`
 
 #### Get
 
@@ -584,7 +584,7 @@ Creates an assigned single role.
 | --- | --- | --- |
 | 200 | The result of the assigned single role creation. |  |
 
-### /api/ProvisioningPolicy/AssignedSingleRole/{id}
+### /api/ProvisioningPolicy/AssignedSingleRole/`{id}`
 
 #### Get
 
@@ -691,7 +691,7 @@ Creates a category.
 | --- | --- | --- |
 | 200 | The result of the category creation. |  |
 
-### /api/ProvisioningPolicy/Category/{id}
+### /api/ProvisioningPolicy/Category/`{id}`
 
 #### Get
 
@@ -798,7 +798,7 @@ Creates a composite role.
 | --- | --- | --- |
 | 200 | The result of the composite role creation. |  |
 
-### /api/ProvisioningPolicy/CompositeRole/{id}
+### /api/ProvisioningPolicy/CompositeRole/`{id}`
 
 #### Get
 
@@ -905,7 +905,7 @@ Creates a composite role rule.
 | --- | --- | --- |
 | 200 | The result of the composite role rule creation. |  |
 
-### /api/ProvisioningPolicy/CompositeRoleRule/{id}
+### /api/ProvisioningPolicy/CompositeRoleRule/`{id}`
 
 #### Get
 
@@ -1012,7 +1012,7 @@ Creates a context rule.
 | --- | --- | --- |
 | 200 | The result of the context rule creation. |  |
 
-### /api/ProvisioningPolicy/ContextRule/{id}
+### /api/ProvisioningPolicy/ContextRule/`{id}`
 
 #### Get
 
@@ -1145,7 +1145,7 @@ Creates a context rule.
 | --- | --- | --- |
 | 200 | The result of the context rule creation. |  |
 
-### /api/ProvisioningPolicy/MiningRule/{id}
+### /api/ProvisioningPolicy/MiningRule/`{id}`
 
 #### Get
 
@@ -1233,7 +1233,7 @@ Creates a Pending Approval rule.
 | --- | --- | --- |
 | 200 | The result of the Pending Approval rule creation. |  |
 
-### /api/ProvisioningPolicy/PendingApprovalRule/{id}
+### /api/ProvisioningPolicy/PendingApprovalRule/`{id}`
 
 #### Get
 
@@ -1340,7 +1340,7 @@ Creates a policy.
 | --- | --- | --- |
 | 200 | The result of the policy creation. |  |
 
-### /api/ProvisioningPolicy/Policy/{id}
+### /api/ProvisioningPolicy/Policy/`{id}`
 
 #### Get
 
@@ -1403,7 +1403,7 @@ Deletes a policy.
 | --- | --- | --- |
 | 200 | The result of the policy delete. |  |
 
-### /api/ProvisioningPolicy/Policy/ApproveSimulation/{id}
+### /api/ProvisioningPolicy/Policy/ApproveSimulation/`{id}`
 
 #### Put
 
@@ -1424,7 +1424,7 @@ Approves the simulation policies and applies modifications to all elements relat
 | --- | --- | --- |
 | 200 | The result of the policy simulation approval. |  |
 
-### /api/ProvisioningPolicy/Policy/CancelSimulation/{id}
+### /api/ProvisioningPolicy/Policy/CancelSimulation/`{id}`
 
 #### Put
 
@@ -1489,7 +1489,7 @@ Creates a simulation with status "new".
 | --- | --- | --- |
 | 200 | The result of simulation creation. |  |
 
-### /api/ProvisioningPolicy/PolicySimulation/{id}
+### /api/ProvisioningPolicy/PolicySimulation/`{id}`
 
 #### Get
 
@@ -1596,7 +1596,7 @@ Creates a resource binary rule.
 | --- | --- | --- |
 | 200 | The result of the resource binary rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceBinaryRule/{id}
+### /api/ProvisioningPolicy/ResourceBinaryRule/`{id}`
 
 #### Get
 
@@ -1703,7 +1703,7 @@ Creates a resource classification rule.
 | --- | --- | --- |
 | 200 | The result of the resource classification rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceClassificationRule/{id}
+### /api/ProvisioningPolicy/ResourceClassificationRule/`{id}`
 
 #### Get
 
@@ -1810,7 +1810,7 @@ Creates a resource correlation rule.
 | --- | --- | --- |
 | 200 | The result of the resource correlation rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceCorrelationRule/{id}
+### /api/ProvisioningPolicy/ResourceCorrelationRule/`{id}`
 
 #### Get
 
@@ -1917,7 +1917,7 @@ Creates a resource navigation rule.
 | --- | --- | --- |
 | 200 | The result of the resource navigation rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceNavigationRule/{id}
+### /api/ProvisioningPolicy/ResourceNavigationRule/`{id}`
 
 #### Get
 
@@ -2024,7 +2024,7 @@ Creates a resource query rule.
 | --- | --- | --- |
 | 200 | The result of the resource query rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceQueryRule/{id}
+### /api/ProvisioningPolicy/ResourceQueryRule/`{id}`
 
 #### Get
 
@@ -2131,7 +2131,7 @@ Creates a resource scalar rule.
 | --- | --- | --- |
 | 200 | The result of the resource scalar rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceScalarRule/{id}
+### /api/ProvisioningPolicy/ResourceScalarRule/`{id}`
 
 #### Get
 
@@ -2238,7 +2238,7 @@ Creates a resource type.
 | --- | --- | --- |
 | 200 | The result of the resource type creation. |  |
 
-### /api/ProvisioningPolicy/ResourceType/{id}
+### /api/ProvisioningPolicy/ResourceType/`{id}`
 
 #### Get
 
@@ -2346,7 +2346,7 @@ Creates a resource type rule.
 | --- | --- | --- |
 | 200 | The result of the resource type rule creation. |  |
 
-### /api/ProvisioningPolicy/ResourceTypeRule/{id}
+### /api/ProvisioningPolicy/ResourceTypeRule/`{id}`
 
 #### Get
 
@@ -2453,7 +2453,7 @@ Creates a risk.
 | --- | --- | --- |
 | 200 | The result of the risk creation. |  |
 
-### /api/ProvisioningPolicy/Risk/{id}
+### /api/ProvisioningPolicy/Risk/`{id}`
 
 #### Get
 
@@ -2560,7 +2560,7 @@ Creates a risk.
 | --- | --- | --- |
 | 200 | The result of the risk creation. |  |
 
-### /api/ProvisioningPolicy/RoleMapping/{id}
+### /api/ProvisioningPolicy/RoleMapping/`{id}`
 
 #### Get
 
@@ -2667,7 +2667,7 @@ Creates a single role.
 | --- | --- | --- |
 | 200 | The result of the single role creation. |  |
 
-### /api/ProvisioningPolicy/SingleRole/{id}
+### /api/ProvisioningPolicy/SingleRole/`{id}`
 
 #### Get
 
@@ -2774,7 +2774,7 @@ Creates a single role rule.
 | --- | --- | --- |
 | 200 | The result of the single role rule creation. |  |
 
-### /api/ProvisioningPolicy/SingleRoleRule/{id}
+### /api/ProvisioningPolicy/SingleRoleRule/`{id}`
 
 #### Get
 

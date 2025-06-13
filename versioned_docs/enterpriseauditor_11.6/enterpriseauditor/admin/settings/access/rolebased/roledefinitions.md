@@ -77,7 +77,7 @@ __NOTE:__ In order to use Role Base Access with the Exchange Solution, all Excha
     - Assigned at the Job level (__Jobs__ > __[Job Group]__ > __[Job]__ > __Job Properties__ > __Report Roles__ tab) – Able to view all reports published by this job
     - Assigned at the Report configuration level (__Jobs__ >__[Job Group]__ >__[Job]__ > __Configure__ > __Reports__> __Configure__ > __Publish Security__ page) – Able to view only this report
 
-By default, many roles are granted rights to view all reports and report content. The inheritance of the Report Viewer role can be broken at the job group, job, or report configuration levels. See the [Report Viewer Inheritance](#Report-Viewer-Inheritance) topic for additional information.
+By default, many roles are granted rights to view all reports and report content. The inheritance of the Report Viewer role can be broken at the job group, job, or report configuration levels. See the [Report Viewer Inheritance](#report-viewer-inheritance) topic for additional information.
 
 ## Enterprise Auditor Console Roles & Rights
 

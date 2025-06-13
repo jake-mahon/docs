@@ -6,12 +6,12 @@ GroupID supports several SMS gateway providers. You can also use the Custom Gate
 
 What do you want to do?
 
-- [Create an SMS Gateway Account](#Create-an-SMS-Gateway-Account)
-- [Modify an SMS Gateway Account](#Modify-an-SMS-Gateway-Account)
-- [Set an SMS Gateway Account as Default](#Set-an-SMS-Gateway-Account-as-Default)
-- [Test SMS Gateway Account Connection](#Test-SMS-Gateway-Account-Connection)
-- [Link an SMS Gateway Account to an Identity Store](#Link-an-SMS-Gateway-Account-to-an-Identity-Store)
-- [Delete an SMS Gateway Account](#Delete-an-SMS-Gateway-Account)
+- [Create an SMS Gateway Account](#create-an-sms-gateway-account)
+- [Modify an SMS Gateway Account](#modify-an-sms-gateway-account)
+- [Set an SMS Gateway Account as Default](#set-an-sms-gateway-account-as-default)
+- [Test SMS Gateway Account Connection](#test-sms-gateway-account-connection)
+- [Link an SMS Gateway Account to an Identity Store](#link-an-sms-gateway-account-to-an-identity-store)
+- [Delete an SMS Gateway Account](#delete-an-sms-gateway-account)
 
 ## Create an SMS Gateway Account
 
@@ -52,7 +52,7 @@ __To modify an account:__
 1. In Admin Center, click __SMS Gateway__ at the bottom of the left navigation pane.  
    The __SMS Gateways__ page is displayed with a list of the SMS gateway accounts that you have created.
 2. To update a gateway account, click __Edit__ for it in the __Actions__ column.
-3. On the __Edit SMS Gateway__ page, update the required details. Refer to step 3 and onwards in the [Create an SMS Gateway Account](#Create-an-SMS-Gateway-Account) topic for details.
+3. On the __Edit SMS Gateway__ page, update the required details. Refer to step 3 and onwards in the [Create an SMS Gateway Account](#create-an-sms-gateway-account) topic for details.
 
 ## Set an SMS Gateway Account as Default
 
@@ -72,7 +72,7 @@ __To modify an account:__
 
 ## Link an SMS Gateway Account to an Identity Store
 
-See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#Link-an-SMS-Gateway-Account-to-an-Identity-Store) topic.
+See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store) topic.
 
 ## Delete an SMS Gateway Account
 

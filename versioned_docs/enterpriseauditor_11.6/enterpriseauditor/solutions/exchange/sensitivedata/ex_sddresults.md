@@ -24,7 +24,7 @@ __CAUTION:__ Do not select the __Deletes all Stored Data__ option. This analysis
 
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 
-  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX\_SDDResults Job produces the following pre-configured reports.
 

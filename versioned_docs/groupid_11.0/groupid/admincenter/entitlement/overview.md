@@ -70,7 +70,7 @@ The GroupID Entitlement schedule auto runs at a set frequency, but you can also 
 You can grant permissions to security roles in an identity store on the Entitlement section in the GroupID portal. Based on these permissions, role members can performs different actions, such as navigate file servers and SharePoint sites, grant
 permissions to objects on shared resources, revoke permissions, and more.
 
-Entitlement-related permissions for a security role are discussed in the [Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#Entitlement) topic.
+Entitlement-related permissions for a security role are discussed in the [Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#entitlement) topic.
 
 See Also
 

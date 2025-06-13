@@ -24,12 +24,12 @@ The default analysis tasks are:
 
 - 1. User Password Information – Creates the PasswordExpirationNotification\_Details table accessible under the job’s Results node
   - Contains a configurable parameter for the number of days until a password expires to be identified
-  - See the [Customizable Analysis Tasks for the AD\_PasswordExpirationNotification Job](#Customizable-Analysis-Tasks-for-the-AD_PasswordExpirationNotification-Job) topic for additional information.
+  - See the [Customizable Analysis Tasks for the AD\_PasswordExpirationNotification Job](#customizable-analysis-tasks-for-the-ad_passwordexpirationnotification-job) topic for additional information.
 - 2. Domain Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 3. Passwords Set to Expire Within 15 Days – Creates the PasswordExpirationNotification\_ExpiresWithin15Days table accessible under the job’s Results node
 - 4. Notification Data Table – Creates the PasswordExpirationNotification\_ExpiresWithin15Days\_UserNotifications table accessible under the job’s Results node
 - 5. Help Desk Notification – Sends notification of users with passwords set to expire in X days
-  - See the [Notification Analysis Task in the AD\_PasswordExpirationNotification Job](#Notification-Analysis-Task-in-the-AD_PasswordExpirationNotification-Job) topic for additional information.
+  - See the [Notification Analysis Task in the AD\_PasswordExpirationNotification Job](#notification-analysis-task-in-the-ad_passwordexpirationnotification-job) topic for additional information.
 
 ## Action for the AD\_PasswordExpirationNotification Job
 
@@ -43,7 +43,7 @@ The default actions are:
 
 - 1. User Notification – Uses the SendMail Action Module to send notifications to users on password expiration
   - Requires the Notification Actions license feature
-  - See the [Action Task in the AD\_PasswordExpirationNotification Job](#Action-Task-in-the-AD_PasswordExpirationNotification-Job) topic for additional information.
+  - See the [Action Task in the AD\_PasswordExpirationNotification Job](#action-task-in-the-ad_passwordexpirationnotification-job) topic for additional information.
 
 In addition to the tables created by the analysis and action tasks, the AD\_PasswordExpirationNotification Job produces the following pre-configured report.
 

@@ -19,7 +19,7 @@ Complete the following fields:
 | __Database Objects__ |  |
 | Data objects to monitor | Create rules for objects and actions that you want to audit:   1. Click Add Rule. 2. Specify a name of the Oracle database _Object_ and _Schema_. 3. Select the necessary actions (successful or failed changes, successful or failed reads). 4. Click __Add__.   Schema and object names are case sensitive. |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Oracle Database Instance
 
@@ -29,7 +29,7 @@ Complete the following fields:
 | --- | --- |
 | Connection type | Select how the product connects to Oracle Database:   - Oracle Database instance – select if you want to connect to a database by instance name. - Oracle Wallet – select if you want to use Oracle Wallet – password-protected container used to store authentication and signing credentials, including private keys, certificates, and trusted certificates needed by SSL. |
 | Instance name | Provide connection details in the following format: _host:port/service_name._ Make sure audit settings are configured for your Oracle Database instance. |
-| Wallet alias | Provide the alias you set while creating wallet. For example, "_MyOracle_".  Alias name in Netwrix Auditor should exactly match the alias in the ```tnsnames.ora``` file. [Configure Oracle Instant Client for HTTP Proxy Connections](/versioned_docs/auditor_10.6/auditor/configuration/oracle/wallet.md#Configure-Oracle-Instant-Client-for-HTTP-Proxy-Connections) |
+| Wallet alias | Provide the alias you set while creating wallet. For example, "_MyOracle_".  Alias name in Netwrix Auditor should exactly match the alias in the ```tnsnames.ora``` file. [Configure Oracle Instant Client for HTTP Proxy Connections](/versioned_docs/auditor_10.6/auditor/configuration/oracle/wallet.md#configure-oracle-instant-client-for-http-proxy-connections) |
 | Specify the account for collecting data  For Oracle Database instance connection type only. | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 
 ## Data Collection from Oracle Database

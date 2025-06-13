@@ -113,7 +113,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder the following CSV files:
+This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
 
 - ```<connectionIdentifier>_serverPrincipals.csv```;
 - ```<connectionIdentifier>_serverRoleMembers.csv```;

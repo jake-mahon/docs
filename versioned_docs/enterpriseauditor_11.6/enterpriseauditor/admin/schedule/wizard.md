@@ -2,11 +2,11 @@
 
 The schedule wizard allows you to configure scheduled tasks for jobs, job groups, Host Discovery queries, and Host Inventory queries. The wizard has five wizard pages with options for setting up the schedule task:
 
-- [Schedule](#Schedule)
-- [Host List](#Host-List)
-- [Connection](#Connection)
-- [Run As](#Run-As)
-- [Options](#Options)
+- [Schedule](#schedule)
+- [Host List](#host-list)
+- [Connection](#connection)
+- [Run As](#run-as)
+- [Options](#options)
 
 On the Schedule page, click __New__ to schedule when the task will run. The Host List and Connection pages are optional customizations. See the relevant section below for more information on the settings on each wizard page.
 

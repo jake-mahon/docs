@@ -15,7 +15,7 @@ it if required. The Data service and Security service directories are created wi
 Admin Center uses the default Data service and Security service; you cannot change this binding.
 
 To view the default services, see the
-[View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic.
+[View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 ## Why Create Multiple Data Services?
 

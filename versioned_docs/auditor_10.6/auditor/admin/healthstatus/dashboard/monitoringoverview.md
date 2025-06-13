@@ -8,7 +8,7 @@ Aggregated statistics on the monitoring plans is provided in the Monitoring over
 
 After you click View details, the Monitoring Overview window will be displayed.
 
-[![monitoringoverview](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/monitoringoverview.png)](/versioned_docs/auditor_10.6/resources/images/auditor/health/monitoringoverview.png)
+![monitoringoverview](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/monitoringoverview.png)
 
 It provides the hierarchical list of monitoring plans, processed data sources and corresponding items with their current status and date/time of the last data processing session. For data sources and items their current status is depicted as follows:
 

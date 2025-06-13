@@ -4,14 +4,14 @@ You can manage various settings for a portal instance deployed in Docker.
 
 What do you want to do?
 
-- [Start or Stop an Instance](#Start-or-Stop-an-Instance)
-- [View the Deployment Settings for an Instance](#View-the-Deployment-Settings-for-an-Instance)
-- [Set File Logging and Windows Logging for an Instance](#Set-File-Logging-and-Windows-Logging-for-an-Instance)
-- [Delete an Instance](#Delete-an-Instance)
+- [Start or Stop an Instance](#start-or-stop-an-instance)
+- [View the Deployment Settings for an Instance](#view-the-deployment-settings-for-an-instance)
+- [Set File Logging and Windows Logging for an Instance](#set-file-logging-and-windows-logging-for-an-instance)
+- [Delete an Instance](#delete-an-instance)
 
 ## Start or Stop an Instance
 
-To start or stop a deployment instance, see the [Start or Stop an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#Start-or-Stop-an-Instance) topic.
+To start or stop a deployment instance, see the [Start or Stop an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance) topic.
 
 ## View the Deployment Settings for an Instance
 
@@ -39,7 +39,7 @@ To set file logging and Windows logging levels for a deployment instance, see th
 
 ## Delete an Instance
 
-To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.
+To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal) topic.
 
 __See Also__
 

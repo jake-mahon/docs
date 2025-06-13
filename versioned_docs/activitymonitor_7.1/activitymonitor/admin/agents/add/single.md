@@ -18,7 +18,7 @@ __Step 3 –__ On the Specify Port page, specify the port that should be used by
 
 __Step 4 –__ On the Credentials To Connect To The Server(s) page, select ether Windows or Linux file monitoring. Then, enter the __User name__ and __Password__ to connect to the API Server.
 
-[![Test Account Connection](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/testaccountconnection.png)](/versioned_docs/activitymonitor_7.1/resources/images/activitymonitor/manualinstall/single/testaccountconnection.png)
+![Test Account Connection](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/testaccountconnection.png)
 
 __Step 5 –__ Click __Connect__ to test the connection. If the connection is successful, click __Next__. If the connection is unsuccessful, see the status message that appears for information on the failed connection and correct the error to proceed.
 

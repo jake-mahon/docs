@@ -4,13 +4,13 @@ The 3-FSAA Exceptions job does not use the FSAA Data Collector. Instead it runs 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The 3-FSAA Exceptions job has the following customizable parameter:
 
 - Well Known high risk SIDS – Add any additional custom SIDS, but do not remove the default SIDS.
 
-See the [Analysis Tasks for the 3-FSAA Exceptions Job](#Analysis-Tasks-for-the-3-FSAA-Exceptions-Job) topic for additional information.
+See the [Analysis Tasks for the 3-FSAA Exceptions Job](#analysis-tasks-for-the-3-fsaa-exceptions-job) topic for additional information.
 
 ## Analysis Tasks for the 3-FSAA Exceptions Job
 

@@ -1,15 +1,15 @@
 # Permissions for Dell Isilon/PowerScale Auditing
 
 Before you start creating a monitoring plan to audit your Dell Isilon/PowerScale file storage system, plan for the account that will be used for data collection.
-See the [Configuring Your Dell Isilon/PowerScale Cluster for Auditing](#Configuring-Your-Dell-IsilonPowerScale-Cluster-for-Auditing) section for additional information.
+See the [Configuring Your Dell Isilon/PowerScale Cluster for Auditing](#configuring-your-dell-isilonpowerscale-cluster-for-auditing) section for additional information.
 The following scenarios are possible:
 
 - Automatic configuration: you can use a special shell script for configuring an audited Dell Isilon/PowerScale cluster and granting necessary privileges to the account used to collect audit data. See the following topics for additional information:
-  - [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/normal.md#Configure-Dell-IsilonPowerScale-Cluster-in-Normal-or-Enterprise-Mode-via-Shell-Script)
-  - [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Via Shell Script](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/compliance.md#Configure-Dell-IsilonPowerScale-Cluster-in-Compliance-Mode-Via-Shell-Script)
+  - [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/normal.md#configure-dell-isilonpowerscale-cluster-in-normal-or-enterprise-mode-via-shell-script)
+  - [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Via Shell Script](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/compliance.md#configure-dell-isilonpowerscale-cluster-in-compliance-mode-via-shell-script)
 - Manual configuration: you can grant all the necessary permissions to data collecting account manually. See the following topics for additional information:
-  - [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode Manually](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/normal.md#Configure-Dell-IsilonPowerScale-Cluster-in-Normal-or-Enterprise-Mode-Manually)
-  - [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Manually](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/compliance.md#Configure-Dell-IsilonPowerScale-Cluster-in-Compliance-Mode-Manually)
+  - [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode Manually](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/normal.md#configure-dell-isilonpowerscale-cluster-in-normal-or-enterprise-mode-manually)
+  - [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Manually](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/dellisilon/compliance.md#configure-dell-isilonpowerscale-cluster-in-compliance-mode-manually)
 
 For manual configuration, ensure the account meets the requirements listed below.
 

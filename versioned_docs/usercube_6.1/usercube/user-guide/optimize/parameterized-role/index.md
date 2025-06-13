@@ -4,7 +4,7 @@ How to reduce the number of roles in the model by configuring roles with paramet
 
 ## Overview
 
-The assignment of a role to a user gives them an entitlement, usually a group membership, thanks to a navigation rule. [See more details on roles and navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md#See-more-details-on-roles-and-navigation-rules).
+The assignment of a role to a user gives them an entitlement, usually a group membership, thanks to a navigation rule. [See more details on roles and navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md#see-more-details-on-roles-and-navigation-rules).
 
 ![Simple Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.png)
 
@@ -44,7 +44,7 @@ Configure a parameterized role by proceeding as follows:
    > For example:
    >
    > ![Example - Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/parameterized-role/parameterizedrole_examplerole_v603.png)
-3. [Create one navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#Create-one-navigation-rule) linked to the role for each available value of the parameter.
+3. [Create one navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#create-one-navigation-rule) linked to the role for each available value of the parameter.
 
    > Here we have three navigation rules, one for each distinct time slot (dimension A). For example:
    >

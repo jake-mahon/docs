@@ -9,11 +9,11 @@ Enter parameter values using the following options:
 - Insert Field – Select a field to include in the request from the drop-down menu.
 
   __NOTE:__ The fields available varies based on the source table.
-- Green circle with plus sign – Add a custom attribute. This opens the Custom Attribute Editor Window. See the [Custom Attribute Editor Window](#Custom-Attribute-Editor-Window) topic for additional information.
+- Green circle with plus sign – Add a custom attribute. This opens the Custom Attribute Editor Window. See the [Custom Attribute Editor Window](#custom-attribute-editor-window) topic for additional information.
 - Red circle with minus sign – Remove a custom attribute
 
   - Select a cell or row to remove the custom attributes
-- Paper and pencil – Edit a custom attribute. This opens the Custom Attribute Editor Window. See the [Custom Attribute Editor Window](#Custom-Attribute-Editor-Window) topic for additional information.
+- Paper and pencil – Edit a custom attribute. This opens the Custom Attribute Editor Window. See the [Custom Attribute Editor Window](#custom-attribute-editor-window) topic for additional information.
 - Use the radio buttons to indicate:
 
   - Parameters – Key value pairs to insert in the headers field of the web request

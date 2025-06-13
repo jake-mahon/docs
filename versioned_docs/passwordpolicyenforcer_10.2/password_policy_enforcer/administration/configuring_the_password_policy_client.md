@@ -25,7 +25,7 @@ __Step 4 –__ Go to C:\Windows\Policy Definitions\en-US and paste the .adml fil
 
 ![ppc_configuration1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration1.png)
 
-__Step 5 –__ Open __Group Policy Management__ console and check if you have a GPO created for Client. If not, see the [Installing Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md) topic's [Edit the Group Policy Object](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md#Edit-the-Group-Policy-Object) section for additional information.
+__Step 5 –__ Open __Group Policy Management__ console and check if you have a GPO created for Client. If not, see the [Installing Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md) topic's [Edit the Group Policy Object](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md#edit-the-group-policy-object) section for additional information.
 
 __Step 6 –__ In the left pane, navigate to __Forest: `<forest_name>`__ > __Domain__ > __`<domain_name>`__, right-click __`<OU_name>`__ and select __Create a GPO__ in this domain and Link it here.
 

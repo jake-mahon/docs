@@ -5,7 +5,7 @@ __System Configuration__ section in Netwrix Data Classification management conso
 - To specify Netwrix Data Classification settings and manage licenses, click Config.
 - To set up user roles and security privileges, click __Users__.
 
-[![system_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/system_config_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/system_config.png)
+![system_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/system_config_thumb_0_0.png)
 
 See next:
 

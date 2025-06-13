@@ -2,7 +2,7 @@
 
 The Long-Term Archive is configured by default, irrespective of your subscription plan and settings you specified when configuring a monitoring plan. To review and update your Long-Term Archive settings, navigate to __Settings__ > __Long-Term Archive__ and click Modify.
 
-[![lta_settings](/img/versioned_docs/auditor_10.6/auditor/admin/settings/lta_settings.png)](/versioned_docs/auditor_10.6/resources/images/auditor/settings/lta_settings.png)
+![lta_settings](/img/versioned_docs/auditor_10.6/auditor/admin/settings/lta_settings.png)
 
 Review the following for additional information:
 
@@ -19,7 +19,7 @@ Setting Recording Settings
 
 |  |  |
 | --- | --- |
-| Configure custom location of session recordings | Default location for storing session recordings is set to _"\\<NetwrixAuditorServerName>\Netwrix_UAVR$"_. However, storing extra files on the Auditor  Server may produce additional load on it, so consider using this option to specify another location where session recordings will be stored. |
+| Configure custom location of session recordings | Default location for storing session recordings is set to _"\\`<NetwrixAuditorServerName>`\Netwrix_UAVR$"_. However, storing extra files on the Auditor  Server may produce additional load on it, so consider using this option to specify another location where session recordings will be stored. |
 | Enter UNC path to shared folder: | Specify UNC path to the shared folder where user session video recordings will be stored. You can use server name or IP address, for example:  _\\172.28.6.33\NA_UserSessions_  Using a local folder for that purpose is not recommended, as storing extra files on the Auditor  Server will produce additional load on it.  Make sure the specified shared folder has enough capacity to store the video files.  Retention period for the video files can be adjusted in the related monitoring plan settings (targeted at User Activity data source); default retention is 7 days. See the [User Activity](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/useractivity/overview.md) topic for additional information.  After you specify and save settings for session recordings, it is recommended that you leave them unchanged. Otherwise — if you change the storage location while using Netwrix Auditor for User Activity — please be aware of possible data loss, as Auditor  will not automatically move session recordings to a new location. |
 | User name / Password | Provide user name and password for the account that will be used to store session recordings to the specified shared folder.  Make sure the account has at least the Write permission for that folder. |
 

@@ -8,19 +8,19 @@ A configured Wallet consists of two files, ```cwallet.sso``` and ```ewallet.p12`
 
 There are multiple methods to create Oracle Wallet files. For example:
 
-- Using Oracle Wallet Manager. Refer to the following Oracle help article for more information: [Creating a New Oracle Wallet](https://docs.oracle.com/database/121/DBIMI/walet.htm#Creating-a-New-Oracle-Wallet).
-- Using a console. As an example, refer to the following Oracle help article for WebLogic JDBC: [Creating and Managing Oracle Wallet](https://docs.oracle.com/middleware/1213/wls/JDBCA/oraclewallet.htm#Creating-and-Managing-Oracle-Wallet).
-- Using other Oracle products. For example, Autonomous Data Warehouse. Refer to the following Oracle help article for more information: [Download Client Credentials (Wallets)](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#Download-Client-Credentials-Wallets).
+- Using Oracle Wallet Manager. Refer to the following Oracle help article for more information: [Creating a New Oracle Wallet](https://docs.oracle.com/database/121/DBIMI/walet.htm#creating-a-new-oracle-wallet).
+- Using a console. As an example, refer to the following Oracle help article for WebLogic JDBC: [Creating and Managing Oracle Wallet](https://docs.oracle.com/middleware/1213/wls/JDBCA/oraclewallet.htm#creating-and-managing-oracle-wallet).
+- Using other Oracle products. For example, Autonomous Data Warehouse. Refer to the following Oracle help article for more information: [Download Client Credentials (Wallets)](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#download-client-credentials-wallets).
 
 ## Install Oracle Instant Client
 
-To perform clear install of Oracle Instant Client, follow the instructions below. If you have Oracle Client installed, see the [Update Existing Oracle Client Installation](#Update-Existing-Oracle-Client-Installation) topic for additional information.
+To perform clear install of Oracle Instant Client, follow the instructions below. If you have Oracle Client installed, see the [Update Existing Oracle Client Installation](#update-existing-oracle-client-installation) topic for additional information.
 
 Follow the steps to install Oracle Instant Client
 
 __Step 1 –__ Download the appropriate package from Oracle website: [Instant Client Packages](https://www.oracle.com/database/technologies/instant-client/downloads.html). Netwrix recommends installing the latest available version but the product is compatible with version 12 and above.
 
-__Step 2 –__ Download client credentials and store the file in a secure location. See [Download Client Credentials (Wallets)](https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/connect-download-wallet.html#Download-Client-Credentials-Wallets) for more information.
+__Step 2 –__ Download client credentials and store the file in a secure location. See [Download Client Credentials (Wallets)](https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/connect-download-wallet.html#download-client-credentials-wallets) for more information.
 
 __Step 3 –__ Unzip your credentials file into a secure location.
 
@@ -107,4 +107,4 @@ Do the following:
 
 See also:
 
-- [Oracle Wallet](/versioned_docs/auditor_10.6/plans/items/items_oracle_wallet.md)
+- Oracle Wallet

@@ -28,7 +28,7 @@ When a user’s role is changed, when does the new role take affect?
 
 If a user’s role has been altered while they are in an active Enterprise Auditor session, the user must exit the Enterprise Auditor Console and re-open the application for the new role to take effect. This is also true if a user has been given an additional role or removed from role membership. The capabilities of the new role will not come into effect until the Enterprise Auditor application has been restarted.
 
-__NOTE:__ See the [Edit Role Members' Responsibilities](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#Edit-Role-Members-Responsibilities) and [Delete Role Member](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#Delete-Role-Member) topics for more information.
+__NOTE:__ See the [Edit Role Members' Responsibilities](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#edit-role-members-responsibilities) and [Delete Role Member](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#delete-role-member) topics for more information.
 
 I locked a job, but when going back to it, it appears to be unlocked. Why?
 

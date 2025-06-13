@@ -25,7 +25,7 @@ By default, activity records are written to _Netwrix_Auditor_API_ database which
 
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for additional information.
 
-In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the _<AcceptList> ® <Address>_ configuration parameters. See the [Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/cyberark/parameters.md) topic for additional information.
+In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the `<AcceptList>` → `<Address>` configuration parameters. See the [Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/cyberark/parameters.md) topic for additional information.
 
 ## Configure Syslog Message Forwarding in CyberArk
 
@@ -46,7 +46,7 @@ __Step 3 –__ Go to the __[SYSLOG]__ section and configure the following parame
 - SyslogServerProtocol – communication protocol for data transfer between CyberArk system and the add-on. Specify __UDP__ protocol.
 - __SyslogMessageCodeFilter__ - IDs of events to forward. The add-on will only collect and process events you specify in this parameter. For the full list of supported events, see [Monitored Events](/versioned_docs/auditor_10.6/auditor/addon/cyberark/monitoredevents.md). Use comma as a separator.
 
-[![dbparamfile](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/dbparamfile.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/cyberark/dbparamfile.png)
+![dbparamfile](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/dbparamfile.png)
 
 __Step 4 –__ Save the __dbparam.ini__ file.
 

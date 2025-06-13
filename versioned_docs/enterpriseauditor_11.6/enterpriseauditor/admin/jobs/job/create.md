@@ -13,7 +13,7 @@ __Step 2 –__ Provide a unique, descriptive name for the job. The default name 
 __CAUTION:__ Do not end a job name with a space.
 
 - There can never be two jobs with the same name. Enterprise Auditor automatically appends a numeral to the end of a job name to avoid duplicates, for example ```NewJob1```.
-- No special characters can be used. See the Microsoft [Naming Conventions](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#Naming-Conventions) article for limitations.
+- No special characters can be used. See the Microsoft [Naming Conventions](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions) article for limitations.
 - Jobs in a group are run alphanumerically
 - When possible, keep names short to avoid report path errors caused by Microsoft’s maximum path length. See the Microsoft article referenced above.
 

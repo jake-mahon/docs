@@ -4,7 +4,7 @@ Aggregated statistics on the activity records is provided in the Activity record
 
 After you click View details, the Activity Records Statistics window will be displayed.
 
-[![activityrecordsdetails](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/activityrecordsdetails.png)](/versioned_docs/auditor_10.6/resources/images/auditor/health/activityrecordsdetails.png)
+![activityrecordsdetails](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/activityrecordsdetails.png)
 
 By default, statistics on activity records processing is grouped by Monitoring plan and presented for the Last 7 days. To modify the timeframe, use the drop-down list in the upper right corner.
 

@@ -23,7 +23,7 @@ The table has the following columns:
   - Failed — Pre-Session stage of the Activity has encountered an error
   - Logged In — User is successfully logged in to the Resource either directly or via the Proxy. Direct log-in is detected by polling the Resource at regular intervals and may not update immediately.
   - Canceling — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#Lock-Session) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md#lock-session) topic for additional information.
 - Requested — Date and time of when the session was created
 - Requested By — User who requested the session
 - Host — Resource that the user will run the activity on

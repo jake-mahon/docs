@@ -5,13 +5,13 @@ A Group Usage Service schedule monitors expansion events and timestamps affected
 An expansion event occurs when an Exchange Server expands a distribution list for sending messages. The event is recorded in the Exchange Server's message tracking log, which the Group Usage Service schedule reads, parsing for the timestamp that indicates
 when the distribution list was last used.
 
-The timestamp is then used by the [Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md) to extend or reduce the life of mail-enabled distribution groups based on their usage. See the [Enable Group Usage Lifecycle](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#Enable-Group-Usage-Lifecycle) topic.
+The timestamp is then used by the [Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md) to extend or reduce the life of mail-enabled distribution groups based on their usage. See the [Enable Group Usage Lifecycle](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle) topic.
 
 While creating a Group Usage Service schedule, you have to specify a job triggering criterion, the containers the job will process, and the messaging servers for reading expansion logs.
 
 What do you want to do?
 
-- [Create a Group Usage Service Schedule](#Create-a-Group-Usage-Service-Schedule)
+- [Create a Group Usage Service Schedule](#create-a-group-usage-service-schedule)
 
 ## Create a Group Usage Service Schedule
 
@@ -62,10 +62,10 @@ What do you want to do?
 
     NOTE: Make sure this account falls under a high priority security role that has elevated permissions in the identity store (for example, Administrator).
 
-    NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify the logged-in user's account. See the [Schedules for Microsoft Entra ID Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md#Schedules-for-Microsoft-Entra-ID-Identity-Store) section of the [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md) topic for additional information.
+    NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify the logged-in user's account. See the [Schedules for Microsoft Entra ID Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md#schedules-for-microsoft-entra-id-identity-store) section of the [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md) topic for additional information.
 13. On the __Create Schedule__ page, click __Create Schedule__.
 14. On the __Schedules__ page, click __Save__.  
-     The schedule is displayed under __Group Usage Service__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for more info.
+     The schedule is displayed under __Group Usage Service__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for more info.
 
 See Also
 

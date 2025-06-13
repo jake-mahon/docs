@@ -2,7 +2,7 @@
 
 The SP\_TrusteeAccess job allows you to scope a list of users to audit their access across the SharePoint environment. You can also accomplish this by looking users up in the Access Information Center, however you want to utilize this job in scenarios where you want to generate a report on multiple users’ effective access at once.
 
-__NOTE:__ Trustees can be specified in the ```UserScoping.csv``` file for the SP\_TrusteeAccess Job. See the [Configure CSV File for the Query for the SP\_TrusteeAccess Job](#Configure-CSV-File-for-the-Query-for-the-SP_TrusteeAccess-Job) topic for additional information.
+__NOTE:__ Trustees can be specified in the ```UserScoping.csv``` file for the SP\_TrusteeAccess Job. See the [Configure CSV File for the Query for the SP\_TrusteeAccess Job](#configure-csv-file-for-the-query-for-the-sp_trusteeaccess-job) topic for additional information.
 
 ![Scoping > SP_TrusteeAccess Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/scopingjobstree.png)
 
@@ -16,7 +16,7 @@ The SP\_TrusteeAccess Job uses the TextSearch Data Collector for the following q
 
 The default query is:
 
-- Scoping – Modifies the CSV in the Job Directory. See the [Configure CSV File for the Query for the SP\_TrusteeAccess Job](#Configure-CSV-File-for-the-Query-for-the-SP_TrusteeAccess-Job) topic for additional information.
+- Scoping – Modifies the CSV in the Job Directory. See the [Configure CSV File for the Query for the SP\_TrusteeAccess Job](#configure-csv-file-for-the-query-for-the-sp_trusteeaccess-job) topic for additional information.
 
 ### Configure CSV File for the Query for the SP\_TrusteeAccess Job
 

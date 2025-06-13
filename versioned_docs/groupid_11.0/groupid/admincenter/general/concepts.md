@@ -2,18 +2,18 @@
 
 To make the best of GroupID, you must be familiar with the following group management concepts:
 
-- [Group Classification](#Group-Classification)
-- [Group Types](#Group-Types)
-- [Group Scope](#Group-Scope)
-- [Group Security Types](#Group-Security-Types)
+- [Group Classification](#group-classification)
+- [Group Types](#group-types)
+- [Group Scope](#group-scope)
+- [Group Security Types](#group-security-types)
 
 ## Group Classification
 
 Using GroupID, you can manage the following three kinds of groups:
 
-- [Unmanaged Groups](#Unmanaged-Groups)
-- [Smart Groups](#Smart-Groups)
-- [Dynasties](#Dynasties)
+- [Unmanaged Groups](#unmanaged-groups)
+- [Smart Groups](#smart-groups)
+- [Dynasties](#dynasties)
 
 ### Unmanaged Groups
 

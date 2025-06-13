@@ -8,17 +8,17 @@ __NOTE:__ For Microsoft Entra ID, only the current date snapshot can be used for
 
 The report shows specific AD attributes for the Microsoft Entra ID (formerly Azure AD) accounts that meet the specified filtering criteria. Use this report to discover Microsoft Entra ID accounts with settings that violate company policies or applicable compliance standards.
 
-For this report to function properly, you must enable the Collect data for state-in-time reports option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection)[ topic for more information.](/versioned_docs/auditor_10.6/auditor/solutions/manageplans/accounts.md)
+For this report to function properly, you must enable the Collect data for state-in-time reports option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Tips to Work with Report
 
-- Set desired filters in the report header. See the [Filters](#Filters) topic for more information.
+- Set desired filters in the report header. See the [Filters](#filters) topic for more information.
 
 - Select as many Accounts details to show as needed. Selected details are shown in the table view for each account that comply filtering criteria.
 
 - Filter on Sort by to bring important accounts' data to front.
 
-- Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the [Reported Attributes](#Reported-Attributes) topic for more information.
+- Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the [Reported Attributes](#reported-attributes) topic for more information.
 
 - The report is limited by 2000 records. To view all, create subscription to the report. The subscription (email attachment or file uploaded to a file share) will contain complete data.
 

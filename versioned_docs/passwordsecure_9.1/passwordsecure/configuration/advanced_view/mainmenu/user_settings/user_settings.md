@@ -27,7 +27,7 @@ If you leave the personal settings on the outside, there are two ways to inherit
 1. Global inheritance
 2. Inheritance on the basis of membership in organisational units (OU)
 
-Global settings are configured as usual in the [Main menu](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/main_menu_fc.md#Main-menu). The organisational units are inherited via the [Organisational structure](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md). All users who are assigned to an organisational unit inherit all user settings for this OU. In the present case, the users “Jones” and “Moore” inherit all settings from the “IT” organisational unit:
+Global settings are configured as usual in the [Main menu](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/main_menu_fc.md). The organisational units are inherited via the [Organisational structure](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md). All users who are assigned to an organisational unit inherit all user settings for this OU. In the present case, the users “Jones” and “Moore” inherit all settings from the “IT” organisational unit:
 
 ![inherit permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_117-en.png)
 

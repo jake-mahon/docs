@@ -6,9 +6,9 @@ Use the Permissions page to determine which permissions to remove. It is a wizar
 
 Use the following options to add, change or remove Permissions:
 
-- User – Specifies user permissions to add or change. To select different users, click the down-arrow to display the User window. See the [User Window](#User-Window) topic for additional information.
-- Folder – Specifies the folder for which to change permissions. Click the down-arrow to display the Folder window. See the [Folder Window](#Folder-Window) topic for additional information.
-- Permission – Selects a permission to assign. Click the down-arrow to display the Permission window. See the [Permission Window](#Permission-Window) topic for additional information.
+- User – Specifies user permissions to add or change. To select different users, click the down-arrow to display the User window. See the [User Window](#user-window) topic for additional information.
+- Folder – Specifies the folder for which to change permissions. Click the down-arrow to display the Folder window. See the [Folder Window](#folder-window) topic for additional information.
+- Permission – Selects a permission to assign. Click the down-arrow to display the Permission window. See the [Permission Window](#permission-window) topic for additional information.
 - Propagate permissions to child folders – Propagates permissions to the child folders of the selected folders
 - Once User, Folder, and Permission are selected, click __Add__ to add them to the summary of the action to be taken
 - To remove an added Permission, select it in the panel and click __Remove__

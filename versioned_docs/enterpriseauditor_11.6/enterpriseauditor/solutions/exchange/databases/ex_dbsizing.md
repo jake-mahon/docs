@@ -16,7 +16,7 @@ The following analysis tasks are selected by default:
 - SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 6 months. It can be modified.
-  - See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information
+  - See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
 - 03. Database details table – Creates the SA\_EX\_DBSizing\_StoreDetails table, accessible under the job’s Results node
 - 04. 30 day Database growth table – Creates the SA\_EX\_DBSizing\_30DayGrowth table, accessible under the job’s Results node
 - 05. 7 day Database growth table – Creates the SA\_EX\_DBSizing\_7DayGrowth table, accessible under the job’s Results node
@@ -27,7 +27,7 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
 - 01. Deletes all Stored Data
 
-  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX\_DBSizing Job produces the following pre-configured reports:
 

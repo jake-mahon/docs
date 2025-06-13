@@ -2,7 +2,7 @@
 
 Details the effective permissions that the specified account has on the SQL Server objects of the selected type. Use this report to review the permissions granted to users through your SQL Server objects.
 
-[![accountpermissionssqlserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/accountpermissionssqlserver.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/sqlserver/accountpermissionssqlserver.png)
+![accountpermissionssqlserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/accountpermissionssqlserver.png)
 
 ## Reported data
 
@@ -15,7 +15,7 @@ The summary section shows:
   - Windows Account
   - Login SQL Authentication
   - DB SQL User with password
-- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _<not set>_ is reported.
+- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _`<not set>`_ is reported.
 - __Total objects count__ — total number of objects that this account has access to.
 
 The detailed information under summary includes:

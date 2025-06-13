@@ -2,11 +2,11 @@
 
 These are reports on the VMware vCenter state-in-time data, including account permissions and object permissions:
 
-- [Account Permissions in vCenter](#Account-Permissions-in-vCenter)
-- [Detailed Account Permissions in vCenter](#Detailed-Account-Permissions-in-vCenter)
-- [Object Permissions in vCenter](#Object-Permissions-in-vCenter)
+- [Account Permissions in vCenter](#account-permissions-in-vcenter)
+- [Detailed Account Permissions in vCenter](#detailed-account-permissions-in-vcenter)
+- [Object Permissions in vCenter](#object-permissions-in-vcenter)
 
-To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ## Account Permissions in vCenter
 
@@ -14,7 +14,7 @@ Shows vCenter objects that user or group has explicit or inherited permissions o
 
 Supported object types and attributes are listed in the [VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 
@@ -30,7 +30,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 ### Related Reports
 
-- Clicking a Object path link opens the [Object Permissions in vCenter](#Object-Permissions-in-vCenter) report.
+- Clicking a Object path link opens the [Object Permissions in vCenter](#object-permissions-in-vcenter) report.
 - Clicking a Role link opens the detailed report on privileges for the account report.
 - Clicking the Defined in link opens the object permissions on vCenter level report.
 
@@ -40,7 +40,7 @@ Shows detailed list of privileges that the specified account has on the VMware o
 
 Supported object types and attributes are listed in the [VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 
@@ -61,7 +61,7 @@ Shows accounts with explicit or inherited permissions on a specific object in yo
 
 Supported object types and attributes are listed in the [VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
 
-For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for more information.
+For this report to function properly, you must enable the __Collect data for state-in-time reports__ option for the data source in the monitoring plan settings. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
 ### Filters
 
@@ -77,6 +77,6 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 ### Related Reports
 
-- Clicking a User account link opens the [Account Permissions in vCenter](#Account-Permissions-in-vCenter) report.
+- Clicking a User account link opens the [Account Permissions in vCenter](#account-permissions-in-vcenter) report.
 - Clicking a Role link opens the detailed report on privileges for the account report.
 - Clicking the Defined in link opens the object permissions on vCenter level report.

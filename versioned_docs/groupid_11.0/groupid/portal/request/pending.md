@@ -9,9 +9,9 @@ For each request, you can view the description, approver(s), requester name, the
 
 You can perform the following functions on __Requests Inbox__ page:
 
-- [Approve a request](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#Approve-a-request).
-- [Deny a request](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#Deny-a-request).
-- [Filter requests](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#Filter-requests).
+- [Approve a request](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#approve-a-request).
+- [Deny a request](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#deny-a-request).
+- [Filter requests](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md#filter-requests).
 
 __See Also__
 

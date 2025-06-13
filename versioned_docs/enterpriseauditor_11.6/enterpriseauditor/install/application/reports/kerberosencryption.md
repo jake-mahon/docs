@@ -34,7 +34,7 @@ __Step 4 –__ Configure necessary settings by checking each applicable box.
 
 __Step 5 –__ Click __Apply__, then click __OK__.
 
-A Local Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#Configure-Active-Directory-Users-and-Computers-Settings-to-allow-Kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
+A Local Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
 
 ## Group Security Policy
 
@@ -54,11 +54,11 @@ __Step 4 –__ Configure necessary settings by checking each applicable box.
 
 __Step 5 –__ Click __Apply__, then click __OK__.
 
-A Local Group Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#Configure-Active-Directory-Users-and-Computers-Settings-to-allow-Kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
+A Local Group Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
 
 ## Configure Active Directory Users and Computers Settings to allow Kerberos
 
-Follow the steps to ensure the settings for Active Directory Users and Computers are configured to allow the encryption methods to allow Kerberos. Configurations selected in this section should reflect the configuration options selected in the two sections above. See the [Local Security Policies](#Local-Security-Policies) and [Group Security Policy](#Group-Security-Policy) topics for additional information.
+Follow the steps to ensure the settings for Active Directory Users and Computers are configured to allow the encryption methods to allow Kerberos. Configurations selected in this section should reflect the configuration options selected in the two sections above. See the [Local Security Policies](#local-security-policies) and [Group Security Policy](#group-security-policy) topics for additional information.
 
 __Step 1 –__ Open the Active Directory Users and Computers window.
 

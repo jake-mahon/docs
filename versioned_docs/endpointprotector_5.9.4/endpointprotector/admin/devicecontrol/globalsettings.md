@@ -15,7 +15,7 @@ From this section, you can manage settings that relate directly to the Endpoint 
 
 - Client Mode – select a mode to change Endpoint Protector Client behavior.
 
-  __NOTE:__ Learn more from the [Client Mode](#Client-Mode) section.
+  __NOTE:__ Learn more from the [Client Mode](#client-mode) section.
 
 - Notiﬁer Language – Conﬁgure the Endpoint Protector Client to automatically match the OS language of the user for notiﬁcations. When set to "Automatic," the client adjusts its language to the user's OS language preference without any server interactions, enhancing the user experience and reducing confusion.
 
@@ -68,7 +68,7 @@ From this section, you can manage settings that relate directly to the Endpoint 
 - Allow formatting/renaming Removable devices in Trusted Device™ Level 1+ (TD1+) – only available for Windows, enable this setting to allow the user to format or rename a USB device that has TD1-x access permission.
 
   __NOTE:__ For this setting to work successfully, enable the Miniﬁlter Driver setting.
-- User Remediation Pop-up – this setting is available when the [User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#User-Remediation) feature is active and enables User Remediation pop-up notiﬁcations for end-users.
+- User Remediation Pop-up – this setting is available when the [User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation) feature is active and enables User Remediation pop-up notiﬁcations for end-users.
 - Enforce User Remediation Pop-up - this setting is available only if the User Remediation Pop-up setting is enabled. When this setting is enabled, end-users cannot disable User Remediation Pop-up notiﬁcations.
 - Notiﬁcations Pop-up – you can select between the traditional notiﬁcation, system tray, or pop-up notiﬁcations.
 - Enable Miniﬁlter driver – only available for Windows, this setting allows the use of an enhanced driver that provides more reliability and ease of maintenance. You can also enable this setting on the Computers/Users/Groups/Global Rights sections with Manage Settings from the Actions column.
@@ -154,7 +154,7 @@ In this section, you can manage the following settings:
 
 - Intercept VPN Traﬃc – if you enable this setting, you allow the Endpoint Protector Client to intercept VPN traﬃc on macOS using the network extension framework
 
-  __NOTE:__ Learn more from the [Intercept VPN Traﬃc](#Intercept-VPN-Traﬃc) topic.
+  __NOTE:__ Learn more from the [Intercept VPN Traﬃc](#intercept-vpn-traﬃc) topic.
 
 - Endpoint Protector Behavior with Network Extension Off – select a behavior type from the available entries
 - Peer Certiﬁcate Validation – enable this setting to turn on the Endpoint Protector certiﬁcate validation of the websites that are accessed by the user when DPI is active
@@ -187,7 +187,7 @@ In this section, you can manage the following settings:
        - The absence of the DPI certiﬁcate in the system keychain may also contribute to this scenario.
        - ‘Certiﬁcate Pinning’ also falls under this category.
 
-     __NOTE:__ Learn more about [Using Wireshark for Network Traﬃc Analysis](#Using-Wireshark-for-Network-Traﬃc-Analysis).
+     __NOTE:__ Learn more about [Using Wireshark for Network Traﬃc Analysis](#using-wireshark-for-network-traﬃc-analysis).
   2. Bypass Unknown TLS Handshakes
      - Enable this setting, when a secure port connection employs custom encryption instead of TLS, the DPI bypass is activated.
 
@@ -222,7 +222,7 @@ In this section, you can manage the following settings:
 
 - DPI Bypass Event Logging – this setting will automatically send DPI Bypass events/reasons to Endpoint Protector Server when connections are being bypassed on endpoints.
 
-  __NOTE:__ Learn more about [Bypass Log Reporting Frequency](#Bypass-Log-Reporting-Frequency).
+  __NOTE:__ Learn more about [Bypass Log Reporting Frequency](#bypass-log-reporting-frequency).
 
 ![If enabled, network and browser traﬃc can be inspected for content](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/dpiconfiguration.png)
 
@@ -403,7 +403,7 @@ To conﬁgure Group Policy Objects (GPO) to deploy a browser extension to Window
 
    __Step 1 –__ Refer to the oﬃcial [Google support guide](https://support.google.com/chrome/a/answer/10407780?hl=en) for detailed instructions.
 
-   __Step 2 –__ Download the [Chrome Group Policy](https://chromeenterprise.google/browser/download/#Chrome-Group-Policy).
+   __Step 2 –__ Download the [Chrome Group Policy](https://chromeenterprise.google/browser/download/#chrome-group-policy).
 
    __Step 3 –__ Conﬁgure your Group Policy as shown below.
 
@@ -454,7 +454,7 @@ Once these settings are made, the fallback device type rights can be set Globall
 
 __CAUTION:__ When triggered, fallback policies supersede the standard device rights. Regarding fallback policies, the Outside Network Policies supersede the Outside Hours Policies.
 
-__NOTE:__ For [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md#Content-Aware-Protection), the Outside Network and Outside Hours Policy Type also needs to be selected.
+__NOTE:__ For [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md), the Outside Network and Outside Hours Policy Type also needs to be selected.
 
 ![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidehoursnetwork.png)
 
@@ -506,7 +506,7 @@ __Step 3 –__ For Error, Warning, Informational, and Debug log levels select __
 
 __Step 4 –__ __Save.__
 
-__NOTE:__ Read the [Data Obfuscation Rules](#Data-Obfuscation-Rules) section for more information.
+__NOTE:__ Read the [Data Obfuscation Rules](#data-obfuscation-rules) section for more information.
 
 ![Used to debug feature and collect logs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/debugloggingtwo.png)
 

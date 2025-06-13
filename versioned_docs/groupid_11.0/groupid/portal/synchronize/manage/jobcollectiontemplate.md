@@ -10,13 +10,13 @@ Because of the wide variation of possible job combinations, Synchronize does not
 
 What do you want to do?
 
-- [Create a job collection template from a job collection](#Create-a-job-collection-template-from-a-job-collection)
-- [Import a Job Collection Template](#Import-a-Job-Collection-Template)
-- [Export a Job Collection Template](#Export-a-Job-Collection-Template)
-- [Create a Job Collection from a Template](#Create-a-Job-Collection-from-a-Template)
-- [Rename a Job Collection Template](#Rename-a-Job-Collection-Template)
-- [Delete a Job Collection Template](#Delete-a-Job-Collection-Template)
-- [Filter Job Collection Templates](#Filter-Job-Collection-Templates)
+- [Create a job collection template from a job collection](#create-a-job-collection-template-from-a-job-collection)
+- [Import a Job Collection Template](#import-a-job-collection-template)
+- [Export a Job Collection Template](#export-a-job-collection-template)
+- [Create a Job Collection from a Template](#create-a-job-collection-from-a-template)
+- [Rename a Job Collection Template](#rename-a-job-collection-template)
+- [Delete a Job Collection Template](#delete-a-job-collection-template)
+- [Filter Job Collection Templates](#filter-job-collection-templates)
 
 ## Create a job collection template from a job collection
 

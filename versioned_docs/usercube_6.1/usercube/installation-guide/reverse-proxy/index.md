@@ -24,7 +24,7 @@ As Usercube is session-less, working with several servers does not imply the nee
 
 For these tasks, [nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/#nginx) is a relevant choice of reverse proxy. There are several versions of nginx available, suitable for several Linux-based environments. [Installation instructions](https://docs.nginx.com/nginx/admin-guide/installing-nginx/) can be found directly on the nginx website.
 
-At its core, Usercube is an ASP.Net application with a Kestrel server. We can configure a nginx reverse proxy accordingly by following [Microsoft's guidelines](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-8.0&tabs=linux-ubuntu#Microsofts-guidelines).
+At its core, Usercube is an ASP.Net application with a Kestrel server. We can configure a nginx reverse proxy accordingly by following [Microsoft's guidelines](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-8.0&tabs=linux-ubuntu#microsofts-guidelines).
 
 Nginx [configuration files](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/) are usually located in ```/etc/nginx```.
 
@@ -34,8 +34,8 @@ Nginx offers several [load balancing methods](https://docs.nginx.com/nginx/admin
 
 Then, in order for servers to be able to properly schedule and coordinate synchronization and provisioning, the following file locations must be shared by all Usercube servers:
 
-- [TempFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#TempFolderPath)
-- [WorkFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#WorkFolderPath)
+- [TempFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#tempfolderpath)
+- [WorkFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#workfolderpath)
 
 All Usercube servers also share a database.
 

@@ -14,7 +14,7 @@ Use the options to select the desired target disk.
 - Enumerate all mount points (available for Windows 2003+ systems) – Targets any drive letter on the target host that points to a mapped share drive
 - Registry lookup – Provides the path of connection to gather information from the Enterprise Auditor Registry Browser. By default, the local host will be targeted unless modified. The Registry value are instructions for the data found within the subfolders of the registry.
 
-  - The browse button __(…)__ under the Registry lookup option opens the Enterprise Auditor Registry Browser window. Use the registry browser to find registry keys and values that are on a target host in the environment. See the [DiskInfo: Registry Browser](#DiskInfo-Registry-Browser) topic for additional information.
+  - The browse button __(…)__ under the Registry lookup option opens the Enterprise Auditor Registry Browser window. Use the registry browser to find registry keys and values that are on a target host in the environment. See the [DiskInfo: Registry Browser](#diskinfo-registry-browser) topic for additional information.
 
 ## DiskInfo: Registry Browser
 

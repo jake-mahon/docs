@@ -6,7 +6,7 @@ Record sections impact the generation of identities' contexts which contain user
 
 Thanks to this data organization in sections, the identities of a given entity type can be modeled by more than one context over time, even simultaneously. This means that users can have more than one contract, or position, at a time, and that data changes can be anticipated.
 
-[See more details about identity modeling](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#See-more-details-about-identity-modeling).
+[See more details about identity modeling](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#see-more-details-about-identity-modeling).
 
 __Configuration recommendations:__
   
@@ -111,10 +111,10 @@ When not specifying any sort key nor extended sort key, Usercube will select a c
 | ExtendedSortKey   optional | __Type__    String   __Description__   Value used as a threshold for ```SortKeyExpression``` values to determine whether the [property](#property) values of a given record section can be extended from a context where the values are defined to another context where no properties from the section are defined.   This extension is enabled only when the value of ```SortKeyExpression``` of the section is higher (with an ordinal comparison) than ```ExtendedSortKey```. |
 | ExtensionKind   default value: 0 | __Type__    RecordExtensionKind   __Description__   Defines whether the section's property values can be extended (copied) from a context where the properties are defined to another context where no properties from the section are defined.   ```0``` - Default: the section's property values can be extended.   ```4``` - None: the section's property values cannot be extended. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the section. |
-| InstanceKeyExpression   optional | __Type__    String   __Description__   Expression returning a key to uniquely identify a context, i.e. distinguish between job positions for example when users can have several concurrent positions, or between contracts. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| InstanceKeyExpression   optional | __Type__    String   __Description__   Expression returning a key to uniquely identify a context, i.e. distinguish between job positions for example when users can have several concurrent positions, or between contracts. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
 | IsDefaultBoundariesSection   default value: false | __Type__    Boolean   __Description__   ```true``` to use the start/end dates of this section as the default boundaries, i.e. the start/end dates of users' [validity period](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md#validity-period). When no section has ```IsDefaultBoundaries``` set to ```true```, the default section (the one without properties) is automatically selected. |
 | ResourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the multiple records to be created. |
-| SortKeyExpression   optional | __Type__    String   __Description__   C# expression used to compute a value for each record, to be used as a priority, following an ordinal comparison. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions).   When a record section has ```ExtensionKind``` set to ```Default``` and a priority value higher than ```ExtendedSortKey```, then the record property values can be extended from a context where the values are defined to another context where no properties from the section are defined. |
+| SortKeyExpression   optional | __Type__    String   __Description__   C# expression used to compute a value for each record, to be used as a priority, following an ordinal comparison. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions).   When a record section has ```ExtensionKind``` set to ```Default``` and a priority value higher than ```ExtendedSortKey```, then the record property values can be extended from a context where the values are defined to another context where no properties from the section are defined. |
 | SourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the parent resource. |
 | StartProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the beginning of validity for all [properties](#properties) of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
 
@@ -128,7 +128,7 @@ In the following example, the position section gathers the properties ```Organiz
 
 The property ```Location``` can be extended from a context where the location is defined to a context where it is not. The two other properties cannot be extended.
 
-[See more details about record extension](#See-more-details-about-record-extension).
+[See more details about record extension](#see-more-details-about-record-extension).
 
 ```
 

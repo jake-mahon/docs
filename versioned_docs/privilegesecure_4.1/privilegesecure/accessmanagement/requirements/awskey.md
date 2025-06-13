@@ -6,10 +6,10 @@ See the [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/deve
 
 When creating an AWS KMS protection key for Netwrix Privilege Secure, start by creating a policy in AWS. There will be multiple configuration steps needed within AWS.
 
-- [Create an AWS Policy](#Create-an-AWS-Policy)
-- [Create a User](#Create-a-User)
-- [Create a Managed Key](#Create-a-Managed-Key)
-- [Least Privilege Policy](#Least-Privilege-Policy)
+- [Create an AWS Policy](#create-an-aws-policy)
+- [Create a User](#create-a-user)
+- [Create a Managed Key](#create-a-managed-key)
+- [Least Privilege Policy](#least-privilege-policy)
 
 ### Create an AWS Policy
 

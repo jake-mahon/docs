@@ -11,7 +11,7 @@ The process for configuration deployment varies according to the situation:
 
 ## Deploy the Configuration Locally
 
-Deploy a local XML configuration by using the [```Deploy-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md#Deploy-Configuration-executable) and declaring at least:
+Deploy a local XML configuration by using the [```Deploy-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md#deploy-configuration-executable) and declaring at least:
 
 - the configuration directory;
 - the connection string of the database.
@@ -66,7 +66,7 @@ Deploy a SaaS XML configuration by proceeding as follows:
 
    The administrator will add the identity information to the configuration of your Usercube instance, to allow the configuration deployment/export.
 
-4. Deploy the configuration by using the [```Deploy-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md#Deploy-Configuration-executable) and declaring at least:
+4. Deploy the configuration by using the [```Deploy-Configuration``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md#deploy-configuration-executable) and declaring at least:
 
    - the configuration directory;
    - the deployment environment;

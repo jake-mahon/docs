@@ -12,7 +12,7 @@ The email will include the following information:
 - Access — Level of access being requested
 - Request Notes — Note supplied by the requester
 
-See the [Process Request Via Email](#Process-Request-Via-Email) topic for additional information.
+See the [Process Request Via Email](#process-request-via-email) topic for additional information.
 
 ## Process Request Via Email
 

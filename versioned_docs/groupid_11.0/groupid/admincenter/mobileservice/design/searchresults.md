@@ -9,9 +9,9 @@ You can customize these pages by adding, updating, and removing fields.
 
 What do you want to do?
 
-- [Add a Field to a Search Results Page](#Add-a-Field-to-a-Search-Results-Page)
-- [Edit a Field on a Search Results Page](#Edit-a-Field-on-a-Search-Results-Page)
-- [Remove a Field from a Search Results Page](#Remove-a-Field-from-a-Search-Results-Page)
+- [Add a Field to a Search Results Page](#add-a-field-to-a-search-results-page)
+- [Edit a Field on a Search Results Page](#edit-a-field-on-a-search-results-page)
+- [Remove a Field from a Search Results Page](#remove-a-field-from-a-search-results-page)
 
 ## Add a Field to a Search Results Page
 
@@ -51,7 +51,7 @@ To update a field:
    The __Search Results__ tab of the __Search Forms__ page lists the search result forms in the GroupID mobile app.
 5. Click __Edit__ for a form to modify it.
 6. On the __Edit Search Results__ pane, click __Edit__ for a field to update it.  
-   The __Edit Field__ pane is displayed. Follow step 7 and onwards in the [Add a Field to a Search Results Page](#Add-a-Field-to-a-Search-Results-Page) topic to update the field.
+   The __Edit Field__ pane is displayed. Follow step 7 and onwards in the [Add a Field to a Search Results Page](#add-a-field-to-a-search-results-page) topic to update the field.
 
 ## Remove a Field from a Search Results Page
 

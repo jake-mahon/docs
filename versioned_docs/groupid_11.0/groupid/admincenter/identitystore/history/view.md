@@ -9,11 +9,11 @@ Furthermore, if history tracking is not enabled or has been lately disabled, the
 
 What do you want to do?
 
-- [View Identity Store History](#View-Identity-Store-History)
-- [Filter History Data](#Filter-History-Data)
-- [Navigate Through History Items](#Navigate-Through-History-Items)
-- [Annotate History Items](#Annotate-History-Items)
-- [Export History Data](#Export-History-Data)
+- [View Identity Store History](#view-identity-store-history)
+- [Filter History Data](#filter-history-data)
+- [Navigate Through History Items](#navigate-through-history-items)
+- [Annotate History Items](#annotate-history-items)
+- [Export History Data](#export-history-data)
 
 ## View Identity Store History
 
@@ -90,7 +90,7 @@ __To annotate history items:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __History__ under __Settings__ in the left pane.
 4. On the __Identity Store History__ page, click a history item.
-5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md#Annotate-History-Items) topic.
+5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items) topic.
 
 ## Export History Data
 

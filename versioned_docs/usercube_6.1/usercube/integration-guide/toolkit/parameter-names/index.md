@@ -4,7 +4,7 @@
 
 Some attributes names in the applicative configuration, such a those related to dimensions identification, are written using a [Base32 representation of numbers](https://en.wikipedia.org/wiki/Base32).
 
-Usercube uses flavor of base32 known as __base32hex__ described in the [RFC4648](https://tools.ietf.org/html/rfc4648#RFC4648).
+Usercube uses flavor of base32 known as __base32hex__ described in the [RFC4648](https://tools.ietf.org/html/rfc4648#rfc4648).
 
 It uses 10 digits from 0 to 9 and 22 letters from A to V to represent numbers.
 

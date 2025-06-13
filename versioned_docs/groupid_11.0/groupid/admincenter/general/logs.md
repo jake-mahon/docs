@@ -4,7 +4,7 @@ GroupID generates logs for its services, clients, and Windows events, which are 
 
 What do you want to do?
 
-- [Get Log Files](#Get-Log-Files)
+- [Get Log Files](#get-log-files)
 
 ## Get Log Files
 

@@ -18,7 +18,7 @@ __CAUTION:__ Lockdown/blocking policies with blank filters result in everything 
 
 After enabling an Exchange login blocking policy, mail clients with existing connections to Outlook, OWA, PowerShell, EWS, ECP, and ActiveSync will not be blocked while the existing connection remains. See the [Exchange Lockdown Considerations](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/exchangelockdown.md) topic for information on resolving this.
 
-__NOTE:__ There are additional factors to consider in order to block delegations through Outlook. See the [Troubleshooting FAQs](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md#Troubleshooting-FAQs) topic for additional information.
+__NOTE:__ There are additional factors to consider in order to block delegations through Outlook. See the [Troubleshooting FAQs](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md#troubleshooting-faqs) topic for additional information.
 
 ## Exchange Event Filter
 

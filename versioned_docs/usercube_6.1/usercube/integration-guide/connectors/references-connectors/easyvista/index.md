@@ -87,7 +87,7 @@ Besides, ```"Profiles"``` is used here as an example and corresponds to a name t
 
 ### Output details
 
-This connector is meant to generate to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder:
+This connector is meant to generate to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder:
 
 - a CSV file, named ```<connectionIdentifier>_Employees.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association;
 - a CSV file for each customized entity, named ```<connectionIdentifier>_<EntityName>.csv```.
@@ -144,7 +144,7 @@ The EasyVista connector writes to EasyVista to create, archive (delete from User
 
 ### Configuration
 
-[Same as for export](#Same-as-for-export), fulfill is configured through connections.
+[Same as for export](#same-as-for-export), fulfill is configured through connections.
 
 > For example:
 >
@@ -188,7 +188,7 @@ This connector can:
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#See-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
 
 ### Credential protection
 

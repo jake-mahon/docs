@@ -105,8 +105,7 @@ __Choose the set(s) of instructions that correspond to your installation type:__
 
       ```sql
       DELETE  FROM UJ_TaskResourceTypes
-      DELETE  FROM UJ_JobSteps```
-
+      DELETE  FROM UJ_JobSteps
       ```
    6. Deploy the configuration.
       Since the new configuration import tool is smarter:
@@ -188,7 +187,7 @@ This installation should be performed only after the server has been upgraded.
       ```or```
       ./Usercube-Upgrade-Files.exe --version "5.1.7" --migrate-agent --file-cert-thumbprint "certificateThumbprint" --file-cert-store-location "certificateStoreLocation" --file-cert-store-name "certificateStoreName"
       ```
-   4. Copy the file(s) "./tracked-accounts-{system-identifier}.csv" from the old Runtime (if they exist) to the new ```WorkFolderPath``` location (the default is "../Work")
+   4. Copy the file(s) "./tracked-accounts-`{system-identifier}`.csv" from the old Runtime (if they exist) to the new ```WorkFolderPath``` location (the default is "../Work")
 5. Prepare appsettings migration
 
    1. Create a new temporary folder for the appsettings files, for example ```AppSettingsFolder```
@@ -237,7 +236,6 @@ This installation should be performed only after the server has been upgraded.
       DELETE  FROM UJ_TaskEntityTypes
       DELETE  FROM UJ_TaskResourceTypes
       DELETE  FROM UJ_JobSteps
-
       ```
    6. Deploy the configuration.
       Since the new configuration import tool is smarter:

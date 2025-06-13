@@ -10,8 +10,8 @@ Workflow approver acceleration settings apply to all workflows in the identity s
 
 What do you want to do?
 
-- [Apply Approver Acceleration](#Apply-Approver-Acceleration)
-- [Workflow Approver Acceleration Rules](#Workflow-Approver-Acceleration-Rules)
+- [Apply Approver Acceleration](#apply-approver-acceleration)
+- [Workflow Approver Acceleration Rules](#workflow-approver-acceleration-rules)
 
 ## Apply Approver Acceleration
 
@@ -32,7 +32,7 @@ __To apply approver acceleration:__
 
    NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings are disabled and a message is displayed with a __Configure Now__ link to redirect you to the __Notifications__ page.
 5. Use the __Approver Acceleration__ toggle button to apply the approver acceleration settings and rules to all workflows defined for the identity store.  
-   To exempt a particular workflow, open it and clear the __Approver Acceleration__ check box. See the [Modify a Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#Modify-a-Workflow) topic.
+   To exempt a particular workflow, open it and clear the __Approver Acceleration__ check box. See the [Modify a Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#modify-a-workflow) topic.
 6. In the __Maximum Levels__ box, specify a number, say 2. Workflow requests would be accelerated to a maximum of 2 levels for approval. Requests that are nor approved or denied at the maximum level become static.
 7. In the __Repeat Every X Days__ box, specify x number of days, say 5. When an approver does not act on a request for the specified number of days, the request is accelerated to the next approver in the acceleration
    chain.
@@ -66,7 +66,7 @@ NOTE: Consider the following:
  1. If, in the acceleration chain, any approver is disabled, the workflow request is directly sent to the primary manager of the disabled approver in the same acceleration hop. Referring to the example in step 3, if User C is disabled,
 the workflow request will go to User D (instead of User C) in second-level acceleration.  
  2. If the hierarchy breaks at any point in the acceleration chain, the request is routed to the default approver. Referring
-to the example in step 3, if User C does not have a manager, the chain breaks. As a result, the request is sent to the default approver. See the [Cases for the Default Approver](#Cases-for-the-Default-Approver) topic.
+to the example in step 3, if User C does not have a manager, the chain breaks. As a result, the request is sent to the default approver. See the [Cases for the Default Approver](#cases-for-the-default-approver) topic.
 
 ### When the Approver is a Group
 
@@ -86,7 +86,7 @@ Acceleration rules for a group approver are:
 4. If the group set as approver has a nested group as its member, then requests are also sent to members of the nested group, but only up till level 1.  
    Suppose a group has three members; User A, User B, and Group C (nested group). A request sent to this group goes to User A, User B, and all members of Group C. If Group C has another group as its member, the request will not go to the member
    group.
-5. Scenarios where an approver is disabled or the hierarchy breaks are discussed as a note at the end of the [When the Approver is a User](#When-the-Approver-is-a-User) topic.
+5. Scenarios where an approver is disabled or the hierarchy breaks are discussed as a note at the end of the [When the Approver is a User](#when-the-approver-is-a-user) topic.
 
 ### Cases for the Default Approver
 

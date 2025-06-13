@@ -9,7 +9,7 @@ The Active Directory service account identified on the Active Directory page of 
 
 When File System or SharePoint resources will be managed through the AIC, it is necessary to configure access groups for those resources in the target environment. An access group provides one of the following access levels to a specific resource: Read, Modify, or Full Control. See the [Access Groups](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
 
-__NOTE:__ The Access Information Center can only commit group membership changes to domains it has access to, that is the domain where it resides or domains with a trust that are known to it. Also, the Active Directory service account must have the required permissions for all applicable domains. See the [Multiple Domains](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/activedirectory.md#Multiple-Domains) topic for additional information.
+__NOTE:__ The Access Information Center can only commit group membership changes to domains it has access to, that is the domain where it resides or domains with a trust that are known to it. Also, the Active Directory service account must have the required permissions for all applicable domains. See the [Multiple Domains](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/activedirectory.md#multiple-domains) topic for additional information.
 
 ## Best Practice for Least Privilege
 

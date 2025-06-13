@@ -6,6 +6,6 @@ __Step 2 –__ In the Event Viewer dialog, navigate to __Event Viewer (local)__ 
 
 __Step 3 –__ Review events.
 
-[![EventLog_Export_Example](/img/versioned_docs/auditor_10.6/auditor/addon/solarwinds/eventlogexportexample.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/eventlogexportexample.png)
+![EventLog_Export_Example](/img/versioned_docs/auditor_10.6/auditor/addon/solarwinds/eventlogexportexample.png)
 
 Now you can augment Windows event log with data collected by the Auditor.

@@ -8,14 +8,14 @@ For your convenience, you can create additional folders for your custom reports.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-[![customreport](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/customreport.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/customreport.png)
+![customreport](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/customreport.png)
 
 Review the following for additional information:
 
-- [To save a search as a custom report](#To-save-a-search-as-a-custom-report)
-- [To modify a custom report](#To-modify-a-custom-report)
-- [To subscribe to a custom report](#To-subscribe-to-a-custom-report)
-- [To delete a custom report](#To-delete-a-custom-report)
+- [To save a search as a custom report](#to-save-a-search-as-a-custom-report)
+- [To modify a custom report](#to-modify-a-custom-report)
+- [To subscribe to a custom report](#to-subscribe-to-a-custom-report)
+- [To delete a custom report](#to-delete-a-custom-report)
 
 ## To save a search as a custom report
 

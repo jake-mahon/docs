@@ -16,11 +16,11 @@ Notice that the card has three sections, namely:
 
 What do you want to do?
 
-- [Manage the Card Header](#Manage-the-Card-Header)
-- [Manage the Card Footer](#Manage-the-Card-Footer)
-- [Specify an Attribute for the Card Body](#Specify-an-Attribute-for-the-Card-Body)
-- [Update the Display Name for an Attribute](#Update-the-Display-Name-for-an-Attribute)
-- [Remove an Attribute](#Remove-an-Attribute)
+- [Manage the Card Header](#manage-the-card-header)
+- [Manage the Card Footer](#manage-the-card-footer)
+- [Specify an Attribute for the Card Body](#specify-an-attribute-for-the-card-body)
+- [Update the Display Name for an Attribute](#update-the-display-name-for-an-attribute)
+- [Remove an Attribute](#remove-an-attribute)
 
 ## Manage the Card Header
 

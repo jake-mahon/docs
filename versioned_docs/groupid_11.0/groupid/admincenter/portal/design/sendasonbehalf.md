@@ -8,7 +8,7 @@ The _Send on Behalf_ permission in Microsoft Exchange and Office 365 allows a us
 
 For example, when User A grants Send on Behalf permissions to User B, then User B can send email on behalf of User A. User B will be able to choose User A’s email address in the ‘From’ field when composing a message in Outlook. Message recipients will see both User A’s address and User B’s address, as the ‘From’ address will read as:
 
-_From: Mailbox `<User B's address>` on behalf of Mailbox <User A’s address>._
+_From: Mailbox `<User B's address>` on behalf of Mailbox `<User A’s address>`._
 
 ### The Send As Permission
 
@@ -27,8 +27,8 @@ In the following content, a ‘target object’ refers to the object that can ad
 
 What do you want to do?
 
-- [Set up the Send As Feature](#Set-up-the-Send-As-Feature)
-- [Set up the Send on Behalf Feature](#Set-up-the-Send-on-Behalf-Feature)
+- [Set up the Send As Feature](#set-up-the-send-as-feature)
+- [Set up the Send on Behalf Feature](#set-up-the-send-on-behalf-feature)
 
 ## Set up the Send As Feature
 
@@ -47,7 +47,7 @@ You can provide the Send As setting on any tab of an object’s properties page 
 8. In the __Field__ drop-down list, select the _XAdPermissionExtendedRights_ attribute.
 9. In the __Display Name__ box, provide a label for the field, such as ‘Send As Permissions’. The Send As field will be displayed with this name in the portal.
 10. In the __Display Type__ drop-down list, select ‘DNs’.
-11. In the __Visibility Level__ drop-down list, select a security role. The Send As field would be visible to users of this role and roles with a priority value higher than this role. It would not even be visible to group owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+11. In the __Visibility Level__ drop-down list, select a security role. The Send As field would be visible to users of this role and roles with a priority value higher than this role. It would not even be visible to group owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a mailbox). It would be hidden from other users, such as group members or the mailbox itself. In other words, the field would be visible to group owners for their respective groups and to managers for their respective direct reports in the portal.
@@ -99,7 +99,7 @@ You can provide the Send on Behalf setting on any tab of an object’s propertie
 8. In the __Field__ drop-down list, select the _publicDelegates_ attribute.
 9. In the __Display Name__ provide a label for the field, such as ‘Send on Behalf Permissions’. The Send on Behalf field will be displayed with this name on the portal.
 10. In the __Display Type__ drop-down list, select ‘DNs’.
-11. In the __Visibility Level__ drop-down list, select a security role. The Send on Behalf field would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners (for their groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+11. In the __Visibility Level__ drop-down list, select a security role. The Send on Behalf field would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners (for their groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a mailbox). It would be hidden from other users, such as group members or the mailbox itself. In other words, the field would be visible to group owners for their respective groups and to managers for their respective direct reports in the portal.

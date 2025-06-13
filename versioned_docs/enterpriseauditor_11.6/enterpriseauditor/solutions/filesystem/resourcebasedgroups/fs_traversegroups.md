@@ -15,7 +15,7 @@ Targeted Hosts
 
 Schedule Frequency
 
-This job can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#Scheduling-the-Resource-Based-Groups-Job-Group) topic for additional information.
+This job can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group) topic for additional information.
 
 History Retention
 
@@ -33,13 +33,13 @@ __Step 3 –__ Configure and execute analysis tasks.
 
 - Configure the Create Groups analysis task
 - Execute the analysis tasks
-- See the [Configure & Execute Analysis Tasks](#Configure-Execute-Analysis-Tasks) topic for additional information
+- See the Configure & Execute Analysis Tasks topic for additional information
 
 __Step 4 –__ Configure and execute Active Directory action task.
 
 - Configure & Enable the Create Groups action task
 - Execute the Create Groups action task
-- See the [Configure & Execute Active Directory Action Task](#Configure-Execute-Active-Directory-Action-Task) topic for additional information
+- See the Configure & Execute Active Directory Action Task topic for additional information
 
 __Step 5 –__ Execute File System action task.
 
@@ -47,11 +47,11 @@ __Step 5 –__ Execute File System action task.
 - Disable the Active Directory action task
 - Enable the Modify Permissions action task
 - Execute the Modify Permissions action task
-- See the [Execute File System Action Task](#Execute-File-System-Action-Task) topic for additional information
+- See the [Execute File System Action Task](#execute-file-system-action-task) topic for additional information
 
 __Step 6 –__ Generate and review the List Traverse Group Changes report.
 
-- See the [Generate the List Traverse Group Changes Report](#Generate-the-List-Traverse-Group-Changes-Report) topic for additional information
+- See the [Generate the List Traverse Group Changes Report](#generate-the-list-traverse-group-changes-report) topic for additional information
 
 ## Configure & Execute Analysis Tasks
 
@@ -106,7 +106,7 @@ There are the following action tasks:
 - Create Groups – Create groups and add resource based groups
 - Modify Permissions – Add list groups
 
-It is recommended to review the tables used by the actions prior to executing the actions. For instructions on configuring action tables, see the [Configure & Enable the Create Groups Action Task](#Configure-Enable-the-Create-Groups-Action-Task) topic. The actions act upon the data within the following tables:
+It is recommended to review the tables used by the actions prior to executing the actions. For instructions on configuring action tables, see the Configure & Enable the Create Groups Action Task topic. The actions act upon the data within the following tables:
 
 - FS\_ListTraverseGroups\_NewGroups
 - FS\_ListTraverseGroups\_NewPermissions

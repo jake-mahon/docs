@@ -21,7 +21,7 @@ The Analysis section at the top has four options:
 - Delete Analysis – Deletes the selected analysis task from the list
   - This action does require confirmation
 - Analysis Properties – Opens the Analysis Properties window for the selected analysis task
-  - See the [Analysis Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md#Analysis-Properties-Page) topic for additional information.
+  - See the [Analysis Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md#analysis-properties-page) topic for additional information.
   - See the individual analysis module sections in the [Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md) topic for additional information.
 - Analysis Configuration – Opens the selected analysis task’s configuration window
 

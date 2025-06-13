@@ -4,8 +4,8 @@ While creating or editing mail enabled objects through a Synchronize job, GroupI
 
 What do you want to do?
 
-- [Sync Google Workspace subscriptions](#Sync-Google-Workspace-subscriptions)
-- [Deprovision existing Google Workspace subscriptions](#Deprovision-existing-Google-Workspacesubscriptions)
+- [Sync Google Workspace subscriptions](#sync-google-workspace-subscriptions)
+- [Deprovision existing Google Workspace subscriptions](#deprovision-existing-google-workspacesubscriptions)
 
 ## Sync Google Workspace subscriptions
 

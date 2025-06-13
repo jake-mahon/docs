@@ -14,7 +14,7 @@ It contains five pages:
   __NOTE:__ This feature requires the Access Information Center is to be configured to commit changes in Active Directory. Additionally, resource based groups must be set up on the resource. See the [Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for additional information.
 - 5. Summary — This page provides a preview of the settings selected within the wizard
 
-See the [Add a Resource](#Add-a-Resource) topic for additional information.
+See the [Add a Resource](#add-a-resource) topic for additional information.
 
 ## Add a Resource
 

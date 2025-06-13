@@ -14,7 +14,7 @@ The Mailflow job group uses Remote PowerShell through the ExchangePS Data Collec
 - Local Host
 - Custom Host List for Exchange Online
 
-  - The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online. See the [Exchange Online Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md#Exchange-Online-Host-List) topic for additional information.
+  - The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online. See the [Exchange Online Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md#exchange-online-host-list) topic for additional information.
 
 Connection Profile
 

@@ -1,6 +1,6 @@
 # Install the Server
 
-Usercube Server can be installed on the same workstation as the database or on a separate workstation. If you are installing Usercube within the SaaS offering, this section is moot. You can skip directly to [Set up End-User Authentication](#Set-up-End-User-Authentication).
+Usercube Server can be installed on the same workstation as the database or on a separate workstation. If you are installing Usercube within the SaaS offering, this section is moot. You can skip directly to [Set up End-User Authentication](#set-up-end-user-authentication).
 
 Please make sure that the [server requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md) are met before going further.
 
@@ -10,13 +10,13 @@ In [Create a Working Directory](/versioned_docs/usercube_6.1/usercube/installati
 
 ## Set up the License Key
 
-The license key provided by Usercube must be set up in the [appsetting.json > License](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingjson-License) attribute.
+The license key provided by Usercube must be set up in the [appsetting.json > License](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingjson-license) attribute.
 
 ## Create an IIS Website
 
 It is recommended to run the Usercube Server as an IIS website.
 
-To install the Usercube Server as a Windows service, please jump to [Install the Server as a Windows Service](#Install-the-Server-as-a-Windows-Service).
+To install the Usercube Server as a Windows service, please jump to [Install the Server as a Windows Service](#install-the-server-as-a-windows-service).
 
 Adding the Usercube Server as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 
@@ -223,7 +223,7 @@ This is the key pair used to perform various encryption operations, such as sour
 
 1. Generate a key pair using the OpenSSL method.
 2. Store the key pair as a ```.pfx``` file or use the Windows [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store) (recommended) .
-3. Link the generated certificate to Usercube (see [```appsettings.json > EncryptionCertificate```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingsjson-EncryptionCertificate)).
+3. Link the generated certificate to Usercube (see [```appsettings.json > EncryptionCertificate```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingsjson-encryptioncertificate)).
 
 ### Generate and use an identity server key pair
 
@@ -231,7 +231,7 @@ This is the key pair used by the Identity Server for end-user authentication pur
 
 1. Generate a key pair using the OpenSSL method.
 2. Store the key pair as a .```pfx``` file or use the Windows [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store) (recommended).
-3. Link the generated certificate to Usercube (see [```appsettings.json > IdentityServer```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#appsettingsjson-IdentityServer)).
+3. Link the generated certificate to Usercube (see [```appsettings.json > IdentityServer```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#appsettingsjson-identityserver)).
 
 #### Certificate as a plain file
 
@@ -278,13 +278,13 @@ The certificate can be stored in the certificate store instead of the file syste
 
 Now that the Usercube Server has been provided with a service account with the right permissions, let's finalize the setup.
 
-The connection between the Server and the Database requires choosing an [authentication method](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md): [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#Windows-Authentication) or [SQL Server authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#SQL-Server-authentication). Windows authentication will require the IIS identity to be set to the custom Windows service account used to log in to the Usercube's Windows Server session. SQL authentication will work with both the _built-in_ app pool identity and a custom service account. This authentication method will write the login and password directly in the connection string.
+The connection between the Server and the Database requires choosing an [authentication method](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md): [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication) or [SQL Server authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#sql-server-authentication). Windows authentication will require the IIS identity to be set to the custom Windows service account used to log in to the Usercube's Windows Server session. SQL authentication will work with both the _built-in_ app pool identity and a custom service account. This authentication method will write the login and password directly in the connection string.
 
-```Runtime/appsettings.json``` is a [technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md) file that enables you to set up the connection between the Server and the Database through the [ConnectionString](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#ConnectionString) attribute.
+```Runtime/appsettings.json``` is a [technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md) file that enables you to set up the connection between the Server and the Database through the [ConnectionString](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#connectionstring) attribute.
 
 The connection string is set up in the ```Runtime/appsettings.json``` configuration file which can be edited with any text editor, such as [Notepad++](https://notepad-plus-plus.org/downloads/).
 
-If the SQL Server is hosted on Azure, you should use the [AzureCredentials](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#AzureCredentials) setting before going further.
+If the SQL Server is hosted on Azure, you should use the [AzureCredentials](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#azurecredentials) setting before going further.
 
 In the```Runtime/appsettings.json``` file, find or write the ```ConnectionString``` attributes following the examples shown below:
 
@@ -349,12 +349,12 @@ This can be achieved using the [Microsoft Management Console (MMC)](https://en.w
 
 ## DNS
 
-Your organization's DNS needs to be updated according to the requirements indicated in [Hostname and DNS](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#Hostname-and-DNS).
+Your organization's DNS needs to be updated according to the requirements indicated in [Hostname and DNS](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#hostname-and-dns).
 
 ## Test Your Installation
 
 1. Make sure the IIS site is running.
-2. Go to the following URL with a browser: ```<hostname>:<port>/hc``` with the hostname and port set up in [Create an IIS website](#Create-an-IIS-website).
+2. Go to the following URL with a browser: ```<hostname>:<port>/hc``` with the hostname and port set up in [Create an IIS website](#create-an-iis-website).
 3. The Usercube Server is trying to access the Database. If it succeeds, the message "_Healthy_" should be displayed in the browser.
 
 ## Configure the Starting Mode in IIS (optional)

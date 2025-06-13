@@ -30,11 +30,11 @@ There are three types of events that can be logged:
 
 Review the following:
 
-- [Inspect Events in Health Log](#Inspect-Events-in-Health-Log)
+- [Inspect Events in Health Log](#inspect-events-in-health-log)
 
 If you want to monitor Auditor health status in more depth, you can do the following:
 
-- Create a monitoring plan for this log using Event Log Manager too to collect activity data. [See the ](/versioned_docs/auditor_10.6/auditor/admin/standalone_tools/event_log_manager/nasystem_health_configure_elm.md)[Monitoring Overview](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/monitoringoverview.md) topic for additional information.
+- Create a monitoring plan for this log using Event Log Manager too to collect activity data. See the Monitoring Overview topic for additional information.
 - Configure alerts triggered by specific events in the product's health log. [Create Alerts on Health Status](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createhealthstatus.md)
 
 ## Inspect Events in Health Log
@@ -64,6 +64,6 @@ __Step 2 –__ Complete the following fields:
 | Item name | Select to display events from the certain item(s) you need. |
 | Event ID | Enter event ID number or range of event IDs separated by commas. For example, 1, 3, 5-99.  You can also exclude unwanted event IDs from being displayed. Type the minus sign before selected event ID. For example, -76. |
 
-[![healthlogfilters](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthlogfilters.png)](/versioned_docs/auditor_10.6/resources/images/auditor/health/healthlogfilters.png)
+![healthlogfilters](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthlogfilters.png)
 
 The applied filters will be listed on the top of the screen under the window title.

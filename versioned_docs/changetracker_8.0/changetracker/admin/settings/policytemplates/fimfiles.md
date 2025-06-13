@@ -38,4 +38,4 @@ In fact, all significant attributes for each file are tracked and any change to 
 
 Exclusions are configured in a similar manner to the inclusive tracking above.
 
-__NOTE:__ For Advanced Options: see [Appendix B](/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/filefolderrules.md#Appendix-B) for more information.
+__NOTE:__ For Advanced Options: see [File and Folder Match Filters](/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/filefolderrules.md) for more information.

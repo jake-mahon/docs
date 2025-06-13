@@ -41,12 +41,12 @@ The Queries section is where the job’s preconfigured queries can be edited and
 
 The Queries section has four options and includes the list of queries for the selected job:
 
-- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See the [Add Query from Library](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#Add-Query-from-Library) topic for additional information.
+- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See the [Add Query from Library](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#add-query-from-library) topic for additional information.
 - Create Query – Opens the Query Properties window for creating and configuring queries
 - Delete Query – Deletes the selected query from the list. This action does require confirmation.
 - Query Properties – Opens the Query Properties window for the selected query
   - This option is used for query modifications
-  - See the [Create or Modify a Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#Create-or-Modify-a-Query) topic for additional information
+  - See the [Create or Modify a Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#create-or-modify-a-query) topic for additional information
   - See the topics for the individual [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md) for additional information
 
 ## Right-click Menu

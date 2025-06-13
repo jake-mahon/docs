@@ -28,7 +28,7 @@ The following settings must be configured in Admin Center, so that administrator
 - __Create a GroupID portal__ - Create a web-based GroupID portal and link it to an identity store, so that users can carry out user, group, and entitlement management tasks. See the [GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/overview.md) topic.
 - __Create an SMS gateway account__ - Using an SMS gateway account, GroupID sends text messages to users’ mobile numbers, which may include verification codes and password reset links. See the [SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/overview.md) topic.
 
-See the [Menu Pane](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md#Menu-Pane) topic for additional information.
+See the [Menu Pane](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md#menu-pane) topic for additional information.
 
 ## Compatibility
 

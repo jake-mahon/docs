@@ -24,7 +24,7 @@ Content that has failed to process fully will be indicated under the "Exceptions
 - Deleted Automatically—Items that have been detected as removed from the source system
 - Deleted Manually—Items removed manually by an end-user via the administration console
 
-  [![dashboard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/dashboard_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/dashboard.png)
+  ![dashboard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/dashboard_thumb_0_0.png)
 
 ## System Health
 

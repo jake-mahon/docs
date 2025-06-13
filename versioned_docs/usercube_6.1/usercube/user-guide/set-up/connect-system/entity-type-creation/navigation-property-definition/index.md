@@ -44,7 +44,7 @@ If the property to be created does not exist in the external source, it is impos
   
 This can be used to store data needed for assignment management, but which you cannot write to the connected system. Since these properties do not exist in the connected system, they cannot be written or read.
   
-[See the example for scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md#See-the-example-for-scalar-properties).
+[See the example for scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md#see-the-example-for-scalar-properties).
 
 ## Define the Entity Type's Navigation Properties
 
@@ -61,7 +61,7 @@ Define the entity type's navigation properties by proceeding as follows:
 
    - __APPLICATION METADATA__: fields about the display of the properties inside Usercube.
 
-     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure).
+     - ```Identifier```: must be unique among properties, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
      - ```Entity Type```: always the entity type for the second property, but the first property can be mapped from any existing entity type in the application.
      - ```Storage Indicator```: describes the association that can be __mono-valued__ (meaning 1-to-1 or many-to-1) or __multi-valued__ (meaning 1-to-many or many-to-many).
 

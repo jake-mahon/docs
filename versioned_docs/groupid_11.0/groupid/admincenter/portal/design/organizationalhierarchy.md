@@ -6,7 +6,7 @@ By default, the organizational hierarchy chart displays four attributes of a use
 
 What do you want to do?
 
-- [Replace an Attribute on the Organizational Hierarchy Tree](#Replace-an-Attribute-on-the-Organizational-Hierarchy-Tree)
+- [Replace an Attribute on the Organizational Hierarchy Tree](#replace-an-attribute-on-the-organizational-hierarchy-tree)
 
 ## Replace an Attribute on the Organizational Hierarchy Tree
 

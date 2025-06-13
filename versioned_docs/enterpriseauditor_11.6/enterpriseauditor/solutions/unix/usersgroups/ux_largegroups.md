@@ -4,7 +4,7 @@ The UX\_LargeGroups job identifies groups with large member counts. These types 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The UX\_LargeGroups job has the following customizable parameter:
 
@@ -22,7 +22,7 @@ The default analysis task is:
 
 - Finds large groups. The parameter determining the minimum size for a large group can be configured in the SQL scripting module. – Creates the UX\_LargeGroups\_Details table accessible under the job’s Results node
 
-  - The threshold value used to determine if a group is considered large can be customized. See the [Parameter Configuration](#Parameter-Configuration) for additional information.
+  - The threshold value used to determine if a group is considered large can be customized. See the [Parameter Configuration](#parameter-configuration) for additional information.
 
 In addition to the table and views created by the analysis tasks, the UX\_LargeGroups job produces the following pre-configured report:
 

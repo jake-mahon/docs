@@ -95,11 +95,11 @@ The next step is to assign permissions on the physical folder that binds to your
     ```
 
    Remember, to provide values for alias "site name" and path "physical folder location of the site", created in the section
-   [Create a Site in Remote IIS](#Create-a-Site-in-Remote-IIS).
+   [Create a Site in Remote IIS](#create-a-site-in-remote-iis).
 
 ## Generate an Access Key
 
-Admin Center uses the [Microsoft IIS Administration API](https://docs.microsoft.com/en-us/iis-administration/) to communicate with remote IIS. Make sure this API is instphysical folder location of the site", created in the section [Create a Site in Remote IIS](#Create-a-Site-in-Remote-IIS)alled as a Windows service on the remote IIS
+Admin Center uses the [Microsoft IIS Administration API](https://docs.microsoft.com/en-us/iis-administration/) to communicate with remote IIS. Make sure this API is instphysical folder location of the site", created in the section [Create a Site in Remote IIS](#create-a-site-in-remote-iis)alled as a Windows service on the remote IIS
 machine.
 
 To connect to the API, an access key is required. Follow the steps below to generate it.

@@ -32,10 +32,10 @@ The model must take both into account. So both kinds of data must be extracted f
 
 Fortunately, you won't have to design your connector model from scratch. NETWRIX has done a little work ahead, and you are presented here with four model templates that have proven to work so far. Experience shows that most managed systems can be shaped using one or a mix of the following:
 
-- the [User](#User) model is the most simple model for a connector, where a user is directly associated with a list of entitlements;
-- the [User-Group](#User-Group) model represents typical [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) mechanisms, where the ability to perform an action is granted through accounts' membership to a specific group (also called role or profile according to the system);
-- the [Account-Profile-Transaction](#Account-Profile-Transaction) model represents a system, where the ability to perform an action is granted through the assignment of fine-grained entitlements (called transactions) which are packaged into profiles;
-- the [Star](#Star) model represents a system, where the ability to perform an action is granted through the assignment of entitlements which are based on at least two variable parameters.
+- the [User](#user) model is the most simple model for a connector, where a user is directly associated with a list of entitlements;
+- the [User-Group](#user-group) model represents typical [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) mechanisms, where the ability to perform an action is granted through accounts' membership to a specific group (also called role or profile according to the system);
+- the [Account-Profile-Transaction](#account-profile-transaction) model represents a system, where the ability to perform an action is granted through the assignment of fine-grained entitlements (called transactions) which are packaged into profiles;
+- the [Star](#star) model represents a system, where the ability to perform an action is granted through the assignment of entitlements which are based on at least two variable parameters.
 
 Each template presents a few objects and the relationships between them. To become the model of the actual managed system, these objects must be renamed and their attributes defined according to the reality of said managed system.
 
@@ -83,7 +83,7 @@ Define your connector model by proceeding as follows:
 
    The model is going to change and evolve during the life of the application, to account for new needs or changes. This must be considered too in the initial model to make future changes less painful.
 
-Find at the bottom a [procedure example about modeling the Active Directory](#procedure-example-about-modeling-the-Active-Directory).
+Find at the bottom a [procedure example about modeling the Active Directory](#procedure-example-about-modeling-the-active-directory).
 
 ## Model Templates
 
@@ -161,7 +161,7 @@ The only sensitive and required properties are those constituting the link betwe
 
 __Recommendation: categorize accounts in types__
   
-Many of the managed systems following this model, just like the [User model](#User-model), distinguish between several types of accounts.
+Many of the managed systems following this model, just like the [User model](#user-model), distinguish between several types of accounts.
   
 In further steps, you will be able to define one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per account type and map each one to a [role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for assignment and [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
 
@@ -195,7 +195,7 @@ Usercube receives a write access for users and profiles, only a read access for 
 
 __Recommendation: categorize accounts in types__
   
-Many of the managed systems following this model, just like the [User model](#User-model), distinguish between several types of accounts.
+Many of the managed systems following this model, just like the [User model](#user-model), distinguish between several types of accounts.
   
 In further steps, you will be able to define one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per account type and map each one to a [role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for assignment and [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
   
@@ -242,11 +242,11 @@ See the schema below this note.
 
 ![Profiles Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiles.png)
 
-Transactions are not mandatory in a model. Most of the time, the profile packages are predefined once and for all, or are the responsibility of the application owner. Then Usercube doesn't need to manage the specific transactions for a profile directly inside the managed system. You can hence avoid modeling transactions altogether. In this case, you fall back on the [User-Group model](#User-Group-model) with a twist: if profile categories are relevant in the system's authorization mechanism, then you must take them into account.
+Transactions are not mandatory in a model. Most of the time, the profile packages are predefined once and for all, or are the responsibility of the application owner. Then Usercube doesn't need to manage the specific transactions for a profile directly inside the managed system. You can hence avoid modeling transactions altogether. In this case, you fall back on the [User-Group model](#user-group-model) with a twist: if profile categories are relevant in the system's authorization mechanism, then you must take them into account.
 
 #### Example - TSS
 
-The TSS connector is actually a mix of the [User-Group](#User-Group) and Account-Profile-Transaction models. The User-Group part is [explained above](#explained-above).
+The TSS connector is actually a mix of the [User-Group](#user-group) and Account-Profile-Transaction models. The User-Group part is [explained above](#explained-above).
 
 ![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss-prof-trans.png)
 
@@ -266,7 +266,7 @@ As the parameter combination is not predetermined, the whole system can become h
 
 Users are represented by the accounts they own.
 
-__Comparison with other models:__ while the [User-Group](#User-Group) model grants an entitlement via a group membership, the Star model grants said entitlement via a special authorization linking the right criteria altogether (i.e. the right profile and other user parameters).
+__Comparison with other models:__ while the [User-Group](#user-group) model grants an entitlement via a group membership, the Star model grants said entitlement via a special authorization linking the right criteria altogether (i.e. the right profile and other user parameters).
 
 #### Model
 
@@ -302,7 +302,7 @@ Concerning roles, integrators have two options:
 
 __Step 1: choose the connector model.__
 
-Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the [User-Group template](#User-Group-template) is designed to handle.
+Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the [User-Group template](#user-group-template) is designed to handle.
 
 ![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.png)
 

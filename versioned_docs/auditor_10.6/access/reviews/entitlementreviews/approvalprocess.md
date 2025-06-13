@@ -6,7 +6,7 @@ After all owners assigned to a specific review have submitted their review, its 
 
 In the approval process, the Review Administrator looks at the owner-recommended changes and chooses to approve, deny, or defer the changes.
 
-See the [Process Owner Responses](#Process-Owner-Responses) topic for instructions on how to perform a granular review of owner-recommended changes. See the [Batch Processing](#Batch-Processing) topic for instructions on how to approve, decline, or defer all owner-recommended changes for a review.
+See the [Process Owner Responses](#process-owner-responses) topic for instructions on how to perform a granular review of owner-recommended changes. See the [Batch Processing](#batch-processing) topic for instructions on how to approve, decline, or defer all owner-recommended changes for a review.
 
 ## Process Owner Responses
 

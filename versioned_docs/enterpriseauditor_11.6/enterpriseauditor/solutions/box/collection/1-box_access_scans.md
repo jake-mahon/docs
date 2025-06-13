@@ -21,7 +21,7 @@ Prior to the first execution, it is necessary to authenticate to the targeted Bo
 
   - Not scoped
 
-See the [Configure the 1-Box\_Access Scans Job](#Configure-the-1-Box_Access-Scans-Job) section for instructions.
+See the [Configure the 1-Box\_Access Scans Job](#configure-the-1-box_access-scans-job) section for instructions.
 
 ### Configure the 1-Box\_Access Scans Job
 

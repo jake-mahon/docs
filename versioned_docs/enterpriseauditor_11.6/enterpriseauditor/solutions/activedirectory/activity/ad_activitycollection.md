@@ -9,11 +9,11 @@ There are two ways AD Activity data can be retrieved by Enterprise Auditor:
 - Network share containing the archive logs
 - API Server connected to the archive logs
 
-This is configured in the query. See the [Queries for the AD\_ActivityCollection Job](#Queries-for-the-AD_ActivityCollection-Job) topic for additional information.
+This is configured in the query. See the [Queries for the AD\_ActivityCollection Job](#queries-for-the-ad_activitycollection-job) topic for additional information.
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 ![Configuration section on the AD_ActivityCollection job Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/overviewconfiguration.png)
 
@@ -22,11 +22,11 @@ The AD\_ActivityCollection page has the following configurable parameters:
 - Enable to import AD events into the AIC
 - Enable to import authentication events into the AIC
 
-  __NOTE:__ The import of AD events and authentication events is disabled by default. You must enable these parameters for the activity data to be imported into the Netwrix Access Information Center. See the [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/activity.md#Optional-Configure-Import-of-AD-Activity-into-Netwrix-Access-Information-Center) topic for instructions.
+  __NOTE:__ The import of AD events and authentication events is disabled by default. You must enable these parameters for the activity data to be imported into the Netwrix Access Information Center. See the [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center) topic for instructions.
 - List of attributes to track for Object Modified changes
 - Number of days to retain activity data in the AIC
 
-See the [Customize Analysis Parameters for the AD\_ActivityCollection Job](#Customize-Analysis-Parameters-for-the-AD_ActivityCollection-Job) topic for additional information.
+See the [Customize Analysis Parameters for the AD\_ActivityCollection Job](#customize-analysis-parameters-for-the-ad_activitycollection-job) topic for additional information.
 
 ## Queries for the AD\_ActivityCollection Job
 

@@ -11,9 +11,9 @@ Review the basic registry keys that you may need to configure for monitoring Gro
 | IgnoreAuditCheckResultError | Defines whether audit check errors should be displayed in the Activity Summary footer:   - 0—Display errors - 1—Do not display errors |
 | IgnoreRootDCErrors | Defines whether to display audit check errors for the root domain (when data is collected from a child domain) in the Activity Summary footer:   - 0—Display errors - 1—Do not display errors |
 | ProcessBackupLogs | Defines whether to process security log backups:   - 0—No - 1—Yes   Even if this key is set to _"0"_, the security log backups will not be deleted regardless of the value of the CleanAutoBackupLogs key. |
-| HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\AD Change Reporter\`<monitoring plan name>` |  |
+| `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\AD Change Reporter\<monitoring plan name>` |  |
 | CollectLogsMaxThreads | Defines the number of Domain Controllers to simultaneously start log collection on. |
-| HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\ AD Change Reporter\`<monitoring plan name>`\Database settings |  |
+| `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\ AD Change Reporter\<monitoring plan name>\Database settings` |  |
 | SessionImportDays | Defines the frequency of a full snapshot upload:   - X—Once in X days |
 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Management Console\Database settings |  |
 | overwrite_datasource | Defines whether to overwrite the database connection settings (stored in the reports data source) if they differ from the SQL server settings specified when configuring the monitoring plan:   - 0—No - 1—Yes |

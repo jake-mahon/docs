@@ -18,7 +18,7 @@ This functionality is currently available for the following data sources:
 
 __NOTE:__ The State-in-Time functionality is not available for SQL Server Availability Groups.
 
-To provide data for state-in-time reports, remember to select the __Collect data for state-in-time reports__ option when you configure a monitoring plan for the selected data source. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#Settings-for-Data-Collection) topic for additional information.
+To provide data for state-in-time reports, remember to select the __Collect data for state-in-time reports__ option when you configure a monitoring plan for the selected data source. See the [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 
 The state-in-time reports are available under the Reports node. Depending on the data source, navigate to the corresponding subfolder, for example, __Predefined____>____Active Directory____>____Active Directory____>____State-in-Time__.
 
@@ -40,7 +40,7 @@ When auditing file servers, changes to both access and audit permissions are tra
 
 Most reports in Windows Server—State-in-Time folder allow you to specify baselines. A _baseline_ defines a certain safe level or state. If a server parameter falls below it, it is a considered a threat or at least merits your special attention. With baselines specified right in report filters, you can easily identify servers that are different from your corporate policies or best practices. Risks are marked with red color and are easy to spot in the report.
 
-[![windowsserverinventory](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/windowsserverinventory.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/windowsserver/windowsserverinventory.png)
+![windowsserverinventory](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/windowsserverinventory.png)
 
 You can specify baseline values specific to your organization in one of the following ways:
 

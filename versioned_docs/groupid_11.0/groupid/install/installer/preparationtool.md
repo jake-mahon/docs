@@ -4,8 +4,8 @@ The preparation tool installs all prerequisites software on a machine to prepare
 
 What do you want to do?
 
-- [Run the Preparation Tool first time on a fresh machine](#Run-the-Preparation-Tool-first-time-on-a-fresh-machine)
-- [Run the Preparation Tool on an existing GroupID server](#Run-the-Preparation-Tool-on-an-existing-GroupIDserver)
+- [Run the Preparation Tool first time on a fresh machine](#run-the-preparation-tool-first-time-on-a-fresh-machine)
+- [Run the Preparation Tool on an existing GroupID server](#run-the-preparation-tool-on-an-existing-groupidserver)
 
 ## Run the Preparation Tool first time on a fresh machine
 
@@ -57,7 +57,7 @@ If you have an earlier version of GroupID 11.0 installed on a machine, then bef
 
   NOTE: If you need to re-run the preparation tool, uninstall this component first.
 
-After uninstalling the prerequisites, follow the steps given in the [Run the Preparation Tool first time on a fresh machine](#Run-the-Preparation-Tool-first-time-on-a-fresh-machine) section above.
+After uninstalling the prerequisites, follow the steps given in the [Run the Preparation Tool first time on a fresh machine](#run-the-preparation-tool-first-time-on-a-fresh-machine) section above.
 
 See Also
 

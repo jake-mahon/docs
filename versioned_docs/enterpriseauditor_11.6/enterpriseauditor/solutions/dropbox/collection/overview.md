@@ -19,4 +19,4 @@ The relationship between the scan and bulk import jobs requires the following co
 
 ___RECOMMENDED:___ When running the sensitive data jobs, disable the permissions jobs, and vice versa.
 
-_Remember,_ prior to running the Dropbox Solution for the first time, it is necessary to generate an access token to be used in the Connection Profile. This only needs to be done once. See the [Configure the Dropbox Access Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/1-dropbox_permissions_scan.md#Configure-the-Dropbox-Access-Query) topic for additional information.
+_Remember,_ prior to running the Dropbox Solution for the first time, it is necessary to generate an access token to be used in the Connection Profile. This only needs to be done once. See the [Configure the Dropbox Access Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query) topic for additional information.

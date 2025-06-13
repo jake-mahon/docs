@@ -76,7 +76,7 @@ Configure a user profile by proceeding as follows:
 
 Before you can see the profile in action, it needs to be assigned to a user.
 
-[See these instructions for assigning profiles to users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md#See-these-instructions-for-assigning-profiles-to-users).
+[See these instructions for assigning profiles to users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md#see-these-instructions-for-assigning-profiles-to-users).
 
 ## Next Steps
 

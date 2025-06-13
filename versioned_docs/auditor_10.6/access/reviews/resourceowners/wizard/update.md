@@ -10,7 +10,7 @@ It contains three pages:
 - 2. Description — Enter or modify a note describing the resource
 - 3. Summary — Provides a preview of the settings selected within the wizard
 
-See the [Update a Resource](#Update-a-Resource) topic for additional information.
+See the [Update a Resource](#update-a-resource) topic for additional information.
 
 ## Update a Resource
 

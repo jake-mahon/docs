@@ -1,6 +1,6 @@
 # PPS Properties Page
 
-The Password Policy Server (PPS) is the Password Policy Enforcer component that checks passwords and responds to queries from the Password Policy Client. PPS properties are global settings that apply to all Password Policy Enforcer policies. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md) topic for additional information. If you do choose any of the options which log PPE Events, the events will be viewable in Windows Event Viewer. See the [View Event Logs in Windows Event Viewer](#View-Event-Logs-in-Windows-Event-Viewer) topic for additional information.
+The Password Policy Server (PPS) is the Password Policy Enforcer component that checks passwords and responds to queries from the Password Policy Client. PPS properties are global settings that apply to all Password Policy Enforcer policies. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md) topic for additional information. If you do choose any of the options which log PPE Events, the events will be viewable in Windows Event Viewer. See the [View Event Logs in Windows Event Viewer](#view-event-logs-in-windows-event-viewer) topic for additional information.
 
 Follow the steps below to open the PPS Properties page:
 
@@ -69,7 +69,7 @@ __Step 2 –__ Leave all the rules disabled for this policy.
 
 __Step 3 –__ Assign this policy to the users who do not have to comply with any Password Policy Enforcer rules.
 
-Refer to the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md#Managing-Policies) topic for a diagrammatic representation of Password Policy Enforcer's policy selection algorithm, or use the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce for a particular user. See the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md) topic for additional information.
+Refer to the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md) topic for a diagrammatic representation of Password Policy Enforcer's policy selection algorithm, or use the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce for a particular user. See the [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md) topic for additional information.
 
 __CAUTION:__ If Password Policy Enforcer has only one policy and that policy is also the default policy, then Password Policy Enforcer enforces the policy for all users.
 
@@ -110,7 +110,7 @@ __Step 3 –__ Click __Enable__, then click __OK__.
 
 __Step 4 –__ Click __OK__ to close the PPS Properties page.
 
-__NOTE:__ Password Policy Enforcer is disabled or enabled immediately, but if the management console is connected to a domain configuration, there will be some delay while Active Directory propagates the change to the other domain controllers. See the [Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md) topic for additional information. A user's password history may be updated even when Password Policy Enforcer is disabled. See the [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md#Rules) topic for additional information.
+__NOTE:__ Password Policy Enforcer is disabled or enabled immediately, but if the management console is connected to a domain configuration, there will be some delay while Active Directory propagates the change to the other domain controllers. See the [Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md) topic for additional information. A user's password history may be updated even when Password Policy Enforcer is disabled. See the [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md) topic for additional information.
 
 ## Email Tab
 

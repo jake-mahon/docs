@@ -46,8 +46,8 @@ The buttons available on these toolbars are predefined. You cannot add or remove
 
 What do you want to do?
 
-- [Update the Properties of a Toolbar Button](#Update-the-Properties-of-a-Toolbar-Button)
-- [Rearrange the Buttons on a Toolbar](#Rearrange-the-Buttons-on-a-Toolbar)
+- [Update the Properties of a Toolbar Button](#update-the-properties-of-a-toolbar-button)
+- [Rearrange the Buttons on a Toolbar](#rearrange-the-buttons-on-a-toolbar)
 
 ## Update the Properties of a Toolbar Button
 
@@ -76,7 +76,7 @@ What do you want to do?
         NOTE: Image dimensions: 30 x 30 pixels
           
          Supported formats: .png, .jpg, .jpe, .jpeg
-   8. __Visibility Level__ – Select a security role. The toolbar button would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).  
+   8. __Visibility Level__ – Select a security role. The toolbar button would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
       Select _Never_ to hide the button from all users.
 8. Click __OK__.
 9. Click __Save__ on the __Toolbars__ page.

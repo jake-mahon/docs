@@ -8,7 +8,7 @@ Once connected it is possible to create an intelligent content mapping, crawling
 
 If you wish to make other configuration changes before collection of the source occurs ensure you tick the checkbox "_Pause source on creation_".
 
-[![add_database_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/add_database_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/add_database.png)
+![add_database_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/add_database_thumb_0_0.png)
 
 Complete the following fields:
 

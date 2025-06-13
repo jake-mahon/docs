@@ -60,7 +60,7 @@ This section discusses the GroupID application registration and permission assig
 
     ![SharePoint Delegated permissions](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_delegated_permissions.png)
 
-    See [SharePoint Delegated Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md#SharePoint-Delegated-Permissions) section of the [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md) topic for the required permission name.
+    See [SharePoint Delegated Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions) section of the [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md) topic for the required permission name.
 
 This completes the registration process of GroupID in Microsoft Entra ID.
 

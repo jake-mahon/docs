@@ -10,8 +10,8 @@ A security type is assigned to the group when it is created. However, you can ch
 
 What do you want to do?
 
-- [Changing the security type for a group](#Changing-the-security-type-for-a-group)
-- [Changing the security type for multiple groups](#Changing-the-security-type-for-multiple-groups)
+- [Changing the security type for a group](#changing-the-security-type-for-a-group)
+- [Changing the security type for multiple groups](#changing-the-security-type-for-multiple-groups)
 
 ## Changing the security type for a group
 

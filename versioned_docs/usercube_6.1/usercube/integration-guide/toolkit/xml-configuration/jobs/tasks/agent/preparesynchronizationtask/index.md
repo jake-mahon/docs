@@ -2,7 +2,7 @@
 
 ## View Behavior Details
 
-The task reads files from the source directory, usually the [temp folder > ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#temp-folder-ExportOutput) folder.
+The task reads files from the source directory, usually the [temp folder > ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#temp-folder-exportoutput) folder.
 
 ### Cleanse data
 
@@ -19,7 +19,7 @@ The result of the _Prepare-Synchronization_ is stored in the [_export directory_
 - Duplicates are kept in a separate ```.duplicates.csv``` file.
 - Null primary key entries are kept in a separate ```.nullpk.csv``` file.
 
-All files produced by the task are in the [work folder > Collect](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#work-folder-Collect) directory.
+All files produced by the task are in the [work folder > Collect](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#work-folder-collect) directory.
 
 ### Compute changes
 

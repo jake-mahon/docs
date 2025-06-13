@@ -79,7 +79,7 @@ Bundle components that do not have relationships outside the bundle or customiza
 | Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_scripts.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_scripts}`,0)) < 1 THEN 0 ELSE 1 END |
 | Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_wflws.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_wflws}`,0)) < 1 THEN 0 ELSE 1 END |
 | Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_list.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(`{custrecord_flo_list}`,0)) < 1 THEN 0 ELSE 1 END |
-| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(```{custrecord_flo_searches}```,0)) < 1 THEN 0 ELSE 1 END |
+| Sum | Formula (Numeric) | Is less than 1 | CASE WHEN`{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR TO_NUMBER(NVL(``{custrecord_flo_searches}``,0)) < 1 THEN 0 ELSE 1 END |
 5. On the __Results__ tab, click __Columns__ and fill in the following:
 | Field | Summary   Type | Formula |
 | --- | --- | --- |

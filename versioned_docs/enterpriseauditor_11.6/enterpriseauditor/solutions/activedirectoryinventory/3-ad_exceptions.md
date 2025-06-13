@@ -4,7 +4,7 @@ The 3-AD\_Exceptions Job identifies toxic conditions that exist within Active Di
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The 3-AD\_Exceptions Job has the following configurable parameters:
 
@@ -16,7 +16,7 @@ The 3-AD\_Exceptions Job has the following configurable parameters:
 - Threshold for token size
 - List of administrative groups
 
-See the [Customize Analysis Parameters for the 3-AD\_Exceptions Job](#Customize-Analysis-Parameters-for-the-3-AD_Exceptions-Job) topic for additional information.
+See the [Customize Analysis Parameters for the 3-AD\_Exceptions Job](#customize-analysis-parameters-for-the-3-ad_exceptions-job) topic for additional information.
 
 ## Analysis Tasks for the 3-AD\_Exceptions Job
 
@@ -98,4 +98,4 @@ Exception definitions that can be customized have the following default values f
 | Large Token | @TOKEN\_THRESHOLD | 10 | A user object with effective membership in more than 10 group objects |
 | Admin Historical SID | #ADMIN\_GROUPS | - Domain Admins  - Enterprise Admins  - Schema Admins | List of administrative groups |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions to modify the parameters. See the [AD Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md#AD-Exception-Types-Translated) topic for an explanation of Exception Types.
+See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions to modify the parameters. See the [AD Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated) topic for an explanation of Exception Types.

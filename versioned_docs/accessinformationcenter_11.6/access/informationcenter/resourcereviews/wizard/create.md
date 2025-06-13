@@ -1,6 +1,6 @@
 # Create Review Wizard
 
-The Create Review wizard is opened with the __Create__ button on the Resource Reviews interface. See the [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Create Review wizard is opened with the __Create__ button on the Resource Reviews interface. See the [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
 ![Create Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
@@ -26,7 +26,7 @@ It contains four pages:
 - 3. Resources — Select resources to be included in the review
 - 4. Summary — Preview of the review selections
 
-See the [Create a Review](#Create-a-Review) topic for additional information.
+See the [Create a Review](#create-a-review) topic for additional information.
 
 ## Create a Review
 

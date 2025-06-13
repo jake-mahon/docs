@@ -6,10 +6,10 @@ After signing into the GroupID Portal, from the left pane select __Synchronize__
 
 The interface has intuitive navigation options:
 
-- [Quick Search](#Quick-Search)
-- [Top Right Options](#Top-Right-Options)
-- [Menu Pane](#Menu-Pane)
-- [Dashboard](#Dashboard)
+- Quick Search
+- Top Right Options
+- Menu Pane
+- Dashboard
 
 ## Quick Search
 
@@ -23,7 +23,7 @@ The top right corner of the application displays:
 | --- | --- |
 | Background jobs icon | View the status of jobs and job collections that are running in the background.  It displays:   - Jobs    - Completed Jobs: Jobs that have been completed.   - In Progress Jobs: Jobs that are still in running. - Job Collections    - Completed Jobs: Job collections that have been completed.   - In Progress Jobs: Job collections that are still in running. |
 | Help icon | Launch the synchronize portal help. |
-| User profile icon | Displays your profile picture with your name and the identity store that GroupID Portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/versioned_docs/groupid_11.0/groupid/portal/login.md#Sign-Out) of the portal. |
+| User profile icon | Displays your profile picture with your name and the identity store that GroupID Portal is connected to.  Click it to launch the menu that displays the option to [Sign Out](/versioned_docs/groupid_11.0/groupid/portal/login.md#sign-out) of the portal. |
 
 ## Menu Pane
 
@@ -31,7 +31,7 @@ Look on the left side of the page for the navigation pane, which lists links to:
 
 - Create New ([Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
   ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md))
-- [Dashboard](#Dashboard)
+- Dashboard
 - [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
 - [Job Templates](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobtemplate.md)

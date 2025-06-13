@@ -28,13 +28,13 @@ When the maximum membership limit is hit, the update process will create child g
 
 What do you want to do?
 
-- [Add members to a group](#Add-members-to-a-group)
-- [Change the membership type of a group member ](#Change-the-membership-type-of-a-group-member)
-- [Remove members permanently from a group](#Remove-members-permanently-from-a-group)
-- [Add a group to the membership of another group (nesting)](#Add-a-group-to-the-membership-of-another-group-nesting)
-- [Import members to a group](#Import-members-to-a-group)
-- [Export group members](#Export-group-members)
-- [Invite a guest user](#Invite-a-guest-user)
+- [Add members to a group](#add-members-to-a-group)
+- [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member)
+- [Remove members permanently from a group](#remove-members-permanently-from-a-group)
+- [Add a group to the membership of another group (nesting)](#add-a-group-to-the-membership-of-another-group-nesting)
+- [Import members to a group](#import-members-to-a-group)
+- [Export group members](#export-group-members)
+- [Invite a guest user](#invite-a-guest-user)
 
 ## Add members to a group
 
@@ -62,7 +62,7 @@ Use any of the following methods to add members to groups.
 
 NOTE: These methods for adding members are recommended for static (unmanaged) groups only. For Smart Groups, GroupID will discard any manual membership changes when it updates the group through the Smart Group Update job.
 
-To add a member temporarily to a group, see [Change the membership type of a group member ](#Change-the-membership-type-of-a-group-member).
+To add a member temporarily to a group, see [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member).
 
 ## Change the membership type of a group member
 
@@ -128,7 +128,7 @@ Cycle job did not run on the particular days for temporary membership update.
 
 NOTE: This method of removing members is recommended for static (unmanaged) groups only. For Smart Groups, GroupID will discard any manual membership changes when it updates the group through the Smart Group Update job.
 
-To remove a member temporarily from a group, see [Change the membership type of a group member ](#Change-the-membership-type-of-a-group-member).
+To remove a member temporarily from a group, see [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member).
 
 ## Add a group to the membership of another group (nesting)
 

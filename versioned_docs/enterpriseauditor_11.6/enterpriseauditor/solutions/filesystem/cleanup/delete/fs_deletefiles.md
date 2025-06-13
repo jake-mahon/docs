@@ -4,13 +4,13 @@ The FS\_DeleteFiles job is designed to delete resources from targeted file serve
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The FS\_DeleteFiles job has the following configurable parameter:
 
 - Number of days without access after which a file is a deletion candidate
 
-See the [Customizable Analysis Tasks for the FS\_DeleteFiles Job](#Customizable-Analysis-Tasks-for-the-FS_DeleteFiles-Job) topic for additional information.
+See the [Customizable Analysis Tasks for the FS\_DeleteFiles Job](#customizable-analysis-tasks-for-the-fs_deletefiles-job) topic for additional information.
 
 ## Analysis Tasks for the FS\_DeleteFiles Job
 
@@ -24,7 +24,7 @@ The following analysis tasks are selected by default:
 
 - Determine candidates for deletion – Creates the SA\_FS\_Delete\_CandidatesView table accessible under the job’s Results node
 
-  - The threshold for the number of days without access after which a file becomes a candidate for deletion can be configured. See the [Parameter Configuration](#Parameter-Configuration) topic for additional information.
+  - The threshold for the number of days without access after which a file becomes a candidate for deletion can be configured. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
 
 ### Customizable Analysis Tasks for the FS\_DeleteFiles Job
 
@@ -48,4 +48,4 @@ The following actions are deselected by default:
 
 - Delete files – Deletes files that are listed as candidates for deletion in the FS\_Delete\_CandidatesView table. The threshold for the number of days without access after which a file becomes a candidate for deletion can be configured through the __Determines candidates for deletion__ analysis task.
 
-  - See the [Parameter Configuration](#Parameter-Configuration) topic for additional information
+  - See the [Parameter Configuration](#parameter-configuration) topic for additional information

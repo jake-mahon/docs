@@ -8,9 +8,9 @@ We configured the ADS FS provider with a GroupID client, that is the GroupID por
 ### SP-Initiated Single Sign-On
 
 1. Launch the GroupID portal _Wizard_.  
-   On the __Login__ page, the availability of the user name and password fields depends on whether you disabled GroupID Authentication or not (see step 2 in the [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Specify-Advanced-Configurations) topic).  
+   On the __Login__ page, the availability of the user name and password fields depends on whether you disabled GroupID Authentication or not (see step 2 in the [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations) topic).  
    The AD FS option may be displayed as a button or an image.
-2. Click the AD FS button or image; you will be redirected to the AD FS authentication page with the URL you provided as the IDP login URL (see the [Provide IDP Login URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#Provide-IDP-Login-URL) topic).
+2. Click the AD FS button or image; you will be redirected to the AD FS authentication page with the URL you provided as the IDP login URL (see the [Provide IDP Login URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#provide-idp-login-url) topic).
 3. Sign in as an Active Directory regular user. On signing in, the authentication is routed to AD FS, that will validate the user with respect to the specified attribute (i.e., user principal name – UPN in our case) and log him or her into the GroupID portal.
 
 With single sign-on, you can now launch any GroupID client without having to sign in again.

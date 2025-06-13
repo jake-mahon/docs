@@ -1,6 +1,6 @@
 # General Tab
 
-Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the [Netwrix Password Policy Enforcer](#Netwrix-Password-Policy-Enforcer) topic for additional information.
+Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the [Netwrix Password Policy Enforcer](#netwrix-password-policy-enforcer) topic for additional information.
 
 ![configuring_npr](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr.png)
 
@@ -54,7 +54,7 @@ __Step 8 –__ Start the Password Reset service.
 
 __Step 9 –__ Update the backup script to copy from the new folder. See the [Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md) topic for additional information.
 
-You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#Working-with-the-Database) topic for more information.
+You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md) topic for more information.
 
 ### Netwrix Password Policy Enforcer
 
@@ -69,7 +69,7 @@ Password Reset locates and queries a domain controller in the user's domain when
 __NOTE:__ Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or later).
 
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the more detailed Rejection message when this registry value is set. Users may also have the wrong policy, or no policy enforced if the queried server is not a domain controller in the user's domain.  
-Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md#Password-Policy-Client) topic for more information.
+Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md) topic for more information.
 
 __NOTE:__ Due to a protocol upgrade, it is now recommended to enable protocol encryption for clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer server configuration, and enable "Only accept encrypted client request".
 

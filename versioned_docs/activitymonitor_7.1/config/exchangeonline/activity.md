@@ -10,7 +10,7 @@ In addition to registering the application with Microsoft Entra ID, the followin
 
 - Enable Auditing for Exchange Online
 
-See the [Enable Auditing for Exchange Online](#Enable-Auditing-for-Exchange-Online) topic for additional information.
+See the [Enable Auditing for Exchange Online](#enable-auditing-for-exchange-online) topic for additional information.
 
 Configuration Settings from the Registered Application
 

@@ -15,11 +15,11 @@ A disabled user can be reinstated but not extended. An expired user can be exten
 
 What do you want to do?
 
-- [View User Properties](#View-User-Properties)
-- [Reinstate a Disabled User](#Reinstate-a-Disabled-User)
-- [Grant extension to an Expired User](#Grant-extension-to-an-Expired-User)
-- [Send Disabled Users list to an Excel file](#Send-Disabled-Users-list-to-an-Excel-file)
-- [Navigate the Disabled Users listing](#Navigate-the-Disabled-Users-listing)
+- [View User Properties](#view-user-properties)
+- [Reinstate a Disabled User](#reinstate-a-disabled-user)
+- [Grant extension to an Expired User](#grant-extension-to-an-expired-user)
+- [Send Disabled Users list to an Excel file](#send-disabled-users-list-to-an-excel-file)
+- [Navigate the Disabled Users listing](#navigate-the-disabled-users-listing)
 
 ## View User Properties
 

@@ -26,7 +26,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 
 You can apply a filter to narrow down your search results to the Netwrix __API__ data source only.
 
-[![AR from CyberArk in NA](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/cyberark.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/addondata/cyberark.png)
+![AR from CyberArk in NA](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/cyberark.png)
 
 - Also, you can click __Tools__ in the upper-right corner and select the command you need. For example:
   - If you want to periodically receive the report on the results of search with the specified criteria, click __Subscribe__. Then specify how you want the report to be delivered – as an email or as a file stored to the file share.

@@ -25,7 +25,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
 In the Applet Settings section, configure the following options:
 
 - Port number – Default port number is 8766
-  - See [Custom Parameters for File System Proxy Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md#Custom-Parameters-for-File-System-Proxy-Service) topic for additional information.
+  - See [Custom Parameters for File System Proxy Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md#custom-parameters-for-file-system-proxy-service) topic for additional information.
 - Applet Log level – The type of log created on the target host. Checking the box to Enable Logging enables the Applet log level drop-down menu. The __Set To Default__ button resets the log level to __Information__.
   - Debug – Most verbose logging method, records everything that happens while the applet is processing
   - Information – Records the steps the applet takes while processing as well as errors and warnings

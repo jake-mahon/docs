@@ -2,7 +2,7 @@
 
 In addition to the __Email Alert__ ,__Migrate Document__ and additional classification, the following actions are available for the __SharePoint__ content source type:
 
-- [Migrate Document](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_migration.md#Migrate-Document) including copy and move operations
+- [Migrate Document](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_migration.md) including copy and move operations
 - Document property field (metadata) update, including:
   - __Send fixed value__, __send crawled value__ — these actions apply new metadata value entered by user or retrieved from the related NDC database field, respectively.
   - __Send classification value__ — this action writes classification metadata (__Taxonomy__) into the selected property field (__Field Name__). If multiple classification values are applied, they will be written using delimiters.
@@ -19,4 +19,4 @@ To configure actions for SharePoint documents using the Advanced interface:
 2. Click the workflow, then click Add next to Rule Actions.
 3. In the Add Action dialog, select the action you need from the __SharePoint__ section in the Action Type list.
 
-[![action_advanced_sp_update_field_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_advanced_sp_update_field_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/action_advanced_sp_update_field.png)
+![action_advanced_sp_update_field_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_advanced_sp_update_field_thumb_0_0.png)

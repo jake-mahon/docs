@@ -23,11 +23,11 @@ Browser rendering restrictions limits the maximum suitable size per level within
 
 Review the following for additional information:
 
-- [Searching for Taxonomy Terms](#Searching-for-Taxonomy-Terms)
-- ["Sync Enabled" Treeview Filter](#Sync-Enabled-Treeview-Filter)
-- [Source Filter](#Source-Filter)
+- [Searching for Taxonomy Terms](#searching-for-taxonomy-terms)
+- ["Sync Enabled" Treeview Filter](#sync-enabled-treeview-filter)
+- [Source Filter](#source-filter)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Searching for Taxonomy Terms](javascript:void(0))
+## Searching for Taxonomy Terms
 
 A search facility is provided to locate terms that contains specified text:
 
@@ -35,7 +35,7 @@ Click the magnifying glass icon to the right of the taxonomy dropdown and a new 
 
 ![taxonomysearch](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomysearch.png)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))["Sync Enabled" Treeview Filter](javascript:void(0))
+## "Sync Enabled" Treeview Filter
 
 For SharePoint Term Sets the treeview can optionally be filtered to only show terms that are enabled for synchronisation (configured on the term Settings screen).
 
@@ -45,7 +45,7 @@ This setting is session specific and applicable only to the current user:
 
 [See Taxonomy Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomy_settings.md)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Source Filter](javascript:void(0))
+## Source Filter
 
 A filter facility is also provided to restrict all search/browse results to a specific source. Click the source filter link in the top right of the display, then, select a source:
 

@@ -4,11 +4,11 @@ You can perform the following general functions on your directory groups.
 
 What do you want to do
 
-- [Search for groups](#Search-for-groups)
-- [View object properties](#View-object-properties)
-- [View groups managed by an object](#View-groups-managed-by-an-object)
-- [Manage group access](#Manage-group-access)
-- [Set email delivery restrictions](#Set-email-delivery-restrictions)
+- [Search for groups](#search-for-groups)
+- [View object properties](#view-object-properties)
+- [View groups managed by an object](#view-groups-managed-by-an-object)
+- [Manage group access](#manage-group-access)
+- [Set email delivery restrictions](#set-email-delivery-restrictions)
 
 ## Search for groups
 

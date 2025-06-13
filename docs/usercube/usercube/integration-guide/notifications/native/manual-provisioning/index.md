@@ -12,7 +12,7 @@ Manual Ticket
 
 ### Notification Recipients
 
-The notifications are sent to the users who own a profile with the following permission: ```/Custom/ProvisioningPolicy/PerformManualProvisioning/{entityType_identifier}``` where ```{entityType_identifier}``` is the source entity type.
+The notifications are sent to the users who own a profile with the following permission: ```/Custom/ProvisioningPolicy/PerformManualProvisioning/{entityType_identifier}``` where ``{entityType_identifier}`` is the source entity type.
 
 In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
   

@@ -6,7 +6,7 @@ The 2.High Risk Sites Job Group provides insight into any high risk repositories
 
 The job group is comprised of the SP\_OpenAccess Job. Minimizing your attack surface is the goal. Open site collections can potentially provide access to privileged data, greatly increasing your vulnerability. The SP\_OpenAccess Job will identify places in the environment where data is able to be accessed by a very large amount of employees.
 
-It is dependent on data collected by the [SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Access-Auditing) or [SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Sensitive-Data-Discovery-Auditing-SEEK) components of the [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
+It is dependent on data collected by the [SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing) or [SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek) components of the [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
 
 ## Analysis Tasks for the SP\_OpenAccess Job
 

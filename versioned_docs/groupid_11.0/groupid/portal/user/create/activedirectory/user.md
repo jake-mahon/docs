@@ -8,8 +8,8 @@ NOTE: Pages and fields on the Create User wizard may vary from those discussed h
 
 What do you want to do?
 
-- [Create a mail-enabled user in Active Directory](#Create-a-mail-enabled-user-in-Active-Directory)
-- [Create a non mail-enabled user in Active Directory](#Create-a-non-mail-enabled-user-in-Active-Directory)
+- [Create a mail-enabled user in Active Directory](#create-a-mail-enabled-user-in-active-directory)
+- [Create a non mail-enabled user in Active Directory](#create-a-non-mail-enabled-user-in-active-directory)
 
 ## Create a mail-enabled user in Active Directory
 

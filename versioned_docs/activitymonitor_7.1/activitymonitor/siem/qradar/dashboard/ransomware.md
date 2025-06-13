@@ -7,12 +7,12 @@ The Ransomware Dashboard for QRadar shows a list of suspected ransomware events.
 The Ransomware dashboard contains the following cards:
 
 - Offenses – List of offenses detected within QRadar from the file activity data as a potential ransomware attack
-  - See the [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#Table-Card-Features) topic for additional information.
+  - See the [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional information.
 
 - Details of Ransomware Attack – Tabular format of all file activity events for the selected offense which occurred over the specified time interval
 
   - Only visible after clicking Search on an offense
-  - See the [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#Table-Card-Features) topic for additional information.
+  - See the [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional information.
 - Breakdown of File Types – Pie chart of the top eight file extensions of the affected files for the selected offense
 
   - Only visible after clicking Search on an offense

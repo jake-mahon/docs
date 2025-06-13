@@ -22,7 +22,7 @@ This link is used to access the Web Console, and it is used for the web link in 
 
 https://[Fully Qualified Domain Name of the StealthAUDIT Console server]:[Port Number]
 
-__NOTE:__ Any browser used to access the Web Console must have JavaScript allowed for the site. See the [Configure JavaScript Settings for the Web Console](#Configure-JavaScript-Settings-for-the-Web-Console) topic for additional information.
+__NOTE:__ Any browser used to access the Web Console must have JavaScript allowed for the site. See the [Configure JavaScript Settings for the Web Console](#configure-javascript-settings-for-the-web-console) topic for additional information.
 
 ## Publish Option
 

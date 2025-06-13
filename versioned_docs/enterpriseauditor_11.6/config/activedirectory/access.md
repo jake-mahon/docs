@@ -35,7 +35,7 @@ The majority of jobs in the Active Directory solutions rely on tables with queri
 
 ___RECOMMENDED:___ Use Domain/Local Administrator privileges to run Enterprise Auditor against an Active Directory domain controller.
 
-There is a least privilege model for scanning your domain. See the [Least Privilege Model](#Least-Privilege-Model) topic for additional information.
+There is a least privilege model for scanning your domain. See the [Least Privilege Model](#least-privilege-model) topic for additional information.
 
 ## Ports
 
@@ -132,7 +132,7 @@ While the LDAP Data Collector and Active Directory Data Collector typically requ
 - Read access to: %SCHEMADN%
 - Read access to: %SITESDN% and its children
 
-See the [Variable Definitions](#Variable-Definitions) for variable definitions.
+See the [Variable Definitions](#variable-definitions) for variable definitions.
 
 AD\_DSRM Job Permissions
 
@@ -156,7 +156,7 @@ While the LDAP Data Collector and Active Directory Data Collector typically requ
 - Read access to: %SITEDN% and its children
 - Read access to: %PARTITIONDNS% and its children
 
-See the [Variable Definitions](#Variable-Definitions) for variable definitions.
+See the [Variable Definitions](#variable-definitions) for variable definitions.
 
 AD\_ActivityCollection Job Permission
 

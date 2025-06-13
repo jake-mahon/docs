@@ -20,7 +20,7 @@ Both the Key Name and the Key Passcode are required for each Nasuni Edge Applian
 
 __NOTE:__ Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 
-See the Nasuni [Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#Management-Console-Guide) documentation for additional information.
+See the Nasuni [Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#management-console-guide) documentation for additional information.
 
 ## Nasuni Management Console
 
@@ -40,10 +40,10 @@ Both the Key Name and the Key Passcode are required for each Nasuni Edge Applian
 
 __NOTE:__ Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 
-See the [Nasuni Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#Nasuni-Management-Console-Guide) documentation for additional information.
+See the [Nasuni Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#nasuni-management-console-guide) documentation for additional information.
 
 ## Nasuni Best Practices for Access Auditing
 
 Nasuni is a hybrid NAS where actively-used data is stored on a Nasuni Edge appliance while the authoritative copy of all files and meta data is stored in private or public cloud object storage platforms by the UniFS® global file system, and there are egress fees associated with transferring data between the two. In order to minimize these egress fees and optimize scan performance, it is recommended to deploy a dedicated Nasuni Edge Appliance with all shares to be scanned by Enterprise Auditor mounted, and the Enterprise Auditor console server, in the same region where the authoritative copy resides.
 
-See the [External Auditing and Nasuni Best Practices](https://nasuni.my.salesforce.com/sfc/p/#External-Auditing-and-Nasuni-Best-Practices) documentation for additional information.
+See the [External Auditing and Nasuni Best Practices](https://nasuni.my.salesforce.com/sfc/p/#external-auditing-and-nasuni-best-practices) documentation for additional information.

@@ -80,7 +80,7 @@ This address must be visible from the Nutanix File Server network.
 
     `POST /partner_servers/list`
 
-The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ```{ }```
+The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ``{ }``
 
 ![api_partner_server_resquest_thumb_0_0](/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/api_partner_server_resquest_thumb_0_0.webp)
 

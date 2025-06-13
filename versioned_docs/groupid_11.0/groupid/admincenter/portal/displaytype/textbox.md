@@ -30,7 +30,7 @@ A few text box display types used in the default portal template are:
 
 What do you want to do?
 
-- [Define a Text Box Display Type](#Define-a-Text-Box-Display-Type)
+- [Define a Text Box Display Type](#define-a-text-box-display-type)
 
 ## Define a Text Box Display Type
 

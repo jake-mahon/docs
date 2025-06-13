@@ -23,11 +23,11 @@ A GroupID portal can be linked with multiple identity stores, thus eliminating t
 
 The administrator can link two or more identity stores in GroupID. As a prerequisite for linking, the identity stores must be built on Active Directory or Microsoft Entra ID domains. The purpose is to link identical objects in different domains.
 
-To learn about linked identity stores and how they work in a GroupID portal, see the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#Linked-Identity-Stores-and-the-GroupID-Portal) topic.
+To learn about linked identity stores and how they work in a GroupID portal, see the [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal) topic.
 
 ## Notifications in the Portal
 
-A GroupID portal can send email notifications to designated recipients when a user makes a change to objects in an identity store. To specify notification recipients, see the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Specify-Notification-Recipients) topic.
+A GroupID portal can send email notifications to designated recipients when a user makes a change to objects in an identity store. To specify notification recipients, see the [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients) topic.
 
 By default, notifications are sent to users in the English language. However, a user can opt to receive notifications in a supported language by personalizing the language settings from the __Settings__ panel in
 the portal.

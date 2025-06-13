@@ -6,18 +6,18 @@ When multiple instances of GroupID are deployed, a separate Admin Center applica
 
 What do you want to do?
 
-- [View Admin Center Hosting Details](#View-Admin-Center-Hosting-Details)
-- [Launch Admin Center](#Launch-Admin-Center)
-- [Change the Application Display Name](#Change-the-Application-Display-Name)
-- [View Deployment Settings](#View-Deployment-Settings)
-- [Configure Event Logging](#Configure-Event-Logging)
+- [View Admin Center Hosting Details](#view-admin-center-hosting-details)
+- [Launch Admin Center](#launch-admin-center)
+- [Change the Application Display Name](#change-the-application-display-name)
+- [View Deployment Settings](#view-deployment-settings)
+- [Configure Event Logging](#configure-event-logging)
 
 ## View Admin Center Hosting Details
 
 1. In Admin Center, click __Applications__ in the left pane.
 2. On the __Applications__ page, click the __Admin Center__ tab.  
-   The tab displays Admin Center hosted in native IIS. When multiple GroupID instances have been deployed, you will find multiple Admin Center cards on this tab page, each card representing a separate instance. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-GroupID) topic.  
-   For details displayed on an Admin Center card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-Data-Service-Details) topic.
+   The tab displays Admin Center hosted in native IIS. When multiple GroupID instances have been deployed, you will find multiple Admin Center cards on this tab page, each card representing a separate instance. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid) topic.  
+   For details displayed on an Admin Center card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
    You cannot create an Admin Center application or delete an existing one from Admin Center.
 
@@ -27,11 +27,11 @@ What do you want to do?
 2. On the __Admin Center__ tab, click __Launch Application__ on an Admin Center card.  
    Provide the Admin Center URL to admin and helpdesk users so they can access
    it. You can either copy the URL from the address bar or from Admin Center deployment settings. See the See
-   the [View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-the-Launch-URL-for-a-Service) topic.
+   the [View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service) topic.
 
 ## Change the Application Display Name
 
-To change the display name of the Admin Center application, see the [Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Change-a-Services-Display-Name) topic. Replace references to the service with Admin Center.
+To change the display name of the Admin Center application, see the [Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name) topic. Replace references to the service with Admin Center.
 
 ## View Deployment Settings
 
@@ -45,7 +45,7 @@ To view deployment settings:
 
 ## Configure Event Logging
 
-To configure file logging and Windows logging for Admin Center, see the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service) topic.
+To configure file logging and Windows logging for Admin Center, see the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 
 __See Also__
 

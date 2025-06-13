@@ -10,7 +10,7 @@ __Step 1 –__ On a target server, navigate to Start > Windows Administrative To
 
 __Step 2 –__ Navigate to __Event Viewer tree > Windows Logs__, right-click __Security__ and select __Properties__.
 
-[![manualconfig_ws_eventviewerpr2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/manualconfig_ws_eventviewerpr2016.png)](/versioned_docs/auditor_10.6/resources/images/auditor/manualconfig/manualconfig_ws_eventviewerpr2016.png)
+![manualconfig_ws_eventviewerpr2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/manualconfig_ws_eventviewerpr2016.png)
 
 __Step 3 –__ Make sure __Enable logging__ is selected.
 

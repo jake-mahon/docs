@@ -4,7 +4,7 @@ The __General__ section contains general classification engine settings, e.g. . 
 
 Each option has an associated “__i__” which describes the nature of the setting.
 
-[![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/config_system/core.png)
+![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.png)
 
 __NOTE:__ To view a complete list of the __Config__ settings, click the Details tab. The list also has an indication of the values that have been changed from the default setting.
 
@@ -19,7 +19,7 @@ __NOTE:__ To view a complete list of the __Config__ settings, click the Details 
 | Classifier Threads | The number of background threads used for classification. Default is __0 (auto)__. | We recommend leaving this setting on its default value.  For more information, see this Knowledge Base article: [https://kb.netwrix.com/3863](https://kb.netwrix.com/3863) |
 | Classifier Write Threads | The number of threads to be utilised by the Classifier to update source systems during "tagging" operations (i.e. writing classification back to source system). | Each thread can be considered a "user" when considering load on the source system.  For more information, see this Knowledge Base article: [https://kb.netwrix.com/3863](https://kb.netwrix.com/3863) |
 | __Advanced settings__ |  |  |
-| [![core_classifier_general_tab_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/core_classifier_general_tab_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/config_system/core_classifier_general_tab.png) |  |  |
+| ![core_classifier_general_tab_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/core_classifier_general_tab_thumb_0_0.png) |  |  |
 | Classifier Enabled | Enables / disables the Classifier core component. By default, it is enabled. |  |
 | SharePoint EMM No Classify Mode | Possible values:   - __Do not update Deprecated__ (default) — use if you do not want to alter the __Deprecated__ setting in SharePoint EMM - __Update Deprecated__ — select if you want Deprecated setting to be updated |  |
 | Subset Trimming Enabled | This setting applies where both primary (single value) and secondary (multi value) fields are added to a document library for the same taxonomy.   - __Off__ (default) — the highest scoring term will be shown in both primary and secondary fields. - __On__ — the highest scoring term will be shown only in the primary field. |  |

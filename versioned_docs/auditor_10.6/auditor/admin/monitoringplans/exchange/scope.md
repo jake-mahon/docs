@@ -2,9 +2,6 @@
 
 You can fine-tune Auditor by specifying data that you want to exclude from the Exchange monitoring scope. In addition, you can exclude data from non-owner access auditing.
 
-- [Exchange Monitoring Scope](#Exchange-Monitoring-Scope)
-- [To exclude users or mailboxes from the Mailbox Access monitoring scope](#To-exclude-users-or-mailboxes-from-the-Mailbox-Access-monitoring-scope)
-
 Follow the steps to exclude data from the Exchange monitoring scope:
 
 __Step 1 –__ Navigate to the _%Netwrix Auditor installation folder%\Active Directory Auditing_ folder.
@@ -26,7 +23,7 @@ __Step 2 –__ Edit the \*.txt files, based on the following guidelines:
 | omitstorelist_ecr.txt | Contains a list of classes and attributes names to be excluded from Exchange snapshots. | ```object_type.property_name```  If there is no separator (.) between an object type and a property, the whole entry is treated as an object type.  For example:  ```Exchange_Server.AdministrativeGroup```  ```Exchange_Server.AdministrativeNote```  ```Exchange_Server.CreationTime``` |
 | propnames_ecr2007.txt | Contains a list of human-readable names for object classes and attributes of Exchange 2007 to be displayed in change reports. | ```classname.attrname=   intelligiblename```  For example:  ```msExchMDBAvailabilityGroup= Database Availability Group``` |
 
-To exclude users or mailboxes from the Mailbox Access monitoring scope
+## To exclude users or mailboxes from the Mailbox Access monitoring scope
 
 Auditor  allows specifying users and mailboxes that you do not want to monitor for non-owner mailbox access events. To do this, edit the mailboxestoexclude.txt, userstoexclude.txt, and agentomitusers.txt files.
 

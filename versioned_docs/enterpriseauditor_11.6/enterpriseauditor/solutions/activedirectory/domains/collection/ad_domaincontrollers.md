@@ -14,7 +14,7 @@ The queries for this job are:
 
 - Domain Controller Listing – Targets one domain controller per domain known to Enterprise Auditor to collect a listing of all domain controllers
   - Can be modified to connect securely with TLS/SSL.
-  - See the [Connect Securely with TLS/SSL](#Connect-Securely-with-TLSSSL) topic for additional information.
+  - See the [Connect Securely with TLS/SSL](#connect-securely-with-tlsssl) topic for additional information.
 - Actual Bridgehead Servers – Targets one domain controller per domain known to Enterprise Auditor to collect all of the bridgehead servers for each site
 - Global Catalog Servers – Targets one domain controller per domain known to Enterprise Auditor to extract a list of GCs for each site
 - Significant DCs – Targets one domain controller per domain known to Enterprise Auditor to gather information about the significant DCs

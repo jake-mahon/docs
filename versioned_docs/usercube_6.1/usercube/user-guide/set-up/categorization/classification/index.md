@@ -23,7 +23,7 @@ In our case, correlation/classification can be based on a first rule applicable 
 Hence correlation/classification rules are configured with a confidence rate:
 
 - from 100 to 150% to correlate resources automatically without a manual validation;
-- from 0 to 99% to impose that a resource manager reviews the correlation/classification. [See more details in the section below](#See-more-details-in-the-section-below).
+- from 0 to 99% to impose that a resource manager reviews the correlation/classification. [See more details in the section below](#see-more-details-in-the-section-below).
 
 Usercube considers the rules in descending order of confidence rate. The first matching rule is applied.
 
@@ -87,7 +87,7 @@ Fill a resource type with a classification rule by proceeding as follows:
    ![New Classification Rule Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/resourcetype_newclassifrulefields_v602.png)
 
    - __Target Object__ > ```Expression```: C# expression based on the resource that needs to be classified.
-   - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order. [See the detailed explanation](#See-the-detailed-explanation).
+   - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order. [See the detailed explanation](#see-the-detailed-explanation).
    > Our [overview example](#overview-example) would look like:
    >
    > ![Classification Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/classification_example_v602.png)

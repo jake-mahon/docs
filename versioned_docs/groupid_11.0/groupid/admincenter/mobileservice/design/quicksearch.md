@@ -6,7 +6,7 @@ You can also specify a search operator that determines what part of the attribut
 
 What do you want to do?
 
-- [Specify Search Attributes](#Specify-Search-Attributes)
+- [Specify Search Attributes](#specify-search-attributes)
 
 ## Specify Search Attributes
 

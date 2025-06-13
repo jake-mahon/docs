@@ -19,10 +19,10 @@ These granular controls enable you to drill down from the provider to the attrib
 
 What do you want to do?
 
-- [Prevent Role Members from Using a Provider as Source or Destination](#Prevent-Role-Members-from-Using-a-Provider-as-Source-or-Destination)
-- [Prevent Role Members from Using an Identity Store or Data Source as Source or Destination](#Prevent-Role-Members-from-Using-an-Identity-Store-or-Data-Source-as-Source-or-Destination)
-- [Prevent Role Members from Manipulating Specific Object Type(s)](#Prevent-Role-Members-from-Manipulating-Specific-Object-Types)
-- [Prevent Role Members from Using Specific Attributes for Mapping](#Prevent-Role-Members-from-Using-Specific-Attributes-for-Mapping)
+- [Prevent Role Members from Using a Provider as Source or Destination](#prevent-role-members-from-using-a-provider-as-source-or-destination)
+- [Prevent Role Members from Using an Identity Store or Data Source as Source or Destination](#prevent-role-members-from-using-an-identity-store-or-data-source-as-source-or-destination)
+- [Prevent Role Members from Manipulating Specific Object Type(s)](#prevent-role-members-from-manipulating-specific-object-types)
+- [Prevent Role Members from Using Specific Attributes for Mapping](#prevent-role-members-from-using-specific-attributes-for-mapping)
 
 ## Prevent Role Members from Using a Provider as Source or Destination
 

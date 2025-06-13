@@ -16,7 +16,7 @@ Users are more likely to forget a password shortly after changing it. Enforcing 
 
 Users whose passwords are set to never expire in Active Directory will not be forced to change their password during logon, even if this check box is selected.
 
-__NOTE:__ Password Policy Enforcer's History rule is enforced for password resets if the __Enforce policy when password is reset__ check box is selected in the PPS properties page, and if the __Enforce this rule when a password is reset__ check box is selected in the History rule's properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password resets. See the [Security Tab](#Security-Tab) topic for additional information.
+__NOTE:__ Password Policy Enforcer's History rule is enforced for password resets if the __Enforce policy when password is reset__ check box is selected in the PPS properties page, and if the __Enforce this rule when a password is reset__ check box is selected in the History rule's properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password resets.
 
 Users may try to evade the password history policy by resetting their password several times in quick succession to push a password off the password history list. Select a value from the __Passwords can only be reset if they are at least...__ drop-down list to stop users from doing this. Set it to 0 days to disable this feature. If the Active Directory minimum password age policy is also enforced for password resets, then the effective minimum age is the greater of the AD and NPR minimum ages.
 

@@ -2,8 +2,8 @@
 
 Review the following procedures:
 
-- [Uploading Default Taxonomy](#Uploading-Default-Taxonomy)
-- [Adding Custom Taxonomies](#Adding-Custom-Taxonomies)
+- [Uploading Default Taxonomy](#uploading-default-taxonomy)
+- [Adding Custom Taxonomies](#adding-custom-taxonomies)
 
 ## Uploading Default Taxonomy
 

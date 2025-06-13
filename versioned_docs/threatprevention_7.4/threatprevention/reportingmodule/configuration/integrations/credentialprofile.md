@@ -62,11 +62,11 @@ Select the profile from the list to see modification optionsThe following inform
 
 - Name and Description – The box at the top displays the name and description of the profile
 
-  - Edit – The edit button in the upper right corner of the box changes those fields from read-only to editable. See the [Edit Profile](#Edit-Profile) topic for additional information.
+  - Edit – The edit button in the upper right corner of the box changes those fields from read-only to editable. See the [Edit Profile](#edit-profile) topic for additional information.
   - Delete – The delete button in the upper right corner of the box opens the Delete Profile window to confirm the action
 - Credentials – This section displays the credentials
 
-  - Edit Credential – The edit button to the right of the credentials opens the Credentials Settings window, where you canupdate the Platform, User Name, or Password. See the [Edit Credential](#Edit-Credential) topic for additional information.
+  - Edit Credential – The edit button to the right of the credentials opens the Credentials Settings window, where you canupdate the Platform, User Name, or Password. See the [Edit Credential](#edit-credential) topic for additional information.
   - Delete Credential – The delete button to the right of the credentials opens the Delete Credential window to confirm the action
   - Add Credential – This button allows you to add additional credentials to this profile. This functionality is available for a full Netwrix Threat Manager implementation, and does not apply to the Netwrix Threat Manager Reporting Module.
 

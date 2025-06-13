@@ -27,7 +27,7 @@ See the [Server Functionality](/versioned_docs/endpointprotector_5.9.4/endpointp
 
   - Create and manage administrator accounts with appropriate permissions under System Configuration > System Administrators.
 
-See the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#System-Configuration) topic for additional Information.
+See the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md) topic for additional Information.
 
 ## Configuring Device Control
 
@@ -66,7 +66,7 @@ See the [eDiscovery](/versioned_docs/endpointprotector_5.9.4/endpointprotector/a
   - Navigate to Device Control > Client Settings.
   - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
 
-See the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#Device-Control) topic for more information.
+See the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md) topic for more information.
 
 ### Configuring User Remediation Settings
 
@@ -103,7 +103,7 @@ See the [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointp
   - Duplicate "Report Only" CAP policies and modify them to enforce restrictions.
   - Activate blocking policies to prevent unauthorized data movements.
 
-See the [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md#Content-Aware-Protection) topic for more information.
+See the [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md) topic for more information.
 
 ## Performing Remediation within eDiscovery
 
@@ -112,7 +112,7 @@ See the [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpo
   - Review eDiscovery scan results under eDiscovery > Scan Results and Actions.
   - Perform actions such as Encrypt, Decrypt, or Delete on identified sensitive data to mitigate risks.
 
-See the [eDiscovery Scan Result and Actions](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/ediscovery/module.md#eDiscovery-Scan-Result-and-Actions) topic for more information.
+See the [eDiscovery Scan Result and Actions](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/ediscovery/module.md#ediscovery-scan-result-and-actions) topic for more information.
 
 ## Deploying Enforced Encryption
 

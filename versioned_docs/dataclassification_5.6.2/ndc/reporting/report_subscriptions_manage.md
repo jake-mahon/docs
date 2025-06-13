@@ -14,7 +14,7 @@ This section contains information on how to generate reports, use report templat
    - __Source__
 4. Finally, click __Generate__.
 
-[![reports_doctagging_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/reports_doctagging_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/reports/reports_doctagging.png)
+![reports_doctagging_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/reports_doctagging_thumb_0_0.png)
 
 The report will be displayed in the preview pane.
 
@@ -40,7 +40,7 @@ To save a report configuration template
 
    NOTE: Report configuration templates are saved per user.
 4. Enter a name for the report configuration template.
-5. To create a subscription for the report configuration template, check the __Create a Subscription__ box, then click __Save and Next__. Otherwise, click __Save__ to complete configuration. See the [See "Manage Subscriptions"](#See-Manage-Subscriptions) section for additional information on creating report subscriptions.
+5. To create a subscription for the report configuration template, check the __Create a Subscription__ box, then click __Save and Next__. Otherwise, click __Save__ to complete configuration. See the [Manage Subscriptions](#manage-subscriptions) section for additional information on creating report subscriptions.
 
 __To load report configuration template__
 

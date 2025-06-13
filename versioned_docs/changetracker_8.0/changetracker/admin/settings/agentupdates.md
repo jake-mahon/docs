@@ -16,7 +16,7 @@ The resulting dialog facilitates the upload of the agent update files.
 
 ![agentupdateschedule](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/agentupdateschedule.png)
 
-The deployment schedule for a new update can be controlled via the Agent Software Updates tab on a per Device Groups basis – See the [Device Groups](/versioned_docs/changetracker_8.0/changetracker/admin/settings/devicegroups.md) topic for additional information.
+The deployment schedule for a new update can be controlled via the Agent Software Updates tab on a per Device Groups basis – See the [Device Groups](devicegroups.md) topic for additional information.
 
 ![devices](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/devices.png)
 

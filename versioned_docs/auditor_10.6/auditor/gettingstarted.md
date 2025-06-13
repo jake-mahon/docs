@@ -39,7 +39,7 @@ In this section, we will cover:
 | Detect behavior anomalies in your IT environment with NetwrixBehavior Anomalies dashboard. | - [Behavior Anomalies](/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/overview.md) |
 | Schedule email delivery of a variety of reports or set of specific search criteria with subscriptions/ | - [Create Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/create.md) |
 | Operations and health |  |
-| Track changes to the product configuration with Netwrix  self-audit. | - [Self-Audit](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit.md#Self-Audit) |
+| Track changes to the product configuration with Netwrix  self-audit. | - [Self-Audit](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit.md) |
 | Review Netwrix Auditor System Health event log. | - [Netwrix Auditor Health Log](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthlog.md) |
 | Review Health status dashboard. | - [Health Status Dashboard](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/overview.md) |
 | Schedule Health Summary email delivery. | - [Health Summary Email](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/summaryemail.md) |

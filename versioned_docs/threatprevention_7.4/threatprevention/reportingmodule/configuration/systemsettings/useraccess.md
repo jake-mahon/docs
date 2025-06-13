@@ -19,8 +19,8 @@ Roles are assigned by the following methods:
 
 The User Access page has the following sections:
 
-- Users & Groups – Itprovides the ability to allow or deny console access and configure authentication types for users and groups. See the [ Users & Groups](#Users-Groups) topic for additional information.
-- Settings – It provides the ability to customize the user login page and configure the token expiration time for authenticated users. See the [Settings](#Settings) topic for additional information.
+- Users & Groups – Itprovides the ability to allow or deny console access and configure authentication types for users and groups. See the [ Users & Groups](#users--groups) topic for additional information.
+- Settings – It provides the ability to customize the user login page and configure the token expiration time for authenticated users. See the [Settings](#settings) topic for additional information.
 
 ## Users & Groups
 
@@ -36,16 +36,16 @@ The table displays the following information:
 - Login name – The NTStyle domain name for the user or group account
 - Display name – The display name for the user or group account
 - Domain Name – Name of the domain. This may be either the domain DNS name or domain controller hostname. For the built-in ADMIN account, the domain is INTERCEPT Admin.
-- Role – The role assigned to the user or group for accessing this application. See the [Roles Defined](#Roles-Defined) topic for additional information.
-- Authentication Type – Type of MFA authentication assigned to the user or group. See the [Authentication Types Defined](#Authentication-Types-Defined) topic for additional information.
+- Role – The role assigned to the user or group for accessing this application. See the [Roles Defined](#roles-defined) topic for additional information.
+- Authentication Type – Type of MFA authentication assigned to the user or group. See the [Authentication Types Defined](#authentication-types-defined) topic for additional information.
 - Action – This column has the following icons for conducting actions on the user or group:
 
-  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus. The edit icon changes to a save icon while in edit mode. See the [ Edit Console Access](#Edit-Console-Access) topic for additional information.
+  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus. The edit icon changes to a save icon while in edit mode. See the [ Edit Console Access](#edit-console-access) topic for additional information.
   - Trash icon – Opens a Warning window to confirm the action of deleting the user or group. Removing a user or group removes console access for it.. Note that the builtin "ADMIN" account cannot have its access removed until an account besides the builtin "ADMIN" is granted administrative access to the console.
   - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next login. This option is only available if an MFA authentication type is applied to the user or group.
-  - Change Password icon – Only available for the built-in ADMIN account. This icon opens the Edit password for build-in admin window. See the [Edit Built-in Admin Password](#Edit-Built-in-Admin-Password) topic for additional information.
+  - Change Password icon – Only available for the built-in ADMIN account. This icon opens the Edit password for build-in admin window. See the [Edit Built-in Admin Password](#edit-built-in-admin-password) topic for additional information.
 
-The __New Access__ button opens the Add Console Access window. See the [Add Console Access](#Add-Console-Access) topic for additional information.
+The __New Access__ button opens the Add Console Access window. See the [Add Console Access](#add-console-access) topic for additional information.
 
 ### Roles Defined
 

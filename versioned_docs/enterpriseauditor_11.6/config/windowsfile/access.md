@@ -12,11 +12,11 @@ __NOTE:__ It is necessary to target the Windows File Server Cluster (name of the
 
 Configure credentials on all cluster nodes according to the Windows Operating Systems required permissions for the desired scan mode with these additional considerations:
 
-- For [Applet Mode](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#Applet-Mode) and [Proxy Mode with Applet](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#Proxy-Mode-with-Applet):
+- For [Applet Mode](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#applet-mode) and [Proxy Mode with Applet](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-with-applet):
 
   - Applet will be deployed to each node
   - Credential used in the Connection Profile must have rights to deploy the applet to each node
-- For [Proxy Mode as a Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#Proxy-Mode-as-a-Service):
+- For [Proxy Mode as a Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-as-a-service):
 
   - Proxy Service must be installed on each node
   - For Sensitive Data Discovery Auditing scans, the Sensitive Data Discovery Add-on must be installed on each node

@@ -4,11 +4,11 @@ GroupID provides you the facility to join/leave a group temporarily or permanent
 
 What do you want to do?
 
-- [Join a group permanently](#Join-a-group-permanently)
-- [Join a group temporarily](#Join-a-group-temporarily)
-- [Leave a group permanently](#Leave-a-group-permanently)
-- [Leave a group temporarily](#Leave-a-group-temporarily)
-- [Join or leave a group on behalf of a direct report or peer](#Join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)
+- [Join a group permanently](#join-a-group-permanently)
+- [Join a group temporarily](#join-a-group-temporarily)
+- [Leave a group permanently](#leave-a-group-permanently)
+- [Leave a group temporarily](#leave-a-group-temporarily)
+- [Join or leave a group on behalf of a direct report or peer](#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)
 
 ## Join a group permanently
 

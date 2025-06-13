@@ -4,8 +4,8 @@ While creating or editing mail enabled objects through a Synchronize job, GroupI
 
 What do you want to do?
 
-- [Sync Office 365 subscription in a Synchronize job](#Sync-Office-365-subscription-in-a-Synchronize-job)
-- [Deprovision Office 365 subscription in a Synchronize job](#Deprovision-Office-365-subscription-in-a-Synchronize-job)
+- [Sync Office 365 subscription in a Synchronize job](#sync-office-365-subscription-in-a-synchronize-job)
+- [Deprovision Office 365 subscription in a Synchronize job](#deprovision-office-365-subscription-in-a-synchronize-job)
 
 ## Sync Office 365 subscription in a Synchronize job
 

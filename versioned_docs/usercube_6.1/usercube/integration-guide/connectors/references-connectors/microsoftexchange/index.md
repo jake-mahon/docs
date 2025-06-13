@@ -94,7 +94,7 @@ This connector is meant to generate the following files:
   [See more details on mailbox database properties in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/ff328150(v=exchg.140)).
 - ```<connectionIdentifier>_cookie.bin``` which stores the time of the last successful export, thus allowing incremental processes.
 
-The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportCookies) folder.
+The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#exportcookies) folder.
 
 ## Fulfill
 
@@ -104,7 +104,7 @@ As it works via a PowerShell script, [find more instructions in the PowerShell c
 
 Usercube's PowerShell script can be found in the SDK in ```Usercube.Demo/Scripts/Fulfill-Exchange.ps1```.
 
-See [PowerShell credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#PowerShell-credential-protection) to protect this fulfill.
+See [PowerShell credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#powershell-credential-protection) to protect this fulfill.
 
 ## Authentication
 
@@ -127,4 +127,4 @@ Data protection can be ensured through:
 
 This kind of credential protection can be used only for the export process.
   
-The fulfill process' credentials can be protected by following the [instructions for the PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#instructions-for-the-PowerShellProv-connector).
+The fulfill process' credentials can be protected by following the [instructions for the PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md#instructions-for-the-powershellprov-connector).

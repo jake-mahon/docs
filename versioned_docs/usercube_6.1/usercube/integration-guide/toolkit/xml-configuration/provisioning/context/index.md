@@ -4,7 +4,7 @@ A context is the result of the combination of all identity-related entities, for
 
 Contexts define the resources' scopes of responsibility. They are used during provisioning to simplify the application of the role model's rules based on dimensions.
 
-[See more information about context generation](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#See-more-information-about-context-generation).
+[See more information about context generation](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#see-more-information-about-context-generation).
 
 ## Properties
 

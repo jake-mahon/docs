@@ -11,19 +11,19 @@ You can manage several settings for a service, such as:
 
 What do you want to do?
 
-- [View Data Service Details](#View-Data-Service-Details)
-- [Change a Service’s Display Name](#Change-a-Services-Display-Name)
-- [Start or Stop a Service](#Start-or-Stop-a-Service)
-- [View the Launch URL for a Service](#View-the-Launch-URL-for-a-Service)
-- [View the Deployment Settings for a Service](#View-the-Deployment-Settings-for-a-Service)
-- [Specify Log Settings for a Service](#Specify-Log-Settings-for-a-Service)
-- [Delete a Data Service](#Delete-a-Data-Service)
+- [View Data Service Details](#view-data-service-details)
+- [Change a Service’s Display Name](#change-a-services-display-name)
+- [Start or Stop a Service](#start-or-stop-a-service)
+- [View the Launch URL for a Service](#view-the-launch-url-for-a-service)
+- [View the Deployment Settings for a Service](#view-the-deployment-settings-for-a-service)
+- [Specify Log Settings for a Service](#specify-log-settings-for-a-service)
+- [Delete a Data Service](#delete-a-data-service)
 
 ## View Data Service Details
 
 1. In Admin Center, click __Applications__ in the left pane.
 2. On the __Applications__ page, click the __Data Service__ tab. The __Data Service__ tab page is displayed, that lists the default Data service created while configuring GroupID and any other Data service that you have created.  
-   When multiple GroupID instances have been deployed, you will find multiple default Data services on this tab page, as each instance has its own default Data service. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#Elasticsearch-Clusters-Nodes-and-GroupID) topic.
+   When multiple GroupID instances have been deployed, you will find multiple default Data services on this tab page, as each instance has its own default Data service. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid) topic.
 3. The card for a Data service displays the following information:
 
    | Info | Description |
@@ -75,7 +75,7 @@ __To start or stop a service:__
 4. Click __Deployments__ under __Server Settings__.  
    The __Deployment Settings__ page displays the web server (IIS, remote
    IIS, or Docker) where the service is deployed. The __Select Application Deployment__ drop-down list displays the deployment name of the service.
-5. The __Launch URL__ box on the __Deployment Configurations__ tab displays the URL. Copy and paste it in the browser to launch the service. See the table in the [View Data Service Details](#View-Data-Service-Details) topic to understand what is displayed with this URL.
+5. The __Launch URL__ box on the __Deployment Configurations__ tab displays the URL. Copy and paste it in the browser to launch the service. See the table in the [View Data Service Details](#view-data-service-details) topic to understand what is displayed with this URL.
 
 ## View the Deployment Settings for a Service
 
@@ -95,7 +95,7 @@ __To start or stop a service:__
 
 GroupID uses file logging and Windows logging to monitor events from a service. You can set the logging level for a service to track a specific set of information for it.
 
-For details on file logging and Windows logging, see the [File Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#File-Logging) and [Windows Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#Windows-Logging) topics. Replace references to the portal with the respective service.
+For details on file logging and Windows logging, see the [File Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#file-logging) and [Windows Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#windows-logging) topics. Replace references to the portal with the respective service.
 
 NOTE: Windows logging is not available for Data service and Security service.
 
@@ -109,7 +109,7 @@ NOTE: Windows logging is not available for Data service and Security service.
    IIS, or Docker) where the service is deployed. The __Select Application Deployment__ drop-down list displays the deployment name of the service.
 5. Click the __Logging__ tab.
 6. In the __File Logging__ area, select a logging level for the service in the __Log Events__ drop-down list.  
-   File logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#Change-the-File-Logging-Level-for-a-Portal-Instance)topic for information on the logging levels. Replace references to the portal with the respective service.
+   File logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic for information on the logging levels. Replace references to the portal with the respective service.
 7. Click __Save__.
 
 ### Turn off File Logging for a Service
@@ -134,7 +134,7 @@ NOTE: Windows logging is not available for Data service and Security service.
    IIS, or Docker) where the service is deployed. The __Select Application Deployment__ drop-down list displays the deployment name of the service.
 5. Click the __Logging__ tab.
 6. In the __Windows Logging__ area, select a logging level for the service in the __Log Events__ drop-down list.  
-   Windows logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#Change-the-File-Logging-Level-for-a-Portal-Instance)topic for information on the logging levels. Replace references to the portal with the respective service.
+   Windows logging groups events into different levels, based on the type of information captured. See the table in the [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic for information on the logging levels. Replace references to the portal with the respective service.
 7. Click __Save__.
 
 ### Turn Off Windows Logging for a Service

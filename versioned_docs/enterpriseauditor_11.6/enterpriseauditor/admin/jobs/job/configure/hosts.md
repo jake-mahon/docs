@@ -6,7 +6,7 @@ The Hosts node provides the option to assign a preconfigured host list at the jo
 
 Use the default settings by selecting the __Use Default Setting__ checkbox and inherit the job group’s assigned host lists. To break inheritance and assign host lists at the job level select from the available host lists.
 
-Hosts added manually at the job level are added to the Master Host Table if not already there, and it triggers a host inventory query according to the global settings. The host will not be added to any individual host lists. See the [Manually Add Hosts to a Job](#Manually-Add-Hosts-to-a-Job) topic for additional information.
+Hosts added manually at the job level are added to the Master Host Table if not already there, and it triggers a host inventory query according to the global settings. The host will not be added to any individual host lists. See the [Manually Add Hosts to a Job](#manually-add-hosts-to-a-job) topic for additional information.
 
 Click __Save__ to apply any changes to the host selection. Changes are not implemented unless they are saved.
 

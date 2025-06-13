@@ -35,4 +35,4 @@ The Active Users Trend line graph provides a visual representation of the number
 
 The Traffic Trend line graph provides a visual representation of the number of operations events that occurred by operation type over the selected date range. It indicates what volume of operations occurred per day. Each operation type is shown with a different color, as indicated by the legend.
 
-See the [Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on filtering the trend graphs.
+See the [Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features) topic for instructions on filtering the trend graphs.

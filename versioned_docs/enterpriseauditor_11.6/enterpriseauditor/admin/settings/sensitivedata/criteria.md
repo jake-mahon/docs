@@ -6,7 +6,7 @@ Configure the list of selected sensitive data criteria that will be used within 
 
 The options on the Criteria Tab are:
 
-- Add – Opens the Select Criteria window to add search criteria that will be inherited by Sensitive Data scan jobs. See the [Select Criteria Window](#Select-Criteria-Window) topic for additional information.
+- Add – Opens the Select Criteria window to add search criteria that will be inherited by Sensitive Data scan jobs. See the [Select Criteria Window](#select-criteria-window) topic for additional information.
 - Remove – Removes the selected criteria from being inherited by Sensitive Data scan jobs
 - Launch Editor – Opens the Sensitive Data Criteria Editor. See the [Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md) for additional information.
 - Search selected criteria – Filter the criteria listed in the Criteria tab

@@ -37,9 +37,9 @@ The following rights are required to run database maintenance:
 
   - Be owner of this database
 
-    __NOTE:__ There is a least privilege option for this requirement. See the [Less Privilege Model for NVMonitorData Database Permission](#Less-Privilege-Model-for-NVMonitorData-Database-Permission) topic for additional information.
+    __NOTE:__ There is a least privilege option for this requirement. See the [Less Privilege Model for NVMonitorData Database Permission](#less-privilege-model-for-nvmonitordata-database-permission) topic for additional information.
 
-See the [Database Components](/versioned_docs/threatprevention_7.4/threatprevention/admin/overview.md#Database-Components) topic for a discussion of these databases.
+See the [Database Components](/versioned_docs/threatprevention_7.4/threatprevention/admin/overview.md#database-components) topic for a discussion of these databases.
 
 Archive Database Permissions
 

@@ -11,11 +11,11 @@ You can also specify the following settings for a user role in an identity store
 
 What do you want to do?
 
-- [Modify the Global Question Pool](#Modify-the-Global-Question-Pool)
-- [Modify the Local Question Pool](#Modify-the-Local-Question-Pool)
-- [Enable Security Question Authentication for an Identity Store](#Enable-Security-Question-Authentication-for-an-Identity-Store)
-- [Enforce Security Question Authentication for a Role in an Identity Store](#Enforce-Security-Question-Authentication-for-a-Role-in-an-Identity-Store)
-- [Specify Policies for Security Question Authentication](#Specify-Policies-for-Security-Question-Authentication)
+- [Modify the Global Question Pool](#modify-the-global-question-pool)
+- [Modify the Local Question Pool](#modify-the-local-question-pool)
+- [Enable Security Question Authentication for an Identity Store](#enable-security-question-authentication-for-an-identity-store)
+- [Enforce Security Question Authentication for a Role in an Identity Store](#enforce-security-question-authentication-for-a-role-in-an-identity-store)
+- [Specify Policies for Security Question Authentication](#specify-policies-for-security-question-authentication)
 
 ## Modify the Global Question Pool
 
@@ -33,13 +33,13 @@ To enable it, see the [Enable Authentication Types](/versioned_docs/groupid_11.0
 
 ## Enforce Security Question Authentication for a Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 
 ## Specify Policies for Security Question Authentication
 
-See the [Define Security Question Settings for a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/password.md#Define-Security-Question-Settings-for-a-Security-Role) topic.
+See the [Define Security Question Settings for a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role) topic.
 
 See Also
 

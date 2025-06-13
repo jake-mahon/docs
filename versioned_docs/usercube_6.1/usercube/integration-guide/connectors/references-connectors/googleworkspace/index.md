@@ -17,7 +17,7 @@ Implementing this connector requires:
 - reading first the [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account impersonating the following permission scopes: [https://www.googleapis.com/auth/admin.directory.user](https://www.googleapis.com/auth/admin.directory.user) and [https://www.googleapis.com/auth/admin.directory.group](https://www.googleapis.com/auth/admin.directory.group).
 
-  [See Google's documentation to create the service account with the right impersonation](https://developers.google.com/workspace/guides/create-credentials#See-Googles-documentation-to-create-the-service-account-with-the-right-impersonation).
+  [See Google's documentation to create the service account with the right impersonation](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-the-service-account-with-the-right-impersonation).
     
   __Caution:__ Google's documentation describes this procedure as optional, while the Google Workspace connector requires it.
 
@@ -73,7 +73,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#See-Googles-documentation-to-create-these-credentials). |
+| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-these-credentials). |
 | User   required | __Type__    String   __Description__ Email address of the service account mentioned in the [prerequisites](#prerequisites) section. |
 |  |  |
 | --- | --- |
@@ -81,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder the following CSV files:
+This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
 
 - ```GoogleExportFulfillment_Users.csv``` and ```GoogleExportFulfillment_Groups.csv``` whose headers come from the entity type mapping's ```ConnectionColumn``` and from the entity association mappings' columns which are not _members_ columns;
 - ```GoogleExportFulfillment_Members.csv``` with the following columns:
@@ -106,7 +106,7 @@ This connector can write to Google Workspace to create, update, and/or delete us
 
 ### Configuration
 
-[Same as for export](#Same-as-for-export), fulfill is configured through connections.
+[Same as for export](#same-as-for-export), fulfill is configured through connections.
 
 > For example:
 >
@@ -130,7 +130,7 @@ This connector can write to Google Workspace to create, update, and/or delete us
 
 | Name | Details |
 | --- | --- |
-| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#See-Googles-documentation-to-create-these-credentials). |
+| CredentialsFilePath   required | __Type__    String   __Description__ Path of Google Workspace's JSON credentials file. [See Google's documentation to create these credentials](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-these-credentials). |
 | User   required | __Type__    String   __Description__ Email address of the service account mentioned in the [prerequisites](#prerequisites) section. |
 
 ## Authentication

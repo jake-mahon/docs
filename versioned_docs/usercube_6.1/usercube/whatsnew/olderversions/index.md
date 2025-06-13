@@ -168,7 +168,7 @@ Release date 31-May-2022
 This release includes compatibility ruptures.
 The migration steps in the documentation's [Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore be followed.
 
-For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these connectors are used, please refer to the documentation for [MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md) and [Oracle] (/integration-guide/connectors/references-packages/oracle-database/index.html) for more information.
+For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these connectors are used, please refer to the documentation for [MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md) and [Oracle](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md) for more information.
 
 #### Fixed Bugs:
 
@@ -203,7 +203,7 @@ Release date 17-May-2022
 This release includes compatibility ruptures.
 The migration steps in the documentation's [Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore be followed.
 
-For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these connectors are used, please refer to the documentation for [MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md) and [Oracle] (/integration-guide/connectors/references-packages/oracle-database/index.html) for more information.
+For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these connectors are used, please refer to the documentation for [MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md) and [Oracle](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md) for more information.
 
 #### Enhancements:
 
@@ -368,9 +368,10 @@ Release date 10-Feb-2022
   - A user can now re-forward tasks from the Workflow Overview screen:
     - If the ActivityTemplate is ```ActionWithRefine```, only the previous performer can re-forward (the one from which originates the previous forward/re-forward).
     - If the ActivityTemplate is ```ReviewWithFeedback```, only the original reviewer(s) or performer can re-forward.
-  - Drop-down lists can now be automatically populated based on previously chosen values. In the following example, choosing a manager will automatically fill the �Organization' and �Location' fields with the manager's respective values:```
+  - Drop-down lists can now be automatically populated based on previously chosen values. In the following example, choosing a manager will automatically fill the �Organization' and �Location' fields with the manager's respective values:
+    
+    ```xml
     <Control DisplayName_L1="Position" DisplayName_L2="Poste" OutputType="LayoutFieldset">      <Control Binding="Title" />      <Control Binding="Manager" />      <Control Binding="Organization" DefaultValueBinding="Manager.MainOrganization" />      <Control Binding="Location" DefaultValueBinding="Manager.MainLocation" />    </Control>
-
     ```
 - Certifications and Risks
   - Added performance optimizations for recertification campaigns.
@@ -1607,9 +1608,10 @@ To continue to use the Usercube certificate in non-production environments, add 
     ![ChangeSummaryDeletion](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.1.6.changesummarydelete.png)
 - Workflows and Access Control
 
-  - Emails related to Role Model notifications can now be filtered based on Access Control Entries. In an AccessControlEntry, we have an existing flag, ```Notify```. By default, this value is set to true, and the user is notified when a task corresponding to this permission needs to be performed. It can be set to false to prevent the user from receiving notification mails. See the following example which prevents role review emails from going to the "RoleOfficerSpecific" profile.```
+  - Emails related to Role Model notifications can now be filtered based on Access Control Entries. In an AccessControlEntry, we have an existing flag, ```Notify```. By default, this value is set to true, and the user is notified when a task corresponding to this permission needs to be performed. It can be set to false to prevent the user from receiving notification mails. See the following example which prevents role review emails from going to the "RoleOfficerSpecific" profile.
+  
+  ```xml
   <AccessControlRule Identifier="RoleOfficerSpecific_AssignedSingleRole_Custom_ProvisioningPolicy_ReviewRoles_Directory_User" DisplayName_L1="Role Officer - Review Roles " DisplayName_L2="Gestionnaire de r�les - Revue des r�les" EntityType="AssignedSingleRole" Profile="RoleOfficerSpecific">  <Filter Binding="Role.Id" SingleRole="true" />  <Entry CanExecute="true" Notify="false" Permission="/Custom/ProvisioningPolicy/ReviewRoles/Directory_User" /></AccessControlRule>
-
   ```
   - Enhancements to the FulfillInternalWorkflow:
     - correction made for deleted provisioning orders that weren't working.

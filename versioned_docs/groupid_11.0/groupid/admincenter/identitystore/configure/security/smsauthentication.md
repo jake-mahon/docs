@@ -7,9 +7,9 @@ See the [Manage SMS Gateway Accounts](/versioned_docs/groupid_11.0/groupid/admin
 
 What do you want to do?
 
-- [Enable SMS Authentication for an Identity Store](#Enable-SMS-Authentication-for-an-Identity-Store)
-- [Link an SMS Gateway Account to an Identity Store](#Link-an-SMS-Gateway-Account-to-an-Identity-Store)
-- [Enforce SMS Authentication for a Security Role](#Enforce-SMS-Authentication-for-a-Security-Role)
+- [Enable SMS Authentication for an Identity Store](#enable-sms-authentication-for-an-identity-store)
+- [Link an SMS Gateway Account to an Identity Store](#link-an-sms-gateway-account-to-an-identity-store)
+- [Enforce SMS Authentication for a Security Role](#enforce-sms-authentication-for-a-security-role)
 
 ## Enable SMS Authentication for an Identity Store
 

@@ -19,14 +19,14 @@ __Step 4 –__ Model the intended changes:
 
   __CAUTION:__ Do not make configuration changes to the analysis tasks after reviewing and approving the Change Modeling report
 - Execute the analysis tasks to generate the Change Modeling report and review the proposed changes
-- See the [Model Intended Changes](#Model-Intended-Changes) topic for additional information
+- See the [Model Intended Changes](#model-intended-changes) topic for additional information
 
 __Step 5 –__ Configure and execute Active Directory actions:
 
 - Configure and enable the Create Groups action task
 - Configure and enable the Update Members action task
 - Execute the Active Directory actions
-- See the [Configure & Execute Active Directory Action Tasks](#Configure-Execute-Active-Directory-Action-Tasks) topic for additional information
+- See the Configure & Execute Active Directory Action Tasks topic for additional information
 
 __Step 6 –__ Execute File System actions:
 
@@ -34,13 +34,13 @@ __Step 6 –__ Execute File System actions:
 - Disable the Active Directory action tasks
 - Enable the File System action tasks
 - Execute the File System action tasks
-- See the [Execute File System Action Tasks](#Execute-File-System-Action-Tasks) topic for additional information
+- See the [Execute File System Action Tasks](#execute-file-system-action-tasks) topic for additional information
 
 __Step 7 –__ Analyze and report on action history:
 
 - Disable all action tasks.
 - Generate the Action History report and review it.
-- See the [Analyze and Report on Action History](#Analyze-and-Report-on-Action-History) topic for additional information
+- See the [Analyze and Report on Action History](#analyze-and-report-on-action-history) topic for additional information
 
 Additional Options
 

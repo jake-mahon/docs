@@ -8,14 +8,14 @@ By default, all permissions displayed on the __Add Permissions__ dialog box are 
 
 Permissions are grouped under the following heads, with each tab representing a different head:
 
-- [Users](#Users)
-- [Groups](#Groups)
-- [Admin Center](#Admin-Center)
-- [Synchronize](#Synchronize)
-- [Password Management](#Password-Management)
-- [Miscellaneous](#Miscellaneous)
-- [Container](#Container)
-- [Entitlement](#Entitlement)
+- [Users](#users)
+- [Groups](#groups)
+- [Admin Center](#admin-center)
+- [Synchronize](#synchronize)
+- [Password Management](#password-management)
+- [Miscellaneous](#miscellaneous)
+- [Container](#container)
+- [Entitlement](#entitlement)
 
 ## Users
 
@@ -176,7 +176,7 @@ Permissions are discussed in the following table:
 | 4. | Modify user / group | Enables role members to update the permissions assigned to users and groups on document libraries in the site.  The __Type__ column lists the effective permissions. Role members will only be able to modify the permissions that you enable here. |
 | 5. | Remove user / group | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site. |
 
-NOTE: For more information on role permissions, see the [User Roles in Microsoft Entra ID and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#User-Roles-in-Microsoft-Entra-ID-and-GroupID) topic.
+NOTE: For more information on role permissions, see the [User Roles in Microsoft Entra ID and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#user-roles-in-microsoft-entra-id-and-groupid) topic.
 
 __See Also__
 

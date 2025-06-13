@@ -44,7 +44,7 @@ Creates a agent.
 | --- | --- | --- |
 | 200 | The result of the agent creation. |  |
 
-### /api/Connectors/Agent/{id}
+### /api/Connectors/Agent/`{id}`
 
 #### Get
 
@@ -151,7 +151,7 @@ Creates a connection.
 | --- | --- | --- |
 | 200 | The result of the connector creation. |  |
 
-### /api/Connectors/Connection/{id}
+### /api/Connectors/Connection/`{id}`
 
 #### Get
 
@@ -240,7 +240,7 @@ Returns all the connection packages according to the provided query.
 | --- | --- | --- |
 | 200 | The connector list. |  |
 
-### /api/Connectors/ConnectionPackage/{id}
+### /api/Connectors/ConnectionPackage/`{id}`
 
 #### Get
 
@@ -309,7 +309,7 @@ Creates a connector.
 | --- | --- | --- |
 | 200 | The result of the connector creation. |  |
 
-### /api/Connectors/Connector/{id}
+### /api/Connectors/Connector/`{id}`
 
 #### Get
 
@@ -373,7 +373,7 @@ Deletes a connector.
 | --- | --- | --- |
 | 200 | The result of the connector delete. |  |
 
-### /api/Connectors/Connector/ResourceTypes/{id}
+### /api/Connectors/Connector/ResourceTypes/`{id}`
 
 #### Get
 
@@ -472,7 +472,7 @@ Returns all the entity types mappings according to the provided query.
 | --- | --- | --- |
 | 200 | The entity type list. |  |
 
-### /api/Connectors/EntityTypeMapping/{id}
+### /api/Connectors/EntityTypeMapping/`{id}`
 
 #### Get
 
@@ -519,7 +519,7 @@ Returns all the password reset settings according to the provided query.
 | --- | --- | --- |
 | 200 | The password reset setting list. |  |
 
-### /api/Connectors/Provisioning/ProvisioningData/{id}
+### /api/Connectors/Provisioning/ProvisioningData/`{id}`
 
 #### Get
 
@@ -586,7 +586,7 @@ Returns all the resource types mappings according to the provided query.
 | --- | --- | --- |
 | 200 | The resource type mapping list. |  |
 
-### /api/Connectors/Mapping/ResourceTypeMapping/{id}
+### /api/Connectors/Mapping/ResourceTypeMapping/`{id}`
 
 #### Get
 

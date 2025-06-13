@@ -7,7 +7,7 @@ The Sample Host page is used to configure the host. It is a wizard page for all 
 Select a host for running a test query on the Criteria page from the following radio buttons:
 
 - Local Computer – localhost
-- Another computer – If selecting another computer for the host, click the ellipsis to open the Select Computer window. See the [Select Computer Window](#Select-Computer-Window) topic for additional information.
+- Another computer – If selecting another computer for the host, click the ellipsis to open the Select Computer window. See the [Select Computer Window](#select-computer-window) topic for additional information.
 
 ## Select Computer Window
 

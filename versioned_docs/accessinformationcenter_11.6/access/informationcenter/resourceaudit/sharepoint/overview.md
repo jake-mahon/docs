@@ -21,7 +21,7 @@ SharePoint reports fall into the following categories:
   - Report on monitored activity
   - Data collected by the Enterprise Auditor SharePoint Activity Auditing collection jobs
   - Display information for a selected date range with local time stamps
-  - Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#Activity-Report-Results-Pane-Features) topic for instructions on selecting a date range and filtering the trend graphs.
+  - Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features) topic for instructions on selecting a date range and filtering the trend graphs.
   - Activity information is represented in two ways:
 
     - Activity Statistics – Statistics reports show the count of operation events performed for the selected resource within the selected date range. These events are normalized into the operations of Reads, Writes, Deletes, and Manages.

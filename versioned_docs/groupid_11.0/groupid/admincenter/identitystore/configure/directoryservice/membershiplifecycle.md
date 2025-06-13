@@ -26,15 +26,15 @@ Some main features of the membership lifecycle policies are:
   remains intact when you remove a policy from a group or OU.
 - __Single policy rule__ - A single policy can be applied to a group or an OU at a time. Hence, a group or OU cannot be set as the target in more than one policy. If you apply a policy to an OU that contains a group with a different policy already applied to it, then the
   group policy would be effective.
-- __Notifications__ - GroupID generates notifications when users are temporarily added or removed from a group’s membership. See the [Manage Membership Life Cycle Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Manage-Membership-Life-Cycle-Notifications) topic.
+- __Notifications__ - GroupID generates notifications when users are temporarily added or removed from a group’s membership. See the [Manage Membership Life Cycle Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications) topic.
 
 What do you want to do?
 
-- [Specify an ‘Add Temporary’ Membership Policy](#Specify-an-Add-Temporary-Membership-Policy)
-- [Specify a ‘Remove Temporary’ Membership Policy](#Specify-a-Remove-Temporary-Membership-Policy)
-- [Edit a Policy](#Edit-a-Policy)
-- [Reapply a Policy](#Reapply-a-Policy)
-- [Delete a Policy](#Delete-a-Policy)
+- [Specify an ‘Add Temporary’ Membership Policy](#specify-an-add-temporary-membership-policy)
+- [Specify a ‘Remove Temporary’ Membership Policy](#specify-a-remove-temporary-membership-policy)
+- [Edit a Policy](#edit-a-policy)
+- [Reapply a Policy](#reapply-a-policy)
+- [Delete a Policy](#delete-a-policy)
 
 ## Specify an ‘Add Temporary’ Membership Policy
 
@@ -133,8 +133,8 @@ __To edit a policy:__
 4. On the __Group/OU Based Membership Life Cycle__ page, click the ellipsis button for a policy and select __Edit__.
 5. Make the required changes to the policy on the __Edit Group/OU Based Membership Lifecycle Policy__ dialog box.
 
-   - For an _add temporary_ policy, follow step 5 and onwards in the [Specify an ‘Add Temporary’ Membership Policy](#Specify-an-Add-Temporary-Membership-Policy) topic.
-   - For a _remove temporary_ policy, follow step 5 and onwards in the [Specify a ‘Remove Temporary’ Membership Policy](#Specify-a-Remove-Temporary-Membership-Policy) topic.
+   - For an _add temporary_ policy, follow step 5 and onwards in the [Specify an ‘Add Temporary’ Membership Policy](#specify-an-add-temporary-membership-policy) topic.
+   - For a _remove temporary_ policy, follow step 5 and onwards in the [Specify a ‘Remove Temporary’ Membership Policy](#specify-a-remove-temporary-membership-policy) topic.
 6. On the __Group/OU Based Membership Life Cycle__ page, click __Save__.
 
 ## Reapply a Policy

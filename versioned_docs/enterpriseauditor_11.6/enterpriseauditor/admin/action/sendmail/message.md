@@ -10,7 +10,7 @@ Use the following fields to specify the text of the email:
 - Insert Field – Inserts a data field into the subject or body of the email. The drop-down menu displays a list of available fields. Once a selection displays in the field, click on the blue Up and Down arrows to insert the field into the body or the subject, respectively. This field is optional.
 - Show sample input source data – To display a table of sample source data, click the icon next to the blue arrows.
 - Show dialog to set SMTP options – To override the global SMTP settings, click the icon next to the blue arrows to display the SMTP Options dialog box
-- Preview – Displays the Message Preview window containing a preview of the current SendMail. Click __Send__ to send a single message to the addresses in the Recipient field in the Message Preview window. The Preview button is active only if the Recipients field is populated on the Properties page of the Send Mail Action Module Wizard. See the [Messages Preview Window](#Messages-Preview-Window) topic for additional information.
+- Preview – Displays the Message Preview window containing a preview of the current SendMail. Click __Send__ to send a single message to the addresses in the Recipient field in the Message Preview window. The Preview button is active only if the Recipients field is populated on the Properties page of the Send Mail Action Module Wizard. See the [Messages Preview Window](#messages-preview-window) topic for additional information.
 - Clear Template – Clears any content from the Subject and Text Entry box
 - Load from template – Accesses a list of message templates. This field is optional. The following templates are available:
 

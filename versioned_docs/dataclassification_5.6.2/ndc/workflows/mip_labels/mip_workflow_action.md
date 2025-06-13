@@ -2,8 +2,8 @@
 
 Netwrix Data Classification is integrated with Microsoft Information Protection (MIP) to enable you to better track and secure sensitive data on your file servers. [See Understanding MIP Labels for more information.](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_intro.md)
 
-- [Modifying MIP Label via Workflow Wizard](#Modifying-MIP-Label-via-Workflow-Wizard)
-- [Modifying MIP Label via Advanced UI](#Modifying-MIPLabel-via-Advanced-UI)
+- [Modifying MIP Label via Workflow Wizard](#modifying-mip-label-via-workflow-wizard)
+- [Modifying MIP Label via Advanced UI](#modifying-miplabel-via-advanced-ui)
 
 __NOTE:__ To apply or remove MIP label, a MIP application configuration must be specified. See [Set Up MIP Integration](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md) for more information.
 

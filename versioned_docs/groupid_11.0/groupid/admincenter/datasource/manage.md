@@ -4,9 +4,9 @@ GroupID enables you to create data sources for various data providers. You can a
 
 What do you want to do?
 
-- [Search a Data Source for a Specific Provider](#Search-a-Data-Source-for-a-Specific-Provider)
-- [Update a Data Source](#Update-a-Data-Source)
-- [Delete a Data Source](#Delete-a-Data-Source)
+- [Search a Data Source for a Specific Provider](#search-a-data-source-for-a-specific-provider)
+- [Update a Data Source](#update-a-data-source)
+- [Delete a Data Source](#delete-a-data-source)
 
 ## Search a Data Source for a Specific Provider
 

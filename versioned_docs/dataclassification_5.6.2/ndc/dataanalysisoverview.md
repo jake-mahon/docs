@@ -5,7 +5,7 @@ __Data Analysis__ section in Netwrix Data Classification management console incl
 - To view reports on product operation, indexing and classification results, click Reports.
 - To use DSAR search capabilities, click __DSAR__.
 
-[![data_analysis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/data_analysis_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/data_analysis.png)
+![data_analysis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/data_analysis_thumb_0_0.png)
 
 See next:
 

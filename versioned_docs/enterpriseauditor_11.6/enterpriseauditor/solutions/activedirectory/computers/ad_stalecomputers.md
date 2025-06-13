@@ -4,14 +4,14 @@ The AD\_StaleComputers Job provides details on stale computers that may be candi
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD\_StaleComputers Job has the following configurable parameters:
 
 - Days since Last Logon
 - Consider disabled accounts as stale
 
-See the [Customizable Analysis Parameters for the AD\_StaleComputers Job](#Customizable-Analysis-Parameters-for-the-AD_StaleComputers-Job) topic for additional information.
+See the [Customizable Analysis Parameters for the AD\_StaleComputers Job](#customizable-analysis-parameters-for-the-ad_stalecomputers-job) topic for additional information.
 
 ## Analysis Tasks for the AD\_StaleComputers Job
 

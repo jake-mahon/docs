@@ -14,7 +14,7 @@ The following action task is deselected by default.
 
 - Notify Owners – Notifies share owners using SendMail module
 
-Prior to running the FS\_NotifyOwners job, it is necessary to select the __Notify Owners__ task and configure the properties for the SendMail action module. See the [Configure the FS\_NotifyOwners Action](#Configure-the-FS_NotifyOwners-Action) topic for additional information.
+Prior to running the FS\_NotifyOwners job, it is necessary to select the __Notify Owners__ task and configure the properties for the SendMail action module. See the [Configure the FS\_NotifyOwners Action](#configure-the-fs_notifyowners-action) topic for additional information.
 
 ### Configure the FS\_NotifyOwners Action
 

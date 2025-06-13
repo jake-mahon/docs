@@ -11,7 +11,7 @@ The SQL Script Editor window has the following options:
 - Save and Close – Saves script and closes window
 - Parameters – Establishes parameters for SQL scripts in the editor
 
-  - Clicking __Parameters__ opens the Parameters interface. See the [Parameters](#Parameters) topic for additional information.
+  - Clicking __Parameters__ opens the Parameters interface. See the [Parameters](#parameters) topic for additional information.
 - Syntax Check – Checks SQL script syntax
 
   - Syntax Check does not identify logic errors, only instances where syntax is incorrect. Click __Syntax Check__ to open the Script Errors window which identifies syntax errors.
@@ -43,7 +43,7 @@ The Parameters window has the following options:
   - Select the variable __Type__ from the dropdown menu
   - Variable names must begin with the ```@``` sign
 - Add Table – Adds a new table
-- Edit Table – Opens the Edit Table window. See the [Edit Table](#Edit-Table) topic for additional information.
+- Edit Table – Opens the Edit Table window. See the [Edit Table](#edit-table) topic for additional information.
 - Delete – Deletes the selected variable or table
 
 The parameters have the following properties:
@@ -56,7 +56,7 @@ The parameters have the following properties:
   - Boolean variables only take True/False input, in SQL they are 1/0
   - Percentages only take whole numbers 0-100, converted to 0.0 to 1.0 in SQL
   - Temporary and Variable Tables
-- Description – Description of the variable or table. See the [Edit Table](#Edit-Table) topic for additional information.
+- Description – Description of the variable or table. See the [Edit Table](#edit-table) topic for additional information.
 - Value – Input value
 
 ### Edit Table

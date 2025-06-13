@@ -2,19 +2,19 @@
 
 This section contains information on additional configuration settings specific to different source types.
 
-- [AD Domains Excluded](#AD-Domains-Excluded)
-- [Attachments Excluded](#Attachments-Excluded)
-- [No Index](#No-Index)
-- [Proxy Server](#Proxy-Server)
-- [Suspend Services (Scheduler)](#Suspend-Services-Scheduler)
+- [AD Domains Excluded](#ad-domains-excluded)
+- [Attachments Excluded](#attachments-excluded)
+- [No Index](#no-index)
+- [Proxy Server](#proxy-server)
+- [Suspend Services (Scheduler)](#suspend-services-scheduler)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[AD Domains Excluded](javascript:void(0))
+## AD Domains Excluded
 
 The AD Domains Excluded list is used to disable Active Directory expansion for certain domain names. This is useful in a multi-Domain forest, where the Netwrix Data Classification server does not have access to all domains within the forest.
 
 ![configaddomainsexcluded](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/configaddomainsexcluded.png)
 
-[<!-- Image removed: transparent.gif not found -->Attachments Excluded](javascript:void(0))
+## Attachments Excluded
 
 When indexing files from that potentially contain attachments (SharePoint List Items) the list of file locations that will be ignored is defined by the Attachments Excluded list. The definitions in this list may be viewed and modified via the Attachments Excluded form:
 
@@ -25,7 +25,7 @@ Any file with a path that matches one of these patterns will be ignored. Wildcar
 - The asterisk character (\*) matching any sequence of characters
 - The question mark character (?) matching any single character
 
-[<!-- Image removed: transparent.gif not found -->No Index](javascript:void(0))
+## No Index
 
 Sometimes an application may wish to remove selected documents from all search results. This may be implemented by specifying No Index entries.
 
@@ -36,7 +36,7 @@ Any number of URLs (or Filenames) may be entered and none of these will ever app
 - The asterisk character (\*) matching any sequence of characters
 - The Question mark character (?) matching any single character
 
-[<!-- Image removed: transparent.gif not found -->Proxy Server](javascript:void(0))
+## Proxy Server
 
 The Proxy Server form may be used to define a proxy server to be used when crawling websites, the proxy server is not used for SharePoint crawling.
 
@@ -46,7 +46,7 @@ Set Bypass Local to Yes to bypass the proxy server for local addresses (localhos
 
 Any other exclusions that should not go through the proxy server should be defined in the Exceptions list.
 
-[<!-- Image removed: transparent.gif not found -->Suspend Services (Scheduler)](javascript:void(0))
+## Suspend Services (Scheduler)
 
 All Netwrix Data Classification services run as Windows services. They are responsible for building the search index and classifying documents against the registered taxonomies.
 

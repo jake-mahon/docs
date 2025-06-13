@@ -102,8 +102,8 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| Servers   required | __Type__    [Server](#Server) List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    [Table](#Table) List   __Description__ List of specific setting attributes to retrieve entries and links.   __Note:__ having a table named ```entries``` is mandatory. |
+| Servers   required | __Type__    [Server](#server) List   __Description__ List of servers to connect to. |
+| Tables   required | __Type__    [Table](#table) List   __Description__ List of specific setting attributes to retrieve entries and links.   __Note:__ having a table named ```entries``` is mandatory. |
 | SizeLimit   optional | __Type__    Int32   __Description__ Maximum number of objects returned in the search request.   __Note:__ ignored when using ```Servers```:```Controls```. |
 | TimeLimit   optional | __Type__    Int32   __Description__ Maximum duration (in seconds) of the request. |
 | TimeOut   optional | __Type__    Int32   __Description__ Time period (in seconds) before the connection to the LDAP is closed. |
@@ -137,7 +137,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
+This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
 
 Any property can be exported in a specific format when specified. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
@@ -173,7 +173,7 @@ The LDAP connector fulfills the creation, deletion and update of LDAP entries, i
 
 ### Configuration
 
-[Same as for export](#Same-as-for-export), fulfill is configured through connections.
+[Same as for export](#same-as-for-export), fulfill is configured through connections.
 
 > For example:
 >
@@ -209,8 +209,8 @@ The LDAP connector fulfills the creation, deletion and update of LDAP entries, i
 
 | Name | Details |
 | --- | --- |
-| Servers   required | __Type__    [Server](#Server) List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    [Table](#Table) List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
+| Servers   required | __Type__    [Server](#server) List   __Description__ List of servers to connect to. |
+| Tables   required | __Type__    [Table](#table) List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
 | AsAdLds   required | __Type__    Boolean   __Description__ ```True``` to state the managed system as an AD LDS. |
 | IsLdapPasswordReset   optional | __Type__    Boolean   __Description__ ```True``` to state the managed system as an LDAP-compliant system supporting password reset. |
 
@@ -254,7 +254,7 @@ If these attributes are not synchronized in Usercube, then they cannot be comput
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#See-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
 
 ### Credential protection
 

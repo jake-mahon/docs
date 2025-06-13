@@ -12,18 +12,18 @@ For this data source, specify the options you need:
 | Option | Description |
 | --- | --- |
 | Monitor this data source and collect activity data | Enable monitoring of the selected data source and configure Auditor to collect and store audit data. |
-| Monitor VMware configuration changes | Configuration changes are always monitored for VMware data source. See the [Data Collection from VMware Servers](#Data-Collection-from-VMware-Servers) topic  for additional information. |
+| Monitor VMware configuration changes | Configuration changes are always monitored for VMware data source. See the [Data Collection from VMware Servers](#data-collection-from-vmware-servers) topic  for additional information. |
 | Monitor VMware logon activity | Specify what types of logon events you want to monitor for VMware infrastructure. |
 | Monitor SSO users/groups on vCenter and Local users on ESXi sever | Select Enable monitoring if you want to audit the following users and groups:   - vCenter Single Sign-On (SSO) Users. The product collects data from vCenter. - Localos users. For these users, the product collects data from ESXi and vCenter. - VMware groups. The product collects data from vCenter.   To audit users and groups, vCenter 6.5 and above required. Check that your data collecting account has all required rights and permissions. See the [Permissions for VMware Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/vmware/permissions.md) topic for additional information. |
 | Collect data for state-in-time reports | Configure Auditor to store daily snapshots of your VMware system configuration required for further state-in-time reports generation.  The product updates the latest snapshot on the regular basis to keep users up-to-date on actual system state. Only the latest snapshot is available for reporting in Auditor.  If you want to generate reports based on different snapshots, you must import snapshots to the Audit Database.  To import snapshots, you must be assigned the Global administrator or the Global reviewer role .  Follow the steps to import snapshots.  __Step 1 –__ In the Manage historical snapshots section, click Manage.  __Step 2 –__ Select the snapshots that you want to import.  __Step 3 –__ Move the selected snapshots to the Snapshots available for reporting list using the arrow button.  __Step 4 –__ When finished, click OK. |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#Add-Items-for-Monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## Data Collection from VMware Servers
 
 On a high level, data collection process for VMware servers works as follows:
 
-[![hiw_diagram_vma](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/vmware/hiw_diagram_vma.png)](/versioned_docs/auditor_10.6/resources/images/auditor/howitworks/hiw_diagram_vma.png)
+![hiw_diagram_vma](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/vmware/hiw_diagram_vma.png)
 
 VMware administrator prepares a dedicated service account with sufficient permissions to collect data from VMware servers. This account must have at least __Read Only role__ on those servers. For more information on VMware vSphere roles and permissions assignment, refer to [this VMware article](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.security.doc/GUID-18071E9A-EED1-4968-8D51-E0B4F526FDA3.html).
 

@@ -2,7 +2,7 @@
 
 The Permissions report at the share and subfolder levels provides a list of trustees with permissions for the selected resource. This report includes a table with trustee access levels Compared to Parent.
 
-If activity is being monitored for the selected resource, then this report indicates where stale permissions exist. See the [Stale Permissions](#Stale-Permissions) topic for additional information.
+If activity is being monitored for the selected resource, then this report indicates where stale permissions exist. See the [Stale Permissions](#stale-permissions) topic for additional information.
 
 ![Permissions report at the share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissions.png)
 
@@ -43,7 +43,7 @@ There is one table at the bottom displaying Compared to Parent permissions for t
 
 ![Compared to Parent table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.png)
 
-This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#Resources-Pane) topic for additional information. This table is comprised of the same columns as the primary report.
+This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report.
 
 ## Stale Permissions
 

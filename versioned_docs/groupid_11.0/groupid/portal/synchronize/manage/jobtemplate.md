@@ -7,13 +7,13 @@ in new jobs.
 
 What do you want to do?
 
-- [Create a Job Template](#Create-a-Job-Template)
-- [Import a Job Template](#Import-a-Job-Template)
-- [Export a Job Template](#Export-a-Job-Template)
-- [Create a Job from a Template](#Create-a-Job-from-a-Template)
-- [Rename a Job Template](#Rename-a-Job-Template)
-- [Delete a Job Template](#Delete-a-Job-Template)
-- [Filter Job Templates](#Filter-Job-Templates)
+- [Create a Job Template](#create-a-job-template)
+- [Import a Job Template](#import-a-job-template)
+- [Export a Job Template](#export-a-job-template)
+- [Create a Job from a Template](#create-a-job-from-a-template)
+- [Rename a Job Template](#rename-a-job-template)
+- [Delete a Job Template](#delete-a-job-template)
+- [Filter Job Templates](#filter-job-templates)
 
 ## Create a Job Template
 

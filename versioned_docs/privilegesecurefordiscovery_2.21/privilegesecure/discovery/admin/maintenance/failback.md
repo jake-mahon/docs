@@ -110,7 +110,7 @@ If there is an issue with any of the above please reach out to Support. Once the
 
 ### Step #7: (DNS Cutover)
 
-Once the restore has been completed and all services are showing a replicas status of 1/1, the DNS for [secureone.catalent.com](http://secureone.catalent.com) will need to be cutover/pointed from the PROD environment to the DR environment. The steps for this are listed above at this section [Catalent’s INTERNAL DNS Update “Cutover”: Failover-Failback Procedure v 1.0](https://remediant.quip.com/j8eLA7FIMaft#Catalents-INTERNAL-DNS-Update-Cutover-Failover-Failback-Procedure-v-10). This DNS update, once completed, should take about 15-30 mins to “push” out to the network and update each endpoints DNS resolution. This can be done manually by clearing a machines DNS cache via the Windows terminal command ```ipconfig /flushdns.```
+Once the restore has been completed and all services are showing a replicas status of 1/1, the DNS for [secureone.catalent.com](http://secureone.catalent.com) will need to be cutover/pointed from the PROD environment to the DR environment. The steps for this are listed above at this section [Catalent’s INTERNAL DNS Update “Cutover”: Failover-Failback Procedure v 1.0](https://remediant.quip.com/j8eLA7FIMaft#catalents-internal-dns-update-cutover-failover-failback-procedure-v-10). This DNS update, once completed, should take about 15-30 mins to “push” out to the network and update each endpoints DNS resolution. This can be done manually by clearing a machines DNS cache via the Windows terminal command ```ipconfig /flushdns.```
 
 At this point the failover process has been completed and you should be able to:
 

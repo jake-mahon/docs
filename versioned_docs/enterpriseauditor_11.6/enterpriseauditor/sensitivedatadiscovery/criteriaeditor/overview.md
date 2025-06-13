@@ -6,7 +6,7 @@ The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the __Se
 
 The Sensitive Data Criteria Editor contains two sections:
 
-- Navigation pane – User-configured criteria can be added and removed in the navigation pane using the Add or Remove options. See the [Navigation Pane](#Navigation-Pane) topic for additional information.
+- Navigation pane – User-configured criteria can be added and removed in the navigation pane using the Add or Remove options. See the [Navigation Pane](#navigation-pane) topic for additional information.
 - Configuration pane – Displays configured settings for the currently selected criteria in the navigation pane. See the [Configuration Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md) topic for additional information.
 
 ## Navigation Pane

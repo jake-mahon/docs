@@ -11,7 +11,7 @@ You can use the Content Detection Rule to deﬁne the policy by combining multip
 To edit a Content Detection Rule, click __Edit__ and then, on the Deﬁne operation section, provide the following information:
 
 - Select operator - OR (default), __AND__
-- Enable __Threshold__ and type the number adjacent to each entry from 1 to 1000; this will disable the Global Threshold setting from the [Content Detection, Remediation and Compliance](#Content-Detection-Remediation-and-Compliance) section.
+- Enable __Threshold__ and type the number adjacent to each entry from 1 to 1000; this will disable the Global Threshold setting from the Content Detection, Remediation and Compliance section.
 - Add item and select from the drop-down Personal Identifiable Information; before saving the operation, you can change PIIs by selecting from the drop-down list. To delete an entry from the list, click __x__ adjacent to each PII.
 - __Add group__
 
@@ -124,7 +124,7 @@ __CAUTION:__ The Content Aware Protection Policies continue to report and/or blo
 
 You can deﬁne the monitored URL categories the Deep Packet Inspection will ﬁlter. If none is selected, Deep Packet Inspection will ﬁlter all content uploaded for any URL.
 
-You can add, delete and edit [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#Denylists-and-Allowlists) from the Denylists and Allowlists section.
+You can add, delete and edit [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md) from the Denylists and Allowlists section.
 
 ![Deﬁne the monitored URL categories the Deep Packet Inspection](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpimonitored.png)
 
@@ -171,7 +171,7 @@ __Step 3 –__ On the Self Remediate section:
 - add the __number of minutes__ needed to remediate the device (you can hover over the default number to view the maximum time interval)
 - click __Authorize__
 
-__NOTE:__ You can manage more settings for the Self Remediate feature from System Preferences and [User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#User-Remediation) sections.
+__NOTE:__ You can manage more settings for the Self Remediate feature from System Preferences and [User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation) sections.
 
 User Remediation for Content Aware Protection can remediate ﬁle transfers via web domains.
 

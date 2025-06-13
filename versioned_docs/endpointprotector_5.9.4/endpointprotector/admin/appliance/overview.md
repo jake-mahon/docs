@@ -120,7 +120,7 @@ To create a SIEM Server, click __Add New__ and provide the following information
 - Server IP or DNS – add the IP or DNS
 - Server Protocol – select the UDP or TCP server protocol
 
-  __NOTE:__ Based on the protocol you select you can enable [SIEM Encryption](#SIEM-Encryption).
+  __NOTE:__ Based on the protocol you select you can enable [SIEM Encryption](#siem-encryption).
 - Server Port – add a port
 - Exclude Headers - toggle switch to enable/disable log headers
 
@@ -176,7 +176,7 @@ Example column headers include:
 - [Client Computer]
 - [IP Address]
 
-You can find the complete list of ```[field_name]``` in the [SIEM Export Log Fields](#SIEM-Export-Log-Fields) section.
+You can find the complete list of ```[field_name]``` in the [SIEM Export Log Fields](#siem-export-log-fields) section.
 
 #### Contents of the column
 

@@ -6,8 +6,8 @@ This section guides you through the procedure for the creation of a workflow to 
 
 This [workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
 
-1. [```ActionWithRefine```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#ActionWithRefine): sends the resource's record update request with a possibility of delegation.
-2. [```Persist```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#Persist): saves the collected data and triggers provisioning.
+1. [```ActionWithRefine```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine): sends the resource's record update request with a possibility of delegation.
+2. [```Persist```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist): saves the collected data and triggers provisioning.
 
 The example below creates a workflow to update only the user's name.
 

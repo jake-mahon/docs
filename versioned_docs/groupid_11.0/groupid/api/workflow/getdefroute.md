@@ -2,7 +2,7 @@
 
 Use this API to retrieve information about GroupID default workflows. These workflows are predefine in GroupID that trigger when their associated events occur.
 
-See the [System Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#System-Workflows) section of the [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md) topic for additional information.
+See the [System Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#system-workflows) section of the [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md) topic for additional information.
 
 ## Endpoint
 

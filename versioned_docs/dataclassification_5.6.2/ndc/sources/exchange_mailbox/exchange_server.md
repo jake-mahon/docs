@@ -4,7 +4,7 @@ The Exchange Server source configuration screen allows you to enable the crawlin
 
 __IMPORTANT!__  Automatic detection, crawling and classification of multiple Exchange mailboxes from the same Exchange server (and, respectively, _Exchange Server_ content source configuration) is only supported for Exchange Server 2013 or later due to limitations in the Microsoft APIs. For earlier versions, consider using _Exchange Mailbox_ content source.
 
-You can use [Match Rules](#Match-Rules) to include and exclude the certain mailboxes.
+You can use Match Rules to include and exclude the certain mailboxes.
 
 To configure an Exchange Server source:
 
@@ -22,11 +22,11 @@ If you plan to use this authentication type, specify the following:
 | --- | --- |
 | Authentication type | Select __Modern (Exchange Online)__ |
 | Admin Username | Specify the administrative account for the required Exchange Online organization. |
-| Tenant ID | Enter the __Tenant ID__ you obtained at [Step 5: Obtain Tenant ID](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#Step-5-Obtain-Tenant-ID). |
-| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#Step-4-Configure-Certificates-secrets). |
-| Application ID | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#Step-2-Create-and-Register-a-new-app-in-Azure-AD) (it can be found in the Azure AD app properties >__Overview__). |
+| Tenant ID | Enter the __Tenant ID__ you obtained at [Step 5: Obtain Tenant ID](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#step-5-obtain-tenant-id). |
+| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#step-4-configure-certificates--secrets). |
+| Application ID | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >__Overview__). |
 
-[![exchangeonline_cfg_modern_auth_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/exchange_mailbox/exchangeonline_cfg_modern_auth_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/exchangeonline_cfg_modern_auth.png)
+![exchangeonline_cfg_modern_auth_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/exchange_mailbox/exchangeonline_cfg_modern_auth_thumb_0_0.png)
 
 ## Authentication type: Basic
 

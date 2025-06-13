@@ -4,9 +4,9 @@ You can create a Data service in native IIS, remote IIS, and Docker.
 
 What do you want to do?
 
-- [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS)
-- [Create a Data Service in Remote IIS](#Create-a-Data-Service-in-Remote-IIS)
-- [Create a Data Service in Docker](#Create-a-Data-Service-in-Docker)
+- [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis)
+- [Create a Data Service in Remote IIS](#create-a-data-service-in-remote-iis)
+- [Create a Data Service in Docker](#create-a-data-service-in-docker)
 
 ## Create a Data Service in Native IIS
 
@@ -69,8 +69,8 @@ __To create a Data service:__
 4. On the __Create GroupID Application__ page, select the __Remote IIS__ tile.
 5. In the __Application Name__ box, enter a unique name for the Data service or use the default name. The Data service is displayed in GroupID with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Remote-IIS) topic. Replace any reference to the portal with the Data service.
-8. For entering information in the __Service Endpoints__ area, follow steps 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
+7. To enter information for __API URL__, __Access Token__, __Username__, __Password__, __IIS Application Name__, and __Website__, refer to steps 7-11 in the [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic. Replace any reference to the portal with the Data service.
+8. For entering information in the __Service Endpoints__ area, follow steps 9 in the [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis) topic.
 9. Click __Create Application__.  
    The new Data service is displayed on the __Data Service__ tab.
 
@@ -92,8 +92,8 @@ __To create a Data service:__
 4. On the __Create GroupID Application__ page, select the __Docker__ tile.
 5. In the __Application Name__ box, enter a unique name for the Data service or use the default name. The Data service is displayed in GroupID with this name.
 6. In the __Deployment Name__ box, enter a deployment name for the service. The application name and deployment name are displayed on the service card.
-7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Create-a-Portal-in-Docker) topic. Replace any reference to the portal with the Data service.
-8. For entering information in the __Service Endpoints__ area, follow step 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
+7. To enter information for __Port__, __Service URL__, and __Container Name__, refer to steps 7-9 in the [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace any reference to the portal with the Data service.
+8. For entering information in the __Service Endpoints__ area, follow step 9 in the [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis) topic.
 9. Click __Create Application__.  
    The Data service is created and displayed on the __Data Service__ tab.
 

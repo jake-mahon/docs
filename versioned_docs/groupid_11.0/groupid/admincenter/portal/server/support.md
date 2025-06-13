@@ -6,9 +6,9 @@ target email address or web address can be changed.
 
 What do you want to do?
 
-- [Update the Support Email Address](#Update-the-Support-Email-Address)
-- [Change the Help URL for a Portal](#Change-the-Help-URL-for-a-Portal)
-- [View the Client ID Assigned to a Portal](#View-the-Client-ID-Assigned-to-aPortal)
+- [Update the Support Email Address](#update-the-support-email-address)
+- [Change the Help URL for a Portal](#change-the-help-url-for-a-portal)
+- [View the Client ID Assigned to a Portal](#view-the-client-id-assigned-to-aportal)
 
 ## Update the Support Email Address
 

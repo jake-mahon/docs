@@ -44,7 +44,7 @@ Creates an activity.
 | --- | --- | --- |
 | 200 | The result of the activity creation. |  |
 
-### /api/Workflows/Activity/{id}
+### /api/Workflows/Activity/`{id}`
 
 #### Get
 
@@ -133,7 +133,7 @@ Returns all the activity instances according to the provided query.
 | --- | --- | --- |
 | 200 | The activity instance list. |  |
 
-### /api/Workflows/ActivityInstance/{id}
+### /api/Workflows/ActivityInstance/`{id}`
 
 #### Get
 
@@ -184,7 +184,7 @@ Returns all the activityTemplates according to the provided query.
 | --- | --- | --- |
 | 200 | The activityTemplate list. |  |
 
-### /api/Workflows/ActivityTemplate/{id}
+### /api/Workflows/ActivityTemplate/`{id}`
 
 #### Get
 
@@ -235,7 +235,7 @@ Returns all the activityTemplateStates according to the provided query.
 | --- | --- | --- |
 | 200 | The activityTemplateState list. |  |
 
-### /api/Workflows/ActivityTemplateState/{id}
+### /api/Workflows/ActivityTemplateState/`{id}`
 
 #### Get
 
@@ -286,7 +286,7 @@ Returns all the activityTemplateTransitions according to the provided query.
 | --- | --- | --- |
 | 200 | The activityTemplateTransition list. |  |
 
-### /api/Workflows/ActivityTemplateTransition/{id}
+### /api/Workflows/ActivityTemplateTransition/`{id}`
 
 #### Get
 
@@ -355,7 +355,7 @@ Creates a workflow.
 | --- | --- | --- |
 | 200 | The result of the workflow creation. |  |
 
-### /api/Workflows/Workflow/{id}
+### /api/Workflows/Workflow/`{id}`
 
 #### Get
 
@@ -462,7 +462,7 @@ Starts a new workflow instance.
 | --- | --- | --- |
 | 200 | The result of the workflowInstance creation. |  |
 
-### /api/Workflows/WorkflowInstance/{id}
+### /api/Workflows/WorkflowInstance/`{id}`
 
 #### Get
 

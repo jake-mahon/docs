@@ -8,9 +8,9 @@ The PowerShell script can be entered manually into the Script window at the top 
 
 At the bottom of the page are three tabs that can be used to configure the PowerShell action module further. The tabs are:
 
-- [Columns](#Columns)
-- [Parameters](#Parameters)
-- [Input Data](#Input-Data)
+- [Columns](#columns)
+- [Parameters](#parameters)
+- [Input Data](#input-data)
 
 ## Columns
 
@@ -32,8 +32,8 @@ The Parameters tab contains options to add, edit, or delete user-made PowerShell
 
 The options are:
 
-- Add – Clicking __Add__ opens the Add/Edit Variable window. See the [Add/Edit Variable Window](#AddEdit-Variable-Window) topic for additional information.
-- Edit – Select an existing parameter and click __Edit__ to open the Add/Edit Variable window. See the [Add/Edit Variable Window](#AddEdit-Variable-Window) topic for additional information.
+- Add – Clicking __Add__ opens the Add/Edit Variable window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
+- Edit – Select an existing parameter and click __Edit__ to open the Add/Edit Variable window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
 
   - Double-clicking an existing parameter also opens the __Add/Edit Variable__ window
 - Delete – Delete a selected parameter

@@ -82,7 +82,7 @@ __Step 3 –__ Copy the cacert.pem file to the trusted certificate directory and
 
 sudo cp cacert.pem /usr/local/share/ca-certificates/cacert.crt
 
-__Step 4 –__ Update the system’s certificate store:
+__Step 4 –__ Update the system's certificate store:
 
 sudo update-ca-certificates
 
@@ -98,7 +98,7 @@ __Step 3 –__ Copy the cacert.pem file to the appropriate directory for trusted
 
 sudo cp cacert.pem /etc/pki/ca-trust/source/anchors/
 
-__Step 4 –__ Update the system’s certificate store:
+__Step 4 –__ Update the system's certificate store:
 
 sudo update-ca-trust
 
@@ -106,7 +106,7 @@ Additional Resources
 
 For more details on certificate installation and management on Linux, see the following references:
 
-- [Installing a Root CA Certificate in Ubuntu’s Trust Store](https://ubuntu.com/server/docs/install-a-root-ca-certificate-in-the-trust-store)
+- [Installing a Root CA Certificate in Ubuntu's Trust Store](https://ubuntu.com/server/docs/install-a-root-ca-certificate-in-the-trust-store)
 - [Configuring the CA Trust List on Red Hat](https://www.redhat.com/en/blog/configure-ca-trust-list)
 - [Managing CA Certificates on Linux](https://www.baeldung.com/linux/ca-certificate-management)
 
@@ -124,7 +124,7 @@ In this section you can also manage the following settings:
 
 - Text Inspection - enable this setting to monitor conﬁdential content typed in Teams, Skype, Slack, Mattermost or Google Spreadsheet, Facebook Post, Facebook Comment, and Instagram Comment online applications.
 
-  __NOTE:__ For comprehensive visibility while using ‘Teams over web’ in a MS Edge browser, make sure to enable __Edge__ under __Policy Exits Points__ > __Applications__ > __Web Browser__ in the CAP policy.
+  __NOTE:__ For comprehensive visibility while using 'Teams over web' in a MS Edge browser, make sure to enable __Edge__ under __Policy Exits Points__ > __Applications__ > __Web Browser__ in the CAP policy.
 
   __CAUTION:__ In blocking mode, Instant Messaging events related to platforms such as Slack and Google Chat might be generated multiple times. This behavior is attributed to the tools' inherent retry mechanisms when a message is blocked. Endpoint Protector is designed to block all such retry attempts for enhanced security.
 
@@ -157,30 +157,30 @@ To use this setting, you need to be familiarized with JSON concepts and structur
 
 Go over the following Syntax examples considering the values used are the default values from the Endpoint Protector Server UI:
 
-- You can specify multiple paths, separated by a comma “,” inside the curly brackets. The paths will then be parsed and used, in the speciﬁed order, one by one, until the information is successfully extracted
+- You can specify multiple paths, separated by a comma "," inside the curly brackets. The paths will then be parsed and used, in the speciﬁed order, one by one, until the information is successfully extracted
 
-- [:] takes all entries from the array and parses the result, and can be used with both of the following examples:
+- \[:] takes all entries from the array and parses the result, and can be used with both of the following examples:
 
 1. Subject extraction example for Yahoo:
 
    `__subject={requests[:].payloadParts[:].payload.message.headers.subject}__`
 
-   - Uses named key-value pairs and arrays ([])
+   - Uses named key-value pairs and arrays (\[])
 
-     for example; If the [:] array located at the requests key has 3 elements, the path will be expanded for each element:
+     for example; If the \[:] array located at the requests key has 3 elements, the path will be expanded for each element:
 
-     - requests[0].payloadParts[:].payload.message.headers.subject
-     - requests[1].payloadParts[:].payload.message.headers.subject
-     - requests[2].payloadParts[:].payload.message.headers.subject
+     - requests\[0].payloadParts\[:].payload.message.headers.subject
+     - requests\[1].payloadParts\[:].payload.message.headers.subject
+     - requests\[2].payloadParts\[:].payload.message.headers.subject
 
      The process is then repeated for the payloadParts array,
 
 1. Subject extraction example for Gmail:
 
-   __subject={[1][0][0][1][1][13][0][7]}__
+   `__subject={[1][0][0][1][1][13][0][7]}__`
 
    - Uses only nested arrays
-   - The subject here is located at a speciﬁc path inside nested arrays without having to go through all elements of a speciﬁc array and use [:]
+   - The subject here is located at a speciﬁc path inside nested arrays without having to go through all elements of a speciﬁc array and use \[:]
 
 ![Monitor Webmail JSON Format Parser Usage](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/webmailjson.png)
 
@@ -202,7 +202,7 @@ __NOTE:__ Only the applications that support Deep Packet Inspection are availabl
 
 ![Deep Packet Inspection Applications](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpiapplications.png)
 
-__NOTE:__ The Deep Packet Inspection functionality needs to be ﬁrst enabled from __Device Control__ > __Settings__ (Global, Groups, Computers, etc.). For detailed information on, refer to the[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#Device-Control) topic.
+__NOTE:__ The Deep Packet Inspection functionality needs to be ﬁrst enabled from __Device Control__ > __Settings__ (Global, Groups, Computers, etc.). For detailed information on, refer to the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md) topic.
 
 ## Certiﬁcate status matrix
 

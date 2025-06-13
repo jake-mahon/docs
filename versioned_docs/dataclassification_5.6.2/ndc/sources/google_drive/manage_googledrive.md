@@ -41,7 +41,7 @@ To configure tagging on a global level
 | __Name/ID__ or __Class__ | Depending on the format, take the term labels, IDs or a combination of both | The corresponding Delimiter must be a string or array type with a maximum length of 3. |
 | __Prefix/__  __Suffix__ | Will be appended to the formatted string of classifications. |  |
 
-[![googledrivewriteconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/googledrivewriteconfiguration_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/googledrivewriteconfiguration.png)
+![googledrivewriteconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/googledrivewriteconfiguration_thumb_0_0.png)
 
 ## Configure Exclusions
 
@@ -54,7 +54,7 @@ In the management console, click __Sources__ →__Google Drive__, then in the le
 
 1. Click __Filter__ tab and in the __Filter__ field specify the file locations to exclude from crawling.
 
-[![gdrive_exclusion_filter_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/gdrive_exclusion_filter_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/gdrive_exclusion_filter.png)
+![gdrive_exclusion_filter_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/gdrive_exclusion_filter_thumb_0_0.png)
 
 2. Wildcards can be used anywhere in the exclusion pattern definition as follows:
    - The asterisk character (\*) - matches any sequence of characters
@@ -73,7 +73,7 @@ For example, to exclude all Excel files stored in the _corp/Year2020_ folder, en
    | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify __Field Name__. |
    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify __Field Name__. |
 
-   [![gdrive_exclusion_condition_2_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/gdrive_exclusion_condition_2_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/gdrive_exclusion_condition_2.png)
+   ![gdrive_exclusion_condition_2_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/gdrive_exclusion_condition_2_thumb_0_0.png)
 
    When finished, click __Add__.
 5. To verify the settings, click __Test__.

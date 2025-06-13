@@ -9,10 +9,10 @@ The bad words check applies to the following:
 
 What do you want to do?
 
-- [Add a Bad Word to the List](#Add-a-Bad-Word-to-the-List)
-- [Update a Bad Word](#Update-a-Bad-Word)
-- [Remove a Bad Word from the List](#Remove-a-Bad-Word-from-the-List)
-- [Enable/Disable the Bad Words Check](#EnableDisable-the-Bad-Words-Check)
+- [Add a Bad Word to the List](#add-a-bad-word-to-the-list)
+- [Update a Bad Word](#update-a-bad-word)
+- [Remove a Bad Word from the List](#remove-a-bad-word-from-the-list)
+- [Enable/Disable the Bad Words Check](#enabledisable-the-bad-words-check)
 
 ## Add a Bad Word to the List
 

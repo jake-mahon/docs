@@ -8,13 +8,13 @@ If you plan to implement this scenario, you should register an Microsoft Entra I
 
 Follow the steps to use a data collecting account with modern authentication.
 
-__Step 1 –__ Create and Register a New App in Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](#Create-and-Register-a-New-App-in-Microsoft-Entra-ID) section for additional information.
+__Step 1 –__ Create and Register a New App in Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](#create-and-register-a-new-app-in-microsoft-entra-id) section for additional information.
 
-__Step 2 –__ Grant required permissions to that application using Microsoft Entra ID app manifest. See the [Grant Required Permissions](#Grant-Required-Permissions) section for additional information.
+__Step 2 –__ Grant required permissions to that application using Microsoft Entra ID app manifest. See the [Grant Required Permissions](#grant-required-permissions) section for additional information.
 
-__Step 3 –__ Configure client secret for that application. See the [Configure Client Secret](#Configure-Client-Secret) topic for additional information.
+__Step 3 –__ Configure client secret for that application. See the [Configure Client Secret](#configure-client-secret) topic for additional information.
 
-__Step 4 –__ Obtain tenant ID – you will need it when configuring a monitored item (Microsoft 365 tenant) settings. See the [Obtain Tenant Name](#Obtain-Tenant-Name) section for additional information.
+__Step 4 –__ Obtain tenant ID – you will need it when configuring a monitored item (Microsoft 365 tenant) settings. See the [Obtain Tenant Name](#obtain-tenant-name) section for additional information.
 
 ### Create and Register a New App in Microsoft Entra ID
 
@@ -64,17 +64,17 @@ Permission assignment will depend on the data you plan to collect: activity data
 
 | Requirement | Comment |
 | --- | --- |
-| Microsoft Entra ID app requires the following __Application__ permissions:   1. __Microsoft Graph__    - __Directory.Read.All__    - __AuditLog.Read.All__ 2. __Microsoft 365 Management APIs__    - __ActivityFeed.Read__ | To learn how to assign required permissions, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](#Configuring-Microsoft-Entra-ID-App-for-Auditing-Microsoft-Entra-ID) section for additional information. |
+| Microsoft Entra ID app requires the following __Application__ permissions:   1. __Microsoft Graph__    - __Directory.Read.All__    - __AuditLog.Read.All__ 2. __Microsoft 365 Management APIs__    - __ActivityFeed.Read__ | To learn how to assign required permissions, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) section for additional information. |
 
-__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Using Modern Authentication with Microsoft Entra ID](#Using-Modern-Authentication-with-Microsoft-Entra-ID) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
+__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See this topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
 __Step 2 –__ Grant admin consent to the tenant (that is, for the Microsoft 365 organization whose audit data will be collected by the newly registered app).
 
-See the following Microsoft article for additional information: [Grant admin consent in App registrations](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent?pivots=portal#Grant-admin-consent-in-App-registrations).
+See the following Microsoft article for additional information: [Grant admin consent in App registrations](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent?pivots=portal#grant-admin-consent-in-app-registrations).
 
 ### Grant Admin Consent to a Tenant
 
-Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _<tenant name>_.
+Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm, click __Yes__.
 
 __NOTE:__ For Microsoft 365 permissions, go to __Request API Permissions__ > __APIs my organization users__ and type "Microsoft 365" in the search bar.
@@ -93,7 +93,7 @@ __Step 3 –__ Click __Add__.
 
 __Step 4 –__ The new secret will be displayed in the list. Click __Copy to clipboard__ icon on the "Value" parameter on the right side of the screen.
 
-See the following Microsoft article for more information on how to add a client secret: [Add a client secret](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#Add-a-client-secret).
+See the following Microsoft article for more information on how to add a client secret: [Add a client secret](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret).
 
 ### Add Microsoft Entra ID monitoring plan
 

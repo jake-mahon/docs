@@ -7,7 +7,7 @@ Threat Prevention supports the following SQL Server versions:
 The server must meet this requirement:
 
 - US English language installation
-- Windows Server can be physical or virtual. See the [Virtual Environment Recommendations](/versioned_docs/threatprevention_7.4/threatprevention/requirements/application.md#Virtual-Environment-Recommendations)topic for additional information.
+- Windows Server can be physical or virtual. See the [Virtual Environment Recommendations](/versioned_docs/threatprevention_7.4/threatprevention/requirements/application.md#virtual-environment-recommendations)topic for additional information.
 
 ___RECOMMENDED:___ It is a best practice and strongly recommended to have a dedicated database server.
 

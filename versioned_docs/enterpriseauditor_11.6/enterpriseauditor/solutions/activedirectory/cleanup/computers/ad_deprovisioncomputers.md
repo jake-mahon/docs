@@ -12,13 +12,13 @@ __Step 4 –__ After a configurable amount of days in the staging OU, deletes co
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD\_DeprovisionComputers page has the following configurable parameters:
 
 - Days in the Staging OU before Deleting Account
 
-See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#Customizable-Analysis-Parameters-for-the-AD_DeprovisionComputers-Job) topic for additional information.
+See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
 
 ## Analysis Tasks for the AD\_DeprovisionComputers Job
 
@@ -31,7 +31,7 @@ The default analysis tasks are:
 - Identify Stale Computers – Creates the AD\_DeprovisionComputers\_Details table accessible under the job’s Results node
 - Computer Accounts to Delete – Creates the AD\_DeprovisionComputers\_ToBeDeleted table accessible under the job’s Results node
 
-  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#Customizable-Analysis-Parameters-for-the-AD_DeprovisionComputers-Job) topic for additional information.
+  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
 
 ### Customizable Analysis Parameters for the AD\_DeprovisionComputers Job
 

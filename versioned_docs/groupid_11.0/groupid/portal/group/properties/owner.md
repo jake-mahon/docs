@@ -73,7 +73,7 @@ __Export__
 
 You can export the list of additional owners to an external file. Supported file formats are: .txt, .csv, .xls, .xlsx and .xml.
 
-Click __Export__ to launch the __Export Additional Owners__ wizard for exporting additional owners. Select the attributes you want to export. For information and instructions, see [Export additional owners](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupownershipfunction.md#Export-additional-owners).
+Click __Export__ to launch the __Export Additional Owners__ wizard for exporting additional owners. Select the attributes you want to export. For information and instructions, see [Export additional owners](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupownershipfunction.md#export-additional-owners).
 
 __Remove__
 

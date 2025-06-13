@@ -4,7 +4,7 @@
 
 When large search exports are run the report may take some time to compile, in this instance the background processes create the report and make it available for download via the Queued Reports dashboard. Reports can be deleted prior to, or after, processing as well as downloaded as many times as necessary.
 
-[![queuedreportresult_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/queuedreportresult_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/queuedreportresult.png)
+![queuedreportresult_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/queuedreportresult_thumb_0_0.png)
 
 ## Plugins for Custom Reports
 

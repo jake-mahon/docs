@@ -4,13 +4,13 @@ You can manage various settings for a portal instance deployed in native IIS.
 
 What do you want to do?
 
-- [Start or Stop an Instance](#Start-or-Stop-an-Instance)
-- [Change the IIS Application Name for an Instance](#Change-the-IIS-Application-Name-for-an-Instance)
-- [Move an Instance under a Different IIS Site](#Move-an-Instance-under-a-Different-IIS-Site)
-- [View the Launch URL for an Instance](#View-the-Launch-URL-for-an-Instance)
-- [View the Data Service and Security Service Bound to an Instance](#View-the-Data-Service-and-Security-Service-Bound-to-an-Instance)
-- [Set File Logging and Windows Logging for an Instance](#Set-File-Logging-and-Windows-Logging-for-an-Instance)
-- [Delete an Instance](#Delete-an-Instance)
+- [Start or Stop an Instance](#start-or-stop-an-instance)
+- [Change the IIS Application Name for an Instance](#change-the-iis-application-name-for-an-instance)
+- [Move an Instance under a Different IIS Site](#move-an-instance-under-a-different-iis-site)
+- [View the Launch URL for an Instance](#view-the-launch-url-for-an-instance)
+- [View the Data Service and Security Service Bound to an Instance](#view-the-data-service-and-security-service-bound-to-an-instance)
+- [Set File Logging and Windows Logging for an Instance](#set-file-logging-and-windows-logging-for-an-instance)
+- [Delete an Instance](#delete-an-instance)
 
 ## Start or Stop an Instance
 
@@ -44,7 +44,7 @@ Each deployment instance of a portal in IIS is assigned an IIS application name 
 This name is also appended to the web server address to construct the URL that users click to access the portal instance. For example:  
 `https://<web-server-name>:<port>/<IIS-application-name>`
 
-When you change the name, it propagates to the instance’s IIS directory, physical directory, and launch URL. You must provide the updated URL to users to enable them to access the portal. See the [Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
+When you change the name, it propagates to the instance’s IIS directory, physical directory, and launch URL. You must provide the updated URL to users to enable them to access the portal. See the [Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#launch-a-portal) topic.
 
 __To change the IIS application name:__
 
@@ -59,7 +59,7 @@ __To change the IIS application name:__
 ## Move an Instance under a Different IIS Site
 
 You can change the IIS site that hosts a deployment instance of a portal. In doing so, the URL of the deployment instance also changes. You must provide the
-updated URL to your users to enable them to access the instance. See the [Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Launch-a-Portal) topic.
+updated URL to your users to enable them to access the instance. See the [Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#launch-a-portal) topic.
 
 __To change the site:__
 
@@ -102,7 +102,7 @@ To set file logging and Windows logging levels for a deployment instance, see t
 
 ## Delete an Instance
 
-To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#Delete-a-Deployment-Instance-for-a-Portal) topic.
+To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal) topic.
 
 __See Also__
 

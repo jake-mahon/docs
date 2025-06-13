@@ -57,7 +57,7 @@ The Filters tab has the following configuration options:
 
 - Save – Saves the report and add it to the My Reports folder in the report tree
 - Cancel – Cancels the creation of the report and clear all edits that have been made to the new report
-- Source Drop-down List – Contains data sources that allow the report to look at different data sets related to Privilege Secure administration. See the [Data Sources](#Data-Sources) topic for additional information.
+- Source Drop-down List – Contains data sources that allow the report to look at different data sets related to Privilege Secure administration. See the [Data Sources](#data-sources) topic for additional information.
 - Timeframe Drop-down List – Contains a number of predefined timeframes, ranging from “Last Hour” to “Last 30 Days”. Additionally, “Custom” can be selected, which makes visible a “Start date” date picker and an “End date” date picker.
 - Attribute Drop-down List – Contains attributes from the given Source that can be paired with an operator and a value
 - Operator – Contains operators that can be used to filter an attribute
@@ -106,7 +106,7 @@ This data source contains password age information, and allows the report to be 
 - Name
 - Privilege
 
-__NOTE:__ The Subscriptions tab will not be enabled until saving the report. See the [Subscriptions Tab](#Subscriptions-Tab) topic for additional information.
+__NOTE:__ The Subscriptions tab will not be enabled until saving the report. See the [Subscriptions Tab](#subscriptions-tab) topic for additional information.
 
 ## Customize an Existing Report
 
@@ -124,7 +124,7 @@ The Filters tab has the following configuration options:
 - Download Report – Generates and downloads the report, either as PDF or as CSV
 - Save – Saves any modifications to the report. If this is a predefined or platform based report, it will save as a new report under My Reports
 - Delete __(available for custom reports only)__ – Deletes the custom report
-- Source Drop-down List – Contains data sources that allow the report to look at different data sets related to Privilege Secure administration. See the [Data Sources](#Data-Sources) topic for additional information.
+- Source Drop-down List – Contains data sources that allow the report to look at different data sets related to Privilege Secure administration. See the [Data Sources](#data-sources) topic for additional information.
 - Timeframe Drop-down List – Contains several predefined timeframes, ranging from “Last Hour” to “Last 30 Days”. Additionally, “Custom” can be selected, which makes visible a “Start date” date picker and an “End date” date picker.
 - Attribute Drop-down List – Contains attributes from the given Source that can be paired with an operator and a value.
 - Operator – Contains operators that can be used to filter an attribute.

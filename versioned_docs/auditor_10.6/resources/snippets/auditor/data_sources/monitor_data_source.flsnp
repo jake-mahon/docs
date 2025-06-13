@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head>
-    </head>
-    <body>
-        <p>Enable monitoring of the selected data source and configure <MadCap:variable name="Auditor.Product Short Name" /> to collect and store audit data. </p>
-    </body>
-</html>

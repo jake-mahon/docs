@@ -6,23 +6,23 @@ These settings are saved for a user with respect to the identity store. When thi
 
 What do you want to do?
 
-- [Set Identity Store mode](#Set-Identity-Store-mode)
-- [Set a language for notifications](#Set-a-language-for-notifications)
-- [Set the time zone](#Set-the-time-zone)
-- [Set a default start page](#Set-a-default-start-page)
-- [Set the number of history items to show on the home page](#Set-the-number-of-history-items-to-show-on-the-home-page)
-- [Set the number of history items to show for objects](#Set-the-number-of-history-items-to-show-for-objects)
-- [Set the number of recent objects to show](#Set-the-number-of-recent-objects-to-show)
-- [Set the default domains for search lists](#Set-the-default-domains-for-search-lists)
-- [Set the number of results to show on a page](#Set-the-number-of-results-to-show-on-a-page)
-- [Show additional group ownership in My Groups](#Show-additional-group-ownership-in-My-Groups)
-- [Show additional group ownership in My Expiring Groups](#Show-additional-group-ownership-in-My-Expiring-Groups)
-- [Show additional group ownership in My Expired Groups](#Show-additional-group-ownership-in-My-Expired-Groups)
-- [Show additional group ownership in My Deleted Groups](#Show-additional-group-ownership-in-My-Deleted-Groups)
-- [Display additional group ownership in my Smart Groups](#Display-additional-group-ownership-in-my-Smart-Groups)
-- [Display additional group ownership in my Dynasties](#Display-additional-group-ownership-in-my-Dynasties)
-- [Display Additional Manager Direct Reports](#Display-Additional-Manager-Direct-Reports)
-- [Reset default user options](#Reset-default-user-options)
+- [Set Identity Store mode](#set-identity-store-mode)
+- [Set a language for notifications](#set-a-language-for-notifications)
+- [Set the time zone](#set-the-time-zone)
+- [Set a default start page](#set-a-default-start-page)
+- [Set the number of history items to show on the home page](#set-the-number-of-history-items-to-show-on-the-home-page)
+- [Set the number of history items to show for objects](#set-the-number-of-history-items-to-show-for-objects)
+- [Set the number of recent objects to show](#set-the-number-of-recent-objects-to-show)
+- [Set the default domains for search lists](#set-the-default-domains-for-search-lists)
+- [Set the number of results to show on a page](#set-the-number-of-results-to-show-on-a-page)
+- [Show additional group ownership in My Groups](#show-additional-group-ownership-in-my-groups)
+- [Show additional group ownership in My Expiring Groups](#show-additional-group-ownership-in-my-expiring-groups)
+- [Show additional group ownership in My Expired Groups](#show-additional-group-ownership-in-my-expired-groups)
+- [Show additional group ownership in My Deleted Groups](#show-additional-group-ownership-in-my-deleted-groups)
+- [Display additional group ownership in my Smart Groups](#display-additional-group-ownership-in-my-smart-groups)
+- [Display additional group ownership in my Dynasties](#display-additional-group-ownership-in-my-dynasties)
+- [Display Additional Manager Direct Reports](#display-additional-manager-direct-reports)
+- [Reset default user options](#reset-default-user-options)
 
 ## Set Identity Store mode
 
@@ -42,7 +42,7 @@ Via Portal settings, you can choose either of the two modes by following these s
 
 GroupID generates a number of notifications that are, by default, sent to users in the English language. However, a user can opt to receive notifications in a different language by personalizing the language settings from the __User Settings__ panel in the portal.
 
-However, there are a few exceptions to it. See the [Localization](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md#Localization) topic for more information.
+However, there are a few exceptions to it. See the [Localization](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md#localization) topic for more information.
 
 1. Click the __Settings__ icon at the top of the page.
 2. From the __Notification Language__ list, select a language for receiving the notifications in.

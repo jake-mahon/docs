@@ -8,7 +8,7 @@ It contains one page:
 
 - 1. Select Owners — Lists the current owner(s) for each selected resource and confirmation status
 
-See the [Request Ownership Confirmation](#Request-Ownership-Confirmation) topic for additional information.
+See the [Request Ownership Confirmation](#request-ownership-confirmation) topic for additional information.
 
 ## Request Ownership Confirmation
 

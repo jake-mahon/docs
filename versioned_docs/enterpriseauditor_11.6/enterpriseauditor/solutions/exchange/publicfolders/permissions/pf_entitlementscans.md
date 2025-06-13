@@ -17,7 +17,7 @@ The following query is included in the PF\_EntitlementScans job:
 - Public Folder Permissions – Collects public folder permissions
 
   - By default set to search all public folders. It can be scoped.
-  - See the [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#Scope-the-ExchangePS-Data-Collector) topic for additional information
+  - See the [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector) topic for additional information
 
 ## Analysis Tasks for the PF\_EntitlementScans Job
 

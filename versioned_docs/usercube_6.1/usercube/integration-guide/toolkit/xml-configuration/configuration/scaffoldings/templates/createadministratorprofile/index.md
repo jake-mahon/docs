@@ -58,7 +58,7 @@ The scaffolding generates the following scaffoldings:
 
 ## Child Elements
 
-- [DisplayNameProfile](#DisplayNameProfile) (optional) defines a display name for the administrator profile for a given language.
+- [DisplayNameProfile](#displaynameprofile) (optional) defines a display name for the administrator profile for a given language.
 
 ### DisplayNameProfile
 

@@ -6,13 +6,13 @@ Data sources are primarily used in Synchronize jobs, but you can also use them i
 
 What do you want to do?
 
-- [Create a Data Source for MS Excel](#Create-a-Data-Source-for-MS-Excel)
-- [Create a Data Source for MS Access](#Create-a-Data-Source-for-MS-Access)
-- [Create a Data Source for Oracle](#Create-a-Data-Source-for-Oracle)
-- [Create a Data Source for SQL Server](#Create-a-Data-Source-for-SQL-Server)
-- [Create a Data Source for a Text/CSV File](#Create-a-Data-Source-for-a-TextCSV-File)
-- [Create a Data Source for ODBC](#Create-a-Data-Source-for-ODBC)
-- [Create a Data Source for SCIM](#Create-a-Data-Source-for-SCIM)
+- [Create a Data Source for MS Excel](#create-a-data-source-for-ms-excel)
+- [Create a Data Source for MS Access](#create-a-data-source-for-ms-access)
+- [Create a Data Source for Oracle](#create-a-data-source-for-oracle)
+- [Create a Data Source for SQL Server](#create-a-data-source-for-sql-server)
+- [Create a Data Source for a Text/CSV File](#create-a-data-source-for-a-textcsv-file)
+- [Create a Data Source for ODBC](#create-a-data-source-for-odbc)
+- [Create a Data Source for SCIM](#create-a-data-source-for-scim)
 
 ## Create a Data Source for MS Excel
 
@@ -30,8 +30,8 @@ The GroupID Installer installs the required components for the MS Excel provider
 The Excel file for creating a data source can be placed on a local server or OneDrive. Follow the steps in the respective section to create a data source.
 
 - [When the Excel File is Located on a Local Server
-  ](#When-the-Excel-File-is-Located-on-a-Local-Server)
-- [When the Excel file is located on OneDrive](#When-the-Excel-file-is-located-on-OneDrive)
+  ](#when-the-excel-file-is-located-on-a-local-server)
+- [When the Excel file is located on OneDrive](#when-the-excel-file-is-located-on-onedrive)
 
 ### When the Excel File is Located on a Local Server
 
@@ -53,7 +53,7 @@ The Excel file for creating a data source can be placed on a local server or One
 ### When the Excel file is located on OneDrive
 
 1. Start by following steps 1-4 in the [When the Excel File is Located on a Local Server
-   ](#When-the-Excel-File-is-Located-on-a-Local-Server)topic.
+   ](#when-the-excel-file-is-located-on-a-local-server)topic.
 2. From the __File Server__ drop-down list, select _OneDrive_.
 3. In the __Service Account__ and __Service Account Password__ boxes, enter the username and password of a service account to access the file on OneDrive.
 4. In the __Registered Application ID on Azure Active Directory__ box, enter the application ID assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -75,8 +75,8 @@ The MS Access provider supports automatic schema detection. For Synchronize to c
 
 The Access file for creating a data source can be placed on a local server or OneDrive. Follow the steps in the respective section to create a data source.
 
-- [When the Access File is Located on a Local Server](#When-the-Access-File-is-Located-on-a-Local-Server)
-- [When the Access File is Located on OneDrive](#When-the-Access-File-is-Located-on-OneDrive)
+- [When the Access File is Located on a Local Server](#when-the-access-file-is-located-on-a-local-server)
+- [When the Access File is Located on OneDrive](#when-the-access-file-is-located-on-onedrive)
 
 ### When the Access File is Located on a Local Server
 
@@ -99,7 +99,7 @@ The Access file for creating a data source can be placed on a local server or On
 
 ### When the Access File is Located on OneDrive
 
-1. Start by following steps 1-4 in the [When the Access File is Located on a Local Server](#When-the-Access-File-is-Located-on-a-Local-Server)[When the Access File is Located on a Local Server](#When-the-Access-File-is-Located-on-a-Local-Server)topic.
+1. Start by following steps 1-4 in the [When the Access File is Located on a Local Server](#when-the-access-file-is-located-on-a-local-server)[When the Access File is Located on a Local Server](#when-the-access-file-is-located-on-a-local-server)topic.
 2. From the __File Server__ drop-down list, select _OneDrive_.
 3. In the __Service Account__ and __Service Account Password__ boxes, enter the username and password of a service account to access the file on OneDrive.
 4. If the database file is password protected, then enter the password in the __File Password__ box.
@@ -165,8 +165,8 @@ This data source can be used in queries and only as a source in Synchronize jobs
 
 GroupID enables you to connect to a text file that is placed on a local server or on OneDrive. Follow the steps in the respective section to create a data source.
 
-- [When the Text File is Located on a Local Server](#When-the-Text-File-is-Located-on-a-Local-Server)
-- [When the Text File is Located on OneDrive](#When-the-Text-File-is-Located-on-OneDrive)
+- [When the Text File is Located on a Local Server](#when-the-text-file-is-located-on-a-local-server)
+- [When the Text File is Located on OneDrive](#when-the-text-file-is-located-on-onedrive)
 
 ### When the Text File is Located on a Local Server
 
@@ -189,7 +189,7 @@ GroupID enables you to connect to a text file that is placed on a local server o
 
 ### When the Text File is Located on OneDrive
 
-1. Start by following steps 1-4 in the [When the Text File is Located on a Local Server](#When-the-Text-File-is-Located-on-a-Local-Server)[When the Text File is Located on a Local Server](#When-the-Text-File-is-Located-on-a-Local-Server)topic.
+1. Start by following steps 1-4 in the [When the Text File is Located on a Local Server](#when-the-text-file-is-located-on-a-local-server)[When the Text File is Located on a Local Server](#when-the-text-file-is-located-on-a-local-server)topic.
 2. From the __File Server__ drop-down list, select _OneDrive_.
 3. In the __Service Account__ and __Service Account Password__ boxes, enter the username and password of a service account to access the file on OneDrive.
 4. In the __Delimiter__ box, specify the character that is used to separate values in the file. You can also enter a space as a character.

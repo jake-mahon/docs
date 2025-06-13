@@ -1,6 +1,6 @@
 # Firewall Ports
 
-The following default ports are required for Threat Prevention functionality unless modified as per network requirements. If choosing the Create Windows Firewall Rules option either in step 6 of the [Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md), in step 6 of the [Administration Console Remote Install](/versioned_docs/threatprevention_7.4/threatprevention/install/adminconsole.md), on the Set Options page of the [Deploy Agents Wizard](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md#Deploy-Agents-Wizard), or in step 7 of a [Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md), then Threat Prevention will create the necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually set these.
+The following default ports are required for Threat Prevention functionality unless modified as per network requirements. If choosing the Create Windows Firewall Rules option either in step 6 of the [Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md), in step 6 of the [Administration Console Remote Install](/versioned_docs/threatprevention_7.4/threatprevention/install/adminconsole.md), on the Set Options page of the [Deploy Agents Wizard](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md#deploy-agents-wizard), or in step 7 of a [Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md), then Threat Prevention will create the necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually set these.
 
 __NOTE:__ SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the [System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md) topic for additional information.
 
@@ -28,7 +28,7 @@ The following firewall settings are required for communication with the Agent:
 | Enterprise Manager to Agent | RPC / TCP | 135 | WMI enabled  Optional: required for Agent Auto Deploy |
 | Enterprise Manager to Agent | DCOM / TCP | Dynamic Range 49152 - 65535 | WMI enabled  Optional: required for Agent Auto Deploy |
 
-__NOTE:__ For NAS device file activity monitoring, additional ports are required. See the [Ports for NAS Device Activity Monitoring](#Ports-for-NASDevice-Activity-Monitoring) topic for additional information.
+__NOTE:__ For NAS device file activity monitoring, additional ports are required. See the [Ports for NAS Device Activity Monitoring](#ports-for-nasdevice-activity-monitoring) topic for additional information.
 
 ## Admin Console Firewall Rules
 

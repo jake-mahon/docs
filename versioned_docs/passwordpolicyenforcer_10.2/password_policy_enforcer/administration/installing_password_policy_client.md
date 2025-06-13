@@ -15,7 +15,7 @@ You can install the Password Policy Client manually by running the Password Poli
 
 ## Create a Distribution Point
 
-A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System) path. You can use the distribution point you created earlier for Password Policy Enforcer to distribute the Password Policy Client. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md#Installation) topic for additional information.
+A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System) path. You can use the distribution point you created earlier for Password Policy Enforcer to distribute the Password Policy Client. See the [Installation](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installation.md) topic for additional information.
 
 If you did not create a distribution point for Password Policy Enforcer, then create one now.
 

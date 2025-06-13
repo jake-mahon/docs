@@ -6,7 +6,7 @@ This capability can supplement your organization's workflow of monitoring and re
 
 1. The reported changes to the monitored environment are assigned the New status by default.
 2. If a change seems unauthorized, or requires further analysis, you can click the Click to update status link next to the change detailed data:
-[![reviewstatus](/img/versioned_docs/auditor_10.6/auditor/admin/reports/reviewstatus.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/reviewstatus.png)3. In the __Review status__ dialog for selected change, set its status to In Review and provide a reason.
+![reviewstatus](/img/versioned_docs/auditor_10.6/auditor/admin/reports/reviewstatus.png)3. In the __Review status__ dialog for selected change, set its status to In Review and provide a reason.
 4. Once the change has been approved of, or rolled back, you can set its status to Resolved.
 
 This capability is supported for the following reports:

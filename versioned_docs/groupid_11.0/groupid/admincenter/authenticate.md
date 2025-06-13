@@ -4,12 +4,12 @@ To authenticate your identity store account in GroupID for multifactor authentic
 
 What do you want to do?
 
-- [Authenticate using Security Questions](#Authenticate-using-Security-Questions)
-- [Authenticate using Mobile](#Authenticate-using-Mobile)
-- [Authenticate using Email](#Authenticate-using-Email)
-- [Authenticate using Authenticator](#Authenticate-using-Authenticator)
-- [Authenticate using YubiKey](#Authenticate-using-YubiKey)
-- [Authenticate using Windows Hello](#Authenticate-using-Windows-Hello)
+- [Authenticate using Security Questions](#authenticate-using-security-questions)
+- [Authenticate using Mobile](#authenticate-using-mobile)
+- [Authenticate using Email](#authenticate-using-email)
+- [Authenticate using Authenticator](#authenticate-using-authenticator)
+- [Authenticate using YubiKey](#authenticate-using-yubikey)
+- [Authenticate using Windows Hello](#authenticate-using-windows-hello)
 
 ## Authenticate using Security Questions
 

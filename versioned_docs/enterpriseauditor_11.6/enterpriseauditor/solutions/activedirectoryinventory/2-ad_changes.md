@@ -2,7 +2,7 @@
 
 The 2-AD\_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active Directory changes which have occurred since the last time the .Active Directory Inventory Job Group was run. It is dependent on the running of the 1-AD\_Scan Job, also located in the .Active Directory Inventory Job Group.
 
-The 1-AD\_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD\_Changes Job to work. See Step 4 of the [Customize the 1-AD\_Scan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#Customize-the-1-AD_Scan-Query) topic for additional information.
+The 1-AD\_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD\_Changes Job to work. See Step 4 of the [Customize the 1-AD\_Scan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query) topic for additional information.
 
 ## Analysis Tasks for the 2-AD\_Changes Job
 
@@ -71,7 +71,7 @@ The Notification analysis tasks are optional and require configuration before en
 
   - Importance – Security  and Employee Productivity
 
-Notification must have recipients configured for the analysis task. Optionally, the email subject and body can be modified. See the [Notification Analysis Tasks for the 2-AD\_Changes Job](#Notification-Analysis-Tasks-for-the-2-AD_Changes-Job) topic for additional information.
+Notification must have recipients configured for the analysis task. Optionally, the email subject and body can be modified. See the [Notification Analysis Tasks for the 2-AD\_Changes Job](#notification-analysis-tasks-for-the-2-ad_changes-job) topic for additional information.
 
 In addition to the tables and views created by the analysis tasks, the 2-AD\_Changes Job produces the following pre-configured reports:
 

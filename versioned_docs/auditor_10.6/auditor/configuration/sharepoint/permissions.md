@@ -13,7 +13,7 @@ __On the target SharePoint farm:__
 1. On the SharePoint server where the Netwrix Auditor Core Service will be deployed: the account must be a member of the local Administrators group.   
    To learn more about Netwrix Auditor Core Services, refer to [Installation](/versioned_docs/auditor_10.6/auditor/install/overview.md) topic.
 2. On the SQL Server hosting SharePoint database: the SharePoint_Shell_Access role.   
-   See the [Assigning 'SharePoint_Shell_Access' Role](#Assigning-SharePoint_Shell_Access-Role) topic for additional information.
+   See the [Assigning 'SharePoint_Shell_Access' Role](#assigning-sharepoint_shell_access-role) topic for additional information.
 3. If you plan to collect state-in-time data from a SharePoint farm, the account should also meet the requirements below:
    - For site collection processing — lock status for this account must differ from _No access_
    - For web application processing — the following permissions must be assigned to this account:
@@ -29,7 +29,7 @@ __On the target SharePoint farm:__
 
 The account that runs Netwrix Auditor for SharePoint Core Service installation must be granted the SharePoint_Shell_Access role on SharePoint SQL Server configuration database. If you select to deploy the Netwrix Auditor for SharePoint Core Service automatically when configuring auditing in Netwrix Auditor, the installation will be performed under the account specified for data collection.
 
-1. In your SharePoint server, click Start → Microsoft SharePoint Products `<version>` SharePoint Management Shell.
+1. In your SharePoint server, click Start → Microsoft SharePoint Products ``<version>`` SharePoint Management Shell.
 2. Execute the following command:
 
     ```Add-SPShellAdmin –UserName <domain\user>```

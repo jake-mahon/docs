@@ -4,7 +4,7 @@ Click __Start__ >__[All] Programs__ > __PPE Web Configuration Console__ to open
 
 ## General Tab
 
-Use the General tab to maintain the list of managed domains, and to configure Password Policy Enforcer integration. See the [Password Policy Enforcer](#Password-Policy-Enforcer) topic for additional information.
+Use the General tab to maintain the list of managed domains, and to configure Password Policy Enforcer integration. See the [Password Policy Enforcer](#password-policy-enforcer) topic for additional information.
 
 ![configuring_ppe_web](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/configuring_ppe_web.png)
 

@@ -3,7 +3,7 @@
 The NPR Server stores user and event information in a database. The default database is Microsoft SQL Server Compact, an embedded version of SQL Server. The benefits of using SQL Server Compact include:
 
 - No manual installation or configuration required.
-- No maintenance apart from database. See the [Backing up the Database](#Backing-up-the-Database) topic for additional information.
+- No maintenance apart from database. See the [Backing up the Database](#backing-up-the-database) topic for additional information.
 - Fast and lightweight.
 - Free to use.
 
@@ -13,7 +13,7 @@ Despite these benefits, there are some disadvantages to using an embedded databa
 - Improved availability if SQL Server is configured for high availability.
 - Increased security.
 
-See solutions to these disadvantages in the [Moving to SQL Server](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/moving_to_sql_server.md#Moving-to-SQL-Server) topic.
+See solutions to these disadvantages in the [Moving to SQL Server](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/moving_to_sql_server.md) topic.
 
 ## Backing up the Database
 
@@ -41,7 +41,7 @@ copy /Y "c:\program files\netwrix password reset\aprlog.sdf" "c:\program files\n
 
 net start "Netwrix Password Reset"
 
-__NOTE:__ Change the paths above if the database files are in a different folder. See the [Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/general_tab.md#Database) topic for more information.
+__NOTE:__ Change the paths above if the database files are in a different folder. See the [Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/general_tab.md#database) topic for more information.
 
 __Restoring database from backup__
 

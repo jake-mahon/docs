@@ -7,17 +7,17 @@ In GroupID, property validation applies to:
 
 #### Profile Validation for Users
 
-See the [Profile Validation for Users](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#Profile-Validation-for-Users) topic.
+See the [Profile Validation for Users](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#profile-validation-for-users) topic.
 
 #### Property Validation for Groups
 
-See the [Property Validation for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#Property-Validation-for-Groups) topic.
+See the [Property Validation for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#property-validation-for-groups) topic.
 
 What do you want to do?
 
-- [Add a Property Validation Field](#Add-a-Property-Validation-Field)
-- [Edit a Field](#Edit-a-Field)
-- [Remove a Field](#Remove-a-Field)
+- [Add a Property Validation Field](#add-a-property-validation-field)
+- [Edit a Field](#edit-a-field)
+- [Remove a Field](#remove-a-field)
 
 ## Add a Property Validation Field
 
@@ -37,7 +37,7 @@ What do you want to do?
 7. Select an attribute from the __Field__ drop-down list.
 8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest Group/Validate Profile page of the app.
 9. In the __Display Type__ drop-down list, select a display type for rendering the attribute (field) in the app.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).  
+10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. Click __Advanced options__ to enter further details for the field.
 12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
@@ -77,7 +77,7 @@ __To update a field:__
 6. In the __Name__ area, click __Edit__ for a field.
 7. Modify the required info on the __Edit Profile Validation Attribute__ pane.
    Follow the steps in the
-   [Add a Property Validation Field](#Add-a-Property-Validation-Field) topic, beginning at step 7.
+   [Add a Property Validation Field](#add-a-property-validation-field) topic, beginning at step 7.
 
 ## Remove a Field
 

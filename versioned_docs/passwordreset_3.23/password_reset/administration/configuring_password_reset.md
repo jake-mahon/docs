@@ -4,7 +4,7 @@ Click __Start__ > __ANIXIS Password Reset__ > __APR Configuration Console__on th
 
 ## General Tab
 
-Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the [Netwrix Password Policy Enforcer](#Netwrix-Password-Policy-Enforcer)topic for additional information.
+Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the [Netwrix Password Policy Enforcer](#netwrix-password-policy-enforcer)topic for additional information.
 
 ![configuring_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/configuring_apr_1.png)
 
@@ -58,7 +58,7 @@ __Step 8 –__ Start the Password Reset service.
 
 __Step 9 –__ Update the backup script to copy from the new folder. See the [Working with the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md) topic for additional information.
 
-You can also move the database from SQL Server Compact to SQL Server. See the [Moving to SQL Server](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#Moving-to-SQL-Server) topic for more information.
+You can also move the database from SQL Server Compact to SQL Server. See the [Moving to SQL Server](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#moving-to-sql-server) topic for more information.
 
 ### Netwrix Password Policy Enforcer
 
@@ -71,7 +71,7 @@ Password Reset displays the Password Policy Enforcer policy message when users a
 Password Reset locates and queries a domain controller in the user's domain when Password Policy Enforcer integration is enabled. You can override this behavior and send all Password Policy Enforcer queries to a specific IP address by setting the ```PPEIPAddress``` registry value to the IP address of a Password Policy Server. The ```PPEIPAddress``` value is in ```HKEY_LOCAL_MACHINE\SOFTWARE\ANIXIS\ANIXIS Password Reset\3.0```.
 
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the more detailed Rejection message when this registry value is set. Users may also have the wrong policy, or no policy enforced if the queried server is not a domain controller in the user's domain.  
-Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Creating Firewall Rules for the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#Creating-Firewall-Rules-for-the-PPC) topic for more information.
+Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Creating Firewall Rules for the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#creating-firewall-rules-for-the-ppc) topic for more information.
 
 __NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
 
@@ -170,7 +170,7 @@ A warning icon is shown beside the language drop-down list if an e-mail template
 
 ![configuring_apr_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_5.png)
 
-__CAUTION:__ An attacker may choose a specific language to avoid detection. E-mail alerts are sent in the Web Interface language chosen by the attacker if the target user has not enrolled or changed their password with Password Reset. The target user will receive the e-mail alerts, but they may not understand them. Use the Rest API to remind new users to enroll so their preferred language is known to Password Reset. See the [Enabling the API](/versioned_docs/passwordreset_3.23/password_reset/administration/persuading_users_to_enroll.md#Enabling-the-API) topic for additional information.
+__CAUTION:__ An attacker may choose a specific language to avoid detection. E-mail alerts are sent in the Web Interface language chosen by the attacker if the target user has not enrolled or changed their password with Password Reset. The target user will receive the e-mail alerts, but they may not understand them. Use the Rest API to remind new users to enroll so their preferred language is known to Password Reset. See the [Enabling the API](/versioned_docs/passwordreset_3.23/password_reset/administration/persuading_users_to_enroll.md#enabling-the-api) topic for additional information.
 
 ## Verification Tab
 
@@ -206,7 +206,7 @@ Select a value from the __Expire verification codes after...__ drop-down list to
 
 ### E-mail
 
-Select the __Send verification codes by e-mail__ check box to send verification codes to users via e-mail. You must configure the E-mail delivery options in the __E-mail__ tab to send verification codes by e-mail. See the [E-mail Tab](#E-mail-Tab) topic for additional information.
+Select the __Send verification codes by e-mail__ check box to send verification codes to users via e-mail. You must configure the E-mail delivery options in the __E-mail__ tab to send verification codes by e-mail. See the [E-mail Tab](#e-mail-tab) topic for additional information.
 
 Verification codes can be sent to the Active Directory e-mail address and/or the Password Reset e-mail address. Select the desired option from the __Send to__ drop-down list.
 
@@ -254,7 +254,7 @@ Users are more likely to forget a password shortly after changing it. Enforcing 
 
 Users whose passwords are set to never expire in Active Directory will not be forced to change their password during logon, even if this check box is selected.
 
-__NOTE:__ Password Policy Enforcer's History rule is enforced for password resets if the __Enforce policy when password is reset__ check box is selected in the PPS properties page, and if the __Enforce this rule when a password is reset__ check box is selected in the History rule's properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password resets. See the [Netwrix Password Policy Enforcer](#Netwrix-Password-Policy-Enforcer) topic for additional information.
+__NOTE:__ Password Policy Enforcer's History rule is enforced for password resets if the __Enforce policy when password is reset__ check box is selected in the PPS properties page, and if the __Enforce this rule when a password is reset__ check box is selected in the History rule's properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password resets. See the [Netwrix Password Policy Enforcer](#netwrix-password-policy-enforcer) topic for additional information.
 
 Users may try to evade the password history policy by resetting their password several times in quick succession to push a password off the password history list. Select a value from the __Passwords can only be reset if they are at least...__ drop-down list to stop users from doing this. Set it to 0 days to disable this feature. If the Active Directory minimum password age policy is also enforced for password resets, then the effective minimum age is the greater of the AD and APR minimum ages.
 

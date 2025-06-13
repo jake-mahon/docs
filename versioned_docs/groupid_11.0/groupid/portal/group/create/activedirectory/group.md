@@ -6,9 +6,9 @@ NOTE: If the GroupID administrator has specified the group creation action for r
 
 What do you want to do?
 
-- [Create a Static Group](#Create-a-Static-Group)
-- [Create a Smart Group](#Create-a-Smart-Group)
-- [Create a Password Expiry Group](#Create-a-Password-Expiry-Group)
+- [Create a Static Group](#create-a-static-group)
+- [Create a Smart Group](#create-a-smart-group)
+- [Create a Password Expiry Group](#create-a-password-expiry-group)
 
 ## Create a Static Group
 

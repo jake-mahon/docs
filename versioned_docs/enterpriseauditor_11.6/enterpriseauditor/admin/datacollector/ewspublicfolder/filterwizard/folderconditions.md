@@ -14,8 +14,8 @@ Customize folder search conditions using the following options:
 
   __NOTE:__ The values present depends on the selections made in the Select conditions box.
 
-  - Click __specific__ in the Edit conditions box to open the Folder Type Window. See the [Folder Type Window](#Folder-Type-Window)topic for additional information
-  - Click __search terms__ to open the Search Terms Window. See the [Search Terms Window](#Search-Terms-Window) topic for additional information
+  - Click __specific__ in the Edit conditions box to open the Folder Type Window. See the [Folder Type Window](#folder-type-window)topic for additional information
+  - Click __search terms__ to open the Search Terms Window. See the [Search Terms Window](#search-terms-window) topic for additional information
 
 ## Folder Type Window
 

@@ -44,4 +44,4 @@ __Step 10 –__ Assign a less-privileged role to this account.
 
 A less privileged role has now been assigned to the account.
 
-See the [Permissions for Microsoft Entra ID Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md#Permissions-for-Microsoft-Entra-ID-Auditing) topic for additional information.
+See the [Permissions for Microsoft Entra ID Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md#for-microsoft-entra-id-auditing) topic for additional information.

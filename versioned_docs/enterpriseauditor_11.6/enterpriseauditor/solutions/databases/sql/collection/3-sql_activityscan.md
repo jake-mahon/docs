@@ -15,7 +15,7 @@ The ActivityScan Job uses the SQL Data Collector for the following query:
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup14.png)
 
 - ActivityScan – Collects activity from targeted instances
-  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the ActivityScan Query](#Configure-the-ActivityScan-Query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the [Configure the ActivityScan Query](#configure-the-activityscan-query) topic for additional information.
 
 ### Configure the ActivityScan Query
 

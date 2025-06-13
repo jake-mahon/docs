@@ -6,7 +6,7 @@ To add a content source
 
 1. In administrative web console, navigate to __Content__ →Sources → General and click __Add__ to launch the Add source wizard.
 
-   [![add_source_wizard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/add_source_wizard_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/add_source_wizard.png)
+   ![add_source_wizard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/add_source_wizard_thumb_0_0.png)
 2. Select the source you need and configure its settings. See detailed instructions for the sources:
 
 - [Box](/versioned_docs/dataclassification_5.6.2/ndc/sources/box/box.md)

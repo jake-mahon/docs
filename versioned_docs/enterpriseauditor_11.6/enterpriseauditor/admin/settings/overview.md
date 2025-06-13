@@ -60,4 +60,4 @@ Some of these settings are configured during the initial launching of theEnterpr
   - Create profiles for storing output data from queries
   - Creating a Storage Profiles requires Microsoft® SQL® Server information
 
-See the [Getting Started](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/gettingstarted.md#Getting-Started) topic for additional information.
+See the [Getting Started](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/gettingstarted.md) topic for additional information.

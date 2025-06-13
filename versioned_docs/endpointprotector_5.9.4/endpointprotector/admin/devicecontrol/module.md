@@ -2,7 +2,7 @@
 
 From this section, you can manage all entities in the system, their subsequent rights, and settings. You can also manage other types of settings from the Device Control section such as Endpoint Protector Client and Deep Packet Inspection settings. As the ﬁrst layer of security within Endpoint Protector, it is activated by default in every conﬁguration provided.
 
-For a detailed overview of the devices that are discovered and covered under the Device Control settings, please refer to the [Device Types (Standard)](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/globalrights.md#Device-Types-Standard) subtopic.
+For a detailed overview of the devices that are discovered and covered under the Device Control settings, please refer to the [Device Types (Standard)](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/globalrights.md#device-types-standard) subtopic.
 
 ## Dashboard
 

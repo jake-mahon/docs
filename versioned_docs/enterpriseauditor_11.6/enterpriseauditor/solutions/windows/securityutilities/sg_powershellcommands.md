@@ -14,7 +14,7 @@ The queries for the SG\_PowerShellCommands job are:
 
 - Check PowerShell log – Checks the PowerShell log
 
-  - (Optional) This query can be configured. See the [Configure the Check PowerShell log Query](#Configure-the-Check-PowerShell-log-Query) topic for additional information.
+  - (Optional) This query can be configured. See the [Configure the Check PowerShell log Query](#configure-the-check-powershell-log-query) topic for additional information.
 - Check PowerShell Operations log – Checks the PowerShell Operational log
 
 ### Configure the Check PowerShell log Query
@@ -54,7 +54,7 @@ The default analysis tasks are:
 
 The optional analysis tasks is:
 
-- Notify on suspicious commands – Enable this analysis task and the select Analysis Configuration to open the Notification Data Analysis Module Wizard to configure it to send notifications on suspicious commands. See the [Configure the Notify on Suspicious Commands Analysis Task](#Configure-the-Notify-on-Suspicious-Commands-Analysis-Task) topic for additional information.
+- Notify on suspicious commands – Enable this analysis task and the select Analysis Configuration to open the Notification Data Analysis Module Wizard to configure it to send notifications on suspicious commands. See the [Configure the Notify on Suspicious Commands Analysis Task](#configure-the-notify-on-suspicious-commands-analysis-task) topic for additional information.
 
 In addition to the tables and views created by the analysis tasks, the EX\_DeliveryTimes job produces the following pre-configured report.
 

@@ -38,15 +38,15 @@ The provisioned credential must be created with the Exchange Modern Authenticati
 
 - Select Account Type – Exchange Modern Authentication
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
-- Organization – The primary domain name of the Microsoft Entra tenant being leveraged to make the connection. See the [Identify the Tenant's Name](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
+- Organization – The primary domain name of the Microsoft Entra tenant being leveraged to make the connection. See the [Identify the Tenant's Name](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#identify-the-tenants-name) topic for additional information.
 - Email Address – The email address for the mailbox to be leveraged in Exchange Online environment scans. The mailbox must belong to the primary domain used in the Organization field.
-- AppID – Application (client) ID of the Enterprise Auditor application registered with Microsoft Entra ID. See the [Identify the Client ID](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#Identify-the-Client-ID) topic for additional information.
-- Certificate Thumbprint – The thumbprint value of the certificate uploaded to the Microsoft Entra ID application. See the [Upload Self-Signed Certificate](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#Upload-Self-Signed-Certificate) topic for additional information.
+- AppID – Application (client) ID of the Enterprise Auditor application registered with Microsoft Entra ID. See the [Identify the Client ID](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#identify-the-client-id) topic for additional information.
+- Certificate Thumbprint – The thumbprint value of the certificate uploaded to the Microsoft Entra ID application. See the [Upload Self-Signed Certificate](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#upload-self-signed-certificate) topic for additional information.
 
 ### Exchange Online Host List
 
 Exchange Online requires a custom host list. The host list should include the tenant name of the Microsoft Entra tenant used to connect to Exchange Online.
 
-- The host name must be the domain name of the tenant, for example ```company.onmicrosoft.com```. See the [Identify the Tenant's Name](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#Identify-the-Tenants-Name) topic for additional information.
+- The host name must be the domain name of the tenant, for example ```company.onmicrosoft.com```. See the [Identify the Tenant's Name](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md#identify-the-tenants-name) topic for additional information.
 
 See the [Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom host list.

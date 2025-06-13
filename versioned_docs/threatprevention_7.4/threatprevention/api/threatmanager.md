@@ -5,7 +5,7 @@ The following APIs are related to where Threat Prevention sends the event data t
 - Set-SIDefendConfig
 - Get-SIDefendConfig
 
-The following APIs are related to the LDAP Deception trap options on the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#Honey-Token-Tab) of the [Netwrix Threat Manager Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md):
+The following APIs are related to the LDAP Deception trap options on the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#honey-token-tab) of the [Netwrix Threat Manager Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md):
 
 - Get-SILdapDeception
 - Set-SILdapDeception
@@ -43,15 +43,15 @@ Example using Activity Monitor to send to Threat Manager:
 
 ## Get Threat Manager Configuration
 
-The ```Get-SIDefendConfig``` command is used to return all settings on the [Event Sink Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#Event-Sink-Tab) of the Netwrix Threat Manager Configuration window.
+The ```Get-SIDefendConfig``` command is used to return all settings on the [Event Sink Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#event-sink-tab) of the Netwrix Threat Manager Configuration window.
 
 ## Get LDAP Deception
 
-The ```Get-SILdapDeception``` command provides the current information configured in the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#Honey-Token-Tab) of the Netwrix Threat Manager Configuration window.
+The ```Get-SILdapDeception``` command provides the current information configured in the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#honey-token-tab) of the Netwrix Threat Manager Configuration window.
 
 ## Set LDAP Deception
 
-The ```Set-SILdapDeception``` command changes the settings on the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#Honey-Token-Tab) of the Netwrix Threat Manager Configuration window.
+The ```Set-SILdapDeception``` command changes the settings on the [Honey Token Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#honey-token-tab) of the Netwrix Threat Manager Configuration window.
 
 _Remember,_ these settings must be an exact match to the configuration set up in the Threat Manager Honey Token threat.
 

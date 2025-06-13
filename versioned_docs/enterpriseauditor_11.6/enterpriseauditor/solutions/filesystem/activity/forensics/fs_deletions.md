@@ -23,7 +23,7 @@ The Notification analysis task is an optional analysis task which requires confi
 - 5. Notify on large number of deletes – Alerts when large number of deletions have occurred
 
   - Add recipients, notification subject, and email content
-  - See the [Configure the Notification Analysis Task](#Configure-the-Notification-Analysis-Task) topic for additional information
+  - See the [Configure the Notification Analysis Task](#configure-the-notification-analysis-task) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the FS\_Deletions job produces the following pre-configured report:
 

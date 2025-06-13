@@ -40,7 +40,7 @@ The configurable options are:
 - Root Path – The path to the selected key
 - Enumerate child nodes – Select this checkbox to do a recursive search of all child nodes
 
-The button bar provides additional options for selecting keys. See the [Button Bar](#Button-Bar) topic for additional information.
+The button bar provides additional options for selecting keys. See the [Button Bar](#button-bar) topic for additional information.
 
 ### Button Bar
 

@@ -15,7 +15,7 @@ Click on a Device Group name to configure further attributes for the Group, such
 - Device Tracking Policy
 - Compliance Report(s)
 - Group Members, with the option to export a list of group Members
-- Define the schedule for [Agent Updates](/versioned_docs/changetracker_8.0/changetracker/admin/settings/agentupdates.md)
+- Define the schedule for [Agent Updates](agentupdates.md)
 
 ![page_guide_28](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_28.png)
 

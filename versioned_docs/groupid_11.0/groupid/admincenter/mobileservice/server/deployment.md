@@ -4,14 +4,14 @@ You can manage various deployment settings for a Mobile service in any of the we
 
 What do you want to do?
 
-- [View the Deployment(s) for a Mobile Service](#View-the-Deployments-for-a-Mobile-Service)
-- [Start or Stop a Deployment Instance](#Start-or-Stop-a-Deployment-Instance)
-- [View the Launch URL for an Instance](#View-the-Launch-URL-for-an-Instance)
-- [View the Data Service and Security Service Bound to an Instance](#View-the-Data-Service-and-Security-Service-Bound-to-an-Instance)
-- [Manage Event Logging for an Instance](#Manage-Event-Logging-for-an-Instance)
-- [Change the IIS Application Name for an Instance (Native IIS)](#Change-the-IIS-Application-Name-for-an-Instance-Native-IIS)
-- [Move an Instance under a Different Site (Native IIS)](#Move-an-Instance-under-a-Different-Site-Native-IIS)
-- [View the Deployment Settings for an Instance (Remote IIS and Docker)](#View-the-Deployment-Settings-for-an-Instance-Remote-IIS-and-Docker)
+- [View the Deployment(s) for a Mobile Service](#view-the-deployments-for-a-mobile-service)
+- [Start or Stop a Deployment Instance](#start-or-stop-a-deployment-instance)
+- [View the Launch URL for an Instance](#view-the-launch-url-for-an-instance)
+- [View the Data Service and Security Service Bound to an Instance](#view-the-data-service-and-security-service-bound-to-an-instance)
+- [Manage Event Logging for an Instance](#manage-event-logging-for-an-instance)
+- [Change the IIS Application Name for an Instance (Native IIS)](#change-the-iis-application-name-for-an-instance-native-iis)
+- [Move an Instance under a Different Site (Native IIS)](#move-an-instance-under-a-different-site-native-iis)
+- [View the Deployment Settings for an Instance (Remote IIS and Docker)](#view-the-deployment-settings-for-an-instance-remote-iis-and-docker)
 
 ## View the Deployment(s) for a Mobile Service
 
@@ -33,23 +33,23 @@ __To view a service’s deployment instances:__
 ## Start or Stop a Deployment Instance
 
 See
-the [Start or Stop a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Start-or-Stop-a-Service) topic for details. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to start or stop.
+the [Start or Stop a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service) topic for details. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to start or stop.
 
 ## View the Launch URL for an Instance
 
 See
-the [View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#View-the-Launch-URL-for-a-Service) topic for details. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to view the launch URL for.
+the [View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service) topic for details. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to view the launch URL for.
 
-Use the launch URL for a Mobile service instance to launch the GroupIDMobileService page, which is shown in the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#Launch-a-Mobile-Service-or-a-Service-Instance) topic.
+Use the launch URL for a Mobile service instance to launch the GroupIDMobileService page, which is shown in the [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance) topic.
 
 ## View the Data Service and Security Service Bound to an Instance
 
-See the [View the Data Service and Security Service Bound to an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#View-the-Data-Service-and-Security-Service-Bound-to-an-Instance) topic. Replace references to the portal with the Mobile service.
+See the [View the Data Service and Security Service Bound to an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-data-service-and-security-service-bound-to-an-instance) topic. Replace references to the portal with the Mobile service.
 
 ## Manage Event Logging for an Instance
 
 To manage Windows logging and file logging for an instance of a Mobile service, see the
-[Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#Specify-Log-Settings-for-a-Service) topic. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to manage event logging for.
+[Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic. Remember to use the __Select Application Deployment__ drop-down list to select the Mobile service instance you want to manage event logging for.
 
 ## Change the IIS Application Name for an Instance (Native IIS)
 

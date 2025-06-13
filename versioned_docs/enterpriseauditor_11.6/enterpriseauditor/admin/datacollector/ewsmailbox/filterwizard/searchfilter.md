@@ -15,8 +15,8 @@ Customize folder search conditions using the following options:
 
   __NOTE:__ The values present depends on the selections made in the Select conditions box.
 
-  - Click either __IPM.Note__ or __IPM.Appointment__, to open the MessageClasses Window with IPM.Note or IPM.Appointment class populated, respectively. See the [MessageClasses Window ](#MessageClasses-Window) topic for additional information.
-  - Click __over 90 Day ago__ to open the Date Range Selection Window. See the [Date Range Selection Window](#Date-Range-Selection-Window) topic for additional information.
+  - Click either __IPM.Note__ or __IPM.Appointment__, to open the MessageClasses Window with IPM.Note or IPM.Appointment class populated, respectively. See the [MessageClasses Window ](#messageclasses-window) topic for additional information.
+  - Click __over 90 Day ago__ to open the Date Range Selection Window. See the [Date Range Selection Window](#date-range-selection-window) topic for additional information.
   - Click __has attachment(s)__ to convert the condition to __has no attachment(s)__ and vice versa
 
 ## MessageClasses Window

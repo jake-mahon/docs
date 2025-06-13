@@ -128,7 +128,7 @@ See the [
 Connection
 ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md): topic for additional information.
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `< >` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -151,7 +151,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 
 The following example gets information via SCIM on a web application whose URL base is ```https://example.for.doc.com```:
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `< >` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.agent.json  
@@ -179,7 +179,7 @@ The filter ```?filter=active eq \"true\"``` retrieves active Users from the exte
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Filter   optional | String | Filters applied in the SCIM request retrieving the entities. You should write the filters as you would write them in the URL (including the "?"). For more details on the syntax, see the [RFC document](https://tools.ietf.org/html/rfc7644#RFC-document).  Syntax:EntityNameInSCIM1&#124;scimFilter1&#42;EntityNameInSCIM2&#124;scimFilter2&#42;EntityNameInSCIM3&#124;scimFilter3 |
+| Filter   optional | String | Filters applied in the SCIM request retrieving the entities. You should write the filters as you would write them in the URL (including the "?"). For more details on the syntax, see the [RFC document](https://tools.ietf.org/html/rfc7644#rfc-document).  Syntax:EntityNameInSCIM1&#124;scimFilter1&#42;EntityNameInSCIM2&#124;scimFilter2&#42;EntityNameInSCIM3&#124;scimFilter3 |
 | OAuth2Url   optional | String | URL which get tokens for the requests.   The system can usually find this information, but sometimes the system gets it wrong, like Salesforce for example. |
 | PageSize   default value: 200 | String | Maximum number of elements returned by one request. |
 | Server   required | String | URL of the SCIM endpoints of your application, excluding /v2. |
@@ -207,11 +207,11 @@ EntityTypeMapping
 
 For the connector to work properly, the connection tables must follow the naming conventions too: ```<identifier>_<entity> for entities and <identifier>_members_<entity>``` for links.
 
-If the connection column describes a sub-property, then the name should have the following pattern: {property}:{sub-property}. The character ":" should not be used in other situations.
+If the connection column describes a sub-property, then the name should have the following pattern: `{property}:{sub-property}`. The character ":" should not be used in other situations.
 
 For example, if we want to retrieve information about Users, Groups and Groups' members, we should have the following configuration:
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `< >` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 <EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
@@ -235,7 +235,7 @@ Same as for export, fulfill is configured through connections.
 
 > The following example writes information to SCIM on a web application whose URL base is ```https://example.for.doc.com```.
 >
-> Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+> Code attributes enclosed with `< >` need to be replaced with a custom value before entering the script in the command line.
 >
 > ```
 > appsettings.agent.json  
@@ -265,7 +265,7 @@ Same as for export, fulfill is configured through connections.
 | Name | Type | Description |
 | --- | --- | --- |
 | BulkMaxOperation   optional | Int32 | Maximum number of operations which can be sent in one bulk request. |
-| ServiceSupportBulk   optional | Boolean | True to allow bulk requests.  __NOTE:__ depends on the web application's SCIM implementation. See the [RFC document](https://tools.ietf.org/html/rfc7644#RFC-document) for additional information. |
+| ServiceSupportBulk   optional | Boolean | True to allow bulk requests.  __NOTE:__ depends on the web application's SCIM implementation. See the [RFC document](https://tools.ietf.org/html/rfc7644#rfc-document) for additional information. |
 | Server   required | String | URL of the SCIM endpoints of your application, excluding /v2. |
 | ApplicationId   optional | String | Login of the application or of the application's Id provider. |
 | ApplicationKey   optional | String | Password of the application or of the application's Id provider. |
@@ -311,19 +311,20 @@ Protected attributes are stored inside a safe in CyberArk, into an account whose
 
 For example:
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `< >` need to be replaced with a custom value before entering the script in the command line.
 
 ```
 appsettings.cyberark.agent.json  
 {  
-  ...  
-  "Connections": {  
-    ...  
-    "SAPExportFulfillment": {  
-        "Login": "SAPExportFulfillment_CyberArkKey",  
-        "Password": "SAPExportFulfillment_CyberArkKey",  
-        "Server": "SAPExportFulfillment_CyberArkKey"  
-    }  
-  }  
+  ...  
+  "Connections": {  
+    ...  
+    "SAPExportFulfillment": {  
+        "Login": "SAPExportFulfillment_CyberArkKey",  
+        "Password": "SAPExportFulfillment_CyberArkKey",  
+        "Server": "SAPExportFulfillment_CyberArkKey"  
+    }  
+  }  
 }
+```
 ```

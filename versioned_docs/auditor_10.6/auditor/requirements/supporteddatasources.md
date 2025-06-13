@@ -176,7 +176,7 @@ Auditor supports monitoring the following versions:
 
   __NOTE:__ DoD tenant types are not supported.
 
-See the [Microsoft Entra ID (formerly Azure AD)](/versioned_docs/auditor_10.6/auditor/requirements/microsoft365/azureactivedirectory/overview.md) topic for additional information.
+See the Microsoft Entra ID (formerly Azure AD) topic for additional information.
 
 Microsoft Teams (MS Teams)
 
@@ -294,7 +294,7 @@ Auditor supports monitoring the following versions:
 - Database 12c On-Premise (12.1, 12.2)
 - Database 11g, limited support
 
-  __NOTE:__  See the [Considerations for Oracle Database 11g](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md#Considerations-for-Oracle-Database-11g) topic for additional information.
+  __NOTE:__  See the [Considerations for Oracle Database 11g](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g) topic for additional information.
 - Oracle Database Cloud Service (Enterprise Edition)
 
 See the [Oracle Database](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md) topic for additional information.

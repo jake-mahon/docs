@@ -14,7 +14,7 @@ You can also include the username and/or domain in the URL:
 
 ```http://[server]/ppeweb/ppeweb.dll?username=maryjones&domain=ANIXIS```
 
-___RECOMMENDED:___ Install the SSL Certificate the web server and use the HTTPS protocol if Password Policy Enforcer/Web will be used on an unencrypted network. See the [Installing and Using an SSL Certificate](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/securing_web.md#Installing-and-Using-an-SSLCertificate) topic for additional information.
+___RECOMMENDED:___ Install the SSL Certificate the web server and use the HTTPS protocol if Password Policy Enforcer/Web will be used on an unencrypted network. See the [Installing and Using an SSL Certificate](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/securing_web.md#installing-and-using-an-sslcertificate) topic for additional information.
 
 __NOTE:__ A license reminder message is shown occasionally when Password Policy Enforcer/Web is used without a license key. Contact Netwrix support if you would like to evaluate Password Policy Enforcer/Web without the reminder message.
 

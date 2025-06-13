@@ -4,7 +4,7 @@ The Google Drive source configuration screen allows you to enable the crawling a
 
 __IMPORTANT!__ Make sure you created App for GDrive crawling prior to start adding the source. [See Configure G Suite and Google Drive for Crawling for more information.](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_gdrive.md)
 
-[![add_gdrive_source_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/add_gdrive_source_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/add_gdrive_source.png)
+![add_gdrive_source_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/add_gdrive_source_thumb_0_0.png)
 
 Complete the following fields:
 

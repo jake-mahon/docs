@@ -33,7 +33,7 @@ __Step 4 –__ Configure the options on the SQL Server Settings page.
 - Use existing database – Confirm the SQL Server connection has been established by selecting the radio button for __Use existing database__ and clicking the drop-down arrow. If a listing of databases appears, then the connection has been established. Select this option to use a pre-existing database. Then select a database from the drop-down menu of available databases.
 - Create new database – Select this option to create a new database during the configuration of the storage profile. Enter a unique, descriptive name for the new database. If multiple databases might exist for Enterprise Auditor, then the default name of Enterprise Auditor is not recommended.
 
-See the [Securing the Enterprise Auditor Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/database.md#Securing-the-Enterprise-Auditor-Database) topic for additional information on creating a SQL Server database for Enterprise Auditor.
+See the [Securing the Enterprise Auditor Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/database.md#securing-the-enterprise-auditor-database) topic for additional information on creating a SQL Server database for Enterprise Auditor.
 
 __Step 5 –__ Click __Next__.
 

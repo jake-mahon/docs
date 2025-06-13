@@ -32,7 +32,7 @@ After connecting Usercube to an external system, two process options are availab
 
 ### Option A: Straight to production implementation
 
-[Go directly to the common final steps (step 8)](#Go-directly-to-the-common-final-steps-step-8).
+[Go directly to the common final steps (step 8)](#go-directly-to-the-common-final-steps-step-8).
 
 ### Option B: First build the role model
 

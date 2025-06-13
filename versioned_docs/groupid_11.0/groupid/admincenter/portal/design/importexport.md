@@ -24,9 +24,9 @@ NOTE: The attributes you specify apply to all four wizards. You cannot specify a
 
 What do you want to do?
 
-- [Specify Attributes for Import and Export](#Specify-Attributes-for-Import-and-Export)
-- [Update an Attribute](#Update-an-Attribute)
-- [Remove an Attribute from Import and Export](#Remove-an-Attribute-from-Import-and-Export)
+- [Specify Attributes for Import and Export](#specify-attributes-for-import-and-export)
+- [Update an Attribute](#update-an-attribute)
+- [Remove an Attribute from Import and Export](#remove-an-attribute-from-import-and-export)
 
 ## Specify Attributes for Import and Export
 

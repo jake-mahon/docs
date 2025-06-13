@@ -2,8 +2,8 @@
 
 You can install GroupID Credential Provider in one of the following ways:
 
-- [Install GroupID Credential Provider Manually](#Install-GroupID-Credential-Provider-Manually)
-- [Install GroupID Credential Provider via a Group Policy Object (GPO)](#Install-GroupID-Credential-Provider-via-a-Group-Policy-Object-GPO)
+- [Install GroupID Credential Provider Manually](#install-groupid-credential-provider-manually)
+- [Install GroupID Credential Provider via a Group Policy Object (GPO)](#install-groupid-credential-provider-via-a-group-policy-object-gpo)
 
 ### Install GroupID Credential Provider Manually
 
@@ -19,13 +19,13 @@ Browse to the folder where you have copied the package:
 
    Let’s have a look at the settings which are available in the _CPsettings.xml_ file:
 
-   - <ForgetPasswordText value="Forget Password?" />
+   - `<ForgetPasswordText value="Forget Password?" />`
 
      Provide the text for the ForgotPasswordText key. This text will appear on the Windows logon screen for the Forgot Password option.
-   - <UnlockAccountText value="Unlock Account" />
+   - `<UnlockAccountText value="Unlock Account" />`
 
      Provide the text for the UnlockAccountText key. This text will appear on the Windows logon screen for Unlock Account option.
-   - <ResetMyPasswordUrl value="https://MachineName:port/Portalname" />
+   - `<ResetMyPasswordUrl value="https://MachineName:port/Portalname" />`
 
      Provide the URL to which you want to redirect the user to reset his/her forgotten password.
 
@@ -53,8 +53,8 @@ Instead of installing Credential Provider manually on each individual client wor
 
 Installing Credential Provider is a two-step process:
 
-1. [Install Orca](#Install-Orca)
-2. [Deploy Credential Provider via a GPO](#Deploy-Credential-Provider-via-a-GPO)
+1. [Install Orca](#install-orca)
+2. [Deploy Credential Provider via a GPO](#deploy-credential-provider-via-a-gpo)
 
 ### Install Orca
 

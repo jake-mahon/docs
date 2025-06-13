@@ -68,7 +68,7 @@ Load identities for the first time by proceeding as follows:
 
    ![Template Recommendations](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.png)
 
-   [__Click here to download a template example__](/versioned_docs/usercube_6.1/resources/directory_example_v602.xlsx).
+   [__Click here to download a template example__](/docs/usercube/resources/directory_example_v602.xlsx).
 
    Every object (so every tab) of the directory must have a __key__, which is an attribute:
      
@@ -84,7 +84,7 @@ Load identities for the first time by proceeding as follows:
      
    As we aim to quickly enable Identity Governance and Administration (IGA) actions (like the review of orphaned and unused accounts, or access certification, etc.), NETWRIX recommends loading identities with only necessary data. The model can be completed later.
      
-   Moreover, Usercube's [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#Query-module) can help gather data from other systems.
+   Moreover, Usercube's [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#query-module) can help gather data from other systems.
      
    For example, let's say that contractors' phone numbers are found only in the AD. Then we can wait for the connection of Usercube to the AD, and finally use the Query module to collect missing data. In this case:
      
@@ -127,5 +127,5 @@ In order to validate the process:
 
   ![List of Departments](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
 
-  If the system contains many organizations, then it is also possible to list each organization with its manager through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#Query-module).
+  If the system contains many organizations, then it is also possible to list each organization with its manager through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#query-module).
 - [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with indicators on the number of workers per type or per organization for example (through Usercube' predefined reports, the Query module or Power BI), in order to ensure that Usercube's content sticks to reality.

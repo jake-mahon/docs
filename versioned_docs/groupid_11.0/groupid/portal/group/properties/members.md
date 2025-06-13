@@ -33,7 +33,7 @@ a search.
 The selected members get listed in the __Members__ grid.
 
 NOTE: This button is disabled for Smart Groups and Dynasties since their memberships is determined by the query set on the [Group properties - Smart Group/Query Designer tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/smartgroup.md).  
- See [Schedule periodic membership updates for Smart Groups/Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/manage/scheduleupdate.md#Schedule-periodic-membership-updates-for-Smart-GroupsDynasties).
+ See [Schedule periodic membership updates for Smart Groups/Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/manage/scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties).
 
 __Import__
 
@@ -48,7 +48,7 @@ __Export__
 
 You can export the list of members to an external file. Supported file formats are: .txt, .csv, .xls, .xlsx and .xml.
 
-Click __Export__ to launch the __Export Members__ wizard for exporting group members. Select the attributes you want to export. For information and instructions, see [Export group members](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupmembershipfunction.md#Export-group-members).
+Click __Export__ to launch the __Export Members__ wizard for exporting group members. Select the attributes you want to export. For information and instructions, see [Export group members](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupmembershipfunction.md#export-group-members).
 
 __Remove All__
 

@@ -14,4 +14,4 @@ See the [Selection Windows](/versioned_docs/threatprevention_7.4/threatpreventio
 
 The selection is displayed in the appropriate box of the Hosts (from) filter or the Hosts (to) filter.
 
-__NOTE:__ If the selected Agent is not configured to "Enable DNS Host Name Resolution," then the Results pane may not include the DNS name or IP address for computer identification purposes. See the [DNS Host Name Resolution ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md#DNS-Host-Name-Resolution)topic for additional information.
+__NOTE:__ If the selected Agent is not configured to "Enable DNS Host Name Resolution," then the Results pane may not include the DNS name or IP address for computer identification purposes. See the [DNS Host Name Resolution ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md#dns-host-name-resolution)topic for additional information.

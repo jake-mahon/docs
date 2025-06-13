@@ -48,16 +48,16 @@ Prerequisites:
 
   __NOTE:__ By default, the application is configured to send notifications only to the primary owner. However, this can be customized on the Configuration > Notifications page to send notifications to all assigned owners.
 - Owners assigned to resources within the Resource Owners interface. See the [Resource Owners Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md) topic for additional information.
-- Sensitive Data reviews have specific requirements for Enterprise Auditor configuration. See the [Data Collection Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#Data-Collection-Prerequisites) topic for additional information.
-- Optional: Access Information Center configured to commit AD changes. See the [Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#Automation-Prerequisites) topic for additional information.
+- Sensitive Data reviews have specific requirements for Enterprise Auditor configuration. See the [Data Collection Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#data-collection-prerequisites) topic for additional information.
+- Optional: Access Information Center configured to commit AD changes. See the [Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional information.
 
 Workflow:
 
-___RECOMMENDED:___ When deploying the Access Information Center in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md#Notification-to-Owners) topic for additional information.
+___RECOMMENDED:___ When deploying the Access Information Center in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md#notification-to-owners) topic for additional information.
 
 __Step 1 –__ Review Administrator creates a review or starts a new review instance. See the [Create Review Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/create.md) topic for additional information.
 
-__Step 2 –__ Owner performs a review. See the [Pending Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.md#Pending-Reviews-Page) topic for additional information.
+__Step 2 –__ Owner performs a review. See the [Pending Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.md#pending-reviews-page) topic for additional information.
 
 __Step 3 –__ Review Administrator approves owner recommendations. See the [Approval Process](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/approvalprocess.md) topic for additional information.
 

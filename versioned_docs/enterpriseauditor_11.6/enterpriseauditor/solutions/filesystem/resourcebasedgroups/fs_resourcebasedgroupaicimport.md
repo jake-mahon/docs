@@ -17,7 +17,7 @@ None
 
 Schedule Frequency
 
-This job group can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#Scheduling-the-Resource-Based-Groups-Job-Group) topic for additional information.
+This job group can be scheduled to run as desired. Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization. See the [Scheduling the Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group) topic for additional information.
 
 History Retention
 
@@ -34,11 +34,11 @@ __Step 1 –__ Run the following jobs:
 
 __Step 2 –__ Run the FS\_ResourceBasedGroupsAICImport job.
 
-- See the [Run the FS\_ResourceBasedGroupsAICImportJob](#Run-the-FS_ResourceBasedGroupsAICImportJob) topic for additional information
+- See the [Run the FS\_ResourceBasedGroupsAICImportJob](#run-the-fs_resourcebasedgroupsaicimportjob) topic for additional information
 
 __Step 3 –__ Review the newly-created resource based groups in the AIC.
 
-- See the [Review the New Resource Based Groups in the AIC](#Review-the-New-Resource-Based-Groups-in-the-AIC) topic for additional information
+- See the [Review the New Resource Based Groups in the AIC](#review-the-new-resource-based-groups-in-the-aic) topic for additional information
 
 ## Run the FS\_ResourceBasedGroupsAICImportJob
 

@@ -17,7 +17,7 @@ You can investigate lockouts originating from the following sources:
 
 ## Upgrade recommendations
 
-Since the functionality of older and newer versions does not match one-to-one (see [Feature comparison of Netwrix Account Lockout Examiner 4.1 and 5.x](#Feature-comparison-of-Netwrix-Account-Lockout-Examiner-41-and-5x)), there is no upgrade path for __Netwrix Account Lockout Examiner 4.1__.
+Since the functionality of older and newer versions does not match one-to-one (see [Feature comparison of Netwrix Account Lockout Examiner 4.1 and 5.x](#feature-comparison-of-netwrix-account-lockout-examiner-41-and-5x)), there is no upgrade path for __Netwrix Account Lockout Examiner 4.1__.
 
 Though its users can continue working with that older version, we recommend to use the latest Netwrix Account Lockout Examiner to benefit from the variety of its new features and enhanced usability.
 

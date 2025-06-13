@@ -7,16 +7,16 @@ License GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/general/licens
 
 What do you want to do?
 
-- [Specify a Default Approver](#Specify-a-Default-Approver)
-- [Apply Approver Acceleration](#Apply-Approver-Acceleration)
-- [Delete Workflow Requests](#Delete-Workflow-Requests)
-- [Integrate with Microsoft Power Automate](#Integrate-with-Microsoft-Power-Automate)
+- [Specify a Default Approver](#specify-a-default-approver)
+- [Apply Approver Acceleration](#apply-approver-acceleration)
+- [Delete Workflow Requests](#delete-workflow-requests)
+- [Integrate with Microsoft Power Automate](#integrate-with-microsoft-power-automate)
 
 ## Specify a Default Approver
 
 You can designate a recipient as the default approver for workflow requests. Requests are routed to this recipient based on the following rules:
 
-- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#Workflow-Approval-Scenarios) topic.
+- When approver acceleration is not enabled, the applicable rules are discussed in the [Workflow Approval Scenarios](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#workflow-approval-scenarios) topic.
 - When approver acceleration is enabled:
 
   - A request is sent to the default approver when the last approver in the acceleration chain does not approve or deny it within the specific number of days.

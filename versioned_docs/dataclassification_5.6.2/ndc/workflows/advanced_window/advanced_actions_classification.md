@@ -4,7 +4,7 @@ You can instruct the program to apply one or more additional classifications to 
 
 Alternatively, you can configure a workflow action that permanently removes all existing classifications on a document and disables future auto-classification for it.
 
-[![workflow_actions_man_classify_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/workflow_actions_man_classify_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/workflow_actions_man_classify.png)
+![workflow_actions_man_classify_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/workflow_actions_man_classify_thumb_0_0.png)
 
 To apply additional classification:
 

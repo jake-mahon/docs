@@ -2,8 +2,8 @@
 
 When your access request has been processed by the resource owner, you will receive one of the following:
 
-- [Decision Accepted Email](#Decision-Accepted-Email)
-- [Decision Denied Email](#Decision-Denied-Email)
+- [Decision Accepted Email](#decision-accepted-email)
+- [Decision Denied Email](#decision-denied-email)
 
 ## Decision Accepted Email
 

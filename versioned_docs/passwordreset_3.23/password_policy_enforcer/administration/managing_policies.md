@@ -1,6 +1,6 @@
 # Managing Policies
 
-Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assigning Policies to Users](#Assigning-Policies-to-Users) topic for additional information.
+Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assigning Policies to Users](#assigning-policies-to-users) topic for additional information.
 
 This topic explains how to create and configure Password Policy Enforcer password polices.
 
@@ -52,11 +52,11 @@ Each Password Policy Enforcer policy must have a unique name. To change the name
 
 Password Policy Enforcer only enforces enabled policies. Select the __Enabled__ check box if Password Policy Enforcer should enforce this policy, or deselect it to disable the policy. The policy's icon in the left pane of the management console changes to an X icon when a policy is disabled.
 
-__NOTE:__ A user's password history may be updated even when the policy assigned to the user is disabled. See the [History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#History-Rule) topic for additional information.
+__NOTE:__ A user's password history may be updated even when the policy assigned to the user is disabled. See the [History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#history-rule) topic for additional information.
 
 The __Reject passwords that do not comply with__ drop-down list specifies the required compliance level for this policy. The default value (all the rules) requires users to comply with all enabled rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient password policy. The Minimum Age and Maximum Age rules are excluded from compliance level calculations. See the [Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic for additional information.
 
-When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the [Passphrases](#Passphrases) topic for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
+When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the [Passphrases](#passphrases) topic for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
 
 Password Policy Enforcer can start a password synchronization application or script whenever a user successfully changes their password. Enter the full path to the executable in the __Execute this program when a password is changed__ text box. The path can contain environment variables like ```%SystemRoot%```. Every computer running Password Policy Enforcer should have a local copy of the program, and only authorized users should have access to it, or any of its components.
 
@@ -130,7 +130,7 @@ Password Policy Enforcer first tries to resolve a policy assignment conflict by 
 
 If all the policies are assigned to the user by container, then Password Policy Enforcer enforces the policy that is assigned to the nearest parent container. For example, if Policy A is assigned to the Users OU, and Policy B is assigned to the Users\Students OU, then Password Policy Enforcer will enforce Policy B for all users in the Users\Students and Users\Students\Science OUs because it is the policy assigned to the nearest parent container.
 
-If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](#Policy-Selection-Flowchart) topic for a diagrammatic representation of this algorithm.
+If a policy assignment conflict still exists, then Password Policy Enforcer checks the priority of each remaining policy, and enforces the policy with the highest priority. See the [Policy Selection Flowchart](#policy-selection-flowchart) topic for a diagrammatic representation of this algorithm.
 
 Use the Log tab in the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce for a particular user.
 

@@ -12,9 +12,9 @@ The Custom Attribute is defined according to the following three elements:
 - Object Class – User, Group, or Computer
 - Attribute Name – As listed within Active Directory
 
-Use the __Add__, __Edit__, and __Remove__ buttons at the bottom of the window to configure the custom attributes to be gathered by the scan. See the [Manually Add Custom Attributes](#Manually-Add-Custom-Attributes) topic for additional information.
+Use the __Add__, __Edit__, and __Remove__ buttons at the bottom of the window to configure the custom attributes to be gathered by the scan. See the [Manually Add Custom Attributes](#manually-add-custom-attributes) topic for additional information.
 
-The __Import__ button opens the Custom Attributes Import Wizard. See the [Custom Attributes Import Wizard](#Custom-Attributes-Import-Wizard) topic for additional information.
+The __Import__ button opens the Custom Attributes Import Wizard. See the [Custom Attributes Import Wizard](#custom-attributes-import-wizard) topic for additional information.
 
 Microsoft Active Directory Schema is detailed in the Microsoft [Active Directory Schema](https://learn.microsoft.com/en-gb/windows/win32/adschema/active-directory-schema) article.
 

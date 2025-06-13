@@ -12,7 +12,7 @@ To define a linked field drop-down list:
 
 What do you want to do?
 
-- [Define a Linked Field Drop-down List Display Type](#Define-a-Linked-Field-Drop-down-List-Display-Type)
+- [Define a Linked Field Drop-down List Display Type](#define-a-linked-field-drop-down-list-display-type)
 
 ## Define a Linked Field Drop-down List Display Type
 

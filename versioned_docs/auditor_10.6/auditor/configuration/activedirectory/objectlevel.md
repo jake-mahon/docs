@@ -6,8 +6,8 @@ Auditing of the Configuration partition is enabled by default. See the [Active D
 
 Perform the following procedures to configure object-level auditing for the Domain, Configuration and Schema partitions:
 
-- [Configuring object-level auditing for the Domain partition](#Configuring-object-level-auditing-for-the-Domain-partition)
-- [Enabling object-level auditing for the Configuration and Schema partitions](#Enabling-object-level-auditing-for-the-Configuration-and-Schema-partitions)
+- [Configuring object-level auditing for the Domain partition](#configuring-object-level-auditing-for-the-domain-partition)
+- [Enabling object-level auditing for the Configuration and Schema partitions](#enabling-object-level-auditing-for-the-configuration-and-schema-partitions)
 
 ## Configuring object-level auditing for the Domain partition
 

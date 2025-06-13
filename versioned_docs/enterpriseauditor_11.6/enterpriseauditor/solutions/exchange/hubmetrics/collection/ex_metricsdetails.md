@@ -13,7 +13,7 @@ The following query is included in the EX\_MetricsDetails Job:
 - Activity metrics – Collects user to user traffic per day
 
   - Domains must be configured for data collection to return data
-  - See the [Configure the Activity Metrics Query](#Configure-the-Activity-Metrics-Query) topic for additional information
+  - See the [Configure the Activity Metrics Query](#configure-the-activity-metrics-query) topic for additional information
 
 ### Configure the Activity Metrics Query
 
@@ -51,7 +51,7 @@ The following analysis tasks are selected by default:
 - 02. SET HISTORY RETENTION – Sets retention period in months
 
   - By default set to retain __6 months__
-  - This retention period can be modified. See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Exchange-History-Retention) topic for additional information.
+  - This retention period can be modified. See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information.
 
 The following analysis task clears table data from data collection and analysis jobs. This analysis task should remain deselected unless specifically needed:
 
@@ -59,4 +59,4 @@ __CAUTION:__ Do not select the __00. DROP HISTORY__ option. This analysis task i
 
 - 00. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
 
-  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information

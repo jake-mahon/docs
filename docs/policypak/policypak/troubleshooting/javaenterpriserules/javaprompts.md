@@ -122,7 +122,7 @@ You can automatically make this prompt never occur again (automatically) using G
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\`{GUID}`
 ```
 
-Where ```{GUID}``` is `{GUID}` for @the latest version of Java on your machine
+Where ``{GUID}`` is `{GUID}` for @the latest version of Java on your machine
 
 And set the following values:
 

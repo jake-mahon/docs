@@ -20,7 +20,7 @@ The Enterprise Auditor install directory has several logs that can be accessed f
 - Sensitive Data logs that contain details from sensitive data scans performed against various repositories
 - Artifacts from various data collection routines such as tier 2 database files created from File System or SharePoint scanning
 
-See the [Logs](#Logs) topic for additional information.
+See the [Logs](#logs) topic for additional information.
 
 ## Logs
 

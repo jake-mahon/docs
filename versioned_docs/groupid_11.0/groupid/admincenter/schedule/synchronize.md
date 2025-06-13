@@ -5,7 +5,7 @@ are executed.
 
 What do you want to do?
 
-- [Create a Synchronize Schedule](#Create-a-Synchronize-Schedule)
+- [Create a Synchronize Schedule](#create-a-synchronize-schedule)
 
 ## Create a Synchronize Schedule
 
@@ -26,12 +26,12 @@ What do you want to do?
    The selected job(s) and job collection(s) are listed in the __Target(s)__ area. They will be executed when the schedule runs.  
    To remove a job or job collection in the __Target(s)__area, click __Remove__ for it.  
    To remove all target objects, click __Remove All__.
-9. Click __Add Triggers__ in the __Triggers__ area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to add triggers.
+9. Click __Add Triggers__ in the __Triggers__ area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
 10. Click __Add Authentication__ in the __Authentication__ area to specify an account for running the schedule in the identity store. Follow step 12 in
-    the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic for details.
+    the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for details.
 11. On the __Create Schedule__ page, click __Create Schedule__.
 12. On the __Schedules__ page, click __Save__.  
-    The schedule is displayed under __Synchronize__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for more info.
+    The schedule is displayed under __Synchronize__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for more info.
 
 See Also
 

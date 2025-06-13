@@ -12,14 +12,14 @@ The user can also manage certain settings for a site, such as change the service
 
 What do you want to do?
 
-- [Specify SharePoint Sites for Entitlement Management](#Specify-SharePoint-Sites-for-Entitlement-Management)
-- [Include Future Sites for Entitlement Management](#Include-Future-Sites-for-Entitlement-Management)
-- [View the Document Libraries in a Site ](#View-the-Document-Libraries-in-a-Site)
-- [Exclude a Document Library from Replication](#Exclude-a-Document-Library-from-Replication)
-- [Connect to a Site Using a Different Account](#Connect-to-a-Site-Using-a-Different-Account)
-- [Replicate Permissions Manually](#Replicate-Permissions-Manually)
-- [Exclude a Site from Entitlement Management](#Exclude-a-Site-from-Entitlement-Management)
-- [Restore a Site for Entitlement Management](#Restore-a-Site-for-Entitlement-Management)
+- [Specify SharePoint Sites for Entitlement Management](#specify-sharepoint-sites-for-entitlement-management)
+- [Include Future Sites for Entitlement Management](#include-future-sites-for-entitlement-management)
+- [View the Document Libraries in a Site ](#view-the-document-libraries-in-a-site)
+- [Exclude a Document Library from Replication](#exclude-a-document-library-from-replication)
+- [Connect to a Site Using a Different Account](#connect-to-a-site-using-a-different-account)
+- [Replicate Permissions Manually](#replicate-permissions-manually)
+- [Exclude a Site from Entitlement Management](#exclude-a-site-from-entitlement-management)
+- [Restore a Site for Entitlement Management](#restore-a-site-for-entitlement-management)
 
 ## Specify SharePoint Sites for Entitlement Management
 
@@ -49,12 +49,12 @@ Step 5 – Click __Save__.
 #### SharePoint Site Details
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed for a file server in an Active Directory identity store. Refer to the [File Server Details
-](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#File-Server-Details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
+](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#file-server-details) topic for more info. Though in this case, the User namecolumn displays the username of the account used to connect to the site, and it is not blank.
 
 #### Search SharePoint Sites
 
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the listing. The filters are the same as displayed for a file server
-in an Active Directory identity store. Refer to the [Search File Servers ](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#Search-File-Servers) topic for performing a search.
+in an Active Directory identity store. Refer to the [Search File Servers ](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#search-file-servers) topic for performing a search.
 
 ## Include Future Sites for Entitlement Management
 

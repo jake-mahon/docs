@@ -9,7 +9,7 @@ __NOTE:__ Prior to configuring your monitoring plan, please read and complete th
 
 ## How to Add Microsoft 365 Item
 
-This instruction shows how to collect audit data from the Office365 organization. See the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#Configuring-Microsoft-Entra-ID-App-for-Auditing-Microsoft-Entra-ID) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
+This instruction shows how to collect audit data from the Office365 organization. See the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) topic for additional information on how to prepare Microsoft Entra ID app with required permissions. Make sure you have the following at hand:
 
 - Tenant name
 - Application (client) ID
@@ -46,7 +46,7 @@ __Step 2 –__ Select authentication method that will be used when accessing Mic
 
 __Step 3 –__ Click the __Add__ button.
 
-[![Add Office 365 Item window](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/item_o365_basic_auth.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_o365_basic_auth.png)
+![Add Office 365 Item window](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/item_o365_basic_auth.png)
 
 You can use a single account to collect audit data for different Microsoft 365 services (Microsoft Entra ID, Exchange Online, SharePoint Online); however, Netwrixrecommends that you specify individual credentials for each of them.
 

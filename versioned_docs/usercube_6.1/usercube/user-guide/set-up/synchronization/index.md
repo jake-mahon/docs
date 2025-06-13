@@ -28,7 +28,7 @@ The [```Prepare Synchronization``` task](/versioned_docs/usercube_6.1/usercube/i
 
 The [```Synchronize``` task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) loads data into Usercube's database.
 
-[__Read more about the synchronization process__](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#__Read-more-about-the-synchronization-process__).
+[__Read more about the synchronization process__](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#__read-more-about-the-synchronization-process__).
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ Thresholds are essential safety guards that control all changes, for example pre
 
 Once the changes have been reviewed, [the blocked job can be resumed](#the-blocked-job-can-be-resumed) (or not).
 
-Thresholds are configured with default values using the following [```Connector``` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md#Connector-attributes):
+Thresholds are configured with default values using the following [```Connector``` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md#connector-attributes):
   
 - ```MaximumDeletedLines```, ```MaximumInsertedLines``` and ```MaximumUpdatedLines``` for scalar properties;
   
@@ -154,11 +154,11 @@ Don't hesitate to launch synchronization-related tasks individually and observe 
 
 ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
 
-Access the relevant connector's page and click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__Reload__) button to take into account the last changes in the entity type mappings.
+Access the relevant connector's page and click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__reload__) button to take into account the last changes in the entity type mappings.
 
 #### If a newly added property doesn't appear in users' data, then�
 
-Access the relevant connector's page to click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__Reload__) button to take into account the most recent changes in the entity type mappings.
+Access the relevant connector's page to click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__reload__) button to take into account the most recent changes in the entity type mappings.
 
 #### If a synchronization is blocked by an exceeded threshold, then�
 

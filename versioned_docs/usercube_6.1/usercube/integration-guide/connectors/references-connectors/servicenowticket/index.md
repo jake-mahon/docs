@@ -22,7 +22,7 @@ Implementing this connector requires:
 
 ## Export
 
-This connector exports some of ServiceNow entities, [see the export capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md#see-the-export-capabilities-of-the-ServiceNow-connector). Some entities cannot be exported.
+This connector exports some of ServiceNow entities, [see the export capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md#see-the-export-capabilities-of-the-servicenow-connector). Some entities cannot be exported.
 
 ## Fulfill
 
@@ -32,7 +32,7 @@ Once created, the ticket is managed in ServiceNow, not in Usercube.
 
 When the ticket is closed or canceled, Usercube updates the [provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state) of the resource accordingly.
 
-[See the fulfill capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md#See-the-fulfill-capabilities-of-the-ServiceNow-connector).
+[See the fulfill capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md#see-the-fulfill-capabilities-of-the-servicenow-connector).
 
 > For example:
 >
@@ -55,7 +55,7 @@ When the ticket is closed or canceled, Usercube updates the [provisioning state]
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#See-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
 
 When setting a password for a ServiceNow user, the password attribute is set to the chosen value and the user's __password\_needs\_reset__ attribute is set to ```true```.
 

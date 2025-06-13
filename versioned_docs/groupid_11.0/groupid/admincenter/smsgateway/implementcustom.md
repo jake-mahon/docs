@@ -1,11 +1,11 @@
 # Implement and Deploy a Custom SMS Gateway
 
-You can integrate with additional SMS gateways using the Custom Gateway API. After creating a gateway, you can add an account for it. See the [Create an SMS Gateway Account](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/manage.md#Create-an-SMS-Gateway-Account) topic.
+You can integrate with additional SMS gateways using the Custom Gateway API. After creating a gateway, you can add an account for it. See the [Create an SMS Gateway Account](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/manage.md#create-an-sms-gateway-account) topic.
 
 What do you want to do?
 
-- [Implement a Custom SMS Gateway](#Implement-a-Custom-SMS-Gateway)
-- [Deploy a Custom SMS Gateway](#Deploy-a-Custom-SMS-Gateway)
+- [Implement a Custom SMS Gateway](#implement-a-custom-sms-gateway)
+- [Deploy a Custom SMS Gateway](#deploy-a-custom-sms-gateway)
 
 ## Implement a Custom SMS Gateway
 

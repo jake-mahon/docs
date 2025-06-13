@@ -17,12 +17,12 @@ The following queries are included in the PF\_FolderOwnership job:
 - Probable Ownership – Collects and calculates probable owners
 
   - By default set to search all public folders. It can be scoped.
-  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#Scope-the-ExchangePublicFolder-Data-Collector-for-the-PF_FolderOwnership-Job) topic for additional information
+  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
 - Assigned Ownership – Collects assigned owners
 
   - By default set to search all public folders. It can be scoped.
   - Probable Owner Calculation can be modified
-  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#Scope-the-ExchangePublicFolder-Data-Collector-for-the-PF_FolderOwnership-Job) topic for additional information
+  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
 
 ### Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job
 

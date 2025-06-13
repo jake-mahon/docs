@@ -77,7 +77,7 @@ The identifier of the connection and thus the name of the subsection must:
 | ValuesToTrim   optional | __Type__    String List   __Description__ Ordered list of the characters to trim at the beginning and at the end of the headers and values of the input file.   __Note:__ the second value will be trimmed after the first, the order is important. __Example__ When writing ```$``` first and then ```%``` in ```ValuesToTrim```, then "$%I am an example$%" becomes "I am an example$". |
 |  |  |
 | --- | --- |
-| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#See-the-list-of-available-encodings). |
+| Encoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 
 | Separator  
 default value: , | __Type__  
@@ -93,7 +93,7 @@ Separator used in the input file.
 
 ### Output details
 
-This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#ExportOutput) folder.
+This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```, to the [```ExportOutput```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 > For example, when exporting a connection named ```HRCountries```, the output file will be named ```HRCountries.csv```.
 

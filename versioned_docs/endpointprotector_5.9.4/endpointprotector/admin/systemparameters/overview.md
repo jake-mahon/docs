@@ -36,16 +36,16 @@ __Step 3 –__ Craft a clear and informative __Title__ for the notification.
 
 __Step 4 –__ Within the __Body__ text editor, compose your message using the provided placeholders:
 
-- {fileName}: Replaced with the actual blocked/reported file name.
-- {type}: Replaced with "blocked" or "reported" based on the policy type.
-- {threatName}: Replaced with the identified threat name (if applicable).
-- {threatMatch}: Replaced with the specific text that triggered the policy (if applicable).
+- \{fileName\}: Replaced with the actual blocked/reported file name.
+- \{type\}: Replaced with "blocked" or "reported" based on the policy type.
+- \{threatName\}: Replaced with the identified threat name (if applicable).
+- \{threatMatch\}: Replaced with the specific text that triggered the policy (if applicable).
 
 __Step 5 –__ Click __Save__ to finalize your custom notification.
 
 ![Custom Content Aware Protection Notiﬁcations](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/capnotifications.png)
 
-For example, the file named 'financial\_report.xlsx' ('{fileName}') was classified as 'Confidential' ('{type}') because it contains confidential data.
+For example, the file named 'financial\_report.xlsx' (`\{fileName\}`) was classified as 'Confidential' (`\{type\}`) because it contains confidential data.
 
 Once created, you can associate the custom notification with a specific Content Aware Policy using the Notification Template drop-down menu.
 
@@ -75,7 +75,7 @@ __Step 2 –__ Within the body text editor, directly enter the desired HTML code
 
 ### Custom Device Control User Remediation Notiﬁcations
 
-This section is available only if the Device Control User Remediation setting is enabled from the [User Remediation](#User-Remediation) section. In this section you can add, edit and delete custom notiﬁcations for Device Control User Remediation.
+This section is available only if the Device Control User Remediation setting is enabled from the [User Remediation](#user-remediation) section. In this section you can add, edit and delete custom notiﬁcations for Device Control User Remediation.
 
 You can add a maximum of 100 custom notiﬁcations but you cannot delete the default entry.
 
@@ -85,8 +85,8 @@ __Step 1 –__ Click __Create__.
 
 __Step 2 –__ Use these parameters to create your custom message:
 
-- {deviceName}
-- {action}
+- \{deviceName\}
+- \{action\}
 
 __Step 3 –__ Click __Save__.
 
@@ -339,7 +339,7 @@ In this section, you can view, add, edit, export, and remove justiﬁcations. Th
 
 To add a new justiﬁcation, click __Add__, ﬁll in the mandatory ﬁelds and then click __Save__. You can add up to a maximum of 10 justiﬁcations. By default, several justiﬁcations are already added, but make sure that at least one justiﬁcation is enabled all the time.
 
-To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option from Device Control, Global Settings, [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#Device-Control).
+To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option from Device Control, Global Settings, [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md).
 
 ![Justiﬁcations List](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/justflist.png)
 
@@ -347,21 +347,21 @@ To enable and enforce the end-user to view User Remediation pop-up notiﬁcation
 
 Follow the steps to use User Remediation for Device Control.
 
-__Step 1 –__ Enable the User Remediation for Device Control feature from [User Remediation Settings](#User-Remediation-Settings)
+__Step 1 –__ Enable the User Remediation for Device Control feature from [User Remediation Settings](#user-remediation-settings)
 
 ![Enabling User Remediation](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/dcuserremediation.png)
 
 __Step 2 –__ Customize the User Remediation notiﬁcations for Device Control.
 
-To do so, go to the Devices Types and Notiﬁcations, [Custom Device Control User Remediation Notiﬁcations](#Custom-Device-Control-User-Remediation-Notiﬁcations) section, click __Create__, ﬁll in the mandatory ﬁelds and __Save__.
+To do so, go to the Devices Types and Notiﬁcations, [Custom Device Control User Remediation Notiﬁcations](#custom-device-control-user-remediation-notiﬁcations) section, click __Create__, ﬁll in the mandatory ﬁelds and __Save__.
 
 ![Custom Device Control User Remediation Notiﬁcations](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/customdcuserremediationnotif.png)
 
-__Step 3 –__ Enable the __User Remediation Pop-up__ setting from the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#Device-Control) topic and then select the __customized notiﬁcation__ from the User Remediation Notiﬁcation Template drop-down list;
+__Step 3 –__ Enable the __User Remediation Pop-up__ setting from the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md) topic and then select the __customized notiﬁcation__ from the User Remediation Notiﬁcation Template drop-down list;
 
 ![User Remediation Pop-up](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/userremediationpopup.png)
 
-__Step 4 –__ Navigate to [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#Device-Control), Device Types section and enable __User Remediation__ for devices with limited access – devices that have full access permission cannot beneﬁt from the User Remediation feature.
+__Step 4 –__ Navigate to [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md), Device Types section and enable __User Remediation__ for devices with limited access – devices that have full access permission cannot beneﬁt from the User Remediation feature.
 
 __NOTE:__ For built-in devices, such as Webcam and Network share, the User Remediation feature is not available.
 

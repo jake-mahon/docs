@@ -12,11 +12,11 @@ In AD FS, you have to configure the GroupID client with which you want to set up
 4. On the __Specify Display Name__ page, specify a friendly display name for this configuration in the __Display name__ box. Then enter any additional notes in the __Notes__ box and click __Next__.
 5. To use the SAML 2.0 protocol as profile, select the __AD FS profile__ option button on the __Choose Profile__ page and click __Next__.
 6. On the __Configure Certificate__ page, click __Next__.
-7. On the __Configure URL__ page, select the __Enable support for the SAML 2.0 Web SSO protocol__ option button. Then in the __Relying party SAML 2.0 SSL service URL__ box, provide the consumer URL you generated for the GroupID client. See the [Generate the Consumer URL for a GroupID Client](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#Generate-the-Consumer-URL-for-a-GroupID-Client) topic.  
+7. On the __Configure URL__ page, select the __Enable support for the SAML 2.0 Web SSO protocol__ option button. Then in the __Relying party SAML 2.0 SSL service URL__ box, provide the consumer URL you generated for the GroupID client. See the [Generate the Consumer URL for a GroupID Client](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-the-consumer-url-for-a-groupid-client) topic.  
    The consumer URL is the relying party trust URL, used by AD FS to authenticate.  
    Click __Next__.
 8. On the __Configure Identifiers__ page, use the __Relying party trust identifier__ box to provide the audience URL you generated for the GroupID client. Click __Add__ next to this box and then click __Next__.  
-   See the [Generate Entity ID/Audience URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#Generate-Entity-IDAudience-URL) topic.
+   See the [Generate Entity ID/Audience URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-entity-idaudience-url) topic.
 9. Use the __Configure Multi-factor Authentication Now?__ page to configure multi-factor authentication. At present, we will not configure it, so select the __I do not want to configure multi-factor authentications settings for this relying party trust at this time__ option button and click __Next__.
 10. Use the __Choose Issuance Authorization Rules__ page to permit all users to get authenticated on the relying party trust using AD FS. User credentials will be parsed with Active Directory.  
     Select the __Permit all users to access this relying party__ option button and click __Next__.

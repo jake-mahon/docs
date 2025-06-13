@@ -8,7 +8,7 @@ To enable notifications from the Enterprise Auditor Console, a mail server must 
 
 Enterprise Auditor supports authentication and encryption when sending email notifications. Notifications can be configured based on the requirements of an organizations mail environment.
 
-Enable Enterprise Auditor notifications by configuring the Mail Server and Sender Information. It is recommended to send a test email to yourself after initial configuration to ensure proper settings. See the [Test Notification Settings](#Test-Notification-Settings) topic for additional information.
+Enable Enterprise Auditor notifications by configuring the Mail Server and Sender Information. It is recommended to send a test email to yourself after initial configuration to ensure proper settings. See the [Test Notification Settings](#test-notification-settings) topic for additional information.
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Notification view. These buttons become enabled when modifications are made to the Notification global setting. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
 

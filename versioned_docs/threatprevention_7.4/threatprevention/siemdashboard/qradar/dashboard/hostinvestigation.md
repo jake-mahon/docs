@@ -10,9 +10,9 @@ The Host Investigation dashboard contains the following cards:
 - Users – Number of usernames associated with the host over the specified time interval
 - Top Users (Authenticating from Host) – Displays up to the top five (5) users associated with the host (as source) over the specified time interval
 - Top Users (Authenticating to Host) – Displays up to the top five (5) users associated with the host (as destination) over the specified time interval
-- Activity – Timeline of all events associated with the host over the specified time interval. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Graph-Card-Features) topic for additional information.
-- Latest Events – Tabular format of all events associated with the host that occurred over the specified time interval. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
-- Offenses Related to Host – QRadar offenses associated with the host that occurred over the specified time interval. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#Table-Card-Features) topic for additional information.
+- Activity – Timeline of all events associated with the host over the specified time interval. See the [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
+- Latest Events – Tabular format of all events associated with the host that occurred over the specified time interval. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
+- Offenses Related to Host – QRadar offenses associated with the host that occurred over the specified time interval. See the [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is set by default to the past three (3) hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click __Search__ to refresh the card data.
 

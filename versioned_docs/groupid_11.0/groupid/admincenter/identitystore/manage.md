@@ -4,12 +4,12 @@ Once you create and configure an identity store, you can perform group and ident
 
 What do you want to do?
 
-- [View Identity Store Details](#View-Identity-Store-Details)
-- [Enable or Disable an Identity Store](#Enable-or-Disable-an-Identity-Store)
-- [Update General Info for an Identity Store](#Update-General-Info-for-an-Identity-Store)
-- [Exclude an Active Directory Domain from Replication](#Exclude-an-Active-Directory-Domain-from-Replication)
-- [Set DC Priority for an Active Directory Identity Store](#Set-DC-Priority-for-an-Active-Directory-Identity-Store)
-- [Delete an Identity Store](#Delete-an-Identity-Store)
+- [View Identity Store Details](#view-identity-store-details)
+- [Enable or Disable an Identity Store](#enable-or-disable-an-identity-store)
+- [Update General Info for an Identity Store](#update-general-info-for-an-identity-store)
+- [Exclude an Active Directory Domain from Replication](#exclude-an-active-directory-domain-from-replication)
+- [Set DC Priority for an Active Directory Identity Store](#set-dc-priority-for-an-active-directory-identity-store)
+- [Delete an Identity Store](#delete-an-identity-store)
 
 ## View Identity Store Details
 
@@ -24,7 +24,7 @@ The card for an identity store displays the following information:
 | History | Indicates whether history tracking for the identity store is enabled or disabled.  See the [Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic to enable or disable history tracking. |
 | MFA | Indicates whether second factor authentication is enabled for security roles in the identity store. See the [Configure Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/sfa.md) topic.  One of the following is displayed for MFA:   - __Available for x/x roles:__ Indicates the number of security roles that second factor authentication is enabled for, out of the total security roles in the identity store. For example, 1/3 indicates that there are 3 security roles defined   for the identity store and second factor authentication is enabled for one of those roles. - __Not Available:__ Indicates that second factor authentication is not enabled for any security role in the identity store. |
 | Last replication date and time | The last run date and time of the Replication service. If the service does not run at the specified interval, the identity store status changes to __Errors__. |
-| Ellipsis | Click it to launch a shortcut menu with the following options:   - __Edit:__ launches the identity store properties page, where you can manage identity store settings, workflows, security roles, replication attributes, and more. See the [Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)   topic. - __Disable:__ disables the identity store. - __Replicate Objects:__ runs the Replication service to replicate object data in the identity store. See the [Force Run the Replication Service (for Object Replication)](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md#Force-Run-the-Replication-Service-for-Object-Replication) topic. - __Replicate Deleted Objects:__ runs the Replication service to remove those objects from Elasticsearch that have been deleted from the identity provider. See the [Force Run the Replication Service (for Deleting Objects)](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md#Force-Run-the-Replication-Service-for-Deleting-Objects) topic. - __Delete:__ deletes the identity store from GroupID. |
+| Ellipsis | Click it to launch a shortcut menu with the following options:   - __Edit:__ launches the identity store properties page, where you can manage identity store settings, workflows, security roles, replication attributes, and more. See the [Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)   topic. - __Disable:__ disables the identity store. - __Replicate Objects:__ runs the Replication service to replicate object data in the identity store. See the [Force Run the Replication Service (for Object Replication)](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md#force-run-the-replication-service-for-object-replication) topic. - __Replicate Deleted Objects:__ runs the Replication service to remove those objects from Elasticsearch that have been deleted from the identity provider. See the [Force Run the Replication Service (for Deleting Objects)](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md#force-run-the-replication-service-for-deleting-objects) topic. - __Delete:__ deletes the identity store from GroupID. |
 
 ## Enable or Disable an Identity Store
 

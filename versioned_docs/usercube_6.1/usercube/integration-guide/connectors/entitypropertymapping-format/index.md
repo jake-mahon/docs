@@ -11,7 +11,7 @@ It will allow Usercube to correctly convert the data to its own format during th
 
 | Format | Corresponding Property Type | Note |
 | --- | --- | --- |
-| _Bit:`<PropertyIdentifier>`:`<Bit>`_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. [See more details](#See-more-details). |
+| _Bit:`<PropertyIdentifier>`:`<Bit>`_ | String/Int16/Int32/Int64 | When provisioning a bitmask property, for example ```userAccountControl```, the format must contain the identifier of the property and the bit to be provisioned, for example ```bit:userAccountControl:2```. [See more details](#see-more-details). |
 | _Bool_ | Bool |  |
 | _Byte_ | Byte |  |
 | _Bytes/Binary_ | Bytes/Binary |  |
@@ -22,7 +22,7 @@ It will allow Usercube to correctly convert the data to its own format during th
 | _Int16_ | Int16 |  |
 | _Int32_ | Int32 |  |
 | _Int64_ | Int64/ForeignKey/Option | Some attributes are stored as long integers (_Int64_) even though their name implies that they hold dates, like ```accountExpires``` and ```pwdLastSet``` attributes. |
-| _MultivaluedText_ | String | Multi-valued attribute flattened to a string containing values separated by a ```\n```. Its provisioning with a scalar rule requires a specific sorting, see the focus under this table. [See more details](#See-more-details). |
+| _MultivaluedText_ | String | Multi-valued attribute flattened to a string containing values separated by a ```\n```. Its provisioning with a scalar rule requires a specific sorting, see the focus under this table. [See more details](#see-more-details). |
 | _RDN_ | String | [Relative Distinguished Name](https://ldap.com/ldap-dns-and-rdns/) |
 | _SID_ | String | [Security Identifiers](https://ldapwiki.com/wiki/ObjectSID) |
 
@@ -103,7 +103,7 @@ NETWRIX recommends, in the scalar rule's expression, ordering the elements befor
 
 In this example, we will export and fulfill the start date of an employee in a ServiceNow instance.
 
-We define an [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#EntityProperty) called ```u_startdate``` with the __Type__```DateTime``` to display it as a date in the UI.
+We define an [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entityproperty) called ```u_startdate``` with the __Type__```DateTime``` to display it as a date in the UI.
 
 ```
 ServiceNow Connector.xml

@@ -6,7 +6,7 @@ Workflows are defined for an identity store and apply to the different operation
 
 A workflow triggers when a certain operation, performed by a user, meets the criteria defined for that workflow. Designated users can approve or deny workflow requests using the GroupID portal or the GroupID mobile app.
 
-NOTE: Workflows require an SMTP server to be configured for the identity store. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#Configure-an-SMTP-Server) topic.
+NOTE: Workflows require an SMTP server to be configured for the identity store. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 ## System Workflows
 
@@ -58,7 +58,7 @@ In any case, the requester and other approvers (in case of multiple approvers) a
 The following scenarios are valid when workflow approver acceleration settings are not applied.
 
 - When the object specified as an approver for a workflow is not available (such as if it is disabled or not specified), workflow requests are sent to the default approver.
-  If the default approver is disabled or not specified either, the requests are auto approved. See the [Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#Specify-a-Default-Approver) topic.
+  If the default approver is disabled or not specified either, the requests are auto approved. See the [Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver) topic.
 - If the requester is also the approver for that workflow, the request is auto approved.
 
 ## Integration with Microsoft Power Automate

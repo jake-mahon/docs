@@ -2,7 +2,7 @@
 
 This report lists the properties of databases and database snapshots hosted on the selected SQL Server instance. Use this report for your SQL Server database inventory.
 
-[![sqlserverdatabases](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverdatabases.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/sqlserver/sqlserverdatabases.png)
+![sqlserverdatabases](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverdatabases.png)
 
 ## Reported data
 
@@ -13,7 +13,7 @@ For each database, the following information is reported:
 - __State__— as set in the database properties__>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-states?view=sql-server-ver15) for details
 - __Size (MB)__
 - __Shrink enabled__— as set in the database properties __>Options>Automatic>Auto Shrink__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.
-- __Encryption status__— as set in the database properties __>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15#this-Microsoft-article) for details.
+- __Encryption status__— as set in the database properties __>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15#this-microsoft-article) for details.
 - __Last full backup date__— local date and time for the audited SQL Server instance.
 
 In some cases, the backup time will be displayed in server ticks.

@@ -21,7 +21,7 @@ The following default configurations are commonly customized:
 
   - Set to __Limit subfolder scan depth to 2 level(s)__
 
-See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the (FSAA) File System Scan Query](#Configure-the-FSAA-File-System-Scan-Query) topic for additional information.
+See the [Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the (FSAA) File System Scan Query](#configure-the-fsaa-file-system-scan-query) topic for additional information.
 
 ### Configure the (FSAA) File System Scan Query
 

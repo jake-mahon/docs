@@ -18,4 +18,4 @@ The new host list displays under the Host Management node. When the Enterprise A
 
 ___RECOMMENDED:___ Do not modify the criteria once a dynamic based list has been created. It is better to delete and recreate the list in order to modify a dynamic-based list.
 
-See the [Dynamic Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#Dynamic-Host-Lists) topic for more information on dynamic host lists.
+See the [Dynamic Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#dynamic-host-lists) topic for more information on dynamic host lists.

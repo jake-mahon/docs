@@ -11,7 +11,7 @@ You can configure notifications for a schedule that are sent to designated recip
 
 What do you want to do?
 
-- [Create a Smart Group Update Schedule](#Create-a-Smart-Group-Update-Schedule)
+- [Create a Smart Group Update Schedule](#create-a-smart-group-update-schedule)
 
 ## Create a Smart Group Update Schedule
 
@@ -27,7 +27,7 @@ What do you want to do?
    groups).
 
    1. To specific containers as target, follow step 9 in
-      the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic. The schedule will process all Smart Groups and Dynasties in the containers and their sub-containers listed in the __Target(s)__ area.
+      the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic. The schedule will process all Smart Groups and Dynasties in the containers and their sub-containers listed in the __Target(s)__ area.
    2. To add Smart Groups and Dynasties as targets, click __Add Group__. On the __Add Object(s)__ dialog box, specify a container to search for the desired groups; then perform a search to locate and
       select the groups.
 
@@ -40,9 +40,9 @@ What do you want to do?
       - After selecting one or more groups, click __Add__ the groups are displayed in the __Target(s)__ area.
    3. To remove a container or group in the __Target(s)__ area, click __Remove__ for it.  
       To remove all target objects, click __Remove All__.
-10. Click __Add Triggers__ in the __Triggers__ area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic to add triggers.
+10. Click __Add Triggers__ in the __Triggers__ area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
 11. Click __Add Authentication__ in the __Authentication__ area to specify an account for running the schedule in the identity store. Follow step 12 in
-    the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#Create-a-Group-Usage-Service-Schedule) topic for details.
+    the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for details.
 12. To enable notifications for the schedule, click __Notifications__. On the __Notifications__ dialog box, specify an event for triggering notifications
     for the schedule and add recipients.
 
@@ -69,7 +69,7 @@ What do you want to do?
        update process. However, even if one group in the OU is not expired, notifications will be sent for all objects with _failed_ status for expired objects.
 13. On the __Create Schedule__ page, click __Create Schedule__.
 14. On the Schedules page, click __Save__.  
-    The schedule is displayed under __Smart Group Update__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#View-the-Schedules-in-an-Identity-Store) topic for more info.
+    The schedule is displayed under __Smart Group Update__. See the [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for more info.
 
 See Also
 

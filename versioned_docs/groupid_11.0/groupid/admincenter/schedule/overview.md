@@ -22,7 +22,7 @@ You can define the following schedules for an identity store:
 - A [User Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/userlifecycle.md) disables users who do not validate their profiles within a given period, based on the settings defined for user profile validation.
 - A [Workflow Acceleration Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/workflowacceleration.md) forwards workflow requests to approvers and auto approves requests according to workflow approver acceleration rules.
 
-NOTE: Role members with the _Manage Scheduling_ permission in an identity store can create and manage scheduled jobs. See the [Modify Role Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Modify-Role-Permissions) topic.
+NOTE: Role members with the _Manage Scheduling_ permission in an identity store can create and manage scheduled jobs. See the [Modify Role Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#modify-role-permissions) topic.
 
 Schedules are saved in the GroupID database. The GroupIDSchedulerService, created in the GroupIDSite11 site in native IIS is responsible for initiating schedule runs.
 

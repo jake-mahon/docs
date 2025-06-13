@@ -6,9 +6,9 @@ NOTE: Windows Hello supports the Microsoft Edge browser only.
 
 What do you want to do?
 
-- [Enable Windows Hello on Windows 10](#Enable-Windows-Hello-on-Windows-10)
-- [Enable Windows Hello Authentication for an Identity Store](#Enable-Windows-Hello-Authentication-for-an-Identity-Store)
-- [Enforce Windows Hello Authentication for a Role in an Identity Store](#Enforce-Windows-Hello-Authentication-for-a-Role-in-an-Identity-Store)
+- [Enable Windows Hello on Windows 10](#enable-windows-hello-on-windows-10)
+- [Enable Windows Hello Authentication for an Identity Store](#enable-windows-hello-authentication-for-an-identity-store)
+- [Enforce Windows Hello Authentication for a Role in an Identity Store](#enforce-windows-hello-authentication-for-a-role-in-an-identity-store)
 
 ## Enable Windows Hello on Windows 10
 
@@ -26,7 +26,7 @@ To enable it, see the [Enable Authentication Types](/versioned_docs/groupid_11.0
 
 ## Enforce Windows Hello Authentication for a Role in an Identity Store
 
-To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enforce-Authentication-Types-for-Multifactor-Authentication) topic.
+To enforce an authentication type, see the [Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 

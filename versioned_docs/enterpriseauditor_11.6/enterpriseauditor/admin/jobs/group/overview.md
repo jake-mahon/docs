@@ -48,7 +48,7 @@ The Overview section provides summary information about the job group. This sect
 
 - Assigned Host List – Hovering over the __Assigned Host List__ button shows a tool-tip with information on the hosts lists are assigned to the job group
 
-  - Click on the __Assigned Host List__ button to go to the Job Group's Host List Assignment node. See the [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md#Host-Lists-Assignment) topic for additional information.
+  - Click on the __Assigned Host List__ button to go to the Job Group's Host List Assignment node. See the [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md) topic for additional information.
 - Show Inherited Settings – Click on the __Show Inherited Settings__ button to view information on the following:
 
   - Connection Profile

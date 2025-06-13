@@ -26,7 +26,7 @@ Returns all the policies according to the provided query.
 | --- | --- | --- |
 | 200 | The policy list. |  |
 
-### /api/ProvisioningEntityInstance/EntityInstance/{id}
+### /api/ProvisioningEntityInstance/EntityInstance/`{id}`
 
 #### Get
 

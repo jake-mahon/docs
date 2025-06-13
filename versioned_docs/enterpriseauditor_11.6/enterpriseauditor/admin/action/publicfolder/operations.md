@@ -6,12 +6,12 @@ Use the Operations page to specify the operations to perform as part of the acti
 
 The __Add operation__ drop-down menu lists the operations that can be performed. Each operation opens a corresponding window. Operations include:
 
-- Rename – See the [Rename Folder Window](#Rename-Folder-Window) topic for additional information
-- Change permissions – See the [Change Permissions Window](#Change-Permissions-Window) topic for additional information
-- Custom attributes – See the [Custom Attributes Window](#Custom-Attributes-Window) topic for additional information
-- Replicas – See the [Replicas Window](#Replicas-Window) topic for additional information
-- Limits – See the [Limits Window](#Limits-Window) topic for additional information
-- Delete – See the [Delete Folder Window](#Delete-Folder-Window) topic for additional information
+- Rename – See the [Rename Folder Window](#rename-folder-window) topic for additional information
+- Change permissions – See the [Change Permissions Window](#change-permissions-window) topic for additional information
+- Custom attributes – See the [Custom Attributes Window](#custom-attributes-window) topic for additional information
+- Replicas – See the [Replicas Window](#replicas-window) topic for additional information
+- Limits – See the [Limits Window](#limits-window) topic for additional information
+- Delete – See the [Delete Folder Window](#delete-folder-window) topic for additional information
 
 The buttons to the right of the drop-down control the operations in the field:
 

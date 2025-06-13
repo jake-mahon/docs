@@ -2,7 +2,7 @@
 
 Use the Source configuration screen to set up the crawling and classification operations for content stored in your file server. Netwrix Data Classification can process individual files or folders. Select, respectively, __File__ or __Folder__ at the first screen of the Add content source wizard.
 
-[![add_source_wizard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/add_source_wizard_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sources/add_source_wizard.png)
+![add_source_wizard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/add_source_wizard_thumb_0_0.png)
 
 ## Add Folder source
 

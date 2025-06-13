@@ -4,9 +4,9 @@ On signing into Admin Center, you land on the dashboard.
 
 Use the following to navigate the application:
 
-- [Quick Search](#Quick-Search)
-- [Top Right Options](#Top-Right-Options)
-- [Menu Pane](#Menu-Pane)
+- [Quick Search](#quick-search)
+- [Top Right Options](#top-right-options)
+- [Menu Pane](#menu-pane)
 
 ## Quick Search
 

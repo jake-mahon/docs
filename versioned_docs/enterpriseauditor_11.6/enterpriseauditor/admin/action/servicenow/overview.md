@@ -57,10 +57,10 @@ Individual action modules, including the ServiceNow Action Module, may have thei
 The ServiceNow Action module is configured through the ServiceNow Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ServiceNow Action: Authentication](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/authentication.md#ServiceNow-Action-Authentication)
-- [ServiceNow Action: Incident Creation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/incidentcreation.md#ServiceNow-Action-Incident-Creation)
-- [ServiceNow Action: Description](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.md#ServiceNow-Action-Description)
-- [ServiceNow Action: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/summary.md#ServiceNow-Action-Summary)
+- [ServiceNow Action: Authentication](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/authentication.md)
+- [ServiceNow Action: Incident Creation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/incidentcreation.md)
+- [ServiceNow Action: Description](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.md)
+- [ServiceNow Action: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/summary.md)
 
 __NOTE:__ Not all pages may be accessible unless the user has a configured ServiceNow account.
 

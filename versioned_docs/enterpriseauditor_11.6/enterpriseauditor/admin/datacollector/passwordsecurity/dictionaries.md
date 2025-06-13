@@ -14,7 +14,7 @@ The configurable dictionary options are:
 - Add – Add a custom dictionary file in one of the following formats:
 
   - Plaintext – Line separated in a text file
-  - NLTM Hashes – Can be added with hashes or sorted hashes. The haveibeenpwned dictionary can be used. See the [Download and Configure the Have I Been Pwnd (HIBP) Hash List](#Download-and-Configure-the-Have-I-Been-Pwnd-HIBP-Hash-List) topic for additional information.
+  - NLTM Hashes – Can be added with hashes or sorted hashes. The haveibeenpwned dictionary can be used. See the [Download and Configure the Have I Been Pwnd (HIBP) Hash List](#download-and-configure-the-have-i-been-pwnd-hibp-hash-list) topic for additional information.
 
     ___RECOMMENDED:___ Use the sorted hash dictionary if adding an NLTM format
 - Remove – Removes a custom dictionary file from the query scope

@@ -56,7 +56,7 @@ The default values for parameters that can be customized are:
 |  | @INCLUDE\_DISABLED | True | A user object that has been disabled |
 | Stale Membership | @STALE\_THRESHOLD | 10 | A group where 10% of its effective members are stale users |
 
-See the [Configure the Analysis Tasks for the 2-AAD\_Exceptions Job](#Configure-the-Analysis-Tasks-for-the-2-AAD_Exceptions-Job) section for instructions to modify parameters. See the [AzureADInventory Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#AzureADInventory-Exception-Types-Translated) topic for an explanation of Exception Types.
+See the [Configure the Analysis Tasks for the 2-AAD\_Exceptions Job](#configure-the-analysis-tasks-for-the-2-aad_exceptions-job) section for instructions to modify parameters. See the [AzureADInventory Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#azureadinventory-exception-types-translated) topic for an explanation of Exception Types.
 
 ### Configure the Analysis Tasks for the 2-AAD\_Exceptions Job
 

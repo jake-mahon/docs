@@ -1,6 +1,6 @@
 # Files
 
-### /files/Report/FromQuery/{rootEntityType}
+### /files/Report/FromQuery/`{rootEntityType}`
 
 #### Get
 
@@ -21,7 +21,7 @@
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /files/Report/FromQueryId/{reportQueryId}
+### /files/Report/FromQueryId/`{reportQueryId}`
 
 #### Get
 
@@ -41,7 +41,7 @@
 | --- | --- | --- |
 | 200 | Success |  |
 
-### /files/ResourceFile/{type}/{property}/{id}
+### /files/ResourceFile/`{type}`/`{property}`/`{id}`
 
 #### Get
 

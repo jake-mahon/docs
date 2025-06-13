@@ -10,7 +10,7 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
 - For a Geographical/Organizational/Custom Dynasty - The name of a child Dynasty starts with the name of its parent Dynasty (unless you change the naming template for Dynasty children).
 - For a Managerial Dynasty - By default, the naming template for its child Dynasties starts with "Direct reports of `<manager>`".
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Modify-Search-Directory) to search dynasties and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#Filter-All-Groups)by clicking __Dynasties Grid Filters__.
+You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search dynasties and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __Dynasties Grid Filters__.
 All the dynasties matching the filters will be displayed.
 
 __See Also__

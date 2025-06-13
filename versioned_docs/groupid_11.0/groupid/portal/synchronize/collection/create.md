@@ -2,11 +2,11 @@
 
 A job collection is a group of individual jobs that you want to run in a particular order. For instance, you can create a job collection to synchronize user accounts between multiple Active Directory domains. You first create multiple Synchronize jobs to transfer data between two directories, and then combine them in a job collection. Then you can execute the job collection instead of executing each job one by one.
 
-To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#Synchronize-Jobs-and-Workflows) topic.
+To understand how workflows work with Synchronize jobs, see the [Synchronize Jobs and Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows) topic.
 
 What do you want to do?
 
-- [Create a job Collection](#Create-a-job-Collection)
+- Create a job Collection
 
 ## Create a job Collection
 
@@ -23,7 +23,7 @@ What do you want to do?
 8. To review the information and changes regarding the job collection, click __Review Your Change__ at the bottom.
 9. Click __Finish__ to exit the wizard and create the job collection.
 10. Once you run the job collection, the job collection runs and only those jobs will process for which workflow is not configured. If workflow is configured for any job, the request gets generated against that specific job.
-11. Generated workflow request will be displayed in the “[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)” section for the workflow approver(s). If the approver approves the workflow request, the job will execute the results.
+11. Generated workflow request will be displayed in the "[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)" section for the workflow approver(s). If the approver approves the workflow request, the job will execute the results.
 12. __Run Job Collection__ dialog box displays overall collection statistics for the run, reports and individual logs for each job in the collection.
 
 __See Also__

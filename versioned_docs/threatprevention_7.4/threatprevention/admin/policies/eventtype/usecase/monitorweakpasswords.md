@@ -11,9 +11,9 @@ Follow the steps to configure a policy to monitor the creation of weak passwords
 __Step 1 –__ (Must be completed by an administrator) Configure the global EPE settings for your environment.
 
 - Click __Configuration__ > __EPE Settings__ on the menu to open the EPE Settings window.
-- Download the latest copy of the HaveIBeenPwned dictionary file. See the [Download and Configure the Have I Been Pwnd Hash List](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#Download-and-Configure-the-Have-I-Been-Pwnd-Hash-List) topic for additional information.
-- Determine whether you want to deploy the dictionary to each domain controller or keep it locally on the Enterprise Manager server. See the [Considerations When Deploying the HIBP Database](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#Considerations-When-Deploying-the-HIBP-Database) topic for additional information.
-- Modify the global password rules to customize the password dictionary, word list dictionary and character substitution map. See the [Rules](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#Rules) topic for additional information.
+- Download the latest copy of the HaveIBeenPwned dictionary file. See the [Download and Configure the Have I Been Pwnd Hash List](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#download-and-configure-the-have-i-been-pwnd-hash-list) topic for additional information.
+- Determine whether you want to deploy the dictionary to each domain controller or keep it locally on the Enterprise Manager server. See the [Considerations When Deploying the HIBP Database](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#considerations-when-deploying-the-hibp-database) topic for additional information.
+- Modify the global password rules to customize the password dictionary, word list dictionary and character substitution map. See the [Rules](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#rules) topic for additional information.
 
 __Step 2 –__ Create a new policy with the Password Enforcement Event Type.
 
@@ -21,7 +21,7 @@ __Step 2 –__ Create a new policy with the Password Enforcement Event Type.
 
 - Right-click on the __Policies > Auditing__ folder and select __New > Policy__.
 - On the General tab, provide a unique descriptive name, e.g. Monitor Weak Passwords, and description, e.g. This policy monitors the creation of weak passwords according to the global EPE settings.
-- On the Event Type tab, click the __Add__ (+) button and select Password Enforcement on the [Event Selection Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/overview.md#Event-Selection-Window).
+- On the Event Type tab, click the __Add__ (+) button and select Password Enforcement on the [Event Selection Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/overview.md#event-selection-window).
 
 ![Policy - Event Type tab with the Password Enforcement event selected](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/passwordrulesmonitor.png)
 

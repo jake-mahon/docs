@@ -27,7 +27,7 @@ For Unix Data Collector
 
 - Root permissions in Unix/Linux
 
-If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](#Least-Privilege-Model) topic additional information.
+If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](#least-privilege-model) topic additional information.
 
 ## Ports
 

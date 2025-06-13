@@ -12,8 +12,8 @@ The following audit permissions must be set to _"Successful"_ for the ```HKEY_LO
 
 Perform one of the following procedures depending on the OS version:
 
-- [Configuring Windows registry audit settings on pre-Windows Server 2012 versions](#Configuring-Windows-registry-audit-settings-on-pre-Windows-Server-2012-versions)
-- [Configuring Windows registry audit settings on Windows Server 2012 and above](#Configuring-Windows-registry-audit-settings-on-Windows-Server-2012-and-above)
+- [Configuring Windows registry audit settings on pre-Windows Server 2012 versions](#configuring-windows-registry-audit-settings-on-pre-windows-server-2012-versions)
+- [Configuring Windows registry audit settings on Windows Server 2012 and above](#configuring-windows-registry-audit-settings-on-windows-server-2012-and-above)
 
 ## Configuring Windows registry audit settings on pre-Windows Server 2012 versions
 

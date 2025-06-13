@@ -4,8 +4,8 @@ You can delete a Mobile service or an instance of a service. On deleting a servi
 
 What do you want to do?
 
-- [Delete a Deployment Instance for a Service](#Delete-a-Deployment-Instance-for-a-Service)
-- [Delete a Service](#Delete-a-Service)
+- Delete a Deployment Instance for a Service
+- Delete a Service
 
 ## Delete a Deployment Instance for a Service
 

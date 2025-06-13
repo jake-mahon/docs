@@ -9,8 +9,8 @@ These tables and their associated views are outlined below:
 | SA\_AzureADInventory\_Contacts | Contains a list of principal identifiers and their corresponding Department and Job Title |
 | SA\_AzureADInventory\_Domains | Contains information about the domain such as last updated date and time |
 | SA\_AzureADInventory\_EffectiveGroupMembers | Contains expanded group membership which includes a flattened representation of members and nesting levels |
-| SA\_AzureADInventory\_Exceptions | Contains information about security issues and concerns  See the [AzureADInventory Exception Types Translated](#AzureADInventory-Exception-Types-Translated) section for an explanation of Exception Types |
-| SA\_AzureADInventory\_ExceptionTypes | Contains more detailed information about each security issues and concerns  See the [AzureADInventory Exception Types Translated](#AzureADInventory-Exception-Types-Translated) section for an explanation of Exception Types |
+| SA\_AzureADInventory\_Exceptions | Contains information about security issues and concerns  See the [AzureADInventory Exception Types Translated](#azureadinventory-exception-types-translated) section for an explanation of Exception Types |
+| SA\_AzureADInventory\_ExceptionTypes | Contains more detailed information about each security issues and concerns  See the [AzureADInventory Exception Types Translated](#azureadinventory-exception-types-translated) section for an explanation of Exception Types |
 | SA\_AzureADInventory\_ExtendedAttributes | Contains information gathered by the custom attributes component of the query configuration |
 | SA\_AzureADInventory\_GroupMembers | Contains a map of groups to member Identifiers |
 | SA\_AzureADInventory\_GroupOwners | Contains a map of groups to owner Identifiers |

@@ -9,7 +9,7 @@ To add a new clue, go to the topmost row in the list and specify clue properties
 
 When ready, click __Insert__ on the right.
 
-[![doccounts_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/doccounts_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/doccounts.png)
+![doccounts_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/doccounts_thumb_0_0.png)
 
 ## Clue Body
 

@@ -22,6 +22,6 @@ See Also
 - [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
 - [Group APIs](/versioned_docs/groupid_11.0/groupid/api/group/groupapis.md)
 - [Logs APIs](/versioned_docs/groupid_11.0/groupid/api/logs/logsapis.md)
-- [Synchronize Jobs APIs](#Synchronize-Jobs-APIs)
+- Synchronize Jobs APIs
 - [User APIs](/versioned_docs/groupid_11.0/groupid/api/user/userapis.md)
 - [Workflow APIs](/versioned_docs/groupid_11.0/groupid/api/workflow/workflowapis.md)

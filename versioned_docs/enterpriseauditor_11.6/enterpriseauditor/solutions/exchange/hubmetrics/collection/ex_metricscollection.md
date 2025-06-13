@@ -42,7 +42,7 @@ The following analysis tasks are selected by default:
 - 08. SET HISTORY RETENTION – Sets retention period in months
 
   - By default set to retain __6 months__
-  - This retention period can be modified. See the [Exchange History Retention](#Exchange-History-Retention) topic for additional information.
+  - This retention period can be modified. See the [Exchange History Retention](#exchange-history-retention) topic for additional information.
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain deselected unless specifically needed:
 
@@ -50,7 +50,7 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
 - 00. Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical data
 
-  - See the [Troubleshooting Data Collection](#Troubleshooting-Data-Collection) topic for additional information
+  - See the [Troubleshooting Data Collection](#troubleshooting-data-collection) topic for additional information
 
 ## Exchange History Retention
 

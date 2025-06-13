@@ -2,10 +2,10 @@
 
 Review the following for additional information:
 
-- [Taxonomy/TermSet Level](#TaxonomyTermSet-Level)
-- [Class / Term Level](#Class-Term-Level)
+- [Taxonomy/TermSet Level](#taxonomytermset-level)
+- [Class / Term Level](#class--term-level)
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Taxonomy/TermSet Level](javascript:void(0))
+## Taxonomy/TermSet Level
 
 When the root node is selected in the tree-view (the termset) the Settings tab will display top level taxonomy settings as well as global settings applicable to the Taxonomies area.
 
@@ -23,7 +23,7 @@ When the root node is selected in the tree-view (the termset) the Settings tab w
 | Show Empty Nodes | Sets the display mode for empty nodes in the treeview. |
 | Synchronise Termset | Enables/Disables automatic synchronisation through the TermStoreManager tool for the whole Term Set. |
 
-[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[Class / Term Level](javascript:void(0))
+## Class / Term Level
 
 When a child node is selected in the tree-view the “Settings” tab will display settings for the selected term:
 
@@ -31,7 +31,7 @@ When a child node is selected in the tree-view the “Settings” tab will displ
 
 | Option | Description |
 | --- | --- |
-| Available for Tagging | Use to prevent any documents getting classified against a class. This would normally only be set to “No” when a class is being used to boost another class – see [Term Boost Clues](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_types.md#Term-Boost-Clues) for information on terms that use the “Term Boost” type clues. |
+| Available for Tagging | Use to prevent any documents getting classified against a class. This would normally only be set to “No” when a class is being used to boost another class – see [Term Boost Clues](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_types.md#term-boost-clues) for information on terms that use the “Term Boost” type clues. |
 | Synchronise Term | Enables / Disables automatic synchronisation through the TermStoreManager tool for the term and its children. |
 | Relevance Threshold | The threshold for each Class defaults to 50 – but can be raised (to reduce the number of documents that get classified) or lowered (to increase the number of documents that get classified). |
 | Boosts | The Weighting Boosts can also be adjusted for each Class. Based on the values above you would expect a 10% score boost if one of its child terms was classified.  It is possible to set the _“Child”_ boost to 100%, doing so will in effect enable the parent to always be tagged if the child is tagged. An example for this would be a taxonomy containing regions, if a document was tagged as _“England”_ it should also be tagged as _“Europe”_. |

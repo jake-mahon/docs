@@ -36,12 +36,12 @@ The agent's service account needs specific permissions on the [working directory
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the [```Runtime``` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
-- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#Work-folders-path);
-- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#Work-folders-path).
+- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path);
+- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path).
 
 Other permissions should be denied.
 
-> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#How-to-set-up-directory-permissions-in-Windows-Server)
+> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#how-to-set-up-directory-permissions-in-windows-server)
 
 ### Managed systems' permissions
 

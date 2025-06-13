@@ -6,7 +6,7 @@ By default, the organizational hierarchy chart is displayed for the logged-in us
 
 What do you want to do?
 
-- [View the hierarchy structure for a user](#View-the-hierarchy-structure-for-a-user)
+- [View the hierarchy structure for a user](#view-the-hierarchy-structure-for-a-user)
 
 ## View the hierarchy structure for a user
 

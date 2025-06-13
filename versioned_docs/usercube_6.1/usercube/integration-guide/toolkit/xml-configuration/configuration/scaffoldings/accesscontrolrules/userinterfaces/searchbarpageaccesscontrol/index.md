@@ -12,7 +12,7 @@ This Scaffolding allows you to give these rights per page, profile and EntityTyp
 
 ## Child Elements
 
-- [SearchBarPage](#SearchBarPage) (optional) Adds right for a search bar in a specific page
+- [SearchBarPage](#searchbarpage) (optional) Adds right for a search bar in a specific page
 
 ### SearchBarPage
 

@@ -19,7 +19,7 @@ In Threat Prevention, many policy templates are pre-configured for the most comm
 - Click __Yes__ on the Import Templates dialog box to import all the templates into the Administration Console now. Once complete, the templates are available to all Administration Console users.
 - On clicking __No__, the Import Templates dialog box appears asking, “Do you want to be prompted again next time this application loads?”
 
-You can import the policy templates any time later. See the [Import Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/overview.md#Import-Templates) topic for additional information.
+You can import the policy templates any time later. See the [Import Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/overview.md#import-templates) topic for additional information.
 
 ![Install Agent dialog box](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/installagent.png)
 

@@ -25,7 +25,7 @@ _Remember,_  the file activity options require the Activity Monitor to be deploy
 
 In the Host Mapping section, configure the following:
 
-- Host Mapping – Provides a mapping between the target host and the hosts where activity logs reside. Select __Configure Query__ to open the File System Activity Scan Host Mapping page. This feature requires advanced SQL scripting knowledge to build the query. See the [Host Mapping](#Host-Mapping) topic for additional information.
+- Host Mapping – Provides a mapping between the target host and the hosts where activity logs reside. Select __Configure Query__ to open the File System Activity Scan Host Mapping page. This feature requires advanced SQL scripting knowledge to build the query. See the [Host Mapping](#host-mapping) topic for additional information.
 
 ## Host Mapping
 

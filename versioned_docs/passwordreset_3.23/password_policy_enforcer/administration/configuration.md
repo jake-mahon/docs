@@ -184,7 +184,7 @@ __Step 3 –__ Click __Enable PPE__, then click __OK__.
 
 __Step 4 –__ Click __OK__ to close the PPS Properties page.
 
-__NOTE:__ Password Policy Enforcer is disabled or enabled immediately, but if the management console is connected to a domain configuration, there will be some delay while Active Directory propagates the change to the other domain controllers. See the [Connecting to a Configuration](#Connecting-to-a-Configuration) topic for additional information. A user's password history may be updated even when Password Policy Enforcer is disabled. See the [History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#History-Rule) topic for additional information.
+__NOTE:__ Password Policy Enforcer is disabled or enabled immediately, but if the management console is connected to a domain configuration, there will be some delay while Active Directory propagates the change to the other domain controllers. See the [Connecting to a Configuration](#connecting-to-a-configuration) topic for additional information. A user's password history may be updated even when Password Policy Enforcer is disabled. See the [History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#history-rule) topic for additional information.
 
 ## PPS Properties
 
@@ -229,7 +229,7 @@ __Step 2 –__ Leave all the rules disabled for this policy.
 
 __Step 3 –__ Assign this policy to the users who do not have to comply with any Password Policy Enforcer rules.
 
-Refer to the [Policy Selection Flowchart](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#Policy-Selection-Flowchart) topic for a diagrammatic representation of Password Policy Enforcer's policy selection algorithm, or use the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce for a particular user. See the [Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md) topic for additional information.
+Refer to the [Policy Selection Flowchart](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#policy-selection-flowchart) topic for a diagrammatic representation of Password Policy Enforcer's policy selection algorithm, or use the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce for a particular user. See the [Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md) topic for additional information.
 
 __CAUTION:__ If Password Policy Enforcer has only one policy and that policy is also the default policy, then Password Policy Enforcer enforces the policy for all users.
 

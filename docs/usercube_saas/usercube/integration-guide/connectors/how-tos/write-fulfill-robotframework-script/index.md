@@ -242,7 +242,7 @@ robot --loglevel NONE --report NONE --variable ORDERPATH:./Order --variable RUNT
 Most keywords are not different when a script is launched manually. The keywords ```Get Secure Data``` and ```Generate Password``` are exceptions.
 
 - ```Get Secure Data```: This keyword expects the Robot Framework process to receive a json list of attributes in the stdin stream. This can be provided manually by writing the data in the command prompt. As an example, if the script requires a ```Login``` and ```Password``` attribute :
-  ```{"Login":"login","Password":"password"}```
+  ``{"Login":"login","Password":"password"}``
 - ```Generate Password```: This keyword expects a file that contains the [
   Password Reset Settings
   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the provisioned [Resource Type Mappings](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md). The easiest way to enable the ```Generate Password``` keyword is as follow:

@@ -6,11 +6,11 @@ You can click a column header to sort the requests by that attribute. For each r
 
 What do you want to do?
 
-- [Approve a request](#Approve-a-request)
-- [Deny a request](#Deny-a-request)
+- [Approve a request](#approve-a-request)
+- [Deny a request](#deny-a-request)
 - [ReRoute a request
-  ](#ReRoute-a-request)
-- [Filter requests](#Filter-requests)
+  ](#reroute-a-request)
+- [Filter requests](#filter-requests)
 
 ## Approve a request
 

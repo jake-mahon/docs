@@ -26,7 +26,7 @@ To secure access to the app, the administrator can enable the following for an i
 
 ## Installation and Configuration
 
-By default, one Mobile service is created in Admin Center. You can create and deploy one or more Mobile services in native IIS, remote IIS, and Docker. You can also create multiple instances of the same service. For more info, refer to the [Host a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#Host-a-Portal) topic.
+By default, one Mobile service is created in Admin Center. You can create and deploy one or more Mobile services in native IIS, remote IIS, and Docker. You can also create multiple instances of the same service. For more info, refer to the [Host a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#host-a-portal) topic.
 
 After creating a Mobile service, you can configure the following for it:
 

@@ -1,6 +1,6 @@
 # Edit Review Wizard
 
-The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#Manage-Reviews-Page) topic for additional information.
+The Edit Review wizard is opened with the __Edit__ button on the Resource Reviews interface. See the [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
 ![Edit Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
 
@@ -11,7 +11,7 @@ It contains four pages:
 - 3. Resources — Modify the list of resources included in the review
 - 4. Summary — Preview of the review selections
 
-See the [Edit a Review](#Edit-a-Review) topic for additional information.
+See the [Edit a Review](#edit-a-review) topic for additional information.
 
 ## Edit a Review
 

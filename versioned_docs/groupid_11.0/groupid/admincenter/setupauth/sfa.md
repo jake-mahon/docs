@@ -1,14 +1,14 @@
 # Configure Second Factor Authentication
 
-You can enable second factor authentication (SFA) for a user role in an identity store. This policy enforces role members to enroll their identity store accounts in GroupID using one or more authentication types. Supported authentication types are discussed in the [Authentication Policies - A Comparison](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md#Authentication-Policies-A-Comparison) topic.
+You can enable second factor authentication (SFA) for a user role in an identity store. This policy enforces role members to enroll their identity store accounts in GroupID using one or more authentication types. Supported authentication types are discussed in the [Authentication Policies - A Comparison](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md) topic.
 
 Once enrolled, role members must authenticate their accounts using an authentication type they enrolled with, while signing into Admin Center, GroupID portal or the GroupID mobile app. Users enrolled with multiple authentication types can use any one type to authenticate.
 
-NOTE: GroupID SFA does not apply to Microsoft Entra ID MFA enabled users.
+NOTE: GroupID SFA does not apply to Microsoft Entra ID MFA enabled users.
 
 What do you want to do?
 
-- [Configure Second Factor Authentication](#Configure-Second-Factor-Authentication)
+- Configure Second Factor Authentication
 
 ## Configure Second Factor Authentication
 
@@ -20,7 +20,7 @@ See the [Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admin
 
 Step 2 – Enable second factor authentication for a security role in an identity store.
 
-See the [Enable Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#Enable-Second-Factor-Authentication) topic for details.
+See the [Enable Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enable-second-factor-authentication) topic for details.
 
 See Also
 

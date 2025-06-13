@@ -16,7 +16,7 @@ Configuration options for Custom Attributes include:
 - Remove – Deletes the attribute from the table and therefore the scan
 - Import – Use the Azure Connection Profile credentials or manually inputted credentials to import custom attributes for the scan using a valid tenant name. This option opens up the Custom Attributes Import Wizard.
 
-Use the __Add__, __Edit__, and __Remove__ buttons at the bottom of the window to configure the custom attributes to be gathered by the scan. Use the __Add__ button to open the [Custom Attribute Window](#Custom-Attribute-Window). The __Import__ button opens the [Custom Attributes Import Wizard](#Custom-Attributes-Import-Wizard).
+Use the __Add__, __Edit__, and __Remove__ buttons at the bottom of the window to configure the custom attributes to be gathered by the scan. Use the __Add__ button to open the [Custom Attribute Window](#custom-attribute-window). The __Import__ button opens the [Custom Attributes Import Wizard](#custom-attributes-import-wizard).
 
 #### Custom Attribute Window
 

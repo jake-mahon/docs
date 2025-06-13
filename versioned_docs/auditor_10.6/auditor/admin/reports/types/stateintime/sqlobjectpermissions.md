@@ -4,7 +4,7 @@ This report shows a detailed list of the effective permissions that accounts hav
 
 Supported object types and attributes are listed in the [SQL Server](/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/overview.md) section.
 
-[![objectpermissionssqlserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/objectpermissionssqlserver.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/sqlserver/objectpermissionssqlserver.png)
+![objectpermissionssqlserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/objectpermissionssqlserver.png)
 
 ## Reported data
 
@@ -24,7 +24,7 @@ The detailed information under summary includes:
   - Login SQL Authentication
   - DB SQL User with password
 - __Means granted__ —how access permissions were granted to this account, e.g., _Direct permissions_ or _Server role permissions_.
-- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _<not set>_ is reported.
+- __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _`<not set>`_ is reported.
 - __Effective grant__ —the effective set of permissions granted to this account on the selected object.
 
 Covering rules do not need to be applied, since __Effective grant__ permissions are reported automatically using these rules.

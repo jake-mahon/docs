@@ -1,6 +1,6 @@
 # File Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#Export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export) option.
 
 ![File Search Results UI](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/results/filesearchresults.png)
 

@@ -14,4 +14,4 @@ __Step 5 –__ Click __Next__ to install Password Policy Enforcer.
 
 __Step 6 –__ Click __Yes__ when asked to restart the computer.
 
-Password Policy Enforcer has its own password rules, so you may want to disable the Windows password policy rules before configuring Password Policy Enforcer. See the [Disable Windows Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/disable_windows_rules.md#Disable-Windows-Rules) topic for additional information.
+Password Policy Enforcer has its own password rules, so you may want to disable the Windows password policy rules before configuring Password Policy Enforcer. See the [Disable Windows Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/disable_windows_rules.md) topic for additional information.

@@ -6,8 +6,8 @@ On the Email Services page, add and configure the settings used for email notifi
 
 The Email Service page shows details of the selected email service and has the following features:
 
-- [Email Settings Tab](#Email-Settings-Tab)
-- [Email Queue Tab](#Email-Queue-Tab)
+- [Email Settings Tab](#email-settings-tab)
+- [Email Queue Tab](#email-queue-tab)
 
 ## Email Settings Tab
 

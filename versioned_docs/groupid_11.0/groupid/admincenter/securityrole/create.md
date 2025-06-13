@@ -2,8 +2,8 @@
 
 To create a security role for an identity store, you have to specify the following:
 
-- __Criteria__ - See [Criteria ](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Criteria).
-- __Priority__ - See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#Priority).
+- __Criteria__ - See [Criteria ](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+- __Priority__ - See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
 - __Permissions__ - Permissions refer to the different actions that role members can perform using GroupID, for example, creating directory objects, managing groups, managing scheduled jobs, managing user profiles,
   and more.
 - __Policies__ - Policies refer to settings that apply to role members. For example, the search policy limits role members to search for objects in a particular container.
@@ -14,8 +14,8 @@ NOTE: You can disable a role to prevent its members from accessing GroupID. To p
 
 What do you want to do?
 
-- [Create a Security Role from Scratch](#Create-a-Security-Role-from-Scratch)
-- [Create a Role by Copying an Existing Role](#Create-a-Role-by-Copying-an-Existing-Role)
+- [Create a Security Role from Scratch](#create-a-security-role-from-scratch)
+- [Create a Role by Copying an Existing Role](#create-a-role-by-copying-an-existing-role)
 
 ## Create a Security Role from Scratch
 
@@ -42,7 +42,7 @@ __To copy a role:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __Security Roles__ under __Settings__ in the left pane.
 4. On the __Security Roles__ page, click the ellipsis button for the security role you want to use as template and select __Copy__. The __Copy Security Role__ page is displayed.
-5. Follow steps 5-9 in the [Create a Security Role from Scratch](#Create-a-Security-Role-from-Scratch) topic to update role info and click __Update Security Role__.
+5. Follow steps 5-9 in the [Create a Security Role from Scratch](#create-a-security-role-from-scratch) topic to update role info and click __Update Security Role__.
 6. On the __Security Roles__ page, click __Save__.
 7. To update the policies for the new role, see the [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md) topic.
 

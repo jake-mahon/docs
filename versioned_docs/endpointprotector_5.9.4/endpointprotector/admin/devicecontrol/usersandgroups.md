@@ -177,7 +177,7 @@ The Standard device control rights include the Device Types and Already Existing
 
 In addition to the Standard device control rights, if enabled from the Global Settings, you can create fallback policies for Outside Network and Outside Hours circumstances.
 
-For detailed information on Device Types and Speciﬁc Devices (Standard, Outside Network, and Outside Hours), refer to the [Users and Groups](#Users-and-Groups) topic.
+For detailed information on Device Types and Speciﬁc Devices (Standard, Outside Network, and Outside Hours), refer to the Users and Groups topic.
 
 __NOTE:__ Use Restore Global Rights to revert to a lower level of rights. Once enabled, all rights on that level will be set to preserve global settings and the system will use the next level of rights.
 

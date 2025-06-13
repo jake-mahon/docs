@@ -12,8 +12,8 @@ Benefits:
 
 Review the following for additional information:
 
-- [Available Add-Ons](#Available-Add-Ons)
-- [Use Add-Ons](#Use-Add-Ons)
+- [Available Add-Ons](#available-add-ons)
+- [Use Add-Ons](#use-add-ons)
 
 ## Available Add-Ons
 
@@ -27,7 +27,7 @@ Refer to [Security](/versioned_docs/auditor_10.6/auditor/api/security.md) for de
 
 ## Use Add-Ons
 
-Before your start working with the add-on, go through its quick-start guide at [Netwrix Documentation page](https://www.netwrix.com/documentation.html#Netwrix-Documentation-page). Each guide contains detailed instructions for deploying and running the add-on, as well as prerequisites and configuration settings. Generic steps are described below.
+Before your start working with the add-on, go through its quick-start guide at [Netwrix Documentation page](https://www.netwrix.com/documentation.html#netwrix-documentation-page). Each guide contains detailed instructions for deploying and running the add-on, as well as prerequisites and configuration settings. Generic steps are described below.
 
 Follow the steps to use the add-on.
 
@@ -41,6 +41,6 @@ __Step 4 –__ If you are using a PowerShell-based add-on, run it from a command
 
 __Step 5 –__ Review the add-on operation results. For example, if you are using the add-on that imports data to Netwrix Auditor, you can search Activity Records in the Netwrix Auditor client.
 
-[![api](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/api.png)
+![api](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api.png)
 
 __Step 6 –__ (optional) For PowerShell based add-ons, you can schedule a daily task to ensure your audit data is always up-to-date.

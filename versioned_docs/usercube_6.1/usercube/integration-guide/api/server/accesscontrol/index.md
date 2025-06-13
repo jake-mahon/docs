@@ -44,7 +44,7 @@ Creates a accessControlEntry.
 | --- | --- | --- |
 | 200 | The result of the accessControlEntry creation. |  |
 
-### /api/AccessControl/AccessControlEntry/{id}
+### /api/AccessControl/AccessControlEntry/`{id}`
 
 #### Get
 
@@ -151,7 +151,7 @@ Creates a accessControlFilter.
 | --- | --- | --- |
 | 200 | The result of the accessControlFilter creation. |  |
 
-### /api/AccessControl/AccessControlFilter/{id}
+### /api/AccessControl/AccessControlFilter/`{id}`
 
 #### Get
 
@@ -240,7 +240,7 @@ Returns all the accessControlPermissions according to the provided query.
 | --- | --- | --- |
 | 200 | The accessControlPermission list. |  |
 
-### /api/AccessControl/AccessControlPermission/{id}
+### /api/AccessControl/AccessControlPermission/`{id}`
 
 #### Get
 
@@ -309,7 +309,7 @@ Creates a accessControlRule.
 | --- | --- | --- |
 | 200 | The result of the accessControlRule creation. |  |
 
-### /api/AccessControl/AccessControlRule/{id}
+### /api/AccessControl/AccessControlRule/`{id}`
 
 #### Get
 
@@ -416,7 +416,7 @@ Creates an assigned profile.
 | --- | --- | --- |
 | 200 | The result of the assigned profile creation. |  |
 
-### /api/AccessControl/AssignedProfile/{id}
+### /api/AccessControl/AssignedProfile/`{id}`
 
 #### Get
 
@@ -523,7 +523,7 @@ Creates an openId client.
 | --- | --- | --- |
 | 200 | The result of the openId client creation. |  |
 
-### /api/AccessControl/OpenIdClient/{id}
+### /api/AccessControl/OpenIdClient/`{id}`
 
 #### Get
 
@@ -630,7 +630,7 @@ Creates a profile.
 | --- | --- | --- |
 | 200 | The result of the profile creation. |  |
 
-### /api/AccessControl/Profile/{id}
+### /api/AccessControl/Profile/`{id}`
 
 #### Get
 

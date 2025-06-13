@@ -6,7 +6,7 @@ For example, if a user's account is enrolled with the Security Questions, Email,
 
 What do you want to do?
 
-- [Unenroll a User for an Authentication Type](#Unenroll-a-User-for-an-Authentication-Type)
+- [Unenroll a User for an Authentication Type](#unenroll-a-user-for-an-authentication-type)
 
 ## Unenroll a User for an Authentication Type
 

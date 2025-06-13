@@ -7,8 +7,8 @@ Select a folder in the Policies node list to view the following two protection t
 - Permissions – Control the ability of Threat Prevention users to View Data or Manage Policies for the selected folder.
   - View Data checkbox – Affects the ability to see events data for these policies in the policy’s [Recent Events Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/overview.md) and the [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md).
 
-    Only users granted the View Data permission on the folder where the object has been identified for protection are able to view any results of events that include the object. See the [Protect Objects](#Protect-Objects) section for instructions on protecting policies or objects.
-  - Manage Policies checkbox – Affects the ability to change policy configuration settings. See the [Protect Policies](#Protect-Policies)section for instructions on protecting policies or objects.
+    Only users granted the View Data permission on the folder where the object has been identified for protection are able to view any results of events that include the object. See the [Protect Objects](#protect-objects) section for instructions on protecting policies or objects.
+  - Manage Policies checkbox – Affects the ability to change policy configuration settings. See the [Protect Policies](#protect-policies)section for instructions on protecting policies or objects.
 - Protected Objects – Monitors the selected [Select Active Directory Contexts Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md) within the policy folder
 
   Protected objects are hidden from the following types of data no matter what policy monitored/blocked it:

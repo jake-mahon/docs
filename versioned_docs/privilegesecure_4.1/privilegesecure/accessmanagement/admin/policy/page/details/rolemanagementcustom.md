@@ -8,7 +8,7 @@ When a custom role is selected, the selected role details display at the top of 
 
 - Name — Name of the access policy
 - Description — Description of the policy
-- Permission Assignment section — Use this section to assign permissions for the custom role. See the [Permission Assignment](#Permission-Assignment) topic for additional information.
+- Permission Assignment section — Use this section to assign permissions for the custom role. See the [Permission Assignment](#permission-assignment) topic for additional information.
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. This search is specific to the table in the Users section at the bottom.
 - Filter — Provides options to filter results based on a chosen criterion: User, Group, Application, Collection, and Local User
 - Add Role User — Opens Add Role Users window. See the [Add Role Users Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addroleusers.md) topic for additional information.

@@ -2,16 +2,16 @@
 
 Credential passwords in Enterprise Auditor occasionally need to be updated due to reasons such as the password expiring due to existing password expiration polices or for security purposes. If a password change is required, there are multiple types of accounts where credential passwords must be updated:
 
-- [Storage Profiles](#Storage-Profiles)
-- [Connection Profiles ](#Connection-Profiles)
-- [Schedule Service Accounts ](#Schedule-Service-Accounts)
+- [Storage Profiles](#storage-profiles)
+- [Connection Profiles ](#connection-profiles)
+- [Schedule Service Accounts ](#schedule-service-accounts)
 
-  - [Settings > Schedule Node](#Settings-Schedule-Node)
-  - [Schedules Node](#Schedules-Node)
-  - [Jobs](#Jobs)
-- [Notifications (if enabled)](#Notifications-if-enabled)
-- [ServiceNow (if enabled)](#ServiceNow-if-enabled)
-- [Enterprise Auditor Services](#Enterprise-Auditor-Services)
+  - [Settings > Schedule Node](#settings-schedule-node)
+  - [Schedules Node](#schedules-node)
+  - [Jobs](#jobs)
+- [Notifications (if enabled)](#notifications-if-enabled)
+- [ServiceNow (if enabled)](#servicenow-if-enabled)
+- [Enterprise Auditor Services](#enterprise-auditor-services)
 
 __NOTE:__ When updating passwords in Enterprise Auditor, you should also check the passwords in Netwrix Activity Monitor. See the Update Credential Passwords topic in the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for additional information.
 
@@ -31,7 +31,7 @@ Enterprise Auditor uses the Schedule Service Account to run scheduled tasks on t
 
 ### Settings > Schedule Node
 
-The Settings > Schedule Node displays the Schedule page where you can configure the account used for executing a scheduled task. See the [Edit a Schedule Service Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md#Edit-a-Schedule-Service-Account) topic for additional information on editing the user credentials for the account.
+The Settings > Schedule Node displays the Schedule page where you can configure the account used for executing a scheduled task. See the [Edit a Schedule Service Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md#edit-a-schedule-service-account) topic for additional information on editing the user credentials for the account.
 
 ### Schedules Node
 
@@ -43,11 +43,11 @@ Jobs are typically scheduled with the global scheduled account. However, Jobs ca
 
 ## Notifications (if enabled)
 
-Email notifications are configured in the Notifications node. The following steps only apply if Notification authentication has been enabled for the Enterprise Auditor Console. See the [Update Notification Authentication Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md#Update-Notification-Authentication-Credentials) topic for information on updating Notification authentication credentials.
+Email notifications are configured in the Notifications node. The following steps only apply if Notification authentication has been enabled for the Enterprise Auditor Console. See the [Update Notification Authentication Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md#update-notification-authentication-credentials) topic for information on updating Notification authentication credentials.
 
 ## ServiceNow (if enabled)
 
-The ServiceNow Node controls the integration between Enterprise Auditor and ServiceNow. See the [Update ServiceNow Authentication Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/servicenow.md#Update-ServiceNow-Authentication-Credentials) topic for information on updating ServiceNow authentication credentials.
+The ServiceNow Node controls the integration between Enterprise Auditor and ServiceNow. See the [Update ServiceNow Authentication Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/servicenow.md#update-servicenow-authentication-credentials) topic for information on updating ServiceNow authentication credentials.
 
 ## Enterprise Auditor Services
 

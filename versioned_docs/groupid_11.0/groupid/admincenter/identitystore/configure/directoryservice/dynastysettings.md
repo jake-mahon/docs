@@ -2,7 +2,7 @@
 
 A Dynasty is a Smart Group that creates and manages other Smart Groups using information in the directory. The Smart Groups that a Dynasty creates are called child groups that become members of their respective parent Dynasties.
 
-A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/versioned_docs/groupid_11.0/groupid/admincenter/general/concepts.md#Dynasties) topic.
+A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has its own mechanism of dividing the query results into child groups. To learn more about Dynasties, see the [Dynasties](/versioned_docs/groupid_11.0/groupid/admincenter/general/concepts.md#dynasties) topic.
 
 You can control how GroupID processes Dynasties through the following settings:
 
@@ -24,13 +24,13 @@ __What happens on Dynasty update?__
 When a Dynasty is updated, the following happens:
 
 - Each Dynasty has a query defined for it. On update, the query retrieves records from the directory and updates Dynasty membership.
-- You can specify certain attributes whose values are passed on from parent to child Dynasties. The values of these attributes are updated when the Dynasty is updated. See the [Specify Attributes for Inheritance](#Specify-Attributes-for-Inheritance) topic.
+- You can specify certain attributes whose values are passed on from parent to child Dynasties. The values of these attributes are updated when the Dynasty is updated. See the [Specify Attributes for Inheritance](#specify-attributes-for-inheritance) topic.
 
 What do you want to do?
 
-- [Auto Update Dynasty Children When Parent Changes](#Auto-Update-Dynasty-Children-When-Parent-Changes)
-- [Auto Delete Empty and Orphan Dynasty Children](#Auto-Delete-Empty-and-Orphan-Dynasty-Children)
-- [Specify Attributes for Inheritance](#Specify-Attributes-for-Inheritance)
+- [Auto Update Dynasty Children When Parent Changes](#auto-update-dynasty-children-when-parent-changes)
+- [Auto Delete Empty and Orphan Dynasty Children](#auto-delete-empty-and-orphan-dynasty-children)
+- [Specify Attributes for Inheritance](#specify-attributes-for-inheritance)
 
 ## Auto Update Dynasty Children When Parent Changes
 

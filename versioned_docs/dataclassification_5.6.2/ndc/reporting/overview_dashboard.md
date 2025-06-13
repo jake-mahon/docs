@@ -1,16 +1,16 @@
 # Sensitive Documents Dashboard
 
-The dashboard provides a top-level overview of the security classifications tagged against the content and allows users to drill down into the data to gain visibility of where/what their sensitive content is. By default, the dashboard shows all classified data. However, users can customize it for their needs. [See Customize Dashboard for more information.](#See-Customize-Dashboard-for-more-information)
+The dashboard provides a top-level overview of the security classifications tagged against the content and allows users to drill down into the data to gain visibility of where/what their sensitive content is. By default, the dashboard shows all classified data. However, users can customize it for their needs. [See Customize Dashboard for more information.](#customize-dashboard)
 
 __NOTE:__ To review the dashboard a user requires the Access Reports permission and must have at least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
-- [Permission Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md#Permission-Management)
+- [Permission Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md#permission-management)
 - [Built-in Taxonomies Overview
   ](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalone_taxonomies.md)
 
 The dashboard is the home page for the administrative web console.
 
-[![sensitive_dashboard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/sensitive_dashboard_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/reports/sensitive_dashboard.png)
+![sensitive_dashboard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/sensitive_dashboard_thumb_0_0.png)
 
 If you want to switch to the dashboard page after doing any other tasks in the administrative web console, do the following:
 
@@ -54,7 +54,7 @@ To apply filters
 
 1. Select Custom view in the upper left corner of the dashboard.
 
-   [![dashboard_filters_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/dashboard_filters_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/reports/dashboard_filters.png)
+   ![dashboard_filters_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/dashboard_filters_thumb_0_0.png)
 2. Select a taxonomy(-ies) and/or a source group(s) you want to see real-time data for.
 3. Click Apply Filters to immediately review classified data matching your filtering criteria.
 
@@ -64,7 +64,7 @@ You can build up a few different dashboards for combinations of particular sourc
 
 1. Apply custom filters as described above.
 
-   [![dashboard_filters_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/dashboard_filters_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/reports/dashboard_filters.png)
+   ![dashboard_filters_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/dashboard_filters_thumb_0_0.png)
 2. Click Save Configuration.
 
 To review saved configurations

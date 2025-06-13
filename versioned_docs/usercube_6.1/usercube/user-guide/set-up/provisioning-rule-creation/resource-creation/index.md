@@ -44,7 +44,7 @@ Create a resource type rule by proceeding as follows:
    - ```Resource type denied```: option that forbids the assignment.
    - ```Offset of effective date```: time period that defines the actual effective date for resource creation/deletion according to the value's start and/or end date.
    - __Criteria__: conditions that, if met, trigger the resource creation.
-   > [Our example](#Our-example) would look like:
+   > [Our example](#our-example) would look like:
    >
    > ![Resource Type Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_exampletype_v602.png)
 5. Click on __Create__ and see a line added on the rules page.
@@ -59,7 +59,7 @@ This task applies the rules and computes new assignments. Therefore, if a given 
 
 A modification in a resource type rule can trigger the removal of a resource only on the Usercube side. There are several barriers to cross before said resource is removed from the managed system: first before the creation of an ```AssignedResourceType``` in Usercube's database, and again before the actual action in the managed system.
 
-> [In our example](#In-our-example), let's say that we replace the country criterion ```Germany``` with ```France```. Consider a user who had a SAP account assigned through this rule. Now that the country criterion has changed, our user working in Germany would be deprived of their account.
+> [In our example](#in-our-example), let's say that we replace the country criterion ```Germany``` with ```France```. Consider a user who had a SAP account assigned through this rule. Now that the country criterion has changed, our user working in Germany would be deprived of their account.
 
 [Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are available in order to anticipate the changes induced by a creation/modification/deletion in resource type rules.
 

@@ -11,7 +11,7 @@ To configure these actions, use the Advanced UI dialog window. See Configure a W
 
 This action will remove an email from Exchange mailbox.
 
-[![action_exchange_delete_email_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_exchange_delete_email_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/workflows/action_exchange_delete_email.png)
+![action_exchange_delete_email_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_exchange_delete_email_thumb_0_0.png)
 
 Specify the following action parameters:
 

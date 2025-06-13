@@ -22,12 +22,12 @@ Consider the following:
 - For existing groups, the prefix option is available for unmanaged groups (and not for Smart Groups and Dynasties). A user can choose to add a prefix to the group name in group properties. Once added, it cannot be removed.
 - For managed groups (Smart Groups and Dynasties), prefixes can only be added while creating a group and cannot be changed or removed later.
 
-A group naming policy defined in Microsoft Entra Admin Center has no impact in GroupID. For details, see the [Group Naming Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#Group-Naming-Policy) topic.
+A group naming policy defined in Microsoft Entra Admin Center has no impact in GroupID. For details, see the [Group Naming Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#group-naming-policy) topic.
 
 What do you want to do?
 
-- [Add a Prefix for an Identity Store](#Add-a-Prefix-for-an-Identity-Store)
-- [Add a Prefix for a Security Role in an Identity Store](#Add-a-Prefix-for-a-Security-Role-in-an-Identity-Store)
+- [Add a Prefix for an Identity Store](#add-a-prefix-for-an-identity-store)
+- [Add a Prefix for a Security Role in an Identity Store](#add-a-prefix-for-a-security-role-in-an-identity-store)
 
 ## Add a Prefix for an Identity Store
 
@@ -58,7 +58,7 @@ Delete a Prefix
 4. On the __Security Roles__ page, click __Edit__ for a security role.
 5. On the __Edit Security Role__ page, click __Specify policies for the members__ in the __Policies__ area.
 6. On the __Add Policies__ pane, click the __Group Name Prefixes__ tab.
-7. Refer to step 4 and onwards in the [Add a Prefix for an Identity Store](#Add-a-Prefix-for-an-Identity-Store) topic to add, edit, or delete a group name prefix for a security role.
+7. Refer to step 4 and onwards in the [Add a Prefix for an Identity Store](#add-a-prefix-for-an-identity-store) topic to add, edit, or delete a group name prefix for a security role.
 8. Select the __Enforce Prefix__ check box to make it mandatory for role members to select a role-specific prefix to append group names while
    creating groups.
 9. Click __OK__.

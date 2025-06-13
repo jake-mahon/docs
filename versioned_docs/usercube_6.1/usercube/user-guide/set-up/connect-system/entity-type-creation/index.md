@@ -20,7 +20,7 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| [Connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#Connection) (required)     [Refreshed schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#Refreshed-schemas) (required)     [Connector's data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Entity type |
+| [Connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#connection) (required)     [Refreshed schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#refreshed-schemas) (required)     [Connector's data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Entity type |
 
 ## Create an Entity Type
 

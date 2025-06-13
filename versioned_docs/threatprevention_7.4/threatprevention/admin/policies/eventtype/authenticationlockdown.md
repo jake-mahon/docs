@@ -67,7 +67,7 @@ Use the Hosts (from) filter for lockdown to set the scope of the policy to only 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
 - For the [Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
-- For the [Authentication Lockdown Event Type](#Authentication-Lockdown-Event-Type), this filter blocks or only allows authentication from the identified host(s).
+- For the Authentication Lockdown Event Type, this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 

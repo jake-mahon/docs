@@ -17,7 +17,7 @@ __Step 2 –__ Follow the instructions in the Dell [Using the Common Event Enabl
 
 ___RECOMMENDED:___ The latest version of .NET Framework and Dell CEE is recommended to use with the asynchronous bulk delivery (VCAPS) feature.
 
-After Dell CEE installation is complete, it is necessary to complete the [Unity Initial Setup with Unisphere](/versioned_docs/enterpriseauditor_11.6/config/dellunity/setupunisphere.md#Unity-Initial-Setup-with-Unisphere).
+After Dell CEE installation is complete, it is necessary to complete the [Unity Initial Setup with Unisphere](/versioned_docs/enterpriseauditor_11.6/config/dellunity/setupunisphere.md).
 
 ## Configure Dell Registry Key Settings
 

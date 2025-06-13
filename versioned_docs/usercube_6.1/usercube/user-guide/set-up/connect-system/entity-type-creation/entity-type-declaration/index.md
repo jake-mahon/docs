@@ -20,7 +20,7 @@ Create the entity type by proceeding as follows:
 
    ![Entity type creation](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_entitytypecreation_v602.png)
 
-   - ```Identifier```: must be unique among entity types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#See-Microsoft-lexical-structure). NETWRIX recommends using ```<connector>_<notion>``` in the singular.
+   - ```Identifier```: must be unique among entity types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure). NETWRIX recommends using ```<connector>_<notion>``` in the singular.
    - ```Name```: will be displayed in the UI to identify the entity type.
    - ```Icon```: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and will be displayed with the entity type in the left menu of the home page.
    - ```Auto Complete in Pickers```: can be set once properties are created (and saved) so that, when using a searchbar for selected properties, Usercube suggests existing entries.
@@ -44,13 +44,13 @@ To continue, [define at least one scalar property](/versioned_docs/usercube_6.1/
 
 Ensure that there are existing connections:
 
-- if this is the case, then click on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__Refresh-all-schemas__) on the connector page, and verify that there is no error.
+- if this is the case, then click on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__refresh-all-schemas__) on the connector page, and verify that there is no error.
 - if not, then you must [create at least one connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
 
 #### If there is a message stating to refresh the connection's schema, then�
 
 ![No Connection Table Error](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.png)
 
-Start by making sure that the connection's schema is refreshed by clicking on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__Refresh-all-schemas__) on the connector page, and verify that there is no error.
+Start by making sure that the connection's schema is refreshed by clicking on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__refresh-all-schemas__) on the connector page, and verify that there is no error.
 
 If the message is still displayed, then it means that the previously selected connection table no longer exists in the managed system. In this case, either the table's name simply changed, or the table is not relevant anymore. Then you should find a relevant table in the __Source__ dropdown list.

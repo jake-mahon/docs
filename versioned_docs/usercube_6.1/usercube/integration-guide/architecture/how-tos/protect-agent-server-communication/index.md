@@ -16,6 +16,7 @@ The idea, when sending data from the agent to the server, is the following:
 
 ![Schema: Agent/Server Communication](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/agent-server-communication.png)
 
+
 ### Configuration details
 
 The server must be configured, in its ```appsettings.json```, with:
@@ -36,12 +37,11 @@ In order to give to the agent the right permissions, the XML configuration must 
 
 Protect agent/server communication by proceeding as follows:
 
-1. Make sure that both the agent and server configurations specify an encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#See-more-details).
+1. Make sure that both the agent and server configurations specify an encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#see-more-details).
 
    > For example:
    >
-   > ```
-   >
+   > ```json
    > appsettings.json
    >
    > {
@@ -51,14 +51,13 @@ Protect agent/server communication by proceeding as follows:
    >   },
    >   ...
    > }
-   >
    > ```
-2. Make sure that the agent is also configured with its own encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#See-more-details).
+
+2. Make sure that the agent is also configured with its own encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#see-more-details).
 
    > For example:
    >
-   > ```
-   >
+   > ```json
    > appsettings.json
    >
    > {
@@ -69,14 +68,13 @@ Protect agent/server communication by proceeding as follows:
    >   },
    >   ...
    > }
-   >
    > ```
-3. Configure an OpenIdClient, both on agent side in ```appsettings.agent.json``` with the non-hashed secret and on server side in the XML configuration with the secret hashed by the [```Usercube-New-OpenIDSecret``` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/new-openidsecret/index.md). [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md).
+
+3. Configure an OpenIdClient, both on agent side in `appsettings.agent.json` with the non-hashed secret and on server side in the XML configuration with the secret hashed by the [`Usercube-New-OpenIDSecret` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/new-openidsecret/index.md). [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md).
 
    > For example on agent side:
    >
-   > ```
-   >
+   > ```json
    > appsettings.agent.json
    >
    > {
@@ -88,17 +86,14 @@ Protect agent/server communication by proceeding as follows:
    >   }
    >   ...
    > }
-   >
    > ```
    >
    > And on server side:
    >
+   > ```bash
+   > ./Usercube-New-OpenIDSecret.exe --client-secret secret
    > ```
    >
-   > ./Usercube-New-OpenIDSecret.exe --client-secret secret
-   >
-   > ``````
-   >
+   > ```xml
    > <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" DisplayName_L1="Permissions for jobs" Profile="Administrator" />
-   >
    > ```

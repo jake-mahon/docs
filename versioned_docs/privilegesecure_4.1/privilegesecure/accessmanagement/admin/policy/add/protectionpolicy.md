@@ -17,6 +17,6 @@ __Step 4 –__ Click Save to create the new protection policy.
 
 The new protection policy has been created. The next step is to associate Resources, Users, and Schedule to the policy. See the following topics for additional information:
 
-- [Resources Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md#Resources-Tab-for-Protection-Policies)
-- [Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md#Allowed-Members-Tab-for-Protection-Policies)
-- [Schedule Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md#Schedule-Tab-for-Protection-Policies)
+- [Resources Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md#resources-tab-for-protection-policies)
+- [Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md#allowed-members-tab-for-protection-policies)
+- [Schedule Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md#schedule-tab-for-protection-policies)

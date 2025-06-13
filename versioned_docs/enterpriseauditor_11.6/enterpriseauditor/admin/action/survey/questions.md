@@ -26,7 +26,7 @@ The configurable options are:
 - Question Details – Use this section to define your survey questions. The following options are available:
 
   - Text – Specify the survey question
-  - Subjects – Click on the ellipses (__…__) to open the Select subjects window. Specify the object to which a question is directed. The selected subjects show in the Subjects field. See the [Select Subjects Window](#Select-Subjects-Window) topic for additional information.
+  - Subjects – Click on the ellipses (__…__) to open the Select subjects window. Specify the object to which a question is directed. The selected subjects show in the Subjects field. See the [Select Subjects Window](#select-subjects-window) topic for additional information.
   - Answer Column Name – The Survey action module inserts the results of the survey directly into the SQL table on which a survey is based, creating an answer column for each question in the survey. Give each column a unique name that corresponds to the associated survey question.
   - Question type – Specify a question type. The options are:
 

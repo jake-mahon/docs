@@ -19,7 +19,7 @@ GroupID tracks and maintains history for group attestation. On the [Object prope
 
 What do you want to do?
 
-- [Attest a group](#Attest-a-group)
+- [Attest a group](#attest-a-group)
 
 ## Attest a group
 

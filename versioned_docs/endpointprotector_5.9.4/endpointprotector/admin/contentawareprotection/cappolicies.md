@@ -49,7 +49,7 @@ __NOTE:__ Initially, we recommend using the Report only action to gain a better 
 
 __NOTE:__ To enforce the Outside Hours and Outside Network options, after you save the policy, enable the setting on the speciﬁc device from Device Control, Global settings, Group or Computers.
 
-- Policy Template – select a custom notiﬁcation from the drop-down list or create one from System Parameters, Device Types and Notiﬁcation, [Custom Content Aware Protection Notiﬁcations](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#Custom-Content-Aware-Protection-Notiﬁcations) section
+- Policy Template – select a custom notiﬁcation from the drop-down list or create one from System Parameters, Device Types and Notiﬁcation, [Custom Content Aware Protection Notiﬁcations](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#custom-content-aware-protection-notiﬁcations) section
 - Policy Status – enable to set policy status to active
 - Client Notiﬁcations – enable this setting to send notiﬁcations to clients
 - Global Thresholds – if disabled, the threshold can be considered a Regular Threshold

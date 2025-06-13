@@ -27,11 +27,11 @@ In GroupID portal, you can perform the following functions for Smart Groups and 
 
 What do you want to do?
 
-- [Modify the query for a Smart Group/Dynasty](#Modify-the-query-for-a-Smart-GroupDynasty)
-- [Schedule periodic membership updates for Smart Groups/Dynasties](#Schedule-periodic-membership-updates-for-Smart-GroupsDynasties)
-- [Update the membership of a Smart Group/Dynasty using the Update command](#Update-the-membership-of-a-Smart-GroupDynasty-using-the-Update-command)
-- [View Smart Group Update job status](#View-Smart-Group-Update-job-status)
-- [Modify the query for a Smart Group/Dynasty created by other role members](#Modify-the-query-for-a-Smart-GroupDynasty-created-by-other-role-members)
+- [Modify the query for a Smart Group/Dynasty](#modify-the-query-for-a-smart-groupdynasty)
+- [Schedule periodic membership updates for Smart Groups/Dynasties](#schedule-periodic-membership-updates-for-smart-groupsdynasties)
+- [Update the membership of a Smart Group/Dynasty using the Update command](#update-the-membership-of-a-smart-groupdynasty-using-the-update-command)
+- [View Smart Group Update job status](#view-smart-group-update-job-status)
+- [Modify the query for a Smart Group/Dynasty created by other role members](#modify-the-query-for-a-smart-groupdynasty-created-by-other-role-members)
 
 ## Modify the query for a Smart Group/Dynasty
 

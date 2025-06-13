@@ -20,6 +20,7 @@ __NOTE:__ If Auditor ITSM Integration Service is running, stop it before modifyi
 
 __Step 4 –__ Open this XML file for edit and add the following section:
 
+```xml
 <system.net>
 
 <defaultProxy>
@@ -35,6 +36,7 @@ autoDetect="False" />
 </defaultProxy>
 
 </system.net>
+```
 
 Here:
 

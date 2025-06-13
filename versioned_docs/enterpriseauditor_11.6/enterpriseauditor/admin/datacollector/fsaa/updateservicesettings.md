@@ -10,4 +10,4 @@ Configure the settings for the targeted File System Proxy Service:
 - Applet communication timeout: [number] minute(s) – This option determines the length of time (in minutes) the Enterprise Auditor Console attempts to reach the proxy before giving up. Depending on the job configuration, the data collector behaves in one of three ways after the timeout value has been exceeded.
 - Scan cancellation timeout: [number] minute(s) – When selected, this option will timeout the applet if there is an attempt to pause the scan and the applet does not respond
 
-See the [FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md#FSAAApplet-Settings) topic for additional information.
+See the [FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for additional information.

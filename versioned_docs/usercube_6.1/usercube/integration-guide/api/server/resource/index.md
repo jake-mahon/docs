@@ -1,6 +1,6 @@
 # Resource
 
-### /api/Resource/{type}
+### /api/Resource/`{type}`
 
 #### Get
 
@@ -46,7 +46,7 @@ Creates a resource.
 | --- | --- | --- |
 | 200 | The result of the resource creation. |  |
 
-### /api/Resource/Incremental/{type}/{date}
+### /api/Resource/Incremental/`{type}`/`{date}`
 
 #### Get
 
@@ -75,7 +75,7 @@ Note: If no page size is specified, the default value of 1,000 is taken into con
 | --- | --- | --- |
 | 200 | Resources modified from a given date. |  |
 
-### /api/Resource/{type}/{id}
+### /api/Resource/`{type}`/`{id}`
 
 #### Get
 

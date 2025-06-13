@@ -8,7 +8,7 @@ NOTE: Pages and fields on the Create Mailbox wizard may vary from those discusse
 
 What do you want to do?
 
-- [Create a mailbox in Active Directory](#Create-a-mailbox-in-Active-Directory)
+- [Create a mailbox in Active Directory](#create-a-mailbox-in-active-directory)
 
 ## Create a mailbox in Active Directory
 

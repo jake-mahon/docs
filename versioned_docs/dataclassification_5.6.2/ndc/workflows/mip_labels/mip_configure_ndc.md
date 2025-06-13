@@ -10,6 +10,6 @@ Netwrix Data Classification for Files and Folders supports MIP labels as Workflo
    | Client ID | Application (client) ID |
    | Application Name | Display name |
    | Tenant | Directory (tenant) ID |
-   | Certificate Thumbprint | Provide certificate thumbprint you copied and stored on this step: [Upload the .CER file to Azure](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md#Upload-the-CER-file-to-Azure). |
+   | Certificate Thumbprint | Provide certificate thumbprint you copied and stored on this step: [Upload the .CER file to Azure](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md). |
 
-__NOTE:__  Any labels and policies in API should be migrated / synced with O365 Security & Compliance. Review the following Microsoft article for more information: [To migrate Azure Information Protection labels](https://docs.microsoft.com/en-us/azure/information-protection/configure-policy-migrate-labels#To-migrate-Azure-Information-Protection-labels)
+__NOTE:__  Any labels and policies in API should be migrated / synced with O365 Security & Compliance. Review the following Microsoft article for more information: [To migrate Azure Information Protection labels](https://docs.microsoft.com/en-us/azure/information-protection/configure-policy-migrate-labels#to-migrate-azure-information-protection-labels)

@@ -4,7 +4,7 @@ By default, Netwrix Auditor API uses HTTPS for sending requests to its endpoints
 
 The automatically generated Netwrix API certificate is located in the Personal store. To enable trust on remote computers, install this certificate in the Trusted Root Certification Authorities store.
 
-[![certificatestore](/img/versioned_docs/auditor_10.6/auditor/api/certificatestore.png)](/versioned_docs/auditor_10.6/resources/images/auditor/api/certificatestore.png)
+![certificatestore](/img/versioned_docs/auditor_10.6/auditor/api/certificatestore.png)
 
 To manage API security settings with APIAdminTool.exe
 

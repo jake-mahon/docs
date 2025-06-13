@@ -18,8 +18,8 @@ __NOTE:__ To apply the options you set in each section, click the __Save__ butto
 | __Content Field Mappings__ |  |  |
 | The values configured for each of the default content mappings will be assigned based on the base template of the list (Document Library, Generic List etc). |  |  |
 
-[![sharepointadvancedsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourceconfiguration_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sharepointadvancedsourceconfiguration.png)
+![sharepointadvancedsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourceconfiguration_thumb_0_0.png)
 
-[![sharepointadvancedspecialfieldmappings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedspecialfieldmappings_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sharepointadvancedspecialfieldmappings.png)
+![sharepointadvancedspecialfieldmappings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedspecialfieldmappings_thumb_0_0.png)
 
-[![sharepointadvancedsourcecontentmappings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourcecontentmappings_thumb_0_0.png)](/versioned_docs/dataclassification_5.6.2/images/sharepointadvancedsourcecontentmappings.png)
+![sharepointadvancedsourcecontentmappings_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedsourcecontentmappings_thumb_0_0.png)

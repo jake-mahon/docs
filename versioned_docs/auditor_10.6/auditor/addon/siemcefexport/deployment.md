@@ -1,7 +1,7 @@
 ## Choose Appropriate Execution Scenario
 
 Netwrix Auditor Netwrix Risk Insights runs on any computer in your environment. For example, you can run the add-on on the computer where Netwrix Auditor is installed or on a remote server. Depending on the execution scenario you choose, you have to define a different set of parameters.
-See the [Define Parameters](/versioned_docs/auditor_10.6/auditor/addon/siemcefexport/parameters.md#Define-Parameters) topic for additional information.
+See the [Define Parameters](/versioned_docs/auditor_10.6/auditor/addon/siemcefexport/parameters.md) topic for additional information.
 
 Netwrix suggests the following execution scenarios:
 

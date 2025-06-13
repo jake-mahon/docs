@@ -6,7 +6,7 @@ The Historical sessions dashboard shows all created sessions and their status. O
 
 The dashboard has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. See the [Searches](#Searches) topic for additional information.
+- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results. See the [Searches](#searches) topic for additional information.
 - Filter — Provides options to filter results based on a chosen criterion:
 
   - All Historical tab — Shows all sessions for all users

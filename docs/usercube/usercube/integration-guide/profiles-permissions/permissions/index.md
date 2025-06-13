@@ -222,10 +222,10 @@ Here is a list of permissions required for different user profiles:
   Permission to perform bulk validations on the __Role Reconciliation__ page.
 - /Custom/ProvisioningPolicy/PendingAssignedResourceTypes/`{resourceType_identifier}`
 
-  Permission to query and read all the pending assigned resource types linked to ```{resourceType_identifier}```.
+  Permission to query and read all the pending assigned resource types linked to ``{resourceType_identifier}``.
 - /Custom/ProvisioningPolicy/PerformManualProvisioning/`{entityType_identifier}`
 
-  Permission to perform manual provisioning, access the corresponding screens and be notified accordingly, when ```{entityType_identifier}``` is the source entity type.
+  Permission to perform manual provisioning, access the corresponding screens and be notified accordingly, when ``{entityType_identifier}`` is the source entity type.
 - /Custom/ProvisioningPolicy/ReconciliateResources/`{entityType_identifier}`
 
   Permission to reconcile resources corresponding to an access right owned by an object of type ```entityType_identifier```.

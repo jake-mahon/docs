@@ -50,7 +50,7 @@ __Step 3 –__ To access this risk quickly, pin it to the home page, as follows:
 2. Click Add tile.
 3. Search the group of risks you want to pin to the home page (in this case, the "_Permissions_" risks group):
 
-   [![scenario_risks](/img/versioned_docs/auditor_10.6/auditor/admin/navigation/scenario_risks.png)](/versioned_docs/auditor_10.6/resources/images/auditor/homescreen/scenario_risks.png)
+   ![scenario_risks](/img/versioned_docs/auditor_10.6/auditor/admin/navigation/scenario_risks.png)
 
 __Step 4 –__ Click Add.
 

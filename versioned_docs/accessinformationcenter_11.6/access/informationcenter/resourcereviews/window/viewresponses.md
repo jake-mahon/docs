@@ -1,6 +1,6 @@
 # View Responses Window
 
-The View Responses window opens from the __View Response__ button on the [Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#Review-Details-Page) of the Resource Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
+The View Responses window opens from the __View Response__ button on the [Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#review-details-page) of the Resource Reviews interface. It displays all owner-recommended changes and notes for the selected resource.
 
 ![View Responses window](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/viewresponses.png)
 
@@ -27,7 +27,7 @@ If the Access Information Center has been configured to commit Active Directory 
 - Access and Permissions — If the prerequisite of resource based groups are set up for the resources, click accept will change group membership for the trustee. If the desire is to change access, the trustee is moved to the group with the desired access or permissions and removed from the group granting the current access or permissions. If the desire is to remove access, the trustee is removed from the group granting the current access or permissions.
 - Sensitive Data — The only action that can be committed is to flag a file as a false positive for the selected criteria
 
-See the [Data Collection & Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#Data-Collection-Automation-Prerequisites) topic for additional information.
+See the [Data Collection & Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md) topic for additional information.
 
 The table data grid functions the same way as other table grids. See the [Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic for additional information.
 

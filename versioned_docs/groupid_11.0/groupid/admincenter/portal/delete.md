@@ -4,8 +4,8 @@ You can delete a portal or a deployment instance of a portal. On deleting a port
 
 What do you want to do?
 
-- [Delete a Deployment Instance for a Portal](#Delete-a-Deployment-Instance-for-a-Portal)
-- [Delete a Portal](#Delete-a-Portal)
+- Delete a Deployment Instance for a Portal
+- Delete a Portal
 
 ## Delete a Deployment Instance for a Portal
 
@@ -16,10 +16,10 @@ A portal can have multiple deployment instances. When you delete an instance, th
   - The portal directory under the following location on the GroupID server:  
     X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\  
     (X represents the GroupID installation drive)
-  - The portal’s directory in the IIS site
+  - The portal's directory in the IIS site
 - __For an instance in remote IIS:__
 
-  - The portal’s directory in the remote IIS site
+  - The portal's directory in the remote IIS site
   - The portal's physical directory under the folder mapped to the remote IIS site
 - __For an instance in Docker:__
 

@@ -8,10 +8,10 @@ On logging into GroupID portal, you land on the dashboard.
 
 Use the following to navigate within the application:
 
-- [Quick Search](#Quick-Search)
-- [Top right options](#Top-right-options)
-- [Menu pane](#Menu-pane)
-- [The Dashboard](#The-Dashboard)
+- [Quick Search](#quick-search)
+- [Top right options](#top-right-options)
+- [Menu pane](#menu-pane)
+- [The Dashboard](#the-dashboard)
 
 ## Quick Search
 

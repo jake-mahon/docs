@@ -16,7 +16,7 @@ The following analysis tasks are selected by default:
 
 - Folder Metrics Details – Creates the Box\_FolderMetrics\_Details table accessible under the job’s Results node
   - Set to consider content stale after 30 days which is the @STALETHRESHOLD parameter value
-  - See the [Customizable Analysis Tasks for the Box\_FolderMetrics Job](#Customizable-Analysis-Tasks-for-the-Box_FolderMetrics-Job) topic for additional information.
+  - See the [Customizable Analysis Tasks for the Box\_FolderMetrics Job](#customizable-analysis-tasks-for-the-box_foldermetrics-job) topic for additional information.
 - Largest Folders – Creates the Box\_FolderMetrics\_Largest table accessible under the job’s Results node
 - Smallest Non-Empty Folders – Creates the Box\_FolderMetrics\_Smallest table accessible under the job’s Results node
 

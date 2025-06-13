@@ -8,7 +8,7 @@ The FS\_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The FS\_BrokenInheritance job has the following configurable parameter:
 
@@ -17,7 +17,7 @@ The FS\_BrokenInheritance job has the following configurable parameter:
   - 1 – Only analyze resources with changed permissions from parent
   - 2 – Analyze all resources regardless of permission changes between parent and child
 
-See the [Analysis Tasks for the FS\_BrokenInheritance Job](#Analysis-Tasks-for-the-FS_BrokenInheritance-Job) topic for additional information.
+See the [Analysis Tasks for the FS\_BrokenInheritance Job](#analysis-tasks-for-the-fs_brokeninheritance-job) topic for additional information.
 
 ## Analysis Tasks for the FS\_BrokenInheritance Job
 
@@ -32,13 +32,13 @@ The following analysis tasks are selected by default:
 - 1. Analyze Broken Inheritance
 
   - Creates an interim processing table in the database for use by downstream analysis and report generation
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrustees table accessible under the job’s Results node
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table accessible under the job’s Results node
+  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrustees table accessible under the job's Results node
+  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table accessible under the job's Results node
 - 2. Choose to analyze only folders with modified permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
   - By default set to only analyze resources with changed permissions from parent
-  - Can be modified to analyze all resources regardless of permission changes between parent and child. See the [Parameter Configuration](#Parameter-Configuration) topic for additional information.
-  - Alternatively, this can be set by modifying the ```@FILTER_TO_CHANGED_RESOURCES``` parameter. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md#Configure-the-Customizable-Parameters-in-an-Analysis-Task) topic for additional information.
+  - Can be modified to analyze all resources regardless of permission changes between parent and child. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
+  - Alternatively, this can be set by modifying the ```@FILTER_TO_CHANGED_RESOURCES``` parameter. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 - 3. Determine Permission Changes – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 4. Analyze Trustee Differences – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 5. Inheritance Types. Categorizes Permission Changes – Creates an interim processing table in the database for use by downstream analysis and report generation
@@ -46,8 +46,8 @@ The following analysis tasks are selected by default:
 
 The following analysis tasks are deselected by default:
 
-- 7. Bring Table to Console - Unique trustees – Restores the SA\_FS\_BrokenInheritance\_UniqueTrustees table to be visible under the job’s Results node
-- 8. Bring Table to Console - Trustees pivot – Restores the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table to be visible under the job’s Results node
+- 7. Bring Table to Console - Unique trustees – Restores the SA\_FS\_BrokenInheritance\_UniqueTrustees table to be visible under the job's Results node
+- 8. Bring Table to Console - Trustees pivot – Restores the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table to be visible under the job's Results node
 
 In addition to the tables and views created by the analysis tasks, the FS\_BrokenInheritance job produces the following pre-configured reports:
 

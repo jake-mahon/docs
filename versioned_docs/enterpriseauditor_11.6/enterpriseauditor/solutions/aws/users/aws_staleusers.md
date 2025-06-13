@@ -4,13 +4,13 @@ The AWS\_StaleUsers job provides details on the last time each user logged in or
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#Parameter-Configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AWS\_StaleUsers job has the following configurable parameter:
 
 - Number of days before considering a user stale
 
-See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#Customizable-Analysis-Tasks-for-the-AWS_StaleUsers-Job) topic for additional information.
+See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
 
 ## Analysis Tasks for the AWS\_StaleUsers Job
 
@@ -24,7 +24,7 @@ The following analysis tasks are selected by default:
 
 - Stale Users – Identifies user accounts that have not been logged in to in the last 60 days. Creates the AWS\_StaleUser\_Details table accessible under the job’s Results node.
 
-  - The number of days can be customized from the default value of 60. See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#Customizable-Analysis-Tasks-for-the-AWS_StaleUsers-Job) topic for additional information.
+  - The number of days can be customized from the default value of 60. See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
 - Stale User Summary – Summarizes stale users in AWS. Creates the AWS\_StaleUser\_Summary table accessible under the job’s Results node.
 
 ### Customizable Analysis Tasks for the AWS\_StaleUsers Job

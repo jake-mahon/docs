@@ -38,11 +38,11 @@ Schedule the job as required.
 
 Query Configuration
 
-This job contains configurable queries. See the [Configure the AnyID\_CSV Query](#Configure-the-AnyID_CSVQuery) topic for additional information.
+This job contains configurable queries. See the [Configure the AnyID\_CSV Query](#configure-the-anyid_csvquery) topic for additional information.
 
 Analysis Configuration
 
-See the [Analysis Tasks for the AnyID\_CSV Job](#Analysis-Tasks-for-the-AnyID_CSVJob) topic for additional information.
+See the [Analysis Tasks for the AnyID\_CSV Job](#analysis-tasks-for-the-anyid_csvjob) topic for additional information.
 
 Workflow
 
@@ -62,7 +62,7 @@ The AnyID\_CSV query uses the PowerShell Data Collector.
 
 The query is:
 
-- CSV Import – Imports identities and attributes from a CSV file. See the [Configure the AnyID\_CSV Query](#Configure-the-AnyID_CSVQuery) topic for additional information.
+- CSV Import – Imports identities and attributes from a CSV file. See the [Configure the AnyID\_CSV Query](#configure-the-anyid_csvquery) topic for additional information.
 
 ### Configure the AnyID\_CSV Query
 

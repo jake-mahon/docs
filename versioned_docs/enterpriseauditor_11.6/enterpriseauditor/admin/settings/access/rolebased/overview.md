@@ -10,7 +10,7 @@ __NOTE:__ The least privileged access model to the Enterprise Auditor Console do
 
 __CAUTION:__ Please use caution when enabling Role Based Access, as it is a very powerful tool within the console designed to be difficult to disable once activated. If Role Based Access is enabled by accident, please contact [Netwrix Support](https://www.netwrix.com/support.html) for assistance in disabling it.
 
-The account used to perform the initial Enterprise Auditor installation, as well as to change Storage Profile settings after installation, require additional rights in order to query objects in the master database. See the [Configure the Installation Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md#Configure-the-Installation-Account) topic for additional information on this account.
+The account used to perform the initial Enterprise Auditor installation, as well as to change Storage Profile settings after installation, require additional rights in order to query objects in the master database. See the [Configure the Installation Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md#configure-the-installation-account) topic for additional information on this account.
 
 To enable Role Based Access within Enterprise Auditor, corresponding roles must first be created within SQL Management Studio. Then Enterprise Auditor users must be assigned roles both in SQL Management Studio and in Enterprise Auditor.
 

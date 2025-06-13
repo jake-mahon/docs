@@ -68,4 +68,4 @@ __Step 2 –__ Run the __2-Dropbox\_Permissions Bulk Import__ job (for sensitive
 
 __Step 3 –__ Run the desired corresponding analysis and reporting sub-job groups.
 
-_Remember,_ prior to running the Dropbox solution for the first time, it is necessary to generate an access token to be used in the Connection Profile. This only needs to be done once. See the [Configure the Dropbox Access Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/1-dropbox_permissions_scan.md#Configure-the-Dropbox-Access-Query) topic for additional information.
+_Remember,_ prior to running the Dropbox solution for the first time, it is necessary to generate an access token to be used in the Connection Profile. This only needs to be done once. See the [Configure the Dropbox Access Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query) topic for additional information.

@@ -1,6 +1,6 @@
 # 1-AD\_Scan Job
 
-The 1-AD\_Scan Job collects data from Active Directory. In most environments, this job requires no additional customizations before running it. Optionally, the job can be configured to scope scan options and to collect custom attributes. For enable SSL encryption for communication with Active Directory, see the [Enable SSL Option](#Enable-SSLOption) topic for additional information.
+The 1-AD\_Scan Job collects data from Active Directory. In most environments, this job requires no additional customizations before running it. Optionally, the job can be configured to scope scan options and to collect custom attributes. For enable SSL encryption for communication with Active Directory, see the [Enable SSL Option](#enable-ssloption) topic for additional information.
 
 ## Queries for the 1-AD Scan Job
 
@@ -10,7 +10,7 @@ The 1-AD\_Scan Job uses the ADInventory Data Collector for the following query:
 
 - AD Inventory – Targets a domain controller to collect inventory data for user, group, and computer objects
 
-  - This query can be modified. See the [Customize the 1-AD\_Scan Query](#Customize-the-1-AD_Scan-Query) topic for additional information.
+  - This query can be modified. See the [Customize the 1-AD\_Scan Query](#customize-the-1-ad_scan-query) topic for additional information.
 
 ### Customize the 1-AD\_Scan Query
 
@@ -39,7 +39,7 @@ __Step 5 –__ (Optional) On the Custom Attributes page, add any desired custom 
 
 __Step 6 –__ Navigate to the Summary page. Click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-__NOTE:__ In order for the Access Information Center to populate NFS permissions within File System reports, the .Active Directory Inventory Job Group must be configured to collect the __uid__ and __uidNumber__ attributes for Users. See the [NFS Permissions for the AIC ](#NFS-Permissions-for-the-AIC) topic for additional information.
+__NOTE:__ In order for the Access Information Center to populate NFS permissions within File System reports, the .Active Directory Inventory Job Group must be configured to collect the __uid__ and __uidNumber__ attributes for Users. See the [NFS Permissions for the AIC ](#nfs-permissions-for-the-aic) topic for additional information.
 
 The 1-AD\_Scan Job is now ready to run with the customized settings. If any custom attributes are added to the data collection, the __Create Extended Attributes View__ analysis task can be enabled in order to have visibility into the collected data.
 

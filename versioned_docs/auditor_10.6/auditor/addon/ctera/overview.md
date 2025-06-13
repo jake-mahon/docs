@@ -23,7 +23,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 ### Configure Logging for CTERA Edge Filer
 
-Prior to start using the Add-On, configure syslog logging settings on your CTERA Edge Filers. See the [Configuring Syslog Settings](https://kb.ctera.com/docs/configuring-logging#Configuring-Syslog-Settings) article on the CTERA product documentation portal for detailed instructions.
+Prior to start using the Add-On, configure syslog logging settings on your CTERA Edge Filers. See the [Configuring Syslog Settings](https://kb.ctera.com/docs/configuring-logging#configuring-syslog-settings) article on the CTERA product documentation portal for detailed instructions.
 
 ### Accounts and Rights
 
@@ -32,7 +32,7 @@ By default, the add-on will run under the _Local System_ account. The add-on and
 ### Considerations and Limitations
 
 - The Add-On must be deployed in the same subnet as CTERA Edge Filer and Auditor.
-- If the monitoring plan name in the _<NetwrixAuditorPlan>_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
+- If the monitoring plan name in the _`<NetwrixAuditorPlan>`_ add-on configuration parameter is specified incorrectly, this may lead to temp files generation and, therefore, to inefficient disk space usage.
 - If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and you should specify another port when configuring the add-on settings (see the [Install Add-On](/versioned_docs/auditor_10.6/auditor/addon/ctera/install.md) and [Define Parameters](/versioned_docs/auditor_10.6/auditor/addon/ctera/parameters.md) topics for additional information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice

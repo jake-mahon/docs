@@ -36,12 +36,12 @@ NOTE: Note the following for a Microsoft Entra ID based identity store:
 
 What do you want to do?
 
-- [Change a group's primary owner](#Change-a-groups-primary-owner)
-- [Set additional owners for a group](#Set-additional-owners-for-a-group)
-- [Import additional owners for a group](#Import-additional-owners-for-a-group)
-- [Export additional owners](#Export-additional-owners)
-- [Change an additional owner’s ownership type](#Change-an-additional-owners-ownership-type)
-- [Set Exchange additional owners](#Set-Exchange-additional-owners)
+- [Change a group's primary owner](#change-a-groups-primary-owner)
+- [Set additional owners for a group](#set-additional-owners-for-a-group)
+- [Import additional owners for a group](#import-additional-owners-for-a-group)
+- [Export additional owners](#export-additional-owners)
+- [Change an additional owner’s ownership type](#change-an-additional-owners-ownership-type)
+- [Set Exchange additional owners](#set-exchange-additional-owners)
 
 ## Change a group's primary owner
 

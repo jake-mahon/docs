@@ -8,7 +8,7 @@ Location
 
 The Location section provides options to scope the search.
 
-- Fixed path – Supply a fixed path or use wildcards and system variables. Fixed paths are typically entered in the following format: ```drive\filepath``` (for example, ```C:\WINNT\System32```). Click the ellipsis to open the Remote Folder Explorer and browse to add file paths to the search scope. See the [Remote Folder Explorer](#Remote-Folder-Explorer) topic for additional information.
+- Fixed path – Supply a fixed path or use wildcards and system variables. Fixed paths are typically entered in the following format: ```drive\filepath``` (for example, ```C:\WINNT\System32```). Click the ellipsis to open the Remote Folder Explorer and browse to add file paths to the search scope. See the [Remote Folder Explorer](#remote-folder-explorer) topic for additional information.
 - Current Job Directory – Search the job’s root folder for the specified file
 - Registry Lookup – Select this option to programmatically obtain a file path from a registry key that exists on the target host in the environment. Click the ellipsis to open the Enterprise Auditor Registry Browser and connect to a host to select a registry key and path to be used for the lookup.
 

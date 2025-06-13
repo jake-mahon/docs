@@ -16,11 +16,11 @@ The agent is configured thanks to the [appsettings.agent.json](/versioned_docs/u
 
 It is recommended to run the Usercube agent as an IIS website.
 
-To install Usercube's agent as a Windows service, please jump to [Install the agent As a Windows Service](#Install-the-agent-As-a-Windows-Service).
+To install Usercube's agent as a Windows service, please jump to [Install the agent As a Windows Service](#install-the-agent-as-a-windows-service).
 
 Adding Usercube's agent as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 
-The Microsoft Documentation provides the [prerequisites](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0) and the procedure to [create a new IIS site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#create-a-new-IIS-site).
+The Microsoft Documentation provides the [prerequisites](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0) and the procedure to [create a new IIS site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#create-a-new-iis-site).
 
 The information needed to go through the creation process are the following:
 
@@ -76,7 +76,7 @@ The agent, through Usercube's server IIS Website, should be assigned a [service 
 
 You can either:
 
-- Use the _built-in application pool identity_ (see [Check default behavior](#Check-default-behavior)) and grant this identity the right permissions.
+- Use the _built-in application pool identity_ (see [Check default behavior](#check-default-behavior)) and grant this identity the right permissions.
 - Use a _custom Windows service account_ with the right permissions and use it as an IIS identity for Usercube's agent IIS Website.
 
 ### Check default behavior
@@ -95,9 +95,9 @@ Before going further, you should check the following points:
 
 From there:
 
-- If the _built-in application pool identity_ has been created but does not have the right permissions, you can use [Set the working directory permissions](#Set-the-working-directory-permissions) to fix it. Go back to [Set an IIS Identity](#Set-an-IIS-Identity) to make sure that the _built-in application pool identity_ is effectively used by Usercube's server IIS Website.
-- If you would rather use a custom service account instead of the _built-in application pool identity_, start with [Set an IIS Identity](#Set-an-IIS-Identity).
-- If you're not sure what to do, follow the procedure below, starting with [Set up IIS Identity](#Set-up-IIS-Identity).
+- If the _built-in application pool identity_ has been created but does not have the right permissions, you can use [Set the Agent Permissions](#set-the-agent-permissions) to fix it. Go back to [Set an IIS Identity](#set-an-iis-identity) to make sure that the _built-in application pool identity_ is effectively used by Usercube's server IIS Website.
+- If you would rather use a custom service account instead of the _built-in application pool identity_, start with [Set an IIS Identity](#set-an-iis-identity).
+- If you're not sure what to do, follow the procedure below, starting with [Set an IIS Identity](#set-an-iis-identity).
 
 ### Set an IIS Identity
 
@@ -105,7 +105,7 @@ If you want to use the __built-in application pool identity__ created with the a
 
 If you'd rather use a __custom service account__ created for Usercube's agent, follow the procedure below.
 
-The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Usercube's agent. This can be achieved by following the [same steps as for the server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#same-steps-as-for-the-server):
+The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Usercube's agent. This can be achieved by following the [same steps as for the server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#create-the-service-account):
 
 1. Open the IIS Manager (```INETMGR.MSC```).
 2. Open the __Application Pools__ node underneath the machine node.
@@ -226,7 +226,7 @@ appsettings.agent.json
 }
 ```
 
-Storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the [Credentials Protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md#Credentials-Protection) methods.
+Storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the [Credentials Protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md#credentials-protection) methods.
 
 ## Encryption Key Pair
 
@@ -257,7 +257,7 @@ Public key certificates can also be bought from trusted certificate providers an
 
 The certificate has to be linked to Usercube via ```EncryptionCertificate``` in the ```appsettings.agent.json``` file.
 
-For more information about configuration parameters, see [EncryptionCertificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#EncryptionCertificate).
+For more information about configuration parameters, see [EncryptionCertificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryptioncertificate).
 
 ### Certificate as a plain file
 
@@ -304,7 +304,7 @@ The connection to Usercube's server is configured through:
 
 __1.__ The ```applicationUri``` attribute in the ```Runtime/appsettings.agent.json``` file has to be set to Usercube's server URL.
 
-__2.__[OpenIdClients](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#OpenIdClients) and [DefaultOpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#DefaultOpenIdClient) must be used to set the agent's credentials to connect to the server.
+__2.__[OpenIdClients](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#openidclients) and [DefaultOpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#defaultopenidclient) must be used to set the agent's credentials to connect to the server.
 
 Their content should be provided by the integration team, in relation to the [_OpenIdClient_ tag](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) in the applicative configuration.
 

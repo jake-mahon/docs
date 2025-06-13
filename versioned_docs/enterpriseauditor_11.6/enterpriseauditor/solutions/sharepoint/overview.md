@@ -42,9 +42,9 @@ This SharePoint solution offers information on multiple aspects of an organizati
 
 The following types of auditing can be conducted with the SharePoint Solution:
 
-- [SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Access-Auditing)
-- [SharePoint Activity Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Activity-Auditing)
-- [SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#SharePoint-Sensitive-Data-Discovery-Auditing-SEEK)
+- [SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing)
+- [SharePoint Activity Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-activity-auditing)
+- [SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
 
 Each type of auditing depends on specific jobs within the 0.Collection Job Group to collect the data and its corresponding analysis/reporting job groups. The Access Auditing components represent the core of the SharePoint Solution. However, the Sensitive Data Discovery Auditing components also collect the Access Auditing data; therefore it is not necessary to run both sets of collection jobs. The data collection query options for each type are explained within the 0.Collection Job Group section. Additionally, the corresponding analysis/reporting job groups are listed for each auditing type.
 

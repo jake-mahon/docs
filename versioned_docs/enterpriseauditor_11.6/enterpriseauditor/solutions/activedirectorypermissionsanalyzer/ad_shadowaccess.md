@@ -32,7 +32,7 @@ The default analysis tasks are:
 - String Split – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Calculate Shadow Access – Creates the SA\_ShadowAccess\_Details table accessible under the job’s Results node
 
-  - This Analysis Task has configurable parameters. See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#Configure-the-Analysis-Tasks-for-the-AD_ShadowAccess-Job) topic for additional information.
+  - This Analysis Task has configurable parameters. See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
 - Shadow Access Paths Cleanup – Removes calculated rows that are no longer used
 
 In addition to the tables and views created by the analysis tasks, the AD\_ShadowAccess Job produces the following pre-configured reports.
@@ -42,7 +42,7 @@ In addition to the tables and views created by the analysis tasks, the AD\_Shado
 | Domain Shadow Access | This report will calculate the shortest path between highly sensitive privileges and non-privileged users. | None | This report is comprised of five elements:   - Bar Chart – Displays summary information on targeted domain - Table – Provides details on targeted domain in table form - Table – Provides details on exploited permissions - Table – Provides details on vulnerabilities - Table – Provides details on domain users and attack paths that can be used against those domain users |
 | Sensitive Data Shadow Access | This report will calculate the shortest path between highly sensitive data and non-privileged users. | None | This report is comprised of five elements:   - Bar Chart – Displays summary information on sensitive data - Table – Provides details on sensitive data in table form - Table – Provides details on exploited permissions - Table – Provides details on vulnerabilities - Table – Provides details on domain users and attack paths that can be used against those domain users |
 
-See the [Report Functions for the AD\_ShadowAccess Job](#Report-Functions-for-the-AD_ShadowAccess-Job) topic for additional information.
+See the [Report Functions for the AD\_ShadowAccess Job](#report-functions-for-the-ad_shadowaccess-job) topic for additional information.
 
 ### Customizable Analysis Tasks for the AD\_ShadowAccess Job
 
@@ -58,7 +58,7 @@ The default values for customizable parameters are:
 | @sdholder | 1 | Set to 0 to ignore sdadminholder |  |
 | @disabled | 0 | Set to 0 to ignore disabled users |  |
 
-See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#Configure-the-Analysis-Tasks-for-the-AD_ShadowAccess-Job) topic for additional information.
+See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
 
 ### Configure the Analysis Tasks for the AD\_ShadowAccess Job
 

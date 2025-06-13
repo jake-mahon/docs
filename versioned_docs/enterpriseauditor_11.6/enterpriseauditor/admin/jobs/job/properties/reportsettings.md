@@ -4,6 +4,6 @@ The Report Settings tab is for configuring publishing of Enterprise Auditor repo
 
 ![Report Settings tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.png)
 
-Use the Publish Options drop-down menu to customize the publish setting for the job. To configure custom Email settings for the job, select the __Use These Email Settings__ option and then provide the desired Email information. Multiple email addresses can be input by adding a semicolon (;) and space between entries. See the [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md#Reporting-Node) topic for additional information on the Publish and Email options.
+Use the Publish Options drop-down menu to customize the publish setting for the job. To configure custom Email settings for the job, select the __Use These Email Settings__ option and then provide the desired Email information. Multiple email addresses can be input by adding a semicolon (;) and space between entries. See the [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md) topic for additional information on the Publish and Email options.
 
 Click __OK__ to save configuration changes and close the Job Properties window. Click __Cancel__ if no changes were made.

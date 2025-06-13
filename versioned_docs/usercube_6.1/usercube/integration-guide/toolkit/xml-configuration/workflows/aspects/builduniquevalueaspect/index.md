@@ -23,7 +23,7 @@ The following example generates bots' logins during their creation.
 | ExpressionBinding   optional | __Type__    String   __Description__   Binding:   - that defines the variable type used in the potential expressions specified in the aspect;   - whose difference with ```Binding``` defines the property involved in the aspect.   __Note:__ required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
 | HistorizeBinding   optional | __Type__    String   __Description__   Binding that stores all the old values computed by the aspect. |
 | HistorizeSeparator   default value: � | __Type__    String   __Description__   Defines the character used as a separator in the ```HistorizeBinding``` property. |
-| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
 | IterationsCount   default value: 0 | __Type__    String   __Description__   Maximum number of computation attempts without finding a unique value.   __Note:__ a variable named ```iteration``` is available to use the attempt number in the expressions of the aspect and/or of the potential unicity check rules, for example to help manage homonyms. Hence, a custom variable cannot be declared with the name ```iteration```. |
 | Message\_L1   default value: | __Type__    String   __Description__   Message in language 1 (up to 16) to be displayed when the value generation failed, i.e. when ```IterationsCount``` is exceeded. |
 | OnlyIfNew   default value: false | __Type__    String   __Description__   ```true``` to trigger the aspect only for the creation of new resources. |
@@ -48,9 +48,9 @@ The position of the pointcut is specified by an activity state and a mode (befor
 
 ## Child Element: UnicityCheckRule
 
-A unicity check rule ensures that the expression computed by a [```BuildUniqueValue```aspect](#BuildUniqueValueaspect) for a given property is unique, i.e. not yet used by another resource, in a given entity type.
+A unicity check rule ensures that the expression computed by a [```BuildUniqueValue```aspect](#builduniquevalueaspect) for a given property is unique, i.e. not yet used by another resource, in a given entity type.
 
-The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the [```SqlCheckExpression```](#SqlCheckExpression) property of the aspect.
+The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the [```SqlCheckExpression```](#sqlcheckexpression) property of the aspect.
 
 The value of the source binding/expression is computed based on the properties of the source resource which is the resource whose property we compute via the ```BuildUniqueValue``` aspect.
 
@@ -186,7 +186,7 @@ return result;" />
 | Property | Details |
 | --- | --- |
 | SourceBinding   optional | __Type__    Int64   __Description__   Binding property (from the source entity type specified in the corresponding workflow) whose value is to be compared with the existing values of the target binding/expression.   __Note:__ when not specified, the unicity check rule uses the binding from the aspect. |
-| SourceExpression   optional | __Type__    String   __Description__   Binding expression (based on properties from the source entity type specified in the corresponding workflow) whose value is to be compared with the existing values of the target binding/expression. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions).   __Note:__ when not specified, the unicity check rule uses the expression from the aspect. |
+| SourceExpression   optional | __Type__    String   __Description__   Binding expression (based on properties from the source entity type specified in the corresponding workflow) whose value is to be compared with the existing values of the target binding/expression. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions).   __Note:__ when not specified, the unicity check rule uses the expression from the aspect. |
 | TargetBinding   optional | __Type__    Int64   __Description__   Binding property (from the target entity type) whose values corresponding to existing resources are to be compared with the value of the source binding/expression. |
 | TargetEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type for which the rule checks the property's unicity. |
-| TargetExpression   optional | __Type__    String   __Description__   Binding expression (based on properties from the target entity type) whose values corresponding to existing resources are to be compared with the value of the source binding/expression. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#See-more-details-on-C-expressions). |
+| TargetExpression   optional | __Type__    String   __Description__   Binding expression (based on properties from the target entity type) whose values corresponding to existing resources are to be compared with the value of the source binding/expression. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |

@@ -4,12 +4,12 @@ Admin Center provides a variety of options to helpdesk users for resetting passw
 
 NOTE: You can reset passwords of unenrolled users if (a) the __Reset Any Password__ permission has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
-Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#Helpdesk-Policy) topic.
+Helpdesk users may have to authenticate end users before resetting their passwords. See the [Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
 What do you want to do?
 
-- [Reset Passwords in Unrestricted Mode](#Reset-Passwords-in-Unrestricted-Mode)
-- [Reset Passwords in Restricted Mode](#Reset-Passwords-in-Restricted-Mode)
+- [Reset Passwords in Unrestricted Mode](#reset-passwords-in-unrestricted-mode)
+- [Reset Passwords in Restricted Mode](#reset-passwords-in-restricted-mode)
 
 ## Reset Passwords in Unrestricted Mode
 
@@ -76,7 +76,7 @@ __To reset a password in restricted mode:__
 
    NOTE: Helpdesk cannot authenticate users with the Link Account, YubiKey, and Windows Hello authentication types.
 5. Click __Next__.
-6. On the __Reset__ page, you can reset the password. Follow step 4 and onwards in the [Reset Passwords in Unrestricted Mode](#Reset-Passwords-in-Unrestricted-Mode) topic for details.
+6. On the __Reset__ page, you can reset the password. Follow step 4 and onwards in the [Reset Passwords in Unrestricted Mode](#reset-passwords-in-unrestricted-mode) topic for details.
 
 __See Also__
 

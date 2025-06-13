@@ -45,7 +45,7 @@ The Enablement Toolkit window fields vary depending on the selected operation. T
     - Description – A brief summary of the selected action
 - Operation Menu – The operation menu drop-down list contains the following operations:
 
-  __NOTE:__ See the [Enablement Toolkit Operations ](#Enablement-Toolkit-Operations)topic for additional information about each operation.
+  __NOTE:__ See the [Enablement Toolkit Operations ](#enablement-toolkit-operations)topic for additional information about each operation.
 
   - Enumerate Active Directory Objects
   - Verify Domain Group Membership for Credential

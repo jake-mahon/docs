@@ -206,18 +206,18 @@ __Step 1 –__ Navigate to the Subscriptions blade and click the __Access Contro
 
 ![Azure SQL - Add a Role Assignment](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_13z.png)
 
-__Step 2 –__ Search for and click the recently created custom role from the Role drop down. See [Create a StealthAUDIT Custom Role](#Create-a-StealthAUDIT-Custom-Role) for steps required to create a custom role in the Azure portal.
+__Step 2 –__ Search for and click the recently created custom role from the Role drop down. See [Create a StealthAUDIT Custom Role](#create-a-stealthaudit-custom-role) for steps required to create a custom role in the Azure portal.
 
-__Step 3 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#Register-an-Azure-SQLApplication) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
+__Step 3 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#register-an-azure-sqlapplication) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
 
 ![Azure SQL - Add a role assignment window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_14z.png)
 
 __Step 4 –__ Search for and select the SQL Server Contributor role in the Role drop down.
 
-__Step 5 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#Register-an-Azure-SQLApplication) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
+__Step 5 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#register-an-azure-sqlapplication) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
 
 ![Azure SQL - Access Control (IAM) window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_16z.png)
 
 __Step 6 –__ Navigate to the __Subscriptions__ blade. Click __Access Control (IAM)__.
 
-__Step 7 –__ Click the __Check access__ menu tab Search for and select the recently registered Azure SQL application from the drop down. See [Register an Azure SQL Application](#Register-an-Azure-SQLApplication) for steps required to register an Azure SQL application in the Azure portal. A preview window will appear on the right-hand side of the window.
+__Step 7 –__ Click the __Check access__ menu tab Search for and select the recently registered Azure SQL application from the drop down. See [Register an Azure SQL Application](#register-an-azure-sqlapplication) for steps required to register an Azure SQL application in the Azure portal. A preview window will appear on the right-hand side of the window.

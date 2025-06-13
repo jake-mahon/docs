@@ -4,10 +4,10 @@ SMTP settings are configured when you create the first monitoring plan in the Ne
 
 You can update notification settings at any time in the __Settings > Notifications__. Review the following for additional information:
 
-- [Modify SMTP Settings](#Modify-SMTP-Settings)
-- [Follow the steps to o send summary emails and notifications about critical events](#Follow-the-steps-to-o-send-summary-emails-and-notifications-about-critical-events)
+- [Modify SMTP Settings](#modify-smtp-settings)
+- [Configure Summary Email Recipients](#configure-summary-email-recipients)
 
-Modify SMTP Settings
+## Modify SMTP Settings
 
 Navigate to Default SMTP settings to review settings used to deliver email notifications, reports, etc., and click Modify to adjust them if necessary.
 
@@ -28,7 +28,9 @@ You can configure Activity Summary frequency, format and delivery time for each 
 
 After that, you can specify the recipient who will receive product activity and health summary emails.
 
-Follow the steps to o send summary emails and notifications about critical events
+## Configure Summary Email Recipients
+
+Follow the steps to send summary emails and notifications about critical events:
 
 __Step 1 –__ Navigate to the Summary email recipient and click Modify.
 

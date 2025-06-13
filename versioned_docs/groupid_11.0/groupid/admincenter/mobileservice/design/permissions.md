@@ -8,7 +8,7 @@ You can grant permissions on the GroupID app to security roles that exist in an 
 
 What do you want to do?
 
-- [Grant Permissions to Security Roles](#Grant-Permissions-to-Security-Roles)
+- Grant Permissions to Security Roles
 
 ## Grant Permissions to Security Roles
 

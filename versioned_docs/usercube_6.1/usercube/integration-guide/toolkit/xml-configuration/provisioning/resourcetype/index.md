@@ -155,23 +155,23 @@ Below, we illustrate the different scenarios that are possible, taking into cons
   ![suggestallcorrelations-nny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.png)
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is one Resource already correlated so due to this all future correlations will be ignored.
 
-  [![suggestallcorrelations-nyn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-nyn.png)
+  ![suggestallcorrelations-nyn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.png)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is no Resource already correlated so all Resource Types will be __Suggested__.
 
-  [![suggestallcorrelations-nyy](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-nyy.png)
+  ![suggestallcorrelations-nyy](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.png)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate `>100` will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
 
-  [![suggestallcorrelations-ynn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-ynn.png)
+  ![suggestallcorrelations-ynn](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.png)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __No__, and there is no Resource already correlated so Resource Types that have a confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__ if there are no higher matches otherwise they will be ignored.
 
-  [![suggestallcorrelations-ynn2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-ynn2.png)
+  ![suggestallcorrelations-ynn2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.png)
 
   If there are no Resources to be correlated with a confidence rate `>100`, the ones with confidence rate below 100 are Suggested.
 
-  [![suggestallcorrelations-yny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-yny.png)
+  ![suggestallcorrelations-yny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.png)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __No__ there is one Resource already correlated so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be ignored.
 
-  [![suggestallcorrelations-yyny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.png)](/versioned_docs/usercube_6.1/resources/images/suggestallcorrelations-yyny.png)
+  ![suggestallcorrelations-yyny](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.png)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ is __Yes__ one Resource could be already correlated or not so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__.
 
 ## Properties
