@@ -24,7 +24,7 @@ __CAUTION:__ Do not make changes to other wizard pages as they have been pre-con
 
 ![Filters](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.png)
 
-__Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md#sql-data-collector) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
+__Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
 
 - Select the desired database objects and click Add.
 - Use the Import CSV button to import a list from a CSV file, if desired.

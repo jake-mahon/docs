@@ -26,7 +26,7 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The NoSQL Data C
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-__Step 4 –__ Navigate to the [NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md#nosqloptions) page.
+__Step 4 –__ Navigate to the [NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md).
 
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
 
@@ -55,7 +55,7 @@ __Step 10 –__ In the Manage Connections window, click __Create New__ and add t
 - Host — Name or IP address of the host where the database is located
 - Port Number — Port number for the database. The default port is 27017.
 - Auth Database — Account used to access the database. Admin is recommended.
-- Read Preference — Read preference describes how MongoDB clients route read operations to the members of a replica set. By default, an application directs its read operations to the primary member in a replica set (i.e. read preference mode “primary”). But, clients can specify a read preference to send read operations to secondaries. Click the link for additional informatoin.
+- Read Preference — Read preference describes how MongoDB clients route read operations to the members of a replica set. By default, an application directs its read operations to the primary member in a replica set (i.e. read preference mode "primary"). But, clients can specify a read preference to send read operations to secondaries. Click the link for additional informatoin.
 - Mongo SRV Checkbox — Specifies that the information entered is for clusters or shards
 
 __Step 11 –__ Click to __Test Connection__ to verify the connection to the database with the connection profile applied to the job

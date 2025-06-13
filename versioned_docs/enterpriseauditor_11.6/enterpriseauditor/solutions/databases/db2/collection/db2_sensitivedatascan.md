@@ -28,7 +28,7 @@ __Step 4 –__ Click __Next__. The Sensitive Data Scan Settings view appears.
 
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/collection/sensitivedatajoboptions.png)
 
-__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md#sqloptions) page for additional information.
+__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md) page for additional information.
 
 __CAUTION:__ The Sensitive Data Scan Settings are preconfigured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
@@ -38,15 +38,15 @@ __Step 6 –__ Click __Next__. The Select Criteria view appears.
 
 __Step 7 –__ To modify criteria, click on __Use the following selected criteria:__ and select your choices. By default, the Sensitive Data Scan job is set to __Use Global Criteria__.
 
-__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md#sqlcriteria) page or See the [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md) page or See the [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 __Step 8 –__ Click __Next__. The Filters view appears.
 
 ![Filters](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/collection/sensitivedatafilter.png)
 
-__Step 9 –__ Click __Connections__ to open the Manage Connections window.
+__Step 9 –__ Click __Connections__ to open the Manage Connections window.
 
-__NOTE:__ SQL databases must be added to the query before they can be scanned. Before you can add a query, you must establish a connection to the database.
+__NOTE:__ SQL databases must be added to the query before they can be scanned. Before you can add a query, you must establish a connection to the database.
 
 ![Manage Connections](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/collection/sensitivedataconnection.png)
 
@@ -55,7 +55,7 @@ __Step 10 –__ In the Manage Connections window, enter the following informatio
 - Instance Label — Custom name of the instance
 - Database System — A drop down containing all available database servers. Select the Db2LUW server to configure Db2 queries.
 - Service Name — Custom name of the service
-- Host — Name or IP address of the host where the database is located. Host list is IBM DB2
+- Host — Name or IP address of the host where the database is located. Host list is IBM DB2
 - Port Number — Port number for the selected database
 - Default Database — Default Database
 
@@ -63,7 +63,7 @@ __Step 11 –__ After completing the above information fields, click __Test Conn
 
 __Step 12 –__ Navigate to the Filter page. Select Only select database objects or __All database objects__. Collection queries are configured by default to target Only select database objects.
 
-__NOTE:__ For more information on filtering, see the [SQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/filter.md#sqlfilter) page.
+__NOTE:__ For more information on filtering, see the [SQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/filter.md) page.
 
 __Step 13 –__ Click Retrieve. The Available database objects box will populate.
 

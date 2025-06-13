@@ -40,4 +40,4 @@ The default values for customizable parameters are:
 | --- | --- | --- | --- |
 | Open resources | #opengroups | Empty | Groups must be entered exactly as they are listed in SA\_SPAA\_Trustees. Copy and paste the Group name as it appears in the Name Column. |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md#configure-the-customizable-parameters-in-an-analysis-task) for additional information.
+See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) for additional information.

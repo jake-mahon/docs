@@ -6,7 +6,7 @@ The 0.Collection Job Group is comprised of jobs that process and analyze the mes
 
 The jobs in the 0.Collection Job Group are:
 
-- [.AppletStatusCheck Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/appletstatuscheck.md#appletstatuscheck-job) – Checks the health and status of the applet deployed to the target Exchange servers
+- [AppletStatusCheck Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/appletstatuscheck.md) – Checks the health and status of the applet deployed to the target Exchange servers
 - [EX\_MetricsCollection Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md) – Comprised of multiple queries that utilize the Exchange Metrics Data Collect to process and collect the message tracking logs on the Exchange servers in the environment. These queries collect server, domain, user, and distribution list traffic including but not limited to sent, received, journal, NDRs, and transports message. These queries are configured to process and collect that previous 7 days of Message Tracking Logs the first time this job is run, after that it only collects the previous day assuming persistence has not been disabled inside the query.
 - [EX\_MetricsDetails Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricsdetails.md) – Collects user to user traffic per day
 

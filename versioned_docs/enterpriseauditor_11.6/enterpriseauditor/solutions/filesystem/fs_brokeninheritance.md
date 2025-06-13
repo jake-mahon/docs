@@ -32,13 +32,13 @@ The following analysis tasks are selected by default:
 - 1. Analyze Broken Inheritance
 
   - Creates an interim processing table in the database for use by downstream analysis and report generation
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrustees table accessible under the job’s Results node
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table accessible under the job’s Results node
+  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrustees table accessible under the job's Results node
+  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table accessible under the job's Results node
 - 2. Choose to analyze only folders with modified permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
   - By default set to only analyze resources with changed permissions from parent
-  - Can be modified to analyze all resources regardless of permission changes between parent and child. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
-  - Alternatively, this can be set by modifying the ```@FILTER_TO_CHANGED_RESOURCES``` parameter. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md#configure-the-customizable-parameters-in-an-analysis-task) topic for additional information.
+  - Can be modified to analyze all resources regardless of permission changes between parent and child. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
+  - Alternatively, this can be set by modifying the ```@FILTER_TO_CHANGED_RESOURCES``` parameter. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 - 3. Determine Permission Changes – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 4. Analyze Trustee Differences – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 5. Inheritance Types. Categorizes Permission Changes – Creates an interim processing table in the database for use by downstream analysis and report generation
@@ -46,8 +46,8 @@ The following analysis tasks are selected by default:
 
 The following analysis tasks are deselected by default:
 
-- 7. Bring Table to Console - Unique trustees – Restores the SA\_FS\_BrokenInheritance\_UniqueTrustees table to be visible under the job’s Results node
-- 8. Bring Table to Console - Trustees pivot – Restores the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table to be visible under the job’s Results node
+- 7. Bring Table to Console - Unique trustees – Restores the SA\_FS\_BrokenInheritance\_UniqueTrustees table to be visible under the job's Results node
+- 8. Bring Table to Console - Trustees pivot – Restores the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table to be visible under the job's Results node
 
 In addition to the tables and views created by the analysis tasks, the FS\_BrokenInheritance job produces the following pre-configured reports:
 

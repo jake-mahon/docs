@@ -50,7 +50,7 @@ __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configur
 
 ![ExchangePS Data Collector Wizard Mail Flow page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.png)
 
-__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#exchangeps-data-collector) topic for additional information.
+__Step 4 –__ To modify the report dates, navigate to the Mail Flow page. Set the report data range as desired. See the [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md) topic for additional information.
 
 _Remember,_ the date range must be 7 days or less.
 
@@ -68,11 +68,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01.EX\_Mailflow\_History – Creates the SA\_EX\_Mailflow\_History table, accessible under the job’s Results node
-- 02.Update History Table – Updates the SA\_EX\_Mailflow\_History table, with data from the .Active Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution lists
+- 01.EX\_Mailflow\_History – Creates the SA\_EX\_Mailflow\_History table, accessible under the job's Results node
+- 02.Update History Table – Updates the SA\_EX\_Mailflow\_History table, with data from the .Active Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution lists
 - 03. SET HISTORY RETENTION – Sets retention period in months
 
-  - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
+  - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
   - Alternatively, the ```@Months``` parameter can be modified in the SQL Script Editor. See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain cleared unless specifically needed:
