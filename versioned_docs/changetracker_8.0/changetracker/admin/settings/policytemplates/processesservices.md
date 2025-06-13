@@ -1,0 +1,20 @@
+# Policy Templates: Processes and Services
+
+The __Processes__ and __Services__ tab allows Processes and/or Services (Windows only) and their states to be defined within your __Configuration Policy__ as either Whitelisted or Blacklisted.
+
+A key indicator of breach or malware activity is the existence of new processes or services. Likewise, configuration hardening and vulnerability mitigation always requires unnecessary services and daemons to be removed or disabled. Therefore, it is important to track process lists and services and their states.
+
+Any non-necessary Services or Services you are generally unconcerned about should be marked as __Ignore State__.
+
+![PolicyTemplatesProcessesServices](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.png)
+
+- ____Uncategorized Process/Service Action____ - Use this option if you want to be alerted to the presence of any new, uncategorized processes or services. This is an option as in some situations it may be convenient to be alerted to missing, key processes.
+
+- ____Polling Frequency____ - See previous Change Tracker notes.
+
+- Define Process (Service) Name - Processes/Services can be defined as either Required, Blacklisted, Whitelisted or Graylisted.
+
+  - ____Required____ - The Process/Service must be in the state required and an alert will be raised if this is not the case.
+  - Whitelisted - The Process/Service is allowed to be present, but this is not mandatory.
+  - Blacklisted - The Process/Service is never allowed to be present, and an alert will be raised if this is not the case.
+  - Graylisted- The process/service has not yet been allocated to another category.

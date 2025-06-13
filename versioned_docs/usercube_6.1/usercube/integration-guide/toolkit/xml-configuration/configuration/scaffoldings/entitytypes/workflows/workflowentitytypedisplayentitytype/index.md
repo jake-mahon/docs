@@ -1,0 +1,25 @@
+# WorkflowEntityTypeDisplayEntityType
+
+## Examples
+
+```
+
+  <WorkflowEntityTypeDisplayEntityType EntityType="Directory_Country"/>
+
+```
+
+## Properties
+
+| Property | Details |
+| --- | --- |
+| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
+
+## Generated XML
+
+Our example generates the following configuration:
+
+```
+
+<DisplayEntityType Identifier="Workflow_Directory_Country" />
+
+```

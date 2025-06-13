@@ -1,0 +1,86 @@
+# Group properties - Owner tab
+
+This tab displays the primary and additional owners of the group. You can do the following, depending on the Group Owner policy.
+
+- Change the primary owner or even remove it.
+- Add and remove additional owners for the group.
+
+Additional owners have the same privileges as the primary owner to manage the group.
+
+NOTE: Only users, contacts and security groups can be set as the primary and additional owners of a group.  
+ If you specify a group, all its members are considered additional owners.
+
+You can also specify Exchange additional owners for the group. See the [Group properties - Email tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/email.md) in group properties.
+
+NOTE: 1. For groups in an Microsoft Entra ID based identity store, only users can be set as primary owners. Moreover, Microsoft Entra ID supports multiple primary owners for a group. Exchange additional owners are not supported.  
+2. A group must have at least one primary owner.
+
+__Owner__
+
+The primary owner of the group.
+
+To change the primary owner, click __Browse__ next to the __Owner__ box to launch the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md),
+where you can search and select a primary owner.
+
+If the administrator has not enforced the selection of a primary owner in the Group Owner policy, you can also remove the primary
+owner. Click the __Remove__ button next to the __Owner__ box to remove the primary owner.
+
+NOTE: In a Microsoft Entra ID based identity store, use the __Add__ and __Remove__ buttons to update the group's primary owners.
+
+__Suggested Owners__
+
+The GroupID portal can suggest a primary owner for orphan groups, provided that the __Suggest Owner/Manager__ setting is enabled by the administrator in GroupID Admin Center.
+
+The owner is suggested with respect to the group’s membership; GroupID checks the managers of group members and the user who shows up most as a manager is suggested as the group owner. This user may or may not be a member of the group.
+
+For example, when 40 members of Group A have User A as their manager and 38 members have User B as a manager, User A is suggested as Group A’s primary owner. User A may not necessarily be a member of Group A.
+
+- Click __Make Owner__ to set the suggested user as the group's primary owner.
+- You may also click __Show more options__ to view a list of suggested owners.
+
+__Additional Owners__
+
+Lists the additional owners of the group, if any.
+
+The __Additional Owners__ grid displays the following information:
+
+| Column Name | Description |
+| --- | --- |
+| Type | The object type of the additional owner, such as user or group. |
+| Name | The display name of the additional owner. |
+| Ownership | Indicates whether an object is a temporary or permanent additional owner of a group. The available ownership types are:   - __Perpetual__ - To make the object a permanent additional owner of the group. - __Temporary Owner__ - To make the object a temporary additional owner of the group for the period you specify in the __Beginning__ and __Ending__ boxes. At the end of the period, the object is removed from the group ownership. - __Addition Pending__ - Indicates that the object will be a temporary additional owner of the group for a period in the future. Use the __Beginning__ and __Ending__ boxes to set a period. Before the beginning   date, the object’s ownership type is displayed as ‘Addition Pending’. On the beginning date, the ownership type changes to ‘Temporary Owner’.  __Here is an example:__  You add Smith as a temporary additional owner of Group A on May 15, 2019 for future dates, May 20-30, 2019.  Smith will be listed with Group A’s additional owners with ‘Addition Pending’ as its ownership type from May 15 to 19, 2019.  On May 20, Smith will become a temporary additional owner of Group A and its ownership type will change to ‘Temporary Owner’ from May 20 to 30, 2019.  After May 30, Smith will be removed from Group A as an additional owner. - __Removal Pending__ - Indicates that the object will be temporarily removed from group ownership for a period in the future. Use the __Beginning__ and __Ending__ boxes to set a period. Before the beginning   date, the object’s ownership type is displayed as ‘Removal Pending’. On the beginning date, the ownership type will change to ‘Temporary Removed’.  __Here is an example:__  You remove Smith as an additional owner of Group A on May 15, 2019 for future dates, May 20-30, 2019.  Smith will be displayed as Group A’s additional owner with ‘Removal Pending’ as ownership type from May 15 to 19, 2019.  On May 20,   Smith’s ownership type in GroupID will change to ‘Temporary Removed’; lasting till May 30, 2019.  After May 30, Smith will be added back to Group A as a permanent additional owner. - __Temporary Removed__ - Indicates that the object is temporarily removed from group ownership for the period specified in the __Beginning__ and __Ending__ boxes. At the end of the period, the object is added   back to the group as a permanent additional owner.   When the object is a perpetual additional owner, the __Ownership__ column is blank.  Click anywhere in the row to make it editable for changing the ownership type of the additional owner.  NOTE: You cannot change the ownership type when the additional owner is a group. |
+| Beginning | Displays the beginning date of the temporary addition or removal. |
+| Ending | Displays the ending date of the temporary addition or removal. |
+| Do not notify | By default, all group-related notifications (such as expiry, deletion, and renewal notifications) are sent to the primary owner and all additional owners, so they can take the necessary action indicated.  To exclude an additional owner from receiving notifications, select the __Do not notify__ check box.  NOTE: When a Smart Group Update job runs on a group, the notification behavior is as follows:    Even when the __Do not Notify__ check box is selected, the additional owner will receive the notifications if the administrator has included its email address for job-specific notifications. |
+
+NOTE: For each column, a filter is also available that lets you filter records based on a criterion. For example; to show objects whose display names start with D, type D in the box under the __Name__ header and press __Enter__.  
+The Managed By Life Cycle job updates the temporary ownership of groups by adding and removing temporary owners on the specified dates.
+
+Consider a scenario where the Managed By Life Cycle job is scheduled to run once a week, say Mondays. If an object is to be added as a group’s temporary additional owner for three days - Wednesday till Friday, it will not be added. This happens
+because the Managed By Life Cycle job did not run on the particular days for temporary ownership update.
+
+__Add__
+
+To specify additional owner(s) for the group, click __Add__.
+
+Enter a search string to locate the object to add as an additional owner, or click __Advance__ to use the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a search.
+
+__Import__
+
+You can also specify additional owners for the group using an external file. Click __Import__ to launch the __Import Additional Owners__ wizard for importing additional owners. See [Import Additional Owners](/versioned_docs/groupid_11.0/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
+
+__Export__
+
+You can export the list of additional owners to an external file. Supported file formats are: .txt, .csv, .xls, .xlsx and .xml.
+
+Click __Export__ to launch the __Export Additional Owners__ wizard for exporting additional owners. Select the attributes you want to export. For information and instructions, see [Export additional owners](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupownershipfunction.md#Export-additional-owners).
+
+__Remove__
+
+To remove an object from the additional owners list, select it and click __Remove__.
+
+NOTE: On saving group properties, you may observe a message, asking you to select X number of additional owners. It occurs because the Group Owner policy defined for your role at the identity store level requires that the group must have at least x number of additional owners. Do the needful and then save the information.
+
+__See Also__
+
+- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)

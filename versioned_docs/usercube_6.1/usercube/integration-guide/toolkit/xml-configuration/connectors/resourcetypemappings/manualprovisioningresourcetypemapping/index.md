@@ -1,0 +1,18 @@
+# ManualProvisioningResourceTypeMapping
+
+Any resource type mapping must be configured with the same identifier as the related resource type.
+
+## Examples
+
+```
+
+<ManualProvisioningResourceTypeMapping Identifier="Access_Badge_Nominative" Connection="AccessManual" TicketSynchroIsNotAvailable="true"/>
+
+```
+
+## Properties
+
+| Property | Details |
+| --- | --- |
+| Connection   required | __Type__    String   __Description__   Identifier of the corresponding connection. |
+| TicketSynchroIsNotAvailable   optional | __Type__    Boolean   __Description__   ```true``` to set synchronization as unavailable for this resource type. Once the ticket is closed and the resource is created, updated or deleted, then the assignment's status is directly set to ```Verified```.   __Note:__ only used with the [package for tickets](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md). |
