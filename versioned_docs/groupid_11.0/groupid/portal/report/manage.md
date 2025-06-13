@@ -35,7 +35,7 @@ When you generate a report, GroupID Portal saves the settings provided in the re
 2. On Reports Portal, select the type of object (User, Group, Computer, or Contact) whose report you generated and click on the template that you used.
 
    The template page will list the generated report.
-3. Click the __Edit__ icon next to the report and follow [In Step 1 of generating a report:](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md#in-step-1-of-generating-a-report). Make the relevant changes and click
+3. Click the __Edit__ icon next to the report and follow the steps in [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md). Make the relevant changes and click
    Finish to generate the report.
 
 ## Download a Report

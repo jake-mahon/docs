@@ -10,7 +10,7 @@ To configure a SAML provider in GroupID, you have to specify the following:
 
 What do you want to do?
 
-- [Configure the AD FS Provider in GroupID](#configure-the-ad-fs-provider-in-groupid)
+- Configure the AD FS Provider in GroupID
 
 ## Configure the AD FS Provider in GroupID
 
@@ -54,7 +54,7 @@ The next step is to get the token-signing certificate from AD FS and provide it 
 
 ### Upload an Image for the Identity Provider
 
-When AD FS is configured with a GroupID client, say the GroupID portal _Wizard_, it will be available on _Wizard’s_ login page for single sign-on. You can choose to display the AD FS option as an image or as a button.
+When AD FS is configured with a GroupID client, say the GroupID portal _Wizard_, it will be available on _Wizard's_ login page for single sign-on. You can choose to display the AD FS option as an image or as a button.
 
 To display the AD FS option as an image, you have to upload an image for it. On the __Create New Provider__ page, use the __Browse__ button under __Identity Provider Image__ to upload an image for AD FS.
 
@@ -70,17 +70,17 @@ Users can click the AD FS image or the button on the login page of the GroupID p
 Next, specify some advanced configurations for the identity provider. Expand the __Advanced__ section on the __Create New Provider__ page.
 
 1. Make sure that _RSA-SHA-256_ is selected in the __Response Signing Method__ box.
-2. The __Disable GroupID Authentication__ option indicates whether to display the GroupID authentication login on the GroupID client's logiin page ( i.e., Wizard portal’s login page in our example).
+2. The __Disable GroupID Authentication__ option indicates whether to display the GroupID authentication login on the GroupID client's logiin page ( i.e., Wizard portal's login page in our example).
 
-   - By default, ‘No’ is selected, which means that when users access the Wizard portal’s login page, they will be shown the GroupID login and password option along with the AD FS identity provider’s button.
-   - Selecting ‘Yes’ means that the GroupID login and password option will not be available on the Wizard portal’s login page. Moreover, when a single identity store and a single SAML provider is configured, the login page for the provider is displayed rather than the Wizard portal’s login page.
+   - By default, 'No' is selected, which means that when users access the Wizard portal's login page, they will be shown the GroupID login and password option along with the AD FS identity provider's button.
+   - Selecting 'Yes' means that the GroupID login and password option will not be available on the Wizard portal's login page. Moreover, when a single identity store and a single SAML provider is configured, the login page for the provider is displayed rather than the Wizard portal's login page.
 3. Select _Post_ in the __Request Binding__ drop-down list.  
    To verify that you have selected the correct binding type, do the following:
 
    1. In the AD FS console click __Relying Party Trust__ in the left pane; the middle pane displays the relying party trusts already configured.
    2. Double-click the relying party trust that you created for the GroupID portal _Wizard_. This launches the Properties dialog box for the relying party trust.
    3. Click the __Endpoints__ tab and confirm that the binding type is _POST_.
-4. In AD FS, we configured an Active Directory attribute that the identity provider will use for authenticating users (see step 16 in the [Configure Relaying Party Trust in AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md#configure-relaying-party-trust-in-ad-fs) topic). In our example, we used the UPN attribute that stores the user principal name. Now in the __Advanced__ section, we have to refer to this attribute.  
+4. In AD FS, we configured an Active Directory attribute that the identity provider will use for authenticating users (see step 16 in the [Configure Relaying Party Trust in AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md) topic). In our example, we used the UPN attribute that stores the user principal name. Now in the __Advanced__ section, we have to refer to this attribute.  
    In the __Identity Location__ list, select the _Identity is an attribute element_ option.
 5. On selecting it, the __Identity Location Attribute__ box is displayed.   
    The attribute location will be in the form of a URL. Get this URL from AD FS.

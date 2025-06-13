@@ -7,7 +7,7 @@ See the [Create a Job Collection
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJob s/Collections/{jobCollectionId}/Details
+`https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Collections/{jobCollectionId}/Details`
 
 ## HTTP Method
 
@@ -15,7 +15,7 @@ GET
 
 #### Sample Response Syntax
 
-```
+```json
 {  
     "count": 2,  
     "data": {  
@@ -622,8 +622,7 @@ GET
                         "forCreateOnly": true,  
                         "objectType": 1,  
                         "isKey": false,  
-                        "options": "{\"passwordLength\":7,\"includeUppercaseAlphabets\":true,\"includeLowercaseAlphabets\":true,\"includeDigits\":true,\"includeSpecialSymbols\":false,\"specialSymbols\":\"%^&*(\",\"excludeSimilarSymbols\":false,\"managerNotification\":false,\"passwordType\":0}"  
-                  
+                        "options": "{\"passwordLength\":7,\"includeUppercaseAlphabets\":true,\"includeLowercaseAlphabets\":true,\"includeDigits\":true,\"includeSpecialSymbols\":false,\"specialSymbols\":\"%^&*(\",\"excludeSimilarSymbols\":false,\"managerNotification\":false,\"passwordType\":0}"           
 ```
 
 See Also

@@ -49,7 +49,7 @@ What do you want to do?
    The __Name__ list displays the pages on the object’s creation wizard.
 6. Click __Add__. The __Add Category__ pane is displayed.
 7. In the __Name__ box, enter a name for the page. The page will be displayed in the wizard with this name.
-8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).  
+8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the page from all users.
 9. To add fields to the page, see the [Add a Field to a Wizard Page](#add-a-field-to-a-wizard-page) topic.
 10. Click __OK__.
@@ -116,7 +116,7 @@ __To update a wizard page:__
 9. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the wizard.
 10. In the __Display Type__ drop-down list, select a display type to use for rendering this field on the wizard.  
     The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md) topic.
-11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).  
+11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.

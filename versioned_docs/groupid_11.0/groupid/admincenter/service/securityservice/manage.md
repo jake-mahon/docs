@@ -11,9 +11,9 @@ You can manage several settings for a service, such as:
 
 What do you want to do?
 
-- [View Service Details](#view-service-details)
-- [Manage Security Service Settings](#manage-security-service-settings)
-- [Delete a Security Service](#delete-a-security-service)
+- View Service Details
+- Manage Security Service Settings
+- Delete a Security Service
 
 ## View Service Details
 

@@ -1,6 +1,6 @@
 # Customize Search Results
 
-You can customize the search result pages for a portal. You can:
+You can customize the search result pages for a portal. You can:
 
 - Add new fields
 - Edit existing fields
@@ -20,15 +20,15 @@ The following table lists the search results pages that you can customize:
 | User | Manage the column headers on the following portal pages:   - The __My Direct Reports__ tab, where users can view a list of their direct reports. This tab is displayed when users click __Users > My Direct Reports__ in the portal. - The __Users__ and __Contacts__ tabs on the search results page, which is displayed when users perform a search on the __Advanced Search__ page in the portal. |
 | Disabled Users | Manage the column headers on the __Disabled Users__ tab in the portal, which displays a list of disabled users in the directory.  This tab is displayed when users click __Users > My Direct Reports__ and then the __Disabled Users__ tab in the portal. |
 | Groups | Manage the column headers on the following portal pages:   - The __All Groups__ page – all except the __Expired Groups__ and __Expiring Groups__ tabs - The __My Groups__ page – all except the __My Expired Groups__ and __My Expiring Groups__ tabs - The __Groups__ tab on the search results page, which is displayed when users perform a search on the __Advanced Search__ page in the portal. |
-| Expiring Groups | Manage the column headers on the following tabs in the portal:   - Groups > All Groups and then the __Expiring Groups__ tab . It displays the groups in the directory that will expire in 30 days or less. - Groups > My Groups and then the __My Expiring Groups__ tab. It displays the logged-on user’s groups that will expire in 30 days or less. |
-| Expired Groups | Manage the column headers on the following tabs in the portal:   - Groups > All Groups and then the __Expired Groups__ tab. It displays the expired groups in the directory. - Groups > My Groups and then the __My Expired Groups__ tab. It displays the logged-on user’s groups that have expired. |
+| Expiring Groups | Manage the column headers on the following tabs in the portal:   - Groups > All Groups and then the __Expiring Groups__ tab . It displays the groups in the directory that will expire in 30 days or less. - Groups > My Groups and then the __My Expiring Groups__ tab. It displays the logged-on user's groups that will expire in 30 days or less. |
+| Expired Groups | Manage the column headers on the following tabs in the portal:   - Groups > All Groups and then the __Expired Groups__ tab. It displays the expired groups in the directory. - Groups > My Groups and then the __My Expired Groups__ tab. It displays the logged-on user's groups that have expired. |
 | Find dialog | Define the attributes to display for objects shown as search results on the _Find_ dialog box.  The _Find_ dialog box is used to search and select objects to designate as owners, managers, additional owners, group members, and more. It has a _search_ area and a _search results_ area. This option controls the column headers (attributes) displayed in the __Search Results__ area.  The _Find_ dialog box can be launched from various portal pages, for example, from the __Owner__ tab, __Members__ tab, and __Member Of__ tab in group properties. |
 
 What do you want to do?
 
-- [Add a Field to a Search Results Page](#add-a-field-to-a-search-results-page)
-- [Update a Field on a Search Results Page](#update-a-field-on-a-search-results-page)
-- [Remove a Field from a Search Results Page](#remove-a-field-from-a-search-results-page)
+- Add a Field to a Search Results Page
+- Update a Field on a Search Results Page
+- Remove a Field from a Search Results Page
 
 ## Add a Field to a Search Results Page
 
@@ -43,7 +43,7 @@ What do you want to do?
    Click __Add Field__ to add a new field.
 7. On the __Add Field__ pane, use the __Field__ drop-down list to select a schema attribute to link to the field. The field will display the value of this attribute on the search
    results page.
-8. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the search results page.
+8. In the __Display Name__ box, enter a display name for the field. This name is the field's label on the search results page.
 9. In the __Tooltip__ box, enter the text to appear when a user hovers the mouse over the field.
 10. In the __Display Type__ drop-down list, select the display type to use to render this field in the portal. Available options are limited to textbox, DN, DNs, and Link, which are basic display Types. See the [Basic Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md#basic-display-types) topic.
 11. Click __OK.__ The field is displayed in the __Fields__ area on the __Edit Search Results__ pane.  
@@ -89,5 +89,5 @@ __See Also__
 
 - [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
 - [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
-- [Customize Search Results](#customize-search-results)
+- Customize Search Results
 - [Customize Quick Search](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/form/quicksearch.md)

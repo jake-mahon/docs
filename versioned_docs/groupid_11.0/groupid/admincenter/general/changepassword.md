@@ -4,7 +4,7 @@ You can change the password of your identity store account. After changing it, u
 
 What do you want to do?
 
-- [Change your Password](#change-your-password)
+- Change your Password
 
 ## Change your Password
 

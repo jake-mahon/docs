@@ -25,7 +25,7 @@ You cannot create or delete an Entitlement Temporary Permissions schedule; only 
 
 What do you want to do?
 
-- [Follow the steps to udpate the Entitlement Temporary Permissions schedule.](#follow-the-steps-to-udpate-the-entitlement-temporary-permissions-schedule)
+- Follow the steps to udpate the Entitlement Temporary Permissions schedule
 
 ## Update the Entitlement Temporary Permissions Schedule
 

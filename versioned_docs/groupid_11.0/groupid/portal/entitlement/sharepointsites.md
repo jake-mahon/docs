@@ -22,12 +22,12 @@ A disabled site indicates that the Insights job has not run to replicate permiss
 
 What do you want to do?
 
-- [Explore a site – card view](#explore-a-site-card-view)
-- [View levels and permissions on a library](#view-levels-and-permissions-on-a-library)
-- [Search document libraries, files and folders in a site](#search-document-libraries-files-and-folders-in-a-site)
-- [How GroupID Entitlement displays permissions](#how-groupid-entitlement-displays-permissions)
+- Explore a Site Card View
+- View levels and permissions on a library
+- Search document libraries, files and folders in a site
+- How GroupID Entitlement displays permissions
 
-## Explore a site – card view
+## Explore a Site Card View
 
 On double clicking the site, a separate card for each document library in the site is displayed, showcasing the following information:
 
@@ -58,7 +58,7 @@ Information includes:
 - Add new users who can have permissions on the file/folder in a site. You can permanently or temporarily add users.
 
   You can select multiple users and collectively assign them the same permissions.
-- On clicking a user or group name, the user/group’s properties are displayed.
+- On clicking a user or group name, the user/group's properties are displayed.
 
   You can view and update properties, depending on your rights and privileges.
 
@@ -82,8 +82,8 @@ __Search filter__
 
 Below the search box is the __Add new filter__ link. Click it to apply a search filter with a user/group, access type, and permission criterion. This will display shared files/folders that match your criterion.
 
-- Type the name of a user or group in the __User or Group__ box. It must be a specific name, like ‘Sarah’ (for user) or ‘Engineering team’ (for group), and not an object type, like ‘users’, ‘groups’, ‘contacts’,
-  or ‘computers’.
+- Type the name of a user or group in the __User or Group__ box. It must be a specific name, like 'Sarah' (for user) or 'Engineering team' (for group), and not an object type, like 'users', 'groups', 'contacts',
+  or 'computers'.
 - From the __Access Type__ drop-down list, select the _Allow_ or _Deny_ option.
 - In the __Permission__ box, select one or more permissions.
 - Click __Apply filters__.
@@ -98,7 +98,7 @@ Access type: Allow
 
 Permission: WriteAttributes, ExecuteFile, Read
 
-This would list all files and folders on which the Administrator has these three permissions - WriteAttributes, ExecuteFile, and Read - set to ‘Allow’.
+This would list all files and folders on which the Administrator has these three permissions - WriteAttributes, ExecuteFile, and Read - set to 'Allow'.
 
 You can apply multiple search filters. Click __Add new filter__ to insert a filter row. Each filter row is taken as a separate criterion; any file or folder that matches all of these criteria will be displayed in
 the results.
@@ -108,9 +108,9 @@ the results.
 | Level | Access level displayed in GroupID Entitlement SharePoint |
 | --- | --- |
 | User/Group has the 'Full Control' permission level on a file/folder. | 'Allow' for all list permissions. |
-| User/Group has the ‘Limited Access' permission level on a file/folder. | 'Allow' only for the View Application Pages list permission. |
+| User/Group has the 'Limited Access' permission level on a file/folder. | 'Allow' only for the View Application Pages list permission. |
 | User/Group has the 'Edit' permission level on a file/folder. | 'Allow' for all list permissions except Full Control and Approve Items. |
-| User/Group has the ‘Read' permission level on a file/folder. | 'Allow' for the View Items, Open Items, View Versions, Create Alerts, and View Application Pages list permissions. |
+| User/Group has the 'Read' permission level on a file/folder. | 'Allow' for the View Items, Open Items, View Versions, Create Alerts, and View Application Pages list permissions. |
 
 __See Also__
 

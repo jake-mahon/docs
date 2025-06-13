@@ -38,7 +38,7 @@ Consider the following scenario:
 
 As a result, User A has two different roles in two GroupID clients.
 
-Not only that, a user can also have multiple roles in a GroupIDGroupID client, in which case role priority is used to determine the access level of the user on the specific client. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
+Not only that, a user can also have multiple roles in a GroupIDGroupID client, in which case role priority is used to determine the access level of the user on the specific client. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
 
 To view the highest priority role of a user with respect to a GroupID client, see the [Check the Roles of a User](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/checkrole.md) topic.
 

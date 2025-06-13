@@ -22,12 +22,12 @@ Here, the second server is disabled while the first one is enabled. A disabled s
 
 What do you want to do?
 
-- [Explore a server – card view](#explore-a-server-card-view)
-- [View file/folder permissions](#view-filefolder-permissions)
-- [Search shared files and folders on the server](#search-shared-files-and-folders-on-the-server)
-- [How GroupID Entitlement displays permissions](#how-groupid-entitlement-displays-permissions)
+- Explore a Server Card View
+- View file/folder permissions
+- Search shared files and folders on the server
+- How GroupID Entitlement displays permissions
 
-## Explore a server – card view
+## Explore a Server Card View
 
 On double clicking the fileserver, a separate card for each file and folder shared at the root is displayed, showcasing the following information:
 
@@ -62,7 +62,7 @@ Information includes:
 - Add new users/groups who can have permissions on the file/folder. You can permanently or temporarily add user/groups.
 
   You can select multiple user/groups and collectively assign them the same permissions.
-- On clicking a user or group name, the user/group’s properties are displayed
+- On clicking a user or group name, the user/group's properties are displayed
 
   You can view and update properties, depending on your rights and privileges.
 - Clicking the permission status for a user/group displays the effective permissions assigned to this user/group on the file/folder.
@@ -85,8 +85,8 @@ __Search filter__
 
 Below the search box is the __Add new filter__ link. Click it to apply a search filter with a user/group, access type, and permission criterion. This will display shared files/folders that match your criterion.
 
-- Type the name of a user or group in the __User or Group__ box. It must be a specific name, like ‘Sarah’ (for user) or ‘Engineering team’ (for group), and not an object type, like ‘users’, ‘groups’, ‘contacts’,
-  or ‘computers’.
+- Type the name of a user or group in the __User or Group__ box. It must be a specific name, like 'Sarah' (for user) or 'Engineering team' (for group), and not an object type, like 'users', 'groups', 'contacts',
+  or 'computers'.
 - From the __Access Type__ drop-down list, select the _Allow_ or _Deny_ option.
 - In the __Permission__ box, select one or more permissions.
 - Click __Apply filters__.
@@ -101,7 +101,7 @@ Access type: Allow
 
 Permission: WriteAttributes, ExecuteFile, Read
 
-This would list all files and folders on which the Administrator has these three permissions - WriteAttributes, ExecuteFile, and Read - set to ‘Allow’.
+This would list all files and folders on which the Administrator has these three permissions - WriteAttributes, ExecuteFile, and Read - set to 'Allow'.
 
 You can apply multiple search filters. Click __Add new filter__ to insert a filter row. Each filter row is taken as a separate criterion; any file or folder that matches all of these criteria will be displayed in
 the results.

@@ -18,11 +18,11 @@ You can also specify notification recipients, that can be:
 
 What do you want to do?
 
-- [Configure an SMTP Server](#configure-an-smtp-server)
-- [Specify Notification Recipients](#specify-notification-recipients)
-- [Specify a Portal URL for Password Expiry Group Notifications](#specify-a-portal-url-for-password-expiry-group-notifications)
-- [Manage Membership Life Cycle Notifications](#manage-membership-life-cycle-notifications)
-- [Manage Managed by Life Cycle Notifications](#manage-managed-by-life-cycle-notifications)
+- Configure an SMTP Server
+- Specify Notification Recipients
+- Specify a Portal URL for Password Expiry Group Notifications
+- Manage Membership Life Cycle Notifications
+- Manage Managed by Life Cycle Notifications
 
 ## Configure an SMTP Server
 
@@ -56,7 +56,7 @@ However, you may choose to specify a single account for connecting, in case your
 
   OAuth settings are available when you specify a provider that supports modern authentication, such as Exchange Online and Office 365.
 
-  NOTE: For OAuth to work, you must enable the Graph API’s ‘SMTP.Send’ permission for the GroupID app in Microsoft Entra Admin Center:
+  NOTE: For OAuth to work, you must enable the Graph API's 'SMTP.Send' permission for the GroupID app in Microsoft Entra Admin Center:
 
   1. Click the __OAuth 2.0__ tile.
   2. In the __Token Endpoint__ box, provide the following URL:  

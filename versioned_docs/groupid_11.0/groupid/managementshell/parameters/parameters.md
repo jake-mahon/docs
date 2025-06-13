@@ -11,13 +11,13 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 
 | Parameter Name | Description |
 | --- | --- |
-| [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [ U](#u) [ V](#v) [W](#w) [X ](#x) [Y ](#y) [Z](#z) |  |
+| A B C D E F G H I J K L M N O P Q R S T U V W X Y Z |  |
 | __A__ |  |
 | AcceptMessagesOnlyFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who can send e-mail messages to the group. Providing a blank value enables the group to accept messages from all mailbox users and all mail-enabled contacts.  (Applies to Distribution groups only). |
 | AcceptMessagesOnlyFromGroups | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users that the group is allowed to accept messages from. Separate multiple objects with commas (,).  (Applies to Distribution groups only.) |
 | AccidentalDeletion | If the value is set as True, user will be prompted before container deletion. |
 | Add | __Set-User, Set-contact, Set-Mailbox__  Add will append the values of multi-value attributes and replace the value of single-value attributes. |
-|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you add one or more additional owners for this group. The syntax in which the value is entered for this setting is:  -Add @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Add @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Add @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Add @{ RejectMessagesFrom = "User1","User2","User3"} -Add @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}  As the value of objects to be added, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
+|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you add one or more additional owners for this group. The syntax in which the value is entered for this setting is:  `-Add @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Add @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Add @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Add @{ RejectMessagesFrom = "User1","User2","User3"} -Add @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}`  As the value of objects to be added, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you add one or more values to these parameters. Parameters and the syntax for their values follows: |
 |  | Parameter |
 |  | __SearchContainers__  (StartPaths can be used as an alternative name of this parameter for this setting) |
@@ -53,7 +53,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | ChildContainer | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create the child groups. If you have selected multiple group-by attributes, you can specify a different child container for every attribute in the same sequence as the group-by attributes are specified, separating each with a comma (,). For Managerial Dynasty, passing a blank value creates child groups in the container where the top manager resides. |
 | City | The city of a user, contact or mailbox. |
 | Clear | __Set-User, Set-Contact, Set-Mailbox__  It will clear the values of multi-value and single-value attributes. |
-|  | Set-Group  This setting applies to the AdditionalOwners parameter and lets you clear the additional owners list.  The syntax for entering the value for this setting is:  -Clear @{ AdditionalOwners}  -Clear @{ AcceptMessagesOnlyFrom }  -Clear @{ AcceptMessagesOnlyFromGroups }  -Clear @{ RejectMessagesFrom }  -Clear @{ AcceptMessagesOnlyFrom } |
+|  | Set-Group  This setting applies to the AdditionalOwners parameter and lets you clear the additional owners list.  The syntax for entering the value for this setting is: ` -Clear @{ AdditionalOwners}  -Clear @{ AcceptMessagesOnlyFrom }  -Clear @{ AcceptMessagesOnlyFromGroups }  -Clear @{ RejectMessagesFrom }  -Clear @{ AcceptMessagesOnlyFrom }` |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting works for the following multi-valued parameters and lets you clear all their existing values. Parameters and the syntax for their values follows: |
 |  | Parameters |
 |  | SearchContainers  (StartPaths can be used as an alternative name of this parameter for this setting) |
@@ -73,9 +73,9 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | Connected | Used to request connected identity store to the current instance of GroupID Management Shell. |
 | Container | The distinguished name (DN) or globally unique identifier (GUID) of one or more containers where you want to search for a user, contact or group. Separate multiple values with commas. |
 | Country | Country of a user, contact or mailbox, represented as the 2-character country code based on ISO-3166. |
-| CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager’s direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
-| CriteriaFilters | Same as [RoleCriteriaFilters](#rolecriteriafilters) |
-| CriteriaScope | Same as [RoleCriteriaScope](#rolecriteriascope) |
+| CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager's direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
+| CriteriaFilters | Same as RoleCriteriaFilters |
+| CriteriaScope | Same as RoleCriteriaScope |
 | Credential | The $Credentials environment variable holds the user's authentication information. Use this variable to execute the commandlet using the credentials of a user account other than the one you are logged on to the connected identity store. |
 | CustomAttribute1-15 | A value for an attribute that you determine. Use these attributes—up to 15—to store additional information specific to your needs. |
 | __D__ |  |
@@ -268,7 +268,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | NumberofOwnersToDisplay | The maximum value that can be set for the DefaultNumberOfOwnersToDisplay parameter. 24 is the maximum. |
 | __O__ |  |
 | Office | Office phone number of a user, contact or mailbox. |
-| Operator | Same as [RoleCriteriaOperator](#rolecriteriaoperator) |
+| Operator | Same as RoleCriteriaOperator |
 | Options | The list of options to be retrieved from the registry. |
 | OrganizationalUnit | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create a user, contact, group or mailbox. |
 | OutOfBoundsAlertEnabled | Set to True to enable out-of-bound exceptions when group memberships change. Out-of-bound exceptions prevent massive changes from occurring to group memberships. When an out-of-bounds exception occurs, the group membership is not updated and the owner or administrator is notified via e-mail. If the owner or administrator determines that the change is valid they can update the group manually. |
@@ -286,7 +286,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | PasswordRuleOperation | The action to perform on the values supplied in the PasswordRules parameter. |
 | PasswordRules | Specify the regular expressions (rules) for passwords. |
 | PermissionOperation | The operation to perform on the Permissions parameter. |
-| Permissions | Same as [RolePermissions](#rolepermissions) |
+| Permissions | Same as RolePermissions |
 | Port | Specify the port number for the specified data source. |
 | PowerTools | Include respective power tools to execute script in Query Designer of Smart Group. |
 | ProfileValidationGroupDN | Specify the distinguished name of a group to apply profile validation on. |
@@ -302,7 +302,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | RejectMessagesFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who are not allowed to send e-mail messages to the group.  (Applies to Distribution groups only) |
 | RejectMessagesFromGroup | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users, the group is restricted to accept messages from. Separate multiple 0bjects with commas (,).  (Applies to Distribution groups only.) |
 | Remove | __Set-User, Set-Contact, Set-Mailbox__  It will remove the values of specified attributes. |
-|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you remove one or more additional owners for this group.  The syntax in which the value is entered for this setting is:  -Remove @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Remove @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Remove @{ RejectMessagesFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}  As the value of objects to be removed, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user contact, or security group. |
+|  | __Set-Group__  This setting applies to the AdditionalOwners parameter and lets you remove one or more additional owners for this group.  The syntax in which the value is entered for this setting is:  `-Remove @{ AdditionalOwners = "Owner1","Owner2","Owner3"}  -Remove @{ AcceptMessagesOnlyFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFromGroups = "Group1","Group2","Group3"}  -Remove @{ RejectMessagesFrom = "User1","User2","User3"}  -Remove @{ AcceptMessagesOnlyFrom = "Group1","Group2","Group3"}`  As the value of objects to be removed, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you remove one or more values from these parameters. Parameters and the syntax for their values follows: |
 |  | __Parameter__ |
 |  | __SearchContainers__  (StartPaths can be used as an alternative name of this parameter for this setting) |
@@ -319,7 +319,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | RepeatDuration | Applicable only when the Repeat parameter is applied. It specifies the duration in minutes during which the trigger will repeat. |
 | RepeatInterval | Applicable only when the Repeat parameter is applied. It specifies the interval in minutes after which the trigger will start again. |
 | Replace | __Set-User, Set-Contact, Set-Mailbox__  It will replace the old value of attribute with newly specified value. |
-|  | - Set-Group   This setting applies to the AdditionalOwners parameter and lets you entirely overwrite its existing values.  The syntax in which the value is entered for this setting is:  -Replace @{ AdditionalOwners = "Owner4","Owner5"}  -Replace @{ AcceptMessagesOnlyFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFromGroups = "Group4","Group5"}  -Replace @{ RejectMessagesFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFrom = "Group4","Group5"}  As the value of replacing objects, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
+|  | - Set-Group   This setting applies to the AdditionalOwners parameter and lets you entirely overwrite its existing values.  The syntax in which the value is entered for this setting is:  `-Replace @{ AdditionalOwners = "Owner4","Owner5"}  -Replace @{ AcceptMessagesOnlyFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFromGroups = "Group4","Group5"}  -Replace @{ RejectMessagesFrom = "User4","User5"}  -Replace @{ AcceptMessagesOnlyFrom = "Group4","Group5"}`  As the value of replacing objects, the setting accepts all the identities supported by the AdditionalOwners parameter, which is the distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact, or security group. |
 |  | __Set-SmartGroup, Convert-Group, Set-Dynasty__  This setting applies to the following multi-valued parameters and lets you entirely overwrite all of their existing values. Parameters and the syntax of their values follows: |
 |  | Parameter |
 |  | SearchContainers  (StartPaths can be used as an alternative name of this parameter for this setting) |
@@ -338,7 +338,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | RoleCriteriaDN | Specify the criteria for a role. The criteria can be a group or a container.   - Group - users that are members of the specified group will be assigned this role. - Container - users who reside in the specified container will be assigned this role. |
 | RoleCriteriaFilters | Specifies the filter criteria for a role. Values to this parameter are supplied as a 3-length array.   - The first index contains the filter name which can be one of the 'name' or 'type' representing 'client name' and 'client type' respectively.  - The second index contains the operator which can be either 'is exactly' or 'is not'.  - The third index contains the value. It can either be the client type or client name, depending on the value in the first index.   Example: @('name', 'is exactly', 'automate arslanahmadvm') is a valid filter criteria. However, @('client type', 'is not', 'managementshell') is not valid because the value at first index is not correct. |
 | RoleCriteriaOperator | Specify the operator for criteria filters of a role. The operators can be And or Or |
-| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with [RoleCriteriaDN](#rolecriteriadn) to change the role criteria scope from container to group and vice-versa. |
+| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with RoleCriteriaDN to change the role criteria scope from container to group and vice-versa. |
 | RoleDescription | Description of an identity store security role. |
 | RoleDisabled | If a new role is created using the Set-IdentityStore commandlet, the role is created as disabled in the identity store. |
 | RoleName | Name of an identity store security role. |

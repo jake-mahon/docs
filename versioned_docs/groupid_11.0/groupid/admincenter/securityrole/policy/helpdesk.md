@@ -69,7 +69,7 @@ __To specify a container:__
 Under the restricted mode, you can enforce helpdesk users to authenticate users before resetting their passwords and unlocking their accounts.
 
 On receiving an account unlock or password reset request from an end-user, the helpdesk user must authenticate the user over phone before carrying out the requested operation. This authentication is done through all or some of the authentication types
-the user’s account is enrolled with.
+the user's account is enrolled with.
 
 __To enforce authentication:__
 
@@ -173,18 +173,18 @@ __To specify a password reset method:__
      must click this link to reset their identity store passwords.
 
    When you select both the __Allow Helpdesk to Reset Password__ and __Allow Helpdesk to Send Secure Password Link to End User__ check boxes, helpdesk role members can use any
-   method to reset an end user’s password.
+   method to reset an end user's password.
 8. Click __OK__.
 9. On the __Edit Security Role__ page, click __Update Security Role__.
 10. On the __Security Roles__ page, click __Save__.
 
-NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the end-users’ mobile phones. See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store) topic.  
+NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the end-users' mobile phones. See the [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store) topic.  
  (2) An SMTP server must
-be configured for the identity store for email to be sent to end-users. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#configure-an-smtp-server) topic.
+be configured for the identity store for email to be sent to end-users. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 ### Force Users to Change Password on Next Logon
 
-When a helpdesk user resets the password of an end-user, it’s always safe to force the end-user to change the password the next time they login to their workstations.
+When a helpdesk user resets the password of an end-user, it's always safe to force the end-user to change the password the next time they login to their workstations.
 
 __To force password change:__
 

@@ -9,11 +9,11 @@ You can manage the following replication settings for an identity store:
 
 What do you want to do?
 
-- [Specify Object Attributes to Replicate](#specify-object-attributes-to-replicate)
-- [Replicate a Custom Attribute](#replicate-a-custom-attribute)
-- [Force Run the Replication Service (for Object Replication)](#force-run-the-replication-service-for-object-replication)
-- [Force Run the Replication Service (for Deleting Objects)](#force-run-the-replication-service-for-deleting-objects)
-- [Restore Object Data](#restore-object-data)
+- Specify Object Attributes to Replicate
+- Replicate a Custom Attribute
+- Force Run the Replication Service (for Object Replication)
+- Force Run the Replication Service (for Deleting Objects)
+- Restore Object Data
 
 ## Specify Object Attributes to Replicate
 
@@ -33,15 +33,15 @@ __To select object attributes:__
 5. Click __Add Replication Attributes__ to add an attribute to the list.
 6. The __Select Replication Attributes__ dialog box displays a list of the schema attributes in the provider. Select the check boxes for the attributes you want to replicate for the identity store and click __Save__. The attributes are added to the __Attribute Name__ column on the __Replication__ page.
 
-   NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, GroupID Schema Replication schedule fetches the latest schema at its next run and add the newly added extension attributes to the __Select Replication Attributes__ list. See the [Schema Replication Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/schemareplication.md) for additional information.   
-   Select the required extension attributes from the __Select Replication Attributes__ list and add them to the attribute to replicate list. See the [Specify Object Attributes to Replicate](#specify-object-attributes-to-replicate) section of the [Manage Local Replication Settings](#manage-local-replication-settings) topic.
+   NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, GroupID Schema Replication schedule fetches the latest schema at its next run and add the newly added extension attributes to the __Select Replication Attributes__ list. See the [Schema Replication Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/schemareplication.md) for additional information.   
+   Select the required extension attributes from the __Select Replication Attributes__ list and add them to the attribute to replicate list. See the Specify Object Attributes to Replicate section of the Manage Local Replication Settings topic.
 7. Click __Save__
 
 ## Replicate a Custom Attribute
 
 By default, a custom attribute for any object type (user, group, computer, public folder) is not replicated for an identity store.
 
-Let’s assume you have a custom attribute, SerialNumber, for the user object in Active Directory. To replicate its value in the Elasticsearch repository, do the following:
+Let's assume you have a custom attribute, SerialNumber, for the user object in Active Directory. To replicate its value in the Elasticsearch repository, do the following:
 
 1. In Admin Center, click __Identity Stores__ in the left pane.
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.

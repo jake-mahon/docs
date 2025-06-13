@@ -37,7 +37,7 @@ What do you want to do?
 7. Select an attribute from the __Field__ drop-down list.
 8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest Group/Validate Profile page of the app.
 9. In the __Display Type__ drop-down list, select a display type for rendering the attribute (field) in the app.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).  
+10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. Click __Advanced options__ to enter further details for the field.
 12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  

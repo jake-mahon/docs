@@ -6,10 +6,10 @@ After signing into the GroupID Portal, from the left pane select __Synchronize__
 
 The interface has intuitive navigation options:
 
-- [Quick Search](#quick-search)
-- [Top Right Options](#top-right-options)
-- [Menu Pane](#menu-pane)
-- [Dashboard](#dashboard)
+- Quick Search
+- Top Right Options
+- Menu Pane
+- Dashboard
 
 ## Quick Search
 
@@ -31,7 +31,7 @@ Look on the left side of the page for the navigation pane, which lists links to:
 
 - Create New ([Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
   ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md))
-- [Dashboard](#dashboard)
+- Dashboard
 - [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
 - [Job Templates](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobtemplate.md)

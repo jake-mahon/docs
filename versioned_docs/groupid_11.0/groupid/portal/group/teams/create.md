@@ -4,7 +4,7 @@ Using GroupID portal, you can create Team in the identity store.
 
 What do you want to do?
 
-- [Create Teams](#create-teams)
+- Create Teams
 
 ## Create Teams
 

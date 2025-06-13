@@ -154,8 +154,7 @@ __To modify a workflow:__
 4. On the __Configure Workflows__ tab of the __Workflows__ page, click the ellipsis button for a workflow and select __Edit__.
 5. The __Edit Workflow__ page is displayed. Follow steps 5-15 in the [Create a New Workflow](#create-a-new-workflow) topic
    to update the required information.
-6. To link this workflow to a Power Automate flow, click __Power Automate Settings__ in the top right corner; the __Power Automate Settings__ dialog box is displayed. Follow step
-   [6](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#6) and onwards in the [Link an Identity Store Workflow to a Flow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow) topic to complete the task.
+6. To link this workflow to a Power Automate flow, click __Power Automate Settings__ in the top right corner; the __Power Automate Settings__ dialog box is displayed. Follow step 6 and onwards in the [Link an Identity Store Workflow to a Flow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow) topic to complete the task.
 7. After making the required changes, click __Update Workflow__ on the __Edit Workflow__ page to save the settings.
 8. Click __Save__ on the __Workflows__ page.
 

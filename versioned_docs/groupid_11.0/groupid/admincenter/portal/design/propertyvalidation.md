@@ -60,7 +60,7 @@ What do you want to do?
 7. Select an attribute from the __Field__ drop-down list.
 8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest & Renew Group wizard/Validate Profile Properties window of the portal.
 9. Use the __Display Type__ drop-down list to specify the display type to use for rendering the attribute in the portal. The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md) topic.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).  
+10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.

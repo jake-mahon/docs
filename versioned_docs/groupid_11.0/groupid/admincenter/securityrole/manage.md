@@ -4,13 +4,13 @@ After creating a security role, you can manage various settings for it, such as 
 
 What do you want to do?
 
-- [View Security Roles](#view-security-roles)
-- [Enable or Disable a Role](#enable-or-disable-a-role)
-- [Change Role Priority](#change-role-priority)
-- [Criteria ](#criteria)
-- [Modify Role Permissions](#modify-role-permissions)
-- [Define Policies for a Role](#define-policies-for-a-role)
-- [Delete a Role](#delete-a-role)
+- View Security Roles
+- Enable or Disable a Role
+- Change Role Priority
+- Criteria
+- Modify Role Permissions
+- Define Policies for a Role
+- Delete a Role
 
 ## View Security Roles
 
@@ -26,7 +26,7 @@ What do you want to do?
    | Priority | Each security role is assigned a value from 1-99, where 1 indicates the highest priority and 99 indicates the lowest priority. Role priority is unique for a role in an identity store.  Role priority is used to resolve conflicts when a user has more than one role in GroupID. For example, when a user has two roles, Administrator and User, with role priority set to 1 and 25 respectively, then permissions and policies for the higher priority role (i.e., Administrator), will apply when the user logs into GroupID. |
    | Criteria | Role criteria determines the users the role applies to. You can specify as container or group as criteria for a role.  - In case of a container, all users residing in it are assigned the role. - For a group, all group members are assigned the role. |
    | Description | A description for the security role. |
-   | Actions | - Click __Edit__ for a security role to update its details, criteria, policies, and permissions. - Click the ellipsis button and select Delete to delete the security role. - Click the ellipsis button and select Copy to create a new security role by copying the respective role. |
+   | Actions | - Click __Edit__ for a security role to update its details, criteria, policies, and permissions. - Click the ellipsis button and select Delete to delete the security role. - Click the ellipsis button and select Copy to create a new security role by copying the respective role. |
 
 ## Enable or Disable a Role
 
@@ -65,13 +65,13 @@ __To change role priority:__
 3. Click __Security Roles__ under __Settings__ in the left pane.
 4. On the __Security Roles__ page, click __Edit__ for a security role.
 5. In the __Priority__ box on the __Edit Security Role__ page, change the value for role priority. This value must fall in the range, 1-99, where 1 indicates the highest and 99 indicates
-   the lowest priority. See [Priority](#priority).
+   the lowest priority. See Priority.
 6. Click __Update Security Role__.
 7. On the __Security Roles__ page, click __Save__.
 
 ## Change Role Criteria
 
-By changing role criteria , you can specify a different set of users as members of a role.
+By changing role criteria, you can specify a different set of users as members of a role.
 
 __To change role criteria:__
 

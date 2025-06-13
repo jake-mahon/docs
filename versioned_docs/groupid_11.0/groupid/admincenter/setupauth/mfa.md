@@ -1,6 +1,6 @@
 # Configure Multifactor Authentication
 
-You can define a multifactor authentication (MFA) policy for an identity store. This policy enforces users to enroll their identity store accounts in GroupID using one or more authentication types. Supported authentication types are discussed in the [Authentication Policies - A Comparison](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md#authentication-policies-a-comparison) topic.
+You can define a multifactor authentication (MFA) policy for an identity store. This policy enforces users to enroll their identity store accounts in GroupID using one or more authentication types. Supported authentication types are discussed in the [Authentication Policies - A Comparison](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md) topic.
 
 Once enrolled, users must authenticate their identity store accounts using the authentication types they enrolled with, when they perform any of the following actions in the GroupID portal or the GroupID mobile app:
 
@@ -13,7 +13,7 @@ NOTE: Multifactor authentication defined in Microsoft Entra Admin Center does no
 
 What do you want to do?
 
-- [Configure Multifactor Authentication](#configure-multifactor-authentication)
+- Configure Multifactor Authentication
 
 ## Configure Multifactor Authentication
 

@@ -19,7 +19,7 @@ See Also
 - [Contact APIs](/versioned_docs/groupid_11.0/groupid/api/contact/contactapis.md)
 - [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
 - [Group APIs](/versioned_docs/groupid_11.0/groupid/api/group/groupapis.md)
-- [Logs APIs](#logs-apis)
+- Logs APIs
 - [Synchronize Jobs APIs](/versioned_docs/groupid_11.0/groupid/api/syncjobs/jobsapis.md)
 - [User APIs](/versioned_docs/groupid_11.0/groupid/api/user/userapis.md)
 - [Workflow APIs](/versioned_docs/groupid_11.0/groupid/api/workflow/workflowapis.md)

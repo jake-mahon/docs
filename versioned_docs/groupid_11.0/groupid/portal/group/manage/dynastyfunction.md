@@ -48,7 +48,7 @@ city within a state.
    The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
 3. On the __Dynasty Options__ tab, select the required option from the __Inheritance__ drop-down list.
 
-   See [Inheritance](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md#inheritance).
+   See the Inheritance section in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md).
 4. Click __Save__.
 
 ## Modify alias and display name templates
@@ -63,7 +63,7 @@ __For an Organizational/Geographical/Custom Dynasty__
    The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
 3. On the __Dynasty Options__ tab, use the __Alias Template__ and __Display Name Template__ boxes to modify the respective templates.
 
-   For details, see [Alias Template](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md#alias-template) and [Display Name Template](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md#display-name-template) for an Organizational/Geographical/Custom Dynasty.
+   For details, see the Alias Template and Display Name Template sections in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md) for an Organizational/Geographical/Custom Dynasty.
 4. Click __Save__.
 
 __For a Managerial Dynasty__
@@ -76,7 +76,7 @@ __For a Managerial Dynasty__
    The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
 3. On the __Dynasty Options__ tab, use the __Alias Template__ and __Display Name Template__ boxes to modify the respective templates.
 
-   For details, see [Alias Template](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md#alias-template) and [Display Name Template](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md#display-name-template) for a Managerial Dynasty.
+   For details, see the Alias Template and Display Name Template sections in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md) for a Managerial Dynasty.
 4. Click __Save__.
 
 __See Also__

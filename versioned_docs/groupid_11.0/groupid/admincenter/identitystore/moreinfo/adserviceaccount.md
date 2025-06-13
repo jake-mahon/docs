@@ -10,8 +10,8 @@ NOTE: You must add the service account to the membership of the Local Administra
 
 What do you want to do?
 
-- [Use an Existing Account as a Service Account](#use-an-existing-account-as-a-service-account)
-- [Create a New Service Account](#create-a-new-service-account)
+- Use an Existing Account as a Service Account
+- Create a New Service Account
 - [SQL Server Account and Database Permissions ](#sqlserver-account-and-database-permissions)
 
 ## Use an Existing Account as a Service Account
@@ -22,16 +22,16 @@ Exchange permissions are required if Microsoft Exchange is configured as the mes
 
 |  |  |
 | --- | --- |
-| Active Directory | Recommended: __Domain Admins__  Minimum permissions:   - [Grant permissions to create and delete users, contacts, and groups.](#grant-permissions-to-create-and-delete-users-contacts-and-groups) - [Grant permissions to modify users, contacts, and groups.](#grant-permissions-to-modify-users-contacts-and-groups)   See the [Create a New Service Account](#create-a-new-service-account) topic for instructions on modifying the service account to grant the required permissions. |
+| Active Directory | Recommended: __Domain Admins__  Minimum permissions:   - Grant Permissions to Create and Delete Users, Contacts, and Groups - Grant Permissions to Modify Users, Contacts, and Groups   See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
 | Exchange 2013/2016/2019 | Recipient Management |
 
 ## Create a New Service Account
 
 If you do not have a service account, you need to create one. Follow the three sets of instructions in this section to:
 
-1. [Create a Service Account:](#create-a-service-account)
-2. [Delegate Active Directory Permissions to the New Account:](#delegate-active-directory-permissions-to-the-new-account)
-3. [Delegate Exchange Permissions to the New Account:](#delegate-exchange-permissions-to-the-new-account)
+1. Create a Service Account:
+2. Delegate Active Directory Permissions to the New Account:
+3. Delegate Exchange Permissions to the New Account:
 
    f Exchange is configured as the messaging provider for the identity store)
 
@@ -73,7 +73,7 @@ In the __Active Directory Users and Computers__ console:
 
    Type the name of the service account in the __Enter the object name to select__ box. Click __OK__. The __Permissions Entry__ window is displayed with all fields enabled (see step 4).
 6. In the __Applies to__ box, select __This object and all descendant objects__.
-7. Grant permissions to create and delete users, contacts, and groups.
+7. Grant Permissions to Create and Delete Users, Contacts, and Groups.
 
    1. Scroll down the list of permissions in the __Permissions__ box and select the check boxes for the options shown below:
 
@@ -81,7 +81,7 @@ In the __Active Directory Users and Computers__ console:
    2. Click __OK__. The granted permissions appear in the __Advanced Security Settings__ window as shown below:
 
       ![advsecsettingsgrantedpermissions](/img/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsecsettingsgrantedpermissions.png)
-8. Grant permissions to modify users, contacts, and groups.
+8. Grant Permissions to Modify Users, Contacts, and Groups.
 
    1. Click the __Add__ button on the __Advanced Security Settings__ window. The __Permission Entry__ window is displayed (see step 4).
    2. Click the __Select a principal__ link next to Principal. The Select User, Computer, Service Account, or Group dialog box is displayed. Type the name of the service account in the __Enter the object name to select__ box and click __OK__. The __Permissions Entry__ window is displayed.

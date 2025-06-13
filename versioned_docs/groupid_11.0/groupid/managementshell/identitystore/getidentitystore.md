@@ -78,7 +78,7 @@ Get-IdentityStore
 
 ## Required Parameter
 
-- IdentityStoreName or a switch { All | Connected | Enabled | Disabled}
+- IdentityStoreName or a switch `{ All | Connected | Enabled | Disabled }`
 
 Example 1:
 

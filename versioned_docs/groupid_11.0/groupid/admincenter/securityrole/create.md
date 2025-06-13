@@ -2,8 +2,8 @@
 
 To create a security role for an identity store, you have to specify the following:
 
-- __Criteria__ - See [Criteria ](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#criteria).
-- __Priority__ - See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#priority).
+- __Criteria__ - See [Criteria ](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+- __Priority__ - See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
 - __Permissions__ - Permissions refer to the different actions that role members can perform using GroupID, for example, creating directory objects, managing groups, managing scheduled jobs, managing user profiles,
   and more.
 - __Policies__ - Policies refer to settings that apply to role members. For example, the search policy limits role members to search for objects in a particular container.

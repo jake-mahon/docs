@@ -2,7 +2,7 @@
 
 To view a detailed list of the actions that you have performed on the groups that you own using the following, click __History__ on the left navigation bar:
 
-- GroupID portal
+- GroupID portal
 - GroupID Management Shell cmdlets
 - GroupID mobile app
 - GroupID APIs
@@ -14,10 +14,10 @@ History is logged for groups that have you as the primary or additional owner.
 
 What do you want to do?
 
-- [History view modes](#history-view-modes)
-- [Filter history data](#filter-history-data)
-- [Add notes to history items](#add-notes-to-history-items)
-- [Export history data](#export-history-data)
+- History view modes
+- Filter history data
+- Add notes to history items
+- Export history data
 
 ## History view modes
 
@@ -67,7 +67,7 @@ Only the user who added the note can update it. Other users can only view this n
 
 ### Add a note
 
-The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md), [My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md) and [My Groups' History](#my-groups-history) pages.
+The option to add a note is available on the My Account History card on Dashboard, and all History pages i.e.[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md), [My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md) and My Groups' History pages.
 
 1. Click the __Add Note__ button next to a history item to add a note to it.
 2. On the __Add Note__ dialog box, write a note and click __Add Note__ to save it.

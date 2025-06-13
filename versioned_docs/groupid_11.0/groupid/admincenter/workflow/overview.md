@@ -6,7 +6,7 @@ Workflows are defined for an identity store and apply to the different operation
 
 A workflow triggers when a certain operation, performed by a user, meets the criteria defined for that workflow. Designated users can approve or deny workflow requests using the GroupID portal or the GroupID mobile app.
 
-NOTE: Workflows require an SMTP server to be configured for the identity store. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#configure-an-smtp-server) topic.
+NOTE: Workflows require an SMTP server to be configured for the identity store. See the [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 ## System Workflows
 

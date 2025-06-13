@@ -8,7 +8,7 @@ Once a user has enrolled his or her account, he or she must authenticate with th
 
 What do you want to do?
 
-- [Enroll your identity store account](#enroll-your-identity-store-account)
+- Enroll your identity store account
 
 ## Enroll your identity store account
 
@@ -50,7 +50,7 @@ What do you want to do?
      1. On the __Your Enrollments__ page, click the __Authenticator__ tab.
      2. Scan the QR code with the authenticator app installed on your phone.
 
-        The app generates a verification code and displays it on your phone’s screen.
+        The app generates a verification code and displays it on your phone's screen.
      3. Enter this code in the box and click __Enroll Account__.
 
      The authenticator app generates a new code every 30 seconds, with each code expiring after 30 seconds.
