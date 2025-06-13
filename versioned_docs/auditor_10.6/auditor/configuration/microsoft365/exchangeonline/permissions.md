@@ -65,7 +65,7 @@ __Step 10 –__ When prompted to specify a password, click __Enter__.
 
 __Step 11 –__ Go to __Manage > Certificates & secrets__, click __Upload certificate__ and upload the_.crt_ file you have just created.
 
-[](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/certificates_secrets.png)![certificates_secrets](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/certificates_secrets.png)
+![certificates_secrets](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/certificates_secrets.png)
 
 __Step 12 –__ To create Exchange Online connection session, you can provide certificate file path or thumbprint. If you want to use a file path, run the following command:
 
@@ -76,7 +76,7 @@ Connect-ExchangeOnline -CertificateFilePath "full_path_to_certificate" 
 
 Application (client ID) can be found in the __Overview__ page.
 
-[](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/tenant_id.png)[![tenant_id](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/tenant_id.png)](/versioned_docs/auditor_10.6/resources/images/auditor/configuration/azureadapp/tenant_id.png)
+![tenant_id](/img/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/tenant_id.png)d.png)
 
 For example:
 

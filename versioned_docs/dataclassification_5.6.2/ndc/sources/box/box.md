@@ -6,7 +6,7 @@ By default, configuration window displays basic configuration settings only. It 
 
 __NOTE:__ To configure advanced settings, your user account may need advanced privileges. [See Users and Security Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/security/users.md)
 
-[![addbox_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/box/addbox_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/addbox.png)
+![addbox_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/box/addbox_thumb_0_0.png)
 
 Configure the following:
 

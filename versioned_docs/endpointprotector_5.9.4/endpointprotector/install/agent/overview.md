@@ -157,7 +157,7 @@ While direct installation is not possible, you can still manage and control the 
 
 Follow the steps to use use Denylists to control WSL applications.
 
-__Step 1 –__ Navigate to the [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#denylists-and-allowlists) section within the Endpoint Protector Console.
+__Step 1 –__ Navigate to the [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md) section within the Endpoint Protector Console.
 
 __Step 2 –__ Create a new __Denylist entry__.
 

@@ -22,4 +22,4 @@ __Step 5 –__ Click __OK__ to confirm configurations. The Configure Imported Fa
 
 __Step 6 –__ Click __Save__ on the Sensitive Data view to save changes.
 
-The imported list of False Positive Exclusion Filters are now applied to Sensitive Data reports. If all of the files in the import were not meant to have the same Source and Criteria set, see the [Editing False Positive Exclusion Filters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/edit.md#editing-false-positive-exclusion-filters) topic for additional information.
+The imported list of False Positive Exclusion Filters are now applied to Sensitive Data reports. If all of the files in the import were not meant to have the same Source and Criteria set, see the [Editing False Positive Exclusion Filters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/edit.md) topic for additional information.

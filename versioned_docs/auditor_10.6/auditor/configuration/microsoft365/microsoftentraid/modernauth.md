@@ -66,7 +66,7 @@ Permission assignment will depend on the data you plan to collect: activity data
 | --- | --- |
 | Microsoft Entra ID app requires the following __Application__ permissions:   1. __Microsoft Graph__    - __Directory.Read.All__    - __AuditLog.Read.All__ 2. __Microsoft 365 Management APIs__    - __ActivityFeed.Read__ | To learn how to assign required permissions, see the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) section for additional information. |
 
-__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Using Modern Authentication with Microsoft Entra ID](#using-modern-authentication-with-microsoft-entra-id) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
+__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See this topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
 __Step 2 –__ Grant admin consent to the tenant (that is, for the Microsoft 365 organization whose audit data will be collected by the newly registered app).
 

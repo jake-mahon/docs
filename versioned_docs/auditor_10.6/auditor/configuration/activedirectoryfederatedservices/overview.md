@@ -48,7 +48,7 @@ __Step 1 –__ Select the AD FS data source in this monitoring plan (top row und
 
 __Step 2 –__ In the __Configure audit settings__ section, select __Adjust audit settings automatically__ check box.
 
-[![mp_data_source_ad_fs](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/mp_data_source_ad_fs.png)
+![mp_data_source_ad_fs](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs.png)ringplans/mp_data_source_ad_fs.png)
 
 __Step 3 –__ Save the settings.
 

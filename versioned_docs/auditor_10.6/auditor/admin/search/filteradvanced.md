@@ -54,8 +54,8 @@ When you add a new search filter, the Contains operator is used by default.
 
 To modify conditions for the selected filters, make sure you have switched to the Advanced search mode.
 
-[![advanced](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/advanced.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/filter/advanced.png)
+![advanced](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/advanced.png)
 
 The image below represents the same search filters as they are shown in the Search field in the Simple mode.
 
-[![advancedexample](/img/versioned_docs/auditor_10.6/auditor/admin/search/advancedexample.png)](/versioned_docs/auditor_10.6/resources/images/auditor/search/filter/advancedexample.png)
+![advancedexample](/img/versioned_docs/auditor_10.6/auditor/admin/search/advancedexample.png)

@@ -30,7 +30,7 @@ To change an anomaly status
 
    You can add comments without changing a status. This might be helpful if the anomaly remains active for a long period of time and you need even more time to examine it closely.
 
-[![changestatus](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/changestatus.png)](/versioned_docs/auditor_10.6/resources/images/auditor/behavioranomalies/changestatus.png)
+![changestatus](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/changestatus.png)
 
 Once the anomaly is reviewed, it disappears from the timeline and chart, and its associated risk score is taken from user's total score. The reviewed anomalies supplement the status with the reviewer name and date (e.g., _Reviewed by CORP\Administrator (10/02/2017 10:12:03 AM)_).
 

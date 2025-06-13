@@ -23,14 +23,14 @@ In the middle section, select the desired checkboxes for additional settings:
 
   ![NetApp communication security options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettingsnetapp.png)
 
-  - HTTPS – Encrypts communication and verifies the targeted server’s SSL certificate
+  - HTTPS – Encrypts communication and verifies the targeted server's SSL certificate
   - HTTPS, Ignore Certificate Errors – Encrypts communication but ignores certificate errors
 
     - This option is primarily used for troubleshooting
     - Alternative use for this option would be for access scans within a trusted and secured network
   - HTTP – Applies no encryption or authentication of communication
 
-  The HTTPS options require Enterprise Auditor to have access to the targeted server’s SSL certificate. Enterprise Auditor ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the [HTTPS Encryption Certificate for FSAA & NetApp Communication](#https-encryption-certificate-for-fsaa-netapp-communication) topic for information on adding the organization’s certificate.
+  The HTTPS options require Enterprise Auditor to have access to the targeted server's SSL certificate. Enterprise Auditor ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the HTTPS Encryption Certificate for FSAA & NetApp Communication topic for information on adding the organization's certificate.
 
 The bottom section is only available for the File System Access/Permission Auditing Scan and Sensitive Data Scan categories and contains the following options:
 
@@ -89,6 +89,6 @@ If employing remote applet mode or proxy servers, then the certificate (```cacer
 
 …\STEALTHbits\StealthAUDIT\FSAA
 
-___RECOMMENDED:___ Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add an underscore (\_) character to the start of the file name. Then copy the organization’s self-signed certificate to this location with the name ```cacert.pem```.
+___RECOMMENDED:___ Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add an underscore (\_) character to the start of the file name. Then copy the organization's self-signed certificate to this location with the name ```cacert.pem```.
 
 There is another ```cacert.perm``` file within the Enterprise Auditor installation directory used by the Notification SSL encryption options. While these files have the same name, they serve different purposes and are stored in different locations.

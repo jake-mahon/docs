@@ -28,8 +28,8 @@ Permissions
 The UsersGroups Data Collector is configured through the Users and Groups Browser wizard, which contains the following wizard pages:
 
 - Welcome
-- [UsersGroups: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/results.md#usersgroupsresults)
-- [UsersGroups: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/summary.md#usersgroupssummary)
+- [UsersGroups: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/results.md)
+- [UsersGroups: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/summary.md)
 
 ![Users and Groups Browser wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
 

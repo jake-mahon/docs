@@ -21,7 +21,7 @@ On the What do you want to do step, select Migrate Document action. do the follo
 1. Specify migration source and folder:
    - Select migration destination under Which type of repository should the document be migrated to?. You can add migration destination directly from wizard:
 
-     [![migration_destination_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/migration_destination_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/migration_destination.png)
+     ![migration_destination_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/migration_destination_thumb_0_0.png)
    - If you created several sources for migration destinations, select on one in the under Where should the document be migrated to?
    - For Google Drive, you need to specify subfolder to save your files in the Where in the destination should the files be saved? field.
 2. Configure migration options:

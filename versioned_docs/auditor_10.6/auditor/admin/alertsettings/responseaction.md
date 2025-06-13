@@ -25,14 +25,14 @@ __Step 3 –__ In the With parameters field, enter the parameters to be used by 
 
 __Step 4 –__ To run _.exe_, _.cmd_ and _.bat_ files, you can enter the path to your command-line or batch file directly in the Run field, for example:
 
-[![command](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/command.png)](/versioned_docs/auditor_10.6/resources/images/auditor/alerts/responseaction/command.png)
+![command](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/command.png)
 
 To run the ._ps1_ files, you will need to enter the path to _powershell.exe_ and path to your script. For example:
 
 - In the Run field, enter _C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe_
 - In the With parameters field, enter ```–File <path_to_your_ps_script>```
 
-[![powershell](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/powershell.png)](/versioned_docs/auditor_10.6/resources/images/auditor/alerts/responseaction/powershell.png)
+![powershell](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/powershell.png)
 
 Unless you select to Write data to CSV file, Auditor will also pass the following parameters to the command line:
 
@@ -84,7 +84,7 @@ To pass certain activity record fields to the executable file, you can instruct 
 
 Here is an example of a CSV file structure:
 
-[![csvfile](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/csvfile.png)](/versioned_docs/auditor_10.6/resources/images/auditor/alerts/responseaction/csvfile.png)
+![csvfile](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/csvfile.png)
 
 The number of activity records retrieved per every response action launch will be only limited by user (see below for details). If the number of records associated with the alert exceeds this limit, the program will create multiple CSV files, storing data in chunks.
 

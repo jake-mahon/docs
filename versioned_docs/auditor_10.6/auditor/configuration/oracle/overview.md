@@ -10,7 +10,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
   - On the Oracle server, configure the required settings described below.
-  - On the Auditor console computer, verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured. See the [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md#permissions-for-oracle-database-auditing) topic of system requirements.
+  - On the Auditor console computer, verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured. See the [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md#for-oracle-database-auditing) topic of system requirements.
 
 Ensure that you have met all software requirements on the Oracle Database side. See the [Software Requirements](/versioned_docs/auditor_10.6/auditor/requirements/software.md) topic for additional information.
 

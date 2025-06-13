@@ -49,7 +49,7 @@ You can access the Source Configuration screen by selecting the multi-cog (Advan
 
 Selecting Edit for one of the tables / queries on the list will redirect you to the entity level configuration, which identifies how content will be mapped into the core index.
 
-[![sqlsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/sqlsourceconfiguration_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/sqlsourceconfiguration.png)
+![sqlsourceconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/sqlsourceconfiguration_thumb_0_0.png)
 
 Selecting the Add Query option will present a popup allowing you to select a unique name for the query, as well as the queries to be used for crawling:
 
@@ -90,4 +90,4 @@ The table configuration allows you to choose how each specific entity will be cr
 | Modified Filter (Incremental Crawls) | This should be set to a field that defines when a row has changed (the modified date for the row). When set the collection process will automatically filter the re-indexing process to rows that have a modified date that is larger than the last crawl time. |
 | Re-Index Period | This value is the number of days/hours/minutes that will pass between Re-Indexing. The Re-Indexing process involves querying the table(s) to find new and changed records. |
 
-[![sqltableconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/sqltableconfiguration_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/sqltableconfiguration.png)
+![sqltableconfiguration_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/database/sqltableconfiguration_thumb_0_0.png)

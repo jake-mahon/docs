@@ -312,7 +312,7 @@ To add a validation check:
 2. Click Add
 3. Select the desired check __Type__ from the drop-down list, and specify other settings depending on the type.
 
-[![clues_regexp_validationcheck_thumb_0_48](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_regexp_validationcheck_thumb_0_48.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_regexp_validationcheck.png)
+![clues_regexp_validationcheck_thumb_0_48](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_regexp_validationcheck_thumb_0_48.png)
 
 4. Click Save.
 
@@ -350,7 +350,7 @@ The purpose of the two child classes is to identify documents that are about pen
 
 You use the Term Boost clue type to specify that a Class Score is to be boosted from another term. This is most often used when a complex class is implemented using several child (or even grandchild) classes. Basically, you would want to apply these clues to refer to the other term or taxonomy and review the score for each term, not drilling down to each term. Review the example:
 
-[![termboostclue_int_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_int_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_int.png)
+![termboostclue_int_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_int_thumb_0_0.png)
 
 In a tree view you can find the list of terms, which are displayed in the Term boost list to the right. This way you can review or edit the average score for each term.
 
@@ -362,13 +362,13 @@ The score may be entered as a number (if a fixed boost is required regardless of
 
 When referencing a specific node it is also possible to include all of the levels of that nodes descendants at once.
 
-[![termboostclue_allterms_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_allterms_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_allterms.png)
+![termboostclue_allterms_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_allterms_thumb_0_0.png)
 
 At classification time if the referenced node or any of its descendants (up to the configured level) reach their threshold then the term boost will be applied.
 
 Select the Exclude Not Available for Tagging check box, if you want to exclude the terms, which are not available for tagging. This feature lets you select the grayed-out terms and exclude them for tagging for your taxonomy. For example, you have UK ZIP code, which was tagged as __Available for Tagging__ before. It doesn't qualify as sensitive for your Confidential term. Therefore, you can apply this feature.
 
-[![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_exludenotavailablefortagging.png)
+![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.png)
 
 ## Language Clues
 

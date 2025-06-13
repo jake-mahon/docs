@@ -27,7 +27,7 @@ To use the authentication forms:
 
    All other authentication methods should be disabled.
 
-   [![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/iis.png)
+   ![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)
 3. If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and delete (or comment out) three lines:
 
    <!-- The following 3 lines are required for Windows Authentication. Remove to allow anonymous access to
@@ -79,11 +79,11 @@ Each tab contains a top level checkbox (“Allow Access”) which defines whethe
 When an area is enabled there are typically more granular permissions that can be enabled, such as:
 
 - Within the Taxonomies area it is also possible to assign permissions at a specific Term Set or Term branch level. A full user permission summary (for all Term/Set level permissions) can be viewed by selecting the View Taxonomy Permissions button (shown below).
-- Within the Sources area it is possible to restrict a user’s access to specific source groups, as shown below.[![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/userpermissions.png)
+- Within the Sources area it is possible to restrict a user’s access to specific source groups, as shown below.![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.png)
 
 Taxonomy Permissions Summary:
 
-[![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/viewtaxonomypermissionssummary.png)
+![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.png)
 
 You can restrict permissions for a user to the following areas:
 

@@ -11,7 +11,7 @@ You can use the Content Detection Rule to deﬁne the policy by combining multip
 To edit a Content Detection Rule, click __Edit__ and then, on the Deﬁne operation section, provide the following information:
 
 - Select operator - OR (default), __AND__
-- Enable __Threshold__ and type the number adjacent to each entry from 1 to 1000; this will disable the Global Threshold setting from the [Content Detection, Remediation and Compliance](#content-detection-remediation-and-compliance) section.
+- Enable __Threshold__ and type the number adjacent to each entry from 1 to 1000; this will disable the Global Threshold setting from the Content Detection, Remediation and Compliance section.
 - Add item and select from the drop-down Personal Identifiable Information; before saving the operation, you can change PIIs by selecting from the drop-down list. To delete an entry from the list, click __x__ adjacent to each PII.
 - __Add group__
 
@@ -124,7 +124,7 @@ __CAUTION:__ The Content Aware Protection Policies continue to report and/or blo
 
 You can deﬁne the monitored URL categories the Deep Packet Inspection will ﬁlter. If none is selected, Deep Packet Inspection will ﬁlter all content uploaded for any URL.
 
-You can add, delete and edit [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#denylists-and-allowlists) from the Denylists and Allowlists section.
+You can add, delete and edit [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md) from the Denylists and Allowlists section.
 
 ![Deﬁne the monitored URL categories the Deep Packet Inspection](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpimonitored.png)
 

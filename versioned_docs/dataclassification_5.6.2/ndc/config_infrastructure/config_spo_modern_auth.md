@@ -33,7 +33,7 @@ Follow the steps to register a new Microsoft Entra ID application.
 3. Under the Microsoft Entra ID select the __App registrations__ section.
 4. Select __New registration__:
 
-[![mfa_o365_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_o365_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_o365.png)
+![mfa_o365_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_o365_thumb_0_0.png)
 
 5. In the Name field, enter the application name.
 6. In the Supported account types, select who can use this application – use the __Accounts in this organizational directory only__ option.

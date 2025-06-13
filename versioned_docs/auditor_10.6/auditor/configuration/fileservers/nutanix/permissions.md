@@ -18,7 +18,7 @@ You will also need an account that will be used to connect to Nutanix File Serve
 
 This account should be provided in the __Nutanix File Server REST API__ tab of the monitored item (_Nutanix SMB shares_) settings.
 
-[![nutanix_item_restapi](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/nutanix_item_restapi.png)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/nutanix_item_restapi.png)
+![nutanix_item_restapi](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/nutanix_item_restapi.png)m_restapi.png)
 
 This account must be assigned the __REST API access users__ role for Nutanix File Server you want to audit.
 
@@ -47,7 +47,7 @@ __Step 7 –__ Next, in the __REST API access users__ section click __+New user_
 
 __Step 8 –__ Enter the local user account and password, then click __Save__ next to these cells to save the settings.
 
-[![nutanix_user](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/nutanix_user.jpg)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/nutanix_user.jpg)
+![nutanix_user](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/nutanix_user.jpg)
 
 __Step 9 –__ When finished, click __Close__.
 

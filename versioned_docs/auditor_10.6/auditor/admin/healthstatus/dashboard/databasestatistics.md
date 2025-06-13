@@ -26,7 +26,7 @@ The following capacity metrics are displayed for each database:
 
 After you expand the database node, the detailed database properties will be shown:
 
-[![dbstatistics](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/dbstatistics.png)](/versioned_docs/auditor_10.6/resources/images/auditor/health/dbstatistics.png)
+![dbstatistics](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/dbstatistics.png)
 
 These properties are as follows:
 

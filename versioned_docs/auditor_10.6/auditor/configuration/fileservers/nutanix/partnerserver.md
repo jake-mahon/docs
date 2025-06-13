@@ -82,6 +82,6 @@ This address must be visible from the Nutanix File Server network.
 
 The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter: ``{ }``
 
-[![api_partner_server_resquest](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api_partner_server_resquest.png)](/versioned_docs/auditor_10.6/resources/images/auditor/nutanix/api_partner_server_resquest.png)
+![api_partner_server_resquest](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api_partner_server_resquest.png)ix/api_partner_server_resquest.png)
 
 9. The response body should contain the list of servers, including new partner server name and other settings.

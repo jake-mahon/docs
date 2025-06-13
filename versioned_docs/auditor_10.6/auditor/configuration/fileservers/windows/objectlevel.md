@@ -64,9 +64,9 @@ __Step 5 –__  You can specify any other user group, but in this case Netwrix A
 __Step 6 –__ Apply settings to your Auditing Entries depending on the access types that you want to audit. If you want to audit all access types (successful reads and changes as well as failed read and change attempts), you need to add separate Auditing Entries for each file share. Otherwise, reports will contain limited data and warning messages. Review the following for additional information:
 
 - Successful reads
-- [Successful changes](#successful-changes)
-- [Failed read attempts](#failed-read-attempts)
-- [Failed change attempts](#failed-change-attempts)
+- Successful changes
+- Failed read attempts
+- Failed change attempts
 
 | Auditing Entry |
 | --- |

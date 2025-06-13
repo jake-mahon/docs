@@ -6,8 +6,7 @@ To read more about SQL server-level roles, refer to [this Microsoft article](htt
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties. See Settings for Data Collection.
 
-[![sqlserverlevelroles](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverlevelroles.png)  
-](/versioned_docs/auditor_10.6/images/audit_intel/reports/sql/server_roles.png)
+![sqlserverlevelroles](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverlevelroles.png)
 
 ## Reported data
 

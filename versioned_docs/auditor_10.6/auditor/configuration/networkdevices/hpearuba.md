@@ -3,7 +3,7 @@
 To configure your HPE Aruba devices, enable logging to multiple Syslog servers and configure logging levels. Do one of the following:
 
 - To configure HPE Aruba devices via Command Line Interface
-- [To configure HPE Aruba devices through the Management Console](#to-configure-hpe-aruba-devices-through-the-management-console)
+- To configure HPE Aruba devices through the Management Console
 
 To configure HPE Aruba devices via Command Line Interface
 

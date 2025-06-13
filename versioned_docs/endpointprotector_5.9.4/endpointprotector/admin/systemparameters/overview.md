@@ -339,7 +339,7 @@ In this section, you can view, add, edit, export, and remove justiﬁcations. Th
 
 To add a new justiﬁcation, click __Add__, ﬁll in the mandatory ﬁelds and then click __Save__. You can add up to a maximum of 10 justiﬁcations. By default, several justiﬁcations are already added, but make sure that at least one justiﬁcation is enabled all the time.
 
-To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option from Device Control, Global Settings, [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#device-control).
+To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option from Device Control, Global Settings, [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md).
 
 ![Justiﬁcations List](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/justflist.png)
 
@@ -357,11 +357,11 @@ To do so, go to the Devices Types and Notiﬁcations, [Custom Device Control Use
 
 ![Custom Device Control User Remediation Notiﬁcations](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/customdcuserremediationnotif.png)
 
-__Step 3 –__ Enable the __User Remediation Pop-up__ setting from the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#device-control) topic and then select the __customized notiﬁcation__ from the User Remediation Notiﬁcation Template drop-down list;
+__Step 3 –__ Enable the __User Remediation Pop-up__ setting from the [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md) topic and then select the __customized notiﬁcation__ from the User Remediation Notiﬁcation Template drop-down list;
 
 ![User Remediation Pop-up](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/userremediationpopup.png)
 
-__Step 4 –__ Navigate to [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md#device-control), Device Types section and enable __User Remediation__ for devices with limited access – devices that have full access permission cannot beneﬁt from the User Remediation feature.
+__Step 4 –__ Navigate to [Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md), Device Types section and enable __User Remediation__ for devices with limited access – devices that have full access permission cannot beneﬁt from the User Remediation feature.
 
 __NOTE:__ For built-in devices, such as Webcam and Network share, the User Remediation feature is not available.
 

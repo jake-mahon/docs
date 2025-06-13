@@ -105,7 +105,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -173,7 +173,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -241,7 +241,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -326,7 +326,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -402,7 +402,7 @@ __Step 2 –__ Specify what actions should be excluded:
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-[![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclude_users.png)
+![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.png)
 
 __Step 3 –__ After configuring all filters, click __Add__ to save them and return to the item settings.
 
@@ -467,7 +467,7 @@ Complete the following fields:
 
 By default, both user activity and state-in-time data will be collected for the monitored item. However, you can narrow your monitoring scope by specifying certain locations, user accounts or actions to exclude .
 
-[![Add Item (Computer)](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclusions.png)](/versioned_docs/auditor_10.6/resources/images/auditor/monitoringplans/item_computer_exclusions.png)
+![Add Item (Computer)](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclusions.png)
 
 Click Add Exclusion, then follow the steps in the Specify Filters dialog:
 

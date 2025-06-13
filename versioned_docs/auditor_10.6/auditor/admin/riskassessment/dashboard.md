@@ -29,7 +29,7 @@ Default threshold values for risk levels are set in accordance with recommendati
 2. In the dialog displayed, specify new threshold values for risk levels.
 3. Click OK to save the settings and close the dialog.
 
-   [![modify_thresholds](/img/versioned_docs/auditor_10.6/auditor/admin/riskassessment/modify_thresholds.png)](/versioned_docs/auditor_10.6/resources/images/auditor/riskassessment/modify_thresholds.png)
+   ![modify_thresholds](/img/versioned_docs/auditor_10.6/auditor/admin/riskassessment/modify_thresholds.png)
 
 Also, for several metrics the Customize risk indicators command is available.
 

@@ -97,7 +97,7 @@ The wizard will then walk you through performing the update. Each update will al
 
 The update can either be performed immediately or in "report-only" mode. When report-only mode is used the scope of changes will be specified to the end-user—the end-user can then choose to commit the update which will perform the changes (or, leave the update if the scope was incorrect).
 
-[![bulkupdate_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/bulkupdate_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/bulkupdate.png)
+![bulkupdate_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/bulkupdate_thumb_0_0.png)
 
 All updates, report-only or otherwise, can be found under the "Bulk Updates" tab. Updates are queued and processed in the background with the results exposed through this interface.
 
@@ -105,7 +105,7 @@ All updates, report-only or otherwise, can be found under the "Bulk Updates" tab
 
 To manage the term set, select the taxonomy you need, then in the taxonomy tree browse to the required term set and click the __Term Management__ tab on the right.
 
-[![term_management_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/term_management_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/term_management.png)
+![term_management_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/term_management_thumb_0_0.png)
 
 Then you can work with the tabs you need, including Search, Browse and Working Set tabs.
 

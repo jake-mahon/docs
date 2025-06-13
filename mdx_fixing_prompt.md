@@ -166,7 +166,7 @@ description: 'This has a "quote" that breaks YAML'
   </error>
 </common_broken_link_errors>
 <common_broken_anchor_errors>
-  <error type="heading_does_not_exist">
+  <error type="heading_exists_but_does_not_have_pound">
     <description>
       A tag references a heading within the same file, but the heading that is being referenced is not properly prefixed with a pound symbol (#). Headings will always be on their own line.
     </description>
@@ -190,6 +190,17 @@ description: 'This has a "quote" that breaks YAML'
         ## Manual Entry
       </fixed>
     </example>
+  </error>
+  <error type="heading_does_not_exist">
+    <description>
+      An anchor references a heading that does not exist in the target file. In this scenario, follow the fix for the error type "heading_exists_but_does_not_have_pound". If the heading still does not exist, then the anchor needs to be removed.
+    </description>
+    <broken>
+      The reference [Install Application](/versioned_docs/[PRODUCT_NAME]/activitymonitor/install/application.md#install-application) has an anchor, #install-application, that does not exist in application.md.
+    </broken>
+    <fixed>
+      The fix is to remove the anchor from the reference: [Install Application](/versioned_docs/[PRODUCT_NAME]/activitymonitor/install/application.md)
+    </fixed>
   </error>
   <error type="anchor_references_root_heading">
     <description>

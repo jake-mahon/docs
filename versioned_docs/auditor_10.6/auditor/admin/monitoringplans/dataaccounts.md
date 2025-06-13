@@ -29,7 +29,7 @@ The gMSA should also meet the related requirements (see the table below).
 | SQL Server | [Permissions for SQL Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/permissions.md) |
 | VMware | [Permissions for VMware Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/vmware/permissions.md) |
 | Windows Server (including DNS and DHCP) | [Permissions for Windows Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md) |
-| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md#permissions-for-windows-server-auditing) |
+| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md) |
 | Group Policy | [Permissions for Group Policy Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/grouppolicy/permissions.md) |
 | Logon Activity | [Permissions for Logon Activity Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/permissions.md) |
 | Inactive Users in Active Directory—collected with Inactive User Tracker | In the target domain   - A member of the Domain Admins group |

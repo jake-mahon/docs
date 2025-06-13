@@ -14,7 +14,7 @@ In this scenario, the account used to access SCVMM server must be a member of th
 
 3. Add-on running on the same machine as SCVMM Management Console; SCVMM server running on the remote machine:
 
-[![deployment_3](/img/versioned_docs/auditor_10.6/auditor/addon/hyperv/diagram3servers.png)](/versioned_docs/auditor_10.6/resources/images/auditor/addon/hyperv/diagram3servers.png)
+![deployment_3](/img/versioned_docs/auditor_10.6/auditor/addon/hyperv/diagram3servers.png)
 
 In this scenario, make sure to specify SCVMM server address in the __DataCollectionServer__ parameter (not the machine where SCVMM console runs) in the __settings.xml__ configuration file. See the [Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/hyperv/parameters.md)topic for additional information.
 

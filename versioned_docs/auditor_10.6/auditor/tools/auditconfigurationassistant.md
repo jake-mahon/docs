@@ -76,7 +76,7 @@ At this step, you will be presented the results of the environment readiness ass
 - the list of current and required settings for each entity
 - the list of issues (if any) that occurred during the assessment
 
-[![assessment_results](/img/versioned_docs/auditor_10.6/auditor/tools/assessment_results.png)](/versioned_docs/auditor_10.6/resources/images/auditor/other/assessment_results.png)
+![assessment_results](/img/versioned_docs/auditor_10.6/auditor/tools/assessment_results.png)
 
 1. Examine the report.
 2. If some issues occurred due to the lack of access rights during the assessment, you can click __Back__ and modify the settings provided at the previous step.

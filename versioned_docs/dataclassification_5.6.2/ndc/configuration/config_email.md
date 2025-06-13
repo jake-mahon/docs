@@ -38,7 +38,7 @@ Health Service Notifications can be configured to email a specific group of peop
 
 To add a new notification configuration select Add Notification Configuration, or select Edit on each row to change the configuration.
 
-[![confighealthnotifications_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/confighealthnotifications_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/confighealthnotifications.png)
+![confighealthnotifications_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/confighealthnotifications_thumb_0_0.png)
 
 Notifications can be set to trigger on warnings, or just on errors – by default problems of any level will be reported.
 

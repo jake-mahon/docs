@@ -95,7 +95,7 @@ __NOTE:__ Although this feature can work in situations where the Serial Number r
 
 ![Add up to 1000 devices at the same time](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/bulkdevices.png)
 
-The File Allowlist feature is also available for USB storage devices that have allowed access. For detailed information on using the File Allowlist, refer to the File [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md#denylists-and-allowlists) topic.
+The File Allowlist feature is also available for USB storage devices that have allowed access. For detailed information on using the File Allowlist, refer to the File [Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md) topic.
 
 ## Outside Network
 

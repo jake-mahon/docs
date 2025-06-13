@@ -454,7 +454,7 @@ Once these settings are made, the fallback device type rights can be set Globall
 
 __CAUTION:__ When triggered, fallback policies supersede the standard device rights. Regarding fallback policies, the Outside Network Policies supersede the Outside Hours Policies.
 
-__NOTE:__ For [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md#content-aware-protection), the Outside Network and Outside Hours Policy Type also needs to be selected.
+__NOTE:__ For [Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md), the Outside Network and Outside Hours Policy Type also needs to be selected.
 
 ![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidehoursnetwork.png)
 

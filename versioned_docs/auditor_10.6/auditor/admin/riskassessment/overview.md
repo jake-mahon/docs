@@ -59,7 +59,7 @@ To verify the necessary settings of the existing plan
 3. Go to the Audit Database section and make sure that Disable security intelligence ... checkbox is cleared. This will instruct Netwrix Auditor to store data to both Long-Term Archive and audit database:  
    ![edit_mp_store_data_to_db](/img/versioned_docs/auditor_10.6/auditor/admin/riskassessment/edit_mp_store_data_to_db.png)
 4. Save the settings and return to the window with the monitoring plan details. Make sure you have at least one monitored item in the plan. If necessary, add an item.
-5. Select the data source you need (for example, Active Directory) and click Edit data source from the Data source section on the right. [![edit_mp_open_ds_settings](/img/versioned_docs/auditor_10.6/auditor/admin/riskassessment/edit_mp_open_ds_settings.png)](/versioned_docs/auditor_10.6/resources/images/auditor/riskassessment/edit_mp_open_ds_settings.png)
+5. Select the data source you need (for example, Active Directory) and click Edit data source from the Data source section on the right. ![edit_mp_open_ds_settings](/img/versioned_docs/auditor_10.6/auditor/admin/riskassessment/edit_mp_open_ds_settings.png)
 6. Make sure that:
    1. Monitor this data source and collect activity data is switched ON.
    2. Collect data for state-in-time reports is switched ON.

@@ -6,8 +6,7 @@ Supported object types and attributes are listed in the [SQL Server](/versioned_
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties.
 
-[![sqlservermeansgranted](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranted.png)  
-](/versioned_docs/auditor_10.6/images/audit_intel/reports/sql/means_granted_sql.png)
+![sqlservermeansgranted](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranted.png)  
 
 ## Reported data
 

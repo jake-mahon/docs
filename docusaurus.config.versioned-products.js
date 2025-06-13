@@ -5,11 +5,11 @@
 const VERSIONED_PRODUCTS = {
   'accessinformationcenter_11.6': false,
   'activitymonitor_7.1': false,
-  'auditor_10.6': true,
+  'auditor_10.6': false,
   'changetracker_8.0': false,
   'dataclassification_5.6.2': false,
   'endpointprotector_5.9.4': false,
-  'enterpriseauditor_11.6': false,
+  'enterpriseauditor_11.6': true,
   'groupid_11.0': false,
   'passwordpolicyenforcer_10.2': false,
   'passwordreset_3.23': false,

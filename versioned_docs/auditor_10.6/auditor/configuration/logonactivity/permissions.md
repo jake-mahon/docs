@@ -21,8 +21,8 @@ Follow the steps to configure non-administrative account to collect logon activi
 
 __Step 1 –__ Create a domain user with the following privileges:
 
-- Back up files and directories. See the  [Configure the Back up Files and Directories Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/configuration.md#configure-the-back-up-files-and-directories-policy) topic for additional information.
-- Log on as a batch job. See the [Permissions for Active Directory Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md#permissions-for-active-directory-auditing) topic for additional information.
+- Back up files and directories. See the  [Configure the Back up Files and Directories Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/configuration.md) topic for additional information.
+- Log on as a batch job. See the [Permissions for Active Directory Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md) topic for additional information.
 - Manage auditing and security log. See the [Configure the Manage Auditing and Security Log Policy](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md#configure-the-manage-auditing-and-security-log-policy) topic for additional information.
 
 __Step 2 –__ Grant the _Read_ permission on the following registry keys to this user:

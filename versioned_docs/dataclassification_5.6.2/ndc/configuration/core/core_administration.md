@@ -4,7 +4,7 @@ This configuration tab contains general options, as well as those that apply to 
 
 Nearly each configuration option has an associated “i” which describes the nature of the setting.
 
-[![core_admin_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/core_admin_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/config_system/core_admin.png)
+![core_admin_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/core_admin_thumb_0_0.png)
 
 ## General Options
 

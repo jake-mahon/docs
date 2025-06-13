@@ -18,7 +18,7 @@ __Step 2 –__ Set the Data source filter to __Self-audit__.
 
 __Step 3 –__ Click Search to review results:
 
-[![selfaudit_search](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit_search.png)](/versioned_docs/auditor_10.6/resources/images/auditor/settings/selfaudit_search.png)
+![selfaudit_search](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit_search.png)
 
 __NOTE:__ After reviewing your search results, apply filters to narrow your data. See the [View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional information.
 

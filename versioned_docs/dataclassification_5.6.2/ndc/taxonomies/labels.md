@@ -16,7 +16,7 @@ More than one label can be applied to each term to allow for labels to be applie
 
 Simply select Add and choose the label you wish to assign from the drop down list:
 
-[![o365labels_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/o365labels_thumb_0_0.png)](/img/versioned_docs/dataclassification_5.6.2/ndc/o365labels.png)
+![o365labels_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/o365labels_thumb_0_0.png)
 
 __NOTE:__  If the site collection has only recently been added then the label may not yet have been synchronized down.
 

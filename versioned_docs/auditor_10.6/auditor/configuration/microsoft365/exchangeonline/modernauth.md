@@ -54,10 +54,10 @@ Permission assignment will depend on the data you plan to collect: activity data
 
 | To... | Requirement | Comment |
 | --- | --- | --- |
-| Collect audit data | Microsoft Entra ID app requires the following __Application__ permissions:   1. Microsoft Graph    - Directory.Read.All    - Application.ReadWrite.All    - Mail.ReadBasic.All    - MailboxSettings.Read 2. Microsoft 365 Management APIs    - ActivityFeed.Read 3. Microsoft 365 Exchange Online     - Exchange.ManageAsApp | To learn how to assign required permissions, see the [Access Exchange Online Using Modern Authentication](#access-exchange-online-using-modern-authentication) section for additional information. |
+| Collect audit data | Microsoft Entra ID app requires the following __Application__ permissions:   1. Microsoft Graph    - Directory.Read.All    - Application.ReadWrite.All    - Mail.ReadBasic.All    - MailboxSettings.Read 2. Microsoft 365 Management APIs    - ActivityFeed.Read 3. Microsoft 365 Exchange Online     - Exchange.ManageAsApp | To learn how to assign required permissions, see this section for additional information. |
 | Roles | _Exchange Administrator_ (_Exchange Service Administrator_) assigned to application service principal  OR  _Global Administrator_ assigned to application service principal |  |
 
-__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Access Exchange Online Using Modern Authentication](#access-exchange-online-using-modern-authentication) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
+__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See this topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
 __Step 2 –__ Grant admin consent to the tenant (that is, for the Microsoft 365 organization whose audit data will be collected by the newly registered app).
 
@@ -136,4 +136,4 @@ __Step 2 –__ In the __Tenant information__ locate the __Primary domain__ field
 
 See the following Microsoft article for additional information on how to obtain tenant name: [Locate important IDs for a user](https://learn.microsoft.com/en-us/partner-center/find-ids-and-domain-names).
 
-Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id) topic for additional information.
+Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.

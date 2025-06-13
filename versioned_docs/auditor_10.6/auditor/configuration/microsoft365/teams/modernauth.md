@@ -68,7 +68,7 @@ Permission assignment will depend on the data you plan to collect: activity data
 
 - | Requirement | Comment |
   | --- | --- |
-  | Microsoft Entra ID app requires the following __Application__ permissions:  1. __Microsoft Graph__    - Application.ReadWrite.All    - __AuditLog.Read.All__    - Directory.Read.All    - Sites.Read.All    - TeamMember.Read.All 2. __Microsoft 365 Management APIs__    - __ActivityFeed.Read__ 3. SharePoint     - __Sites.FullControl.All__ | To learn how to assign required permissions, see the[ Configure the Microsoft Entra ID App for Auditing MS Teams](#configure-the-microsoft-entra-id-app-for-auditing-ms-teams) topic for additional information. |
+  | Microsoft Entra ID app requires the following __Application__ permissions:  1. __Microsoft Graph__    - Application.ReadWrite.All    - __AuditLog.Read.All__    - Directory.Read.All    - Sites.Read.All    - TeamMember.Read.All 2. __Microsoft 365 Management APIs__    - __ActivityFeed.Read__ 3. SharePoint     - __Sites.FullControl.All__ | To learn how to assign required permissions, see the [Configure the Microsoft Entra ID App for Auditing MS Teams](#configure-the-microsoft-entra-id-app-for-auditing-ms-teams) topic for additional information. |
 
 __NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the Using Modern Authentication with MS Teams topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
@@ -77,8 +77,6 @@ __Step 2 –__ Grant admin consent to the tenant (that is, for the Microsoft 365
 See the following Microsoft article for additional information: [Grant admin consent in App registrations](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent?pivots=portal#grant-admin-consent-in-app-registrations).
 
 #### Grant Admin Consent to a Tenant
-
-Content/EnterpriseAuditor/Solutions/ActiveDirectoryPermissionsAnalyzer/Computers/Overview.htm
 
 Go to the __Microsoft Entra ID admin center__ > __Applications__ > __App registrations__ >  __API permissions__ and click __Grant admin consent for__ _`<tenant name>`_.
 When prompted to confirm, click __Yes__.
@@ -133,4 +131,4 @@ __Step 2 –__ In the __Tenant information__ locate the __Primary domain__ field
 
 See the following Microsoft article for additional information on how to obtain tenant name: [Locate important IDs for a user](https://learn.microsoft.com/en-us/partner-center/find-ids-and-domain-names).
 
-Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id) topic for additional information.
+Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Microsoft 365 tenant) to it. See the [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.

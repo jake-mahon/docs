@@ -17,6 +17,6 @@ If you are sure that some audit data is missing (e.g., you do not see informatio
 
 By default, Auditor allows generating reports and running interactive searches on data collected in the last 180 days. If you want to investigate incidents that occurred more than 180 days ago, ask your Auditor Global administrator to import that data from the Long-Term Archive.
 
-[![failedactivitytrend](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/failedactivitytrend.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report/failedactivitytrend.png)
+![failedactivitytrend](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/failedactivitytrend.png)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/overview.md) topic for additional information.

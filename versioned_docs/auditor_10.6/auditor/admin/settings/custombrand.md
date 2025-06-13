@@ -77,7 +77,7 @@ __Step 4 –__ Click the arrow button to run the script. The user who runs the s
 
 After running the script, start the Netwrix Auditor client and generate a report. The branding will be updated.
 
-[![report_rebranding_result](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding_result.png)](/versioned_docs/auditor_10.6/resources/images/auditor/report_rebranding_result.png)
+![report_rebranding_result](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding_result.png)
 
 Follow the steps to restore original look.
 

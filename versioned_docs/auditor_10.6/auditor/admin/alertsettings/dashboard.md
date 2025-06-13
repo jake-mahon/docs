@@ -16,7 +16,7 @@ The dashboard includes the following widgets:
 
 Clicking any tile except for Risk score by top 5 users drills down to the Alert history dashboard that provides users with the detailed information about the latest alerts triggered in their IT infrastructure enriched with the actionable chart and timeline.
 
-[![alerts_history](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/alerts_history.png)](/versioned_docs/auditor_10.6/resources/images/auditor/homescreen/alerts_history.png)
+![alerts_history](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/alerts_history.png)
 
 Review detailed information about the triggered alerts and change anomaly status. See the [Review User Profiles and Process Anomalies](/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/userprofile.md) topic for additional information.
 
