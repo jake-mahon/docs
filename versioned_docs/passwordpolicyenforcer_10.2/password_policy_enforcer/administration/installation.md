@@ -19,8 +19,9 @@ If your domain contains some read-only domain controllers, then installation of 
 - [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md)
 - [Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
-- [](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/password_reset.md)[Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/web_overview.md)
+- [Password Reset](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/password_reset.md)
+- [Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/web_overview.md)
 
-You can install Password Policy Enforcer manually[ ](#)if you only need to install it on a few computers. See the [Manual Installation (Express Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/manual_installation.md) topic for additional information.
+You can install Password Policy Enforcer manually if you only need to install it on a few computers. See the [Manual Installation (Express Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/manual_installation.md) topic for additional information.
 
 It is recommended to perform an automated installation with Group Policy if you need to install it on many computers in a domain. See the [Automated Installation (Advanced Setup)](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/automated_installation.md) topic for additional information.
