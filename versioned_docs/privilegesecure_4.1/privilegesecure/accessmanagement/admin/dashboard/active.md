@@ -15,13 +15,13 @@ The dashboard has the following features:
 - Create Session — Open the Activity Request window. See the [Create Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/createsession.md) topic for additional information.
 - End Session — Cancel the selected session(s)
 - View Logs — Opens the Session Logs window to view the action log for the selected session. See the [Session Logs Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/sessionlogs.md) topic for additional information.
-- Lock Activity — Opens the Lock Session window to prevent the user from interacting with the host but keeps the session active. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession) topic for additional information.
+- Lock Activity — Opens the Lock Session window to prevent the user from interacting with the host but keeps the session active. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 - Unlock Activity — Unlocks a session to allow the user to interact with the host
 - Refresh — Reload the information displayed
 - Stop — Stop the selected session
 - Delete — Deletes the completed activity session
 
-__NOTE:__ Sessions can be locked. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession) topic for additional information.
+__NOTE:__ Sessions can be locked. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 The table has the following columns:
 
@@ -38,7 +38,7 @@ The table has the following columns:
   - Failed — Pre-Session stage of the Activity has encountered an error
   - Logged In — User is successfully logged in to the Resource either directly or via the Proxy. Direct log-in is detected by polling the Resource at regular intervals and may not update immediately.
   - Canceling — The session is either expired or was canceled manually by the user or an Privilege Secure administrator.
-  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession) topic for additional information.
+  - Locked — The session has been locked by an Privilege Secure administrator. See the [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 - Requested — Date and time of when the session was created
 - Requested By — User who requested the session. Click the link to view additional details. See the [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
 - Host — Resource that the user will run the activity on. Click the link to view additional details.The details vary based on the type of resource. See the following topics for additional information:
