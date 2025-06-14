@@ -4,7 +4,7 @@ Helpdesk users can search for users in specific identity store(s) or all identit
 
 What do you want to do?
 
-- [Perform a Search](#Perform-a-Search)
+- Perform a Search
 
 ## Perform a Search
 

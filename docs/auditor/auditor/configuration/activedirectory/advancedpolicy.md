@@ -4,8 +4,8 @@ You can configure advanced audit policies instead of basic domain policies to co
 
 Perform the following procedures:
 
-- [To configure security options](#To-configure-security-options)
-- [To configure advanced audit policies](#To-configure-advanced-audit-policies)
+- To configure security options
+- To configure advanced audit policies
 
 ## To configure security options
 

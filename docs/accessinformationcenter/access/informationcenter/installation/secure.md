@@ -16,11 +16,11 @@ __NOTE:__ Organizations typically have one or more system administrators respons
 
 Follow the steps to enable SSL.
 
-__Step 1 –__ [Create an SSL Binding](#Create-an-SSLBinding).
+__Step 1 –__ Create an SSL Binding.
 
-__Step 2 –__ [Modify the AccessInformationCenter.Service.exe.Config File](#Modify-the-AccessInformationCenterServiceexeConfig-File).
+__Step 2 –__ Modify the AccessInformationCenter.Service.exe.Config File.
 
-__Step 3 –__ [Update the URL in the AIC’s Desktop Icon Properties](#Update-the-URL-in-the-AICs-Desktop-Icon-Properties)
+__Step 3 –__ Update the URL in the AIC’s Desktop Icon Properties
 
 The Access Information Center is now configured to use SSL for secure, remote connections.
 

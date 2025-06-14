@@ -2,8 +2,8 @@
 
 Once your documents are classified, you can identify sensitive information and reduce its exposure. Netwrix recommends starting with the Document Tagging report to see automatic and manual classifications of the documents within the reporting set. Further, you can browse your documents to see a list of documents achieving the minimum score set for classification in the term. Review the following for additional information:
 
-- [To browse classification results](#To-browse-classification-results)
-- [To review the Document Tagging report](#To-review-the-Document-Tagging-report)
+- To browse classification results
+- To review the Document Tagging report
 
 To browse classification results
 

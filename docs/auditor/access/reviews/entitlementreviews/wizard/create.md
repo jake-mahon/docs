@@ -19,7 +19,7 @@ It contains three pages:
   - Preview of the review selections
   - Provides a status of the action being committed. Action includes creating the review and sending notifications to owners.
 
-See the [Create a Review](#Create-a-Review) topic for additional information.
+See the Create a Review topic for additional information.
 
 ## Create a Review
 

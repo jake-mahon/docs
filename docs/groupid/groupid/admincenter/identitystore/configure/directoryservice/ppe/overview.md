@@ -15,10 +15,10 @@ Directory Manager also has its Password policy which can be defined at an identi
 
 In Directory Manager, you can
 
-- [Add a PPE Policy
-  ](#Add-a-PPE-Policy)
-- [Edit a PPE Policy](#Edit-a-PPE-Policy)
-- [Delete a PPE Policy](#Delete-a-PPE-Policy)
+- Add a PPE Policy
+  
+- Edit a PPE Policy
+- Delete a PPE Policy
 
 ## Add a PPE Policy
 

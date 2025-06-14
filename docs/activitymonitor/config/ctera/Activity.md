@@ -81,7 +81,7 @@ See the [CTERA Messaging Service Logs](https://kb.ctera.com/docs/setting-up-the-
 
 ### Enable the Edge Filer Syslog Service
 
-Ensure the [Enable the Messaging Service](#Enable-the-Messaging-Service) section is completed before proceeding to enable the Syslog Service.
+Ensure the Enable the Messaging Service section is completed before proceeding to enable the Syslog Service.
 
 The Edge Filer Syslog Service can be configured in two ways:
 

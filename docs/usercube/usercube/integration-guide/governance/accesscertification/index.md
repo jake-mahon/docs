@@ -169,7 +169,7 @@ A default policy is already defined. If no filter is set when giving the permiss
 
 ### Access certification item processing
 
-Once entitlement assignments have been reviewed (accepted or rejected), the final step is to apply these decisions with the processing task, eventually denying assignments. This is done through the UI. See the [Access Certification](#Access-Certification) topic for additional information.
+Once entitlement assignments have been reviewed (accepted or rejected), the final step is to apply these decisions with the processing task, eventually denying assignments. This is done through the UI. See the [Access Certification](/docs/usercube/usercube/integration-guide/governance/accesscertification/index.md) topic for additional information.
 
 The user needs to have the correct permission to launch the item processing:
 

@@ -2,7 +2,7 @@
 
 Use the Directory Manager portal URL the administrator has provided you to launch the portal. The Welcome to Directory Manager page is displayed, where you can:
 
-- [Log in](#Log-in)
+- Log in
 - Reset forgotten or lost passwords  
   See the [Reset Passwords](/docs/groupid/groupid/portal/user/authentication/passwordreset.md) topic for additional information on how to reset password.
 - Unlock your identity store account  
@@ -30,8 +30,8 @@ Step 1 – Enter the portal URL in the address bar of a web browser and press En
 
 Step 2 – You can sign in using any of the following methods:
 
-- [With your Identity Store Account](#With-your-Identity-Store-Account)
-- [With a SAML Provider](#With-a-SAML-Provider)
+- With your Identity Store Account
+- With a SAML Provider
 
 With your Identity Store Account
 

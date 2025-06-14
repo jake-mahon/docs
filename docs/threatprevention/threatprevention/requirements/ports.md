@@ -26,7 +26,7 @@ The following firewall settings are required for communication with the Agent:
 | Outbound Netwrix Threat Prevention Windows Agent to Enterprise Manager | gRPC / TCP | 3741 | Outbound Enterprise Manager Communication |
 | Outbound Netwrix Threat Prevention Windows Agent to Threat Manager | TCP | 10000, 10001 | Outbound Threat Manager Communication |
 
-__NOTE:__ For NAS device file activity monitoring, additional ports are required. See the [Ports for NAS Device Activity Monitoring](#Ports-for-NASDevice-Activity-Monitoring) topic for additional information.
+__NOTE:__ For NAS device file activity monitoring, additional ports are required. See the Ports for NAS Device Activity Monitoring topic for additional information.
 
 ## Admin Console Firewall Rules
 

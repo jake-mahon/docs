@@ -8,8 +8,8 @@ You can link an identity store in Directory Manager to Power Automate to achieve
 
 You can link a workflow in an identity store to a flow. Both system and user-defined workflows can be linked to flows.
 
-- As a one-time process, connect your identity store to Microsoft Power Automate .See the [Connect an Identity Store to Power Automate](#Connect-an-Identity-Store-to-Power-Automate) topic.
-- Link a workflow to a flow by providing the URL of that flow in the workflow .See the [Link an Identity Store Workflow to a Flow](#Link-an-Identity-Store-Workflow-to-a-Flow) topic.
+- As a one-time process, connect your identity store to Microsoft Power Automate .See the Connect an Identity Store to Power Automate topic.
+- Link a workflow to a flow by providing the URL of that flow in the workflow .See the Link an Identity Store Workflow to a Flow topic.
 
 Consequently, when the identity store workflow is triggered, the linked flow is auto triggered.
 

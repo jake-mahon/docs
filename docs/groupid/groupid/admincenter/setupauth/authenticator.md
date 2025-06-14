@@ -4,8 +4,8 @@ Users must install an authenticator app, such as Google Authenticator or Microso
 
 What do you want to do?
 
-- [Enable the Authenticator Authentication Type for an Identity Store](#Enable-the-Authenticator-Authentication-Type-for-an-Identity-Store)
-- [Enforce Authentication by Authenticator for a Role in an Identity Store](#Enforce-Authentication-by-Authenticator-for-a-Role-in-an-Identity-Store)
+- Enable the Authenticator Authentication Type for an Identity Store
+- Enforce Authentication by Authenticator for a Role in an Identity Store
 
 ## Enable the Authenticator Authentication Type for an Identity Store
 

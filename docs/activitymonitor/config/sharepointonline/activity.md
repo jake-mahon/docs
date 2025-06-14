@@ -10,7 +10,7 @@ In addition to registering the application with Microsoft Entra ID, the followin
 
 - Enable Auditing for SharePoint Online
 
-See the [Enable Auditing for SharePoint Online](#Enable-Auditing-for-SharePoint-Online) topic for additional information.
+See the Enable Auditing for SharePoint Online topic for additional information.
 
 Configuration Settings from the Registered Application
 

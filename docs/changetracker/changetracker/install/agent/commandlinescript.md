@@ -36,4 +36,4 @@ You can also use these parameters in the command line: NameSuffix, Thumbprint, P
 
 __NOTE:__ These parameters are not case sensitive.
 
-For more information on the __HubDetails.xml__ nodes and settings see the [First Run – HubDetails.xml File](/docs/changetracker/changetracker/admin/settings/devicegroups.md#first-run-hubdetailsxml-file) topic for additional information.
+For more information on the __HubDetails.xml__ nodes and settings see the [First Run – HubDetails.xml File](/docs/changetracker/changetracker/admin/settings/devicegroups.md) topic for additional information.

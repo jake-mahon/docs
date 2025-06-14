@@ -2,8 +2,8 @@
 
 This topic explains how to configure Oracle Database for the following versions of the Oracle Database Software:
 
-- [Configure Oracle Database 12c, 18c, 19c for Auditing](#Configure-Oracle-Database-12c-18c-19c-for-Auditing)
-- [Configure Oracle Database 11g for Auditing](#Configure-Oracle-Database-11g-for-Auditing)
+- Configure Oracle Database 12c, 18c, 19c for Auditing
+- Configure Oracle Database 11g for Auditing
 
 ## Configure Oracle Database 12c, 18c, 19c for Auditing
 

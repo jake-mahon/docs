@@ -6,12 +6,8 @@ This guide shows how to export the configuration as XML files to a given folder.
 
 The process for configuration export varies according to the situation:
 
-- when working on-premise, the configuration must be [
-  Export the Configuration
-  ](#Export-the-Configuration);
-- when working SaaS, the configuration must be [
-  Export the Configuration
-  ](#Export-the-Configuration);
+- when working on-premise, the configuration must be exported locally;
+- when working SaaS, the configuration must be exported remotely;
 
 See the [
 Usercube-Export-Configuration

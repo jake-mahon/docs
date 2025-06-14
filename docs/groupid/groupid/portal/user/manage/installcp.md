@@ -2,8 +2,8 @@
 
 You can install Directory Manager Credential Provider in one of the following ways:
 
-- [Install Credential Provider Manually](#Install-Credential-Provider-Manually)
-- [Install Credential Provider via a Group Policy Object (GPO)](#Install-Credential-Provider-via-a-Group-Policy-Object-GPO)
+- Install Credential Provider Manually
+- Install Credential Provider via a Group Policy Object (GPO)
 
 ### Install Credential Provider Manually
 
@@ -53,8 +53,8 @@ Instead of installing Credential Provider manually on each individual client wor
 
 Installing Credential Provider is a two-step process:
 
-1. [Install Orca](#Install-Orca)
-2. [Deploy Credential Provider via a GPO](#Deploy-Credential-Provider-via-a-GPO)
+1. Install Orca
+2. Deploy Credential Provider via a GPO
 
 ### Install Orca
 

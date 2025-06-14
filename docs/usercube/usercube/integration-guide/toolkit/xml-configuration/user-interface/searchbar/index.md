@@ -22,7 +22,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ## Child Element: Criterion
 
-A SearchBarCriteria defines a search criterion on a given property. See the [Search Bar](#Search-Bar) topic for additional information.
+A SearchBarCriteria defines a search criterion on a given property. See the Search Bar topic for additional information.
 
 ### Properties
 

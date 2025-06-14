@@ -22,7 +22,7 @@ __Step 3 –__ Configure the Playbook using the configuration tabs.
 
 __Step 4 –__ Click the Save button.
 
-The new playbook now has the desired name and steps can be added to the playbook. See the [Actions Tab](#Actions-Tab) topic for additional information.
+The new playbook now has the desired name and steps can be added to the playbook. See the Actions Tab topic for additional information.
 
 ## Configure a Playbook
 
@@ -32,10 +32,10 @@ Playbooks are configured using the tabs on the Threat Response page.
 
 The Threat Response page contains the following configuration tabs:
 
-- [General Tab](#General-Tab)
-- [Actions Tab](#Actions-Tab)
-- [Follow-Up Tab](#Follow-Up-Tab)
-- [Logs Tab](#Logs-Tab)
+- General Tab
+- Actions Tab
+- Follow-Up Tab
+- Logs Tab
 
 ### General Tab
 

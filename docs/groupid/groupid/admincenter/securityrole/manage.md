@@ -4,13 +4,13 @@ After creating a security role, you can manage various settings for it, such as 
 
 What do you want to do?
 
-- [View Security Roles](#View-Security-Roles)
-- [Enable or Disable a Role](#Enable-or-Disable-a-Role)
-- [Change Role Priority](#Change-Role-Priority)
-- [Criteria ](#Criteria)
-- [Modify Role Permissions](#Modify-Role-Permissions)
-- [Define Policies for a Role](#Define-Policies-for-a-Role)
-- [Delete a Role](#Delete-a-Role)
+- View Security Roles
+- Enable or Disable a Role
+- Change Role Priority
+- Criteria 
+- Modify Role Permissions
+- Define Policies for a Role
+- Delete a Role
 
 ## View Security Roles
 
@@ -65,7 +65,7 @@ __To change role priority:__
 3. Click __Security Roles__ under __Settings__ in the left pane.
 4. On the __Security Roles__ page, click __Edit__ for a security role.
 5. In the __Priority__ box on the __Edit Security Role__ page, change the value for role priority. This value must fall in the range, 1-99, where 1 indicates the highest and 99 indicates
-   the lowest priority. See [Priority](#Priority).
+   the lowest priority. See Priority.
 6. Click __Update Security Role__.
 7. On the __Security Roles__ page, click __Save__.
 

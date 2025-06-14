@@ -1,6 +1,6 @@
 # Set Up Policies
 
-Change / Approval Policies have two tabs: [Details](#Details) and [Related](#Related).
+Change / Approval Policies have two tabs: Details and Related.
 
 You can create a New Policy, or edit an existing one:
 
@@ -10,39 +10,39 @@ You can create a New Policy, or edit an existing one:
 
 ## Details
 
-> [Information](#Information) general information about the policy.
+> Information general information about the policy.
 >
-> [Code and Data Model Changes](#Code-and-Data-Model-Changes) change control level for code and data model changes.
+> Code and Data Model Changes change control level for code and data model changes.
 >
-> [Automation Changes](#Automation-Changes) change control level for approval process, business process, flow, workflow and process builder changes.
+> Automation Changes change control level for approval process, business process, flow, workflow and process builder changes.
 >
-> [Sharing and Visibility Changes](#Sharing-and-Visibility-Changes) change control level for role, profile, permission set, data security, sharing non material and indirect changes to profile changes.
+> Sharing and Visibility Changes change control level for role, profile, permission set, data security, sharing non material and indirect changes to profile changes.
 >
-> [Integration Changes](#Integration-Changes) change control level for external site, identity, and access changes.
+> Integration Changes change control level for external site, identity, and access changes.
 >
-> [Configuration Changes](#Configuration-Changes) change control level for data quality and general settings changes.
+> Configuration Changes change control level for data quality and general settings changes.
 >
-> [Display and UI Changes](#Display-and-UIChanges) change control level for application, label and translation, layout and template changes.
+> Display and UI Changes change control level for application, label and translation, layout and template changes.
 >
-> [Analytics Changes](#Analytics-Changes) change control level for reports, dashboards, list view, and Einstein changes.
+> Analytics Changes change control level for reports, dashboards, list view, and Einstein changes.
 >
-> [Control Changes](#Control-Changes) change control level for control changes.
+> Control Changes change control level for control changes.
 >
-> [Application Configuration Changes (Data)](#Application-Configuration-Changes-Data)
+> Application Configuration Changes (Data)
 >
-> [Health Check Changes](#Health-Check-Changes) change control level for health check changes.
+> Health Check Changes change control level for health check changes.
 >
-> [IT Policies](#ITPolicies) preliminary and final approvers.
+> IT Policies preliminary and final approvers.
 >
-> [Customization Policies](#Customization-Policies) impacted customization approval.
+> Customization Policies impacted customization approval.
 >
-> [Management Policies](#Management-Policies) executive approver and approval settings.
+> Management Policies executive approver and approval settings.
 >
-> [Change Enablement Defaults](#Change-Enablement-Defaults) merge approval list, non conforming alerts, and sequential approval requests.
+> Change Enablement Defaults merge approval list, non conforming alerts, and sequential approval requests.
 >
 > __System Information__, __Created By__ and __Last Modified By__ dates. Informational only, cannot be edited.
 
-Once the policy is saved, __System Information__ is added show the __Created By__ and __Last Modified By__ user and time stamp. The information you entered on the form is shown on the __Details__ tab. The [Related](#Related) tab is now available to add Customizations and view additional information and history.
+Once the policy is saved, __System Information__ is added show the __Created By__ and __Last Modified By__ user and time stamp. The information you entered on the form is shown on the __Details__ tab. The Related tab is now available to add Customizations and view additional information and history.
 
 ### Information
 
@@ -94,7 +94,7 @@ Set the required Change Level for each Metadata Type. The Default is shown in th
 
 ![Control Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new9.webp)
 
-Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md#health-settings) tab for the specific records on the customization record.
+Controls the change level required for different types of changes. Health Check Changes affect the way changes are handled for the customization records for each Salesforce Health Check group (session settings, file upload and security settings), so you can track and report on current settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md) tab for the specific records on the customization record.
 
 ### Application Configuration Changes (Data)
 

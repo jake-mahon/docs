@@ -13,9 +13,9 @@ To avoid large, unforeseen changes to Smart Group and Dynasty memberships, you c
 
 What do you want to do?
 
-- [Set the Maximum Number of Group Members](#Set-the-Maximum-Number-of-Group-Members)
-- [Manage Orphan Nested Groups](#Manage-Orphan-Nested-Groups)
-- [Set a Group Update Threshold](#Set-a-Group-Update-Threshold)
+- Set the Maximum Number of Group Members
+- Manage Orphan Nested Groups
+- Set a Group Update Threshold
 
 ## Set the Maximum Number of Group Members
 

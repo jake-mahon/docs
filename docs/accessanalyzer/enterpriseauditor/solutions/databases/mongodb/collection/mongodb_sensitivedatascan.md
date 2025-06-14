@@ -26,7 +26,7 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The NoSQL Data C
 
 __CAUTION:__ Do not make changes to wizard pages not listed in these steps. They have been pre-configured for this job.
 
-__Step 4 –__ Navigate to the [NoSQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md#nosqloptions) page.
+__Step 4 –__ Navigate to the [NoSQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md) page.
 
 ![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 

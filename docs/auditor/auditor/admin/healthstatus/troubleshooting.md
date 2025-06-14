@@ -4,7 +4,7 @@ This section provides instructions on how to troubleshoot issues that you may en
 
 If your issue is not listed in the table below, try searching [Netwrix Knowledge Base](https://helpcenter.netwrix.com/).
 
-If you need assistance from the Technical Support team, you can open a ticket using the Customer portal as described in the [Creating a ticket with Customer portal](#Creating-a-ticket-with-Customer-portal) section.
+If you need assistance from the Technical Support team, you can open a ticket using the Customer portal as described in the Creating a ticket with Customer portal section.
 
 | Issue | Reason and solution |
 | --- | --- |

@@ -100,7 +100,7 @@ __The following considerations and limitations refer to data collection:__
 - To collect data from 32-bit operating systems, network traffic compression must be disabled.
 - To collect data from Windows Failover Cluster, network traffic compression must be enabled.
 - Scale-Out File Server (SOFS) cluster is not supported.
-- Several constraints apply to DFS auditing. See the [DFS-Related Constraints](#DFS-Related-Constraints) topic for additional information.
+- Several constraints apply to DFS auditing. See the DFS-Related Constraints topic for additional information.
 
 __The following considerations and limitations refer to reporting:__
 

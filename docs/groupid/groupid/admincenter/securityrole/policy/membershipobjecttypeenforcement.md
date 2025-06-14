@@ -23,8 +23,8 @@ Limitations
 
 What do you want to do?
 
-- [Membership Object Type Enforcement Policy](#Membership-Object-Type-Enforcement-Policy)
-- [Apply the Membership Object Type Enforcement Policy to Specific Groups and Containers](#Apply-the-Membership-Object-Type-Enforcement-Policy-to-Specific-Groups-and-Containers)
+- Membership Object Type Enforcement Policy
+- Apply the Membership Object Type Enforcement Policy to Specific Groups and Containers
 
 ## Apply the Membership Object Type Enforcement Policy to All Groups
 
@@ -59,7 +59,7 @@ What do you want to do?
       the [Create a Smart Group Update Schedule](/docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md#create-a-smart-group-update-schedule) topic, replacing Smart Groups and Dynasties with static groups.
    3. To remove a container or group in the __Target(s)__ area, click __Remove__ for it.  
       To remove all target objects, click __Remove All__.
-8. Follow step 8 in the [Apply the Membership Object Type Enforcement Policy to All Groups](#Apply-the-Membership-Object-Type-Enforcement-Policy-to-All-Groups) topic to allow and disallow the objects that role members can add as members to the target groups.
+8. Follow step 8 in the Apply the Membership Object Type Enforcement Policy to All Groups topic to allow and disallow the objects that role members can add as members to the target groups.
 9. Click __OK__.
 10. On the __Edit Security Role__ page, click __Update Security Role__.
 11. On the __Security Roles__ page, click __Save__.

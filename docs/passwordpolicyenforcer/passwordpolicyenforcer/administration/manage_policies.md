@@ -1,6 +1,6 @@
 # Manage Policies
 
-Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md#assign-policies-to-users-groups) topic for additional information.
+Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign policies to users directly, or indirectly through Active Directory security groups and containers (Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersgroups.md) topic for additional information.
 
 Open the Configuration Console:
 
@@ -16,12 +16,12 @@ The Configuration Console dashboard shows __No password policies have been set u
 
 The policy management links are all on the Password Policies tile:
 
-- [Add a Policy](#Add-a-Policy).
-- [Set Up a Policy](#Set-Up-a-Policy) (click on existing policy name).
-- [Test Policy](#Test-Policy).
-- [Set Priorities](#Set-Priorities).
-- [Export](#Export).
-- Context menu (3 stacked dots) beside each defined policy [Make Copy](#Make-Copy), [Make Default/Remove Default](#Make-DefaultRemove-Default), [Rename](#Rename) and [Delete ](#Delete).
+- Add a Policy.
+- Set Up a Policy (click on existing policy name).
+- Test Policy.
+- Set Priorities.
+- Export.
+- Context menu (3 stacked dots) beside each defined policy Make Copy, Make Default/Remove Default, Rename and Delete .
 
 ## Add a Policy
 
@@ -33,7 +33,7 @@ __Step 3 –__ Select a Policy template or __None__ if you are creating your own
 
 __Step 4 –__ Click __Create policy__.
 
-Alternatively, you can select an existing policy and use the Context menu [Make Copy](#Make-Copy) option to start with the selected policy.
+Alternatively, you can select an existing policy and use the Context menu Make Copy option to start with the selected policy.
 
 ### Policy Templates
 

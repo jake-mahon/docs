@@ -64,7 +64,7 @@ __To update a field:__
 4. Click __Search Forms__ in the left pane; then click the __Search Results__ tab.
 5. On the __Search Results__ tab, click __Edit__ for a form to update its fields.
 6. On the __Edit Search Results__ pane, click __Edit__ for a field to update it.  
-   The __Edit Field__ pane is displayed. Follow step 7 and onwards in the [Add a Field to a Search Results Page](#Add-a-Field-to-a-Search-Results-Page) topic to update the field.
+   The __Edit Field__ pane is displayed. Follow step 7 and onwards in the Add a Field to a Search Results Page topic to update the field.
 
 ## Remove a Field from a Search Results Page
 
@@ -83,5 +83,5 @@ __See Also__
 
 - [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
 - [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
-- [Customize Search Results](#Customize-Search-Results)
+- Customize Search Results
 - [Customize Quick Search](/docs/groupid/groupid/admincenter/portal/design/form/quicksearch.md)

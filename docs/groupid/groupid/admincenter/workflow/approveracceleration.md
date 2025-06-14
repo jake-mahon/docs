@@ -61,7 +61,7 @@ NOTE: Consider the following:
  1. If, in the acceleration chain, any approver is disabled, the workflow request is directly sent to the primary manager of the disabled approver in the same acceleration hop. Referring to the example in step 3, if User C is disabled,
 the workflow request will go to User D (instead of User C) in second-level acceleration.  
  2. If the hierarchy breaks at any point in the acceleration chain, the request is routed to the default approver. Referring
-to the example in step 3, if User C does not have a manager, the chain breaks. As a result, the request is sent to the default approver. See the [Cases for the Default Approver](#Cases-for-the-Default-Approver) topic.
+to the example in step 3, if User C does not have a manager, the chain breaks. As a result, the request is sent to the default approver. See the Cases for the Default Approver topic.
 
 ### When the Approver is a Group
 
@@ -81,7 +81,7 @@ Acceleration rules for a group approver are:
 4. If the group set as approver has a nested group as its member, then requests are also sent to members of the nested group, but only up till level 1.  
    Suppose a group has three members; User A, User B, and Group C (nested group). A request sent to this group goes to User A, User B, and all members of Group C. If Group C has another group as its member, the request will not go to the member
    group.
-5. Scenarios where an approver is disabled or the hierarchy breaks are discussed as a note at the end of the [When the Approver is a User](#When-the-Approver-is-a-User) topic.
+5. Scenarios where an approver is disabled or the hierarchy breaks are discussed as a note at the end of the When the Approver is a User topic.
 
 ### Cases for the Default Approver
 

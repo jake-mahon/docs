@@ -140,8 +140,8 @@ Connect Identity Manager to CyberArk by adding to the agent's ```appsettings.jso
 | Name | Details |
 | --- | --- |
 | UseCyberArkSetting   default value: False | __Type__    Boolean   __Description__ ```True``` to enable the CyberArk Provider for Identity Manager. |
-| SafeName   required | __Type__    String   __Description__ Name of the safe containing the accounts used by Identity Manager. See the [CyberArk's AAM Credential Providers ](#CyberArks-AAM-Credential-Providers) topic for additional information. |
-| ApplicationId   required | __Type__    String   __Description__ Application ID of the application that can access the safe. See the [CyberArk's AAM Credential Providers ](#CyberArks-AAM-Credential-Providers) topic for additional information. |
+| SafeName   required | __Type__    String   __Description__ Name of the safe containing the accounts used by Identity Manager. See the CyberArk's AAM Credential Providers  topic for additional information. |
+| ApplicationId   required | __Type__    String   __Description__ Application ID of the application that can access the safe. See the CyberArk's AAM Credential Providers  topic for additional information. |
 | Server   required | __Type__    String   __Description__ URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes.   __Note:__ the ```Server``` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
 ### Certificate settings
@@ -220,8 +220,8 @@ The Windows certificate is set using these attributes:
 
 ## Usercube's CyberArk Vault
 
-Once configured, Identity Manager retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file. See the [CyberArk's AAM Credential Providers
-](#CyberArks-AAM-Credential-Providers) topic for additional information.
+Once configured, Identity Manager retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file. See the CyberArk's AAM Credential Providers
+ topic for additional information.
 
 In this file:
 

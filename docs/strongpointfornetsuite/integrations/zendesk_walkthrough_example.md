@@ -6,8 +6,8 @@ Alerts and notifications may occur during this walkthrough, and are not included
 
 The walkthrough demonstrates these steps:
 
-- [Create a Zendesk Ticket](#Create-a-Zendesk-Ticket)
-- [Create the Change Request](#Create-the-Change-Request)
+- Create a Zendesk Ticket
+- Create the Change Request
 
 ## Create a Zendesk Ticket
 
@@ -41,7 +41,7 @@ The app information is not available until the ticket is created.
 
 Open your new Zendesk ticket. __Test Ticket__ in this example.
 
-If you do not see the app, make sure the Apps are toggled on using the Apps icon ![Zendesk Apps visibility icon](/img/product_docs/strongpointfornetsuite/integrations/zendesk_apps_icon.webp) and verify you are a member of a group or role [authorized to access the app](/docs/strongpointfornetsuite/integrations/zendesk_integration.md#authorized-to-access-the-app).
+If you do not see the app, make sure the Apps are toggled on using the Apps icon ![Zendesk Apps visibility icon](/img/product_docs/strongpointfornetsuite/integrations/zendesk_apps_icon.webp) and verify you are a member of a group or role [authorized to access the app](/docs/strongpointfornetsuite/integrations/zendesk_integration.md).
 
 ![The Strongpoint app is available after you create the ticket.](/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint_app_ticket.webp)
 
@@ -90,4 +90,4 @@ There is an options menu available for each added customization. Options include
 
    ![Add a Customization by Script ID](/img/product_docs/strongpointfornetsuite/integrations/jira_example_scriptid.webp)
 
-- __Impact Analysis__ and __View ERD__ are tools to [Zendesk Walkthrough Example](#Zendesk-Walkthrough-Example).
+- __Impact Analysis__ and __View ERD__ are tools to Zendesk Walkthrough Example.

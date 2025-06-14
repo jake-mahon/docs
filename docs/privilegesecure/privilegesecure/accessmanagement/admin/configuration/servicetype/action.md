@@ -7,9 +7,9 @@ On the Action Services page, view or modify action services.
 The Action Service page shows details of the selected action service and has the following features:
 
 - Name – Name of the selected action service
-- [Action Logs Tab](#Action-Logs-Tab)
-- [Action Queue Tab](#Action-Queue-Tab)
-- [Properties Tab](#Properties-Tab)
+- Action Logs Tab
+- Action Queue Tab
+- Properties Tab
 
 ## Action Logs Tab
 

@@ -79,7 +79,7 @@ Validation error messages are shown in a yellow box below the page instructions.
 
 ![using_ppe_web_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_1.webp)
 
-Validation error messages are defined in en\_ppeweb.htm. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
+Validation error messages are defined in en\_ppeweb.htm. The error messages are in the resource strings section near the end of the file. See the Resource Strings topic for additional information.
 
 | String | Error Message |
 | --- | --- |
@@ -89,7 +89,7 @@ Validation error messages are defined in en\_ppeweb.htm. The error messages are 
 
 ### Edit Critical Error Messages
 
-All the critical error messages are defined in ```en_error.htm```. The error messages are in the resource strings section near the end of the file. See the [Resource Strings](#Resource-Strings) topic for additional information.
+All the critical error messages are defined in ```en_error.htm```. The error messages are in the resource strings section near the end of the file. See the Resource Strings topic for additional information.
 
 ![using_ppe_web_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/using_ppe_web_2.webp)
 

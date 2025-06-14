@@ -10,7 +10,7 @@ You can filter your requests by status. Select one of the following under Displa
 
 - Active – shows all requests with "_Processed_" status (default view).
 - Completed – shows all completed requests. Review the [View Search Query Results](/docs/dataclassification/ndc/admin/dsar/viewsearchresults.md) section for instructions on how to complete your request.
-- Canceled – shows all canceled requests. [See Cancel Search for more information.](#See-Cancel-Search-for-more-information)
+- Canceled – shows all canceled requests. See Cancel Search for more information.
 - All – shows all search requests.
 
 In addition to status, a DSAR Manager can filter search requests by owner. Select one of the following under Owner:

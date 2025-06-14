@@ -27,14 +27,14 @@ times and load balancing.
 
 What do you want to do?
 
-- [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS)
-- [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS)
-- [Create a Portal in Docker](#Create-a-Portal-in-Docker)
-- [Create a Self-Service Password Reset Portal](#Create-a-Self-Service-Password-Reset-Portal)
-- [Deploy Another Instance of a Portal](#Deploy-Another-Instance-of-a-Portal)
-- [Create a Portal by Copying an Existing Portal](#Create-a-Portal-by-Copying-an-Existing-Portal)
-- [View the Details of a Portal](#View-the-Details-of-a-Portal)
-- [Launch a Portal](#Launch-a-Portal)
+- Create a Portal in Native IIS
+- Create a Portal in Remote IIS
+- Create a Portal in Docker
+- Create a Self-Service Password Reset Portal
+- Deploy Another Instance of a Portal
+- Create a Portal by Copying an Existing Portal
+- View the Details of a Portal
+- Launch a Portal
 
 ## Create a Portal in Native IIS
 
@@ -179,7 +179,7 @@ __To create a portal:__
       ``https://web-server-name:port/IIS-application-name``  
       Hence, a different URL is constructed for each deployment of a portal in remote IIS.
 11. On providing the above information, the __Website__ drop-down list displays the sites defined on the remote IIS server. Select the site that you have configured with the appropriate permissions for Directory Manager.
-12. To enter information in the __Service Endpoints__, __Support Information__, __Password Center Mode__, __Select Identity Stores__, and __Advanced Settings__ areas and create the portal, follow the steps in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic, starting at step 9.
+12. To enter information in the __Service Endpoints__, __Support Information__, __Password Center Mode__, __Select Identity Stores__, and __Advanced Settings__ areas and create the portal, follow the steps in the Create a Portal in Native IIS topic, starting at step 9.
 
 ## Create a Portal in Docker
 
@@ -205,19 +205,19 @@ __To create a portal:__
    On installing Docker Engine, you must expose an API over TCP on the same machine to enable communication with Directory Manager.  
    The URL you provide in the __Service URL__ box identifies the Docker deamon where you want to host the portal.
 9. In the __Container Name__ box, enter a name for the container that is created in Docker for deploying the portal.
-10. For entering information in the __Service Endpoints__, __Support Information__, __Password Center Mode__, __Select Identity Stores__, and __Advanced Settings__ areas and create the portal, follow the steps in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic, starting at step 9.
+10. For entering information in the __Service Endpoints__, __Support Information__, __Password Center Mode__, __Select Identity Stores__, and __Advanced Settings__ areas and create the portal, follow the steps in the Create a Portal in Native IIS topic, starting at step 9.
 
 ## Create a Self-Service Password Reset Portal
 
 A Directory Manager portal can be created as a Self-Service Password Reset portal (SSPR in native IIS, remote IIS, and Docker. A SSPR portal only provides password management functions to end-users.
 
-Creating an SSPR portal is similar to creating a standard Directory Manager portal; you only have to select the __Password Center Mode__ check box on the Create GroupID Application page. For details, see Step 11 in the he [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic.
+Creating an SSPR portal is similar to creating a standard Directory Manager portal; you only have to select the __Password Center Mode__ check box on the Create GroupID Application page. For details, see Step 11 in the he Create a Portal in Native IIS topic.
 
 NOTE: Directory Manager does not support the upgrade of a Password Center portal (from a previous version) to an SSPR portal. You have to create the SSPR portal as a new portal.
 
 ## Deploy Another Instance of a Portal
 
-You can deploy more than one instance of a portal. Instances can be deployed in different web servers, for example, one in IIS, another in remote IIS, and yet another in Docker. For more on how instances work, see the [Deploy Multiple Instances of a Portal](#Deploy-Multiple-Instances-of-a-Portal) topic.
+You can deploy more than one instance of a portal. Instances can be deployed in different web servers, for example, one in IIS, another in remote IIS, and yet another in Docker. For more on how instances work, see the Deploy Multiple Instances of a Portal topic.
 
 To deploy a new instance, you have to provide deployment details only. All instances share the same server and design configurations, while only deployment details differ. For example, all instances serve the same identity stores and have the same
 display and search-related configurations. Changing a shared setting propagates to all deployment instances of the portal.
@@ -233,9 +233,9 @@ __To deploy an instance:__
    __Application Name__ field displays the name of the portal as read-only.
 4. Fields on the page vary, depending on the web server selected. In any case, the __Support Information__, __Select Identity Stores__, and __Advanced Settings__ areas are not available, as they remain the same for all instances.
 
-   - To deploy an instance in native IIS, follow steps 6-9 in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic.
-   - To deploy an instance in remote IIS, follow steps 6-12 in the [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS) topic.
-   - To deploy an instance in Docker, follow steps 6-10 in the [Create a Portal in Docker](#Create-a-Portal-in-Docker) topic.
+   - To deploy an instance in native IIS, follow steps 6-9 in the Create a Portal in Native IIS topic.
+   - To deploy an instance in remote IIS, follow steps 6-12 in the Create a Portal in Remote IIS topic.
+   - To deploy an instance in Docker, follow steps 6-10 in the Create a Portal in Docker topic.
 5. After entering the required information, click __Deploy Instance__.  
    The new instance is displayed on the portal's card.
 
@@ -258,9 +258,9 @@ __To create a portal:__
    - The identity store(s) associated with the portal
 3. You can deploy the new portal in native IIS, remote IIS, or Docker.
 
-   - To specify settings for a native IIS deployment, follow the instructions in the [Create a Portal in Native IIS](#Create-a-Portal-in-Native-IIS) topic, beginning at step 4.
-   - To specify settings for a remote IIS deployment, follow the instructions in the [Create a Portal in Remote IIS](#Create-a-Portal-in-Remote-IIS) topic, beginning at step 4.
-   - To specify settings for a Docker deployment, follow the instructions in the [Create a Portal in Docker](#Create-a-Portal-in-Docker) topic, beginning at step 4.
+   - To specify settings for a native IIS deployment, follow the instructions in the Create a Portal in Native IIS topic, beginning at step 4.
+   - To specify settings for a remote IIS deployment, follow the instructions in the Create a Portal in Remote IIS topic, beginning at step 4.
+   - To specify settings for a Docker deployment, follow the instructions in the Create a Portal in Docker topic, beginning at step 4.
 
 ## View the Details of a Portal
 

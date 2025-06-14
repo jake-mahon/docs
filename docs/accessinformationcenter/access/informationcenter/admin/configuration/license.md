@@ -1,6 +1,6 @@
 # License Page
 
-Access to specific types of reports and workflows is controlled through the Access Information Center license, which is also the Netwrix Access Analyzer (formerly Enterprise Auditor) license key. The details of your current license can be viewed on the License page of the Configuration interface. Enabling additional features would require an updated license key, which can be discussed with your Netwrix Account Representative. If the features displayed in this tab do not reflect the features actually licensed, contact [Netwrix Support](https://www.netwrix.com/support.html). See the [Upload License](#Upload-License) topic for information on updating the license key.
+Access to specific types of reports and workflows is controlled through the Access Information Center license, which is also the Netwrix Access Analyzer (formerly Enterprise Auditor) license key. The details of your current license can be viewed on the License page of the Configuration interface. Enabling additional features would require an updated license key, which can be discussed with your Netwrix Account Representative. If the features displayed in this tab do not reflect the features actually licensed, contact [Netwrix Support](https://www.netwrix.com/support.html). See the Upload License topic for information on updating the license key.
 
 ![Configuration interface showing the License page](/img/product_docs/activitymonitor/activitymonitor/install/agent/license.webp)
 

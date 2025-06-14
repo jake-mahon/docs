@@ -4,9 +4,9 @@ Lists the menus and menu items based on license type.
 
 Menus and items not available for your license type are automatically hidden.
 
-- [Documentation and Optimization](#Documentation-and-Optimization)
-- [Intelligent Change Management](#Intelligent-Change-Management)
-- [Enterprise](#Enterprise)
+- Documentation and Optimization
+- Intelligent Change Management
+- Enterprise
 
 ## Documentation and Optimization
 

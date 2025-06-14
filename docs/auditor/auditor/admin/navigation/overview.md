@@ -6,9 +6,9 @@ Starting with version 10, the home screen in Netwrix Auditor is customizable so 
 
 Home Screen Tiles in the Netwrix Auditor provide an interface that allows users to access main information. The following tiles are displayed on the initially configured Home Screen:
 
-- [Welcome to Netwrix Auditor Tile](#Welcome-to-Netwrix-Auditor-Tile)
-- [Audit Intelligence Tiles](#Audit-Intelligence-Tiles)
-- [Configuration Tile](#Configuration-Tile)
+- Welcome to Netwrix Auditor Tile
+- Audit Intelligence Tiles
+- Configuration Tile
 
 ### Welcome to Netwrix Auditor Tile
 

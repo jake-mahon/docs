@@ -1,6 +1,6 @@
 # Cleaning Up Customizations
 
-Use these processes to [Clean up Individual Customization](#Clean-up-Individual-Customization) or [Clean Up Multiple Customizations](#Clean-Up-Multiple-Customizations).
+Use these processes to Clean up Individual Customization or Clean Up Multiple Customizations.
 
 ## Clean up Individual Customization
 

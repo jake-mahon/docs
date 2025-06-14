@@ -4,19 +4,19 @@ A best practice is to create change requests in your production account so that 
 
 Here is the overall process flow for multiple deployment tracking:
 
-> [Create the Change Request](#Create-the-Change-Request)
+> Create the Change Request
 >
-> [Push the Change Request](#Push-the-Change-Request)
+> Push the Change Request
 >
-> [Push the Updated Change Back into Production](#Push-the-Updated-Change-Back-into-Production)
+> Push the Updated Change Back into Production
 >
-> [Create the Deployment Record](#Create-the-Deployment-Record)
+> Create the Deployment Record
 >
-> [Create the Deployment Record](#Create-the-Deployment-Record)
+> Create the Deployment Record
 >
-> [Deploy the Changes](#Deploy-the-Changes)
+> Deploy the Changes
 >
-> [Complete the Process](#Complete-the-Process)
+> Complete the Process
 
 ## Create the Change Request
 

@@ -7,10 +7,10 @@ The __Change Access__ button on the Owner portal opens the Change Resource Acces
 This wizard has four pages, but you will only be directed to the pages applicable to your selection on the first page:
 
 - 1. Select Change — Choose between adding access for a new user and changing access for an existing user
-- 2. Add Access — Select new user and identify access level. See the [Add Access](#Add-Access) topic for additional information.
+- 2. Add Access — Select new user and identify access level. See the Add Access topic for additional information.
 
-  - New users can be imported in bulk from a CSV file. See the [Import Users CSV File](#Import-Users-CSV-File) topic for additional information.
-- 3. Change Access — Select users and indicate a new access level. See the [Change Access](#Change-Access) topic for additional information.
+  - New users can be imported in bulk from a CSV file. See the Import Users CSV File topic for additional information.
+- 3. Change Access — Select users and indicate a new access level. See the Change Access topic for additional information.
 - 4. Add Notes — Enter notes that will be included in the notification sent to the user (if selected) and recorded with the historical record of this change
 
 ## Add Access
@@ -25,7 +25,7 @@ __Step 2 –__ On the Select Change page, select the __Add access for a new user
 
 ![Change Resource Access wizard showing 2. Add Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
 
-__Step 3 –__ On the Add Access page, indicate the new users. Entering a name or email address in the search field to find and select users from Active Directory, which populate in a drop-down menu as you type. You can also import a list of users by clicking __Import__, navigating to the CSV file, and clicking __Open__ to select the file. See the [Import Users CSV File](#Import-Users-CSV-File) topic for additional information.
+__Step 3 –__ On the Add Access page, indicate the new users. Entering a name or email address in the search field to find and select users from Active Directory, which populate in a drop-down menu as you type. You can also import a list of users by clicking __Import__, navigating to the CSV file, and clicking __Open__ to select the file. See the Import Users CSV File topic for additional information.
 
 __NOTE:__ All users in the list will be given the same level of access. Use the __Remove__ button to remove a selected user from the list.
 

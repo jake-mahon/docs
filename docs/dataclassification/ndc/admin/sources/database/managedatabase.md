@@ -32,10 +32,10 @@ Configure tagging options listed below:
 
 You can also specify the following settings:
 
-- [Source Configuration](#Source-Configuration)
-- [Primary Key Query](#Primary-Key-Query)
-- [Content Query](#Content-Query)
-- [Table Configuration](#Table-Configuration)
+- Source Configuration
+- Primary Key Query
+- Content Query
+- Table Configuration
 
 ### Source Configuration
 

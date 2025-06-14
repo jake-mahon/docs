@@ -29,9 +29,9 @@ Use one of the following methods to sign in.
 
 You can sign in using any of the following methods:
 
-- [With your Identity Store Account](#With-your-Identity-Store-Account)
-- [With a SAML Provider](#With-a-SAML-Provider)
-- [Access Admin Center](#Access-Admin-Center)
+- With your Identity Store Account
+- With a SAML Provider
+- Access Admin Center
 
 ### With your Identity Store Account
 

@@ -7,8 +7,8 @@ The Group Owners policy enables you to specify a group ownership criterion that 
 
 What do you want to do?
 
-- [Enforce a Primary Owner](#Enforce-a-Primary-Owner)
-- [Enforce Additional Owners](#Enforce-Additional-Owners)
+- Enforce a Primary Owner
+- Enforce Additional Owners
 
 ## Enforce a Primary Owner
 

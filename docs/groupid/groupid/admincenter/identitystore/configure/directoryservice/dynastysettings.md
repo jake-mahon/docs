@@ -24,13 +24,13 @@ __What happens on Dynasty update?__
 When a Dynasty is updated, the following happens:
 
 - Each Dynasty has a query defined for it. On update, the query retrieves records from the directory and updates Dynasty membership.
-- You can specify certain attributes whose values are passed on from parent to child Dynasties. The values of these attributes are updated when the Dynasty is updated. See the [Specify Attributes for Inheritance](#Specify-Attributes-for-Inheritance) topic.
+- You can specify certain attributes whose values are passed on from parent to child Dynasties. The values of these attributes are updated when the Dynasty is updated. See the Specify Attributes for Inheritance topic.
 
 What do you want to do?
 
-- [Auto Update Dynasty Children When Parent Changes](#Auto-Update-Dynasty-Children-When-Parent-Changes)
-- [Auto Delete Empty and Orphan Dynasty Children](#Auto-Delete-Empty-and-Orphan-Dynasty-Children)
-- [Specify Attributes for Inheritance](#Specify-Attributes-for-Inheritance)
+- Auto Update Dynasty Children When Parent Changes
+- Auto Delete Empty and Orphan Dynasty Children
+- Specify Attributes for Inheritance
 
 ## Auto Update Dynasty Children When Parent Changes
 

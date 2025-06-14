@@ -304,9 +304,9 @@ Concerning roles, integrators have two options:
 
 __Step 1: choose the connector model.__
 
-Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the User-Group template is designed to handle. See the [
+Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the User-Group template is designed to handle. See the 
 Model the Data
-](#Model-the-Data) topic for additional information.
+ topic for additional information.
 
 ![User-Group Model](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.webp)
 

@@ -19,7 +19,7 @@ ___RECOMMENDED:___ The latest version of .NET Framework and Dell CEE is recommen
 
 See the [CEE Debug Logs](/docs/activitymonitor/config/dellunity/Validate.md#cee-debug-logs) section for information on troubleshooting issues related to Dell CEE.
 
-After Dell CEE installation is complete, it is necessary to [Connect Data Movers to the Dell CEE Server](#Connect-Data-Movers-to-the-Dell-CEE-Server).
+After Dell CEE installation is complete, it is necessary to Connect Data Movers to the Dell CEE Server.
 
 ## Configure Dell Registry Key Settings
 

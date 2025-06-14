@@ -66,10 +66,10 @@ Select the integration from the list to see the details and modification options
 
 - Name and Description – The box at the top displays the name and description of the integration
 
-  - Edit – The edit button in the upper right corner of the box changes those fields from read-only to editable. See the [Edit Integration Name and Description](#Edit-Integration-Name-and-Description) topic for additional information.
+  - Edit – The edit button in the upper right corner of the box changes those fields from read-only to editable. See the Edit Integration Name and Description topic for additional information.
   - Delete – The delete button in the upper right corner of the box opens the Delete Stealthbits Integration window to confirm the action
-- Configuration – Displays the settings entered for the selected integration. These settings can be modified on this tab. See the [Configuration Tab](#Configuration-Tab) topic for additional information.
-- Policy Sync – Displays information on the last policy sync executed. See the [Policy Sync Tab](#Policy-Sync-Tab) topic for additional information.
+- Configuration – Displays the settings entered for the selected integration. These settings can be modified on this tab. See the Configuration Tab topic for additional information.
+- Policy Sync – Displays information on the last policy sync executed. See the Policy Sync Tab topic for additional information.
 
 ### Configuration Tab
 

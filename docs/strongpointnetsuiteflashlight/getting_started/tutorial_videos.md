@@ -2,17 +2,17 @@
 
 We have a series of videos to help you learn to use Flashlight to get the most out of your account documentation.
 
-How to: [Troubleshoot NetSuite](#Troubleshoot-NetSuite)
+How to: Troubleshoot NetSuite
 
-How to: [Clean Up NetSuite](#Clean-Up-NetSuite)
+How to: Clean Up NetSuite
 
-How to: [Spider and Document Your NetSuite Account Automatically](#Spider-and-Document-Your-NetSuite-Account-Automatically)
+How to: Spider and Document Your NetSuite Account Automatically
 
-How to: [Interpret Your Documentation](#Interpret-Your-Documentation)
+How to: Interpret Your Documentation
 
-How to: [Analyze Your NetSuite Accounts](#Analyze-Your-NetSuite-Accounts)
+How to: Analyze Your NetSuite Accounts
 
-How to: [Metrics and Alerts](#Metrics-and-Alerts)
+How to: Metrics and Alerts
 
 ## Troubleshoot NetSuite
 

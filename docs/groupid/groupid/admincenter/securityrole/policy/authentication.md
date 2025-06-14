@@ -10,8 +10,8 @@ NOTE: For MFA and SFA to work for an identity store, make sure you enable enroll
 
 What do you want to do?
 
-- [Enforce Authentication Types for Multifactor Authentication](#Enforce-Authentication-Types-for-Multifactor-Authentication)
-- [Enable Second Factor Authentication](#Enable-Second-Factor-Authentication)
+- Enforce Authentication Types for Multifactor Authentication
+- Enable Second Factor Authentication
 
 ## Enforce Authentication Types for Multifactor Authentication
 

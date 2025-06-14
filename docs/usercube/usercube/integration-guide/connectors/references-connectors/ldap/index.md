@@ -223,8 +223,8 @@ Same as for export, fulfill is configured through connections.
 
 | Name | Details |
 | --- | --- |
-| Servers   required | __Type__    [Server](#Server) List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    [Table](#Table) List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
+| Servers   required | __Type__    [Server](#servers) List   __Description__ List of servers to connect to. |
+| Tables   required | __Type__    [Table](#tables) List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
 | AsAdLds   required | __Type__    Boolean   __Description__ ```True``` to state the managed system as an AD LDS. |
 | IsLdapPasswordReset   optional | __Type__    Boolean   __Description__ ```True``` to state the managed system as an LDAP-compliant system supporting password reset. |
 

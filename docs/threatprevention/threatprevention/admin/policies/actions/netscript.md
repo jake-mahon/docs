@@ -24,7 +24,7 @@ __Step 3 –__ Configure the .NET Script action:
 
 ![Script Editor for .Net Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorfornet.webp)
 
-__Step 4 –__ Create or copy/paste a custom script in the Threat Prevention Script Editor. See the [Threat Prevention Script Editor Tools](#Threat-Prevention-Script-Editor-Tools) topic for additional information, i.e. Run for testing and Encrypt functionality. See the [Default Visual Basic Script](#Default-Visual-Basic-Script) and [Default C# Script](#Default-C-Script) topics for default custom scripts. Save and close.
+__Step 4 –__ Create or copy/paste a custom script in the Threat Prevention Script Editor. See the Threat Prevention Script Editor Tools topic for additional information, i.e. Run for testing and Encrypt functionality. See the Default Visual Basic Script and Default C# Script topics for default custom scripts. Save and close.
 
 __Step 5 –__ On the Add Action window, the new script is displayed in the __Script Preview__ section. Check the __Enable compiler error logging__ checkbox to enable Threat Prevention to log information about the compiling of scripts.
 

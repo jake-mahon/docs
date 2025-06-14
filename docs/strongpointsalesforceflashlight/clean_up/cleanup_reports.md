@@ -2,16 +2,16 @@
 
 Strongpoint provides predefined reports to help you clean up your Salesforce Instance. The reports are available by opening __Flashlight__ > __Reports/List Views__ > __Clean Up__ and selecting a report:
 
-- [Default Clean Up List View](#Default-Clean-Up-List-View)
-- [Open Clean Up Status](#Open-Clean-Up-Status)
-- [Clean Up Waiting for Info](#Clean-Up-Waiting-for-Info)
-- [Customizations Excluded from Clean Up](#Customizations-Excluded-from-Clean-Up)
-- [Unused Fields](#Unused-Fields)
-- [Unused Scripts](#Unused-Scripts)
-- [Unused Reports](#Unused-Reports)
-- [Customizations with Inactive Owners](#Customizations-with-Inactive-Owners)
-- [Custom Fields without Help Text](#Custom-Fields-without-Help-Text)
-- [Custom Fields without Description](#Custom-Fields-without-Description)
+- Default Clean Up List View
+- Open Clean Up Status
+- Clean Up Waiting for Info
+- Customizations Excluded from Clean Up
+- Unused Fields
+- Unused Scripts
+- Unused Reports
+- Customizations with Inactive Owners
+- Custom Fields without Help Text
+- Custom Fields without Description
 
 ## Using the Reports
 

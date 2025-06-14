@@ -14,7 +14,7 @@ Click __Forest__ in the left pane to open the Forest page.
 
 > ![Forest Configuration page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
 >
-> You must add a forest first. See the [Add a Forest](#Add-a-Forest) topic for additional information.
+> You must add a forest first. See the [Add a Forest](#add-a-forest) topic for additional information.
 
 - Once a forest is added, the page is displayed as follows:
 
@@ -29,13 +29,13 @@ The following information is displayed for a domain controller:
 - Name – Name of the domain controller
 - Operating System – Operating system for the domain controller, for example, Windows Server 2019 Standard
 - Version – Version of the operating system
-- Backup – Use the toggle button to enable or disable the backup for the domain controller. By default, it is disabled. When you enable it, the Server backup Configuration wizard is displayed. See the [Add Backup Configurations for a Domain Controller](#Add-Backup-Configurations-for-a-Domain-Controller) topic to configure backup settings for the domain controller.
+- Backup – Use the toggle button to enable or disable the backup for the domain controller. By default, it is disabled. When you enable it, the Server backup Configuration wizard is displayed. See the [Add Backup Configurations for a Domain Controller](#add-backup-configurations-for-a-domain-controller) topic to configure backup settings for the domain controller.
 - Last Backup Time – Date and time when the last backup occurred
 - Actions – Displays the following icons:
 
   - Start Backup – Starts a backup of the server on demand
   - Edit Configuration – Launches the Server Backup Configuration wizard, enabling you to modify the backup configurations for the domain controller
-  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md#create-a-recovery-playbook) topic for additional information.
+  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover#create-a-recovery-playbook) topic for additional information.
 
     This is the only action displayed for a domain controller that has not been backed up.
 
@@ -57,7 +57,7 @@ __Step 4 –__ Enter the password for the account in the Password field.
 
 __Step 5 –__ Click __Save__.
 
-The forest is added and displayed on the Forest page as a blue tab. Click it to view the domain controllers in the forest and configure backup settings for each domain controller. See the [Add Backup Configurations for a Domain Controller](#Add-Backup-Configurations-for-a-Domain-Controller) topic for additional information.
+The forest is added and displayed on the Forest page as a blue tab. Click it to view the domain controllers in the forest and configure backup settings for each domain controller. See the [Add Backup Configurations for a Domain Controller](#add-backup-configurations-for-a-domain-controller) topic for additional information.
 
 You can also expand a forest to view the domains under it.
 

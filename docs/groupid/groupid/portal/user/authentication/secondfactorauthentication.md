@@ -17,13 +17,13 @@ Directory Manager supports seven authentication types for second factor authenti
 
 Directory Manager supports the following authentication types:
 
-- [Security Questions Authentication](#Security-Questions-Authentication)
-- [SMS Verification](#SMS-Verification)
-- [Email Verification](#Email-Verification)
-- [Authenticator app](#Authenticator-app)
-- [Link Account authentication](#Link-Account-authentication)
-- [YubiKey authentication](#YubiKey-authentication)
-- [Windows Hello authentication](#Windows-Hello-authentication)
+- Security Questions Authentication
+- SMS Verification
+- Email Verification
+- Authenticator app
+- Link Account authentication
+- YubiKey authentication
+- Windows Hello authentication
 
 ### Security Questions Authentication
 

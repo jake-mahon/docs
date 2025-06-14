@@ -10,8 +10,8 @@ __Step 3 –__ Click __Add Item__.
 
 __Step 4 –__ Select one of the items from the drop-down list:
 
-- [SQL Server Instance](#SQL-Server-Instance)
-- [SQL Server Availability Group](#SQL-Server-Availability-Group)
+- SQL Server Instance
+- SQL Server Availability Group
 
 __Step 5 –__ Click __Add__.
 

@@ -84,7 +84,7 @@ Important Notes
 
 ___RECOMMENDED:___ For NetApp Cluster-Mode, create a tailored FPolicy manually. If manually configuring the FPolicy, do not select the ConfigureFPolicy checkbox.
 
-If automatic configuration is selected, proceed to the [Configure Privileged Access](#Configure-Privileged-Access) section after successfully adding the host.
+If automatic configuration is selected, proceed to the Configure Privileged Access section after successfully adding the host.
 
 ![NetApp FPolicy Enable and Connect window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/netappfpolicyenableconnect.webp)
 

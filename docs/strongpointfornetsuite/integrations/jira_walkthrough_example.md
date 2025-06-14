@@ -1,15 +1,15 @@
 # Jira Walkthrough Example
 
-This walkthrough is one example based on our test account. You must [install and configure](/docs/strongpointfornetsuite/integrations/jira_integration.md) the Jira integration, including setting up the __[Jira Statuses](/docs/strongpointfornetsuite/integrations/jira_integration.md#jira-statuses)__ prior to using this walkthrough.
+This walkthrough is one example based on our test account. You must [install and configure](/docs/strongpointfornetsuite/integrations/jira_integration.md) the Jira integration, including setting up the __[Jira Statuses](/docs/strongpointfornetsuite/integrations/jira_integration.md)__ prior to using this walkthrough.
 
 The walkthrough demonstrates these steps:
 
-- [Create a Jira Ticket](#Create-a-Jira-Ticket)
-- [Enter your Credentials](#Enter-your-Credentials)
-- [Add Customizations](#Add-Customizations)
-- [Perform Risk Assessment](#Perform-Risk-Assessment)
-- [Ready for Development](#Ready-for-Development)
-- [Deploy Changes and Complete the Ticket](#Deploy-Changes-and-Complete-the-Ticket)
+- Create a Jira Ticket
+- Enter your Credentials
+- Add Customizations
+- Perform Risk Assessment
+- Ready for Development
+- Deploy Changes and Complete the Ticket
 
 ## Create a Jira Ticket
 
@@ -34,10 +34,10 @@ Alerts and notifications may occur during this walkthrough, and are not included
 2. Expand __Comments__ and select __Strongpoint NetSuite__.
 
    ![jira_example_credentials](/img/product_docs/strongpointfornetsuite/integrations/jira_example_credentials.webp)
-3. Select your NetSuite __Account__ and enter your __Consumer Key__/__Secret__ and __Token ID__/__Secret__. If your account has an optional _[Integration User](/docs/strongpointfornetsuite/integrations/jira_integration.md#integration-user)_ role, enter the Email and Password credentials supplied by your administrator
+3. Select your NetSuite __Account__ and enter your __Consumer Key__/__Secret__ and __Token ID__/__Secret__. If your account has an optional _[Integration User](/docs/strongpointfornetsuite/integrations/jira_integration.md)_ role, enter the Email and Password credentials supplied by your administrator
 
    ![Check Token Based Authentication](/img/product_docs/strongpointfornetsuite/integrations/jira_token_authentication.webp)
-4. Click __Connect__. If the connection is successful, the form is displayed (see [Add Customizations](#Add-Customizations) section). The __Synchronized with__status displays the account you are logged into for NetSuite.
+4. Click __Connect__. If the connection is successful, the form is displayed (see Add Customizations section). The __Synchronized with__status displays the account you are logged into for NetSuite.
 
 You cannot login if you do not have the __appropriate role permissions to create a Change Request__.
 
@@ -59,9 +59,9 @@ Once you have logged in, the form is displayed.
   - __Import Customization__ if you have either an __xml__ file generated from an existing ticket, or an __SDF zip__ file created in your Sandbox account, you can import the customizations. Click __Import Customization__, navigate to your file, and click __Import__.  
     Modified customizations are added to the __Existing Customizations__ list, new customizations are added to the __Proposed Customizations__ list.
   - __Add Proposed Customization__ adds a new customizations are added to the __Proposed Customizations__ list. You can delete added Customizations with the ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)icon.
-- __Push__ creates the Change Request in NetSuite. __Push__ is also used to manually update your Change Request if you are not using the [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md#automatic-synchronization) feature.
+- __Push__ creates the Change Request in NetSuite. __Push__ is also used to manually update your Change Request if you are not using the [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) feature.
 - __Push External__ same as __Push__ except you can specify a different Jira account.
-- __Impact Analysis__ and __View ERD__ are tools to [Perform Risk Assessment](#Perform-Risk-Assessment).
+- __Impact Analysis__ and __View ERD__ are tools to Perform Risk Assessment.
 
 ### Add Existing Customizations by Name or Script ID
 
@@ -133,7 +133,7 @@ The Entity Relationship Diagram (ERD) tool graphically displays your Customizat
 Once you have resolved any risk or conflicts, your changes are ready for development:
 
 1. Change the Jira status of your ticket to match the status set up for __Jira Statuses for Pending Approval Status__. For example, __Selected for Development__.
-2. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md#automatic-synchronization) to push status changes. A confirmation your Change Request was Created/Updated is displayed.
+2. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) to push status changes. A confirmation your Change Request was Created/Updated is displayed.
 3. Expand the __Change Request__ field on the right. The status is now __Pending Approval__. There is a link to open the Change Request in NetSuite.
 
    ![Change Request is set to Pending Approval](/img/product_docs/strongpointfornetsuite/integrations/jira_example_pending_approval.webp)
@@ -148,7 +148,7 @@ When development is done, and the Change Request is approved according to your p
 1. Expand the __Change Request__ field on the right. The status is __Approved__.  
    ![Change Request is now Approved](/img/product_docs/strongpointfornetsuite/integrations/jira_example_approved.webp)
 2. Change the Jira status of your ticket to match the status set up for __Jira Statuses for Approved Status__. In our example set up, we have two possible statuses: __Ready for Deployment__ and __Done__. Setting up two statuses enables you to split up the deployment and the ticket closure if you want to monitor the deployment task separately. Both statuses are valid for Deployment, but only __Done__ closes the Jira ticket and updates the Change Request to __Completed__.
-3. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md#automatic-synchronization) to push status changes. A confirmation your Change Request was Created/Updated is displayed.
+3. Click __Push__ if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) to push status changes. A confirmation your Change Request was Created/Updated is displayed.
 4. If you used __Ready for Deployment__, update your Jira status to __Done__ once your deployment and verification activities are complete.
 
 If you open the Change Request in NetSuite:

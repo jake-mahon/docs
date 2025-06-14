@@ -2,7 +2,7 @@
 
 Before you start creating a monitoring plan to audit your NetApp file storage system, plan for the account that will be used for data collection – it should meet the requirements listed below.
 
-If you want to authenticate with AD user account, you must enable it to access SVM through ONTAPI. See the [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#Create-Role-on-NetApp-Clustered-Data-ONTAP-8-or-ONTAP-9-and-Enabling-AD-User-Access) section for additional information.
+If you want to authenticate with AD user account, you must enable it to access SVM through ONTAPI. See the Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access section for additional information.
 
 The following permissions are required for the account on the target server:
 
@@ -35,7 +35,7 @@ The following permissions are required for the account on the Netwrix Auditor se
 
 - The account must be a member of the Local Administrators group.
 
-See [Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access](#Create-Role-on-NetApp-Clustered-Data-ONTAP-8-or-ONTAP-9-and-Enabling-AD-User-Access) section for additional information.
+See Create Role on NetApp Clustered Data ONTAP 8 or ONTAP 9 and Enabling AD User Access section for additional information.
 
 _Remember,_ that you can also assign the built-in vsadmin role instead of the permissions above.
 

@@ -59,11 +59,11 @@
 
 You can configure ServiceNow for your users:
 
-> [Display Action Buttons Only for Specific Conditions](#Display-Action-Buttons-Only-for-Specific-Conditions)
+> Display Action Buttons Only for Specific Conditions
 >
-> [Display Push Deployment Record Only Based on State](#Display-Push-Deployment-Record-Only-Based-on-State)
+> Display Push Deployment Record Only Based on State
 >
-> [Display Strongpoint NetSuite Tab for Selected Users](#Display-Strongpoint-NetSuite-Tab-for-Selected-Users)
+> Display Strongpoint NetSuite Tab for Selected Users
 
 #### Display Action Buttons Only for Specific Conditions
 
@@ -97,7 +97,7 @@ You can set any other stage (standard or custom) depending on your approval proc
 
    ![servicenowinstall10](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
      
-    If you set action button conditions in the [Display Action Buttons Only for Specific Conditions](#Display-Action-Buttons-Only-for-Specific-Conditions) procedure, add this condition to the existing ones. For example,  
+    If you set action button conditions in the Display Action Buttons Only for Specific Conditions procedure, add this condition to the existing ones. For example,  
    __current.cmdb\_ci == 'configuration\_item\_sys\_id' && current.state > -3__
 5. Click __Update__.
 

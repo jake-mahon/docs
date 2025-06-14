@@ -8,10 +8,10 @@ __IMPORTANT!__ If you want to crawl a target database in your MS SQL replication
 
 See next:
 
-- [Introduction](#Introduction)
-- [Tables](#Tables)
-- [Exceptions](#Exceptions)
-- [Summary](#Summary)
+- Introduction
+- Tables
+- Exceptions
+- Summary
 
 ## Introduction
 

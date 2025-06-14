@@ -167,4 +167,4 @@ Step 6 – Authenticate your account using any second way authentication option 
   If you have not received a code, click __Send
   Again__ and then enter the received code in the given box.
 
-Step 7 – Follow the steps 6 - 11 in the [Reset identity store account password (enrolled users)](#Reset-identity-store-account-password-enrolled-users) section to reset your password.
+Step 7 – Follow the steps 6 - 11 in the Reset identity store account password (enrolled users) section to reset your password.

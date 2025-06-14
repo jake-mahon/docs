@@ -2,8 +2,8 @@
 
 While setting up Directory Manager, you must select an authentication mode for connecting to SQL Server (that hosts the Directory Manager database). There are two possible modes:
 
-- [SQL Server Authentication](#SQL-Server-Authentication)
-- [Windows Authentication](#Windows-Authentication)
+- SQL Server Authentication
+- Windows Authentication
 
 ## SQL Server Authentication
 

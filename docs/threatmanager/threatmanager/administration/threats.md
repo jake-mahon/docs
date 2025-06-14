@@ -24,7 +24,7 @@ The Threats list is displayed below the Historical Events section.
 
 ![threatlist](/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
 
-The list displays threats that have a threat level of Low, Medium, High, or Audit for the selected timeframe. Each threat in the list contains a link which opens the [User Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/user.md) or the [Group Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/group.md) and a host link which opens the [Host Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/host.md). In addition, threats have an Edit button which opens the [Edit Threats](#Edit-Threats) window. The View Details button opens the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md).
+The list displays threats that have a threat level of Low, Medium, High, or Audit for the selected timeframe. Each threat in the list contains a link which opens the [User Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/user.md) or the [Group Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/group.md) and a host link which opens the [Host Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/host.md). In addition, threats have an Edit button which opens the Edit Threats window. The View Details button opens the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md).
 
 ## Filter Threats
 

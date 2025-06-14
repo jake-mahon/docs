@@ -48,14 +48,14 @@ Independently of the module chosen, various information is displayed in the foot
 
 ![installation_with_parameters_4](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.webp)
 
-- [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#ribbon)
-- [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#filter)
-- [List view](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#list-view)
-- [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#reading-pane)
-- [Tags](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#tags)
-- [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#search)
-- [Dashboard and widgets](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#dashboard-and-widgets)
-- [Shortcut key](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/file:/d:/support/flare/word_files/passwordsecure_documentation_without_existing_chapters.docx#shortcut-key)
+- [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md)
+- [Filter](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md)
+- [List view](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
+- [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md)
+- [Tags](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md)
+- [Search](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
+- [Dashboard and widgets](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/dashboard_and_widgets.md)
+- [Shortcut key](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/keyboard_shortcuts.md)
 
 ## Orientation
 

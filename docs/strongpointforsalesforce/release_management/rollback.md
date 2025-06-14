@@ -2,9 +2,9 @@
 
 When deploying changes in a single Salesforce environment, you may find instances where you need to rollback to a previous state after a deployment. Platform Governance for Salesforce's rollback tool gives you the flexibility of rolling back all or selected components of your deployment,enabling you to take action on a specific problem. There are two steps:
 
-> [Create the Rollback Record](#Create-the-Rollback-Record)
+> Create the Rollback Record
 >
-> [Execute and Validate the Rollback](#Execute-and-Validate-the-Rollback)
+> Execute and Validate the Rollback
 
 ## Create the Rollback Record
 

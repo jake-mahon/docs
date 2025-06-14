@@ -5,7 +5,7 @@ Auditor Inactive User Tracker standalone tool discovers inactive user and comput
 - Checks the managed domain or specific organizational units by inquiring all domain controllers, and sends reports to managers and system administrators listing all accounts that have been inactive for the specified number of days.
 - Automatically deactivates inactive accounts by settings a random password, disabling, deleting or moving them to a specified organizational unit.
 
-  __NOTE:__ The password that is generated will contain uppercase and lowercase letters, numbers and special characters. The default value for the password length is 15 characters. You can modify this password any time by configuring registry keys. See the [Registry Keys](#Registry-Keys) topic for additional information.
+  __NOTE:__ The password that is generated will contain uppercase and lowercase letters, numbers and special characters. The default value for the password length is 15 characters. You can modify this password any time by configuring registry keys. See the Registry Keys topic for additional information.
 
 - Windows Server 2025
 - Windows Server 2022

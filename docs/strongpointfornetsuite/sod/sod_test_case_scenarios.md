@@ -2,12 +2,12 @@
 
 Here are test case scenarios for SoD rules:
 
-- [Assign an Admin Role to a User](#Assign-an-Admin-Role-to-a-User)
-- [Set Conflicting Global Permissions for a User](#Set-Conflicting-Global-Permissions-for-a-User)
-- [Assign a User a Single User Role that Violates SoD rule](#Assign-a-User-a-Single-User-Role-that-Violates-SoD-rule)
-- [Assign a Combination of Multiple Roles that Violates SoD rule](#Assign-a-Combination-of-Multiple-Roles-that-Violates-SoD-rule)
-- [Assign an Employee the Administrator Role with a Pre-Approved Change Request](#Assign-an-Employee-the-Administrator-Role-with-a-Pre-Approved-Change-Request)
-- [Create an Approved Change Request to Clear a Violation](#Create-an-Approved-Change-Request-to-Clear-a-Violation)
+- Assign an Admin Role to a User
+- Set Conflicting Global Permissions for a User
+- Assign a User a Single User Role that Violates SoD rule
+- Assign a Combination of Multiple Roles that Violates SoD rule
+- Assign an Employee the Administrator Role with a Pre-Approved Change Request
+- Create an Approved Change Request to Clear a Violation
 
 ## Assign an Admin Role to a User
 

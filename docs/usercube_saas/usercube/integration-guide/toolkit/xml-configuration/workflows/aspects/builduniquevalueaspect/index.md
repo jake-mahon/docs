@@ -50,9 +50,9 @@ The position of the pointcut is specified by an activity state and a mode (befor
 
 A unicity check rule ensures that the expression computed by a ```BuildUniqueValue```aspect for a given property is unique, i.e. not yet used by another resource, in a given entity type.
 
-The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the ```SqlCheckExpression``` property of the aspect. See the [
+The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the ```SqlCheckExpression``` property of the aspect. See the 
 Build Unique Value Aspect
-](#Build-Unique-Value-Aspect) topic for additional information.
+ topic for additional information.
 
 The value of the source binding/expression is computed based on the properties of the source resource which is the resource whose property we compute via the ```BuildUniqueValue``` aspect.
 

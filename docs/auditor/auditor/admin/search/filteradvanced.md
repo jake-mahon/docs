@@ -6,8 +6,8 @@ Switch to Advanced mode to review your current search in details and modify it i
 
 Review the following for additional information:
 
-- [Apply Additional Filters](#Apply-Additional-Filters)
-- [Search Conditions](#Search-Conditions)
+- Apply Additional Filters
+- Search Conditions
 
 ## Apply Additional Filters
 

@@ -2,7 +2,7 @@
 
 This type of review is used to keep your roles up to date. When you click on a membership review, the list of users with the role is displayed. The links open the appropriate record in NetSuite, for example the __User__ link opens the __User__ record. Access membership reviews from __UAR List__ in your menu bar, or one of the review shortcuts.
 
-Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab lists the review details for the review.
+Reviews open on the __Review__ tab. The __Review Notes__ tab lists the review details for the review.
 
 ![Membership review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/membership_review.webp)
 
@@ -10,10 +10,10 @@ Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab li
 
 You can perform these actions as part of your review:
 
-- [Review and Complete Role Membership Review](#Review-and-Complete-Role-Membership-Review)
-- [Remove Users from the Role](#Remove-Users-from-the-Role)
-- [Assign an Additional Reviewer](#Assign-an-Additional-Reviewer)
-- [Complete the Membership Review](#Complete-the-Membership-Review)
+- Review and Complete Role Membership Review
+- Remove Users from the Role
+- Assign an Additional Reviewer
+- Complete the Membership Review
 
 Once an action is taken, the Membership review changes to __In Progress__.
 

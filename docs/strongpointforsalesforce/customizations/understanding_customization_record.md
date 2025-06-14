@@ -25,17 +25,17 @@ Customization record fields include:
 
 These are the tabs inside a customization record:
 
-> [Metadata](#Metadata)
+> Metadata
 >
-> [Custom](#Custom)
+> Custom
 >
-> [DRD](#DRD)
+> DRD
 >
-> [Change Enablement](#Change-Enablement)
+> Change Enablement
 >
-> [Clean Up](#Clean-Up)
+> Clean Up
 >
-> [Related Lists](#Related-Lists)
+> Related Lists
 
 ### Metadata
 

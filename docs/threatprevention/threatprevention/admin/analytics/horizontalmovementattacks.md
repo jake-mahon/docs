@@ -17,7 +17,7 @@ Analytic Workflow
 2. Enable the analytic policy
 3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
-See the [Horizontal Movement Attacks Analytic Data Grid](#Horizontal-Movement-Attacks-Analytic-Data-Grid) topic for information on event data collected per incident.
+See the Horizontal Movement Attacks Analytic Data Grid topic for information on event data collected per incident.
 
 ## Configure Horizontal Movement Attacks Analytic Policy
 

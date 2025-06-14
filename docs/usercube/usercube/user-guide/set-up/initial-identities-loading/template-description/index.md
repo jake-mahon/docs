@@ -72,7 +72,7 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 | StartDate (optional) | DateTime | Start date of the record, used for changes that aren't related to contract and position information, for example a scheduled name change. |
 | EndDate (optional) | DateTime | End date of the record, used for changes that aren't related to contract and position information, for example a scheduled name change. |
 
-See the [Template Description](#Template-Description) topic for additional information.
+See the Template Description topic for additional information.
 
 Recommendations:
   

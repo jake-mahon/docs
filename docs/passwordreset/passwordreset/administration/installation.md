@@ -180,7 +180,7 @@ __The Web Interface files are overwritten during an upgrade. You must backup any
 __NOTE:__ A full backup of the NPR server(s) is recommended. This allows you to roll back to the previous version if the upgrade cannot be completed.  
 You may need to restart Windows after upgrading.
 
-If Password Reset was originally installed by someone else and you do not have their installation notes, then read the [Installation](#Installation) topic before you begin. Also make sure you know the password for the Password Reset Server service account as you will need it during the upgrade.
+If Password Reset was originally installed by someone else and you do not have their installation notes, then read the Installation topic before you begin. Also make sure you know the password for the Password Reset Server service account as you will need it during the upgrade.
 
 ### Upgrading to V3.3
 
@@ -208,7 +208,7 @@ __Step 3 –__ Stop the Netwrix Password Reset service and backing up the databa
 
 ### Upgrading to V3.23
 
-__Step 1 –__ Follow the steps for either [Single Server Installation](#Single-Server-Installation) or [Multiple Server Installation](#Multiple-Server-Installation). If the Web Interface is on a different server, then upgrade it as well.
+__Step 1 –__ Follow the steps for either Single Server Installation or Multiple Server Installation. If the Web Interface is on a different server, then upgrade it as well.
 
 __Step 2 –__ Open the Data Console, and check the Audit Log and User tabs to make sure the data was imported.
 

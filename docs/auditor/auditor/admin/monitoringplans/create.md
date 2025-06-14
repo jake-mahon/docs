@@ -84,7 +84,7 @@ Configure the following:
 | --- | --- |
 | Disable security intelligence ... | Only select this option if you do not want your data to be stored in the database. In this case, you will only be able to receive activity summaries. Reporting and alerting capabilities will not be provided.  To store data to the database, leave this check box cleared. |
 | Database | Default database name is _Netwrix\_Auditor\_`<monitoring_plan_name>`_.  It is recommended that you enter a meaningful name for the database here. It may include the data source type (e.g. _Exchange\_Audit\_Data_ or _OracleSrv02\_Audit\_Data_), or so.  If you decided to use the existing SQL Server instance instead of dedicated, you may want to use _Netwrix\_Auditor_ prefix to distinguish Netwrix Auditor databases from others. |
-| Use default SQL Server settings | Select this option if you want Auditor to connect to the SQL Server instance using the default settings you specified at the [Default SQL Server Instance ](#Default-SQL-Server-Instance) step. |
+| Use default SQL Server settings | Select this option if you want Auditor to connect to the SQL Server instance using the default settings you specified at the Default SQL Server Instance  step. |
 | Specify custom connection parameters | Select this option to use custom credentials when connecting to SQL Server. Specify authentication method and the account that Auditor will use.  Make sure this account has sufficient rights to connect to SQL Server and work with the databases. |
 
 Auditor will connect to the default SQL Server instance and create a database with the specified name on it.

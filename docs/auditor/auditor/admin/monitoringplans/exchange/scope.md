@@ -2,8 +2,8 @@
 
 You can fine-tune Auditor by specifying data that you want to exclude from the Exchange monitoring scope. In addition, you can exclude data from non-owner access auditing.
 
-- [Exchange Monitoring Scope](#Exchange-Monitoring-Scope)
-- [To exclude users or mailboxes from the Mailbox Access monitoring scope](#To-exclude-users-or-mailboxes-from-the-Mailbox-Access-monitoring-scope)
+- Exchange Monitoring Scope
+- To exclude users or mailboxes from the Mailbox Access monitoring scope
 
 Follow the steps to exclude data from the Exchange monitoring scope:
 

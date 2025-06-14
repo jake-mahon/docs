@@ -48,7 +48,7 @@ There you can use the UI controls to run the variety of search queries that will
 - By default, search results are open in the same window, so the subsequent search results will overwrite the previous search results. To view them in different windows, click Open in new window.
 - In addition, you can customize your view by selecting columns to display.
 
-Use search results for your own needs: save, share, create search-based alerts, subscribe to periodic delivery of search query results, etc. See [Make Search Results Actionnable](#Make-Search-Results-Actionnable) for more information.
+Use search results for your own needs: save, share, create search-based alerts, subscribe to periodic delivery of search query results, etc. See Make Search Results Actionnable for more information.
 
 ![search_nofilter_1](/img/product_docs/auditor/auditor/admin/search/search_nofilter_1.webp)
 
@@ -63,7 +63,7 @@ To work with a certain activity record:
 
 If you are examining User Activity entries, click the Show video... link below the entry. Review details and play a video by clicking the Show video on the right.
 
-3. You can instruct Netwrix Auditor to include or exclude this activity record from the search query results, as described in the [Include and Exclude Data ](#Include-and-Exclude-Data)
+3. You can instruct Netwrix Auditor to include or exclude this activity record from the search query results, as described in the Include and Exclude Data 
 
 ## Customize View
 

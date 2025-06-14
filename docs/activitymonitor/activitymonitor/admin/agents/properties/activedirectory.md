@@ -20,8 +20,8 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 More advanced Active Directory Monitoring features are available for use through Threat Prevention. See the following sections for additional information:
 
-- See the [Migrate Active Directory Monitoring to StealthINTERCEPT](#Migrate-Active-Directory-Monitoring-to-StealthINTERCEPT) topic for additional information
-- See the [Configuring StealthINTERCEPT to Send Active Directory Activity to the Activity Monitor](#Configuring-StealthINTERCEPT-to-Send-Active-Directory-Activity-to-the-Activity-Monitor) topic for additional information
+- See the Migrate Active Directory Monitoring to StealthINTERCEPT topic for additional information
+- See the Configuring StealthINTERCEPT to Send Active Directory Activity to the Activity Monitor topic for additional information
 
 ## Migrate Active Directory Monitoring to StealthINTERCEPT
 
@@ -29,7 +29,7 @@ To transfer Active Directory Activity Monitoring from the Activity Monitor to Th
 
 __NOTE:__ If Threat Prevention installed SI Agents on domain controllers before the Activity Monitor AD agents were deployed, then skip to the next set of instructions to configure Active Directory Monitoring through Threat Prevention.
 
-If Threat Prevention data is not used by other Netwrix products, uninstall the activity agent from the domain controllers if you do not plan to receive Active Directory activity in Activity Monitor anymore and the agents are not used for file system monitoring. If Threat Prevention data is to be used by other Netwrix products, see the [Configuring StealthINTERCEPT to Send Active Directory Activity to the Activity Monitor](#Configuring-StealthINTERCEPT-to-Send-Active-Directory-Activity-to-the-Activity-Monitor) topic for additional information.
+If Threat Prevention data is not used by other Netwrix products, uninstall the activity agent from the domain controllers if you do not plan to receive Active Directory activity in Activity Monitor anymore and the agents are not used for file system monitoring. If Threat Prevention data is to be used by other Netwrix products, see the Configuring StealthINTERCEPT to Send Active Directory Activity to the Activity Monitor topic for additional information.
 
 ## Configuring StealthINTERCEPT to Send Active Directory Activity to the Activity Monitor
 

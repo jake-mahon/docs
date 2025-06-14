@@ -4,16 +4,16 @@ To access change management reports:
 
 Open __Strongpoint__ > __Change Management Reports__ and one of the available reports:
 
-- [Policy Changes](#Policy-Changes)
-- [Open Non-Compliant Changes](#Open-Non-Compliant-Changes)
-- [Resolved Non-Compliant Changes](#Resolved-Non-Compliant-Changes)
-- [Compliant Changes](#Compliant-Changes)
-- [Approval Override](#Approval-Override)
-- [Managed Bundle/App Updates](#Managed-BundleApp-Updates)
-- [Platform Changes](#Platform-Changes)
-- [Non-Material Changes](#Non-Material-Changes)
-- [Deployed Changes](#Deployed-Changes)
-- [What Changed](#What-Changed)
+- Policy Changes
+- Open Non-Compliant Changes
+- Resolved Non-Compliant Changes
+- Compliant Changes
+- Approval Override
+- Managed Bundle/App Updates
+- Platform Changes
+- Non-Material Changes
+- Deployed Changes
+- What Changed
 
 ## Policy Changes
 

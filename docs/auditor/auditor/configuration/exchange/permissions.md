@@ -16,15 +16,15 @@ The account used for data collection must meet the following requirements:
   - The Manage auditing and security log policy must be defined for this account. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
   - If you plan to process the Active Directory Deleted Objects container, Read permission on
     this container is required. See the [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) topic for additional information.
-  - The account must belong to the Organization Management or Records Management group. See the [Add Account to the Organization Management Group](#Add-Account-to-the-Organization-Management-Group) topic for additional information.
-  - Several management roles assigned: Audit Logs role, View-only Configuration role, Mail Recipients role, and Monitoring role. See the [Add Account to the Organization Management Group](#Add-Account-to-the-Organization-Management-Group) topic for additional information on how to perform role assignment.
+  - The account must belong to the Organization Management or Records Management group. See the Add Account to the Organization Management Group topic for additional information.
+  - Several management roles assigned: Audit Logs role, View-only Configuration role, Mail Recipients role, and Monitoring role. See the Add Account to the Organization Management Group topic for additional information on how to perform role assignment.
   - Additional configuration if auto-backup is _enabled_ for the domain controller event logs (see below).
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
 
 The following is required if auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
+- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the Assign Permission to Read the Registry Key topic for additional information.
 - Membership in one of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder
 

@@ -6,9 +6,9 @@ __NOTE:__ Organizations typically have one or more system administrators respons
 
 Follow the steps to enable SSL.
 
-__Step 1 –__ [Create an SSL Binding](#Create-an-SSL-Binding).
+__Step 1 –__ Create an SSL Binding.
 
-__Step 2 –__ [Modify the AccessInformationCenter.Service.exe.Config File](#Modify-the-AccessInformationCenterServiceexeConfig-File).
+__Step 2 –__ Modify the AccessInformationCenter.Service.exe.Config File.
 
 The Access Reviews application is now configured to use SSL for secure, remote connections.
 

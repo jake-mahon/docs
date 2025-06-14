@@ -34,7 +34,7 @@ Periodically, users receive reminder emails to validate their profile. Directory
 Expired users can request the administrator or helpdesk to unlock their accounts temporarily and grant an extension period. If they do not validate their profile within that extension period either, Directory Manager expires them again and notifies their managers
 by email. To reactivate these accounts, users’ managers must send a request to the helpdesk.
 
-To identify user accounts that are disabled for not validating their profiles, see the [Identify User Accounts Expired due to Non-Profile Validation](#Identify-User-Accounts-Expired-due-to-Non-Profile-Validation) topic.
+To identify user accounts that are disabled for not validating their profiles, see the Identify User Accounts Expired due to Non-Profile Validation topic.
 
 ## The User Life Cycle Schedule
 
@@ -48,13 +48,13 @@ The [User Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/userli
 
 What do you want to do?
 
-- [Specify a Group for Profile Validation](#Specify-a-Group-for-Profile-Validation)
-- [Set a Profile Validation Life Cycle Period](#Set-a-Profile-Validation-Life-Cycle-Period)
-- [Specify a Profile Validation Period for New Users](#Specify-a-Profile-Validation-Period-for-New-Users)
-- [Specify a Duration for the Extension Period](#Specify-a-Duration-for-the-Extension-Period)
-- [Specify Reminder Notification Settings](#Specify-Reminder-Notification-Settings)
-- [Identify User Accounts Expired due to Non-Profile Validation](#Identify-User-Accounts-Expired-due-to-Non-Profile-Validation)
-- [Apply Settings to Clear the Validation Date](#Apply-Settings-to-Clear-the-Validation-Date)
+- Specify a Group for Profile Validation
+- Set a Profile Validation Life Cycle Period
+- Specify a Profile Validation Period for New Users
+- Specify a Duration for the Extension Period
+- Specify Reminder Notification Settings
+- Identify User Accounts Expired due to Non-Profile Validation
+- Apply Settings to Clear the Validation Date
 
 ## Specify a Group for Profile Validation
 

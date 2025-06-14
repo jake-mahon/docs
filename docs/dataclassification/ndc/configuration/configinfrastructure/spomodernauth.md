@@ -80,7 +80,7 @@ When found, click on the entry and proceed with adding the necessary permissions
 Having configured the app, you can upload its application certificate.
 
 1. In the app settings, click __Certificates & secrets__ and select __Upload certificate__.
-2. Upload the .CER file you prepared at [Step 1: Prepare an Application Certificate](#Step-1-Prepare-an-Application-Certificate).
+2. Upload the .CER file you prepared at Step 1: Prepare an Application Certificate.
 3. Copy the certificate thumbprint to a safe location.
 
 ## Step 5: Obtain Tenant ID

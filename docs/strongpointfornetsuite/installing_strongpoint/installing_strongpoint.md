@@ -2,10 +2,10 @@
 
 To get Platform Governance for NetSuite up and running, you need to do the following:
 
-1. [Install the bundle](#Install-the-bundle) using the correct bundle name and the bundle ID.
-2. [Set the number of rows in list segments](#Set-the-number-of-rows-in-list-segments) to 1,000. This is a NetSuite best practice
-3. [Assign a Strongpoint License](#Assign-a-Strongpoint-License).
-4. [Run the spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md). The spider scans your account in a standardized manner. A series of scheduled scripts is run to document the connections between the customizations.
+1. [Install the bundle](#install-the-bundle) using the correct bundle name and the bundle ID.
+2. [Set the number of rows in list segments](#set-the-number-of-row-in-list-segments) to 1,000. This is a NetSuite best practice
+3. [Assign a Strongpoint License](#assign-a-license).
+4. [Run the spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider). The spider scans your account in a standardized manner. A series of scheduled scripts is run to document the connections between the customizations.
 
 Starting with Version 6.2.5, queues and priority allocation are deprecated. The bundle is now installed using processor architecture for scheduled scripts. All deployments are set to low priority.
 
@@ -28,7 +28,7 @@ The Bundle ID has been updated due to NetSuite changes.
 
 ## Set the Number of Row in List Segments
 
-It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best practice and critical for the proper spidering of your workflows. If you are unable to edit this field, refer to [Cannot Change the Number of Rows in List Segments](/docs/strongpointfornetsuite/troubleshooting/list_segments_not_editable.md)
+It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best practice and critical for the proper spidering of your workflows. If you are unable to edit this field, refer to [Cannot Change the Number of Rows in List Segments](/docs/strongpointfornetsuite/troubleshooting/list_segments_not_editable)
 
 To set the Number of Rows in List Segments:
 
@@ -53,4 +53,4 @@ If the field is grayed out, it should be set as a __Company Preference:__
 5. Select __Full__ for __License Type__.
 6. Click __Save__.
 
-__Next Step:__ [Running the Spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md)
+__Next Step:__ [Running the Spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider)

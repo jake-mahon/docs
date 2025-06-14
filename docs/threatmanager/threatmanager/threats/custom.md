@@ -4,8 +4,8 @@ In additional to pre-configured threats, Threat Manager provides the ability to 
 
 Custom threats can be created in one of the following ways:
 
-- [Custom Option on the Threat Detection Page](#Custom-Option-on-the-Threat-Detection-Page)
-- [Create Threat Option on the Investigation Page](#Create-Threat-Option-on-the-Investigation-Page)
+- Custom Option on the Threat Detection Page
+- Create Threat Option on the Investigation Page
 
 ## Custom Option on the Threat Detection Page
 
@@ -66,4 +66,4 @@ __Step 10 –__ Click __Save__. The investigation is now saved as a custom threa
 For creating a custom threat from an Investigation page, the steps are as follows:
 
 1. Click Investigate in the application's header bar.
-2. select an investigation and follow the steps from the Step 5 in the [Custom Option on the Threat Detection Page](#Custom-Option-on-the-Threat-Detection-Page) section above.
+2. select an investigation and follow the steps from the Step 5 in the Custom Option on the Threat Detection Page section above.

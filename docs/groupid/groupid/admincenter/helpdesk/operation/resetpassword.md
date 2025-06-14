@@ -8,8 +8,8 @@ Helpdesk users may have to authenticate end users before resetting their passwor
 
 What do you want to do?
 
-- [Reset Passwords in Unrestricted Mode](#Reset-Passwords-in-Unrestricted-Mode)
-- [Reset Passwords in Restricted Mode](#Reset-Passwords-in-Restricted-Mode)
+- Reset Passwords in Unrestricted Mode
+- Reset Passwords in Restricted Mode
 
 ## Reset Passwords in Unrestricted Mode
 
@@ -76,7 +76,7 @@ __To reset a password in restricted mode:__
 
    NOTE: Helpdesk cannot authenticate users with the Link Account, YubiKey, and Windows Hello authentication types.
 5. Click __Next__.
-6. On the __Reset__ page, you can reset the password. Follow step 4 and onwards in the [Reset Passwords in Unrestricted Mode](#Reset-Passwords-in-Unrestricted-Mode) topic for details.
+6. On the __Reset__ page, you can reset the password. Follow step 4 and onwards in the Reset Passwords in Unrestricted Mode topic for details.
 
 __See Also__
 

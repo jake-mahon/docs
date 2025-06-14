@@ -17,7 +17,7 @@ Analytic Workflow
 2. Enable the analytic policy
 3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
-See the [User Account Hacking Analytic Data Grid](#User-Account-Hacking-Analytic-Data-Grid) topic for information on event data collected per incident.
+See the User Account Hacking Analytic Data Grid topic for information on event data collected per incident.
 
 ## Configure User Account Hacking Analytic Policy
 

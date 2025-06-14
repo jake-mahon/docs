@@ -1,14 +1,14 @@
 # Setting Up Policies
 
-- [Policy Information](#Policy-Information) general information about the policy.
-- [Set Up a Default Policy](#Set-Up-a-Default-Policy) procedure to set up your default policy and approvers.
-- [Change Controls](#Change-Controls) reference information for the Change Controls tab.
-- [Approvals](#Approvals) reference information for the Approvals tab.
-- [Process Policies](#Process-Policies) reference information for the Process Policies tab.
-- [Customization Policies](#Customization-Policies) reference information for the Customization Policies tab.
-- [Control Policies](#Control-Policies) reference information for the Control Policies tab.
-- [SoD Policies](#SoD-Policies) reference information for the SoD Policies tab.
-- [Set Up Additional Policies](#Set-Up-Additional-Policies) set up additional policies as required.
+- Policy Information general information about the policy.
+- Set Up a Default Policy procedure to set up your default policy and approvers.
+- Change Controls reference information for the Change Controls tab.
+- Approvals reference information for the Approvals tab.
+- Process Policies reference information for the Process Policies tab.
+- Customization Policies reference information for the Customization Policies tab.
+- Control Policies reference information for the Control Policies tab.
+- SoD Policies reference information for the SoD Policies tab.
+- Set Up Additional Policies set up additional policies as required.
 
 ## Policy Information
 

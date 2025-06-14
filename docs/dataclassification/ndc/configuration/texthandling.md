@@ -2,16 +2,16 @@
 
 This section contains information on how to configure text processing. Related options apply to:
 
-- [Best Bets](#Best-Bets)
-- [Content Type Extension Mapping](#Content-Type-Extension-Mapping)
-- [Content Type Extraction Methods](#Content-Type-Extraction-Methods)
-- [Language Detection](#Language-Detection)
-- [No Stem](#No-Stem)
-- [OCR Language Mapping](#OCR-Language-Mapping)
-- [Synonyms](#Synonyms)
-- [Text Patterns](#Text-Patterns)
+- Best Bets
+- Content Type Extension Mapping
+- Content Type Extraction Methods
+- Language Detection
+- No Stem
+- OCR Language Mapping
+- Synonyms
+- Text Patterns
 
-[](#)[Best Bets](#Best-Bets)
+[](#)Best Bets
 
 Sometimes an application may wish to push selected documents to the top of a hitlist for specific queries. This may be implemented by specifying Best Bets for specific query text.
 
@@ -21,7 +21,7 @@ First, enter the search term that you wish to match and then click the Add butto
 
 Next, click on the term, and specify one or more URLs that should appear at the top of the hit list.
 
-[](#)[Content Type Extension Mapping](#Content-Type-Extension-Mapping)
+[](#)Content Type Extension Mapping
 
 Sometimes an organization may wish to process certain file types as a different content type. The primary use case for this is internal content types that map to a content type already understood / identified.
 
@@ -29,7 +29,7 @@ In this case the example has a .rpt file being treated as a text file, as such t
 
 ![configcontenttypeextensionmappings](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextensionmappings.webp)
 
-[](#)[Content Type Extraction Methods](#Content-Type-Extraction-Methods)
+[](#)Content Type Extraction Methods
 
 The Content Type Extraction methods describes how documents will be handled by the APIs and the core services. A number of built-in processing methods are available, where there is no available method the processing will default to running through standard Microsoft Search iFilter processing.
 
@@ -39,7 +39,7 @@ If you have updated the extraction method we recommend re-processing any documen
 
 ![configcontenttypeextractionmethods_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextractionmethods_thumb_0_0.webp)
 
-[](#)[Language Detection](#Language-Detection)
+[](#)Language Detection
 
 The language detection list specifies which languages will be considered for auto-detection.
 
@@ -49,25 +49,25 @@ If a language is excluded then it cannot be used to identify the language of a d
 
 __TIP:__ You can also OCR recognition for non-English images. Refer to the following Netwrix knowledge base article for more information: [How to enable OCR for non-English images](https://kb.netwrix.com/3519).
 
-[](#)[No Stem](#No-Stem)
+[](#)No Stem
 
 The No Stem list offers the ability to disable language stemming for a particular word or phrase, this supports the ability to always apply a phrasematch when a particular term is used as either a clue – or a search term.
 
 ![confignostem_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/confignostem_thumb_0_0.webp)
 
-[](#)[OCR Language Mapping](#OCR-Language-Mapping)
+[](#)OCR Language Mapping
 
 The OCR language mapping configuration screen can be used if you wish to OCR non-English images via Tesseract. File paths (including parts of paths) can be mapped to specific Tesseract language packs.
 
 ![configocrlanguagemapping](/img/product_docs/dataclassification/ndc/configuration/configocrlanguagemapping.webp)
 
-[](#)[Synonyms](#Synonyms)
+[](#)Synonyms
 
 Often it is important to submit a query and have synonyms automatically included. A generic set of synonyms may be configured by using the Synonyms form.
 
 ![configsynonyms](/img/product_docs/dataclassification/ndc/configuration/configsynonyms.webp)
 
-[](#)[Text Patterns](#Text-Patterns)
+[](#)Text Patterns
 
 Many HTML web pages contain navigation information and other extraneous information that is the same for all pages and/or not relevant to the individual page content. If all of the text is indexed from these HTML pages then this can lead to unwanted search results where a match is made, for example, to an entry in a standard page navigation area.
 

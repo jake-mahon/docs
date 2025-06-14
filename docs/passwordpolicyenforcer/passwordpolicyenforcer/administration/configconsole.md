@@ -14,10 +14,10 @@ Double click the __PPE Configuration__ desktop shortcut.
 
 The Configuration Console dashboard has all the tools you need to set up and manage Password Policy Enforcer.
 
-- [Enable/Disable Password Policy Enforcer](#EnableDisable-Password-Policy-Enforcer)
-- [Connected To](#Connected-To)
-- [Help](#Help)
-- [Settings](#Settings) - [General](#General), [Notifications](#Notifications), [License](#License)
+- Enable/Disable Password Policy Enforcer
+- Connected To
+- Help
+- Settings - General, Notifications, License
 
 In addition, there are tiles to access Password Policy Enforcer major features:
 
@@ -82,13 +82,13 @@ Links to documentation and support tools.
 
 There are three tabs:
 
-- [General](#General)
-- [Notifications](#Notifications)
-- [License](#License)
+- General
+- Notifications
+- License
 
 #### General
 
-Open the __Settings__ > __General__ tab to set up policy and log settings. The general settings apply to either the domain or to a local computer, depending on your [Connected To](#Connected-To) configuration setting.
+Open the __Settings__ > __General__ tab to set up policy and log settings. The general settings apply to either the domain or to a local computer, depending on your Connected To configuration setting.
 
 If you make changes, click __Save__ to keep your changes or __Discard__ to cancel.
 
@@ -125,7 +125,7 @@ Here are the default settings.
 
 #### Notifications
 
-Open the __Settings__ > __Notifications__ tab to set up notifications. Notifications are only available when __domain__ is selected with the [Connected To](#Connected-To) configuration setting.
+Open the __Settings__ > __Notifications__ tab to set up notifications. Notifications are only available when __domain__ is selected with the Connected To configuration setting.
 
 If you make changes, click __Save__ to keep your changes or __Discard__ to cancel.
 
@@ -152,7 +152,7 @@ __NOTE:__ You can change the time the mailer runs. Set the __PPE Mailer__ servi
 
 #### License
 
-Open the __Settings__ > __License__ tab to view your current license. The license settings apply to either the domain or to a local computer, depending on your [Connected To](#Connected-To) configuration setting.
+Open the __Settings__ > __License__ tab to view your current license. The license settings apply to either the domain or to a local computer, depending on your Connected To configuration setting.
 
 To add or update your license, copy it from the email or file, then click __Paste license from clipboard__.
 

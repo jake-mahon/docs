@@ -9,8 +9,8 @@ NOTE: The Linked Account authentication type is available for multifactor authen
 
 What do you want to do?
 
-- [Enable Linked Account Authentication for an Identity Store](#Enable-Linked-Account-Authentication-for-an-Identity-Store)
-- [Enforce Linked Account Authentication for a Security Role](#Enforce-Linked-Account-Authentication-for-a-Security-Role)
+- Enable Linked Account Authentication for an Identity Store
+- Enforce Linked Account Authentication for a Security Role
 
 ## Enable Linked Account Authentication for an Identity Store
 

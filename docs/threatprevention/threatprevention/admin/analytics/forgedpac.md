@@ -15,7 +15,7 @@ Analytic Workflow
 2. Enable the analytic policy
 3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
-See the [Forged PAC Analytic Data Grid](#Forged-PAC-Analytic-Data-Grid) topic for information on event data collected per incident.
+See the Forged PAC Analytic Data Grid topic for information on event data collected per incident.
 
 ## Configure Forged PAC Analytic Policy
 

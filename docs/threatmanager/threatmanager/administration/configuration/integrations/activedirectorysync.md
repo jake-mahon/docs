@@ -67,8 +67,8 @@ Select the domain from the list to see modification options:
 - Name – The box at the top displays the name of the domain
 
   - Delete – The delete button in the upper right corner of the box opens the Delete Domain window to confirm the action
-- Domain Configuration – Displays the sync policy settings entered for the selected domain. These settings can be modified on this tab. See the [Domain Configuration Tab](#Domain-Configuration-Tab) topic for additional information.
-- Sync History – Displays the information on each synchronization event. See the [Sync History Tab](#Sync-History-Tab) topic for additional information.
+- Domain Configuration – Displays the sync policy settings entered for the selected domain. These settings can be modified on this tab. See the Domain Configuration Tab topic for additional information.
+- Sync History – Displays the information on each synchronization event. See the Sync History Tab topic for additional information.
 
 ### Domain Configuration Tab
 

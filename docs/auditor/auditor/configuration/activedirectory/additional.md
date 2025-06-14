@@ -14,7 +14,7 @@ You will also need to configure Exchange Administrator Audit Logging (AAL) setti
 
 The following is required if auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
+- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the Assign Permission to Read the Registry Key topic for additional information.
 - Membership in one of the following groups: Administrators, Print Operators, or Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder.
 

@@ -40,7 +40,7 @@ To save a report configuration template
 
    NOTE: Report configuration templates are saved per user.
 4. Enter a name for the report configuration template.
-5. To create a subscription for the report configuration template, check the __Create a Subscription__ box, then click __Save and Next__. Otherwise, click __Save__ to complete configuration. See the [Manage Subscriptions](#Manage-Subscriptions) section for additional information on creating report subscriptions.
+5. To create a subscription for the report configuration template, check the __Create a Subscription__ box, then click __Save and Next__. Otherwise, click __Save__ to complete configuration. See the Manage Subscriptions section for additional information on creating report subscriptions.
 
 __To load report configuration template__
 

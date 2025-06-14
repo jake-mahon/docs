@@ -74,7 +74,7 @@ thereby creating a chain of linked identity stores.
 
 Here is how it works:
 
-- Link two identity stores, IdentityStoreA and IdentityStoreB, by following the discussion in the [How to Link Two Identity Stores](#How-to-Link-Two-Identity-Stores) topic.  
+- Link two identity stores, IdentityStoreA and IdentityStoreB, by following the discussion in the How to Link Two Identity Stores topic.  
   Directory Manager now considers this link as one entity. Let’s call it Entity1.
 - Next, link IdentityStoreA or IdentityStoreB to IdentityStoreC using the same method.  
   This establishes a link between Entity1 and IdentityStoreC.

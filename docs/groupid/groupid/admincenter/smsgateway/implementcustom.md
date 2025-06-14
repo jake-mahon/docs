@@ -4,8 +4,8 @@ You can integrate with additional SMS gateways using the Custom Gateway API. Af
 
 What do you want to do?
 
-- [Implement a Custom SMS Gateway](#Implement-a-Custom-SMS-Gateway)
-- [Deploy a Custom SMS Gateway](#Deploy-a-Custom-SMS-Gateway)
+- Implement a Custom SMS Gateway
+- Deploy a Custom SMS Gateway
 
 ## Implement a Custom SMS Gateway
 

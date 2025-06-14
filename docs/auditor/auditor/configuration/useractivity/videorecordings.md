@@ -6,16 +6,16 @@ You can use group Managed Service Accounts (gMSA) as data collecting accounts.
 
 To be able to watch video files captured by Netwrix Auditor via console, the following settings must be configured:
 
-- The user must have read permissions (resultant set) to the __Netwrix\_UAVR$__ shared folder where video files are stored. By default, all members of the __Netwrix Auditor Client Users__ group can access this shared folder. Both the group and the folder are created automatically by Netwrix Auditor. Make sure to grant sufficient permissions on folder or explicitly add user to the group (regardless his or her role delegated in the product). See the [To Add an Account to Netwrix Auditor Client Users Group](#To-Add-an-Account-to-Netwrix-Auditor-Client-Users-Group) topic for additional information.
+- The user must have read permissions (resultant set) to the __Netwrix\_UAVR$__ shared folder where video files are stored. By default, all members of the __Netwrix Auditor Client Users__ group can access this shared folder. Both the group and the folder are created automatically by Netwrix Auditor. Make sure to grant sufficient permissions on folder or explicitly add user to the group (regardless his or her role delegated in the product). See the To Add an Account to Netwrix Auditor Client Users Group topic for additional information.
 - A dedicated codec must be installed. This codec is installed automatically on the computer where Netwrix Auditor is deployed, and on the monitored computers. To install it on a different computer, download it from [https://www.netwrix.com/download/ScreenPressorNetwrix.zip](https://www.netwrix.com/download/ScreenPressorNetwrix.zip).
-- The Ink and Handwriting Services, Media Foundation, and Desktop Experience Windows features must be installed on the computer where Netwrix Auditor Server is deployed. These features allow enabling Windows Media Player and sharing video recordings via DLNA. See the [To Enable Windows Features](#To-Enable-Windows-Features) topic for additional information.
+- The Ink and Handwriting Services, Media Foundation, and Desktop Experience Windows features must be installed on the computer where Netwrix Auditor Server is deployed. These features allow enabling Windows Media Player and sharing video recordings via DLNA. See the To Enable Windows Features topic for additional information.
 
 To be able to watch video files captured by Netwrix Auditor via direct links, the following settings must be configured:
 
 - Microsoft Internet Explorer 7.0 and above must be installed and ActiveX must be enabled.
-- Internet Explorer security settings must be configured properly. See the [To Configure Internet Explorer Security Settings](#To-Configure-Internet-Explorer-Security-Settings) topic for additional information.
-- JavaScript must be enabled. See the [To Enable JavaScript](#To-Enable-JavaScript) topic for additional information.
-- Internet Explorer Enhanced Security Configuration (IE ESC) must be disabled. See the [To Disable Internet Explorer Enhanced Security Configuration (IE ESC)](#To-Disable-Internet-Explorer-Enhanced-Security-Configuration-IE-ESC) topic for additional information.
+- Internet Explorer security settings must be configured properly. See the To Configure Internet Explorer Security Settings topic for additional information.
+- JavaScript must be enabled. See the To Enable JavaScript topic for additional information.
+- Internet Explorer Enhanced Security Configuration (IE ESC) must be disabled. See the To Disable Internet Explorer Enhanced Security Configuration (IE ESC) topic for additional information.
 
 All Internet Explorer-related settings are relevant only for those who watch videos not in Netwrix Auditor console.
 

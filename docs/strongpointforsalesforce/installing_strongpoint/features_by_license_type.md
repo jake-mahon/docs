@@ -2,11 +2,11 @@
 
 Platform Governance for Salesforce offers three license types:
 
-> [Automated Documentation](#Automated-Documentation)
+> Automated Documentation
 >
-> [Intelligent Change Enablement](#Intelligent-Change-Enablement)
+> Intelligent Change Enablement
 >
-> [Enterprise Compliance](#Enterprise-Compliance)
+> Enterprise Compliance
 
 This table summarizes what is included in each type.
 

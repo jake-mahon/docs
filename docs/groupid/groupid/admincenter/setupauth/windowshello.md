@@ -6,9 +6,9 @@ NOTE: Windows Hello supports the Microsoft Edge browser only.
 
 What do you want to do?
 
-- [Enable Windows Hello on Windows 10](#Enable-Windows-Hello-on-Windows-10)
-- [Enable Windows Hello Authentication for an Identity Store](#Enable-Windows-Hello-Authentication-for-an-Identity-Store)
-- [Enforce Windows Hello Authentication for a Role in an Identity Store](#Enforce-Windows-Hello-Authentication-for-a-Role-in-an-Identity-Store)
+- Enable Windows Hello on Windows 10
+- Enable Windows Hello Authentication for an Identity Store
+- Enforce Windows Hello Authentication for a Role in an Identity Store
 
 ## Enable Windows Hello on Windows 10
 

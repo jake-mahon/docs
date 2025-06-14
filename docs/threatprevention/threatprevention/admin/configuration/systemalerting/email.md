@@ -10,8 +10,8 @@ __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Thr
 
 __Step 2 –__ Configure the following prior to enabling email alerting:
 
-- [Configure SMTP Host Information](#Configure-SMTP-Host-Information)
-- [Create Message Profiles](#Create-Message-Profiles)
+- Configure SMTP Host Information
+- Create Message Profiles
 
 __Step 3 –__ Once configured, click __Events__ on the __Email__ tab. Decide what events receive notifications and assign one or more message profiles to the event.
 

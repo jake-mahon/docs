@@ -12,10 +12,10 @@ For this report to function properly, you must enable the Collect data for state
 
 ### Tips to Work with Report
 
-1. Set desired filters in the report header. See the [Filters](#Filters) topic for more information.
+1. Set desired filters in the report header. See the Filters topic for more information.
 2. Select as many Accounts details to show as needed. Selected details are shown in the table view for each account that comply filtering criteria.
 3. Filter on Sort by to bring important accounts' data to front.
-4. Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the [Reported Attributes](#Reported-Attributes) topic for more information.
+4. Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the Reported Attributes topic for more information.
 5. The report is limited by 2000 records. To view all, create subscription to the report. The subscription (email attachment or file uploaded to a file share) will contain complete data.
 6. If you have more than 2000 entities within the report scope, sorting might work incorrectly. Apply filters to narrow your report scope.
 

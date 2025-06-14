@@ -15,7 +15,7 @@ NOTE: Advanced Dynasty options are available for Dynasties of the parent and mid
 
 __Alias Template__
 
-This setting generates the alias names of child groups. __%GROUPBY%__ is replaced with the actual value of the [Attributes](#Attributes).
+This setting generates the alias names of child groups. __%GROUPBY%__ is replaced with the actual value of the Attributes.
 
 If Exchange Server is the designated messaging system for the identity store, the alias length is limited to 64 characters and must be unique to the forest. For other messaging systems, the alias length must not exceed the number of characters supported
 by the respective messaging system.
@@ -31,7 +31,7 @@ Also, the alias must not contain characters that are invalid for the configured 
 
 __Display Name Template__
 
-The template to use to generate the display names of the child groups. __%GROUPBY%__ is replaced with the actual value of the[Attributes](#Attributes).
+The template to use to generate the display names of the child groups. __%GROUPBY%__ is replaced with the actual value of theAttributes.
 
 __Attributes__
 
@@ -73,9 +73,9 @@ For example, you specify whether you want to create a separate Smart Group for t
 
 You can view and change these structure options for parent and middle Dynasties. For details, see the [Dynasty Options page (Managerial Dynasty)](/docs/groupid/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
 
-NOTE: (1) If the __Set manager as owner__ check box is selected, the __Always inherit__ option is set for [Inheritance](#Inheritance), and the managedBy attribute is specified for inheritance, the __Set manager as owner__ option takes priority over the managedBy attribute inheritance. Hence, the manager of a child Dynasty would be set as its respective primary owner.  
+NOTE: (1) If the __Set manager as owner__ check box is selected, the __Always inherit__ option is set for Inheritance, and the managedBy attribute is specified for inheritance, the __Set manager as owner__ option takes priority over the managedBy attribute inheritance. Hence, the manager of a child Dynasty would be set as its respective primary owner.  
 (2) When you clear the __Set manager as owner__ check box, the manager set as the primary owner of a parent Dynasty will not be removed. However, when the Dynasty is updated, the primary owner of a child Dynasty may be updated,
-depending on the Dynasty inheritance options. For example, if the __Always inherit__ option is set for [Inheritance](#Inheritance) and the managedBy attribute is specified for inheritance, the primary owner of the parent
+depending on the Dynasty inheritance options. For example, if the __Always inherit__ option is set for Inheritance and the managedBy attribute is specified for inheritance, the primary owner of the parent
 Dynasty would be set as the primary owner for all child Dynasties, replacing their respective primary owners.
 
 __Attributes__
@@ -140,4 +140,4 @@ NOTE: For a managerial Dynasty, the __%MANAGER%__ variable for the alias and dis
 
 __Inheritance__
 
-See [Inheritance](#Inheritance) section on this page.
+See Inheritance section on this page.

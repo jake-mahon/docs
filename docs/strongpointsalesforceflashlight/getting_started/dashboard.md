@@ -2,11 +2,11 @@
 
 Flashlight comes with a comprehensive dashboard with everything to manage your org at your fingertips. The dashboard provides key tools and reports to enable you to take full control of your org and action problematic areas as required.
 
-- [Scanner Status](#Scanner-Status)
-- [Recent Updates to Customizations](#Recent-Updates-to-Customizations)
-- [Resources](#Resources)
-- [Key Tools](#Key-Tools)
-- [DRD Generator](#DRDGenerator)
+- Scanner Status
+- Recent Updates to Customizations
+- Resources
+- Key Tools
+- DRD Generator
 
 ## Scanner Status
 

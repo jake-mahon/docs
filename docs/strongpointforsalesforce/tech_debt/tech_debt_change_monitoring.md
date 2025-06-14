@@ -24,7 +24,7 @@ Policies can also be used to block unauthorized changes.
 
 ## Default Policy
 
-Netwrix recommends our default policy as a foundational best practice. In addition, consider [Specific Monitoring](#Specific-Monitoring) for anything needing special protection.
+Netwrix recommends our default policy as a foundational best practice. In addition, consider Specific Monitoring for anything needing special protection.
 
 ![Strongpoint Default Policy](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_5.webp)
 
@@ -38,13 +38,13 @@ If you are not fully leveraging Platform Governance for Salesforce in your chang
 
 The default policy may be all you require. However, you should consider whether there are specific people, objects, reports or fields that need special protection. These can be addressed in two ways:
 
-> [Specific People](#Specific-People)
+> Specific People
 >
-> [Specific Customizations](#Specific-Customizations)
+> Specific Customizations
 >
-> [Specific Changes](#Specific-Changes)
+> Specific Changes
 >
-> [Adding Custom Fields and Objects to the Policy](#Adding-Custom-Fields-and-Objects-to-the-Policy)
+> Adding Custom Fields and Objects to the Policy
 
 ### Specific People
 

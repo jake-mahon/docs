@@ -47,20 +47,20 @@ Review these considerations prior to deploying the Jira integration:
 
 To set up the Strongpoint Jira integration:
 
-1. [Review Your Jira Statuses](#Review-Your-Jira-Statuses)
-2. [Install the Netsuite Bundle](#Install-the-Netsuite-Bundle)
-3. [Configure NetSuite and Jira](#Configure-NetSuite-and-Jira)
-4. [Install the App](#Install-the-App)
-5. [Create an Integration User Account (optional)](#Create-an-Integration-User-Account-optional)
-6. [Set Up Token Based Authentication](#Set-Up-Token-Based-Authentication)
-7. [Jira Integration Deployment](#Jira-Integration-Deployment)
+1. Review Your Jira Statuses
+2. Install the Netsuite Bundle
+3. Configure NetSuite and Jira
+4. Install the App
+5. Create an Integration User Account (optional)
+6. Set Up Token Based Authentication
+7. Jira Integration Deployment
 
 ### Review Your Jira Statuses
 
 To take advantage of the automatic synchronization feature, we recommend reviewing your Jira statuses to be mapped to the Change Management statuses. When a ticket status is updated to a mapped status, Platform Governance for NetSuite handles the synchronization between Jira and NetSuite.
 
 The mapping allows multiple Jira statuses to map to each Change Request status.   
-The mapping is part of the [Configure NetSuite and Jira](#Configure-NetSuite-and-Jira) procedure.
+The mapping is part of the Configure NetSuite and Jira procedure.
 
 Refer to the Atlassian documentation for instructions on [Defining status field values](https://confluence.atlassian.com/adminjiraserver070/defining-status-field-values-749382903.html?_ga=2.262596428.1900070949.1572132057-2138500458.1540834491).
 
@@ -78,7 +78,7 @@ Refer to the Atlassian documentation for instructions on [Defining status field 
 2. Click __Edit__ by the latest report to open __Configuration and Stats__.
 3. Open the __Jira Integration__ tab.
 4. Enter your __Jira User name__ and the __Jira Token__.  Refer to the [Atlassian documentation](https://confluence.atlassian.com/cloud/api-tokens-938839638.html) to obtain a Token
-5. Enter the mappings between your Jira statuses and the Change Request statuses. For best practice, define your [Jira statuses](#Jira-statuses) prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __Ready for Deployment,Done__. Assign your mapping for each of the Change Request statuses:
+5. Enter the mappings between your Jira statuses and the Change Request statuses. For best practice, define your Jira statuses prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __Ready for Deployment,Done__. Assign your mapping for each of the Change Request statuses:
 
    - __Jira Statuses for In Progress Status__
    - __Jira Statuses for Pending Approval Status__

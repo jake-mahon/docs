@@ -4,17 +4,17 @@ The deployment log is attached to the Deployment Record on the __Related Lists__
 
 Deployment logs have these sections:
 
-> [Deployment Log Detail](#Deployment-Log-Detail)
+> Deployment Log Detail
 >
-> [Customizations](#Customizations)
+> Customizations
 >
-> [Deployed Components and Apex Test Information](#Deployed-Components-and-Apex-Test-Information)
+> Deployed Components and Apex Test Information
 >
-> [Deployment Error Messages](#Deployment-Error-Messages)
+> Deployment Error Messages
 >
-> [Notes and Attachments](#Notes-and-Attachments)
+> Notes and Attachments
 >
-> [Deployment Components](#Deployment-Components)
+> Deployment Components
 
 ## Sample Deployment Log
 

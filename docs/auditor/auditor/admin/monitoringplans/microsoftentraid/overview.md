@@ -10,7 +10,7 @@ __NOTE:__ Prior to configuring your monitoring plan, please read and complete th
 You can use the following data collecting account options:
 
 - Username and password.
-- Integration with the Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) and [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](#How-to-Add-Microsoft-Entra-ID-Monitoring-Plan-Using-Netwrix-Privilege-Secure) topics for additional information.
+- Integration with the Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) and How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure topics for additional information.
 - Application and secret for Microsoft 365 with modern authentication.
 
 To add a new monitoring plan for Entra ID, you need to launch the New Monitoring Plan wizard, either from the Home screen, or from the Monitoring plans menu under the All Monitoring Plans section.

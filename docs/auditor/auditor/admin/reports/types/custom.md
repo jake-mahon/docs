@@ -12,10 +12,10 @@ The example custom report results apply to AD or Group Policy modifications by a
 
 Review the following for additional information:
 
-- [To save a search as a custom report](#To-save-a-search-as-a-custom-report)
-- [To modify a custom report](#To-modify-a-custom-report)
-- [To subscribe to a custom report](#To-subscribe-to-a-custom-report)
-- [To delete a custom report](#To-delete-a-custom-report)
+- To save a search as a custom report
+- To modify a custom report
+- To subscribe to a custom report
+- To delete a custom report
 
 ## To save a search as a custom report
 

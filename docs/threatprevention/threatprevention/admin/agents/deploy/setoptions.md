@@ -58,7 +58,7 @@ __NOTE:__ To view the current state and configured options for an Agent, hover o
 
 This Set Options window is the same as discussed above, with the exception of the following:
 
-- Enable DNS Host Name Resolution – See the [DNS Host Name Resolution ](#DNS-Host-Name-Resolution)topic for information. Even when this option is enabled for the Agent, it is displayed as unchecked. You must either check this setting or check the Keep Existing Settings checkbox to keep it enabled for the Agent.
+- Enable DNS Host Name Resolution – See the DNS Host Name Resolution topic for information. Even when this option is enabled for the Agent, it is displayed as unchecked. You must either check this setting or check the Keep Existing Settings checkbox to keep it enabled for the Agent.
 - Keep Existing Settings – When checked, options in the Modules to Set and Additional Options areas are grayed out and cannot be changed, indicating that the same current settings are retained for the Agent.
 
   This setting has no impact on the Use These Credentials and Enterprise Manager areas.

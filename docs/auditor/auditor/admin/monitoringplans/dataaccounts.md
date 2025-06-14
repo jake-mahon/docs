@@ -4,7 +4,7 @@ This is a service account that Auditor uses to collect audit data from the monit
 
 Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:
 
-- User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](#Data-Collecting-Account) topic for additional information.
+- User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the Data Collecting Account topic for additional information.
 - Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md) topic for additional information.
 - Netwrix Privilege Secure. Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information.
 

@@ -12,8 +12,8 @@ Benefits:
 
 Review the following for additional information:
 
-- [Available Add-Ons](#Available-Add-Ons)
-- [Use Add-Ons](#Use-Add-Ons)
+- Available Add-Ons
+- Use Add-Ons
 
 ## Available Add-Ons
 

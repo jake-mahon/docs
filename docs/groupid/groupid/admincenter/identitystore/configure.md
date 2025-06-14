@@ -8,13 +8,13 @@ __To manage configurations:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. You can configure the following for an identity store:
 
-   - [Identity Store-specific Configurations](#Identity-Store-specific-Configurations)
-   - [Security Roles](#Security-Roles)
-   - [Replication Settings](#Replication-Settings)
-   - [Identity Store History](#Identity-Store-History)
-   - [Workflows](#Workflows)
-   - [Entitlements](#Entitlements)
-   - [Schedules](#Schedules)
+   - Identity Store-specific Configurations
+   - Security Roles
+   - Replication Settings
+   - Identity Store History
+   - Workflows
+   - Entitlements
+   - Schedules
 
 ## Identity Store-specific Configurations
 

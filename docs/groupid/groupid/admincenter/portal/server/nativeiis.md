@@ -4,13 +4,13 @@ You can manage various settings for a portal instance deployed in native IIS.
 
 What do you want to do?
 
-- [Start or Stop an Instance](#Start-or-Stop-an-Instance)
-- [Change the IIS Application Name for an Instance](#Change-the-IIS-Application-Name-for-an-Instance)
-- [Move an Instance under a Different IIS Site](#Move-an-Instance-under-a-Different-IIS-Site)
-- [View the Launch URL for an Instance](#View-the-Launch-URL-for-an-Instance)
-- [View the Data Service and Security Service Bound to an Instance](#View-the-Data-Service-and-Security-Service-Bound-to-an-Instance)
-- [Set File Logging and Windows Logging for an Instance](#Set-File-Logging-and-Windows-Logging-for-an-Instance)
-- [Delete an Instance](#Delete-an-Instance)
+- Start or Stop an Instance
+- Change the IIS Application Name for an Instance
+- Move an Instance under a Different IIS Site
+- View the Launch URL for an Instance
+- View the Data Service and Security Service Bound to an Instance
+- Set File Logging and Windows Logging for an Instance
+- Delete an Instance
 
 ## Start or Stop an Instance
 

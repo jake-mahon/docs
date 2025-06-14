@@ -13,7 +13,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - For the first Nutanix File Server you configure for auditing, the __TCP 9898__ port will be used.
     - For each subsequent server, a new TCP port must be open.
-  - Target Nutanix File Server must be located in the same subnet as Netwrix Auditor Server and must be configured as described in the [Nutanix](#Nutanix) section.
+  - Target Nutanix File Server must be located in the same subnet as Netwrix Auditor Server and must be configured as described in the Nutanix section.
 
 ## Manual Configuration
 

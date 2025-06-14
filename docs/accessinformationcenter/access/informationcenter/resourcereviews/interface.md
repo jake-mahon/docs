@@ -2,8 +2,8 @@
 
 The Resource Reviews interface opened by the __Resource Reviews__ button on the Access Information Center Home page is where Review Administrators perform many operations around managing reviews. This interface has multiple pages:
 
-- [Manage Reviews Page](#Manage-Reviews-Page) — Create and manage all reviews
-- [Review Details Page](#Review-Details-Page) — Manage and view all instances for a specific review
+- Manage Reviews Page — Create and manage all reviews
+- Review Details Page — Manage and view all instances for a specific review
 
 ## Manage Reviews Page
 
@@ -55,7 +55,7 @@ The buttons at the bottom enable you to conduct the following actions:
 | Stop | Opens the Stop Review window, which asks for confirmation of the action. See the [Stop Review Window](/docs/accessinformationcenter/access/informationcenter/resourcereviews/window/stopreview.md) topic for additional information. |
 | Mark Completed | Closes the selected review as-is and marks it as completed. Requires the owner(s) to have responded.  __CAUTION:__ No confirmation is requested for this action. |
 | Run Again | Opens the Create Review wizard for the selected review without the option to change the review type. Modify as desired and relaunch the review. See the [Review Instances](/docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewinstances.md) topic for additional information. |
-| View Details | Opens the Review Details page for the selected review. See the [Review Details Page](#Review-Details-Page) topic for additional information. |
+| View Details | Opens the Review Details page for the selected review. See the Review Details Page topic for additional information. |
 | Send Reminders | Sends a notification email to the assigned owner(s), reminding of the pending review. Opens the Send Reminders window, which indicates an action status. See the [Send Reminders Window](/docs/accessinformationcenter/access/informationcenter/resourcereviews/window/sendreminders.md) topic for additional information. |
 
 ## Review Details Page

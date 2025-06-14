@@ -204,7 +204,7 @@ This connector can provision users, role memberships and group memberships to SA
 
 ### Configuration
 
-Same as for export, fulfill is configured through connections. See the [SAP ERP 6.0 and SAP S4/HANA](#SAP-ERP-60-and-SAP-S4HANA)topic for additional information.
+Same as for export, fulfill is configured through connections. See the [SAP ERP 6.0 and SAP S4/HANA](/docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/index.md) topic for additional information.
 
 For example:
 

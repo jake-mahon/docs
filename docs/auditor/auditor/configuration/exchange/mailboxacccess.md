@@ -6,8 +6,8 @@ It is recommended to select __Adjust audit settings automatically__ option when 
 
 However, in some scenarios users may need to apply required audit settings manually. For that, review the following procedures:
 
-- [Configuring mailbox access tracking for Exchange 2019, 2016 and 2013 manually](#Configuring-mailbox-access-tracking-for-Exchange-2019-2016-and-2013-manually)
-- [Configuring mailbox access tracking for Exchange 2010 manually](#Configuring-mailbox-access-tracking-for-Exchange-2010-manually)
+- Configuring mailbox access tracking for Exchange 2019, 2016 and 2013 manually
+- Configuring mailbox access tracking for Exchange 2010 manually
 
 ## Configuring mailbox access tracking for Exchange 2019, 2016 and 2013 manually
 

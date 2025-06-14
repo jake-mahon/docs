@@ -57,7 +57,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 See the following topics for additional information:
 
-- [Configure NetApp Clustered Data ONTAP 8 and ONTAP 9 for Monitoring](#Configure-NetApp-Clustered-Data-ONTAP-8-and-ONTAP-9-for-Monitoring)
+- Configure NetApp Clustered Data ONTAP 8 and ONTAP 9 for Monitoring
 - [Configure Audit Settings for CIFS File Shares](/docs/auditor/auditor/configuration/fileservers/netappcmode/cifs.md)
 
 The following table lists the actions that can be performed on NetApp:
@@ -84,7 +84,7 @@ Actions marked with an asterisks (\*) are reported for NetApp Clustered Data ONT
 
 To configure Clustered Data ONTAP 8 and ONTAP 9 for monitoring, perform the following procedures:
 
-- [Prerequisites ](#Prerequisites)
+- Prerequisites 
 - [Configure ONTAPI\RESTAPI Web Access](/docs/auditor/auditor/configuration/fileservers/netappcmode/webaccess.md)
 - [Configure System Service Firewall Policies](/docs/auditor/auditor/configuration/fileservers/netappcmode/ports.md)
 - [Configure Service Policy](/docs/auditor/auditor/configuration/fileservers/netappcmode/servicepolicy.md)

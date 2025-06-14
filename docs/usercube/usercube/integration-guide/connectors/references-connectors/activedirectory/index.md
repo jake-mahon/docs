@@ -3,7 +3,7 @@
 This connector exports and fulfills users and groups from/to an [Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services) instance.
 
 This page is about Directory/Active Directory.
-See the [Active Directory](#Active-Directory) topic for additional information.
+See the [Active Directory](/docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md) topic for additional information.
 
 ![Package: Directory/Active Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
 

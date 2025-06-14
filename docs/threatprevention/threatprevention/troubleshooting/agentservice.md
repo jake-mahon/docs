@@ -16,7 +16,7 @@ __Step 2 –__ In the Computer pane, navigate to the following registry folder:
 
 __Step 3 –__ In the right pane, select __ServicesPipeTimeout__.
 
-__NOTE:__ If the ServicesPipeTimeout entry does not exist, you must create it. See the [Create the ServicesPipeTimeout Entry](#Create-the-ServicesPipeTimeout-Entry) topic for additional information.
+__NOTE:__ If the ServicesPipeTimeout entry does not exist, you must create it. See the Create the ServicesPipeTimeout Entry topic for additional information.
 
 __Step 4 –__ Right-click __ServicesPipeTimeout__ and click __Modify__. This opens the Edit Value window.
 

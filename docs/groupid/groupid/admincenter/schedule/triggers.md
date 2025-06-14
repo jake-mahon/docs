@@ -6,13 +6,13 @@ Step 1 – Use the toggle button at the top of the dialog box to enable or disab
 
 Step 2 – In the Begin the Task drop-down list on the New Trigger dialog box, select a trigger to start the schedule.
 
-- On a schedule – starts a schedule at a specific time of day or start it multiple times on a daily, weekly, or monthly schedule. See the [On a Schedule](#On-a-Schedule) table for information about the settings available for this option.
+- On a schedule – starts a schedule at a specific time of day or start it multiple times on a daily, weekly, or monthly schedule. See the On a Schedule table for information about the settings available for this option.
 - At startup – Starts the schedule every time the:
 
   - GroupIDSchedulerService starts. This is a Directory Manager service created in native IIS.
 
     or
-  - The Directory Manager server starts. See the [At Startup](#At-Startup) table for information about the settings available for this option.
+  - The Directory Manager server starts. See the At Startup table for information about the settings available for this option.
 
 On selecting an option, the dialog box displays the relevant settings for the trigger.
 

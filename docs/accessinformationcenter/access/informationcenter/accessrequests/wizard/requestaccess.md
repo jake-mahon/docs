@@ -11,7 +11,7 @@ It contains two pages:
   __NOTE:__ Only those resources or groups being managed through the Access Information Center will be available for access requests.
 - 2. Add Notes — Allows you to enter a note explaining why the request is being made
 
-See the [Submit a Request](#Submit-a-Request) topic for additional information.
+See the Submit a Request topic for additional information.
 
 ## Submit a Request
 

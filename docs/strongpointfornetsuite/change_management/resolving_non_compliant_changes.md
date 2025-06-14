@@ -7,7 +7,7 @@ To access the Open Non-Compliant Changes Report:
 
    ![Non-Compliant Change Report](/img/product_docs/strongpointfornetsuite/change_management/noncompliantreport.webp)
    ![NonCompliant Flags](/img/product_docs/strongpointfornetsuite/change_management/noncompliant_flags.webp)
-2. A noncompliant change means something got changed without the required approvals. __View__ each change log record to investigate the change, or use the [Mass Update](#Mass-Update) procedure. You can retroactively attach a change request to a noncompliant change and get the necessary approvals for the change to be compliant.
+2. A noncompliant change means something got changed without the required approvals. __View__ each change log record to investigate the change, or use the Mass Update procedure. You can retroactively attach a change request to a noncompliant change and get the necessary approvals for the change to be compliant.
 
    1. Create a New [Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) or open an existing one.
    2. Set it to __Pending Approval__.

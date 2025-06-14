@@ -26,7 +26,7 @@ __Step 5 –__ Configure and execute Active Directory actions:
 - Configure and enable the Create Groups action task
 - Configure and enable the Update Members action task
 - Execute the Active Directory actions
-- See the [Configure & Execute Active Directory Action Tasks](#configure-execute-active-directory-action-tasks) topic for additional information
+- See the [Configure & Execute Active Directory Action Tasks](#configure--execute-active-directory-action-tasks) topic for additional information
 
 __Step 6 –__ Execute File System actions:
 

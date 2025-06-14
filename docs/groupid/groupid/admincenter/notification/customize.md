@@ -36,9 +36,9 @@ the Directory Manager portal.
      this view.
 6. You can customize the notification template in the following ways:
 
-   - [Change the Subject Line](#Change-the-Subject-Line)
-   - [Edit and Format the Content](#Edit-and-Format-the-Content)
-   - [Replace the Tags](#Replace-the-Tags)
+   - Change the Subject Line
+   - Edit and Format the Content
+   - Replace the Tags
 7. After saving your changes, click __Go Back__ to return to the Notification Editor.
 
 ### Change the Subject Line

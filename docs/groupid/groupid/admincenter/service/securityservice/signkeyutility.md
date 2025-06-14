@@ -1,16 +1,16 @@
 # Signing Key Utility
 
-This utility was created to remediate the vulnerability described in Netwrix security advisory ADV-2025-004 ([https://security.netwrix.com/Advisories/ADV-2025-004](https://security.netwrix.com/Advisories/ADV-2025-004)). Running this utility will cause a new customer-specific signing key to be generated and used by the application. See the [Generate a Signing Key](#Generate-a-Signing-Key) section for additional information.
+This utility was created to remediate the vulnerability described in Netwrix security advisory ADV-2025-004 ([https://security.netwrix.com/Advisories/ADV-2025-004](https://security.netwrix.com/Advisories/ADV-2025-004)). Running this utility will cause a new customer-specific signing key to be generated and used by the application. See the Generate a Signing Key section for additional information.
 
-Having generated the customer-specific signing key, your existing schedules will not work as their authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism must be updated for schedules as well. See the [Update Schedules
-](#Update-Schedules)section for additional information.
+Having generated the customer-specific signing key, your existing schedules will not work as their authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism must be updated for schedules as well. See the Update Schedules
+section for additional information.
 
 In case you are running multiple instances of Directory Manager for load balancing and high availability, using this utility you can export the newly generated signing key and then import it to other Directory Manager instances. See the following sections for information on how to export and import the signing key:
 
-- [Export a Signing Key
-  ](#Export-a-Signing-Key)
-- [Import a Signing Key
-  ](#Import-a-Signing-Key)
+- Export a Signing Key
+  
+- Import a Signing Key
+  
 
 ## Download the Utility
 
@@ -98,4 +98,4 @@ Parameters
 
 - -p — provide the password to decrypt the signing key
 
-- Use the same parameters given in the [Generate a Signing Key](#Generate-a-Signing-Key) section.
+- Use the same parameters given in the Generate a Signing Key section.

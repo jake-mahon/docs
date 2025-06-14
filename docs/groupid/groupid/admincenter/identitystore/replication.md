@@ -32,7 +32,7 @@ Step 5 – Click __Add Replication Attributes__ to add an attribute to the list.
 Step 6 – The Select Replication Attributes dialog box displays a list of the schema attributes in the provider. Select the check boxes for the attributes you want to replicate for the identity store and click __Save__. The attributes are added to the Attribute Name column on the Replication page.
 
 NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, Directory Manager Schema Replication schedule fetches the latest schema at its next run and add the newly added extension attributes to the Select Replication Attributes list. See the [Schema Replication Schedule](/docs/groupid/groupid/admincenter/schedule/schemareplication.md) for additional information.   
-Select the required extension attributes from the Select Replication Attributes list and add them to the attribute to replicate list. See the [Specify Object Attributes to Replicate](#Specify-Object-Attributes-to-Replicate) section of the [Manage Local Replication Settings](#Manage-Local-Replication-Settings) topic.
+Select the required extension attributes from the Select Replication Attributes list and add them to the attribute to replicate list. See the Specify Object Attributes to Replicate section of the Manage Local Replication Settings topic.
 
 Step 7 – Click __Save__.
 

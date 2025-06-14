@@ -4,9 +4,7 @@ An entity type mapping links a given [
 Entity Type
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s properties with the source columns of the corresponding managed system. The entity type mapping specifies the related [
 Connector
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and the path to the CSV source file which contains, or will contain, the data exported from the managed system. Each of its [
-Entity Type Mapping
-](#Entity-Type-Mapping)properties will define the corresponding source column and specific options.
+](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and the path to the CSV source file which contains, or will contain, the data exported from the managed system. Each of its Entity Type Mapping properties will define the corresponding source column and specific options.
 
 An entity type mapping shares the same identifier as its related entity type.
 

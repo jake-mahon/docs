@@ -21,11 +21,11 @@ The Spider searches your account and creates the documentation for your customiz
 
 There are three ways to use the Spider:
 
-> [Manual Spider](#Manual-Spider)
+> Manual Spider
 >
-> [AutoSpider](#AutoSpider)
+> AutoSpider
 >
-> [ReSpider Now](#ReSpider-Now)
+> ReSpider Now
 
 ## Manual Spider
 

@@ -11,9 +11,9 @@ Directory Manager also features a Notification Editor that lists the notificatio
 
 What do you want to do?
 
-- [View the Notification Queue](#View-the-Notification-Queue)
-- [Send a Notification Urgently](#Send-a-Notification-Urgently)
-- [Delete a Notification](#Delete-a-Notification)
+- View the Notification Queue
+- Send a Notification Urgently
+- Delete a Notification
 
 ## View the Notification Queue
 

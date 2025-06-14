@@ -71,7 +71,7 @@ After making selections, click the __Apply__ button to enable checking for updat
 
 Threat Prevention utilizes the Passwords Hash database to check if users’ new and pending password (i.e. during a password reset) matches the hash of a compromised password from a data breach.
 
-__NOTE:__ First-time configuration of this window requires downloading the HIBP database from the Netwrix website. If the Administration Console does not have internet access, see the [Download and Configure the Have I Been Pwnd Hash List](#Download-and-Configure-the-Have-I-Been-Pwnd-Hash-List) topic for instructions.
+__NOTE:__ First-time configuration of this window requires downloading the HIBP database from the Netwrix website. If the Administration Console does not have internet access, see the Download and Configure the Have I Been Pwnd Hash List topic for instructions.
 
 __CAUTION:__ Ensure the initial update of the database occurs during non-office hours. Due to the size of the hash file, this download takes up a significant amount of CPU and download time.
 

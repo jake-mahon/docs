@@ -36,7 +36,7 @@ Select a value from the __Expire verification codes after...__ drop-down list to
 
 ### E-mail
 
-Select the __Send verification codes by e-mail__ check box to send verification codes to users via e-mail. You must configure the E-mail delivery options in the __E-mail__ tab to send verification codes by e-mail. See the [Verification Tab](#Verification-Tab) topic for additional information.
+Select the __Send verification codes by e-mail__ check box to send verification codes to users via e-mail. You must configure the E-mail delivery options in the __E-mail__ tab to send verification codes by e-mail. See the Verification Tab topic for additional information.
 
 Verification codes can be sent to the Active Directory e-mail address and/or the Password Reset e-mail address. Select the desired option from the __Send to__ drop-down list.
 

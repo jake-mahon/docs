@@ -12,12 +12,12 @@ Synchronize includes a set of commonly used transformations, or you can write yo
 
 Synchronize provides these transformations:
 
-- [Static](#Static)
-- [Resolve](#Resolve)
-- [Join](#Join)
-- [Left](#Left)
-- [Substring](#Substring)
-- [Script](#Script)
+- Static
+- Resolve
+- Join
+- Left
+- Substring
+- Script
 
 ## Static
 

@@ -2,9 +2,9 @@
 
 This connector exports and fulfills users from/to an [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en)-compliant system.
 
-This page is about [
+This page is about 
 EasyVista
-](#EasyVista).
+.
 
 ![Package: ITSM/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 

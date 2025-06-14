@@ -10,9 +10,9 @@ You can view a list of your applications and launch them from Admin Center witho
 
 What do you want to do?
 
-- [Access an Application](#Access-an-Application)
-- [Add a Third-party Application](#Add-a-Third-party-Application)
-- [Enroll your Account](#Enroll-your-Account)
+- Access an Application
+- Add a Third-party Application
+- Enroll your Account
 
 ## Access an Application
 

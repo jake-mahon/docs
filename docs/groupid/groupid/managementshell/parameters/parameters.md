@@ -2,8 +2,8 @@
 
 This topic discusses the following:
 
-- [All Parameters](#All-Parameters)
-- [Unsupported Parameters](#Unsupported-Parameters)
+- [All Parameters](#all-parameters)
+- [Unsupported Parameters](#unsupported-parameters)
 
 ## All Parameters
 
@@ -11,8 +11,12 @@ The following table lists the Directory Manager Management Shell commandlet para
 
 | Parameter Name | Description |
 | --- | --- |
-| [A](#A)[B](#B)[C](#C)[D](#D)[E](#E)[F](#F)[G](#G)[H](#H)[I](#I)[J](#J)[K](#K)[L](#L)[M](#M)[N](#N)[O](#O)[P](#P)[Q](#Q)[R](#R)[S](#S)[T](#T)[ U](#U)[ V](#V)[W](#W)[X ](#X)[Y ](#Y)[Z](#Z) |  |
-| __A__ |  |
+| [a](#a) [b](#b) [c](#c) [d](#d) [e](#e) [f](#f) [g](#g) [h](#h) [i](#i) [j](#j) [k](#k) [l](#l) [m](#m) [n](#n) [o](#o) [p](#p) [q](#q) [r](#r) [s](#s) [t](#t) [u](#u) [v](#v) [w](#w) [x](#x) [y](#y) [z](#z)|  |
+
+#### A
+
+| Parameter Name | Description |
+| --- | --- |
 | AcceptMessagesOnlyFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who can send e-mail messages to the group. Providing a blank value enables the group to accept messages from all mailbox users and all mail-enabled contacts.  (Applies to Distribution groups only). |
 | AcceptMessagesOnlyFromGroups | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more groups or users that the group is allowed to accept messages from. Separate multiple objects with commas (,).  (Applies to Distribution groups only.) |
 | AccidentalDeletion | If the value is set as True, user will be prompted before container deletion. |
@@ -43,11 +47,19 @@ The following table lists the Directory Manager Management Shell commandlet para
 | AuthenticationMode | Following are the possible values for this parameter:   - 1 (credentials of the logged-in users)  - 2 (works in conjunction with IdentityStoreID and Credentials parameters).  - 3 (user is authenticated through the Log in dialog box which is also the default mechanism if no authentication mode is defined by user). |
 | AuthenticationType | Supported authentication types in Directory Manager which are:   - Security questions - Email - SMS - Yubikey - Windows Hello - Authenticator - Link account |
 | AuthenticationTypeOperation | Enables or disables the specified authentication type(s). |
-| __B__ |  |
+
+#### B
+
+| Parameter Name | Description |
+| --- | --- |
 | Business | First business phone number of a user, contact or mailbox. |
 | Business2 | Second business phone number of a user, contact or mailbox. |
 | BypassOwnersPolicy | This parameter bypasses the values set in Directory Manager configurations both for primary owner and required minimum additional owners at group creation or modification. If the value is 0 (zero) then this parameter has no affect. |
-| __C__ |  |
+
+#### C
+
+| Parameter Name | Description |
+| --- | --- |
 | CarbonCopy | Email address for carbon copy (CC) of notification to be sent other than the main email addresses. |
 | ChangeTrackerActions | The list of Directory Manager actions to track for history records. The possible values are:   - None - AdditionalOwnerChange - Enrollment - ExpirationPolicyChange - GroupExpire\_Renew - OobChange - SecurityTypeChange - WorkflowApprovalDenial - OwnershipChange - QueryChange - AllOthers - All - UpgradeSmartGroupChange   To track multiple actions, separate each action with a hash (#) sign and set the complete string as a value of this setting. For example, to track changes in additional owners, enrollment details and security types, specify the value as "AdditionalOwnerChange#Enrollment#SecurityTypeChange". |
 | ChildContainer | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create the child groups. If you have selected multiple group-by attributes, you can specify a different child container for every attribute in the same sequence as the group-by attributes are specified, separating each with a comma (,). For Managerial Dynasty, passing a blank value creates child groups in the container where the top manager resides. |
@@ -74,11 +86,15 @@ The following table lists the Directory Manager Management Shell commandlet para
 | Container | The distinguished name (DN) or globally unique identifier (GUID) of one or more containers where you want to search for a user, contact or group. Separate multiple values with commas. |
 | Country | Country of a user, contact or mailbox, represented as the 2-character country code based on ISO-3166. |
 | CreateFlatManagerialList | Setting a True value creates this dynasty as flat managerial list. A flat managerial list is a form of managerial dynasty in which all direct reports of the top manager and sub-level managers are added as members of one group and no separate groups are created for the sub-ordinates of the top manager's direct reports.  If this setting is set to True, the flat operation is performed on the next update of the dynasty where it breaks its current hierarchy and re-builds the memberships of the parent group on the flat dynasty logic.  (Applies to Managerial Dynasty) |
-| CriteriaFilters | Same as [RoleCriteriaFilters](#RoleCriteriaFilters) |
-| CriteriaScope | Same as [RoleCriteriaScope](#RoleCriteriaScope) |
+| CriteriaFilters | Same as rolecriteriafilters |
+| CriteriaScope | Same as RoleCriteriaScope |
 | Credential | The $Credentials environment variable holds the user's authentication information. Use this variable to execute the commandlet using the credentials of a user account other than the one you are logged on to the connected identity store. |
 | CustomAttribute1-15 | A value for an attribute that you determine. Use these attributes—up to 15—to store additional information specific to your needs. |
-| __D__ |  |
+
+#### D
+
+| Parameter Name | Description |
+| --- | --- |
 | Database | SQL database name of previous Netwrix Directory Manager (formerly GroupID) version. |
 | DataSourceConnection | Set or modify connection string of an external data source in Query Designer of a Smart Group or Dynasty. |
 | DataSourceName | The name of the database that contains the table or view you want to use for your query. This parameter is applicable on the following data source types:   - Microsoft SQL Driver - Oracle |
@@ -129,7 +145,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | Domain | Domain name of the provider mentioned in a commandlet. The domain name can be of an Active Directory domain, Microsoft Entra ID domain or messaging provider's domain. This parameter becomes available depending on the value of other parameters. |
 | DomainExpiration | (Applies to Password Expiry group.) The domain expiration policy for the group. This policy allows you to specify maximum password age. The default value is 42 days. |
 | DynastyManagerAsMember | Set its value to True to add the manager of direct reports to the membership of the direct reports group so that the manager receives a copy of any e-mail sent to the group. The default value is False. |
-| __E__ |  |
+
+#### E
+
+| Parameter Name | Description |
+| --- | --- |
 | EmailAddress | A valid email address of a user, contact, mailbox or group (if mail-enabled) |
 | EmailProviderDomain | This setting applies if the ConfiguredExchange setting is set to 2.  Its value is the domain name of the external e-mail provider. For example, googlegroups.com. |
 | EmailTemplatePath | Location of the email template that will be used while sending an email notification to a user or group. |
@@ -161,7 +181,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | ExpireUnusedGroups | This setting is related to the group usage lifecycle and applies only if GroupUsageLifecycleEnabled is set to True.  The value True reduces the life of mail-enabled distribution groups that have not been sent any e-mail for a particular period. This unused period is defined in the DefaultUnusedGroupsExpirationTime setting. Under its default value False, the life of unused groups is always extended as soon as they reach their expiration date. |
 | ExtendGroupLife | Extend the life of the group as per the ExpirationPolicy parameter's value. The default value of this parameter is True, so specifying a value is not required. |
 | ExtensionDataAttributes | By default, ExtensionDataAttribute attribute is used for storing the value. In case it has been modified then this parameter must specify the attribute being used for storing the value. |
-| __F__ |  |
+
+#### F
+
+| Parameter Name | Description |
+| --- | --- |
 | FileLoggingEvent | Set the event for which file logs are generated. |
 | FilePath | The path of the text file, if the value of the DataSourceType parameter is Microsoft Text Driver. |
 | FilterOperation | Operation to perform on role criteria filters |
@@ -169,7 +193,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | FirstName | The first name of a user, contact or mailbox. |
 | FromEmail | Email address that SMTP uses to send emails from. |
 | FromEmailAddress | The e-mail address to use for sending notifications |
-| __G__ |  |
+
+#### G
+
+| Parameter Name | Description |
+| --- | --- |
 | GenerateOnedayToExpiryReport | The default value True notifies the group owner of its expiry one day before the expiration date. Set its value to False to disable this notification. |
 | GenerateSevenDaysToExpiryReport | The default value True notifies the group owner of its expiry seven days before the expiration date. Set its value to False to disable this notification. |
 | GenerateThirtyDaysToExpiryReport | The default value True notifies the group owner of its expiry thirty days before the expiration date. Set its value to False to disable this notification. |
@@ -182,7 +210,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | GroupScope | Specify the scope for the group or dynasty. The available group scopes are: Universal, Global, and Domain Local. |
 | GroupType | Specify the group types for upgrade:  1 = Non-managed groups  2 = Smart Groups  3 = Parent Dynasty  4 = Middle Dynasty  5 = Leaf Dynasty  6 = Password Expiry Smart Group  When a specific dynasty is upgraded it is recommended to upgrade the whole dynasty using the SearchContainer parameter and update it after running the Upgrade-Group command (provided that the whole Dynasty is in the same container).  If a specific parent or middle or leaf Dynasty is upgraded using the Upgrade-Group command, update will be required to link it with the Dynasty chain. |
 | GroupUsageLifecycleEnabled | Set its value to True to enable the group usage lifecycle feature. This lifecycle is executed by Group Management Service (GMS) for mail-enabled distribution groups and adds an additional rule to their regular expiration process. Under this lifecycle, if no e-mail is sent to a mail-enabled distribution group for a particular period, you can set GMS to reduce its expiration date to 7 days. Under its default behavior, unused distributions groups are never expired. As soon as, they reach their expiration date, their life is extended by reapplying the expiration policy on them. |
-| __H__ |  |
+
+#### H
+
+| Parameter Name | Description |
+| --- | --- |
 | HavingNotifications | Used to select those schedules having notifications enabled. Used only in Get-Schedule |
 | HiddenFromAddressListEnabled | Specifying a True value prevents the group from appearing in Exchange address lists. The default value is False. |
 | HideMembership | Setting its value to True hides group membership in the Outlook address book. The default value is False. |
@@ -194,7 +226,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | Home | First home phone number of a user, contact or mailbox. |
 | Home2 | Second home phone number of a user, contact or mailbox. |
 | HomePage | The link of a user, contact, group or mailbox's profile or home page. |
-| __I__ |  |
+
+#### I
+
+| Parameter Name | Description |
+| --- | --- |
 | Identity | Supported identities are:   - Distinguished name (DN) - Globally unique identifier (GUID) - Comman-name (Cn) - Name - SamAccountName |
 | IdentityStoreId | Unique identifier of identity store. |
 | IdentityStoreName | Name of an identity store. |
@@ -217,19 +253,35 @@ The following table lists the Directory Manager Management Shell commandlet para
 | IsPasswordExpirySmartDL | Specifying this parameter is mandatory if you are updating a Password Expiry group. If this parameter is skipped, the group will be converted to a simple Smart Group. |
 | IsPreciseSearch | If object types parameter is defined, IsPreciseSearch will force search results for those particular object types only. |
 | IsSecurityGroupExpirationPluginEnabled | Set its value to True to enable the security group expiration feature. By default, it is set to False. |
-| __J__ |  |
+
+#### J
+
+| Parameter Name | Description |
+| --- | --- |
 | JobType | Type of the schedule (e.g. SmartGroup, GUS etc.). This parameter is used in some cmdlets to retrieve the schedules by job type. In New-Schedule, it is used to set the type of schedule. |
-| __K__ |  |
+
+#### K
+
+| Parameter Name | Description |
+| --- | --- |
 | KeepHistoryOption | Specifies the length of time to retain history records in the Directory Manager database. The default value 0 retains all history data of the actions specified by the ChangeTrackerActions setting. You can change it to any of the following values:   - 1 (for 30 days) - 2 (for 60 days) - 3 (for 90 days) - 4 (for 120 days) - 5 (for 6 months) - 6 (for 1 year) - 7 (for 2 years) - 8 (for 5 years)   The setting does not destroy the older history data. Rather, it exports the older data to an Excel file for later reference. This Excel file is created in the HistoryBin folder in the Directory Manager installation directory. Group Management Service performs the history data export. With every execution of the service, it checks the specified period against Keep History option for the domain and exports the older data to the Excel file (if found). |
 | KeepUserHistory | It upgrades the history of the groups. |
 | KeyMapAD | Specify the primary key for provider in external data source in Query Designer. |
 | KeyMapDB | Specify the primary key for Database in external data source in Query Designer. |
 | KillAtDurationEnd | The schedule job will be forced to terminate if it's still running at the end of its duration. |
-| __L__ |  |
+
+#### L
+
+| Parameter Name | Description |
+| --- | --- |
 | LastName | The last name of user, contact or mailbox. |
 | LdapFilter | The LDAP search filter that defines your search criteria. This parameter stores your query.  A Smart Group can dynamically build its membership according to the query associated with it.  Similar to Smart Group, a Dynasty has the capability to dynamically build its membership according to the query associated with it. |
 | LDAPSearchContainer | The container for the Sun ONE iPlanet data source. |
-| __M__ |  |
+
+#### M
+
+| Parameter Name | Description |
+| --- | --- |
 | MailEnabled | Specifies whether to create a mail-enabled user, contact or group (managed & unmanaged). Provide a True value for mail-enabled object, otherwise a non-mail-enabled object will be created. |
 | MailBoxStore | Specifies which mailbox store will be used. |
 | ManagedBy | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of the user, contact or group (security groups only) that you want to set as the group owner or manager. Passing a blank value for this parameter will remove the manager. |
@@ -248,7 +300,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | Mobile | Cell number of user, contact or mailbox. |
 | MsExchCoManagedByLink  (_ExchangeAdditionalOwners can also be used as an alternate name of this parameter)_ | The distinguished name (DN), globally unique identifier (GUID) or samAccountName of one or more users that you want to set as Exchange additional owners. This setting applies only if Exchange Server 2010 is deployed in your environment. |
 | MsExchRequireAuthToSendTo | Set its value to True if you want senders to be authenticated for sending e-mails. |
-| __N__ |  |
+
+#### N
+
+| Parameter Name | Description |
+| --- | --- |
 | Name | The name of the new organizational unit, group, query-based-distribution group or dynasty being created.  __Get-ImanamoCommand__  Gets information only about commandlets or command elements with the specified name. Wildcard search is also supported. |
 | NewName | New name of an identity store or a schedule. |
 | NewProfileValidationLifecycle | The number of days within which new users should validate their profiles. |
@@ -266,15 +322,23 @@ The following table lists the Directory Manager Management Shell commandlet para
 | NotifyUserGroupLeaveML | Specify whether to send email notification to users when they are removed as member from a group. |
 | Noun | Shows information about commandlets or command elements having the specified noun in their name. Wildcard search is also supported. |
 | NumberofOwnersToDisplay | The maximum value that can be set for the DefaultNumberOfOwnersToDisplay parameter. 24 is the maximum. |
-| __O__ |  |
+
+#### O
+
+| Parameter Name | Description |
+| --- | --- |
 | Office | Office phone number of a user, contact or mailbox. |
-| Operator | Same as [RoleCriteriaOperator](#RoleCriteriaOperator) |
+| Operator | Same as RoleCriteriaOperator |
 | Options | The list of options to be retrieved from the registry. |
 | OrganizationalUnit | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create a user, contact, group or mailbox. |
 | OutOfBoundsAlertEnabled | Set to True to enable out-of-bound exceptions when group memberships change. Out-of-bound exceptions prevent massive changes from occurring to group memberships. When an out-of-bounds exception occurs, the group membership is not updated and the owner or administrator is notified via e-mail. If the owner or administrator determines that the change is valid they can update the group manually. |
 | OutOfBoundsMinimum | This setting works in conjunction with OutOfBoundsPercentage. If both the percentage and the current membership or new membership exceeds the number specified for this parameter, an out-of-bounds exception will occur. The setting applies only if the OutOfBoundsAlertEnabled parameter is set to True. |
 | OutOfBoundsPercentage | The out of bound percentage that is calculated by adding the number of members being added to the group and the number of recipients being removed from the membership and then dividing the result by the total number of new members. This setting works in conjunction with OutOfBoundsMinimum. If both the percentage and the OutOfBoundsMinimum limit is exceeded, an out-of-bounds exception will occur. The setting applies only if the OutOfBoundsAlertEnabled parameter is set to True. |
-| __P__ |  |
+
+#### P
+
+| Parameter Name | Description |
+| --- | --- |
 | P12CertificatePath | Specify the location of a P12 certificate file for a Google based identity store. Note that this parameter appears depending on the values of other parameters. |
 | PageSize | The number of history records to show on a page on the History tab of the group Properties dialog box. |
 | ParentContainer | The distinguished name (DN), globally unique identifier (GUID) or security identifier (SID) of the container where you want to create a new organizational unit. To create the container at root level, pass the DN of the domain as the value of the parameter. |
@@ -286,17 +350,25 @@ The following table lists the Directory Manager Management Shell commandlet para
 | PasswordRuleOperation | The action to perform on the values supplied in the PasswordRules parameter. |
 | PasswordRules | Specify the regular expressions (rules) for passwords. |
 | PermissionOperation | The operation to perform on the Permissions parameter. |
-| Permissions | Same as [RolePermissions](#RolePermissions) |
+| Permissions | Same as RolePermissions |
 | Port | Specify the port number for the specified data source. |
 | PowerTools | Include respective power tools to execute script in Query Designer of Smart Group. |
 | ProfileValidationGroupDN | Specify the distinguished name of a group to apply profile validation on. |
 | ProfileValidationReminderOperation | Specify the operation to perform on the value of the ProfileValidationReminders parameter. |
 | ProfileValidationReminders | Specify the profile validation reminders. Values are supplied as 2-length array. The first index contains the name of reminder and the second index contains the number of days the reminder is sent to the user relative to the days left for the profile validation period to end.  Example: @'first', 15) indicates a reminder named first with 15 days |
 | Provider | Specify a provider for messaging server. The supported providers are:   - Office 365 - GSuite - Exchange 2013 - Exchange 2016 - Exchange 2019 |
-| __Q__ |  |
+
+#### Q
+
+| Parameter Name | Description |
+| --- | --- |
 | QuestionOperation | Specify the operation to perform on the SecurityQuestions parameter. |
 | QueueEmail | Specifying this parameter sends the notification e-mail through Directory Manager Email Service. Email Service maintains a queue of all notifications to be sent by Directory Manager and ensures that they are delivered when the SMTP server is down.  If this parameter is left out, the notification e-mail is sent directly without being added to the notification queue. Consequently, if the configured SMTP server is down, the e-mail is lost. Therefore, it is recommended that you use this parameter in every Send-Notification command. |
-| __R__ |  |
+
+#### R
+
+| Parameter Name | Description |
+| --- | --- |
 | Recipients | Specify recipients for the job completion email notifications. |
 | RegularProfileValidationLifecycle | Specify the number of days for the profile validation life cycle period. |
 | RejectMessagesFrom | The distinguished names (DN), globally unique identifiers (GUID) or samAccountNames of the mailbox users and mail-enabled contacts who are not allowed to send e-mail messages to the group.  (Applies to Distribution groups only) |
@@ -336,9 +408,9 @@ The following table lists the Directory Manager Management Shell commandlet para
 | ReportToOriginatorEnabled | Specify True to send non-delivery reports to the message originator. The default value is False. |
 | RestoreReplication | It will start the restore replication process. |
 | RoleCriteriaDN | Specify the criteria for a role. The criteria can be a group or a container.   - Group - users that are members of the specified group will be assigned this role. - Container - users who reside in the specified container will be assigned this role. |
-| RoleCriteriaFilters | Specifies the filter criteria for a role. Values to this parameter are supplied as a 3-length array.   - The first index contains the filter name which can be one of the 'name' or 'type' representing 'client name' and 'client type' respectively.  - The second index contains the operator which can be either 'is exactly' or 'is not'.  - The third index contains the value. It can either be the client type or client name, depending on the value in the first index.   Example: @('name', 'is exactly', 'automate arslanahmadvm') is a valid filter criteria. However, @('client type', 'is not', 'managementshell') is not valid because the value at first index is not correct. |
+| rolecriteriafilters | Specifies the filter criteria for a role. Values to this parameter are supplied as a 3-length array.   - The first index contains the filter name which can be one of the 'name' or 'type' representing 'client name' and 'client type' respectively.  - The second index contains the operator which can be either 'is exactly' or 'is not'.  - The third index contains the value. It can either be the client type or client name, depending on the value in the first index.   Example: @('name', 'is exactly', 'automate arslanahmadvm') is a valid filter criteria. However, @('client type', 'is not', 'managementshell') is not valid because the value at first index is not correct. |
 | RoleCriteriaOperator | Specify the operator for criteria filters of a role. The operators can be And or Or |
-| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with [RoleCriteriaDN](#RoleCriteriaDN) to change the role criteria scope from container to group and vice-versa. |
+| RoleCriteriaScope | Specify the scope for a role. This parameter can be used in conjunction with RoleCriteriaDN to change the role criteria scope from container to group and vice-versa. |
 | RoleDescription | Description of an identity store security role. |
 | RoleDisabled | If a new role is created using the Set-IdentityStore commandlet, the role is created as disabled in the identity store. |
 | RoleName | Name of an identity store security role. |
@@ -348,7 +420,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | RolePriority | Set a role priority by specifying a value in the range of 1-99. Role priority determines which role is higher than the other, where 1 indicates the highest priority and 99 indicates the lowest priority. |
 | RoleReadonly | While modifying an identity store using the Set-IdentityStore commandlet, specify that the role is created as read-only. |
 | RoleSystemOnly | While modifying an identity store using the Set-IdentityStore commandlet, specify that the role is created as system only. |
-| __S__ |  |
+
+#### S
+
+| Parameter Name | Description |
+| --- | --- |
 | SamAccountName | The logon name for the pre-Windows 2000 versions of operating systems. The value is limited to 24 characters only. |
 | ScheduleName | Name of a schedule job to identify a schedule. The schedule job is displayed with this name against the Scheduling node in identity store configurations. |
 | Script | The Smart Script for memberships update. The script should be written in Visual Basic .NET in a format recognized by Group Script Editor.  Write the script in a separate file, instead of writing the complete script on the shell, and give the path of the script file using the ScriptFilePath setting.  If while writing script using this setting, you must use a parameter's value that is enclosed in double-quotes (""), insert an apostrophe (') before every quotation mark. For example, #Region ' "Imanami Generated Code' ". |
@@ -393,7 +469,11 @@ The following table lists the Directory Manager Management Shell commandlet para
 | SWAuthenticationFactor | Number of authentication types enforced for the security role. |
 | SWEmailAttribute | The name of the attribute used by Second Way Authentication via email. |
 | SystemDSN | The System Data Source Name (DSN) to use as the data source, if the value of the DataSourceType parameter is ODBC Data Source. |
-| __T__ |  |
+
+#### T
+
+| Parameter Name | Description |
+| --- | --- |
 | TableorView | The table or view name if the value of the DataSourceType parameter is ODBC Data Source, Microsoft SQL Driver or Oracle. |
 | TargetOperation | The actions to perform on targets. Possible values are:   - Add - Remove |
 | Targets | Provide the names of groups and containers the job will process as per the action provided in the TargetOperation parameter. |
@@ -406,27 +486,51 @@ The following table lists the Directory Manager Management Shell commandlet para
 | TriggerOperation | The actions to perform on the provided triggers . Possible actions are:   - Add - Remove single by id - Remove by type - remove all |
 | TriggerType | The trigger type while adding or removing triggers to/from a schedule. This parameter is also used to select a schedule with a particular trigger type. Possible trigger types are:   - RunOnce - RunDaily - RunWeekly - RunMonthly - RunMonthlyDOW - OnIdle - OnSystemStart - OnLogon |
 | Type | __New-Group, New-Dynasty, New-SmartGroup, New-Dynasty, Convert-Group__  Specifies that the new group or dynasty will be used either for mail distribution (a Distribution group or dynasty) or for securing public folders or other resources (a Security group or Dynasty).  Set-Group, Set-SmartGroup, Set-Dynasty  The type of the group to be modified. The available types are: Distribution and Security.  Add-GroupMember  Perpetual, Temporary Member or Addition Pending  Remove-GroupMember  Removal Pending, Temporary Removed. If no type is given then it will be considered Perpetual remove. |
-| __U__ |  |
+
+#### U
+
+| Parameter Name | Description |
+| --- | --- |
 | UpdateChildren | The default value True forces Automate to update the children of a Dynasty when it updates the Dynasty itself. Set its value to False to disable this feature. |
 | UpdateMembershipByManagerEnabled | A True value enables the group manager to update the group membership list. The default value is False. |
 | Username | The name of the user that will be used for the execution of the commandlet in which it is mentioned. This parameter and the Credentials parameter cannot be used simultaneously in a commandlet. |
 | UseSmtpUserAuthentication | Set its value to True to use SMTP authentication for communicating with the SMTP server. The default value is False. The authentication details are provided by the SmtpUserName, SmtpPassword, SmtpPort and SmtpSSLEnabled settings. |
 | UseSmtpUserAuthentication | Specify if user authentication of SMTP server is to be used. |
-| __V__ |  |
+
+#### V
+
+| Parameter Name | Description |
+| --- | --- |
 | ValidationDateRemovalInterval | Specify the number of days since the last profile validation date. Directory Manager clears the validation date and the policies for new users are applied to this user. |
 | Verb | Shows information about commandlets or command elements having the specified verb in their name. Wildcard search is also supported. |
-| __W__ |  |
+
+#### W
+
+| Parameter Name | Description |
+| --- | --- |
 | Weekdays | Specify the weekdays for the weekly triggers. Possible values are:   - Sunday - Monday - Tuesday - Wednesday - Thursday - Friday - Saturday - AllDays |
 | WeeksInterval | Specify weekly interval in weekly triggers i.e. number of weeks after which a scheduled job is repeated. |
 | WhenGroupMembershipThresholdReach | Policy to apply when membership change threshold, specified in out-of-bounds configurations, is reached. Possible values are:   - PreventUpdation - NestIntoChildGroups |
 | WindowsAuthentication | Enables Windows Authentication mode for SQL Server. In Windows Authentication mode, administrators can enable users to log on to the SQL Server using their Windows credentials. |
 | WindowsLoggingEvent | Set Directory Manager events for logging in a centralized event log named Imanami GroupID that can be viewed from the Windows Event Viewer. Possible events are:   - FailureAudit - SuccessAudit - Info - Warn - Error |
-| X |  |
+
+#### X
+
+| Parameter Name | Description |
+| --- | --- |
 | XDaysBeforeLeaveNotificationMB | Specify the number of days. The temporary additional owner / manager of a group receives a notification before the specified number of days he or she is removed as additional owner / manager. |
 | XDaysBeforeLeaveNotificationML | Specify the number of days. The user receives a notification before the specified number of days he or she is removed from a group memberships. |
-| Y |  |
+
+#### Y
+
+| Parameter Name | Description |
+| --- | --- |
 | YearMonths | Specify the months of years for monthly triggers. Possible values are:   - January - February - March - April - May - June - July - August - September - October - November - December - AllMonths |
-| Z |  |
+
+#### Z
+
+| Parameter Name | Description |
+| --- | --- |
 | Zip | The zip code for a user, contact or mailbox. |
 
 ## Unsupported Parameters
@@ -448,4 +552,4 @@ Directory Manager Management Shell does not support common parameters of PowerSh
 - WhatIf
 - Write-Information
 
-See the [about\_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3&viewFallbackFrom=powershell-6) Microsoft article for details on these parameters.
+See the [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3&viewFallbackFrom=powershell-6) Microsoft article for details on these parameters.

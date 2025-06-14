@@ -23,9 +23,9 @@ It can be defined in different ways.
 ```
 
 When no filter is defined for the homonym entity link, the search for homonyms is performed according to the homonym control form.
-See the [
+See the 
 Configure a Homonym Detection
-](#Configure-a-Homonym-Detection) topic for additional information.
+ topic for additional information.
 
 ### With customized filters
 

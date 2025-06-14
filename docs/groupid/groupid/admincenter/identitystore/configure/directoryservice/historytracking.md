@@ -9,7 +9,7 @@ In Directory Manager, history for an identity store is tracked at two levels:
   - Admin Center (actions performed by schedules only)
   - APIs
 
-  You can choose to track specific actions, such as ownership change and object deletion. The table in the [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store) topic lists some individual actions available for tracking.
+  You can choose to track specific actions, such as ownership change and object deletion. The table in the Track Specific Actions for an Identity Store topic lists some individual actions available for tracking.
 
   Use the _History_ node in the Directory Manager portal to view the history data that the history tracking function collects for objects. History for individual objects is also displayed in the respective object’s properties.
 - __When changes are made to an identity store’s configurations__ - Directory Manager enables you to track the changes made to an identity store’s configurations, which include the following:
@@ -32,11 +32,11 @@ See the [History in Directory Manager](/docs/groupid/groupid/admincenter/history
 
 What do you want to do?
 
-- [Enable History Tracking for All Actions](#Enable-History-Tracking-for-All-Actions)
-- [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store)
-- [Retain Complete History Data](#Retain-Complete-History-Data)
-- [Retain History for a Specific Period](#Retain-History-for-a-Specific-Period)
-- [Disable History Tracking](#Disable-History-Tracking)
+- Enable History Tracking for All Actions
+- Track Specific Actions for an Identity Store
+- Retain Complete History Data
+- Retain History for a Specific Period
+- Disable History Tracking
 
 ## Enable History Tracking for All Actions
 
@@ -52,7 +52,7 @@ __To enable history tracking:__
 
    - On enabling, _All Actions_ is auto selected in the __Track__ drop-down list. This indicates that (a) all actions that users perform on directory objects and (b) changes
      made to identity store configurations, workflows, and security roles are tracked for the identity store.  
-     To track specific actions, see the [Track Specific Actions for an Identity Store](#Track-Specific-Actions-for-an-Identity-Store) topic.
+     To track specific actions, see the Track Specific Actions for an Identity Store topic.
    - Disabling history tracking does not delete already recorded history data.
 5. Click __Save__.
 

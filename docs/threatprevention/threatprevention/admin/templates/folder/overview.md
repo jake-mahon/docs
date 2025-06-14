@@ -4,7 +4,7 @@ Threat Prevention comes with several policy templates that cover a wide range of
 
 When Threat Prevention is upgraded, new and updated policy templates are available for import. They are not automatically imported during the installation of the latest version. Updates can be made to upgrade existing templates for a new release. See the [Upgrade Policy Templates](/docs/threatprevention/threatprevention/install/upgrade/policytemplates.md) topic for additional information.
 
-When the Administration Console is launched for the first time, the administrator is asked to import pre-created policy templates. If the administrator does not import the templates, they can be imported later. See the [Import Templates](#Import-Templates) topic for additional information. Once the templates are imported, they are available through an organized folder structure.
+When the Administration Console is launched for the first time, the administrator is asked to import pre-created policy templates. If the administrator does not import the templates, they can be imported later. See the Import Templates topic for additional information. Once the templates are imported, they are available through an organized folder structure.
 
 ## Template Folders
 

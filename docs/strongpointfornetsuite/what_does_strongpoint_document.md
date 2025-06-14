@@ -2,10 +2,10 @@
 
 There are four outcomes for customizations Platform Governance for NetSuite finds in the system:
 
-- [Captured and Documented](#Captured-and-Documented)
-- [Partially Documented](#Partially-Documented)
-- [Not Documented](#Not-Documented)
-- [Agent Tracking](#Agent-Tracking)
+- Captured and Documented
+- Partially Documented
+- Not Documented
+- Agent Tracking
 
 ## Captured and Documented in the Customization Record
 

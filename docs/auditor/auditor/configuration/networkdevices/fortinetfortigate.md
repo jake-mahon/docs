@@ -13,8 +13,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 To configure your Fortinet FortiGate devices, enable logging to multiple Syslog servers and configure FortiOS to send log messages to remote syslog servers in CEF format. Do one of the following:
 
-- [To configure Fortinet FortiGate devices via Command Line Interface](#To-configure-Fortinet-FortiGate-devices-via-Command-Line-Interface)
-- [To configure Fortinet FortiGate devices through the Fortigate Management Console](#To-configure-Fortinet-FortiGate-devices-through-the-Fortigate-Management-Console)
+- To configure Fortinet FortiGate devices via Command Line Interface
+- To configure Fortinet FortiGate devices through the Fortigate Management Console
 
 To configure Fortinet FortiGate devices via Command Line Interface
 

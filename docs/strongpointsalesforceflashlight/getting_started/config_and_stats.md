@@ -8,13 +8,13 @@ Click __Download PDF__ to create a PDF file of the current status.
 
 The report is divided into these sections:
 
-> [Scanner Status Overview](#Scanner-Status-Overview)
+> Scanner Status Overview
 >
-> [Documentation Stats](#Documentation-Stats)
+> Documentation Stats
 >
-> [Scanner Logs](#Scanner-Logs)
+> Scanner Logs
 >
-> [Scanner Additional Information](#Scanner-Additional-Information)
+> Scanner Additional Information
 
 ## Scanner Status Overview
 

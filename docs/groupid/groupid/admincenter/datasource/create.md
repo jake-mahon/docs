@@ -6,13 +6,13 @@ Data sources are primarily used in Synchronize jobs, but you can also use them i
 
 What do you want to do?
 
-- [Create a Data Source for MS Excel](#Create-a-Data-Source-for-MS-Excel)
-- [Create a Data Source for MS Access](#Create-a-Data-Source-for-MS-Access)
-- [Create a Data Source for Oracle](#Create-a-Data-Source-for-Oracle)
-- [Create a Data Source for SQL Server](#Create-a-Data-Source-for-SQL-Server)
-- [Create a Data Source for a Text/CSV File](#Create-a-Data-Source-for-a-TextCSV-File)
-- [Create a Data Source for ODBC](#Create-a-Data-Source-for-ODBC)
-- [Create a Data Source for SCIM](#Create-a-Data-Source-for-SCIM)
+- Create a Data Source for MS Excel
+- Create a Data Source for MS Access
+- Create a Data Source for Oracle
+- Create a Data Source for SQL Server
+- Create a Data Source for a Text/CSV File
+- Create a Data Source for ODBC
+- Create a Data Source for SCIM
 
 ## Create a Data Source for MS Excel
 
@@ -29,9 +29,9 @@ The Directory Manager Installer installs the required components for the MS Exce
 
 The Excel file for creating a data source can be placed on a local server or OneDrive. Follow the steps in the respective section to create a data source.
 
-- [When the Excel File is Located on a Local Server
-  ](#When-the-Excel-File-is-Located-on-a-Local-Server)
-- [When the Excel file is located on OneDrive](#When-the-Excel-file-is-located-on-OneDrive)
+- When the Excel File is Located on a Local Server
+  
+- When the Excel file is located on OneDrive
 
 ### When the Excel File is Located on a Local Server
 
@@ -94,8 +94,8 @@ The MS Access provider supports automatic schema detection. For Synchronize to c
 
 The Access file for creating a data source can be placed on a local server or OneDrive. Follow the steps in the respective section to create a data source.
 
-- [When the Access File is Located on a Local Server](#When-the-Access-File-is-Located-on-a-Local-Server)
-- [When the Access File is Located on OneDrive](#When-the-Access-File-is-Located-on-OneDrive)
+- When the Access File is Located on a Local Server
+- When the Access File is Located on OneDrive
 
 ### When the Access File is Located on a Local Server
 
@@ -222,8 +222,8 @@ This data source can be used in queries and only as a source in Synchronize jobs
 
 Directory Manager enables you to connect to a text file that is placed on a local server or on OneDrive. Follow the steps in the respective section to create a data source.
 
-- [When the Text File is Located on a Local Server](#When-the-Text-File-is-Located-on-a-Local-Server)
-- [When the Text File is Located on OneDrive](#When-the-Text-File-is-Located-on-OneDrive)
+- When the Text File is Located on a Local Server
+- When the Text File is Located on OneDrive
 
 ### When the Text File is Located on a Local Server
 

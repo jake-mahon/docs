@@ -2,11 +2,11 @@
 
 To successfully track user activity, make sure that the following settings are configured on the audited computers and on the computer where Netwrix Auditor Server is installed:
 
-- The __Windows Management Instrumentation__ and the __Remote Registry__ services are running and their __Startup Type__ is set to _"Automatic"_. See the [Check the Windows Services Status](#Check-the-Windows-Services-Status) topic for additional information.
-- The __File and Printer Sharing__ and the __Windows Management Instrumentation__ features are allowed to communicate through Windows Firewall. See the [Windows Features Communication](#Windows-Features-Communication) topic for additional information.
-- Local TCP Port 9004 is opened for inbound connections on the computer where Netwrix Auditor Server is installed. This is done automatically on the product installation. See the [Open Local TCP Port 9004](#Open-Local-TCP-Port-9004) topic for additional information.
-- Local TCP Port 9003 is opened for inbound connections on the audited computers. See the [Open Local TCP Port 9003](#Open-Local-TCP-Port-9003) topic for additional information.
-- Remote TCP Port 9004 is opened for outbound connections on the audited computers. See the [Open Remote TCP Port 9004](#Open-Remote-TCP-Port-9004) topic for additional information.
+- The __Windows Management Instrumentation__ and the __Remote Registry__ services are running and their __Startup Type__ is set to _"Automatic"_. See the Check the Windows Services Status topic for additional information.
+- The __File and Printer Sharing__ and the __Windows Management Instrumentation__ features are allowed to communicate through Windows Firewall. See the Windows Features Communication topic for additional information.
+- Local TCP Port 9004 is opened for inbound connections on the computer where Netwrix Auditor Server is installed. This is done automatically on the product installation. See the Open Local TCP Port 9004 topic for additional information.
+- Local TCP Port 9003 is opened for inbound connections on the audited computers. See the Open Local TCP Port 9003 topic for additional information.
+- Remote TCP Port 9004 is opened for outbound connections on the audited computers. See the Open Remote TCP Port 9004 topic for additional information.
 
 ## Check the Windows Services Status
 

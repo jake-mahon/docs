@@ -12,8 +12,8 @@ YubiKey supports the following browsers:
 
 What do you want to do?
 
-- [Enable YubiKey Authentication for an Identity Store](#Enable-YubiKey-Authentication-for-an-Identity-Store)
-- [Enforce YubiKey Authentication for a Security Role in an Identity Store](#Enforce-YubiKey-Authentication-for-a-Security-Role-in-an-Identity-Store)
+- Enable YubiKey Authentication for an Identity Store
+- Enforce YubiKey Authentication for a Security Role in an Identity Store
 
 ## Enable YubiKey Authentication for an Identity Store
 

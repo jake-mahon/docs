@@ -2,19 +2,19 @@
 
 You can find impacted objects in several ways:
 
-> [Customization List](#Customization-List)
+> Customization List
 >
-> [Customization Quick Search](#Customization-Quick-Search)
+> Customization Quick Search
 >
-> [ERD View](#ERDView)
+> ERD View
 >
-> [ERD Search Form](#ERD-Search-Form)
+> ERD Search Form
 >
-> [Customization Impact Search](#Customization-Impact-Search)
+> Customization Impact Search
 >
-> [Other Customizations](#Other-Customizations)
+> Other Customizations
 >
-> [Process Documentation](#Process-Documentation)
+> Process Documentation
 
 ## Customization List
 

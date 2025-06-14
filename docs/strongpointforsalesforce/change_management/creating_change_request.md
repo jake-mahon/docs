@@ -64,9 +64,9 @@ Your change request is created.
 
 Review the change request:
 
-- [Run Impact Analysis](#Run-Impact-Analysis)
-- [View the DRD](#View-the-DRD)
-- [Send the Change Request for Approval](#Send-the-Change-Request-for-Approval)
+- Run Impact Analysis
+- View the DRD
+- Send the Change Request for Approval
 
 ### Run Impact Analysis
 

@@ -9,11 +9,11 @@ Furthermore, if history tracking is not enabled or has been lately disabled, the
 
 What do you want to do?
 
-- [View Identity Store History](#View-Identity-Store-History)
-- [Filter History Data](#Filter-History-Data)
-- [Navigate Through History Items](#Navigate-Through-History-Items)
-- [Annotate History Items](#Annotate-History-Items)
-- [Export History Data](#Export-History-Data)
+- View Identity Store History
+- Filter History Data
+- Navigate Through History Items
+- Annotate History Items
+- Export History Data
 
 ## View Identity Store History
 

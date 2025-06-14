@@ -12,19 +12,19 @@ The __License Type__ displays your current license.
 
 The report is divided into multiple tabs:
 
-> [Scanner Status](#Scanner-Status)
+> Scanner Status
 >
-> > [Documentation Stats](#Documentation-Stats)
+> > Documentation Stats
 > >
-> > [Scanner Logs](#Scanner-Logs)
+> > Scanner Logs
 > >
-> > [Scanner Additional Information](#Scanner-Additional-Information)
+> > Scanner Additional Information
 > >
-> > [Change Log Creation](#Change-Log-Creation) (sandbox option)
+> > Change Log Creation (sandbox option)
 >
-> [Jira Configuration](#Jira-Configuration)
+> Jira Configuration
 >
-> [Orgs Credentials](#Orgs-Credentials)
+> Orgs Credentials
 
 ## Scanner Status
 
@@ -68,8 +68,8 @@ If you are in a sandbox, you can control whether change logs are created. Due to
 
 Use these features to enter your Jira credentials and map the statuses between Jira and Platform Governance for Salesforce.
 
-- [Credentials](#Credentials)
-- [Status Mapping](#Status-Mapping)
+- Credentials
+- Status Mapping
 - [Jira Field Mapping](/docs/strongpointforsalesforce/integrations/jira_field_map.md) (separate topic)
 
 ### Credentials
@@ -95,7 +95,7 @@ Your credentials are generated in Jira. Enter them here for the Platform Governa
 3. Open the __Status Mapping__ tab.
 
    ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
-4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your [Jira statuses](#Jira-statuses) prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
+4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your Jira statuses prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
 
    - __Approved Values__
    - __Complete Values__

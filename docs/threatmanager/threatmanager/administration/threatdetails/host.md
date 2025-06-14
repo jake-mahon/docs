@@ -19,9 +19,9 @@ The top of the page displays a host profile card which may contain the following
 
 The page has the following tabs:
 
-- [Threats Tab](#Threats-Tab)
-- [Activity Summary Tab](#Activity-Summary-Tab)
-- [Group Membership Tab](#Group-Membership-Tab)
+- Threats Tab
+- Activity Summary Tab
+- Group Membership Tab
 
 ## Threats Tab
 

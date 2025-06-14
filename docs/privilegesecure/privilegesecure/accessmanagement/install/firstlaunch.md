@@ -68,7 +68,7 @@ __Step 6 –__ On the Step 3 page, you identify the Active Directory service acc
 - Username – Enter the account. The domain will auto-populate from the Step 1 page.
 - Password – Enter the account's password. The eye icon can be used to view the entry.
 
-__NOTE:__ This service account will be used to run domain synchronization. If you do not have an account with domain administrator privileges ready when walking through the Setup Wizard, you can click the Exit Wizard link. See the [Exit Wizard Early](#Exit-Wizard-Early) topic for additional information.
+__NOTE:__ This service account will be used to run domain synchronization. If you do not have an account with domain administrator privileges ready when walking through the Setup Wizard, you can click the Exit Wizard link. See the Exit Wizard Early topic for additional information.
 
 ![Setup Wizard on the Step 4 page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/sync.webp)
 

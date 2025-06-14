@@ -2,10 +2,10 @@
 
 Compare Environments is a powerful tool to locate customization differences between accounts. It is a best practice to compare accounts by type (this is a mandatory field). You can compare up to 1000 records. If there are more than 1000 records, it compares the first 1000 and sends you a notification that there were more than 1000 records to compare and to restrict the comparison.
 
-- [Set up TBA Credentials](#Set-up-TBACredentials)
-- [Run Compare Environments](#Run-Compare-Environments)
-- [Determining What to Compare](#Determining-What-to-Compare)
-- [Viewing Differences Between Environments](#Viewing-Differences-Between-Environments)
+- Set up TBA Credentials
+- Run Compare Environments
+- Determining What to Compare
+- Viewing Differences Between Environments
 
 ## Set up TBA Credentials
 

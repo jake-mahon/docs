@@ -110,9 +110,9 @@ Inside those constraints, every natively supported _export task_ generates its o
 
 All _CSV source files_ are written to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
 
-At the end of the _export_ step, the [
+At the end of the _export_ step, the 
 Upward Data Synchronization
-](#Upward-Data-Synchronization) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
+ contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
 
 The [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 
@@ -229,9 +229,9 @@ The result is a set of clean lists of changes stored as ```.sorted.delta``` file
 
 The _command_ column can take the following values: _insert_, _update_, _delete_, and _merge_. These are instructions for the _synchronization_ step to apply the changes to the database.
 
-The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the [
+The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the 
 Upward Data Synchronization
-](#Upward-Data-Synchronization). It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
+. It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
 
 Tampering with the ```previous``` folder content would result in false changes in order to be computed and result in data corruption in the Identity Manager database. To restore the Identity Manager database to a state faithful to the managed system, a _complete__Sync Up_ would be required.
 

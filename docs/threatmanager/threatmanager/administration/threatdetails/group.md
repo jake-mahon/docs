@@ -16,9 +16,9 @@ The top of the page displays a group profile card which may contain the followin
 
 The Group Details page has the following tabs:
 
-- [Threats Tab](#Threats-Tab)
-- [Members Tab](#Members-Tab)
-- [Group Membership Tab](#Group-Membership-Tab)
+- Threats Tab
+- Members Tab
+- Group Membership Tab
 
 ## Threats Tab
 

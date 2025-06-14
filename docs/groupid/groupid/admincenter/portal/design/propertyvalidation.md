@@ -37,9 +37,9 @@ NOTE: A few fields for group attestation are specified in the default portal tem
 
 What do you want to do?
 
-- [Add a Property Validation Field](#Add-a-Property-Validation-Field)
-- [Update a Field](#Update-a-Field)
-- [Remove a Field](#Remove-a-Field)
+- Add a Property Validation Field
+- Update a Field
+- Remove a Field
 
 ## Add a Property Validation Field
 
@@ -60,7 +60,7 @@ What do you want to do?
 7. Select an attribute from the __Field__ drop-down list.
 8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest & Renew Group wizard/Validate Profile Properties window of the portal.
 9. Use the __Display Type__ drop-down list to specify the display type to use for rendering the attribute in the portal. The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
+10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.
@@ -109,7 +109,7 @@ __To update field properties:__
    - _Group:_ to update a field for group attestation
    - _User:_ to update a field for user profile validation
 6. In the __Name__ area, click __Edit__ for a field.
-7. On the __Edit Profile Validation Attribute__ pane, update the required information. Follow steps 7-19 in the [Add a Property Validation Field](#Add-a-Property-Validation-Field) topic for help.
+7. On the __Edit Profile Validation Attribute__ pane, update the required information. Follow steps 7-19 in the Add a Property Validation Field topic for help.
 
 ## Remove a Field
 

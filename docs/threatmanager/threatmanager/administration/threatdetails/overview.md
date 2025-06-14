@@ -23,9 +23,9 @@ The Threats page displays three buttons in the top right corner:
 
 ![evidencebox](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/evidencebox.webp)
 
-- Unassigned – If the threat has not been assigned to an owner, the button will display as Unassigned. If a user has been assigned to an owner, the button will display the username. Click it to open the [Workflow Window](#Workflow-Window) where assigned user and/or status can be updated.
-- Set Status – If no status is set for the threat the button will display as _Set Status_. If a status has been set for the threat then this button displays the status of the threat. Click it to open the [Workflow Window](#Workflow-Window), where assigned user and/or status can be updated.
-- Threat Response – Click to open the [Threat Response Window](#Threat-Response-Window) and designate the playbook to response to the threat.
+- Unassigned – If the threat has not been assigned to an owner, the button will display as Unassigned. If a user has been assigned to an owner, the button will display the username. Click it to open the Workflow Window where assigned user and/or status can be updated.
+- Set Status – If no status is set for the threat the button will display as _Set Status_. If a status has been set for the threat then this button displays the status of the threat. Click it to open the Workflow Window, where assigned user and/or status can be updated.
+- Threat Response – Click to open the Threat Response Window and designate the playbook to response to the threat.
 
 ## Workflow Window
 
@@ -67,10 +67,10 @@ The Threat Response window contains the following configuration options:
 
 The Threat Details Overview contains the following tabs:
 
-- [Event Details Tab](#Event-Details-Tab)
-- [Related Threats Tab](#Related-Threats-Tab)
-- [Related Activity Tab](#Related-Activity-Tab)
-- [History Tab](#History-Tab)
+- Event Details Tab
+- Related Threats Tab
+- Related Activity Tab
+- History Tab
 
 ## Event Details Tab
 

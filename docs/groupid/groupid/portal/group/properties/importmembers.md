@@ -19,7 +19,7 @@ Use the __Import__ button on the __Members__ tab of the New Group page and in gr
 
    - __Import Members Perpetually__: to add imported members permanently to the group membership.
    - __Import Members Temporarily__: to add imported members to the group membership for a specific period. At end of the period, the imported members are automatically removed from membership.
-   - __Import Members From Group(s)__: to add all members of another group or groups to the membership of this group. See [Import members of an existing group to this group](#Import-members-of-an-existing-group-to-this-group).
+   - __Import Members From Group(s)__: to add all members of another group or groups to the membership of this group. See Import members of an existing group to this group.
 2. In case of temporary membership, use the __Duration__ list to specify the membership duration of the imported members. Options are:
 
    - __7 Days__, to add members to the group for 7 days starting today.

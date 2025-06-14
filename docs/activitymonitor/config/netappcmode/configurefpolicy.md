@@ -4,8 +4,8 @@ Activity Monitor relies on the NetApp FPolicy framework for monitoring of file a
 
 There are two ways to configure FPolicy:
 
-- Activity Monitor agent can facilitate the [Automatic Configuration of FPolicy](#Automatic-Configuration-of-FPolicy) for the monitored SVM using the ONTAP API. This mode is simple, but does not allow you to exclude certain volumes or shares of the SVM from being monitored. It also requires additional permissions to create and modify FPolicy.
-- Another option is to [Manually Configure FPolicy](#Manually-Configure-FPolicy) for each SVM. This mode allows you to fine tune FPolicy by excluding certain volumes or shares from being monitored. It also reduces product permissions.
+- Activity Monitor agent can facilitate the Automatic Configuration of FPolicy for the monitored SVM using the ONTAP API. This mode is simple, but does not allow you to exclude certain volumes or shares of the SVM from being monitored. It also requires additional permissions to create and modify FPolicy.
+- Another option is to Manually Configure FPolicy for each SVM. This mode allows you to fine tune FPolicy by excluding certain volumes or shares from being monitored. It also reduces product permissions.
 
 Regardless of the chosen approach for FPolicy configuration, one also needs to perform extra steps if the FPolicy communication has to be secured with TLS.
 
@@ -259,7 +259,7 @@ IMPORTANT:
 
     - For CIFS shares – ``` StealthAUDITScreeningCifs``` for successful events; ```StealthAUDITScreeningFailedCifs``` for failed events.
     - For NFS shares – ```StealthAUDITScreeningNfsV3, StealthAUDITScreeningNfsV4``` for successful events; ```StealthAUDITScreeningFailedNfsV3, StealthAUDITScreeningFailedNfsV4``` for failed events.  
-      The names of the event objects can be customized (see [Customization of FPolicy Object Names](#Customization-of-FPolicy-Object-Names)).
+      The names of the event objects can be customized (see Customization of FPolicy Object Names).
   - ```volume-operation true```
   - ```protocol``` – one of the following ```cifs```, ```nfsv3```, ```nfsv4```
   - ```monitor-fileop-failure``` – ```true ```or ```false```, indicates whether failed file operations are reported.
@@ -407,7 +407,7 @@ IMPORTANT:
   - ```persistent-store``` – The name of the Persistent Store object.
 
     - The default name is ```StealthAUDITPersistentStore```.   
-      The names of the event objects can be customized (see [Customization of FPolicy Object Names](#Customization-of-FPolicy-Object-Names)).
+      The names of the event objects can be customized (see Customization of FPolicy Object Names).
   - ```volume``` – The name of the volume used for event storage.
 
     - If the volume does not exist, it will be automatically created on an assigned local tier. This is recommended.
@@ -457,10 +457,10 @@ IMPORTANT:
   The following values are required:
 
   - ```vserver``` – The name of SVM.
-  - ```policy-name StealthAUDIT``` – The name of the policy object can be customized (see [Customization of FPolicy Object Names](#Customization-of-FPolicy-Object-Names)).
-  - ```engine``` – The name of the External Engine created in [Part 2: Create External Engine](#Part-2-Create-External-Engine).
-  - ```events``` – A list of FPolicy Event objects created in [Part 3: Create FPolicy Event](#Part-3-Create-FPolicy-Event).
-  - ```persistent-store``` – The name of the Persistent Store created in [Part 4: Create Persistent Store](#Part-4-Create-Persistent-Store). Required only if the Persistent Store is used.
+  - ```policy-name StealthAUDIT``` – The name of the policy object can be customized (see Customization of FPolicy Object Names).
+  - ```engine``` – The name of the External Engine created in Part 2: Create External Engine.
+  - ```events``` – A list of FPolicy Event objects created in Part 3: Create FPolicy Event.
+  - ```persistent-store``` – The name of the Persistent Store created in Part 4: Create Persistent Store. Required only if the Persistent Store is used.
 
   The following values are required for Access Analyzer integration:
 
@@ -713,7 +713,7 @@ svm0    StealthAUDIT  Ontap915-01  192.168.11.35     disconnected 
 
 The Activity Monitor can automatically configure FPolicy on the targeted SVM. The FPolicy created will monitor file system activity from all volumes and shares of the SVM. This feature can be enabled using the __Configure FPolicy. Create or modify FPolicy objects if needed__ checkbox on the FPolicy page in the monitored host's properties in the Activity Monitor.
 
-Starting ONTAP 9.15.1 and later versions, it is recommended to enable the Persistent Store feature that stores events on disk before they are sent to the Activity Monitor Agent. This reduces client-side latency and increases resilience during network delays or bursts of activity. To enable the Persistent Store, specify a volume name and size on the Persistent Store tab of the FPolicy page in the monitored host properties. The volume will be automatically created if it does not already exist. See the [Persistent Store](#Persistent-Store) topic for additional information on the recommended volume size.
+Starting ONTAP 9.15.1 and later versions, it is recommended to enable the Persistent Store feature that stores events on disk before they are sent to the Activity Monitor Agent. This reduces client-side latency and increases resilience during network delays or bursts of activity. To enable the Persistent Store, specify a volume name and size on the Persistent Store tab of the FPolicy page in the monitored host properties. The volume will be automatically created if it does not already exist. See the Persistent Store topic for additional information on the recommended volume size.
 
 If using the TLS, mutual authentication option, you will need to create the PEM file for the Client Certification, which is needed during the monitored host configuration in the Activity Monitor. It will also be necessary to set mutual authentication on the SVM.
 

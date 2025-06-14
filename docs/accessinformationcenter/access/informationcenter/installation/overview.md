@@ -4,7 +4,7 @@ The Netwrix Access Information Center relies on collected and analyzed data that
 
 ## Prerequisites
 
-The Access Information Center is typically installed on the same server as Access Analyzer. However, it can be installed on a remote server. See the [Remote AIC Console Sever Requirements](#Remote-AIC-Console-Sever-Requirements) topic for additional information.
+The Access Information Center is typically installed on the same server as Access Analyzer. However, it can be installed on a remote server. See the Remote AIC Console Sever Requirements topic for additional information.
 
 ### Access Analyzer Solutions
 

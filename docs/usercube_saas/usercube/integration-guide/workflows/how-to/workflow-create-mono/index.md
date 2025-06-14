@@ -81,9 +81,9 @@ The ```MainControl``` attribute is here an empty container because we configure 
 Position Change via Records
 ](/docs/usercube_saas/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)topic for additional information.
 
-- ```RecordControl``` that defines record data, and calls the form created previously. See the [
+- ```RecordControl``` that defines record data, and calls the form created previously. See the 
   For Resource Creation (Mono Record)
-  ](#For-Resource-Creation-Mono-Record)topic for additional information.
+  topic for additional information.
 
 ```
 

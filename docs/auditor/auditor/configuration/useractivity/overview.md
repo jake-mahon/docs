@@ -17,7 +17,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - The __File and Printer Sharing__ and the __Windows Management Instrumentation__ features must be allowed to communicate through the Windows Firewall.
     - Local TCP Port 9003 must be opened for inbound connections.
     - Remote TCP Port 9004 must be opened for outbound connections.
-    - The User Activity Core Service is installed on the monitored computers. See the [Install Netwrix Auditor Agent to Audit User Activity](#Install-Netwrix-Auditor-Agent-to-Audit-User-Activity) topic for additional information.
+    - The User Activity Core Service is installed on the monitored computers. See the Install Netwrix Auditor Agent to Audit User Activity topic for additional information.
     - .NET 4.8 must be installed.
   - On the Netwrix Auditor host system/server:
 

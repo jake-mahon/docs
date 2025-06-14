@@ -80,9 +80,7 @@ For more information on Synchronization task configuration : [
 Synchronize Task
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 
-For more details on the Synchronization job configuration : [
-Set up Complete Synchronization
-](#Set-up-Complete-Synchronization) Job Configuration
+For more details on the Synchronization job configuration : Set up Complete Synchronization Job Configuration
 
 ### 5. Create the UpdateEntityPropertyExpressions task
 

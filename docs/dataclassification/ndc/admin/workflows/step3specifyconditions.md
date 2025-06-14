@@ -27,7 +27,7 @@ The following options are available:
 
   You can also specify what age this workflow targets by populating the field.
 
-[To configure terms](#To-configure-terms)
+To configure terms
 
 1. In the __Select Term__ field, click the tag icon.
 2. In the __Details__ dialog, specify filter settings to use when filtering out the documents:

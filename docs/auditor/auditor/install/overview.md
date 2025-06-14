@@ -2,8 +2,8 @@
 
 This chapter provides step-by-step instructions on how to install Netwrix Auditor and its Compression Services. Refer to the following sections for detailed information:
 
-- [Install Netwrix Auditor](#Install-Netwrix-Auditor)
-- [Installing Core Services](#Installing-Core-Services)
+- Install Netwrix Auditor
+- Installing Core Services
 
 It also includes advanced scenarios such as:
 

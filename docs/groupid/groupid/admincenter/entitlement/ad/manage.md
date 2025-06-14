@@ -7,15 +7,15 @@ You can also manage certain settings for a server, such as change the service ac
 
 What do you want to do?
 
-- [Specify File Servers for Entitlement Management](#Specify-File-Servers-for-Entitlement-Management)
-- [Specify File Servers Outside the Criteria](#Specify-File-Servers-Outside-the-Criteria)
-- [Include Future Servers for Entitlement Management](#Include-Future-Servers-for-Entitlement-Management)
-- [View the Shared Folders on a File Server](#View-the-Shared-Folders-on-a-File-Server)
-- [Exclude a Folder on a Server from Replication](#Exclude-a-Folder-on-a-Server-from-Replication)
-- [Connect to a File Server Using a Different Account](#Connect-to-a-File-Server-Using-a-Different-Account)
-- [Replicate Permissions Manually](#Replicate-Permissions-Manually)
-- [Exclude a Server From Entitlement Management](#Exclude-a-Server-From-Entitlement-Management)
-- [Restore a Server for Entitlement Management](#Restore-a-Server-for-Entitlement-Management)
+- Specify File Servers for Entitlement Management
+- Specify File Servers Outside the Criteria
+- Include Future Servers for Entitlement Management
+- View the Shared Folders on a File Server
+- Exclude a Folder on a Server from Replication
+- Connect to a File Server Using a Different Account
+- Replicate Permissions Manually
+- Exclude a Server From Entitlement Management
+- Restore a Server for Entitlement Management
 
 ## Specify File Servers for Entitlement Management
 
@@ -55,7 +55,7 @@ The following information is displayed for a file server in the __Included File 
 - __User Name:__ the user account used to connect to the file server to read and update permissions on shared files and folders residing on the server.
 
   - If the service account specified for the identity store is used, the column does not display anything.
-  - If you have designated a different account for this purpose, the username of the account is displayed here. See the [Connect to a File Server Using a Different Account](#Connect-to-a-File-Server-Using-a-Different-Account) topic.
+  - If you have designated a different account for this purpose, the username of the account is displayed here. See the Connect to a File Server Using a Different Account topic.
 - __RC Status__: Displays the replication status for the server with respect to the replication performed by the GroupID Entitlement schedule. Different statuses are:
 
   - __Request ![rc_request](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.webp):__ permission data for the file server has never been replicated to Elasticsearch.

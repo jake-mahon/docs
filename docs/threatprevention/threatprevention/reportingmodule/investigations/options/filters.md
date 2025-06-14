@@ -11,14 +11,14 @@ Click the arrow on the right side to expand or collapse the Filters section.
 The following options are available for configuring a filter statement:
 
 - Source – This menu provides a list of all integrations with the application. If there is only one data source configured, the Source menudisplays that only. See the [Netwrix Integrations Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md) topic for additional information.
-- Timeframe – This menu provides several timeframe options as well as a clock and a calendar for setting a custom range. You must set the timeframe for the data to be returned in the report. If your report is blank, it is likely due to the timeframe setting. See the [Timeframe](#Timeframe) topic for additional information.
-- Attribute – This menu provides a list of attributes that are available on events in the data source. See the [Filter Attribute Menu](#Filter-Attribute-Menu) topic for additional information.
-- Operator – This menu controls how the rule is evaluated by specifying the comparison between the Attribute and the Filter value. Options vary based on the selected attribute. See the [Filter Operator Menu](#Filter-Operator-Menu) topic for additional information.
+- Timeframe – This menu provides several timeframe options as well as a clock and a calendar for setting a custom range. You must set the timeframe for the data to be returned in the report. If your report is blank, it is likely due to the timeframe setting. See the Timeframe topic for additional information.
+- Attribute – This menu provides a list of attributes that are available on events in the data source. See the Filter Attribute Menu topic for additional information.
+- Operator – This menu controls how the rule is evaluated by specifying the comparison between the Attribute and the Filter value. Options vary based on the selected attribute. See the Filter Operator Menu topic for additional information.
 - Filter – Use it to specify the value to evaluate using the operator for the selected attribute
 - Add – This appears in a new row of the Filter table, in the Attribute column. Clicking it opens the Attribute menu to add another filter statement.
 - X icon – This icon removes the respective filter statement
 
-See the [Build a Filter Statement](#Build-a-Filter-Statement) topic for additional information.
+See the Build a Filter Statement topic for additional information.
 
 ## Timeframe
 

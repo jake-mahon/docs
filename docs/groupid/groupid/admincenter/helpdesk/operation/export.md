@@ -4,7 +4,7 @@ You can export users' information to an Excel, XML, or CSV file.
 
 What do you want to do?
 
-- [Export Users](#Export-Users)
+- Export Users
 
 ## Export Users
 

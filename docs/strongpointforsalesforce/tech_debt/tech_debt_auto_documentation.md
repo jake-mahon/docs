@@ -12,19 +12,19 @@ Great documentation is easy with Platform Governance for Salesforce. Install the
 
 Once your orgs are documented, understanding the downstream dependencies of any change is a straightforward, simple process. There are a number of ways to do this:
 
-> [Dependency Relationship Diagram (DRD)
-> ](#Dependency-Relationship-Diagram-DRD)
+> Dependency Relationship Diagram (DRD)
+> 
 >
-> [Customization Record](#Customization-Record)
+> Customization Record
 >
-> [Finder
-> ](#Finder)
+> Finder
+> 
 >
-> [Object Exporter
-> ](#Object-Exporter)
+> Object Exporter
+> 
 >
-> [Reports and List Views
-> ](#Reports-and-List-Views)
+> Reports and List Views
+> 
 
 ## Dependency Relationship Diagram (DRD)
 

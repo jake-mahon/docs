@@ -15,8 +15,8 @@ To use Platform Governance for NetSuite with your custom roles, add the record t
 
    Adding permissions to a role affects all employees who have the role assigned to them.
      
-   Refer to the lists of Custom Permissions needed for each role: [Change Request Approvers](#Change-Request-Approvers), [Manage ITGC](#Manage-ITGC), [Manage SoD](#Manage-SoD), [User Access Review (UAR)](#User-Access-Review-UAR) and [Manage Internal Audit - View Only](#Manage-Internal-Audit-View-Only).  
-   The default settings are shown in the [Default Custom Record Types and Permission Lists](#Default-Custom-Record-Types-and-Permission-Lists) and [Default SoD Custom Record Types and Permission Lists](#Default-SoD-Custom-Record-Types-and-Permission-Lists) tables.
+   Refer to the lists of Custom Permissions needed for each role: Change Request Approvers, Manage ITGC, Manage SoD, User Access Review (UAR) and Manage Internal Audit - View Only.  
+   The default settings are shown in the Default Custom Record Types and Permission Lists and Default SoD Custom Record Types and Permission Lists tables.
 5. __Save__ the Permissions.
 
 Here are the Custom Permissions needed for each role.

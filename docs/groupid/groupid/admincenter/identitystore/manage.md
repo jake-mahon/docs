@@ -4,12 +4,12 @@ Once you create and configure an identity store, you can perform group and ident
 
 What do you want to do?
 
-- [View Identity Store Details](#View-Identity-Store-Details)
-- [Enable or Disable an Identity Store](#Enable-or-Disable-an-Identity-Store)
-- [Update General Info for an Identity Store](#Update-General-Info-for-an-Identity-Store)
-- [Exclude an Active Directory Domain from Replication](#Exclude-an-Active-Directory-Domain-from-Replication)
-- [Set DC Priority for an Active Directory Identity Store](#Set-DC-Priority-for-an-Active-Directory-Identity-Store)
-- [Delete an Identity Store](#Delete-an-Identity-Store)
+- View Identity Store Details
+- Enable or Disable an Identity Store
+- Update General Info for an Identity Store
+- Exclude an Active Directory Domain from Replication
+- Set DC Priority for an Active Directory Identity Store
+- Delete an Identity Store
 
 ## View Identity Store Details
 

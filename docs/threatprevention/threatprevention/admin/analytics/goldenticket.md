@@ -15,7 +15,7 @@ Analytic Workflow
 2. Enable the analytic policy
 3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
 
-See the [Golden Tickets Analytic Data Grid](#Golden-Tickets-Analytic-Data-Grid) topic for information on event data collected per incident.
+See the Golden Tickets Analytic Data Grid topic for information on event data collected per incident.
 
 ## Configure Golden Tickets Analytic Policy
 

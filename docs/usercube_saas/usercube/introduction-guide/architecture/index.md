@@ -30,8 +30,8 @@ Let's learn about Identity Manager [Configuration](/docs/usercube_saas/usercube/
 
 ## Learn More
 
-Learn more on Identity Manager's [
+Learn more on Identity Manager's 
 Architecture
-](#Architecture).
+.
 
 See the [Network Configuration](/docs/usercube_saas/usercube/integration-guide/network-configuration/index.md) topic for additional information.

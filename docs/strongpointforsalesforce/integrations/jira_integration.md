@@ -13,10 +13,10 @@ Change Requests are not automatically created, as not all tickets result in a Ch
 
 To set up the Jira integration:
 
-1. [Review Your Jira Statuses](#Review-Your-Jira-Statuses)
-2. [Install the App](#Install-the-App)
-3. [Set Up Jira Cloud Integration Credentials](#Set-Up-Jira-Cloud-Integration-Credentials)
-4. [Set Up Status Mapping](#Set-Up-Status-Mapping)
+1. Review Your Jira Statuses
+2. Install the App
+3. Set Up Jira Cloud Integration Credentials
+4. Set Up Status Mapping
 
 You can map custom fields between Change Requests and Jira. Refer to [Jira Field Mapping](/docs/strongpointforsalesforce/integrations/jira_field_map.md) for details.
 
@@ -25,13 +25,13 @@ You can map custom fields between Change Requests and Jira. Refer to [Jira Field
 To take advantage of the automatic synchronization feature, we recommend reviewing your Jira statuses to be mapped to the Change Request statuses. When a ticket status is updated to a mapped status, Platform Governance for Salesforce handles the synchronization between Jira and Salesforce.
 
 The mapping allows multiple Jira statuses to map to each Change Request status.   
-The mapping is part of the [Set Up Status Mapping](#Set-Up-Status-Mapping) procedure.
+The mapping is part of the Set Up Status Mapping procedure.
 
 Refer to the Atlassian documentation for instructions on [Defining status field values](https://confluence.atlassian.com/adminjiraserver070/defining-status-field-values-749382903.html?_ga=2.262596428.1900070949.1572132057-2138500458.1540834491).
 
 ## Install the App
 
-Use the [Jira Cloud Installation](#Jira-Cloud-Installation), then complete the [Access Data with API Integration](#Access-Data-with-APIIntegration) or [Set Up Jira Cloud Integration Credentials](#Set-Up-Jira-Cloud-Integration-Credentials) after installing the app.
+Use the Jira Cloud Installation, then complete the Access Data with API Integration or Set Up Jira Cloud Integration Credentials after installing the app.
 
 ### Jira Cloud Installation
 
@@ -128,7 +128,7 @@ Users opening a restricted project receive a information message, instructions f
 3. Open the __Status Mapping__ tab.
 
    ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
-4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your [Jira statuses](#Jira-statuses) prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
+4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define your Jira statuses prior to this step. You can enter multiple Jira statuses for each Change Request status, separated by commas. For example, __In Progress, Backlog__. Assign your mapping for each of the Change Request statuses:
 
    - __Approved Values__
    - __Complete Values__

@@ -13,9 +13,9 @@ The account used for data collection must meet the following requirements:
 - The combination of the following rights and permissions if you plan to disable network traffic compression for your monitoring plan or, for some reasons, do not want to add this account to the Domain Admins group:
 
   - The "Manage auditing and security log" policy must be defined for this account.   
-    See the [Configure the Manage Auditing and Security Log Policy](#Configure-the-Manage-Auditing-and-Security-Log-Policy) topic for additional information.
+    See the Configure the Manage Auditing and Security Log Policy topic for additional information.
   - If you plan to process the Active Directory Deleted Objects container, Read permission on
-    this container are required. See the [Grant Permissions for the Deleted Objects Container](#Grant-Permissions-for-the-Deleted-Objects-Container) topic for additional information.
+    this container are required. See the Grant Permissions for the Deleted Objects Container topic for additional information.
 
 If the account selected for data collection is not a member of the Domain Admins group, see the [Assign Permission To Read the Registry Key](/docs/auditor/auditor/configuration/windowsserver/permissions.md) topic.
 
@@ -49,12 +49,12 @@ If you plan to use network traffic compression for data processing, consider the
 
 - If network traffic compression will be _enabled_, then the account must belong to the Domain Admins group.
 - If network traffic compression will be _disabled_, and the account you plan to use for data collection is not a member of the Domain Admins group, then the  __Manage auditing and security log__ policy must be defined for this account.   
-  See the [Configure the Manage Auditing and Security Log Policy](#Configure-the-Manage-Auditing-and-Security-Log-Policy) topic for more information.
+  See the Configure the Manage Auditing and Security Log Policy topic for more information.
 
 If you need to process Active Directory __Deleted Objects__ container, consider the following:
 
 - Read permission on
-  this container is required. See the [Grant Permissions for the Deleted Objects Container](#Grant-Permissions-for-the-Deleted-Objects-Container) topic for additional information.
+  this container is required. See the Grant Permissions for the Deleted Objects Container topic for additional information.
 - Grant this permission only if the account you plan to use for data collection is not a member of the Domain Admins group.
 
 If auto-backup is _enabled_ for the domain controller event logs:

@@ -9,13 +9,13 @@ The Jira Field Mapping tool maps a Jira field to a Netwrix Change Request. To ac
 
 ## Field Mapping Process
 
-1. [Identify Fields to Map](#Identify-Fields-to-Map)
-2. [Verify Field Creation](#Verify-Field-Creation)
-3. [Add Fields to Page Layouts](#Add-Fields-to-Page-Layouts)
-4. [Update Values](#Update-Values)
-5. [Access Mapping Configuration](#Access-Mapping-Configuration)
-6. [Create Mapping Record](#Create-Mapping-Record)
-7. [Verify the Change Request](#Verify-the-Change-Request)
+1. Identify Fields to Map
+2. Verify Field Creation
+3. Add Fields to Page Layouts
+4. Update Values
+5. Access Mapping Configuration
+6. Create Mapping Record
+7. Verify the Change Request
 
 ### Identify Fields to Map
 
@@ -85,8 +85,8 @@ The Jira API names are required to create the mapping record.
 
    ![Create a new mapping record](/img/product_docs/strongpointforsalesforce/integrations/field_map_new_record.webp)
 4. Enter a name for __CR CustomField Mapping Name__. __Strongpoint Version__ is used in this example.
-5. Enter the __CR External Field APIName__. This is the Jira API name obtained from the Field Mapping tab for the Jira Configuration tool. Refer to the [Verify Field Creation](#Verify-Field-Creation) section for details. __customfield\_10052__ is used in this example.
-6. Enter the __CR SF Field APIName__. This is the Salesforce API name obtained from __Salesforce Setup__ > __Object Manager__ > __Change Request__ > __Fields & Relationships__. Refer to the [Verify Field Creation](#Verify-Field-Creation) section for details. __Strongpoint\_Version\_\_c__ is used in this example.
+5. Enter the __CR External Field APIName__. This is the Jira API name obtained from the Field Mapping tab for the Jira Configuration tool. Refer to the Verify Field Creation section for details. __customfield\_10052__ is used in this example.
+6. Enter the __CR SF Field APIName__. This is the Salesforce API name obtained from __Salesforce Setup__ > __Object Manager__ > __Change Request__ > __Fields & Relationships__. Refer to the Verify Field Creation section for details. __Strongpoint\_Version\_\_c__ is used in this example.
 7. Click __Save__ or __Save & New__ if you have additional mappings.
 
 The mapping is now complete. In the next update, the information is populated in the fields and shows in the Netwrix Change Request.

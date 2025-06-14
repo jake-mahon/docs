@@ -6,12 +6,12 @@ Directory Manager supports several SMS gateway providers. You can also use the C
 
 What do you want to do?
 
-- [Create an SMS Gateway Account](#Create-an-SMS-Gateway-Account)
-- [Modify an SMS Gateway Account](#Modify-an-SMS-Gateway-Account)
-- [Set an SMS Gateway Account as Default](#Set-an-SMS-Gateway-Account-as-Default)
-- [Test SMS Gateway Account Connection](#Test-SMS-Gateway-Account-Connection)
-- [Link an SMS Gateway Account to an Identity Store](#Link-an-SMS-Gateway-Account-to-an-Identity-Store)
-- [Delete an SMS Gateway Account](#Delete-an-SMS-Gateway-Account)
+- Create an SMS Gateway Account
+- Modify an SMS Gateway Account
+- Set an SMS Gateway Account as Default
+- Test SMS Gateway Account Connection
+- Link an SMS Gateway Account to an Identity Store
+- Delete an SMS Gateway Account
 
 ## Create an SMS Gateway Account
 
@@ -52,7 +52,7 @@ __To modify an account:__
 1. In Admin Center, click __SMS Gateway__ at the bottom of the left navigation pane.  
    The __SMS Gateways__ page is displayed with a list of the SMS gateway accounts that you have created.
 2. To update a gateway account, click __Edit__ for it in the __Actions__ column.
-3. On the __Edit SMS Gateway__ page, update the required details. Refer to step 3 and onwards in the [Create an SMS Gateway Account](#Create-an-SMS-Gateway-Account) topic for details.
+3. On the __Edit SMS Gateway__ page, update the required details. Refer to step 3 and onwards in the Create an SMS Gateway Account topic for details.
 
 ## Set an SMS Gateway Account as Default
 

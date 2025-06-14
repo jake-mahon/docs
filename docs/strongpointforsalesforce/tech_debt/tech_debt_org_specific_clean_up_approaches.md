@@ -4,17 +4,17 @@ Cleaning up an org is driven by your priorities. Platform Governance for Salesfo
 
 Here are some guidelines to specific clean up problems:
 
-> [Unused, Risky](#Unused-Risky)
+> Unused, Risky
 >
-> [Unused Automation](#Unused-Automation)
+> Unused Automation
 >
-> [Unused Test Classes](#Unused-Test-Classes)
+> Unused Test Classes
 >
-> [Entire Object or Group of Parent / Child Objects](#Entire-Object-or-Group-of-Parent-Child-Objects)
+> Entire Object or Group of Parent / Child Objects
 >
-> [Layouts and List Views](#Layouts-and-List-Views)
+> Layouts and List Views
 >
-> [Value-based Clean Up](#Value-based-Clean-Up)
+> Value-based Clean Up
 
 These guidelines assume you set up your List Views the same way as described [Step 1: Identify and Prioritize Targets](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up_example.md).
 

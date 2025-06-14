@@ -12,7 +12,7 @@ __CAUTION:__  If the Access Information Center has been configured to commit cha
 
 If the Access Information Center automatically commits the approved change, it is immediately visible in Access Information Center reports. It is not necessary to rescan with Netwrix Access Analyzer (formerly Enterprise Auditor). If approved changes are being manually committed by your organization's IT team, it will be necessary to rescan the environment before the changes will be reflected in Access Information Center reports.
 
-See the [Process Owner Responses](#Process-Owner-Responses) topic for instructions on how to perform a granular review of owner-recommended changes. See the [Batch Processing](#Batch-Processing) topic for instructions on how to approve, decline, or defer all owner-recommended changes for a review.
+See the Process Owner Responses topic for instructions on how to perform a granular review of owner-recommended changes. See the Batch Processing topic for instructions on how to approve, decline, or defer all owner-recommended changes for a review.
 
 ## Process Owner Responses
 

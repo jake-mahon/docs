@@ -14,9 +14,9 @@ User benefits include:
 
 To set up the Zendesk integration:
 
-1. [Install the Netsuite Bundle](#Install-the-Netsuite-Bundle)
-2. [Install the App](#Install-the-App)
-3. [Set up Approvals](#Set-up-Approvals)
+1. Install the Netsuite Bundle
+2. Install the App
+3. Set up Approvals
 
 ## Install the Netsuite Bundle
 

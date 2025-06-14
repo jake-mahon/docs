@@ -30,10 +30,10 @@ A risk is always:
 - assigned to identities belonging to a specific entity type that was decided during the risk creation;
 - organized inside a [
   Risk Management
-  ](#Risk-Management);
+  ](/docs/usercube/usercube/integration-guide/governance/risks/index.md);
 - linked to an [
   Risk Management
-  ](#Risk-Management).
+  ](/docs/usercube/usercube/integration-guide/governance/risks/index.md).
 
 ## Risk Type
 

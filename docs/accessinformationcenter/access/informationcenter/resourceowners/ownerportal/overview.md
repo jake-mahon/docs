@@ -15,7 +15,7 @@ The Owner portal has three sections:
   - Reviews — Navigates to the Reviews page where you can view your pending reviews and history of previously reviewed items
   - My Access — Navigates to the Your Access portal where you can submit access requests, view pending requests, and view the history of your access requests
 - [Assigned Resources](/docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/assignedresources.md) — A table of assigned resources with action buttons below
-- [Ownership Status](#Ownership-Status) — Displays a graphical representation of confirmed ownership for assigned resources
+- Ownership Status — Displays a graphical representation of confirmed ownership for assigned resources
 
 ## Ownership Status
 

@@ -27,7 +27,7 @@ If the Access Information Center has been configured to commit Active Directory 
 - Access and Permissions — If the prerequisite of resource based groups are set up for the resources, click accept will change group membership for the trustee. If the desire is to change access, the trustee is moved to the group with the desired access or permissions and removed from the group granting the current access or permissions. If the desire is to remove access, the trustee is removed from the group granting the current access or permissions.
 - Sensitive Data — The only action that can be committed is to flag a file as a false positive for the selected criteria
 
-See the [Data Collection & Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#data-collection-automation-prerequisites) topic for additional information.
+See the [Data Collection & Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md) topic for additional information.
 
 The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
 

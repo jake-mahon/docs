@@ -2,10 +2,10 @@
 
 The User Access Review app must be installed and licensed before it can be used.
 
-- [Installing the Bundle](#Installing-the-Bundle)
-- [Licensing New Users for the UAR App](#Licensing-New-Users-for-the-UARApp)
-- [Licensing Existing Users for UAR](#Licensing-Existing-Users-for-UAR)
-- [Adding UAR Center Tab to Custom Roles](#Adding-UAR-Center-Tab-to-Custom-Roles)
+- Installing the Bundle
+- Licensing New Users for the UAR App
+- Licensing Existing Users for UAR
+- Adding UAR Center Tab to Custom Roles
 
 ## Installing the Bundle
 
@@ -22,7 +22,7 @@ The User Access Review app must be installed and licensed before it can be used.
 7. Verify the installation is complete. Open __Customization__ > __SuiteBundler__ > __Search & Install Bundles__ > __List__
 8. In the __Installed Bundles__ list, the __Strongpoint UAR__ bundle is marked with a green check in the __Status__ column when the bundle is installed.
 
-A Strongpoint administrator grants users access to the UAR app. Continue with [Licensing New Users for the UAR App](#Licensing-New-Users-for-the-UARApp) or [Licensing Existing Users for UAR](#Licensing-Existing-Users-for-UAR).
+A Strongpoint administrator grants users access to the UAR app. Continue with Licensing New Users for the UAR App or Licensing Existing Users for UAR.
 
 ## Licensing New Users for the UAR App
 

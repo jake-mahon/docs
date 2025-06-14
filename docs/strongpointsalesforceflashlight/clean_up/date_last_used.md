@@ -2,15 +2,15 @@
 
 Date Last Used (DLU) captures changes triggered by users or other customizations. Specifically, the last date the Customization, or the data it contains, was created, changed, accessed, processed or used.The DLU value indicates that the customization was used at least as late as the DLU. It does not indicate if it was used earlier. If DLU is blank, it indicates there in no verified date.
 
-> [DLU CustomField Details](#DLUCustomField-Details)
+> DLU CustomField Details
 >
-> [Setting the DLU Expiration](#Setting-the-DLUExpiration)
+> Setting the DLU Expiration
 >
-> [DLU Metadata Types](#DLUMetadata-Types)
+> DLU Metadata Types
 >
-> [Excluded Metadata Extended Types](#Excluded-Metadata-Extended-Types)
+> Excluded Metadata Extended Types
 >
-> [DLU Scheduler](#DLU-Scheduler)
+> DLU Scheduler
 
 ## DLU CustomField Details
 
@@ -33,8 +33,8 @@ Usage data fields:
   | Unavailable | Blank | Never enabled for this field. | Blank | Populated |
   | Pending | Blank | Enabled. Waiting for the scanner to run. | Blank | Populated |
   | Current | Populated | Enabled. DLU is current and accurate using automated nightly scans. | Today | Blank |
-  | Recent | Populated,    May be stale | Disabled. Last scan when enabled was within the past three months.    Three months is the default time period. See [Setting the DLU Expiration](#Setting-the-DLUExpiration). | Within set time period | Populated |
-  | Expired | Populated,    May be stale | Disabled. Last scan when enabled was longer than three months ago.    Three months is the default time period. See [Setting the DLU Expiration](#Setting-the-DLUExpiration). | Older than set time period | Populated |
+  | Recent | Populated,    May be stale | Disabled. Last scan when enabled was within the past three months.    Three months is the default time period. See Setting the DLU Expiration. | Within set time period | Populated |
+  | Expired | Populated,    May be stale | Disabled. Last scan when enabled was longer than three months ago.    Three months is the default time period. See Setting the DLU Expiration. | Older than set time period | Populated |
 If Field History Tracking is enabled for a CustomField with a __DLU Status__ of either __Recent__ or __Expired__, the status is changed to __Pending__. Here is an example:  
 ![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
 

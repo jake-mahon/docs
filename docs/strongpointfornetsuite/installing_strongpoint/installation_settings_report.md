@@ -34,7 +34,7 @@ Displays stats to help you identify gaps for script monitoring. The Script Manag
 - __Scripts with FLOStart Tags__: number of scripts with FLOStart tags inserted to track the initiation of the script.
 - __Scripts with FLOStart Tags__: number of scripts with FLOEnd tag inserted to calculate execution time.
 - __Scripts with No Audit Tags__: number of scripts that are not being monitored (no inserted FLOStart or FLOEnd tags).
-- __Script Archive File Folder ID__: file identifier of the script archive folder. The __Enable Auto Archive__ and default __Auto Archive Folder__ are specified on the [Installation](#Installation) tab. If enabled, a copy of each script is archived when it is changed, keeping a full version history. The archived script versions are saved in the script archive folder, and are also accessible in the Customization record for the script. Archiving all script changes does use storage space. It is a good practice to occasionally review and clean up old versions.
+- __Script Archive File Folder ID__: file identifier of the script archive folder. The __Enable Auto Archive__ and default __Auto Archive Folder__ are specified on the Installation tab. If enabled, a copy of each script is archived when it is changed, keeping a full version history. The archived script versions are saved in the script archive folder, and are also accessible in the Customization record for the script. Archiving all script changes does use storage space. It is a good practice to occasionally review and clean up old versions.
 
 ### Change Management
 

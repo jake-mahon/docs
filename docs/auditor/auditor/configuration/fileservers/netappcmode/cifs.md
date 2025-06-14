@@ -13,8 +13,8 @@ Actions reported by Netwrix Auditor vary depending on the file server type and t
 
 Do one of the following depending on the OS:
 
-- [To configure audit settings for the CIFS file shares from computers running pre-Windows Server 2012 versions](#To-configure-audit-settings-for-the-CIFS-file-shares-from-computers-running-pre-Windows-Server-2012-versions)
-- [To configure audit settings for the CIFS file shares from computers running Windows Server 2012 and above](#To-configure-audit-settings-for-the-CIFS-file-shares-from-computers-running-Windows-Server-2012-and-above)
+- To configure audit settings for the CIFS file shares from computers running pre-Windows Server 2012 versions
+- To configure audit settings for the CIFS file shares from computers running Windows Server 2012 and above
 
 ## To configure audit settings for the CIFS file shares from computers running pre-Windows Server 2012 versions
 
@@ -56,10 +56,10 @@ Do one of the following depending on the OS:
    You can specify any other user group, but in this case Netwrix Auditor will send emails with warnings on incorrect audit configuration. In this case, the product will only monitor user accounts that belong to the selected group.
 6. Apply settings to your Auditing Entries depending on actions that you want to audit. If you want to audit all actions (successful reads and changes as well as failed read and change attempts), you need to add three separate Auditing Entries for each file share. Otherwise, reports will contain limited data and warning messages. Review the following for additional information:
 
-   - [Successful reads](#Successful-reads)
-   - [Successful changes](#Successful-changes)
-   - [Failed read attempts](#Failed-read-attempts)
-   - [Failed change attempts](#Failed-change-attempts)
+   - Successful reads
+   - Successful changes
+   - Failed read attempts
+   - Failed change attempts
    | Auditing Entry |  |
    | --- | --- |
    | Successful reads |  |

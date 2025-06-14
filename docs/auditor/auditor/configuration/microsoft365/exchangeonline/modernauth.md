@@ -57,10 +57,10 @@ Permission assignment will depend on the data you plan to collect:
 
 | To... | Requirement | Comment |
 | --- | --- | --- |
-| Collect audit data | Microsoft Entra ID app requires the following __Application__ permissions:   1. __Microsoft Graph__    - Directory.Read.All    - Application.ReadWrite.All    - __Mail.ReadBasic.All__    - __MailboxSettings.Read__ 2. __Office 365 Management APIs__    - __ActivityFeed.Read__ 3. __Office 365 Exchange Online__     - __Exchange.ManageAsApp__ | To learn how to assign required permissions, see the [Access Exchange Online Using Modern Authentication](#Access-Exchange-Online-Using-Modern-Authentication) section for additional information. |
+| Collect audit data | Microsoft Entra ID app requires the following __Application__ permissions:   1. __Microsoft Graph__    - Directory.Read.All    - Application.ReadWrite.All    - __Mail.ReadBasic.All__    - __MailboxSettings.Read__ 2. __Office 365 Management APIs__    - __ActivityFeed.Read__ 3. __Office 365 Exchange Online__     - __Exchange.ManageAsApp__ | To learn how to assign required permissions, see the Access Exchange Online Using Modern Authentication section for additional information. |
 | Roles | _Exchange Administrator_ (_Exchange Service Administrator_) assigned to application service principal  OR  _Global Administrator_ assigned to application service principal |  |
 
-__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the [Access Exchange Online Using Modern Authentication](#Access-Exchange-Online-Using-Modern-Authentication) topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
+__NOTE:__ You can also assign application permissions by editing Microsoft Entra app manifest. See the Access Exchange Online Using Modern Authentication topic for additional information on how to assign the required permissions. Information about manifest is also described in the following Microsoft article: [ Microsoft Entra app manifest](https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest).
 
 #### Grant Admin Consent to a Tenant
 

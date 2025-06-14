@@ -126,7 +126,7 @@ User Name Example:
 
 - Netwrix\JonSmith+LocalAdmin+sql1
 
-If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#Configure-Remote-Desktop-Connection-to-Prompt-for-Password) topic for additional information.
+If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the Configure Remote Desktop Connection to Prompt for Password topic for additional information.
 
 ## Microsoft Remote Desktop Connection Manager (RDP)
 
@@ -157,7 +157,7 @@ Server Name/Port:
 
 localhost:4489
 
-If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the [Configure Remote Desktop Connection to Prompt for Password](#Configure-Remote-Desktop-Connection-to-Prompt-for-Password) topic for additional information.
+If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the Configure Remote Desktop Connection to Prompt for Password topic for additional information.
 
 ## Configure Remote Desktop Connection to Prompt for Password
 

@@ -40,9 +40,9 @@ The ```MinimumLevel``` section sets the lowest priority log level that will be d
 ```MinimumLevel``` value can either be a log level or an object with the following attributes and subsections:
 
 - __Default__ sets the minimum log level.
-- ```Override``` allows the user to set a different minimum log level for logs from a specific namespace. See the [
+- ```Override``` allows the user to set a different minimum log level for logs from a specific namespace. See the 
   Monitoring
-  ](#Monitoring) topic for additional information.
+   topic for additional information.
 
   Within Identity Manager, the following example is a good practice: default logs with a priority lower than ```Error``` are filtered out, except for log messages from the Identity Manager namespace.
 
@@ -106,9 +106,9 @@ In addition to the Microsoft log levels, Serilog provides a [Filters](https://gi
 
 ## Sinks
 
-Serilog allows the user to route log messages to a variety of logging destinations. Every destination is referred to as a sink. [Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) allows logs to be routed to destination such as standard consoles, files and logging services. See the [
+Serilog allows the user to route log messages to a variety of logging destinations. Every destination is referred to as a sink. [Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) allows logs to be routed to destination such as standard consoles, files and logging services. See the 
 Monitoring
-](#Monitoring) topic for additional information.
+ topic for additional information.
 
 Identity Manager's supported sinks are:
 

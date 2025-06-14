@@ -48,9 +48,7 @@ When getting Identity Manager data in [Connect Power BI to Identity Manager](/do
 
 ## Child Element: Association Instance
 
-An association instance represents, within a [
-Universe
-](#Universe), the occurrence in the model of an [
+An association instance represents, within a Universe, the occurrence in the model of an [
 Entity Association
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
@@ -65,9 +63,7 @@ Entity Association
 
 ## Child Element: Entity Instance
 
-An entity instance represents, within a [
-Universe
-](#Universe), the occurrence in the model of an [
+An entity instance represents, within a Universe, the occurrence in the model of an [
 Entity Association
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 

@@ -33,13 +33,13 @@ __Step 3 –__ Configure and execute analysis tasks.
 
 - Configure the Create Groups analysis task
 - Execute the analysis tasks
-- See the [Configure & Execute Analysis Tasks](#configure-execute-analysis-tasks) topic for additional information
+- See the [Configure & Execute Analysis Tasks](#configure--execute-analysis-tasks) topic for additional information
 
 __Step 4 –__ Configure and execute Active Directory action task.
 
 - Configure & Enable the Create Groups action task
 - Execute the Create Groups action task
-- See the [Configure & Execute Active Directory Action Task](#configure-execute-active-directory-action-task) topic for additional information
+- See the [Configure & Execute Active Directory Action Task](#configure--execute-active-directory-action-task) topic for additional information
 
 __Step 5 –__ Execute File System action task.
 
@@ -106,7 +106,7 @@ There are the following action tasks:
 - Create Groups – Create groups and add resource based groups
 - Modify Permissions – Add list groups
 
-It is recommended to review the tables used by the actions prior to executing the actions. For instructions on configuring action tables, see the [Configure & Enable the Create Groups Action Task](#configure-enable-the-create-groups-action-task) topic. The actions act upon the data within the following tables:
+It is recommended to review the tables used by the actions prior to executing the actions. For instructions on configuring action tables, see the [Configure & Enable the Create Groups Action Task](#configure--enable-the-create-groups-action-task) topic. The actions act upon the data within the following tables:
 
 - FS\_ListTraverseGroups\_NewGroups
 - FS\_ListTraverseGroups\_NewPermissions

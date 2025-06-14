@@ -26,8 +26,8 @@ A group naming policy defined in Microsoft Entra Admin Center has no impact in D
 
 What do you want to do?
 
-- [Add a Prefix for an Identity Store](#Add-a-Prefix-for-an-Identity-Store)
-- [Add a Prefix for a Security Role in an Identity Store](#Add-a-Prefix-for-a-Security-Role-in-an-Identity-Store)
+- Add a Prefix for an Identity Store
+- Add a Prefix for a Security Role in an Identity Store
 
 ## Add a Prefix for an Identity Store
 
@@ -58,7 +58,7 @@ Delete a Prefix
 4. On the __Security Roles__ page, click __Edit__ for a security role.
 5. On the __Edit Security Role__ page, click __Specify policies for the members__ in the __Policies__ area.
 6. On the __Add Policies__ pane, click the __Group Name Prefixes__ tab.
-7. Refer to step 4 and onwards in the [Add a Prefix for an Identity Store](#Add-a-Prefix-for-an-Identity-Store) topic to add, edit, or delete a group name prefix for a security role.
+7. Refer to step 4 and onwards in the Add a Prefix for an Identity Store topic to add, edit, or delete a group name prefix for a security role.
 8. Select the __Enforce Prefix__ check box to make it mandatory for role members to select a role-specific prefix to append group names while
    creating groups.
 9. Click __OK__.

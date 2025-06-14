@@ -15,9 +15,9 @@ In addition to these password restrictions, you can define a password policy for
 
 What do you want to do?
 
-- [Define Restricted Passwords](#Define-Restricted-Passwords)
-- [Specify Regular Expressions for Allowed Passwords](#Specify-Regular-Expressions-for-Allowed-Passwords)
-- [Specify Disallowed Passwords Using an External File](#Specify-Disallowed-Passwords-Using-an-External-File)
+- Define Restricted Passwords
+- Specify Regular Expressions for Allowed Passwords
+- Specify Disallowed Passwords Using an External File
 
 ## Define Restricted Passwords
 

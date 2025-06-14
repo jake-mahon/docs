@@ -4,7 +4,7 @@ This type of review is used to keep your roles up to date. When you click on a m
 
 As an __Additional Reviewer__, you can only review Users in the Role Membership that are assigned to you. Look for rows with no highlighting, with the __Status__ of __Additional Reviewer__ assigned to you.
 
-Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab lists the review details for the review.
+Reviews open on the __Review__ tab. The __Review Notes__ tab lists the review details for the review.
 
 ![Opening a review as an additional user](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_review.webp)
 
@@ -12,8 +12,8 @@ Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab li
 
 You can perform these actions as part of your review:
 
-- [Review and Complete Role Membership Review](#Review-and-Complete-Role-Membership-Review)
-- [Remove Users from the Role](#Remove-Users-from-the-Role)
+- Review and Complete Role Membership Review
+- Remove Users from the Role
 
 Other actions:
 

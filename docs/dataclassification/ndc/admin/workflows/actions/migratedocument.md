@@ -14,7 +14,7 @@ __IMPORTANT!__ Before you add the __Migration__ action to your workflow, you sho
 
 When running the Workflow wizard and having selected __Migration__ as action, you will be prompted to configure related settings.
 
-[](#)[To configure migration using Workflow wizard:](#To-configure-migration-using-Workflow-wizard)
+[](#)To configure migration using Workflow wizard:
 
 On the What do you want to do step, select Migrate Document action. do the following:
 

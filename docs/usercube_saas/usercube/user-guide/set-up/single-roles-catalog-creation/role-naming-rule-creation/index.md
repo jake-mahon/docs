@@ -98,7 +98,7 @@ Select single roles and find the role(s) you created inside the right category a
 
 ![Access Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
 
-> [Our example](#Our-example) would look like:
+> Our example would look like:
 >
 > ![Example - Generated Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
 

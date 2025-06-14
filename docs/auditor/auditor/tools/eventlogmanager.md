@@ -16,11 +16,11 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 Review the following for additional information:
 
-- [Create Monitoring Plans for Event Logs](#Create-Monitoring-Plans-for-Event-Logs)
-- [Configure Audit Archiving Filters for Event Log](#Configure-Audit-Archiving-Filters-for-Event-Log)
-- [Create Monitoring Plan for System Health Log ](#Create-Monitoring-Plan-for-System-Health-Log)
-- [Review Past Event Log Entries](#Review-Past-Event-Log-Entries)
-- [Import Audit Data with the Database Importer ](#Import-Audit-Data-with-the-Database-Importer)
+- Create Monitoring Plans for Event Logs
+- Configure Audit Archiving Filters for Event Log
+- Create Monitoring Plan for System Health Log 
+- Review Past Event Log Entries
+- Import Audit Data with the Database Importer 
 - [Create Alerts for Event Log](/docs/auditor/auditor/admin/alertsettings/createeventlog.md)
 - [Create Alerts for Non-Owner Mailbox Access Events](/docs/auditor/auditor/admin/alertsettings/createmailboxaccess.md)
 
@@ -51,7 +51,7 @@ __Step 5 –__ Navigate to the General tab and configure the following:
 
 | Option | Description |
 | --- | --- |
-| User name  Password | Enter the account that will be used by Netwrix Auditor Event Log Manager for data collection. For a full list of the rights and permissions required for the account, and instructions on how to configure them, refer to the [Permissions for Event Log Auditing](#Permissions-for-Event-Log-Auditing) section. |
+| User name  Password | Enter the account that will be used by Netwrix Auditor Event Log Manager for data collection. For a full list of the rights and permissions required for the account, and instructions on how to configure them, refer to the Permissions for Event Log Auditing section. |
 | Audit archiving filters | Define what events will be saved to the Long-Term Archive or the Audit Database. Refer to for detailed instructions on how to configure audit archiving filters. |
 | Alerts | Configure alerts that will be triggered by specific events. Refer to [Create Alerts for Event Log](/docs/auditor/auditor/admin/alertsettings/createeventlog.md) for detailed instructions on how to configure Netwrix Auditor Event Log Manager alerts. |
 
@@ -100,7 +100,7 @@ The product allows creating inclusive and exclusive audit archiving filters.
 
 Follow the steps to configure audit archiving filters.
 
-__Step 1 –__ To create or modify an audit archiving filter, see [Create Monitoring Plans for Event Logs](#Create-Monitoring-Plans-for-Event-Logs).
+__Step 1 –__ To create or modify an audit archiving filter, see Create Monitoring Plans for Event Logs.
 
 __Step 2 –__ To collect events required to generate a specific report, you must select a filter which name coincides with this report’s name. Click Enable and select Filters for Reports. All filters required to store events for all available reports will be selected automatically.
 
@@ -116,7 +116,7 @@ __Step 2 –__ Complete the fields. Review the following for additional informat
 | Name | Specify the filter name. |
 | Description | Enter the description for this filter (optional). |
 | Event Log | Select an event log from the drop-down list. You will be alerted on events from this event log. You can also input a different event log.  To find out a log’s name, navigate to Start > Windows Administrative Tools→ Event Viewer → Applications and Services Logs → Microsoft → Windows and expand the required `<Log_Name>` node, right-click the file under it and select Properties. Find the event log’s name in the Full Name field.  Netwrix Auditor Event Log Manager does not collect the Analytic and Debug logs, so you cannot configure alerts for these logs.  You can use a wildcard (`*`). For inclusive filters: all Windows logs except for the ones mentioned above will be saved. For exclusive: all Windows logs events will be excluded. |
-| Write to/Don't write to | Select the location to write/not to write events to, depending on the filter type (inclusive or exclusive).  It is recommended to write events both to the Long-Term Archive and to the Audit Database, because if your database is corrupted, you will be able to import the necessary data from the Long-Term Archive using the DB Importer tool. See [Import Audit Data with the Database Importer ](#Import-Audit-Data-with-the-Database-Importer) for more information. |
+| Write to/Don't write to | Select the location to write/not to write events to, depending on the filter type (inclusive or exclusive).  It is recommended to write events both to the Long-Term Archive and to the Audit Database, because if your database is corrupted, you will be able to import the necessary data from the Long-Term Archive using the DB Importer tool. See Import Audit Data with the Database Importer  for more information. |
 | The Event Fields tab |  |
 | Event ID | Enter the identifier of a specific event that you want to be save. You can add several IDs separated by comma. |
 | Event Level | Select the event types that you want to be save. If the Event Level check box is cleared, all event types will be saved.  If you want to select the inclusive Success Audit/Failure Audit filters, note that on these platforms these events belong to the “Information” level, so they will not be collected if you select the Information checkbox in the Exclusive Filters. |

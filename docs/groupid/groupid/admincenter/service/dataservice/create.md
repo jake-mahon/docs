@@ -82,7 +82,7 @@ Step 6 – In the Deployment Name box, enter a deployment name for the service. 
 
 Step 7 – To enter information for API URL, Access Token, Username, Password, IIS Application Name, and Website, refer to steps 7-11 in the [Create a Portal in Remote IIS](/docs/groupid/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic. Replace any reference to the portal with the Data service.
 
-Step 8 – For entering information in the Service Endpoints area, follow steps 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
+Step 8 – For entering information in the Service Endpoints area, follow steps 9 in the Create a Data Service in Native IIS topic.
 
 Step 9 – Click __Create Application__.  
 The new Data service is displayed on the Data Service tab.
@@ -113,7 +113,7 @@ Step 6 – In the Deployment Name box, enter a deployment name for the service. 
 
 Step 7 – To enter information for Port, Service URL, and Container Name, refer to steps 7-9 in the [Create a Portal in Docker](/docs/groupid/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace any reference to the portal with the Data service.
 
-Step 8 – For entering information in the Service Endpoints area, follow step 9 in the [Create a Data Service in Native IIS](#Create-a-Data-Service-in-Native-IIS) topic.
+Step 8 – For entering information in the Service Endpoints area, follow step 9 in the Create a Data Service in Native IIS topic.
 
 Step 9 – Click __Create Application__.  
 The Data service is created and displayed on the Data Service tab.

@@ -2,7 +2,7 @@
 
 Examine the Active Directory state-in-time data on the user account attributes:
 
-- [User Accounts - Attributes](#User-Accounts-Attributes)
+- User Accounts - Attributes
 
 To instruct Netwrix Auditor to collect data needed for the report, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for additional information.
 
@@ -16,10 +16,10 @@ For this report to function properly, you must enable the __Collect data for sta
 
 ### Tips to Work with Report
 
-1. Set desired filters in the report header. See [Filters](#Filters) for more information.
+1. Set desired filters in the report header. See Filters for more information.
 2. Select as many Accounts details to show as needed. Selected details are shown in the table view for each account that comply filtering criteria.
 3. Filter on Sort by to bring important accounts' data to front.
-4. Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the [Reported Attributes](#Reported-Attributes)  topic below for more information.
+4. Add filters by specific attribute values to narrow your report scope. In this case, the report shows only accounts that contains these values. See the Reported Attributes  topic below for more information.
 5. The report is limited by 2000 records. To view all, create subscription to the report. The subscription (email attachment or file uploaded to a file share) will contain complete data.
 6. If you have more than 2000 entities within the report scope, sorting might work incorrectly. Apply filters to narrow your report scope.
 
@@ -33,7 +33,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 - Item — name of the item within your monitoring plan.
 - Account details to show — set of AD attributes to display in the report for each account.
 - Sort by — list of available sorting parameters.
-- Attribute/Value — list of available AD attributes with the ability to provide specific value. Review the full list in the [Reported Attributes](#Reported-Attributes)
+- Attribute/Value — list of available AD attributes with the ability to provide specific value. Review the full list in the Reported Attributes
 
 ### Reported Data
 

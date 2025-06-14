@@ -2,7 +2,7 @@
 
 Before making any changes, it is important to understand the scope of the planned change, potential impacts and the level of change required. Documentation is also available if you are using the old [Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request_old_form.md) form. Refer to [Setting Preferred Forms](/docs/strongpointfornetsuite/customizations/setting_preferred_forms.md) for information on designating your preferred Change Request form.
 
-SuiteCloud Development Framework (SDF) users can [upload their Sandbox development file](#upload-their-Sandbox-development-file) directly into a production ITGC Change Request. The Change Request populates the scope with the existing customizations and adds new ones to proposed customizations.
+SuiteCloud Development Framework (SDF) users can upload their Sandbox development file directly into a production ITGC Change Request. The Change Request populates the scope with the existing customizations and adds new ones to proposed customizations.
 
 If you want to see if the change would have an impact in your sandbox, you can also create a change request in your sandbox account.
 
@@ -34,7 +34,7 @@ If you want to see if the change would have an impact in your sandbox, you can a
    - __Add Customizations from SDF Zip file__: SuiteCloud Development Framework (SDF) users can upload their Sandbox development file. The Change Request populates the scope with the existing customizations and adds new ones to proposed customizations.   
      Click __Choose File__ and navigate to your SDF zipped file.
    - __Do Not ReSpider Automatically__: when unchecked, an Automatic ReSpider occurs when the Change Request status is set to __Completed__.   
-     The ReSpider ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__. The default for the __Do Not ReSpider Automically__ is set on the [Configuration and Stats Change Management](/docs/strongpointfornetsuite/installing_strongpoint/installation_settings_report.md#configuration-and-stats-change-management) tab.
+     The ReSpider ensures that all change logs are complete prior to changing the status. If automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant if the change logs are not complete when the user changes the status to __Completed__. The default for the __Do Not ReSpider Automically__ is set on the [Configuration and Stats Change Management](/docs/strongpointfornetsuite/installing_strongpoint/installation_settings_report.md) tab.
    - __Proposed Customizations__: Use this field when you are adding customizations that do not yet exist in your account. You can add multiple Script IDs by separating them with commas. Can be used in conjunction with customizations that already exist.   
      New __Entry__ and __Transaction__ forms can be pre-approved by adding the Script ID of the form. The Script ID must match the Script ID set in __Customizations__ > __Forms__ > __Entry Form__ (prefix __custform__ is automatically added for you on the __Custom Entry Form__).
        
@@ -51,7 +51,7 @@ If you want to see if the change would have an impact in your sandbox, you can a
 3. Click __In Progress__ in the status bar to indicate you are working on the Change Request.
 4. __Save__ the Change Request. New sections and tabs are available once you save:
 
-   1. __Push to Jira__ button is available if the [Jira integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) is available, and [Allow NS to Push to Jira](/docs/strongpointfornetsuite/integrations/jira_integration.md#allow-nsto-push-to-jira) is enabled. When prompted, select the Jira project and click __Push__. A Jira ticket is created. The ticket number is added to the __Related Change Records__ tab as an __External Change Request Number__. The customizations are added to the new Jira ticket.
+   1. __Push to Jira__ button is available if the [Jira integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) is available, and [Allow NS to Push to Jira](/docs/strongpointfornetsuite/integrations/jira_integration.md) is enabled. When prompted, select the Jira project and click __Push__. A Jira ticket is created. The ticket number is added to the __Related Change Records__ tab as an __External Change Request Number__. The customizations are added to the new Jira ticket.
    2. __Download SDF Project__ button downloads the Change Request as a zip file.
    3. The __Approval__ section is visible. Click __Edit to__ add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes.
 

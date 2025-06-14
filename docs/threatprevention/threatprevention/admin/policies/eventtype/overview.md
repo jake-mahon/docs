@@ -47,7 +47,7 @@ See the following topics for additional details:
 
 ## Event Filters Overview
 
-Policies are scoped using the Event Filters tabs ascribed to the policy on the basis of the event type selected on the [Event Selection Window](#Event-Selection-Window).
+Policies are scoped using the Event Filters tabs ascribed to the policy on the basis of the event type selected on the Event Selection Window.
 
 The filters appear on the Event Type tab when an event type is selected.
 

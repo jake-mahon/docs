@@ -16,11 +16,11 @@ Stepping through this process helps organize the work and manage the risk. Small
 
 These items can help you identify Customizations for Clean Up:
 
-> [Date Last Used](#Date-Last-Used)
+> Date Last Used
 >
-> [Automated Report Clean Up](#Automated-Report-Clean-Up)
+> Automated Report Clean Up
 >
-> [Employees Related to a Customization](#Employees-Related-to-a-Customization)
+> Employees Related to a Customization
 
 ## Date Last Used
 

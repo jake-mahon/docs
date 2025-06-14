@@ -4,12 +4,12 @@ Result data is displayed using data grids on several interfaces in the Administr
 
 ![Data Grid Functionality pointers](/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.webp)
 
-- The Group by Box [1] ribbon impacts how much data is displayed. See the [Sort Data](#Sort-Data) topic for additional information.
+- The Group by Box [1] ribbon impacts how much data is displayed. See the Sort Data topic for additional information.
 - The Refresh [2] button populates the data grid with the current information according to the selections.
-- Columns can be reordered as desired as well as removed from the data grid. Removed columns can be added back through the [Customization Window](#Customization-Window).
-- Many data grids also contain an Export Data [3] button. This provides different export options with respect to the interface. See the [Export Data](#Export-Data) topic for additional information.
-- The Search [4] icon opens the __Enter text to search…__ textbox where you can search for the required data in the data grid. See the [Search Data](#Search-Data) topic for additional information.
-- The Auto Filter row [5] uses comparison operators to filter the grid against a single attribute. See the [Filter Data](#Filter-Data) topic for additional information.
+- Columns can be reordered as desired as well as removed from the data grid. Removed columns can be added back through the Customization Window.
+- Many data grids also contain an Export Data [3] button. This provides different export options with respect to the interface. See the Export Data topic for additional information.
+- The Search [4] icon opens the __Enter text to search…__ textbox where you can search for the required data in the data grid. See the Search Data topic for additional information.
+- The Auto Filter row [5] uses comparison operators to filter the grid against a single attribute. See the Filter Data topic for additional information.
 
 ## Customization Window
 
@@ -105,7 +105,7 @@ The Export window provides options for what is exported and what action(s) to ta
 
 In the Export options section, select the option buttons for the Columns and Rows subsections.
 
-- For Columns, you can export data displayed in Visible Columns Only or for All Columns. See the [Customization Window](#Customization-Window) topic for details on selecting what columns are visible in a data grid.
+- For Columns, you can export data displayed in Visible Columns Only or for All Columns. See the Customization Window topic for details on selecting what columns are visible in a data grid.
 - For Rows, the exported data can show All Rows or Filtered Only.
 
 In the Export Actions section, select where data will be exported. Check the boxes for Save File Locally and/or Email to and populate the required fields.

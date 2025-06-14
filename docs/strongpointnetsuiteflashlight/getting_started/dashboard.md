@@ -4,14 +4,14 @@ Flashlight comes with a comprehensive dashboard with everything to manage your a
 
 These are the Dashboard portlets:
 
-- [Spider Status](#Spider-Status)
-- [Reminders](#Reminders)
-- [Resources](#Resources)
-- [Chart](#Chart)
-- [Key Tools](#Key-Tools)
-- [ERD Generator](#ERDGenerator)
-- [Last Spider Run Summary](#Last-Spider-Run-Summary)
-- [Search Form](#Search-Form)
+- Spider Status
+- Reminders
+- Resources
+- Chart
+- Key Tools
+- ERD Generator
+- Last Spider Run Summary
+- Search Form
 
 ## Spider Status
 

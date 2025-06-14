@@ -15,7 +15,7 @@ You can define the following policies for a role:
 - [Synchronize Policy](/docs/groupid/groupid/admincenter/securityrole/policy/synchronize.md)
 - [Membership Object Type Enforcement Policy](/docs/groupid/groupid/admincenter/securityrole/policy/membershipobjecttypeenforcement.md)
 
-NOTE: For users with multiple roles, the policies specified for the highest priority role apply (see [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority)). The _[Search Policy](/docs/groupid/groupid/admincenter/securityrole/policy/search.md)_,
+NOTE: For users with multiple roles, the policies specified for the highest priority role apply (see [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md)). The _[Search Policy](/docs/groupid/groupid/admincenter/securityrole/policy/search.md)_,
 _[New Object Policy](/docs/groupid/groupid/admincenter/securityrole/policy/newobject.md)_, and _[Group Name Prefixes](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md)_ policy, however, apply with respect to all assigned roles. For example, if different search containers are specified for two different roles of a user, that
 user can search and view objects in both containers. See the following topics for additional information on security roles:
 

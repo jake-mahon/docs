@@ -1,7 +1,7 @@
 # Permissions for Dell Isilon/PowerScale Auditing
 
 Before you start creating a monitoring plan to audit your Dell Isilon/PowerScale file storage system, plan for the account that will be used for data collection.
-See the [Configuring Your Dell Isilon/PowerScale Cluster for Auditing](#Configuring-Your-Dell-IsilonPowerScale-Cluster-for-Auditing) section for additional information.
+See the Configuring Your Dell Isilon/PowerScale Cluster for Auditing section for additional information.
 The following scenarios are possible:
 
 - Automatic configuration: you can use a special shell script for configuring an audited Dell Isilon/PowerScale cluster and granting necessary privileges to the account used to collect audit data. See the following topics for additional information:

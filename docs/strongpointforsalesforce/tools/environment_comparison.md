@@ -1,18 +1,18 @@
 # Environment Comparison
 
-Administrators use this tool to compare environments and generate an Excel report file with the results. This report can be used to troubleshoot processes or data causing errors in a particular account, compare preferences between accounts, or determine if data needs to migrate between accounts. An [Environment Compare Log](/docs/strongpointforsalesforce/reports/deployment_logs_environment_compare.md#environment-compare-log) is generated. The comparison can handle up to 10,000 items. You receive an email with a link to the [Export Object Attachment](/docs/strongpointforsalesforce/tools/export_object_attachment_records.md) record, where you can download your file. Here is the basic process:
+Administrators use this tool to compare environments and generate an Excel report file with the results. This report can be used to troubleshoot processes or data causing errors in a particular account, compare preferences between accounts, or determine if data needs to migrate between accounts. An [Environment Compare Log](/docs/strongpointforsalesforce/reports/deployment_logs_environment_compare.md) is generated. The comparison can handle up to 10,000 items. You receive an email with a link to the [Export Object Attachment](/docs/strongpointforsalesforce/tools/export_object_attachment_records.md) record, where you can download your file. Here is the basic process:
 
 Open __Netwrix Dashboard__ > __Tools__ > __Environment Comparison__
 
-[Select the Environments to Compare](#Select-the-Environments-to-Compare)
+Select the Environments to Compare
 
-[Add Filters for the Comparison](#Add-Filters-for-the-Comparison)
+Add Filters for the Comparison
 
-[Select Export Options](#Select-Export-Options)
+Select Export Options
 
-[Run the Comparison](#Run-the-Comparison)
+Run the Comparison
 
-[View the Report](#View-the-Report)
+View the Report
 
 ## Select the Environments to Compare
 

@@ -1,6 +1,6 @@
 # UAR History
 
-When reviews are complete, they are added to the __UAR History__. Click __UAR History__ in your menu bar to access the list. Completed reviews cannot be modified. You can use __Filters__ to narrow down your list. Additional reporting for extracting permission and membership data is available from the [administrator](/docs/strongpointfornetsuite/uar/uar_admin/admin_uar_list.md#administrator) and [owner](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md#owner) Review lists.
+When reviews are complete, they are added to the __UAR History__. Click __UAR History__ in your menu bar to access the list. Completed reviews cannot be modified. You can use __Filters__ to narrow down your list. Additional reporting for extracting permission and membership data is available from the [administrator](/docs/strongpointfornetsuite/uar/uar_admin/admin_uar_list.md) and [owner](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md) Review lists.
 
 UAR Administrators and Auditors see all completed reviews.  
 Owners see their assigned, completed reviews.   

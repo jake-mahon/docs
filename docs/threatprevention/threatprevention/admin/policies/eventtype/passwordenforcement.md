@@ -106,7 +106,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
-__NOTE:__ For the [Password Enforcement Event Type](#Password-Enforcement-Event-Type), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
+__NOTE:__ For the Password Enforcement Event Type, selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -124,7 +124,7 @@ Use the Hosts (from) filter for lockdown to set the scope of the policy to only 
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
-- For the [Password Enforcement Event Type](#Password-Enforcement-Event-Type), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
+- For the Password Enforcement Event Type, selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
 - For the [Authentication Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.md), this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.

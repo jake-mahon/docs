@@ -6,10 +6,10 @@ After signing into the Directory Manager portal, from the left pane select __Syn
 
 The interface has intuitive navigation options:
 
-- [Quick Search](#Quick-Search)
-- [Top Right Options](#Top-Right-Options)
-- [Menu Pane](#Menu-Pane)
-- [Dashboard](#Dashboard)
+- Quick Search
+- Top Right Options
+- Menu Pane
+- Dashboard
 
 ## Quick Search
 
@@ -31,7 +31,7 @@ Look on the left side of the page for the navigation pane, which lists links to:
 
 - Create New ([Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md) and [Create a Job Collection
   ](/docs/groupid/groupid/portal/synchronize/collection/create.md))
-- [Dashboard](#Dashboard)
+- Dashboard
 - [Manage a Job](/docs/groupid/groupid/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/groupid/groupid/portal/synchronize/manage/jobcollection.md)
 - [Job Templates](/docs/groupid/groupid/portal/synchronize/manage/jobtemplate.md)

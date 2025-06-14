@@ -20,9 +20,9 @@ The following table lists the search forms that you can customize:
 
 What do you want to do?
 
-- [Add a Field to a Search Form](#Add-a-Field-to-a-Search-Form)
-- [Update a Field on a Search Form](#Update-a-Field-on-a-Search-Form)
-- [Remove a Field from a Search Form](#Remove-a-Field-from-a-Search-Form)
+- Add a Field to a Search Form
+- Update a Field on a Search Form
+- Remove a Field from a Search Form
 
 ## Add a Field to a Search Form
 
@@ -66,7 +66,7 @@ __To update a field:__
 4. Click __Search Forms__ in the left pane.
 5. On the __Search Form__ tab, the search forms available in the portal are listed under __Name__.Click __Edit__ for a form to update its fields.
 6. On the __Edit Search Form__ pane, click __Edit__ for a field to update it.
-7. The __Edit Field__ pane is displayed. Refer to step 7 and onwards in the [Add a Field to a Search Form](#Add-a-Field-to-a-Search-Form) topic to update the field.
+7. The __Edit Field__ pane is displayed. Refer to step 7 and onwards in the Add a Field to a Search Form topic to update the field.
 
 ## Remove a Field from a Search Form
 

@@ -1,6 +1,6 @@
 # General Tab
 
-Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the [Netwrix Password Policy Enforcer](#Netwrix-Password-Policy-Enforcer) topic for additional information.
+Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for additional information.
 
 ![configuring_npr](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr.webp)
 

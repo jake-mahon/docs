@@ -18,9 +18,9 @@ It is mandatory to use the above-mentioned environment variables to configure th
 
 ### HTTPS\_PROXY
 
-The ```HTTPS_PROXY``` environment variable may be the hostname or IP address, optionally followed by a colon and port number, or it may be an http URL, optionally including a username and password for [
+The ```HTTPS_PROXY``` environment variable may be the hostname or IP address, optionally followed by a colon and port number, or it may be an http URL, optionally including a username and password for 
 Proxy Server
-](#Proxy-Server)authentication.
+authentication.
 
 The URL must start with ```http```, __not https__, and cannot include any text after the hostname, IP, or port.
 

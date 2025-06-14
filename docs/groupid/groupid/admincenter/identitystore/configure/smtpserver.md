@@ -18,11 +18,11 @@ You can also specify notification recipients, that can be:
 
 What do you want to do?
 
-- [Configure an SMTP Server](#Configure-an-SMTP-Server)
-- [Specify Notification Recipients](#Specify-Notification-Recipients)
-- [Specify a Portal URL for Password Expiry Group Notifications](#Specify-a-Portal-URL-for-Password-Expiry-Group-Notifications)
-- [Manage Membership Life Cycle Notifications](#Manage-Membership-Life-Cycle-Notifications)
-- [Manage Managed by Life Cycle Notifications](#Manage-Managed-by-Life-Cycle-Notifications)
+- Configure an SMTP Server
+- Specify Notification Recipients
+- Specify a Portal URL for Password Expiry Group Notifications
+- Manage Membership Life Cycle Notifications
+- Manage Managed by Life Cycle Notifications
 
 ## Configure an SMTP Server
 

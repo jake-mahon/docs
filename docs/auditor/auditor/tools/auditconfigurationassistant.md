@@ -8,7 +8,7 @@ You can instruct the utility to automatically apply the required settings.
 
 For that, you should ensure that the account you plan to use for accessing the target domain has the necessary rights.
 
-__Audit Configuration Assistant__ is a part of Netwrix Auditor product setup. It is installed together with the Auditor client and can be launched from the __Start__ __menu__ __>____Netwrix Auditor____>____Netwrix Auditor Audit Configuration Assistant__. Alternatively, you can launch this utility from the monitoring plan wizard for Active Directory data source. See the [Launch Audit Configuration Assistant](#Launch-Audit-Configuration-Assistant) section for additional information.
+__Audit Configuration Assistant__ is a part of Netwrix Auditor product setup. It is installed together with the Auditor client and can be launched from the __Start__ __menu__ __>____Netwrix Auditor____>____Netwrix Auditor Audit Configuration Assistant__. Alternatively, you can launch this utility from the monitoring plan wizard for Active Directory data source. See the Launch Audit Configuration Assistant section for additional information.
 
 Currently, the utility supports Active Directory and Logon Activity data sources.
 
@@ -26,10 +26,10 @@ You can create a dedicated account for the assessment purposes, include it in th
 
 To assess and adjust the audit settings with Audit Configuration Assistant, take the following steps:
 
-1. [Launch Audit Configuration Assistant](#Launch-Audit-Configuration-Assistant)
-2. [Start Assessment](#Start-Assessment)
-3. [View Results](#View-Results)
-4. [Complete the process](#Complete-the-process)
+1. Launch Audit Configuration Assistant
+2. Start Assessment
+3. View Results
+4. Complete the process
 
 ## Launch Audit Configuration Assistant
 
@@ -100,4 +100,4 @@ __Step 1 –__ Wait for the process to complete.
 
 __Step 2 –__ Review the results. Successfully applied settings will be reported with a green tick; those that did not manage to apply will be with the yellow warning sign and explanatory text.
 
-__Step 3 –__ You can click __Start over__ to get to the [Start Assessment](#Start-Assessment), fix the issues and perform the procedure again, or click __Finish__.
+__Step 3 –__ You can click __Start over__ to get to the Start Assessment, fix the issues and perform the procedure again, or click __Finish__.

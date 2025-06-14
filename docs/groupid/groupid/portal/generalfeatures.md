@@ -2,16 +2,16 @@
 
 Directory Manager portal encompasses various functionalities available for the users that are:
 
-- [Directory Search](#Directory-Search)
-- [Find Dialog Box](#Find-Dialog-Box)
-- [
+- Directory Search
+- Find Dialog Box
+- 
   Portal Settings
-  ](#Portal-Settings)
-- [
+  
+- 
   User Account Settings
-  ](#User-Account-Settings)
-- [Toolbars
-  ](#Toolbars)
+  
+- Toolbars
+  
 
 ## Directory Search
 

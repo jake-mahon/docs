@@ -6,9 +6,9 @@ Run the scanners before you perform comparisons to ensure you have the latest da
 
 There are three Access Assistance search types:
 
-- [Search By Object](#Search-By-Object)
-- [Search By User](#Search-By-User)
-- [Search By Profile / Permission Set](#Search-By-Profile-Permission-Set)
+- Search By Object
+- Search By User
+- Search By Profile / Permission Set
 
 ## Search By Object
 

@@ -16,10 +16,10 @@ The table displays the following information:
 - Actions – Displays the icons used to collect, edit, and delete the respective domain
 
   - Run backup – Click the __Play__ icon to start a new collection (backup) on the respective domain if collection is needed outside of the configured schedule
-  - Edit configuration – Edit the settings of the domain. Click the __Edit__ icon for a domain to open the Edit Domain Configuration wizard and edit the domain's settings. See the [Edit Domain Configuration](#Edit-Domain-Configuration) topic for additional information.
+  - Edit configuration – Edit the settings of the domain. Click the __Edit__ icon for a domain to open the Edit Domain Configuration wizard and edit the domain's settings. See the Edit Domain Configuration topic for additional information.
   - Delete configuration – Click the Delete icon for a domain to delete it
 
-To add a domain, click the __Add domain configuration__ button. See the [Add a Domain](#Add-a-Domain) topic for additional information.
+To add a domain, click the __Add domain configuration__ button. See the Add a Domain topic for additional information.
 
 ### Add a Domain
 

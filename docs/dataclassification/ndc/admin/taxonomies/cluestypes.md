@@ -18,7 +18,7 @@ A case-sensitive phrase match clue, including any punctuation. There is no need 
 
 ## Phrasematch (Wildcard) Clues
 
-A phrase match clue that supports the use of ‘\*’ and ‘?’ wildcards when matching document text (see [Types of Clues](#Types-of-Clues)section for full REGEX support).
+A phrase match clue that supports the use of ‘\*’ and ‘?’ wildcards when matching document text (see Types of Cluessection for full REGEX support).
 
 ## Metadata Clues
 

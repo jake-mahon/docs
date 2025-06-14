@@ -25,9 +25,9 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  onBrokenAnchors: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -172,6 +172,23 @@ const config = {
         path: 'docs/dataclassification',
         routeBasePath: 'docs/dataclassification',
         sidebarPath: './sidebars/dataclassification.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Endpoint Protector Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'endpointprotector',
+        path: 'docs/endpointprotector',
+        routeBasePath: 'docs/endpointprotector',
+        sidebarPath: './sidebars/endpointprotector.js',
         editUrl:
           'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         versions: {
@@ -488,6 +505,10 @@ const config = {
               {
                 label: 'Data Classification',
                 to: '/docs/dataclassification',
+              },
+              {
+                label: 'Endpoint Protector',
+                to: '/docs/endpointprotector',
               },
               {
                 label: 'Group ID',

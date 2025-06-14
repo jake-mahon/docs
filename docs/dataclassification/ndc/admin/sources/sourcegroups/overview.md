@@ -4,7 +4,7 @@ Source groups provide a way of logically grouping specific sources, perhaps by t
 
 ![addtogroup](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/addtogroup.webp)
 
-A group can either be "mixed", which allows it to contain all source types, or source specific. In the example above a group would be created entitled "Demo Content", which only supports the addition of SharePoint sources. If a supporting source group already exists, this can be selected from the drop-down list provided. [See Dynamic Source Groups for more information.](#See-Dynamic-Source-Groups-for-more-information)
+A group can either be "mixed", which allows it to contain all source types, or source specific. In the example above a group would be created entitled "Demo Content", which only supports the addition of SharePoint sources. If a supporting source group already exists, this can be selected from the drop-down list provided. See Dynamic Source Groups for more information.
 
 Selecting the cog icon on the main sources grid screen for a source group allows you to amend the group settings:
 

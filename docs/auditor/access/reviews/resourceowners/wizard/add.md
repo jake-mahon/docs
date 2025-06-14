@@ -11,7 +11,7 @@ It contains four pages:
 - 3. Description — Optionally enter a note describing the resource
 - 4. Summary — This page provides a preview of the settings selected within the wizard
 
-See the [Add a Resource](#Add-a-Resource) topic for additional information.
+See the Add a Resource topic for additional information.
 
 ## Add a Resource
 

@@ -4,19 +4,19 @@ The Integration Mapping tool maps customizations between External Systems and Ne
 
 Here is the basic process. You can click on any of the steps to jump to the section.
 
-[Step 1](#Step-1): Create the External System Customization record. (optional)
+Step 1: Create the External System Customization record. (optional)
 
-[Step 2](#Step-2): Create a __.csv__ file.
+Step 2: Create a __.csv__ file.
 
-[Step 3](#Step-3): Open Integration Mapping tool.
+Step 3: Open Integration Mapping tool.
 
-[Step 4](#Step-4): Select or Enter the External System.
+Step 4: Select or Enter the External System.
 
-[Step 5](#Step-5): Upload your __.csv__ file.
+Step 5: Upload your __.csv__ file.
 
-[Step 6](#Step-6): Review and Finish.
+Step 6: Review and Finish.
 
-[Step 7](#Step-7): View the Summary and ERD.
+Step 7: View the Summary and ERD.
 
 ## Step 1: Create the External System Customization Record
 
@@ -51,7 +51,7 @@ __![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_
 
 ## Step 4: Select or Enter the External System
 
-1. Select an existing External System from the list if you created it during [Step 1](#Step-1), or Enter a new name to have the tool automatically create a new External System, for example: _Salesforce_. Strongpoint appends (External System) to the Name. For example, _Salesforce (External System)_.
+1. Select an existing External System from the list if you created it during Step 1, or Enter a new name to have the tool automatically create a new External System, for example: _Salesforce_. Strongpoint appends (External System) to the Name. For example, _Salesforce (External System)_.
 
    ![int_map_ext_sys](/img/product_docs/strongpointfornetsuite/integrations/int_map_ext_sys.webp)
 2. You can use the link to download the __.csv__ template if you have not already created the file.

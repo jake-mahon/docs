@@ -76,7 +76,7 @@ __Step 2 –__ Edit the \*.txt files, based on the following guidelines:
 
 This section lists Windows Server components and settings whose changes Netwrix Auditor can monitor.
 
-When monitoring a Windows Server, Netwrix Auditor needs to audit some registry settings. See the [Windows Server Registry Keys](#Windows-Server-Registry-Keys) section for additional information. If you want Netwrix Auditor to audit custom registry keys, see the [Monitoring Custom Registry Keys](#Monitoring-Custom-Registry-Keys)[Monitoring Custom Registry Keys](#Monitoring-Custom-Registry-Keys)topic for additional information.
+When monitoring a Windows Server, Netwrix Auditor needs to audit some registry settings. See the Windows Server Registry Keys section for additional information. If you want Netwrix Auditor to audit custom registry keys, see the Monitoring Custom Registry KeysMonitoring Custom Registry Keystopic for additional information.
 
 In the table below, double asterisks (\*\*) indicates the components and settings for which the Who value is reported as _“Not Applicable”_.
 

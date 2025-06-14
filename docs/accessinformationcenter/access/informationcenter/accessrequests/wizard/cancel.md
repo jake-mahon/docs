@@ -8,7 +8,7 @@ It contains one page:
 
 - 1. Add Notes — Allows Request Administrator to enter a note explaining why the request is being canceled
 
-See the [Cancel an Access Request](#Cancel-an-Access-Request) topic for additional information.
+See the Cancel an Access Request topic for additional information.
 
 ## Cancel an Access Request
 

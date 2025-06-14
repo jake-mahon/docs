@@ -29,7 +29,7 @@ The account used for data collection must meet the following requirements:
 
 The following is required if auto-backup is _enabled_ for the domain controller event logs:
 
-- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the [Assign Permission to Read the Registry Key](#Assign-Permission-to-Read-the-Registry-Key) topic for additional information.
+- Permissions to access the _HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Services\EventLog\Security_ registry key on the domain controllers in the target domain. See the Assign Permission to Read the Registry Key topic for additional information.
 - Membership in one of the following groups: __Administrators__, __Print Operators__, __Server Operators__.
 - Read/Write share permission and Full control security permission on the logs backup folder.
 

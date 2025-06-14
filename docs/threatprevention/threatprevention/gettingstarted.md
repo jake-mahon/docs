@@ -37,7 +37,7 @@ ___RECOMMENDED:___ After configuring a new policy, navigate to either the [Recen
 You can view event data using any of the following:
 
 - Administration Console – Navigate to either the Recent Events tab in the policy's configuration or to the Investigate interface to view data for the events being monitored. See the [Recent Events Tab](/docs/threatprevention/threatprevention/admin/policies/recentevents/overview.md) and [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md) topics for details. Event data configured to be sent to syslog (SIEM) can also be viewed on the [SIEM Output Viewer](/docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.md) window.
-- Netwrix Threat Manager Reporting Module – Use this application to run investigations and generate reports. See the [Set Up the Threat Manager Reporting Module](#Set-Up-the-Threat-Manager-Reporting-Module) topic to install and launch the application.
+- Netwrix Threat Manager Reporting Module – Use this application to run investigations and generate reports. See the Set Up the Threat Manager Reporting Module topic to install and launch the application.
 
 ## Configure Database Maintenance
 

@@ -102,7 +102,7 @@ You can restrict permissions for a user to the following areas:
 
 Super Users always have access to all Query Server administrative functions.
 
-Non-Super Users must have their access rights specifically configured and all rights are disabled by default. See [User Management](#User-Management) section for details about configuring the access rights for non-Super Users.
+Non-Super Users must have their access rights specifically configured and all rights are disabled by default. See User Management section for details about configuring the access rights for non-Super Users.
 
 Regardless of the authentication mode selected the usage of the QS administrative functions will continue to be unrestricted until at least one user is added. The first user must be a Super User. If Windows or ADFS Authentication are being used then the first user will default to the currently logged in user, although this can be changed if required.
 

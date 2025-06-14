@@ -2,10 +2,10 @@
 
 Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:
 
-___RECOMMENDED:___  [Manually Configure FPolicy (Recommended Option)](#Manually-Configure-FPolicy-Recommended-Option) – A tailored FPolicy
+___RECOMMENDED:___  Manually Configure FPolicy (Recommended Option) – A tailored FPolicy
 
 - If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing these commands on a vFiler, the commands must be run from a vFiler context (e.g. via the vFiler run command).
-- Allow the Activity Monitor to create an FPolicy automatically. See the [Automatic Configuration of FPolicy](#Automatic-Configuration-of-FPolicy) topic for additional information.
+- Allow the Activity Monitor to create an FPolicy automatically. See the Automatic Configuration of FPolicy topic for additional information.
 
   - This option is enabled when the Activity Monitor Activity Agent is configured to monitor the NetApp device on the NetApp FPolicy Configuration page of the Add New Hosts window.
   - It monitors all file system activity.
@@ -14,13 +14,13 @@ ___RECOMMENDED:___  [Manually Configure FPolicy (Recommended Option)](#Manually-
 
 This section describes how to manually configure FPolicy. Manual configuration of the FPolicy is recommended so that the policy can be scoped. It is necessary to create six FPolicy components and then enable the FPolicy. See the sections corresponding to each part of this list:
 
-- [Part 1: Create FPolicy](#Part-1-Create-FPolicy)
-- [Part 2: Set FPolicy Required to Off](#Part-2-Set-FPolicy-Required-to-Off)
-- [Part 3: Set FPolicy to Collect Permission Changes](#Part-3-Set-FPolicy-to-Collect-Permission-Changes)
-- [Part 4: Set FPolicy to Monitor Alternate Data Streams](#Part-4-Set-FPolicy-to-Monitor-Alternate-Data-Streams)
-- [Part 5: Set FPolicy to Monitor Disconnected Sessions](#Part-5-Set-FPolicy-to-Monitor-Disconnected-Sessions)
-- [Part 6: Scope FPolicy for Specific Volumes](#Part-6-Scope-FPolicy-for-Specific-Volumes)
-- [Part 7: Enable FPolicy](#Part-7-Enable-FPolicy)
+- Part 1: Create FPolicy
+- Part 2: Set FPolicy Required to Off
+- Part 3: Set FPolicy to Collect Permission Changes
+- Part 4: Set FPolicy to Monitor Alternate Data Streams
+- Part 5: Set FPolicy to Monitor Disconnected Sessions
+- Part 6: Scope FPolicy for Specific Volumes
+- Part 7: Enable FPolicy
 
 If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing these commands on a vFiler, the commands must be run from a vFiler context (e.g. via the vFiler run command).
 

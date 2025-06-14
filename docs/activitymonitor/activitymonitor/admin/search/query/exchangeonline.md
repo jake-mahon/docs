@@ -6,10 +6,10 @@ You can search Exchange Online activity that has been monitored and recorded to 
 
 The filters are separated into the following categories:
 
-- [General Category](#General-Category)
-- [User Category](#User-Category)
-- [Target Category](#Target-Category)
-- [DLP Category](#DLP-Category)
+- General Category
+- User Category
+- Target Category
+- DLP Category
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 

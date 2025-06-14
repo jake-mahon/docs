@@ -26,7 +26,7 @@ It contains four pages:
 - 3. Resources — Select resources to be included in the review
 - 4. Summary — Preview of the review selections
 
-See the [Create a Review](#Create-a-Review) topic for additional information.
+See the Create a Review topic for additional information.
 
 ## Create a Review
 

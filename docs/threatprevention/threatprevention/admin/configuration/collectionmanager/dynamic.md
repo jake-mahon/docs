@@ -2,12 +2,12 @@
 
 Certain options in the upper-left corner of the [Add New Collection Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window) are only enabled for the following collection categories:
 
-- Domains & Servers – [Dynamic Domains & Servers Collection Table Requirements](#Dynamic-Domains-Servers-Collection-Table-Requirements)
-- Objects – [Dynamic Objects Collection Table Requirements](#Dynamic-Objects-Collection-Table-Requirements)
-- Perpetrators and Lockdown Perpetrators – [Dynamic Perpetrators Collections Table Requirements](#Dynamic-Perpetrators-Collections-Table-Requirements)
-- IP Addresses – [Dynamic IP Addresses Collection Table Requirements](#Dynamic-IP-Addresses-Collection-Table-Requirements)
-- Hosts – [Dynamic Hosts Collection Table Requirements](#Dynamic-Hosts-Collection-Table-Requirements)
-- File Paths – [Dynamic File Paths Collection Table Requirements](#Dynamic-File-Paths-Collection-Table-Requirements)
+- Domains & Servers – Dynamic Domains & Servers Collection Table Requirements
+- Objects – Dynamic Objects Collection Table Requirements
+- Perpetrators and Lockdown Perpetrators – Dynamic Perpetrators Collections Table Requirements
+- IP Addresses – Dynamic IP Addresses Collection Table Requirements
+- Hosts – Dynamic Hosts Collection Table Requirements
+- File Paths – Dynamic File Paths Collection Table Requirements
 
 ![Options on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.webp)
 

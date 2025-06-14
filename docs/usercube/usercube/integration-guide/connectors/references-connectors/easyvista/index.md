@@ -4,7 +4,7 @@ This connector exports and fulfills users from/to an [EasyVista](https://wiki.ea
 
 This page is about [
 EasyVista
-](#EasyVista).
+](/docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/index.md).
 
 ![Package: ITSM/EasyVista](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 

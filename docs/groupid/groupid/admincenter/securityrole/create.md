@@ -2,8 +2,8 @@
 
 To create a security role for an identity store, you have to specify the following:
 
-- Criteria - See [Criteria ](/docs/groupid/groupid/admincenter/securityrole/manage.md#criteria).
-- Priority - See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).
+- Criteria - See [Criteria ](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+- Priority - See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
 - Permissions - Permissions refer to the different actions that role members can perform using Directory Manager, for example, creating directory objects, managing groups, managing scheduled jobs, managing user profiles,
   and more.
 - Policies - Policies refer to settings that apply to role members. For example, the search policy limits role members to search for objects in a particular container.
@@ -14,8 +14,8 @@ NOTE: You can disable a role to prevent its members from accessing Directory Man
 
 What do you want to do?
 
-- [Create a Security Role from Scratch](#Create-a-Security-Role-from-Scratch)
-- [Create a Role by Copying an Existing Role](#Create-a-Role-by-Copying-an-Existing-Role)
+- Create a Security Role from Scratch
+- Create a Role by Copying an Existing Role
 
 ## Create a Security Role from Scratch
 
@@ -60,7 +60,7 @@ Step 3 – Click __Security Roles__ under Settings in the left pane.
 
 Step 4 – On the __Security Roles__ page, click the ellipsis button for the security role you want to use as template and select __Copy__. The __Copy Security Role__ page is displayed.
 
-Step 5 – Follow steps 5-9 in the [Create a Security Role from Scratch](#Create-a-Security-Role-from-Scratch) topic to update role info and click __Update Security Role__.
+Step 5 – Follow steps 5-9 in the Create a Security Role from Scratch topic to update role info and click __Update Security Role__.
 
 Step 6 – On the Security Roles page, click __Save__.
 

@@ -10,7 +10,7 @@ Users must have an email address to receive notifications.
 
 What do you want to do?
 
-- [Send Enrollment Notifications](#Send-Enrollment-Notifications)
+- Send Enrollment Notifications
 
 ## Send Enrollment Notifications
 

@@ -29,9 +29,9 @@ The Search policy has the following impact on the Directory Manager portal:
 
 What do you want to do?
 
-- [Set the Search Scope to a Specific Container](#Set-the-Search-Scope-to-a-Specific-Container)
-- [Set the Search Scope to all Containers in the Identity Store](#Set-the-Search-Scope-to-all-Containers-in-the-Identity-Store)
-- [Designate a Criterion for the Search Scope](#Designate-a-Criterion-for-the-Search-Scope)
+- Set the Search Scope to a Specific Container
+- Set the Search Scope to all Containers in the Identity Store
+- Designate a Criterion for the Search Scope
 
 ## Set the Search Scope to a Specific Container
 

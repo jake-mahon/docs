@@ -2,7 +2,7 @@
 
 This type of review is used to keep your role permissions up to date. When you click on a permission review, the permissions list is displayed. Access permission reviews from __UAR List__ in your menu bar, or one of the review shortcuts.
 
-Reviews open on the __Review__ tab. The __[Review Notes](#Review-Notes)__ tab lists the review details for the review.
+Reviews open on the __Review__ tab. The __Review Notes__ tab lists the review details for the review.
 
 ![Permission Review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review.webp)
 
@@ -23,10 +23,10 @@ Use __Clear__ to reset the Filters.
 
 You can perform these actions as part of your review:
 
-- [Review and Complete Permission Review](#Review-and-Complete-Permission-Review)
-- [Change Permission Level](#Change-Permission-Level)
-- [Add a Permission](#Add-a-Permission)
-- [Complete the Permission Review](#Complete-the-Permission-Review)
+- Review and Complete Permission Review
+- Change Permission Level
+- Add a Permission
+- Complete the Permission Review
 
 Once an action is taken, the Permission review changes to __In Progress__.
 

@@ -41,7 +41,7 @@ To use assertion encryption as an advanced security feature, select __Enabled__.
 
 Step 13 – Generate a logout URL in the service provider and enter it in the Single Logout URL box. When a user clicks this URL, he or she will be logged out of all applications that have been authenticated through Directory Manager (i.e., applications that he or she is single signed in through Directory Manager).
 
-Step 14 – Provide the Directory Manager metadata in the service provider to register Directory Manager as an identity provider in it. See the [Directory Manager Metadata for Service Provider Configurations](#Directory-Manager-Metadata-for-Service-Provider-Configurations) topic.
+Step 14 – Provide the Directory Manager metadata in the service provider to register Directory Manager as an identity provider in it. See the Directory Manager Metadata for Service Provider Configurations topic.
 
 Step 15 – Click __Create Application__ to create the service provider in Directory Manager.
 

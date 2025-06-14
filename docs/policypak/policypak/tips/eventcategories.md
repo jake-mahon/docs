@@ -2,23 +2,23 @@
 
 ## Feature Specific Events
 
-[](#)[List of Endpoint Policy Manager Event Categories and IDs](#List-of-Endpoint-Policy-Manager-Event-Categories-and-IDs)
+[](#)List of Endpoint Policy Manager Event Categories and IDs
 
-[](#)[Feature Manager for Windows](#Feature-Manager-for-Windows)
+[](#)Feature Manager for Windows
 
-[](#)[Least Privilege Manager](#Least-Privilege-Manager)
+[](#)Least Privilege Manager
 
-[](#)[Least Privilege Manager Mac OS](#Least-Privilege-Manager-Mac-OS)
+[](#)Least Privilege Manager Mac OS
 
-[](#)[Java Rules Manager](#Java-Rules-Manager)
+[](#)Java Rules Manager
 
-[](#)[Browser Router](#Browser-Router)
+[](#)Browser Router
 
-[](#)[Device Manager](#Device-Manager)
+[](#)Device Manager
 
-[](#)[Network Security Manager](#Network-Security-Manager)
+[](#)Network Security Manager
 
-[](#)[Cloud Client](#Cloud-Client)
+[](#)Cloud Client
 
 ## Global Event Ranges
 
@@ -151,15 +151,15 @@ Severity: Informational
 
 The following are all the operational events for Endpoint Policy Manager:
 
-- [Remote Work Delivery Manager](#Remote-Work-Delivery-Manager)
-- [Feature Manager for Windows](#Feature-Manager-for-Windows)
-- [Least Privilege Manager](#Least-Privilege-Manager)
-- [Least Privilege Manager Mac OS](#Least-Privilege-Manager-Mac-OS)
-- [Java Rules Manager](#Java-Rules-Manager)
-- [Browser Router](#Browser-Router)
-- [Device Manager](#Device-Manager)
-- [Network Security Manager](#Network-Security-Manager)
-- [Cloud Client](#Cloud-Client)
+- Remote Work Delivery Manager
+- Feature Manager for Windows
+- Least Privilege Manager
+- Least Privilege Manager Mac OS
+- Java Rules Manager
+- Browser Router
+- Device Manager
+- Network Security Manager
+- Cloud Client
 
 ### Remote Work Delivery Manager
 

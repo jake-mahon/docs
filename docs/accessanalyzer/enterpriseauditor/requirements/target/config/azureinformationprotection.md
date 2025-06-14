@@ -14,7 +14,7 @@ Before the Access Analyzer File System solution can scan for Azure Information P
 2. [Create a Service Principal Account using PowerShell](#create-a-service-principal-account-using-powershell)
 3. [Enable the Account as an AIP Super User using PowerShell](#enable-the-account-as-an-aip-super-user-using-powershell)
 4. [Add User to the AIP Role in Microsoft® Azure](#add-user-to-the-aip-role-in-microsoft-azure)
-5. [Azure Information Protection Target Requirements](#azure-information-protection-target-requirements)
+5. Azure Information Protection Target Requirements
 6. Enable settings in FSAA Data Collector in Access Analyzer.
 
    - See the FileSystemAccess Data Collector section in the [File System Solution](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information

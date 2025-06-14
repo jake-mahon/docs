@@ -19,16 +19,16 @@ Possible actions to eliminate replication errors are:
 
 What do you want to do?
 
-- [Monitor Elasticsearch Health Status](#Monitor-Elasticsearch-Health-Status)
-- [Specify a Replication Interval for Objects](#Specify-a-Replication-Interval-for-Objects)
-- [Force Run the Replication Service (for Object Replication)](#Force-Run-the-Replication-Service-for-Object-Replication)
-- [View the Replication Status for Objects](#View-the-Replication-Status-for-Objects)
-- [Specify Interval for Deleting Tombstone Objects](#Specify-Interval-for-Deleting-Tombstone-Objects)
-- [Force Run the Replication Service (for Deleting Objects)](#Force-Run-the-Replication-Service-for-Deleting-Objects)
-- [Restore Object Data to Elasticsearch](#Restore-Object-Data-to-Elasticsearch)
-- [Clear Unused Indices](#Clear-Unused-Indices)
-- [Change the Search Guard Password](#Change-the-Search-Guard-Password)
-- [Set a Threshold to Trigger Replication Error Notifications](#Set-a-Threshold-to-Trigger-Replication-Error-Notifications)
+- Monitor Elasticsearch Health Status
+- Specify a Replication Interval for Objects
+- Force Run the Replication Service (for Object Replication)
+- View the Replication Status for Objects
+- Specify Interval for Deleting Tombstone Objects
+- Force Run the Replication Service (for Deleting Objects)
+- Restore Object Data to Elasticsearch
+- Clear Unused Indices
+- Change the Search Guard Password
+- Set a Threshold to Trigger Replication Error Notifications
 
 ## Monitor Elasticsearch Health Status
 
@@ -119,9 +119,9 @@ __To view the replication status:__
       ways:
 
       - On the __Identity Stores__ page, the card for the identity store turns red and _Errors_ is displayed as the identity store status.
-      - A notification is sent to relevant personnel. See the [Set a Threshold to Trigger Replication Error Notifications](#Set-a-Threshold-to-Trigger-Replication-Error-Notifications) topic.
+      - A notification is sent to relevant personnel. See the Set a Threshold to Trigger Replication Error Notifications topic.
 
-      These alerts are triggered when replication fails in the last run of the Replication service, or if the service does not run at the required triggering interval. To resolve replication errors, see the [How to Resolve Replication Errors](#How-to-Resolve-Replication-Errors) topic.
+      These alerts are triggered when replication fails in the last run of the Replication service, or if the service does not run at the required triggering interval. To resolve replication errors, see the How to Resolve Replication Errors topic.
    2. The ‘Never replicated’ status indicates that the particular object type is not replicated yet. Similarly, a child domain that is not being used will have its status marked in red. To avoid these recurring errors, set the dates for these objects
       to a distant future date in the Directory Manager database. Or you can exclude a domain from replication. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
@@ -193,7 +193,7 @@ __To change the password:__
 
 ## Set a Threshold to Trigger Replication Error Notifications
 
-The Replication service runs every x minutes to replicate objects in an identity store. In case it fails to replicate during a run, a replication error is displayed, as discussed in the [View the Replication Status for Objects](#View-the-Replication-Status-for-Objects) topic.
+The Replication service runs every x minutes to replicate objects in an identity store. In case it fails to replicate during a run, a replication error is displayed, as discussed in the View the Replication Status for Objects topic.
 
 Directory Manager generates notifications to alert administrators to replication errors. By default, the triggering threshold is set to ‘3 attempts’, which means that notifications will be sent when errors occur in three consecutive runs of the Replication service.
 You can change the threshold value as required.

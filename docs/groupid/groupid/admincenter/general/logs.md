@@ -4,7 +4,7 @@ Directory Manager generates logs for its services, clients, and Windows events, 
 
 What do you want to do?
 
-- [Get Log Files](#Get-Log-Files)
+- Get Log Files
 
 ## Get Log Files
 

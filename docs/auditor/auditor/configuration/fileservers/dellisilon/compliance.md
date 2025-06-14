@@ -2,8 +2,8 @@
 
 You can configure your cluster for monitoring in one of the following ways:
 
-- Using the __configure\_ifs.sh__ shell script that comes with Netwrix Auditor. See the [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Via Shell Script](#Configure-Dell-IsilonPowerScale-Cluster-in-Compliance-Mode-Via-Shell-Script) topic for additional information.
-- Manual configuration. See the [Configure Dell Isilon/PowerScale Cluster in Compliance Mode Manually](#Configure-Dell-IsilonPowerScale-Cluster-in-Compliance-Mode-Manually) topic for additional information.
+- Using the __configure\_ifs.sh__ shell script that comes with Netwrix Auditor. See the Configure Dell Isilon/PowerScale Cluster in Compliance Mode Via Shell Script topic for additional information.
+- Manual configuration. See the Configure Dell Isilon/PowerScale Cluster in Compliance Mode Manually topic for additional information.
 
 ## Configure Dell Isilon/PowerScale Cluster in Compliance Mode Via Shell Script
 

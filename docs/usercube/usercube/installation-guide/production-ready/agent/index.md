@@ -84,7 +84,7 @@ Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requiremen
 You can either:
 
 - Use the built-in application pool identity and grant this identity the right permissions. See the [
-  Install the Agents](#Install-the-Agents) topic for additional information.
+  Install the Agents](/docs/usercube/usercube/installation-guide/production-ready/agent/index.md) topic for additional information.
 - Use a custom Windows service account with the right permissions and use it as an IIS identity for Identity Manager's agent IIS Website
 
 ### Check default behavior

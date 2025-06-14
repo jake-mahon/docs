@@ -21,7 +21,7 @@ Step 1 – The Rules tab opens by default and the following rules are listed in 
 
 A button beside a rule indicates that the rule is enabled (being enforced) or not. Click a rule to set the rule's properties and save it.
 
-Prior to setting up the rules for the policy, review the sections on [Detecting Character Substitution](#Detecting-Character-Substitution)and [Tolerance](#Tolerance) .
+Prior to setting up the rules for the policy, review the sections on Detecting Character Substitutionand Tolerance .
 
 ## Detecting Character Substitution
 

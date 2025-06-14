@@ -19,7 +19,7 @@ Access to the Strongpoint tab must be granted to other users or roles:
 
 There are two options where to set permissions:
 
-- If the user role is under the __Classic Center__ tab, you can grant access within the __Audience__ tab. However, the access is removed and must be reset after every bundle update. If you choose this option, skip to [Setting the Audience](#Setting-the-Audience)
+- If the user role is under the __Classic Center__ tab, you can grant access within the __Audience__ tab. However, the access is removed and must be reset after every bundle update. If you choose this option, skip to Setting the Audience
 - If you want to avoid granting access after every bundle update, continue with the __Creating a Copy of Strongpoint Classic Center__ steps before __Setting Permissions__.
 
 ## Creating a Copy of Classic Center

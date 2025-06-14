@@ -8,14 +8,14 @@ By default, all permissions displayed on the Add Permissions dialog box are deni
 
 Permissions are grouped under the following heads, with each tab representing a different head:
 
-- [Users](#Users)
-- [Groups](#Groups)
-- [Admin Center](#Admin-Center)
-- [Synchronize](#Synchronize)
-- [Password Management](#Password-Management)
-- [Miscellaneous](#Miscellaneous)
-- [Container](#Container)
-- [Entitlement](#Entitlement)
+- Users
+- Groups
+- Admin Center
+- Synchronize
+- Password Management
+- Miscellaneous
+- Container
+- Entitlement
 
 ## Users
 

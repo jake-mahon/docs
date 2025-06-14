@@ -26,23 +26,23 @@ Customization record fields include:
 
 These are the tabs inside a customization record:
 
-> [Metadata](#Metadata)
+> Metadata
 >
-> [Improvement](#Improvement)
+> Improvement
 >
-> [Permissions](#Permissions)
+> Permissions
 >
-> [Health Settings](#Health-Settings)
+> Health Settings
 >
-> [Data Classification](#Data-Classification)
+> Data Classification
 >
-> [Control](#Control)
+> Control
 >
-> [DRD](#DRD)
+> DRD
 >
-> [Raw Data](#Raw-Data)
+> Raw Data
 >
-> [Related Lists](#Related-Lists)
+> Related Lists
 
 ### Metadata
 

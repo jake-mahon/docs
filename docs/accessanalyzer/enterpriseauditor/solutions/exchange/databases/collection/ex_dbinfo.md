@@ -6,7 +6,7 @@ The EX\_DBInfo job utilizes Exchange PowerShell to gather 2010/2013 Mailbox Size
 
 The EX\_DBInfo job is located in the 1.Local job group.
 
-__NOTE:__ An actual CAS name is required for the data collection. When targeting Exchange 2013 or 2016, it is possible for the __Settings__ > __Exchange__ node to have been configured with a web address instead of an actual server. See the [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/recommended.md#exchangeps-data-collector-client-access-server) topic for additional information.
+__NOTE:__ An actual CAS name is required for the data collection. When targeting Exchange 2013 or 2016, it is possible for the __Settings__ > __Exchange__ node to have been configured with a web address instead of an actual server. See the [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/recommended.md) topic for additional information.
 
 ## Queries for the EX\_DBInfo Job
 

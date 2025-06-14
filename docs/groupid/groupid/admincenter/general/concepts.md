@@ -2,18 +2,18 @@
 
 To make the best of Directory Manager, you must be familiar with the following group management concepts:
 
-- [Group Classification](#Group-Classification)
-- [Group Types](#Group-Types)
-- [Group Scope](#Group-Scope)
-- [Group Security Types](#Group-Security-Types)
+- Group Classification
+- Group Types
+- Group Scope
+- Group Security Types
 
 ## Group Classification
 
 Using Directory Manager, you can manage the following three kinds of groups:
 
-- [Unmanaged Groups](#Unmanaged-Groups)
-- [Smart Groups](#Smart-Groups)
-- [Dynasties](#Dynasties)
+- Unmanaged Groups
+- Smart Groups
+- Dynasties
 
 ### Unmanaged Groups
 

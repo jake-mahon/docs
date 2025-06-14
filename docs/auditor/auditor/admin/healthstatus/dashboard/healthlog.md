@@ -30,7 +30,7 @@ There are three types of events that can be logged:
 
 Review the following:
 
-- [Inspect Events in Health Log](#Inspect-Events-in-Health-Log)
+- Inspect Events in Health Log
 
 If you want to monitor Auditor health status in more depth, you can do the following:
 

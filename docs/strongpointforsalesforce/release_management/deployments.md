@@ -2,13 +2,13 @@
 
 Your deployments can be documented across your test environment(s) to your production environment(s). Each step in the deployment process complies with your policies and a comprehensive approval process. Deployments are blocked if approvals are not complete. A full audit trail of the entire deployment process is maintained.The process is:
 
-> [Create a Change Request](#Create-a-Change-Request)
+> Create a Change Request
 >
-> [Create a Deployment Record](#Create-a-Deployment-Record)
+> Create a Deployment Record
 >
-> [Deploy the Changes](#Deploy-the-Changes)
+> Deploy the Changes
 >
-> [Complete the Process](#Complete-the-Process)
+> Complete the Process
 
 ## Create a Change Request
 

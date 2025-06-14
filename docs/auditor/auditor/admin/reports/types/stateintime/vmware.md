@@ -2,9 +2,9 @@
 
 These are reports on the VMware vCenter state-in-time data, including account permissions and object permissions:
 
-- [Account Permissions in vCenter](#Account-Permissions-in-vCenter)
-- [Detailed Account Permissions in vCenter](#Detailed-Account-Permissions-in-vCenter)
-- [Object Permissions in vCenter](#Object-Permissions-in-vCenter)
+- Account Permissions in vCenter
+- Detailed Account Permissions in vCenter
+- Object Permissions in vCenter
 
 To instruct Netwrix Auditor to collect data needed for these reports, make sure that __Collect data for state-in-time reports__ option is selected in the corresponding monitoring plan properties. See the [Settings for Data Collection](/docs/auditor/auditor/admin/monitoringplans/create.md#settings-for-data-collection) topic for more information.
 
@@ -30,7 +30,7 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 ### Related Reports
 
-- Clicking a Object path link opens the [Object Permissions in vCenter](#Object-Permissions-in-vCenter) report.
+- Clicking a Object path link opens the Object Permissions in vCenter report.
 - Clicking a Role link opens the detailed report on privileges for the account report.
 - Clicking the Defined in link opens the object permissions on vCenter level report.
 
@@ -77,6 +77,6 @@ You can narrow your reporting scope using multiple filters. Review the full list
 
 ### Related Reports
 
-- Clicking a User account link opens the [Account Permissions in vCenter](#Account-Permissions-in-vCenter) report.
+- Clicking a User account link opens the Account Permissions in vCenter report.
 - Clicking a Role link opens the detailed report on privileges for the account report.
 - Clicking the Defined in link opens the object permissions on vCenter level report.

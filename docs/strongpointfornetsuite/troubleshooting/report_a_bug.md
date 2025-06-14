@@ -2,8 +2,8 @@
 
 If you encounter any problems using Platform Governance for NetSuite or you have suggested improvements, we would love to hear from you! Your feedback is incredibly valuable to us and the continued success of our products. There are multiple options to provide feedback:
 
-- [Contact Support](#Contact-Support)
-- [Comment on a User Guide Topic](#Comment-on-a-User-Guide-Topic)
+- Contact Support
+- Comment on a User Guide Topic
 
 ## Contact Support
 

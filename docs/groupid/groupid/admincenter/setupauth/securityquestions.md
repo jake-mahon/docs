@@ -11,11 +11,11 @@ You can also specify the following settings for a user role in an identity store
 
 What do you want to do?
 
-- [Modify the Global Question Pool](#Modify-the-Global-Question-Pool)
-- [Modify the Local Question Pool](#Modify-the-Local-Question-Pool)
-- [Enable Security Question Authentication for an Identity Store](#Enable-Security-Question-Authentication-for-an-Identity-Store)
-- [Enforce Security Question Authentication for a Role in an Identity Store](#Enforce-Security-Question-Authentication-for-a-Role-in-an-Identity-Store)
-- [Specify Policies for Security Question Authentication](#Specify-Policies-for-Security-Question-Authentication)
+- Modify the Global Question Pool
+- Modify the Local Question Pool
+- Enable Security Question Authentication for an Identity Store
+- Enforce Security Question Authentication for a Role in an Identity Store
+- Specify Policies for Security Question Authentication
 
 ## Modify the Global Question Pool
 

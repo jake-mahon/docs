@@ -4,10 +4,10 @@ You can create a Security service in native IIS, remote IIS, and Docker.
 
 What do you want to do?
 
-- [Create a Security Service in Native IIS](#Create-a-Security-Service-in-Native-IIS)
-- [Create a Security Service in Remote IIS](#Create-a-Security-Service-in-Remote-IIS)
-- [Create a Security Service in Docker](#Create-a-Security-Service-in-Docker)
-- [Launch a Security Service](#Launch-a-Security-Service)
+- Create a Security Service in Native IIS
+- Create a Security Service in Remote IIS
+- Create a Security Service in Docker
+- Launch a Security Service
 
 ## Create a Security Service in Native IIS
 

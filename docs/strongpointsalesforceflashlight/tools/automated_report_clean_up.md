@@ -53,12 +53,12 @@ Lists any reports excluded after the __Preview__ function is used.
 
 #### Rule Preview
 
-The __Preview__ function provides a quick method to mark reports to be retained or to included for clean up. The [Run Now](#Run-Now) feature begins an immediate run for the rule.
+The __Preview__ function provides a quick method to mark reports to be retained or to included for clean up. The Run Now feature begins an immediate run for the rule.
 
 1. Administrators can click __Preview__ on an Report Clean Up Rule. __Preview__ displays the rule, filters and conditions.
 2. Review the Report List.  
     Click __Include All__ or __Exclude All__ to mark all the reports. __Include__ triggers a final notification email to be sent to the report owners. Unchecked retains the report.
-3. Click [Run Now](#Run-Now) to begin a Report Clean Up for the rule.
+3. Click Run Now to begin a Report Clean Up for the rule.
 4. After previewing, you can click __Automatic__ on the Report Clean Up Rule to include the rule for automatic reports.
 
 ![automated_report_cleanup_preview_800x264](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_preview_800x264.webp)
@@ -81,7 +81,7 @@ If a Report matches the Clean Up Rule:
 
 ### Automated Run Workflow
 
-__Automated Report Clean Up__ runs continuously comparing reports to all rules marked [__Automatic__](#__Automatic__). Administrators receive weekly summary information containing: __identified reports__, __retained reports__, __scheduled to be archived reports__ and __archived reports__.
+__Automated Report Clean Up__ runs continuously comparing reports to all rules marked __Automatic__. Administrators receive weekly summary information containing: __identified reports__, __retained reports__, __scheduled to be archived reports__ and __archived reports__.
 
 1. When a Report matches a Clean Up Rule:
 
@@ -107,7 +107,7 @@ Open __Flashlight__ > __Tools__ > __Automated Report Clean Up Tool__ > __Report 
   __In Notice Period__ - at least one notification has been sent.  
   __Processing__ - report is being auto-archived.  
   __Completed__ - all identified reports have been archived, and email sent to rule owner and administrator.  
-  __Canceled__ - __[Automatic](#Automatic)__ checkbox was turned off for the rule.
+  __Canceled__ - __Automatic__ checkbox was turned off for the rule.
 - __Automatic__: rule is set to __Automatic__ if checked.
 
 ![automated_report_cleanup_status_800x366](/img/product_docs/strongpointsalesforceflashlight/tools/automated_report_cleanup_status_800x366.webp)

@@ -4,8 +4,8 @@ _Remember,_ the Access Reviews must already be installed on the Auditor server.
 
 You can configure Netwrix Auditor Access Reviews in two ways:
 
-- [Select Data Sources in the General Settings](#Select-Data-Sources-in-the-General-Settings)
-- [Select Data Sources in the Monitoring Plan](#Select-Data-Sources-in-the-Monitoring-Plan)
+- Select Data Sources in the General Settings
+- Select Data Sources in the Monitoring Plan
 
 ## Select Data Sources in the General Settings
 

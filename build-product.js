@@ -20,6 +20,7 @@ if (!product) {
   console.log('  - auditor');
   console.log('  - changetracker');
   console.log('  - dataclassification');
+  console.log('  - endpointprotector');
   console.log('  - groupid');
   console.log('  - passwordpolicyenforcer');
   console.log('  - passwordreset');

@@ -84,7 +84,7 @@ Step 4 – Click __Deployments__ under Server Settings.
 The Deployment Settings page displays the web server (IIS, remote
 IIS, or Docker) where the service is deployed. The Select Application Deployment drop-down list displays the deployment name of the service.
 
-Step 5 – The Launch URL box on the Deployment Configurations tab displays the URL. Copy and paste it in the browser to launch the service. See the table in the [View Data Service Details](#View-Data-Service-Details) topic to understand what is displayed with this URL.
+Step 5 – The Launch URL box on the Deployment Configurations tab displays the URL. Copy and paste it in the browser to launch the service. See the table in the View Data Service Details topic to understand what is displayed with this URL.
 
 ## View the Deployment Settings for a Service
 

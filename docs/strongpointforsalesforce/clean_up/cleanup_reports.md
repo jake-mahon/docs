@@ -2,17 +2,17 @@
 
 Platform Governance for Salesforce provides predefined reports to help you clean up your Salesforce Instance. The reports are available by opening __Netwrix Dashboard__ > __Reports__ > __Clean Up__ and selecting a report:
 
-- [Default Clean Up List View](#Default-Clean-Up-List-View)
-- [Open Clean Up Status](#Open-Clean-Up-Status)
-- [Clean Up Waiting for Info](#Clean-Up-Waiting-for-Info)
-- [Customizations Excluded from Clean Up](#Customizations-Excluded-from-Clean-Up)
-- [Unused Fields](#Unused-Fields)
-- [Unused Apex Code](#Unused-Apex-Code)
-- [Unused Reports](#Unused-Reports)
-- [Customizations with Inactive Owners](#Customizations-with-Inactive-Owners)
-- [Customizations without Related Processes](#Customizations-without-Related-Processes)
-- [Custom Fields without Help Text](#Custom-Fields-without-Help-Text)
-- [Custom Fields without Description](#Custom-Fields-without-Description)
+- Default Clean Up List View
+- Open Clean Up Status
+- Clean Up Waiting for Info
+- Customizations Excluded from Clean Up
+- Unused Fields
+- Unused Apex Code
+- Unused Reports
+- Customizations with Inactive Owners
+- Customizations without Related Processes
+- Custom Fields without Help Text
+- Custom Fields without Description
 
 ## Using the Reports
 

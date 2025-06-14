@@ -16,7 +16,7 @@ The table displays the following information:
   - Operator – This role allows access to the Active Directory and Forest nodes, and can perform rollback and recovery tasks for domains and forests through the Recovery Console.
 - Action – Actions that can be performed on user accounts
 
-  - Remove – Click __Remove__ to remove the respective user or group from console access. See the [Remove a User or Group ](#Remove-a-User-or-Group) topic for additional information.
+  - Remove – Click __Remove__ to remove the respective user or group from console access. See the Remove a User or Group  topic for additional information.
 
 ### Add a User or Group
 

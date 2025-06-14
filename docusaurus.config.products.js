@@ -3,13 +3,14 @@
 
 // Set to true to enable a product, false to disable
 const PRODUCTS = {
-  '1secure': false,
+  '1secure': true,
   'accessanalyzer': false,
   'accessinformationcenter': false,
   'activitymonitor': false,
   'auditor': false,
   'changetracker': false,
   'dataclassification': false,
+  'endpointprotector': false,
   'groupid': false,
   'passwordpolicyenforcer': false,
   'passwordreset': false,
@@ -24,7 +25,7 @@ const PRODUCTS = {
   'threatmanager': false,
   'threatprevention': false,
   'usercube': false,
-  'usercube_saas': true,
+  'usercube_saas': false,
 };
 
 const productConfigs = {
@@ -76,6 +77,13 @@ const productConfigs = {
     routeBasePath: 'docs/dataclassification',
     sidebarPath: './sidebars/dataclassification.js',
     navLabel: 'Data Classification',
+  },
+  'endpointprotector': {
+    id: 'endpointprotector',
+    path: 'docs/endpointprotector',
+    routeBasePath: 'docs/endpointprotector',
+    sidebarPath: './sidebars/endpointprotector.js',
+    navLabel: 'Endpoint Protector',
   },
   'groupid': {
     id: 'groupid',

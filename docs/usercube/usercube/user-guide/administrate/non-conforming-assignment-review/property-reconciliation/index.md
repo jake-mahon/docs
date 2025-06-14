@@ -60,9 +60,9 @@ Review an unreconciled property by proceeding as follows:
 3. Select ```Unreconciled properties``` as a ```Workflow State```.
 
    ![Unreconciled Property](/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewprop_unreconciled_v522.webp)
-4. Choose the default resource view or the property view with the top right toggle. See the [
+4. Choose the default resource view or the property view with the top right toggle. See the 
    Reconcile a Property
-   ](#Reconcile-a-Property) topic for additional information.
+    topic for additional information.
 5. Select a property to review.
 
    > In the following example, the user ```Nicolas Faure``` is the owner of a given resource, here a nominative SAB account associated with his email address. In the __Resource Properties to be Verified__ frame, there is one unreconciled property that happens to be ```Group```.

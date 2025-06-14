@@ -42,7 +42,7 @@ The main section of the Customization Record summarizes the key information for 
 
 The tabs provide detailed information about the customization:
 
-- __Detailed Metadata__: Details about the customization including Fields, Values, [Bundle / SuiteApp information](#Bundle-SuiteApp-information), [Date Last Used](/docs/strongpointfornetsuite/clean_up/date_last_used.md), Last Used Status, and who uses the customization. Information varies depending on the customization type. For example, Workflow customizations include States, Actions, and Workflow Fields not applicable when viewing Field customizations.
+- __Detailed Metadata__: Details about the customization including Fields, Values, Bundle / SuiteApp information, [Date Last Used](/docs/strongpointfornetsuite/clean_up/date_last_used.md), Last Used Status, and who uses the customization. Information varies depending on the customization type. For example, Workflow customizations include States, Actions, and Workflow Fields not applicable when viewing Field customizations.
 - __ERD__: Displays the Entity-Relationship Diagram centered around this customization.
 - __Clean Up__: Comments, classification and clean up status associated with the customization. Search records have additional fields for Automated Search Clean Up alerts, rules, and status.
 - __Change Log__: Displays the change log for the customization.

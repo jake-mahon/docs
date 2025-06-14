@@ -5,11 +5,11 @@ and auto synced. Directory Manager further enables you to manage these linked id
 
 What do you want to do?
 
-- [Link Two Identity Stores](#Link-Two-Identity-Stores)
-- [View the Identity Store Links](#View-the-Identity-Store-Links)
-- [Edit a Link](#Edit-a-Link)
-- [Disable or Enable a Link](#Disable-or-Enable-a-Link)
-- [Delete a Link](#Delete-a-Link)
+- Link Two Identity Stores
+- View the Identity Store Links
+- Edit a Link
+- Disable or Enable a Link
+- Delete a Link
 
 ## Link Two Identity Stores
 
@@ -122,7 +122,7 @@ __To edit a link:__
    - __Replace an identity store__ - To change the identity store(s) in the link, either click __Edit__ next to the identity stores’ names. On the __Add Identity Stores__ dialog box, select the identity stores to replace the existing ones. Then click __Add 2 Stores__.  
      When one or both identity stores are replaced, the filter expression is automatically removed. You must create a new filter expression to establish a link between the identity stores.
    - __Modify the filter expression for user or group object__ - Click __Edit__ on the filter card for the user or group object. The __Add Filter__ pane
-     is displayed, where you can update the filter expression. Follow step 6a-e in the [Link Two Identity Stores](#Link-Two-Identity-Stores) topic
+     is displayed, where you can update the filter expression. Follow step 6a-e in the Link Two Identity Stores topic
      to update the filter expression.  
      Modifying the filter expression for the user or group object breaks the link for the respective objects in the linked identity stores. Objects
      will be relinked on the basis of the new filter expression and will be synced accordingly in the Directory Manager portal.

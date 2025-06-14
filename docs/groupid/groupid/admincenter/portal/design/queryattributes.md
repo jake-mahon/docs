@@ -55,7 +55,7 @@ You can also specify the following for an attribute:
 7. Use the __Fields__ box to select one or more schema attributes. These attributes would be available in the portal, where users can use them for building Smart Group queries and other purposes.
 8. Use the __Display Name__ box to specify a user-friendly name for the attribute. The attribute would be displayed in the portal with this name.  
    This box is not available when multiple attributes have been selected.
-9. Select a security role in the __Visibility Level__ drop-down list. The attribute(s) would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
+9. Select a security role in the __Visibility Level__ drop-down list. The attribute(s) would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the attribute(s) from all users.
 10. Use the __Display Type__ drop-down list to specify the display type to use for enabling users to provide a value for the attribute(s) in the portal. For example, you can select a text box, drop-down list, or DN as display type. In case of DN, users can search and select a directory object as value for the attribute.  
     The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.  
@@ -91,7 +91,7 @@ __To update attribute properties:__
 4. Click __Smart Group Attributes__ in the left pane.
 5. On the __Smart Group Attributes__ page, click the __Selected Attributes__ tile under __Select Smart Group Attributes__. The _Name_ column lists any attributes that you have already specified.
 6. Click __Edit__ for an attribute to update its properties.
-7. On the __Edit Smart Group Attribute__ pane, the attribute name is read-only. To update all other details, follow steps 8 - 15 in the [Allow Specific Attributes](#Allow-Specific-Attributes) topic.
+7. On the __Edit Smart Group Attribute__ pane, the attribute name is read-only. To update all other details, follow steps 8 - 15 in the Allow Specific Attributes topic.
 
 ## Remove a Query Attribute
 

@@ -113,8 +113,8 @@ When not specifying any sort key nor extended sort key, Identity Manager will s
 | --- | --- |
 | BoundaryKind   default value: 0 | __Type__    RecordBoundaryKind   __Description__   Defines how the section dates are computed for a resource, when the current start/end dates are null.   ```0``` - None: start date and end date are equal respectively to the minimum value of ```StartProperty``` and maximum value of ```EndProperty``` when comparing the default sections of all records.   ```1``` - Kept: start and end dates are equal respectively to the default start date (1900/01/01 00:00:00) and end date (2079/06/06 00:00:00).   __Info:__ the boundary has no effect on the default section which is the reference to compute the default dates in other sections. When the default section's start/end dates are null, then they equal the default start/end dates. |
 | DisplayName\_L1   required | __Type__    String   __Description__   Display name of the section in language 1 (up to 16). |
-| EndProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the end of validity for all the [ Record Section ](#Record-Section) of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
-| ExtendedSortKey   optional | __Type__    String   __Description__   Value used as a threshold for ```SortKeyExpression``` values to determine whether the [ Record Section ](#Record-Section) property values of a given record section can be extended from a context where the values are defined to another context where no properties from the section are defined.   This extension is enabled only when the value of ```SortKeyExpression``` of the section is higher (with an ordinal comparison) than ```ExtendedSortKey```. |
+| EndProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the end of validity for all the  Record Section  of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
+| ExtendedSortKey   optional | __Type__    String   __Description__   Value used as a threshold for ```SortKeyExpression``` values to determine whether the  Record Section  property values of a given record section can be extended from a context where the values are defined to another context where no properties from the section are defined.   This extension is enabled only when the value of ```SortKeyExpression``` of the section is higher (with an ordinal comparison) than ```ExtendedSortKey```. |
 | ExtensionKind   default value: 0 | __Type__    RecordExtensionKind   __Description__   Defines whether the section's property values can be extended (copied) from a context where the properties are defined to another context where no properties from the section are defined.   ```0``` - Default: the section's property values can be extended.   ```4``` - None: the section's property values cannot be extended. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the section. |
 | InstanceKeyExpression   optional | __Type__    String   __Description__   Expression returning a key to uniquely identify a context, i.e. distinguish between job positions for example when users can have several concurrent positions, or between contracts. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
@@ -122,7 +122,7 @@ When not specifying any sort key nor extended sort key, Identity Manager will s
 | ResourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the multiple records to be created. |
 | SortKeyExpression   optional | __Type__    String   __Description__   C# expression used to compute a value for each record, to be used as a priority, following an ordinal comparison. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.   When a record section has ```ExtensionKind``` set to ```Default``` and a priority value higher than ```ExtendedSortKey```, then the record property values can be extended from a context where the values are defined to another context where no properties from the section are defined. |
 | SourceEntityType   required | __Type__    Int64   __Description__   Identifier of the entity type of the parent resource. |
-| StartProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the beginning of validity for all he [ Record Section ](#Record-Section) properties of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
+| StartProperty   optional | __Type__    Int64   __Description__   Date property among those from the ```ResourceEntityType``` which specifies the beginning of validity for all he  Record Section  properties of the section. It cannot be a property computed by an ```EntityPropertyExpression```. |
 
 ## Child Element: Property
 
@@ -134,9 +134,9 @@ In the following example, the position section gathers the properties ```Organiz
 
 The property ```Location``` can be extended from a context where the location is defined to a context where it is not. The two other properties cannot be extended.
 
-See the [
+See the 
 Record Section
-](#Record-Section) topic for additional information.
+ topic for additional information.
 
 ```
 

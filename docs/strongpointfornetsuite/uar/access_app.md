@@ -2,7 +2,7 @@
 
 The User Access Review bundle must be [installed](/docs/strongpointfornetsuite/uar/install_app.md), and users must have NetSuite accounts and a UAR license to access User Access Review.
 
-__User Access Review__ is available on the NetSuite menu bar if you have a [license](/docs/strongpointfornetsuite/uar/install_app.md#license). If it is not on your menu, contact your Netwrix or NetSuite administrator.
+__User Access Review__ is available on the NetSuite menu bar if you have a [license](/docs/strongpointfornetsuite/uar/install_app.md). If it is not on your menu, contact your Netwrix or NetSuite administrator.
 
 ![User Access Review menu](/img/product_docs/strongpointfornetsuite/uar/uar_menu.webp)
 

@@ -141,7 +141,7 @@ Connect Identity Manager to CyberArk by adding to the agent's ```appsettings.jso
 | --- | --- |
 | UseCyberArkSetting   default value: False | __Type__    Boolean   __Description__ ```True``` to enable the CyberArk Provider for Identity Manager. |
 | SafeName   required | __Type__    String   __Description__ Name of the safe containing the [ Connection ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) used by Identity Manager. |
-| ApplicationId   required | __Type__    String   __Description__ [CyberArk's AAM Credential Providers ](#CyberArks-AAM-Credential-Providers) of the application that can access the safe. |
+| ApplicationId   required | __Type__    String   __Description__ [CyberArk's AAM Credential Providers ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) of the application that can access the safe. |
 | Server   required | __Type__    String   __Description__ URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes.   __Note:__ the ```Server``` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
 ### Certificate settings
@@ -221,7 +221,7 @@ The Windows certificate is set using these attributes:
 ## Usercube's CyberArk Vault
 
 Once [CyberArk's AAM Credential Providers
-](#CyberArks-AAM-Credential-Providers), Identity Manager retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file.
+](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md), Identity Manager retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file.
 
 In this file:
 

@@ -2,9 +2,9 @@
 
 Here is the process to create a control to monitor changes:
 
-1. [Create a Saved Search](#Create-a-Saved-Search)
-2. [Create the Customization Record](#Create-the-Customization-Record)
-3. [Designate the Customization as a Control](#Designate-the-Customization-as-a-Control)
+1. Create a Saved Search
+2. Create the Customization Record
+3. Designate the Customization as a Control
 
 ## Create a Saved Search
 

@@ -1,16 +1,16 @@
 # Welcome
 
-Roles and Permissions are not a set once and forget about them activity. Both should be reviewed regularly to ensure your data is secured and users in your organization have the right access. __User Access Review__ streamlines this review process, making it easy to manage and review all access to your NetSuite data. UAR users must have a [license](/docs/strongpointfornetsuite/uar/install_app.md#license).
+Roles and Permissions are not a set once and forget about them activity. Both should be reviewed regularly to ensure your data is secured and users in your organization have the right access. __User Access Review__ streamlines this review process, making it easy to manage and review all access to your NetSuite data. UAR users must have a [license](/docs/strongpointfornetsuite/uar/install_app.md).
 
 ## Terminology
 
 Here are the basic terms used throughout the UAR guide:
 
-- [UAR Reviewer Roles](#UAR-Reviewer-Roles)
-- [Review Types](#Review-Types)
-- [Access Review](#Access-Review)
-- [Principle of Least Privilege](#Principle-of-Least-Privilege)
-- [Permissions and Roles](#Permissions-and-Roles)
+- UAR Reviewer Roles
+- Review Types
+- Access Review
+- Principle of Least Privilege
+- Permissions and Roles
 
 ### UAR Reviewer Roles
 

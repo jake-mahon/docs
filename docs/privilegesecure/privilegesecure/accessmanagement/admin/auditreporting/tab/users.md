@@ -13,7 +13,7 @@ The Users table has the following features:
   - User Name – Displays the name of the account
   - Email – Displays the associated email address, if available
   - Type – User or Group
-- Add button (Only visible when adding a new task) – Opens the Add Users and Groups window. See the [Add Users to Review](#Add-Users-to-Review) topic for additional information.
+- Add button (Only visible when adding a new task) – Opens the Add Users and Groups window. See the Add Users to Review topic for additional information.
 
 ## Add Users to Review
 
@@ -52,7 +52,7 @@ __CAUTION:__ It is not possible to add or remove users after they have been adde
 
 __Step 7 –__ Click Add to add the user(s) and group(s) to the access certification task.
 
-The new user(s) and group(s) are added to the certification task and are shown on the [Users Tab for Access Certification](#Users-Tab-for-Access-Certification).
+The new user(s) and group(s) are added to the certification task and are shown on the Users Tab for Access Certification.
 
 __NOTE:__ Only the assigned reviewer can interact with the entitlements once the access certification task is created.
 

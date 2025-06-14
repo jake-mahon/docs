@@ -15,7 +15,7 @@ Make sure you have Windows Remote Management properly configured on your Auditor
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
 
-- Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary. See the [Configure AD FS farm audit settings automatically](#Configure-AD-FS-farm-audit-settings-automatically) topic for additional information.
+- Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary. See the Configure AD FS farm audit settings automatically topic for additional information.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
   - AD FS audit settings must be configured on the primary AD FS server, i.e. on the first server you have set up in the farm:
@@ -36,7 +36,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - ```auditpol.exe /set /subcategory:"Application Generated" /failure:enable /success:enable```
   - Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See [Adjusting Event Log Size and Retention Settings](/docs/auditor/auditor/configuration/windowsserver/eventlog.md) for details.
   - If AD FS Admin logging is disabled, you should enable it.
-  - See the [Configure AD FS farm manually](#Configure-AD-FS-farm-manually) topic for additional information.
+  - See the Configure AD FS farm manually topic for additional information.
 
 ## __Configure AD FS farm audit settings automatically__
 

@@ -1,6 +1,6 @@
 # Using Agent Lookback
 
-_[Agent Lookback](#Agent-Lookback)_ gives __Enterprise__ license customers the capability to run an agent control from a specified past date through the current date. The control is run in single day batches, simulating a daily run.
+_Agent Lookback_ gives __Enterprise__ license customers the capability to run an agent control from a specified past date through the current date. The control is run in single day batches, simulating a daily run.
 
 The Agent Lookback is accessed from the Customization record for the control.
 

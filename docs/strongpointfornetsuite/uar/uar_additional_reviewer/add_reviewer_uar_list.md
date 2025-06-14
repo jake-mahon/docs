@@ -1,6 +1,6 @@
 # User Access Reviews List
 
-Access your Additional Reviewer list from __UAR List__ in your menu bar, or one of the review shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is controlled with the __Sort By__ selection in the [Filters](#Filters) section.
+Access your Additional Reviewer list from __UAR List__ in your menu bar, or one of the review shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is controlled with the __Sort By__ selection in the Filters section.
 
 Here is an example of the __Global__ review list:
 
@@ -23,7 +23,7 @@ Use __Clear__ to reset the Filters.
 
 ## UAR List
 
-- __Name__ is a link. For a __global__ review, the link opens the [Review list](#Review-list) showing all of the associated reviews. For a __single__ review the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab is opened. Reviews can also be opened via links in dashboard or email __Notifications__.
+- __Name__ is a link. For a __global__ review, the link opens the Review list showing all of the associated reviews. For a __single__ review the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab is opened. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Number of Reviews__ (global) is the number of single reviews in the global review.
 - __Review Type__ is the type of review. Global can be __Both__, __Membership__, or __Permission__. Single is __Membership__ or __Permission__. The review type is set when the review is created.
 - __Status__ Current status of the review:
@@ -31,7 +31,7 @@ Use __Clear__ to reset the Filters.
   - __Pending Assignment__ Review does not have an assigned owner.
   - __Not Started__ Email notification has been sent, review has not been started.
   - __In Progress__ Review has been started.
-  - __Additional Reviewer__ Review has been assigned to an [additional reviewer](#additional-reviewer).
+  - __Additional Reviewer__ Review has been assigned to an additional reviewer.
   - __Change Request__ Change request has been created. The __Change Request ID__ is added to the row. The link opens the Change Request. __CR Rejected__, __CR Cancelled__, and __CR Complete__ are the other Change Request status values.
   - __Waiting for CR__ Change request cannot be started, because there is an existing change request in progress for the role or permission as part of a different global review. Once the existing change request is complete, the current review can continue.
   - __Cancelled__ Review has been canceled. Canceled global reviews are shown in the UAR History list. Canceled single reviews are shown in the global review.

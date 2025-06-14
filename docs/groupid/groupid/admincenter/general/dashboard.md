@@ -9,15 +9,15 @@ LDAP, as well as individual identity stores.
 
 The dashboard displays the following information:
 
-- [Basic Information](#Basic-Information)
-- [Elasticsearch Service](#Elasticsearch-Service)
-- [Objects Modified in Last 24 Hours](#Objects-Modified-in-Last-24-Hours)
-- [Failed Notifications](#Failed-Notifications)
-- [Upcoming Schedules](#Upcoming-Schedules)
-- [Replication Status of Identity Stores](#Replication-Status-of-Identity-Stores)
-- [Enrollment Summary](#Enrollment-Summary)
-- [Auth Summary](#Auth-Summary)
-- [Activity Summary](#Activity-Summary)
+- Basic Information
+- Elasticsearch Service
+- Objects Modified in Last 24 Hours
+- Failed Notifications
+- Upcoming Schedules
+- Replication Status of Identity Stores
+- Enrollment Summary
+- Auth Summary
+- Activity Summary
 
 ## Basic Information
 

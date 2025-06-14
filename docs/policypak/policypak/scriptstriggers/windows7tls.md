@@ -24,7 +24,7 @@ If you wish to script the installation of the KB3140245 hotfix and the Registry 
 can do so with two scripts. These scripts will work with Endpoint Policy Manager Cloud and Endpoint Policy Manager Scripts Manager (GPO, MDM or
 Cloud.)
 
-The video explaining how to do this by hand, or by script, or using Endpoint Policy Manager Scripts can be found at : [How do I update Windows 7 machines to TLS 1.2 such that they work with Endpoint Policy Manager Cloud?](#How-do-I-update-Windows-7-machines-to-TLS-12-such-that-they-work-with-Endpoint-Policy-Manager-Cloud)
+The video explaining how to do this by hand, or by script, or using Endpoint Policy Manager Scripts can be found at : How do I update Windows 7 machines to TLS 1.2 such that they work with Endpoint Policy Manager Cloud?
 
 Note for the MSU file, you will need to stage it on Amazon S3 or another publicly readable service like Azure Blob
 storage. The file cannot automatically be downloaded by Windows 7 in its original home location because that download

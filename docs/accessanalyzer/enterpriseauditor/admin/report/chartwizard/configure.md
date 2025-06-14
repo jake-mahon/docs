@@ -14,9 +14,9 @@ If a datetime label column has been selected, you can optionally select a transf
 
 The table on the right is where the data series are configured. For configured data series, the table displays the series type (XAxis, YAxis, or DataValue), column name, aggregation function, friendly alias name, and legend color. Use the buttons above the table to add new or configure existing data series. The following options are available:
 
-- Add – Opens the Add new series window to configure a new data series. See the [Add New Series / Edit Series Window](#add-new-series-edit-series-window) topic for additional information.
+- Add – Opens the Add new series window to configure a new data series. See the [Add New Series / Edit Series Window](#add-new-series--edit-series-window) topic for additional information.
 - Remove – Removes the selected data series from the chart
-- Edit – Opens the Edit series window for the selected series. See the [Add New Series / Edit Series Window](#add-new-series-edit-series-window) topic for additional information.
+- Edit – Opens the Edit series window for the selected series. See the [Add New Series / Edit Series Window](#add-new-series--edit-series-window) topic for additional information.
 - Color Picker – Available only for pie charts. Opens the Pie slices color window, which allows you to customize the color for each slice of the pie chart. On the Pie slices color window:
 
   - Select the row of the desired value to customize and click __Change Color__

@@ -4,8 +4,8 @@ You can delete a portal or a deployment instance of a portal. On deleting a port
 
 What do you want to do?
 
-- [Delete a Deployment Instance for a Portal](#Delete-a-Deployment-Instance-for-a-Portal)
-- [Delete a Portal](#Delete-a-Portal)
+- Delete a Deployment Instance for a Portal
+- Delete a Portal
 
 ## Delete a Deployment Instance for a Portal
 

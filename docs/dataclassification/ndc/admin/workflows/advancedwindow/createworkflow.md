@@ -12,11 +12,11 @@ To configure a workflow:
    ![add_workflows_advanced_name_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_name_thumb_0_0.webp)
 5. Then you need to configure document processing rules. For each rule, you should set up rule conditions and rule actions. Also, specify how the workflow should be processed with regards to rules.
 
-   - [Specifying Rule Conditions](#Specifying-Rule-Conditions)
-   - [Specifying Rule Actions](#Specifying-Rule-Actions)
-   - [Other Rule Settings](#Other-Rule-Settings)
+   - Specifying Rule Conditions
+   - Specifying Rule Actions
+   - Other Rule Settings
 
-   To apply pre-conditions (they will be used before rule processing starts), see [Specifying Workflow Conditions](#Specifying-Workflow-Conditions)
+   To apply pre-conditions (they will be used before rule processing starts), see Specifying Workflow Conditions
 6. Navigate to Content → Sources and select Re-classify for the selected sources in the workflow.
 
 ## Specifying Rule Conditions
@@ -36,7 +36,7 @@ The following options are available:
 
   If you have selected any of the __Specific Classification__ variants, you should then specify taxonomy terms that will be applied to filter out the documents for your workflow.
 
-[To configure terms](#To-configure-terms)
+To configure terms
 
 1. In the __Select Term__ field, click the tag icon.
 2. In the __Details__ dialog, specify filter settings to use when filtering out the documents:
@@ -59,7 +59,7 @@ The configured rule condition will appear in the __Rule Conditions__ section on 
 
 ![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
 
-[Example](#Example)
+Example
 
 If you want to apply the rule to all documents classified as Visa cardholder data using PCI DSS taxonomy, configure the rule condition as follows:
 
@@ -111,4 +111,4 @@ You can narrow the initial workflow scope. For that, specify the conditions that
 ![add_workflows_advanced_wf_conditions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/add_workflows_advanced_wf_conditions_thumb_0_0.webp)
 
 1. Click __Edit__ to open __Edit Workflow Conditions__ dialog.
-2. Select the option you need from the __Mode__ list. The next steps are similar to those described in [Specifying Rule Conditions](#Specifying-Rule-Conditions)
+2. Select the option you need from the __Mode__ list. The next steps are similar to those described in Specifying Rule Conditions

@@ -5,7 +5,7 @@ Before you start creating a monitoring plan to audit the logon activity in your 
 Depending on the network traffic compression setting you need to use, one of the following is required:
 
 - If network traffic compression is enabled, then the account must belong to the Domain Admins group;
-- If network traffic compression is disabled, then you can choose between account which belongs to the Domain Admins group or non-administrative account. See the [Configure Non-Administrative Account to Collect Logon Activity ](#Configure-Non-Administrative-Account-to-Collect-Logon-Activity)topic below for additional information.
+- If network traffic compression is disabled, then you can choose between account which belongs to the Domain Admins group or non-administrative account. See the Configure Non-Administrative Account to Collect Logon Activity topic below for additional information.
 
 Afterward, include this account in the monitoring plan wizard.
 

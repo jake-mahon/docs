@@ -185,7 +185,7 @@ Strongpoint Settings for Jira
 
 The Strongpoint Settings app is accessed through Jira. This is where you create your Token Based Authentication (TBA) credentials for your account. Once created, they are available to you for easy selection when performing your tasks.
 
-Token-Based Authentication is set up through NetSuite. Refer to [Setting up Token-Based Authentication](/docs/strongpointfornetsuite/integrations/jira_integration.md#setting-up-token-based-authentication).
+Token-Based Authentication is set up through NetSuite. Refer to [Setting up Token-Based Authentication](/docs/strongpointfornetsuite/integrations/jira_integration.md).
 
 1. Open __Jira__.
 2. Open your __Projects__ page:

@@ -14,7 +14,7 @@ When new content is defined for crawling (i.e. included), a re-index operation s
 
 - The __Edit__ link allows you to modify settings for the selected list or subsite. See below for details.
 
-[List Configuration](#List-Configuration)
+List Configuration
 
 1. To modify list/library settings, select it and click Edit.
 2. In the properties window, configure __Content Fields__ and __Special Field mapping__ as needed. You can use the dropdown lists/selectors to search for and assign SharePoint fields to the appropriate mappings.
@@ -24,7 +24,7 @@ Consider the following:
 - In the absence of a list level configuration the collector will automatically use the subsite level mapping (on a field by field basis).
 - In the absence of a list level configuration the appropriate source defaults will automatically be used.
 
-[Subsite Configuration](#Subsite-Configuration)
+Subsite Configuration
 
 1. To modify subsite settings, select the subsite and click Edit.
 2. In the properties window, configure __Content Fields__ and __Special Field mapping__ as needed. You can use the dropdown lists/selectors to search for and assign SharePoint fields to the appropriate mappings.

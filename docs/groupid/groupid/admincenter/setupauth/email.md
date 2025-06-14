@@ -8,10 +8,10 @@ NOTE: Before configuring Email authentication, make sure that an SMTP server is 
 
 What do you want to do?
 
-- [Enable Email Authentication for an Identity Store](#Enable-Email-Authentication-for-an-Identity-Store)
-- [Modify the Email Template](#Modify-the-Email-Template)
-- [Enforce Email Authentication for a Role in an Identity Store
-  ](#Enforce-Email-Authentication-for-a-Role-in-an-Identity-Store)
+- Enable Email Authentication for an Identity Store
+- Modify the Email Template
+- Enforce Email Authentication for a Role in an Identity Store
+  
 
 ## Enable Email Authentication for an Identity Store
 

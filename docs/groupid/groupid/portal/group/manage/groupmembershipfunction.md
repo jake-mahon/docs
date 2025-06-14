@@ -52,7 +52,7 @@ Use any of the following methods to add members to groups.
 
 NOTE: These methods for adding members are recommended for static (unmanaged) groups only. For Smart Groups, Directory Manager will discard any manual membership changes when it updates the group through the Smart Group Update job.
 
-To add a member temporarily to a group, see [Change the membership type of a group member ](#Change-the-membership-type-of-a-group-member).
+To add a member temporarily to a group, see Change the membership type of a group member .
 
 ## Change the membership type of a group member
 
@@ -120,7 +120,7 @@ Follow the steps to remove members permanently from a group.
 
 NOTE: This method of removing members is recommended for static (unmanaged) groups only. For Smart Groups, Directory Manager will discard any manual membership changes when it updates the group through the Smart Group Update job.
 
-To remove a member temporarily from a group, see [Change the membership type of a group member ](#Change-the-membership-type-of-a-group-member).
+To remove a member temporarily from a group, see Change the membership type of a group member .
 
 ## Add a group to the membership of another group (nesting)
 

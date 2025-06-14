@@ -3,7 +3,7 @@
 You can specify data that you want to include into / exclude from the Windows File Server, NetApp Filer, and Dell Data Storage (formerly EMC) monitoring scope. For that, you can configure monitoring scope in Auditor client UI, as explained in the related section:
 
 - [File Servers](/docs/auditor/auditor/admin/monitoringplans/fileservers/overview.md)
-- [Windows File Share](#Windows-File-Share)
+- Windows File Share
 
 Besides, you can configure exclusions for file servers audit using the special txt files (omit lists), as explained below.
 
@@ -37,7 +37,7 @@ Complete the following fields:
 | Specify Windows file share | Provide UNC path to a shared resource. See the section below for special considerations.  Do not specify a default file share mapped to a local drive (e.g., \\Server\e$). |
 | Specify the account for collecting data |  |
 | Scope |  |
-| Specify monitoring restrictions | Refer to [Configure Scope](#Configure-Scope) for detailed instructions on how to narrow your monitoring scope.  By default, Netwrix Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). If you want to monitor user-defined hidden shares, select the related option in the monitored item settings.  Remember that administrative hidden shares like default system root or Windows directory (ADMIN$), default drive shares (D$, E$), etc. will not be monitored. See the topics on the monitored items for details. |
+| Specify monitoring restrictions | Refer to Configure Scope for detailed instructions on how to narrow your monitoring scope.  By default, Netwrix Auditor will monitor all shares stored in the specified location, except for hidden shares (both default and user-defined). If you want to monitor user-defined hidden shares, select the related option in the monitored item settings.  Remember that administrative hidden shares like default system root or Windows directory (ADMIN$), default drive shares (D$, E$), etc. will not be monitored. See the topics on the monitored items for details. |
 
 ### Configure Scope
 

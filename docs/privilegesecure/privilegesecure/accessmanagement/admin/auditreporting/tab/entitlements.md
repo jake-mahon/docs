@@ -23,7 +23,7 @@ The Entitlements table has the following features:
   - Permissions – The permissions granted by the access policy
 - The entitlements tab has three buttons:
 
-  - Review (only enabled for the reviewer) – Opens the Review Activity Details window. See the [Review Entitlements](#Review-Entitlements) topic for additional information.
+  - Review (only enabled for the reviewer) – Opens the Review Activity Details window. See the Review Entitlements topic for additional information.
   - Commit (only enabled when all access has been reviewed) – Commits the modified access. Once the entitlements are committed, no further changes can be made and the task cannot be deleted.
   - Export Entitlements as CSV (only enabled when changes have been committed) – Export activity details as CSV
 
@@ -67,7 +67,7 @@ __Step 5 –__ To remove access, select the applicable row(s) and click Deny.
 
 __NOTE:__ The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that attribute so that it can be re-enabled in the future.
 
-__Step 6 –__ When the entitlements have been reviewed, click Close. Changes are saved to the selected access certification task and shown on the [Entitlements Tab for Access Certification](#Entitlements-Tab-for-Access-Certification).
+__Step 6 –__ When the entitlements have been reviewed, click Close. Changes are saved to the selected access certification task and shown on the Entitlements Tab for Access Certification.
 
 __NOTE:__ It is not necessary to review all entitlements at once. Changes are automatically saved to the selected access certification task and can be returned to at any time (the Status will show as Incomplete).
 

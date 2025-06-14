@@ -23,7 +23,7 @@ See the [Add a database to an Always On availability group with the 'Availabilit
 
 You can configure Netwrix Auditor to use an existing SQL Server instance, or deploy a new instance.
 
-If your deployment planning reveals that SQL Server Express Edition will be suitable for your production environment, then you can install, for example, SQL Server 2016 SP2 Express with Advanced Services using the Audit Database Settings wizard or by manually downloading it from Microsoft web site. See the [Install Microsoft SQL Server and Reporting Services](#Install-Microsoft-SQL-Server-and-Reporting-Services) section for additional information.
+If your deployment planning reveals that SQL Server Express Edition will be suitable for your production environment, then you can install, for example, SQL Server 2016 SP2 Express with Advanced Services using the Audit Database Settings wizard or by manually downloading it from Microsoft web site. See the Install Microsoft SQL Server and Reporting Services section for additional information.
 
 ## SQL Server and Databases
 
@@ -88,7 +88,7 @@ When planning for SQL Server that will host Auditor databases, consider the foll
 - In large and extra-large infrastructures SQL Server should be installed on a separate server or cluster. Installation of Netwrix Auditor and SQL Server on the same server is not recommended in such environments.
 - If you plan to have Netwrix Auditor and SQL Server running on different machines, establish fast and reliable connection between them (100 Mbps or higher).
 - Both standalone servers and SQL Server clusters are supported, as well as AlwaysOn Availability Groups.
-- You can configure Netwrix Auditor to use an existing SQL Server instance, or create a new one. As an option, you can install SQL Server 2016 Express Edition, using the Audit Database Settings wizard or manually downloading it from Microsoft web site (see [Install Microsoft SQL Server and Reporting Services](#Install-Microsoft-SQL-Server-and-Reporting-Services)).
+- You can configure Netwrix Auditor to use an existing SQL Server instance, or create a new one. As an option, you can install SQL Server 2016 Express Edition, using the Audit Database Settings wizard or manually downloading it from Microsoft web site (see Install Microsoft SQL Server and Reporting Services).
 
 __CAUTION:__ It is not recommended to install Netwrix Auditor databases to a production SQL Server instance. Such instances may have a lot of maintenance plans or scripts running that may affect data uploaded by the product. The product databases are designed for reporting and searching and do not require maintenance or backup. For the long-term data storage, Netwrix Auditor uses Long-Term Archive. See [File-Based Repository for Long-Term Archive](/docs/auditor/auditor/requirements/longtermarchive.md) for additional information.
 

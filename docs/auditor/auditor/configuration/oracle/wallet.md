@@ -14,7 +14,7 @@ There are multiple methods to create Oracle Wallet files. For example:
 
 ## Install Oracle Instant Client
 
-To perform clear install of Oracle Instant Client, follow the instructions below. If you have Oracle Client installed, see the [Update Existing Oracle Client Installation](#Update-Existing-Oracle-Client-Installation) topic for additional information.
+To perform clear install of Oracle Instant Client, follow the instructions below. If you have Oracle Client installed, see the Update Existing Oracle Client Installation topic for additional information.
 
 Follow the steps to install Oracle Instant Client
 

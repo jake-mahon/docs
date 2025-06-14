@@ -8,10 +8,10 @@ On logging into Directory Manager portal, you land on the dashboard.
 
 Use the following to navigate within the application:
 
-- [Quick Search](#Quick-Search)
-- [Top right options](#Top-right-options)
-- [Menu pane](#Menu-pane)
-- [The Dashboard](#The-Dashboard)
+- Quick Search
+- Top right options
+- Menu pane
+- The Dashboard
 
 ## Quick Search
 

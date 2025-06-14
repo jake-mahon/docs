@@ -6,7 +6,7 @@ RSA Encryption
 
 This tool ```Usercube-Protect-X509JsonValue``` is used to encrypt only given values, in comparison to the[
 Usercube-Protect-X509JsonValue
-](#Usercube-Protect-X509JsonValue) tool that encrypts a whole file. This tool is more appropriate than ```Usercube-Protect-X509JsonFile``` when you have only a few lines to encrypt.
+](/docs/usercube/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md) tool that encrypts a whole file. This tool is more appropriate than ```Usercube-Protect-X509JsonFile``` when you have only a few lines to encrypt.
 
 ## Examples
 

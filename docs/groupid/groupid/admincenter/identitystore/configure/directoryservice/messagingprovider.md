@@ -25,11 +25,11 @@ When you create a mail-enabled group using Directory Manager, it will be created
 
 What do you want to do?
 
-- [Set Microsoft Exchange as Messaging Provider](#Set-Microsoft-Exchange-as-Messaging-Provider)
-- [Set Office 365 as Messaging Provider](#Set-Office-365-as-Messaging-Provider)
-- [Set Google Workspace as Messaging Provider](#Set-Google-Workspace-as-Messaging-Provider)
-- [Set an External Provider to Create Email Addresses](#Set-an-External-Provider-to-Create-Email-Addresses)
-- [Do Not Set a Messaging Provider](#Do-Not-Set-a-Messaging-Provider)
+- Set Microsoft Exchange as Messaging Provider
+- Set Office 365 as Messaging Provider
+- Set Google Workspace as Messaging Provider
+- Set an External Provider to Create Email Addresses
+- Do Not Set a Messaging Provider
 
 ## Set Microsoft Exchange as Messaging Provider
 

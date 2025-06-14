@@ -6,12 +6,8 @@ This guide shows how to deploy the XML configuration, in order to build and use 
 
 The process for configuration deployment varies according to the situation:
 
-- when working on-premise, the configuration must be [
-  Identity Manager Deploy the Configuration
-  ](#Identity-Manager-Deploy-the-Configuration);
-- when working SaaS, the configuration must be[
-  Identity Manager Deploy the Configuration
-  ](#Identity-Manager-Deploy-the-Configuration).
+- when working on-premise, the configuration must be deployed locally;
+- when working SaaS, the configuration must be deployed remotely.
 
 ## Deploy the Configuration Locally
 

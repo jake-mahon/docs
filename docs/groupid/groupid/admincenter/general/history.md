@@ -20,9 +20,9 @@ See the [History in Directory Manager](/docs/groupid/groupid/admincenter/history
 
 What do you want to do?
 
-- [View Admin Center History](#View-Admin-Center-History)
-- [Annotate History Items](#Annotate-History-Items)
-- [Export Admin Center History](#Export-Admin-Center-History)
+- View Admin Center History
+- Annotate History Items
+- Export Admin Center History
 
 ## View Admin Center History
 

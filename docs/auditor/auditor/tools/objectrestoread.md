@@ -13,8 +13,8 @@ The following Windows Server versions are supported:
 
 Perform the following procedures:
 
-- [Modify Schema Container Settings](#Modify-Schema-Container-Settings)
-- [Roll Back Unwanted Changes](#Roll-Back-Unwanted-Changes)
+- Modify Schema Container Settings
+- Roll Back Unwanted Changes
 
 ## Modify Schema Container Settings
 

@@ -2,9 +2,9 @@
 
 Account passwords occasionally need to be updated due to various reasons, such as security policies that require passwords to be reset on a regular basis. The following types of credentials may be impacted by password changes or security policies:
 
-- [SQL Server Service Account](#SQL-Server-Service-Account)
-- [Recovry Service Account](#Recovry-Service-Account)
-- [Domain Controller Backup Service Account](#Domain-Controller-Backup-Service-Account)
+- SQL Server Service Account
+- Recovry Service Account
+- Domain Controller Backup Service Account
 
 ## SQL Server Service Account
 

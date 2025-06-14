@@ -3,7 +3,7 @@
 The NPR Server stores user and event information in a database. The default database is Microsoft SQL Server Compact, an embedded version of SQL Server. The benefits of using SQL Server Compact include:
 
 - No manual installation or configuration required.
-- No maintenance apart from database. See the [Backing up the Database](#Backing-up-the-Database) topic for additional information.
+- No maintenance apart from database. See the Backing up the Database topic for additional information.
 - Fast and lightweight.
 - Free to use.
 

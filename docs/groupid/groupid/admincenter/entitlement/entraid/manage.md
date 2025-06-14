@@ -12,14 +12,14 @@ The user can also manage certain settings for a site, such as change the service
 
 What do you want to do?
 
-- [Specify SharePoint Sites for Entitlement Management](#Specify-SharePoint-Sites-for-Entitlement-Management)
-- [Include Future Sites for Entitlement Management](#Include-Future-Sites-for-Entitlement-Management)
-- [View the Document Libraries in a Site ](#View-the-Document-Libraries-in-a-Site)
-- [Exclude a Document Library from Replication](#Exclude-a-Document-Library-from-Replication)
-- [Connect to a Site Using a Different Account](#Connect-to-a-Site-Using-a-Different-Account)
-- [Replicate Permissions Manually](#Replicate-Permissions-Manually)
-- [Exclude a Site from Entitlement Management](#Exclude-a-Site-from-Entitlement-Management)
-- [Restore a Site for Entitlement Management](#Restore-a-Site-for-Entitlement-Management)
+- Specify SharePoint Sites for Entitlement Management
+- Include Future Sites for Entitlement Management
+- View the Document Libraries in a Site 
+- Exclude a Document Library from Replication
+- Connect to a Site Using a Different Account
+- Replicate Permissions Manually
+- Exclude a Site from Entitlement Management
+- Restore a Site for Entitlement Management
 
 ## Specify SharePoint Sites for Entitlement Management
 

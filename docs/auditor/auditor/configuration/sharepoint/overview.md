@@ -11,9 +11,9 @@ You can configure your IT Infrastructure for monitoring in one of the following
   - In this case, Auditor will enable automatic audit log trimming for all monitored site collections; log retention period will be set to 7 days. Also, consider that after a site collection is processed, Auditor will automatically delete the events older than 1 day from its audit log.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
-  - [Configure Audit Log Trimming](#Configure-Audit-Log-Trimming) on your SharePoint farm.
-  - [Configure Events Auditing Settings](#Configure-Events-Auditing-Settings) on your SharePoint farm.
-  - [Enable SharePoint Administration Service](#Enable-SharePoint-Administration-Service) on the computer where SharePoint Central Administration is installed and where you intend to deploy Netwrix Auditor for SharePoint Core Service.
+  - Configure Audit Log Trimming on your SharePoint farm.
+  - Configure Events Auditing Settings on your SharePoint farm.
+  - Enable SharePoint Administration Service on the computer where SharePoint Central Administration is installed and where you intend to deploy Netwrix Auditor for SharePoint Core Service.
 
 ## Configure Audit Log Trimming
 

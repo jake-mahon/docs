@@ -61,7 +61,7 @@ __Step 3 –__ Fill in the fields.
 - __Resource__: Identity chosen from among entries to be assigned said profile.
 - __Profile's Email__: Email created in order to receive the corresponding approval requests.
 - __Deny this Profile__: Option that forbids the profile assignment instead of applying it.
-- __Start Date__ and __End Date__: Particularly useful for [profile delegation](#profile-delegation).
+- __Start Date__ and __End Date__: Particularly useful for [profile delegation](#delegate-a-profile).
 
 __NOTE:__ If filters are defined in the Access Rules, and are assigned to the profile, a __Criteria__ section will appear containing them. Filters are conditions that, if met, trigger the Access Control Rule Application.  
 The only filters which can be displayed in this section are filters related to dimensions or hard coded criteria (Single Role, Composite Role, Resource Type and Category).  

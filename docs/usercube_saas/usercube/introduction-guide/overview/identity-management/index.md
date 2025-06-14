@@ -82,9 +82,9 @@ Entitlement Management
 
 ## Learn More
 
-Learn more on [
+Learn more on 
 Identity Management
-](#Identity-Management).
+.
 
 See how to [
 Create the Workforce Repository

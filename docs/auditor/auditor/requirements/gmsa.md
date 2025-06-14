@@ -151,9 +151,9 @@ Now you can use a gMSA account as one of the Auditor Service Account.
 
 This topic contains instructions on how to apply a gMSA as one of the Auditor Service Accounts.
 
-- [Apply a gMSA as a Data Collecting Account](#Apply-a-gMSA-as-a-Data-Collecting-Account)
-- [Apply gMSA to Access Long-Term Archive](#Apply-gMSAto-Access-Long-Term-Archive)
-- [Apply gMSA to Access Audit Database](#Apply-gMSAto-Access-Audit-Database)
+- Apply a gMSA as a Data Collecting Account
+- Apply gMSA to Access Long-Term Archive
+- Apply gMSA to Access Audit Database
 
 ### Apply a gMSA as a Data Collecting Account
 

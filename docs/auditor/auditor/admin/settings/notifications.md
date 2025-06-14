@@ -6,9 +6,9 @@ You can update notification settings at any time in the __Settings > Notificatio
 
 Review the following for additional information:
 
-- [Enable Notifications via Exchange Online](#Enable-Notifications-via-Exchange-Online)
-- [Enable Notifications via SMTP](#Enable-Notifications-via-SMTP)
-- [Summary Emails and Notifications about Critical Events](#Summary-Emails-and-Notifications-about-Critical-Events)
+- Enable Notifications via Exchange Online
+- Enable Notifications via SMTP
+- Summary Emails and Notifications about Critical Events
 
 ## Enable Notifications via Exchange Online
 
@@ -37,9 +37,9 @@ __Step 7 –__ In Netwrix Auditor, go to Notification Settings, click Modify, an
 
 After the application configuration, you can restrict permission so only the specified accounts could use the application to send email. To do this, the following actions required:
 
-- [Create a Group](#Create-a-Group)
-- [Add Email to a Group](#Add-Email-to-a-Group)
-- [Apply Restriction Using PowerShell Commands](#Apply-Restriction-Using-PowerShell-Commands)
+- Create a Group
+- Add Email to a Group
+- Apply Restriction Using PowerShell Commands
 
 ### Create a Group
 

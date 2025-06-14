@@ -16,13 +16,13 @@ The top of the page displays a profile card which may contain the following info
 
 The page has the following tabs:
 
-- [Threats Tab](#Threats-Tab)
-- [
+- Threats Tab
+- 
   Members
-  Tab](#MembersTab)
-- [Group Membership Tab](#Group-Membership-Tab)
-- [Owners Tab](#Owners-Tab)
-- [Roles Tab](#Roles-Tab)
+  Tab
+- Group Membership Tab
+- Owners Tab
+- Roles Tab
 
 ## Threats Tab
 

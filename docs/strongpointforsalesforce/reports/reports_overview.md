@@ -2,14 +2,14 @@
 
 The Netwrix Dashboard __Reports__ tab has links to all of the predefined reports and log files.
 
-- [Access Reports](#Access-Reports)
-- [Security Reports](#Security-Reports)
-- [Data Classification](#Data-Classification)
-- [Customizations](#Customizations)
-- [Clean Up](#Clean-Up)
-- [Change Enablement](#Change-Enablement)
-- [Release and Deployment](#Release-and-Deployment)
-- [Audit Reports](#Audit-Reports)
+- Access Reports
+- Security Reports
+- Data Classification
+- Customizations
+- Clean Up
+- Change Enablement
+- Release and Deployment
+- Audit Reports
 
 You can define and save your own reports.
 

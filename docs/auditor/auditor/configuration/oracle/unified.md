@@ -9,7 +9,7 @@ When planning your migration, consider that you can select the following scenari
 
 Perform the following steps according to official Oracle documentation:
 
-1. [To migrate to Unified Auditing for Oracle Database](#To-migrate-to-Unified-Auditing-for-Oracle-Database)
+1. To migrate to Unified Auditing for Oracle Database
 2. [Manage Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#manage-earlier-audit-records-after-you-migrate-to-unified-auditing)
 
 To migrate to Unified Auditing for Oracle Database

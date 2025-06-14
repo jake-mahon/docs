@@ -4,7 +4,7 @@ The Automated Search Clean Up feature runs as scheduled, or on demand, using cus
 
 Review the [Automated Search Clean Up Considerations](/docs/strongpointfornetsuite/clean_up/automated_search_cleanup_considerations.md) prior to using this feature.
 
-Saved Searches are powerful customizations used throughout NetSuite and interconnected to other customizations. As user-created Saved Searches proliferate, NetSuite accounts become inefficient and overall performance degrades. This rules-based tool provides administrators the ability to identify and archive Saved Searches and keep NetSuite accounts organized, easy to understand, and improve efficiency and performance. Archived searches can be restored with [limitations](#limitations).
+Saved Searches are powerful customizations used throughout NetSuite and interconnected to other customizations. As user-created Saved Searches proliferate, NetSuite accounts become inefficient and overall performance degrades. This rules-based tool provides administrators the ability to identify and archive Saved Searches and keep NetSuite accounts organized, easy to understand, and improve efficiency and performance. Archived searches can be restored with limitations.
 
 The __Automated Search Clean Up__ tool has two operating modes:
 
@@ -89,13 +89,13 @@ Lists any searches excluded after the __Preview__ function is used.
 
 ### Rule Preview
 
-The __Preview__ function provides a quick method to mark Saved Searches to be retained or to included for clean up. The [Run Now](#Run-Now) feature begins an immediate run for the rule.
+The __Preview__ function provides a quick method to mark Saved Searches to be retained or to included for clean up. The Run Now feature begins an immediate run for the rule.
 
 1. Administrators can click __Preview__ on an Search Clean Up Rule. __Preview__ displays the rule, filters and conditions.
 2. Review the Search List.  
     Check __Include__ to trigger a final notification email to be sent to the owner/user.  
     Check __Retain Search__ to keep the search.
-3. Click [Run Now](#Run-Now) to begin a Search Clean Up for the rule.
+3. Click Run Now to begin a Search Clean Up for the rule.
 4. Click __Confirm__.
 5. After previewing, you can click __Automatic__ on the Search Clean Up Rule to include the rule for automatic searches.
 
@@ -119,7 +119,7 @@ If a Saved Search matches the Clean Up Rule:
 
 ## Automated Run Workflow
 
-__Automated Search Clean Up__ runs continuously comparing searches to all rules marked [__Automatic__](#__Automatic__). Administrators receive weekly summary information containing: __identified searches__, __retained searches__, __scheduled to be archived searches__ and __archived searches__.
+__Automated Search Clean Up__ runs continuously comparing searches to all rules marked __Automatic__. Administrators receive weekly summary information containing: __identified searches__, __retained searches__, __scheduled to be archived searches__ and __archived searches__.
 
 1. When a Saved Search matches a Clean Up Rule:
 
@@ -149,7 +149,7 @@ Open __Strongpoint__> __Search Auto Clean Up__ > __Search Clean Up Status__ to v
   __In Notice Period__ - at least one notification has been sent.  
   __Processing__ - search is being auto-archived.  
   __Completed__ - all identified searches have been archived, and email sent to rule owner and administrator.  
-  __Canceled__ - __[Automatic](#Automatic)__ checkbox was turned off for the rule.
+  __Canceled__ - __Automatic__ checkbox was turned off for the rule.
 
 ![cleanup_status](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_status.webp)
 
@@ -195,9 +195,9 @@ If search owners or users do not click on __Retain this search__ in the email no
 
 ## Restoring an Auto Archived Search
 
-A NetSuite Administrator can restore an auto archived search with some [limitations](#limitations). Open the __Clean Up__ tab of the Customization record for the search or the report __Automated Search Clean Up__ > __Archived Searches__. Click __Restore__. Or use the __Restore__ link in the email sent to the rule owner and administrators.
+A NetSuite Administrator can restore an auto archived search with some limitations. Open the __Clean Up__ tab of the Customization record for the search or the report __Automated Search Clean Up__ > __Archived Searches__. Click __Restore__. Or use the __Restore__ link in the email sent to the rule owner and administrators.
 
-- Search is restored with [limitations](#limitations). Restored searches have a different internal ID from their original version, resetting the audit trail.
+- Search is restored with limitations. Restored searches have a different internal ID from their original version, resetting the audit trail.
 - Updates the __Date Last Used, Retained/Restored__ to the current date.
 - Adds the search to the __Automated Search Clean Up__ > __Retained Searches__ list.
 

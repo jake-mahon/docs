@@ -58,7 +58,7 @@ __NOTE:__ This workflow is not numbered because the Notification piece can occur
   - See the [Add New Resource Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/add.md) topic for additional information about adding individual resources.
   - See the [Import Owners Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/import.md) topic for additional information about adding resources with a bulk import.
 - Confirm resource ownership. See the [Ownership Confirmation](/docs/accessinformationcenter/access/informationcenter/resourceowners/confirmation.md) topic for additional information.
-- Notify owners of their responsibilities. See the [Notification to Owners](#Notification-to-Owners) topic for additional information.
+- Notify owners of their responsibilities. See the Notification to Owners topic for additional information.
 
 ## Notification to Owners
 

@@ -30,11 +30,11 @@ Some main features of the membership lifecycle policies are:
 
 What do you want to do?
 
-- [Specify an ‘Add Temporary’ Membership Policy](#Specify-an-Add-Temporary-Membership-Policy)
-- [Specify a ‘Remove Temporary’ Membership Policy](#Specify-a-Remove-Temporary-Membership-Policy)
-- [Edit a Policy](#Edit-a-Policy)
-- [Reapply a Policy](#Reapply-a-Policy)
-- [Delete a Policy](#Delete-a-Policy)
+- Specify an ‘Add Temporary’ Membership Policy
+- Specify a ‘Remove Temporary’ Membership Policy
+- Edit a Policy
+- Reapply a Policy
+- Delete a Policy
 
 ## Specify an ‘Add Temporary’ Membership Policy
 
@@ -133,8 +133,8 @@ __To edit a policy:__
 4. On the __Group/OU Based Membership Life Cycle__ page, click the ellipsis button for a policy and select __Edit__.
 5. Make the required changes to the policy on the __Edit Group/OU Based Membership Lifecycle Policy__ dialog box.
 
-   - For an _add temporary_ policy, follow step 5 and onwards in the [Specify an ‘Add Temporary’ Membership Policy](#Specify-an-Add-Temporary-Membership-Policy) topic.
-   - For a _remove temporary_ policy, follow step 5 and onwards in the [Specify a ‘Remove Temporary’ Membership Policy](#Specify-a-Remove-Temporary-Membership-Policy) topic.
+   - For an _add temporary_ policy, follow step 5 and onwards in the Specify an ‘Add Temporary’ Membership Policy topic.
+   - For a _remove temporary_ policy, follow step 5 and onwards in the Specify a ‘Remove Temporary’ Membership Policy topic.
 6. On the __Group/OU Based Membership Life Cycle__ page, click __Save__.
 
 ## Reapply a Policy

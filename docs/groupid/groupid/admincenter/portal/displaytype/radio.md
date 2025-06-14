@@ -34,7 +34,7 @@ A few radio display types used in the default portal template are:
    2. In the __Display Name__ box, enter a name for the radio button. This name is the radio button’s label in the portal, so it should represent the value of the radio button.
    3. In the __Tooltip__ box, enter the text that is displayed when a user hovers the mouse over the radio button.
    4. Enter a description for the radio button in the __Description__ box.
-   5. Select a security role in the __Visibility__ drop-down list. The radio button will be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
+   5. Select a security role in the __Visibility__ drop-down list. The radio button will be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
       Select _Never_ to hide the radio button from all users.
    6. Click __OK__. The radio button is listed in the __Values__ area on the __New Display Type__ pane.
 8. To define another radio button in the set, repeat step 7.

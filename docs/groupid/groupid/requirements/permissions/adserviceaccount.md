@@ -10,9 +10,9 @@ NOTE: You must add the service account to the membership of the Local Administra
 
 What do you want to do?
 
-- [Use an Existing Account as a Service Account](#Use-an-Existing-Account-as-a-Service-Account)
-- [Create a New Service Account](#Create-a-New-Service-Account)
-- [SQL Server Account and Database Permissions ](#SQLServer-Account-and-Database-Permissions)
+- Use an Existing Account as a Service Account
+- Create a New Service Account
+- SQL Server Account and Database Permissions 
 
 ## Use an Existing Account as a Service Account
 
@@ -22,16 +22,16 @@ Exchange permissions are required if Microsoft Exchange is configured as the mes
 
 |  |  |
 | --- | --- |
-| Active Directory | Recommended: __Domain Admins__  Minimum permissions:   - [Grant permissions to create and delete users, contacts, and groups.](#Grant-permissions-to-create-and-delete-users-contacts-and-groups) - [Grant permissions to modify users, contacts, and groups.](#Grant-permissions-to-modify-users-contacts-and-groups)   See the [Create a New Service Account](#Create-a-New-Service-Account) topic for instructions on modifying the service account to grant the required permissions. |
+| Active Directory | Recommended: __Domain Admins__  Minimum permissions:   - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups.   See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
 | Exchange 2013/2016/2019 | Recipient Management |
 
 ## Create a New Service Account
 
 If you do not have a service account, you need to create one. Follow the three sets of instructions in this section to:
 
-1. [Create a Service Account:](#Create-a-Service-Account)
-2. [Delegate Active Directory Permissions to the New Account:](#Delegate-Active-Directory-Permissions-to-the-New-Account)
-3. [Delegate Exchange Permissions to the New Account:](#Delegate-Exchange-Permissions-to-the-New-Account)
+1. Create a Service Account:
+2. Delegate Active Directory Permissions to the New Account:
+3. Delegate Exchange Permissions to the New Account:
 
    f Exchange is configured as the messaging provider for the identity store)
 

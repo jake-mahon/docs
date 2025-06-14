@@ -6,9 +6,9 @@ When an [Environment Comparison](/docs/strongpointforsalesforce/tools/environmen
 
 The export history is saved in Salesforce. You can view the list, or add the Export Object Attachments tabs to your menu bar.
 
-> [Salesforce Classic View](#Salesforce-Classic-View)
+> Salesforce Classic View
 >
-> [Salesforce Lightning](#Salesforce-Lightning)
+> Salesforce Lightning
 
 ## Salesforce Classic View
 

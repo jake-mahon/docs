@@ -14,9 +14,9 @@ All audit interfaces consist of at least three components, and the Resource Audi
 
 The main section of the audit interface is the Results pane. On the right-side of the page are the Reports and Group Membership panes. On the Resource Audit interface, the Resources pane is to the left of the Results pane. Theses panes have the following functions:
 
-- [Reports Pane](#Reports-Pane) – Lists available reports for the resource type
-- [Results Pane](#Results-Pane) – Displays the report content
-- [Group Membership Pane](#Group-Membership-Pane) – Displays group membership for group trustees selected in the Results pane
+- Reports Pane – Lists available reports for the resource type
+- Results Pane – Displays the report content
+- Group Membership Pane – Displays group membership for group trustees selected in the Results pane
 - [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) – Navigation tree for the selected resource (only present in the Resource Audit interface)
 
 ### Reports Pane

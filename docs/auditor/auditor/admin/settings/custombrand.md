@@ -4,8 +4,8 @@ Netwrix Auditor allows customizing look and feel of your reports, search subscri
 
 Review the following for additional information:
 
-- [Customize Branding in AuditIntelligence Outputs](#Customize-Branding-in-AuditIntelligence-Outputs)
-- [Customize Branding in Reports](#Customize-Branding-in-Reports)
+- Customize Branding in AuditIntelligence Outputs
+- Customize Branding in Reports
 
 ## Customize Branding in AuditIntelligence Outputs
 

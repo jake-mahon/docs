@@ -2,23 +2,23 @@
 
 Here are the reports available for SoD:
 
-[SoD Role Management](#SoD-Role-Management)
+SoD Role Management
 
-[SoD Incident Management](#SoD-Incident-Management)
+SoD Incident Management
 
-[SoD Change Management](#SoD-Change-Management)
+SoD Change Management
 
-[SoD Risk Management](#SoD-Risk-Management)
+SoD Risk Management
 
-[SoD Audit Reports](#SoD-Audit-Reports)
+SoD Audit Reports
 
-[Reports on Employee Record SoD tab](#Reports-on-Employee-Record-SoD-tab)
+Reports on Employee Record SoD tab
 
-[SoD Employee Access Reports](#SoD-Employee-Access-Reports)
+SoD Employee Access Reports
 
-[SoD Processing Status](#SoD-Processing-Status)
+SoD Processing Status
 
-[SoD Testing](#SoD-Testing)
+SoD Testing
 
 | SoD Role Management | Description |
 | --- | --- |

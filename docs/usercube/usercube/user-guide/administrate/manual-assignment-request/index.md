@@ -6,12 +6,12 @@ How to send a manual request to add, update or remove an entitlement for an iden
 
 Changes in an identity's entitlements can be handled using Identity Manager's predefined workflows to:
 
-- View the list of the identity's [
+- View the list of the identity's 
   Request Entitlement Assignment
-  ](#Request-Entitlement-Assignment) with Identity Manager's suggestions according to the identity's position;
-- Modify the identity's [
+   with Identity Manager's suggestions according to the identity's position;
+- Modify the identity's 
   Request Entitlement Assignment
-  ](#Request-Entitlement-Assignment) (add, update, remove).
+   (add, update, remove).
 
 ## Participants and Artifacts
 

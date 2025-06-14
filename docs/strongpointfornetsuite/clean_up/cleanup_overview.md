@@ -19,12 +19,12 @@ Platform Governance for NetSuite has a series of built in Clean Up Tools to enab
 
 There are many types of clean up, but they generally follow the same process:
 
-1. [Select the Approach and Tools ](#Select-the-Approach-and-Tools)
-2. [Analyze the Results](#Analyze-the-Results)
-3. [Organize the Results](#Organize-the-Results)
-4. [Create Change Requests (if required)](#Create-Change-Requests-if-required)
-5. [Manage the Change or Clean Up as Appropriate ](#Manage-the-Change-or-Clean-Up-as-Appropriate)
-6. [ReSpider](#ReSpider)
+1. Select the Approach and Tools 
+2. Analyze the Results
+3. Organize the Results
+4. Create Change Requests (if required)
+5. Manage the Change or Clean Up as Appropriate 
+6. ReSpider
 
 Always check the __Last Date Spidered__ on any object and re-spider that object if necessary to ensure the information about that object is up to date.
 

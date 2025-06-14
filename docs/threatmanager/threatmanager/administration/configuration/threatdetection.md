@@ -18,7 +18,7 @@ The Threats list divides the threats into sections:
 - [Entra ID Threats](/docs/threatmanager/threatmanager/threats/entraid.md)
 - [File System Threats](/docs/threatmanager/threatmanager/threats/filesystem.md)
 - [General Threats](/docs/threatmanager/threatmanager/threats/general.md)
-- [Threat Detection Page](#Threat-Detection-Page)
+- Threat Detection Page
 
 Select a threat from the list to display the threat's configuration options to the right of the Threats box.
 

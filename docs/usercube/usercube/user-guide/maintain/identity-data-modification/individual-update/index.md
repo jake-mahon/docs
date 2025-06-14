@@ -9,7 +9,7 @@ This part is not about changing the data model, but data itself.
 Individual changes in identity data can be handled using Identity Manager's predefined workflows to:
 
 - [declare a new identity](#declare-a-new-identity) (for an internal as well as an external worker);
-- [act on existing identities](#act-on-existing-identities), including modify their data, manage their contract and/or positions, suspend all accounts linked to them, or reactivate them, repair some data, or delete these identities.
+- [act on existing identities](#act-on-an-existing-identity), including modify their data, manage their contract and/or positions, suspend all accounts linked to them, or reactivate them, repair some data, or delete these identities.
 
 ## Participants and Artifacts
 

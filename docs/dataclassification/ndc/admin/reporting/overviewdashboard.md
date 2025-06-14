@@ -1,6 +1,6 @@
 # Sensitive Documents Dashboard
 
-The dashboard provides a top-level overview of the security classifications tagged against the content and allows users to drill down into the data to gain visibility of where/what their sensitive content is. By default, the dashboard shows all classified data. However, users can customize it for their needs. [See Customize Dashboard for more information.](#See-Customize-Dashboard-for-more-information)
+The dashboard provides a top-level overview of the security classifications tagged against the content and allows users to drill down into the data to gain visibility of where/what their sensitive content is. By default, the dashboard shows all classified data. However, users can customize it for their needs. See Customize Dashboard for more information.
 
 __NOTE:__ To review the dashboard a user requires the Access Reports permission and must have at least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 

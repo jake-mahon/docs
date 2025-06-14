@@ -11,7 +11,7 @@ It contains four pages:
 - 3. Resources — Modify the list of resources included in the review
 - 4. Summary — Preview of the review selections
 
-See the [Edit a Review](#Edit-a-Review) topic for additional information.
+See the Edit a Review topic for additional information.
 
 ## Edit a Review
 

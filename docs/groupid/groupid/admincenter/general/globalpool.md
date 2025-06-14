@@ -6,8 +6,8 @@ When an identity store is created, four questions from this global pool are auto
 
 What do you want to do?
 
-- [Add a Question to the Question Pool](#Add-a-Question-to-the-Question-Pool)
-- [Remove a Question from the Question Pool](#Remove-a-Question-from-the-Question-Pool)
+- Add a Question to the Question Pool
+- Remove a Question from the Question Pool
 
 ## Add a Question to the Question Pool
 

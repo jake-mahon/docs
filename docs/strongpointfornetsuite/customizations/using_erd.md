@@ -3,7 +3,7 @@
 The Entity Relationship Diagram, __ERD__ is a visual representation of your Customizations where you can easily review the relationships and dependencies. The ERD is easily accessible:
 
 - __Strongpoint__ > __Customizations__ > __ERD View__
-- ERD Search, refer to [Enabling the ERD Search on the Dashboard](#Enabling-the-ERDSearch-on-the-Dashboard)
+- ERD Search, refer to Enabling the ERD Search on the Dashboard
 - Tabs on various pages, for example, Customization record, Change Requests, and Process Issues.
 
 The ERD provides a way to look at customizations by record type. A left click on the customization name brings up the customization record.

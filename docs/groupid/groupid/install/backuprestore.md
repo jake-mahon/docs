@@ -2,12 +2,12 @@
 
 This topic provides instructions for backing up and restoring the data from previous versions of GroupID when upgrading to Directory Manager 11.1.
 
-- [Database on SQL Server](#Database-on-SQL-Server)
-- [Elasticsearch Data](#Elasticsearch-Data)
-- [GroupID Self-Service Portals](#GroupID-Self-Service-Portals)
-- [GroupID Password Center Portals](#GroupID-Password-Center-Portals)
-- [Synchronize Jobs](#Synchronize-Jobs)
-- [Reports](#Reports)
+- Database on SQL Server
+- Elasticsearch Data
+- GroupID Self-Service Portals
+- GroupID Password Center Portals
+- Synchronize Jobs
+- Reports
 
 ## Database on SQL Server
 

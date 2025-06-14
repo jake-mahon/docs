@@ -11,8 +11,8 @@ Netwrix Auditor Password Expiration Notifier standalone tool checks which domain
 
 Review the following for additional information:
 
-- [Configure Password Expiration Alerting](#Configure-Password-Expiration-Alerting)
-- [Registry Key Configuration](#Registry-Key-Configuration)
+- Configure Password Expiration Alerting
+- Registry Key Configuration
 - [Password Expiration Notifier Ports](/docs/auditor/auditor/tools/passwordexpirationnotifier/ports.md)
 - [Password Expiration Monitoring Scope](/docs/auditor/auditor/tools/passwordexpirationnotifier/monitoringscope.md)
 

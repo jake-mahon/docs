@@ -8,7 +8,7 @@ __On the target SQL Server:__
 
 1. To access SQL Server, Windows authentication will be used, so data collection account should be a Windows account specified in the _domain\user_ format (_domain\user$_ for Managed Service Account).   
    SQL Server logins and authentication method are not supported.
-2. The account must be assigned the __System Administrator__ server role for this SQL Server. See [Assigning 'System Administrator' Role](#Assigning-System-Administrator-Role) section for more information.
+2. The account must be assigned the __System Administrator__ server role for this SQL Server. See Assigning 'System Administrator' Role section for more information.
 3. For auditing SQL Server availability on groups, the account must have the sysadmin server role granted on each server added to an availability group.
 4. If you plan to collect state-in-time data from SQL Server, in addition to requirements above the account will also need:
    - Local __Administrator__ rights on the target SQL Server.

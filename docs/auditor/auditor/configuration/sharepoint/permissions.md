@@ -13,7 +13,7 @@ __On the target SharePoint farm:__
 1. On the SharePoint server where the Netwrix Auditor Core Service will be deployed: the account must be a member of the local Administrators group.   
    To learn more about Netwrix Auditor Core Services, refer to [Installation](/docs/auditor/auditor/install/overview.md) topic.
 2. On the SQL Server hosting SharePoint database: the SharePoint\_Shell\_Access role.   
-   See the [Assigning 'SharePoint\_Shell\_Access' Role](#Assigning-SharePoint_Shell_Access-Role) topic for additional information.
+   See the Assigning 'SharePoint\_Shell\_Access' Role topic for additional information.
 3. If you plan to collect state-in-time data from a SharePoint farm, the account should also meet the requirements below:
    - For site collection processing — lock status for this account must differ from _No access_
    - For web application processing — the following permissions must be assigned to this account:

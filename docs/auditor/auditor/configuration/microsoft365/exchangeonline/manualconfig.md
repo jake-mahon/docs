@@ -4,9 +4,9 @@ This topic contains general requirements for Exchange Online State-in-Time and A
 
 Review the following:
 
-- [Requirements for Exchange Online Modern Authentication](#Requirements-for-Exchange-Online-Modern-Authentication)
-- [Install the ExchangeOnlineManagement PowerShell Module](#Install-the-ExchangeOnlineManagement-PowerShell-Module)
-- [Configure Exchange Online Modern Authentication Manually](#Configure-Exchange-Online-Modern-Authentication-Manually)
+- Requirements for Exchange Online Modern Authentication
+- Install the ExchangeOnlineManagement PowerShell Module
+- Configure Exchange Online Modern Authentication Manually
 
 ## Requirements for Exchange Online Modern Authentication
 
@@ -15,7 +15,7 @@ General Requirements
 - Windows Management Framework for your OS: [Windows Management Framework 5.1](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 - .NET Framework 4.7.1 and above: [Download .NET Framework 4.7.1](https://dotnet.microsoft.com/download/dotnet-framework/net471)
 
-__NOTE:__  If you have the FIPS option enabled you should proceed to Manual Exchange Online pre-configuration. See the [Configure Exchange Online Modern Authentication Manually](#Configure-Exchange-Online-Modern-Authentication-Manually)section for additional information.
+__NOTE:__  If you have the FIPS option enabled you should proceed to Manual Exchange Online pre-configuration. See the Configure Exchange Online Modern Authentication Manuallysection for additional information.
 
 Follow the steps to enable Exchange Online Auto Audit for mailboxes with Modern Authentication (automatic mode).
 
@@ -53,7 +53,7 @@ Install-Module ExchangeOnlineManagement
 
 Review the following Microsoft technical article for more information: [About the Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps)
 
-See next: [Configure Exchange Online Modern Authentication Manually](#Configure-Exchange-Online-Modern-Authentication-Manually)
+See next: Configure Exchange Online Modern Authentication Manually
 
 __NOTE:__ If you encountered errors executing the ```Install-PackageProvider``` cmdlet try to force PowerShell into TLS 1.2 mode and try again:
 

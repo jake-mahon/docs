@@ -39,7 +39,7 @@ Unless you select to Write data to CSV file, Auditor will also pass the followin
 - _AlertID_ — alert ID
 - _RecordID_ — ID of the activity record that triggered the alert
 
-Selecting Write data to CSV file will change this behavior, as described in the [Configure a Response Action for Alert](#Configure-a-Response-Action-for-Alert) section below.
+Selecting Write data to CSV file will change this behavior, as described in the Configure a Response Action for Alert section below.
 
 __Step 5 –__ In the Working directory field, specify path to the working directory of the executable file on NAuditor server.
 
@@ -53,7 +53,7 @@ After the upgrade, all alerts with previously configured response action will ha
 
 __Step 8 –__ Limit row count in a file to `<N>` — limit the number of rows (activity records) to be written to a single ._csv_ file. Enter a value from _1_ to _1000_.
 
-Learn more about how these options work in the [Configure a Response Action for Alert](#Configure-a-Response-Action-for-Alert) section.
+Learn more about how these options work in the Configure a Response Action for Alert section.
 
 By default, the executable file will be launched under the _LocalSystem_ account. If you want to use another account, select the Use custom credentials checkbox and specify user name and password. Make sure this account has __Log on as batch job__ privilege.
 

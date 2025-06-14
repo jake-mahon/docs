@@ -2,8 +2,8 @@
 
 The Add Owner window opens from either the [Add New Resource Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/add.md) or the [Update Resource Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/update.md). Choose between:
 
-- [Select a Probable Owner](#Select-a-Probable-Owner) — Select from a calculated list of probable owners
-- [Search for Owner](#Search-for-Owner) — Browsing Active Directory for a user account
+- Select a Probable Owner — Select from a calculated list of probable owners
+- Search for Owner — Browsing Active Directory for a user account
 
 ## Select a Probable Owner
 

@@ -19,7 +19,7 @@ The following are requirements for the Exchange servers to be scanned:
 - WINRM Service installed on all Exchange servers to be targeted as a back up in the event of a remote PowerShell failure
 - Within the Access Analyzer Console, the global __Settings > Exchange__ node must be configured
 
-  __NOTE:__ For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the global Settings will have a web address instead of an actual server. Therefore, each ExchangePS query requires the CAS server to be set as the specific server on the Category page. See the [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/recommended.md#exchangeps-data-collector-client-access-server) topic for a list of queries for which this would apply.
+  __NOTE:__ For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the global Settings will have a web address instead of an actual server. Therefore, each ExchangePS query requires the CAS server to be set as the specific server on the Category page. See the [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/recommended.md) topic for a list of queries for which this would apply.
 
 Data Collectors
 

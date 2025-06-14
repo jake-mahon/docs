@@ -2,8 +2,8 @@
 
 You can configure your cluster for monitoring in one of the following ways:
 
-- Using the configure\_ifs.sh shell script that comes with Netwrix Auditor. See the [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script](#Configure-Dell-IsilonPowerScale-Cluster-in-Normal-or-Enterprise-Mode-via-Shell-Script) topic for additional information.
-- Manual configuration. See the [Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode Manually](#Configure-Dell-IsilonPowerScale-Cluster-in-Normal-or-Enterprise-Mode-Manually) topic for additional information.
+- Using the configure\_ifs.sh shell script that comes with Netwrix Auditor. See the Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script topic for additional information.
+- Manual configuration. See the Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode Manually topic for additional information.
 
 ## Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script
 

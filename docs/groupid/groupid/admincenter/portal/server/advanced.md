@@ -8,9 +8,9 @@ Default values for all advanced settings are specified for a portal. You can upd
 
 You can manage the following advanced settings for a portal:
 
-- [Portal & Search](#Portal-Search)
-- [Listings Display](#Listings-Display)
-- [Miscellaneous](#Miscellaneous)
+- Portal & Search
+- Listings Display
+- Miscellaneous
 
 ## Portal & Search
 
@@ -58,7 +58,7 @@ NOTE: Individual users can personalize all except the _Display Nested Ownership_
 3. Click __Advanced Settings__ under __Server Settings__.
 4. On the __Advanced Settings__ page, navigate to the required setting and update it.
 
-   - To change general portal settings, see the [Portal & Search](#Portal-Search) table.
-   - To change display settings for groups, see the [Listings Display](#Listings-Display) table.
-   - To manage other settings, see the [Miscellaneous](#Miscellaneous) table.
+   - To change general portal settings, see the Portal & Search table.
+   - To change display settings for groups, see the Listings Display table.
+   - To manage other settings, see the Miscellaneous table.
 5. Click __Save__.

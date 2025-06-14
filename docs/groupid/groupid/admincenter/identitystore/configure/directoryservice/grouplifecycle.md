@@ -20,13 +20,13 @@ NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID iden
 
 What do you want to do?
 
-- [Set a Default Expiry Policy for Groups](#Set-a-Default-Expiry-Policy-for-Groups)
-- [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers)
-- [Exempt Security Groups from Expiry](#Exempt-Security-Groups-from-Expiry)
-- [Auto Delete Expired Groups](#Auto-Delete-Expired-Groups)
-- [Enable Group Usage Lifecycle](#Enable-Group-Usage-Lifecycle)
-- [Enable Group Attestation](#Enable-Group-Attestation)
-- [Set Group Expiry Notifications](#Set-Group-Expiry-Notifications)
+- Set a Default Expiry Policy for Groups
+- Apply Policy on Specific Containers
+- Exempt Security Groups from Expiry
+- Auto Delete Expired Groups
+- Enable Group Usage Lifecycle
+- Enable Group Attestation
+- Set Group Expiry Notifications
 
 ## Set a Default Expiry Policy for Groups
 
@@ -90,7 +90,7 @@ __The security group expiration paradox__
 A security group may grant or restrict access to network resources to its members. Enabling security group expiry may pose a problem; the members of an expired security group will get undesired access to network resources, or will be denied access
 to resources that were assigned to it.
 
-To manage this, make sure your critical security groups reside in the OU that the expiry policy does not apply to. Use the __Do not apply policy on following containers__ option to set the OU aside (see the [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers) topic).
+To manage this, make sure your critical security groups reside in the OU that the expiry policy does not apply to. Use the __Do not apply policy on following containers__ option to set the OU aside (see the Apply Policy on Specific Containers topic).
 In this way, those groups will not expire even if you enable the expiry of security groups.
 
 __To enable security group expiry:__
@@ -149,8 +149,8 @@ You can enforce group owners to review and validate the attributes and membershi
 
 - Group attestation does not apply to groups that have ‘Never Expire’ as their expiry policy.
 - The Membership Life Cycle schedule must be defined for the identity store.
-- Group attestation does not apply to excluded containers. See the [Apply Policy on Specific Containers](#Apply-Policy-on-Specific-Containers) topic.
-- With group attestation enabled, the Group Usage Lifecycle settings cannot be applied. If those settings are already defined, they get disabled when you enable group attestation. See the the [Enable Group Usage Lifecycle](#Enable-Group-Usage-Lifecycle) topic.
+- Group attestation does not apply to excluded containers. See the Apply Policy on Specific Containers topic.
+- With group attestation enabled, the Group Usage Lifecycle settings cannot be applied. If those settings are already defined, they get disabled when you enable group attestation. See the the Enable Group Usage Lifecycle topic.
 - For attestation, group owners must use the Directory Manager portal.
 - In the default portal template, a few fields (attributes) for group attestation are specified. You can add and remove fields to include those that you want group owners to validate and update.
 - In case of a Dynasty, parent and child Dynasties have to be attested individually. Child Dynasties include both middle and leaf Dynasties. However, child Dynasties cannot be renewed after attestation, as they are renewed with their respective

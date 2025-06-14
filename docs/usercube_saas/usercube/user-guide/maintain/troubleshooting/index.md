@@ -94,9 +94,9 @@ If provisioning orders produce incorrect values, then it can come from:
 - incorrect identity data, in which case you should select a test user, click on __View Sources__ to see which sources contributed to the data, and click on __View History__ to see when the data changed.
 - wrong provisioning rules, i.e. scalar, navigation and/or query rules;
 
-  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. See more details on how to use the [
+  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. See more details on how to use the 
   Troubleshoot
-  ](#Troubleshoot) workflow for debug purposes.
+   workflow for debug purposes.
 
 > For example, if identity data has changed and HR data has not, then it must come from the rules.
 
@@ -107,9 +107,9 @@ If a provisioning threshold is exceeded, then check whether the threshold is leg
 - incorrect identity data, in which case you should select a test user, click on __View Sources__ to see which sources contributed to the data, and click on __View History__ to see when the data changed.
 - wrong provisioning rules, i.e. scalar, navigation and/or query rules;
 
-  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. See more details on how to use the helpdesk [
+  __Verify:__ After debugging the situation, use the helpdesk workflow to edit a field and check the changes for only one user to make sure the fix gives the expected result. Only then, recompute the role model for all users through the __Compute Role Model__ job of connector screens. See more details on how to use the helpdesk 
   Troubleshoot
-  ](#Troubleshoot) workflow for debug purposes.
+   workflow for debug purposes.
 
 ## Troubleshoot Entitlement Issues
 

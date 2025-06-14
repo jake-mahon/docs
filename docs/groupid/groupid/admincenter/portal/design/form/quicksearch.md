@@ -7,9 +7,9 @@ You can also specify a search operator that determines what part of the attribut
 
 What do you want to do?
 
-- [Specify Attributes for Quick Search](#Specify-Attributes-for-Quick-Search)
-- [Change the Search Operator](#Change-the-Search-Operator)
-- [Specify Searchable Objects](#Specify-Searchable-Objects)
+- Specify Attributes for Quick Search
+- Change the Search Operator
+- Specify Searchable Objects
 
 ## Specify Attributes for Quick Search
 

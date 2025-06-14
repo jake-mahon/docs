@@ -2,10 +2,10 @@
 
 This section contains information on how to configure metadata of your documents. Review the following for additional information:
 
-- [Document Metadata Fields](#Document-Metadata-Fields)
-- [Metadata Field Mappings](#Metadata-Field-Mappings)
-- [Metadata Value Mappings](#Metadata-Value-Mappings)
-- [](#)[Owner Mapping Priorities ](#Owner-Mapping-Priorities)
+- Document Metadata Fields
+- Metadata Field Mappings
+- Metadata Value Mappings
+- [](#)Owner Mapping Priorities 
 
 ## Document Metadata Fields
 

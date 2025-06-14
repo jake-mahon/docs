@@ -41,9 +41,9 @@ Follow the steps to transfer the ownership of a group.
 8. The __Summary__ page displays following details regarding Ownership
 
    1. __Existing Owner:__ It will display name of the owner who owns that group. In case of the group has no owner, it will display __None.__
-   2. __Container:__ It will display the container name you selected in [On the Containers page, click Browse to select an organizational unit, domain, or the entire directory.](#On-the-Containers-page-click-Browse-to-select-an-organizational-unit-domain-or-the-entire-directory).
+   2. __Container:__ It will display the container name you selected in On the Containers page, click Browse to select an organizational unit, domain, or the entire directory..
    3. __Include Subcontainers:__ It will say __Yes__ if you have selected the __Include Subcontainers__ checkbox and __No__ otherwise.
-   4. __New Owner__: It will display the name of new owner that you selected in [On the New Owner page, click Browse to select a new owner using the Find dialog box.](#On-the-New-Owner-page-click-Browse-to-select-a-new-owner-using-the-Find-dialog-box).
+   4. __New Owner__: It will display the name of new owner that you selected in On the New Owner page, click Browse to select a new owner using the Find dialog box..
 9. Click __Finish__ to complete ownership transfer.
 10. The __Transferring ownership__ page displays the transfer progress. Click __Show Details__ to view object name and status.
 

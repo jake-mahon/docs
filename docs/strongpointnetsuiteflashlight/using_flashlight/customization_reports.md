@@ -4,11 +4,11 @@ Flashlight provides a set of useful reports to help you ensure that your account
 
 The following reports can be accessed from Flashlight main menu under the __Customizations__ menu:
 
-- [Customizations with Poor Script Ids](#Customizations-with-Poor-Script-Ids)
-- [Customizations with Missing Descriptions](#Customizations-with-Missing-Descriptions)
-- [Customizations with Missing Active Owner](#Customizations-with-Missing-Active-Owner)
-- [Fields with Missing Help](#Fields-with-Missing-Help)
-- [Deleted Customizations](#Deleted-Customizations)
+- Customizations with Poor Script Ids
+- Customizations with Missing Descriptions
+- Customizations with Missing Active Owner
+- Fields with Missing Help
+- Deleted Customizations
 
 ## Customizations with Poor Script Ids
 

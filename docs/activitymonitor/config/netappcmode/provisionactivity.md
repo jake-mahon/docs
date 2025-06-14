@@ -17,9 +17,9 @@ The permissions needed depends on the functionality level:
 - ___RECOMMENDED:___ Less Privileged: Enable/Connect Policy & Collect Events – With this level, the user still performs the initial FPolicy configuration manually. The product tracks the state of FPolicy with periodic checks to ensure it stays enabled and connected all the time.
 - ___RECOMMENDED:___ Automatically Configure the FPolicy – With this full-blown level, no manual configuration is needed. The product performs the initial FPolicy configuration; updates FPolicy to reflect configuration changes; ensures that FPolicy stays enabled and connected all the time.
 
-No matter which set of permissions you provision, validate the configuration before continuing to Part 2. See the [Validate Part 1: Security Role Configuration](#Validate-Part-1-Security-Role-Configuration) topic for additional information.
+No matter which set of permissions you provision, validate the configuration before continuing to Part 2. See the Validate Part 1: Security Role Configuration topic for additional information.
 
-If the FPolicy is to be used for both the Activity Monitor and Access Analyzer, the account also needs to be provisioned with an additional permission. See the [Access Analyzer Integration](#Access-Analyzer-Integration) topic for additional information.
+If the FPolicy is to be used for both the Activity Monitor and Access Analyzer, the account also needs to be provisioned with an additional permission. See the Access Analyzer Integration topic for additional information.
 
 The commands to create a role and names of permissions depend on the ONTAP API used. The product supports both the classic ONTAPI/ZAPI and the new REST API. For ONTAPI/ZAPI you need to use ```security login role create``` command to create a RBAC access control role. The required commands are listed in the ```cmddirname``` parameter. For REST API, use ```security login rest-role create``` command to create a REST access control role. The required API endpoint is specified in the ```api``` parameter. The following sections provide instructions for both API modes.
 

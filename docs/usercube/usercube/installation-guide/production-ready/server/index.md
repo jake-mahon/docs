@@ -1,6 +1,6 @@
 # Install the Server
 
-__NOTE:__ If you are a SaaS client this topic does not apply. You can skip directly to end user authentication. See the [Set up End-User Authentication](#Set-up-End-User-Authentication) topic for additional information.
+__NOTE:__ If you are a SaaS client this topic does not apply. You can skip directly to end user authentication. See the [Set up End-User Authentication](#set-up-end-user-authentication) topic for additional information.
 
 Identity Manager Server can be installed on the same workstation as the database or on a separate workstation. If Identity Manager is installed on a separate workstation, it requires the SQL PowerShell components to function properly.
 
@@ -20,7 +20,7 @@ The license key provided by Identity Manager must be set up in the __appsetting.
 
 It is recommended to run the Identity Manager Server as an IIS website.
 
-To install the Identity Manager Server as a Windows service, please jump to Install the Server as a Windows Service. See the [Install the Server](#Install-the-Server) topic for additional information.
+To install the Identity Manager Server as a Windows service, please jump to Install the Server as a Windows Service. See the [Install the Server](/docs/usercube/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
 
 Adding the Identity Manager Server as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 
@@ -352,7 +352,7 @@ In order to test your installation you must:
 
 __Step 1 –__ Make sure the IIS site is running.
 
-__Step 2 –__ Go to the following URL with a browser: ```<hostname>:<port>/hc``` with the hostname and port set up in Create an IIS website. See the [Install the Server](#Install-the-Server) topic for additional information.
+__Step 2 –__ Go to the following URL with a browser: ```<hostname>:<port>/hc``` with the hostname and port set up in Create an IIS website. See the [Install the Server](/docs/usercube/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
 
 __Step 3 –__ The Identity Manager Server is trying to access the Database. If it succeeds, the message __Healthy__ should be displayed in the browser.
 

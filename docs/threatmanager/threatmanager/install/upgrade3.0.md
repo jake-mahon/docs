@@ -2,9 +2,9 @@
 
 The upgrade process from Threat Manager 2.8 to 3.0 involves the following steps:
 
-- [Upgrade PostgreSQL ](#Upgrade-PostgreSQL)
+- Upgrade PostgreSQL 
 
-- [Install Threat Manager 3.0](#Install-Threat-Manager-30)
+- Install Threat Manager 3.0
 
 ## Upgrade PostgreSQL
 

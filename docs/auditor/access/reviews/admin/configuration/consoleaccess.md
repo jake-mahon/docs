@@ -12,7 +12,7 @@ There are two levels of access, or roles, which can be granted to domain users o
   - In the Entitlement Reviews interface, this role can only view reviews that the logged in user has created.
   - Access can be limited by resource types (File System, SharePoint, or Active Directory)
 
-__CAUTION:__ Before disabling the Builtin Administrator account, it is necessary to first assign at least one domain user account to the Administrator role. Login with another Administrator account to disable the Builtin Administrator. Failure to do this could result in being locked-out of the Configuration interface. As an alternative to disabling this account, the password can be changed. See the [Modify the Builtin Administrator Account](#Modify-the-Builtin-Administrator-Account) topic for additional information.
+__CAUTION:__ Before disabling the Builtin Administrator account, it is necessary to first assign at least one domain user account to the Administrator role. Login with another Administrator account to disable the Builtin Administrator. Failure to do this could result in being locked-out of the Configuration interface. As an alternative to disabling this account, the password can be changed. See the Modify the Builtin Administrator Account topic for additional information.
 
 Once users have been granted console access, they can login with their domain credentials. Console access is not a requirement for owners to complete Access Reviews. See the [URL & Login](/docs/auditor/access/reviews/admin/login.md) topic for information on how users will log in and where they are directed after login based on their assigned role or lack of role.
 
@@ -46,13 +46,13 @@ __Step 3 –__ On the Select Access page, enter the following information and cl
 
 __Step 4 –__ The new user displays in the list on the Console Access page. Repeat these steps for each trustee to be granted console access.
 
-Once the first user with the role of Administrator has been added, the Builtin Administrator account can be disabled by that user. See the [Modify the Builtin Administrator Account](#Modify-the-Builtin-Administrator-Account) topic for additional information.
+Once the first user with the role of Administrator has been added, the Builtin Administrator account can be disabled by that user. See the Modify the Builtin Administrator Account topic for additional information.
 
 ## Modify Console Users
 
 Follow the steps to modify a user’s console access.
 
-__NOTE:__ These steps are for modifying domain users with console access roles and do not apply to the Builtin Administrator account. See the [Modify the Builtin Administrator Account](#Modify-the-Builtin-Administrator-Account) topic for additional information.
+__NOTE:__ These steps are for modifying domain users with console access roles and do not apply to the Builtin Administrator account. See the Modify the Builtin Administrator Account topic for additional information.
 
 __Step 1 –__ In the Configuration interface on the Console Access page, select the user to be modified and click Modify. The Console Access wizard opens to the Select Access page.
 
@@ -72,7 +72,7 @@ Any modifications to the user’s role are visible in the list on the Console Ac
 
 ## Delete Console Users
 
-__CAUTION:__ Confirmation is not requested when deleting users. An alternative to deleting a console user is to disable their access. See the [Modify Console Users](#Modify-Console-Users) topic for additional information.
+__CAUTION:__ Confirmation is not requested when deleting users. An alternative to deleting a console user is to disable their access. See the Modify Console Users topic for additional information.
 
 Follow the steps to remove a user’s configured console access.
 

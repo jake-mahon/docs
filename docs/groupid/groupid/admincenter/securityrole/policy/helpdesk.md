@@ -20,14 +20,14 @@ The Helpdesk policy defines:
 
 What do you want to do?
 
-- [Set Restricted Mode](#Set-Restricted-Mode)
-  - [Limit Helpdesk to Manage Users in a Specific OU](#Limit-Helpdesk-to-Manage-Users-in-a-Specific-OU)
-  - [Enforce Helpdesk to Authenticate Users](#Enforce-Helpdesk-to-Authenticate-Users)
-  - [Enforce Helpdesk to Use Security Questions for Authentication](#Enforce-Helpdesk-to-Use-Security-Questions-for-Authentication)
-- [Set Unrestricted Mode](#Set-Unrestricted-Mode)
-- [Specify Password Reset Options](#Specify-Password-Reset-Options)
-  - [Specify a Password Reset Method](#Specify-a-Password-Reset-Method)
-  - [Force Users to Change Password on Next Logon](#Force-Users-to-Change-Password-on-Next-Logon)
+- Set Restricted Mode
+  - Limit Helpdesk to Manage Users in a Specific OU
+  - Enforce Helpdesk to Authenticate Users
+  - Enforce Helpdesk to Use Security Questions for Authentication
+- Set Unrestricted Mode
+- Specify Password Reset Options
+  - Specify a Password Reset Method
+  - Force Users to Change Password on Next Logon
 
 ## Set Restricted Mode
 
@@ -152,7 +152,7 @@ Step 11 – On the Security Roles page, click __Save__.
 The unrestricted mode enables helpdesk users to reset passwords and unlock accounts of identity store users without authenticating them through the authentication types(s) they enrolled their accounts with.
 
 - On receiving an account unlock request from an end-user, a helpdesk user operating under the unrestricted mode can directly unlock the account of the requester.
-- On receiving a password reset request from an end-user, a helpdesk user operating under this mode can directly reset the password or send a secure password reset link to the requester. See the [Specify a Password Reset Method](#Specify-a-Password-Reset-Method) topic.
+- On receiving a password reset request from an end-user, a helpdesk user operating under this mode can directly reset the password or send a secure password reset link to the requester. See the Specify a Password Reset Method topic.
 
 Follow the steps to set the unrestricted mode:
 

@@ -8,7 +8,7 @@ __Step 1 –__ Click __Configuration__ > __Alerts__ on the menu. The Netwrix Thr
 
 __Step 1 –__ Click the __SIEM__ tab.
 
-__Step 2 –__ Click __Configure__ to configure a SIEM server. See the [Configure a SIEM Server ](#Configure-a-SIEM-Server) topic for additional information.
+__Step 2 –__ Click __Configure__ to configure a SIEM server. See the Configure a SIEM Server  topic for additional information.
 
 __Step 3 –__ Once configured, click __Events__ on the __SIEM__ tab.
 
@@ -18,7 +18,7 @@ __Step 4 –__ Click the button next to Disabled to toggle the setting to __Enab
 
 __Step 5 –__ Select an event category (Security, Operations, Configuration, Analytics, Policies) in the left pane.
 
-You can set a SIEM mapping file for each type of event category, as discussed in the [Configure a SIEM Server ](#Configure-a-SIEM-Server) topic.
+You can set a SIEM mapping file for each type of event category, as discussed in the Configure a SIEM Server  topic.
 
 __Step 6 –__ Check the checkbox for the event/incident/policy for which you want to trigger SIEM notifications.
 
@@ -88,7 +88,7 @@ __Step 10 –__ _(Optional)_ Use the __Test__ button to confirm the configuratio
 
 __Step 11 –__ Click __OK__ to save the settings.
 
-Once a SIEM server is configured, assign it to events using the System Alerting window’s [SIEM Tab](#SIEM-Tab) or the [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) of a policy or the [Actions Tab](/docs/threatprevention/threatprevention/admin/templates/actions.md) of a policy template.
+Once a SIEM server is configured, assign it to events using the System Alerting window’s SIEM Tab or the [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) of a policy or the [Actions Tab](/docs/threatprevention/threatprevention/admin/templates/actions.md) of a policy template.
 
 IBM QRadar Integration
 

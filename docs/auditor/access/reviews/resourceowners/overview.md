@@ -47,7 +47,7 @@ __NOTE:__ This workflow is not numbered because the Notification piece can occur
 
 - Add resources to be managed by associating a business data owner with a resource. See the [Add New Resource Wizard](/docs/auditor/access/reviews/resourceowners/wizard/add.md) topic for additional information.
 - Confirm resource ownership. See the [Ownership Confirmation](/docs/auditor/access/reviews/resourceowners/confirmation.md) topic for additional information.
-- Notify owners of their responsibilities. See the [Notification to Owners](#Notification-to-Owners) topic for additional information.
+- Notify owners of their responsibilities. See the Notification to Owners topic for additional information.
 
 ## Notification to Owners
 

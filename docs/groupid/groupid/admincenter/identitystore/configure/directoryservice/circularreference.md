@@ -12,8 +12,8 @@ You can change the default setting to allow Directory Manager to save updates to
 
 What do you want to do?
 
-- [Allow Circular Reference](#Allow-Circular-Reference)
-- [Skip the replication of members of a dynamic group in Entra ID ](#Skip-the-replication-of-members-of-a-dynamic-group-in-Entra-ID)
+- Allow Circular Reference
+- Skip the replication of members of a dynamic group in Entra ID 
 
 ## Allow Circular Reference
 

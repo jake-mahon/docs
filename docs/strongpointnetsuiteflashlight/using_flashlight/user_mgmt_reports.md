@@ -2,10 +2,10 @@
 
 Flashlight provides a set of reports that give you insight into Employee-related changes and activities. These reports can be access from the Flashlight main menu under the User Management menu
 
-- [Employees with Standards Roles](#Employees-with-Standards-Roles)
-- [Employees with Unused Logins](#Employees-with-Unused-Logins)
-- [Employees Granted Access in the Past Week](#Employees-Granted-Access-in-the-Past-Week)
-- [Inactive Users](#Inactive-Users)
+- Employees with Standards Roles
+- Employees with Unused Logins
+- Employees Granted Access in the Past Week
+- Inactive Users
 
 ## Employees with Standards Roles
 

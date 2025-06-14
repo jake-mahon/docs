@@ -30,7 +30,7 @@ In the middle section, select the desired checkboxes for additional settings:
     - Alternative use for this option would be for access scans within a trusted and secured network
   - HTTP – Applies no encryption or authentication of communication
 
-  The HTTPS options require Access Analyzer to have access to the targeted server’s SSL certificate. Access Analyzer ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the [HTTPS Encryption Certificate for FSAA & NetApp Communication](#https-encryption-certificate-for-fsaa-netapp-communication) topic for information on adding the organization’s certificate.
+  The HTTPS options require Access Analyzer to have access to the targeted server’s SSL certificate. Access Analyzer ships with a file containing trusted certificates from a trusted Certification Authority (```cacert.pem```). If the organization uses a self-signed certificate, see the [HTTPS Encryption Certificate for FSAA & NetApp Communication](#https-encryption-certificate-for-fsaa--netapp-communication) topic for information on adding the organization’s certificate.
 
 The bottom section is only available for the File System Access/Permission Auditing Scan and Sensitive Data Scan categories and contains the following options:
 

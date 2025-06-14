@@ -1,6 +1,6 @@
 # Documented Metadata Types
 
-You can view the documented Metadata by Type or by [Category](#Category).
+You can view the documented Metadata by Type or by Category.
 
 ## Metadata by Type
 

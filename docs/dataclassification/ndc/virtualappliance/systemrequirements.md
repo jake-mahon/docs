@@ -2,8 +2,8 @@
 
 This section provides the software requirements and represents the default hardware configuration for the virtual machine where Netwrix Data Classification virtual appliance is going to be deployed. Refer to the following sections for detailed information:
 
-- [Software Requirements](#Software-Requirements)
-- [Hardware Configuration](#Hardware-Configuration)
+- Software Requirements
+- Hardware Configuration
 
 __NOTE:__ The requirements below are sufficient for evaluation purposes only. Refer to the [Requirements to Install Netwrix Data Classification](/docs/dataclassification/ndc/requirements/overview.md) topic for complete information on the requirements for installing Netwrix Data Classification in production environments.
 

@@ -16,10 +16,10 @@ History can be used for audit and analysis, such as how many users changed their
 
 What do you want to do?
 
-- [View History in Helpdesk](#View-History-in-Helpdesk)
-  - [Switch History Layouts](#Switch-History-Layouts)
-- [Search History](#Search-History)
-- [Export History to a File](#Export-History-to-a-File)
+- View History in Helpdesk
+  - Switch History Layouts
+- Search History
+- Export History to a File
 
 ## View History in Helpdesk
 
@@ -27,7 +27,7 @@ What do you want to do?
 2. On the __Helpdesk__ page, click the __History__ tab.  
    This tab displays the tracked history actions for all identity stores in Directory Manager. Use the pagination options at the bottom of the listing to navigate through records.
 
-   To search for specific records, see the [Search History](#Search-History) topic.
+   To search for specific records, see the Search History topic.
 
 ### Switch History Layouts
 
@@ -79,7 +79,7 @@ The following information is displayed for a record:
 - __Action:__ The action performed
 - __Date:__ The date and time the action was performed on
 
-Click __Details__ for a history item to view its details on the __History Details__ dialog box. See the [View History in Helpdesk](#View-History-in-Helpdesk) topic for a discussion of the dialog box.
+Click __Details__ for a history item to view its details on the __History Details__ dialog box. See the View History in Helpdesk topic for a discussion of the dialog box.
 
 Use the pagination options at the bottom of the listing to navigate through records.
 
@@ -122,7 +122,7 @@ To perform a search:
 
 1. In Admin Center, click __Helpdesk__ in the left pane.
 2. On the __Helpdesk__ page, click the __History__ tab.
-3. On the __History__ tab, you can export all history records in all identity stores to a file or filter the listing to export specific records only. To narrow down records, see the [Search History](#Search-History) topic.
+3. On the __History__ tab, you can export all history records in all identity stores to a file or filter the listing to export specific records only. To narrow down records, see the Search History topic.
 4. Click __Export History__ and select a file format in the list to export history data to.  
    The file is saved to the download location specified in your browser settings.
 

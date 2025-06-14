@@ -15,9 +15,7 @@ Connector
 
 ## Child Element: Property
 
-An entity property represents a property of an [
-Entity Type
-](#Entity-Type).
+An entity property represents a property of an Entity Type.
 See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information on how to configure/define an EntityProperty.
 
 ### Examples

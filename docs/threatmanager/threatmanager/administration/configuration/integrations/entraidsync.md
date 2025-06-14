@@ -1,6 +1,6 @@
 # Entra ID Sync Page
 
-The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](/docs/threatmanager/threatmanager/requirements/permissions/entraidsync.md#application-permissions-for-entra-idsync)topic for additional information about the permissions required for Microsoft Entra ID syncing.
+The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](/docs/threatmanager/threatmanager/requirements/permissions/entraidsync.md)topic for additional information about the permissions required for Microsoft Entra ID syncing.
 
 ![Entra ID Sync Page](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.webp)
 
@@ -53,8 +53,8 @@ Select the tenant from the list to see modification options:
 - Name – The box at the top displays the name of the tenant.
 
   - Delete – The delete button in the upper right corner of the box opensthe Delete Domain window to confirm the action
-- Tenant Configuration – Displays the sync policy settings entered for the selected tenant. These settings can be modified on this tab. See the [Tenant Configuration Tab](#Tenant-Configuration-Tab) topic for additional information.
-- Sync History – Displays the information on each synchronization event. See the [Sync History Tab](#Sync-History-Tab) topic for additional information.
+- Tenant Configuration – Displays the sync policy settings entered for the selected tenant. These settings can be modified on this tab. See the Tenant Configuration Tab topic for additional information.
+- Sync History – Displays the information on each synchronization event. See the Sync History Tab topic for additional information.
 
 ## Tenant Configuration Tab
 

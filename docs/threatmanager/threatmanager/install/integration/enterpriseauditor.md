@@ -26,7 +26,7 @@ In order for Access Analyzer to send data to Threat Manager, an app token must b
 - In the Token column, click the Key icon to open the token and copy it for use when configuring the Connection Profile in Access Analyzer.
 - In the Host Name column, copy the port for use when creating the custom host list in Access Analyzer.
 
-__Step 2 –__ In Access Analyzer, create a custom Connection Profile for the FS\_DEFEND\_SDD Job to authenticate to Threat Manager. See the [Custom Connection Profile for FS\_DEFEND\_SDD Job](#Custom-Connection-Profile-for-FS_DEFEND_SDD-Job) topic for additional information.
+__Step 2 –__ In Access Analyzer, create a custom Connection Profile for the FS\_DEFEND\_SDD Job to authenticate to Threat Manager. See the Custom Connection Profile for FS\_DEFEND\_SDD Job topic for additional information.
 
 __Step 3 –__ In Access Analyzer, create a custom host list.
 

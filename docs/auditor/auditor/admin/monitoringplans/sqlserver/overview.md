@@ -9,10 +9,10 @@ __NOTE:__ Prior to configuring your monitoring plan, please read and complete th
 
 To configure SQL Server data source settings, use the following property tabs:
 
-- [General settings](#General-settings)
-- [Users](#Users)
-- [Data](#Data)
-- [Audit SELECT](#Audit-SELECT)
+- General settings
+- Users
+- Data
+- Audit SELECT
 
 When finished, review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the Data source list.
 

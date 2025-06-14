@@ -28,14 +28,14 @@ NOTE: You can customize the _Group Type_ page individually for static group, Sma
 
 What do you want to do?
 
-- [Add a Page to a Wizard](#Add-a-Page-to-a-Wizard)
-- [Update a Wizard Page](#Update-a-Wizard-Page)
-- [Rearrange the Pages on a Wizard](#Rearrange-the-Pages-on-a-Wizard)
-- [Remove a Page from a Wizard](#Remove-a-Page-from-a-Wizard)
-- [Add a Field to a Wizard Page](#Add-a-Field-to-a-Wizard-Page)
-- [Update a Field](#Update-a-Field)
-- [Rearrange the Fields on a Wizard Page](#Rearrange-the-Fields-on-a-Wizard-Page)
-- [Remove a Field from a Wizard Page](#Remove-a-Field-from-a-Wizard-Page)
+- Add a Page to a Wizard
+- Update a Wizard Page
+- Rearrange the Pages on a Wizard
+- Remove a Page from a Wizard
+- Add a Field to a Wizard Page
+- Update a Field
+- Rearrange the Fields on a Wizard Page
+- Remove a Field from a Wizard Page
 
 ## Add a Page to a Wizard
 
@@ -49,9 +49,9 @@ What do you want to do?
    The __Name__ list displays the pages on the object’s creation wizard.
 6. Click __Add__. The __Add Category__ pane is displayed.
 7. In the __Name__ box, enter a name for the page. The page will be displayed in the wizard with this name.
-8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
+8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the page from all users.
-9. To add fields to the page, see the [Add a Field to a Wizard Page](#Add-a-Field-to-a-Wizard-Page) topic.
+9. To add fields to the page, see the Add a Field to a Wizard Page topic.
 10. Click __OK__.
 11. Click __Save__ on the __Create Object__ page.
 
@@ -72,7 +72,7 @@ __To update a wizard page:__
 4. Click __Create Object__ in the left pane.
 5. On the __Create Object__ page, select a directory object in the __Select Directory Object__ drop-down list.
 6. In the __Name__ list, click __Edit__ for a page.
-7. On the __Edit Category__ pane, update the name and visibility level for the page. Follow steps 7-11 in the [Add a Page to a Wizard](#Add-a-Page-to-a-Wizard) topic for details.
+7. On the __Edit Category__ pane, update the name and visibility level for the page. Follow steps 7-11 in the Add a Page to a Wizard topic for details.
 
 ## Rearrange the Pages on a Wizard
 
@@ -116,7 +116,7 @@ __To update a wizard page:__
 9. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the wizard.
 10. In the __Display Type__ drop-down list, select a display type to use for rendering this field on the wizard.  
     The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
-11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md#priority).  
+11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.
@@ -173,7 +173,7 @@ __To update field properties:__
    The __Name__ list displays the pages on the object’s creation wizard.
 6. Click __Edit__ for the page you want to edit a field for.
 7. On the __Edit Category__ pane, click __Edit__ for a field to update its properties.
-8. The __Edit Field__ pane is displayed. Follow steps 8-22 in the [Add a Field to a Wizard Page](#Add-a-Field-to-a-Wizard-Page) topic to update and save the information.
+8. The __Edit Field__ pane is displayed. Follow steps 8-22 in the Add a Field to a Wizard Page topic to update and save the information.
 
 ## Rearrange the Fields on a Wizard Page
 

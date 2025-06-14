@@ -1,6 +1,6 @@
 # Administrator UAR List
 
-Access your owner User Access Reviews List from __UAR List__ in your menu bar, or one of the review shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is controlled with the __Sort By__ selection in the [Filters](#Filters) section. All changes are captured in the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
+Access your owner User Access Reviews List from __UAR List__ in your menu bar, or one of the review shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is controlled with the __Sort By__ selection in the Filters section. All changes are captured in the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
 
 Here is an example of the __Global__ review list:
 
@@ -29,7 +29,7 @@ Use __Clear__ to reset the Filters.
 - __Create Review__ creates a new Global review or adds a Single review to an existing Global review.
 - __Send Reminders__ send email reminders to the owners of the selected reviews.
 - __Cancel Review__ cancels one or more selected reviews. Any associated open Change Requests are also canceled.
-- __Name__ is a link to the [Review list](#Review-list).
+- __Name__ is a link to the Review list.
 - __Number of Reviews__ (global) is the number of single reviews in the global review.
 - __Review Type__ is the type of review. Global can be __Both__, __Membership__, or __Permission__. Single is __Membership__ or __Permission__. The review type is set when the review is created.
 - __Owner__ (single) is the owner of the role review type.
@@ -70,7 +70,7 @@ Owners are assigned on the administrator's [Owner's List](/docs/strongpointforne
 
 ### Cancel a Review
 
-__Cancel Review__ is an option on the administrator's UAR List and on the [Review list](#Review-list).
+__Cancel Review__ is an option on the administrator's UAR List and on the Review list.
 
 1. Open the __UAR List__ from your menu bar or a shortcut.
 2. Select one or more Reviews.
@@ -81,7 +81,7 @@ __Cancel Review__ is an option on the administrator's UAR List and on the [Revi
 
 ### Send Reminders
 
-Reminders can be sent from the administrator's UAR List or from the [Review list](#Review-list).
+Reminders can be sent from the administrator's UAR List or from the Review list.
 
 1. Open the UAR List from your menu bar or a shortcut.
 2. Select one or more reviews.
@@ -129,7 +129,7 @@ There are various actions you can perform from this list:
   - __Pending Assignment__ Review does not have an assigned owner.
   - __Not Started__ Email notification has been sent, review has not been started.
   - __In Progress__ Review has been started.
-  - __Additional Reviewer__ Review has been assigned to an [additional reviewer](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md#additional-reviewer).
+  - __Additional Reviewer__ Review has been assigned to an [additional reviewer](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md).
   - __Change Request__ Change request has been created. The __Change Request ID__ is added to the row. The link opens the Change Request. __CR Rejected__, __CR Cancelled__, and __CR Complete__ are the other Change Request status values.
   - __Waiting for CR__ Change request cannot be started, because there is an existing change request in progress for the role or permission as part of a different global review. Once the existing change request is complete, the current review can continue.
   - __Cancelled__ Review has been canceled. Canceled global reviews are shown in the UAR History list. Canceled single reviews are shown in the global review.

@@ -14,12 +14,12 @@ Cleaning up fields makes the account more understandable and reduces the likelih
 
 The basic clean up process:
 
-1. [Analyze Unused Customizations and Identify Dependencies](#Analyze-Unused-Customizations-and-Identify-Dependencies)
-2. [Create Change Requests](#Create-Change-Requests)
-3. [Archive Field Data](#Archive-Field-Data)
-4. [Back Up Searches, Scripts and Workflows](#Back-Up-Searches-Scripts-and-Workflows)
-5. [Delete Customizations](#Delete-Customizations)
-6. [Close the Change Request](#Close-the-Change-Request)
+1. Analyze Unused Customizations and Identify Dependencies
+2. Create Change Requests
+3. Archive Field Data
+4. Back Up Searches, Scripts and Workflows
+5. Delete Customizations
+6. Close the Change Request
 
 ## Analyze Unused Customizations and Identify Dependencies
 

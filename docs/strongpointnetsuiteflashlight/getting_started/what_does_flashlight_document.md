@@ -2,9 +2,9 @@
 
 There are three outcomes for customizations Flashlight finds in the system:
 
-- [Captured and Documented](#Captured-and-Documented)
-- [Partially Documented](#Partially-Documented)
-- [Not Documented](#Not-Documented)
+- Captured and Documented
+- Partially Documented
+- Not Documented
 
 ## Captured and Documented in the Customization Record
 
