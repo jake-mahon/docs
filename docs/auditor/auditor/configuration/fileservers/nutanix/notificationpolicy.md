@@ -94,7 +94,7 @@ _`<LIST_OF_FILE_OPERATIONS>`_ - enter the list of operations to be audited.
 7. Get the response - ```Response Code``` should be _200_. In the response body, locate the ```uuid``` of the created notification policy.
 8. To check that a new policy was included in the list of existing policies, retrieve the list of policies, sending the POST request to the following endpoint:
 
-    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter : ```{ }```
+    ```POST /notification_policies/list```. The request body must be empty - for that, enter empty brackets as the __value__ for _get_entities_request_ parameter : ``{ }``
 
 ## Auditing Specific Folders
 

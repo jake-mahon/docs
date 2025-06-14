@@ -1,0 +1,21 @@
+# INIFile: Properties
+
+The Properties page identifies data about the INI file for auditing.
+
+![INI File Data Collector Wizard Properties page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.png)
+
+Use the following options to determine which data to adult:
+
+- All contents – Collect all contents from the INI file
+
+  __NOTE:__ ```*``` can be used for matching wildcard or single characters.
+
+  - Section name – Collect data matching section name from the INI file
+  - Key name – Collect data matching key name from the INI file
+- Differences from standard – Select a master control file to compare the current target against
+
+  - Click the ellipses (__…__) to open a file explorer window
+  - Select an appropriate .INI file
+- Properties – Select a checkbox next to any desired properties. __Select All__ or __Clear All__ can also be used.
+
+  If __Differences from standard__ is selected, all properties are selected and cannot be altered.

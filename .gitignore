@@ -4,6 +4,8 @@
 # Generated files
 .docusaurus
 .cache-loader
+build
+claude_logs
 
 # Misc
 .DS_Store

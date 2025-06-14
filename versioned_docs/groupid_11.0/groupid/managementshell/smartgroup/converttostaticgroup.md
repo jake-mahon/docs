@@ -1,0 +1,31 @@
+# ConvertTo-StaticGroup
+
+The __ConvertTo-StaticGroup__ commandlet converts an existing Smart Group or a dynasty to a static group by removing the attributes of the Smart Group or the dynasty.
+
+## Syntax
+
+```
+ConvertTo-StaticGroup  
+-IdentityStoreName <string>  
+[-GroupName <string[]>]  
+[-SearchContainers <string[]>]  
+[<CommonParameters>]
+```
+
+## Required Parameter
+
+- IdentityStoreName
+
+Example 1:
+
+The following commandlets converts a Smart Group in AdStore9 identity store Smart\_Training to a static group.
+
+```
+ConvertTo-StaticGroup -IdentityStoreName AdStore9 -GroupName "Smart_Training" -SearchContainers "OU=Recruiting,OU=HR,DC=Imanami,DC=US","OU=Outsourcing,OU=HR,DC=Imanami,DC=US"
+```
+
+See Also
+
+- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
+- [Smart Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/smartgroup/overview.md)
+- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)

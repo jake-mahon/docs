@@ -20,7 +20,7 @@ To make this prompt automatically never occur again, use Group Policy Preference
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{GUID}
 ```
 
-where ```{GUID}``` is `{GUID}` for @the latest version of Java on your machine. Then set the registry values as shown in the table below:
+where ``{GUID}`` is `{GUID}` for @the latest version of Java on your machine. Then set the registry values as shown in the table below:
 
 | Registry Values | Type | Description | Notes |
 | --- | --- | --- | --- |

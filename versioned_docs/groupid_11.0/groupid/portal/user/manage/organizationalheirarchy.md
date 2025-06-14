@@ -1,0 +1,27 @@
+# Organizational Hierarchy
+
+You can view the organizational hierarchy for a user. it shows the direct reports of the reference user recursively, starting from the immediate direct reports of the user and moving downwards till the nth level. This hierarchy is presented in graphical form, creating a kind of an organogram that displays the email address, photo, and other attributes of each user.
+
+By default, the organizational hierarchy chart is displayed for the logged-in user. However, the user can view it for any user in the organization.
+
+What do you want to do?
+
+- [View the hierarchy structure for a user](#view-the-hierarchy-structure-for-a-user)
+
+## View the hierarchy structure for a user
+
+1. In GroupID portal, go to __My Profile__ or search for the user whose organizational hierarchy you want to view on the [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) dialog box.
+2. On the toolbar tab of the user profile's page, select __Organizational Hierarchy__. The __Organizational Hierarchy__ page displays the organizational hierarchy chart for the logged-in user.
+3. To view the chart for another user, click the ellipsis button next to __Select User__.
+4. On the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md), search and select the required user and click __OK__. This displays the organizational hierarchy chart for the selected user.
+5. You can:
+
+   - Click a user’s name to view his or her profile.
+   - Click a user’s email address to send an email to him or her.
+   - Use the __Export__ button to export the chart to a PNG file.
+
+__See Also__
+
+- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
+- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [Update your Direct Reports](/versioned_docs/groupid_11.0/groupid/portal/user/manage/directreport.md)
