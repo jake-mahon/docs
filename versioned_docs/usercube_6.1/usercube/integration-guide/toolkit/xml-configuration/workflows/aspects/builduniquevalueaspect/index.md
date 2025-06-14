@@ -30,7 +30,7 @@ The following example generates bots' logins during their creation.
 | Priority   default value: 0 | __Type__    Int32   __Description__   Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.   __Note:__ the priority can be a negative value. |
 | SimulationExpression   optional | __Type__    String   __Description__   Expression used instead of the ```Expression``` parameter when previewing the workflow result before its implementation. |
 | SqlBuildExpression   optional | __Type__    String   __Description__   SQL command that computes the unique value.   __Note:__ the computation can be configured in C# instead of SQL via ```Expression```. Decide whether to use either ```SqlBuildExpression``` or ```Expression```, not both. |
-| SqlCheckExpression   optional | __Type__    String   __Description__   SQL request that checks whether the value computed with the binding/expression is unique, i.e. not yet used by another resource.__Note:__ required if zero [unicity check rules](#unicity-check-rules) are linked to the aspect.__Warning:__ the SQL request must be efficient because a potential timeout may block the progress of the workflow. For example, when the database's state and indexes are not well known, prefer to use views rather than the whole tables, because views store way fewer elements than tables, which makes them faster to use in a request. |
+| SqlCheckExpression   optional | __Type__    String   __Description__   SQL request that checks whether the value computed with the binding/expression is unique, i.e. not yet used by another resource.__Note:__ required if zero unicity check rules are linked to the aspect.__Warning:__ the SQL request must be efficient because a potential timeout may block the progress of the workflow. For example, when the database's state and indexes are not well known, prefer to use views rather than the whole tables, because views store way fewer elements than tables, which makes them faster to use in a request. |
 
 ## Child Element: PointCut
 
@@ -48,9 +48,9 @@ The position of the pointcut is specified by an activity state and a mode (befor
 
 ## Child Element: UnicityCheckRule
 
-A unicity check rule ensures that the expression computed by a [```BuildUniqueValue```aspect](#builduniquevalueaspect) for a given property is unique, i.e. not yet used by another resource, in a given entity type.
+A unicity check rule ensures that the expression computed by a ```BuildUniqueValue```aspect for a given property is unique, i.e. not yet used by another resource, in a given entity type.
 
-The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the [```SqlCheckExpression```](#sqlcheckexpression) property of the aspect.
+The comparison performed by these rules to check unicity can be configured in SQL instead of C# via the ```SqlCheckExpression``` property of the aspect.
 
 The value of the source binding/expression is computed based on the properties of the source resource which is the resource whose property we compute via the ```BuildUniqueValue``` aspect.
 
@@ -62,7 +62,7 @@ The rule compares the return value of the source binding/expression with the exi
 >
 > Consider a new user called John Doe. We need to link to the aspect a unicity check rule that is going to compare the email core ```john.doe``` with the email cores of existing resources in a given entity type. Thus Usercube can ensure that the email core is unique, and finally build the unique email address.
 
-Both source and target bindings/expressions must be consistent with the binding/expression used in [the corresponding aspect](#the-corresponding-aspect) which must not use a ```SqlCheckExpression```.
+Both source and target bindings/expressions must be consistent with the binding/expression used in the corresponding aspect which must not use a ```SqlCheckExpression```.
 
 One ```BuildUniqueValue``` aspect can be linked to many unicity check rules, but should not be linked to more than one rule per target entity type.
   

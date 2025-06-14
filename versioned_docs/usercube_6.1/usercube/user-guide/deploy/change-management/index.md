@@ -48,16 +48,16 @@ Run change management by proceeding as follows:
 1. Identify the populations impacted by change. Below is an example of impacted populations that can vary enormously.
 
    ![Usual Populations](/img/versioned_docs/usercube_6.1/usercube/user-guide/deploy/change-management/changemanagement_populations.png)
-2. For all listed populations, estimate their size and the expected impact on them, through indicators like the frequency of their future use of the solution. Use [personas](#personas) to represent key population members, such as VIP users that don't use the application much, or users not feeling comfortable with computers.
+2. For all listed populations, estimate their size and the expected impact on them, through indicators like the frequency of their future use of the solution. Use personas to represent key population members, such as VIP users that don't use the application much, or users not feeling comfortable with computers.
 3. According to the previous impact analysis, implement adjusted change management methods. You can get inspiration from the following examples.
 
   
 |  | Population | Size | Impact | Possible Actions |
 | --- | --- | --- | --- | --- |
-| [1](#1) | All | 500 | Low | Introduction email   Public video   Information article |
-| [2](#2) | End-Users | 50 | High | Coffee corner: coffee break with the local support team offering tutorials and exercises on Usercube |
-| [3a](#3a) | HR/Managers | 10 | High   (daily use) | Tutorials and exercises with a support team to get started quickly with Usercube |
-| [3b](#3b) | HR/Managers | 10 | Medium   (bimonthly use) | Step-by-step procedure video or flyer |
+| 1 | All | 500 | Low | Introduction email   Public video   Information article |
+| 2 | End-Users | 50 | High | Coffee corner: coffee break with the local support team offering tutorials and exercises on Usercube |
+| 3a | HR/Managers | 10 | High   (daily use) | Tutorials and exercises with a support team to get started quickly with Usercube |
+| 3b | HR/Managers | 10 | Medium   (bimonthly use) | Step-by-step procedure video or flyer |
   
 
 ##### Example 1

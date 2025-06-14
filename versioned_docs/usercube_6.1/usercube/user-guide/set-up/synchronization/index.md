@@ -46,9 +46,9 @@ Also, synchronization must not be disturbed by a change in the source format, su
 
 #### __Thresholds must never be deactivated__
 
-Thresholds are essential safety guards that control all changes, for example preventing the overwriting of important data by mistake. Thresholds are by default activated to warn users when synchronization or provisioning triggers too many modifications. If the number of modifications exceeds the specified threshold, Usercube stops the synchronization and displays a warning _"Threshold Exceeded"_ on the log page [described below](#described-below).
+Thresholds are essential safety guards that control all changes, for example preventing the overwriting of important data by mistake. Thresholds are by default activated to warn users when synchronization or provisioning triggers too many modifications. If the number of modifications exceeds the specified threshold, Usercube stops the synchronization and displays a warning _"Threshold Exceeded"_ on the log page described below.
 
-Once the changes have been reviewed, [the blocked job can be resumed](#the-blocked-job-can-be-resumed) (or not).
+Once the changes have been reviewed, the blocked job can be resumed (or not).
 
 Thresholds are configured with default values using the following [```Connector``` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md#connector-attributes):
   
@@ -144,7 +144,7 @@ In order to verify both the synchronization configuration and [entity types](/ve
 
 ## Troubleshooting
 
-Make sure you followed the [prerequisite guidelines](#prerequisite-guidelines) for synchronization.
+Make sure you followed the prerequisite guidelines for synchronization.
 
 Keep in mind that a problem observed in synchronized data might also come from a mistake made previously in the [connector's configuration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md). Therefore, logs can give more details. Logs are accessible from the __Job Results__ button on the dashboard of a given connector.
 

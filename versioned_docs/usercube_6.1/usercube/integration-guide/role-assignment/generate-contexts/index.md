@@ -115,7 +115,7 @@ Any rules targeting identities working in ```London``` will be assigned to ```Ma
 
 #### Extension of a whole position
 
-The [property value copy](#property-value-copy) can be leveraged to extend a chosen position when for some time the identity does not have one.
+The property value copy can be leveraged to extend a chosen position when for some time the identity does not have one.
 The following configuration and the identity of ```Phoebe Buffay``` will be used to showcase a position extension.
 It is done by removing the ```ExtensionKind="None"``` of the position properties.
 

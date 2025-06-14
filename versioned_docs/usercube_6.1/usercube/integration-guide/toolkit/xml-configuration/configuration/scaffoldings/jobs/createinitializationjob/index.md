@@ -22,7 +22,7 @@ Creates the Initialization Job for the given agent.
 ## Child Elements
 
 - [AddTask](#addtask) (optional) Add a task before or after another in the job
-- [Configuration](#configuration) (optional) Add the path of the configuration folder if a configuration task is in the job
+- Configuration (optional) Add the path of the configuration folder if a configuration task is in the job
 - [NoConnectorProvisioning](#noconnectorprovisioning) (optional) Avoid provisioning for a connector
 - [NoConnectorSynchronization](#noconnectorsynchronization) (optional) Avoid collect for a connector
 - [NotUsed](#notused) (optional) Avoid collect and provisioning for a connector

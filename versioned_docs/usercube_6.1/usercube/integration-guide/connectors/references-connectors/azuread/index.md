@@ -146,7 +146,7 @@ This connector writes to the Microsoft Entra ID, to create, update and delete Mi
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >

@@ -6,8 +6,8 @@ How to send a manual request to add, update or remove an entitlement for an iden
 
 Changes in an identity's entitlements can be handled using Usercube's predefined workflows to:
 
-- [view the list of the identity's entitlements](#view-the-list-of-the-identitys-entitlements), with Usercube's suggestions according to the identity's position;
-- [modify the identity's entitlements](#modify-the-identitys-entitlements) (add, update, remove).
+- view the list of the identity's entitlements, with Usercube's suggestions according to the identity's position;
+- modify the identity's entitlements (add, update, remove).
 
 ## Participants and Artifacts
 

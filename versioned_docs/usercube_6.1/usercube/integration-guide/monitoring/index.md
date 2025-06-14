@@ -102,7 +102,7 @@ In addition to the Microsoft log levels, Serilog provides a [Filters](https://gi
 
 ## Sinks
 
-Serilog allows the user to route log messages to a variety of logging destinations. Every destination is referred to as a sink. [Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) allows logs to be routed to destination such as standard consoles, files and [logging services](#logging-services).
+Serilog allows the user to route log messages to a variety of logging destinations. Every destination is referred to as a sink. [Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) allows logs to be routed to destination such as standard consoles, files and logging services.
 
 Usercube's supported sinks are:
 

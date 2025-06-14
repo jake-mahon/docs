@@ -16,7 +16,7 @@ The license key provided by Usercube must be set up in the [appsetting.json > Li
 
 It is recommended to run the Usercube Server as an IIS website.
 
-To install the Usercube Server as a Windows service, please jump to [Install the Server as a Windows Service](#install-the-server-as-a-windows-service).
+To install the Usercube Server as a Windows service, please jump to [Install the Server as a Windows Service].
 
 Adding the Usercube Server as an IIS website can be achieved with the [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the ```INETMGR.MSC``` command. You need to have an IIS 10.0 or greater.
 

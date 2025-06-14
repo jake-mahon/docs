@@ -22,13 +22,13 @@ Implementing this connector requires:
 - knowledge of scripting in PowerShell 5.1 or later, [see here PowerShell's requirements](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements);
 - making sure that the device hosting the agent has its execution policy properly configured to execute the given PowerShell script;
 - checking the targeted system's requirements (environment, libraries, etc.), as this connector is meant to connect Usercube to a PowerShell-compatible system;
-- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#netwrix-guidelines-below).
+- writing and testing a PowerShell script (```.ps1```) according to NETWRIX' guidelines below.
 
 ## Export
 
 This connector executes a PowerShell script that generates one or several CSV files. These files are to be used during the synchronization of the data from the managed system targeted by the PowerShellSync connector.
 
-The CSV files must be written to the ```$OutputPath```. See [below](#below).
+The CSV files must be written to the ```$OutputPath```. See below.
 
 The export is executed by a job from the UI, or via ```Usercube-Export-Powershell.exe``` in the command prompt.
 

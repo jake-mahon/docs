@@ -38,7 +38,7 @@ But, as Usercube uses and links both sides, it is able to "translate" the inform
   
 When importing data to Usercube, the ```member``` property from the AD will update the ```member``` property in Usercube, and Usercube will update the ```memberOf``` property accordingly.
 
-Most often, properties inside Usercube are each linked to a property from the managed system. This way, data from the managed system can be imported into Usercube and stored in the corresponding property. These properties are mapped from the source ([see step 3](#see-step-3)).
+Most often, properties inside Usercube are each linked to a property from the managed system. This way, data from the managed system can be imported into Usercube and stored in the corresponding property. These properties are mapped from the source (see step 3).
   
 If the property to be created does not exist in the external source, it is impossible to map the property, but it can still be created with __+ Add a navigation property__.
   

@@ -14,10 +14,10 @@ const VERSIONED_PRODUCTS = {
   'passwordpolicyenforcer_10.2': false,
   'passwordreset_3.23': false,
   'passwordsecure_9.1': false,
-  'privilegesecure_4.1': true,
+  'privilegesecure_4.1': false,
   'privilegesecurefordiscovery_2.21': false,
   'threatprevention_7.4': false,
-  'usercube_6.1': false,
+  'usercube_6.1': true,
 };
 
 const versionedProductConfigs = {

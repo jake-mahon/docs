@@ -6,8 +6,8 @@ This guide shows how to export the configuration as XML files to a given folder.
 
 The process for configuration export varies according to the situation:
 
-- when working on-premise, the configuration must be [exported locally](#exported-locally);
-- when working SaaS, the configuration must be [exported remotely](#exported-remotely).
+- when working on-premise, the configuration must be exported locally;
+- when working SaaS, the configuration must be exported remotely.
 
 [See more details on configuration export](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md).
 
@@ -56,7 +56,7 @@ Export a SaaS configuration by proceeding as follows:
 
    Specify ```--port <port>``` if you want the login page to use another local port.
 
-   If you have already successfully deployed or exported your SaaS configuration at least once, then there is no need to communicate the authentication information again. Go directly to [step 4](#step-4).
+   If you have already successfully deployed or exported your SaaS configuration at least once, then there is no need to communicate the authentication information again. Go directly to step 4.
      
    However, if, since then, there has been a change in the identity deploying/exporting the configuration or in the Identity Provider used to log in at step 1, then go through the whole process again.
 2. Log in to the IDP to be redirected back to this screen:

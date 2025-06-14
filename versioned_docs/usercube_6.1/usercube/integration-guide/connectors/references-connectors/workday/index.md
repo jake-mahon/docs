@@ -67,7 +67,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| InputFilePath   required | __Type__    String   __Description__ Path of the JSON file defining which entities and attributes are to be exported. [See more details below](#see-more-details-below). |
+| InputFilePath   required | __Type__    String   __Description__ Path of the JSON file defining which entities and attributes are to be exported. See more details below. |
 | Login   required | __Type__    String   __Description__ Login used to authenticate to Workday. |
 | Password   required | __Type__    String   __Description__ Password used to authenticate to Workday. |
 | Server   required | __Type__    String   __Description__ URL of the targeted Workday instance.   __Syntax:__```https://####.workday.com/ccx/service/tenantName``` (without the Web Service part). |
@@ -96,7 +96,7 @@ The file specified in ```InputFilePath``` must have a specific structure, with a
 | --- | --- |
 | XmlBody   required | __Type__    String   __Description__ Request to send to the Web Service.   __Syntax:__ ``` "XmlBody": "<soapenv:Body> <bsvc:Get_Entity_1_Request> � </bsvc:Get_Entity_1_Request> </soapenv:Body>" ``` - the request body must begin with ```<soapenv:Body>``` and end with ```</soapenv:Body>```;   - inside the body, the entity request must use the namespace ```bsvc```;   - the body must fit on a single line.   __Tip:__ write the body in a separate XML file and use [TextFixer](https://www.textfixer.com/tools/remove-line-breaks.php) to remove line breaks.   __Tip:__[see an example](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Request.xml). |
 | XPaths   optional | __Type__    String Pair List   __Description__ One or several key-value pairs, where:   - the key is the attribute name that will be the column name in the output CSV file;   - the value is the XPath used in the response to get the attribute value.   __Info:__ useless most of the time because the information is provided by entity type mappings and entity association mappings. Still useful when using the exe directly.   __Note:__ NETWRIX recommends using an __XPath__ to the property ```WID```, because it helps logs (in Trace mode) find entities with multi-valued properties.   __Syntax:__ ``` "XPaths": {     "Attribute_1_Name": "XPath 1",     �     "Attribute_N_Name": "XPath N"   } ``` |
-| EntityName   required | __Type__    String   __Description__ Name of the entity, which conditions the name of the output file. [See more details](#see-more-details). |
+| EntityName   required | __Type__    String   __Description__ Name of the entity, which conditions the name of the output file. See more details. |
 | IncrementalTag   optional | __Type__    String   __Description__ XML tag associated with the incremental request.   __Note:__ in the xml request, ```<bsvc:IncrementalTag>``` must be the parent of ```<bsvc:Transaction_Date_Range_Data>``` which is the parent of ```<bsvc:Updated_From>``` and ```<bsvc:Updated_Through>```.   __Note:__ when not specified, this entity is always exported in complete mode.   __Warning:__ the ```IncrementalTag``` part must not be added manually in ```XmlBody``` because the connector adds it automatically when exporting in incremental mode. |
 | WebService   required | __Type__    String   __Description__ Name and version of the Web Service. |
 

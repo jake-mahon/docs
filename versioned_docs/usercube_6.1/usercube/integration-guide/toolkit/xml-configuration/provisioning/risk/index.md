@@ -1,6 +1,6 @@
 # Risk
 
-A risk defines a security threat triggered by the assignment of one or more entitlements to an identity. A risk is linked to [risk rules](#risk-rules), each of which can trigger the risk.
+A risk defines a security threat triggered by the assignment of one or more entitlements to an identity. A risk is linked to risk rules, each of which can trigger the risk.
 
 ## Properties
 
@@ -18,11 +18,11 @@ A risk defines a security threat triggered by the assignment of one or more enti
 
 ## Child Element: Rule
 
-A risk rule is a set of [risk rule items](#risk-rule-items). The intersection of all rule items triggers the assignment of a [risk](#risk) to an identity, depending on the identity's entitlements.
+A risk rule is a set of risk rule items. The intersection of all rule items triggers the assignment of a risk to an identity, depending on the identity's entitlements.
 
 ## Child Element: Item
 
-A risk rule item is a filter that identify risk-triggering resources. The intersection of all rule items in a [risk rule](#risk-rule) triggers the associated [risk](#risk).
+A risk rule item is a filter that identify risk-triggering resources. The intersection of all rule items in a risk rule triggers the associated risk.
 
 ### Properties
 

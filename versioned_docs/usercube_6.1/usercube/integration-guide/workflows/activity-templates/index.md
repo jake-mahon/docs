@@ -14,7 +14,7 @@ By default, Usercube's workflow engine implements the following activity templat
 - [```ActionWithRefine```](#actionwithrefine)
 - [```Review```](#review)
 - [```ReviewWithFeedback```](#reviewwithfeedback)
-- [```ContinueWith```](#continuewith)
+- ```ContinueWith```
 - [```Persist```](#persist)
 - [```PersistOnlyResources```](#persistonlyresources)
 

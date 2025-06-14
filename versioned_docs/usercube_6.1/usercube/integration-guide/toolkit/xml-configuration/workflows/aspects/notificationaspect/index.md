@@ -13,9 +13,9 @@ The following example sends a notification email based on the template ```Notifi
 
 ```
 
-The notification will be sent after the ```Request``` activity of the ```Directory_Guest_AdvancedStart``` workflow is executed. [See pointcuts for more details](#see-pointcuts-for-more-details).
+The notification will be sent after the ```Request``` activity of the ```Directory_Guest_AdvancedStart``` workflow is executed. See pointcuts for more details.
   
-The notification will be sent to all email addresses defined by ```Directory_Guest:Mail```. [See recipients for more details](#see-recipients-for-more-details).
+The notification will be sent to all email addresses defined by ```Directory_Guest:Mail```. See recipients for more details.
 
 ## Properties
 

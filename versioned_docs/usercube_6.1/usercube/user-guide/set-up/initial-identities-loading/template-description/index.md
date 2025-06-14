@@ -33,7 +33,7 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 | Attribute | Type | Description |
 | --- | --- | --- |
 | RecordIdentifier (recommended) | String | Identifier of the [record](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#record).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
-| User (required) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
+| User (required) | ForeignKey | ```Identifier``` from the ```User``` tab. |
 | EmployeeId (recommended) | String |  |
 | Gender (optional) | ForeignKey | ```Identifier``` from the [```Gender```](#gender) tab. |
 | PersonalTitle (optional) | ForeignKey | ```Identifier``` from the [```PersonalTitle```](#personaltitle) tab. |
@@ -51,15 +51,15 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 | ContractStartDate (required) | DateTime | Start date of the user's contract in the company. |
 | ContractEndDate (recommended for permanent contracts, required for fixed-term contracts) | DateTime | End date of the user's contract in the company. |
 | AccessesExpirationDate (optional) | DateTime | Date when the user will be deprived of their access rights. |
-| UserType (required) | ForeignKey | ```Identifier``` from the [```UserType```](#usertype) tab. |
+| UserType (required) | ForeignKey | ```Identifier``` from the ```UserType``` tab. |
 | Subsidiary (optional) | ForeignKey | ```Identifier``` from the [```Subsidiary```](#subsidiary) tab. |
 | ExternalCompany (optional) | ForeignKey | ```Identifier``` from the [```ExternalCompany```](#externalcompany) tab. |
 | PositionIdentifier (required) | String |  |
 | PositionStartDate (optional) | DateTime |  |
 | PositionEndDate (optional) | DateTime |  |
 | Organization (recommended) | ForeignKey | ```Identifier``` from the [```Organization```](#organization) tab. |
-| Manager (recommended) | String | Line manager.   ```Identifier``` from the [```User```](#user) tab. |
-| IGAManager (optional) | String | Validator of IGA requests.   ```Identifier``` from the [```User```](#user) tab. |
+| Manager (recommended) | String | Line manager.   ```Identifier``` from the ```User``` tab. |
+| IGAManager (optional) | String | Validator of IGA requests.   ```Identifier``` from the ```User``` tab. |
 | JobTitle (optional) | String |  |
 | Title (optional) | ForeignKey | ```Identifier``` from the [```Title```](#title) tab. |
 | Site (optional) | ForeignKey | ```Identifier``` from the [```Site```](#site) tab. |
@@ -128,8 +128,8 @@ A company is divided into organizations, also called departments, such as the bo
 | --- | --- | --- |
 | Identifier (required) | String |  |
 | DisplayName (recommended) | String |  |
-| Manager (recommended) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
-| Assistant (optional) | ForeignKey | ```Identifier``` from the [```User```](#user) tab. |
+| Manager (recommended) | ForeignKey | ```Identifier``` from the ```User``` tab. |
+| Assistant (optional) | ForeignKey | ```Identifier``` from the ```User``` tab. |
 | Parent (optional) | ForeignKey | ```Identifier``` of another organization. |
 | Type (optional) | ForeignKey | ```Identifier``` from the [```OrganizationType```](#organizationtype) tab. |
 

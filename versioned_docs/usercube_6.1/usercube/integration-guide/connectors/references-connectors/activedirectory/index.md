@@ -16,7 +16,7 @@ Implementing this connector requires:
 
 - reading first the [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - opening the LDAP feed from Usercube's server to the Active Directory, with the ports 389 for LDAP and 636 for LDAPS;
-- a service account with reading and writing permissions on the target Active Directory instance. It means that the Replicating Directory Changes rights are required for the service account, but also for the Active Directory root and the AD children. [See the instructions below](#see-the-instructions-below);
+- a service account with reading and writing permissions on the target Active Directory instance. It means that the Replicating Directory Changes rights are required for the service account, but also for the Active Directory root and the AD children. See the instructions below;
 - enabling rights inheritance in the __Advanced Security Settings__.
 
 ### Enable Active Directory Permissions
@@ -33,7 +33,7 @@ Also, in order to change groups' membership, in the ```Applies``` field, select 
 
 ![Read/Write Members](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.png)
 
-If you want the [Reset Password capabilities](#reset-password-capabilities), in the ```Applies``` field, select ```Descendent User object``` and select the __Read lockoutTime__ and __Write lockoutTime__ check boxes from the list.
+If you want the Reset Password capabilities, in the ```Applies``` field, select ```Descendent User object``` and select the __Read lockoutTime__ and __Write lockoutTime__ check boxes from the list.
 
 ![Read/Write Lockout Times](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.png)
 
@@ -205,7 +205,7 @@ This connector writes to the Active Directory, to create, update and delete entr
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > The following example connects to an AD LDS system located at ```contoso.server.com```.
 >
@@ -257,7 +257,7 @@ A new resource is created with the state ```disabled```, corresponding to the __
 
 ### Provision multiple forests
 
-[Same as for export](#same-as-for-export), this connector can fulfill resources to multiple forests trusted by the same AD domain, by specifying the __Server__ and __BaseDN__ pairs in __Servers__ for all forests.
+Same as for export, this connector can fulfill resources to multiple forests trusted by the same AD domain, by specifying the __Server__ and __BaseDN__ pairs in __Servers__ for all forests.
 
 > The following example fulfills data to two targets: both on the same __Server__ (```contoso.server.com```), but on two different __BaseDN__s (```DC=contoso,DC=com``` and ```DC=defense,DC=contoso,DC=com```).
 >

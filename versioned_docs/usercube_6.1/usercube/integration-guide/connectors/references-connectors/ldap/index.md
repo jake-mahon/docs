@@ -102,8 +102,8 @@ The identifier of the connection and thus the name of the subsection must:
 
 | Name | Details |
 | --- | --- |
-| Servers   required | __Type__    [Server](#server) List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    [Table](#table) List   __Description__ List of specific setting attributes to retrieve entries and links.   __Note:__ having a table named ```entries``` is mandatory. |
+| Servers   required | __Type__    Server List   __Description__ List of servers to connect to. |
+| Tables   required | __Type__    Table List   __Description__ List of specific setting attributes to retrieve entries and links.   __Note:__ having a table named ```entries``` is mandatory. |
 | SizeLimit   optional | __Type__    Int32   __Description__ Maximum number of objects returned in the search request.   __Note:__ ignored when using ```Servers```:```Controls```. |
 | TimeLimit   optional | __Type__    Int32   __Description__ Maximum duration (in seconds) of the request. |
 | TimeOut   optional | __Type__    Int32   __Description__ Time period (in seconds) before the connection to the LDAP is closed. |
@@ -173,7 +173,7 @@ The LDAP connector fulfills the creation, deletion and update of LDAP entries, i
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >
@@ -209,8 +209,8 @@ The LDAP connector fulfills the creation, deletion and update of LDAP entries, i
 
 | Name | Details |
 | --- | --- |
-| Servers   required | __Type__    [Server](#server) List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    [Table](#table) List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
+| Servers   required | __Type__    Server List   __Description__ List of servers to connect to. |
+| Tables   required | __Type__    Table List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
 | AsAdLds   required | __Type__    Boolean   __Description__ ```True``` to state the managed system as an AD LDS. |
 | IsLdapPasswordReset   optional | __Type__    Boolean   __Description__ ```True``` to state the managed system as an LDAP-compliant system supporting password reset. |
 

@@ -38,7 +38,7 @@ Review provisioning orders by proceeding as follows:
    ![Home Page - Provisioning Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.png)
 
    ![Provisioning Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_provreview_v602.png)
-2. Click on a line to access details and handle [addition](#addition), [association](#association), [update](#update) or [deletion](#deletion) orders.
+2. Click on a line to access details and handle addition, association, update or deletion orders.
 
    Once reviewed, provisioning orders are to be executed by Usercube during the next __Fulfill__ task, accessible from the corresponding connector's overview page, in the __Resource Types__ frame.
      

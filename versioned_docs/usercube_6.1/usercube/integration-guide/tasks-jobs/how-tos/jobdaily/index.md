@@ -70,7 +70,7 @@ The Synchronization Validation Task is not needed , since it is managed by the [
 
 For more information on Synchronization task configuration : [Synchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 
-For more details on the Synchronization job configuration : [Synchronization Job Configuration](#synchronization-job-configuration)
+For more details on the Synchronization job configuration : Synchronization Job Configuration
 
 ### 5. Create the UpdateEntityPropertyExpressions task
 

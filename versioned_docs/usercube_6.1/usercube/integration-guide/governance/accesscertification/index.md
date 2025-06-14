@@ -77,7 +77,7 @@ This example shows how to set the scope of responsibility for the ```Manager``` 
 
 The filter indicates that a review with the ```Manager``` profile can only access items for which the binding ```Owner.Directory_User:MainRecord.Organization.Id``` matches their dimension ```organization0```'s value.
 
-This example needs to be completed with either [automatic assignment](#automatic-assignment) or manual assignment capabilities.
+This example needs to be completed with either automatic assignment or manual assignment capabilities.
 
 For certification items to be assigned to a profile, a permission context has to be added to the access control rule.
 
@@ -85,7 +85,7 @@ For certification items to be assigned to a profile, a permission context has to
 
 Access certification items can be assigned to end-users via:
 
-- Automatic assignments, computed by the [reviewer-setting task](#reviewer-setting-task) when a given profile's scope of responsibility matches the entitlement to be certified;
+- Automatic assignments, computed by the reviewer-setting task when a given profile's scope of responsibility matches the entitlement to be certified;
 - Forwarded assignments, automatically assigned to an end-user, but then manually forwarded to another user from the UI.
 
 #### Automatic assignments
@@ -165,7 +165,7 @@ A default policy is already defined. If no filter is set when giving the permiss
 
 ### Access certification item processing
 
-Once entitlement assignments have been reviewed (accepted or rejected), the final step is to apply these decisions with the [processing task](#processing-task), eventually denying assignments. This is done through the UI.
+Once entitlement assignments have been reviewed (accepted or rejected), the final step is to apply these decisions with the processing task, eventually denying assignments. This is done through the UI.
 
 The user needs to have the correct permission to launch the item processing:
 

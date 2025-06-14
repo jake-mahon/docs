@@ -38,7 +38,7 @@ However, the _incremental_ mode cannot be 100% reliable for two reasons.
 
 First, it relies on external inputs that are not directly controlled by Usercube. Second, it only exports changes based on the managed system state, not on Usercube's database state.
 
-[External perturbations](#external-perturbations) could cause slight differences between the database's state and the managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up ensures the database is in a stable state, faithfully reflecting the managed system state, before resuming the _incremental Sync Up_ iterations.
+External perturbations could cause slight differences between the database's state and the managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up ensures the database is in a stable state, faithfully reflecting the managed system state, before resuming the _incremental Sync Up_ iterations.
 
 Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or incomplete input.
 
@@ -94,9 +94,9 @@ In case the source managed system does not possess _incremental_ export capabili
 
 Inside those constraints, every natively supported _export task_ generates its own _CSV source file format_, described in the [connectors section](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md). Usually, two kinds of files are generated: _entries_, describing plain entries, and _associations_, describing associations between entries.
 
-All _CSV source files_ are written to the [_export directory_](#_export-directory_).
+All _CSV source files_ are written to the _export directory_.
 
-At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to [Entity Mapping (see below)](#entity-mapping-see-below).
+At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
 
 The [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 

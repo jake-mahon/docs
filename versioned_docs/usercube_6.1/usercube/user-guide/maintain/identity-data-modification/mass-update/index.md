@@ -10,7 +10,7 @@ Here we describe the incremental update of identities, but the update of any oth
 
 When the number of changes gets high, identity data update through the UI becomes tedious. Therefore, Usercube offers the possibility to fill a predefined file with data to be modified, in order to perform all changes simultaneously.
 
-Data update can be performed in [complete mode](#complete-mode) or [incremental mode](#incremental-mode).
+Data update can be performed in complete mode or incremental mode.
 
 ## Participants and Artifacts
 

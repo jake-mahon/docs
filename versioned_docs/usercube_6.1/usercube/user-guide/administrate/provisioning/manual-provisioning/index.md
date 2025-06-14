@@ -58,7 +58,7 @@ In order to verify the process:
 
    ![Home Page - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
 2. Follow the [manual assignment workflow](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md) to make a change in one of their permissions, which involves manual provisioning.
-3. Perform manual provisioning and check the [provisioning state](#provisioning-state) of the requested entitlement at every step, in the user's __View Permissions__ tab.
+3. Perform manual provisioning and check the provisioning state of the requested entitlement at every step, in the user's __View Permissions__ tab.
 
 ![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
 

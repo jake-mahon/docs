@@ -48,7 +48,7 @@ When [getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/i
 
 ## Child Element: AssociationInstance
 
-An association instance represents, within a [universe](#universe), the occurrence in the model of an [entity association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+An association instance represents, within a universe, the occurrence in the model of an [entity association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -61,7 +61,7 @@ An association instance represents, within a [universe](#universe), the occurren
 
 ## Child Element: EntityInstance
 
-An entity instance represents, within a [universe](#universe), the occurrence in the model of an [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+An entity instance represents, within a universe, the occurrence in the model of an [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ### Properties
 

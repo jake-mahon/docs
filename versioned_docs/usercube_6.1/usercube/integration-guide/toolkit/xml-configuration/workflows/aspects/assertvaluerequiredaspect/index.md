@@ -4,7 +4,7 @@ Checks whether a given property has a non-null value.
 
 ## Examples
 
-The following example makes sure that the contract start date is specified for any new worker. The [pointcuts](#pointcuts) define when the value assertion must happen.
+The following example makes sure that the contract start date is specified for any new worker. The pointcuts define when the value assertion must happen.
 
 ```
 

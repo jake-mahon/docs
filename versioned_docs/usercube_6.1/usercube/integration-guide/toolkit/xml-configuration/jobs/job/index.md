@@ -86,7 +86,7 @@ A job can be configured with as many steps as needed.
 
 ### Examples
 
-The [basic example](#basic-example) of a job is equivalent to the following:
+The basic example of a job is equivalent to the following:
 
                     ```
 

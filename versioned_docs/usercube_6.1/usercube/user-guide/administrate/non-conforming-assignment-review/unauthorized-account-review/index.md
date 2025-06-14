@@ -31,7 +31,7 @@ Review an unauthorized account by proceeding as follows:
 3. Select ```Unauthorized account``` as the ```Workflow State```. Orphaned accounts appear with no owner.
 
    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
-4. Choose the default resource view or the [property view](#property-view) with the top right toggle.
+4. Choose the default resource view or the property view with the top right toggle.
 5. Click on the line of an account with an owner.
 
    In the following example, the nominative LDAP account linked to the resource ```U40897 / Internal Users / acme / com``` has the owner ```Maxime Guillot``` with an 80% confidence rate.

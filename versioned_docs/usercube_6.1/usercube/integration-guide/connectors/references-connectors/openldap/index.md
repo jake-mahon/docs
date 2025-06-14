@@ -139,7 +139,7 @@ The LDAP connector fulfills the creation, deletion and update of LDAP entries, i
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > ```
 > appsettings.agent.json

@@ -39,7 +39,7 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-A ```WorkflowEditEntityForm``` requires one child element ```MainControl``` that defines the actual content of the workflow's form and calls the [form created previously](#form-created-previously):
+A ```WorkflowEditEntityForm``` requires one child element ```MainControl``` that defines the actual content of the workflow's form and calls the form created previously:
 
 ```
 
@@ -70,7 +70,7 @@ Another child element ```SummaryControl``` can be added to insert a summary part
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#workflows-permissions).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the [previously created workflow](#previously-created-workflow):
+Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
 
 ```
 

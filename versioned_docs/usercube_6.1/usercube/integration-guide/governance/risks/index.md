@@ -22,8 +22,8 @@ A risk is always:
 
 - part of a [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
 - assigned to identities belonging to a specific entity type that was decided during the risk creation;
-- organized inside a [type](#type);
-- linked to an [exemption policy](#exemption-policy).
+- organized inside a type;
+- linked to an exemption policy.
 
 ## Risk Type
 

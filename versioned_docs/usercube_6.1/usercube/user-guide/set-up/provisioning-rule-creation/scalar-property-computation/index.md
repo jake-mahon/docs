@@ -98,7 +98,7 @@ Fill an entity type with a scalar rule by proceeding as follows:
      > In this case, we use ```CreateOnly``` so that Usercube sends the adequate provisioning order when needed, and then is able to change the [provisioning state](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md#provisioning-state) to ```Verified``` without [synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
    - ```Comparison type```: [comparison type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#comparison-type) between the value of the target object computed by the rule and its value from the managed system. Non-conforming values are displayed on the __Provisioning Review__ screen.
    - __Criteria__: conditions that, if met, trigger the rule application.
-   > [Our example](#our-example) would look like:
+   > Our example would look like:
    >
    > ![Scalar Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.png)
 5. Click on __Create__ and see a line added on the rules page.

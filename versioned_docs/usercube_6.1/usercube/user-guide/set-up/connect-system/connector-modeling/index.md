@@ -22,7 +22,7 @@ Modeling the connector is a matter of identifying what data you want to get into
 
 The model must take both into account. So both kinds of data must be extracted from the managed system.
 
-> Let's take an example. An Active Directory manages authorization through group membership (using the [user-group paradigm](#user-group-paradigm)).
+> Let's take an example. An Active Directory manages authorization through group membership (using the user-group paradigm).
 >
 > So first we need to retrieve both groups and accounts, in order to manage the AD's assignments of entitlements for our users (in the AD language: manage their accounts and group memberships).
 >
@@ -32,7 +32,7 @@ The model must take both into account. So both kinds of data must be extracted f
 
 Fortunately, you won't have to design your connector model from scratch. NETWRIX has done a little work ahead, and you are presented here with four model templates that have proven to work so far. Experience shows that most managed systems can be shaped using one or a mix of the following:
 
-- the [User](#user) model is the most simple model for a connector, where a user is directly associated with a list of entitlements;
+- the User model is the most simple model for a connector, where a user is directly associated with a list of entitlements;
 - the [User-Group](#user-group) model represents typical [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) mechanisms, where the ability to perform an action is granted through accounts' membership to a specific group (also called role or profile according to the system);
 - the [Account-Profile-Transaction](#account-profile-transaction) model represents a system, where the ability to perform an action is granted through the assignment of fine-grained entitlements (called transactions) which are packaged into profiles;
 - the [Star](#star) model represents a system, where the ability to perform an action is granted through the assignment of entitlements which are based on at least two variable parameters.
@@ -65,7 +65,7 @@ For a given managed system, integrators may need the help of the application own
 
 Define your connector model by proceeding as follows:
 
-1. Use the advice and examples given about [each model template](#each-model-template) to find the template that most closely matches your use case.
+1. Use the advice and examples given about each model template to find the template that most closely matches your use case.
 2. Adapt the template to the reality of your managed system by renaming and adjusting the model's objects.
 3. Define your [useful data](#useful-data), and thus the attributes of each object according to the reality of the data in your managed system.
 4. Ensure that all objects have at least one attribute that can serve as a key to be uniquely identified within Usercube. You will get more details about keys during [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#entity-type-creation).
@@ -83,7 +83,7 @@ Define your connector model by proceeding as follows:
 
    The model is going to change and evolve during the life of the application, to account for new needs or changes. This must be considered too in the initial model to make future changes less painful.
 
-Find at the bottom a [procedure example about modeling the Active Directory](#procedure-example-about-modeling-the-active-directory).
+Find at the bottom a procedure example about modeling the Active Directory.
 
 ## Model Templates
 
@@ -112,7 +112,7 @@ Permissions can be managed:
 
 Thus you need to create one entity type to represent either accounts or other resources.
 
-Each entity type needs to be shaped with properties, chosen according to the [data useful for entitlement assignment](#data-useful-for-entitlement-assignment).
+Each entity type needs to be shaped with properties, chosen according to the data useful for entitlement assignment.
 
 The only sensitive and required properties are the [keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#keys) and the property holding entitlements. It means that:
 
@@ -155,13 +155,13 @@ Users are represented by the accounts they own.
 
 Thus you need to create one entity type to represent groups (or roles or profiles) and one for accounts.
 
-Each entity type needs to be shaped with properties, chosen according to the [data useful for entitlement assignment](#data-useful-for-entitlement-assignment).
+Each entity type needs to be shaped with properties, chosen according to the data useful for entitlement assignment.
 
 The only sensitive and required properties are those constituting the link between both entity types, i.e. the navigation properties representing the group membership.
 
 __Recommendation: categorize accounts in types__
   
-Many of the managed systems following this model, just like the [User model](#user-model), distinguish between several types of accounts.
+Many of the managed systems following this model, just like the User model, distinguish between several types of accounts.
   
 In further steps, you will be able to define one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per account type and map each one to a [role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for assignment and [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
 
@@ -195,7 +195,7 @@ Usercube receives a write access for users and profiles, only a read access for 
 
 __Recommendation: categorize accounts in types__
   
-Many of the managed systems following this model, just like the [User model](#user-model), distinguish between several types of accounts.
+Many of the managed systems following this model, just like the User model, distinguish between several types of accounts.
   
 In further steps, you will be able to define one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per account type and map each one to a [role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for assignment and [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
   
@@ -230,7 +230,7 @@ The Account-Profile-Transaction model is better suited to represent a system, wi
 
 Thus you need to create one entity type to represent accounts, one for profiles, and one for transactions.
 
-Each entity type needs to be shaped with properties, chosen according to the [data useful for entitlement assignment](#data-useful-for-entitlement-assignment).
+Each entity type needs to be shaped with properties, chosen according to the data useful for entitlement assignment.
 
 The only sensitive and required properties are those constituting the link between entity types, i.e. the navigation properties representing the packaging of transactions into profiles on the one hand, and the assignment of profiles to accounts on the other hand. You can potentially add a navigation property in the ```Profile``` entity type in order to categorize profiles within larger profiles.
 
@@ -242,11 +242,11 @@ See the schema below this note.
 
 ![Profiles Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiles.png)
 
-Transactions are not mandatory in a model. Most of the time, the profile packages are predefined once and for all, or are the responsibility of the application owner. Then Usercube doesn't need to manage the specific transactions for a profile directly inside the managed system. You can hence avoid modeling transactions altogether. In this case, you fall back on the [User-Group model](#user-group-model) with a twist: if profile categories are relevant in the system's authorization mechanism, then you must take them into account.
+Transactions are not mandatory in a model. Most of the time, the profile packages are predefined once and for all, or are the responsibility of the application owner. Then Usercube doesn't need to manage the specific transactions for a profile directly inside the managed system. You can hence avoid modeling transactions altogether. In this case, you fall back on the User-Group model with a twist: if profile categories are relevant in the system's authorization mechanism, then you must take them into account.
 
 #### Example - TSS
 
-The TSS connector is actually a mix of the [User-Group](#user-group) and Account-Profile-Transaction models. The User-Group part is [explained above](#explained-above).
+The TSS connector is actually a mix of the [User-Group](#user-group) and Account-Profile-Transaction models. The User-Group part is explained above.
 
 ![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss-prof-trans.png)
 
@@ -274,7 +274,7 @@ __Comparison with other models:__ while the [User-Group](#user-group) model gran
 
 Thus you need to create one entity type to represent accounts, one for each criterion, and another one to represent the object linking acounts to criteria.
 
-Each entity type needs to be shaped with properties, chosen according to the [data useful for entitlement assignment](#data-useful-for-entitlement-assignment).
+Each entity type needs to be shaped with properties, chosen according to the data useful for entitlement assignment.
 
 The difficulty of this model is to map everything to [roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) in the role model. In Usercube's role model, one assignment is always one role. But in this case, in the managed system, an assignment is a tuple of things.
 
@@ -302,7 +302,7 @@ Concerning roles, integrators have two options:
 
 __Step 1: choose the connector model.__
 
-Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the [User-Group template](#user-group-template) is designed to handle.
+Let's say we are modeling an Active Directory, which handles authorization through the group memberships of accounts. In other words, to assign an entitlement to an identity, we make the AD account of said identity member of the corresponding AD group. That is exactly what the User-Group template is designed to handle.
 
 ![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.png)
 

@@ -16,7 +16,7 @@ The following example creates an Active Directory correlation rule based on the 
 
 #### Correlation based on attributes changed by a function
 
-The following example copies the [previous example](#previous-example) (based on unchanged attributes), but using a predefined function (```ToLower```) in source and target bindings' expressions, to compare the email attributes:
+The following example copies the previous example (based on unchanged attributes), but using a predefined function (```ToLower```) in source and target bindings' expressions, to compare the email attributes:
 
 ```
 

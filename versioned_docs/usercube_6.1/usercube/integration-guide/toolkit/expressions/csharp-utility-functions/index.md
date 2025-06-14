@@ -6,7 +6,7 @@ These are static functions defined in the class ```Usercube.Expressions.Function
 
 The way these functions are configured, they require the ```UtilExpressions``` prefix, but not necessarily the rest (```Usercube.Expressions.Functions```). However, using the full namespace would also work.
   
-For example, you could use ```UtilExpressions.BuildUsername(...)``` as shown in the [example below](#example-below).
+For example, you could use ```UtilExpressions.BuildUsername(...)``` as shown in the example below.
 
 [LinQ methods](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable?view=net-8.0) can be used, without needing to add a prefix.
 

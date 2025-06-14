@@ -13,7 +13,7 @@ Represents a conceptual model of a business object, such as a person entity or a
 
 ## Child Element: Property
 
-An entity property represents a property of an [Entity Type](#entity-type).
+An entity property represents a property of an Entity Type.
 See [Connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) on how to configure/define an EntityProperty.
 
 ### Examples

@@ -4,7 +4,7 @@ Modifies a given property value.
 
 ## Examples
 
-The following example computes a new value for the property ```IsDraft``` from the ```Directory_User``` entity type. The new value is always ```true```. The [pointcuts](#pointcuts) define when the value change must happen.
+The following example computes a new value for the property ```IsDraft``` from the ```Directory_User``` entity type. The new value is always ```true```. The pointcuts define when the value change must happen.
 
 ```
 

@@ -50,7 +50,7 @@ This information can be set one of two ways:
 
 ### PFX file
 
-The archive is set using the following attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#configuration)):
+The archive is set using the following attributes on the ```appsettings > IdentityServer``` section (see Configuration):
 
 - __X509KeyFilePath__ is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system.
 - __X509KeyFilePassword__ (_optional_) is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.
@@ -69,7 +69,7 @@ The archive is set using the following attributes on the ```appsettings > Identi
 
 ### Certificate
 
-The certificate from a Windows certificate store is set up using these attributes on the ```appsettings > IdentityServer``` section (see [Configuration](#configuration)):
+The certificate from a Windows certificate store is set up using these attributes on the ```appsettings > IdentityServer``` section (see Configuration):
 
 | Name | Details |
 | --- | --- |
@@ -567,7 +567,7 @@ Each section is configured with the following settings:
 | EntityIdAppliUriID   required | Is Usercube's __Entity ID__ issued during the registration process. Also referred to as an __Identifier URI__. For _Microsoft Entra ID_, it is set during the _Expose an API > set > save_ step of the registration. Generated values look like ```api://bbd35166-7c13-49f3-8041-9551f2847b69```. |
 | NameIdFormat   optional | Is the requested format of the subject's name identifier. |
 | MinIncomingSigningAlgorithm   optional | Is minimal signing algorithm to validate SAML2 response. |
-| EncryptionCertificate   optional | __Type__    [EncryptionCertificate](#encryptioncertificate)    __Description__ Sets the location of the public key certificate and the private key used to handle input and output files encryption.   __Note:__ required to enable logout. |
+| EncryptionCertificate   optional | __Type__    [EncryptionCertificate]    __Description__ Sets the location of the public key certificate and the private key used to handle input and output files encryption.   __Note:__ required to enable logout. |
 > This example configures a SAML2-based authentication provider identified as _SAMLConnection_ in the configuration file.
 >
 > It will be displayed as _Connection Azure ActiveDirectory with SAML2 protocol_ in the UI external login prompt.

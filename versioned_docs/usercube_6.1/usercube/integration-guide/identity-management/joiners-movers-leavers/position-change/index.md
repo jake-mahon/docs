@@ -8,7 +8,7 @@ In Usercube, position changes are made through workflows or through synchronizat
 
 The entitlements of a user must be updated with the user's position changes: the entitlements needed for the previous position are removed, and the entitlements needed for the next position are added. This is essential to prevent users from cumulating entitlements when moving.
 
-Just like [onboarding](#onboarding), the entitlement fulfillment can be performed either by using Usercube's suggestions for the needed entitlements and adjusting them, or trusting Usercube with an automated fulfillment.
+Just like onboarding, the entitlement fulfillment can be performed either by using Usercube's suggestions for the needed entitlements and adjusting them, or trusting Usercube with an automated fulfillment.
 
 Usercube's calculations for entitlement assignments rely on heuristics, through identities' key properties called [dimensions](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
@@ -76,7 +76,7 @@ Users can be modeled by up to n\*n\*n contexts, and even more when elements over
 
 The complexity that comes from the combination of all start and end dates is tackled by Usercube's engine when it generates users' contexts. As the start and end dates of each value are pre-computed by Usercube, this user model highly simplifies provisioning rules.
 
-> The C# expressions from [the previous example](#the-previous-example) can be written, for the same result, as the following, first for users' display names, then departments:
+> The C# expressions from the previous example can be written, for the same result, as the following, first for users' display names, then departments:
 >
 > ```
 >

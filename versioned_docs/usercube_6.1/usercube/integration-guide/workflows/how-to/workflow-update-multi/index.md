@@ -60,7 +60,7 @@ A ```WorkflowUpdateSeveralRecordEntityForm``` requires the following child eleme
 
 The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines the record data shared with all records and calls the first[form created previously](#form-created-previously);
+- ```RecordControl``` that defines the record data shared with all records and calls the firstform created previously;
 
 ```
 
@@ -70,7 +70,7 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordUniqueItemControl``` that defines the record data specific to each record individually, and calls the second[form created previously](#form-created-previously);
+- ```RecordUniqueItemControl``` that defines the record data specific to each record individually, and calls the secondform created previously;
 
 ```
 
@@ -109,7 +109,7 @@ The ```RecordSlaveControl``` attribute calls here the same form as ```RecordUniq
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#workflows-permissions).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the [previously created workflow](#previously-created-workflow):
+Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
 
 ```
 

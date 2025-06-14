@@ -4,9 +4,9 @@ In this section we configure the homonym detection that checks if a resource alr
 
 ## Process
 
-1. [Create a homonym entity link, either with a default filter or customized filters](#create-a-homonym-entity-link-either-with-a-default-filter-or-customized-filters)
-2. [Create a display table to display the homonym result _(optional)_](#create-a-display-table-to-display-the-homonym-result-_optional_)
-3. [Define the part of the workflow form where homonyms must be checked](#define-the-part-of-the-workflow-form-where-homonyms-must-be-checked)
+1. Create a homonym entity link, either with a default filter or customized filters
+2. Create a display table to display the homonym result _(optional)_
+3. Define the part of the workflow form where homonyms must be checked
 
 ## Create a Homonym Entity Link
 
@@ -21,7 +21,7 @@ It can be defined in different ways.
 ```
 
 When no filter is defined for the homonym entity link, the detection for homonyms is performed according to the homonym control form.
-See [section below](#section-below).
+See section below.
 
 ### With customized filters
 
@@ -39,7 +39,7 @@ See [section below](#section-below).
 
 Here, since the default operator is ```Equal```, the detection for homonyms is performed by comparing the values of the ```LastName``` and ```FirstName``` properties with an exact spelling.
 
-_NB: This example matches the default filter that would be computed based on the homonym control example in the [section below](#section-below)._
+_NB: This example matches the default filter that would be computed based on the homonym control example in the section below._
 
 #### Filters on several entities
 
@@ -61,7 +61,7 @@ A homonym entity link can contain filters on the properties from several distinc
 >
 > ```
 
-In this case, a display table is required for the additional entity. [See the section below](#see-the-section-below).
+In this case, a display table is required for the additional entity. See the section below.
 
 #### Flexible filter
 

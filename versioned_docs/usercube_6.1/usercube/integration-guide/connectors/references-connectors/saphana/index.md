@@ -110,7 +110,7 @@ This connector writes to SAP to create, update, and/or delete users, groups, rol
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 

@@ -83,7 +83,7 @@ The identifier of the connection and thus the name of the subsection must:
 | ValuesToTrim   optional | __Type__    String List   __Description__ Ordered list of the characters to trim at the beginning and at the end of the headers and values of the input file.   __Note:__ the second value will be trimmed after the first, the order is important. __Example__ When writing ```$``` first and then ```%``` in ```ValuesToTrim```, then "$%I am an example$%" becomes "I am an example$". |
 |  |  |
 | --- | --- |
-| SheetOptions   optional | __Type__    [SheetOption](#sheetoption) List   __Description__ List of options for each sheet of the input file. The first element of the list sets the options for the first sheet, the second element for the second sheet, etc. |
+| SheetOptions   optional | __Type__    SheetOption List   __Description__ List of options for each sheet of the input file. The first element of the list sets the options for the first sheet, the second element for the second sheet, etc. |
 
 ##### SheetOptions
 

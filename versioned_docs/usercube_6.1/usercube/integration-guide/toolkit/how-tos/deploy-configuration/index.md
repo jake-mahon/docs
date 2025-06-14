@@ -6,8 +6,8 @@ This guide shows how to deploy the XML configuration, in order to build and use 
 
 The process for configuration deployment varies according to the situation:
 
-- when working on-premise, the configuration must be [deployed locally](#deployed-locally);
-- when working SaaS, the configuration must be [deployed remotely](#deployed-remotely).
+- when working on-premise, the configuration must be deployed locally;
+- when working SaaS, the configuration must be deployed remotely.
 
 ## Deploy the Configuration Locally
 
@@ -54,7 +54,7 @@ Deploy a SaaS XML configuration by proceeding as follows:
 
    Specify ```--port <port>``` if you want the login page to use another local port.
 
-   If you have already successfully deployed or exported your SaaS configuration at least once, then there is no need to communicate the authentication information again. Go directly to [step 4](#step-4).
+   If you have already successfully deployed or exported your SaaS configuration at least once, then there is no need to communicate the authentication information again. Go directly to step 4.
      
    However, if, since then, there has been a change in the identity deploying/exporting the configuration or in the Identity Provider used to log in at step 1, then go through the whole process again.
 2. Log in to the IDP to be redirected back to this screen:

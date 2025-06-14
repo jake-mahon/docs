@@ -84,7 +84,7 @@ This connector requires from the XML configuration:
   - with the same identifier as the related entity type;
   - related to the right connector;
   - related to a connection table named ```<Connection>_<ODataEntitySet>```;
-  - with properties whose connection columns represent the property's path in the entity, [see the configuration example below](#see-the-configuration-example-below);
+  - with properties whose connection columns represent the property's path in the entity, see the configuration example below;
 - an [entity association mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
   - with the same identifier as the related entity association;
   - with its ```Column1``` in the format ```UsercubeNav_<NavigationProperty>:<PropertyKey>``` for the related property in the association;

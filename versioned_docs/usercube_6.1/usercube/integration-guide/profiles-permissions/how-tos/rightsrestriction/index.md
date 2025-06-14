@@ -68,7 +68,7 @@ Limit an entity's visibility by proceeding as follows:
    >
    > ```
 
-   As a result, all the properties listed in the access control entity type are hidden from users by default when they have the usual permissions [written above](#written-above).
+   As a result, all the properties listed in the access control entity type are hidden from users by default when they have the usual permissions written above.
 
    To be able to see these properties, a user must have these permissions with a full access.
 

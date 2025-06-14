@@ -1404,7 +1404,7 @@ The migration steps in the documentation's [Migration](https://extranet.usercube
   - New attribute types are available for Active Directory, LDAP, OpenLDAP and ServiceNow Exports.
   - If any export fails (because an exception occurs or a task is stopped), the output files are deleted to prevent corrupted and/or incomplete data.
   - Microsoft Exchange Export functionality for incremental and complete synchronizations is now available.
-  - Orphan associations can now be exported to a CSV file using a new ```Orphans``` attribute on the ```SynchronizationTask```. See the [documentation](https://extranet.usercube.com/5.1/5.1.7/Documentation/integration-guide/toolkit/xml-configuration/jobs/tasks/server/SynchronizeTask/#documentation) for more information.
+  - Orphan associations can now be exported to a CSV file using a new ```Orphans``` attribute on the ```SynchronizationTask```. See the [documentation](https://extranet.usercube.com/5.1/5.1.7/Documentation/integration-guide/toolkit/xml-configuration/jobs/tasks/server/SynchronizeTask) for more information.
   - Added a NoSigning option to the Export-LDAP which deactivates the Kerberos encryption when using the �Negotiate' authentication type.
   - Binary properties can now be synchronized and provisioned.
   - Added the ability to select the NameId format in the Saml2 Settings

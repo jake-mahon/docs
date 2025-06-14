@@ -23,9 +23,9 @@ Usercube puts users in control of their reporting. Rich features help produce cu
 Usercube provides several different levels of reporting according to your needs and technical tools. You can:
 
 - [download predefined reports](#download-predefined-reports) for simple needs;
-- [add new reports](#add-new-reports) to the predefined ones through XML configuration, for recurring needs that aren't met by available reports (this requires XML configuration knowledge);
+- add new reports to the predefined ones through XML configuration, for recurring needs that aren't met by available reports (this requires XML configuration knowledge);
 - [create customized reports](#create-customized-reports) with the Query module and its universes configured beforehand, to meet specific needs (this requires certain technical knowledge);
-- [create customized graphic reports](#create-customized-graphic-reports) with PowerBI, to meet specific needs (this requires certain technical knowledge).
+- create customized graphic reports with PowerBI, to meet specific needs (this requires certain technical knowledge).
 
 ## Participants and Artifacts
 

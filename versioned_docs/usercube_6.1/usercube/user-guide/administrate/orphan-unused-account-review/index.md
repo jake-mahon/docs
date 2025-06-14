@@ -75,7 +75,7 @@ Review an orphaned account by proceeding as follows:
 2. Select ```Unauthorized account``` as the ```Workflow State```. Orphaned accounts are those appearing with no owner.
 
    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
-3. Choose the default resource view or the [property view](#property-view) with the top right toggle.
+3. Choose the default resource view or the property view with the top right toggle.
 4. Click on the line of an account without an owner.
 
    > In the following example, the nominative AD account linked to the email address ```nathan.smith@acme.com``` has no owner.
@@ -85,10 +85,10 @@ Review an orphaned account by proceeding as follows:
    > ![Owners List](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.png)
 5. Answer the following questions in order to understand the situation.
 
-   - Has the account been [used recently](#used-recently)?
+   - Has the account been used recently?
    - Why is it orphan?
    - Who is it supposed to belong to?
-   - If it is a service account, is it useful? Has it been [used](#used) recently?
+   - If it is a service account, is it useful? Has it been used recently?
 
      - A used account must be connected to its rightful owner.
      - An unused account must be deleted.

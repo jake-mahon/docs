@@ -23,7 +23,7 @@ Create a new registration for Usercube with Microsoft Identity Platform by proce
 
      Usercube uses its own identity to access the API. It doesn't access the data on behalf of a user. To authenticate, it uses credentials of a service account granted by this registration, in the form of an ```ApplicationId``` and a secret ```Client Secret```.
 
-     [See how to get ```ApplicationId``` and ```ApplicationKey```](#see-how-to-get-applicationid-and-applicationkey).
+     See how to get ```ApplicationId``` and ```ApplicationKey```.
 
      This service account is stored in the organizational directory, and hence using the [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege), only __Accounts in this organizational directory__ are supported for authentication within this registration scope.
    - ```Redirect URI```:

@@ -153,7 +153,7 @@ This connector writes to ServiceNow to create, update, and/or delete any data.
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >

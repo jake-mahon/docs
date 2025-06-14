@@ -144,7 +144,7 @@ The EasyVista connector writes to EasyVista to create, archive (delete from User
 
 ### Configuration
 
-[Same as for export](#same-as-for-export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >

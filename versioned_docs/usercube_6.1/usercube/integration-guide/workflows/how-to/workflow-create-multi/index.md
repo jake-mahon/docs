@@ -56,7 +56,7 @@ After creating a workflow with given activities, it is necessary to create the f
 
 A ```WorkflowCreateSeveralRecordEntityForm``` requires the following child elements:
 
-- ```MainControl``` that defines the user's data that never changes so identification data, and calls the first[form created previously](#form-created-previously);
+- ```MainControl``` that defines the user's data that never changes so identification data, and calls the firstform created previously;
 
 ```
 
@@ -66,7 +66,7 @@ A ```WorkflowCreateSeveralRecordEntityForm``` requires the following child eleme
 
 ```
 
-- ```RecordControl``` that defines the record data shared with all records, and calls the second[form created previously](#form-created-previously);
+- ```RecordControl``` that defines the record data shared with all records, and calls the secondform created previously;
 
 ```
 
@@ -89,7 +89,7 @@ In a situation where positions, contracts and personal data are all configured a
 >
 > ```
 
-- ```RecordUniqueItemControl``` (optional but recommended) that defines the record data specific to each record individually, and calls the third[form created previously](#form-created-previously).
+- ```RecordUniqueItemControl``` (optional but recommended) that defines the record data specific to each record individually, and calls the thirdform created previously.
 
 ```
 
@@ -106,7 +106,7 @@ In a situation where positions, contracts and personal data are all configured a
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#workflows-permissions).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole creation request and review from the [previously created workflow](#previously-created-workflow):
+Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole creation request and review from the previously created workflow:
 
 ```
 

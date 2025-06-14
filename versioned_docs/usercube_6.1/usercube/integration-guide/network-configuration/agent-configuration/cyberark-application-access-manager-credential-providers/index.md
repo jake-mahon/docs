@@ -61,7 +61,7 @@ Several [authentication methods](https://docs.cyberark.com/Product-Doc/OnlineHel
 
 NETWRIX recommends:
   
-- using the certificate's serial number (see below [how to configure certificates](#how-to-configure-certificates)) when working with the agentless AAM - Central Credential Provider;
+- using the certificate's serial number (see below how to configure certificates) when working with the agentless AAM - Central Credential Provider;
   
 - generating a hash with the AIMGetAppInfo utility when working with the agent-based AAM - Credential Provider.
 
@@ -137,8 +137,8 @@ Connect Usercube to CyberArk by adding to the agent's ```appsettings.json``` fil
 | Name | Details |
 | --- | --- |
 | UseCyberArkSetting   default value: False | __Type__    Boolean   __Description__ ```True``` to enable the CyberArk Provider for Usercube. |
-| SafeName   required | __Type__    String   __Description__ Name of the safe containing the [accounts](#accounts) used by Usercube. |
-| ApplicationId   required | __Type__    String   __Description__ [Application ID](#application-id) of the application that can access the safe. |
+| SafeName   required | __Type__    String   __Description__ Name of the safe containing the accounts used by Usercube. |
+| ApplicationId   required | __Type__    String   __Description__ Application ID of the application that can access the safe. |
 | Server   required | __Type__    String   __Description__ URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes.   __Note:__ the ```Server``` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
 ### Certificate settings
@@ -217,12 +217,12 @@ The Windows certificate is set using these attributes:
 
 ## Usercube's CyberArk Vault
 
-Once [configured](#configured), Usercube retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file.
+Once configured, Usercube retrieves the sensitive values from CyberArk via the ```appsettings.cyberArk.agent.json``` file.
 
 In this file:
 
 - the keys must follow the same structure as in the __Connections__ of the ```appsettings.agent.json``` file;
-- the values are the names of the accounts [created before](#created-before).
+- the values are the names of the accounts created before.
 
 > The following example saves in CyberArk the credentials for ```AD_Export```, with the accounts ```AdAccount``` and ```AdServer2```:
 >

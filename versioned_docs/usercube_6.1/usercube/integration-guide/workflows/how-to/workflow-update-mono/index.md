@@ -55,7 +55,7 @@ A ```WorkflowAddAndEndRecordEntityForm``` requires the following child elements:
 
 The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines record data, and call the [form created previously](#form-created-previously).
+- ```RecordControl``` that defines record data, and call the form created previously.
 
 ```
 
@@ -74,7 +74,7 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#workflows-permissions).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the [previously created workflow](#previously-created-workflow):
+Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
 
 ```
 

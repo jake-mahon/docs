@@ -18,7 +18,7 @@ Implementing this connector requires:
 - knowledge of scripting in PowerShell 5.1 or later, [see here PowerShell's requirements](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements);
 - making sure that the device hosting the agent has its execution policy properly configured to execute the given PowerShell script;
 - checking the targeted system's requirements (environment, libraries, etc.), as this connector is meant to connect Usercube to a PowerShell-compatible system;
-- writing and testing a PowerShell script (```.ps1```) according to [NETWRIX' guidelines below](#netwrix-guidelines-below).
+- writing and testing a PowerShell script (```.ps1```) according to NETWRIX' guidelines below.
 
 ## Export
 

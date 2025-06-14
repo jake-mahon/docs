@@ -14,13 +14,13 @@ Workflows are very configurable objects with many available options. However, th
 A workflow is made of several elements:
 
 - a series of [activities](#activities) that constitutes the workflow;
-- a [form](#form) that collects input data;
+- a form that collects input data;
 - [permissions](#permissions) required to realize the workflow's activities;
 - [menu items](#menu-items) that make the workflow and its activities accessible;
 - [aspects](#aspects) that allow specific actions to be performed;
-- a [summary](#summary)(optional) of the workflow's results;
-- a [homonym detection](#homonym-detection)(optional) that prevents duplicates in resources;
-- a [display table](#display-table)(optional) that replaces Usercube's default table displaying the data of the created/modified resource.
+- a summary(optional) of the workflow's results;
+- a homonym detection(optional) that prevents duplicates in resources;
+- a display table(optional) that replaces Usercube's default table displaying the data of the created/modified resource.
 
 ### Technical principles
 
@@ -104,7 +104,7 @@ An [aspect](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-
 
 ## Summaries (Optional)
 
-A summary can be displayed at the end of a workflow to sum up the collected information. The displayed data is configured through the ```SummaryControl``` or ```RecordSummaryControl``` introduced [previously](#previously). A summary is particularly useful for workflows that compute properties like the ```EmployeeId``` or the email address. Thus calculated fields can be displayed after the workflow's execution.
+A summary can be displayed at the end of a workflow to sum up the collected information. The displayed data is configured through the ```SummaryControl``` or ```RecordSummaryControl``` introduced previously. A summary is particularly useful for workflows that compute properties like the ```EmployeeId``` or the email address. Thus calculated fields can be displayed after the workflow's execution.
 
 ## Homonym Detections (Optional)
 

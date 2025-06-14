@@ -10,7 +10,7 @@ Here you will learn how to define scalar properties, which contain scalar values
 >
 > ![Scalar Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarex_v600.png)
 
-Most often, properties inside Usercube are each linked to a property from the managed system. This way, data from the managed system can be imported into Usercube and stored in the corresponding property. These properties are mapped from the source ([see step 2](#see-step-2)).
+Most often, properties inside Usercube are each linked to a property from the managed system. This way, data from the managed system can be imported into Usercube and stored in the corresponding property. These properties are mapped from the source (see step 2).
   
 If the property to be created does not exist in the external source, it is impossible to map the property, but it can still be created with __+ Add a scalar property__.
   

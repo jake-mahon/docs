@@ -52,7 +52,7 @@ Create a risk by proceeding as follows:
    - [```Exemption Policy```](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#exemption-policy)
    - [```Type```](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#type)
    - ```Level```: risk level that is used to compute [risk scores](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#risk-scores).
-   - ```Rules```: a risk is based on the union of [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#rules), themselves based on the intersection of rule items. A rule item specifies the risk-triggering resource(s). A high-privilege risk must contain at least one rule with one rule item. A segregation-of-duties risk must contain at least two rule items in the same rule. [Read below how to write risk rules](#read-below-how-to-write-risk-rules).
+   - ```Rules```: a risk is based on the union of [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#rules), themselves based on the intersection of rule items. A rule item specifies the risk-triggering resource(s). A high-privilege risk must contain at least one rule with one rule item. A segregation-of-duties risk must contain at least two rule items in the same rule. Read below how to write risk rules.
 
    When risks are based on the exemption policy called __Approval required__, the corresponding role requests appear on the [__Role Review__](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md) screen with a specific workflow state. See below this note.
 
