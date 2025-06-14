@@ -101,7 +101,7 @@ Summary form:
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#workflows-permissions).
+Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
 
 Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole creation request and review from the previously created workflow:
 
@@ -125,7 +125,7 @@ Creating a new resource, an interesting location for this workflow could be the 
 
 ![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.png)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing [menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md#menu-items-list):
+To create a menu item here for the new workflow, you can add the following XML configuration to the existing [menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
 
 ```
 

@@ -22,7 +22,7 @@ This operation should be performed in cooperation with the staff in charge of ma
 
 ## Implement Provisioning Review
 
-Provisioning review is configured for a given resource type. Therefore, you can decide to force the review of provisioning orders when [configuring a resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md#configuring-a-resource-type). You can choose to:
+Provisioning review is configured for a given resource type. Therefore, you can decide to force the review of provisioning orders when [configuring a resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md). You can choose to:
 
 - Set the number of required approvals by a [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md), via the ```Approval Workflow``` option.
 - Enable a technical approval by the application owner, via the ```Block provisioning orders``` option.
@@ -53,11 +53,11 @@ Usercube shows all the properties of the new resource to be created:
 ![Addition Order Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewaddition_v602.png)
 
 - ```Proposed Value```: value proposed by Usercube.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
-- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md): describes the origin or approval state of an assignment.
+- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an addition order by proceeding as follows:
 
@@ -78,18 +78,18 @@ Handle an addition order by proceeding as follows:
 
 ### Handle an association order
 
-Usercube displays a given owner and a given resource to be associated with a given [confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md#confidence-rate) and all resource properties to be verified:
+Usercube displays a given owner and a given resource to be associated with a given [confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md) and all resource properties to be verified:
 
 ![Association Order Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewassociation_v602.png)
 
-- ```Confidence rate of proposed resource```: rate expressing the confidence in this [correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md#correlation).
+- ```Confidence rate of proposed resource```: rate expressing the confidence in this [correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
 - ```Proposed Value```: value proposed by Usercube.
 - ```Current Value```: value currently in the managed system.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
-- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md): describes the origin or approval state of an assignment.
+- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an association order by proceeding as follows:
 
@@ -118,11 +118,11 @@ Usercube shows a given resource and all resource properties to be verified:
 
 - ```Proposed Value```: value proposed by Usercube.
 - ```Current Value```: value currently in the managed system.
-- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state)
+- [```Provisioning State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - ```Start Date```: date for the beginning of the property value existence.
 - ```End Date```: date for the end of the property value existence.
-- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state): describes the origin or approval state of an assignment.
-- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rule).
+- [```Workflow State```](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md): describes the origin or approval state of an assignment.
+- ```Confidence Rate```: rate expressing the confidence in the corresponding [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an update order by proceeding as follows:
 
@@ -181,6 +181,6 @@ In order to verify the process:
 4. Click on __Jobs__ > __Fulfill__ on the corresponding connector's overview page, in the __Resource Types__ frame, to execute the provisioning orders.
 
    ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
-5. The orders using automated provisioning should be [automatically handled](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md#automatically-handled) with their state switching to ```Executed```, while those using manual provisioning should appear on the [__Manual Provisioning__](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md) page with their state switching to ```Transmitted```.
+5. The orders using automated provisioning should be [automatically handled](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md) with their state switching to ```Executed```, while those using manual provisioning should appear on the [__Manual Provisioning__](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md) page with their state switching to ```Transmitted```.
 
 ![Home Page - Manual Provisioning](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.png)

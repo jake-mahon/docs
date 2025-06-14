@@ -313,7 +313,7 @@ The permission's recipient will receive a notification email.
 In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
   
 For example, the permission ```/ProvisioningPolicy/PerformManualProvisioning/Directory_User``` allows a profile to perform manual provisioning with ```Directory_User``` as the source entity type, and receive the corresponding notifications. On the contrary, the permission ```/ProvisioningPolicy/PerformManualProvisioning/``` allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
-Each permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#access-control-entry) so that the corresponding notification is disabled.
+Each permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) so that the corresponding notification is disabled.
 
 ### /Custom/ProvisioningPolicy/ReviewRoles/`{entityType_identifier}`
 
@@ -324,7 +324,7 @@ The permission's recipient will receive a notification email.
 In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
   
 For example, the permission ```/ProvisioningPolicy/PerformManualProvisioning/Directory_User``` allows a profile to perform manual provisioning with ```Directory_User``` as the source entity type, and receive the corresponding notifications. On the contrary, the permission ```/ProvisioningPolicy/PerformManualProvisioning/``` allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.  
-Each permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#access-control-entry) so that the corresponding notification is disabled.
+Each permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) so that the corresponding notification is disabled.
 
 ### /Custom/Reports/`{reportQuery_identifier}`
 

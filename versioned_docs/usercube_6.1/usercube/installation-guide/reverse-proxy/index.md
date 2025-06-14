@@ -34,8 +34,8 @@ Nginx offers several [load balancing methods](https://docs.nginx.com/nginx/admin
 
 Then, in order for servers to be able to properly schedule and coordinate synchronization and provisioning, the following file locations must be shared by all Usercube servers:
 
-- [TempFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#tempfolderpath)
-- [WorkFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#workfolderpath)
+- [TempFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+- [WorkFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 
 All Usercube servers also share a database.
 

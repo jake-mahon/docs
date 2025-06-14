@@ -133,7 +133,7 @@ The entity type's page can be [configured via XML](/versioned_docs/usercube_6.1/
 
 ![Owner / Resource Type Column](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/correlation_test_v522.png)
 
-A knowledgeable person must analyze a few samples to ensure that resources' owners can all [be justified](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md#be-justified), meaning that orphaned accounts are supposed to be so, and that correlated resources are matched with the right owner.
+A knowledgeable person must analyze a few samples to ensure that resources' owners can all [be justified](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md), meaning that orphaned accounts are supposed to be so, and that correlated resources are matched with the right owner.
 
 Another possibility of correlation validation is to compare the number of AD accounts to the number of users. However, keep in mind that several accounts are sometimes assigned to a single user.
 

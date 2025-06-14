@@ -46,10 +46,10 @@ sqlcmd -S <ComputerName>\<InstanceName> -d Usercube<Organization_name> -i <Userc
 
 ## What's Next?
 
-The [next step](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md) will consist in:
+The [next step](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md) will consist in:
 
 - Setting up the Usercube Server as an IIS website.
 - Creating a custom service account.
 - Granting the necessary database permissions for this account.
 
-It will also show how to [test the Usercube Database connection](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#test-the-usercube-database-connection).
+It will also show how to [test the Usercube Database connection](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).

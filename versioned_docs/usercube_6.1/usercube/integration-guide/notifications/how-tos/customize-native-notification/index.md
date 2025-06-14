@@ -4,7 +4,7 @@ This guide shows how to set a template other than the default one for native not
 
 ## Overview
 
-Usercube natively sends notifications for usual cases. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/notifications/native/index.md#see-more-details).
+Usercube natively sends notifications for usual cases. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/notifications/native/index.md).
 
 These native notifications are based on cshtml templates available inside the ```Runtime``` folder. If the provided templates do not meet your exact needs, then they can be replaced by personalized templates.
 
@@ -12,7 +12,7 @@ These native notifications are based on cshtml templates available inside the ``
 
 Customize a native notification by proceeding as follows:
 
-1. Among the [list of all native notifications](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md#list-of-all-native-notifications), get the identifier of the notification whose templates are to be replaced.
+1. Among the [list of all native notifications](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md), get the identifier of the notification whose templates are to be replaced.
 
    > For example, to customize the notification for one-way password reset: ```OneWayPasswordReset```.
 2. In ```Runtime/NotificationTemplates```, copy to the configuration folder the cshtml template(s) associated to the notification that need to be overridden.

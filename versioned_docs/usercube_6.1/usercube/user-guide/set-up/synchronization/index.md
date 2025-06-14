@@ -28,13 +28,13 @@ The [```Prepare Synchronization``` task](/versioned_docs/usercube_6.1/usercube/i
 
 The [```Synchronize``` task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) loads data into Usercube's database.
 
-[__Read more about the synchronization process__](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#__read-more-about-the-synchronization-process__).
+[__Read more about the synchronization process__](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md).
 
 ### Prerequisites
 
 #### Extracted data must have keys
 
-Every extracted resource must have an attribute that serves as a primary key so that Usercube can uniquely identify the resource to be added/updated/deleted during synchronization. You must have defined keys during [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#entity-type-creation).
+Every extracted resource must have an attribute that serves as a primary key so that Usercube can uniquely identify the resource to be added/updated/deleted during synchronization. You must have defined keys during [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 #### Extractions must not be modified before synchronization
 
@@ -50,7 +50,7 @@ Thresholds are essential safety guards that control all changes, for example pre
 
 Once the changes have been reviewed, the blocked job can be resumed (or not).
 
-Thresholds are configured with default values using the following [```Connector``` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md#connector-attributes):
+Thresholds are configured with default values using the following [```Connector``` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md):
   
 - ```MaximumDeletedLines```, ```MaximumInsertedLines``` and ```MaximumUpdatedLines``` for scalar properties;
   
@@ -77,7 +77,7 @@ Launch synchronization for a given managed system by proceeding as follows:
    ![Home - Connectors](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
 2. On the relevant connector page, in the __Entity Types__ frame, click on __Jobs__.
 
-   Here are all the tasks available for synchronization. They synchronize all connections and entity types for only this connector. It is possible to launch them individually in order to test them and debug a situation, or all together with __All Tasks__. According to the created [connection(s) and package(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md), all these tasks can be launched either in [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md#incremental-or-complete) mode.
+   Here are all the tasks available for synchronization. They synchronize all connections and entity types for only this connector. It is possible to launch them individually in order to test them and debug a situation, or all together with __All Tasks__. According to the created [connection(s) and package(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md), all these tasks can be launched either in [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) mode.
 
    ![Synchronize Job](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.png)
 
@@ -140,7 +140,7 @@ In order to verify both the synchronization configuration and [entity types](/ve
    >
    > ![SAB Example - Resource Attributes](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_examplesab3_v602.png)
    >
-   > Clicking on any eye icon displays the corresponding resource. SAB was created here with a simple [user-group schema](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md#user-group-schema) that links n users to n groups. So here, we can check these links by navigating from a given user to one of their groups, to one of said group's users, to one of said user's groups, etc.
+   > Clicking on any eye icon displays the corresponding resource. SAB was created here with a simple [user-group schema](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) that links n users to n groups. So here, we can check these links by navigating from a given user to one of their groups, to one of said group's users, to one of said user's groups, etc.
 
 ## Troubleshooting
 
@@ -154,11 +154,11 @@ Don't hesitate to launch synchronization-related tasks individually and observe 
 
 ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
 
-Access the relevant connector's page and click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__reload__) button to take into account the last changes in the entity type mappings.
+Access the relevant connector's page and click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) button to take into account the last changes in the entity type mappings.
 
 #### If a newly added property doesn't appear in users' data, then�
 
-Access the relevant connector's page to click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#__reload__) button to take into account the most recent changes in the entity type mappings.
+Access the relevant connector's page to click on the [__Reload__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) button to take into account the most recent changes in the entity type mappings.
 
 #### If a synchronization is blocked by an exceeded threshold, then�
 

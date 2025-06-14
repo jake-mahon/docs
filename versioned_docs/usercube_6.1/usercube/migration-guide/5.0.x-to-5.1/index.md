@@ -72,7 +72,7 @@ This API no longer exists in version 5.1.
 To launch a Task on the server side you must use either:
 
 - The automaton (by creating a Job and linking the Tasks you want to launch)
-- The [RunTask API](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/job/index.md#runtask-api)
+- The [RunTask API](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/job/index.md)
 
 #### d. Information system appsettings
 

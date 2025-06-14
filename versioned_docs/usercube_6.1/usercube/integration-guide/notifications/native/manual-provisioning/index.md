@@ -16,4 +16,4 @@ In order to receive the notifications, a profile must have the full permission p
   
 For example, the permission ```/ProvisioningPolicy/PerformManualProvisioning/Directory_User``` allows a profile to perform manual provisioning with ```Directory_User``` as the source entity type, and receive the corresponding notifications. On the contrary, the permission ```/ProvisioningPolicy/PerformManualProvisioning/``` allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.
 
-The permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#access-control-entry) so that notifications are disabled.
+The permission can be configured in an [access control entry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) so that notifications are disabled.

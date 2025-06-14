@@ -43,9 +43,9 @@ A package is chosen according to the following constraints:
 - What kind of technologies do we need?
 
   > An Active Directory, a plain CSV file, etc.
-- Do we need [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md#incremental-or-complete)[synchronizations](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md), or both?
+- Do we need [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)[synchronizations](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md), or both?
 
-  [Incremental synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#incremental-synchronizations), usually launched approximatively every two hours, are to be performed for real-time needs, while [complete synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md#complete-synchronizations), scheduled no more than once a day, will recover any changes that may have slipped through the cracks of the incremental synchronizations.
+  [Incremental synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md), usually launched approximatively every two hours, are to be performed for real-time needs, while [complete synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md), scheduled no more than once a day, will recover any changes that may have slipped through the cracks of the incremental synchronizations.
 - Do we need [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)? If so, should provisioning be performed manually or automatically by Usercube?
 
 NETWRIX recommends starting by creating a connector that only does synchronization, and do not worry yet about provisioning. It allows Usercube to read data from your managed system, without writing to the system.
@@ -92,7 +92,7 @@ In order to verify the process:
 
    ![Check Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.png)
 
-   Some connectors have both [incremental and complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md#incremental-and-complete) setting modes. They are relatively independent so they both need to be tested.
+   Some connectors have both [incremental and complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) setting modes. They are relatively independent so they both need to be tested.
 2. check that the connection appears in the __Connections__ frame with the right options, and without the Failed icon.
 
 ![Decline Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)

@@ -21,7 +21,7 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
 
 ## Add connection information to AD Connect
 
-In the [Connection Information](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md#connection-information) define this section to add all information to use the AD Fulfillment.
+In the [Connection Information](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md) define this section to add all information to use the AD Fulfillment.
 
 ```
 appsettings.agent.json

@@ -34,7 +34,7 @@ Create an access certification campaign by proceeding as follows:
    - ```Start Date```: date for the campaign beginning and display on the reviewers' __Access Certification__ screen. The access reviewed during the campaign are those existing at the start date. Any change in the permissions after the start date won't be reviewed in the campaign.
    - ```End Date```: date for the campaign deadline.
    - ```Target Entity Type```: entity type targeted by the campaign.
-   - ```Target Reviewers```: set of identities in charge of the access review. Available target reviewers are configured via [certification policies](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md#certification-policies).
+   - ```Target Reviewers```: set of identities in charge of the access review. Available target reviewers are configured via [certification policies](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
    - ```Target Specificities```: [data filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md) that specify the campaign scope, i.e. the permissions to include by object type, category, approval state, etc. A campaign is based on the union of all specificities. See the detailed fields below.
 
      ![Target Specificities](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetspecificities_v602.png)
@@ -60,7 +60,7 @@ Create an access certification campaign by proceeding as follows:
 3. Click on __Create__ and see a line added on the campaigns page.
 
    ![Campaigns Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newlycreated_v603.png)
-4. Apply the changes by clicking on __Launch__, thus running the [access certification job](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md#access-certification-job).
+4. Apply the changes by clicking on __Launch__, thus running the [access certification job](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
 
    This job's logs are accessible from the __Job Results__ button.
 

@@ -65,7 +65,7 @@ As stated previously, both classification and correlation work through sets of r
 > | --- | --- |
 > | all accounts from OU=Administrators | 1. sAMAccountName = "A" + user's employee id   A28022 = A + 28022   2. displayName = "ADM" + user's last name + user's first name   ADM Colin Jean = ADM + Colin + Jean |
 
-Sometimes you may not know if your rules are always going to apply. Therefore, each rule expresses a certain level of confidence. Usercube will establish a priority order between rules based on the confidence rate, and will also act differently depending on whether the confidence rate is above or below 100%. [Find more details](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md#find-more-details).
+Sometimes you may not know if your rules are always going to apply. Therefore, each rule expresses a certain level of confidence. Usercube will establish a priority order between rules based on the confidence rate, and will also act differently depending on whether the confidence rate is above or below 100%. [Find more details](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
 
 A resource type can have zero correlation rules, since accounts can be without owners. But a resource type with neither correlation nor classification rules serves no purpose.
 

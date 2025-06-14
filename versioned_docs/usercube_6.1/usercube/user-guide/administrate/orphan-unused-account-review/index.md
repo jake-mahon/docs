@@ -18,7 +18,7 @@ These entity type pages can be [configured via XML](/versioned_docs/usercube_6.1
 
 In the ```Orphan``` field, select ```Yes``` to see all existing resources without an owner.
 
-In addition, filters can be configured in the [reporting module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#reporting-module) to list orphaned accounts. Choose to display ```User``` and ```AD User (nominative)``` with a filter on void user's display names.
+In addition, filters can be configured in the [reporting module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) to list orphaned accounts. Choose to display ```User``` and ```AD User (nominative)``` with a filter on void user's display names.
 
 The orphaned accounts detected by Usercube are not all legitimate. Some accounts are considered orphaned because of an error in the account data or assignment rule.
 
@@ -51,7 +51,7 @@ The way to identify activity in a managed system is highly dependent on said sys
 >
 > ```
 
-Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the filters in the [query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#query-module), based on said property.
+Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the filters in the [query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md), based on said property.
 
 > The previous example about the AD's ```isUnused``` property can be complemented in the query module by displaying this property alongside users' ```EmployeeId```.
 >

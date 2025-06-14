@@ -12,7 +12,7 @@ First, NETWRIX recommends reading:
 
 Every key from [```appsettings.agent.json```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) that has a string value can be saved as a secret into Azure Key Vault.
 
-See examples in [connectors' credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md#connectors-credential-protection) sections.
+See examples in [connectors' credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) sections.
 
 ## Write Settings to the Vault
 

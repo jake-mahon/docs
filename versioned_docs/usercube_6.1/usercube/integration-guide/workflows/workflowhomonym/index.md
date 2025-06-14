@@ -25,7 +25,7 @@ See section below.
 
 ### With customized filters
 
-[Homonym entity link filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md#homonym-entity-link-filters) allow to define customized filters for a homonym detection.
+[Homonym entity link filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md) allow to define customized filters for a homonym detection.
 
 #### Simple filter
 
@@ -138,7 +138,7 @@ The [form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-c
 - the bindings are all represented in the homonym filters.
 
 When the homonym entity link has no filter set and therefore the filter is calculated automatically, the homonym control form must only contain up to 5 controls where ```Binding``` attribute is defined.
-Indeed, a filter can only be defined on up to 5 properties, see [filter definition](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md#filter-definition).
+Indeed, a filter can only be defined on up to 5 properties, see [filter definition](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
 ```
 <Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">

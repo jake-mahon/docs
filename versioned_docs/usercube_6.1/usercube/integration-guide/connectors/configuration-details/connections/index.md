@@ -4,7 +4,7 @@ This page gathers useful information concerning the possible uses of connections
 
 ## Connection Configuration
 
-A connector needs at least one [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be declared both in the XML configuration and in the [```appsettings.agent.json```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#appsettingsagentjson) file to be used. The connection settings must be set in ```appsettings.agent.json``` > ```Connections``` > ```<connectionIdentifier>```, where ```<connectionIdentifier>``` is the identifier specified for the connection in the XML configuration.
+A connector needs at least one [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be declared both in the XML configuration and in the [```appsettings.agent.json```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file to be used. The connection settings must be set in ```appsettings.agent.json``` > ```Connections``` > ```<connectionIdentifier>```, where ```<connectionIdentifier>``` is the identifier specified for the connection in the XML configuration.
 
 [See more details about the XML configuration of a connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
 

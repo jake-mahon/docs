@@ -13,7 +13,7 @@ Runs Job.
 | Name | Description | Required | Type | Reference |
 | --- | --- | --- | --- | --- |
 | id | Identifier of the Job to run automaton. | True |  |  |
-| jobLogLevel | Override the serilog LogLevel. | False |  | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#loglevel) |
+| jobLogLevel | Override the serilog LogLevel. | False |  | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md) |
 | api-version | The requested API version | True |  |  |
 
 ##### Responses:

@@ -42,7 +42,7 @@ Mass update identity data (in complete mode) by proceeding as follows:
 8. Click on __Save & Close__.
 9. Back on the connector's page, [launch synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
 
-   Be cautious about [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#thresholds).
+   Be cautious about [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Update Data in Incremental Mode
 
@@ -63,7 +63,7 @@ Mass update identity data (in incremental mode) by proceeding as follows:
      Attributes can be emptied using the value ```NULL_NULL```.
    - ```Delete``` to remove attributes from the datamodel;
 
-     Instead of using ```Delete```, you can [scan the data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md#scan-the-data-model) to exclude unused attributes.
+     Instead of using ```Delete```, you can [scan the data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) to exclude unused attributes.
    - ```Merge``` to input an identity's data and modify the corresponding attributes if said identity already exists, create a new identity otherwise.
    > For example, if a few users switch working sites, then the modification is performed by filling the file only with said users' identifiers and new sites. Fill the column ```Command``` with ```Modify```. The rest will not be changed.
 5. Ensure that the field ```Path (Incremental mode)``` is filled with the path of the source file.
@@ -76,7 +76,7 @@ Mass update identity data (in incremental mode) by proceeding as follows:
 8. Click on __Save & Close__.
 9. Back on the connector's page, [launch synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
 
-   Be cautious about [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#thresholds).
+   Be cautious about [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Verify Data Update
 
@@ -91,5 +91,5 @@ In order to verify the process:
 
   ![List of Departments](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
 
-  If the system contains many organizations, then it is also possible to list them with their managers through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#query-module).
+  If the system contains many organizations, then it is also possible to list them with their managers through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
 - [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with indicators on the workers number per type or per organization for example (through Usercube' predefined reports, the Query module or Power BI), in order to ensure that Usercube's content sticks to reality.

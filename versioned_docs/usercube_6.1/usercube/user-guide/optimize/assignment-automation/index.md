@@ -101,7 +101,7 @@ The process of assignment automation is the following:
    NETWRIX recommends trying Role Mining with __1%__ tolerated false positives, and __99.5%__ expected precision. Then adapt to your situation according to the reports.
      
    For example, suppose an organization working with many distinct departments. If you see that the automation rate skyrockets when the error rate reaches the number of workers in one department, then it probably means that Usercube misses data concerning one of the departments. Thus the error rate allows Usercube to "ignore" one of the departments in the organization, and optimize automation.
-2. Generate and analyze [reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with tools like [Power BI](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#power-bi) to assess the automation wall and identify improvement areas.
+2. Generate and analyze [reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with tools like [Power BI](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) to assess the automation wall and identify improvement areas.
 
    > For example in the following Power BI chart, automation is, on average, highly implemented except for ```SharePoint Projects```. This fact reveals a low level of awareness among the workers about their respective projects. This is a typical area for improvement in data quality.
    >

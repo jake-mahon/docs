@@ -68,7 +68,7 @@ Define your connector model by proceeding as follows:
 1. Use the advice and examples given about each model template to find the template that most closely matches your use case.
 2. Adapt the template to the reality of your managed system by renaming and adjusting the model's objects.
 3. Define your [useful data](#useful-data), and thus the attributes of each object according to the reality of the data in your managed system.
-4. Ensure that all objects have at least one attribute that can serve as a key to be uniquely identified within Usercube. You will get more details about keys during [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#entity-type-creation).
+4. Ensure that all objects have at least one attribute that can serve as a key to be uniquely identified within Usercube. You will get more details about keys during [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 5. Ensure the following guidelines' enforcement:
 
    __Keep it simple__
@@ -114,7 +114,7 @@ Thus you need to create one entity type to represent either accounts or other re
 
 Each entity type needs to be shaped with properties, chosen according to the data useful for entitlement assignment.
 
-The only sensitive and required properties are the [keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#keys) and the property holding entitlements. It means that:
+The only sensitive and required properties are the [keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) and the property holding entitlements. It means that:
 
 - if entitlements are managed by resource, then the entity type representing resources must have an attribute (scalar property) containing the list of authorized accounts;
 - if entitlements are managed by account, then the entity type representing accounts must have an attribute (scalar property) containing the list of authorized resources.
@@ -199,7 +199,7 @@ Many of the managed systems following this model, just like the User model, dist
   
 In further steps, you will be able to define one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per account type and map each one to a [role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) for assignment and [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
   
-__Roles:__ During the [creation of the role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) in the next steps, for this connector you can build roles based on the group-membership system represented by users and profiles. Thus you will create [navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md#navigation-rules) to represent the link between users and profiles.
+__Roles:__ During the [creation of the role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) in the next steps, for this connector you can build roles based on the group-membership system represented by users and profiles. Thus you will create [navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) to represent the link between users and profiles.
 
 #### Example - SDGE
 

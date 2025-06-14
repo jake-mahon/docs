@@ -23,7 +23,7 @@ In this case, when a role is assigned in the managed system without an existing 
 As roles and navigation properties are technically bonded together, their reviews are linked too:
 
 - If the role is reviewed (approved/declined), then the corresponding property is automatically reconciled accordingly.
-- If the property is reviewed (approved/declined), then the corresponding role is automatically reviewed too, its [workflow state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#workflow-state) transitioned to ```Manual``` (if approved) or ```Cancellation``` (if declined, then a deprovisioning order is sent).
+- If the property is reviewed (approved/declined), then the corresponding role is automatically reviewed too, its [workflow state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) transitioned to ```Manual``` (if approved) or ```Cancellation``` (if declined, then a deprovisioning order is sent).
 
 > So let's say we add ```C�dric Blanc``` to the list of members of the SAP groups ```SG_APP_SAP_1``` and ```SG_APP_SAP_211```. Then, after the next synchronization, Usercube displays one item for each role on the __Role Reconciliation__ screen, and one item for all changes in the AD account on the __Resource Reconciliation__ screen:
 >

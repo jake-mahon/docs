@@ -30,7 +30,7 @@ Create the entity type by proceeding as follows:
 
    > Let's use the example of an AD connector. We create an entity type ```AD - Entry``` to gather the valuable information from the AD, i.e. all the AD entries (groups and accounts) which we want to classify, with the properties that are useful for assignment management.
    >
-   > The AD connector uses as a source ```Connection Active Directory - entries```. Its structure was retrieved when we [refreshed the schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#refreshed-the-schemas) of the ```Active Directory``` connection, thus retrieving the attributes from the Active Directory and storing them temporarily on the agent side, inside CSV files.
+   > The AD connector uses as a source ```Connection Active Directory - entries```. Its structure was retrieved when we [refreshed the schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) of the ```Active Directory``` connection, thus retrieving the attributes from the Active Directory and storing them temporarily on the agent side, inside CSV files.
 
 ## Next Steps
 
@@ -44,13 +44,13 @@ To continue, [define at least one scalar property](/versioned_docs/usercube_6.1/
 
 Ensure that there are existing connections:
 
-- if this is the case, then click on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__refresh-all-schemas__) on the connector page, and verify that there is no error.
+- if this is the case, then click on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) on the connector page, and verify that there is no error.
 - if not, then you must [create at least one connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
 
 #### If there is a message stating to refresh the connection's schema, then�
 
 ![No Connection Table Error](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.png)
 
-Start by making sure that the connection's schema is refreshed by clicking on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#__refresh-all-schemas__) on the connector page, and verify that there is no error.
+Start by making sure that the connection's schema is refreshed by clicking on [__Refresh all schemas__](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) on the connector page, and verify that there is no error.
 
 If the message is still displayed, then it means that the previously selected connection table no longer exists in the managed system. In this case, either the table's name simply changed, or the table is not relevant anymore. Then you should find a relevant table in the __Source__ dropdown list.

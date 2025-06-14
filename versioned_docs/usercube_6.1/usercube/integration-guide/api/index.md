@@ -4,7 +4,7 @@ Agent and server expose a REST API.
 
 ## OpenAPI Definition
 
-This feature is optional and must be activated by the [Swagger settings section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#swagger-settings-section)
+This feature is optional and must be activated by the [Swagger settings section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 
 The page ```[Usercube application's URL]/swagger``` can be used to explore and test the API.
 

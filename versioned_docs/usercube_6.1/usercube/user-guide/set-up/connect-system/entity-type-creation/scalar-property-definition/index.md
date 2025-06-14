@@ -68,7 +68,7 @@ Define the entity type's scalar properties by proceeding as follows:
      > For example, ```isUnused``` is created to spot unused accounts via a combination of ```accountExpires``` and ```lastLogonTimestamp```:
      >
      > ![Advanced Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.png)
-   - ```Flexible Comparison Expression```: expression that inserts adaptable [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#comparison-flexibility) when using a searchbar for the property.
+   - ```Flexible Comparison Expression```: expression that inserts adaptable [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) when using a searchbar for the property.
    - ```History Precision```: time period over which Usercube historically records only one value.
 
      > For example, the ```lastLogonTimestamp``` property of an AD resource is modified every time the user connects to the application. Every modification triggers the historization of all properties for said resource inside the database. Hence, the database can quickly become full of data. In order to lighten the database, we can set the ```History Precision``` option to one week (10080 minutes) so that resources are historized once a week at most (concerning changes on ```lastLogonTimestamp```). In the meantime, in case of a change, instead of historizing resources with all their properties, only ```lastLogonTimestamp``` is updated with the new value.

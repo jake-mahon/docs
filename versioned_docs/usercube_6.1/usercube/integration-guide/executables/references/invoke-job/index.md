@@ -10,7 +10,7 @@ The [Usercube-Invoke-Job.exe](/versioned_docs/usercube_6.1/usercube/integration-
 
 When a job is launched, the state machine starts by computing all the tasks that must be launched in the job.
 
-Each task is assigned a launch order which can be [configured in job steps](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md#configured-in-job-steps). All the job's tasks are grouped together according to their launch order, and they are launched by group. Such task grouping allows the job to be faster executed.
+Each task is assigned a launch order which can be [configured in job steps](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md). All the job's tasks are grouped together according to their launch order, and they are launched by group. Such task grouping allows the job to be faster executed.
 
 The launch orders of all the tasks of a job can be listed by using the [```Usercube-Get-JobSteps```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/get-jobsteps/index.md) executable.
 

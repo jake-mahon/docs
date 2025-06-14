@@ -6,7 +6,7 @@ Thresholds are by default activated to warn users when synchronization or provis
 
 Thresholds can be deactivated via the value ```0```, though __they should not all be__. Each action must be "guarded" by at least one threshold.
 
-Once the changes have been reviewed, [the blocked job can be resumed](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#the-blocked-job-can-be-resumed) (or not).
+Once the changes have been reviewed, [the blocked job can be resumed](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) (or not).
 
 ## Thresholds for Provisioning
 

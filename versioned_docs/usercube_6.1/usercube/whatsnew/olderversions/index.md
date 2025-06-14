@@ -49,7 +49,7 @@ Release date 12-Sep-2022
 #### Enhancements:
 
 - Connectors and Integrations
-  - Some systems using the LDAP protocol require some attributes for creation and/or update requests. If these attributes are not synchronized in Usercube, they cannot be provided by scalar rules or navigation rules. Now, these attributes can be given as arguments in the provisioning order, using the ResourceType's ArgumentsExpression. See the [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md#documentation).
+  - Some systems using the LDAP protocol require some attributes for creation and/or update requests. If these attributes are not synchronized in Usercube, they cannot be provided by scalar rules or navigation rules. Now, these attributes can be given as arguments in the provisioning order, using the ResourceType's ArgumentsExpression. See the [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md).
   - For the PowerBI integration, a new configuration parameter permits choosing between showing the identifier or the display name for columns in PowerBI. After the changing the parameter and deploying the configuration, the PowerBI cache must be fully emptied.
 - Jobs and Policy
   - The configuration deployment tool now throws an error if two different tasks use the same identifier. (To add the same task to more than one job the ```step``` tag can be used.)
@@ -224,7 +224,7 @@ For licensing reasons, the Oracle and MySQL dlls have been removed from the Runt
 - Jobs and Policy
   - When a job is blocked due to exceeding a synchronization threshold, a "Synchronization Changes" tab is displayed on the job detail page and entity types can be selected to see all changed resources
     ![DepassedThresholdCounters](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.depassedthresholdcounters.png)![DepassedThresholdChanges](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.depassedthresholdchanges.png)
-  - Integrated a new "Literal" expression option, reducing the need for C# code for simple cases. The "Literal" expression is available for ResourceScalarRule expressions, ResourceQueryRule source expressions and EntityPropertyExpression expressions for creation and update. See the [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#documentation) for more information.
+  - Integrated a new "Literal" expression option, reducing the need for C# code for simple cases. The "Literal" expression is available for ResourceScalarRule expressions, ResourceQueryRule source expressions and EntityPropertyExpression expressions for creation and update. See the [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) for more information.
   - The role model simulation has been redesigned and has more fonctionality.
     ![SimulationAddDelete](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.simulationadddelete.png)![SimulationResults](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.simulationresults.png)
   - Resource Types have a new option, "Depends On" which assures that resource types are created in the correct order. For example, an Exchange Account would be created after the Active Directory account.

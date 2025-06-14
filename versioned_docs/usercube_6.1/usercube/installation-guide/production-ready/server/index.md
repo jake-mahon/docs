@@ -6,11 +6,11 @@ Please make sure that the [server requirements](/versioned_docs/usercube_6.1/use
 
 ## Server Working Directory
 
-In [Create a Working Directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), the server executable has been extracted to the [working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md#working-directory) as ```Usercube-Server.exe``` and ```Usercube-Server.dll``` and will enable a user or IIS to run the Usercube Server.
+In [Create a Working Directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), the server executable has been extracted to the [working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md) as ```Usercube-Server.exe``` and ```Usercube-Server.dll``` and will enable a user or IIS to run the Usercube Server.
 
 ## Set up the License Key
 
-The license key provided by Usercube must be set up in the [appsetting.json > License](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingjson-license) attribute.
+The license key provided by Usercube must be set up in the [appsetting.json > License](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) attribute.
 
 ## Create an IIS Website
 
@@ -62,7 +62,7 @@ You need to install the [dotnet hosting bundle](https://dotnet.microsoft.com/en-
 
 ## Select a Server Identity
 
-The Usercube Server, through the IIS Website, should be assigned a [service account with the relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#service-account-with-the-relevant-permissions).
+The Usercube Server, through the IIS Website, should be assigned a [service account with the relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md).
 
 ### Create the service account
 
@@ -147,14 +147,14 @@ Usercube Server now has the required permissions to access the database.
 
 ### Set the working directory permissions
 
-The Usercube Server needs [specific permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#specific-permissions) on the working directory to run, read synchronization output, and write provisioning orders.
+The Usercube Server needs [specific permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md) on the working directory to run, read synchronization output, and write provisioning orders.
 
 Up to four folders have to be considered:
 
 - The [working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)
-- The [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md#runtime) directory, usually ```C:/Usercube<Organization>/Runtime```
-- The [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#data-collection) directory, usually ```C:/Usercube<Organization>/Temp```
-- The [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#provisioning-orders) directory, usually ```C:/Usercube<Organization>/Temp``` (same as for the data collection directory).
+- The [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md) directory, usually ```C:/Usercube<Organization>/Runtime```
+- The [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directory, usually ```C:/Usercube<Organization>/Temp```
+- The [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directory, usually ```C:/Usercube<Organization>/Temp``` (same as for the data collection directory).
 
 The following steps can be performed for each of the relevant directories.
 
@@ -179,12 +179,12 @@ The Usercube Server service account that was chosen in the previous step:
   5. Select the newly added user name in the __Group or user names__ panel at the top of the window.
 
      ![Object Names](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
-  6. Check the ```Allow``` column for the [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#relevant-permissions). Check the ```Deny``` column for the others.
+  6. Check the ```Allow``` column for the [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md). Check the ```Deny``` column for the others.
   7. Apply __OK__.
 
 The working directory permissions are all set.
 
-The same steps have to be performed on the [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md#runtime), the [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#data-collection) and the [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#provisioning-orders) directories.
+The same steps have to be performed on the [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), the [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and the [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directories.
 
 ## Encryption and Authentication Key Pairs
 
@@ -223,7 +223,7 @@ This is the key pair used to perform various encryption operations, such as sour
 
 1. Generate a key pair using the OpenSSL method.
 2. Store the key pair as a ```.pfx``` file or use the Windows [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store) (recommended) .
-3. Link the generated certificate to Usercube (see [```appsettings.json > EncryptionCertificate```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#appsettingsjson-encryptioncertificate)).
+3. Link the generated certificate to Usercube (see [```appsettings.json > EncryptionCertificate```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)).
 
 ### Generate and use an identity server key pair
 
@@ -231,7 +231,7 @@ This is the key pair used by the Identity Server for end-user authentication pur
 
 1. Generate a key pair using the OpenSSL method.
 2. Store the key pair as a .```pfx``` file or use the Windows [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store) (recommended).
-3. Link the generated certificate to Usercube (see [```appsettings.json > IdentityServer```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#appsettingsjson-identityserver)).
+3. Link the generated certificate to Usercube (see [```appsettings.json > IdentityServer```](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)).
 
 #### Certificate as a plain file
 
@@ -280,7 +280,7 @@ Now that the Usercube Server has been provided with a service account with the r
 
 The connection between the Server and the Database requires choosing an [authentication method](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md): [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication) or [SQL Server authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#sql-server-authentication). Windows authentication will require the IIS identity to be set to the custom Windows service account used to log in to the Usercube's Windows Server session. SQL authentication will work with both the _built-in_ app pool identity and a custom service account. This authentication method will write the login and password directly in the connection string.
 
-```Runtime/appsettings.json``` is a [technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md) file that enables you to set up the connection between the Server and the Database through the [ConnectionString](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#connectionstring) attribute.
+```Runtime/appsettings.json``` is a [technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md) file that enables you to set up the connection between the Server and the Database through the [ConnectionString](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md) attribute.
 
 The connection string is set up in the ```Runtime/appsettings.json``` configuration file which can be edited with any text editor, such as [Notepad++](https://notepad-plus-plus.org/downloads/).
 
@@ -370,12 +370,11 @@ You need to:
 - Modify the __applicationHost.config__ file to set the _startMode_ of the application pool as _AlwaysRunning_. You also need to set the _preloadEnabled_ of your application set to _true_. It is advised to backup the __applicationHost.config__ file when doing this step to prevent mistakes
 - Double check that the following section is set in your _web.config_ file, in the section _system.webServer_:
 
-                    ```xml
+```xml
 <applicationInitialization doAppInitAfterRestart="true">
   <add initializationPage="/" />
 </applicationInitialization>
 ```
-                
 
 Once done, you need to check that the configured jobs are launched via the Usercube's scheduler without having to manually issue a request on the Usercube Server.
 

@@ -4,7 +4,7 @@ This section identifies hardware and software requirements for Usercube's server
 
 ## License Key
 
-The server requires a [license key](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#license-key) provided by NETWRIX.
+The server requires a [license key](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) provided by NETWRIX.
 
 ## Software
 
@@ -39,18 +39,18 @@ The agent's service account needs specific permissions on the [working directory
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the [```Runtime``` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
-- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path);
-- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path).
+- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
+- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 Other permissions should be denied.
 
-> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#how-to-set-up-directory-permissions-in-windows-server)
+> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
 
 ### Database permissions
 
-If Windows' authentication is used for SQL Server, then the server should be able to authenticate to SQL Server with its assigned service account. It means that the server's service account needs to be assigned an SQL Server login with the relevant [roles](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md#roles), including necessarily either ```sysadmin``` or ```securityadmin```.
+If Windows' authentication is used for SQL Server, then the server should be able to authenticate to SQL Server with its assigned service account. It means that the server's service account needs to be assigned an SQL Server login with the relevant [roles](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md), including necessarily either ```sysadmin``` or ```securityadmin```.
 
-For more information, see the [server installation procedure](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#server-installation-procedure).
+For more information, see the [server installation procedure](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).
 
 ## Hostname and DNS
 
@@ -66,11 +66,11 @@ The server requires the use of an SSL certificate in order to perform HTTPS comm
 
 Usercube SaaS offering comes with an SSL certificate signed by a trusted certificate authority for the ```*.usercube.com``` domains. This certificate allows end-users to access the server through the Internet without any further configuration. Using another domain name for the SaaS installation requires providing NETWRIX with the corresponding SSL certificate signed by a trusted certificate Authority.
 
-Usercube on-premises offering requires the use of an SSL certificate trusted by all the target end-users' browsers. Standard practices use a certificate signed by the target organization's Public Key Infrastructure (PKI) root certificate authority. [The on-premise SSL certificate must be set up in IIS](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#the-on-premise-ssl-certificate-must-be-set-up-in-iis).
+Usercube on-premises offering requires the use of an SSL certificate trusted by all the target end-users' browsers. Standard practices use a certificate signed by the target organization's Public Key Infrastructure (PKI) root certificate authority. [The on-premise SSL certificate must be set up in IIS](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).
 
 ## Emails
 
-The server needs access to an SMTP server to send [email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md#email-notifications).
+The server needs access to an SMTP server to send [email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption and Identity Server Key Pairs
 

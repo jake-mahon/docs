@@ -46,18 +46,18 @@ This operation should be performed in cooperation with HR staff who can access H
 Create an HR connector by proceeding as follows:
 
 1. Outside Usercube, [model your connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md).
-2. [Declare an HR connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md#declare-an-hr-connector) using your local agent.
+2. [Declare an HR connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md) using your local agent.
 
    ![HR Connector Declaration](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.png)
-3. [Create an Export CSV connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#create-an-export-csv-connection) for each HR file to connect.
+3. [Create an Export CSV connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) for each HR file to connect.
 
    ![HR Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.png)
-4. [Create the entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#create-the-entity-types) corresponding to your model. For example:
+4. [Create the entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) corresponding to your model. For example:
 
    ![HR Entity Type - Scalar Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.png)
 
    ![HR Entity Type - Navigation Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.png)
-5. Don't forget to [reload](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#reload) and [synchronize](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) to access HR data within Usercube.
+5. Don't forget to [reload](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) and [synchronize](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) to access HR data within Usercube.
 
    ![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.png)
 

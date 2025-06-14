@@ -24,7 +24,7 @@ Both the Agent and the Server can get their emails delivered through an __extern
 
 ## Usercube Server Emails
 
-The SMTP server used by the Usercube Server is configured in the [Applicative configuration settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#applicative-configuration-settings).
+The SMTP server used by the Usercube Server is configured in the [Applicative configuration settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
 
 Here is an example with an external SMTP server.
 

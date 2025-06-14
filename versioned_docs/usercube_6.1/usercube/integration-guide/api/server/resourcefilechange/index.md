@@ -19,7 +19,7 @@ Returns all the resource file changes according to the provided job instance id.
 | QueryBinding | Defines the query binding. | False |  |  |
 | PageSize | Page size. | False |  |  |
 | ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| changeOperationType | Filter on change operation type. | False |  | [ChangeOperation](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md#changeoperation) |
+| changeOperationType | Filter on change operation type. | False |  | [ChangeOperation](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md) |
 | api-version | The requested API version | True |  |  |
 
 ##### Responses:

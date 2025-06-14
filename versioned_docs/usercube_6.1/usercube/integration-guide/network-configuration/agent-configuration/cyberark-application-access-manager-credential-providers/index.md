@@ -4,7 +4,7 @@ This guide shows how to protect sensitive data by connecting Usercube to CyberAr
 
 ## Data Protection
 
-Usercube often needs to connect to [external systems](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md#external-systems) with credentials that need protection.
+Usercube often needs to connect to [external systems](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) with credentials that need protection.
 
 By default, the data used to connect to external systems is stored in plain text in the __Connections__ section of the ```appsettings.agent.json``` file. This is not a secure option.
 
@@ -43,7 +43,7 @@ The following table sums up which keys from ```appsettings.agent.json```'s __Con
 
 Any [connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the associated value from CyberArk.
 
-> For example, [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md#active-directory) can retrieve: ```Login```; ```Password```; ```Server```.
+> For example, [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md) can retrieve: ```Login```; ```Password```; ```Server```.
 
 ## Set Authorization Details
 

@@ -8,7 +8,7 @@ Like all [agents](/versioned_docs/usercube_6.1/usercube/introduction-guide/archi
 
 Usercube solution can use several agents, each of them manages a given system. This section is about installing the agent managing the production environment.
 
-Once agents are configured in addition to the default one provided by SaaS, you need to think about what agent to choose during each [connector declaration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md#connector-declaration). The appropriate agent has access to the managed system.
+Once agents are configured in addition to the default one provided by SaaS, you need to think about what agent to choose during each [connector declaration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md). The appropriate agent has access to the managed system.
 
 ## Requirements
 

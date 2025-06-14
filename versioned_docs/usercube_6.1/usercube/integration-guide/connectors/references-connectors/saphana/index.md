@@ -138,7 +138,7 @@ Same as for export, fulfill is configured through connections.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 When setting a password for an SAP user, the password attribute is defined by the password specified in the corresponding [```RessourceTypeMapping```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md).
 

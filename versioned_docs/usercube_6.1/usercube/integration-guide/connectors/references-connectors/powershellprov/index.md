@@ -105,7 +105,7 @@ Data protection can be ensured through:
 | Password (optional) | ```Connections--<identifier>--Options--Password``` |
 | PowerShellScriptPath | ```Connections--<identifier>--PowerShellScriptPath``` |
 
-- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md#compatible-with-cyberark).
+- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store the attributes from the ```Options``` section that are [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Usercube from ```appsettings.cyberark.agent.json```.
 

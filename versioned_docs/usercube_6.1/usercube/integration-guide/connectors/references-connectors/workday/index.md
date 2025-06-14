@@ -106,7 +106,7 @@ This connector is meant to generate to the [ExportOutput](/versioned_docs/usercu
 
 - one CSV file for each entity, named `<connectionIdentifier>_<entityName>.csv`, with the following columns:
 
-  - __Command__: used for [PrepareSynchronizationTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md#preparesynchronizationtask);
+  - __Command__: used for [PrepareSynchronizationTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md);
   - one column for each XPath found in the [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).
 
   ```

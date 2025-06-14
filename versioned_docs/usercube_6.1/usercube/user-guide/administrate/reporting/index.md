@@ -14,7 +14,7 @@ A few reporting tools are already available in Usercube, used in other parts of 
 - the list of all requests that you are authorized to see in __Workflow Overview__ accessible from the home page in the __Administration__ section;
 
   ![Home - Workflow Overview](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/home_workflowoverview_v602.png)
-- the [list of orphaned accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md#list-of-orphaned-accounts).
+- the [list of orphaned accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md).
 
   ![Orphaned Account List](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.png)
 
@@ -72,7 +72,7 @@ Create a custom report by proceeding as follows:
 
    ![Fields to Display](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.png)
 
-   In cases where Usercube doesn't display correctly the information you need, you must try to understand the [entity instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md#entity-instances) and [association instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md#association-instances) that constitute the [universe](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) that you are working with. Perhaps the fields that you chose cannot be properly correlated.
+   In cases where Usercube doesn't display correctly the information you need, you must try to understand the [entity instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) and [association instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) that constitute the [universe](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) that you are working with. Perhaps the fields that you chose cannot be properly correlated.
 4. Click on __Filters__, write the appropriate condition and click on __Confirm__.
 
    ![Filters](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/reporting_filters_v602.png)

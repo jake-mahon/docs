@@ -37,7 +37,7 @@ In order to give to the agent the right permissions, the XML configuration must 
 
 Protect agent/server communication by proceeding as follows:
 
-1. Make sure that both the agent and server configurations specify an encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#see-more-details).
+1. Make sure that both the agent and server configurations specify an encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
    > For example:
    >
@@ -53,7 +53,7 @@ Protect agent/server communication by proceeding as follows:
    > }
    > ```
 
-2. Make sure that the agent is also configured with its own encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#see-more-details).
+2. Make sure that the agent is also configured with its own encryption certificate. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
    > For example:
    >

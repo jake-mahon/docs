@@ -44,7 +44,7 @@ If the property to be created does not exist in the external source, it is impos
   
 This can be used to store data needed for assignment management, but which you cannot write to the connected system. Since these properties do not exist in the connected system, they cannot be written or read.
   
-[See the example for scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md#see-the-example-for-scalar-properties).
+[See the example for scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
 
 ## Define the Entity Type's Navigation Properties
 
@@ -111,7 +111,7 @@ Define the entity type's navigation properties by proceeding as follows:
      > For example, the scalar property ```isUnused``` is created to spot unused accounts via a combination of ```accountExpires``` and ```lastLogonTimestamp```:
      >
      > ![Advanced Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.png)
-   - ```Flexible Comparison Expression```: expression that inserts adaptable [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#comparison-flexibility) when using a searchbar for the property.
+   - ```Flexible Comparison Expression```: expression that inserts adaptable [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) when using a searchbar for the property.
    - ```History Precision```: time period over which Usercube historically records only one value.
 
      > For example, the scalar property ```lastLogonTimestamp``` of an AD resource is modified every time the user connects to the application. Every modification triggers the historization of all properties for said resource inside the database. Hence, the database can quickly become full of data. In order to lighten the database, we can set the ```History Precision``` option to one week (10080 minutes) so that resources are historized once a week at most (concerning changes on ```lastLogonTimestamp```). In the meantime, in case of a change, instead of historizing resources with all their properties, only ```lastLogonTimestamp``` is updated with the new value.

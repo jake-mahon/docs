@@ -8,7 +8,7 @@ Profiles are listed on the __Profiles__ screen, from __Settings__ in the __Confi
 
 ![Profiles](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/accesscontrol_profiles_v603.png)
 
-[See more details on profiles' APIs](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/accesscontrol/index.md#see-more-details-on-profiles-apis).
+[See more details on profiles' APIs](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/accesscontrol/index.md).
 
 ## Examples
 

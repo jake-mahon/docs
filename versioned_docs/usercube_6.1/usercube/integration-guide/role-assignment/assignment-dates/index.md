@@ -1,6 +1,6 @@
 # Assignment Dates
 
-Entitlements can be assigned to users [manually or automatically](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#manually-or-automatically), but not on any time period.
+Entitlements can be assigned to users [manually or automatically](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md), but not on any time period.
 
 ## For Manual Assignments
 

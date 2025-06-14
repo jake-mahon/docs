@@ -38,9 +38,9 @@ Review an unauthorized account by proceeding as follows:
 
    ![Select Decision](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_reviewunauthorized_v602.png)
 
-   The displayed confidence rate means that a rule actually assigned the account to the identity, but with a [confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md#confidence-rate) too low to imply full automatic assignment. Approval will be required.
+   The displayed confidence rate means that a rule actually assigned the account to the identity, but with a [confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md) too low to imply full automatic assignment. Approval will be required.
 
-   The __Resource Properties__ frame shows all the properties of the resources. They can be [updated](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md#updated) by clicking on the edit button.
+   The __Resource Properties__ frame shows all the properties of the resources. They can be [updated](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) by clicking on the edit button.
 
    ![Edit Button](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.png)
 6. Select the appropriate decision.

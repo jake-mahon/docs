@@ -1,12 +1,12 @@
 # Compute a Scalar Property
 
-How to define [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalar-rules) to compute and provision the values of scalar properties for target resources based on source resources.
+How to define [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to compute and provision the values of scalar properties for target resources based on source resources.
 
 ## Overview
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
-Here, we are going to compute the values of [scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#scalar-properties) for the target resources used in entitlement management, based on source resources. We are going to [provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the managed system.
+Here, we are going to compute the values of [scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) for the target resources used in entitlement management, based on source resources. We are going to [provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the managed system.
 
 The right tools for the job are scalar rules.
 
@@ -53,7 +53,7 @@ Other than that, there should not be more than one rule meant to provision a giv
 It means that:
 
 - several rules computing the same property with different criteria should not coexist;
-- the only reason to have several rules to compute a single property is when changing the property value over time, via [time offsets](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#time-offsets).
+- the only reason to have several rules to compute a single property is when changing the property value over time, via [time offsets](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 ## Participants and Artifacts
 
@@ -95,8 +95,8 @@ Fill an entity type with a scalar rule by proceeding as follows:
      >
      > For example, consider a system, that we want to connect to Usercube (let's call it ```SYST```) using a ```title``` property. Consider also that ```SYST``` needs to be provisioned with the value of ```title```, but does not allow any other system to retrieve said value.
      >
-     > In this case, we use ```CreateOnly``` so that Usercube sends the adequate provisioning order when needed, and then is able to change the [provisioning state](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md#provisioning-state) to ```Verified``` without [synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
-   - ```Comparison type```: [comparison type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#comparison-type) between the value of the target object computed by the rule and its value from the managed system. Non-conforming values are displayed on the __Provisioning Review__ screen.
+     > In this case, we use ```CreateOnly``` so that Usercube sends the adequate provisioning order when needed, and then is able to change the [provisioning state](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) to ```Verified``` without [synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+   - ```Comparison type```: [comparison type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) between the value of the target object computed by the rule and its value from the managed system. Non-conforming values are displayed on the __Provisioning Review__ screen.
    - __Criteria__: conditions that, if met, trigger the rule application.
    > Our example would look like:
    >

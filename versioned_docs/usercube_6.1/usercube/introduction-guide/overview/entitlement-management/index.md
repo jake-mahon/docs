@@ -39,7 +39,7 @@ Roles alone are not enough to give identities the systems' technical entitlement
 
 ### Provisioning rules
 
-Just like identities, accounts are represented in Usercube by an [entity-relationship model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md#entity-relationship-model). So Usercube manages entitlements as resources' attribute values.
+Just like identities, accounts are represented in Usercube by an [entity-relationship model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md). So Usercube manages entitlements as resources' attribute values.
 
 > For example, giving specific Active Directory permissions to a new user means not only creating a new AD account, but also setting values for certain account properties like ```cn```, ```sAMaccountName```, ```userAccountControl``` or ```dn```, etc.
 

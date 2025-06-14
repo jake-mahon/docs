@@ -20,7 +20,7 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| [Connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#connection) (required)     [Refreshed schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md#refreshed-schemas) (required)     [Connector's data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Entity type |
+| [Connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) (required)     [Refreshed schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) (required)     [Connector's data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Entity type |
 
 ## Create an Entity Type
 
@@ -41,4 +41,4 @@ For some connectors, Usercube provides a template to automatically create a basi
 
 ## Verify the Entity Type
 
-Changes will take effect once you have launched synchronization. Therefore, in order to verify the process, follow the [verification procedure indicated for a synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#verification-procedure-indicated-for-a-synchronization).
+Changes will take effect once you have launched synchronization. Therefore, in order to verify the process, follow the [verification procedure indicated for a synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).

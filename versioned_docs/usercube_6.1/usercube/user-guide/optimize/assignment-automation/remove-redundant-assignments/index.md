@@ -1,6 +1,6 @@
 # Remove Redundant Assignments
 
-How to remove redundant assignments, i.e. [manual](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#manual) assignments of roles and resource types that are assigned by a rule too.
+How to remove redundant assignments, i.e. [manual](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) assignments of roles and resource types that are assigned by a rule too.
 
 ## Overview
 

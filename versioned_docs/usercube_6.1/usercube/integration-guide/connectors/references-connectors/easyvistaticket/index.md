@@ -21,7 +21,7 @@ Implementing this connector requires:
 
 ## Export
 
-This connector exports some of EasyVista entities, [see the export capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md#see-the-export-capabilities-of-the-easyvista-connector). Some entities cannot be exported.
+This connector exports some of EasyVista entities, [see the export capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md). Some entities cannot be exported.
 
 ## Fulfill
 
@@ -29,9 +29,9 @@ This connector writes to EasyVista to create incident and request tickets contai
 
 Once created, the ticket is managed in EasyVista, not in Usercube.
 
-When the ticket is closed or canceled, Usercube updates the [provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md#provisioning-state) of the resource accordingly.
+When the ticket is closed or canceled, Usercube updates the [provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the resource accordingly.
 
-[See the fulfill capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md#see-the-fulfill-capabilities-of-the-easyvista-connector).
+[See the fulfill capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md).
 
 > For example:
 >
@@ -50,7 +50,7 @@ When the ticket is closed or canceled, Usercube updates the [provisioning state]
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ### Credential protection
 

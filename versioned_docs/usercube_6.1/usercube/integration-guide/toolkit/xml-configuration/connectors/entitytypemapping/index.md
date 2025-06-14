@@ -22,7 +22,7 @@ An entity type mapping shares the same identifier as its related entity type.
 
 ## Child Element: Property
 
-Contains all the [entity properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entity-properties) of an [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that can be synchronized into Usercube physical model. Each mapping share the same id as its corresponding property in the entity type.
+Contains all the [entity properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) of an [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that can be synchronized into Usercube physical model. Each mapping share the same id as its corresponding property in the entity type.
 
 ### Properties
 

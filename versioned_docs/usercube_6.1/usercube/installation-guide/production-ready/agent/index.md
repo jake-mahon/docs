@@ -72,7 +72,7 @@ You need to install the [dotnet hosting bundle](https://dotnet.microsoft.com/en-
 
 ## Select an Agent Identity
 
-The agent, through Usercube's server IIS Website, should be assigned a [service account with the relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/agent-requirements/index.md#service-account-with-the-relevant-permissions).
+The Usercube Agent, through the IIS Website, should be assigned a [service account with the relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/agent-requirements/index.md).
 
 You can either:
 
@@ -105,7 +105,7 @@ If you want to use the __built-in application pool identity__ created with the a
 
 If you'd rather use a __custom service account__ created for Usercube's agent, follow the procedure below.
 
-The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Usercube's agent. This can be achieved by following the [same steps as for the server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#create-the-service-account):
+The following implies that a [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts) has already been created for Usercube's agent. This can be achieved by following the [same steps as for the server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md#create-the-service-account):
 
 1. Open the IIS Manager (```INETMGR.MSC```).
 2. Open the __Application Pools__ node underneath the machine node.
@@ -122,14 +122,14 @@ Usercube's server IIS site will now use this identity to access the database and
 
 ### Permissions
 
-Usercube's agent needs [specific permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#specific-permissions) on its __working directory__ to run, write synchronization output and read provisioning orders.
+Usercube's agent needs [specific permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md) on its __working directory__ to run, write synchronization output and read provisioning orders.
 
 Up to four folders have to be considered:
 
 - The [working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)
 - The [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md) directory, usually ```C:/Usercube<Organization>/Runtime```
-- The [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#data-collection) directory, usually ```C:/Usercube<Organization>/Temp```
-- The [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#provisioning-orders) directory, usually ```C:/Usercube<Organization>/Temp``` (same as for the data collection directory).
+- The [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directory, usually ```C:/Usercube<Organization>/Temp```
+- The [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directory, usually ```C:/Usercube<Organization>/Temp``` (same as for the data collection directory).
 
 ### Steps
 
@@ -156,12 +156,12 @@ The agent service account that was chosen in the previous step:
    5. Select the newly added user name in the __Group or user names__ panel at the top of the window.
 
       ![Object Names](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
-   6. Check the ```Allow``` column for the [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#relevant-permissions). Check the ```Deny``` column for the others.
+   6. Check the ```Allow``` column for the [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md). Check the ```Deny``` column for the others.
    7. Apply __OK__.
 
 The working directory permissions are all set.
 
-The same steps have to be performed on the [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md#runtime), the [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#data-collection) and the [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#provisioning-orders) directories.
+The same steps have to be performed on the [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), the [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and the [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) directories.
 
 ## Name the Agent
 
@@ -226,7 +226,7 @@ appsettings.agent.json
 }
 ```
 
-Storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the [Credentials Protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md#credentials-protection) methods.
+Storing sensitive managed system data in configuration files, such as login/password pairs, is strongly discouraged. Sensitive data should be protected by one of the [Credentials Protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) methods.
 
 ## Encryption Key Pair
 
@@ -257,7 +257,7 @@ Public key certificates can also be bought from trusted certificate providers an
 
 The certificate has to be linked to Usercube via ```EncryptionCertificate``` in the ```appsettings.agent.json``` file.
 
-For more information about configuration parameters, see [EncryptionCertificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryptioncertificate).
+For more information about configuration parameters, see [EncryptionCertificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 ### Certificate as a plain file
 
@@ -304,7 +304,7 @@ The connection to Usercube's server is configured through:
 
 __1.__ The ```applicationUri``` attribute in the ```Runtime/appsettings.agent.json``` file has to be set to Usercube's server URL.
 
-__2.__[OpenIdClients](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#openidclients) and [DefaultOpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#defaultopenidclient) must be used to set the agent's credentials to connect to the server.
+__2.__[OpenIdClients](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and [DefaultOpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) must be used to set the agent's credentials to connect to the server.
 
 Their content should be provided by the integration team, in relation to the [_OpenIdClient_ tag](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) in the applicative configuration.
 

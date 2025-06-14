@@ -1,6 +1,6 @@
 # Write a Robot Framework Script
 
-This guide shows how to write a Robot Framework script that will be used by [Fulfill-RobotFramework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#fulfill-robotframework).
+This guide shows how to write a Robot Framework script that will be used by [Fulfill-RobotFramework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md).
 
 ## Structure of a Robot Framework Script
 
@@ -304,7 +304,7 @@ We define all the custom functions which we will use to provision the external s
 - ```Write In CSV```: executes a command to write the line in the CSV file in the external system.
 - ```Write Data```: formats the line to write in the CSV and calls ```Write In CSV``` to write it.
 - ```Write Header```: defines the header to write in the CSV and calls ```Write Data``` to write it.
-- ```Open Telnet Connection```: opens the Telnet connection to the external system using the login and the password defined in the [__Options__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#__options__) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
+- ```Open Telnet Connection```: opens the Telnet connection to the external system using the login and the password defined in the [__Options__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
 
 ```
 
@@ -334,7 +334,7 @@ Open Telnet Connection
 
 ```
 
-The method ```Get Secure Data``` will retrieve the value of the attributes filled in [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md#options) in ```appsettings.agent.json```. This is the method strongly recommended by Usercube. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
+The method ```Get Secure Data``` will retrieve the value of the attributes filled in [Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) in ```appsettings.agent.json```. This is the method strongly recommended by Usercube. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
 
 ### Define mandatory keywords
 

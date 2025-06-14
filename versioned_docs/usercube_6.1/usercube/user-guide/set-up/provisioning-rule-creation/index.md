@@ -1,6 +1,6 @@
 # Create a Provisioning Rule
 
-How to define [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalar-rules), [navigation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#navigation-rules) and/or [query rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#query-rules) to compute and provision target resources values from source resources values.
+How to define [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md), [navigation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and/or [query rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to compute and provision target resources values from source resources values.
 
 ## Overview
 
@@ -8,7 +8,7 @@ How to define [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-g
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
-Here, we are going to compute the values of [scalar and navigation properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md#scalar-and-navigation-properties) for the target resources used in entitlement management, based on source resources. We are going to [provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the managed system.
+Here, we are going to compute the values of [scalar and navigation properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) for the target resources used in entitlement management, based on source resources. We are going to [provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the managed system.
 
 The right tools for the job are provisioning rules: scalar rules, navigation rules, query rules.
 
@@ -20,7 +20,7 @@ These provisioning rules are designed to:
 
 Another kind of provisioning rule is called resource type rule. Instead of computing existing properties, resource type rules create automatically target resources to be owned by given source resources (identities).
 
-In testing mode, the impacted resource types can be [configured to block provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md#configured-to-block-provisioning), by adding a mandatory review before actually writing to the managed system.
+In testing mode, the impacted resource types can be [configured to block provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md), by adding a mandatory review before actually writing to the managed system.
 
 ## Participants and Artifacts
 

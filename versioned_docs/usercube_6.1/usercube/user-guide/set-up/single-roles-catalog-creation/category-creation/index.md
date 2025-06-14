@@ -32,7 +32,7 @@ Create a category by proceeding as follows:
 1. On the home page in the __Configuration__ section, click on __Access Roles__ to access the roles page.
 
    ![Home Page - Access Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
-2. All existing [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md#categories) are shown in the menus on the left. To create a new category, click on __+__.
+2. All existing [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) are shown in the menus on the left. To create a new category, click on __+__.
 
    ![Add a New Category](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_newcategory_v602.png)
 3. Fill in the fields.

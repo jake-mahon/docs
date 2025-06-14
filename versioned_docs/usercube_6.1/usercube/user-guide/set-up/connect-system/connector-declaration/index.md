@@ -36,8 +36,8 @@ Create a connector container by proceeding as follows:
    - ```Agent```: [agent](/versioned_docs/usercube_6.1/usercube/introduction-guide/architecture/index.md) that the connector is supposed to use.
 
      NETWRIX recommends choosing the provided SaaS agent.
-   - ```Complete Job```: [job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) scheduled to perform a set of tasks, including complete[synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md#synchronization-andor-provisioning) for all the connectors, for which you selected the corresponding checkbox.
-   - ```Incremental Job```: [job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) scheduled to perform frequently a set of tasks, including incremental[synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md#synchronization-andor-provisioning) for all the connectors, for which you selected the corresponding checkbox.
+   - ```Complete Job```: [job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) scheduled to perform a set of tasks, including complete[synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md) for all the connectors, for which you selected the corresponding checkbox.
+   - ```Incremental Job```: [job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) scheduled to perform frequently a set of tasks, including incremental[synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md) for all the connectors, for which you selected the corresponding checkbox.
 3. Click on __+ Create__ to get on the connector's overview page:
 
    ![Connector page](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_connectorpage_v602.png)

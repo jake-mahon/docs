@@ -6,7 +6,7 @@ Expressions are a way to define the attributes whose values must be computed bas
 
 In Usercube's XML configuration, some attributes are defined with expressions. Expression attributes do not take a plain string value, but rather an expression that computes a value based on a given input.
 
-> Typical examples can be found in [entity property expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalar-rules).
+> Typical examples can be found in [entity property expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 Every expression must be passed at least one argument and return at least one value.
 
@@ -200,7 +200,7 @@ To avoid the use of a C# expression when the parameter is not needed, simple lit
 - The expression is prefixed by the ```Literal:``` tag.
 - The expression value must be valid according to the expected type of the property to which the expression applies. For example, ```Literal:five``` does not work for an ```Int``` property.
 
-Literal expressions are available for [```ScalarRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#scalarrule), [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#queryrule) and [```EntityPropertyExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entitypropertyexpression) expressions whose target [```EntityProperty```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#entityproperty)```Type``` attribute is of the following :
+Literal expressions are available for [```ScalarRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md), [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and [```EntityPropertyExpression```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) expressions whose target [```EntityProperty```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)```Type``` attribute is of the following :
 
 - String = 0
 - Bytes = 1
@@ -213,7 +213,7 @@ Literal expressions are available for [```ScalarRule```](/versioned_docs/usercub
 - Int16 = 10
 - ForeignKey = 12
 
-Literal expressions are not available for [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#queryrule)```TargetExpression``` attribute, only ```SourceExpression```.
+Literal expressions are not available for [```QueryRule```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)```TargetExpression``` attribute, only ```SourceExpression```.
 Literal expressions are not available for rules targeting a ```DateTime``` or ```Binary``` property.
 
 #### Example

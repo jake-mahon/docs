@@ -105,7 +105,7 @@ This connector is meant to generate to the [```ExportOutput```](/versioned_docs/
     
   A task can use the ```IgnoreCookieFile``` boolean property, and a command line (with an executable) can use the option ```--ignore-cookies```.
 
-The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#exportcookies) folder.
+The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 > For example, with the following configuration:
 >

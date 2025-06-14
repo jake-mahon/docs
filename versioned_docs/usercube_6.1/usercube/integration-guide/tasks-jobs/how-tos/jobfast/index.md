@@ -67,7 +67,7 @@ Example :
 
 ```
 
-The Synchronization Validation Task is not needed , since it is managed by the [state machine](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md#state-machine).
+The Synchronization Validation Task is not needed , since it is managed by the [state machine](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
 For more information on Synchronization task configuration : [Synchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 
@@ -185,7 +185,7 @@ For more information on Update Classification Task : [UpdateClassificationTask](
 
 ### 12. Create the SetInternalUserProfiles task
 
-Create the Set Internal User Profiles Task. The Profile Assignment is needed if one ore more [profile rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md#profile-rules) are configured.
+Create the Set Internal User Profiles Task. The Profile Assignment is needed if one ore more [profile rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) are configured.
 
 This Task is directly linked to a Fulfill parent. if the fulfillment has been completed with the state warning or if it was not started or no processing has been performed, launching this task becomes useless.
 

@@ -6,7 +6,7 @@ A context is used to compute the role assignments for an identity by verifying t
 
 ## Basic Context Generation
 
-When using only a context rule without a record section, the context generation is straightforward: a set of dimension-value pairs is created by computing the value of the [dimension bindings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md#dimension-bindings) on the context rule.
+When using only a context rule without a record section, the context generation is straightforward: a set of dimension-value pairs is created by computing the value of the [dimension bindings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) on the context rule.
 
 > For example, the following context rule defines guests' contexts based on their start date, end date, and company.
 >

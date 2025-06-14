@@ -1,6 +1,6 @@
 # Select Primary Keys
 
-How to choose [key properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#key-properties) and a [mapping key](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md#mapping-key) in order to uniquely identify the [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s resources at different points in a resource's lifecycle.
+How to choose [key properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and a [mapping key](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) in order to uniquely identify the [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s resources at different points in a resource's lifecycle.
 
 ## Overview
 
@@ -26,7 +26,7 @@ The purpose of key properties is to uniquely identify a resource from the entity
 
 Key properties must be unique and immutable. They do not have to be immutable but they must enable resources to be uniquely identifiable at t time.
 
-> The ```dn``` attribute of a resource in the Active Directory usually depends on the resource's position, which often changes during the resource's lifecycle. However, ```dn``` is unique at a given time, and rather useful to define for example [query rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md#query-rules) for ```parentdn```.
+> The ```dn``` attribute of a resource in the Active Directory usually depends on the resource's position, which often changes during the resource's lifecycle. However, ```dn``` is unique at a given time, and rather useful to define for example [query rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) for ```parentdn```.
 
 Only one key property is required, but using several key properties can sometimes help with the rules in the XML configuration. Usercube will search the columns of each key property, one by one, until a corresponding resource is found.
 

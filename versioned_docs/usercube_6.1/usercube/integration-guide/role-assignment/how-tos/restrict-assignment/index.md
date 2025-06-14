@@ -48,7 +48,7 @@ The value in property D1 implies that the rule is checked only if the source res
 
 ## Assign a Resource Type Based on the Role
 
-The restriction on the creation of these accounts is integrated directly into the [TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#typerule) of the [ResourceTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies that the ResourceType will only apply if the [SingleRole rule(s)](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) are checked.
+The restriction on the creation of these accounts is integrated directly into the [TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) of the [ResourceTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies that the ResourceType will only apply if the [SingleRole rule(s)](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) are checked.
 
 This part will link a SingleRole to a ResourceType. This implies that the allocation of a target resource to a source will only be done if the SingleRole rule(s) are verified.
 
@@ -61,7 +61,7 @@ This part will link a SingleRole to a ResourceType. This implies that the alloca
 
 ### Use a navigation rule instead of a type rule
 
-A [navigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#navigationrule) in addition to filling a multi-valued association, also serves as an allocation context for a ResourceType.
+A [navigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) in addition to filling a multi-valued association, also serves as an allocation context for a ResourceType.
 
 There are 3 ways to restrict the allocation of the ResourceType with a NavigationRule:
 

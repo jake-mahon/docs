@@ -46,5 +46,5 @@ In order to verify the process:
 
   ![List of Departments](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
 
-  If the system contains numerous organizations, it is also possible to list them with their managers through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#query-module).
+  If the system contains numerous organizations, it is also possible to list them with their managers through the [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
 - [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with indicators, for example, on the number of workers per type or per organization (through Usercube's predefined reports, the Query module or Power BI), to ensure that Usercube's content sticks to reality.

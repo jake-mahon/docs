@@ -38,7 +38,7 @@ Activities never run in parallel in a workflow. Each activity can start once the
 
 Workflows use [forms](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) to collect input data through the UI.
 
-A form is a set of fields, configured with [controls](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md#controls). A control can define a field to fill, a fields set, call an existing form, etc. depending on its output type. To be displayed in the UI, and potentially filled by a given user with the appropriate data, a form must have a type.
+A form is a set of fields, configured with [controls](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). A control can define a field to fill, a fields set, call an existing form, etc. depending on its output type. To be displayed in the UI, and potentially filled by a given user with the appropriate data, a form must have a type.
 
 Forms without a type can be created in order to be called in other forms with a type. It can be useful to structure your forms, and to avoid rewriting a part of form that is needed in most forms for example.
 

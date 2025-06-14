@@ -133,7 +133,7 @@ This connector is meant to generate:
     
   A task can use the ```IgnoreCookieFile``` boolean property, and a command line (with an executable) can use the option ```--ignore-cookies```.
 
-The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#exportcookies) folder.
+The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 > For example, with the following configuration example:
 >
@@ -143,7 +143,7 @@ The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/user
 >
 > ```
 >
-> We would have ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv``` with a column for each [scalar property](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#scalar-property):
+> We would have ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv``` with a column for each [scalar property](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md):
 >
 > ```
 > ADExport_entries.csv
@@ -321,7 +321,7 @@ If these attributes are not synchronized in Usercube, then they cannot be comput
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-how-to-configure-password-reset-settings).
+[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ### Credential protection
 

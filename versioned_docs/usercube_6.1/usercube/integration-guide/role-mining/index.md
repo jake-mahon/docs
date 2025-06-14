@@ -65,7 +65,7 @@ Starting from the previous example, consider now that users continue requesting 
 
 ![Impact Example - Use Case 4](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-mining/rolemining_impact_usecase4.png)
 
-Starting from the previous example, consider now that, as a result of a reorganization or an access certification for example, some users do not have the role anymore. If the ratio is below the threshold, then role mining will remove the single role rule. If the role (or its policy) is configured with a [grace period](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md#grace-period), users who need the role will not lose it. Then users' entitlements remain unchanged:
+Starting from the previous example, consider now that, as a result of a reorganization or an access certification for example, some users do not have the role anymore. If the ratio is below the threshold, then role mining will remove the single role rule. If the role (or its policy) is configured with a [grace period](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md), users who need the role will not lose it. Then users' entitlements remain unchanged:
 
 ![Impact Example - Use Case 5](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-mining/rolemining_impact_usecase5.png)
 

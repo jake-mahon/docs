@@ -17,7 +17,7 @@ Permissions can be about:
 - administration, which gives access to [administration](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/index.md) actions, accessible in the __Administration__ section on the home page;
 - directory, which gives access to users' data (with several available levels of access), and also any other data accessible in the __Directory__ section on the home page;
 - workflows, which gives access to actions for users' lifecycle (onboarding-movement-offboarding), through the workflows provided by Usercube within the __Directory__ pages;
-- reports, which gives access to Usercube's [predefined reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md#predefined-reports) about workforce.
+- reports, which gives access to Usercube's [predefined reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) about workforce.
 - notifications, which enables notification reception when specific workflows are launched.
 
 NETWRIX recommends creating and using the following profiles:
@@ -76,7 +76,7 @@ Configure a user profile by proceeding as follows:
 
 Before you can see the profile in action, it needs to be assigned to a user.
 
-[See these instructions for assigning profiles to users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md#see-these-instructions-for-assigning-profiles-to-users).
+[See these instructions for assigning profiles to users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md).
 
 ## Next Steps
 

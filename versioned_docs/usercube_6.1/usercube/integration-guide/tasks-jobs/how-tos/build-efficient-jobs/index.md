@@ -57,7 +57,7 @@ Make the relevant tasks incremental by flagging the resources that were recently
 
 Usercube's tasks are all linked together by a logical chain that implies that some tasks are supposed to be executed after some others.
 
-Make sure to [understand the tasks' logical chain](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md#understand-the-tasks-logical-chain) to launch only the relevant tasks.
+Make sure to [understand the tasks' logical chain](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) to launch only the relevant tasks.
 
 > For example, there is no use computing expressions or correlations if there was beforehand no change in the database. Thus, there should not be [```UpdateEntityPropertyExpressionsTask```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md) or [```ComputeCorrelationKeysTask```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md) without first [```SynchronizeTask```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) or [```FulfillTask```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/fulfilltask/index.md).
 

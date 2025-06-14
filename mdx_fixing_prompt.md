@@ -204,7 +204,7 @@ description: 'This has a "quote" that breaks YAML'
   </error>
   <error type="anchor_references_root_heading">
     <description>
-      An anchor references the root heading of a file. Docusaurus does not allow references to the root anchor. A root anchor is defined as having only one pound symbol (#). If an anchor references a root heading, then the fix is to remove the anchor from the reference. To identify if an anchor is referecing a root heading, follow the path to the referenced file and check if the heading being referenced in the anchor is a root heading, like # Install Application.
+      An anchor references the root heading of a file. Docusaurus does not allow references to the root anchor. A root anchor is defined as having only one pound symbol (#). If an anchor references a root heading, then the fix is to remove the anchor from the reference. To identify if an anchor is referecing a root heading, follow the path to the referenced file and check if the heading being referenced in the anchor is a root heading, like `# Install Application`.
     </description>
     <broken>
       The reference [Install Application](/versioned_docs/[PRODUCT_NAME]/activitymonitor/install/application.md#install-application) has an anchor, #install-application, that points to a root header in application.md.

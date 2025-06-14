@@ -9,7 +9,7 @@ This guide shows how to create a [workflow](/versioned_docs/usercube_6.1/usercub
 3. Assign the adequate permissions via an [access control rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md).
 4. Add [menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
 5. Add [aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md), according to the purpose of the workflow.
-6. Add optional elements if needed: [summaries](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#summaries); a [homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md); a [display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md) different from Usercube's default one.
+6. Add optional elements if needed: [summaries](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md); a [homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md); a [display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md) different from Usercube's default one.
 
 ## Examples
 

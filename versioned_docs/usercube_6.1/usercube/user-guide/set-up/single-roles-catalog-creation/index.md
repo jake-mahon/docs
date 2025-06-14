@@ -43,7 +43,7 @@ Usercube's roles are all built the same way. Technically speaking:
   ![Schema - Approval Workflow](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemaapprovals.png)
 
   > We choose to require one manual validation from a knowledgeable user before the Internet role is assigned to a user.
-- to be effective, roles must be linked to actual entitlements in the managed systems. Technically speaking, this means that for each entitlement that you want to assign through a given role, you must create a [navigation rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#navigation-rule) to build said link. A navigation rule is specific to one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md).
+- to be effective, roles must be linked to actual entitlements in the managed systems. Technically speaking, this means that for each entitlement that you want to assign through a given role, you must create a [navigation rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to build said link. A navigation rule is specific to one [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md).
 
   ![Schema - Single Role with Navigation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolerule.png)
 
@@ -107,7 +107,7 @@ In some cases, integrators are not allowed to create/modify fields in the extern
 
 ### Automation of role creation
 
-The UI provides tools to create single roles [manually](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#manually), working top-down from abstraction (role name) to the technical aspects (navigation rule and technical entitlement). Most projects use thousands of single roles, which makes role creation a long, tedious and repetitive process.
+The UI provides tools to create single roles [manually](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md), working top-down from abstraction (role name) to the technical aspects (navigation rule and technical entitlement). Most projects use thousands of single roles, which makes role creation a long, tedious and repetitive process.
 
 ![Schema - Role Creation Top-Down](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schematopdown.png)
 
@@ -132,7 +132,7 @@ For a given managed system, integrators may need the help of the application own
 Create the single role catalog by proceeding as follows:
 
 1. Create as many single roles as possible (with their navigation rules and categories) via [role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md).
-2. Complete the role catalog if needed by creating manually additional [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md#categories) and [single roles with their navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
+2. Complete the role catalog if needed by creating manually additional [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) and [single roles with their navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
 3. Add [composite roles](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/index.md) to the single role catalog only if the project is mature enough. Composite roles are more complex than single roles and they are not mandatory.
 
 ## Impact of Modifications

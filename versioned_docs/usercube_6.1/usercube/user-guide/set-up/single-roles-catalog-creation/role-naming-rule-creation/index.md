@@ -45,13 +45,13 @@ Create a role naming rule by proceeding as follows:
    ![Create a Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.png)
 
    - ```Policy```: [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) in which the rule exists.
-   - ```Property```: navigation property which will define the actual entitlement in the future [navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#navigation-rule).
+   - ```Property```: navigation property which will define the actual entitlement in the future [navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
    - ```Identifier```: must be unique among rules and without any whitespace.
-   - __+ New Rule__: a naming rule is based on the union of [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#rules), themselves based on the intersection of [rule items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#rule-items). A rule item specifies one of the conditions that will trigger the enforcement of the naming rule.
-   - ```Where Expression```: C# expression returning a boolean to condition the application of the rule. [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md#see-a-full-example).
+   - __+ New Rule__: a naming rule is based on the union of [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md), themselves based on the intersection of [rule items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md). A rule item specifies one of the conditions that will trigger the enforcement of the naming rule.
+   - ```Where Expression```: C# expression returning a boolean to condition the application of the rule. [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md).
 
      NETWRIX recommends using this option only when the options available in the rule items do not suffice.
-   - __Single Role__: [single role(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#single-roles) to be created.
+   - __Single Role__: [single role(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) to be created.
 
      - ```Identifier```: must be unique among roles and without any whitespace. If the defined identifier is already used, then neither the role nor the rule is created. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) (mandatory).
      - ```Name```: will be displayed in the UI to identify the future single role. Can be defined by a property path and/or an [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).

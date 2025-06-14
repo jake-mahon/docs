@@ -52,7 +52,7 @@ NETWRIX recommends scheduling an incremental synchronization approximately every
 
 If a synchronization threshold is exceeded, then check whether the threshold is legitimate. If not, it means that the warning comes from a change in the managed system, so you should fix the data directly in the managed system.
 
-[See more details on synchronization thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md#see-more-details-on-synchronization-thresholds).
+[See more details on synchronization thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Troubleshoot Provisioning Issues
 

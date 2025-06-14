@@ -1,6 +1,6 @@
 # Perform Role Mining
 
-How to use role mining to suggest role assignment rules based on existing assignments, in order to push the [automation wall](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md#automation-wall) further.
+How to use role mining to suggest role assignment rules based on existing assignments, in order to push the [automation wall](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md) further.
 
 ## Overview
 

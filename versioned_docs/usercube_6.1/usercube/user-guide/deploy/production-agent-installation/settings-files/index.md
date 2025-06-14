@@ -90,7 +90,7 @@ Configure the agent's settings by proceeding as follows:
      ```
 4. Open ```appsettings.agent.json``` and make sure that:
 
-   - __OpenId__ > __AgentIdentifier__ specifies the agent's name which must match the XML configuration. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#see-more-details).
+   - __OpenId__ > __AgentIdentifier__ specifies the agent's name which must match the XML configuration. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
      > For example:
      >

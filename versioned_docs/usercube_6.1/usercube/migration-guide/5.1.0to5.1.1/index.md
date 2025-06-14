@@ -38,7 +38,7 @@ New Settings:
 
 All ExternalLogin are modified and now use a list of elements:
 
-#### [WsFed](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#wsfed) Authentication
+#### [WsFed](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -70,7 +70,7 @@ New Settings:
 ```
                 
 
-#### [OpenId](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#openid) Authentication
+#### [OpenId](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -104,7 +104,7 @@ New Settings:
 ```
                 
 
-#### [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md#active-directory) Authentication
+#### [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -138,13 +138,13 @@ New Settings:
 ```
                 
 
-#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md#optional-settings)
+#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 
 All working directories are optional in 5.1.1
 
 ## Agent Settings
 
-#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#optional-settings)
+#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 
 All working directories are optional in 5.1.1
 

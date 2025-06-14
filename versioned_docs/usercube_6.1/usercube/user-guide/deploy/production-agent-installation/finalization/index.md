@@ -17,4 +17,4 @@ Finalize the installation of the agent by proceeding as follows:
 
 ## Next Steps
 
-To continue, follow the instructions to [verify the agent's installation](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/index.md#verify-the-agents-installation).
+To continue, follow the instructions to [verify the agent's installation](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/index.md).

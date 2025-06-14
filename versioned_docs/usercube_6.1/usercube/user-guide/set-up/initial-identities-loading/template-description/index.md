@@ -2,7 +2,7 @@
 
 Description of the MS Excel template for the creation of the identities repository.
 
-[Click here to download a template example](/docs/usercube/resources/directory_example_v602.xlsx).
+[Click here to download a template example](/files/usercube/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
 ![Template Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.png)
 
@@ -10,7 +10,7 @@ All tabs contain a column ```Command``` only used at a later stage to [modify (m
 
 ## User - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#an-identity-is-split-into-two-parts), the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle.
+[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md), the first one being the parent resource called ```User``` which represents the user's identity card. It contains the few attributes which shall not change during the identity's lifecycle.
 
 | Attribute | Type | Description |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ All tabs contain a column ```Command``` only used at a later stage to [modify (m
 
 ## UserRecord - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md#an-identity-is-split-into-two-parts), the second one being the one or several child resources called ```UserRecord``` which represent the user's positions. Records belong to users and help materialize:
+[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md), the second one being the one or several child resources called ```UserRecord``` which represent the user's positions. Records belong to users and help materialize:
 
 - several positions at once;
 - validity periods for positions/assignments unrelated to the user itself;
@@ -32,7 +32,7 @@ Thus, the ```UserRecord``` tab usually holds users' information that might chang
 
 | Attribute | Type | Description |
 | --- | --- | --- |
-| RecordIdentifier (recommended) | String | Identifier of the [record](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md#record).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
+| RecordIdentifier (recommended) | String | Identifier of the [record](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md).   __Note:__ it can be the same as ```PositionIdentifier``` when users can have no more than one contract simultaneously.   __Note:__ required when using records. |
 | User (required) | ForeignKey | ```Identifier``` from the ```User``` tab. |
 | EmployeeId (recommended) | String |  |
 | Gender (optional) | ForeignKey | ```Identifier``` from the [```Gender```](#gender) tab. |

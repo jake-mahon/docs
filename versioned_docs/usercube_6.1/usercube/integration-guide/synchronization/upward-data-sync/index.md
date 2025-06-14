@@ -52,7 +52,7 @@ _Sync Up_ is organized as an [Extract, Transform, Load](https://en.wikipedia.org
 
 The _Export_ is the first step of the _Sync Up_.
 
-During this step, data is extracted from the managed system and generates _CSV files_ containing the managed system's raw data. The __output__ of this process is called the ___CSV source files___. They are written to the [export directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#export-directory) waiting to be used by the next-in-line _prepare-synchronization task_.
+During this step, data is extracted from the managed system and generates _CSV files_ containing the managed system's raw data. The __output__ of this process is called the ___CSV source files___. They are written to the [export directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) waiting to be used by the next-in-line _prepare-synchronization task_.
 
 The _Export_ occurs _Agent_-side.
 
@@ -70,7 +70,7 @@ Usercube's [__Connectors__](/versioned_docs/usercube_6.1/usercube/integration-gu
 
 Exporting data from a managed system without a native Usercube process is still possible by writing a custom _Export_ process.
 
-If the managed system has built-in export capabilities, Usercube can simply rely on exports scheduled by the source managed system. Regularly, the managed system generates reports, in whatever format. A custom task, such as a [PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md), can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format expected by Usercube and copy them to the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_). The whole can be scheduled and orchestrated by a [Job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
+If the managed system has built-in export capabilities, Usercube can simply rely on exports scheduled by the source managed system. Regularly, the managed system generates reports, in whatever format. A custom task, such as a [PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md), can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format expected by Usercube and copy them to the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md). The whole can be scheduled and orchestrated by a [Job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
 __For example__, a common scenario is to configure an HR management system to perform daily extracts of its data to CSV files for the _Agent_ to find. This usually can be set up without any Usercube's task, just by using the managed system and the organization's network capabilities.
 
@@ -96,9 +96,9 @@ Inside those constraints, every natively supported _export task_ generates its o
 
 All _CSV source files_ are written to the _export directory_.
 
-At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
+At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
 
-The [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
+The [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 
 The reader might now understand how, as laid out in the overview, the input data could be unreliable given the volatile nature of the managed system export methods. _Complete_ and _incremental_ modes work together to find the best compromise between reliability and execution time.
 
@@ -154,7 +154,7 @@ The translation rules are described in the [applicative configuration](/versione
 
 [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) elements map the resources _CSV source files_ columns to [Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-types) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
 
-[```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-associations). They describe rules identifying associations between resources loaded thanks to the [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
+[```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
 
 ## Prepare Synchro
 
@@ -173,7 +173,7 @@ The following actions are performed on the _CSV source files._
 3. Removing duplicates
 4. Sorting entries according to the primary key
 
-The result of the _Prepare-Synchronization_ is stored in the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_) as three files:
+The result of the _Prepare-Synchronization_ is stored in the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) as three files:
 
 For every entity type of the relevant _Connector_ involved in an [```<EntityTypeMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or an [```<EntityAssociationMapping>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) , a ```.sorted.csv``` file is generated, containing the final, cleaned, sorted result.
 
@@ -187,7 +187,7 @@ In _incremental_ mode, changes might need to be computed by the _Agent_.
 
 If the export step has provided computed changes, no further process is required. The changes will be sent as-is to the server.
 
-If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_).
+If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 For _incremental_ mode, it is recommended to use managed systems to compute changes when possible. Dedicated workstations and knowledge of the inner data organization allow managed systems to compute changes with a performance that Usercube can't match. Also, using managed systems for these operations avoid generating heavy files and alleviate Usercube's processing load.
 
@@ -195,7 +195,7 @@ The result is a set of clean lists of changes stored as ```.sorted.delta``` file
 
 The _command_ column can take the following values: _insert_, _update_, _delete_, and _merge_. These are instructions for the _synchronization_ step to apply the changes to the database.
 
-The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#_export-directory_). It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
+The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md). It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
 
 Tampering with the ```previous``` folder content would result in false changes in order to be computed and result in data corruption in the Usercube database. To restore the Usercube database to a state faithful to the managed system, a _complete__Sync Up_ would be required.
 
@@ -240,8 +240,8 @@ Before writing to the Usercube's database, the _Server_ uses [```<EntityTypeMapp
 The _Synchronization_ step involves four tables from Usercube's database.
 
 - UR\_Resources contains the actual resources.
-- Mono-valued associations ( [target column index](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#target-column-index) 128 to 137 included ) are stored in UR\_Resources as well,
-- Multi-valued associations ( [target column index](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#target-column-index) null or -1 or 0 to 127 included ) are stored in the UR\_ResourceLinks table.
+- Mono-valued associations ( [target column index](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) 128 to 137 included ) are stored in UR\_Resources as well,
+- Multi-valued associations ( [target column index](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) null or -1 or 0 to 127 included ) are stored in the UR\_ResourceLinks table.
 - UR\_ResourcesChanges and UR\_ResourceLinkChanges are intermediary tables, used by the complete mode as an extra step before committing changes to the UR\_Resources and UR\_ResourceLinks in the context of a safeguard mechanism.
 
 ### Complete
@@ -302,7 +302,7 @@ It is hence recommended to run at least a daily _complete_ synchronization to ac
 
 Remember that _incremental_ and _complete_ Sync Up modes use safeguards to avoid accidental overwrites. That means any error that could find its way into the database would be small.
 
-_Incremental_ mode also offers another optimization that will be described in the [evaluate policy section](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md#evaluate-policy-section). Trade-offs of that optimization can also be counterbalanced by running a daily _complete_ synchronization.
+_Incremental_ mode also offers another optimization that will be described in the [evaluate policy section](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md). Trade-offs of that optimization can also be counterbalanced by running a daily _complete_ synchronization.
 
 ## Thresholds
 

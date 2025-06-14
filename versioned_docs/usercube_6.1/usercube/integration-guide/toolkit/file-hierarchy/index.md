@@ -15,7 +15,7 @@ For exemple, structure of the ```<Connector>``` element wil be found [here](/ver
 
 In some case, the element name will not match directly the data model type name.
 
-For exemple, the element ```<Entry>``` in the following XML fragment is a [AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#accesscontrolentry) item in the database.
+For exemple, the element ```<Entry>``` in the following XML fragment is a [AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) item in the database.
 
 ```
 

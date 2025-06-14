@@ -120,4 +120,4 @@ Limit a profile's permissions by using filters in the access control rule that g
 >
 > ```
 
-[See more details on access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#see-more-details-on-access-control-filters).
+[See more details on access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md).

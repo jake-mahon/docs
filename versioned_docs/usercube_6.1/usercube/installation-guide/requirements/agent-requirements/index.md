@@ -36,12 +36,12 @@ The agent's service account needs specific permissions on the [working directory
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the [```Runtime``` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md), usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
-- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path);
-- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#work-folders-path).
+- _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
+- _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path depends on the [```Work``` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 Other permissions should be denied.
 
-> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#how-to-set-up-directory-permissions-in-windows-server)
+> __FAQ__: [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
 
 ### Managed systems' permissions
 
@@ -52,10 +52,10 @@ Every Usercube agent needs one or several service accounts on the target managed
 Before going further, make sure the integration team has provided:
 
 - The list of all managed systems;
-- service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_ operations on the systems associated with a connector allowing respectively [synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md#synchronization-andor-provisioning);
+- service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_ operations on the systems associated with a connector allowing respectively [synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md);
 - service accounts' credentials.
 
-Managed systems credentials are stored in the [```appsettings.agent``` configuration set](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and can be [protected](/versioned_docs/usercube_6.1/usercube/integration-guide/modules/index.md#protected).
+Managed systems credentials are stored in the [```appsettings.agent``` configuration set](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) and can be [protected](/versioned_docs/usercube_6.1/usercube/integration-guide/modules/index.md).
 
 ### Database permissions
 
@@ -75,7 +75,7 @@ The agent requires the use of HTTPS ports and an SSL certificate in order to per
 
 ## Emails
 
-The agent needs access to an SMTP server to send [email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md#email-notifications).
+The agent needs access to an SMTP server to send [email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption Key Pair
 

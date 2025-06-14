@@ -175,6 +175,6 @@ The user needs to have the correct permission to launch the item processing:
 
 ```
 
-It is also possible to add [access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md#access-control-filters) when creating the permission set so that users can only access certain type of campaigns.
+It is also possible to add [access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) when creating the permission set so that users can only access certain type of campaigns.
 
 This permission also is given by the [```AccessReviewAdministrationAccessControlRules```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md) scaffolding.

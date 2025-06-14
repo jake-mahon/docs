@@ -37,7 +37,7 @@ The following example computes a new value for the ```Card``` property in users'
 | AcceptNullValueExpression   optional | __Type__    String   __Description__   C# expression returning a boolean, ```true``` to consider ```null``` for the new value returned by ```Expression```. By default, ```null``` values are ignored. |
 | Expression   optional | __Type__    String   __Description__   C# expression returning a new value for the property to be changed.    __Note:__ this property can also be defined by a binding via ```ExpressionBinding```. |
 | ExpressionBinding   optional | __Type__    String   __Description__   Binding:   - that defines the variable type used in the potential expressions specified in the aspect;   - whose difference with ```Binding``` defines the property involved in the aspect.   __Note:__ required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
-| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md#see-more-details-on-c-expressions). |
+| IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
 | Priority   default value: 0 | __Type__    Int32   __Description__   Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.   __Note:__ the priority can be a negative value. |
 
 ## Child Element: PointCut

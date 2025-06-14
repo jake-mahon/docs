@@ -52,7 +52,7 @@ Create a composite role by proceeding as follows:
    - ```Comment Management on Permission Review```: to change if different from the role policy.
    - ```Maximum Duration```: duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified. It impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted. If no duration is set on the role, the ```MaxDuration``` of the associated policy is applied. If the ```MaxDuration``` is set to 0 on the role, it prevents the associated policy from applying its ```MaxDuration``` to it.
 4. Click on __Create__ and see a line added on the roles page.
-5. Create at least one [single role rule](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md#single-role-rule) with the composite role as a criterion.
+5. Create at least one [single role rule](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) with the composite role as a criterion.
 
 ## Impact of Modifications
 
@@ -72,4 +72,4 @@ Select composite roles and find the role you created inside the right category a
 
 ![Access Composite Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/compositeroles_testroles_v602.png)
 
-For rules, follow the instructions about [assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md#assignment-rules).
+For rules, follow the instructions about [assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md).

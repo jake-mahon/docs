@@ -1,6 +1,6 @@
 # Create Resources
 
-How to define [resource type rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md#resource-type-rules) to create new (target) resources for given users, computing and provisioning their properties based on source resources.
+How to define [resource type rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to create new (target) resources for given users, computing and provisioning their properties based on source resources.
 
 ## Overview
 

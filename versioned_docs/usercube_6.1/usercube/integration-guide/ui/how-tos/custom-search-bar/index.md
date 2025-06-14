@@ -23,7 +23,7 @@ Thus, the ```<CanBeFiltered>``` property can be deleted in the ```<Column>``` ar
 
 ## Create Default Filters
 
-To add a default filter, you must add both of the following properties to a [criterion](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md#criterion):
+To add a default filter, you must add both of the following properties to a [criterion](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
 
 - DefaultValue
 - Operator
